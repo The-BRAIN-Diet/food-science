@@ -1,40 +1,24 @@
 ---
 title: Glutamate Clearance & Recycling
 pm_id: BRS1-FM4-PM10
-mission: >-
-  Clear and recycle glutamate efficiently so excitatory load does not overwhelm
-  neural circuits.
+mission: Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.
 parent_fm: BRS1(FM4)
 parent_brs: BRS1
-summary: >-
-  Governs uptake, recycling, and buffering of glutamate (the brain's principal
-  excitatory neurotransmitter) at the synapse, controlling how much accumulates
-  in extracellular space after signalling events. This clearance process is
-  distinct from GABA–glutamate balance or GABA synthesis capacity covered by
-  sibling mechanisms, focusing specifically on removal and reuse. Effective
-  clearance protects neural circuits from sustained excitatory drive and
-  supports stable signalling downstream of the broader excitation–inhibition
-  balance.
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
-cofactors:
-  - Magnesium
-  - antioxidant support indirectly
+summary: 'Glutamate clearance ends excitatory signalling by removing extracellular glutamate after release and recycling it through cellular pathways. This is the principal route by which the released glutamate signal is terminated. It limits accumulation around synapses and preserves the conditions for subsequent signalling. The mechanism concerns transporter-mediated uptake and reuse, not GABA synthesis, circuit-level excitation–inhibition matching or injury-level excitotoxic buffering. Spectroscopic glutamate/glutamine pools provide adjacent concentration information but do not directly measure excitatory amino-acid transporter flux.'
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
 dose_sensitivity: Pattern target rather than direct dose threshold
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley
-      attention scale scores in adults with ADHD; glutamate clearance and
-      recycling constrain excitatory load relevant to attention
-      contexts—transport and uptake biochemistry belong on this PM, not
-      integrative E/I balance (PM8).
+    rationale: 'Regional glutamate/glutamine measures associate with attention scores in adults with ADHD {{cite:maltezos_glutamateglutamine_2014}}. That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}.'
     references:
       - index: 1
         label: Maltezos et al. (2014)
@@ -47,15 +31,14 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#zhou_glutamate_2014
         data_level: Mechanistic
     evidence_confidence: low-medium
+    scientific_findings:
+      - PM10-F2
+      - PM10-F1
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Framework translation: efficient glutamate uptake and recycling may
-      support stable synaptic signalling context relevant to cognitive clarity;
-      Zhou and Danbolt (2014) establishes clearance biochemistry without direct
-      cognitive clarity outcome measurement in ADHD cohorts.
+    rationale: 'Efficient glutamate uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}. The attached sources do not measure cognitive-clarity outcomes in ADHD cohorts.'
     references:
       - index: 1
         label: Zhou and Danbolt (2014)
@@ -63,18 +46,117 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#zhou_glutamate_2014
         data_level: Mechanistic
     evidence_confidence: low
+    scientific_findings:
+      - PM10-F1
 references:
-  - >-
-    [Zhou and Danbolt (2014) — Glutamate As a Neurotransmitter in the Healthy
-    Brain](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)
-  - >-
-    [Chai (2025) — Pleiotropic
-    Neurotransmitters](/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025)
-  - >-
-    [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in
-    Adults with
-    ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)
+  - '[Zhou and Danbolt (2014) — Glutamate As a Neurotransmitter in the Healthy Brain](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)'
+  - '[Chai (2025) — Pleiotropic Neurotransmitters](/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025)'
+  - '[Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)'
+  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
+  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
+      this mechanism’s governed glutamate-clearance capacity.
+    disposition: unresolved
+    established_links:
+      - Glutamate is the principal excitatory transmitter and must be taken up and recycled (PM10-F1).
+      - DIAAS and related scores measure digestible IAA adequacy (FAO 2013; Mariotti 2019).
+    inferred_links:
+      - Incomplete IAA quality would limit glutamate-related pools and thereby constrain clearance capacity.
+    evidence_source:
+      finding_ids:
+        - PM10-F1
+      citation_keys:
+        - zhou_glutamate_2014
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    rationale: >-
+      Assessment was completed. Quality-scoring evidence does not connect IAA
+      inadequacy to glutamate uptake or recycling. Glutamate is not an IAA.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed glutamate-clearance capacity.
+    disposition: evidence-supported-non-application
+    established_links:
+      - Clearance terminates extracellular glutamate after signalling (PM10-F1).
+      - Fernstrom 2013’s LAT1 cargo set is large neutral amino acids, not glutamate.
+    inferred_links:
+      - LAT1 imbalance would change amino-acid presentation and thereby constrain uptake and recycling.
+    evidence_source:
+      finding_ids:
+        - PM10-F1
+      citation_keys:
+        - zhou_glutamate_2014
+        - fernstrom_lnna_2013
+    rationale: >-
+      The named competitive state is LAT1 LNAA balance. Glutamate clearance is not
+      that transport process. Public mapping is not published.
 hide_title: true
+scientific_findings_intro: Glutamate is the main excitatory transmitter. Uptake and recycling end the signal and keep extracellular glutamate from building up. The findings below separate that clearance job from spectroscopic glutamate/glutamine measures and from network-level excitation–inhibition framing. They do not show that diet controls clearance flux.
+scientific_findings:
+  - id: PM10-F1
+    finding_label: Glutamate signalling is ended by uptake and recycling
+    finding_summary: Glutamate is the principal excitatory transmitter in the central nervous system. Efficient uptake and recycling terminate the signal and limit extracellular build-up.
+    finding_interpretation: 'This is the defining clearance job. It is not a proof that magnesium, antioxidants or diet change uptake rate.'
+    fm_rollup: true
+    finding_statement: 'Glutamate is the principal excitatory neurotransmitter, and uptake plus recycling are required to terminate synaptic signalling and prevent extracellular accumulation.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A review of glutamate as a healthy-brain transmitter identifies transporter-mediated uptake and subsequent recycling as the steps that end excitatory signalling. That establishes clearance as this mechanism’s governed capacity. It does not measure human EAAT flux after meals.
+    synthesis_limitations: 'Review-level pathway biology. It does not quantify ordinary-diet control of uptake, name a dietary clearance lever, or replace spectroscopy of tissue Glx.'
+    evidence_considered:
+      - label: Zhou and Danbolt (2014)
+        citation_key: zhou_glutamate_2014
+        href: /docs/papers/BRAIN-Diet-References#zhou_glutamate_2014
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Glutamate is the principal excitatory transmitter; uptake and recycling terminate signalling and limit extracellular accumulation.
+        assessment:
+          study: 'Review of glutamate neurotransmission in the healthy brain, including uptake and recycling.'
+          population: Mixed experimental and anatomical literature; not a human dietary sample.
+          result: Identified efficient clearance as necessary to end excitatory signalling.
+          effect_magnitude: No dietary or clinical effect estimate.
+          evidence_summary: Establishes uptake and recycling as the clearance mechanism.
+          limitations: Pathway review; not an intake-to-EAAT-flux study.
+    connected_supportive_evidence:
+      - label: Chai (2025)
+        citation_key: chai_pleiotropic_2025
+        href: /docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025
+        data_level: Mechanistic
+        why_relevant: Reviews excitatory–inhibitory receptor crosstalk that can change how excitation and inhibition interact at synapses.
+        why_excluded: 'Does not measure glutamate transporter flux, recycling rate or extracellular clearance after signalling.'
+    presentation: mechanistic-basis
+  - id: PM10-F2
+    finding_label: Attention-linked glutamate measures are not clearance flux
+    finding_summary: 'In adults with ADHD, regional glutamate/glutamine measures associate with attention scores. Those values are spectroscopic pools, not measured excitatory amino-acid transporter flux.'
+    finding_interpretation: Use this as attention-relevant pool context. Do not read it as proof that clearance rate was measured or that diet changed uptake.
+    finding_statement: Regional glutamate/glutamine spectroscopy associates with attention scores in adults with ADHD and does not measure excitatory amino-acid transporter flux.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Adult ADHD spectroscopy linked lower basal-ganglia Glx to more severe inattention in untreated participants. That is a pool-to-score association sitting next to clearance biology, not a flux assay of uptake or recycling.'
+    synthesis_limitations: Cross-sectional combined glutamate-plus-glutamine signal. No EAAT kinetic arm and no dietary clearance intervention.
+    evidence_considered:
+      - label: Maltezos et al. (2014)
+        citation_key: maltezos_glutamateglutamine_2014
+        href: /docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Lower basal-ganglia Glx associated with more severe inattention in untreated adults with ADHD; Glx is not EAAT flux.
+        assessment:
+          study: Proton spectroscopy of Glx and related metabolites in adults with ADHD and controls.
+          population: Forty adults with ADHD and 20 matched healthy controls.
+          result: Regional Glx differences and an inattention association in untreated ADHD.
+          effect_magnitude: 'Pool and score association, not a clearance-rate estimate.'
+          evidence_summary: Supplies attention-linked glutamate-pool context without measuring uptake flux.
+          limitations: Combined Glx signal; not transporter kinetics or diet.
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -89,24 +171,172 @@ hide_title: true
 
 (Controlling Excitatory Load in Neural Circuits)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.
 
+
+This mechanism is uptake and recycling of glutamate after excitatory signalling. Magnesium and antioxidant support are unassessed for clearance; NMDA-related magnesium belongs more with excitotoxic buffering. Dietary addressability is not established.
+
+**Intervention Dominance:** Diet-Supported
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for glutamate clearance and recycling.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-supported cofactors or substrates are currently established for this mechanism.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Governs uptake, recycling, and buffering of glutamate (the brain's principal excitatory neurotransmitter) at the synapse, controlling how much accumulates in extracellular space after signalling events. This clearance process is distinct from GABA–glutamate balance or GABA synthesis capacity covered by sibling mechanisms, focusing specifically on removal and reuse. Effective clearance protects neural circuits from sustained excitatory drive and supports stable signalling downstream of the broader excitation–inhibition balance.
+Glutamate clearance ends excitatory signalling by removing extracellular glutamate after release and recycling it through cellular pathways Zhou and Danbolt (2014) [[1]](#pm-ref-1). This is the principal route by which the released glutamate signal is terminated. It limits accumulation around synapses and preserves the conditions for subsequent signalling. The mechanism concerns transporter-mediated uptake and reuse, not GABA synthesis, circuit-level excitation–inhibition matching or injury-level excitotoxic buffering. Spectroscopic glutamate/glutamine pools provide adjacent concentration information but do not directly measure excitatory amino-acid transporter flux Maltezos et al. (2014) [[3]](#pm-ref-3).
 
-* Clears and recycles glutamate to prevent excitatory build-up at synapses.
-* Governs removal and reuse, distinct from synthesis or overall balance.
-* Protects neural circuits from sustained excitatory drive.
+* **Mechanism boundary:** Includes extracellular glutamate uptake and recycling after signalling; transmitter synthesis, overall excitation–inhibition balance and downstream injury buffering are separate.
+* **Evidence boundary:** Glutamate/glutamine spectroscopy measures regional metabolite pools, not transporter kinetics or clearance rate Maltezos et al. (2014) [[3]](#pm-ref-3).
+* **Biological relevance:** Clearance limits sustained extracellular excitation, but the assessed evidence does not show that ordinary diet changes clearance or treats ADHD Zhou and Danbolt (2014) [[1]](#pm-ref-1); Maltezos et al. (2014) [[3]](#pm-ref-3).
 
 ## 2. Primary Biological Effects
 ↑ glutamate control; ↑ excitatory clearance context
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Glutamate is the main excitatory transmitter. Uptake and recycling end the signal so extracellular glutamate does not linger. Sibling mechanisms hold integrative excitation–inhibition matching, GABA synthesis and excitotoxic buffering. Spectroscopy of glutamate/glutamine is not a clearance-rate assay.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Glutamate clearance, recycling, and excitatory control</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Glutamate as dominant excitatory transmitter)
+
+Glutamate is the principal excitatory neurotransmitter; efficient uptake and recycling terminate synaptic signalling and prevent accumulation → [Zhou and Danbolt, 2014]
+
+#### (Boundaries of the mechanism)
+
+Integrative excitation–inhibition matching, GABA synthesis and excitotoxic buffering are coordinated sibling jobs. Regional Glx linked to attention scores is a pool association, not EAAT flux → [Maltezos et al., 2014]
+
+#### (Integration)
+
+Clearance capacity can sit beside inflammatory, energetic and glycaemic context. Those cross-system links are constrained associations, not proven controllers of uptake.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Glutamate is the main excitatory transmitter. Uptake and recycling end the signal and keep extracellular glutamate from building up. The findings below separate that clearance job from spectroscopic glutamate/glutamine measures and from network-level excitation–inhibition framing. They do not show that diet controls clearance flux.
+
+<ScientificFinding finding={{"id":"PM10-F1","finding_label":"Glutamate signalling is ended by uptake and recycling","finding_summary":"Glutamate is the principal excitatory transmitter in the central nervous system. Efficient uptake and recycling terminate the signal and limit extracellular build-up.","finding_interpretation":"This is the defining clearance job. It is not a proof that magnesium, antioxidants or diet change uptake rate.","fm_rollup":true,"finding_statement":"Glutamate is the principal excitatory neurotransmitter, and uptake plus recycling are required to terminate synaptic signalling and prevent extracellular accumulation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A review of glutamate as a healthy-brain transmitter identifies transporter-mediated uptake and subsequent recycling as the steps that end excitatory signalling. That establishes clearance as this mechanism’s governed capacity. It does not measure human EAAT flux after meals.","synthesis_limitations":"Review-level pathway biology. It does not quantify ordinary-diet control of uptake, name a dietary clearance lever, or replace spectroscopy of tissue Glx.","evidence_considered":[{"label":"Zhou and Danbolt (2014)","citation_key":"zhou_glutamate_2014","href":"/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Glutamate is the principal excitatory transmitter; uptake and recycling terminate signalling and limit extracellular accumulation.","assessment":{"study":"Review of glutamate neurotransmission in the healthy brain, including uptake and recycling.","population":"Mixed experimental and anatomical literature; not a human dietary sample.","result":"Identified efficient clearance as necessary to end excitatory signalling.","effect_magnitude":"No dietary or clinical effect estimate.","evidence_summary":"Establishes uptake and recycling as the clearance mechanism.","limitations":"Pathway review; not an intake-to-EAAT-flux study."},"canonical_reference":{"author_year":"Zhou and Danbolt (2014)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Chai (2025)","citation_key":"chai_pleiotropic_2025","href":"/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025","data_level":"Mechanistic","why_relevant":"Reviews excitatory–inhibitory receptor crosstalk that can change how excitation and inhibition interact at synapses.","why_excluded":"Does not measure glutamate transporter flux, recycling rate or extracellular clearance after signalling.","canonical_reference":{"author_year":"Chai (2025)","number":2,"anchor":"#pm-ref-2"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory tone can change the setting in which synapses operate, but the attached studies do not show that NF-κB signalling sets glutamate uptake or recycling rate.
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial energy supply can constrain transporter work, yet electron-transport function is not shown here as a controller of glutamate clearance.
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic swings can change metabolic context for neurons, but glucose appearance kinetics are not proven controllers of glutamate recycling.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) — Holds the integrative match between excitation and inhibition. Clearance changes the excitatory load that match must meet; it does not replace the balance job.
+- [BRS1-FM4-PM9 - GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity) — Makes the inhibitory transmitter from glutamate. Synthesis chemistry is coordinated with clearance, not the same uptake-and-recycling function.
+- [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) — Buffers injury-level pressure when excitatory drive exceeds control. Failed or overloaded clearance is an upstream risk for that layer, not the same mechanism.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -157,10 +387,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM8).
-- **Key References:**
+- **Rationale:** Regional glutamate/glutamine measures associate with attention scores in adults with ADHD  Maltezos et al. (2014) [[3]](#pm-ref-3). That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling  Zhou and Danbolt (2014) [[1]](#pm-ref-1).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014","label":"Maltezos et al. (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014","label":"Zhou and Danbolt (2014)","dataLevel":"Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM10-F2","finding_label":"Attention-linked glutamate measures are not clearance flux","finding_summary":"In adults with ADHD, regional glutamate/glutamine measures associate with attention scores. Those values are spectroscopic pools, not measured excitatory amino-acid transporter flux.","finding_interpretation":"Use this as attention-relevant pool context. Do not read it as proof that clearance rate was measured or that diet changed uptake.","finding_statement":"Regional glutamate/glutamine spectroscopy associates with attention scores in adults with ADHD and does not measure excitatory amino-acid transporter flux.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Adult ADHD spectroscopy linked lower basal-ganglia Glx to more severe inattention in untreated participants. That is a pool-to-score association sitting next to clearance biology, not a flux assay of uptake or recycling.","synthesis_limitations":"Cross-sectional combined glutamate-plus-glutamine signal. No EAAT kinetic arm and no dietary clearance intervention.","evidence_considered":[{"label":"Maltezos et al. (2014)","citation_key":"maltezos_glutamateglutamine_2014","href":"/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Lower basal-ganglia Glx associated with more severe inattention in untreated adults with ADHD; Glx is not EAAT flux.","assessment":{"study":"Proton spectroscopy of Glx and related metabolites in adults with ADHD and controls.","population":"Forty adults with ADHD and 20 matched healthy controls.","result":"Regional Glx differences and an inattention association in untreated ADHD.","effect_magnitude":"Pool and score association, not a clearance-rate estimate.","evidence_summary":"Supplies attention-linked glutamate-pool context without measuring uptake flux.","limitations":"Combined Glx signal; not transporter kinetics or diet."},"canonical_reference":{"author_year":"Maltezos et al. (2014)","number":3,"anchor":"#pm-ref-3"}}],"presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -180,257 +411,13 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Framework translation: efficient glutamate uptake and recycling may support stable synaptic signalling context relevant to cognitive clarity; Zhou and Danbolt (2014) establishes clearance biochemistry without direct cognitive clarity outcome measurement in ADHD cohorts.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014","label":"Zhou and Danbolt (2014)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Efficient glutamate uptake and recycling terminate excitatory signalling  Zhou and Danbolt (2014) [[1]](#pm-ref-1). The attached sources do not measure cognitive-clarity outcomes in ADHD cohorts.
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Supported
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Inflammatory control ← polyphenol-rich foods
-- omega-3-rich fish → membrane support.
-- magnesium-rich foods → NMDA modulation.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Magnesium ← leafy greens, nuts, seeds
-- antioxidant support indirectly
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Complete essential amino-acid supply ← eggs, fish, dairy, meat, soy, legumes, grains
-- Tryptophan ← eggs, dairy, fish, poultry, soy, pumpkin seeds
-- Phenylalanine and tyrosine ← dairy, meat, fish, eggs, soy, legumes, nuts, seeds
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Use complementary protein pairing and distributed protein across meals to support amino-acid availability — see [Eggs — Synergies](/docs/foods/eggs#synergies), [Lentils — Synergies](/docs/foods/lentils#synergies).
-- Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs) — see [Turkey — Preparation](/docs/foods/turkey#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
-- Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-BRS1-FM4-PM10 supports glutamate clearance, uptake, and recycling processes that limit excessive extracellular glutamate and protect against excitatory drift within [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation). Magnesium, membrane lipid support, and anti-inflammatory dietary context contribute to network stability alongside sibling E/I PMs.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Glutamate clearance, recycling, and excitatory control</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Glutamate as dominant excitatory transmitter)
-
-Glutamate is the principal excitatory neurotransmitter in the central nervous system; efficient uptake and recycling are required to terminate synaptic signalling and prevent accumulation → [Zhou and Danbolt, 2014]
-
-#### (Magnesium and membrane support)
-
-Magnesium modulates NMDA receptor-mediated excitability; omega-3 and polyphenol-rich dietary patterns in section 6 support membrane and inflammatory context that indirectly stabilise excitatory signalling environments → [Chai, 2025]
-
-#### (Cluster coordination)
-
-BRS1-FM4-PM10 complements [BRS1-FM4-PM9](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity) (inhibitory synthesis) and [BRS1-FM4-PM11](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) (downstream excitotoxic stress), with integrative balance held by [BRS1-FM4-PM8](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance).
-
-#### (connected mechanisms)
-
-Mitochondrial and inflammatory cross-links (section 5.3) reflect that clearance capacity interacts with bioenergetic and redox load, but glutamate handling remains the defining biology for this PM.
-
-Together, BRS1-FM4-PM10 operationalises dietary support for glutamate control and recycling within the E/I mechanism cluster.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Glutamate clearance and recycling biology is well established. The studies below highlight uptake, recycling, and excitability context that refine how excitatory control is interpreted within BRS1(FM4).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Glutamate as principal excitatory transmitter</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Glutamate is the principal excitatory neurotransmitter of the CNS; efficient uptake and recycling are required to terminate synaptic signalling and prevent accumulation [Zhou and Danbolt, 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014","label":"Zhou and Danbolt (2014)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Magnesium and excitatory signalling context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Magnesium modulates NMDA receptor-mediated excitability; membrane and inflammatory dietary context indirectly stabilise the excitatory signalling environments in which clearance operates [Chai, 2025].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025","label":"Chai (2025)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
-- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance)
-- [BRS1-FM4-PM9 - GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity)
-- [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to glutamate clearance & recycling.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM10 Relevance |
-|---|---|---|
-| Functional Property Potentials | complete_protein_context; lnna_transport_context; choline_rich_food_matrix | May influence meal-level mechanism support. |
-| Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Zhou and Danbolt (2014) — Glutamate As a Neurotransmitter in the Healthy Brain](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)
-- [Chai (2025) — Pleiotropic Neurotransmitters](/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025)
-- [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)
+
+- <span id="pm-ref-1">[1]</span> [Zhou and Danbolt (2014) — Glutamate As a Neurotransmitter in the Healthy Brain](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)
+- <span id="pm-ref-2">[2]</span> [Chai (2025) — Pleiotropic Neurotransmitters](/docs/papers/BRAIN-Diet-References#chai_pleiotropic_2025)
+- <span id="pm-ref-3">[3]</span> [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)

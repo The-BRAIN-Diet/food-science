@@ -1002,6 +1002,11 @@ Kale:
   permalink: /kale
   description: Leafy green rich in vitamins and glucosinolates
 
+Kaempferol:
+  label: Kaempferol
+  permalink: /kaempferol
+  description: Dietary flavonol in leafy greens, herbs, tea and some fruits
+
 Kefir:
   label: Kefir
   permalink: /kefir

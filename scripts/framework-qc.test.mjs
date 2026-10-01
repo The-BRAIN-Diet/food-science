@@ -14,6 +14,8 @@ import {
   assertPublicDatasetSafe,
   findPublicPageRecord,
   openPublicIssueCount,
+  loadJson,
+  validatePmRerunCompleteness,
 } from "./lib/framework-qc.mjs"
 
 test("food, recipe, PM, KC, phenome and hub classification", () => {
@@ -142,6 +144,7 @@ test("public dataset excludes internal issues and private fields", () => {
   })
   assert.equal(matched.page_id, "BRS5-FM2-PM4")
   assert.equal(openPublicIssueCount(matched), 1)
+  assert.equal((publicDataset.issues || []).some((issue) => issue.register_surface === "pm-tab"), false)
   assert.equal(matched.reviewer, "Framework editorial review")
 
   const unmatched = findPublicPageRecord(publicDataset, {
@@ -173,8 +176,8 @@ test("public Review & Corrections UI is shared layout, not per-page content", ()
   assert.match(bar, /showsPageUtilityBar/)
   assert.match(publicTs, /pageType === "Index"/)
   assert.match(publicTs, /isIndexDocSource/)
-  assert.match(bar, /aria-disabled="true"/)
-  assert.match(bar, /aria-selected="true"/)
+  assert.match(bar, /aria-disabled=\{!hasAdvanced\}/)
+  assert.match(bar, /aria-selected=\{reviewOpen\}/)
   assert.match(css, /margin-left:\s*auto/)
   assert.match(css, /justify-content:\s*flex-end/)
   assert.match(css, /border-radius:\s*0/)
@@ -193,7 +196,8 @@ test("public Review & Corrections UI is shared layout, not per-page content", ()
     /No accepted corrections are currently recorded for this page\. This does not mean that the page has completed source or expert review\./,
   )
   assert.match(panel, /UNREVIEWED_STATUS_COPY/)
-  assert.match(panel, /includeInternalDocs/)
+  assert.match(panel, /page_type !== "PM"/)
+  assert.match(panel, /Evidence review status is separate/)
   assert.equal(/verified|approved|evidence-based/i.test(panel), false)
   assert.equal(/login|sign up|comment|notification/i.test(register), false)
 
@@ -225,7 +229,7 @@ test("framework-wide issues are not copied onto every register row", () => {
   const pm = rows.find((r) => r.page_id === "BRS5-FM2-PM4")
   const food = rows.find((r) => r.page_id === "green-tea")
   assert.deepEqual(pm.linked_framework_issue_ids, ["FW001"])
-  assert.equal(pm.review_status, "issues_logged")
+  assert.equal(pm.review_status, "unreviewed")
   assert.deepEqual(food.linked_framework_issue_ids, [])
   assert.equal(food.review_status, "unreviewed")
 })
@@ -243,6 +247,35 @@ test("generated public dataset stays public-safe", () => {
   })
   assert.ok(pm)
   assert.equal(openPublicIssueCount(pm), 2)
+  assert.equal((dataset.issues || []).some((issue) => issue.id === "FW004"), false)
+  assert.equal((dataset.issues || []).some((issue) => /Tyrosine is not an indispensable/i.test(issue.title || "")), false)
+  const pm1 = findPublicPageRecord(dataset, {
+    permalink: "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    pageId: "BRS1-FM1-PM1",
+  })
+  assert.ok(pm1)
+  assert.ok((pm1.corrections || []).length > 0)
+  assert.equal(pm1.review_status, "unreviewed")
   const missing = findPublicPageRecord(dataset, {permalink: "/docs/not-a-page", pageId: "missing"})
   assert.equal(missing, null)
+})
+
+test("PM1 rerun records stay valid and off the framework register", () => {
+  const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..")
+  const issuesDoc = loadJson(path.join(root, "system/framework-qc/framework-issues-register.json"), {issues: []})
+  const stateDoc = loadJson(path.join(root, "system/framework-qc/page-review-state.json"), {pages: {}})
+  assert.deepEqual(
+    validatePmRerunCompleteness({
+      pmId: "BRS1-FM1-PM1",
+      stateRow: stateDoc.pages["BRS1-FM1-PM1"],
+      issues: issuesDoc.issues,
+      root,
+    }),
+    [],
+  )
+  assert.equal(
+    issuesDoc.issues.filter((issue) => issue.id?.startsWith("FW00") && Number(issue.id.slice(2)) >= 4)
+      .every((issue) => issue.register_surface === "pm-tab"),
+    true,
+  )
 })

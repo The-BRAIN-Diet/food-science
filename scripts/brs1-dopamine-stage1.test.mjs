@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import matter from "gray-matter";
+import { validatePmKcGovernance } from "./lib/kc-evidence-governance.mjs";
 
 const ROOT = process.cwd();
 const BRS_ROOT = path.join(ROOT, "docs/biological-targets");
@@ -72,7 +73,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.deepEqual(dopamineFiles, [DOPAMINE_PATH]);
 
   const { data, content } = matter(fs.readFileSync(DOPAMINE_PATH, "utf8"));
-  assert.equal(data.evidence_status, "stage-2a-scientific-evidence");
+  assert.equal(data.evidence_status, "stage-2b-dietary-addressability");
   assert.equal(data.mechanistic_authoring_required, false);
   assert.equal(data.dietary_addressability, "not-established");
   assert.equal(data.claim_ceiling, "biological-dependency");
@@ -97,11 +98,73 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.ok(data.references.length >= 11);
   assert.deepEqual(
     data.dietary_input_traceability.map((atom) => atom.atom_id),
-    ["PM3-DIT-1", "PM3-DIT-2", "PM3-DIT-3"],
+    ["PM3-DIT-1", "PM3-DIT-2", "PM3-DIT-3", "PM3-DIT-5", "PM3-DIT-4"],
+  );
+  const byId = Object.fromEntries(
+    data.dietary_lever_atoms.map((atom) => [atom.atom_id, atom]),
+  );
+  assert.equal(byId["PM3-DIT-1"].dietary_addressability, "not-established");
+  assert.equal(byId["PM3-DIT-2"].dietary_addressability, "not-established");
+  assert.equal(byId["PM3-DIT-3"].dietary_addressability, "precursor-mediated");
+  assert.equal(byId["PM3-DIT-3"].claim_ceiling, "dietary-provision");
+  assert.equal(byId["PM3-DIT-4"].relationship_layer, "biochemical-requirement");
+  assert.equal(byId["PM3-DIT-5"].requirement_classification, "direct");
+  assert.equal(byId["PM3-DIT-5"].relationship_mode, "capacity-requirement");
+  assert.equal(byId["PM3-DIT-5"].claim_ceiling, "biological-dependency");
+  assert.equal(byId["PM3-DIT-1"].relationship_mode, "capacity-requirement");
+  assert.equal(byId["PM3-DIT-2"].relationship_mode, "capacity-requirement");
+  assert.equal(byId["PM3-DIT-3"].relationship_mode, "capacity-requirement");
+  assert.match(content, /- Tyrosine/);
+  assert.match(content, /Tyrosine, iron and PLP are established biological dependencies/);
+  assert.match(
+    content,
+    /Addresses the precursor pool supplying tyrosine for PM3’s dopamine-synthesis step/,
+  );
+  const tyrosine = data.dietary_input_traceability.find((atom) => atom.atom_id === "PM3-DIT-5");
+  assert.equal(
+    tyrosine?.biological_role,
+    "Tyrosine is the substrate for conversion to L-DOPA in dopamine synthesis.",
+  );
+  assert.deepEqual(tyrosine?.upstream_pm_relationships, [
+    {
+      relationship_label: "Supply",
+      pm_short_id: "PM1",
+      pm_id: "BRS1-FM1-PM1",
+      href: "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    },
+  ]);
+  const tyrosinePresentation = (data.dietary_lever_presentations || []).find(
+    (row) => row.atom_id === "PM3-DIT-5",
+  );
+  assert.match(
+    tyrosinePresentation?.reader_description,
+    /Tyrosine is the starting material used to make dopamine/,
+  );
+  assert.doesNotMatch(
+    `${tyrosine?.biological_role} ${tyrosinePresentation?.reader_description}`,
+    /on this page|supply assessment is maintained|Local listing does not create/,
+  );
+  assert.equal(
+    (content.split("### 5.3")[1] || "").match(
+      /brs1-fm1-pm1-amino-acid-availability-and-prioritisation/g,
+    )?.length,
+    1,
+  );
+  assert.equal(
+    (data.dietary_lever_presentations || []).some(
+      (row) => row.atom_id === "PM3-DIT-1" && String(row.presentation_section) === "3.1.2",
+    ),
+    false,
+  );
+  assert.equal(
+    (data.dietary_lever_presentations || []).some(
+      (row) => row.atom_id === "PM3-DIT-2" && String(row.presentation_section) === "3.1.2",
+    ),
+    false,
   );
   assert.ok(
-    data.dietary_lever_atoms.every((atom) =>
-      /Candidate for Dietary Levers review/.test(atom.permitted_wording),
+    data.dietary_lever_atoms.every(
+      (atom) => !/Candidate for Dietary Levers review/.test(atom.permitted_wording || ""),
     ),
   );
   assert.deepEqual(
@@ -142,7 +205,27 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
     assert.ok(relationship.evidence_limitation);
   }
   assert.match(content, /### 4\.1 Scientific Findings/);
-  assert.match(content, /No scoreable inputs are activated in Stage 2A/);
+  const kcIssues = [];
+  validatePmKcGovernance(data, kcIssues, { entityLabel: "BRS1-FM1-PM3" });
+  assert.deepEqual(kcIssues, []);
+  const kcRows = data.kc_applicability_adjudications || [];
+  assert.equal(kcRows.filter((row) => row.kc_id === "BRS1(KC1)").length, 2);
+  assert.ok(kcRows.some((row) => row.kc_id === "BRS2(KC1)"));
+  assert.ok(kcRows.some((row) => row.kc_id === "BRS3(KC1)"));
+  assert.equal(
+    kcRows.every((row) => row.applicability_proposition && row.disposition !== "unassessed"),
+    true,
+  );
+  const establishedKc = kcRows.filter((row) => row.disposition === "established");
+  if (establishedKc.length) {
+    assert.ok((data.pm_kc_relationships || []).length > 0);
+    assert.match(content, /brs-kc-title-link/);
+  } else {
+    assert.equal((data.pm_kc_relationships || []).length, 0);
+    assert.match(content, /No mapping established\./);
+    assert.doesNotMatch(content, /brs-kc-title-link/);
+  }
+  assert.match(content, /- Tetrahydrobiopterin \(BH4\)/);
   assert.match(content, /ADHD does not show one uniform dopamine abnormality/);
   assert.equal(
     (content.match(/data-brs-sop-category=/g) || []).length,
@@ -165,7 +248,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   );
   assert.match(content, /Acute voluntary cardiovascular exercise/);
   assert.match(content, /Avoid acute total sleep deprivation/);
-  assert.match(content, /Short-term selective dietary-fat restriction under controlled conditions/);
+  assert.match(content, /Short-term selective dietary-fat restriction in adults with obesity under controlled conditions/);
   assert.match(content, /Short-term very-low-calorie dieting in adults with obesity/);
   assert.ok(
     [...data.system_optimisation_practices, ...data.lifestyle_priorities].every(

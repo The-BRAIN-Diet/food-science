@@ -410,15 +410,7 @@ ${kcs.map((k) => `- [${k.id} - ${k.name || k.id}](/docs/biological-targets/brs${
 ${renderHubCollapsible("Lifestyle", `- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.`)}
 
-## 9. Scoreable Inputs & Modulation Signals
-
-${renderHubCollapsible("Scoreable Input Categories", `| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support ${pm.name.toLowerCase()}. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |`)}
-
-## 10. References
+## 9. References
 
 ${refBlock}
 `;
@@ -474,12 +466,6 @@ ${definition}
 
 ${fm.outputs || "↑ integrated pathway support"}
 
-## 3. Phenome Connections
-
-These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).
-
-No functional outcome context currently mapped.
-
 ## 4. Mechanistic Basis (Integrated FM Narrative)
 
 ${mechanisticBasisFm(fm, pms, kcs, brsNum, slugById)}
@@ -488,7 +474,13 @@ ${mechanisticBasisFm(fm, pms, kcs, brsNum, slugById)}
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
-## 6. References
+## 7. Phenome Connections
+
+These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).
+
+No functional outcome context currently mapped.
+
+## 8. References
 
 ${refSection || "1. See PM pages for linked citations."}
 `;

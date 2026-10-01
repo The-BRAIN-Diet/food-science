@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-09-28T21:41:33.601Z",
+    "generatedAt": "2026-09-30T15:46:29.339Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -102,7 +102,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Serotonergic signalling intersects negative-valence and cognitive-control circuits implicated in sustained worry and rumination across anxiety and depressive spectra; Briguglio et al. (2018) summarises dietary serotonin biology relevant to neuropsychiatric mood and anxiety contexts. Marsland et al. (2017) links systemic inflammation to default-mode connectivity patterns associated with perseverative thought — translational framing only, not dietary treatment efficacy.",
+      "rationale": "Serotonin signalling intersects negative-valence and control circuits discussed in mood and anxiety contexts {{cite:briguglio_dietary_2018}}. Systemic-inflammation connectivity is not a serotonin measurement {{cite:marsland_systemic_2017}}.",
       "references": [
         {
           "index": 1,
@@ -424,11 +424,11 @@
       "confidence": "medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.",
+      "rationale": "Cholinergic signalling is a biological context for working-memory and cognitive precision {{cite:derbyshire_role_2023}} {{cite:briguglio_dietary_2018}}. The attached sources do not measure cognitive-clarity scores after a choline change aimed at acetylcholine synthesis.",
       "references": [
         {
           "index": 1,
-          "label": "Derbyshire et al. (2023)",
+          "label": "Derbyshire and Maes (2023)",
           "citationKey": "derbyshire_role_2023",
           "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023"
         },
@@ -452,11 +452,11 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.",
+      "rationale": "DHA in neuronal phospholipids supports membrane architecture used in synaptic signalling {{cite:mcnamara_role_2006}} {{cite:patrick_role_2019}}. Delivery form can change accretion in an animal model {{cite:liu_higher_2014}}. Those are structural and transport findings, not cognitive-clarity scores after a human DHA change.",
       "references": [
         {
           "index": 1,
-          "label": "McNamara & Carlson (2006)",
+          "label": "McNamara and Carlson (2006)",
           "citationKey": "mcnamara_role_2006",
           "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
         },
@@ -486,7 +486,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework translation: efficient glutamate uptake and recycling may support stable synaptic signalling context relevant to cognitive clarity; Zhou and Danbolt (2014) establishes clearance biochemistry without direct cognitive clarity outcome measurement in ADHD cohorts.",
+      "rationale": "Efficient glutamate uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}. The attached sources do not measure cognitive-clarity outcomes in ADHD cohorts.",
       "references": [
         {
           "index": 1,
@@ -1540,7 +1540,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM5.",
+      "rationale": "Carbohydrate-rich versus protein-rich meals can change the plasma tryptophan-to-LNAA ratio {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}. Plasma-ratio change is not serotonin signalling or an emotional-regulation benefit.",
       "references": [
         {
           "index": 1,
@@ -1574,7 +1574,7 @@
       "confidence": "high",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Serotonergic signalling is a core biological substrate for emotional regulation, impulse control, and affective stability in ADHD and related neuropsychiatric conditions — supported by ADHD-focused serotonin literature and human mechanistic emotion-regulation studies. Tryptophan availability and cofactor context modulates upstream supply; this scores biological relevance, not dietary treatment efficacy.",
+      "rationale": "Serotonin signalling is a core biological substrate for emotional regulation, impulse control and affective stability {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not establish a uniform serotonin deficit that diet can correct {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}.",
       "references": [
         {
           "index": 1,
@@ -1614,7 +1614,7 @@
       "confidence": "medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "observational",
-      "rationale": "Huss et al. (2010) measured SDQ emotional problems directly: fewer emotional problems at 12 weeks versus baseline in children seeking medical advice for ADHD-related symptoms, alongside SNAP-IV attention/hyperactivity change, following combined omega-3/6 PUFA with magnesium and zinc. Membrane DHA delivery and incorporation remain the mechanism boundary; the observational multi-nutrient design prevents isolating membrane biology from co-supplemented minerals.",
+      "rationale": "Combined omega-3/6 with magnesium and zinc was followed by fewer emotional-problem scores in an observational ADHD-seeking cohort {{cite:huss_supplementation_2010}}. Membrane DHA remains the mechanism boundary; the multi-nutrient design cannot isolate incorporation {{cite:mcnamara_role_2006}}.",
       "references": [
         {
           "index": 1,
@@ -1624,7 +1624,7 @@
         },
         {
           "index": 2,
-          "label": "McNamara & Carlson (2006)",
+          "label": "McNamara and Carlson (2006)",
           "citationKey": "mcnamara_role_2006",
           "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
         }
@@ -1642,7 +1642,7 @@
       "confidence": "medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
+      "rationale": "Substantial mismatch between excitation and inhibition would be expected to impair emotional control. Reduced GABA concentration in ADHD cohorts {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}} supplies pool context, not an emotional-regulation scale and not GABA synthesis.",
       "references": [
         {
           "index": 1,
@@ -2050,7 +2050,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3–PM5).",
+      "rationale": "Meal-level LNAA competition at LAT1 can shift plasma tyrosine and tryptophan ratios and, on review evidence, brain-entry bias {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}. The attached meal studies do not measure attention or ADHD outcomes, and transport modulation cannot substitute for substrate sufficiency or downstream signalling.",
       "references": [
         {
           "index": 1,
@@ -2118,7 +2118,7 @@
       "confidence": "high",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.",
+      "rationale": "Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged {{cite:odonnell_norepinephrine_2012}}. That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect {{cite:macdonald_dopamine_2024}}.",
       "references": [
         {
           "index": 1,
@@ -2152,7 +2152,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.",
+      "rationale": "Acetylcholine is the cholinergic transmitter used in attention and learning circuits {{cite:johansson_decreased_2013}} {{cite:derbyshire_role_2023}}. Receptor-binding differences in boys with ADHD and choline/neurodevelopment reviews supply translational context. They do not show that changing choline intake treats ADHD or raises brain acetylcholine.",
       "references": [
         {
           "index": 1,
@@ -2162,7 +2162,7 @@
         },
         {
           "index": 2,
-          "label": "Derbyshire et al. (2023)",
+          "label": "Derbyshire and Maes (2023)",
           "citationKey": "derbyshire_role_2023",
           "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023"
         }
@@ -2179,8 +2179,8 @@
       "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.",
+      "evidenceLevel": "observational",
+      "rationale": "Membrane DHA is a structural context for synaptic signalling {{cite:mcnamara_role_2006}}. An observational multi-nutrient study in children seeking help for ADHD-related symptoms cannot isolate membrane DHA from co-supplemented minerals {{cite:huss_supplementation_2010}}. Omega-3 ADHD reviews remain contextual {{cite:pei-chen_chang_personalised_2021}}.",
       "references": [
         {
           "index": 1,
@@ -2190,7 +2190,7 @@
         },
         {
           "index": 2,
-          "label": "McNamara & Carlson (2006)",
+          "label": "McNamara and Carlson (2006)",
           "citationKey": "mcnamara_role_2006",
           "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
         },
@@ -2214,7 +2214,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM8).",
+      "rationale": "Regional glutamate/glutamine measures associate with attention scores in adults with ADHD {{cite:maltezos_glutamateglutamine_2014}}. That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}.",
       "references": [
         {
           "index": 1,
@@ -2242,7 +2242,7 @@
       "confidence": "high",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM9–PM10.",
+      "rationale": "Matched glutamate–GABA signalling is a core biological context for attentional stability. ADHD cohorts show reduced GABA concentration {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}}, and glutamate/glutamine measures associate with attention scores {{cite:maltezos_glutamateglutamine_2014}}. Those are pool and score associations, not synthesis or clearance flux.",
       "references": [
         {
           "index": 1,
@@ -3054,7 +3054,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3–PM5.",
+      "rationale": "Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM.",
       "references": [
         {
           "index": 1,
@@ -3110,7 +3110,7 @@
       "confidence": "medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.",
+      "rationale": "Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
       "references": [
         {
           "index": 1,
@@ -3216,7 +3216,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.",
+      "rationale": "Catecholamine systems can sit near reward and incentive-motivation biology, but the attached insulin–dopamine review does not measure noradrenaline signalling or a pleasure outcome after diet {{cite:gruber_impact_2023}}. Dopamine-process heterogeneity in ADHD is not a pleasure-capacity finding for this mechanism {{cite:macdonald_dopamine_2024}}.",
       "references": [
         {
           "index": 1,
@@ -3244,7 +3244,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "intervention",
-      "rationale": "Serotonin pathways intersect positive-valence and reward-related mood biology; saffron RCT evidence reports improved subclinical depressive symptoms and social-relationship quality alongside anxiety reduction in adults with low mood — mechanism boundary remains serotonergic signalling support, not saffron as a PM intervention.",
+      "rationale": "Serotonin pathways sit near positive-valence mood biology {{cite:berger_serotonin_2009}}. Saffron supplementation trials are not serotonin-process measurements and are not a Dietary Requirement of this mechanism {{cite:jackson_effects_2021}}.",
       "references": [
         {
           "index": 1,
@@ -3366,7 +3366,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.",
+      "rationale": "This mapping is translational. Limiting chronic receptor-driven energy stress could sit near recovery after load, but Clerc et al. did not measure human recovery outcomes. The relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
       "references": [
         {
           "index": 1,
@@ -3660,7 +3660,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct reward-outcome measurement.",
+      "rationale": "Serotonin can interact with dopaminergic reward circuits and behavioural inhibition {{cite:faraone_serotonin_2025}}. That interaction is not a measured reward outcome after diet {{cite:tang_nutritional_2025}}.",
       "references": [
         {
           "index": 1,
@@ -3738,7 +3738,7 @@
       "confidence": "medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Serotonergic signalling is a major contributory determinant of sleep–wake and calming neurochemistry; substantial serotonergic dysfunction would be expected to affect Sleep / Calming Tone as a biological consequence. Fernstrom (2013) establishes pathway biology; Evidence Confidence is low because attached refs do not directly measure sleep outcomes on this PM.",
+      "rationale": "Serotonin participates in sleep–wake and calming neurochemistry {{cite:berger_serotonin_2009}}. Meal-level precursor transport is not a sleep outcome {{cite:fernstrom_lnna_2013}}.",
       "references": [
         {
           "index": 1,
@@ -3844,7 +3844,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "intervention",
-      "rationale": "Serotonergic tone modulates affiliative and social-affective behaviour in translational framing; Jackson et al. (2021) reported improved social relationships with saffron supplementation in subclinical mood/anxiety contexts — attached evidence is intervention-level, not direct serotonergic social-outcome measurement on this PM.",
+      "rationale": "Serotonin can modulate affiliative and social-affective behaviour in translational accounts {{cite:berger_serotonin_2009}}. A saffron social-relationship outcome is not a serotonin signalling measurement {{cite:jackson_effects_2021}}.",
       "references": [
         {
           "index": 1,
@@ -3938,16 +3938,10 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.",
+      "rationale": "This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
       "references": [
         {
           "index": 1,
-          "label": "Mamiya et al. (2021)",
-          "citationKey": "mamiya_precision_2021",
-          "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021"
-        },
-        {
-          "index": 2,
           "label": "Clerc et al. (2013)",
           "citationKey": "clerc_magnesium_2013",
           "href": "/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013"
@@ -3966,7 +3960,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Excitation–inhibition balance modulates inhibitory control under arousal load; matched E/I tone is a contributory determinant of Stress Reactivity when excitatory drive exceeds inhibitory capacity. Mamiya et al. (2021) establishes E/I network framing; Evidence Confidence is low because attached refs do not directly measure stress-reactivity outcomes on this PM.",
+      "rationale": "Network excitation–inhibition framing treats matched tone as a property of circuits under load {{cite:mamiya_precision_2021}}. The attached sources do not measure stress-reactivity outcomes after a dietary change.",
       "references": [
         {
           "index": 1,
@@ -4258,7 +4252,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
+      "rationale": "Serotonin signalling participates in emotional processing and stress-related control {{cite:shaw_emotion_2014}}. The attached sources do not measure stress resilience after a dietary change aimed at serotonin {{cite:tang_nutritional_2025}}.",
       "references": [
         {
           "index": 1,
@@ -4838,7 +4832,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Serotonergic signalling intersects negative-valence and cognitive-control circuits implicated in sustained worry and rumination across anxiety and depressive spectra; Briguglio et al. (2018) summarises dietary serotonin biology relevant to neuropsychiatric mood and anxiety contexts. Marsland et al. (2017) links systemic inflammation to default-mode connectivity patterns associated with perseverative thought — translational framing only, not dietary treatment efficacy.",
+        "evidence_summary": "Serotonin signalling intersects negative-valence and control circuits discussed in mood and anxiety contexts {{cite:briguglio_dietary_2018}}. Systemic-inflammation connectivity is not a serotonin measurement {{cite:marsland_systemic_2017}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -4874,7 +4868,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Serotonergic signalling is a core biological substrate for emotional regulation, impulse control, and affective stability in ADHD and related neuropsychiatric conditions — supported by ADHD-focused serotonin literature and human mechanistic emotion-regulation studies. Tryptophan availability and cofactor context modulates upstream supply; this scores biological relevance, not dietary treatment efficacy. Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5. Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM5.",
+        "evidence_summary": "Serotonin signalling is a core biological substrate for emotional regulation, impulse control and affective stability {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not establish a uniform serotonin deficit that diet can correct {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}. Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5. Carbohydrate-rich versus protein-rich meals can change the plasma tryptophan-to-LNAA ratio {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}. Plasma-ratio change is not serotonin signalling or an emotional-regulation benefit.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -4908,7 +4902,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}. Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone. Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3–PM5). Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.",
+        "evidence_summary": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}. Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone. Meal-level LNAA competition at LAT1 can shift plasma tyrosine and tryptophan ratios and, on review evidence, brain-entry bias {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}. The attached meal studies do not measure attention or ADHD outcomes, and transport modulation cannot substitute for substrate sufficiency or downstream signalling. Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged {{cite:odonnell_norepinephrine_2012}}. That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect {{cite:macdonald_dopamine_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM3",
@@ -4950,7 +4944,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5). Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3–PM5. Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.",
+        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5). Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM. Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM3",
@@ -4992,7 +4986,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "medium",
-        "evidence_summary": "Serotonin pathways intersect positive-valence and reward-related mood biology; saffron RCT evidence reports improved subclinical depressive symptoms and social-relationship quality alongside anxiety reduction in adults with low mood — mechanism boundary remains serotonergic signalling support, not saffron as a PM intervention. Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.",
+        "evidence_summary": "Serotonin pathways sit near positive-valence mood biology {{cite:berger_serotonin_2009}}. Saffron supplementation trials are not serotonin-process measurements and are not a Dietary Requirement of this mechanism {{cite:jackson_effects_2021}}. Catecholamine systems can sit near reward and incentive-motivation biology, but the attached insulin–dopamine review does not measure noradrenaline signalling or a pleasure outcome after diet {{cite:gruber_impact_2023}}. Dopamine-process heterogeneity in ADHD is not a pleasure-capacity finding for this mechanism {{cite:macdonald_dopamine_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -5018,7 +5012,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct reward-outcome measurement.",
+        "evidence_summary": "Serotonin can interact with dopaminergic reward circuits and behavioural inhibition {{cite:faraone_serotonin_2025}}. That interaction is not a measured reward outcome after diet {{cite:tang_nutritional_2025}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -5036,7 +5030,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Serotonergic signalling is a major contributory determinant of sleep–wake and calming neurochemistry; substantial serotonergic dysfunction would be expected to affect Sleep / Calming Tone as a biological consequence. Fernstrom (2013) establishes pathway biology; Evidence Confidence is low because attached refs do not directly measure sleep outcomes on this PM.",
+        "evidence_summary": "Serotonin participates in sleep–wake and calming neurochemistry {{cite:berger_serotonin_2009}}. Meal-level precursor transport is not a sleep outcome {{cite:fernstrom_lnna_2013}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -5054,7 +5048,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "low",
-        "evidence_summary": "Serotonergic tone modulates affiliative and social-affective behaviour in translational framing; Jackson et al. (2021) reported improved social relationships with saffron supplementation in subclinical mood/anxiety contexts — attached evidence is intervention-level, not direct serotonergic social-outcome measurement on this PM.",
+        "evidence_summary": "Serotonin can modulate affiliative and social-affective behaviour in translational accounts {{cite:berger_serotonin_2009}}. A saffron social-relationship outcome is not a serotonin signalling measurement {{cite:jackson_effects_2021}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -5072,7 +5066,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
+        "evidence_summary": "Serotonin signalling participates in emotional processing and stress-related control {{cite:shaw_emotion_2014}}. The attached sources do not measure stress resilience after a dietary change aimed at serotonin {{cite:tang_nutritional_2025}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -5110,7 +5104,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Framework translation: efficient glutamate uptake and recycling may support stable synaptic signalling context relevant to cognitive clarity; Zhou and Danbolt (2014) establishes clearance biochemistry without direct cognitive clarity outcome measurement in ADHD cohorts.",
+        "evidence_summary": "Efficient glutamate uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}. The attached sources do not measure cognitive-clarity outcomes in ADHD cohorts.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM10",
@@ -5128,7 +5122,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "high",
-        "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
+        "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking. Substantial mismatch between excitation and inhibition would be expected to impair emotional control. Reduced GABA concentration in ADHD cohorts {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}} supplies pool context, not an emotional-regulation scale and not GABA synthesis.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM9",
@@ -5154,7 +5148,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "high",
-        "evidence_summary": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM8). Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM9–PM10.",
+        "evidence_summary": "Regional glutamate/glutamine measures associate with attention scores in adults with ADHD {{cite:maltezos_glutamateglutamine_2014}}. That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}. Matched glutamate–GABA signalling is a core biological context for attentional stability. ADHD cohorts show reduced GABA concentration {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}}, and glutamate/glutamine measures associate with attention scores {{cite:maltezos_glutamateglutamine_2014}}. Those are pool and score associations, not synthesis or clearance flux.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM10",
@@ -5180,7 +5174,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.",
+        "evidence_summary": "This mapping is translational. Limiting chronic receptor-driven energy stress could sit near recovery after load, but Clerc et al. did not measure human recovery outcomes. The relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM11",
@@ -5234,7 +5228,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Excitation–inhibition balance modulates inhibitory control under arousal load; matched E/I tone is a contributory determinant of Stress Reactivity when excitatory drive exceeds inhibitory capacity. Mamiya et al. (2021) establishes E/I network framing; Evidence Confidence is low because attached refs do not directly measure stress-reactivity outcomes on this PM. Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.",
+        "evidence_summary": "Network excitation–inhibition framing treats matched tone as a property of circuits under load {{cite:mamiya_precision_2021}}. The attached sources do not measure stress-reactivity outcomes after a dietary change. This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5938,7 +5932,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.",
+        "evidence_summary": "Cholinergic signalling is a biological context for working-memory and cognitive precision {{cite:derbyshire_role_2023}} {{cite:briguglio_dietary_2018}}. The attached sources do not measure cognitive-clarity scores after a choline change aimed at acetylcholine synthesis.",
         "contributing_pms": [
           {
             "id": "BRS1-FM2-PM6",
@@ -5956,7 +5950,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.",
+        "evidence_summary": "Acetylcholine is the cholinergic transmitter used in attention and learning circuits {{cite:johansson_decreased_2013}} {{cite:derbyshire_role_2023}}. Receptor-binding differences in boys with ADHD and choline/neurodevelopment reviews supply translational context. They do not show that changing choline intake treats ADHD or raises brain acetylcholine.",
         "contributing_pms": [
           {
             "id": "BRS1-FM2-PM6",
@@ -5976,7 +5970,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.",
+        "evidence_summary": "DHA in neuronal phospholipids supports membrane architecture used in synaptic signalling {{cite:mcnamara_role_2006}} {{cite:patrick_role_2019}}. Delivery form can change accretion in an animal model {{cite:liu_higher_2014}}. Those are structural and transport findings, not cognitive-clarity scores after a human DHA change.",
         "contributing_pms": [
           {
             "id": "BRS1-FM3-PM7",
@@ -5994,7 +5988,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "medium",
-        "evidence_summary": "Huss et al. (2010) measured SDQ emotional problems directly: fewer emotional problems at 12 weeks versus baseline in children seeking medical advice for ADHD-related symptoms, alongside SNAP-IV attention/hyperactivity change, following combined omega-3/6 PUFA with magnesium and zinc. Membrane DHA delivery and incorporation remain the mechanism boundary; the observational multi-nutrient design prevents isolating membrane biology from co-supplemented minerals.",
+        "evidence_summary": "Combined omega-3/6 with magnesium and zinc was followed by fewer emotional-problem scores in an observational ADHD-seeking cohort {{cite:huss_supplementation_2010}}. Membrane DHA remains the mechanism boundary; the multi-nutrient design cannot isolate incorporation {{cite:mcnamara_role_2006}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM3-PM7",
@@ -6010,9 +6004,9 @@
         "target_phenome": "Focus / Attention Stability",
         "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "mechanistic",
+        "highest_evidence_level": "observational",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.",
+        "evidence_summary": "Membrane DHA is a structural context for synaptic signalling {{cite:mcnamara_role_2006}}. An observational multi-nutrient study in children seeking help for ADHD-related symptoms cannot isolate membrane DHA from co-supplemented minerals {{cite:huss_supplementation_2010}}. Omega-3 ADHD reviews remain contextual {{cite:pei-chen_chang_personalised_2021}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM3-PM7",
@@ -6020,7 +6014,7 @@
             "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
-            "evidence_level": "mechanistic"
+            "evidence_level": "observational"
           }
         ]
       }

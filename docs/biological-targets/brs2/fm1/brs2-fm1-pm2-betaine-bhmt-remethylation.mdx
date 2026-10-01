@@ -1,41 +1,125 @@
 ---
 title: Betaine/BHMT Remethylation
 pm_id: BRS2-FM1-PM2
-mission: >-
-  Provide a parallel homocysteine clearance route so methionine and SAMe supply
-  remain resilient when folate demand is high.
+mission: Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: >-
-  Provides an alternative route for converting homocysteine back to methionine
-  via betaine-dependent remethylation through the BHMT enzyme
-  (betaine–homocysteine methyltransferase), running independently of the folate
-  cycle. This backup pathway keeps methionine and SAMe supply resilient when
-  folate-dependent remethylation is constrained or under heavy demand. Betaine-
-  and choline-rich dietary patterns support this route, helping maintain
-  methylation capacity under variable one-carbon load.
+evidence_status: stage-2b-dietary-addressability
+summary: 'Betaine–homocysteine methyltransferase (BHMT) transfers a methyl group from betaine to homocysteine, forming methionine and dimethylglycine, and uses a bound zinc ion to activate homocysteine. Folate and vitamin B12 are not part of that reaction. Betaine may be obtained from the diet or by oxidation of choline. Controlled human choline depletion lowered circulating betaine and reduced post-load homocysteine-handling reserve; this supports a donor-pool constraint without directly measuring tissue BHMT flux or showing improved attention or cognition.'
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: folate-donor-route
+    applicability_proposition: Inadequacy of the folate donor route can indirectly constrain BHMT-dependent remethylation capacity by changing demand on the betaine route or the betaine-to-DMG state.
+    disposition: unresolved
+    established_links:
+      - BHMT transfers a methyl group from betaine to homocysteine and does not use folate or vitamin B12 in that reaction (PM2-F1).
+      - The flow of methyl groups through BHMT is not dependent on folate or vitamin B12 (PM2-F1).
+      - The canonical KC review admits folate as a methyl-group input into the shared pool.
+      - 'In folate-deprived rats, hepatic betaine fell, dimethylglycine rose, and betaine supplementation increased hepatic BHMT activity but only partly corrected hyperhomocysteinaemia.'
+    inferred_links:
+      - The higher hepatic dimethylglycine concentration inhibited BHMT enough in vivo to make folate inadequacy a BHMT-capacity constraint.
+      - The rat interaction generalises to human BHMT capacity under nutritionally relevant folate inadequacy.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - evans_betaine_2002
+        - breksa_zinc_1999
+        - obeid_metabolic_2013
+        - liu_betaine_folate_2012
+    rationale: 'Folate is not a BHMT reactant, so pathway proximity cannot establish this arm. The prior non-application decision was nevertheless too strong: rat evidence shows a material cross-route interaction through lower hepatic betaine, higher dimethylglycine and a limited response to betaine. Because in-vivo BHMT flux was inferred and the evidence is not human, indirect folate-to-PM2 applicability remains unresolved. This does not prevent applicability of the whole iKC through its established betaine/choline arm.'
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: betaine-choline-donor-route
+    applicability_proposition: Inadequacy of the betaine and choline arm of the shared methyl-donor pool constrains BHMT-dependent remethylation capacity.
+    disposition: established
+    applicability_mode: constrained-by
+    established_links:
+      - The canonical KC review admits betaine (BRS2-KC1-KIT-3) and its choline precursor (BRS2-KC1-KIT-2) to the shared methyl-donor pool.
+      - Betaine is the methyl-donor substrate of BHMT (PM2-F1).
+      - Choline can be oxidised to betaine before that reaction (PM2-F2).
+      - 'In eight men, controlled choline depletion lowered plasma choline by about 30% and betaine by about 47%; the four who developed depletion-related hepatic steatosis had a 5.2 µmol/L greater post-methionine-load homocysteine response, which returned to baseline after repletion (PM2-F5).'
+      - 'In rats under low-methionine conditions, choline deprivation markedly lowered hepatic betaine and raised plasma homocysteine; either choline or betaine supplementation restored hepatic betaine and suppressed the homocysteine increase (PM2-F5).'
+      - 'Specific BHMT inhibition in rats reduced hepatic BHMT activity by more than 90%, raised plasma homocysteine two- to five-fold and lowered hepatic SAM by more than 40%, confirming the direction expected when this route loses capacity (PM2-F5).'
+      - 'Folate remained adequate during the depletion study, and the known BHMT reaction supplies the specific link from the lowered betaine pool to reduced betaine-dependent remethylation reserve (PM2-F1, PM2-F5).'
+    inferred_links:
+      - The study directly measured neither tissue BHMT activity nor isotope-resolved BHMT flux.
+      - The severe controlled depletion response applies uniformly to ordinary mixed diets or nutrient-replete people.
+      - Increasing betaine or choline above adequacy improves cognition or another clinical outcome.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+        - PM2-F2
+        - PM2-F5
+        - PM2-IC1
+      citation_keys:
+        - evans_betaine_2002
+        - breksa_zinc_1999
+        - obeid_metabolic_2013
+        - salvi_choline_2013
+        - olthof_low_2003
+        - da_costa_choline_2005
+        - setoue_choline_deprivation_2008
+        - strakova_bhmt_inhibition_2011
+    rationale: 'Type D is met by a supported chain, not by constituent membership or substrate necessity alone. Controlled human choline depletion lowered the betaine pool, exposed reduced homocysteine-remethylation reserve during a methionine challenge in clinically depleted participants, and reversed with repletion while folate remained adequate. The established BHMT reaction connects betaine availability to that response. The absence of a direct tissue-flux assay limits attribution and claim strength, but the contract does not require one end-to-end assay.'
+  - kc_id: BRS2(KC2)
+    ikc_id: BRS2(KC2)
+    arm_id: methionine-cysteine-sulfur-amino-acid-pool
+    applicability_proposition: Inadequacy or imbalance of the methionine–cysteine sulfur-amino-acid pool constrains BHMT-dependent remethylation capacity.
+    disposition: evidence-supported-non-application
+    established_links:
+      - BHMT produces methionine and does not use cysteine in its reaction (PM2-F1).
+      - 'In rats, methionine restriction increased rather than decreased hepatic BHMT expression and activity when a methyl donor was available.'
+    inferred_links:
+      - Reduced methionine intake necessarily reduces the capacity of BHMT to remethylate an available homocysteine load.
+      - The rat regulatory response establishes a human intake recommendation.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - evans_betaine_2002
+        - park_methionine_bhmt_1999
+    rationale: 'The named KC2 pool is not a required input pool for this PM: methionine is the product and cysteine is absent from the reaction. Methionine restriction can increase BHMT capacity when methyl donor is available, which is a compensatory response rather than evidence that KC2 inadequacy constrains the governed remethylation capacity. No KC2 mapping is established.'
 key_constraints:
-  - BRS2(KC1) - One-Carbon Donor Pool
+  - BRS2(KC1) - Methyl Donor Pool
+pm_kc_relationships:
+  - relationship_id: BRS2-FM1-PM2-KCR-1
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    pm_biological_role: 'Betaine is the methyl donor used by BHMT, and choline can replenish betaine. Controlled human choline depletion lowered plasma betaine and reduced post-load homocysteine-remethylation reserve, showing that inadequacy of this donor-pool arm can constrain the mechanism.'
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+        - PM2-F2
+        - PM2-F5
+      citation_keys:
+        - evans_betaine_2002
+        - salvi_choline_2013
+        - da_costa_choline_2005
+        - setoue_choline_deprivation_2008
+        - strakova_bhmt_inhibition_2011
+    evidence_limitation: 'The human depletion pilot included eight men, only four of whom developed the clinical depletion phenotype. It did not directly measure tissue BHMT flux, and it does not show that extra betaine or choline benefits nutrient-replete people or improves cognition.'
 cofactors:
-  - zinc
+  - Zinc ion (Zn²⁺)
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Regular betaine/choline foods
+timing_specific: 'No'
+dose_sensitivity: 'Betaine is the reaction substrate. Supplemental betaine lowers plasma homocysteine, but no human dose-response for tissue BHMT flux is established.'
 references:
-  - >-
-    [Tao Huang et al. (2015) — A Randomized Controlled
-    Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-  - >-
-    [Olthof et al. (2003) — Low Dose Betaine Supplementation Leads to Immediate
-    and Long Term Lowering of Plasma
-    Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
-  - >-
-    [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental
-    Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-  - >-
-    [Millichap and Yee (2012) — Diet Factor in Attention-Deficit/Hyperactivity
-    Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
+  - '[Evans et al. (2002) — Human BHMT structure and catalytic zinc](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)'
+  - '[Breksa and Garrow (1999) — BHMT zinc ligands and reaction products](/docs/papers/BRAIN-Diet-References#breksa_zinc_1999)'
+  - '[Obeid (2013) — BHMT pathway and methyl-donor deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)'
+  - '[Salvi and Gadda (2013) — Choline dehydrogenase and betaine formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)'
+  - '[Olthof et al. (2003) — Low-dose betaine and plasma homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)'
+  - '[da Costa et al. (2005) — Choline depletion and post-load homocysteine](/docs/papers/BRAIN-Diet-References#da_costa_choline_2005)'
+  - '[Huang et al. (2015) — Vitamin B12, fish oil and plasma homocysteine](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)'
+  - '[Derbyshire and Maes (2023) — Choline in neurodevelopmental disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
+  - '[Millichap and Yee (2012) — Diet and attention-deficit/hyperactivity disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)'
+  - '[Liu et al. (2012) — Folate, betaine and choline interaction in rats](/docs/papers/BRAIN-Diet-References#liu_betaine_folate_2012)'
+  - '[Park and Garrow (1999) — Methionine restriction and hepatic BHMT expression](/docs/papers/BRAIN-Diet-References#park_methionine_bhmt_1999)'
+  - '[Setoue et al. (2008) — Choline deprivation, hepatic betaine and homocysteine](/docs/papers/BRAIN-Diet-References#setoue_choline_deprivation_2008)'
+  - '[Strakova et al. (2011) — Specific BHMT inhibition and methylation capacity](/docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -43,47 +127,436 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: >-
-      Dietary patterns rich in folate, fibre, and methyl-donor nutrients
-      associated with reduced ADHD symptoms intersect betaine/choline
-      remethylation routes; choline implicated across neurodevelopmental
-      disorders including ADHD. BHMT-mediated homocysteine clearance is
-      established biochemistry — ADHD attention-outcome evidence for betaine
-      supplementation specifically remains sparse (biology > evidence gap).
+    rationale: 'Reviews of ADHD diets and of choline in neurodevelopment discuss attention, but they do not test BHMT activity or betaine supplementation as an attention treatment {{cite:millichap_diet_2012,derbyshire_role_2023}}. The enzyme reaction is established separately, and a change in plasma homocysteine is not an attention outcome {{cite:evans_betaine_2002,olthof_low_2003}}. Direct evidence that this remethylation route changes Focus / Attention Stability remains a gap.'
+    scientific_findings:
+      - PM2-F3
+      - PM2-F1
+      - PM2-IC1
     references:
       - index: 1
         label: Millichap and Yee (2012)
         citation_key: millichap_diet_2012
         href: /docs/papers/BRAIN-Diet-References#millichap_diet_2012
+        data_level: Human Outcome
       - index: 2
-        label: Olthof et al. (2003)
-        citation_key: olthof_low_2003
-        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
-      - index: 3
         label: Derbyshire and Maes (2023)
         citation_key: derbyshire_role_2023
         href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Mechanistic
+      - index: 3
+        label: Evans et al. (2002)
+        citation_key: evans_betaine_2002
+        href: /docs/papers/BRAIN-Diet-References#evans_betaine_2002
+        data_level: Cellular / Molecular
+      - index: 4
+        label: Olthof et al. (2003)
+        citation_key: olthof_low_2003
+        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
         data_level: Human Mechanistic
   - target_phenome: Cognitive Clarity
     relationship_type: indirect
     confidence: low
     evidence_level: mechanistic
     evidence_confidence: low
-    rationale: >-
-      Betaine lowers homocysteine acutely and choline supports parallel
-      remethylation and downstream membrane chemistry — an indirect framework
-      translation to cognitive clarity through methyl-donor sufficiency rather
-      than measured cognitive outcomes in ADHD cohorts.
+    rationale: 'Lower plasma homocysteine after betaine supplements is a blood measurement, not a test of cognitive clarity or of tissue BHMT activity {{cite:olthof_low_2003}}. A choline review discusses neurodevelopment rather than an effect of this reaction on clarity {{cite:derbyshire_role_2023}}. The relationship remains an indirect bridge with no direct outcome evidence.'
+    scientific_findings:
+      - PM2-F4
+      - PM2-IC1
     references:
       - index: 1
         label: Olthof et al. (2003)
         citation_key: olthof_low_2003
         href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
+        data_level: Human Mechanistic
       - index: 2
         label: Derbyshire and Maes (2023)
         citation_key: derbyshire_role_2023
         href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Mechanistic
+dietary_input_traceability:
+  - atom_id: PM2-DIT-1
+    input: Betaine
+    input_type: substrate
+    biological_role: Methyl-donor substrate for BHMT remethylation of homocysteine to methionine
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+        - PM2-IC1
+      citation_keys:
+        - evans_betaine_2002
+        - breksa_zinc_1999
+        - olthof_low_2003
+    evidence_limitation: 'Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit.'
+  - atom_id: PM2-DIT-2
+    input: Choline
+    input_type: precursor
+    biological_role: 'Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT'
+    evidence_source:
+      finding_ids:
+        - PM2-F2
+        - PM2-F1
+      citation_keys:
+        - obeid_metabolic_2013
+        - salvi_choline_2013
+        - evans_betaine_2002
+    evidence_limitation: 'Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux.'
+  - atom_id: PM2-DIT-3
+    input: Homocysteine
+    input_type: substrate
+    biological_role: Methyl-acceptor substrate that BHMT converts to methionine
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - evans_betaine_2002
+        - breksa_zinc_1999
+    evidence_limitation: Homocysteine is produced in the methionine cycle and is not a dietary input for this reaction.
+  - atom_id: PM2-DIT-4
+    input: Zinc ion (Zn²⁺)
+    input_type: catalytic ion
+    biological_role: Active-site metal that activates the homocysteine thiol during BHMT catalysis
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - evans_betaine_2002
+        - breksa_zinc_1999
+    evidence_limitation: Bound zinc is required for catalysis in purified human enzyme studies. Dietary zinc intake has not been shown to change BHMT activity in people.
+dietary_lever_atoms:
+  - atom_id: PM2-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Betaine is the direct methyl-donor substrate for BHMT. This does not establish that increasing betaine intake increases tissue BHMT flux or improves attention or cognition.
+    evidence_limitation: 'Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit.'
+  - atom_id: PM2-DIT-2
+    requirement_classification: derived
+    derived_target: Betaine
+    derived_target_atom_id: PM2-DIT-1
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: 'Choline can be oxidised to betaine, which is the direct substrate. This provision route does not establish that increasing choline intake increases tissue BHMT flux.'
+    evidence_limitation: 'Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux.'
+  - atom_id: PM2-DIT-3
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Homocysteine is the methyl acceptor in the BHMT reaction. It is not a dietary requirement for this PM.
+    evidence_limitation: Homocysteine is produced in the methionine cycle and is not a dietary input for this reaction.
+  - atom_id: PM2-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: A bound zinc ion participates in BHMT catalysis. This does not establish a dietary zinc requirement or a zinc intake effect on human BHMT activity.
+    evidence_limitation: Bound zinc is required for catalysis in purified human enzyme studies. Dietary zinc intake has not been shown to change BHMT activity in people.
+dietary_lever_presentations:
+  - atom_id: PM2-DIT-1
+    label: Betaine
+    presentation_section: 3.1.1
+  - atom_id: PM2-DIT-2
+    label: Choline
+    presentation_section: 3.1.1
+  - atom_id: PM2-DIT-3
+    label: Homocysteine
+    presentation_section: 3.1.2
+  - atom_id: PM2-DIT-4
+    label: Zinc ion (Zn²⁺)
+    presentation_section: 3.1.2
+scientific_findings_intro: 'This route moves a methyl group from betaine onto homocysteine, making methionine and dimethylglycine. A zinc ion held by the enzyme helps that transfer. Folate and vitamin B12 are not used in this step. Choline can be oxidised to betaine beforehand. Controlled choline depletion lowered betaine and reduced remethylation reserve during a methionine challenge, although the study did not directly measure tissue BHMT flux or any cognitive outcome.'
+scientific_findings:
+  - id: PM2-F1
+    finding_label: BHMT remethylates homocysteine with betaine and catalytic zinc
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Human betaine-homocysteine methyltransferase (BHMT) transfers one methyl group from betaine to homocysteine. The products are methionine and dimethylglycine. A zinc ion bound by three cysteines activates homocysteine. Folate and vitamin B12 are not part of this reaction.
+    finding_interpretation: 'This is the reaction boundary. It does not include folate-dependent remethylation, the later conversion of methionine to SAMe, whole-cycle throughput, phosphatidylethanolamine methyltransferase, or acetylcholine formation. It also does not show that dietary zinc intake changes the reaction in people.'
+    finding_statement: 'BHMT transfers a methyl group from betaine to homocysteine, forming methionine and dimethylglycine, without folate or vitamin B12 in that reaction, and uses an active-site zinc ion to activate homocysteine.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Human crystal structures show that BHMT makes methionine from betaine and homocysteine and uses zinc to activate homocysteine. Mutating any of the three zinc-binding cysteines to alanine abolishes activity and sharply reduces zinc binding, and the same biochemical work states the products as methionine and dimethylglycine. A methyl-donor review states that methyl flow through this pathway does not depend on folate or vitamin B12. Together these sources identify the reaction and its metal. They do not test ordinary dietary control or human tissue flux.'
+    synthesis_limitations: 'The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in the primary animal papers.'
+    evidence_considered:
+      - label: Evans et al. (2002)
+        citation_key: evans_betaine_2002
+        href: /docs/papers/BRAIN-Diet-References#evans_betaine_2002
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: 'Human BHMT structures show methionine formation from betaine and homocysteine, with zinc activating homocysteine; oxidation that expels zinc rearranges the active site.'
+        assessment:
+          study: X-ray structures of human BHMT in an oxidised zinc-free form and a reduced zinc-bound form with a homocysteine-like bisubstrate analog.
+          population: 'Purified crystallised human BHMT; no cells, animals or human participants.'
+          result: 'The enzyme forms methionine from betaine and homocysteine. Zinc activates homocysteine. The zinc-binding sequences sit at the ends of barrel strands, and a Cys217–Cys299 disulfide expels zinc.'
+          effect_magnitude: Structures at 2.15 Å (zinc-free) and 2.05 Å (zinc-bound). No physiological effect size applies.
+          evidence_summary: Direct structural evidence for the human reaction and for catalytic zinc.
+          limitations: 'Static structures establish catalytic geometry, not in-vivo flux, dietary zinc responsiveness, or a clinical outcome.'
+      - label: Breksa and Garrow (1999)
+        citation_key: breksa_zinc_1999
+        href: /docs/papers/BRAIN-Diet-References#breksa_zinc_1999
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: 'Replacing any of Cys217, Cys299 or Cys300 with alanine abolished human BHMT activity and reduced zinc binding. The reaction produces methionine and dimethylglycine from betaine and homocysteine.'
+        assessment:
+          study: 'Site-directed mutagenesis of recombinant human liver BHMT, with activity and zinc-binding measurements.'
+          population: Recombinant human BHMT protein expressed in bacteria; no human participants.
+          result: 'Cys217, Cys299 and Cys300 were identified as zinc ligands. Mutation of any one to alanine caused complete loss of activity and a significant reduction in zinc binding. The catalysed transfer is from betaine to homocysteine, yielding dimethylglycine and methionine.'
+          effect_magnitude: Complete loss of activity for each alanine substitution. No human effect size applies.
+          evidence_summary: 'Direct evidence that catalytic activity of human BHMT depends on those zinc ligands, and a clear statement of the reaction products.'
+          limitations: Bacterial expression and purified-protein assays do not show that dietary zinc limits BHMT in human tissues.
+      - label: Obeid (2013)
+        citation_key: obeid_metabolic_2013
+        href: /docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Methyl-group flow through BHMT does not depend on folate or vitamin B12, although the pathway is most active in liver and kidney and talks to the folate route.'
+        assessment:
+          study: Narrative review of methyl-donor deficiency with emphasis on the BHMT pathway.
+          population: Review of human and animal methyl-donor studies; not a new experiment.
+          result: 'BHMT transfers a methyl group from betaine to homocysteine. The review states that methyl flow through this pathway is not dependent on folate or vitamin B12, while several cross-talk mechanisms exist. BHMT is particularly active in liver and kidney.'
+          effect_magnitude: No new effect size. The review cites other studies for homocysteine and metabolite changes.
+          evidence_summary: Explicit pathway-level statement that folate and vitamin B12 are not required for methyl flow through BHMT.
+          limitations: A review cannot replace a flux assay. Some quantitative deficiency claims are attributed to other papers and were not re-adjudicated here.
+    evidence_dependency:
+      - 'Obeid (2013) is also primary evidence in PM2-F2 for choline oxidation. That reuse is one review, not a second experiment.'
+  - id: PM2-F2
+    finding_label: Choline oxidation supplies betaine and is not the BHMT reaction
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Choline can be oxidised to betaine aldehyde and then to betaine. That sequence can supply the BHMT substrate. It is not the methyl transfer that BHMT carries out, and betaine is not turned back into choline.'
+    finding_interpretation: 'Choline is a precursor of the substrate, not a cofactor or substrate of BHMT. Acetylcholine formation and phosphatidylethanolamine methylation use choline or SAMe in other reactions.'
+    finding_statement: Irreversible oxidation of choline to betaine is an upstream supply route for the BHMT substrate and is not itself the BHMT reaction.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A methyl-donor review states that betaine is produced by irreversible oxidation of choline through choline dehydrogenase and betaine-aldehyde dehydrogenase, and that BHMT then uses betaine. A choline-dehydrogenase review places the human enzyme in the inner mitochondrial membrane, mainly in kidney and liver, and separates the first oxidation to betaine aldehyde from the second oxidation to betaine. Betaine then donates a methyl group in the homocysteine-to-methionine reaction. The two steps are supply, not the BHMT reaction.'
+    synthesis_limitations: 'Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue activity rather than from a complete human kinetic characterisation. The reviews do not show that raising choline intake increases BHMT flux in people.'
+    evidence_considered:
+      - label: Obeid (2013)
+        citation_key: obeid_metabolic_2013
+        href: /docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Betaine can be formed by irreversible oxidation of choline via choline dehydrogenase and betaine-aldehyde dehydrogenase, and BHMT then uses that betaine to remethylate homocysteine.'
+        assessment:
+          study: Narrative review of methyl-donor metabolism centred on BHMT.
+          population: Review of human and animal evidence; not a new enzyme assay.
+          result: The review states the two-enzyme oxidation of choline to betaine and the subsequent BHMT reaction. It treats the oxidation as irreversible.
+          effect_magnitude: No new effect size for the oxidation steps.
+          evidence_summary: Pathway-level evidence that choline oxidation supplies betaine upstream of BHMT.
+          limitations: 'Review synthesis, not a direct demonstration of human choline dehydrogenase kinetics or of dietary choline increasing BHMT flux.'
+      - label: Salvi and Gadda (2013)
+        citation_key: salvi_choline_2013
+        href: /docs/papers/BRAIN-Diet-References#salvi_choline_2013
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Human choline dehydrogenase oxidises choline to betaine aldehyde, and betaine-aldehyde dehydrogenase completes formation of betaine, which can donate a methyl group to homocysteine.'
+        assessment:
+          study: 'Review of human choline dehydrogenase localisation, physiological role and biochemical characterisation.'
+          population: Review of human tissue activity and comparative biochemistry; not a dietary trial.
+          result: 'The enzyme sits in the inner mitochondrial membrane and is found mainly in kidney and liver. It oxidises choline to betaine aldehyde. A second enzyme, betaine-aldehyde dehydrogenase, oxidises that aldehyde to betaine. Betaine is described as a methyl donor for methionine formation from homocysteine. Purified active human enzyme has been difficult to obtain.'
+          effect_magnitude: 'Tissue activity was reported mainly in kidney, with about six-fold lower activity in liver. No dietary dose-response was measured.'
+          evidence_summary: Enzyme-level support for the two-step oxidation that supplies betaine.
+          limitations: Incomplete purification of human choline dehydrogenase limits kinetic detail. Localisation and pathway role do not show that dietary choline changes BHMT flux.
+    evidence_dependency:
+      - 'Obeid (2013) is also primary evidence in PM2-F1 for folate- and vitamin B12-independence of BHMT. That reuse is one review, not a second experiment.'
+  - id: PM2-IC1
+    finding_label: Plasma homocysteine is not tissue BHMT flux
+    presentation: interpretive-constraint
+    finding_summary: 'Betaine supplements lower plasma homocysteine, and severe choline depletion can raise it after a methionine load. The same blood measurement also falls after vitamin B12 and fish oil, which are not BHMT substrates. The number is not the enzyme''s rate in tissue and is not a clinical benefit.'
+    finding_interpretation: A homocysteine change can be consistent with this route and still fail to prove it. Read supplement and depletion studies as blood results unless enzyme activity or traced methyl flux was measured.
+    finding_statement: 'Changes in plasma homocysteine after betaine supplementation, choline depletion, or vitamin B12 and fish-oil treatment do not measure tissue BHMT flux and do not establish a clinical benefit of this reaction.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In healthy adults, six weeks of supplemental betaine lowered fasting plasma homocysteine relative to placebo, and it also blunted the rise after a methionine load. The authors inferred faster betaine-dependent remethylation, but they did not measure BHMT activity, tissue methionine formation or dimethylglycine flux. In mice, choline deficiency doubled post-load plasma homocysteine, and a small male pilot found a higher post-load value after clinical choline depletion, yet mouse liver betaine did not fall and BHMT was not assayed. A separate trial lowered plasma homocysteine with vitamin B12, fish oil or both, without betaine. The biomarker is therefore real, shared and non-specific.'
+    synthesis_limitations: 'The betaine trial selected healthy adults with relatively high homocysteine still in a broad reference range. The human choline study was a pilot of eight men. None of the three studies measured tissue BHMT flux, attention or cognition.'
+    evidence_considered:
+      - label: Olthof et al. (2003)
+        citation_key: olthof_low_2003
+        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
         data_level: Human Mechanistic
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: 'Daily betaine at 1.5, 3 and 6 g lowered fasting plasma homocysteine by about 12%, 15% and 20% versus placebo after six weeks, without a measurement of tissue BHMT flux.'
+        assessment:
+          study: 'Randomised, placebo-controlled trial of anhydrous betaine for six weeks, with methionine-load tests.'
+          population: Four groups of 19 healthy adults selected for higher plasma homocysteine within a broad reference range.
+          result: 'Fasting plasma homocysteine after 1.5, 3 and 6 g/day was about 12%, 15% and 20% lower than placebo. The post-load rise was also smaller. The discussion infers increased betaine-dependent remethylation.'
+          effect_magnitude: 'About 12% (P < 0.01), 15% (P < 0.002) and 20% (P < 0.0001) lower fasting homocysteine than placebo at six weeks for 1.5, 3 and 6 g/day.'
+          evidence_summary: 'Direct human evidence that supplemental betaine lowers plasma homocysteine. The endpoint is a circulating metabolite, not enzyme flux.'
+          limitations: 'No BHMT activity, tissue methionine flux, dimethylglycine production rate, or clinical symptom outcome was measured.'
+      - label: da Costa et al. (2005)
+        citation_key: da_costa_choline_2005
+        href: /docs/papers/BRAIN-Diet-References#da_costa_choline_2005
+        data_level: Mixed
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Choline deficiency raised post-methionine-load plasma homocysteine in mice and in a small human pilot, but did not measure BHMT activity, and mouse liver betaine did not fall.'
+        assessment:
+          study: 'Three-week mouse diets with 0, 10 or 35 mmol choline/kg, plus a depletion-repletion pilot in men, each with an oral methionine load.'
+          population: Male C57BL/6J mice and eight healthy men aged 20–46 years.
+          result: 'Two hours after the load, choline-deficient mice had about twice the plasma homocysteine of choline-fed mice. Fasting values did not differ. Four hours after the load, clinically choline-depleted men had plasma homocysteine about 35% higher than when not depleted. Hepatic betaine in the mice was not significantly lower.'
+          effect_magnitude: About twofold higher post-load homocysteine in deficient mice. About 35% higher post-load homocysteine in depleted men. Mouse liver betaine 1.3 ± 0.3 versus 1.1 ± 0.3 nmol/mg protein.
+          evidence_summary: 'Dietary choline depletion can change post-load plasma homocysteine. It does not isolate BHMT flux, and the mouse betaine pool was not shown to fall.'
+          limitations: 'Human sample of eight men, clinical depletion rather than ordinary intake, and no enzyme or tracer measurement.'
+      - label: Huang et al. (2015)
+        citation_key: tao_huang_effect_2015
+        href: /docs/papers/BRAIN-Diet-References#tao_huang_effect_2015
+        data_level: Human Mechanistic
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: 'Vitamin B12, fish oil and their combination lowered plasma homocysteine without any betaine intervention, so the biomarker is not specific to BHMT.'
+        assessment:
+          study: 'Randomised trial of vitamin B12, fish oil, or both, with plasma homocysteine as an endpoint.'
+          population: Thirty-eight participants randomised to three groups.
+          result: 'The repository abstract reports plasma homocysteine reductions of about 22% with vitamin B12, 19% with fish oil, and 39% with the combination. Betaine and BHMT were not the interventions.'
+          effect_magnitude: 'About 22%, 19% and 39% lower plasma homocysteine in the three arms.'
+          evidence_summary: Shows that plasma homocysteine can fall through inputs that are not the BHMT substrate.
+          limitations: 'The attached abstract does not report BHMT activity, betaine status or a clinical neurological outcome. Design detail beyond the abstract was not re-extracted.'
+  - id: PM2-F3
+    finding_label: ADHD diet reviews do not test BHMT
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+    finding_summary: 'The attached attention reviews discuss dietary patterns, supplements and choline in neurodevelopment. They do not measure BHMT or test betaine as a treatment for attention.'
+    finding_interpretation: An attention relationship can remain a framework bridge. It should not be read as evidence that this remethylation route changes focus.
+    finding_statement: The repository ADHD diet review and choline neurodevelopment review do not directly demonstrate that BHMT-dependent remethylation changes Focus / Attention Stability.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'One review surveys sugar restriction, additive-free diets, elimination diets, fatty acids, iron and zinc in ADHD. Another surveys choline status in autism, ADHD and dyslexia. Neither assigns an attention outcome to BHMT activity or to betaine supplementation. The biochemical reaction can be true while this phenome link stays untested.'
+    synthesis_limitations: 'This is a gap in the attached reviews, not proof that no attention relationship exists. The sources are narrative reviews and mix many dietary exposures.'
+    evidence_considered:
+      - label: Millichap and Yee (2012)
+        citation_key: millichap_diet_2012
+        href: /docs/papers/BRAIN-Diet-References#millichap_diet_2012
+        data_level: Human Outcome
+        evidence_source: repository-inherited
+        directional_finding: 'Reviews dietary approaches to ADHD symptoms, including fatty acids, iron and zinc, and does not test BHMT or betaine supplementation.'
+        assessment:
+          study: Narrative clinical review of diet as a treatment factor in ADHD.
+          population: Children with ADHD in the reviewed literature; not a BHMT cohort.
+          result: 'Discusses restriction diets, fatty-acid supplements, iron, zinc and dietary pattern. No betaine dose, BHMT assay or homocysteine remethylation endpoint is the basis of the conclusions.'
+          effect_magnitude: No BHMT or betaine effect size is reported.
+          evidence_summary: Shows why an ADHD diet review cannot be used as direct evidence for this reaction.
+          limitations: Narrative review spanning many exposures and outcomes. Not a mechanism test.
+      - label: Derbyshire and Maes (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Reviews choline in autism, ADHD and dyslexia, without measuring BHMT activity or betaine-dependent remethylation.'
+        assessment:
+          study: Narrative review of choline and neurodevelopmental disorders.
+          population: 'Pregnancy, children with autism, and people with ADHD or dyslexia in the reviewed literature.'
+          result: 'Low choline intake or altered choline status is discussed for those groups. The review does not test BHMT, betaine supplementation or tissue remethylation flux against attention scores.'
+          effect_magnitude: No BHMT effect size is reported.
+          evidence_summary: Choline neurodevelopment context is not a BHMT outcome study.
+          limitations: Narrative review. Choline has membrane and neurotransmitter roles outside this reaction.
+    evidence_dependency:
+      - 'Derbyshire and Maes (2023) is also primary evidence in PM2-F4. That reuse is one review, not independent replication.'
+  - id: PM2-F4
+    finding_label: Homocysteine and choline reviews do not test cognitive clarity
+    presentation: phenome-relationship
+    primary_phenome: Cognitive Clarity
+    finding_summary: 'Betaine can lower plasma homocysteine, and choline is discussed in neurodevelopment. Neither result shows that BHMT activity changes cognitive clarity.'
+    finding_interpretation: 'Cognitive clarity stays an indirect bridge. Do not treat a homocysteine change, or a choline review, as a clarity outcome for this PM.'
+    finding_statement: 'Plasma homocysteine lowering after betaine, and narrative choline reviews, do not directly demonstrate that BHMT-dependent remethylation changes Cognitive Clarity.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: The betaine trial measured plasma homocysteine in healthy adults and did not measure cognition. The choline review discusses neurodevelopmental conditions rather than clarity as an outcome of this reaction. Both can sit near methyl-donor biology without testing the phenome claim.
+    synthesis_limitations: Bounded to the attached sources. Absence of a clarity endpoint in these papers is not a universal negative finding.
+    evidence_considered:
+      - label: Olthof et al. (2003)
+        citation_key: olthof_low_2003
+        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
+        data_level: Human Mechanistic
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: Lowers plasma homocysteine in healthy adults and does not measure cognitive clarity or BHMT flux.
+        assessment:
+          study: Six-week randomised betaine supplementation trial with methionine loads.
+          population: Healthy adults in four groups of 19.
+          result: Fasting and post-load plasma homocysteine fell relative to placebo. No cognitive clarity scale was used.
+          effect_magnitude: 'Fasting homocysteine about 12%, 15% and 20% lower than placebo at 1.5, 3 and 6 g/day. No cognitive effect size exists in the study.'
+          evidence_summary: Human homocysteine evidence without a clarity endpoint.
+          limitations: 'Healthy adults, circulating endpoint, no cognitive measurement.'
+      - label: Derbyshire and Maes (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Discusses choline and neurodevelopment, not BHMT-dependent cognitive clarity.'
+        assessment:
+          study: 'Narrative review of choline in autism, ADHD and dyslexia.'
+          population: Developmental cohorts in the reviewed literature.
+          result: Considers choline status and neurodevelopmental conditions. It does not isolate BHMT or measure cognitive clarity as a remethylation outcome.
+          effect_magnitude: No BHMT or clarity effect size for this reaction is reported.
+          evidence_summary: 'Neurodevelopment review, not a test of this PM against cognitive clarity.'
+          limitations: Narrative review with several choline roles outside BHMT.
+    evidence_dependency:
+      - Olthof et al. (2003) is also primary evidence in PM2-IC1. Derbyshire and Maes (2023) is also primary evidence in PM2-F3. Neither reuse is a second study.
+  - id: PM2-F5
+    finding_label: Betaine availability and choline supply can constrain remethylation reserve
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Controlled human choline depletion lowered plasma betaine and reduced challenged remethylation reserve in participants who developed clinical depletion. In rats, choline deprivation lowered hepatic betaine and the phenotype was suppressed by choline or betaine; specific BHMT inhibition independently produced the expected pathway failure.'
+    finding_interpretation: 'Together with the established BHMT reaction, these intervention, pool, rescue and specific-inhibition edges support a constraint on betaine-dependent remethylation capacity. They do not directly measure human tissue BHMT flux or show a benefit from intake above adequacy.'
+    finding_statement: 'Inadequate betaine availability, including from conditional failure of choline provision, can constrain BHMT-dependent homocysteine remethylation capacity.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Da Costa et al. fed eight healthy men a 550 mg/day choline baseline diet followed by 50 mg/day for up to 42 days. Plasma choline and betaine fell by about 30% and 47% while folate remained adequate. In the four participants who developed hepatic steatosis, post-load homocysteine was 5.2 µmol/L higher and returned to the baseline response after repletion. In rats under low-methionine conditions, Setoue et al. found that choline deprivation markedly lowered hepatic betaine and raised plasma homocysteine, while either choline or betaine restored hepatic betaine and suppressed the increase. Strakova et al. independently showed that a specific BHMT inhibitor reduced liver BHMT activity by more than 90%, raised plasma homocysteine two- to five-fold and lowered liver SAM by more than 40%. Human BHMT biochemistry establishes betaine as the methyl donor. These edges form a supported constraint chain.'
+    synthesis_limitations: 'The human study was a pilot in eight men, with the challenged response confined to four clinically depleted participants. The pool-rescue and specific-inhibition evidence is from rat liver, and neither study measured isotope-resolved human BHMT flux. Choline partitioning, endogenous synthesis and methionine/folate state modify the provision route. The chain supports capacity constraint under demonstrated depletion, not universal limitation on ordinary diets, benefit from supplementation above adequacy, or a cognitive outcome.'
+    evidence_considered:
+      - label: da Costa et al. (2005)
+        citation_key: da_costa_choline_2005
+        href: /docs/papers/BRAIN-Diet-References#da_costa_choline_2005
+        data_level: Human Mechanistic
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: Controlled choline depletion lowered plasma betaine and reduced post-methionine-load homocysteine-handling reserve in the participants who developed clinical depletion; both the phenotype and challenge response reversed with repletion.
+        assessment:
+          study: Controlled depletion–repletion pilot with a methionine-load challenge.
+          population: Eight healthy men aged 20–46 years; four developed hepatic steatosis during depletion.
+          result: 'Plasma choline and betaine fell about 30% and 47% in the full group. In the four clinically depleted men, post-load homocysteine increased by 5.2 µmol/L (95% CI 1.2–9.1; P = 0.025) relative to the 550 mg/day baseline phase and returned to the baseline response after repletion. Folate did not fall.'
+          effect_magnitude: Betaine fell from 66 ± 7 to 35 ± 2 nmol/mL in all eight men; clinically depleted participants had a 5.2 µmol/L greater post-load homocysteine response.
+          evidence_summary: 'Human intervention evidence linking choline inadequacy, lower betaine availability and reduced remethylation reserve under challenge.'
+          limitations: 'Small male-only pilot, severe controlled depletion, shared circulating endpoint, and no direct tissue or isotope-resolved BHMT flux.'
+      - label: Evans et al. (2002)
+        citation_key: evans_betaine_2002
+        href: /docs/papers/BRAIN-Diet-References#evans_betaine_2002
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: Human BHMT structures establish the betaine-to-homocysteine methyl transfer that links betaine availability to the challenged remethylation response.
+        assessment:
+          study: X-ray structural analysis of human BHMT.
+          population: Purified human BHMT; no participants.
+          result: BHMT transfers a methyl group from betaine to homocysteine to form methionine and dimethylglycine.
+          effect_magnitude: No human intervention effect size.
+          evidence_summary: Provides reaction-specific attribution for the donor-pool intervention chain.
+          limitations: Purified-enzyme evidence does not itself establish dietary constraint.
+      - label: Setoue et al. (2008)
+        citation_key: setoue_choline_deprivation_2008
+        href: /docs/papers/BRAIN-Diet-References#setoue_choline_deprivation_2008
+        data_level: Preclinical
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Under low-methionine conditions, choline deprivation depleted hepatic betaine and raised plasma homocysteine; either choline or betaine suppressed the phenotype.'
+        assessment:
+          study: 'Controlled rat feeding experiments varying choline, methionine context and lipotrope rescue.'
+          population: Male Wistar rats fed casein- or soybean-protein-based diets.
+          result: 'On the choline-deprived soybean-protein diet, hepatic betaine fell from about 3.65 to 0.13 µmol/g and plasma homocysteine rose from about 12.5 to 33.5 µmol/L. Choline or betaine supplementation restored hepatic betaine to about 9.81 or 13.3 µmol/g and lowered plasma homocysteine to about 7.3 or 7.7 µmol/L. Ex-vivo BHMT activity did not decline.'
+          effect_magnitude: Approximately 96% lower hepatic betaine with deprivation; rescue restored the pool above control and suppressed hyperhomocysteinaemia.
+          evidence_summary: Pool depletion and rescue connect conditional choline inadequacy to loss of substrate-supported remethylation capacity rather than loss of BHMT protein competence.
+          limitations: 'Rat liver model under low-methionine conditions; homocysteine removal also involved transsulfuration, and no in-vivo isotope-resolved BHMT flux was measured.'
+      - label: Strakova et al. (2011)
+        citation_key: strakova_bhmt_inhibition_2011
+        href: /docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011
+        data_level: Preclinical
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Specific pharmacological BHMT inhibition produced the pathway direction expected when BHMT-dependent capacity fails.
+        assessment:
+          study: 'Rat feeding study using the potent and specific BHMT inhibitor S-(δ-carboxybutyl)-L-homocysteine for 3 or 14 days across adequate, cysteine-free and methionine-deficient diets.'
+          population: Rats; no human participants.
+          result: 'The inhibitor reduced liver BHMT activity by more than 90%, increased plasma homocysteine two- to five-fold and lowered hepatic SAM by more than 40% across dietary conditions.'
+          effect_magnitude: '>90% lower BHMT activity; 2–5-fold higher plasma homocysteine; >40% lower liver SAM.'
+          evidence_summary: Specific perturbation confirms that impaired BHMT capacity can generate the observed remethylation and methylation-state direction.
+          limitations: Pharmacological inhibition in rats does not quantify the effect of ordinary human betaine or choline intake.
+    evidence_dependency:
+      - 'Da Costa et al. (2005) is also used in PM2-IC1. PM2-IC1 establishes that plasma homocysteine alone is non-specific; PM2-F5 relies on the combined depletion, pool, challenge, repletion and reaction chain rather than treating that biomarker alone as BHMT flux.'
+      - Evans et al. (2002) is also primary evidence in PM2-F1. Its reuse in PM2-F5 supplies the same reaction-specific link and is not independent replication.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -95,26 +568,207 @@ phenome_relationships:
 
 ## BRS2-FM1-PM2 - Betaine/BHMT Remethylation
 
-(Secondary Homocysteine clearance route for Methionine and SAMe Support)
+(Regenerating methionine from homocysteine with betaine)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.
 
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Betaine
+- Choline
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Homocysteine
+- Zinc ion (Zn²⁺)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+Betaine supplies the methyl group used by BHMT, and choline can be converted to betaine. Controlled choline depletion lowered betaine availability and reduced remethylation reserve during a methionine challenge. This does not show that extra intake improves cognition or benefits people whose donor supply is already adequate.
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
 ### Overview
 
-Provides an alternative route for converting homocysteine back to methionine via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase), running independently of the folate cycle. This backup pathway keeps methionine and SAMe supply resilient when folate-dependent remethylation is constrained or under heavy demand. Betaine- and choline-rich dietary patterns support this route, helping maintain methylation capacity under variable one-carbon load.
+Betaine–homocysteine methyltransferase (BHMT) transfers a methyl group from betaine to homocysteine, forming methionine and dimethylglycine, and uses a bound zinc ion to activate homocysteine [Evans et al. (2002) [[1]](#pm-ref-1); Breksa and Garrow (1999) [[2]](#pm-ref-2)]. Folate and vitamin B12 are not part of that reaction [Obeid (2013) [[3]](#pm-ref-3)]. Betaine may be obtained from the diet or by oxidation of choline [Obeid (2013) [[3]](#pm-ref-3); Salvi and Gadda (2013) [[4]](#pm-ref-4)]. Controlled choline depletion in healthy men lowered plasma betaine and reduced homocysteine-handling reserve during a methionine challenge; the response reversed after repletion [da Costa et al. (2005) [[6]](#pm-ref-6)]. Rat studies add pool-rescue and specific-BHMT-inhibition evidence in the same direction [Setoue et al. (2008) [[12]](#pm-ref-12); Strakova et al. (2011) [[13]](#pm-ref-13)]. This supports a donor-pool constraint without directly measuring human tissue BHMT flux or showing improved attention or cognition.
 
-* Offers a folate-independent route for homocysteine clearance via BHMT.
-* Keeps methionine and SAMe supply resilient under high folate demand.
-* Draws on betaine- and choline-rich dietary patterns.
+* **Mechanism boundary:** Includes the betaine-to-homocysteine methyl transfer. Folate-dependent remethylation, choline oxidation, methionine-to-SAMe conversion, whole-cycle throughput, phosphatidylethanolamine methylation and acetylcholine formation are separate steps [Evans et al. (2002) [[1]](#pm-ref-1); Obeid (2013) [[3]](#pm-ref-3)].
+* **Evidence boundary:** Enzyme structures establish the reaction. Human depletion–repletion, rat hepatic-betaine rescue and specific BHMT inhibition together support constrained remethylation reserve, but none is a direct human tissue BHMT-flux measurement [da Costa et al. (2005) [[6]](#pm-ref-6); Setoue et al. (2008) [[12]](#pm-ref-12); Strakova et al. (2011) [[13]](#pm-ref-13)].
+* **Biological relevance:** Inadequate betaine availability can constrain this second remethylation route. That does not show that extra betaine or choline helps people whose supply is adequate, or that supplementation improves attention, cognition or another clinical outcome.
 
 ## 2. Primary Biological Effects
-↑ alternative homocysteine clearance; ↑ methionine regeneration; ↑ SAMe support; ↑ methylation resilience
 
-## 3. Phenome Connections
+↑ folate-independent remethylation of homocysteine to methionine<br />
+↑ methionine available for later SAMe formation<br />
+→ no direct claim that this reaction itself raises SAMe or improves symptoms
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No preparation, supplementation schedule, fasting pattern, light exposure or stress practice has been shown to change this reaction beyond the betaine and choline relationships above.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No sleep, stress-recovery, activity or meal-timing effect on this reaction has been established.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Homocysteine (an amino acid left after methyl groups are used) can be turned back into methionine by a betaine-dependent reaction that does not use folate or vitamin B12. The methionine can later be used to make SAMe, but this reaction stops at methionine. A fall in plasma homocysteine after betaine is taken is a blood result, not a measurement of how fast the enzyme is working in tissue.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Betaine/BHMT Remethylation — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (The methyl transfer)
+
+BHMT moves one methyl group from betaine (trimethylglycine) onto homocysteine. The products are methionine and dimethylglycine (what remains of betaine after that methyl group leaves) [Breksa and Garrow (1999) [[2]](#pm-ref-2); Evans et al. (2002) [[1]](#pm-ref-1)]. A zinc ion held by three cysteines in the active site activates the homocysteine thiol. Changing any of those cysteines to alanine abolishes activity in the recombinant human enzyme [[2]](#pm-ref-2). Human structures capture both a zinc-free oxidised form and a zinc-bound form [[1]](#pm-ref-1).
+
+#### (What the reaction does not use)
+
+Folate and vitamin B12 are required by the parallel methionine-synthase route. They are not substrates or cofactors of this transfer. Methyl flow through BHMT does not depend on them [Obeid (2013) [[3]](#pm-ref-3)]. The enzyme is especially active in liver and kidney rather than throughout the brain [[2]](#pm-ref-2), [[3]](#pm-ref-3).
+
+#### (Choline is a supply route)
+
+Choline can be oxidised to betaine aldehyde by choline dehydrogenase, then to betaine by betaine-aldehyde dehydrogenase. That oxidation is irreversible, so it can feed betaine into BHMT without being the BHMT reaction itself [Obeid (2013) [[3]](#pm-ref-3); Salvi and Gadda (2013) [[4]](#pm-ref-4)]. Human choline dehydrogenase sits in the inner mitochondrial membrane and is found mainly in kidney and liver [[4]](#pm-ref-4).
+
+#### (Plasma homocysteine is a shared marker)
+
+In healthy adults, 1.5–6 g/day of supplemental betaine lowered fasting plasma homocysteine over six weeks [Olthof et al. (2003) [[5]](#pm-ref-5)]. Experimental choline depletion raised homocysteine after a methionine load in mice and in a pilot of eight men, without a fall in mouse liver betaine and without an enzyme assay [da Costa et al. (2005) [[6]](#pm-ref-6)]. Vitamin B12 and fish oil also lower plasma homocysteine, so the same blood result is not specific to this enzyme [Huang et al. (2015) [[7]](#pm-ref-7)].
+
+#### (Boundaries of the mechanism)
+
+This PM is the betaine-dependent methyl transfer only.
+
+Folate/B12-dependent remethylation belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). Methionine-to-SAMe conversion belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Combined cycle throughput belongs to [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+SAMe-dependent phosphatidylethanolamine methylation belongs to [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation). Acetylcholine formation from choline belongs to [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support).
+
+#### (Integration within BRS2)
+
+Within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), this reaction is one way to regenerate methionine when the folate-dependent route is under strain [Obeid (2013) [[3]](#pm-ref-3)]. The methionine can enter SAMe formation afterwards. Whether a shortfall in the wider methyl-donor pool limits the enzyme's activity in people has not been shown, because plasma homocysteine does not measure that activity [[5]](#pm-ref-5), [[6]](#pm-ref-6).
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+This route moves a methyl group from betaine onto homocysteine, making methionine and dimethylglycine. A zinc ion held by the enzyme helps that transfer. Folate and vitamin B12 are not used in this step. Choline can be oxidised to betaine beforehand. Controlled choline depletion lowered betaine and reduced remethylation reserve during a methionine challenge, although the study did not directly measure tissue BHMT flux or any cognitive outcome.
+
+<ScientificFinding finding={{"id":"PM2-F1","finding_label":"BHMT remethylates homocysteine with betaine and catalytic zinc","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human betaine-homocysteine methyltransferase (BHMT) transfers one methyl group from betaine to homocysteine. The products are methionine and dimethylglycine. A zinc ion bound by three cysteines activates homocysteine. Folate and vitamin B12 are not part of this reaction.","finding_interpretation":"This is the reaction boundary. It does not include folate-dependent remethylation, the later conversion of methionine to SAMe, whole-cycle throughput, phosphatidylethanolamine methyltransferase, or acetylcholine formation. It also does not show that dietary zinc intake changes the reaction in people.","finding_statement":"BHMT transfers a methyl group from betaine to homocysteine, forming methionine and dimethylglycine, without folate or vitamin B12 in that reaction, and uses an active-site zinc ion to activate homocysteine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human crystal structures show that BHMT makes methionine from betaine and homocysteine and uses zinc to activate homocysteine. Mutating any of the three zinc-binding cysteines to alanine abolishes activity and sharply reduces zinc binding, and the same biochemical work states the products as methionine and dimethylglycine. A methyl-donor review states that methyl flow through this pathway does not depend on folate or vitamin B12. Together these sources identify the reaction and its metal. They do not test ordinary dietary control or human tissue flux.","synthesis_limitations":"The enzyme evidence uses purified or recombinant human protein, not intact human metabolism. Loss of activity after removing zinc ligands does not show that dietary zinc usually limits the enzyme. The review statement that the pathway is independent of folate and vitamin B12 is not a new flux experiment. Quantitative claims in that review about choline deficiency and liver methionine were not re-checked in the primary animal papers.","evidence_considered":[{"label":"Evans et al. (2002)","citation_key":"evans_betaine_2002","href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Human BHMT structures show methionine formation from betaine and homocysteine, with zinc activating homocysteine; oxidation that expels zinc rearranges the active site.","assessment":{"study":"X-ray structures of human BHMT in an oxidised zinc-free form and a reduced zinc-bound form with a homocysteine-like bisubstrate analog.","population":"Purified crystallised human BHMT; no cells, animals or human participants.","result":"The enzyme forms methionine from betaine and homocysteine. Zinc activates homocysteine. The zinc-binding sequences sit at the ends of barrel strands, and a Cys217–Cys299 disulfide expels zinc.","effect_magnitude":"Structures at 2.15 Å (zinc-free) and 2.05 Å (zinc-bound). No physiological effect size applies.","evidence_summary":"Direct structural evidence for the human reaction and for catalytic zinc.","limitations":"Static structures establish catalytic geometry, not in-vivo flux, dietary zinc responsiveness, or a clinical outcome."},"canonical_reference":{"author_year":"Evans et al. (2002)","number":1,"anchor":"#pm-ref-1"}},{"label":"Breksa and Garrow (1999)","citation_key":"breksa_zinc_1999","href":"/docs/papers/BRAIN-Diet-References#breksa_zinc_1999","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Replacing any of Cys217, Cys299 or Cys300 with alanine abolished human BHMT activity and reduced zinc binding. The reaction produces methionine and dimethylglycine from betaine and homocysteine.","assessment":{"study":"Site-directed mutagenesis of recombinant human liver BHMT, with activity and zinc-binding measurements.","population":"Recombinant human BHMT protein expressed in bacteria; no human participants.","result":"Cys217, Cys299 and Cys300 were identified as zinc ligands. Mutation of any one to alanine caused complete loss of activity and a significant reduction in zinc binding. The catalysed transfer is from betaine to homocysteine, yielding dimethylglycine and methionine.","effect_magnitude":"Complete loss of activity for each alanine substitution. No human effect size applies.","evidence_summary":"Direct evidence that catalytic activity of human BHMT depends on those zinc ligands, and a clear statement of the reaction products.","limitations":"Bacterial expression and purified-protein assays do not show that dietary zinc limits BHMT in human tissues."},"canonical_reference":{"author_year":"Breksa and Garrow (1999)","number":2,"anchor":"#pm-ref-2"}},{"label":"Obeid (2013)","citation_key":"obeid_metabolic_2013","href":"/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methyl-group flow through BHMT does not depend on folate or vitamin B12, although the pathway is most active in liver and kidney and talks to the folate route.","assessment":{"study":"Narrative review of methyl-donor deficiency with emphasis on the BHMT pathway.","population":"Review of human and animal methyl-donor studies; not a new experiment.","result":"BHMT transfers a methyl group from betaine to homocysteine. The review states that methyl flow through this pathway is not dependent on folate or vitamin B12, while several cross-talk mechanisms exist. BHMT is particularly active in liver and kidney.","effect_magnitude":"No new effect size. The review cites other studies for homocysteine and metabolite changes.","evidence_summary":"Explicit pathway-level statement that folate and vitamin B12 are not required for methyl flow through BHMT.","limitations":"A review cannot replace a flux assay. Some quantitative deficiency claims are attributed to other papers and were not re-adjudicated here."},"canonical_reference":{"author_year":"Obeid (2013)","number":3,"anchor":"#pm-ref-3"}}],"evidence_dependency":["Obeid (2013) is also primary evidence in PM2-F2 for choline oxidation. That reuse is one review, not a second experiment."],"connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
+
+<ScientificFinding finding={{"id":"PM2-F2","finding_label":"Choline oxidation supplies betaine and is not the BHMT reaction","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Choline can be oxidised to betaine aldehyde and then to betaine. That sequence can supply the BHMT substrate. It is not the methyl transfer that BHMT carries out, and betaine is not turned back into choline.","finding_interpretation":"Choline is a precursor of the substrate, not a cofactor or substrate of BHMT. Acetylcholine formation and phosphatidylethanolamine methylation use choline or SAMe in other reactions.","finding_statement":"Irreversible oxidation of choline to betaine is an upstream supply route for the BHMT substrate and is not itself the BHMT reaction.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A methyl-donor review states that betaine is produced by irreversible oxidation of choline through choline dehydrogenase and betaine-aldehyde dehydrogenase, and that BHMT then uses betaine. A choline-dehydrogenase review places the human enzyme in the inner mitochondrial membrane, mainly in kidney and liver, and separates the first oxidation to betaine aldehyde from the second oxidation to betaine. Betaine then donates a methyl group in the homocysteine-to-methionine reaction. The two steps are supply, not the BHMT reaction.","synthesis_limitations":"Purified, stable human choline dehydrogenase has been difficult to obtain, so some catalytic detail is inferred from related enzymes and from tissue activity rather than from a complete human kinetic characterisation. The reviews do not show that raising choline intake increases BHMT flux in people.","evidence_considered":[{"label":"Obeid (2013)","citation_key":"obeid_metabolic_2013","href":"/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Betaine can be formed by irreversible oxidation of choline via choline dehydrogenase and betaine-aldehyde dehydrogenase, and BHMT then uses that betaine to remethylate homocysteine.","assessment":{"study":"Narrative review of methyl-donor metabolism centred on BHMT.","population":"Review of human and animal evidence; not a new enzyme assay.","result":"The review states the two-enzyme oxidation of choline to betaine and the subsequent BHMT reaction. It treats the oxidation as irreversible.","effect_magnitude":"No new effect size for the oxidation steps.","evidence_summary":"Pathway-level evidence that choline oxidation supplies betaine upstream of BHMT.","limitations":"Review synthesis, not a direct demonstration of human choline dehydrogenase kinetics or of dietary choline increasing BHMT flux."},"canonical_reference":{"author_year":"Obeid (2013)","number":3,"anchor":"#pm-ref-3"}},{"label":"Salvi and Gadda (2013)","citation_key":"salvi_choline_2013","href":"/docs/papers/BRAIN-Diet-References#salvi_choline_2013","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Human choline dehydrogenase oxidises choline to betaine aldehyde, and betaine-aldehyde dehydrogenase completes formation of betaine, which can donate a methyl group to homocysteine.","assessment":{"study":"Review of human choline dehydrogenase localisation, physiological role and biochemical characterisation.","population":"Review of human tissue activity and comparative biochemistry; not a dietary trial.","result":"The enzyme sits in the inner mitochondrial membrane and is found mainly in kidney and liver. It oxidises choline to betaine aldehyde. A second enzyme, betaine-aldehyde dehydrogenase, oxidises that aldehyde to betaine. Betaine is described as a methyl donor for methionine formation from homocysteine. Purified active human enzyme has been difficult to obtain.","effect_magnitude":"Tissue activity was reported mainly in kidney, with about six-fold lower activity in liver. No dietary dose-response was measured.","evidence_summary":"Enzyme-level support for the two-step oxidation that supplies betaine.","limitations":"Incomplete purification of human choline dehydrogenase limits kinetic detail. Localisation and pathway role do not show that dietary choline changes BHMT flux."},"canonical_reference":{"author_year":"Salvi and Gadda (2013)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Obeid (2013) is also primary evidence in PM2-F1 for folate- and vitamin B12-independence of BHMT. That reuse is one review, not a second experiment."],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM2-F5","finding_label":"Betaine availability and choline supply can constrain remethylation reserve","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Controlled human choline depletion lowered plasma betaine and reduced challenged remethylation reserve in participants who developed clinical depletion. In rats, choline deprivation lowered hepatic betaine and the phenotype was suppressed by choline or betaine; specific BHMT inhibition independently produced the expected pathway failure.","finding_interpretation":"Together with the established BHMT reaction, these intervention, pool, rescue and specific-inhibition edges support a constraint on betaine-dependent remethylation capacity. They do not directly measure human tissue BHMT flux or show a benefit from intake above adequacy.","finding_statement":"Inadequate betaine availability, including from conditional failure of choline provision, can constrain BHMT-dependent homocysteine remethylation capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Da Costa et al. fed eight healthy men a 550 mg/day choline baseline diet followed by 50 mg/day for up to 42 days. Plasma choline and betaine fell by about 30% and 47% while folate remained adequate. In the four participants who developed hepatic steatosis, post-load homocysteine was 5.2 µmol/L higher and returned to the baseline response after repletion. In rats under low-methionine conditions, Setoue et al. found that choline deprivation markedly lowered hepatic betaine and raised plasma homocysteine, while either choline or betaine restored hepatic betaine and suppressed the increase. Strakova et al. independently showed that a specific BHMT inhibitor reduced liver BHMT activity by more than 90%, raised plasma homocysteine two- to five-fold and lowered liver SAM by more than 40%. Human BHMT biochemistry establishes betaine as the methyl donor. These edges form a supported constraint chain.","synthesis_limitations":"The human study was a pilot in eight men, with the challenged response confined to four clinically depleted participants. The pool-rescue and specific-inhibition evidence is from rat liver, and neither study measured isotope-resolved human BHMT flux. Choline partitioning, endogenous synthesis and methionine/folate state modify the provision route. The chain supports capacity constraint under demonstrated depletion, not universal limitation on ordinary diets, benefit from supplementation above adequacy, or a cognitive outcome.","evidence_considered":[{"label":"da Costa et al. (2005)","citation_key":"da_costa_choline_2005","href":"/docs/papers/BRAIN-Diet-References#da_costa_choline_2005","data_level":"Human Mechanistic","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Controlled choline depletion lowered plasma betaine and reduced post-methionine-load homocysteine-handling reserve in the participants who developed clinical depletion; both the phenotype and challenge response reversed with repletion.","assessment":{"study":"Controlled depletion–repletion pilot with a methionine-load challenge.","population":"Eight healthy men aged 20–46 years; four developed hepatic steatosis during depletion.","result":"Plasma choline and betaine fell about 30% and 47% in the full group. In the four clinically depleted men, post-load homocysteine increased by 5.2 µmol/L (95% CI 1.2–9.1; P = 0.025) relative to the 550 mg/day baseline phase and returned to the baseline response after repletion. Folate did not fall.","effect_magnitude":"Betaine fell from 66 ± 7 to 35 ± 2 nmol/mL in all eight men; clinically depleted participants had a 5.2 µmol/L greater post-load homocysteine response.","evidence_summary":"Human intervention evidence linking choline inadequacy, lower betaine availability and reduced remethylation reserve under challenge.","limitations":"Small male-only pilot, severe controlled depletion, shared circulating endpoint, and no direct tissue or isotope-resolved BHMT flux."},"canonical_reference":{"author_year":"da Costa et al. (2005)","number":6,"anchor":"#pm-ref-6"}},{"label":"Evans et al. (2002)","citation_key":"evans_betaine_2002","href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Human BHMT structures establish the betaine-to-homocysteine methyl transfer that links betaine availability to the challenged remethylation response.","assessment":{"study":"X-ray structural analysis of human BHMT.","population":"Purified human BHMT; no participants.","result":"BHMT transfers a methyl group from betaine to homocysteine to form methionine and dimethylglycine.","effect_magnitude":"No human intervention effect size.","evidence_summary":"Provides reaction-specific attribution for the donor-pool intervention chain.","limitations":"Purified-enzyme evidence does not itself establish dietary constraint."},"canonical_reference":{"author_year":"Evans et al. (2002)","number":1,"anchor":"#pm-ref-1"}},{"label":"Setoue et al. (2008)","citation_key":"setoue_choline_deprivation_2008","href":"/docs/papers/BRAIN-Diet-References#setoue_choline_deprivation_2008","data_level":"Preclinical","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Under low-methionine conditions, choline deprivation depleted hepatic betaine and raised plasma homocysteine; either choline or betaine suppressed the phenotype.","assessment":{"study":"Controlled rat feeding experiments varying choline, methionine context and lipotrope rescue.","population":"Male Wistar rats fed casein- or soybean-protein-based diets.","result":"On the choline-deprived soybean-protein diet, hepatic betaine fell from about 3.65 to 0.13 µmol/g and plasma homocysteine rose from about 12.5 to 33.5 µmol/L. Choline or betaine supplementation restored hepatic betaine to about 9.81 or 13.3 µmol/g and lowered plasma homocysteine to about 7.3 or 7.7 µmol/L. Ex-vivo BHMT activity did not decline.","effect_magnitude":"Approximately 96% lower hepatic betaine with deprivation; rescue restored the pool above control and suppressed hyperhomocysteinaemia.","evidence_summary":"Pool depletion and rescue connect conditional choline inadequacy to loss of substrate-supported remethylation capacity rather than loss of BHMT protein competence.","limitations":"Rat liver model under low-methionine conditions; homocysteine removal also involved transsulfuration, and no in-vivo isotope-resolved BHMT flux was measured."},"canonical_reference":{"author_year":"Setoue et al. (2008)","number":12,"anchor":"#pm-ref-12"}},{"label":"Strakova et al. (2011)","citation_key":"strakova_bhmt_inhibition_2011","href":"/docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011","data_level":"Preclinical","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Specific pharmacological BHMT inhibition produced the pathway direction expected when BHMT-dependent capacity fails.","assessment":{"study":"Rat feeding study using the potent and specific BHMT inhibitor S-(δ-carboxybutyl)-L-homocysteine for 3 or 14 days across adequate, cysteine-free and methionine-deficient diets.","population":"Rats; no human participants.","result":"The inhibitor reduced liver BHMT activity by more than 90%, increased plasma homocysteine two- to five-fold and lowered hepatic SAM by more than 40% across dietary conditions.","effect_magnitude":">90% lower BHMT activity; 2–5-fold higher plasma homocysteine; >40% lower liver SAM.","evidence_summary":"Specific perturbation confirms that impaired BHMT capacity can generate the observed remethylation and methylation-state direction.","limitations":"Pharmacological inhibition in rats does not quantify the effect of ordinary human betaine or choline intake."},"canonical_reference":{"author_year":"Strakova et al. (2011)","number":13,"anchor":"#pm-ref-13"}}],"evidence_dependency":["Da Costa et al. (2005) is also used in PM2-IC1. PM2-IC1 establishes that plasma homocysteine alone is non-specific; PM2-F5 relies on the combined depletion, pool, challenge, repletion and reaction chain rather than treating that biomarker alone as BHMT flux.","Evans et al. (2002) is also primary evidence in PM2-F1. Its reuse in PM2-F5 supplies the same reaction-specific link and is not independent replication."],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+**BRS2-FM1-PM2 — Betaine/BHMT Remethylation**<br />
+↓<br />
+[BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — Choline that is oxidised becomes betaine for this methyl transfer, while choline that is not oxidised is the substrate used to make acetylcholine. Betaine is not converted back to choline, so this shared use of choline does not show that dietary betaine raises brain acetylcholine.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — This sibling regenerates methionine from homocysteine by methionine synthase, using a folate-derived methyl group and vitamin B12. BHMT uses betaine instead, so the routes are parallel and folate is not a cofactor of this reaction.
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — Methionine produced here can be joined to ATP by methionine adenosyltransferase to form the later methyl donor. That conversion is a separate enzyme step and is not catalysed by BHMT.
+- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — The wider methionine cycle combines remethylation, methyl-group use and regeneration into one throughput. This PM is only the betaine-dependent remethylation step, not that combined throughput.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -165,10 +819,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap).
-- **Key References:**
+- **Rationale:** Reviews of ADHD diets and of choline in neurodevelopment discuss attention, but they do not test BHMT activity or betaine supplementation as an attention treatment  Derbyshire and Maes (2023) [[8]](#pm-ref-8); Millichap and Yee (2012) [[9]](#pm-ref-9). The enzyme reaction is established separately, and a change in plasma homocysteine is not an attention outcome  Evans et al. (2002) [[1]](#pm-ref-1); Olthof et al. (2003) [[5]](#pm-ref-5). Direct evidence that this remethylation route changes Focus / Attention Stability remains a gap.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#millichap_diet_2012","label":"Millichap and Yee (2012)"},{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM2-F3","finding_label":"ADHD diet reviews do not test BHMT","presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","finding_summary":"The attached attention reviews discuss dietary patterns, supplements and choline in neurodevelopment. They do not measure BHMT or test betaine as a treatment for attention.","finding_interpretation":"An attention relationship can remain a framework bridge. It should not be read as evidence that this remethylation route changes focus.","finding_statement":"The repository ADHD diet review and choline neurodevelopment review do not directly demonstrate that BHMT-dependent remethylation changes Focus / Attention Stability.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"One review surveys sugar restriction, additive-free diets, elimination diets, fatty acids, iron and zinc in ADHD. Another surveys choline status in autism, ADHD and dyslexia. Neither assigns an attention outcome to BHMT activity or to betaine supplementation. The biochemical reaction can be true while this phenome link stays untested.","synthesis_limitations":"This is a gap in the attached reviews, not proof that no attention relationship exists. The sources are narrative reviews and mix many dietary exposures.","evidence_considered":[{"label":"Millichap and Yee (2012)","citation_key":"millichap_diet_2012","href":"/docs/papers/BRAIN-Diet-References#millichap_diet_2012","data_level":"Human Outcome","evidence_source":"repository-inherited","directional_finding":"Reviews dietary approaches to ADHD symptoms, including fatty acids, iron and zinc, and does not test BHMT or betaine supplementation.","assessment":{"study":"Narrative clinical review of diet as a treatment factor in ADHD.","population":"Children with ADHD in the reviewed literature; not a BHMT cohort.","result":"Discusses restriction diets, fatty-acid supplements, iron, zinc and dietary pattern. No betaine dose, BHMT assay or homocysteine remethylation endpoint is the basis of the conclusions.","effect_magnitude":"No BHMT or betaine effect size is reported.","evidence_summary":"Shows why an ADHD diet review cannot be used as direct evidence for this reaction.","limitations":"Narrative review spanning many exposures and outcomes. Not a mechanism test."},"canonical_reference":{"author_year":"Millichap and Yee (2012)","number":9,"anchor":"#pm-ref-9"}},{"label":"Derbyshire and Maes (2023)","citation_key":"derbyshire_role_2023","href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Reviews choline in autism, ADHD and dyslexia, without measuring BHMT activity or betaine-dependent remethylation.","assessment":{"study":"Narrative review of choline and neurodevelopmental disorders.","population":"Pregnancy, children with autism, and people with ADHD or dyslexia in the reviewed literature.","result":"Low choline intake or altered choline status is discussed for those groups. The review does not test BHMT, betaine supplementation or tissue remethylation flux against attention scores.","effect_magnitude":"No BHMT effect size is reported.","evidence_summary":"Choline neurodevelopment context is not a BHMT outcome study.","limitations":"Narrative review. Choline has membrane and neurotransmitter roles outside this reaction."},"canonical_reference":{"author_year":"Derbyshire and Maes (2023)","number":8,"anchor":"#pm-ref-8"}}],"evidence_dependency":["Derbyshire and Maes (2023) is also primary evidence in PM2-F4. That reuse is one review, not independent replication."],"connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -188,273 +843,28 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts.
-- **Key References:**
+- **Rationale:** Lower plasma homocysteine after betaine supplements is a blood measurement, not a test of cognitive clarity or of tissue BHMT activity  Olthof et al. (2003) [[5]](#pm-ref-5). A choline review discusses neurodevelopment rather than an effect of this reaction on clarity  Derbyshire and Maes (2023) [[8]](#pm-ref-8). The relationship remains an indirect bridge with no direct outcome evidence.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM2-F4","finding_label":"Homocysteine and choline reviews do not test cognitive clarity","presentation":"phenome-relationship","primary_phenome":"Cognitive Clarity","finding_summary":"Betaine can lower plasma homocysteine, and choline is discussed in neurodevelopment. Neither result shows that BHMT activity changes cognitive clarity.","finding_interpretation":"Cognitive clarity stays an indirect bridge. Do not treat a homocysteine change, or a choline review, as a clarity outcome for this PM.","finding_statement":"Plasma homocysteine lowering after betaine, and narrative choline reviews, do not directly demonstrate that BHMT-dependent remethylation changes Cognitive Clarity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The betaine trial measured plasma homocysteine in healthy adults and did not measure cognition. The choline review discusses neurodevelopmental conditions rather than clarity as an outcome of this reaction. Both can sit near methyl-donor biology without testing the phenome claim.","synthesis_limitations":"Bounded to the attached sources. Absence of a clarity endpoint in these papers is not a universal negative finding.","evidence_considered":[{"label":"Olthof et al. (2003)","citation_key":"olthof_low_2003","href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","data_level":"Human Mechanistic","exposure_context":"supplemental-formulation","evidence_source":"repository-inherited","directional_finding":"Lowers plasma homocysteine in healthy adults and does not measure cognitive clarity or BHMT flux.","assessment":{"study":"Six-week randomised betaine supplementation trial with methionine loads.","population":"Healthy adults in four groups of 19.","result":"Fasting and post-load plasma homocysteine fell relative to placebo. No cognitive clarity scale was used.","effect_magnitude":"Fasting homocysteine about 12%, 15% and 20% lower than placebo at 1.5, 3 and 6 g/day. No cognitive effect size exists in the study.","evidence_summary":"Human homocysteine evidence without a clarity endpoint.","limitations":"Healthy adults, circulating endpoint, no cognitive measurement."},"canonical_reference":{"author_year":"Olthof et al. (2003)","number":5,"anchor":"#pm-ref-5"}},{"label":"Derbyshire and Maes (2023)","citation_key":"derbyshire_role_2023","href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Discusses choline and neurodevelopment, not BHMT-dependent cognitive clarity.","assessment":{"study":"Narrative review of choline in autism, ADHD and dyslexia.","population":"Developmental cohorts in the reviewed literature.","result":"Considers choline status and neurodevelopmental conditions. It does not isolate BHMT or measure cognitive clarity as a remethylation outcome.","effect_magnitude":"No BHMT or clarity effect size for this reaction is reported.","evidence_summary":"Neurodevelopment review, not a test of this PM against cognitive clarity.","limitations":"Narrative review with several choline roles outside BHMT."},"canonical_reference":{"author_year":"Derbyshire and Maes (2023)","number":8,"anchor":"#pm-ref-8"}}],"evidence_dependency":["Olthof et al. (2003) is also primary evidence in PM2-IC1. Derbyshire and Maes (2023) is also primary evidence in PM2-F3. Neither reuse is a second study."],"connected_supportive_evidence":[],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Betaine ← beetroot, spinach
-- Choline ← eggs, soy lecithin
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- zinc
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-BRS2-FM1-PM2 provides an alternative route for recycling homocysteine to methionine using betaine as a methyl donor. This pathway operates independently of the folate-dependent remethylation cycle ([BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)) and helps maintain methyl-donor availability when methylation demand is increased or folate-cycle efficiency is reduced.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Betaine/BHMT Remethylation — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Betaine as a methyl donor)
-
-Betaine (trimethylglycine) donates a methyl group to homocysteine through the enzyme betaine-homocysteine methyltransferase (BHMT), regenerating methionine and supporting continued participation in one-carbon metabolism.
-
-#### (Parallel remethylation capacity)
-
-Unlike folate/B12-dependent remethylation, the BHMT pathway provides an alternative route for homocysteine recycling. This contributes to methylation resilience by reducing reliance on a single remethylation pathway.
-
-#### (Interaction with methyl-donor economy)
-
-By supporting methionine regeneration, BHMT activity contributes indirectly to SAMe production ([BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)) and wider methyl-donor availability across methylation-dependent biological processes. Dietary choline can be oxidised to betaine, linking choline-rich foods to BHMT substrate availability → [Derbyshire and Maes, 2023]
-
-#### (Boundaries of the mechanism)
-
-This PM governs **betaine-dependent homocysteine remethylation via BHMT** only.
-
-The folate/B12-dependent remethylation route belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). Methionine→SAMe conversion belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Integrated cycle throughput belongs to [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
-
-Direct CDP-choline Kennedy-pathway phosphatidylcholine synthesis and SAMe-dependent PEMT methylation belong to [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation). Acetylcholine synthesis from choline belongs to [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support).
-
-#### (Integration within BRS2)
-
-This PM provides parallel remethylation capacity within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), reducing sole dependence on folate-cycle efficiency when methylation demand is high or folate-pathway function is constrained. It draws on [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) for betaine and choline-derived methyl-donor availability.
-
-</div>
-</div>
-</div>
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The BHMT pathway is well characterised biochemically. The studies below highlight why a parallel remethylation route matters in practice — particularly when homocysteine lowering depends on nutrient combinations and when choline/betaine intake supports methylation resilience.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Betaine supplementation and homocysteine lowering</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Low-dose betaine supplementation produced immediate and sustained lowering of plasma homocysteine in healthy adults, supporting betaine as a dietary methyl-donor lever for homocysteine modulation → [Olthof et al., 2003]
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Combined B12 and omega-3 homocysteine effects</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In a randomised trial, vitamin B-12 alone lowered homocysteine by 22%, fish oil by 19%, and combined B-12 + fish oil by 39% — illustrating that remethylation support interacts with connected nutrient pathways beyond a single methyl-donor route → [Tao Huang et al., 2015] For BHMT, the parallel implication is that homocysteine clearance is best read across multiple remethylation and connected pathways rather than through betaine alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015","label":"Tao Huang et al. (2015)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Choline and neurodevelopmental context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Choline supports betaine availability through oxidation pathways and intersects broader methylation–membrane biology relevant to neurodevelopmental contexts including ADHD → [Derbyshire and Maes, 2023] This supports choline-rich dietary patterns as indirect BHMT support rather than isolated betaine supplementation as the only lever.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Homocysteine disposal through transsulfuration toward cysteine
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS2-FM1-PM1 - Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2-FM1-PM3 - SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
-- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support betaine/bhmt remethylation. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-- [Olthof et al. (2003) — Low Dose Betaine Supplementation Leads to Immediate and Long Term Lowering of Plasma Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
-- [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-- [Millichap and Yee (2012) — Diet Factor in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
+
+- <span id="pm-ref-1">[1]</span> [Evans et al. (2002) — Human BHMT structure and catalytic zinc](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)
+- <span id="pm-ref-2">[2]</span> [Breksa and Garrow (1999) — BHMT zinc ligands and reaction products](/docs/papers/BRAIN-Diet-References#breksa_zinc_1999)
+- <span id="pm-ref-3">[3]</span> [Obeid (2013) — BHMT pathway and methyl-donor deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
+- <span id="pm-ref-4">[4]</span> [Salvi and Gadda (2013) — Choline dehydrogenase and betaine formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)
+- <span id="pm-ref-5">[5]</span> [Olthof et al. (2003) — Low-dose betaine and plasma homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
+- <span id="pm-ref-6">[6]</span> [da Costa et al. (2005) — Choline depletion and post-load homocysteine](/docs/papers/BRAIN-Diet-References#da_costa_choline_2005)
+- <span id="pm-ref-7">[7]</span> [Huang et al. (2015) — Vitamin B12, fish oil and plasma homocysteine](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
+- <span id="pm-ref-8">[8]</span> [Derbyshire and Maes (2023) — Choline in neurodevelopmental disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+- <span id="pm-ref-9">[9]</span> [Millichap and Yee (2012) — Diet and attention-deficit/hyperactivity disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
+- <span id="pm-ref-10">[10]</span> [Liu et al. (2012) — Folate, betaine and choline interaction in rats](/docs/papers/BRAIN-Diet-References#liu_betaine_folate_2012)
+- <span id="pm-ref-11">[11]</span> [Park and Garrow (1999) — Methionine restriction and hepatic BHMT expression](/docs/papers/BRAIN-Diet-References#park_methionine_bhmt_1999)
+- <span id="pm-ref-12">[12]</span> [Setoue et al. (2008) — Choline deprivation, hepatic betaine and homocysteine](/docs/papers/BRAIN-Diet-References#setoue_choline_deprivation_2008)
+- <span id="pm-ref-13">[13]</span> [Strakova et al. (2011) — Specific BHMT inhibition and methylation capacity](/docs/papers/BRAIN-Diet-References#strakova_bhmt_inhibition_2011)
+

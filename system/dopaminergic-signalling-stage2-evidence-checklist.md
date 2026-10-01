@@ -1,9 +1,12 @@
 # BRS1-FM1-PM3 Dopaminergic Signalling — Stage 2 Evidence Checklist
 
-Status: **Stage 2A evidence integration complete**
+Status: **Stage 2A/2B synthesis-path work complete, with 2026-09-30 tyrosine
+correction.** Mission coverage beyond synthesis is **not** closed:
+`CC-BRS1-FM1-PM3-01` / `FW017` — Deferred — evidence assessment pending.
 
-Implementation and Dietary Levers handoff:
-`system/dopaminergic-signalling-stage2a-report.md`.
+Implementation reports:
+`system/dopaminergic-signalling-stage2a-report.md` and
+`system/dopaminergic-signalling-stage2b-report.md`.
 
 This checklist governs the dedicated evidence pass for BRS1-FM1-PM3. Stage 1
 establishes scope and architecture only; it does not establish dietary

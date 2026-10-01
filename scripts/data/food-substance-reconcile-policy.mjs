@@ -129,6 +129,25 @@ export const QUALITATIVE_COMPOUNDS = [
       `USDA Database for the Flavonoid Content of Selected Foods (Release 3.3) reports quercetin glycosides in ${title}; a single defensible per-100 g value is not taken from the abbreviated USDA nutrient panel.`,
   },
   {
+    label: "Kaempferol",
+    key: "kaempferol_qual",
+    slugs: [
+      "spinach",
+      "kale",
+      "broccoli",
+      "onions",
+      "blueberries",
+      "black-tea",
+      "capers",
+      "asparagus",
+      "leeks",
+    ],
+    source: (title) =>
+      title === "Capers"
+        ? `Phenol-Explorer catalogues kaempferol in Capers (Neveu et al. 2010); a single defensible per-100 g value is not taken from the abbreviated USDA nutrient panel.`
+        : `Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values showing kaempferol in ${title}; a single defensible per-100 g value is not taken from the abbreviated USDA nutrient panel.`,
+  },
+  {
     label: "Sulforaphane",
     key: "sulforaphane_qual",
     slugs: ["broccoli", "broccoli-sprouts"],

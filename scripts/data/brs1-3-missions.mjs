@@ -10,7 +10,7 @@ export const BRS1_3_MISSIONS = {
   "brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx":
     "Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.",
   "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx":
-    "Convert dietary choline into acetylcholine so learning, working memory, and attention-focused signalling stay supplied.",
+    "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
   "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx":
     "Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.",
   "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx":

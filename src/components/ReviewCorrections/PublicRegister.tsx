@@ -94,7 +94,10 @@ export default function FrameworkReviewRegister(): React.ReactNode {
   const history = useHistory()
   const filters = readParams(location.search)
   const issues = useMemo(
-    () => (frameworkQcPublic.issues || []).filter((issue) => issueMatches(issue, filters)),
+    () =>
+      (frameworkQcPublic.issues || []).filter(
+        (issue) => issue.register_surface !== "pm-tab" && issueMatches(issue, filters),
+      ),
     [filters.q, filters.pageType, filters.letter, filters.issueStatus, filters.reviewStatus, filters.openOnly],
   )
 

@@ -1,70 +1,37 @@
 ---
 title: Methionine Cycle Flux
 pm_id: BRS2-FM1-PM4
-mission: >-
-  Maintain balanced methionine-cycle flux so methionine availability,
-  SAM-dependent methylation, homocysteine recycling and transsulfuration remain
-  coordinated across changing physiological demand.
+mission: 'Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.'
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: >-
-  Coordinates the methionine cycle as an integrated flux system: methionine
-  availability → SAM synthesis → methyl transfer → SAH → homocysteine →
-  remethylation or transsulfuration. Methionine is an essential substrate whose
-  adequacy enables SAM generation and downstream routing, while chronic excess
-  is not assumed beneficial; dietary framing is methionine adequacy within
-  protein and amino-acid balance rather than maximisation. Homocysteine is an
-  important cycle junction and readout, not the organising biological objective
-  of this PM.
-key_constraints:
-  - BRS2(KC1) - One-Carbon Donor Pool
-  - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
-cofactors:
-  - B2
-  - B6
-  - B12
+summary: 'The methionine cycle forms S-adenosylmethionine (SAM) from methionine, transfers its methyl group, and hydrolyses S-adenosylhomocysteine (SAH) to adenosine and homocysteine. Homocysteine is then remethylated to methionine or sent into transsulfuration toward cysteine, and SAM, SAH and methyl-tetrahydrofolate are effectors of that split. Every tissue can remethylate homocysteine, while transsulfuration is limited to liver, kidney, small intestine and pancreas. Metabolite concentrations describe pool state. Branch rates are a separate measurement.'
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: 'Pattern-based: methionine adequacy within protein balance + cofactor coverage'
+timing_specific: 'No'
+dose_sensitivity: 'Methionine, folate, vitamin B12, vitamin B6 and riboflavin participate in the cycle. No ordinary-diet dose-response for human remethylation or transsulfuration rates is established.'
+cofactors:
+  - Riboflavin
+  - Vitamin B6
+  - Vitamin B12
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
 references:
-  - >-
-    [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human
-    Physiology and
-    Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-  - >-
-    [Chiang et al. (1996) — S-Adenosylmethionine and
-    Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
-  - >-
-    [Fanti et al. (2026) — Methionine-Supplemented Longevity Diet Increases
-    Growth Hormone, GLP-1, and
-    FGF21](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
-  - >-
-    [Parkhitko et al. (2026) — Methionine Restriction and Mimetics to Ameliorate
-    Human Aging and
-    Disease](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
-  - >-
-    [Kumar and Yadav (2017) — The Transsulfuration
-    Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-  - >-
-    [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based
-    Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-  - >-
-    [Yu et al. (2020) — Evidence-based Prevention of Alzheimer's
-    Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
-  - >-
-    [Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative
-    Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
-  - >-
-    [Lukovac et al. (2024) — Implications of Homocysteine, Vitamin B12, Vitamin
-    D, Ferritin, and Iron
-    Levels](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-  - >-
-    [Wang et al. (2019) — Path Analysis for a Case-Control
-    Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-  - >-
-    [Tao Huang et al. (2015) — A Randomized Controlled
-    Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
+  - '[Aragão et al. (2024) — Riboflavin physiology review](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)'
+  - '[Chiang et al. (1996) — SAM methyl transfer and SAH hydrolysis](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)'
+  - '[Fanti et al. (2026) — Methionine balance in a mouse longevity diet](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)'
+  - '[Parkhitko et al. (2026) — Methionine restriction and ageing](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)'
+  - '[Kumar et al. (2017) — Transsulfuration toward cysteine](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)'
+  - '[Collaboration (1998) — Folic acid, B12 and blood homocysteine](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)'
+  - '[Yu et al. (2020) — Homocysteine among Alzheimer prevention factors](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)'
+  - '[Luzzi et al. (2022) — Homocysteine and cognitive decline](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)'
+  - '[Lukovac et al. (2024) — Homocysteine and B12 in boys with ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
+  - '[Wang et al. (2019) — Diet, B vitamins and childhood ADHD](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)'
+  - '[Huang et al. (2015) — B12, fish oil and plasma homocysteine](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)'
+  - '[Finkelstein (1998) — Homocysteine split between remethylation and transsulfuration](/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998)'
+  - '[Lamers et al. (2011) — Vitamin B6 restriction and methionine-cycle rates](/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011)'
+  - '[FAO (2013) — Dietary protein quality evaluation (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Froese et al. (2019) — Vitamin B12, folate and methionine remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)'
+  - '[Meier et al. (2001) — Human cystathionine beta-synthase structure](/docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -72,15 +39,11 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: >-
-      Balanced methionine-cycle flux sets methylation potential (SAM
-      availability relative to SAH-mediated constraint) that supports
-      phospholipid, neurotransmitter and broader methylation chemistry relevant
-      to cognitive clarity. Homocysteine remains a useful junction readout of
-      cycle strain, but the biology scored here is coordinated methionine → SAM
-      → SAH → remethylation/transsulfuration flux rather than homocysteine
-      lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle
-      flux remain limited (biology > evidence gap).
+    rationale: 'SAM donates methyl groups, and homocysteine is then split between remethylation and transsulfuration {{cite:chiang_s-adenosylmethionine_1996,finkelstein_homocysteine_1998}}. Homocysteine concentration is discussed as a risk marker for cognitive decline and Alzheimer disease {{cite:luzzi_homocysteine_2022,yu_evidence-based_2020}}. Those studies measure a metabolite level. They do not measure branch rates, and they do not show that changing cycle throughput improves Cognitive Clarity.'
+    scientific_findings:
+      - PM4-F1
+      - PM4-IC1
+      - PM4-F3
     references:
       - index: 1
         label: Chiang et al. (1996)
@@ -88,43 +51,488 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996
         data_level: Mechanistic
       - index: 2
-        label: Aragão et al. (2024)
-        citation_key: aragao_revitalising_2024
-        href: /docs/papers/BRAIN-Diet-References#aragao_revitalising_2024
+        label: Finkelstein (1998)
+        citation_key: finkelstein_homocysteine_1998
+        href: /docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+        data_level: Mechanistic
       - index: 3
         label: Luzzi et al. (2022)
         citation_key: luzzi_homocysteine_2022
         href: /docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022
+        data_level: Mechanistic
+      - index: 4
+        label: Yu et al. (2020)
+        citation_key: yu_evidence-based_2020
+        href: /docs/papers/BRAIN-Diet-References#yu_evidence-based_2020
+        data_level: Mixed
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: >-
-      Attention-relevant one-carbon biology depends on coordinated
-      methyl-transfer capacity under daily demand, not only on remethylation of
-      accumulated homocysteine. Cycle flux that keeps methionine adequacy,
-      SAM-dependent methylation and downstream recycling aligned provides
-      translational context for focus stability when dietary methyl-donor and
-      sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin
-      associations in ADHD-relevant cohorts remain supportive readouts of
-      multi-step cycle stress rather than proof that this PM alone determines
-      attention.
+    rationale: 'Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls, and a separate case-control study linked less healthy diets with lower folate, vitamin B6 and vitamin B12 and with ADHD {{cite:lukovac_serum_2024,wang_dietary_2019}}. Those are concentration and dietary-pattern associations. They do not measure remethylation or transsulfuration rates {{cite:finkelstein_homocysteine_1998,lamers_vitamin_b6_methionine_cycle_2011}}.'
+    scientific_findings:
+      - PM4-F1
+      - PM4-IC1
+      - PM4-F4
     references:
       - index: 1
         label: Lukovac et al. (2024)
         citation_key: lukovac_serum_2024
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+        data_level: Human Study
       - index: 2
         label: Wang et al. (2019)
         citation_key: wang_dietary_2019
         href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
         data_level: Human Study
       - index: 3
-        label: Chiang et al. (1996)
+        label: Finkelstein (1998)
+        citation_key: finkelstein_homocysteine_1998
+        href: /docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+        data_level: Mechanistic
+      - index: 4
+        label: Lamers et al. (2011)
+        citation_key: lamers_vitamin_b6_methionine_cycle_2011
+        href: /docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011
+        data_level: Human Mechanistic
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: methyl-donor-pool
+    applicability_proposition: Inadequacy of the shared methyl-donor pool constrains integrated methionine-cycle throughput or the remethylation–transsulfuration split.
+    disposition: unresolved
+    established_links:
+      - Methyl-tetrahydrofolate is an effector of homocysteine distribution between remethylation and conversion to cystathionine (PM4-F1).
+      - 'Folic acid lowered blood homocysteine concentration, with a further concentration reduction when vitamin B12 was added (PM4-IC1).'
+    inferred_links:
+      - A lower homocysteine concentration means the dietary methyl-donor pool was limiting integrated cycle rates.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+        - PM4-IC1
+      citation_keys:
+        - finkelstein_homocysteine_1998
+        - collaboration_lowering_1998
+    rationale: 'Methyl-tetrahydrofolate is a named effector of the split, and folic acid changes blood homocysteine concentration. Neither result shows that inadequacy of the folate, choline and betaine pool changes remethylation or transsulfuration rates.'
+  - kc_id: BRS2(KC2)
+    ikc_id: BRS2(KC2)
+    arm_id: methionine-cysteine-pool
+    applicability_proposition: Inadequacy of the shared methionine–cysteine pool constrains integrated methionine-cycle throughput or the remethylation–transsulfuration split.
+    disposition: unresolved
+    established_links:
+      - Methionine is the amino acid from which SAM and then homocysteine are formed (PM4-F1).
+      - A liver MAT isoenzyme allows excess methionine to continue SAM synthesis (PM4-F1).
+      - 'In aged mice, too little or too much methionine removed benefits of a low-amino-acid longevity diet on frailty and metabolic signalling (connected evidence on PM4-F1).'
+    inferred_links:
+      - Dietary inadequacy of the shared methionine–cysteine pool therefore limits human cycle rates.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - chiang_s-adenosylmethionine_1996
+        - finkelstein_homocysteine_1998
+        - fanti_methionine_longevity_diet_2026
+    rationale: 'Methionine is required to enter the cycle, and excess methionine can support continued hepatic SAM synthesis. A mouse methionine-balance experiment changed frailty and metabolic signalling. None of these results shows that inadequacy of the shared methionine–cysteine pool limits the human branch rates this mechanism governs.'
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    input: Methionine
+    input_type: substrate
+    biological_role: Amino acid that enters the methionine cycle and is regenerated when homocysteine is remethylated
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - chiang_s-adenosylmethionine_1996
+        - finkelstein_homocysteine_1998
+    evidence_limitation: Methionine is required to enter the cycle. This does not show that raising methionine intake increases human remethylation or transsulfuration rates.
+  - atom_id: PM4-DIT-2
+    input: Dietary protein
+    input_type: substrate provision
+    biological_role: 'Provides digestible methionine, the amino acid that enters the cycle.'
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - fao_diaas_2013
+        - finkelstein_homocysteine_1998
+    evidence_limitation: Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.
+  - atom_id: PM4-DIT-3
+    input: Folate
+    input_type: nutrient/substance
+    biological_role: 'Supplies 5-methyltetrahydrofolate, the methyl donor used when the cycle remethylates homocysteine'
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+        - PM4-IC1
+      citation_keys:
+        - finkelstein_homocysteine_1998
+        - froese_vitamin_2019
+        - collaboration_lowering_1998
+    evidence_limitation: Folic acid can lower blood homocysteine concentration. That concentration change is not a measured change in remethylation or transsulfuration rate.
+  - atom_id: PM4-DIT-4
+    input: Vitamin B12
+    input_type: nutrient/substance
+    biological_role: Provides the cobalamin cofactor for folate-dependent remethylation of homocysteine inside the cycle
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+        - PM4-IC1
+      citation_keys:
+        - froese_vitamin_2019
+        - collaboration_lowering_1998
+    evidence_limitation: 'Added vitamin B12 can lower blood homocysteine further after folic acid. That is a concentration result, not a measured cycle-rate response.'
+  - atom_id: PM4-DIT-5
+    input: Vitamin B6
+    input_type: nutrient/substance
+    biological_role: 'Provides pyridoxal phosphate, the cofactor for the transsulfuration exit that converts homocysteine toward cysteine'
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+        - PM4-F2
+      citation_keys:
+        - finkelstein_homocysteine_1998
+        - meier_cbs_structure_2001
+        - lamers_vitamin_b6_methionine_cycle_2011
+    evidence_limitation: 'In nine healthy young adults, 28 days of vitamin B6 restriction lowered plasma pyridoxal phosphate and did not change mean postprandial remethylation, transmethylation, or total transsulfuration rates.'
+  - atom_id: PM4-DIT-6
+    input: Riboflavin
+    input_type: nutrient/substance
+    biological_role: Provides the flavin cofactor for the enzyme that makes 5-methyltetrahydrofolate used in remethylation
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - froese_vitamin_2019
+        - finkelstein_homocysteine_1998
+    evidence_limitation: 'Riboflavin supports formation of the methyl donor. It is not the cofactor at the methionine-synthase catalytic site, and it has not been shown to change human cycle rates.'
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Methionine is the amino acid that enters the methionine cycle. This does not show that eating more methionine increases human cycle rates.
+    evidence_limitation: Methionine is required to enter the cycle. This does not show that raising methionine intake increases human remethylation or transsulfuration rates.
+  - atom_id: PM4-DIT-2
+    requirement_classification: derived
+    derived_target: Methionine
+    derived_target_atom_id: PM4-DIT-1
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: Dietary protein provides methionine for the cycle after digestion. This does not show that more protein increases cycle rates.
+    evidence_limitation: Dietary protein supplies methionine. It does not show that eating more protein increases cycle rates. DIAAS scores sulfur amino acids as methionine plus cysteine.
+  - atom_id: PM4-DIT-3
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Folate supplies the methyl donor used to remethylate homocysteine in the cycle. Blood homocysteine can fall after folic acid without a measured change in cycle rate.
+    evidence_limitation: Folic acid can lower blood homocysteine concentration. That concentration change is not a measured change in remethylation or transsulfuration rate.
+  - atom_id: PM4-DIT-4
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin B12 is the cofactor for folate-dependent remethylation inside the cycle. A further fall in blood homocysteine is not a measured cycle-rate change.
+    evidence_limitation: 'Added vitamin B12 can lower blood homocysteine further after folic acid. That is a concentration result, not a measured cycle-rate response.'
+  - atom_id: PM4-DIT-5
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin B6 provides the cofactor for the transsulfuration exit of the cycle. Moderate restriction in healthy young adults did not change mean postprandial cycle rates.
+    evidence_limitation: 'In nine healthy young adults, 28 days of vitamin B6 restriction lowered plasma pyridoxal phosphate and did not change mean postprandial remethylation, transmethylation, or total transsulfuration rates.'
+  - atom_id: PM4-DIT-6
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Riboflavin supports the enzyme that makes the methyl donor used in remethylation. It has not been shown to change human cycle rates.
+    evidence_limitation: 'Riboflavin supports formation of the methyl donor. It is not the cofactor at the methionine-synthase catalytic site, and it has not been shown to change human cycle rates.'
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: Methionine
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-2
+    label: Dietary protein
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-3
+    label: Folate
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-4
+    label: Vitamin B12
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-5
+    label: Vitamin B6
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-6
+    label: Riboflavin
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-1
+    label: Methionine
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-3
+    label: Folate
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-4
+    label: Vitamin B12
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-5
+    label: Vitamin B6
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-6
+    label: Riboflavin
+    presentation_section: 3.1.2
+scientific_findings_intro: 'Methionine is converted to SAM, used to donate a methyl group, and cleared through SAH to homocysteine. Homocysteine is then divided between return to methionine and transsulfuration toward cysteine. The findings below establish that sequence and show that a moderate vitamin B6 restriction left the mean postprandial branch rates unchanged. Metabolite concentrations are a separate measurement from those rates. Nothing here shows that methionine restriction or homocysteine lowering treats cognitive or attention disorders.'
+scientific_findings:
+  - id: PM4-F1
+    finding_label: Homocysteine is split between remethylation and transsulfuration
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Methionine becomes SAM, SAM donates a methyl group, and SAH is hydrolysed to homocysteine. Homocysteine is then either remethylated to methionine or sent into transsulfuration toward cysteine.'
+    finding_interpretation: 'This is the integrated route and the branch. It does not assign the MAT, remethylation or transsulfuration reactions to this mechanism, and it does not show that ordinary diet changes the rates.'
+    finding_statement: 'Methionine-cycle throughput runs from methionine to SAM, methyl transfer and SAH hydrolysis to homocysteine, after which homocysteine is distributed between remethylation and transsulfuration under the influence of SAM, SAH and methyl-tetrahydrofolate.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A methylation review establishes SAM as the methyl donor and SAH hydrolysis to adenosine and homocysteine, and it shows that blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together. A pathway review then places regulation at the distribution of homocysteine between remethylation, which every tissue can perform, and transsulfuration to cystathionine, which is limited to liver, kidney, small intestine and pancreas, with SAM, SAH and methyl-tetrahydrofolate as effectors. A human tracer study uses that same partition, measuring postprandial remethylation, transmethylation and total transsulfuration as rates.'
+    synthesis_limitations: 'The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.'
+    evidence_considered:
+      - label: Chiang et al. (1996)
         citation_key: chiang_s-adenosylmethionine_1996
         href: /docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996
         data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'SAM donates methyl groups; SAH formed by that transfer is hydrolysed to adenosine and homocysteine; blocking SAH hydrolysis can affect methylation across phospholipids, proteins, DNA, RNA and small molecules.'
+        assessment:
+          study: 'Narrative review of SAM-dependent methylation, SAH hydrolysis and downstream methyl acceptors.'
+          population: Review of biochemical and cellular literature; no new human cohort.
+          result: SAM is the methyl donor. SAH is hydrolysed by SAH hydrolase to adenosine and homocysteine. Blocking that hydrolase can affect methylation of several classes of acceptor at once.
+          effect_magnitude: No quantitative flux or concentration effect size.
+          evidence_summary: Establishes methyl transfer and the SAH-to-homocysteine step as a shared route into many methylation reactions.
+          limitations: 'Does not describe remethylation, transsulfuration or a measured SAM:SAH ratio, and does not test diet or cognition.'
+      - label: Finkelstein (1998)
+        citation_key: finkelstein_homocysteine_1998
+        href: /docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Homocysteine is distributed between tissue-wide remethylation and transsulfuration to cystathionine in liver, kidney, small intestine and pancreas; SAM, SAH and methyl-tetrahydrofolate are effectors of that distribution.'
+        assessment:
+          study: Review of mammalian methionine-cycle and transsulfuration pathways and their regulation.
+          population: Mammalian pathway review; no new human experiment.
+          result: 'Every tissue can synthesise SAM, use it for transmethylation, hydrolyse SAH and remethylate homocysteine. Transsulfuration catabolises homocysteine in liver, kidney, small intestine and pancreas. Regulation is the distribution of homocysteine between remethylation and conversion to cystathionine.'
+          effect_magnitude: No numeric rate or intake-response estimate.
+          evidence_summary: 'Establishes the regulated branch between recycling and transsulfuration and names SAM, SAH and methyl-tetrahydrofolate as effectors.'
+          limitations: 'Review-level pathway evidence. It does not measure human rates, test ordinary diets, or show a cognitive or attention outcome.'
+      - label: Lamers et al. (2011)
+        citation_key: lamers_vitamin_b6_methionine_cycle_2011
+        href: /docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011
+        data_level: Human Mechanistic
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Human postprandial kinetics were quantified as remethylation, transmethylation and total transsulfuration rates, confirming that the branch is measurable as rates rather than as a single metabolite level.'
+        assessment:
+          study: 'Primed constant infusion of labelled methionine and leucine in the postprandial state, repeated after 28 days of dietary vitamin B6 restriction.'
+          population: 'Nine healthy adults (4 men, 5 women), aged 20–35 years.'
+          result: 'The protocol quantified remethylation, transmethylation and total transsulfuration. Mean rates were unchanged by the restriction.'
+          effect_magnitude: Plasma PLP fell from 49 ± 4 nmol/L to 19 ± 2 nmol/L. Mean cycle rates did not change. No rate delta is reported because the mean change was null.
+          evidence_summary: Shows that human cycle throughput can be partitioned into measured rates.
+          limitations: 'Small healthy-adult sample, 28-day restriction, postprandial state only, and large individual variation. Not a test of cognitive or attention outcomes.'
+    connected_supportive_evidence:
+      - label: Kumar et al. (2017)
+        citation_key: kumar_transsulfuration_2017
+        href: /docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017
+        data_level: Mechanistic
+        why_relevant: The repository record describes a review of transsulfuration from homocysteine toward cysteine and glutathione.
+        why_excluded: That record does not establish remethylation or the regulated split between the two exits.
+      - label: Aragão et al. (2024)
+        citation_key: aragao_revitalising_2024
+        href: /docs/papers/BRAIN-Diet-References#aragao_revitalising_2024
+        data_level: Mechanistic
+        why_relevant: Riboflavin was listed beside this mechanism because vitamin B2 is a cofactor of a folate-cycle enzyme.
+        why_excluded: The paper is a general riboflavin physiology review and does not test methionine-cycle throughput or the homocysteine split.
+      - label: Fanti et al. (2026)
+        citation_key: fanti_methionine_longevity_diet_2026
+        href: /docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026
+        data_level: Mixed
+        why_relevant: Tests how little or how much methionine sits inside a low-amino-acid longevity diet.
+        why_excluded: 'The mouse endpoints are frailty and metabolic signalling, and the human component is epidemiology rather than a methionine trial. Neither measures cycle branch rates or an attention or cognitive treatment effect.'
+      - label: Parkhitko et al. (2026)
+        citation_key: parkhitko_methionine_restriction_mimetics_2026
+        href: /docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026
+        data_level: Mechanistic
+        why_relevant: Reviews methionine restriction as an ageing intervention.
+        why_excluded: 'It is an ageing and disease review, not a measurement of human cycle rates and not an ADHD treatment study.'
+  - id: PM4-F2
+    finding_label: Moderate vitamin B6 restriction left mean cycle rates unchanged
+    presentation: mechanistic-basis
+    finding_summary: 'In healthy young adults, 28 days of dietary vitamin B6 restriction lowered the active B6 coenzyme in blood but did not change mean postprandial remethylation, transmethylation or total transsulfuration rates.'
+    finding_interpretation: A lower vitamin B6 supply in this range did not limit the integrated rates. The rise in cystathionine is a separate intermediate signal.
+    finding_statement: 'Moderate dietary vitamin B6 restriction that lowered plasma pyridoxal 5''-phosphate did not change mean postprandial remethylation, transmethylation or total transsulfuration rates in healthy young adults.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'One controlled feeding study measured the three cycle rates with methionine tracers before and after restriction. Plasma pyridoxal 5''-phosphate fell sharply. The mean rates did not change, although individuals differed. Cystathionine concentration rose, and its fractional synthesis rate rose in most participants. The integrated rates and that intermediate marker moved differently.'
+    synthesis_limitations: 'Nine healthy young adults, 28 days, and the postprandial state only. The authors report large individual variation, so a mean null result does not describe every person. The study does not test severe deficiency, folate or vitamin B12 restriction, ordinary mixed diets, or any cognitive or attention outcome.'
+    evidence_considered:
+      - label: Lamers et al. (2011)
+        citation_key: lamers_vitamin_b6_methionine_cycle_2011
+        href: /docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011
+        data_level: Human Mechanistic
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Mean postprandial remethylation, transmethylation and total transsulfuration rates did not change after vitamin B6 restriction, while cystathionine concentration and its fractional synthesis rate rose.'
+        assessment:
+          study: Within-person tracer study of methionine-cycle kinetics at usual B6 status and after 28 days of dietary vitamin B6 restriction.
+          population: 'Nine healthy adults (4 men, 5 women), aged 20–35 years.'
+          result: 'Mean remethylation, transsulfuration and transmethylation rates were unchanged. Plasma cystathionine rose, and fractional cystathionine synthesis increased in 8 of 9 participants.'
+          effect_magnitude: Plasma PLP fell from 49 ± 4 nmol/L to 19 ± 2 nmol/L (P < 0.0001). Cystathionine rose from 142 ± 8 to 236 ± 9 nmol/L (P < 0.001). Fractional cystathionine synthesis rose by a mean of 12% in 8 of 9 participants. Mean cycle-rate changes were null.
+          evidence_summary: Direct human evidence that this degree of vitamin B6 restriction did not change the integrated postprandial rates.
+          limitations: 'Small sample, short restriction, healthy young adults, postprandial conditions, and wide individual variation. Cystathionine kinetics are not a substitute for the total transsulfuration rate.'
+  - id: PM4-IC1
+    finding_label: Metabolite concentrations are not cycle branch rates
+    presentation: interpretive-constraint
+    finding_statement: 'Homocysteine, SAM, SAH and cystathionine concentrations do not measure remethylation, transmethylation or total transsulfuration rates.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The human studies attached to this mechanism report blood homocysteine, or in one tracer study cystathionine, as concentrations. Folic acid lowered blood homocysteine, with a further fall when vitamin B12 was added, and vitamin B6 added no further concentration change. A separate small trial reported lower plasma homocysteine after vitamin B12, fish oil, or both. In the tracer study, cystathionine concentration rose while mean total transsulfuration rate did not. The pathway review defines the biological quantity as the distribution of homocysteine between two routes, which these concentration changes do not report.'
+    synthesis_limitations: 'The concentration trials were not designed as flux studies, so their null or positive homocysteine results cannot be reread as rate results. The tracer dissociation is limited to cystathionine versus total transsulfuration in nine young adults. SAM and SAH were not the measured endpoints of the homocysteine trials.'
+    evidence_dependency:
+      - Finkelstein (1998) is also primary Evidence Considered in PM4-F1. Lamers et al. (2011) is also primary Evidence Considered in PM4-F1 and PM4-F2.
+    evidence_considered:
+      - label: Collaboration (1998)
+        citation_key: collaboration_lowering_1998
+        href: /docs/papers/BRAIN-Diet-References#collaboration_lowering_1998
+        data_level: Human Study
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: 'Folic acid lowered blood homocysteine concentration, vitamin B12 added a further concentration reduction, and vitamin B6 did not.'
+        assessment:
+          study: Individual-patient meta-analysis of 12 randomised trials of folic acid-based supplements.
+          population: 1114 people in the pooled trials.
+          result: Blood homocysteine concentration fell with folic acid. Vitamin B12 produced an additional reduction. Vitamin B6 did not add a significant further reduction.
+          effect_magnitude: 'After standardisation to pretreatment homocysteine of 12 μmol/L and folate of 12 nmol/L, folic acid reduced homocysteine by 25% (95% CI 23% to 28%). Vitamin B12 (mean 0.5 mg/day) added 7% (3% to 10%). Vitamin B6 (mean 16.5 mg/day) had no significant additional effect.'
+          evidence_summary: Establishes a concentration response to folic acid and vitamin B12.
+          limitations: The endpoint is blood homocysteine concentration. Remethylation and transsulfuration rates were not measured.
+      - label: Huang et al. (2015)
+        citation_key: tao_huang_effect_2015
+        href: /docs/papers/BRAIN-Diet-References#tao_huang_effect_2015
+        data_level: Human Study
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: 'Plasma homocysteine concentration fell during vitamin B12, fish-oil, and combined supplementation.'
+        assessment:
+          study: 'Eight-week randomised trial of vitamin B12, fish oil, or both.'
+          population: 38 participants randomised to three groups.
+          result: Plasma homocysteine was lower in each group after the intervention. The recorded outcomes also included fatty acids and cardiovascular risk markers.
+          effect_magnitude: 'The report states plasma homocysteine reductions of 22%, 19% and 39% in the vitamin B12, fish-oil, and combination groups. No cycle-rate estimate is given.'
+          evidence_summary: A small supplementation trial changed a homocysteine concentration.
+          limitations: 'Concentration and cardiovascular markers only. No remethylation or transsulfuration rate, and no cognitive or attention endpoint.'
+      - label: Lamers et al. (2011)
+        citation_key: lamers_vitamin_b6_methionine_cycle_2011
+        href: /docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011
+        data_level: Human Mechanistic
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: Cystathionine concentration rose while mean total transsulfuration rate did not change.
+        assessment:
+          study: Tracer measurement of methionine-cycle rates and cystathionine kinetics before and after vitamin B6 restriction.
+          population: Nine healthy adults aged 20–35 years.
+          result: 'Plasma cystathionine increased and fractional cystathionine synthesis rose in most participants, while mean total transsulfuration rate was unchanged.'
+          effect_magnitude: Cystathionine rose from 142 ± 8 to 236 ± 9 nmol/L. Mean total transsulfuration rate change was null.
+          evidence_summary: Direct within-study evidence that an intermediate concentration can change while the integrated transsulfuration rate does not.
+          limitations: 'One small postprandial study. The dissociation is for cystathionine versus total transsulfuration, not a general proof about every metabolite in every tissue.'
+      - label: Finkelstein (1998)
+        citation_key: finkelstein_homocysteine_1998
+        href: /docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'The regulated quantity is the distribution of homocysteine between remethylation and conversion to cystathionine, not a standing metabolite concentration.'
+        assessment:
+          study: Review of pathway regulation.
+          population: Mammalian pathway review; no new cohort.
+          result: Metabolic regulation is described as the distribution of available homocysteine between the two exits.
+          effect_magnitude: No numeric estimate.
+          evidence_summary: Names the biological quantity that concentration studies did not measure.
+          limitations: Does not itself compare a concentration with a tracer rate.
+  - id: PM4-F3
+    finding_label: Homocysteine–cognition evidence does not measure cycle rates
+    presentation: phenome-relationship
+    primary_phenome: Cognitive Clarity
+    finding_summary: 'Reviews link higher homocysteine with cognitive decline and Alzheimer risk. They do not measure cycle branch rates, and they do not show that changing those rates improves Cognitive Clarity.'
+    finding_interpretation: Homocysteine can mark strain at the branch point. A dementia risk association is not evidence that this mechanism treats a cognitive disorder.
+    finding_statement: Evidence linking homocysteine concentration to cognitive decline or Alzheimer risk does not demonstrate that integrated methionine-cycle rates modulate Cognitive Clarity.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A narrative review treats homocysteine as a risk factor for cerebrovascular disease and degenerative dementias and states that effects on specific cognitive domains are poorly mapped. A large prevention review places hyperhomocysteinaemia among Class I factors for Alzheimer disease. Both concern homocysteine level or status. Neither measures remethylation or transsulfuration rates, and neither tests an intervention on integrated cycle throughput.'
+    synthesis_limitations: 'This is a boundary on the attached cognition sources, not a claim that homocysteine is irrelevant to brain disease. Methionine-restriction experiments were assessed separately and address ageing phenotypes rather than Cognitive Clarity.'
+    evidence_considered:
+      - label: Luzzi et al. (2022)
+        citation_key: luzzi_homocysteine_2022
+        href: /docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Higher homocysteine is reviewed as a risk factor for cognitive decline and degenerative dementias, without a cycle-rate measurement.'
+        assessment:
+          study: 'Narrative review of homocysteine, cognitive functions and degenerative dementias.'
+          population: Published human studies of homocysteine and dementia or cognitive decline; no new cohort.
+          result: 'The review treats homocysteine as a risk factor for cerebrovascular disease and degenerative dementias, and states that domain-specific cognitive effects are poorly investigated.'
+          effect_magnitude: No single pooled effect size is reported.
+          evidence_summary: Supports a homocysteine-concentration association with cognitive decline contexts.
+          limitations: Does not measure methionine-cycle rates or test a dietary cycle intervention against Cognitive Clarity.
+      - label: Yu et al. (2020)
+        citation_key: yu_evidence-based_2020
+        href: /docs/papers/BRAIN-Diet-References#yu_evidence-based_2020
+        data_level: Mixed
+        evidence_source: repository-inherited
+        directional_finding: 'Hyperhomocysteinaemia is classed as a strong observational risk factor for Alzheimer disease, not as a measured cycle-flux exposure.'
+        assessment:
+          study: Systematic review and meta-analysis of prospective observational studies and randomised trials on Alzheimer prevention.
+          population: 243 observational prospective studies and 153 randomised trials across 104 factors and 11 interventions.
+          result: 'Hyperhomocysteinaemia is listed among Class I, Level A suggestions for Alzheimer prevention.'
+          effect_magnitude: The paper assigns an evidence class. It does not report a methionine-cycle rate effect.
+          evidence_summary: Places homocysteine status among modifiable Alzheimer risk factors.
+          limitations: 'The factor is hyperhomocysteinaemia, not integrated cycle throughput. The review does not show that changing branch rates improves Cognitive Clarity.'
+  - id: PM4-F4
+    finding_label: ADHD nutrient associations do not measure cycle rates
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+    finding_summary: 'Children with ADHD have been reported to have higher homocysteine, lower B vitamins, and less favourable diets. Those associations do not measure cycle branch rates and do not show that changing the rates improves attention.'
+    finding_interpretation: Serum homocysteine and B-vitamin differences can sit beside attention disorders. They are not evidence that this mechanism determines focus or that a diet treats ADHD.
+    finding_statement: 'Homocysteine and B-vitamin differences in ADHD cohorts, and dietary-pattern associations, do not demonstrate that integrated methionine-cycle rates determine Focus / Attention Stability.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'One case-control study of boys found higher serum homocysteine and lower vitamin B12 in ADHD than in controls. Another case-control study found lower folate, vitamin B6 and vitamin B12, together with a less favourable dietary pattern, and modelled nutritional biochemistry as a link between diet and ADHD. Both are observational concentration or intake associations. Neither infused tracers or reported remethylation or transsulfuration rates.'
+    synthesis_limitations: 'The studies can still describe real group differences in homocysteine and B vitamins. They cannot isolate this mechanism from the many other nutrients that differed, and they contain no attention outcome after a cycle-rate intervention. Methionine-restriction literature was assessed separately and is not an ADHD treatment result.'
+    evidence_considered:
+      - label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: Boys with ADHD had higher serum homocysteine and lower vitamin B12 than age-matched controls.
+        assessment:
+          study: Cross-sectional serum comparison with behavioural and cognitive tests.
+          population: '133 boys aged 6.5–12.5 years (67 with ADHD, 66 controls).'
+          result: Homocysteine was higher and vitamin B12 was lower in the ADHD group. Logistic regression treated homocysteine as a prognostic indicator.
+          effect_magnitude: The abstract states significant differences and does not report the mean difference or an odds ratio.
+          evidence_summary: 'A serum association between homocysteine, vitamin B12 and ADHD status in boys.'
+          limitations: 'Male children only, cross-sectional, no cycle-rate measurement, and no dietary intervention.'
+      - label: Wang et al. (2019)
+        citation_key: wang_dietary_2019
+        href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
+        data_level: Human Study
+        exposure_context: dietary
+        evidence_source: repository-inherited
+        directional_finding: 'Children with ADHD had lower folate, vitamin B6 and vitamin B12 and less favourable diets than controls; the analysis links diet to ADHD through a broad nutritional profile.'
+        assessment:
+          study: Case-control food-frequency and fasting biochemistry study with structural equation modelling.
+          population: '216 children with ADHD and 216 age-, height- and sex-matched controls from elementary schools in Taiwan.'
+          result: 'The ADHD group had lower serum vitamin B12, folate, vitamin B6, ferritin and monounsaturated fatty acids, and higher saturated fatty acids, n-6/n-3 ratio and inorganic phosphorus, with higher intake of nutrient-poor foods.'
+          effect_magnitude: Group differences are described as significant. The abstract does not report mean concentrations or a single nutrient effect size.
+          evidence_summary: Dietary pattern and several biochemical markers differ together in childhood ADHD.
+          limitations: 'Observational, multi-nutrient, and not a measurement of methionine-cycle rates. The path model does not isolate cycle throughput.'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -138,25 +546,197 @@ phenome_relationships:
 
 (Balanced Methionine → SAM → SAH → Homocysteine Routing)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.
 
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Methionine
+- Dietary protein
+- Folate
+- Vitamin B12
+- Vitamin B6
+- Riboflavin
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Methionine
+- Folate
+- Vitamin B12
+- Vitamin B6
+- Riboflavin
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Coordinates the methionine cycle as an integrated flux system: methionine availability → SAM synthesis → methyl transfer → SAH → homocysteine → remethylation or transsulfuration, rather than treating any single step as the goal. Methionine is an essential substrate whose **adequacy** enables SAM generation and downstream routing, while chronic excess is not assumed beneficial. Homocysteine is an important intermediate and practical readout of cycle strain, not the organising objective of this PM. Effective flux therefore depends on methionine adequacy within protein and amino-acid balance, methyl-donor and cofactor coverage, methylation demand, and coordinated routing between remethylation and transsulfuration.
+The methionine cycle forms S-adenosylmethionine (SAM) from methionine, transfers its methyl group, and hydrolyses S-adenosylhomocysteine (SAH) to adenosine and homocysteine [Chiang et al. (1996) [[2]](#pm-ref-2)]. Homocysteine is then remethylated to methionine or sent into transsulfuration toward cysteine, and SAM, SAH and methyl-tetrahydrofolate are effectors of that split. Every tissue can remethylate homocysteine, while transsulfuration is limited to liver, kidney, small intestine and pancreas [Finkelstein (1998) [[12]](#pm-ref-12)]. Metabolite concentrations describe pool state. Branch rates are a separate measurement [Lamers et al. (2011) [[13]](#pm-ref-13)].
 
-* Balances methionine availability with SAM-dependent methylation and SAH-mediated constraint.
-* Treats homocysteine as a cycle junction and readout, not the biological endpoint.
-* Coordinates remethylation and transsulfuration under changing metabolic demand.
+* **Mechanism boundary:** Covers integrated throughput and the split of homocysteine between remethylation and transsulfuration. MAT catalysis, each remethylation reaction, and the transsulfuration enzyme steps remain neighbouring mechanisms [Finkelstein (1998) [[12]](#pm-ref-12)].
+* **Evidence boundary:** Folic acid and vitamin B12 lower blood homocysteine concentration, and moderate vitamin B6 restriction can raise cystathionine while mean remethylation, transmethylation and total transsulfuration rates stay unchanged [Collaboration (1998) [[6]](#pm-ref-6); Lamers et al. (2011) [[13]](#pm-ref-13)].
+* **Biological relevance:** The split keeps methyl-group use aligned with sulfur exit. Methionine-restriction and homocysteine studies do not establish treatment of cognitive or attention disorders [Luzzi et al. (2022) [[8]](#pm-ref-8); Lukovac et al. (2024) [[9]](#pm-ref-9)].
 
 ## 2. Primary Biological Effects
 
-↑ coordinated methionine-cycle flux; ↔ methionine adequacy; ↑ methylation potential (SAM relative to SAH)
+↑ coordinated throughput from methionine through SAM to homocysteine<br />
+↔ distribution of homocysteine between remethylation and transsulfuration<br />
+→ methylation continues while SAH is hydrolysed onward
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Methyl-group use and sulfur exit meet at homocysteine. What matters is how that intermediate is divided between return to methionine and transsulfuration, with SAM, SAH and methyl-tetrahydrofolate as effectors of the split.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Methionine cycle flux — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (From methionine to homocysteine)
+
+Methionine is converted to S-adenosylmethionine (SAM), the principal methyl donor. After the methyl group is transferred, S-adenosylhomocysteine (SAH) is hydrolysed to adenosine and homocysteine. Blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together [Chiang et al. (1996) [[2]](#pm-ref-2)].
+
+#### (The regulated split)
+
+Every tissue can remethylate homocysteine back to methionine. Transsulfuration, which converts homocysteine to cystathionine and onward toward cysteine, occurs in liver, kidney, small intestine and pancreas. Regulation is the distribution of homocysteine between those exits. SAM, SAH and methyl-tetrahydrofolate are effectors of that distribution [Finkelstein (1998) [[12]](#pm-ref-12)]. Human postprandial studies can measure the same partition as remethylation, transmethylation and total transsulfuration rates [Lamers et al. (2011) [[13]](#pm-ref-13)].
+
+#### (Concentrations and rates)
+
+Folic acid lowers blood homocysteine concentration, and vitamin B12 adds a further concentration reduction, while added vitamin B6 does not [Collaboration (1998) [[6]](#pm-ref-6)]. A small trial also reported lower plasma homocysteine after vitamin B12, fish oil, or both [Huang et al. (2015) [[11]](#pm-ref-11)]. In the tracer study, cystathionine concentration rose during vitamin B6 restriction while the mean total transsulfuration rate did not [[13]](#pm-ref-13). A concentration change is a different result from a branch rate.
+
+#### (Boundaries of the mechanism)
+
+This mechanism is the integrated throughput and the split at homocysteine. Formation of SAM is [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Folate- and vitamin B12-dependent remethylation is [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). Betaine-dependent remethylation is [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). The transsulfuration reactions are [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway). Methionine-restriction experiments in ageing models, and homocysteine associations with dementia or ADHD, do not show that changing these rates treats a cognitive or attention disorder [Fanti et al. (2026) [[3]](#pm-ref-3); Luzzi et al. (2022) [[8]](#pm-ref-8); Lukovac et al. (2024) [[9]](#pm-ref-9)].
+
+#### (Integration within methylation cycle efficiency)
+
+SAM synthesis feeds this throughput. Remethylation returns homocysteine to methionine, and transsulfuration is the catabolic exit. Downstream methyl acceptors include phospholipids, proteins, DNA and RNA [Chiang et al. (1996) [[2]](#pm-ref-2)]. The parent account of methylation cycle efficiency is [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency).
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Methionine is converted to SAM, used to donate a methyl group, and cleared through SAH to homocysteine. Homocysteine is then divided between return to methionine and transsulfuration toward cysteine. The findings below establish that sequence and show that a moderate vitamin B6 restriction left the mean postprandial branch rates unchanged. Metabolite concentrations are a separate measurement from those rates. Nothing here shows that methionine restriction or homocysteine lowering treats cognitive or attention disorders.
+
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"Homocysteine is split between remethylation and transsulfuration","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Methionine becomes SAM, SAM donates a methyl group, and SAH is hydrolysed to homocysteine. Homocysteine is then either remethylated to methionine or sent into transsulfuration toward cysteine.","finding_interpretation":"This is the integrated route and the branch. It does not assign the MAT, remethylation or transsulfuration reactions to this mechanism, and it does not show that ordinary diet changes the rates.","finding_statement":"Methionine-cycle throughput runs from methionine to SAM, methyl transfer and SAH hydrolysis to homocysteine, after which homocysteine is distributed between remethylation and transsulfuration under the influence of SAM, SAH and methyl-tetrahydrofolate.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A methylation review establishes SAM as the methyl donor and SAH hydrolysis to adenosine and homocysteine, and it shows that blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together. A pathway review then places regulation at the distribution of homocysteine between remethylation, which every tissue can perform, and transsulfuration to cystathionine, which is limited to liver, kidney, small intestine and pancreas, with SAM, SAH and methyl-tetrahydrofolate as effectors. A human tracer study uses that same partition, measuring postprandial remethylation, transmethylation and total transsulfuration as rates.","synthesis_limitations":"The pathway accounts are reviews. Transsulfuration is not present in every tissue. The human rate study was a 28-day vitamin B6 restriction in nine healthy young adults. It does not show that ordinary changes in methionine, folate, or B-vitamin intake change those rates. Individual enzyme reactions remain neighbouring mechanisms.","evidence_considered":[{"label":"Chiang et al. (1996)","citation_key":"chiang_s-adenosylmethionine_1996","href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"SAM donates methyl groups; SAH formed by that transfer is hydrolysed to adenosine and homocysteine; blocking SAH hydrolysis can affect methylation across phospholipids, proteins, DNA, RNA and small molecules.","assessment":{"study":"Narrative review of SAM-dependent methylation, SAH hydrolysis and downstream methyl acceptors.","population":"Review of biochemical and cellular literature; no new human cohort.","result":"SAM is the methyl donor. SAH is hydrolysed by SAH hydrolase to adenosine and homocysteine. Blocking that hydrolase can affect methylation of several classes of acceptor at once.","effect_magnitude":"No quantitative flux or concentration effect size.","evidence_summary":"Establishes methyl transfer and the SAH-to-homocysteine step as a shared route into many methylation reactions.","limitations":"Does not describe remethylation, transsulfuration or a measured SAM:SAH ratio, and does not test diet or cognition."},"canonical_reference":{"author_year":"Chiang et al. (1996)","number":2,"anchor":"#pm-ref-2"}},{"label":"Finkelstein (1998)","citation_key":"finkelstein_homocysteine_1998","href":"/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Homocysteine is distributed between tissue-wide remethylation and transsulfuration to cystathionine in liver, kidney, small intestine and pancreas; SAM, SAH and methyl-tetrahydrofolate are effectors of that distribution.","assessment":{"study":"Review of mammalian methionine-cycle and transsulfuration pathways and their regulation.","population":"Mammalian pathway review; no new human experiment.","result":"Every tissue can synthesise SAM, use it for transmethylation, hydrolyse SAH and remethylate homocysteine. Transsulfuration catabolises homocysteine in liver, kidney, small intestine and pancreas. Regulation is the distribution of homocysteine between remethylation and conversion to cystathionine.","effect_magnitude":"No numeric rate or intake-response estimate.","evidence_summary":"Establishes the regulated branch between recycling and transsulfuration and names SAM, SAH and methyl-tetrahydrofolate as effectors.","limitations":"Review-level pathway evidence. It does not measure human rates, test ordinary diets, or show a cognitive or attention outcome."},"canonical_reference":{"author_year":"Finkelstein (1998)","number":12,"anchor":"#pm-ref-12"}},{"label":"Lamers et al. (2011)","citation_key":"lamers_vitamin_b6_methionine_cycle_2011","href":"/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011","data_level":"Human Mechanistic","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Human postprandial kinetics were quantified as remethylation, transmethylation and total transsulfuration rates, confirming that the branch is measurable as rates rather than as a single metabolite level.","assessment":{"study":"Primed constant infusion of labelled methionine and leucine in the postprandial state, repeated after 28 days of dietary vitamin B6 restriction.","population":"Nine healthy adults (4 men, 5 women), aged 20–35 years.","result":"The protocol quantified remethylation, transmethylation and total transsulfuration. Mean rates were unchanged by the restriction.","effect_magnitude":"Plasma PLP fell from 49 ± 4 nmol/L to 19 ± 2 nmol/L. Mean cycle rates did not change. No rate delta is reported because the mean change was null.","evidence_summary":"Shows that human cycle throughput can be partitioned into measured rates.","limitations":"Small healthy-adult sample, 28-day restriction, postprandial state only, and large individual variation. Not a test of cognitive or attention outcomes."},"canonical_reference":{"author_year":"Lamers et al. (2011)","number":13,"anchor":"#pm-ref-13"}}],"connected_supportive_evidence":[{"label":"Kumar et al. (2017)","citation_key":"kumar_transsulfuration_2017","href":"/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017","data_level":"Mechanistic","why_relevant":"The repository record describes a review of transsulfuration from homocysteine toward cysteine and glutathione.","why_excluded":"That record does not establish remethylation or the regulated split between the two exits.","canonical_reference":{"author_year":"Kumar et al. (2017)","number":5,"anchor":"#pm-ref-5"}},{"label":"Aragão et al. (2024)","citation_key":"aragao_revitalising_2024","href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","data_level":"Mechanistic","why_relevant":"Riboflavin was listed beside this mechanism because vitamin B2 is a cofactor of a folate-cycle enzyme.","why_excluded":"The paper is a general riboflavin physiology review and does not test methionine-cycle throughput or the homocysteine split.","canonical_reference":{"author_year":"Aragão et al. (2024)","number":1,"anchor":"#pm-ref-1"}},{"label":"Fanti et al. (2026)","citation_key":"fanti_methionine_longevity_diet_2026","href":"/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026","data_level":"Mixed","why_relevant":"Tests how little or how much methionine sits inside a low-amino-acid longevity diet.","why_excluded":"The mouse endpoints are frailty and metabolic signalling, and the human component is epidemiology rather than a methionine trial. Neither measures cycle branch rates or an attention or cognitive treatment effect.","canonical_reference":{"author_year":"Fanti et al. (2026)","number":3,"anchor":"#pm-ref-3"}},{"label":"Parkhitko et al. (2026)","citation_key":"parkhitko_methionine_restriction_mimetics_2026","href":"/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026","data_level":"Mechanistic","why_relevant":"Reviews methionine restriction as an ageing intervention.","why_excluded":"It is an ageing and disease review, not a measurement of human cycle rates and not an ADHD treatment study.","canonical_reference":{"author_year":"Parkhitko et al. (2026)","number":4,"anchor":"#pm-ref-4"}}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"},{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
+
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Moderate vitamin B6 restriction left mean cycle rates unchanged","presentation":"mechanistic-basis","finding_summary":"In healthy young adults, 28 days of dietary vitamin B6 restriction lowered the active B6 coenzyme in blood but did not change mean postprandial remethylation, transmethylation or total transsulfuration rates.","finding_interpretation":"A lower vitamin B6 supply in this range did not limit the integrated rates. The rise in cystathionine is a separate intermediate signal.","finding_statement":"Moderate dietary vitamin B6 restriction that lowered plasma pyridoxal 5'-phosphate did not change mean postprandial remethylation, transmethylation or total transsulfuration rates in healthy young adults.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"One controlled feeding study measured the three cycle rates with methionine tracers before and after restriction. Plasma pyridoxal 5'-phosphate fell sharply. The mean rates did not change, although individuals differed. Cystathionine concentration rose, and its fractional synthesis rate rose in most participants. The integrated rates and that intermediate marker moved differently.","synthesis_limitations":"Nine healthy young adults, 28 days, and the postprandial state only. The authors report large individual variation, so a mean null result does not describe every person. The study does not test severe deficiency, folate or vitamin B12 restriction, ordinary mixed diets, or any cognitive or attention outcome.","evidence_considered":[{"label":"Lamers et al. (2011)","citation_key":"lamers_vitamin_b6_methionine_cycle_2011","href":"/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011","data_level":"Human Mechanistic","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Mean postprandial remethylation, transmethylation and total transsulfuration rates did not change after vitamin B6 restriction, while cystathionine concentration and its fractional synthesis rate rose.","assessment":{"study":"Within-person tracer study of methionine-cycle kinetics at usual B6 status and after 28 days of dietary vitamin B6 restriction.","population":"Nine healthy adults (4 men, 5 women), aged 20–35 years.","result":"Mean remethylation, transsulfuration and transmethylation rates were unchanged. Plasma cystathionine rose, and fractional cystathionine synthesis increased in 8 of 9 participants.","effect_magnitude":"Plasma PLP fell from 49 ± 4 nmol/L to 19 ± 2 nmol/L (P \u003c 0.0001). Cystathionine rose from 142 ± 8 to 236 ± 9 nmol/L (P \u003c 0.001). Fractional cystathionine synthesis rose by a mean of 12% in 8 of 9 participants. Mean cycle-rate changes were null.","evidence_summary":"Direct human evidence that this degree of vitamin B6 restriction did not change the integrated postprandial rates.","limitations":"Small sample, short restriction, healthy young adults, postprandial conditions, and wide individual variation. Cystathionine kinetics are not a substitute for the total transsulfuration rate."},"canonical_reference":{"author_year":"Lamers et al. (2011)","number":13,"anchor":"#pm-ref-13"}}],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)<br />
+↓<br />
+**BRS2-FM1-PM4 — Methionine Cycle Flux**<br />
+↓<br />
+[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) / [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)<br />
+↓<br />
+or [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- None listed
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — Remethylates homocysteine to methionine and thereby carries one recycling exit. The split between that exit and transsulfuration is the upstream allocation.
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) — Remethylates homocysteine to methionine by a betaine-dependent route that runs parallel to folate-dependent recycling and stays separate from transsulfuration.
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — Produces SAM from methionine and ATP. That SAM is the methyl donor consumed as throughput moves from methyl transfer to homocysteine and the branch.
+- [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — Carries homocysteine onward to cystathionine and cysteine after the branch has directed it into transsulfuration, which is the catabolic exit rather than the recycling arm.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -207,10 +787,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).
-- **Key References:**
+- **Rationale:** SAM donates methyl groups, and homocysteine is then split between remethylation and transsulfuration  Chiang et al. (1996) [[2]](#pm-ref-2); Finkelstein (1998) [[12]](#pm-ref-12). Homocysteine concentration is discussed as a risk marker for cognitive decline and Alzheimer disease  Yu et al. (2020) [[7]](#pm-ref-7); Luzzi et al. (2022) [[8]](#pm-ref-8). Those studies measure a metabolite level. They do not measure branch rates, and they do not show that changing cycle throughput improves Cognitive Clarity.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","label":"Aragão et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM4-F3","finding_label":"Homocysteine–cognition evidence does not measure cycle rates","presentation":"phenome-relationship","primary_phenome":"Cognitive Clarity","finding_summary":"Reviews link higher homocysteine with cognitive decline and Alzheimer risk. They do not measure cycle branch rates, and they do not show that changing those rates improves Cognitive Clarity.","finding_interpretation":"Homocysteine can mark strain at the branch point. A dementia risk association is not evidence that this mechanism treats a cognitive disorder.","finding_statement":"Evidence linking homocysteine concentration to cognitive decline or Alzheimer risk does not demonstrate that integrated methionine-cycle rates modulate Cognitive Clarity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A narrative review treats homocysteine as a risk factor for cerebrovascular disease and degenerative dementias and states that effects on specific cognitive domains are poorly mapped. A large prevention review places hyperhomocysteinaemia among Class I factors for Alzheimer disease. Both concern homocysteine level or status. Neither measures remethylation or transsulfuration rates, and neither tests an intervention on integrated cycle throughput.","synthesis_limitations":"This is a boundary on the attached cognition sources, not a claim that homocysteine is irrelevant to brain disease. Methionine-restriction experiments were assessed separately and address ageing phenotypes rather than Cognitive Clarity.","evidence_considered":[{"label":"Luzzi et al. (2022)","citation_key":"luzzi_homocysteine_2022","href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Higher homocysteine is reviewed as a risk factor for cognitive decline and degenerative dementias, without a cycle-rate measurement.","assessment":{"study":"Narrative review of homocysteine, cognitive functions and degenerative dementias.","population":"Published human studies of homocysteine and dementia or cognitive decline; no new cohort.","result":"The review treats homocysteine as a risk factor for cerebrovascular disease and degenerative dementias, and states that domain-specific cognitive effects are poorly investigated.","effect_magnitude":"No single pooled effect size is reported.","evidence_summary":"Supports a homocysteine-concentration association with cognitive decline contexts.","limitations":"Does not measure methionine-cycle rates or test a dietary cycle intervention against Cognitive Clarity."},"canonical_reference":{"author_year":"Luzzi et al. (2022)","number":8,"anchor":"#pm-ref-8"}},{"label":"Yu et al. (2020)","citation_key":"yu_evidence-based_2020","href":"/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020","data_level":"Mixed","evidence_source":"repository-inherited","directional_finding":"Hyperhomocysteinaemia is classed as a strong observational risk factor for Alzheimer disease, not as a measured cycle-flux exposure.","assessment":{"study":"Systematic review and meta-analysis of prospective observational studies and randomised trials on Alzheimer prevention.","population":"243 observational prospective studies and 153 randomised trials across 104 factors and 11 interventions.","result":"Hyperhomocysteinaemia is listed among Class I, Level A suggestions for Alzheimer prevention.","effect_magnitude":"The paper assigns an evidence class. It does not report a methionine-cycle rate effect.","evidence_summary":"Places homocysteine status among modifiable Alzheimer risk factors.","limitations":"The factor is hyperhomocysteinaemia, not integrated cycle throughput. The review does not show that changing branch rates improves Cognitive Clarity."},"canonical_reference":{"author_year":"Yu et al. (2020)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 </div>
 </div>
 </div>
@@ -230,302 +811,31 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.
-- **Key References:**
+- **Rationale:** Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls, and a separate case-control study linked less healthy diets with lower folate, vitamin B6 and vitamin B12 and with ADHD  Lukovac et al. (2024) [[9]](#pm-ref-9); Wang et al. (2019) [[10]](#pm-ref-10). Those are concentration and dietary-pattern associations. They do not measure remethylation or transsulfuration rates  Finkelstein (1998) [[12]](#pm-ref-12); Lamers et al. (2011) [[13]](#pm-ref-13).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM4-F4","finding_label":"ADHD nutrient associations do not measure cycle rates","presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","finding_summary":"Children with ADHD have been reported to have higher homocysteine, lower B vitamins, and less favourable diets. Those associations do not measure cycle branch rates and do not show that changing the rates improves attention.","finding_interpretation":"Serum homocysteine and B-vitamin differences can sit beside attention disorders. They are not evidence that this mechanism determines focus or that a diet treats ADHD.","finding_statement":"Homocysteine and B-vitamin differences in ADHD cohorts, and dietary-pattern associations, do not demonstrate that integrated methionine-cycle rates determine Focus / Attention Stability.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"One case-control study of boys found higher serum homocysteine and lower vitamin B12 in ADHD than in controls. Another case-control study found lower folate, vitamin B6 and vitamin B12, together with a less favourable dietary pattern, and modelled nutritional biochemistry as a link between diet and ADHD. Both are observational concentration or intake associations. Neither infused tracers or reported remethylation or transsulfuration rates.","synthesis_limitations":"The studies can still describe real group differences in homocysteine and B vitamins. They cannot isolate this mechanism from the many other nutrients that differed, and they contain no attention outcome after a cycle-rate intervention. Methionine-restriction literature was assessed separately and is not an ADHD treatment result.","evidence_considered":[{"label":"Lukovac et al. (2024)","citation_key":"lukovac_serum_2024","href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"Boys with ADHD had higher serum homocysteine and lower vitamin B12 than age-matched controls.","assessment":{"study":"Cross-sectional serum comparison with behavioural and cognitive tests.","population":"133 boys aged 6.5–12.5 years (67 with ADHD, 66 controls).","result":"Homocysteine was higher and vitamin B12 was lower in the ADHD group. Logistic regression treated homocysteine as a prognostic indicator.","effect_magnitude":"The abstract states significant differences and does not report the mean difference or an odds ratio.","evidence_summary":"A serum association between homocysteine, vitamin B12 and ADHD status in boys.","limitations":"Male children only, cross-sectional, no cycle-rate measurement, and no dietary intervention."},"canonical_reference":{"author_year":"Lukovac et al. (2024)","number":9,"anchor":"#pm-ref-9"}},{"label":"Wang et al. (2019)","citation_key":"wang_dietary_2019","href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","data_level":"Human Study","exposure_context":"dietary","evidence_source":"repository-inherited","directional_finding":"Children with ADHD had lower folate, vitamin B6 and vitamin B12 and less favourable diets than controls; the analysis links diet to ADHD through a broad nutritional profile.","assessment":{"study":"Case-control food-frequency and fasting biochemistry study with structural equation modelling.","population":"216 children with ADHD and 216 age-, height- and sex-matched controls from elementary schools in Taiwan.","result":"The ADHD group had lower serum vitamin B12, folate, vitamin B6, ferritin and monounsaturated fatty acids, and higher saturated fatty acids, n-6/n-3 ratio and inorganic phosphorus, with higher intake of nutrient-poor foods.","effect_magnitude":"Group differences are described as significant. The abstract does not report mean concentrations or a single nutrient effect size.","evidence_summary":"Dietary pattern and several biochemical markers differ together in childhood ADHD.","limitations":"Observational, multi-nutrient, and not a measurement of methionine-cycle rates. The path model does not isolate cycle throughput."},"canonical_reference":{"author_year":"Wang et al. (2019)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Methionine ← eggs, fish, poultry *(adequacy within protein/amino-acid balance — not maximisation)*
-- Coordinated methyl-donor meal patterns (folate, B12, choline, betaine alongside methionine) → support cycle flux without treating methionine supply as an open-ended target
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Riboflavin (B2) ← dairy, eggs, lean meat
-- Vitamin B6 ← poultry, fish, chickpeas
-- Vitamin B12 ← shellfish, sardines, eggs
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">(Key Constraint) (KC2) — Methionine & Transsulfuration Substrate Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Methionine ← eggs, fish, poultry *(shared-pool adequacy / balance — not higher intake by default)*
-- Serine ← soy foods, eggs, turkey
-- Glycine ← gelatin-rich cuts, poultry, fish
-- Cysteine ← eggs, chicken, yogurt
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
-- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate and cofactor pattern for this PM.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Methionine-cycle flux is the integrated regulation of methionine availability, SAM-dependent methyl transfer, SAH formation, and the subsequent remethylation-versus-transsulfuration branch point. The biological objective is coordinated flux under changing demand — not homocysteine clearance alone, and not open-ended methionine maximisation.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Methionine cycle flux — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Methionine as a regulated essential substrate)
-
-Methionine is an essential amino acid and the substrate from which SAM is generated. Adequacy supports cycle entry and downstream methylation chemistry, but methionine biology is not “more substrate = better flux.” Dietary methionine restriction remodels systemic metabolism in experimental models, while moderate methionine within low-amino-acid patterns can preserve favourable metabolic phenotypes — implying a balance window rather than monotonic benefit from higher intake [Parkhitko et al., 2026; Fanti et al., 2026].
-
-#### (SAM → methyl transfer → SAH and methylation potential)
-
-SAM donates methyl groups to acceptors; SAH is the immediate product and a potent product inhibitor of SAM-dependent methyltransferases. Methylation potential therefore depends on SAM supply relative to SAH accumulation/clearance, not SAM output alone [Chiang et al., 1996]. This SAM:SAH logic is central to why PM4 owns integrated cycle flux rather than any single remethylation arm.
-
-#### (Homocysteine as a junction and readout)
-
-After SAH is hydrolysed, homocysteine sits at the remethylation–transsulfuration branch point. Elevated homocysteine can signal multi-step cycle strain when remethylation, cofactors or substrate pools are constrained [Luzzi et al., 2022; Yu et al., 2020]. For this PM, homocysteine is an intermediate and practical readout — not the organising biological objective (dedicated remethylation biology belongs on PM1/PM2).
-
-#### (Remethylation versus transsulfuration branch decision)
-
-Cycle flux determines whether homocysteine is recycled to methionine or diverted toward cysteine/GSH-linked sulfur-amino-acid metabolism. Transsulfuration pathway detail belongs on [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway); PM4 owns the integrated decision context that links methionine availability and methylation demand to that branch [Kumar and Yadav, 2017; Aragão et al., 2024].
-
-#### (Boundaries of the mechanism)
-
-This PM governs **integrated methionine-cycle flux and balance** — a system flux node — not individual enzymatic steps.
-
-Folate/B12 remethylation belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). BHMT remethylation belongs to [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Transsulfuration belongs to [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway).
-
-The integrated FM narrative for methylation cycle efficiency belongs on [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). This PM represents the throughput-and-balance node that those sibling PMs compose.
-
-#### (Integration within BRS2)
-
-This PM integrates flux across [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), constrained by both [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) and [BRS2(KC2)](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool). Cycle balance connects remethylation arms (PM1, PM2) with SAMe output (PM3) and the transsulfuration branch (FM2-PM5) that competes for homocysteine routing.
-
-</div>
-</div>
-</div>
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Evidence for this PM spans foundational methylation biochemistry, experimental methionine-balance interventions, and human associations in which homocysteine marks cycle strain. Strong preclinical metabolic evidence does not equal a human methionine-restriction prescription for brain health.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Methionine adequacy within balance — not maximisation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** preclinical
-- **Rationale:** In aged mice, a predominantly plant-based low-amino-acid longevity diet with moderate methionine supplementation reduced frailty and fat mass while preserving favourable metabolic signalling; too little or too much methionine abolished benefits [Fanti et al., 2026]. The human arm was large-scale epidemiology of plant-leaning patterns, not a methionine intervention trial. MetR reviews similarly show potent experimental metabolic effects while emphasising limited continuous human MetR feasibility [Parkhitko et al., 2026]. For BRAIN, the implication is methionine **adequacy within amino-acid balance**, not deliberate restriction or open-ended high methionine intake.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026","label":"Fanti et al. (2026)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026","label":"Parkhitko et al. (2026)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>SAM / SAH methylation potential</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Foundational biochemistry establishes SAM as the principal methyl donor and SAH as a potent product inhibitor of SAM-dependent methyltransferases, so methylation potential reflects SAM supply relative to SAH-mediated constraint rather than SAM production in isolation [Chiang et al., 1996]. This anchors PM4’s ownership of integrated cycle flux beyond remethylation or SAMe synthesis alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Homocysteine as a cycle-junction readout</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** observational
-- **Rationale:** Reviews link elevated homocysteine to cognitive decline contexts and show folate/B12 combinations lower homocysteine — useful as evidence that multi-step cycle coverage affects a practical junction marker [Luzzi et al., 2022; Yu et al., 2020; Collaboration, 1998]. For this PM, the interpretive claim is readout-of-flux, not “homocysteine clearance is the mechanism.”
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"},{"href":"/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020","label":"Yu et al. (2020)"},{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
-
-</div>
-</div>
-</div>
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Membrane methylation context downstream of one-carbon flux
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS2-FM1-PM1 - Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2-FM1-PM2 - Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
-- [BRS2-FM1-PM3 - SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
-- [BRS2-FM2-PM5 - Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | methionine_adequacy_context; methyl_donor_pattern; sulfur_amino_acid_balance | May support balanced methionine-cycle flux. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage; protein_amino_acid_balance_pattern | May reflect meal-level pathway support without methionine maximisation. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-- [Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
-- [Fanti et al. (2026) — Methionine-Supplemented Longevity Diet Increases Growth Hormone, GLP-1, and FGF21](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
-- [Parkhitko et al. (2026) — Methionine Restriction and Mimetics to Ameliorate Human Aging and Disease](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
-- [Kumar and Yadav (2017) — The Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-- [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- [Yu et al. (2020) — Evidence-based Prevention of Alzheimer's Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
-- [Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
-- [Lukovac et al. (2024) — Implications of Homocysteine, Vitamin B12, Vitamin D, Ferritin, and Iron Levels](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-- [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
+
+- <span id="pm-ref-1">[1]</span> [Aragão et al. (2024) — Riboflavin physiology review](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- <span id="pm-ref-2">[2]</span> [Chiang et al. (1996) — SAM methyl transfer and SAH hydrolysis](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
+- <span id="pm-ref-3">[3]</span> [Fanti et al. (2026) — Methionine balance in a mouse longevity diet](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
+- <span id="pm-ref-4">[4]</span> [Parkhitko et al. (2026) — Methionine restriction and ageing](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
+- <span id="pm-ref-5">[5]</span> [Kumar et al. (2017) — Transsulfuration toward cysteine](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
+- <span id="pm-ref-6">[6]</span> [Collaboration (1998) — Folic acid, B12 and blood homocysteine](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+- <span id="pm-ref-7">[7]</span> [Yu et al. (2020) — Homocysteine among Alzheimer prevention factors](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
+- <span id="pm-ref-8">[8]</span> [Luzzi et al. (2022) — Homocysteine and cognitive decline](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
+- <span id="pm-ref-9">[9]</span> [Lukovac et al. (2024) — Homocysteine and B12 in boys with ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+- <span id="pm-ref-10">[10]</span> [Wang et al. (2019) — Diet, B vitamins and childhood ADHD](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
+- <span id="pm-ref-11">[11]</span> [Huang et al. (2015) — B12, fish oil and plasma homocysteine](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
+- <span id="pm-ref-12">[12]</span> [Finkelstein (1998) — Homocysteine split between remethylation and transsulfuration](/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998)
+- <span id="pm-ref-13">[13]</span> [Lamers et al. (2011) — Vitamin B6 restriction and methionine-cycle rates](/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011)
+- <span id="pm-ref-14">[14]</span> [FAO (2013) — Dietary protein quality evaluation (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-15">[15]</span> [Froese et al. (2019) — Vitamin B12, folate and methionine remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+- <span id="pm-ref-16">[16]</span> [Meier et al. (2001) — Human cystathionine beta-synthase structure](/docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001)
+

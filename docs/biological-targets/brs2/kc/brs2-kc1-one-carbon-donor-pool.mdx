@@ -2,17 +2,147 @@
 title: Methyl Donor Pool
 kc_id: BRS2(KC1)
 parent_brs: BRS2
-summary: 'Maintain one-carbon donor sufficiency to support remethylation, methyl-group transfer, and methylation-dependent system stability.'
+summary: 'Maintain adequate one-carbon donor availability for homocysteine remethylation and methyl-group transfer across connected mechanisms.'
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRS2-KC1-KIT-1
+    input: Folate
+    input_type: nutrient/substance
+    biological_role: 'Provides 5-methyltetrahydrofolate, the methyl-group donor used by methionine synthase to remethylate homocysteine and replenish methionine for SAM synthesis.'
+    evidence_source:
+      citation_keys:
+        - ducker_one-carbon_2017
+        - obeid_metabolic_2013
+    evidence_limitation: 'Folate insufficiency can constrain remethylation and methylation capacity, but effects on SAM, SAH and downstream methylation vary by tissue and metabolic state; adequacy does not imply benefit from additional intake.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS2-KC1-KIT-2
+    input: Choline
+    input_type: precursor
+    biological_role: 'Dietary precursor that can be irreversibly oxidised to betaine, supplying methyl groups to the BHMT remethylation route and thereby supporting methionine and SAM availability.'
+    evidence_source:
+      citation_keys:
+        - zeisel_choline_2006
+        - obeid_metabolic_2013
+    evidence_limitation: 'Human choline requirement and susceptibility to deficiency vary by sex, life stage and genotype. Choline also has membrane and neurotransmitter roles that are outside this methyl-donor iKC.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS2-KC1-KIT-3
+    input: Betaine
+    input_type: substrate
+    biological_role: 'Methyl-donor substrate for BHMT-mediated remethylation of homocysteine to methionine, providing a folate-independent route into the methionine/SAM pool.'
+    evidence_source:
+      citation_keys:
+        - obeid_metabolic_2013
+        - olthof_low_2003
+    evidence_limitation: 'BHMT activity is concentrated mainly in liver and kidney. Human supplementation lowers plasma homocysteine, but this does not establish a universal dietary requirement, whole-body tissue response or benefit in methyl-donor-replete people.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: modulation-demonstrated
+  - atom_id: BRS2-KC1-KIT-4
+    input: Vitamin B12
+    input_type: cofactor
+    biological_role: 'Cofactor for methionine synthase, enabling transfer of the methyl group from 5-methyltetrahydrofolate to homocysteine.'
+    evidence_source:
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: 'Vitamin B12 deficiency can block folate-dependent remethylation, but B12 is a catalytic cofactor rather than a net constituent of the one-carbon donor pool. It remains a PM-layer biochemical requirement and is excluded from iKC membership.'
+    constraint_status: biochemical-requirement
+    ikc_membership: excluded
+    claim_ceiling: biological-dependency
+kc_constituent_presentations:
+  - atom_id: BRS2-KC1-KIT-1
+    label: Folate
+    section: core-nutritional-requirements
+  - atom_id: BRS2-KC1-KIT-2
+    label: Choline
+    section: core-nutritional-requirements
+  - atom_id: BRS2-KC1-KIT-3
+    label: Betaine
+    evidence_label: Betaine (TMG)
+    section: core-nutritional-requirements
+kc_emerging_support_traceability:
+  - atom_id: BRS2-KC1-EBS-1
+    input: S-adenosyl-L-methionine (SAMe) supplementation
+    input_type: nutrient/substance
+    biological_role: 'Directly supplies the downstream methyl donor and demonstrably increases circulating SAM exposure without restoring upstream dietary folate, choline or betaine input.'
+    evidence_source:
+      citation_keys:
+        - loehrer_same_1997
+        - yang_same_2009
+        - mischoulon_same_2012
+        - goren_same_2004
+        - sharma_same_2017
+    evidence_limitation: 'Higher circulating SAM, often accompanied by higher SAH, does not establish improved intracellular SAM:SAH balance, tissue methylation flux or broad functional benefit; exposure and safety are formulation-, condition- and patient-dependent.'
+  - atom_id: BRS2-KC1-EBS-2
+    input: Creatine supplementation
+    input_type: nutrient/substance
+    biological_role: 'Feedback-suppresses endogenous creatine synthesis and thereby reduces precursor supply to the SAM-consuming guanidinoacetate methylation reaction.'
+    evidence_source:
+      citation_keys:
+        - peters_creatine_2015
+        - stead_creatine_2001
+    evidence_limitation: 'Human evidence supports reduced endogenous creatine synthesis demand, but does not show that this improves methyl-resource availability for other pathways or produces a functional benefit through methyl sparing.'
+  - atom_id: BRS2-KC1-EBS-3
+    input: Riboflavin supplementation in MTHFR 677TT
+    input_type: cofactor precursor
+    biological_role: 'Provides the precursor for the FAD cofactor used by MTHFR and increased plasma SAM in a genotype-selected human intervention.'
+    evidence_source:
+      citation_keys:
+        - rooney_riboflavin_2020
+    evidence_limitation: 'The response is based on a small MTHFR 677TT subgroup and a circulating biomarker; improved SAM:SAH balance, tissue methylation and attributable functional benefit were not demonstrated.'
+kc_emerging_support_presentations:
+  - atom_id: BRS2-KC1-EBS-1
+    support_slug: same-directed-supplementation
+    label: SAMe-directed supplementation
+  - atom_id: BRS2-KC1-EBS-2
+    support_slug: creatine-methyl-demand-reduction
+    label: Creatine supplementation as a methyl-demand modifier
+  - atom_id: BRS2-KC1-EBS-3
+    support_slug: riboflavin-mthfr-677tt
+    label: Riboflavin for MTHFR 677TT-linked capacity
 references:
   - >-
-    [Kennedy (2016) — Mechanisms, Dose and
-    Efficacy](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+    [Ducker and Rabinowitz (2017) — One-Carbon Metabolism in Health and
+    Disease](/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017)
   - >-
-    [Razavinia et al. (2024) — Vitamins and Minerals in Children with
-    ADHD](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
+    [Obeid (2013) — Metabolic Burden of Methyl Donor
+    Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
   - >-
-    [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental
-    Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+    [Zeisel (2006) — Choline Requirements and Methyl-Group
+    Provision](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)
+  - >-
+    [Froese et al. (2019) — Vitamin B12, Folate and Methionine
+    Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+  - >-
+    [Olthof et al. (2003) — Low-Dose Betaine and Plasma
+    Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
+  - >-
+    [Peters et al. (2015) — Creatine, Guanidinoacetate and Methyl-Cycle
+    Biomarkers](/docs/papers/BRAIN-Diet-References#peters_creatine_2015)
+  - >-
+    [Stead et al. (2001) — Creatine Provision, Methyl Demand and
+    Homocysteine](/docs/papers/BRAIN-Diet-References#stead_creatine_2001)
+  - >-
+    [Loehrer et al. (1997) — Oral SAMe and Plasma One-Carbon
+    Metabolites](/docs/papers/BRAIN-Diet-References#loehrer_same_1997)
+  - >-
+    [Yang et al. (2009) — Oral and Intravenous SAMe
+    Pharmacokinetics](/docs/papers/BRAIN-Diet-References#yang_same_2009)
+  - >-
+    [Mischoulon et al. (2012) — SAMe Bioavailability and One-Carbon
+    Metabolites](/docs/papers/BRAIN-Diet-References#mischoulon_same_2012)
+  - >-
+    [Gören et al. (2004) — SAMe Bioavailability and
+    Tolerability](/docs/papers/BRAIN-Diet-References#goren_same_2004)
+  - >-
+    [Sharma et al. (2017) — SAMe Clinical Safety and Interaction
+    Review](/docs/papers/BRAIN-Diet-References#sharma_same_2017)
+  - >-
+    [Rooney et al. (2020) — Riboflavin, MTHFR 677TT and One-Carbon
+    Metabolites](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)
 hide_title: true
 ---
 
@@ -26,43 +156,59 @@ hide_title: true
 
 ### BRS2(KC1) - Methyl Donor Pool
 
-(Daily Methyl-Group Nutrients From Food)
+(Folate- and betaine-linked input to the methionine/SAM pool)
 
 ### 1. Ambition
 
-Maintain one-carbon donor sufficiency to support remethylation, methyl-group transfer, and methylation-dependent system stability.
+Maintain adequate folate- and betaine-linked methyl-group input to sustain homocysteine remethylation and the methionine/SAM resource used across connected mechanisms.
 
 ### 2. Core Nutritional Requirements
 
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Core Nutritional Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
+- Folate
+- Choline
+- Betaine
+
+</div>
+</div>
+</div>
 ### 3. Evidence Base
 
 #### Summary
 
-Connected BRS2 mechanisms share one upstream nutritional condition: the diet must renew **folate-, B12-, choline-, and betaine-linked methyl-donor input** continuously enough to support homocysteine remethylation, SAMe synthesis, membrane phospholipid methylation, and broader one-carbon maintenance. Methyl-group flux is meal-dependent rather than stored indefinitely — adequacy depends on **patterned intake across donor classes**, not any single nutrient in isolation.
+This constraint concerns methyl-group supply from folate and betaine for homocysteine remethylation. Folate provides **5-methyltetrahydrofolate**, while betaine supplies an alternative donor route and choline can be converted to betaine ([Ducker and Rabinowitz, 2017](/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017); [Zeisel, 2006](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)). Together, these inputs replenish methionine used to produce **S-adenosylmethionine (SAM)**, the body's principal methyl donor, so they form one coherent donor-resource network rather than a list of nearby nutrients ([Obeid, 2013](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)).
 
-Practical framing: distribute **folate- and B12-rich foods**, **choline sources**, and **betaine-containing plants** across daily meals; recognise that remethylation, SAMe output, and phosphatidylcholine-related membrane support all draw on the same donor-resource network. The evidence claim here is **constraint prevention** — adequate availability is required to prevent biological constraint — not that additional intake enhances performance in nutrient-sufficient people.
+- **Constraint and membership boundary:** Vitamin B12 is necessary for methionine synthase but acts as a catalytic cofactor rather than a net methyl-group input; choline's membrane and acetylcholine roles also sit outside this constraint ([Froese et al., 2019](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019); [Zeisel, 2006](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)).
+- **Evidence and measurement boundary:** Deficiency evidence and plasma-homocysteine responses support remethylation-linked donor constraint, but they do not establish uniform effects on SAM balance, tissue methylation or every connected mechanism ([Obeid, 2013](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013); [Olthof et al., 2003](/docs/papers/BRAIN-Diet-References#olthof_low_2003)).
+- **Biological relevance and provision limitation:** Adequate donor availability helps prevent constraint under relevant deficiency or demand states; evidence that provision alters remethylation-related biology does not by itself show that extra intake improves methylation or downstream outcomes in nutrient-replete people ([Obeid, 2013](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013); [Olthof et al., 2003](/docs/papers/BRAIN-Diet-References#olthof_low_2003)).
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="folate">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="folate-evidence-panel" aria-label="Expand Folate evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Folate and vitamin B12</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="folate-evidence-panel">Folate</button>
+</div>
+</div>
+<div id="folate-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Folate and vitamin B12 are the principal dietary cofactors for folate-dependent homocysteine remethylation — the main route that regenerates methionine and sustains SAMe-linked methyl transfer across connected FM1 and FM3 mechanisms. When either donor class is chronically weak, homocysteine handling, remethylation throughput, and downstream methylation-dependent capacity can be constrained in parallel rather than through one isolated pathway.
+Folate carries activated one-carbon units. In its 5-methyltetrahydrofolate form it donates the methyl group used to remethylate homocysteine, replenishing methionine for SAM synthesis. Folate insufficiency can therefore constrain the shared donor network, although tissue responses and downstream methylation effects are not uniform.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Reviewed B-vitamin-dependent one-carbon metabolism as foundational to brain neurochemical synthesis and methyl-group transfer — supporting the KC interpretation that folate and B12 sufficiency are prerequisite shared requirements across connected remethylation and SAMe-dependent mechanisms.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024">Razavinia et al., 2024</a> — Reported lower folate and vitamin B12 status among children with ADHD in meta-analytic evidence — supporting the biological relevance of maintaining adequate dietary folate and B12 input as a shared constraint-prevention requirement rather than a mechanism-specific lever.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017">Ducker and Rabinowitz, 2017</a> — Reviewed folate-mediated one-carbon transfer, homocysteine remethylation and methionine/SAM biology, establishing the shared resource pathway while distinguishing it from downstream outcomes.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013">Obeid, 2013</a> — Reviewed folate deficiency as a cause of hyperhomocysteinaemia, lower SAM and impaired methyl balance, supporting constraint-level membership with tissue and state limitations.</p></li>
 </ul>
 
 </div>
@@ -70,22 +216,26 @@ Folate and vitamin B12 are the principal dietary cofactors for folate-dependent 
 </div>
 
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="choline">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="choline-evidence-panel" aria-label="Expand Choline evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Choline</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="choline-evidence-panel">Choline</button>
+</div>
+</div>
+<div id="choline-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Choline is both a methyl-donor source through betaine formation and a direct precursor for phosphatidylcholine synthesis — linking one-carbon donor biology to membrane renewal represented across FM1 and FM3. Dietary choline therefore sits in the shared pool that supports SAMe-dependent methylation and Kennedy-pathway membrane phospholipid supply, not only a single remethylation reaction.
+Choline can be irreversibly oxidised to betaine in liver and kidney. This makes dietary choline an upstream source of methyl groups for BHMT-mediated remethylation, while its separate membrane and acetylcholine roles remain outside this constraint.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#derbyshire_role_2023">Derbyshire and Maes, 2023</a> — Reviewed choline as a dietary methyl-donor and phospholipid precursor implicated across neurodevelopmental disorders — supporting the KC requirement to name choline as a distinct shared donor within the one-carbon resource network.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Established that B-vitamin and one-carbon nutrient status underpins brain methyl-group chemistry — supporting the interpretation that choline-linked donor input must be maintained alongside folate and B12 for coherent methylation-cycle throughput.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#zeisel_choline_2006">Zeisel, 2006</a> — Reviewed choline as an essential nutrient and major dietary methyl-group source, including its oxidation to betaine and variation in human dietary requirement.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013">Obeid, 2013</a> — Synthesised evidence that choline deficiency perturbs methionine formation and hepatic SAM/SAH balance; much of the pool-specific evidence is hepatic and does not establish a universal intake response.</p></li>
 </ul>
 
 </div>
@@ -93,22 +243,26 @@ Choline is both a methyl-donor source through betaine formation and a direct pre
 </div>
 
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="betaine">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="betaine-evidence-panel" aria-label="Expand Betaine (TMG) evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Betaine (TMG)</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="betaine-evidence-panel">Betaine (TMG)</button>
+</div>
+</div>
+<div id="betaine-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Betaine supports BHMT-mediated homocysteine remethylation — an alternative remethylation route that can sustain methyl-donor availability when folate-dependent remethylation is under greater demand. Including betaine in the KC reflects that connected BRS2 mechanisms depend on **redundant remethylation capacity**, not only the folate/B12 arm of the cycle.
+Betaine is the methyl-donor substrate for BHMT-mediated homocysteine remethylation. This folate-independent route contributes to methionine/SAM availability, especially in liver and kidney and under states in which methyl-donor demand or folate limitation increases reliance on BHMT.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#olthof_low_2003">Olthof et al., 2003</a> — Demonstrated that low-dose betaine supplementation lowers plasma homocysteine through remethylation-linked mechanisms — supporting the KC interpretation that dietary betaine availability can materially support shared homocysteine-clearance capacity across connected one-carbon mechanisms.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Reviewed one-carbon metabolism as an integrated methyl-donor network rather than isolated vitamin reactions — supporting the requirement to name betaine as a complementary dietary donor class within the shared pool.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#olthof_low_2003">Olthof et al., 2003</a> — Demonstrated plasma-homocysteine lowering after betaine supplementation in healthy adults, showing that betaine availability can alter remethylation-linked physiology without establishing a universal dietary requirement.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013">Obeid, 2013</a> — Reviewed betaine as the BHMT methyl donor and bounded its contribution by organ distribution, metabolic state and interaction with folate and choline.</p></li>
 </ul>
 
 </div>
@@ -117,9 +271,100 @@ Betaine supports BHMT-mediated homocysteine remethylation — an alternative rem
 
 ### 4. Emerging Biological Supports
 
-No Emerging Biological Supports are currently prioritised for this KC.
+This section considers whether an intervention can support methyl-resource availability or reduce a major methyl demand under defined conditions. Candidates do not need to be indispensable nutrients, and they remain separate from the Core Nutritional Requirements above.
 
-SAMe-directed supplementation, creatine, or other methyl-cycle adjuncts may support related regulatory capacities under specific conditions, but they are not established as shared indispensable dietary requirements for the methyl donor pool. Where evidence becomes source-led and KC-specific, candidates can be added here without blurring the Core Nutritional Requirements boundary.
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-emerging-support="same-directed-supplementation">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="same-directed-supplementation-panel" aria-label="Expand SAMe-directed supplementation details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap brs-emerging-support-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-emerging-support-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="same-directed-supplementation-panel">SAMe-directed supplementation</button>
+</div>
+</div>
+<div id="same-directed-supplementation-panel" class="brs-fm-hub-panel" hidden>
+
+**Why it is interesting:** Supplemental S-adenosylmethionine (SAMe) delivers the downstream methyl donor directly and can raise circulating SAM exposure. This is pharmacological support of methyl-resource availability; it does not restore dietary folate, choline or betaine input or show that those donor routes were deficient ([Loehrer et al., 1997](/docs/papers/BRAIN-Diet-References#loehrer_same_1997); [Mischoulon et al., 2012](/docs/papers/BRAIN-Diet-References#mischoulon_same_2012)).
+
+**Why it remains emerging:** Human studies show higher plasma SAM, but often also higher SAH, and do not establish improved intracellular SAM:SAH balance, tissue-specific methylation flux or broad functional benefit. Oral exposure is formulation- and food-dependent, long-term safety is incompletely characterised, and mood activation is a material practical limitation ([Yang et al., 2009](/docs/papers/BRAIN-Diet-References#yang_same_2009); [Gören et al., 2004](/docs/papers/BRAIN-Diet-References#goren_same_2004)).
+
+**Evidence interpretation:** Increased circulating resource availability is demonstrated. Altered downstream biomarkers are demonstrated, but improved tissue methylation capacity is not. A condition-specific antidepressant response has been reported, but metabolite changes did not predict that response; this does not establish a general methyl-resource functional benefit.
+
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#loehrer_same_1997">Loehrer et al., 1997</a> — <strong>Exposure:</strong> one 400 mg oral dose. <strong>Population:</strong> 14 healthy adults. <strong>Measured endpoints:</strong> plasma SAM, SAH, 5-methyltetrahydrofolate, homocysteine and methionine over 24 hours. <strong>Results:</strong> SAM rose from 38.0 to 361.8 nmol/L and returned toward baseline with a 1.7-hour half-life; SAH and 5-methyltetrahydrofolate also rose transiently, while homocysteine and methionine did not change. <strong>Limitations:</strong> small, acute and uncontrolled; circulating metabolites do not demonstrate tissue methylation or function.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#yang_same_2009">Yang et al., 2009</a> — <strong>Exposure:</strong> 1,000 mg/day enteric-coated oral or intravenous SAMe for five days. <strong>Population:</strong> 20 healthy Chinese adults, ten per route. <strong>Measured endpoints:</strong> plasma pharmacokinetics and adverse events. <strong>Results:</strong> oral exposure was only about 2.1–2.6% of intravenous exposure, with no accumulation or reported adverse events. <strong>Limitations:</strong> open-label, very short and formulation-specific; no SAM:SAH, methylation-flux or functional endpoint.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mischoulon_same_2012">Mischoulon et al., 2012</a> — <strong>Exposure:</strong> 800–1,600 mg/day oral SAMe or placebo for six weeks alongside a stable serotonin-reuptake inhibitor. <strong>Population:</strong> a 35-person biomarker subset of adults with major depressive disorder. <strong>Measured endpoints:</strong> plasma SAM, SAH, homocysteine, methionine, 5-methyltetrahydrofolate and depression response. <strong>Results:</strong> SAM and SAH increased in the SAMe arm, but metabolite changes were not associated with clinical improvement. <strong>Limitations:</strong> small disease-specific subset, baseline homocysteine imbalance and plasma rather than tissue measurements.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#goren_same_2004">Gören et al., 2004</a> — <strong>Exposure:</strong> oral SAMe titrated to 1,600 mg/day for four weeks. <strong>Population:</strong> 15 healthy adults. <strong>Measured endpoints:</strong> serum SAM, homocysteine, selected methylated toxicants and mood ratings. <strong>Results:</strong> SAM increased without a sustained homocysteine or toxic-metabolite rise; one participant developed a mixed manic state with suicidal ideation that resolved after withdrawal. <strong>Limitations:</strong> small and unblinded; too short to establish long-term safety.</p></li>
+</ul>
+
+**Decision:** Prioritise as a condition-specific, clinically supervised emerging support. SAMe should not be presented as restoration of dietary donor intake. Avoid unsupervised use in bipolar disorder or a history of mania; use with serotonergic medicines or supplements, levodopa/Parkinson's disease, pregnancy, lactation, childhood or immunocompromising conditions requires clinical review. Common tolerability concerns include gastrointestinal upset, headache, anxiety, agitation and insomnia; long-term safety remains uncertain ([Sharma et al., 2017](/docs/papers/BRAIN-Diet-References#sharma_same_2017)).
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-emerging-support="creatine-methyl-demand-reduction">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="creatine-methyl-demand-reduction-panel" aria-label="Expand creatine supplementation details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap brs-emerging-support-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-emerging-support-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="creatine-methyl-demand-reduction-panel">Creatine supplementation as a methyl-demand modifier</button>
+</div>
+</div>
+<div id="creatine-methyl-demand-reduction-panel" class="brs-fm-hub-panel" hidden>
+
+**Why it is interesting:** Endogenous creatine synthesis methylates guanidinoacetate using SAM. Supplemental creatine feeds back on this pathway and lowers guanidinoacetate, so it can reduce the precursor supply for a substantial SAM-consuming reaction ([Peters et al., 2015](/docs/papers/BRAIN-Diet-References#peters_creatine_2015)).
+
+**Why it remains emerging:** The demand-reduction action is supported, but whether it improves methyl-resource availability for other pathways or produces a functional benefit through methyl sparing remains unresolved. The best powered human trial did not increase whole-blood SAM, reduce SAH or lower homocysteine on average. Animal homocysteine effects support the biochemical premise but do not establish human methyl redistribution or downstream function ([Peters et al., 2015](/docs/papers/BRAIN-Diet-References#peters_creatine_2015); [Stead et al., 2001](/docs/papers/BRAIN-Diet-References#stead_creatine_2001)).
+
+**Evidence interpretation:** Reduced demand at the creatine-synthesis precursor step is demonstrated in humans. Improved methyl-resource availability, redistribution into other SAM-dependent pathways and a methyl-sparing functional benefit are not demonstrated.
+
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#peters_creatine_2015">Peters et al., 2015</a> — <strong>Exposure:</strong> 3 g/day creatine, placebo, 400 µg/day folic acid or creatine plus folic acid for 12 weeks. <strong>Population:</strong> Bangladeshi adults; 458 participants in the four relevant groups. <strong>Measured endpoints:</strong> plasma guanidinoacetate and homocysteine plus whole-blood SAM and SAH. <strong>Results:</strong> creatine reduced guanidinoacetate by 10.6% while placebo increased it by 3.7%, but creatine did not significantly change homocysteine, SAM or SAH; adding creatine did not improve the folic-acid homocysteine response. <strong>Limitations:</strong> arsenic-exposed population with frequent folate insufficiency, blood measures are imperfect proxies for hepatic flux, and no direct methyl-redistribution or functional endpoint was measured.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#stead_creatine_2001">Stead et al., 2001</a> — <strong>Exposure:</strong> 0.4% dietary creatine for two weeks. <strong>Population:</strong> rats. <strong>Measured endpoints:</strong> renal AGAT activity, plasma homocysteine and related metabolites. <strong>Results:</strong> AGAT activity fell to 18% of control and plasma homocysteine fell by 27%. <strong>Limitations:</strong> animal dosing and creatine-synthesis regulation do not establish the same homocysteine or methyl-resource response in humans.</p></li>
+</ul>
+
+**Decision:** Retain as an emerging demand-reduction support. Human evidence supports suppression of endogenous creatine synthesis. Whether this improves methyl-resource availability for other pathways or produces a functional benefit through methyl sparing remains unresolved.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-emerging-support="riboflavin-mthfr-677tt">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="riboflavin-mthfr-677tt-panel" aria-label="Expand riboflavin MTHFR 677TT details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap brs-emerging-support-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-emerging-support-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="riboflavin-mthfr-677tt-panel">Riboflavin for MTHFR 677TT-linked capacity</button>
+</div>
+</div>
+<div id="riboflavin-mthfr-677tt-panel" class="brs-fm-hub-panel" hidden>
+
+**Why it is interesting:** MTHFR requires flavin adenine dinucleotide derived from riboflavin. In adults homozygous for MTHFR 677TT, a small randomised intervention increased plasma SAM, making riboflavin a specific genotype-conditioned capacity support rather than a generic methyl donor ([Rooney et al., 2020](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)).
+
+**Why it remains emerging:** The evidence is restricted to a small 677TT subgroup and a circulating biomarker. It did not show a clear improvement in SAM:SAH ratio, other one-carbon metabolites or a functional outcome attributable to the SAM change ([Rooney et al., 2020](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)).
+
+**Evidence interpretation:** Increased plasma SAM is demonstrated for the MTHFR 677TT context. Broad resource restoration, improved methylation flux and functional benefit are not demonstrated.
+
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020">Rooney et al., 2020</a> — <strong>Exposure:</strong> 1.6 mg/day riboflavin or placebo for 16 weeks. <strong>Population:</strong> adults with the MTHFR 677TT genotype, 24 receiving riboflavin and 23 placebo, drawn from earlier blood-pressure trials. <strong>Measured endpoints:</strong> plasma methionine, SAM, SAH, betaine, choline, cystathionine and homocysteine. <strong>Results:</strong> SAM increased by 19.5 ± 20.6 nmol/L and cystathionine increased; no other measured one-carbon metabolite showed a significant response. <strong>Limitations:</strong> small genotype-selected secondary analysis, no tissue methylation measurement and no functional outcome linked to the SAM increase.</p></li>
+</ul>
+
+**Decision:** Prioritise narrowly for genotype-conditioned assessment, not as a general KC1 supplement recommendation.
+
+</div>
+</div>
+</div>
+
+Phosphatidylcholine was not carried forward as a separate candidate because its relevant effect is provision of choline already represented in the core pool. Guanidinoacetate was excluded because conversion to creatine consumes SAM rather than sparing it. Methionine belongs to the separate sulfur-amino-acid constraint, while vitamin B12 is a methionine-synthase cofactor rather than a donor-pool adjunct. Serine, glycine and cysteine were not retained because available evidence concerns pathway participation or transsulfuration/glutathione biology rather than demonstrated support of this named methyl-resource capacity.
 
 ### 5. Connected Mechanisms
 
@@ -140,10 +385,19 @@ SAMe-directed supplementation, creatine, or other methyl-cycle adjuncts may supp
 
 **Core Nutritional Requirements**
 
-- [Kennedy (2016) — Mechanisms, Dose and Efficacy](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
-- [Razavinia et al. (2024) — Vitamins and Minerals in Children with ADHD](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-- [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+- [Ducker and Rabinowitz (2017) — One-Carbon Metabolism in Health and Disease](/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017)
+- [Obeid (2013) — Metabolic Burden of Methyl Donor Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
+- [Zeisel (2006) — Choline Requirements and Methyl-Group Provision](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)
+- [Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+- [Olthof et al. (2003) — Low-Dose Betaine and Plasma Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
 
 **Emerging Biological Supports**
 
-- None currently prioritised for this KC.
+- [Peters et al. (2015) — Creatine, Guanidinoacetate and Methyl-Cycle Biomarkers](/docs/papers/BRAIN-Diet-References#peters_creatine_2015)
+- [Stead et al. (2001) — Creatine Provision, Methyl Demand and Homocysteine](/docs/papers/BRAIN-Diet-References#stead_creatine_2001)
+- [Loehrer et al. (1997) — Oral SAMe and Plasma One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#loehrer_same_1997)
+- [Yang et al. (2009) — Oral and Intravenous SAMe Pharmacokinetics](/docs/papers/BRAIN-Diet-References#yang_same_2009)
+- [Mischoulon et al. (2012) — SAMe Bioavailability and One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#mischoulon_same_2012)
+- [Gören et al. (2004) — SAMe Bioavailability and Tolerability](/docs/papers/BRAIN-Diet-References#goren_same_2004)
+- [Sharma et al. (2017) — SAMe Clinical Safety and Interaction Review](/docs/papers/BRAIN-Diet-References#sharma_same_2017)
+- [Rooney et al. (2020) — Riboflavin, MTHFR 677TT and One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)

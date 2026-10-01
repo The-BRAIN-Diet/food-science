@@ -13,9 +13,14 @@ Build Gate Proviso:
 
 When creating or editing Primary Mechanism (PM) pages:
 
+Stage 2A / Stage 2B:
+- The earlier session rule requiring a separate request before external research is superseded. Running Stage 2A or Stage 2B authorises necessary, question-bounded retrieval under the contract.
+- Stage 2A establishes the scientific mechanism and identifies dietary candidates without admitting Dietary Requirements. Stage 2B adjudicates dietary relationships. If Stage 2B finds a missing foundational claim, perform the focused Stage 2A follow-up in the 2B contract; do not bypass Findings.
+- Stage 2B Key Constraint mapping follows Type D in `system/dietary-input-traceability-contract.md`. “PM-specific” means supported applicability to that PM, not uniqueness or local pool governance. Do not inherit KC constituent or food lists. Public empty copy is `No mapping established.`
+
 Follow:
 - `system/primary-mechanism-schema.md`
-- `system/phenome-relationship-schema.md` — §3 Phenome Connections data model
+- `system/phenome-relationship-schema.md` — §7 Phenome Connections data model
 - `system/phenome-relationship-review-methodology.md` — ADHD-scoped phenome review (Phase 0 → Phase 1 PM candidates → Phase 2 FM candidates → Phase 3 biology → phenome confidence + evidence level → Phase 4 audit)
 - `system/pm-intervention-summary-standard.md` — §3 Intervention Summary layout and lever tiers
 - `system/brs-citation-reference-standard.md` — inline `[Author et al., Year]`; References `Author et al. (Year) — Topic`
@@ -24,13 +29,15 @@ Follow:
 Structure:
 - Follow `system/primary-mechanism-schema.md` **Section Order** (Profile A extended vs Profile A′ / Profile B). Extended profile = **## 3. Intervention Summary** per `system/pm-intervention-summary-standard.md`. **Author §7 and §8 before §3:** Foundational levers distil §7; Supporting/Complementary reflect evidenced §8 Lifestyle Levers (same phrasing, `(Evidence:<tier>)`, and citation). Every §8 bullet must carry evidence. Omit empty Supporting/Complementary `<details>`. **No** Evidence Basis or References subsections in §3. **No** standalone `## N. Timing Specific` section.
 - `timing_specific` (`Yes` | `No`) is **required in front matter** on every PM page. It is ontology metadata for traversal, filtering, and scoring — not a public Yes/No body section.
-- Where timing materially alters interpretation, discuss this naturally within **Primary Biological Effects**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
+- Where timing materially alters interpretation, discuss this naturally within **Primary Biological Effects**, **Mechanistic Basis**, or **Lifestyle Levers**.
+- Do not include **Scoreable Inputs & Modulation Signals** on PM pages. Phenome Connections is `## 7. Phenome Connections`. References is `## 8. References`.
 - The in-body mechanism title line (e.g. `BRS6-FM1-PM1 - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
 - **Mechanistic Basis (canonical):** `### Summary` (always visible) → `<details>` containing all `####` blocks (primary mechanism → boundaries → integration) → optional `### 4.1 Evidence Highlights` subsection. Reference: BRS1-FM1-PM1. §4.1 is **not** inside the mechanism dropdown.
 - **§4 citations:** keep inline `[Author et al., Year]` on evidence-backed claims in primary mechanism blocks; do not strip refs when shortening. Every inline citation must have a matching References entry. See `system/brs-citation-reference-standard.md`.
 - **§4.1 Evidence Highlights (optional):** `### 4.1 Evidence Highlights` as a **subsection of §4** after the mechanism `<details>` (never inside that dropdown). Use `#### Introduction/Summary` (visible) + evidence `<details>` dropdown. Findings only — not mechanism repeat. See `system/primary-mechanism-schema.md` (**PM §4.1 — Evidence Highlights**) and **PM section roles** in `system/mechanism-page-section-prose.md`.
 - **Non-repetition:** §1 = what; §4 = how; §4.1 = how we know. Do not restate the same claim across all three (reference: BRS1 PM2).
-- **§6 BRS Pathways and Connections** — `## 6. BRS Pathways and Connections`; `### 6.1` BRS Pathways; `### 6.2` Connected BRS Mechanisms; `### 6.3` Connected Primary Mechanisms. **No cofactors, KCs, or dietary levers in §6.**
+- **§5 BRS Pathways and Connections** — `## 5. BRS Pathways and Connections`; `### 5.1` BRS Pathways; `### 5.2` Connected BRS Mechanisms; `### 5.3` Connected Primary Mechanisms. **No cofactors, KCs, or dietary levers in §5.**
+- **§7 Phenome Connections** — translational mappings from `phenome_relationships`.
 - **§7 Dietary Levers** — `### 7.1` Direct Dietary Levers (substance ← 2–3 food examples per `system/substance-food-mapping-format.md`; no legacy Diet `<details>` wrapper; no `food → substance` bullets); `### 7.2` Cofactors and Supporting Inputs (from front matter `cofactors`); `### 7.3` KCs (Key Constraints).
 - **§8 Lifestyle Levers** — separate numbered section; body uses `<details>` / `<summary><strong>Lifestyle</strong></summary>`.
 - Do not add body sections after **References**. No **Missing Entities** section on the PM page.

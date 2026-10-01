@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Populate PM §5.1 Evidence Highlights from BRS hub ADHD dropdown evidence.
- * Uses the same dropdown structure as PM §3 Phenome Connections (BRS-X canonical).
+ * Uses the same dropdown structure as PM §7 Phenome Connections (BRS-X canonical).
  *
  * Usage:
  *   node scripts/populate-pm-evidence-highlights.mjs --brs BRS4
@@ -34,13 +34,13 @@ function parseArgs() {
 }
 
 function hasEvidenceSection(content) {
-  return /^### 5\.1 Evidence Highlights/m.test(content);
+  return /^### (?:4|5)\.1 Evidence Highlights/m.test(content);
 }
 
 function buildEvidenceBlock(config) {
   const entries = normalizeEvidenceConfig(config);
   return renderEvidenceHighlightsSection({
-    heading: "### 5.1 Evidence Highlights",
+    heading: "### 4.1 Evidence Highlights",
     intro: config.intro,
     entries,
   });
@@ -48,11 +48,11 @@ function buildEvidenceBlock(config) {
 
 function insertEvidenceSection(content, block) {
   if (hasEvidenceSection(content)) return content;
-  const anchor = /^## 6\. BRS Pathways and Connections/m;
+  const anchor = /^## 5\. BRS Pathways and Connections/m;
   if (!anchor.test(content)) {
-    throw new Error("Missing ## 6. BRS Pathways and Connections anchor");
+    throw new Error("Missing ## 5. BRS Pathways and Connections anchor");
   }
-  return content.replace(anchor, `${block}\n\n## 6. BRS Pathways and Connections`);
+  return content.replace(anchor, `${block}\n\n## 5. BRS Pathways and Connections`);
 }
 
 function mergeReferences(data, content, extraRefs = []) {
@@ -140,7 +140,7 @@ function main() {
     // including under --force.
     if (hasScientificFindings(data)) {
       skipped++;
-      console.log(`skip (Scientific Findings own §5.1 — use npm run findings:sync): ${pmId}`);
+      console.log(`skip (Scientific Findings own §4.1 — use npm run findings:sync): ${pmId}`);
       continue;
     }
 

@@ -15,13 +15,13 @@ When creating or editing Specific Mechanism (SM) pages:
 Follow:
 - `system/specific-mechanism-schema.md`
 - `system/brs-citation-reference-standard.md`
-- `system/primary-mechanism-schema.md` for collapsible, scoreable, timing, and bibliography conventions (SMs reuse PM rendering, not a separate grammar)
+- `system/primary-mechanism-schema.md` for collapsible, timing, and bibliography conventions (SMs reuse PM rendering, not a separate grammar)
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 Structure:
-- Use **Profile A extended** (§1–§9 with Intervention Breakdown). Same numbering, `<details>` patterns, and scoreable table categories as PM pages.
+- Use **Profile A extended**. Same numbering and `<details>` patterns as PM pages. Phenome Connections is `## 7. Phenome Connections`. References is `## 8. References`. Do not include **Scoreable Inputs & Modulation Signals**.
 - `timing_specific` is required in front matter; no visible `## N. Timing Specific` body section.
-- §2 Phenome Connections — same phenome layer contract as PM pages (empty state when none mapped).
+- §7 Phenome Connections — same phenome layer contract as PM pages (empty state when none mapped).
 - §3 Intervention Breakdown must include **only** the single allowed `intervention_breakdown` value (same as PM pages). `sm_category` and `use_case` live in front matter only — not in the public body.
 - §5 must list connected PMs and FMs before KCs; do not treat SMs as new PM/FM/KC ontology primitives.
 

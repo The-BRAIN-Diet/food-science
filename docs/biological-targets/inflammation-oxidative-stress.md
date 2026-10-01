@@ -38,10 +38,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation">BRS3-FM1-PM1 — NF-kB Signalling Regulation</a></li>
-    <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling">BRS3-FM1-PM2 — Gut-Derived Inflammatory Signalling</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -51,12 +47,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation</a></li>
-    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance">BRS3-FM2-PM4 — ROS Generation vs Clearance Balance</a></li>
-    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control">BRS3-FM2-PM5 — Lipid Peroxidation Control</a></li>
-    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling">BRS3-FM2-PM6 — Antioxidant Network Recycling</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -66,10 +56,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a></li>
-    <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance">BRS3-FM3-PM8 — Eicosanoid / SPM Balance</a></li>
-  </ul>
 </li>
 </ul>
 </div>
@@ -385,7 +371,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>

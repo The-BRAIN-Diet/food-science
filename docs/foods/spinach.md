@@ -27,6 +27,7 @@ tags:
   - Beta-Carotene
   - Carotenoid
   - Vitamin K
+  - Kaempferol
 list_image: /img/foods/spinach/spinach_thumb.webp
 nutrition_per_100g:
   calcium_mg: 99
@@ -71,6 +72,20 @@ nutrition_source:
 main_image: /img/foods/spinach/spinach_medium.webp
 legacy_list_image: /img/foods/spinach/spinach_thumb.webp
 legacy_main_image: /img/foods/spinach/spinach_medium.webp
+nutrition_supplementary_sources:
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Spinach; a single defensible per-100 g value is not
+      taken from the abbreviated USDA nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
 ---
 ## Overview
 

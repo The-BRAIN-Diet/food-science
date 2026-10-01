@@ -41,8 +41,8 @@ function parseArgs() {
   };
 }
 
-const FM_PHENOME_SECTION = /^## 3\. Phenome Connections[\s\S]*?(?=\n## 4\. )/m;
-const PM_PHENOME_SECTION = /^## 3\. Phenome Connections[\s\S]*?(?=\n## 4\. )/m;
+const FM_PHENOME_SECTION = /^## 7\. Phenome Connections[\s\S]*?(?=\n## 8\. )/m;
+const PM_PHENOME_SECTION = /^## 7\. Phenome Connections[\s\S]*?(?=\n## 8\. )/m;
 
 function replaceSection(content, pattern, block) {
   if (!pattern.test(content)) return content;
@@ -150,7 +150,7 @@ function applyPmFixes(filePath, audit) {
 
   const nextData = { ...data, phenome_relationships: nextRelationships };
   const phenomeBlock = renderPmPhenomeSectionBody(nextRelationships, {
-    sectionNum: 3,
+    sectionNum: 7,
     findingData: data,
   });
   let nextContent = replaceSection(content, PM_PHENOME_SECTION, phenomeBlock);
@@ -180,7 +180,7 @@ function applyFmFixes(filePath, audit) {
   if (!changed) return { changed: false, path: filePath };
 
   const nextData = { ...data, functional_outcome_context: nextOutcomes };
-  const phenomeBlock = renderFmOutcomeContextSectionBody(nextOutcomes, { sectionNum: 3 });
+  const phenomeBlock = renderFmOutcomeContextSectionBody(nextOutcomes, { sectionNum: 7 });
   let nextContent = replaceSection(content, FM_PHENOME_SECTION, phenomeBlock);
   const merged = mergePageReferencesWithPhenome(nextData, nextContent, "fm");
   fs.writeFileSync(filePath, matter.stringify(merged.content, merged.data, { lineWidth: 9999 }), "utf8");
@@ -227,7 +227,7 @@ function alignSinglePmFmConfidence() {
     if (!changed) continue;
 
     const nextData = { ...parsed.data, functional_outcome_context: nextOutcomes };
-    const phenomeBlock = renderFmOutcomeContextSectionBody(nextOutcomes, { sectionNum: 3 });
+    const phenomeBlock = renderFmOutcomeContextSectionBody(nextOutcomes, { sectionNum: 7 });
     let nextContent = replaceSection(parsed.content, FM_PHENOME_SECTION, phenomeBlock);
     const merged = mergePageReferencesWithPhenome(nextData, nextContent, "fm");
     fs.writeFileSync(fmPath, matter.stringify(merged.content, merged.data, { lineWidth: 9999 }), "utf8");

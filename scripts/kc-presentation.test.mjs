@@ -84,3 +84,23 @@ test("downstream consumers retain every nested KC and its detail bullets", () =>
   assert.deepEqual([...foodMap.get("Amino acids")], ["fish", "eggs"]);
   assert.deepEqual([...foodMap.get("B vitamins")], ["whole grains", "eggs"]);
 });
+
+test("empty Key Constraint panels render the public scientific empty state", () => {
+  const empty = `<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- None listed
+
+</div>
+</div>
+</div>`;
+  const result = transformPmKcPresentation(empty);
+  assert.equal(result.changed, true);
+  assert.match(result.content, /No mapping established/);
+  assert.doesNotMatch(result.content, /None listed/);
+});

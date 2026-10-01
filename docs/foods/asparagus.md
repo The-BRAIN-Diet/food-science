@@ -9,6 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B9
+  - Kaempferol
 list_image: /img/foods/asparagus/asparagus_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 0.04
@@ -68,6 +69,19 @@ nutrition_supplementary_sources:
       SR Legacy (Asparagus, raw; FDC 168389) reports total fibre 2.1 g/100 g and
       does not quantify FOS. This row records spear presence, not a converted
       fresh-weight USDA value. Do not use root concentrations as spear values.
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Asparagus; a single defensible per-100 g value is
+      not taken from the abbreviated USDA nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
 ---
 ## Overview
 

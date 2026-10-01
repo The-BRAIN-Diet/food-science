@@ -162,18 +162,12 @@ function buildFmDropdown({ data, content, url }, pms) {
   return block;
 }
 
-function fmTitleItems(fmEntries, { includeMechanisms = false } = {}) {
-  return fmEntries.map(({ fmId, title, url, data }) => ({
+function fmTitleItems(fmEntries) {
+  return fmEntries.map(({ fmId, title, url }) => ({
     title: `${fmId} — ${title}`,
     openHref: url,
     openLabel: "Open FM →",
     openAriaLabel: `Open FM: ${fmId} — ${title}`,
-    childItems: includeMechanisms
-      ? (Array.isArray(data?.mechanisms_covered) ? data.mechanisms_covered : []).map((pm) => ({
-          title: `${pm.id} — ${pm.name}`,
-          href: pm.href,
-        }))
-      : undefined,
   }));
 }
 
@@ -199,7 +193,9 @@ export const ALL_MECHANISMS_MARKERS = {
   end: "<!-- brs-hub-all-mechanisms:end -->",
 };
 
-/** Full copy of the Functional Mechanisms dropdown for the hub title area. */
+/** Full copy of the Functional Mechanisms dropdown for the hub title area.
+ * Collapsed summary is FM titles only, matching ## Functional Mechanisms below.
+ */
 export function buildAllMechanismsIndex(fmFilePaths, brsId) {
   const fmEntries = collectFmEntries(fmFilePaths);
   if (!fmEntries.length || !brsId) return "";
@@ -214,7 +210,7 @@ export function buildAllMechanismsIndex(fmFilePaths, brsId) {
     .join("");
   return `${ALL_MECHANISMS_MARKERS.start}
 ${renderHubMechanismIndex(
-  fmTitleItems(fmEntries, { includeMechanisms: true }),
+  fmTitleItems(fmEntries),
   heading,
   fmBlocks,
 )}

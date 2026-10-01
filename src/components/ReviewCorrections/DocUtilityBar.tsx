@@ -63,7 +63,8 @@ export default function DocUtilityBar({
     onContentPage &&
     (showsNutritionContentTabs(page?.page_type) ||
       (!page && isNutritionContentPermalink(metadata.permalink)))
-  const showReviewTab = includeInternalDocs && onContentPage
+  const isPmPage = page?.page_type === "PM" || typeof fm.pm_id === "string"
+  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
   const params = new URLSearchParams(location.search)

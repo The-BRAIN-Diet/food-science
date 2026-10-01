@@ -118,17 +118,34 @@ export function parseKcEmergingSupports(content, data, filePath, rootDir) {
 
   const kcId = data.kc_id || "";
   const href = fileToHref(filePath, rootDir);
-  // Candidate blocks may sit inside hub dropdowns; keep #### Name as the parse anchor.
-  const chunks = body.split(/\n(?=#### )/).filter((chunk) => /^#### /.test(chunk));
+  const wrapperStart =
+    /(?=<div class="brs-fm-hub-item"[^>]*data-brs-emerging-support="[a-z0-9-]+")/;
+  const wrapperChunks = body
+    .split(wrapperStart)
+    .filter((chunk) => /^<div class="brs-fm-hub-item"[^>]*data-brs-emerging-support=/.test(chunk));
+  // Retain heading-based parsing for existing KC pages while new disclosures use
+  // the dropdown label as the single visible candidate title.
+  const chunks = wrapperChunks.length
+    ? wrapperChunks
+    : body.split(/\n(?=#### )/).filter((chunk) => /^#### /.test(chunk));
 
   /** @type {Array<{ name: string, action: string, explanation: string, kc_id: string, kc_href: string, kc_title: string }>} */
   const entries = [];
 
   for (const chunk of chunks) {
-    const nameMatch = chunk.match(/^#### (.+?)(?:\s*\{#([a-z0-9-]+)\})?\s*\n/);
+    const wrapperAnchor = chunk.match(/data-brs-emerging-support="([a-z0-9-]+)"/)?.[1];
+    const wrapperName =
+      chunk.match(
+        /<button[^>]*class="[^"]*brs-emerging-support-title-trigger[^"]*"[^>]*>([^<]+)<\/button>/,
+      )?.[1] ||
+      chunk.match(
+        /<button[^>]*class="brs-fm-hub-summary"[^>]*>[\s\S]*?<strong>([^<]+)<\/strong>/,
+      )?.[1];
+    const headingMatch = chunk.match(/^#### (.+?)(?:\s*\{#([a-z0-9-]+)\})?\s*\n/);
+    const nameMatch = wrapperName || headingMatch?.[1];
     if (!nameMatch) continue;
-    const name = nameMatch[1].trim();
-    const explicitAnchor = nameMatch[2] || chunk.match(/data-brs-emerging-support="([a-z0-9-]+)"/)?.[1];
+    const name = nameMatch.trim();
+    const explicitAnchor = wrapperAnchor || headingMatch?.[2];
     const anchor = explicitAnchor || emergingSupportAnchorSlug(name);
     // Skip nested #### headings such as "Biological Importance" / supporting titles.
     if (/^(biological importance|supporting evidence)$/i.test(name)) continue;

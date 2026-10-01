@@ -14,11 +14,11 @@ validation while remaining readable for authors.
 
 ## Related: Phenome roll-ups
 
-FM **§3 Phenome Connections** holds a concise integrative snapshot (`functional_outcome_context` in front matter) — normally 2–3 outcomes, max 4. It does **not** roll up all child PM phenome mappings (that belongs on future phenome graph pages). See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
+FM **§7 Phenome Connections** holds a concise integrative snapshot (`functional_outcome_context` in front matter) — normally 2–3 outcomes, max 4. It does **not** roll up all child PM phenome mappings (that belongs on future phenome graph pages). See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
 
 **Phenome review:** FM §4 supports the FM phenome workflow. **§4.2** is where integrated biological rationale is constructed; **Phase 3** independently tests whether that rationale is supported by the phenome literature. **§4.3** describes biological and functional consequences when integrated capacity declines — it is **not** an integration or stressor bucket. See [FM §4.2 and §4.3 architecture](#fm-42-and-43--distinct-responsibilities) and `system/phenome-relationship-review-methodology.md`.
 
-When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1) rule**: FM §3 phenome labels and confidence must align with that PM’s `phenome_relationships` at publish time — but Phase 2 FM review may surface candidates requiring Phase 1 PM updates first (see methodology § Single-PM FM reconciliation).
+When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1) rule**: FM §7 phenome labels and confidence must align with that PM’s `phenome_relationships` at publish time — but Phase 2 FM review may surface candidates requiring Phase 1 PM updates first (see methodology § Single-PM FM reconciliation).
 
 ## Spreadsheet Interpretation Authority
 
@@ -128,7 +128,7 @@ FM §4.2  Integrated Functional Narrative
 Phase 3  Independent phenome validation
          • Test mechanism biology
          • Test phenome domain
-         • Assign confidence → FM §3 front matter
+         • Assign confidence → FM §7 front matter
 
         │
         ▼
@@ -140,7 +140,7 @@ FM §4.3  Suboptimal Function & Its Effects
         │
         ▼
 
-FM §3    Published Phenome Connections (functional_outcome_context)
+FM §7    Published Phenome Connections (functional_outcome_context)
 ```
 
 | Section | Question it answers |
@@ -223,7 +223,7 @@ Section **4.** must include:
 - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
 - **`### 4.2 Integrated Functional Narrative`** — per [§4.2 contract](#42-integrated-functional-narrative) above. **Type A (multi-PM):** how PMs combine + Functional Rationale. **Type B (single-PM anchor):** broader system state + Functional Rationale — see `system/single-pm-fm-rule.md`; do not use “Together,”
 - **`### 4.3 Suboptimal Function & Its Effects`** — per [§4.3 contract](#43-suboptimal-function--its-effects) above (required on all FM pages)
-- **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §5.1 entries after phenome content is stripped). **Same dropdown structure as PM §3** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §3 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §5.1 is authored.
+- **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §4.1 entries after phenome content is stripped). **Same dropdown structure as PM §7** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §7 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §4.1 is authored.
 
 The displayed Key Constraint list is **derived from PM → KC mappings**: the union of `key_constraints` on constituent PMs, deduplicated by KC id. Do **not** list every KC of the parent BRS, maintain an independent FM→KC map, infer KCs from prose, or invent/rename KCs. FM front matter `key_constraints` may cache that union for ontology traversal; it is not an independent mapping. FMs whose PMs have no KC mappings render **no** empty pool section.
 
@@ -425,14 +425,16 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
 
 1. **Definition** — `## 1. Definition` (or transitional `## 1. Mission & Overview`) — translational integrated state per **FM Definition Rule**; optional **functional descriptor** under title; `summary` aligns with §1 opening paragraph. PM §1 authoring: **Mission & Overview** (`system/primary-mechanism-schema.md`, `system/mechanism-page-section-prose.md` **PM §1**).
 2. **Primary Biological Effects** — `## 2. Primary Biological Effects` — short directional arrow line describing **emergent FM outcomes** per **FM Primary Biological Effects Rule**
-3. **Phenome Connections** — `## 3. Phenome Connections` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
 4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.2 or §4.3 when `timing_specific: "Yes"`
    - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
    - **`### 4.2 Integrated Functional Narrative`** — integration + Functional Rationale (see [FM §4.2 and §4.3 architecture](#fm-42-and-43--distinct-responsibilities))
    - **`### 4.3 Suboptimal Function & Its Effects`** — capacity-loss consequences, not causes (required)
    - **`### 4.4 Evidence Highlights`** — FM-level evidence for why the integrated state matters (required on **all** FMs before phenome Phase 2; see `system/fm-schema-rollout-sequence.md`)
 5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM connected-mechanisms sections; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
-6. **References** — `## 6. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
+7. **Phenome Connections** — `## 7. Phenome Connections` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
+8. **References** — `## 8. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
+
+§3 and §6 are unused so Phenome stays aligned with PM/SM §7.
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM links live in §4.1; KC pools render as the unnumbered Supporting Key Constraint Pools block before §4.1), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 
@@ -442,7 +444,7 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
 
 ### Excluded from the public FM body (current contract)
 
-Do not add body sections after **References** (`## 6.`). The following are **not** part of the FM narrative: **Dietary Levers**, **Lifestyle Levers**, **Scoreable Inputs & Modulation Signals**, **Underlying Mechanisms and Requirements** (and legacy §5.1–§5.4 rollups), Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, PM pages, or other artefacts.
+Do not add body sections after **References** (`## 8.`). The following are **not** part of the FM narrative: **Dietary Levers**, **Lifestyle Levers**, **Scoreable Inputs & Modulation Signals**, **Underlying Mechanisms and Requirements** (and legacy §5.1–§5.4 rollups), Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, PM pages, or other artefacts.
 
 ### Legacy note
 
@@ -468,13 +470,13 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
 - **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
-- FM body section headings must be explicitly numbered: Definition → Primary Biological Effects → Phenome Connections → Mechanistic Basis (Integrated FM Narrative) → Connected Mechanisms → References.
+- FM body section headings must be explicitly numbered: Definition → Primary Biological Effects → Mechanistic Basis (Integrated FM Narrative) → Connected Mechanisms → Phenome Connections → References.
 - Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
 - Published body must **not** include `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, or `Underlying Mechanisms and Requirements`.
 - Published body must **not** use legacy `## N. BRS Links` or standalone `## N. Connected Mechanisms`; use `## 5. Connected Mechanisms`.
 - `## 5. Connected Mechanisms` is required; roll up from constituent PM §6.2 connected mechanisms.
 - Each Connected Mechanisms bullet must use: `[ID — Name](href) — one-sentence biological connection to this FM`. Do not list BRS hub pages without a specific PM/FM link and connection sentence.
-- `## 6. References` is required when references exist in front matter.
+- `## 8. References` is required when references exist in front matter.
 - §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
 - When constituent PMs declare `key_constraints`, §4 must render **Supporting Key Constraint Pools** immediately after the opening paragraph and before `### 4.1`. The list is the PM → KC union (exact citation keys / KC ids; no array-position join; no neighbour fallback). Each KC uses a title-first non-collapsible panel whose title is the canonical KC link, with always-visible constraint details only in its body; KC links must not render as bullets, and no disclosure arrow or separate `Open KC` control is permitted. Each entry must resolve to a canonical KC page. Duplicate KCs cannot render. FMs with no mapped KCs must not render an empty section.
 - A KC linked in §4.3 but absent from the PM-derived union fails validation (`fm_kc_43_not_in_pm_union`) and is recorded in `scripts/out/fm-kc-pool-reconciliation.json`. Do not silently infer it onto the list. A PM whose §4.1.3 body lists KCs without front-matter `key_constraints` is a mapping gap (`fm_pm_kc_mapping_gap`), not a source of inferred KCs.

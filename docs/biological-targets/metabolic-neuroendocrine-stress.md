@@ -40,11 +40,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics">BRS6-FM1-PM1 — Glucose Appearance Kinetics</a></li>
-    <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation">BRS6-FM1-PM2 — Glycaemic Variability Regulation</a></li>
-    <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal">BRS6-FM1-PM3 — Insulin Sensitivity &amp; Glucose Disposal</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -54,10 +49,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation">BRS6-FM2-PM4 — Cortisol Rhythm Regulation</a></li>
-    <li><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment">BRS6-FM2-PM5 — Circadian Feeding &amp; Light–Dark Entrainment</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -67,10 +58,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery">BRS6-FM3-PM6 — Sympathetic Activation &amp; Parasympathetic Recovery</a></li>
-    <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation">BRS6-FM3-PM7 — Vagal Tone / HRV Regulation</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -80,10 +67,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Metabolic Inflammation &amp; Adipose Stress Signalling</a></li>
-    <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation</a></li>
-  </ul>
 </li>
 </ul>
 </div>
@@ -451,7 +434,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>
@@ -925,3 +908,11 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 ## Specific Mechanisms
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
+
+## Proposed Primary Mechanisms
+
+### Metabolic Challenge & Recovery Regulation
+
+- **Status:** Proposed PM
+- **Capacity of interest:** Metabolic resilience
+- **Potential protocol:** CACH, including fasting- and exercise-linked challenge–recovery protocols

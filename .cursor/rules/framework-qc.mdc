@@ -21,4 +21,4 @@ Immediate correction is permitted only when:
 
 Do not add QC metadata to content-page front matter. Public Review & Corrections UI is generated from the existing registers (`npm run qc:generate`); do not create a second issues register or publish internal issues.
 
-The central QA register (`docs/dietary-foundations/framework-review-and-corrections.mdx`) and Training (`docs/training/**`) are local-only. They require `INCLUDE_INTERNAL_DOCS=true` and must not be committed. The per-page Review & Corrections tab is shown only in that internal mode.
+The central QA register (`docs/dietary-foundations/framework-review-and-corrections.mdx`) and Training (`docs/training/**`) are local-only. They require `INCLUDE_INTERNAL_DOCS=true` and must not be committed. The per-page Review & Corrections tab is required on every PM. PM evidence-audit corrections (`register_surface: pm-tab`) stay on that tab and must not be added to the Framework Review & Corrections register.

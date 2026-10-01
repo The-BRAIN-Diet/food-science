@@ -1,62 +1,39 @@
 ---
 title: Excitotoxicity Modulation
 pm_id: BRS1-FM4-PM11
-mission: >-
-  Limit excitotoxic pressure when glutamatergic drive is excessive so neural
-  stability is protected over time.
+mission: Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.
 parent_fm: BRS1(FM4)
 parent_brs: BRS1
-summary: >-
-  Governs the brain's endogenous buffering response to excitotoxicity (neural
-  stress arising when glutamatergic signalling becomes excessive and overwhelms
-  clearance capacity), largely through regulatory activity only indirectly
-  supported by dietary amino-acid context. This mechanism sits downstream of
-  glutamate clearance and GABA–glutamate balance, representing the last line of
-  defence when upstream regulation is insufficient. Modulating this burden
-  supports long-term cognitive stability and protects circuits from cumulative
-  excitatory stress.
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
-cofactors:
-  - Magnesium
-  - omega-3
-  - antioxidants indirectly
+summary: 'Excitotoxicity modulation concerns protection when glutamate-receptor stimulation becomes excessive or prolonged enough to stress cellular energy systems. It is an injury-level buffering layer after ordinary glutamate clearance and circuit-level excitation–inhibition matching are insufficient. Preclinical evidence shows both bioenergetic harm during chronic receptor stimulation and protection by magnesium sulfate within the same experimental model. The evidence therefore establishes model-level buffering rather than the magnitude of this response in humans.'
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
-dose_sensitivity: 'Pattern target: regular magnesium + anti-inflammatory support'
+dose_sensitivity: Pattern target rather than direct dose threshold
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
 phenome_relationships:
   - target_phenome: Stress Reactivity
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Framework translation: modulating excitotoxic glutamatergic burden may
-      intersect reactivity under excitatory load; Mamiya et al. (2021) frames
-      network E/I balance while Clerc et al. (2013) provides preclinical
-      magnesium–glutamate receptor context—not direct human stress-reactivity
-      outcomes.
+    rationale: 'This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence {{cite:clerc_magnesium_2013}}.'
     references:
       - index: 1
-        label: Mamiya et al. (2021)
-        citation_key: mamiya_precision_2021
-        href: /docs/papers/BRAIN-Diet-References#mamiya_precision_2021
-        data_level: Mechanistic
-      - index: 2
         label: Clerc et al. (2013)
         citation_key: clerc_magnesium_2013
         href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
         data_level: Preclinical
     evidence_confidence: low
+    scientific_findings:
+      - PM11-F1
+      - PM11-F2
   - target_phenome: Recovery Capacity
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Framework translation: limiting chronic excitotoxic signalling burden may
-      support neural recovery context under sustained excitatory load; evidence
-      on this PM is preclinical and mechanistic rather than human recovery
-      outcome data.
+    rationale: 'This mapping is translational. Limiting chronic receptor-driven energy stress could sit near recovery after load, but Clerc et al. did not measure human recovery outcomes. The relationship remains low-confidence {{cite:clerc_magnesium_2013}}.'
     references:
       - index: 1
         label: Clerc et al. (2013)
@@ -64,19 +41,143 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
         data_level: Preclinical
     evidence_confidence: low
+    scientific_findings:
+      - PM11-F1
+      - PM11-F2
 references:
-  - >-
-    [Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic
-    Consequences of Chronic Glutamate Receptor
-    Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)
-  - >-
-    [Mamiya et al. (2021) — Case for Neural Excitation and
-    Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)
-  - >-
-    [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in
-    Adults with
-    ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)
+  - '[Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic Consequences of Chronic Glutamate Receptor Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)'
+  - '[Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)'
+  - '[Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)'
+  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
+  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
+      this mechanism’s governed excitotoxic-buffering capacity.
+    disposition: unresolved
+    established_links:
+      - Excessive glutamate-receptor stimulation can produce bioenergetic and excitotoxic stress (PM11-F1).
+      - DIAAS and related scores measure digestible IAA adequacy (FAO 2013; Mariotti 2019).
+    inferred_links:
+      - Incomplete IAA quality would change glutamate-related pools and thereby constrain excitotoxic buffering.
+    evidence_source:
+      finding_ids:
+        - PM11-F1
+      citation_keys:
+        - clerc_magnesium_2013
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    rationale: >-
+      Assessment was completed. Quality-scoring evidence does not connect IAA
+      inadequacy to excitotoxic buffering. Receptor-overload stress is not that
+      quality construct.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed excitotoxic-buffering capacity.
+    disposition: evidence-supported-non-application
+    established_links:
+      - Buffering addresses injury-level pressure after excitatory drive exceeds control (PM11-F1).
+      - Fernstrom 2013’s LAT1 cargo set is large neutral amino acids, not glutamate.
+    inferred_links:
+      - LAT1 imbalance would change amino-acid presentation and thereby constrain this buffering.
+    evidence_source:
+      finding_ids:
+        - PM11-F1
+      citation_keys:
+        - clerc_magnesium_2013
+        - fernstrom_lnna_2013
+    rationale: >-
+      The named competitive state is LAT1 LNAA balance. Excitotoxic buffering is
+      not that transport process. Public mapping is not published.
 hide_title: true
+scientific_findings_intro: Excessive glutamate-receptor stimulation can stress cell energy systems. That is the excitotoxic-pressure job this mechanism buffers. The findings below separate that preclinical buffering demonstration from network-level excitation–inhibition framing and from spectroscopic glutamate/glutamine measures. They do not show that ordinary diet controls this buffering.
+scientific_findings:
+  - id: PM11-F1
+    finding_label: Excessive receptor stimulation can produce excitotoxic energy stress
+    finding_summary: 'When glutamate receptors are stimulated too strongly or for too long, cells can suffer bioenergetic stress (excitotoxicity).'
+    finding_interpretation: This is the injury-level pressure this mechanism is meant to buffer. It is not a dietary finding.
+    fm_rollup: true
+    finding_statement: Excessive glutamate-receptor stimulation can produce bioenergetic and excitotoxic stress.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A chronic glutamate-receptor stimulation model produced bioenergetic harm. That establishes overload at the receptor as a source of excitotoxic energy stress. It does not measure ordinary-diet control of that pressure.
+    synthesis_limitations: 'Preclinical model. It does not quantify human excitotoxic outcomes, name a dietary buffering lever, or replace network excitation–inhibition framing.'
+    evidence_considered:
+      - label: Clerc et al. (2013)
+        citation_key: clerc_magnesium_2013
+        href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
+        data_level: Preclinical
+        evidence_source: repository-inherited
+        directional_finding: Chronic glutamate-receptor stimulation produced bioenergetic consequences consistent with excitotoxic stress.
+        assessment:
+          study: Preclinical model of chronic glutamate-receptor stimulation and downstream bioenergetic consequences.
+          population: Experimental preparation; not a human dietary sample.
+          result: Excessive receptor stimulation produced measurable energy-system stress.
+          effect_magnitude: No dietary or clinical effect estimate.
+          evidence_summary: Establishes receptor overload as a source of excitotoxic energy stress.
+          limitations: Preclinical; not a human intake or outcome study.
+    presentation: mechanistic-basis
+  - id: PM11-F2
+    finding_label: Magnesium sulfate protected energy systems in that overload model
+    finding_summary: 'In the same chronic glutamate-receptor model, magnesium sulfate reduced the bioenergetic harm.'
+    finding_interpretation: This is a preclinical protection finding in that model. It is not a human dietary magnesium requirement.
+    finding_statement: Magnesium sulfate protected against the bioenergetic consequences of chronic glutamate-receptor stimulation in that preclinical model.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Magnesium sulfate limited the energy-system consequences of chronic receptor stimulation in the same model used to show that overload can harm bioenergetics. The exposure was magnesium sulfate in that model, not ordinary food magnesium.'
+    synthesis_limitations: Preclinical protection under isolated magnesium sulfate. It does not establish ordinary dietary magnesium as a requirement or a human intervention.
+    evidence_considered:
+      - label: Clerc et al. (2013)
+        citation_key: clerc_magnesium_2013
+        href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
+        data_level: Preclinical
+        evidence_source: repository-inherited
+        directional_finding: Magnesium sulfate protected against the bioenergetic consequences of chronic glutamate-receptor stimulation.
+        assessment:
+          study: 'Same chronic glutamate-receptor model, with magnesium sulfate as the protective exposure.'
+          population: Experimental preparation; not a human dietary sample.
+          result: Magnesium sulfate reduced the measured bioenergetic harm.
+          effect_magnitude: Model-level protection; not a dietary-dose estimate.
+          evidence_summary: 'Shows protection in that overload model, not ordinary-diet magnesium control.'
+          limitations: Isolated magnesium sulfate; not food magnesium or human diet.
+    evidence_dependency:
+      - 'Clerc et al. (2013) is also primary evidence for the overload-stress proposition. Reuse is the same model, not independent replication.'
+    presentation: mechanistic-basis
+  - id: PM11-F3
+    finding_label: Network excitation–inhibition framing is not this buffering demonstration
+    finding_summary: Reviews of excitation–inhibition balance describe network context. They do not demonstrate this mechanism’s injury-level buffering.
+    finding_interpretation: Use this as cluster context. Do not read it as proof that excitotoxic buffering was measured.
+    finding_statement: Excitation–inhibition network framing is context for this cluster and is not a demonstration of excitotoxic buffering.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A precision-medicine review treats excitation–inhibition imbalance as a network frame relevant to attention-related circuits. That sits beside this buffering job. It does not measure bioenergetic protection under chronic receptor stimulation.
+    synthesis_limitations: Review-level network framing. No excitotoxic-buffering assay and no dietary buffering intervention.
+    evidence_considered:
+      - label: Mamiya et al. (2021)
+        citation_key: mamiya_precision_2021
+        href: /docs/papers/BRAIN-Diet-References#mamiya_precision_2021
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Frames excitation–inhibition balance as a network property; does not demonstrate excitotoxic buffering.
+        assessment:
+          study: Review of excitation–inhibition balance as a candidate attention-related frame.
+          population: Mixed preclinical and human literature; not a dietary sample.
+          result: Proposed network E/I imbalance as interpretive context.
+          effect_magnitude: No buffering-rate or dietary effect estimate.
+          evidence_summary: Supplies network context without measuring injury-level buffering.
+          limitations: Not a glutamate-receptor bioenergetic protection study.
+    connected_supportive_evidence:
+      - label: Maltezos et al. (2014)
+        citation_key: maltezos_glutamateglutamine_2014
+        href: /docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014
+        data_level: Human Mechanistic
+        why_relevant: Regional glutamate/glutamine measures associate with attention scores in adults with ADHD and supply pool context next to excitatory biology.
+        why_excluded: Spectroscopic Glx is not an excitotoxic-buffering assay and does not measure bioenergetic protection under receptor overload.
+    presentation: mechanistic-basis
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -91,24 +192,176 @@ hide_title: true
 
 (Protecting Circuits from Excessive Excitatory Stress)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.
 
+
+This mechanism buffers injury-level pressure when excitatory glutamate signalling becomes excessive. Magnesium sulfate protection in a chronic receptor model is not a human dietary magnesium requirement; omega-3 and antioxidant support are unassessed here. Dietary addressability is not established.
+
+**Intervention Dominance:** Diet-Supported
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for excitotoxicity modulation.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-supported cofactors or substrates are currently established for this mechanism.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Governs the brain's endogenous buffering response to excitotoxicity (neural stress arising when glutamatergic signalling becomes excessive and overwhelms clearance capacity), largely through regulatory activity only indirectly supported by dietary amino-acid context. This mechanism sits downstream of glutamate clearance and GABA–glutamate balance, representing the last line of defence when upstream regulation is insufficient. Modulating this burden supports long-term cognitive stability and protects circuits from cumulative excitatory stress.
+Excitotoxicity modulation concerns protection when glutamate-receptor stimulation becomes excessive or prolonged enough to stress cellular energy systems Clerc et al. (2013) [[1]](#pm-ref-1). It is an injury-level buffering layer after ordinary glutamate clearance and circuit-level excitation–inhibition matching are insufficient. Preclinical evidence shows both bioenergetic harm during chronic receptor stimulation and protection by magnesium sulfate within the same experimental model Clerc et al. (2013) [[1]](#pm-ref-1). The evidence therefore establishes model-level buffering rather than the magnitude of this response in humans.
 
-* Buffers neural stress when glutamatergic drive becomes excessive.
-* Sits downstream of clearance and balance as a last line of defence.
-* Supports long-term cognitive and regulatory stability under excitatory load.
+* **Mechanism boundary:** Includes buffering of injury-level receptor-overload stress; routine glutamate clearance and circuit-level excitation–inhibition matching are upstream mechanisms.
+* **Evidence boundary:** The assessed protection finding comes from a preclinical magnesium-sulfate model, not food magnesium, human diet or a clinical trial Clerc et al. (2013) [[1]](#pm-ref-1).
+* **Biological relevance:** Limiting overload-related energy stress may protect circuit stability, but no dietary or ADHD treatment effect is established Clerc et al. (2013) [[1]](#pm-ref-1); Mamiya et al. (2021) [[2]](#pm-ref-2).
 
 ## 2. Primary Biological Effects
 ↓ excitotoxic signalling burden; ↑ inhibitory/excitatory resilience
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+When glutamate receptors are driven too hard, cells can suffer energy stress. This mechanism is the last buffer against that injury-level pressure. Sibling mechanisms hold integrative excitation–inhibition matching, GABA synthesis and upstream glutamate clearance. Network excitation–inhibition reviews and glutamate/glutamine spectroscopy are not this buffering assay.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Excitotoxic pressure and injury-level buffering</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Excitotoxic pressure from receptor overload)
+
+Chronic or excessive glutamate-receptor stimulation can produce bioenergetic stress. That injury-level pressure is what this mechanism is meant to buffer → [Clerc et al., 2013]
+
+#### (Boundaries of the mechanism)
+
+Integrative excitation–inhibition matching, GABA synthesis and glutamate clearance are coordinated sibling jobs. Network excitation–inhibition framing is cluster context, not this buffering demonstration → [Mamiya et al., 2021]
+
+#### (Integration)
+
+Buffering capacity can sit beside inflammatory, energetic and glycaemic context. Those cross-system links are constrained associations, not proven controllers of this layer.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Excessive glutamate-receptor stimulation can stress cell energy systems. That is the excitotoxic-pressure job this mechanism buffers. The findings below separate that preclinical buffering demonstration from network-level excitation–inhibition framing and from spectroscopic glutamate/glutamine measures. They do not show that ordinary diet controls this buffering.
+
+<ScientificFinding finding={{"id":"PM11-F1","finding_label":"Excessive receptor stimulation can produce excitotoxic energy stress","finding_summary":"When glutamate receptors are stimulated too strongly or for too long, cells can suffer bioenergetic stress (excitotoxicity).","finding_interpretation":"This is the injury-level pressure this mechanism is meant to buffer. It is not a dietary finding.","fm_rollup":true,"finding_statement":"Excessive glutamate-receptor stimulation can produce bioenergetic and excitotoxic stress.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A chronic glutamate-receptor stimulation model produced bioenergetic harm. That establishes overload at the receptor as a source of excitotoxic energy stress. It does not measure ordinary-diet control of that pressure.","synthesis_limitations":"Preclinical model. It does not quantify human excitotoxic outcomes, name a dietary buffering lever, or replace network excitation–inhibition framing.","evidence_considered":[{"label":"Clerc et al. (2013)","citation_key":"clerc_magnesium_2013","href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","data_level":"Preclinical","evidence_source":"repository-inherited","directional_finding":"Chronic glutamate-receptor stimulation produced bioenergetic consequences consistent with excitotoxic stress.","assessment":{"study":"Preclinical model of chronic glutamate-receptor stimulation and downstream bioenergetic consequences.","population":"Experimental preparation; not a human dietary sample.","result":"Excessive receptor stimulation produced measurable energy-system stress.","effect_magnitude":"No dietary or clinical effect estimate.","evidence_summary":"Establishes receptor overload as a source of excitotoxic energy stress.","limitations":"Preclinical; not a human intake or outcome study."},"canonical_reference":{"author_year":"Clerc et al. (2013)","number":1,"anchor":"#pm-ref-1"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Stress Reactivity","href":"/docs/phenomes/details/ph015-stress-reactivity"},{"phenome":"Recovery Capacity","href":"/docs/phenomes/details/ph005-recovery-capacity"}]}} />
+
+<ScientificFinding finding={{"id":"PM11-F2","finding_label":"Magnesium sulfate protected energy systems in that overload model","finding_summary":"In the same chronic glutamate-receptor model, magnesium sulfate reduced the bioenergetic harm.","finding_interpretation":"This is a preclinical protection finding in that model. It is not a human dietary magnesium requirement.","finding_statement":"Magnesium sulfate protected against the bioenergetic consequences of chronic glutamate-receptor stimulation in that preclinical model.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Magnesium sulfate limited the energy-system consequences of chronic receptor stimulation in the same model used to show that overload can harm bioenergetics. The exposure was magnesium sulfate in that model, not ordinary food magnesium.","synthesis_limitations":"Preclinical protection under isolated magnesium sulfate. It does not establish ordinary dietary magnesium as a requirement or a human intervention.","evidence_considered":[{"label":"Clerc et al. (2013)","citation_key":"clerc_magnesium_2013","href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","data_level":"Preclinical","evidence_source":"repository-inherited","directional_finding":"Magnesium sulfate protected against the bioenergetic consequences of chronic glutamate-receptor stimulation.","assessment":{"study":"Same chronic glutamate-receptor model, with magnesium sulfate as the protective exposure.","population":"Experimental preparation; not a human dietary sample.","result":"Magnesium sulfate reduced the measured bioenergetic harm.","effect_magnitude":"Model-level protection; not a dietary-dose estimate.","evidence_summary":"Shows protection in that overload model, not ordinary-diet magnesium control.","limitations":"Isolated magnesium sulfate; not food magnesium or human diet."},"canonical_reference":{"author_year":"Clerc et al. (2013)","number":1,"anchor":"#pm-ref-1"}}],"evidence_dependency":["Clerc et al. (2013) is also primary evidence for the overload-stress proposition. Reuse is the same model, not independent replication."],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Stress Reactivity","href":"/docs/phenomes/details/ph015-stress-reactivity"},{"phenome":"Recovery Capacity","href":"/docs/phenomes/details/ph005-recovery-capacity"}]}} />
+
+<ScientificFinding finding={{"id":"PM11-F3","finding_label":"Network excitation–inhibition framing is not this buffering demonstration","finding_summary":"Reviews of excitation–inhibition balance describe network context. They do not demonstrate this mechanism’s injury-level buffering.","finding_interpretation":"Use this as cluster context. Do not read it as proof that excitotoxic buffering was measured.","finding_statement":"Excitation–inhibition network framing is context for this cluster and is not a demonstration of excitotoxic buffering.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A precision-medicine review treats excitation–inhibition imbalance as a network frame relevant to attention-related circuits. That sits beside this buffering job. It does not measure bioenergetic protection under chronic receptor stimulation.","synthesis_limitations":"Review-level network framing. No excitotoxic-buffering assay and no dietary buffering intervention.","evidence_considered":[{"label":"Mamiya et al. (2021)","citation_key":"mamiya_precision_2021","href":"/docs/papers/BRAIN-Diet-References#mamiya_precision_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Frames excitation–inhibition balance as a network property; does not demonstrate excitotoxic buffering.","assessment":{"study":"Review of excitation–inhibition balance as a candidate attention-related frame.","population":"Mixed preclinical and human literature; not a dietary sample.","result":"Proposed network E/I imbalance as interpretive context.","effect_magnitude":"No buffering-rate or dietary effect estimate.","evidence_summary":"Supplies network context without measuring injury-level buffering.","limitations":"Not a glutamate-receptor bioenergetic protection study."},"canonical_reference":{"author_year":"Mamiya et al. (2021)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[{"label":"Maltezos et al. (2014)","citation_key":"maltezos_glutamateglutamine_2014","href":"/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014","data_level":"Human Mechanistic","why_relevant":"Regional glutamate/glutamine measures associate with attention scores in adults with ADHD and supply pool context next to excitatory biology.","why_excluded":"Spectroscopic Glx is not an excitotoxic-buffering assay and does not measure bioenergetic protection under receptor overload.","canonical_reference":{"author_year":"Maltezos et al. (2014)","number":3,"anchor":"#pm-ref-3"}}],"presentation":"mechanistic-basis"}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory tone can change how vulnerable synapses are to overload, but the attached studies do not show that NF-κB signalling sets excitotoxic buffering.
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial energy supply can sit next to the bioenergetic harm measured under receptor overload, yet electron-transport function is not shown here as the controller of this buffering layer.
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic swings can change metabolic context for neurons, but how glucose appears in blood is not shown here as a controller of excitotoxic buffering.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) — Holds the integrative match between excitation and inhibition. This buffering layer is for injury-level pressure when that match is already exceeded; it does not replace the balance job.
+- [BRS1-FM4-PM9 - GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity) — Makes the inhibitory transmitter from glutamate. Synthesis chemistry is coordinated with overload protection, not the same excitotoxic-buffering function.
+- [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) — Clears and recycles glutamate after signalling. Failed or overloaded clearance is an upstream risk for this layer, not the same mechanism.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -159,10 +412,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mamiya_precision_2021","label":"Mamiya et al. (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
+- **Rationale:** This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence  Clerc et al. (2013) [[1]](#pm-ref-1).
 </div>
 </div>
 </div>
@@ -182,257 +432,13 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
+- **Rationale:** This mapping is translational. Limiting chronic receptor-driven energy stress could sit near recovery after load, but Clerc et al. did not measure human recovery outcomes. The relationship remains low-confidence  Clerc et al. (2013) [[1]](#pm-ref-1).
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Supported
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Omega-3 ← oily fish
-- Polyphenol support ← berries, cocoa
-- magnesium-rich foods → NMDA modulation.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Magnesium ← leafy greens, nuts, seeds
-- omega-3
-- antioxidants indirectly
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Complete essential amino-acid supply ← eggs, fish, dairy, meat, soy, legumes, grains
-- Tryptophan ← eggs, dairy, fish, poultry, soy, pumpkin seeds
-- Phenylalanine and tyrosine ← dairy, meat, fish, eggs, soy, legumes, nuts, seeds
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Use complementary protein pairing and distributed protein across meals to support amino-acid availability — see [Eggs — Synergies](/docs/foods/eggs#synergies), [Lentils — Synergies](/docs/foods/lentils#synergies).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
-- Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-BRS1-FM4-PM11 modulates excessive glutamatergic drive and downstream excitotoxic stress through magnesium sufficiency, omega-3 intake, and antioxidant-rich dietary patterns that support neuronal resilience within [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Excitotoxic stress, magnesium, and neuronal resilience</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Excitotoxicity and glutamatergic overload)
-
-Sustained or excessive glutamatergic activation can increase calcium influx and oxidative stress, contributing to excitotoxic injury relevant to neurostability and cognitive regulation → [Clerc et al., 2013]
-
-#### (Magnesium and NMDA modulation)
-
-Magnesium is a physiological NMDA channel blocker; dietary magnesium from leafy greens, nuts, and seeds supports modulation of excitatory load listed in section 6. Regular intake patterns matter more than single bolus doses for this PM.
-
-#### (Omega-3 and inflammatory context)
-
-Long-chain omega-3 and polyphenol-rich foods support membrane and inflammatory environments that interact with excitotoxic vulnerability → [Mamiya et al., 2021]
-
-#### (Cluster and cross-BRS placement)
-
-BRS1-FM4-PM11 extends [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) clearance biology toward **stress and injury prevention**, with connected mechanisms (section 5.3) to inflammatory and mitochondrial support layers.
-
-Together, BRS1-FM4-PM11 links dietary magnesium, omega-3, and antioxidant patterns to reduction of excitotoxic burden in the E/I cluster.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Excitotoxic stress biology is well established. The studies below highlight neural E/I balance framing and magnesium-related excitotoxic protection that refine how excitatory overload modulation is interpreted in practice.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Neural excitation and inhibition balance</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Precision in neural excitation and inhibition balance framing supports interpreting excitotoxic modulation as part of the wider E/I cluster rather than an isolated nutrient effect [Mamiya et al., 2021].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mamiya_precision_2021","label":"Mamiya et al. (2021)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Magnesium and glutamate receptor bioenergetics</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Magnesium sulfate protects against bioenergetic consequences of chronic glutamate receptor stimulation — linking dietary magnesium context to excitotoxic burden modulation [Clerc et al., 2013].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
-- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance)
-- [BRS1-FM4-PM9 - GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity)
-- [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to excitotoxicity modulation.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM11 Relevance |
-|---|---|---|
-| Functional Property Potentials | complete_protein_context; lnna_transport_context; choline_rich_food_matrix | May influence meal-level mechanism support. |
-| Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic Consequences of Chronic Glutamate Receptor Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)
-- [Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)
-- [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)
+
+- <span id="pm-ref-1">[1]</span> [Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic Consequences of Chronic Glutamate Receptor Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)
+- <span id="pm-ref-2">[2]</span> [Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)
+- <span id="pm-ref-3">[3]</span> [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)

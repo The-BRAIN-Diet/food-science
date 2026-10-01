@@ -119,10 +119,10 @@ export const PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE = "Primary Biological Effe
 
 export const PHENOME_CONNECTIONS_SECTION_TITLE = "Phenome Connections";
 
-/** PM §3 — translational phenome mappings. */
+/** PM §7 — translational phenome mappings. */
 export const PM_PHENOME_SECTION_TITLE = PHENOME_CONNECTIONS_SECTION_TITLE;
 
-/** FM §3 — concise integrated outcome context (not a PM roll-up graph). */
+/** FM §7 — concise integrated outcome context (not a PM roll-up graph). */
 export const FM_PHENOME_CONNECTIONS_SECTION_TITLE = PHENOME_CONNECTIONS_SECTION_TITLE;
 
 /** @deprecated Use FM_PHENOME_CONNECTIONS_SECTION_TITLE */
@@ -181,7 +181,7 @@ function rankConfidence(value) {
 function extractFmOutcomeContextSection(content) {
   const fmTitle = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
   const fmHeading = new RegExp(
-    `^##\\s+3\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    `^##\\s+7\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
     "m",
   );
   const match = content.match(fmHeading);
@@ -607,7 +607,7 @@ export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
   return lines.join("\n").trimEnd();
 }
 
-export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3, findingData = null } = {}) {
+export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 7, findingData = null } = {}) {
   const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, "", PHENOME_SCORING_KEY_MARKUP];
   if (!relationships.length) {
     lines.push(PHENOME_EMPTY_MESSAGE);
@@ -624,7 +624,7 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3,
     const target = rel.target_phenome;
     const type = rel.relationship_type;
     const rationaleText = refKeyIndex
-      ? expandPmCitationMarkers(rel.rationale, refKeyIndex)
+      ? expandPmCitationMarkers(rel.rationale, refKeyIndex, findingData.references || [])
       : String(rel.rationale || "").trim();
     const panelLines = [
       ...renderRelationshipRatingLines(rel, rel.references || []),
@@ -653,7 +653,7 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3,
   return lines.join("\n").trimEnd();
 }
 
-export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 3 } = {}) {
+export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 7 } = {}) {
   const lines = [
     `## ${sectionNum}. ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`,
     "",
@@ -691,7 +691,7 @@ export function renderFmPhenomeSectionBody(outcomes = []) {
 
 export function validatePhenomeSectionBody(content, issues, { entityLabel, kind }) {
   if (kind === "pm") {
-    // Phenome Connections is §5 in the canonical PM order and §3 in the legacy one.
+    // Phenome Connections is §7 on PM pages.
     const { phenome: sectionNum, layout } = pmSectionNumbers(content);
     const heading = new RegExp(
       `^##\\s+${sectionNum}\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
@@ -714,25 +714,21 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
   }
 
   if (kind === "sm") {
-    const usesPmCanonicalOrder = /^##\s+4\.\s+Levers\s*$/m.test(content);
-    const phenomeLevel = usesPmCanonicalOrder ? 3 : 2;
     const heading = new RegExp(
-      `^##\\s+${phenomeLevel}\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      `^##\\s+7\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
       "m",
     );
     if (!heading.test(content)) {
       issues.push({
         code: "missing_phenome_section",
-        message: `${entityLabel}: published body must include "## ${phenomeLevel}. ${PM_PHENOME_SECTION_TITLE}"${
-          usesPmCanonicalOrder ? " after Primary Biological Effects" : " after Definition"
-        }`,
+        message: `${entityLabel}: published body must include "## 7. ${PM_PHENOME_SECTION_TITLE}"`,
       });
       return;
     }
     if (!content.includes(PHENOME_DISCLAIMER)) {
       issues.push({
         code: "missing_phenome_disclaimer",
-        message: `${entityLabel}: §${phenomeLevel} must include the canonical phenome disclaimer`,
+        message: `${entityLabel}: §7 must include the canonical phenome disclaimer`,
       });
     }
     return;
@@ -740,20 +736,20 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
 
   const fmTitle = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
   const fmHeading = new RegExp(
-    `^##\\s+3\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    `^##\\s+7\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
     "m",
   );
   if (!fmHeading.test(content)) {
     issues.push({
       code: "missing_fm_outcome_context_section",
-      message: `${entityLabel}: published body must include "## 3. ${fmTitle}" after Primary Biological Effects`,
+      message: `${entityLabel}: published body must include "## 7. ${fmTitle}"`,
     });
     return;
   }
   if (!content.includes(FM_OUTCOME_CONTEXT_DISCLAIMER)) {
     issues.push({
       code: "missing_fm_outcome_context_disclaimer",
-      message: `${entityLabel}: §3 must include the FM phenome connections disclaimer`,
+      message: `${entityLabel}: §7 must include the FM phenome connections disclaimer`,
     });
   }
   const fmSection = extractFmOutcomeContextSection(content);
@@ -765,25 +761,25 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
   ) {
     issues.push({
       code: "fm_outcome_context_dropdowns",
-      message: `${entityLabel}: FM §3 outcomes must use hub collapsible dropdowns (see renderFmOutcomeContextSectionBody)`,
+      message: `${entityLabel}: FM §7 outcomes must use hub collapsible dropdowns (see renderFmOutcomeContextSectionBody)`,
     });
   }
   if (fmSection && /^###\s+/m.test(fmSection)) {
     issues.push({
       code: "fm_outcome_context_heading_blocks",
-      message: `${entityLabel}: FM §3 must not use ### outcome headings — use hub collapsible dropdowns`,
+      message: `${entityLabel}: FM §7 must not use ### outcome headings — use hub collapsible dropdowns`,
     });
   }
   if (/\|\s*Phenome\s*\|\s*Connected PMs\s*\|/m.test(content)) {
     issues.push({
       code: "fm_phenome_rollup_table",
-      message: `${entityLabel}: FM §3 must not include PM phenome roll-up tables`,
+      message: `${entityLabel}: FM §7 must not include PM phenome roll-up tables`,
     });
   }
   if (/contributing PMs/i.test(content)) {
     issues.push({
       code: "fm_phenome_pm_list",
-      message: `${entityLabel}: FM §3 must not list contributing child PMs`,
+      message: `${entityLabel}: FM §7 must not list contributing child PMs`,
     });
   }
 }

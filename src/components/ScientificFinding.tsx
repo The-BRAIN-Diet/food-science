@@ -29,15 +29,24 @@ export type EvidenceConsideredItem = {
   directional_finding: string
   evidence_source: EvidenceSource
   assessment?: IndividualStudyAssessment
+  canonical_reference?: CanonicalReference
 }
 
 export type ConnectedSupportiveItem = {
   label: string
   href?: string
+  citation_key?: string
   data_level?: string
   exposure_context?: string
   why_relevant: string
   why_excluded: string
+  canonical_reference?: CanonicalReference
+}
+
+type CanonicalReference = {
+  author_year: string
+  number: number
+  anchor: string
 }
 
 export type ScientificFindingData = {
@@ -56,6 +65,58 @@ export type ScientificFindingData = {
   informs?: Array<{phenome: string; href?: string}>
 }
 
+const CITE_MARKER_RE = /\{\{cite:([^}]+)\}\}/g
+
+function findingCiteIndex(finding: ScientificFindingData) {
+  const index = new Map<string, CanonicalReference>()
+  for (const item of [
+    ...(finding.evidence_considered || []),
+    ...(finding.connected_supportive_evidence || []),
+  ]) {
+    if (item.citation_key && item.canonical_reference) {
+      index.set(item.citation_key, item.canonical_reference)
+    }
+  }
+  return index
+}
+
+function renderTextWithPmCites(
+  text: string,
+  finding: ScientificFindingData,
+): React.ReactNode {
+  const index = findingCiteIndex(finding)
+  const nodes: React.ReactNode[] = []
+  let lastIndex = 0
+  let key = 0
+  const re = new RegExp(CITE_MARKER_RE.source, "g")
+  for (const match of text.matchAll(re)) {
+    const start = match.index ?? 0
+    if (start > lastIndex) nodes.push(text.slice(lastIndex, start))
+    const seen = new Set<number>()
+    const records = match[1]
+      .split(",")
+      .map((item) => item.trim())
+      .map((citationKey) => index.get(citationKey))
+      .filter((record): record is CanonicalReference => Boolean(record))
+      .filter((record) => !seen.has(record.number) && seen.add(record.number))
+      .sort((a, b) => a.number - b.number)
+    if (records.length) {
+      nodes.push(" ")
+      records.forEach((record, i) => {
+        if (i) nodes.push("; ")
+        nodes.push(
+          <span key={`cite-${key++}`}>
+            {record.author_year} <a href={record.anchor}>[{record.number}]</a>
+          </span>,
+        )
+      })
+    }
+    lastIndex = start + match[0].length
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex))
+  return nodes.length ? nodes : text
+}
+
 const EVIDENCE_SOURCE_LABELS: Record<string, string> = {
   "repository-inherited": "Inherited repository evidence",
   "bounded-external-search": "Bounded external search",
@@ -72,17 +133,24 @@ function readerTitle(finding: ScientificFindingData): string {
 function Citation({
   label,
   href,
+  canonicalReference,
   dataLevel,
   exposureContext,
 }: {
   label: string
   href?: string
+  canonicalReference?: CanonicalReference
   dataLevel?: string
   exposureContext?: string
 }): React.JSX.Element {
   return (
     <>
-      {href ? (
+      {canonicalReference ? (
+        <>
+          <span>{canonicalReference.author_year}</span>{" "}
+          <a href={canonicalReference.anchor}>[{canonicalReference.number}]</a>
+        </>
+      ) : href ? (
         <a href={href} target="_blank" rel="noopener noreferrer">
           {label}
         </a>
@@ -95,6 +163,16 @@ function Citation({
       ) : null}
     </>
   )
+}
+
+function CitationNumber({
+  reference,
+  fallback,
+}: {
+  reference?: CanonicalReference
+  fallback: React.JSX.Element
+}): React.JSX.Element {
+  return reference ? <a href={reference.anchor}>[{reference.number}]</a> : fallback
 }
 
 function Assessment({
@@ -186,7 +264,9 @@ export default function ScientificFinding({
             <strong>{title}</strong>
           </button>
           <div className="brs-fm-hub-panel" hidden>
-            {summary ? <p className="brain-sf-lead">{summary}</p> : null}
+            {summary ? (
+              <p className="brain-sf-lead">{renderTextWithPmCites(summary, finding)}</p>
+            ) : null}
 
             {interpretation ? (
               <div className="brain-sf-interpretation">
@@ -239,6 +319,7 @@ export default function ScientificFinding({
                     <Citation
                       label={item.label}
                       href={item.href}
+                      canonicalReference={item.canonical_reference}
                       dataLevel={item.data_level}
                       exposureContext={item.exposure_context}
                     />
@@ -250,7 +331,7 @@ export default function ScientificFinding({
                           className="brain-sf-isa-disclosure"
                           label={
                             <>
-                              <span className="brain-sf-evidence-label">{item.label}</span>
+                              <span className="brain-sf-evidence-label">{reference}</span>
                               <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
                             </>
                           }
@@ -258,14 +339,18 @@ export default function ScientificFinding({
                           <Assessment
                             assessment={item.assessment}
                             source={item.evidence_source}
-                            reference={reference}
+                            reference={
+                              <CitationNumber
+                                reference={item.canonical_reference}
+                                fallback={reference}
+                              />
+                            }
                           />
                         </HubDisclosure>
                       ) : (
                         <>
-                          <span className="brain-sf-evidence-label">{item.label}</span>
+                          <span className="brain-sf-evidence-label">{reference}</span>
                           <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
-                          <div className="brain-sf-evidence-ref">{reference}</div>
                         </>
                       )}
                     </li>
@@ -284,6 +369,7 @@ export default function ScientificFinding({
                         <Citation
                           label={item.label}
                           href={item.href}
+                          canonicalReference={item.canonical_reference}
                           dataLevel={item.data_level}
                           exposureContext={item.exposure_context}
                         />

@@ -23,6 +23,7 @@ tags:
   - Zinc
   - Sulforaphane
   - Vitamin K
+  - Kaempferol
 list_image: /img/foods/broccoli/broccoli_thumb.webp
 nutrition_per_100g:
   linoleic_g: 0.049
@@ -75,6 +76,19 @@ nutrition_supplementary_sources:
     source_note: >-
       Sulforaphane is formed from glucoraphanin in Broccoli after myrosinase
       action. Quantity depends on cultivar and preparation (Houghton 2016).
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Broccoli; a single defensible per-100 g value is not
+      taken from the abbreviated USDA nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
 ---
 ## Overview
 

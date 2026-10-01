@@ -40,12 +40,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation">BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation</a></li>
-    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation">BRS2-FM1-PM2 — Betaine/BHMT Remethylation</a></li>
-    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis">BRS2-FM1-PM3 — SAMe Synthesis</a></li>
-    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux">BRS2-FM1-PM4 — Methionine Cycle Flux</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -55,10 +49,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway">BRS2-FM2-PM5 — Transsulfuration Pathway</a></li>
-    <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis">BRS2-FM2-PM6 — Glutathione Synthesis</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -68,9 +58,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation">BRS2-FM3-PM7 — Phosphatidylcholine Formation</a></li>
-  </ul>
 </li>
 </ul>
 </div>
@@ -360,7 +347,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 </div>
 </div>
 </div>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation" data-brs-sop-populated="true">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -368,7 +355,11 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 </button>
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions — populated from KC Emerging Biological Supports when present.</p>
-<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider SAMe-directed supplementation under selected conditions</strong> Supplemental S-adenosylmethionine (SAMe) delivers the downstream methyl donor directly and can raise circulating SAM exposure. Remains emerging: Human studies show higher plasma SAM, but often also higher SAH, and do not establish improved intracellular SAM:SAH balance, tissue-specific methylation flux or broad functional benefit.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool#same-directed-supplementation" class="brs-hub-lever-pm">KC1 — Evidence base — SAMe-directed supplementation</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider Creatine supplementation as a methyl-demand modifier under selected conditions</strong> Endogenous creatine synthesis methylates guanidinoacetate using SAM. Remains emerging: The demand-reduction action is supported, but whether it improves methyl-resource availability for other pathways or produces a functional benefit through methyl sparing remains unresolved.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool#creatine-methyl-demand-reduction" class="brs-hub-lever-pm">KC1 — Evidence base — Creatine supplementation as a methyl-demand modifier</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider Riboflavin for MTHFR 677TT-linked capacity under selected conditions</strong> MTHFR requires flavin adenine dinucleotide derived from riboflavin. Remains emerging: The evidence is restricted to a small 677TT subgroup and a circulating biomarker.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool#riboflavin-mthfr-677tt" class="brs-hub-lever-pm">KC1 — Evidence base — Riboflavin for MTHFR 677TT-linked capacity</a></span></p></li>
+</ul>
 </div>
 </div>
 </div>
@@ -379,7 +370,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>

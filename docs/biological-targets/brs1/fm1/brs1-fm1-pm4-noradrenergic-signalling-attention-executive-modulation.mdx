@@ -4,23 +4,153 @@ pm_id: BRS1-FM1-PM4
 mission: Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Covers how noradrenaline (norepinephrine, the brain''s principal arousal and vigilance signal) modulates attention, alertness, and executive function once its amino-acid precursor has crossed into the brain. This pathway sits downstream of precursor availability and transport, translating biochemical supply into functional signalling capacity rather than governing meal-level protein or barrier competition. Stable noradrenergic tone helps sustain task engagement, appropriate arousal, and vigilance across changing cognitive demand throughout the day.'
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
+summary: 'Noradrenaline (norepinephrine) helps regulate arousal, vigilance and executive control. Neurons form it from dopamine through dopamine β-hydroxylase, after the shared tyrosine-to-dopamine synthesis steps, and then use release, receptor signalling, reuptake and metabolism to shape its effects. Their coordination helps tune signalling across changing cognitive demand. This mechanism therefore begins after precursor supply and blood–brain transport and concerns regulated noradrenergic signalling rather than meal-level amino-acid availability.'
 cofactors:
-  - B6
-  - iron
-  - vitamin C
+  - Iron
+  - Pyridoxal-5′-phosphate (PLP)
+  - Copper
+  - Vitamin C (ascorbate)
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
 dose_sensitivity: Pattern-based; adequate protein plus cofactor sufficiency
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+scientific_findings_intro: Noradrenaline (also called norepinephrine) is the brain’s main arousal and vigilance signal. The findings below separate that signalling role from shared tyrosine-to-dopamine synthesis steps and from the later dopamine β-hydroxylase conversion to noradrenaline. They establish biological relevance and important limits; they do not show that changing diet raises brain noradrenaline or improves attention or ADHD.
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    input: Iron
+    input_type: cofactor
+    biological_role: Cofactor required by tyrosine hydroxylase during catecholamine synthesis upstream of noradrenaline
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - beard_iron_2003
+    evidence_limitation: Human intake-to-noradrenaline responsiveness and clinical benefit were not established; the cited dopamine-metabolite and developmental evidence is not a noradrenaline-dosing trial.
+  - atom_id: PM4-DIT-2
+    input: Pyridoxal-5′-phosphate (PLP)
+    input_type: cofactor
+    biological_role: 'Cofactor for aromatic L-amino-acid decarboxylase conversion of L-DOPA toward dopamine, the immediate precursor of noradrenaline'
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - kennedy_b_2016
+    evidence_limitation: Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not establish dietary PLP provision or an intake-to-noradrenaline response in humans.
+  - atom_id: PM4-DIT-3
+    input: Vitamin B6
+    input_type: cofactor precursor
+    biological_role: Provides dietary B6 vitamers that are converted to PLP
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - kennedy_b_2016
+        - spector_vitamin_1978
+    evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis.'
+  - atom_id: PM4-DIT-4
+    input: Copper
+    input_type: cofactor
+    biological_role: Required metal cofactor of dopamine β-hydroxylase in the conversion of dopamine to noradrenaline
+    evidence_source:
+      finding_ids:
+        - PM4-F4
+      citation_keys:
+        - goldstein_catecholamine_2026
+        - vendelboe_dbh_2016
+        - scheiber_metabolism_2014
+        - lutsenko_copper_2019
+    evidence_limitation: Copper is required by the enzyme. Genetic copper-trafficking disease and animal deficiency models are not evidence that extra dietary copper raises brain noradrenaline when copper status is adequate.
+  - atom_id: PM4-DIT-5
+    input: Vitamin C (ascorbate)
+    input_type: cofactor
+    biological_role: Electron donor that keeps the copper sites of dopamine β-hydroxylase reduced so dopamine can be hydroxylated to noradrenaline
+    evidence_source:
+      finding_ids:
+        - PM4-F4
+      citation_keys:
+        - goldstein_catecholamine_2026
+        - vendelboe_dbh_2016
+        - harrison_vitamin_2009
+    evidence_limitation: Ascorbate is required in the reaction. That does not show that ordinary dietary vitamin C increases human brain noradrenaline or improves attention when vitamin C status is adequate.
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Iron is a Direct cofactor requirement for tyrosine hydroxylase. This does not establish that additional iron increases brain noradrenaline when iron status is adequate.
+    evidence_limitation: Human intake-to-noradrenaline responsiveness and clinical benefit were not established; the cited dopamine-metabolite and developmental evidence is not a noradrenaline-dosing trial.
+  - atom_id: PM4-DIT-2
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: PLP is the Direct cofactor requirement for aromatic L-amino-acid decarboxylase on the catecholamine path to noradrenaline. This does not establish dietary PLP provision.
+    evidence_limitation: Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not establish dietary PLP provision or an intake-to-noradrenaline response in humans.
+  - atom_id: PM4-DIT-3
+    requirement_classification: derived
+    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target_atom_id: PM4-DIT-2
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP. This does not establish that increasing B6 intake increases noradrenaline synthesis or improves attention.
+    evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain noradrenaline synthesis.'
+  - atom_id: PM4-DIT-4
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Copper is a Direct cofactor requirement of dopamine β-hydroxylase. This does not establish that additional copper increases brain noradrenaline when copper status is adequate.
+    evidence_limitation: Copper is required by the enzyme. Genetic copper-trafficking disease and animal deficiency models are not evidence that extra dietary copper raises brain noradrenaline when copper status is adequate.
+  - atom_id: PM4-DIT-5
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin C (ascorbate) is a Direct cofactor requirement of dopamine β-hydroxylase as the electron donor. This does not establish that additional vitamin C increases brain noradrenaline or improves attention when vitamin C status is adequate.
+    evidence_limitation: Ascorbate is required in the reaction. That does not show that ordinary dietary vitamin C increases human brain noradrenaline or improves attention when vitamin C status is adequate.
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: Iron
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-2
+    label: Pyridoxal-5′-phosphate (PLP)
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-3
+    label: Vitamin B6
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-4
+    label: Copper
+    presentation_section: 3.1.1
+    reader_description: Copper is the metal that dopamine β-hydroxylase needs in order to convert dopamine into noradrenaline. Brain copper is tightly controlled and is not the same as a serum copper reading.
+    description_finding_id: PM4-F4
+  - atom_id: PM4-DIT-5
+    label: Vitamin C (ascorbate)
+    presentation_section: 3.1.1
+    reader_description: Vitamin C (ascorbate) donates electrons that keep the copper sites of dopamine β-hydroxylase in the reduced form needed for that conversion. Humans must obtain vitamin C from the diet; that is not a rule to take extra vitamin C to raise noradrenaline.
+    description_finding_id: PM4-F4
+  - atom_id: PM4-DIT-1
+    label: Iron
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-2
+    label: Pyridoxal-5′-phosphate (PLP)
+    presentation_section: 3.1.2
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: high
     evidence_level: mechanistic
-    rationale: 'Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.'
+    rationale: 'Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged {{cite:odonnell_norepinephrine_2012}}. That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect {{cite:macdonald_dopamine_2024}}.'
+    scientific_findings:
+      - PM4-F1
+      - PM4-F3
     references:
       - index: 1
         label: O'Donnell et al. (2012)
@@ -42,7 +172,11 @@ phenome_relationships:
     relationship_type: modulates
     confidence: medium
     evidence_level: mechanistic
-    rationale: 'Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.'
+    rationale: 'Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.'
+    scientific_findings:
+      - PM4-F1
+      - PM4-F2
+      - PM4-F4
     references:
       - index: 1
         label: MacDonald et al. (2024)
@@ -64,7 +198,9 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.
+    rationale: 'Catecholamine systems can sit near reward and incentive-motivation biology, but the attached insulin–dopamine review does not measure noradrenaline signalling or a pleasure outcome after diet {{cite:gruber_impact_2023}}. Dopamine-process heterogeneity in ADHD is not a pleasure-capacity finding for this mechanism {{cite:macdonald_dopamine_2024}}.'
+    scientific_findings:
+      - PM4-F1
     references:
       - index: 1
         label: MacDonald et al. (2024)
@@ -77,6 +213,210 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#gruber_impact_2023
         data_level: Mechanistic
     evidence_confidence: low
+candidate_cross_brs_relationships:
+  - target_brs: BRS2
+    relationship_scope: One-carbon metabolism and SAM-dependent COMT activity against catecholamines
+    status: constrained-dependency
+scientific_findings:
+  - id: PM4-F1
+    finding_label: 'Noradrenaline supports arousal, vigilance and executive control'
+    finding_summary: 'Noradrenaline (norepinephrine) is a neuromodulator that changes how many brain-cell types respond, helping set arousal and vigilance so attention and executive control can stay engaged. That is a signalling role, not a dietary dosing rule.'
+    finding_interpretation: This supports the mechanism’s attention and arousal mission. It does not show that changing food intake raises brain noradrenaline or treats ADHD.
+    fm_rollup: true
+    finding_statement: 'Noradrenaline modulates arousal, vigilance and executive-control processes by changing the gain of multiple central-nervous-system cell types rather than acting as a single directional attention chemical.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The attached review treats norepinephrine as a widespread neuromodulator that optimises central-nervous-system performance by acting on several cell types. That account matches the mission of supporting alertness and executive control. It does not measure dietary intake, brain noradrenaline after meals, or a clinical attention outcome.'
+    synthesis_limitations: 'The source is a mechanistic review, not a human dietary or ADHD trial. It does not isolate receptor subtypes, quantify everyday noradrenaline tone, or show that precursor or cofactor intake changes signalling.'
+    evidence_considered:
+      - label: O'Donnell et al. (2012)
+        citation_key: odonnell_norepinephrine_2012
+        href: /docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Norepinephrine acts as a neuromodulator across multiple central-nervous-system cell types to support optimised performance, including arousal and vigilance-related functions.'
+        assessment:
+          study: Narrative review of norepinephrine as a multi-cell-type neuromodulator.
+          population: Mixed experimental and human mechanistic literature; not a dietary intervention sample.
+          result: Identified norepinephrine as a gain-setting neuromodulator rather than a single-target attention chemical.
+          effect_magnitude: No pooled functional or dietary effect estimate.
+          evidence_summary: Establishes the signalling role this mechanism represents.
+          limitations: Review synthesis; does not demonstrate dietary modification or a clinical attention benefit.
+    presentation: mechanistic-basis
+  - id: PM4-F2
+    finding_label: Noradrenaline formation shares catecholamine synthesis requirements
+    finding_summary: 'Noradrenaline is formed from dopamine on the tyrosine-derived catecholamine path. Iron supports tyrosine hydroxylase, and pyridoxal-5′-phosphate (PLP; the active form of vitamin B6) supports decarboxylation toward dopamine. These shared steps are biological requirements, not proof that extra iron or B6 raises brain noradrenaline.'
+    finding_interpretation: 'Tyrosine remains the pathway starting material. Circulating amino-acid supply, competitive brain entry and dopamine formation are earlier steps. The later conversion of dopamine to noradrenaline is assessed in the dopamine β-hydroxylase finding.'
+    fm_rollup: true
+    finding_statement: 'Noradrenaline formation depends on the shared tyrosine-to-dopamine catecholamine sequence, including iron- and PLP-dependent enzyme steps; cofactor or substrate necessity is not evidence of intake-responsive human brain noradrenaline.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Iron-deficiency review evidence identifies iron as required for tyrosine hydroxylase, the rate-limiting step from tyrosine toward dopamine and then noradrenaline. B-vitamin review evidence places PLP in neurochemical decarboxylation, and a transport study shows that B6 vitamers can enter the central nervous system. Together they support shared pathway dependence. They do not show ordinary-diet control of human brain noradrenaline. The later dopamine β-hydroxylase step is assessed separately.'
+    synthesis_limitations: 'The most direct deficiency discussion is preclinical or developmental. The sources do not establish common inadequacy in a defined clinical population, responsiveness when status is already adequate, or an attention benefit mediated by noradrenaline.'
+    evidence_considered:
+      - label: Beard et al. (2003)
+        citation_key: beard_iron_2003
+        href: /docs/papers/BRAIN-Diet-References#beard_iron_2003
+        data_level: Animal Data
+        exposure_context: dietary iron deficiency
+        evidence_source: repository-inherited
+        directional_finding: 'Iron deficiency alters developing-brain catecholamine biology, including tyrosine-hydroxylase-dependent synthesis toward dopamine and noradrenaline.'
+        assessment:
+          study: 'Narrative review of iron deficiency, brain development and neurotransmitter systems.'
+          population: Mixed human developmental and experimental-animal literature.
+          result: Identified iron as required for tyrosine hydroxylase and described catecholamine-system sensitivity under deficiency.
+          effect_magnitude: No human intake-to-noradrenaline effect estimate.
+          evidence_summary: Supports iron as a shared catecholamine-synthesis cofactor relevant to noradrenaline formation.
+          limitations: Predominantly deficiency and developmental evidence; not a human noradrenaline-dosing or attention trial.
+    evidence_dependency:
+      - The later dopamine-to-noradrenaline conversion is assessed in PM4-F4 rather than restated here.
+    connected_supportive_evidence:
+      - label: Kennedy (2016)
+        citation_key: kennedy_b_2016
+        href: /docs/papers/BRAIN-Diet-References#kennedy_b_2016
+        data_level: Mechanistic
+        why_relevant: 'Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as cofactor context for catecholamine formation.'
+        why_excluded: General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-noradrenaline response.
+      - label: Spector (1978)
+        citation_key: spector_vitamin_1978
+        href: /docs/papers/BRAIN-Diet-References#spector_vitamin_1978
+        data_level: Animal Data
+        why_relevant: Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.
+        why_excluded: 'Rabbit transport study; it does not measure noradrenaline synthesis, release or function.'
+    presentation: mechanistic-basis
+  - id: PM4-F4
+    finding_label: Dopamine β-hydroxylase converts dopamine to noradrenaline using copper and ascorbate
+    finding_summary: 'Dopamine β-hydroxylase hydroxylates dopamine to noradrenaline inside vesicles. The enzyme needs copper at its active sites and ascorbate as the electron donor that keeps that copper reduced. These are reaction requirements, not proof that extra dietary copper or vitamin C raises brain noradrenaline.'
+    finding_interpretation: This finding identifies copper and vitamin C (ascorbate) as candidates for dietary assessment. It does not admit an intake-responsive noradrenaline lever or an attention benefit.
+    fm_rollup: true
+    finding_statement: Conversion of dopamine to noradrenaline by dopamine β-hydroxylase requires enzyme-bound copper and ascorbate as the electron donor; those biochemical requirements are not evidence of intake-responsive human brain noradrenaline or a functional benefit.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A 2026 catecholamine review identifies dopamine β-hydroxylase as a copper-dependent monooxygenase that uses molecular oxygen and ascorbate to form noradrenaline, and states that this is the only catecholamine-synthesis step with a direct mechanistic ascorbate requirement. The human crystal structure shows two copper ions per subunit and two ascorbate-derived electrons per turnover. Brain-copper and brain-ascorbate reviews place the same cuproenzyme and reductant in central-nervous-system catecholamine chemistry, while noting that circulating copper is not brain copper. Together they establish the defining conversion and its participants. Genetic copper-trafficking disease, animal copper deficiency and high-dose intravenous vitamin C in septic shock are not ordinary-diet evidence.'
+    synthesis_limitations: 'The synthesis is mechanistic and review-level. It does not show that ordinary dietary copper or vitamin C changes human brain noradrenaline, attention or ADHD when status is already adequate.'
+    evidence_considered:
+      - label: Goldstein and Eisenhofer (2026)
+        citation_key: goldstein_catecholamine_2026
+        href: /docs/papers/BRAIN-Diet-References#goldstein_catecholamine_2026
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Dopamine β-hydroxylase converts dopamine to noradrenaline and requires copper, molecular oxygen and ascorbate as the electron donor that keeps active-site copper reduced.'
+        assessment:
+          study: 'Integrative review of catecholamine synthesis, storage, release, reuptake and metabolism.'
+          population: 'Mixed human physiological, clinical-pathophysiological and experimental literature; not a dietary trial sample.'
+          result: Identified copper and ascorbate as required participants in the dopamine-to-noradrenaline step and noted that this is the only catecholamine step with a direct ascorbate requirement.
+          effect_magnitude: No dietary or functional effect estimate.
+          evidence_summary: Establishes the defining conversion and its cofactor chemistry.
+          limitations: Review synthesis; disease and kinetic examples are not ordinary-diet interventions.
+      - label: Vendelboe et al. (2016)
+        citation_key: vendelboe_dbh_2016
+        href: /docs/papers/BRAIN-Diet-References#vendelboe_dbh_2016
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Human dopamine β-hydroxylase requires two copper ions per subunit and two ascorbate-derived electrons for hydroxylation of dopamine.
+        assessment:
+          study: Crystal structure of human dopamine β-hydroxylase at 2.9 Å.
+          population: Structural biochemistry; not a human dietary sample.
+          result: Confirmed two type-2 copper sites per subunit and ascorbate dependence of the monooxygenase class.
+          effect_magnitude: 'Structural, not a dose-response estimate.'
+          evidence_summary: Independently supports copper and ascorbate as reaction participants.
+          limitations: 'Isolated-protein structure; does not measure diet, brain noradrenaline or function.'
+    connected_supportive_evidence:
+      - label: 'Scheiber, Mercer and Dringen (2014)'
+        citation_key: scheiber_metabolism_2014
+        href: /docs/papers/BRAIN-Diet-References#scheiber_metabolism_2014
+        data_level: Mechanistic
+        why_relevant: 'Reviews copper functions in brain, including dopamine β-hydroxylase, and distinguishes tightly regulated brain copper from circulating measures.'
+        why_excluded: Brain-copper review; it does not isolate a dietary copper-to-noradrenaline trial.
+      - label: Lutsenko et al. (2019)
+        citation_key: lutsenko_copper_2019
+        href: /docs/papers/BRAIN-Diet-References#lutsenko_copper_2019
+        data_level: Mixed
+        why_relevant: 'Reviews copper and the brain noradrenergic system, including Menkes copper-trafficking disease and animal dietary-deficiency effects on catecholamines.'
+        why_excluded: Disease and animal-deficiency evidence; not ordinary-diet modulation in copper-replete humans.
+      - label: Harrison and May (2009)
+        citation_key: harrison_vitamin_2009
+        href: /docs/papers/BRAIN-Diet-References#harrison_vitamin_2009
+        data_level: Mechanistic
+        why_relevant: 'Reviews high brain ascorbate and SVCT2 transport, including a role as reductant for dopamine β-hydroxylase.'
+        why_excluded: Transport and compartmentation review; it does not show that extra dietary vitamin C raises human brain noradrenaline.
+    presentation: mechanistic-basis
+  - id: PM4-F3
+    finding_label: Attention relevance is not a dietary or ADHD-treatment finding
+    finding_summary: 'The attached sources support noradrenaline as attention-relevant biology. They do not show that meals, iron or B6 change human noradrenaline signalling, and they do not show a uniform ADHD lesion that diet can correct.'
+    finding_interpretation: Keep biological relevance separate from dietary modulation and from dopamine-process findings that are not noradrenaline measurements.
+    finding_statement: Repository evidence supports a translational relationship from noradrenergic signalling to Focus / Attention Stability without establishing dietary modification of noradrenaline or an ADHD treatment effect.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: O’Donnell supplies the neuromodulatory attention and arousal account. MacDonald shows that ADHD-related catecholamine findings vary by process and method and cannot be restated as a single deficit. Fernstrom describes meal-level precursor transport upstream of signalling. Together they support a biology-to-attention mapping while blocking a food-as-noradrenaline-treatment reading.
+    synthesis_limitations: No attached study measures attention after a dietary change aimed at noradrenaline. Plasma amino-acid ratios and dopamine-process reviews are not noradrenaline signalling.
+    evidence_considered:
+      - label: O'Donnell et al. (2012)
+        citation_key: odonnell_norepinephrine_2012
+        href: /docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Norepinephrine neuromodulation is relevant to central-nervous-system performance including arousal and vigilance, without testing diet or ADHD treatment.'
+        assessment:
+          study: 'Same mechanistic review used for PM4-F1, reused here for the attention-relationship proposition.'
+          population: Mixed mechanistic literature; not a dietary or ADHD-outcome sample.
+          result: Supports attention-relevant signalling biology without a treatment or intake effect.
+          effect_magnitude: No clinical or dietary effect estimate.
+          evidence_summary: Anchors the Phenome mapping in signalling biology.
+          limitations: Review; no dietary or ADHD endpoint.
+      - label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mixed
+        evidence_source: repository-inherited
+        directional_finding: 'ADHD-related dopamine findings are heterogeneous across process, region and method and do not support a uniform global deficit that can be treated as a noradrenaline-diet claim.'
+        assessment:
+          study: Critical review of the dopamine hypothesis in ADHD.
+          population: 'Children and adults with ADHD, comparison groups and relevant animal models.'
+          result: Reported mixed dopamine-related findings rather than one directional lesion.
+          effect_magnitude: No pooled noradrenaline or dietary effect estimate.
+          evidence_summary: Constrains ADHD wording attached to this Phenome relationship.
+          limitations: Dopamine-focused; not a noradrenaline dietary trial.
+    connected_supportive_evidence:
+      - label: Fernstrom (2013)
+        citation_key: fernstrom_lnna_2013
+        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        data_level: Mechanistic
+        why_relevant: Describes meal-level large-neutral-amino-acid transport that can change tyrosine presentation before catecholamine synthesis.
+        why_excluded: Transport and plasma-ratio biology; it does not measure noradrenaline signalling or attention.
+    evidence_dependency:
+      - 'O''Donnell et al. (2012) is also primary evidence in PM4-F1. Reuse here answers the Phenome-relationship proposition, not an independent replication of the signalling review.'
+      - 'Fernstrom (2013) is connected evidence here and primary evidence in PM4-IC1. That is one transport review used for two propositions, not two independent studies.'
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+  - id: PM4-IC1
+    finding_label: Precursor transport and dopamine-process measures are not noradrenaline signalling
+    finding_summary: 'Plasma amino-acid ratios, dopamine-process imaging and insulin–dopamine reviews can sit next to this mechanism. They do not measure noradrenaline release, receptor signalling or an attention outcome of changing diet.'
+    finding_interpretation: Use these sources to keep measurements distinct. Do not promote them as headline noradrenaline Findings.
+    finding_statement: 'LAT1-related precursor presentation, heterogeneous dopamine-process measures and insulin–dopamine reward reviews are not interchangeable with noradrenergic signalling.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Fernstrom addresses competitive precursor transport. MacDonald addresses dopamine processes in ADHD. Gruber reviews insulin and dopamine in reward disruption. Each is useful as a boundary on how other evidence is read. None establishes noradrenaline signalling change or a dietary attention effect.
+    synthesis_limitations: Interpretive only. These sources do not fill the missing human dietary-to-noradrenaline measurement.
+    evidence_dependency:
+      - 'Fernstrom (2013) is also connected evidence in PM4-F3. Reuse here constrains measurement identity, not a second transport experiment.'
+    evidence_considered:
+      - label: Fernstrom (2013)
+        citation_key: fernstrom_lnna_2013
+        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Dietary and plasma large-neutral-amino-acid ratios influence brain precursor presentation; that is transport biology, not measured noradrenaline signalling.'
+        assessment:
+          study: Narrative review of dietary large-neutral-amino-acid effects on brain transport and neurochemistry.
+          population: Mixed human and experimental literature.
+          result: Identified competitive transport as a determinant of precursor entry.
+          effect_magnitude: No noradrenaline or attention effect estimate.
+          evidence_summary: Constrains reading meal-amino-acid evidence as noradrenaline signalling.
+          limitations: Review; no noradrenaline endpoint.
+    connected_supportive_evidence:
+      - label: Gruber et al. (2023)
+        citation_key: gruber_impact_2023
+        href: /docs/papers/BRAIN-Diet-References#gruber_impact_2023
+        data_level: Mechanistic
+        why_relevant: 'Reviews insulin and dopamine in reward disruption, which is sometimes cited next to catecholamine supply.'
+        why_excluded: Insulin–dopamine framing; it does not measure noradrenaline or a pleasure outcome of diet on this mechanism.
+    presentation: interpretive-constraint
 references:
   - '[O''Donnell et al. (2012) — Norepinephrine](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)'
   - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
@@ -84,6 +424,86 @@ references:
   - '[MacDonald et al. (2024) — The Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)'
   - '[Santos et al. (2019) — Como o cérebro funciona?](/docs/papers/BRAIN-Diet-References#santos_como_2019)'
   - '[Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)'
+  - '[Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)'
+  - '[Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)'
+  - '[Goldstein and Eisenhofer (2026) — Catecholamine Metabolism Revisited](/docs/papers/BRAIN-Diet-References#goldstein_catecholamine_2026)'
+  - '[Vendelboe et al. (2016) — Human Dopamine β-Hydroxylase Structure](/docs/papers/BRAIN-Diet-References#vendelboe_dbh_2016)'
+  - '[Scheiber, Mercer and Dringen (2014) — Copper in Brain](/docs/papers/BRAIN-Diet-References#scheiber_metabolism_2014)'
+  - '[Lutsenko et al. (2019) — Copper and the Brain Noradrenergic System](/docs/papers/BRAIN-Diet-References#lutsenko_copper_2019)'
+  - '[Harrison and May (2009) — Vitamin C Function in the Brain](/docs/papers/BRAIN-Diet-References#harrison_vitamin_2009)'
+  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
+      this mechanism’s governed noradrenergic capacity.
+    disposition: unresolved
+    established_links:
+      - Tyrosine is the pathway starting material for noradrenaline formation (PM4-F2).
+      - DIAAS and related scores measure digestible IAA adequacy for protein quality (FAO 2013; Mariotti 2019).
+    inferred_links:
+      - Incomplete IAA quality would limit circulating tyrosine and thereby constrain noradrenergic signalling.
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - beard_iron_2003
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    rationale: >-
+      Assessment was completed. Quality-scoring evidence does not connect IAA-quality
+      inadequacy to noradrenergic capacity. Tyrosine is dispensable when phenylalanine
+      is adequate. The capacity-constraint link remains a material gap, not a negative
+      finding.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed noradrenergic capacity.
+    disposition: unresolved
+    established_links:
+      - LAT1 competition can change tyrosine presentation (PM4-IC1; Fernstrom 2013).
+      - Fernstrom 2013: ordinary protein-driven LNAA changes have minimal effects on tyrosine uptake and catecholamine synthesis.
+    inferred_links:
+      - The same competitive arm, under branched-chain amino-acid mixtures, would constrain noradrenaline synthesis.
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+        - PM4-IC1
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: >-
+      Assessment of ordinary protein-driven LNAA change is complete and does not
+      support a constraint on catecholamine synthesis. That exposure does not close
+      the whole competitive arm. Branched-chain amino-acid mixtures remain a
+      different exposure. The proposition is synthesis capacity, not alertness.
+      Public mapping is not published.
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: one-carbon-methyl-donor-pool
+    applicability_proposition: >-
+      Inadequacy of the shared methyl-donor pool can constrain this mechanism’s
+      governed noradrenergic capacity.
+    disposition: unresolved
+    established_links:
+      - Catecholamine inactivation can use COMT, which depends on SAM (PM4 §5.2).
+      - Kennedy 2016 treats B-vitamin one-carbon chemistry as relevant to brain methyl-group transfer.
+    inferred_links:
+      - Methyl-donor inadequacy would therefore constrain COMT-dependent noradrenaline metabolism.
+    evidence_source:
+      finding_ids:
+        - PM4-F2
+      citation_keys:
+        - kennedy_b_2016
+    rationale: >-
+      This existing KC was added after a mission-coverage scan. SAM use by COMT is
+      enzyme chemistry, not a demonstrated constraint on noradrenergic capacity.
+      The attached corpus does not show that ordinary methylation-cycle variation
+      controls noradrenaline signalling or attention. Not a negative finding.
 hide_title: true
 ---
 
@@ -99,24 +519,198 @@ hide_title: true
 
 (Attention & Executive Modulation)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.
 
+
+Dietary addressability remains unestablished at the PM level. Iron, PLP, copper and vitamin C (ascorbate) are Direct cofactor requirements; vitamin B6 is the Derived dietary route to PLP. None is a dose, timing rule or noradrenaline lever.
+
+**Intervention Dominance:** Diet-Supported
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Iron
+- Pyridoxal-5′-phosphate (PLP)
+- Vitamin B6
+- Copper
+- Vitamin C (ascorbate)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Iron
+- Pyridoxal-5′-phosphate (PLP)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Covers how noradrenaline (norepinephrine, the brain's principal arousal and vigilance signal) modulates attention, alertness, and executive function once its amino-acid precursor has crossed into the brain. This pathway sits downstream of precursor availability and transport, translating biochemical supply into functional signalling capacity rather than governing meal-level protein or barrier competition. Stable noradrenergic tone helps sustain task engagement, appropriate arousal, and vigilance across changing cognitive demand throughout the day.
+Noradrenaline (norepinephrine) helps regulate arousal, vigilance and executive control O'Donnell et al. (2012) [[1]](#pm-ref-1). Neurons form it from dopamine through dopamine β-hydroxylase, after the shared tyrosine-to-dopamine synthesis steps Goldstein and Eisenhofer (2026) [[9]](#pm-ref-9); Vendelboe et al. (2016) [[10]](#pm-ref-10), and then use release, receptor signalling, reuptake and metabolism to shape its effects. Their coordination helps tune signalling across changing cognitive demand. This mechanism therefore begins after precursor supply and blood–brain transport and concerns regulated noradrenergic signalling rather than meal-level amino-acid availability.
 
-* Translates precursor supply into attention, alertness, and executive-function signalling.
-* Operates downstream of amino-acid availability and blood–brain barrier transport.
-* Supports vigilance and task engagement across changing cognitive demand.
+* **Mechanism boundary:** Includes dopamine-to-noradrenaline conversion and subsequent signalling; circulating amino-acid supply, LAT1 transport and dopaminergic signalling are adjacent processes.
+* **Evidence boundary:** Cofactor requirements and catecholamine-pathway measurements establish reaction biology, not that ordinary intake changes human brain noradrenaline O'Donnell et al. (2012) [[1]](#pm-ref-1); Goldstein and Eisenhofer (2026) [[9]](#pm-ref-9).
+* **Biological relevance:** Noradrenergic signalling helps sustain vigilance and executive engagement, but this relevance does not establish a nutritional attention or ADHD treatment O'Donnell et al. (2012) [[1]](#pm-ref-1); MacDonald et al. (2024) [[4]](#pm-ref-4).
 
 ## 2. Primary Biological Effects
 ↑ norepinephrine signalling; ↑ attention; ↑ executive modulation
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Exercise is not a Dietary Requirement of noradrenergic signalling.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Noradrenergic signalling relevant to attention, arousal and executive control depends on the tyrosine-derived catecholamine path and on cofactor context described under [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function). Physical activity, sleep and stress can also shape catecholamine tone; those relationships are not established here as dietary requirements.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Norepinephrine signalling, precursors, and executive modulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Noradrenergic pathways and attention)
+
+Norepinephrine modulates attention, arousal, and executive processes frequently impaired in attention-related conditions. Alterations in noradrenergic signalling have been associated with differences in attention regulation and response inhibition → [O'Donnell et al., 2012]
+
+#### (Precursor and cofactor dependence)
+
+Noradrenaline is formed from dopamine on the tyrosine-derived catecholamine path. Circulating tyrosine comes from the amino-acid pool described by [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). Meal-level large-neutral-amino-acid transport is described by [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) and Fernstrom (2013) [[2]](#pm-ref-2). Iron is required by tyrosine hydroxylase, the rate-limiting step from tyrosine toward dopamine and then noradrenaline Beard et al. (2003) [[3]](#pm-ref-3). Dopamine β-hydroxylase then converts dopamine to noradrenaline and requires copper and ascorbate Goldstein and Eisenhofer (2026) [[9]](#pm-ref-9).
+
+#### (Diet-supported rather than diet-dominant)
+
+Meal-level substrate and cofactor supply sit beside physical activity, sleep and stress context. Those lifestyle relationships are not established here as dietary requirements.
+
+#### (Cross-system context)
+
+Catecholamine inactivation can involve COMT, which uses SAM from one-carbon metabolism. The attached corpus does not establish that methylation-cycle diet changes noradrenaline signalling. Glycaemic volatility can change arousal indirectly; that is not a noradrenaline dietary finding.
+
+Together this mechanism extends catecholamine coverage from dopamine formation to noradrenergic attention and executive modulation.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Noradrenaline (also called norepinephrine) is the brain’s main arousal and vigilance signal. The findings below separate that signalling role from shared tyrosine-to-dopamine synthesis steps and from the later dopamine β-hydroxylase conversion to noradrenaline. They establish biological relevance and important limits; they do not show that changing diet raises brain noradrenaline or improves attention or ADHD.
+
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"Noradrenaline supports arousal, vigilance and executive control","finding_summary":"Noradrenaline (norepinephrine) is a neuromodulator that changes how many brain-cell types respond, helping set arousal and vigilance so attention and executive control can stay engaged. That is a signalling role, not a dietary dosing rule.","finding_interpretation":"This supports the mechanism’s attention and arousal mission. It does not show that changing food intake raises brain noradrenaline or treats ADHD.","fm_rollup":true,"finding_statement":"Noradrenaline modulates arousal, vigilance and executive-control processes by changing the gain of multiple central-nervous-system cell types rather than acting as a single directional attention chemical.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The attached review treats norepinephrine as a widespread neuromodulator that optimises central-nervous-system performance by acting on several cell types. That account matches the mission of supporting alertness and executive control. It does not measure dietary intake, brain noradrenaline after meals, or a clinical attention outcome.","synthesis_limitations":"The source is a mechanistic review, not a human dietary or ADHD trial. It does not isolate receptor subtypes, quantify everyday noradrenaline tone, or show that precursor or cofactor intake changes signalling.","evidence_considered":[{"label":"O'Donnell et al. (2012)","citation_key":"odonnell_norepinephrine_2012","href":"/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Norepinephrine acts as a neuromodulator across multiple central-nervous-system cell types to support optimised performance, including arousal and vigilance-related functions.","assessment":{"study":"Narrative review of norepinephrine as a multi-cell-type neuromodulator.","population":"Mixed experimental and human mechanistic literature; not a dietary intervention sample.","result":"Identified norepinephrine as a gain-setting neuromodulator rather than a single-target attention chemical.","effect_magnitude":"No pooled functional or dietary effect estimate.","evidence_summary":"Establishes the signalling role this mechanism represents.","limitations":"Review synthesis; does not demonstrate dietary modification or a clinical attention benefit."},"canonical_reference":{"author_year":"O'Donnell et al. (2012)","number":1,"anchor":"#pm-ref-1"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Motivation / Drive","href":"/docs/phenomes/details/ph002-motivation-drive"},{"phenome":"Pleasure & Interest Capacity","href":"/docs/phenomes/details/ph017-pleasure-interest-capacity"}]}} />
+
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Noradrenaline formation shares catecholamine synthesis requirements","finding_summary":"Noradrenaline is formed from dopamine on the tyrosine-derived catecholamine path. Iron supports tyrosine hydroxylase, and pyridoxal-5′-phosphate (PLP; the active form of vitamin B6) supports decarboxylation toward dopamine. These shared steps are biological requirements, not proof that extra iron or B6 raises brain noradrenaline.","finding_interpretation":"Tyrosine remains the pathway starting material. Circulating amino-acid supply, competitive brain entry and dopamine formation are earlier steps. The later conversion of dopamine to noradrenaline is assessed in the dopamine β-hydroxylase finding.","fm_rollup":true,"finding_statement":"Noradrenaline formation depends on the shared tyrosine-to-dopamine catecholamine sequence, including iron- and PLP-dependent enzyme steps; cofactor or substrate necessity is not evidence of intake-responsive human brain noradrenaline.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Iron-deficiency review evidence identifies iron as required for tyrosine hydroxylase, the rate-limiting step from tyrosine toward dopamine and then noradrenaline. B-vitamin review evidence places PLP in neurochemical decarboxylation, and a transport study shows that B6 vitamers can enter the central nervous system. Together they support shared pathway dependence. They do not show ordinary-diet control of human brain noradrenaline. The later dopamine β-hydroxylase step is assessed separately.","synthesis_limitations":"The most direct deficiency discussion is preclinical or developmental. The sources do not establish common inadequacy in a defined clinical population, responsiveness when status is already adequate, or an attention benefit mediated by noradrenaline.","evidence_considered":[{"label":"Beard et al. (2003)","citation_key":"beard_iron_2003","href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","data_level":"Animal Data","exposure_context":"dietary iron deficiency","evidence_source":"repository-inherited","directional_finding":"Iron deficiency alters developing-brain catecholamine biology, including tyrosine-hydroxylase-dependent synthesis toward dopamine and noradrenaline.","assessment":{"study":"Narrative review of iron deficiency, brain development and neurotransmitter systems.","population":"Mixed human developmental and experimental-animal literature.","result":"Identified iron as required for tyrosine hydroxylase and described catecholamine-system sensitivity under deficiency.","effect_magnitude":"No human intake-to-noradrenaline effect estimate.","evidence_summary":"Supports iron as a shared catecholamine-synthesis cofactor relevant to noradrenaline formation.","limitations":"Predominantly deficiency and developmental evidence; not a human noradrenaline-dosing or attention trial."},"canonical_reference":{"author_year":"Beard et al. (2003)","number":3,"anchor":"#pm-ref-3"}}],"evidence_dependency":["The later dopamine-to-noradrenaline conversion is assessed in PM4-F4 rather than restated here."],"connected_supportive_evidence":[{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as cofactor context for catecholamine formation.","why_excluded":"General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-noradrenaline response.","canonical_reference":{"author_year":"Kennedy (2016)","number":7,"anchor":"#pm-ref-7"}},{"label":"Spector (1978)","citation_key":"spector_vitamin_1978","href":"/docs/papers/BRAIN-Diet-References#spector_vitamin_1978","data_level":"Animal Data","why_relevant":"Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.","why_excluded":"Rabbit transport study; it does not measure noradrenaline synthesis, release or function.","canonical_reference":{"author_year":"Spector (1978)","number":8,"anchor":"#pm-ref-8"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Motivation / Drive","href":"/docs/phenomes/details/ph002-motivation-drive"}]}} />
+
+<ScientificFinding finding={{"id":"PM4-F4","finding_label":"Dopamine β-hydroxylase converts dopamine to noradrenaline using copper and ascorbate","finding_summary":"Dopamine β-hydroxylase hydroxylates dopamine to noradrenaline inside vesicles. The enzyme needs copper at its active sites and ascorbate as the electron donor that keeps that copper reduced. These are reaction requirements, not proof that extra dietary copper or vitamin C raises brain noradrenaline.","finding_interpretation":"This finding identifies copper and vitamin C (ascorbate) as candidates for dietary assessment. It does not admit an intake-responsive noradrenaline lever or an attention benefit.","fm_rollup":true,"finding_statement":"Conversion of dopamine to noradrenaline by dopamine β-hydroxylase requires enzyme-bound copper and ascorbate as the electron donor; those biochemical requirements are not evidence of intake-responsive human brain noradrenaline or a functional benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A 2026 catecholamine review identifies dopamine β-hydroxylase as a copper-dependent monooxygenase that uses molecular oxygen and ascorbate to form noradrenaline, and states that this is the only catecholamine-synthesis step with a direct mechanistic ascorbate requirement. The human crystal structure shows two copper ions per subunit and two ascorbate-derived electrons per turnover. Brain-copper and brain-ascorbate reviews place the same cuproenzyme and reductant in central-nervous-system catecholamine chemistry, while noting that circulating copper is not brain copper. Together they establish the defining conversion and its participants. Genetic copper-trafficking disease, animal copper deficiency and high-dose intravenous vitamin C in septic shock are not ordinary-diet evidence.","synthesis_limitations":"The synthesis is mechanistic and review-level. It does not show that ordinary dietary copper or vitamin C changes human brain noradrenaline, attention or ADHD when status is already adequate.","evidence_considered":[{"label":"Goldstein and Eisenhofer (2026)","citation_key":"goldstein_catecholamine_2026","href":"/docs/papers/BRAIN-Diet-References#goldstein_catecholamine_2026","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Dopamine β-hydroxylase converts dopamine to noradrenaline and requires copper, molecular oxygen and ascorbate as the electron donor that keeps active-site copper reduced.","assessment":{"study":"Integrative review of catecholamine synthesis, storage, release, reuptake and metabolism.","population":"Mixed human physiological, clinical-pathophysiological and experimental literature; not a dietary trial sample.","result":"Identified copper and ascorbate as required participants in the dopamine-to-noradrenaline step and noted that this is the only catecholamine step with a direct ascorbate requirement.","effect_magnitude":"No dietary or functional effect estimate.","evidence_summary":"Establishes the defining conversion and its cofactor chemistry.","limitations":"Review synthesis; disease and kinetic examples are not ordinary-diet interventions."},"canonical_reference":{"author_year":"Goldstein and Eisenhofer (2026)","number":9,"anchor":"#pm-ref-9"}},{"label":"Vendelboe et al. (2016)","citation_key":"vendelboe_dbh_2016","href":"/docs/papers/BRAIN-Diet-References#vendelboe_dbh_2016","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Human dopamine β-hydroxylase requires two copper ions per subunit and two ascorbate-derived electrons for hydroxylation of dopamine.","assessment":{"study":"Crystal structure of human dopamine β-hydroxylase at 2.9 Å.","population":"Structural biochemistry; not a human dietary sample.","result":"Confirmed two type-2 copper sites per subunit and ascorbate dependence of the monooxygenase class.","effect_magnitude":"Structural, not a dose-response estimate.","evidence_summary":"Independently supports copper and ascorbate as reaction participants.","limitations":"Isolated-protein structure; does not measure diet, brain noradrenaline or function."},"canonical_reference":{"author_year":"Vendelboe et al. (2016)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[{"label":"Scheiber, Mercer and Dringen (2014)","citation_key":"scheiber_metabolism_2014","href":"/docs/papers/BRAIN-Diet-References#scheiber_metabolism_2014","data_level":"Mechanistic","why_relevant":"Reviews copper functions in brain, including dopamine β-hydroxylase, and distinguishes tightly regulated brain copper from circulating measures.","why_excluded":"Brain-copper review; it does not isolate a dietary copper-to-noradrenaline trial.","canonical_reference":{"author_year":"Scheiber, Mercer and Dringen (2014)","number":11,"anchor":"#pm-ref-11"}},{"label":"Lutsenko et al. (2019)","citation_key":"lutsenko_copper_2019","href":"/docs/papers/BRAIN-Diet-References#lutsenko_copper_2019","data_level":"Mixed","why_relevant":"Reviews copper and the brain noradrenergic system, including Menkes copper-trafficking disease and animal dietary-deficiency effects on catecholamines.","why_excluded":"Disease and animal-deficiency evidence; not ordinary-diet modulation in copper-replete humans.","canonical_reference":{"author_year":"Lutsenko et al. (2019)","number":12,"anchor":"#pm-ref-12"}},{"label":"Harrison and May (2009)","citation_key":"harrison_vitamin_2009","href":"/docs/papers/BRAIN-Diet-References#harrison_vitamin_2009","data_level":"Mechanistic","why_relevant":"Reviews high brain ascorbate and SVCT2 transport, including a role as reductant for dopamine β-hydroxylase.","why_excluded":"Transport and compartmentation review; it does not show that extra dietary vitamin C raises human brain noradrenaline.","canonical_reference":{"author_year":"Harrison and May (2009)","number":13,"anchor":"#pm-ref-13"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Motivation / Drive","href":"/docs/phenomes/details/ph002-motivation-drive"}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
+↓
+[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — Catecholamine inactivation can use COMT, which depends on SAM from one-carbon metabolism. The attached corpus does not establish that ordinary methylation-cycle variation controls noradrenaline signalling or attention.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Supplies the circulating amino-acid pool, including tyrosine used on the catecholamine path to noradrenaline. Amino-acid quality and precursor-pool adequacy are assessed there. That is precursor supply, not noradrenaline signalling.
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — Governs competitive brain entry of large neutral amino acids, including tyrosine, after a meal. Transport bias is not noradrenaline synthesis or receptor signalling.
+- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) — Forms dopamine, the immediate precursor converted to noradrenaline, and shares the tyrosine-hydroxylase and decarboxylase steps. Dopaminergic signalling is not noradrenergic signalling.
+- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) — Parallel monoamine path from shared precursor transport. It does not feed noradrenaline synthesis.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -167,10 +761,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** High
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.
-- **Key References:**
+- **Rationale:** Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged  O'Donnell et al. (2012) [[1]](#pm-ref-1). That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect  MacDonald et al. (2024) [[4]](#pm-ref-4).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012","label":"O'Donnell et al. (2012)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM4-F3","finding_label":"Attention relevance is not a dietary or ADHD-treatment finding","finding_summary":"The attached sources support noradrenaline as attention-relevant biology. They do not show that meals, iron or B6 change human noradrenaline signalling, and they do not show a uniform ADHD lesion that diet can correct.","finding_interpretation":"Keep biological relevance separate from dietary modulation and from dopamine-process findings that are not noradrenaline measurements.","finding_statement":"Repository evidence supports a translational relationship from noradrenergic signalling to Focus / Attention Stability without establishing dietary modification of noradrenaline or an ADHD treatment effect.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"O’Donnell supplies the neuromodulatory attention and arousal account. MacDonald shows that ADHD-related catecholamine findings vary by process and method and cannot be restated as a single deficit. Fernstrom describes meal-level precursor transport upstream of signalling. Together they support a biology-to-attention mapping while blocking a food-as-noradrenaline-treatment reading.","synthesis_limitations":"No attached study measures attention after a dietary change aimed at noradrenaline. Plasma amino-acid ratios and dopamine-process reviews are not noradrenaline signalling.","evidence_considered":[{"label":"O'Donnell et al. (2012)","citation_key":"odonnell_norepinephrine_2012","href":"/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Norepinephrine neuromodulation is relevant to central-nervous-system performance including arousal and vigilance, without testing diet or ADHD treatment.","assessment":{"study":"Same mechanistic review used for PM4-F1, reused here for the attention-relationship proposition.","population":"Mixed mechanistic literature; not a dietary or ADHD-outcome sample.","result":"Supports attention-relevant signalling biology without a treatment or intake effect.","effect_magnitude":"No clinical or dietary effect estimate.","evidence_summary":"Anchors the Phenome mapping in signalling biology.","limitations":"Review; no dietary or ADHD endpoint."},"canonical_reference":{"author_year":"O'Donnell et al. (2012)","number":1,"anchor":"#pm-ref-1"}},{"label":"MacDonald et al. (2024)","citation_key":"macdonald_dopamine_2024","href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","data_level":"Mixed","evidence_source":"repository-inherited","directional_finding":"ADHD-related dopamine findings are heterogeneous across process, region and method and do not support a uniform global deficit that can be treated as a noradrenaline-diet claim.","assessment":{"study":"Critical review of the dopamine hypothesis in ADHD.","population":"Children and adults with ADHD, comparison groups and relevant animal models.","result":"Reported mixed dopamine-related findings rather than one directional lesion.","effect_magnitude":"No pooled noradrenaline or dietary effect estimate.","evidence_summary":"Constrains ADHD wording attached to this Phenome relationship.","limitations":"Dopamine-focused; not a noradrenaline dietary trial."},"canonical_reference":{"author_year":"MacDonald et al. (2024)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[{"label":"Fernstrom (2013)","citation_key":"fernstrom_lnna_2013","href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","data_level":"Mechanistic","why_relevant":"Describes meal-level large-neutral-amino-acid transport that can change tyrosine presentation before catecholamine synthesis.","why_excluded":"Transport and plasma-ratio biology; it does not measure noradrenaline signalling or attention.","canonical_reference":{"author_year":"Fernstrom (2013)","number":2,"anchor":"#pm-ref-2"}}],"evidence_dependency":["O'Donnell et al. (2012) is also primary evidence in PM4-F1. Reuse here answers the Phenome-relationship proposition, not an independent replication of the signalling review.","Fernstrom (2013) is connected evidence here and primary evidence in PM4-IC1. That is one transport review used for two propositions, not two independent studies."],"presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -190,10 +785,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#santos_como_2019","label":"Santos et al. (2019)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","label":"Beard et al. (2003)","dataLevel":"Animal Data"}]} />
+- **Rationale:** Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive  MacDonald et al. (2024) [[4]](#pm-ref-4). The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials  Beard et al. (2003) [[3]](#pm-ref-3).
 </div>
 </div>
 </div>
@@ -213,279 +805,25 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low
-- **Rationale:** Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#gruber_impact_2023","label":"Gruber et al. (2023)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Catecholamine systems can sit near reward and incentive-motivation biology, but the attached insulin–dopamine review does not measure noradrenaline signalling or a pleasure outcome after diet  Gruber et al. (2023) [[6]](#pm-ref-6). Dopamine-process heterogeneity in ADHD is not a pleasure-capacity finding for this mechanism  MacDonald et al. (2024) [[4]](#pm-ref-4).
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Supported
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- IRON ← beef
-- Tyrosine ← protein-rich foods
-- Vitamin C ← citrus, peppers (pair with plant-based iron to support absorption)
-- Pair plant-based iron with citrus; fat-soluble vitamins with avocado or olive oil; spread minerals across meals where practical
-- exercise → ↑ catecholamine signalling.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Vitamin B6 ← poultry, fish, chickpeas
-- iron
-- vitamin C
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Complete essential amino-acid supply ← eggs, fish, dairy, meat, soy, legumes, grains
-- Tryptophan ← eggs, dairy, fish, poultry, soy, pumpkin seeds
-- Phenylalanine and tyrosine ← dairy, meat, fish, eggs, soy, legumes, nuts, seeds
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Pair iron-containing foods with vitamin C and meal-context enhancers to support absorption — see [Lentils — Synergies](/docs/foods/lentils#synergies).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies), [Kale — Synergies](/docs/foods/kale#synergies).
-- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-- Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to help preserve EPA/DHA… — see [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
-- Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-BRS1-FM1-PM4 supports noradrenergic signalling pathways relevant to attention, arousal, and executive modulation through tyrosine-derived catecholamine context, cofactor sufficiency, and lifestyle–diet coupling described under [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Norepinephrine signalling, precursors, and executive modulation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Noradrenergic pathways and attention)
-
-Norepinephrine modulates attention, arousal, and executive processes frequently impaired in attention-related conditions. Alterations in noradrenergic signalling have been associated with differences in attention regulation and response inhibition → [O'Donnell et al., 2012]
-
-#### (Precursor and cofactor dependence)
-
-Noradrenergic synthesis depends on tyrosine within an adequate amino-acid pool (see [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)) and on cofactors such as iron and B6 (see section 7.2), with meal-level LNAA transport context described by [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) and [Fernstrom, 2013]
-
-Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine (and downstream norepinephrine) → [Beard et al., 2003]
-
-#### (Diet-supported rather than diet-dominant)
-
-Intervention dominance is diet-supported: physical activity, sleep, and stress context also shape catecholamine tone; meal-level substrate and cofactor supply are covered in section 6.
-
-#### (Cross-system context)
-
-Cross-BRS glycaemic stability links (section 5.3) reflect that post-prandial metabolic volatility can indirectly affect arousal and attentional state, but noradrenergic biology remains the defining frame for BRS1-FM1-PM4.
-
-Together, BRS1-FM1-PM4 extends catecholaminergic coverage beyond dopamine-focused pathways to noradrenergic attention and executive modulation.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Noradrenergic synthesis and signalling biology is well established. The studies below highlight cofactor and enzymatic dependencies that refine how noradrenergic substrate context is interpreted — not functional outcome claims.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Iron-dependent catecholamine synthesis</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting step in catecholamine synthesis — linking dietary cofactor sufficiency to noradrenergic substrate context [Beard et al., 2003].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","label":"Beard et al. (2003)","dataLevel":"Animal Data"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Precursor transport context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Meal-level LNAA transport and tyrosine presentation at the blood–brain barrier shape catecholamine precursor availability upstream of noradrenergic signalling [Fernstrom, 2013].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-↓
-[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1(KC1) - Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
-- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to noradrenergic signalling (attention & executive modulation).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM4 Relevance |
-|---|---|---|
-| Functional Property Potentials | complete_protein_context; lnna_transport_context; choline_rich_food_matrix | May influence meal-level mechanism support. |
-| Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [O'Donnell et al. (2012) — Norepinephrine](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)
-- [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
-- [Beard et al. (2003) — Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
-- [MacDonald et al. (2024) — The Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)
-- [Santos et al. (2019) — Como o cérebro funciona?](/docs/papers/BRAIN-Diet-References#santos_como_2019)
-- [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+
+- <span id="pm-ref-1">[1]</span> [O'Donnell et al. (2012) — Norepinephrine](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)
+- <span id="pm-ref-2">[2]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- <span id="pm-ref-3">[3]</span> [Beard et al. (2003) — Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+- <span id="pm-ref-4">[4]</span> [MacDonald et al. (2024) — The Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)
+- <span id="pm-ref-5">[5]</span> [Santos et al. (2019) — Como o cérebro funciona?](/docs/papers/BRAIN-Diet-References#santos_como_2019)
+- <span id="pm-ref-6">[6]</span> [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- <span id="pm-ref-7">[7]</span> [Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- <span id="pm-ref-8">[8]</span> [Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)
+- <span id="pm-ref-9">[9]</span> [Goldstein and Eisenhofer (2026) — Catecholamine Metabolism Revisited](/docs/papers/BRAIN-Diet-References#goldstein_catecholamine_2026)
+- <span id="pm-ref-10">[10]</span> [Vendelboe et al. (2016) — Human Dopamine β-Hydroxylase Structure](/docs/papers/BRAIN-Diet-References#vendelboe_dbh_2016)
+- <span id="pm-ref-11">[11]</span> [Scheiber, Mercer and Dringen (2014) — Copper in Brain](/docs/papers/BRAIN-Diet-References#scheiber_metabolism_2014)
+- <span id="pm-ref-12">[12]</span> [Lutsenko et al. (2019) — Copper and the Brain Noradrenergic System](/docs/papers/BRAIN-Diet-References#lutsenko_copper_2019)
+- <span id="pm-ref-13">[13]</span> [Harrison and May (2009) — Vitamin C Function in the Brain](/docs/papers/BRAIN-Diet-References#harrison_vitamin_2009)
+- <span id="pm-ref-14">[14]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-15">[15]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

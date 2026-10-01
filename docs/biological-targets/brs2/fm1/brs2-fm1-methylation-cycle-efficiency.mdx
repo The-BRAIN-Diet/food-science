@@ -2,8 +2,8 @@
 title: Methylation Cycle Efficiency
 fm_id: BRS2(FM1)
 parent_brs: BRS2
-mission: 'Sustain efficient one-carbon cycling so homocysteine is cleared, SAMe remains available, and methylation capacity supports brain-relevant chemistry.'
-summary: 'Maintains one-carbon cycle efficiency by coordinating homocysteine recycling, SAMe production, and methylation capacity across brain-relevant pathways.'
+mission: 'Maintain coordinated one-carbon cycling that supports homocysteine remethylation, SAMe production, and methyl-group transfer.'
+summary: 'Coordinates folate/B12- and betaine-dependent homocysteine remethylation with methionine-cycle flux and SAMe production. This integrated state maintains methyl-donor availability for phospholipid, neurotransmitter, and other methylation-dependent chemistry across the brain and body.'
 mechanisms_covered:
   - id: BRS2-FM1-PM1
     name: Folate/B12-Dependent Homocysteine Remethylation
@@ -19,13 +19,9 @@ mechanisms_covered:
     href: /docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux
 key_constraints:
   - id: BRS2(KC1)
-    name: One-Carbon Donor Pool
+    name: Methyl Donor Pool
     type: substrate
     href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
-  - id: BRS2(KC2)
-    name: Methionine & Transsulfuration Substrate Pool
-    type: substrate
-    href: /docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
@@ -94,21 +90,145 @@ functional_outcome_context:
 
 ### Mission
 
-Sustain efficient one-carbon cycling so homocysteine is cleared, SAMe remains available, and methylation capacity supports brain-relevant chemistry.
+Maintain coordinated one-carbon cycling that supports homocysteine remethylation, SAMe production, and methyl-group transfer.
 
 ### Overview
 
-Supports the body's ability to recycle homocysteine (a sulfur amino acid that rises when one-carbon metabolism is strained), produce SAMe (S-adenosylmethionine, the body's universal methyl donor), and sustain methylation capacity across neurotransmitter synthesis, membrane chemistry, and gene regulation. Efficient one-carbon cycling is a foundation for many brain-relevant processes.
+Coordinates folate/B12- and betaine-dependent homocysteine remethylation with methionine-cycle flux and SAMe production. This integrated state maintains methyl-donor availability for phospholipid, neurotransmitter, and other methylation-dependent chemistry across the brain and body.
 
-* Sustains neurotransmitter synthesis and monoaminergic pathway support — Supporting BRS1.
-* Helps control homocysteine-linked oxidative and inflammatory burden — Supporting BRS3.
-* Supports mitochondrial function, epigenetic regulation, and cellular repair — Supporting BRS4.
+* Maintains methyl-donor context for neurotransmitter-related chemistry — Supporting BRS1.
+* Connects homocysteine handling with transsulfuration and redox pathways — within BRS2 and Supporting BRS3.
+* Supplies SAMe-dependent methyl-group transfer used across cellular metabolism — Supporting BRS4.
 
 ## 2. Primary Biological Effects
 
 ↑ SAMe availability; ↓ homocysteine; ↑ methylation capacity
 
-## 3. Phenome Connections
+## 4. Mechanistic Basis (Integrated FM Narrative)
+
+Methylation cycle efficiency emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
+
+**Supporting Key Constraint Pools**
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- **Relied upon by:** [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
+- Maintain one-carbon donor sufficiency to support remethylation, methyl-group transfer, and methylation-dependent system stability.
+</div>
+</div>
+</div>
+
+### 4.1 Core Primary Mechanisms
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
+  Maintains the body's methylation capacity by recycling homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary one-carbon route for clearing homocysteine).
+
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
+  Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase).
+
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
+  Converts regenerated methionine into SAMe (S-adenosylmethionine, the body's universal methyl donor), powering methylation reactions across brain and body.
+
+- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
+  Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system.
+
+### 4.2 Integrated Functional Narrative
+
+Together, folate/B12 remethylation, betaine-dependent BHMT recycling, SAMe synthesis, and methionine-cycle flux operationalise BRS2(FM1) as a coordinated one-carbon methylation control point.
+
+At the integrated FM level, cycle performance is interpreted as balanced methionine → SAM → SAH → remethylation/transsulfuration routing under changing demand. Homocysteine remains a useful junction readout of impaired one-carbon cycling, while dietary patterns supplying methyl donors and sulfur amino acids within protein/amino-acid balance — plus supportive omega-3 context — may help sustain methylation capacity without treating methionine as a nutrient to maximise [Collaboration, 1998; Chiang et al., 1996; Fanti et al., 2026; Oulhaj et al., 2016].
+
+### 4.3 Suboptimal Function & Its Effects
+
+Methylation cycle efficiency may weaken when the mapped methyl-donor pool becomes inadequate.
+
+Low availability of the relevant donors may constrain [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool). Poor dietary choline availability, low folate availability, increased methylation demand, and impaired remethylation efficiency may further strain donor-pool support.
+
+These pressures may impair [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), weaken [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), reduce the effectiveness of [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis), and compromise [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux). At the FM level, this may shift BRS2(FM1) toward reduced methylation cycle efficiency.
+
+### 4.4 Evidence Highlights
+
+#### Introduction/Summary
+
+The studies below support methylation cycle efficiency as an integrated FM state emerging from coordinated child PM biology — mechanism-qualifying findings that refine framework interpretation, not phenome/outcome science (which belongs in §3).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Methionine synthase remethylates homocysteine</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+- **Synthesised Evidence Confidence:** Not yet scored
+- **Synthesis:** A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","label":"Froese et al. (2019)","dataLevel":"Mechanistic"}]} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>BHMT remethylates homocysteine with betaine and catalytic zinc</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+- **Synthesised Evidence Confidence:** Not yet scored
+- **Synthesis:** Human crystal structures show that BHMT makes methionine from betaine and homocysteine and uses zinc to activate homocysteine. Mutating any of the three zinc-binding cysteines to alanine abolishes activity and sharply reduces zinc binding, and the same biochemical work states the products as methionine and dimethylglycine. A methyl-donor review states that methyl flow through this pathway does not depend on folate or vitamin B12. Together these sources identify the reaction and its metal. They do not test ordinary dietary control or human tissue flux.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","label":"Evans et al. (2002)","dataLevel":"Cellular / Molecular"},{"href":"/docs/papers/BRAIN-Diet-References#breksa_zinc_1999","label":"Breksa and Garrow (1999)","dataLevel":"Cellular / Molecular"},{"href":"/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013","label":"Obeid (2013)","dataLevel":"Mechanistic"}]} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>MAT converts methionine and ATP into SAMe</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+- **Synthesised Evidence Confidence:** Not yet scored
+- **Synthesis:** Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","label":"Bailey et al. (2021)","dataLevel":"Cellular / Molecular"},{"href":"/docs/papers/BRAIN-Diet-References#murray_crystallography_2016","label":"Murray et al. (2016)","dataLevel":"Cellular / Molecular"}]} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Homocysteine is split between remethylation and transsulfuration</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+- **Synthesised Evidence Confidence:** Not yet scored
+- **Synthesis:** A methylation review establishes SAM as the methyl donor and SAH hydrolysis to adenosine and homocysteine, and it shows that blocking that hydrolysis can affect methylation of phospholipids, proteins, DNA, RNA and small molecules together. A pathway review then places regulation at the distribution of homocysteine between remethylation, which every tissue can perform, and transsulfuration to cystathionine, which is limited to liver, kidney, small intestine and pancreas, with SAM, SAH and methyl-tetrahydrofolate as effectors. A human tracer study uses that same partition, measuring postprandial remethylation, transmethylation and total transsulfuration as rates.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998","label":"Finkelstein (1998)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011","label":"Lamers et al. (2011)","dataLevel":"Human Mechanistic"}]} />
+</div>
+</div>
+</div>
+
+## 5. Connected Mechanisms
+
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — One-carbon impairment can increase pressure on choline-derived methyl donation. Animal evidence links that impairment to lower brain choline and acetylcholine, without making one-carbon nutrients direct ChAT cofactors.
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
+- [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — transsulfuration Pathway
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — phosphatidylcholine Formation
+- [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling) — methylation–Membrane Coupling
+
+## 7. Phenome Connections
 
 These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. FM confidence uplift: FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.
 
@@ -190,148 +310,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Mechanistic Basis (Integrated FM Narrative)
-
-Methylation cycle efficiency emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
-
-**Supporting Key Constraint Pools**
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- **Relied upon by:** [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-- Maintain one-carbon donor sufficiency to support remethylation, methyl-group transfer, and methylation-dependent system stability.
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">(Key Constraint) (KC2) — Methionine & Transsulfuration Substrate Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- **Relied upon by:** [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-- Maintain sulfur amino-acid substrate adequacy and balance to support methionine-cycle flux, transsulfuration, and glutathione-linked protection — without treating methionine as a nutrient to maximise.
-</div>
-</div>
-</div>
-
-### 4.1 Core Primary Mechanisms
-
-- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-  Maintains the body's methylation capacity by recycling homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary one-carbon route for clearing homocysteine).
-
-- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
-  Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase).
-
-- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
-  Converts regenerated methionine into SAMe (S-adenosylmethionine, the body's universal methyl donor), powering methylation reactions across brain and body.
-
-- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-  Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system.
-
-### 4.2 Integrated Functional Narrative
-
-Together, folate/B12 remethylation, betaine-dependent BHMT recycling, SAMe synthesis, and methionine-cycle flux operationalise BRS2(FM1) as a coordinated one-carbon methylation control point.
-
-At the integrated FM level, cycle performance is interpreted as balanced methionine → SAM → SAH → remethylation/transsulfuration routing under changing demand. Homocysteine remains a useful junction readout of impaired one-carbon cycling, while dietary patterns supplying methyl donors and sulfur amino acids within protein/amino-acid balance — plus supportive omega-3 context — may help sustain methylation capacity without treating methionine as a nutrient to maximise [Collaboration, 1998; Chiang et al., 1996; Fanti et al., 2026; Oulhaj et al., 2016].
-
-### 4.3 Suboptimal Function & Its Effects
-
-Methylation cycle efficiency may weaken when one-carbon donor pools or methionine/transsulfuration substrate pools become chronically inadequate.
-
-Low intake of methyl-donor-rich foods may reduce [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool). Poor dietary choline availability, low folate availability, increased methylation demand, and impaired remethylation efficiency may further strain donor-pool support across daily meal patterns.
-
-Low protein quality or insufficient sulfur-amino-acid intake may reduce [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool). Chronic methionine substrate insufficiency, increased glutathione demand, and oxidative burden driving sulfur-amino-acid utilisation may further compromise cycle throughput.
-
-These pressures may impair [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), weaken [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), reduce the effectiveness of [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis), and compromise [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux). At the FM level, this may shift BRS2(FM1) toward reduced methylation cycle efficiency.
-
-### 4.4 Evidence Highlights
-
-#### Introduction/Summary
-
-The studies below support methylation cycle efficiency as an integrated FM state emerging from coordinated child PM biology — mechanism-qualifying findings that refine framework interpretation, not phenome/outcome science (which belongs in §3).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Folate and B12 effects on homocysteine</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** A meta-analysis of folic-acid supplementation trials found that folate typically lowers plasma homocysteine by approximately 25%; adding B12 produced an additional ~7% reduction beyond folate alone → [Collaboration, 1998] This supports interpreting homocysteine modulation as a cofactor-combination property — folate and B12 are not fully interchangeable in remethylation support.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Betaine supplementation and homocysteine lowering</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Low-dose betaine supplementation produced immediate and sustained lowering of plasma homocysteine in healthy adults, supporting betaine as a dietary methyl-donor lever for homocysteine modulation → [Olthof et al., 2003]
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"}]} />
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>MAT converts methionine and ATP into SAMe</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-- **Synthesised Evidence Confidence:** Not yet scored
-- **Synthesis:** Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","label":"Bailey et al. (2021)","dataLevel":"Cellular / Molecular"},{"href":"/docs/papers/BRAIN-Diet-References#murray_crystallography_2016","label":"Murray et al. (2016)","dataLevel":"Cellular / Molecular"}]} />
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Methionine adequacy within balance — not maximisation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-- **Confidence:** low-medium
-- **Evidence Level:** preclinical
-- **Rationale:** In aged mice, a predominantly plant-based low-amino-acid longevity diet with moderate methionine supplementation reduced frailty and fat mass while preserving favourable metabolic signalling; too little or too much methionine abolished benefits [Fanti et al., 2026]. The human arm was large-scale epidemiology of plant-leaning patterns, not a methionine intervention trial. MetR reviews similarly show potent experimental metabolic effects while emphasising limited continuous human MetR feasibility [Parkhitko et al., 2026]. For BRAIN, the implication is methionine **adequacy within amino-acid balance**, not deliberate restriction or open-ended high methionine intake.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026","label":"Fanti et al. (2026)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026","label":"Parkhitko et al. (2026)","dataLevel":"Mechanistic"}]} />
-</div>
-</div>
-</div>
-
-## 5. Connected Mechanisms
-
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
-- [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — transsulfuration Pathway
-- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — phosphatidylcholine Formation
-- [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling) — methylation–Membrane Coupling
-
-## 6. References
+## 8. References
 - [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
 - [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
 - [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)

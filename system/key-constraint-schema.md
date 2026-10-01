@@ -93,21 +93,59 @@ KCs answer:
 
 ## Canonical ownership and evidence governance
 
-The owner of a scientific relationship adjudicates its canonical membership and
-evidence:
+### Terminology
 
-- **The KC page owns the KC:** its resource-pool/bottleneck definition, evidence
-  that the constraint exists, constituent membership, each constituent's role
-  within the KC, and changes to that membership.
-- **The PM owns Input→PM and PM↔KC relevance:** whether any dietary input or
-  resource has an evidence-supported relationship to that PM, whether it is also
-  associated with a KC, and the PM-specific role, evidence, and limitation.
+| Term | Meaning |
+|------|---------|
+| **KC1, KC2, KC3…** | Canonical **KC pages** (`kc_id`, for example `BRS3(KC1)`). |
+| **iKC** | An **individual Key Constraint** recorded on a KC page. One KC page may contain one or more iKCs. |
+| **PM ↔ iKC** | Many-to-many. A PM may reference multiple iKCs. An iKC may apply to multiple PMs. |
 
-These are separate propositions. **KC membership ≠ PM relevance. PM relevance ≠
-KC membership. KC membership ≠ an independent PM Dietary Requirement.**
-Neither proposition establishes the other, and neither review is a prerequisite
-for the other. Relationships may connect through canonical IDs after independent
-adjudication; ownership and evidence do not propagate.
+Until a KC page declares `individual_key_constraints`, it is treated as a single
+iKC whose `ikc_id` equals `kc_id`. That default does not invent extra constraints
+and does not rewrite existing KC pages.
+
+### Sequence (KC first, PM second)
+
+The intended evidence sequence is:
+
+1. **KC evidence review** — what each iKC constrains; its constituent
+   inputs/resources; evidence for those relationships; intended FM/PM scope;
+   limitations.
+2. **PM evidence review** — independently whether that iKC applies to the PM, and
+   **which** of its constituents are supported for that PM.
+3. **KC review flag** — only if PM reviews systematically conflict with the iKC's
+   claimed scope. The PM must not rewrite the iKC.
+
+A PM may record **proposed** applicability (`legacy-unreviewed`) while a KC page
+is not yet canonical. It must not treat iKC membership as established
+(`canonical-reviewed`) until the KC page has completed canonical evidence review.
+
+**KC-page evidence review** (before PM Stage 2B): follow
+`system/kc-page-evidence-review-contract.md`. Reuse the Scientific Finding
+bounded-assessment workflow, five-atom Dietary Requirements records, Input Types,
+Evidence Source / Limitation rules, and `kc_change_control_flags`. Do not invent
+a parallel evidence ontology. Calibration: `system/brs3-kc1-evidence-review.md`.
+
+### Ownership
+
+- **KC page / iKC owns:** definition of the constraint; constituent membership;
+  evidence for that membership; intended scope and limitations.
+- **PM owns:** whether the iKC applies to that PM; which iKC constituents are
+  supported for that PM; evidence of that applicability in `pm_kc_relationships`.
+  **“PM-specific”** means supported applicability to that PM, not uniqueness,
+  local evidence ownership, or governance of the pool.
+
+These remain separate propositions. **iKC membership ≠ PM relevance. PM relevance
+≠ iKC membership.** A validated PM → constituent → iKC relationship requires
+**both** independently. Relationships may connect through canonical IDs after
+those independent adjudications; ownership and evidence do not propagate.
+
+`key_constraints` records **which iKCs apply, or are proposed to apply**, to a PM.
+It does **not** make the iKC's constituent relationships automatically true for
+that PM. If an iKC contains A, B, and C, and PM evidence supports only A, the PM
+may show its relationship to that iKC through A. It must not inherit B and C.
+PM evidence for A does not establish that A belongs to the iKC.
 
 ### KC-owned constituent evidence
 
@@ -116,18 +154,31 @@ one KC-owned five-atom record:
 
 ```yaml
 kc_evidence_review_status: canonical
+individual_key_constraints:
+  - ikc_id: BRSX(KC1)-IKC1
+    title: Example individual constraint
 kc_input_traceability:
   - atom_id: BRSX-KC1-KIT-1
+    ikc_id: BRSX(KC1)-IKC1
     input: Evidence-supported input
     input_type: substrate
-    biological_role: Role within the constrained KC resource pool
+    biological_role: Role within this iKC resource pool
     evidence_source:
       citation_keys: [supporting_source]
     evidence_limitation: Boundary needed to avoid broadening the claim
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
 kc_constituent_presentations:
   - atom_id: BRSX-KC1-KIT-1
+    label: Evidence-supported input
+    evidence_label: Evidence-supported input
     section: core-nutritional-requirements
 ```
+
+`individual_key_constraints` is optional. A KC page without it is one iKC whose
+`ikc_id` equals `kc_id`. `kc_input_traceability[].ikc_id` is required only when
+the page declares more than one iKC.
 
 The atoms remain:
 
@@ -139,13 +190,26 @@ The atoms remain:
 
 `biological_role` must describe the input's role in the KC resource
 pool/bottleneck. Evidence must support constituent membership at that level.
+
+Optional KC-layer overlays on the same five atoms (not extra scientific atoms):
+`constraint_status` (`nutritionally-constrained` | `biochemical-requirement` |
+`dietary-input` | `modulatory` | `unsupported`), `ikc_membership` (`admitted` |
+`excluded`), and `claim_ceiling` (same vocabulary as Dietary Requirements).
+See `system/kc-page-evidence-review-contract.md`. Biochemical requirement,
+pathway participation, substrate/cofactor status, dietary provision, or
+biological relevance alone cannot admit a constituent. Only `admitted` rows
+project as iKC constituents. KC pages may also carry `kc_change_control_flags`
+for unresolved title, grouping, constituent, or proposed-scope issues.
 Existing inputs are not grandfathered: a canonical KC review must independently
 retain, modify, or remove every constituent. Until reviewed, legacy pages remain
 explicitly unreviewed; they must not claim `kc_evidence_review_status: canonical`.
 
 `kc_constituent_presentations` projects the atom by ID. It may control placement
-but must not restate or override Input, Input Type, Biological Role, Evidence
-Source, or Limitation in a parallel Markdown-owned scientific record.
+and reader labels but must not restate or override Input, Input Type, Biological
+Role, Evidence Source, or Limitation in a parallel Markdown-owned scientific
+record. `label` is the §2 compact-list label. Optional `evidence_label` is the
+exact §3 dropdown-title text when that title includes a reader-facing synonym or
+qualifier; otherwise §3 uses `label`.
 
 ### Food examples are a separate proposition
 
@@ -159,14 +223,26 @@ Food→Substance/Input composition architecture and cannot substitute for KC
 membership evidence. Representative foods may be displayed only as a projection
 of separately supported composition data.
 
-### Independent PM adjudication and KC connection
+### Independent PM adjudication and iKC connection
 
-A PM Dietary Requirements review independently adjudicates Input→PM relationships,
-including inputs listed by a legacy or reviewed KC. Supported PM science is stored
-as a PM-owned five-atom `dietary_input_traceability` record. KC review is not a
-gate and PM content must not be populated from KC-owned evidence.
+After the KC page has evidence-qualified its iKCs (or while applicability is only
+proposed), a PM Dietary Requirements review independently tests Input→PM
+relationships, including inputs listed by a legacy or reviewed iKC. Supported PM
+science is stored as a PM-owned five-atom `dietary_input_traceability` record. PM
+content must not be populated by copying KC-owned evidence or iKC constituent
+lists.
 
-After independent adjudication, §3.1.3 may connect the PM atom to KC context:
+PM↔iKC applicability follows `system/dietary-input-traceability-contract.md`
+§ **Type D — shared-constraint applicability**. A PM may **govern** the
+constraint or be **constrained by** it; both modes use that threshold.
+Upstream assessment ownership does not decide membership. Precursor delivery
+plus substrate necessity does not automatically establish it. Record
+`kc_applicability_adjudications` (`established`, `unassessed`, `unresolved`,
+or `evidence-supported-non-application`). Public empty copy remains
+`No mapping established.`
+
+After independent PM adjudication, §3.1.3 may connect the PM atom to **iKC**
+context:
 
 - `pm_atom_id` is required and resolves the PM-owned scientific relationship;
 - `kc_atom_id` is optional and may be added only when KC membership has separately
@@ -176,12 +252,12 @@ After independent adjudication, §3.1.3 may connect the PM atom to KC context:
 - `challenged` records that PM evidence does not settle the KC membership
   proposition.
 
-The PM must not redefine KC-level Biological Role, KC evidence, or KC membership.
-The KC must not redefine or remove the PM-owned atom. Displaying an input under KC
-context on a PM means the **Input→PM relationship is PM-owned**; it does not
-establish KC membership or automatically establish a §3.1.1 Direct/Derived
-classification. Conversely, KC membership does not justify projecting the input
-into every PM linked to the KC.
+The PM must never automatically modify an iKC (definition, membership, or KC-owned
+evidence). The KC must not redefine or remove the PM-owned atom. Displaying an
+input under iKC context on a PM means the **Input→PM relationship is PM-owned**;
+it does not establish iKC membership or automatically establish a §3.1.1
+Direct/Derived classification. Conversely, iKC membership does not justify
+projecting the input into every PM that lists the parent KC page.
 
 Where the same input independently qualifies as a §3.1.1 Dietary Requirement,
 represent that as a distinct PM-owned relationship with its own provenance.
@@ -189,9 +265,11 @@ Do not infer it from KC membership.
 
 ### KC change control
 
-When a PM review suggests an invalid KC, a questionable constituent, a possible
-new constituent, or a possible new KC, record a **KC Change-Control Flag**. Do not
-modify canonical KC membership during the PM review. The KC-owned evidence review
+When a PM review suggests an invalid KC/iKC, a questionable constituent, a
+possible new constituent, a possible new KC, or **systematic disagreement with an
+iKC's claimed scope**, record a **KC review flag** (`kc_change_control_flags`,
+including `ikc-scope-conflict` where the conflict is with claimed iKC scope). Do
+not modify canonical iKC membership during the PM review. The KC-owned evidence review
 must adjudicate:
 
 - constituent: “Is this input genuinely part of this constrained resource pool?”;
@@ -251,7 +329,9 @@ Render sections in this exact order (Section Rules are authoritative):
 
 1. Ambition — concise statement of the biological resource condition being maintained.
 2. Core Nutritional Requirements — validated shared resources with representative foods (`Resource ← foods`).
-3. Evidence Base — why §2 resources qualify as genuine shared biological requirements.
+3. Evidence Base — a concise evidence-supported Summary plus resource-level
+   evidence disclosures explaining why §2 resources qualify as genuine shared
+   biological requirements.
 4. Emerging Biological Supports — source-led candidates that may support regulatory capacity but are not established core requirements (explicit “none prioritised” when empty).
 5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
 6. Key References — established-resource sources; separate emerging-support sources where listed.
@@ -315,10 +395,34 @@ Inclusion threshold (all must apply):
 
 Format:
 
+- keep the canonical `### 2. Core Nutritional Requirements` heading, then place
+  the complete section body inside one collapsed `brs-fm-hub-item` disclosure,
+  matching the outer **Dietary Requirements** disclosure used on PM pages;
+- label the disclosure **Core Nutritional Requirements** and use the standard
+  `brs-fm-hub-shell`, `brs-fm-hub-summary`, `brs-fm-hub-chevron` and
+  `brs-fm-hub-panel` structure;
 - one resource per bullet
 - use `Resource ← food, food, food`
 - 2–4 representative foods per resource where possible
 - do not add extra explanatory prose in this section
+
+```mdx
+### 2. Core Nutritional Requirements
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Core Nutritional Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Resource
+
+</div>
+</div>
+</div>
+```
 
 Avoid:
 
@@ -354,7 +458,85 @@ Not automatically:
 
 > **Additional intake enhances performance.**
 
-Use a short visible **Summary** (synthesis and practical advice grounded in §2) plus hub-collapsible dropdowns per main resource group. Each dropdown opens with `#### Biological Importance` explaining that resource’s contribution to the KC, followed by `Supporting Evidence` using linked bibliography entries in hub integration format (`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al., Year</a> — …`). Related resources (e.g. tryptophan and tyrosine) may share one dropdown with multiple evidence items. Do not create large audit tables.
+#### Evidence-supported Summary
+
+The visible `#### Summary` is the KC equivalent of an evidence-supported PM
+Overview. Treat every substantive statement as a proposition; inherited prose,
+the KC title, ambition, connected-mechanism list and attached references are
+candidate evidence, not authority.
+
+Write for interested members of the public, with nutritionists as the most
+technically specialised intended readers. The Summary must stand alone without
+requiring knowledge of KC governance or the BRS architecture.
+
+Open with one concise explanatory paragraph (normally about 65–90 words) that
+answers:
+
+1. What shared nutritional resource or availability constraint does this KC
+   represent?
+2. Which admitted resources constitute it, and how do they form one coherent
+   pool or bottleneck?
+3. At what evidence-supported claim ceiling can dietary availability matter?
+
+After that paragraph, use exactly three non-duplicative, scannable bullets:
+
+1. **Constraint and membership boundary** — what belongs to the shared
+   constraint and which adjacent cofactors, substrates, pathways or outcomes do
+   not. Mention an excluded input only when it materially clarifies the
+   boundary; do not turn the bullet into an exclusion inventory.
+2. **Evidence / measurement boundary** — what the cited evidence establishes
+   and which tempting interpretation or unmeasured endpoint it does not
+   establish.
+3. **Biological relevance and provision limitation** — why adequate
+   availability matters while separating prevention of constraint from claims
+   that additional intake, supplementation or treatment improves downstream
+   function or clinical outcomes.
+
+The bullets add orientation rather than repeat the paragraph or one another.
+Use readable, claim-local bibliography citations for substantive paragraph and
+bullet claims. Do not attach one general source to several claims it does not
+support.
+
+Reader-facing Summary copy must not discuss internal governance or workflow.
+Do not use maintenance language such as `iKC`, `admitted`, `excluded`,
+`canonical`, `proposed scope`, `Stage 2B`, “on this page”, or “later review.”
+Record those decisions in frontmatter and the KC evidence-review report.
+Translate a scientifically important exclusion into a biological boundary (for
+example, “vitamin B12 is a catalytic cofactor rather than a net methyl-group
+input”), without narrating the adjudication process.
+
+The Summary is synthesis, not practical advice, a miniature review or a
+replacement for the resource disclosures. Study details, source-by-source
+limitations and full constituent rationale belong in the collapsible evidence
+blocks and review report.
+
+Use hub-collapsible dropdowns after the Summary, one per admitted resource.
+Each dropdown uses the same title interaction as §4:
+
+- `data-brs-kc-evidence-resource="slug"` on the dropdown wrapper
+- a chevron button that expands or collapses the full resource evidence panel
+- the resource name once, as a title button: pointer hover or keyboard focus
+  reveals its five-field `kc_input_traceability` disclosure at the title, while
+  activating the title toggles the same panel as the chevron
+- the title text must equal that atom's `kc_constituent_presentations.label`, or
+  its `evidence_label` when a reader-facing synonym or qualifier is shown
+
+The expanded panel opens with `#### Biological Importance` explaining that
+resource’s contribution to the KC, followed by `Supporting Evidence` using
+linked bibliography entries in hub integration format
+(`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al.,
+Year</a> — …`). Do not create large audit tables or a separate five-field bullet
+inside the panel.
+
+Before completing a canonical KC evidence review:
+
+1. compare the Summary claim by claim with `kc_input_traceability`, the
+   adjudicated page definition and governing claim ceilings;
+2. confirm every substantive citation resolves to the intended bibliography
+   record and supports the adjacent proposition;
+3. inspect the rendered Evidence Base and confirm one paragraph, exactly three
+   distinct bullets and clear public-facing boundaries; and
+4. record the Summary check and any unresolved claim in the KC review report.
 
 **Legacy heading:** `### 3. Biological Importance` (retire on migration)
 
@@ -362,13 +544,51 @@ Use a short visible **Summary** (synthesis and practical advice grounded in §2)
 
 Compounds with credible evidence that they **may** support the KC’s regulatory capacity under specific conditions — **not** core nutritional requirements.
 
-For each candidate (when listed), use a hub-collapsible dropdown (same pattern as §3 Evidence Base resource groups). Inside each dropdown:
+For each candidate (when listed), use a hub-collapsible dropdown (same pattern as §3 Evidence Base resource groups):
 
-- `data-brs-emerging-support="slug"` on the dropdown wrapper (for deep-link auto-expand)
-- `#### Candidate Name {#slug}` (parse anchor for hub roll-up)
+- `data-brs-emerging-support="slug"` on the dropdown wrapper (parse anchor and deep-link auto-expand)
+- a chevron button that expands or collapses the full candidate research panel
+- the candidate name once, as a title button: pointer hover or keyboard focus reveals the five-field disclosure at the title, while activating the title toggles the same research panel as the chevron; do not repeat it as an inner `####` heading
 - **Why it is interesting** — regulatory capacity supported, with inline `[Author et al., Year]` where evidence-backed
 - **Why it remains emerging** — evidence boundary (preclinical, condition-specific, inconsistent supplementation, etc.), with inline citations where evidence-backed
 - **Supporting Evidence** — linked bibliography entries in hub integration format (`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al., Year</a> — …`)
+
+Every §4 candidate requires the same five-field atomic currency used elsewhere:
+
+1. Input
+2. Input Type
+3. Biological Role
+4. Evidence Source
+5. Limitation
+
+Store these in `kc_emerging_support_traceability` and project them with
+`kc_emerging_support_presentations`:
+
+```yaml
+kc_emerging_support_traceability:
+  - atom_id: BRSX-KC1-EBS-1
+    input: Evidence-supported intervention
+    input_type: nutrient/substance
+    biological_role: Explicit support claim at the level directly established
+    evidence_source:
+      citation_keys: [supporting_source]
+    evidence_limitation: Visible boundary preventing a broader interpretation
+kc_emerging_support_presentations:
+  - atom_id: BRSX-KC1-EBS-1
+    support_slug: evidence-supported-intervention
+    label: Evidence-supported intervention
+```
+
+These are **support atoms**, not iKC constituent atoms. They must not enter
+`kc_input_traceability`, receive `ikc_membership`, or project into §2 solely
+because they support regulatory capacity. The presentation record may control
+the support slug and candidate-title disclosure label but must not restate the
+five scientific fields. The five-field disclosure is located at the candidate
+title and must appear on pointer hover and keyboard focus. Activating that title
+or the adjacent chevron toggles the full candidate research panel. Where
+study-level detail is needed, also report exposure,
+population/model, measured endpoints, results and limitations inside Supporting
+Evidence.
 
 Hub **Conditional Supplementation** Supports links use `KC2 — Evidence base — Substance` labels pointing to `{kc-page}#{slug}`.
 
@@ -376,7 +596,7 @@ Hub **Conditional Supplementation** Supports links use `KC2 — Evidence base �
 
 When no candidate meets the threshold, state explicitly that no Emerging Biological Supports are currently prioritised. Do not populate from trend lists.
 
-**Hub roll-up:** Each Emerging Biological Support candidate (`####` heading under this section) is auto-populated into the parent BRS hub’s **System Optimisation Practices → Conditional Supplementation** panel (`scripts/lib/kc-emerging-supports.mjs`). Keep candidates source-led and condition-specific; empty KC §4 sections leave Conditional Supplementation as **Coming soon** unless a curated override exists.
+**Hub roll-up:** Each Emerging Biological Support candidate wrapper under this section is auto-populated into the parent BRS hub’s **System Optimisation Practices → Conditional Supplementation** panel (`scripts/lib/kc-emerging-supports.mjs`). Keep candidates source-led and condition-specific; empty KC §4 sections leave Conditional Supplementation as **Coming soon** unless a curated override exists.
 
 ### 5. Connected Mechanisms
 
@@ -641,6 +861,11 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - Every `references[].citation_key` must resolve to `static/bibtex/BRAIN-diet.bib` before publish.
 - If missing, flag: `Missing bibliography entry`
 - Do not require inline citations on compact section 2 bullets; require each bullet to project a KC-owned atom with proposition-specific evidence after canonical review.
+- Section 2 must retain its canonical heading and place its complete body inside
+  the standard collapsed PM-style disclosure defined above.
+- Canonically reviewed §3 Evidence Base content must open with one concise,
+  evidence-supported Summary paragraph followed by exactly three distinct
+  boundary bullets; Summary citations must be claim-local and resolvable.
 - KC references must align with KC Evidence Layer Rules (necessity/sufficiency), not PM/FM intervention evidence types.
 
 ## Deprecated (Do Not Use on New KC Pages)
@@ -671,7 +896,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 |---|---|
 | BRS1(KC1) | LNAA / amino-acid competitive pool constrains multiple distinct BRS1 PMs (transport, monoaminergic, GABA/glutamate) |
 | BRS2(KC1), BRS2(KC2) | Methyl-donor and transsulfuration substrate pools shared across remethylation, SAMe, glutathione, and membrane PMs |
-| BRS3(KC1) | Antioxidant precursor pool shared across NF-κB, NRF2, ROS balance, lipid peroxidation, and network recycling PMs |
+| BRS3(KC1) | Cysteine and glycine availability for glutathione synthesis (glycine conditional). Glutamate/polyphenols/vitamin C excluded from membership. Dual-arm grouping rejected; FM1/PM1–PM2 scope flagged. See `system/brs3-kc1-evidence-review.md` |
 | BRS4(KC1), BRS4(KC2) | Macronutrient fuel and mitochondrial cofactor pools shared across ETC, NAD⁺, biogenesis, and substrate-switching PMs |
 | BRS5(KC1), BRS5(KC2) | Fermentable-fibre and polyphenol/plant-diversity inputs shared across barrier, SCFA, keystone-taxa, and gut–brain PMs |
 | BRS6(KC1), BRS6(KC2) | Glucose substrate and stress-response micronutrient pools shared across glycaemic, HPA, and metabolic PMs |

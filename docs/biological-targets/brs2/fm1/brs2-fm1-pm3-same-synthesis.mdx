@@ -4,9 +4,28 @@ pm_id: BRS2-FM1-PM3
 mission: 'Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.'
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: 'Governs S-adenosylmethionine (SAMe) formation from methionine and ATP through methionine adenosyltransferase (MAT). This PM supplies the methyl-donor pool but does not govern upstream methionine regeneration, whole-cycle flux, or downstream methyltransferase reactions. Circulating SAMe and the SAM:SAH ratio reflect pool and utilisation balance rather than synthesis flux alone. Ordinary dietary variation has not been shown to increase MAT-dependent SAMe production in adequately nourished humans.'
-key_constraints:
-  - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
+evidence_status: stage-2b-dietary-addressability
+summary: 'Methionine adenosyltransferase (MAT) forms S-adenosylmethionine (SAMe) from methionine and ATP, with magnesium and potassium ions coordinating ATP-dependent catalysis. This reaction supplies the methyl donor used by many downstream enzymes, while upstream methionine regeneration and later methyl-transfer reactions remain separate processes. Circulating SAMe and the SAM:SAH ratio integrate production, use and clearance, so they describe pool balance rather than directly measuring MAT synthesis flux.'
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC2)
+    ikc_id: BRS2(KC2)
+    arm_id: methionine-cysteine-sulfur-amino-acid-pool
+    applicability_proposition: Inadequacy of the shared methionine and cysteine pool constrains MAT-dependent SAMe synthesis capacity.
+    disposition: unresolved
+    established_links:
+      - Methionine is the direct amino-acid substrate of MAT (PM3-F1).
+    inferred_links:
+      - Substrate necessity would have to mean that a lower methionine pool reduces MAT flux in humans.
+      - Rodent methyl-deficient diets that lower hepatic SAMe also remove choline or replace methionine with homocystine, so they do not isolate this pool.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+        - PM3-IC1
+      citation_keys:
+        - bailey_human_mat2a_2021
+        - murray_crystallography_2016
+        - corrillero_bravo_analysis_2022
+    rationale: 'Type D is not met. MAT substrate necessity is established, but pool inadequacy has not been shown to constrain human MAT flux. Hepatic SAMe falls in combined methionine–choline deficiency and in methyl-deficient diets that substitute homocystine for methionine; those designs do not isolate the sulfur amino-acid pool, and SAMe concentration is not MAT flux (PM3-IC1). A four-week vegan versus meat-rich pattern did not separate circulating SAM.'
 cofactors:
   - Magnesium ions (Mg²⁺)
   - Potassium ions (K⁺)
@@ -117,14 +136,14 @@ dietary_input_traceability:
         - PM3-F1
       citation_keys:
         - fao_diaas_2013
-    evidence_limitation: Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.
+    evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: biological-dependency
-    permitted_wording: 'Methionine is the Direct amino-acid substrate for MAT-dependent SAMe synthesis. This does not establish that increasing methionine intake increases MAT flux or SAMe synthesis in adequately nourished humans.'
+    permitted_wording: Methionine is the Direct amino-acid substrate for MAT-dependent SAMe synthesis. This does not establish that increasing methionine intake increases MAT flux or SAMe synthesis in adequately nourished humans.
     evidence_limitation: No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.
   - atom_id: PM3-DIT-2
     relationship_layer: biochemical-requirement
@@ -148,30 +167,27 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: 'Dietary protein provides digestible methionine after digestion. This provision relationship does not establish that increasing protein intake increases MAT-dependent SAMe synthesis.'
-    evidence_limitation: Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.
+    permitted_wording: Dietary protein provides digestible methionine after digestion. This provision relationship does not establish that increasing protein intake increases MAT-dependent SAMe synthesis.
+    evidence_limitation: 'Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.'
 dietary_lever_presentations:
   - atom_id: PM3-DIT-1
     label: Methionine
-    presentation_section: '3.1.1'
+    presentation_section: 3.1.1
   - atom_id: PM3-DIT-5
     label: Dietary protein
-    presentation_section: '3.1.1'
+    presentation_section: 3.1.1
   - atom_id: PM3-DIT-1
     label: Methionine
-    presentation_section: '3.1.2'
+    presentation_section: 3.1.2
   - atom_id: PM3-DIT-2
     label: ATP
-    presentation_section: '3.1.2'
+    presentation_section: 3.1.2
   - atom_id: PM3-DIT-3
     label: Magnesium ions (Mg²⁺)
-    presentation_section: '3.1.2'
+    presentation_section: 3.1.2
   - atom_id: PM3-DIT-4
     label: Potassium ions (K⁺)
-    presentation_section: '3.1.2'
-  - atom_id: PM3-DIT-1
-    label: Methionine substrate context
-    presentation_section: '3.1.3'
+    presentation_section: 3.1.2
 scientific_findings_intro: 'SAMe synthesis is the MAT-catalysed conversion of methionine and ATP into SAMe. The reaction has direct biochemical requirements, but those requirements do not by themselves establish dietary control of human synthesis flux. Upstream remethylation and downstream methyl-transfer reactions remain outside this PM.'
 scientific_findings:
   - id: PM3-F1
@@ -292,29 +308,12 @@ scientific_findings:
 
 (Producing the Cell's Methyl-Donor Pool)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.
 
-### Overview
-
-Governs S-adenosylmethionine (SAMe) formation from methionine and ATP through methionine adenosyltransferase (MAT). This PM supplies the methyl-donor pool but does not govern upstream methionine regeneration, whole-cycle flux, or downstream methyltransferase reactions. Circulating SAMe and the SAM:SAH ratio reflect pool and utilisation balance rather than synthesis flux alone. Ordinary dietary variation has not been shown to increase MAT-dependent SAMe production in adequately nourished humans.
-
-* Converts methionine and ATP into SAMe through methionine adenosyltransferase.
-* Supplies a methyl-donor pool used by downstream reactions without governing those reactions.
-* Distinguishes biochemical requirements from demonstrated dietary control of synthesis.
-
-## 2. Primary Biological Effects
-
-↑ MAT-dependent SAMe formation<br />
-↑ availability of the SAMe methyl-donor pool<br />
-→ permissive support for downstream methyl-transfer reactions
-
-## 3. Levers
-
-### Intervention Profile
 
 **Intervention Dominance:** Diet-Supported
 
@@ -366,16 +365,7 @@ Governs S-adenosylmethionine (SAMe) formation from methionine and ATP through me
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">(Key Constraint) (KC2) — Methionine & Transsulfuration Substrate Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Methionine substrate context
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -383,7 +373,23 @@ Governs S-adenosylmethionine (SAMe) formation from methionine and ATP through me
 
 </div>
 </div>
+
 </div>
+### Overview
+
+Methionine adenosyltransferase (MAT) forms S-adenosylmethionine (SAMe) from methionine and ATP, with magnesium and potassium ions coordinating ATP-dependent catalysis [Bailey et al. (2021) [[1]](#pm-ref-1); Murray et al. (2016) [[2]](#pm-ref-2)]. This reaction supplies the methyl donor used by many downstream enzymes, while upstream methionine regeneration and later methyl-transfer reactions remain separate processes. Circulating SAMe and the SAM:SAH ratio integrate production, use and clearance, so they describe pool balance rather than directly measuring MAT synthesis flux [Corrillero Bravo et al. (2022) [[3]](#pm-ref-3)].
+
+* **Mechanism boundary:** Includes MAT-catalysed SAMe formation; methionine regeneration, whole-cycle routing and SAMe-consuming methyltransferase reactions are outside this PM.
+* **Evidence boundary:** Human-enzyme kinetics and structures establish reaction requirements, whereas SAMe concentration and SAM:SAH do not isolate in-vivo MAT flux [Bailey et al. (2021) [[1]](#pm-ref-1); Corrillero Bravo et al. (2022) [[3]](#pm-ref-3)].
+* **Biological relevance:** SAMe formation enables downstream methylation, but biochemical necessity does not show that increasing dietary methionine or catalytic ions raises SAMe synthesis or treats cognitive or mood outcomes.
+
+## 2. Primary Biological Effects
+
+↑ MAT-dependent SAMe formation<br />
+↑ availability of the SAMe methyl-donor pool<br />
+→ permissive support for downstream methyl-transfer reactions
+
+## 3. Intervention Levers
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -459,9 +465,29 @@ Within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs
 
 SAMe synthesis is the MAT-catalysed conversion of methionine and ATP into SAMe. The reaction has direct biochemical requirements, but those requirements do not by themselves establish dietary control of human synthesis flux. Upstream remethylation and downstream methyl-transfer reactions remain outside this PM.
 
-<ScientificFinding finding={{"id":"PM3-F1","finding_label":"MAT converts methionine and ATP into SAMe","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.","finding_interpretation":"This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.","finding_statement":"MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.","synthesis_limitations":"The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.","evidence_considered":[{"label":"Bailey et al. (2021)","citation_key":"bailey_human_mat2a_2021","href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.","assessment":{"study":"Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.","population":"Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.","result":"ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.","effect_magnitude":"ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.","evidence_summary":"Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.","limitations":"In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects."}},{"label":"Murray et al. (2016)","citation_key":"murray_crystallography_2016","href":"/docs/papers/BRAIN-Diet-References#murray_crystallography_2016","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.","assessment":{"study":"X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.","population":"Purified crystallised human MATα2 protein; no cells, animals or human participants.","result":"Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.","effect_magnitude":"Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.","evidence_summary":"Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.","limitations":"Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome."}}],"connected_supportive_evidence":[{"label":"Chiang et al. (1996)","citation_key":"chiang_s-adenosylmethionine_1996","href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","data_level":"Mechanistic","why_relevant":"Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.","why_excluded":"It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux."},{"label":"Corrillero Bravo et al. (2022)","citation_key":"corrillero_bravo_analysis_2022","href":"/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022","data_level":"Human Mechanistic","why_relevant":"Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.","why_excluded":"The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3."}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"},{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
+<ScientificFinding finding={{"id":"PM3-F1","finding_label":"MAT converts methionine and ATP into SAMe","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.","finding_interpretation":"This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.","finding_statement":"MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.","synthesis_limitations":"The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.","evidence_considered":[{"label":"Bailey et al. (2021)","citation_key":"bailey_human_mat2a_2021","href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.","assessment":{"study":"Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.","population":"Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.","result":"ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.","effect_magnitude":"ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.","evidence_summary":"Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.","limitations":"In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects."},"canonical_reference":{"author_year":"Bailey et al. (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Murray et al. (2016)","citation_key":"murray_crystallography_2016","href":"/docs/papers/BRAIN-Diet-References#murray_crystallography_2016","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.","assessment":{"study":"X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.","population":"Purified crystallised human MATα2 protein; no cells, animals or human participants.","result":"Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.","effect_magnitude":"Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.","evidence_summary":"Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.","limitations":"Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome."},"canonical_reference":{"author_year":"Murray et al. (2016)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[{"label":"Chiang et al. (1996)","citation_key":"chiang_s-adenosylmethionine_1996","href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","data_level":"Mechanistic","why_relevant":"Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.","why_excluded":"It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux.","canonical_reference":{"author_year":"Chiang et al. (1996)","number":4,"anchor":"#pm-ref-4"}},{"label":"Corrillero Bravo et al. (2022)","citation_key":"corrillero_bravo_analysis_2022","href":"/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022","data_level":"Human Mechanistic","why_relevant":"Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.","why_excluded":"The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3.","canonical_reference":{"author_year":"Corrillero Bravo et al. (2022)","number":3,"anchor":"#pm-ref-3"}}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"},{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
 
-## 5. Phenome Connections
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) / [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)<br />
+↓<br />
+**BRS2-FM1-PM3 — SAMe Synthesis**<br />
+↓<br />
+[BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+- None listed
+
+### 5.3 Local BRS Mechanism Relationships
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — Remethylates homocysteine to methionine that can enter SAM synthesis. Upstream methionine supply, not the MAT step itself.
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) — Alternative remethylation route to methionine. Parallel supply, not SAM synthetase activity.
+- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — Consumes and regenerates methionine around SAM-using reactions. Shared one-carbon resource, not this PM’s synthesis reaction.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -512,11 +538,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect  [[4]](#pm-ref-4). Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance  [[3]](#pm-ref-3). Direct relationship evidence remains a gap.
+- **Rationale:** SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect  Chiang et al. (1996) [[4]](#pm-ref-4). Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance  Corrillero Bravo et al. (2022) [[3]](#pm-ref-3). Direct relationship evidence remains a gap.
 
 **Supporting evidence**
 
-<ScientificFinding finding={{"id":"PM3-F3","finding_label":"Cognitive relevance is downstream, not a direct MAT-synthesis result","presentation":"phenome-relationship","primary_phenome":"Cognitive Clarity","finding_summary":"SAMe supplies methyl groups to many neural pathways, but the attached evidence does not directly connect MAT-dependent SAMe synthesis capacity with Cognitive Clarity.","finding_interpretation":"General dependence of cognition-relevant pathways on methyl donors must not be presented as direct phenome evidence for PM3.","finding_statement":"The repository-attached methylation evidence establishes SAMe's donor role but does not directly demonstrate that endogenous MAT-dependent SAMe synthesis capacity modulates Cognitive Clarity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The foundational review establishes SAMe as a central methyl donor used in numerous downstream reactions. That broad biochemical role supports plausibility but does not isolate MAT synthesis capacity, measure cognitive clarity, or show that changing synthesis flux changes a cognitive outcome. The PM3-to-Cognitive Clarity relationship therefore remains a mechanistic inference with a direct-evidence gap.","synthesis_limitations":"This conclusion is bounded to the attached corpus plus targeted construct clarification. It does not exclude cognitive consequences in severe inherited disorders or downstream methylation studies; those contexts would not by themselves establish ordinary PM3 modulation.","evidence_considered":[{"label":"Chiang et al. (1996)","citation_key":"chiang_s-adenosylmethionine_1996","href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes SAMe as a principal methyl donor across downstream chemistry but does not measure Cognitive Clarity or endogenous MAT synthesis flux."}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+<ScientificFinding finding={{"id":"PM3-F3","finding_label":"Cognitive relevance is downstream, not a direct MAT-synthesis result","presentation":"phenome-relationship","primary_phenome":"Cognitive Clarity","finding_summary":"SAMe supplies methyl groups to many neural pathways, but the attached evidence does not directly connect MAT-dependent SAMe synthesis capacity with Cognitive Clarity.","finding_interpretation":"General dependence of cognition-relevant pathways on methyl donors must not be presented as direct phenome evidence for PM3.","finding_statement":"The repository-attached methylation evidence establishes SAMe's donor role but does not directly demonstrate that endogenous MAT-dependent SAMe synthesis capacity modulates Cognitive Clarity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The foundational review establishes SAMe as a central methyl donor used in numerous downstream reactions. That broad biochemical role supports plausibility but does not isolate MAT synthesis capacity, measure cognitive clarity, or show that changing synthesis flux changes a cognitive outcome. The PM3-to-Cognitive Clarity relationship therefore remains a mechanistic inference with a direct-evidence gap.","synthesis_limitations":"This conclusion is bounded to the attached corpus plus targeted construct clarification. It does not exclude cognitive consequences in severe inherited disorders or downstream methylation studies; those contexts would not by themselves establish ordinary PM3 modulation.","evidence_considered":[{"label":"Chiang et al. (1996)","citation_key":"chiang_s-adenosylmethionine_1996","href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes SAMe as a principal methyl donor across downstream chemistry but does not measure Cognitive Clarity or endogenous MAT synthesis flux.","canonical_reference":{"author_year":"Chiang et al. (1996)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 </div>
 </div>
 </div>
@@ -536,51 +562,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low
-- **Rationale:** SAMe-dependent methylation is biologically relevant to downstream neurotransmitter and membrane chemistry, but the attached mood-disorder review concerns exogenous SAMe and combined folate/B12 treatment rather than endogenous MAT activity or SAMe synthesis flux  [[5]](#pm-ref-5). It therefore does not directly demonstrate that this PM modulates Emotional Regulation; the relationship remains an indirect framework bridge with a direct-evidence gap.
+- **Rationale:** SAMe-dependent methylation is biologically relevant to downstream neurotransmitter and membrane chemistry, but the attached mood-disorder review concerns exogenous SAMe and combined folate/B12 treatment rather than endogenous MAT activity or SAMe synthesis flux  Cicero and Minervino (2022) [[5]](#pm-ref-5). It therefore does not directly demonstrate that this PM modulates Emotional Regulation; the relationship remains an indirect framework bridge with a direct-evidence gap.
 
 **Supporting evidence**
 
-<ScientificFinding finding={{"id":"PM3-F2","finding_label":"Mood-treatment evidence does not test endogenous SAMe synthesis","presentation":"phenome-relationship","primary_phenome":"Emotional Regulation","finding_summary":"The attached clinical literature discusses exogenous SAMe, folate and vitamin B12 in mood disorders. That intervention context does not test whether endogenous methionine-to-SAMe synthesis through MAT modulates emotional regulation.","finding_interpretation":"The Emotional Regulation relationship is biologically plausible downstream of methyl-donor chemistry but remains indirect for this PM.","finding_statement":"The repository-attached mood-disorder evidence does not directly demonstrate an effect of endogenous MAT-dependent SAMe synthesis capacity on Emotional Regulation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The attached review supports clinical interest in administered SAMe and combined one-carbon nutrients for mood disorders, but its intervention construct is exogenous treatment and its outcomes are mood symptoms. It does not manipulate MAT, quantify endogenous SAMe synthesis flux, or isolate PM3 from upstream folate/B12 remethylation and downstream methyltransferase biology. The PM3-to-Emotional Regulation proposition is therefore an inferred downstream bridge rather than a directly demonstrated relationship.","synthesis_limitations":"This is an adjudicated gap within the bounded attached corpus, not proof that no relationship exists. The source is a narrative clinical review, mixes interventions and pathway levels, and does not provide a PM3-specific causal test.","evidence_considered":[{"label":"Cicero and Minervino (2022)","citation_key":"cicero_combined_2022","href":"/docs/papers/BRAIN-Diet-References#cicero_combined_2022","data_level":"Human Outcome","evidence_source":"repository-inherited","directional_finding":"Reviews exogenous SAMe with folate/B12 in mood-disorder treatment but does not measure MAT activity or endogenous SAMe synthesis flux."}],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) / [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)<br />
-↓<br />
-**BRS2-FM1-PM3 — SAMe Synthesis**<br />
-↓<br />
-[BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-- None listed
-
-### 6.3 Local BRS Mechanism Relationships
-
-- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
-- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | sulfur_amino_acid_context | Represents methionine substrate context, not demonstrated MAT flux. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May describe upstream resource coverage; it is not a SAMe-synthesis measurement. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | Describes food delivery context only; no direct PM3 modulation claim. |
-
+<ScientificFinding finding={{"id":"PM3-F2","finding_label":"Mood-treatment evidence does not test endogenous SAMe synthesis","presentation":"phenome-relationship","primary_phenome":"Emotional Regulation","finding_summary":"The attached clinical literature discusses exogenous SAMe, folate and vitamin B12 in mood disorders. That intervention context does not test whether endogenous methionine-to-SAMe synthesis through MAT modulates emotional regulation.","finding_interpretation":"The Emotional Regulation relationship is biologically plausible downstream of methyl-donor chemistry but remains indirect for this PM.","finding_statement":"The repository-attached mood-disorder evidence does not directly demonstrate an effect of endogenous MAT-dependent SAMe synthesis capacity on Emotional Regulation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The attached review supports clinical interest in administered SAMe and combined one-carbon nutrients for mood disorders, but its intervention construct is exogenous treatment and its outcomes are mood symptoms. It does not manipulate MAT, quantify endogenous SAMe synthesis flux, or isolate PM3 from upstream folate/B12 remethylation and downstream methyltransferase biology. The PM3-to-Emotional Regulation proposition is therefore an inferred downstream bridge rather than a directly demonstrated relationship.","synthesis_limitations":"This is an adjudicated gap within the bounded attached corpus, not proof that no relationship exists. The source is a narrative clinical review, mixes interventions and pathway levels, and does not provide a PM3-specific causal test.","evidence_considered":[{"label":"Cicero and Minervino (2022)","citation_key":"cicero_combined_2022","href":"/docs/papers/BRAIN-Diet-References#cicero_combined_2022","data_level":"Human Outcome","evidence_source":"repository-inherited","directional_finding":"Reviews exogenous SAMe with folate/B12 in mood-disorder treatment but does not measure MAT activity or endogenous SAMe synthesis flux.","canonical_reference":{"author_year":"Cicero and Minervino (2022)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
 </div>
 </div>
 </div>

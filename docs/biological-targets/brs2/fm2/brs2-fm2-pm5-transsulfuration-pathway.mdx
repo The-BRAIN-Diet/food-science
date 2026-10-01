@@ -1,38 +1,27 @@
 ---
 title: Transsulfuration Pathway
 pm_id: BRS2-FM2-PM5
-mission: >-
-  Divert homocysteine toward cysteine so methylation demand is balanced against
-  sulfur amino-acid and redox needs.
+mission: Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.
 parent_fm: BRS2(FM2)
 parent_brs: BRS2
-summary: >-
-  Provides the metabolic switch that diverts homocysteine away from methylation
-  and toward cysteine production via the transsulfuration pathway (an
-  alternative route to the remethylation cycle), linking one-carbon metabolism
-  to sulfur amino-acid and antioxidant chemistry. This diversion becomes more
-  active during periods of increased redox burden, balancing methylation demand
-  against protection against oxidative and metabolic stress. Downstream, this
-  pathway feeds cysteine supply directly into glutathione synthesis.
-key_constraints:
-  - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
+summary: 'Cystathionine beta-synthase joins homocysteine and serine to form cystathionine, and cystathionine gamma-lyase then cleaves cystathionine to release cysteine. Both enzymes require pyridoxal 5''-phosphate, the active cofactor made from vitamin B6. This irreversible branch disposes of homocysteine and produces cysteine. Glutathione synthesis is a later, separate use of that cysteine. Biochemical necessity does not show that eating more vitamin B6 increases the rate of this conversion in people.'
+evidence_status: stage-2b-dietary-addressability
+dietary_addressability: precursor-mediated
+claim_ceiling: biological-dependency
 cofactors:
-  - B6
+  - Pyridoxal 5'-phosphate
+  - Vitamin B6
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Requires B6 + sulfur amino acids
+timing_specific: 'No'
+dose_sensitivity: Pyridoxal 5'-phosphate is required by both enzymes. No human dose-response showing that vitamin B6 intake controls transsulfuration flux was established.
 references:
-  - >-
-    [Gregory et al. (2016) — Vitamin B6 Status Is Associated with the
-    Methionine-homocysteine Cycle in the
-    NHANES](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-  - >-
-    [Kumar et al. (2017) — Transsulfuration
-    Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-  - >-
-    [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric
-    ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+  - '[Belew et al. (2009) — Human CBS kinetics with serine and homocysteine](/docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009)'
+  - '[Meier et al. (2001) — Human CBS structure and PLP dependence](/docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001)'
+  - '[Zhu et al. (2008) — Human CGL kinetics and PLP cofactor](/docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008)'
+  - '[Steegborn et al. (1999) — Human CGL cleavage of cystathionine](/docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999)'
+  - '[di Salvo et al. (2012) — Vitamin B6 salvage to pyridoxal phosphate](/docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012)'
+  - '[Lukovac et al. (2024) — Homocysteine biomarkers in paediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Stress Reactivity
@@ -40,37 +29,336 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: >-
-      B6 status associates with methionine–homocysteine cycle markers supporting
-      transsulfuration as a practical dietary lever; elevated homocysteine in
-      paediatric ADHD intersects oxidative-stress framing where
-      transsulfuration-derived cysteine may modulate stress-relevant redox tone.
-      Direct ADHD stress-reactivity outcome evidence for transsulfuration flux
-      remains limited (biology > evidence gap).
+    rationale: 'Homocysteine can be joined to serine and then cleaved to cysteine, but that chemistry is not evidence of a stress-reactivity effect. A study of boys with ADHD found higher serum homocysteine and lower vitamin B12. It did not measure these enzymes, cysteine production, or stress outcomes, and it is not a treatment result {{cite:lukovac_serum_2024}}.'
+    scientific_findings:
+      - PM5-F3
+      - PM5-F1
+      - PM5-IC1
     references:
       - index: 1
-        label: Gregory et al. (2016)
-        citation_key: gregory_homocysteine_2016
-        href: /docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016
-      - index: 2
         label: Lukovac et al. (2024)
         citation_key: lukovac_serum_2024
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+        data_level: Human Study
   - target_phenome: Recovery Capacity
     relationship_type: indirect
     confidence: low
     evidence_level: mechanistic
     evidence_confidence: low
-    rationale: >-
-      Transsulfuration supplies cysteine for downstream glutathione synthesis —
-      an indirect framework translation to recovery capacity through redox
-      substrate availability rather than measured recovery outcomes in ADHD
-      cohorts.
+    rationale: 'Cysteine released by cystathionine cleavage can be used later for glutathione synthesis, which is a separate mechanism. The enzyme studies do not measure recovery capacity, and they do not show that changing this conversion treats recovery {{cite:zhu_cgl_kinetics_2008,steegborn_cgl_kinetics_1999}}.'
+    scientific_findings:
+      - PM5-F4
+      - PM5-F2
     references:
       - index: 1
-        label: Gregory et al. (2016)
-        citation_key: gregory_homocysteine_2016
-        href: /docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016
+        label: Zhu et al. (2008)
+        citation_key: zhu_cgl_kinetics_2008
+        href: /docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008
+        data_level: Cellular / Molecular
+      - index: 2
+        label: Steegborn et al. (1999)
+        citation_key: steegborn_cgl_kinetics_1999
+        href: /docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999
+        data_level: Cellular / Molecular
+dietary_input_traceability:
+  - atom_id: PM5-DIT-1
+    input: Pyridoxal 5'-phosphate
+    input_type: cofactor
+    biological_role: Active cofactor required by cystathionine beta-synthase and cystathionine gamma-lyase for the homocysteine-to-cysteine conversion.
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+        - PM5-F2
+      citation_keys:
+        - belew_cbs_kinetics_2009
+        - meier_cbs_structure_2001
+        - zhu_cgl_kinetics_2008
+    evidence_limitation: Purified-enzyme dependence on pyridoxal 5'-phosphate does not show that raising vitamin B6 intake increases cysteine formation in people.
+  - atom_id: PM5-DIT-2
+    input: Vitamin B6
+    input_type: cofactor precursor
+    biological_role: 'Food source of the pyridoxal 5''-phosphate cofactor used by cystathionine beta-synthase and cystathionine gamma-lyase, through the vitamin B6 salvage pathway.'
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+        - PM5-IC1
+      citation_keys:
+        - disalvo_plp_availability_2012
+        - belew_cbs_kinetics_2009
+        - zhu_cgl_kinetics_2008
+    evidence_limitation: Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux.
+  - atom_id: PM5-DIT-3
+    input: Homocysteine
+    input_type: substrate
+    biological_role: Methionine-cycle intermediate that cystathionine beta-synthase condenses with serine to form cystathionine.
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+      citation_keys:
+        - belew_cbs_kinetics_2009
+        - meier_cbs_structure_2001
+    evidence_limitation: 'Homocysteine is generated inside one-carbon metabolism. It is not a dietary intake, and its use by cystathionine beta-synthase does not show that diet controls transsulfuration flux.'
+  - atom_id: PM5-DIT-4
+    input: Serine
+    input_type: substrate
+    biological_role: Cosubstrate with homocysteine for cystathionine formation by cystathionine beta-synthase.
+    evidence_source:
+      finding_ids:
+        - PM5-F1
+      citation_keys:
+        - belew_cbs_kinetics_2009
+        - meier_cbs_structure_2001
+    evidence_limitation: Serine is a direct enzyme substrate. Endogenous synthesis and diet can both supply it; this does not show that dietary serine or protein intake increases cystathionine formation.
+  - atom_id: PM5-DIT-5
+    input: Cystathionine
+    input_type: substrate
+    biological_role: Pathway intermediate cleaved by cystathionine gamma-lyase in the step that releases cysteine.
+    evidence_source:
+      finding_ids:
+        - PM5-F2
+      citation_keys:
+        - zhu_cgl_kinetics_2008
+        - steegborn_cgl_kinetics_1999
+    evidence_limitation: 'Cystathionine is formed inside this pathway. It is not a dietary intake, and its cleavage does not measure whole-body transsulfuration flux.'
+dietary_lever_atoms:
+  - atom_id: PM5-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Pyridoxal 5'-phosphate is the cofactor both enzymes require. Diet reaches it through vitamin B6. This does not show that more vitamin B6 increases cysteine formation in people.
+    evidence_limitation: Purified-enzyme dependence on pyridoxal 5'-phosphate does not show that raising vitamin B6 intake increases cysteine formation in people.
+  - atom_id: PM5-DIT-2
+    requirement_classification: derived
+    derived_target: Pyridoxal 5'-phosphate
+    derived_target_atom_id: PM5-DIT-1
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin B6 from food is salvaged to pyridoxal 5'-phosphate. That provision relationship does not show that higher vitamin B6 intake increases transsulfuration flux.
+    evidence_limitation: Salvage of food vitamin B6 to pyridoxal 5'-phosphate does not show that higher vitamin B6 intake increases cystathionine beta-synthase or cystathionine gamma-lyase flux.
+  - atom_id: PM5-DIT-3
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Homocysteine is a substrate of cystathionine beta-synthase. It is a cycle intermediate, not a dietary intake for this conversion.'
+    evidence_limitation: 'Homocysteine is generated inside one-carbon metabolism. It is not a dietary intake, and its use by cystathionine beta-synthase does not show that diet controls transsulfuration flux.'
+  - atom_id: PM5-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Serine is the cosubstrate cystathionine beta-synthase condenses with homocysteine. Diet and endogenous synthesis can both provide serine; neither has been shown here to increase cystathionine formation.
+    evidence_limitation: Serine is a direct enzyme substrate. Endogenous synthesis and diet can both supply it; this does not show that dietary serine or protein intake increases cystathionine formation.
+  - atom_id: PM5-DIT-5
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Cystathionine is the substrate cystathionine gamma-lyase cleaves to release cysteine. It is produced inside the pathway, not eaten as a dietary requirement.'
+    evidence_limitation: 'Cystathionine is formed inside this pathway. It is not a dietary intake, and its cleavage does not measure whole-body transsulfuration flux.'
+dietary_lever_presentations:
+  - atom_id: PM5-DIT-1
+    label: Pyridoxal 5'-phosphate
+    presentation_section: 3.1.1
+  - atom_id: PM5-DIT-2
+    label: Vitamin B6
+    presentation_section: 3.1.1
+  - atom_id: PM5-DIT-3
+    label: Homocysteine
+    presentation_section: 3.1.2
+  - atom_id: PM5-DIT-4
+    label: Serine
+    presentation_section: 3.1.2
+  - atom_id: PM5-DIT-5
+    label: Cystathionine
+    presentation_section: 3.1.2
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC2)
+    ikc_id: BRS2(KC2)
+    arm_id: methionine-cysteine-sulfur-amino-acid-pool
+    applicability_proposition: Inadequacy of the methionine–cysteine sulfur amino acid pool constrains cystathionine beta-synthase and cystathionine gamma-lyase capacity.
+    disposition: unassessed
+    established_links:
+      - Cystathionine beta-synthase condenses homocysteine and serine. Methionine and cysteine are not its substrates (PM5-F1).
+      - Cystathionine gamma-lyase cleaves cystathionine in the step that releases cysteine. Cysteine is the product (PM5-F2).
+      - The KC page defines this pool as methionine and cysteine and excludes serine from membership.
+    inferred_links:
+      - 'Lower methionine availability, or lower S-adenosylmethionine, would have to be shown to reduce this conversion when the pool is inadequate. That capacity-constraint link was not evidenced.'
+    rationale: Homocysteine is a cycle-intermediate substrate and cysteine is the product. Substrate identity does not show that inadequacy of the methionine–cysteine pool reduces this conversion. Type D is unassessed.
+scientific_findings_intro: 'Transsulfuration here is two enzyme steps. Cystathionine beta-synthase joins homocysteine and serine to make cystathionine. Cystathionine gamma-lyase then cleaves cystathionine and releases cysteine. Both enzymes need pyridoxal 5''-phosphate, the active form of vitamin B6. Those requirements do not show that more vitamin B6 speeds the pathway. Glutathione synthesis and homocysteine remethylation are separate mechanisms.'
+scientific_findings:
+  - id: PM5-F1
+    finding_label: CBS joins homocysteine and serine
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Human cystathionine beta-synthase uses pyridoxal 5''-phosphate to join L-homocysteine and L-serine, forming L-cystathionine. Pyridoxal 5''-phosphate is the active form of vitamin B6 recycled from food.'
+    finding_interpretation: Homocysteine and serine are both substrates. The cofactor requirement does not show that eating more vitamin B6 increases cystathionine formation in people.
+    finding_statement: 'Human cystathionine beta-synthase catalyses a pyridoxal 5''-phosphate-dependent condensation of L-serine and L-homocysteine to L-cystathionine, and pyridoxal 5''-phosphate is the active vitamin B6 cofactor recycled from food.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Purified human enzyme kinetics and a crystal structure agree that cystathionine beta-synthase condenses L-serine and L-homocysteine to L-cystathionine and that the reaction depends on pyridoxal 5''-phosphate. A cofactor review identifies that same molecule as the active form of vitamin B6, recycled from food by the salvage pathway. Together these sources define the first reaction and its cofactor. They do not measure whole-body transsulfuration flux or an intake response.'
+    synthesis_limitations: 'The kinetic and structural evidence uses recombinant or crystallised human enzyme, not intact human physiology. The salvage review does not assay cystathionine beta-synthase. Substrate inhibition constants and cofactor identity do not show that ordinary vitamin B6 intake sets the reaction rate.'
+    evidence_considered:
+      - label: Belew et al. (2009)
+        citation_key: belew_cbs_kinetics_2009
+        href: /docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: 'Purified human cystathionine beta-synthase catalysed the pyridoxal 5''-phosphate-dependent condensation of L-serine and L-homocysteine to L-cystathionine, with substrate inhibition by L-homocysteine.'
+        assessment:
+          study: 'Steady-state kinetics of recombinant human cystathionine beta-synthase purified from E. coli, using a continuous coupled assay for cystathionine formation.'
+          population: 'Purified recombinant human enzyme; no cells, animals, or human participants.'
+          result: The enzyme condensed L-serine and L-homocysteine to L-cystathionine. L-Homocysteine inhibited the enzyme at higher concentrations. The reverse hydrolysis of cystathionine was slower than the condensation on a specificity basis.
+          effect_magnitude: Reported Ki for L-homocysteine was 2.1 ± 0.2 mM. The abstract states that kcat/Km for cystathionine hydrolysis was approximately 2-fold lower than kcat/Km for L-serine in the condensation.
+          evidence_summary: Direct human-enzyme evidence that both serine and homocysteine are substrates and that pyridoxal 5'-phosphate is required.
+          limitations: 'In-vitro kinetics do not establish in-vivo flux, dietary responsiveness, or a phenome outcome.'
+      - label: Meier et al. (2001)
+        citation_key: meier_cbs_structure_2001
+        href: /docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: The crystal structure of truncated human cystathionine beta-synthase describes a pyridoxal 5'-phosphate-dependent condensation of serine and homocysteine to cystathionine.
+        assessment:
+          study: X-ray crystal structure of a truncated form of human cystathionine beta-synthase.
+          population: 'Crystallised human enzyme; no cells, animals, or human participants.'
+          result: The structure shows a pyridoxal 5'-phosphate-dependent heme protein that catalyses condensation of serine and homocysteine to cystathionine.
+          effect_magnitude: No physiological effect size applies to this structure.
+          evidence_summary: Independent structural support for the same reaction and for pyridoxal 5'-phosphate dependence.
+          limitations: 'A static structure of a truncated enzyme does not measure flux, nutrient limitation, or dietary dose response.'
+      - label: di Salvo et al. (2012)
+        citation_key: disalvo_plp_availability_2012
+        href: /docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012
+        data_level: Mechanistic
+        exposure_context: review
+        evidence_source: bounded-external-search
+        directional_finding: Pyridoxal 5'-phosphate is the active form of vitamin B6 and is recycled from food by the salvage pathway.
+        assessment:
+          study: 'Narrative review of pyridoxal 5''-phosphate availability, salvage enzymes, and consequences of inadequate intracellular cofactor.'
+          population: No new human cohort; review of human biochemistry and clinical cofactor disorders.
+          result: 'In humans, pyridoxal 5''-phosphate is recycled from food and from degraded enzymes by pyridoxal kinase, pyridoxine 5''-phosphate oxidase, and phosphatases.'
+          effect_magnitude: No transsulfuration rate or vitamin B6 intake-response figure is reported.
+          evidence_summary: Supports the identity of pyridoxal 5'-phosphate as the vitamin B6 cofactor supplied from food. It does not assay this pathway.
+          limitations: A salvage review cannot show that vitamin B6 intake changes cystathionine beta-synthase flux.
+    evidence_dependency:
+      - di Salvo et al. (2012) is also used in PM5-IC1 to bound intake claims. It is not a second measurement of the condensation reaction.
+  - id: PM5-F2
+    finding_label: CGL cleaves cystathionine and releases cysteine
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Human cystathionine gamma-lyase is a pyridoxal 5'-phosphate-dependent enzyme that cleaves L-cystathionine in the transsulfuration step that produces cysteine. Cysteine is the product of this step. Glutathione synthesis is a later pathway.
+    finding_interpretation: 'Cystathionine is the substrate and cysteine is the product. Cysteine is not a substrate of this conversion, and glutathione synthesis is not this reaction.'
+    finding_statement: Human cystathionine gamma-lyase requires pyridoxal 5'-phosphate and cleaves L-cystathionine in the transsulfuration step that produces cysteine.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Kinetic work on recombinant human cystathionine gamma-lyase shows gamma-lyase activity toward L-cystathionine and only marginal reactivity toward L-cysteine. A separate human-enzyme study identifies the enzyme as pyridoxal 5''-phosphate-dependent and places it in the transsulfuration route that converts homocysteine to cysteine, with cystathionine as the assayed substrate. Cysteine is therefore the pathway product of this step, not its substrate. Neither study measures glutathione synthesis.'
+    synthesis_limitations: 'Both studies use recombinant human enzyme. The 2008 paper''s numeric comparisons concern disease-associated mutants and a common polymorphism, not dietary intake. The abstracts establish cystathionine cleavage and the homocysteine-to-cysteine role; they were not used as a product-table for every coproduct. Glutathione synthesis remains outside this finding.'
+    evidence_considered:
+      - label: Steegborn et al. (1999)
+        citation_key: steegborn_cgl_kinetics_1999
+        href: /docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Recombinant human cystathionine gamma-lyase showed high gamma-lyase activity toward L-cystathionine and only marginal reactivity toward L-cysteine.
+        assessment:
+          study: 'Cloning of human cystathionine gamma-lyase from Hep G2 RNA, bacterial expression, and steady-state kinetics with L-cystathionine.'
+          population: Purified recombinant human enzyme; no human participants.
+          result: 'The enzyme preferred L-cystathionine as a gamma-lyase substrate. Reactivity toward L-cysteine and L-cystine was marginal, and cystathionine beta-lyase activity was not detected.'
+          effect_magnitude: 'Reported Km for L-cystathionine was 0.5 mM and Vmax was 2.5 units/mg, with an optimum pH of 8.2.'
+          evidence_summary: Direct kinetic evidence that L-cystathionine is the substrate and that L-cysteine is a poor substrate of this enzyme.
+          limitations: In-vitro kinetics do not establish in-vivo flux or a dietary response. The abstract does not tabulate every coproduct.
+      - label: Zhu et al. (2008)
+        citation_key: zhu_cgl_kinetics_2008
+        href: /docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: 'Human cystathionine gamma-lyase is pyridoxal 5''-phosphate-dependent, functions in the transsulfuration pathway that converts homocysteine to cysteine, and was assayed with cystathionine.'
+        assessment:
+          study: Kinetic and spectrophotometric comparison of wild-type human cystathionine gamma-lyase with pathogenic mutants and a common polymorphism.
+          population: Recombinant human enzyme variants; no human participants in the kinetic assays.
+          result: 'The polymorphism did not change cofactor content or the tested steady-state parameters. Pathogenic mutants had lower Vmax, lower pyridoxal 5''-phosphate content, and cystathionine Km values comparable to wild type.'
+          effect_magnitude: T67I Vmax was about 3.5-fold lower and Q240E Vmax about 70-fold lower than wild type. Mutant pyridoxal 5'-phosphate content was about 4-fold and 80-fold lower. Wild-type Km was not stated in the abstract.
+          evidence_summary: Confirms pyridoxal 5'-phosphate dependence and cystathionine as the substrate in the homocysteine-to-cysteine pathway.
+          limitations: 'Mutant fold-changes describe rare enzyme defects, not ordinary diet. The study does not measure glutathione synthesis or recovery.'
+    evidence_dependency:
+      - 'Zhu et al. (2008) and Steegborn et al. (1999) are also cited by PM5-F4. That reuse is the same reaction evidence, not a recovery measurement.'
+  - id: PM5-IC1
+    finding_label: Cofactor dependence is not an intake or flux result
+    presentation: interpretive-constraint
+    finding_summary: 'Showing that the enzymes need pyridoxal 5''-phosphate, or that food vitamin B6 can be salvaged to that cofactor, does not measure pathway flux and does not show that vitamin B6 intake controls cysteine formation.'
+    finding_interpretation: Circulating markers and cofactor biochemistry answer different questions. Neither is a licence to treat vitamin B6 intake as a proven controller of this conversion.
+    finding_statement: Pyridoxal 5'-phosphate dependence and vitamin B6 salvage do not measure cystathionine beta-synthase or cystathionine gamma-lyase flux and do not prove that vitamin B6 intake controls transsulfuration.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: The enzyme studies establish a cofactor requirement under biochemical conditions. The salvage review establishes that food vitamin B6 is recycled to pyridoxal 5'-phosphate. None of these sources reports a human tracer measurement of transsulfuration flux before and after a change in vitamin B6 intake. A cofactor requirement and a salvage route therefore cannot be read as proof that intake controls flux.
+    synthesis_limitations: This is a boundary on the evidence in hand. It does not claim that a future intake study would be negative. The repository record previously used for a population association does not resolve to that study and is not part of this synthesis.
+    evidence_considered:
+      - label: di Salvo et al. (2012)
+        citation_key: disalvo_plp_availability_2012
+        href: /docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012
+        data_level: Mechanistic
+        exposure_context: review
+        evidence_source: bounded-external-search
+        directional_finding: Food vitamin B6 is salvaged to pyridoxal 5'-phosphate; the review does not measure transsulfuration flux.
+      - label: Belew et al. (2009)
+        citation_key: belew_cbs_kinetics_2009
+        href: /docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: 'Human cystathionine beta-synthase kinetics show pyridoxal 5''-phosphate dependence in purified enzyme, not a vitamin B6 intake effect.'
+    evidence_dependency:
+      - Belew et al. (2009) and di Salvo et al. (2012) are also primary evidence in PM5-F1. Here they constrain interpretation; they are not independent replications of an intake trial.
+  - id: PM5-F3
+    finding_label: ADHD homocysteine markers do not test this pathway or stress treatment
+    presentation: phenome-relationship
+    primary_phenome: Stress Reactivity
+    finding_summary: 'A paediatric study found higher serum homocysteine and lower vitamin B12 in boys with ADHD than in controls. It did not measure transsulfuration enzymes, cysteine production, stress reactivity, or a treatment effect.'
+    finding_interpretation: Homocysteine concentration in that cohort must not be read as evidence that this conversion modulates stress reactivity or treats ADHD or stress.
+    finding_statement: The assessed paediatric ADHD biomarker study does not show that transsulfuration modulates stress reactivity or that it treats stress or ADHD.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The study compared serum homocysteine, vitamin B12, vitamin D, ferritin, and iron in boys with ADHD and age-matched controls. Homocysteine was higher and vitamin B12 was lower in the ADHD group, and the authors treated homocysteine as a possible prognostic marker. The measurements are circulating biomarkers. They do not include cystathionine beta-synthase, cystathionine gamma-lyase, cystathionine, cysteine, pyridoxal 5''-phosphate, stress-reactivity scores, or an intervention.'
+    synthesis_limitations: 'This is a gap for the phenome relationship, not proof that no relationship exists. The cohort is boys only, the design is cross-sectional, and diagnosis-marker associations are not pathway flux.'
+    evidence_considered:
+      - label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+        data_level: Human Study
+        exposure_context: observational-biomarker
+        evidence_source: repository-inherited
+        directional_finding: 'Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls. Transsulfuration enzymes, cysteine production, and stress outcomes were not measured.'
+        assessment:
+          study: 'Cross-sectional serum biomarker comparison using spectrophotometry and immunoassays, with behavioural and cognitive assessments.'
+          population: 133 boys aged 6.5–12.5 years; 67 with DSM-V ADHD and 66 age-matched controls.
+          result: 'Homocysteine was higher and vitamin B12 was lower in the ADHD group. Logistic regression treated homocysteine as a potential prognostic indicator. Vitamin D, ferritin, and iron were also measured.'
+          effect_magnitude: The abstract reports significant group differences and does not provide the mean concentrations used here.
+          evidence_summary: 'Human observational evidence about serum homocysteine and vitamin B12 in paediatric ADHD, not about this enzyme pathway.'
+          limitations: 'Boys only; no enzyme activity, flux, cysteine, stress-reactivity, or treatment endpoint.'
+  - id: PM5-F4
+    finding_label: Cysteine release is not a recovery measurement
+    presentation: phenome-relationship
+    primary_phenome: Recovery Capacity
+    finding_summary: 'The pathway releases cysteine. Later glutathione synthesis can use that cysteine, but the assessed enzyme evidence does not measure recovery capacity.'
+    finding_interpretation: An indirect biological bridge to recovery is not a recovery outcome and is not a treatment claim.
+    finding_statement: 'Cysteine produced by cystathionine cleavage can supply later glutathione synthesis, but the assessed evidence does not measure recovery capacity.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Human cystathionine gamma-lyase studies establish cleavage of cystathionine in the step that produces cysteine. Glutathione synthesis is a downstream use of cysteine and is outside this mechanism. Neither enzyme paper measures recovery, stress, or a clinical outcome. The recovery relationship therefore stays an indirect framework bridge.'
+    synthesis_limitations: 'The finding bounds the enzyme corpus. It does not review glutathione trials, and those trials would belong to glutathione synthesis rather than to this conversion.'
+    evidence_considered:
+      - label: Zhu et al. (2008)
+        citation_key: zhu_cgl_kinetics_2008
+        href: /docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Human cystathionine gamma-lyase takes part in homocysteine-to-cysteine conversion and does not measure recovery.
+      - label: Steegborn et al. (1999)
+        citation_key: steegborn_cgl_kinetics_1999
+        href: /docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999
+        data_level: Cellular / Molecular
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Human cystathionine gamma-lyase cleaves L-cystathionine and shows little activity toward L-cysteine. Recovery was not measured.
+    evidence_dependency:
+      - Zhu et al. (2008) and Steegborn et al. (1999) are the same studies as in PM5-F2. PM5-F4 uses them only to keep the product boundary distinct from recovery.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -82,26 +370,187 @@ phenome_relationships:
 
 ## BRS2-FM2-PM5 - Transsulfuration Pathway
 
-(Routing Homocysteine Toward Cysteine & Glutathione)
+(Converting Homocysteine and Serine into Cysteine)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.
 
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Pyridoxal 5'-phosphate
+- Vitamin B6
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Homocysteine
+- Serine
+- Cystathionine
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Provides the metabolic switch that diverts homocysteine away from methylation and toward cysteine production via the transsulfuration pathway (an alternative route to the remethylation cycle), linking one-carbon metabolism to sulfur amino-acid and antioxidant chemistry. This diversion becomes more active during periods of increased redox burden, balancing methylation demand against protection against oxidative and metabolic stress. Downstream, this pathway feeds cysteine supply directly into glutathione synthesis.
+Cystathionine beta-synthase joins homocysteine and serine to form cystathionine, and cystathionine gamma-lyase then cleaves cystathionine to release cysteine [Belew et al. (2009) [[1]](#pm-ref-1); Meier et al. (2001) [[2]](#pm-ref-2); Zhu et al. (2008) [[3]](#pm-ref-3); Steegborn et al. (1999) [[4]](#pm-ref-4)]. Both enzymes require pyridoxal 5'-phosphate, the active cofactor made from vitamin B6 [Belew et al. (2009) [[1]](#pm-ref-1); di Salvo et al. (2012) [[5]](#pm-ref-5)]. This irreversible branch disposes of homocysteine and produces cysteine. Glutathione synthesis is a later, separate use of that cysteine. Biochemical necessity does not show that eating more vitamin B6 increases the rate of this conversion in people [di Salvo et al. (2012) [[5]](#pm-ref-5)].
 
-* Diverts homocysteine toward cysteine production via an alternative route.
-* Balances methylation demand against antioxidant and redox protection.
-* Feeds cysteine supply directly into downstream glutathione synthesis.
+* **Mechanism boundary:** Covers the two enzyme steps from homocysteine plus serine, through cystathionine, to cysteine. Homocysteine remethylation and glutathione synthesis sit outside this conversion [Zhu et al. (2008) [[3]](#pm-ref-3)].
+* **Evidence boundary:** Enzyme kinetics and a crystal structure establish the reactions and the pyridoxal 5'-phosphate requirement. They do not measure whole-body flux, and they do not show that vitamin B6 intake controls it [Belew et al. (2009) [[1]](#pm-ref-1); Meier et al. (2001) [[2]](#pm-ref-2)].
+* **Biological relevance:** Cysteine made here can be used later, including for glutathione. A serum study in boys with ADHD measured homocysteine, not this pathway or a stress or recovery outcome, and does not justify treatment [Lukovac et al. (2024) [[6]](#pm-ref-6)].
 
 ## 2. Primary Biological Effects
-↑ cysteine availability; ↑ glutathione precursor supply; ↑ sulfur amino-acid metabolism; ↑ antioxidant defence capacity; ↑ homocysteine disposal; ↑ metabolic resilience under oxidative stress
 
-## 3. Phenome Connections
+↑ cystathionine formation from homocysteine and serine<br />
+↑ cysteine release from cystathionine<br />
+↑ irreversible disposal of homocysteine through this branch
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No preparation, supplement, fasting, or circadian practice assessed here has been shown to change this homocysteine-to-cysteine conversion.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No sleep, activity, or stress-recovery practice assessed here has been shown to change this homocysteine-to-cysteine conversion.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Homocysteine can leave the methyl cycle when it is joined to serine and the product is cleaved to cysteine. Those two enzyme steps set the chemistry of this conversion. They do not, by themselves, show how a change in vitamin B6 intake changes the rate in people.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Transsulfuration pathway — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Homocysteine and serine become cystathionine)
+
+Cystathionine beta-synthase condenses L-homocysteine and L-serine to L-cystathionine. The reaction requires pyridoxal 5'-phosphate (PLP), the active cofactor form of vitamin B6 [Belew et al. (2009) [[1]](#pm-ref-1); Meier et al. (2001) [[2]](#pm-ref-2)]. Both amino acids are substrates. Homocysteine is the sulfur amino acid coming from the methionine cycle. Serine is the cosubstrate that CBS condenses with it.
+
+#### (Cystathionine cleavage releases cysteine)
+
+Cystathionine gamma-lyase (CGL; also called CSE) is PLP-dependent and cleaves L-cystathionine in the step that produces cysteine [Zhu et al. (2008) [[3]](#pm-ref-3); Steegborn et al. (1999) [[4]](#pm-ref-4)]. Recombinant enzyme work shows strong gamma-lyase activity toward L-cystathionine and only marginal activity toward L-cysteine [[4]](#pm-ref-4). Cysteine is the product. It is not a substrate of this conversion.
+
+#### (Vitamin B6 supplies the cofactor)
+
+Food vitamin B6 is recycled to PLP by pyridoxal kinase, pyridoxine 5'-phosphate oxidase, and phosphatases [di Salvo et al. (2012) [[5]](#pm-ref-5)]. That salvage route explains why vitamin B6 matters to both enzymes. It does not measure how fast CBS or cystathionine gamma-lyase runs, and it does not show that a larger vitamin B6 intake increases cysteine formation.
+
+#### (Boundaries of the mechanism)
+
+This conversion is the irreversible route from homocysteine and serine, through cystathionine, to cysteine.
+
+Remethylation of homocysteine belongs to [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe formation and whole-cycle throughput belong to [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) and [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+Glutathione synthesis from cysteine belongs to [BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). Later antioxidant use of glutathione belongs with [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress).
+
+#### (Integration within BRS2)
+
+Within [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling), this conversion releases the cysteine that glutathione synthesis can use. Homocysteine that is not remethylated is the sulfur substrate of the first step. The split between remethylation and this branch is not measured on this page.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Transsulfuration here is two enzyme steps. Cystathionine beta-synthase joins homocysteine and serine to make cystathionine. Cystathionine gamma-lyase then cleaves cystathionine and releases cysteine. Both enzymes need pyridoxal 5'-phosphate, the active form of vitamin B6. Those requirements do not show that more vitamin B6 speeds the pathway. Glutathione synthesis and homocysteine remethylation are separate mechanisms.
+
+<ScientificFinding finding={{"id":"PM5-F1","finding_label":"CBS joins homocysteine and serine","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human cystathionine beta-synthase uses pyridoxal 5'-phosphate to join L-homocysteine and L-serine, forming L-cystathionine. Pyridoxal 5'-phosphate is the active form of vitamin B6 recycled from food.","finding_interpretation":"Homocysteine and serine are both substrates. The cofactor requirement does not show that eating more vitamin B6 increases cystathionine formation in people.","finding_statement":"Human cystathionine beta-synthase catalyses a pyridoxal 5'-phosphate-dependent condensation of L-serine and L-homocysteine to L-cystathionine, and pyridoxal 5'-phosphate is the active vitamin B6 cofactor recycled from food.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Purified human enzyme kinetics and a crystal structure agree that cystathionine beta-synthase condenses L-serine and L-homocysteine to L-cystathionine and that the reaction depends on pyridoxal 5'-phosphate. A cofactor review identifies that same molecule as the active form of vitamin B6, recycled from food by the salvage pathway. Together these sources define the first reaction and its cofactor. They do not measure whole-body transsulfuration flux or an intake response.","synthesis_limitations":"The kinetic and structural evidence uses recombinant or crystallised human enzyme, not intact human physiology. The salvage review does not assay cystathionine beta-synthase. Substrate inhibition constants and cofactor identity do not show that ordinary vitamin B6 intake sets the reaction rate.","evidence_considered":[{"label":"Belew et al. (2009)","citation_key":"belew_cbs_kinetics_2009","href":"/docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Purified human cystathionine beta-synthase catalysed the pyridoxal 5'-phosphate-dependent condensation of L-serine and L-homocysteine to L-cystathionine, with substrate inhibition by L-homocysteine.","assessment":{"study":"Steady-state kinetics of recombinant human cystathionine beta-synthase purified from E. coli, using a continuous coupled assay for cystathionine formation.","population":"Purified recombinant human enzyme; no cells, animals, or human participants.","result":"The enzyme condensed L-serine and L-homocysteine to L-cystathionine. L-Homocysteine inhibited the enzyme at higher concentrations. The reverse hydrolysis of cystathionine was slower than the condensation on a specificity basis.","effect_magnitude":"Reported Ki for L-homocysteine was 2.1 ± 0.2 mM. The abstract states that kcat/Km for cystathionine hydrolysis was approximately 2-fold lower than kcat/Km for L-serine in the condensation.","evidence_summary":"Direct human-enzyme evidence that both serine and homocysteine are substrates and that pyridoxal 5'-phosphate is required.","limitations":"In-vitro kinetics do not establish in-vivo flux, dietary responsiveness, or a phenome outcome."},"canonical_reference":{"author_year":"Belew et al. (2009)","number":1,"anchor":"#pm-ref-1"}},{"label":"Meier et al. (2001)","citation_key":"meier_cbs_structure_2001","href":"/docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"The crystal structure of truncated human cystathionine beta-synthase describes a pyridoxal 5'-phosphate-dependent condensation of serine and homocysteine to cystathionine.","assessment":{"study":"X-ray crystal structure of a truncated form of human cystathionine beta-synthase.","population":"Crystallised human enzyme; no cells, animals, or human participants.","result":"The structure shows a pyridoxal 5'-phosphate-dependent heme protein that catalyses condensation of serine and homocysteine to cystathionine.","effect_magnitude":"No physiological effect size applies to this structure.","evidence_summary":"Independent structural support for the same reaction and for pyridoxal 5'-phosphate dependence.","limitations":"A static structure of a truncated enzyme does not measure flux, nutrient limitation, or dietary dose response."},"canonical_reference":{"author_year":"Meier et al. (2001)","number":2,"anchor":"#pm-ref-2"}},{"label":"di Salvo et al. (2012)","citation_key":"disalvo_plp_availability_2012","href":"/docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012","data_level":"Mechanistic","exposure_context":"review","evidence_source":"bounded-external-search","directional_finding":"Pyridoxal 5'-phosphate is the active form of vitamin B6 and is recycled from food by the salvage pathway.","assessment":{"study":"Narrative review of pyridoxal 5'-phosphate availability, salvage enzymes, and consequences of inadequate intracellular cofactor.","population":"No new human cohort; review of human biochemistry and clinical cofactor disorders.","result":"In humans, pyridoxal 5'-phosphate is recycled from food and from degraded enzymes by pyridoxal kinase, pyridoxine 5'-phosphate oxidase, and phosphatases.","effect_magnitude":"No transsulfuration rate or vitamin B6 intake-response figure is reported.","evidence_summary":"Supports the identity of pyridoxal 5'-phosphate as the vitamin B6 cofactor supplied from food. It does not assay this pathway.","limitations":"A salvage review cannot show that vitamin B6 intake changes cystathionine beta-synthase flux."},"canonical_reference":{"author_year":"di Salvo et al. (2012)","number":5,"anchor":"#pm-ref-5"}}],"evidence_dependency":["di Salvo et al. (2012) is also used in PM5-IC1 to bound intake claims. It is not a second measurement of the condensation reaction."],"connected_supportive_evidence":[],"informs":[{"phenome":"Stress Reactivity","href":"/docs/phenomes/details/ph015-stress-reactivity"}]}} />
+
+<ScientificFinding finding={{"id":"PM5-F2","finding_label":"CGL cleaves cystathionine and releases cysteine","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human cystathionine gamma-lyase is a pyridoxal 5'-phosphate-dependent enzyme that cleaves L-cystathionine in the transsulfuration step that produces cysteine. Cysteine is the product of this step. Glutathione synthesis is a later pathway.","finding_interpretation":"Cystathionine is the substrate and cysteine is the product. Cysteine is not a substrate of this conversion, and glutathione synthesis is not this reaction.","finding_statement":"Human cystathionine gamma-lyase requires pyridoxal 5'-phosphate and cleaves L-cystathionine in the transsulfuration step that produces cysteine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Kinetic work on recombinant human cystathionine gamma-lyase shows gamma-lyase activity toward L-cystathionine and only marginal reactivity toward L-cysteine. A separate human-enzyme study identifies the enzyme as pyridoxal 5'-phosphate-dependent and places it in the transsulfuration route that converts homocysteine to cysteine, with cystathionine as the assayed substrate. Cysteine is therefore the pathway product of this step, not its substrate. Neither study measures glutathione synthesis.","synthesis_limitations":"Both studies use recombinant human enzyme. The 2008 paper's numeric comparisons concern disease-associated mutants and a common polymorphism, not dietary intake. The abstracts establish cystathionine cleavage and the homocysteine-to-cysteine role; they were not used as a product-table for every coproduct. Glutathione synthesis remains outside this finding.","evidence_considered":[{"label":"Steegborn et al. (1999)","citation_key":"steegborn_cgl_kinetics_1999","href":"/docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Recombinant human cystathionine gamma-lyase showed high gamma-lyase activity toward L-cystathionine and only marginal reactivity toward L-cysteine.","assessment":{"study":"Cloning of human cystathionine gamma-lyase from Hep G2 RNA, bacterial expression, and steady-state kinetics with L-cystathionine.","population":"Purified recombinant human enzyme; no human participants.","result":"The enzyme preferred L-cystathionine as a gamma-lyase substrate. Reactivity toward L-cysteine and L-cystine was marginal, and cystathionine beta-lyase activity was not detected.","effect_magnitude":"Reported Km for L-cystathionine was 0.5 mM and Vmax was 2.5 units/mg, with an optimum pH of 8.2.","evidence_summary":"Direct kinetic evidence that L-cystathionine is the substrate and that L-cysteine is a poor substrate of this enzyme.","limitations":"In-vitro kinetics do not establish in-vivo flux or a dietary response. The abstract does not tabulate every coproduct."},"canonical_reference":{"author_year":"Steegborn et al. (1999)","number":4,"anchor":"#pm-ref-4"}},{"label":"Zhu et al. (2008)","citation_key":"zhu_cgl_kinetics_2008","href":"/docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Human cystathionine gamma-lyase is pyridoxal 5'-phosphate-dependent, functions in the transsulfuration pathway that converts homocysteine to cysteine, and was assayed with cystathionine.","assessment":{"study":"Kinetic and spectrophotometric comparison of wild-type human cystathionine gamma-lyase with pathogenic mutants and a common polymorphism.","population":"Recombinant human enzyme variants; no human participants in the kinetic assays.","result":"The polymorphism did not change cofactor content or the tested steady-state parameters. Pathogenic mutants had lower Vmax, lower pyridoxal 5'-phosphate content, and cystathionine Km values comparable to wild type.","effect_magnitude":"T67I Vmax was about 3.5-fold lower and Q240E Vmax about 70-fold lower than wild type. Mutant pyridoxal 5'-phosphate content was about 4-fold and 80-fold lower. Wild-type Km was not stated in the abstract.","evidence_summary":"Confirms pyridoxal 5'-phosphate dependence and cystathionine as the substrate in the homocysteine-to-cysteine pathway.","limitations":"Mutant fold-changes describe rare enzyme defects, not ordinary diet. The study does not measure glutathione synthesis or recovery."},"canonical_reference":{"author_year":"Zhu et al. (2008)","number":3,"anchor":"#pm-ref-3"}}],"evidence_dependency":["Zhu et al. (2008) and Steegborn et al. (1999) are also cited by PM5-F4. That reuse is the same reaction evidence, not a recovery measurement."],"connected_supportive_evidence":[],"informs":[{"phenome":"Recovery Capacity","href":"/docs/phenomes/details/ph005-recovery-capacity"}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
+↓
+[BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+- None listed
+
+### 5.3 Local BRS Mechanism Relationships
+
+- [BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis) — Cysteine released when cystathionine is cleaved is the sulfur amino acid consumed when glutathione is assembled. Assembly of glutathione, and the redox reactions that spend it, sit outside this conversion.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -152,10 +601,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** B6 status associates with methionine–homocysteine cycle markers supporting transsulfuration as a practical dietary lever; elevated homocysteine in paediatric ADHD intersects oxidative-stress framing where transsulfuration-derived cysteine may modulate stress-relevant redox tone. Direct ADHD stress-reactivity outcome evidence for transsulfuration flux remains limited (biology > evidence gap).
-- **Key References:**
+- **Rationale:** Homocysteine can be joined to serine and then cleaved to cysteine, but that chemistry is not evidence of a stress-reactivity effect. A study of boys with ADHD found higher serum homocysteine and lower vitamin B12. It did not measure these enzymes, cysteine production, or stress outcomes, and it is not a treatment result  Lukovac et al. (2024) [[6]](#pm-ref-6).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM5-F3","finding_label":"ADHD homocysteine markers do not test this pathway or stress treatment","presentation":"phenome-relationship","primary_phenome":"Stress Reactivity","finding_summary":"A paediatric study found higher serum homocysteine and lower vitamin B12 in boys with ADHD than in controls. It did not measure transsulfuration enzymes, cysteine production, stress reactivity, or a treatment effect.","finding_interpretation":"Homocysteine concentration in that cohort must not be read as evidence that this conversion modulates stress reactivity or treats ADHD or stress.","finding_statement":"The assessed paediatric ADHD biomarker study does not show that transsulfuration modulates stress reactivity or that it treats stress or ADHD.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The study compared serum homocysteine, vitamin B12, vitamin D, ferritin, and iron in boys with ADHD and age-matched controls. Homocysteine was higher and vitamin B12 was lower in the ADHD group, and the authors treated homocysteine as a possible prognostic marker. The measurements are circulating biomarkers. They do not include cystathionine beta-synthase, cystathionine gamma-lyase, cystathionine, cysteine, pyridoxal 5'-phosphate, stress-reactivity scores, or an intervention.","synthesis_limitations":"This is a gap for the phenome relationship, not proof that no relationship exists. The cohort is boys only, the design is cross-sectional, and diagnosis-marker associations are not pathway flux.","evidence_considered":[{"label":"Lukovac et al. (2024)","citation_key":"lukovac_serum_2024","href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","data_level":"Human Study","exposure_context":"observational-biomarker","evidence_source":"repository-inherited","directional_finding":"Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls. Transsulfuration enzymes, cysteine production, and stress outcomes were not measured.","assessment":{"study":"Cross-sectional serum biomarker comparison using spectrophotometry and immunoassays, with behavioural and cognitive assessments.","population":"133 boys aged 6.5–12.5 years; 67 with DSM-V ADHD and 66 age-matched controls.","result":"Homocysteine was higher and vitamin B12 was lower in the ADHD group. Logistic regression treated homocysteine as a potential prognostic indicator. Vitamin D, ferritin, and iron were also measured.","effect_magnitude":"The abstract reports significant group differences and does not provide the mean concentrations used here.","evidence_summary":"Human observational evidence about serum homocysteine and vitamin B12 in paediatric ADHD, not about this enzyme pathway.","limitations":"Boys only; no enzyme activity, flux, cysteine, stress-reactivity, or treatment endpoint."},"canonical_reference":{"author_year":"Lukovac et al. (2024)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Stress Reactivity","href":"/docs/phenomes/details/ph015-stress-reactivity"}]}} />
 </div>
 </div>
 </div>
@@ -175,253 +625,21 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Transsulfuration supplies cysteine for downstream glutathione synthesis — an indirect framework translation to recovery capacity through redox substrate availability rather than measured recovery outcomes in ADHD cohorts.
-- **Key References:**
+- **Rationale:** Cysteine released by cystathionine cleavage can be used later for glutathione synthesis, which is a separate mechanism. The enzyme studies do not measure recovery capacity, and they do not show that changing this conversion treats recovery  Zhu et al. (2008) [[3]](#pm-ref-3); Steegborn et al. (1999) [[4]](#pm-ref-4).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM5-F4","finding_label":"Cysteine release is not a recovery measurement","presentation":"phenome-relationship","primary_phenome":"Recovery Capacity","finding_summary":"The pathway releases cysteine. Later glutathione synthesis can use that cysteine, but the assessed enzyme evidence does not measure recovery capacity.","finding_interpretation":"An indirect biological bridge to recovery is not a recovery outcome and is not a treatment claim.","finding_statement":"Cysteine produced by cystathionine cleavage can supply later glutathione synthesis, but the assessed evidence does not measure recovery capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human cystathionine gamma-lyase studies establish cleavage of cystathionine in the step that produces cysteine. Glutathione synthesis is a downstream use of cysteine and is outside this mechanism. Neither enzyme paper measures recovery, stress, or a clinical outcome. The recovery relationship therefore stays an indirect framework bridge.","synthesis_limitations":"The finding bounds the enzyme corpus. It does not review glutathione trials, and those trials would belong to glutathione synthesis rather than to this conversion.","evidence_considered":[{"label":"Zhu et al. (2008)","citation_key":"zhu_cgl_kinetics_2008","href":"/docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Human cystathionine gamma-lyase takes part in homocysteine-to-cysteine conversion and does not measure recovery.","canonical_reference":{"author_year":"Zhu et al. (2008)","number":3,"anchor":"#pm-ref-3"}},{"label":"Steegborn et al. (1999)","citation_key":"steegborn_cgl_kinetics_1999","href":"/docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999","data_level":"Cellular / Molecular","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Human cystathionine gamma-lyase cleaves L-cystathionine and shows little activity toward L-cysteine. Recovery was not measured.","canonical_reference":{"author_year":"Steegborn et al. (1999)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Zhu et al. (2008) and Steegborn et al. (1999) are the same studies as in PM5-F2. PM5-F4 uses them only to keep the product boundary distinct from recovery."],"connected_supportive_evidence":[],"informs":[{"phenome":"Recovery Capacity","href":"/docs/phenomes/details/ph005-recovery-capacity"}]}} />
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Sulfur amino acids ← poultry, eggs, legumes
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Vitamin B6 ← poultry, fish, chickpeas
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">(Key Constraint) (KC2) — Methionine & Transsulfuration Substrate Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Methionine ← eggs, fish, poultry
-- Serine ← soy foods, eggs, turkey
-- Glycine ← gelatin-rich cuts, poultry, fish
-- Cysteine ← eggs, chicken, yogurt
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-- Use complementary protein pairing and distributed protein across meals to support amino-acid availability — see [Eggs — Synergies](/docs/foods/eggs#synergies), [Lentils — Synergies](/docs/foods/lentils#synergies).
-- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycati… — see [Chicken — Preparation](/docs/foods/chicken#preparation).
-- Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to help preserve EPA/DHA… — see [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients — see [Tofu — Preparation](/docs/foods/tofu#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-When remethylation demand is high or homocysteine accumulates, the transsulfuration branch diverts homocysteine toward cysteine — linking one-carbon metabolism to sulfur amino acid supply and downstream antioxidant chemistry within [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Transsulfuration pathway — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Homocysteine diversion to cysteine)
-
-Transsulfuration converts homocysteine to cystathionine and then cysteine through cystathionine β-synthase (CBS) and cystathionine γ-lyase (CGL). This provides an alternative homocysteine disposal route when remethylation capacity is saturated or when cysteine and glutathione demand is elevated → [Kumar et al., 2017]
-
-#### (Vitamin B6 cofactor dependency)
-
-Vitamin B6 (pyridoxal phosphate) is a required cofactor for CBS and CGL. B6 status associates with methionine–homocysteine cycle markers in population data, linking dietary B6 coverage to transsulfuration flux → [Gregory et al., 2016]
-
-#### (Bridge to antioxidant defense)
-
-Cysteine generated through transsulfuration feeds glutathione synthesis ([BRS2-FM2-PM6](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)). The [Glutathione](/docs/substances/bioactive-compounds/glutathione) substance page describes the resulting GSH/GSSG resource pool, including dietary precursors and supplementation evidence. This couples one-carbon homocysteine handling to cellular redox buffering — particularly relevant where elevated homocysteine intersects oxidative stress pathways → [Lukovac et al., 2024]
-
-#### (Boundaries of the mechanism)
-
-This PM governs **homocysteine diversion through transsulfuration to cysteine** only.
-
-Homocysteine remethylation routes belong to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis and cycle throughput belong to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) and [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
-
-Glutathione synthesis from cysteine belongs to [BRS2-FM2-PM6](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). Glutathione utilisation, lipid peroxidation control, and broader redox signalling belong to [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress).
-
-#### (Integration within BRS2)
-
-This PM operationalises the transsulfuration arm of [BRS2(FM2)](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling), drawing on [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool) for sulfur amino acid substrate availability. Transsulfuration flux competes with remethylation for homocysteine and feeds cysteine forward to glutathione synthesis (PM6).
-
-</div>
-</div>
-</div>
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Transsulfuration biochemistry is well established. The studies below highlight why this branch matters in practice — particularly the B6 dependency and the link between homocysteine handling and oxidative-stress contexts relevant to neurodevelopment.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>B6 status and the methionine–homocysteine cycle</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** NHANES analysis found vitamin B6 status associated with methionine–homocysteine cycle markers, supporting B6 as a practical dietary lever for transsulfuration flux rather than an abstract cofactor detail → [Gregory et al., 2016]
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Homocysteine, oxidative stress, and ADHD-relevant biomarkers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In a paediatric ADHD cohort, elevated homocysteine was reported alongside biomarker shifts implicating oxidative stress pathways — contexts where transsulfuration-derived cysteine and downstream glutathione support may be mechanistically relevant → [Lukovac et al., 2024] This does not establish transsulfuration as an ADHD treatment target, but it supports reading homocysteine elevation as connected to redox pathway strain, not remethylation alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
-
-</div>
-</div>
-</div>
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-[BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
-↓
-[BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — broader redox signalling
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS2-FM2-PM6 - Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support transsulfuration pathway. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Gregory et al. (2016) — Vitamin B6 Status Is Associated with the Methionine-homocysteine Cycle in the NHANES](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-- [Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-- [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+
+- <span id="pm-ref-1">[1]</span> [Belew et al. (2009) — Human CBS kinetics with serine and homocysteine](/docs/papers/BRAIN-Diet-References#belew_cbs_kinetics_2009)
+- <span id="pm-ref-2">[2]</span> [Meier et al. (2001) — Human CBS structure and PLP dependence](/docs/papers/BRAIN-Diet-References#meier_cbs_structure_2001)
+- <span id="pm-ref-3">[3]</span> [Zhu et al. (2008) — Human CGL kinetics and PLP cofactor](/docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008)
+- <span id="pm-ref-4">[4]</span> [Steegborn et al. (1999) — Human CGL cleavage of cystathionine](/docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999)
+- <span id="pm-ref-5">[5]</span> [di Salvo et al. (2012) — Vitamin B6 salvage to pyridoxal phosphate](/docs/papers/BRAIN-Diet-References#disalvo_plp_availability_2012)
+- <span id="pm-ref-6">[6]</span> [Lukovac et al. (2024) — Homocysteine biomarkers in paediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+

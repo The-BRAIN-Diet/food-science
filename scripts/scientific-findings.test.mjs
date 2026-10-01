@@ -21,6 +21,7 @@ import {
 import { checkScientificFindings } from "./lib/scientific-findings-gate.mjs";
 import { buildFmEvidenceHighlightsBlock } from "./lib/fm-evidence-highlights.mjs";
 import { listMechanismMdxFiles } from "./lib/mechanism-page-validation.mjs";
+import { validatePublishedPmConnectionExplanations } from "./lib/pm-relationship-sections.mjs";
 import { detectPmLayout, PM_LAYOUT_CANONICAL, pmSectionNumbers } from "./lib/pm-section-layout.mjs";
 import { BRS1_PM_PHASE3_SCORES } from "./data/brs1-phase3-phenome-scores.mjs";
 import { BRS1_PM_EVIDENCE } from "./lib/pm-evidence-highlights.mjs";
@@ -28,6 +29,9 @@ import {
   buildPmReferenceKeyIndex,
   expandPmCitationMarkers,
   formatPmCitationCluster,
+  formatPmStudyCitations,
+  renderNumberedPmReferencesSection,
+  validatePmReferenceIntegrity,
 } from "./lib/pm-reference-index.mjs";
 
 const root = process.cwd();
@@ -73,9 +77,8 @@ test("every Findings-owned PM satisfies the shared canonical model and freshness
           "2 Primary Biological Effects",
           "3 Levers",
           "4 Mechanistic Basis",
-          "5 Phenome Connections",
-          "6 BRS Pathways and Connections",
-          "7 Scoreable Inputs & Modulation Signals",
+          "5 BRS Pathways and Connections",
+          "7 Phenome Connections",
           "8 References",
         ],
         `${label} canonical section order`,
@@ -193,7 +196,7 @@ test("legacy evidence generator cannot overwrite any Findings-owned PM", () => {
   assert.equal(result.status, 0, result.stderr);
   assert.match(
     result.stdout,
-    /skip \(Scientific Findings own §5\.1 — use npm run findings:sync\): BRS1-FM4-PM9/,
+    /skip \(Scientific Findings own §4\.1 — use npm run findings:sync\): BRS1-FM4-PM9/,
   );
 });
 
@@ -288,7 +291,7 @@ test("§4.1 body is generated from front matter and is fresh", () => {
   }
   assert.ok(
     !section41.includes('"id":"PM9-IC1"'),
-    "PM9-IC1 must not render in §4.1 (interpretive constraints render at point of inference in §5)",
+    "PM9-IC1 must not render in §4.1 (interpretive constraints render at point of inference in §7)",
   );
   assert.ok(
     !section41.includes("Evidence interpretation constraints"),
@@ -301,10 +304,10 @@ test("§4.1 body is generated from front matter and is fresh", () => {
     }
   }
   assert.equal(block.match(/<ScientificFinding /g).length, mech.length);
-  const section5 = content.slice(content.indexOf("## 5. Phenome Connections"), content.indexOf("## 6. "));
+  const section7 = content.slice(content.indexOf("## 7. Phenome Connections"), content.indexOf("## 8. "));
   assert.ok(
-    !section5.includes('"id":"PM9-IC1"'),
-    "PM9-IC1 must not render as a visible Finding block in §5",
+    !section7.includes('"id":"PM9-IC1"'),
+    "PM9-IC1 must not render as a visible Finding block in §7",
   );
   assert.ok(!content.includes('"id":"SF-PM8-3"'), "demoted SF-PM8-3 must not remain a standalone Finding");
   assert.ok(!/SF-PM8-\d/.test(content), "legacy SF-PM8 ids must not remain in PM9 body");
@@ -369,7 +372,7 @@ test("PM9 uses the canonical section order", () => {
   const { content } = readPm8();
   assert.equal(detectPmLayout(content), PM_LAYOUT_CANONICAL);
   const { levers, mechanisticBasis, phenome, findingsSection } = pmSectionNumbers(content);
-  assert.deepEqual({ levers, mechanisticBasis, phenome }, { levers: 3, mechanisticBasis: 4, phenome: 5 });
+  assert.deepEqual({ levers, mechanisticBasis, phenome }, { levers: 3, mechanisticBasis: 4, phenome: 7 });
   assert.equal(findingsSection, "4.1");
   const order = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => `${m[1]} ${m[2]}`);
   assert.deepEqual(order, [
@@ -377,9 +380,8 @@ test("PM9 uses the canonical section order", () => {
     "2 Primary Biological Effects",
     "3 Levers",
     "4 Mechanistic Basis",
-    "5 Phenome Connections",
-    "6 BRS Pathways and Connections",
-    "7 Scoreable Inputs & Modulation Signals",
+    "5 BRS Pathways and Connections",
+    "7 Phenome Connections",
     "8 References",
   ]);
 });
@@ -431,11 +433,11 @@ test("a study may be primary evidence in several Findings when the reuse is decl
   );
 });
 
-test("§5 renders relationship Findings as supporting evidence without IC or Related Findings", () => {
+test("§7 renders relationship Findings as supporting evidence without IC or Related Findings", () => {
   const { data, content } = readPm8();
   const byId = findingsById(data);
-  const section4 = content.slice(content.indexOf("### 4.1 Scientific Findings"), content.indexOf("## 5. Phenome Connections"));
-  const section5 = content.slice(content.indexOf("## 5. Phenome Connections"), content.indexOf("## 6. "));
+  const section4 = content.slice(content.indexOf("### 4.1 Scientific Findings"), content.indexOf("## 5. BRS Pathways"));
+  const section5 = content.slice(content.indexOf("## 7. Phenome Connections"), content.indexOf("## 8. "));
   for (const rel of data.phenome_relationships) {
     for (const id of rel.scientific_findings) {
       const finding = byId.get(id);
@@ -466,10 +468,10 @@ test("§5 renders relationship Findings as supporting evidence without IC or Rel
   assert.ok(section4.includes('<ScientificFinding finding={{"id":"PM9-F1"'));
   const panels = section5.slice(section5.indexOf("brs-fm-hub-item"));
   assert.ok(!/\*\*Key References:\*\*/.test(panels));
-  assert.ok(/\*\*Evidence Confidence:\*\*/.test(panels), "§5 rows must show Evidence Confidence");
+  assert.ok(/\*\*Evidence Confidence:\*\*/.test(panels), "§7 rows must show Evidence Confidence");
   assert.ok(
     /\*\*Biology → Phenome Relationship Strength:\*\*/.test(panels),
-    "§5 rows must show Biology → Phenome Relationship Strength",
+    "§7 rows must show Biology → Phenome Relationship Strength",
   );
   for (const rel of data.phenome_relationships) {
     assert.ok(Array.isArray(rel.references) && rel.references.length > 0, `${rel.target_phenome} keeps its references`);
@@ -485,7 +487,7 @@ test("§5 renders relationship Findings as supporting evidence without IC or Rel
     const panel = section5.slice(start, end === -1 ? undefined : end);
     assert.ok(!adjudicationLeak.test(panel), `${rel.target_phenome} must not expose adjudication plumbing`);
     assert.ok(!panel.includes('"id":"PM9-IC1"'), `${rel.target_phenome} must not render PM9-IC1`);
-    assert.ok(!panel.includes('"id":"PM9-F1"'), `${rel.target_phenome} must not render mechanistic PM9-F1 in §5`);
+    assert.ok(!panel.includes('"id":"PM9-F1"'), `${rel.target_phenome} must not render mechanistic PM9-F1 in §7`);
   }
 });
 
@@ -558,10 +560,128 @@ test("PM reference numbers are stable by citation_key", () => {
   assert.ok(content.includes("mason_decrease_2001"));
 });
 
+test("PM first-mention citations derive author, year, number and link from one reference record", () => {
+  const references = [
+    "[Greiner & Konietzny (1999) — Phytate reduction](/docs/papers/BRAIN-Diet-References#greiner_1999)",
+    "[Example et al. (2026) — Example finding](/docs/papers/BRAIN-Diet-References#example_2026)",
+  ];
+  assert.equal(
+    formatPmStudyCitations(["greiner_1999", "example_2026"], references),
+    "Greiner and Konietzny (1999) [[1]](#pm-ref-1); Example et al. (2026) [[2]](#pm-ref-2)",
+  );
+  assert.equal(
+    expandPmCitationMarkers(
+      "Evidence{{cite:greiner_1999}}.",
+      buildPmReferenceKeyIndex(references),
+      references,
+    ),
+    "Evidence Greiner and Konietzny (1999) [[1]](#pm-ref-1).",
+  );
+});
+
+test("PM reference integrity rejects stale, unlinked and misnumbered rendered citations", () => {
+  const references = [
+    "[Example et al. (2026) — Example finding](/docs/papers/BRAIN-Diet-References#example_2026)",
+  ];
+  const valid = `Claim Example et al. (2026) [[1]](#pm-ref-1).\n\n${renderNumberedPmReferencesSection(references)}`;
+  assert.deepEqual(validatePmReferenceIntegrity(references, valid), []);
+
+  const issues = [];
+  validatePmReferenceIntegrity(
+    references,
+    `${valid.replace("[[1]](#pm-ref-1)", "[1]")}\n- stale`,
+    issues,
+    { entityLabel: "PMX" },
+  );
+  assert.ok(issues.some((issue) => issue.code === "pm_body_citation_unlinked"));
+  assert.ok(issues.some((issue) => issue.code === "pm_references_section_stale"));
+});
+
 test("PM9 phenome Finding ids follow consecutive F sequence in presentation order", () => {
   const { data } = readPm8();
   const phenomeIds = data.scientific_findings
     .filter((f) => f.presentation === "phenome-relationship")
     .map((f) => f.id);
   assert.deepEqual(phenomeIds, ["PM9-F3", "PM9-F4", "PM9-F5", "PM9-F6", "PM9-F7"]);
+});
+
+test("Stage 2A and Stage 2B instructions share the public audience and layer split", () => {
+  const stage2a = fs.readFileSync(path.join(root, "system/primary-mechanism-schema.md"), "utf8");
+  const stage2b = fs.readFileSync(
+    path.join(root, "system/dietary-input-traceability-contract.md"),
+    "utf8",
+  );
+  for (const text of [stage2a, stage2b]) {
+    assert.match(text, /interested members of the public/);
+    assert.match(text, /Nutritionists are the\s+most technically specialised intended readers/s);
+    assert.match(text, /Do not assume PhD-level/);
+    assert.match(text, /Separate layers/);
+    assert.match(text, /same-role reprint/);
+    assert.match(text, /scoreable atom/);
+    assert.match(text, /Do not meet the audience by deleting substantive science/);
+    assert.doesNotMatch(text, /three audiences simultaneously/);
+  }
+  assert.match(stage2a, /### Stage 2A — audience and public voice/);
+  assert.match(stage2b, /## Audience and public voice \(Stage 2B\)/);
+  assert.match(stage2a, /Supply: PM1/);
+  assert.match(stage2b, /Supply: PM1/);
+});
+
+test("Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops", () => {
+  const findings = fs.readFileSync(path.join(root, "system/scientific-finding-schema.md"), "utf8");
+  const stage2a = fs.readFileSync(path.join(root, "system/primary-mechanism-schema.md"), "utf8");
+  const stage2b = fs.readFileSync(
+    path.join(root, "system/dietary-input-traceability-contract.md"),
+    "utf8",
+  );
+  for (const text of [findings, stage2a, stage2b]) {
+    assert.match(text, /does not mean stop with\s+existing evidence/);
+  }
+  assert.match(findings, /Foundational coverage and targeted retrieval \(Stage 2A\)/);
+  assert.match(findings, /defining mission or pathway step/);
+  assert.match(findings, /targeted external research/);
+  assert.match(stage2b, /Foundational dietary coverage and targeted retrieval \(Stage 2B\)/);
+  assert.match(stage2b, /unassessed.*unresolved.*evidence-supported/s);
+  assert.doesNotMatch(findings, /targeted follow-up only\s+when a defined proposition cannot be adjudicated/);
+  for (const text of [findings, stage2a, stage2b]) {
+    assert.match(text, /superseded/);
+    assert.match(text, /separate request.{0,6}before external\s+research/s);
+    assert.match(text, /schema validation is not scientific completion|not scientific completion/);
+  }
+  assert.match(findings, /question-bounded evidence retrieval/);
+  assert.match(stage2b, /question-bounded evidence retrieval/);
+  assert.match(findings, /Stage boundary — 2A mechanism, 2B diet/);
+  assert.match(stage2b, /When Stage 2B identifies a missing foundational claim/);
+  assert.match(stage2b, /Type D — shared-constraint\s+applicability/);
+  assert.match(stage2b, /supported applicability to that PM|applies to that PM/);
+  assert.match(stage2b, /Governs the constraint/);
+  assert.match(stage2b, /Is constrained by it/);
+  assert.match(stage2b, /does\s+\*\*not\*\*\s+automatically establish membership/);
+  assert.match(stage2b, /evidence-supported-non-application/);
+  assert.match(stage2a, /Type D — shared-constraint\s+applicability/);
+  assert.match(
+    fs.readFileSync(path.join(root, "system/key-constraint-schema.md"), "utf8"),
+    /Type D — shared-constraint\s+applicability/,
+  );
+  assert.match(stage2b, /does not require a separate user instruction/);
+  assert.match(findings, /Do not require clinical benefit to establish a supported dependency/);
+  assert.match(stage2b, /Do not require clinical benefit to establish a supported dependency/);
+});
+
+test("Stage 2A pages publish explained PM connections, not bare links", () => {
+  const bare = validatePublishedPmConnectionExplanations(
+    "### 5.3 Local BRS Mechanism Relationships\n\n- [BRS1-FM1-PM1 — Title](/docs/biological-targets/brs1/fm1/x)\n",
+    [],
+    { entityLabel: "TEST" },
+  );
+  assert.equal(bare[0]?.code, "pm_connection_explanation_missing");
+
+  for (const file of listMechanismMdxFiles()) {
+    const { data, content } = matter(fs.readFileSync(file, "utf8"));
+    if (!data.scientific_findings?.length) continue;
+    assert.deepEqual(
+      validatePublishedPmConnectionExplanations(content, [], { entityLabel: data.pm_id }),
+      [],
+    );
+  }
 });

@@ -90,10 +90,44 @@ Allowed `review_status`: `unreviewed` | `issues_logged` | `source_checked` | `ex
 
 It must not expose internal notes, internal-only issues, private identities, filesystem paths, `required_action`, or implementation metadata.
 
+### Correction decisions (same register file)
+
+Reuse `framework-issues-register.json`. Do not write a second history on the PM page
+or in a Stage 2B report.
+
+Required fields on a `record_kind: "correction"` decision:
+
+| Field | Notes |
+|-------|--------|
+| `scope.page_ids` / `affected_section` | Page and affected section |
+| `reviewed_date` | Date reviewed |
+| `title` / `public_title` | Issue reviewed |
+| `decision` / `public_decision` | Decision |
+| `rationale` | Internal rationale (audit only) |
+| `public_evidence` | Supporting evidence when applicable (public) |
+| `correction_status` | `pending` `accepted` `applied` `superseded` |
+| `review_method` | `automated` or `expert` |
+| `implementation` | Required before `applied`. Checks must pass. |
+
+`register_surface: "pm-tab"` marks a **PM evidence-audit decision**. Those records
+feed the PM **Review & Corrections** tab only. They must **not** appear on
+`/docs/dietary-foundations/framework-review-and-corrections` and must not be
+linked there from a PM tab.
+
+Evidence `review_status` on `page-review-state.json` is independent of
+`correction_status`. Accepted or applied corrections do not complete source or
+expert review.
+
+A PM rerun with `rerun_required: true` is incomplete until accepted corrections
+and unresolved decisions are recorded. Do not mark `applied` until verification
+checks pass.
+
 Public UI:
 
-- Per-page **Review & Corrections** tab (shared Docusaurus layout; ships to production)
-- Central register at `/docs/dietary-foundations/framework-review-and-corrections` (**local-only**; `INCLUDE_INTERNAL_DOCS=true`, not committed)
+- Per-page **Review & Corrections** tab (required on every PM; generated from
+  linked register records)
+- Central framework register at `/docs/dietary-foundations/framework-review-and-corrections`
+  (**local-only**; framework-surface issues only; not the PM evidence audit trail)
 
 ## Review Queue (generated view)
 

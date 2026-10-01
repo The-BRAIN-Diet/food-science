@@ -18,17 +18,152 @@ summary: >-
 key_constraints:
   - BRS3(KC1) - Antioxidant Substrate Availability
 cofactors:
-  - selenium
-  - zinc
-  - copper
-  - manganese
-  - glutathione
+  - Selenium
+  - Zinc
+  - Copper
+  - Manganese
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: >-
   Pattern-based: daily antioxidant and cofactor sufficiency plus lower oxidant
   exposure
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    input: Selenium
+    input_type: cofactor
+    biological_role: Cofactor required by glutathione-peroxidase clearance of hydroperoxides
+    evidence_source:
+      citation_keys:
+        - mocchegiani_role_2019
+        - verlaet_oxidative_2019
+    evidence_limitation: Selenium-dependent peroxidase chemistry does not establish that additional selenium improves ROS balance or ADHD outcomes when status is adequate.
+  - atom_id: PM4-DIT-2
+    input: Zinc
+    input_type: cofactor
+    biological_role: Cofactor required by superoxide-dismutase isoforms involved in ROS clearance
+    evidence_source:
+      citation_keys:
+        - mocchegiani_role_2019
+        - zhai_dietary_2015
+    evidence_limitation: Zinc-dependent dismutase chemistry does not establish an intake-to-ROS-balance or clinical response.
+  - atom_id: PM4-DIT-3
+    input: Copper
+    input_type: cofactor
+    biological_role: Cofactor required by copper-zinc superoxide dismutase during ROS clearance
+    evidence_source:
+      citation_keys:
+        - mocchegiani_role_2019
+    evidence_limitation: Copper-dependent dismutase chemistry does not establish dietary copper as a ROS-balance lever.
+  - atom_id: PM4-DIT-4
+    input: Manganese
+    input_type: cofactor
+    biological_role: Cofactor required by manganese superoxide dismutase during mitochondrial ROS clearance
+    evidence_source:
+      citation_keys:
+        - mocchegiani_role_2019
+    evidence_limitation: Manganese-dependent dismutase chemistry does not establish dietary manganese as a ROS-balance lever.
+  - atom_id: PM4-DIT-5
+    input: Glutathione
+    input_type: biochemical requirement
+    biological_role: Thiol reductant used in peroxidase-dependent hydroperoxide clearance
+    evidence_source:
+      citation_keys:
+        - kurhan_dynamic_2021
+        - dvorakova_glutathione_pycnogenol_adhd_2006
+    evidence_limitation: Glutathione is synthesised in vivo; this is not evidence for dietary glutathione or for an ADHD treatment effect.
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Selenium is a Direct cofactor requirement for glutathione-peroxidase clearance. This does not establish that extra selenium improves ROS balance when status is adequate.
+    evidence_limitation: Selenium-dependent peroxidase chemistry does not establish that additional selenium improves ROS balance or ADHD outcomes when status is adequate.
+  - atom_id: PM4-DIT-2
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Zinc is a Direct cofactor requirement for superoxide-dismutase clearance. This is not a zinc-dosing rule for ROS balance.
+    evidence_limitation: Zinc-dependent dismutase chemistry does not establish an intake-to-ROS-balance or clinical response.
+  - atom_id: PM4-DIT-3
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Copper is a Direct cofactor requirement for copper-zinc superoxide dismutase. This is not a copper-dosing rule.
+    evidence_limitation: Copper-dependent dismutase chemistry does not establish dietary copper as a ROS-balance lever.
+  - atom_id: PM4-DIT-4
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Manganese is a Direct cofactor requirement for manganese superoxide dismutase. This is not a manganese-dosing rule.
+    evidence_limitation: Manganese-dependent dismutase chemistry does not establish dietary manganese as a ROS-balance lever.
+  - atom_id: PM4-DIT-5
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Glutathione is the thiol used in peroxidase clearance. It is not a dietary-glutathione recommendation.
+    evidence_limitation: Glutathione is synthesised in vivo; this is not evidence for dietary glutathione or for an ADHD treatment effect.
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: Selenium
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-2
+    label: Zinc
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-3
+    label: Copper
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-4
+    label: Manganese
+    presentation_section: 3.1.1
+  - atom_id: PM4-DIT-1
+    label: Selenium
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-2
+    label: Zinc
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-3
+    label: Copper
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-4
+    label: Manganese
+    presentation_section: 3.1.2
+  - atom_id: PM4-DIT-5
+    label: Glutathione
+    presentation_section: 3.1.2
+pm_kc_relationships:
+  - relationship_id: BRS3-FM2-PM4-KCR-1
+    kc_id: BRS3(KC1)
+    pm_biological_role: ROS clearance uses glutathione-linked thiol chemistry, so this PM draws on BRS3(KC1) antioxidant-substrate sufficiency as the shared GSH-related pool without inheriting cysteine/glycine/glutamate food lists.
+    evidence_source:
+      citation_keys:
+        - kurhan_dynamic_2021
+        - dvorakova_glutathione_pycnogenol_adhd_2006
+    evidence_limitation: Glutathione as a peroxidase reductant on this PM does not establish dietary glutathione, or that every KC1 amino-acid constituent is a Direct PM4 Dietary Requirement.
+    constituent_relationships:
+      - relationship_id: BRS3-FM2-PM4-KCI-1
+        pm_atom_id: PM4-DIT-5
+        label: Glutathione
+        kc_membership_status: legacy-unreviewed
+        legacy_kc_constituent_label: Glutamate
+        kc_change_control_flag_id: KC-CC-BRS3-FM2-PM4-01
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM2-PM4-01
+    flag_type: constituent-challenge
+    kc_id: BRS3(KC1)
+    proposition: Whether PM4 glutathione as a peroxidase reductant belongs in the BRS3(KC1) constrained amino-acid/GSH substrate pool, versus remaining a PM-specific biochemical requirement.
+    evidence_source:
+      citation_keys:
+        - kurhan_dynamic_2021
+    status: pending-kc-review
+
 references:
   - >-
     [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit
@@ -161,12 +296,87 @@ phenome_relationships:
 
 (Balancing Oxidative Stress Production and Removal)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
 
+
+Selenium, zinc, copper and manganese are Direct cofactor requirements of ROS-clearance enzymes. Cooking-pattern and antioxidant-matrix rows are not Dietary Requirements. Page-level dietary addressability for net ROS balance remains unestablished.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Selenium
+- Zinc
+- Copper
+- Manganese
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Selenium
+- Zinc
+- Copper
+- Manganese
+- Glutathione
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- Glutathione
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
 Maintains dynamic balance between reactive oxygen species (ROS, reactive molecules generated as byproducts of normal metabolism and immune activity) production and their neutralisation across immune and metabolic contexts. Rather than tracking any single biomarker, this mechanism captures net redox pressure as an ongoing balance between generation and clearance capacity. When production outpaces clearance, oxidative damage accumulates across membranes, proteins, and mitochondrial structures, feeding into downstream lipid peroxidation and antioxidant-network demand.
@@ -178,7 +388,212 @@ Maintains dynamic balance between reactive oxygen species (ROS, reactive molecul
 ## 2. Primary Biological Effects
 ↓ net oxidative burden; ↑ redox stability
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Redox stability depends on whether antioxidant clearance keeps pace with ROS generation across immune, metabolic, mitochondrial, and dietary-exposure contexts. Net burden rises when generation from endogenous metabolism, food preparation, oxidised lipids, glycaemic load, or environmental exposures exceeds buffering capacity within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ROS generation, clearance capacity, and net redox pressure</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Increased ROS generation and exogenous oxidative burden)
+
+ROS generation can rise from endogenous immune and metabolic activity, chronic hyperglycaemia, mitochondrial dysfunction, and **dietary-exposure patterns**. High-temperature cooking — charring, grilling, frying, and repeated oil heating — increases AGE/ALE formation and oxidised lipid exposure [Uribarri et al., 2010]. Oxidised PUFAs, rancid fats, ultra-processed food patterns, smoking, air pollution, heavy metals, and micro/nanoplastic exposure can add exogenous oxidant load that raises antioxidant demand [Jiang et al., 2021; Dufault et al., 2024; Zhang et al., 2025].
+
+#### (Reduced ROS clearance capacity)
+
+Clearance depends on glutathione support, polyphenol and colourful-plant intake, and trace-mineral sufficiency for enzymatic defences (selenium, zinc, copper, manganese) [Mocchegiani & Malavolta, 2019; Packer et al., 1997; Vertuani et al., 2004]. Low antioxidant-network support, chronic inflammatory load, and mitochondrial dysfunction can shift the balance toward sustained oxidative burden even when generation signals are moderate.
+
+#### (Boundaries of the mechanism)
+
+Food preparation variables are handled here where they increase oxidative burden. Downstream inflammatory signalling triggered by AGEs, oxidised lipids, or redox stress cross-links to [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone). Lipid peroxidation-specific membrane damage remains under [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Antioxidant-network recycling is represented by [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling).
+
+#### (Integration within BRS3)
+
+This PM operationalises net redox balance within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Mitochondrial ROS context imported through [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) modulates endogenous generation load alongside dietary-exposure inputs.
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+The generation-versus-clearance model of oxidative stress is well established. The evidence below refines net redox burden across dietary-exposure and clearance-capacity contexts.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>High-heat cooking, AGEs/ALEs, and dietary oxidative burden</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Higher cooking temperature and time increase Maillard products and advanced glycation end products, elevating oxidative stress and microglial activation — supporting gentler cooking as a mechanism-facing lever for this PM [Uribarri et al., 2010].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010","label":"Uribarri et al. (2010)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Western diet and contaminant oxidative load</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Western dietary patterns low in plant fibre and high in refined sugars and saturated fats associate with higher oxidative stress, raising exogenous burden on clearance capacity [Jiang et al., 2021]. Fibre and mineral competition may reduce gastrointestinal heavy-metal absorption [Berglund et al., 1994; Zhai et al., 2015].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_dietary_2021","label":"Jiang et al. (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994","label":"Berglund et al. (1994)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#zhai_dietary_2015","label":"Zhai et al. (2015)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Antioxidant network integration</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Vitamin E and related network antioxidants interact within a broader metabolic antioxidant system rather than acting as isolated micronutrient fixes [Packer et al., 1997]. Pattern-based dietary support is more aligned with this PM than single-compound supplementation alone.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary antioxidant protection under oxidative load</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Antioxidant interventions can increase resistance to exercise-induced lipid peroxidation, supporting modifiable redox protection through food-state antioxidant coverage rather than isolated compounds [Fielding et al., 2005].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fielding_increases_2005","label":"Fielding et al. (2005)","dataLevel":"Human Study"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Megadose supplement caution</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** High-dose isolated antioxidant supplements have shown inconsistent or harmful effects in some trials — reinforcing food-based network coverage as the practical frame aligned with this PM [Klein et al., 2011].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Pycnogenol pediatric ADHD trial programme — symptoms and redox markers (supplement RCT)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low
+- **Evidence Level:** human outcome (supplement)
+- **Rationale:** A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited. [Trebatická et al., 2006; Dvořáková et al., 2006; Chovanová et al., 2006]
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006","label":"Trebatická et al. (2006)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006","label":"Dvořáková et al. (2006)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006","label":"Chovanová et al. (2006)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — rOS Production and Control
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — endogenous antioxidant enzyme induction supporting clearance capacity
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane-specific lipid damage downstream of net redox imbalance
+- [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) — regeneration among network antioxidants that sustain clearance
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -283,356 +698,24 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Lower-oxidative-load cooking patterns ← steaming, boiling, poaching, stewing, gentle roasting, lower-temperature cooking
-- Reduced high-heat/charring exposure ← limiting deep frying, blackened foods, repeatedly heated oils
-- Fresh, stable fat sources ← extra-virgin olive oil, oily fish handled gently, nuts and seeds protected from rancidity
-- Antioxidant-rich food matrix ← berries, herbs, spices, colourful vegetables, polyphenol-rich foods
-- Glutathione-supportive inputs ← sulphur vegetables, glycine/cysteine-supportive protein patterns, selenium-rich foods
-- Mineral cofactor coverage ← zinc, selenium, copper, manganese food sources
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- copper
-- glutathione
-- manganese
-- selenium
-- zinc
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Polyphenols ← berries, cocoa, green tea
-- Vitamin C ← citrus, kiwi, bell peppers
-- Cysteine ← eggs, poultry, legumes
-- Glycine ← collagen-rich cuts, poultry, legumes
-- Glutamate ← meat, fish, soy
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Extra virgin olive oil — Preparation](/docs/foods/extra-virgin-olive-oil#preparation).
-- Minimise repeated heating of unstable oils and high-temperature browning where practicable — food preparation can add ROS generation upstream of clearance capacity.
-- Consistent daily patterning is more relevant than occasional high-antioxidant meals.
-- Can be consumed raw or roasted; gentle roasting preserves nutrients — see [Sunflower Seeds — Preparation](/docs/foods/sunflower-seeds#preparation).
-- Soak or sprout phytate-rich seeds and legumes to improve plant zinc and mineral bioavailability.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Exposure reduction matters: smoke, pollution, alcohol excess, and sleep disruption can all add oxidative burden alongside dietary sources.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Redox stability depends on whether antioxidant clearance keeps pace with ROS generation across immune, metabolic, mitochondrial, and dietary-exposure contexts. Net burden rises when generation from endogenous metabolism, food preparation, oxidised lipids, glycaemic load, or environmental exposures exceeds buffering capacity within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ROS generation, clearance capacity, and net redox pressure</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Increased ROS generation and exogenous oxidative burden)
-
-ROS generation can rise from endogenous immune and metabolic activity, chronic hyperglycaemia, mitochondrial dysfunction, and **dietary-exposure patterns**. High-temperature cooking — charring, grilling, frying, and repeated oil heating — increases AGE/ALE formation and oxidised lipid exposure [Uribarri et al., 2010]. Oxidised PUFAs, rancid fats, ultra-processed food patterns, smoking, air pollution, heavy metals, and micro/nanoplastic exposure can add exogenous oxidant load that raises antioxidant demand [Jiang et al., 2021; Dufault et al., 2024; Zhang et al., 2025].
-
-#### (Reduced ROS clearance capacity)
-
-Clearance depends on glutathione support, polyphenol and colourful-plant intake, and trace-mineral sufficiency for enzymatic defences (selenium, zinc, copper, manganese) [Mocchegiani & Malavolta, 2019; Packer et al., 1997; Vertuani et al., 2004]. Low antioxidant-network support, chronic inflammatory load, and mitochondrial dysfunction can shift the balance toward sustained oxidative burden even when generation signals are moderate.
-
-#### (Boundaries of the mechanism)
-
-Food preparation variables are handled here where they increase oxidative burden. Downstream inflammatory signalling triggered by AGEs, oxidised lipids, or redox stress cross-links to [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone). Lipid peroxidation-specific membrane damage remains under [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Antioxidant-network recycling is represented by [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling).
-
-#### (Integration within BRS3)
-
-This PM operationalises net redox balance within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Mitochondrial ROS context imported through [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) modulates endogenous generation load alongside dietary-exposure inputs.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The generation-versus-clearance model of oxidative stress is well established. The evidence below refines net redox burden across dietary-exposure and clearance-capacity contexts.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>High-heat cooking, AGEs/ALEs, and dietary oxidative burden</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Higher cooking temperature and time increase Maillard products and advanced glycation end products, elevating oxidative stress and microglial activation — supporting gentler cooking as a mechanism-facing lever for this PM [Uribarri et al., 2010].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010","label":"Uribarri et al. (2010)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Western diet and contaminant oxidative load</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Western dietary patterns low in plant fibre and high in refined sugars and saturated fats associate with higher oxidative stress, raising exogenous burden on clearance capacity [Jiang et al., 2021]. Fibre and mineral competition may reduce gastrointestinal heavy-metal absorption [Berglund et al., 1994; Zhai et al., 2015].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_dietary_2021","label":"Jiang et al. (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994","label":"Berglund et al. (1994)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#zhai_dietary_2015","label":"Zhai et al. (2015)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Antioxidant network integration</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Vitamin E and related network antioxidants interact within a broader metabolic antioxidant system rather than acting as isolated micronutrient fixes [Packer et al., 1997]. Pattern-based dietary support is more aligned with this PM than single-compound supplementation alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary antioxidant protection under oxidative load</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Antioxidant interventions can increase resistance to exercise-induced lipid peroxidation, supporting modifiable redox protection through food-state antioxidant coverage rather than isolated compounds [Fielding et al., 2005].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fielding_increases_2005","label":"Fielding et al. (2005)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Megadose supplement caution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** High-dose isolated antioxidant supplements have shown inconsistent or harmful effects in some trials — reinforcing food-based network coverage as the practical frame aligned with this PM [Klein et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Pycnogenol pediatric ADHD trial programme — symptoms and redox markers (supplement RCT)</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low
-- **Evidence Level:** human outcome (supplement)
-- **Rationale:** A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited. [Trebatická et al., 2006; Dvořáková et al., 2006; Chovanová et al., 2006]
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006","label":"Trebatická et al. (2006)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006","label":"Dvořáková et al. (2006)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006","label":"Chovanová et al. (2006)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — rOS Production and Control
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — endogenous antioxidant enzyme induction supporting clearance capacity
-- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane-specific lipid damage downstream of net redox imbalance
-- [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) — regeneration among network antioxidants that sustain clearance
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through antioxidant density, cofactor sufficiency, and oxidant-exposure signals.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM4 Relevance |
-|---|---|---|
-| Functional Property Potentials | antioxidant_density; trace_mineral_coverage; lower_oxidative_load | May support ROS/clearance balance. |
-| Realised Functional States | mixed_antioxidant_meal; lower_oxidized_oil_pattern | Reflect redox-supportive food states. |
-| Preparation Transformations | gentle_cooking; lower_frying_load; minimally_processed_matrix | May reduce exogenous oxidative burden. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
-- [Kurhan and Alp (2021) — Dynamic Thiol/Disulfide Homeostasis in ADHD](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)
-- [Miniksar et al. (2023) — Oxidative Stress in Children and Adolescents with ADHD](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023)
-- [Verlaet et al. (2019) — Oxidative Stress in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-- [Uribarri et al. (2010) — Advanced Glycation End Products and High-Heat Cooking](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
-- [Jiang et al. (2021) — Western Diet and Oxidative Stress](/docs/papers/BRAIN-Diet-References#jiang_dietary_2021)
-- [Dufault et al. (2024) — Metals, UPFs, and ADHD Context](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024)
-- [Zhang et al. (2025) — Micro/nanoplastics and ADHD](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025)
-- [Zhai et al. (2015) — Metallothioneins and Dietary Metals](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
-- [Berglund et al. (1994) — Fibre-Mediated Cadmium Absorption Reduction](/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994)
-- [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-- [Vertuani et al. (2004) — Antioxidant Synergy](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-- [Mocchegiani and Malavolta (2019) — Antioxidant Mineral Cofactors](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
-- [Boots et al. (2008) — Quercetin Antioxidant Activity](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-- [Johnson (2014) — Carotenoids and Neural Antioxidant Support](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
-- [Houghton et al. (2016) — Sulforaphane and Nrf2](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-- [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
-- [Dvořáková et al. (2006) — Glutathione and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006)
-- [Chovanová et al. (2006) — 8-Oxoguanine and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006)
-- [Trebatická et al. (2006) — Pycnogenol for Pediatric ADHD Symptoms](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006)
+- <span id="pm-ref-1">[1]</span> [Bulut et al. (2007) — Malondialdehyde Levels in Adult Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
+- <span id="pm-ref-2">[2]</span> [Kurhan and Alp (2021) — Dynamic Thiol/Disulfide Homeostasis in ADHD](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)
+- <span id="pm-ref-3">[3]</span> [Miniksar et al. (2023) — Oxidative Stress in Children and Adolescents with ADHD](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023)
+- <span id="pm-ref-4">[4]</span> [Verlaet et al. (2019) — Oxidative Stress in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+- <span id="pm-ref-5">[5]</span> [Uribarri et al. (2010) — Advanced Glycation End Products and High-Heat Cooking](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
+- <span id="pm-ref-6">[6]</span> [Jiang et al. (2021) — Western Diet and Oxidative Stress](/docs/papers/BRAIN-Diet-References#jiang_dietary_2021)
+- <span id="pm-ref-7">[7]</span> [Dufault et al. (2024) — Metals, UPFs, and ADHD Context](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024)
+- <span id="pm-ref-8">[8]</span> [Zhang et al. (2025) — Micro/nanoplastics and ADHD](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025)
+- <span id="pm-ref-9">[9]</span> [Zhai et al. (2015) — Metallothioneins and Dietary Metals](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+- <span id="pm-ref-10">[10]</span> [Berglund et al. (1994) — Fibre-Mediated Cadmium Absorption Reduction](/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994)
+- <span id="pm-ref-11">[11]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- <span id="pm-ref-12">[12]</span> [Vertuani et al. (2004) — Antioxidant Synergy](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+- <span id="pm-ref-13">[13]</span> [Mocchegiani and Malavolta (2019) — Antioxidant Mineral Cofactors](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- <span id="pm-ref-14">[14]</span> [Boots et al. (2008) — Quercetin Antioxidant Activity](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- <span id="pm-ref-15">[15]</span> [Johnson (2014) — Carotenoids and Neural Antioxidant Support](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- <span id="pm-ref-16">[16]</span> [Houghton et al. (2016) — Sulforaphane and Nrf2](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- <span id="pm-ref-17">[17]</span> [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+- <span id="pm-ref-18">[18]</span> [Dvořáková et al. (2006) — Glutathione and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006)
+- <span id="pm-ref-19">[19]</span> [Chovanová et al. (2006) — 8-Oxoguanine and TAS in Pediatric ADHD with Pycnogenol](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006)
+- <span id="pm-ref-20">[20]</span> [Trebatická et al. (2006) — Pycnogenol for Pediatric ADHD Symptoms](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006)

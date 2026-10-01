@@ -66,7 +66,7 @@ Fixture hub for migrated Dietary and Lifestyle Levers regression tests.
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>

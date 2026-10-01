@@ -284,7 +284,7 @@ npm run phenome:sync -- --sync
 
 | Section | Content |
 |---------|---------|
-| **§3 Phenome Connections** (PM) / **§3 functional_outcome_context** (FM) | Translational outcome mappings — ADHD hub rows, attention, emotional dysregulation, condition-specific biomarkers, intervention outcomes |
+| **§7 Phenome Connections** (PM and FM) | Translational outcome mappings — ADHD hub rows, attention, emotional dysregulation, condition-specific biomarkers, intervention outcomes |
 | **§5.1 Evidence Highlights** (PM) / **§4.4 Evidence Highlights** (FM) | Mechanism-qualifying findings only — delivery forms, cofactors, substrate biochemistry, pathway interpretation |
 
 BRS hub ADHD dropdown tables feed **phenome review** (`system/phenome-relationship-review-methodology.md`), **not** `scripts/lib/pm-evidence-highlights.mjs`.
@@ -683,7 +683,7 @@ Do **not** hand-edit the generated JSON.
 
 ## Page rendering contract
 
-### PM — `## 3. Phenome Connections`
+### PM — `## 7. Phenome Connections`
 
 Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
@@ -695,7 +695,7 @@ Structure:
 
 `evidence_level` remains in front matter for Phase 3 audit and registry export — it is **not** rendered in public §3 (v4: readers see Biology confidence + Evidence Confidence only).
 
-### FM — `## 3. Phenome Connections`
+### FM — `## 7. Phenome Connections`
 
 Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
@@ -709,7 +709,7 @@ Structure:
 
 ### SM-PHEN — retired
 
-`SM-PHEN` pages are removed. Phenome interpretation is owned by the **Phenome Registry** and by PM/FM phenome mappings (`## 3. Phenome Connections` on PMs; FM `functional_outcome_context`). Do not author SM-PHEN §2 content.
+`SM-PHEN` pages are removed. Phenome interpretation is owned by the **Phenome Registry** and by PM/FM/SM phenome mappings (`## 7. Phenome Connections`; FM `functional_outcome_context`). Do not author SM-PHEN §2 content.
 
 ---
 

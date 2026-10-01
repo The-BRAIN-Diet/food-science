@@ -1,9 +1,14 @@
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { buildCategoryItemsForHub } from "./lib/brs-hub-optimisation-render.mjs";
-import { HUB_OPTIMISATION_LEVERS } from "./data/brs-hub-optimisation-levers.mjs";
+import { parseKcEmergingSupports } from "./lib/kc-emerging-supports.mjs";
+import {
+  HUB_OPTIMISATION_LEVERS,
+  SOP_CATEGORIES,
+} from "./data/brs-hub-optimisation-levers.mjs";
 import {
   getDerivedInterventionsForPm,
   getStructuredKetogenicLever,
@@ -54,6 +59,20 @@ test("PM8 derives qualified ketogenic relationship", () => {
   assert.equal(derived[0].evidence?.references?.length, 2);
 });
 
+test("SOP categories stay the five hub-aligned ids in canonical order", () => {
+  assert.deepEqual(
+    SOP_CATEGORIES.map((category) => category.id),
+    [
+      "food_prep",
+      "conditional_supplementation",
+      "dietary_protocols",
+      "light_circadian",
+      "stress_autonomic",
+    ],
+  );
+  assert.equal(SOP_CATEGORIES[2].title, "Dietary & Fasting Protocols");
+});
+
 test("no duplicate ketogenic intervention under BRS1 authorship", () => {
   const lever = getStructuredKetogenicLever();
   const b1Protocols = [];
@@ -62,4 +81,28 @@ test("no duplicate ketogenic intervention under BRS1 authorship", () => {
   }
   assert.equal(b1Protocols.length, 0);
   assert.ok(lever);
+});
+
+test("KC emerging-support dropdown labels parse without duplicate inner headings", () => {
+  const file = path.join(
+    ROOT,
+    "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx",
+  );
+  const content = fs.readFileSync(file, "utf8").replace(/^---[\s\S]*?---\s*/, "");
+  const supports = parseKcEmergingSupports(
+    content,
+    { kc_id: "BRS2(KC1)", title: "Methyl Donor Pool" },
+    file,
+    ROOT,
+  );
+
+  assert.deepEqual(
+    supports.map((item) => item.name),
+    [
+      "SAMe-directed supplementation",
+      "Creatine supplementation as a methyl-demand modifier",
+      "Riboflavin for MTHFR 677TT-linked capacity",
+    ],
+  );
+  assert.doesNotMatch(content, /^#### (SAMe|Creatine supplementation|Riboflavin for MTHFR)/m);
 });

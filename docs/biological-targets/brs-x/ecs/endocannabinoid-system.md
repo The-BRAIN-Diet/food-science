@@ -39,13 +39,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity">BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity</a></li>
-    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling">BRS-X(ECS-PM2) — Omega-3-Derived Endocannabinoidome Signalling</a></li>
-    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation">BRS-X(ECS-PM3) — FAAH-Mediated Endocannabinoid Preservation</a></li>
-    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation">BRS-X(ECS-PM4) — Endocannabinoid–Dopamine Neuromodulation</a></li>
-    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity">BRS-X(ECS-PM5) — Endocannabinoid Stress-Buffering Capacity</a></li>
-  </ul>
 </li>
 </ul>
 </div>

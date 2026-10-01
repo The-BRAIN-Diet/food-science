@@ -27,6 +27,8 @@ export const REVIEW_STATUSES = [
 ]
 
 export const ISSUE_STATUSES = ["open", "deferred", "resolved"]
+export const CORRECTION_STATUSES = ["pending", "accepted", "applied", "superseded"]
+export const REVIEW_METHODS = ["automated", "expert"]
 export const PRIORITIES = ["high", "medium", "low"]
 export const ISSUE_VISIBILITIES = ["public", "internal"]
 
@@ -299,8 +301,7 @@ export function mergeReviewState(scanned, stateDoc, issuesDoc) {
       ...(specificById.get(row.page_id) || []),
       ...(specificByPath.get(row.path) || []),
     ])
-    let review_status = st.review_status || "unreviewed"
-    if (linked.size && review_status === "unreviewed") review_status = "issues_logged"
+    const review_status = st.review_status || "unreviewed"
     return {
       page_id: row.page_id,
       path: row.path,
@@ -311,6 +312,10 @@ export function mergeReviewState(scanned, stateDoc, issuesDoc) {
       last_checked: st.last_checked ?? null,
       checked_by: st.checked_by ?? null,
       review_scope: st.review_scope ?? null,
+      review_method: REVIEW_METHODS.includes(String(st.review_method || ""))
+        ? st.review_method
+        : null,
+      rerun_required: st.rerun_required === true,
       public_reviewer: typeof st.public_reviewer === "string" ? st.public_reviewer : null,
       accepted_limitations: Array.isArray(st.accepted_limitations) ? st.accepted_limitations : [],
       linked_framework_issue_ids: [...linked].sort(),
@@ -321,6 +326,27 @@ export function mergeReviewState(scanned, stateDoc, issuesDoc) {
 
 export function issueIsOpen(issue) {
   return issue.status === "open"
+}
+
+export function correctionStatusOf(issue) {
+  const explicit = String(issue?.correction_status || "")
+  if (CORRECTION_STATUSES.includes(explicit)) return explicit
+  if (issue?.status === "resolved") return "applied"
+  if (issue?.status === "deferred" || issue?.status === "open") return "pending"
+  return "pending"
+}
+
+export function reviewMethodOf(issue) {
+  const method = String(issue?.review_method || "")
+  return REVIEW_METHODS.includes(method) ? method : null
+}
+
+export function isUnresolvedCorrection(issue) {
+  return ["pending", "accepted"].includes(correctionStatusOf(issue))
+}
+
+export function issueLinksPage(issue, pageId) {
+  return (issue?.scope?.page_ids || []).includes(pageId)
 }
 
 export function applicableFrameworkIssues(page, extras, issues) {
@@ -481,6 +507,10 @@ export function isPublicIssue(issue) {
   return issue?.visibility === "public"
 }
 
+export function isPmEvidenceCorrection(issue) {
+  return issue?.record_kind === "correction" || issue?.register_surface === "pm-tab"
+}
+
 export function normalizePublicPath(pathname) {
   if (!pathname) return ""
   const noQuery = String(pathname).split("?")[0].split("#")[0]
@@ -527,7 +557,17 @@ export function sanitizePublicIssue(issue, register) {
     id: issue.public_id || issue.id,
     title: issue.public_title || issue.title,
     findings: findings.map((f) => String(f)),
+    record_kind: issue.record_kind || null,
+    register_surface: isPmEvidenceCorrection(issue) ? "pm-tab" : "framework",
     status: issue.status,
+    correction_status: correctionStatusOf(issue),
+    section: issue.affected_section || issue.scope?.subsection || null,
+    date: issue.reviewed_date || issue.resolved_date || null,
+    description: issue.public_description || findings[0] || issue.public_title || issue.title,
+    decision: issue.public_decision || issue.resolution_summary || null,
+    evidence: Array.isArray(issue.public_evidence) ? issue.public_evidence.map((item) => String(item)) : [],
+    review_method: reviewMethodOf(issue),
+    reviewer: typeof issue.public_reviewer === "string" ? issue.public_reviewer : null,
     resolution_summary: issue.resolution_summary || null,
     resolved_date: issue.resolved_date || null,
     affected_pages: affectedPublicPagesForIssue(issue, register),
@@ -536,7 +576,102 @@ export function sanitizePublicIssue(issue, register) {
 
 export function openPublicIssueCount(pageRecord) {
   if (!pageRecord) return 0
-  return (pageRecord.issues || []).filter((i) => i.status === "open").length
+  const rows = pageRecord.issues?.length ? pageRecord.issues : pageRecord.corrections || []
+  return rows.filter((i) => isUnresolvedCorrection(i)).length
+}
+
+export function hasPublicCorrections(pageRecord) {
+  return Boolean(pageRecord?.corrections?.length || pageRecord?.issues?.length || pageRecord?.history?.length)
+}
+
+function readRepoFile(root, relPosix) {
+  const abs = path.join(root, relPosix)
+  if (!fs.existsSync(abs)) return null
+  return fs.readFileSync(abs, "utf8")
+}
+
+export function verifyImplementationChecks(issue, {root} = {}) {
+  const impl = issue?.implementation
+  if (!impl) return {ok: false, reason: "missing implementation record"}
+  if (impl.verified !== true) return {ok: false, reason: "not marked verified"}
+  const checks = Array.isArray(impl.checks) ? impl.checks : []
+  if (!checks.length) return {ok: false, reason: "no verification checks"}
+  for (const check of checks) {
+    const rel = String(check.path || "")
+    const content = readRepoFile(root, rel)
+    if (content == null) return {ok: false, reason: `missing file ${rel}`}
+    for (const needle of check.includes || []) {
+      if (!content.includes(needle)) return {ok: false, reason: `missing ${needle}`}
+    }
+    for (const needle of check.excludes || []) {
+      if (content.includes(needle)) return {ok: false, reason: `still contains ${needle}`}
+    }
+    if (check.between) {
+      const start = content.indexOf(check.between[0])
+      const end = content.indexOf(check.between[1], start + 1)
+      if (start === -1 || end === -1) return {ok: false, reason: `missing range ${check.between.join(" … ")}`}
+      const slice = content.slice(start, end)
+      for (const needle of check.range_excludes || []) {
+        if (slice.includes(needle)) return {ok: false, reason: `range still contains ${needle}`}
+      }
+      for (const needle of check.range_includes || []) {
+        if (!slice.includes(needle)) return {ok: false, reason: `range missing ${needle}`}
+      }
+    }
+  }
+  return {ok: true}
+}
+
+export function validateCorrectionRecord(issue, issues = [], {root} = {}) {
+  const problems = []
+  const label = issue?.id || "correction"
+  if (!issue?.scope?.page_ids?.length && issue?.scope?.kind === "page") {
+    problems.push(`${label}: page-scoped correction requires scope.page_ids`)
+  }
+  if (!issue?.affected_section && !issue?.scope?.subsection) {
+    problems.push(`${label}: requires affected_section`)
+  }
+  if (!issue?.reviewed_date) problems.push(`${label}: requires reviewed_date`)
+  if (!issue?.title && !issue?.public_title) problems.push(`${label}: requires issue reviewed`)
+  if (!issue?.decision && !issue?.public_decision) problems.push(`${label}: requires decision`)
+  if (!issue?.rationale && !issue?.required_action) problems.push(`${label}: requires rationale`)
+  const status = correctionStatusOf(issue)
+  if (!CORRECTION_STATUSES.includes(status)) {
+    problems.push(`${label}: correction_status must be pending, accepted, applied, or superseded`)
+  }
+  if (!reviewMethodOf(issue)) {
+    problems.push(`${label}: review_method must be automated or expert`)
+  }
+  if (status === "applied") {
+    const verified = verifyImplementationChecks(issue, {root})
+    if (!verified.ok) problems.push(`${label}: applied before verification (${verified.reason})`)
+  }
+  if (status === "superseded" && !issue.superseded_by) {
+    problems.push(`${label}: superseded records require superseded_by`)
+  }
+  if (issue.superseded_by && !issues.some((row) => row.id === issue.superseded_by)) {
+    problems.push(`${label}: superseded_by ${issue.superseded_by} is not in the register`)
+  }
+  return problems
+}
+
+export function validatePmRerunCompleteness({pmId, stateRow, issues, root}) {
+  const problems = []
+  if (!stateRow?.rerun_required) return problems
+  const linked = (issues || []).filter((issue) => issueLinksPage(issue, pmId))
+  if (!linked.length) {
+    problems.push(`${pmId}: rerun is incomplete until accepted corrections and unresolved decisions are recorded`)
+    return problems
+  }
+  const unresolved = linked.filter(isUnresolvedCorrection)
+  const applied = linked.filter((issue) => correctionStatusOf(issue) === "applied")
+  if (!unresolved.length && !applied.length && !linked.some((issue) => correctionStatusOf(issue) === "accepted")) {
+    problems.push(`${pmId}: rerun recorded no accepted or unresolved decisions`)
+  }
+  for (const issue of linked.filter((row) => row.record_kind === "correction" || row.decision || row.public_decision)) {
+    problems.push(...validateCorrectionRecord(issue, issues, {root}))
+  }
+  return problems
 }
 
 export function findPublicPageRecord(dataset, { permalink, pageId, extraIds = [] } = {}) {
@@ -553,14 +688,26 @@ export function findPublicPageRecord(dataset, { permalink, pageId, extraIds = []
 export function buildPublicDataset({ register, issues, generated }) {
   const publicIssues = (issues || []).map((issue) => sanitizePublicIssue(issue, register)).filter(Boolean)
   const publicById = Object.fromEntries(publicIssues.map((i) => [i.id, i]))
+  const frameworkRegisterIssues = publicIssues.filter((issue) => issue.register_surface === "framework")
 
   const pages = register.map((row) => {
     const pageIssues = (row.linked_framework_issue_ids || [])
       .map((id) => publicById[id])
       .filter(Boolean)
-    const openIssues = pageIssues.filter((i) => i.status === "open")
-    const deferredIssues = pageIssues.filter((i) => i.status === "deferred")
-    const resolvedIssues = pageIssues.filter((i) => i.status === "resolved")
+    const publicCorrection = (issue) => ({
+      title: issue.title,
+      findings: issue.findings,
+      correction_status: issue.correction_status,
+      section: issue.section,
+      date: issue.date,
+      description: issue.description,
+      decision: issue.decision,
+      evidence: issue.evidence,
+      review_method: issue.review_method,
+      reviewer: issue.reviewer,
+    })
+    const unresolved = pageIssues.filter((i) => isUnresolvedCorrection(i))
+    const resolved = pageIssues.filter((i) => ["applied", "superseded"].includes(i.correction_status))
     return {
       page_id: row.page_id,
       site_path: row.site_path || sitePathFromDocsRel(String(row.path || "").replace(/^docs\//, "")),
@@ -571,26 +718,11 @@ export function buildPublicDataset({ register, issues, generated }) {
       last_checked: row.last_checked ?? null,
       reviewer: publicReviewerOf(row),
       review_scope: row.review_scope || null,
-      issues: openIssues.map((i) => ({
-        id: i.id,
-        title: i.title,
-        findings: i.findings,
-        status: i.status,
-        resolution_summary: i.resolution_summary,
-        resolved_date: i.resolved_date,
-      })),
-      limitations: [
-        ...(Array.isArray(row.accepted_limitations) ? row.accepted_limitations.map((t) => String(t)) : []),
-        ...deferredIssues.map((i) => `${i.id}: ${i.title}`),
-      ],
-      history: resolvedIssues.map((i) => ({
-        id: i.id,
-        title: i.title,
-        findings: i.findings,
-        status: i.status,
-        resolution_summary: i.resolution_summary,
-        resolved_date: i.resolved_date,
-      })),
+      review_method: row.review_method || null,
+      issues: unresolved.map(publicCorrection),
+      corrections: pageIssues.map(publicCorrection),
+      limitations: Array.isArray(row.accepted_limitations) ? row.accepted_limitations.map((t) => String(t)) : [],
+      history: resolved.map(publicCorrection),
     }
   })
 
@@ -599,7 +731,7 @@ export function buildPublicDataset({ register, issues, generated }) {
     generated: generated || new Date().toISOString().slice(0, 10),
     register_path: PUBLIC_REGISTER_SITE_PATH,
     pages,
-    issues: publicIssues,
+    issues: frameworkRegisterIssues,
   }
 }
 

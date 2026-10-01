@@ -156,6 +156,12 @@ export const SYSTEM_OPTIMISATION_CATEGORIES = new Set(
 );
 
 /**
+ * Admitted SOP records are independent of Dietary Requirements.
+ * A Stage 2B Direct/Derived NO may only *flag* an Optimisation Strategy
+ * candidate; it must not auto-admit `system_optimisation_practices`.
+ */
+
+/**
  * Validate PM-owned §3.2/§3.3 evidence relationships against the same five atoms.
  * The containing collection determines lever class and destination subsection;
  * System Optimisation category is relationship metadata, not a sixth atom.

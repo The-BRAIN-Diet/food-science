@@ -38,11 +38,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity">BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity</a></li>
-    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment">BRS5-FM1-PM2 — LPS / Endotoxin Containment</a></li>
-    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Keystone Taxa Support</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -52,11 +47,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Ecological Turnover &amp; Competitive Selection</a></li>
-    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling">BRS5-FM2-PM5 — SCFA Production &amp; Signalling</a></li>
-    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation">BRS5-FM2-PM6 — Polyphenol Biotransformation &amp; Mitochondrial-Relevant Metabolite Generation</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -66,10 +56,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation">BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation</a></li>
-    <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability">BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation &amp; Availability</a></li>
-  </ul>
 </li>
 </ul>
 </div>
@@ -385,7 +371,7 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>
