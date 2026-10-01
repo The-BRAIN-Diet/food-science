@@ -5,6 +5,7 @@
  * the relationship or constraint details for that KC.
  */
 import { extractHubItemBlock } from "./pm-section-4-levers.mjs";
+import { emptyKeyConstraintCopy } from "./pm-dietary-requirements-public-copy.mjs";
 
 export const PM_KC_HEADINGS = [
   "4.1.3 Key Constraints",
@@ -168,6 +169,20 @@ export function transformPmKcPresentation(content) {
     const panelBody = entry.block.slice(bounds.contentStart, bounds.contentEnd);
     const groups = parseLegacyPmKcGroups(panelBody);
     if (!groups.length) {
+      const inner = String(panelBody || "").trim();
+      const emptyCopy = emptyKeyConstraintCopy();
+      if (!inner || /^(- )?None listed\.?$/i.test(inner)) {
+        const nextBlock =
+          entry.block.slice(0, bounds.contentStart) +
+          `\n\n${emptyCopy}\n\n` +
+          entry.block.slice(bounds.contentEnd);
+        return {
+          content: content.replace(entry.block, nextBlock),
+          changed: inner !== emptyCopy,
+          heading,
+          groups: [],
+        };
+      }
       return { content, changed: false, heading, groups: [], issue: "kc-links-unresolved" };
     }
     const rendered = groups.map(renderKcPresentation).join("\n\n");

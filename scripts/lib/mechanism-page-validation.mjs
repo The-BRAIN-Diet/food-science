@@ -31,6 +31,7 @@ import { validateDietaryLeverAtoms } from "./dietary-lever-atoms.mjs";
 import {
   PM_SECTION_6_2_TITLE,
   PM_SECTION_6_3_TITLE,
+  validatePublishedPmConnectionExplanations,
 } from "./pm-relationship-sections.mjs";
 import {
   validateFmSupportingKcPools,
@@ -38,6 +39,7 @@ import {
 import {
   buildCanonicalKcIndex,
   validateKcOwnedEvidence,
+  validateKcCoreMembershipProjection,
   validatePmKcGovernance,
 } from "./kc-evidence-governance.mjs";
 import { validatePmReferenceIntegrity } from "./pm-reference-index.mjs";
@@ -74,7 +76,7 @@ const TIMING_BODY_HEADING = /^##\s+\d+\.\s+Timing Specific\s*$/m;
 
 export const SCOREABLE_SECTION_TITLE = "Scoreable Inputs & Modulation Signals";
 
-const LEGACY_SCOREABLE_HEADING = /^##\s+\d+\.\s+Scoreable Food-State Inputs\s*$/m;
+const LEGACY_SCOREABLE_HEADING = /^##\s+(\d+)\.\s+Scoreable Food-State Inputs\s*$/m;
 const SCOREABLE_SECTION_HEADING = /^##\s+(\d+)\.\s+Scoreable Inputs & Modulation Signals\s*$/m;
 
 /** PM scoreable tables: food-state and preparation signals only (substances live in §7 Dietary Levers). */
@@ -635,16 +637,21 @@ function validateContiguousNumbering(sections, issues, { entityLabel }) {
   if (major.length === 0) return;
   let expected = 1;
   for (const section of major) {
-    const skipsOptionalPmScoreableSection =
-      expected === 7 &&
-      section.level === 8 &&
-      /^References$/i.test(section.title);
-    if (skipsOptionalPmScoreableSection) expected = 8;
+    const skipsUnusedThree =
+      expected === 3 &&
+      section.level === 4 &&
+      /Mechanistic Basis/i.test(section.title);
+    if (skipsUnusedThree) expected = 4;
+    const skipsRemovedScoreableSix =
+      expected === 6 &&
+      section.level === 7 &&
+      /Phenome Connections/i.test(section.title);
+    if (skipsRemovedScoreableSix) expected = 7;
     if (section.level !== expected) {
       pushIssue(
         issues,
         "section_number_gap",
-        `${entityLabel}: expected "## ${expected}. …" but found "${section.line}" (integer sections must be contiguous; PM §7 Scoreable Inputs may be omitted before §8 References)`,
+        `${entityLabel}: expected "## ${expected}. …" but found "${section.line}" (integer sections must be contiguous; §6 unused after Scoreable removal; FM also skips §3)`,
       );
       return;
     }
@@ -752,7 +759,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     const brsStart = content.indexOf(brs.line);
     const refsSection = sections.find((s) => s.title.startsWith("References"));
     const brsEnd =
-      refsSection && refsSection.level === 6
+      refsSection
         ? content.indexOf(refsSection.line, brsStart + 1)
         : content.length;
     const brsBlock = content.slice(brsStart, brsEnd);
@@ -773,8 +780,8 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     }
   }
   const refs = sections.find((s) => s.title.startsWith("References"));
-  if (refs && refs.level !== 6) {
-    pushIssue(issues, "fm_refs_numbering", `${entityLabel}: References must be ## 6. References`);
+  if (refs && refs.level !== 8) {
+    pushIssue(issues, "fm_refs_numbering", `${entityLabel}: References must be ## 8. References`);
   }
   const mechanistic = sections.find((s) => s.title.startsWith("Mechanistic Basis"));
   if (mechanistic && !mechanistic.title.includes("Integrated FM Narrative")) {
@@ -905,6 +912,16 @@ function extractScoreableSectionBlock(content) {
 }
 
 function validateScoreableSection(content, issues, { entityLabel, pageKind = "fm" }) {
+  if (pageKind === "pm" || pageKind === "sm") {
+    if (LEGACY_SCOREABLE_HEADING.test(content) || SCOREABLE_SECTION_HEADING.test(content)) {
+      pushIssue(
+        issues,
+        "pm_scoreable_section_removed",
+        `${entityLabel}: do not include ## N. ${SCOREABLE_SECTION_TITLE} on ${pageKind.toUpperCase()} pages; References follows BRS Pathways`,
+      );
+    }
+    return;
+  }
   if (LEGACY_SCOREABLE_HEADING.test(content)) {
     pushIssue(
       issues,
@@ -918,9 +935,9 @@ function validateScoreableSection(content, issues, { entityLabel, pageKind = "fm
   if (!section || section.legacy) return;
 
   const groups =
-    pageKind === "pm"
-      ? REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM
-      : REQUIRED_SCOREABLE_CATEGORY_GROUPS_FM;
+    pageKind === "fm"
+      ? REQUIRED_SCOREABLE_CATEGORY_GROUPS_FM
+      : REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM;
   for (const group of groups) {
     if (!group.some((label) => section.block.includes(label))) {
       pushIssue(
@@ -1004,31 +1021,32 @@ function validateFmPage(filePath, { rootDir }) {
   validateFmSynthesisContract(content, sections, issues, { entityLabel, data });
   validateFmSupportingKcPools(filePath, issues, { rootDir });
 
-  const numbered = sections.filter((s) => s.type === "major" && s.level <= 7);
-  if (numbered.length >= 3) {
-    const t0 = normalizeSectionTitle(numbered[0]?.title || "");
-    const t1 = normalizeSectionTitle(numbered[1]?.title || "");
-    const t2 = normalizeSectionTitle(numbered[2]?.title || "");
-    const t3 = normalizeSectionTitle(numbered[3]?.title || "");
-    const t4 = normalizeSectionTitle(numbered[4]?.title || "");
-    const t5 = normalizeSectionTitle(numbered[5]?.title || "");
-    if (!isValidSection1Title(t0)) {
+  const numbered = sections.filter((s) => s.type === "major");
+  const byLevel = new Map(numbered.map((s) => [s.level, normalizeSectionTitle(s.title)]));
+  if (numbered.length >= 2) {
+    const t1 = byLevel.get(1) || "";
+    const t2 = byLevel.get(2) || "";
+    if (!isValidSection1Title(t1)) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: ${SECTION1_TITLE_ERROR}`);
     }
-    if (t1 !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
+    if (t2 !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
     }
-    if (t2 !== FM_PHENOME_CONNECTIONS_SECTION_TITLE) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`);
-    }
-    if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
+    const t4 = byLevel.get(4) || "";
+    if (t4 && !t4.startsWith("Mechanistic Basis")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Integrated FM Narrative)`);
     }
-    if (numbered.length >= 5 && !t4.startsWith("Connected Mechanisms")) {
+    const t5 = byLevel.get(5) || "";
+    if (t5 && !t5.startsWith("Connected Mechanisms")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Connected Mechanisms`);
     }
-    if (numbered.length >= 6 && !t5.startsWith("References")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be References`);
+    const t7 = byLevel.get(7) || "";
+    if (t7 && t7 !== FM_PHENOME_CONNECTIONS_SECTION_TITLE) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §7 must be ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`);
+    }
+    const t8 = byLevel.get(8) || "";
+    if (t8 && !t8.startsWith("References")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §8 must be References`);
     }
   }
 
@@ -1097,10 +1115,10 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
       pushIssue(issues, "pm_section4", `${entityLabel}: §${layout.levers} must be Levers`);
     }
   }
-  if (byLevel.has(6)) {
-    const t6 = String(byLevel.get(6));
-    if (t6 !== connectedTitle) {
-      pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be ${connectedTitle}`);
+  if (byLevel.has(layout.pathways)) {
+    const tPath = String(byLevel.get(layout.pathways));
+    if (tPath !== connectedTitle) {
+      pushIssue(issues, "pm_section6", `${entityLabel}: §${layout.pathways} must be ${connectedTitle}`);
     }
   }
   if (byLevel.has(7) && String(byLevel.get(7)).startsWith("Dietary Levers")) {
@@ -1134,17 +1152,18 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
 
   const connectedBlock = getConnectedMechanismsBlock(content);
   if (connectedBlock) {
-    const subs = [...connectedBlock.matchAll(/^###\s+6\.(\d+)\s+(.+)$/gm)].map((m) => ({
+    const n = layout.pathways;
+    const subs = [...connectedBlock.matchAll(new RegExp(`^###\\s+${n}\\.(\\d+)\\s+(.+)$`, "gm"))].map((m) => ({
       title: m[2].trim(),
     }));
     if (subs.length >= 1 && !/BRS Pathways/i.test(subs[0]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.1 must be BRS Pathways`);
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §${n}.1 must be BRS Pathways`);
     }
     if (subs.length >= 2 && !new RegExp(PM_SECTION_6_2_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(subs[1]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be ${PM_SECTION_6_2_TITLE}`);
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §${n}.2 must be ${PM_SECTION_6_2_TITLE}`);
     }
     if (subs.length >= 3 && !new RegExp(PM_SECTION_6_3_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(subs[2]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.3 must be ${PM_SECTION_6_3_TITLE}`);
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §${n}.3 must be ${PM_SECTION_6_3_TITLE}`);
     }
   }
 
@@ -1189,13 +1208,13 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
   }
 }
 
-function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
+function validatePmExtendedProfile(data, content, issues, { entityLabel, pageKind = "pm" }) {
   const extended = pmUsesExtendedProfile(data, content);
   if (!extended) {
     const sections = parseNumberedSections(content);
     validateContiguousNumbering(sections, issues, { entityLabel });
     validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
-    validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
+    validateScoreableSection(content, issues, { entityLabel, pageKind });
     return;
   }
 
@@ -1206,7 +1225,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
-  validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
+  validateScoreableSection(content, issues, { entityLabel, pageKind });
   validatePmLifestyleLeversEvidence(content, issues, { entityLabel });
 
   const core = sections.filter(
@@ -1224,9 +1243,6 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
     if (titles[1] !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
     }
-    // §3–§5 order depends on the page layout: canonical is
-    // Levers → Mechanistic Basis → Phenome Connections; legacy is
-    // Phenome Connections → Levers → Mechanistic Basis.
     const { layout } = pmSectionNumbers(content);
     const expected = expectedPmCoreOrder(layout, {
       phenomeTitle: PM_PHENOME_SECTION_TITLE,
@@ -1236,7 +1252,12 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
       const want = expected[index];
       const got = titles[index];
       if (!got || !want) continue;
-      const ok = want === "Mechanistic Basis" ? got.startsWith(want) : got === want;
+      const ok =
+        want === "Mechanistic Basis"
+          ? got.startsWith(want)
+          : want === "BRS Pathways and Connections"
+            ? got.startsWith("BRS Pathways")
+            : got === want;
       if (!ok) {
         pushIssue(
           issues,
@@ -1373,6 +1394,9 @@ function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
     validatePmReferenceIntegrity(data.references || [], content, issues, { entityLabel });
   }
   validatePmKcGovernance(data, issues, { entityLabel, canonicalKcIndex });
+  if (Array.isArray(data.scientific_findings) && data.scientific_findings.length) {
+    validatePublishedPmConnectionExplanations(content, issues, { entityLabel });
+  }
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });
@@ -1389,6 +1413,7 @@ function validateKcPage(filePath) {
   validateNoGenericReferenceLabels(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "kc" });
   validateKcOwnedEvidence(data, issues, { entityLabel });
+  validateKcCoreMembershipProjection(data, content, issues, { entityLabel });
 
   if (/### 6\. Constraint Stressors \/ Burdens/m.test(content)) {
     pushIssue(
@@ -1449,7 +1474,7 @@ function validateSmPage(filePath) {
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "sm" });
   validatePmPhenomeFrontMatter(data, issues, { entityLabel });
   validatePhenomeSectionBody(content, issues, { entityLabel, kind: "sm" });
-  validatePmExtendedProfile(data, content, issues, { entityLabel });
+  validatePmExtendedProfile(data, content, issues, { entityLabel, pageKind: "sm" });
   validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
   validateConnectedEntityList(data, "connected_fms", issues, { entityLabel });

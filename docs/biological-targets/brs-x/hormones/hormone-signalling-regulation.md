@@ -41,14 +41,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability">BRS-X(Hormones-PM1) — Oestrogen Signalling Stability</a></li>
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation">BRS-X(Hormones-PM2) — Estrobolome Regulation</a></li>
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism">BRS-X(Hormones-PM3) — Progesterone-Supportive Microbial Metabolism</a></li>
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration">BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration</a></li>
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability">BRS-X(Hormones-PM5) — Testosterone Signalling Stability</a></li>
-    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation">BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation</a></li>
-  </ul>
 </li>
 </ul>
 </div>

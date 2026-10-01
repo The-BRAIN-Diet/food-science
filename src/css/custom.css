@@ -258,7 +258,7 @@
   color: var(--ifm-color-primary);
 }
 
-/* FM row: chevron toggles; title static; Open FM link on the right */
+/* Collapsible row: chevron and title can toggle; optional link sits on the right */
 .brs-fm-hub-summary-row {
   display: flex;
   align-items: center;
@@ -289,6 +289,47 @@
   min-width: 0;
   margin: 0;
   font-weight: 600;
+}
+
+.brs-evidence-title-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.brs-evidence-title-trigger {
+  appearance: none;
+  display: inline;
+  width: auto;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ifm-link-color);
+  font: inherit;
+  font-weight: 600;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+
+.brs-evidence-title-trigger:hover,
+.brs-evidence-title-trigger:focus-visible {
+  text-decoration-style: solid;
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.brs-evidence-title-detail {
+  position: absolute;
+  z-index: 20;
+  top: calc(100% + 0.25rem);
+  left: 0;
+  width: min(36rem, calc(100vw - 4rem));
+  margin: 0;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 18%);
 }
 
 .brs-fm-hub-open {
@@ -988,17 +1029,33 @@
 
 /* §3 dietary lever — compact label + evidence disclosure (PM8 exemplar) */
 .brs-dietary-lever-item {
-  list-style: inherit;
+  list-style: none;
+  position: relative;
+}
+
+.brs-dietary-lever-item::before {
+  content: "";
+  position: absolute;
+  left: -1.1em;
+  top: 0.55em;
+  width: 0.35em;
+  height: 0.35em;
+  border-radius: 50%;
+  background: currentColor;
 }
 
 .brs-dietary-lever-trigger {
-  display: inline;
+  appearance: none;
+  display: inline-block;
+  max-width: 100%;
   margin: 0;
   padding: 0;
   border: none;
   background: none;
   font: inherit;
   color: var(--ifm-link-color);
+  text-align: left;
+  vertical-align: top;
   text-decoration: underline;
   text-decoration-style: dotted;
   text-underline-offset: 0.15em;
@@ -1016,10 +1073,17 @@
   color: inherit;
 }
 
-.brs-dietary-lever-qualifier {
-  margin-left: 0.35rem;
+.brs-dietary-lever-qualifier,
+.brs-dietary-lever-upstream {
+  margin-left: 0.15rem;
   color: var(--ifm-color-emphasis-700);
   font-size: 0.88em;
+}
+
+.brs-dietary-lever-upstream-link {
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .brs-dietary-lever-detail {
@@ -1035,6 +1099,22 @@
 
 .brs-dietary-lever-detail[hidden] {
   display: none !important;
+}
+
+.brs-dietary-lever-description {
+  margin: 0 0 0.75rem;
+}
+
+.brs-dietary-lever-description p {
+  margin: 0 0 0.5rem;
+}
+
+.brs-dietary-lever-finding {
+  margin: 0 !important;
+}
+
+.brs-dietary-lever-finding a {
+  font-weight: 600;
 }
 
 .brs-dietary-lever-detail-inner p {

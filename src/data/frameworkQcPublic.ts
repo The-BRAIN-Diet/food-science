@@ -1,10 +1,25 @@
 import publicDataset from "./framework-qc-public.fallback.json"
 
+export type PublicCorrection = {
+  title: string
+  findings?: string[]
+  correction_status?: string
+  section?: string | null
+  date?: string | null
+  description?: string | null
+  decision?: string | null
+  evidence?: string[]
+  review_method?: string | null
+  reviewer?: string | null
+}
+
 export type PublicIssue = {
   id: string
   title: string
   findings: string[]
   status: string
+  correction_status?: string
+  register_surface?: string
   resolution_summary: string | null
   resolved_date: string | null
   affected_pages?: PublicAffectedPage[]
@@ -29,9 +44,11 @@ export type PublicPageRecord = {
   last_checked: string | null
   reviewer: string | null
   review_scope: string | null
-  issues: PublicIssue[]
+  review_method?: string | null
+  issues: PublicCorrection[]
+  corrections?: PublicCorrection[]
   limitations: string[]
-  history: PublicIssue[]
+  history: PublicCorrection[]
 }
 
 export type PublicQcDataset = {
@@ -78,7 +95,16 @@ export function findPublicPageRecord(opts: {
 
 export function openPublicIssueCount(page: PublicPageRecord | null | undefined): number {
   if (!page) return 0
-  return (page.issues || []).filter((issue) => issue.status === "open").length
+  const rows = page.corrections?.length ? page.corrections : page.issues || []
+  return rows.filter(
+    (item) => item.correction_status === "pending" || item.correction_status === "accepted",
+  ).length
+}
+
+export function reviewMethodLabel(method: string | null | undefined): string {
+  if (method === "automated") return "Automated review"
+  if (method === "expert") return "Expert review"
+  return ""
 }
 
 /** Same index-file rule as Framework QC `classifyPage`. */
@@ -126,4 +152,12 @@ export function reviewStatusLabel(status: string | null | undefined): string {
   if (status === "expert_reviewed") return "Expert reviewed"
   if (status === "recheck_required") return "Recheck required"
   return status
+}
+
+export function correctionStatusLabel(status: string | null | undefined): string {
+  if (status === "pending") return "Pending"
+  if (status === "accepted") return "Accepted"
+  if (status === "applied") return "Applied"
+  if (status === "superseded") return "Superseded"
+  return status || ""
 }

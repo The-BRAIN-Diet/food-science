@@ -5,19 +5,28 @@ import {
   UNREVIEWED_CORRECTIONS_COPY,
   UNREVIEWED_STATUS_COPY,
   frameworkQcPublic,
+  reviewMethodLabel,
   reviewStatusLabel,
+  type PublicCorrection,
   type PublicPageRecord,
 } from "@site/src/data/frameworkQcPublic"
 import styles from "./styles.module.css"
 
-function Findings({findings}: {findings: string[]}) {
-  if (!findings?.length) return null
+function CorrectionCard({item}: {item: PublicCorrection}) {
   return (
-    <ol>
-      {findings.map((finding, index) => (
-        <li key={`${index}-${finding.slice(0, 24)}`}>{finding}</li>
-      ))}
-    </ol>
+    <article>
+      <h4>{item.title}</h4>
+      {item.section ? <p>Section: {item.section}</p> : null}
+      {item.date ? <p>Reviewed: {item.date}</p> : null}
+      {item.description ? <p>{item.description}</p> : null}
+      {item.decision ? <p>{item.decision}</p> : null}
+      {item.evidence?.length ? <p>Evidence: {item.evidence.join("; ")}</p> : null}
+      <p>
+        Correction status: {item.correction_status || "pending"}
+        {item.review_method ? ` · ${reviewMethodLabel(item.review_method)}` : ""}
+        {item.reviewer ? ` · ${item.reviewer}` : ""}
+      </p>
+    </article>
   )
 }
 
@@ -28,10 +37,18 @@ export default function PageReviewPanel({
   page: PublicPageRecord | null
   panelId: string
 }): ReactNode {
-  const unreviewed = !page || page.review_status === "unreviewed"
+  const corrections = page?.corrections || []
+  const hasCorrections = corrections.length > 0
   const {siteConfig} = useDocusaurusContext()
-  const showInternalRegister = siteConfig.customFields?.includeInternalDocs === true
+  const showFrameworkRegisterLink =
+    siteConfig.customFields?.includeInternalDocs === true && page?.page_type !== "PM"
   const registerPath = frameworkQcPublic.register_path
+  const unresolved = corrections.filter(
+    (item) => item.correction_status === "pending" || item.correction_status === "accepted",
+  )
+  const applied = corrections.filter(
+    (item) => item.correction_status === "applied" || item.correction_status === "superseded",
+  )
 
   return (
     <div
@@ -41,74 +58,51 @@ export default function PageReviewPanel({
       aria-labelledby="review-corrections-tab"
     >
       <h2 tabIndex={-1}>Review &amp; Corrections</h2>
-      {unreviewed ? (
-        <div className={styles.unreviewed}>
-          <p>{UNREVIEWED_STATUS_COPY}</p>
-          <p>{UNREVIEWED_CORRECTIONS_COPY}</p>
-        </div>
-      ) : (
+      <dl>
+        <dt>Evidence review status</dt>
+        <dd>{reviewStatusLabel(page?.review_status)}</dd>
+        <dt>Last checked</dt>
+        <dd>{page?.last_checked || "Not recorded"}</dd>
+        <dt>Review method</dt>
+        <dd>{reviewMethodLabel(page?.review_method) || page?.reviewer || "Not recorded"}</dd>
+        <dt>Scope of review</dt>
+        <dd>{page?.review_scope || "Not recorded"}</dd>
+      </dl>
+      <p>
+        Evidence review status is separate from correction status. An accepted or
+        applied correction does not mean source verification or expert review is
+        complete.
+      </p>
+      {hasCorrections ? (
         <>
-          <dl>
-            <dt>Current review status</dt>
-            <dd>{reviewStatusLabel(page.review_status)}</dd>
-            <dt>Last checked</dt>
-            <dd>{page.last_checked || "Not recorded"}</dd>
-            <dt>Checked by</dt>
-            <dd>{page.reviewer || "Not recorded"}</dd>
-            <dt>Scope of review</dt>
-            <dd>{page.review_scope || "Not recorded"}</dd>
-          </dl>
-
           <section>
-            <h3>Accepted open public issues</h3>
-            {page.issues.length === 0 ? (
-              <p>No accepted open public issues are recorded for this page.</p>
+            <h3>Unresolved decisions</h3>
+            {unresolved.length === 0 ? (
+              <p>No pending or accepted decisions remain for this page.</p>
             ) : (
-              page.issues.map((issue) => (
-                <article key={issue.id}>
-                  <h4>
-                    {issue.id} — {issue.title}
-                  </h4>
-                  <p>Status: {issue.status}</p>
-                  <Findings findings={issue.findings} />
-                </article>
+              unresolved.map((item) => (
+                <CorrectionCard key={`${item.title}-${item.section || ""}`} item={item} />
               ))
             )}
           </section>
-
           <section>
-            <h3>Accepted limitations</h3>
-            {page.limitations.length === 0 ? (
-              <p>None recorded.</p>
+            <h3>Applied corrections</h3>
+            {applied.length === 0 ? (
+              <p>No applied corrections are recorded yet.</p>
             ) : (
-              <ul>
-                {page.limitations.map((item) => (
-                  <li key={item}>{item}</li>
-                ))}
-              </ul>
-            )}
-          </section>
-
-          <section>
-            <h3>Resolved corrections</h3>
-            {page.history.length === 0 ? (
-              <p>No resolved public corrections are recorded yet.</p>
-            ) : (
-              page.history.map((issue) => (
-                <article key={issue.id}>
-                  <h4>
-                    {issue.id} — {issue.title}
-                  </h4>
-                  {issue.resolved_date ? <p>Resolved: {issue.resolved_date}</p> : null}
-                  {issue.resolution_summary ? <p>{issue.resolution_summary}</p> : null}
-                  <Findings findings={issue.findings} />
-                </article>
+              applied.map((item) => (
+                <CorrectionCard key={`${item.title}-applied`} item={item} />
               ))
             )}
           </section>
         </>
+      ) : (
+        <div className={styles.unreviewed}>
+          <p>{UNREVIEWED_STATUS_COPY}</p>
+          <p>{UNREVIEWED_CORRECTIONS_COPY}</p>
+        </div>
       )}
-      {showInternalRegister ? (
+      {showFrameworkRegisterLink ? (
         <p>
           <Link to={registerPath}>
             Complete public Framework Review &amp; Corrections register

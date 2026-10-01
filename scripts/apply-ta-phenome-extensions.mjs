@@ -26,8 +26,8 @@ import { findingsById } from "./lib/scientific-findings.mjs";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dryRun = process.argv.includes("--dry-run");
 
-const PM_PHENOME_SECTION = /^## 3\. Phenome Connections[\s\S]*?(?=\n## 4\. )/m;
-const FM_OUTCOME_SECTION = /^## 3\. Phenome Connections[\s\S]*?(?=\n## 4\. )/m;
+const PM_PHENOME_SECTION = /^## 7\. Phenome Connections[\s\S]*?(?=\n## 8\. )/m;
+const FM_OUTCOME_SECTION = /^## 7\. Phenome Connections[\s\S]*?(?=\n## 8\. )/m;
 
 function walkMdx(dir, acc = []) {
   for (const ent of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -86,7 +86,7 @@ for (const filePath of walkMdx(path.join(root, "docs/biological-targets"))) {
     if (changed) {
       const nextData = { ...data, phenome_relationships: relationships };
       const phenomeBlock = renderPmPhenomeSectionBody(relationships, {
-        sectionNum: 3,
+        sectionNum: 7,
         findingData: data,
       });
       let nextContent = content.replace(PM_PHENOME_SECTION, `${phenomeBlock.trimEnd()}\n\n`);
@@ -105,7 +105,7 @@ for (const filePath of walkMdx(path.join(root, "docs/biological-targets"))) {
     );
     if (changed) {
       const nextData = { ...data, functional_outcome_context: outcomes };
-      const outcomeBlock = renderFmOutcomeContextSectionBody(outcomes, { sectionNum: 3 });
+      const outcomeBlock = renderFmOutcomeContextSectionBody(outcomes, { sectionNum: 7 });
       let nextContent = content.replace(FM_OUTCOME_SECTION, `${outcomeBlock.trimEnd()}\n\n`);
       const merged = mergePageReferencesWithPhenome(nextData, nextContent, "fm");
       const rebuilt = matter.stringify(merged.content, merged.data, { lineWidth: 9999 });

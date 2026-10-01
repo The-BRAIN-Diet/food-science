@@ -38,13 +38,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation">BRS1-FM1-PM1 — Amino-Acid Availability &amp; Prioritisation</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation">BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation">BRS1-FM1-PM3 — Dopaminergic Signalling Regulation</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM4 — Noradrenergic Signalling</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation">BRS1-FM1-PM5 — Serotonergic Signalling Regulation</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -54,9 +47,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support">BRS1-FM2-PM6 — Acetylcholine Synthesis Support</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -66,9 +56,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation">BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation</a></li>
-  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -78,12 +65,6 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
-  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance &amp; Recycling</a></li>
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
-  </ul>
 </li>
 </ul>
 </div>
@@ -438,7 +419,7 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <strong>Dietary & Fasting Protocols</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>

@@ -100,6 +100,16 @@ export function extractHubPanelBullets(block) {
     .filter((line) => line.startsWith("- "));
 }
 
+/** Inner HTML/text of the first hub panel in a hub-item block. */
+export function extractHubPanelInner(block) {
+  const panelIdx = block.indexOf(HUB_PANEL_OPEN);
+  if (panelIdx === -1) return "";
+  const contentStart = panelIdx + HUB_PANEL_OPEN.length;
+  const panelEnd = findBalancedDivEnd(block, panelIdx);
+  if (panelEnd === -1) return "";
+  return block.slice(contentStart, panelEnd - DIV_CLOSE.length).trim();
+}
+
 export function setHubPanelBullets(block, bullets) {
   const body = bullets.length
     ? `\n\n${PM_SOP_SCOPE_EXPLAINER}\n\n${bullets.join("\n")}\n\n`

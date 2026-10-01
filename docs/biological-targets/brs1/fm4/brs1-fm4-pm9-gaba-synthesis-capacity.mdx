@@ -4,9 +4,7 @@ pm_id: BRS1-FM4-PM9
 mission: 'Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.'
 parent_fm: BRS1(FM4)
 parent_brs: BRS1
-summary: 'Governs conversion of glutamate into GABA (gamma-aminobutyric acid, the brain''s principal inhibitory neurotransmitter) through the cofactor-dependent enzyme glutamate decarboxylase. This mechanism determines synthesis capacity from available glutamate specifically — distinct from GABA concentration, degradation, transport and receptor signalling, and distinct from glutamate clearance or excitotoxic modulation covered elsewhere. Cofactor sufficiency principally governs reserve rather than basal synthesis. Whether ordinary dietary variation changes human brain GABA synthesis has not been demonstrated; see §4.1 for what the evidence establishes and what it does not.'
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
+summary: 'GABA synthesis capacity is the conversion of glutamate into the inhibitory neurotransmitter GABA by glutamate decarboxylase (GAD), which requires pyridoxal-5′-phosphate (PLP). This reaction supplies the GABA pool used by later inhibitory signalling. Differences between GAD isoforms indicate that PLP availability principally affects reserve capacity rather than basal output. This mechanism concerns synthesis from available glutamate, not GABA concentration, degradation, transport, receptor signalling, glutamate clearance or injury-level excitotoxicity.'
 cofactors:
   - Pyridoxal-5′-phosphate (PLP)
 dietary_input_traceability:
@@ -79,9 +77,51 @@ dietary_lever_presentations:
   - atom_id: PM9-DIT-2
     label: Pyridoxal-5′-phosphate (PLP)
     presentation_section: 3.1.2
-  - atom_id: PM9-DIT-1
-    label: Glutamate substrate context
-    presentation_section: 3.1.3
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
+      this mechanism’s governed GABA-synthesis capacity.
+    disposition: unresolved
+    established_links:
+      - Glutamate is the GAD substrate for GABA synthesis (PM9-F1).
+      - DIAAS and related scores measure digestible IAA adequacy (FAO 2013; Mariotti 2019).
+    inferred_links:
+      - Incomplete IAA quality would limit the glutamate pool and thereby constrain GAD capacity.
+    evidence_source:
+      finding_ids:
+        - PM9-F1
+      citation_keys:
+        - martin_regulation_1993
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    rationale: >-
+      Assessment was completed. Quality-scoring evidence does not connect IAA
+      inadequacy to GAD capacity. Glutamate is not an indispensable amino acid.
+      Findings and Dietary Requirements were not reopened.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed GABA-synthesis capacity.
+    disposition: evidence-supported-non-application
+    established_links:
+      - GABA is formed from glutamate after that substrate is available (PM9-F1).
+      - Fernstrom 2013’s LAT1 cargo set is large neutral amino acids, not glutamate or GABA.
+    inferred_links:
+      - LAT1 imbalance would change amino-acid presentation and thereby constrain GABA synthesis.
+    evidence_source:
+      finding_ids:
+        - PM9-F1
+      citation_keys:
+        - martin_regulation_1993
+        - fernstrom_lnna_2013
+    rationale: >-
+      The named competitive state is LAT1 LNAA balance. GABA synthesis uses
+      glutamate, which is not that cargo set. Public mapping is not published.
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
@@ -563,10 +603,13 @@ references:
   - '[Mousain-Bosc et al. (2006) — Improvement of Neurobehavioral Disorders in Children Supplemented with Magnesium-vitamin B6](/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006)'
   - '[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
   - '[Cataldo et al. (2024) — Insights from Physiology, Genomics, and Proteomics](/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024)'
-  - '[Manor et al. (1996) — Cortical GABA Turnover from [1-13C](/docs/papers/BRAIN-Diet-References#manor_rate_1996)'
+  - '[Manor et al. (1996) — Cortical GABA Turnover from 1-13C-Labelled Glucose](/docs/papers/BRAIN-Diet-References#manor_rate_1996)'
   - '[Bayoumi et al. (1972) — Dietary Vitamin B6 Deficiency and GABA Metabolism in Rat Brain](/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972)'
   - '[Erecińska et al. (1996) — Ketone Bodies and GABA Formation in Rat Brain Synaptosomes](/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996)'
   - '[Zhang et al. (2015) — Ketone-Derived Carbon Contribution to GABA in Ketotic Rat Brain](/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015)'
+  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
+  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
 hide_title: true
 scientific_findings_intro: 'GABA is produced from glutamate by glutamate decarboxylase (GAD), an enzyme that requires pyridoxal-5′-phosphate (PLP), the active coenzyme form of vitamin B6. The evidence therefore identifies glutamate substrate availability and PLP-dependent GAD activity as requirements for GABA synthesis capacity. Vitamin B6 contributes through its conversion to PLP, although PLP supports many biological processes and this requirement does not establish that increasing vitamin B6 intake increases GABA production.'
 ---
@@ -583,26 +626,12 @@ scientific_findings_intro: 'GABA is produced from glutamate by glutamate decarbo
 
 (Building the Brain's Main Inhibitory Signal)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.
 
-### Overview
-
-Governs conversion of glutamate into GABA (gamma-aminobutyric acid, the brain's principal inhibitory neurotransmitter) through the cofactor-dependent enzyme glutamate decarboxylase. This mechanism determines synthesis capacity from available glutamate specifically — distinct from GABA concentration, degradation, transport and receptor signalling, and distinct from glutamate clearance or excitotoxic modulation covered elsewhere. Cofactor sufficiency principally governs reserve rather than basal synthesis. Whether ordinary dietary variation changes human brain GABA synthesis has not been demonstrated; see §4.1 for what the evidence establishes and what it does not.
-
-* Converts glutamate into GABA via the cofactor-dependent enzyme GAD.
-* Governs synthesis capacity — not GABA concentration, clearance or receptor signalling.
-* Cofactor availability principally governs reserve rather than basal synthesis.
-
-## 2. Primary Biological Effects
-GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
-
-## 3. Levers
-
-### Intervention Profile
 
 **Intervention Dominance:** Diet-Supported
 
@@ -629,7 +658,6 @@ GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
 </div>
 </div>
 
-
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -645,7 +673,6 @@ GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
 </div>
 </div>
 
-
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -654,16 +681,7 @@ GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Glutamate substrate context
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -671,8 +689,20 @@ GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
 
 </div>
 </div>
-</div>
 
+</div>
+### Overview
+
+GABA synthesis capacity is the conversion of glutamate into the inhibitory neurotransmitter GABA by glutamate decarboxylase (GAD), which requires pyridoxal-5′-phosphate (PLP) Martin and Rimvall (1993) [[1]](#pm-ref-1). This reaction supplies the GABA pool used by later inhibitory signalling. Differences between GAD isoforms indicate that PLP availability principally affects reserve capacity rather than basal output. This mechanism concerns synthesis from available glutamate, not GABA concentration, degradation, transport, receptor signalling, glutamate clearance or injury-level excitotoxicity.
+
+* **Mechanism boundary:** Includes GAD-dependent conversion of available glutamate to GABA; upstream glutamate supply and downstream GABA handling are outside scope.
+* **Evidence boundary:** GABA concentration can move differently from synthesis rate, so spectroscopy or tissue pools cannot be read as GAD flux Mason et al. (2001) [[6]](#pm-ref-6).
+* **Biological relevance:** GABA synthesis supplies inhibitory signalling capacity, but ordinary dietary variation has not been shown to increase human brain synthesis or provide an ADHD treatment Martin and Rimvall (1993) [[1]](#pm-ref-1); Edden et al. (2012) [[7]](#pm-ref-7).
+
+## 2. Primary Biological Effects
+GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
+
+## 3. Intervention Levers
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -691,7 +721,6 @@ GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
 </div>
 </div>
 </div>
-
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -748,12 +777,6 @@ Substrate and cofactor sufficiency are therefore the inputs this mechanism depen
 </div>
 </div>
 
-
-
-
-
-
-
 ### 4.1 Scientific Findings
 
 #### Introduction/Summary
@@ -764,7 +787,29 @@ GABA is produced from glutamate by glutamate decarboxylase (GAD), an enzyme that
 
 <ScientificFinding finding={{"id":"PM9-F2","finding_label":"How vitamin B6 becomes active — and why that is not GABA-specific","finding_summary":"Dietary vitamin B6 vitamers are converted to PLP by pyridoxal kinase (PDXK). In recombinant human PDXK assays, zinc was the most effective tested divalent cation under specified in-vitro conditions, but activity depends on metal and nucleotide balance and is not a simple “more zinc = more cofactor” relationship. PLP is the cofactor for more than 140 enzymes, so vitamin B6 supports this pathway but is not selective for GABA synthesis.","finding_interpretation":"This establishes upstream pathway biology only. It does not show that dietary zinc intake, zinc status, or ordinary B6 intake changes human brain GABA synthesis.","finding_statement":"Pyridoxal-5-phosphate formation depends on pyridoxal kinase; in recombinant human PDXK assays, zinc was the most effective tested divalent cation under specified in-vitro metal-to-nucleotide concentration conditions. This does not establish physiological zinc limitation or dietary zinc responsiveness, and because pyridoxal-5-phosphate serves over 140 enzymes, vitamin B6 is not a GABA-specific lever.","finding_discriminator":"Concerns formation of the cofactor upstream of the enzyme. PM9-F1 concerns the enzyme's dependence on it.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Pyridoxal kinase phosphorylates dietary B6 vitamers to pyridoxal-5-phosphate using ATP and a divalent cation. In recombinant human PDXK assays, zinc was the most effective tested divalent cation under specified in-vitro conditions. Several metals support activity, however, and the size of the effect depends strongly on the relative concentrations of metal and nucleotide: the true substrate is the metal-nucleotide complex, and the enzyme is inhibited by excess pyridoxal and by the zinc-ATP complex itself. These assays do not establish physiological zinc limitation or dietary zinc responsiveness. Because pyridoxal-5-phosphate is the cofactor for more than 140 enzymes, neither B6 nor zinc acts selectively on GABA synthesis.","synthesis_limitations":"Entirely in vitro enzymology using recombinant or purified protein. Nothing here links dietary zinc intake or zinc status to human brain pyridoxal-5-phosphate, GAD activity, GABA synthesis rate or any outcome. The substrate-inhibition and ratio-dependence results do not support inferring that more zinc yields more cofactor or more GABA. These studies characterise the same human enzyme and are not independent lines of evidence.","evidence_considered":[{"label":"Lee et al. (2000)","citation_key":"lee_human_2000","href":"/docs/papers/BRAIN-Diet-References#lee_human_2000","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"In recombinant human PDXK assays, zinc was the most effective tested divalent cation under the specified in-vitro conditions.","assessment":{"study":"Human brain pyridoxal kinase cDNA was isolated and the enzyme overexpressed in E. coli as a maltose-binding-protein fusion, then purified and kinetically characterised.","population":"Recombinant human brain enzyme expressed in bacteria; no tissue or human participants.","result":"Under the specified recombinant-enzyme assay conditions, zinc was the most effective tested divalent cation supporting phosphorylation of pyridoxal. Maximum catalytic activity occurred over a narrow pH range of 5.5 to 6.0. Km values were 97 micromolar for pyridoxal and 12 micromolar for ATP.","effect_magnitude":"Km 97 micromolar (pyridoxal) and 12 micromolar (ATP); relative metal efficacy reported qualitatively rather than as a ratio.","evidence_summary":"Places zinc inside the pathway that forms GAD's cofactor as upstream enzymology.","limitations":"Recombinant enzyme in vitro. The acidic pH optimum and bacterial expression system limit extrapolation to intracellular neuronal conditions, and no zinc-status or intake variable was examined."},"canonical_reference":{"author_year":"Lee et al. (2000)","number":2,"anchor":"#pm-ref-2"}},{"label":"Tang et al. (2005)","citation_key":"tang_crystal_2005","href":"/docs/papers/BRAIN-Diet-References#tang_crystal_2005","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Structural confirmation that pyridoxal kinase phosphorylates B6 vitamers in the presence of ATP and zinc, forming a cofactor used by over 140 enzymes.","assessment":{"study":"X-ray crystal structures of human pyridoxal kinase in complex with roscovitine and two derivatives, resolving the pyridoxal- and ATP-binding sites.","population":"Purified human recombinant protein; structural biology, no organism.","result":"Pyridoxal kinase phosphorylates pyridoxal, pyridoxamine and pyridoxine in the presence of ATP and zinc. The three roscovitine compounds bound in the pyridoxal-binding site rather than the anticipated ATP site.","effect_magnitude":"Structural study; no effect estimate applicable.","evidence_summary":"Confirms zinc in the catalytic mechanism and establishes that pyridoxal-5-phosphate is a cofactor for more than 140 enzymes, which is why B6 cannot be treated as a GABA-selective input.","limitations":"Structural and in vitro. The pharmacological focus is the kinase as a drug target; nothing is measured about GABA, brain tissue or physiology."},"canonical_reference":{"author_year":"Tang et al. (2005)","number":3,"anchor":"#pm-ref-3"}},{"label":"Navarro et al. (2013)","citation_key":"navarro_catalytic_2013","href":"/docs/papers/BRAIN-Diet-References#navarro_catalytic_2013","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"In purified human PDXK assays, several metals supported activity and zinc was the most effective tested cation under the specified in-vitro conditions, but the effect depended on metal-to-nucleotide ratio and the enzyme was inhibited by excess pyridoxal and by zinc-ATP.","assessment":{"study":"Kinetic characterisation of human pyridoxal kinase with explicit determination of the metal-nucleotide species governing activity.","population":"Purified human recombinant enzyme; in vitro kinetics.","result":"Activity was supported by several metals, zinc being the most effective, but the magnitude depended strongly on the relative concentrations of metal and nucleotide. The true substrate is the metal-nucleotide complex; free ATP species did not support activity. The enzyme showed substrate inhibition by pyridoxal and weak inhibition by zinc-ATP.","effect_magnitude":"Reported as kinetic constants across metal-nucleotide species rather than a single comparative effect size.","evidence_summary":"Supplies the concentration and dose constraints on the zinc step, and shows zinc is most effective rather than uniquely required.","limitations":"In vitro kinetics at defined metal and nucleotide concentrations that need not correspond to intracellular conditions. No physiological or dietary variable is tested."},"canonical_reference":{"author_year":"Navarro et al. (2013)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["All three studies characterise the same enzyme using purified or recombinant protein, so they provide convergent mechanistic evidence rather than independent physiological replication. None supplies physiological or dietary evidence."],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"}]}} />
 
-## 5. Phenome Connections
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory tone can associate with neuronal excitability. This page does not show that NF-κB controls GAD-dependent GABA synthesis.
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Cellular energy supports enzyme function generally. No GABA-specific energy intervention is established here.
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic state can affect brain metabolism. Ordinary glucose appearance is not shown to set GABA synthesis capacity.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) — Coordinates transmission that uses GABA produced here. Functional coordination, not a second synthesis-capacity claim.
+- [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) — Clears and recycles glutamate, the substrate this PM decarboxylates. Shared glutamate pool, not GAD activity.
+- [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) — Limits excitotoxic injury if glutamate handling fails. Association with glutamate stress, not a synthesis dependency.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -898,50 +943,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
-- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance)
-- [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling)
-- [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to gaba synthesis capacity.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM9 Relevance |
-|---|---|---|
-| Functional Property Potentials | complete_protein_context; lnna_transport_context; choline_rich_food_matrix | May influence meal-level mechanism support. |
-| Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
-
-</div>
-</div>
-</div>
-
 ## 8. References
 
 - <span id="pm-ref-1">[1]</span> [Martin & Rimvall (1993) — Regulation of Gamma-Aminobutyric Acid Synthesis in the Brain](/docs/papers/BRAIN-Diet-References#martin_regulation_1993)
@@ -962,8 +963,11 @@ This PM is scoreable through food-state and nutrient signals relevant to gaba sy
 - <span id="pm-ref-16">[16]</span> [Mousain-Bosc et al. (2006) — Improvement of Neurobehavioral Disorders in Children Supplemented with Magnesium-vitamin B6](/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006)
 - <span id="pm-ref-17">[17]</span> [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
 - <span id="pm-ref-18">[18]</span> [Cataldo et al. (2024) — Insights from Physiology, Genomics, and Proteomics](/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024)
-- <span id="pm-ref-19">[19]</span> [Manor et al. (1996) — Cortical GABA Turnover from [1-13C](/docs/papers/BRAIN-Diet-References#manor_rate_1996)
+- <span id="pm-ref-19">[19]</span> [Manor et al. (1996) — Cortical GABA Turnover from 1-13C-Labelled Glucose](/docs/papers/BRAIN-Diet-References#manor_rate_1996)
 - <span id="pm-ref-20">[20]</span> [Bayoumi et al. (1972) — Dietary Vitamin B6 Deficiency and GABA Metabolism in Rat Brain](/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972)
 - <span id="pm-ref-21">[21]</span> [Erecińska et al. (1996) — Ketone Bodies and GABA Formation in Rat Brain Synaptosomes](/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996)
 - <span id="pm-ref-22">[22]</span> [Zhang et al. (2015) — Ketone-Derived Carbon Contribution to GABA in Ketotic Rat Brain](/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015)
+- <span id="pm-ref-23">[23]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- <span id="pm-ref-24">[24]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-25">[25]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 

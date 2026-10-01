@@ -165,6 +165,17 @@
     "inchikey": "",
     "list_image": ""
   },
+  "kaempferol": {
+    "path": "bioactive-compounds/polyphenols/flavonols/kaempferol.md",
+    "tags": [
+      "bioactive",
+      "flavonol",
+      "polyphenol"
+    ],
+    "title": "Kaempferol",
+    "inchikey": "IYRMWMYZFYREHC-UHFFFAOYSA-N",
+    "list_image": "/img/inchi/IYRMWMYZFYREHC-UHFFFAOYSA-N.png"
+  },
   "egcg": {
     "path": "bioactive-compounds/polyphenols/flavan-3-ols/egcg.md",
     "tags": [

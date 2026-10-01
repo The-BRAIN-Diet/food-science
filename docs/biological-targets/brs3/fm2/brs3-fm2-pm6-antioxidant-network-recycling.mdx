@@ -18,20 +18,89 @@ summary: >-
 key_constraints:
   - BRS3(KC1) - Antioxidant Substrate Availability
 cofactors:
-  - vitamin C
-  - vitamin E
-  - glutathione
-  - CoQ10
-  - lipoic acid
-  - riboflavin
-  - selenium
-  - zinc
-  - copper
-  - manganese
+  - Vitamin C
+  - Vitamin E
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: Pattern-based network coverage rather than single-nutrient megadose
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM6-DIT-1
+    input: Vitamin C
+    input_type: nutrient/substance
+    biological_role: Water-soluble antioxidant that can regenerate oxidised vitamin E in the networked recycling system
+    evidence_source:
+      citation_keys:
+        - packer_vitamin_1997
+        - vertuani_antioxidants_2004
+    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin C intake improves antioxidant-network capacity or clinical outcomes.
+  - atom_id: PM6-DIT-2
+    input: Vitamin E
+    input_type: nutrient/substance
+    biological_role: Lipid-soluble antioxidant whose tocopheroxyl radical can be recycled by vitamin C in the same network
+    evidence_source:
+      citation_keys:
+        - packer_vitamin_1997
+        - klein_vitamin_2011
+    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin E intake improves recycling capacity; Klein 2011 also cautions high-dose vitamin E in other clinical contexts.
+dietary_lever_atoms:
+  - atom_id: PM6-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin C is a Direct nutrient in the recycling network that can regenerate vitamin E. This is not a high-dose vitamin C rule.
+    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin C intake improves antioxidant-network capacity or clinical outcomes.
+  - atom_id: PM6-DIT-2
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin E is a Direct nutrient in the recycling network. This is not a high-dose vitamin E rule.
+    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin E intake improves recycling capacity; Klein 2011 also cautions high-dose vitamin E in other clinical contexts.
+dietary_lever_presentations:
+  - atom_id: PM6-DIT-1
+    label: Vitamin C
+    presentation_section: 3.1.1
+  - atom_id: PM6-DIT-2
+    label: Vitamin E
+    presentation_section: 3.1.1
+  - atom_id: PM6-DIT-1
+    label: Vitamin C
+    presentation_section: 3.1.2
+  - atom_id: PM6-DIT-2
+    label: Vitamin E
+    presentation_section: 3.1.2
+pm_kc_relationships:
+  - relationship_id: BRS3-FM2-PM6-KCR-1
+    kc_id: BRS3(KC1)
+    pm_biological_role: Antioxidant-network recycling uses vitamin C as a water-soluble network substrate, so this PM draws on BRS3(KC1) antioxidant-substrate sufficiency at that overlapping input.
+    evidence_source:
+      citation_keys:
+        - packer_vitamin_1997
+        - vertuani_antioxidants_2004
+    evidence_limitation: Recycling chemistry does not establish that cysteine, glycine or glutamate on the KC page are Direct Dietary Requirements of this PM.
+    constituent_relationships:
+      - relationship_id: BRS3-FM2-PM6-KCI-1
+        pm_atom_id: PM6-DIT-1
+        label: Vitamin C
+        kc_membership_status: legacy-unreviewed
+        legacy_kc_constituent_label: Vitamin C
+        kc_change_control_flag_id: KC-CC-BRS3-FM2-PM6-01
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM2-PM6-01
+    flag_type: constituent-challenge
+    kc_id: BRS3(KC1)
+    proposition: Whether the independently adjudicated PM6 vitamin C recycling relationship is the same constrained-pool membership as BRS3(KC1) vitamin C.
+    evidence_source:
+      citation_keys:
+        - packer_vitamin_1997
+    status: pending-kc-review
+
 references:
   - >-
     [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant
@@ -122,12 +191,82 @@ phenome_relationships:
 
 (Recycling the Body's Antioxidant Defences)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.
 
+
+Vitamin C and vitamin E are Direct nutrients in the recycling network. CoQ10, lipoic acid, riboflavin and mineral rows are not projected without PM-specific provision evidence. Page-level dietary addressability remains unestablished.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Vitamin C
+- Vitamin E
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Vitamin C
+- Vitamin E
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- Vitamin C
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
 Supports recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity (networked regeneration, such as vitamin C recycling vitamin E, rather than single-compound resupply). This mechanism governs antioxidant-network recycling specifically, distinct from exogenous antioxidant supply or Nrf2-driven endogenous activation covered elsewhere. Because recycling extends how long existing antioxidant capacity lasts, network efficiency can matter as much as raw antioxidant intake for sustained protection.
@@ -139,7 +278,155 @@ Supports recycling interactions among antioxidant systems that regenerate vitami
 ## 2. Primary Biological Effects
 ↑ antioxidant regeneration; ↑ persistence of antioxidant protection
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Antioxidant protection persists only when depleted antioxidants are regenerated across interacting systems. Network recycling—not isolated nutrient presence—determines whether redox defence remains effective within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Antioxidant-network logic and recycling capacity</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Network rather than single-nutrient protection)
+
+Antioxidant protection functions as a network in which vitamin C, vitamin E, glutathione, CoQ10, lipoic acid, and related systems regenerate one another in vivo rather than acting as isolated nutrients → [Packer et al., 1997]; [Vertuani et al., 2004]
+
+#### (Regeneration cycles and cofactor dependence)
+
+Recycling capacity depends on simultaneous availability of water-soluble and lipid-soluble antioxidants plus thiol and cofactor support. Depletion in one network node propagates vulnerability across the broader redox system → [Packer et al., 1997]
+
+#### (Boundaries of the mechanism)
+
+Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Net ROS generation versus clearance is handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid peroxidation control is represented by [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control).
+
+#### (Integration within BRS3)
+
+This PM encodes network persistence within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Mitochondrial electron-transport context imported through [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) modulates oxidative regeneration load.
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+The antioxidant-network concept is well established. The evidence below anchors regeneration logic and cautions against single-nutrient megadosing without clinical justification.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Synergistic antioxidant network regeneration</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Vitamins E and C, glutathione, lipoic acid, and CoQ10 function as an interacting regeneration network in vivo rather than independent antioxidants [Packer et al., 1997; Vertuani et al., 2004].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Megadose supplement caution</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** High-dose isolated antioxidant supplements have shown inconsistent or harmful effects in some trials — reinforcing food-based network coverage as the practical frame aligned with this PM [Klein et al., 2011].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Green Mediterranean Diet and urolithin A context</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Green Mediterranean Diet interventions report neuroprotective metabolic shifts accompanied by increases in microbiome-derived urolithin A — illustrating polyphenol–fibre–gut synergy as a network-supportive dietary pattern [Zelicha et al., 2022; Pachter et al., 2024].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation)
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -244,284 +531,10 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Vitamin C + vitamin E pairing ← citrus, peppers, leafy greens + nuts, extra virgin olive oil
-- Mixed polyphenol intake ← berries, tea, cocoa, extra virgin olive oil
-- CoQ10-supportive foods ← oily fish, meat
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- CoQ10
-- copper
-- glutathione
-- lipoic acid
-- manganese
-- Riboflavin (B2) ← dairy, eggs, lean meat
-- selenium
-- vitamin C
-- vitamin E
-- zinc
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Polyphenols ← berries, cocoa, green tea
-- Vitamin C ← citrus, kiwi, bell peppers
-- Cysteine ← eggs, poultry, legumes
-- Glycine ← collagen-rich cuts, poultry, legumes
-- Glutamate ← meat, fish, soy
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Prepare heat-sensitive antioxidant foods to preserve vitamin C and polyphenols that support network recycling — see [Spinach — Preparation](/docs/foods/spinach#preparation), [Blueberries — Preparation](/docs/foods/blueberries#preparation).
-- Practical preparation on linked dietary levers determines how much antioxidant substrate reaches recycling pathways — detailed guidance lives on each Food Profile.
-- Broad whole-food antioxidant coverage is more relevant than sporadic high-dose supplement logic.
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Prepare cruciferous vegetables to support myrosinase-dependent sulforaphane yield — see [Broccoli Sprouts — Preparation](/docs/foods/broccoli-sprouts#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Lower ongoing oxidative exposure helps preserve the value of antioxidant recycling capacity.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Antioxidant protection persists only when depleted antioxidants are regenerated across interacting systems. Network recycling—not isolated nutrient presence—determines whether redox defence remains effective within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Antioxidant-network logic and recycling capacity</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Network rather than single-nutrient protection)
-
-Antioxidant protection functions as a network in which vitamin C, vitamin E, glutathione, CoQ10, lipoic acid, and related systems regenerate one another in vivo rather than acting as isolated nutrients → [Packer et al., 1997]; [Vertuani et al., 2004]
-
-#### (Regeneration cycles and cofactor dependence)
-
-Recycling capacity depends on simultaneous availability of water-soluble and lipid-soluble antioxidants plus thiol and cofactor support. Depletion in one network node propagates vulnerability across the broader redox system → [Packer et al., 1997]
-
-#### (Boundaries of the mechanism)
-
-Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Net ROS generation versus clearance is handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid peroxidation control is represented by [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control).
-
-#### (Integration within BRS3)
-
-This PM encodes network persistence within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Mitochondrial electron-transport context imported through [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) modulates oxidative regeneration load.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The antioxidant-network concept is well established. The evidence below anchors regeneration logic and cautions against single-nutrient megadosing without clinical justification.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Synergistic antioxidant network regeneration</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Vitamins E and C, glutathione, lipoic acid, and CoQ10 function as an interacting regeneration network in vivo rather than independent antioxidants [Packer et al., 1997; Vertuani et al., 2004].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Megadose supplement caution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** High-dose isolated antioxidant supplements have shown inconsistent or harmful effects in some trials — reinforcing food-based network coverage as the practical frame aligned with this PM [Klein et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Green Mediterranean Diet and urolithin A context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Green Mediterranean Diet interventions report neuroprotective metabolic shifts accompanied by increases in microbiome-derived urolithin A — illustrating polyphenol–fibre–gut synergy as a network-supportive dietary pattern [Zelicha et al., 2022; Pachter et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation)
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through mixed antioxidant-network coverage rather than isolated single-nutrient inputs.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM8 Relevance |
-|---|---|---|
-| Functional Property Potentials | mixed_antioxidant_network; vitamin_c_e_pairing; redox_recycling_support | May support antioxidant-network persistence. |
-| Realised Functional States | antioxidant_diverse_meal; mixed_polyphenol_pattern | Reflect practical network-coverage states. |
-| Preparation Transformations | minimally_processed; mixed_whole_food_matrix; lower_high_heat_load | May preserve antioxidant-network support. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-- [Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-- [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
-- [Pachter et al. (2024) — Glycemic and Microbiome Effects of Green Mediterranean Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
-- [Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-- [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- <span id="pm-ref-1">[1]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- <span id="pm-ref-2">[2]</span> [Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+- <span id="pm-ref-3">[3]</span> [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+- <span id="pm-ref-4">[4]</span> [Pachter et al. (2024) — Glycemic and Microbiome Effects of Green Mediterranean Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
+- <span id="pm-ref-5">[5]</span> [Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+- <span id="pm-ref-6">[6]</span> [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)

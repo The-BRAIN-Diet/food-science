@@ -22,6 +22,16 @@ function renderEvidenceLinks(refs: EvidenceReference[]): string {
     .join("; ")}</span>`;
 }
 
+function buildDescriptionHtml(d: DietaryLeverDisclosure): string {
+  const description = String(d.readerDescription || "").trim();
+  if (!description) return "";
+  const finding = d.supportingFinding;
+  const findingLink = finding
+    ? `<p class="brs-dietary-lever-finding"><a href="${escapeHtml(finding.href)}">${escapeHtml(finding.label)}</a></p>`
+    : "";
+  return `<div class="brs-dietary-lever-description"><p>${escapeHtml(description)}</p>${findingLink}</div>`;
+}
+
 function buildDetailHtml(d: DietaryLeverDisclosure): string {
   const limitation = d.evidenceLimitation
     ? `<p class="brs-dietary-lever-detail-limit"><span class="brs-dietary-lever-detail-k">Limitation</span> = ${escapeHtml(d.evidenceLimitation)}</p>`
@@ -29,9 +39,10 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
 
   return `
     <div class="brs-dietary-lever-detail-inner">
+      ${buildDescriptionHtml(d)}
       <p><span class="brs-dietary-lever-detail-k">Input</span> = ${escapeHtml(d.title)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
-      <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${escapeHtml(d.biologicalRole)}</p>
+      <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
       <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
       ${limitation}
     </div>
@@ -46,14 +57,26 @@ function escapeHtml(s: string): string {
     .replace(/"/g, "&quot;");
 }
 
+function renderInlineMarkdownLinks(text: string): string {
+  return escapeHtml(text).replace(
+    /\[([^\]]+)\]\((\/docs\/[^)]+)\)/g,
+    '<a href="$2">$1</a>',
+  );
+}
+
 function presentationSectionForListItem(li: HTMLLIElement): string {
   let item = li.closest<HTMLElement>(".brs-fm-hub-item");
   while (item) {
+    const emergingSupport = item.getAttribute("data-brs-emerging-support");
+    if (emergingSupport) return `kc-emerging-support:${emergingSupport}`;
     const summary = item.querySelector<HTMLElement>(
       ":scope > .brs-fm-hub-shell > .brs-fm-hub-summary",
     );
-    const match = String(summary?.textContent || "").match(/\b(3\.1\.[123]|3\.[23])\b/);
-    if (match) return match[1];
+    const text = String(summary?.textContent || "");
+    const dietary = text.match(/\b[34]\.1\.([123])\b/);
+    if (dietary) return `3.1.${dietary[1]}`;
+    const other = text.match(/\b[34]\.([23])\b/);
+    if (other) return `3.${other[1]}`;
     item = item.parentElement?.closest<HTMLElement>(".brs-fm-hub-item") || null;
   }
 
@@ -62,15 +85,15 @@ function presentationSectionForListItem(li: HTMLLIElement): string {
     let nearestHeadingSection = "";
     details.querySelectorAll<HTMLElement>("h3").forEach((heading) => {
       if (heading.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_FOLLOWING) {
-        const match = String(heading.textContent || "").match(/\b(3\.1\.[123])\b/);
-        if (match) nearestHeadingSection = match[1];
+        const match = String(heading.textContent || "").match(/\b[34]\.1\.([123])\b/);
+        if (match) nearestHeadingSection = `3.1.${match[1]}`;
       }
     });
     if (nearestHeadingSection) return nearestHeadingSection;
 
     const summary = details.querySelector<HTMLElement>(":scope > summary");
-    const match = String(summary?.textContent || "").match(/\b(3\.[23])\b/);
-    if (match) return match[1];
+    const match = String(summary?.textContent || "").match(/\b[34]\.([23])\b/);
+    if (match) return `3.${match[1]}`;
   }
   return "";
 }
@@ -79,23 +102,30 @@ function closeAllExcept(root: HTMLElement, keep: HTMLElement | null) {
   root.querySelectorAll<HTMLElement>(".brs-dietary-lever-detail:not([hidden])").forEach((panel) => {
     if (panel === keep) return;
     panel.hidden = true;
-    const item = panel.closest<HTMLElement>(".brs-dietary-lever-item");
+    const item = panel.closest<HTMLElement>(
+      ".brs-dietary-lever-item, .brs-evidence-title-wrap",
+    );
     if (item) item.dataset.brsDietaryLeverPinned = "false";
     const btn = item?.querySelector<HTMLButtonElement>(
-      ".brs-dietary-lever-trigger",
+      ".brs-dietary-lever-trigger, .brs-evidence-title-trigger",
     );
-    if (btn) btn.setAttribute("aria-expanded", "false");
+    if (btn?.classList.contains("brs-dietary-lever-trigger")) {
+      btn.setAttribute("aria-expanded", "false");
+    }
   });
 }
 
 function setDisclosureOpen(
-  item: HTMLLIElement,
+  item: HTMLElement,
   detail: HTMLElement,
   trigger: HTMLButtonElement,
   open: boolean,
+  disclosureControl = true,
 ) {
   detail.hidden = !open;
-  trigger.setAttribute("aria-expanded", open ? "true" : "false");
+  if (disclosureControl) {
+    trigger.setAttribute("aria-expanded", open ? "true" : "false");
+  }
   if (!open) item.dataset.brsDietaryLeverPinned = "false";
 }
 
@@ -112,14 +142,30 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   trigger.className = "brs-dietary-lever-trigger";
   trigger.setAttribute("aria-expanded", "false");
   trigger.setAttribute("aria-haspopup", "dialog");
-  trigger.title = "View evidence for this PM lever";
+  trigger.title = "View five-field evidence";
   trigger.textContent = parsed.label;
 
   const qualifierSpan = document.createElement("span");
   qualifierSpan.className = "brs-dietary-lever-qualifier";
   qualifierSpan.textContent = disclosure.compactQualifier
-    ? ` ${disclosure.compactQualifier}`
+    ? ` — ${disclosure.compactQualifier}`
     : "";
+
+  const upstreamWrap = document.createElement("span");
+  upstreamWrap.className = "brs-dietary-lever-upstream";
+  const upstreamIndicators = disclosure.upstreamIndicators || [];
+  upstreamIndicators.forEach((indicator, index) => {
+    const prefix =
+      disclosure.compactQualifier || index > 0 ? " · [" : " — [";
+    upstreamWrap.append(document.createTextNode(prefix));
+    const link = document.createElement("a");
+    link.className = "brs-dietary-lever-upstream-link";
+    link.href = indicator.href;
+    link.textContent = indicator.text;
+    link.addEventListener("click", (event) => event.stopPropagation());
+    upstreamWrap.append(link);
+    upstreamWrap.append(document.createTextNode("]"));
+  });
 
   const foodsSpan = document.createElement("span");
   foodsSpan.className = "brs-dietary-lever-foods";
@@ -134,12 +180,13 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   detail.hidden = true;
   detail.setAttribute("role", "dialog");
   detail.setAttribute("aria-modal", "false");
-  detail.setAttribute("aria-label", `${disclosure.title} — PM lever evidence`);
+  detail.setAttribute("aria-label", `${disclosure.title} — five-field evidence`);
   detail.innerHTML = buildDetailHtml(disclosure);
 
   li.textContent = "";
   li.append(trigger);
   if (disclosure.compactQualifier) li.append(qualifierSpan);
+  if (upstreamIndicators.length) li.append(upstreamWrap);
   if (parsed.foods) li.append(foodsSpan);
   li.append(detail);
 
@@ -190,6 +237,67 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   });
 }
 
+function enhanceEvidenceTitle(
+  wrapper: HTMLElement,
+  disclosure: DietaryLeverDisclosure,
+  root: HTMLElement,
+) {
+  const host = wrapper.querySelector<HTMLElement>(
+    ":scope > .brs-fm-hub-shell > .brs-fm-hub-summary-row > .brs-evidence-title-wrap",
+  );
+  const trigger = host?.querySelector<HTMLButtonElement>(
+    ":scope > .brs-evidence-title-trigger",
+  );
+  if (!host || !trigger || host.dataset.brsDietaryLeverInit === "true") return;
+
+  host.dataset.brsDietaryLeverInit = "true";
+  const detailId = `brs-emerging-support-${Math.random().toString(36).slice(2, 9)}`;
+  trigger.title = "View five-field evidence; activate to expand research details";
+
+  const detail = document.createElement("div");
+  detail.id = detailId;
+  detail.className = "brs-dietary-lever-detail brs-evidence-title-detail";
+  detail.hidden = true;
+  detail.setAttribute("role", "dialog");
+  detail.setAttribute("aria-modal", "false");
+  detail.setAttribute("aria-label", `${disclosure.title} — five-field evidence`);
+  detail.innerHTML = buildDetailHtml(disclosure);
+  host.append(detail);
+
+  const openTransiently = () => {
+    closeAllExcept(root, detail);
+    setDisclosureOpen(host, detail, trigger, true, false);
+  };
+
+  host.addEventListener("pointerenter", (event) => {
+    if ((event as PointerEvent).pointerType === "touch") return;
+    openTransiently();
+  });
+  host.addEventListener("pointerleave", (event) => {
+    if ((event as PointerEvent).pointerType === "touch") return;
+    if (host.dataset.brsDietaryLeverPinned === "true" || host.contains(document.activeElement)) return;
+    setDisclosureOpen(host, detail, trigger, false, false);
+  });
+  host.addEventListener("focusin", openTransiently);
+  host.addEventListener("focusout", (event) => {
+    if (host.dataset.brsDietaryLeverPinned === "true") return;
+    const next = event.relatedTarget as Node | null;
+    if (!next || !host.contains(next)) setDisclosureOpen(host, detail, trigger, false, false);
+  });
+
+  trigger.addEventListener("click", (event) => {
+    event.stopPropagation();
+    setDisclosureOpen(host, detail, trigger, false, false);
+    wrapper.querySelector<HTMLButtonElement>(".brs-fm-hub-toggle")?.click();
+  });
+  host.addEventListener("keydown", (event) => {
+    if (event.key !== "Escape") return;
+    event.stopPropagation();
+    setDisclosureOpen(host, detail, trigger, false, false);
+    trigger.focus();
+  });
+}
+
 export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
   useEffect(() => {
     const map = buildDietaryLeverDisclosureMap(frontMatter);
@@ -200,11 +308,41 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
 
     const onDocClick = (e: MouseEvent) => {
       const t = e.target as Node;
-      if (root.contains(t) && (t as HTMLElement).closest?.(".brs-dietary-lever-item")) return;
+      if (
+        root.contains(t) &&
+        (t as HTMLElement).closest?.(
+          ".brs-dietary-lever-item, .brs-evidence-title-wrap",
+        )
+      ) {
+        return;
+      }
       closeAllExcept(root, null);
     };
 
     document.addEventListener("click", onDocClick);
+
+    root.querySelectorAll<HTMLElement>("[data-brs-emerging-support]").forEach((wrapper) => {
+      const slug = String(wrapper.getAttribute("data-brs-emerging-support") || "").trim();
+      const trigger = wrapper.querySelector<HTMLButtonElement>(
+        ".brs-emerging-support-title-trigger",
+      );
+      const label = String(trigger?.textContent || "").trim();
+      if (!slug || !label) return;
+      const disclosure = map.get(
+        dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`),
+      );
+      if (disclosure) enhanceEvidenceTitle(wrapper, disclosure, root);
+    });
+
+    root.querySelectorAll<HTMLElement>("[data-brs-kc-evidence-resource]").forEach((wrapper) => {
+      const trigger = wrapper.querySelector<HTMLButtonElement>(
+        ".brs-evidence-title-trigger",
+      );
+      const label = String(trigger?.textContent || "").trim();
+      if (!label) return;
+      const disclosure = map.get(dietaryLeverBulletKey(label, ""));
+      if (disclosure) enhanceEvidenceTitle(wrapper, disclosure, root);
+    });
 
     root.querySelectorAll("li").forEach((li) => {
       if (!(li instanceof HTMLLIElement)) return;

@@ -82,7 +82,13 @@ and direct human evidence for dopamine-related lifestyle relationships.
   decline was not established.
 - Direct human dietary modification of dopamine synthesis, release, receptor
   signalling, transporter activity or metabolism remains insufficiently
-  demonstrated.
+  demonstrated. Mission-coverage dietary candidates beyond synthesis
+  (MAO/FAD/riboflavin; COMT/SAM/magnesium and BRS2; other
+  storage/release/receptor/reuptake routes) are parked as
+  `CC-BRS1-FM1-PM3-01` / `FW017` — **Deferred — evidence assessment pending**,
+  unresolved rather than rejected. See
+  `system/mechanism-change-control-queue.md` and
+  `system/dopaminergic-signalling-stage2b-report.md`.
 - Whether meal-level iron-absorption improvements change longer-term iron
   status or any human brain dopamine process remains unresolved.
 - Whether repeated exercise or ordinary sleep improvement causes durable
@@ -116,9 +122,20 @@ No tags are inferred from general Phenome relevance.
 
 The later Dietary Levers pass must decide whether each candidate is retained,
 revised, merged, relocated or deleted. It must preserve the finding and
-citation provenance and report material changes. Tyrosine is not duplicated as
-a PM3 atom because amino-acid availability and LAT1 competition are owned by
-PM1 and PM2.
+citation provenance and report material changes.
+
+**Ownership correction (2026-09-30):** this Stage 2A pass wrongly treated
+tyrosine as non-duplicable on PM3 because PM1 owns precursor-pool availability
+and PM2 owns LAT1 competition. Those are upstream *assessments*. PM3 owns
+conversion of tyrosine to L-DOPA. Meal LNAA composition remains PM2’s
+relationship, not a PM3 Dietary Requirement. The shared contract now states
+that upstream supply/transport ownership does not erase a downstream
+reaction-level substrate. Tyrosine is admitted on PM3 in Stage 2B as
+`PM3-DIT-5` at biological-dependency, citing Fanet (2021) / PM3-F1, without
+copying PM1’s pool assessment. Stage 2A identifies the PM1 precursor-pool
+relationship as a supported upstream supply dependency for that atom
+(`upstream_pm_relationships`). Stage 2B displays it beside the dietary-entry
+label. Ownership and deduplication language stay in this audit.
 
 ## Five-atom lever architecture amendment
 
@@ -209,7 +226,9 @@ Passed:
 - `npm run build` — production build passed
 
 The §3.2/§3.3 lever-search amendment was subsequently revalidated against the
-same gates.
+same gates. Synthesis-path Stage 2A/2B work is not a close-out of
+mission-coverage dietary candidates beyond synthesis (`CC-BRS1-FM1-PM3-01` /
+`FW017`).
 
 Existing baseline failure not changed:
 
@@ -219,3 +238,14 @@ Existing baseline failure not changed:
 - `npm run typecheck` still exits non-zero on pre-existing repository-wide
   React/Docusaurus typing and DOM-iterability errors; no edited file has an IDE
   lint diagnostic.
+
+## Overview evidence rerun (2026-09-30)
+
+The Overview now retains the supported multi-stage dopamine sequence and the
+region-, receptor-, baseline- and task-dependent interpretation. It separates
+dopamine process measures and confines dietary/ADHD treatment limits to the
+final relevance bullet. Existing Findings and references (Cools and D'Esposito;
+Westbrook; Karrer; MacDonald) were sufficient, so no retrieval was performed.
+Stopping rationale: every retained Overview claim maps to an adjudicated
+Finding or explicit boundary. Unresolved: direct dietary modification of a
+human dopamine process and clinical benefit.

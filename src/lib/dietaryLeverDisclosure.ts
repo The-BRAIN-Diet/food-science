@@ -1,5 +1,9 @@
 /**
  * Client mirror of scripts/lib/dietary-lever-disclosure.mjs
+ *
+ * Disclosures attach only to admitted Dietary Requirement / SOP / lifestyle
+ * atoms. Public §3.1 / §4.1 copy is the current scientific state; rejected
+ * candidates and Stage 2B history are not rendered here.
  */
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
@@ -15,6 +19,14 @@ const INPUT_TYPE_LABEL: Record<string, string> = {
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",
   "nutrient/compound class": "Nutrient / compound class",
+  "dietary pattern": "Dietary pattern",
+  "dietary matrix": "Dietary matrix",
+};
+
+export type SupportingFindingLink = {
+  id: string;
+  label: string;
+  href: string;
 };
 
 export type DietaryLeverDisclosure = {
@@ -27,6 +39,14 @@ export type DietaryLeverDisclosure = {
   derivedTarget?: string | null;
   compactQualifier?: string;
   presentationSection?: string;
+  readerDescription?: string;
+  supportingFinding?: SupportingFindingLink | null;
+  upstreamIndicators?: UpstreamPmIndicator[];
+};
+
+export type UpstreamPmIndicator = {
+  text: string;
+  href: string;
 };
 
 export type EvidenceReference = {
@@ -43,6 +63,12 @@ type TraceRow = {
   biological_role?: string;
   evidence_source?: { citation_keys?: string[] };
   evidence_limitation?: string;
+  upstream_pm_relationships?: Array<{
+    relationship_label?: string;
+    pm_short_id?: string;
+    pm_id?: string;
+    href?: string;
+  }>;
 };
 
 type LeverRow = {
@@ -60,6 +86,8 @@ type PresentationRow = {
   label?: string;
   foods?: string;
   presentation_section?: string;
+  reader_description?: string;
+  description_finding_id?: string;
 };
 
 type NonDietaryLeverRow = TraceRow & {
@@ -129,6 +157,16 @@ export function formatRequirementCompactQualifier(atom: {
   return type ? `${cls} · ${type}` : cls;
 }
 
+export function formatUpstreamIndicatorText(row: {
+  relationship_label?: string;
+  pm_short_id?: string;
+}): string {
+  const label = String(row?.relationship_label || "").trim();
+  const shortId = String(row?.pm_short_id || "").trim();
+  if (!label || !shortId) return "";
+  return `${label}: ${shortId}`;
+}
+
 export function formatPresentationCompactQualifier(
   atom: {
     requirement_classification?: string | null;
@@ -144,6 +182,22 @@ export function formatPresentationCompactQualifier(
     return COMPACT_INPUT_TYPE_LABEL[rawType] || rawType.replace(/\//g, " / ");
   }
   return "";
+}
+
+function supportingFindingLink(
+  frontMatter: Record<string, unknown>,
+  findingId?: string,
+): SupportingFindingLink | null {
+  const id = String(findingId || "").trim();
+  if (!id) return null;
+  const findings = (frontMatter.scientific_findings || []) as Array<{
+    id?: string;
+    finding_label?: string;
+  }>;
+  const finding = findings.find((row) => String(row?.id || "") === id);
+  const label = String(finding?.finding_label || "").trim();
+  if (!label) return null;
+  return { id, label, href: `#${id.toLowerCase()}` };
 }
 
 function evidenceSourceReferences(
@@ -211,6 +265,14 @@ export function buildDietaryLeverDisclosureMap(
         String(pres.presentation_section || ""),
       ),
       presentationSection: String(pres.presentation_section || "").trim(),
+      readerDescription: String(pres.reader_description || "").trim(),
+      supportingFinding: supportingFindingLink(frontMatter, pres.description_finding_id),
+      upstreamIndicators: (base.upstream_pm_relationships || [])
+        .map((row) => ({
+          text: formatUpstreamIndicatorText(row),
+          href: String(row?.href || "").trim(),
+        }))
+        .filter((row) => row.text && row.href.startsWith("/docs/")),
     });
   }
 
@@ -273,12 +335,13 @@ export function buildDietaryLeverDisclosureMap(
   const kcPresentations = (frontMatter.kc_constituent_presentations || []) as Array<{
     atom_id?: string;
     label?: string;
+    evidence_label?: string;
   }>;
   for (const presentation of kcPresentations) {
     const base = kcTraceById.get(String(presentation.atom_id || ""));
     if (!base?.input) continue;
     const label = String(presentation.label || base.input);
-    map.set(dietaryLeverBulletKey(label, ""), {
+    const disclosure: DietaryLeverDisclosure = {
       title: String(base.input),
       inputType: formatInputTypeLabel(String(base.input_type || "")),
       biologicalRole: String(base.biological_role || ""),
@@ -290,6 +353,40 @@ export function buildDietaryLeverDisclosureMap(
       ),
       compactQualifier: "",
       presentationSection: "kc-constituent",
+    };
+    map.set(dietaryLeverBulletKey(label, ""), disclosure);
+    const evidenceLabel = String(presentation.evidence_label || "").trim();
+    if (evidenceLabel) {
+      map.set(dietaryLeverBulletKey(evidenceLabel, ""), disclosure);
+    }
+  }
+
+  const kcSupportRows = (frontMatter.kc_emerging_support_traceability || []) as TraceRow[];
+  const kcSupportById = new Map(
+    kcSupportRows.filter((row) => row.atom_id).map((row) => [String(row.atom_id), row]),
+  );
+  const kcSupportPresentations = (frontMatter.kc_emerging_support_presentations || []) as Array<{
+    atom_id?: string;
+    support_slug?: string;
+    label?: string;
+  }>;
+  for (const presentation of kcSupportPresentations) {
+    const base = kcSupportById.get(String(presentation.atom_id || ""));
+    const slug = String(presentation.support_slug || "").trim();
+    if (!base?.input || !slug) continue;
+    const label = String(presentation.label || base.input);
+    map.set(dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`), {
+      title: String(base.input),
+      inputType: formatInputTypeLabel(String(base.input_type || "")),
+      biologicalRole: String(base.biological_role || ""),
+      evidenceLimitation: String(base.evidence_limitation || "").trim(),
+      evidenceReferences: evidenceSourceReferences(
+        references,
+        base.evidence_source?.citation_keys || [],
+        { directHref: true },
+      ),
+      compactQualifier: "",
+      presentationSection: `kc-emerging-support:${slug}`,
     });
   }
 

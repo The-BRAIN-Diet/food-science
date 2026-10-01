@@ -17,19 +17,63 @@ summary: >-
   switch can respond.
 key_constraints:
   - BRS3(KC1) - Antioxidant Substrate Availability
-cofactors:
-  - sulforaphane
-  - selenium
-  - zinc
-  - copper
-  - manganese
-  - riboflavin
+cofactors: []
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: >-
   Regular crucifer intake; practical strategy: repeated broccoli/sprout
   inclusion weekly
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM3-DIT-1
+    input: Vitamin C
+    input_type: nutrient/substance
+    biological_role: Dietary antioxidant substrate whose adequacy is relevant to Nrf2-ARE inducible defence under oxidative load; this is PM-owned KC context, not a sulforaphane-induction requirement
+    evidence_source:
+      citation_keys:
+        - verlaet_rationale_2018
+        - houghton_sulforaphane_2016
+    evidence_limitation: Antioxidant-treatment rationale and sulforaphane reviews do not establish that increasing vitamin C intake induces Nrf2-ARE or improves ADHD outcomes.
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-1
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+    permitted_wording: Vitamin C is shown here only as PM3-relevant KC-context antioxidant substrate. It is not a Direct Nrf2-ARE Dietary Requirement and is not sulforaphane induction.
+    evidence_limitation: Antioxidant-treatment rationale and sulforaphane reviews do not establish that increasing vitamin C intake induces Nrf2-ARE or improves ADHD outcomes.
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-1
+    label: Vitamin C
+    presentation_section: 3.1.3
+pm_kc_relationships:
+  - relationship_id: BRS3-FM2-PM3-KCR-1
+    kc_id: BRS3(KC1)
+    pm_biological_role: Nrf2-ARE induction assumes antioxidant-substrate sufficiency, so this PM draws on BRS3(KC1) rather than treating sulforaphane as a required cofactor of the Nrf2 system.
+    evidence_source:
+      citation_keys:
+        - verlaet_rationale_2018
+        - houghton_sulforaphane_2016
+    evidence_limitation: Shared-pool relevance does not make every KC1 constituent a Direct Dietary Requirement of Nrf2-ARE activation.
+    constituent_relationships:
+      - relationship_id: BRS3-FM2-PM3-KCI-1
+        pm_atom_id: PM3-DIT-1
+        label: Vitamin C
+        kc_membership_status: legacy-unreviewed
+        legacy_kc_constituent_label: Vitamin C
+        kc_change_control_flag_id: KC-CC-BRS3-FM2-PM3-01
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM2-PM3-01
+    flag_type: constituent-challenge
+    kc_id: BRS3(KC1)
+    proposition: Whether the independently adjudicated PM3 vitamin C Input→PM relationship is the same constrained-pool membership as BRS3(KC1) vitamin C.
+    evidence_source:
+      citation_keys:
+        - verlaet_rationale_2018
+    status: pending-kc-review
+
 references:
   - >-
     [Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the
@@ -106,12 +150,80 @@ phenome_relationships:
 
 (Activating the Cell's Antioxidant Defence System)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Switch on endogenous antioxidant and detoxification genes so cells can raise protection against oxidative stress.
 
+
+Dietary addressability remains unestablished at the PM level. Glucoraphanin/sulforaphane and mineral rows on this page are Nrf2-induction or enzyme-cofactor candidates, not Direct Dietary Requirements of Nrf2-ARE activation.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for Nrf2-ARE antioxidant activation.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No PM-specific cofactor Dietary Requirement is established. Sulforaphane can induce Nrf2 in cited work; induction is modulation, not a requirement of the Nrf2-ARE system.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- Vitamin C
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
 Activates Nrf2-dependent antioxidant and detoxification gene programmes (the cell's own inducible defence switch) that raise endogenous protection against oxidative stress from within, rather than relying solely on antioxidants supplied through diet. This mechanism governs induction of the body's internal defence machinery specifically, distinct from exogenous antioxidant supply covered elsewhere. Activation depends on antioxidant substrate and cofactor sufficiency, meaning dietary quality still shapes how strongly this internal switch can respond.
@@ -123,7 +235,136 @@ Activates Nrf2-dependent antioxidant and detoxification gene programmes (the cel
 ## 2. Primary Biological Effects
 ↑ endogenous antioxidant gene expression
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Cellular redox defence is not limited to dietary antioxidant intake. Nrf2-ARE activation raises endogenous gene programmes for antioxidant protection and detoxification within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), provided substrate and cofactor context is sufficient.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Nrf2 activation and endogenous antioxidant defence</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Nrf2-ARE signalling)
+
+Nrf2 activation increases transcription of cellular defence genes involved in antioxidant protection, redox buffering, and detoxification → [Houghton et al., 2016]
+
+#### (Isothiocyanate signalling and induction kinetics)
+
+Glucoraphanin-derived isothiocyanates such as sulforaphane can activate Nrf2-linked pathways. Induction is dose- and repetition-sensitive: sustained exposure patterns are more biologically meaningful than isolated bolus events → [Houghton et al., 2016]
+
+#### (Boundaries of the mechanism)
+
+Net ROS generation versus clearance dynamics are handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid protection belongs to [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Antioxidant-network recycling and regeneration are represented by [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling).
+
+#### (Integration within BRS3)
+
+This PM supports endogenous defence capacity within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability).
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+Nrf2-ARE induction biology is well established. The evidence below emphasises endogenous defence activation, cofactor dependence, and why food-based induction patterns matter more than isolated megadosing.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Sulforaphane bioavailability and Nrf2 activation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Sulforaphane shows higher bioavailability than many polyphenol-based Nrf2 activators and engages antioxidant and detoxification gene programmes in human intervention work — a direct lever for this PM [Houghton et al., 2016]. Repeated crucifer exposure matters more than one-off intake.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016","label":"Houghton et al. (2016)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Mineral cofactors for antioxidant enzymes</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Selenium, zinc, and manganese are required for proper functioning of endogenous antioxidant enzyme systems that Nrf2 programmes depend on — reinforcing cofactor-rich dietary patterns alongside induction signals [Mocchegiani & Malavolta, 2019].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019","label":"Mocchegiani & Malavolta (2019)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
+- [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -228,257 +469,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Glucoraphanin/sulforaphane ← broccoli, broccoli sprouts
-- Selenium ← seafood, brazil nuts
-- Zinc ← meat, legumes, seeds
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- copper
-- manganese
-- Riboflavin (B2) ← dairy, eggs, lean meat
-- selenium
-- sulforaphane
-- zinc
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Polyphenols ← berries, cocoa, green tea
-- Vitamin C ← citrus, kiwi, bell peppers
-- Cysteine ← eggs, poultry, legumes
-- Glycine ← collagen-rich cuts, poultry, legumes
-- Glutamate ← meat, fish, soy
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Prepare cruciferous vegetables to support myrosinase-dependent sulforaphane yield — see [Broccoli — Preparation](/docs/foods/broccoli#preparation).
-- Avoid overcooking heat-sensitive polyphenol and vitamin C sources where NRF2-supporting dietary compounds are the target — see [Spinach — Preparation](/docs/foods/spinach#preparation).
-- Repeated weekly inclusion of crucifer foods is more relevant than one-off intake.
-- Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Lower overall toxic and oxidative burden may preserve the benefit of endogenous antioxidant activation once induced.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Cellular redox defence is not limited to dietary antioxidant intake. Nrf2-ARE activation raises endogenous gene programmes for antioxidant protection and detoxification within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), provided substrate and cofactor context is sufficient.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nrf2 activation and endogenous antioxidant defence</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Nrf2-ARE signalling)
-
-Nrf2 activation increases transcription of cellular defence genes involved in antioxidant protection, redox buffering, and detoxification → [Houghton et al., 2016]
-
-#### (Isothiocyanate signalling and induction kinetics)
-
-Glucoraphanin-derived isothiocyanates such as sulforaphane can activate Nrf2-linked pathways. Induction is dose- and repetition-sensitive: sustained exposure patterns are more biologically meaningful than isolated bolus events → [Houghton et al., 2016]
-
-#### (Boundaries of the mechanism)
-
-Net ROS generation versus clearance dynamics are handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid protection belongs to [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Antioxidant-network recycling and regeneration are represented by [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling).
-
-#### (Integration within BRS3)
-
-This PM supports endogenous defence capacity within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability).
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Nrf2-ARE induction biology is well established. The evidence below emphasises endogenous defence activation, cofactor dependence, and why food-based induction patterns matter more than isolated megadosing.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Sulforaphane bioavailability and Nrf2 activation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Sulforaphane shows higher bioavailability than many polyphenol-based Nrf2 activators and engages antioxidant and detoxification gene programmes in human intervention work — a direct lever for this PM [Houghton et al., 2016]. Repeated crucifer exposure matters more than one-off intake.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016","label":"Houghton et al. (2016)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Mineral cofactors for antioxidant enzymes</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Selenium, zinc, and manganese are required for proper functioning of endogenous antioxidant enzyme systems that Nrf2 programmes depend on — reinforcing cofactor-rich dietary patterns alongside induction signals [Mocchegiani & Malavolta, 2019].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019","label":"Mocchegiani & Malavolta (2019)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
-- [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through crucifer-rich food-state signals and antioxidant-support context.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM2 Relevance |
-|---|---|---|
-| Functional Property Potentials | crucifer_density; sulforaphane_potential; antioxidant_cofactor_pattern | May support Nrf2-linked endogenous defence activation. |
-| Realised Functional States | crucifer_inclusive_meal; repeated_broccoli_pattern | Reflect food-state conditions relevant to this PM. |
-| Preparation Transformations | careful_crucifer_prep; minimally_processed_plant_matrix | May help preserve relevant precursor availability. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-- [Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)
-- [Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- <span id="pm-ref-1">[1]</span> [Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- <span id="pm-ref-2">[2]</span> [Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)
+- <span id="pm-ref-3">[3]</span> [Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)

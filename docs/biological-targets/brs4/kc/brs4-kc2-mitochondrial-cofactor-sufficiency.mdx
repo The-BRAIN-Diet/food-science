@@ -3,6 +3,52 @@ title: Mitochondrial Cofactor Sufficiency
 kc_id: BRS4(KC2)
 parent_brs: BRS4
 summary: 'Maintain mitochondrial cofactor sufficiency to support enzyme function, electron transfer, and ATP-generating efficiency.'
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRS4-KC2-KIT-1
+    input: B vitamins
+    input_type: nutrient/compound class
+    biological_role: 'Dietary precursors for coenzymes used across energy-yielding metabolism, including redox transfer and conversion of macronutrient substrates into forms that mitochondrial pathways can use.'
+    evidence_source:
+      citation_keys:
+        - tardy_vitamins_2020
+        - pirinen_niacin_2020
+    evidence_limitation: 'The class-level review establishes biochemical roles and consequences of inadequate status, while the niacin study concerns adults with mitochondrial myopathy and pharmacological dosing. Neither establishes uniform limitation, one intake threshold or supplementation benefit for every B vitamin in the general population.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS4-KC2-KIT-2
+    input: Iron
+    input_type: nutrient/substance
+    biological_role: 'Essential mineral supporting oxygen transport and iron-containing electron-transfer proteins required for energy-yielding metabolism.'
+    evidence_source:
+      citation_keys:
+        - tardy_vitamins_2020
+    evidence_limitation: 'The review supports essentiality and impairment when status is inadequate, but does not show that iron is commonly limiting across all connected mechanisms or that additional iron benefits iron-replete people; excess iron is not addressed as beneficial.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS4-KC2-KIT-3
+    input: Magnesium
+    input_type: nutrient/substance
+    biological_role: 'Essential mineral required for ATP-associated reactions and enzymes participating in energy-yielding metabolism.'
+    evidence_source:
+      citation_keys:
+        - tardy_vitamins_2020
+    evidence_limitation: 'The narrative review supports biochemical requirement and consequences of inadequate supply, not a mitochondrial-specific intake threshold, universal limitation across the proposed scope or benefit from supplementation in magnesium-replete people.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+kc_constituent_presentations:
+  - atom_id: BRS4-KC2-KIT-1
+    label: B vitamins
+    section: core-nutritional-requirements
+  - atom_id: BRS4-KC2-KIT-2
+    label: Iron
+    section: core-nutritional-requirements
+  - atom_id: BRS4-KC2-KIT-3
+    label: Magnesium
+    section: core-nutritional-requirements
 references:
   - >-
     [Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical
@@ -41,34 +87,51 @@ Maintain mitochondrial cofactor sufficiency so enzyme systems can sustain electr
 
 ### 2. Core Nutritional Requirements
 
-- B vitamins (B1, B2, B3, B5, B6, B7, B9, B12) ← whole grains, legumes, eggs
-- Iron ← meat, shellfish, legumes
-- Magnesium ← leafy greens, nuts, seeds
-
-### 3. Evidence Base
-
-#### Summary
-
-Connected BRS4 mechanisms share a second upstream nutritional condition alongside macronutrient fuels: the diet must supply **B vitamins, iron and magnesium** sufficient for mitochondrial enzyme function, electron transfer, and redox stability. When these cofactors are insufficient, available fuel substrates are processed less efficiently — limiting cellular energy output across FM1, FM2, FM3, and FM4 PMs in parallel.
-
-Practical framing: maintain **B-vitamin-rich whole foods** and **iron and magnesium sources** across daily meals; recognise that ETC function, NAD⁺ metabolism, and mitochondrial protection depend on cofactor sufficiency rather than fuel alone. The evidence claim here is **constraint prevention** — adequate availability is required to prevent biological constraint — not that additional intake enhances performance in nutrient-sufficient people.
-
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>B vitamins</strong>
+<strong>Core Nutritional Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+- B vitamins
+- Iron
+- Magnesium
+
+</div>
+</div>
+</div>
+### 3. Evidence Base
+
+#### Summary
+
+Mitochondrial energy metabolism depends on a distributed micronutrient resource: B-vitamin-derived coenzymes support substrate conversion and redox transfer, iron supports oxygen handling and electron-transfer proteins, and magnesium supports ATP-associated reactions ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)). Inadequate status can therefore constrain several bioenergetic processes at once. Human niacin-responsive mitochondrial myopathy provides condition-specific evidence that correcting a defined cofactor deficiency can restore NAD⁺ availability, but it does not generalise to universal supplementation benefit ([Pirinen et al., 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)).
+
+- **Constraint and membership boundary:** B vitamins, iron and magnesium belong to the shared micronutrient-sufficiency domain; endogenous CoQ10 and creatine/phosphocreatine biology are distinct carrier or buffering systems, not members of this dietary cofactor resource ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020); [Crane, 2001](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)).
+- **Evidence and measurement boundary:** The main source is a narrative synthesis of biochemical and clinical evidence, while the niacin study addresses a defined mitochondrial disease and high-dose intervention; neither measures simultaneous limitation across every listed mechanism ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020); [Pirinen et al., 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)).
+- **Biological relevance and provision limitation:** Adequate status prevents cofactor-dependent energy metabolism from being constrained, but biochemical necessity and deficiency correction do not show that extra intake improves mitochondrial performance or clinical outcomes in nutrient-replete people ([Tardy et al., 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="b-vitamins">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="b-vitamins-evidence-panel" aria-label="Expand B vitamins evidence details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="b-vitamins-evidence-panel">B vitamins</button>
+</div>
+</div>
+<div id="b-vitamins-evidence-panel" class="brs-fm-hub-panel" hidden>
+
 #### Biological Importance
 
-B vitamins function as coenzymes across mitochondrial energy metabolism — including NAD⁺-linked redox chemistry, acetyl-CoA handling, and electron-transfer reactions represented across FM1 and FM2 PMs. Dietary B-vitamin sufficiency is therefore a shared enabling condition for converting macronutrient substrates into usable ATP.
+B vitamins are dietary precursors for coenzymes used across energy-yielding metabolism, including substrate conversion and redox-transfer reactions. Their grouped role is coenzyme availability across several processes, not a claim that all B vitamins share one reaction, one deficiency threshold or one supplementation response.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed vitamin and mineral cofactors as required for mitochondrial enzyme activity, redox transfer, and metabolic integration — supporting the KC interpretation that B-vitamin sufficiency is a shared prerequisite across connected bioenergetic mechanisms.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020">Pirinen et al., 2020</a> — Demonstrated that niacin restored systemic NAD⁺ deficiency and improved muscle performance in mitochondrial myopathy — supporting the biological relevance of maintaining niacin-linked cofactor input within the shared B-vitamin pool for mitochondrial energetic capacity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed B-vitamin roles in energy-yielding metabolism and manifestations associated with inadequate status, supporting a class-level coenzyme-sufficiency constraint while not establishing one response for every vitamin.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020">Pirinen et al., 2020</a> — Found that high-dose niacin restored systemic and muscle NAD⁺ deficiency in adults with mitochondrial myopathy and improved muscle performance; this is condition-specific deficiency correction, not general-population supplementation evidence.</p></li>
 </ul>
 
 </div>
@@ -76,21 +139,50 @@ B vitamins function as coenzymes across mitochondrial energy metabolism — incl
 </div>
 
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="iron">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="iron-evidence-panel" aria-label="Expand Iron evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Iron and magnesium</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="iron-evidence-panel">Iron</button>
+</div>
+</div>
+<div id="iron-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Iron supports cytochrome-mediated electron transfer and oxygen-handling chemistry, while magnesium is required for ATP stabilisation and multiple mitochondrial enzymatic steps. Together they represent mineral cofactor classes whose insufficiency can limit ETC throughput and energetic resilience even when macronutrient fuels are present.
+Iron is required for oxygen transport and iron-containing proteins involved in electron transfer. Inadequate iron status can therefore constrain energy metabolism even when fuel is present, but this requirement does not imply that more iron is beneficial when status is adequate.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed iron and magnesium among essential cofactors for mitochondrial energy production and cellular bioenergetics — supporting the KC requirement to maintain dietary iron and magnesium sufficiency as shared mineral cofactors across connected mechanisms.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed iron's roles in oxygen transport and energy-yielding metabolism and the functional manifestations of inadequate supply, supporting deficiency-prevention rather than supplementation-benefit claims.</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="magnesium">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="magnesium-evidence-panel" aria-label="Expand Magnesium evidence details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="magnesium-evidence-panel">Magnesium</button>
+</div>
+</div>
+<div id="magnesium-evidence-panel" class="brs-fm-hub-panel" hidden>
+
+#### Biological Importance
+
+Magnesium participates in ATP-associated chemistry and numerous enzymes involved in energy-yielding metabolism. Its role supports a mineral-sufficiency constraint, while the attached evidence does not establish a mitochondrial-specific dietary threshold or a benefit from increasing intake when status is adequate.
+
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Reviewed magnesium as an essential participant in energy metabolism and linked inadequate status with functional consequences, supporting sufficiency while leaving mitochondrial-specific limitation and dose response unresolved.</p></li>
 </ul>
 
 </div>
@@ -99,57 +191,7 @@ Iron supports cytochrome-mediated electron transfer and oxygen-handling chemistr
 
 ### 4. Emerging Biological Supports
 
-Compounds that may support mitochondrial regulatory capacity under selected conditions — not shared indispensable Core Nutritional Requirements for this KC.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-emerging-support="coenzyme-q10-coq10">
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Coenzyme Q10 (CoQ10)</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### Coenzyme Q10 (CoQ10) {#coenzyme-q10-coq10}
-
-**Why it is interesting:** CoQ10 is an electron carrier in the mitochondrial inner membrane and can support oxidative phosphorylation efficiency and redox buffering under specific conditions — especially where endogenous synthesis is reduced (e.g. ageing, statin use, or mitochondrial disease contexts) [Crane, 2001].
-
-**Why it remains emerging:** CoQ10 is synthesised endogenously via the mevalonate pathway and is not an essential dietary nutrient [Crane, 2001]. Status is only modestly influenced by food intake; supplementation and condition-specific adjuncts may support related bioenergetic capacities but are not shared indispensable dietary requirements for this KC [Tardy et al., 2020]. Dietary “lipid context” is therefore not treated as a Core Nutritional Requirement alongside B vitamins, iron and magnesium.
-
-<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
-<ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#crane_coq10_2001">Crane, 2001</a> — Reviewed CoQ10’s biochemical roles in mitochondrial electron transport, ATP-linked proton translocation, and membrane antioxidant defence — supporting interest as a condition-specific mitochondrial support rather than a dietary essential.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020">Tardy et al., 2020</a> — Framed vitamin/mineral cofactors as shared mitochondrial prerequisites while leaving endogenous lipid-soluble carriers such as CoQ10 outside the indispensable dietary-core boundary used for this KC.</p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-emerging-support="creatine-monohydrate">
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Creatine monohydrate</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### Creatine monohydrate {#creatine-monohydrate}
-
-**Why it is interesting:** Exogenous creatine can support phosphocreatine buffering when sleep deprivation, hypoxia, ageing, low dietary creatine intake, or sustained cognitive/physical demand make exogenous creatine more consequential; cerebral responses remain variable and smaller than typical muscle responses [Avgerinos et al., 2018].
-
-**Why it remains emerging:** Brain creatine pools are shaped primarily by endogenous synthesis and transport rather than dietary creatine by default [Solis et al., 2014]. Vegetarians with substantially lower dietary creatine intake showed comparable posterior cingulate brain total creatine to omnivores on ¹H-MRS, arguing against a simple dietary-creatine → brain-creatine mapping under ordinary conditions [Solis et al., 2014]. Supplementation is therefore a conditional adjunct for selected high-demand or low-intake contexts, not a shared indispensable dietary requirement for this KC.
-
-<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
-<ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#solis_brain_creatine_vegetarians_2014">Solis et al., 2014</a> — Cross-sectional ¹H-MRS study finding comparable brain total creatine in vegetarians and omnivores despite much lower dietary creatine intake in vegetarians — supporting endogenous cerebral regulation of the creatine pool rather than diet-determined brain accretion under normal conditions.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018">Avgerinos et al., 2018</a> — Systematic review of creatine supplementation and cognitive function, with heterogeneous task- and context-dependent effects — supporting conditional optimisation framing rather than core dietary requirement status for this KC.</p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-NAD⁺ precursors or other mitochondrial adjuncts may likewise support related capacities under specific conditions without entering the Core Nutritional Requirements boundary.
+No Emerging Biological Supports are currently prioritised for this KC.
 
 ### 5. Connected Mechanisms
 
@@ -181,7 +223,4 @@ NAD⁺ precursors or other mitochondrial adjuncts may likewise support related c
 
 **Emerging Biological Supports**
 
-- [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-- [Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
-- [Solis et al. (2014) — Brain creatine depletion in vegetarians?](/docs/papers/BRAIN-Diet-References#solis_brain_creatine_vegetarians_2014)
-- [Avgerinos et al. (2018) — Effects of creatine supplementation on cognitive function](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+- None currently prioritised for this KC.

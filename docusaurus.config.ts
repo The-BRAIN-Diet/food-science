@@ -84,8 +84,7 @@ function localInternalDocsPlugin() {
   return {
     name: 'local-internal-docs',
     configureWebpack() {
-      const useGenerated =
-        includeInternalDocs && fs.existsSync(generatedQcPath);
+      const useGenerated = fs.existsSync(generatedQcPath);
       if (!useGenerated) return {};
       return {
         resolve: {

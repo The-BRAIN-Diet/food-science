@@ -15,6 +15,11 @@ function setHubCollapsibleOpen(item: HTMLElement, open: boolean): void {
   if (!toggle || !panel) return;
 
   toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  shell
+    .querySelector<HTMLButtonElement>(
+      ':scope > .brs-fm-hub-summary-row .brs-evidence-title-trigger',
+    )
+    ?.setAttribute('aria-expanded', open ? 'true' : 'false');
   panel.hidden = !open;
   item.classList.toggle('brs-fm-hub-item--open', open);
 }

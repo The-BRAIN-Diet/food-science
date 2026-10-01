@@ -1,24 +1,73 @@
 ---
-title: Methionine & Transsulfuration Substrate Pool
+title: Methionine–Cysteine Sulfur Amino Acid Pool
 kc_id: BRS2(KC2)
 parent_brs: BRS2
-summary: 'Maintain sulfur amino-acid substrate adequacy and balance to support methionine-cycle flux, transsulfuration, and glutathione-linked protection — without treating methionine as a nutrient to maximise.'
+summary: 'Maintain adequate methionine and cysteine availability across the shared sulfur-amino-acid requirement that supplies methionine-cycle and transsulfuration-linked biology.'
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRS2-KC2-KIT-1
+    input: Methionine
+    input_type: substrate
+    biological_role: 'Dietarily indispensable sulfur amino acid that enters the methionine cycle and supplies sulfur to the irreversible transsulfuration route; inadequate availability can constrain methionine-cycle and downstream sulfur-amino-acid capacity.'
+    evidence_source:
+      citation_keys:
+        - ball_methionine_cysteine_2006
+        - kumar_transsulfuration_2017
+    evidence_limitation: 'Human sulfur-amino-acid requirement evidence establishes indispensability and a shared methionine–cysteine requirement, not that methionine is commonly limiting in protein-sufficient diets, that a universal intake threshold applies to every population, or that higher intake improves function.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS2-KC2-KIT-2
+    input: Cysteine
+    input_type: substrate
+    biological_role: 'Sulfur amino acid that can spare part of the dietary methionine requirement and whose availability can also constrain glutathione synthesis, linking sulfur-amino-acid sufficiency across methionine conservation and downstream redox-substrate capacity.'
+    evidence_source:
+      citation_keys:
+        - ball_methionine_cysteine_2006
+        - sekhar_glutathione_2011
+    evidence_limitation: 'The magnitude of methionine sparing is method-dependent, and the glutathione-limitation evidence comes from older adults given cysteine together with glycine. This does not establish isolated cysteine as a universal lever or prove every proposed PM connection.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS2-KC2-KIT-3
+    input: Serine
+    input_type: substrate
+    biological_role: 'Biochemical cosubstrate with homocysteine for cystathionine formation in transsulfuration.'
+    evidence_source:
+      citation_keys:
+        - kumar_transsulfuration_2017
+    evidence_limitation: 'Pathway participation does not establish ordinary dietary serine availability as a meaningful shared constraint. Serine is therefore excluded from this iKC and remains eligible for PM-layer treatment where independently supported.'
+    constraint_status: biochemical-requirement
+    ikc_membership: excluded
+    claim_ceiling: biological-dependency
+  - atom_id: BRS2-KC2-KIT-4
+    input: Glycine
+    input_type: substrate
+    biological_role: 'Glutathione substrate whose availability can conditionally co-limit glutathione synthesis with cysteine.'
+    evidence_source:
+      citation_keys:
+        - sekhar_glutathione_2011
+    evidence_limitation: 'The demonstrated limitation is conditional GSH-precursor biology in older adults and does not show that glycine participates in the shared methionine–cysteine sulfur-amino-acid requirement across the proposed BRS2 scope. Exclusion from this iKC does not deny its PM6 or BRS3 glutathione-pool relevance.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: excluded
+    claim_ceiling: dietary-provision
+kc_constituent_presentations:
+  - atom_id: BRS2-KC2-KIT-1
+    label: Methionine
+    section: core-nutritional-requirements
+  - atom_id: BRS2-KC2-KIT-2
+    label: Cysteine
+    section: core-nutritional-requirements
 references:
+  - >-
+    [Ball et al. (2006) — Methionine Sparing by Cysteine in Human Sulfur
+    Amino-Acid Requirements](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)
   - >-
     [Kumar and Yadav (2017) — The Transsulfuration
     Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
   - >-
     [Sekhar et al. (2011) — Deficient Synthesis of
     Glutathione](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
-  - >-
-    [Gregory et al. (2016) — Vitamin B6 Status and the Methionine-Homocysteine
-    Cycle](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-  - >-
-    [Fanti et al. (2026) — Methionine-Supplemented Longevity
-    Diet](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
-  - >-
-    [Parkhitko et al. (2026) — Methionine Restriction and
-    Mimetics](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
 hide_title: true
 ---
 
@@ -30,72 +79,86 @@ hide_title: true
   />
 </p>
 
-### BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
+### BRS2(KC2) - Methionine–Cysteine Sulfur Amino Acid Pool
 
-(Sulfur Amino Acids for Methylation & Defence)
+(Shared methionine–cysteine availability across sulfur-amino-acid biology)
 
 ### 1. Ambition
 
-Maintain sulfur amino-acid substrate **adequacy and balance** to support methionine-cycle flux, transsulfuration, and glutathione-linked protection — without treating methionine intake as something to maximise.
+Maintain adequate methionine and cysteine availability across the shared sulfur-amino-acid requirement that supplies methionine-cycle and transsulfuration-linked biology.
 
 ### 2. Core Nutritional Requirements
-
-- Methionine ← eggs, fish, poultry *(adequacy within protein/amino-acid balance — not higher intake by default)*
-- Serine ← soy foods, eggs, turkey
-- Glycine ← gelatin-rich cuts, poultry, fish
-- Cysteine ← eggs, chicken, yogurt
-
-### 3. Evidence Base
-
-#### Summary
-
-Connected BRS2 mechanisms share a second upstream nutritional condition alongside methyl-donor pools: the diet must supply **sulfur amino-acid and transsulfuration-linked substrates** in adequate amounts to sustain methionine-cycle flux, homocysteine routing, and glutathione precursor availability. Methylation and sulfur-redox protection draw from overlapping amino-acid resources — insufficiency can constrain FM1, FM2, and FM3 PMs in parallel.
-
-Methionine is generally not difficult to obtain in protein-sufficient omnivorous diets. The nutritional question becomes sharper at the edges: low-protein or strongly plant-based patterns, ageing/frailty contexts, unusually restricted diets, and conversely very high animal-protein/EAA patterns. Experimental methionine restriction remodels systemic metabolism, while moderate methionine within low-amino-acid patterns can preserve favourable phenotypes — so the Key Constraint is **inadequacy or imbalance**, not a mandate to push methionine higher [Fanti et al., 2026; Parkhitko et al., 2026]. BRAIN does not recommend deliberate methionine restriction for neurocognitive outcomes on current human evidence.
-
-Practical framing: distribute **quality protein** and **sulfur amino-acid-rich foods** across meals for shared-pool coverage; recognise that methionine entry, transsulfuration flux, and glutathione synthesis all depend on the same substrate network. The evidence claim here is **constraint prevention** — adequate availability within balance is required to prevent biological constraint — not that additional methionine enhances performance in nutrient-sufficient people.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Methionine and serine</strong>
+<strong>Core Nutritional Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+- Methionine
+- Cysteine
+
+</div>
+</div>
+</div>
+### 3. Evidence Base
+
+#### Summary
+
+Methionine and cysteine form a shared nutritional sulfur-amino-acid resource. Methionine is dietarily indispensable, enters the methionine cycle and supplies sulfur to the irreversible transsulfuration route. Dietary cysteine can spare part of the methionine requirement and contribute directly to downstream sulfur-amino-acid availability. Together they constitute a coherent requirement spanning methionine conservation and transsulfuration-linked substrate capacity, rather than an inventory of every compound used by those pathways ([Ball et al., 2006](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006); [Kumar and Yadav, 2017](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)).
+
+- **Constraint and membership boundary:** Serine is a transsulfuration cosubstrate, while glycine can co-limit glutathione synthesis under some conditions; neither is established as part of the shared methionine–cysteine nutritional requirement ([Kumar and Yadav, 2017](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017); [Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
+- **Evidence and measurement boundary:** Human requirement studies establish methionine indispensability and partial cysteine sparing, but the size of that sparing is method-dependent and does not define one threshold for every population ([Ball et al., 2006](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)).
+- **Biological relevance and provision limitation:** Adequate sulfur-amino-acid availability prevents substrate constraint; the evidence does not show that higher methionine or cysteine intake improves function in protein-sufficient people or that every connected mechanism is intake-responsive ([Ball et al., 2006](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="methionine">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="methionine-evidence-panel" aria-label="Expand Methionine evidence details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="methionine-evidence-panel">Methionine</button>
+</div>
+</div>
+<div id="methionine-evidence-panel" class="brs-fm-hub-panel" hidden>
+
 #### Biological Importance
 
-Methionine is the entry substrate for the methionine cycle and SAM generation, while serine participates in remethylation and transsulfuration chemistry that links one-carbon flux to cysteine generation. Together they anchor the shared amino-acid pool that FM1 cycle-flux and FM2 transsulfuration mechanisms both assume before glutathione synthesis is considered. For this KC, methionine is framed as **adequacy within protein/amino-acid balance** — a Key Constraint whose inadequacy or imbalance can limit system performance, not a nutrient BRAIN seeks to maximise.
+Methionine is the dietarily indispensable member of the shared sulfur-amino-acid requirement. It enters the methionine cycle and supplies sulfur to the irreversible transsulfuration route, so inadequate availability can constrain both methionine-cycle and downstream sulfur-amino-acid capacity.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar and Yadav, 2017</a> — Reviewed transsulfuration from homocysteine to cysteine as the biochemical bridge connecting methionine-cycle flux to glutathione-linked redox biology — supporting the KC interpretation that methionine and serine-linked substrate availability constrains multiple connected BRS2 mechanisms simultaneously.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016">Gregory et al., 2016</a> — Associated vitamin B6 status with methionine–homocysteine cycle markers in population data — supporting the biological relevance of maintaining dietary sulfur amino-acid and cycle-substrate context for coherent transsulfuration throughput.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026">Fanti et al., 2026</a> — In aged mice, moderate methionine within a low-amino-acid plant-leaning longevity diet reduced frailty while too little or too much methionine abolished benefits; human arm was epidemiology, not a methionine intervention — supporting balance/adequacy framing rather than maximisation or deliberate restriction as a BRAIN prescription.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026">Parkhitko et al., 2026</a> — Reviewed methionine-restriction biology and translational barriers — supporting interpretation that methionine availability is a regulated metabolic input with potent experimental effects, while continuous human MetR and neurocognitive prescriptions remain weakly supported.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006">Ball et al., 2006</a> — Reviewed adult-human sulfur-amino-acid requirement studies: methionine is dietarily indispensable, while cysteine can substitute for part of its requirement. The magnitude of sparing remains method-dependent.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar and Yadav, 2017</a> — Reviewed the irreversible route from methionine-cycle homocysteine through transsulfuration to cysteine, establishing the biochemical bridge across the shared sulfur-amino-acid pool.</p></li>
 </ul>
 
 </div>
 </div>
 </div>
 
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="cysteine">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="cysteine-evidence-panel" aria-label="Expand Cysteine evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Glycine and cysteine</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="cysteine-evidence-panel">Cysteine</button>
+</div>
+</div>
+<div id="cysteine-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Glycine and cysteine are indispensable glutathione precursors whose dietary availability can limit endogenous glutathione synthesis when transsulfuration output is insufficient. Naming them separately in §2 reflects that connected FM2 glutathione and FM1 methylation mechanisms both depend on sulfur amino-acid sufficiency extending beyond methionine alone.
+Cysteine is nutritionally linked to methionine because it can spare part of the dietary methionine requirement. Its availability also contributes to downstream sulfur-amino-acid capacity, including glutathione synthesis under conditions in which cysteine and glycine availability are limiting.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — Demonstrated that glutathione synthesis can be limited by cysteine and glycine availability — supporting the KC requirement to maintain dietary glycine and cysteine substrate sufficiency as shared precursors for transsulfuration-linked redox protection.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar and Yadav, 2017</a> — Established transsulfuration as the route supplying cysteine for glutathione biosynthesis — supporting the interpretation that glycine and cysteine availability jointly constrain glutathione-linked capacity across connected mechanisms.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006">Ball et al., 2006</a> — Reviewed evidence that cysteine can substitute for part of the adult-human methionine requirement, while documenting methodological uncertainty in the magnitude of sparing.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — Showed conditional cysteine-plus-glycine limitation of glutathione synthesis in older adults. This supports cysteine availability at the downstream edge of the pool but does not establish isolated cysteine effects or universal limitation.</p></li>
 </ul>
 
 </div>
@@ -105,8 +168,6 @@ Glycine and cysteine are indispensable glutathione precursors whose dietary avai
 ### 4. Emerging Biological Supports
 
 No Emerging Biological Supports are currently prioritised for this KC.
-
-N-acetylcysteine, glycine supplementation, or other sulfur-amino-acid adjuncts may support related redox capacities under specific conditions, but they are not established as shared indispensable dietary requirements for the methionine and transsulfuration substrate pool. Where evidence becomes source-led and KC-specific, candidates can be added here without blurring the Core Nutritional Requirements boundary.
 
 ### 5. Connected Mechanisms
 
@@ -129,11 +190,9 @@ N-acetylcysteine, glycine supplementation, or other sulfur-amino-acid adjuncts m
 
 **Core Nutritional Requirements**
 
+- [Ball et al. (2006) — Methionine Sparing by Cysteine in Human Sulfur Amino-Acid Requirements](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)
 - [Kumar and Yadav (2017) — The Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
 - [Sekhar et al. (2011) — Deficient Synthesis of Glutathione](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
-- [Gregory et al. (2016) — Vitamin B6 Status and the Methionine-Homocysteine Cycle](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-- [Fanti et al. (2026) — Methionine-Supplemented Longevity Diet](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
-- [Parkhitko et al. (2026) — Methionine Restriction and Mimetics](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
 
 **Emerging Biological Supports**
 

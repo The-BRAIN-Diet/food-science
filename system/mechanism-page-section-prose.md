@@ -57,7 +57,7 @@ After front matter, each mechanism page opens with:
 |---------|--------|
 | **§1 Mission & Overview (PM)** | Biological ambition → ~65–75 word orientation + 3 scannable bullets | Mechanism biology dump; foods; parent-FM architecture; title paraphrase |
 | **§1 Definition / Mission & Overview (FM/SM legacy)** | **Translational opening paragraph (1–3 sentences) + 3 bullets** — see **PM §1** for migration target |
-| **Phenome Connections (PM §3 / FM §3)** | Evidence-weighted translational mappings only — not mechanism definition |
+| **Phenome Connections (PM / FM / SM §7)** | Evidence-weighted translational mappings only — not mechanism definition |
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Summary (PM §3)** | Intervention Profile + lever tiers with evidence tags — not mechanism definition |
@@ -201,13 +201,13 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 
 ## PM translational writing
 
-Write for **three audiences simultaneously:**
-
-- researchers;
-- clinicians and nutrition professionals;
-- scientifically interested non-specialists.
-
-Preserve scientific accuracy while reducing unnecessary cognitive load. Each section should **progressively translate** biology rather than assume specialist knowledge.
+Write to the **Stage 2A audience** in `system/primary-mechanism-schema.md`
+(interested members of the public; nutritionists as the most technically
+specialised intended readers). Do not assume PhD-level biology knowledge.
+Translate; do not delete substantive science or replace it with generic
+statements. Reader-facing copy explains the biology. Ownership, adjudication
+and record-maintenance language stay in reports, schema documentation and
+Review & Corrections.
 
 **PM §1 narrative arc:** biological story → mechanism (§5) → diet (§4) — not textbook biology followed by a food list.
 

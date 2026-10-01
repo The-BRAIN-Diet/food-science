@@ -479,7 +479,7 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
  * Phenome Connection; interpretive constraints render at the inference they
  * constrain.
  */
-export function renderScientificFindingsSection(data, { sectionNum = 5, subNum = 1, intro } = {}) {
+export function renderScientificFindingsSection(data, { sectionNum = 4, subNum = 1, intro } = {}) {
   const findings = headlineMechanisticFindings(data);
   if (!findings.length) return "";
   const informs = findingInformsIndex(data);

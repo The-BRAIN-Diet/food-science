@@ -10,6 +10,7 @@ tags:
   - Vegetarian
   - Manganese
   - Polyphenol
+  - Kaempferol
 list_image: /img/foods/black-tea/black-tea_thumb.webp
 nutrition_per_100g:
   linoleic_g: 0.001
@@ -54,6 +55,19 @@ nutrition_supplementary_sources:
       Brewed black tea retains some unoxidised catechins, typically at lower
       levels than green tea. A comparable catechin quantity is not established
       here.
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Black Tea; a single defensible per-100 g value is
+      not taken from the abbreviated USDA nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
 ---
 ## Overview
 

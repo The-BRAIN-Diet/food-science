@@ -17,6 +17,7 @@ tags:
   - Peonidin
   - Petunidin
   - Quercetin
+  - Kaempferol
 list_image: /img/foods/blueberries/blueberries_thumb.webp
 nutrition_per_100g:
   potassium_mg: 77
@@ -108,6 +109,19 @@ nutrition_supplementary_sources:
     source_note: >-
       Blueberry flavonoid composition surveys report quercetin glycosides in the
       fruit; a single defensible per-100 g value is not established here.
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
+      showing kaempferol in Blueberries; a single defensible per-100 g value is
+      not taken from the abbreviated USDA nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - dabeek_dietary_kaempferol_2019
 nutrition_functional_metrics:
   - key: total_polyphenols_berries
     label: Total polyphenols (Folin proxy)

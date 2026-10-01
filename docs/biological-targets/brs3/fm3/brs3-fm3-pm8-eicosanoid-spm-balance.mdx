@@ -8,12 +8,62 @@ summary: 'Balances arachidonic-acid-derived inflammatory eicosanoids against EPA
 cofactors:
   - EPA
   - DHA
-  - AA balance
-  - selenium
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: 'EPA+DHA sufficiency with repeated weekly delivery; practical target: oily fish pattern'
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM8-DIT-1
+    input: EPA
+    input_type: substrate
+    biological_role: n-3 fatty-acid substrate for specialised pro-resolving mediator synthesis
+    evidence_source:
+      citation_keys:
+        - serhan_resolvins_2011
+        - simopoulos_evolutionary_2011
+    evidence_limitation: EPA as an SPM substrate does not establish that increasing EPA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+  - atom_id: PM8-DIT-2
+    input: DHA
+    input_type: substrate
+    biological_role: n-3 fatty-acid substrate for specialised pro-resolving mediator synthesis
+    evidence_source:
+      citation_keys:
+        - serhan_resolvins_2011
+        - simopoulos_evolutionary_2011
+    evidence_limitation: DHA as an SPM substrate does not establish that increasing DHA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+dietary_lever_atoms:
+  - atom_id: PM8-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: "EPA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a resolvin-dosing or anti-inflammatory treatment rule."
+    evidence_limitation: EPA as an SPM substrate does not establish that increasing EPA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+  - atom_id: PM8-DIT-2
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: "DHA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a protectin-dosing or anti-inflammatory treatment rule."
+    evidence_limitation: DHA as an SPM substrate does not establish that increasing DHA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+dietary_lever_presentations:
+  - atom_id: PM8-DIT-1
+    label: EPA
+    presentation_section: 3.1.1
+  - atom_id: PM8-DIT-2
+    label: DHA
+    presentation_section: 3.1.1
+  - atom_id: PM8-DIT-1
+    label: EPA
+    presentation_section: 3.1.2
+  - atom_id: PM8-DIT-2
+    label: DHA
+    presentation_section: 3.1.2
+
 references:
   - '[Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)'
   - '[Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)'
@@ -128,12 +178,73 @@ phenome_relationships:
 
 (Shifting from Pro-Inflammatory to Calming Pro-Resolving Lipid Signals)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Shift lipid mediator balance from pro-inflammatory eicosanoids toward pro-resolving signals that terminate inflammation.
 
+
+EPA and DHA are Direct substrates for specialised pro-resolving mediator synthesis. Whole-diet fatty-acid balance and oxidised omega-6 avoidance are not projected as Dietary Requirements. Page-level dietary addressability for resolution signalling remains unestablished.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- EPA
+- DHA
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- EPA
+- DHA
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
 Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-derived specialised pro-resolving mediators (SPMs, lipid signals that actively switch inflammation off rather than merely suppressing it). This mechanism governs the shift between pro-inflammatory and pro-resolving lipid signalling specifically, depending directly on essential fatty acid balance and antioxidant substrate sufficiency from upstream dietary intake. Because resolution is an active process rather than passive suppression, omega-3 status shapes whether inflammation terminates cleanly or persists.
@@ -145,7 +256,175 @@ Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-deriv
 ## 2. Primary Biological Effects
 ↑ pro-resolving mediator bias; ↓ pro-inflammatory eicosanoid dominance
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Inflammation termination depends on lipid mediators that actively resolve rather than merely suppress immune activity. EPA and DHA substrate availability shapes whether signalling bias moves toward specialized pro-resolving mediators within [BRS3(FM3) - Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Eicosanoids, omega-3 balance, and inflammation resolution</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Lipid mediator balance)
+
+Inflammatory tone is shaped by the substrate pool available for eicosanoids and specialized pro-resolving mediators (SPMs). Resolution pathways are biochemically distinct from simple inflammatory blockade → [Serhan & Petasis, 2011]
+
+#### (Fatty-acid substrate competition)
+
+Arachidonic-acid-derived pro-inflammatory mediators and EPA/DHA-derived resolution pathways compete for enzymatic processing within shared lipid-signalling networks. Chronic omega-6 dominance or oxidized-fat exposure can skew mediator output → [Simopoulos, 2011]
+
+#### (Boundaries of the mechanism)
+
+Downstream cytokine-network readouts are handled by [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Membrane PUFA protection upstream belongs to [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Transcriptional inflammatory control is represented by [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation).
+
+#### (Integration within BRS3)
+
+This PM anchors resolution-oriented lipid signalling within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity), supported by habitual EPA/DHA intake through §4.1.1 Direct and/or Derived Dietary Requirements.
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+The SPM resolution framework is well established. The evidence below highlights active inflammation termination, omega-3 substrate dependence, and dietary fatty-acid balance.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>SPMs as active inflammation terminators</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Specialized pro-resolving mediators derived from DHA and EPA actively terminate inflammation without suppressing immune surveillance — resolvins, protectins, and maresins inhibit neutrophil infiltration and support macrophage clearance [Serhan & Petasis, 2011].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","label":"Serhan & Petasis (2011)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Controlled endotoxemia and resolution-phase remodelling</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** High-dose EPA+DHA attenuated fever and downstream cytokines in controlled endotoxemia while TNF-α remained unchanged — consistent with omega-3s reshaping the resolution phase rather than blocking inflammatory initiation [Ferguson et al., 2014].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Evolutionary omega-6:omega-3 imbalance</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Evolutionary and dietary omega-6:omega-3 imbalance shifts lipid-mediator output toward pro-inflammatory eicosanoid dominance — the substrate-balance frame this PM operationalises [Simopoulos, 2011].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011","label":"Simopoulos (2011)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Quercetin–omega-3 synergy for inflammatory resolution</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Quercitrin anti-inflammatory effects may be augmented by co-ingestion of omega-3s and olive oil — supporting combined polyphenol–marine-fat patterns for resolution-oriented lipid signalling [Camuesco et al., 2006].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006","label":"Camuesco et al. (2006)","dataLevel":"Animal Data"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
+- [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
+- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — downstream cytokine readouts of resolution-oriented lipid signalling
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — upstream membrane PUFA integrity preserving SPM substrate quality
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -296,288 +575,12 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- EPA/DHA ← oily fish, fish roe, algal oil
-- Whole-diet fatty acid balance ← nuts, seeds, minimally processed fat sources
-- Lower excess oxidized omega-6 load ← reduced fried and degraded oil exposure
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- AA balance
-- DHA
-- EPA
-- selenium
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- None listed
-
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps preserve EPA/DHA integrity for eicosanoid and SPM substrate supply — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-- Avoid rancid or repeatedly heated fish-oil matrices — preparation state affects the inflammatory lipid mediators this PM depends on.
-- Repeated weekly marine-fat exposure matters more than isolated dosing.
-- Soak or sprout phytate-rich seeds and legumes to improve plant zinc and mineral bioavailability.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Lower inflammatory load from broader diet and lifestyle context helps preserve resolution capacity once substrate support is present.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Inflammation termination depends on lipid mediators that actively resolve rather than merely suppress immune activity. EPA and DHA substrate availability shapes whether signalling bias moves toward specialized pro-resolving mediators within [BRS3(FM3) - Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Eicosanoids, omega-3 balance, and inflammation resolution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Lipid mediator balance)
-
-Inflammatory tone is shaped by the substrate pool available for eicosanoids and specialized pro-resolving mediators (SPMs). Resolution pathways are biochemically distinct from simple inflammatory blockade → [Serhan & Petasis, 2011]
-
-#### (Fatty-acid substrate competition)
-
-Arachidonic-acid-derived pro-inflammatory mediators and EPA/DHA-derived resolution pathways compete for enzymatic processing within shared lipid-signalling networks. Chronic omega-6 dominance or oxidized-fat exposure can skew mediator output → [Simopoulos, 2011]
-
-#### (Boundaries of the mechanism)
-
-Downstream cytokine-network readouts are handled by [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Membrane PUFA protection upstream belongs to [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control). Transcriptional inflammatory control is represented by [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation).
-
-#### (Integration within BRS3)
-
-This PM anchors resolution-oriented lipid signalling within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity), supported by habitual EPA/DHA intake through §4.1.1 Direct and/or Derived Dietary Requirements.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The SPM resolution framework is well established. The evidence below highlights active inflammation termination, omega-3 substrate dependence, and dietary fatty-acid balance.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>SPMs as active inflammation terminators</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Specialized pro-resolving mediators derived from DHA and EPA actively terminate inflammation without suppressing immune surveillance — resolvins, protectins, and maresins inhibit neutrophil infiltration and support macrophage clearance [Serhan & Petasis, 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","label":"Serhan & Petasis (2011)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Controlled endotoxemia and resolution-phase remodelling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** High-dose EPA+DHA attenuated fever and downstream cytokines in controlled endotoxemia while TNF-α remained unchanged — consistent with omega-3s reshaping the resolution phase rather than blocking inflammatory initiation [Ferguson et al., 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Evolutionary omega-6:omega-3 imbalance</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Evolutionary and dietary omega-6:omega-3 imbalance shifts lipid-mediator output toward pro-inflammatory eicosanoid dominance — the substrate-balance frame this PM operationalises [Simopoulos, 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011","label":"Simopoulos (2011)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Quercetin–omega-3 synergy for inflammatory resolution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Quercitrin anti-inflammatory effects may be augmented by co-ingestion of omega-3s and olive oil — supporting combined polyphenol–marine-fat patterns for resolution-oriented lipid signalling [Camuesco et al., 2006].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006","label":"Camuesco et al. (2006)","dataLevel":"Animal Data"}]} />
-
-</div>
-</div>
-</div>
-
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
-- [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
-- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
-- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — downstream cytokine readouts of resolution-oriented lipid signalling
-- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — upstream membrane PUFA integrity preserving SPM substrate quality
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through omega-3 delivery and fatty-acid-balance signals relevant to inflammation resolution.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM6 Relevance |
-|---|---|---|
-| Functional Property Potentials | marine_omega3_pattern; fatty_acid_balance; lower_oxidized_oil_load | May support pro-resolving mediator bias. |
-| Realised Functional States | oily_fish_pattern; balanced_pufa_context | Reflect practical SPM-supportive states. |
-| Preparation Transformations | gentle_fat_cooking; lower_reused_oil_exposure | May help preserve lipid quality relevant to this PM. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)
-- [Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
-- [Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)
-- [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
-- [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
-- [Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
-- [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
-- [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- <span id="pm-ref-1">[1]</span> [Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)
+- <span id="pm-ref-2">[2]</span> [Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
+- <span id="pm-ref-3">[3]</span> [Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)
+- <span id="pm-ref-4">[4]</span> [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+- <span id="pm-ref-5">[5]</span> [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
+- <span id="pm-ref-6">[6]</span> [Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
+- <span id="pm-ref-7">[7]</span> [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
+- <span id="pm-ref-8">[8]</span> [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)

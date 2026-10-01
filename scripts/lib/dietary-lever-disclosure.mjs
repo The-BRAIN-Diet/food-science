@@ -4,7 +4,12 @@
  */
 
 import { evidenceSourceReferenceNumbers } from "./dietary-input-traceability.mjs";
-import { formatRequirementCompactQualifier, resolveLeverAtom } from "./dietary-lever-atoms.mjs";
+import {
+  formatRequirementCompactQualifier,
+  formatUpstreamIndicatorText,
+  resolveLeverAtom,
+} from "./dietary-lever-atoms.mjs";
+import { isAdmittedIkcConstituent } from "./kc-evidence-governance.mjs";
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
 
@@ -19,6 +24,8 @@ const INPUT_TYPE_LABEL = {
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",
   "nutrient/compound class": "Nutrient / compound class",
+  "dietary pattern": "Dietary pattern",
+  "dietary matrix": "Dietary matrix",
 };
 
 function normalizeFoods(foods) {
@@ -46,6 +53,16 @@ export function formatPresentationCompactQualifier(atom, presentationSection) {
   if (section === "3.1.1") return formatRequirementCompactQualifier(atom);
   if (section === "3.1.2") return formatInputTypeLabel(atom?.input_type);
   return "";
+}
+
+function supportingFindingLink(data, findingId) {
+  const id = String(findingId || "").trim();
+  if (!id) return null;
+  const finding = (data?.scientific_findings || []).find((row) => String(row?.id || "") === id);
+  if (!finding) return null;
+  const label = String(finding.finding_label || "").trim();
+  if (!label) return null;
+  return { id, label, href: `#${id.toLowerCase()}` };
 }
 
 function evidenceSourceReferences(data, evidenceSource, { directHref = false } = {}) {
@@ -98,6 +115,14 @@ export function buildDietaryLeverDisclosureMap(data) {
         pres.presentation_section,
       ),
       presentationSection: String(pres.presentation_section || "").trim(),
+      readerDescription: String(pres.reader_description || "").trim(),
+      supportingFinding: supportingFindingLink(data, pres.description_finding_id),
+      upstreamIndicators: (resolved.upstream_pm_relationships || [])
+        .map((row) => ({
+          text: formatUpstreamIndicatorText(row),
+          href: row.href,
+        }))
+        .filter((row) => row.text && row.href),
     });
   }
 
@@ -150,8 +175,9 @@ export function buildDietaryLeverDisclosureMap(data) {
   for (const presentation of data?.kc_constituent_presentations || []) {
     const atom = kcTraceById.get(String(presentation?.atom_id || ""));
     if (!atom?.input) continue;
+    if (!isAdmittedIkcConstituent(atom)) continue;
     const label = presentation?.label || atom.input;
-    map.set(dietaryLeverBulletKey(label, ""), {
+    const disclosure = {
       title: atom.input,
       inputType: formatInputTypeLabel(atom.input_type),
       biologicalRole: atom.biological_role,
@@ -161,6 +187,34 @@ export function buildDietaryLeverDisclosureMap(data) {
       }),
       compactQualifier: "",
       presentationSection: "kc-constituent",
+    };
+    map.set(dietaryLeverBulletKey(label, ""), disclosure);
+    const evidenceLabel = String(presentation?.evidence_label || "").trim();
+    if (evidenceLabel) {
+      map.set(dietaryLeverBulletKey(evidenceLabel, ""), disclosure);
+    }
+  }
+
+  const kcSupportById = new Map(
+    (data?.kc_emerging_support_traceability || [])
+      .filter((row) => row?.atom_id)
+      .map((row) => [String(row.atom_id), row]),
+  );
+  for (const presentation of data?.kc_emerging_support_presentations || []) {
+    const atom = kcSupportById.get(String(presentation?.atom_id || ""));
+    const slug = String(presentation?.support_slug || "").trim();
+    if (!atom?.input || !slug) continue;
+    const label = presentation?.label || atom.input;
+    map.set(dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`), {
+      title: atom.input,
+      inputType: formatInputTypeLabel(atom.input_type),
+      biologicalRole: atom.biological_role,
+      evidenceLimitation: String(atom.evidence_limitation || "").trim(),
+      evidenceReferences: evidenceSourceReferences(data, atom.evidence_source, {
+        directHref: true,
+      }),
+      compactQualifier: "",
+      presentationSection: `kc-emerging-support:${slug}`,
     });
   }
   return map;

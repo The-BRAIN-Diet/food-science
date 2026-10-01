@@ -1,6 +1,6 @@
 /**
  * Render PM §5.1 / FM §4.4 Evidence Highlights using the same dropdown
- * structure as PM §3 Phenome Connections (BRS-X canonical).
+ * structure as PM §7 Phenome Connections (BRS-X canonical).
  * @see system/phenome-relationship-schema.md
  */
 

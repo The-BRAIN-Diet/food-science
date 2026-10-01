@@ -1,41 +1,122 @@
 ---
 title: Acetylcholine Synthesis Support
 pm_id: BRS1-FM2-PM6
-mission: >-
-  Convert dietary choline into acetylcholine so learning, working memory, and
-  attention-focused signalling stay supplied.
+mission: 'Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.'
 parent_fm: BRS1(FM2)
 parent_brs: BRS1
-summary: >-
-  Governs how dietary choline is converted into acetylcholine (the principal
-  cholinergic neurotransmitter linking attention and memory circuits) through
-  choline acetyltransferase-dependent synthesis. This mechanism covers substrate
-  conversion specifically, distinct from the broader protein-pool sufficiency or
-  competitive transport handled elsewhere. Choline-rich foods and adequate
-  cofactor support determine how readily this conversion keeps pace with ongoing
-  cholinergic signalling demand, particularly under sustained attentional load.
-key_constraints:
-  - BRS2(KC1) - One-Carbon Donor Pool
-cofactors:
-  - B5
-  - B12
-  - folate
+summary: 'Acetylcholine is made when choline acetyltransferase joins choline to acetyl-CoA inside cholinergic nerve terminals. Choline reaches this reaction through separate blood–brain and terminal-uptake transport systems, while acetyl-CoA comes from compartmented neuronal metabolism. Diet provides choline directly or through phosphatidylcholine, and pantothenate supports coenzyme A formation. These dietary routes contribute to substrate provision, while terminal transport and cellular metabolism still govern access to the reaction.'
+cofactors: []
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: ~200–400 mg choline per meal when targeted
+dose_sensitivity: No intake-response range established for human brain acetylcholine
+dietary_addressability: direct
+claim_ceiling: dietary-provision
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM6-DIT-1
+    input: Choline
+    input_type: substrate
+    biological_role: Direct substrate combined with acetyl-CoA by choline acetyltransferase to form acetylcholine
+    evidence_source:
+      finding_ids:
+        - PM6-F2
+      citation_keys:
+        - oda_choline_1999
+        - ojiakor_choline_transporter_2020
+    evidence_limitation: 'Choline is required and diet supplies it, but additional intake has not been shown here to raise acetylcholine synthesis in the human brain or improve attention.'
+  - atom_id: PM6-DIT-2
+    input: Phosphatidylcholine
+    input_type: substrate provision
+    biological_role: 'Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate'
+    evidence_source:
+      finding_ids:
+        - PM6-F4
+      citation_keys:
+        - bockmann_choline_supplements_2023
+    evidence_limitation: Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis.
+  - atom_id: PM6-DIT-3
+    input: Acetyl-CoA
+    input_type: substrate
+    biological_role: Acetyl-group donor combined with choline by choline acetyltransferase to form acetylcholine
+    evidence_source:
+      finding_ids:
+        - PM6-F2
+        - PM6-F5
+        - PM6-F7
+      citation_keys:
+        - oda_choline_1999
+        - rivera_calimlim_pantothenic_1988
+        - jope_choline_acetylcoa_1979
+    evidence_limitation: 'Acetyl-CoA is a cellular reaction substrate, not a dietary acetyl-CoA recommendation; ordinary dietary control of its availability in human cholinergic neurons is not established.'
+  - atom_id: PM6-DIT-4
+    input: Vitamin B5 (pantothenate)
+    input_type: cofactor precursor
+    biological_role: 'Nutritional precursor of coenzyme A, from which cells form the acetyl-CoA required for acetylcholine synthesis'
+    evidence_source:
+      finding_ids:
+        - PM6-F5
+      citation_keys:
+        - rivera_calimlim_pantothenic_1988
+    evidence_limitation: Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.
+dietary_lever_atoms:
+  - atom_id: PM6-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: 'Choline is the Direct substrate for choline-acetyltransferase formation of acetylcholine. Diet supplies choline, but this is not an acetylcholine-dosing or attention-treatment rule.'
+    evidence_limitation: 'Choline is required and diet supplies it, but additional intake has not been shown here to raise acetylcholine synthesis in the human brain or improve attention.'
+  - atom_id: PM6-DIT-2
+    requirement_classification: derived
+    relationship_mode: capacity-requirement
+    derived_target: Choline
+    derived_target_atom_id: PM6-DIT-1
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: 'Phosphatidylcholine is a Derived Dietary Requirement because digestion and remodelling provide choline. It is a provision route, not a second acetylcholine-synthesis substrate.'
+    evidence_limitation: Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis.
+  - atom_id: PM6-DIT-3
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Acetyl-CoA is the second biochemical substrate used by choline acetyltransferase. It is generated inside cells and is not a dietary acetyl-CoA target.
+    evidence_limitation: 'Acetyl-CoA is a cellular reaction substrate, not a dietary acetyl-CoA recommendation; ordinary dietary control of its availability in human cholinergic neurons is not established.'
+  - atom_id: PM6-DIT-4
+    relationship_layer: biochemical-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: 'Vitamin B5 supplies pantothenate for coenzyme A and acetyl-CoA formation. It is a biochemical precursor relationship, not a direct ChAT cofactor.'
+    evidence_limitation: Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.
+dietary_lever_presentations:
+  - atom_id: PM6-DIT-1
+    label: Choline
+    presentation_section: 3.1.1
+    reader_description: Choline is the starting material transported into cholinergic nerve endings and joined to acetyl-CoA to make acetylcholine.
+    description_finding_id: PM6-F2
+  - atom_id: PM6-DIT-2
+    label: Phosphatidylcholine
+    presentation_section: 3.1.1
+    reader_description: Phosphatidylcholine is digested and remodelled as a choline-containing food form. It provides choline rather than acting as a second substrate in the synthesis reaction.
+    description_finding_id: PM6-F4
+  - atom_id: PM6-DIT-4
+    label: Vitamin B5 (pantothenate)
+    presentation_section: 3.1.2
+    reader_description: 'Pantothenate is used to make coenzyme A, which cells use to form acetyl-CoA—the second substrate in acetylcholine synthesis.'
+    description_finding_id: PM6-F5
+  - atom_id: PM6-DIT-3
+    label: Acetyl-CoA
+    presentation_section: 3.1.2
+    reader_description: Acetyl-CoA is generated through compartmented neuronal metabolism and donates the acetyl group used by choline acetyltransferase.
+    description_finding_id: PM6-F2
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Johansson et al. (2013) report decreased muscarinic acetylcholine receptor
-      binding in boys with ADHD, supporting cholinergic biology relevant to
-      attention in ADHD populations. Derbyshire and Maes (2023) review low
-      choline intake and altered choline status in neurodevelopmental disorders
-      including ADHD. This PM governs dietary choline substrate for
-      acetylcholine synthesis—not direct choline supplementation outcome claims.
+    rationale: 'Acetylcholine is the cholinergic transmitter used in attention and learning circuits {{cite:johansson_decreased_2013}} {{cite:derbyshire_role_2023}}. Receptor-binding differences in boys with ADHD and choline/neurodevelopment reviews supply translational context. They do not show that changing choline intake treats ADHD or raises brain acetylcholine.'
     references:
       - index: 1
         label: Johansson et al. (2013)
@@ -43,47 +124,335 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#johansson_decreased_2013
         data_level: Human Mechanistic
       - index: 2
-        label: Derbyshire et al. (2023)
+        label: Derbyshire and Maes (2023)
         citation_key: derbyshire_role_2023
         href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
-        data_level: Human Study
+        data_level: Human Mechanistic
     evidence_confidence: low-medium
+    scientific_findings:
+      - PM6-F3
+      - PM6-F1
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: medium
     evidence_level: mechanistic
-    rationale: >-
-      Acetylcholine synthesis is a major contributory determinant of cholinergic
-      cognitive precision and working-memory biology; impaired synthesis
-      capacity would be expected to affect Cognitive Clarity as a direct
-      biological consequence. Primary refs establish choline substrate and
-      neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio
-      et al., 2018) without direct cognitive-clarity outcome measurement on this
-      PM.
+    rationale: 'Cholinergic signalling is a biological context for working-memory and cognitive precision {{cite:derbyshire_role_2023}} {{cite:briguglio_dietary_2018}}. The attached sources do not measure cognitive-clarity scores after a choline change aimed at acetylcholine synthesis.'
     references:
       - index: 1
-        label: Derbyshire et al. (2023)
+        label: Derbyshire and Maes (2023)
         citation_key: derbyshire_role_2023
         href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
-        data_level: Human Study
+        data_level: Human Mechanistic
       - index: 2
         label: Briguglio et al. (2018)
         citation_key: briguglio_dietary_2018
         href: /docs/papers/BRAIN-Diet-References#briguglio_dietary_2018
         data_level: Human Study
     evidence_confidence: low
+    scientific_findings:
+      - PM6-F1
+      - PM6-F2
 references:
-  - >-
-    [Derbyshire et al. (2023) — Role of Choline in Neurodevelopmental
-    Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-  - >-
-    [Briguglio et al. (2018) — A Narrative Review on Current
-    Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
-  - >-
-    [Johansson et al. (2013) — Decreased Muscarinic Acetylcholine Receptor
-    Binding in Neurodevelopmental
-    Disorders](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
+  - '[Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
+  - '[Briguglio et al. (2018) — Dietary Neurotransmitters: A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
+  - '[Johansson et al. (2013) — Decreased Muscarinic Acetylcholine Receptor Binding in Boys with ADHD](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)'
+  - '[Oda (1999) — Choline Acetyltransferase Structure, Distribution and Pathologic Changes](/docs/papers/BRAIN-Diet-References#oda_choline_1999)'
+  - '[Kennedy (2016) — B Vitamins and the Brain: Mechanisms, Dose and Efficacy](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)'
+  - '[Ojiakor and Rylett (2020) — High-Affinity Choline Transport Controls Acetylcholine Supply](/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020)'
+  - '[Böckmann et al. (2023) — Human Tracing of Dietary Choline Forms](/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023)'
+  - '[Rivera-Calimlim et al. (1988) — Pantothenate Depletion and Brain Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#rivera_calimlim_pantothenic_1988)'
+  - '[Chan et al. (2008) — Folate–SAM Constraint on Brain Choline and Acetylcholine](/docs/papers/BRAIN-Diet-References#chan_folate_acetylcholine_2008)'
+  - '[Crivello et al. (2010) — Folate Deficiency Alters Regional Choline and Acetylcholine](/docs/papers/BRAIN-Diet-References#crivello_folate_choline_2010)'
+  - '[Jadavji et al. (2014) — Methionine-Cycle Deficiency Disturbs Brain Choline Metabolism](/docs/papers/BRAIN-Diet-References#jadavji_mtrr_choline_2014)'
+  - '[Jope (1979) — Choline Transport and Acetyl-CoA Production in Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979)'
+  - '[Inazu (2019) — Choline Transporters at the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019)'
+  - '[Szutowicz et al. (2010) — Thiamine Deficiency, Nerve-Terminal Acetyl-CoA and Acetylcholine Release](/docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010)'
+key_constraints:
+  - BRS2(KC1) - Methyl Donor Pool
+pm_kc_relationships:
+  - relationship_id: BRS1-FM2-PM6-KCR-1
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    pm_biological_role: 'Inadequate one-carbon donor availability can increase pressure on choline-dependent methyl donation and disturb brain choline and acetylcholine availability, thereby constraining the substrate capacity used for acetylcholine synthesis.'
+    evidence_source:
+      finding_ids:
+        - PM6-F6
+        - PM6-F2
+      citation_keys:
+        - chan_folate_acetylcholine_2008
+        - crivello_folate_choline_2010
+        - jadavji_mtrr_choline_2014
+        - oda_choline_1999
+    evidence_limitation: 'The mapping is supported by dietary and genetic animal models plus the established choline substrate reaction. It does not show that folate, B12, or betaine supplementation increases acetylcholine synthesis in nutrient-replete humans, and it does not inherit the KC food list.'
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: one-carbon-methyl-donor-pool
+    applicability_proposition: Inadequacy of the shared methyl-donor pool can constrain this mechanism’s governed acetylcholine-synthesis capacity.
+    disposition: established
+    applicability_mode: constrained-by
+    established_links:
+      - Choline plus acetyl-CoA forms acetylcholine via choline acetyltransferase (PM6-F2).
+      - 'Dietary folate deficiency reduced brain choline and acetylcholine in mouse models, and SAM restored both under folate compromise (PM6-F6).'
+      - 'Methionine-synthase-reductase deficiency lowered hippocampal choline, betaine, and acetylcholine (PM6-F6).'
+      - A separate folate-deficiency experiment found region- and age-dependent acetylcholine changes rather than a uniform whole-brain response (PM6-F6).
+    inferred_links: []
+    evidence_source:
+      finding_ids:
+        - PM6-F6
+        - PM6-F2
+      citation_keys:
+        - chan_folate_acetylcholine_2008
+        - crivello_folate_choline_2010
+        - jadavji_mtrr_choline_2014
+        - oda_choline_1999
+    rationale: 'Type D is met through a supported mechanistic chain rather than a single end-to-end human capacity assay: one-carbon compromise changes the choline resource state, animal models show lower choline and acetylcholine under folate or methionine-cycle impairment, and choline is the required synthesis substrate. BRS1(KC1) was screened out because choline is not a LAT1 large-neutral-amino-acid cargo.'
 hide_title: true
+scientific_findings_intro: 'Acetylcholine synthesis requires choline delivery across the blood–brain boundary, high-affinity transport into cholinergic nerve terminals, and local availability of metabolically generated acetyl-CoA. The findings below establish those steps, dietary provision routes, and a shared one-carbon constraint while separating biochemical capacity from release, receptor signalling, attention outcomes, and human dose response.'
+scientific_findings:
+  - id: PM6-F1
+    finding_label: High-affinity choline uptake controls substrate entry into cholinergic terminals
+    finding_summary: The high-affinity choline transporter recovers choline into cholinergic nerve endings and is a major control point for acetylcholine production.
+    finding_interpretation: 'Substrate supply is not only a food-intake question: choline must reach the nerve terminal through a regulated transporter before choline acetyltransferase can use it.'
+    fm_rollup: true
+    finding_statement: Sodium-coupled high-affinity choline uptake through CHT/SLC5A7 is required to recover choline into cholinergic nerve terminals and commonly limits acetylcholine production under physiological demand.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A focused transporter review shows that CHT recovers synaptic choline into cholinergic terminals, that inhibiting or genetically impairing this transport reduces cholinergic capacity, and that activity-dependent trafficking changes uptake capacity. This establishes terminal uptake as a control step upstream of the ChAT reaction.'
+    synthesis_limitations: Transporter biology is largely mechanistic and preclinical. It does not show that ordinary choline intake changes CHT capacity in humans or that more dietary choline overcomes a transporter defect.
+    evidence_considered:
+      - label: Ojiakor and Rylett (2020)
+        citation_key: ojiakor_choline_transporter_2020
+        href: /docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: CHT-mediated high-affinity choline uptake recovers choline into cholinergic terminals and is the principal regulated supply step for sustaining acetylcholine production.
+        assessment:
+          study: 'Review of CHT function, trafficking, genetic disruption, and pharmacological manipulation.'
+          population: 'Cellular, animal, human genetic, and neuropathology evidence; not a dietary trial.'
+          result: 'Reduced CHT function or availability limits choline uptake and cholinergic transmission, while neuronal activity recruits transport capacity.'
+          effect_magnitude: No pooled dietary effect estimate.
+          evidence_summary: Establishes the regulated choline-entry step required before acetylcholine synthesis.
+          limitations: Does not test ordinary food intake or human brain synthesis after a meal.
+    connected_supportive_evidence:
+      - label: Inazu (2019)
+        citation_key: inazu_choline_transporters_2019
+        href: /docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019
+        data_level: Mechanistic
+        why_relevant: Separates CTL1/CTL2-mediated choline handling at brain microvascular endothelium from CHT/SLC5A7 uptake at cholinergic terminals.
+        why_excluded: Does not test whether an oral choline exposure increases delivery to terminals or acetylcholine synthesis in humans.
+    presentation: mechanistic-basis
+  - id: PM6-F2
+    finding_label: Choline and acetyl-CoA form acetylcholine via choline acetyltransferase
+    finding_summary: Choline combines with acetyl-CoA through choline acetyltransferase to form acetylcholine. Necessity of those reactants is not proof that extra choline raises human brain acetylcholine.
+    finding_interpretation: Choline and acetyl-CoA are the two substrates. Phosphatidylcholine and pantothenate matter through provision routes assessed separately; vitamin B12 and folate do not act as ChAT cofactors.
+    fm_rollup: true
+    finding_statement: Acetylcholine is formed from choline and acetyl-CoA by choline acetyltransferase; biochemical necessity is not intake-responsive human brain acetylcholine.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A choline-acetyltransferase review and a modern choline-transporter review agree that ChAT transfers the acetyl group from acetyl-CoA to choline in cholinergic neurons. Together they establish the defining reaction and both substrates.
+    synthesis_limitations: 'Reaction and review evidence does not establish which substrate limits synthesis in every physiological state, an ordinary dietary dose response, or a human functional benefit.'
+    evidence_considered:
+      - label: Oda (1999)
+        citation_key: oda_choline_1999
+        href: /docs/papers/BRAIN-Diet-References#oda_choline_1999
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Choline acetyltransferase condenses choline and acetyl-CoA to form acetylcholine and is the defining synthetic enzyme in cholinergic neurons.
+        assessment:
+          study: 'Review of choline-acetyltransferase structure, distribution and pathology.'
+          population: Experimental and neuropathology literature; not a dietary sample.
+          result: Identified choline and acetyl-CoA as the enzyme’s substrates.
+          effect_magnitude: No dietary or clinical effect estimate.
+          evidence_summary: Establishes the acetylcholine-forming reaction.
+          limitations: Enzyme and pathology review; not an intake-to-acetylcholine trial.
+      - label: Ojiakor and Rylett (2020)
+        citation_key: ojiakor_choline_transporter_2020
+        href: /docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: ChAT transfers an acetyl group from acetyl-CoA to choline in the neuronal cytoplasm after CHT-mediated choline entry.
+        assessment:
+          study: Review of CHT function and cholinergic terminal biology.
+          population: 'Mechanistic, animal, and human genetic literature.'
+          result: Describes substrate entry followed by ChAT-dependent synthesis from choline and acetyl-CoA.
+          effect_magnitude: No dietary effect estimate.
+          evidence_summary: Independently confirms the reaction participants within the presynaptic synthesis pathway.
+          limitations: Does not measure human synthesis after dietary exposure.
+    evidence_dependency:
+      - 'Ojiakor and Rylett (2020) is also primary evidence in PM6-F1; reuse here establishes reaction placement after choline transport, not independent replication.'
+    connected_supportive_evidence:
+      - label: Kennedy (2016)
+        citation_key: kennedy_b_2016
+        href: /docs/papers/BRAIN-Diet-References#kennedy_b_2016
+        data_level: Mechanistic
+        why_relevant: Reviews B-vitamin roles in brain energy and one-carbon chemistry.
+        why_excluded: Does not establish vitamin B12 or folate as acetylcholine-synthesis cofactors.
+    presentation: mechanistic-basis
+  - id: PM6-F4
+    finding_label: Dietary phosphatidylcholine is a choline-provision route
+    finding_summary: 'Phosphatidylcholine is a choline-containing dietary form that is digested, absorbed, and remodelled. It provides choline but is not a second substrate in the ChAT reaction.'
+    finding_interpretation: 'Represent phosphatidylcholine as Derived provision to choline, not as an independent acetylcholine-synthesis requirement.'
+    finding_statement: 'Dietary phosphatidylcholine is digested and remodelled into circulating phosphatidylcholine and free choline, establishing a dietary provision route to the direct choline substrate.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In a randomized crossover tracer study in six healthy men, labelled phosphatidylcholine produced a delayed rise in labelled plasma choline and a larger phosphatidylcholine exposure than water-soluble choline forms. The tracer results directly establish digestion and systemic assimilation as a choline-containing dietary route.'
+    synthesis_limitations: 'Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit.'
+    evidence_considered:
+      - label: Böckmann et al. (2023)
+        citation_key: bockmann_choline_supplements_2023
+        href: /docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023
+        data_level: Human Mechanistic
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: Oral labelled phosphatidylcholine produced delayed circulating labelled choline and the highest labelled phosphatidylcholine exposure among four tested choline forms.
+        assessment:
+          study: Randomized crossover stable-isotope comparison of four oral choline forms.
+          population: Six healthy adult men.
+          result: 'Phosphatidylcholine was digested and remodelled, with delayed plasma choline appearance and higher plasma phosphatidylcholine exposure.'
+          effect_magnitude: Delayed choline peak and approximately 2.3-fold higher peak labelled phosphatidylcholine than water-soluble forms.
+          evidence_summary: Establishes phosphatidylcholine as an assimilated choline-provision route.
+          limitations: Small sample; supplement bolus rather than whole food; no brain or acetylcholine measurement.
+    presentation: mechanistic-basis
+  - id: PM6-F5
+    finding_label: Pantothenate supports the acetyl-CoA side of acetylcholine synthesis
+    finding_summary: 'Pantothenate (vitamin B5) is needed to make coenzyme A, which cells use to form acetyl-CoA. Acetyl-CoA supplies the acetyl group in acetylcholine.'
+    finding_interpretation: 'Vitamin B5 is a biochemical precursor route to acetyl-CoA, not a ChAT cofactor or a second Direct Dietary Requirement. The evidence supports dependency and an animal depletion effect, not routine high-dose supplementation.'
+    finding_statement: 'Pantothenate supports acetylcholine-synthesis capacity through coenzyme A and acetyl-CoA formation, and severe chronic pantothenate depletion can reduce brain acetylcholine synthesis in rats.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In rats exposed chronically to ethanol, brain pantothenate fell to 7% of control and labelled acetylcholine synthesis from pyruvate was inhibited; pantothenate co-administration raised brain pantothenate and acetylcholine synthesis. Together with the established acetyl-CoA reaction requirement, this closes the pantothenate → coenzyme A/acetyl-CoA → synthesis chain.'
+    synthesis_limitations: The intervention used chronic high-dose ethanol and pharmacological pantothenate doses in rats. It does not establish that ordinary B5 intake limits acetylcholine synthesis or that supplementation benefits adequately nourished humans.
+    evidence_considered:
+      - label: Rivera-Calimlim et al. (1988)
+        citation_key: rivera_calimlim_pantothenic_1988
+        href: /docs/papers/BRAIN-Diet-References#rivera_calimlim_pantothenic_1988
+        data_level: Preclinical
+        exposure_context: isolated-substance
+        evidence_source: bounded-external-search
+        directional_finding: 'Chronic ethanol depleted rat-brain pantothenate and inhibited acetylcholine synthesis, while pantothenate co-administration increased both brain pantothenate and synthesis.'
+        assessment:
+          study: 'Chronic and acute ethanol exposure with or without oral pantothenate in rats, measuring labelled acetylcholine synthesis.'
+          population: Rats; no human participants.
+          result: The chronic four-month condition reduced brain pantothenate and acetylcholine synthesis; pantothenate co-treatment partly restored both.
+          effect_magnitude: Brain pantothenate fell to 7% of control with chronic ethanol; synthesis differences were statistically significant but no transferable human effect size is available.
+          evidence_summary: Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision.
+          limitations: 'Ethanol-specific animal model, very high pantothenate doses, and no ordinary-diet or human outcome.'
+    presentation: mechanistic-basis
+  - id: PM6-F6
+    finding_label: One-carbon insufficiency can constrain the choline resource used for acetylcholine
+    finding_summary: Folate- and B12-dependent one-carbon metabolism shares choline-related methyl resources. Dietary or genetic impairment can lower brain choline and acetylcholine in animal models.
+    finding_interpretation: 'This supports a constrained-by mapping to the Methyl Donor Pool. It does not make folate, B12, or betaine ChAT cofactors or separate Direct Dietary Requirements.'
+    finding_statement: 'Inadequate folate-dependent or B12-dependent methionine-cycle capacity can disturb brain choline metabolism and lower acetylcholine availability, creating a supported shared-resource constraint on acetylcholine-synthesis capacity.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Dietary folate compromise lowered brain choline and acetylcholine in mice, with SAM restoring both under the deficient condition. Genetic methionine-synthase-reductase impairment likewise lowered hippocampal choline, betaine, and acetylcholine. A separate rat study found mixed, region- and age-dependent acetylcholine changes, showing that the effect is not uniform. Together these sources establish a shared-resource constraint while preserving biological variability.'
+    synthesis_limitations: 'Animal dietary and genetic models measure metabolite pools more often than synthesis flux. They do not show that folate, B12, betaine, or SAM supplementation raises acetylcholine synthesis in nutrient-replete humans.'
+    evidence_considered:
+      - label: Chan et al. (2008)
+        citation_key: chan_folate_acetylcholine_2008
+        href: /docs/papers/BRAIN-Diet-References#chan_folate_acetylcholine_2008
+        data_level: Preclinical
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Dietary folate compromise lowered mouse-brain choline and acetylcholine, while SAM supplementation under folate deficiency restored both pools.'
+        assessment:
+          study: 'Dietary folate deficiency across adult, aged, and genetically susceptible mouse models with SAM rescue.'
+          population: Mice of several genotypes and ages.
+          result: Folate compromise reduced choline and acetylcholine; SAM restored these measures and cognitive performance in the deficient condition.
+          effect_magnitude: Directionally consistent rescue across several mouse contexts; no human effect estimate.
+          evidence_summary: Supports the link from one-carbon donor insufficiency to loss of the choline resource used for acetylcholine.
+          limitations: 'Mixed dietary, oxidative, age, and genotype contexts; pool concentrations rather than direct synthesis flux.'
+      - label: Jadavji et al. (2014)
+        citation_key: jadavji_mtrr_choline_2014
+        href: /docs/papers/BRAIN-Diet-References#jadavji_mtrr_choline_2014
+        data_level: Preclinical
+        evidence_source: bounded-external-search
+        directional_finding: 'Methionine-synthase-reductase-deficient mice had lower hippocampal choline, betaine, and acetylcholine with compensatory ChAT and AChE expression changes.'
+        assessment:
+          study: Genetic mouse model of impaired methionine synthase reductase.
+          population: Three-month-old wild-type and Mtrr-deficient mice.
+          result: 'Deficiency reduced hippocampal choline, betaine, and acetylcholine and impaired short-term memory.'
+          effect_magnitude: Significant group differences reported; no dietary or human effect estimate.
+          evidence_summary: Adds B12-dependent methionine-cycle evidence to the shared-resource constraint.
+          limitations: Genetic mouse model; altered concentration and enzyme expression do not quantify synthesis flux.
+      - label: Crivello et al. (2010)
+        citation_key: crivello_folate_choline_2010
+        href: /docs/papers/BRAIN-Diet-References#crivello_folate_choline_2010
+        data_level: Preclinical
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: Ten weeks of folate deficiency changed brain acetylcholine in adult rats by region—lower in hippocampus but higher in cortex and striatum—with little brain effect in young rats.
+        assessment:
+          study: Controlled folate-deficient versus control diets in young and adult male rats.
+          population: Male Sprague Dawley rats starting at four weeks or nine months.
+          result: Brain choline and acetylcholine responses depended on age and region rather than moving uniformly.
+          effect_magnitude: Significant regional differences; no whole-brain or human synthesis estimate.
+          evidence_summary: Qualifies the constraint as context-dependent and prevents a universal lower-acetylcholine claim.
+          limitations: Concentrations rather than synthesis flux; animal model; mixed regional direction.
+    presentation: mechanistic-basis
+  - id: PM6-F7
+    finding_label: Acetyl-CoA supply is metabolically generated and compartmented
+    finding_summary: 'Choline acetyltransferase works in the neuronal cytosol, while much acetyl-CoA is generated in mitochondria. Acetyl-unit transfer and local regeneration therefore form a separate substrate-supply control.'
+    finding_interpretation: 'Acetyl-CoA availability can constrain synthesis, but this does not make glucose, pyruvate, citrate, or dietary acetyl-CoA separate Dietary Requirements for this PM.'
+    finding_statement: 'Cytosolic acetyl-CoA for acetylcholine synthesis is supplied through compartmented neuronal metabolism, and its availability can regulate synthesis independently of choline transport.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A focused review of brain acetylcholine synthesis distinguishes mitochondrial acetyl-CoA production from the cytosolic ChAT reaction and reviews citrate cleavage, pyruvate-dependent production, and possible direct mitochondrial export routes. The evidence supports acetyl-CoA availability as a control point while leaving the proportional contribution of each route context-dependent.'
+    synthesis_limitations: 'The source literature is mechanistic and largely preclinical, and competing acetyl-unit transfer routes were not fully resolved. It does not establish glucose, pyruvate, citrate, or acetyl-CoA as useful dietary targets for this PM.'
+    evidence_considered:
+      - label: Jope (1979)
+        citation_key: jope_choline_acetylcoa_1979
+        href: /docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Acetyl-CoA availability may limit acetylcholine synthesis, with evidence for citrate-lyase, pyruvate-dehydrogenase, and mitochondrial export routes supplying the cytosolic reaction.'
+        assessment:
+          study: 'Review of high-affinity choline transport, acetyl-CoA production, compartmentation, and regulation of brain acetylcholine synthesis.'
+          population: 'Biochemical, synaptosomal, and animal literature; no dietary human trial.'
+          result: Distinguished mitochondrial acetyl-CoA generation from cytosolic use by ChAT and identified several supported supply routes.
+          effect_magnitude: No pooled dietary or clinical effect estimate.
+          evidence_summary: Establishes compartmented acetyl-CoA provision as a second upstream substrate-control problem.
+          limitations: Older mechanistic literature; the relative contribution of proposed routes remains context-dependent.
+    connected_supportive_evidence:
+      - label: Szutowicz et al. (2010)
+        citation_key: szutowicz_thiamine_acetylcoa_2010
+        href: /docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010
+        data_level: Preclinical
+        why_relevant: 'Pyrithiamine-induced thiamine deficiency reduced pyruvate-dehydrogenase flux and mitochondrial and cytosolic acetyl-CoA in rat nerve terminals, supporting the compartmented acetyl-unit supply model.'
+        why_excluded: 'The reported cholinergic endpoint was altered quantal acetylcholine release, while ChAT activity was unchanged; it does not establish vitamin B1 as a PM6 synthesis requirement or intake-responsive lever.'
+    presentation: mechanistic-basis
+  - id: PM6-F3
+    finding_label: Cholinergic biology is translationally relevant to attention
+    finding_summary: 'Acetylcholine-receptor and choline-status findings sit near attention biology in ADHD-related samples. That is translational context, not an ADHD treatment rule.'
+    finding_interpretation: Use these studies as attention-relevant cholinergic context. They do not show that choline supplementation treats ADHD.
+    finding_statement: Human ADHD-related muscarinic-binding and choline-status evidence is translationally relevant to attention; it is not a demonstration that changing choline intake treats ADHD.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Lower muscarinic binding in boys with ADHD and choline-status discussion in a neurodevelopmental review together support a cholinergic context for attention. They do not isolate acetylcholine synthesis as a treatment target and they do not measure attention after a choline intervention designed to change synthesis.
+    synthesis_limitations: Cross-sectional receptor binding and a narrative review. No choline intervention arm for ADHD or attention scores is attached.
+    evidence_considered:
+      - label: Johansson et al. (2013)
+        citation_key: johansson_decreased_2013
+        href: /docs/papers/BRAIN-Diet-References#johansson_decreased_2013
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Decreased muscarinic binding in boys with ADHD supplies attention-relevant cholinergic context, not a treatment effect.'
+        assessment:
+          study: 'Same fibroblast binding comparison used in PM6-F1, reused here for the attention relationship.'
+          population: Boys with ADHD and comparison boys.
+          result: Lower muscarinic binding in the ADHD group.
+          effect_magnitude: Binding contrast only; no attention-score change after diet.
+          evidence_summary: Anchors the attention relationship in human cholinergic biology.
+          limitations: Not brain imaging of acetylcholine and not a dietary trial.
+      - label: Derbyshire and Maes (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Altered choline status is discussed in ADHD-related literature without proving choline treatment of ADHD.
+        assessment:
+          study: 'Same narrative review used in PM6-F1 and PM6-F2, reused here for phenome context.'
+          population: ADHD and other neurodevelopmental subgroups summarised in the review.
+          result: Discussed choline as a possible modifiable neurodevelopmental factor.
+          effect_magnitude: No ADHD treatment-effect estimate.
+          evidence_summary: 'Supplies choline-status context for attention, not a dosing rule.'
+          limitations: Review synthesis; not a choline-for-ADHD trial.
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -96,26 +465,204 @@ hide_title: true
 
 ## BRS1-FM2-PM6 - Acetylcholine Synthesis Support
 
-(Choline supported neurotransmission for learning and focus)
+(Supplying the Two Substrates Used to Make Acetylcholine)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
-Convert dietary choline into acetylcholine so learning, working memory, and attention-focused signalling stay supplied.
+Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.
 
+
+Diet directly supplies choline and supplies phosphatidylcholine as a choline-provision route. Pantothenate supports the separate acetyl-CoA substrate route through coenzyme A. These dependencies support a Diet-Dominant profile, but they do not establish that extra intake raises acetylcholine in the human brain.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Choline
+- Phosphatidylcholine
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Acetyl-CoA
+- Vitamin B5 (pantothenate)
+
+Choline and acetyl-CoA are the two reaction substrates. Choline reaches cholinergic terminals through transport, while acetyl-CoA is generated within cells. Pantothenate supports the coenzyme A route to acetyl-CoA; choline acetyltransferase does not use vitamin B12, folate, or pantothenate as direct enzyme cofactors.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+**[(Key Constraint) (KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)**
+
+Folate- and B12-dependent one-carbon capacity shares choline-related methyl resources. Dietary and genetic animal models show that one-carbon impairment can lower brain choline and acetylcholine, so inadequacy of this shared pool can constrain the choline substrate capacity used here. This does not make folate, B12, or betaine direct cofactors of acetylcholine synthesis.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Governs how dietary choline is converted into acetylcholine (the principal cholinergic neurotransmitter linking attention and memory circuits) through choline acetyltransferase-dependent synthesis. This mechanism covers substrate conversion specifically, distinct from the broader protein-pool sufficiency or competitive transport handled elsewhere. Choline-rich foods and adequate cofactor support determine how readily this conversion keeps pace with ongoing cholinergic signalling demand, particularly under sustained attentional load.
+Acetylcholine is made when choline acetyltransferase joins choline to acetyl-CoA inside cholinergic nerve terminals (nerve endings that use acetylcholine). Oda (1999) [[4]](#pm-ref-4) establishes this reaction. Choline reaches it through separate blood–brain and terminal-uptake transport systems [Inazu (2019) [[13]](#pm-ref-13); Ojiakor and Rylett (2020) [[6]](#pm-ref-6)], while acetyl-CoA comes from compartmented neuronal metabolism [Jope (1979) [[12]](#pm-ref-12)]. Diet provides choline directly or through phosphatidylcholine, and pantothenate supports coenzyme A formation [Derbyshire and Maes (2023) [[1]](#pm-ref-1); Böckmann et al. (2023) [[7]](#pm-ref-7); Rivera-Calimlim et al. (1988) [[8]](#pm-ref-8)]. These dietary routes contribute to substrate provision, while terminal transport and cellular metabolism still govern access to the reaction.
 
-* Converts dietary choline into acetylcholine for learning and focus.
-* Governs substrate conversion specifically, not transport or protein-pool sufficiency.
-* Depends on choline-rich foods and cofactor support to keep pace with demand.
+* **Mechanism boundary:** Covers acetylcholine formation, not its vesicular storage, release, receptor signalling or breakdown [Oda (1999) [[4]](#pm-ref-4); Ojiakor and Rylett (2020) [[6]](#pm-ref-6)].
+* **Evidence boundary:** Tissue acetylcholine concentration and acetylcholine release do not by themselves measure synthesis rate [Crivello et al. (2010) [[10]](#pm-ref-10); Szutowicz et al. (2010) [[14]](#pm-ref-14)].
+* **Biological relevance:** Cholinergic biology is relevant to attention and learning, but the assessed evidence does not establish a nutritional treatment effect [Johansson et al. (2013) [[3]](#pm-ref-3); Derbyshire and Maes (2023) [[1]](#pm-ref-1)].
 
 ## 2. Primary Biological Effects
-↑ acetylcholine synthesis support; ↑ choline availability
+↑ substrate availability in cholinergic terminals; ↑ capacity to synthesise acetylcholine
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Cholinergic signalling depends on a nerve terminal having both reaction substrates at the right place and time. Choline must first enter through a high-affinity transporter; choline acetyltransferase then transfers an acetyl group from acetyl-CoA. This synthesis capacity is different from the amount of acetylcholine stored, released, or detected at receptors.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Substrate transport and acetylcholine synthesis — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Choline entry is a regulated supply step)
+
+Choline reaching the brain and choline entering a cholinergic nerve terminal are separate steps. CTL1/CTL2 transport systems operate at brain microvascular endothelium, whereas the high-affinity transporter CHT/SLC5A7 recovers choline into cholinergic nerve terminals. CHT activity and movement to the cell surface respond to neuronal activity, making terminal transport a major control point rather than a passive reflection of how much choline was eaten. Ojiakor and Rylett (2020) [[6]](#pm-ref-6) review terminal transport; Inazu (2019) [[13]](#pm-ref-13) reviews the blood–brain boundary.
+
+#### (Two substrates form acetylcholine)
+
+Inside the terminal, choline acetyltransferase transfers the acetyl group from acetyl-CoA to choline, forming acetylcholine and coenzyme A. Choline and acetyl-CoA are therefore reaction substrates; the enzyme does not use folate, vitamin B12, or pantothenate directly as cofactors. Oda (1999) [[4]](#pm-ref-4) establishes the enzyme chemistry.
+
+#### (Acetyl-CoA has its own compartmented supply route)
+
+ChAT uses acetyl-CoA in the cytosol, but much neuronal acetyl-CoA is generated in mitochondria. Acetyl units can reach the cytosolic pool through routes including citrate export and ATP-citrate-lyase cleavage, alongside other proposed pyruvate-dependent or mitochondrial-export routes. Their relative contribution is not fully settled, but acetyl-CoA availability can regulate synthesis independently of choline transport. Jope (1979) [[12]](#pm-ref-12) reviews this evidence. It does not make glucose, pyruvate, citrate, or dietary acetyl-CoA separate requirements on this page.
+
+#### (Dietary provision reaches the two substrates by different routes)
+
+Phosphatidylcholine is a choline-containing dietary form. Human tracer evidence shows that it is digested and remodelled, with labelled choline appearing in plasma; it is therefore a provision route to choline, not another ChAT substrate. Böckmann et al. (2023) [[7]](#pm-ref-7) measured this route. Pantothenate supports the other side of the reaction by supplying coenzyme A for acetyl-CoA formation. Severe pantothenate depletion reduced labelled brain acetylcholine synthesis in a chronic rat model, and pantothenate co-administration increased it. Rivera-Calimlim et al. (1988) [[8]](#pm-ref-8) do not establish a routine human supplementation effect.
+
+#### (A shared one-carbon resource can change choline availability)
+
+Choline can also be oxidised to betaine for one-carbon metabolism (the network that transfers methyl groups). Folate compromise and genetic impairment of B12-dependent methionine-cycle function lowered brain choline and acetylcholine in animal models, although regional responses were not uniform. Chan et al. (2008) [[9]](#pm-ref-9), Crivello et al. (2010) [[10]](#pm-ref-10), and Jadavji et al. (2014) [[11]](#pm-ref-11) support a shared-resource constraint, not a claim that folate, B12, or betaine run the ChAT reaction.
+
+#### (Boundaries of the mechanism)
+
+Synthesis ends when acetylcholine has been formed. Packaging by the vesicular acetylcholine transporter, release into the synapse, receptor binding, breakdown by acetylcholinesterase, and the resulting cognitive effects are later stages. Acetylcholine concentration also reflects storage, release, and breakdown, so concentration alone is not a synthesis-rate measurement.
+
+#### (Integration within BRS1)
+
+This synthesis capacity supports [BRS1(FM2) — Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function). Choline allocation also intersects BRS2 remethylation and phosphatidylcholine biology, while the [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) can constrain how much choline remains available for the synthesis substrate pool.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Acetylcholine synthesis requires choline delivery across the blood–brain boundary, high-affinity transport into cholinergic nerve terminals, and local availability of metabolically generated acetyl-CoA. The findings below establish those steps, dietary provision routes, and a shared one-carbon constraint while separating biochemical capacity from release, receptor signalling, attention outcomes, and human dose response.
+
+<ScientificFinding finding={{"id":"PM6-F1","finding_label":"High-affinity choline uptake controls substrate entry into cholinergic terminals","finding_summary":"The high-affinity choline transporter recovers choline into cholinergic nerve endings and is a major control point for acetylcholine production.","finding_interpretation":"Substrate supply is not only a food-intake question: choline must reach the nerve terminal through a regulated transporter before choline acetyltransferase can use it.","fm_rollup":true,"finding_statement":"Sodium-coupled high-affinity choline uptake through CHT/SLC5A7 is required to recover choline into cholinergic nerve terminals and commonly limits acetylcholine production under physiological demand.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A focused transporter review shows that CHT recovers synaptic choline into cholinergic terminals, that inhibiting or genetically impairing this transport reduces cholinergic capacity, and that activity-dependent trafficking changes uptake capacity. This establishes terminal uptake as a control step upstream of the ChAT reaction.","synthesis_limitations":"Transporter biology is largely mechanistic and preclinical. It does not show that ordinary choline intake changes CHT capacity in humans or that more dietary choline overcomes a transporter defect.","evidence_considered":[{"label":"Ojiakor and Rylett (2020)","citation_key":"ojiakor_choline_transporter_2020","href":"/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"CHT-mediated high-affinity choline uptake recovers choline into cholinergic terminals and is the principal regulated supply step for sustaining acetylcholine production.","assessment":{"study":"Review of CHT function, trafficking, genetic disruption, and pharmacological manipulation.","population":"Cellular, animal, human genetic, and neuropathology evidence; not a dietary trial.","result":"Reduced CHT function or availability limits choline uptake and cholinergic transmission, while neuronal activity recruits transport capacity.","effect_magnitude":"No pooled dietary effect estimate.","evidence_summary":"Establishes the regulated choline-entry step required before acetylcholine synthesis.","limitations":"Does not test ordinary food intake or human brain synthesis after a meal."},"canonical_reference":{"author_year":"Ojiakor and Rylett (2020)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[{"label":"Inazu (2019)","citation_key":"inazu_choline_transporters_2019","href":"/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019","data_level":"Mechanistic","why_relevant":"Separates CTL1/CTL2-mediated choline handling at brain microvascular endothelium from CHT/SLC5A7 uptake at cholinergic terminals.","why_excluded":"Does not test whether an oral choline exposure increases delivery to terminals or acetylcholine synthesis in humans.","canonical_reference":{"author_year":"Inazu (2019)","number":13,"anchor":"#pm-ref-13"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+<ScientificFinding finding={{"id":"PM6-F2","finding_label":"Choline and acetyl-CoA form acetylcholine via choline acetyltransferase","finding_summary":"Choline combines with acetyl-CoA through choline acetyltransferase to form acetylcholine. Necessity of those reactants is not proof that extra choline raises human brain acetylcholine.","finding_interpretation":"Choline and acetyl-CoA are the two substrates. Phosphatidylcholine and pantothenate matter through provision routes assessed separately; vitamin B12 and folate do not act as ChAT cofactors.","fm_rollup":true,"finding_statement":"Acetylcholine is formed from choline and acetyl-CoA by choline acetyltransferase; biochemical necessity is not intake-responsive human brain acetylcholine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A choline-acetyltransferase review and a modern choline-transporter review agree that ChAT transfers the acetyl group from acetyl-CoA to choline in cholinergic neurons. Together they establish the defining reaction and both substrates.","synthesis_limitations":"Reaction and review evidence does not establish which substrate limits synthesis in every physiological state, an ordinary dietary dose response, or a human functional benefit.","evidence_considered":[{"label":"Oda (1999)","citation_key":"oda_choline_1999","href":"/docs/papers/BRAIN-Diet-References#oda_choline_1999","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Choline acetyltransferase condenses choline and acetyl-CoA to form acetylcholine and is the defining synthetic enzyme in cholinergic neurons.","assessment":{"study":"Review of choline-acetyltransferase structure, distribution and pathology.","population":"Experimental and neuropathology literature; not a dietary sample.","result":"Identified choline and acetyl-CoA as the enzyme’s substrates.","effect_magnitude":"No dietary or clinical effect estimate.","evidence_summary":"Establishes the acetylcholine-forming reaction.","limitations":"Enzyme and pathology review; not an intake-to-acetylcholine trial."},"canonical_reference":{"author_year":"Oda (1999)","number":4,"anchor":"#pm-ref-4"}},{"label":"Ojiakor and Rylett (2020)","citation_key":"ojiakor_choline_transporter_2020","href":"/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"ChAT transfers an acetyl group from acetyl-CoA to choline in the neuronal cytoplasm after CHT-mediated choline entry.","assessment":{"study":"Review of CHT function and cholinergic terminal biology.","population":"Mechanistic, animal, and human genetic literature.","result":"Describes substrate entry followed by ChAT-dependent synthesis from choline and acetyl-CoA.","effect_magnitude":"No dietary effect estimate.","evidence_summary":"Independently confirms the reaction participants within the presynaptic synthesis pathway.","limitations":"Does not measure human synthesis after dietary exposure."},"canonical_reference":{"author_year":"Ojiakor and Rylett (2020)","number":6,"anchor":"#pm-ref-6"}}],"evidence_dependency":["Ojiakor and Rylett (2020) is also primary evidence in PM6-F1; reuse here establishes reaction placement after choline transport, not independent replication."],"connected_supportive_evidence":[{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in brain energy and one-carbon chemistry.","why_excluded":"Does not establish vitamin B12 or folate as acetylcholine-synthesis cofactors.","canonical_reference":{"author_year":"Kennedy (2016)","number":5,"anchor":"#pm-ref-5"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+<ScientificFinding finding={{"id":"PM6-F4","finding_label":"Dietary phosphatidylcholine is a choline-provision route","finding_summary":"Phosphatidylcholine is a choline-containing dietary form that is digested, absorbed, and remodelled. It provides choline but is not a second substrate in the ChAT reaction.","finding_interpretation":"Represent phosphatidylcholine as Derived provision to choline, not as an independent acetylcholine-synthesis requirement.","finding_statement":"Dietary phosphatidylcholine is digested and remodelled into circulating phosphatidylcholine and free choline, establishing a dietary provision route to the direct choline substrate.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In a randomized crossover tracer study in six healthy men, labelled phosphatidylcholine produced a delayed rise in labelled plasma choline and a larger phosphatidylcholine exposure than water-soluble choline forms. The tracer results directly establish digestion and systemic assimilation as a choline-containing dietary route.","synthesis_limitations":"Small single-dose study in healthy men. Plasma appearance does not measure delivery to cholinergic terminals, acetylcholine synthesis, neurotransmitter release, attention, or clinical benefit.","evidence_considered":[{"label":"Böckmann et al. (2023)","citation_key":"bockmann_choline_supplements_2023","href":"/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023","data_level":"Human Mechanistic","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Oral labelled phosphatidylcholine produced delayed circulating labelled choline and the highest labelled phosphatidylcholine exposure among four tested choline forms.","assessment":{"study":"Randomized crossover stable-isotope comparison of four oral choline forms.","population":"Six healthy adult men.","result":"Phosphatidylcholine was digested and remodelled, with delayed plasma choline appearance and higher plasma phosphatidylcholine exposure.","effect_magnitude":"Delayed choline peak and approximately 2.3-fold higher peak labelled phosphatidylcholine than water-soluble forms.","evidence_summary":"Establishes phosphatidylcholine as an assimilated choline-provision route.","limitations":"Small sample; supplement bolus rather than whole food; no brain or acetylcholine measurement."},"canonical_reference":{"author_year":"Böckmann et al. (2023)","number":7,"anchor":"#pm-ref-7"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM6-F5","finding_label":"Pantothenate supports the acetyl-CoA side of acetylcholine synthesis","finding_summary":"Pantothenate (vitamin B5) is needed to make coenzyme A, which cells use to form acetyl-CoA. Acetyl-CoA supplies the acetyl group in acetylcholine.","finding_interpretation":"Vitamin B5 is a biochemical precursor route to acetyl-CoA, not a ChAT cofactor or a second Direct Dietary Requirement. The evidence supports dependency and an animal depletion effect, not routine high-dose supplementation.","finding_statement":"Pantothenate supports acetylcholine-synthesis capacity through coenzyme A and acetyl-CoA formation, and severe chronic pantothenate depletion can reduce brain acetylcholine synthesis in rats.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In rats exposed chronically to ethanol, brain pantothenate fell to 7% of control and labelled acetylcholine synthesis from pyruvate was inhibited; pantothenate co-administration raised brain pantothenate and acetylcholine synthesis. Together with the established acetyl-CoA reaction requirement, this closes the pantothenate → coenzyme A/acetyl-CoA → synthesis chain.","synthesis_limitations":"The intervention used chronic high-dose ethanol and pharmacological pantothenate doses in rats. It does not establish that ordinary B5 intake limits acetylcholine synthesis or that supplementation benefits adequately nourished humans.","evidence_considered":[{"label":"Rivera-Calimlim et al. (1988)","citation_key":"rivera_calimlim_pantothenic_1988","href":"/docs/papers/BRAIN-Diet-References#rivera_calimlim_pantothenic_1988","data_level":"Preclinical","exposure_context":"isolated-substance","evidence_source":"bounded-external-search","directional_finding":"Chronic ethanol depleted rat-brain pantothenate and inhibited acetylcholine synthesis, while pantothenate co-administration increased both brain pantothenate and synthesis.","assessment":{"study":"Chronic and acute ethanol exposure with or without oral pantothenate in rats, measuring labelled acetylcholine synthesis.","population":"Rats; no human participants.","result":"The chronic four-month condition reduced brain pantothenate and acetylcholine synthesis; pantothenate co-treatment partly restored both.","effect_magnitude":"Brain pantothenate fell to 7% of control with chronic ethanol; synthesis differences were statistically significant but no transferable human effect size is available.","evidence_summary":"Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision.","limitations":"Ethanol-specific animal model, very high pantothenate doses, and no ordinary-diet or human outcome."},"canonical_reference":{"author_year":"Rivera-Calimlim et al. (1988)","number":8,"anchor":"#pm-ref-8"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM6-F6","finding_label":"One-carbon insufficiency can constrain the choline resource used for acetylcholine","finding_summary":"Folate- and B12-dependent one-carbon metabolism shares choline-related methyl resources. Dietary or genetic impairment can lower brain choline and acetylcholine in animal models.","finding_interpretation":"This supports a constrained-by mapping to the Methyl Donor Pool. It does not make folate, B12, or betaine ChAT cofactors or separate Direct Dietary Requirements.","finding_statement":"Inadequate folate-dependent or B12-dependent methionine-cycle capacity can disturb brain choline metabolism and lower acetylcholine availability, creating a supported shared-resource constraint on acetylcholine-synthesis capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Dietary folate compromise lowered brain choline and acetylcholine in mice, with SAM restoring both under the deficient condition. Genetic methionine-synthase-reductase impairment likewise lowered hippocampal choline, betaine, and acetylcholine. A separate rat study found mixed, region- and age-dependent acetylcholine changes, showing that the effect is not uniform. Together these sources establish a shared-resource constraint while preserving biological variability.","synthesis_limitations":"Animal dietary and genetic models measure metabolite pools more often than synthesis flux. They do not show that folate, B12, betaine, or SAM supplementation raises acetylcholine synthesis in nutrient-replete humans.","evidence_considered":[{"label":"Chan et al. (2008)","citation_key":"chan_folate_acetylcholine_2008","href":"/docs/papers/BRAIN-Diet-References#chan_folate_acetylcholine_2008","data_level":"Preclinical","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Dietary folate compromise lowered mouse-brain choline and acetylcholine, while SAM supplementation under folate deficiency restored both pools.","assessment":{"study":"Dietary folate deficiency across adult, aged, and genetically susceptible mouse models with SAM rescue.","population":"Mice of several genotypes and ages.","result":"Folate compromise reduced choline and acetylcholine; SAM restored these measures and cognitive performance in the deficient condition.","effect_magnitude":"Directionally consistent rescue across several mouse contexts; no human effect estimate.","evidence_summary":"Supports the link from one-carbon donor insufficiency to loss of the choline resource used for acetylcholine.","limitations":"Mixed dietary, oxidative, age, and genotype contexts; pool concentrations rather than direct synthesis flux."},"canonical_reference":{"author_year":"Chan et al. (2008)","number":9,"anchor":"#pm-ref-9"}},{"label":"Jadavji et al. (2014)","citation_key":"jadavji_mtrr_choline_2014","href":"/docs/papers/BRAIN-Diet-References#jadavji_mtrr_choline_2014","data_level":"Preclinical","evidence_source":"bounded-external-search","directional_finding":"Methionine-synthase-reductase-deficient mice had lower hippocampal choline, betaine, and acetylcholine with compensatory ChAT and AChE expression changes.","assessment":{"study":"Genetic mouse model of impaired methionine synthase reductase.","population":"Three-month-old wild-type and Mtrr-deficient mice.","result":"Deficiency reduced hippocampal choline, betaine, and acetylcholine and impaired short-term memory.","effect_magnitude":"Significant group differences reported; no dietary or human effect estimate.","evidence_summary":"Adds B12-dependent methionine-cycle evidence to the shared-resource constraint.","limitations":"Genetic mouse model; altered concentration and enzyme expression do not quantify synthesis flux."},"canonical_reference":{"author_year":"Jadavji et al. (2014)","number":11,"anchor":"#pm-ref-11"}},{"label":"Crivello et al. (2010)","citation_key":"crivello_folate_choline_2010","href":"/docs/papers/BRAIN-Diet-References#crivello_folate_choline_2010","data_level":"Preclinical","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Ten weeks of folate deficiency changed brain acetylcholine in adult rats by region—lower in hippocampus but higher in cortex and striatum—with little brain effect in young rats.","assessment":{"study":"Controlled folate-deficient versus control diets in young and adult male rats.","population":"Male Sprague Dawley rats starting at four weeks or nine months.","result":"Brain choline and acetylcholine responses depended on age and region rather than moving uniformly.","effect_magnitude":"Significant regional differences; no whole-brain or human synthesis estimate.","evidence_summary":"Qualifies the constraint as context-dependent and prevents a universal lower-acetylcholine claim.","limitations":"Concentrations rather than synthesis flux; animal model; mixed regional direction."},"canonical_reference":{"author_year":"Crivello et al. (2010)","number":10,"anchor":"#pm-ref-10"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM6-F7","finding_label":"Acetyl-CoA supply is metabolically generated and compartmented","finding_summary":"Choline acetyltransferase works in the neuronal cytosol, while much acetyl-CoA is generated in mitochondria. Acetyl-unit transfer and local regeneration therefore form a separate substrate-supply control.","finding_interpretation":"Acetyl-CoA availability can constrain synthesis, but this does not make glucose, pyruvate, citrate, or dietary acetyl-CoA separate Dietary Requirements for this PM.","finding_statement":"Cytosolic acetyl-CoA for acetylcholine synthesis is supplied through compartmented neuronal metabolism, and its availability can regulate synthesis independently of choline transport.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A focused review of brain acetylcholine synthesis distinguishes mitochondrial acetyl-CoA production from the cytosolic ChAT reaction and reviews citrate cleavage, pyruvate-dependent production, and possible direct mitochondrial export routes. The evidence supports acetyl-CoA availability as a control point while leaving the proportional contribution of each route context-dependent.","synthesis_limitations":"The source literature is mechanistic and largely preclinical, and competing acetyl-unit transfer routes were not fully resolved. It does not establish glucose, pyruvate, citrate, or acetyl-CoA as useful dietary targets for this PM.","evidence_considered":[{"label":"Jope (1979)","citation_key":"jope_choline_acetylcoa_1979","href":"/docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Acetyl-CoA availability may limit acetylcholine synthesis, with evidence for citrate-lyase, pyruvate-dehydrogenase, and mitochondrial export routes supplying the cytosolic reaction.","assessment":{"study":"Review of high-affinity choline transport, acetyl-CoA production, compartmentation, and regulation of brain acetylcholine synthesis.","population":"Biochemical, synaptosomal, and animal literature; no dietary human trial.","result":"Distinguished mitochondrial acetyl-CoA generation from cytosolic use by ChAT and identified several supported supply routes.","effect_magnitude":"No pooled dietary or clinical effect estimate.","evidence_summary":"Establishes compartmented acetyl-CoA provision as a second upstream substrate-control problem.","limitations":"Older mechanistic literature; the relative contribution of proposed routes remains context-dependent."},"canonical_reference":{"author_year":"Jope (1979)","number":12,"anchor":"#pm-ref-12"}}],"connected_supportive_evidence":[{"label":"Szutowicz et al. (2010)","citation_key":"szutowicz_thiamine_acetylcoa_2010","href":"/docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010","data_level":"Preclinical","why_relevant":"Pyrithiamine-induced thiamine deficiency reduced pyruvate-dehydrogenase flux and mitochondrial and cytosolic acetyl-CoA in rat nerve terminals, supporting the compartmented acetyl-unit supply model.","why_excluded":"The reported cholinergic endpoint was altered quantal acetylcholine release, while ChAT activity was unchanged; it does not establish vitamin B1 as a PM6 synthesis requirement or intake-responsive lever.","canonical_reference":{"author_year":"Szutowicz et al. (2010)","number":14,"anchor":"#pm-ref-14"}}],"presentation":"mechanistic-basis"}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — Folate- and B12-dependent remethylation provides an alternative to choline-derived betaine for methyl donation. When this route is impaired, animal evidence shows lower brain choline and acetylcholine, creating a downstream substrate constraint here.
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) — Oxidation of choline supplies betaine to this remethylation route. That competing use links methyl-donor demand to choline availability, but dietary betaine has not been shown here to increase human brain acetylcholine synthesis.
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — Phosphatidylcholine is a major choline-containing membrane and dietary form. Its digestion can provide circulating choline, while its synthesis and membrane roles remain distinct from the ChAT reaction.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- None listed. This FM currently contains no second Primary Mechanism.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -166,10 +713,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.
-- **Key References:**
+- **Rationale:** Acetylcholine is the cholinergic transmitter used in attention and learning circuits  Johansson et al. (2013) [[3]](#pm-ref-3)  Derbyshire and Maes (2023) [[1]](#pm-ref-1). Receptor-binding differences in boys with ADHD and choline/neurodevelopment reviews supply translational context. They do not show that changing choline intake treats ADHD or raises brain acetylcholine.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#johansson_decreased_2013","label":"Johansson et al. (2013)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Study"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM6-F3","finding_label":"Cholinergic biology is translationally relevant to attention","finding_summary":"Acetylcholine-receptor and choline-status findings sit near attention biology in ADHD-related samples. That is translational context, not an ADHD treatment rule.","finding_interpretation":"Use these studies as attention-relevant cholinergic context. They do not show that choline supplementation treats ADHD.","finding_statement":"Human ADHD-related muscarinic-binding and choline-status evidence is translationally relevant to attention; it is not a demonstration that changing choline intake treats ADHD.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Lower muscarinic binding in boys with ADHD and choline-status discussion in a neurodevelopmental review together support a cholinergic context for attention. They do not isolate acetylcholine synthesis as a treatment target and they do not measure attention after a choline intervention designed to change synthesis.","synthesis_limitations":"Cross-sectional receptor binding and a narrative review. No choline intervention arm for ADHD or attention scores is attached.","evidence_considered":[{"label":"Johansson et al. (2013)","citation_key":"johansson_decreased_2013","href":"/docs/papers/BRAIN-Diet-References#johansson_decreased_2013","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Decreased muscarinic binding in boys with ADHD supplies attention-relevant cholinergic context, not a treatment effect.","assessment":{"study":"Same fibroblast binding comparison used in PM6-F1, reused here for the attention relationship.","population":"Boys with ADHD and comparison boys.","result":"Lower muscarinic binding in the ADHD group.","effect_magnitude":"Binding contrast only; no attention-score change after diet.","evidence_summary":"Anchors the attention relationship in human cholinergic biology.","limitations":"Not brain imaging of acetylcholine and not a dietary trial."},"canonical_reference":{"author_year":"Johansson et al. (2013)","number":3,"anchor":"#pm-ref-3"}},{"label":"Derbyshire and Maes (2023)","citation_key":"derbyshire_role_2023","href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Altered choline status is discussed in ADHD-related literature without proving choline treatment of ADHD.","assessment":{"study":"Same narrative review used in PM6-F1 and PM6-F2, reused here for phenome context.","population":"ADHD and other neurodevelopmental subgroups summarised in the review.","result":"Discussed choline as a possible modifiable neurodevelopmental factor.","effect_magnitude":"No ADHD treatment-effect estimate.","evidence_summary":"Supplies choline-status context for attention, not a dosing rule.","limitations":"Review synthesis; not a choline-for-ADHD trial."},"canonical_reference":{"author_year":"Derbyshire and Maes (2023)","number":1,"anchor":"#pm-ref-1"}}],"presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -189,276 +737,24 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Low
-- **Rationale:** Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)","dataLevel":"Human Study"}]} />
+- **Rationale:** Cholinergic signalling is a biological context for working-memory and cognitive precision  Derbyshire and Maes (2023) [[1]](#pm-ref-1)  Briguglio et al. (2018) [[2]](#pm-ref-2). The attached sources do not measure cognitive-clarity scores after a choline change aimed at acetylcholine synthesis.
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Choline ← eggs, liver, beef
-- Phosphatidylcholine ← eggs
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- B5
-- Vitamin B12 ← shellfish, sardines, eggs
-- Folate (B9) ← leafy greens, legumes, liver
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
-- Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Cholinergic signalling for attention, memory, and cognitive control depends on adequate acetylcholine synthesis capacity. Dietary choline provides the primary substrate for that pathway within [BRS1(FM2) - Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), with one-carbon cofactor context supporting efficient utilisation.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Choline supply and acetylcholine synthesis — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Choline as acetylcholine substrate)
-
-Acetylcholine synthesis depends on dietary choline supplied largely through phosphatidylcholine and free choline in the food matrix. Inadequate choline intake can limit substrate availability for cholinergic signalling even when overall protein intake appears adequate → [Derbyshire et al., 2023]
-
-#### (Acetylcholine synthesis and cholinergic signalling)
-
-Within cholinergic neurons, choline combines with acetyl-CoA through the enzyme choline acetyltransferase to form acetylcholine. Because acetylcholine synthesis depends directly on substrate availability, dietary choline provides the primary nutritional input into this pathway and helps maintain cholinergic signalling capacity relevant to attention, learning, memory, and cognitive control.
-
-#### (Cofactor and one-carbon context)
-
-Efficient choline utilisation interacts with B5, B12, and folate-dependent one-carbon metabolism. These cofactors support methylation reactions relevant to phospholipid and neurotransmitter chemistry rather than replacing dietary choline itself.
-
-#### (Boundaries of the mechanism)
-
-Amino-acid pool sufficiency and completeness are handled upstream by [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). Blood–brain barrier transport bias for aromatic and other amino acids belongs to [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Direct cholinergic receptor pharmacology and synaptic signalling dynamics are represented elsewhere within BRS1.
-
-#### (Integration within BRS1)
-
-This PM operationalises cholinergic substrate support within [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function). One-carbon cofactor sufficiency is supported through [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism) mechanisms listed in section 7.2.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The choline–acetylcholine substrate pathway is well established. The studies below highlight intake and food-matrix findings that refine how cholinergic substrate support is interpreted in practice.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Population choline intake adequacy</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Suboptimal choline intakes are reported in population surveys, reinforcing dietary choline as a substrate requiring deliberate food-pattern coverage rather than assumed adequacy [Derbyshire et al., 2023].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary choline in food-matrix neurobiology</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Dietary neurotransmitter reviews identify choline and acetylcholine among food-matrix compounds with nervous-system relevance, though bioavailability requires context-specific interpretation [Briguglio et al., 2018].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary choline as pattern-based substrate support</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Findings support dietary choline adequacy and meal-level exposure as modifiable substrate context rather than isolated precursor boluses [Derbyshire et al., 2023].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- None listed
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to acetylcholine synthesis support.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM6 Relevance |
-|---|---|---|
-| Functional Property Potentials | choline_rich_food_matrix; phosphatidylcholine_density; one_carbon_cofactor_context | May support acetylcholine substrate availability. |
-| Realised Functional States | choline_forward_meal; egg_or_liver_inclusive_meal | Represent recipe-level cholinergic substrate states. |
-| Preparation Transformations | minimally_processed_sources; gentle_cooking_of_choline_foods | May preserve choline and phospholipid matrix effects. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Derbyshire et al. (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-- [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
-- [Johansson et al. (2013) — Decreased Muscarinic Acetylcholine Receptor Binding in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
+
+- <span id="pm-ref-1">[1]</span> [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+- <span id="pm-ref-2">[2]</span> [Briguglio et al. (2018) — Dietary Neurotransmitters: A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
+- <span id="pm-ref-3">[3]</span> [Johansson et al. (2013) — Decreased Muscarinic Acetylcholine Receptor Binding in Boys with ADHD](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
+- <span id="pm-ref-4">[4]</span> [Oda (1999) — Choline Acetyltransferase Structure, Distribution and Pathologic Changes](/docs/papers/BRAIN-Diet-References#oda_choline_1999)
+- <span id="pm-ref-5">[5]</span> [Kennedy (2016) — B Vitamins and the Brain: Mechanisms, Dose and Efficacy](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- <span id="pm-ref-6">[6]</span> [Ojiakor and Rylett (2020) — High-Affinity Choline Transport Controls Acetylcholine Supply](/docs/papers/BRAIN-Diet-References#ojiakor_choline_transporter_2020)
+- <span id="pm-ref-7">[7]</span> [Böckmann et al. (2023) — Human Tracing of Dietary Choline Forms](/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023)
+- <span id="pm-ref-8">[8]</span> [Rivera-Calimlim et al. (1988) — Pantothenate Depletion and Brain Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#rivera_calimlim_pantothenic_1988)
+- <span id="pm-ref-9">[9]</span> [Chan et al. (2008) — Folate–SAM Constraint on Brain Choline and Acetylcholine](/docs/papers/BRAIN-Diet-References#chan_folate_acetylcholine_2008)
+- <span id="pm-ref-10">[10]</span> [Crivello et al. (2010) — Folate Deficiency Alters Regional Choline and Acetylcholine](/docs/papers/BRAIN-Diet-References#crivello_folate_choline_2010)
+- <span id="pm-ref-11">[11]</span> [Jadavji et al. (2014) — Methionine-Cycle Deficiency Disturbs Brain Choline Metabolism](/docs/papers/BRAIN-Diet-References#jadavji_mtrr_choline_2014)
+- <span id="pm-ref-12">[12]</span> [Jope (1979) — Choline Transport and Acetyl-CoA Production in Acetylcholine Synthesis](/docs/papers/BRAIN-Diet-References#jope_choline_acetylcoa_1979)
+- <span id="pm-ref-13">[13]</span> [Inazu (2019) — Choline Transporters at the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#inazu_choline_transporters_2019)
+- <span id="pm-ref-14">[14]</span> [Szutowicz et al. (2010) — Thiamine Deficiency, Nerve-Terminal Acetyl-CoA and Acetylcholine Release](/docs/papers/BRAIN-Diet-References#szutowicz_thiamine_acetylcoa_2010)

@@ -1,18 +1,11 @@
 /**
  * PM page section layout.
  *
- * The canonical PM reader journey is:
- *
  *   1 Mission & Overview → 2 Primary Biological Effects → 3 Levers →
- *   4 Mechanistic Basis (4.1 Scientific Findings) → 5 Phenome Connections →
- *   6 BRS Pathways and Connections → 7 Scoreable Inputs → 8 References
+ *   4 Mechanistic Basis (4.1 Scientific Findings) → 5 BRS Pathways and Connections →
+ *   7 Phenome Connections → 8 References
  *
- * Most PM pages still carry the legacy order, in which Phenome Connections is
- * §3, Levers §4 and Mechanistic Basis §5. Both layouts are valid while the
- * repository migrates, so generators and validators must derive section numbers
- * from the page rather than hard-coding them.
- *
- * Only §3, §4 and §5 differ between the two layouts; §1, §2 and §6–§8 are fixed.
+ * §6 is unused (Scoreable Inputs removed). Phenome Connections is always §7.
  *
  * @see system/primary-mechanism-schema.md
  */
@@ -122,32 +115,46 @@ export function firstMatchingPanel(content, titles, extractors) {
   return "";
 }
 
-const NUMBERS = {
-  [PM_LAYOUT_CANONICAL]: { levers: 3, mechanisticBasis: 4, phenome: 5 },
-  [PM_LAYOUT_LEGACY]: { phenome: 3, levers: 4, mechanisticBasis: 5 },
-};
+const PM_DEFAULTS = Object.freeze({
+  levers: 3,
+  mechanisticBasis: 4,
+  pathways: 5,
+  phenome: 7,
+  references: 8,
+});
 
-/** Canonical layout is identified by Levers at §3. */
-export function detectPmLayout(content) {
-  return /^##\s+3\.\s+Levers\s*$/m.test(String(content || ""))
-    ? PM_LAYOUT_CANONICAL
-    : PM_LAYOUT_LEGACY;
+/** All current PMs use Levers at §3. Kept so existing callers do not break. */
+export function detectPmLayout(_content) {
+  return PM_LAYOUT_CANONICAL;
+}
+
+function headingNumber(content, titlePattern) {
+  const match = String(content || "").match(new RegExp(`^##\\s+(\\d+)\\.\\s+${titlePattern}\\s*$`, "m"));
+  return match ? parseInt(match[1], 10) : null;
 }
 
 /**
- * Section numbers for a PM page.
- * @returns {{layout: string, levers: number, mechanisticBasis: number, phenome: number, findingsSection: string}}
+ * Section numbers for a PM or SM page, read from the published headings.
+ * PM default: Phenome §7, References §8. SM pages still use Phenome §3 / Pathways §6.
  */
 export function pmSectionNumbers(content) {
-  const layout = detectPmLayout(content);
-  const n = NUMBERS[layout];
-  return { layout, ...n, findingsSection: `${n.mechanisticBasis}.1` };
+  const levers = headingNumber(content, "Levers") ?? PM_DEFAULTS.levers;
+  const mechanisticBasis = headingNumber(content, "Mechanistic Basis(?: \\([^)]+\\))?") ?? PM_DEFAULTS.mechanisticBasis;
+  const pathways = headingNumber(content, "BRS Pathways and Connections") ?? PM_DEFAULTS.pathways;
+  const phenome = headingNumber(content, "Phenome Connections") ?? PM_DEFAULTS.phenome;
+  const references = headingNumber(content, "References") ?? PM_DEFAULTS.references;
+  return {
+    layout: PM_LAYOUT_CANONICAL,
+    levers,
+    mechanisticBasis,
+    pathways,
+    phenome,
+    references,
+    findingsSection: `${mechanisticBasis}.1`,
+  };
 }
 
-/** Expected `## N. Title` order for the detected layout, excluding trailing sections. */
-export function expectedPmCoreOrder(layout, { phenomeTitle, primaryEffectsTitle }) {
-  if (layout === PM_LAYOUT_CANONICAL) {
-    return [null, primaryEffectsTitle, "Levers", "Mechanistic Basis", phenomeTitle];
-  }
-  return [null, primaryEffectsTitle, phenomeTitle, "Levers", "Mechanistic Basis"];
+/** Expected `## N. Title` order for core sections before Pathways / Phenome. */
+export function expectedPmCoreOrder(_layout, { phenomeTitle, primaryEffectsTitle }) {
+  return [null, primaryEffectsTitle, "Levers", "Mechanistic Basis", "BRS Pathways and Connections", phenomeTitle];
 }

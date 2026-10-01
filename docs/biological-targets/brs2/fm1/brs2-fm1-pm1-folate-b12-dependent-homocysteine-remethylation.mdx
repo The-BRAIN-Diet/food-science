@@ -1,55 +1,28 @@
 ---
 title: Folate/B12-Dependent Homocysteine Remethylation
 pm_id: BRS2-FM1-PM1
-mission: >-
-  Recycle homocysteine to methionine through folate and B12 so methyl-donor
-  supply and homocysteine control stay supported.
+mission: Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: >-
-  Converts homocysteine back into methionine through folate- and vitamin
-  B12-dependent remethylation (the primary dietary-actionable route for
-  recycling this sulfur amino acid). This pathway sustains the methyl-donor
-  supply that downstream SAMe synthesis and methylation reactions depend on,
-  while limiting the oxidative and inflammatory burden associated with
-  homocysteine accumulation. Folate and B12 status therefore set a rate-limiting
-  ceiling on one-carbon metabolism across brain and body chemistry.
-key_constraints:
-  - BRS2(KC1) - One-Carbon Donor Pool
+summary: 'Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate, with methylcobalamin as the vitamin B12 cofactor. Regenerated methionine can later be used to form SAMe, but that conversion is a separate reaction. Folic acid and vitamin B12 can lower blood homocysteine, a circulating marker rather than tissue remethylation flux. Betaine-dependent remethylation and transsulfuration are neighbouring routes.'
+evidence_status: stage-2b-dietary-addressability
 cofactors:
-  - B2
+  - Methylcobalamin
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: Requires folate + B12 sufficiency
+dose_sensitivity: 5-Methyltetrahydrofolate and methylcobalamin are reaction requirements. No human tissue-flux dose-response is established.
 references:
-  - >-
-    [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based
-    Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-  - >-
-    [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human
-    Physiology and
-    Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-  - >-
-    [Tao Huang et al. (2015) — A Randomized Controlled
-    Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-  - >-
-    [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of
-    Cognitive Decline by
-    B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-  - >-
-    [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric
-    ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-  - >-
-    [Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention
-    Deficit
-    Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-  - >-
-    [Wang et al. (2019) — Path Analysis for a Case-Control
-    Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-  - >-
-    [Meng et al. (2022) — A
-    Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)
+  - '[Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)'
+  - '[Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)'
+  - '[Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)'
+  - '[Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)'
+  - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
+  - '[Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)'
+  - '[Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)'
+  - '[Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)'
+  - '[Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)'
+  - '[García-Minguillán et al. (2014) — Riboflavin Status, MTHFR, MTRR and Homocysteine](/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -57,15 +30,11 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: >-
-      Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts
-      support remethylation strain as a translational context for
-      attention-relevant one-carbon biology; unhealthy dietary patterns linked
-      to lower B vitamins and ADHD burden reinforce pattern-based
-      interpretation. Biology → Phenome Confidence reflects pathway centrality
-      to methylation-dependent neurodevelopment — not dietary treatment
-      efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation
-      remain limited (biology > evidence gap).
+    rationale: 'Children with ADHD have been reported to have lower folate and vitamin B12 than comparison groups, and one cohort of boys also had higher homocysteine {{cite:razavinia_vitamins_2024,lukovac_serum_2024,wang_dietary_2019}}. Those are observational blood and diet differences. They do not show that methionine synthase activity is lower, and they do not show that folate or vitamin B12 supplementation improves attention. An MTHFR polymorphism meta-analysis concerns a folate-cycle enzyme upstream of this reaction, not methionine synthase flux {{cite:meng_association_2022}}.'
+    scientific_findings:
+      - PM1-F1
+      - PM1-IC1
+      - PM1-F3
     references:
       - index: 1
         label: Razavinia et al. (2024)
@@ -89,14 +58,11 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low
-    rationale: >-
-      Homocysteine lowering with folate and B12 cofactor combinations and
-      B-vitamin cognitive effects contingent on omega-3 status (VITACOG
-      reanalysis) support a nutrient-network read linking remethylation to
-      cognitive clarity context. Framework translation from one-carbon
-      biochemistry — attached refs establish homocysteine modulation and
-      cognitive-decline interaction more than direct ADHD cognitive-clarity
-      outcomes (biology > evidence gap).
+    rationale: 'Folic acid, with or without vitamin B12, lowers blood homocysteine {{cite:collaboration_lowering_1998}}. In older adults with mild cognitive impairment, B-vitamin treatment was associated with slower cognitive decline only when omega-3 status was higher {{cite:oulhaj_omega-3_2016}}. Blood homocysteine and that combined B-vitamin interaction do not measure methionine synthase flux, and they do not establish that this reaction itself changes cognitive clarity.'
+    scientific_findings:
+      - PM1-F1
+      - PM1-IC1
+      - PM1-F4
     references:
       - index: 1
         label: Collaboration (1998)
@@ -110,6 +76,319 @@ phenome_relationships:
         label: Lukovac et al. (2024)
         citation_key: lukovac_serum_2024
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    input: 5-Methyltetrahydrofolate
+    input_type: substrate
+    biological_role: Methyl-group donor substrate for methionine synthase. The enzyme transfers that methyl group to homocysteine and releases tetrahydrofolate.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: Necessity of 5-methyltetrahydrofolate does not show that raising its intake increases tissue methionine-synthase flux.
+  - atom_id: PM1-DIT-2
+    input: Folate
+    input_type: substrate provision
+    biological_role: 'Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.'
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: 'This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.'
+  - atom_id: PM1-DIT-3
+    input: Methylcobalamin
+    input_type: cofactor
+    biological_role: Cobalamin cofactor that carries the methyl group from 5-methyltetrahydrofolate to homocysteine during methionine synthase turnover.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: Cofactor necessity does not show that extra vitamin B12 increases tissue methionine-synthase flux when stores are already adequate.
+  - atom_id: PM1-DIT-4
+    input: Vitamin B12
+    input_type: cofactor precursor
+    biological_role: Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: 'Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker.'
+  - atom_id: PM1-DIT-5
+    input: Homocysteine
+    input_type: substrate
+    biological_role: Sulfur-amino-acid substrate that methionine synthase remethylates to methionine.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    evidence_limitation: 'Homocysteine is produced inside the methionine cycle. It is not a dietary requirement of this reaction, and methionine, the product, is not a dietary input for it.'
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: 5-Methyltetrahydrofolate is the direct methyl-donor substrate for methionine synthase. This does not establish that increasing intake increases tissue remethylation flux.
+    evidence_limitation: Necessity of 5-methyltetrahydrofolate does not show that raising its intake increases tissue methionine-synthase flux.
+  - atom_id: PM1-DIT-2
+    requirement_classification: derived
+    derived_target: 5-Methyltetrahydrofolate
+    derived_target_atom_id: PM1-DIT-1
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: Folate provides 5-methyltetrahydrofolate after reduction and folate-cycle conversion. This provision relationship does not establish that more folate increases tissue methionine-synthase flux.
+    evidence_limitation: 'This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.'
+  - atom_id: PM1-DIT-3
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Methylcobalamin is the cobalamin cofactor of methionine synthase. Diet supplies cobalamin forms that are processed to this cofactor; methylcobalamin itself is not an independent intake target.
+    evidence_limitation: Cofactor necessity does not show that extra vitamin B12 increases tissue methionine-synthase flux when stores are already adequate.
+  - atom_id: PM1-DIT-4
+    requirement_classification: derived
+    derived_target: Methylcobalamin
+    derived_target_atom_id: PM1-DIT-3
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: Vitamin B12 provides the cobalamin that cells process to methylcobalamin. This does not establish that increasing vitamin B12 intake increases tissue remethylation flux.
+    evidence_limitation: 'Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker.'
+  - atom_id: PM1-DIT-5
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Homocysteine is the substrate methionine synthase remethylates. It is generated in the methionine cycle and is not a dietary requirement of this reaction.
+    evidence_limitation: 'Homocysteine is produced inside the methionine cycle. It is not a dietary requirement of this reaction, and methionine, the product, is not a dietary input for it.'
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: 5-Methyltetrahydrofolate
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-2
+    label: Folate
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-3
+    label: Methylcobalamin
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-4
+    label: Vitamin B12
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-5
+    label: Homocysteine
+    presentation_section: 3.1.2
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: methyl-donor-pool-inadequacy
+    disposition: unresolved
+    established_links:
+      - '5-Methyltetrahydrofolate, produced from folate by methylenetetrahydrofolate reductase, is an obligatory substrate of methionine synthase.'
+      - 'Folic acid supplementation lowers blood homocysteine, with a larger reduction when pretreatment folate is lower.'
+    inferred_links:
+      - 'Inadequacy of the named methyl-donor pool, including choline and betaine, limits tissue methionine-synthase capacity.'
+      - A fall in blood homocysteine is a fall in tissue remethylation flux.
+scientific_findings_intro: 'Methionine synthase moves a methyl group from 5-methyltetrahydrofolate onto homocysteine, making methionine and freeing tetrahydrofolate. Methylcobalamin, formed from vitamin B12, carries that methyl group. Riboflavin supports the earlier folate-cycle enzyme and the separate repair enzyme, not this cofactor site. A fall in blood homocysteine is a change in a circulating marker, not a direct measure of how fast the reaction runs in tissues.'
+scientific_findings:
+  - id: PM1-F1
+    finding_label: Methionine synthase remethylates homocysteine
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.'
+    finding_interpretation: 'This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.'
+    finding_statement: 'Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.'
+    synthesis_limitations: 'The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.'
+    evidence_considered:
+      - label: Froese et al. (2019)
+        citation_key: froese_vitamin_2019
+        href: /docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.'
+        assessment:
+          study: 'Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.'
+          population: No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.
+          result: 'Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.'
+          effect_magnitude: No new numeric effect size. The result is reaction identity and pathway separation.
+          evidence_summary: 'Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.'
+          limitations: 'A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome.'
+    connected_supportive_evidence:
+      - label: Aragão et al. (2024)
+        citation_key: aragao_revitalising_2024
+        href: /docs/papers/BRAIN-Diet-References#aragao_revitalising_2024
+        data_level: Mechanistic
+        why_relevant: 'Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.'
+        why_excluded: 'Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation.'
+  - id: PM1-F2
+    finding_label: Riboflavin is not the synthase cofactor
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Riboflavin supplies the flavin cofactor of methylenetetrahydrofolate reductase, which makes 5-methyltetrahydrofolate, and of methionine synthase reductase, which repairs inactive cobalamin. Methionine synthase itself uses methylcobalamin.'
+    finding_interpretation: Riboflavin can matter upstream of the substrate and in enzyme repair. It is not a cofactor bound at the methionine synthase catalytic site.
+    finding_statement: 'Flavin adenine dinucleotide derived from riboflavin is a cofactor of methylenetetrahydrofolate reductase and of methionine synthase reductase, not of the methionine synthase catalytic site, which uses methylcobalamin.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The human-pathway review assigns methylcobalamin, not a flavin, to methionine synthase, and places methylenetetrahydrofolate reductase upstream as the source of 5-methyltetrahydrofolate. An adult cross-sectional study states the same split: methylenetetrahydrofolate reductase uses FAD, methionine synthase reductase binds flavin mononucleotide and FAD, and methionine synthase uses methylcobalamin. In that study, riboflavin status modified the association of an MTHFR variant with blood homocysteine. That is a circulating-marker interaction at the upstream enzyme, not evidence that riboflavin occupies the synthase cofactor site.'
+    synthesis_limitations: 'The flavin assignment for the two neighbouring enzymes is stated in the study introduction from prior enzymology, and the new data are genotype associations with blood homocysteine. Neither source shows that dietary riboflavin changes tissue methionine-synthase flux.'
+    evidence_considered:
+      - label: García-Minguillán et al. (2014)
+        citation_key: garcia_minguillan_riboflavin_2014
+        href: /docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014
+        data_level: Human Study
+        exposure_context: dietary
+        evidence_source: bounded-external-search
+        directional_finding: 'Riboflavin status modified MTHFR-linked differences in blood homocysteine. The synthase cofactor named in the paper is methylcobalamin, while FAD is assigned to MTHFR and to MTRR.'
+        assessment:
+          study: 'Cross-sectional analysis of whether fasting plasma total homocysteine associations with MTHFR 677C>T, MTRR 66A>G and MTRR 524C>T depend on riboflavin status, measured by the erythrocyte glutathione reductase activation coefficient.'
+          population: '771 adults aged 18–75 years in Tarragona province, Spain, excluding B-vitamin users and pregnant or lactating women. Recruitment was in 1998–2002, before mandatory folic acid fortification of flour in that setting.'
+          result: 'The paper states that FAD is a cofactor of MTHFR, that MTRR binds flavin mononucleotide and FAD, and that methionine synthase uses methylcobalamin and is reactivated by MTRR. Among MTHFR 677T carriers with plasma folate below 14.7 nmol/L, blood homocysteine was 8.2% higher than in the 677CC genotype, and that difference was not seen when riboflavin status was optimal (interaction p = 0.048).'
+          effect_magnitude: '8.2% higher blood homocysteine in the specified MTHFR contrast (p < 0.01), eliminated at optimal riboflavin status (interaction p = 0.048). No methionine-synthase activity or tissue-flux estimate is reported.'
+          evidence_summary: 'Separates the riboflavin-dependent enzymes (MTHFR and MTRR) from the methylcobalamin cofactor of methionine synthase, and shows a riboflavin-status interaction with an MTHFR variant on blood homocysteine.'
+          limitations: 'Observational genotype analysis. The endpoint is plasma homocysteine, not enzyme rate. Optimal riboflavin status did not identify riboflavin as a prosthetic group of methionine synthase.'
+    connected_supportive_evidence:
+      - label: Froese et al. (2019)
+        citation_key: froese_vitamin_2019
+        href: /docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+        data_level: Mechanistic
+        why_relevant: States that methionine synthase requires methylcobalamin and that methylenetetrahydrofolate reductase produces its folate substrate.
+        why_excluded: 'It does not itself test riboflavin status or assign FAD to MTHFR or MTRR, so it is not the study that adjudicates the riboflavin split.'
+  - id: PM1-IC1
+    finding_label: Plasma homocysteine is not remethylation flux
+    presentation: interpretive-constraint
+    finding_summary: 'Folic acid lowers blood homocysteine, and vitamin B12 adds a further reduction. That change is in a circulating marker. It does not measure how fast methionine synthase runs in tissues.'
+    finding_interpretation: 'Blood homocysteine can move when folate or vitamin B12 status changes. It still cannot be read as tissue remethylation rate, methylation output, or a clinical benefit.'
+    finding_statement: A reduction in blood homocysteine after folic acid or vitamin B12 does not measure tissue methionine-synthase flux.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Individual data from 12 randomised trials show that folic acid lowers blood homocysteine, with a larger effect at higher starting homocysteine and lower starting folate, and that vitamin B12 produces a further reduction while vitamin B6 does not. The measured endpoint is blood homocysteine concentration. A separate small trial also lowered plasma homocysteine with vitamin B12, fish oil, or both, which mixes this marker with a fatty-acid exposure that is not a synthase substrate.'
+    synthesis_limitations: 'Standardised percentage reductions describe blood concentration after supplements, often at doses above ordinary food intake. They do not report tissue methionine appearance, SAMe production, or a clinical outcome. Fish oil co-administration shows that the marker can move for reasons outside this reaction.'
+    evidence_considered:
+      - label: Collaboration (1998)
+        citation_key: collaboration_lowering_1998
+        href: /docs/papers/BRAIN-Diet-References#collaboration_lowering_1998
+        data_level: Human Mechanistic
+        exposure_context: supplemental-formulation
+        evidence_source: repository-inherited
+        directional_finding: 'Folic acid lowered blood homocysteine, vitamin B12 added a further reduction, and vitamin B6 did not. The endpoint was blood concentration, not tissue enzyme flux.'
+        assessment:
+          study: 'Meta-analysis of randomised trials of folic-acid-based supplements, using individual data and multivariate regression to separate folic acid dose from added vitamin B12 or vitamin B6.'
+          population: '1114 people in 12 trials. Results were standardised to pretreatment blood homocysteine of 12 µmol/L and blood folate of 12 nmol/L, described as approximate Western-population averages.'
+          result: 'After that standardisation, dietary folic acid reduced blood homocysteine by 25% (95% confidence interval 23% to 28%). Effects were similar from 0.5 to 5 mg folic acid daily. Vitamin B12 (mean 0.5 mg daily) produced an additional 7% reduction (3% to 10%). Vitamin B6 (mean 16.5 mg daily) had no significant additional effect. Reductions were larger at higher pretreatment homocysteine and lower pretreatment folate.'
+          effect_magnitude: 25% (23% to 28%) blood homocysteine reduction with folic acid; additional 7% (3% to 10%) with vitamin B12; no significant added effect of vitamin B6.
+          evidence_summary: 'Direct human evidence that folic acid and vitamin B12 lower a circulating homocysteine marker, with the folate effect depending on starting folate and homocysteine.'
+          limitations: 'Supplement doses, blood concentration only, no tissue remethylation-flux measurement, and no clinical-outcome test in this meta-analysis.'
+    connected_supportive_evidence:
+      - label: Tao Huang et al. (2015)
+        citation_key: tao_huang_effect_2015
+        href: /docs/papers/BRAIN-Diet-References#tao_huang_effect_2015
+        data_level: Human Mechanistic
+        why_relevant: A randomised comparison also reported lower plasma homocysteine after vitamin B12.
+        why_excluded: 'Thirty-eight participants were assigned to vitamin B12, fish oil, or both, and plasma homocysteine fell by 22%, 19% and 39%. Fish oil is not a methionine-synthase substrate, and plasma homocysteine is still not tissue flux.'
+  - id: PM1-F3
+    finding_label: Attention studies do not test this reaction
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+    finding_summary: 'Studies in children with ADHD report lower folate or vitamin B12, and sometimes higher homocysteine, than comparison groups. They do not measure methionine synthase activity or test whether changing it improves attention.'
+    finding_interpretation: 'These associations are a ceiling on the attention relationship. They are not evidence that this reaction is impaired, and they are not a treatment result.'
+    finding_statement: Attached ADHD biomarker and MTHFR-genotype studies do not establish that folate- and B12-dependent methionine synthase activity modulates Focus / Attention Stability.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A meta-analysis of observational studies found lower vitamin B9 and vitamin B12 in children with ADHD than in comparison children. A case-control study of boys found higher homocysteine and lower vitamin B12. A Taiwanese case-control study found lower serum folate and vitamin B12 together with a less favourable dietary pattern. A polymorphism meta-analysis linked an MTHFR variant to ADHD occurrence. None of these studies assayed methionine synthase, traced tissue remethylation, or tested folate or vitamin B12 as an attention treatment.'
+    synthesis_limitations: 'This is a bounded reading of the studies already attached to the attention relationship. It does not prove that no attention relationship exists. Heterogeneity is high in the vitamin meta-analysis, and the genotype paper concerns MTHFR, which is upstream of this reaction.'
+    evidence_considered:
+      - label: Razavinia et al. (2024)
+        citation_key: razavinia_vitamins_2024
+        href: /docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024
+        data_level: Human Study
+        exposure_context: dietary
+        evidence_source: repository-inherited
+        directional_finding: Children with ADHD had lower vitamin B9 and vitamin B12 than comparison children. Methionine synthase activity was not measured.
+        assessment:
+          study: 'Systematic review and meta-analysis of case-control or cross-sectional studies of plasma vitamins B9 and B12 in children with ADHD, searched through June 2023.'
+          population: 'Six studies, 982 children aged about 6–12 years (204 girls and 744 boys; mean age 8.86 ± 2.03 years).'
+          result: 'Vitamin B9 differed between children with and without ADHD (standardised mean difference −0.80, 95% confidence interval −1.55 to −0.04). Vitamin B12 was lower in ADHD (standardised mean difference −0.29, 95% confidence interval −0.42 to −0.16). After sensitivity analysis the B12 difference remained (standardised mean difference −0.19, 95% confidence interval −0.34 to −0.04).'
+          effect_magnitude: 'Vitamin B9 standardised mean difference −0.80 (−1.55 to −0.04). Vitamin B12 standardised mean difference −0.29 (−0.42 to −0.16), and −0.19 (−0.34 to −0.04) after sensitivity analysis. Heterogeneity for the B12 analysis was I² = 93% before that sensitivity analysis, then 21%.'
+          evidence_summary: 'Observational evidence of lower circulating folate and vitamin B12 in children with ADHD, without an enzyme or treatment measurement.'
+          limitations: 'Blood levels only, high heterogeneity before sensitivity analysis, no methionine-synthase assay and no supplementation outcome.'
+      - label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: 'Boys with ADHD had higher homocysteine and lower vitamin B12 than age-matched boys. This was a diagnostic-marker comparison, not a synthase-flux or treatment study.'
+        assessment:
+          study: 'Cross-sectional serum comparison of homocysteine, vitamin B12, vitamin D, ferritin and iron, with behavioural and cognitive assessments.'
+          population: '133 boys aged 6.5–12.5 years, 67 with DSM-V ADHD and 66 age-matched boys without ADHD.'
+          result: Homocysteine was higher and vitamin B12 was lower in the ADHD group. Multiple logistic regression identified homocysteine as a potential prognostic indicator for ADHD.
+          effect_magnitude: 'The abstract reports statistically significant differences and does not give means, confidence intervals, or an enzyme-activity effect.'
+          evidence_summary: A single-sex paediatric case-control difference in two blood markers associated with one-carbon metabolism.
+          limitations: 'Boys only, no folate measurement in the reported panel, no methionine-synthase assay, and no intervention. A prognostic association is not a causal test of this reaction.'
+      - label: Wang et al. (2019)
+        citation_key: wang_dietary_2019
+        href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
+        data_level: Human Study
+        exposure_context: dietary
+        evidence_source: repository-inherited
+        directional_finding: 'Children with ADHD had lower serum folate and vitamin B12 and a dietary pattern poorer in vegetables, fruit and protein-rich foods. The path model links diet, nutrient markers and ADHD; it does not measure methionine synthase.'
+        assessment:
+          study: 'Case-control study of food-frequency intake and fasting nutritional biochemistry, with a structural equation model linking diet, markers and ADHD.'
+          population: '216 children with ADHD and 216 age-, height- and sex-matched controls from 31 elementary schools in Taiwan.'
+          result: 'Compared with controls, children with ADHD had lower serum vitamin B12, folate, vitamin B6, ferritin and monounsaturated fatty acids, and higher saturated fatty acids, n-6/n-3 ratio and inorganic phosphorus. They reported more nutrient-poor, high-sugar and high-fat foods and less vegetable, fruit and protein-rich food. The model treated poor nutritional biochemistry as a link between unhealthy diet and ADHD.'
+          effect_magnitude: 'The abstract reports significant group differences and does not give mean differences for folate or vitamin B12, or any synthase-flux estimate.'
+          evidence_summary: 'Human observational evidence that diet pattern and several blood nutrients, including folate and vitamin B12, differ by ADHD status.'
+          limitations: 'Cross-sectional path analysis cannot show that methionine synthase activity changed, or that correcting folate or vitamin B12 improves attention. Several non-B-vitamin markers differed as well.'
+      - label: Meng et al. (2022)
+        citation_key: meng_association_2022
+        href: /docs/papers/BRAIN-Diet-References#meng_association_2022
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: An MTHFR 1298A>C meta-analysis was associated with ADHD occurrence. The paper does not measure methionine synthase.
+        assessment:
+          study: 'Random-effects meta-analysis of case-control studies of MTHFR 677C>T and 1298A>C in ADHD, bipolar disorder and schizophrenia.'
+          population: 'Five ADHD studies (434 cases and 670 controls), plus separate bipolar and schizophrenia study sets. Cases and controls were defined by the included psychiatric studies, not by a shared remethylation assay.'
+          result: MTHFR 677C>T was associated with bipolar disorder and schizophrenia. MTHFR 1298A>C was related to ADHD and bipolar disorder. Sensitivity analyses were described as stable. No methionine-synthase genotype or enzyme activity was analysed.
+          effect_magnitude: 'Associations were summarised as odds ratios. The abstract does not give the ADHD odds ratio, and it reports no remethylation-flux effect.'
+          evidence_summary: 'Genetic association of an upstream folate-cycle enzyme variant with ADHD occurrence, not a test of methionine synthase capacity.'
+          limitations: 'MTHFR is upstream of 5-methyltetrahydrofolate supply. Genotype association does not establish enzyme flux, dietary response, or an attention benefit from folate or vitamin B12.'
+  - id: PM1-F4
+    finding_label: Cognitive effects are not synthase flux
+    presentation: phenome-relationship
+    primary_phenome: Cognitive Clarity
+    finding_summary: 'In older adults with mild cognitive impairment, B vitamins were associated with slower cognitive decline only when omega-3 status was higher. That interaction does not measure methionine synthase flux.'
+    finding_interpretation: 'A conditional cognitive signal in mild cognitive impairment is not evidence that this reaction modulates cognitive clarity, and it is not an attention-treatment result.'
+    finding_statement: 'B-vitamin effects on cognitive decline in mild cognitive impairment, including an interaction with omega-3 status, do not measure methionine synthase flux or establish that this reaction modulates Cognitive Clarity.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Re-analysis of a two-year trial in mild cognitive impairment found better cognitive and clinical scores with B vitamins as baseline omega-3 status rose, and no B-vitamin effect on cognitive decline when omega-3 status was low. The intervention combined folic acid, vitamin B6 and vitamin B12. Blood homocysteine lowering by folic acid and vitamin B12 is a separate circulating-marker result. Neither dataset isolates methionine synthase activity from other B-vitamin actions or from omega-3-dependent membrane biology.'
+    synthesis_limitations: 'One re-analysis in adults aged 70 years and older with mild cognitive impairment, using a three-vitamin intervention. It does not test children, attention outcomes, or tissue remethylation rate. The omega-3 interaction places part of the signal outside this reaction.'
+    evidence_considered:
+      - label: Oulhaj et al. (2016)
+        citation_key: oulhaj_omega-3_2016
+        href: /docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016
+        data_level: Human Outcome
+        exposure_context: combination-formulation
+        evidence_source: repository-inherited
+        directional_finding: B vitamins slowed cognitive decline in mild cognitive impairment only when baseline omega-3 status was higher. Methionine synthase flux was not measured.
+        assessment:
+          study: Re-analysis of the VITACOG randomised trial testing whether baseline plasma omega-3 status interacted with B-vitamin treatment on cognitive and clinical scores.
+          population: '266 participants with mild cognitive impairment, aged 70 years or older, randomised to folic acid plus vitamins B6 and B12, or placebo, for 2 years.'
+          result: 'Final verbal delayed recall, global cognition and clinical dementia rating improved in the B-vitamin group as baseline omega-3 concentration increased, with little relation to omega-3 status in the placebo group. Among participants with good omega-3 status, 33% on B vitamins had a global clinical dementia rating above 0, compared with 59% on placebo. Docosahexaenoic acid, more than eicosapentaenoic acid, carried the interaction. When omega-3 status was low, B vitamins had no effect on cognitive decline.'
+          effect_magnitude: 33% versus 59% with global clinical dementia rating above 0 in the good omega-3 stratum. No methionine-synthase activity or tissue-flux estimate is reported.
+          evidence_summary: Human outcome evidence that a combined B-vitamin intervention interacts with omega-3 status on cognitive decline in mild cognitive impairment.
+          limitations: 'Not a test of methionine synthase alone. Vitamin B6, which acts in transsulfuration rather than this reaction, was part of the intervention. The result is conditional on omega-3 status and does not establish a general cognitive-clarity benefit.'
+    connected_supportive_evidence:
+      - label: Collaboration (1998)
+        citation_key: collaboration_lowering_1998
+        href: /docs/papers/BRAIN-Diet-References#collaboration_lowering_1998
+        data_level: Human Mechanistic
+        why_relevant: 'Shows that folic acid and vitamin B12 lower blood homocysteine, the marker often used to interpret B-vitamin cognitive trials.'
+        why_excluded: 'The meta-analysis measured blood homocysteine, not cognitive clarity and not tissue methionine-synthase flux. That marker limit is assessed in PM1-IC1.'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -123,24 +402,200 @@ phenome_relationships:
 
 (Recycling Homocysteine With Folate & B12)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.
 
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- 5-Methyltetrahydrofolate
+- Folate
+- Methylcobalamin
+- Vitamin B12
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Homocysteine
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Converts homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary dietary-actionable route for recycling this sulfur amino acid). This pathway sustains the methyl-donor supply that downstream SAMe synthesis and methylation reactions depend on, while limiting the oxidative and inflammatory burden associated with homocysteine accumulation. Folate and B12 status therefore set a rate-limiting ceiling on one-carbon metabolism across brain and body chemistry.
+Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate, with methylcobalamin as the vitamin B12 cofactor [Froese et al. (2019) [[9]](#pm-ref-9)]. Regenerated methionine can later be used to form SAMe, but that conversion is a separate reaction. Folic acid and vitamin B12 can lower blood homocysteine, a circulating marker rather than tissue remethylation flux [Collaboration (1998) [[1]](#pm-ref-1)]. Betaine-dependent remethylation and transsulfuration are neighbouring routes.
 
-* Recycles homocysteine into methionine, the primary folate/B12-dependent route.
-* Sustains methyl-donor supply for downstream SAMe synthesis.
-* Limits oxidative and inflammatory burden linked to homocysteine build-up.
+* **Mechanism boundary:** Includes only the folate- and B12-dependent methionine synthase reaction; betaine remethylation, SAMe synthesis, later methyl-transfer reactions and transsulfuration are separate [Froese et al. (2019) [[9]](#pm-ref-9)].
+* **Evidence boundary:** Blood homocysteine lowering shows a change in a circulating marker, not tissue methionine-synthase flux or methylation output [Collaboration (1998) [[1]](#pm-ref-1)].
+* **Biological relevance:** Recycling homocysteine replenishes methionine used before SAMe formation [Froese et al. (2019) [[9]](#pm-ref-9)], but that role does not show that folate or vitamin B12 supplementation treats attention or cognitive outcomes.
 
 ## 2. Primary Biological Effects
 ↓ homocysteine; ↑ methionine regeneration
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+
+- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
+- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
+- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Maintaining a usable methionine supply depends on recycling homocysteine through the folate- and B12-dependent route. That reaction feeds methionine toward later SAMe formation, but it is not itself SAMe synthesis, betaine remethylation, or homocysteine disposal.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Folate/B12-dependent homocysteine remethylation — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Methionine synthase reaction)
+
+Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate (a reduced folate carrying one methyl group) to homocysteine. The products are methionine and tetrahydrofolate. The methyl group is carried by methylcobalamin, the active vitamin B12 cofactor on the enzyme [Froese et al. (2019) [[9]](#pm-ref-9)].
+
+Dietary folate, including folic acid after reduction by dihydrofolate reductase, can be converted to that 5-methyltetrahydrofolate substrate. Dietary vitamin B12 is absorbed and processed to methylcobalamin on the enzyme. Those are provision routes, not evidence that a higher intake speeds the reaction in tissues [Froese et al. (2019) [[9]](#pm-ref-9)].
+
+#### (Riboflavin sits beside the reaction)
+
+Riboflavin is the precursor of flavin adenine dinucleotide. That flavin is a cofactor of methylenetetrahydrofolate reductase, the enzyme that makes 5-methyltetrahydrofolate, and of methionine synthase reductase, which repairs inactive cobalamin. It is not the cofactor in the synthase active site. That site uses methylcobalamin [García-Minguillán et al. (2014) [[10]](#pm-ref-10)].
+
+In adults, riboflavin status changed how an upstream reductase variant related to blood homocysteine. That interaction does not place riboflavin on methionine synthase itself [García-Minguillán et al. (2014) [[10]](#pm-ref-10)].
+
+#### (Blood homocysteine is not the reaction rate)
+
+Folic acid lowers blood homocysteine, and vitamin B12 lowers it further. Vitamin B6, which serves a different disposal route, did not add a clear further reduction in the same pooled trials [Collaboration (1998) [[1]](#pm-ref-1)]. Blood homocysteine is a circulating marker. A lower value does not measure how fast this reaction runs in a tissue.
+
+#### (Boundaries of the mechanism)
+
+This reaction is folate- and B12-dependent remethylation only.
+
+The parallel betaine route, which also makes methionine but does not use 5-methyltetrahydrofolate or vitamin B12, belongs to [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). Conversion of methionine to SAMe belongs to [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Integrated cycle throughput belongs to [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+Homocysteine disposal through transsulfuration belongs to [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway). SAMe-dependent phospholipid methylation belongs to [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation). Later incorporation of DHA into neuronal membranes belongs to [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation).
+
+B-vitamin effects on cognitive decline can depend on omega-3 status, but that interaction is a later, combined outcome, not a measurement of this reaction [Oulhaj et al. (2016) [[4]](#pm-ref-4)].
+
+#### (Integration within methylation-cycle efficiency)
+
+Within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), this is the folate- and B12-dependent way to return homocysteine to methionine. The betaine route is parallel. SAMe formation uses the methionine product later. Folate supply explains where 5-methyltetrahydrofolate comes from. It does not, by itself, show that the wider set of methyl donors limits the tissue rate of this reaction.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Methionine synthase moves a methyl group from 5-methyltetrahydrofolate onto homocysteine, making methionine and freeing tetrahydrofolate. Methylcobalamin, formed from vitamin B12, carries that methyl group. Riboflavin supports the earlier folate-cycle enzyme and the separate repair enzyme, not this cofactor site. A fall in blood homocysteine is a change in a circulating marker, not a direct measure of how fast the reaction runs in tissues.
+
+<ScientificFinding finding={{"id":"PM1-F1","finding_label":"Methionine synthase remethylates homocysteine","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.","finding_interpretation":"This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.","finding_statement":"Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.","synthesis_limitations":"The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.","evidence_considered":[{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.","assessment":{"study":"Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.","population":"No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.","result":"Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.","effect_magnitude":"No new numeric effect size. The result is reaction identity and pathway separation.","evidence_summary":"Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.","limitations":"A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."},"canonical_reference":{"author_year":"Froese et al. (2019)","number":9,"anchor":"#pm-ref-9"}}],"connected_supportive_evidence":[{"label":"Aragão et al. (2024)","citation_key":"aragao_revitalising_2024","href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","data_level":"Mechanistic","why_relevant":"Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.","why_excluded":"Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation.","canonical_reference":{"author_year":"Aragão et al. (2024)","number":2,"anchor":"#pm-ref-2"}}],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Riboflavin is not the synthase cofactor","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Riboflavin supplies the flavin cofactor of methylenetetrahydrofolate reductase, which makes 5-methyltetrahydrofolate, and of methionine synthase reductase, which repairs inactive cobalamin. Methionine synthase itself uses methylcobalamin.","finding_interpretation":"Riboflavin can matter upstream of the substrate and in enzyme repair. It is not a cofactor bound at the methionine synthase catalytic site.","finding_statement":"Flavin adenine dinucleotide derived from riboflavin is a cofactor of methylenetetrahydrofolate reductase and of methionine synthase reductase, not of the methionine synthase catalytic site, which uses methylcobalamin.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The human-pathway review assigns methylcobalamin, not a flavin, to methionine synthase, and places methylenetetrahydrofolate reductase upstream as the source of 5-methyltetrahydrofolate. An adult cross-sectional study states the same split: methylenetetrahydrofolate reductase uses FAD, methionine synthase reductase binds flavin mononucleotide and FAD, and methionine synthase uses methylcobalamin. In that study, riboflavin status modified the association of an MTHFR variant with blood homocysteine. That is a circulating-marker interaction at the upstream enzyme, not evidence that riboflavin occupies the synthase cofactor site.","synthesis_limitations":"The flavin assignment for the two neighbouring enzymes is stated in the study introduction from prior enzymology, and the new data are genotype associations with blood homocysteine. Neither source shows that dietary riboflavin changes tissue methionine-synthase flux.","evidence_considered":[{"label":"García-Minguillán et al. (2014)","citation_key":"garcia_minguillan_riboflavin_2014","href":"/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014","data_level":"Human Study","exposure_context":"dietary","evidence_source":"bounded-external-search","directional_finding":"Riboflavin status modified MTHFR-linked differences in blood homocysteine. The synthase cofactor named in the paper is methylcobalamin, while FAD is assigned to MTHFR and to MTRR.","assessment":{"study":"Cross-sectional analysis of whether fasting plasma total homocysteine associations with MTHFR 677C>T, MTRR 66A>G and MTRR 524C>T depend on riboflavin status, measured by the erythrocyte glutathione reductase activation coefficient.","population":"771 adults aged 18–75 years in Tarragona province, Spain, excluding B-vitamin users and pregnant or lactating women. Recruitment was in 1998–2002, before mandatory folic acid fortification of flour in that setting.","result":"The paper states that FAD is a cofactor of MTHFR, that MTRR binds flavin mononucleotide and FAD, and that methionine synthase uses methylcobalamin and is reactivated by MTRR. Among MTHFR 677T carriers with plasma folate below 14.7 nmol/L, blood homocysteine was 8.2% higher than in the 677CC genotype, and that difference was not seen when riboflavin status was optimal (interaction p = 0.048).","effect_magnitude":"8.2% higher blood homocysteine in the specified MTHFR contrast (p \u003c 0.01), eliminated at optimal riboflavin status (interaction p = 0.048). No methionine-synthase activity or tissue-flux estimate is reported.","evidence_summary":"Separates the riboflavin-dependent enzymes (MTHFR and MTRR) from the methylcobalamin cofactor of methionine synthase, and shows a riboflavin-status interaction with an MTHFR variant on blood homocysteine.","limitations":"Observational genotype analysis. The endpoint is plasma homocysteine, not enzyme rate. Optimal riboflavin status did not identify riboflavin as a prosthetic group of methionine synthase."},"canonical_reference":{"author_year":"García-Minguillán et al. (2014)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","why_relevant":"States that methionine synthase requires methylcobalamin and that methylenetetrahydrofolate reductase produces its folate substrate.","why_excluded":"It does not itself test riboflavin status or assign FAD to MTHFR or MTRR, so it is not the study that adjudicates the riboflavin split.","canonical_reference":{"author_year":"Froese et al. (2019)","number":9,"anchor":"#pm-ref-9"}}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
+↓
+[BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+↓
+[BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — This reaction remethylates homocysteine with 5-methyltetrahydrofolate rather than betaine, so it is a parallel methyl route to the path that draws on choline. It supplies methionine, not the choline used for acetylcholine.
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Methionine from this reaction can later become SAMe and support phospholipid methylation. That is downstream use through other reactions, not a substrate step of methionine synthase.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) — Betaine-homocysteine methyltransferase also remethylates homocysteine, using betaine in liver and kidney and not 5-methyltetrahydrofolate or vitamin B12. Parallel route to the same methionine product.
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — Methionine produced here is the amino-acid substrate for the later reaction that forms SAMe from methionine and ATP. Downstream use of the product, not part of methionine synthase.
+- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — Cycle flux combines this remethylation step with SAMe use, homocysteine return and the parallel betaine route. Shared cycle context, not the synthase reaction itself.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -191,10 +646,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap).
-- **Key References:**
+- **Rationale:** Children with ADHD have been reported to have lower folate and vitamin B12 than comparison groups, and one cohort of boys also had higher homocysteine  Lukovac et al. (2024) [[5]](#pm-ref-5); Razavinia et al. (2024) [[6]](#pm-ref-6); Wang et al. (2019) [[7]](#pm-ref-7). Those are observational blood and diet differences. They do not show that methionine synthase activity is lower, and they do not show that folate or vitamin B12 supplementation improves attention. An MTHFR polymorphism meta-analysis concerns a folate-cycle enzyme upstream of this reaction, not methionine synthase flux  Meng et al. (2022) [[8]](#pm-ref-8).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024","label":"Razavinia et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#meng_association_2022","label":"Meng et al. (2022)"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Attention studies do not test this reaction","presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","finding_summary":"Studies in children with ADHD report lower folate or vitamin B12, and sometimes higher homocysteine, than comparison groups. They do not measure methionine synthase activity or test whether changing it improves attention.","finding_interpretation":"These associations are a ceiling on the attention relationship. They are not evidence that this reaction is impaired, and they are not a treatment result.","finding_statement":"Attached ADHD biomarker and MTHFR-genotype studies do not establish that folate- and B12-dependent methionine synthase activity modulates Focus / Attention Stability.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A meta-analysis of observational studies found lower vitamin B9 and vitamin B12 in children with ADHD than in comparison children. A case-control study of boys found higher homocysteine and lower vitamin B12. A Taiwanese case-control study found lower serum folate and vitamin B12 together with a less favourable dietary pattern. A polymorphism meta-analysis linked an MTHFR variant to ADHD occurrence. None of these studies assayed methionine synthase, traced tissue remethylation, or tested folate or vitamin B12 as an attention treatment.","synthesis_limitations":"This is a bounded reading of the studies already attached to the attention relationship. It does not prove that no attention relationship exists. Heterogeneity is high in the vitamin meta-analysis, and the genotype paper concerns MTHFR, which is upstream of this reaction.","evidence_considered":[{"label":"Razavinia et al. (2024)","citation_key":"razavinia_vitamins_2024","href":"/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024","data_level":"Human Study","exposure_context":"dietary","evidence_source":"repository-inherited","directional_finding":"Children with ADHD had lower vitamin B9 and vitamin B12 than comparison children. Methionine synthase activity was not measured.","assessment":{"study":"Systematic review and meta-analysis of case-control or cross-sectional studies of plasma vitamins B9 and B12 in children with ADHD, searched through June 2023.","population":"Six studies, 982 children aged about 6–12 years (204 girls and 744 boys; mean age 8.86 ± 2.03 years).","result":"Vitamin B9 differed between children with and without ADHD (standardised mean difference −0.80, 95% confidence interval −1.55 to −0.04). Vitamin B12 was lower in ADHD (standardised mean difference −0.29, 95% confidence interval −0.42 to −0.16). After sensitivity analysis the B12 difference remained (standardised mean difference −0.19, 95% confidence interval −0.34 to −0.04).","effect_magnitude":"Vitamin B9 standardised mean difference −0.80 (−1.55 to −0.04). Vitamin B12 standardised mean difference −0.29 (−0.42 to −0.16), and −0.19 (−0.34 to −0.04) after sensitivity analysis. Heterogeneity for the B12 analysis was I² = 93% before that sensitivity analysis, then 21%.","evidence_summary":"Observational evidence of lower circulating folate and vitamin B12 in children with ADHD, without an enzyme or treatment measurement.","limitations":"Blood levels only, high heterogeneity before sensitivity analysis, no methionine-synthase assay and no supplementation outcome."},"canonical_reference":{"author_year":"Razavinia et al. (2024)","number":6,"anchor":"#pm-ref-6"}},{"label":"Lukovac et al. (2024)","citation_key":"lukovac_serum_2024","href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"Boys with ADHD had higher homocysteine and lower vitamin B12 than age-matched boys. This was a diagnostic-marker comparison, not a synthase-flux or treatment study.","assessment":{"study":"Cross-sectional serum comparison of homocysteine, vitamin B12, vitamin D, ferritin and iron, with behavioural and cognitive assessments.","population":"133 boys aged 6.5–12.5 years, 67 with DSM-V ADHD and 66 age-matched boys without ADHD.","result":"Homocysteine was higher and vitamin B12 was lower in the ADHD group. Multiple logistic regression identified homocysteine as a potential prognostic indicator for ADHD.","effect_magnitude":"The abstract reports statistically significant differences and does not give means, confidence intervals, or an enzyme-activity effect.","evidence_summary":"A single-sex paediatric case-control difference in two blood markers associated with one-carbon metabolism.","limitations":"Boys only, no folate measurement in the reported panel, no methionine-synthase assay, and no intervention. A prognostic association is not a causal test of this reaction."},"canonical_reference":{"author_year":"Lukovac et al. (2024)","number":5,"anchor":"#pm-ref-5"}},{"label":"Wang et al. (2019)","citation_key":"wang_dietary_2019","href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","data_level":"Human Study","exposure_context":"dietary","evidence_source":"repository-inherited","directional_finding":"Children with ADHD had lower serum folate and vitamin B12 and a dietary pattern poorer in vegetables, fruit and protein-rich foods. The path model links diet, nutrient markers and ADHD; it does not measure methionine synthase.","assessment":{"study":"Case-control study of food-frequency intake and fasting nutritional biochemistry, with a structural equation model linking diet, markers and ADHD.","population":"216 children with ADHD and 216 age-, height- and sex-matched controls from 31 elementary schools in Taiwan.","result":"Compared with controls, children with ADHD had lower serum vitamin B12, folate, vitamin B6, ferritin and monounsaturated fatty acids, and higher saturated fatty acids, n-6/n-3 ratio and inorganic phosphorus. They reported more nutrient-poor, high-sugar and high-fat foods and less vegetable, fruit and protein-rich food. The model treated poor nutritional biochemistry as a link between unhealthy diet and ADHD.","effect_magnitude":"The abstract reports significant group differences and does not give mean differences for folate or vitamin B12, or any synthase-flux estimate.","evidence_summary":"Human observational evidence that diet pattern and several blood nutrients, including folate and vitamin B12, differ by ADHD status.","limitations":"Cross-sectional path analysis cannot show that methionine synthase activity changed, or that correcting folate or vitamin B12 improves attention. Several non-B-vitamin markers differed as well."},"canonical_reference":{"author_year":"Wang et al. (2019)","number":7,"anchor":"#pm-ref-7"}},{"label":"Meng et al. (2022)","citation_key":"meng_association_2022","href":"/docs/papers/BRAIN-Diet-References#meng_association_2022","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"An MTHFR 1298A>C meta-analysis was associated with ADHD occurrence. The paper does not measure methionine synthase.","assessment":{"study":"Random-effects meta-analysis of case-control studies of MTHFR 677C>T and 1298A>C in ADHD, bipolar disorder and schizophrenia.","population":"Five ADHD studies (434 cases and 670 controls), plus separate bipolar and schizophrenia study sets. Cases and controls were defined by the included psychiatric studies, not by a shared remethylation assay.","result":"MTHFR 677C>T was associated with bipolar disorder and schizophrenia. MTHFR 1298A>C was related to ADHD and bipolar disorder. Sensitivity analyses were described as stable. No methionine-synthase genotype or enzyme activity was analysed.","effect_magnitude":"Associations were summarised as odds ratios. The abstract does not give the ADHD odds ratio, and it reports no remethylation-flux effect.","evidence_summary":"Genetic association of an upstream folate-cycle enzyme variant with ADHD occurrence, not a test of methionine synthase capacity.","limitations":"MTHFR is upstream of 5-methyltetrahydrofolate supply. Genotype association does not establish enzyme flux, dietary response, or an attention benefit from folate or vitamin B12."},"canonical_reference":{"author_year":"Meng et al. (2022)","number":8,"anchor":"#pm-ref-8"}}],"connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -214,301 +670,25 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low
-- **Rationale:** Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap).
-- **Key References:**
+- **Rationale:** Folic acid, with or without vitamin B12, lowers blood homocysteine  Collaboration (1998) [[1]](#pm-ref-1). In older adults with mild cognitive impairment, B-vitamin treatment was associated with slower cognitive decline only when omega-3 status was higher  Oulhaj et al. (2016) [[4]](#pm-ref-4). Blood homocysteine and that combined B-vitamin interaction do not measure methionine synthase flux, and they do not establish that this reaction itself changes cognitive clarity.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"},{"href":"/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016","label":"Oulhaj et al. (2016)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM1-F4","finding_label":"Cognitive effects are not synthase flux","presentation":"phenome-relationship","primary_phenome":"Cognitive Clarity","finding_summary":"In older adults with mild cognitive impairment, B vitamins were associated with slower cognitive decline only when omega-3 status was higher. That interaction does not measure methionine synthase flux.","finding_interpretation":"A conditional cognitive signal in mild cognitive impairment is not evidence that this reaction modulates cognitive clarity, and it is not an attention-treatment result.","finding_statement":"B-vitamin effects on cognitive decline in mild cognitive impairment, including an interaction with omega-3 status, do not measure methionine synthase flux or establish that this reaction modulates Cognitive Clarity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Re-analysis of a two-year trial in mild cognitive impairment found better cognitive and clinical scores with B vitamins as baseline omega-3 status rose, and no B-vitamin effect on cognitive decline when omega-3 status was low. The intervention combined folic acid, vitamin B6 and vitamin B12. Blood homocysteine lowering by folic acid and vitamin B12 is a separate circulating-marker result. Neither dataset isolates methionine synthase activity from other B-vitamin actions or from omega-3-dependent membrane biology.","synthesis_limitations":"One re-analysis in adults aged 70 years and older with mild cognitive impairment, using a three-vitamin intervention. It does not test children, attention outcomes, or tissue remethylation rate. The omega-3 interaction places part of the signal outside this reaction.","evidence_considered":[{"label":"Oulhaj et al. (2016)","citation_key":"oulhaj_omega-3_2016","href":"/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016","data_level":"Human Outcome","exposure_context":"combination-formulation","evidence_source":"repository-inherited","directional_finding":"B vitamins slowed cognitive decline in mild cognitive impairment only when baseline omega-3 status was higher. Methionine synthase flux was not measured.","assessment":{"study":"Re-analysis of the VITACOG randomised trial testing whether baseline plasma omega-3 status interacted with B-vitamin treatment on cognitive and clinical scores.","population":"266 participants with mild cognitive impairment, aged 70 years or older, randomised to folic acid plus vitamins B6 and B12, or placebo, for 2 years.","result":"Final verbal delayed recall, global cognition and clinical dementia rating improved in the B-vitamin group as baseline omega-3 concentration increased, with little relation to omega-3 status in the placebo group. Among participants with good omega-3 status, 33% on B vitamins had a global clinical dementia rating above 0, compared with 59% on placebo. Docosahexaenoic acid, more than eicosapentaenoic acid, carried the interaction. When omega-3 status was low, B vitamins had no effect on cognitive decline.","effect_magnitude":"33% versus 59% with global clinical dementia rating above 0 in the good omega-3 stratum. No methionine-synthase activity or tissue-flux estimate is reported.","evidence_summary":"Human outcome evidence that a combined B-vitamin intervention interacts with omega-3 status on cognitive decline in mild cognitive impairment.","limitations":"Not a test of methionine synthase alone. Vitamin B6, which acts in transsulfuration rather than this reaction, was part of the intervention. The result is conditional on omega-3 status and does not establish a general cognitive-clarity benefit."},"canonical_reference":{"author_year":"Oulhaj et al. (2016)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[{"label":"Collaboration (1998)","citation_key":"collaboration_lowering_1998","href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","data_level":"Human Mechanistic","why_relevant":"Shows that folic acid and vitamin B12 lower blood homocysteine, the marker often used to interpret B-vitamin cognitive trials.","why_excluded":"The meta-analysis measured blood homocysteine, not cognitive clarity and not tissue methionine-synthase flux. That marker limit is assessed in PM1-IC1.","canonical_reference":{"author_year":"Collaboration (1998)","number":1,"anchor":"#pm-ref-1"}}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- B12 ← shellfish, dairy, eggs
-- Folate ← leafy greens, legumes
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Riboflavin (B2) ← dairy, eggs, lean meat
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
-
-</div>
-</div>
-</div>
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Maintaining methylation capacity depends first on recycling homocysteine back to methionine through the folate- and B12-dependent remethylation route — the primary enzymatic path that restrains homocysteine accumulation and feeds the methionine pool upstream of SAMe production within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Folate/B12-dependent homocysteine remethylation — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Folate cycle and remethylation chemistry)
-
-5-Methyltetrahydrofolate donates a methyl group to homocysteine via methionine synthase, regenerating methionine and tetrahydrofolate. Vitamin B12 (as methylcobalamin) is an essential cofactor for this reaction, linking dietary folate and B12 status directly to homocysteine clearance and methionine regeneration → [Collaboration, 1998]; [Aragão et al., 2024]
-
-Riboflavin (B2) supports flavin-dependent steps upstream in the folate cycle, including MTHFR activity — connecting B2 status to remethylation efficiency and variant-sensitive interpretation at [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) → [Aragão et al., 2024]
-
-#### (Homocysteine as a cycle readout)
-
-Elevated plasma homocysteine reflects impaired remethylation throughput when folate, B12, or upstream cofactor coverage is inadequate. In ADHD-relevant populations, elevated homocysteine and reduced B12 have been reported alongside one-carbon biomarker shifts → [Lukovac et al., 2024]
-
-This PM captures the folate/B12 remethylation arm specifically — not the downstream methyl-transfer reactions that consume regenerated methionine.
-
-#### (Boundaries of the mechanism)
-
-This PM governs **folate- and B12-dependent homocysteine remethylation** only.
-
-The parallel betaine-dependent route belongs to [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). Methionine→SAMe conversion belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Integrated cycle throughput across remethylation, SAMe production, and homocysteine re-entry belongs to [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
-
-Homocysteine disposal through transsulfuration toward cysteine belongs to [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway). SAMe-dependent phospholipid methylation and omega-3-enriched PC formation belong to [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation); brain DHA incorporation downstream belongs to [BRS1-FM3-PM7](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation).
-
-Remethylation efficiency interacts with omega-3 status in human trial re-analyses — B-vitamin cognitive effects appear contingent on adequate omega-3 status — but the membrane and brain-delivery biology is represented downstream, not in this PM → [Oulhaj et al., 2016]
-
-#### (Integration within BRS2)
-
-This PM is the primary folate/B12 remethylation step within [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). It depends on [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) for folate and methyl-donor substrate availability. In the cross-BRS pathway chain, remethylation (this PM) → phospholipid methylation (FM3-PM7) → neuronal DHA incorporation (BRS1-FM3-PM7).
-
-</div>
-</div>
-</div>
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Folate- and B12-dependent remethylation is textbook one-carbon biochemistry. The studies below highlight how homocysteine responds in practice, why cofactor combinations matter, and why remethylation should be read as part of a wider nutrient network rather than a single-vitamin intervention.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Folate and B12 effects on homocysteine</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** A meta-analysis of folic-acid supplementation trials found that folate typically lowers plasma homocysteine by approximately 25%; adding B12 produced an additional ~7% reduction beyond folate alone → [Collaboration, 1998] This supports interpreting homocysteine modulation as a cofactor-combination property — folate and B12 are not fully interchangeable in remethylation support.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>B12, omega-3, and combined homocysteine lowering</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In a randomised trial comparing vitamin B-12, fish oil, and combined B-12 + fish oil, plasma homocysteine fell by 22%, 19%, and 39% respectively — the combined arm nearly doubling the B-12-alone effect → [Tao Huang et al., 2015] This finding supports reading remethylation alongside connected membrane biology rather than as an isolated B-vitamin pathway.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015","label":"Tao Huang et al. (2015)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>B-vitamin cognitive effects and omega-3 status</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Re-analysis of VITACOG data showed that **B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status**; when baseline omega-3 was low, B vitamins had no effect on cognitive decline in mild cognitive impairment → [Oulhaj et al., 2016] For this PM, the implication is that remethylation support may be necessary but not sufficient where connected membrane and omega-3 context is inadequate — a nutrient-network read rather than a single-pathway claim.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016","label":"Oulhaj et al. (2016)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Homocysteine elevation in ADHD-relevant cohorts</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In a paediatric ADHD cohort, homocysteine was significantly elevated and vitamin B12 significantly reduced compared with healthy controls, with homocysteine emerging as a potential prognostic indicator → [Lukovac et al., 2024] This does not establish causality for ADHD, but it supports homocysteine as a translational readout of remethylation pathway strain in neurodevelopmental contexts.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
-
-</div>
-</div>
-</div>
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-↓
-[BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
-↓
-[BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS2-FM1-PM2 - Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
-- [BRS2-FM1-PM3 - SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
-- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM relevance |
-|---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support folate/b12-dependent homocysteine remethylation. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-- [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-- [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- [Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-- [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-- [Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)
+
+- <span id="pm-ref-1">[1]</span> [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+- <span id="pm-ref-2">[2]</span> [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- <span id="pm-ref-3">[3]</span> [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
+- <span id="pm-ref-4">[4]</span> [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
+- <span id="pm-ref-5">[5]</span> [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+- <span id="pm-ref-6">[6]</span> [Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
+- <span id="pm-ref-7">[7]</span> [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
+- <span id="pm-ref-8">[8]</span> [Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)
+- <span id="pm-ref-9">[9]</span> [Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+- <span id="pm-ref-10">[10]</span> [García-Minguillán et al. (2014) — Riboflavin Status, MTHFR, MTRR and Homocysteine](/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014)
+

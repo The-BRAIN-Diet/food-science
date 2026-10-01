@@ -65,6 +65,58 @@ export type ScientificFindingData = {
   informs?: Array<{phenome: string; href?: string}>
 }
 
+const CITE_MARKER_RE = /\{\{cite:([^}]+)\}\}/g
+
+function findingCiteIndex(finding: ScientificFindingData) {
+  const index = new Map<string, CanonicalReference>()
+  for (const item of [
+    ...(finding.evidence_considered || []),
+    ...(finding.connected_supportive_evidence || []),
+  ]) {
+    if (item.citation_key && item.canonical_reference) {
+      index.set(item.citation_key, item.canonical_reference)
+    }
+  }
+  return index
+}
+
+function renderTextWithPmCites(
+  text: string,
+  finding: ScientificFindingData,
+): React.ReactNode {
+  const index = findingCiteIndex(finding)
+  const nodes: React.ReactNode[] = []
+  let lastIndex = 0
+  let key = 0
+  const re = new RegExp(CITE_MARKER_RE.source, "g")
+  for (const match of text.matchAll(re)) {
+    const start = match.index ?? 0
+    if (start > lastIndex) nodes.push(text.slice(lastIndex, start))
+    const seen = new Set<number>()
+    const records = match[1]
+      .split(",")
+      .map((item) => item.trim())
+      .map((citationKey) => index.get(citationKey))
+      .filter((record): record is CanonicalReference => Boolean(record))
+      .filter((record) => !seen.has(record.number) && seen.add(record.number))
+      .sort((a, b) => a.number - b.number)
+    if (records.length) {
+      nodes.push(" ")
+      records.forEach((record, i) => {
+        if (i) nodes.push("; ")
+        nodes.push(
+          <span key={`cite-${key++}`}>
+            {record.author_year} <a href={record.anchor}>[{record.number}]</a>
+          </span>,
+        )
+      })
+    }
+    lastIndex = start + match[0].length
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex))
+  return nodes.length ? nodes : text
+}
+
 const EVIDENCE_SOURCE_LABELS: Record<string, string> = {
   "repository-inherited": "Inherited repository evidence",
   "bounded-external-search": "Bounded external search",
@@ -212,7 +264,9 @@ export default function ScientificFinding({
             <strong>{title}</strong>
           </button>
           <div className="brs-fm-hub-panel" hidden>
-            {summary ? <p className="brain-sf-lead">{summary}</p> : null}
+            {summary ? (
+              <p className="brain-sf-lead">{renderTextWithPmCites(summary, finding)}</p>
+            ) : null}
 
             {interpretation ? (
               <div className="brain-sf-interpretation">

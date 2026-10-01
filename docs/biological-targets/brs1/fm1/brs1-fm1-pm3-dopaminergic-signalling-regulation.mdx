@@ -4,7 +4,7 @@ pm_id: BRS1-FM1-PM3
 mission: 'Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.'
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Covers the regulated dopaminergic sequence from neuronal synthesis capacity through vesicular handling, activity-dependent release, receptor-mediated signalling, transporter-mediated reuptake and metabolism. Dopamine effects are region-, receptor-, baseline- and task-dependent: concentration, synthesis capacity, release, receptor availability and transporter binding are not interchangeable measures, and neither low nor high signalling is uniformly beneficial. The evidence supports roles in cognitive control, flexibility and effort allocation, while dietary modification and clinical benefit remain separate, incompletely supported propositions.'
+summary: 'Dopaminergic regulation coordinates dopamine synthesis, vesicular storage, activity-dependent release, receptor signalling, transporter-mediated reuptake and metabolism. Its effects vary by brain region, receptor, baseline state and task, so neither lower nor higher signalling is uniformly advantageous. Together, these stages regulate where, when and how strongly dopamine acts. Measurements of dopamine concentration, synthesis capacity, release, receptor availability and transporter binding describe different processes and should not be treated as interchangeable.'
 cofactors:
   - Iron
   - Tetrahydrobiopterin (BH4)
@@ -16,7 +16,7 @@ dose_sensitivity: 'No intake-response range established; dopamine effects are ba
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
-evidence_status: stage-2-dietary-addressability
+evidence_status: stage-2b-dietary-addressability
 scientific_findings_intro: 'Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.'
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
@@ -43,7 +43,7 @@ dietary_input_traceability:
   - atom_id: PM3-DIT-3
     input: Vitamin B6
     input_type: cofactor precursor
-    biological_role: Provides dietary B6 vitamers that are converted to PLP
+    biological_role: 'Dietary route to PLP, the active cofactor for aromatic L-amino-acid decarboxylase. This is not an independent dopamine-synthesis cofactor'
     evidence_source:
       finding_ids:
         - PM3-F1
@@ -51,6 +51,21 @@ dietary_input_traceability:
         - kennedy_b_2016
         - spector_vitamin_1978
     evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis.'
+  - atom_id: PM3-DIT-5
+    input: Tyrosine
+    input_type: substrate
+    biological_role: Tyrosine is the substrate for conversion to L-DOPA in dopamine synthesis.
+    upstream_pm_relationships:
+      - relationship_label: Supply
+        pm_short_id: PM1
+        pm_id: BRS1-FM1-PM1
+        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+    evidence_limitation: Substrate necessity does not establish that additional dietary tyrosine increases brain dopamine or improves a functional or clinical outcome.
   - atom_id: PM3-DIT-4
     input: Tetrahydrobiopterin (BH4)
     input_type: cofactor
@@ -64,6 +79,7 @@ dietary_input_traceability:
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     requirement_classification: direct
+    relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
@@ -71,6 +87,7 @@ dietary_lever_atoms:
     evidence_limitation: Human intake-to-dopamine responsiveness and clinical benefit were not established; the direct dopamine-metabolite evidence assessed here is preclinical deficiency evidence.
   - atom_id: PM3-DIT-2
     requirement_classification: direct
+    relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
@@ -78,19 +95,33 @@ dietary_lever_atoms:
     evidence_limitation: Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not establish dietary PLP provision or an intake-to-dopamine response in humans.
   - atom_id: PM3-DIT-3
     requirement_classification: derived
+    relationship_mode: capacity-requirement
     derived_target: Pyridoxal-5′-phosphate (PLP)
     derived_target_atom_id: PM3-DIT-2
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
     claim_ceiling: dietary-provision
-    permitted_wording: 'Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP, the Direct cofactor requirement for aromatic L-amino-acid decarboxylase. This does not establish that increasing B6 intake increases dopamine synthesis or improves cognition or ADHD.'
+    permitted_wording: 'Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP, the Direct cofactor requirement for aromatic L-amino-acid decarboxylase. It is the dietary route to PLP, not a second independent dopamine cofactor. This does not establish that increasing B6 intake increases dopamine synthesis or improves cognition or ADHD.'
     evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis.'
+  - atom_id: PM3-DIT-5
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Tyrosine is a Direct substrate requirement for tyrosine-hydroxylase conversion to L-DOPA. This does not establish that additional dietary tyrosine increases brain dopamine or improves a functional or clinical outcome.
+    evidence_limitation: Substrate necessity does not establish that additional dietary tyrosine increases brain dopamine or improves a functional or clinical outcome.
   - atom_id: PM3-DIT-4
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
     permitted_wording: BH4 is the endogenous cofactor required for tyrosine hydroxylation. It is not a dietary BH4 recommendation.
     evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased dopamine synthesis.
 dietary_lever_presentations:
+  - atom_id: PM3-DIT-5
+    label: Tyrosine
+    presentation_section: 3.1.1
+    reader_description: 'Tyrosine is the starting material used to make dopamine. Tyrosine hydroxylase converts it to L-DOPA, which is then converted to dopamine. Dietary tyrosine and the body’s conversion of phenylalanine contribute to its availability.'
+    description_finding_id: PM3-F1
   - atom_id: PM3-DIT-1
     label: Iron
     presentation_section: 3.1.1
@@ -100,12 +131,8 @@ dietary_lever_presentations:
   - atom_id: PM3-DIT-3
     label: Vitamin B6
     presentation_section: 3.1.1
-  - atom_id: PM3-DIT-1
-    label: Iron
-    presentation_section: 3.1.2
-  - atom_id: PM3-DIT-2
-    label: Pyridoxal-5′-phosphate (PLP)
-    presentation_section: 3.1.2
+    reader_description: 'Vitamin B6 is the dietary route to PLP, the active decarboxylase cofactor. It is not a second independent dopamine-synthesis cofactor.'
+    description_finding_id: PM3-F1
   - atom_id: PM3-DIT-4
     label: Tetrahydrobiopterin (BH4)
     presentation_section: 3.1.2
@@ -258,8 +285,8 @@ phenome_relationships:
 scientific_findings:
   - id: PM3-F1
     finding_label: Dopamine synthesis requires distinct substrate and cofactor steps
-    finding_summary: 'Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.'
-    finding_interpretation: 'This finding supports iron, PLP and vitamin B6 as dietary-requirement atoms and BH4 as an endogenous biochemical cofactor; none is an intake-responsive dopamine lever.'
+    finding_summary: 'Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation{{cite:fanet_tetrahydrobioterin_2021,beard_iron_2003,kennedy_b_2016}}. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.'
+    finding_interpretation: 'This finding supports tyrosine as the hydroxylase substrate, iron, PLP and vitamin B6 as dietary-requirement atoms, and BH4 as an endogenous biochemical cofactor; none is an intake-responsive dopamine lever.'
     fm_rollup: true
     finding_statement: 'Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.'
     synthesised_evidence_confidence: not-yet-scored
@@ -639,6 +666,99 @@ references:
   - '[Dunn et al. (2017) — Caloric Restriction and Dopamine Receptor Availability](/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017)'
   - '[Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)'
   - '[Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)'
+  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
+  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+  - '[Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
+      this mechanism’s governed dopaminergic capacity.
+    disposition: unresolved
+    established_links:
+      - Tyrosine is the local hydroxylase substrate for dopamine synthesis (PM3-F1).
+      - DIAAS and related scores measure digestible IAA adequacy for protein quality (FAO 2013; Mariotti 2019).
+    inferred_links:
+      - Incomplete IAA quality would reduce circulating tyrosine and thereby constrain dopaminergic capacity.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    rationale: >-
+      Assessment was completed. Quality-scoring evidence does not connect IAA-quality
+      inadequacy to dopaminergic capacity. Tyrosine is dispensable when phenylalanine
+      is adequate. The capacity-constraint link remains a material gap, not a negative
+      finding.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed dopaminergic capacity.
+    disposition: unresolved
+    established_links:
+      - Competitive LAT1 presentation can change tyrosine arrival (Fernstrom 2013).
+      - Fernstrom 2013: ordinary protein-driven LNAA changes have minimal effects on tyrosine uptake and catecholamine synthesis.
+    inferred_links:
+      - The same competitive arm, under branched-chain amino-acid mixtures or activated tyrosine hydroxylase, would constrain dopamine synthesis.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: >-
+      Assessment of ordinary protein-driven LNAA change is complete and does not
+      support a constraint on dopamine synthesis. That exposure does not close the
+      whole competitive arm. Branched-chain amino-acid mixtures remain a different
+      exposure and were not used to claim non-application. Public mapping is not
+      published.
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: one-carbon-methyl-donor-pool
+    applicability_proposition: >-
+      Inadequacy of the shared methyl-donor pool can constrain this mechanism’s
+      governed dopaminergic capacity.
+    disposition: unresolved
+    established_links:
+      - COMT contributes to dopamine metabolism and uses SAM (PM3 §5.2; MacDonald 2024).
+      - Kennedy 2016 treats B-vitamin one-carbon chemistry as relevant to brain methyl-group transfer.
+    inferred_links:
+      - Methyl-donor inadequacy would therefore constrain COMT-dependent dopamine metabolism.
+    evidence_source:
+      citation_keys:
+        - kennedy_b_2016
+        - macdonald_dopamine_2024
+    rationale: >-
+      This existing KC was added after a mission-coverage scan. SAM use by COMT is
+      enzyme chemistry, not a demonstrated constraint on synthesis, storage, release,
+      receptor signalling or reuptake. The attached corpus does not show that ordinary
+      one-carbon variation controls regional dopamine clearance. Not a negative finding.
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: antioxidant-substrate-pool
+    applicability_proposition: >-
+      Inadequacy of the shared glutathione antioxidant-substrate pool can constrain
+      this mechanism’s governed dopaminergic capacity.
+    disposition: unresolved
+    established_links:
+      - Dopamine oxidation creates redox interactions (PM3 §5.2).
+      - BRS3(KC1) names cysteine/glycine sufficiency for glutathione synthesis (Sekhar 2011).
+    inferred_links:
+      - GSH-substrate inadequacy would therefore constrain dopamine signalling or clearance.
+    evidence_source:
+      citation_keys:
+        - sekhar_glutathione_2011
+    rationale: >-
+      PM3 already listed BRS3 as a constrained dependency. GSH-pool evidence is about
+      glutathione synthesis, not dopaminergic capacity. Antioxidant exposure was not
+      shown here to modify human dopaminergic signalling. The capacity-constraint link
+      remains a material gap.
 hide_title: true
 ---
 
@@ -654,115 +774,167 @@ hide_title: true
 
 (Dopamine synthesis, signalling, reuptake and metabolism)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.
 
+
+Tyrosine, iron and PLP are established biological dependencies of dopamine synthesis. Vitamin B6 is the dietary route to PLP, not a second independent cofactor need. These relationships do not show that changing diet modifies a dopamine process, and they do not show a functional or clinical benefit. Page-level dietary addressability remains not established because no ordinary-diet change meets that higher claim.
+
+**Intervention Dominance:** Diet-Supported
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tyrosine
+- Iron
+- Pyridoxal-5′-phosphate (PLP)
+- Vitamin B6
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tetrahydrobiopterin (BH4)
+
+Tetrahydrobiopterin is an endogenous cofactor required for tyrosine hydroxylation, not a dietary BH4 recommendation. Tyrosine as the local hydroxylase substrate is listed above. Dietary tyrosine supply and phenylalanine conversion are assessed on [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). Competitive LAT1 transport is assessed on [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Covers the regulated dopaminergic sequence from neuronal synthesis capacity through vesicular handling, activity-dependent release, receptor-mediated signalling, transporter-mediated reuptake and metabolism. Dopamine effects are region-, receptor-, baseline- and task-dependent: concentration, synthesis capacity, release, receptor availability and transporter binding are not interchangeable measures, and neither low nor high signalling is uniformly beneficial.
+Dopaminergic regulation coordinates dopamine synthesis, vesicular storage, activity-dependent release, receptor signalling, transporter-mediated reuptake and metabolism. Its effects vary by brain region, receptor, baseline state and task, so neither lower nor higher signalling is uniformly advantageous Cools and D'Esposito (2011) [[4]](#pm-ref-4). Together, these stages regulate where, when and how strongly dopamine acts. Measurements of dopamine concentration, synthesis capacity, release, receptor availability and transporter binding describe different processes and should not be treated as interchangeable Karrer et al. (2017) [[8]](#pm-ref-8); MacDonald et al. (2024) [[9]](#pm-ref-9).
 
-* Begins at neuronal dopamine synthesis capacity and extends through signalling and clearance.
-* Supports cognitive control, flexibility and effort allocation through distinct circuits and dopamine processes.
-* Keeps precursor availability, medication target engagement, nutritional modification and clinical benefit as separate claims.
+* **Mechanism boundary:** Includes neuronal dopamine formation through signalling and clearance; circulating precursor supply and blood–brain transport are upstream processes.
+* **Evidence boundary:** Receptor, transporter, metabolite and synthesis measures each establish their measured dopamine process, not a single global dopamine level Karrer et al. (2017) [[8]](#pm-ref-8).
+* **Biological relevance:** Dopamine contributes to cognitive control, flexibility and effort allocation, but mechanistic or medication-target evidence does not establish dietary modification or ADHD treatment benefit Cools and D'Esposito (2011) [[4]](#pm-ref-4); Westbrook et al. (2020) [[5]](#pm-ref-5); MacDonald et al. (2024) [[9]](#pm-ref-9).
 
 ## 2. Primary Biological Effects
 
 Tyrosine hydroxylation and L-DOPA conversion → neuronal dopamine synthesis capacity → vesicular storage and activity-dependent release → receptor-mediated signalling → dopamine-transporter-mediated reuptake → MAO- and COMT-related metabolism.
 
-## 3. Levers
+## 3. Intervention Levers
 
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Supported
-
-Dietary addressability remains unestablished at the PM level. Iron and PLP are Direct cofactor requirements; vitamin B6 is the Derived dietary route to PLP. None is a dose, timing rule or scoreable dopamine lever.
-
-<details>
-<summary><strong>3.1 Dietary Requirements</strong></summary>
-
-### 3.1.1 Direct and/or Derived Dietary Requirements
-
-* Iron
-* Pyridoxal-5′-phosphate (PLP)
-* Vitamin B6
-
-Direct and Derived labels identify relationship distance, not intake responsiveness.
-
-### 3.1.2 Cofactors and Substrates
-
-* Iron
-* Pyridoxal-5′-phosphate (PLP)
-* Tetrahydrobiopterin (BH4)
-
-Tyrosine hydroxylation requires tetrahydrobiopterin and iron; L-DOPA decarboxylation requires PLP. Tyrosine pool sufficiency belongs to PM1 and competitive brain transport belongs to PM2. Tetrahydrobiopterin is an endogenous cofactor requirement, not a dietary-BH4 recommendation.
-
-### 3.1.3 Key Constraints
-
-No PM-specific Key Constraint membership is established. Precursor competition remains governed by BRS1(KC1) through PM1 and PM2 and is not duplicated here.
-
-</details>
-
-<details>
-<summary><strong>3.2 System Optimisation Practices</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 Only categories with a substantive evidence-qualified intervention are shown.
 
-<div className="brs-hub-sop-categories" data-brs-sop-categories>
-<div className="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
-<div className="brs-fm-hub-shell">
-<button type="button" className="brs-fm-hub-summary" aria-expanded="false">
-<span className="brs-fm-hub-chevron" aria-hidden="true"></span>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 <strong>Food Preparation &amp; Delivery</strong>
 </button>
-<div className="brs-fm-hub-panel" hidden>
-<p className="brs-hub-sop-category-desc">These methods can improve non-haem iron absorption from a meal. Iron is required by tyrosine hydroxylase, but these studies did not test brain iron delivery or dopamine signalling.</p>
-<ul>
-<li>Pair non-haem iron-containing meals with an ascorbic-acid source</li>
-<li>Use validated phytate-reducing preparation methods for high-phytate cereals</li>
-</ul>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">These methods can improve non-haem iron absorption from a meal. Iron is required by tyrosine hydroxylase, but these studies did not test brain iron delivery or dopamine signalling.</p>
+
+- Pair non-haem iron-containing meals with an ascorbic-acid source
+- Use validated phytate-reducing preparation methods for high-phytate cereals
+
 </div>
 </div>
 </div>
-<div className="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols" data-brs-sop-populated="true">
-<div className="brs-fm-hub-shell">
-<button type="button" className="brs-fm-hub-summary" aria-expanded="false">
-<span className="brs-fm-hub-chevron" aria-hidden="true"></span>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 <strong>Dietary &amp; Fasting Protocols</strong>
 </button>
-<div className="brs-fm-hub-panel" hidden>
-<p className="brs-hub-sop-category-desc">These short dietary protocols changed regional D2/D3 receptor binding in small studies of adults with obesity. The scans cannot show whether this reflected receptor regulation or dopamine occupancy, and the studies did not establish a clinical benefit.</p>
-<ul>
-<li>Short-term selective dietary-fat restriction in adults with obesity under controlled conditions</li>
-<li>Short-term very-low-calorie dieting in adults with obesity</li>
-</ul>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">These short dietary protocols changed regional D2/D3 receptor binding in small studies of adults with obesity. The scans cannot show whether this reflected receptor regulation or dopamine occupancy, and the studies did not establish a clinical benefit.</p>
+
+- Short-term selective dietary-fat restriction in adults with obesity under controlled conditions
+- Short-term very-low-calorie dieting in adults with obesity
+
 </div>
 </div>
 </div>
 </div>
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>3.3 Lifestyle Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 Acute exercise and one night of sleep deprivation changed specific striatal dopamine measures in small studies. The evidence does not establish long-term programmes or clinical benefit.
 
-* Acute voluntary cardiovascular exercise
-* Avoid acute total sleep deprivation
+- Acute voluntary cardiovascular exercise
+- Avoid acute total sleep deprivation
 
-</details>
+</div>
+</div>
+</div>
 
 ## 4. Mechanistic Basis
 
 ### Summary
 
-This PM begins after precursor availability and blood–brain barrier transport. It regulates a sequence of synthesis, vesicular handling, release, receptor signalling, transporter-mediated reuptake and enzymatic metabolism. Each stage can vary independently, so no single dopamine measure represents the whole mechanism.
+This PM converts arriving tyrosine and regulates the sequence of synthesis, vesicular handling, release, receptor signalling, transporter-mediated reuptake and enzymatic metabolism. Precursor-pool availability and LAT1 competition are assessed upstream. Each stage can vary independently, so no single dopamine measure represents the whole mechanism.
 
-<details>
-<summary><strong>Dopaminergic signalling regulation — process, boundaries and integration</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dopaminergic signalling regulation — process, boundaries and integration</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Synthesis, storage and activity-dependent release)
 
@@ -782,7 +954,9 @@ Dietary tyrosine availability must not be equated with increased brain dopamine 
 
 Cools and D'Esposito (2011) [[4]](#pm-ref-4), Westbrook et al. (2020) [[5]](#pm-ref-5), Klanker et al. (2013) [[6]](#pm-ref-6) and van der Schaaf et al. (2012) [[7]](#pm-ref-7) show that dopaminergic effects on cognition and behaviour are nonlinear, region-specific and state-dependent. Prefrontal stability and striatal flexibility can respond differently to the same manipulation, and Fusar-Poli et al. (2012) [[10]](#pm-ref-10) show that medication exposure can alter transporter measurements. BRS2 methyl-donor availability, BRS3 redox handling, BRS4 synaptic energy supply and BRS6 metabolic, stress and circadian context remain constrained dependencies: they may shape this PM but do not become dopamine findings or dietary levers without relationship-specific evidence.
 
-</details>
+</div>
+</div>
+</div>
 
 ### 4.1 Scientific Findings
 
@@ -790,7 +964,7 @@ Cools and D'Esposito (2011) [[4]](#pm-ref-4), Westbrook et al. (2020) [[5]](#pm-
 
 Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.
 
-<ScientificFinding finding={{"id":"PM3-F1","finding_label":"Dopamine synthesis requires distinct substrate and cofactor steps","finding_summary":"Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.","finding_interpretation":"This finding supports iron, PLP and vitamin B6 as dietary-requirement atoms and BH4 as an endogenous biochemical cofactor; none is an intake-responsive dopamine lever.","fm_rollup":true,"finding_statement":"Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Biochemical reviews identify tetrahydrobiopterin and iron as requirements for aromatic amino-acid hydroxylation and pyridoxal-5′-phosphate as a catecholamine-synthesis cofactor. Experimental iron deficiency alters striatal and nucleus-accumbens dopamine metabolites in rats, supporting biological sensitivity under deficiency. Together this establishes pathway dependence, not ordinary-diet control of human brain dopamine.","synthesis_limitations":"The most direct deficiency evidence is preclinical, and the reviewed sources do not establish common inadequacy in a defined clinical population, responsiveness when baseline status is adequate, or functional benefit mediated by dopamine.","evidence_considered":[{"label":"Fanet et al. (2021)","citation_key":"fanet_tetrahydrobioterin_2021","href":"/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"BH4 is required for aromatic amino-acid hydroxylation and therefore for dopamine synthesis.","assessment":{"study":"Narrative biochemical review of tetrahydrobiopterin and monoamine synthesis pathways.","population":"Mixed mechanistic literature; not a defined dietary intervention population.","result":"Identified BH4 as necessary for aromatic amino-acid hydroxylation and monoamine synthesis.","effect_magnitude":"No pooled intake-response effect estimate.","evidence_summary":"Supports reaction-level requirements and pathway boundaries.","limitations":"Does not establish that increasing dietary intake modifies human brain dopamine or improves function."},"canonical_reference":{"author_year":"Fanet et al. (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Erikson et al. (2000)","citation_key":"erikson_iron_2000","href":"/docs/papers/BRAIN-Diet-References#erikson_iron_2000","data_level":"Animal Data","exposure_context":"dietary iron deficiency","evidence_source":"repository-inherited","directional_finding":"Increasing severity of iron deficiency altered locomotor activity and dopamine metabolites in rat striatum and nucleus accumbens.","assessment":{"study":"Controlled rat dietary iron-deficiency experiment with regional dopamine-metabolite and locomotor outcomes.","population":"Laboratory rats under graded iron deficiency.","result":"Iron deficiency changed regional dopamine-metabolite profiles and locomotor activity, with severity-dependent effects.","effect_magnitude":"Directional severity-response; no human-equivalent effect estimate.","evidence_summary":"Supports dopamine-system sensitivity to marked iron deficiency.","limitations":"Animal deficiency model; metabolite concentrations do not directly measure synthesis flux or predict human clinical benefit."},"canonical_reference":{"author_year":"Erikson et al. (2000)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[{"label":"Beard et al. (2003)","citation_key":"beard_iron_2003","href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","data_level":"Animal Data","why_relevant":"Reviews iron-dependent dopamine biology and behavioural consequences of deficiency.","why_excluded":"Review-level and predominantly preclinical; it does not add a human intake-to-dopamine estimate.","canonical_reference":{"author_year":"Beard et al. (2003)","number":2,"anchor":"#pm-ref-2"}},{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as a cofactor context for dopamine formation.","why_excluded":"General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-dopamine response.","canonical_reference":{"author_year":"Kennedy (2016)","number":19,"anchor":"#pm-ref-19"}},{"label":"Spector (1978)","citation_key":"spector_vitamin_1978","href":"/docs/papers/BRAIN-Diet-References#spector_vitamin_1978","data_level":"Animal Data","why_relevant":"Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.","why_excluded":"Rabbit transport study; it does not measure dopamine synthesis, release or function.","canonical_reference":{"author_year":"Spector (1978)","number":20,"anchor":"#pm-ref-20"}}],"presentation":"mechanistic-basis"}} />
+<ScientificFinding finding={{"id":"PM3-F1","finding_label":"Dopamine synthesis requires distinct substrate and cofactor steps","finding_summary":"Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation{{cite:fanet_tetrahydrobioterin_2021,beard_iron_2003,kennedy_b_2016}}. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.","finding_interpretation":"This finding supports tyrosine as the hydroxylase substrate, iron, PLP and vitamin B6 as dietary-requirement atoms, and BH4 as an endogenous biochemical cofactor; none is an intake-responsive dopamine lever.","fm_rollup":true,"finding_statement":"Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Biochemical reviews identify tetrahydrobiopterin and iron as requirements for aromatic amino-acid hydroxylation and pyridoxal-5′-phosphate as a catecholamine-synthesis cofactor. Experimental iron deficiency alters striatal and nucleus-accumbens dopamine metabolites in rats, supporting biological sensitivity under deficiency. Together this establishes pathway dependence, not ordinary-diet control of human brain dopamine.","synthesis_limitations":"The most direct deficiency evidence is preclinical, and the reviewed sources do not establish common inadequacy in a defined clinical population, responsiveness when baseline status is adequate, or functional benefit mediated by dopamine.","evidence_considered":[{"label":"Fanet et al. (2021)","citation_key":"fanet_tetrahydrobioterin_2021","href":"/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"BH4 is required for aromatic amino-acid hydroxylation and therefore for dopamine synthesis.","assessment":{"study":"Narrative biochemical review of tetrahydrobiopterin and monoamine synthesis pathways.","population":"Mixed mechanistic literature; not a defined dietary intervention population.","result":"Identified BH4 as necessary for aromatic amino-acid hydroxylation and monoamine synthesis.","effect_magnitude":"No pooled intake-response effect estimate.","evidence_summary":"Supports reaction-level requirements and pathway boundaries.","limitations":"Does not establish that increasing dietary intake modifies human brain dopamine or improves function."},"canonical_reference":{"author_year":"Fanet et al. (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Erikson et al. (2000)","citation_key":"erikson_iron_2000","href":"/docs/papers/BRAIN-Diet-References#erikson_iron_2000","data_level":"Animal Data","exposure_context":"dietary iron deficiency","evidence_source":"repository-inherited","directional_finding":"Increasing severity of iron deficiency altered locomotor activity and dopamine metabolites in rat striatum and nucleus accumbens.","assessment":{"study":"Controlled rat dietary iron-deficiency experiment with regional dopamine-metabolite and locomotor outcomes.","population":"Laboratory rats under graded iron deficiency.","result":"Iron deficiency changed regional dopamine-metabolite profiles and locomotor activity, with severity-dependent effects.","effect_magnitude":"Directional severity-response; no human-equivalent effect estimate.","evidence_summary":"Supports dopamine-system sensitivity to marked iron deficiency.","limitations":"Animal deficiency model; metabolite concentrations do not directly measure synthesis flux or predict human clinical benefit."},"canonical_reference":{"author_year":"Erikson et al. (2000)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[{"label":"Beard et al. (2003)","citation_key":"beard_iron_2003","href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","data_level":"Animal Data","why_relevant":"Reviews iron-dependent dopamine biology and behavioural consequences of deficiency.","why_excluded":"Review-level and predominantly preclinical; it does not add a human intake-to-dopamine estimate.","canonical_reference":{"author_year":"Beard et al. (2003)","number":2,"anchor":"#pm-ref-2"}},{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as a cofactor context for dopamine formation.","why_excluded":"General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-dopamine response.","canonical_reference":{"author_year":"Kennedy (2016)","number":19,"anchor":"#pm-ref-19"}},{"label":"Spector (1978)","citation_key":"spector_vitamin_1978","href":"/docs/papers/BRAIN-Diet-References#spector_vitamin_1978","data_level":"Animal Data","why_relevant":"Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.","why_excluded":"Rabbit transport study; it does not measure dopamine synthesis, release or function.","canonical_reference":{"author_year":"Spector (1978)","number":20,"anchor":"#pm-ref-20"}}],"presentation":"mechanistic-basis"}} />
 
 <ScientificFinding finding={{"id":"PM3-F2","finding_label":"Dopamine supports cognitive control nonlinearly","finding_summary":"Human pharmacology and patient studies show that dopamine effects on working memory and control depend on baseline state, brain region and task. Both insufficient and excessive stimulation can impair performance.","finding_interpretation":"Dopamine is not a single directional cognitive-performance variable; “more dopamine” is not a valid general recommendation.","fm_rollup":true,"finding_statement":"Dopaminergic modulation of working memory and cognitive control follows baseline-, region- and process-dependent nonlinear relationships rather than a uniformly beneficial direction.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The reviewed human evidence supports an inverted-U framework in which prefrontal stability and striatal flexibility can respond differently to dopaminergic manipulation. Baseline dopamine, receptor context, region and cognitive demand explain why the same manipulation may improve one process or participant while impairing another.","synthesis_limitations":"The synthesis integrates pharmacological studies, Parkinson disease withdrawal studies and preclinical evidence. Drug effects may include non-dopaminergic actions and do not establish nutritional modifiability.","evidence_considered":[{"label":"Cools & D'Esposito (2011)","citation_key":"cools_inverted-u_2011","href":"/docs/papers/BRAIN-Diet-References#cools_inverted-u_2011","data_level":"Human Mechanistic","exposure_context":"pharmacological dopaminergic manipulation and medication withdrawal","evidence_source":"bounded-external-search","directional_finding":"Dopaminergic effects on working memory and cognitive control varied with baseline dopamine, brain region and stability-versus-flexibility demand, consistent with an inverted-U relationship.","assessment":{"study":"Mechanistic review of experimental animals, healthy-human pharmacology and Parkinson disease medication-withdrawal studies.","population":"Healthy adults and people with Parkinson disease, with supporting animal evidence.","result":"Both low and high dopaminergic stimulation could impair cognition; effects differed between prefrontal stability and striatal flexibility.","effect_magnitude":"No pooled effect estimate; direction depended on baseline and task.","evidence_summary":"Directly rejects a unitary more-is-better dopamine model for cognition.","limitations":"Heterogeneous paradigms and pharmacological exposures; not a dietary intervention synthesis."},"canonical_reference":{"author_year":"Cools and D'Esposito (2011)","number":4,"anchor":"#pm-ref-4"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 
@@ -812,7 +986,43 @@ Dopaminergic regulation is a multi-stage control system, not a single concentrat
 
 <ScientificFinding finding={{"id":"PM3-F11","finding_label":"Short restrictive dietary protocols alter dopamine receptor binding in obesity","finding_summary":"Two small human PET studies found lower regional D2/D3 receptor binding potential after short restrictive dietary protocols in adults with obesity. The imaging changes are compatible with altered endogenous dopamine occupancy but do not uniquely identify that mechanism.","finding_interpretation":"This supports two tightly bounded Dietary & Fasting Protocol relationships for adults with obesity, not general reduced-fat or very-low-calorie diet recommendations.","finding_statement":"Short-term selective fat restriction and very-low-calorie dieting can alter regional D2/D3 receptor binding potential in adults with obesity under controlled research conditions.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In a randomized inpatient crossover study, five days of selective isocaloric fat restriction reduced striatal D2/D3 binding potential and food-cue activity, whereas selective carbohydrate restriction did not. In a separate before-and-after study, about ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 binding potential in women with obesity, with regional changes tracking leptin reduction.","synthesis_limitations":"Both studies were short and population-specific. D2/D3 binding potential reflects receptor availability and competition from endogenous dopamine, so the imaging result cannot by itself distinguish receptor regulation from altered dopamine occupancy.","evidence_considered":[{"label":"Darcey et al. (2023)","citation_key":"darcey_dietary_fat_2023","href":"/docs/papers/BRAIN-Diet-References#darcey_dietary_fat_2023","data_level":"Human Mechanistic","exposure_context":"five-day selective isocaloric dietary-fat or carbohydrate restriction","evidence_source":"bounded-external-search","directional_finding":"Selective fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity; selective carbohydrate restriction did not.","assessment":{"study":"Randomized inpatient crossover study using [18F]fallypride PET and food-cue functional MRI.","population":"Seventeen adults with obesity.","result":"D2/D3 binding potential decreased in bilateral striatal clusters after the reduced-fat diet, with no significant change after carbohydrate restriction.","effect_magnitude":"Significant cluster-level reductions in left putamen and right caudate/putamen; no general clinical effect estimate.","evidence_summary":"Directly supports a short, controlled dietary-protocol relationship with a specified dopamine imaging measure.","limitations":"Small obesity-specific sample, five-day exposure and no ability to separate receptor regulation from endogenous dopamine occupancy."},"canonical_reference":{"author_year":"Darcey et al. (2023)","number":17,"anchor":"#pm-ref-17"}},{"label":"Dunn et al. (2017)","citation_key":"dunn_caloric_restriction_2017","href":"/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017","data_level":"Human Mechanistic","exposure_context":"approximately ten days of very-low-calorie dieting","evidence_source":"bounded-external-search","directional_finding":"Very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential, and regional binding changes were associated with reduced leptin.","assessment":{"study":"Before-and-after [18F]fallypride PET study with metabolic and neuroendocrine measurements.","population":"Fifteen women with obesity.","result":"Substantia-nigra D2/D3 binding potential decreased significantly, with nonsignificant trends in other regions; leptin change predicted regional binding change.","effect_magnitude":"Approximately 3 kg mean weight loss; leptin–binding-potential associations were significant across assessed regions.","evidence_summary":"Supports a short-term calorie-restriction relationship with a regional dopamine imaging measure.","limitations":"Uncontrolled, small female sample and no ability to separate receptor regulation from endogenous dopamine occupancy."},"canonical_reference":{"author_year":"Dunn et al. (2017)","number":18,"anchor":"#pm-ref-18"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
 
-## 5. Phenome Connections
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
+↓
+[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- **BRS2 constrained dependency:** COMT contributes to dopamine metabolism MacDonald et al. (2024) [[9]](#pm-ref-9). SAM availability is relevant to that chemistry, but this pass did not establish that ordinary one-carbon variation controls regional dopamine clearance or clinical outcomes. Magnesium as a COMT catalytic participant and FAD as a MAO cofactor were assessed as candidates and are not admitted: this page’s sources name the enzymes, not those dietary routes. COMT genotype-specific interpretation remains on the COMT Specific Mechanism.
+- **BRS3 constrained dependency:** dopamine oxidation and cofactor recycling create redox interactions, but antioxidant exposure was not shown here to modify human dopaminergic signalling.
+- **BRS4 constrained dependency:** synthesis, vesicular cycling and signalling require cellular energy, but no dopamine-specific energy intervention was established.
+- **BRS6 constrained dependency:** insulin, stress and circadian state can influence dopamine-related circuits, but end-to-end human mediation and dietary responsiveness remain unresolved.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Addresses the precursor pool supplying tyrosine for PM3’s dopamine-synthesis step. PM1 assesses availability and prioritisation; PM3 assesses its use in synthesis.
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — governs competitive transport of large neutral amino acids, including tyrosine, before this PM begins synthesis. Meal composition can change precursor ratios; that is transport bias, not dopamine signalling.
+- [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — uses catecholamine products downstream of dopamine formation. It does not supply this PM’s substrate or cofactors.
+- [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) — is a parallel monoamine path from shared precursor transport. It does not feed dopaminergic synthesis.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -908,53 +1118,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-↓
-[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- **BRS2 constrained dependency:** SAM availability is relevant to COMT chemistry, but this pass did not establish that ordinary one-carbon variation controls regional dopamine clearance or clinical outcomes. COMT genotype-specific interpretation remains on the COMT Specific Mechanism.
-- **BRS3 constrained dependency:** dopamine oxidation and cofactor recycling create redox interactions, but antioxidant exposure was not shown here to modify human dopaminergic signalling.
-- **BRS4 constrained dependency:** synthesis, vesicular cycling and signalling require cellular energy, but no dopamine-specific energy intervention was established.
-- **BRS6 constrained dependency:** insulin, stress and circadian state can influence dopamine-related circuits, but end-to-end human mediation and dietary responsiveness remain unresolved.
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-- [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-- [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-No scoreable inputs are activated. Adjudicated §3.1 atoms remain non-scoreable; no intake-response range was established.
-
-| Input Category | Dietary-pass status | PM3 treatment |
-|---|---|---|
-| Functional Property Potentials | None activated | Candidate biochemical requirements are not scoreable properties. |
-| Realised Functional States | None activated | No food, meal or recipe state was adjudicated. |
-| Preparation Transformations | None activated | Food-preparation practices in §3.2 remain non-scoreable iron-delivery relationships. |
-
 ## 8. References
 
 - <span id="pm-ref-1">[1]</span> [Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)
@@ -977,4 +1140,7 @@ No scoreable inputs are activated. Adjudicated §3.1 atoms remain non-scoreable;
 - <span id="pm-ref-18">[18]</span> [Dunn et al. (2017) — Caloric Restriction and Dopamine Receptor Availability](/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017)
 - <span id="pm-ref-19">[19]</span> [Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
 - <span id="pm-ref-20">[20]</span> [Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)
-
+- <span id="pm-ref-21">[21]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- <span id="pm-ref-22">[22]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-23">[23]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- <span id="pm-ref-24">[24]</span> [Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)

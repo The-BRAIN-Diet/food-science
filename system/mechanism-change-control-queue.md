@@ -7,6 +7,33 @@ stated direction.
 
 Nothing in this file is a production change. Each item is a decision request.
 
+### CC-PM-OVERVIEW-01 — Legacy uncited PM Overviews require staged evidence review
+
+**Status:** open — framework-wide review queue; do not bulk-rewrite.
+
+Existing PM Overviews that lack readable, claim-local bibliography citations
+must be assessed when the relevant PM next undergoes Stage 2A. Treat their
+substantive statements as propositions, reconcile them with Scientific
+Findings, add only citations that support the adjacent claim, and use targeted
+retrieval for material gaps. The Mission defines intended scope but is not
+evidence that the mechanism achieves it.
+
+Do not automatically rewrite every existing Overview in one migration. Record
+page-specific unsupported or unresolved claims in that PM's Stage 2A report and
+apply corrections through the normal evidence-review and change-control path.
+Authoritative rule: `system/scientific-finding-schema.md` §
+**Evidence-supported Overview (Stage 2A)**.
+
+### CC-DIT-01 — “Dietary Requirement” now also covers state-regulation
+
+**Status:** open — terminology only; do not rename the architecture in this pass.
+
+Stage 2B §4.1.1 may admit an evidence-supported **regulatory** relationship with the
+PM-governed state (`relationship_mode: state-regulation`) as well as a
+capacity/resource relationship (`capacity-requirement`). The reader heading remains
+“Dietary Requirement.” Decide later whether to rename the heading or keep the
+distinction in overlay metadata only.
+
 **PM-scope consequences.** When evidence adjudication materially changes what a PM
 can reasonably claim — its scope, definition, boundary, or interpretation — record
 a **PM-scope consequence** here. Review **Mission**, **Overview**, and **Mechanistic
@@ -36,24 +63,157 @@ kc_change_control_flags:
   - flag_id: KC-CC-BRSX-FM1-PM1-01
     flag_type: constituent-challenge
     kc_id: BRSX(KC1)
-    proposition: Whether this input genuinely belongs to the constrained KC pool
+    ikc_id: BRSX(KC1)
+    proposition: Whether this input genuinely belongs to the constrained iKC pool
     evidence_source:
       finding_ids: [PM1-F1]
     status: pending-kc-review
 ```
 
 Allowed `flag_type` values are `invalid-kc`, `constituent-challenge`,
-`constituent-candidate`, and `new-kc-candidate`. `kc_id` is required except for a
-new-KC candidate. Allowed status values are `pending-kc-review` and
-`resolved-by-kc-review`. Resolution belongs to a KC-owned evidence review; it must
-not be encoded as a PM-side membership edit. The flag does not suspend PM
-adjudication: the PM independently admits or rejects the Input→PM relationship
-using PM-specific evidence and records any supported relationship in its own atom.
+`constituent-candidate`, `new-kc-candidate`, and `ikc-scope-conflict`. `kc_id` is
+required except for a new-KC candidate. Optional `ikc_id` names the individual
+constraint on that KC page (defaults to `kc_id` on single-iKC pages). Allowed
+status values are `pending-kc-review` and `resolved-by-kc-review`. Resolution
+belongs to a KC-owned evidence review; it must not be encoded as a PM-side
+membership edit. PM results never automatically modify an iKC. The flag does not
+suspend PM adjudication of Input→PM relationships.
 
 If canonical review retires a KC, close relevant flags, update the retired KC
 registry, remove live projections, and independently adjudicate former
 constituents. Retirement never authorises automatic migration and must not delete
 an independently valid PM-owned relationship.
+
+---
+
+## BRS1-FM1 PM1, PM2, PM4, PM5 — Stage 2B dietary representation flags
+
+**Status:** open — Stage 2A Findings now exist on BRS1-FM1-PM2 and BRS1-FM1-PM4; PM1 and PM5 still lack Stage 2A Findings.
+
+| PM | Input | Input type | Biological role | Evidence source | Downstream issue |
+|---|---|---|---|---|---|
+| BRS1-FM1-PM1 | Distributed protein intake | dietary pattern | Meal-level amino-acid availability across the day | Walrand & Boirie 2005 | Candidate SOP; not projected without a Finding object |
+| BRS1-FM1-PM1 | BRS1(KC1) | shared constraint | Amino-acid quality of the shared precursor pool (not LAT1 competition) | Mariotti 2019; Moughan 2024; Fernstrom 2013 | `FW008` / `KC-CC-BRS1-FM1-PM1-01` — quality-arm **candidate**, public mapping not established. Competitive balance stays PM2. PM-tab record only; not the Framework Review register. |
+| BRS1-FM1-PM2 | Meal carbohydrate-to-protein composition | dietary pattern | Direct state-regulation of plasma Trp/Tyr:LNAA ratios at LAT1 | Ashley 1985; Wurtman 2003; Fernstrom 2013; PM2-F1; PM2-F2 | Admitted to §3.1.1 (`PM2-DIT-3`). Not an SOP. Phenome ADHD wording and Aquili as meal-LAT1 support remain overclaims; legacy `evidence_confidence` left unchanged |
+| BRS1-FM1-PM4 | Copper | cofactor | Dopamine β-hydroxylase metal cofactor | PM4-F4; Goldstein 2026; Vendelboe 2016 | Admitted as Direct DR at biological-dependency (`PM4-DIT-4`). Not a noradrenaline lever. See `system/brs1-fm1-pm4-noradrenergic-stage2b-report.md` |
+| BRS1-FM1-PM4 | Vitamin C (ascorbate) | cofactor | Dopamine β-hydroxylase electron donor | PM4-F4; Goldstein 2026; Harrison 2009 | Admitted as Direct DR at biological-dependency (`PM4-DIT-5`). Not a noradrenaline lever. See `system/brs1-fm1-pm4-noradrenergic-stage2b-report.md` |
+| BRS1-FM1-PM5 | Iron | cofactor | Candidate TPH/AADC metal context | none on this PM | Name-only legacy cofactor; do not inherit from PM3/PM4 |
+| BRS1-FM1-PM5 | Folate | cofactor | Candidate one-carbon / BH4 context | none on this PM | Name-only legacy cofactor; BRS2 scope until PM-specific evidence |
+| BRS1-FM1-PM5 | Vitamin C | cofactor | Candidate synthesis/redox context | none on this PM | Name-only legacy cofactor |
+| BRS1-FM1-PM5 | Fibre-rich dietary pattern | dietary pattern | Gut–brain / microbial serotonin framing | none as a PM5 requirement | Category safeguard: not a Direct/Derived Dietary Requirement |
+
+`PM → Dietary Input → Input Type → Biological Role → Evidence Source → issue`
+
+---
+
+## BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation
+
+### KC-CC-BRS1-FM1-PM2-02 — KC1 quality-arm Type D retest
+
+**Status:** pending-kc-review (`applicability-retest`).
+
+**Review record:** `FW027` on `BRS1-FM1-PM2`.
+
+The competitive LAT1 arm remains an established `governs` mapping. The
+quality arm was previously excluded because pool-quality assessment is
+maintained on PM1. Type D does not allow ownership to decide applicability.
+Retest whether amino-acid quality inadequacy constrains this PM’s governed
+LAT1-balance capacity. Do not reopen Dietary Requirements in that pass unless
+the test itself requires it.
+
+---
+
+## BRS1-FM1-PM5 — Serotonergic Signalling Regulation
+
+### CC-BRS1-FM1-PM5-01 — Later-stage dietary candidates beyond synthesis
+
+**Status:** Deferred — evidence assessment pending.
+
+**Review record:** `FW023` (`register_surface: pm-tab`) on
+`system/framework-qc/page-review-state.json` for `BRS1-FM1-PM5`.
+
+**Reports:** `system/brs1-fm1-pm5-serotonergic-stage2a-report.md`,
+`system/brs1-fm1-pm5-serotonergic-stage2b-report.md`.
+
+PM5-F4 establishes release, receptor families, SERT-mediated reuptake and
+enzymatic metabolism as signalling stages. Current Dietary Requirements
+address synthesis. Review whether the remaining stages have adequately
+assessed dietary dependencies.
+
+**Specific candidates for later assessment**
+
+- **MAO:** FAD dependence and the dietary riboflavin → FAD relationship.
+- **SERT and vesicular handling:** any ordinary-diet relationship, if one
+  exists, distinct from pharmacological transporter engagement.
+- Any other specific dietary dependencies identified when reviewing storage,
+  release and receptor signalling.
+
+For each candidate, distinguish biochemical necessity, dietary provision,
+demonstrated dietary modulation and functional or clinical benefit.
+
+The existing corpus did not establish these dietary routes. Record them as
+**unresolved**, not evidence-supported rejections. Their identification does
+not authorise admission as Dietary Requirements.
+
+When resumed, use targeted source retrieval to resolve material gaps. Preserve
+the completed tryptophan, iron, PLP/B6 and BH4 classifications, the empty
+KC mapping, and explained PM connections.
+
+---
+
+## BRS1-FM1-PM3 — Dopaminergic Signalling Regulation
+
+### CC-BRS1-FM1-PM3-01 — Mission-coverage dietary candidates beyond synthesis
+
+**Status:** Deferred — evidence assessment pending.
+
+**Review record:** `FW017` (`register_surface: pm-tab`) on
+`system/framework-qc/page-review-state.json` for `BRS1-FM1-PM3`.
+
+**Reports:** `system/dopaminergic-signalling-stage2a-report.md`,
+`system/dopaminergic-signalling-stage2b-report.md`,
+`system/dopaminergic-signalling-stage2-evidence-checklist.md`.
+
+PM3’s mission covers synthesis, storage, release, receptor signalling, reuptake
+and metabolism. Current Dietary Requirements primarily address synthesis.
+Review whether the remaining stages have been adequately assessed.
+
+**Specific candidates for later assessment**
+
+- **MAO:** FAD dependence and the dietary riboflavin → FAD relationship.
+- **COMT:** SAM and magnesium dependencies, including relevant connections to
+  BRS2.
+- Any other specific dietary dependencies identified when reviewing storage,
+  release, receptor signalling and reuptake.
+
+For each candidate, distinguish biochemical necessity, dietary provision,
+demonstrated dietary modulation and functional or clinical benefit. Determine
+what belongs in PM3 and what requires an explained connection to another
+mechanism.
+
+The existing corpus did not establish these dietary routes. Record them as
+**unresolved**, not evidence-supported rejections. Their identification does
+not authorise admission as Dietary Requirements.
+
+When resumed, use targeted source retrieval to resolve material gaps. Preserve
+the completed tyrosine correction, BH4 placement, relationship descriptions
+and audience improvements. Do not treat Stage 2A/2B synthesis-path work as
+closing this mission-coverage question.
+
+---
+
+## BRS3 FM1–FM3 — Stage 2B KC / cofactor flags
+
+**Status:** open — KC membership remains `legacy-unreviewed`. PM1 magnesium was independently reviewed as a §4.1.2 biochemical requirement (not restored as a dietary-cofactor food arrow).
+
+| PM | Input | Input type | Biological role | Evidence source | Downstream issue |
+|---|---|---|---|---|---|
+| BRS3-FM1-PM1 | Magnesium ions (Mg²⁺) | catalytic ion | Mg²⁺–ATP chemistry of IKK phosphotransfer | Mercurio 1997; Adams 2001; UniProt O14920 / Rhea 19073 | Admitted as §4.1.2 biochemical-requirement; not a Direct Dietary Requirement |
+| BRS3-FM1-PM1 | Polyphenols | nutrient/compound class | Candidate state-regulation of NF-κB transcriptional tone | Zelicha 2022; Tongjaroenbuangam 2011; Camuesco 2006 | Not admitted to §4.1.1 (endpoint/attribution/exposure bar). Not iKC membership. `KC-CC-BRS3-FM1-PM1-01` remains pending |
+| BRS3-FM1-PM1 | EPA/DHA | conditional_supplementation (Optimisation Strategy) | Intervention evidence after Direct/Derived **NO** | Li and Zhang 2026; Cannataro 2024 | **SOP NOT ESTABLISHED.** Stage 2B NO preserved. No SOP YAML. Connected SPM/resolution route remains on PM8; supplementation → resolution response and supplementation → NF-κB transcriptional tone are not closed. Must not project upstream as PM1 Dietary Requirement |
+| BRS3-FM2-PM3 | Vitamin C | nutrient/substance | KC-context antioxidant substrate for Nrf2-ARE | Verlaet 2018 | `KC-CC-BRS3-FM2-PM3-01`; not a Direct Nrf2 requirement |
+| BRS3-FM2-PM4 | Glutathione | biochemical requirement | Peroxidase reductant vs KC1 GSH amino-acid pool | Kurhan 2021 | `KC-CC-BRS3-FM2-PM4-01` |
+| BRS3-FM2-PM6 | Vitamin C | nutrient/substance | Recycling network vs KC1 vitamin C | Packer 1997 | `KC-CC-BRS3-FM2-PM6-01` |
 
 ---
 
@@ -215,7 +375,7 @@ later under the authorised Phenome methodology; do not map from unscored SEC.
 
 ### CC-PM3-02 — KC2 projection must remain PM-specific
 
-**Status:** open — PM3 display narrowed locally; KC page unchanged.
+**Status:** Stage 2B Type D recorded as unresolved (30 September 2026). PM3 no longer publishes a KC2 mapping. KC page unchanged.
 
 `BRS2(KC2) — Methionine & Transsulfuration Substrate Pool` contains methionine,
 serine, glycine and cysteine. PM3 directly uses methionine; serine, glycine and
@@ -245,7 +405,8 @@ formation and clearance. The target PM now records this as `PM3-IC1`.
 
 ### CC-PM3-05 — Removed PM3 cross-BRS links need graph review
 
-**Status:** open — invalid links removed from PM3 only.
+**Status:** resolved 2026-09-30 — invalid PEMT wording removed and qualified
+shared-choline relationships authored.
 
 The legacy PM3 §6.2 linked BRS1-FM2-PM6 Acetylcholine Synthesis Support with the
 copy “SAMe-dependent PEMT methylation” and BRS1-FM3-PM7 Neuronal Membrane DHA
@@ -255,6 +416,11 @@ downstream phosphatidylcholine biology, while homocysteine disposal is upstream
 of PM3 and belongs to BRS2-FM2. Review whether qualified relationships should be
 authored through BRS2-FM3-PM7 or another canonical mechanism; do not restore the
 legacy links verbatim.
+
+The amended PM6 review now links BRS2-FM1-PM1 and PM2 through the supported
+one-carbon/choline resource chain and links BRS2-FM3-PM7 for phosphatidylcholine
+formation. Reciprocal BRS2 FM1 connection copy was corrected to remove the PEMT
+misattribution. The unrelated PM7/transsulfuration description was not restored.
 
 ### CC-PM3-06 — Dietary representation flags
 
@@ -270,3 +436,71 @@ legacy links verbatim.
 The later lever pass must preserve the distinction between biological
 requirement, dietary modulation, phenome/clinical outcome evidence and
 food-composition evidence.
+
+---
+
+## BRS3(KC1) — Antioxidant Substrate Sufficiency / glutathione precursor pool
+
+Raised by KC-page evidence review (`system/kc-page-evidence-review-contract.md`,
+`system/brs3-kc1-evidence-review.md`). PM pages were not modified.
+
+### CC-BRS3-KC1-01 — Dual-arm page title and grouping
+
+**Status:** pending-kc-review (`KC-CC-BRS3-KC1-01`).
+
+“Antioxidant Substrate Sufficiency” as one pool of direct dietary antioxidants
+plus glutathione-building amino acids is not supported as a single nutritionally
+constrained domain. Admitted science is cysteine and glycine availability for glutathione synthesis.
+
+### CC-BRS3-KC1-02 — Polyphenols as KC constituent
+
+**Status:** resolved-by-kc-review (`KC-CC-BRS3-KC1-02`) — **rejected**.
+
+Zelicha et al. (2022) is a polyphenol-rich dietary-pattern RCT; Packer et al.
+(1997) is vitamin E / thiol network biochemistry. Neither establishes
+polyphenols as an exogenous antioxidant substrate class or shared KC
+prerequisite.
+
+### CC-BRS3-KC1-03 — Vitamin C placement
+
+**Status:** resolved-by-kc-review (`KC-CC-BRS3-KC1-03`) — **excluded from this iKC**.
+
+Packer supports vitamin C as a redox-network recycling input. That is not
+constraint membership. No second iKC is created to preserve the input.
+
+### CC-BRS3-KC1-05 — Glutamate iKC membership
+
+**Status:** resolved-by-kc-review (`KC-CC-BRS3-KC1-05`) — **excluded**.
+
+Glutamate is required for glutathione synthesis. Evidence establishes
+biochemical dependency only, not nutritional constraint. PM Dietary
+Requirements may still carry glutamate where independently supported.
+
+### CC-BRS3-KC1-04 — FM1 / PM1 / PM2 proposed scope
+
+**Status:** pending-kc-review (`KC-CC-BRS3-KC1-04`).
+
+Existing inflammatory PM connections are carried as proposed scope only. The
+attached corpus does not establish GSH precursor sufficiency as a shared
+constraint of NF-κB or gut-derived inflammatory signalling. Stage 2B must test
+each PM ↔ iKC relationship independently.
+
+### CC-BRS3-FM1-PM1-01 — PM1 Stage 2B vs BRS3(KC1) scope
+
+**Status:** pending-kc-review (`KC-CC-BRS3-FM1-PM1-01`) — `ikc-scope-conflict`.
+
+PM1 Stage 2B does not admit BRS3(KC1). Canonical re-adjudication classifies
+polyphenols, EPA/DHA, and fibre-rich patterns as modulation/meal-context, not
+Dietary Requirements of NF-κB, and not iKC membership. The KC page was not
+rewritten.
+
+### CC-BRS1-FM1-PM3-05-KC-COVERAGE — Proposed constraints, no new KC
+
+**Status:** recorded only — do not create a KC in this pass.
+
+Mission-coverage scan for PM3–PM5 considered shared iron-hydroxylase, BH4,
+vesicular/VMAT–ATP, and transporter/MAO stages. None is proposed as a new KC:
+mineral cofactors and mechanism stages are excluded by the KC schema. Keep
+them as PM Dietary Requirements or later-stage deferred items. See
+`system/brs1-fm1-pm3-pm5-type-d-kc-reassessment.md`.
+

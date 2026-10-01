@@ -1,6 +1,8 @@
 /**
  * Dietary Requirements layer — projects PM Evidence atoms with dietary addressability
  * and optional Direct/Derived relationship classification.
+ * A Direct/Derived NO may flag an Optimisation Strategy candidate; it does not
+ * admit `system_optimisation_practices`.
  * @see system/dietary-input-traceability-contract.md
  */
 
@@ -29,6 +31,8 @@ export const CLAIM_CEILING = new Set([
 
 export const REQUIREMENT_CLASSIFICATION = new Set(["direct", "derived"]);
 
+export const RELATIONSHIP_MODES = new Set(["capacity-requirement", "state-regulation"]);
+
 export const RELATIONSHIP_LAYERS = new Set([
   "dietary-requirement",
   "biochemical-requirement",
@@ -36,6 +40,9 @@ export const RELATIONSHIP_LAYERS = new Set([
 ]);
 
 export const PRESENTATION_SECTIONS = new Set(["3.1.1", "3.1.2", "3.1.3"]);
+
+const PUBLIC_OWNERSHIP_PROSE_RE =
+  /\bon this page\b|supply assessment is maintained|Local listing does not create|detailed supply assessment is maintained|does not copy the precursor-pool|does not copy the precursor pool/i;
 
 function push(issues, code, message) {
   issues.push({ code, message });
@@ -72,11 +79,70 @@ export function resolveLeverAtom(data, leverRow) {
     dietary_addressability: leverRow?.dietary_addressability ?? null,
     claim_ceiling: leverRow?.claim_ceiling ?? "biological-dependency",
     requirement_classification: leverRow?.requirement_classification ?? null,
+    relationship_mode: leverRow?.relationship_mode ?? null,
     derived_target: leverRow?.derived_target ?? null,
     derived_target_atom_id: leverRow?.derived_target_atom_id ?? null,
     relationship_layer: leverRow?.relationship_layer || "dietary-requirement",
     reference_numbers: evidenceSourceReferenceNumbers(data, base.evidence_source),
+    upstream_pm_relationships: normalizeUpstreamPmRelationships(base.upstream_pm_relationships),
   };
+}
+
+export function normalizeUpstreamPmRelationships(rows) {
+  if (!Array.isArray(rows)) return [];
+  return rows
+    .map((row) => ({
+      relationship_label: String(row?.relationship_label || "").trim(),
+      pm_short_id: String(row?.pm_short_id || "").trim(),
+      pm_id: String(row?.pm_id || "").trim(),
+      href: String(row?.href || "").trim(),
+    }))
+    .filter((row) => row.relationship_label || row.pm_short_id || row.href);
+}
+
+export function formatUpstreamIndicatorText(row) {
+  const label = String(row?.relationship_label || "").trim();
+  const shortId = String(row?.pm_short_id || "").trim();
+  if (!label || !shortId) return "";
+  return `${label}: ${shortId}`;
+}
+
+export function validateUpstreamPmRelationships(rows, issues, label) {
+  if (rows === undefined) return;
+  if (!Array.isArray(rows)) {
+    push(issues, "dla_upstream_not_array", `${label}: upstream_pm_relationships must be an array`);
+    return;
+  }
+  for (const [index, row] of rows.entries()) {
+    const itemLabel = `${label}: upstream_pm_relationships[${index}]`;
+    const normalized = normalizeUpstreamPmRelationships([row])[0];
+    if (!normalized?.relationship_label) {
+      push(issues, "dla_upstream_missing_label", `${itemLabel} needs relationship_label`);
+    } else if (/^from$/i.test(normalized.relationship_label)) {
+      push(
+        issues,
+        "dla_upstream_ambiguous_label",
+        `${itemLabel} must name the relationship (for example Supply), not “From”`,
+      );
+    }
+    if (!normalized?.pm_short_id) {
+      push(issues, "dla_upstream_missing_short_id", `${itemLabel} needs pm_short_id`);
+    }
+    if (!normalized?.href || !normalized.href.startsWith("/docs/")) {
+      push(issues, "dla_upstream_invalid_href", `${itemLabel} needs an internal /docs/ href`);
+    }
+  }
+}
+
+function rejectPublicOwnershipProse(text, issues, label, field) {
+  const value = String(text || "");
+  if (PUBLIC_OWNERSHIP_PROSE_RE.test(value)) {
+    push(
+      issues,
+      "dla_public_ownership_prose",
+      `${label}: ${field} must explain the science; ownership and record-maintenance language belongs in reports`,
+    );
+  }
 }
 
 export function isDietaryRequirementAtom(row) {
@@ -111,6 +177,8 @@ const COMPACT_INPUT_TYPE_LABEL = {
   precursor: "Precursor",
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",
+  "dietary pattern": "Dietary pattern",
+  "dietary matrix": "Dietary matrix",
 };
 
 export function formatRequirementCompactQualifier(atom) {
@@ -131,7 +199,7 @@ export function resolveAllLeverAtoms(data) {
     .filter(Boolean);
 }
 
-/** PM↔KC context is valid only when it references an independently adjudicated PM atom. */
+/** PM↔iKC context is valid only when it references an independently adjudicated PM atom. */
 export function pmKcConstituentRelationshipIsAdjudicated(
   constituentRelationship,
   pmTraceabilityRows = [],
@@ -170,6 +238,40 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
     if (row.claim_ceiling != null && row.claim_ceiling !== "") {
       if (!CLAIM_CEILING.has(String(row.claim_ceiling))) {
         push(issues, "dla_invalid_claim_ceiling", `${label} invalid claim_ceiling`);
+      }
+    }
+    if (
+      row.relationship_mode != null &&
+      row.relationship_mode !== "" &&
+      !RELATIONSHIP_MODES.has(String(row.relationship_mode))
+    ) {
+      push(
+        issues,
+        "dla_invalid_relationship_mode",
+        `${label} relationship_mode must be capacity-requirement or state-regulation when present`,
+      );
+    }
+    if (isBiochemicalRequirementAtom(row) && row.relationship_mode) {
+      push(
+        issues,
+        "dla_biochemical_relationship_mode",
+        `${label} §3.1.2 biochemical-requirement atoms must not carry relationship_mode`,
+      );
+    }
+    if (String(row.relationship_mode || "") === "state-regulation") {
+      if (!isDietaryRequirementAtom(row)) {
+        push(
+          issues,
+          "dla_state_regulation_wrong_layer",
+          `${label} state-regulation belongs on dietary-requirement atoms, not biochemical or kc-relevance inventory`,
+        );
+      }
+      if (String(row.claim_ceiling || "") === "biological-dependency") {
+        push(
+          issues,
+          "dla_state_regulation_dependency_ceiling",
+          `${label} state-regulation must not use claim_ceiling biological-dependency unless indispensability is established; use modulation-demonstrated or a higher ceiling only when that claim is supported`,
+        );
       }
     }
     if (
@@ -271,6 +373,21 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
     }
   }
 
+  for (const [i, atom] of (data?.dietary_input_traceability || []).entries()) {
+    validateUpstreamPmRelationships(
+      atom?.upstream_pm_relationships,
+      issues,
+      `${entityLabel}: dietary_input_traceability[${i}]`,
+    );
+    rejectPublicOwnershipProse(atom?.biological_role, issues, `${entityLabel}: dietary_input_traceability[${i}]`, "biological_role");
+    rejectPublicOwnershipProse(
+      atom?.evidence_limitation,
+      issues,
+      `${entityLabel}: dietary_input_traceability[${i}]`,
+      "evidence_limitation",
+    );
+  }
+
   for (const [i, pres] of (data?.dietary_lever_presentations || []).entries()) {
     const label = `${entityLabel}: dietary_lever_presentations[${i}]`;
     const aid = String(pres?.atom_id || "");
@@ -306,6 +423,9 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
         `${label} must not list food levers when addressability is not-established`,
       );
     }
+    rejectPublicOwnershipProse(pres?.reader_description, issues, label, "reader_description");
+    rejectPublicOwnershipProse(lever?.permitted_wording, issues, label, "permitted_wording");
+    rejectPublicOwnershipProse(lever?.evidence_limitation, issues, label, "evidence_limitation");
   }
 }
 

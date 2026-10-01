@@ -381,22 +381,34 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 | # | Hub dropdown | PM section | Purpose |
 |---|--------------|------------|---------|
 | 4.1 | **Dietary Guidance** | PM **§3.1.1 Direct and/or Derived Dietary Requirements** (legacy extractors still parse §4.1.1 Direct Dietary Levers) | What to eat — patterns, nutrients, biology, target foods |
-| 4.2 | **System Optimisation Practices** | §4.2 System Optimisation Practices | Targeted interventions beyond foundational diet/lifestyle — five nested categories (prep, protocols, supplements, light/circadian, stress/autonomic) |
-| 4.3 | **Lifestyle Priorities** | §4.3 Lifestyle Levers | Behavioural levers (sleep, activity, stress recovery, circadian routines) — not dietary delivery or preparation |
+| 4.2 | **System Optimisation Practices** | §3.2 / legacy §4.2 | One outer collapsible; five nested categories (see below) |
+| 4.3 | **Lifestyle Priorities** | §3.3 Lifestyle Levers / legacy §4.3 | Foundational/recurrent behavioural priorities — not food, nutrients, patterns, or cooking |
 
 ### System Optimisation Practices
 
-**Purpose:** Targeted interventions that may enhance biological system performance **beyond** foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.
+**Purpose:** Targeted, evidence-qualified interventions or protocols intended to
+optimise a biological state **beyond** foundational Dietary Guidance and
+Lifestyle Priorities. They complement — rather than replace — those layers.
 
-**Hub architecture:** One outer collapsible labelled **System Optimisation Practices**, containing five nested category dropdowns on every BRS1–BRS6 hub:
+**Hub architecture:** One outer collapsible labelled **System Optimisation
+Practices**, containing **all five** nested category dropdowns on every BRS1–BRS6
+hub. Hub SOP is a **roll-up/projection** (PM records, KC Emerging Biological
+Supports, and matching maps) — not a second authored biology ontology.
 
-| # | Category | Description |
-|---|----------|-------------|
-| 1 | **Food Preparation & Delivery** | Food structure, cooking, bioavailability and nutrient delivery |
-| 2 | **Conditional Supplementation** | Evidence-informed supplements under selected conditions — **auto-populated from KC §4 Emerging Biological Supports** when present |
-| 3 | **Dietary & Fasting Protocols** | Targeted dietary approaches beyond routine healthy eating |
-| 4 | **Light & Circadian Optimisation** | Circadian entrainment and biological timing practices |
-| 5 | **Stress & Autonomic Regulation** | Deliberate autonomic and adaptive-stress interventions |
+| # | `optimisation_category` | Category | Description |
+|---|-------------------------|----------|-------------|
+| 1 | `food_prep` | **Food Preparation & Delivery** | Structure, cooking, bioavailability, delivery |
+| 2 | `conditional_supplementation` | **Conditional Supplementation** | Condition-specific supplementation; hub may roll up KC §4 Emerging Biological Supports |
+| 3 | `dietary_protocols` | **Dietary & Fasting Protocols** | Targeted dietary, fasting or timing **protocols** — not ordinary healthy eating |
+| 4 | `light_circadian` | **Light & Circadian Optimisation** | Circadian entrainment and biological timing practices |
+| 5 | `stress_autonomic` | **Stress & Autonomic Regulation** | Deliberate autonomic and adaptive-stress interventions |
+
+**Hub behaviour (BRS1–BRS6):** Always render all five categories. Empty categories
+stay visible as **Coming soon**. Do not invent placeholder biology.
+
+**PM behaviour:** Render only categories that contain evidence-qualified
+`system_optimisation_practices` records. Do not create empty PM SOP categories
+for structural completeness.
 
 **Population rules:**
 
@@ -406,13 +418,44 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 - **Conditional Supplementation** is populated directly from each BRS KC page’s `### 4. Emerging Biological Supports` (`####` candidate headings with Why interesting / Why emerging). Curated overrides may still live in `HUB_OPTIMISATION_LEVERS[brs].conditional_supplementation` and are merged/deduped.
 - When Conditional Supplementation has entries, the hub dropdown **auto-expands** alongside Food Preparation & Delivery when System Optimisation Practices is opened.
 
-**Boundary — do not place here:**
+**Boundary — classify by relationship / use, not by subject name:**
 
-- Routine exercise, physical activity, sleep, general stress management, meal timing
-- Protein distribution, dietary diversity, routine dietary patterns, ordinary food recommendations
+| Use | Layer |
+|-----|--------|
+| Foundational recurring behaviour (sleep, routine meal timing/rhythm, activity, stress recovery, circadian sleep–wake) | **Lifestyle Priorities** |
+| Targeted evidence-qualified intervention or protocol intended to optimise a biological state | **System Optimisation Practice** (correct nested category) |
+| Dietary input with an evidence-qualified relationship to the PM itself | **Dietary Requirement** (§3.1 / hub Dietary Guidance) |
+
+The same broad domain may appear in more than one layer without being duplicate
+data. Example: routine meal timing → Lifestyle Priority; a defined
+time-restricted feeding / fasting intervention → SOP `dietary_protocols`; a
+dietary input required by or evidence-qualified as regulating the PM → Dietary
+Requirement.
+
+**Do not place in SOP:**
+
+- Ordinary food choice, nutrients, dietary patterns (Dietary Guidance / Requirements)
 - Step-by-step recipes → **Food Profiles**
+- Foundational sleep, activity, or general stress recovery (Lifestyle Priorities)
 
-Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
+**Stage 2B routing — conditional Optimisation Strategy follow-up:** A **NO** on
+Direct/Derived remains authoritative and is a **separate** question from
+Optimisation Strategy. A §4.1.1 failure does not mean the PM is not diet- or
+intervention-addressable, and it does not auto-qualify SOP.
+
+If credible intervention evidence remains (direct, or via an evidence-supported
+connected mechanism), **surface a candidate** for the matching SOP category. Do
+**not** auto-admit, do **not** run a large SOP review unless that workflow is in
+the current task, keep mechanistic distance explicit, and never project the SOP
+back as a Direct or Derived Dietary Requirement.
+
+Canonical principle: an Optimisation Strategy may influence a PM through an
+evidence-supported connected mechanism, but that distance must be preserved.
+
+Example: EPA/DHA not admitted as a PM1 Dietary Requirement may still be a
+**Conditional Supplementation candidate** (connected SPM / resolution /
+inflammatory-regulation route), pending independent intervention review. That
+must not collapse into EPA/DHA → Direct Dietary Requirement of NF-κB PM1.
 
 **Biological connection:**
 
@@ -649,17 +692,20 @@ This is a **BRS-level educational summary** — not a collection of PM annotatio
 
 ### Lifestyle vs Dietary Guidance boundary (required)
 
-**Lifestyle Priorities** describe **how people live** — non-dietary behaviours that modulate BRS function.
+**Lifestyle Priorities** describe **how people live** — foundational, recurrent
+non-dietary behaviours that modulate BRS function. Hub entries are **merged
+BRS-level themes** (`ACTION` + `WHY` + `Supports:` PM links). Do not dump every
+PM lifestyle line onto the hub.
 
 **Dietary Guidance** (including Key Constraints and Additional Mechanism-Specific Dietary Levers) describes **what and how people eat**.
 
 | Belongs in Lifestyle Priorities | Belongs in Dietary Guidance / System Optimisation Practices |
 |--------------------------------|--------------------------------------------|
-| Meal timing / eating rhythm | Food choice, food quality, food processing |
+| Routine meal timing / eating rhythm | Food choice, food quality, food processing; **defined** fasting/TRF protocols → SOP `dietary_protocols` |
 | Sleep | Nutrients, dietary patterns, food diversity |
-| Stress management | Ultra-processed / emulsifier patterns |
+| Stress recovery (foundational) | Ultra-processed / emulsifier patterns; **deliberate** autonomic protocols → SOP `stress_autonomic` |
 | Physical activity (where relevant) | Preparation, pairing, matrix preservation |
-| Circadian sleep–wake behaviour | Restrictive vs varied eating patterns |
+| Circadian sleep–wake behaviour | Restrictive vs varied eating patterns; **light-protocol** interventions → SOP `light_circadian` |
 | Alcohol as a lifestyle exposure (if retained) | Fermented foods, fibre, polyphenols, etc. |
 
 Do **not** place recommendations whose primary intervention is food choice, food quality, food processing, food diversity, nutrients, or dietary pattern in Lifestyle Priorities. Do not duplicate the same recommendation across Lifestyle Priorities and Dietary Guidance.

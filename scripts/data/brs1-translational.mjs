@@ -107,13 +107,13 @@ export const BRS1_UPDATES = {
   "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": {
     functional_descriptor: "(Choline supported neurotransmission for learning and focus)",
     translational:
-      "Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine (the principal cholinergic neurotransmitter). Choline-rich foods provide the substrate for a signalling system central to learning and focus.",
+      "Supports the capacity to form acetylcholine by bringing choline into cholinergic nerve terminals and combining it with locally available acetyl-CoA. Food supplies choline, including through phosphatidylcholine, but provision is not proof that extra intake improves attention.",
     scientific:
-      "Choline is converted to acetylcholine through choline acetyltransferase-dependent synthesis with cofactor support. This PM governs substrate conversion only — not competitive amino-acid transport (PM2) or broad protein-pool sufficiency (PM1).",
+      "Choline acetyltransferase joins choline and acetyl-CoA. Distinct blood–brain transport, high-affinity terminal uptake and compartmented acetyl-CoA supply control whether those substrates meet; pantothenate supports coenzyme-A provision but is not a direct ChAT cofactor.",
     bullets: [
-      "Converts dietary choline into acetylcholine for learning and focus — within BRS1.",
-      "Supports attention and working-memory cholinergic signalling — within BRS1.",
-      "Draws on choline and phospholipid substrates that intersect membrane chemistry — Supporting BRS2.",
+      "Maintains choline and acetyl-CoA supply for acetylcholine formation — within BRS1.",
+      "Supports attention-relevant cholinergic biology without an intake-to-benefit claim — within BRS1.",
+      "Shares choline resources with one-carbon and phosphatidylcholine chemistry — Supporting BRS2.",
     ],
   },
   "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": {

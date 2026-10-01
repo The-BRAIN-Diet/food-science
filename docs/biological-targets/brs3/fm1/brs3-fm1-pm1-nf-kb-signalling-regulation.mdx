@@ -8,24 +8,74 @@ parent_fm: BRS3(FM1)
 parent_brs: BRS3
 summary: >-
   Regulates NF-κB (a master transcriptional switch that turns on
-  pro-inflammatory gene programmes) at the upstream signalling node where
-  dietary and metabolic inputs first influence inflammatory tone. Because this
-  pathway sits ahead of cytokine release and downstream immune activation,
-  diet-linked NF-κB regulation shapes how strongly the whole inflammatory
-  cascade fires rather than treating symptoms after the fact. This positions it
-  as an upstream, dietary-actionable inflammatory control point.
-key_constraints:
-  - BRS3(KC1) - Antioxidant Substrate Availability
+  pro-inflammatory gene programmes) at an upstream node of inflammatory
+  transcription, ahead of cytokine release. Attached dietary-pattern and
+  compound studies inform inflammatory context. No Direct or Derived Dietary
+  Requirement is currently established for regulation of NF-κB transcriptional
+  tone.
 cofactors:
-  - polyphenols
-  - omega-3
-  - magnesium
+  - Magnesium ions (Mg²⁺)
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    input: Magnesium ions (Mg²⁺)
+    input_type: catalytic ion
+    biological_role: >-
+      Canonical NF-κB activation uses IKK (EC 2.7.11.10) to phosphorylate IκB
+      with ATP. Protein-serine/threonine kinases use Mg²⁺–ATP as the phosphoryl
+      donor for that phosphotransfer.
+    evidence_source:
+      citation_keys:
+        - mercurio_ikk_1997
+        - adams_kinase_mechanisms_2001
+      pathway_resources:
+        - UniProtKB O14920 (IKBKB); Rhea:RHEA:19073
+    evidence_limitation: >-
+      Reviewed UniProt IKBKB records the ATP-dependent IκB kinase reaction
+      without a magnesium cofactor annotation; published IKKβ crystals used in
+      this review are inhibitor-bound rather than ATP–Mg ternary complexes.
+      This does not establish that ordinary dietary magnesium intake limits
+      human NF-κB transcription.
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Magnesium ions participate in ATP-dependent IKK phosphotransfer as the
+      catalytic counter-ion of protein-serine/threonine kinase chemistry. This
+      does not establish a Dietary Requirement of NF-κB signalling or a dietary
+      magnesium effect on human NF-κB transcription.
+    evidence_limitation: >-
+      Reviewed UniProt IKBKB records the ATP-dependent IκB kinase reaction
+      without a magnesium cofactor annotation; published IKKβ crystals used in
+      this review are inhibitor-bound rather than ATP–Mg ternary complexes.
+      This does not establish that ordinary dietary magnesium intake limits
+      human NF-κB transcription.
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: Magnesium ions (Mg²⁺)
+    presentation_section: 3.1.2
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: >-
-  Pattern-based: repeated high-polyphenol and omega-3 intake with low-UPF
-  exposure
+  Pattern-based inflammatory-tone context (polyphenol-rich meals, omega-3
+  co-ingestion, low-UPF exposure) is cited as modulation evidence, not as a
+  Dietary Requirement of NF-κB signalling.
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM1-PM1-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS3(KC1)
+    proposition: 'KC-page proposed scope includes this PM; Stage 2B does not establish that the BRS3(KC1) cysteine/glycine glutathione-precursor constraint applies to NF-κB transcriptional regulation. Polyphenol modulation evidence on this PM is not iKC membership.'
+    evidence_source:
+      citation_keys:
+        - zelicha_effect_2022
+        - tongjaroenbuangam_neuroprotective_2011
+    status: pending-kc-review
+
 references:
   - >-
     [Batey et al. (2024) — Understanding Implications for
@@ -45,6 +95,20 @@ references:
   - >-
     [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of
     Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+  - >-
+    [Mercurio et al. (1997) — IKK-1 and IKK-2: cytokine-activated IkappaB
+    kinases essential for NF-kappaB
+    activation](/docs/papers/BRAIN-Diet-References#mercurio_ikk_1997)
+  - >-
+    [Adams (2001) — Kinetic and Catalytic Mechanisms of Protein
+    Kinases](/docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001)
+  - >-
+    [Li and Zhang (2026) — Effects of Omega-3 Supplementation on Inflammation
+    and Recovery in
+    Sports](/docs/papers/BRAIN-Diet-References#li_omega3_sports_2026)
+  - >-
+    [Cannataro et al. (2024) — Omega-3 and Sports: Focus on
+    Inflammation](/docs/papers/BRAIN-Diet-References#cannataro_omega3_sports_2024)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -151,24 +215,217 @@ phenome_relationships:
 
 (Turning Down Overactive Inflammatory Switches)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Regulate NF-κB transcriptional tone so pro-inflammatory gene programmes do not fire excessively.
 
+
+Dietary addressability remains unestablished at the PM level.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for regulation of NF-κB transcriptional tone.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Magnesium ions (Mg²⁺)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Regulates NF-κB (a master transcriptional switch that turns on pro-inflammatory gene programmes) at the upstream signalling node where dietary and metabolic inputs first influence inflammatory tone. Because this pathway sits ahead of cytokine release and downstream immune activation, diet-linked NF-κB regulation shapes how strongly the whole inflammatory cascade fires rather than treating symptoms after the fact. This positions it as an upstream, dietary-actionable inflammatory control point.
+Regulates NF-κB (a master transcriptional switch that turns on pro-inflammatory gene programmes) at an upstream node of inflammatory transcription, ahead of cytokine release. Attached dietary-pattern and compound studies inform inflammatory context; they do not currently establish an evidence-qualified Dietary Requirement of NF-κB transcriptional regulation. Dietary addressability remains not established.
 
 * Regulates the upstream transcriptional switch that triggers inflammatory gene expression.
 * Sits ahead of cytokine release and downstream immune activation.
-* Provides a dietary-actionable control point over inflammatory tone.
+* No Direct or Derived Dietary Requirement is currently established for regulation of NF-κB transcriptional tone.
 
 ## 2. Primary Biological Effects
 ↓ inflammatory transcriptional activation
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified System Optimisation Practices are currently established for this mechanism.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+When inflammatory transcriptional programmes remain engaged, downstream cytokine and immune-signalling tone escalates. NF-κB is a principal upstream node through which those programmes are expressed within [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>NF-κB signalling and inflammatory transcription</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (NF-κB as an inflammatory transcriptional node)
+
+NF-κB regulates expression of multiple pro-inflammatory genes and sits upstream of cytokine and immune-signalling cascades that shape BRS3 inflammatory tone.
+
+#### (Signalling pressure and pattern context)
+
+Endotoxin exposure, oxidative signalling load, and meal-level inflammatory context can increase or decrease activation pressure on NF-κB transcriptional programmes. This PM focuses on how sustained dietary-pattern differences shift that pressure rather than on isolated nutrient boluses.
+
+#### (Boundaries of the mechanism)
+
+Downstream cytokine-network expression is handled by [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Gut-derived endotoxin load is represented by [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling). EPA/DHA as specialised pro-resolving mediator substrates, and review claims that SPMs downregulate NF-κB, belong to [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance). This PM does not currently carry an evidence-qualified EPA/DHA dietary requirement or System Optimisation Practice for NF-κB transcriptional tone. Endogenous antioxidant induction and net redox balance belong to [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) and [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance).
+
+#### (Integration within BRS3)
+
+This PM anchors transcriptional inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone). Gut-barrier context imported through [BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) conditions endotoxin-linked pressure on this pathway.
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+NF-κB transcriptional biology is well established. The studies below do not restate pathway mechanics; they highlight dietary-pattern findings that refine how inflammatory signalling pressure is interpreted in practice.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Polyphenol-rich dietary patterns and inflammatory biomarkers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Polyphenol-rich dietary-pattern interventions such as the Green Mediterranean Diet report shifts in inflammatory biomarkers consistent with lower pro-inflammatory signalling pressure — supporting pattern-based inflammatory **context**, not a Dietary Requirement of NF-κB signalling [Zelicha et al., 2022].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Postprandial and LPS-linked inflammatory context</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Lipopolysaccharide-linked inflammatory signalling is modulated by dietary and postprandial context, linking meal patterns to systemic inflammatory load [Batey et al., 2024].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024","label":"Batey et al. (2024)","dataLevel":"Human Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Quercetin and polyphenol synergy</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Quercetin carries antioxidant and anti-neuroinflammatory properties; quercitrin effects may be augmented by co-ingestion of omega-3s and olive oil — reinforcing combined polyphenol–marine-fat meal construction for this PM [Tongjaroenbuangam et al., 2011; Camuesco et al., 2006].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011","label":"Tongjaroenbuangam et al. (2011)","dataLevel":"Preclinical"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — Upstream NF-κB transcriptional control
+- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Insulin Sensitivity & Glucose Disposal
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
+- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -319,265 +576,14 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- NF-kB-modulating polyphenols ← berries, green tea, extra virgin olive oil
-- EPA/DHA ← oily fish
-- Fibre-rich whole-food patterns ← legumes, oats, vegetables
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- polyphenols
-- omega-3
-- Magnesium ← leafy greens, nuts, seeds
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Polyphenols ← berries, cocoa, green tea
-- Vitamin C ← citrus, kiwi, bell peppers
-- Cysteine ← eggs, poultry, legumes
-- Glycine ← collagen-rich cuts, poultry, legumes
-- Glutamate ← meat, fish, soy
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Minimise unnecessary lipid oxidation by avoiding repeated heating of oils and excessive high-temperature cooking of PUFA-rich foods — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Extra virgin olive oil — Preparation](/docs/foods/extra-virgin-olive-oil#preparation).
-- Prefer cooking methods that limit excessive browning and AGE formation where practical — preparation load can add inflammatory signalling upstream of NF-κB activation.
-- Reducing ultra-processed food exposure may help lower postprandial inflammatory burden where this PM is relevant.
-- Regular meal timing and stable daily dietary patterning matter more than isolated anti-inflammatory meals.
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Soak overnight to reduce phytates and improve mineral bioavailability — see [Oats — Preparation](/docs/foods/oats#preparation).
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-When inflammatory transcriptional programmes remain engaged, downstream cytokine and immune-signalling tone escalates. NF-κB is a principal upstream node through which those programmes are expressed within [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>NF-κB signalling and inflammatory transcription</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (NF-κB as an inflammatory transcriptional node)
-
-NF-κB regulates expression of multiple pro-inflammatory genes and sits upstream of cytokine and immune-signalling cascades that shape BRS3 inflammatory tone.
-
-#### (Signalling pressure and pattern context)
-
-Endotoxin exposure, oxidative signalling load, and meal-level inflammatory context can increase or decrease activation pressure on NF-κB transcriptional programmes. This PM focuses on how sustained dietary-pattern differences shift that pressure rather than on isolated nutrient boluses.
-
-#### (Boundaries of the mechanism)
-
-Downstream cytokine-network expression is handled by [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Gut-derived endotoxin load is represented by [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling). Endogenous antioxidant induction and net redox balance belong to [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) and [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance).
-
-#### (Integration within BRS3)
-
-This PM anchors transcriptional inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Gut-barrier context imported through [BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) conditions endotoxin-linked pressure on this pathway.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-NF-κB transcriptional biology is well established. The studies below do not restate pathway mechanics; they highlight dietary-pattern findings that refine how inflammatory signalling pressure is interpreted in practice.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Polyphenol-rich dietary patterns and inflammatory biomarkers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Polyphenol-rich dietary-pattern interventions such as the Green Mediterranean Diet report shifts in inflammatory biomarkers consistent with lower pro-inflammatory signalling pressure — supporting pattern-based anti-inflammatory levers rather than single-nutrient dosing for this PM [Zelicha et al., 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Postprandial and LPS-linked inflammatory context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Lipopolysaccharide-linked inflammatory signalling is modulated by dietary and postprandial context, linking meal patterns to systemic inflammatory load [Batey et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024","label":"Batey et al. (2024)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Quercetin and polyphenol synergy</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Quercetin carries antioxidant and anti-neuroinflammatory properties; quercitrin effects may be augmented by co-ingestion of omega-3s and olive oil — reinforcing combined polyphenol–marine-fat meal construction for this PM [Tongjaroenbuangam et al., 2011; Camuesco et al., 2006].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011","label":"Tongjaroenbuangam et al. (2011)","dataLevel":"Preclinical"}]} />
-
-</div>
-</div>
-</div>
-
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-- None listed
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
-- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — Upstream NF-κB transcriptional control
-- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Insulin Sensitivity & Glucose Disposal
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to inflammatory signalling tone.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM1 Relevance |
-|---|---|---|
-| Functional Property Potentials | polyphenol_density; omega3_pattern; gut_barrier_support | May support lower NF-kB signalling pressure. |
-| Realised Functional States | antioxidant_rich_meal; marine_fat_pattern; fibre_buffered_meal | Represent recipe-level inflammatory-tone support. |
-| Preparation Transformations | minimally_processed; extra_virgin_olive_oil_use; lower_frying_load | May preserve anti-inflammatory food-state effects. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
-- [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
-- [Marsland et al. (2017) — Systemic Inflammation and Brain Structure](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
-- [Brown et al. (2025) — Associations Between ADHD and Metabolic Disorders](/docs/papers/BRAIN-Diet-References#brown_associations_2025)
-- [Tongjaroenbuangam et al. (2011) — Neuroprotective Effects of Quercetin](/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011)
-- [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+- <span id="pm-ref-1">[1]</span> [Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
+- <span id="pm-ref-2">[2]</span> [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- <span id="pm-ref-3">[3]</span> [Marsland et al. (2017) — Systemic Inflammation and Brain Structure](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
+- <span id="pm-ref-4">[4]</span> [Brown et al. (2025) — Associations Between ADHD and Metabolic Disorders](/docs/papers/BRAIN-Diet-References#brown_associations_2025)
+- <span id="pm-ref-5">[5]</span> [Tongjaroenbuangam et al. (2011) — Neuroprotective Effects of Quercetin](/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011)
+- <span id="pm-ref-6">[6]</span> [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+- <span id="pm-ref-7">[7]</span> [Mercurio et al. (1997) — IKK-1 and IKK-2: cytokine-activated IkappaB kinases essential for NF-kappaB activation](/docs/papers/BRAIN-Diet-References#mercurio_ikk_1997)
+- <span id="pm-ref-8">[8]</span> [Adams (2001) — Kinetic and Catalytic Mechanisms of Protein Kinases](/docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001)
+- <span id="pm-ref-9">[9]</span> [Li and Zhang (2026) — Effects of Omega-3 Supplementation on Inflammation and Recovery in Sports](/docs/papers/BRAIN-Diet-References#li_omega3_sports_2026)
+- <span id="pm-ref-10">[10]</span> [Cannataro et al. (2024) — Omega-3 and Sports: Focus on Inflammation](/docs/papers/BRAIN-Diet-References#cannataro_omega3_sports_2024)

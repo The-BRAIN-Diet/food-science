@@ -1,6 +1,6 @@
 /**
  * Build FM §4.4 Evidence Highlights from child PM §5.1 evidence entries.
- * Uses the same dropdown structure as PM §3 Phenome Connections (BRS-X canonical).
+ * Uses the same dropdown structure as PM §7 Phenome Connections (BRS-X canonical).
  */
 
 import fs from "node:fs";

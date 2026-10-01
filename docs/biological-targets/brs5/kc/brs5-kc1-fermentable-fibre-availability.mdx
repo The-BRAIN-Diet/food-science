@@ -13,6 +13,9 @@ kc_input_traceability:
       citation_keys:
         - van_trijp_intraintestinal_2024
     evidence_limitation: 'Human evidence directly establishes intestinal handling and fermentation of controlled FOS/GOS preparations, not equal fermentation kinetics for every food matrix, a universal requirement threshold, or benefit from additional intake.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
   - atom_id: BRS5-KC1-KIT-2
     input: Pectin
     input_type: nutrient/compound class
@@ -21,6 +24,9 @@ kc_input_traceability:
       citation_keys:
         - pascale_potential_2022
     evidence_limitation: 'Evidence for microbiota utilisation and SCFA production is dominated by in-vitro human-faecal fermentation; structure materially affects response, and generic soluble fibre membership must not be inferred from pectin evidence.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
   - atom_id: BRS5-KC1-KIT-3
     input: Resistant starch
     input_type: nutrient/compound class
@@ -29,6 +35,9 @@ kc_input_traceability:
       citation_keys:
         - sobh_tolerability_2022
     evidence_limitation: 'SCFA responses vary by resistant-starch type, dose, study population and microbiota; faecal SCFA measurements do not establish a universal limiting threshold or benefit from additional intake.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
 kc_constituent_presentations:
   - atom_id: BRS5-KC1-KIT-1
     label: Inulin-type fructans and galacto-oligosaccharides
@@ -71,25 +80,42 @@ Maintain fermentable-fibre sufficiency so microbial fermentation, short-chain fa
 
 ### 2. Core Nutritional Requirements
 
-- Inulin-type fructans and galacto-oligosaccharides
-- Pectin
-- Resistant starch
-
-### 3. Evidence Base
-
-#### Summary
-
-Connected BRS5 mechanisms share one upstream nutritional condition: the diet must supply **fermentable carbohydrate substrates** — not merely bulk fibre — for microbial fermentation and short-chain-fatty-acid production. Inulin-type fructans/GOS, pectin and resistant starch are retained as distinct evidence-supported classes; their fermentation profiles are not interchangeable.
-
-The evidence claim is substrate-pool membership and constraint prevention—not a universal intake threshold, equal response to every class, or proof that additional intake enhances performance in nutrient-sufficient people.
-
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Inulin-type fructans and galacto-oligosaccharides</strong>
+<strong>Core Nutritional Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Inulin-type fructans and galacto-oligosaccharides
+- Pectin
+- Resistant starch
+
+</div>
+</div>
+</div>
+### 3. Evidence Base
+
+#### Summary
+
+This constraint is the availability of fermentable carbohydrate substrates that reach the colon and can be used by gut microbes. Inulin-type fructans and galacto-oligosaccharides, pectin and resistant starch each contribute to that shared substrate pool, though their structures, fermentation patterns and short-chain-fatty-acid profiles differ. Human intestinal sampling, human-faecal fermentation studies and randomised resistant-starch trials support their microbial accessibility and fermentation, without making them interchangeable or establishing one universal intake threshold ([van Trijp et al., 2024](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024); [Pascale et al., 2022](/docs/papers/BRAIN-Diet-References#pascale_potential_2022); [Sobh et al., 2022](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)).
+
+- **Constraint and membership boundary:** Fermentability and delivery to colonic microbes define the pool; the evidence does not extend membership to all dietary fibre or treat fibre classes with different structures as equivalent ([Pascale et al., 2022](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)).
+- **Evidence and measurement boundary:** Studies establish fermentation of controlled substrates and variable short-chain-fatty-acid responses, but do not define equal food-matrix effects, one requirement threshold or uniform host response ([van Trijp et al., 2024](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024); [Sobh et al., 2022](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)).
+- **Biological relevance and provision limitation:** Adequate fermentable substrate availability enables microbial metabolite production; this prerequisite does not show that additional fibre, isolated supplements or higher short-chain-fatty-acid production improves downstream function or clinical outcomes ([Silva et al., 2020](/docs/papers/BRAIN-Diet-References#silva_role_2020); [Sobh et al., 2022](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="inulin-type-fructans-and-galacto-oligosaccharides">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="inulin-gos-evidence-panel" aria-label="Expand inulin-type fructans and galacto-oligosaccharides evidence details">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="inulin-gos-evidence-panel">Inulin-type fructans and galacto-oligosaccharides</button>
+</div>
+</div>
+<div id="inulin-gos-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
@@ -105,13 +131,17 @@ Inulin-type fructans and galacto-oligosaccharides resist substantial small-intes
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="pectin">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="pectin-evidence-panel" aria-label="Expand Pectin evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Pectin</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="pectin-evidence-panel">Pectin</button>
+</div>
+</div>
+<div id="pectin-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
@@ -127,13 +157,17 @@ Pectin is a structurally heterogeneous fermentable polysaccharide. Human-faecal 
 </div>
 
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="resistant-starch">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="resistant-starch-evidence-panel" aria-label="Expand Resistant starch evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Resistant starch</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="resistant-starch-evidence-panel">Resistant starch</button>
+</div>
+</div>
+<div id="resistant-starch-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
@@ -152,8 +186,6 @@ Resistant starch escapes small-intestinal digestion and supplies a distinct colo
 ### 4. Emerging Biological Supports
 
 No Emerging Biological Supports are currently prioritised for this KC.
-
-Isolated prebiotic supplements, postbiotic concentrates, or synbiotic products may support related microbial capacities under specific conditions, but they are not established as shared indispensable dietary requirements for fermentable-fibre sufficiency. Where evidence becomes source-led and KC-specific, candidates can be added here without blurring the Core Nutritional Requirements boundary.
 
 ### 5. Connected Mechanisms
 

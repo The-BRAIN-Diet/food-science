@@ -165,19 +165,20 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
 1. Definition — `## 1. Definition` — **SM-CROSS:** opening paragraph + exactly 3 bullets; biology-first cross-system significance; defer PM links to §6. See `system/mechanism-page-section-prose.md` (**§1 Definition — UX structure**).
 2. Primary Biological Effects — directional summary (same contract as PM §2)
-3. Phenome Connections — same contract as PM §3; empty state when none mapped
-4. Levers — `## 4. Levers` with **4.1 Dietary**, **4.2 System Optimisation** (when authored), and **4.3 Lifestyle** dropdowns (same structure as PM §4); cofactors and KCs in **4.1.2** / **4.1.3**
-5. Mechanistic Basis — `### Summary` + `<details>`; cross-system biology only — PM links stay in §6.2
-6. BRS Pathways and Connections — `## 6. BRS Pathways and Connections`
-   - `### 6.1` BRS Pathways — cross-BRS interpretive chain (`↓` between steps)
-   - `### 6.2` Connected BRS Mechanisms — **required cross-BRS narrative** (former standalone §6.5 content); see [§6.2 Connected BRS Mechanisms (SM-CROSS)](#62-connected-brs-mechanisms-sm-cross) below
-   - `### 6.3` Connected Primary Mechanisms — host FMs + connected PMs from front matter
-7. Scoreable Inputs & Modulation Signals — optional; PM table categories (three rows)
-8. References
+3. Levers — `## 3. Levers` with **3.1 Dietary**, **3.2 System Optimisation** (when authored), and **3.3 Lifestyle** dropdowns (same structure as PM §3); cofactors and KCs in **3.1.2** / **3.1.3**
+4. Mechanistic Basis — `### Summary` + `<details>`; cross-system biology only — PM links stay in §5.2
+5. BRS Pathways and Connections — `## 5. BRS Pathways and Connections`
+   - `### 5.1` BRS Pathways — cross-BRS interpretive chain (`↓` between steps)
+   - `### 5.2` Connected BRS Mechanisms — **required cross-BRS narrative** (former standalone §6.5 content); see [§6.2 Connected BRS Mechanisms (SM-CROSS)](#62-connected-brs-mechanisms-sm-cross) below
+   - `### 5.3` Connected Primary Mechanisms — host FMs + connected PMs from front matter
+7. Phenome Connections — same contract as PM §7; empty state when none mapped
+8. References — `## 8. References`
+
+Do **not** include **Scoreable Inputs & Modulation Signals** on SM pages.
 
 `intervention_breakdown` and `intervention_dominance` stay in **front matter** only (`intervention_dominance` renders in §4 Intervention Profile). Do **not** publish `## N. Intervention Breakdown` on Profile A `SM-CROSS` pages.
 
-Timing: `timing_specific` in front matter only; discuss timing in Primary Biological Effects, Mechanistic Basis, §4.3 Lifestyle Levers, or Scoreable when relevant.
+Timing: `timing_specific` in front matter only; discuss timing in Primary Biological Effects, Mechanistic Basis, or §3.3 Lifestyle Levers when relevant.
 
 ### Legacy Profile A — `SM-SNP` (until migrated)
 
@@ -189,8 +190,9 @@ Timing: `timing_specific` in front matter only; discuss timing in Primary Biolog
 6. Underlying Mechanisms and Requirements (6.1–6.5)
 7. Dietary Levers
 8. Lifestyle Levers
-9. Scoreable Inputs
-10. References
+9. References
+
+Do **not** include **Scoreable Inputs & Modulation Signals** on SM pages.
 
 ### §6.2 Connected BRS Mechanisms (SM-CROSS authoring contract)
 

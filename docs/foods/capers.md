@@ -11,6 +11,7 @@ tags:
   - Sodium
   - Quercetin
   - Polyphenol
+  - Kaempferol
 list_image: /img/foods/capers/capers_thumb.webp
 nutrition_per_100g:
   sugar_g: 0.41
@@ -62,6 +63,19 @@ nutrition_supplementary_sources:
       USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
       reports quercetin glycosides in Capers; a single defensible per-100 g
       value is not taken from the abbreviated USDA nutrient panel.
+  - key: kaempferol_qual
+    label: Kaempferol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Phenol-Explorer catalogues kaempferol in Capers (Neveu et al. 2010); a
+      single defensible per-100 g value is not taken from the abbreviated USDA
+      nutrient panel.
+substance_relationships:
+  - substance: Kaempferol
+    relationship: contains
+    citation_keys:
+      - neveu_phenol-explorer_2010
 ---
 ## Overview
 

@@ -1,7 +1,8 @@
 /**
- * Curated System Optimisation Practices for BRS hub pages.
+ * Curated System Optimisation Practices matching maps for BRS hub roll-up.
  * Five standard categories; empty arrays render as "Coming soon".
- * Practices are targeted interventions beyond foundational diet/lifestyle.
+ * Hub SOP is a projection (PM records + KC emerging supports + these maps),
+ * not a second authored biology ontology.
  * @see system/brs-hub-levers-schema.md
  */
 
@@ -47,7 +48,7 @@ export const SOP_CATEGORIES = [
     id: "dietary_protocols",
     title: "Dietary & Fasting Protocols",
     description:
-      "Targeted dietary approaches that modify physiology beyond routine healthy eating.",
+      "Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.",
   },
   {
     id: "light_circadian",

@@ -4,17 +4,167 @@ pm_id: BRS1-FM1-PM1
 mission: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Determines how completely meals supply the indispensable amino acids (protein building blocks the body cannot make on its own) that downstream pathways convert into dopamine, noradrenaline, and serotonin. Protein quantity, quality, and distribution across the day set the ceiling for neurotransmitter precursor availability, independent of blood–brain barrier transport or conversion efficiency. When intake is inconsistent or incomplete, every downstream monoaminergic pathway inherits that shortfall.'
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
+summary: 'Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. Phenylalanine can also be converted to tyrosine, so this mechanism concerns dietary provision of the circulating precursor pool before brain entry. It excludes competition for transport across the blood–brain barrier and conversion into neurotransmitters. Its role is to define precursor provision before those later neural processes begin.'
 cofactors:
-  - complementary protein pairing
-  - complete protein sources
-  - meal-level protein distribution
+  - Tyrosine
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: Reliable protein across meals with completeness and balance; aromatic amino acids matter where monoamine pathways are the focus
+dietary_addressability: direct
+claim_ceiling: dietary-provision
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    input: Indispensable amino-acid supply
+    input_type: nutrient/compound class
+    biological_role: Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a requirement that each meal provide complete coverage
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - moughan_diaas_2024
+    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves ADHD outcomes. The indispensable set includes phenylalanine even though phenylalanine is not a separate atom on this PM; tyrosine is not an indispensable amino acid.
+  - atom_id: PM1-DIT-2
+    input: Dietary protein
+    input_type: substrate provision
+    biological_role: Provides the indispensable amino acids that constitute the circulating pool this PM governs
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - moughan_diaas_2024
+    evidence_limitation: Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.
+  - atom_id: PM1-DIT-4
+    input: Tyrosine
+    input_type: substrate
+    biological_role: Catecholamine precursor in the circulating pool this PM prioritises. Tyrosine is normally formed from indispensable phenylalanine and can become conditionally indispensable when phenylalanine availability is limited
+    evidence_source:
+      citation_keys:
+        - matthews_phenylalanine_2007
+        - aquili_role_2020
+    evidence_limitation: Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.
+  - atom_id: PM1-DIT-5
+    input: Tryptophan
+    input_type: substrate
+    biological_role: Indispensable serotonergic precursor this PM prioritises in the circulating precursor pool
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - aquili_role_2020
+    evidence_limitation: Pool presence of tryptophan is not evidence for increased brain serotonin, LAT1 advantage, or mood or ADHD benefit.
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: Indispensable amino-acid supply is a Direct Dietary Requirement of this PM. Coverage of the indispensable set can be assessed in meals and across the diet; this is not a rule that each meal must be complete, and it is not a monoamine-dosing rule.
+    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves ADHD outcomes. The indispensable set includes phenylalanine even though phenylalanine is not a separate atom on this PM; tyrosine is not an indispensable amino acid.
+  - atom_id: PM1-DIT-2
+    requirement_classification: derived
+    derived_target: Indispensable amino-acid supply
+    derived_target_atom_id: PM1-DIT-1
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: Dietary protein is a Derived Dietary Requirement because it provides the indispensable amino acids this PM requires. This does not establish that more protein increases neurotransmitter synthesis, or that each meal must be a complete protein.
+    evidence_limitation: Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.
+  - atom_id: PM1-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Tyrosine is a catecholamine-precursor substrate in the pool this PM prioritises. It is normally formed from phenylalanine and is not classified as an indispensable amino acid.
+    evidence_limitation: Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.
+  - atom_id: PM1-DIT-5
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: Tryptophan is an indispensable Direct substrate in the pool this PM governs. Presence in meals is not a serotonin-dosing rule.
+    evidence_limitation: Pool presence of tryptophan is not evidence for increased brain serotonin, LAT1 advantage, or mood or ADHD benefit.
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: Indispensable amino-acid supply
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-2
+    label: Dietary protein
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-5
+    label: Tryptophan
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-4
+    label: Tyrosine
+    presentation_section: 3.1.2
+key_constraints:
+  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
+pm_kc_relationships:
+  - relationship_id: BRS1-FM1-PM1-KCR-1
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    pm_biological_role: >-
+      This mechanism governs how completely meals supply the indispensable
+      amino-acid pool. That is the quality arm of the shared constraint, not
+      competitive transport into the brain.
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - moughan_diaas_2024
+    evidence_limitation: >-
+      The mapping is the circulating amino-acid pool this mechanism governs. It
+      does not inherit KC food lists and is not a monoamine-dosing rule.
+kc_applicability_adjudications:
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: amino-acid-quality
+    applicability_proposition: >-
+      This mechanism governs the shared indispensable-amino-acid quality and
+      availability pool.
+    disposition: established
+    applicability_mode: governs
+    established_links:
+      - Meal-level protein quantity, quality and distribution set the circulating indispensable-amino-acid pool this PM governs (PM1 mission and overview).
+      - Mariotti 2019 and Moughan/DIAAS-type scoring describe IAA adequacy of that pool.
+    inferred_links:
+      - Incomplete pool quality would also raise brain monoamines or treat ADHD.
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - moughan_diaas_2024
+    rationale: >-
+      Type D is met in the governs mode: the named quality pool is this mechanism’s
+      governed capacity. Competitive LAT1 balance is a different arm.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: competitive-lat1
+    applicability_proposition: >-
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
+      this mechanism’s governed circulating amino-acid pool.
+    disposition: evidence-supported-non-application
+    established_links:
+      - This mechanism’s overview treats circulating pool sufficiency as independent of blood–brain-barrier transport.
+      - Fernstrom 2013 locates LNAA competition at LAT1, which is the transport mechanism.
+    inferred_links:
+      - LAT1 imbalance would therefore reduce the circulating pool this PM governs.
+    evidence_source:
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: >-
+      The named competitive state is brain-entry competition, not circulating-pool
+      availability. That is a different process. Public mapping publishes the
+      quality arm only.
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS1-FM1-PM1-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS1(KC1)
+    proposition: Candidate PM↔KC1 mapping on the amino-acid quality arm. Shared IAA/protein-quality pool may constrain this PM; competitive LAT1 balance is not this PM's relationship. Input overlap with §4.1.1 is not a rejection criterion. Public §4.1.3 has no mapping. Dual-arm iKC remains KC-owned.
+    evidence_source:
+      citation_keys:
+        - mariotti_dietary_2019
+        - moughan_diaas_2024
+        - fernstrom_lnna_2013
+    status: pending-kc-review
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
@@ -93,6 +243,8 @@ references:
   - '[Walrand & Boirie (2005) — Optimizing Protein Intake in Aging](/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005)'
   - '[Trommelen et al. (2023) — Anabolic Response to Protein Ingestion](/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023)'
   - '[Moughan & Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)'
+  - '[Matthews (2007) — An Overview of Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)'
+  - '[Marsh et al. (2013) — Protein and vegetarian diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)'
 hide_title: true
 ---
 
@@ -108,24 +260,268 @@ hide_title: true
 
 (Neurotransmitter Protein Requirements)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
 
+
+Diet can supply the indispensable amino-acid pool this PM governs. That is a provision relationship, not a rule that more protein increases brain monoamines or improves ADHD, and not a rule that each meal must be a complete protein.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Indispensable amino-acid supply
+- Dietary protein
+- Tryptophan
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tyrosine
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+Meals have to supply the indispensable amino acids this mechanism keeps available. That is about the circulating amino-acid pool, not about competition for entry into the brain.
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Determines how completely meals supply the indispensable amino acids (protein building blocks the body cannot make on its own) that downstream pathways convert into dopamine, noradrenaline, and serotonin. Protein quantity, quality, and distribution across the day set the ceiling for neurotransmitter precursor availability, independent of blood–brain barrier transport or conversion efficiency. When intake is inconsistent or incomplete, every downstream monoaminergic pathway inherits that shortfall.
+Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan [Mariotti et al. (2019) [[1]](#pm-ref-1); Moughan and Lim (2024) [[10]](#pm-ref-10)]. Phenylalanine can also be converted to tyrosine, so this mechanism concerns dietary provision of the circulating precursor pool before brain entry [Matthews (2007) [[11]](#pm-ref-11)]. It excludes competition for transport across the blood–brain barrier and conversion into neurotransmitters [Fernstrom (2013) [[2]](#pm-ref-2); Aquili (2020) [[4]](#pm-ref-4)]. Its role is to define precursor provision before those later neural processes begin.
 
-* Provides the amino-acid foundation for dopamine, noradrenaline, and serotonin synthesis.
-* Sets the ceiling for precursor supply through meal-level protein quantity and quality.
-* Depends on consistent, complete indispensable amino-acid coverage across the day.
+* **Mechanism boundary:** Covers dietary provision of indispensable amino acids and the circulating precursor pool; LAT1-mediated brain entry and downstream neurotransmitter conversion are separate mechanisms [Fernstrom (2013) [[2]](#pm-ref-2); Aquili (2020) [[4]](#pm-ref-4)].
+* **Evidence boundary:** Intake adequacy and DIAAS (Digestible Indispensable Amino Acid Score) assess amino-acid coverage and digestibility; they do not measure brain uptake or monoamine production [Mariotti et al. (2019) [[1]](#pm-ref-1); Moughan and Lim (2024) [[10]](#pm-ref-10)].
+* **Biological relevance:** Phenylalanine-derived tyrosine and indispensable tryptophan contribute to monoamine precursor biology, but that dependency is not evidence that extra protein or precursor supplementation improves ADHD [Matthews (2007) [[11]](#pm-ref-11); Aquili (2020) [[4]](#pm-ref-4)].
 
 ## 2. Primary Biological Effects
 ↑ amino-acid pool sufficiency; ↑ neurotransmitter-relevant amino-acid prioritisation
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Meal-timing and food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Neurotransmitter-relevant biology depends first on the availability of sufficient dietary amino-acid substrate. Before transport, synthesis, signalling, or recycling can occur, meals must establish an adequate and appropriately balanced amino-acid pool capable of supporting downstream neural pathways.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Amino-acid availability and prioritisation — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Amino-acid pool sufficiency)
+
+Protein quantity and distribution influence the size and stability of the amino-acid pool available to the body throughout the day. Sparse protein intake, prolonged gaps between protein-containing meals, or chronically low amino-acid availability may reduce the substrate available to downstream neurotransmitter-related processes.
+
+This mechanism therefore focuses on meal-level amino-acid sufficiency rather than isolated nutrient supplementation or acute precursor loading.
+
+#### (Protein quality and amino-acid coverage)
+
+Protein quality influences whether the dietary pattern provides adequate coverage of indispensable amino acids and neurotransmitter-relevant substrates → [Mariotti et al., 2019]
+
+A variety of plant-protein sources can support indispensable amino-acid coverage across the diet. That is not a requirement to pair complementary plant proteins within each meal → [Marsh et al., 2013]; [Mariotti et al., 2019]
+
+Within BRS1, tryptophan is an indispensable serotonergic precursor in this pool. Tyrosine is a catecholamine precursor normally formed from indispensable phenylalanine; it is not itself an indispensable amino acid → [Matthews, 2007]. The role of this PM is to establish adequate substrate availability rather than directly regulate neurotransmitter production.
+
+#### (Boundaries of the mechanism)
+
+This PM governs amino-acid availability and prioritisation only.
+
+Competitive transport of amino acids across the blood–brain barrier, including LNAA competition and transport bias, is handled by [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) → [Fernstrom, 2013]
+
+Enzymatic conversion of amino acids into neurotransmitters depends on downstream cofactors and regulatory mechanisms represented elsewhere within BRS1 and [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism).
+
+#### (Integration within BRS1)
+
+This PM establishes circulating indispensable amino-acid coverage for downstream neurotransmitter-related processes. Competitive LNAA transport is handled by [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Conversion, signalling, and recycling are handled by sibling PMs.
+
+</div>
+</div>
+</div>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+The core biology of amino-acid availability is well established. The studies below do not redefine this mechanism; they highlight practical protein-adequacy findings that refine how meal-level substrate sufficiency is interpreted.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Protein distribution and utilisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** The pattern of protein intake across the day may influence how effectively dietary amino acids are utilised; meal-level distribution and source quality can affect tissue retention and amino-acid availability [Walrand & Boirie, 2005].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005","label":"Walrand & Boirie (2005)","dataLevel":"Human Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Physiological flexibility in protein handling</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Larger protein boluses can sustain positive whole-body protein balance for several hours, indicating that amino-acid sufficiency depends on quantity, quality, and dietary pattern rather than rigid per-meal distribution rules [Trommelen et al., 2023].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023","label":"Trommelen et al. (2023)","dataLevel":"Human Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Protein quality and DIAAS</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Digestible Indispensable Amino Acid Score (DIAAS) evaluates protein quality by digestible indispensable amino-acid content, supporting interpretation of sufficiency as a function of quality and coverage rather than grams alone [Moughan & Lim, 2024].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Plant-protein variety across the diet</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Variety of plant-protein sources can support indispensable amino-acid coverage across the diet; this is a dietary-pattern property, not a requirement to combine complementary proteins at each meal [Marsh et al., 2013]; [Mariotti et al., 2019]; [Moughan & Lim, 2024].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#marsh_protein_2013","label":"Marsh et al. (2013)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019","label":"Mariotti et al. (2019)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
+↓
+[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
+- [BRS1-FM1-PM4 - Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -230,310 +626,17 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Tyrosine ← poultry, eggs, fish, soy
-- Tryptophan ← poultry, eggs, dairy, oats
-- Complete protein sources ← eggs, fish, dairy, poultry, soy
-- Complementary plant-protein pairing ← legumes + grains; beans + rice; lentils + whole grains
-- Distributed protein intake ← protein-containing meals across the day
-- Protein-rich mixed meals ← protein paired with fibre-rich whole foods
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- complementary protein pairing
-- complete protein sources
-- meal-level protein distribution
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Complete essential amino-acid supply ← eggs, fish, dairy, meat, soy, legumes, grains
-- Tryptophan ← eggs, dairy, fish, poultry, soy, pumpkin seeds
-- Phenylalanine and tyrosine ← dairy, meat, fish, eggs, soy, legumes, nuts, seeds
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Regular meal timing supporting amino-acid availability across the day (Evidence:Human Mechanistic) [Walrand & Boirie, 2005]
-- Sufficient protein at main meals to maintain amino-acid availability throughout the day (Evidence:Human Mechanistic) [Walrand & Boirie, 2005]
-- Use complementary protein pairing and distributed protein across meals to support amino-acid availability — see [Eggs — Synergies](/docs/foods/eggs#synergies), [Oats — Synergies](/docs/foods/oats#synergies).
-- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycati… — see [Chicken — Preparation](/docs/foods/chicken#preparation).
-- Prefer complementary plant-protein pairing — legumes + grains; beans + rice; lentils + whole grains.
-- Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to help preserve EPA/DHA… — see [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Neurotransmitter-relevant biology depends first on the availability of sufficient dietary amino-acid substrate. Before transport, synthesis, signalling, or recycling can occur, meals must establish an adequate and appropriately balanced amino-acid pool capable of supporting downstream neural pathways.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Amino-acid availability and prioritisation — mechanistic detail</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Amino-acid pool sufficiency)
-
-Protein quantity and distribution influence the size and stability of the amino-acid pool available to the body throughout the day. Sparse protein intake, prolonged gaps between protein-containing meals, or chronically low amino-acid availability may reduce the substrate available to downstream neurotransmitter-related processes.
-
-This mechanism therefore focuses on meal-level amino-acid sufficiency rather than isolated nutrient supplementation or acute precursor loading.
-
-#### (Protein quality and amino-acid coverage)
-
-Protein quality influences whether the dietary pattern provides adequate coverage of indispensable amino acids and neurotransmitter-relevant substrates → [Mariotti et al., 2019]
-
-Complete protein sources, complementary plant-protein combinations, and deliberate meal construction help reduce the likelihood of chronic amino-acid shortfalls and support broader neurotransmitter-relevant amino-acid availability.
-
-Within BRS1, particular attention is given to amino acids such as tyrosine and tryptophan because of their relevance to catecholaminergic and serotonergic pathways. The role of this PM, however, is to establish adequate substrate availability rather than directly regulate neurotransmitter production.
-
-#### (Boundaries of the mechanism)
-
-This PM governs amino-acid availability and prioritisation only.
-
-Competitive transport of amino acids across the blood–brain barrier, including LNAA competition and transport bias, is handled by [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) → [Fernstrom, 2013]
-
-Enzymatic conversion of amino acids into neurotransmitters depends on downstream cofactors and regulatory mechanisms represented elsewhere within BRS1 and [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism).
-
-#### (Integration within BRS1)
-
-This PM establishes the meal-level amino-acid substrate context required for downstream neurotransmitter-related processes. It operates within the shared amino-acid quality and balance constraints represented by [BRS1(KC1) - Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance), providing the foundational amino-acid environment required for subsequent transport, conversion, signalling, and regulatory processes.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The core biology of amino-acid availability is well established. The studies below do not redefine this mechanism; they highlight practical protein-adequacy findings that refine how meal-level substrate sufficiency is interpreted.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Protein distribution and utilisation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** The pattern of protein intake across the day may influence how effectively dietary amino acids are utilised; meal-level distribution and source quality can affect tissue retention and amino-acid availability [Walrand & Boirie, 2005].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005","label":"Walrand & Boirie (2005)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Physiological flexibility in protein handling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Larger protein boluses can sustain positive whole-body protein balance for several hours, indicating that amino-acid sufficiency depends on quantity, quality, and dietary pattern rather than rigid per-meal distribution rules [Trommelen et al., 2023].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023","label":"Trommelen et al. (2023)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Protein quality and DIAAS</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Digestible Indispensable Amino Acid Score (DIAAS) evaluates protein quality by digestible indispensable amino-acid content, supporting interpretation of sufficiency as a function of quality and coverage rather than grams alone [Moughan & Lim, 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Complementary protein design</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Complementary plant-protein combinations can improve indispensable amino-acid coverage across the diet, reinforcing amino-acid adequacy as a dietary-pattern property [Moughan & Lim, 2024]; [Mariotti et al., 2019].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019","label":"Mariotti et al. (2019)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-↓
-[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-
-[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-↓
-[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-↓
-[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-- [BRS1-FM1-PM4 - Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to amino-acid availability and prioritisation.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM1 Relevance |
-|---|---|---|
-| Functional Property Potentials | complete_protein_context; meal_protein_distribution; eaa_coverage | May support amino-acid pool sufficiency and prioritisation. |
-| Realised Functional States | balanced_protein_meal; complementary_protein_pairing | Represent meal-pattern states relevant to this PM. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | May preserve protein-quality and meal-matrix effects. |
-
-</div>
-</div>
-</div>
-
-
 ## 8. References
-- [Mariotti et al. (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
-- [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-- [Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
-- [Reimherr & Ward (1987) — An Open Trial of L-tyrosine in the Treatment of Attention Deficit Disorder,](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)
-- [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)
-- [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
-- [Walrand & Boirie (2005) — Optimizing Protein Intake in Aging](/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005)
-- [Trommelen et al. (2023) — Anabolic Response to Protein Ingestion](/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023)
-- [Moughan & Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)
+
+- <span id="pm-ref-1">[1]</span> [Mariotti et al. (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- <span id="pm-ref-2">[2]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- <span id="pm-ref-3">[3]</span> [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
+- <span id="pm-ref-4">[4]</span> [Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
+- <span id="pm-ref-5">[5]</span> [Reimherr & Ward (1987) — An Open Trial of L-tyrosine in the Treatment of Attention Deficit Disorder,](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)
+- <span id="pm-ref-6">[6]</span> [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)
+- <span id="pm-ref-7">[7]</span> [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
+- <span id="pm-ref-8">[8]</span> [Walrand & Boirie (2005) — Optimizing Protein Intake in Aging](/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005)
+- <span id="pm-ref-9">[9]</span> [Trommelen et al. (2023) — Anabolic Response to Protein Ingestion](/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023)
+- <span id="pm-ref-10">[10]</span> [Moughan & Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)
+- <span id="pm-ref-11">[11]</span> [Matthews (2007) — An Overview of Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)
+- <span id="pm-ref-12">[12]</span> [Marsh et al. (2013) — Protein and vegetarian diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)

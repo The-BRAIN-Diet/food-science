@@ -1,7 +1,7 @@
 /**
  * Curated PM §5.1 Evidence Highlights — mechanism-qualifying findings only.
  * Do NOT include phenome/outcome science (ADHD, attention, emotional dysregulation, etc.);
- * that belongs in §3 Phenome Connections. Hub ADHD tables feed phenome review, not this map.
+ * that belongs in §7 Phenome Connections. Hub ADHD tables feed phenome review, not this map.
  * Keys: file basename. Values: { intro, blocks: [{ heading, body }], extraRefs?: [] }
  */
 
@@ -29,8 +29,8 @@ export const BRS1_PM_EVIDENCE = {
         body: "Digestible Indispensable Amino Acid Score (DIAAS) evaluates protein quality by digestible indispensable amino-acid content, supporting interpretation of sufficiency as a function of quality and coverage rather than grams alone [Moughan & Lim, 2024].",
       },
       {
-        heading: "Complementary protein design",
-        body: "Complementary plant-protein combinations can improve indispensable amino-acid coverage across the diet, reinforcing amino-acid adequacy as a dietary-pattern property [Moughan & Lim, 2024]; [Mariotti et al., 2019].",
+        heading: "Plant-protein variety across the diet",
+        body: "Variety of plant-protein sources can support indispensable amino-acid coverage across the diet; this is a dietary-pattern property, not a requirement to combine complementary proteins at each meal [Marsh et al., 2013]; [Mariotti et al., 2019]; [Moughan & Lim, 2024].",
       },
     ],
     referenceNoteKeys: [
@@ -38,6 +38,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "trommelen_anabolic_2023", label: "Trommelen et al. (2023)" },
       { citation_key: "moughan_diaas_2024", label: "Moughan & Lim (2024)" },
       { citation_key: "mariotti_dietary_2019", label: "Mariotti et al. (2019)" },
+      { citation_key: "marsh_protein_2013", label: "Marsh et al. (2013)" },
     ],
   },
   "brs1-fm1-pm2-lat1-competitive-transport-modulation": {

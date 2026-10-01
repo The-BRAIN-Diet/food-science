@@ -12,6 +12,7 @@ import {
   dietaryRequirementRemainsWithoutModulationEvidence,
   formatRequirementCompactQualifier,
   isDietaryRequirementAtom,
+  isBiochemicalRequirementAtom,
   retainPmDietaryAtomsDespiteKcMembership,
   validateDietaryLeverAtoms,
 } from "./lib/dietary-lever-atoms.mjs";
@@ -40,6 +41,10 @@ const BRS5_KC1 = path.join(
   process.cwd(),
   "docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx",
 );
+const BRS2_KC1 = path.join(
+  process.cwd(),
+  "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx",
+);
 const DOC_ITEM_CONTENT = path.join(
   process.cwd(),
   "src/theme/DocItem/Content/index.tsx",
@@ -63,6 +68,10 @@ function readBrs5Pm1() {
 
 function readBrs5Kc1() {
   return matter(fs.readFileSync(BRS5_KC1, "utf8"));
+}
+
+function readBrs2Kc1() {
+  return matter(fs.readFileSync(BRS2_KC1, "utf8"));
 }
 
 test("PM reader mounts the atomic Dietary Requirement projection enhancer", () => {
@@ -275,6 +284,68 @@ test("BRS5 KC1 and PM1 expose independent five-atom constituent relationships", 
   }
 });
 
+test("BRS2 KC1 Emerging Biological Supports expose separate five-field disclosures", () => {
+  const { data, content } = readBrs2Kc1();
+  const map = buildDietaryLeverDisclosureMap(data);
+  const expected = [
+    [
+      "same-directed-supplementation",
+      "SAMe-directed supplementation",
+      "S-adenosyl-L-methionine (SAMe) supplementation",
+      5,
+    ],
+    [
+      "creatine-methyl-demand-reduction",
+      "Creatine supplementation as a methyl-demand modifier",
+      "Creatine supplementation",
+      2,
+    ],
+    [
+      "riboflavin-mthfr-677tt",
+      "Riboflavin for MTHFR 677TT-linked capacity",
+      "Riboflavin supplementation in MTHFR 677TT",
+      1,
+    ],
+  ];
+
+  assert.equal(data.kc_emerging_support_traceability.length, 3);
+  for (const [slug, label, input, evidenceCount] of expected) {
+    const disclosure = map.get(
+      dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`),
+    );
+    assert.ok(disclosure, `${slug} must resolve through an emerging-support atom`);
+    assert.equal(disclosure.title, input);
+    assert.ok(disclosure.inputType);
+    assert.ok(disclosure.biologicalRole);
+    assert.equal(disclosure.evidenceReferences.length, evidenceCount);
+    assert.ok(disclosure.evidenceReferences.every((reference) => reference.href));
+    assert.ok(disclosure.evidenceLimitation);
+  }
+  assert.equal((content.match(/brs-emerging-support-title-trigger/g) || []).length, 3);
+});
+
+test("BRS2 KC1 Evidence Base titles expose constituent five-field disclosures", () => {
+  const { data, content } = readBrs2Kc1();
+  const map = buildDietaryLeverDisclosureMap(data);
+  const expected = [
+    ["Folate", "Folate"],
+    ["Choline", "Choline"],
+    ["Betaine (TMG)", "Betaine"],
+  ];
+
+  for (const [label, input] of expected) {
+    const disclosure = map.get(dietaryLeverBulletKey(label, ""));
+    assert.ok(disclosure, `${label} must resolve through a KC-owned constituent atom`);
+    assert.equal(disclosure.title, input);
+    assert.ok(disclosure.inputType);
+    assert.ok(disclosure.biologicalRole);
+    assert.ok(disclosure.evidenceReferences.length);
+    assert.ok(disclosure.evidenceLimitation);
+  }
+  assert.equal((content.match(/data-brs-kc-evidence-resource=/g) || []).length, 3);
+  assert.equal((content.match(/class="brs-evidence-title-trigger brs-fm-hub-title"/g) || []).length, 3);
+});
+
 test("PM9 lever atoms resolve five-atom currency from PM evidence", () => {
   const { data } = readPm8();
   const issues = [];
@@ -370,11 +441,13 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
     content.indexOf("3.1 Dietary Requirements"),
     content.indexOf("3.2 System Optimisation Practices"),
   );
-  assert.equal(data.dietary_lever_presentations?.length, 5);
+  assert.equal(data.dietary_lever_presentations?.length, 4);
   assert.ok(section3.includes("- Vitamin B6"));
   assert.equal((section3.match(/- Pyridoxal-5′-phosphate \(PLP\)/g) || []).length, 2);
   assert.ok(section3.includes("- Glutamate"));
-  assert.ok(section3.includes("- Glutamate substrate context"));
+  assert.ok(section3.includes("No mapping established."));
+  assert.ok(!section3.includes("Glutamate substrate context"));
+  assert.ok(!section3.includes("brs-kc-title-link"));
   assert.ok(!section3.includes("- Zinc"));
   assert.ok(!section3.includes("Current research does not establish a Direct Dietary Requirement"));
   assert.ok(!content.includes("B6 ← chickpeas"));
@@ -388,7 +461,7 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
   assert.deepEqual(issues, []);
   const map = buildDietaryLeverDisclosureMap(data);
-  assert.equal(map.size, 5);
+  assert.equal(map.size, 4);
   assert.equal(
     map.get(dietaryLeverBulletKey("Pyridoxal-5′-phosphate (PLP)", "", "3.1.1"))
       .compactQualifier,
@@ -401,11 +474,6 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
   assert.equal(
     map.get(dietaryLeverBulletKey("Glutamate", "", "3.1.2")).compactQualifier,
     "Substrate",
-  );
-  assert.equal(
-    map.get(dietaryLeverBulletKey("Glutamate substrate context", "", "3.1.3"))
-      .compactQualifier,
-    "",
   );
   const glutamate = [...map.values()].find((item) => item.title === "Glutamate");
   assert.ok(glutamate);
@@ -474,7 +542,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
   );
 
   const disclosures = [...buildDietaryLeverDisclosureMap(data).values()];
-  assert.equal(disclosures.length, 7);
+  assert.equal(disclosures.length, 6);
   assert.deepEqual(
     disclosures.map((item) => item.title),
     [
@@ -484,7 +552,6 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
       "ATP",
       "Magnesium ions (Mg²⁺)",
       "Potassium ions (K⁺)",
-      "Methionine",
     ],
   );
   assert.ok(disclosures.every((item) => item.evidenceReferences.length > 0));
@@ -516,7 +583,8 @@ test("PM3 §3.1 keeps ATP biochemical and excludes upstream cycle nutrients", ()
   assert.ok(section3.includes("3.1.3 Key Constraints"));
   assert.ok(!section3.includes("Dietary Levers"));
   assert.ok(!section3.includes("Supporting Inputs"));
-  assert.equal((section3.match(/Methionine substrate context/g) || []).length, 1);
+  assert.equal((section3.match(/No mapping established\./g) || []).length, 1);
+  assert.equal((section3.match(/Methionine substrate context/g) || []).length, 0);
   assert.ok(section311.includes("- Methionine"));
   assert.ok(section311.includes("- Dietary protein"));
   assert.ok(!section311.includes("ATP"));
@@ -753,4 +821,117 @@ test("safeguards keep Dietary Requirements independent of KC, substrate inventor
   validateDietaryLeverAtoms(mislabeled, mislabeledIssues, { entityLabel: "mislabeled" });
   assert.ok(mislabeledIssues.some((issue) => issue.code === "dla_derived_missing_target"));
   assert.ok(mislabeledIssues.some((issue) => issue.code === "dla_derived_mislabeled_as_substrate"));
+});
+
+test("state-regulation metadata cannot sit on biochemical inventory or use a dependency ceiling", () => {
+  const mg = matter(
+    fs.readFileSync(
+      path.join(process.cwd(), "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx"),
+      "utf8",
+    ),
+  ).data;
+  assert.equal((mg.dietary_lever_atoms || []).length, 1);
+  assert.equal(isBiochemicalRequirementAtom(mg.dietary_lever_atoms[0]), true);
+  assert.equal(isDietaryRequirementAtom(mg.dietary_lever_atoms[0]), false);
+  assert.equal(mg.dietary_lever_presentations[0].presentation_section, "3.1.2");
+
+  const issues = [];
+  validateDietaryLeverAtoms(mg, issues, { entityLabel: mg.pm_id });
+  assert.deepEqual(issues, []);
+
+  const polluted = structuredClone(mg);
+  polluted.dietary_lever_atoms[0].relationship_mode = "state-regulation";
+  const pollutedIssues = [];
+  validateDietaryLeverAtoms(polluted, pollutedIssues, { entityLabel: "polluted" });
+  assert.ok(pollutedIssues.some((issue) => issue.code === "dla_biochemical_relationship_mode"));
+
+  const fakeDirect = {
+    dietary_input_traceability: [
+      {
+        atom_id: "EX-REG",
+        input: "Example pattern",
+        input_type: "dietary pattern",
+        biological_role: "Regulates the PM-governed state",
+        evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
+      },
+    ],
+    dietary_lever_atoms: [
+      {
+        atom_id: "EX-REG",
+        relationship_layer: "dietary-requirement",
+        relationship_mode: "state-regulation",
+        requirement_classification: "direct",
+        dietary_addressability: "not-established",
+        claim_ceiling: "biological-dependency",
+      },
+    ],
+  };
+  const fakeIssues = [];
+  validateDietaryLeverAtoms(fakeDirect, fakeIssues, { entityLabel: "fake" });
+  assert.ok(fakeIssues.some((issue) => issue.code === "dla_state_regulation_dependency_ceiling"));
+});
+
+test("upstream PM relationships render as labelled indicators, not ownership prose", () => {
+  const fixture = {
+    dietary_input_traceability: [
+      {
+        atom_id: "EX-DIT-1",
+        input: "Tyrosine",
+        input_type: "substrate",
+        biological_role: "Substrate for conversion to L-DOPA",
+        upstream_pm_relationships: [
+          {
+            relationship_label: "Supply",
+            pm_short_id: "PM1",
+            pm_id: "BRS1-FM1-PM1",
+            href: "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+          },
+        ],
+        evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
+      },
+    ],
+    dietary_lever_atoms: [
+      {
+        atom_id: "EX-DIT-1",
+        requirement_classification: "direct",
+        dietary_addressability: "not-established",
+        claim_ceiling: "biological-dependency",
+      },
+    ],
+    dietary_lever_presentations: [
+      {
+        atom_id: "EX-DIT-1",
+        label: "Tyrosine",
+        presentation_section: "3.1.1",
+        reader_description: "Tyrosine is the starting material used to make dopamine.",
+      },
+    ],
+  };
+  const issues = [];
+  validateDietaryLeverAtoms(fixture, issues, { entityLabel: "upstream" });
+  assert.deepEqual(issues, []);
+  const disclosure = buildDietaryLeverDisclosureMap(fixture).get(
+    dietaryLeverBulletKey("Tyrosine", "", "3.1.1"),
+  );
+  assert.deepEqual(disclosure.upstreamIndicators, [
+    {
+      text: "Supply: PM1",
+      href: "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+    },
+  ]);
+
+  const ambiguous = structuredClone(fixture);
+  ambiguous.dietary_input_traceability[0].upstream_pm_relationships[0].relationship_label = "From";
+  const ambiguousIssues = [];
+  validateDietaryLeverAtoms(ambiguous, ambiguousIssues, { entityLabel: "upstream-from" });
+  assert.ok(ambiguousIssues.some((issue) => issue.code === "dla_upstream_ambiguous_label"));
+
+  const ownership = structuredClone(fixture);
+  ownership.dietary_lever_presentations[0].reader_description =
+    "Local listing does not create a second independent nutritional need.";
+  const ownershipIssues = [];
+  validateDietaryLeverAtoms(ownership, ownershipIssues, { entityLabel: "upstream-prose" });
+  assert.ok(ownershipIssues.some((issue) => issue.code === "dla_public_ownership_prose"));
 });

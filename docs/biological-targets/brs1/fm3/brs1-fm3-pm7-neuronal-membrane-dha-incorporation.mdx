@@ -1,38 +1,76 @@
 ---
 title: Neuronal Membrane DHA Incorporation
 pm_id: BRS1-FM3-PM7
-mission: >-
-  Deliver and integrate DHA into neuronal membranes so the brain maintains a
-  flexible, signal-ready lipid foundation.
+mission: 'Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.'
 parent_fm: BRS1(FM3)
 parent_brs: BRS1
-summary: >-
-  Governs how DHA (docosahexaenoic acid, the principal long-chain omega-3 fat in
-  neural membranes) is incorporated into neuronal phospholipids after
-  carrier-mediated transport across the blood–brain barrier, chiefly via the
-  MFSD2A transporter. Membrane enrichment builds over weeks to months of
-  habitual intake rather than single high-dose episodes, and depends on delivery
-  in phospholipid-bound carrier forms. This slow-turnover process sets the
-  structural lipid environment surrounding neurotransmitter receptors.
-key_constraints:
-  - BRS2(KC1) - One-Carbon Donor Pool
+summary: 'DHA (docosahexaenoic acid) is a long-chain omega-3 fat incorporated into neuronal-membrane phospholipids. Transport of lysophosphatidylcholine-bound DHA across the blood–brain barrier through MFSD2A makes carrier form relevant to delivery. Animal evidence also shows greater brain accretion from phospholipid than triglyceride DHA. Together, these findings establish structural incorporation and delivery-form biology within this pathway, not general omega-3 action, while leaving the corresponding human intake response and effect magnitude unresolved.'
 cofactors:
   - Choline
-  - phospholipid context
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: ~250–500 mg EPA+DHA per serving for meaningful contribution
+dose_sensitivity: No intake-response range established for human neuronal-membrane DHA
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+dietary_input_traceability:
+  - atom_id: PM7-DIT-1
+    input: DHA
+    input_type: nutrient/substance
+    biological_role: Long-chain omega-3 fatty acid incorporated into neuronal-membrane phospholipids
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+        - PM7-F2
+        - PM7-F3
+      citation_keys:
+        - mcnamara_role_2006
+        - patrick_role_2019
+        - liu_higher_2014
+    evidence_limitation: Diet can provide DHA for membrane incorporation. That does not establish an ADHD treatment effect or a human dosing rule from the porcine phospholipid comparison.
+  - atom_id: PM7-DIT-2
+    input: Choline
+    input_type: biochemical requirement
+    biological_role: 'Supports phosphatidylcholine chemistry that can carry DHA, without showing that choline intake constrains neuronal DHA incorporation'
+    evidence_source:
+      finding_ids:
+        - PM7-F2
+        - PM7-F3
+      citation_keys:
+        - patrick_role_2019
+        - liu_higher_2014
+    evidence_limitation: 'Patrick and Liu show phospholipid-DHA carrier form, not that dietary choline intake limits DHA incorporation into human neuronal membranes.'
+dietary_lever_atoms:
+  - atom_id: PM7-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: 'DHA is a Direct dietary provision of the fatty acid being incorporated into neuronal membranes. Phospholipid-bound DHA is a delivery form, not a second independent clinical lever. This is not an ADHD treatment rule.'
+    evidence_limitation: Diet can provide DHA for membrane incorporation. That does not establish an ADHD treatment effect or a human dosing rule from the porcine phospholipid comparison.
+  - atom_id: PM7-DIT-2
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Choline participates in phosphatidylcholine chemistry that can carry DHA. That is not a Direct choline requirement for membrane incorporation.
+    evidence_limitation: 'Patrick and Liu show phospholipid-DHA carrier form, not that dietary choline intake limits DHA incorporation into human neuronal membranes.'
+dietary_lever_presentations:
+  - atom_id: PM7-DIT-1
+    label: DHA
+    presentation_section: 3.1.1
+    reader_description: DHA is the omega-3 fat built into neuronal membranes. Phospholipid-bound DHA changes how the fat is carried for barrier transport; it is not a second independent treatment lever.
+    description_finding_id: PM7-F1
+  - atom_id: PM7-DIT-2
+    label: Choline
+    presentation_section: 3.1.2
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
-    evidence_level: mechanistic
-    rationale: >-
-      Neuronal membrane DHA enrichment and phospholipid-carrier delivery may
-      support membrane properties relevant to attention and neuropsychological
-      function in ADHD-relevant populations; delivery form, barrier transport,
-      and habitual intake matter—not isolated bolus dosing.
+    evidence_level: observational
+    rationale: 'Membrane DHA is a structural context for synaptic signalling {{cite:mcnamara_role_2006}}. An observational multi-nutrient study in children seeking help for ADHD-related symptoms cannot isolate membrane DHA from co-supplemented minerals {{cite:huss_supplementation_2010}}. Omega-3 ADHD reviews remain contextual {{cite:pei-chen_chang_personalised_2021}}.'
     references:
       - index: 1
         label: Huss et al. (2010)
@@ -40,7 +78,7 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#huss_supplementation_2010
         data_level: Human Study
       - index: 2
-        label: McNamara & Carlson (2006)
+        label: McNamara and Carlson (2006)
         citation_key: mcnamara_role_2006
         href: /docs/papers/BRAIN-Diet-References#mcnamara_role_2006
         data_level: Animal Data
@@ -50,17 +88,17 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021
         data_level: Mechanistic
     evidence_confidence: low-medium
+    scientific_findings:
+      - PM7-F4
+      - PM7-F1
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      DHA incorporation into neuronal phospholipids may support synaptic
-      signalling competence and membrane architecture relevant to cognitive
-      clarity without direct ADHD treatment-efficacy claims.
+    rationale: 'DHA in neuronal phospholipids supports membrane architecture used in synaptic signalling {{cite:mcnamara_role_2006}} {{cite:patrick_role_2019}}. Delivery form can change accretion in an animal model {{cite:liu_higher_2014}}. Those are structural and transport findings, not cognitive-clarity scores after a human DHA change.'
     references:
       - index: 1
-        label: McNamara & Carlson (2006)
+        label: McNamara and Carlson (2006)
         citation_key: mcnamara_role_2006
         href: /docs/papers/BRAIN-Diet-References#mcnamara_role_2006
         data_level: Animal Data
@@ -75,18 +113,15 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#liu_higher_2014
         data_level: Animal Data
     evidence_confidence: low-medium
+    scientific_findings:
+      - PM7-F1
+      - PM7-F2
+      - PM7-F3
   - target_phenome: Emotional Regulation
     relationship_type: modulates
     confidence: medium
     evidence_level: observational
-    rationale: >-
-      Huss et al. (2010) measured SDQ emotional problems directly: fewer
-      emotional problems at 12 weeks versus baseline in children seeking medical
-      advice for ADHD-related symptoms, alongside SNAP-IV
-      attention/hyperactivity change, following combined omega-3/6 PUFA with
-      magnesium and zinc. Membrane DHA delivery and incorporation remain the
-      mechanism boundary; the observational multi-nutrient design prevents
-      isolating membrane biology from co-supplemented minerals.
+    rationale: 'Combined omega-3/6 with magnesium and zinc was followed by fewer emotional-problem scores in an observational ADHD-seeking cohort {{cite:huss_supplementation_2010}}. Membrane DHA remains the mechanism boundary; the multi-nutrient design cannot isolate incorporation {{cite:mcnamara_role_2006}}.'
     references:
       - index: 1
         label: Huss et al. (2010)
@@ -94,37 +129,164 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#huss_supplementation_2010
         data_level: Human Outcome
       - index: 2
-        label: McNamara & Carlson (2006)
+        label: McNamara and Carlson (2006)
         citation_key: mcnamara_role_2006
         href: /docs/papers/BRAIN-Diet-References#mcnamara_role_2006
         data_level: Animal Data
     evidence_confidence: medium
+    scientific_findings:
+      - PM7-F4
+      - PM7-F1
 references:
-  - >-
-    [Patrick (2019) — Role of Phosphatidylcholine‐DHA in Preventing
-    APOE4‐associated Alzheimer's
-    Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
-  - >-
-    [Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids,
-    Magnesium and Zinc in Children Seeking
-    Medical](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)
-  - >-
-    [McNamara & Carlson (2006) — Potential Implications for the Pathogenesis and
-    Prevention of
-    Psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-  - >-
-    [Pei-Chen Chang (2021) — Focus on Omega-3 Polyunsaturated Fatty Acids and
-    ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)
-  - >-
-    [Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided As a
-    Phospholipid Than As a](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
-  - >-
-    [Colletti et al. (2021) — Clinical
-    Applications](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)
-  - >-
-    [Patted et al. (2024) — Omega-3 Fatty
-    Acids](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)
+  - '[Patrick (2019) — Role of Phosphatidylcholine-DHA in Preventing APOE4-associated Alzheimer''s Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)'
+  - '[Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids, Magnesium and Zinc in Children Seeking Medical Advice for ADHD-related Problems](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)'
+  - '[McNamara and Carlson (2006) — Role of Omega-3 Fatty Acids in Brain Development and Function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)'
+  - '[Pei-Chen Chang (2021) — Personalised Medicine Focus on Omega-3 Fatty Acids and ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)'
+  - '[Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided as a Phospholipid than as a Triglyceride](/docs/papers/BRAIN-Diet-References#liu_higher_2014)'
+  - '[Colletti et al. (2021) — Advances in Technologies for Highly Active Omega-3 Fatty Acids from Krill Oil](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)'
+  - '[Patted et al. (2024) — Omega-3 Fatty Acids: Sources, Functions and Health Benefits](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)'
+kc_applicability_adjudications:
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: one-carbon-methyl-donor-pool
+    applicability_proposition: >-
+      Inadequacy of the shared methyl-donor pool can constrain this mechanism’s
+      governed neuronal-membrane DHA-incorporation capacity.
+    disposition: unresolved
+    established_links:
+      - Phospholipid-bound DHA is a carrier form for barrier transport and membrane accretion (PM7-F2, PM7-F3).
+    inferred_links:
+      - One-carbon inadequacy would limit PEMT-dependent phosphatidylcholine and thereby constrain DHA incorporation.
+    evidence_source:
+      finding_ids:
+        - PM7-F2
+        - PM7-F3
+      citation_keys:
+        - patrick_role_2019
+        - liu_higher_2014
+    rationale: >-
+      Assessment was completed. Attached sources support phospholipid carriage, not
+      that methyl-donor inadequacy constrains DHA incorporation. The PEMT chain
+      remains inference. BRS1(KC1) was screened out: DHA is not an amino-acid pool.
 hide_title: true
+scientific_findings_intro: DHA is a structural fat in neuronal membranes. The findings below separate that membrane role from lysophosphatidylcholine carriage across the barrier and from phospholipid-versus-triglyceride delivery in an animal model. They do not show that changing DHA intake treats ADHD.
+scientific_findings:
+  - id: PM7-F1
+    finding_label: DHA is a structural neuronal-membrane polyunsaturated fat
+    finding_summary: 'Docosahexaenoic acid (DHA) is a long-chain omega-3 fat built into neuronal-membrane phospholipids. That is a structural role, not a dosing rule.'
+    finding_interpretation: This supports the mission of a signal-ready lipid foundation. It does not show that a single meal resets membranes or that DHA treats ADHD.
+    fm_rollup: true
+    finding_statement: DHA is a structural polyunsaturated fatty acid of neuronal membranes; that structural role is not a human dosing or ADHD-treatment rule.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A review of omega-3 fats in brain development and function treats DHA as a major structural component of neuronal membranes with implications for signalling architecture. That supports reading this mechanism as membrane composition. It does not measure everyday dietary control of human membrane DHA or isolate ADHD treatment.
+    synthesis_limitations: Narrative review spanning development and psychopathology hypotheses. It is not a human membrane-accretion trial after a defined DHA food form.
+    evidence_considered:
+      - label: McNamara and Carlson (2006)
+        citation_key: mcnamara_role_2006
+        href: /docs/papers/BRAIN-Diet-References#mcnamara_role_2006
+        data_level: Animal Data
+        evidence_source: repository-inherited
+        directional_finding: 'Long-chain omega-3 fats, especially DHA, are structural components of neuronal membranes relevant to brain development and function.'
+        assessment:
+          study: 'Narrative review of omega-3 roles in brain development, function and psychopathology risk.'
+          population: 'Mixed developmental, animal and human literature summarised in the review.'
+          result: Identified DHA as a principal membrane PUFA with signalling-architecture implications.
+          effect_magnitude: No dietary dose-response or ADHD treatment estimate.
+          evidence_summary: Establishes the structural membrane role of DHA.
+          limitations: Review synthesis; not a human incorporation trial.
+    presentation: mechanistic-basis
+  - id: PM7-F2
+    finding_label: LPC-DHA uses MFSD2A for barrier transport
+    finding_summary: DHA carried as lysophosphatidylcholine (LPC-DHA) is a preferred substrate for MFSD2A transport at the blood–brain barrier. The phospholipid carrier form matters for presentation.
+    finding_interpretation: Phospholipid-bound DHA is delivery context for this mechanism. It is not a second independent clinical lever and does not by itself prove that choline intake constrains incorporation.
+    fm_rollup: true
+    finding_statement: 'LPC-DHA is transported by MFSD2A more efficiently than free or triglyceride-bound DHA; carrier form is a transport property, not a choline-intake or ADHD-dosing rule.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: A phosphatidylcholine-DHA review describes conversion toward LPC-DHA and MFSD2A-mediated barrier transport as the efficient route relative to free or triglyceride-bound DHA. That establishes why phospholipid carriage is mechanistically distinct. It does not measure human membrane DHA after ordinary choline intake.
+    synthesis_limitations: 'Mechanistic and disease-context review, including APOE4 discussion. It is not a human dietary-choline or ADHD trial.'
+    evidence_considered:
+      - label: Patrick (2019)
+        citation_key: patrick_role_2019
+        href: /docs/papers/BRAIN-Diet-References#patrick_role_2019
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Phosphatidylcholine-DHA can generate LPC-DHA, which crosses the blood–brain barrier via MFSD2A more efficiently than non-phospholipid forms.'
+        assessment:
+          study: Review of phosphatidylcholine-DHA transport and APOE4-associated Alzheimer context.
+          population: Mixed human genetic and mechanistic literature; not a dietary ADHD sample.
+          result: Identified LPC-DHA / MFSD2A as the efficient barrier-transport route.
+          effect_magnitude: No ordinary-diet incorporation estimate.
+          evidence_summary: Establishes carrier-form transport chemistry.
+          limitations: Review; does not show choline intake constrains DHA incorporation.
+    presentation: mechanistic-basis
+  - id: PM7-F3
+    finding_label: Phospholipid DHA accretes more than triglyceride DHA in a porcine model
+    finding_summary: 'Dietary DHA provided as phospholipid produced higher gray-matter DHA accretion than the same fatty acid as triglyceride in neonatal piglets. That is an animal delivery-form finding, not a human dosing rule.'
+    finding_interpretation: Use this as evidence that phospholipid versus triglyceride form can change accretion in that model. Do not read it as a human capsule dose or an ADHD protocol.
+    fm_rollup: true
+    finding_statement: Phospholipid-bound dietary DHA produced greater gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets; that animal contrast is not a human dosing or ADHD-treatment rule.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A controlled porcine comparison found about 1.9-fold greater gray-matter DHA accretion from phospholipid DHA than from triglyceride DHA. That supports a delivery-form difference for accretion. It does not establish human membrane dosing or that choline intake, rather than the DHA phospholipid itself, was the limiting input.'
+    synthesis_limitations: 'Neonatal piglets, not children or adults. The contrast is lipid class of DHA, not a choline-supplement arm.'
+    evidence_considered:
+      - label: Liu et al. (2014)
+        citation_key: liu_higher_2014
+        href: /docs/papers/BRAIN-Diet-References#liu_higher_2014
+        data_level: Animal Data
+        evidence_source: repository-inherited
+        directional_finding: Phospholipid-bound dietary DHA produced higher brain gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets.
+        assessment:
+          study: Controlled comparison of matched DHA intake as phospholipid versus triglyceride.
+          population: Neonatal piglets.
+          result: Approximately 1.9-fold greater gray-matter DHA accretion from the phospholipid form.
+          effect_magnitude: About 1.9-fold accretion contrast in that animal model.
+          evidence_summary: Shows delivery form can change brain DHA accretion in piglets.
+          limitations: Animal model; not a human dose and not a choline-intake test.
+    connected_supportive_evidence:
+      - label: Colletti et al. (2021)
+        citation_key: colletti_advances_2021
+        href: /docs/papers/BRAIN-Diet-References#colletti_advances_2021
+        data_level: Mixed
+        why_relevant: Reviews krill-oil phospholipid omega-3 composition and applications.
+        why_excluded: Sourcing and clinical-application review; not a neuronal-membrane incorporation measurement.
+      - label: Patted et al. (2024)
+        citation_key: patted_omega-3_2024
+        href: /docs/papers/BRAIN-Diet-References#patted_omega-3_2024
+        data_level: Mechanistic
+        why_relevant: 'Broader omega-3 source and function review, including contaminant-context discussion.'
+        why_excluded: General source review; not a finding on MFSD2A transport or membrane accretion.
+    presentation: mechanistic-basis
+  - id: PM7-F4
+    finding_label: Multi-nutrient ADHD-seeking observations cannot isolate membrane DHA
+    finding_summary: 'Children seeking help for ADHD-related symptoms showed attention and emotional-score changes after combined omega-3/6, magnesium and zinc. That observational mix cannot isolate neuronal-membrane DHA.'
+    finding_interpretation: Treat Huss as supportive phenome context with hard limits. It is not evidence that membrane DHA incorporation treats ADHD.
+    finding_statement: Observational multi-nutrient supplementation in ADHD-seeking children is translationally adjacent to attention and emotion scores; it cannot isolate membrane DHA incorporation as the cause.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: An observational cohort taking omega-3/6 with magnesium and zinc reported SNAP-IV and SDQ changes from baseline. An omega-3 ADHD review supplies personalised-medicine context. Together they keep attention and emotion mappings in view. They do not isolate phospholipid-DHA transport or membrane accretion.
+    synthesis_limitations: 'Uncontrolled observational design and co-supplemented minerals. Chang is a review, not a membrane-DHA trial.'
+    evidence_considered:
+      - label: Huss et al. (2010)
+        citation_key: huss_supplementation_2010
+        href: /docs/papers/BRAIN-Diet-References#huss_supplementation_2010
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: 'Combined PUFA, magnesium and zinc was followed by attention and emotional-problem score changes; membrane DHA cannot be isolated.'
+        assessment:
+          study: Observational cohort of multi-nutrient supplementation.
+          population: Children seeking medical advice for ADHD-related symptoms.
+          result: SNAP-IV attention/hyperactivity and SDQ emotional-problem scores improved versus baseline.
+          effect_magnitude: Within-cohort score changes; no DHA-only contrast.
+          evidence_summary: Supplies ADHD-adjacent outcome context with hard attribution limits.
+          limitations: Observational; omega-3/6 plus magnesium and zinc; not membrane DHA.
+    connected_supportive_evidence:
+      - label: Pei-Chen Chang (2021)
+        citation_key: pei-chen_chang_personalised_2021
+        href: /docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021
+        data_level: Mechanistic
+        why_relevant: Reviews omega-3 fatty acids in ADHD as personalised-medicine context.
+        why_excluded: Narrative review; does not measure neuronal-membrane DHA incorporation.
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -139,24 +301,193 @@ hide_title: true
 
 (Getting Omega-3 DHA Into Brain Membranes)
 
-## 1. Mission & Overview
+## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
 Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.
 
+
+DHA is a Direct dietary provision of the fatty acid incorporated into neuronal membranes. Phospholipid-bound DHA is a delivery form, not a second independent clinical lever. Choline supports phosphatidylcholine chemistry but is not shown as a Direct requirement that intake constrains incorporation. This is not an ADHD treatment rule. Dietary addressability at the mechanism level remains unestablished.
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- DHA
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Choline
+
+Choline supports phosphatidylcholine chemistry that can carry DHA. The attached transport and porcine accretion studies show phospholipid-DHA form, not that choline intake constrains incorporation.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
 ### Overview
 
-Governs how DHA (docosahexaenoic acid, the principal long-chain omega-3 fat in neural membranes) is incorporated into neuronal phospholipids after carrier-mediated transport across the blood–brain barrier, chiefly via the MFSD2A transporter. Membrane enrichment builds over weeks to months of habitual intake rather than single high-dose episodes, and depends on delivery in phospholipid-bound carrier forms. This slow-turnover process sets the structural lipid environment surrounding neurotransmitter receptors.
+DHA (docosahexaenoic acid) is a long-chain omega-3 fat incorporated into neuronal-membrane phospholipids McNamara and Carlson (2006) [[3]](#pm-ref-3). Transport of lysophosphatidylcholine-bound DHA across the blood–brain barrier through MFSD2A makes carrier form relevant to delivery Patrick (2019) [[1]](#pm-ref-1). Animal evidence also shows greater brain accretion from phospholipid than triglyceride DHA Liu et al. (2014) [[5]](#pm-ref-5). Together, these findings establish structural incorporation and delivery-form biology within this pathway, not general omega-3 action, while leaving the corresponding human intake response and effect magnitude unresolved.
 
-* Incorporates DHA into neuronal membranes via phospholipid-bound carrier transport.
-* Builds membrane enrichment over weeks to months of habitual intake.
-* Sets the structural lipid environment surrounding neurotransmitter receptors.
+* **Mechanism boundary:** Includes barrier delivery and incorporation of DHA into neuronal phospholipids; downstream lipid mediators and general omega-3 effects are outside scope.
+* **Evidence boundary:** Porcine accretion differences support a carrier-form effect but do not establish the same magnitude or a dosing rule in humans Liu et al. (2014) [[5]](#pm-ref-5).
+* **Biological relevance:** Membrane DHA provides structural context for neural signalling, but the assessed evidence does not establish an ADHD treatment effect McNamara and Carlson (2006) [[3]](#pm-ref-3); Huss et al. (2010) [[2]](#pm-ref-2).
 
 ## 2. Primary Biological Effects
 ↑ brain DHA accretion; ↑ neuronal membrane DHA enrichment; ↑ membrane fluidity context; ↑ synaptic signalling competence
 
-## 3. Phenome Connections
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown.</p>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Synaptic signalling depends partly on the lipid composition of neuronal membranes. Phosphatidylcholine can carry DHA; conversion toward lysophosphatidylcholine-DHA (LPC-DHA) presents DHA to the MFSD2A transporter at the blood–brain barrier. Delivery form, not dose slogans, is the mechanistic distinction. This is not an ADHD treatment claim.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>PC carriage, LPC-DHA transport, membrane incorporation, and synaptic signalling</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Phosphatidylcholine as DHA and EPA carrier)
+
+Phosphatidylcholine is a principal membrane phospholipid and a dietary carrier for long-chain omega-3 fatty acids. DHA in that phospholipid pool supplies neuronal-membrane architecture and the chemistry that can generate LPC carriers → [Patrick, 2019]
+
+#### (LPC-DHA and MFSD2A blood–brain barrier transport)
+
+DHA in phosphatidylcholine can be converted to LPC-DHA, which crosses the blood–brain barrier more efficiently than free DHA or triglyceride-bound forms via MFSD2A. That transport step precedes structural incorporation and explains why phospholipid-matrix delivery is distinct from triglyceride-oil dosing → [Patrick, 2019]
+
+#### (Membrane incorporation and synaptic signalling)
+
+DHA integrates into phospholipid bilayers of neuronal membranes, influencing membrane fluidity, receptor dynamics, and synaptic signalling competence. Incorporation builds over weeks to months of habitual intake rather than through single-meal bolus exposure → [McNamara & Carlson, 2006]
+
+#### (Phospholipid-bound delivery efficacy)
+
+Phospholipid-bound DHA showed higher gray-matter accretion than triglyceride DHA in neonatal piglets — about 1.9-fold in that comparison. The contrast is animal delivery form, not a human capsule rule and not a choline-intake test → [Liu et al., 2014]
+
+#### (Boundaries of the mechanism)
+
+This mechanism governs phospholipid-carrier delivery through neuronal-membrane incorporation over habitual intake. Lipid-mediator resolution biology belongs with inflammation-domain mechanisms. Acute amino-acid substrate supply is handled by [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). Large-neutral-amino-acid competition at the barrier belongs to [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Choline-to-acetylcholine conversion is a different choline fate, represented by [BRS1-FM2-PM6 - Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support). APOE4-sensitive delivery interpretation is handled by [BRS1(SM-SNP2)](/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity). Membrane PUFA protection and eicosanoid/SPM balance belong downstream with lipid-peroxidation control and eicosanoid–SPM balance.
+
+#### (Integration within BRS1)
+
+This mechanism operationalises membrane DHA incorporation within [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration). Habitual DHA provision and phospholipid/LPC delivery context remain the primary biological levers discussed here.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+DHA is a structural fat in neuronal membranes. The findings below separate that membrane role from lysophosphatidylcholine carriage across the barrier and from phospholipid-versus-triglyceride delivery in an animal model. They do not show that changing DHA intake treats ADHD.
+
+<ScientificFinding finding={{"id":"PM7-F1","finding_label":"DHA is a structural neuronal-membrane polyunsaturated fat","finding_summary":"Docosahexaenoic acid (DHA) is a long-chain omega-3 fat built into neuronal-membrane phospholipids. That is a structural role, not a dosing rule.","finding_interpretation":"This supports the mission of a signal-ready lipid foundation. It does not show that a single meal resets membranes or that DHA treats ADHD.","fm_rollup":true,"finding_statement":"DHA is a structural polyunsaturated fatty acid of neuronal membranes; that structural role is not a human dosing or ADHD-treatment rule.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A review of omega-3 fats in brain development and function treats DHA as a major structural component of neuronal membranes with implications for signalling architecture. That supports reading this mechanism as membrane composition. It does not measure everyday dietary control of human membrane DHA or isolate ADHD treatment.","synthesis_limitations":"Narrative review spanning development and psychopathology hypotheses. It is not a human membrane-accretion trial after a defined DHA food form.","evidence_considered":[{"label":"McNamara and Carlson (2006)","citation_key":"mcnamara_role_2006","href":"/docs/papers/BRAIN-Diet-References#mcnamara_role_2006","data_level":"Animal Data","evidence_source":"repository-inherited","directional_finding":"Long-chain omega-3 fats, especially DHA, are structural components of neuronal membranes relevant to brain development and function.","assessment":{"study":"Narrative review of omega-3 roles in brain development, function and psychopathology risk.","population":"Mixed developmental, animal and human literature summarised in the review.","result":"Identified DHA as a principal membrane PUFA with signalling-architecture implications.","effect_magnitude":"No dietary dose-response or ADHD treatment estimate.","evidence_summary":"Establishes the structural membrane role of DHA.","limitations":"Review synthesis; not a human incorporation trial."},"canonical_reference":{"author_year":"McNamara and Carlson (2006)","number":3,"anchor":"#pm-ref-3"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"},{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
+
+<ScientificFinding finding={{"id":"PM7-F2","finding_label":"LPC-DHA uses MFSD2A for barrier transport","finding_summary":"DHA carried as lysophosphatidylcholine (LPC-DHA) is a preferred substrate for MFSD2A transport at the blood–brain barrier. The phospholipid carrier form matters for presentation.","finding_interpretation":"Phospholipid-bound DHA is delivery context for this mechanism. It is not a second independent clinical lever and does not by itself prove that choline intake constrains incorporation.","fm_rollup":true,"finding_statement":"LPC-DHA is transported by MFSD2A more efficiently than free or triglyceride-bound DHA; carrier form is a transport property, not a choline-intake or ADHD-dosing rule.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A phosphatidylcholine-DHA review describes conversion toward LPC-DHA and MFSD2A-mediated barrier transport as the efficient route relative to free or triglyceride-bound DHA. That establishes why phospholipid carriage is mechanistically distinct. It does not measure human membrane DHA after ordinary choline intake.","synthesis_limitations":"Mechanistic and disease-context review, including APOE4 discussion. It is not a human dietary-choline or ADHD trial.","evidence_considered":[{"label":"Patrick (2019)","citation_key":"patrick_role_2019","href":"/docs/papers/BRAIN-Diet-References#patrick_role_2019","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Phosphatidylcholine-DHA can generate LPC-DHA, which crosses the blood–brain barrier via MFSD2A more efficiently than non-phospholipid forms.","assessment":{"study":"Review of phosphatidylcholine-DHA transport and APOE4-associated Alzheimer context.","population":"Mixed human genetic and mechanistic literature; not a dietary ADHD sample.","result":"Identified LPC-DHA / MFSD2A as the efficient barrier-transport route.","effect_magnitude":"No ordinary-diet incorporation estimate.","evidence_summary":"Establishes carrier-form transport chemistry.","limitations":"Review; does not show choline intake constrains DHA incorporation."},"canonical_reference":{"author_year":"Patrick (2019)","number":1,"anchor":"#pm-ref-1"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+<ScientificFinding finding={{"id":"PM7-F3","finding_label":"Phospholipid DHA accretes more than triglyceride DHA in a porcine model","finding_summary":"Dietary DHA provided as phospholipid produced higher gray-matter DHA accretion than the same fatty acid as triglyceride in neonatal piglets. That is an animal delivery-form finding, not a human dosing rule.","finding_interpretation":"Use this as evidence that phospholipid versus triglyceride form can change accretion in that model. Do not read it as a human capsule dose or an ADHD protocol.","fm_rollup":true,"finding_statement":"Phospholipid-bound dietary DHA produced greater gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets; that animal contrast is not a human dosing or ADHD-treatment rule.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A controlled porcine comparison found about 1.9-fold greater gray-matter DHA accretion from phospholipid DHA than from triglyceride DHA. That supports a delivery-form difference for accretion. It does not establish human membrane dosing or that choline intake, rather than the DHA phospholipid itself, was the limiting input.","synthesis_limitations":"Neonatal piglets, not children or adults. The contrast is lipid class of DHA, not a choline-supplement arm.","evidence_considered":[{"label":"Liu et al. (2014)","citation_key":"liu_higher_2014","href":"/docs/papers/BRAIN-Diet-References#liu_higher_2014","data_level":"Animal Data","evidence_source":"repository-inherited","directional_finding":"Phospholipid-bound dietary DHA produced higher brain gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets.","assessment":{"study":"Controlled comparison of matched DHA intake as phospholipid versus triglyceride.","population":"Neonatal piglets.","result":"Approximately 1.9-fold greater gray-matter DHA accretion from the phospholipid form.","effect_magnitude":"About 1.9-fold accretion contrast in that animal model.","evidence_summary":"Shows delivery form can change brain DHA accretion in piglets.","limitations":"Animal model; not a human dose and not a choline-intake test."},"canonical_reference":{"author_year":"Liu et al. (2014)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[{"label":"Colletti et al. (2021)","citation_key":"colletti_advances_2021","href":"/docs/papers/BRAIN-Diet-References#colletti_advances_2021","data_level":"Mixed","why_relevant":"Reviews krill-oil phospholipid omega-3 composition and applications.","why_excluded":"Sourcing and clinical-application review; not a neuronal-membrane incorporation measurement.","canonical_reference":{"author_year":"Colletti et al. (2021)","number":6,"anchor":"#pm-ref-6"}},{"label":"Patted et al. (2024)","citation_key":"patted_omega-3_2024","href":"/docs/papers/BRAIN-Diet-References#patted_omega-3_2024","data_level":"Mechanistic","why_relevant":"Broader omega-3 source and function review, including contaminant-context discussion.","why_excluded":"General source review; not a finding on MFSD2A transport or membrane accretion.","canonical_reference":{"author_year":"Patted et al. (2024)","number":7,"anchor":"#pm-ref-7"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
+↓
+[BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+↓
+[BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — Once DHA is in membranes it remains oxidisable; peroxidation control protects those polyunsaturated lipids but is not the incorporation step itself.
+- [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — Incorporated long-chain fats can feed eicosanoid and specialised pro-resolving mediator chemistry downstream of this membrane job.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM2-PM6 - Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — Converts choline plus acetyl-CoA into acetylcholine. That choline fate is transmitter synthesis, not phosphatidylcholine carriage of DHA for membrane incorporation.
+- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Supplies circulating amino acids for monoamine precursors. Amino-acid pool adequacy is not DHA transport or membrane accretion.
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — Governs competitive brain entry of large neutral amino acids. LAT1 amino-acid competition is not MFSD2A LPC-DHA transport.
+
+## 7. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -207,10 +538,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.
-- **Key References:**
+- **Rationale:** Membrane DHA is a structural context for synaptic signalling  McNamara and Carlson (2006) [[3]](#pm-ref-3). An observational multi-nutrient study in children seeking help for ADHD-related symptoms cannot isolate membrane DHA from co-supplemented minerals  Huss et al. (2010) [[2]](#pm-ref-2). Omega-3 ADHD reviews remain contextual  Pei-Chen Chang (2021) [[4]](#pm-ref-4).
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#huss_supplementation_2010","label":"Huss et al. (2010)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#mcnamara_role_2006","label":"McNamara & Carlson (2006)","dataLevel":"Animal Data"},{"href":"/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021","label":"Pei-Chen Chang (2021)","dataLevel":"Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM7-F4","finding_label":"Multi-nutrient ADHD-seeking observations cannot isolate membrane DHA","finding_summary":"Children seeking help for ADHD-related symptoms showed attention and emotional-score changes after combined omega-3/6, magnesium and zinc. That observational mix cannot isolate neuronal-membrane DHA.","finding_interpretation":"Treat Huss as supportive phenome context with hard limits. It is not evidence that membrane DHA incorporation treats ADHD.","finding_statement":"Observational multi-nutrient supplementation in ADHD-seeking children is translationally adjacent to attention and emotion scores; it cannot isolate membrane DHA incorporation as the cause.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"An observational cohort taking omega-3/6 with magnesium and zinc reported SNAP-IV and SDQ changes from baseline. An omega-3 ADHD review supplies personalised-medicine context. Together they keep attention and emotion mappings in view. They do not isolate phospholipid-DHA transport or membrane accretion.","synthesis_limitations":"Uncontrolled observational design and co-supplemented minerals. Chang is a review, not a membrane-DHA trial.","evidence_considered":[{"label":"Huss et al. (2010)","citation_key":"huss_supplementation_2010","href":"/docs/papers/BRAIN-Diet-References#huss_supplementation_2010","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"Combined PUFA, magnesium and zinc was followed by attention and emotional-problem score changes; membrane DHA cannot be isolated.","assessment":{"study":"Observational cohort of multi-nutrient supplementation.","population":"Children seeking medical advice for ADHD-related symptoms.","result":"SNAP-IV attention/hyperactivity and SDQ emotional-problem scores improved versus baseline.","effect_magnitude":"Within-cohort score changes; no DHA-only contrast.","evidence_summary":"Supplies ADHD-adjacent outcome context with hard attribution limits.","limitations":"Observational; omega-3/6 plus magnesium and zinc; not membrane DHA."},"canonical_reference":{"author_year":"Huss et al. (2010)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[{"label":"Pei-Chen Chang (2021)","citation_key":"pei-chen_chang_personalised_2021","href":"/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021","data_level":"Mechanistic","why_relevant":"Reviews omega-3 fatty acids in ADHD as personalised-medicine context.","why_excluded":"Narrative review; does not measure neuronal-membrane DHA incorporation.","canonical_reference":{"author_year":"Pei-Chen Chang (2021)","number":4,"anchor":"#pm-ref-4"}}],"presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
 </div>
 </div>
 </div>
@@ -230,10 +562,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mcnamara_role_2006","label":"McNamara & Carlson (2006)","dataLevel":"Animal Data"},{"href":"/docs/papers/BRAIN-Diet-References#patrick_role_2019","label":"Patrick (2019)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#liu_higher_2014","label":"Liu et al. (2014)","dataLevel":"Animal Data"}]} />
+- **Rationale:** DHA in neuronal phospholipids supports membrane architecture used in synaptic signalling  McNamara and Carlson (2006) [[3]](#pm-ref-3)  Patrick (2019) [[1]](#pm-ref-1). Delivery form can change accretion in an animal model  Liu et al. (2014) [[5]](#pm-ref-5). Those are structural and transport findings, not cognitive-clarity scores after a human DHA change.
 </div>
 </div>
 </div>
@@ -253,321 +582,17 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Medium
-- **Rationale:** Huss et al. (2010) measured SDQ emotional problems directly: fewer emotional problems at 12 weeks versus baseline in children seeking medical advice for ADHD-related symptoms, alongside SNAP-IV attention/hyperactivity change, following combined omega-3/6 PUFA with magnesium and zinc. Membrane DHA delivery and incorporation remain the mechanism boundary; the observational multi-nutrient design prevents isolating membrane biology from co-supplemented minerals.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#huss_supplementation_2010","label":"Huss et al. (2010)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#mcnamara_role_2006","label":"McNamara & Carlson (2006)","dataLevel":"Animal Data"}]} />
+- **Rationale:** Combined omega-3/6 with magnesium and zinc was followed by fewer emotional-problem scores in an observational ADHD-seeking cohort  Huss et al. (2010) [[2]](#pm-ref-2). Membrane DHA remains the mechanism boundary; the multi-nutrient design cannot isolate incorporation  McNamara and Carlson (2006) [[3]](#pm-ref-3).
 </div>
 </div>
 </div>
-
-## 4. Levers
-
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- DHA ← salmon, sardines, omega-3 eggs
-- Phospholipid DHA / EPA ← roe, krill oil
-- Choline ← eggs, fish roe
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Choline
-- phospholipid context
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS2(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">(Key Constraint) (KC1) — Methyl Donor Pool</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Folate ← leafy greens, legumes, liver
-- Choline ← eggs, liver, salmon
-- Betaine (TMG) ← beetroot, spinach, quinoa
-- Vitamin B12 ← shellfish, sardines, eggs
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Sardines — Preparation](/docs/foods/sardines#preparation).
-- Repeated weekly oily-fish or phospholipid-DHA intake matters more than isolated high-dose episodes for membrane incorporation.
-- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies).
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-Synaptic signalling and plasticity depend partly on the lipid composition of neuronal membranes. **Phosphatidylcholine (PC)** is a key carrier for DHA and EPA; PC-bound DHA can be converted to **lysophosphatidylcholine-DHA (LPC-DHA)**, the preferred substrate for **MFSD2A** blood–brain barrier transport — making delivery matrix, not dose alone, central to brain accretion within [BRS1(FM3) - Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>PC carriage, LPC-DHA transport, membrane incorporation, and synaptic signalling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (Phosphatidylcholine as DHA and EPA carrier)
-
-Phosphatidylcholine (PC) is a principal membrane phospholipid and a key dietary carrier for long-chain omega-3 fatty acids. DHA and EPA incorporated into PC enter the phospholipid pool that supplies neuronal membrane architecture and barrier-transport chemistry → [Patrick, 2019]
-
-#### (LPC-DHA and MFSD2A blood–brain barrier transport)
-
-DHA in PC can be converted to lysophosphatidylcholine-DHA (LPC-DHA), which crosses the blood–brain barrier far more efficiently than free DHA or triglyceride-bound forms via the MFSD2A transporter. This transport step precedes structural membrane incorporation and helps explain why phospholipid-matrix delivery is mechanistically distinct from triglyceride-oil dosing → [Patrick, 2019]
-
-#### (Membrane incorporation and synaptic signalling)
-
-DHA integrates into phospholipid bilayers of neuronal membranes, influencing membrane fluidity, receptor dynamics, and synaptic signalling competence. Incorporation builds over weeks to months of habitual intake rather than through single-meal bolus exposure → [McNamara & Carlson, 2006]
-
-#### (Phospholipid-bound delivery efficacy)
-
-Phospholipid-bound omega-3 sources that readily generate LPC carriers show higher brain DHA accretion than some triglyceride forms in controlled porcine models — approximately 1.9-fold greater gray-matter DHA accretion in one phospholipid-versus-triglyceride comparison → [Liu et al., 2014]
-
-Dietary choline supports phosphatidylcholine chemistry that intersects this pathway through [BRS1-FM2-PM6 - Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support); phospholipid context is listed in section 7.2.
-
-#### (Boundaries of the mechanism)
-
-This PM governs **phospholipid-carrier delivery through neuronal membrane incorporation** over habitual intake patterns. Scope spans dietary carrier form, barrier transport chemistry, and membrane enrichment—not lipid-mediator resolution biology ([BRS3](/docs/biological-targets/inflammation-oxidative-stress)).
-
-Acute amino-acid substrate supply is handled by [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). LNAA competitive transport at the barrier belongs to [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Choline-to-acetylcholine conversion is represented by [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support). **APOE4-sensitive brain delivery interpretation** is handled by [BRS1(SM-SNP2)](/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity). Membrane PUFA protection and eicosanoid/SPM balance downstream belong to [BRS3-FM2-PM5](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) and [BRS3-FM3-PM8](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance).
-
-#### (Integration within BRS1)
-
-This PM operationalises membrane DHA incorporation within [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration). Habitual DHA intake frequency and phospholipid/LPC delivery context remain the primary levers for this PM.
-
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-The role of DHA in neuronal membrane biology is well established. The studies below do not restate membrane biochemistry; they highlight **PC/LPC transport**, delivery-form efficacy, membrane structural context, and sourcing considerations that refine how incorporation is interpreted in practice.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>LPC-DHA and MFSD2A transport</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** LPC-DHA crosses the blood–brain barrier more efficiently than free or triglyceride-bound DHA via MFSD2A; PC–DHA chemistry is central to this transport frame [Patrick, 2019].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#patrick_role_2019","label":"Patrick (2019)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Phospholipid versus triglyceride delivery</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Dietary DHA provided as phospholipid shows higher efficacy for brain gray-matter DHA accretion than triglyceride form in porcine models (approximately 1.9-fold in one comparison) [Liu et al., 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#liu_higher_2014","label":"Liu et al. (2014)","dataLevel":"Animal Data"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Phospholipid-bound omega-3 sources</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Phospholipid-bound omega-3 sources such as krill oil and fish roe supply EPA/DHA in forms readily converted toward LPC carriers [Colletti et al., 2021]; [Liu et al., 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#liu_higher_2014","label":"Liu et al. (2014)","dataLevel":"Animal Data"},{"href":"/docs/papers/BRAIN-Diet-References#colletti_advances_2021","label":"Colletti et al. (2021)","dataLevel":"Mixed"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Neuronal membrane structural role of omega-3</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Long-chain omega-3 fatty acids are structural components of neuronal membranes with established roles in membrane fluidity and signalling architecture [McNamara & Carlson, 2006].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mcnamara_role_2006","label":"McNamara & Carlson (2006)","dataLevel":"Animal Data"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Sourcing and heavy-metal context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Krill sits low in the food chain and typically carries a lower heavy-metal burden than oils from higher-trophic fish — a sourcing consideration for habitual phospholipid omega-3 intake [Colletti et al., 2021]; [Patted et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#colletti_advances_2021","label":"Colletti et al. (2021)","dataLevel":"Mixed"},{"href":"/docs/papers/BRAIN-Diet-References#patted_omega-3_2024","label":"Patted et al. (2024)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-## 6. BRS Pathways and Connections
-
-### 6.1 BRS Pathways
-
-[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-↓
-[BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
-↓
-[BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)
-
-### 6.2 Cross-BRS Mechanism Relationships
-
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
-- [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
-
-### 6.3 Local BRS Mechanism Relationships
-
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- None listed
-
-## 7. Scoreable Inputs & Modulation Signals
-
-This PM is scoreable through food-state and nutrient signals relevant to neuronal membrane dha incorporation.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Scoreable Input Categories</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-| Input Category | Example Inputs | PM7 Relevance |
-|---|---|---|
-| Functional Property Potentials | marine_omega3_pattern; phospholipid_dha_delivery; choline_phospholipid_context | May support membrane DHA incorporation. |
-| Realised Functional States | oily_fish_pattern; roe_or_phospholipid_dha_meal | Represent habitual incorporation-supportive states. |
-| Preparation Transformations | gentle_marine_fat_cooking; minimally_processed_seafood_matrix | May preserve PUFA and phospholipid delivery quality. |
-
-</div>
-</div>
-</div>
-
 
 ## 8. References
-- [Patrick (2019) — Role of Phosphatidylcholine‐DHA in Preventing APOE4‐associated Alzheimer's Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
-- [Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids, Magnesium and Zinc in Children Seeking Medical](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)
-- [McNamara & Carlson (2006) — Potential Implications for the Pathogenesis and Prevention of Psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-- [Pei-Chen Chang (2021) — Focus on Omega-3 Polyunsaturated Fatty Acids and ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)
-- [Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided As a Phospholipid Than As a](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
-- [Colletti et al. (2021) — Clinical Applications](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)
-- [Patted et al. (2024) — Omega-3 Fatty Acids](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)
+
+- <span id="pm-ref-1">[1]</span> [Patrick (2019) — Role of Phosphatidylcholine-DHA in Preventing APOE4-associated Alzheimer's Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+- <span id="pm-ref-2">[2]</span> [Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids, Magnesium and Zinc in Children Seeking Medical Advice for ADHD-related Problems](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)
+- <span id="pm-ref-3">[3]</span> [McNamara and Carlson (2006) — Role of Omega-3 Fatty Acids in Brain Development and Function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+- <span id="pm-ref-4">[4]</span> [Pei-Chen Chang (2021) — Personalised Medicine Focus on Omega-3 Fatty Acids and ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)
+- <span id="pm-ref-5">[5]</span> [Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided as a Phospholipid than as a Triglyceride](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
+- <span id="pm-ref-6">[6]</span> [Colletti et al. (2021) — Advances in Technologies for Highly Active Omega-3 Fatty Acids from Krill Oil](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)
+- <span id="pm-ref-7">[7]</span> [Patted et al. (2024) — Omega-3 Fatty Acids: Sources, Functions and Health Benefits](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)

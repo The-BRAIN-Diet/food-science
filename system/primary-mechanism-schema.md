@@ -86,7 +86,7 @@ references:
 missing_entities:                    # optional
   foods: [string]
   substances: [string]
-evidence_status: string              # optional authoring state; e.g. stage-1-structural
+evidence_status: string              # optional authoring state; e.g. stage-1-structural, stage-2a-scientific-evidence, stage-2b-dietary-addressability
 mechanistic_authoring_required: bool # optional; true while full evidence authoring is pending
 dietary_addressability: string       # optional; use not-established when actionability is unassessed
 claim_ceiling: string                # optional; biological-dependency prevents intervention uplift
@@ -129,7 +129,7 @@ findings.
 
 ## Timing Specific (required ontology metadata; not a default public body section)
 
-`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.3 Lifestyle Levers**, **Primary Biological Effects**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
+`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.3 Lifestyle Levers**, **Primary Biological Effects**, or **Mechanistic Basis**.
 
 `intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. `intervention_dominance` is rendered in **canonical §3 Levers** (legacy §4) as **Intervention Profile**.
 
@@ -145,47 +145,118 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 
 ### Profile A — Extended narrative PM (all BRS PM pages)
 
-**Canonical production order for migrated PMs:** Mission & Overview (§1) →
+**Canonical production order:** Mission & Overview (§1) →
 Primary Biological Effects (§2) → Levers (§3) → Mechanistic Basis (§4, with
-§4.1 Scientific Findings where authored) → Phenome Connections (§5) → BRS
-Pathways and Connections (§6) → Scoreable Inputs & Modulation Signals (§7) →
-References (§8).
-
-Untouched PMs may retain the legacy §3 Phenome / §4 Levers / §5 Mechanistic
-Basis order during migration. Shared generators and validators must derive the
-layout from the page; they must not hard-code one numbering scheme. A PM is
-canonical when this section order is present; no PM-specific renderer or
-front-matter marker is required.
-
-The detailed legacy-numbered guidance below remains applicable by section role
-while migration is in progress. On a canonical PM, read references to §4 Levers,
-§5 Mechanistic Basis, §5.1 Scientific Findings and §3 Phenome Connections as
-§3, §4, §4.1 and §5 respectively.
+§4.1 Scientific Findings where authored) → BRS Pathways and Connections (§5) →
+Phenome Connections (§7) → References (§8). §6 is unused (Scoreable Inputs removed).
 
 1. Mission & Overview — `## 1. Mission & Overview` with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets). Front matter: `mission` + `summary`. See **PM §1 — Mission & Overview** and `system/mechanism-page-section-prose.md`. **Do not use `## 1. Definition` on PM pages.**
 2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
-3. Levers — `## 3. Levers` (legacy §4) — public section for dietary requirements, system optimisation and lifestyle implementation (see **PM Levers** below)
+3. Intervention Levers — `## 3. Intervention Levers` (legacy §4) — public section for dietary requirements, system optimisation and lifestyle implementation (see **PM Levers** below)
    - **3.1 Dietary Requirements** — outer `<details>` dropdown
      - **3.1.1 Direct and/or Derived Dietary Requirements** — PM-attributable dietary requirements, with Direct and Derived relationships distinguished.
      - **3.1.2 Cofactors and Substrates** — the actual biochemical cofactors and substrates required by the PM mechanism.
      - **3.1.3 Key Constraints** — shared nutritionally constrained resource pools or bottlenecks satisfying the KC schema.
    - **3.2 System Optimisation Practices** — outer `<details>` dropdown containing only evidence-populated nested category dropdowns: **Food Preparation & Delivery**, **Conditional Supplementation**, **Dietary & Fasting Protocols**, **Light & Circadian Optimisation**, and **Stress & Autonomic Regulation**. Do not render empty categories on PM pages; the parent BRS hub retains the complete five-category frame and its “Coming soon” states.
-   - **3.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours; primary place for timing narrative when `timing_specific: "Yes"`
+   - **3.3 Lifestyle Levers** (hub: **Lifestyle Priorities**) — `<details>` dropdown for foundational/recurrent non-dietary behaviour (sleep, meal timing/rhythm, activity, stress recovery, circadian sleep–wake). Not food choice, nutrients, dietary patterns, or cooking. Classify by **use**: routine behaviour here; a defined protocol belongs in §3.2.
 4. Mechanistic Basis — `## 4. Mechanistic Basis` (legacy §5)
    - **Canonical structure (Profile A):** see **PM Mechanistic Basis — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
    - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
    - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
    - **`<details>` (recommended on Profile A reference pages):** keep **`### Summary` visible**; wrap all post-Summary mechanism content (every `####` block: primary mechanism, boundaries, integration) in one `<details><summary>…</summary>…</details>` inside Mechanistic Basis. Do **not** put Summary or Scientific Findings inside this dropdown.
    - **Citations (required where evidence-backed):** keep inline citations in Mechanistic Basis when rewriting or shortening prose — see **PM Mechanistic Basis — Citations** below. Do not drop references to make the narrative “cleaner.”
-   - **Excluded from the mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (§3, §7). Scientific Findings use `### 4.1` on canonical pages (`### 5.1` legacy) at the end of Mechanistic Basis.
-4.1. Scientific Findings — `### 4.1 Scientific Findings` (optional, recommended on authored PMs) — generated from `scientific_findings`; relationship-specific Findings render under their primary §5 relationship.
-5. Phenome Connections — `## 5. Phenome Connections` (legacy §3) — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
-6. BRS Pathways and Connections — `## 6. BRS Pathways and Connections` — unified heading on all Profile A PMs (host-BRS placement and cross-BRS links)
-   - `### 6.1` BRS Pathways — ordered multi-step pathway chains across PMs (and optionally FMs) when materially relevant; use linked PM labels with `↓` between steps on separate lines. Example (BRS2-FM1-PM1): homocysteine remethylation → phospholipid methylation → neuronal membrane DHA incorporation.
-   - `### 6.2` Connected BRS Mechanisms — PM/FM links in other BRS domains (former standalone `## 7. Connected Mechanisms`; harmonised with FM §6 heading)
-   - `### 6.3` Connected Primary Mechanisms — parent FM (`parent_fm` in front matter) plus sibling PMs on the same host FM (`mechanisms_covered` on parent FM, excluding this PM)
-7. Scoreable Inputs & Modulation Signals — `## 7.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §4.1.1 substances in a Substance / Nutrient Signals row).
+   - **Excluded from the mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers (§3). Scientific Findings use `### 4.1` on canonical pages (`### 5.1` legacy) at the end of Mechanistic Basis.
+4.1. Scientific Findings — `### 4.1 Scientific Findings` (optional, recommended on authored PMs) — generated from `scientific_findings`; relationship-specific Findings render under their primary §7 relationship.
+5. BRS Pathways and Connections — `## 5. BRS Pathways and Connections` — unified heading on all Profile A PMs (host-BRS placement and cross-BRS links)
+   - `### 5.1` BRS Pathways — ordered multi-step pathway chains across PMs (and optionally FMs) when materially relevant; use linked PM labels with `↓` between steps on separate lines. Example (BRS2-FM1-PM1): homocysteine remethylation → phospholipid methylation → neuronal membrane DHA incorporation.
+   - `### 5.2` Cross-BRS Mechanism Relationships — PM/FM links in other BRS domains (former standalone `## 7. Connected Mechanisms`; harmonised with FM §6 heading)
+   - `### 5.3` Local BRS Mechanism Relationships — sibling PMs on the same host FM (`mechanisms_covered` on parent FM, excluding this PM)
+7. Phenome Connections — `## 7. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 8. References — `## 8. References`
+
+Do **not** include **Scoreable Inputs & Modulation Signals** on PM pages.
+
+### Stage 2A — audience and public voice
+
+**Intended readers:** interested members of the public. Nutritionists are the
+most technically specialised intended readers. Do not assume PhD-level
+biology knowledge.
+
+Stage 2A public copy must:
+
+- give a plain, scientifically precise explanation of what the mechanism does
+  and, where a dietary relationship is in scope, why that dietary input
+  matters;
+- gloss necessary technical terms briefly on first use, and keep deeper
+  evidence in expandable disclosures (Scientific Findings and the five-atom
+  record);
+- describe every published connected-PM relationship and dependency in 1–2
+  evidence-supported lines, including direction where established;
+- identify structured upstream dependencies for Stage 2B so always-visible
+  indicators can be rendered (including `Supply: PM1` beside Tyrosine);
+- state limitations that say what the evidence does and does not establish.
+
+**Separate layers.** Reader-facing scientific explanation belongs on the
+public PM page. Internal governance — ownership, adjudication status,
+duplicate counting, record maintenance, and scoreable-atom language —
+belongs in Stage 2A reports, schema documentation and Review & Corrections.
+Public copy must not use internal maintenance phrasing such as “on this page”, “owned by”, “assessment is maintained”, “local listing”, “same-role reprint” or “scoreable atom”.
+
+Do not meet the audience by deleting substantive science or replacing it
+with generic statements.
+
+Research coverage for Stage 2A follows
+`system/scientific-finding-schema.md` § **Bounded assessment**,
+§ **Foundational coverage and targeted retrieval (Stage 2A)**,
+§ **Retrieval authorisation (supersedes earlier session limits)**,
+§ **Stage boundary — 2A mechanism, 2B diet** and § **Claim thresholds**.
+
+Review **all references already attached to the PM page first**, including
+Finding, Phenome and Connected / Supportive Evidence sources, and test each
+against the proposition. A source being listed does not establish that it
+supports the claim. Reviewing existing evidence first does not mean stop with
+existing evidence.
+The earlier session rule requiring a separate request before external
+research is superseded for Stage 2A and Stage 2B. Running either stage
+authorises necessary, question-bounded evidence retrieval under its
+contract. Cost concerns should guide efficient retrieval and reuse, not
+omission of material assessment.
+
+Stage 2A establishes the scientific mechanism and identifies candidates for
+dietary assessment without admitting Dietary Requirements. Stage 2B
+adjudicates dietary relationships against Stage 2A Findings. Successful
+schema validation is not scientific completion.
+
+### Stage 2A — connected-mechanism presentation
+
+Stage 2A must establish and explain every **published** PM connection in
+`### 5.3` / `### 6.3` Local BRS Mechanism Relationships and the equivalent
+cross-BRS section (`### 5.2` / `### 6.2`). Identify supported upstream PM
+dependencies for Stage 2B handoff, including any dietary-entry relationship
+that should appear as a structured `upstream_pm_relationships` record.
+Stage 2B classifies diet and displays those upstream relationships beside
+the dietary-entry label; it does not invent the relationship explanation.
+
+Every published connection must include:
+
+- the linked PM title; and
+- a 1–2 line, evidence-supported description of the biological relationship
+  and any dependency, including direction where established.
+
+A bare link is insufficient. Distinguish substrate supply, transport, shared
+resources, downstream conversion, reciprocal interaction and functional
+coordination. Do not imply a dependency where only an association is
+supported. Record in the Stage 2A report where a detailed supply or
+transport assessment lives; public connection copy explains the biology and
+must not suppress a downstream dependency. Do not publish a second bare copy
+of the same PM link in §5.3.
+
+§5.1 pathway chains remain ordered linked titles with `↓` and are not this
+rule. Empty sections may use `- None listed`.
+
+Validators: `validatePublishedPmConnectionExplanations` in
+`scripts/lib/pm-relationship-sections.mjs`, applied to pages that carry
+`scientific_findings`.
 
 ### PM §1 — Mission & Overview
 
@@ -206,15 +277,31 @@ while migration is in progress. On a canonical PM, read references to §4 Levers
 | Subsection | Role | Rules |
 |------------|------|--------|
 | **Mission** | Biological ambition — what capability this PM maintains or supports | 1–2 lines; functional biological capacity; **no** nutrients, foods, interventions, biomarkers, or title paraphrase |
-| **Overview** | Orientation — why this mechanism matters, in ~20 seconds | **~65–75 word paragraph** + **3 scannable bullets** (job / importance / high-level diet); **no parent FM or BRS architecture**; must stand alone for readers with no framework context |
+| **Overview** | Orientation — what the mechanism does, its boundaries and why it matters, in ~20 seconds | **~65–75 word evidence-supported paragraph** + **exactly 3 non-duplicative scannable bullets** (mechanism boundary / evidence-measurement boundary / biological relevance and treatment limitation); **no parent FM or BRS architecture**; must stand alone for readers with no framework context |
 
 **20-second acid test:** Can someone understand this page's purpose in ~20 seconds? If not, the Overview is doing too much.
 
-**Overview — three questions (paragraph + bullets):**
+**Overview paragraph — three questions:**
 
 1. What biological job does this mechanism perform?
-2. Why is it important?
-3. How does diet influence it? (very high level only)
+2. What are its defining supply, reaction or regulatory steps?
+3. How can diet influence it at the established claim ceiling? (very high level only)
+
+**Overview bullets — exactly three roles:**
+
+1. **Mechanism boundary:** what the PM includes and which adjacent biological
+   stages it excludes.
+2. **Evidence / measurement boundary:** what the evidence measures and what it
+   cannot be interpreted as showing.
+3. **Biological relevance and treatment limitation:** why the mechanism matters
+   without converting mechanistic relevance into an unsupported nutritional or
+   clinical benefit claim.
+
+Bullets must add orientation rather than repeat the paragraph. Substantive
+paragraph and bullet claims require readable, claim-local bibliography
+citations. Before targeted retrieval, review every reference already attached
+to the PM page and test it against the proposition; do not assume that a listed
+reference supports every Overview claim.
 
 **Overview anti-patterns:** microbiome ecology essays; stacking many new concepts in the opening paragraph; parent FM placement (`BRSn(FMx)…`, `ecological strand of…`); `— within BRSn` suffixes (belong in §6, not §1).
 
@@ -260,8 +347,17 @@ Authoring detail: `system/mechanism-page-section-prose.md` (**PM §1**, **PM tra
 **This does not weaken proposition-first bounded assessment.** The workflow remains:
 
 ```
-existing Mechanistic Basis → define propositions → assess relevant evidence → adjudicate → STOP
+Mission + Overview + existing Mechanistic Basis
+        → define propositions, including omitted defining pathway steps
+        → assess attached corpus, then targeted retrieval if needed
+        → adjudicate
+        → explain why coverage is sufficient
+        → STOP (scientific completion; not schema validation alone)
 ```
+
+See `system/scientific-finding-schema.md` § **Foundational coverage and targeted
+retrieval (Stage 2A)**. Review existing evidence first does not mean stop with
+existing evidence.
 
 Then, **only if** adjudication materially challenges PM scope:
 
@@ -269,7 +365,9 @@ Then, **only if** adjudication materially challenges PM scope:
 → flag PM-scope consequence → review Mission + Overview + Mechanistic Basis together → necessary changes only
 ```
 
-Evidence can therefore challenge the ontology without turning assessment into open-ended research.
+Evidence can therefore challenge the ontology without turning assessment into
+open-ended research. Targeted retrieval for a defining unassessed step is not
+open-ended research.
 
 ### PM authoring standards (framework-wide)
 
@@ -289,7 +387,10 @@ Source list: `scripts/data/mechanism-functional-descriptors.mjs`; apply with `np
 
 #### Translational writing
 
-Write for **three audiences simultaneously:** researchers; clinicians and nutrition professionals; scientifically interested non-specialists. Preserve scientific accuracy while reducing unnecessary cognitive load. Each section should **progressively translate** biology rather than assume specialist knowledge.
+Write to the **Stage 2A audience** (interested members of the public;
+nutritionists as the most technically specialised intended readers). See
+**Stage 2A — audience and public voice**. Translate biology; do not assume
+PhD-level knowledge. Do not delete substantive science to simplify.
 
 **PM §1 narrative arc:** biological story → mechanism (§4) → diet (§3) — not textbook biology followed by a food list. Untouched legacy PMs still use mechanism (§5) → diet (§4).
 
@@ -309,7 +410,8 @@ that increasing intake increases mechanism activity.
 
 **Canonical build requirement:** for every newly authored or recomputed PM, each
 reader-facing §3.1 dietary relationship must be an atomic projection governed by
-`system/dietary-input-traceability-contract.md`. Every entry must resolve by
+the **2B — Dietary Input Traceability & Visibility Contract**
+(`system/dietary-input-traceability-contract.md`). Every entry must resolve by
 `atom_id` to the canonical `Input | Input Type | Biological Role | Evidence Source
 | Limitation` record. Do not author an independent Markdown list
 that carries scientific relationship data separately from the atoms.
@@ -345,6 +447,10 @@ substrates required by the PM. It is distinct from the dietary classification in
 relationships are represented—for example, methionine as a Direct Dietary Requirement
 and methionine as the substrate used by MAT.
 
+If the §3.1.1 relationship is already that same biochemical role (same input, input
+type, and biological role), do not also list it in §3.1.2. Dual listing is only for
+two distinct relationships. It is not a reprint of the Direct/Derived row.
+
 Render Input + biochemical Input Type from the atom. Do not display
 Direct/Derived or Derived Target in §3.1.2, even when the same atom also appears
 in §3.1.1.
@@ -356,18 +462,31 @@ adjudication rather than forcing it into §3.1.2.
 ##### §3.1.3 Key Constraints
 
 KCs retain the resource-pool/bottleneck definition in
-`system/key-constraint-schema.md`. An input is not a KC merely because it is a
-substrate, cofactor, nutritional requirement, food-supplied input, upstream input or
-participant in a larger pathway. KC membership does not replace or own the
-PM-specific dietary-requirement or substrate/cofactor relationship. The same
-substance may participate in both where the edges are scientifically distinct.
+`system/key-constraint-schema.md`. **KC1 / KC2 / KC3** are KC pages; an **iKC** is
+an individual Key Constraint on that page. PM ↔ iKC is many-to-many.
 
-Render the KC title and KC-specific context only. Direct/Derived and Derived
-Target metadata from a reused input atom must not appear in §3.1.3.
+An input is not an iKC merely because it is a substrate, cofactor, nutritional
+requirement, food-supplied input, upstream input or participant in a larger
+pathway. iKC membership does not replace or own the PM dietary-requirement or
+substrate/cofactor relationship.
 
-The KC page owns canonical KC membership. The PM independently owns Input→PM and
-PM↔KC propositions. First adjudicate the input against the PM and store its
-PM-specific five atoms; do not wait for KC review:
+**“PM-specific”** means the iKC is shown to apply to this PM. It does not mean
+the constraint is unique, that evidence must be owned only here, or that this
+PM must govern the pool. Stage 2B uses
+`system/dietary-input-traceability-contract.md` § **Type D — shared-constraint
+applicability**: same threshold whether the PM governs the constraint or is
+constrained by it; precursor delivery plus substrate necessity does not
+automatically establish membership.
+
+`key_constraints` records which iKCs apply, or are proposed to apply. It does not
+inherit iKC constituents. Render the linked iKC title and a concise statement of
+why that iKC applies here. Do not copy KC-page constituent or food-source bullets.
+Overlap with §3.1.1 inputs is not a rejection criterion. Direct/Derived metadata
+from a reused input atom must not appear in §3.1.3.
+
+The KC page owns iKC membership. The PM independently owns Input→PM and PM↔iKC
+propositions. Stage 2B verifies the PM side of that edge; it must not copy the KC
+page list.
 
 ```yaml
 dietary_input_traceability:
@@ -382,32 +501,40 @@ dietary_input_traceability:
 pm_kc_relationships:
   - relationship_id: BRSX-FM1-PM1-KCR-1
     kc_id: BRSX(KC1)
-    pm_biological_role: Why this PM depends on the KC resource context
+    ikc_id: BRSX(KC1)   # optional; defaults to kc_id on single-iKC pages
+    pm_biological_role: Why this iKC applies to this PM
     evidence_source:
       finding_ids: [PM1-F1]
-    evidence_limitation: Boundary of the PM↔KC claim
+    evidence_limitation: Boundary of the PM↔iKC claim
     constituent_relationships:
       - relationship_id: BRSX-FM1-PM1-KCI-1
         pm_atom_id: BRSX-FM1-PM1-DIT-1
         kc_membership_status: legacy-unreviewed
-        legacy_kc_constituent_label: Legacy KC label
+        legacy_kc_constituent_label: Legacy iKC label
         kc_change_control_flag_id: KC-CC-BRSX-FM1-PM1-01
 ```
 
-`key_constraints` is a legacy/index link and is not evidence. A PM constituent
-relationship always references the PM-owned `pm_atom_id`. If KC membership is
-separately reviewed, set `kc_membership_status: canonical-reviewed` and add the
-canonical `kc_atom_id`. An unreviewed KC is never a blocker: retain
-`legacy-unreviewed`, raise the referenced change-control flag, and complete the PM
-adjudication. Neither record may copy or override the other's science.
+`key_constraints` is an index of applicable or proposed iKCs, not evidence and not
+an inheritance switch. A PM constituent relationship always references the
+PM-owned `pm_atom_id`. If iKC membership is separately reviewed on the KC page,
+set `kc_membership_status: canonical-reviewed` and add the canonical `kc_atom_id`.
+Until the KC page is canonical, retain `legacy-unreviewed` and raise the referenced
+change-control flag. Neither record may copy or override the other's science.
 
-KC-level evidence does not establish relevance to this PM. PM-specific evidence
-does not establish KC membership. Retirement or modification of a KC must not
-delete a valid PM-owned atom.
+iKC-level evidence does not establish relevance to this PM. Evidence that an
+iKC applies to this PM does not establish iKC membership. PM results never
+automatically modify an iKC.
+Retirement or modification of a KC/iKC must not delete a valid PM-owned atom.
 
-If PM review challenges a KC, constituent, or missing bottleneck, record
-`kc_change_control_flags` and leave canonical KC data unchanged. See
-`system/key-constraint-schema.md` and
+When a KC pass is newly completed or reassessed, record each assessed arm in
+`kc_applicability_adjudications` (`established`, `unassessed`, `unresolved`,
+or `evidence-supported-non-application`). Publish `key_constraints` /
+`pm_kc_relationships` only for `established` rows. Public empty copy remains
+`No mapping established.`
+
+If PM review systematically conflicts with an iKC's claimed scope, record
+`kc_change_control_flags` (`ikc-scope-conflict` when that is the issue) and leave
+canonical iKC data unchanged. See `system/key-constraint-schema.md` and
 `system/mechanism-change-control-queue.md`.
 
 ##### Diet → biology hierarchy
@@ -456,11 +583,16 @@ PM pages should progressively answer:
 
 ### PM Levers — canonical §3; legacy §4
 
-**Heading:** `## 3. Levers` on canonical PMs; `## 4. Levers` on untouched legacy PMs.
+**Heading:** `## 3. Intervention Levers` on canonical PMs; `## 4. Levers` on untouched legacy PMs.
 
 **Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **3.1**, **3.2**, and **3.3** lever dropdowns (legacy pages: 4.1–4.3). Do not use `<details>` for Intervention Profile.
 
-**Rendering contract:** **3.1 Dietary Requirements**, **3.2 System Optimisation Practices**, and **3.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under canonical `## 3. Levers`, in that order. Inside **3.1 Dietary Requirements**, use three nested blocks titled exactly **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints**. Untouched PMs may retain the former Dietary Levers / Direct Dietary Levers / Cofactors and Supporting Inputs / KCs headings until recomputed; shared readers and validators must accept both.
+**Public vs audit (Dietary Requirements):** Public §3.1 / §4.1 panels show the current
+evidence-qualified scientific state and reader-relevant limitations only. Empty
+§3.1.1 / §4.1.1 uses `emptyDirectDerivedCopy` (governed state). Empty §3.1.3 / §4.1.3
+uses `emptyKeyConstraintCopy`. Rejected candidates, Stage 2B reasoning, KC-page
+scope disputes, and migration history belong in Stage 2B / change-control records
+(`scripts/lib/pm-dietary-requirements-public-copy.mjs`).
 
 **§3.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
 
@@ -487,7 +619,7 @@ in reader-facing introductions; retain detailed qualification in each five-atom 
 **Do not** place cofactors, KCs, substance ← food levers, optimisation strategies, or lifestyle bullets under **§6 BRS Pathways and Connections** or inside **§4 Mechanistic Basis**.
 
 ```markdown
-## 3. Levers
+## 3. Intervention Levers
 
 ### Intervention Profile
 
@@ -517,7 +649,7 @@ in reader-facing introductions; retain detailed qualification in each five-atom 
 
 **[(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)**
 
-- PM-specific relationship to the canonical shared resource pool or bottleneck
+PM-specific relationship to the canonical shared resource pool or bottleneck. Do not reprint KC constituent or food-source lists.
 
 </details>
 
@@ -536,6 +668,10 @@ evidence-qualified `system_optimisation_practices` record:
 Every record carries `optimisation_category` as relationship metadata. Category
 membership is not a sixth evidence atom.
 
+A §3.1.1 / §4.1.1 **NO** does not auto-admit an Optimisation Strategy. Connected
+mechanistic distance must stay explicit; SOP must not be projected upstream as a
+Direct or Derived Dietary Requirement.
+
 </details>
 
 <details>
@@ -551,8 +687,8 @@ membership is not a sixth evidence atom.
 | Subsection | Role | Content |
 |------------|------|---------|
 | **6.1 BRS Pathways** | Ordered multi-step chains | Linked PM labels with `↓` on separate lines between steps when a pathway spans PMs (often cross-FM or cross-BRS). Use `- None listed` when no pathway is authored yet. |
-| **6.2 Cross-BRS Mechanism Relationships** | Cross-BRS PM graph (canonical) | PM-to-PM links in other BRS domains with explicit biological connection copy. **Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.** This is the single canonical home for PM-to-PM relationships — do not duplicate on hub pages. |
-| **6.3 Local BRS Mechanism Relationships** | Same-BRS PM links | Sibling PMs on the same FM (exclude current PM). **Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.** No parent FM, cofactors, KCs, or dietary levers here. |
+| **6.2 Cross-BRS Mechanism Relationships** | Cross-BRS PM graph (canonical) | PM-to-PM links in other BRS domains with a linked title **and** a 1–2 line evidence-supported relationship explanation (see **Stage 2A — connected-mechanism presentation**). **Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.** This is the single canonical home for PM-to-PM relationships — do not duplicate on hub pages. |
+| **6.3 Local BRS Mechanism Relationships** | Same-BRS PM links | Sibling PMs on the same FM (exclude current PM), each with a linked title **and** a 1–2 line evidence-supported relationship explanation. **Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.** No parent FM, cofactors, KCs, or dietary levers here. |
 
 **Architectural rule:** PM §6.2 is the **canonical mechanistic graph** (PM pages only). Hub **Cross-BRS Dependencies** provide systems-level interpretation — why one BRS constrains another, integrated regulatory capacity, allostatic context, and translational examples — without duplicating PM relationship lists.
 
@@ -630,7 +766,7 @@ Pages with `scientific_findings` front matter use **Scientific Findings** at
 **Placement:** `### 4.1 Scientific Findings` as a **subsection of
 canonical §4** (after the mechanism `<details>`, not inside it). Untouched
 legacy PMs use §5.1. Relationship-specific Findings render under their primary
-§5 Phenome Connection, not in the Mechanistic Basis subsection.
+§7 Phenome Connection, not in the Mechanistic Basis subsection.
 
 | § | Role (Profile A extended) |
 |---|------|
@@ -639,20 +775,18 @@ legacy PMs use §5.1. Relationship-specific Findings render under their primary
 | **§3 Levers** | Dietary (3.1.1–3.1.3), optimisation (3.2), and lifestyle (3.3) implementation — all in `<details>` dropdowns. Builds on §1 Overview; Pattern → Nutrients → Biology → Target Foods inside §3.1. |
 | **§4 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
 | **§4.1 Scientific Findings** | Findings that adjudicate defined Mechanistic Basis propositions. |
-| **§5 Phenome Connections** | Translational mappings, with relationship-specific Findings rendered inside their primary relationship — not single-mechanism outcome claims. |
-| **§6 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
+| **§5 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
+| **§7 Phenome Connections** | Translational mappings, with relationship-specific Findings rendered inside their primary relationship — not single-mechanism outcome claims. |
+| **§8 References** | Numbered bibliography. |
 
 Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requirements` → `### 3.1 Cofactors and Supporting Inputs`.
-
-Untouched legacy PMs use §3 Phenome Connections, §4 Levers, §5 Mechanistic Basis
-and §5.1 Scientific Findings; the roles and ownership rules are identical.
 
 **Include studies that (high priority):** alter interpretation; reveal synergies or dependencies; show meaningful human or intervention relevance; expose heterogeneity or context-dependent responses.
 
 **Exclude (low priority):** findings that only repeat textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM; **phenome/outcome science** that does not adjudicate a defined PM → Phenome proposition.
 
 **Phenome boundary (non-negotiable):** Mechanistic Findings and FM §4.4 must
-**not** duplicate §5 Phenome Connections. Phenome/outcome science belongs in
+**not** duplicate §7 Phenome Connections. Phenome/outcome science belongs in
 relationship-specific Findings that test a **defined PM → Phenome relationship
 proposition**, or in Connected / Supportive Evidence — not as open-ended
 mechanism review. Do not populate from BRS hub ADHD dropdown tables; those rows
@@ -660,7 +794,7 @@ feed phenome review (`system/phenome-relationship-review-methodology.md`), not
 mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
 
 **UX:** `#### Introduction/Summary` (visible) → one or more Scientific Finding
-components. Phenome-relationship Findings render fully inside their primary §5
+components. Phenome-relationship Findings render fully inside their primary §7
 relationship; cross-relationships reuse the id without duplicating the evidence
 body.
 
@@ -719,7 +853,9 @@ page has `mechanistic_authoring_required: true` in front matter.
 - Extended Profile A PMs must include `## 1. Mission & Overview` (or legacy `## 1. Definition` until migrated) with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets).
 - Overview paragraph word count target: **65–75 words** (acceptable range **50–90** for authoring review); must pass the **20-second acid test** (see `system/mechanism-page-section-prose.md` **PM §1 — Overview**).
 - Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after §1.
-- Canonical Profile A PMs must include `## 3. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above 3.1–3.3. Newly authored or recomputed pages use **3.1 Dietary Requirements**, **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints** exactly. Untouched PMs may retain the former §3.1/§4.1 terminology for backward compatibility.
+- Canonical Profile A PMs must include `## 3. Intervention Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above 3.1–3.3. Newly authored or recomputed pages use **3.1 Dietary Requirements**, **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints** exactly. Untouched PMs may retain the former §3.1/§4.1 terminology for backward compatibility.
+- Stage 2B (`evidence_status: stage-2b-dietary-addressability`) must evidence-review all three Dietary Requirements layers. `cofactors:` names are not evidence. `key_constraints` does not inherit iKC constituents. §3.1.3 / §4.1.3 is PM↔iKC evidence in `pm_kc_relationships`.
+- **Review & Corrections** is a required PM workflow surface (the page tab). Decision records live in `system/framework-qc/framework-issues-register.json` and are linked by `scope.page_ids`. Do not maintain a separate manually written history on the PM. A rerun is incomplete until accepted corrections and unresolved decisions are recorded. Do not mark a correction `applied` until implementation checks pass. Evidence `review_status` stays separate from `correction_status`. PM evidence-audit records (`register_surface: pm-tab`) must not be published on the Framework Review & Corrections register.
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).

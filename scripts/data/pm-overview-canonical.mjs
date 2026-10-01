@@ -60,13 +60,13 @@ export const CANONICAL_PM_OVERVIEWS = {
   },
   "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": {
     mission:
-      "Sustain acetylcholine synthesis so learning, working memory, and attention-focused signalling stay supplied.",
+      "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
     translational:
-      "Governs how dietary choline is converted into acetylcholine (the principal cholinergic neurotransmitter linking attention and memory circuits) through choline acetyltransferase-dependent synthesis. This mechanism covers substrate conversion specifically, distinct from the broader protein-pool sufficiency or competitive transport handled elsewhere. Choline-rich foods and adequate cofactor support determine how readily this conversion keeps pace with ongoing cholinergic signalling demand, particularly under sustained attentional load.",
+      "Governs the transport and reaction steps that supply acetylcholine synthesis: choline must reach cholinergic terminals, acetyl-CoA must be available in the cytosol, and choline acetyltransferase joins them. Diet provides choline directly and through phosphatidylcholine, while pantothenate supports the coenzyme-A route to acetyl-CoA. These dependencies do not show that extra intake raises human brain acetylcholine or improves attention.",
     bullets: [
-      "Converts dietary choline into acetylcholine for learning and focus.",
-      "Governs substrate conversion specifically, not transport or protein-pool sufficiency.",
-      "Depends on choline-rich foods and cofactor support to keep pace with demand.",
+      "Uses choline and acetyl-CoA as the two reaction substrates.",
+      "Depends on distinct blood–brain, terminal-uptake and acetyl-CoA supply steps.",
+      "Supports dietary provision without claiming an intake-driven cognitive benefit.",
     ],
   },
   "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": {
@@ -213,11 +213,11 @@ export const CANONICAL_PM_OVERVIEWS = {
     mission:
       "Limit NF-κB transcriptional activation so pro-inflammatory gene programmes do not fire excessively.",
     translational:
-      "Regulates NF-κB (a master transcriptional switch that turns on pro-inflammatory gene programmes) at the upstream signalling node where dietary and metabolic inputs first influence inflammatory tone. Because this pathway sits ahead of cytokine release and downstream immune activation, diet-linked NF-κB regulation shapes how strongly the whole inflammatory cascade fires rather than treating symptoms after the fact. This positions it as an upstream, dietary-actionable inflammatory control point.",
+      "Regulates NF-κB (a master transcriptional switch that turns on pro-inflammatory gene programmes) at an upstream node of inflammatory transcription, ahead of cytokine release. Attached dietary-pattern and compound studies inform inflammatory context. No Direct or Derived Dietary Requirement is currently established for regulation of NF-κB transcriptional tone. Dietary addressability remains not established.",
     bullets: [
       "Regulates the upstream transcriptional switch that triggers inflammatory gene expression.",
       "Sits ahead of cytokine release and downstream immune activation.",
-      "Provides a dietary-actionable control point over inflammatory tone.",
+      "No Direct or Derived Dietary Requirement is currently established for regulation of NF-κB transcriptional tone.",
     ],
   },
   "brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx": {

@@ -3,9 +3,100 @@ title: Amino Acid Quality & Competitive Balance
 kc_id: BRS1(KC1)
 parent_brs: BRS1
 summary: >-
-  Maintain dietary amino-acid precursor sufficiency and LAT1 competitive balance
-  so meal-level protein supports precursor availability without chronic
-  transport disadvantage for tryptophan and tyrosine/phenylalanine.
+  Maintain tryptophan, tyrosine and phenylalanine availability within the
+  competitive large-neutral-amino-acid pool that supplies brain monoamine
+  precursors.
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRS1-KC1-KIT-1
+    input: Tryptophan
+    input_type: substrate
+    biological_role: 'Essential large neutral amino acid whose availability relative to competing LNAAs influences LAT1-mediated brain entry and serotonin-precursor supply.'
+    evidence_source:
+      citation_keys:
+        - fernstrom_lnna_2013
+    evidence_limitation: 'The review supports dietary and plasma-ratio effects on precursor transport and neurochemistry, not a universal limiting intake, an optimal meal ratio, or improved serotonin function or clinical outcomes from additional tryptophan.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS1-KC1-KIT-2
+    input: Tyrosine
+    input_type: precursor
+    biological_role: 'Large neutral amino-acid precursor whose availability relative to competing LNAAs influences LAT1-mediated brain entry and catecholamine-precursor supply.'
+    evidence_source:
+      citation_keys:
+        - fernstrom_lnna_2013
+    evidence_limitation: 'Dietary effects on relative precursor presentation do not establish ordinary tyrosine intake as limiting in all populations, an optimal ratio, or downstream catecholamine or functional benefit from additional intake.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS1-KC1-KIT-3
+    input: Phenylalanine
+    input_type: precursor
+    biological_role: 'Essential large neutral amino acid that contributes to tyrosine precursor availability and participates in the shared competitive transport context at LAT1.'
+    evidence_source:
+      citation_keys:
+        - fernstrom_lnna_2013
+    evidence_limitation: 'Its biochemical and transport roles do not establish a universal dietary limitation, an optimal phenylalanine-to-LNAA ratio, or functional benefit from increasing intake.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: dietary-provision
+  - atom_id: BRS1-KC1-KIT-4
+    input: Complete indispensable amino-acid supply
+    input_type: substrate provision
+    biological_role: 'Broad dietary protein-quality construct proposed as the foundational supply context for the amino-acid pool.'
+    evidence_source:
+      citation_keys:
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    evidence_limitation: 'The sources address protein-quality assessment and adequacy, but do not establish complete indispensable-amino-acid supply as the named shared BRS1 LNAA transport constraint or as a constraint across the listed mechanisms.'
+    constraint_status: dietary-input
+    ikc_membership: excluded
+    claim_ceiling: dietary-provision
+kc_constituent_presentations:
+  - atom_id: BRS1-KC1-KIT-1
+    label: Tryptophan
+    section: core-nutritional-requirements
+  - atom_id: BRS1-KC1-KIT-2
+    label: Tyrosine
+    section: core-nutritional-requirements
+  - atom_id: BRS1-KC1-KIT-3
+    label: Phenylalanine
+    section: core-nutritional-requirements
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS1-KC1-01
+    flag_type: constituent-challenge
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    proposition: 'Complete indispensable amino-acid supply as a constituent of the shared monoamine-precursor LNAA availability and competitive-transport constraint.'
+    evidence_source:
+      citation_keys:
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+        - fernstrom_lnna_2013
+    status: resolved-by-kc-review
+  - flag_id: KC-CC-BRS1-KC1-02
+    flag_type: ikc-scope-conflict
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    proposition: 'Historical "Amino Acid Quality & Competitive Balance" title and ambition as one constraint combining general indispensable-amino-acid quality with monoamine-precursor LNAA competition.'
+    evidence_source:
+      citation_keys:
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+        - fernstrom_lnna_2013
+    status: pending-kc-review
+  - flag_id: KC-CC-BRS1-KC1-03
+    flag_type: ikc-scope-conflict
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    proposition: 'Existing BRS1(FM4), PM8, PM9, PM10 and PM11 connections as shared constraints of the reviewed monoamine-precursor LNAA competitive pool.'
+    evidence_source:
+      citation_keys:
+        - fernstrom_lnna_2013
+        - fao_diaas_2013
+        - mariotti_dietary_2019
+    status: pending-kc-review
 references:
   - >-
     [Fernstrom (2013) — LNAA Transport and Brain
@@ -27,112 +118,111 @@ hide_title: true
   />
 </p>
 
-### BRS1(KC1) - Amino Acid Quality & Competitive Balance
+### BRS1(KC1) - Monoamine Precursor LNAA Competitive Balance
 
-(Dietary Amino-Acid Precursors)
+(Tryptophan, tyrosine and phenylalanine availability within a shared transport pool)
 
 ### 1. Ambition
 
-Maintain complete essential amino-acid supply and an appropriate precursor pool with competitive LNAA balance so meal-level protein can support neurotransmitter precursor availability — especially for tryptophan and tyrosine/phenylalanine — without chronic LAT1 transport disadvantage.
+Maintain tryptophan, tyrosine and phenylalanine availability within the competitive large-neutral-amino-acid pool that supplies brain monoamine precursors.
 
 ### 2. Core Nutritional Requirements
 
-- Complete essential amino-acid supply ← eggs, fish, dairy, meat, soy, legumes, grains
-- Tryptophan ← eggs, dairy, fish, poultry, soy, pumpkin seeds
-- Phenylalanine and tyrosine ← dairy, meat, fish, eggs, soy, legumes, nuts, seeds
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Core Nutritional Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tryptophan
+- Tyrosine
+- Phenylalanine
+
+</div>
+</div>
+</div>
 
 ### 3. Evidence Base
 
 #### Summary
 
-Connected BRS1 mechanisms share one upstream nutritional condition: the diet must supply a **complete essential amino-acid pool**, with named attention to **tryptophan** and **phenylalanine/tyrosine** as the principal monoaminergic precursors within that pool. These are nested layers, not parallel nutrient categories — tryptophan is both an essential amino acid and an LNAA; tyrosine is an LNAA that can also be formed from phenylalanine when phenylalanine status is adequate.
+This constraint concerns the availability of tryptophan, tyrosine and phenylalanine within the shared large-neutral-amino-acid (LNAA) transport pool. These monoamine precursors compete with one another and with other LNAAs for LAT1-mediated entry into the brain, so relative plasma presentation can matter alongside precursor supply. Dietary patterns can alter those ratios and downstream precursor availability, making the three amino acids one coherent transport-linked resource rather than independent performance nutrients ([Fernstrom, 2013](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)).
 
-**LNAA abundance is not inherently beneficial.** At LAT1, tryptophan, tyrosine, phenylalanine, leucine, isoleucine and valine compete for blood–brain barrier entry. The relevant requirement is therefore an **appropriate precursor pool and competitive meal balance**, not “more LNAAs” as a standalone dietary target. Protein quality and meal patterning matter as much as total protein — assess indispensable amino-acid adequacy and relative precursor presentation, not protein mass alone.
+- **Constraint and membership boundary:** General protein quality and indispensable-amino-acid adequacy are nutritionally important, but the cited protein-quality evidence does not establish them as this specific shared BRS1 transport constraint ([FAO, 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013); [Mariotti and Gardner, 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)).
+- **Evidence / measurement boundary:** The evidence links dietary patterns and plasma LNAA ratios to brain precursor transport and neurochemistry; it does not define a universal optimal meal ratio or establish downstream behavioural or clinical benefit ([Fernstrom, 2013](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)).
+- **Biological relevance and provision limitation:** Adequate precursor availability and competitive context can help avoid transport-level constraint, but that does not show that extra amino-acid intake improves monoamine function in people whose supply and balance are already sufficient ([Fernstrom, 2013](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)).
 
-Practical framing: distribute **complete or complementary protein** across meals; where plant proteins dominate, pair sources (e.g. legumes with grains) to cover the indispensable set; recognise that the same meal can affect both **pool sufficiency** and **relative LNAA competition** at the blood–brain barrier. The evidence claim here is **constraint prevention** — adequate availability and fair competitive context are required to prevent biological constraint — not that additional intake enhances performance in nutrient-sufficient people.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="tryptophan">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="tryptophan-evidence-panel" aria-label="Expand Tryptophan evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Complete essential amino-acid supply</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="tryptophan-evidence-panel">Tryptophan</button>
+</div>
+</div>
+<div id="tryptophan-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Complete essential amino-acid supply is the foundational dietary layer of this KC. Essential amino acids cannot be synthesised in adequate amounts endogenously and must be supplied through diet. They support the wider amino-acid pool required for protein turnover and for neurotransmitter precursor availability. Multiple connected BRS1 mechanisms — amino-acid availability, LAT1 transport, monoaminergic signalling, and protein-derived substrate context for excitatory–inhibitory biology — all assume a sufficiently complete indispensable amino-acid pool before transport bias or receptor-level signalling are considered. Representative sources include eggs, fish, dairy, meat, soy, and appropriately combined legumes and grains.
+Tryptophan is an essential LNAA and serotonin precursor. Its brain entry depends partly on its plasma concentration relative to competing LNAAs, making its availability a constituent of the shared transport constraint rather than evidence that isolated supplementation improves serotonin-related function.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fao_diaas_2013">FAO, 2013</a> — Recommended digestible indispensable amino-acid scoring (DIAAS) as the preferred framework for evaluating dietary protein quality in human nutrition — supporting the KC interpretation that indispensable amino-acid adequacy, not crude protein mass alone, defines whether the shared precursor pool can meet connected mechanism requirements.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019">Mariotti et al., 2019</a> — Reviewed protein and amino-acid intakes from vegetarian diets in adults and concluded that adequacy depends on protein quality and patterning rather than dietary label alone — supporting the practical requirement that complementary plant-protein combinations may be needed to sustain indispensable amino-acid sufficiency across meals.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Reviewed how dietary patterns and plasma LNAA ratios influence brain transport and neurotransmitter-precursor availability, supporting tryptophan membership while not establishing an optimal intake or clinical benefit.</p></li>
 </ul>
 
 </div>
 </div>
 </div>
 
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="tyrosine">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="tyrosine-evidence-panel" aria-label="Expand Tyrosine evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Tryptophan</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="tyrosine-evidence-panel">Tyrosine</button>
+</div>
+</div>
+<div id="tyrosine-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Tryptophan is an essential amino acid and a large neutral amino acid — the dietary precursor for serotonin and melatonin synthesis. It is named separately within the shared pool because serotonergic biology depends on tryptophan availability, and because tryptophan competes with other LNAAs at LAT1 for brain entry. Naming it as a distinct precursor constraint does not imply it sits outside the essential amino-acid set; it marks the precursor most relevant to serotonergic pathway context within the shared dietary amino-acid pool.
+Tyrosine is an LNAA and catecholamine precursor. Its presentation relative to competing LNAAs influences transport into the brain, so adequate availability must be interpreted within the competitive pool rather than as a standalone “more is better” target.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Established that tryptophan brain entry competes with other large neutral amino acids at shared transport sites, linking meal-level LNAA patterning to serotonergic precursor availability — supporting the KC requirement to name tryptophan as a distinct precursor constraint within the shared pool.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Reviewed dietary effects on plasma tyrosine ratios, competitive brain transport and catecholamine-precursor availability; this does not establish universal dietary limitation or functional benefit from extra tyrosine.</p></li>
 </ul>
 
 </div>
 </div>
 </div>
 
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="phenylalanine">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="phenylalanine-evidence-panel" aria-label="Expand Phenylalanine evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Phenylalanine and tyrosine</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="phenylalanine-evidence-panel">Phenylalanine</button>
+</div>
+</div>
+<div id="phenylalanine-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Phenylalanine and tyrosine are competing LNAAs that support catecholamine precursor availability. Phenylalanine is essential; tyrosine is normally non-essential because it can be synthesised from phenylalanine when phenylalanine status is adequate, yet dietary tyrosine still matters because it directly contributes to precursor supply and LAT1 competition at meals. They are grouped because catecholamine-relevant precursor context depends on both phenylalanine contribution to endogenous tyrosine formation and meal-level tyrosine presentation — not because tyrosine is an indispensable amino acid in the same sense as tryptophan.
+Phenylalanine is an essential LNAA, contributes to tyrosine availability and participates in the same competitive transport context. These roles place it within the precursor pool, while leaving any dietary dose-response or downstream functional effect unestablished.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Demonstrated that dietary tyrosine availability and LNAA competition jointly influence catecholamine-relevant precursor presentation at the blood–brain barrier — supporting the KC requirement to name phenylalanine/tyrosine as a distinct catecholamine precursor constraint within the shared pool.</p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>LNAA transport balance</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### Biological Importance
-
-LNAA transport balance is a **mechanistic transport constraint**, not a discrete nutritional substance requirement alongside essential amino acids, tryptophan, or phenylalanine/tyrosine. Meal composition influences competition between tryptophan, tyrosine, phenylalanine, leucine, isoleucine and valine for LAT1-mediated brain entry. Increasing total LNAA intake does not automatically improve precursor delivery — relative ratios and meal patterning determine which precursors are favourably presented. This is why **competitive balance** belongs in the KC ambition and evidence framing, while LNAAs are **not** listed as a standalone food row in §2. Mechanism-level regulation of transport bias is owned by [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
-
-<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
-<ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Reviewed how dietary patterns and plasma ratios of large neutral amino acids (including tyrosine, phenylalanine, and tryptophan) influence their transport into the brain and downstream neurotransmitter synthesis — supporting the KC interpretation that relative LNAA balance at meals can constrain precursor delivery even when total dietary protein appears sufficient, without treating “LNAAs” as a separate dietary pool member.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013">Fernstrom, 2013</a> — Includes phenylalanine in the dietary LNAA pool affecting competitive brain entry and downstream precursor neurochemistry, without defining an optimal intake or proving benefit from additional provision.</p></li>
 </ul>
 
 </div>
@@ -143,9 +233,9 @@ LNAA transport balance is a **mechanistic transport constraint**, not a discrete
 
 No Emerging Biological Supports are currently prioritised for this KC.
 
-Plausible enhancers such as taurine, creatine, or conditionally useful amino-acid derivatives may support related regulatory capacities, but they are not established as shared indispensable requirements for dietary amino-acid precursor sufficiency and LNAA competitive balance. Where evidence becomes source-led and KC-specific, candidates can be added here without blurring the Core Nutritional Requirements boundary.
-
 ### 5. Connected Mechanisms
+
+Proposed scope for subsequent PM evidence review. This KC review does not confirm each PM relationship.
 
 #### Functional Mechanisms
 

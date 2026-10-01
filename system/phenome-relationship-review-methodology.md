@@ -175,14 +175,14 @@ The pipeline above operationalises three distinct review questions. Phases 1–2
 | Layer | Phase | Question it answers | Primary review surfaces |
 |-------|-------|---------------------|-------------------------|
 | **PM evidence** | 1 | What phenomes could this mechanism plausibly influence? | PM Definition, Primary Biological Effects, Mechanistic Basis, Evidence Highlights, levers, KCs, references |
-| **FM evidence** | 2 | Which phenomes emerge from the integrated FM state? | PM convergence, FM §4.1–4.4, FM §3 synthesis context |
+| **FM evidence** | 2 | Which phenomes emerge from the integrated FM state? | PM convergence, FM §4.1–4.4, FM §7 synthesis context |
 | **Phenome hypothesis** | 1 + 2 | Which registry phenomes are candidates? | Registry definitions, PM+FM convergence, failure-mode language |
 | **Phenome outcome evidence** | 3 | How strong is the biology → phenome link; what evidence types support it? | Proposition-first validation per candidate row; targeted search only where the row cannot be adjudicated from attached evidence |
 | **Registry integrity** | 4 | Are published mappings consistent and valid? | Audit tooling, bibliography, duplicate mapping review |
 
 **Previous methodology (v1–v2) was incomplete** because it treated FM pages primarily as integrative roll-ups of child PM mappings and assigned confidence during Phase 1–2. FM pages now contain a mature evidence and synthesis architecture and must be treated as a **first-class phenome evidence source**. Confidence assignment belongs in **Phase 3 only**.
 
-The PM page (§3 Phenome Connections) remains the **primary mechanism-level review surface**. The FM page (§3 + §4) is the **primary integrated-state review surface**. The generated relationship index is implementation output, not the editorial workspace.
+The PM page (§7 Phenome Connections) remains the **primary mechanism-level review surface**. The FM page (§7 + §4) is the **primary integrated-state review surface**. The generated relationship index is implementation output, not the editorial workspace.
 
 ---
 
@@ -299,7 +299,7 @@ Rows supported by convergent translational evidence are **not** “merely plausi
 
 ## Final FM schema (phenome workflow)
 
-FM phenome assignment follows a **simplified pipeline**. FM §4.2 constructs integrated biological rationale; Phase 3 validates it; FM §3 publishes approved phenomes. FM §4.3 supports the workflow by describing capacity-loss consequences — it is **not** where integration or dietary stressors are authored.
+FM phenome assignment follows a **simplified pipeline**. FM §4.2 constructs integrated biological rationale; Phase 3 validates it; FM §7 publishes approved phenomes. FM §4.3 supports the workflow by describing capacity-loss consequences — it is **not** where integration or dietary stressors are authored.
 
 ```
 PM (§2, §5, §6, §3)
@@ -308,13 +308,13 @@ PM (§2, §5, §6, §3)
 FM §4.2  Integrated Functional Narrative + Functional Rationale
         │
         ▼
-Phase 3  Independent validation → confidence → FM §3 front matter
+Phase 3  Independent validation → confidence → FM §7 front matter
         │
         ▼
 FM §4.3  Suboptimal Function (consequences of lost capacity)
         │
         ▼
-FM §3    Published Phenome Connections
+FM §7    Published Phenome Connections
 ```
 
 | Subsection | Role in phenome workflow |
@@ -399,7 +399,7 @@ Phenome candidates drafted here are **hypotheses only**; they require [Phase 3 �
 | PM §2 Primary Biological Effects | Directional biological outputs |
 | PM Mechanistic Basis (§4 / numbered Mechanistic Basis) | Mechanism → pathway evidence |
 | PM §5.1 / §4.1 Evidence Highlights (when present) | Mechanism-level outcome clues |
-| PM §3 Phenome Connections (existing mappings) | Current state and gaps |
+| PM §7 Phenome Connections (existing mappings) | Current state and gaps |
 | PM Dietary Levers, Lifestyle Levers, cofactors, Key Constraints | Intervention and substrate context |
 | PM `references` / `key_studies` front matter | Connected research on-page |
 | Parent FM definition + `mechanisms_covered` | Integrative context |
@@ -633,7 +633,7 @@ Describe **consequences** when integrated FM capacity declines — not causes.
 
 #### §4.1 Core Primary Mechanisms
 
-**Ask:** Which phenomes appear repeatedly across child PM Phase 1 mappings? (Convergence input for §4.2 — not FM §3 content.)
+**Ask:** Which phenomes appear repeatedly across child PM Phase 1 mappings? (Convergence input for §4.2 — not FM §7 content.)
 
 #### §4.2 Integrated Functional Narrative
 
@@ -653,11 +653,11 @@ Review for **consequence language** that supports (but does not duplicate) §3 s
 | impaired attention stability | Focus / Attention Stability |
 | reduced recovery after sustained demand | Recovery Capacity |
 
-FM §3 synthesis describes the **integrated capacity**; §4.3 describes **what is lost** when it fails — not dietary causes.
+FM §7 synthesis describes the **integrated capacity**; §4.3 describes **what is lost** when it fails — not dietary causes.
 
 #### §4.4 Evidence Highlights
 
-Mechanism-qualifying evidence for the FM as a biological state — **not** phenome/outcome science (that belongs in Phase 3 and FM §3).
+Mechanism-qualifying evidence for the FM as a biological state — **not** phenome/outcome science (that belongs in Phase 3 and FM §7).
 
 ### FM review workflow (simplified)
 
@@ -698,7 +698,7 @@ When assigning FM Biology → Phenome Confidence in Phase 3, follow the [Phenome
 
 ### Single-PM FM (1:1) reconciliation
 
-When `mechanisms_covered` contains **exactly one** PM, current schema enforcement still requires FM §3 to align with that PM at publish time (`validateSinglePmFmOutcomeAlignment`).
+When `mechanisms_covered` contains **exactly one** PM, current schema enforcement still requires FM §7 to align with that PM at publish time (`validateSinglePmFmOutcomeAlignment`).
 
 Phase 2 remains **mandatory** for single-PM FMs — §4.2 Functional Rationale and §4.4 especially may surface phenome evidence the PM review missed.
 
@@ -929,7 +929,7 @@ SM edges are not yet indexed in `phenome-relationships.generated.json` (PM-only 
 - [ ] `npm run phenome:validate` passed
 - [ ] `npm run mechanisms:validate` passed
 - [ ] Duplicate / dependent-mechanism inflation reviewed
-- [ ] Human sign-off on rendered PM and FM §3
+- [ ] Human sign-off on rendered PM and FM §7
 
 ---
 
@@ -963,7 +963,7 @@ Do **not** mass-update existing PM/FM mappings when adopting this methodology. R
 - Phase 4 validation passed
 - FM §4.1–4.4 reviewed as mandatory evidence sources
 - At least one mapping supported by outcome evidence where PM evidence alone is primarily biochemical
-- Human reviewer sign-off on rendered PM and FM §3
+- Human reviewer sign-off on rendered PM and FM §7
 - `mechanisms:validate`, `phenome:index`, `phenome:validate` pass
 - Documented rejections (phenomes considered but excluded) for audit trail
 

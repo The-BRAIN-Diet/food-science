@@ -1,8 +1,95 @@
 ---
-title: Glucose / Energy Substrate Sufficiency
+title: Glucose Availability
 kc_id: BRS6(KC1)
 parent_brs: BRS6
-summary: 'Maintain stable meal-derived energy-substrate sufficiency to support neuroendocrine allocation without excessive glycaemic volatility.'
+summary: 'Maintain continuous glucose availability as a foundational energy-substrate condition while separating biological dependence from claims about dietary carbohydrate, meal composition, or glycaemic modulation.'
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRS6-KC1-KIT-1
+    input: Glucose availability
+    input_type: resource dependency
+    biological_role: 'Circulating glucose supplies a continuously required cerebral energy substrate whose inadequate availability can constrain neuronal energy metabolism.'
+    evidence_source:
+      citation_keys:
+        - mergenthaler_sugar_brain_2013
+    evidence_limitation: 'The review establishes cerebral dependence on circulating glucose, not that dietary carbohydrate is indispensable, that ordinary intake is commonly limiting, or that glucose availability constrains every listed BRS6 mechanism.'
+    constraint_status: nutritionally-constrained
+    ikc_membership: admitted
+    claim_ceiling: biological-dependency
+  - atom_id: BRS6-KC1-KIT-2
+    input: Slow-release carbohydrate substrates
+    input_type: nutrient/compound class
+    biological_role: 'Dietary carbohydrate-quality class proposed to alter glucose appearance and glycaemic outcomes.'
+    evidence_source:
+      citation_keys:
+        - reynolds_2019_30638909
+    evidence_limitation: 'Carbohydrate-quality and health-outcome evidence does not establish slow-release carbohydrate as an indispensable constituent of one shared glucose resource pool or as a constraint across the proposed FM/PM scope.'
+    constraint_status: dietary-input
+    ikc_membership: excluded
+    claim_ceiling: modulation-demonstrated
+  - atom_id: BRS6-KC1-KIT-3
+    input: Dietary protein substrate context
+    input_type: dietary matrix
+    biological_role: 'Proposed meal-context modifier of glucose appearance rather than a constituent of the circulating glucose resource.'
+    evidence_source:
+      citation_keys:
+        - mergenthaler_sugar_brain_2013
+        - reynolds_2019_30638909
+    evidence_limitation: 'The attached sources do not establish dietary protein context as a shared limiting glucose resource or test its necessity across the listed mechanisms.'
+    constraint_status: unsupported
+    ikc_membership: excluded
+    claim_ceiling: biological-dependency
+  - atom_id: BRS6-KC1-KIT-4
+    input: Dietary fat substrate context
+    input_type: dietary matrix
+    biological_role: 'Proposed meal-context modifier of glucose appearance rather than a constituent of the circulating glucose resource.'
+    evidence_source:
+      citation_keys:
+        - mergenthaler_sugar_brain_2013
+        - reynolds_2019_30638909
+    evidence_limitation: 'The attached sources do not establish dietary fat context as a shared limiting glucose resource or test its necessity across the listed mechanisms.'
+    constraint_status: unsupported
+    ikc_membership: excluded
+    claim_ceiling: biological-dependency
+  - atom_id: BRS6-KC1-KIT-5
+    input: Soluble-viscous fibre classes
+    input_type: nutrient/compound class
+    biological_role: 'Dietary fibre class proposed to moderate post-prandial glucose appearance and glycaemic variability.'
+    evidence_source:
+      citation_keys:
+        - reynolds_2019_30638909
+        - monnier_2006_16638903
+    evidence_limitation: 'The sources support carbohydrate-quality associations and the biological relevance of glucose fluctuations, but do not establish soluble-viscous fibre itself as an indispensable member of the glucose resource or as a shared limiting pool.'
+    constraint_status: dietary-input
+    ikc_membership: excluded
+    claim_ceiling: modulation-demonstrated
+kc_constituent_presentations:
+  - atom_id: BRS6-KC1-KIT-1
+    label: Glucose availability
+    section: core-nutritional-requirements
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS6-KC1-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS6(KC1)
+    ikc_id: BRS6(KC1)
+    proposition: 'Meal-patterned slow-release carbohydrate, protein, fat and soluble-viscous fibre form one shared limiting energy-substrate pool.'
+    evidence_source:
+      citation_keys:
+        - mergenthaler_sugar_brain_2013
+        - reynolds_2019_30638909
+        - monnier_2006_16638903
+    status: resolved-by-kc-review
+  - flag_id: KC-CC-BRS6-KC1-02
+    flag_type: ikc-scope-conflict
+    kc_id: BRS6(KC1)
+    ikc_id: BRS6(KC1)
+    proposition: 'Circulating glucose availability is a shared constraint across the listed HPA-axis, circadian-feeding and metabolic-inflammation mechanisms, rather than proposed scope requiring independent PM evidence.'
+    evidence_source:
+      citation_keys:
+        - mergenthaler_sugar_brain_2013
+        - reynolds_2019_30638909
+        - monnier_2006_16638903
+    status: pending-kc-review
 references:
   - >-
     [Reynolds et al. (2019) — A Series of Systematic Reviews and
@@ -26,68 +113,60 @@ hide_title: true
   />
 </p>
 
-### BRS6(KC1) - Glucose / Energy Substrate Sufficiency
+### BRS6(KC1) - Glucose Availability
 
-(Steady Meal Energy Without Blood-Sugar Chaos)
+(Continuous circulating glucose as a foundational energy substrate)
 
 ### 1. Ambition
 
-Maintain stable meal-derived energy-substrate sufficiency so glucose continuity and glycaemic regulation support neuroendocrine allocation without excessive volatility.
+Maintain continuous glucose availability as a foundational energy-substrate condition while separating cerebral glucose dependence from dietary-carbohydrate, meal-composition, and glycaemic-modulation claims.
 
 ### 2. Core Nutritional Requirements
 
-- Slow-release carbohydrate substrates ← oats, barley, legumes
-- Dietary protein substrate context ← fish, eggs, dairy, legumes
-- Dietary fat substrate context ← olive oil, nuts, seeds, fish
-- Soluble-viscous fibre classes ← oats, barley, pulses, apples
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Core Nutritional Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
+- Glucose availability
+
+</div>
+</div>
+</div>
 ### 3. Evidence Base
 
 #### Summary
 
-Connected BRS6 mechanisms share one upstream nutritional condition: the diet must deliver **meal-patterned energy substrates** — slow-release carbohydrates, protein and fat context, and soluble-viscous fibre — sufficient to support cerebral glucose metabolism, glycaemic variability control, and neuroendocrine allocation without excessive post-prandial excursions. Substrate delivery kinetics matter as much as total energy intake.
+Brain tissue depends on a continuous circulating supply of glucose, and inadequate availability can constrain cerebral energy metabolism ([Mergenthaler et al., 2013](/docs/papers/BRAIN-Diet-References#mergenthaler_sugar_brain_2013)). This supports glucose availability as the resource represented here, but it does not make slow-release carbohydrate, protein, fat, or soluble-viscous fibre constituents of one limiting pool. Carbohydrate quality and glucose variability remain biologically relevant dietary or metabolic questions, distinct from membership in the glucose resource itself ([Reynolds et al., 2019](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909); [Monnier et al., 2006](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)).
 
-Practical framing: build meals from **complex carbohydrates**, **protein**, **healthy fats**, and **viscous fibre** to moderate glucose appearance and variability; recognise that glycaemic stability, insulin sensitivity, cortisol rhythm, and metabolic-load allocation all depend on predictable fuel supply. The evidence claim here is **constraint prevention** — adequate availability is required to prevent biological constraint — not that additional intake enhances performance in nutrient-sufficient people.
+- **Constraint and membership boundary:** The shared resource is circulating glucose availability; meal composition and fibre may influence glycaemic handling but are not themselves glucose-pool constituents ([Reynolds et al., 2019](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)).
+- **Evidence and measurement boundary:** Cerebral glucose dependence and harmful glucose fluctuations are supported, but the sources do not show that ordinary dietary carbohydrate is indispensable or that this resource constrains every listed mechanism ([Mergenthaler et al., 2013](/docs/papers/BRAIN-Diet-References#mergenthaler_sugar_brain_2013); [Monnier et al., 2006](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)).
+- **Biological relevance and provision limitation:** Preventing inadequate glucose availability matters for brain energy metabolism; that dependency does not show that adding carbohydrate, fibre, protein, or fat improves neuroendocrine function in adequately nourished people ([Mergenthaler et al., 2013](/docs/papers/BRAIN-Diet-References#mergenthaler_sugar_brain_2013)).
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="glucose-availability">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="glucose-availability-evidence-panel" aria-label="Expand Glucose availability evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Slow-release carbohydrates and macronutrient context</strong>
 </button>
-<div class="brs-fm-hub-panel" hidden>
+<div class="brs-evidence-title-wrap">
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="glucose-availability-evidence-panel">Glucose availability</button>
+</div>
+</div>
+<div id="glucose-availability-evidence-panel" class="brs-fm-hub-panel" hidden>
 
 #### Biological Importance
 
-Slow-release carbohydrate substrates together with dietary protein and fat context shape glucose appearance kinetics, insulin demand, and cerebral fuel continuity across FM1 glycaemic, FM2 HPA, and FM4 metabolic-load PMs. This macronutrient-pattern arm of the KC reflects that neuroendocrine systems assume coordinated substrate delivery rather than isolated carbohydrate quantity.
+Glucose is a foundational cerebral energy substrate, and the brain depends on regulated delivery from the circulation. The evidence supports biological dependence on glucose availability. It does not establish dietary carbohydrate as indispensable, identify an ordinary-diet limiting threshold, or show that meal protein, fat, and fibre are members of the same resource.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mergenthaler_sugar_brain_2013">Mergenthaler et al., 2013</a> — Reviewed cerebral glucose metabolism as tightly coupled to neuronal energy demand — supporting the KC interpretation that stable meal-derived glucose substrate sufficiency is a shared prerequisite for connected neuroendocrine mechanisms.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909">Reynolds et al., 2019</a> — Synthesised evidence that dietary fibre and carbohydrate quality influence glycaemic outcomes at the population level — supporting the requirement to maintain slow-release carbohydrate and macronutrient meal context as shared dietary conditions for glycaemic regulation.</p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Soluble-viscous fibre</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### Biological Importance
-
-Soluble-viscous fibre classes moderate post-prandial glucose absorption and glycaemic variability — a distinct dietary lever within the shared energy-substrate pool that FM1 glycaemic-variability and insulin-sensitivity PMs depend upon. Fibre here serves glycaemic continuity rather than microbial fermentation alone.
-
-<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
-<ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909">Reynolds et al., 2019</a> — Demonstrated that higher dietary fibre intake is associated with lower glycaemic markers in systematic review evidence — supporting the KC requirement to maintain soluble-viscous fibre sufficiency as part of the shared glucose-substrate pool.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#monnier_2006_16638903">Monnier et al., 2006</a> — Established that acute glucose fluctuations activate oxidative stress beyond sustained chronic hyperglycaemia alone — supporting the interpretation that limiting glycaemic volatility through dietary substrate patterning is a shared constraint-prevention requirement across connected mechanisms.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mergenthaler_sugar_brain_2013">Mergenthaler et al., 2013</a> — Reviewed the brain's continuous dependence on blood-borne glucose and the coupling of cerebral glucose metabolism to neuronal demand, supporting a biological-dependency claim while leaving dietary provision and cross-mechanism scope unestablished.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909">Reynolds et al., 2019</a> — Synthesised carbohydrate-quality and fibre evidence relevant to glycaemic outcomes, but did not establish those dietary exposures as constituents of the circulating glucose resource.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#monnier_2006_16638903">Monnier et al., 2006</a> — Compared glucose fluctuations with sustained hyperglycaemia in people with type 2 diabetes; this supports the biological relevance of variability, not membership of a particular dietary input in the glucose resource.</p></li>
 </ul>
 
 </div>
@@ -98,9 +177,9 @@ Soluble-viscous fibre classes moderate post-prandial glucose absorption and glyc
 
 No Emerging Biological Supports are currently prioritised for this KC.
 
-Continuous glucose monitors, ketogenic adjuncts, or meal-timing protocols may support related glycaemic capacities under specific conditions, but they are not established as shared indispensable dietary requirements for glucose and energy substrate sufficiency. Where evidence becomes source-led and KC-specific, candidates can be added here without blurring the Core Nutritional Requirements boundary.
-
 ### 5. Connected Mechanisms
+
+The connections below are proposed scope. This review supports glucose availability as a foundational resource but does not establish each FM or PM relationship; HPA-axis, circadian-feeding, and metabolic-inflammation scope remains specifically flagged for independent assessment.
 
 #### Functional Mechanisms
 
