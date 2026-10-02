@@ -115,7 +115,10 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.equal(byId["PM3-DIT-2"].relationship_mode, "capacity-requirement");
   assert.equal(byId["PM3-DIT-3"].relationship_mode, "capacity-requirement");
   assert.match(content, /- Tyrosine/);
-  assert.match(content, /Tyrosine, iron and PLP are established biological dependencies/);
+  assert.doesNotMatch(
+    content,
+    /Tyrosine, iron and PLP are established biological dependencies/,
+  );
   assert.match(
     content,
     /Addresses the precursor pool supplying tyrosine for PM3’s dopamine-synthesis step/,

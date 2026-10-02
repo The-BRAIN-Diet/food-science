@@ -1,5 +1,9 @@
 # BRS3-FM1-PM1 Stage 2B (relationship-type re-adjudication)
 
+## Correction
+
+Inherited `Intervention Dominance: Diet-Dominant` was removed. Stage 2B admitted no Direct or Derived Dietary Requirement and did not establish a System Optimisation Practice. The public label is `Lifestyle-Dominant` (`intervention_breakdown: Behavioural/Lifestyle Dominant`), matching the remaining §3.3 lifestyle levers. That label is not evidence that meal timing or ultra-processed-food exposure changes NF-κB transcriptional tone.
+
 PM-governed objective: **NF-κB transcriptional tone** (pro-inflammatory gene
 programmes), not generic inflammation, VAT, colitis scores, or phenome outcomes.
 

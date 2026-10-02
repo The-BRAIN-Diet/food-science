@@ -129,7 +129,7 @@ DIT-1 biological role now distinguishes **measurable meal composition** from a
 
 ### Intervention Profile
 
-Diet can supply the indispensable amino-acid pool this PM governs. That is a provision relationship, not a rule that more protein increases brain monoamines or improves ADHD, and not a rule that each meal must be a complete protein.
+The profile note was removed. Provision, the monoamine ceiling, and the complete-protein boundary stay in the five-atom disclosures.
 
 ### §4.1.1 Direct and/or Derived Dietary Requirements
 

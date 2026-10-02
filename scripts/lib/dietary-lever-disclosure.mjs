@@ -145,12 +145,38 @@ export function buildDietaryLeverDisclosureMap(data) {
     }
   }
 
+  const assessments = data?.kc_applicability_adjudications || [];
+  const establishedRows = (data?.pm_kc_relationships || []).filter((row) => assessments.some((assessment) =>
+    assessment.disposition === "established" && assessment.kc_id === row.kc_id &&
+    (assessment.ikc_id || assessment.kc_id) === (row.ikc_id || row.kc_id),
+  ));
+  for (const row of establishedRows) {
+    if (!row.presentation_label || !row.input || !row.input_type || !row.pm_biological_role) continue;
+    const section = "3.1.3";
+    map.set(dietaryLeverBulletKey(row.presentation_label, "", section), {
+      title: row.input,
+      inputType: formatInputTypeLabel(row.input_type),
+      biologicalRole: row.pm_biological_role,
+      evidenceLimitation: String(row.evidence_limitation || ""),
+      evidenceReferences: evidenceSourceReferences(data, row.evidence_source),
+      compactQualifier: row.applicability_label || "Established applicability",
+      presentationSection: section,
+      readerDescription: String(row.reader_description || ""),
+      supportingFinding: supportingFindingLink(data, row.description_finding_id),
+      titleHref: row.kc_href,
+    });
+  }
+
   const traceById = new Map(
     (data?.dietary_input_traceability || [])
       .filter((row) => row?.atom_id)
       .map((row) => [String(row.atom_id), row]),
   );
   for (const relationship of data?.pm_kc_relationships || []) {
+    if (assessments.length && !assessments.some((assessment) =>
+      assessment.disposition === "established" && assessment.kc_id === relationship.kc_id &&
+      (assessment.ikc_id || assessment.kc_id) === (relationship.ikc_id || relationship.kc_id),
+    )) continue;
     for (const constituent of relationship?.constituent_relationships || []) {
       const atom = traceById.get(String(constituent?.pm_atom_id || ""));
       if (!atom?.input) continue;
@@ -163,6 +189,11 @@ export function buildDietaryLeverDisclosureMap(data) {
         evidenceReferences: evidenceSourceReferences(data, atom.evidence_source),
         compactQualifier: "",
         presentationSection: "3.1.3",
+        readerDescription: String(constituent.reader_description || ""),
+        supportingFinding: supportingFindingLink(data, constituent.description_finding_id),
+        originTag: relationship.origin_label && relationship.kc_href
+          ? { text: relationship.origin_label, href: relationship.kc_href }
+          : undefined,
       });
     }
   }

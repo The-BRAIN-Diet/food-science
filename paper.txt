@@ -1323,3 +1323,17 @@ Zhang, Jiaojiao, Wenyi Liu, Fuqiang Cui, et al. 2025. “Exploring the Potential
 Zhang, Le, Ebba Du Rietz, Ralf Kuja‐Halkola, et al. 2022. “Attention‐deficit/Hyperactivity Disorder and Alzheimer’s Disease and Any Dementia: A Multi‐generation Cohort Study in Sweden.” Alzheimer’s & Dementia 18 (6): 1155–63. https://doi.org/10.1002/alz.12462.
 Zhou, June, Roy J. Martin, Anne M. Raggio, Li Shen, Kathleen McCutcheon, and Michael J. Keenan. 2015. “The Importance of GLP‐1 and PYY in Resistant Starch’s Effect on Body Fat in Mice.” Molecular Nutrition & Food Research 59 (5): 1000–1003. https://doi.org/10.1002/mnfr.201400904.
 
+
+
+PM7 focused source assessment — 2026-10-01
+PM7-F5: Folate restriction can reduce the contribution of dietary methyl groups to hepatic phosphatidylcholine formation through PEMT in female mice.
+chew_folate_choline_2011: Donor restriction reduced pathway-specific methyl incorporation in female liver. Limit: Precursor enrichment, turnover and methyl competition affect this measurement; total PEMT flux was not measured.
+kharbanda_betaine_pemt_2007: Betaine corrected production under an imposed methylation imbalance. Limit: Supplement rescue does not establish ordinary betaine deficiency; assay details and ethanol context limit attribution.
+
+PM7-F6: Dietary methionine affects hepatic SAM and phospholipid measurements in rats, but the evidence reviewed does not establish sulfur-amino-acid inadequacy as a constraint on this formation capacity.
+sugiyama_methionine_pe_1998: Dietary and inhibitor perturbations are consistent with altered PE methylation. Limit: PC:PE is not synthesis rate. Intake adequacy and inhibitor specificity need full-method appraisal.
+shimada_methionine_desaturase_2003: Methionine-specific dietary effects were separable from choline removal. Limit: Lipid ratios and desaturase endpoints remain indirect; SAM responses were not uniformly monotonic. Cystine non-equivalence does not establish KC non-application.
+cano_mat1a_vldl_2011: Upstream enzyme impairment affected measured PEMT activity. Limit: Genetic loss changes expression and metabolism; it does not isolate dietary methionine inadequacy or cysteine sparing.
+
+PM7-F7: Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.
+bockmann_choline_supplements_2023: D3-PC supports methyl-donor provision after choline chloride and POPC. Limit: D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM intermediates and hepatic origin are mechanistically attributed, not directly measured here.

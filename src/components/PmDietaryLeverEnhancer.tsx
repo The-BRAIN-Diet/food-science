@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { useDoc } from "@docusaurus/plugin-content-docs/client";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import {
   buildDietaryLeverDisclosureMap,
   dietaryLeverBulletKey,
@@ -25,11 +27,14 @@ function renderEvidenceLinks(refs: EvidenceReference[]): string {
 function buildDescriptionHtml(d: DietaryLeverDisclosure): string {
   const description = String(d.readerDescription || "").trim();
   if (!description) return "";
+  return `<div class="brs-dietary-lever-description"><p>${escapeHtml(description)}</p></div>`;
+}
+
+function buildResearchLinkHtml(d: DietaryLeverDisclosure): string {
   const finding = d.supportingFinding;
-  const findingLink = finding
-    ? `<p class="brs-dietary-lever-finding"><a href="${escapeHtml(finding.href)}">${escapeHtml(finding.label)}</a></p>`
+  return finding
+    ? `<p class="brs-dietary-lever-finding">Supporting mechanism research: <a href="${escapeHtml(finding.href)}">${escapeHtml(finding.label)}</a></p>`
     : "";
-  return `<div class="brs-dietary-lever-description"><p>${escapeHtml(description)}</p>${findingLink}</div>`;
 }
 
 function buildDetailHtml(d: DietaryLeverDisclosure): string {
@@ -45,6 +50,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
       <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
       ${limitation}
+      ${buildResearchLinkHtml(d)}
     </div>
   `.trim();
 }
@@ -145,6 +151,24 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   trigger.title = "View five-field evidence";
   trigger.textContent = parsed.label;
 
+  const titleLink = disclosure.titleHref ? document.createElement("a") : null;
+  if (titleLink) {
+    titleLink.href = disclosure.titleHref!;
+    titleLink.textContent = parsed.label;
+    titleLink.className = "brs-kc-title-link";
+    titleLink.addEventListener("click", (event) => event.stopPropagation());
+    trigger.textContent = "▸";
+    trigger.setAttribute("aria-label", `Expand ${parsed.label}`);
+  }
+
+  const originLink = disclosure.originTag ? document.createElement("a") : null;
+  if (originLink) {
+    originLink.href = disclosure.originTag!.href;
+    originLink.textContent = disclosure.originTag!.text;
+    originLink.className = "brs-dietary-lever-origin-link";
+    originLink.addEventListener("click", (event) => event.stopPropagation());
+  }
+
   const qualifierSpan = document.createElement("span");
   qualifierSpan.className = "brs-dietary-lever-qualifier";
   qualifierSpan.textContent = disclosure.compactQualifier
@@ -185,6 +209,8 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
 
   li.textContent = "";
   li.append(trigger);
+  if (titleLink) li.append(document.createTextNode(" "), titleLink);
+  if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
   if (disclosure.compactQualifier) li.append(qualifierSpan);
   if (upstreamIndicators.length) li.append(upstreamWrap);
   if (parsed.foods) li.append(foodsSpan);
@@ -195,7 +221,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
     setDisclosureOpen(li, detail, trigger, true);
   };
 
-  li.addEventListener("pointerenter", (e) => {
+  trigger.addEventListener("pointerenter", (e) => {
     if ((e as PointerEvent).pointerType === "touch") return;
     openTransiently();
   });
@@ -206,7 +232,15 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
     setDisclosureOpen(li, detail, trigger, false);
   });
 
-  li.addEventListener("focusin", openTransiently);
+  let suppressFocusPreview = false;
+  const dismissOriginPreview = () => {
+    if (li.dataset.brsDietaryLeverPinned !== "true") setDisclosureOpen(li, detail, trigger, false);
+  };
+  originLink?.addEventListener("pointerenter", dismissOriginPreview);
+  originLink?.addEventListener("focus", dismissOriginPreview);
+  li.addEventListener("focusin", (e) => {
+    if (!suppressFocusPreview && (e.target === trigger || detail.contains(e.target as Node))) openTransiently();
+  });
 
   li.addEventListener("focusout", (e) => {
     if (li.dataset.brsDietaryLeverPinned === "true") return;
@@ -232,7 +266,9 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
     if (e.key === "Escape") {
       e.stopPropagation();
       setDisclosureOpen(li, detail, trigger, false);
+      suppressFocusPreview = true;
       trigger.focus();
+      suppressFocusPreview = false;
     }
   });
 }
@@ -299,8 +335,25 @@ function enhanceEvidenceTitle(
 }
 
 export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
+  const { metadata } = useDoc();
+  const { siteConfig } = useDocusaurusContext();
+  const canonicalPmUrl = new URL(metadata.permalink, siteConfig.url).href;
   useEffect(() => {
     const map = buildDietaryLeverDisclosureMap(frontMatter);
+    for (const disclosure of map.values()) {
+      if (disclosure.titleHref) {
+        disclosure.titleHref = new URL(disclosure.titleHref, canonicalPmUrl).href;
+      }
+      if (disclosure.originTag) {
+        disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
+      }
+      if (disclosure.supportingFinding) {
+        disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
+      }
+      for (const indicator of disclosure.upstreamIndicators || []) {
+        indicator.href = new URL(indicator.href, canonicalPmUrl).href;
+      }
+    }
     if (!map.size) return;
 
     const root = document.querySelector<HTMLElement>(".theme-doc-markdown, .markdown");
@@ -356,7 +409,7 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
     });
 
     return () => document.removeEventListener("click", onDocClick);
-  }, [frontMatter]);
+  }, [frontMatter, canonicalPmUrl]);
 
   return null;
 }

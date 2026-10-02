@@ -3,7 +3,7 @@
  * @see system/key-constraint-schema.md
  */
 
-import { INPUT_TYPES, FORBIDDEN_INPUT_TYPES } from "./dietary-input-traceability.mjs";
+import { INPUT_TYPES, FORBIDDEN_INPUT_TYPES, validateDietaryInputTraceability } from "./dietary-input-traceability.mjs";
 import { CLAIM_CEILING } from "./dietary-lever-atoms.mjs";
 import { RETIRED_KC_IDS, isRetiredKc } from "./kc-registry.mjs";
 import { buildPmReferenceKeyIndex } from "./pm-reference-index.mjs";
@@ -745,6 +745,7 @@ export function validatePmKcGovernance(
 
   validateKcChangeControlFlagList(data, issues, { entityLabel, provenanceIndex });
   validateKcApplicabilityAdjudications(data, issues, { entityLabel });
+  validatePmKcDisclosurePresentations(data, issues, { entityLabel });
 }
 
 /**
@@ -940,6 +941,42 @@ export function validateStage2bDietaryRequirementLayers(data, issues, { entityLa
         "stage2b_kc_index_unadjudicated",
         `${entityLabel}: key_constraints[${i}] lists ${ikcId || kcId} but Stage 2B has no matching pm_kc_relationships row`,
       );
+    }
+  }
+}
+
+/** Validate opt-in PM-owned relationship disclosures without admitting new mappings. */
+export function validatePmKcDisclosurePresentations(data, issues, { entityLabel } = {}) {
+  const findings = new Map((data.scientific_findings || []).map(row => [row.id, row]));
+  const presented = [
+    ...(data.pm_kc_relationships || []).filter(row => row.presentation_label),
+  ];
+  for (const row of presented) {
+    const label = `${entityLabel}: KC disclosure ${row.kc_id}`;
+    for (const field of ["presentation_label", "reader_description", "description_finding_id", "kc_href"]) {
+      if (!nonEmpty(row[field])) push(issues, "pm_kc_disclosure_missing_presentation", `${label} requires ${field}`);
+    }
+    if (!findings.has(row.description_finding_id) || !row.evidence_source?.finding_ids?.includes(row.description_finding_id)) {
+      push(issues, "pm_kc_disclosure_unsupported_finding", `${label} research target must resolve to the relationship's supporting canonical Finding`);
+    }
+    validateDietaryInputTraceability({
+      ...data,
+      dietary_input_traceability: [{
+        atom_id: row.relationship_id || `${row.kc_id}-assessment`,
+        input: row.input, input_type: row.input_type,
+        biological_role: row.pm_biological_role,
+        evidence_source: row.evidence_source,
+        evidence_limitation: row.evidence_limitation,
+      }],
+    }, issues, { entityLabel: label });
+  }
+  const atoms = new Map((data.dietary_input_traceability || []).map(row => [row.atom_id, row]));
+  for (const relationship of data.pm_kc_relationships || []) {
+    for (const constituent of relationship.constituent_relationships || []) {
+      if (!constituent.description_finding_id) continue;
+      if (!findings.has(constituent.description_finding_id) || !atoms.get(constituent.pm_atom_id)?.evidence_source?.finding_ids?.includes(constituent.description_finding_id)) {
+        push(issues, "pm_kc_constituent_unsupported_finding", `${entityLabel}: constituent research target is not supported by its PM-owned atom`);
+      }
     }
   }
 }
