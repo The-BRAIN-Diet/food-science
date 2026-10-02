@@ -10,7 +10,7 @@ YAML was not added.
 
 | PM | Atom | Decision | Addressability | Claim ceiling | Evidence |
 |----|------|----------|----------------|---------------|----------|
-| **PM1** | — | No Direct/Derived Dietary Requirement after type-B (state-regulation) retest | page `not-established` | `biological-dependency` | Polyphenols and fibre not admitted; EPA/DHA Direct/Derived **NO**; SOP `conditional_supplementation` **NOT ESTABLISHED**; see `system/brs3-fm1-pm1-stage2b-report.md` |
+| **PM1** | — | No Direct/Derived Dietary Requirement after type-B (state-regulation) retest. Public dominance is `Lifestyle-Dominant`, not `Diet-Dominant` | page `not-established` | `biological-dependency` | Polyphenols and fibre not admitted; EPA/DHA Direct/Derived **NO**; SOP `conditional_supplementation` **NOT ESTABLISHED**; see `system/brs3-fm1-pm1-stage2b-report.md` |
 | **PM1** | DIT-1 Magnesium ions (Mg²⁺) | §4.1.2 biochemical catalytic ion | n/a | `biological-dependency` | Mercurio 1997; Adams 2001; UniProt O14920 / Rhea 19073 |
 | **PM2** | DIT-1 Fermentable fibre | Direct food component | `direct` | `dietary-provision` | Cavaliere 2022; Gruter 2023; Li 2024 |
 | **PM2** | DIT-2 Butyrate | §3.1.2 biochemical metabolite | n/a | `biological-dependency` | Cavaliere 2022; Hoyles 2018 |

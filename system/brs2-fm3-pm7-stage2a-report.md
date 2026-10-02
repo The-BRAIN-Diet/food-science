@@ -1,3 +1,19 @@
+# PM7 Stage 2A focused reassessment — 2026-10-01
+
+This section supersedes conflicting conclusions and completion statements in the historical report retained below. Mission unchanged. Stage 2A follow-up authored PM7-F5/F6/F7 with Individual Study Assessments; Stage 2B admitted KC1 conditionally, retained KC2 unresolved, and corrected Choline Direct/Phosphatidylcholine Derived provision roles. See canonical Findings and QC decisions FW037, FW038, FW039, FW040.
+
+Böckmann exact source location: Results, D3-PC from the PEMT pathway; supplementary Figure S5B (appearance by input), S5A (betaine relationship); Methods, Chemical analysis. D9-PC/remodelling and D3-PC are separate signals. Full Results passage verified at the publisher. Provision is admitted, not indispensable dependence or activity enhancement.
+
+Retrieval questions: donor restriction and pathway-specific formation; methionine intervention with choline maintained; upstream SAM impairment and capacity; labelled choline/PC methyl provision. Searches used the exact Chew, Kharbanda, Sugiyama, Shimada, Cano and Böckmann titles and citation following. Chew/Cano indexed primary results, Shimada full text, Böckmann publisher full text, and Kharbanda/Sugiyama abstracts were assessed. Access limits remain explicit.
+
+Stopping: KC1 and dietary provision are resolved at bounded claims. KC2 remains open for dietary-study methods, intake adequacy, inhibitor specificity and competing effects; no universal human trial, absolute-flux or numerical deficiency threshold is imposed. Phenome reassessment is separately deferred (FW041). Bibliography identifiers previously repaired and existing Findings cards are current; earlier statements otherwise are historical.
+
+Implementation and validation status is maintained in the QC register, not inferred from this report.
+
+---
+
+## Historical report (superseded where inconsistent)
+
 # BRS2-FM3-PM7 Phosphatidylcholine Formation — Stage 2A Report
 
 ## Scope

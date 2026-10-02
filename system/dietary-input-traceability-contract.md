@@ -407,8 +407,8 @@ evidence that the iKC applies to that PM in `pm_kc_relationships`.
 “PM-specific” is that applicability, not uniqueness or local evidence
 ownership.
 
-`key_constraints` records **which iKCs apply, or are proposed to apply**, to the
-PM. It does **not** inherit constituent relationships. iKC membership ≠ PM
+`key_constraints` records **which iKCs are independently admitted** for the
+PM. Proposed, rejected and unresolved assessments remain audit-only. It does **not** inherit constituent relationships. iKC membership ≠ PM
 relevance. PM relevance ≠ iKC membership. A validated PM → constituent → iKC
 edge requires both independently.
 
@@ -432,6 +432,8 @@ suggests such a change—or encounters legacy-unreviewed membership—record a
 claimed iKC scope) for KC-owned adjudication without rewriting the iKC.
 
 ### Independent PM adjudication of iKC-associated inputs
+
+Treat every proposed KC/iKC and relevant constituent as an evidence-review candidate. Presence on a KC page or absence from a PM record settles neither applicability nor relevance. Independently assess the resource/bottleneck, its supported connection to this PM, evidence and limitations. Reuse verified evidence and explicitly supported mechanistic chains; do not require a universal single end-to-end human assay. Record supported/conditionally admitted, rejected or unresolved decisions with evidence, limitations and rationale; unresolved decisions identify the exact gap and follow-up. Missing records are an implementation gap, not scientific exclusion. PM ownership does not prohibit iKC inclusion. Public §3.1.3 and mapping indices show admitted relationships only; rejected/unresolved assessments remain in the audit.
 
 There is no iKC→PM scientific propagation and no wholesale inheritance from the
 KC page.
@@ -686,9 +688,11 @@ with a change-control flag. §3.1.3 must not inherit iKC constituent lists or
 §3.1.1 Direct/Derived metadata.
 
 Do not maintain a second scientific record in Markdown bullets, labels or prose.
-Presentation rows may specify placement and a reader-facing label, but they must
-not restate or override the atom's Input Type, Biological Role, Evidence Source,
-Limitation, classification or Derived Target.
+Presentation rows may specify placement, a label, `reader_description` and
+`description_finding_id`. The description briefly summarises the reviewed role
+in concise, faithful plain language without adding claims; the Finding link supplies
+navigation. Neither field owns or overrides the atom's Input Type, Biological
+Role, Evidence Source, Limitation, classification or Derived Target.
 
 Section context controls the compact projection:
 
@@ -768,6 +772,530 @@ still fail to render when its Markdown label does not match its presentation
 record.
 
 ---
+
+### Canonical working Stage 2B reference: BRS1-FM1-PM3
+
+This is the implemented reference, extracted from the actual PM3 source and shared renderer. Preserve the adjudicated science; presentation metadata is a faithful summary and navigation, not a second scientific record.
+
+Canonical page: https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation
+
+Each entry is one component: **compact label/trigger → reader description → Input → Input type → Biological role → Evidence source → Limitation → supporting mechanism research link**. The description is the first opened content. The research link is the final opened content, not a sixth atom. Keep the description inside the dropdown and the Finding title after the atoms. Use a concise, faithful, plain-language reader description. A concise Biological role may also serve as the description; do not force artificial variation.
+
+Author one short sentence explaining input → contribution/conversion → process, within the reviewed role and claim ceiling. These accepted descriptions are the reference:
+
+| Input | Reader description |
+|---|---|
+| Tyrosine | Tyrosine is the starting material used to make dopamine. |
+| Iron | Iron helps the enzyme that carries out the first step in making dopamine from tyrosine. |
+| Vitamin B6 | Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis. |
+
+Local requirements remain local even with upstream supply: Tyrosine — Direct · Substrate · [Supply: PM1]; Iron — Direct · Cofactor; Pyridoxal-5′-phosphate (PLP) — Direct · Cofactor; Vitamin B6 — Derived · Cofactor Precursor → Pyridoxal-5′-phosphate (PLP). Do not repeat the supply explanation in the description. Retain `upstream_pm_relationships` on the reviewed atom; render its link beside that input, never on the subsection header. PM1's canonical destination is https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation. Do not import PM1's dietary entries.
+
+If no local Direct/Derived requirements are established, state the adjudicated status: distinguish an established absence from an unresolved assessment. An independently supported upstream dependency may appear once as a linked relationship with a concise explanation; it does not create local nutrient atoms. Do not manufacture five-field local disclosures from upstream lists.
+
+`description_finding_id` must identify the necessary canonical Finding that supports the description. Resolve its actual record title and actual anchor; flag missing targets or multiple necessary Findings before finalising, rather than inventing anchors or choosing a broadly related Finding. Here PM3-F1 resolves to **Dopamine synthesis requires distinct substrate and cofactor steps**, at https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation#pm3-f1. Its title comes from `scientific_findings[].finding_label`; `ScientificFinding.tsx` uses the lower-case Finding ID as the element ID. Evidence source separately retains author/year plus numbered bibliography links.
+
+| Stored here | Displayed here |
+|---|---|
+| PM3 §3.1.1 Markdown bullets | Entry labels selected by `dietary_lever_presentations.label` and `atom_id`; Markdown supplies no independent scientific prose |
+| `dietary_lever_atoms.requirement_classification`, `derived_target` + canonical `input_type` | Compact Direct/Derived qualifier and Derived target |
+| `dietary_input_traceability[].upstream_pm_relationships` | Always-visible contextual PM link beside the input |
+| `dietary_lever_presentations.reader_description` | First content inside the opened dropdown |
+| `dietary_input_traceability`: `input`, `input_type`, `biological_role`, `evidence_source`, `evidence_limitation` | Exactly five atoms, in that order; citation keys resolve against `references` to author/year [n] |
+| `dietary_lever_presentations.description_finding_id` → canonical Finding | Final Supporting mechanism research link, with canonical title and full PM URL |
+
+The following is exact source Markdown; descriptions, qualifiers, fields and research links are supplied by the renderer. No authored description paragraph is inserted here.
+
+<!-- PM3-REFERENCE:markdown -->
+```mdx
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tyrosine
+- Iron
+- Pyridoxal-5′-phosphate (PLP)
+- Vitamin B6
+
+</div>
+</div>
+</div>
+```
+<!-- /PM3-REFERENCE:markdown -->
+
+Minimal frontmatter integration excerpts follow: Tyrosine (Direct), vitamin B6 (Derived) and BH4 (biochemical). Each retains its complete five-field atom and presentation metadata; overlays show the classification fields needed for display. B6 targets canonical PLP atom `PM3-DIT-2`, whose complete Direct record remains in PM3. Apply these patterns to the target PM’s own reviewed records; these excerpts are not a complete standalone frontmatter file.
+
+Full `scientific_findings` and `references` remain in the canonical PM3 source. **Citation numbering is resolved from the target PM’s own bibliography**, by matching atom citation keys to its `references` positions. Do not copy PM3’s bibliography into another PM, hard-code PM3’s numbers, or renumber the live page to simplify this example. The renderer resolves author/year and [n] separately from the Finding navigation. Tests load the complete canonical PM3 source for dependencies omitted here.
+
+<!-- PM3-REFERENCE:records -->
+```yaml
+dietary_input_traceability:
+  - atom_id: PM3-DIT-3
+    input: Vitamin B6
+    input_type: cofactor precursor
+    biological_role: 'Dietary route to PLP, the active cofactor for aromatic L-amino-acid decarboxylase. This is not an independent dopamine-synthesis cofactor'
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - kennedy_b_2016
+        - spector_vitamin_1978
+    evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain dopamine synthesis.'
+  - atom_id: PM3-DIT-5
+    input: Tyrosine
+    input_type: substrate
+    biological_role: Tyrosine is the substrate for conversion to L-DOPA in dopamine synthesis.
+    upstream_pm_relationships:
+      - relationship_label: Supply
+        pm_short_id: PM1
+        pm_id: BRS1-FM1-PM1
+        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+    evidence_limitation: Substrate necessity does not establish that additional dietary tyrosine increases brain dopamine or improves a functional or clinical outcome.
+  - atom_id: PM3-DIT-4
+    input: Tetrahydrobiopterin (BH4)
+    input_type: cofactor
+    biological_role: Endogenous cofactor required by tyrosine hydroxylase during conversion of tyrosine to L-DOPA
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+    evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased dopamine synthesis.
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-3
+    requirement_classification: derived
+    relationship_mode: capacity-requirement
+    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target_atom_id: PM3-DIT-2
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+  - atom_id: PM3-DIT-5
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+  - atom_id: PM3-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-5
+    label: Tyrosine
+    presentation_section: 3.1.1
+    reader_description: Tyrosine is the starting material used to make dopamine.
+    description_finding_id: PM3-F1
+  - atom_id: PM3-DIT-3
+    label: Vitamin B6
+    presentation_section: 3.1.1
+    reader_description: Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis.
+    description_finding_id: PM3-F1
+  - atom_id: PM3-DIT-4
+    label: Tetrahydrobiopterin (BH4)
+    presentation_section: 3.1.2
+    reader_description: BH4 helps the enzyme that converts tyrosine into L-DOPA, the first step in making dopamine.
+    description_finding_id: PM3-F1
+```
+<!-- /PM3-REFERENCE:records -->
+
+**Integration examples using the existing shared renderer, not standalone replacement components.** The following code is extracted from existing source. Do not copy these partial functions into new components; keep using `PmDietaryLeverEnhancer` and its existing imports, helpers and effect lifecycle.
+
+Exact renderer functions from `src/components/PmDietaryLeverEnhancer.tsx` (types/imports remain in that source):
+
+<!-- PM3-REFERENCE:renderer -->
+```tsx
+function renderEvidenceLinks(refs: EvidenceReference[]): string {
+  if (!refs.length) return "<span>No linked reference available.</span>";
+  return `<span class="brs-dietary-lever-detail-references">${refs
+    .map(
+      ({ number, authorYear, href }) =>
+        `${escapeHtml(authorYear)} <a href="${escapeHtml(href || pmReferenceHref(number))}">[${number}]</a>`,
+    )
+    .join("; ")}</span>`;
+}
+
+function buildDescriptionHtml(d: DietaryLeverDisclosure): string {
+  const description = String(d.readerDescription || "").trim();
+  if (!description) return "";
+  return `<div class="brs-dietary-lever-description"><p>${escapeHtml(description)}</p></div>`;
+}
+
+function buildResearchLinkHtml(d: DietaryLeverDisclosure): string {
+  const finding = d.supportingFinding;
+  return finding
+    ? `<p class="brs-dietary-lever-finding">Supporting mechanism research: <a href="${escapeHtml(finding.href)}">${escapeHtml(finding.label)}</a></p>`
+    : "";
+}
+
+function buildDetailHtml(d: DietaryLeverDisclosure): string {
+  const limitation = d.evidenceLimitation
+    ? `<p class="brs-dietary-lever-detail-limit"><span class="brs-dietary-lever-detail-k">Limitation</span> = ${escapeHtml(d.evidenceLimitation)}</p>`
+    : "";
+
+  return `
+    <div class="brs-dietary-lever-detail-inner">
+      ${buildDescriptionHtml(d)}
+      <p><span class="brs-dietary-lever-detail-k">Input</span> = ${escapeHtml(d.title)}</p>
+      <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
+      <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
+      <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
+      ${limitation}
+      ${buildResearchLinkHtml(d)}
+    </div>
+  `.trim();
+}
+
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function renderInlineMarkdownLinks(text: string): string {
+  return escapeHtml(text).replace(
+    /\[([^\]]+)\]\((\/docs\/[^)]+)\)/g,
+    '<a href="$2">$1</a>',
+  );
+}
+```
+<!-- /PM3-REFERENCE:renderer -->
+
+Minimal panel/row wiring from existing `enhanceListItem`. That shared function already constructs the trigger, classification qualifier and contextual upstream links and handles opening/closing. The contextual link is a sibling of the trigger within the same entry, not nested inside the button.
+
+<!-- PM3-REFERENCE:assembly -->
+```tsx
+  const detailId = `brs-dietary-lever-${Math.random().toString(36).slice(2, 9)}`;
+  trigger.setAttribute("aria-controls", detailId);
+
+  const detail = document.createElement("div");
+  detail.id = detailId;
+  detail.className = "brs-dietary-lever-detail";
+  detail.hidden = true;
+  detail.setAttribute("role", "dialog");
+  detail.setAttribute("aria-modal", "false");
+  detail.setAttribute("aria-label", `${disclosure.title} — five-field evidence`);
+  detail.innerHTML = buildDetailHtml(disclosure);
+
+  li.textContent = "";
+  li.append(trigger);
+  if (titleLink) li.append(document.createTextNode(" "), titleLink);
+  if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
+  if (disclosure.compactQualifier) li.append(qualifierSpan);
+  if (upstreamIndicators.length) li.append(upstreamWrap);
+  if (parsed.foods) li.append(foodsSpan);
+  li.append(detail);
+```
+<!-- /PM3-REFERENCE:assembly -->
+
+Exact route binding from the component; this excerpt ends before the remaining effect's event registration. `useDoc` supplies the real document permalink, and `useDocusaurusContext` supplies the site's canonical origin.
+
+<!-- PM3-REFERENCE:binding -->
+```tsx
+export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
+  const { metadata } = useDoc();
+  const { siteConfig } = useDocusaurusContext();
+  const canonicalPmUrl = new URL(metadata.permalink, siteConfig.url).href;
+  useEffect(() => {
+    const map = buildDietaryLeverDisclosureMap(frontMatter);
+    for (const disclosure of map.values()) {
+      if (disclosure.titleHref) {
+        disclosure.titleHref = new URL(disclosure.titleHref, canonicalPmUrl).href;
+      }
+      if (disclosure.originTag) {
+        disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
+      }
+      if (disclosure.supportingFinding) {
+        disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
+      }
+      for (const indicator of disclosure.upstreamIndicators || []) {
+        indicator.href = new URL(indicator.href, canonicalPmUrl).href;
+      }
+    }
+```
+<!-- /PM3-REFERENCE:binding -->
+
+Exact Finding resolver from `src/lib/dietaryLeverDisclosure.ts`:
+
+<!-- PM3-REFERENCE:resolver -->
+```tsx
+function supportingFindingLink(
+  frontMatter: Record<string, unknown>,
+  findingId?: string,
+): SupportingFindingLink | null {
+  const id = String(findingId || "").trim();
+  if (!id) return null;
+  const findings = (frontMatter.scientific_findings || []) as Array<{
+    id?: string;
+    finding_label?: string;
+  }>;
+  const finding = findings.find((row) => String(row?.id || "") === id);
+  const label = String(finding?.finding_label || "").trim();
+  if (!label) return null;
+  return { id, label, href: `#${id.toLowerCase()}` };
+}
+```
+<!-- /PM3-REFERENCE:resolver -->
+
+Expected closed result: the four compact labels above, with Supply: PM1 only beside Tyrosine. Expected opened result: one reader sentence, five labelled atomic rows, then Supporting mechanism research: [Dopamine synthesis requires distinct substrate and cofactor steps]. All of these belong to the same dropdown; neither presentation field changes the five-atom model.
+
+Completion gate: run `node --test scripts/pm-dietary-reference-example.test.mjs` plus the relevant traceability/governance tests and production build. The reference test parses these excerpts, loads full dependencies from canonical PM3, validates the resulting records, executes the actual renderer excerpt and tests Direct and Derived behavior, field ordering and resolved references. Verify closed/opened states and actual Finding/bibliography targets in the browser. After changing the implementation, refresh the extracted code here and rerun the behavior tests; text equality alone is insufficient.
+
+### Implemented §3.1.2 extension: endogenous BH4
+
+This extension uses the same existing shared dropdown component and the same five-atom record, PM3-DIT-4, shown above. Its presentation metadata now supplies `reader_description` and `description_finding_id: PM3-F1`. Its description summarises the reviewed atom without adding dietary-provision or intake-response claims.
+
+Stored §3.1.2 Markdown below → compact **Tetrahydrobiopterin (BH4) — Cofactor**. Stored `reader_description` → first opened sentence: **BH4 helps the enzyme that converts tyrosine into L-DOPA, the first step in making dopamine.** Then the renderer displays Input → Input type → Biological role → Evidence source → Limitation → Supporting mechanism research, linking to the same canonical PM3-F1 title and full URL above. Evidence source remains Fanet et al. (2021) [1].
+
+BH4 remains `relationship_layer: biochemical-requirement`; it has no Direct/Derived classification or Derived target, and no imported upstream dietary entries. Its limitation explicitly says endogenous synthesis/recycling is not evidence for dietary BH4 provision or increased dopamine synthesis. The text below the entry is existing subsection context, not a reader description outside the dropdown.
+
+<!-- PM3-REFERENCE:markdown-bh4 -->
+```mdx
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tetrahydrobiopterin (BH4)
+
+Tetrahydrobiopterin is an endogenous cofactor required for tyrosine hydroxylation, not a dietary BH4 recommendation. Tyrosine as the local hydroxylase substrate is listed above. Dietary tyrosine supply and phenylalanine conversion are assessed on [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation). Competitive LAT1 transport is assessed on [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
+
+</div>
+</div>
+</div>
+```
+<!-- /PM3-REFERENCE:markdown-bh4 -->
+
+Test this extension through the documented records and shared renderer: verify the Cofactor-only compact label, exactly five atoms, Fanet [1], and the final canonical research link. Do not inherit §3.1.1 Direct/Derived metadata.
+
+### Admitted PM-owned KC input disclosure — PM7 integration reference
+
+Use the existing shared renderer. Public §3.1.3 titles are the individually authorised **input names**, not the parent KC name. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
+
+**Admission:** Stage 2B independently evidence-reviews each proposed PM→KC/iKC/input relationship and records evidence, limitations, rationale and disposition. Publish only supported or conditionally admitted relationships. Rejected and unresolved candidates remain audit-only, with exact remaining gaps and follow-up. KC membership or a provenance tag alone does not authorise an input; missing records do not justify exclusion. Preserve canonical KC/iKC/constituent identifiers when applicable; do not invent iKC identifiers or label every nutrient an iKC. PM7 KC1 remains conditionally established; KC2 remains unresolved and is not a public requirement or admitted mapping. Folate/betaine/choline provision does not settle KC2's methionine/cysteine capacity question.
+
+**Interaction:** hover or focus on the input previews its disclosure; click/tap pins the same disclosure; a second activation, Escape or the existing outside-click close interaction dismisses it. Enter/Space activate the native button. Tab reaches the separate origin link, which navigates without opening or pinning the disclosure. Hover/focus on the origin tag alone does not preview. Escape returns focus to the input without reopening it.
+
+**Opened order:** reader description → exactly five atoms (Input → Input type → Biological role → Evidence source → Limitation) → Supporting mechanism research. Conditional animal contexts, enrichment-versus-flux limits and provision-versus-enhancement boundaries remain inside the disclosure. The research link is navigation, not a sixth atom.
+
+Canonical PM source: `docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx`. Canonical origin destination: https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool. PM7-F5 resolves to “Donor insufficiency can constrain hepatic methylation” at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f5; choline uses PM7-F7 at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f7. Resolve titles/anchors from the canonical Finding, not an invented target. Evidence source links remain Author et al. (year) [n], with numbering resolved from the target PM bibliography. Do not copy PM3/KC bibliographies or renumber live pages for this example.
+
+**Integration excerpts using the existing shared renderer; not standalone replacement components.** Stored Markdown → three compact trigger rows inside the existing §3.1.3 panel. The renderer supplies origin tags from reviewed relationship metadata; Markdown is not three manually linked input titles.
+
+<!-- PM7-KC-REFERENCE:markdown -->
+```mdx
+- Folate
+- Betaine
+- Choline
+```
+<!-- /PM7-KC-REFERENCE:markdown -->
+
+Stored PM-owned records → constituent five fields, description and research target. The representative folate atom below is exact; betaine DIT-6 and choline DIT-3, all Findings, bibliography and the established KC1 adjudication are loaded from canonical PM7 dependencies. `kc_atom_id` records reviewed membership separately from `pm_atom_id`; no atom fields are inherited from the KC page. The relationship's `origin_label`/`kc_href` provide provenance only. Other existing parent relationship evidence fields are retained in canonical source, not copied into this instruction.
+
+<!-- PM7-KC-REFERENCE:records -->
+```yaml
+dietary_input_traceability:
+  - atom_id: PM7-DIT-5
+    input: Folate
+    input_type: precursor
+    biological_role: Folate availability contributes to the methyl-donor supply used by hepatic PEMT; folate restriction with choline maintained reduced hepatic methyl-derived PC enrichment in female mice.
+    evidence_source:
+      finding_ids:
+        - PM7-F5
+      citation_keys:
+        - chew_folate_choline_2011
+    evidence_limitation: The response was conditional on sex and experimental context. Methyl-derived PC enrichment is not absolute PEMT flux; extra folate above adequacy is not established to enhance formation or cognition.
+pm_kc_relationships:
+  - relationship_id: BRS2-FM3-PM7-KCR-1
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    kc_href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
+    origin_label: "KC1: Methyl Donor Pool"
+    constituent_relationships:
+      - relationship_id: BRS2-FM3-PM7-KCI-1
+        pm_atom_id: PM7-DIT-5
+        kc_atom_id: BRS2-KC1-KIT-1
+        kc_membership_status: canonical-reviewed
+        label: Folate
+        reader_description: Folate availability supports methyl-group provision for PEMT-dependent formation.
+        description_finding_id: PM7-F5
+      - relationship_id: BRS2-FM3-PM7-KCI-2
+        pm_atom_id: PM7-DIT-6
+        kc_atom_id: BRS2-KC1-KIT-3
+        kc_membership_status: canonical-reviewed
+        label: Betaine
+        reader_description: Betaine can support PEMT-dependent formation when methylation is impaired in the studied ethanol model.
+        description_finding_id: PM7-F5
+      - relationship_id: BRS2-FM3-PM7-KCI-3
+        pm_atom_id: PM7-DIT-3
+        kc_atom_id: BRS2-KC1-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Choline
+        reader_description: Choline can supply methyl groups used in PEMT-dependent formation.
+        description_finding_id: PM7-F7
+```
+<!-- /PM7-KC-REFERENCE:records -->
+
+Stored constituent edges → disclosure map in `src/lib/dietaryLeverDisclosure.ts` (mirrored in `scripts/lib/dietary-lever-disclosure.mjs`). This runs inside the existing map builder after `assessments` has been loaded from PM adjudications. Its established-parent check prevents an unresolved KC from projecting constituents; independently vetted edges provide the PM-specific input evidence. `originTag` is presentation metadata, not an applicability decision.
+
+<!-- PM7-KC-REFERENCE:projection -->
+```tsx
+  const pmTraceById = new Map(
+    traceRows.filter((row) => row.atom_id).map((row) => [String(row.atom_id), row]),
+  );
+  const pmKcRelationships = (frontMatter.pm_kc_relationships || []) as Array<{
+    origin_label?: string;
+    kc_href?: string;
+    constituent_relationships?: Array<{
+      pm_atom_id?: string;
+      label?: string;
+      reader_description?: string;
+      description_finding_id?: string;
+    }>;
+  }>;
+  for (const relationship of pmKcRelationships) {
+    if (assessments.length && !assessments.some((assessment) =>
+      assessment.disposition === "established" && assessment.kc_id === (relationship as PmKcDisclosureRow).kc_id &&
+      (assessment.ikc_id || assessment.kc_id) === ((relationship as PmKcDisclosureRow).ikc_id || (relationship as PmKcDisclosureRow).kc_id),
+    )) continue;
+    for (const constituent of relationship.constituent_relationships || []) {
+      const base = pmTraceById.get(String(constituent.pm_atom_id || ""));
+      if (!base?.input) continue;
+      const label = String(constituent.label || base.input);
+      map.set(dietaryLeverBulletKey(label, "", "3.1.3"), {
+        title: String(base.input),
+        inputType: formatInputTypeLabel(String(base.input_type || "")),
+        biologicalRole: String(base.biological_role || ""),
+        evidenceLimitation: String(base.evidence_limitation || "").trim(),
+        evidenceReferences: evidenceSourceReferences(
+          references,
+          base.evidence_source?.citation_keys || [],
+        ),
+        compactQualifier: "",
+        presentationSection: "3.1.3",
+        readerDescription: String(constituent.reader_description || ""),
+        supportingFinding: supportingFindingLink(frontMatter, constituent.description_finding_id),
+        originTag: relationship.origin_label && relationship.kc_href
+          ? { text: relationship.origin_label, href: relationship.kc_href }
+          : undefined,
+      });
+    }
+  }
+```
+<!-- /PM7-KC-REFERENCE:projection -->
+
+Displayed origin tag → sibling link inside existing `enhanceListItem`; the input remains the existing named trigger button. Only this origin wiring is added; the existing five-field renderer is reused:
+
+<!-- PM7-KC-REFERENCE:origin-link -->
+```tsx
+  const originLink = disclosure.originTag ? document.createElement("a") : null;
+  if (originLink) {
+    originLink.href = disclosure.originTag!.href;
+    originLink.textContent = disclosure.originTag!.text;
+    originLink.className = "brs-dietary-lever-origin-link";
+    originLink.addEventListener("click", (event) => event.stopPropagation());
+  }
+```
+<!-- /PM7-KC-REFERENCE:origin-link -->
+
+After `li.append(trigger)` append the separate origin tag:
+
+<!-- PM7-KC-REFERENCE:origin-append -->
+```tsx
+  if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
+```
+<!-- /PM7-KC-REFERENCE:origin-append -->
+
+The existing canonical URL loop additionally resolves the origin destination:
+
+<!-- PM7-KC-REFERENCE:origin-resolution -->
+```tsx
+      if (disclosure.originTag) {
+        disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
+      }
+```
+<!-- /PM7-KC-REFERENCE:origin-resolution -->
+
+Existing shared interaction handlers → trigger preview, pinning and close behaviour. These are exact integration lines within `enhanceListItem`, not a new component:
+
+<!-- PM7-KC-REFERENCE:interaction -->
+```tsx
+  const openTransiently = () => {
+    closeAllExcept(root, detail);
+    setDisclosureOpen(li, detail, trigger, true);
+  };
+
+  trigger.addEventListener("pointerenter", (e) => {
+    if ((e as PointerEvent).pointerType === "touch") return;
+    openTransiently();
+  });
+
+  li.addEventListener("pointerleave", (e) => {
+    if ((e as PointerEvent).pointerType === "touch") return;
+    if (li.dataset.brsDietaryLeverPinned === "true" || li.contains(document.activeElement)) return;
+    setDisclosureOpen(li, detail, trigger, false);
+  });
+
+  let suppressFocusPreview = false;
+  const dismissOriginPreview = () => {
+    if (li.dataset.brsDietaryLeverPinned !== "true") setDisclosureOpen(li, detail, trigger, false);
+  };
+  originLink?.addEventListener("pointerenter", dismissOriginPreview);
+  originLink?.addEventListener("focus", dismissOriginPreview);
+  li.addEventListener("focusin", (e) => {
+    if (!suppressFocusPreview && (e.target === trigger || detail.contains(e.target as Node))) openTransiently();
+  });
+
+  li.addEventListener("focusout", (e) => {
+    if (li.dataset.brsDietaryLeverPinned === "true") return;
+    const next = e.relatedTarget as Node | null;
+    if (!next || !li.contains(next)) setDisclosureOpen(li, detail, trigger, false);
+  });
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const wasPinned = li.dataset.brsDietaryLeverPinned === "true";
+    if (wasPinned) {
+      setDisclosureOpen(li, detail, trigger, false);
+      return;
+    }
+    closeAllExcept(root, detail);
+    li.dataset.brsDietaryLeverPinned = "true";
+    setDisclosureOpen(li, detail, trigger, true);
+    detail.tabIndex = -1;
+    detail.focus();
+  });
+
+  li.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      e.stopPropagation();
+      setDisclosureOpen(li, detail, trigger, false);
+      suppressFocusPreview = true;
+      trigger.focus();
+      suppressFocusPreview = false;
+    }
+  });
+}
+```
+<!-- /PM7-KC-REFERENCE:interaction -->
+
+Expected closed result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
+
+Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability/governance/PM3 reference suites. The documented example must execute actual shared projection and rendering code with canonical dependencies, including interaction events and unresolved-parent suppression. Browser-check focus/activation/Escape, origin navigation, ordering and link targets; report actual results and deployment gaps separately from these completion instructions.
+
 
 ## 8. PM Evidence workflow
 

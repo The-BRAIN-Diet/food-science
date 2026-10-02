@@ -416,7 +416,14 @@ the **2B — Dietary Input Traceability & Visibility Contract**
 | Limitation` record. Do not author an independent Markdown list
 that carries scientific relationship data separately from the atoms.
 
-`dietary_lever_presentations` controls placement only. It does not own Input Type,
+`dietary_lever_presentations` controls placement, labels, a faithful short
+`reader_description` and canonical Finding navigation (`description_finding_id`).
+Follow the working PM3 example embedded in the Stage 2B contract: description
+inside the opened dropdown, five atoms, then the research link. Presentation
+metadata uses concise, faithful plain language without adding scientific claims.
+A concise Biological role may also serve as the reader description; artificial
+variation is not required.
+It does not own Input Type,
 Biological Role, Evidence Source, Direct/Derived classification, Derived Target or
 Limitation. The PM reader must project those values from
 `dietary_input_traceability` + `dietary_lever_atoms`.
@@ -478,9 +485,12 @@ applicability**: same threshold whether the PM governs the constraint or is
 constrained by it; precursor delivery plus substrate necessity does not
 automatically establish membership.
 
-`key_constraints` records which iKCs apply, or are proposed to apply. It does not
-inherit iKC constituents. Render the linked iKC title and a concise statement of
-why that iKC applies here. Do not copy KC-page constituent or food-source bullets.
+`key_constraints` records independently admitted iKCs only. Proposed, rejected
+and unresolved candidates remain audit-only. It does not inherit constituents.
+For individually authorised input relationships, render each input name as the
+disclosure trigger with a separate sibling KC origin link, using the canonical
+PM7 example below. Do not use the parent KC title as the input title or copy
+KC-page constituent or food-source bullets.
 Overlap with §3.1.1 inputs is not a rejection criterion. Direct/Derived metadata
 from a reused input atom must not appear in §3.1.3.
 
@@ -514,7 +524,7 @@ pm_kc_relationships:
         kc_change_control_flag_id: KC-CC-BRSX-FM1-PM1-01
 ```
 
-`key_constraints` is an index of applicable or proposed iKCs, not evidence and not
+`key_constraints` is an index of independently admitted iKCs, not evidence and not
 an inheritance switch. A PM constituent relationship always references the
 PM-owned `pm_atom_id`. If iKC membership is separately reviewed on the KC page,
 set `kc_membership_status: canonical-reviewed` and add the canonical `kc_atom_id`.
@@ -536,6 +546,223 @@ If PM review systematically conflicts with an iKC's claimed scope, record
 `kc_change_control_flags` (`ikc-scope-conflict` when that is the issue) and leave
 canonical iKC data unchanged. See `system/key-constraint-schema.md` and
 `system/mechanism-change-control-queue.md`.
+
+<!-- PM7-KC-CANONICAL-EXAMPLE:begin -->
+### Admitted PM-owned KC input disclosure — PM7 integration reference
+
+Use the existing shared renderer. Public §3.1.3 titles are the individually authorised **input names**, not the parent KC name. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
+
+**Admission:** Stage 2B independently evidence-reviews each proposed PM→KC/iKC/input relationship and records evidence, limitations, rationale and disposition. Publish only supported or conditionally admitted relationships. Rejected and unresolved candidates remain audit-only, with exact remaining gaps and follow-up. KC membership or a provenance tag alone does not authorise an input; missing records do not justify exclusion. Preserve canonical KC/iKC/constituent identifiers when applicable; do not invent iKC identifiers or label every nutrient an iKC. PM7 KC1 remains conditionally established; KC2 remains unresolved and is not a public requirement or admitted mapping. Folate/betaine/choline provision does not settle KC2's methionine/cysteine capacity question.
+
+**Interaction:** hover or focus on the input previews its disclosure; click/tap pins the same disclosure; a second activation, Escape or the existing outside-click close interaction dismisses it. Enter/Space activate the native button. Tab reaches the separate origin link, which navigates without opening or pinning the disclosure. Hover/focus on the origin tag alone does not preview. Escape returns focus to the input without reopening it.
+
+**Opened order:** reader description → exactly five atoms (Input → Input type → Biological role → Evidence source → Limitation) → Supporting mechanism research. Conditional animal contexts, enrichment-versus-flux limits and provision-versus-enhancement boundaries remain inside the disclosure. The research link is navigation, not a sixth atom.
+
+Canonical PM source: `docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx`. Canonical origin destination: https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool. PM7-F5 resolves to “Donor insufficiency can constrain hepatic methylation” at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f5; choline uses PM7-F7 at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f7. Resolve titles/anchors from the canonical Finding, not an invented target. Evidence source links remain Author et al. (year) [n], with numbering resolved from the target PM bibliography. Do not copy PM3/KC bibliographies or renumber live pages for this example.
+
+**Integration excerpts using the existing shared renderer; not standalone replacement components.** Stored Markdown → three compact trigger rows inside the existing §3.1.3 panel. The renderer supplies origin tags from reviewed relationship metadata; Markdown is not three manually linked input titles.
+
+<!-- PM7-KC-REFERENCE:markdown -->
+```mdx
+- Folate
+- Betaine
+- Choline
+```
+<!-- /PM7-KC-REFERENCE:markdown -->
+
+Stored PM-owned records → constituent five fields, description and research target. The representative folate atom below is exact; betaine DIT-6 and choline DIT-3, all Findings, bibliography and the established KC1 adjudication are loaded from canonical PM7 dependencies. `kc_atom_id` records reviewed membership separately from `pm_atom_id`; no atom fields are inherited from the KC page. The relationship's `origin_label`/`kc_href` provide provenance only. Other existing parent relationship evidence fields are retained in canonical source, not copied into this instruction.
+
+<!-- PM7-KC-REFERENCE:records -->
+```yaml
+dietary_input_traceability:
+  - atom_id: PM7-DIT-5
+    input: Folate
+    input_type: precursor
+    biological_role: Folate availability contributes to the methyl-donor supply used by hepatic PEMT; folate restriction with choline maintained reduced hepatic methyl-derived PC enrichment in female mice.
+    evidence_source:
+      finding_ids:
+        - PM7-F5
+      citation_keys:
+        - chew_folate_choline_2011
+    evidence_limitation: The response was conditional on sex and experimental context. Methyl-derived PC enrichment is not absolute PEMT flux; extra folate above adequacy is not established to enhance formation or cognition.
+pm_kc_relationships:
+  - relationship_id: BRS2-FM3-PM7-KCR-1
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    kc_href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
+    origin_label: "KC1: Methyl Donor Pool"
+    constituent_relationships:
+      - relationship_id: BRS2-FM3-PM7-KCI-1
+        pm_atom_id: PM7-DIT-5
+        kc_atom_id: BRS2-KC1-KIT-1
+        kc_membership_status: canonical-reviewed
+        label: Folate
+        reader_description: Folate availability supports methyl-group provision for PEMT-dependent formation.
+        description_finding_id: PM7-F5
+      - relationship_id: BRS2-FM3-PM7-KCI-2
+        pm_atom_id: PM7-DIT-6
+        kc_atom_id: BRS2-KC1-KIT-3
+        kc_membership_status: canonical-reviewed
+        label: Betaine
+        reader_description: Betaine can support PEMT-dependent formation when methylation is impaired in the studied ethanol model.
+        description_finding_id: PM7-F5
+      - relationship_id: BRS2-FM3-PM7-KCI-3
+        pm_atom_id: PM7-DIT-3
+        kc_atom_id: BRS2-KC1-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Choline
+        reader_description: Choline can supply methyl groups used in PEMT-dependent formation.
+        description_finding_id: PM7-F7
+```
+<!-- /PM7-KC-REFERENCE:records -->
+
+Stored constituent edges → disclosure map in `src/lib/dietaryLeverDisclosure.ts` (mirrored in `scripts/lib/dietary-lever-disclosure.mjs`). This runs inside the existing map builder after `assessments` has been loaded from PM adjudications. Its established-parent check prevents an unresolved KC from projecting constituents; independently vetted edges provide the PM-specific input evidence. `originTag` is presentation metadata, not an applicability decision.
+
+<!-- PM7-KC-REFERENCE:projection -->
+```tsx
+  const pmTraceById = new Map(
+    traceRows.filter((row) => row.atom_id).map((row) => [String(row.atom_id), row]),
+  );
+  const pmKcRelationships = (frontMatter.pm_kc_relationships || []) as Array<{
+    origin_label?: string;
+    kc_href?: string;
+    constituent_relationships?: Array<{
+      pm_atom_id?: string;
+      label?: string;
+      reader_description?: string;
+      description_finding_id?: string;
+    }>;
+  }>;
+  for (const relationship of pmKcRelationships) {
+    if (assessments.length && !assessments.some((assessment) =>
+      assessment.disposition === "established" && assessment.kc_id === (relationship as PmKcDisclosureRow).kc_id &&
+      (assessment.ikc_id || assessment.kc_id) === ((relationship as PmKcDisclosureRow).ikc_id || (relationship as PmKcDisclosureRow).kc_id),
+    )) continue;
+    for (const constituent of relationship.constituent_relationships || []) {
+      const base = pmTraceById.get(String(constituent.pm_atom_id || ""));
+      if (!base?.input) continue;
+      const label = String(constituent.label || base.input);
+      map.set(dietaryLeverBulletKey(label, "", "3.1.3"), {
+        title: String(base.input),
+        inputType: formatInputTypeLabel(String(base.input_type || "")),
+        biologicalRole: String(base.biological_role || ""),
+        evidenceLimitation: String(base.evidence_limitation || "").trim(),
+        evidenceReferences: evidenceSourceReferences(
+          references,
+          base.evidence_source?.citation_keys || [],
+        ),
+        compactQualifier: "",
+        presentationSection: "3.1.3",
+        readerDescription: String(constituent.reader_description || ""),
+        supportingFinding: supportingFindingLink(frontMatter, constituent.description_finding_id),
+        originTag: relationship.origin_label && relationship.kc_href
+          ? { text: relationship.origin_label, href: relationship.kc_href }
+          : undefined,
+      });
+    }
+  }
+```
+<!-- /PM7-KC-REFERENCE:projection -->
+
+Displayed origin tag → sibling link inside existing `enhanceListItem`; the input remains the existing named trigger button. Only this origin wiring is added; the existing five-field renderer is reused:
+
+<!-- PM7-KC-REFERENCE:origin-link -->
+```tsx
+  const originLink = disclosure.originTag ? document.createElement("a") : null;
+  if (originLink) {
+    originLink.href = disclosure.originTag!.href;
+    originLink.textContent = disclosure.originTag!.text;
+    originLink.className = "brs-dietary-lever-origin-link";
+    originLink.addEventListener("click", (event) => event.stopPropagation());
+  }
+```
+<!-- /PM7-KC-REFERENCE:origin-link -->
+
+After `li.append(trigger)` append the separate origin tag:
+
+<!-- PM7-KC-REFERENCE:origin-append -->
+```tsx
+  if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
+```
+<!-- /PM7-KC-REFERENCE:origin-append -->
+
+The existing canonical URL loop additionally resolves the origin destination:
+
+<!-- PM7-KC-REFERENCE:origin-resolution -->
+```tsx
+      if (disclosure.originTag) {
+        disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
+      }
+```
+<!-- /PM7-KC-REFERENCE:origin-resolution -->
+
+Existing shared interaction handlers → trigger preview, pinning and close behaviour. These are exact integration lines within `enhanceListItem`, not a new component:
+
+<!-- PM7-KC-REFERENCE:interaction -->
+```tsx
+  const openTransiently = () => {
+    closeAllExcept(root, detail);
+    setDisclosureOpen(li, detail, trigger, true);
+  };
+
+  trigger.addEventListener("pointerenter", (e) => {
+    if ((e as PointerEvent).pointerType === "touch") return;
+    openTransiently();
+  });
+
+  li.addEventListener("pointerleave", (e) => {
+    if ((e as PointerEvent).pointerType === "touch") return;
+    if (li.dataset.brsDietaryLeverPinned === "true" || li.contains(document.activeElement)) return;
+    setDisclosureOpen(li, detail, trigger, false);
+  });
+
+  let suppressFocusPreview = false;
+  const dismissOriginPreview = () => {
+    if (li.dataset.brsDietaryLeverPinned !== "true") setDisclosureOpen(li, detail, trigger, false);
+  };
+  originLink?.addEventListener("pointerenter", dismissOriginPreview);
+  originLink?.addEventListener("focus", dismissOriginPreview);
+  li.addEventListener("focusin", (e) => {
+    if (!suppressFocusPreview && (e.target === trigger || detail.contains(e.target as Node))) openTransiently();
+  });
+
+  li.addEventListener("focusout", (e) => {
+    if (li.dataset.brsDietaryLeverPinned === "true") return;
+    const next = e.relatedTarget as Node | null;
+    if (!next || !li.contains(next)) setDisclosureOpen(li, detail, trigger, false);
+  });
+
+  trigger.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const wasPinned = li.dataset.brsDietaryLeverPinned === "true";
+    if (wasPinned) {
+      setDisclosureOpen(li, detail, trigger, false);
+      return;
+    }
+    closeAllExcept(root, detail);
+    li.dataset.brsDietaryLeverPinned = "true";
+    setDisclosureOpen(li, detail, trigger, true);
+    detail.tabIndex = -1;
+    detail.focus();
+  });
+
+  li.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      e.stopPropagation();
+      setDisclosureOpen(li, detail, trigger, false);
+      suppressFocusPreview = true;
+      trigger.focus();
+      suppressFocusPreview = false;
+    }
+  });
+}
+```
+<!-- /PM7-KC-REFERENCE:interaction -->
+
+Expected closed result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
+
+Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability/governance/PM3 reference suites. The documented example must execute actual shared projection and rendering code with canonical dependencies, including interaction events and unresolved-parent suppression. Browser-check focus/activation/Escape, origin navigation, ordering and link targets; report actual results and deployment gaps separately from these completion instructions.
+<!-- PM7-KC-CANONICAL-EXAMPLE:end -->
 
 ##### Diet → biology hierarchy
 

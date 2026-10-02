@@ -2,7 +2,8 @@
  * Client mirror of scripts/lib/dietary-lever-disclosure.mjs
  *
  * Disclosures attach only to admitted Dietary Requirement / SOP / lifestyle
- * atoms. Public §3.1 / §4.1 copy is the current scientific state; rejected
+ * atoms and explicitly presented PM-owned KC relationships.
+ * Unresolved assessments never become established mappings; rejected
  * candidates and Stage 2B history are not rendered here.
  */
 
@@ -31,6 +32,8 @@ export type SupportingFindingLink = {
 
 export type DietaryLeverDisclosure = {
   title: string;
+  titleHref?: string;
+  originTag?: { text: string; href: string };
   inputType: string;
   biologicalRole: string;
   evidenceLimitation: string;
@@ -299,16 +302,55 @@ export function buildDietaryLeverDisclosureMap(
     }
   }
 
+  type PmKcDisclosureRow = {
+    kc_id?: string; ikc_id?: string; disposition?: string;
+    input?: string; input_type?: string; pm_biological_role?: string;
+    evidence_source?: { citation_keys?: string[] };
+    evidence_limitation?: string; presentation_label?: string;
+    presentation_section?: string; applicability_label?: string; kc_href?: string;
+    reader_description?: string; description_finding_id?: string;
+  };
+  const assessments = (frontMatter.kc_applicability_adjudications || []) as PmKcDisclosureRow[];
+  const relationshipRows = (frontMatter.pm_kc_relationships || []) as PmKcDisclosureRow[];
+  const establishedRows = relationshipRows.filter((row) => assessments.some((assessment) =>
+    assessment.disposition === "established" && assessment.kc_id === row.kc_id &&
+    (assessment.ikc_id || assessment.kc_id) === (row.ikc_id || row.kc_id),
+  ));
+  for (const row of establishedRows) {
+    if (!row.presentation_label || !row.input || !row.input_type || !row.pm_biological_role) continue;
+    const section = "3.1.3";
+    map.set(dietaryLeverBulletKey(row.presentation_label, "", section), {
+      title: row.input,
+      inputType: formatInputTypeLabel(row.input_type),
+      biologicalRole: row.pm_biological_role,
+      evidenceLimitation: String(row.evidence_limitation || ""),
+      evidenceReferences: evidenceSourceReferences(references, row.evidence_source?.citation_keys || []),
+      compactQualifier: row.applicability_label || "Established applicability",
+      presentationSection: section,
+      readerDescription: String(row.reader_description || ""),
+      supportingFinding: supportingFindingLink(frontMatter, row.description_finding_id),
+      titleHref: row.kc_href,
+    });
+  }
+
   const pmTraceById = new Map(
     traceRows.filter((row) => row.atom_id).map((row) => [String(row.atom_id), row]),
   );
   const pmKcRelationships = (frontMatter.pm_kc_relationships || []) as Array<{
+    origin_label?: string;
+    kc_href?: string;
     constituent_relationships?: Array<{
       pm_atom_id?: string;
       label?: string;
+      reader_description?: string;
+      description_finding_id?: string;
     }>;
   }>;
   for (const relationship of pmKcRelationships) {
+    if (assessments.length && !assessments.some((assessment) =>
+      assessment.disposition === "established" && assessment.kc_id === (relationship as PmKcDisclosureRow).kc_id &&
+      (assessment.ikc_id || assessment.kc_id) === ((relationship as PmKcDisclosureRow).ikc_id || (relationship as PmKcDisclosureRow).kc_id),
+    )) continue;
     for (const constituent of relationship.constituent_relationships || []) {
       const base = pmTraceById.get(String(constituent.pm_atom_id || ""));
       if (!base?.input) continue;
@@ -324,6 +366,11 @@ export function buildDietaryLeverDisclosureMap(
         ),
         compactQualifier: "",
         presentationSection: "3.1.3",
+        readerDescription: String(constituent.reader_description || ""),
+        supportingFinding: supportingFindingLink(frontMatter, constituent.description_finding_id),
+        originTag: relationship.origin_label && relationship.kc_href
+          ? { text: relationship.origin_label, href: relationship.kc_href }
+          : undefined,
       });
     }
   }

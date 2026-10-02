@@ -504,3 +504,8 @@ mineral cofactors and mechanism stages are excluded by the KC schema. Keep
 them as PM Dietary Requirements or later-stage deferred items. See
 `system/brs1-fm1-pm3-pm5-type-d-kc-reassessment.md`.
 
+
+
+## PM7 focused reassessment — 2026-10-01
+
+Review records: FW037, FW038, FW039, FW040; phenome follow-up FW041. Mission and architecture contracts unchanged. KC1 conditional admission and KC2 unresolved are reconciled with FM3. Choline and PC roles use methyl-donor provision; Kennedy support is not PEMT requirement evidence. Source facts and access limits live in PM7-F5/F6/F7. KC1, dietary provision and PM/FM reconciliation were verified with scoped validators and local rendered inspection; FW037/FW039/FW040 are applied. FW038 remains accepted/deferred for KC2. No PM3 or KC-definition edit is authorised by this correction.
