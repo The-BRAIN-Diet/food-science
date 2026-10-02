@@ -780,11 +780,9 @@ Biological Role / biochemical requirement
 Primary Mechanism
 ```
 
-Example: protein-containing foods → dietary protein/amino-acid provision
-(`Derived`, `Input Type = Substrate Provision`) → methionine (`Direct`,
-`Input Type = Substrate`) → MAT substrate requirement → SAMe synthesis capacity.
-Not every PM must contain every level. Food composition and Food → Substance mapping
-remain owned by the Food architecture.
+Example: when protein-containing foods merely supply cysteine for glutathione synthesis, assess cysteine as the biological input; do not create an extra “Dietary protein → Cysteine” requirement. Food-source delivery remains in the food ontology. The same applies to methionine delivery for MAT. The illustrative hierarchy does not require a delivery level to become a PM requirement.
+
+Before dietary candidate adjudication, apply **Input-specificity adjudication** in `system/dietary-input-traceability-contract.md`. Every candidate report must identify the biological input/pool, distinguish its label from delivery, assess evidence-supported specificity, and record retained/narrowed/consolidated/moved/rejected/unresolved with evidence and rationale. Retained broad inputs require mechanism-specific justification. Preserve defined indispensable-amino-acid coverage and independently evidenced protein-level interventions; do not infer constituent effects from mixtures/patterns or auto-replace generic words. Reuse report fields; preserve evidence, upstream dependencies and decision history. These are reporting/governance requirements, not additional public atoms or a retrospective page migration.
 
 The five-atom evidence structure remains `Input | Input Type | Biological Role |
 Evidence Source | Limitation`. Direct/Derived classification does not

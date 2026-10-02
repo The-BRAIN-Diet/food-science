@@ -31,6 +31,32 @@ internal maintenance phrasing such as “on this page”, “owned by”, “ass
 Do not meet the audience by deleting substantive science or replacing it
 with generic statements.
 
+### Input-specificity adjudication — before dietary candidate adjudication
+
+**Name the specific evidence-supported biological input or defined resource pool required by the PM. Do not use a broad delivery category where the actual biological requirement can be identified.** Apply this before classifying each dietary candidate as Direct/Derived, biochemical inventory or shared constraint. This is a specificity decision, not evidence that a relationship is admitted or that increasing intake helps.
+
+**Worked example — “Dietary protein → cysteine”.** If protein is proposed merely because it supplies cysteine for glutathione synthesis, assess **cysteine** as the biological input at the evidence-supported relationship and claim level. Do not admit an additional “Dietary protein → Cysteine” requirement solely to represent food delivery. Food → Substance composition, quantified food-source links and rankings belong to the food ontology. Evidence of food content or delivery does not establish a PM requirement, responsiveness or benefit from extra intake. Narrow only if the evidence supports cysteine's stated PM relationship; otherwise retain the tested exposure in its appropriate intervention category or record the precise unresolved gap.
+
+**Choose the level from the biology and evidence:**
+
+| Candidate context | Appropriate target / decision boundary |
+|---|---|
+| Identified substance requirement | Name the specific evidence-supported substance, not its food/macronutrient supplier. |
+| Indispensable-amino-acid coverage | Name the defined indispensable-amino-acid pool or coverage requirement and its boundaries; “dietary protein” alone is insufficient. |
+| Genuine protein-level process/intervention | Precisely defined protein quantity or quality may be retained when supported for the PM-specific process, for example an assessed muscle-protein outcome. Do not narrow it without constituent-specific evidence. |
+| Food, mixture or dietary-pattern study without constituent isolation | Preserve the tested exposure and studied context in its appropriate intervention category. Do not invent a substance-specific effect or force an intervention into a biological-requirement slot. |
+| Delivery-only supplier of an already identified input | Do not admit it as another biological requirement; consolidate duplicate delivery relationships while retaining evidence, upstream dependencies and decision history. |
+
+**Mandatory candidate reporting:** reuse the existing Stage 2B candidate, evidence, rationale and disposition report/Review & Corrections entries. For **every** dietary candidate, answer explicitly (in prose or a report table):
+
+1. What biological input or resource pool does this PM require (or, for an intervention exposure, what PM biology was actually tested)?
+2. Does the proposed label identify that requirement/exposure, or merely a delivery category?
+3. Does the evidence support the proposed level of specificity? Identify the supporting Finding/study and the measured versus inferred links, context and limitations; if insufficient, name the exact gap.
+
+Record the **specificity disposition** in the existing disposition/rationale entry: **retained, narrowed, consolidated, moved, rejected or unresolved**. This does not replace the separate scientific admission/applicability or Direct/Derived decision. Record original candidate label, resulting target and destination when changed; link supporting evidence and preserve prior identifiers/decisions and independently supported upstream edges. Consolidation must explain the duplicate relationship and retained record; moving must identify the appropriate destination without automatically admitting it there. Rejection needs an evidence-based rationale; unresolved needs the missing evidence and follow-up. Narrowing must not add a claim absent from the evidence. No additional canonical PM fields or sixth disclosure atom are required.
+
+**Completion gate:** generic labels such as “dietary protein”, “amino-acid provision” or broad macronutrient/food categories require explicit adjudication. Review all candidates, not only exact keyword matches. A retained broad target needs a mechanism-specific justification for why that level is biologically/evidentially appropriate. A delivery-only category cannot be admitted as an additional requirement merely because it supplies an identified substance. Do not auto-delete, rename, merge, migrate or change classification by matching words. The report is incomplete until every candidate has the three answers, evidence/rationale and a specificity disposition; an unresolved outcome may remain only with its exact gap and follow-up, not as a substitute for review. Record consolidation history and verify that no duplicate delivery-only requirement was newly admitted. Structural atom validation alone does not satisfy this scientific/reporting gate.
+
 ### Foundational dietary coverage and targeted retrieval (Stage 2B)
 
 **Review existing evidence first does not mean stop with existing evidence.**
@@ -607,9 +633,7 @@ optionally `derived_target_atom_id`. This is relationship metadata, not a sixth
 reader-facing scientific atom.
 
 Evidence Source must support the **stated Biological Role at the level claimed**.
-Methionine → MAT substrate evidence does not by itself establish dietary protein →
-methionine provision. Food composition evidence does not by itself establish PM
-modulation.
+Methionine → MAT substrate evidence supports assessing methionine at that biological level; it does not justify an additional dietary-protein requirement solely for delivery. A separately tested protein-level intervention needs its own PM-specific evidence and specificity decision. Food composition evidence does not by itself establish PM modulation.
 
 Keep separate:
 
@@ -718,9 +742,6 @@ Rendered collapsed entry: Methionine — Direct · Substrate
 
 Source Markdown bullet: Tyrosine
 Rendered collapsed entry: Tyrosine — Direct · Substrate · [Supply: PM1]
-
-Source Markdown bullet: Dietary protein
-Rendered collapsed entry: Dietary protein — Derived · Substrate Provision → Methionine
 ```
 
 **Renderer-matched bullets must contain the plain presentation label only.**
@@ -1302,7 +1323,7 @@ Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability
 When adjudication establishes or materially changes a nutritionally relevant biological
 requirement:
 
-1. **Identify** the dietary input.
+1. **Apply the input-specificity adjudication/reporting gate above**, then identify the evidence-supported dietary input or defined pool; do not admit a delivery-only duplicate.
 2. **Identify** its input type.
 3. **State** its biological role in this PM/context.
 4. **Preserve** the evidence source.
@@ -1418,7 +1439,7 @@ entries must use this atomic projection; do not retain an unlinked parallel list
 | Input type | Use for |
 |------------|---------|
 | `substrate` | Direct metabolic substrate (e.g. glutamate, methionine) |
-| `substrate provision` | Dietary input that provides a direct substrate after digestion, absorption or conversion |
+| `substrate provision` | A specifically identified, independently supported input providing a direct substrate after digestion, absorption or conversion; not a generic food/macronutrient supplier included solely for delivery |
 | `nutrient/substance` | Named nutrient or biochemical (e.g. vitamin B6, iron) |
 | `cofactor` | Enzymatic cofactor requirement in this PM context |
 | `catalytic ion` | Active-site metal or other catalytic ion required for catalysis, when the evidence is more specific than a general cofactor |
@@ -1465,9 +1486,11 @@ Primary Mechanism
 Not every PM must contain every level. Food → Substance composition remains owned
 by the Food architecture. This hierarchy is illustrative, not a rule that every
 food-facing input is Derived; classification still depends on the demonstrated
-relationship.
+relationship. Delivery is not itself an additional requirement: bypass delivery-only levels when the identified substance or defined pool is the biological target. Apply the input-specificity gate before using this hierarchy.
 
 #### Relationship-first workflow
+
+Before step 1, complete the input-specificity adjudication and record its three answers and disposition for every candidate.
 
 1. Name the biological objective/state governed by the PM.
 2. Identify the claimed dietary relationship and its **type** (capacity,
@@ -1620,12 +1643,9 @@ These define atom shape. They are not a PM3 or PM9 recomputation.
 synthesis · Limitation = biochemical requirement does not establish a
 proportional dietary intake → SAMe synthesis response.
 
-**Derived — dietary protein**
+**Delivery-only protein — not an additional requirement**
 
-`Input = Dietary protein / amino-acid provision` ·
-`requirement_classification = derived` · `Input Type = substrate provision` ·
-`derived_target = Methionine` · Biological Role = provides dietary methionine
-required as substrate for MAT-dependent SAMe synthesis.
+Where protein only supplies an identified substrate (for example cysteine for glutathione synthesis or methionine for MAT), assess the specific substrate's relationship using its own evidence. Record the broad delivery candidate as narrowed or consolidated as justified; leave food-source delivery to the ontology. Do not create a Derived protein atom solely for that chain. Retain a precisely defined protein-level input only following the mechanism-specific assessment above. This illustrates governance, not a new scientific admission.
 
 **Direct — PLP**
 
