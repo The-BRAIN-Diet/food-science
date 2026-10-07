@@ -1,24 +1,46 @@
 ---
 title: Phosphatidylcholine Formation
 pm_id: BRS2-FM3-PM7
-mission: Maintain hepatic methylation that converts phosphatidylethanolamine into phosphatidylcholine.
+mission: >-
+  Maintain hepatic methylation that converts phosphatidylethanolamine into
+  phosphatidylcholine.
 parent_fm: BRS2(FM3)
 parent_brs: BRS2
 evidence_status: stage-2b-dietary-addressability
 mechanistic_authoring_required: false
-summary: 'In the liver, phosphatidylethanolamine N-methyltransferase converts phosphatidylethanolamine into phosphatidylcholine by three methyl transfers from S-adenosylmethionine. S-adenosylhomocysteine, the product, can regulate that activity. SAMe and phosphatidylethanolamine are the substrates. The CDP-choline route uses choline and does not perform these methylations. The liver uses this reaction when the choline-based route is unavailable.'
+summary: >-
+  In the liver, phosphatidylethanolamine N-methyltransferase converts
+  phosphatidylethanolamine into phosphatidylcholine by three methyl transfers
+  from S-adenosylmethionine. S-adenosylhomocysteine, the product, can regulate
+  that activity. SAMe and phosphatidylethanolamine are the substrates. The
+  CDP-choline route uses choline and does not perform these methylations. The
+  liver uses this reaction when the choline-based route is unavailable.
 intervention_dominance: Diet-Supported
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Supported
-    rationale: The retained Diet-Supported qualification is supported by conditional PM-specific dietary influence; it does not establish comparative intervention dominance.
-    scope_note: 'Conditional animal evidence concerns folate restriction and methyl-derived PC enrichment; it does not establish absolute PEMT flux, benefit above adequacy or cognitive benefit.'
+    rationale: >-
+      The retained Diet-Supported qualification is supported by conditional
+      PM-specific dietary influence; it does not establish comparative
+      intervention dominance.
+    scope_note: >-
+      Conditional animal evidence concerns folate restriction and methyl-derived
+      PC enrichment; it does not establish absolute PEMT flux, benefit above
+      adequacy or cognitive benefit.
     routes:
       - group_id: '3.1'
         evidence_basis: intervention-effect
-        intervention_effect: Eight-week folate restriction with labelled choline maintained reduced hepatic d3-PC enrichment and the product/precursor enrichment ratio in female mice.
-        context: Female wild-type and Mthfr-heterozygous mice; the hepatic response was not demonstrated in males.
-        limitations: 'Enrichment is not absolute PEMT flux. The restriction experiment does not establish supplementation benefit above adequacy, a human intake target or cognitive benefit.'
+        intervention_effect: >-
+          Eight-week folate restriction with labelled choline maintained reduced
+          hepatic d3-PC enrichment and the product/precursor enrichment ratio in
+          female mice.
+        context: >-
+          Female wild-type and Mthfr-heterozygous mice; the hepatic response was
+          not demonstrated in males.
+        limitations: >-
+          Enrichment is not absolute PEMT flux. The restriction experiment does
+          not establish supplementation benefit above adequacy, a human intake
+          target or cognitive benefit.
         evidence_source:
           finding_ids:
             - PM7-F5
@@ -27,24 +49,42 @@ intervention_dominance_assessment:
   principal_route_selection:
     disposition: not-established
     selected_groups: []
-    rationale: 'F5 demonstrates conditional dietary responsiveness, but the current assessment does not establish the relevance, directness and extent needed to prioritise this route over the other intervention groups. Absence of admitted alternative entries is not evidence of dietary primacy.'
-    comparative_limitations: Comparative dominance is not established; no ranking or equal dominance is inferred.
+    rationale: >-
+      F5 demonstrates conditional dietary responsiveness, but the current
+      assessment does not establish the relevance, directness and extent needed
+      to prioritise this route over the other intervention groups. Absence of
+      admitted alternative entries is not evidence of dietary primacy.
+    comparative_limitations: >-
+      Comparative dominance is not established; no ranking or equal dominance is
+      inferred.
     assessments: []
 intervention_breakdown: Food-State Leaning
 timing_specific: 'No'
-dose_sensitivity: Dietary methyl-donor provision is supported; increasing intake is not established to increase absolute PEMT activity or improve cognition.
+dose_sensitivity: >-
+  Dietary methyl-donor provision is supported; increasing intake is not
+  established to increase absolute PEMT activity or improve cognition.
 kc_applicability_adjudications:
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: one-carbon-methyl-donor-pool
-    applicability_proposition: Inadequacy of the shared methyl-donor pool constrains hepatic PEMT-dependent phosphatidylcholine formation.
+    applicability_proposition: >-
+      Inadequacy of the shared methyl-donor pool constrains hepatic
+      PEMT-dependent phosphatidylcholine formation.
     disposition: established
     established_links:
-      - 'KC1 defines folate, choline and betaine as a coherent remethylation donor pool; B12 remains an excluded cofactor.'
-      - Folate restriction with choline maintained reduced hepatic methyl-derived PC enrichment in female mice (PM7-F5).
-      - Betaine restored reported PEMT-mediated production under ethanol-induced methylation imbalance (PM7-F5; abstract-level complementary evidence).
+      - >-
+        KC1 defines folate, choline and betaine as a coherent remethylation
+        donor pool; B12 remains an excluded cofactor.
+      - >-
+        Folate restriction with choline maintained reduced hepatic
+        methyl-derived PC enrichment in female mice (PM7-F5).
+      - >-
+        Betaine restored reported PEMT-mediated production under ethanol-induced
+        methylation imbalance (PM7-F5; abstract-level complementary evidence).
     inferred_links:
-      - 'Absolute formation rate, universal donor limitation and human or cognitive benefit are not established.'
+      - >-
+        Absolute formation rate, universal donor limitation and human or
+        cognitive benefit are not established.
     evidence_source: &ref_0
       finding_ids:
         - PM7-F1
@@ -52,18 +92,39 @@ kc_applicability_adjudications:
       citation_keys:
         - chew_folate_choline_2011
         - kharbanda_betaine_pemt_2007
-    rationale: 'Type D is met conditionally: named-donor restriction and complementary imbalance rescue connect this pool to pathway-specific formation. Enrichment is not absolute flux; a human or one end-to-end flux assay is not mandatory.'
-    applicability_mode: constrained-by
+    rationale: >-
+      Type D is met conditionally: named-donor restriction and complementary
+      imbalance rescue connect this pool to pathway-specific formation.
+      Enrichment is not absolute flux; a human or one end-to-end flux assay is
+      not mandatory.
+    applicability_mode: conditional-constraint
+    legacy_applicability_mode: constrained-by
   - kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
     arm_id: methionine-cysteine-sulfur-amino-acid-pool
-    applicability_proposition: Inadequacy of the shared methionine and cysteine pool constrains hepatic PEMT-dependent phosphatidylcholine formation.
+    applicability_proposition: >-
+      Inadequacy of the shared methionine and cysteine pool constrains hepatic
+      PEMT-dependent phosphatidylcholine formation.
     disposition: unresolved
     established_links:
-      - 'Dietary methionine changed hepatic SAM and PC:PE with choline maintained (PM7-F6).'
+      - >-
+        Dietary methionine changed hepatic SAM and PC:PE with choline maintained
+        (PM7-F6).
       - MAT1A deletion reduced measured PEMT activity in young mice (PM7-F6).
+      - >-
+        Sugiyama 1998 primary abstract: three methionine levels (2.5, 4.5, 7.5
+        g/kg), 14-day rat feeding, with/without eritadenine; hepatic SAM and
+        PC:PE changed. Lowest intake is not established as inadequate here.
+      - >-
+        Cano 2011 indexed primary abstract and prior canonical appraisal
+        supports lower PEMT synthesis in young MAT1A-knockout mice; genetic
+        SAM-synthesis impairment is not demonstrated inadequacy of the
+        methionine–cysteine pool.
     inferred_links:
-      - 'Whether dietary inadequacy or imbalance of the named sulfur-amino-acid pool constrains formation, rather than producing supplement-associated or other metabolic differences.'
+      - >-
+        Dietary-study methods establishing an inadequacy/imbalance context and a
+        distinct sulfur-pool limitation, with inhibitor specificity, cysteine
+        contribution and compensation assessed.
     evidence_source:
       finding_ids:
         - PM7-F1
@@ -72,23 +133,61 @@ kc_applicability_adjudications:
         - sugiyama_methionine_pe_1998
         - shimada_methionine_desaturase_2003
         - cano_mat1a_vldl_2011
-    rationale: 'Unresolved exposure-to-capacity inference, not an imposed human/absolute-flux gate. Full dietary-study methods are needed to assess intake adequacy, inhibitor specificity and competing effects; supported triangulation could resolve this. Cysteine need not act interchangeably with methionine.'
+    rationale: >-
+      Retain unresolved after triangulation. No human or absolute-flux gate: the
+      gap concerns the named dietary exposure and distinct limitation, not the
+      existence of SAM-dependent PEMT chemistry.
+    evidence_gap: >-
+      Dietary-study methods establishing an inadequacy/imbalance context and a
+      distinct sulfur-pool limitation, with inhibitor specificity, cysteine
+      contribution and compensation assessed.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 references:
-  - '[Vance (2014) — Physiological Roles of Phosphatidylethanolamine N-methyltransferase](/docs/papers/BRAIN-Diet-References#vance_phospholipid_2014)'
-  - '[Arellanes et al. (2020) — Brain Delivery of Supplemental DHA](/docs/papers/BRAIN-Diet-References#arellanes_brain_2020)'
-  - '[Liu et al. (2014) — Phospholipid versus Triglyceride DHA Accretion in Neonatal Piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014)'
-  - '[Oulhaj et al. (2016) — Omega-3 Status and B Vitamins in Mild Cognitive Impairment](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)'
-  - '[Millichap and Yee (2012) — Diet Factor in ADHD](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)'
-  - '[Derbyshire and Maes (2023) — Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
-  - '[Shields et al. (2003) — Membrane Topography of Human PEMT](/docs/papers/BRAIN-Diet-References#shields_pemt_topography_2003)'
-  - '[Shields et al. (2003) — SAMe-Binding Site of Human PEMT](/docs/papers/BRAIN-Diet-References#shields_pemt_adomet_2003)'
-  - '[Ridgway and Vance (1988) — Kinetic Mechanism of Hepatic PEMT](/docs/papers/BRAIN-Diet-References#ridgway_pemt_kinetics_1988)'
-  - '[Böckmann et al. (2023) — Human Tracing of Dietary Choline Forms](/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023)'
-  - '[Chew et al. (2011) — Folate Intake and Choline Metabolism](/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011)'
-  - '[Kharbanda et al. (2007) — Betaine and PEMT Production](/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007)'
-  - '[Sugiyama et al. (1998) — Dietary Methionine and PE Methylation](/docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998)'
-  - '[Shimada et al. (2003) — Methionine and Hepatic Phospholipids](/docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003)'
-  - '[Cano et al. (2011) — MAT1A Loss and PEMT Activity](/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011)'
+  - >-
+    [Vance (2014) — Physiological Roles of Phosphatidylethanolamine
+    N-methyltransferase](/docs/papers/BRAIN-Diet-References#vance_phospholipid_2014)
+  - >-
+    [Arellanes et al. (2020) — Brain Delivery of Supplemental
+    DHA](/docs/papers/BRAIN-Diet-References#arellanes_brain_2020)
+  - >-
+    [Liu et al. (2014) — Phospholipid versus Triglyceride DHA Accretion in
+    Neonatal Piglets](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
+  - >-
+    [Oulhaj et al. (2016) — Omega-3 Status and B Vitamins in Mild Cognitive
+    Impairment](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
+  - >-
+    [Millichap and Yee (2012) — Diet Factor in
+    ADHD](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
+  - >-
+    [Derbyshire and Maes (2023) — Choline in Neurodevelopmental
+    Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+  - >-
+    [Shields et al. (2003) — Membrane Topography of Human
+    PEMT](/docs/papers/BRAIN-Diet-References#shields_pemt_topography_2003)
+  - >-
+    [Shields et al. (2003) — SAMe-Binding Site of Human
+    PEMT](/docs/papers/BRAIN-Diet-References#shields_pemt_adomet_2003)
+  - >-
+    [Ridgway and Vance (1988) — Kinetic Mechanism of Hepatic
+    PEMT](/docs/papers/BRAIN-Diet-References#ridgway_pemt_kinetics_1988)
+  - >-
+    [Böckmann et al. (2023) — Human Tracing of Dietary Choline
+    Forms](/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023)
+  - >-
+    [Chew et al. (2011) — Folate Intake and Choline
+    Metabolism](/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011)
+  - >-
+    [Kharbanda et al. (2007) — Betaine and PEMT
+    Production](/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007)
+  - >-
+    [Sugiyama et al. (1998) — Dietary Methionine and PE
+    Methylation](/docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998)
+  - >-
+    [Shimada et al. (2003) — Methionine and Hepatic
+    Phospholipids](/docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003)
+  - >-
+    [Cano et al. (2011) — MAT1A Loss and PEMT
+    Activity](/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -96,7 +195,15 @@ phenome_relationships:
     confidence: medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: 'SAMe-dependent phosphatidylcholine formation couples one-carbon methylation to membrane phospholipid chemistry — the methylation-dependent bridge between B-vitamin status and omega-3-enriched PC delivery toward the brain. VITACOG reanalysis, PEMT pathway biology, and phospholipid-bound DHA accretion evidence support cognitive-clarity framework translation. The findings support an association with cognitive outcomes, while the proposed causal role of methylation–membrane coupling remains unproven. Applicability to ADHD has not yet been established.'
+    rationale: >-
+      SAMe-dependent phosphatidylcholine formation couples one-carbon
+      methylation to membrane phospholipid chemistry — the methylation-dependent
+      bridge between B-vitamin status and omega-3-enriched PC delivery toward
+      the brain. VITACOG reanalysis, PEMT pathway biology, and
+      phospholipid-bound DHA accretion evidence support cognitive-clarity
+      framework translation. The findings support an association with cognitive
+      outcomes, while the proposed causal role of methylation–membrane coupling
+      remains unproven. Applicability to ADHD has not yet been established.
     scientific_findings:
       - PM7-F1
       - PM7-IC1
@@ -122,7 +229,13 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: 'Diet and choline reviews discuss attention and neurodevelopment {{cite:millichap_diet_2012}} {{cite:derbyshire_role_2023}}. They do not measure PEMT activity. Piglet brain DHA accretion and human cerebrospinal-fluid DHA likewise do not record this methylation {{cite:liu_higher_2014}} {{cite:arellanes_brain_2020}}. Any attention relationship is a downstream inference.'
+    rationale: >-
+      Diet and choline reviews discuss attention and neurodevelopment
+      {{cite:millichap_diet_2012}} {{cite:derbyshire_role_2023}}. They do not
+      measure PEMT activity. Piglet brain DHA accretion and human
+      cerebrospinal-fluid DHA likewise do not record this methylation
+      {{cite:liu_higher_2014}} {{cite:arellanes_brain_2020}}. Any attention
+      relationship is a downstream inference.
     scientific_findings:
       - PM7-F1
       - PM7-IC1
@@ -152,7 +265,9 @@ dietary_input_traceability:
   - atom_id: PM7-DIT-1
     input: Phosphatidylethanolamine
     input_type: substrate
-    biological_role: Phospholipid substrate that receives three methyl groups during conversion to phosphatidylcholine
+    biological_role: >-
+      Phospholipid substrate that receives three methyl groups during conversion
+      to phosphatidylcholine
     evidence_source:
       finding_ids:
         - PM7-F1
@@ -161,11 +276,16 @@ dietary_input_traceability:
         - shields_pemt_topography_2003
         - vance_phospholipid_2014
         - ridgway_pemt_kinetics_1988
-    evidence_limitation: This identifies the phospholipid substrate of the reaction. It does not show that eating phosphatidylethanolamine or ethanolamine increases hepatic PEMT activity in humans.
+    evidence_limitation: >-
+      This identifies the phospholipid substrate of the reaction. It does not
+      show that eating phosphatidylethanolamine or ethanolamine increases
+      hepatic PEMT activity in humans.
   - atom_id: PM7-DIT-2
     input: S-adenosylmethionine (SAMe)
     input_type: substrate
-    biological_role: Methyl-group donor consumed in each of the three transfers that convert phosphatidylethanolamine to phosphatidylcholine
+    biological_role: >-
+      Methyl-group donor consumed in each of the three transfers that convert
+      phosphatidylethanolamine to phosphatidylcholine
     upstream_pm_relationships:
       - relationship_label: Supply
         pm_short_id: PM3
@@ -180,47 +300,93 @@ dietary_input_traceability:
         - shields_pemt_topography_2003
         - vance_phospholipid_2014
         - ridgway_pemt_kinetics_1988
-    evidence_limitation: 'SAMe is made for this reaction by methionine adenosyltransferase. Needing SAMe as a substrate does not make SAMe supplements a requirement of the methylation, and it does not show that raising SAMe intake increases PEMT activity in humans.'
+    evidence_limitation: >-
+      SAMe is made for this reaction by methionine adenosyltransferase. Needing
+      SAMe as a substrate does not make SAMe supplements a requirement of the
+      methylation, and it does not show that raising SAMe intake increases PEMT
+      activity in humans.
   - atom_id: PM7-DIT-3
     input: Choline
     input_type: precursor
-    biological_role: Dietary choline can provide methyl groups through betaine remethylation and methionine/SAM synthesis for PEMT-dependent formation.
+    biological_role: >-
+      Dietary choline can provide methyl groups through betaine remethylation
+      and methionine/SAM synthesis for PEMT-dependent formation.
     evidence_source:
       finding_ids:
         - PM7-F7
       citation_keys:
         - bockmann_choline_supplements_2023
-    evidence_limitation: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
+    evidence_limitation: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
   - atom_id: PM7-DIT-4
     input: Phosphatidylcholine
     input_type: substrate provision
-    biological_role: Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.
+    biological_role: >-
+      Dietary phosphatidylcholine can provide choline for its methyl-donor
+      provision relationship to PEMT-dependent formation.
     evidence_source:
       finding_ids:
         - PM7-F7
       citation_keys:
         - bockmann_choline_supplements_2023
-    evidence_limitation: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
+    evidence_limitation: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
   - atom_id: PM7-DIT-5
     input: Vitamin B9 (folate)
     input_type: precursor
-    biological_role: Folate availability contributes to the methyl-donor supply used by hepatic PEMT; folate restriction with choline maintained reduced hepatic methyl-derived PC enrichment in female mice.
+    biological_role: >-
+      Folate availability contributes to the methyl-donor supply used by hepatic
+      PEMT; folate restriction with choline maintained reduced hepatic
+      methyl-derived PC enrichment in female mice.
     evidence_source:
       finding_ids:
         - PM7-F5
       citation_keys:
         - chew_folate_choline_2011
-    evidence_limitation: The response was conditional on sex and experimental context. Methyl-derived PC enrichment is not absolute PEMT flux; extra folate above adequacy is not established to enhance formation or cognition.
+    evidence_limitation: >-
+      The response was conditional on sex and experimental context.
+      Methyl-derived PC enrichment is not absolute PEMT flux; extra folate above
+      adequacy is not established to enhance formation or cognition.
+    substance_id: vitamin-b9
+    canonical_identity:
+      status: resolved
+      substance_id: vitamin-b9
+      substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-1
+    relationship_type: conditional-constraint
   - atom_id: PM7-DIT-6
     input: Betaine
     input_type: substrate provision
-    biological_role: 'Betaine can support the methyl-donor supply used by hepatic PEMT; supplementation restored SAM:SAH balance and reported PEMT-mediated PC production in ethanol-fed rats.'
+    biological_role: >-
+      Betaine can support the methyl-donor supply used by hepatic PEMT;
+      supplementation restored SAM:SAH balance and reported PEMT-mediated PC
+      production in ethanol-fed rats.
     evidence_source:
       finding_ids:
         - PM7-F5
       citation_keys:
         - kharbanda_betaine_pemt_2007
-    evidence_limitation: 'Abstract-level rescue evidence under ethanol-induced imbalance does not establish ordinary betaine deficiency, universal intake responsiveness or cognitive benefit; full assay methods remain unavailable.'
+    evidence_limitation: >-
+      Abstract-level rescue evidence under ethanol-induced imbalance does not
+      establish ordinary betaine deficiency, universal intake responsiveness or
+      cognitive benefit; full assay methods remain unavailable.
+    substance_id: betaine
+    canonical_identity:
+      status: resolved
+      substance_id: betaine
+      substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/choline-methylation/betaine.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-3
+    relationship_type: conditional-constraint
 dietary_lever_atoms:
   - atom_id: PM7-DIT-5
     relationship_layer: kc-relevance
@@ -231,21 +397,37 @@ dietary_lever_atoms:
   - atom_id: PM7-DIT-1
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Phosphatidylethanolamine is the phospholipid substrate PEMT methylates. That biochemical role is not a dietary phosphatidylethanolamine target.
-    evidence_limitation: This identifies the phospholipid substrate of the reaction. It does not show that eating phosphatidylethanolamine or ethanolamine increases hepatic PEMT activity in humans.
+    permitted_wording: >-
+      Phosphatidylethanolamine is the phospholipid substrate PEMT methylates.
+      That biochemical role is not a dietary phosphatidylethanolamine target.
+    evidence_limitation: >-
+      This identifies the phospholipid substrate of the reaction. It does not
+      show that eating phosphatidylethanolamine or ethanolamine increases
+      hepatic PEMT activity in humans.
   - atom_id: PM7-DIT-2
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: S-adenosylmethionine is the methyl donor for each PEMT transfer. It is supplied by SAMe synthesis. It is not a dietary SAMe requirement for this reaction.
-    evidence_limitation: 'SAMe is made for this reaction by methionine adenosyltransferase. Needing SAMe as a substrate does not make SAMe supplements a requirement of the methylation, and it does not show that raising SAMe intake increases PEMT activity in humans.'
+    permitted_wording: >-
+      S-adenosylmethionine is the methyl donor for each PEMT transfer. It is
+      supplied by SAMe synthesis. It is not a dietary SAMe requirement for this
+      reaction.
+    evidence_limitation: >-
+      SAMe is made for this reaction by methionine adenosyltransferase. Needing
+      SAMe as a substrate does not make SAMe supplements a requirement of the
+      methylation, and it does not show that raising SAMe intake increases PEMT
+      activity in humans.
   - atom_id: PM7-DIT-3
     requirement_classification: direct
     relationship_layer: dietary-requirement
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: Dietary choline can provide methyl groups through betaine remethylation and methionine/SAM synthesis for PEMT-dependent formation.
-    evidence_limitation: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
+    permitted_wording: >-
+      Dietary choline can provide methyl groups through betaine remethylation
+      and methionine/SAM synthesis for PEMT-dependent formation.
+    evidence_limitation: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
   - atom_id: PM7-DIT-4
     requirement_classification: derived
     derived_target: Choline
@@ -254,136 +436,324 @@ dietary_lever_atoms:
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.
-    evidence_limitation: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
+    permitted_wording: >-
+      Dietary phosphatidylcholine can provide choline for its methyl-donor
+      provision relationship to PEMT-dependent formation.
+    evidence_limitation: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
 dietary_lever_presentations:
   - atom_id: PM7-DIT-1
     label: Phosphatidylethanolamine
     presentation_section: 3.1.2
-    reader_description: This is the membrane phospholipid PEMT methylates three times to make phosphatidylcholine. Eating more of it has not been shown to speed that reaction.
+    reader_description: >-
+      This is the membrane phospholipid PEMT methylates three times to make
+      phosphatidylcholine. Eating more of it has not been shown to speed that
+      reaction.
     description_finding_id: PM7-F1
   - atom_id: PM7-DIT-2
     label: S-adenosylmethionine (SAMe)
     presentation_section: 3.1.2
-    reader_description: SAMe donates the methyl group at each step. Another reaction makes it from methionine. Swallowing SAMe is not an established requirement for this methylation.
+    reader_description: >-
+      SAMe donates the methyl group at each step. Another reaction makes it from
+      methionine. Swallowing SAMe is not an established requirement for this
+      methylation.
     description_finding_id: PM7-F1
   - atom_id: PM7-DIT-3
     label: Choline
     presentation_section: 3.1.1
-    reader_description: Dietary choline can provide methyl groups through betaine remethylation and methionine/SAM synthesis for PEMT-dependent formation.
+    reader_description: >-
+      Dietary choline can provide methyl groups through betaine remethylation
+      and methionine/SAM synthesis for PEMT-dependent formation.
     description_finding_id: PM7-F7
   - atom_id: PM7-DIT-4
     label: Phosphatidylcholine
     presentation_section: 3.1.1
-    reader_description: Dietary phosphatidylcholine can provide choline for its methyl-donor provision relationship to PEMT-dependent formation.
+    reader_description: >-
+      Dietary phosphatidylcholine can provide choline for its methyl-donor
+      provision relationship to PEMT-dependent formation.
     description_finding_id: PM7-F7
-scientific_findings_intro: 'Enzyme localisation, mutagenesis and kinetic evidence establishes PEMT-mediated phosphatidylcholine formation and regulation by its substrates and methyl-transfer product. [[7]](#pm-ref-7) [[8]](#pm-ref-8) [[9]](#pm-ref-9) Donor restriction/rescue and upstream perturbation studies support bounded dependence, with experimental contexts limiting extrapolation. [[11]](#pm-ref-11) [[12]](#pm-ref-12) [[15]](#pm-ref-15) Human tracing identifies methyl-derived phosphatidylcholine separately from intact-headgroup incorporation, supporting provision without establishing indispensable dependence, increased absolute hepatic flux or brain benefit. [[10]](#pm-ref-10)'
+scientific_findings_intro: >-
+  Enzyme localisation, mutagenesis and kinetic evidence establishes
+  PEMT-mediated phosphatidylcholine formation and regulation by its substrates
+  and methyl-transfer product. [[7]](#pm-ref-7) [[8]](#pm-ref-8)
+  [[9]](#pm-ref-9) Donor restriction/rescue and upstream perturbation studies
+  support bounded dependence, with experimental contexts limiting extrapolation.
+  [[11]](#pm-ref-11) [[12]](#pm-ref-12) [[15]](#pm-ref-15) Human tracing
+  identifies methyl-derived phosphatidylcholine separately from intact-headgroup
+  incorporation, supporting provision without establishing indispensable
+  dependence, increased absolute hepatic flux or brain benefit.
+  [[10]](#pm-ref-10)
 scientific_findings:
   - id: PM7-F1
     finding_label: PEMT methylates phosphatidylethanolamine to phosphatidylcholine
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: 'In the liver, phosphatidylethanolamine N-methyltransferase (PEMT) adds three methyl groups from S-adenosylmethionine (SAMe) to phosphatidylethanolamine and releases phosphatidylcholine. Magnesium is not a cofactor of this reaction. The CDP-choline route is a separate way to make phosphatidylcholine.'
-    finding_interpretation: 'Phosphatidylethanolamine and SAMe are the substrates of the methylation. Choline feeds the parallel route, and animals that lack PEMT need dietary choline. That does not make choline a substrate of this methylation, and it does not make supplemental SAMe or magnesium a requirement of it.'
-    finding_statement: 'Hepatic PEMT converts phosphatidylethanolamine to phosphatidylcholine by three sequential SAMe-dependent methyl transfers. The reaction substrates are phosphatidylethanolamine and SAMe. Magnesium is not an established cofactor of this reaction, and the CDP-choline pathway is a parallel route outside it.'
+    finding_summary: >-
+      In the liver, phosphatidylethanolamine N-methyltransferase (PEMT) adds
+      three methyl groups from S-adenosylmethionine (SAMe) to
+      phosphatidylethanolamine and releases phosphatidylcholine. Magnesium is
+      not a cofactor of this reaction. The CDP-choline route is a separate way
+      to make phosphatidylcholine.
+    finding_interpretation: >-
+      Phosphatidylethanolamine and SAMe are the substrates of the methylation.
+      Choline feeds the parallel route, and animals that lack PEMT need dietary
+      choline. That does not make choline a substrate of this methylation, and
+      it does not make supplemental SAMe or magnesium a requirement of it.
+    finding_statement: >-
+      Hepatic PEMT converts phosphatidylethanolamine to phosphatidylcholine by
+      three sequential SAMe-dependent methyl transfers. The reaction substrates
+      are phosphatidylethanolamine and SAMe. Magnesium is not an established
+      cofactor of this reaction, and the CDP-choline pathway is a parallel route
+      outside it.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Human liver enzyme localisation, SAMe-binding mutagenesis and a physiological review agree on the reaction boundary. PEMT in the endoplasmic reticulum and mitochondria-associated membranes of liver uses SAMe to methylate phosphatidylethanolamine in three steps, through phosphatidylmonomethylethanolamine and phosphatidyldimethylethanolamine, to phosphatidylcholine. Conserved residues are required for SAMe binding and activity. Mice that lack PEMT tolerate a normal diet, but a choline-deficient diet causes liver failure within days because the CDP-choline route is then unavailable as well. None of these sources names magnesium as a PEMT cofactor.'
-    synthesis_limitations: 'The enzyme evidence is recombinant protein and a review of knockout mice, not a human dietary flux study. Absence of magnesium from the reaction description rejects the claim that magnesium is a PEMT cofactor; it does not test every buffer condition in the older assay literature. The choline-deficient knockout result shows that choline supports a parallel route. It does not show that choline is a PEMT substrate or that choline intake increases this methylation.'
+    synthesis: >-
+      Human liver enzyme localisation, SAMe-binding mutagenesis and a
+      physiological review agree on the reaction boundary. PEMT in the
+      endoplasmic reticulum and mitochondria-associated membranes of liver uses
+      SAMe to methylate phosphatidylethanolamine in three steps, through
+      phosphatidylmonomethylethanolamine and phosphatidyldimethylethanolamine,
+      to phosphatidylcholine. Conserved residues are required for SAMe binding
+      and activity. Mice that lack PEMT tolerate a normal diet, but a
+      choline-deficient diet causes liver failure within days because the
+      CDP-choline route is then unavailable as well. None of these sources names
+      magnesium as a PEMT cofactor.
+    synthesis_limitations: >-
+      The enzyme evidence is recombinant protein and a review of knockout mice,
+      not a human dietary flux study. Absence of magnesium from the reaction
+      description rejects the claim that magnesium is a PEMT cofactor; it does
+      not test every buffer condition in the older assay literature. The
+      choline-deficient knockout result shows that choline supports a parallel
+      route. It does not show that choline is a PEMT substrate or that choline
+      intake increases this methylation.
     evidence_considered:
       - label: Shields et al. (2003) — topography
         citation_key: shields_pemt_topography_2003
         href: /docs/papers/BRAIN-Diet-References#shields_pemt_topography_2003
         data_level: Cellular / Molecular
         evidence_source: bounded-external-search
-        directional_finding: Human liver PEMT activity localises to the endoplasmic reticulum and mitochondria-associated membranes and catalyses three SAMe-dependent methylations of phosphatidylethanolamine.
+        directional_finding: >-
+          Human liver PEMT activity localises to the endoplasmic reticulum and
+          mitochondria-associated membranes and catalyses three SAMe-dependent
+          methylations of phosphatidylethanolamine.
         assessment:
-          study: Endoproteinase-protection mapping of epitope-tagged human PEMT and biochemical localisation in human liver.
-          population: Human liver fractions and recombinant protein. No dietary intervention and no human participants in a feeding study.
-          result: Methyltransferase activity localised primarily to the endoplasmic reticulum and mitochondria-associated membranes. The enzyme spans the membrane four times. S-adenosylmethionine is the methyl donor for three sequential methylations.
+          study: >-
+            Endoproteinase-protection mapping of epitope-tagged human PEMT and
+            biochemical localisation in human liver.
+          population: >-
+            Human liver fractions and recombinant protein. No dietary
+            intervention and no human participants in a feeding study.
+          result: >-
+            Methyltransferase activity localised primarily to the endoplasmic
+            reticulum and mitochondria-associated membranes. The enzyme spans
+            the membrane four times. S-adenosylmethionine is the methyl donor
+            for three sequential methylations.
           effect_magnitude: No dietary dose or in-vivo flux estimate.
-          evidence_summary: 'Direct description of the human hepatic reaction, its localisation and its methyl donor.'
-          limitations: Topography and localisation do not show that ordinary diet changes PEMT rate.
+          evidence_summary: >-
+            Direct description of the human hepatic reaction, its localisation
+            and its methyl donor.
+          limitations: >-
+            Topography and localisation do not show that ordinary diet changes
+            PEMT rate.
       - label: Shields et al. (2003) — SAMe binding
         citation_key: shields_pemt_adomet_2003
         href: /docs/papers/BRAIN-Diet-References#shields_pemt_adomet_2003
         data_level: Cellular / Molecular
         evidence_source: bounded-external-search
-        directional_finding: Conserved residues in human PEMT are required for S-adenosylmethionine binding and for enzyme activity.
+        directional_finding: >-
+          Conserved residues in human PEMT are required for S-adenosylmethionine
+          binding and for enzyme activity.
         assessment:
-          study: 'Site-directed mutagenesis of predicted S-adenosylmethionine-binding motifs in recombinant human PEMT, with binding measurements.'
+          study: >-
+            Site-directed mutagenesis of predicted S-adenosylmethionine-binding
+            motifs in recombinant human PEMT, with binding measurements.
           population: Recombinant human PEMT. No animals or human participants.
-          result: Gly100 and Glu180 were essential for S-adenosylmethionine binding. Conservative changes at Gly98 and Glu181 raised the reported binding parameter relative to unmodified enzyme. The abstract describes three sequential methylations of phosphatidylethanolamine and names S-adenosylhomocysteine as a product.
-          effect_magnitude: 'The paper reports the binding comparison as 303.1 pmol for unmodified enzyme, 400 pmol after the Gly98 change and 666.7 pmol after the Glu181 change. These are not dietary doses.'
-          evidence_summary: Direct evidence that SAMe binding is required for human PEMT activity.
-          limitations: A recombinant binding study does not show that supplemental SAMe increases hepatic phosphatidylcholine formation in people.
+          result: >-
+            Gly100 and Glu180 were essential for S-adenosylmethionine binding.
+            Conservative changes at Gly98 and Glu181 raised the reported binding
+            parameter relative to unmodified enzyme. The abstract describes
+            three sequential methylations of phosphatidylethanolamine and names
+            S-adenosylhomocysteine as a product.
+          effect_magnitude: >-
+            The paper reports the binding comparison as 303.1 pmol for
+            unmodified enzyme, 400 pmol after the Gly98 change and 666.7 pmol
+            after the Glu181 change. These are not dietary doses.
+          evidence_summary: >-
+            Direct evidence that SAMe binding is required for human PEMT
+            activity.
+          limitations: >-
+            A recombinant binding study does not show that supplemental SAMe
+            increases hepatic phosphatidylcholine formation in people.
       - label: Vance (2014)
         citation_key: vance_phospholipid_2014
         href: /docs/papers/BRAIN-Diet-References#vance_phospholipid_2014
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'PEMT methylates phosphatidylethanolamine using AdoMet. Supply of AdoMet, phosphatidylethanolamine and the product AdoHcy can regulate activity. Loss of PEMT plus a choline-deficient diet causes rapid liver failure in mice.'
+        directional_finding: >-
+          PEMT methylates phosphatidylethanolamine using AdoMet. Supply of
+          AdoMet, phosphatidylethanolamine and the product AdoHcy can regulate
+          activity. Loss of PEMT plus a choline-deficient diet causes rapid
+          liver failure in mice.
         assessment:
-          study: 'Narrative review of PEMT localisation, regulation and knockout-mouse physiology.'
-          population: 'Review, including Pemt knockout mice fed chow or a choline-deficient diet. Not a human enzyme-rate trial.'
-          result: 'PEMT is a liver endoplasmic-reticulum and mitochondria-associated-membrane enzyme. Substrate supply and product AdoHcy can regulate it. Knockout mice have a mild phenotype on chow. On a choline-deficient diet they develop steatohepatitis and liver failure after 3 days, with a lower phosphatidylcholine to phosphatidylethanolamine ratio and leakage from hepatocyte membranes.'
-          effect_magnitude: Liver failure by 3 days in Pemt knockout mice fed a choline-deficient diet. No human PEMT flux.
-          evidence_summary: 'Physiological boundary for the substrates, product regulation and the parallel choline-dependent route.'
-          limitations: Review synthesis. The knockout diet result removes PEMT and dietary choline together. It does not show that choline is methylated by PEMT.
+          study: >-
+            Narrative review of PEMT localisation, regulation and knockout-mouse
+            physiology.
+          population: >-
+            Review, including Pemt knockout mice fed chow or a choline-deficient
+            diet. Not a human enzyme-rate trial.
+          result: >-
+            PEMT is a liver endoplasmic-reticulum and
+            mitochondria-associated-membrane enzyme. Substrate supply and
+            product AdoHcy can regulate it. Knockout mice have a mild phenotype
+            on chow. On a choline-deficient diet they develop steatohepatitis
+            and liver failure after 3 days, with a lower phosphatidylcholine to
+            phosphatidylethanolamine ratio and leakage from hepatocyte
+            membranes.
+          effect_magnitude: >-
+            Liver failure by 3 days in Pemt knockout mice fed a
+            choline-deficient diet. No human PEMT flux.
+          evidence_summary: >-
+            Physiological boundary for the substrates, product regulation and
+            the parallel choline-dependent route.
+          limitations: >-
+            Review synthesis. The knockout diet result removes PEMT and dietary
+            choline together. It does not show that choline is methylated by
+            PEMT.
     evidence_dependency:
-      - Vance (2014) is also primary evidence in PM7-F2 for the separate claim that S-adenosylhomocysteine can regulate activity. It is not a second independent demonstration of the methyl-transfer chemistry.
+      - >-
+        Vance (2014) is also primary evidence in PM7-F2 for the separate claim
+        that S-adenosylhomocysteine can regulate activity. It is not a second
+        independent demonstration of the methyl-transfer chemistry.
     connected_supportive_evidence:
       - label: Ridgway and Vance (1988)
         citation_key: ridgway_pemt_kinetics_1988
         href: /docs/papers/BRAIN-Diet-References#ridgway_pemt_kinetics_1988
         data_level: Cellular / Molecular
-        why_relevant: Purified rat-liver kinetics place phosphatidylethanolamine and SAMe in an ordered mechanism and release S-adenosylhomocysteine after methyl transfer.
-        why_excluded: The primary use of this paper is the product-regulation proposition in PM7-F2. It is cited here only to confirm the same substrates.
+        why_relevant: >-
+          Purified rat-liver kinetics place phosphatidylethanolamine and SAMe in
+          an ordered mechanism and release S-adenosylhomocysteine after methyl
+          transfer.
+        why_excluded: >-
+          The primary use of this paper is the product-regulation proposition in
+          PM7-F2. It is cited here only to confirm the same substrates.
   - id: PM7-F2
     finding_label: S-adenosylhomocysteine can regulate PEMT
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_summary: Each methyl transfer releases S-adenosylhomocysteine. The supply of that product can regulate PEMT activity. These sources do not show that a high homocysteine concentration itself was measured as a PEMT inhibitor.
-    finding_interpretation: Product regulation is part of the reaction. It is not evidence that lowering homocysteine with B vitamins changes the rate of this methylation in people.
-    finding_statement: 'S-adenosylhomocysteine, the product released after each PEMT methyl transfer, can regulate PEMT activity. The attached and retrieved sources do not demonstrate that elevated homocysteine itself inhibits human PEMT.'
+    finding_summary: >-
+      Each methyl transfer releases S-adenosylhomocysteine. The supply of that
+      product can regulate PEMT activity. These sources do not show that a high
+      homocysteine concentration itself was measured as a PEMT inhibitor.
+    finding_interpretation: >-
+      Product regulation is part of the reaction. It is not evidence that
+      lowering homocysteine with B vitamins changes the rate of this methylation
+      in people.
+    finding_statement: >-
+      S-adenosylhomocysteine, the product released after each PEMT methyl
+      transfer, can regulate PEMT activity. The attached and retrieved sources
+      do not demonstrate that elevated homocysteine itself inhibits human PEMT.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The physiological review states that the product AdoHcy, together with the substrates AdoMet and phosphatidylethanolamine, can regulate PEMT. Purified rat-liver kinetics fit an ordered mechanism in which the phospholipid binds first, S-adenosylmethionine then binds, the methyl group is transferred and S-adenosylhomocysteine is released. Product-inhibition patterns were part of that kinetic analysis. Neither source reports a human experiment in which homocysteine concentration was the inhibitor tested against PEMT.'
-    synthesis_limitations: Regulation is stated in a review and inferred from product release and product-inhibition patterns in purified enzyme. The kinetic abstract does not give an S-adenosylhomocysteine inhibition constant. Homocysteine and S-adenosylhomocysteine are not interchangeable measurements. No human PEMT rate under raised homocysteine was assessed.
+    synthesis: >-
+      The physiological review states that the product AdoHcy, together with the
+      substrates AdoMet and phosphatidylethanolamine, can regulate PEMT.
+      Purified rat-liver kinetics fit an ordered mechanism in which the
+      phospholipid binds first, S-adenosylmethionine then binds, the methyl
+      group is transferred and S-adenosylhomocysteine is released.
+      Product-inhibition patterns were part of that kinetic analysis. Neither
+      source reports a human experiment in which homocysteine concentration was
+      the inhibitor tested against PEMT.
+    synthesis_limitations: >-
+      Regulation is stated in a review and inferred from product release and
+      product-inhibition patterns in purified enzyme. The kinetic abstract does
+      not give an S-adenosylhomocysteine inhibition constant. Homocysteine and
+      S-adenosylhomocysteine are not interchangeable measurements. No human PEMT
+      rate under raised homocysteine was assessed.
     evidence_considered:
       - label: Vance (2014)
         citation_key: vance_phospholipid_2014
         href: /docs/papers/BRAIN-Diet-References#vance_phospholipid_2014
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'The supply of product AdoHcy can regulate PEMT activity, along with the supply of AdoMet and phosphatidylethanolamine.'
+        directional_finding: >-
+          The supply of product AdoHcy can regulate PEMT activity, along with
+          the supply of AdoMet and phosphatidylethanolamine.
         assessment:
           study: Narrative review of PEMT regulation and physiology.
-          population: Review of biochemical and mouse evidence. Not a human inhibition trial.
-          result: Names AdoMet and phosphatidylethanolamine as substrates and AdoHcy as a product that can regulate activity. Does not report a homocysteine dose that inhibits PEMT.
+          population: >-
+            Review of biochemical and mouse evidence. Not a human inhibition
+            trial.
+          result: >-
+            Names AdoMet and phosphatidylethanolamine as substrates and AdoHcy
+            as a product that can regulate activity. Does not report a
+            homocysteine dose that inhibits PEMT.
           effect_magnitude: No inhibition constant or human rate.
           evidence_summary: Review-level statement that product AdoHcy can regulate PEMT.
-          limitations: Does not itself present the inhibition curves. Does not show that homocysteine concentration is the measured inhibitor.
+          limitations: >-
+            Does not itself present the inhibition curves. Does not show that
+            homocysteine concentration is the measured inhibitor.
       - label: Ridgway and Vance (1988)
         citation_key: ridgway_pemt_kinetics_1988
         href: /docs/papers/BRAIN-Diet-References#ridgway_pemt_kinetics_1988
         data_level: Cellular / Molecular
         evidence_source: bounded-external-search
-        directional_finding: 'Purified rat-liver PEMT releases S-adenosylhomocysteine after methyl transfer, and product-inhibition patterns fit an ordered Bi Bi mechanism.'
+        directional_finding: >-
+          Purified rat-liver PEMT releases S-adenosylhomocysteine after methyl
+          transfer, and product-inhibition patterns fit an ordered Bi Bi
+          mechanism.
         assessment:
-          study: 'Steady-state kinetics and product-inhibition analysis of PEMT purified from rat liver, using phosphatidylethanolamine and its mono- and dimethyl intermediates.'
-          population: Purified rat-liver enzyme in detergent-phospholipid micelles. No human participants.
-          result: 'Phospholipid substrates bind first and phospholipid products leave last. S-adenosylmethionine binds, the methyl group is transferred and S-adenosylhomocysteine is released. The three phospholipid substrates compete for one active site. Added egg phosphatidylcholine converted sigmoidal phospholipid curves toward hyperbolic kinetics.'
-          effect_magnitude: 'The abstract does not report an S-adenosylhomocysteine inhibition constant. Hill coefficients for the phospholipid substrates were 3.6, 2.5 and 4.7 without added egg phosphatidylcholine and about 0.9 to 1.2 with 30 or 40 mol percent egg phosphatidylcholine.'
-          evidence_summary: Direct kinetic evidence that S-adenosylhomocysteine is the released product and that product inhibition was used to assign the mechanism.
-          limitations: Micellar enzyme kinetics are not liver flux in an intact animal or person. The abstract does not quantify homocysteine as the inhibitor.
+          study: >-
+            Steady-state kinetics and product-inhibition analysis of PEMT
+            purified from rat liver, using phosphatidylethanolamine and its
+            mono- and dimethyl intermediates.
+          population: >-
+            Purified rat-liver enzyme in detergent-phospholipid micelles. No
+            human participants.
+          result: >-
+            Phospholipid substrates bind first and phospholipid products leave
+            last. S-adenosylmethionine binds, the methyl group is transferred
+            and S-adenosylhomocysteine is released. The three phospholipid
+            substrates compete for one active site. Added egg
+            phosphatidylcholine converted sigmoidal phospholipid curves toward
+            hyperbolic kinetics.
+          effect_magnitude: >-
+            The abstract does not report an S-adenosylhomocysteine inhibition
+            constant. Hill coefficients for the phospholipid substrates were
+            3.6, 2.5 and 4.7 without added egg phosphatidylcholine and about 0.9
+            to 1.2 with 30 or 40 mol percent egg phosphatidylcholine.
+          evidence_summary: >-
+            Direct kinetic evidence that S-adenosylhomocysteine is the released
+            product and that product inhibition was used to assign the
+            mechanism.
+          limitations: >-
+            Micellar enzyme kinetics are not liver flux in an intact animal or
+            person. The abstract does not quantify homocysteine as the
+            inhibitor.
     evidence_dependency:
-      - Vance (2014) is also primary evidence in PM7-F1 for substrates and the choline-deficient knockout boundary. Reuse here is only for product regulation.
+      - >-
+        Vance (2014) is also primary evidence in PM7-F1 for substrates and the
+        choline-deficient knockout boundary. Reuse here is only for product
+        regulation.
   - id: PM7-IC1
     finding_label: Brain DHA measurements do not measure PEMT rate
     presentation: interpretive-constraint
-    finding_statement: Neonatal piglet brain DHA accretion and human cerebrospinal-fluid DHA enrichment measure delivery of DHA. They do not measure the rate of hepatic PEMT methylation.
+    finding_statement: >-
+      Neonatal piglet brain DHA accretion and human cerebrospinal-fluid DHA
+      enrichment measure delivery of DHA. They do not measure the rate of
+      hepatic PEMT methylation.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Piglets given the same DHA dose as phosphatidylcholine or as triglyceride deposited more labelled DHA in brain gray matter from the phospholipid form. Liver labelling was the highest, which the study reads as processing and export rather than as an assay of phosphatidylethanolamine methylation. Adults given supplemental DHA, with B vitamins in both arms, increased cerebrospinal-fluid DHA and EPA. Brain volumes and cognitive scores did not differ from placebo. Neither endpoint is PEMT activity.'
-    synthesis_limitations: 'Both studies are informative about DHA delivery. Using them as if they measured this methylation overstates what they observed. The piglet contrast is one developmental model. The human trial is small, lasted six months and gave B vitamins to both groups.'
+    synthesis: >-
+      Piglets given the same DHA dose as phosphatidylcholine or as triglyceride
+      deposited more labelled DHA in brain gray matter from the phospholipid
+      form. Liver labelling was the highest, which the study reads as processing
+      and export rather than as an assay of phosphatidylethanolamine
+      methylation. Adults given supplemental DHA, with B vitamins in both arms,
+      increased cerebrospinal-fluid DHA and EPA. Brain volumes and cognitive
+      scores did not differ from placebo. Neither endpoint is PEMT activity.
+    synthesis_limitations: >-
+      Both studies are informative about DHA delivery. Using them as if they
+      measured this methylation overstates what they observed. The piglet
+      contrast is one developmental model. The human trial is small, lasted six
+      months and gave B vitamins to both groups.
     evidence_considered:
       - label: Liu et al. (2014)
         citation_key: liu_higher_2014
@@ -391,38 +761,94 @@ scientific_findings:
         data_level: Animal Data
         evidence_source: repository-inherited
         exposure_context: dietary
-        directional_finding: Phosphatidylcholine-bound labelled DHA produced about 1.9-fold more gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets. Liver labelling was greatest.
+        directional_finding: >-
+          Phosphatidylcholine-bound labelled DHA produced about 1.9-fold more
+          gray-matter DHA accretion than triglyceride-bound DHA in neonatal
+          piglets. Liver labelling was greatest.
         assessment:
-          study: Formula-fed neonatal piglets received an oral carbon-13 DHA dose bound to triglyceride or to phosphatidylcholine.
+          study: >-
+            Formula-fed neonatal piglets received an oral carbon-13 DHA dose
+            bound to triglyceride or to phosphatidylcholine.
           population: Neonatal piglets.
-          result: 'The phosphatidylcholine form was about 1.9-fold more efficacious for gray-matter DHA accretion and was also more efficacious in synaptosomes, retina, liver and red blood cells. The authors infer initial hepatic processing and later export.'
-          effect_magnitude: About 1.9-fold gray-matter accretion contrast in that piglet comparison.
-          evidence_summary: 'Shows a delivery-form difference for DHA accretion, with the liver as an early processing organ.'
-          limitations: Not a PEMT activity or phosphatidylethanolamine-methylation assay. Not a human brain measurement.
+          result: >-
+            The phosphatidylcholine form was about 1.9-fold more efficacious for
+            gray-matter DHA accretion and was also more efficacious in
+            synaptosomes, retina, liver and red blood cells. The authors infer
+            initial hepatic processing and later export.
+          effect_magnitude: >-
+            About 1.9-fold gray-matter accretion contrast in that piglet
+            comparison.
+          evidence_summary: >-
+            Shows a delivery-form difference for DHA accretion, with the liver
+            as an early processing organ.
+          limitations: >-
+            Not a PEMT activity or phosphatidylethanolamine-methylation assay.
+            Not a human brain measurement.
       - label: Arellanes et al. (2020)
         citation_key: arellanes_brain_2020
         href: /docs/papers/BRAIN-Diet-References#arellanes_brain_2020
         data_level: Human Mechanistic
         evidence_source: repository-inherited
         exposure_context: supplemental-formulation
-        directional_finding: Six months of supplemental DHA raised cerebrospinal-fluid DHA by about 28 percent versus placebo. Cognitive scores did not differ. PEMT was not measured.
+        directional_finding: >-
+          Six months of supplemental DHA raised cerebrospinal-fluid DHA by about
+          28 percent versus placebo. Cognitive scores did not differ. PEMT was
+          not measured.
         assessment:
-          study: Randomised placebo-controlled trial. Everyone received a B-vitamin complex. The randomised contrast was DHA versus placebo.
-          population: '33 adults, of whom 26 completed both lumbar punctures. Dose was 2,152 mg DHA per day for 6 months.'
-          result: 'Cerebrospinal-fluid DHA rose 28 percent and EPA 43 percent in the DHA arm versus placebo. The cerebrospinal-fluid EPA rise in non-APOE4 carriers was about three times that in APOE4 carriers. Hippocampal volume, entorhinal thickness and cognitive scores did not differ between groups.'
-          effect_magnitude: Mean cerebrospinal-fluid DHA difference 0.08 µg/mL (95 percent confidence interval 0.05 to 0.10). No PEMT or phosphatidylcholine methylation measurement.
-          evidence_summary: 'Human evidence of supplemental DHA reaching cerebrospinal fluid, not of hepatic PEMT rate.'
-          limitations: 'Both arms received folic acid, vitamin B6 and vitamin B12, so the trial cannot isolate methylation from DHA delivery. Cognition was unchanged.'
+          study: >-
+            Randomised placebo-controlled trial. Everyone received a B-vitamin
+            complex. The randomised contrast was DHA versus placebo.
+          population: >-
+            33 adults, of whom 26 completed both lumbar punctures. Dose was
+            2,152 mg DHA per day for 6 months.
+          result: >-
+            Cerebrospinal-fluid DHA rose 28 percent and EPA 43 percent in the
+            DHA arm versus placebo. The cerebrospinal-fluid EPA rise in
+            non-APOE4 carriers was about three times that in APOE4 carriers.
+            Hippocampal volume, entorhinal thickness and cognitive scores did
+            not differ between groups.
+          effect_magnitude: >-
+            Mean cerebrospinal-fluid DHA difference 0.08 µg/mL (95 percent
+            confidence interval 0.05 to 0.10). No PEMT or phosphatidylcholine
+            methylation measurement.
+          evidence_summary: >-
+            Human evidence of supplemental DHA reaching cerebrospinal fluid, not
+            of hepatic PEMT rate.
+          limitations: >-
+            Both arms received folic acid, vitamin B6 and vitamin B12, so the
+            trial cannot isolate methylation from DHA delivery. Cognition was
+            unchanged.
   - id: PM7-F3
     finding_label: B-vitamin cognitive interaction does not measure PEMT
     presentation: phenome-relationship
     primary_phenome: Cognitive Clarity
-    finding_summary: 'In mild cognitive impairment, B vitamins were associated with slower cognitive decline when omega-3 status was higher. The study did not measure PEMT or phosphatidylcholine formation.'
-    finding_interpretation: 'The result is a clinical interaction. The suggestion that B vitamins build omega-3-rich phosphatidylcholine is an interpretation, not a measurement of this reaction.'
-    finding_statement: 'The VITACOG reanalysis shows a B-vitamin by omega-3 interaction on cognitive decline in mild cognitive impairment. It does not measure PEMT activity or phosphatidylcholine formation, so a Cognitive Clarity link is a downstream inference.'
+    finding_summary: >-
+      In mild cognitive impairment, B vitamins were associated with slower
+      cognitive decline when omega-3 status was higher. The study did not
+      measure PEMT or phosphatidylcholine formation.
+    finding_interpretation: >-
+      The result is a clinical interaction. The suggestion that B vitamins build
+      omega-3-rich phosphatidylcholine is an interpretation, not a measurement
+      of this reaction.
+    finding_statement: >-
+      The VITACOG reanalysis shows a B-vitamin by omega-3 interaction on
+      cognitive decline in mild cognitive impairment. It does not measure PEMT
+      activity or phosphatidylcholine formation, so a Cognitive Clarity link is
+      a downstream inference.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'People with mild cognitive impairment who received folic acid, vitamin B6 and vitamin B12 had better final memory, global cognition and clinical dementia ratings as baseline omega-3 status rose. Placebo scores did not. Docosahexaenoic acid tracked that interaction more than eicosapentaenoic acid. When omega-3 status was low, B vitamins had no cognitive effect. The paper does not report PEMT activity, phosphatidylethanolamine methylation or phosphatidylcholine composition.'
-    synthesis_limitations: 'One reanalysis of one trial in older adults with mild cognitive impairment. It cannot separate homocysteine lowering, other B-vitamin actions and omega-3 status. It does not prove that no cognitive connection exists. It does prove that this dataset is not a PEMT assay.'
+    synthesis: >-
+      People with mild cognitive impairment who received folic acid, vitamin B6
+      and vitamin B12 had better final memory, global cognition and clinical
+      dementia ratings as baseline omega-3 status rose. Placebo scores did not.
+      Docosahexaenoic acid tracked that interaction more than eicosapentaenoic
+      acid. When omega-3 status was low, B vitamins had no cognitive effect. The
+      paper does not report PEMT activity, phosphatidylethanolamine methylation
+      or phosphatidylcholine composition.
+    synthesis_limitations: >-
+      One reanalysis of one trial in older adults with mild cognitive
+      impairment. It cannot separate homocysteine lowering, other B-vitamin
+      actions and omega-3 status. It does not prove that no cognitive connection
+      exists. It does prove that this dataset is not a PEMT assay.
     evidence_considered:
       - label: Oulhaj et al. (2016)
         citation_key: oulhaj_omega-3_2016
@@ -430,82 +856,172 @@ scientific_findings:
         data_level: Human Outcome
         evidence_source: repository-inherited
         exposure_context: supplemental-formulation
-        directional_finding: B-vitamin treatment slowed cognitive decline in mild cognitive impairment only when baseline omega-3 status was higher. PEMT was not measured.
+        directional_finding: >-
+          B-vitamin treatment slowed cognitive decline in mild cognitive
+          impairment only when baseline omega-3 status was higher. PEMT was not
+          measured.
         assessment:
-          study: 'Reanalysis of the VITACOG randomised trial, testing whether baseline plasma omega-3 status modified the cognitive effect of B vitamins.'
-          population: '266 participants with mild cognitive impairment, aged 70 years or older, assigned to B vitamins or placebo for 2 years.'
-          result: 'Verbal delayed recall, global cognition and clinical dementia rating sum-of-boxes were better on B vitamins as baseline omega-3 concentrations increased. Among those with good omega-3 status, 33 percent of the B-vitamin group had a global clinical dementia rating above zero, compared with 59 percent on placebo. Docosahexaenoic acid enhanced the B-vitamin effect more than eicosapentaenoic acid. Low omega-3 status removed the B-vitamin cognitive effect.'
-          effect_magnitude: 33 percent versus 59 percent with a global clinical dementia rating above zero in the higher omega-3 stratum. No PEMT or phospholipid methylation estimate.
+          study: >-
+            Reanalysis of the VITACOG randomised trial, testing whether baseline
+            plasma omega-3 status modified the cognitive effect of B vitamins.
+          population: >-
+            266 participants with mild cognitive impairment, aged 70 years or
+            older, assigned to B vitamins or placebo for 2 years.
+          result: >-
+            Verbal delayed recall, global cognition and clinical dementia rating
+            sum-of-boxes were better on B vitamins as baseline omega-3
+            concentrations increased. Among those with good omega-3 status, 33
+            percent of the B-vitamin group had a global clinical dementia rating
+            above zero, compared with 59 percent on placebo. Docosahexaenoic
+            acid enhanced the B-vitamin effect more than eicosapentaenoic acid.
+            Low omega-3 status removed the B-vitamin cognitive effect.
+          effect_magnitude: >-
+            33 percent versus 59 percent with a global clinical dementia rating
+            above zero in the higher omega-3 stratum. No PEMT or phospholipid
+            methylation estimate.
           evidence_summary: Clinical interaction between B-vitamin treatment and omega-3 status.
-          limitations: 'Cognitive endpoints only. The phosphatidylcholine mechanism is proposed, not measured.'
+          limitations: >-
+            Cognitive endpoints only. The phosphatidylcholine mechanism is
+            proposed, not measured.
     connected_supportive_evidence:
       - label: Vance (2014)
         citation_key: vance_phospholipid_2014
         href: /docs/papers/BRAIN-Diet-References#vance_phospholipid_2014
         data_level: Mechanistic
-        why_relevant: 'Establishes hepatic PEMT as a real route from phosphatidylethanolamine to phosphatidylcholine, which is the biology the cognitive paper invokes.'
-        why_excluded: 'It is a PEMT review, not a cognitive trial, and it does not test the B-vitamin by omega-3 interaction.'
+        why_relevant: >-
+          Establishes hepatic PEMT as a real route from phosphatidylethanolamine
+          to phosphatidylcholine, which is the biology the cognitive paper
+          invokes.
+        why_excluded: >-
+          It is a PEMT review, not a cognitive trial, and it does not test the
+          B-vitamin by omega-3 interaction.
   - id: PM7-F4
     finding_label: Attention reviews do not measure PEMT
     presentation: phenome-relationship
     primary_phenome: Focus / Attention Stability
-    finding_summary: Reviews of diet in ADHD and of choline in neurodevelopment discuss attention-related nutrition. They do not measure PEMT or phosphatidylcholine formation.
-    finding_interpretation: 'Folate, omega-3 fats and choline can be relevant to other mechanisms. They are not evidence that this methylation changes attention.'
-    finding_statement: Attached diet and choline reviews do not measure PEMT activity or phosphatidylcholine formation. A relationship to Focus / Attention Stability is a downstream inference.
+    finding_summary: >-
+      Reviews of diet in ADHD and of choline in neurodevelopment discuss
+      attention-related nutrition. They do not measure PEMT or
+      phosphatidylcholine formation.
+    finding_interpretation: >-
+      Folate, omega-3 fats and choline can be relevant to other mechanisms. They
+      are not evidence that this methylation changes attention.
+    finding_statement: >-
+      Attached diet and choline reviews do not measure PEMT activity or
+      phosphatidylcholine formation. A relationship to Focus / Attention
+      Stability is a downstream inference.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'A pediatrics review of dietary approaches to ADHD discusses additive-free diets, iron, zinc, omega-3 supplements and a pattern containing fibre, folate and omega-3 fats. A narrative review of choline in autism, ADHD and dyslexia discusses low choline intake and neurodevelopment. Neither review reports PEMT activity, phosphatidylethanolamine methylation or a phosphatidylcholine formation rate.'
-    synthesis_limitations: Narrative reviews mix many dietary exposures and outcomes. Absence of a PEMT measurement is a gap in what these papers can support. It is not proof that attention is unrelated to membrane phospholipids.
+    synthesis: >-
+      A pediatrics review of dietary approaches to ADHD discusses additive-free
+      diets, iron, zinc, omega-3 supplements and a pattern containing fibre,
+      folate and omega-3 fats. A narrative review of choline in autism, ADHD and
+      dyslexia discusses low choline intake and neurodevelopment. Neither review
+      reports PEMT activity, phosphatidylethanolamine methylation or a
+      phosphatidylcholine formation rate.
+    synthesis_limitations: >-
+      Narrative reviews mix many dietary exposures and outcomes. Absence of a
+      PEMT measurement is a gap in what these papers can support. It is not
+      proof that attention is unrelated to membrane phospholipids.
     evidence_considered:
       - label: Millichap and Yee (2012)
         citation_key: millichap_diet_2012
         href: /docs/papers/BRAIN-Diet-References#millichap_diet_2012
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Reviews dietary approaches to ADHD, including omega-3 supplements and patterns containing folate and omega-3 fats, without measuring PEMT.'
+        directional_finding: >-
+          Reviews dietary approaches to ADHD, including omega-3 supplements and
+          patterns containing folate and omega-3 fats, without measuring PEMT.
         assessment:
-          study: Narrative review of diet as a complementary approach when ADHD medication is unsatisfactory.
+          study: >-
+            Narrative review of diet as a complementary approach when ADHD
+            medication is unsatisfactory.
           population: Children with ADHD in the reviewed literature. Not a PEMT sample.
-          result: 'Discusses sugar restriction, additive-free diets, elimination diets, iron, zinc, omega-3 supplements and a Western versus fibre, folate and omega-3 pattern. Does not report phosphatidylethanolamine methylation.'
+          result: >-
+            Discusses sugar restriction, additive-free diets, elimination diets,
+            iron, zinc, omega-3 supplements and a Western versus fibre, folate
+            and omega-3 pattern. Does not report phosphatidylethanolamine
+            methylation.
           effect_magnitude: No PEMT or phosphatidylcholine formation estimate.
           evidence_summary: Dietary context for ADHD. Not an enzyme result.
-          limitations: Mixed interventions and opinion. Cannot attribute attention scores to this methylation.
+          limitations: >-
+            Mixed interventions and opinion. Cannot attribute attention scores
+            to this methylation.
       - label: Derbyshire and Maes (2023)
         citation_key: derbyshire_role_2023
         href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: Narrative review links lower choline intake or status with neurodevelopmental conditions and does not measure PEMT.
+        directional_finding: >-
+          Narrative review links lower choline intake or status with
+          neurodevelopmental conditions and does not measure PEMT.
         assessment:
-          study: 'Narrative review of choline in autism spectrum conditions, ADHD and dyslexia.'
-          population: 'Pregnancy, childhood and neurodevelopmental groups summarised from other studies.'
-          result: Describes reports of low choline intake or altered choline status in those groups and treats choline as a possible modifiable factor. Calls for more mechanistic work. Does not assay PEMT.
+          study: >-
+            Narrative review of choline in autism spectrum conditions, ADHD and
+            dyslexia.
+          population: >-
+            Pregnancy, childhood and neurodevelopmental groups summarised from
+            other studies.
+          result: >-
+            Describes reports of low choline intake or altered choline status in
+            those groups and treats choline as a possible modifiable factor.
+            Calls for more mechanistic work. Does not assay PEMT.
           effect_magnitude: No PEMT rate or attention effect size for this reaction.
-          evidence_summary: Choline and neurodevelopment context. Choline here is not shown to be the PEMT substrate.
-          limitations: 'Narrative review. Choline also feeds the CDP-choline route and acetylcholine, which are outside this methylation.'
+          evidence_summary: >-
+            Choline and neurodevelopment context. Choline here is not shown to
+            be the PEMT substrate.
+          limitations: >-
+            Narrative review. Choline also feeds the CDP-choline route and
+            acetylcholine, which are outside this methylation.
   - id: PM7-F5
     finding_label: Donor insufficiency can constrain hepatic methylation
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: Folate restriction can reduce the contribution of dietary methyl groups to hepatic phosphatidylcholine formation through PEMT in female mice.
-    finding_interpretation: 'Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.'
-    finding_statement: Folate restriction can reduce the contribution of dietary methyl groups to hepatic phosphatidylcholine formation through PEMT in female mice.
+    finding_summary: >-
+      Folate restriction can reduce the contribution of dietary methyl groups to
+      hepatic phosphatidylcholine formation through PEMT in female mice.
+    finding_interpretation: >-
+      Conditional animal evidence; tracer enrichment is not absolute flux. No
+      universal donor limitation, human intake target or cognitive benefit is
+      established.
+    finding_statement: >-
+      Folate restriction can reduce the contribution of dietary methyl groups to
+      hepatic phosphatidylcholine formation through PEMT in female mice.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Named-donor restriction altered pathway-specific methyl incorporation with choline maintained. Betaine rescue under ethanol-induced imbalance is complementary evidence, not independent confirmation of the same exposure.'
-    synthesis_limitations: 'Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.'
+    synthesis: >-
+      Named-donor restriction altered pathway-specific methyl incorporation with
+      choline maintained. Betaine rescue under ethanol-induced imbalance is
+      complementary evidence, not independent confirmation of the same exposure.
+    synthesis_limitations: >-
+      Conditional animal evidence; tracer enrichment is not absolute flux. No
+      universal donor limitation, human intake target or cognitive benefit is
+      established.
     evidence_considered:
       - label: Chew et al. (2011)
         citation_key: chew_folate_choline_2011
         href: /docs/papers/BRAIN-Diet-References#chew_folate_choline_2011
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: Donor restriction reduced pathway-specific methyl incorporation in female liver.
+        directional_finding: >-
+          Donor restriction reduced pathway-specific methyl incorporation in
+          female liver.
         assessment:
-          study: 'Eight-week folate restriction versus otherwise matched control diets with labelled choline. Indexed primary methods, results and discussion assessed.'
+          study: >-
+            Eight-week folate restriction versus otherwise matched control diets
+            with labelled choline. Indexed primary methods, results and
+            discussion assessed.
           population: Male and female Mthfr wild-type and heterozygous mice.
-          result: Females had lower hepatic d3-PC enrichment and product/precursor enrichment ratio; males lacked that hepatic response.
-          effect_magnitude: 'Hepatic d3-PC enrichment 30% lower (P=0.017); d3-PC:d9-choline ratio P=0.049.'
-          evidence_summary: Donor restriction reduced pathway-specific methyl incorporation in female liver.
-          limitations: 'Precursor enrichment, turnover and methyl competition affect this measurement; total PEMT flux was not measured.'
+          result: >-
+            Females had lower hepatic d3-PC enrichment and product/precursor
+            enrichment ratio; males lacked that hepatic response.
+          effect_magnitude: >-
+            Hepatic d3-PC enrichment 30% lower (P=0.017); d3-PC:d9-choline ratio
+            P=0.049.
+          evidence_summary: >-
+            Donor restriction reduced pathway-specific methyl incorporation in
+            female liver.
+          limitations: >-
+            Precursor enrichment, turnover and methyl competition affect this
+            measurement; total PEMT flux was not measured.
       - label: Kharbanda et al. (2007)
         citation_key: kharbanda_betaine_pemt_2007
         href: /docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007
@@ -513,49 +1029,96 @@ scientific_findings:
         evidence_source: bounded-external-search
         directional_finding: Betaine corrected production under an imposed methylation imbalance.
         assessment:
-          study: Control/ethanol liquid diets with or without 1% betaine for four weeks. Primary abstract assessed; full assay methods unavailable.
+          study: >-
+            Control/ethanol liquid diets with or without 1% betaine for four
+            weeks. Primary abstract assessed; full assay methods unavailable.
           population: Male Wistar rats.
-          result: 'Betaine restored SAM:SAH balance and reported PEMT-mediated PC production under ethanol exposure.'
+          result: >-
+            Betaine restored SAM:SAH balance and reported PEMT-mediated PC
+            production under ethanol exposure.
           effect_magnitude: No usable numerical production estimate in the abstract.
           evidence_summary: Betaine corrected production under an imposed methylation imbalance.
-          limitations: Supplement rescue does not establish ordinary betaine deficiency; assay details and ethanol context limit attribution.
+          limitations: >-
+            Supplement rescue does not establish ordinary betaine deficiency;
+            assay details and ethanol context limit attribution.
   - id: PM7-F6
     finding_label: Methionine evidence leaves the dietary constraint unresolved
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_summary: 'Dietary methionine affects hepatic SAM and phospholipid measurements in rats, but the evidence reviewed does not establish sulfur-amino-acid inadequacy as a constraint on this formation capacity.'
-    finding_interpretation: 'No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.'
-    finding_statement: 'Dietary methionine affects hepatic SAM and phospholipid measurements in rats, but the evidence reviewed does not establish sulfur-amino-acid inadequacy as a constraint on this formation capacity.'
+    finding_summary: >-
+      Dietary methionine affects hepatic SAM and phospholipid measurements in
+      rats, but the evidence reviewed does not establish sulfur-amino-acid
+      inadequacy as a constraint on this formation capacity.
+    finding_interpretation: >-
+      No human trial, numeric deficiency threshold or single end-to-end assay is
+      required. Indirect dietary outcomes and genetic perturbation do not yet
+      resolve exposure attribution.
+    finding_statement: >-
+      Dietary methionine affects hepatic SAM and phospholipid measurements in
+      rats, but the evidence reviewed does not establish sulfur-amino-acid
+      inadequacy as a constraint on this formation capacity.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: Dietary intervention and inhibitor comparisons support more than precursor proximity. Upstream enzyme loss separately changes PEMT activity. The remaining inference connects dietary inadequacy to the governed formation capacity.
-    synthesis_limitations: 'No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.'
+    synthesis: >-
+      Dietary intervention and inhibitor comparisons support more than precursor
+      proximity. Upstream enzyme loss separately changes PEMT activity. The
+      remaining inference connects dietary inadequacy to the governed formation
+      capacity.
+    synthesis_limitations: >-
+      No human trial, numeric deficiency threshold or single end-to-end assay is
+      required. Indirect dietary outcomes and genetic perturbation do not yet
+      resolve exposure attribution.
     evidence_considered:
       - label: Sugiyama et al. (1998)
         citation_key: sugiyama_methionine_pe_1998
         href: /docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: Dietary and inhibitor perturbations are consistent with altered PE methylation.
+        directional_finding: >-
+          Dietary and inhibitor perturbations are consistent with altered PE
+          methylation.
         assessment:
-          study: Fourteen-day feeding at three methionine levels with or without eritadenine. Primary abstract assessed; full text not obtained.
+          study: >-
+            Fourteen-day feeding at three methionine levels with or without
+            eritadenine. Primary abstract assessed; full text not obtained.
           population: Rats.
-          result: 'Methionine increased SAM and microsomal PC:PE; eritadenine abolished lipid effects.'
-          effect_magnitude: 'Methionine 2.5, 4.5 and 7.5 g/kg; eritadenine 30 mg/kg. No usable outcome magnitude in the abstract.'
-          evidence_summary: Dietary and inhibitor perturbations are consistent with altered PE methylation.
-          limitations: 'PC:PE is not synthesis rate. Intake adequacy and inhibitor specificity need full-method appraisal.'
+          result: >-
+            Methionine increased SAM and microsomal PC:PE; eritadenine abolished
+            lipid effects.
+          effect_magnitude: >-
+            Methionine 2.5, 4.5 and 7.5 g/kg; eritadenine 30 mg/kg. No usable
+            outcome magnitude in the abstract.
+          evidence_summary: >-
+            Dietary and inhibitor perturbations are consistent with altered PE
+            methylation.
+          limitations: >-
+            PC:PE is not synthesis rate. Intake adequacy and inhibitor
+            specificity need full-method appraisal.
       - label: Shimada et al. (2003)
         citation_key: shimada_methionine_desaturase_2003
         href: /docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: Methionine-specific dietary effects were separable from choline removal.
+        directional_finding: >-
+          Methionine-specific dietary effects were separable from choline
+          removal.
         assessment:
-          study: Fourteen-day protein-level and methionine/cystine supplementation experiments; choline held constant. Primary full text assessed.
+          study: >-
+            Fourteen-day protein-level and methionine/cystine supplementation
+            experiments; choline held constant. Primary full text assessed.
           population: Male Wistar rats; six groups of eight per experiment.
-          result: 'Methionine raised SAM and PC:PE; cystine had little or no comparable effect; glycine attenuated responses.'
-          effect_magnitude: 'Choline bitartrate 0.25 g/100 g diet; methionine 0.43%, cystine 0.34% supplements.'
-          evidence_summary: Methionine-specific dietary effects were separable from choline removal.
-          limitations: Lipid ratios and desaturase endpoints remain indirect; SAM responses were not uniformly monotonic. Cystine non-equivalence does not establish KC non-application.
+          result: >-
+            Methionine raised SAM and PC:PE; cystine had little or no comparable
+            effect; glycine attenuated responses.
+          effect_magnitude: >-
+            Choline bitartrate 0.25 g/100 g diet; methionine 0.43%, cystine
+            0.34% supplements.
+          evidence_summary: >-
+            Methionine-specific dietary effects were separable from choline
+            removal.
+          limitations: >-
+            Lipid ratios and desaturase endpoints remain indirect; SAM responses
+            were not uniformly monotonic. Cystine non-equivalence does not
+            establish KC non-application.
       - label: Cano et al. (2011)
         citation_key: cano_mat1a_vldl_2011
         href: /docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011
@@ -563,22 +1126,41 @@ scientific_findings:
         evidence_source: bounded-external-search
         directional_finding: Upstream enzyme impairment affected measured PEMT activity.
         assessment:
-          study: Genetic upstream impairment; indexed primary results and radiometric assay description assessed.
+          study: >-
+            Genetic upstream impairment; indexed primary results and radiometric
+            assay description assessed.
           population: Three- and eight-month-old wild-type and MAT1A-knockout mice.
-          result: PEMT activity decreased in young knockouts; older animals showed a different lipid/activity pattern.
-          effect_magnitude: PEMT activity 30% lower and transcript expression 40% lower in three-month-old knockouts; 4–8 animals per group.
+          result: >-
+            PEMT activity decreased in young knockouts; older animals showed a
+            different lipid/activity pattern.
+          effect_magnitude: >-
+            PEMT activity 30% lower and transcript expression 40% lower in
+            three-month-old knockouts; 4–8 animals per group.
           evidence_summary: Upstream enzyme impairment affected measured PEMT activity.
-          limitations: Genetic loss changes expression and metabolism; it does not isolate dietary methionine inadequacy or cysteine sparing.
+          limitations: >-
+            Genetic loss changes expression and metabolism; it does not isolate
+            dietary methionine inadequacy or cysteine sparing.
   - id: PM7-F7
     finding_label: Dietary choline forms supply methyl groups to the PEMT route
     presentation: mechanistic-basis
     fm_rollup: false
-    finding_summary: Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.
-    finding_interpretation: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
-    finding_statement: Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.
+    finding_summary: >-
+      Choline and dietary phosphatidylcholine can provide methyl groups used in
+      PEMT-dependent phosphatidylcholine formation.
+    finding_interpretation: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
+    finding_statement: >-
+      Choline and dietary phosphatidylcholine can provide methyl groups used in
+      PEMT-dependent phosphatidylcholine formation.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Provision is supported by methyl-derived labelling, separately from intact-headgroup PC. This does not establish indispensable dependence or enhanced activity.'
-    synthesis_limitations: 'Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.'
+    synthesis: >-
+      Provision is supported by methyl-derived labelling, separately from
+      intact-headgroup PC. This does not establish indispensable dependence or
+      enhanced activity.
+    synthesis_limitations: >-
+      Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
+      ordinary-food equivalence or benefit.
     evidence_considered:
       - label: Böckmann et al. (2023)
         citation_key: bockmann_choline_supplements_2023
@@ -589,10 +1171,18 @@ scientific_findings:
         assessment:
           study: 'Randomised crossover, labelled choline forms; full text assessed.'
           population: Six healthy men.
-          result: 'Results subsection D3-PC from the PEMT pathway: Figure S5B reports delayed D3-PC after all four inputs; S5A relates it to betaine labelling.'
+          result: >-
+            Results subsection D3-PC from the PEMT pathway: Figure S5B reports
+            delayed D3-PC after all four inputs; S5A relates it to betaine
+            labelling.
           effect_magnitude: No significant D3-PC difference between formulations.
-          evidence_summary: D3-PC supports methyl-donor provision after choline chloride and POPC.
-          limitations: 'D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM intermediates and hepatic origin are mechanistically attributed, not directly measured here.'
+          evidence_summary: >-
+            D3-PC supports methyl-donor provision after choline chloride and
+            POPC.
+          limitations: >-
+            D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM
+            intermediates and hepatic origin are mechanistically attributed, not
+            directly measured here.
 key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
 pm_kc_relationships:
@@ -605,26 +1195,145 @@ pm_kc_relationships:
     applicability_label: Conditional applicability
     kc_href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
     origin_label: 'KC1: Methyl Donor Pool'
-    reader_description: A limited or imbalanced methyl-donor pool can constrain hepatic PEMT-dependent phosphatidylcholine formation in demonstrated animal contexts.
+    reader_description: >-
+      A limited or imbalanced methyl-donor pool can constrain hepatic
+      PEMT-dependent phosphatidylcholine formation in demonstrated animal
+      contexts.
     description_finding_id: PM7-F5
-    pm_biological_role: One-carbon donor insufficiency or imbalance can constrain PEMT-dependent formation; folate restriction reduced hepatic methyl incorporation in female mice.
+    pm_biological_role: >-
+      One-carbon donor insufficiency or imbalance can constrain PEMT-dependent
+      formation; folate restriction reduced hepatic methyl incorporation in
+      female mice.
     evidence_source: *ref_0
-    evidence_limitation: 'Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.'
+    evidence_limitation: >-
+      Conditional animal evidence; tracer enrichment is not absolute flux. No
+      universal donor limitation, human intake target or cognitive benefit is
+      established.
     constituent_relationships:
       - relationship_id: BRS2-FM3-PM7-KCI-1
         pm_atom_id: PM7-DIT-5
         kc_atom_id: BRS2-KC1-KIT-1
         kc_membership_status: canonical-reviewed
         label: Vitamin B9 (folate)
-        reader_description: Folate availability supports methyl-group provision for PEMT-dependent formation.
+        reader_description: >-
+          Folate availability supports methyl-group provision for PEMT-dependent
+          formation.
         description_finding_id: PM7-F5
+        substance_id: vitamin-b9
+        ikc_id: BRS2-KC1-KIT-1
+        canonical_identity:
+          status: resolved
+          substance_id: vitamin-b9
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+          verified_against:
+            - registry/substances.json
+            - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+        relationship_type: conditional-constraint
+        disposition: established
+        presentation_section: 3.1.3
       - relationship_id: BRS2-FM3-PM7-KCI-2
         pm_atom_id: PM7-DIT-6
         kc_atom_id: BRS2-KC1-KIT-3
         kc_membership_status: canonical-reviewed
         label: Betaine
-        reader_description: Betaine can support PEMT-dependent formation when methylation is impaired in the studied ethanol model.
+        reader_description: >-
+          Betaine can support PEMT-dependent formation when methylation is
+          impaired in the studied ethanol model.
         description_finding_id: PM7-F5
+        substance_id: betaine
+        ikc_id: BRS2-KC1-KIT-3
+        canonical_identity:
+          status: resolved
+          substance_id: betaine
+          substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+          verified_against:
+            - registry/substances.json
+            - docs/substances/bioactive-compounds/choline-methylation/betaine.md
+        relationship_type: conditional-constraint
+        disposition: established
+        presentation_section: 3.1.3
+    relationship_type: conditional-constraint
+    legacy_relationship_mode: constrained-by
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC2)
+      ikc_id: BRS2(KC2)
+      arm_id: methionine-cysteine-sulfur-amino-acid-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methionine and cysteine pool constrains hepatic
+        PEMT-dependent phosphatidylcholine formation.
+      disposition: unresolved
+      established_links:
+        - >-
+          Dietary methionine changed hepatic SAM and PC:PE with choline
+          maintained (PM7-F6).
+        - MAT1A deletion reduced measured PEMT activity in young mice (PM7-F6).
+      inferred_links:
+        - >-
+          Whether dietary inadequacy or imbalance of the named sulfur-amino-acid
+          pool constrains formation, rather than producing supplement-associated
+          or other metabolic differences.
+      evidence_source:
+        finding_ids:
+          - PM7-F1
+          - PM7-F6
+        citation_keys:
+          - sugiyama_methionine_pe_1998
+          - shimada_methionine_desaturase_2003
+          - cano_mat1a_vldl_2011
+      rationale: >-
+        Unresolved exposure-to-capacity inference, not an imposed
+        human/absolute-flux gate. Full dietary-study methods are needed to
+        assess intake adequacy, inhibitor specificity and competing effects;
+        supported triangulation could resolve this. Cysteine need not act
+        interchangeably with methionine.
+    rationale: >-
+      Focused reassessment updates evidence/gap while keeping the stronger
+      constraint unresolved.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC1)
+      ikc_id: BRS2(KC1)
+      arm_id: one-carbon-methyl-donor-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methyl-donor pool constrains hepatic
+        PEMT-dependent phosphatidylcholine formation.
+      disposition: established
+      established_links:
+        - >-
+          KC1 defines folate, choline and betaine as a coherent remethylation
+          donor pool; B12 remains an excluded cofactor.
+        - >-
+          Folate restriction with choline maintained reduced hepatic
+          methyl-derived PC enrichment in female mice (PM7-F5).
+        - >-
+          Betaine restored reported PEMT-mediated production under
+          ethanol-induced methylation imbalance (PM7-F5; abstract-level
+          complementary evidence).
+      inferred_links:
+        - >-
+          Absolute formation rate, universal donor limitation and human or
+          cognitive benefit are not established.
+      evidence_source:
+        finding_ids:
+          - PM7-F1
+          - PM7-F5
+        citation_keys:
+          - chew_folate_choline_2011
+          - kharbanda_betaine_pemt_2007
+      rationale: >-
+        Type D is met conditionally: named-donor restriction and complementary
+        imbalance rescue connect this pool to pathway-specific formation.
+        Enrichment is not absolute flux; a human or one end-to-end flux assay is
+        not mandatory.
+      applicability_mode: constrained-by
+    rationale: >-
+      Metadata migration only: preserve the established governs/constrained-by
+      interpretation as a typed Conditional constraint for FM summary
+      derivation. No stronger scientific admission.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

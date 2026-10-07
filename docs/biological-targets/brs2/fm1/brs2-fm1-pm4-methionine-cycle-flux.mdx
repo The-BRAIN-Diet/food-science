@@ -86,6 +86,9 @@ references:
   - >-
     [Salvi and Gadda (2013) — Choline dehydrogenase and betaine
     formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)
+  - >-
+    [Stam et al. (2005) — Folic Acid and Whole-Body Methyl
+    Flux](/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -181,22 +184,31 @@ kc_applicability_adjudications:
       - >-
         Folic acid lowered blood homocysteine concentration, with a further
         concentration reduction when vitamin B12 was added (PM4-IC1).
+      - >-
+        Stam 2005 directly measured higher whole-body remethylation and
+        transmethylation after folic acid; the earlier concentration-only
+        account is incomplete.
     inferred_links:
       - >-
-        A lower homocysteine concentration means the dietary methyl-donor pool
-        was limiting integrated cycle rates.
+        Evidence for inadequacy of the named shared pool constraining integrated
+        branch allocation, separated from a pharmacological folic-acid response.
     evidence_source:
       finding_ids:
         - PM4-F1
         - PM4-IC1
+        - PM4-F6
       citation_keys:
         - finkelstein_homocysteine_1998
         - collaboration_lowering_1998
+        - stam_folic_acid_methyl_flux_2005
     rationale: >-
-      Methyl-tetrahydrofolate is a named effector of the split, and folic acid
-      changes blood homocysteine concentration. Neither result shows that
-      inadequacy of the folate, choline and betaine pool changes remethylation
-      or transsulfuration rates.
+      The newly retrieved kinetic study supports context-specific intervention
+      responsiveness, not inadequacy of every KC1 constituent or a uniform
+      branch-allocation constraint.
+    evidence_gap: >-
+      Evidence for inadequacy of the named shared pool constraining integrated
+      branch allocation, separated from a pharmacological folic-acid response.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
   - kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
     arm_id: methionine-cysteine-pool
@@ -215,10 +227,15 @@ kc_applicability_adjudications:
         In aged mice, too little or too much methionine removed benefits of a
         low-amino-acid longevity diet on frailty and metabolic signalling
         (connected evidence on PM4-F1).
+      - >-
+        Lamers 2011 measured human methionine-cycle rates and shows
+        context-dependent preservation under moderate B6 restriction; it did not
+        manipulate the sulfur pool.
     inferred_links:
       - >-
-        Dietary inadequacy of the shared methionine–cysteine pool therefore
-        limits human cycle rates.
+        A defined nutritional/impairment context connecting the named sulfur
+        pool to altered remethylation–transsulfuration allocation beyond
+        substrate provision.
     evidence_source:
       finding_ids:
         - PM4-F1
@@ -227,11 +244,14 @@ kc_applicability_adjudications:
         - finkelstein_homocysteine_1998
         - fanti_methionine_longevity_diet_2026
     rationale: >-
-      Methionine is required to enter the cycle, and excess methionine can
-      support continued hepatic SAM synthesis. A mouse methionine-balance
-      experiment changed frailty and metabolic signalling. None of these results
-      shows that inadequacy of the shared methionine–cysteine pool limits the
-      human branch rates this mechanism governs.
+      Whole-body flux can be measured, but no universal human-flux requirement
+      is imposed. Mechanistic entry and mouse frailty outcomes do not establish
+      the additional shared-pool rate limitation.
+    evidence_gap: >-
+      A defined nutritional/impairment context connecting the named sulfur pool
+      to altered remethylation–transsulfuration allocation beyond substrate
+      provision.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: reviewed-member-supply
@@ -1177,6 +1197,56 @@ scientific_findings:
         Pathway reviews and enzyme studies are reused to identify reaction
         identities; they are not independent human integrated-cycle intervention
         trials.
+  - id: PM4-F6
+    finding_label: Pharmacological folic acid changes measured whole-body methyl flux
+    finding_summary: >-
+      A small human tracer study measured increased whole-body remethylation and
+      transmethylation after three weeks of folic acid; concentration changes
+      did not establish those rates.
+    finding_statement: >-
+      A small human tracer study measured increased whole-body remethylation and
+      transmethylation after three weeks of folic acid; concentration changes
+      did not establish those rates.
+    finding_interpretation: >-
+      Pharmacological folic acid, not ordinary food folate, a deprivation trial
+      or isolated tissue/whole-pool effect. Evidence access: Primary abstract.
+    presentation: mechanistic-basis
+    fm_rollup: false
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      A small human tracer study measured increased whole-body remethylation and
+      transmethylation after three weeks of folic acid; concentration changes
+      did not establish those rates.
+    synthesis_limitations: >-
+      Pharmacological folic acid, not ordinary food folate, a deprivation trial
+      or isolated tissue/whole-pool effect. Evidence access: Primary abstract.
+    evidence_considered:
+      - label: Stam et al. (2005)
+        citation_key: stam_folic_acid_methyl_flux_2005
+        href: /docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Whole-body remethylation increased 59% and transmethylation 20%;
+          concentrations did not track kinetic changes.
+        assessment:
+          study: >-
+            Three-week before/after folic acid with stable-isotope methionine
+            kinetics
+          population: 12 healthy subjects; 5 mg/day folic acid
+          result: >-
+            Whole-body remethylation increased 59% and transmethylation 20%;
+            concentrations did not track kinetic changes.
+          effect_magnitude: No general dietary efficacy or tissue-uniform effect is inferred.
+          evidence_summary: >-
+            Whole-body remethylation increased 59% and transmethylation 20%;
+            concentrations did not track kinetic changes.
+          limitations: >-
+            Pharmacological folic acid, not ordinary food folate, a deprivation
+            trial or isolated tissue/whole-pool effect. Evidence access: Primary
+            abstract.
+    connected_supportive_evidence: []
+    informs: []
 kc_adjudication_history:
   - date: '2026-10-07'
     decisions:
@@ -1250,6 +1320,83 @@ kc_adjudication_history:
     reason: >-
       Separate donor-supported remethylation within the integrated cycle from
       the unresolved limiting-effect proposition.
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC1)
+      ikc_id: BRS2(KC1)
+      arm_id: methyl-donor-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methyl-donor pool constrains integrated
+        methionine-cycle throughput or the remethylation–transsulfuration split.
+      disposition: unresolved
+      established_links:
+        - >-
+          Methyl-tetrahydrofolate is an effector of homocysteine distribution
+          between remethylation and conversion to cystathionine (PM4-F1).
+        - >-
+          Folic acid lowered blood homocysteine concentration, with a further
+          concentration reduction when vitamin B12 was added (PM4-IC1).
+      inferred_links:
+        - >-
+          A lower homocysteine concentration means the dietary methyl-donor pool
+          was limiting integrated cycle rates.
+      evidence_source:
+        finding_ids:
+          - PM4-F1
+          - PM4-IC1
+        citation_keys:
+          - finkelstein_homocysteine_1998
+          - collaboration_lowering_1998
+      rationale: >-
+        Methyl-tetrahydrofolate is a named effector of the split, and folic acid
+        changes blood homocysteine concentration. Neither result shows that
+        inadequacy of the folate, choline and betaine pool changes remethylation
+        or transsulfuration rates.
+    rationale: >-
+      Focused reassessment updates evidence/gap while keeping the stronger
+      constraint unresolved.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC2)
+      ikc_id: BRS2(KC2)
+      arm_id: methionine-cysteine-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methionine–cysteine pool constrains integrated
+        methionine-cycle throughput or the remethylation–transsulfuration split.
+      disposition: unresolved
+      established_links:
+        - >-
+          Methionine is the amino acid from which SAM and then homocysteine are
+          formed (PM4-F1).
+        - >-
+          A liver MAT isoenzyme allows excess methionine to continue SAM
+          synthesis (PM4-F1).
+        - >-
+          In aged mice, too little or too much methionine removed benefits of a
+          low-amino-acid longevity diet on frailty and metabolic signalling
+          (connected evidence on PM4-F1).
+      inferred_links:
+        - >-
+          Dietary inadequacy of the shared methionine–cysteine pool therefore
+          limits human cycle rates.
+      evidence_source:
+        finding_ids:
+          - PM4-F1
+        citation_keys:
+          - chiang_s-adenosylmethionine_1996
+          - finkelstein_homocysteine_1998
+          - fanti_methionine_longevity_diet_2026
+      rationale: >-
+        Methionine is required to enter the cycle, and excess methionine can
+        support continued hepatic SAM synthesis. A mouse methionine-balance
+        experiment changed frailty and metabolic signalling. None of these
+        results shows that inadequacy of the shared methionine–cysteine pool
+        limits the human branch rates this mechanism governs.
+    rationale: >-
+      Focused reassessment updates evidence/gap while keeping the stronger
+      constraint unresolved.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 pm_kc_relationships:
   - relationship_id: PM4-KC1-REMETHYLATION-SUPPLY
     kc_id: BRS2(KC1)
@@ -1535,6 +1682,9 @@ A controlled human tracer study found unchanged mean postprandial remethylation,
 
 <ScientificFinding finding={{"id":"PM4-F5","finding_label":"Folate and betaine routes return methionine to the integrated cycle","finding_summary":"Folate-dependent remethylation and the mainly hepatic/renal BHMT route return methionine to the integrated cycle; choline can supply betaine.","finding_interpretation":"These are evidenced methionine-return routes within this PM’s integrated cycle. Their existence does not establish that donor availability limits integrated branch rates or that greater intake improves cycle balance.","finding_statement":"Folate-dependent remethylation and the mainly hepatic/renal BHMT route return methionine to the integrated cycle; choline can supply betaine.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"Froese and Obeid identify the folate/B12 and betaine routes of methionine regeneration. Human BHMT biochemistry identifies betaine donation, and choline oxidation evidence identifies its precursor route. PM4-F1 independently establishes that regenerated methionine participates in the integrated methionine cycle. These links support donor-fed remethylation within that cycle, not a claim about measured net throughput or remethylation–transsulfuration balance.","synthesis_limitations":"Parallel-route compensation, dietary methionine and tissue-specific BHMT expression limit interpretation. Human circulating homocysteine responses are not branch-rate measurements. Donor inadequacy as a limiting determinant of integrated cycle rates remains unresolved.","evidence_considered":[{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes folate/B12 remethylation and placement before MAT synthesis; reviewed on PM1-F1.","canonical_reference":{"author_year":"Froese et al. (2019)","number":15,"anchor":"#pm-ref-15"}},{"label":"Obeid (2013)","citation_key":"obeid_metabolic_2013","href":"/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes betaine donation and choline provision in connected remethylation; reviewed on PM2-F1/F2.","canonical_reference":{"author_year":"Obeid (2013)","number":17,"anchor":"#pm-ref-17"}},{"label":"Evans et al. (2002)","citation_key":"evans_betaine_2002","href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","data_level":"Cellular / Molecular","evidence_source":"repository-inherited","directional_finding":"Human BHMT reaction identity; supports betaine-to-methionine provision, not dietary MAT responsiveness.","canonical_reference":{"author_year":"Evans et al. (2002)","number":18,"anchor":"#pm-ref-18"}},{"label":"Salvi and Gadda (2013)","citation_key":"salvi_choline_2013","href":"/docs/papers/BRAIN-Diet-References#salvi_choline_2013","data_level":"Cellular / Molecular","evidence_source":"repository-inherited","directional_finding":"Choline oxidation through betaine aldehyde to betaine; supports route identity, not MAT flux.","canonical_reference":{"author_year":"Salvi and Gadda (2013)","number":19,"anchor":"#pm-ref-19"}}],"connected_supportive_evidence":[],"informs":[],"evidence_dependency":["Pathway reviews and enzyme studies are reused to identify reaction identities; they are not independent human integrated-cycle intervention trials."]}} />
 
+<ScientificFinding finding={{"id":"PM4-F6","finding_label":"Pharmacological folic acid changes measured whole-body methyl flux","finding_summary":"A small human tracer study measured increased whole-body remethylation and transmethylation after three weeks of folic acid; concentration changes did not establish those rates.","finding_statement":"A small human tracer study measured increased whole-body remethylation and transmethylation after three weeks of folic acid; concentration changes did not establish those rates.","finding_interpretation":"Pharmacological folic acid, not ordinary food folate, a deprivation trial or isolated tissue/whole-pool effect. Evidence access: Primary abstract.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"A small human tracer study measured increased whole-body remethylation and transmethylation after three weeks of folic acid; concentration changes did not establish those rates.","synthesis_limitations":"Pharmacological folic acid, not ordinary food folate, a deprivation trial or isolated tissue/whole-pool effect. Evidence access: Primary abstract.","evidence_considered":[{"label":"Stam et al. (2005)","citation_key":"stam_folic_acid_methyl_flux_2005","href":"/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.","assessment":{"study":"Three-week before/after folic acid with stable-isotope methionine kinetics","population":"12 healthy subjects; 5 mg/day folic acid","result":"Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.","effect_magnitude":"No general dietary efficacy or tissue-uniform effect is inferred.","evidence_summary":"Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.","limitations":"Pharmacological folic acid, not ordinary food folate, a deprivation trial or isolated tissue/whole-pool effect. Evidence access: Primary abstract."},"canonical_reference":{"author_year":"Stam et al. (2005)","number":20,"anchor":"#pm-ref-20"}}],"connected_supportive_evidence":[],"informs":[]}} />
+
+
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
@@ -1667,3 +1817,4 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-17">[17]</span> [Obeid (2013) — Metabolic Burden of Methyl Donor Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
 - <span id="pm-ref-18">[18]</span> [Evans et al. (2002) — Human BHMT structure and catalytic zinc](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)
 - <span id="pm-ref-19">[19]</span> [Salvi and Gadda (2013) — Choline dehydrogenase and betaine formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)
+- <span id="pm-ref-20">[20]</span> [Stam et al. (2005) — Folic Acid and Whole-Body Methyl Flux](/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005)

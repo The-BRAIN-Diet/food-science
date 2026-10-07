@@ -1,10 +1,18 @@
 ---
 title: Neuronal Membrane DHA Incorporation
 pm_id: BRS1-FM3-PM7
-mission: 'Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.'
+mission: >-
+  Deliver and integrate DHA into neuronal membranes so the brain maintains a
+  flexible, signal-ready lipid foundation.
 parent_fm: BRS1(FM3)
 parent_brs: BRS1
-summary: 'DHA, a long-chain omega-3 fat, is built into the phospholipids of neuronal membranes. Membranes that contain it support the structure neurons use to signal. The carrier matters: DHA bound as lysophosphatidylcholine can cross into the brain, and in animals phospholipid DHA accumulated in the brain more than triglyceride DHA. That is structural delivery, not a general omega-3 effect.'
+summary: >-
+  DHA, a long-chain omega-3 fat, is built into the phospholipids of neuronal
+  membranes. Membranes that contain it support the structure neurons use to
+  signal. The carrier matters: DHA bound as lysophosphatidylcholine can cross
+  into the brain, and in animals phospholipid DHA accumulated in the brain more
+  than triglyceride DHA. That is structural delivery, not a general omega-3
+  effect.
 cofactors:
   - Choline
 intervention_dominance: Diet-Dominant
@@ -19,7 +27,9 @@ dietary_input_traceability:
   - atom_id: PM7-DIT-1
     input: DHA
     input_type: nutrient/substance
-    biological_role: Long-chain omega-3 fatty acid incorporated into neuronal-membrane phospholipids
+    biological_role: >-
+      Long-chain omega-3 fatty acid incorporated into neuronal-membrane
+      phospholipids
     evidence_source:
       finding_ids:
         - PM7-F1
@@ -29,20 +39,33 @@ dietary_input_traceability:
         - mcnamara_role_2006
         - patrick_role_2019
         - liu_higher_2014
-    evidence_limitation: Diet can provide DHA for membrane incorporation. That does not establish an ADHD treatment effect or a human dosing rule from the porcine phospholipid comparison.
+    evidence_limitation: >-
+      Diet can provide DHA for membrane incorporation. That does not establish
+      an ADHD treatment effect or a human dosing rule from the porcine
+      phospholipid comparison.
   - atom_id: PM7-DIT-2
     input: Choline
     input_type: supported upstream supply
-    biological_role: 'Choline can contribute methyl groups through the upstream methionine/SAM route to [BRS2 PM7 — PEMT-dependent phosphatidylcholine formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation). Methyl-derived LPC-DHA is a carrier used by MFSD2A for brain DHA delivery.'
+    biological_role: >-
+      Choline can contribute methyl groups through the upstream methionine/SAM
+      route to [BRS2 PM7 — PEMT-dependent phosphatidylcholine
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation).
+      Methyl-derived LPC-DHA is a carrier used by MFSD2A for brain DHA delivery.
     evidence_source:
       finding_ids:
         - PM7-F6
       citation_keys:
         - klatt_choline_lpc_dha_2019
         - nguyen_mfsd2a_transporter_dha_2014
-    evidence_limitation: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+    evidence_limitation: >-
+      Human plasma isotopic enrichment is not absolute hepatic flux, net carrier
+      supply or adult neuronal DHA incorporation. Higher choline intake did not
+      increase total plasma LPC-DHA in the feeding study. The carrier-to-brain
+      connection uses separate cell/mouse transport evidence. Donor inadequacy
+      as a limiting constraint, compensation and benefit from extra intake
+      remain unresolved.
     substance_id: choline
-    canonical_identity: &ref_0
+    canonical_identity: &ref_3
       status: resolved
       substance_id: choline
       substance_href: /docs/substances/bioactive-compounds/choline-methylation/choline
@@ -52,6 +75,80 @@ dietary_input_traceability:
     kc_id: BRS2(KC1)
     ikc_id: BRS2-KC1-KIT-2
     relationship_type: supported-upstream-supply
+  - atom_id: PM7-KC1-FOLATE-SUPPLY
+    input: Vitamin B9 (folate)
+    input_type: supported upstream supply
+    biological_role: >-
+      Folate-derived one-carbon units support [BRS2 PM1 —
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation),
+      replenishing methionine for SAM-dependent [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation),
+      upstream of DHA-bearing LPC carrier delivery.
+    evidence_source:
+      finding_ids:
+        - PM7-F7
+      citation_keys: &ref_0
+        - froese_vitamin_2019
+        - chew_folate_choline_2011
+        - bailey_human_mat2a_2021
+        - klatt_choline_lpc_dha_2019
+        - nguyen_mfsd2a_transporter_dha_2014
+    evidence_limitation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
+    substance_id: vitamin-b9
+    canonical_identity:
+      status: resolved
+      substance_id: vitamin-b9
+      substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-1
+    relationship_type: supported-upstream-supply
+  - atom_id: PM7-KC1-BETAINE-SUPPLY
+    input: Betaine
+    input_type: supported upstream supply
+    biological_role: >-
+      Betaine donates a methyl group through hepatic [BRS2 PM2 — BHMT
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation),
+      replenishing methionine/SAM used by [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+      upstream of DHA-bearing LPC carrier delivery.
+    evidence_source:
+      finding_ids:
+        - PM7-F7
+      citation_keys: &ref_1
+        - evans_betaine_2002
+        - kharbanda_betaine_pemt_2007
+        - bailey_human_mat2a_2021
+        - klatt_choline_lpc_dha_2019
+        - nguyen_mfsd2a_transporter_dha_2014
+    evidence_limitation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
+    substance_id: betaine
+    canonical_identity:
+      status: resolved
+      substance_id: betaine
+      substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/choline-methylation/betaine.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-3
+    relationship_type: supported-upstream-supply
 dietary_lever_atoms:
   - atom_id: PM7-DIT-1
     requirement_classification: direct
@@ -59,26 +156,81 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: 'DHA is a Direct dietary provision of the fatty acid being incorporated into neuronal membranes. Phospholipid-bound DHA is a delivery form, not a second independent clinical lever. This is not an ADHD treatment rule.'
-    evidence_limitation: Diet can provide DHA for membrane incorporation. That does not establish an ADHD treatment effect or a human dosing rule from the porcine phospholipid comparison.
+    permitted_wording: >-
+      DHA is a Direct dietary provision of the fatty acid being incorporated
+      into neuronal membranes. Phospholipid-bound DHA is a delivery form, not a
+      second independent clinical lever. This is not an ADHD treatment rule.
+    evidence_limitation: >-
+      Diet can provide DHA for membrane incorporation. That does not establish
+      an ADHD treatment effect or a human dosing rule from the porcine
+      phospholipid comparison.
   - atom_id: PM7-DIT-2
     relationship_layer: kc-relevance
     claim_ceiling: dietary-provision
-    permitted_wording: Choline participates in phosphatidylcholine chemistry that can carry DHA. That is not a Direct choline requirement for membrane incorporation.
-    evidence_limitation: 'Patrick and Liu show phospholipid-DHA carrier form, not that dietary choline intake limits DHA incorporation into human neuronal membranes.'
+    permitted_wording: >-
+      Choline participates in phosphatidylcholine chemistry that can carry DHA.
+      That is not a Direct choline requirement for membrane incorporation.
+    evidence_limitation: >-
+      Patrick and Liu show phospholipid-DHA carrier form, not that dietary
+      choline intake limits DHA incorporation into human neuronal membranes.
     dietary_addressability: indirect/resource
+  - atom_id: PM7-KC1-FOLATE-SUPPLY
+    relationship_layer: kc-relevance
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
+    permitted_wording: >-
+      Folate-derived one-carbon units support [BRS2 PM1 —
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation),
+      replenishing methionine for SAM-dependent [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation),
+      upstream of DHA-bearing LPC carrier delivery.
+    evidence_limitation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
+  - atom_id: PM7-KC1-BETAINE-SUPPLY
+    relationship_layer: kc-relevance
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
+    permitted_wording: >-
+      Betaine donates a methyl group through hepatic [BRS2 PM2 — BHMT
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation),
+      replenishing methionine/SAM used by [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+      upstream of DHA-bearing LPC carrier delivery.
+    evidence_limitation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
 dietary_lever_presentations:
   - atom_id: PM7-DIT-1
     label: DHA
     presentation_section: 3.1.1
-    reader_description: DHA is the omega-3 fat built into neuronal membranes. Phospholipid-bound DHA changes how the fat is carried for barrier transport; it is not a second independent treatment lever.
+    reader_description: >-
+      DHA is the omega-3 fat built into neuronal membranes. Phospholipid-bound
+      DHA changes how the fat is carried for barrier transport; it is not a
+      second independent treatment lever.
     description_finding_id: PM7-F1
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: observational
-    rationale: 'Membrane DHA is a structural context for synaptic signalling {{cite:mcnamara_role_2006}}. An observational multi-nutrient study in children seeking help for ADHD-related symptoms cannot isolate membrane DHA from co-supplemented minerals {{cite:huss_supplementation_2010}}. Omega-3 ADHD reviews remain contextual {{cite:pei-chen_chang_personalised_2021}}.'
+    rationale: >-
+      Membrane DHA is a structural context for synaptic signalling
+      {{cite:mcnamara_role_2006}}. An observational multi-nutrient study in
+      children seeking help for ADHD-related symptoms cannot isolate membrane
+      DHA from co-supplemented minerals {{cite:huss_supplementation_2010}}.
+      Omega-3 ADHD reviews remain contextual
+      {{cite:pei-chen_chang_personalised_2021}}.
     references:
       - index: 1
         label: Huss et al. (2010)
@@ -103,7 +255,12 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'DHA in neuronal phospholipids supports membrane architecture used in synaptic signalling {{cite:mcnamara_role_2006}} {{cite:patrick_role_2019}}. Delivery form can change accretion in an animal model {{cite:liu_higher_2014}}. Those are structural and transport findings, not cognitive-clarity scores after a human DHA change.'
+    rationale: >-
+      DHA in neuronal phospholipids supports membrane architecture used in
+      synaptic signalling {{cite:mcnamara_role_2006}}
+      {{cite:patrick_role_2019}}. Delivery form can change accretion in an
+      animal model {{cite:liu_higher_2014}}. Those are structural and transport
+      findings, not cognitive-clarity scores after a human DHA change.
     references:
       - index: 1
         label: McNamara and Carlson (2006)
@@ -129,7 +286,12 @@ phenome_relationships:
     relationship_type: modulates
     confidence: medium
     evidence_level: observational
-    rationale: 'Combined omega-3/6 with magnesium and zinc was followed by fewer emotional-problem scores in an observational ADHD-seeking cohort {{cite:huss_supplementation_2010}}. Membrane DHA remains the mechanism boundary; the multi-nutrient design cannot isolate incorporation {{cite:mcnamara_role_2006}}.'
+    rationale: >-
+      Combined omega-3/6 with magnesium and zinc was followed by fewer
+      emotional-problem scores in an observational ADHD-seeking cohort
+      {{cite:huss_supplementation_2010}}. Membrane DHA remains the mechanism
+      boundary; the multi-nutrient design cannot isolate incorporation
+      {{cite:mcnamara_role_2006}}.
     references:
       - index: 1
         label: Huss et al. (2010)
@@ -146,32 +308,98 @@ phenome_relationships:
       - PM7-F4
       - PM7-F1
 references:
-  - '[Patrick (2019) — Role of Phosphatidylcholine-DHA in Preventing APOE4-associated Alzheimer''s Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)'
-  - '[Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids, Magnesium and Zinc in Children Seeking Medical Advice for ADHD-related Problems](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)'
-  - '[McNamara and Carlson (2006) — Role of Omega-3 Fatty Acids in Brain Development and Function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)'
-  - '[Pei-Chen Chang (2021) — Personalised Medicine Focus on Omega-3 Fatty Acids and ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)'
-  - '[Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided as a Phospholipid than as a Triglyceride](/docs/papers/BRAIN-Diet-References#liu_higher_2014)'
-  - '[Colletti et al. (2021) — Advances in Technologies for Highly Active Omega-3 Fatty Acids from Krill Oil](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)'
-  - '[Patted et al. (2024) — Omega-3 Fatty Acids: Sources, Functions and Health Benefits](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)'
-  - '[Umhau et al. (2009) — Imaging incorporation of circulating docosahexaenoic acid into the human brain using positron emission tomography](/docs/papers/BRAIN-Diet-References#umhau_brain_docosahexaenoic_2009)'
-  - '[Giovacchini et al. (2002) — Brain incorporation of carbon-11-labelled arachidonic acid in young healthy humans measured with positron emission tomography](/docs/papers/BRAIN-Diet-References#giovacchini_brain_arachidonic_2002)'
-  - '[Genaro-Mattos et al. (2019) — Cholesterol Biosynthesis and Uptake in Developing Neurons](/docs/papers/BRAIN-Diet-References#genaro_mattos_cholesterol_2019)'
-  - '[Klatt et al. (2019) — Choline intake and methyl-derived plasma LPC-DHA](/docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019)'
-  - '[Nguyen et al. (2014) — MFSD2A transport of LPC-DHA into brain](/docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014)'
+  - >-
+    [Patrick (2019) — Role of Phosphatidylcholine-DHA in Preventing
+    APOE4-associated Alzheimer's
+    Disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+  - >-
+    [Huss et al. (2010) — Supplementation of Polyunsaturated Fatty Acids,
+    Magnesium and Zinc in Children Seeking Medical Advice for ADHD-related
+    Problems](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)
+  - >-
+    [McNamara and Carlson (2006) — Role of Omega-3 Fatty Acids in Brain
+    Development and
+    Function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+  - >-
+    [Pei-Chen Chang (2021) — Personalised Medicine Focus on Omega-3 Fatty Acids
+    and
+    ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021)
+  - >-
+    [Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided as a
+    Phospholipid than as a
+    Triglyceride](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
+  - >-
+    [Colletti et al. (2021) — Advances in Technologies for Highly Active Omega-3
+    Fatty Acids from Krill
+    Oil](/docs/papers/BRAIN-Diet-References#colletti_advances_2021)
+  - >-
+    [Patted et al. (2024) — Omega-3 Fatty Acids: Sources, Functions and Health
+    Benefits](/docs/papers/BRAIN-Diet-References#patted_omega-3_2024)
+  - >-
+    [Umhau et al. (2009) — Imaging incorporation of circulating docosahexaenoic
+    acid into the human brain using positron emission
+    tomography](/docs/papers/BRAIN-Diet-References#umhau_brain_docosahexaenoic_2009)
+  - >-
+    [Giovacchini et al. (2002) — Brain incorporation of carbon-11-labelled
+    arachidonic acid in young healthy humans measured with positron emission
+    tomography](/docs/papers/BRAIN-Diet-References#giovacchini_brain_arachidonic_2002)
+  - >-
+    [Genaro-Mattos et al. (2019) — Cholesterol Biosynthesis and Uptake in
+    Developing
+    Neurons](/docs/papers/BRAIN-Diet-References#genaro_mattos_cholesterol_2019)
+  - >-
+    [Klatt et al. (2019) — Choline intake and methyl-derived plasma
+    LPC-DHA](/docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019)
+  - >-
+    [Nguyen et al. (2014) — MFSD2A transport of LPC-DHA into
+    brain](/docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014)
+  - >-
+    [Chew et al. (2011) — Upstream Methyl Resource or DHA Carrier
+    Evidence](/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011)
+  - >-
+    [Kharbanda et al. (2007) — Upstream Methyl Resource or DHA Carrier
+    Evidence](/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007)
+  - >-
+    [Froese et al. (2019) — Upstream Methyl Resource or DHA Carrier
+    Evidence](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+  - >-
+    [Bailey et al. (2021) — Upstream Methyl Resource or DHA Carrier
+    Evidence](/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021)
+  - >-
+    [Evans et al. (2002) — Upstream Methyl Resource or DHA Carrier
+    Evidence](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)
 kc_applicability_adjudications:
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: one-carbon-methyl-donor-pool
-    applicability_proposition: Inadequacy of the shared methyl-donor pool can constrain this mechanism’s governed neuronal-membrane DHA-incorporation capacity.
+    applicability_proposition: >-
+      Inadequacy of the shared methyl-donor pool can constrain this mechanism’s
+      governed neuronal-membrane DHA-incorporation capacity.
     disposition: unresolved
     established_links:
       - Phospholipid-DHA carrier biology is supported by PM7-F2 and PM7-F3.
-      - Upstream BRS2-FM3-PM7 conditionally admits KC1 for hepatic PEMT formation using donor-restriction evidence (PM7-F5; chew_folate_choline_2011). This upstream admission is not automatically inherited.
-      - 'Human feeding evidence supports methyl-derived LPC-DHA enrichment, not absolute carrier supply or brain uptake: Klatt et al., https://doi.org/10.1017/S0007114519002009 (Figures 5–7).'
-      - 'MFSD2A loss reduces labelled LPC-DHA brain uptake in mice: Nguyen et al. (2014), https://pubmed.ncbi.nlm.nih.gov/24828044/.'
-      - 'PEMT knockout and dietary DHA rescue connect PEMT biology to fetal brain phospholipid DHA: da Costa et al. (2010), https://pubmed.ncbi.nlm.nih.gov/19889625/. Genetic enzyme loss is not donor inadequacy, and fetal accretion is not adult maintenance.'
+      - >-
+        Upstream BRS2-FM3-PM7 conditionally admits KC1 for hepatic PEMT
+        formation using donor-restriction evidence (PM7-F5;
+        chew_folate_choline_2011). This upstream admission is not automatically
+        inherited.
+      - >-
+        Human feeding evidence supports methyl-derived LPC-DHA enrichment, not
+        absolute carrier supply or brain uptake: Klatt et al.,
+        https://doi.org/10.1017/S0007114519002009 (Figures 5–7).
+      - >-
+        MFSD2A loss reduces labelled LPC-DHA brain uptake in mice: Nguyen et al.
+        (2014), https://pubmed.ncbi.nlm.nih.gov/24828044/.
+      - >-
+        PEMT knockout and dietary DHA rescue connect PEMT biology to fetal brain
+        phospholipid DHA: da Costa et al. (2010),
+        https://pubmed.ncbi.nlm.nih.gov/19889625/. Genetic enzyme loss is not
+        donor inadequacy, and fetal accretion is not adult maintenance.
     inferred_links:
-      - Named methyl-donor inadequacy reduces net brain-available DHA-carrier supply sufficiently to constrain the DHA incorporation capacity governed here; compensation and clearance are not resolved.
+      - >-
+        Named methyl-donor inadequacy reduces net brain-available DHA-carrier
+        supply sufficiently to constrain the DHA incorporation capacity governed
+        here; compensation and clearance are not resolved.
     evidence_source:
       finding_ids:
         - PM7-F2
@@ -179,118 +407,265 @@ kc_applicability_adjudications:
       citation_keys:
         - patrick_role_2019
         - liu_higher_2014
-    rationale: 'Retain unresolved, not rejected. A supported upstream chain is permissible; no end-to-end human trial or absolute-flux assay is universally required. The prior carrier-only assessment did not review the relevant upstream chain. Supplementary primary sources are identified in established_links and appraised in the Stage 2B report. They support carrier production, transport and a developmental PEMT dependency, but do not yet establish that named-donor inadequacy constrains this PM''s capacity in an applicable context. Resolve the effect of donor inadequacy on net carrier availability and brain incorporation, including compensatory routes; an explicitly evidenced mechanistic chain may suffice. No admitted mapping follows from relevance alone, and no biological absence follows from non-admission.'
+    rationale: >-
+      Retain unresolved, not rejected. A supported upstream chain is
+      permissible; no end-to-end human trial or absolute-flux assay is
+      universally required. The prior carrier-only assessment did not review the
+      relevant upstream chain. Supplementary primary sources are identified in
+      established_links and appraised in the Stage 2B report. They support
+      carrier production, transport and a developmental PEMT dependency, but do
+      not yet establish that named-donor inadequacy constrains this PM's
+      capacity in an applicable context. Resolve the effect of donor inadequacy
+      on net carrier availability and brain incorporation, including
+      compensatory routes; an explicitly evidenced mechanistic chain may
+      suffice. No admitted mapping follows from relevance alone, and no
+      biological absence follows from non-admission.
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: dha-carrier-upstream-supply
-    applicability_proposition: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+    applicability_proposition: >-
+      Human plasma isotopic enrichment is not absolute hepatic flux, net carrier
+      supply or adult neuronal DHA incorporation. Higher choline intake did not
+      increase total plasma LPC-DHA in the feeding study. The carrier-to-brain
+      connection uses separate cell/mouse transport evidence. Donor inadequacy
+      as a limiting constraint, compensation and benefit from extra intake
+      remain unresolved.
     disposition: established
     applicability_mode: supported-upstream-supply
     established_links:
       - Human choline tracing identifies methyl-derived plasma LPC-DHA.
       - Separate MFSD2A experiments establish cell/mouse LPC-DHA transport.
+      - >-
+        Individually adjudicated folate/MTR and betaine/BHMT supply joins the
+        source-supported SAM/PEMT and LPC-DHA transport chains.
     inferred_links:
-      - Cross-study/species connection; net adult brain incorporation and donor limitation are not measured.
-    evidence_source:
+      - >-
+        Cross-study/species connection; net adult brain incorporation and donor
+        limitation are not measured.
+    evidence_source: &ref_2
       finding_ids:
         - PM7-F6
+        - PM7-F7
       citation_keys:
         - klatt_choline_lpc_dha_2019
         - nguyen_mfsd2a_transporter_dha_2014
-    rationale: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+        - chew_folate_choline_2011
+        - kharbanda_betaine_pemt_2007
+        - froese_vitamin_2019
+        - bailey_human_mat2a_2021
+        - evans_betaine_2002
+    rationale: >-
+      Human plasma isotopic enrichment is not absolute hepatic flux, net carrier
+      supply or adult neuronal DHA incorporation. Higher choline intake did not
+      increase total plasma LPC-DHA in the feeding study. The carrier-to-brain
+      connection uses separate cell/mouse transport evidence. Donor inadequacy
+      as a limiting constraint, compensation and benefit from extra intake
+      remain unresolved.
   - kc_id: BRS2(KC1)
-    ikc_id: BRS2-KC1-KIT-1
-    arm_id: individual-dha-carrier-supply
-    applicability_proposition: Folate supplies DHA-bearing carriers upstream of this PM.
-    disposition: unresolved
+    ikc_id: BRS2(KC1)
+    arm_id: individual-brs2-kc1-kit-1-upstream-supply
+    applicability_proposition: >-
+      Folate-derived one-carbon units support [BRS2 PM1 —
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation),
+      replenishing methionine for SAM-dependent [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation),
+      upstream of DHA-bearing LPC carrier delivery.
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    established_links:
+      - >-
+        Folate-derived one-carbon units support [BRS2 PM1 —
+        remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation),
+        replenishing methionine for SAM-dependent [BRS2 PM7 — PEMT
+        formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation),
+        upstream of DHA-bearing LPC carrier delivery.
+    inferred_links:
+      - Greater intake increasing downstream flux or benefit is not established.
     evidence_source:
       finding_ids:
-        - PM7-F6
-      citation_keys:
-        - klatt_choline_lpc_dha_2019
-    rationale: The choline trial did not isolate folate supply. Appraise the named-input-to-DHA-carrier chain with tissue context and compensation; no universal human end-to-end assay is required.
+        - PM7-F7
+      citation_keys: *ref_0
+    rationale: >-
+      Individually reviewed supported chain; membership is not the admission
+      argument.
+    constituent_membership_id: BRS2-KC1-KIT-1
   - kc_id: BRS2(KC1)
-    ikc_id: BRS2-KC1-KIT-3
-    arm_id: individual-dha-carrier-supply
-    applicability_proposition: Betaine supplies DHA-bearing carriers upstream of this PM.
-    disposition: unresolved
+    ikc_id: BRS2(KC1)
+    arm_id: individual-brs2-kc1-kit-3-upstream-supply
+    applicability_proposition: >-
+      Betaine donates a methyl group through hepatic [BRS2 PM2 — BHMT
+      remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation),
+      replenishing methionine/SAM used by [BRS2 PM7 — PEMT
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+      upstream of DHA-bearing LPC carrier delivery.
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    established_links:
+      - >-
+        Betaine donates a methyl group through hepatic [BRS2 PM2 — BHMT
+        remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation),
+        replenishing methionine/SAM used by [BRS2 PM7 — PEMT
+        formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+        upstream of DHA-bearing LPC carrier delivery.
+    inferred_links:
+      - Greater intake increasing downstream flux or benefit is not established.
     evidence_source:
       finding_ids:
-        - PM7-F6
-      citation_keys:
-        - klatt_choline_lpc_dha_2019
-    rationale: The choline trial did not isolate betaine supply. Appraise the named-input-to-DHA-carrier chain with tissue context and compensation; no universal human end-to-end assay is required.
+        - PM7-F7
+      citation_keys: *ref_1
+    rationale: >-
+      Individually reviewed supported chain; membership is not the admission
+      argument.
+    constituent_membership_id: BRS2-KC1-KIT-3
 hide_title: true
-scientific_findings_intro: 'Human PET and plasma measurements estimated whole-brain DHA incorporation at 3.8 ± 1.7 mg/day; turnover and half-life estimates additionally used a previously reported brain DHA pool and steady-state assumptions. [[8]](#pm-ref-8) A porcine study found greater gray-matter DHA accretion from phospholipid-bound than triglyceride-bound DHA, consistent with reviewed carrier-dependent delivery biology. [[5]](#pm-ref-5) [[1]](#pm-ref-1) These findings establish measured incorporation and delivery-form relevance, without defining an optimal oral dose, capsule-to-brain transfer fraction or cognitive benefit.'
+scientific_findings_intro: >-
+  Human PET and plasma measurements estimated whole-brain DHA incorporation at
+  3.8 ± 1.7 mg/day; turnover and half-life estimates additionally used a
+  previously reported brain DHA pool and steady-state assumptions.
+  [[8]](#pm-ref-8) A porcine study found greater gray-matter DHA accretion from
+  phospholipid-bound than triglyceride-bound DHA, consistent with reviewed
+  carrier-dependent delivery biology. [[5]](#pm-ref-5) [[1]](#pm-ref-1) These
+  findings establish measured incorporation and delivery-form relevance, without
+  defining an optimal oral dose, capsule-to-brain transfer fraction or cognitive
+  benefit.
 scientific_findings:
   - id: PM7-F1
     finding_label: DHA is a structural neuronal-membrane polyunsaturated fat
-    finding_summary: 'Docosahexaenoic acid (DHA) is a long-chain omega-3 fat built into neuronal-membrane phospholipids. That is a structural role, not a dosing rule.'
-    finding_interpretation: This supports the mission of a signal-ready lipid foundation. It does not show that a single meal resets membranes or that DHA treats ADHD.
+    finding_summary: >-
+      Docosahexaenoic acid (DHA) is a long-chain omega-3 fat built into
+      neuronal-membrane phospholipids. That is a structural role, not a dosing
+      rule.
+    finding_interpretation: >-
+      This supports the mission of a signal-ready lipid foundation. It does not
+      show that a single meal resets membranes or that DHA treats ADHD.
     fm_rollup: true
-    finding_statement: DHA is a structural polyunsaturated fatty acid of neuronal membranes; that structural role is not a human dosing or ADHD-treatment rule.
+    finding_statement: >-
+      DHA is a structural polyunsaturated fatty acid of neuronal membranes; that
+      structural role is not a human dosing or ADHD-treatment rule.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: A review of omega-3 fats in brain development and function treats DHA as a major structural component of neuronal membranes with implications for signalling architecture. That supports reading this mechanism as membrane composition. It does not measure everyday dietary control of human membrane DHA or isolate ADHD treatment.
-    synthesis_limitations: Narrative review spanning development and psychopathology hypotheses. It is not a human membrane-accretion trial after a defined DHA food form.
+    synthesis: >-
+      A review of omega-3 fats in brain development and function treats DHA as a
+      major structural component of neuronal membranes with implications for
+      signalling architecture. That supports reading this mechanism as membrane
+      composition. It does not measure everyday dietary control of human
+      membrane DHA or isolate ADHD treatment.
+    synthesis_limitations: >-
+      Narrative review spanning development and psychopathology hypotheses. It
+      is not a human membrane-accretion trial after a defined DHA food form.
     evidence_considered:
       - label: McNamara and Carlson (2006)
         citation_key: mcnamara_role_2006
         href: /docs/papers/BRAIN-Diet-References#mcnamara_role_2006
         data_level: Animal Data
         evidence_source: repository-inherited
-        directional_finding: 'Long-chain omega-3 fats, especially DHA, are structural components of neuronal membranes relevant to brain development and function.'
+        directional_finding: >-
+          Long-chain omega-3 fats, especially DHA, are structural components of
+          neuronal membranes relevant to brain development and function.
         assessment:
-          study: 'Narrative review of omega-3 roles in brain development, function and psychopathology risk.'
-          population: 'Mixed developmental, animal and human literature summarised in the review.'
-          result: Identified DHA as a principal membrane PUFA with signalling-architecture implications.
+          study: >-
+            Narrative review of omega-3 roles in brain development, function and
+            psychopathology risk.
+          population: >-
+            Mixed developmental, animal and human literature summarised in the
+            review.
+          result: >-
+            Identified DHA as a principal membrane PUFA with
+            signalling-architecture implications.
           effect_magnitude: No dietary dose-response or ADHD treatment estimate.
           evidence_summary: Establishes the structural membrane role of DHA.
           limitations: Review synthesis; not a human incorporation trial.
     presentation: mechanistic-basis
   - id: PM7-F2
     finding_label: LPC-DHA uses MFSD2A for barrier transport
-    finding_summary: DHA carried as lysophosphatidylcholine (LPC-DHA) is a preferred substrate for MFSD2A transport at the blood–brain barrier. The phospholipid carrier form matters for presentation.
-    finding_interpretation: Phospholipid-bound DHA is delivery context for this mechanism. It is not a second independent clinical lever and does not by itself prove that choline intake constrains incorporation.
+    finding_summary: >-
+      DHA carried as lysophosphatidylcholine (LPC-DHA) is a preferred substrate
+      for MFSD2A transport at the blood–brain barrier. The phospholipid carrier
+      form matters for presentation.
+    finding_interpretation: >-
+      Phospholipid-bound DHA is delivery context for this mechanism. It is not a
+      second independent clinical lever and does not by itself prove that
+      choline intake constrains incorporation.
     fm_rollup: true
-    finding_statement: 'LPC-DHA is transported by MFSD2A more efficiently than free or triglyceride-bound DHA; carrier form is a transport property, not a choline-intake or ADHD-dosing rule.'
+    finding_statement: >-
+      LPC-DHA is transported by MFSD2A more efficiently than free or
+      triglyceride-bound DHA; carrier form is a transport property, not a
+      choline-intake or ADHD-dosing rule.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: A phosphatidylcholine-DHA review describes conversion toward LPC-DHA and MFSD2A-mediated barrier transport as the efficient route relative to free or triglyceride-bound DHA. That establishes why phospholipid carriage is mechanistically distinct. It does not measure human membrane DHA after ordinary choline intake.
-    synthesis_limitations: 'Mechanistic and disease-context review, including APOE4 discussion. It is not a human dietary-choline or ADHD trial.'
+    synthesis: >-
+      A phosphatidylcholine-DHA review describes conversion toward LPC-DHA and
+      MFSD2A-mediated barrier transport as the efficient route relative to free
+      or triglyceride-bound DHA. That establishes why phospholipid carriage is
+      mechanistically distinct. It does not measure human membrane DHA after
+      ordinary choline intake.
+    synthesis_limitations: >-
+      Mechanistic and disease-context review, including APOE4 discussion. It is
+      not a human dietary-choline or ADHD trial.
     evidence_considered:
       - label: Patrick (2019)
         citation_key: patrick_role_2019
         href: /docs/papers/BRAIN-Diet-References#patrick_role_2019
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Phosphatidylcholine-DHA can generate LPC-DHA, which crosses the blood–brain barrier via MFSD2A more efficiently than non-phospholipid forms.'
+        directional_finding: >-
+          Phosphatidylcholine-DHA can generate LPC-DHA, which crosses the
+          blood–brain barrier via MFSD2A more efficiently than non-phospholipid
+          forms.
         assessment:
-          study: Review of phosphatidylcholine-DHA transport and APOE4-associated Alzheimer context.
-          population: Mixed human genetic and mechanistic literature; not a dietary ADHD sample.
-          result: Identified LPC-DHA / MFSD2A as the efficient barrier-transport route.
+          study: >-
+            Review of phosphatidylcholine-DHA transport and APOE4-associated
+            Alzheimer context.
+          population: >-
+            Mixed human genetic and mechanistic literature; not a dietary ADHD
+            sample.
+          result: >-
+            Identified LPC-DHA / MFSD2A as the efficient barrier-transport
+            route.
           effect_magnitude: No ordinary-diet incorporation estimate.
           evidence_summary: Establishes carrier-form transport chemistry.
           limitations: Review; does not show choline intake constrains DHA incorporation.
     presentation: mechanistic-basis
   - id: PM7-F3
     finding_label: Phospholipid DHA accretes more than triglyceride DHA in a porcine model
-    finding_summary: 'Dietary DHA provided as phospholipid produced higher gray-matter DHA accretion than the same fatty acid as triglyceride in neonatal piglets. That is an animal delivery-form finding, not a human dosing rule.'
-    finding_interpretation: Use this as evidence that phospholipid versus triglyceride form can change accretion in that model. Do not read it as a human capsule dose or an ADHD protocol.
+    finding_summary: >-
+      Dietary DHA provided as phospholipid produced higher gray-matter DHA
+      accretion than the same fatty acid as triglyceride in neonatal piglets.
+      That is an animal delivery-form finding, not a human dosing rule.
+    finding_interpretation: >-
+      Use this as evidence that phospholipid versus triglyceride form can change
+      accretion in that model. Do not read it as a human capsule dose or an ADHD
+      protocol.
     fm_rollup: true
-    finding_statement: Phospholipid-bound dietary DHA produced greater gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets; that animal contrast is not a human dosing or ADHD-treatment rule.
+    finding_statement: >-
+      Phospholipid-bound dietary DHA produced greater gray-matter DHA accretion
+      than triglyceride-bound DHA in neonatal piglets; that animal contrast is
+      not a human dosing or ADHD-treatment rule.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'A controlled porcine comparison found about 1.9-fold greater gray-matter DHA accretion from phospholipid DHA than from triglyceride DHA. That supports a delivery-form difference for accretion. It does not establish human membrane dosing or that choline intake, rather than the DHA phospholipid itself, was the limiting input.'
-    synthesis_limitations: 'Neonatal piglets, not children or adults. The contrast is lipid class of DHA, not a choline-supplement arm.'
+    synthesis: >-
+      A controlled porcine comparison found about 1.9-fold greater gray-matter
+      DHA accretion from phospholipid DHA than from triglyceride DHA. That
+      supports a delivery-form difference for accretion. It does not establish
+      human membrane dosing or that choline intake, rather than the DHA
+      phospholipid itself, was the limiting input.
+    synthesis_limitations: >-
+      Neonatal piglets, not children or adults. The contrast is lipid class of
+      DHA, not a choline-supplement arm.
     evidence_considered:
       - label: Liu et al. (2014)
         citation_key: liu_higher_2014
         href: /docs/papers/BRAIN-Diet-References#liu_higher_2014
         data_level: Animal Data
         evidence_source: repository-inherited
-        directional_finding: Phospholipid-bound dietary DHA produced higher brain gray-matter DHA accretion than triglyceride-bound DHA in neonatal piglets.
+        directional_finding: >-
+          Phospholipid-bound dietary DHA produced higher brain gray-matter DHA
+          accretion than triglyceride-bound DHA in neonatal piglets.
         assessment:
-          study: Controlled comparison of matched DHA intake as phospholipid versus triglyceride.
+          study: >-
+            Controlled comparison of matched DHA intake as phospholipid versus
+            triglyceride.
           population: Neonatal piglets.
-          result: Approximately 1.9-fold greater gray-matter DHA accretion from the phospholipid form.
+          result: >-
+            Approximately 1.9-fold greater gray-matter DHA accretion from the
+            phospholipid form.
           effect_magnitude: About 1.9-fold accretion contrast in that animal model.
           evidence_summary: Shows delivery form can change brain DHA accretion in piglets.
           limitations: Animal model; not a human dose and not a choline-intake test.
@@ -300,33 +675,58 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#colletti_advances_2021
         data_level: Mixed
         why_relevant: Reviews krill-oil phospholipid omega-3 composition and applications.
-        why_excluded: Sourcing and clinical-application review; not a neuronal-membrane incorporation measurement.
+        why_excluded: >-
+          Sourcing and clinical-application review; not a neuronal-membrane
+          incorporation measurement.
       - label: Patted et al. (2024)
         citation_key: patted_omega-3_2024
         href: /docs/papers/BRAIN-Diet-References#patted_omega-3_2024
         data_level: Mechanistic
-        why_relevant: 'Broader omega-3 source and function review, including contaminant-context discussion.'
-        why_excluded: General source review; not a finding on MFSD2A transport or membrane accretion.
+        why_relevant: >-
+          Broader omega-3 source and function review, including
+          contaminant-context discussion.
+        why_excluded: >-
+          General source review; not a finding on MFSD2A transport or membrane
+          accretion.
     presentation: mechanistic-basis
   - id: PM7-F4
     finding_label: Multi-nutrient ADHD-seeking observations cannot isolate membrane DHA
-    finding_summary: 'Children seeking help for ADHD-related symptoms showed attention and emotional-score changes after combined omega-3/6, magnesium and zinc. That observational mix cannot isolate neuronal-membrane DHA.'
-    finding_interpretation: Treat Huss as supportive phenome context with hard limits. It is not evidence that membrane DHA incorporation treats ADHD.
-    finding_statement: Observational multi-nutrient supplementation in ADHD-seeking children is translationally adjacent to attention and emotion scores; it cannot isolate membrane DHA incorporation as the cause.
+    finding_summary: >-
+      Children seeking help for ADHD-related symptoms showed attention and
+      emotional-score changes after combined omega-3/6, magnesium and zinc. That
+      observational mix cannot isolate neuronal-membrane DHA.
+    finding_interpretation: >-
+      Treat Huss as supportive phenome context with hard limits. It is not
+      evidence that membrane DHA incorporation treats ADHD.
+    finding_statement: >-
+      Observational multi-nutrient supplementation in ADHD-seeking children is
+      translationally adjacent to attention and emotion scores; it cannot
+      isolate membrane DHA incorporation as the cause.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: An observational cohort taking omega-3/6 with magnesium and zinc reported SNAP-IV and SDQ changes from baseline. An omega-3 ADHD review supplies personalised-medicine context. Together they keep attention and emotion mappings in view. They do not isolate phospholipid-DHA transport or membrane accretion.
-    synthesis_limitations: 'Uncontrolled observational design and co-supplemented minerals. Chang is a review, not a membrane-DHA trial.'
+    synthesis: >-
+      An observational cohort taking omega-3/6 with magnesium and zinc reported
+      SNAP-IV and SDQ changes from baseline. An omega-3 ADHD review supplies
+      personalised-medicine context. Together they keep attention and emotion
+      mappings in view. They do not isolate phospholipid-DHA transport or
+      membrane accretion.
+    synthesis_limitations: >-
+      Uncontrolled observational design and co-supplemented minerals. Chang is a
+      review, not a membrane-DHA trial.
     evidence_considered:
       - label: Huss et al. (2010)
         citation_key: huss_supplementation_2010
         href: /docs/papers/BRAIN-Diet-References#huss_supplementation_2010
         data_level: Human Study
         evidence_source: repository-inherited
-        directional_finding: 'Combined PUFA, magnesium and zinc was followed by attention and emotional-problem score changes; membrane DHA cannot be isolated.'
+        directional_finding: >-
+          Combined PUFA, magnesium and zinc was followed by attention and
+          emotional-problem score changes; membrane DHA cannot be isolated.
         assessment:
           study: Observational cohort of multi-nutrient supplementation.
           population: Children seeking medical advice for ADHD-related symptoms.
-          result: SNAP-IV attention/hyperactivity and SDQ emotional-problem scores improved versus baseline.
+          result: >-
+            SNAP-IV attention/hyperactivity and SDQ emotional-problem scores
+            improved versus baseline.
           effect_magnitude: Within-cohort score changes; no DHA-only contrast.
           evidence_summary: Supplies ADHD-adjacent outcome context with hard attribution limits.
           limitations: Observational; omega-3/6 plus magnesium and zinc; not membrane DHA.
@@ -336,32 +736,62 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021
         data_level: Mechanistic
         why_relevant: Reviews omega-3 fatty acids in ADHD as personalised-medicine context.
-        why_excluded: Narrative review; does not measure neuronal-membrane DHA incorporation.
+        why_excluded: >-
+          Narrative review; does not measure neuronal-membrane DHA
+          incorporation.
     presentation: phenome-relationship
     primary_phenome: Focus / Attention Stability
   - id: PM7-F5
     finding_label: Human brain DHA incorporation is not an oral dose requirement
-    finding_summary: 'A PET study in 14 healthy adults estimated whole-brain DHA incorporation at 3.8 ± 1.7 mg/day. This is brain uptake from circulating unesterified DHA, not a dietary or supplement dose.'
-    finding_interpretation: Distinguish measured tracer uptake and plasma DHA from model-derived net incorporation and turnover. These figures do not establish supplement efficacy or an optimal intake.
+    finding_summary: >-
+      A PET study in 14 healthy adults estimated whole-brain DHA incorporation
+      at 3.8 ± 1.7 mg/day. This is brain uptake from circulating unesterified
+      DHA, not a dietary or supplement dose.
+    finding_interpretation: >-
+      Distinguish measured tracer uptake and plasma DHA from model-derived net
+      incorporation and turnover. These figures do not establish supplement
+      efficacy or an optimal intake.
     fm_rollup: false
-    finding_statement: Human PET estimates of circulating DHA incorporation quantify brain replacement under studied conditions; they do not directly measure oral dose requirements.
+    finding_statement: >-
+      Human PET estimates of circulating DHA incorporation quantify brain
+      replacement under studied conditions; they do not directly measure oral
+      dose requirements.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Umhau et al. combined intravenous [1-11C]DHA PET incorporation coefficients with plasma unesterified DHA concentrations to estimate 3.8 ± 1.7 mg/day (mean ± SD) for the whole brain. Using a previously reported 5 g brain DHA pool, the authors estimated approximately 0.076% daily turnover and a 911-day (about 2.5-year) half-life under a steady-state replacement model.'
-    synthesis_limitations: 'The 5 g pool was an external estimate, not measured brain DHA in these participants. Net consumption and half-life are model-derived. The study did not test oral dosing, distinguish all delivery routes, measure supplement benefit, or establish needs during development, deficiency or disease.'
+    synthesis: >-
+      Umhau et al. combined intravenous [1-11C]DHA PET incorporation
+      coefficients with plasma unesterified DHA concentrations to estimate 3.8 ±
+      1.7 mg/day (mean ± SD) for the whole brain. Using a previously reported 5
+      g brain DHA pool, the authors estimated approximately 0.076% daily
+      turnover and a 911-day (about 2.5-year) half-life under a steady-state
+      replacement model.
+    synthesis_limitations: >-
+      The 5 g pool was an external estimate, not measured brain DHA in these
+      participants. Net consumption and half-life are model-derived. The study
+      did not test oral dosing, distinguish all delivery routes, measure
+      supplement benefit, or establish needs during development, deficiency or
+      disease.
     evidence_considered:
       - label: Umhau et al. (2009)
         citation_key: umhau_brain_docosahexaenoic_2009
         href: /docs/papers/BRAIN-Diet-References#umhau_brain_docosahexaenoic_2009
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: PET and plasma measurements supported an estimated adult whole-brain DHA incorporation rate of 3.8 ± 1.7 mg/day.
+        directional_finding: >-
+          PET and plasma measurements supported an estimated adult whole-brain
+          DHA incorporation rate of 3.8 ± 1.7 mg/day.
         assessment:
           study: 'Intravenous [1-11C]DHA PET kinetic study.'
           population: 14 healthy adult humans.
-          result: Measured tracer uptake and plasma DHA were used to calculate whole-brain net incorporation.
-          effect_magnitude: 3.8 ± 1.7 mg/day; estimated 911-day half-life using a reported 5 g pool.
+          result: >-
+            Measured tracer uptake and plasma DHA were used to calculate
+            whole-brain net incorporation.
+          effect_magnitude: >-
+            3.8 ± 1.7 mg/day; estimated 911-day half-life using a reported 5 g
+            pool.
           evidence_summary: Quantifies adult brain incorporation rather than oral intake.
-          limitations: Steady-state kinetic model; pool size assumed from prior literature; no oral supplementation comparison.
+          limitations: >-
+            Steady-state kinetic model; pool size assumed from prior literature;
+            no oral supplementation comparison.
         canonical_reference:
           author_year: Umhau et al. (2009)
           number: 8
@@ -371,43 +801,252 @@ scientific_findings:
     informs: []
   - id: PM7-F6
     finding_label: Choline contributes to methyl-derived LPC-DHA carrier supply
-    finding_summary: Choline tracing supports contribution to the PEMT-derived LPC-DHA route; separate transport experiments establish LPC-DHA as a brain-delivery substrate.
-    finding_statement: Choline tracing supports contribution to the PEMT-derived LPC-DHA route; separate transport experiments establish LPC-DHA as a brain-delivery substrate.
-    finding_interpretation: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+    finding_summary: >-
+      Choline tracing supports contribution to the PEMT-derived LPC-DHA route;
+      separate transport experiments establish LPC-DHA as a brain-delivery
+      substrate.
+    finding_statement: >-
+      Choline tracing supports contribution to the PEMT-derived LPC-DHA route;
+      separate transport experiments establish LPC-DHA as a brain-delivery
+      substrate.
+    finding_interpretation: >-
+      Human plasma isotopic enrichment is not absolute hepatic flux, net carrier
+      supply or adult neuronal DHA incorporation. Higher choline intake did not
+      increase total plasma LPC-DHA in the feeding study. The carrier-to-brain
+      connection uses separate cell/mouse transport evidence. Donor inadequacy
+      as a limiting constraint, compensation and benefit from extra intake
+      remain unresolved.
     presentation: mechanistic-basis
     fm_rollup: false
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The human controlled-feeding study distinguished methyl-derived d3-LPC-DHA from intact-choline-route d9-LPC-DHA. Higher choline intake increased d3 enrichment without increasing total plasma LPC-DHA. Separate MFSD2A cell assays and labelled uptake in mice establish the transport route. Connecting these studies supports bounded upstream carrier provision, not measured additional adult neuronal incorporation.'
-    synthesis_limitations: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+    synthesis: >-
+      The human controlled-feeding study distinguished methyl-derived d3-LPC-DHA
+      from intact-choline-route d9-LPC-DHA. Higher choline intake increased d3
+      enrichment without increasing total plasma LPC-DHA. Separate MFSD2A cell
+      assays and labelled uptake in mice establish the transport route.
+      Connecting these studies supports bounded upstream carrier provision, not
+      measured additional adult neuronal incorporation.
+    synthesis_limitations: >-
+      Human plasma isotopic enrichment is not absolute hepatic flux, net carrier
+      supply or adult neuronal DHA incorporation. Higher choline intake did not
+      increase total plasma LPC-DHA in the feeding study. The carrier-to-brain
+      connection uses separate cell/mouse transport evidence. Donor inadequacy
+      as a limiting constraint, compensation and benefit from extra intake
+      remain unresolved.
     evidence_considered:
       - label: Klatt et al. (2019)
         citation_key: klatt_choline_lpc_dha_2019
         href: /docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019
         data_level: Human Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: Higher choline intake increased methyl-derived d3-LPC-DHA enrichment but not total plasma LPC-DHA.
+        directional_finding: >-
+          Higher choline intake increased methyl-derived d3-LPC-DHA enrichment
+          but not total plasma LPC-DHA.
         assessment:
-          study: Post hoc isotope analysis of a controlled 10-week choline feeding trial with supplemental DHA.
-          population: 'Non-pregnant, pregnant and lactating women; not an adult brain-incorporation experiment.'
-          result: Figures 5–7 distinguish total LPC-DHA from d3 and d9 enrichment; d3 identifies the methyl-derived route.
-          effect_magnitude: No main choline effect on total plasma LPC-DHA; increased d3 enrichment. No brain uptake effect estimated.
+          study: >-
+            Post hoc isotope analysis of a controlled 10-week choline feeding
+            trial with supplemental DHA.
+          population: >-
+            Non-pregnant, pregnant and lactating women; not an adult
+            brain-incorporation experiment.
+          result: >-
+            Figures 5–7 distinguish total LPC-DHA from d3 and d9 enrichment; d3
+            identifies the methyl-derived route.
+          effect_magnitude: >-
+            No main choline effect on total plasma LPC-DHA; increased d3
+            enrichment. No brain uptake effect estimated.
           evidence_summary: Supports choline contribution to the methyl-derived carrier route.
-          limitations: Full Results and figure captions inspected. Plasma enrichment does not isolate net carrier production or brain delivery; reproductive context affects interpretation.
+          limitations: >-
+            Full Results and figure captions inspected. Plasma enrichment does
+            not isolate net carrier production or brain delivery; reproductive
+            context affects interpretation.
       - label: Nguyen et al. (2014)
         citation_key: nguyen_mfsd2a_transporter_dha_2014
         href: /docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014
         data_level: Animal Data
         evidence_source: bounded-external-search
-        directional_finding: MFSD2A transported LPC-DHA in cell assays; knockout mice had reduced labelled plasma-to-brain LPC uptake.
+        directional_finding: >-
+          MFSD2A transported LPC-DHA in cell assays; knockout mice had reduced
+          labelled plasma-to-brain LPC uptake.
         assessment:
           study: Cell transport experiments and Mfsd2a knockout mouse uptake studies.
           population: Cells and mice; not choline-fed adult humans.
-          result: Cell and brain uptake experiments establish the LPC-DHA transport substrate.
-          effect_magnitude: Reduced labelled uptake after transporter loss; no dietary methyl-donor effect estimate.
-          evidence_summary: Supports the carrier-to-brain transport link independently of dietary choline responsiveness.
-          limitations: Abstract and figure descriptions inspected; full subscription methods/results not obtained. Transporter loss is not donor inadequacy.
+          result: >-
+            Cell and brain uptake experiments establish the LPC-DHA transport
+            substrate.
+          effect_magnitude: >-
+            Reduced labelled uptake after transporter loss; no dietary
+            methyl-donor effect estimate.
+          evidence_summary: >-
+            Supports the carrier-to-brain transport link independently of
+            dietary choline responsiveness.
+          limitations: >-
+            Abstract and figure descriptions inspected; full subscription
+            methods/results not obtained. Transporter loss is not donor
+            inadequacy.
     connected_supportive_evidence: []
     informs: []
+  - id: PM7-F7
+    finding_label: >-
+      Folate and betaine replenish the methyl resource upstream of DHA-carrier
+      formation
+    finding_summary: >-
+      Folate-dependent remethylation and hepatic betaine/BHMT remethylation
+      replenish methionine for SAM-dependent PEMT chemistry, which connects to
+      the independently established methyl-derived LPC-DHA carrier route.
+    finding_statement: >-
+      Folate-dependent remethylation and hepatic betaine/BHMT remethylation
+      replenish methionine for SAM-dependent PEMT chemistry, which connects to
+      the independently established methyl-derived LPC-DHA carrier route.
+    finding_interpretation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
+    presentation: mechanistic-basis
+    fm_rollup: false
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Folate-dependent remethylation and hepatic betaine/BHMT remethylation
+      replenish methionine for SAM-dependent PEMT chemistry, which connects to
+      the independently established methyl-derived LPC-DHA carrier route.
+    synthesis_limitations: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
+    evidence_considered:
+      - label: Chew et al. (2011)
+        citation_key: chew_folate_choline_2011
+        href: /docs/papers/BRAIN-Diet-References#chew_folate_choline_2011
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Donor restriction reduced pathway-specific methyl incorporation in
+          female liver.
+        assessment:
+          study: >-
+            Eight-week folate restriction versus otherwise matched control diets
+            with labelled choline. Indexed primary methods, results and
+            discussion assessed.
+          population: Male and female Mthfr wild-type and heterozygous mice.
+          result: >-
+            Females had lower hepatic d3-PC enrichment and product/precursor
+            enrichment ratio; males lacked that hepatic response.
+          effect_magnitude: >-
+            Hepatic d3-PC enrichment 30% lower (P=0.017); d3-PC:d9-choline ratio
+            P=0.049.
+          evidence_summary: >-
+            Donor restriction reduced pathway-specific methyl incorporation in
+            female liver.
+          limitations: >-
+            Precursor enrichment, turnover and methyl competition affect this
+            measurement; total PEMT flux was not measured.
+      - label: Kharbanda et al. (2007)
+        citation_key: kharbanda_betaine_pemt_2007
+        href: /docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Betaine corrected production under an imposed methylation imbalance.
+        assessment:
+          study: >-
+            Control/ethanol liquid diets with or without 1% betaine for four
+            weeks. Primary abstract assessed; full assay methods unavailable.
+          population: Male Wistar rats.
+          result: >-
+            Betaine restored SAM:SAH balance and reported PEMT-mediated PC
+            production under ethanol exposure.
+          effect_magnitude: No usable numerical production estimate in the abstract.
+          evidence_summary: Betaine corrected production under an imposed methylation imbalance.
+          limitations: >-
+            Supplement rescue does not establish ordinary betaine deficiency;
+            assay details and ethanol context limit attribution.
+      - label: Froese et al. (2019)
+        citation_key: froese_vitamin_2019
+        href: /docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: >-
+          Establishes folate/B12 remethylation and placement before MAT
+          synthesis; reviewed on PM1-F1.
+      - label: Bailey et al. (2021)
+        citation_key: bailey_human_mat2a_2021
+        href: /docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Establishes methionine and ATP use in human MAT2A; reviewed on PM3-F1.
+      - label: Evans et al. (2002)
+        citation_key: evans_betaine_2002
+        href: /docs/papers/BRAIN-Diet-References#evans_betaine_2002
+        data_level: Cellular / Molecular
+        evidence_source: repository-inherited
+        directional_finding: >-
+          Human BHMT reaction identity; supports betaine-to-methionine
+          provision, not dietary MAT responsiveness.
+      - label: Klatt et al. (2019)
+        citation_key: klatt_choline_lpc_dha_2019
+        href: /docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Higher choline intake increased methyl-derived d3-LPC-DHA enrichment
+          but not total plasma LPC-DHA.
+        assessment:
+          study: >-
+            Post hoc isotope analysis of a controlled 10-week choline feeding
+            trial with supplemental DHA.
+          population: >-
+            Non-pregnant, pregnant and lactating women; not an adult
+            brain-incorporation experiment.
+          result: >-
+            Figures 5–7 distinguish total LPC-DHA from d3 and d9 enrichment; d3
+            identifies the methyl-derived route.
+          effect_magnitude: >-
+            No main choline effect on total plasma LPC-DHA; increased d3
+            enrichment. No brain uptake effect estimated.
+          evidence_summary: Supports choline contribution to the methyl-derived carrier route.
+          limitations: >-
+            Full Results and figure captions inspected. Plasma enrichment does
+            not isolate net carrier production or brain delivery; reproductive
+            context affects interpretation.
+      - label: Nguyen et al. (2014)
+        citation_key: nguyen_mfsd2a_transporter_dha_2014
+        href: /docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          MFSD2A transported LPC-DHA in cell assays; knockout mice had reduced
+          labelled plasma-to-brain LPC uptake.
+        assessment:
+          study: Cell transport experiments and Mfsd2a knockout mouse uptake studies.
+          population: Cells and mice; not choline-fed adult humans.
+          result: >-
+            Cell and brain uptake experiments establish the LPC-DHA transport
+            substrate.
+          effect_magnitude: >-
+            Reduced labelled uptake after transporter loss; no dietary
+            methyl-donor effect estimate.
+          evidence_summary: >-
+            Supports the carrier-to-brain transport link independently of
+            dietary choline responsiveness.
+          limitations: >-
+            Abstract and figure descriptions inspected; full subscription
+            methods/results not obtained. Transporter loss is not donor
+            inadequacy.
+    connected_supportive_evidence: []
+    informs: []
+    evidence_dependency:
+      - >-
+        Reuses klatt_choline_lpc_dha_2019 and nguyen_mfsd2a_transporter_dha_2014
+        from PM7-F6 for the downstream carrier/transport links; not independent
+        replication. BRS2 PM3-F4 and PM7-F5 sources are reused for specifically
+        assessed upstream links.
 pm_kc_relationships:
   - relationship_id: BRS1-PM7-BRS2-KC1-SUPPLY
     kc_id: BRS2(KC1)
@@ -415,16 +1054,24 @@ pm_kc_relationships:
     relationship_type: supported-upstream-supply
     input: Methyl-derived DHA-carrier supply
     input_type: supported upstream supply
-    pm_biological_role: '[BRS2 PM7 — PEMT-dependent phosphatidylcholine formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) contributes to the methyl-derived LPC-DHA carrier route upstream of this PM. Only the individually reviewed choline input is admitted here.'
-    evidence_source:
-      finding_ids:
-        - PM7-F6
-      citation_keys:
-        - klatt_choline_lpc_dha_2019
-        - nguyen_mfsd2a_transporter_dha_2014
-    evidence_limitation: 'Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.'
+    pm_biological_role: >-
+      Individually reviewed choline, folate and betaine routes contribute to
+      methionine/SAM supply for [BRS2 PM7 — PEMT-dependent carrier
+      formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation),
+      connecting to the LPC-DHA transport route upstream of this PM.
+    evidence_source: *ref_2
+    evidence_limitation: >-
+      Supported biochemical supply chain, not a demonstrated increase in net
+      adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT,
+      SAM turnover and carrier remodelling vary by context. Mouse folate effects
+      were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The
+      downstream human tracer study administered choline, not folate or betaine.
+      A donor-specific limiting effect and extra-intake benefit remain
+      unresolved.
     presentation_label: Methyl-derived DHA-carrier supply
-    reader_description: The methyl-donor pool connects to DHA delivery through the methyl-derived carrier route.
+    reader_description: >-
+      The methyl-donor pool connects to DHA delivery through the methyl-derived
+      carrier route.
     description_finding_id: PM7-F6
     applicability_label: Supported upstream supply
     origin_label: 'BRS2 KC1: Methyl Donor Pool'
@@ -435,17 +1082,110 @@ pm_kc_relationships:
         kc_atom_id: BRS2-KC1-KIT-2
         ikc_id: BRS2-KC1-KIT-2
         substance_id: choline
-        canonical_identity: *ref_0
+        canonical_identity: *ref_3
         kc_membership_status: canonical-reviewed
         relationship_type: supported-upstream-supply
         disposition: established
         presentation_section: 3.1.3
         label: Choline
-        reader_description: Choline can contribute to the methyl-derived carrier route that supplies DHA towards the brain.
+        reader_description: >-
+          Choline can contribute to the methyl-derived carrier route that
+          supplies DHA towards the brain.
         description_finding_id: PM7-F6
-        rationale: Independent human choline tracing plus supported LPC-DHA transport chain; not inheritance of all KC1 members or a limiting constraint.
+        rationale: >-
+          Independent human choline tracing plus supported LPC-DHA transport
+          chain; not inheritance of all KC1 members or a limiting constraint.
+      - relationship_id: PM7-KC1-FOLATE-SUPPLY-REL
+        pm_atom_id: PM7-KC1-FOLATE-SUPPLY
+        kc_atom_id: BRS2-KC1-KIT-1
+        ikc_id: BRS2-KC1-KIT-1
+        substance_id: vitamin-b9
+        canonical_identity:
+          status: resolved
+          substance_id: vitamin-b9
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+          verified_against:
+            - registry/substances.json
+            - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Vitamin B9 (folate)
+        reader_description: >-
+          Folate supports methionine regeneration for the methyl resource used
+          upstream of DHA-carrier formation.
+        description_finding_id: PM7-F7
+        rationale: >-
+          Source-supported route assessed individually; the limiting-effect
+          proposition is separate.
+      - relationship_id: PM7-KC1-BETAINE-SUPPLY-REL
+        pm_atom_id: PM7-KC1-BETAINE-SUPPLY
+        kc_atom_id: BRS2-KC1-KIT-3
+        ikc_id: BRS2-KC1-KIT-3
+        substance_id: betaine
+        canonical_identity:
+          status: resolved
+          substance_id: betaine
+          substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+          verified_against:
+            - registry/substances.json
+            - docs/substances/bioactive-compounds/choline-methylation/betaine.md
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Betaine
+        reader_description: >-
+          Betaine supports hepatic methionine regeneration for the methyl
+          resource used upstream of DHA-carrier formation.
+        description_finding_id: PM7-F7
+        rationale: >-
+          Source-supported route assessed individually; the limiting-effect
+          proposition is separate.
 key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC1)
+      ikc_id: BRS2-KC1-KIT-1
+      arm_id: individual-dha-carrier-supply
+      applicability_proposition: Folate supplies DHA-bearing carriers upstream of this PM.
+      disposition: unresolved
+      evidence_source:
+        finding_ids:
+          - PM7-F6
+        citation_keys:
+          - klatt_choline_lpc_dha_2019
+      rationale: >-
+        The choline trial did not isolate folate supply. Appraise the
+        named-input-to-DHA-carrier chain with tissue context and compensation;
+        no universal human end-to-end assay is required.
+    rationale: >-
+      Supply gap resolved through the explicitly assessed chain; stronger
+      conditional limitation is not admitted.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC1)
+      ikc_id: BRS2-KC1-KIT-3
+      arm_id: individual-dha-carrier-supply
+      applicability_proposition: Betaine supplies DHA-bearing carriers upstream of this PM.
+      disposition: unresolved
+      evidence_source:
+        finding_ids:
+          - PM7-F6
+        citation_keys:
+          - klatt_choline_lpc_dha_2019
+      rationale: >-
+        The choline trial did not isolate betaine supply. Appraise the
+        named-input-to-DHA-carrier chain with tissue context and compensation;
+        no universal human end-to-end assay is required.
+    rationale: >-
+      Supply gap resolved through the explicitly assessed chain; stronger
+      conditional limitation is not admitted.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -519,6 +1259,10 @@ No independently established local biochemical cofactors or substrates are speci
 
 - Choline
 
+- Vitamin B9 (folate)
+
+- Betaine
+
 </div>
 </div>
 </div>
@@ -568,13 +1312,23 @@ No evidence-qualified lifestyle relationship is projected.
 
 ## 4. Mechanistic Basis
 
-### Brain DHA replacement and supplement claims
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Brain DHA replacement and supplement claims</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 In 14 healthy adults, intravenous tracer PET and plasma measurements yielded an estimated **3.8 ± 1.7 mg/day** of whole-brain DHA incorporation (mean ± SD). This measures replacement from circulating DHA; it is **not the amount to eat or take as a supplement** Umhau et al. (2009) [[8]](#pm-ref-8).
 
 Using a previously reported **5 g brain DHA pool**, rather than measuring that stock in the participants, the authors estimated **0.076% daily turnover** and a **911-day half-life (about 2.5 years)**. These steady-state estimates do not establish an optimal oral dose, the proportion of a capsule reaching the brain, or clinical benefit. Absorption, peripheral metabolism and delivery form separate swallowed DHA from brain incorporation. In the 14 healthy adults studied, estimated whole-brain DHA incorporation averaged **3.8 ± 1.7 mg/day**. Under steady-state assumptions, this represents net replacement of a few milligrams daily: **3.8 − 1.7 = 2.1 mg/day** and **3.8 + 1.7 = 5.5 mg/day**, or approximately **2–6 mg/day** after rounding. This is a descriptive mean ± one standard deviation, not the observed minimum–maximum range, a recommended replacement range or a dietary intake target Umhau et al. (2009) [[8]](#pm-ref-8).
 
 **DHA is one part of brain lipid biology.** Human PET also measures incorporation of the omega-6 fatty acid arachidonic acid Giovacchini et al. (2002) [[9]](#pm-ref-9). Developing neuronal and glial cultures demonstrate local cholesterol synthesis and uptake Genaro-Mattos et al. (2019) [[10]](#pm-ref-10). These are distinct lipid processes, not evidence that additional supplements are required. This PM remains specific to DHA incorporation; the cholesterol culture study does not establish a dietary cholesterol requirement.
+
+</div>
+</div>
+</div>
 
 ### Summary
 
@@ -631,6 +1385,9 @@ Human PET and plasma measurements estimated whole-brain DHA incorporation at 3.8
 <ScientificFinding finding={{"id":"PM7-F5","finding_label":"Human brain DHA incorporation is not an oral dose requirement","finding_summary":"A PET study in 14 healthy adults estimated whole-brain DHA incorporation at 3.8 ± 1.7 mg/day. This is brain uptake from circulating unesterified DHA, not a dietary or supplement dose.","finding_interpretation":"Distinguish measured tracer uptake and plasma DHA from model-derived net incorporation and turnover. These figures do not establish supplement efficacy or an optimal intake.","fm_rollup":false,"finding_statement":"Human PET estimates of circulating DHA incorporation quantify brain replacement under studied conditions; they do not directly measure oral dose requirements.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Umhau et al. combined intravenous [1-11C]DHA PET incorporation coefficients with plasma unesterified DHA concentrations to estimate 3.8 ± 1.7 mg/day (mean ± SD) for the whole brain. Using a previously reported 5 g brain DHA pool, the authors estimated approximately 0.076% daily turnover and a 911-day (about 2.5-year) half-life under a steady-state replacement model.","synthesis_limitations":"The 5 g pool was an external estimate, not measured brain DHA in these participants. Net consumption and half-life are model-derived. The study did not test oral dosing, distinguish all delivery routes, measure supplement benefit, or establish needs during development, deficiency or disease.","evidence_considered":[{"label":"Umhau et al. (2009)","citation_key":"umhau_brain_docosahexaenoic_2009","href":"/docs/papers/BRAIN-Diet-References#umhau_brain_docosahexaenoic_2009","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"PET and plasma measurements supported an estimated adult whole-brain DHA incorporation rate of 3.8 ± 1.7 mg/day.","assessment":{"study":"Intravenous [1-11C]DHA PET kinetic study.","population":"14 healthy adult humans.","result":"Measured tracer uptake and plasma DHA were used to calculate whole-brain net incorporation.","effect_magnitude":"3.8 ± 1.7 mg/day; estimated 911-day half-life using a reported 5 g pool.","evidence_summary":"Quantifies adult brain incorporation rather than oral intake.","limitations":"Steady-state kinetic model; pool size assumed from prior literature; no oral supplementation comparison."},"canonical_reference":{"author_year":"Umhau et al. (2009)","number":8,"anchor":"#pm-ref-8"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[]}} />
 
 <ScientificFinding finding={{"id":"PM7-F6","finding_label":"Choline contributes to methyl-derived LPC-DHA carrier supply","finding_summary":"Choline tracing supports contribution to the PEMT-derived LPC-DHA route; separate transport experiments establish LPC-DHA as a brain-delivery substrate.","finding_statement":"Choline tracing supports contribution to the PEMT-derived LPC-DHA route; separate transport experiments establish LPC-DHA as a brain-delivery substrate.","finding_interpretation":"Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"The human controlled-feeding study distinguished methyl-derived d3-LPC-DHA from intact-choline-route d9-LPC-DHA. Higher choline intake increased d3 enrichment without increasing total plasma LPC-DHA. Separate MFSD2A cell assays and labelled uptake in mice establish the transport route. Connecting these studies supports bounded upstream carrier provision, not measured additional adult neuronal incorporation.","synthesis_limitations":"Human plasma isotopic enrichment is not absolute hepatic flux, net carrier supply or adult neuronal DHA incorporation. Higher choline intake did not increase total plasma LPC-DHA in the feeding study. The carrier-to-brain connection uses separate cell/mouse transport evidence. Donor inadequacy as a limiting constraint, compensation and benefit from extra intake remain unresolved.","evidence_considered":[{"label":"Klatt et al. (2019)","citation_key":"klatt_choline_lpc_dha_2019","href":"/docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Higher choline intake increased methyl-derived d3-LPC-DHA enrichment but not total plasma LPC-DHA.","assessment":{"study":"Post hoc isotope analysis of a controlled 10-week choline feeding trial with supplemental DHA.","population":"Non-pregnant, pregnant and lactating women; not an adult brain-incorporation experiment.","result":"Figures 5–7 distinguish total LPC-DHA from d3 and d9 enrichment; d3 identifies the methyl-derived route.","effect_magnitude":"No main choline effect on total plasma LPC-DHA; increased d3 enrichment. No brain uptake effect estimated.","evidence_summary":"Supports choline contribution to the methyl-derived carrier route.","limitations":"Full Results and figure captions inspected. Plasma enrichment does not isolate net carrier production or brain delivery; reproductive context affects interpretation."},"canonical_reference":{"author_year":"Klatt et al. (2019)","number":11,"anchor":"#pm-ref-11"}},{"label":"Nguyen et al. (2014)","citation_key":"nguyen_mfsd2a_transporter_dha_2014","href":"/docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"MFSD2A transported LPC-DHA in cell assays; knockout mice had reduced labelled plasma-to-brain LPC uptake.","assessment":{"study":"Cell transport experiments and Mfsd2a knockout mouse uptake studies.","population":"Cells and mice; not choline-fed adult humans.","result":"Cell and brain uptake experiments establish the LPC-DHA transport substrate.","effect_magnitude":"Reduced labelled uptake after transporter loss; no dietary methyl-donor effect estimate.","evidence_summary":"Supports the carrier-to-brain transport link independently of dietary choline responsiveness.","limitations":"Abstract and figure descriptions inspected; full subscription methods/results not obtained. Transporter loss is not donor inadequacy."},"canonical_reference":{"author_year":"Nguyen et al. (2014)","number":12,"anchor":"#pm-ref-12"}}],"connected_supportive_evidence":[],"informs":[]}} />
+
+<ScientificFinding finding={{"id":"PM7-F7","finding_label":"Folate and betaine replenish the methyl resource upstream of DHA-carrier formation","finding_summary":"Folate-dependent remethylation and hepatic betaine/BHMT remethylation replenish methionine for SAM-dependent PEMT chemistry, which connects to the independently established methyl-derived LPC-DHA carrier route.","finding_statement":"Folate-dependent remethylation and hepatic betaine/BHMT remethylation replenish methionine for SAM-dependent PEMT chemistry, which connects to the independently established methyl-derived LPC-DHA carrier route.","finding_interpretation":"Supported biochemical supply chain, not a demonstrated increase in net adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT, SAM turnover and carrier remodelling vary by context. Mouse folate effects were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The downstream human tracer study administered choline, not folate or betaine. A donor-specific limiting effect and extra-intake benefit remain unresolved.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"Folate-dependent remethylation and hepatic betaine/BHMT remethylation replenish methionine for SAM-dependent PEMT chemistry, which connects to the independently established methyl-derived LPC-DHA carrier route.","synthesis_limitations":"Supported biochemical supply chain, not a demonstrated increase in net adult brain DHA incorporation. Folate/choline compensation, hepatic BHMT, SAM turnover and carrier remodelling vary by context. Mouse folate effects were sex/tissue dependent; betaine rescue used ethanol-exposed rats. The downstream human tracer study administered choline, not folate or betaine. A donor-specific limiting effect and extra-intake benefit remain unresolved.","evidence_considered":[{"label":"Chew et al. (2011)","citation_key":"chew_folate_choline_2011","href":"/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Donor restriction reduced pathway-specific methyl incorporation in female liver.","assessment":{"study":"Eight-week folate restriction versus otherwise matched control diets with labelled choline. Indexed primary methods, results and discussion assessed.","population":"Male and female Mthfr wild-type and heterozygous mice.","result":"Females had lower hepatic d3-PC enrichment and product/precursor enrichment ratio; males lacked that hepatic response.","effect_magnitude":"Hepatic d3-PC enrichment 30% lower (P=0.017); d3-PC:d9-choline ratio P=0.049.","evidence_summary":"Donor restriction reduced pathway-specific methyl incorporation in female liver.","limitations":"Precursor enrichment, turnover and methyl competition affect this measurement; total PEMT flux was not measured."},"canonical_reference":{"author_year":"Chew et al. (2011)","number":13,"anchor":"#pm-ref-13"}},{"label":"Kharbanda et al. (2007)","citation_key":"kharbanda_betaine_pemt_2007","href":"/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Betaine corrected production under an imposed methylation imbalance.","assessment":{"study":"Control/ethanol liquid diets with or without 1% betaine for four weeks. Primary abstract assessed; full assay methods unavailable.","population":"Male Wistar rats.","result":"Betaine restored SAM:SAH balance and reported PEMT-mediated PC production under ethanol exposure.","effect_magnitude":"No usable numerical production estimate in the abstract.","evidence_summary":"Betaine corrected production under an imposed methylation imbalance.","limitations":"Supplement rescue does not establish ordinary betaine deficiency; assay details and ethanol context limit attribution."},"canonical_reference":{"author_year":"Kharbanda et al. (2007)","number":14,"anchor":"#pm-ref-14"}},{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes folate/B12 remethylation and placement before MAT synthesis; reviewed on PM1-F1.","canonical_reference":{"author_year":"Froese et al. (2019)","number":15,"anchor":"#pm-ref-15"}},{"label":"Bailey et al. (2021)","citation_key":"bailey_human_mat2a_2021","href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes methionine and ATP use in human MAT2A; reviewed on PM3-F1.","canonical_reference":{"author_year":"Bailey et al. (2021)","number":16,"anchor":"#pm-ref-16"}},{"label":"Evans et al. (2002)","citation_key":"evans_betaine_2002","href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","data_level":"Cellular / Molecular","evidence_source":"repository-inherited","directional_finding":"Human BHMT reaction identity; supports betaine-to-methionine provision, not dietary MAT responsiveness.","canonical_reference":{"author_year":"Evans et al. (2002)","number":17,"anchor":"#pm-ref-17"}},{"label":"Klatt et al. (2019)","citation_key":"klatt_choline_lpc_dha_2019","href":"/docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Higher choline intake increased methyl-derived d3-LPC-DHA enrichment but not total plasma LPC-DHA.","assessment":{"study":"Post hoc isotope analysis of a controlled 10-week choline feeding trial with supplemental DHA.","population":"Non-pregnant, pregnant and lactating women; not an adult brain-incorporation experiment.","result":"Figures 5–7 distinguish total LPC-DHA from d3 and d9 enrichment; d3 identifies the methyl-derived route.","effect_magnitude":"No main choline effect on total plasma LPC-DHA; increased d3 enrichment. No brain uptake effect estimated.","evidence_summary":"Supports choline contribution to the methyl-derived carrier route.","limitations":"Full Results and figure captions inspected. Plasma enrichment does not isolate net carrier production or brain delivery; reproductive context affects interpretation."},"canonical_reference":{"author_year":"Klatt et al. (2019)","number":11,"anchor":"#pm-ref-11"}},{"label":"Nguyen et al. (2014)","citation_key":"nguyen_mfsd2a_transporter_dha_2014","href":"/docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"MFSD2A transported LPC-DHA in cell assays; knockout mice had reduced labelled plasma-to-brain LPC uptake.","assessment":{"study":"Cell transport experiments and Mfsd2a knockout mouse uptake studies.","population":"Cells and mice; not choline-fed adult humans.","result":"Cell and brain uptake experiments establish the LPC-DHA transport substrate.","effect_magnitude":"Reduced labelled uptake after transporter loss; no dietary methyl-donor effect estimate.","evidence_summary":"Supports the carrier-to-brain transport link independently of dietary choline responsiveness.","limitations":"Abstract and figure descriptions inspected; full subscription methods/results not obtained. Transporter loss is not donor inadequacy."},"canonical_reference":{"author_year":"Nguyen et al. (2014)","number":12,"anchor":"#pm-ref-12"}}],"connected_supportive_evidence":[],"informs":[],"evidence_dependency":["Reuses klatt_choline_lpc_dha_2019 and nguyen_mfsd2a_transporter_dha_2014 from PM7-F6 for the downstream carrier/transport links; not independent replication. BRS2 PM3-F4 and PM7-F5 sources are reused for specifically assessed upstream links."]}} />
+
 
 ## 5. BRS Pathways and Connections
 
@@ -771,4 +1528,9 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-10">[10]</span> [Genaro-Mattos et al. (2019) — Cholesterol Biosynthesis and Uptake in Developing Neurons](/docs/papers/BRAIN-Diet-References#genaro_mattos_cholesterol_2019)
 - <span id="pm-ref-11">[11]</span> [Klatt et al. (2019) — Choline intake and methyl-derived plasma LPC-DHA](/docs/papers/BRAIN-Diet-References#klatt_choline_lpc_dha_2019)
 - <span id="pm-ref-12">[12]</span> [Nguyen et al. (2014) — MFSD2A transport of LPC-DHA into brain](/docs/papers/BRAIN-Diet-References#nguyen_mfsd2a_transporter_dha_2014)
+- <span id="pm-ref-13">[13]</span> [Chew et al. (2011) — Upstream Methyl Resource or DHA Carrier Evidence](/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011)
+- <span id="pm-ref-14">[14]</span> [Kharbanda et al. (2007) — Upstream Methyl Resource or DHA Carrier Evidence](/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007)
+- <span id="pm-ref-15">[15]</span> [Froese et al. (2019) — Upstream Methyl Resource or DHA Carrier Evidence](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+- <span id="pm-ref-16">[16]</span> [Bailey et al. (2021) — Upstream Methyl Resource or DHA Carrier Evidence](/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021)
+- <span id="pm-ref-17">[17]</span> [Evans et al. (2002) — Upstream Methyl Resource or DHA Carrier Evidence](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)
 
