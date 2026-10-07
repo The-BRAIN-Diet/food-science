@@ -42,8 +42,8 @@ static/img/foods/OrigOld/
 /docs/training
 docs/training/**
 docs/dietary-foundations/framework-review-and-corrections.mdx
-/system/framework-qc
-system/framework-qc/
+/system/framework-qc/*
+!/system/framework-qc/pm-open-issues.json
 src/data/framework-qc-public.generated.json
 scripts/out/framework-qc/
 scripts/out/therapeutic-area-evidence-scan.json
