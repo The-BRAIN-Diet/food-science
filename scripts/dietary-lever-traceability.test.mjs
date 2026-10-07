@@ -23,6 +23,7 @@ import {
   resolveLeverAtom,
 } from "./lib/dietary-lever-atoms.mjs";
 import { buildDietaryLeverDisclosureMap, dietaryLeverBulletKey } from "./lib/dietary-lever-disclosure.mjs";
+import { substanceHrefForInput } from "./lib/substance-input-pages.mjs";
 import { RETIRED_KC_HREFS, RETIRED_KC_IDS } from "./lib/kc-registry.mjs";
 
 const PM9 = path.join(
@@ -328,7 +329,7 @@ test("BRS2 KC1 Evidence Base titles expose constituent five-field disclosures", 
   const { data, content } = readBrs2Kc1();
   const map = buildDietaryLeverDisclosureMap(data);
   const expected = [
-    ["Folate", "Folate"],
+    ["Vitamin B9 (folate)", "Vitamin B9 (folate)"],
     ["Choline", "Choline"],
     ["Betaine (TMG)", "Betaine"],
   ];
@@ -381,7 +382,7 @@ test("multi-role reappearance preserves distinct atoms", () => {
   const { data } = readPm8();
   const inputs = (data.dietary_input_traceability || []).map((r) => r.input);
   assert.ok(inputs.includes("Vitamin B6"));
-  assert.ok(inputs.includes("Pyridoxal-5-phosphate (PLP)"));
+  assert.ok(inputs.includes("Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"));
   assert.notEqual(
     data.dietary_input_traceability.find((r) => r.input === "Vitamin B6").biological_role,
     data.dietary_input_traceability.find((r) => r.input.startsWith("Pyridoxal")).biological_role,
@@ -443,7 +444,10 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
   );
   assert.equal(data.dietary_lever_presentations?.length, 4);
   assert.ok(section3.includes("- Vitamin B6"));
-  assert.equal((section3.match(/- Pyridoxal-5′-phosphate \(PLP\)/g) || []).length, 2);
+  assert.equal(
+    (section3.match(/- Pyridoxal 5′-phosphate \(PLP; active vitamin B6 cofactor\)/g) || []).length,
+    2,
+  );
   assert.ok(section3.includes("- Glutamate"));
   assert.ok(section3.includes("No mapping established."));
   assert.ok(!section3.includes("Glutamate substrate context"));
@@ -456,14 +460,14 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
   assert.ok(!content.includes("PM Evidence qualification"));
   assert.ok(!content.includes("Conflict flag"));
   assert.ok(!content.includes("PM9-DIT-"));
-  assert.equal(data.cofactors?.[0], "Pyridoxal-5′-phosphate (PLP)");
+  assert.equal(data.cofactors?.[0], "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)");
   const issues = [];
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
   assert.deepEqual(issues, []);
   const map = buildDietaryLeverDisclosureMap(data);
   assert.equal(map.size, 4);
   assert.equal(
-    map.get(dietaryLeverBulletKey("Pyridoxal-5′-phosphate (PLP)", "", "3.1.1"))
+    map.get(dietaryLeverBulletKey("Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)", "", "3.1.1"))
       .compactQualifier,
     "Direct · Cofactor",
   );
@@ -510,7 +514,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
 
   const resolved = resolveAllLeverAtoms(data);
   assert.deepEqual(
-    resolved.map((atom) => atom.atom_id),
+    resolved.filter(atom => !atom.atom_id.startsWith("PM3-KC1-UPSTREAM")).map((atom) => atom.atom_id),
     ["PM3-DIT-1", "PM3-DIT-2", "PM3-DIT-3", "PM3-DIT-4", "PM3-DIT-5"],
   );
   assert.ok(resolved.every((atom) => atom.reference_numbers.length > 0));
@@ -541,7 +545,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
     "Derived · Substrate Provision → Methionine",
   );
 
-  const disclosures = [...buildDietaryLeverDisclosureMap(data).values()];
+  const disclosures = [...buildDietaryLeverDisclosureMap(data).values()].filter(item => item.inputType !== "Supported upstream supply");
   assert.equal(disclosures.length, 6);
   assert.deepEqual(
     disclosures.map((item) => item.title),
@@ -563,7 +567,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
   );
 });
 
-test("PM3 §3.1 keeps ATP biochemical and excludes upstream cycle nutrients", () => {
+test("PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3", () => {
   const { data, content } = readPm3();
   const section3 = content.slice(
     content.indexOf("3.1 Dietary Requirements"),
@@ -583,7 +587,7 @@ test("PM3 §3.1 keeps ATP biochemical and excludes upstream cycle nutrients", ()
   assert.ok(section3.includes("3.1.3 Key Constraints"));
   assert.ok(!section3.includes("Dietary Levers"));
   assert.ok(!section3.includes("Supporting Inputs"));
-  assert.equal((section3.match(/No mapping established\./g) || []).length, 1);
+  assert.equal((section3.match(/No mapping established\./g) || []).length, 0);
   assert.equal((section3.match(/Methionine substrate context/g) || []).length, 0);
   assert.ok(section311.includes("- Methionine"));
   assert.ok(section311.includes("- Dietary protein"));
@@ -593,7 +597,13 @@ test("PM3 §3.1 keeps ATP biochemical and excludes upstream cycle nutrients", ()
   assert.ok(section312.includes("- Magnesium ions (Mg²⁺)"));
   assert.ok(section312.includes("- Potassium ions (K⁺)"));
   assert.ok(!section3.includes("←"));
-  assert.ok(!section3.includes("Folate"));
+  assert.ok(!section311.includes("folate"));
+  assert.ok(!section312.includes("Betaine"));
+  assert.ok(!section312.includes("Choline"));
+  assert.ok(section3.includes("Individual KC inputs"));
+  assert.ok(section3.includes("- Vitamin B9 (folate)"));
+  assert.ok(section3.includes("- Betaine"));
+  assert.ok(section3.includes("- Choline"));
   assert.ok(!section3.includes("Vitamin B12"));
   assert.ok(!section3.includes("Riboflavin"));
   assert.ok(!section3.includes("Vitamin B6"));
@@ -934,4 +944,30 @@ test("upstream PM relationships render as labelled indicators, not ownership pro
   const ownershipIssues = [];
   validateDietaryLeverAtoms(ownership, ownershipIssues, { entityLabel: "upstream-prose" });
   assert.ok(ownershipIssues.some((issue) => issue.code === "dla_public_ownership_prose"));
+});
+
+test("Input links to its substance page and the compact heading stays unlinked", () => {
+  const pm4 = matter(
+    fs.readFileSync(
+      "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "utf8",
+    ),
+  ).data;
+  const map = buildDietaryLeverDisclosureMap(pm4);
+  const expected = [
+    ["Glutathione", "3.1.2", "/docs/substances/bioactive-compounds/glutathione"],
+    ["Zinc", "3.1.2", "/docs/substances/nutrients/micronutrients/minerals/trace/zinc"],
+    ["Manganese", "3.1.2", "/docs/substances/nutrients/micronutrients/minerals/trace/manganese"],
+    ["Selenium", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/selenium"],
+    ["Copper", "3.1.1", "/docs/substances/nutrients/micronutrients/minerals/trace/copper"],
+  ];
+  for (const [label, section, href] of expected) {
+    const disclosure = map.get(dietaryLeverBulletKey(label, "", section));
+    assert.ok(disclosure, label);
+    assert.equal(disclosure.inputHref, href);
+    assert.equal(disclosure.titleHref, undefined);
+  }
+
+  assert.equal(substanceHrefForInput("Creatine supplementation"), undefined);
+  assert.equal(substanceHrefForInput("glutathione peroxidase"), undefined);
 });

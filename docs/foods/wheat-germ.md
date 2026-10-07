@@ -2,7 +2,9 @@
 id: wheat-germ
 title: Wheat Germ
 sidebar_label: Wheat Germ
-description: Choline source and B vitamin-rich grain component
+description: >-
+  The wheat-kernel embryo, used as a concentrated grain ingredient; contains
+  spermidine.
 tags:
   - Food
   - Wheat Germ
@@ -10,6 +12,8 @@ tags:
   - Vegetarian
   - Choline
   - Vitamin E
+  - Spermidine
+  - Betaine
 list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 1.665
@@ -54,47 +58,74 @@ nutrition_supplementary_sources:
     label: Vitamin E
     status: Present — quantity not established
     amount_display: Present — quantity not established
-    source_note: 'Wheat Germ is a recognised α-tocopherol food; the selected USDA SR Legacy record omits vitamin E, so quantity is not established from that panel.'
+    source_note: >-
+      Wheat Germ is a recognised α-tocopherol food; the selected USDA SR Legacy
+      record omits vitamin E, so quantity is not established from that panel.
   - key: choline_qual
     label: Choline
     status: Present — quantity not established
     amount_display: Present — quantity not established
-    source_note: 'Wheat Germ is a choline-containing food; the selected USDA SR Legacy record omits choline, so quantity is not established from that panel.'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+    source_note: >-
+      Wheat Germ is a choline-containing food; the selected USDA SR Legacy
+      record omits choline, so quantity is not established from that panel.
+  - key: spermidine_qual
+    label: Spermidine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    notes: Measured food occurrence; content varies by sample and preparation.
+    source_note: >-
+      Muñoz-Esparza et al. (2021), §3.1 and Figures 3–5: Wheat Germ is
+      identified as a spermidine-containing food. The selected USDA panel does
+      not quantify this analyte. A comparable product-specific per-100 g value
+      is not established here. https://doi.org/10.3390/foods10081752
+  - key: betaine_qual
+    label: Betaine
+    status: Measured in toasted wheat germ
+    amount_display: 410 mg/100 g in toasted wheat germ
+    source_note: >-
+      Patterson et al. (2008): cereals ready-to-eat, wheat germ, toasted, plain
+      (NDB 08084), 410 mg betaine per 100 g. This page records crude wheat germ
+      (FDC 168892), which was not that assayed form. An earlier figure near
+      1,240 mg per 100 g was later corrected downward.
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
+substance_relationships:
+  - substance: Spermidine
+    relationship: contains
+    description: >-
+      Analytical food evidence identifies spermidine in wheat germ;
+      concentration varies with the sample and preparation.
+    citation_keys:
+      - munoz_esparza_food_polyamines_2021
+  - substance: Betaine
+    relationship: contains
+    description: >-
+      Toasted wheat germ contained 410 mg betaine per 100 g in the corrected
+      USDA database. This page records crude wheat germ, so that figure is a
+      related preparation, not this panel.
+    citation_keys:
+      - patterson_choline_2008
+substance_card_captions:
+  Spermidine: Occurs directly in this food; a product-specific amount is not established.
+  Betaine: Present in wheat germ. The corrected assay is toasted wheat germ, 410 mg per 100 g, not this crude panel.
 ---
+
 ## Overview
 
-Wheat germ is the embryo fraction of the wheat kernel and is often used as a concentrated additive rather than a standalone staple food. It is notable for contributing vitamin E, choline, and other micronutrients associated with the germ fraction of grains.
+Wheat germ is the embryo fraction of the wheat kernel, commonly sprinkled into breakfast bowls or added to baking. It contains spermidine, a polyamine measured at relatively high levels in the wheat-germ samples examined in a food-composition study [3].
 
-In practical use, nutrient impact depends strongly on form (raw/toasted wheat germ vs wheat germ oil vs mixed products). Within the BRAIN Diet framework, wheat germ is best treated as a concentrated ingredient used in small amounts within broader meal patterns.
-
-## Key Nutritional Highlights
-
-- Concentrated source of vitamin E and choline relative to many grain-derived ingredients.
-- Often used in small quantities to fortify meals with micronutrient density.
-- Nutritional profile varies substantially by product form (wheat germ vs wheat germ oil).
-- Best interpreted as an ingredient-level enhancer rather than a staple carbohydrate base.
+It is a concentrated ingredient rather than a staple meal base. Whole wheat germ, wheat-germ oil and spermidine-rich extracts are different products; evidence from an extract cannot be assumed to apply to a spoonful of the food.
 
 ## Food Context
 
-### Synergies
-
-- Can complement other dietary choline sources (e.g. eggs, fish, soy foods) in plant-forward patterns.
-
-### Sourcing
-
-- Store refrigerated to prevent rancidity
-
 ### Preparation
 
-- Add to porridge, yogurt bowls, or baking in modest amounts.
-- Store refrigerated after opening to limit oxidation and rancidity.
-
-## Recipes
-
-<FoodRecipes tag="Wheat Germ" />
+Use the germ itself when the intended ingredient is wheat germ; oil and concentrated extracts have different composition. Add it to porridge, yoghurt or baking, following the product’s storage instructions.
 
 ### Essential Amino Acid Profile
 
@@ -112,6 +143,10 @@ Protein pairing strategy:
 
 Grains such as wheat germ are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
+## Recipes
+
+<FoodRecipes tag="Wheat Germ" />
+
 <NutritionTable details={frontMatter} />
 
 ## Substances
@@ -120,6 +155,8 @@ Grains such as wheat germ are relatively higher in methionine but lysine-limited
 
 ## References
 
-[1] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+[1] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023). Background evidence retained for the choline relationship.
 
-[2] Packer et al. (1997). [Vitamin E antioxidant network context](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+[2] Packer et al. (1997). [Vitamin E antioxidant network context](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997). Background evidence retained for the vitamin E relationship.
+
+[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.

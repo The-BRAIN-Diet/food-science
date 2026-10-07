@@ -1,5 +1,10 @@
 # Key Constraint (KC) Schema
 
+### Nutrient naming
+
+Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
+
+
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
 
 ## Build Gate Proviso
@@ -98,19 +103,16 @@ KCs answer:
 | Term | Meaning |
 |------|---------|
 | **KC1, KC2, KC3…** | Canonical **KC pages** (`kc_id`, for example `BRS3(KC1)`). |
-| **iKC** | An **individual Key Constraint** recorded on a KC page. One KC page may contain one or more iKCs. |
+| **iKC** | An individually registered canonical KC constituent linked to a verified substance ID. Membership is separate from PM applicability. |
 | **PM ↔ iKC** | Many-to-many. A PM may reference multiple iKCs. An iKC may apply to multiple PMs. |
 
-Until a KC page declares `individual_key_constraints`, it is treated as a single
-iKC whose `ikc_id` equals `kc_id`. That default does not invent extra constraints
-and does not rewrite existing KC pages.
+Existing pool/arm identifiers retain their meaning as **legacy references**, not constituent identities. Reviewed constituent registrations follow the versioned rule below; do not silently migrate other records.
 
 ### Sequence (KC first, PM second)
 
 The intended evidence sequence is:
 
-1. **KC evidence review** — what each iKC constrains; its constituent
-   inputs/resources; evidence for those relationships; intended FM/PM scope;
+1. **KC evidence review** — the shared KC constraint and each constituent contribution; evidence for those relationships; intended FM/PM scope;
    limitations.
 2. **PM evidence review** — independently whether that iKC applies to the PM, and
    **which** of its constituents are supported for that PM.
@@ -143,7 +145,7 @@ those independent adjudications; ownership and evidence do not propagate.
 
 `key_constraints` records **which iKCs apply, or are proposed to apply**, to a PM.
 It does **not** make the iKC's constituent relationships automatically true for
-that PM. If an iKC contains A, B, and C, and PM evidence supports only A, the PM
+that PM. If a KC pool contains A, B, and C, and PM evidence supports only A, the PM
 may show its relationship to that iKC through A. It must not inherit B and C.
 PM evidence for A does not establish that A belongs to the iKC.
 
@@ -155,14 +157,19 @@ one KC-owned five-atom record:
 ```yaml
 kc_evidence_review_status: canonical
 individual_key_constraints:
-  - ikc_id: BRSX(KC1)-IKC1
-    title: Example individual constraint
+  - ikc_id: BRSX-KC1-KIT-1
+    title: Individually reviewed constituent
+    kc_atom_id: BRSX-KC1-KIT-1
+    substance_id: verified-canonical-substance-id
+    substance_href: /docs/substances/verified-canonical-destination
+    identity_status: resolved
+    registration_status: registered
 kc_input_traceability:
   - atom_id: BRSX-KC1-KIT-1
-    ikc_id: BRSX(KC1)-IKC1
+    ikc_id: BRSX-KC1-KIT-1
     input: Evidence-supported input
     input_type: substrate
-    biological_role: Role within this iKC resource pool
+    biological_role: Evidence-supported contribution to the canonical KC pool
     evidence_source:
       citation_keys: [supporting_source]
     evidence_limitation: Boundary needed to avoid broadening the claim
@@ -176,9 +183,7 @@ kc_constituent_presentations:
     section: core-nutritional-requirements
 ```
 
-`individual_key_constraints` is optional. A KC page without it is one iKC whose
-`ikc_id` equals `kc_id`. `kc_input_traceability[].ikc_id` is required only when
-the page declares more than one iKC.
+`individual_key_constraints` registers reviewed constituents under `ikc_identity_version: constituent-v2`; retain legacy pool/arm references explicitly. New registered constituents require verified substance identity; unresolved identity remains pending with a major flag.
 
 The atoms remain:
 
@@ -233,10 +238,7 @@ content must not be populated by copying KC-owned evidence or iKC constituent
 lists.
 
 PM↔iKC applicability follows `system/dietary-input-traceability-contract.md`
-§ **Type D — shared-constraint applicability**. A PM may **govern** the
-constraint or be **constrained by** it; both modes use that threshold.
-Upstream assessment ownership does not decide membership. Precursor delivery
-plus substrate necessity does not automatically establish it. Record
+§ **Type D — shared-pool applicability**. Supported upstream supply and Conditional constraint are independently adjudicated relationship types. Supply requires a source-supported route; conditional constraint requires context-specific capacity limitation. Preserve legacy governs/constrained-by decisions. Membership and downstream applicability never propagate automatically. Record
 `kc_applicability_adjudications` (`established`, `unassessed`, `unresolved`,
 or `evidence-supported-non-application`). Public empty copy remains
 `No mapping established.`
@@ -906,3 +908,17 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | KC | Concern |
 |---|---|
 | BRS-X(ECS-KC1) | Phospholipid/NAPE pool currently spans ECS FM1 PMs only — valid only while multiple distinct ECS PMs genuinely share the pool; do not use for generic omega-3 or phospholipid PM levers |
+
+
+
+### Canonical constituent iKC identity and PM-specific upstream supply
+
+Follow **Canonical iKC identity and PM-specific upstream supply** and the exact PM3 §3.1.3 worked example in `system/dietary-input-traceability-contract.md`.
+
+- iKC identity means a registered canonical KC constituent linked to a verified substance ID. KC membership and PM-specific applicability are separate adjudications; retain multiple KC memberships on one substance identity.
+- Existing `individual_key_constraints` and `kc_input_traceability` hold registrations, with `ikc_identity_version: constituent-v2`, `ikc_id`, `kc_atom_id`, `substance_id`, `identity_status`, `registration_status`, `substance_href`. Explicit `legacy_ikc_references` preserve old pool/arm meanings; no silent migration. Missing substance identity keeps registration pending.
+- `supported-upstream-supply` admits a cited supply route without mandatory deficiency or demonstrated constraint. `conditional-constraint` requires a context-specific limitation on PM capacity; supported chains may suffice. Preserve legacy `governs` / `constrained-by` meaning. Neither type establishes extra-intake benefit or downstream propagation.
+- **§3.1.2 remains Cofactors and Substrates, unchanged. §3.1.3 contains pool and individual KC disclosures.** Under the pool, use **Individual KC inputs** and five atoms, reader description and supporting Finding link for every individually admitted input. Do not repeat full atoms in the pool summary or import members into other sections automatically.
+- `pm_kc_relationships[].constituent_relationships` retains `pm_atom_id`, `kc_atom_id`, `ikc_id`, `substance_id`, `canonical_identity`, `relationship_type` and reviewed pathway. Its scientific fields resolve from the PM atom, not copied overrides.
+- `canonical_identity.status` = `resolved`, `existing-substance-identity-inconsistency`, or `missing-substance`. Resolved ID/page linkage is verified; missing/inconsistent identity is a MAJOR flag with PM/KC/type, checked candidates/aliases, repair/creation action and subsequent food assessment in `pending_actions`. Keep science visible and block unreliable projections.
+- Existing ontology/SubstanceMatrix reads the same independently admitted canonical §3.1.3 edges, preserving type/evidence/limitations. Future food and FM/BRS projections reuse them; no automatic membership or downstream inheritance. Food composition and approved top-10 are separate later adjudications.

@@ -6,7 +6,8 @@ Internal quality-control inventory plus a **derived** public Review & Correction
 
 | File | Role |
 |------|------|
-| `system/framework-qc/framework-issues-register.json` | Hand-maintained framework issues (source of truth). |
+| `system/framework-qc/framework-issues-register.json` | Hand-maintained framework issues and PM Review & Corrections decisions (source of truth). |
+| `system/framework-qc/pm-open-issues.json` | Hand-maintained **current** unresolved questions for one PM. Not a copy of the framework register. |
 | `system/framework-qc/page-review-state.json` | Hand-maintained review fields for pages that are not still `unreviewed`. |
 | `scripts/out/framework-qc/page-review-register.json` | **Generated** inventory of every `docs/` page. Do not edit by hand. |
 | `scripts/out/framework-qc/page-review-report.md` | **Generated** counts report. |
@@ -126,8 +127,33 @@ Public UI:
 
 - Per-page **Review & Corrections** tab (required on every PM; generated from
   linked register records)
+- Per-page **Open Issues** tab, rendered only when that PM has current `open` or
+  `deferred` rows in `pm-open-issues.json`. Resolved rows leave this tab; their
+  decision is a `register_surface: "pm-tab"` correction, not a second write-up.
 - Central framework register at `/docs/dietary-foundations/framework-review-and-corrections`
-  (**local-only**; framework-surface issues only; not the PM evidence audit trail)
+  (**local-only**; framework-surface issues only; not the PM evidence audit trail
+  and not the PM Open Issues list)
+
+## PM Open Issues
+
+Current scientific questions and implementation defects for one mechanism. Do not
+add these fields to page front matter, and do not copy them into
+`framework-issues-register.json` merely because they are unanswered. A PM question
+becomes a framework issue only when it is a shared problem affecting multiple pages.
+
+Status reuses the framework vocabulary: `open`, `deferred`, `resolved`. `kind` is
+`scientific-question` or `implementation-defect`. Each current row states the
+question, what is established, what the uncertainty prevents claiming, and the
+evidence or review needed. `finding_ids` and `citation_keys` may link to that
+PM’s own Findings and references. `related_framework_issue_ids` may record a
+shared cause internally; the tab must not render it or link to the framework register.
+
+`resolved` requires `resolution_correction_id` pointing at a PM Review & Corrections
+record for the same `pm_id`. The Open Issues tab then omits that row. Open
+questions do not authorise unresolved or rejected relationships as public
+requirements. A question that changes an entry’s validity, classification, or
+claim is resolved or the entry is withheld before publication. Broader unanswered
+questions do not block unrelated supported content.
 
 ## Review Queue (generated view)
 

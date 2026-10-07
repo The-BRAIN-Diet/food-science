@@ -14,6 +14,7 @@ tags:
   - Manganese
   - Iron
   - Magnesium
+  - Betaine
 list_image: /img/foods/beetroot/beetroot_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 0.027
@@ -72,6 +73,26 @@ nutrition_supplementary_sources:
     source_note: >-
       Beetroot is characterised by betalain pigments. A comparable quantity is
       not established here.
+  - key: betaine_mg
+    label: Betaine
+    value: 130
+    unit: mg
+    amount_display: 130 mg/100 g
+    status: Measured in a separate choline-and-betaine assay
+    source_note: >-
+      Patterson et al. (2008), USDA Database for the Choline Content of Common
+      Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This
+      is not the FDC 169145 panel used for the other nutrients on this page.
+substance_relationships:
+  - substance: Betaine
+    relationship: contains
+    description: >-
+      Raw beets contained 130 mg betaine per 100 g in the corrected USDA
+      choline database. That assay is separate from this page’s other nutrients.
+    citation_keys:
+      - patterson_choline_2008
+substance_card_captions:
+  Betaine: Occurs directly in raw beets; 130 mg per 100 g in the corrected USDA assay.
 ---
 ## Overview
 

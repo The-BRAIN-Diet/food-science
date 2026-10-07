@@ -142,6 +142,7 @@ export const BIOACTIVE_LIPID_KEYS = [
   "arginine_g",
   "glycine_g",
   "methionine_g",
+  "cystine_mg",
 ]
 
 export const AMINO_ACID_KEYS = new Set([
@@ -152,6 +153,7 @@ export const AMINO_ACID_KEYS = new Set([
   "arginine_g",
   "glycine_g",
   "methionine_g",
+  "cystine_mg",
 ])
 
 export const AMINO_ACID_LABELS = new Set([
@@ -249,6 +251,7 @@ export const NUTRIENT_LABELS = {
   arginine_g: { label: "Arginine", unit: "g" },
   glycine_g: { label: "Glycine", unit: "g" },
   methionine_g: { label: "Methionine", unit: "g" },
+  cystine_mg: { label: "Cystine", unit: "mg" },
 }
 
 /**
@@ -295,6 +298,8 @@ export const SUBSTANCE_LABEL_ALIASES = {
   "caproic acid (c6:0)": ["Caproic acid (C6:0)"],
   "beta-glucans": ["Beta-Glucans", "Beta-glucan"],
   "beta-glucan": ["Beta-Glucans", "Beta-glucan"],
+  cystine: ["Cystine", "Cysteine"],
+  cysteine: ["Cystine", "Cysteine"],
 }
 
 export function normaliseLabel(value) {

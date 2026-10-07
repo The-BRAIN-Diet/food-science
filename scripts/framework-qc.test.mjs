@@ -4,6 +4,11 @@ import fs from "node:fs"
 import path from "node:path"
 import {fileURLToPath} from "node:url"
 import {
+  currentPmOpenIssues,
+  toPublicPmOpenIssue,
+  validatePmOpenIssues,
+} from "../src/data/pmOpenIssues.mjs"
+import {
   classifyPage,
   letterFromTitle,
   pageIdFrom,
@@ -278,4 +283,55 @@ test("PM1 rerun records stay valid and off the framework register", () => {
       .every((issue) => issue.register_surface === "pm-tab"),
     true,
   )
+})
+
+test("PM open issues stay page-specific and off the framework register", () => {
+  const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..")
+  const doc = JSON.parse(fs.readFileSync(path.join(root, "system/framework-qc/pm-open-issues.json"), "utf8"))
+  const issuesDoc = loadJson(path.join(root, "system/framework-qc/framework-issues-register.json"), {issues: []})
+  assert.deepEqual(validatePmOpenIssues(doc.issues, {corrections: issuesDoc.issues}), [])
+  const pm6 = currentPmOpenIssues(doc.issues, "BRS2-FM2-PM6")
+  assert.equal(pm6.length, 5)
+  assert.equal(pm6.every((issue) => issue.kind === "scientific-question" && issue.status === "open"), true)
+  assert.equal(issuesDoc.issues.some((issue) => String(issue.id || "").startsWith("PM6-OI-")), false)
+  const published = toPublicPmOpenIssue({
+    ...pm6[0],
+    related_framework_issue_ids: ["FW001"],
+    required_action: "do not publish",
+  })
+  assert.equal(published.related_framework_issue_ids, undefined)
+  assert.equal(JSON.stringify(published).includes("FW001"), false)
+  assert.equal(JSON.stringify(published).includes("do not publish"), false)
+  assert.deepEqual(
+    currentPmOpenIssues(
+      [{id: "PM6-OI-9", pm_id: "BRS2-FM2-PM6", status: "resolved", kind: "scientific-question"}],
+      "BRS2-FM2-PM6",
+    ),
+    [],
+  )
+  const resolved = {
+    id: "PM6-OI-9",
+    pm_id: "BRS2-FM2-PM6",
+    kind: "scientific-question",
+    status: "resolved",
+    question: "Question",
+    established: "Established",
+    claim_boundary: "Boundary",
+    resolution_needs: "Needs",
+  }
+  assert.match(validatePmOpenIssues([resolved]).join("\n"), /resolution_correction_id/)
+  assert.deepEqual(
+    validatePmOpenIssues([
+      {
+        ...resolved,
+        resolution_correction_id: "FW004",
+      },
+    ], {corrections: issuesDoc.issues.filter((issue) => issue.id === "FW004").map((issue) => ({...issue, scope: {page_ids: ["BRS2-FM2-PM6"]}}))}),
+    [],
+  )
+  const panel = fs.readFileSync(path.join(root, "src/components/ReviewCorrections/OpenIssuesPanel.tsx"), "utf8")
+  const bar = fs.readFileSync(path.join(root, "src/components/ReviewCorrections/DocUtilityBar.tsx"), "utf8")
+  assert.match(bar, /Open Issues/)
+  assert.equal(/framework-review-and-corrections|register_path|related_framework_issue_ids/.test(panel), false)
+  assert.equal(doc.issues.some((issue) => issue.pm_id !== "BRS2-FM2-PM6"), false)
 })

@@ -451,12 +451,7 @@
             "food_href": "/docs/foods/pumpkin-seeds",
             "missing_food_page": false,
             "explanation": "Magnesium- and zinc-rich seed supporting GABA–glutamate balance and GABA synthesis capacity within excitatory–inhibitory regulation.",
-            "source_pms": [
-              {
-                "id": "BRS1-FM4-PM8",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
-              }
-            ]
+            "source_pms": []
           },
           {
             "label": "Salmon",
@@ -517,10 +512,6 @@
             {
               "id": "BRS1-FM4-PM11",
               "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
-            },
-            {
-              "id": "BRS1-FM4-PM8",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
             }
           ]
         },
@@ -552,10 +543,6 @@
             {
               "id": "BRS1-FM4-PM11",
               "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
-            },
-            {
-              "id": "BRS1-FM4-PM8",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
             }
           ]
         }

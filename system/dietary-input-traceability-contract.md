@@ -1,4 +1,6 @@
-# 2B — Dietary Input Traceability & Visibility Contract
+# Stage 2B — Applicability & Lever Implementation Contract
+
+**Governing instruction:** Stage 2B applicability and lever implementation. Use with the [whole-PM page schema](primary-mechanism-schema.md) and preserve the evidence thresholds and stage boundary in [Stage 2A](scientific-finding-schema.md).
 
 **Status:** Active Stage 2B schema — PM Evidence + Dietary Requirements atom projection for canonical §3.1.
 **Scope:** Five-atom currency; Direct/Derived relationship metadata; `dietary_lever_atoms` overlay.
@@ -31,6 +33,10 @@ internal maintenance phrasing such as “on this page”, “owned by”, “ass
 Do not meet the audience by deleting substantive science or replacing it
 with generic statements.
 
+### Nutrient naming
+
+Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
+
 ### Input-specificity adjudication — before dietary candidate adjudication
 
 **Name the specific evidence-supported biological input or defined resource pool required by the PM. Do not use a broad delivery category where the actual biological requirement can be identified.** Apply this before classifying each dietary candidate as Direct/Derived, biochemical inventory or shared constraint. This is a specificity decision, not evidence that a relationship is admitted or that increasing intake helps.
@@ -47,7 +53,9 @@ with generic statements.
 | Food, mixture or dietary-pattern study without constituent isolation | Preserve the tested exposure and studied context in its appropriate intervention category. Do not invent a substance-specific effect or force an intervention into a biological-requirement slot. |
 | Delivery-only supplier of an already identified input | Do not admit it as another biological requirement; consolidate duplicate delivery relationships while retaining evidence, upstream dependencies and decision history. |
 
-**Mandatory candidate reporting:** reuse the existing Stage 2B candidate, evidence, rationale and disposition report/Review & Corrections entries. For **every** dietary candidate, answer explicitly (in prose or a report table):
+**Mandatory candidate reporting:** reuse the existing Stage 2B candidate, evidence, rationale and disposition report/Review & Corrections entries. For every candidate, record a specificity decision and supporting evidence. A concise table row is sufficient for straightforward cases. Explicitly address all three questions where the label is broad, the target changes, or the relationship is disputed or unresolved.
+
+The three questions are:
 
 1. What biological input or resource pool does this PM require (or, for an intervention exposure, what PM biology was actually tested)?
 2. Does the proposed label identify that requirement/exposure, or merely a delivery category?
@@ -55,7 +63,7 @@ with generic statements.
 
 Record the **specificity disposition** in the existing disposition/rationale entry: **retained, narrowed, consolidated, moved, rejected or unresolved**. This does not replace the separate scientific admission/applicability or Direct/Derived decision. Record original candidate label, resulting target and destination when changed; link supporting evidence and preserve prior identifiers/decisions and independently supported upstream edges. Consolidation must explain the duplicate relationship and retained record; moving must identify the appropriate destination without automatically admitting it there. Rejection needs an evidence-based rationale; unresolved needs the missing evidence and follow-up. Narrowing must not add a claim absent from the evidence. No additional canonical PM fields or sixth disclosure atom are required.
 
-**Completion gate:** generic labels such as “dietary protein”, “amino-acid provision” or broad macronutrient/food categories require explicit adjudication. Review all candidates, not only exact keyword matches. A retained broad target needs a mechanism-specific justification for why that level is biologically/evidentially appropriate. A delivery-only category cannot be admitted as an additional requirement merely because it supplies an identified substance. Do not auto-delete, rename, merge, migrate or change classification by matching words. The report is incomplete until every candidate has the three answers, evidence/rationale and a specificity disposition; an unresolved outcome may remain only with its exact gap and follow-up, not as a substitute for review. Record consolidation history and verify that no duplicate delivery-only requirement was newly admitted. Structural atom validation alone does not satisfy this scientific/reporting gate.
+**Completion gate:** generic labels such as “dietary protein”, “amino-acid provision” or broad macronutrient/food categories require explicit adjudication. Review all candidates, not only exact keyword matches. A retained broad target needs a mechanism-specific justification for why that level is biologically/evidentially appropriate. A delivery-only category cannot be admitted as an additional requirement merely because it supplies an identified substance. Do not auto-delete, rename, merge, migrate or change classification by matching words. The report is incomplete until every candidate has supporting evidence/rationale and a specificity disposition, with all three questions explicitly addressed where the label is broad, the target changes, or the relationship is disputed or unresolved; an unresolved outcome may remain only with its exact gap and follow-up, not as a substitute for review. Record consolidation history and verify that no duplicate delivery-only requirement was newly admitted. Structural atom validation alone does not satisfy this scientific/reporting gate.
 
 ### Foundational dietary coverage and targeted retrieval (Stage 2B)
 
@@ -161,7 +169,7 @@ the five mandatory atomic fields:
 
 | Atom | Meaning |
 |------|---------|
-| **Input** | Evidence-supported dietary-facing identifier at the granularity actually established (for example a substance, class, component, food group, matrix, pattern, preparation characteristic, or other defined exposure) |
+| **Input** | Evidence-supported dietary-facing identifier at the granularity actually established (for example a substance, class, component, food group, matrix, pattern, preparation characteristic, or other defined exposure). When that identifier has a page in this system, the Input value inside the five-atom disclosure links to it. The compact heading above the disclosure does not. |
 | **Input type** | Category of input (see § Input types) |
 | **Biological role** | What job this input performs in the mechanism biology (public science; not ownership or page-maintenance language) |
 | **Evidence source** | What supports **that biological role** — at least one resolvable Scientific Finding id and PM-bibliography `citation_key` |
@@ -174,6 +182,16 @@ Together these form the canonical reader-facing five-atom structure:
 **Limitation is mandatory relationship currency, not a separate research exercise.**
 Derive it from the existing adjudication and cited Evidence Source; do not initiate a
 separate search for a “limitation reference.”
+
+**Input page link.** Every admitted lever on a PM, SM, or KC page links its Input
+to that input’s page when the page exists in this system. The link is the Input
+value inside the five-atom disclosure only. Do not link the compact heading above
+it. “Glutathione — Biochemical requirement” stays plain text; the disclosed
+`Input = Glutathione` links to the glutathione page. Resolve the page from the
+substance pages already published. Do not invent a page. Do not match a longer
+phrase to a shorter page: “Creatine supplementation” is not the creatine page,
+and “glutathione peroxidase” is not the glutathione page. A preparation, practice,
+pattern, or class with no page stays unlinked.
 
 **Example — Vitamin B6:**
 
@@ -274,7 +292,7 @@ classify the claimed dietary relationship:
 | **A. Capacity / requirement** | Does the input provide, generate, maintain or enable something required to establish or maintain the biological **capacity** governed by the PM? | §3.1.1 / §4.1.1 — overlay `relationship_mode: capacity-requirement` |
 | **B. Regulatory / state** | Does dietary exposure have evidence of **regulating** that governed state/function, at the level claimed? | §3.1.1 / §4.1.1 — overlay `relationship_mode: state-regulation` |
 | **C. Biochemical requirement** | Does the mechanism/reaction itself require this substrate, cofactor, catalytic ion or other participant? | §3.1.2 / §4.1.2 — `relationship_layer: biochemical-requirement` |
-| **D. Shared constraint** | Does an evidence-supported shared resource/availability constraint apply to this PM? | §3.1.3 / §4.1.3 — KC/iKC ownership unchanged. See **Type D — shared-constraint applicability** |
+| **D. Shared constraint** | Does an evidence-supported shared resource/availability constraint apply to this PM? | §3.1.3 / §4.1.3 — KC/iKC ownership unchanged. See **Type D — shared-pool applicability** |
 
 Keep these **separate from** Direct/Derived (relationship **distance**) and from
 later propositions:
@@ -293,7 +311,10 @@ biomarkers, isolated-pharmacology-as-food, or combination/pattern evidence to be
 read as a single-constituent effect unless attribution is supported. Type B does
 **not** automatically enter §4.1.2 or §4.1.3.
 
-### Type D — shared-constraint applicability
+### Type D — shared-pool applicability
+
+Supported upstream supply follows the canonical iKC rule below. The following capacity-constraint threshold applies to **Conditional constraint**, not to Supported upstream supply. Both relationship types belong in §3.1.3; §3.1.2 remains biochemical Cofactors and Substrates.
+
 
 **“PM-specific”** means evidence that the iKC **applies to that PM**. It does
 **not** mean the constraint is unique to the PM, that supporting evidence must
@@ -307,7 +328,7 @@ Two applicability modes use the **same** evidence threshold:
 - **Is constrained by it** — inadequacy or imbalance of the named KC pool or
   state can constrain the capacity this PM governs.
 
-**Admission threshold.** Admit a PM↔iKC mapping only when both are true:
+**Conditional-constraint admission threshold.** Admit this relationship type only when both are true:
 
 1. The iKC is a coherent shared pool or bottleneck (KC-owned definition).
 2. Evidence connects **inadequacy or imbalance of that named pool or state**
@@ -334,7 +355,7 @@ Dietary Requirement.
 
 | Disposition | Meaning |
 |-------------|--------|
-| `established` | Threshold met. Publish the linked KC title and a concise relevance sentence. |
+| `established` | Threshold met. Publish each adjudicated distinct input or pool disclosure with its separate linked KC origin tag. If distinctness review consolidates every disclosure, keep this applicability record and leave §3.1.3 without `No mapping established.` |
 | `unassessed` | The applicability proposition, or a necessary link in it, has not been evidenced. |
 | `unresolved` | Assessment was attempted; a material evidence or access gap remains. |
 | `evidence-supported-non-application` | Evidence shows this iKC or arm does **not** constrain this PM’s governed capacity. |
@@ -361,6 +382,27 @@ establishes nutritional necessity or biological indispensability.
 
 ---
 
+## KC relationship distinctness and duplication — final Stage 2B gate
+
+A separate **conditional-constraint** KC disclosure must explain an evidence-supported constraint relationship distinct from relationships already published under **§3.1.1 Direct/Derived Requirements, §3.1.2 Cofactors and Substrates, or §3.2 System Optimisation Practices**. Ask: **“What different biological job does this KC relationship explain?”**
+
+Compare the input or defined pool, biological role, relationship claim, context and supporting evidence. A different section, KC origin tag, record identifier or wording does not establish a different relationship. Shared evidence alone does not prove duplication; different evidence alone does not prove distinctness. Do not deduplicate by input name: independently supported jobs may share an input.
+
+A provision relationship stays one job when §3.1.1 already states it as two atoms: the direct substrate used in the reaction, and a precursor that supplies that substrate by conversion. Publish both in §3.1.1 at the distance the evidence supports. A KC disclosure whose stated job is sustaining that same capacity is the same relationship.
+
+An input-type label, including “Resource dependency,” does not answer the job question. Neither does a KC origin tag.
+
+Results that only bound that provision stay with the provision atoms. Combined depletion and an adequate-intake boundary limit what those atoms may claim, and they remain supporting evidence. They support a separate conditional-constraint KC disclosure when the evidence establishes a further constraint — competition, allocation, transport, or another bottleneck — beyond provision of the same inputs. A supported mechanistic chain can establish that further constraint; distinctness does not require one direct measurement of the bottleneck. The chain must establish a constraint beyond provision. A precursor-to-substrate chain alone is the provision relationship already recorded in §3.1.1 and does not establish KC distinctness. When no such constraint is established, consolidate that conditional-constraint disclosure as a duplicate. A concise supported-upstream-supply pool summary follows the canonical iKC rule below. Keep its evidence, canonical KC identifiers, provenance and decision history on the retained records, and leave applicability on the applicability record. If every proposed disclosure is consolidated, §3.1.3 has no public disclosure. Do not write `No mapping established.` That sentence means no PM↔iKC mapping was established. Consolidating presentation must not erase an established applicability record.
+
+- Repeated substrate, cofactor, precursor or intervention relationships: consolidate duplicate public presentation while preserving evidence, canonical identifiers, provenance and decision history in the retained relationship and audit.
+- Distinct shared-resource limitations: retain a separate KC disclosure explaining the limitation and its boundaries.
+- Combined-pool evidence: retain a pool-level public claim only when that pool passes the job test above. Do not split a retained pool into individually limiting constituents without supporting adjudication. Name a retained pool as the trigger with a separate KC origin tag. Individually authorised input triggers remain appropriate only for individually supported, distinct relationships. When the pool’s job is provision already recorded for its constituents, consolidate the public disclosure and preserve the combined result in the supporting evidence and limitations, without attributing individual effects the study did not isolate.
+- Unresolved distinctness: retain the proposed additional disclosure audit-only, recording the precise gap and follow-up. Scientific applicability and public distinctness are separate decisions; consolidation does not reject an otherwise valid applicability record.
+
+**Mandatory recorded review:** Before completion, compare every proposed KC/iKC and constituent disclosure against all three sections. Reuse the Stage 2B report's disposition, rationale, evidence and record-ID columns; no new public atom, front-matter status or applicability enum is required. Record **distinct**, **consolidated as duplicate**, or **unresolved** as the presentation-review disposition, alongside (not replacing) scientific applicability. A concise row must identify proposed relationship/atom IDs, compared records (or explicit “none” for each section), the biological job and context comparison, supporting evidence, rationale, retained/public destination, preserved provenance and any precise gap. Rejected candidates remain audit-only under the existing admission rules.
+
+Final review must verify that every proposed disclosure has a decision, no duplicate public relationship remains, unresolved additional disclosures are absent publicly, and consolidation preserves its evidence and provenance. This is an evidence review, not string matching. For a focused report gate, pass the existing report rows and proposed public relationship IDs to `validateKcDistinctnessReview` in `scripts/lib/kc-relationship-distinctness-review.mjs`. It checks completeness and disposition-to-publication consistency, not biological truth. A row that records a different job string can pass this structural check. Different wording does not prove a different biological job; evidence adjudication must establish that job. The check also rejects a `distinct` disposition when the row records the same biological job as a compared record, including when the pool name, a “Resource dependency” label, or the citation set differs, and it rejects consolidated presentation that replaces an established mapping with `No mapping established.` Run `node --test scripts/kc-relationship-distinctness-review.test.mjs`.
+
 ## 3. Reappearance is expected
 
 A dietary input may legitimately reappear across PMs, KCs, cofactors, Key Dietary
@@ -368,8 +410,7 @@ Requirements, and BRSs — including in different biological roles.
 
 **Reappearance ≠ duplication.** Do not deduplicate by nutrient/substance name.
 
-A **true duplicate** exists only where the same input + type + role + target/context +
-evidence relationship has accidentally been represented twice.
+A **true duplicate** repeats the same biological relationship in the same PM context. Different supporting studies do not make an otherwise repeated job distinct; apply the KC distinctness gate above.
 
 Preserving reappearance is essential: later mechanical roll-up must identify recurring
 key dietary inputs while retaining every biological reason they appeared.
@@ -379,7 +420,7 @@ key dietary inputs while retaining every biological reason they appeared.
 | **Reappearance** | Same input again — inspect role and context |
 | **Multi-role reappearance** | Same input, materially different biological role |
 | **Shared-role reappearance** | Same input/role at multiple architectural levels legitimately (for example the same substrate on two PMs). Not a licence to reprint §3.1.1 into §3.1.2 |
-| **True duplicate** | Same five-tuple accidentally twice |
+| **True duplicate** | Repeated biological relationship/context; evidence identity is not decisive |
 | **Misclassification** | Wrong category or context for the actual role |
 
 ---
@@ -390,7 +431,7 @@ These are **biological structures/relationships**, not parent/child categories o
 Dietary Requirements.
 
 **Terminology:** `KC1`, `KC2`, `KC3`… are canonical **KC pages**. An **iKC** is an
-individual Key Constraint on a KC page. A KC page may contain multiple iKCs. A PM
+individually registered KC constituent linked to a verified canonical substance ID. A KC page may register multiple iKCs. A PM
 may reference multiple iKCs. An iKC may apply to multiple PMs. PM ↔ iKC is
 many-to-many.
 
@@ -402,8 +443,8 @@ Do not force dietary strategies, patterns, timing, food groups, or other future 
 input types through a KC or cofactor slot when their biological role belongs elsewhere.
 
 A substrate, cofactor or nutritionally required input is not thereby a KC or iKC.
-iKC status requires the shared resource-pool/bottleneck logic in
-`system/key-constraint-schema.md`. An iKC relationship must not replace a
+iKC identity requires registered membership in a canonical KC pool and verified substance identity under
+`system/key-constraint-schema.md`. The KC pool retains the shared resource-pool/bottleneck definition. An iKC relationship must not replace a
 PM-specific Direct/Derived Dietary Requirement or PM-specific substrate/cofactor
 edge. The same substance may carry both relationships when their biological roles
 and contexts are distinct. If a cofactor or substrate in §3.1.2 / §4.1.2 plays
@@ -546,9 +587,9 @@ Stage 2B evidence-reviews **all three** Dietary Requirements layers (canonical
 
 A cofactor **name alone is not evidence that the relationship exists**. It is also **not evidence that the relationship does not exist**. Do not reject or remove a §4.1.2 candidate because there was no pre-existing five-atom record, no citation already on the PM, or only a name-only legacy structure. Legacy evidence structure is not evidence status. `stage2b_cofactor_name_without_atom` is a completeness check on names that remain after review; emptying `cofactors:` to avoid that check is not an adjudication.
 
-§4.1.3 is unchanged: iKC definition and constituent membership stay KC-owned. PM Stage 2B adjudicates only PM↔iKC applicability under **Type D — shared-constraint applicability**. Shared inputs with §4.1.1 are not grounds to reject that relationship; Direct Dietary Requirements and a shared constraint may name the same substances when the constraint is a shared limiting pool. Independent Dietary Requirement adjudication is preserved: do not use KC membership to admit or remove a §3.1.1 / §3.1.2 relationship, and do not inherit iKC constituent or food-source lists.
+§4.1.3 is unchanged: iKC definition and constituent membership stay KC-owned. PM Stage 2B adjudicates only PM↔iKC applicability under **Type D — shared-pool applicability**. Shared inputs with §4.1.1 are not grounds to reject that relationship; Direct Dietary Requirements and a shared constraint may name the same substances when the constraint is a shared limiting pool. Independent Dietary Requirement adjudication is preserved: do not use KC membership to admit or remove a §3.1.1 / §3.1.2 relationship, and do not inherit iKC constituent or food-source lists.
 
-If no PM↔iKC mapping is `established` on the page, public copy is `No mapping established.` Record `kc_applicability_adjudications` for each assessed iKC arm (`established`, `unassessed`, `unresolved`, or `evidence-supported-non-application`). Unassessed, unresolved and evidence-supported non-application stay in the Stage 2B audit and change-control; they do not appear as a KC title, paragraph, constituent list, or food-source list. If a mapping is established, render the linked KC title and a concise statement of that relevance only. Assess distinct KC arms separately (for example amino-acid quality versus competitive transport balance).
+If no PM↔iKC mapping is `established` on the page, public copy is `No mapping established.` Record `kc_applicability_adjudications` for each assessed iKC arm (`established`, `unassessed`, `unresolved`, or `evidence-supported-non-application`). Unassessed, unresolved and evidence-supported non-application stay in the Stage 2B audit and change-control; they do not appear as a KC title, paragraph, constituent list, or food-source list. If a mapping is established, render only adjudicated distinct input or pool disclosures with separate KC origin tags; apply the final distinctness gate. When that gate consolidates every disclosure, leave the panel without a public disclosure and without `No mapping established.` Applicability stays on the applicability record. Assess distinct KC arms separately (for example amino-acid quality versus competitive transport balance).
 
 Validators: `validateDietaryLeverAtoms`,
 `validateStage2bDietaryRequirementLayers`, and
@@ -729,8 +770,11 @@ Section context controls the compact projection:
 
 The same atom may be presented in more than one subsection when **distinct**
 relationships share that input. Do not present the same input + type + role in
-both §3.1.1 and §3.1.2. Relationship-specific presentation metadata must
-never become input-global metadata.
+both §3.1.1 and §3.1.2. That input + type + role test detects reprints between
+§3.1.1 and §3.1.2. It does not establish KC distinctness. For §3.1.3, apply the
+KC distinctness gate: a different input name, input type, or origin tag can
+still be the provision relationship already published in §3.1.1.
+Relationship-specific presentation metadata must never become input-global metadata.
 
 Default Dietary Requirement presentation remains compact. When Direct/Derived
 classification is present, §3.1.1 should make the distinction readable without
@@ -786,7 +830,9 @@ and confirm:
 4. Finding traceability remains connected through the structured record and
    presentation link where used; and
 5. KC relationships remain separate and do not inject constituents or food
-   lists into the entry disclosure.
+   lists into the entry disclosure; and
+6. when the Input has a page in this system, that page is linked from the
+   Input value only. The compact heading is not that link.
 
 Schema and unit-test success alone is insufficient because a valid atom can
 still fail to render when its Markdown label does not match its presentation
@@ -810,7 +856,7 @@ Author one short sentence explaining input → contribution/conversion → proce
 | Iron | Iron helps the enzyme that carries out the first step in making dopamine from tyrosine. |
 | Vitamin B6 | Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis. |
 
-Local requirements remain local even with upstream supply: Tyrosine — Direct · Substrate · [Supply: PM1]; Iron — Direct · Cofactor; Pyridoxal-5′-phosphate (PLP) — Direct · Cofactor; Vitamin B6 — Derived · Cofactor Precursor → Pyridoxal-5′-phosphate (PLP). Do not repeat the supply explanation in the description. Retain `upstream_pm_relationships` on the reviewed atom; render its link beside that input, never on the subsection header. PM1's canonical destination is https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation. Do not import PM1's dietary entries.
+Local requirements remain local even with upstream supply: Tyrosine — Direct · Substrate · [Supply: PM1]; Iron — Direct · Cofactor; Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor) — Direct · Cofactor; Vitamin B6 — Derived · Cofactor Precursor → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor). Do not repeat the supply explanation in the description. Retain `upstream_pm_relationships` on the reviewed atom; render its link beside that input, never on the subsection header. PM1's canonical destination is https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation. Do not import PM1's dietary entries.
 
 If no local Direct/Derived requirements are established, state the adjudicated status: distinguish an established absence from an unresolved assessment. An independently supported upstream dependency may appear once as a linked relationship with a concise explanation; it does not create local nutrient atoms. Do not manufacture five-field local disclosures from upstream lists.
 
@@ -839,7 +885,7 @@ The following is exact source Markdown; descriptions, qualifiers, fields and res
 
 - Tyrosine
 - Iron
-- Pyridoxal-5′-phosphate (PLP)
+- Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 - Vitamin B6
 
 </div>
@@ -895,7 +941,7 @@ dietary_lever_atoms:
   - atom_id: PM3-DIT-3
     requirement_classification: derived
     relationship_mode: capacity-requirement
-    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     derived_target_atom_id: PM3-DIT-2
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
@@ -957,6 +1003,12 @@ function buildResearchLinkHtml(d: DietaryLeverDisclosure): string {
     : "";
 }
 
+function renderInputValue(d: DietaryLeverDisclosure): string {
+  const label = escapeHtml(d.title);
+  if (!d.inputHref) return label;
+  return `<a class="brs-dietary-lever-input-link" href="${escapeHtml(d.inputHref)}">${label}</a>`;
+}
+
 function buildDetailHtml(d: DietaryLeverDisclosure): string {
   const limitation = d.evidenceLimitation
     ? `<p class="brs-dietary-lever-detail-limit"><span class="brs-dietary-lever-detail-k">Limitation</span> = ${escapeHtml(d.evidenceLimitation)}</p>`
@@ -965,7 +1017,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
   return `
     <div class="brs-dietary-lever-detail-inner">
       ${buildDescriptionHtml(d)}
-      <p><span class="brs-dietary-lever-detail-k">Input</span> = ${escapeHtml(d.title)}</p>
+      <p><span class="brs-dietary-lever-detail-k">Input</span> = ${renderInputValue(d)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
       <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
@@ -1032,6 +1084,9 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
     for (const disclosure of map.values()) {
       if (disclosure.titleHref) {
         disclosure.titleHref = new URL(disclosure.titleHref, canonicalPmUrl).href;
+      }
+      if (disclosure.inputHref) {
+        disclosure.inputHref = new URL(disclosure.inputHref, canonicalPmUrl).href;
       }
       if (disclosure.originTag) {
         disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
@@ -1104,7 +1159,7 @@ Test this extension through the documented records and shared renderer: verify t
 
 ### Admitted PM-owned KC input disclosure — PM7 integration reference
 
-Use the existing shared renderer. Public §3.1.3 titles are the individually authorised **input names**, not the parent KC name. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
+Use the existing shared renderer. Public §3.1.3 titles identify the adjudicated distinct **input or defined pool**, not a parent KC used as a substitute for the biological input. The following individual-input example demonstrates renderer integration only; it does not waive distinctness review or approve scientific admissions. Pool evidence requires a pool trigger rather than unsupported constituent splitting. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
 
 **Admission:** Stage 2B independently evidence-reviews each proposed PM→KC/iKC/input relationship and records evidence, limitations, rationale and disposition. Publish only supported or conditionally admitted relationships. Rejected and unresolved candidates remain audit-only, with exact remaining gaps and follow-up. KC membership or a provenance tag alone does not authorise an input; missing records do not justify exclusion. Preserve canonical KC/iKC/constituent identifiers when applicable; do not invent iKC identifiers or label every nutrient an iKC. PM7 KC1 remains conditionally established; KC2 remains unresolved and is not a public requirement or admitted mapping. Folate/betaine/choline provision does not settle KC2's methionine/cysteine capacity question.
 
@@ -1313,9 +1368,137 @@ Existing shared interaction handlers → trigger preview, pinning and close beha
 ```
 <!-- /PM7-KC-REFERENCE:interaction -->
 
-Expected closed result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
+Expected closed integration-fixture result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Live publication additionally requires the final distinctness gate; consolidate repeated jobs or retain an adjudicated pool claim as appropriate. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
 
 Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability/governance/PM3 reference suites. The documented example must execute actual shared projection and rendering code with canonical dependencies, including interaction events and unresolved-parent suppression. Browser-check focus/activation/Escape, origin navigation, ordering and link targets; report actual results and deployment gaps separately from these completion instructions.
+
+
+### Evidence-adjudicated intervention dominance and training layout
+
+This governs canonical Profile A PMs with `intervention_dominance_assessment`. Group meanings remain: **3.1 Dietary Requirements** (its three existing dietary/biochemical/KC subgroups), **3.2 System Optimisation Practices** (defined practices/protocols in the existing five categories), **3.3 Lifestyle Levers** (foundational/recurrent behaviours). Moving a group changes prominence only, never its classification, claim ceiling or evidence status.
+
+Required rendered order: **Mission → Intervention Dominance → every adjudicated principal group → Overview**. Remaining groups appear once in section 3. The shared MDX build transform `src/plugin/pm-lever-layout/index.cjs` performs placement and numbering before HTML/TOC generation; it is registered through `beforeDefaultRemarkPlugins` in `docusaurus.config.ts`. Do not run the retired diet-only migration or hand-copy groups into two sections.
+
+| Adjudicated canonical routes | Visible number after Mission, before Overview | Visible numbers remaining in section 3 |
+|---|---|---|
+| 3.1 Dietary Requirements | 1.1 Dietary Requirements | 3.1 System Optimisation Practices; 3.2 Lifestyle Levers |
+| 3.2 System Optimisation Practices | 1.1 System Optimisation Practices | 3.1 Dietary Requirements; 3.2 Lifestyle Levers |
+| 3.3 Lifestyle Levers | 1.1 Lifestyle Levers | 3.1 Dietary Requirements; 3.2 System Optimisation Practices |
+| 3.2 + 3.3 | 1.1 System Optimisation Practices + 1.2 Lifestyle Levers | 3.1 Dietary Requirements |
+| Any other independently adjudicated principal combination | All principal groups, numbered 1.1, 1.2… in canonical order | All unselected groups, numbered 3.1, 3.2… in canonical order |
+| Not established | Preserved qualification + “No principal intervention route established”; no promoted group | 3.1 Dietary Requirements; 3.2 System Optimisation Practices; 3.3 Lifestyle Levers |
+
+**Two separately traceable decisions are mandatory.** Evidence qualification records the supported influence, context and limitations; principal-route selection determines placement. Preserve the canonical `intervention_dominance` label verbatim (including `Diet-Supported`) and its governing meaning. The spreadsheet schema calls this field “dominance” and permits FM inheritance; the approximate FM profile mapping does not redefine it or adjudicate PM placement. A qualification is not silently replaced by a group title or upgraded to Diet-Dominant. Unassessed legacy pages retain their existing presentation pending review.
+
+**Evidence qualification:** `intervention_dominance_assessment.evidence_qualification` contains `label` (matching the canonical label), `rationale`, optional `scope_note` and independently assessed `routes`. Each route carries canonical `group_id`, `evidence_basis: intervention-effect`, measured `intervention_effect`, `context`, `limitations` and `evidence_source.finding_ids`/`citation_keys`. Trace evidence to this PM's canonical Findings and bibliography. Neither nutrient presence, biochemical necessity, KC membership nor provision tracing alone establishes intervention responsiveness. Conditional correction/restriction evidence remains eligible within its boundaries; do not impose a universal human assay or enhancement above adequacy.
+
+**Principal selection:** the separate `principal_route_selection` contains `disposition` (`established` or `not-established`), unique `selected_groups`, `rationale`, `comparative_limitations` and `assessments`. Each selected route requires a distinct assessment of `relevance`, `directness` and `extent` of its demonstrated influence on this PM. Qualification alone, or missing admitted competitors, does not establish primacy. Multiple selected groups additionally require `joint_prominence_rationale` explaining why joint prominence is justified; two supported entries do not imply equal dominance. Unestablished selection uses an empty `selected_groups` list while retaining all qualified routes. Supported non-principal groups remain in section 3. Rejected/unresolved candidates remain in the audit; no placement is inferred from FM inheritance.
+
+**Public statement:** render `Intervention Dominance: <preserved qualification> — <selected principal group(s) or No principal intervention route established>`, followed by the qualification scope and comparative limitations. Keep conditional boundaries visible. Do not invent rankings or equal dominance where the evidence does not establish them. Structural validation checks this separation and traceability; Stage 2B must review the science.
+
+**Numbering and stable identity:** author all three groups once with their canonical labels/IDs in section 3. When Dietary Requirements is moved before Overview, canonical **3.1 becomes 1.1**. Its children become 1.1.1 Direct and/or Derived Dietary Requirements, 1.1.2 Cofactors and Substrates, and 1.1.3 Key Constraints. The groups that remain in section 3 are then numbered from 3.1 in canonical order: canonical **3.2 System Optimisation Practices becomes 3.1**, and canonical **3.3 Lifestyle Levers becomes 3.2**. The same renumbering applies whichever group is moved. A moved group takes the next 1.n number (1.1, then 1.2). Each group left in section 3 takes the next 3.n number (3.1, then 3.2). Titles retain their meanings. `data-pm-lever-group="3.1"` and `data-pm-lever-section="3.1.3"` retain canonical lookup identity independent of visible numbering. Preserve existing anchors; missing ones receive stable `pm-lever-dietary`, `pm-lever-optimisation`, `pm-lever-lifestyle` and dietary-child IDs. Do not renumber Finding, atom, KC/iKC, bibliography or relationship identifiers. The shared disclosure renderer reads these attributes before its legacy heading fallback, preserving the existing hover/focus, click/tap, Escape and origin-link behaviour.
+
+**Exact live PM7 assessment → Diet-Supported retained; principal selection not established; all groups remain in section 3.** F5 qualifies conditional dietary influence, not comparative dominance; F7 provision tracing does not select a principal route. All Findings, full studies and bibliography remain canonical PM7 dependencies; no existing scientific classification is rewritten.
+
+<!-- DOMINANCE-REFERENCE:pm7 -->
+```yaml
+intervention_dominance: Diet-Supported
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: The retained Diet-Supported qualification is supported by conditional PM-specific dietary influence; it does not establish comparative intervention dominance.
+    scope_note: Conditional animal evidence concerns folate restriction and methyl-derived PC enrichment; it does not establish absolute PEMT flux, benefit above adequacy or cognitive benefit.
+    routes:
+      - group_id: '3.1'
+        evidence_basis: intervention-effect
+        intervention_effect: Eight-week folate restriction with labelled choline maintained reduced hepatic d3-PC enrichment and the product/precursor enrichment ratio in female mice.
+        context: Female wild-type and Mthfr-heterozygous mice; the hepatic response was not demonstrated in males.
+        limitations: Enrichment is not absolute PEMT flux. The restriction experiment does not establish supplementation benefit above adequacy, a human intake target or cognitive benefit.
+        evidence_source:
+          finding_ids:
+            - PM7-F5
+          citation_keys:
+            - chew_folate_choline_2011
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: F5 demonstrates conditional dietary responsiveness, but the current assessment does not establish the relevance, directness and extent needed to prioritise this route over the other intervention groups. Absence of admitted alternative entries is not evidence of dietary primacy.
+    comparative_limitations: Comparative dominance is not established; no ranking or equal dominance is inferred.
+    assessments: []
+```
+<!-- /DOMINANCE-REFERENCE:pm7 -->
+
+**Exact shared decision-to-placement code → section and route labels.** Integration excerpt from the existing registered build transform, not a standalone renderer. `GROUPS` retains the three canonical titles; `validateDominanceAssessment` rejects unresolved IDs/citations and biochemical-necessity-only evidence.
+
+<!-- DOMINANCE-REFERENCE:plan -->
+```js
+function dominancePlan(data) {
+  const a = data.intervention_dominance_assessment;
+  if (!a) return null; // Legacy strings/modes and FM inheritance are not evidence adjudications.
+  const errors = validateDominanceAssessment(data);
+  if (errors.length) throw new Error(`${data.pm_id || 'PM'} dominance: ${errors.join('; ')}`);
+  const promoted = Object.keys(GROUPS).filter(id => a.principal_route_selection.selected_groups.includes(id));
+  const remaining = Object.keys(GROUPS).filter(id => !promoted.includes(id));
+  const headings = Object.fromEntries([...promoted.map((id, i) => [id, `1.${i + 1}`]), ...remaining.map((id, i) => [id, `3.${i + 1}`])]);
+  const selection = a.principal_route_selection;
+  const routeLabel = promoted.length ? promoted.map(id => GROUPS[id].title).join(' + ') : 'No principal intervention route established';
+  return {promoted, remaining, headings, label: `${a.evidence_qualification.label} — ${routeLabel}`, scope: [a.evidence_qualification.scope_note, selection.comparative_limitations].filter(Boolean).join(' ')};
+}
+```
+<!-- /DOMINANCE-REFERENCE:plan -->
+
+**Explicit independently adjudicated joint-principal test fixture → 1.1 System Optimisation Practices + 1.2 Lifestyle Levers, with 3.1 Dietary Requirements remaining below.** This is synthetic test data, not a real PM scientific admission; `FIX-F1`/`fixture_source` dependencies live only in the test fixture. The same fixture is exercised for each single route, every combination, and no established dominance.
+
+<!-- DOMINANCE-REFERENCE:joint-fixture -->
+```yaml
+intervention_dominance: Mixed
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Mixed
+    rationale: Synthetic qualification only; two independently supported simulated routes.
+    scope_note: Synthetic test fixture only.
+    routes:
+      - group_id: '3.2'
+        evidence_basis: intervention-effect
+        intervention_effect: Simulated intervention changes a simulated endpoint.
+        context: Synthetic test dataset only.
+        limitations: Not a scientific study or a live admission.
+        evidence_source:
+          finding_ids:
+            - FIX-F1
+          citation_keys:
+            - fixture_source
+      - group_id: '3.3'
+        evidence_basis: intervention-effect
+        intervention_effect: Simulated intervention changes a simulated endpoint.
+        context: Synthetic test dataset only.
+        limitations: Not a scientific study or a live admission.
+        evidence_source:
+          finding_ids:
+            - FIX-F1
+          citation_keys:
+            - fixture_source
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.2'
+      - '3.3'
+    rationale: Synthetic assessment of relevance, directness and extent selects both routes.
+    comparative_limitations: Synthetic demonstration only; no real intervention ranking.
+    joint_prominence_rationale: The simulated interventions address complementary substantial parts of the simulated PM endpoint; joint prominence was independently adjudicated.
+    assessments:
+      - group_id: '3.2'
+        relevance: Simulated PM-specific endpoint.
+        directness: Simulated intervention directly changes the endpoint.
+        extent: Simulated substantial complementary influence.
+      - group_id: '3.3'
+        relevance: Simulated PM-specific endpoint.
+        directness: Simulated intervention directly changes the endpoint.
+        extent: Simulated substantial complementary influence.
+```
+<!-- /DOMINANCE-REFERENCE:joint-fixture -->
+
+Minimal authoring pattern: use the existing shared hub dropdown or native `<details>` exactly once for each canonical group; retain its evidence content. The test source `scripts/fixtures/pm-lever-layout.fixture.mdx` demonstrates stable anchor preservation. Run `node --test scripts/pm-lever-layout.test.mjs` to compile/render the actual transform, execute these documented records, verify all combinations and unchanged disclosure lookup, and reject invalid evidence chains, qualification-label changes and joint promotion without a separate rationale. Supported-but-unselected fixtures verify that support does not imply principal placement. Record actual test/build/browser outcomes separately from this instruction. No synthetic study or bibliography is copied into a live PM.
 
 
 ## 8. PM Evidence workflow
@@ -1490,7 +1673,7 @@ relationship. Delivery is not itself an additional requirement: bypass delivery-
 
 #### Relationship-first workflow
 
-Before step 1, complete the input-specificity adjudication and record its three answers and disposition for every candidate.
+Before step 1, complete the input-specificity adjudication and record a specificity decision and supporting evidence for every candidate. A concise table row suffices for straightforward cases; explicitly address all three questions where the label is broad, the target changes, or the relationship is disputed or unresolved.
 
 1. Name the biological objective/state governed by the PM.
 2. Identify the claimed dietary relationship and its **type** (capacity,
@@ -1602,7 +1785,7 @@ state was reached.
 |-------|-------------------|------------------------|
 | §3.1.1 / §4.1.1 | `No Direct or Derived Dietary Requirement is currently established for [PM-governed state/function].` | Admitted Direct/Derived relationships and scientific limitations |
 | §3.1.2 / §4.1.2 | Admitted biochemical relationships only. If none: `No evidence-supported cofactors or substrates are currently established for this mechanism.` | Do not list rejected legacy candidates |
-| §3.1.3 / §4.1.3 | `No mapping established.` | Linked KC title plus concise PM-specific relevance; no copied constituents or food-source bullets |
+| §3.1.3 / §4.1.3 | `No mapping established.` only when no PM↔iKC mapping is established. An established mapping whose disclosures were all consolidated leaves the panel without that sentence. | Distinct authorised input or pool disclosure with separate KC origin tag; no inherited lists or duplicate relationships |
 
 Helpers: `scripts/lib/pm-dietary-requirements-public-copy.mjs`. Empty Key Constraint
 panels that still say `None listed` are rewritten to the empty copy by
@@ -1649,7 +1832,7 @@ Where protein only supplies an identified substrate (for example cysteine for gl
 
 **Direct — PLP**
 
-`Input = Pyridoxal-5′-phosphate (PLP)` · `direct` · `Input Type = cofactor`.
+`Input = Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)` · `direct` · `Input Type = cofactor`.
 
 **Derived — vitamin B6**
 
@@ -1690,3 +1873,615 @@ architecture in this contract revision.
 - Downstream flags: `system/mechanism-change-control-queue.md`
 - Conditional Optimisation Strategy follow-up / SOP boundary: `system/brs-hub-levers-schema.md` (System Optimisation Practices)
 - Future hub/lever presentation patterns: `system/brs-hub-levers-schema.md` (Lever build)
+
+
+
+### Canonical iKC identity and PM-specific upstream supply
+
+An **iKC** is an individually registered constituent of a canonical Key Constraint pool, linked to its verified canonical substance ID. Being a substrate, cofactor or dietary input alone does not confer iKC status. Canonical KC membership establishes constituent identity; PM-specific applicability requires independent evidence adjudication. A substance may belong to several KCs: retain each membership using one canonical substance identity.
+
+**Existing usage and migration:** Older `ikc_id` records denote whole pools or constraint arms. They retain their recorded meaning as legacy references and are not silently reinterpreted as nutrient identities. For a reviewed constituent migration, use existing `individual_key_constraints` and KC five-atom records with `ikc_identity_version: constituent-v2`. Retain old pool/arm IDs explicitly in `legacy_ikc_references`. Reuse existing KC constituent evidence IDs as membership references when registering them; do not invent substance IDs or create a parallel registry. Each constituent registration carries `ikc_id`, `kc_atom_id`, `substance_id`, `identity_status`, `registration_status` and verified `substance_href`. A missing substance remains a `pending-identity` registration, not a verified iKC identity. Other pages are not migrated automatically.
+
+**Separate applicability decisions:**
+
+- **Supported upstream supply** (`relationship_type` and `applicability_mode`: `supported-upstream-supply`): a source-supported pathway maintains or replenishes a resource used by this PM. Establish the actual supply chain and preserve tissue/context boundaries and compensation. Deficiency evidence and a demonstrated limiting effect are not mandatory.
+- **Conditional constraint** (`conditional-constraint`): evidence shows resource availability constraining this PM in a specified context. A supported mechanistic chain may establish this; one end-to-end human bottleneck measurement is not universally required. A precursor-to-substrate supply chain alone does not establish this additional proposition.
+
+Neither participation nor homocysteine lowering establishes increased MAT flux, increased SAMe availability or benefit from extra intake. Keep limiting effects unresolved when not established. Individual admission is independent of pool membership/admission; do not inherit every constituent or propagate downstream applicability.
+
+**Section boundaries are unchanged:** §3.1.1 = independently admitted Direct/Derived Dietary Requirements. §3.1.2 = actual biochemical **Cofactors and Substrates**. §3.1.3 = shared KC relationship plus independently admitted individual KC inputs. Never broaden §3.1.2 for upstream supply or copy iKCs there or into §3.1.1 solely because KC1 is admitted.
+
+Under the KC in §3.1.3, show the concise pool-level relationship, evidence and attached limitation, followed by **Individual KC inputs**. Each admitted individual has the existing shared dropdown: reader description → exactly Input → Input type → Biological role → Evidence source → Limitation → supporting mechanism research link. Use `input_type: supported upstream supply` when appropriate. The pool summary does not repeat full individual atoms. Origin tags navigate separately from triggers; reviewed intermediary PM links belong beside inputs/in their disclosure, never on section headings. Preserve distinct independently adjudicated roles across other sections using the same substance identity, with cross-references instead of identical full disclosures.
+
+**Distinctness:** The pool may summarise admitted upstream supply edges once, with limitations, without claiming an additional capacity constraint. The further-biological-job gate applies to a proposed separate conditional constraint; supply alone does not satisfy it. A different input name/type, tag, citation set or wording still does not establish another job. Do not duplicate individual supply atoms in the pool summary.
+
+**Canonical identity audit:** For every admitted individual input, check the canonical registry key, actual substance-page `id` and registry/page path, aliases, nutrient families, specific forms and metabolites. Slug/display-name matches are not proof. Retain `canonical_identity.status`: `resolved`, `existing-substance-identity-inconsistency`, or `missing-substance`. Resolved identities carry verified `substance_id`, `substance_href` and checked sources. Missing/inconsistent identities are **MAJOR AUDIT FLAGS**. Keep supported biology and five atoms visible, but block unreliable identity-based projections.
+
+**Required next step:** Reuse PM `pending_actions` and the Stage 2B report. Each flag records input/intended identity, PM/KC/type, checked candidate records and aliases, required canonical repair or substance registration/page creation, and subsequent food-relationship assessment. Resolve identity through the existing substance registry/page workflow, then separately assess source-backed food composition and approved top-10 records. “Contains” does not mean “approved top-10”: retain units, comparison basis, preparation state and authoritative source. Do not fabricate missing identities, foods or rankings. No new substance/food pages, rankings or food dropdowns during this pilot.
+
+**Same canonical projection edges:** `pm_kc_relationships[].constituent_relationships` references PM evidence through `pm_atom_id`, KC evidence through `kc_atom_id`, canonical membership through `ikc_id`, and retains `substance_id`, `canonical_identity` and `relationship_type`. All pool and individual disclosures belong to canonical §3.1.3. Use existing ontology/SubstanceMatrix infrastructure to project only individually admitted PM relationships with verified substance identities and registered KC membership; preserve evidence, type and limitation. Make those same records available to future food and FM/BRS projections without transitive graph inheritance. Missing identities stay visible in audit and queue, not silently omitted from scientific records.
+
+**Completion gate:** Check unchanged §3.1.2 participants, pool/individual placement in §3.1.3, individual evidence, no unsupported members or downstream inheritance, verified IDs/memberships or explicit major flags, unchanged relationship types/limitations through projection, and preserved unrelated work. Exercise the documented record with the actual shared renderer/projection. Inspect triggers, five atoms, citations, origin/intermediary/Finding links, keyboard preview/pinning and Escape. Record actual verification results separately from these instructions.
+
+### Verified PM3 §3.1.3 implementation example
+
+Exact source excerpts use the **existing shared renderer**, not standalone replacement components. Stored here: `docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx` → displayed here: https://thebraindiet.org/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis , canonical §3.1.3. §3.1.2 remains unchanged.
+
+Source Markdown inside the existing KC panel:
+
+```mdx
+- One-carbon methyl-donor pool (folate, betaine, choline)
+
+#### Individual KC inputs
+
+<span id="pm3-individual-kc-inputs" />
+
+- Vitamin B9 (folate)
+- Betaine
+- Choline
+```
+
+Exact new five-atom records and matching pool/constituent relationship records follow. The target PM supplies its existing Lever overlays, applicability adjudications, complete Findings and bibliography; do not copy full studies or bibliography into this instruction or into another PM. Citation numbering resolves from the target PM bibliography; do not renumber the live PM to simplify an example.
+
+<!-- pm3-ikc-record-example -->
+```json
+{
+  "dietary_input_traceability": [
+    {
+      "atom_id": "PM3-KC1-UPSTREAM-1",
+      "input": "Vitamin B9 (folate)",
+      "input_type": "supported upstream supply",
+      "biological_role": "Folate supplies 5-methyltetrahydrofolate to [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), regenerating methionine that PM3 can use to form SAMe.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4",
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019",
+          "obeid_metabolic_2013"
+        ]
+      },
+      "evidence_limitation": "This is upstream methionine supply, not a MAT substrate or cofactor. The route depends on functional vitamin B12-dependent methionine synthase; alternative methionine supply and tissue context affect its contribution. Increased MAT flux or benefit from extra folate in replete individuals is not established.",
+      "substance_id": "vitamin-b9",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "vitamin-b9",
+        "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md"
+        ]
+      },
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-1",
+      "relationship_type": "supported-upstream-supply",
+      "upstream_pm_relationships": [
+        {
+          "relationship_label": "Supply",
+          "pm_short_id": "PM1",
+          "pm_id": "BRS2-FM1-PM1",
+          "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+        }
+      ]
+    },
+    {
+      "atom_id": "PM3-KC1-UPSTREAM-2",
+      "input": "Betaine",
+      "input_type": "supported upstream supply",
+      "biological_role": "Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine used by PM3.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4",
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "evidence_limitation": "BHMT activity is concentrated mainly in liver and kidney; this is not local BHMT activity in every tissue. Folate-dependent remethylation and dietary methionine provide alternative supply. Homocysteine lowering does not establish increased MAT flux, increased SAMe availability or benefit from extra intake in replete individuals.",
+      "substance_id": "betaine",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "betaine",
+        "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/betaine",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/bioactive-compounds/choline-methylation/betaine.md"
+        ],
+        "aliases_checked": [
+          "Betaine",
+          "Glycine betaine",
+          "Trimethylglycine",
+          "TMG"
+        ],
+        "identity_scope": "Glycine betaine (trimethylglycine), not other betaine compounds."
+      },
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-3",
+      "relationship_type": "supported-upstream-supply",
+      "upstream_pm_relationships": [
+        {
+          "relationship_label": "Supply",
+          "pm_short_id": "PM2",
+          "pm_id": "BRS2-FM1-PM2",
+          "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+        }
+      ]
+    },
+    {
+      "atom_id": "PM3-KC1-UPSTREAM-3",
+      "input": "Choline",
+      "input_type": "supported upstream supply",
+      "biological_role": "Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration upstream of PM3.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4",
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013"
+        ]
+      },
+      "evidence_limitation": "Only the choline-to-betaine methyl-supply route is admitted here, not choline membrane or neurotransmitter roles. Oxidation, predominantly hepatic/renal BHMT activity and alternative supply constrain interpretation. Increased MAT flux, increased SAMe availability or benefit from additional choline in replete individuals is not established.",
+      "substance_id": "choline",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "choline",
+        "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/choline",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/bioactive-compounds/choline-methylation/choline.md"
+        ]
+      },
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-2",
+      "relationship_type": "supported-upstream-supply",
+      "upstream_pm_relationships": [
+        {
+          "relationship_label": "Supply",
+          "pm_short_id": "PM2",
+          "pm_id": "BRS2-FM1-PM2",
+          "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+        }
+      ]
+    }
+  ],
+  "pm_kc_relationships": [
+    {
+      "relationship_id": "PM3-KC1-UPSTREAM-POOL",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2(KC1)",
+      "relationship_type": "supported-upstream-supply",
+      "input": "One-carbon methyl-donor pool (folate, betaine, choline)",
+      "input_type": "supported upstream supply",
+      "pm_biological_role": "KC1 contributes methyl groups to methionine regeneration through [PM1 — Folate/B12-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). PM3 uses that regenerated methionine to produce SAMe.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4",
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019",
+          "obeid_metabolic_2013",
+          "evans_betaine_2002",
+          "salvi_choline_2013"
+        ]
+      },
+      "evidence_limitation": "Deficiency and pathway-impairment studies support this upstream connection, with responses varying by tissue and condition. KC1’s limiting effect on MAT-dependent synthesis remains unresolved; SAMe abundance also reflects consumption and turnover. Benefit from additional intake in nutrient-replete individuals is not established. This pool relationship is distinct from PM3’s biochemical reaction requirements.",
+      "presentation_label": "One-carbon methyl-donor pool (folate, betaine, choline)",
+      "reader_description": "The shared methyl-donor pool supports regeneration of the methionine used to make SAMe.",
+      "description_finding_id": "PM3-F4",
+      "applicability_label": "Supported upstream supply",
+      "origin_label": "KC1: Methyl Donor Pool",
+      "kc_href": "/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool",
+      "constituent_relationships": [
+        {
+          "relationship_id": "PM3-KC1-UPSTREAM-1-REL",
+          "pm_atom_id": "PM3-KC1-UPSTREAM-1",
+          "kc_atom_id": "BRS2-KC1-KIT-1",
+          "ikc_id": "BRS2-KC1-KIT-1",
+          "kc_membership_status": "canonical-reviewed",
+          "label": "Vitamin B9 (folate)",
+          "presentation_section": "3.1.3",
+          "reader_description": "Folate supports regeneration of the methionine used to make SAMe.",
+          "description_finding_id": "PM3-F4",
+          "relationship_type": "supported-upstream-supply",
+          "substance_id": "vitamin-b9",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "vitamin-b9",
+            "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-b9",
+            "verified_against": [
+              "registry/substances.json",
+              "docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md"
+            ]
+          },
+          "disposition": "established",
+          "rationale": "Individually reviewed supporting sources establish this upstream supply route. This admission does not establish a limiting effect on MAT or additional-intake benefit."
+        },
+        {
+          "relationship_id": "PM3-KC1-UPSTREAM-2-REL",
+          "pm_atom_id": "PM3-KC1-UPSTREAM-2",
+          "kc_atom_id": "BRS2-KC1-KIT-3",
+          "ikc_id": "BRS2-KC1-KIT-3",
+          "kc_membership_status": "canonical-reviewed",
+          "label": "Betaine",
+          "presentation_section": "3.1.3",
+          "reader_description": "Betaine supplies methyl groups for regeneration of methionine upstream of SAMe synthesis.",
+          "description_finding_id": "PM3-F4",
+          "relationship_type": "supported-upstream-supply",
+          "substance_id": "betaine",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "betaine",
+            "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/betaine",
+            "verified_against": [
+              "registry/substances.json",
+              "docs/substances/bioactive-compounds/choline-methylation/betaine.md"
+            ],
+            "aliases_checked": [
+              "Betaine",
+              "Glycine betaine",
+              "Trimethylglycine",
+              "TMG"
+            ],
+            "identity_scope": "Glycine betaine (trimethylglycine), not other betaine compounds."
+          },
+          "disposition": "established",
+          "rationale": "Individually reviewed supporting sources establish this upstream supply route. This admission does not establish a limiting effect on MAT or additional-intake benefit."
+        },
+        {
+          "relationship_id": "PM3-KC1-UPSTREAM-3-REL",
+          "pm_atom_id": "PM3-KC1-UPSTREAM-3",
+          "kc_atom_id": "BRS2-KC1-KIT-2",
+          "ikc_id": "BRS2-KC1-KIT-2",
+          "kc_membership_status": "canonical-reviewed",
+          "label": "Choline",
+          "presentation_section": "3.1.3",
+          "reader_description": "Choline can be converted to betaine to support methionine regeneration upstream of SAMe synthesis.",
+          "description_finding_id": "PM3-F4",
+          "relationship_type": "supported-upstream-supply",
+          "substance_id": "choline",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "choline",
+            "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/choline",
+            "verified_against": [
+              "registry/substances.json",
+              "docs/substances/bioactive-compounds/choline-methylation/choline.md"
+            ]
+          },
+          "disposition": "established",
+          "rationale": "Individually reviewed supporting sources establish this upstream supply route. This admission does not establish a limiting effect on MAT or additional-intake benefit."
+        }
+      ]
+    }
+  ]
+}
+```
+<!-- /pm3-ikc-record-example -->
+
+Stored `reader_description` → first opened sentence; PM `pm_atom_id` → the five atoms; `description_finding_id: PM3-F4` → **Upstream donor routes regenerate methionine for SAMe synthesis** at https://thebraindiet.org/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis#pm3-f4 . Same-page Finding links remain local in previews. Origin tag → https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool . Biochemical and KC identities remain distinct.
+
+Exact integration excerpt from the existing shared renderer (partial function; use in its existing context, not as a standalone component):
+
+```typescript
+    for (const constituent of relationship.constituent_relationships || []) {
+      const base = pmTraceById.get(String(constituent.pm_atom_id || ""));
+      if (!base?.input) continue;
+      const label = String(constituent.label || base.input);
+      map.set(dietaryLeverBulletKey(label, "", "3.1.3"), {
+        title: String(base.input),
+        identityStatus: base.canonical_identity?.status,
+        inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
+        inputType: formatInputTypeLabel(String(base.input_type || "")),
+        biologicalRole: String(base.biological_role || ""),
+        evidenceLimitation: String(base.evidence_limitation || "").trim(),
+        evidenceReferences: evidenceSourceReferences(
+          references,
+          base.evidence_source?.citation_keys || [],
+        ),
+```
+
+Relevant existing integration is `buildDietaryLeverDisclosureMap` in `src/lib/dietaryLeverDisclosure.ts` and its server mirror: the constituent loop resolves `pm_atom_id`, displays in **3.1.3**, and creates the separate KC origin tag. The existing `PmDietaryLeverEnhancer` renders reader description → Input → Input type → Biological role → Evidence source → Limitation → supporting mechanism research, with focus/hover preview, click/tap pinning and Escape dismissal. Do not copy partial functions into new components. No new section-placement renderer is required.
+
+The existing ontology projection consumes canonical records; `buildUpstreamResourceProjection` in `src/data/dietaryOriginProjection.mjs` verifies individual admission, registered KC membership and registry/page substance identity, retaining relationship type and limitation. Shared SubstanceMatrix displays these same rows once on substance pages. Neither tags nor graph traversal admit a row.
+
+Expected result: one KC1 pool disclosure followed by **Individual KC inputs** with folate, betaine and choline, each with five atoms, citations and its own limitations. All three identities resolve in the completed pilot. A future missing identity must remain a major audit flag, with supported biology visible and identity projection blocked. The worked-example test loads target-PM dependencies and exercises actual disclosure/matrix output, including mutation cases; test results are recorded separately in the pilot report.
+
+
+
+### Canonical KC decision examples — existing shared integration
+
+These are integration records for the existing shared renderer, not standalone replacement components. Use the PM3 upstream-supply example above. For every case, load the target PM's canonical Findings, bibliography, presentation metadata and overlays; citation numbering is resolved from that PM's bibliography. Do not copy studies or bibliography into another PM. Stable section identifiers remain 3.1.x even when visible headings are promoted.
+
+#### Conditional constraint: actual PM2 records
+
+Source: `docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx`. Public URL: https://thebraindiet.org/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation. Exact admitted records below are used with existing shared integration. **Stored here → displayed here:** atoms PM2-DIT-1/2 supply the retained five-atom provision disclosures in §3.1.1; the conditional relationship retains evidence and limitations and its §3.1.3 cross-reference. `public_disclosure: consolidated-as-duplicate` does not erase applicability and must not manufacture a second full disclosure. This example demonstrates a conditional decision, not a scientifically distinct additional KC job.
+
+<!-- kc-conditional-real-example -->
+```json
+{
+  "pm_id": "BRS2-FM1-PM2",
+  "pm_kc_relationships": [
+    {
+      "relationship_id": "PM2-KC1-DEPLETION-CONSTRAINT",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2(KC1)",
+      "relationship_type": "conditional-constraint",
+      "pm_biological_role": "KC1’s betaine/choline route supplies BHMT methyl donor; demonstrated choline depletion can reduce remethylation reserve under a methionine challenge.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-F2",
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "salvi_choline_2013",
+          "da_costa_choline_2005",
+          "setoue_choline_deprivation_2008",
+          "strakova_bhmt_inhibition_2011"
+        ]
+      },
+      "evidence_limitation": "Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved.",
+      "origin_label": "KC1: Methyl Donor Pool",
+      "kc_href": "/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool",
+      "constituent_relationships": [
+        {
+          "relationship_id": "PM2-DIT-1-KC1-ADMISSION",
+          "pm_atom_id": "PM2-DIT-1",
+          "kc_atom_id": "BRS2-KC1-KIT-3",
+          "ikc_id": "BRS2-KC1-KIT-3",
+          "kc_membership_status": "canonical-reviewed",
+          "substance_id": "betaine",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "betaine",
+            "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/betaine",
+            "verified_against": [
+              "registry/substances.json",
+              "docs/substances/bioactive-compounds/choline-methylation/betaine.md"
+            ]
+          },
+          "relationship_type": "conditional-constraint",
+          "disposition": "established",
+          "presentation_section": "3.1.3",
+          "public_disclosure": "consolidated-as-duplicate",
+          "retained_record_ids": [
+            "PM2-DIT-1"
+          ],
+          "rationale": "Individually evidenced KC membership and PM applicability. The full provision disclosure is already retained on this PM; no second identical atom is published."
+        },
+        {
+          "relationship_id": "PM2-DIT-2-KC1-ADMISSION",
+          "pm_atom_id": "PM2-DIT-2",
+          "kc_atom_id": "BRS2-KC1-KIT-2",
+          "ikc_id": "BRS2-KC1-KIT-2",
+          "kc_membership_status": "canonical-reviewed",
+          "substance_id": "choline",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "choline",
+            "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/choline",
+            "verified_against": [
+              "registry/substances.json",
+              "docs/substances/bioactive-compounds/choline-methylation/choline.md"
+            ]
+          },
+          "relationship_type": "conditional-constraint",
+          "disposition": "established",
+          "presentation_section": "3.1.3",
+          "public_disclosure": "consolidated-as-duplicate",
+          "retained_record_ids": [
+            "PM2-DIT-2"
+          ],
+          "rationale": "Individually evidenced KC membership and PM applicability. The full provision disclosure is already retained on this PM; no second identical atom is published."
+        }
+      ],
+      "public_disclosure": "consolidated-as-duplicate",
+      "retained_record_ids": [
+        "PM2-DIT-1",
+        "PM2-DIT-2"
+      ]
+    }
+  ],
+  "dietary_input_traceability": [
+    {
+      "atom_id": "PM2-DIT-1",
+      "input": "Betaine",
+      "input_type": "substrate",
+      "biological_role": "Methyl-donor substrate for BHMT remethylation of homocysteine to methionine",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-IC1"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "breksa_zinc_1999",
+          "olthof_low_2003"
+        ]
+      },
+      "evidence_limitation": "Supplemental betaine lowers plasma homocysteine in healthy adults, but that change does not measure tissue BHMT activity or show a clinical benefit. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved.",
+      "substance_id": "betaine",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-3",
+      "relationship_type": "conditional-constraint",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "betaine",
+        "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/betaine",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/bioactive-compounds/choline-methylation/betaine.md"
+        ]
+      }
+    },
+    {
+      "atom_id": "PM2-DIT-2",
+      "input": "Choline",
+      "input_type": "precursor",
+      "biological_role": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F2",
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "evidence_limitation": "Choline oxidation can supply betaine, but increasing choline intake has not been shown to increase tissue BHMT flux. Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved.",
+      "substance_id": "choline",
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2-KC1-KIT-2",
+      "relationship_type": "conditional-constraint",
+      "canonical_identity": {
+        "status": "resolved",
+        "substance_id": "choline",
+        "substance_href": "/docs/substances/bioactive-compounds/choline-methylation/choline",
+        "verified_against": [
+          "registry/substances.json",
+          "docs/substances/bioactive-compounds/choline-methylation/choline.md"
+        ]
+      }
+    }
+  ],
+  "kc_applicability_adjudications": [
+    {
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2(KC1)",
+      "arm_id": "reviewed-member-supply",
+      "applicability_mode": "conditional-constraint",
+      "applicability_proposition": "KC1’s betaine/choline route supplies BHMT methyl donor; demonstrated choline depletion can reduce remethylation reserve under a methionine challenge.",
+      "disposition": "established",
+      "established_links": [
+        "KC1’s betaine/choline route supplies BHMT methyl donor; demonstrated choline depletion can reduce remethylation reserve under a methionine challenge."
+      ],
+      "inferred_links": [
+        "Human evidence is an eight-man depletion pilot, with the challenge response in four clinically depleted participants; tissue BHMT flux was not measured. Rat donor rescue and specific inhibition support the chain. This does not establish ordinary-diet limitation, response in every tissue or benefit above adequacy. Folate’s indirect constraint on BHMT remains unresolved."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-F2",
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "salvi_choline_2013",
+          "da_costa_choline_2005",
+          "setoue_choline_deprivation_2008",
+          "strakova_bhmt_inhibition_2011"
+        ]
+      },
+      "rationale": "Existing human depletion/repletion, route identity, rodent rescue and pathway-specific inhibition together establish a bounded capacity-constraint chain. The absence of one human BHMT-flux assay does not defeat this chain. Public provision atoms remain consolidated; this is not an additional biological job. The earlier user-approved removal of duplicated public disclosure is preserved."
+    }
+  ]
+}
+```
+<!-- /kc-conditional-real-example -->
+
+The excerpt supplements the target PM; it does not replace its unrelated atoms. Exact integration used by the executable test (`pm2.data` is the parsed canonical source, `e` is the fenced record above):
+
+```javascript
+const data={...pm2.data,...e,dietary_input_traceability:pm2.data.dietary_input_traceability.map(a=>e.dietary_input_traceability.find(b=>b.atom_id===a.atom_id)||a)};
+const actual=[...buildDietaryLeverDisclosureMap(data).values()];
+```
+
+This calls `scripts/lib/dietary-lever-disclosure.mjs`, the existing shared disclosure builder. The existing page renderer consumes those results; do not copy partial functions into a new component.
+
+#### Canonical KC member not admitted at this PM: folate at PM2
+
+Folate is registered as KC1 constituent BRS2-KC1-KIT-1 with substance identity vitamin-b9. Its indirect BHMT constraint remains unresolved in this actual PM2 adjudication. **Stored here → displayed here:** the assessment is audit-only; no folate constituent edge or public folate KC disclosure is created at PM2. Pool admission does not change this decision. The source's historical wording is retained verbatim below; the later conditional admission above controls betaine/choline, not folate.
+
+<!-- kc-not-admitted-real-example -->
+```json
+{
+  "pm_id": "BRS2-FM1-PM2",
+  "kc_applicability_adjudications": [
+    {
+      "kc_id": "BRS2(KC1)",
+      "ikc_id": "BRS2(KC1)",
+      "arm_id": "folate-donor-route",
+      "applicability_proposition": "Inadequacy of the folate donor route can indirectly constrain BHMT-dependent remethylation capacity by changing demand on the betaine route or the betaine-to-DMG state.",
+      "disposition": "unresolved",
+      "established_links": [
+        "BHMT transfers a methyl group from betaine to homocysteine and does not use folate or vitamin B12 in that reaction (PM2-F1).",
+        "The flow of methyl groups through BHMT is not dependent on folate or vitamin B12 (PM2-F1).",
+        "The canonical KC review admits folate as a methyl-group input into the shared pool.",
+        "In folate-deprived rats, hepatic betaine fell, dimethylglycine rose, and betaine supplementation increased hepatic BHMT activity but only partly corrected hyperhomocysteinaemia."
+      ],
+      "inferred_links": [
+        "The higher hepatic dimethylglycine concentration inhibited BHMT enough in vivo to make folate inadequacy a BHMT-capacity constraint.",
+        "The rat interaction generalises to human BHMT capacity under nutritionally relevant folate inadequacy."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "breksa_zinc_1999",
+          "obeid_metabolic_2013",
+          "liu_betaine_folate_2012"
+        ]
+      },
+      "rationale": "Folate is not a BHMT reactant, so pathway proximity cannot establish this arm. The prior non-application decision was nevertheless too strong: rat evidence shows a material cross-route interaction through lower hepatic betaine, higher dimethylglycine and a limited response to betaine. Because in-vivo BHMT flux was inferred and the evidence is not human, indirect folate-to-PM2 applicability remains unresolved. The separate betaine/choline KC admission has subsequently been withdrawn; its supported donor-provision chain remains on the dietary records."
+    }
+  ]
+}
+```
+<!-- /kc-not-admitted-real-example -->
+
+#### Missing canonical identity: explicitly synthetic failure fixture
+
+All three live PM3 identities resolve. Do not damage the live page to demonstrate failure. Apply only this fixture's identity override to PM3's existing betaine atom and matching constituent record, removing unresolved substance ID/href from the fixture edge. Retain all scientific fields and canonical membership references. **Stored here → displayed here:** the five-atom disclosure remains available through the shared renderer; the MAJOR flag and pending action appear in audit, while the identity-based BRS matrix projection is blocked. This simulates missing identity, not a real finding that betaine lacks a page.
+
+<!-- kc-missing-identity-fixture -->
+```json
+{
+  "fixture_only": true,
+  "base_pm_id": "BRS2-FM1-PM3",
+  "pm_atom_id": "PM3-KC1-UPSTREAM-2",
+  "canonical_identity": {
+    "status": "missing-substance",
+    "severity": "MAJOR"
+  },
+  "pending_actions": [
+    {
+      "input": "Betaine",
+      "kc_atom_id": "BRS2-KC1-KIT-3",
+      "pm_id": "BRS2-FM1-PM3",
+      "kc_id": "BRS2(KC1)",
+      "relationship_type": "supported-upstream-supply",
+      "severity": "MAJOR",
+      "status": "pending",
+      "intended_identity": "Betaine (trimethylglycine)",
+      "candidate_records_checked": [
+        "registry/substances.json: betaine",
+        "docs/substances/bioactive-compounds/choline-methylation/betaine.md"
+      ],
+      "aliases_checked": [
+        "betaine",
+        "trimethylglycine"
+      ],
+      "required_action": "Verify canonical registration and page linkage; repair linkage or create the canonical substance through the existing workflow only if genuinely absent.",
+      "subsequent_food_assessment": "After identity resolution, assess source-backed food composition separately from approved top-10 ranking."
+    }
+  ]
+}
+```
+<!-- /kc-missing-identity-fixture -->
+
+Run `node --test scripts/stage2b-kc-documented-cases.test.mjs scripts/upstream-resource-pilot.test.mjs scripts/kc1-fm1-constituent-projection.test.mjs`. These tests load the fenced examples, resolve real dependencies, exercise shared disclosure and projection functions, and reject missing repair actions. Completion instructions are not test results.
+
+**Visible numbering after placement:** A lever group displayed in section 1 is numbered `1.1` (then `1.2` for another promoted group), with dietary children `1.1.1`–`1.1.3`. Canonical section IDs remain `3.1`/`3.1.1`–`3.1.3` for records, lookup and stable anchors. This numbering correction also applies to a group already placed in section 1 on a legacy page; it neither selects a principal route nor changes its evidence qualification. Do not display §3.1 under section 1.
+
+**Documented KC-case verification (2026-10-07):** The three-case suite, PM3 pilot suite and FM1 constituent-projection suite passed: 12 tests, 0 failures. Checks exercised canonical disclosure output, conditional projection type/limitations, non-admitted-member suppression, missing-identity projection blocking and required repair actions. No live page or shared renderer was changed; this instruction-only update did not perform a new browser verification or claim site-wide validation is clean.

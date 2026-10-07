@@ -144,3 +144,29 @@ export function buildDietaryOriginProjection(docs, {target, pmId}) {
     pathways,
   }
 }
+
+/** Project only independently admitted canonical §3.1.3 constituent edges. */
+export function buildUpstreamResourceProjection(docs, substanceId, registry) {
+  const entry = registry?.[substanceId];
+  if (!entry?.path) return [];
+  const href = `/docs/substances/${entry.path.replace(/\.mdx?$/, '')}`;
+  if (!docs.some(d => d.permalink === href && d.frontMatter?.id === substanceId)) return [];
+  const rows = [];
+  for (const pm of docs) {
+    const data = pm.frontMatter || {};
+    if (!data.pm_id || !pm.permalink?.startsWith('/docs/biological-targets/') || data.draft_review_status) continue;
+    for (const relationship of data.pm_kc_relationships || []) {
+      if (!(data.kc_applicability_adjudications || []).some(a => a.disposition === 'established' && a.kc_id === relationship.kc_id && (a.ikc_id || a.kc_id) === (relationship.ikc_id || relationship.kc_id))) continue;
+      const kc = docs.find(d => d.frontMatter?.kc_id === relationship.kc_id && d.permalink?.startsWith('/docs/biological-targets/'));
+      for (const constituent of relationship.constituent_relationships || []) {
+        if (constituent.disposition !== 'established' || !['supported-upstream-supply','conditional-constraint'].includes(constituent.relationship_type) || constituent.substance_id !== substanceId || constituent.canonical_identity?.status !== 'resolved') continue;
+        const membership = (kc?.frontMatter?.individual_key_constraints || []).find(i => i.ikc_id === constituent.ikc_id && i.substance_id === substanceId && i.registration_status === 'registered' && i.identity_status === 'resolved' && i.substance_href === href);
+        const kcAtom = (kc?.frontMatter?.kc_input_traceability || []).find(a => a.atom_id === constituent.kc_atom_id && a.ikc_id === membership?.ikc_id && a.ikc_membership === 'admitted');
+        const atom = (data.dietary_input_traceability || []).find(a => a.atom_id === constituent.pm_atom_id && a.substance_id === substanceId && a.canonical_identity?.status === 'resolved' && a.canonical_identity?.substance_href === href);
+        if (!membership || !kcAtom || atom?.relationship_type !== constituent.relationship_type || !atom?.evidence_limitation || !atom.evidence_source?.citation_keys?.length) continue;
+        rows.push({pmId:data.pm_id,parentBrs:data.parent_brs,parentFm:data.parent_fm,pmHref:pm.permalink,kcId:relationship.kc_id,kcHref:kc.permalink,ikcId:membership.ikc_id,substanceId,substanceHref:href,relationshipType:constituent.relationship_type,references:data.references || [],atom});
+      }
+    }
+  }
+  return rows;
+}

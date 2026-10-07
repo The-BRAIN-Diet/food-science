@@ -1,9 +1,10 @@
 /**
- * PM §4 lever panel transforms — canonical order:
+ * Legacy PM §4 lever panel migration only (not the current page-layout contract):
  * 4.1 Dietary → 4.2 System Optimisation Practices → 4.3 Lifestyle
  */
 
-export const PM6_ID = "BRS1-FM3-PM7";
+/** Canonical identity; legacy variable PM6_ID incorrectly referred to this DHA PM. */
+export const DHA_PM_ID = "BRS1-FM3-PM7";
 
 export const PM_LEVER_HEADINGS = {
   optimisation: "4.2 System Optimisation Practices",
@@ -11,6 +12,12 @@ export const PM_LEVER_HEADINGS = {
   legacyLifestyle: "4.2 Lifestyle Levers",
   legacyOptimisation: "4.3 Optimisation Levers",
 };
+
+/** Current pages are laid out by the shared evidence-gated renderer, not this migration. */
+export function isCurrentPmLeverLayout(content) {
+  return /^##\s+3\.\s+(?:Intervention\s+)?Levers\s*$/m.test(content) ||
+    /data-pm-lever-group=["']3\.[123]["']/.test(content);
+}
 
 /** PM §4.2 covers Food Preparation & Delivery only; other SOP categories live on the BRS hub. */
 export const PM_SOP_SCOPE_EXPLAINER =
@@ -140,7 +147,7 @@ function insertAt(content, index, insertion) {
   return content.slice(0, index) + insertion + content.slice(index);
 }
 
-function isPm6OptimisationMergeBullet(bullet) {
+function isDhaOptimisationMergeBullet(bullet) {
   return /repeated weekly oily-fish|phospholipid-dha intake/i.test(bullet);
 }
 
@@ -149,9 +156,9 @@ function buildHubOptimisationBlock(optimisationEntry, lifestyleEntry, { pmId } =
   let block = optimisationEntry.block;
   let bullets = extractHubPanelBullets(block);
 
-  if (pmId === PM6_ID && lifestyleEntry) {
+  if (pmId === DHA_PM_ID && lifestyleEntry) {
     for (const bullet of extractHubPanelBullets(lifestyleEntry.block)) {
-      if (isPm6OptimisationMergeBullet(bullet) && !bullets.includes(bullet)) {
+      if (isDhaOptimisationMergeBullet(bullet) && !bullets.includes(bullet)) {
         bullets.push(bullet);
       }
     }
@@ -164,7 +171,7 @@ function buildHubOptimisationBlock(optimisationEntry, lifestyleEntry, { pmId } =
 
 function buildHubLifestyleBlock(lifestyleEntry, { pmId } = {}) {
   if (!lifestyleEntry) return null;
-  if (pmId === PM6_ID) return null;
+  if (pmId === DHA_PM_ID) return null;
 
   let block = renameHubItemHeading(lifestyleEntry.block, PM_LEVER_HEADINGS.lifestyle);
   return block;
@@ -253,7 +260,7 @@ function transformDetailsLeverPanels(content, { pmId } = {}) {
     ? renameDetailsHeading(lifestyleEntry.block, PM_LEVER_HEADINGS.lifestyle)
     : null;
 
-  if (pmId === PM6_ID) {
+  if (pmId === DHA_PM_ID) {
     lifestyleBlock = null;
   }
 
@@ -265,6 +272,7 @@ function transformDetailsLeverPanels(content, { pmId } = {}) {
 }
 
 export function transformPmSection4Levers(content, { pmId } = {}) {
+  if (isCurrentPmLeverLayout(content)) return { content, changed: false };
   let out = content;
   let changed = false;
 
@@ -394,6 +402,7 @@ ${bullets.join("\n")}
 }
 
 export function reclassifyLifestyleOptimisationBullets(content) {
+  if (isCurrentPmLeverLayout(content)) return { content, changed: false };
   const lifestyleEntry = extractHubItemBlock(content, PM_LEVER_HEADINGS.lifestyle);
   if (!lifestyleEntry) return { content, changed: false };
 
@@ -482,6 +491,7 @@ function isOptimisationNestedInDietary(content) {
 
 /** Move §4.2 out of the §4.1 Dietary panel to a top-level sibling (schema: 4.1 → 4.2 → 4.3). */
 export function hoistOptimisationToTopLevel(content) {
+  if (isCurrentPmLeverLayout(content)) return { content, changed: false };
   if (!isOptimisationNestedInDietary(content)) return { content, changed: false };
 
   const dietary = dietaryParentBlock(content);
@@ -504,6 +514,7 @@ export function hoistOptimisationToTopLevel(content) {
 
 /** Ensure §4.2 Optimisation precedes §4.3 Lifestyle when both panels exist. */
 export function enforcePmSection4LeverOrder(content) {
+  if (isCurrentPmLeverLayout(content)) return { content, changed: false };
   let out = content;
   let changed = false;
 

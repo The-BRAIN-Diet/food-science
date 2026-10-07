@@ -10,6 +10,7 @@ tags:
   - Vegetarian
   - Vitamin B1
   - Vitamin B9
+  - Spermidine
 list_image: /img/foods/peas/peas_thumb.webp
 nutrition_per_100g:
   vitamin_a_rae_ug: 38
@@ -57,6 +58,27 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/peas/peas_medium.webp
 legacy_list_image: /img/foods/peas/peas_thumb.webp
 legacy_main_image: /img/foods/peas/peas_medium.webp
+nutrition_supplementary_sources:
+  - key: spermidine_qual
+    label: Spermidine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    notes: Measured food occurrence; content varies by sample and preparation.
+    source_note: >-
+      Muñoz-Esparza et al. (2021), §3.1 and Figures 3–5: Peas is identified as a
+      spermidine-containing food. The selected USDA panel does not quantify this
+      analyte. A comparable product-specific per-100 g value is not established
+      here. https://doi.org/10.3390/foods10081752
+substance_relationships:
+  - substance: Spermidine
+    relationship: contains
+    description: >-
+      Analytical food evidence identifies spermidine in peas; concentration
+      varies with the sample and preparation.
+    citation_keys:
+      - munoz_esparza_food_polyamines_2021
+substance_card_captions:
+  Spermidine: Occurs directly in this food; a product-specific amount is not established.
 ---
 ## Overview
 
@@ -108,3 +130,4 @@ Peas are rich in lysine but relatively low in sulfur-containing amino acids. Com
 
 ## References
 
+[1] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.

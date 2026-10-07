@@ -10,10 +10,12 @@ import {
   resolveLeverAtom,
 } from "./dietary-lever-atoms.mjs";
 import { isAdmittedIkcConstituent } from "./kc-evidence-governance.mjs";
+import { attachSubstanceInputHrefs } from "./substance-input-pages.mjs";
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
 
 const INPUT_TYPE_LABEL = {
+  "supported upstream supply": "Supported upstream supply",
   substrate: "Substrate",
   "substrate provision": "Substrate provision",
   "nutrient/substance": "Nutrient / precursor",
@@ -140,7 +142,7 @@ export function buildDietaryLeverDisclosureMap(data) {
         evidenceLimitation: String(row.evidence_limitation || "").trim(),
         evidenceReferences: evidenceSourceReferences(data, row.evidence_source),
         compactQualifier: "",
-        presentationSection: section,
+        presentationSection: "3.1.3",
       });
     }
   }
@@ -163,7 +165,7 @@ export function buildDietaryLeverDisclosureMap(data) {
       presentationSection: section,
       readerDescription: String(row.reader_description || ""),
       supportingFinding: supportingFindingLink(data, row.description_finding_id),
-      titleHref: row.kc_href,
+      originTag: row.kc_href ? {text: row.origin_label || row.kc_id, href: row.kc_href} : undefined,
     });
   }
 
@@ -183,6 +185,8 @@ export function buildDietaryLeverDisclosureMap(data) {
       const label = constituent?.label || atom.input;
       map.set(dietaryLeverBulletKey(label, "", "3.1.3"), {
         title: atom.input,
+        identityStatus: atom.canonical_identity?.status,
+        inputHref: atom.canonical_identity?.status === "resolved" ? atom.canonical_identity.substance_href : undefined,
         inputType: formatInputTypeLabel(atom.input_type),
         biologicalRole: atom.biological_role,
         evidenceLimitation: String(atom.evidence_limitation || "").trim(),
@@ -248,5 +252,5 @@ export function buildDietaryLeverDisclosureMap(data) {
       presentationSection: `kc-emerging-support:${slug}`,
     });
   }
-  return map;
+  return attachSubstanceInputHrefs(map);
 }

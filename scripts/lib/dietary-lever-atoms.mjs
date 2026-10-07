@@ -14,6 +14,7 @@ import {
   evidenceSourceReferenceNumbers,
 } from "./dietary-input-traceability.mjs";
 import { findDietaryRequirementsSectionStart } from "./pm-section-layout.mjs";
+import { validateStructuredVitaminLabels } from "./nutrient-naming.mjs";
 
 export const DIETARY_ADDRESSABILITY = new Set([
   "direct",
@@ -209,9 +210,10 @@ export function pmKcConstituentRelationshipIsAdjudicated(
   return pmTraceabilityRows.some((row) => String(row?.atom_id || "") === pmAtomId);
 }
 
-export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
+export function validateDietaryLeverAtoms(data, issues, { entityLabel, content = "" } = {}) {
   validateDietaryInputTraceability(data, issues, { entityLabel });
   validatePmNonDietaryLeverEvidence(data, issues, { entityLabel });
+  validateStructuredVitaminLabels(data, issues, { entityLabel, content });
   const levers = data?.dietary_lever_atoms;
   if (!levers?.length) return;
   const trace = indexTraceabilityAtoms(data?.dietary_input_traceability || []);

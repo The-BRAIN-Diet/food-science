@@ -9,6 +9,7 @@ import { SOP_CATEGORIES } from "../data/brs-hub-optimisation-levers.mjs";
 
 /** Recommended Input Types. Extensible when evidence requires a more precise type. */
 export const INPUT_TYPES = new Set([
+  "supported upstream supply",
   "substrate",
   "substrate provision",
   "nutrient/substance",

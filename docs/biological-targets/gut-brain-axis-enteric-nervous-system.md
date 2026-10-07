@@ -79,7 +79,7 @@ hide_title: true
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity">BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity</a></li>
   <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment">BRS5-FM1-PM2 — LPS / Endotoxin Containment</a></li>
-  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Keystone Taxa Support</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Microbial Barrier–Immune Interface Support</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -118,7 +118,7 @@ Maintains gut-barrier integrity and immune interface stability through tight-jun
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation</a></li>
   <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling">BRS5-FM2-PM5 — SCFA Production & Signalling</a></li>
   <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation">BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation</a></li>
 </ul>
@@ -488,7 +488,7 @@ Gut barrier integrity, microbial metabolite signalling, and vagal–enteric neur
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity">BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity</a></li>
   <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment">BRS5-FM1-PM2 — LPS / Endotoxin Containment</a></li>
-  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Keystone Taxa Support</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Microbial Barrier–Immune Interface Support</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -527,7 +527,7 @@ Maintains gut-barrier integrity and immune interface stability through tight-jun
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation</a></li>
   <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling">BRS5-FM2-PM5 — SCFA Production & Signalling</a></li>
   <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation">BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation</a></li>
 </ul>

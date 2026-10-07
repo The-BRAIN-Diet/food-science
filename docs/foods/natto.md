@@ -11,6 +11,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
+  - Spermidine
 list_image: /img/foods/natto/natto_thumb.webp
 nutrition_per_100g:
   sugar_g: 4.89
@@ -44,7 +45,7 @@ nutrition_per_100g:
   omega3_mg: 734
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    identity: '18:3 n-3 (ALA; USDA 1270 interpreted)'
     amount_mg: 734
 public_display:
   ala_mg: internal-only
@@ -55,7 +56,7 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-  limitations: Unqualified 18:3 on this record is documented in FCIR-018.
+  limitations: 'Unqualified 18:3 on this record is documented in FCIR-018.'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/natto/natto_medium.webp
@@ -63,10 +64,10 @@ legacy_list_image: /img/foods/natto/natto_thumb.webp
 legacy_main_image: /img/foods/natto/natto_medium.webp
 nutrition_supplementary_sources:
   - key: ala_interpreted
-    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    label: 'Alpha-linolenic acid (ALA; 18:3 n-3)'
     value: 0.734
     unit: g
-    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    notes: 'USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404'
     public_display: table
     exclude_from_recipe_sum: true
     fcir_case: FCIR-018
@@ -79,6 +80,26 @@ nutrition_supplementary_sources:
       Natto is a documented dietary source of menaquinones (vitamin K2). USDA SR
       Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is not
       established here.
+  - key: spermidine_qual
+    label: Spermidine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    notes: Measured food occurrence; content varies by sample and preparation.
+    source_note: >-
+      Muñoz-Esparza et al. (2021), §3.1 and Figures 3–5: Natto is identified as
+      a spermidine-containing food. The selected USDA panel does not quantify
+      this analyte. A comparable product-specific per-100 g value is not
+      established here. https://doi.org/10.3390/foods10081752
+substance_relationships:
+  - substance: Spermidine
+    relationship: contains
+    description: >-
+      Analytical food evidence identifies spermidine in natto; concentration
+      varies with the sample and preparation.
+    citation_keys:
+      - munoz_esparza_food_polyamines_2021
+substance_card_captions:
+  Spermidine: Occurs directly in this food; a product-specific amount is not established.
 ---
 ## Overview
 
@@ -120,3 +141,5 @@ Natto provide a relatively complete plant protein (higher in lysine than most gr
 [1] Natto fermentation by Bacillus subtilis produces unique peptides and microbial metabolites. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
 
 [2] Fermented soybeans retain isoflavones studied for metabolic and inflammatory pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+
+[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.

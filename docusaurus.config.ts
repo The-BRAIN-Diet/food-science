@@ -3,6 +3,7 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import fs from 'node:fs';
 import path from 'node:path';
+import remarkPmLeverLayout from './src/plugin/pm-lever-layout/index.cjs';
 
 function loadEnvLocal() {
   const candidates = [path.join(process.cwd(), '.env.local'), path.join(__dirname, '.env.local')];
@@ -274,6 +275,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          beforeDefaultRemarkPlugins: [remarkPmLeverLayout],
           sidebarCollapsible: true,
           sidebarCollapsed: true,
           async sidebarItemsGenerator(args) {
@@ -300,6 +302,8 @@ const config: Config = {
             '/docs/tags/docs/tags/**',
             '/brs-cross-framework-dietary-architecture',
             '/brs-cross-framework-dietary-architecture/',
+            '/brain-systems-explorer',
+            '/brain-systems-explorer/',
             ...(sitemapIgnore),
           ],
           filename: 'sitemap.xml',
@@ -338,6 +342,8 @@ const config: Config = {
       require.resolve('@docusaurus/plugin-client-redirects'),
       {
         redirects: [
+          // Accepted PM8 retirement: integrated E/I state belongs to FM4.
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance' },
           // BRS1 KC2 -> KC1 after KC1 removal
           { to: '/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance', from: '/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance' },
           // BRS1 dopamine insertion: preserve the former canonical PM3–PM10 routes
@@ -345,7 +351,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation', from: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation' },
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation' },
-          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation' },
@@ -355,7 +361,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation' },
-          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm8-gaba-synthesis-capacity' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm9-glutamate-clearance-and-recycling' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm10-excitotoxicity-modulation' },
@@ -369,7 +375,7 @@ const config: Config = {
           // BRS1 insert PM4 serotonin renumber
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm5-neuronal-membrane-dha-incorporation' },
-          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-gaba-glutamate-neurotransmission-balance' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-synthesis-capacity' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-glutamate-clearance-and-recycling' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-excitotoxicity-modulation' },
@@ -377,7 +383,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm1-lat1-competitive-transport-modulation' },
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm1-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm1-neuronal-membrane-dha-incorporation' },
-          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm1-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm1-gaba-glutamate-neurotransmission-balance' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm2-gaba-synthesis-capacity' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm3-glutamate-clearance-and-recycling' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm4-excitotoxicity-modulation' },
@@ -421,7 +427,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation' },
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation' },
-          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation', from: '/docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/pm/brs1-pm7-gaba-synthesis-capacity' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/pm/brs1-pm8-glutamate-clearance-and-recycling' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation' },

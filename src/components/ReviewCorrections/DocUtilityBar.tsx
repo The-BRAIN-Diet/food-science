@@ -15,6 +15,9 @@ import {
 } from "@site/src/data/frameworkQcPublic"
 import {usePageContentTabs} from "@site/src/components/AdvancedNutrition"
 import PageReviewPanel from "./PageReviewPanel"
+import OpenIssuesPanel from "./OpenIssuesPanel"
+import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
+import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
 import styles from "./styles.module.css"
 
 function extraPageIds(frontMatter: Record<string, unknown>): string[] {
@@ -23,7 +26,7 @@ function extraPageIds(frontMatter: Record<string, unknown>): string[] {
     .filter((value): value is string => typeof value === "string" && value.length > 0)
 }
 
-type ContentTab = "highlights" | "advanced" | "therapeutic" | "review"
+type ContentTab = "highlights" | "advanced" | "therapeutic" | "review" | "issues"
 
 const THERAPEUTIC_HASH_IDS = new Set([
   "walsh-biochemical-biotypes",
@@ -64,6 +67,9 @@ export default function DocUtilityBar({
     (showsNutritionContentTabs(page?.page_type) ||
       (!page && isNutritionContentPermalink(metadata.permalink)))
   const isPmPage = page?.page_type === "PM" || typeof fm.pm_id === "string"
+  const pmId = typeof fm.pm_id === "string" ? fm.pm_id : ""
+  const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
+  const showOpenIssuesTab = isPmPage && openIssueCount > 0
   const showReviewTab = onContentPage && (includeInternalDocs || isPmPage)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
@@ -74,21 +80,25 @@ export default function DocUtilityBar({
   const hasTherapeutic = Boolean(contentSlots?.panels.therapeutic)
   const hashId = location.hash.replace(/^#/, "")
   const reviewOpen = showReviewTab && params.get(REVIEW_QUERY_PARAM) === "1"
+  const issuesOpen = showOpenIssuesTab && params.get(OPEN_ISSUES_QUERY_PARAM) === "1" && !reviewOpen
   const therapeuticHash = Boolean(hashId) && THERAPEUTIC_HASH_IDS.has(hashId)
   const therapeuticOpen =
     showContentTabs &&
     hasTherapeutic &&
     !reviewOpen &&
+    !issuesOpen &&
     (params.get(THERAPEUTIC_QUERY_PARAM) === "1" || therapeuticHash)
   const advancedOpen =
     showContentTabs &&
     hasAdvanced &&
     !reviewOpen &&
+    !issuesOpen &&
     !therapeuticOpen &&
     params.get(ADVANCED_QUERY_PARAM) === "1"
-  const highlightsOpen = !reviewOpen && !advancedOpen && !therapeuticOpen
+  const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen
   const qcLabel =
     openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+  const issuesLabel = `Open Issues (${openIssueCount})`
 
   useLayoutEffect(() => {
     setUseTabPanel?.(showContentTabs)
@@ -98,9 +108,11 @@ export default function DocUtilityBar({
   function setContentTab(tab: ContentTab) {
     const nextParams = new URLSearchParams(location.search)
     nextParams.delete(REVIEW_QUERY_PARAM)
+    nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
     nextParams.delete(ADVANCED_QUERY_PARAM)
     nextParams.delete(THERAPEUTIC_QUERY_PARAM)
     if (tab === "review") nextParams.set(REVIEW_QUERY_PARAM, "1")
+    if (tab === "issues") nextParams.set(OPEN_ISSUES_QUERY_PARAM, "1")
     if (tab === "advanced") nextParams.set(ADVANCED_QUERY_PARAM, "1")
     if (tab === "therapeutic") nextParams.set(THERAPEUTIC_QUERY_PARAM, "1")
     const search = nextParams.toString()
@@ -113,7 +125,7 @@ export default function DocUtilityBar({
   }
 
   useEffect(() => {
-    if (reviewOpen) return
+    if (reviewOpen || issuesOpen) return
     const id = location.hash.replace(/^#/, "")
     if (!id) return
     if (THERAPEUTIC_HASH_IDS.has(id)) {
@@ -147,6 +159,7 @@ export default function DocUtilityBar({
     advancedOpen,
     therapeuticOpen,
     reviewOpen,
+    issuesOpen,
     location.hash,
     location.pathname,
     location.search,
@@ -154,8 +167,10 @@ export default function DocUtilityBar({
   ])
 
   useEffect(() => {
-    if (reviewOpen) {
-      const heading = document.querySelector<HTMLElement>("#review-corrections-panel h2")
+    if (reviewOpen || issuesOpen) {
+      const heading = document.querySelector<HTMLElement>(
+        reviewOpen ? "#review-corrections-panel h2" : "#open-issues-panel h2",
+      )
       heading?.focus()
       const onKey = (event: globalThis.KeyboardEvent) => {
         if (event.key === "Escape") setContentTab("highlights")
@@ -184,7 +199,7 @@ export default function DocUtilityBar({
     }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
-  }, [reviewOpen, advancedOpen, therapeuticOpen, location.hash])
+  }, [reviewOpen, issuesOpen, advancedOpen, therapeuticOpen, location.hash])
 
   const tabIds = [
     ...(showContentTabs
@@ -194,6 +209,7 @@ export default function DocUtilityBar({
           ...(hasTherapeutic ? ["therapeutic-area-research-tab"] : []),
         ]
       : []),
+    ...(showOpenIssuesTab ? ["open-issues-tab"] : []),
     ...(showReviewTab ? ["review-corrections-tab"] : []),
   ]
 
@@ -298,8 +314,23 @@ export default function DocUtilityBar({
         ) : (
           <div />
         )}
-        {showReviewTab ? (
+        {showOpenIssuesTab || showReviewTab ? (
           <div className={clsx(styles.qcWrap, showContentTabs && styles.qcWrapSeparated)}>
+            {showOpenIssuesTab ? (
+              <button
+                type="button"
+                id="open-issues-tab"
+                className={clsx(styles.tab, issuesOpen && styles.tabSelected)}
+                role="tab"
+                aria-selected={issuesOpen}
+                aria-controls="open-issues-panel"
+                tabIndex={issuesOpen || !showContentTabs ? 0 : -1}
+                onClick={() => setContentTab(issuesOpen ? "highlights" : "issues")}
+              >
+                {issuesLabel}
+              </button>
+            ) : null}
+            {showReviewTab ? (
             <button
               type="button"
               id="review-corrections-tab"
@@ -312,12 +343,16 @@ export default function DocUtilityBar({
             >
               {qcLabel}
             </button>
+            ) : null}
           </div>
         ) : null}
       </div>
-      <div className={clsx((reviewOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
+      <div className={clsx((reviewOpen || issuesOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
         {children}
       </div>
+      {issuesOpen ? (
+        <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
+      ) : null}
       {reviewOpen ? (
         <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}

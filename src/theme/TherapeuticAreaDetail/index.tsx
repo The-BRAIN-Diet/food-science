@@ -71,6 +71,11 @@ function authorYearFromLabel(label: string): string {
   return match ? match[1].trim() : label;
 }
 
+/** Stable fragment shared by the PM footer and the Therapeutic Area study card. */
+export function pmEvidenceMarker(pmId: string, claimId: string): string {
+  return `${pmId.toLowerCase()}-${claimId.toLowerCase()}`;
+}
+
 function StudyEvidenceCards({claimIds, taSlug, brsId}: {claimIds: string[]; taSlug: string; brsId: string}): React.ReactElement {
   const claims = claimIds.map(getEvidenceClaim).filter(Boolean) as EvidenceClaim[];
   if (!claims.length) {
@@ -96,6 +101,21 @@ function StudyEvidenceCards({claimIds, taSlug, brsId}: {claimIds: string[]; taSl
               {" · "}
               <span>{design}</span>
             </p>
+            {claim.pmIds.length ? (
+              <p className={styles.studyMeta}>
+                <strong>Primary mechanisms:</strong>{" "}
+                {claim.pmIds.map((pmId, index) => (
+                  <React.Fragment key={pmId}>
+                    {index ? ", " : null}
+                    <span id={pmEvidenceMarker(pmId, claim.id)} className={styles.pmMarker}>
+                      {pmId}
+                    </span>
+                  </React.Fragment>
+                ))}
+                {" · "}
+                <span>{claim.id}</span>
+              </p>
+            ) : null}
             {claim.limitationNote ? (
               <p className={styles.studyLimit}>{claim.limitationNote}</p>
             ) : null}
@@ -148,12 +168,23 @@ export function TherapeuticAreaPmLinks({pmId}: {pmId: string}): React.ReactEleme
       <ul>
         {grouped.map((taId) => {
           const ta = getTherapeuticAreaEntry(taId);
-          const count = claims.filter((claim) => claim.taId === taId).length;
+          const taClaims = claims.filter((claim) => claim.taId === taId);
           return (
             <li key={taId}>
-              <strong>{ta?.name || taId}</strong> — {count} mapped interpretation
-              {count === 1 ? "" : "s"};{" "}
-              <Link to={`${getTaPath(taId)}?taTab=biological`}>Open Therapeutic Area page</Link>
+              <strong>{ta?.name || taId}</strong>
+              <ul>
+                {taClaims.map((claim) => {
+                  const marker = pmEvidenceMarker(pmId, claim.id);
+                  return (
+                    <li key={claim.id}>
+                      <code>{marker}</code> — {claim.currentClaim}{" "}
+                      <Link to={`${getTaPath(taId)}?taTab=biological#${marker}`}>
+                        Open this evidence
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
             </li>
           );
         })}
@@ -475,12 +506,19 @@ export default function TherapeuticAreaDetail({taId}: {taId: string}): React.Rea
   const [activeTab, setActiveTab] = useState<TaTabId>(initialTab);
   const page = getTherapeuticAreaPage(taId);
   const ta = getTherapeuticAreaEntry(taId);
-  if (!page || !ta) return <p>Therapeutic Area {taId} is not available.</p>;
 
   useEffect(() => {
     const tab = parseTabFromSearch(location.search);
     if (tab) setActiveTab(tab);
   }, [location.search]);
+
+  useEffect(() => {
+    const id = decodeURIComponent(location.hash.replace(/^#/, ""));
+    if (!id || activeTab !== "biological") return;
+    document.getElementById(id)?.scrollIntoView({block: "start"});
+  }, [location.hash, activeTab]);
+
+  if (!page || !ta) return <p>Therapeutic Area {taId} is not available.</p>;
 
   const pageClaims = evidenceClaims.filter((claim) => claim.taId === taId);
   const claimsByPhenome = new Map<string, EvidenceClaim[]>();

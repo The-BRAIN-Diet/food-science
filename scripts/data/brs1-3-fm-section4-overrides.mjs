@@ -4,54 +4,7 @@
  * @see docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx
  */
 
-/** §4.2 Integrated Functional Narrative body (paragraphs only). */
-export const FM_NARRATIVE_42_OVERRIDES = {
-  "BRS1(FM1)": `Together, these five mechanisms operationalise BRS1(FM1) as a coordinated monoaminergic control state rather than a single pathway. [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) maintains the circulating indispensable amino-acid pools that supply tyrosine and tryptophan precursors. [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) determines which precursors cross the blood–brain barrier when large neutral amino acids compete for shared LAT1 transport. [BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) provides an evidence-ready scope for dopamine synthesis, signalling, reuptake and metabolism; it does not yet contribute a dietary or Phenome output. [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) converts catecholamine precursor context into noradrenergic tone supporting alertness, focus, and executive control. [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) regulates serotonin-pathway signalling that supports behavioural inhibition, stress recovery, and emotional stability.
-
-Coherent monoaminergic function emerges only when substrate availability, LAT1-mediated transport and downstream signalling remain aligned. [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance) provides the shared substrate architecture — when indispensable amino-acid profiles or LNAA competitive balance weaken, LAT1 transport and both downstream monoaminergic arms are constrained together rather than in isolation [Fernstrom, 2013; MacDonald et al., 2024].
-
-**Integrated biological rationale:** Existing evidence-qualified FM relationships retain their prior scope after renumbering: PM1 and PM2 converge with PM4 on catecholaminergic attention and arousal biology; PM1 and PM2 converge with PM5 on serotonergic emotional-regulation biology; PM1, PM2, and PM4 together support motivation-relevant monoaminergic tone. PM3 is structurally integrated but remains excluded from evidence-qualified FM uplift until its dedicated assessment is complete. The integrated FM therefore has greater functional significance than any individual evidence-qualified PM because substrate supply, transport gating and signalling must operate together to sustain coherent monoaminergic output.
-
-**Functional rationale:** The integration of precursor availability, LAT1 transport bias, noradrenergic attention signalling, and serotonergic regulation creates a coordinated monoaminergic capacity expected to influence attention stability, motivational drive, emotional regulation, and negative-valence perseveration more strongly than any individual mechanism alone. These integrated functional predictions form the basis for independent Phase 3 FM Phenome validation.`,
-
-  "BRS1(FM2)": `Although BRS1(FM2) is principally operationalised through [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support), the FM represents the broader cholinergic substrate state supporting attention-relevant signalling. Dietary choline provision and habitual meal patterns influence whether acetylcholine synthesis can sustain cholinergic tone across attention, working memory, and cognitive precision contexts [Derbyshire et al., 2023; Briguglio et al., 2018].
-
-At the FM level, performance depends on repeated choline-rich food exposure and synthesis capacity rather than single-meal precursor spikes.`,
-
-  "BRS1(FM3)": `Although BRS1(FM3) is principally operationalised through [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation), the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
-
-At the FM level, signalling competence depends on whether phospholipid-carrier delivery, MFSD2A-mediated transport, and habitual membrane enrichment remain adequate over weeks to months—not from isolated bolus exposure or dose alone [Liu et al., 2014].`,
-
-  "BRS1(FM4)": `Together, GABA–glutamate balance, inhibitory synthesis, glutamate clearance, and excitotoxicity modulation operationalise BRS1(FM4) as coordinated excitatory–inhibitory network regulation.
-
-At the integrated FM level, attention stability and emotional control depend on whether inhibitory GABAergic tone, glutamate clearance, and excitatory drive remain matched—supported by ADHD human mechanistic evidence on reduced GABA and glutamate–attention associations [Edden et al., 2012; Puts et al., 2020; Maltezos et al., 2014; Mamiya et al., 2021]. Meal-level protein-derived glutamate substrate, vitamin B6 cofactor context, and magnesium sufficiency modulate upstream support for this E/I state [Cataldo et al., 2024].`,
-
-  "BRS2(FM1)": `Together, folate/B12 remethylation, betaine-dependent BHMT recycling, SAMe synthesis, and methionine-cycle flux operationalise BRS2(FM1) as a coordinated one-carbon methylation control point.
-
-At the integrated FM level, cycle performance is interpreted as balanced methionine → SAM → SAH → remethylation/transsulfuration routing under changing demand. Homocysteine remains a useful junction readout of impaired one-carbon cycling, while dietary patterns supplying methyl donors and sulfur amino acids within protein/amino-acid balance — plus supportive omega-3 context — may help sustain methylation capacity without treating methionine as a nutrient to maximise [Collaboration, 1998; Chiang et al., 1996; Fanti et al., 2026; Oulhaj et al., 2016].`,
-
-  "BRS2(FM2)": `Together, transsulfuration and glutathione synthesis operationalise BRS2(FM2) as a coordinated bridge between one-carbon metabolism and antioxidant defence.
-
-At the integrated FM level, homocysteine diversion toward cysteine and glutathione production links methylation strain to redox resilience—so transsulfuration capacity depends on sulfur-amino-acid substrate availability, glutathione demand, and cofactor sufficiency across the diet [Gregory et al., 2016; Minich et al., 2019].`,
-
-  "BRS2(FM3)": `Together, SAMe synthesis and phosphatidylcholine formation operationalise BRS2(FM3) as the methylation–membrane coupling bridge between one-carbon metabolism and neuronal membrane chemistry.
-
-At the integrated FM level, SAMe-dependent phosphatidylethanolamine methylation shapes phosphatidylcholine pools that influence membrane composition, choline carriage, and omega-3 integration context—connecting B-vitamin and methyl-donor status to the membrane environment the brain relies on [Vance et al., 2014; Oulhaj et al., 2016].`,
-
-  "BRS3(FM1)": `Together, NF-κB regulation and gut-derived inflammatory signalling operationalise BRS3(FM1) as coordinated anti-inflammatory signalling control.
-
-At the integrated FM level, anti-inflammatory tone depends not only on direct pathway modulation, but also on whether endotoxin burden, antioxidant coverage, and lipid mediator context keep inflammatory signalling from becoming chronically amplified [Mohammad & Thiemermann, 2021; Zelicha et al., 2022; Batey et al., 2024].`,
-
-  "BRS3(FM2)": `Together, Nrf2 activation, ROS clearance balance, lipid peroxidation control, and antioxidant network recycling operationalise BRS3(FM2) as coordinated antioxidant defence capacity.
-
-At the integrated FM level, antioxidant defence is best understood as a network property: exogenous antioxidant coverage, endogenous enzyme induction, trace-mineral sufficiency, membrane protection, and lower dietary oxidant exposure (cooking method, fat stability, UPF load) all reinforce one another rather than acting as isolated nutrient effects [Packer et al., 1997; Houghton et al., 2016; Uribarri et al., 2010; Zelicha et al., 2022].`,
-
-  "BRS3(FM3)": `Together, cytokine network modulation and eicosanoid/SPM balance operationalise BRS3(FM3) as coordinated inflammation resolution capacity.
-
-At the integrated FM level, this is distinct from simple suppression: resolution requires the right lipid substrate context to terminate inflammatory activity, shift mediator balance, and allow cytokine pressure to fall. Lipid peroxidation control from [BRS3-FM2-PM5](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) remains supportive here by helping preserve the integrity of the lipid environment on which resolution depends [Serhan & Petasis, 2011; Ferguson et al., 2014].`,
-};
-
-/** §4.3 Suboptimal Function & Its Effects blocks (full subsection). */
+/** Existing Suboptimal Function decisions; no PM-by-PM narrative overrides. */
 export const FM_FAILURE_43_OVERRIDES = {
   "BRS1(FM1)": `### 4.3 Suboptimal Function & Its Effects
 
@@ -81,11 +34,7 @@ These pressures may impair [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation
 
   "BRS1(FM4)": `### 4.3 Suboptimal Function & Its Effects
 
-Excitatory–inhibitory balance may weaken when glutamate substrate supply, GABA synthesis cofactors, or glutamate clearance capacity become chronically constrained.
-
-Low protein quality or inconsistent meal-level amino-acid coverage may reduce glutamate precursor availability for both excitatory signalling and GABA synthesis—intersecting [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance). Chronic vitamin B6 insufficiency may impair glutamate decarboxylase-dependent GABA synthesis; low magnesium intake may reduce NMDA-modulatory and broader excitability control [Cataldo et al., 2024; Mousain-Bosc et al., 2006].
-
-These pressures may impair [BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance), weaken [BRS1-FM4-PM9 — GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity), reduce the effectiveness of [BRS1-FM4-PM10 — Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling), and compromise [BRS1-FM4-PM11 — Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation). At the FM level, this may shift BRS1(FM4) toward reduced E/I balance with relevance to attention stability and emotional control in ADHD-relevant contexts.`,
+Constrained synthesis can reduce available inhibitory transmitter capacity; impaired clearance can prolong extracellular excitatory signalling [[4]](#fm-ref-4) [[7]](#fm-ref-7). Sustained excessive receptor stimulation can impose bioenergetic harm in the assessed experimental setting [[8]](#fm-ref-8). These are different consequences and need not occur together. Transmitter concentrations alone cannot identify which capacity is constrained [[9]](#fm-ref-9), and this inventory cannot diagnose unassessed receptor or synaptic regulation.`,
 
   "BRS2(FM1)": `### 4.3 Suboptimal Function & Its Effects
 
@@ -157,7 +106,7 @@ Antioxidant defense capacity becomes overloaded when exogenous oxidant exposure 
 
 These FM2 failure modes may secondarily amplify [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) inflammatory signalling, but their primary home is FM2 because they increase redox burden or reduce antioxidant defense capacity.
 
-When failure modes persist, they may impair [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation), weaken [BRS3-FM2-PM4 — ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), reduce the effectiveness of [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control), and compromise [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling). At the FM level, this may shift BRS3(FM2) toward reduced antioxidant defense capacity performance.`,
+When failure modes persist, they may impair [BRS3-FM2-PM3 — Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation), weaken [BRS3-FM2-PM4 — ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), reduce the effectiveness of [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control), and compromise [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling). At the FM level, this may shift BRS3(FM2) toward reduced antioxidant defense capacity performance.`,
 
   "BRS3(FM3)": `### 4.3 Suboptimal Function & Its Effects
 

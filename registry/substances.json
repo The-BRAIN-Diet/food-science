@@ -19,6 +19,16 @@
     "inchikey": "",
     "list_image": ""
   },
+  "betaine": {
+    "path": "bioactive-compounds/choline-methylation/betaine.md",
+    "tags": [
+      "bioactive",
+      "betaine"
+    ],
+    "title": "Betaine",
+    "inchikey": "KWIUHFFTVRNATP-UHFFFAOYSA-N",
+    "list_image": ""
+  },
   "coq10": {
     "path": "bioactive-compounds/lipid-based/coq10.md",
     "tags": [

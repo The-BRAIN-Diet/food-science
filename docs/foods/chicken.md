@@ -13,7 +13,10 @@ tags:
   - Selenium
   - Zinc
   - Iron
+  - Cysteine
 list_image: /img/foods/chicken/chicken_thumb.webp
+public_display:
+  cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   choline_mg: 59.7
@@ -32,6 +35,7 @@ nutrition_per_100g:
   dha_mg: 30
   epa_mg: 10
   protein_g: 18.6
+  cystine_mg: 249
   fat_g: 15.06
   kcal: 215
   calcium_mg: 11
@@ -65,6 +69,13 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 249 mg per 100 g of Chicken, broilers or fryers, meat and skin,
+      raw (FDC 171447). A 113 g (4 oz) portion is about 281 mg. Composition
+      only; not a glutathione-synthesis result.
 main_image: /img/foods/chicken/chicken_medium.webp
 legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp
@@ -81,6 +92,14 @@ Within the BRAIN Diet framework, chicken is a flexible protein base. Large-neutr
 - Tryptophan source; LNAA competition in mixed meals affects serotonin-pathway routing (meal-pattern evidence) [1].
 - Lower heme-iron density than red meat; lower saturated fat when skin limited.
 - Processing level matters: minimally processed cuts differ from cured/deli products.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Chicken supplies cystine, which contributes to cysteine availability. This raw meat and skin contains **249 mg per 100 g**, about **281 mg in 113 g (4 oz)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
 
 ## Food Context
 

@@ -1,0 +1,1276 @@
+{
+  "title": "GABA–Glutamate Neurotransmission Balance — Stage 2A/2B draft",
+  "pm_id": "BRS1-FM4-PM8",
+  "mission": "Keep excitatory glutamate and inhibitory GABA signalling matched so neural networks operate with stability.",
+  "parent_fm": "BRS1(FM4)",
+  "parent_brs": "BRS1",
+  "summary": "Matched glutamate–GABA signalling requires more than transmitter abundance. PLP-dependent GABA synthesis supplies the inhibitory arm; compartment-specific glutamine recycling can sustain release during activity, while glutamate clearance limits excessive excitation. Chloride gradients, receptor responses and synaptic feedback influence the signalling result. Dietary B6 supports endogenous cofactor supply, but additional intake and oral microbial exposures do not automatically improve circuit balance.",
+  "intervention_dominance": "Diet-Supported",
+  "intervention_breakdown": "Food-State Leaning",
+  "timing_specific": "Yes",
+  "dose_sensitivity": "Pattern-based; no single nutrient threshold captures full mechanism",
+  "dietary_addressability": "precursor-mediated",
+  "claim_ceiling": "dietary-provision",
+  "mechanistic_authoring_required": false,
+  "evidence_status": "stage-2b-dietary-addressability",
+  "phenome_relationships": [
+    {
+      "target_phenome": "Focus / Attention Stability",
+      "relationship_type": "modulates",
+      "confidence": "high",
+      "evidence_level": "observational",
+      "rationale": "Matched glutamate–GABA signalling is a core biological context for attentional stability. ADHD cohorts show reduced GABA concentration {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}}, and glutamate/glutamine measures associate with attention scores {{cite:maltezos_glutamateglutamine_2014}}. Those are pool and score associations, not synthesis or clearance flux.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Edden et al. (2012)",
+          "citation_key": "edden_reduced_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Puts et al. (2020)",
+          "citation_key": "puts_reduced_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#puts_reduced_2020",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 3,
+          "label": "Maltezos et al. (2014)",
+          "citation_key": "maltezos_glutamateglutamine_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low-medium",
+      "scientific_findings": [
+        "PM8-F2",
+        "PM8-F3"
+      ]
+    },
+    {
+      "target_phenome": "Emotional Regulation",
+      "relationship_type": "modulates",
+      "confidence": "medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Substantial mismatch between excitation and inhibition would be expected to impair emotional control. Reduced GABA concentration in ADHD cohorts {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}} supplies pool context, not an emotional-regulation scale and not GABA synthesis.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Edden et al. (2012)",
+          "citation_key": "edden_reduced_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012",
+          "data_level": "Human Mechanistic"
+        },
+        {
+          "index": 2,
+          "label": "Puts et al. (2020)",
+          "citation_key": "puts_reduced_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#puts_reduced_2020",
+          "data_level": "Human Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low",
+      "scientific_findings": [
+        "PM8-F2"
+      ]
+    },
+    {
+      "target_phenome": "Stress Reactivity",
+      "relationship_type": "modulates",
+      "confidence": "low-medium",
+      "evidence_level": "mechanistic",
+      "rationale": "Network excitation–inhibition framing treats matched tone as a property of circuits under load {{cite:mamiya_precision_2021}}. The attached sources do not measure stress-reactivity outcomes after a dietary change.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Mamiya et al. (2021)",
+          "citation_key": "mamiya_precision_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021",
+          "data_level": "Mechanistic"
+        }
+      ],
+      "evidence_confidence": "low",
+      "scientific_findings": [
+        "PM8-F1"
+      ]
+    }
+  ],
+  "references": [
+    "[Edden et al. (2012) — Reduced GABA Concentration in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#edden_reduced_2012)",
+    "[Puts et al. (2020) — Reduced Striatal GABA in Unmedicated Children with ADHD At 7T](/docs/papers/BRAIN-Diet-References#puts_reduced_2020)",
+    "[Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)",
+    "[Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)",
+    "[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)",
+    "[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)",
+    "[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)",
+    "[Rivera et al. (1999) — The K+/Cl- co-transporter KCC2 renders GABA hyperpolarizing during neuronal maturation](/docs/papers/BRAIN-Diet-References#pm8_rivera_1999)",
+    "[Turrigiano et al. (1998) — Activity-dependent scaling of quantal amplitude in neocortical neurons](/docs/papers/BRAIN-Diet-References#pm8_turrigiano_1998)",
+    "[Duranti et al. (2020) — Bifidobacterium adolescentis as a key member of the human gut microbiota in the production of GABA](/docs/papers/BRAIN-Diet-References#pm8_duranti_2020)",
+    "[Yunes et al. (2016) — GABA production and structure of gadB/gadC genes in Lactobacillus and Bifidobacterium strains from human microbiota](/docs/papers/BRAIN-Diet-References#pm8_yunes_2016)",
+    "[Otaru et al. (2021) — GABA Production by Human Intestinal Bacteroides spp.: Prevalence, Regulation, and Role in Acid Stress Tolerance](/docs/papers/BRAIN-Diet-References#pm8_otaru_2021)",
+    "[Tamés et al. (2023) — Orally Administered Bifidobacterium adolescentis Diminishes Serum Glutamate Concentration in Mice](/docs/papers/BRAIN-Diet-References#pm8_tames_2023)",
+    "[Tamés et al. (2024) — Mouse intestinal microbiome modulation by oral administration of a GABA-producing Bifidobacterium adolescentis strain](/docs/papers/BRAIN-Diet-References#pm8_tames_2024)",
+    "[Ikegami et al. (2024) — Intervention in gut microbiota increases intestinal γ-aminobutyric acid and alleviates anxiety behavior: a possible mechanism via the action on intestinal epithelial cells](/docs/papers/BRAIN-Diet-References#pm8_ikegami_2024)",
+    "[Bravo et al. (2011) — Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)",
+    "[Janik et al. (2016) — Magnetic resonance spectroscopy reveals oral Lactobacillus promotion of increases in brain GABA, N-acetyl aspartate and glutamate](/docs/papers/BRAIN-Diet-References#pm8_janik_2016)",
+    "[Kelly et al. (2017) — Lost in translation? The potential psychobiotic Lactobacillus rhamnosus (JB-1) fails to modulate stress or cognitive performance in healthy male subjects](/docs/papers/BRAIN-Diet-References#pm8_kelly_2017)",
+    "[Jang et al. (2018) — Anxiolytic-like effect of Bifidobacterium adolescentis IM38 in mice with or without immobilisation stress](/docs/papers/BRAIN-Diet-References#pm8_jang_2018)",
+    "[Xu et al. (2025) — Long-term GABA supplementation mitigates anxiety by modulating complement and neuroinflammatory pathways](/docs/papers/BRAIN-Diet-References#pm8_xu_2025)",
+    "[Johnstone and Cohen Kadosh (2025) — A randomised controlled trial of the effects of Galacto-Oligosaccharides on the gut brain-axis of young females](/docs/papers/BRAIN-Diet-References#pm8_johnstone_2025)",
+    "[Field et al. (2022) — High-dose Vitamin B6 supplementation reduces anxiety and strengthens visual surround suppression](/docs/papers/BRAIN-Diet-References#pm8_field_2022)",
+    "[Weigend et al. (2019) — Dynamic changes in cerebral and peripheral markers of glutamatergic signaling across the human sleep–wake cycle](/docs/papers/BRAIN-Diet-References#pm8_weigend_2019)",
+    "[Fenalti et al. (2007) — GABA production by glutamic acid decarboxylase is regulated by a dynamic catalytic loop.](/docs/papers/BRAIN-Diet-References#pm8_fenalti_2007)",
+    "[Rajeswari and Radha (1984) — Age-related effects of nutritional vitamin B6 deficiency on B6-dependent enzymes of glutamate, gamma-aminobutyrate and glutamine systems in the rat brain.](/docs/papers/BRAIN-Diet-References#pm8_rajeswari_1984)",
+    "[Guilarte (1989) — Regional changes in the concentrations of glutamate, glycine, taurine, and GABA in the vitamin B-6 deficient developing rat brain: association with neonatal seizures.](/docs/papers/BRAIN-Diet-References#pm8_guilarte_1989)",
+    "[Lee et al. (2000) — Human pyridoxal kinase: overexpression and properties of the recombinant enzyme.](/docs/papers/BRAIN-Diet-References#lee_human_2000)",
+    "[Liang et al. (2006) — Dynamic regulation of synaptic GABA release by the glutamate-glutamine cycle in hippocampal area CA1.](/docs/papers/BRAIN-Diet-References#pm8_liang_2006)",
+    "[Tanaka et al. (1997) — Epilepsy and exacerbation of brain injury in mice lacking the glutamate transporter GLT-1.](/docs/papers/BRAIN-Diet-References#pm8_tanaka_1997)",
+    "[Nakamura et al. (2013) — Nitrogen in dietary glutamate is utilized exclusively for the synthesis of amino acids in the rat intestine.](/docs/papers/BRAIN-Diet-References#pm8_nakamura_2013)",
+    "[Musayev et al. (2003) — Structure and properties of recombinant human pyridoxine 5'-phosphate oxidase.](/docs/papers/BRAIN-Diet-References#pm8_musayev_2003)",
+    "[Karthikeyan et al. (2003) — Crystal structure of human riboflavin kinase reveals a beta barrel fold and a novel active site arch.](/docs/papers/BRAIN-Diet-References#pm8_karthikeyan_2003)",
+    "[Page et al. (1989) — Brain glutamate and gamma-aminobutyrate (GABA) metabolism in thiamin-deficient rats.](/docs/papers/BRAIN-Diet-References#pm8_page_1989)",
+    "[Mayer et al. (1984) — Voltage-dependent block by Mg2+ of NMDA responses in spinal cord neurones.](/docs/papers/BRAIN-Diet-References#pm8_mayer_1984)"
+  ],
+  "kc_applicability_adjudications": [
+    {
+      "kc_id": "BRS1(KC1)",
+      "ikc_id": "BRS1(KC1)",
+      "arm_id": "amino-acid-quality",
+      "applicability_proposition": "The current BRS1(KC1) monoamine-precursor LNAA competitive pool constrains PM8 endogenous GABA/glutamate signalling capacity.",
+      "disposition": "unresolved",
+      "established_links": [
+        "Current KC constituents are tryptophan, tyrosine and phenylalanine in the monoamine LAT1 competitive pool; the broad IAA-quality construct is excluded by the KC record.",
+        "GAD uses neuronal glutamate and PLP; activity-dependent inhibitory supply uses astrocyte–neuron glutamine recycling (PM8-F11/F12)."
+      ],
+      "inferred_links": [
+        "A separate monoamine-to-PM8 constraint route would need evidence; amino-acid naming or general protein quality does not establish it."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F11",
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_liang_2006",
+          "fernstrom_lnna_2013"
+        ]
+      },
+      "rationale": "The current KC definition no longer includes the historical broad IAA-quality construct. No mapping is admitted: a monoamine-pool inadequacy/imbalance-to-PM8 capacity constraint remains unestablished and requires a separate supported chain. The missing link is not proof that monoamines never influence E/I circuits. Historical unresolved identity is retained in the audit; no canonical iKC was invented."
+    },
+    {
+      "kc_id": "BRS1(KC1)",
+      "ikc_id": "BRS1(KC1)",
+      "arm_id": "competitive-lat1",
+      "applicability_proposition": "Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed excitation–inhibition capacity.",
+      "disposition": "evidence-supported-non-application",
+      "established_links": [
+        "Network E/I balance is a circuit property once transmitters are in place (PM8-F1).",
+        "Fernstrom 2013’s LAT1 cargo set is large neutral amino acids, not glutamate or GABA."
+      ],
+      "inferred_links": [
+        "LAT1 imbalance would change amino-acid presentation and thereby constrain E/I capacity."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "mamiya_precision_2021",
+          "fernstrom_lnna_2013"
+        ]
+      },
+      "rationale": "The named competitive state is LAT1 LNAA balance. Glutamate and GABA are not that cargo set. Delivery inference does not apply this arm to E/I capacity."
+    }
+  ],
+  "hide_title": true,
+  "scientific_findings_intro": "Matched excitation and inhibition depend on endogenous transmitter synthesis, activity-dependent supply and recycling, release, clearance, and receptor regulation. These Findings distinguish necessary capacity from intake-responsive modulation and from regional biomarker or phenome outcomes. Microbial production and oral exposures are assessed separately from neuronal synthesis.",
+  "scientific_findings": [
+    {
+      "id": "PM8-F1",
+      "finding_label": "Excitation–inhibition balance is a network property",
+      "finding_summary": "Neural excitation and inhibition operate together as a circuit-level property rather than as two isolated transmitter effects. That framing describes how networks stay stable; it is not a dietary rule.",
+      "finding_interpretation": "This supports the mission of matched glutamate–GABA signalling. It does not show that food intake sets the balance, and it does not replace sibling work on synthesis, clearance or excitotoxic buffering.",
+      "fm_rollup": true,
+      "finding_statement": "Excitation–inhibition balance is a coordinated network property of glutamatergic drive and GABAergic restraint, not a single-transmitter dose or a dietary prescription.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "synthesis": "A precision-medicine review of ADHD treats excitation–inhibition balance as a fronto-striatal network property that can persist from development into adulthood. That supports reading this mechanism as integrative matching of the two arms. It does not measure diet, synthesis flux or transporter-mediated clearance.",
+      "synthesis_limitations": "The source is a narrative review proposing E/I imbalance as a candidate biomarker frame. It does not quantify everyday dietary control of network balance or isolate synthesis from clearance.",
+      "evidence_considered": [
+        {
+          "label": "Mamiya et al. (2021)",
+          "citation_key": "mamiya_precision_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021",
+          "data_level": "Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Excitation–inhibition balance is framed as a coordinated network property relevant to ADHD across development, not as an isolated transmitter dose.",
+          "assessment": {
+            "study": "Narrative review proposing E/I imbalance in fronto-striatal circuitry as a precision-medicine frame for ADHD.",
+            "population": "Mixed preclinical and human ADHD literature summarised in the review; not a dietary sample.",
+            "result": "Argued that early E/I imbalance can leave lasting circuit differences associated with persistent ADHD symptoms.",
+            "effect_magnitude": "No dietary or network-balance effect estimate.",
+            "evidence_summary": "Places this mechanism at network matching of excitation and inhibition rather than at a single nutrient.",
+            "limitations": "Review synthesis; does not measure meals, GABA synthesis or glutamate uptake flux."
+          }
+        }
+      ],
+      "presentation": "mechanistic-basis"
+    },
+    {
+      "id": "PM8-F2",
+      "finding_label": "ADHD cohorts show reduced GABA concentration",
+      "finding_summary": "Children with ADHD have shown lower brain GABA concentration than comparison groups, including in striatum at high field. Concentration is a pool measurement, not a measure of how quickly GABA is made.",
+      "finding_interpretation": "These studies support a lower inhibitory-pool context in some ADHD samples. They do not measure GABA synthesis (that belongs with synthesis capacity) and they are not a dietary finding.",
+      "finding_statement": "Paediatric ADHD samples show reduced GABA concentration relative to typically developing controls; those spectroscopy values are not GABA synthesis rates.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "synthesis": "Edited spectroscopy reported lower GABA in children with ADHD, and a 7-tesla study found reduced striatal GABA in unmedicated children with ADHD. Together they support a reduced GABA pool in those cohorts. They do not measure synthesis flux, clearance or diet.",
+      "synthesis_limitations": "Small, cross-sectional concentration studies. Shared methods and group lineage mean they should not be read as fully independent replications. Direction in adults is not established here.",
+      "evidence_considered": [
+        {
+          "label": "Edden et al. (2012)",
+          "citation_key": "edden_reduced_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Lower GABA concentration in children with ADHD than in typically developing controls.",
+          "assessment": {
+            "study": "Edited magnetic resonance spectroscopy comparison of GABA concentration.",
+            "population": "Children with ADHD and typically developing control children.",
+            "result": "GABA concentration was reduced in the ADHD group relative to controls.",
+            "effect_magnitude": "A group difference in GABA concentration; small sample limits precision.",
+            "evidence_summary": "Supports a lower GABA pool in paediatric ADHD; silent on synthesis and diet.",
+            "limitations": "Concentration rather than synthesis; cross-sectional; single-region methods."
+          }
+        },
+        {
+          "label": "Puts et al. (2020)",
+          "citation_key": "puts_reduced_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#puts_reduced_2020",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Reduced striatal GABA in unmedicated children with ADHD at 7 tesla.",
+          "assessment": {
+            "study": "High-field spectroscopy of striatal GABA in unmedicated children with ADHD versus controls.",
+            "population": "Unmedicated children with ADHD and control children.",
+            "result": "Striatal GABA was reduced in the ADHD group.",
+            "effect_magnitude": "A regional group difference in GABA; small sample.",
+            "evidence_summary": "Extends the paediatric concentration finding to striatum at higher field.",
+            "limitations": "Concentration rather than synthesis; shares edited-spectroscopy lineage with Edden et al. (2012)."
+          }
+        }
+      ],
+      "evidence_dependency": [
+        "Puts et al. (2020) shares edited-spectroscopy methods and research lineage with Edden et al. (2012); they are not fully independent replications."
+      ],
+      "presentation": "phenome-relationship",
+      "primary_phenome": "Focus / Attention Stability"
+    },
+    {
+      "id": "PM8-F3",
+      "finding_label": "Glutamate/glutamine measures associate with attention scores",
+      "finding_summary": "In adults with ADHD, regional glutamate/glutamine (Glx) measures have been linked to inattention scores. Those spectroscopy values are not a measured clearance flux.",
+      "finding_interpretation": "This supports a glutamate-pool context for attention ratings. It does not establish uptake or recycling rate, and it is not a dietary rule.",
+      "finding_statement": "Regional glutamate/glutamine spectroscopy associates with attention scores in adults with ADHD; that association is not a measurement of excitatory amino-acid transporter flux.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "synthesis": "Proton spectroscopy in adults with ADHD found lower Glx in basal ganglia than in controls, and in untreated participants lower basal-ganglia Glx associated with more severe inattention. That is a concentration-to-score link. It does not measure transporter-mediated clearance.",
+      "synthesis_limitations": "Cross-sectional human spectroscopy. Combined glutamate-plus-glutamine signal is not EAAT flux. Stimulant-treated and naïve groups did not differ in the reported metabolite contrasts.",
+      "evidence_considered": [
+        {
+          "label": "Maltezos et al. (2014)",
+          "citation_key": "maltezos_glutamateglutamine_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Lower basal-ganglia Glx in adults with ADHD than controls, and in untreated ADHD lower Glx associated with more severe inattention.",
+          "assessment": {
+            "study": "Proton magnetic resonance spectroscopy of Glx and related metabolites in basal ganglia, dorsolateral prefrontal cortex and medial parietal cortex.",
+            "population": "Forty adults with ADHD (24 stimulant-naïve, 16 currently treated) and 20 matched healthy controls.",
+            "result": "ADHD participants had lower Glx, creatine and NAA in basal ganglia after multiple-comparison correction; in untreated ADHD, lower basal-ganglia Glx associated with more severe inattention.",
+            "effect_magnitude": "Regional group contrasts and a within-ADHD association; not a flux estimate.",
+            "evidence_summary": "Links a glutamate/glutamine pool measure to attention scores.",
+            "limitations": "Spectroscopy of a combined signal; not transporter flux or diet."
+          }
+        }
+      ],
+      "presentation": "phenome-relationship",
+      "primary_phenome": "Focus / Attention Stability"
+    },
+    {
+      "id": "PM8-IC1",
+      "finding_label": "Concentration and spectroscopy are not synthesis or clearance",
+      "finding_summary": "Magnetic resonance spectroscopy reports a transmitter pool or a combined glutamate/glutamine signal. That is not the rate at which GABA is made or the rate at which glutamate is cleared.",
+      "finding_interpretation": "Read ADHD GABA and Glx studies as pool context for network balance, not as proof of synthesis capacity or clearance flux.",
+      "finding_statement": "GABA or glutamate/glutamine concentration from magnetic resonance spectroscopy cannot be treated as GABA synthesis rate or glutamate clearance flux.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "synthesis": "The paediatric GABA studies and the adult Glx study all report spectroscopic pools. Network E/I framing likewise does not convert those pools into flux. The interpretive rule is that concentration is not synthesis and is not clearance.",
+      "synthesis_limitations": "This constraint is about measurement construct, not a new human dataset. It does not quantify how far a given pool change would have to move before flux also changed.",
+      "evidence_considered": [
+        {
+          "label": "Edden et al. (2012)",
+          "citation_key": "edden_reduced_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Reports GABA concentration, not GABA synthesis rate.",
+          "assessment": {
+            "study": "Same edited-spectroscopy comparison used in PM8-F2.",
+            "population": "Children with ADHD and typically developing controls.",
+            "result": "Group difference in GABA concentration.",
+            "effect_magnitude": "Concentration contrast only.",
+            "evidence_summary": "Shows the construct actually measured is a GABA pool.",
+            "limitations": "Does not include a flux arm."
+          }
+        },
+        {
+          "label": "Maltezos et al. (2014)",
+          "citation_key": "maltezos_glutamateglutamine_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "repository-inherited",
+          "directional_finding": "Reports Glx concentration and attention-score association, not EAAT flux.",
+          "assessment": {
+            "study": "Same adult ADHD spectroscopy used in PM8-F3.",
+            "population": "Adults with ADHD and matched controls.",
+            "result": "Regional Glx differences and an inattention association.",
+            "effect_magnitude": "Pool and score association, not a clearance rate.",
+            "evidence_summary": "Shows the glutamate-side measure is spectroscopic Glx.",
+            "limitations": "Combined glutamate-plus-glutamine signal."
+          }
+        }
+      ],
+      "evidence_dependency": [
+        "Edden et al. (2012) is primary evidence in PM8-F2; reuse here is construct, not a second cohort.",
+        "Maltezos et al. (2014) is primary evidence in PM8-F3; reuse here is construct, not a second cohort."
+      ],
+      "presentation": "interpretive-constraint"
+    },
+    {
+      "id": "PM8-F4",
+      "finding_label": "The effect of inhibition depends on chloride regulation and circuit feedback",
+      "finding_summary": "GABA availability alone does not determine inhibition: chloride gradients and activity-dependent synaptic regulation also affect circuit behaviour.",
+      "finding_statement": "GABA availability alone does not determine inhibition: chloride gradients and activity-dependent synaptic regulation also affect circuit behaviour.",
+      "finding_interpretation": "Preclinical cellular evidence identifies regulation beyond transmitter synthesis; it does not establish dietary electrolyte enhancement.",
+      "synthesis": "KCC2 experiments establish chloride-dependent GABA responses. Synaptic-scaling experiments show compensatory changes after excitation or inhibition is experimentally disturbed.",
+      "synthesis_limitations": "Preclinical cellular evidence identifies regulation beyond transmitter synthesis; it does not establish dietary electrolyte enhancement.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Rivera et al. (1999)",
+          "citation_key": "pm8_rivera_1999",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_rivera_1999",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Suppressing KCC2 shifted GABA reversal potential; intracellular chloride determines the electrical effect of GABA.",
+          "assessment": {
+            "study": "The K+/Cl- co-transporter KCC2 renders GABA hyperpolarizing during neuronal maturation",
+            "population": "Developing rat hippocampal neurons.",
+            "result": "Suppressing KCC2 shifted GABA reversal potential; intracellular chloride determines the electrical effect of GABA.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Suppressing KCC2 shifted GABA reversal potential; intracellular chloride determines the electrical effect of GABA.",
+            "limitations": "Developmental neuronal experiments, not dietary potassium/chloride responsiveness or adult human intervention."
+          }
+        },
+        {
+          "label": "Turrigiano et al. (1998)",
+          "citation_key": "pm8_turrigiano_1998",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_turrigiano_1998",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Activity blockade increased miniature excitatory current amplitudes; blocking inhibition initially increased firing, followed by downscaling and near-control firing after 48 hours.",
+          "assessment": {
+            "study": "Activity-dependent scaling of quantal amplitude in neocortical neurons",
+            "population": "Neocortical neuronal cultures.",
+            "result": "Activity blockade increased miniature excitatory current amplitudes; blocking inhibition initially increased firing, followed by downscaling and near-control firing after 48 hours.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Activity blockade increased miniature excitatory current amplitudes; blocking inhibition initially increased firing, followed by downscaling and near-control firing after 48 hours.",
+            "limitations": "Culture pharmacology establishes feedback regulation, not a nutritional intervention or a single optimal transmitter ratio."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F5",
+      "finding_label": "Gut GABA production is strain-specific and does not establish brain inhibition",
+      "finding_summary": "Some gut bacteria convert glutamate into GABA, but culture or faecal production does not by itself demonstrate neuronal excitation–inhibition regulation.",
+      "finding_statement": "Some gut bacteria convert glutamate into GABA, but culture or faecal production does not by itself demonstrate neuronal excitation–inhibition regulation.",
+      "finding_interpretation": "Local, vagal and systemic routes remain distinct. GABA-producing capacity does not make all strains interchangeable or identify dietary doses for brain regulation.",
+      "synthesis": "Culture studies identify substrate and cofactor-dependent production. Duranti’s rat measurements are weaker than a strain-exclusive production claim. TMC3115 experiments support a possible epithelial signalling route without increased serum GABA.",
+      "synthesis_limitations": "Local, vagal and systemic routes remain distinct. GABA-producing capacity does not make all strains interchangeable or identify dietary doses for brain regulation.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Duranti et al. (2020)",
+          "citation_key": "pm8_duranti_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_duranti_2020",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Culture production and gad expression were demonstrated. Figure 5b shows baseline-normalised faecal increases, also in the non-gad strain; absolute faecal concentrations did not significantly differ between groups.",
+          "assessment": {
+            "study": "Bifidobacterium adolescentis as a key member of the human gut microbiota in the production of GABA",
+            "population": "Genome survey, 82 cultured strains; four groups of eight male Groningen rats, five days at 10^9 CFU/day.",
+            "result": "Culture production and gad expression were demonstrated. Figure 5b shows baseline-normalised faecal increases, also in the non-gad strain; absolute faecal concentrations did not significantly differ between groups.",
+            "effect_magnitude": "PRL2019 approximately twofold at day 4; HD17T2H approximately 1.4-fold at day 2 after baseline normalisation.",
+            "evidence_summary": "Culture production and gad expression were demonstrated. Figure 5b shows baseline-normalised faecal increases, also in the non-gad strain; absolute faecal concentrations did not significantly differ between groups.",
+            "limitations": "No brain, receptor, electrophysiological or behavioural intervention endpoint; faecal concentration is not production flux or proof of strain-exclusive synthesis."
+          }
+        },
+        {
+          "label": "Yunes et al. (2016)",
+          "citation_key": "pm8_yunes_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_yunes_2016",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "58 strains produced GABA; selected strains were examined for PLP effects and gad genes.",
+          "assessment": {
+            "study": "GABA production and structure of gadB/gadC genes in Lactobacillus and Bifidobacterium strains from human microbiota",
+            "population": "135 human-derived bacterial strains cultured with monosodium glutamate.",
+            "result": "58 strains produced GABA; selected strains were examined for PLP effects and gad genes.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "58 strains produced GABA; selected strains were examined for PLP effects and gad genes.",
+            "limitations": "Culture conversion does not establish dietary MSG/B6 effects on human brain signalling; capacity is strain-specific."
+          }
+        },
+        {
+          "label": "Otaru et al. (2021)",
+          "citation_key": "pm8_otaru_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_otaru_2021",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Glutamate and glutamine supported bacterial GABA production; pH regulated output and the GAD system contributed to acid tolerance.",
+          "assessment": {
+            "study": "GABA Production by Human Intestinal Bacteroides spp.: Prevalence, Regulation, and Role in Acid Stress Tolerance",
+            "population": "Cultured intestinal Bacteroides species.",
+            "result": "Glutamate and glutamine supported bacterial GABA production; pH regulated output and the GAD system contributed to acid tolerance.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Glutamate and glutamine supported bacterial GABA production; pH regulated output and the GAD system contributed to acid tolerance.",
+            "limitations": "Bacterial acid resistance is not neuronal excitation–inhibition regulation or a human nutrient-intake target."
+          }
+        },
+        {
+          "label": "Ikegami et al. (2024)",
+          "citation_key": "pm8_ikegami_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_ikegami_2024",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "TMC3115 increased faecal GABA and open-arm entries without increasing serum GABA. Epithelial GABA receptor expression and MAPK responses were measured; colonic Erk phosphorylation increased.",
+          "assessment": {
+            "study": "Intervention in gut microbiota increases intestinal γ-aminobutyric acid and alleviates anxiety behavior: a possible mechanism via the action on intestinal epithelial cells",
+            "population": "TMC3115-treated mice, epithelial cell lines and intestinal organoids.",
+            "result": "TMC3115 increased faecal GABA and open-arm entries without increasing serum GABA. Epithelial GABA receptor expression and MAPK responses were measured; colonic Erk phosphorylation increased.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "TMC3115 increased faecal GABA and open-arm entries without increasing serum GABA. Epithelial GABA receptor expression and MAPK responses were measured; colonic Erk phosphorylation increased.",
+            "limitations": "No central E/I measurement; epithelial-to-brain mediation remains proposed rather than demonstrated by pathway blockade. TMC3115 effects cannot be assigned to every Bifidobacterium strain."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F6",
+      "finding_label": "Oral bacterial strains can affect central signalling measures in specific models",
+      "finding_summary": "JB-1 changed brain GABA receptor transcripts and regional metabolite pools in mice; Bifidobacterium results depend on the strain and measured compartment.",
+      "finding_statement": "JB-1 changed brain GABA receptor transcripts and regional metabolite pools in mice; Bifidobacterium results depend on the strain and measured compartment.",
+      "finding_interpretation": "Neither a larger GABA pool nor a lower glutamate/glutamine ratio establishes corrected circuit balance. Human JB-1 translation was negative in healthy men.",
+      "synthesis": "The JB-1 studies provide complementary receptor and MRS evidence, with vagotomy supporting neural communication. IPLA60004 changed serum glutamate and a cortical glutamate/glutamine ratio without significant brain GABA changes. IM38 antagonist sensitivity suggests a receptor-related route, but does not isolate its microbial signal.",
+      "synthesis_limitations": "Neither a larger GABA pool nor a lower glutamate/glutamine ratio establishes corrected circuit balance. Human JB-1 translation was negative in healthy men.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Bravo et al. (2011)",
+          "citation_key": "bravo_ingestion_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "JB-1 produced region-dependent GABA receptor transcript changes; reported neurochemical/behavioural effects were absent after vagotomy.",
+          "assessment": {
+            "study": "Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve",
+            "population": "Healthy male BALB/c mice receiving JB-1; vagotomy comparison.",
+            "result": "JB-1 produced region-dependent GABA receptor transcript changes; reported neurochemical/behavioural effects were absent after vagotomy.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "JB-1 produced region-dependent GABA receptor transcript changes; reported neurochemical/behavioural effects were absent after vagotomy.",
+            "limitations": "Receptor mRNA is not receptor current or network E/I. The study does not establish that microbial GABA was the causal signal or that it crossed the BBB."
+          }
+        },
+        {
+          "label": "Janik et al. (2016)",
+          "citation_key": "pm8_janik_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_janik_2016",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "GABA increased at four weeks; Glx rose earlier and remained elevated after cessation.",
+          "assessment": {
+            "study": "Magnetic resonance spectroscopy reveals oral Lactobacillus promotion of increases in brain GABA, N-acetyl aspartate and glutamate",
+            "population": "Male BALB/c mice, 10^9 CFU JB-1/day for four weeks; serial MRS and post-treatment follow-up.",
+            "result": "GABA increased at four weeks; Glx rose earlier and remained elevated after cessation.",
+            "effect_magnitude": "Approximately 25% GABA increase at week 4; approximately 10% Glx increase from week 2.",
+            "evidence_summary": "GABA increased at four weeks; Glx rose earlier and remained elevated after cessation.",
+            "limitations": "Same strain/research lineage as Bravo, complementary endpoints rather than independent human confirmation. MRS pools do not measure synaptic balance or provenance of GABA."
+          }
+        },
+        {
+          "label": "Kelly et al. (2017)",
+          "citation_key": "pm8_kelly_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_kelly_2017",
+          "data_level": "Human Study",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "No improvement over placebo in assessed stress, cognition, EEG, HPA or inflammatory outcomes.",
+          "assessment": {
+            "study": "Lost in translation? The potential psychobiotic Lactobacillus rhamnosus (JB-1) fails to modulate stress or cognitive performance in healthy male subjects",
+            "population": "29 healthy men, randomised placebo-controlled eight-week crossover design.",
+            "result": "No improvement over placebo in assessed stress, cognition, EEG, HPA or inflammatory outcomes.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "No improvement over placebo in assessed stress, cognition, EEG, HPA or inflammatory outcomes.",
+            "limitations": "No brain GABA assay; null healthy-male trial limits benefit translation without disproving the mouse receptor findings."
+          }
+        },
+        {
+          "label": "Tamés et al. (2023)",
+          "citation_key": "pm8_tames_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_tames_2023",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "IPLA60004 reduced serum glutamate. Brain GABA and glutamate concentrations did not significantly change; cortical glutamate/glutamine signal ratio was lower (Figure 6).",
+          "assessment": {
+            "study": "Orally Administered Bifidobacterium adolescentis Diminishes Serum Glutamate Concentration in Mice",
+            "population": "24 C3H/HeJ mice, eight per vehicle/IPLA60004/non-gad strain group; 10^8 CFU/day in milk for 14 days.",
+            "result": "IPLA60004 reduced serum glutamate. Brain GABA and glutamate concentrations did not significantly change; cortical glutamate/glutamine signal ratio was lower (Figure 6).",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "IPLA60004 reduced serum glutamate. Brain GABA and glutamate concentrations did not significantly change; cortical glutamate/glutamine signal ratio was lower (Figure 6).",
+            "limitations": "Glutamate/glutamine is not glutamate/GABA or synaptic E/I. Strains were not an isogenic gad deletion pair; microbial GABA mediation was not isolated."
+          }
+        },
+        {
+          "label": "Tamés et al. (2024)",
+          "citation_key": "pm8_tames_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_tames_2024",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Microbiota composition changed; faecal/colonic GABA-related metabolites did not significantly increase; serum GABA correlated with some taxa.",
+          "assessment": {
+            "study": "Mouse intestinal microbiome modulation by oral administration of a GABA-producing Bifidobacterium adolescentis strain",
+            "population": "Companion microbiome/metabolite analysis of IPLA60004 mouse intervention.",
+            "result": "Microbiota composition changed; faecal/colonic GABA-related metabolites did not significantly increase; serum GABA correlated with some taxa.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Microbiota composition changed; faecal/colonic GABA-related metabolites did not significantly increase; serum GABA correlated with some taxa.",
+            "limitations": "Companion analyses are not independent replication. Correlation and altered communities do not identify a GABA-mediated neuronal effect."
+          }
+        },
+        {
+          "label": "Jang et al. (2018)",
+          "citation_key": "pm8_jang_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_jang_2018",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Anxiolytic-like effects were blocked by flumazenil, but not by bicuculline or WAY-100635.",
+          "assessment": {
+            "study": "Anxiolytic-like effect of Bifidobacterium adolescentis IM38 in mice with or without immobilisation stress",
+            "population": "Mice with/without immobilisation stress; IM38 at 10^9 CFU/mouse.",
+            "result": "Anxiolytic-like effects were blocked by flumazenil, but not by bicuculline or WAY-100635.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Anxiolytic-like effects were blocked by flumazenil, but not by bicuculline or WAY-100635.",
+            "limitations": "Pharmacological sensitivity suggests benzodiazepine-site involvement; it does not isolate bacterial GABA, quantify brain transmitter pools or establish receptor engagement by a named microbial metabolite."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F7",
+      "finding_label": "Oral GABA changed prefrontal GABA in stressed mice",
+      "finding_summary": "An isolated oral GABA intervention increased prefrontal GABA concentration in a chronic-stress mouse model.",
+      "finding_statement": "An isolated oral GABA intervention increased prefrontal GABA concentration in a chronic-stress mouse model.",
+      "finding_interpretation": "This is preclinical modulation, not an indispensable dietary requirement, evidence of microbial delivery, brain entry tracing, matched E/I restoration or human benefit.",
+      "synthesis": "Xu’s Figure 2G links the 20 mg/kg intervention to a PFC ELISA endpoint; accompanying behaviour, immune markers and proteomics provide context.",
+      "synthesis_limitations": "This is preclinical modulation, not an indispensable dietary requirement, evidence of microbial delivery, brain entry tracing, matched E/I restoration or human benefit.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Xu et al. (2025)",
+          "citation_key": "pm8_xu_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_xu_2025",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "20 mg/kg increased PFC GABA by ELISA (Figure 2G); anxiety-like behaviour and complement/cytokine markers changed.",
+          "assessment": {
+            "study": "Long-term GABA supplementation mitigates anxiety by modulating complement and neuroinflammatory pathways",
+            "population": "Male C57BL/6J chronic-restraint-stress mice; oral gavage 10 or 20 mg/kg/day.",
+            "result": "20 mg/kg increased PFC GABA by ELISA (Figure 2G); anxiety-like behaviour and complement/cytokine markers changed.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "20 mg/kg increased PFC GABA by ELISA (Figure 2G); anxiety-like behaviour and complement/cytokine markers changed.",
+            "limitations": "No labelled GABA tracking, bacterial intervention, glutamate/GABA current balance, or demonstrated causal complement mechanism. Timeline includes tests on days 15/16 and tissue collection on day 17."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F8",
+      "finding_label": "Human prebiotic evidence does not show a clear increase in brain GABA",
+      "finding_summary": "A GOS trial increased Bifidobacterium abundance transiently, but reported brain GABA effects were trend-level decreases and the primary anxiety result was negative.",
+      "finding_statement": "A GOS trial increased Bifidobacterium abundance transiently, but reported brain GABA effects were trend-level decreases and the primary anxiety result was negative.",
+      "finding_interpretation": "Full published tables require review before stronger subgroup claims. These results do not authorise GOS as a Derived brain-GABA input or equate more Bifidobacterium with more neuronal inhibition.",
+      "synthesis": "The published abstract reports the ITT and subgroup results separately. This tests the dietary exposure rather than proving a GABA-producing-strain mediation route.",
+      "synthesis_limitations": "Full published tables require review before stronger subgroup claims. These results do not authorise GOS as a Derived brain-GABA input or equate more Bifidobacterium with more neuronal inhibition.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Johnstone and Cohen Kadosh (2025)",
+          "citation_key": "pm8_johnstone_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_johnstone_2025",
+          "data_level": "Human Study",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Bifidobacterium transiently increased; reported intention-to-treat and high-anxiety GABA effects were trend-level reductions, not increases. Primary anxiety outcome was nonsignificant.",
+          "assessment": {
+            "study": "A randomised controlled trial of the effects of Galacto-Oligosaccharides on the gut brain-axis of young females",
+            "population": "83 healthy females aged 17–25; 28-day GOS/placebo trial and follow-up.",
+            "result": "Bifidobacterium transiently increased; reported intention-to-treat and high-anxiety GABA effects were trend-level reductions, not increases. Primary anxiety outcome was nonsignificant.",
+            "effect_magnitude": "Anxiety p=0.443; IOG GABA p=0.053; high-anxiety dlPFC GABA p=0.088; Bifidobacterium p=0.001.",
+            "evidence_summary": "Bifidobacterium transiently increased; reported intention-to-treat and high-anxiety GABA effects were trend-level reductions, not increases. Primary anxiety outcome was nonsignificant.",
+            "limitations": "Version-of-record abstract verified; full published statistical tables not retrieved. Microbial mediation and circuit E/I are not established. Do not present the preprint as a separate replication."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F9",
+      "finding_label": "High-dose vitamin B6 has an indirect inhibitory-function signal",
+      "finding_summary": "A high-dose vitamin B6 trial altered visual surround suppression, an indirect functional measure associated with neural inhibition.",
+      "finding_statement": "A high-dose vitamin B6 trial altered visual surround suppression, an indirect functional measure associated with neural inhibition.",
+      "finding_interpretation": "This supports a bounded experimental supplementation relationship, not a new direct chemical cofactor role in circuit matching, proven GABA mediation or nutrient-dose advice.",
+      "synthesis": "The intervention tested pyridoxine hydrochloride rather than PLP or ordinary dietary intake. Not all sensory outcomes changed consistently.",
+      "synthesis_limitations": "This supports a bounded experimental supplementation relationship, not a new direct chemical cofactor role in circuit matching, proven GABA mediation or nutrient-dose advice.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Field et al. (2022)",
+          "citation_key": "pm8_field_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_field_2022",
+          "data_level": "Human Study",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Visual surround suppression increased and self-reported anxiety declined; other inhibitory sensory assays were not reliably altered.",
+          "assessment": {
+            "study": "High-dose Vitamin B6 supplementation reduces anxiety and strengthens visual surround suppression",
+            "population": "Young adults, one month of 100 mg/day vitamin B6 as pyridoxine hydrochloride versus B12/placebo.",
+            "result": "Visual surround suppression increased and self-reported anxiety declined; other inhibitory sensory assays were not reliably altered.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Visual surround suppression increased and self-reported anxiety declined; other inhibitory sensory assays were not reliably altered.",
+            "limitations": "Visual suppression is an indirect inhibition proxy; no GABA, synthesis flux or matched E/I measurement. Isolated high-dose intervention does not establish ordinary-intake need or benefit."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F10",
+      "finding_label": "Sleep loss and recovery affect glutamatergic signalling measures",
+      "finding_summary": "Sleep deprivation changed glutamatergic measures in healthy men, with mGluR5 availability returning toward baseline after recovery sleep.",
+      "finding_statement": "Sleep deprivation changed glutamatergic measures in healthy men, with mGluR5 availability returning toward baseline after recovery sleep.",
+      "finding_interpretation": "Supported human state context does not establish that sleep increases GABA or that all circuits achieve a measured optimal balance.",
+      "synthesis": "Multimodal PET/MRS separates receptor availability from transmitter concentration; GABA did not change significantly.",
+      "synthesis_limitations": "Supported human state context does not establish that sleep increases GABA or that all circuits achieve a measured optimal balance.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Model, region and study-lineage boundaries are retained; complementary endpoints are not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Weigend et al. (2019)",
+          "citation_key": "pm8_weigend_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_weigend_2019",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Basal-ganglia glutamate/glutamine ratio and mGluR5 availability changed after sleep loss; receptor availability normalised after recovery. GABA was not altered.",
+          "assessment": {
+            "study": "Dynamic changes in cerebral and peripheral markers of glutamatergic signaling across the human sleep–wake cycle",
+            "population": "31 healthy men studied at baseline, after approximately 32 hours awake and after recovery sleep.",
+            "result": "Basal-ganglia glutamate/glutamine ratio and mGluR5 availability changed after sleep loss; receptor availability normalised after recovery. GABA was not altered.",
+            "effect_magnitude": "No transferable ordinary-diet or human circuit-balance estimate.",
+            "evidence_summary": "Basal-ganglia glutamate/glutamine ratio and mGluR5 availability changed after sleep loss; receptor availability normalised after recovery. GABA was not altered.",
+            "limitations": "Receptor availability and pools are partial signalling measures; no demonstration of an optimal E/I ratio or general sleep prescription effect size."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F11",
+      "finding_label": "Endogenous GABA synthesis depends on glutamate and PLP",
+      "finding_summary": "GAD requires intracellular glutamate and PLP; B6 vitamers provide precursors for PLP formation.",
+      "finding_statement": "GAD requires intracellular glutamate and PLP; B6 vitamers provide precursors for PLP formation.",
+      "finding_interpretation": "Synthesis capacity is necessary context for matched signalling, not proof that increasing B6 or GABA improves balance. PLP also supports GABA metabolism and other enzymes. Dietary glutamate is not equivalent to neuronal substrate supply.",
+      "synthesis": "GAD enzyme studies establish reaction participants, human pyridoxal kinase supports conversion, and nutritional-deficiency experiments show that inadequate B6 can alter brain enzyme activity and transmitter pools. This supports an upstream capacity relationship to the inhibitory arm.",
+      "synthesis_limitations": "Synthesis capacity is necessary context for matched signalling, not proof that increasing B6 or GABA improves balance. PLP also supports GABA metabolism and other enzymes. Dietary glutamate is not equivalent to neuronal substrate supply.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Fenalti et al. (2007)",
+          "citation_key": "pm8_fenalti_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_fenalti_2007",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Mammalian GAD65/67 structures and kinetics establish PLP-dependent glutamate conversion and isoform-specific regulation.",
+          "assessment": {
+            "study": "GABA production by glutamic acid decarboxylase is regulated by a dynamic catalytic loop.",
+            "population": "Primary enzyme or cellular experiments; not an ordinary-intake efficacy trial.",
+            "result": "Mammalian GAD65/67 structures and kinetics establish PLP-dependent glutamate conversion and isoform-specific regulation.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Mammalian GAD65/67 structures and kinetics establish PLP-dependent glutamate conversion and isoform-specific regulation.",
+            "limitations": "Recombinant structural/kinetic work; does not test dietary provision, synaptic E/I correction or additional-intake benefit."
+          }
+        },
+        {
+          "label": "Lee et al. (2000)",
+          "citation_key": "lee_human_2000",
+          "href": "/docs/papers/BRAIN-Diet-References#lee_human_2000",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+          "assessment": {
+            "study": "Human pyridoxal kinase: overexpression and properties of the recombinant enzyme.",
+            "population": "Primary enzyme or cellular experiments; not an ordinary-intake efficacy trial.",
+            "result": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+            "limitations": "Human enzyme assayed in vitro; not a brain intake-response experiment. Pyridoxine/pyridoxamine phosphate routes additionally use PNPO."
+          }
+        },
+        {
+          "label": "Rajeswari and Radha (1984)",
+          "citation_key": "pm8_rajeswari_1984",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_rajeswari_1984",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Nutritional B6 deficiency lowered brain GAD and GABA-T holoenzyme activities across the studied rat age groups.",
+          "assessment": {
+            "study": "Age-related effects of nutritional vitamin B6 deficiency on B6-dependent enzymes of glutamate, gamma-aminobutyrate and glutamine systems in the rat brain.",
+            "population": "Animal experiments.",
+            "result": "Nutritional B6 deficiency lowered brain GAD and GABA-T holoenzyme activities across the studied rat age groups.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Nutritional B6 deficiency lowered brain GAD and GABA-T holoenzyme activities across the studied rat age groups.",
+            "limitations": "Rat nutritional deficiency with multiple B6-dependent enzymes affected; not selective enhancement of inhibition or an adult-human intake threshold."
+          }
+        },
+        {
+          "label": "Guilarte (1989)",
+          "citation_key": "pm8_guilarte_1989",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_guilarte_1989",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "B6 restriction altered regional neuroactive amino acids; low GABA did not invariably produce seizures in older animals.",
+          "assessment": {
+            "study": "Regional changes in the concentrations of glutamate, glycine, taurine, and GABA in the vitamin B-6 deficient developing rat brain: association with neonatal seizures.",
+            "population": "Rat experiments; age and model boundaries retained.",
+            "result": "B6 restriction altered regional neuroactive amino acids; low GABA did not invariably produce seizures in older animals.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "B6 restriction altered regional neuroactive amino acids; low GABA did not invariably produce seizures in older animals.",
+            "limitations": "Developing rat deficiency, regional/age-dependent effects; seizures are not a universal readout of GABA shortage. Indexed abstract is truncated."
+          }
+        },
+        {
+          "label": "Nakamura et al. (2013)",
+          "citation_key": "pm8_nakamura_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_nakamura_2013",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Isotope feeding showed extensive intestinal metabolism of dietary glutamate; only minor intact glutamate release into portal blood.",
+          "assessment": {
+            "study": "Nitrogen in dietary glutamate is utilized exclusively for the synthesis of amino acids in the rat intestine.",
+            "population": "Rat experiments; age and model boundaries retained.",
+            "result": "Isotope feeding showed extensive intestinal metabolism of dietary glutamate; only minor intact glutamate release into portal blood.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Isotope feeding showed extensive intestinal metabolism of dietary glutamate; only minor intact glutamate release into portal blood.",
+            "limitations": "Rat peripheral metabolism; no brain incorporation measurement or proof that oral glutamate cannot ever influence brain biology by another route."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F12",
+      "finding_label": "Recycling supports activity-dependent inhibitory release",
+      "finding_summary": "Astrocyte–neuron glutamine recycling can sustain vesicular GABA availability during activity.",
+      "finding_statement": "Astrocyte–neuron glutamine recycling can sustain vesicular GABA availability during activity.",
+      "finding_interpretation": "This is an endogenous-cycle dependency, not a requirement to consume glutamine. It does not establish that every basal inhibitory event depends exclusively on this route.",
+      "synthesis": "Blocking synthesis, uptake or transport within the cycle reduced evoked inhibitory currents after activity. Glutamine rescue depended on which step was blocked, linking compartment-specific supply to inhibitory transmission.",
+      "synthesis_limitations": "This is an endogenous-cycle dependency, not a requirement to consume glutamine. It does not establish that every basal inhibitory event depends exclusively on this route.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Liang et al. (2006)",
+          "citation_key": "pm8_liang_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_liang_2006",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Cycle blockade reduced activity-dependent evoked inhibitory synaptic currents. Glutamine rescued astrocytic synthesis blockade but not neuronal glutamine transport blockade.",
+          "assessment": {
+            "study": "Dynamic regulation of synaptic GABA release by the glutamate-glutamine cycle in hippocampal area CA1.",
+            "population": "Rat experiments; age and model boundaries retained.",
+            "result": "Cycle blockade reduced activity-dependent evoked inhibitory synaptic currents. Glutamine rescued astrocytic synthesis blockade but not neuronal glutamine transport blockade.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Cycle blockade reduced activity-dependent evoked inhibitory synaptic currents. Glutamine rescued astrocytic synthesis blockade but not neuronal glutamine transport blockade.",
+            "limitations": "Hippocampal CA1 experimental preparations and millimolar bath reagents. Not an oral-glutamine intervention; miniature currents at rest were unaffected."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F13",
+      "finding_label": "Glutamate clearance is necessary for neural stability",
+      "finding_summary": "Impaired astrocytic glutamate uptake can destabilise neural activity.",
+      "finding_statement": "Impaired astrocytic glutamate uptake can destabilise neural activity.",
+      "finding_interpretation": "Genetic disruption is not nutritional inadequacy and does not supply a dietary target. Synthesis, release, clearance and receptor responses must remain separate processes.",
+      "synthesis": "GLT-1 knockout mice developed seizures with elevated residual glutamate, connecting clearance failure to instability. PM10 owns detailed clearance and recycling; that ownership does not remove PM8 dependence.",
+      "synthesis_limitations": "Genetic disruption is not nutritional inadequacy and does not supply a dietary target. Synthesis, release, clearance and receptor responses must remain separate processes.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Tanaka et al. (1997)",
+          "citation_key": "pm8_tanaka_1997",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_tanaka_1997",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "GLT-1 deletion elevated residual glutamate and caused spontaneous seizures and injury susceptibility in mice.",
+          "assessment": {
+            "study": "Epilepsy and exacerbation of brain injury in mice lacking the glutamate transporter GLT-1.",
+            "population": "Animal experiments.",
+            "result": "GLT-1 deletion elevated residual glutamate and caused spontaneous seizures and injury susceptibility in mice.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "GLT-1 deletion elevated residual glutamate and caused spontaneous seizures and injury susceptibility in mice.",
+            "limitations": "Genetic transporter disruption supports clearance as a stability dependency, not a nutrient intervention."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F14",
+      "finding_label": "A specific B2-dependent conversion route supports PLP formation",
+      "finding_summary": "Vitamin B2 supplies FMN, the cofactor for PNPO conversion of pyridoxine/pyridoxamine phosphates to PLP.",
+      "finding_statement": "Vitamin B2 supplies FMN, the cofactor for PNPO conversion of pyridoxine/pyridoxamine phosphates to PLP.",
+      "finding_interpretation": "This supports a conditional upstream provision route, not a claim that all PLP formation requires PNPO, that B2 is uniquely GABA-related, or that extra B2 corrects circuit balance.",
+      "synthesis": "Human riboflavin kinase and PNPO studies establish consecutive conversion edges to the PLP supply route. The relationship is bounded to PNPO-dependent B6 forms; pyridoxal can be phosphorylated directly.",
+      "synthesis_limitations": "This supports a conditional upstream provision route, not a claim that all PLP formation requires PNPO, that B2 is uniquely GABA-related, or that extra B2 corrects circuit balance.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial.",
+        "Lee et al. (2000) is reused from PM8-F11 for the pyridoxal phosphorylation bypass; this is not independent replication."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Karthikeyan et al. (2003)",
+          "citation_key": "pm8_karthikeyan_2003",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_karthikeyan_2003",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Human riboflavin kinase phosphorylates vitamin B2 (riboflavin) to FMN.",
+          "assessment": {
+            "study": "Crystal structure of human riboflavin kinase reveals a beta barrel fold and a novel active site arch.",
+            "population": "Primary enzyme or cellular experiments; not an ordinary-intake efficacy trial.",
+            "result": "Human riboflavin kinase phosphorylates vitamin B2 (riboflavin) to FMN.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Human riboflavin kinase phosphorylates vitamin B2 (riboflavin) to FMN.",
+            "limitations": "Human enzyme structure, not a dietary B2-to-circuit-balance intervention."
+          }
+        },
+        {
+          "label": "Musayev et al. (2003)",
+          "citation_key": "pm8_musayev_2003",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_musayev_2003",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Human PNPO converts pyridoxine/pyridoxamine phosphates to PLP and binds the FMN cofactor.",
+          "assessment": {
+            "study": "Structure and properties of recombinant human pyridoxine 5'-phosphate oxidase.",
+            "population": "Primary enzyme or cellular experiments; not an ordinary-intake efficacy trial.",
+            "result": "Human PNPO converts pyridoxine/pyridoxamine phosphates to PLP and binds the FMN cofactor.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Human PNPO converts pyridoxine/pyridoxamine phosphates to PLP and binds the FMN cofactor.",
+            "limitations": "Recombinant enzyme structure/kinetics. Pyridoxal phosphorylation bypasses PNPO; does not establish B2 limitation of PM8 in an adequately nourished person."
+          }
+        },
+        {
+          "label": "Lee et al. (2000)",
+          "citation_key": "lee_human_2000",
+          "href": "/docs/papers/BRAIN-Diet-References#lee_human_2000",
+          "data_level": "Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+          "assessment": {
+            "study": "Human pyridoxal kinase: overexpression and properties of the recombinant enzyme.",
+            "population": "Primary enzyme or cellular experiments; not an ordinary-intake efficacy trial.",
+            "result": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Recombinant human brain pyridoxal kinase phosphorylates B6 vitamers, supporting the pyridoxal-to-PLP conversion edge.",
+            "limitations": "Human enzyme assayed in vitro; not a brain intake-response experiment. Pyridoxine/pyridoxamine phosphate routes additionally use PNPO."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F15",
+      "finding_label": "Thiamin deficiency changes transmitter metabolism without defining a simple intake lever",
+      "finding_summary": "Thiamin deficiency altered glutamate/GABA pools and GABA-shunt metabolism in rats.",
+      "finding_statement": "Thiamin deficiency altered glutamate/GABA pools and GABA-shunt metabolism in rats.",
+      "finding_interpretation": "This does not isolate a specific thiamin-to-PM8 capacity bottleneck or an ordinary-intake response; no generic energy or B-vitamin requirement is admitted from it.",
+      "synthesis": "A deficiency/tracer experiment showed lower pools despite increased labelled shunt flux and unchanged ATP content. Concentration and pathway throughput cannot be substituted for one another.",
+      "synthesis_limitations": "This does not isolate a specific thiamin-to-PM8 capacity bottleneck or an ordinary-intake response; no generic energy or B-vitamin requirement is admitted from it.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Page et al. (1989)",
+          "citation_key": "pm8_page_1989",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_page_1989",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Thiamin-deficient rats had lower brain glutamate/GABA pools and increased labelled flux through the GABA shunt; ATP content was unchanged.",
+          "assessment": {
+            "study": "Brain glutamate and gamma-aminobutyrate (GABA) metabolism in thiamin-deficient rats.",
+            "population": "Animal experiments.",
+            "result": "Thiamin-deficient rats had lower brain glutamate/GABA pools and increased labelled flux through the GABA shunt; ATP content was unchanged.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Thiamin-deficient rats had lower brain glutamate/GABA pools and increased labelled flux through the GABA shunt; ATP content was unchanged.",
+            "limitations": "Rat systemic deficiency and intracerebroventricular tracer; altered shunt compensation is not a simple GABA-production deficiency or an ordinary B1 response."
+          }
+        }
+      ],
+      "informs": []
+    },
+    {
+      "id": "PM8-F16",
+      "finding_label": "Magnesium participates in voltage-dependent excitatory receptor regulation",
+      "finding_summary": "Extracellular magnesium contributes to voltage-dependent block of NMDA receptor currents.",
+      "finding_statement": "Extracellular magnesium contributes to voltage-dependent block of NMDA receptor currents.",
+      "finding_interpretation": "A bath-current effect does not establish dietary magnesium limitation of PM8 or benefit from additional intake. Other ions and receptor states also matter.",
+      "synthesis": "Voltage-clamp withdrawal experiments establish a local ionic regulation edge on glutamatergic signalling.",
+      "synthesis_limitations": "A bath-current effect does not establish dietary magnesium limitation of PM8 or benefit from additional intake. Other ions and receptor states also matter.",
+      "synthesised_evidence_confidence": "not-yet-scored",
+      "presentation": "mechanistic-basis",
+      "fm_rollup": false,
+      "evidence_dependency": [
+        "Biochemical, deficiency and functional studies answer different edges; they are not one end-to-end trial."
+      ],
+      "evidence_considered": [
+        {
+          "label": "Mayer et al. (1984)",
+          "citation_key": "pm8_mayer_1984",
+          "href": "/docs/papers/BRAIN-Diet-References#pm8_mayer_1984",
+          "data_level": "Animal Data",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Withdrawing physiological extracellular magnesium reduced voltage-dependent block of NMDA responses in cultured mouse spinal neurons.",
+          "assessment": {
+            "study": "Voltage-dependent block by Mg2+ of NMDA responses in spinal cord neurones.",
+            "population": "Animal experiments.",
+            "result": "Withdrawing physiological extracellular magnesium reduced voltage-dependent block of NMDA responses in cultured mouse spinal neurons.",
+            "effect_magnitude": "No transferable intake threshold or optimal circuit-balance estimate.",
+            "evidence_summary": "Withdrawing physiological extracellular magnesium reduced voltage-dependent block of NMDA responses in cultured mouse spinal neurons.",
+            "limitations": "Bath-ion manipulation establishes receptor regulation, not oral-magnesium limitation, neuronal supply or balanced inhibition in humans."
+          }
+        }
+      ],
+      "informs": []
+    }
+  ],
+  "dietary_input_traceability": [
+    {
+      "atom_id": "PM8-DIT-3",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "input_type": "cofactor",
+      "biological_role": "PLP is required by GAD for endogenous GABA synthesis, supporting the inhibitory signalling capacity on which PM8 depends.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_rajeswari_1984"
+        ]
+      },
+      "evidence_limitation": "An intracellular cofactor requirement; PLP is formed from B6 vitamers. This does not establish a need to ingest PLP itself, additional-intake benefit or corrected E/I balance."
+    },
+    {
+      "atom_id": "PM8-DIT-4",
+      "input": "Vitamin B6",
+      "input_type": "cofactor precursor",
+      "biological_role": "B6 vitamers provide precursors for PLP, supporting GAD-dependent GABA synthesis within the endogenous inhibitory arm.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "lee_human_2000",
+          "pm8_fenalti_2007",
+          "pm8_rajeswari_1984",
+          "pm8_guilarte_1989"
+        ]
+      },
+      "evidence_limitation": "Supported capacity/provision chain, not proof that extra B6 improves signalling balance in adequately supplied people. Deficiency findings are age/model dependent; PLP is not GABA-specific."
+    },
+    {
+      "atom_id": "PM8-DIT-5",
+      "input": "Glutamate",
+      "input_type": "substrate",
+      "biological_role": "Intracellular glutamate is the immediate GAD substrate for GABA synthesis and the transmitter used by the excitatory arm.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F11",
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_liang_2006",
+          "pm8_nakamura_2013"
+        ]
+      },
+      "evidence_limitation": "Endogenous synthesis, neuronal uptake and recycling contribute. This does not establish a requirement to consume glutamate, MSG or a separate protein delivery category."
+    },
+    {
+      "atom_id": "PM8-DIT-6",
+      "input": "Glutamine",
+      "input_type": "precursor",
+      "biological_role": "Astrocytic glutamine supplies neuronal glutamate and can sustain activity-dependent vesicular GABA release through the glutamate–GABA–glutamine cycle.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_liang_2006"
+        ]
+      },
+      "evidence_limitation": "Endogenous, compartment-specific recycling; experimental bath rescue is not oral supplementation efficacy, an indispensable dietary glutamine requirement or universal dependence of resting transmission."
+    },
+    {
+      "atom_id": "PM8-DIT-7",
+      "input": "Vitamin B2 (riboflavin)",
+      "input_type": "cofactor precursor",
+      "biological_role": "Riboflavin is converted to FMN, enabling PNPO-dependent conversion of pyridoxine/pyridoxamine phosphates to PLP for the endogenous GABA-synthesis supply route.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F14",
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "pm8_karthikeyan_2003",
+          "pm8_musayev_2003",
+          "pm8_fenalti_2007"
+        ]
+      },
+      "evidence_limitation": "Conditional provision route: direct pyridoxal phosphorylation bypasses PNPO. No B2 intake threshold, ordinary-status limitation or improvement of E/I balance from additional intake is established."
+    }
+  ],
+  "dietary_lever_atoms": [
+    {
+      "atom_id": "PM8-DIT-3",
+      "relationship_layer": "dietary-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "PLP is required by GAD for endogenous GABA synthesis, supporting the inhibitory signalling capacity on which PM8 depends.",
+      "relationship_mode": "capacity-requirement",
+      "requirement_classification": "direct",
+      "dietary_addressability": "not-established"
+    },
+    {
+      "atom_id": "PM8-DIT-4",
+      "relationship_layer": "dietary-requirement",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "B6 vitamers provide precursors for PLP, supporting GAD-dependent GABA synthesis within the endogenous inhibitory arm.",
+      "relationship_mode": "capacity-requirement",
+      "requirement_classification": "derived",
+      "dietary_addressability": "precursor-mediated",
+      "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "derived_target_atom_id": "PM8-DIT-3"
+    },
+    {
+      "atom_id": "PM8-DIT-5",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Intracellular glutamate is the immediate GAD substrate for GABA synthesis and the transmitter used by the excitatory arm."
+    },
+    {
+      "atom_id": "PM8-DIT-6",
+      "relationship_layer": "biochemical-requirement",
+      "claim_ceiling": "biological-dependency",
+      "permitted_wording": "Astrocytic glutamine supplies neuronal glutamate and can sustain activity-dependent vesicular GABA release through the glutamate–GABA–glutamine cycle."
+    },
+    {
+      "atom_id": "PM8-DIT-7",
+      "relationship_layer": "dietary-requirement",
+      "claim_ceiling": "dietary-provision",
+      "permitted_wording": "Riboflavin is converted to FMN, enabling PNPO-dependent conversion of pyridoxine/pyridoxamine phosphates to PLP for the endogenous GABA-synthesis supply route.",
+      "relationship_mode": "capacity-requirement",
+      "requirement_classification": "derived",
+      "dietary_addressability": "precursor-mediated",
+      "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "derived_target_atom_id": "PM8-DIT-3"
+    }
+  ],
+  "dietary_lever_presentations": [
+    {
+      "atom_id": "PM8-DIT-3",
+      "label": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "presentation_section": "3.1.1",
+      "reader_description": "PLP enables the enzyme that makes neuronal GABA from glutamate.",
+      "description_finding_id": "PM8-F11"
+    },
+    {
+      "atom_id": "PM8-DIT-4",
+      "label": "Vitamin B6",
+      "presentation_section": "3.1.1",
+      "reader_description": "Vitamin B6 supplies the precursors used to form PLP for GABA synthesis.",
+      "description_finding_id": "PM8-F11"
+    },
+    {
+      "atom_id": "PM8-DIT-5",
+      "label": "Glutamate",
+      "presentation_section": "3.1.2",
+      "reader_description": "Glutamate is used both for excitatory signalling and to make GABA.",
+      "description_finding_id": "PM8-F11"
+    },
+    {
+      "atom_id": "PM8-DIT-6",
+      "label": "Glutamine",
+      "presentation_section": "3.1.2",
+      "reader_description": "Recycled glutamine helps replenish transmitter supply during neuronal activity.",
+      "description_finding_id": "PM8-F12"
+    },
+    {
+      "atom_id": "PM8-DIT-7",
+      "label": "Vitamin B2 (riboflavin)",
+      "presentation_section": "3.1.1",
+      "reader_description": "Vitamin B2 supplies FMN for one of the routes that forms PLP from vitamin B6.",
+      "description_finding_id": "PM8-F14"
+    }
+  ],
+  "system_optimisation_practices": [
+    {
+      "atom_id": "PM8-SOP-1",
+      "input": "High-dose vitamin B6 as pyridoxine hydrochloride (experimental exposure)",
+      "input_type": "defined dietary exposure",
+      "biological_role": "One month of 100 mg/day pyridoxine hydrochloride increased visual surround suppression, an indirect inhibitory-function measure, in young adults.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F9"
+        ],
+        "citation_keys": [
+          "pm8_field_2022"
+        ]
+      },
+      "evidence_limitation": "The studied high-dose exposure is not ordinary dietary provision; no brain GABA or circuit E/I measurement and no general supplementation recommendation.",
+      "optimisation_category": "conditional_supplementation"
+    },
+    {
+      "atom_id": "PM8-SOP-2",
+      "input": "GABA (isolated oral exposure; preclinical)",
+      "input_type": "defined dietary exposure",
+      "biological_role": "Oral GABA at 20 mg/kg increased prefrontal GABA concentration in chronic-restraint-stress mice.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F7"
+        ],
+        "citation_keys": [
+          "pm8_xu_2025"
+        ]
+      },
+      "evidence_limitation": "Mouse gavage and a regional ELISA endpoint; not microbial GABA tracing, a dietary necessity, demonstrated circuit balance, ordinary-food equivalence or human benefit.",
+      "optimisation_category": "conditional_supplementation"
+    },
+    {
+      "atom_id": "PM8-SOP-3",
+      "input": "Lacticaseibacillus rhamnosus JB-1 (preclinical)",
+      "input_type": "defined dietary exposure",
+      "biological_role": "Oral JB-1 changed region-dependent GABA receptor transcripts and increased brain GABA and Glx MRS pools in male mice; vagotomy prevented the reported receptor and behavioural effects.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F6"
+        ],
+        "citation_keys": [
+          "bravo_ingestion_2011",
+          "pm8_janik_2016",
+          "pm8_kelly_2017"
+        ]
+      },
+      "evidence_limitation": "Strain-specific mouse effects; bacterial GABA mediation and synaptic E/I correction were not isolated. A healthy-male human trial did not improve assessed stress, cognitive or EEG outcomes.",
+      "optimisation_category": "conditional_supplementation"
+    }
+  ],
+  "lifestyle_priorities": [
+    {
+      "atom_id": "PM8-LP-1",
+      "input": "Recovery sleep after experimental sleep deprivation",
+      "input_type": "lifestyle practice",
+      "biological_role": "Recovery sleep normalised the elevated mGluR5 availability observed after prolonged wakefulness in healthy men.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F10"
+        ],
+        "citation_keys": [
+          "pm8_weigend_2019"
+        ]
+      },
+      "evidence_limitation": "Experimental sleep-loss/recovery sequence; GABA did not significantly change and circuit E/I restoration was not measured."
+    }
+  ],
+  "slug": "/system/stage2b-preview/brs1-fm4-pm8-gaba-glutamate-stage2ab-draft",
+  "draft": false,
+  "cofactors": [
+    "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"
+  ]
+}

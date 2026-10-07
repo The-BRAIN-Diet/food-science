@@ -1,86 +1,337 @@
 ---
 title: Electron Transport Chain Function
 pm_id: BRS4-FM1-PM1
-mission: >-
-  Sustain efficient electron transport so mitochondria generate ATP without
-  excessive electron leakage.
+mission: Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.
 parent_fm: BRS4(FM1)
 parent_brs: BRS4
-summary: >-
-  Governs oxidative phosphorylation and electron transfer efficiency across the
-  mitochondrial electron transport chain (the multi-complex assembly line that
-  converts electrons from food into ATP, cellular energy currency). Efficient
-  transfer maximises ATP yield per unit of substrate while minimising electron
-  leakage that would otherwise generate reactive oxygen species. Macronutrient
-  and cofactor sufficiency both shape how completely this chain can run, linking
-  meal composition directly to cognitive energy availability.
-key_constraints:
-  - BRS4(KC1) - Macronutrient Substrate Availability
-  - BRS4(KC2) - Mitochondrial Cofactor Sufficiency
-cofactors:
-  - CoQ10
-  - iron
-  - riboflavin
-  - niacin
+evidence_status: stage-2b-dietary-addressability
+summary: 'Mitochondria make ATP by passing electrons from NADH and from succinate through five enzyme complexes. Ubiquinone and cytochrome c carry electrons between the complexes, and the proton gradient drives ATP synthase. Iron–sulfur clusters, haem, copper and the flavin FMN take part in the transfers. Defined sites can also leak electrons to oxygen and form superoxide. That chemistry does not show that a meal pattern changes attention or cognitive energy.'
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
-timing_specific: 'Yes'
-dose_sensitivity: Requires daily cofactor sufficiency and adequate energy substrate delivery
+timing_specific: 'No'
+dose_sensitivity: 'Iron, riboflavin-derived FMN, ubiquinone and copper participate in electron transfer. None of the assessed studies shows that raising an already adequate intake increases chain activity or improves attention.'
+cofactors:
+  - Iron
+  - FMN
+  - Ubiquinone
+  - Copper
 references:
-  - >-
-    [Crane (2001) — Biochemical Functions of Coenzyme
-    Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-  - >-
-    [Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical
-    Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
-  - >-
-    [Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from
-    Mitochondrial
-    Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)
-  - >-
-    [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit
-    Hyperactivity
-    Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+  - '[Vercellino and Sazanov (2022) — Assembly and function of the mitochondrial respiratory chain](/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022)'
+  - '[Brand (2016) — Mitochondrial superoxide and hydrogen peroxide sites](/docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016)'
+  - '[Curtabbi and Enríquez (2022) — FMN cofactor of respiratory complex I](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022)'
+  - '[Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)'
+  - '[Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)'
+  - '[Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)'
+  - '[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)'
 hide_title: true
+kc_applicability_adjudications:
+  - kc_id: BRS4(KC1)
+    ikc_id: BRS4(KC1)
+    arm_id: macronutrient-substrate-availability
+    applicability_proposition: Inadequacy of the shared glucose and fatty-acid pool constrains electron-transport capacity.
+    disposition: unassessed
+    rationale: The chain oxidises reducing equivalents that carbohydrate and fat metabolism can supply. No assessed study shows that inadequacy of that shared pool changes the rate of these complexes. Fuel routing sits with the substrate-utilisation mechanisms.
+  - kc_id: BRS4(KC2)
+    ikc_id: BRS4(KC2)
+    arm_id: mitochondrial-cofactor-sufficiency
+    applicability_proposition: 'Inadequacy of the shared B-vitamin, iron and magnesium pool constrains electron-transport capacity.'
+    disposition: unassessed
+    rationale: 'Iron centres, FMN and ubiquinone have roles in the chain. A class-level cofactor pool, and magnesium, were not shown to be a further bottleneck beyond those participants. Niacin belongs with NAD availability.'
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
-    evidence_level: observational
+    evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: >-
-      ADHD cybrid models show reduced mitochondrial respiration, lower complex V
-      activity, and membrane-potential loss in platelet-derived cells —
-      positioning electron-transport throughput as a biological node
-      intersecting attention-relevant bioenergetic strain rather than a
-      single-complex pharmacology claim.
+    rationale: 'Cybrid cells carrying platelet mitochondria from three boys with ADHD had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids {{cite:verma_attention_2016}}. That is a small cell model. It does not show that diet changes attention.'
+    scientific_findings:
+      - PM1-F1
+      - PM1-F3
     references:
       - index: 1
         label: Verma et al. (2016)
         citation_key: verma_attention_2016
         href: /docs/papers/BRAIN-Diet-References#verma_attention_2016
         data_level: Human Mechanistic
-      - index: 2
-        label: Öğütlü et al. (2022)
-        citation_key: ogutlu_mitochondrial_2023
-        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
-        data_level: Human Study
   - target_phenome: Cognitive Energy Stability
     relationship_type: modulates
     confidence: low-medium
-    evidence_level: observational
+    evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: >-
-      Reduced cellular and mitochondrial respiration in ADHD cybrids supports
-      impaired ATP-generating capacity under fluctuating cognitive demand — this
-      PM governs ETC flux only, not substrate routing (PM6–PM8) or redox
-      protection (FM2).
+    rationale: 'The same cybrid cells respired less, which is consistent with less ATP-generating capacity in that model {{cite:verma_attention_2016}}. Cognitive energy was not measured, and the result is not a meal prescription.'
+    scientific_findings:
+      - PM1-F1
+      - PM1-F4
     references:
       - index: 1
         label: Verma et al. (2016)
         citation_key: verma_attention_2016
         href: /docs/papers/BRAIN-Diet-References#verma_attention_2016
         data_level: Human Mechanistic
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    input: Iron
+    input_type: cofactor
+    biological_role: Iron–sulfur clusters and haem irons transfer electrons along the respiratory complexes.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - vercellino_respiratory_chain_2022
+    evidence_limitation: 'This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport.'
+  - atom_id: PM1-DIT-2
+    input: FMN
+    input_type: cofactor
+    biological_role: Flavin mononucleotide accepts electrons from NADH at the start of complex I.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - curtabbi_complex_i_fmn_2022
+    evidence_limitation: 'The review identifies the cofactor. It does not show that FMN supply limits complex I in ordinary life, or that raising intake increases electron transport.'
+  - atom_id: PM1-DIT-3
+    input: Vitamin B2 (riboflavin)
+    input_type: precursor
+    biological_role: 'Riboflavin is the vitamin precursor of FMN, the flavin that accepts NADH electrons in complex I.'
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - curtabbi_complex_i_fmn_2022
+    evidence_limitation: 'The review does not show that eating more riboflavin, once FMN is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context.'
+  - atom_id: PM1-DIT-4
+    input: Ubiquinone
+    input_type: cofactor
+    biological_role: Ubiquinone carries electrons from complexes I and II to complex III.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - vercellino_respiratory_chain_2022
+        - crane_coq10_2001
+    evidence_limitation: Cells synthesise ubiquinone. These reviews do not show that dietary coenzyme Q10 raises electron transport.
+  - atom_id: PM1-DIT-5
+    input: Copper
+    input_type: catalytic ion
+    biological_role: Complex IV uses two copper centres while it passes electrons to oxygen.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - vercellino_respiratory_chain_2022
+    evidence_limitation: This identifies copper centres in complex IV. It does not show that dietary copper intake changes electron transport.
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Iron centres transfer electrons in the respiratory chain. Eating more iron once iron status is adequate is not shown to raise electron transport.
+    evidence_limitation: 'This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport.'
+  - atom_id: PM1-DIT-2
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: FMN accepts electrons from NADH in complex I. This does not show that raising FMN supply increases electron transport.
+    evidence_limitation: 'The review identifies the cofactor. It does not show that FMN supply limits complex I in ordinary life, or that raising intake increases electron transport.'
+  - atom_id: PM1-DIT-3
+    requirement_classification: derived
+    derived_target: FMN
+    derived_target_atom_id: PM1-DIT-2
+    relationship_mode: capacity-requirement
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: biological-dependency
+    permitted_wording: Riboflavin is a precursor of the FMN used by complex I. Eating more riboflavin once FMN is adequate is not shown to raise electron transport.
+    evidence_limitation: 'The review does not show that eating more riboflavin, once FMN is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context.'
+  - atom_id: PM1-DIT-4
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Ubiquinone carries electrons between the early complexes and complex III. It is not shown here as a dietary lever.
+    evidence_limitation: Cells synthesise ubiquinone. These reviews do not show that dietary coenzyme Q10 raises electron transport.
+  - atom_id: PM1-DIT-5
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Copper centres in complex IV pass electrons toward oxygen. Dietary copper is not shown to change that step.
+    evidence_limitation: This identifies copper centres in complex IV. It does not show that dietary copper intake changes electron transport.
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: Iron
+    presentation_section: 3.1.1
+    reader_description: Iron–sulfur clusters and haem irons carry electrons inside the respiratory complexes.
+    description_finding_id: PM1-F1
+  - atom_id: PM1-DIT-2
+    label: FMN
+    presentation_section: 3.1.1
+    reader_description: FMN is the flavin in complex I that takes electrons from NADH.
+    description_finding_id: PM1-F1
+  - atom_id: PM1-DIT-3
+    label: Vitamin B2 (riboflavin)
+    presentation_section: 3.1.1
+    reader_description: Riboflavin is the vitamin the body uses to make FMN for complex I.
+    description_finding_id: PM1-F1
+  - atom_id: PM1-DIT-4
+    label: Ubiquinone
+    presentation_section: 3.1.2
+    reader_description: 'Ubiquinone, also called coenzyme Q, shuttles electrons to complex III.'
+    description_finding_id: PM1-F1
+  - atom_id: PM1-DIT-5
+    label: Copper
+    presentation_section: 3.1.2
+    reader_description: Complex IV uses two copper centres as it passes electrons to oxygen.
+    description_finding_id: PM1-F1
+scientific_findings_intro: 'Electron transport is the transfer of electrons from NADH and succinate to oxygen, coupled to ATP synthesis. The findings separate that chemistry, the sites that can leak electrons to oxygen, and the small ADHD cybrid result. They do not show that ordinary meals or extra cofactors change attention or cognitive energy.'
+scientific_findings:
+  - id: PM1-F1
+    finding_label: Five complexes and two carriers make ATP
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Electrons from NADH and from succinate pass through five enzyme complexes. Ubiquinone and cytochrome c carry them between complexes. The proton gradient drives ATP synthase. Iron–sulfur clusters, haem, copper and FMN take part in the transfers.'
+    finding_interpretation: These are the working parts of the chain. Identifying a part does not show that eating more of its dietary source raises electron transport or ATP production.
+    finding_statement: 'Mammalian oxidative phosphorylation oxidises mitochondrial reducing equivalents through five complexes and two mobile carriers, uses iron, copper, haem and FMN in the transfers, and couples the proton gradient to ATP synthesis.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The respiratory-chain review describes five complexes and two mobile carriers. Oxidation of reducing equivalents builds a proton gradient that ATP synthase uses to make ATP. Iron–sulfur clusters and haem irons transfer electrons, and complex IV has two copper centres. A separate review places FMN at the NADH entry site of complex I. Coenzyme Q10 reviews describe ubiquinone as the electron carrier used for that mitochondrial transfer and for related proton movement. Together they define the participants. They do not measure a dietary dose.'
+    synthesis_limitations: 'The sources are reviews of enzyme structure and function, not human feeding trials. FMN abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.'
+    evidence_considered:
+      - label: Vercellino and Sazanov (2022)
+        citation_key: vercellino_respiratory_chain_2022
+        href: /docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: 'Five complexes and two mobile carriers couple oxidation of reducing equivalents to a proton gradient and ATP synthesis, using iron–sulfur clusters, haem and copper centres.'
+        assessment:
+          study: 'Review of assembly, structure and function of the mammalian mitochondrial respiratory chain.'
+          population: No human participants. Review of structural and biochemical studies.
+          result: 'The chain comprises five complexes and two mobile electron carriers. Proton pumping is coupled to ATP synthesis. Iron–sulfur clusters, haem and the two copper centres of complex IV transfer electrons.'
+          effect_magnitude: No human effect size.
+          evidence_summary: 'Defines the complexes, carriers and metal centres used for electron transport and ATP synthesis.'
+          limitations: 'A review does not test dietary intake, brain ATP, or clinical outcomes.'
+      - label: Curtabbi and Enríquez (2022)
+        citation_key: curtabbi_complex_i_fmn_2022
+        href: /docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: FMN in complex I accepts the electrons that NADH donates at the start of the chain.
+        assessment:
+          study: Review of the FMN site of respiratory complex I.
+          population: No human feeding cohort. Review of enzyme and mitochondrial studies.
+          result: Electrons from NADH enter complex I at FMN. The review does not establish that FMN abundance limits assembly or activity.
+          effect_magnitude: No intake effect size.
+          evidence_summary: Places FMN as the NADH-entry cofactor of complex I.
+          limitations: Does not test riboflavin intake in healthy people or show that more FMN increases ATP synthesis.
+      - label: Crane (2001)
+        citation_key: crane_coq10_2001
+        href: /docs/papers/BRAIN-Diet-References#crane_coq10_2001
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Coenzyme Q10 functions in mitochondrial electron transport and in proton movement linked to ATP synthesis.
+        assessment:
+          study: Narrative review of biochemical functions of coenzyme Q10.
+          population: No new human participants.
+          result: 'The review assigns coenzyme Q10 a role in electron transport and proton translocation, and an antioxidant role in membranes.'
+          effect_magnitude: No dietary effect size.
+          evidence_summary: Supports ubiquinone as an electron carrier. It does not test food or supplement intake.
+          limitations: A biochemical review cannot show that dietary coenzyme Q10 changes chain rate.
+    connected_supportive_evidence:
+      - label: Tardy et al. (2020)
+        citation_key: tardy_vitamins_2020
+        href: /docs/papers/BRAIN-Diet-References#tardy_vitamins_2020
+        data_level: Mechanistic
+        why_relevant: 'Reviews B vitamins, iron and magnesium in energy-yielding metabolism and fatigue.'
+        why_excluded: It does not measure respiratory-complex activity or separate each cofactor's job in this chain.
+  - id: PM1-F2
+    finding_label: Defined sites leak electrons to oxygen
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Eleven mitochondrial sites can pass electrons to oxygen and form superoxide or hydrogen peroxide. In resting-like muscle mitochondria, two sites in complex I and one site each in complexes II and III account for most of that leak.'
+    finding_interpretation: 'Electron leak is a property of particular sites and conditions. It is not evidence that a diet has made the chain leaky, and stopping leak is not the same measurement as making ATP.'
+    finding_statement: 'Mammalian mitochondria produce superoxide or hydrogen peroxide at defined sites associated with substrate oxidation and the respiratory chain, including complexes I, II and III, rather than by a single uncontrolled leak from the whole chain.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Brand reviews eleven sites that leak electrons to oxygen. They include the oxoacid dehydrogenases that feed NAD, complexes I and III, and ubiquinone-linked dehydrogenases including complex II. In skeletal-muscle mitochondria studied in a medium resembling resting muscle cytosol, two complex I sites and the sites in complexes II and III dominate. Complex III can release superoxide on both sides of the inner membrane. Other sites release it in the matrix. The rate depends on which substrates are present and on the antioxidant systems.'
+    synthesis_limitations: 'The measurements are in isolated mitochondria and reconstructed substrate mixtures, not in the human brain and not during meals. Leak at these sites is not an ADHD biomarker and is not a prescription to take antioxidants.'
+    evidence_considered:
+      - label: Brand (2016)
+        citation_key: brand_mitochondrial_ros_2016
+        href: /docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: 'Eleven defined mitochondrial sites leak electrons to oxygen. Under resting-like muscle conditions, sites in complexes I, II and III dominate.'
+        assessment:
+          study: Review of site-specific mitochondrial superoxide and hydrogen peroxide production.
+          population: Isolated mitochondria and enzyme studies. No human clinical cohort.
+          result: 'Eleven sites are distinguished. In skeletal-muscle mitochondria in a resting-like medium, two complex I sites plus complex II and complex III dominate. Specific suppressors of the complex III outer quinone site and of reverse electron transport at complex I lower that leak without stopping oxidative phosphorylation.'
+          effect_magnitude: Site capacities differ. No human dietary effect size.
+          evidence_summary: Electron leak is site-specific and condition-specific.
+          limitations: 'Not a human feeding study, not brain tissue, and not a clinical outcome.'
+  - id: PM1-F3
+    finding_label: ADHD cybrids respired less
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+    finding_summary: 'Cells carrying platelet mitochondria from three boys with ADHD used less oxygen, had lower complex V activity, a lower membrane potential and more mitochondrial superoxide than control cybrids.'
+    finding_interpretation: 'This is a small cell model of mitochondrial DNA from platelets. It does not show that food, iron, riboflavin or coenzyme Q10 changes attention.'
+    finding_statement: 'Cybrid cells carrying platelet mitochondria from three boys with ADHD showed lower respiration, lower complex V activity, loss of membrane potential and higher mitochondrial superoxide than control cybrids, without a dietary or attention-outcome test.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Verma and colleagues fused platelets from three boys with ADHD, aged 10 and 13, with mitochondria-depleted SH-SY5Y cells. The methods describe two healthy control donors, while a figure labels four control cybrid lines. ADHD cybrids had lower whole-cell and mitochondrial respiration, lower ATPase 6/8 transcripts, lower complex V in-gel activity, lower membrane potential and higher MitoSOX signal. Serotonin was about twofold higher in differentiated cybrid neurons. Monoamine oxidase levels were unchanged. The authors infer a mitochondrial contribution to ADHD. The study did not change diet and did not measure attention.'
+    synthesis_limitations: 'The sample is a handful of cybrid lines, not a population study. Platelet mitochondria in a neuroblastoma cell are not brain electron transport during attention. The control count is not stated the same way in the methods and the figure. No dietary exposure was tested.'
+    evidence_considered:
+      - label: Verma et al. (2016)
+        citation_key: verma_attention_2016
+        href: /docs/papers/BRAIN-Diet-References#verma_attention_2016
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'ADHD cybrids had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids.'
+        assessment:
+          study: 'Platelets from boys with ADHD and control donors were fused with mitochondria-depleted SH-SY5Y cells. Respiration, membrane potential, MitoSOX, ATPase transcripts and complex V activity were measured.'
+          population: 'Three boys with ADHD (one aged 10, two aged 13). Methods name two control donors; the figure labels four control cybrid lines.'
+          result: 'ADHD cybrids showed lower cellular and mitochondrial respiration, lower ATPase 6/8 transcripts, lower complex V activity, loss of membrane potential and a higher MitoSOX signal. Differentiated cybrid neurons had about twofold higher serotonin.'
+          effect_magnitude: Directions were reported as significant at p ≤ 0.05. Exact respiration rates are figure-based and are not restated as a single effect size here. Serotonin was about twofold higher.
+          evidence_summary: A small cybrid model links ADHD platelet mitochondria with lower respiratory activity.
+          limitations: 'Tiny sample, cell model, no diet, no attention test, and an inconsistent control count between methods and figure.'
+    connected_supportive_evidence:
+      - label: Öğütlü et al. (2022)
+        citation_key: ogutlu_mitochondrial_2023
+        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
+        data_level: Human Study
+        why_relevant: 'Reviews mitochondrial findings in ADHD, including this cybrid study.'
+        why_excluded: It does not add an independent electron-transport measurement.
+    evidence_dependency:
+      - Verma et al. (2016) is also the primary evidence in PM1-F4. The two findings use one study for two phenome questions.
+  - id: PM1-F4
+    finding_label: Cognitive energy was not measured
+    presentation: phenome-relationship
+    primary_phenome: Cognitive Energy Stability
+    finding_summary: 'The ADHD cybrid cells respired less. Cognitive energy, fatigue and meal effects were not measured.'
+    finding_interpretation: 'Lower respiration in a cell model is not a demonstration that this chain sets cognitive energy, and it is not a reason to supplement.'
+    finding_statement: The assessed human cell evidence does not show that electron-transport capacity changes Cognitive Energy Stability.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The only human measurement attached to this phenome is the Verma cybrid study. Those cells respired less and had lower complex V activity. The study did not measure cognitive energy, fatigue, or a dietary change. A narrative vitamin review discusses fatigue when micronutrient status is poor, but it does not measure this chain or this phenome.'
+    synthesis_limitations: Absence of a direct test is not evidence that the chain is irrelevant to energy supply. It does block claims that foods or cofactor supplements stabilise cognitive energy through this mechanism.
+    evidence_considered:
+      - label: Verma et al. (2016)
+        citation_key: verma_attention_2016
+        href: /docs/papers/BRAIN-Diet-References#verma_attention_2016
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Respiration was lower in ADHD cybrids. Cognitive energy was not an endpoint.
+        assessment:
+          study: 'Cybrid respiration, complex V activity and oxidative-stress staining.'
+          population: 'Three boys with ADHD and a small control donor set, studied as cybrid cell lines.'
+          result: Respiratory measures were lower. Cognitive energy was not measured.
+          effect_magnitude: No cognitive-energy effect size.
+          evidence_summary: 'Shows a cell respiration difference, not a cognitive-energy outcome.'
+          limitations: Wrong endpoint for this phenome.
+    connected_supportive_evidence:
+      - label: Tardy et al. (2020)
+        citation_key: tardy_vitamins_2020
+        href: /docs/papers/BRAIN-Diet-References#tardy_vitamins_2020
+        data_level: Mechanistic
+        why_relevant: Discusses fatigue when vitamin or mineral status is inadequate.
+        why_excluded: Fatigue in that review is not a measurement of electron transport or of cognitive energy stability.
+    evidence_dependency:
+      - Verma et al. (2016) is primary evidence in PM1-F3. Its use here is only to show that cognitive energy was not measured.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -103,80 +354,54 @@ Sustain efficient electron transport so mitochondria generate ATP without excess
 
 **Intervention Dominance:** Diet-Supported
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1" id="pm-lever-dietary">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1 Dietary Requirements</strong>
+<strong>1.1 Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.1" id="pm-lever-dietary-1">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+<strong>1.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- CoQ10 ← oily fish, meat
-- Iron ← red meat, shellfish, legumes
-- Riboflavin/niacin ← dairy, almonds, whole grains, protein-rich foods
+- Iron
+- FMN
+- Vitamin B2 (riboflavin)
 
 </div>
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.2" id="pm-lever-dietary-2">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.2 Cofactors and Substrates</strong>
+<strong>1.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- CoQ10
-- iron
-- niacin
-- Riboflavin (B2) ← dairy, eggs, lean meat
+- Ubiquinone
+- Copper
 
 </div>
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.3" id="pm-lever-dietary-3">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.3 Key Constraints</strong>
+<strong>1.1.3 Key Constraints</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS4(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability">(Key Constraint) (KC1) — Macronutrient Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Amino acids ← fish, eggs, dairy, legumes
-- Fatty acids ← fish, eggs, olive oil, nuts, seeds
-- Glucose ← oats, barley, legumes, fruit
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS4(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">(Key Constraint) (KC2) — Mitochondrial Cofactor Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- B vitamins (B1, B2, B3, B5, B6, B7, B9, B12) ← whole grains, legumes, eggs
-- Iron ← meat, shellfish, legumes
-- Magnesium ← leafy greens, nuts, seeds
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -188,43 +413,43 @@ Sustain efficient electron transport so mitochondria generate ATP without excess
 </div>
 ### Overview
 
-Governs oxidative phosphorylation and electron transfer efficiency across the mitochondrial electron transport chain (the multi-complex assembly line that converts electrons from food into ATP, cellular energy currency). Efficient transfer maximises ATP yield per unit of substrate while minimising electron leakage that would otherwise generate reactive oxygen species. Macronutrient and cofactor sufficiency both shape how completely this chain can run, linking meal composition directly to cognitive energy availability.
+The mitochondrial electron transport chain passes electrons from NADH and from succinate through five enzyme complexes [Vercellino and Sazanov (2022) [[1]](#pm-ref-1)]. Ubiquinone and cytochrome c carry electrons between the complexes, and the proton gradient drives ATP synthase. Iron–sulfur clusters, haem and copper participate in the transfers, and complex I accepts NADH electrons at its flavin cofactor, FMN [Curtabbi and Enríquez (2022) [[3]](#pm-ref-3)]. Defined sites in the chain can also leak electrons to oxygen and form superoxide [Brand (2016) [[2]](#pm-ref-2)].
 
-* Converts electrons from food substrates into ATP within mitochondria.
-* Minimises electron leakage that would otherwise generate reactive oxygen species.
-* Links macronutrient and cofactor sufficiency to cognitive energy availability.
+* **Mechanism boundary:** Includes the five respiratory complexes, ubiquinone, cytochrome c and ATP synthase. NAD synthesis, fuel routing, creatine buffering and peroxide disposal sit outside this chain [Vercellino and Sazanov (2022) [[1]](#pm-ref-1)].
+* **Evidence boundary:** Enzyme and structural reviews identify the participants. Cybrid cells from three boys with ADHD respired less, and that study did not test food or attention [Verma et al. (2016) [[5]](#pm-ref-5)].
+* **Biological relevance:** The chain supplies ATP. These studies do not show that eating more iron, riboflavin or coenzyme Q10 improves attention or cognitive energy [Brand (2016) [[2]](#pm-ref-2); Verma et al. (2016) [[5]](#pm-ref-5)].
 
 ## 2. Primary Biological Effects
-ATP synthesis; improved respiratory chain output
+
+↑ ATP synthesis coupled to electron transfer to oxygen<br />
+↑ proton gradient across the inner mitochondrial membrane<br />
+→ electron leak to superoxide at defined sites, separate from ATP yield
 
 ## 3. Intervention Levers
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2" id="pm-lever-optimisation">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.2 System Optimisation Practices</strong>
+<strong>3.1 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
 
-- Stable daily meal structure may help maintain substrate continuity for ETC throughput.
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Pair iron-containing foods with vitamin C and meal-context enhancers to support absorption — see [Lentils — Synergies](/docs/foods/lentils#synergies), [Spinach — Synergies](/docs/foods/spinach#synergies).
+No preparation method, meal pairing, or cooking step has been shown to change electron transfer through these complexes.
 
 </div>
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3" id="pm-lever-lifestyle">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.3 Lifestyle Levers</strong>
+<strong>3.2 Lifestyle Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Recovery and sleep context may indirectly influence realised bioenergetic demand, but dietary cofactor and substrate coverage remain foundational here.
+No sleep, activity, or recovery behaviour has been shown to change electron transfer through these complexes.
 
 </div>
 </div>
@@ -234,114 +459,41 @@ ATP synthesis; improved respiratory chain output
 
 ### Summary
 
-BRS4-FM1-PM1 links adequate fuel delivery and mitochondrial cofactors to more efficient electron transfer and ATP generation within the core bioenergetic machinery [Crane, 2001; Tardy et al., 2020].
+Five enzyme complexes pass electrons from NADH and succinate to oxygen. Ubiquinone and cytochrome c connect the complexes, and ATP synthase uses the proton gradient [Vercellino and Sazanov (2022) [[1]](#pm-ref-1)]. Complex I starts that transfer at FMN [Curtabbi and Enríquez (2022) [[3]](#pm-ref-3)]. Separate sites can leak electrons to oxygen [Brand (2016) [[2]](#pm-ref-2)].
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ETC efficiency and ATP production</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+### 4.1 Scientific Findings
 
-#### (Respiratory chain function)
+#### Summary
 
-Electron transport chain activity is central to oxidative phosphorylation, converting reducing equivalents into the proton gradients required for ATP synthesis.
+Electron transport is the transfer of electrons from NADH and succinate to oxygen, coupled to ATP synthesis. The findings separate that chemistry, the sites that can leak electrons to oxygen, and the small ADHD cybrid result. They do not show that ordinary meals or extra cofactors change attention or cognitive energy.
 
-#### (Dietary support context)
+<ScientificFinding finding={{"id":"PM1-F1","finding_label":"Five complexes and two carriers make ATP","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Electrons from NADH and from succinate pass through five enzyme complexes. Ubiquinone and cytochrome c carry them between complexes. The proton gradient drives ATP synthase. Iron–sulfur clusters, haem, copper and FMN take part in the transfers.","finding_interpretation":"These are the working parts of the chain. Identifying a part does not show that eating more of its dietary source raises electron transport or ATP production.","finding_statement":"Mammalian oxidative phosphorylation oxidises mitochondrial reducing equivalents through five complexes and two mobile carriers, uses iron, copper, haem and FMN in the transfers, and couples the proton gradient to ATP synthesis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The respiratory-chain review describes five complexes and two mobile carriers. Oxidation of reducing equivalents builds a proton gradient that ATP synthase uses to make ATP. Iron–sulfur clusters and haem irons transfer electrons, and complex IV has two copper centres. A separate review places FMN at the NADH entry site of complex I. Coenzyme Q10 reviews describe ubiquinone as the electron carrier used for that mitochondrial transfer and for related proton movement. Together they define the participants. They do not measure a dietary dose.","synthesis_limitations":"The sources are reviews of enzyme structure and function, not human feeding trials. FMN abundance has not been shown to limit complex I in ordinary conditions. Endogenous ubiquinone synthesis is not separated here from dietary coenzyme Q10. Copper and iron centres are not evidence that supplements raise chain activity.","evidence_considered":[{"label":"Vercellino and Sazanov (2022)","citation_key":"vercellino_respiratory_chain_2022","href":"/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Five complexes and two mobile carriers couple oxidation of reducing equivalents to a proton gradient and ATP synthesis, using iron–sulfur clusters, haem and copper centres.","assessment":{"study":"Review of assembly, structure and function of the mammalian mitochondrial respiratory chain.","population":"No human participants. Review of structural and biochemical studies.","result":"The chain comprises five complexes and two mobile electron carriers. Proton pumping is coupled to ATP synthesis. Iron–sulfur clusters, haem and the two copper centres of complex IV transfer electrons.","effect_magnitude":"No human effect size.","evidence_summary":"Defines the complexes, carriers and metal centres used for electron transport and ATP synthesis.","limitations":"A review does not test dietary intake, brain ATP, or clinical outcomes."},"canonical_reference":{"author_year":"Vercellino and Sazanov (2022)","number":1,"anchor":"#pm-ref-1"}},{"label":"Curtabbi and Enríquez (2022)","citation_key":"curtabbi_complex_i_fmn_2022","href":"/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"FMN in complex I accepts the electrons that NADH donates at the start of the chain.","assessment":{"study":"Review of the FMN site of respiratory complex I.","population":"No human feeding cohort. Review of enzyme and mitochondrial studies.","result":"Electrons from NADH enter complex I at FMN. The review does not establish that FMN abundance limits assembly or activity.","effect_magnitude":"No intake effect size.","evidence_summary":"Places FMN as the NADH-entry cofactor of complex I.","limitations":"Does not test riboflavin intake in healthy people or show that more FMN increases ATP synthesis."},"canonical_reference":{"author_year":"Curtabbi and Enríquez (2022)","number":3,"anchor":"#pm-ref-3"}},{"label":"Crane (2001)","citation_key":"crane_coq10_2001","href":"/docs/papers/BRAIN-Diet-References#crane_coq10_2001","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Coenzyme Q10 functions in mitochondrial electron transport and in proton movement linked to ATP synthesis.","assessment":{"study":"Narrative review of biochemical functions of coenzyme Q10.","population":"No new human participants.","result":"The review assigns coenzyme Q10 a role in electron transport and proton translocation, and an antioxidant role in membranes.","effect_magnitude":"No dietary effect size.","evidence_summary":"Supports ubiquinone as an electron carrier. It does not test food or supplement intake.","limitations":"A biochemical review cannot show that dietary coenzyme Q10 changes chain rate."},"canonical_reference":{"author_year":"Crane (2001)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[{"label":"Tardy et al. (2020)","citation_key":"tardy_vitamins_2020","href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","data_level":"Mechanistic","why_relevant":"Reviews B vitamins, iron and magnesium in energy-yielding metabolism and fatigue.","why_excluded":"It does not measure respiratory-complex activity or separate each cofactor's job in this chain.","canonical_reference":{"author_year":"Tardy et al. (2020)","number":6,"anchor":"#pm-ref-6"}}],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Energy Stability","href":"/docs/phenomes/details/ph004-cognitive-energy-stability"}]}} />
 
-CoQ10, iron, riboflavin, and niacin contribute to electron-transfer and redox-enzyme function, while adequate glucose, fatty acids, and amino acids provide the substrate context needed to sustain throughput [Crane, 2001; Tardy et al., 2020].
-
-#### (Constraint dependence)
-
-This PM depends on both substrate delivery and cofactor sufficiency; fuel alone is not enough when the mitochondrial machinery is under-supported.
-
-</div>
-</div>
-</div>
-
-### 4.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Electron transport and oxidative phosphorylation are foundational mitochondrial biochemistry. The studies below highlight cofactor sufficiency, direct ADHD mechanistic evidence, and why micronutrient context matters for sustaining respiratory-chain output.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Micronutrients as mitochondrial enzymatic cofactors</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Vitamins and minerals function as indispensable enzymatic cofactors across neurotransmitter synthesis, mitochondrial energy production, antioxidant defence, methylation, and neuroplasticity — their availability can determine whether downstream nutrient effects are realised [Tardy et al., 2020]. For this PM, the implication is that ETC throughput depends on daily cofactor sufficiency, not fuel alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","label":"Tardy et al. (2020)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>CoQ10 and electron transport</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Coenzyme Q10 supports mitochondrial electron transport and provides antioxidant protection for neurons — linking dietary CoQ10 availability to respiratory-chain efficiency [Crane, 2001].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#crane_coq10_2001","label":"Crane (2001)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Mitochondrial respiration in ADHD cybrid models</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Platelet-derived cybrid models from children with ADHD showed reduced cellular and mitochondrial respiration, lower ATPase transcript levels, reduced complex V activity, loss of membrane potential, and elevated oxidative stress compared with controls — direct human mechanistic evidence at the electron-transport layer [Verma et al., 2016].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","label":"Verma et al. (2016)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Defined sites leak electrons to oxygen","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Eleven mitochondrial sites can pass electrons to oxygen and form superoxide or hydrogen peroxide. In resting-like muscle mitochondria, two sites in complex I and one site each in complexes II and III account for most of that leak.","finding_interpretation":"Electron leak is a property of particular sites and conditions. It is not evidence that a diet has made the chain leaky, and stopping leak is not the same measurement as making ATP.","finding_statement":"Mammalian mitochondria produce superoxide or hydrogen peroxide at defined sites associated with substrate oxidation and the respiratory chain, including complexes I, II and III, rather than by a single uncontrolled leak from the whole chain.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Brand reviews eleven sites that leak electrons to oxygen. They include the oxoacid dehydrogenases that feed NAD, complexes I and III, and ubiquinone-linked dehydrogenases including complex II. In skeletal-muscle mitochondria studied in a medium resembling resting muscle cytosol, two complex I sites and the sites in complexes II and III dominate. Complex III can release superoxide on both sides of the inner membrane. Other sites release it in the matrix. The rate depends on which substrates are present and on the antioxidant systems.","synthesis_limitations":"The measurements are in isolated mitochondria and reconstructed substrate mixtures, not in the human brain and not during meals. Leak at these sites is not an ADHD biomarker and is not a prescription to take antioxidants.","evidence_considered":[{"label":"Brand (2016)","citation_key":"brand_mitochondrial_ros_2016","href":"/docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Eleven defined mitochondrial sites leak electrons to oxygen. Under resting-like muscle conditions, sites in complexes I, II and III dominate.","assessment":{"study":"Review of site-specific mitochondrial superoxide and hydrogen peroxide production.","population":"Isolated mitochondria and enzyme studies. No human clinical cohort.","result":"Eleven sites are distinguished. In skeletal-muscle mitochondria in a resting-like medium, two complex I sites plus complex II and complex III dominate. Specific suppressors of the complex III outer quinone site and of reverse electron transport at complex I lower that leak without stopping oxidative phosphorylation.","effect_magnitude":"Site capacities differ. No human dietary effect size.","evidence_summary":"Electron leak is site-specific and condition-specific.","limitations":"Not a human feeding study, not brain tissue, and not a clinical outcome."},"canonical_reference":{"author_year":"Brand (2016)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
 
-- None listed
+- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
+  ↓
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
+  ↓
+- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
 
 ### 5.2 Cross-BRS Mechanism Relationships
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — One-carbon and methylation-related metabolism intersect with redox handling; methionine-cycle flux
-- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
+- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — Both systems use redox cofactors, but no assessed study shows that one-carbon turnover changes the rate of these respiratory complexes.
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Carbohydrate metabolism can supply the NADH this chain oxidises. Control of glucose swings is a separate process, and no assessed study shows that those swings change electron-transport rate.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
-- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
+- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — That pathway supplies the NADH that complex I oxidises. Niacin precursors belong with that supply, not as a separate carrier in this chain.
+- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — ATP made by this chain is the high-energy phosphate the creatine buffer can store and release. The buffer reaction is not itself electron transport.
 
 ## 7. Phenome Connections
 
@@ -394,10 +546,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** ADHD cybrid models show reduced mitochondrial respiration, lower complex V activity, and membrane-potential loss in platelet-derived cells — positioning electron-transport throughput as a biological node intersecting attention-relevant bioenergetic strain rather than a single-complex pharmacology claim.
-- **Key References:**
+- **Rationale:** Cybrid cells carrying platelet mitochondria from three boys with ADHD had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids  Verma et al. (2016) [[5]](#pm-ref-5). That is a small cell model. It does not show that diet changes attention.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","label":"Verma et al. (2016)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"ADHD cybrids respired less","presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","finding_summary":"Cells carrying platelet mitochondria from three boys with ADHD used less oxygen, had lower complex V activity, a lower membrane potential and more mitochondrial superoxide than control cybrids.","finding_interpretation":"This is a small cell model of mitochondrial DNA from platelets. It does not show that food, iron, riboflavin or coenzyme Q10 changes attention.","finding_statement":"Cybrid cells carrying platelet mitochondria from three boys with ADHD showed lower respiration, lower complex V activity, loss of membrane potential and higher mitochondrial superoxide than control cybrids, without a dietary or attention-outcome test.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Verma and colleagues fused platelets from three boys with ADHD, aged 10 and 13, with mitochondria-depleted SH-SY5Y cells. The methods describe two healthy control donors, while a figure labels four control cybrid lines. ADHD cybrids had lower whole-cell and mitochondrial respiration, lower ATPase 6/8 transcripts, lower complex V in-gel activity, lower membrane potential and higher MitoSOX signal. Serotonin was about twofold higher in differentiated cybrid neurons. Monoamine oxidase levels were unchanged. The authors infer a mitochondrial contribution to ADHD. The study did not change diet and did not measure attention.","synthesis_limitations":"The sample is a handful of cybrid lines, not a population study. Platelet mitochondria in a neuroblastoma cell are not brain electron transport during attention. The control count is not stated the same way in the methods and the figure. No dietary exposure was tested.","evidence_considered":[{"label":"Verma et al. (2016)","citation_key":"verma_attention_2016","href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"ADHD cybrids had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids.","assessment":{"study":"Platelets from boys with ADHD and control donors were fused with mitochondria-depleted SH-SY5Y cells. Respiration, membrane potential, MitoSOX, ATPase transcripts and complex V activity were measured.","population":"Three boys with ADHD (one aged 10, two aged 13). Methods name two control donors; the figure labels four control cybrid lines.","result":"ADHD cybrids showed lower cellular and mitochondrial respiration, lower ATPase 6/8 transcripts, lower complex V activity, loss of membrane potential and a higher MitoSOX signal. Differentiated cybrid neurons had about twofold higher serotonin.","effect_magnitude":"Directions were reported as significant at p ≤ 0.05. Exact respiration rates are figure-based and are not restated as a single effect size here. Serotonin was about twofold higher.","evidence_summary":"A small cybrid model links ADHD platelet mitochondria with lower respiratory activity.","limitations":"Tiny sample, cell model, no diet, no attention test, and an inconsistent control count between methods and figure."},"canonical_reference":{"author_year":"Verma et al. (2016)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[{"label":"Öğütlü et al. (2022)","citation_key":"ogutlu_mitochondrial_2023","href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","data_level":"Human Study","why_relevant":"Reviews mitochondrial findings in ADHD, including this cybrid study.","why_excluded":"It does not add an independent electron-transport measurement.","canonical_reference":{"author_year":"Öğütlü et al. (2022)","number":7,"anchor":"#pm-ref-7"}}],"evidence_dependency":["Verma et al. (2016) is also the primary evidence in PM1-F4. The two findings use one study for two phenome questions."],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -417,16 +570,22 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Reduced cellular and mitochondrial respiration in ADHD cybrids supports impaired ATP-generating capacity under fluctuating cognitive demand — this PM governs ETC flux only, not substrate routing (PM6–PM8) or redox protection (FM2).
-- **Key References:**
+- **Rationale:** The same cybrid cells respired less, which is consistent with less ATP-generating capacity in that model  Verma et al. (2016) [[5]](#pm-ref-5). Cognitive energy was not measured, and the result is not a meal prescription.
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","label":"Verma et al. (2016)","dataLevel":"Human Mechanistic"}]} />
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM1-F4","finding_label":"Cognitive energy was not measured","presentation":"phenome-relationship","primary_phenome":"Cognitive Energy Stability","finding_summary":"The ADHD cybrid cells respired less. Cognitive energy, fatigue and meal effects were not measured.","finding_interpretation":"Lower respiration in a cell model is not a demonstration that this chain sets cognitive energy, and it is not a reason to supplement.","finding_statement":"The assessed human cell evidence does not show that electron-transport capacity changes Cognitive Energy Stability.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The only human measurement attached to this phenome is the Verma cybrid study. Those cells respired less and had lower complex V activity. The study did not measure cognitive energy, fatigue, or a dietary change. A narrative vitamin review discusses fatigue when micronutrient status is poor, but it does not measure this chain or this phenome.","synthesis_limitations":"Absence of a direct test is not evidence that the chain is irrelevant to energy supply. It does block claims that foods or cofactor supplements stabilise cognitive energy through this mechanism.","evidence_considered":[{"label":"Verma et al. (2016)","citation_key":"verma_attention_2016","href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Respiration was lower in ADHD cybrids. Cognitive energy was not an endpoint.","assessment":{"study":"Cybrid respiration, complex V activity and oxidative-stress staining.","population":"Three boys with ADHD and a small control donor set, studied as cybrid cell lines.","result":"Respiratory measures were lower. Cognitive energy was not measured.","effect_magnitude":"No cognitive-energy effect size.","evidence_summary":"Shows a cell respiration difference, not a cognitive-energy outcome.","limitations":"Wrong endpoint for this phenome."},"canonical_reference":{"author_year":"Verma et al. (2016)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[{"label":"Tardy et al. (2020)","citation_key":"tardy_vitamins_2020","href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","data_level":"Mechanistic","why_relevant":"Discusses fatigue when vitamin or mineral status is inadequate.","why_excluded":"Fatigue in that review is not a measurement of electron transport or of cognitive energy stability.","canonical_reference":{"author_year":"Tardy et al. (2020)","number":6,"anchor":"#pm-ref-6"}}],"evidence_dependency":["Verma et al. (2016) is primary evidence in PM1-F3. Its use here is only to show that cognitive energy was not measured."],"informs":[{"phenome":"Cognitive Energy Stability","href":"/docs/phenomes/details/ph004-cognitive-energy-stability"}]}} />
 </div>
 </div>
 </div>
 
 ## 8. References
-- [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-- [Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
-- [Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)
-- [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+
+- <span id="pm-ref-1">[1]</span> [Vercellino and Sazanov (2022) — Assembly and function of the mitochondrial respiratory chain](/docs/papers/BRAIN-Diet-References#vercellino_respiratory_chain_2022)
+- <span id="pm-ref-2">[2]</span> [Brand (2016) — Mitochondrial superoxide and hydrogen peroxide sites](/docs/papers/BRAIN-Diet-References#brand_mitochondrial_ros_2016)
+- <span id="pm-ref-3">[3]</span> [Curtabbi and Enríquez (2022) — FMN cofactor of respiratory complex I](/docs/papers/BRAIN-Diet-References#curtabbi_complex_i_fmn_2022)
+- <span id="pm-ref-4">[4]</span> [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+- <span id="pm-ref-5">[5]</span> [Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)
+- <span id="pm-ref-6">[6]</span> [Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+- <span id="pm-ref-7">[7]</span> [Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)
+

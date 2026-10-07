@@ -4,16 +4,14 @@ pm_id: BRS3-FM3-PM8
 mission: Shift lipid mediator balance from pro-inflammatory eicosanoids toward pro-resolving signals that terminate inflammation.
 parent_fm: BRS3(FM3)
 parent_brs: BRS3
-summary: 'Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-derived specialised pro-resolving mediators (SPMs, lipid signals that actively switch inflammation off rather than merely suppressing it). This mechanism governs the shift between pro-inflammatory and pro-resolving lipid signalling specifically, depending directly on essential fatty acid balance and antioxidant substrate sufficiency from upstream dietary intake. Because resolution is an active process rather than passive suppression, omega-3 status shapes whether inflammation terminates cleanly or persists.'
-cofactors:
-  - EPA
-  - DHA
+summary: 'EPA and DHA are the fatty acids from which resolvins and protectins are made. Arachidonic acid feeds pro-inflammatory eicosanoids. In healthy adults, 2.4 g a day of n-3 fatty acids for five days raised some of these pro-resolving mediators in plasma. Not every mediator rose, and this is not a disease-resolution result.'
+cofactors: []
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: 'EPA+DHA sufficiency with repeated weekly delivery; practical target: oily fish pattern'
-dietary_addressability: not-established
-claim_ceiling: biological-dependency
+timing_specific: 'No'
+dose_sensitivity: The tested amount was 2.4 g a day of n-3 fatty acids for five days in healthy adults. Not every mediator rose. This is not a disease-resolution dose and not an oily-fish rule.
+dietary_addressability: direct
+claim_ceiling: dietary-provision
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
@@ -22,34 +20,40 @@ dietary_input_traceability:
     input_type: substrate
     biological_role: n-3 fatty-acid substrate for specialised pro-resolving mediator synthesis
     evidence_source:
+      finding_ids:
+        - PM8-F1
+        - PM8-F2
       citation_keys:
         - serhan_resolvins_2011
-        - simopoulos_evolutionary_2011
-    evidence_limitation: EPA as an SPM substrate does not establish that increasing EPA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+        - barden_short-term_2014
+    evidence_limitation: 'Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome.'
   - atom_id: PM8-DIT-2
     input: DHA
     input_type: substrate
     biological_role: n-3 fatty-acid substrate for specialised pro-resolving mediator synthesis
     evidence_source:
+      finding_ids:
+        - PM8-F1
+        - PM8-F2
       citation_keys:
         - serhan_resolvins_2011
-        - simopoulos_evolutionary_2011
-    evidence_limitation: DHA as an SPM substrate does not establish that increasing DHA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+        - barden_short-term_2014
+    evidence_limitation: 'Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome.'
 dietary_lever_atoms:
   - atom_id: PM8-DIT-1
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: "EPA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a resolvin-dosing or anti-inflammatory treatment rule."
-    evidence_limitation: EPA as an SPM substrate does not establish that increasing EPA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+    permitted_wording: 'EPA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a resolvin-dosing or anti-inflammatory treatment rule.'
+    evidence_limitation: 'Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome.'
   - atom_id: PM8-DIT-2
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: "DHA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a protectin-dosing or anti-inflammatory treatment rule."
-    evidence_limitation: DHA as an SPM substrate does not establish that increasing DHA intake improves resolution signalling or clinical outcomes in the populations attached to this PM.
+    permitted_wording: 'DHA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a protectin-dosing or anti-inflammatory treatment rule.'
+    evidence_limitation: 'Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome.'
 dietary_lever_presentations:
   - atom_id: PM8-DIT-1
     label: EPA
@@ -57,13 +61,6 @@ dietary_lever_presentations:
   - atom_id: PM8-DIT-2
     label: DHA
     presentation_section: 3.1.1
-  - atom_id: PM8-DIT-1
-    label: EPA
-    presentation_section: 3.1.2
-  - atom_id: PM8-DIT-2
-    label: DHA
-    presentation_section: 3.1.2
-
 references:
   - '[Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)'
   - '[Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)'
@@ -73,6 +70,7 @@ references:
   - '[Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)'
   - '[Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)'
   - '[Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)'
+  - '[Barden et al. (2014) — Short-term n-3 fatty acids and proresolving mediators](/docs/papers/BRAIN-Diet-References#barden_short-term_2014)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -165,6 +163,92 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#gruber_impact_2023
         data_level: Mechanistic
     evidence_confidence: low-medium
+scientific_findings_intro: 'Resolvins and protectins are made from EPA and DHA, and they help inflammation finish rather than simply blocking it. In healthy adults, five days of n-3 fatty acids raised some of those mediators in plasma. Not every mediator rose.'
+scientific_findings:
+  - id: PM8-F1
+    finding_label: Resolvins and protectins are made from EPA and DHA
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Resolvins and protectins are local mediators made from EPA and DHA during the resolution of inflammation. They are distinct from drugs that only block the inflammatory signal. Arachidonic acid feeds a different set of eicosanoids.
+    finding_interpretation: This identifies the substrates. It does not set a dose.
+    finding_statement: EPA and DHA are the fatty-acid substrates for resolvins and protectins. Those mediators support resolution of inflammation rather than only blocking it.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Serhan and Petasis review resolvins and protectins as families of mediators generated from EPA and DHA during self-limited resolution of inflammation. The pathways are distinct from blockade of the initiating signal.
+    synthesis_limitations: A chemistry review identifies the substrates. It does not measure what happens in people after an intake.
+    evidence_considered:
+      - label: Serhan and Petasis (2011)
+        citation_key: serhan_resolvins_2011
+        href: /docs/papers/BRAIN-Diet-References#serhan_resolvins_2011
+        data_level: Mechanistic
+        exposure_context: review of resolvin and protectin biosynthesis
+        evidence_source: repository-inherited
+        directional_finding: 'Resolvins and protectins are generated from EPA and DHA and act in resolution, distinct from inflammatory blockade.'
+        assessment:
+          study: Chemical review of resolvins and protectins.
+          population: Biosynthetic and cell literature. No new human feeding trial.
+          result: EPA and DHA are the precursors of these pro-resolving mediators.
+          effect_magnitude: No intake amount is prescribed.
+          evidence_summary: The substrates of this balance are EPA and DHA.
+          limitations: Substrate identity is not a clinical resolution result.
+    connected_supportive_evidence:
+      - label: Simopoulos (2011)
+        citation_key: simopoulos_evolutionary_2011
+        href: /docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011
+        data_level: Mechanistic
+        why_relevant: Reviews competition between omega-6 and omega-3 fatty acids in mediator pathways.
+        why_excluded: An evolutionary ratio review is not the identification of resolvins and not a measurement of mediators after intake.
+  - id: PM8-F2
+    finding_label: Short-term n-3 intake raises some pro-resolving mediators
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Twenty-one healthy adults took 2.4 g a day of n-3 fatty acids. After five days, plasma RvE1, 18-HEPE, 17-HDHA, and 14-HDHA were higher. Other specialised pro-resolving mediators did not rise. Adding aspirin did not raise them further.'
+    finding_interpretation: 'Oral n-3 fatty acids can raise some of the mediators made from EPA and DHA. This is not every mediator, and it is not a result in disease.'
+    finding_statement: 'Five days of 2.4 g a day of n-3 fatty acids raised selected pro-resolving mediators in healthy adults. Not every mediator rose, and aspirin added no further increase.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Barden and colleagues supplemented 21 healthy volunteers with 2.4 g a day of n-3 fatty acids for seven days, with aspirin or placebo added from day 5. RvE1, 18-HEPE, 17-HDHA, and 14-HDHA rose by day 5. Other measured specialised pro-resolving mediators did not. Aspirin did not add a further rise.'
+    synthesis_limitations: Healthy adults and a supplement are not an oily-fish pattern and not a trial of resolving a disease.
+    evidence_considered:
+      - label: Barden et al. (2014)
+        citation_key: barden_short-term_2014
+        href: /docs/papers/BRAIN-Diet-References#barden_short-term_2014
+        data_level: Human Mechanistic
+        exposure_context: 2.4 g/day n-3 fatty acids for 5–7 days
+        evidence_source: bounded-external-search
+        directional_finding: 'RvE1, 18-HEPE, 17-HDHA, and 14-HDHA rose. Other specialised pro-resolving mediators did not. Aspirin added no further rise.'
+        assessment:
+          study: 'Open supplementation of n-3 fatty acids for seven days, with random aspirin or placebo from day 5 to day 7.'
+          population: 21 healthy volunteers.
+          result: Selected E-series and pathway markers rose by day 5. MaR1 stayed below detection. Aspirin did not change the mediators.
+          effect_magnitude: 'The paper reports a significant rise in RvE1, 18-HEPE, 17-HDHA, and 14-HDHA, and no rise in the other measured specialised pro-resolving mediators.'
+          evidence_summary: A short n-3 intake can raise some circulating pro-resolving mediators.
+          limitations: 'This is not every mediator, not a disease population, and not proof that inflammation resolved.'
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Dominant
+    rationale: Short-term n-3 fatty acid supplementation raised some circulating pro-resolving mediators in healthy adults. That is an intake effect on the mediators this mechanism is about.
+    scope_note: Not every specialised pro-resolving mediator rose. Aspirin added no further rise. This is not a disease-resolution outcome.
+    routes:
+      - group_id: '3.1'
+        evidence_basis: intervention-effect
+        intervention_effect: '2.4 g a day of n-3 fatty acids for five days raised RvE1, 18-HEPE, 17-HDHA, and 14-HDHA in plasma.'
+        context: '21 healthy volunteers. From day 5, aspirin or placebo was added and did not change the mediators further.'
+        limitations: Not every measured mediator rose. Healthy adults are not a disease-resolution population.
+        evidence_source:
+          finding_ids:
+            - PM8-F2
+          citation_keys:
+            - barden_short-term_2014
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.1'
+    rationale: 'EPA and DHA are the substrates, and a short supplementation raised some of the mediators made from them. No lifestyle practice was shown to do that.'
+    comparative_limitations: The rise is in healthy adults and does not include every mediator.
+    assessments:
+      - group_id: '3.1'
+        relevance: The mediators that rose are in the pro-resolving pathways this mechanism governs.
+        directness: 'The exposure is oral n-3 fatty acids, which supply EPA and DHA.'
+        extent: Five days at 2.4 g a day in 21 healthy adults. Not a clinical resolution trial.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -186,6 +270,8 @@ Shift lipid mediator balance from pro-inflammatory eicosanoids toward pro-resolv
 
 
 **Intervention Dominance:** Diet-Dominant
+
+Short-term n-3 fatty acid supplementation raised some circulating pro-resolving mediators in healthy adults. Not every mediator rose, and this is not a disease-resolution outcome.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -218,8 +304,7 @@ Shift lipid mediator balance from pro-inflammatory eicosanoids toward pro-resolv
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- EPA
-- DHA
+EPA and DHA are already the dietary requirements above. They are not repeated here.
 
 </div>
 </div>
@@ -245,11 +330,11 @@ No mapping established.
 </div>
 ### Overview
 
-Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-derived specialised pro-resolving mediators (SPMs, lipid signals that actively switch inflammation off rather than merely suppressing it). This mechanism governs the shift between pro-inflammatory and pro-resolving lipid signalling specifically, depending directly on essential fatty acid balance and antioxidant substrate sufficiency from upstream dietary intake. Because resolution is an active process rather than passive suppression, omega-3 status shapes whether inflammation terminates cleanly or persists.
+Resolvins and protectins are made from EPA and DHA, and they help inflammation finish rather than only blocking it. Serhan and Petasis (2011) describe that pathway. [[1]](#pm-ref-1) Barden et al. (2014) found that 2.4 g a day of n-3 fatty acids for five days raised RvE1 and several pathway markers in healthy adults. [[9]](#pm-ref-9) Not every mediator rose.
 
-* Balances pro-inflammatory eicosanoids against pro-resolving lipid mediators.
-* Depends directly on essential fatty acid and antioxidant sufficiency.
-* Drives active inflammation resolution rather than passive suppression.
+- **Benefits:** These mediators support the finishing of inflammation, which is a different job from blocking the signal at the start. [[1]](#pm-ref-1)
+- **Implementation Notes:** EPA and DHA are the substrates. [[1]](#pm-ref-1) The intake that raised some mediators was 2.4 g a day for five days in healthy adults, not a disease-resolution dose. [[9]](#pm-ref-9)
+- **Biological Relevance:** Cytokine intensity is a later messenger readout — see PM7.
 
 ## 2. Primary Biological Effects
 ↑ pro-resolving mediator bias; ↓ pro-inflammatory eicosanoid dominance
@@ -264,7 +349,7 @@ Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-deriv
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+No evidence-qualified System Optimisation Practice is established.
 
 </div>
 </div>
@@ -278,7 +363,7 @@ Balances arachidonic-acid-derived inflammatory eicosanoids against EPA/DHA-deriv
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+No lifestyle lever is established. Sleep, stress, and activity were not shown to change these mediators.
 
 </div>
 </div>
@@ -300,11 +385,11 @@ Inflammation termination depends on lipid mediators that actively resolve rather
 
 #### (Lipid mediator balance)
 
-Inflammatory tone is shaped by the substrate pool available for eicosanoids and specialized pro-resolving mediators (SPMs). Resolution pathways are biochemically distinct from simple inflammatory blockade → [Serhan & Petasis, 2011]
+Serhan and Petasis (2011) describe resolvins and protectins as mediators made from EPA and DHA, distinct from blockade of inflammation. [[1]](#pm-ref-1)
 
 #### (Fatty-acid substrate competition)
 
-Arachidonic-acid-derived pro-inflammatory mediators and EPA/DHA-derived resolution pathways compete for enzymatic processing within shared lipid-signalling networks. Chronic omega-6 dominance or oxidized-fat exposure can skew mediator output → [Simopoulos, 2011]
+Barden et al. (2014) found that five days of n-3 fatty acids raised some of those mediators in healthy adults, and not others. [[9]](#pm-ref-9) An evolutionary omega-6 to omega-3 review is not that measurement.
 
 #### (Boundaries of the mechanism)
 
@@ -318,87 +403,15 @@ This PM anchors resolution-oriented lipid signalling within [BRS3(FM3)](/docs/bi
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-The SPM resolution framework is well established. The evidence below highlights active inflammation termination, omega-3 substrate dependence, and dietary fatty-acid balance.
+Resolvins and protectins are made from EPA and DHA, and they help inflammation finish rather than simply blocking it. In healthy adults, five days of n-3 fatty acids raised some of those mediators in plasma. Not every mediator rose.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>SPMs as active inflammation terminators</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+<ScientificFinding finding={{"id":"PM8-F1","finding_label":"Resolvins and protectins are made from EPA and DHA","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Resolvins and protectins are local mediators made from EPA and DHA during the resolution of inflammation. They are distinct from drugs that only block the inflammatory signal. Arachidonic acid feeds a different set of eicosanoids.","finding_interpretation":"This identifies the substrates. It does not set a dose.","finding_statement":"EPA and DHA are the fatty-acid substrates for resolvins and protectins. Those mediators support resolution of inflammation rather than only blocking it.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Serhan and Petasis review resolvins and protectins as families of mediators generated from EPA and DHA during self-limited resolution of inflammation. The pathways are distinct from blockade of the initiating signal.","synthesis_limitations":"A chemistry review identifies the substrates. It does not measure what happens in people after an intake.","evidence_considered":[{"label":"Serhan and Petasis (2011)","citation_key":"serhan_resolvins_2011","href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","data_level":"Mechanistic","exposure_context":"review of resolvin and protectin biosynthesis","evidence_source":"repository-inherited","directional_finding":"Resolvins and protectins are generated from EPA and DHA and act in resolution, distinct from inflammatory blockade.","assessment":{"study":"Chemical review of resolvins and protectins.","population":"Biosynthetic and cell literature. No new human feeding trial.","result":"EPA and DHA are the precursors of these pro-resolving mediators.","effect_magnitude":"No intake amount is prescribed.","evidence_summary":"The substrates of this balance are EPA and DHA.","limitations":"Substrate identity is not a clinical resolution result."},"canonical_reference":{"author_year":"Serhan and Petasis (2011)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Simopoulos (2011)","citation_key":"simopoulos_evolutionary_2011","href":"/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011","data_level":"Mechanistic","why_relevant":"Reviews competition between omega-6 and omega-3 fatty acids in mediator pathways.","why_excluded":"An evolutionary ratio review is not the identification of resolvins and not a measurement of mediators after intake.","canonical_reference":{"author_year":"Simopoulos (2011)","number":2,"anchor":"#pm-ref-2"}}]}} />
 
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Specialized pro-resolving mediators derived from DHA and EPA actively terminate inflammation without suppressing immune surveillance — resolvins, protectins, and maresins inhibit neutrophil infiltration and support macrophage clearance [Serhan & Petasis, 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","label":"Serhan & Petasis (2011)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Controlled endotoxemia and resolution-phase remodelling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** High-dose EPA+DHA attenuated fever and downstream cytokines in controlled endotoxemia while TNF-α remained unchanged — consistent with omega-3s reshaping the resolution phase rather than blocking inflammatory initiation [Ferguson et al., 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Evolutionary omega-6:omega-3 imbalance</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Evolutionary and dietary omega-6:omega-3 imbalance shifts lipid-mediator output toward pro-inflammatory eicosanoid dominance — the substrate-balance frame this PM operationalises [Simopoulos, 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011","label":"Simopoulos (2011)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Quercetin–omega-3 synergy for inflammatory resolution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Quercitrin anti-inflammatory effects may be augmented by co-ingestion of omega-3s and olive oil — supporting combined polyphenol–marine-fat patterns for resolution-oriented lipid signalling [Camuesco et al., 2006].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006","label":"Camuesco et al. (2006)","dataLevel":"Animal Data"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM8-F2","finding_label":"Short-term n-3 intake raises some pro-resolving mediators","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Twenty-one healthy adults took 2.4 g a day of n-3 fatty acids. After five days, plasma RvE1, 18-HEPE, 17-HDHA, and 14-HDHA were higher. Other specialised pro-resolving mediators did not rise. Adding aspirin did not raise them further.","finding_interpretation":"Oral n-3 fatty acids can raise some of the mediators made from EPA and DHA. This is not every mediator, and it is not a result in disease.","finding_statement":"Five days of 2.4 g a day of n-3 fatty acids raised selected pro-resolving mediators in healthy adults. Not every mediator rose, and aspirin added no further increase.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Barden and colleagues supplemented 21 healthy volunteers with 2.4 g a day of n-3 fatty acids for seven days, with aspirin or placebo added from day 5. RvE1, 18-HEPE, 17-HDHA, and 14-HDHA rose by day 5. Other measured specialised pro-resolving mediators did not. Aspirin did not add a further rise.","synthesis_limitations":"Healthy adults and a supplement are not an oily-fish pattern and not a trial of resolving a disease.","evidence_considered":[{"label":"Barden et al. (2014)","citation_key":"barden_short-term_2014","href":"/docs/papers/BRAIN-Diet-References#barden_short-term_2014","data_level":"Human Mechanistic","exposure_context":"2.4 g/day n-3 fatty acids for 5–7 days","evidence_source":"bounded-external-search","directional_finding":"RvE1, 18-HEPE, 17-HDHA, and 14-HDHA rose. Other specialised pro-resolving mediators did not. Aspirin added no further rise.","assessment":{"study":"Open supplementation of n-3 fatty acids for seven days, with random aspirin or placebo from day 5 to day 7.","population":"21 healthy volunteers.","result":"Selected E-series and pathway markers rose by day 5. MaR1 stayed below detection. Aspirin did not change the mediators.","effect_magnitude":"The paper reports a significant rise in RvE1, 18-HEPE, 17-HDHA, and 14-HDHA, and no rise in the other measured specialised pro-resolving mediators.","evidence_summary":"A short n-3 intake can raise some circulating pro-resolving mediators.","limitations":"This is not every mediator, not a disease population, and not proof that inflammation resolved."},"canonical_reference":{"author_year":"Barden et al. (2014)","number":9,"anchor":"#pm-ref-9"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -474,9 +487,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Specialized pro-resolving mediators actively terminate inflammation without suppressing immune surveillance — supporting cognitive clarity context through resolution-oriented lipid signalling.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","label":"Serhan & Petasis (2011)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
 </div>
 </div>
 </div>
@@ -497,9 +507,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Omega-3-derived resolution biology may modulate affective inflammatory context when EPA/DHA substrate and omega-6:omega-3 balance are adequate over habitual intake.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011","label":"Simopoulos (2011)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -520,9 +527,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
 - **Rationale:** Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011","label":"Serhan & Petasis (2011)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -543,9 +547,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Medium
 - **Rationale:** Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014","label":"Slavich & Irwin (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#marsland_systemic_2017","label":"Marsland et al. (2017)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
 </div>
 </div>
 </div>
@@ -566,14 +567,12 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#gruber_impact_2023","label":"Gruber et al. (2023)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
+
 - <span id="pm-ref-1">[1]</span> [Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)
 - <span id="pm-ref-2">[2]</span> [Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
 - <span id="pm-ref-3">[3]</span> [Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)
@@ -582,3 +581,5 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-6">[6]</span> [Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
 - <span id="pm-ref-7">[7]</span> [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
 - <span id="pm-ref-8">[8]</span> [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- <span id="pm-ref-9">[9]</span> [Barden et al. (2014) — Short-term n-3 fatty acids and proresolving mediators](/docs/papers/BRAIN-Diet-References#barden_short-term_2014)
+

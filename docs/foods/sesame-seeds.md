@@ -2,7 +2,7 @@
 id: sesame-seeds
 title: Sesame Seeds
 sidebar_label: Sesame Seeds
-description: Whole sesame seed with unsaturated fat, minerals and lignans
+description: 'Whole sesame seed with unsaturated fat, minerals and lignans'
 tags:
   - Food
   - Sesame Seeds
@@ -16,6 +16,7 @@ tags:
   - Oleic Acid
   - Sesamin
   - Sesamolin
+  - Spermidine
 list_image: /img/foods/sesame-seeds/sesame-seeds_thumb.webp
 nutrition_per_100g:
   vitamin_e_mg: 0.25
@@ -62,20 +63,42 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, seed fraction
-      and roasting (Andargie et al. 2021).
+      Characteristic sesame lignan. Amount varies by cultivar, seed fraction and
+      roasting (Andargie et al. 2021).
   - key: sesamolin_qual
     label: Sesamolin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, seed fraction
-      and roasting (Andargie et al. 2021).
+      Characteristic sesame lignan. Amount varies by cultivar, seed fraction and
+      roasting (Andargie et al. 2021).
+  - key: spermidine_qual
+    label: Spermidine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    notes: Measured food occurrence; content varies by sample and preparation.
+    source_note: >-
+      Muñoz-Esparza et al. (2021), §3.1 and Figures 3–5: Sesame Seeds is
+      identified as a spermidine-containing food. The selected USDA panel does
+      not quantify this analyte. A comparable product-specific per-100 g value
+      is not established here. https://doi.org/10.3390/foods10081752
 limiting_amino_acids: Lysine (typical of nuts and seeds).
-complementary_pairings: Legumes for lysine complementarity; grains are themselves typically lysine-limited.
+complementary_pairings: >-
+  Legumes for lysine complementarity; grains are themselves typically
+  lysine-limited.
 main_image: /img/foods/sesame-seeds/sesame-seeds_medium.webp
 legacy_list_image: /img/foods/sesame-seeds/sesame-seeds_thumb.webp
 legacy_main_image: /img/foods/sesame-seeds/sesame-seeds_medium.webp
+substance_relationships:
+  - substance: Spermidine
+    relationship: contains
+    description: >-
+      Analytical food evidence identifies spermidine in sesame seeds;
+      concentration varies with the sample and preparation.
+    citation_keys:
+      - munoz_esparza_food_polyamines_2021
+substance_card_captions:
+  Spermidine: Occurs directly in this food; a product-specific amount is not established.
 ---
 ## Overview
 
@@ -147,3 +170,5 @@ Sesame is a major regulated food allergen. Reactions can be severe, and cross-co
 [7] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Human salad study of co-ingested dietary fat and carotenoid absorption. General lipid-phase mechanism; not a sesame-seed trial.
 
 [8] McDonald et al. (2018). [American Gut: an Open Platform for Citizen Science Microbiome Research](/docs/papers/BRAIN-Diet-References#mcdonald_american_gut_2018). Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold.
+
+[9] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.

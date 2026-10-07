@@ -1,3 +1,5 @@
+> Historical assessment: PM8 was retired on 5 October 2026. This report is preserved as decision history and does not describe an active PM. See [accepted retirement record](brs1-fm4-pm8-retirement-record.md).
+
 # BRS1-FM4-PM8 GABA–Glutamate Balance — Stage 2B Report
 
 Stage 2B used the Dietary Input Traceability contract, including Type D.

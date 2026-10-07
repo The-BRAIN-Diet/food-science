@@ -46,20 +46,28 @@ export default function BibTexReferences({
   const location = useLocation()
 
   // Scroll to #citationKey when arriving from another doc (e.g. BRS hub framework refs).
+  // The bibliography is large, so the target may not exist on the first paint.
   useEffect(() => {
-    const hash = location.hash.replace(/^#/, "")
+    const hash = decodeURIComponent(location.hash.replace(/^#/, ""))
     if (!hash || !entries.length) {
       return
     }
+    let attempts = 0
+    let timer = 0
     const scrollToCitation = () => {
       const target = document.getElementById(hash)
       if (target) {
-        target.scrollIntoView({behavior: "smooth", block: "start"})
+        const item = target.closest("li") || target
+        item.scrollIntoView({behavior: "auto", block: "start"})
+        return
+      }
+      if (attempts < 20) {
+        attempts += 1
+        timer = window.setTimeout(scrollToCitation, 100)
       }
     }
     scrollToCitation()
-    const retry = window.setTimeout(scrollToCitation, 150)
-    return () => window.clearTimeout(retry)
+    return () => window.clearTimeout(timer)
   }, [location.hash, entries])
 
   // Show error if file not found

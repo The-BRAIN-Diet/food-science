@@ -1585,10 +1585,10 @@
       "evidenceId": "ER000027",
       "taId": "TA001",
       "brsId": "BRS1",
-      "fmIds": [],
-      "pmIds": [
-        "BRS1-FM4-PM8"
+      "fmIds": [
+        "BRS1(FM4)"
       ],
+      "pmIds": [],
       "phenomeIds": [],
       "evidenceRelation": "direct-condition",
       "demonstration": "symptom-improvement",
@@ -1603,17 +1603,21 @@
       "displaySummary": "Maltezos et al., 2014 — Low glutamate in critical brain areas correlates with low Barkley attention scale scores",
       "limitationNote": "",
       "studyDesignLabel": "Human observational or review evidence",
-      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation",
+      "retiredPmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "mappingDecision": "PM8 retired; retained as FM contextual evidence, not an integrated-capacity or dietary admission"
     },
     {
       "id": "EC000130",
       "evidenceId": "ER000028",
       "taId": "TA001",
       "brsId": "BRS1",
-      "fmIds": [],
-      "pmIds": [
-        "BRS1-FM4-PM8"
+      "fmIds": [
+        "BRS1(FM4)"
       ],
+      "pmIds": [],
       "phenomeIds": [],
       "evidenceRelation": "direct-condition",
       "demonstration": "symptom-improvement",
@@ -1628,17 +1632,21 @@
       "displaySummary": "Edden et al., 2012 — Reduced GABA concentration in attention-deficit/hyperactivity disorder",
       "limitationNote": "Biomarker association; does not by itself establish treatment effects.",
       "studyDesignLabel": "Human imaging study",
-      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation",
+      "retiredPmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "mappingDecision": "PM8 retired; retained as FM contextual evidence, not an integrated-capacity or dietary admission"
     },
     {
       "id": "EC000131",
       "evidenceId": "ER000029",
       "taId": "TA001",
       "brsId": "BRS1",
-      "fmIds": [],
-      "pmIds": [
-        "BRS1-FM4-PM8"
+      "fmIds": [
+        "BRS1(FM4)"
       ],
+      "pmIds": [],
       "phenomeIds": [
         "PH015"
       ],
@@ -1655,7 +1663,11 @@
       "displaySummary": "Puts et al., 2020 — Reduced striatal GABA in unmedicated children with ADHD",
       "limitationNote": "",
       "studyDesignLabel": "Human imaging study",
-      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation",
+      "retiredPmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "mappingDecision": "PM8 retired; retained as FM contextual evidence, not an integrated-capacity or dietary admission"
     },
     {
       "id": "EC000132",

@@ -37,6 +37,12 @@ function buildResearchLinkHtml(d: DietaryLeverDisclosure): string {
     : "";
 }
 
+function renderInputValue(d: DietaryLeverDisclosure): string {
+  const label = escapeHtml(d.title);
+  if (!d.inputHref) return label;
+  return `<a class="brs-dietary-lever-input-link" href="${escapeHtml(d.inputHref)}">${label}</a>`;
+}
+
 function buildDetailHtml(d: DietaryLeverDisclosure): string {
   const limitation = d.evidenceLimitation
     ? `<p class="brs-dietary-lever-detail-limit"><span class="brs-dietary-lever-detail-k">Limitation</span> = ${escapeHtml(d.evidenceLimitation)}</p>`
@@ -45,7 +51,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
   return `
     <div class="brs-dietary-lever-detail-inner">
       ${buildDescriptionHtml(d)}
-      <p><span class="brs-dietary-lever-detail-k">Input</span> = ${escapeHtml(d.title)}</p>
+      <p><span class="brs-dietary-lever-detail-k">Input</span> = ${renderInputValue(d)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
       <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
@@ -71,6 +77,10 @@ function renderInlineMarkdownLinks(text: string): string {
 }
 
 function presentationSectionForListItem(li: HTMLLIElement): string {
+  const section = li.closest<HTMLElement>("[data-pm-lever-section]")?.getAttribute("data-pm-lever-section");
+  if (section) return section;
+  const group = li.closest<HTMLElement>("[data-pm-lever-group]")?.getAttribute("data-pm-lever-group");
+  if (group) return group;
   let item = li.closest<HTMLElement>(".brs-fm-hub-item");
   while (item) {
     const emergingSupport = item.getAttribute("data-brs-emerging-support");
@@ -79,7 +89,7 @@ function presentationSectionForListItem(li: HTMLLIElement): string {
       ":scope > .brs-fm-hub-shell > .brs-fm-hub-summary",
     );
     const text = String(summary?.textContent || "");
-    const dietary = text.match(/\b[34]\.1\.([123])\b/);
+    const dietary = text.match(/\b(?:[34]\.1|1\.1)\.([123])\b/);
     if (dietary) return `3.1.${dietary[1]}`;
     const other = text.match(/\b[34]\.([23])\b/);
     if (other) return `3.${other[1]}`;
@@ -91,7 +101,7 @@ function presentationSectionForListItem(li: HTMLLIElement): string {
     let nearestHeadingSection = "";
     details.querySelectorAll<HTMLElement>("h3").forEach((heading) => {
       if (heading.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_FOLLOWING) {
-        const match = String(heading.textContent || "").match(/\b[34]\.1\.([123])\b/);
+        const match = String(heading.textContent || "").match(/\b(?:[34]\.1|1\.1)\.([123])\b/);
         if (match) nearestHeadingSection = `3.1.${match[1]}`;
       }
     });
@@ -344,11 +354,17 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
       if (disclosure.titleHref) {
         disclosure.titleHref = new URL(disclosure.titleHref, canonicalPmUrl).href;
       }
+      if (disclosure.inputHref) {
+        disclosure.inputHref = new URL(disclosure.inputHref, canonicalPmUrl).href;
+      }
       if (disclosure.originTag) {
         disclosure.originTag.href = new URL(disclosure.originTag.href, canonicalPmUrl).href;
       }
       if (disclosure.supportingFinding) {
-        disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
+        // Same-page Finding anchors must remain local on review and canonical pages.
+        if (!disclosure.supportingFinding.href.startsWith("#")) {
+          disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
+        }
       }
       for (const indicator of disclosure.upstreamIndicators || []) {
         indicator.href = new URL(indicator.href, canonicalPmUrl).href;

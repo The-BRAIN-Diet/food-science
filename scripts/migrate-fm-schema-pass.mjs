@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * FM schema pass: ensure §4.4 Evidence Highlights on all FM pages.
+ * FM schema pass: ensure §4.2 Evidence Summary on all FM pages.
  * Does NOT run phenome methodology — see system/fm-schema-rollout-sequence.md.
  *
  *   npm run mechanisms:migrate-fm-schema
@@ -61,12 +61,12 @@ for (const filePath of files) {
 
 const gate = assertAllFmsHaveEvidenceHighlights(rootDir);
 console.log(
-  `FM schema pass: ${updated} ${dryRun ? "would update" : "updated"}, ${skipped} skipped (already have §4.4)`,
+  `FM schema pass: ${updated} ${dryRun ? "would update" : "updated"}, ${skipped} skipped (already have §4.2 Evidence Summary)`,
 );
 if (!gate.ok) {
-  console.log(`§4.4 still missing on ${gate.missing.length} FM page(s):`);
+  console.log(`§4.2 Evidence Summary still missing on ${gate.missing.length} FM page(s):`);
   for (const f of gate.missing) console.log(`  - ${f}`);
   process.exitCode = 1;
 } else {
-  console.log("All FM pages have §4.4 Evidence Highlights — phenome methodology may proceed.");
+  console.log("All FM pages have §4.2 Evidence Summary — phenome methodology may proceed.");
 }

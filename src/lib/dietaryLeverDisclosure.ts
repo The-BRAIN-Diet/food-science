@@ -6,10 +6,12 @@
  * Unresolved assessments never become established mappings; rejected
  * candidates and Stage 2B history are not rendered here.
  */
+import substanceInputPages from "../data/substance-input-pages.json";
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
 
 const INPUT_TYPE_LABEL: Record<string, string> = {
+  "supported upstream supply": "Supported upstream supply",
   substrate: "Substrate",
   "substrate provision": "Substrate provision",
   "nutrient/substance": "Nutrient / precursor",
@@ -32,6 +34,7 @@ export type SupportingFindingLink = {
 
 export type DietaryLeverDisclosure = {
   title: string;
+  identityStatus?: string;
   titleHref?: string;
   originTag?: { text: string; href: string };
   inputType: string;
@@ -45,6 +48,7 @@ export type DietaryLeverDisclosure = {
   readerDescription?: string;
   supportingFinding?: SupportingFindingLink | null;
   upstreamIndicators?: UpstreamPmIndicator[];
+  inputHref?: string;
 };
 
 export type UpstreamPmIndicator = {
@@ -61,6 +65,7 @@ export type EvidenceReference = {
 
 type TraceRow = {
   atom_id?: string;
+  canonical_identity?: {status?: string; substance_href?: string};
   input?: string;
   input_type?: string;
   biological_role?: string;
@@ -297,7 +302,7 @@ export function buildDietaryLeverDisclosureMap(
           row.evidence_source?.citation_keys || [],
         ),
         compactQualifier: "",
-        presentationSection: section,
+        presentationSection: "3.1.3",
       });
     }
   }
@@ -307,7 +312,7 @@ export function buildDietaryLeverDisclosureMap(
     input?: string; input_type?: string; pm_biological_role?: string;
     evidence_source?: { citation_keys?: string[] };
     evidence_limitation?: string; presentation_label?: string;
-    presentation_section?: string; applicability_label?: string; kc_href?: string;
+    presentation_section?: string; applicability_label?: string; kc_href?: string; origin_label?: string;
     reader_description?: string; description_finding_id?: string;
   };
   const assessments = (frontMatter.kc_applicability_adjudications || []) as PmKcDisclosureRow[];
@@ -329,7 +334,7 @@ export function buildDietaryLeverDisclosureMap(
       presentationSection: section,
       readerDescription: String(row.reader_description || ""),
       supportingFinding: supportingFindingLink(frontMatter, row.description_finding_id),
-      titleHref: row.kc_href,
+      originTag: row.kc_href ? { text: row.origin_label || String(row.kc_id), href: row.kc_href } : undefined,
     });
   }
 
@@ -357,6 +362,8 @@ export function buildDietaryLeverDisclosureMap(
       const label = String(constituent.label || base.input);
       map.set(dietaryLeverBulletKey(label, "", "3.1.3"), {
         title: String(base.input),
+        identityStatus: base.canonical_identity?.status,
+        inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
         inputType: formatInputTypeLabel(String(base.input_type || "")),
         biologicalRole: String(base.biological_role || ""),
         evidenceLimitation: String(base.evidence_limitation || "").trim(),
@@ -437,6 +444,40 @@ export function buildDietaryLeverDisclosureMap(
     });
   }
 
+  return attachSubstanceInputHrefs(map);
+}
+
+function normalizeSubstanceKey(value: string): string {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function substanceHrefForInput(input: string): string | undefined {
+  const raw = String(input || "").trim();
+  if (!raw) return undefined;
+  const pages = substanceInputPages as Record<string, string>;
+  const candidates = [
+    normalizeSubstanceKey(raw),
+    normalizeSubstanceKey(raw.replace(/\s*\([^)]*\)\s*/g, " ")),
+    normalizeSubstanceKey(raw.replace(/\s*\([^)]*\)\s*/g, " ").replace(/\s+ions?\b/gi, " ")),
+  ];
+  for (const key of candidates) {
+    if (key && pages[key]) return pages[key];
+  }
+  return undefined;
+}
+
+function attachSubstanceInputHrefs(
+  map: Map<string, DietaryLeverDisclosure>,
+): Map<string, DietaryLeverDisclosure> {
+  for (const disclosure of map.values()) {
+    if (disclosure.inputHref || (disclosure.identityStatus && disclosure.identityStatus !== "resolved")) continue;
+    const href = substanceHrefForInput(disclosure.title);
+    if (href) disclosure.inputHref = href;
+  }
   return map;
 }
 

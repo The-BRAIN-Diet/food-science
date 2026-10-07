@@ -4,9 +4,13 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
 import test from "node:test";
+import {createRequire} from "node:module";
+const require=createRequire(import.meta.url);
+const leverLayout=require("../src/plugin/pm-lever-layout/index.cjs");
+const {createProcessor}=await import("@mdx-js/mdx");
 import assert from "node:assert/strict";
 import {
-  PM6_ID,
+  DHA_PM_ID,
   PM_LEVER_HEADINGS,
   assertCanonicalPmSection4,
   enforcePmSection4LeverOrder,
@@ -21,7 +25,7 @@ import { populatePmOptimisationLevers, isIrrelevantFoodPrepBullet } from "./lib/
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DOCS = path.join(__dirname, "../docs/biological-targets");
-const PM6_PATH = path.join(
+const DHA_PM_PATH = path.join(
   __dirname,
   "../docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
 );
@@ -60,16 +64,9 @@ ${HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation, ["- Gentle cooking preserves fa
   assert.ok(lifeIndex > optIndex);
 });
 
-test("PM6 merges weekly oily-fish into optimisation and removes lifestyle panel", () => {
-  const input = `${HUB_ITEM(PM_LEVER_HEADINGS.legacyLifestyle, [
-    "- Repeated weekly oily-fish or phospholipid-DHA intake matters more than isolated high-dose episodes for membrane incorporation.",
-  ])}
-
-
-${HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation, [
-    "- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices.",
-  ])}`;
-  const { content } = transformPmSection4Levers(input, { pmId: PM6_ID });
+test("legacy DHA PM7 fixture merges weekly oily-fish into optimisation and removes lifestyle panel", () => {
+  const input = fs.readFileSync(path.join(__dirname,"fixtures/dha-pm7-legacy-lever-panels.mdx"),"utf8");
+  const { content } = transformPmSection4Levers(input, { pmId: DHA_PM_ID });
   const opt = extractHubItemBlock(content, PM_LEVER_HEADINGS.optimisation);
   assert.ok(opt);
   const bullets = extractHubPanelBullets(opt.block);
@@ -79,13 +76,30 @@ ${HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation, [
   assert.equal(extractHubItemBlock(content, PM_LEVER_HEADINGS.lifestyle), null);
 });
 
-test("live PM6 page is canonical after transform", async () => {
-  const raw = await readFile(PM6_PATH, "utf8");
-  const { content: body } = matter(raw);
-  const { content } = transformPmSection4Levers(body, { pmId: PM6_ID });
-  assertCanonicalPmSection4(content);
-  assert.match(content, /<strong>4\.2 System Optimisation Practices<\/strong>/);
-  assert.doesNotMatch(content, /<strong>4\.3 Lifestyle Levers<\/strong>/);
+test("live DHA PM7 is preserved by legacy migration and rendered through the current shared layout", async () => {
+  const raw = await readFile(DHA_PM_PATH, "utf8");
+  const {content: body,data} = matter(raw);
+  for (const transform of [transformPmSection4Levers,enforcePmSection4LeverOrder,reclassifyLifestyleOptimisationBullets]) {
+    assert.deepEqual(transform(body,{pmId:DHA_PM_ID}),{content:body,changed:false});
+  }
+  const tree=createProcessor().parse(body);
+  leverLayout.applyLeverLayout(tree,data);
+  const serial=JSON.stringify(tree);
+  assert.match(serial,/1\.1 Dietary Requirements/);
+  assert.match(serial,/data-pm-lever-group/);
+  assert.match(serial,/3\.1/); // canonical identity survives visible numbering
+  assert.match(serial,/3\.2 System Optimisation Practices/);
+  assert.match(serial,/3\.3 Lifestyle Levers/);
+  assert.doesNotMatch(serial,/4\.2 System Optimisation Practices/);
+  assert.equal(await readFile(DHA_PM_PATH,"utf8"),raw);
+});
+
+test("section-3 and already-numbered section-1 groups cannot be migrated as legacy panels",()=>{
+  for(const prefix of ['## 3. Intervention Levers\n','## 3. Levers\n','<div data-pm-lever-group="3.2"></div>\n']) {
+    const input=prefix+HUB_ITEM(PM_LEVER_HEADINGS.legacyLifestyle,['- Sleep regularity.'])+'\n'+HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation,['- Gentle preparation.']);
+    assert.deepEqual(transformPmSection4Levers(input,{pmId:DHA_PM_ID}),{content:input,changed:false});
+    assert.deepEqual(enforcePmSection4LeverOrder(input),{content:input,changed:false});
+  }
 });
 
 test("BRS3 PM5 moves frequency bullet to optimisation and drops empty lifestyle panel", () => {
@@ -191,10 +205,11 @@ function walkMechanismFiles(dir) {
   return out;
 }
 
-test("all PM/SM docs satisfy §4 lever contract", () => {
+test("legacy section-4 PM/SM pages satisfy the migration contract", () => {
   const failures = [];
   for (const filePath of walkMechanismFiles(DOCS)) {
     const { content } = matter(fs.readFileSync(filePath, "utf8"));
+    if (!/^## 4\. Levers\s*$/m.test(content)) continue;
     const rel = path.relative(DOCS, filePath);
     failures.push(...validatePmSection4Contract(content, { fileLabel: rel }));
   }

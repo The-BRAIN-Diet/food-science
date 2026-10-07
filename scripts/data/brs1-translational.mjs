@@ -43,17 +43,14 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx": {
-    functional_descriptor: "(Neural Excitation–Inhibition Balance & Stability)",
-    mission:
-      "Keep excitatory and inhibitory neural signalling in balance so focus, emotional control, and sensory stability stay supported.",
-    translational:
-      "Helps the brain maintain stable neural activity by balancing excitatory glutamate signalling and inhibitory GABA signalling (the principal excitatory–inhibitory pair). Good excitation–inhibition balance supports focus, emotional control, and resistance to sensory overwhelm.",
-    scientific:
-      "Integrated regulation of GABA–glutamate balance (PM8), GABA synthesis capacity (PM9), glutamate clearance (PM10), and excitotoxic modulation (PM11) supports inhibitory tone and neural stability.",
+    functional_descriptor: "(Neural Excitation–Inhibition Capacity: Defined Coverage)",
+    mission: "Support coordinated excitatory and inhibitory signalling through GABA synthesis, glutamate clearance and recycling, and protection against excessive glutamate-receptor stimulation.",
+    translational: "GABA synthesis supplies inhibitory transmitter, while glutamate uptake and recycling help terminate and replenish signalling. Protection against excessive receptor stimulation is a separate safeguard. Receptor/synaptic regulation remains outside the retained PM coverage; this FM does not claim comprehensive E/I coverage.",
+    scientific: "PM9 owns GAD-dependent GABA synthesis, PM10 owns glutamate clearance/recycling, and PM11 owns assessed excitotoxicity protection. Their contributions do not establish complete receptor or circuit regulation.",
     bullets: [
-      "Supports inhibitory tone through GABA-related pathways — within BRS1.",
-      "Helps manage excitatory glutamate load and neural overstimulation — within BRS1.",
-      "Contributes to stable attention, emotional control, and sensory regulation — within BRS1.",
+      "Transmitter formation, clearance/recycling and overload protection are distinct contributions — within BRS1.",
+      "Receptor/synaptic regulation remains outside the retained PM coverage — within BRS1.",
+      "Regional GABA/Glx pools are not synthesis flux, transporter activity or direct E/I measurements — within BRS1.",
     ],
   },
   "brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx": {
@@ -128,18 +125,6 @@ export const BRS1_UPDATES = {
       "Links dietary fat patterns to the membrane environment of neurotransmitter signalling — within BRS1.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx": {
-    functional_descriptor: "(Excitation–Inhibition Balance for Neural Stability)",
-    translational:
-      "Helps maintain the balance between brain excitation (glutamate) and inhibition (GABA) — a foundation for attention, emotional control, and stable reactivity. When inhibitory and excitatory signalling are well matched, neural networks operate with greater stability.",
-    scientific:
-      "GABAergic inhibitory tone and glutamatergic excitatory signalling interact to set network excitability. This PM represents the balance between these two arms — not individual synthesis or clearance steps handled by sibling PMs.",
-    bullets: [
-      "Balances excitatory glutamate and inhibitory GABA tone for network stability — within BRS1.",
-      "Supports attention and emotional control through matched inhibition and excitation — within BRS1.",
-      "Provides the regulatory foundation for sibling synthesis and clearance PMs — within BRS1.",
-    ],
-  },
   "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": {
     functional_descriptor: "(Building the Brain's Main Inhibitory Signal)",
     translational:
@@ -157,7 +142,7 @@ export const BRS1_UPDATES = {
     translational:
       "Helps protect neural circuits from excessive excitatory drive by clearing and recycling glutamate (the brain's main excitatory neurotransmitter). Effective glutamate control supports stable signalling and reduces risk of excitatory overload.",
     scientific:
-      "Glutamate uptake, recycling, and buffering processes control extracellular glutamate accumulation. This PM represents clearance and buffering — not integrative balance (PM8) or GABA conversion (PM9).",
+      "Glutamate uptake, recycling, and buffering processes control extracellular glutamate accumulation. This PM represents clearance and buffering — not FM-level integration or GABA conversion (PM9).",
     bullets: [
       "Clears and recycles glutamate to prevent excitatory build-up — within BRS1.",
       "Protects neural circuits from sustained excitatory drive — within BRS1.",

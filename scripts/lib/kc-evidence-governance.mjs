@@ -4,6 +4,7 @@
  */
 
 import { INPUT_TYPES, FORBIDDEN_INPUT_TYPES, validateDietaryInputTraceability } from "./dietary-input-traceability.mjs";
+import { validateStructuredVitaminLabels } from "./nutrient-naming.mjs";
 import { CLAIM_CEILING } from "./dietary-lever-atoms.mjs";
 import { RETIRED_KC_IDS, isRetiredKc } from "./kc-registry.mjs";
 import { buildPmReferenceKeyIndex } from "./pm-reference-index.mjs";
@@ -34,7 +35,7 @@ export const KC_APPLICABILITY_DISPOSITIONS = new Set([
   "evidence-supported-non-application",
 ]);
 
-export const KC_APPLICABILITY_MODES = new Set(["governs", "constrained-by"]);
+export const KC_APPLICABILITY_MODES = new Set(["governs", "constrained-by", "supported-upstream-supply", "conditional-constraint"]);
 
 /** KC-layer classification of the same five atoms — not a sixth scientific atom. */
 export const CONSTRAINT_STATUSES = new Set([
@@ -167,7 +168,7 @@ export function relationshipIkcId(relationship) {
 function declaredIkcIds(data) {
   const rows = data?.individual_key_constraints;
   if (Array.isArray(rows) && rows.length) {
-    return new Set(rows.map((row) => row?.ikc_id && String(row.ikc_id)).filter(Boolean));
+    return new Set([...rows.map((row) => row?.ikc_id && String(row.ikc_id)).filter(Boolean), ...(data?.legacy_ikc_references || []).map(row => String(row.ikc_id))]);
   }
   return data?.kc_id ? new Set([String(data.kc_id)]) : new Set();
 }
@@ -287,7 +288,8 @@ export function validateKcEmergingSupportEvidence(data, issues, { entityLabel, p
   }
 }
 
-export function validateKcOwnedEvidence(data, issues, { entityLabel }) {
+export function validateKcOwnedEvidence(data, issues, { entityLabel, content = "" } = {}) {
+  validateStructuredVitaminLabels(data, issues, { entityLabel, content });
   const status = data?.kc_evidence_review_status;
   const rows = data?.kc_input_traceability;
   const presentations = data?.kc_constituent_presentations;
@@ -691,6 +693,7 @@ export function validatePmKcGovernance(
         } else if (
           canonicalKcIndex?.atomIkcIds?.get(kcId)?.get(kcAtomId) &&
           ikcId &&
+          ikcId !== kcId &&
           canonicalKcIndex.atomIkcIds.get(kcId).get(kcAtomId) !== ikcId
         ) {
           push(
@@ -784,7 +787,7 @@ export function validateKcApplicabilityAdjudications(data, issues, { entityLabel
         push(
           issues,
           "kc_applicability_missing_mode",
-          `${label} established rows require applicability_mode governs or constrained-by`,
+          `${label} established rows require an admitted applicability mode`,
         );
       }
       if (kcId) establishedPairs.add(`${kcId}\0${ikcId || kcId}`);
@@ -899,13 +902,13 @@ export function validateStage2bDietaryRequirementLayers(data, issues, { entityLa
   if (String(data?.evidence_status || "") !== "stage-2b-dietary-addressability") return;
 
   const body = String(content || "");
-  if (!/(?:3|4)\.1\.1\s+Direct/.test(body)) {
+  if (!/(?:[34]\.1|1\.1)\.1\s+Direct/.test(body)) {
     push(issues, "stage2b_missing_direct_layer", `${entityLabel}: Stage 2B requires §4.1.1 / §3.1.1 Direct and/or Derived Dietary Requirements`);
   }
-  if (!/(?:3|4)\.1\.2\s+Cofactors/.test(body)) {
+  if (!/(?:[34]\.1|1\.1)\.2\s+Cofactors/.test(body)) {
     push(issues, "stage2b_missing_cofactor_layer", `${entityLabel}: Stage 2B requires §4.1.2 / §3.1.2 Cofactors and Substrates`);
   }
-  if (!/(?:3|4)\.1\.3\s+Key Constraints/.test(body)) {
+  if (!/(?:[34]\.1|1\.1)\.3\s+Key Constraints/.test(body)) {
     push(issues, "stage2b_missing_kc_layer", `${entityLabel}: Stage 2B requires §4.1.3 / §3.1.3 Key Constraints`);
   }
 
@@ -976,6 +979,40 @@ export function validatePmKcDisclosurePresentations(data, issues, { entityLabel 
       if (!constituent.description_finding_id) continue;
       if (!findings.has(constituent.description_finding_id) || !atoms.get(constituent.pm_atom_id)?.evidence_source?.finding_ids?.includes(constituent.description_finding_id)) {
         push(issues, "pm_kc_constituent_unsupported_finding", `${entityLabel}: constituent research target is not supported by its PM-owned atom`);
+      }
+    }
+  }
+}
+
+/** New constituent identity/admission gate; old pool/arm records retain legacy meaning. */
+export function validateConstituentIdentityRecords(data, issues, {registry = {}, substancePages = [], entityLabel = 'PM/KC'} = {}) {
+  const verifies = (id, href) => {
+    const entry = registry[id];
+    const expected = entry?.path ? `/docs/substances/${entry.path.replace(/\.mdx?$/, '')}` : null;
+    return Boolean(expected && expected === href && substancePages.some(p => p.permalink === expected && p.frontMatter?.id === id));
+  };
+  if (data.ikc_identity_version === 'constituent-v2') {
+    for (const row of data.individual_key_constraints || []) {
+      const atom = (data.kc_input_traceability || []).find(a => a.atom_id === row.kc_atom_id && a.ikc_id === row.ikc_id && a.ikc_membership === 'admitted');
+      if (!atom) push(issues,'ikc_identity_missing_membership_evidence',`${entityLabel}: ${row.ikc_id} requires admitted KC membership evidence`);
+      if (row.registration_status === 'registered' && (row.identity_status !== 'resolved' || !verifies(row.substance_id,row.substance_href))) push(issues,'ikc_identity_unverified',`${entityLabel}: ${row.ikc_id} registered identity does not verify`);
+      if (row.identity_status !== 'resolved' && row.registration_status !== 'pending-identity') push(issues,'ikc_identity_pending_missing',`${entityLabel}: unresolved identity must retain pending registration`);
+    }
+  }
+  for (const relationship of data.pm_kc_relationships || []) {
+    for (const row of relationship.constituent_relationships || []) {
+      if (!row.relationship_type) continue; // Explicit migration gate, not reinterpretation of old rows.
+      if (!['supported-upstream-supply','conditional-constraint'].includes(row.relationship_type)) push(issues,'pm_ikc_relationship_type_invalid',`${entityLabel}: unknown individual relationship type`);
+      if (row.disposition !== 'established') push(issues,'pm_ikc_individual_admission_missing',`${entityLabel}: public individual input requires its own established decision`);
+      if (row.presentation_section && row.presentation_section !== '3.1.3') push(issues,'pm_ikc_wrong_section',`${entityLabel}: individual KC inputs belong in §3.1.3`);
+      const atom = (data.dietary_input_traceability || []).find(a => a.atom_id === row.pm_atom_id);
+      if (!atom || atom.relationship_type !== row.relationship_type || atom.ikc_id !== row.ikc_id || atom.kc_id !== relationship.kc_id) push(issues,'pm_ikc_record_linkage_invalid',`${entityLabel}: individual relationship does not resolve consistent PM/KC metadata`);
+      const identity = atom?.canonical_identity;
+      if (identity?.status === 'resolved') {
+        if (!verifies(identity.substance_id,identity.substance_href) || row.substance_id !== identity.substance_id || row.canonical_identity?.substance_href !== identity.substance_href) push(issues,'pm_ikc_identity_invalid',`${entityLabel}: admitted substance ID/page linkage does not verify`);
+      } else {
+        if (!['missing-substance','existing-substance-identity-inconsistency'].includes(identity?.status) || identity?.severity !== 'MAJOR') push(issues,'pm_ikc_identity_major_flag_missing',`${entityLabel}: unresolved identity requires a major flag`);
+        if (!(data.pending_actions || []).some(a => a.severity === 'MAJOR' && a.status !== 'resolved' && (a.kc_atom_id === row.kc_atom_id || a.input?.startsWith(atom?.input || '\0')))) push(issues,'pm_ikc_identity_repair_action_missing',`${entityLabel}: unresolved identity requires a pending next-step action`);
       }
     }
   }

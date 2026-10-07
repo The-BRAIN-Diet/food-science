@@ -178,13 +178,12 @@ test("FM roll-up has no declaration-order fallback", () => {
   );
 });
 
-test("FM roll-up represents later child PMs before taking sibling extras", () => {
+test("FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns", () => {
   const { data, content } = matter(fs.readFileSync(BRS2_FM1, "utf8"));
   const block = buildFmEvidenceHighlightsBlock(data, content, root);
-  assert.ok(
-    block.includes("MAT converts methionine and ATP into SAMe"),
-    "explicitly selected PM3 Finding must survive the four-entry FM cap",
-  );
+  assert.ok(data.fm_evidence_summary.includes("bailey_human_mat2a_2021"), "MAT evidence must remain in the reviewed synthesis");
+  assert.ok(block.includes("MAT reaction requirements"));
+  assert.ok(!block.includes("brs-fm-hub-panel"), "aggregation must not copy child dropdowns");
 });
 
 test("legacy evidence generator cannot overwrite any Findings-owned PM", () => {
@@ -334,7 +333,7 @@ test("magnesium is removed from PM9's synthesis boundary", () => {
 
 test("FM4 roll-up no longer displays retracted PM9 evidence", () => {
   const fm4 = fs.readFileSync(FM4, "utf8");
-  const section = fm4.slice(fm4.indexOf("### 4.4 Evidence Highlights"), fm4.indexOf("## 5. "));
+  const section = fm4.slice(fm4.indexOf("### 4.2 Evidence Summary"), fm4.indexOf("## 5. "));
   assert.ok(!/Magnesium and neuronal excitability/.test(section));
   assert.ok(!/cataldo_comprehensive_2024/.test(section));
 });
@@ -511,18 +510,14 @@ test("FM roll-up selection is explicit, not declaration order", () => {
   assert.ok(rolled.every((f) => f.fm_rollup === true), "roll-up must be flag-driven");
   assert.ok(ids.length < data.scientific_findings.length, "roll-up must be a selection");
 
-  const fm4 = fs.readFileSync(FM4, "utf8");
-  const section = fm4.slice(fm4.indexOf("### 4.4 Evidence Highlights"), fm4.indexOf("## 5. "));
+  const { data: fmData, content: fmContent } = matter(fs.readFileSync(FM4, "utf8"));
+  const section = buildFmEvidenceHighlightsBlock(fmData);
+  assert.ok(fmContent.includes(section));
+  assert.ok(fmData.fm_evidence_summary.includes("martin_regulation_1993"), "PM9 synthesis evidence remains cited at FM level");
   for (const finding of rolled) {
-    assert.ok(
-      section.includes(finding.finding_label || finding.id),
-      `${finding.id} must appear in the FM4 roll-up by label`,
-    );
-    assert.ok(
-      !section.includes(finding.finding_statement),
-      `${finding.id} must not reproduce its Finding Statement at FM level`,
-    );
+    assert.ok(!section.includes(finding.finding_statement), "FM summary must not reproduce the child Finding Statement");
   }
+
 });
 
 test("every Finding carries a compact label for reference rendering", () => {

@@ -13,8 +13,6 @@ export const BRS1_3_MISSIONS = {
     "Maintain the capacity to form acetylcholine so cholinergic signalling for attention, working memory, and learning stays supplied.",
   "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx":
     "Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.",
-  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx":
-    "Keep excitatory glutamate and inhibitory GABA signalling matched so neural networks operate with stability.",
   "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx":
     "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
   "brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx":
@@ -52,7 +50,7 @@ export const BRS1_3_MISSIONS = {
   "brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx":
     "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
   "brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx":
-    "Switch on endogenous antioxidant and detoxification genes so cells can raise protection against oxidative stress.",
+    "Regulate the expression of cellular defence genes in response to oxidative and electrophilic stress.",
   "brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx":
     "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
   "brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx":

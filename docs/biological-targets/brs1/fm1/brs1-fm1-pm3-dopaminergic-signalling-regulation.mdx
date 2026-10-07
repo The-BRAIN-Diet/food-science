@@ -4,11 +4,11 @@ pm_id: BRS1-FM1-PM3
 mission: 'Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.'
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Dopaminergic regulation coordinates dopamine synthesis, vesicular storage, activity-dependent release, receptor signalling, transporter-mediated reuptake and metabolism. Its effects vary by brain region, receptor, baseline state and task, so neither lower nor higher signalling is uniformly advantageous. Together, these stages regulate where, when and how strongly dopamine acts. Measurements of dopamine concentration, synthesis capacity, release, receptor availability and transporter binding describe different processes and should not be treated as interchangeable.'
+summary: 'Dopamine signalling is set by how much is made, stored, released, sensed, taken back up and broken down. The result depends on brain region, receptor type, baseline state and the task, so more signalling is not always better. Tests of synthesis, release, receptors and transporters are not one dopamine level. This regulation supports cognitive control and willingness to spend mental effort.'
 cofactors:
   - Iron
   - Tetrahydrobiopterin (BH4)
-  - Pyridoxal-5′-phosphate (PLP)
+  - Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'No'
@@ -17,7 +17,7 @@ dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-scientific_findings_intro: 'Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.'
+scientific_findings_intro: 'Human pharmacology and PET evidence supports context-dependent dopamine regulation: baseline synthesis capacity, receptor involvement and cognitive demand influence motivation and flexibility, so effects are not uniformly enhancing. [[4]](#pm-ref-4) [[5]](#pm-ref-5) [[7]](#pm-ref-7) Exercise, sleep deprivation and dietary restriction studies demonstrate changes in different dopaminergic endpoints—release and receptor availability must be distinguished. [[15]](#pm-ref-15) [[16]](#pm-ref-16) [[17]](#pm-ref-17) Biochemical and deficiency evidence separately supports synthesis requirements, without establishing that extra precursor intake improves human signalling. [[1]](#pm-ref-1) [[3]](#pm-ref-3)'
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
     input: Iron
@@ -31,7 +31,7 @@ dietary_input_traceability:
         - erikson_iron_2000
     evidence_limitation: Human intake-to-dopamine responsiveness and clinical benefit were not established; the direct dopamine-metabolite evidence assessed here is preclinical deficiency evidence.
   - atom_id: PM3-DIT-2
-    input: Pyridoxal-5′-phosphate (PLP)
+    input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: Cofactor for aromatic L-amino-acid decarboxylase conversion of L-DOPA to dopamine
     evidence_source:
@@ -63,9 +63,22 @@ dietary_input_traceability:
     evidence_source:
       finding_ids:
         - PM3-F1
+        - PM3-F13
       citation_keys:
         - fanet_tetrahydrobioterin_2021
+        - fernstrom_lnna_2013
     evidence_limitation: Substrate necessity does not establish that additional dietary tyrosine increases brain dopamine or improves a functional or clinical outcome.
+    substance_id: tyrosine
+    canonical_identity: &ref_0
+      status: resolved
+      substance_id: tyrosine
+      substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/tyrosine.md
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1-KC1-KIT-2
+    relationship_type: supported-upstream-supply
   - atom_id: PM3-DIT-4
     input: Tetrahydrobiopterin (BH4)
     input_type: cofactor
@@ -76,6 +89,77 @@ dietary_input_traceability:
       citation_keys:
         - fanet_tetrahydrobioterin_2021
     evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased dopamine synthesis.
+  - atom_id: BRS1-PM3-KC1-DONOR-1
+    input: Vitamin B9 (folate)
+    input_type: supported upstream supply
+    biological_role: 'Folate supplies the methyl group through [BRS2 PM1 — Folate/B12 remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), replenishing methionine used by [BRS2 PM3 — MAT/SAM synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). SAM is the methyl donor used by COMT during dopamine metabolism.'
+    evidence_source:
+      finding_ids:
+        - PM3-F12
+      citation_keys:
+        - froese_vitamin_2019
+        - bailey_human_mat2a_2021
+        - lotta_human_comt_1995
+    evidence_limitation: This requires functional B12-dependent remethylation. The connected reaction chain does not measure dietary folate contribution to regional brain SAM or clearance; alternative methionine supply and tissue turnover matter. A limiting effect and benefit from extra intake remain unresolved.
+    substance_id: vitamin-b9
+    canonical_identity: &ref_2
+      status: resolved
+      substance_id: vitamin-b9
+      substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-1
+    relationship_type: supported-upstream-supply
+  - atom_id: BRS1-PM3-KC1-DONOR-2
+    input: Betaine
+    input_type: supported upstream supply
+    biological_role: 'Betaine donates methyl groups through [BRS2 PM2 — BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), predominantly in liver and kidney, replenishing methionine upstream of [BRS2 PM3 — SAM synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). SAM is used by COMT during dopamine metabolism.'
+    evidence_source:
+      finding_ids:
+        - PM3-F12
+      citation_keys:
+        - obeid_metabolic_2013
+        - evans_betaine_2002
+        - bailey_human_mat2a_2021
+        - lotta_human_comt_1995
+    evidence_limitation: 'This is peripheral BHMT supply, not neuronal BHMT activity or measured delivery into neural SAM. Dietary methionine and folate remethylation provide alternatives. Homocysteine lowering does not establish regional clearance, a limiting constraint or benefit from extra intake.'
+    substance_id: betaine
+    canonical_identity: &ref_3
+      status: resolved
+      substance_id: betaine
+      substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/choline-methylation/betaine.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-3
+    relationship_type: supported-upstream-supply
+  - atom_id: BRS1-PM3-KC1-DONOR-3
+    input: Choline
+    input_type: supported upstream supply
+    biological_role: 'Choline can be oxidised to betaine for [BRS2 PM2 — BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), predominantly in liver and kidney, replenishing methionine upstream of [BRS2 PM3 — SAM synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). SAM is used by COMT during dopamine metabolism.'
+    evidence_source:
+      finding_ids:
+        - PM3-F12
+      citation_keys:
+        - obeid_metabolic_2013
+        - salvi_choline_2013
+        - bailey_human_mat2a_2021
+        - lotta_human_comt_1995
+    evidence_limitation: 'Only choline-to-betaine methyl supply is admitted, not membrane or acetylcholine roles. Oxidation, peripheral BHMT, alternative methionine supply and local neural SAM turnover limit interpretation. Neural delivery, increased clearance, a limiting constraint and extra-intake benefit are not measured.'
+    substance_id: choline
+    canonical_identity: &ref_4
+      status: resolved
+      substance_id: choline
+      substance_href: /docs/substances/bioactive-compounds/choline-methylation/choline
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/choline-methylation/choline.md
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-2
+    relationship_type: supported-upstream-supply
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     requirement_classification: direct
@@ -96,7 +180,7 @@ dietary_lever_atoms:
   - atom_id: PM3-DIT-3
     requirement_classification: derived
     relationship_mode: capacity-requirement
-    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     derived_target_atom_id: PM3-DIT-2
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
@@ -116,6 +200,18 @@ dietary_lever_atoms:
     claim_ceiling: biological-dependency
     permitted_wording: BH4 is the endogenous cofactor required for tyrosine hydroxylation. It is not a dietary BH4 recommendation.
     evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased dopamine synthesis.
+  - atom_id: BRS1-PM3-KC1-DONOR-1
+    relationship_layer: kc-relevance
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
+  - atom_id: BRS1-PM3-KC1-DONOR-2
+    relationship_layer: kc-relevance
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
+  - atom_id: BRS1-PM3-KC1-DONOR-3
+    relationship_layer: kc-relevance
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
 dietary_lever_presentations:
   - atom_id: PM3-DIT-5
     label: Tyrosine
@@ -128,19 +224,19 @@ dietary_lever_presentations:
     reader_description: Iron helps the enzyme that carries out the first step in making dopamine from tyrosine.
     description_finding_id: PM3-F1
   - atom_id: PM3-DIT-2
-    label: Pyridoxal-5′-phosphate (PLP)
+    label: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     presentation_section: 3.1.1
     reader_description: PLP helps the enzyme that converts L-DOPA into dopamine.
     description_finding_id: PM3-F1
   - atom_id: PM3-DIT-3
     label: Vitamin B6
     presentation_section: 3.1.1
-    reader_description: Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis.
+    reader_description: 'Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis.'
     description_finding_id: PM3-F1
   - atom_id: PM3-DIT-4
     label: Tetrahydrobiopterin (BH4)
     presentation_section: 3.1.2
-    reader_description: BH4 helps the enzyme that converts tyrosine into L-DOPA, the first step in making dopamine.
+    reader_description: 'BH4 helps the enzyme that converts tyrosine into L-DOPA, the first step in making dopamine.'
     description_finding_id: PM3-F1
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
@@ -651,6 +747,92 @@ scientific_findings:
           evidence_summary: Supports a short-term calorie-restriction relationship with a regional dopamine imaging measure.
           limitations: 'Uncontrolled, small female sample and no ability to separate receptor regulation from endogenous dopamine occupancy.'
     presentation: mechanistic-basis
+  - id: PM3-F12
+    finding_label: Remethylation supplies the methionine/SAM resource used by COMT
+    finding_summary: Remethylation can replenish methionine for SAM synthesis; human COMT uses SAM to methylate dopamine.
+    finding_statement: Remethylation can replenish methionine for SAM synthesis; human COMT uses SAM to methylate dopamine.
+    finding_interpretation: 'This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.'
+    presentation: mechanistic-basis
+    fm_rollup: false
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Verified BRS2 PM1/PM2/PM3 Findings establish folate-dependent remethylation, betaine/BHMT remethylation, choline-to-betaine provision and MAT substrate use. Lotta''s recombinant human COMT work establishes the downstream methyl-transfer reaction. These successive reactions support upstream resource provision. They do not directly measure transfer of a dietary donor into regional neural SAM or a change in signalling.'
+    synthesis_limitations: 'This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.'
+    evidence_considered:
+      - label: Froese et al. (2019)
+        citation_key: froese_vitamin_2019
+        href: /docs/papers/BRAIN-Diet-References#froese_vitamin_2019
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Establishes folate/B12 remethylation and placement before MAT synthesis; reviewed on PM1-F1.
+      - label: Obeid (2013)
+        citation_key: obeid_metabolic_2013
+        href: /docs/papers/BRAIN-Diet-References#obeid_metabolic_2013
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Establishes betaine donation and choline provision in connected remethylation; reviewed on PM2-F1/F2.
+      - label: Bailey et al. (2021)
+        citation_key: bailey_human_mat2a_2021
+        href: /docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Establishes methionine and ATP use in human MAT2A; reviewed on PM3-F1.
+      - label: Evans et al. (2002)
+        citation_key: evans_betaine_2002
+        href: /docs/papers/BRAIN-Diet-References#evans_betaine_2002
+        data_level: Cellular / Molecular
+        evidence_source: repository-inherited
+        directional_finding: 'Human BHMT reaction identity; supports betaine-to-methionine provision, not dietary MAT responsiveness.'
+      - label: Salvi and Gadda (2013)
+        citation_key: salvi_choline_2013
+        href: /docs/papers/BRAIN-Diet-References#salvi_choline_2013
+        data_level: Cellular / Molecular
+        evidence_source: repository-inherited
+        directional_finding: 'Choline oxidation through betaine aldehyde to betaine; supports route identity, not MAT flux.'
+      - label: Lotta et al. (1995)
+        citation_key: lotta_human_comt_1995
+        href: /docs/papers/BRAIN-Diet-References#lotta_human_comt_1995
+        data_level: Cellular / Molecular
+        evidence_source: bounded-external-search
+        directional_finding: Recombinant human COMT catalysed SAM-dependent methylation of dopamine and noradrenaline.
+        assessment:
+          study: Kinetic characterisation of recombinant soluble and membrane-bound human COMT.
+          population: Human proteins expressed in bacterial and insect-cell systems; not a dietary or in-vivo neural trial.
+          result: Measured catecholamine methylation and SAM affinity of both enzyme forms.
+          effect_magnitude: 'Different SAM binding affinities; no dietary intake, brain supply or functional effect estimate.'
+          evidence_summary: Establishes SAM use during catecholamine methylation.
+          limitations: Primary abstract inspected; full experimental methods/results not obtained. Does not attribute neural SAM supply or clearance changes to donor intake.
+    connected_supportive_evidence: []
+    informs: []
+    evidence_dependency:
+      - 'BRS2 PM1-F1, PM2-F1/F2 and PM3-F1/F4 are reused for reaction identity, not counted as new independent dietary or brain-supply evidence. Lotta (1995) is reused across the dopamine and noradrenaline PMs; this is one enzyme dataset, not independent replication.'
+  - id: PM3-F13
+    finding_label: The shared LNAA pool presents tyrosine upstream of catecholamine synthesis
+    finding_summary: The reviewed LNAA pool supplies tyrosine upstream of dopamine synthesis.
+    finding_statement: The reviewed LNAA pool supplies tyrosine upstream of dopamine synthesis.
+    finding_interpretation: 'Ordinary dietary LNAA changes do not establish uniform effects on catecholamine synthesis, regional signalling or benefit. The separately recorded competitive capacity-constraint proposition remains unresolved.'
+    presentation: mechanistic-basis
+    fm_rollup: false
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'LAT1 presentation supplies tyrosine used by the local hydroxylase reaction already assessed in PM3-F1. This is the same provision job as PM3-DIT-5, not a second limiting constraint.'
+    synthesis_limitations: 'Ordinary dietary LNAA changes do not establish uniform effects on catecholamine synthesis, regional signalling or benefit. The separately recorded competitive capacity-constraint proposition remains unresolved.'
+    evidence_considered:
+      - label: Fernstrom (2013)
+        citation_key: fernstrom_lnna_2013
+        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: Reviewed LNAA transport competition and tyrosine presentation upstream of catecholamine synthesis; ordinary protein-driven changes do not uniformly increase catecholamine synthesis.
+        assessment:
+          study: 'Review of LNAA transport, dietary precursor presentation and brain neurochemistry.'
+          population: Mixed experimental contexts; not a new human noradrenergic dietary trial.
+          result: Tyrosine availability and competing LNAA context are relevant to brain precursor supply.
+          effect_magnitude: No universal limiting intake or regional signalling response established.
+          evidence_summary: 'Supports upstream presentation of tyrosine, with separate synthesis and functional boundaries.'
+          limitations: Review; source-linked reaction identity is reused from existing local synthesis Findings. Does not establish a new competitive capacity constraint or benefit from increased intake.
+    connected_supportive_evidence: []
+    informs: []
+    evidence_dependency:
+      - 'Fernstrom (2013) and the existing local synthesis Findings are reused for transport/precursor identity, not independent dietary efficacy evidence.'
 references:
   - '[Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)'
   - '[Beard et al. (2003) — Iron and Dopamine Biology](/docs/papers/BRAIN-Diet-References#beard_iron_2003)'
@@ -672,17 +854,21 @@ references:
   - '[Dunn et al. (2017) — Caloric Restriction and Dopamine Receptor Availability](/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017)'
   - '[Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)'
   - '[Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)'
-  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
   - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
   - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
   - '[Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
+  - '[Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)'
+  - '[Obeid (2013) — Metabolic Burden of Methyl Donor Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)'
+  - '[Bailey et al. (2021) — Human MAT2A ordered kinetic mechanism](/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021)'
+  - '[Evans et al. (2002) — Human BHMT structure and catalytic zinc](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)'
+  - '[Salvi and Gadda (2013) — Choline dehydrogenase and betaine formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)'
+  - '[Lotta et al. (1995) — Human COMT kinetics and SAM-dependent catecholamine methylation](/docs/papers/BRAIN-Diet-References#lotta_human_comt_1995)'
+  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: amino-acid-quality
-    applicability_proposition: >-
-      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
-      this mechanism’s governed dopaminergic capacity.
+    applicability_proposition: Inadequacy of the shared indispensable-amino-acid quality pool can constrain this mechanism’s governed dopaminergic capacity.
     disposition: unresolved
     established_links:
       - Tyrosine is the local hydroxylase substrate for dopamine synthesis (PM3-F1).
@@ -696,40 +882,27 @@ kc_applicability_adjudications:
         - fanet_tetrahydrobioterin_2021
         - fao_diaas_2013
         - mariotti_dietary_2019
-    rationale: >-
-      Assessment was completed. Quality-scoring evidence does not connect IAA-quality
-      inadequacy to dopaminergic capacity. Tyrosine is dispensable when phenylalanine
-      is adequate. The capacity-constraint link remains a material gap, not a negative
-      finding.
+    rationale: 'Assessment was completed. Quality-scoring evidence does not connect IAA-quality inadequacy to dopaminergic capacity. Tyrosine is dispensable when phenylalanine is adequate. The capacity-constraint link remains a material gap, not a negative finding.'
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: competitive-lat1
-    applicability_proposition: >-
-      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
-      this mechanism’s governed dopaminergic capacity.
+    applicability_proposition: Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed dopaminergic capacity.
     disposition: unresolved
     established_links:
       - Competitive LAT1 presentation can change tyrosine arrival (Fernstrom 2013).
       - Fernstrom 2013: ordinary protein-driven LNAA changes have minimal effects on tyrosine uptake and catecholamine synthesis.
     inferred_links:
-      - The same competitive arm, under branched-chain amino-acid mixtures or activated tyrosine hydroxylase, would constrain dopamine synthesis.
+      - 'The same competitive arm, under branched-chain amino-acid mixtures or activated tyrosine hydroxylase, would constrain dopamine synthesis.'
     evidence_source:
       finding_ids:
         - PM3-F1
       citation_keys:
         - fernstrom_lnna_2013
-    rationale: >-
-      Assessment of ordinary protein-driven LNAA change is complete and does not
-      support a constraint on dopamine synthesis. That exposure does not close the
-      whole competitive arm. Branched-chain amino-acid mixtures remain a different
-      exposure and were not used to claim non-application. Public mapping is not
-      published.
+    rationale: Assessment of ordinary protein-driven LNAA change is complete and does not support a constraint on dopamine synthesis. That exposure does not close the whole competitive arm. Branched-chain amino-acid mixtures remain a different exposure and were not used to claim non-application. Public mapping is not published.
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: one-carbon-methyl-donor-pool
-    applicability_proposition: >-
-      Inadequacy of the shared methyl-donor pool can constrain this mechanism’s
-      governed dopaminergic capacity.
+    applicability_proposition: Inadequacy of the shared methyl-donor pool can constrain this mechanism’s governed dopaminergic capacity.
     disposition: unresolved
     established_links:
       - COMT contributes to dopamine metabolism and uses SAM (PM3 §5.2; MacDonald 2024).
@@ -740,17 +913,11 @@ kc_applicability_adjudications:
       citation_keys:
         - kennedy_b_2016
         - macdonald_dopamine_2024
-    rationale: >-
-      This existing KC was added after a mission-coverage scan. SAM use by COMT is
-      enzyme chemistry, not a demonstrated constraint on synthesis, storage, release,
-      receptor signalling or reuptake. The attached corpus does not show that ordinary
-      one-carbon variation controls regional dopamine clearance. Not a negative finding.
+    rationale: 'This existing KC was added after a mission-coverage scan. SAM use by COMT is enzyme chemistry, not a demonstrated constraint on synthesis, storage, release, receptor signalling or reuptake. The attached corpus does not show that ordinary one-carbon variation controls regional dopamine clearance. Not a negative finding.'
   - kc_id: BRS3(KC1)
     ikc_id: BRS3(KC1)
     arm_id: antioxidant-substrate-pool
-    applicability_proposition: >-
-      Inadequacy of the shared glutathione antioxidant-substrate pool can constrain
-      this mechanism’s governed dopaminergic capacity.
+    applicability_proposition: Inadequacy of the shared glutathione antioxidant-substrate pool can constrain this mechanism’s governed dopaminergic capacity.
     disposition: unresolved
     established_links:
       - Dopamine oxidation creates redox interactions (PM3 §5.2).
@@ -760,12 +927,174 @@ kc_applicability_adjudications:
     evidence_source:
       citation_keys:
         - sekhar_glutathione_2011
-    rationale: >-
-      PM3 already listed BRS3 as a constrained dependency. GSH-pool evidence is about
-      glutathione synthesis, not dopaminergic capacity. Antioxidant exposure was not
-      shown here to modify human dopaminergic signalling. The capacity-constraint link
-      remains a material gap.
+    rationale: 'PM3 already listed BRS3 as a constrained dependency. GSH-pool evidence is about glutathione synthesis, not dopaminergic capacity. Antioxidant exposure was not shown here to modify human dopaminergic signalling. The capacity-constraint link remains a material gap.'
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    arm_id: monoamine-precursor-supply
+    applicability_proposition: Supported upstream tyrosine provision is admitted separately from the unresolved competitive constraint.
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    established_links:
+      - The reviewed pool supplies tyrosine for the dopamine synthesis reaction. The individual tyrosine disclosure is retained in Direct Requirements above; this KC record preserves its upstream provenance without a second copy.
+    inferred_links:
+      - A separate competitive capacity constraint is not established.
+    evidence_source:
+      finding_ids:
+        - PM3-F13
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: Supported upstream tyrosine provision is admitted separately from the unresolved competitive constraint.
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: sam-resource-upstream-supply
+    applicability_proposition: 'This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.'
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    established_links:
+      - '[BRS2 PM1 — Folate/B12 remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2 PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) replenish methionine used by [BRS2 PM3 — SAM synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis); COMT uses SAM during dopamine metabolism.'
+      - Human COMT uses SAM during catecholamine methylation.
+    inferred_links:
+      - Dietary contribution to local neural SAM and a limiting effect on regional clearance are not measured.
+    evidence_source:
+      finding_ids:
+        - PM3-F12
+      citation_keys: &ref_1
+        - froese_vitamin_2019
+        - obeid_metabolic_2013
+        - bailey_human_mat2a_2021
+        - evans_betaine_2002
+        - salvi_choline_2013
+        - lotta_human_comt_1995
+    rationale: 'This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.'
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1-KC1-KIT-3
+    arm_id: individual-catecholamine-supply
+    applicability_proposition: phenylalanine supplies a catecholamine precursor for this PM.
+    disposition: unresolved
+    evidence_source:
+      finding_ids:
+        - PM3-F13
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: Individual conversion/supply appraisal in this PM context remains required before publication.
+  - kc_id: BRS1(KC1)
+    ikc_id: BRS1-KC1-KIT-1
+    arm_id: individual-catecholamine-supply
+    applicability_proposition: tryptophan supplies a catecholamine precursor for this PM.
+    disposition: evidence-supported-non-application
+    evidence_source:
+      finding_ids:
+        - PM3-F13
+      citation_keys:
+        - fernstrom_lnna_2013
+    rationale: 'Tryptophan is a serotonin precursor/competitor, not a catecholamine precursor supply input.'
 hide_title: true
+pm_kc_relationships:
+  - relationship_id: BRS1-PM3-BRS1-KC1-PRECURSOR
+    kc_id: BRS1(KC1)
+    ikc_id: BRS1(KC1)
+    relationship_type: supported-upstream-supply
+    input: Monoamine precursor supply
+    input_type: supported upstream supply
+    pm_biological_role: The reviewed pool supplies tyrosine for the dopamine synthesis reaction. The individual tyrosine disclosure is retained in Direct Requirements above; this KC record preserves its upstream provenance without a second copy.
+    evidence_source:
+      finding_ids:
+        - PM3-F13
+      citation_keys:
+        - fernstrom_lnna_2013
+    evidence_limitation: Only tyrosine supply is admitted here. Phenylalanine publication awaits its individual source/context appraisal; tryptophan is not admitted as catecholamine supply. Competitive inadequacy as a limiting constraint remains unresolved.
+    presentation_label: Monoamine precursor supply
+    reader_description: The shared LNAA pool supplies tyrosine upstream of dopamine synthesis.
+    description_finding_id: PM3-F13
+    applicability_label: Supported upstream supply
+    origin_label: 'BRS1 KC1: Monoamine Precursor Pool'
+    kc_href: /docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance
+    constituent_relationships:
+      - relationship_id: BRS1-PM3-BRS1-KC1-KIT-2-SUPPLY
+        pm_atom_id: PM3-DIT-5
+        kc_atom_id: BRS1-KC1-KIT-2
+        ikc_id: BRS1-KC1-KIT-2
+        substance_id: tyrosine
+        canonical_identity: *ref_0
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Tyrosine
+        reader_description: Tyrosine supplies the starting material upstream of dopamine synthesis.
+        description_finding_id: PM3-F13
+        rationale: 'Individually adjudicated tyrosine precursor provision, not automatic membership inheritance.'
+        public_disclosure: consolidated-reference
+        retained_record_ids:
+          - PM3-DIT-5
+        provenance:
+          - BRS1-KC1-KIT-2
+          - system/brs1-kc1-and-pm3-pm4-pm7-upstream-supply-review.md
+    public_disclosure: pool-with-consolidated-individual-reference
+  - relationship_id: BRS1-PM3-BRS2-KC1-SUPPLY
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    relationship_type: supported-upstream-supply
+    input: Methyl-resource supply for COMT
+    input_type: supported upstream supply
+    pm_biological_role: '[BRS2 PM1 — Folate/B12 remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2 PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) replenish methionine used by [BRS2 PM3 — SAM synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis); COMT uses SAM during dopamine metabolism.'
+    evidence_source:
+      finding_ids:
+        - PM3-F12
+      citation_keys: *ref_1
+    evidence_limitation: 'This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.'
+    presentation_label: Methyl-resource supply for COMT
+    reader_description: The methyl-donor pool supports the methionine/SAM resource used in dopamine metabolism.
+    description_finding_id: PM3-F12
+    applicability_label: Supported upstream supply
+    origin_label: 'BRS2 KC1: Methyl Donor Pool'
+    kc_href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
+    constituent_relationships:
+      - relationship_id: BRS1-PM3-BRS2-KC1-KIT-1-SUPPLY
+        pm_atom_id: BRS1-PM3-KC1-DONOR-1
+        kc_atom_id: BRS2-KC1-KIT-1
+        ikc_id: BRS2-KC1-KIT-1
+        substance_id: vitamin-b9
+        canonical_identity: *ref_2
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Vitamin B9 (folate)
+        reader_description: Folate supports methionine regeneration upstream of the SAM used by COMT.
+        description_finding_id: PM3-F12
+        rationale: Individually source-supported connected supply chain; compartment contribution and limiting effects are not claimed.
+      - relationship_id: BRS1-PM3-BRS2-KC1-KIT-3-SUPPLY
+        pm_atom_id: BRS1-PM3-KC1-DONOR-2
+        kc_atom_id: BRS2-KC1-KIT-3
+        ikc_id: BRS2-KC1-KIT-3
+        substance_id: betaine
+        canonical_identity: *ref_3
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Betaine
+        reader_description: Betaine supports peripheral methionine supply upstream of SAM-dependent catecholamine metabolism.
+        description_finding_id: PM3-F12
+        rationale: Individually source-supported connected supply chain; compartment contribution and limiting effects are not claimed.
+      - relationship_id: BRS1-PM3-BRS2-KC1-KIT-2-SUPPLY
+        pm_atom_id: BRS1-PM3-KC1-DONOR-3
+        kc_atom_id: BRS2-KC1-KIT-2
+        ikc_id: BRS2-KC1-KIT-2
+        substance_id: choline
+        canonical_identity: *ref_4
+        kc_membership_status: canonical-reviewed
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        label: Choline
+        reader_description: Choline can supply betaine for the peripheral methionine/SAM resource route.
+        description_finding_id: PM3-F12
+        rationale: Individually source-supported connected supply chain; compartment contribution and limiting effects are not claimed.
+key_constraints:
+  - BRS1(KC1) - Monoamine Precursor LNAA Competitive Balance
+  - BRS2(KC1) - Methyl Donor Pool
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -780,7 +1109,7 @@ hide_title: true
 
 (Dopamine synthesis, signalling, reuptake and metabolism)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
@@ -792,7 +1121,7 @@ Maintain appropriately regulated dopamine synthesis, storage, release, receptor 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1 Dietary Requirements</strong>
+<strong>1.1 Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -800,13 +1129,13 @@ Maintain appropriately regulated dopamine synthesis, storage, release, receptor 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+<strong>1.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 - Tyrosine
 - Iron
-- Pyridoxal-5′-phosphate (PLP)
+- Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 - Vitamin B6
 
 </div>
@@ -817,7 +1146,7 @@ Maintain appropriately regulated dopamine synthesis, storage, release, receptor 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.2 Cofactors and Substrates</strong>
+<strong>1.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -833,11 +1162,21 @@ Tetrahydrobiopterin is an endogenous cofactor required for tyrosine hydroxylatio
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.3 Key Constraints</strong>
+<strong>1.1.3 Key Constraints</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No mapping established.
+- Monoamine precursor supply
+
+Tyrosine’s full disclosure remains in §1.1.1 Direct Requirements above; the KC relationship records its upstream provenance.
+
+- Methyl-resource supply for COMT
+
+**Individual KC inputs**
+
+- Vitamin B9 (folate)
+- Betaine
+- Choline
 
 </div>
 </div>
@@ -849,11 +1188,11 @@ No mapping established.
 </div>
 ### Overview
 
-Dopaminergic regulation coordinates dopamine synthesis, vesicular storage, activity-dependent release, receptor signalling, transporter-mediated reuptake and metabolism. Its effects vary by brain region, receptor, baseline state and task, so neither lower nor higher signalling is uniformly advantageous Cools and D'Esposito (2011) [[4]](#pm-ref-4). Together, these stages regulate where, when and how strongly dopamine acts. Measurements of dopamine concentration, synthesis capacity, release, receptor availability and transporter binding describe different processes and should not be treated as interchangeable Karrer et al. (2017) [[8]](#pm-ref-8); MacDonald et al. (2024) [[9]](#pm-ref-9).
+Dopamine signalling is set by how much is made, stored, released, sensed, taken back up and broken down. [[8]](#pm-ref-8) The result depends on brain region, receptor type, baseline state and the task, so more signalling is not always better. [[4]](#pm-ref-4) Tests of synthesis, release, receptors and transporters are not one dopamine level. [[8]](#pm-ref-8) [[9]](#pm-ref-9) This regulation supports cognitive control and willingness to spend mental effort. [[4]](#pm-ref-4) [[5]](#pm-ref-5)
 
-* **Mechanism boundary:** Includes neuronal dopamine formation through signalling and clearance; circulating precursor supply and blood–brain transport are upstream processes.
-* **Evidence boundary:** Receptor, transporter, metabolite and synthesis measures each establish their measured dopamine process, not a single global dopamine level Karrer et al. (2017) [[8]](#pm-ref-8).
-* **Biological relevance:** Dopamine contributes to cognitive control, flexibility and effort allocation, but mechanistic or medication-target evidence does not establish dietary modification or ADHD treatment benefit Cools and D'Esposito (2011) [[4]](#pm-ref-4); Westbrook et al. (2020) [[5]](#pm-ref-5); MacDonald et al. (2024) [[9]](#pm-ref-9).
+- **Benefits:** Dopamine contributes to working memory, cognitive control and the choice to spend mental effort. [[4]](#pm-ref-4) [[5]](#pm-ref-5) Those effects depend on baseline state and brain region. They are not a measured benefit from taking more iron, vitamin B6 or tyrosine. [[2]](#pm-ref-2) [[9]](#pm-ref-9) [[11]](#pm-ref-11)
+- **Implementation Notes:** Tyrosine, iron, and vitamin B6 are the substrate and cofactor relationships. [[2]](#pm-ref-2) [[19]](#pm-ref-19) An open tyrosine trial did not show a sustained attention benefit. [[11]](#pm-ref-11) Extra iron or vitamin B6, once status is adequate, is not established to raise brain dopamine. [[2]](#pm-ref-2) Tetrahydrobiopterin is made in the body and is not a dietary recommendation here. [[1]](#pm-ref-1)
+- **Biological Relevance:** This signalling sits downstream of precursor supply and entry into the brain - see [PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
 
 ## 2. Primary Biological Effects
 
@@ -963,9 +1302,9 @@ Cools and D'Esposito (2011) [[4]](#pm-ref-4), Westbrook et al. (2020) [[5]](#pm-
 
 ### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.
+Human pharmacology and PET evidence supports context-dependent dopamine regulation: baseline synthesis capacity, receptor involvement and cognitive demand influence motivation and flexibility, so effects are not uniformly enhancing. [[4]](#pm-ref-4) [[5]](#pm-ref-5) [[7]](#pm-ref-7) Exercise, sleep deprivation and dietary restriction studies demonstrate changes in different dopaminergic endpoints—release and receptor availability must be distinguished. [[15]](#pm-ref-15) [[16]](#pm-ref-16) [[17]](#pm-ref-17) Biochemical and deficiency evidence separately supports synthesis requirements, without establishing that extra precursor intake improves human signalling. [[1]](#pm-ref-1) [[3]](#pm-ref-3)
 
 <ScientificFinding finding={{"id":"PM3-F1","finding_label":"Dopamine synthesis requires distinct substrate and cofactor steps","finding_summary":"Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation{{cite:fanet_tetrahydrobioterin_2021,beard_iron_2003,kennedy_b_2016}}. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.","finding_interpretation":"This finding supports tyrosine as the hydroxylase substrate, iron, PLP and vitamin B6 as dietary-requirement atoms, and BH4 as an endogenous biochemical cofactor; none is an intake-responsive dopamine lever.","fm_rollup":true,"finding_statement":"Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Biochemical reviews identify tetrahydrobiopterin and iron as requirements for aromatic amino-acid hydroxylation and pyridoxal-5′-phosphate as a catecholamine-synthesis cofactor. Experimental iron deficiency alters striatal and nucleus-accumbens dopamine metabolites in rats, supporting biological sensitivity under deficiency. Together this establishes pathway dependence, not ordinary-diet control of human brain dopamine.","synthesis_limitations":"The most direct deficiency evidence is preclinical, and the reviewed sources do not establish common inadequacy in a defined clinical population, responsiveness when baseline status is adequate, or functional benefit mediated by dopamine.","evidence_considered":[{"label":"Fanet et al. (2021)","citation_key":"fanet_tetrahydrobioterin_2021","href":"/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"BH4 is required for aromatic amino-acid hydroxylation and therefore for dopamine synthesis.","assessment":{"study":"Narrative biochemical review of tetrahydrobiopterin and monoamine synthesis pathways.","population":"Mixed mechanistic literature; not a defined dietary intervention population.","result":"Identified BH4 as necessary for aromatic amino-acid hydroxylation and monoamine synthesis.","effect_magnitude":"No pooled intake-response effect estimate.","evidence_summary":"Supports reaction-level requirements and pathway boundaries.","limitations":"Does not establish that increasing dietary intake modifies human brain dopamine or improves function."},"canonical_reference":{"author_year":"Fanet et al. (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Erikson et al. (2000)","citation_key":"erikson_iron_2000","href":"/docs/papers/BRAIN-Diet-References#erikson_iron_2000","data_level":"Animal Data","exposure_context":"dietary iron deficiency","evidence_source":"repository-inherited","directional_finding":"Increasing severity of iron deficiency altered locomotor activity and dopamine metabolites in rat striatum and nucleus accumbens.","assessment":{"study":"Controlled rat dietary iron-deficiency experiment with regional dopamine-metabolite and locomotor outcomes.","population":"Laboratory rats under graded iron deficiency.","result":"Iron deficiency changed regional dopamine-metabolite profiles and locomotor activity, with severity-dependent effects.","effect_magnitude":"Directional severity-response; no human-equivalent effect estimate.","evidence_summary":"Supports dopamine-system sensitivity to marked iron deficiency.","limitations":"Animal deficiency model; metabolite concentrations do not directly measure synthesis flux or predict human clinical benefit."},"canonical_reference":{"author_year":"Erikson et al. (2000)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[{"label":"Beard et al. (2003)","citation_key":"beard_iron_2003","href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","data_level":"Animal Data","why_relevant":"Reviews iron-dependent dopamine biology and behavioural consequences of deficiency.","why_excluded":"Review-level and predominantly preclinical; it does not add a human intake-to-dopamine estimate.","canonical_reference":{"author_year":"Beard et al. (2003)","number":2,"anchor":"#pm-ref-2"}},{"label":"Kennedy (2016)","citation_key":"kennedy_b_2016","href":"/docs/papers/BRAIN-Diet-References#kennedy_b_2016","data_level":"Mechanistic","why_relevant":"Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as a cofactor context for dopamine formation.","why_excluded":"General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-dopamine response.","canonical_reference":{"author_year":"Kennedy (2016)","number":19,"anchor":"#pm-ref-19"}},{"label":"Spector (1978)","citation_key":"spector_vitamin_1978","href":"/docs/papers/BRAIN-Diet-References#spector_vitamin_1978","data_level":"Animal Data","why_relevant":"Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.","why_excluded":"Rabbit transport study; it does not measure dopamine synthesis, release or function.","canonical_reference":{"author_year":"Spector (1978)","number":20,"anchor":"#pm-ref-20"}}],"presentation":"mechanistic-basis"}} />
 
@@ -988,6 +1327,10 @@ Dopaminergic regulation is a multi-stage control system, not a single concentrat
 <ScientificFinding finding={{"id":"PM3-F10","finding_label":"Acute sleep deprivation downregulates ventral-striatal D2/D3 availability","finding_summary":"In healthy adults, one night of total sleep deprivation reduced ventral-striatal D2/D3 receptor availability and was associated with lower alertness and greater sleepiness. The methylphenidate comparison supported receptor downregulation rather than increased dopamine release.","finding_interpretation":"This identifies an acute sleep-state constraint on receptor signalling; it is not evidence that ordinary sleep extension increases dopamine or improves a clinical condition.","finding_statement":"One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor availability in healthy adults and is associated with reduced alertness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Within-person PET scans after rested sleep and one night of total sleep deprivation showed lower ventral-striatal D2/D3 receptor availability during deprivation. Methylphenidate-induced dopamine increases did not differ by sleep state, supporting receptor downregulation rather than a deprivation-induced rise in dopamine release.","synthesis_limitations":"The experiment was acute, involved a small healthy sample and used receptor availability as an imaging construct. It does not establish effects of normal sleep variation, a sleep intervention, chronic outcomes or clinical benefit.","evidence_considered":[{"label":"Volkow et al. (2012)","citation_key":"volkow_sleep_deprivation_2012","href":"/docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012","data_level":"Human Mechanistic","exposure_context":"one night of total sleep deprivation versus rested sleep","evidence_source":"bounded-external-search","directional_finding":"Sleep deprivation reduced ventral-striatal D2/D3 receptor availability, associated with lower alertness and greater sleepiness, without increasing the methylphenidate-evoked dopamine response.","assessment":{"study":"Within-person [11C]raclopride PET study after rested sleep and total sleep deprivation, each under placebo and methylphenidate conditions.","population":"Twenty healthy adults.","result":"Ventral-striatal receptor availability decreased after deprivation and tracked reduced alertness; pharmacological comparison supported receptor downregulation.","effect_magnitude":"Region-specific PET change and behavioural associations; no general clinical effect estimate.","evidence_summary":"Provides direct human evidence that acute sleep state constrains a specific dopamine-receptor measure.","limitations":"Small healthy sample, one night of total deprivation, pharmacological probe and no chronic or clinical outcome."},"canonical_reference":{"author_year":"Volkow et al. (2012)","number":16,"anchor":"#pm-ref-16"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
 
 <ScientificFinding finding={{"id":"PM3-F11","finding_label":"Short restrictive dietary protocols alter dopamine receptor binding in obesity","finding_summary":"Two small human PET studies found lower regional D2/D3 receptor binding potential after short restrictive dietary protocols in adults with obesity. The imaging changes are compatible with altered endogenous dopamine occupancy but do not uniquely identify that mechanism.","finding_interpretation":"This supports two tightly bounded Dietary & Fasting Protocol relationships for adults with obesity, not general reduced-fat or very-low-calorie diet recommendations.","finding_statement":"Short-term selective fat restriction and very-low-calorie dieting can alter regional D2/D3 receptor binding potential in adults with obesity under controlled research conditions.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In a randomized inpatient crossover study, five days of selective isocaloric fat restriction reduced striatal D2/D3 binding potential and food-cue activity, whereas selective carbohydrate restriction did not. In a separate before-and-after study, about ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 binding potential in women with obesity, with regional changes tracking leptin reduction.","synthesis_limitations":"Both studies were short and population-specific. D2/D3 binding potential reflects receptor availability and competition from endogenous dopamine, so the imaging result cannot by itself distinguish receptor regulation from altered dopamine occupancy.","evidence_considered":[{"label":"Darcey et al. (2023)","citation_key":"darcey_dietary_fat_2023","href":"/docs/papers/BRAIN-Diet-References#darcey_dietary_fat_2023","data_level":"Human Mechanistic","exposure_context":"five-day selective isocaloric dietary-fat or carbohydrate restriction","evidence_source":"bounded-external-search","directional_finding":"Selective fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity; selective carbohydrate restriction did not.","assessment":{"study":"Randomized inpatient crossover study using [18F]fallypride PET and food-cue functional MRI.","population":"Seventeen adults with obesity.","result":"D2/D3 binding potential decreased in bilateral striatal clusters after the reduced-fat diet, with no significant change after carbohydrate restriction.","effect_magnitude":"Significant cluster-level reductions in left putamen and right caudate/putamen; no general clinical effect estimate.","evidence_summary":"Directly supports a short, controlled dietary-protocol relationship with a specified dopamine imaging measure.","limitations":"Small obesity-specific sample, five-day exposure and no ability to separate receptor regulation from endogenous dopamine occupancy."},"canonical_reference":{"author_year":"Darcey et al. (2023)","number":17,"anchor":"#pm-ref-17"}},{"label":"Dunn et al. (2017)","citation_key":"dunn_caloric_restriction_2017","href":"/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017","data_level":"Human Mechanistic","exposure_context":"approximately ten days of very-low-calorie dieting","evidence_source":"bounded-external-search","directional_finding":"Very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential, and regional binding changes were associated with reduced leptin.","assessment":{"study":"Before-and-after [18F]fallypride PET study with metabolic and neuroendocrine measurements.","population":"Fifteen women with obesity.","result":"Substantia-nigra D2/D3 binding potential decreased significantly, with nonsignificant trends in other regions; leptin change predicted regional binding change.","effect_magnitude":"Approximately 3 kg mean weight loss; leptin–binding-potential associations were significant across assessed regions.","evidence_summary":"Supports a short-term calorie-restriction relationship with a regional dopamine imaging measure.","limitations":"Uncontrolled, small female sample and no ability to separate receptor regulation from endogenous dopamine occupancy."},"canonical_reference":{"author_year":"Dunn et al. (2017)","number":18,"anchor":"#pm-ref-18"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM3-F12","finding_label":"Remethylation supplies the methionine/SAM resource used by COMT","finding_summary":"Remethylation can replenish methionine for SAM synthesis; human COMT uses SAM to methylate dopamine.","finding_statement":"Remethylation can replenish methionine for SAM synthesis; human COMT uses SAM to methylate dopamine.","finding_interpretation":"This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"Verified BRS2 PM1/PM2/PM3 Findings establish folate-dependent remethylation, betaine/BHMT remethylation, choline-to-betaine provision and MAT substrate use. Lotta's recombinant human COMT work establishes the downstream methyl-transfer reaction. These successive reactions support upstream resource provision. They do not directly measure transfer of a dietary donor into regional neural SAM or a change in signalling.","synthesis_limitations":"This establishes the connected biochemical supply route, not a measured dietary effect on regional neural SAM or COMT clearance. BHMT is predominantly hepatic/renal; peripheral methionine contribution, local SAM synthesis, alternative supply and turnover vary by tissue. Donor inadequacy as a limiting constraint and benefit from extra intake in replete individuals remain unresolved.","evidence_considered":[{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes folate/B12 remethylation and placement before MAT synthesis; reviewed on PM1-F1.","canonical_reference":{"author_year":"Froese et al. (2019)","number":24,"anchor":"#pm-ref-24"}},{"label":"Obeid (2013)","citation_key":"obeid_metabolic_2013","href":"/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes betaine donation and choline provision in connected remethylation; reviewed on PM2-F1/F2.","canonical_reference":{"author_year":"Obeid (2013)","number":25,"anchor":"#pm-ref-25"}},{"label":"Bailey et al. (2021)","citation_key":"bailey_human_mat2a_2021","href":"/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Establishes methionine and ATP use in human MAT2A; reviewed on PM3-F1.","canonical_reference":{"author_year":"Bailey et al. (2021)","number":26,"anchor":"#pm-ref-26"}},{"label":"Evans et al. (2002)","citation_key":"evans_betaine_2002","href":"/docs/papers/BRAIN-Diet-References#evans_betaine_2002","data_level":"Cellular / Molecular","evidence_source":"repository-inherited","directional_finding":"Human BHMT reaction identity; supports betaine-to-methionine provision, not dietary MAT responsiveness.","canonical_reference":{"author_year":"Evans et al. (2002)","number":27,"anchor":"#pm-ref-27"}},{"label":"Salvi and Gadda (2013)","citation_key":"salvi_choline_2013","href":"/docs/papers/BRAIN-Diet-References#salvi_choline_2013","data_level":"Cellular / Molecular","evidence_source":"repository-inherited","directional_finding":"Choline oxidation through betaine aldehyde to betaine; supports route identity, not MAT flux.","canonical_reference":{"author_year":"Salvi and Gadda (2013)","number":28,"anchor":"#pm-ref-28"}},{"label":"Lotta et al. (1995)","citation_key":"lotta_human_comt_1995","href":"/docs/papers/BRAIN-Diet-References#lotta_human_comt_1995","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Recombinant human COMT catalysed SAM-dependent methylation of dopamine and noradrenaline.","assessment":{"study":"Kinetic characterisation of recombinant soluble and membrane-bound human COMT.","population":"Human proteins expressed in bacterial and insect-cell systems; not a dietary or in-vivo neural trial.","result":"Measured catecholamine methylation and SAM affinity of both enzyme forms.","effect_magnitude":"Different SAM binding affinities; no dietary intake, brain supply or functional effect estimate.","evidence_summary":"Establishes SAM use during catecholamine methylation.","limitations":"Primary abstract inspected; full experimental methods/results not obtained. Does not attribute neural SAM supply or clearance changes to donor intake."},"canonical_reference":{"author_year":"Lotta et al. (1995)","number":29,"anchor":"#pm-ref-29"}}],"connected_supportive_evidence":[],"informs":[],"evidence_dependency":["BRS2 PM1-F1, PM2-F1/F2 and PM3-F1/F4 are reused for reaction identity, not counted as new independent dietary or brain-supply evidence. Lotta (1995) is reused across the dopamine and noradrenaline PMs; this is one enzyme dataset, not independent replication."]}} />
+
+<ScientificFinding finding={{"id":"PM3-F13","finding_label":"The shared LNAA pool presents tyrosine upstream of catecholamine synthesis","finding_summary":"The reviewed LNAA pool supplies tyrosine upstream of dopamine synthesis.","finding_statement":"The reviewed LNAA pool supplies tyrosine upstream of dopamine synthesis.","finding_interpretation":"Ordinary dietary LNAA changes do not establish uniform effects on catecholamine synthesis, regional signalling or benefit. The separately recorded competitive capacity-constraint proposition remains unresolved.","presentation":"mechanistic-basis","fm_rollup":false,"synthesised_evidence_confidence":"not-yet-scored","synthesis":"LAT1 presentation supplies tyrosine used by the local hydroxylase reaction already assessed in PM3-F1. This is the same provision job as PM3-DIT-5, not a second limiting constraint.","synthesis_limitations":"Ordinary dietary LNAA changes do not establish uniform effects on catecholamine synthesis, regional signalling or benefit. The separately recorded competitive capacity-constraint proposition remains unresolved.","evidence_considered":[{"label":"Fernstrom (2013)","citation_key":"fernstrom_lnna_2013","href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Reviewed LNAA transport competition and tyrosine presentation upstream of catecholamine synthesis; ordinary protein-driven changes do not uniformly increase catecholamine synthesis.","assessment":{"study":"Review of LNAA transport, dietary precursor presentation and brain neurochemistry.","population":"Mixed experimental contexts; not a new human noradrenergic dietary trial.","result":"Tyrosine availability and competing LNAA context are relevant to brain precursor supply.","effect_magnitude":"No universal limiting intake or regional signalling response established.","evidence_summary":"Supports upstream presentation of tyrosine, with separate synthesis and functional boundaries.","limitations":"Review; source-linked reaction identity is reused from existing local synthesis Findings. Does not establish a new competitive capacity constraint or benefit from increased intake."},"canonical_reference":{"author_year":"Fernstrom (2013)","number":30,"anchor":"#pm-ref-30"}}],"connected_supportive_evidence":[],"informs":[],"evidence_dependency":["Fernstrom (2013) and the existing local synthesis Findings are reused for transport/precursor identity, not independent dietary efficacy evidence."]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -1143,7 +1486,14 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-18">[18]</span> [Dunn et al. (2017) — Caloric Restriction and Dopamine Receptor Availability](/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017)
 - <span id="pm-ref-19">[19]</span> [Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
 - <span id="pm-ref-20">[20]</span> [Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)
-- <span id="pm-ref-21">[21]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
-- <span id="pm-ref-22">[22]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-- <span id="pm-ref-23">[23]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- <span id="pm-ref-24">[24]</span> [Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+- <span id="pm-ref-21">[21]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-22">[22]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- <span id="pm-ref-23">[23]</span> [Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+- <span id="pm-ref-24">[24]</span> [Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
+- <span id="pm-ref-25">[25]</span> [Obeid (2013) — Metabolic Burden of Methyl Donor Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
+- <span id="pm-ref-26">[26]</span> [Bailey et al. (2021) — Human MAT2A ordered kinetic mechanism](/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021)
+- <span id="pm-ref-27">[27]</span> [Evans et al. (2002) — Human BHMT structure and catalytic zinc](/docs/papers/BRAIN-Diet-References#evans_betaine_2002)
+- <span id="pm-ref-28">[28]</span> [Salvi and Gadda (2013) — Choline dehydrogenase and betaine formation](/docs/papers/BRAIN-Diet-References#salvi_choline_2013)
+- <span id="pm-ref-29">[29]</span> [Lotta et al. (1995) — Human COMT kinetics and SAM-dependent catecholamine methylation](/docs/papers/BRAIN-Diet-References#lotta_human_comt_1995)
+- <span id="pm-ref-30">[30]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+

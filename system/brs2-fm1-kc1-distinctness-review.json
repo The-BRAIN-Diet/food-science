@@ -1,0 +1,279 @@
+{
+  "reviewed_on": "2026-10-07",
+  "scope": "BRS2-FM1 PM1, PM2, PM4; PM3 pilot unchanged",
+  "candidateIds": [
+    "PM1-DIT-2-KC1-ADMISSION",
+    "PM2-DIT-1-KC1-ADMISSION",
+    "PM2-DIT-2-KC1-ADMISSION",
+    "PM4-DIT-3-KC1-ADMISSION",
+    "PM4-KC1-SUPPLY-2-KC1-ADMISSION",
+    "PM4-KC1-SUPPLY-3-KC1-ADMISSION"
+  ],
+  "publicIds": [
+    "PM4-KC1-SUPPLY-2-KC1-ADMISSION",
+    "PM4-KC1-SUPPLY-3-KC1-ADMISSION"
+  ],
+  "rows": [
+    {
+      "pm_id": "BRS2-FM1-PM1",
+      "relationship_id": "PM1-DIT-2-KC1-ADMISSION",
+      "disposition": "consolidated as duplicate",
+      "compared_records": {
+        "3.1.1": [
+          "PM1-DIT-1",
+          "PM1-DIT-2",
+          "PM1-DIT-3",
+          "PM1-DIT-4"
+        ],
+        "3.1.2": [
+          "PM1-DIT-5"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.",
+      "compared_biological_jobs": [],
+      "rationale": "The same provision job already has a full atom. KC provenance and separately admitted applicability are added to that retained atom, with a public cross-reference; no additional full KC disclosure is published.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "froese_vitamin_2019"
+        ]
+      },
+      "retained_record_ids": [
+        "PM1-DIT-2"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-1",
+        "BRS2-KC1-KIT-1",
+        "PM1-KC1-FOLATE-SUPPLY",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Retained provision disclosure referenced; admitted connection remains."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM2",
+      "relationship_id": "PM2-DIT-1-KC1-ADMISSION",
+      "disposition": "consolidated as duplicate",
+      "compared_records": {
+        "3.1.1": [
+          "PM2-DIT-1",
+          "PM2-DIT-2"
+        ],
+        "3.1.2": [
+          "PM2-DIT-3",
+          "PM2-DIT-4"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Methyl-donor substrate for BHMT remethylation of homocysteine to methionine",
+      "compared_biological_jobs": [],
+      "rationale": "The same provision job already has a full atom. KC provenance and separately admitted applicability are added to that retained atom, with a public cross-reference; no additional full KC disclosure is published.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-IC1"
+        ],
+        "citation_keys": [
+          "evans_betaine_2002",
+          "breksa_zinc_1999",
+          "olthof_low_2003"
+        ]
+      },
+      "retained_record_ids": [
+        "PM2-DIT-1"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-3",
+        "BRS2-KC1-KIT-3",
+        "PM2-KC1-DEPLETION-CONSTRAINT",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Retained provision disclosure referenced; admitted connection remains."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM2",
+      "relationship_id": "PM2-DIT-2-KC1-ADMISSION",
+      "disposition": "consolidated as duplicate",
+      "compared_records": {
+        "3.1.1": [
+          "PM2-DIT-1",
+          "PM2-DIT-2"
+        ],
+        "3.1.2": [
+          "PM2-DIT-3",
+          "PM2-DIT-4"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Dietary precursor that can be oxidised to betaine, the methyl-donor substrate for BHMT",
+      "compared_biological_jobs": [],
+      "rationale": "The same provision job already has a full atom. KC provenance and separately admitted applicability are added to that retained atom, with a public cross-reference; no additional full KC disclosure is published.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F2",
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "retained_record_ids": [
+        "PM2-DIT-2"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-2",
+        "BRS2-KC1-KIT-2",
+        "PM2-KC1-DEPLETION-CONSTRAINT",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Retained provision disclosure referenced; admitted connection remains."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM4",
+      "relationship_id": "PM4-DIT-3-KC1-ADMISSION",
+      "disposition": "consolidated as duplicate",
+      "compared_records": {
+        "3.1.1": [
+          "PM4-DIT-1",
+          "PM4-DIT-2",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.1.2": [
+          "PM4-DIT-1",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Supplies 5-methyltetrahydrofolate, the methyl donor used when the cycle remethylates homocysteine",
+      "compared_biological_jobs": [],
+      "rationale": "The same provision job already has a full atom. KC provenance and separately admitted applicability are added to that retained atom, with a public cross-reference; no additional full KC disclosure is published.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F1",
+          "PM4-IC1"
+        ],
+        "citation_keys": [
+          "finkelstein_homocysteine_1998",
+          "froese_vitamin_2019",
+          "collaboration_lowering_1998"
+        ]
+      },
+      "retained_record_ids": [
+        "PM4-DIT-3"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-1",
+        "BRS2-KC1-KIT-1",
+        "PM4-KC1-REMETHYLATION-SUPPLY",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Retained provision disclosure referenced; admitted connection remains."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM4",
+      "relationship_id": "PM4-KC1-SUPPLY-2-KC1-ADMISSION",
+      "disposition": "distinct",
+      "compared_records": {
+        "3.1.1": [
+          "PM4-DIT-1",
+          "PM4-DIT-2",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.1.2": [
+          "PM4-DIT-1",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Betaine donates a methyl group through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) to regenerate methionine returned to the integrated methionine cycle.",
+      "compared_biological_jobs": [],
+      "rationale": "The existing PM records do not contain this individually evidenced betaine remethylation or choline-to-betaine supply job. It is published once as upstream supply, without asserting a new limiting bottleneck.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F5"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "evans_betaine_2002"
+        ]
+      },
+      "retained_record_ids": [
+        "PM4-KC1-SUPPLY-2"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-3",
+        "BRS2-KC1-KIT-3",
+        "PM4-KC1-REMETHYLATION-SUPPLY",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Individual upstream supply disclosure"
+    },
+    {
+      "pm_id": "BRS2-FM1-PM4",
+      "relationship_id": "PM4-KC1-SUPPLY-3-KC1-ADMISSION",
+      "disposition": "distinct",
+      "compared_records": {
+        "3.1.1": [
+          "PM4-DIT-1",
+          "PM4-DIT-2",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.1.2": [
+          "PM4-DIT-1",
+          "PM4-DIT-3",
+          "PM4-DIT-4",
+          "PM4-DIT-5",
+          "PM4-DIT-6"
+        ],
+        "3.2": []
+      },
+      "biological_job": "Choline can be oxidised to betaine, supplying methyl groups through [PM2 — Betaine/BHMT remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) for methionine regeneration within the integrated methionine cycle.",
+      "compared_biological_jobs": [],
+      "rationale": "The existing PM records do not contain this individually evidenced betaine remethylation or choline-to-betaine supply job. It is published once as upstream supply, without asserting a new limiting bottleneck.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F5"
+        ],
+        "citation_keys": [
+          "obeid_metabolic_2013",
+          "salvi_choline_2013"
+        ]
+      },
+      "retained_record_ids": [
+        "PM4-KC1-SUPPLY-3"
+      ],
+      "provenance": [
+        "BRS2-KC1-KIT-2",
+        "BRS2-KC1-KIT-2",
+        "PM4-KC1-REMETHYLATION-SUPPLY",
+        "kc_adjudication_history"
+      ],
+      "applicability_disposition": "established",
+      "public_copy": "Individual upstream supply disclosure"
+    }
+  ]
+}

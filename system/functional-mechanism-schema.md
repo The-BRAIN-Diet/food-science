@@ -1,5 +1,10 @@
 # Functional Mechanism (FM) Schema
 
+### Nutrient naming
+
+Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
+
+
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
 
 ## Build Gate Proviso
@@ -16,7 +21,7 @@ validation while remaining readable for authors.
 
 FM **§7 Phenome Connections** holds a concise integrative snapshot (`functional_outcome_context` in front matter) — normally 2–3 outcomes, max 4. It does **not** roll up all child PM phenome mappings (that belongs on future phenome graph pages). See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
 
-**Phenome review:** FM §4 supports the FM phenome workflow. **§4.2** is where integrated biological rationale is constructed; **Phase 3** independently tests whether that rationale is supported by the phenome literature. **§4.3** describes biological and functional consequences when integrated capacity declines — it is **not** an integration or stressor bucket. See [FM §4.2 and §4.3 architecture](#fm-42-and-43--distinct-responsibilities) and `system/phenome-relationship-review-methodology.md`.
+**Phenome review:** §4.1 provides a bounded functional rationale, §4.2 summarises its evidence, and §4.3 describes capacity-loss consequences. Independent phenome assessment remains required; existing ratings are unchanged by presentation migration.
 
 When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1) rule**: FM §7 phenome labels and confidence must align with that PM’s `phenome_relationships` at publish time — but Phase 2 FM review may surface candidates requiring Phase 1 PM updates first (see methodology § Single-PM FM reconciliation).
 
@@ -44,244 +49,68 @@ See also `system/brain-diet-ontology-rules.md` §1.2 and §1.4.
 - FM pages describe the integrated state that emerges, identify contributing PMs and KCs in §4, and roll up cross-BRS placement in §5.
 - Must not contain scoring formulas.
 
-## FM Authoring — Integration Without Repetition
+## FM Authoring — Synthesis Without Repetition
 
-Functional Mechanism pages must **synthesise** their PMs rather than **repeat** them.
+PMs own detailed biology, interventions and Scientific Findings. FMs provide a concise account of the functional capacity represented by their child mechanisms. The inventory is navigation; the evidence synthesis is interpretation. Neither cooperation nor shared relevance establishes synergy, superior outcomes or a confidence uplift.
 
-**Role split:** PMs own mechanisms and interventions. FMs own emergent integration.
+### Definition and Overview
 
-### FM Definition Rule
+State the FM’s biological purpose and functional relevance at a high level, using its reviewed evidence. Do not enumerate PM contributions or repeat their mechanism descriptions. Preserve the stated coverage boundary. A single-PM FM must not manufacture multi-PM integration or imply coverage beyond its child and separately supported connections.
 
-An FM definition must use **an opening paragraph (1–3 sentences) followed by exactly 3 bullets** under `## 1. Definition` (see `system/mechanism-page-section-prose.md` — **§1 Definition — UX structure**):
+### Top inventory — before the Objective, Mission or Definition
 
-**Opening paragraph:** the emergent integrated state, why it matters, and brain/body relevance — written for an intelligent non-scientist. Reflect each included PM’s contribution in plain language without repeating full PM definitions or enzymology.
+Render **Primary Mechanisms** from `mechanisms_covered` and **Key Constraints** from the existing `key_constraints` records above section 1. Each entry is a linked canonical ID and name, without a repeated contribution paragraph, nutrient list, or “Relied upon by” block. Where typed child connections have been assessed, follow the accepted-connection summary rule below. Show each record once. If no KC is recorded, omit the KC heading rather than invent a mapping. Moving these links changes presentation, not applicability or evidence status. Do not derive new admissions merely from a linked pool or import constituent inputs.
 
-**Three bullets:** downstream biological consequences and cross-system effects; end with connected BRS references where relevant (e.g. `— Supporting BRS1`). No subheading above the bullets.
+### FM section 4 — distinct responsibilities
 
-Additionally, an FM definition must:
+Use this visible order and numbering:
 
-- name the integrated regulatory state
-- explicitly reflect the core contribution of each included PM
-- describe the emergent functional consequence
-- avoid repeating PM definitions in full
+1. **§4.1 Functional Rationale** — retain a concise account of why adequate operation of the covered biology would matter functionally. No PM-by-PM walkthrough, repeated inventory, architecture commentary or assertion of superiority. This is a bounded rationale, not an independently demonstrated outcome.
+2. **§4.2 Evidence Summary** — aggregate and synthesise the child PM §4.1 Scientific Findings summaries and the underlying Findings needed to interpret them accurately. State the main findings, relevant differences in context/endpoints, and what their aggregation would mean if the covered capacities functioned adequately. Do not concatenate the PM summaries, reproduce each study assessment, or infer that separate studies tested the combined system. Keep measured effects separate from the conditional combined interpretation. Shared evidence counts once; null results and material limitations must remain visible.
+3. **§4.3 Suboptimal Function & Its Effects** — consequences when the covered capacity is constrained. This follows the Evidence Summary. Preserve context and limits; do not substitute dietary stressors, an intervention list or unreviewed phenome ratings.
 
-**Preferred pattern:**
+The old §4.1 Core Primary Mechanisms section and extended §4.2 Integrated Functional Narrative are removed from section 4. The former §4.4 Evidence Highlights becomes the concise Evidence Summary, without copied PM evidence dropdowns. Stable old anchors may remain as aliases; visible headings follow the new sequence.
 
-`Integrated regulation of [PM1 contribution], [PM2 contribution], and [PM3 contribution], influencing [emergent functional state / outcome].`
+### Evidence and decision preservation
 
-**BRS6(FM1) — PM contributions to reflect in the definition:**
+Reuse reviewed evidence. If a PM summary is only an introduction, inspect its Findings before synthesising it. Distinguish biochemical necessity, measured provision, physiological response and functional outcome. “If these capacities function adequately…” is a conditional biological interpretation, not proof of an intervention effect. Preserve reported benefits at their studied level; do not broaden strain-, tissue-, form- or population-specific findings.
 
-- PM1: glucose appearance kinetics
-- PM2: glycaemic variability regulation
-- PM3: insulin sensitivity and glucose disposal
+Do not change PM admissions, KC applicability, phenome ratings or outcome confidence to fit the layout. FM phenome decisions still require their separate evidence assessment; aggregation alone does not validate a phenome or increase confidence. Preserve removed material and its provenance in the review/archive record.
 
-**Example (canonical for BRS6(FM1)):**
+### Durable source and rendering
 
-Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
+- `mechanisms_covered` and `key_constraints` → the top linked inventory.
+- `functional_rationale` → §4.1, a concise reviewed string.
+- `fm_evidence_summary` → §4.2, a reviewed synthesis followed by its bounded combined meaning. Use `{{cite:canonical_key}}` markers resolved against the target FM’s `references`.
+- The existing Suboptimal Function body → §4.3, preserved unless separately assessed.
+- `references` → numbered `fm-ref-n` bibliography anchors. Append reused references when needed; preserve existing order and numbering. Never copy PM reference numbers into an FM.
 
-### FM archetypes — Multi-PM (Type A) vs Single-PM anchor (Type B)
+Use `scripts/lib/fm-synthesis-layout.mjs`. Generators must preserve these durable decisions, not reconstruct PM inventories or generic emergent-state prose in section 4. Missing reviewed source is a reported authoring gap, not permission to fabricate an integrated evidence claim.
 
-Full rule: **`system/single-pm-fm-rule.md`**.
+### Minimal working example
 
-| Archetype | `mechanisms_covered` | §4.2 narrative focus | Canonical reference |
-|-----------|----------------------|----------------------|---------------------|
-| **Type A — Multi-PM FM** | 2+ PMs | How PMs interact + Functional Rationale | `docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function.mdx` |
-| **Type B — Single-PM anchor FM** | 1 PM | Broader system state + Functional Rationale — **not** artificial multi-PM integration | `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` |
-
-### Single-PM FM (1:1) — definition, phenome, and narrative
-
-When `mechanisms_covered` contains **exactly one** PM (Type B):
-
-- **§1 Definition** names that PM’s integrated contribution directly (no plural “PMs” framing required).
-- **§2 Primary Biological Effects** follows the **Single-PM FM (1:1) rule** in `system/phenome-relationship-schema.md` (matching phenome labels and confidence to the child PM).
-- **§4.2 Integrated Functional Narrative** — how child PMs cooperate as an integrated system; ends with a **Functional Rationale** for candidate FM phenomes (see below). Do **not** open with “Together,” on Type B FMs.
-- **§4.3 Suboptimal Function & Its Effects** — biological and functional **consequences** when the integrated FM capacity declines — not dietary causes, stressors, or levers (see [FM §4.2 and §4.3 architecture](#fm-42-and-43--distinct-responsibilities)).
-- **§4.4 Evidence Highlights** — mechanism-qualifying evidence for why the **integrated FM biology** matters in practice; not functional outcome / phenome claims and not merely that child PMs exist.
-
-**Additional canonical (Type B, KC-linked failure modes):** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` → `BRS4-FM4-PM9`.
-
-### FM §4.2 and §4.3 — distinct responsibilities
-
-**Core principle:** FM §4.2 is where integrated biological rationale is constructed; Phase 3 independently tests whether that rationale is supported by the phenome literature. FM phenomes are **not** aggregated PM phenome dropdowns.
-
-#### Architectural flow
-
-```
-PM layer
-├── Mechanistic biology (§5)
-├── Boundaries & integration (§5, §6)
-├── Connected mechanisms (§6)
-└── Phenome mappings (§3) — mechanism-level only
-
-        │
-        ▼
-
-FM §4.2  Integrated Functional Narrative
-         • Synthesise how PMs cooperate
-         • Explain emergent functional capacity
-         • Explain biological uplift where PMs converge
-         • End with Functional Rationale (candidate FM phenomes — not published mappings)
-
-        │
-        ▼
-
-Phase 3  Independent phenome validation
-         • Test mechanism biology
-         • Test phenome domain
-         • Assign confidence → FM §7 front matter
-
-        │
-        ▼
-
-FM §4.3  Suboptimal Function & Its Effects
-         • What biology deteriorates when capacity is lost
-         • System-level functional consequences (motivate §3 — do not list registry phenomes)
-
-        │
-        ▼
-
-FM §7    Published Phenome Connections (functional_outcome_context)
+```yaml
+mechanisms_covered:
+  - id: BRS1-FM3-PM7
+    name: Neuronal Membrane DHA Incorporation
+    href: /docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation
+functional_rationale: Maintaining DHA incorporation supports neuronal membrane composition and the structural context for signalling. Current coverage is DHA-focused, rather than a comprehensive account of brain nutrient or membrane-lipid pools.
+fm_evidence_summary: >-
+  Human PET and plasma measurements estimated whole-brain DHA incorporation at 3.8 ± 1.7 mg/day.
+  Turnover estimates additionally used a previously reported pool and steady-state assumptions.
+  A porcine comparison supports delivery-form differences in gray-matter accretion, alongside reviewed carrier biology.
+  {{cite:umhau_brain_docosahexaenoic_2009,liu_higher_2014,patrick_role_2019}}
 ```
 
-| Section | Question it answers |
-|---------|---------------------|
-| **§1 Definition (Mission / Objective)** | What this FM contributes; which biological systems it integrates |
-| **§4.2** | How PMs work together and why integration creates meaningful functional capacity |
-| **§4.3** | What biology and human function become constrained when that capacity is no longer maintained |
-| **§3** | Phase-3-validated translational phenome mappings (published) |
+This excerpt uses the existing FM renderer and target bibliography; it is not a standalone page or a replacement bibliography. The complete canonical example also states the bounded combined meaning: maintaining membrane DHA is supported, while an optimal oral dose, capsule-to-brain fraction and cognitive benefit are not established. See BRS1-FM3’s exact source.
 
-#### §4.2 Integrated Functional Narrative
+### Deduplication and review gate
 
-Explains **how child PMs work together as an integrated biological system** — why the FM is greater than the sum of its PMs.
+Compare the Overview, Functional Rationale, Evidence Summary and Suboptimal Function for distinct jobs. The top inventory replaces contribution lists, not scientific evidence. Verify every child’s material evidence contribution or record why it supplies no relevant evidence. Keep one synthesis rather than one repeated PM paragraph per child. Validate source/render agreement, order, inventory links, local citation destinations and preserved aliases. Review the science separately: structural validity does not establish the combined interpretation.
 
-**Must include:**
+### FM Primary Biological Effects
 
-- How PMs cooperate to produce the FM’s functional capacity
-- Emergent biology from multi-PM integration (Type A) or broader system context beyond the dominant PM (Type B)
-- Where multiple PMs converge on shared functional capacity, the **biological rationale for convergence (biological uplift)** — the scientific basis later evaluated in Phase 3
-- A closing **Functional Rationale** paragraph: why the integrated biology would be expected to influence particular areas of human function — **without** listing Phenome Registry entries, confidence scores, or evidence levels
-
-**Functional Rationale pattern (illustrative):**
-
-> The integration of [PM contributions] creates a coordinated [FM capacity] that is expected to influence [functional domains] more strongly than any individual PM. These integrated functional predictions form the basis for independent Phase 3 FM Phenome validation.
-
-**Authoring sources for §4.2** (synthesise — do not copy PM prose):
-
-| Source | Purpose |
-|--------|---------|
-| PM **§2 Primary Biological Effects** | What each PM contributes directionally |
-| PM **§5 Mechanistic Basis** | How PMs interact biologically; boundaries and integration blocks |
-| PM **§6 Connected Mechanisms** | Cross-PM and cross-BRS integration |
-| **KC architecture** (`key_constraints` in FM front matter) | Shared dependencies across the FM |
-| **Cross-BRS biology** (FM §5 Connected Mechanisms) | Integrated biological context |
-| **PM phenome convergence** (Phase 1) | Where multiple PMs point at the **same functional capacity** — use convergence patterns, **not** published PM §3 phenome rows |
-
-**Must not include:**
-
-- Phenome Registry entries or §3 phenome mappings
-- Confidence or evidence scores
-- Duplicated PM mechanistic detail
-- Dietary, preparation, or lifestyle advice
-
-#### §4.3 Suboptimal Function & Its Effects
-
-Describes **what happens when the integrated FM loses functional capacity** — not what caused the dysfunction.
-
-> **Ask:** “What biology and human function become constrained when this integrated functional capacity is no longer maintained?”
-> **Not:** “What caused this dysfunction?”
-
-**Structure:**
-
-1. **Opening** — the integrated biological capacity that is no longer maintained
-2. **Middle** — what biological function deteriorates at the FM/system level
-3. **Closing** — likely system-level functional consequences that motivate Phase 3 / §3 phenome review (without listing registry phenomes)
-
-**Must not include:**
-
-- Dietary patterns, UPF displacement, meal timing, or food preparation
-- KC stressor lists, pool-depletion narratives, or optimisation strategies
-- PM §4 Dietary / Lifestyle / Optimisation Levers (implementation stays on PMs; BRS hub Dietary Guidance and System Optimisation Practices synthesise implementation for readers)
-
-**Lever routing:**
-
-| Content | Belongs on |
-|---------|------------|
-| Dietary patterns, target foods | PM §4.1; BRS hub **Dietary Guidance** |
-| Targeted preparation, protocols, supplementation, light/circadian or stress/autonomic interventions | PM §3.2 System Optimisation Practices when evidence-qualified; Food Profiles where preparation detail belongs; BRS hub **System Optimisation Practices** |
-| Sleep, timing, activity, stress | PM §4.3 Lifestyle; BRS hub **Lifestyle Priorities** |
-| Biological consequences of lost FM capacity | **FM §4.3 only** |
-
-**Legacy note:** Older FM pages may still contain KC stressor paragraphs or dietary-cause language in §4.3 from pre-v2 authoring. Migrate to the consequence-focused contract above; KC stressor archives (`scripts/lib/fm-failure-modes.mjs`) are **draft aids only** — not the target architecture.
-
-### FM Mechanistic Basis Rule
-
-Section **4. Mechanistic Basis (Integrated FM Narrative)** (`## 4.`) is the training and navigation layer: it links constituent PMs in §4.1, synthesises integrated capacity in §4.2, describes capacity loss in §4.3, and optionally holds mechanism-qualifying evidence in §4.4. Do **not** open by repeating the §1 Definition verbatim. See `system/mechanism-page-section-prose.md`.
-
-Section **4.** must include:
-
-- An opening sentence, then — when the FM’s constituent PMs have KC mappings — **Supporting Key Constraint Pools** (unnumbered; immediately after the opening sentence and before §4.1)
-- **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
-- **`### 4.2 Integrated Functional Narrative`** — per [§4.2 contract](#42-integrated-functional-narrative) above. **Type A (multi-PM):** how PMs combine + Functional Rationale. **Type B (single-PM anchor):** broader system state + Functional Rationale — see `system/single-pm-fm-rule.md`; do not use “Together,”
-- **`### 4.3 Suboptimal Function & Its Effects`** — per [§4.3 contract](#43-suboptimal-function--its-effects) above (required on all FM pages)
-- **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §4.1 entries after phenome content is stripped). **Same dropdown structure as PM §7** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §7 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §4.1 is authored.
-
-The displayed Key Constraint list is **derived from PM → KC mappings**: the union of `key_constraints` on constituent PMs, deduplicated by KC id. Do **not** list every KC of the parent BRS, maintain an independent FM→KC map, infer KCs from prose, or invent/rename KCs. FM front matter `key_constraints` may cache that union for ontology traversal; it is not an independent mapping. FMs whose PMs have no KC mappings render **no** empty pool section.
-
-Each rendered pool uses one title-first, non-collapsible nested panel per KC. The title itself reads
-`(Key Constraint) (KCn) — Name` and is the canonical KC-page link; the always-visible panel
-body contains only bullets naming the PM(s) that rely on it and one concise role
-sentence from the KC page (Constraint Role or summary). KC identity/page links must
-not render as bullets. Restore via `node scripts/restore-fm-supporting-kc-pools.mjs`.
-
-`key_constraints` in front matter are **not** for KC stressor rollups in §4.3. Section **4.3** retains the narrative of what happens when these pools become inadequate; it is not the listing’s home.
-
-Within §4:
-
-- briefly identify the role of each PM (§4.1)
-- explain how PMs integrate and why that integration matters functionally (§4.2)
-- describe consequences when that integrated capacity declines (§4.3)
-- avoid copying detailed PM mechanistic paragraphs or PM levers
-
-**Use this structure (canonical full template):**
-
-1. Opening line introducing the integrated narrative
-2. **Supporting Key Constraint Pools** *(omit entirely when no constituent PM maps a KC)* — PM-derived union; not a numbered 4.x subsection
-3. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
-4. **`### 4.2 Integrated Functional Narrative`** — integration + Functional Rationale
-5. **`### 4.3 Suboptimal Function & Its Effects`** — capacity-loss consequences (not causes); may still discuss these pools narratively
-6. **`### 4.4 Evidence Highlights`** — FM-level mechanism-qualifying evidence (canonical template)
-
-**Canonical examples:**
-
-| Pattern | Reference |
-|---|---|
-| **Canonical full template** — §4.1–§4.4 (phenome review + evidence) | `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` |
-| Multi-PM FM with §4.2 integration narrative | `docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function.mdx` |
-| Single-PM FM (1:1) | `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` |
-
-**Good pattern:**
-
-FM1 integrates glucose entry kinetics, variability regulation, and disposal capacity to stabilise post-prandial energy availability and reduce reactive metabolic volatility.
-
-**Bad pattern (PM summary dump):**
-
-“PM1 does X with fibre, resistant starch, vinegar… PM2 does Y with Monnier… PM3 does Z with magnesium…” — do not list PM-level interventions, citations, or `<details>` content on the FM page.
-
-### Deduplication Rule
-
-If detailed mechanism content exists on a PM page, do not repeat it on the FM page.
-
-| PM | Detail stays on PM page only |
-|---|---|
-| PM1 | fibre, resistant starch, gastric emptying, meal sequencing |
-| PM2 | oscillatory glucose exposure and variability |
-| PM3 | insulin responsiveness and disposal |
-
-The FM page should only describe **how these combine**, not re-teach each PM.
-
-### FM Primary Biological Effects Rule
-
-**Primary Biological Effects** (§2) is a short directional line describing emergent outcomes (↑ / ↓), not a mechanism dump. It complements the definition; it does not substitute for §4 Mechanistic Basis.
+Describe the covered biological capacity without assuming synergy or an independently measured integrated outcome. Preserve existing decisions until separately reassessed.
 
 ## Intervention Breakdown (required front matter)
 
@@ -318,7 +147,9 @@ Timing is a **separate modifier flag**, not an intervention modulation class. Wh
 title: string                      # e.g. "Glycaemic–Insulin Stability & Cognitive Energy Availability"
 fm_id: string                      # e.g. "BRS6(FM1)"
 parent_brs: string                 # e.g. "BRS6"
-summary: string                    # canonical one-line definition
+summary: string                    # concise overview of the covered functional capacity
+functional_rationale: string       # reviewed bounded rationale → §4.1
+fm_evidence_summary: string        # reviewed evidence aggregation + conditional meaning → §4.2
 mechanisms_covered:
   - id: string
     name: string
@@ -354,11 +185,11 @@ definition: string
 functional_role: string
 mechanistic_basis_implementation_of_pms: string
 underlying_mechanisms_and_requirements:
-  pms:                               # render: ### 5.2 PMs (Primary Mechanisms)
+  pms:                               # ingestion alias; public PM links are above section 1
     - id: string
       name: string
       href: string
-  kcs:                               # render: ### 5.3 KCs (Key Constraints)
+  kcs:                               # ingestion alias; public KC links are above section 1
     - id: string
       name: string
       type: "substrate" | "precursor"
@@ -421,26 +252,16 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 ### Canonical public body (synthesis contract)
 
-Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` nests under §5 when used (FM-level “why this matters” — not PM intervention evidence).
+Place the linked PM/KC inventory above section 1, before the Objective, Mission or Definition. Preserve existing major-section identifiers and anchors during this presentation migration.
 
-1. **Definition** — `## 1. Definition` (or transitional `## 1. Mission & Overview`) — translational integrated state per **FM Definition Rule**; optional **functional descriptor** under title; `summary` aligns with §1 opening paragraph. PM §1 authoring: **Mission & Overview** (`system/primary-mechanism-schema.md`, `system/mechanism-page-section-prose.md` **PM §1**).
-2. **Primary Biological Effects** — `## 2. Primary Biological Effects` — short directional arrow line describing **emergent FM outcomes** per **FM Primary Biological Effects Rule**
-4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.2 or §4.3 when `timing_specific: "Yes"`
-   - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
-   - **`### 4.2 Integrated Functional Narrative`** — integration + Functional Rationale (see [FM §4.2 and §4.3 architecture](#fm-42-and-43--distinct-responsibilities))
-   - **`### 4.3 Suboptimal Function & Its Effects`** — capacity-loss consequences, not causes (required)
-   - **`### 4.4 Evidence Highlights`** — FM-level evidence for why the integrated state matters (required on **all** FMs before phenome Phase 2; see `system/fm-schema-rollout-sequence.md`)
-5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM connected-mechanisms sections; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
-7. **Phenome Connections** — `## 7. Phenome Connections` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
-8. **References** — `## 8. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
+- **§1 Mission/Objective and Overview** — high-level purpose and relevance, not the PM inventory.
+- **§2 Primary Biological Effects** — covered biological capacity.
+- **§4 Mechanistic Basis** — §4.1 Functional Rationale → §4.2 Evidence Summary → §4.3 Suboptimal Function & Its Effects.
+- **§5 Connected Mechanisms** — supported cross-system relationships.
+- **§7 Phenome Connections** — separately assessed published relationships; no automatic aggregation uplift.
+- **References** — target FM numbered bibliography.
 
-§3 and §6 are unused so Phenome stays aligned with PM/SM §7.
-
-**Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM links live in §4.1; KC pools render as the unnumbered Supporting Key Constraint Pools block before §4.1), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
-
-`mechanisms_covered` remains in **front matter** for ontology traversal. `key_constraints` on the FM may cache the PM-derived union; the displayed list is always derived from constituent PM mappings. PM links render in §4.1.
-
-`timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
+No PM/KC inventory, extended Integrated Functional Narrative or copied PM Evidence Highlights remains in §4. Retain old subsection anchors as aliases where needed.
 
 ### Excluded from the public FM body (current contract)
 
@@ -467,8 +288,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `intervention_breakdown` must be exactly one of the five allowed values in **Intervention Breakdown**; no combined or percentage labels.
 - `timing_specific` must be exactly `Yes` or `No`.
 - `summary` must match the Definition section intent, remain concise, and follow **FM Definition Rule** (integrated PM contributions + emergent outcome; no full PM definition repeats).
-- Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
-- **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
+- Definition and **Mechanistic Basis** must follow **FM Authoring — Synthesis Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
 - FM body section headings must be explicitly numbered: Definition → Primary Biological Effects → Mechanistic Basis (Integrated FM Narrative) → Connected Mechanisms → Phenome Connections → References.
 - Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
@@ -477,17 +297,14 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `## 5. Connected Mechanisms` is required; roll up from constituent PM §6.2 connected mechanisms.
 - Each Connected Mechanisms bullet must use: `[ID — Name](href) — one-sentence biological connection to this FM`. Do not list BRS hub pages without a specific PM/FM link and connection sentence.
 - `## 8. References` is required when references exist in front matter.
-- §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
-- When constituent PMs declare `key_constraints`, §4 must render **Supporting Key Constraint Pools** immediately after the opening paragraph and before `### 4.1`. The list is the PM → KC union (exact citation keys / KC ids; no array-position join; no neighbour fallback). Each KC uses a title-first non-collapsible panel whose title is the canonical KC link, with always-visible constraint details only in its body; KC links must not render as bullets, and no disclosure arrow or separate `Open KC` control is permitted. Each entry must resolve to a canonical KC page. Duplicate KCs cannot render. FMs with no mapped KCs must not render an empty section.
-- A KC linked in §4.3 but absent from the PM-derived union fails validation (`fm_kc_43_not_in_pm_union`) and is recorded in `scripts/out/fm-kc-pool-reconciliation.json`. Do not silently infer it onto the list. A PM whose §4.1.3 body lists KCs without front-matter `key_constraints` is a mapping gap (`fm_pm_kc_mapping_gap`), not a source of inferred KCs.
-- FM pages must **not** include `### 4.2 Supporting Biological Pools (Key Constraints)` — that numbered slot is **Integrated Functional Narrative**. The restored pool listing is unnumbered and sits before §4.1.
-- FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM links belong in §4.1.
+- KC summaries use separately adjudicated child-PM connections. For an assessed FM, set `kc_summary_mode: adjudicated-pm-relationships`; generate `fm_kc_relationship_summary` and the top `key_constraints` inventory with `deriveFmKcUnion` from `pm_kc_relationships` matched to established `kc_applicability_adjudications`. Preserve each relationship’s type, biological role, child Finding references, numbered child bibliography links and limitation. Supported upstream supply is not a demonstrated limiting constraint or intake benefit. Conditional constraint retains its studied context. Unresolved/rejected candidates and canonical membership alone must not enter the summary. Consolidated public disclosures may retain an independently admitted connection; their removal does not erase applicability.
+- Render this accepted-connection summary once beneath the top KC inventory, not as another section-4 inventory or unconditional “Relied upon by” claim. Validate the stored summary against the child records; stale types, evidence or limitations fail `fm_kc_relationship_summary_stale`. Do not silently reassess an FM outcome rating or invent an FM-wide constraint from child connections.
+- Legacy FMs without this explicit summary mode retain the existing `key_constraints` PM-union checks until individually reassessed. Legacy prose or pool membership cannot substitute for a new typed adjudication. A KC citation absent from the applicable child-derived union remains a review flag (`fm_kc_43_not_in_pm_union`).
 - Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.
 - Do not display PM/FM code references in recipe-facing examples beyond mechanism-page context.
 - References must all resolve to `static/bibtex/BRAIN-diet.bib` citation keys per **`system/brs-citation-reference-standard.md`**.
-- Inline body citations use `[Author et al., Year]`; References entries include descriptive study topics.
 - When an **Evidence Base** (or equivalent) block exists in non-page artefacts, avoid uncited research claims there; the public FM MDX body does not require a separate Evidence Base section under the current contract.
 
 ## Dose Rules (when summary or dose metadata exists)
@@ -497,3 +314,5 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Avoid supplement-level dose framing unless explicitly justified in evidence.
 - Always contextualize dose with bioavailability where relevant.
 - The trimmed FM page body does not include a Mechanism Summary Table; keep dose-adjacent fields in front matter or ingestion metadata unless the contract is extended.
+
+**Presentation validation:** Require the top inventory and the three sequential §4 headings above; prohibit repeated section-4 inventories. Resolve numbered citations against the target FM bibliography. Author names may be included when useful, but an evidence synthesis may use numbered links without repeating author names.

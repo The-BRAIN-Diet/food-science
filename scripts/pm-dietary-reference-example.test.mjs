@@ -54,7 +54,7 @@ test('Direct entry renders description, five atoms, and canonical research navig
 });
 test('additional Derived B6 entry reproduces conversion, Direct target and independent numbered evidence',()=>{
  const d=disclosure('Vitamin B6');const html=context.exports.buildDetailHtml(d);
- assert.equal(d.compactQualifier,'Derived · Cofactor Precursor → Pyridoxal-5′-phosphate (PLP)');
+ assert.equal(d.compactQualifier,'Derived · Cofactor Precursor → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)');
  assert.equal(d.upstreamIndicators.length,0);assert.match(d.readerDescription,/converted into PLP/);
  assert.match(html,/Kennedy \(2016\).*href="#pm-ref-19".*Spector \(1978\).*href="#pm-ref-20"/s);
  assert.ok(html.indexOf('Supporting mechanism research:')>html.indexOf('Limitation</span>'));

@@ -1,3 +1,5 @@
+import {deriveAdjudicatedFmKcSummary,renderAdjudicatedFmKcSummary,FM_KC_SUMMARY_MODE} from './fm-kc-relationship-summary.mjs'
+import { placeFmTopInventory, validateFmSynthesisLayout } from './fm-synthesis-layout.mjs'
 /**
  * Derive and render FM “Supporting Key Constraint Pools” from PM → KC mappings.
  *
@@ -175,6 +177,16 @@ export function deriveFmKcUnion(fmData, rootDir, kcIndex = getKcPoolIndex(rootDi
     }
   }
 
+  if (fmData.kc_summary_mode === FM_KC_SUMMARY_MODE) {
+    const relationships = deriveAdjudicatedFmKcSummary(pmRecords);
+    byId.clear();
+    for (const row of relationships) {
+      if (!byId.has(row.kc_id)) byId.set(row.kc_id,{id:row.kc_id,name:kcNameFromIndex(kcIndex,row.kc_id),href:kcHrefFromIndex(kcIndex,row.kc_id),pms:[],relationships:[]});
+      const kc=byId.get(row.kc_id);kc.relationships.push(row);
+      if(!kc.pms.some(pm=>pm.id===row.pm_id))kc.pms.push({id:row.pm_id,name:row.pm_name,href:row.pm_href});
+    }
+    return {kcs:[...byId.values()],relationships,pmRecords,missingPmPages,kcIndex};
+  }
   return { kcs: [...byId.values()], pmRecords, missingPmPages, kcIndex }
 }
 
@@ -193,7 +205,7 @@ export function buildSupportingKcPoolMarkdown(kcs) {
       id: kc.id,
       name: kc.name,
       href: kc.href,
-      body: `- **Relied upon by:** ${relied}\n- ${kc.role}`,
+      body: kc.relationships ? renderAdjudicatedFmKcSummary(kc.relationships) : `- **Relied upon by:** ${relied}\n- ${kc.role}`,
     })
   })
   return `${KC_POOL_HEADING}\n\n${groups.join("\n\n")}`
@@ -272,10 +284,13 @@ export function reconcileFmKcPools(filePath, { rootDir, kcIndex }) {
   const { data, content } = readMechanismPage(filePath)
   const derived = deriveFmKcUnion(data, rootDir, kcIndex)
   const listingMarkdown = buildSupportingKcPoolMarkdown(derived.kcs)
+  const typedIssues=[];
+  if(data.kc_summary_mode===FM_KC_SUMMARY_MODE&&JSON.stringify(data.fm_kc_relationship_summary||[])!==JSON.stringify(derived.relationships))typedIssues.push({code:'fm_kc_relationship_summary_stale',message:`${data.fm_id}: typed KC summary must match admitted child-PM records, types, evidence and limitations`});
   const renderedBlock = extractSupportingKcPoolBlock(content)
   const renderedIds = parseRenderedKcPoolIds(renderedBlock)
   const derivedIds = derived.kcs.map((kc) => kc.id)
   const fmFmIds = fmFrontMatterKcIds(data)
+  if (data.kc_summary_mode === FM_KC_SUMMARY_MODE && JSON.stringify([...fmFmIds].sort()) !== JSON.stringify([...derivedIds].sort())) typedIssues.push({code:'fm_kc_inventory_not_adjudicated',message:`${data.fm_id}: top KC inventory must contain exactly the accepted child-relationship pools`});
   const section43 = extractSection43(content)
   const citedIn43 = extractKcIdsFromText(section43)
   const missingFromUnion = citedIn43.filter((id) => !derivedIds.includes(id) && !isRetiredKc({ id }))
@@ -360,7 +375,7 @@ export function reconcileFmKcPools(filePath, { rootDir, kcIndex }) {
     fmId: data.fm_id,
     filePath,
     derivedIds,
-    renderedIds,
+    renderedIds: data.fm_evidence_summary ? fmFmIds : renderedIds,
     fmFrontMatterIds: fmFmIds,
     citedIn43,
     missingFromUnion,
@@ -369,14 +384,19 @@ export function reconcileFmKcPools(filePath, { rootDir, kcIndex }) {
     missingPmPages: derived.missingPmPages,
     listingMarkdown,
     kcs: derived.kcs,
-    issues,
+    issues: data.fm_evidence_summary
+      ? [...typedIssues,...issues.filter(issue => !new Set(['fm_forbidden_kc_subsection', 'fm_missing_kc_pool_listing', 'fm_empty_kc_pool_listing', 'fm_kc_pool_not_pm_derived', 'fm_kc_pool_duplicate', 'fm_kc_pool_position']).has(issue.code))]
+      : [...typedIssues,...issues],
   }
 }
 
 export function restoreFmSupportingKcPoolPage(filePath, { rootDir, kcIndex }) {
   const raw = fs.readFileSync(filePath, "utf8")
   const before = reconcileFmKcPools(filePath, { rootDir, kcIndex })
-  const next = insertSupportingKcPoolListing(raw, before.listingMarkdown || null)
+  const parsed = matter(raw)
+  const next = parsed.data.fm_evidence_summary
+    ? raw.slice(0, raw.length - parsed.content.length) + placeFmTopInventory(parsed.content, parsed.data)
+    : insertSupportingKcPoolListing(raw, before.listingMarkdown || null)
   if (next !== raw) fs.writeFileSync(filePath, next)
   const report = reconcileFmKcPools(filePath, { rootDir, kcIndex })
   return { ...report, written: next !== raw }
@@ -393,6 +413,12 @@ export { listFmFiles }
 
 export function validateFmSupportingKcPools(filePath, issues, { rootDir, kcIndex = getKcPoolIndex(rootDir) }) {
   const report = reconcileFmKcPools(filePath, { rootDir, kcIndex })
-  for (const issue of report.issues) issues.push(issue)
+  const { data, content } = readMechanismPage(filePath)
+  const presentationCodes = new Set(['fm_forbidden_kc_subsection', 'fm_missing_kc_pool_listing', 'fm_empty_kc_pool_listing', 'fm_kc_pool_not_pm_derived', 'fm_kc_pool_duplicate', 'fm_kc_pool_position'])
+  for (const issue of report.issues) {
+    if (!data.fm_evidence_summary || !presentationCodes.has(issue.code)) issues.push(issue)
+  }
+  // Applicability/derivation gaps remain audit findings; top navigation does not adjudicate them.
+  if (data.fm_evidence_summary) issues.push(...validateFmSynthesisLayout(data, content))
   return report
 }

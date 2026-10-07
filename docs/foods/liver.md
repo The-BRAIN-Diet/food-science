@@ -13,6 +13,9 @@ tags:
   - Choline
   - CoQ10
   - Creatine
+  - Cysteine
+public_display:
+  cystine_mg: internal-only
 list_image: /img/foods/liver/liver_thumb.webp
 nutrition_per_100g:
   vitamin_a_rae_ug: 4968
@@ -35,6 +38,7 @@ nutrition_per_100g:
   vitamin_k_ug: 3.1
   beta_carotene_ug: 232
   protein_g: 20.36
+  cystine_mg: 376
   iron_mg: 4.9
   magnesium_mg: 18
   phosphorus_mg: 387
@@ -77,6 +81,13 @@ nutrition_supplementary_sources:
     source_note: >-
       Creatine occurs in Liver muscle/organ tissue; USDA SR Legacy does not
       report creatine.
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 376 mg per 100 g of Beef, variety meats and by-products, liver,
+      raw (FDC 169451). A 113 g (4 oz) portion is about 425 mg. Composition
+      only; not a glutathione-synthesis result.
 ---
 ## Overview
 
@@ -92,6 +103,14 @@ Within the BRAIN Diet framework, liver is typically treated as a periodic offal 
 - Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
 - Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
 - Processing and cooking method still matter for overall dietary context.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Liver supplies cystine, which contributes to cysteine availability. This raw beef liver contains **376 mg per 100 g**, about **425 mg in 113 g (4 oz)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
 
 ## Food Context
 

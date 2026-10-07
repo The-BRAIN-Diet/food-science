@@ -191,7 +191,7 @@ function main() {
     (!fileArg || /-fm\d+-/.test(path.basename(fileArg)) && !/-pm\d+-/.test(path.basename(fileArg)));
   if (touchesFm && !fmGate.ok && !forcePhenome) {
     console.error(
-      "Phenome sync blocked: not all FM pages have §4.4 Evidence Highlights yet.",
+      "Phenome sync blocked: not all FM pages have §4.2 Evidence Summary yet.",
     );
     console.error("Run: npm run mechanisms:migrate-fm-schema");
     console.error("Missing:");

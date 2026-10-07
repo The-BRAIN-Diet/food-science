@@ -1,6 +1,9 @@
 import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
+import {useDoc} from "@docusaurus/plugin-content-docs/client"
+import registry from "../../../registry/substances.json"
+import {buildUpstreamResourceProjection} from "@site/src/data/dietaryOriginProjection.mjs"
 
 /**
  * Tag structure from Docusaurus
@@ -40,6 +43,8 @@ interface TableRow {
  * Props for SubstanceMatrix component
  */
 interface SubstanceMatrixProps {
+  canonicalOnly?: boolean
+  substanceId?: string
   tag: string
 }
 
@@ -53,8 +58,41 @@ interface SubstanceMatrixProps {
  * 1. Substance document has tags that are biological target names
  * 2. Biological target documents have tags that are therapeutic area names
  */
-export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.ReactElement {
+export default function SubstanceMatrix({tag, canonicalOnly = false, substanceId}: SubstanceMatrixProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
+  const ontology = usePluginData("ontology-projection") as {docs?: Document[]}
+  const {frontMatter} = useDoc()
+  const upstreamRows = buildUpstreamResourceProjection(
+    ontology?.docs || [], substanceId || String(frontMatter.id || ""), registry,
+  )
+  // Shared DocItem adds this canonical projection once; existing tag matrix remains separate.
+  if (canonicalOnly) {
+    if (!upstreamRows.length) return null
+    return (
+      <section aria-label="Admitted individual KC relationships">
+        <h3>BRS matrix — individual KC inputs</h3>
+        <table>
+          <thead><tr><th>BRS / PM</th><th>Relationship</th><th>Biological role and limitation</th></tr></thead>
+          <tbody>{upstreamRows.map(row => (
+            <tr key={`${row.pmId}:${row.ikcId}`}>
+              <td>{row.parentBrs} · <Link to={row.pmHref}>{row.pmId}</Link><br />
+                <Link to={row.kcHref}>{row.kcId}</Link></td>
+              <td>{row.relationshipType === "supported-upstream-supply" ? "Supported upstream supply" : "Conditional constraint"}</td>
+              <td>{row.atom.biological_role.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")}<br />
+                <strong>Limitation:</strong> {row.atom.evidence_limitation}<br />
+                {row.atom.evidence_source.citation_keys.map(key => {
+                  const number = row.references.findIndex(ref => ref.includes(`#${key})`)) + 1
+                  const reference = row.references[number - 1] || ""
+                  const label = reference.match(/\[([^\]]+)\]/)?.[1]?.split(" — ")[0] || "Evidence"
+                  return <React.Fragment key={key}><Link to={`${row.pmHref}#pm-ref-${number}`}>{label} [{number}]</Link>{" "}</React.Fragment>
+                })}
+              </td>
+            </tr>
+          ))}</tbody>
+        </table>
+      </section>
+    )
+  }
 
   if (!tag) {
     return <div>Error: Substance tag is required</div>

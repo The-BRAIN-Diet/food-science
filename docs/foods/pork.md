@@ -9,6 +9,9 @@ tags:
   - Vitamin B1
   - Creatine
   - Zinc
+  - Cysteine
+public_display:
+  cystine_mg: internal-only
 list_image: /img/foods/pork/pork_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
@@ -36,6 +39,7 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.901
   vitamin_b2_mg: 0.248
   protein_g: 19.74
+  cystine_mg: 248
   vitamin_b12_ug: 0.53
   sat_fat_g: 4.36
   selenium_ug: 33.2
@@ -48,6 +52,13 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 248 mg per 100 g of Pork, fresh, loin, whole, separable lean and
+      fat, raw (FDC 167818). A 117 g chop yield is about 290 mg. Composition
+      only; not a glutathione-synthesis result.
 main_image: /img/foods/pork/pork_medium.webp
 legacy_list_image: /img/foods/pork/pork_thumb.webp
 legacy_main_image: /img/foods/pork/pork_medium.webp
@@ -73,6 +84,14 @@ Within the BRAIN Diet framework, pork is best treated as a rotational animal-foo
 - Contributes creatine and related muscle-derived compounds relevant to cellular energy metabolism.
 - Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
 - Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Pork supplies cystine, which contributes to cysteine availability. This raw loin contains **248 mg per 100 g**, about **290 mg in the 117 g chop yield**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
 
 ## Food Context
 

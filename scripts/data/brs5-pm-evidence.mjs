@@ -58,65 +58,8 @@ export const BRS5_PM_EVIDENCE = {
       { citation_key: "batey_lipopolysaccharide_2024", label: "Batey et al. (2024)" },
     ],
   },
-  "brs5-fm1-pm3-keystone-taxa-support": {
-    intro:
-      "Keystone taxa and functional-guild ecology is well established. The studies below do not restate microbiome composition; they highlight ecological-support and early-life probiotic findings that refine how beneficial taxa persistence is interpreted — not condition-specific outcome claims.",
-    blocks: [
-      {
-        heading: "Compositional shifts in beneficial taxa guilds",
-        body: "Gut microbiota profiling shows compositional differences in taxa such as Bifidobacterium and Faecalibacterium across cohorts — supporting keystone-guild interpretation as an ecological property rather than a single deterministic strain effect [Jiang et al., 2018]; [Aarts et al., 2017].",
-      },
-      {
-        heading: "Early probiotic ecological support",
-        body: "Early Lactobacillus rhamnosus GG exposure influenced Bifidobacterium ecology in infancy, illustrating how fermented-food and probiotic patterns can shape keystone taxa context over developmental time [Pärtty et al., 2015].",
-      },
-      {
-        heading: "Dietary ecological pressure rather than strain-only logic",
-        body: "Fermentable fibres, polyphenol-rich plant inputs, and fermented-food patterns create ecological conditions more compatible with beneficial taxa persistence — the support logic this PM operationalises [Jiang et al., 2018]; [Pärtty et al., 2015].",
-      },
-      {
-        heading: "Probiotic intervention in ADHD cohorts",
-        body: "Open-label Bifidobacterium bifidum supplementation in children with ADHD was associated with symptom change and altered gut microbiota composition — illustrating keystone-taxa modulation as an intervention route, with replication and controlled-trial evidence still limited [Wang et al., 2022].",
-      },
-      {
-        heading: "Responder variability in taxa response",
-        body: "Microbiome compositional responses to dietary inputs are heterogeneous across individuals, supporting pattern-based ecological pressure rather than guaranteed taxa-level outcomes [Aarts et al., 2017].",
-      },
-    ],
-    referenceNoteKeys: [
-      { citation_key: "jiang_gut_2018", label: "Jiang et al. (2018)" },
-      { citation_key: "partty_possible_2015", label: "Pärtty et al. (2015)" },
-      { citation_key: "aarts_gut_2017", label: "Aarts et al. (2017)" },
-      { citation_key: "wang_effect_2022", label: "Wang et al. (2022)" },
-    ],
-  },
-  "brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection": {
-    intro:
-      "Microbial ecological turnover and competitive selection are well established. The studies below do not restate community ecology; they highlight dietary-intervention, diversity, and substrate-exposure findings that refine how ecosystem shaping is interpreted over time.",
-    blocks: [
-      {
-        heading: "Microbiota-targeted diets and immune–ecological modulation",
-        body: "Gut-microbiota-targeted dietary interventions modulated human immune status and microbial ecology in controlled feeding contexts — supporting plant-diversity and fermentable-substrate patterns as levers for continuous ecosystem shaping [Wastyk et al., 2021].",
-      },
-      {
-        heading: "Taxonomic diversity and metabolite-generation capacity",
-        body: "Increasing taxonomic diversity expands the ecological possibilities for producing beneficial microbial metabolites and reducing harmful by-products — through ecological competition and turnover among microbial communities [Schleupner and Carmichael, 2022].",
-      },
-      {
-        heading: "Alpha diversity as an ecological readout",
-        body: "Reduced microbiome alpha diversity has been reported in dysbiotic ecological contexts, reinforcing diversity maintenance as a modifiable property of microbial turnover rather than a fixed trait [Prehn-Kristensen et al., 2018].",
-      },
-      {
-        heading: "Repeated substrate exposure over time",
-        body: "Multiple fibre classes, broad plant diversity, and polyphenol exposure create the repeated selection pressures through which beneficial functions are competitively favoured — not one-off microbiome-focused meals [Wastyk et al., 2021]; [Schleupner and Carmichael, 2022].",
-      },
-    ],
-    referenceNoteKeys: [
-      { citation_key: "wastyk_gut-microbiota-targeted_2021", label: "Wastyk et al. (2021)" },
-      { citation_key: "schleupner_attention-deficithyperactivity_2022", label: "Schleupner and Carmichael (2022)" },
-      { citation_key: "prehn-kristensen_reduced_2018", label: "Prehn-Kristensen et al. (2018)" },
-    ],
-  },
+  // brs5-fm1-pm3-keystone-taxa-support: evidence is owned by canonical scientific_findings.
+  // brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection: evidence is owned by canonical scientific_findings.
   "brs5-fm2-pm5-scfa-production-and-signalling": {
     intro:
       "Microbial SCFA fermentation and signalling biology is well established. The studies below do not restate fermentation chemistry; they highlight barrier, blood–brain interface, and mitochondrial-context findings that refine how SCFA output is interpreted as a signalling layer.",

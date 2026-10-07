@@ -1135,7 +1135,8 @@
   color: var(--ifm-color-emphasis-700);
 }
 
-.brs-dietary-lever-detail-evidence a {
+.brs-dietary-lever-detail-evidence a,
+.brs-dietary-lever-input-link {
   font-weight: 600;
 }
 
@@ -1153,9 +1154,26 @@
   border-radius: 6px;
 }
 
-/* Reference anchor link styling */
+/* Reference anchor link styling.
+   The Review & Corrections bar is sticky under the navbar on wide screens, so a
+   bare hash jump hides the cited row behind that bar and the next visible
+   number is several places later. */
 .reference-item {
   position: relative;
+}
+
+.reference-item,
+.theme-doc-markdown [id^="pm-ref-"],
+.theme-doc-markdown li:has([id^="pm-ref-"]) {
+  scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 8px);
+}
+
+@media (min-width: 997px) {
+  .reference-item,
+  .theme-doc-markdown [id^="pm-ref-"],
+  .theme-doc-markdown li:has([id^="pm-ref-"]) {
+    scroll-margin-top: calc(var(--ifm-navbar-height, 60px) + 51px + 12px);
+  }
 }
 
 /* Citation-key target for cross-page links (e.g. /docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) */

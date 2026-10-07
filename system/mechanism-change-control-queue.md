@@ -88,11 +88,11 @@ an independently valid PM-owned relationship.
 
 ## BRS1-FM1 PM1, PM2, PM4, PM5 — Stage 2B dietary representation flags
 
-**Status:** open — Stage 2A Findings now exist on BRS1-FM1-PM2 and BRS1-FM1-PM4; PM1 and PM5 still lack Stage 2A Findings.
+**Status:** open — Stage 2A Findings now exist on BRS1-FM1-PM1, BRS1-FM1-PM2 and BRS1-FM1-PM4; PM5 still lacks Stage 2A Findings.
 
 | PM | Input | Input type | Biological role | Evidence source | Downstream issue |
 |---|---|---|---|---|---|
-| BRS1-FM1-PM1 | Distributed protein intake | dietary pattern | Meal-level amino-acid availability across the day | Walrand & Boirie 2005 | Candidate SOP; not projected without a Finding object |
+| BRS1-FM1-PM1 | Distributed protein intake | dietary pattern | Meal-level amino-acid availability across the day | Walrand & Boirie 2005; Trommelen et al. 2023 | Stage 2A (6 Oct 2026): those papers measure muscle protein balance, not this precursor pool. Not a public lifestyle lever. Candidate remains unresolved, not rejected as impossible. Legacy phenome `evidence_confidence` left unchanged; the attached phenome papers did not measure attention, motivation or emotional regulation. |
 | BRS1-FM1-PM1 | BRS1(KC1) | shared constraint | Amino-acid quality of the shared precursor pool (not LAT1 competition) | Mariotti 2019; Moughan 2024; Fernstrom 2013 | `FW008` / `KC-CC-BRS1-FM1-PM1-01` — quality-arm **candidate**, public mapping not established. Competitive balance stays PM2. PM-tab record only; not the Framework Review register. |
 | BRS1-FM1-PM2 | Meal carbohydrate-to-protein composition | dietary pattern | Direct state-regulation of plasma Trp/Tyr:LNAA ratios at LAT1 | Ashley 1985; Wurtman 2003; Fernstrom 2013; PM2-F1; PM2-F2 | Admitted to §3.1.1 (`PM2-DIT-3`). Not an SOP. Phenome ADHD wording and Aquili as meal-LAT1 support remain overclaims; legacy `evidence_confidence` left unchanged |
 | BRS1-FM1-PM4 | Copper | cofactor | Dopamine β-hydroxylase metal cofactor | PM4-F4; Goldstein 2026; Vendelboe 2016 | Admitted as Direct DR at biological-dependency (`PM4-DIT-4`). Not a noradrenaline lever. See `system/brs1-fm1-pm4-noradrenergic-stage2b-report.md` |
@@ -509,3 +509,28 @@ them as PM Dietary Requirements or later-stage deferred items. See
 ## PM7 focused reassessment — 2026-10-01
 
 Review records: FW037, FW038, FW039, FW040; phenome follow-up FW041. Mission and architecture contracts unchanged. KC1 conditional admission and KC2 unresolved are reconciled with FM3. Choline and PC roles use methyl-donor provision; Kennedy support is not PEMT requirement evidence. Source facts and access limits live in PM7-F5/F6/F7. KC1, dietary provision and PM/FM reconciliation were verified with scoped validators and local rendered inspection; FW037/FW039/FW040 are applied. FW038 remains accepted/deferred for KC2. No PM3 or KC-definition edit is authorised by this correction.
+
+
+### CC-BRS5-PM3-PM4-SCOPE-20261005 — accepted PM partition; parent integration pending
+
+**Status:** PM scope correction accepted and implemented; parent FM integration and separate Stage 2B/phenome review remain open.
+
+PM3 now owns defined microbial barrier–immune contributions; PM4 owns community substrate-processing selection/adaptation. Mission, Overview and Mechanistic Basis were reviewed together. See `system/brs5-pm3-pm4-scope-implementation-record.md` for evidence and verification.
+
+Follow-up: independently substantiate FM1/FM2 integration and FM-level KC relationships, including cross-BRS use where evidenced. Current FM schema's PM-derived KC union conflicts with an independent FM ownership model; do not alter shared contracts or infer new FM reliance in this pass. Duplicate PM KC disclosures and legacy declarations were removed with provenance retained; no-mapping public copy is not evidence that the FM-level route does not exist. KC2's existing rejection remains unchanged.
+
+Existing dietary/intervention/dominance and phenome decisions require review against the narrowed scopes. Preservation in this pass is not re-admission or rating validation. Preserve PM5 SCFA, PM6 polyphenol and PM8 precursor ownership.
+
+### CC-BRS5-PM3-PM4-STAGE2B-20261005 — scope-specific lever adjudication
+
+Authorised local Stage 2B implemented. Five-atom input records, Finding links and separate dominance/placement decisions replace unsupported legacy lists. KC1 applicability remains unresolved; KC2 combined-pool non-application retained. No new PM/FM roll-up or phenome admission. See `system/brs5-pm3-pm4-stage2b-report.md`; final browser/check outcomes are recorded there. Parent integration remains deferred.
+
+### CC-BRS3-DEDICATED-2A-2B-20261006 — seven BRS3 pages, phenome scores not rescored
+
+Dedicated Stage 2A then Stage 2B for BRS3-FM1-PM1, PM2, BRS3-FM2-PM3, PM5, PM6, BRS3-FM3-PM7, and PM8. PM4 was not reopened. Reports are `system/brs3-fm1-pm1-stage2a-report.md` through `system/brs3-fm3-pm8-stage2b-report.md`.
+
+Phenome confidence values were not rescored. Two rationales were corrected where they stated the wrong fact: PM2 no longer says propionate stimulates norepinephrine, and PM5 no longer treats malondialdehyde or lutein as the vitamin E result. PM1 lifestyle dominance and the PM2 fibre and butyrate admissions were withdrawn because the cited papers do not measure the governed step. PM5 and PM6 no longer publish the historical Antioxidant Substrate Sufficiency card; BRS3(KC1) stays unresolved. PM4’s `targeted-retrieval` finding check remains a pre-existing failure.
+
+### CC-BRS5-FM1-PM3-OVERVIEW-20261005 — practical reader orientation
+
+User-authorised authoring correction: Overview explains purpose, health significance and implementation context. Default bullets are Benefits, Implementation Notes and Biological Relevance; omit/combine/substitute when relevant supported points are unavailable and record the reason. Technical boundaries and measurement distinctions belong in §4. Reconciled primary-mechanism-schema.md and mechanism-page-section-prose.md; replaced the obsolete ecological PM3 example. Only PM3’s current Overview and boundary placement were revised. Scientific Findings, mission, five-atom inputs, dominance, KCs and phenome records are preserved. No other PM migration.

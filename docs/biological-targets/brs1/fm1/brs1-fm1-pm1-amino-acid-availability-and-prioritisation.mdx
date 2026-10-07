@@ -4,13 +4,13 @@ pm_id: BRS1-FM1-PM1
 mission: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. Phenylalanine can also be converted to tyrosine, so this mechanism concerns dietary provision of the circulating precursor pool before brain entry. It excludes competition for transport across the blood–brain barrier and conversion into neurotransmitters. Its role is to define precursor provision before those later neural processes begin.'
+summary: 'Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. Phenylalanine can also be converted to tyrosine. After a protein meal, dietary phenylalanine appears in the circulation. Tyrosine and tryptophan are precursors later signalling can use for dopamine, noradrenaline and serotonin. Protein that covers those amino acids is the supported dietary route.'
 cofactors:
   - Tyrosine
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Reliable protein across meals with completeness and balance; aromatic amino acids matter where monoamine pathways are the focus
+timing_specific: 'No'
+dose_sensitivity: 'Not established as a neurotransmitter dose. Protein type, dose and age change how much dietary phenylalanine reaches the circulation. Extra protein is not shown to raise brain monoamines.'
 dietary_addressability: direct
 claim_ceiling: dietary-provision
 mechanistic_authoring_required: false
@@ -19,39 +19,51 @@ dietary_input_traceability:
   - atom_id: PM1-DIT-1
     input: Indispensable amino-acid supply
     input_type: nutrient/compound class
-    biological_role: Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a requirement that each meal provide complete coverage
+    biological_role: 'Coverage of the indispensable amino-acid set, including phenylalanine, that sets the circulating pool neurotransmitter pathways can draw on. Meals contribute measurable amino-acid composition; this is not a requirement that each meal provide complete coverage'
     evidence_source:
+      finding_ids:
+        - PM1-F2
       citation_keys:
         - mariotti_dietary_2019
         - moughan_diaas_2024
-    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves ADHD outcomes. The indispensable set includes phenylalanine even though phenylalanine is not a separate atom on this PM; tyrosine is not an indispensable amino acid.
+    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves attention or mood. The indispensable set includes phenylalanine; tyrosine is not an indispensable amino acid.
   - atom_id: PM1-DIT-2
     input: Dietary protein
     input_type: substrate provision
     biological_role: Provides the indispensable amino acids that constitute the circulating pool this PM governs
     evidence_source:
+      finding_ids:
+        - PM1-F1
+        - PM1-F2
       citation_keys:
+        - gorissen_phenylalanine_2020
         - mariotti_dietary_2019
         - moughan_diaas_2024
-    evidence_limitation: Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.
+    evidence_limitation: 'Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.'
   - atom_id: PM1-DIT-4
     input: Tyrosine
     input_type: substrate
     biological_role: Catecholamine precursor in the circulating pool this PM prioritises. Tyrosine is normally formed from indispensable phenylalanine and can become conditionally indispensable when phenylalanine availability is limited
     evidence_source:
+      finding_ids:
+        - PM1-F3
+        - PM1-F4
       citation_keys:
         - matthews_phenylalanine_2007
         - aquili_role_2020
-    evidence_limitation: Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.
+    evidence_limitation: 'Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.'
   - atom_id: PM1-DIT-5
     input: Tryptophan
     input_type: substrate
     biological_role: Indispensable serotonergic precursor this PM prioritises in the circulating precursor pool
     evidence_source:
+      finding_ids:
+        - PM1-F2
+        - PM1-F4
       citation_keys:
         - mariotti_dietary_2019
         - aquili_role_2020
-    evidence_limitation: Pool presence of tryptophan is not evidence for increased brain serotonin, LAT1 advantage, or mood or ADHD benefit.
+    evidence_limitation: 'Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention or mood benefit.'
 dietary_lever_atoms:
   - atom_id: PM1-DIT-1
     requirement_classification: direct
@@ -59,8 +71,8 @@ dietary_lever_atoms:
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: Indispensable amino-acid supply is a Direct Dietary Requirement of this PM. Coverage of the indispensable set can be assessed in meals and across the diet; this is not a rule that each meal must be complete, and it is not a monoamine-dosing rule.
-    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves ADHD outcomes. The indispensable set includes phenylalanine even though phenylalanine is not a separate atom on this PM; tyrosine is not an indispensable amino acid.
+    permitted_wording: 'Indispensable amino-acid supply is a Direct Dietary Requirement of this PM. Coverage of the indispensable set can be assessed in meals and across the diet; this is not a rule that each meal must be complete, and it is not a monoamine-dosing rule.'
+    evidence_limitation: Protein-quality scoring and vegetarian-diet amino-acid coverage do not establish that increasing protein raises brain monoamine synthesis or improves attention or mood. The indispensable set includes phenylalanine; tyrosine is not an indispensable amino acid.
   - atom_id: PM1-DIT-2
     requirement_classification: derived
     derived_target: Indispensable amino-acid supply
@@ -69,13 +81,13 @@ dietary_lever_atoms:
     relationship_mode: capacity-requirement
     dietary_addressability: direct
     claim_ceiling: dietary-provision
-    permitted_wording: Dietary protein is a Derived Dietary Requirement because it provides the indispensable amino acids this PM requires. This does not establish that more protein increases neurotransmitter synthesis, or that each meal must be a complete protein.
-    evidence_limitation: Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.
+    permitted_wording: 'Dietary protein is a Derived Dietary Requirement because it provides the indispensable amino acids this PM requires. This does not establish that more protein increases neurotransmitter synthesis, or that each meal must be a complete protein.'
+    evidence_limitation: 'Dietary protein provision of amino acids is supported; this does not establish an intake-to-neurotransmitter or clinical-response relationship, and it does not require each meal to be a complete protein.'
   - atom_id: PM1-DIT-4
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
     permitted_wording: Tyrosine is a catecholamine-precursor substrate in the pool this PM prioritises. It is normally formed from phenylalanine and is not classified as an indispensable amino acid.
-    evidence_limitation: Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.
+    evidence_limitation: 'Tyrosine is not an indispensable amino acid. Pool presence or dietary tyrosine is not evidence for increased brain dopamine or noradrenaline, LAT1 advantage, or clinical benefit. Absence of a phenylalanine atom is an evidence-scope decision, not a claim that phenylalanine is absent from the indispensable pool.'
   - atom_id: PM1-DIT-5
     requirement_classification: direct
     relationship_layer: dietary-requirement
@@ -83,7 +95,7 @@ dietary_lever_atoms:
     dietary_addressability: direct
     claim_ceiling: dietary-provision
     permitted_wording: Tryptophan is an indispensable Direct substrate in the pool this PM governs. Presence in meals is not a serotonin-dosing rule.
-    evidence_limitation: Pool presence of tryptophan is not evidence for increased brain serotonin, LAT1 advantage, or mood or ADHD benefit.
+    evidence_limitation: 'Pool presence of tryptophan is not evidence for increased brain serotonin, brain entry, or an attention or mood benefit.'
 dietary_lever_presentations:
   - atom_id: PM1-DIT-1
     label: Indispensable amino-acid supply
@@ -97,34 +109,16 @@ dietary_lever_presentations:
   - atom_id: PM1-DIT-4
     label: Tyrosine
     presentation_section: 3.1.2
-key_constraints:
-  - BRS1(KC1) - Amino Acid Quality & Competitive Balance
-pm_kc_relationships:
-  - relationship_id: BRS1-FM1-PM1-KCR-1
-    kc_id: BRS1(KC1)
-    ikc_id: BRS1(KC1)
-    pm_biological_role: >-
-      This mechanism governs how completely meals supply the indispensable
-      amino-acid pool. That is the quality arm of the shared constraint, not
-      competitive transport into the brain.
-    evidence_source:
-      citation_keys:
-        - mariotti_dietary_2019
-        - moughan_diaas_2024
-    evidence_limitation: >-
-      The mapping is the circulating amino-acid pool this mechanism governs. It
-      does not inherit KC food lists and is not a monoamine-dosing rule.
+key_constraints: []
+pm_kc_relationships: []
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: amino-acid-quality
-    applicability_proposition: >-
-      This mechanism governs the shared indispensable-amino-acid quality and
-      availability pool.
-    disposition: established
-    applicability_mode: governs
+    applicability_proposition: This mechanism governs the shared indispensable-amino-acid quality and availability pool.
+    disposition: evidence-supported-non-application
     established_links:
-      - Meal-level protein quantity, quality and distribution set the circulating indispensable-amino-acid pool this PM governs (PM1 mission and overview).
+      - 'Meal-level protein quantity, quality and distribution set the circulating indispensable-amino-acid pool this PM governs (PM1 mission and overview).'
       - Mariotti 2019 and Moughan/DIAAS-type scoring describe IAA adequacy of that pool.
     inferred_links:
       - Incomplete pool quality would also raise brain monoamines or treat ADHD.
@@ -132,28 +126,21 @@ kc_applicability_adjudications:
       citation_keys:
         - mariotti_dietary_2019
         - moughan_diaas_2024
-    rationale: >-
-      Type D is met in the governs mode: the named quality pool is this mechanism’s
-      governed capacity. Competitive LAT1 balance is a different arm.
+    rationale: 'Reassessed after user review: indispensable-amino-acid provision is already recorded in PM1-DIT-1 and does not establish an additional constraint. The canonical KC1 defines monoamine-precursor LNAA competitive transport, which is outside this PM''s circulating-pool provision boundary. The prior quality-arm admission used the historical KC scope and is superseded; its evidence remains on the dietary atoms and this assessment.'
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: competitive-lat1
-    applicability_proposition: >-
-      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
-      this mechanism’s governed circulating amino-acid pool.
+    applicability_proposition: Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed circulating amino-acid pool.
     disposition: evidence-supported-non-application
     established_links:
       - This mechanism’s overview treats circulating pool sufficiency as independent of blood–brain-barrier transport.
-      - Fernstrom 2013 locates LNAA competition at LAT1, which is the transport mechanism.
+      - 'Fernstrom 2013 locates LNAA competition at LAT1, which is the transport mechanism.'
     inferred_links:
       - LAT1 imbalance would therefore reduce the circulating pool this PM governs.
     evidence_source:
       citation_keys:
         - fernstrom_lnna_2013
-    rationale: >-
-      The named competitive state is brain-entry competition, not circulating-pool
-      availability. That is a different process. Public mapping publishes the
-      quality arm only.
+    rationale: 'The named competitive state is brain-entry competition, not circulating-pool availability. That is a different process. Neither assessed arm is admitted as a mapping to the current KC1 definition.'
 kc_change_control_flags:
   - flag_id: KC-CC-BRS1-FM1-PM1-01
     flag_type: ikc-scope-conflict
@@ -170,18 +157,18 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone.'
+    rationale: 'Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention.'
     references:
       - index: 1
-        label: Fernstrom (2013)
-        citation_key: fernstrom_lnna_2013
-        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
-        data_level: Mechanistic
+        label: Gorissen et al. (2020)
+        citation_key: gorissen_phenylalanine_2020
+        href: /docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020
+        data_level: Human Mechanistic
       - index: 2
-        label: Wang et al. (2019)
-        citation_key: wang_dietary_2019
-        href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
-        data_level: Human Study
+        label: Matthews (2007)
+        citation_key: matthews_phenylalanine_2007
+        href: /docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007
+        data_level: Mechanistic
       - index: 3
         label: Aquili (2020)
         citation_key: aquili_role_2020
@@ -192,19 +179,14 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5).'
+    rationale: 'Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling.'
     references:
       - index: 1
-        label: Fernstrom (2013)
-        citation_key: fernstrom_lnna_2013
-        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        label: Matthews (2007)
+        citation_key: matthews_phenylalanine_2007
+        href: /docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007
         data_level: Mechanistic
       - index: 2
-        label: Reimherr & Ward (1987)
-        citation_key: f_w_reimherr_open_1987
-        href: /docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987
-        data_level: Human Outcome
-      - index: 3
         label: Aquili (2020)
         citation_key: aquili_role_2020
         href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
@@ -214,37 +196,156 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5.
+    rationale: 'Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step.'
     references:
       - index: 1
-        label: Oades (2010)
-        citation_key: oades_role_2010
-        href: /docs/papers/BRAIN-Diet-References#oades_role_2010
+        label: Mariotti and Gardner (2019)
+        citation_key: mariotti_dietary_2019
+        href: /docs/papers/BRAIN-Diet-References#mariotti_dietary_2019
         data_level: Mechanistic
       - index: 2
-        label: Fernstrom (2013)
-        citation_key: fernstrom_lnna_2013
-        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        label: Aquili (2020)
+        citation_key: aquili_role_2020
+        href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
         data_level: Mechanistic
-      - index: 3
-        label: Briguglio et al. (2018)
-        citation_key: briguglio_dietary_2018
-        href: /docs/papers/BRAIN-Diet-References#briguglio_dietary_2018
-        data_level: Human Study
     evidence_confidence: low
 references:
-  - '[Mariotti et al. (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
-  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
-  - '[Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)'
-  - '[Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)'
-  - '[Reimherr & Ward (1987) — An Open Trial of L-tyrosine in the Treatment of Attention Deficit Disorder,](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)'
-  - '[Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)'
-  - '[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
-  - '[Walrand & Boirie (2005) — Optimizing Protein Intake in Aging](/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005)'
-  - '[Trommelen et al. (2023) — Anabolic Response to Protein Ingestion](/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023)'
-  - '[Moughan & Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)'
-  - '[Matthews (2007) — An Overview of Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)'
-  - '[Marsh et al. (2013) — Protein and vegetarian diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)'
+  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+  - '[Aquili (2020) — Tryptophan and Tyrosine as Serotonin and Dopamine Precursors](/docs/papers/BRAIN-Diet-References#aquili_role_2020)'
+  - '[Moughan and Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)'
+  - '[Matthews (2007) — Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)'
+  - '[Marsh et al. (2013) — Protein and Vegetarian Diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)'
+  - '[Gorissen et al. (2020) — Dietary Protein and Circulating Phenylalanine](/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020)'
+scientific_findings_intro: 'A protein meal releases dietary phenylalanine into the circulation. How much arrives depends on protein type, dose and age. Phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are the precursors later pathways use. None of these results shows that extra protein raises brain dopamine, noradrenaline or serotonin. Spreading protein across the day was not shown to set this pool.'
+scientific_findings:
+  - id: PM1-F1
+    finding_label: Dietary phenylalanine appears in the circulation after a protein meal
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'In pooled human trials, about half of the phenylalanine from labelled dietary protein appeared in the circulation over five hours. Casein delivered less than whey or milk. A larger dose delivered more. Older adults retained slightly less in the circulation than young adults.'
+    finding_interpretation: 'This is the measured supply step. It is plasma phenylalanine, not tryptophan, and not brain dopamine, noradrenaline or serotonin.'
+    finding_statement: 'Dietary protein releases phenylalanine into the human circulation. Protein type, dose and age change the fraction that appears. That appearance is not a neurotransmitter result.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Gorissen and colleagues pooled 18 trials in 602 people who consumed intrinsically labelled whey, casein or milk protein. Over five hours, 50% ± 14% of dietary protein-derived phenylalanine appeared in the circulation. Casein was 45% ± 11%, whey 57% ± 10% and milk 65% ± 13%. Appearance rose with dose. In the age subset, older adults showed 45% ± 10% and young adults 51% ± 14%.'
+    synthesis_limitations: 'The tracer is phenylalanine. The trials were built to study muscle protein handling. They do not measure tryptophan, brain entry or neurotransmitter synthesis, and they do not show that a higher plasma peak improves those later steps.'
+    evidence_considered:
+      - label: Gorissen et al. (2020)
+        citation_key: gorissen_phenylalanine_2020
+        href: /docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020
+        data_level: Human Mechanistic
+        exposure_context: 'dietary whey, casein or milk protein'
+        evidence_source: bounded-external-search
+        directional_finding: 'About half of dietary protein-derived phenylalanine appeared in the circulation over five hours. The fraction was lower for casein, higher with a larger dose, and slightly lower in older adults.'
+        assessment:
+          study: 'Pooled analysis of 18 randomised trials using intrinsically labelled whey, casein or milk protein.'
+          population: '602 participants, mean age 53 years. The age comparison used 82 young adults and 83 older adults.'
+          result: 'Dietary phenylalanine entered the circulation. Protein type, dose and age changed the fraction that appeared.'
+          effect_magnitude: 'Mean appearance 50% ± 14% over five hours. Casein 45% ± 11%, whey 57% ± 10%, milk 65% ± 13%. Older adults 45% ± 10% versus young adults 51% ± 14%.'
+          evidence_summary: 'A protein meal delivers phenylalanine into the circulation, and the amount depends on the protein, the dose and age.'
+          limitations: 'Phenylalanine appearance is not the full indispensable set, not tryptophan, and not a brain or clinical endpoint.'
+  - id: PM1-F2
+    finding_label: 'Indispensable amino-acid coverage is a property of the diet, not of each meal'
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: 'Protein quality is digestible coverage of the indispensable amino acids, not grams of protein alone. Adult vegetarian diets that include protein-rich plant foods can meet those requirements. Varied plant proteins across the day can cover the set without combining them in every meal.'
+    finding_interpretation: 'This supports dietary protein and indispensable amino-acid supply as provision routes. It does not set a dose, and it does not show a brain-transmitter effect.'
+    finding_statement: 'Digestible indispensable-amino-acid coverage, including in varied vegetarian diets, can meet adult requirements without each meal supplying the full set. That coverage is not evidence of increased neurotransmitter synthesis.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Mariotti and Gardner review adult vegetarian and vegan diets and conclude that protein-rich plant foods can meet protein and amino-acid requirements, and that amino-acid deficiency has been overstated. Moughan and Lim describe protein quality as the digestible indispensable amino acid score rather than total protein. Marsh and colleagues state that a variety of plant proteins across the diet can cover indispensable amino acids, so complementary proteins do not have to share one meal when the diet is varied.'
+    synthesis_limitations: 'These are requirement and scoring reviews. They do not measure the postprandial circulating pool, brain entry or neurotransmitter synthesis.'
+    evidence_considered:
+      - label: Mariotti and Gardner (2019)
+        citation_key: mariotti_dietary_2019
+        href: /docs/papers/BRAIN-Diet-References#mariotti_dietary_2019
+        data_level: Mechanistic
+        exposure_context: vegetarian and vegan dietary patterns
+        evidence_source: repository-inherited
+        directional_finding: Adult vegetarian diets that include protein-rich plant foods can meet protein and amino-acid requirements. Amino-acid deficiency is described as overstated.
+        assessment:
+          study: Review of protein and amino-acid intakes from vegetarian and vegan diets in Western adults.
+          population: 'Adults, including older adults, eating vegetarian or vegan diets. Children are discussed separately.'
+          result: Protein-rich plant foods can achieve protein and amino-acid adequacy in adults.
+          effect_magnitude: 'No single intake-response estimate. The result is adequacy against requirements, not a change in brain transmitters.'
+          evidence_summary: Dietary patterns can cover the indispensable amino acids this pool requires.
+          limitations: Requirement coverage is not a plasma time course and not a neurotransmitter outcome.
+      - label: Moughan and Lim (2024)
+        citation_key: moughan_diaas_2024
+        href: /docs/papers/BRAIN-Diet-References#moughan_diaas_2024
+        data_level: Mechanistic
+        exposure_context: protein-quality scoring
+        evidence_source: repository-inherited
+        directional_finding: Protein quality is scored by digestible indispensable amino acids rather than by protein grams alone.
+        assessment:
+          study: Review of the digestible indispensable amino acid score a decade after its introduction.
+          population: Not a new human trial. The score is applied to foods and diets.
+          result: Quality depends on digestible indispensable amino acids.
+          effect_magnitude: No neurotransmitter effect size.
+          evidence_summary: Coverage of those amino acids is the quality claim this mechanism can use.
+          limitations: A scoring review does not measure circulating or brain amino acids.
+      - label: Marsh et al. (2013)
+        citation_key: marsh_protein_2013
+        href: /docs/papers/BRAIN-Diet-References#marsh_protein_2013
+        data_level: Mechanistic
+        exposure_context: vegetarian dietary pattern
+        evidence_source: repository-inherited
+        directional_finding: Varied plant-protein sources across the diet can cover indispensable amino acids without combining complementary proteins in each meal.
+        assessment:
+          study: Review of protein in vegetarian diets.
+          population: People eating vegetarian diets.
+          result: Completeness can be reached across the day rather than inside every meal.
+          effect_magnitude: No meal-level neurotransmitter measurement.
+          evidence_summary: Each meal does not have to supply the full indispensable set.
+          limitations: The review does not test brain precursor availability.
+  - id: PM1-F3
+    finding_label: Phenylalanine is converted to tyrosine in humans
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Human tracer studies show that phenylalanine is hydroxylated to tyrosine, mainly in the liver. Tyrosine is normally dispensable because the body makes it from phenylalanine. When phenylalanine is limited, tyrosine can become conditionally indispensable.'
+    finding_interpretation: 'Tyrosine in this pool is usually supplied by conversion, not by classifying tyrosine as an indispensable amino acid. Conversion is not a dopamine result.'
+    finding_statement: 'In humans, phenylalanine is converted to tyrosine. Tyrosine is dispensable when phenylalanine is available and can become conditionally indispensable when phenylalanine is limited. Conversion does not establish increased brain catecholamine synthesis.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Matthews reviews human phenylalanine and tyrosine kinetics. Hydroxylation of phenylalanine to tyrosine is the primary disposal route and occurs mainly in the liver. Tyrosine synthesis depends on phenylalanine availability, so limited phenylalanine can make tyrosine conditionally indispensable.'
+    synthesis_limitations: The review establishes conversion and conditional indispensability. It does not test whether extra phenylalanine or tyrosine raises brain dopamine or noradrenaline.
+    evidence_considered:
+      - label: Matthews (2007)
+        citation_key: matthews_phenylalanine_2007
+        href: /docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007
+        data_level: Mechanistic
+        exposure_context: human tracer infusions
+        evidence_source: repository-inherited
+        directional_finding: Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.
+        assessment:
+          study: Overview of human phenylalanine and tyrosine tracer kinetics.
+          population: Human tracer studies in people with ordinary hydroxylation and in disorders that block it.
+          result: Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.
+          effect_magnitude: Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.
+          evidence_summary: Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.
+          limitations: Conversion kinetics are not brain dopamine or noradrenaline synthesis.
+  - id: PM1-F4
+    finding_label: Tyrosine and tryptophan are the precursors later pathways use
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Tryptophan is the serotonin precursor and tyrosine is the dopamine precursor. That names the amino acids in this pool. It does not show that raising the pool raises brain serotonin or dopamine.
+    finding_interpretation: The names justify why these amino acids are the ones this mechanism follows. Behavioural depletion and supplement studies are a different exposure and do not belong to meal-protein coverage.
+    finding_statement: 'Tryptophan and tyrosine are the precursors for serotonin and dopamine. Precursor identity is not evidence that dietary coverage changes brain transmitter synthesis, attention, mood or reward.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Aquili identifies tryptophan as the serotonergic precursor and tyrosine as the dopaminergic precursor, then reviews acute depletion and supplementation studies of executive function and reward. Only the precursor identity belongs to this mechanism.'
+    synthesis_limitations: 'The behavioural evidence uses depletion or supplements, not ordinary protein coverage, and it does not measure the circulating pool this page governs.'
+    evidence_considered:
+      - label: Aquili (2020)
+        citation_key: aquili_role_2020
+        href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
+        data_level: Mechanistic
+        exposure_context: narrative review of depletion and supplementation studies
+        evidence_source: repository-inherited
+        directional_finding: 'Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed behavioural effects come from depletion and supplementation, not from meal-protein coverage.'
+        assessment:
+          study: Narrative review of tryptophan and tyrosine in executive function and reward.
+          population: The behavioural studies are mostly acute depletion or supplementation experiments.
+          result: The precursor relationship is stated. Cognitive effects in the review are not effects of this dietary pool.
+          effect_magnitude: No effect size for meal protein on brain transmitters.
+          evidence_summary: The precursor names are supported. The cognitive conclusions are not a result for this mechanism.
+          limitations: Depletion and isolated supplements are not indispensable-amino-acid coverage.
 hide_title: true
 ---
 
@@ -314,16 +415,8 @@ Ensure meal-level protein supply delivers the amino-acid foundation neurotransmi
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-Meals have to supply the indispensable amino acids this mechanism keeps available. That is about the circulating amino-acid pool, not about competition for entry into the brain.
-</div>
-</div>
-</div>
+No mapping established.
+
 
 </div>
 </div>
@@ -335,14 +428,14 @@ Meals have to supply the indispensable amino acids this mechanism keeps availabl
 </div>
 ### Overview
 
-Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan [Mariotti et al. (2019) [[1]](#pm-ref-1); Moughan and Lim (2024) [[10]](#pm-ref-10)]. Phenylalanine can also be converted to tyrosine, so this mechanism concerns dietary provision of the circulating precursor pool before brain entry [Matthews (2007) [[11]](#pm-ref-11)]. It excludes competition for transport across the blood–brain barrier and conversion into neurotransmitters [Fernstrom (2013) [[2]](#pm-ref-2); Aquili (2020) [[4]](#pm-ref-4)]. Its role is to define precursor provision before those later neural processes begin.
+Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. [[1]](#pm-ref-1) [[3]](#pm-ref-3) Phenylalanine can also be converted to tyrosine. [[4]](#pm-ref-4) After a protein meal, dietary phenylalanine appears in the circulation. [[6]](#pm-ref-6) Tyrosine and tryptophan are precursors later signalling can use for dopamine, noradrenaline and serotonin. [[2]](#pm-ref-2) Protein that covers those amino acids is the supported dietary route. [[1]](#pm-ref-1) [[3]](#pm-ref-3)
 
-* **Mechanism boundary:** Covers dietary provision of indispensable amino acids and the circulating precursor pool; LAT1-mediated brain entry and downstream neurotransmitter conversion are separate mechanisms [Fernstrom (2013) [[2]](#pm-ref-2); Aquili (2020) [[4]](#pm-ref-4)].
-* **Evidence boundary:** Intake adequacy and DIAAS (Digestible Indispensable Amino Acid Score) assess amino-acid coverage and digestibility; they do not measure brain uptake or monoamine production [Mariotti et al. (2019) [[1]](#pm-ref-1); Moughan and Lim (2024) [[10]](#pm-ref-10)].
-* **Biological relevance:** Phenylalanine-derived tyrosine and indispensable tryptophan contribute to monoamine precursor biology, but that dependency is not evidence that extra protein or precursor supplementation improves ADHD [Matthews (2007) [[11]](#pm-ref-11); Aquili (2020) [[4]](#pm-ref-4)].
+- **Benefits:** These amino acids, including tyrosine made from phenylalanine, are how meal protein supplies the pool that dopamine, noradrenaline and serotonin pathways draw on. [[4]](#pm-ref-4) [[2]](#pm-ref-2) That capacity is not evidence that extra protein improves attention or mood. [[1]](#pm-ref-1) [[6]](#pm-ref-6)
+- **Implementation Notes:** Dietary protein, indispensable amino-acid supply, and tryptophan are the provision routes. [[1]](#pm-ref-1) [[3]](#pm-ref-3) Tyrosine is made from phenylalanine, so it is not classed as an indispensable amino acid. [[4]](#pm-ref-4) No intake dose is established. [[1]](#pm-ref-1) [[6]](#pm-ref-6) Each meal does not have to supply the full set. [[5]](#pm-ref-5)
+- **Biological Relevance:** Those amino acids still have to cross into the brain before they are used to make dopamine, noradrenaline or serotonin - see [PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
 
 ## 2. Primary Biological Effects
-↑ amino-acid pool sufficiency; ↑ neurotransmitter-relevant amino-acid prioritisation
+↑ circulating indispensable amino-acid supply, including phenylalanine that can be converted to tyrosine
 
 ## 3. Intervention Levers
 
@@ -367,8 +460,7 @@ Food protein supplies indispensable amino acids—the amino acids the body canno
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Regular meal timing supporting amino-acid availability across the day (Evidence:Human Mechanistic) [Walrand & Boirie, 2005]
-- Sufficient protein at main meals to maintain amino-acid availability throughout the day (Evidence:Human Mechanistic) [Walrand & Boirie, 2005]
+No lifestyle lever is established. Meal timing and protein distribution across the day were not shown to set this precursor pool.
 
 </div>
 </div>
@@ -378,7 +470,7 @@ Food protein supplies indispensable amino acids—the amino acids the body canno
 
 ### Summary
 
-Neurotransmitter-relevant biology depends first on the availability of sufficient dietary amino-acid substrate. Before transport, synthesis, signalling, or recycling can occur, meals must establish an adequate and appropriately balanced amino-acid pool capable of supporting downstream neural pathways.
+Later signalling can use tyrosine and tryptophan only after those amino acids are available in the circulation. A protein meal is what puts dietary phenylalanine there, and phenylalanine can be converted to tyrosine. Brain entry and neurotransmitter synthesis come after that.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -388,117 +480,43 @@ Neurotransmitter-relevant biology depends first on the availability of sufficien
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-#### (Amino-acid pool sufficiency)
+#### (Circulating supply)
 
-Protein quantity and distribution influence the size and stability of the amino-acid pool available to the body throughout the day. Sparse protein intake, prolonged gaps between protein-containing meals, or chronically low amino-acid availability may reduce the substrate available to downstream neurotransmitter-related processes.
+Gorissen et al. (2020) [[6]](#pm-ref-6) pooled human trials of labelled whey, casein and milk protein. About half of the dietary phenylalanine appeared in the circulation over five hours. Casein delivered a smaller fraction than whey or milk, a larger dose delivered more, and older adults retained slightly less in the circulation than young adults. The measured endpoint is plasma phenylalanine, not brain dopamine, noradrenaline or serotonin.
 
-This mechanism therefore focuses on meal-level amino-acid sufficiency rather than isolated nutrient supplementation or acute precursor loading.
+#### (Coverage across the diet)
 
-#### (Protein quality and amino-acid coverage)
+Mariotti and Gardner (2019) [[1]](#pm-ref-1) found that adult vegetarian diets which include protein-rich plant foods can meet protein and amino-acid requirements. Moughan and Lim (2024) [[3]](#pm-ref-3) score protein quality by digestible indispensable amino acids, not by grams alone. Marsh et al. (2013) [[5]](#pm-ref-5) state that varied plant proteins across the diet can cover that set, so complementary proteins do not have to share every meal.
 
-Protein quality influences whether the dietary pattern provides adequate coverage of indispensable amino acids and neurotransmitter-relevant substrates → [Mariotti et al., 2019]
+#### (Phenylalanine, tyrosine and tryptophan)
 
-A variety of plant-protein sources can support indispensable amino-acid coverage across the diet. That is not a requirement to pair complementary plant proteins within each meal → [Marsh et al., 2013]; [Mariotti et al., 2019]
-
-Within BRS1, tryptophan is an indispensable serotonergic precursor in this pool. Tyrosine is a catecholamine precursor normally formed from indispensable phenylalanine; it is not itself an indispensable amino acid → [Matthews, 2007]. The role of this PM is to establish adequate substrate availability rather than directly regulate neurotransmitter production.
+Matthews (2007) [[4]](#pm-ref-4) shows that humans convert phenylalanine to tyrosine, mainly in the liver. Tyrosine is normally dispensable because of that conversion, and it can become conditionally indispensable when phenylalanine is limited. Aquili (2020) [[2]](#pm-ref-2) names tryptophan as the serotonin precursor and tyrosine as the dopamine precursor. Those names identify the amino acids in this pool. They do not show that a higher circulating supply raises brain serotonin or dopamine.
 
 #### (Boundaries of the mechanism)
 
-This PM governs amino-acid availability and prioritisation only.
-
-Competitive transport of amino acids across the blood–brain barrier, including LNAA competition and transport bias, is handled by [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) → [Fernstrom, 2013]
-
-Enzymatic conversion of amino acids into neurotransmitters depends on downstream cofactors and regulatory mechanisms represented elsewhere within BRS1 and [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism).
+Competitive transport of amino acids across the blood–brain barrier is [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Dopamine synthesis and signalling are [BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation). Noradrenaline signalling is [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation). Serotonin signalling is [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation).
 
 #### (Integration within BRS1)
 
-This PM establishes circulating indispensable amino-acid coverage for downstream neurotransmitter-related processes. Competitive LNAA transport is handled by [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation). Conversion, signalling, and recycling are handled by sibling PMs.
+This mechanism supplies the circulating pool at the start of [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function). Later mechanisms in that pathway draw on it. A shared key-constraint mapping is not established.
 
 </div>
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-The core biology of amino-acid availability is well established. The studies below do not redefine this mechanism; they highlight practical protein-adequacy findings that refine how meal-level substrate sufficiency is interpreted.
+A protein meal releases dietary phenylalanine into the circulation. How much arrives depends on protein type, dose and age. Phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are the precursors later pathways use. None of these results shows that extra protein raises brain dopamine, noradrenaline or serotonin. Spreading protein across the day was not shown to set this pool.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Protein distribution and utilisation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+<ScientificFinding finding={{"id":"PM1-F1","finding_label":"Dietary phenylalanine appears in the circulation after a protein meal","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In pooled human trials, about half of the phenylalanine from labelled dietary protein appeared in the circulation over five hours. Casein delivered less than whey or milk. A larger dose delivered more. Older adults retained slightly less in the circulation than young adults.","finding_interpretation":"This is the measured supply step. It is plasma phenylalanine, not tryptophan, and not brain dopamine, noradrenaline or serotonin.","finding_statement":"Dietary protein releases phenylalanine into the human circulation. Protein type, dose and age change the fraction that appears. That appearance is not a neurotransmitter result.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Gorissen and colleagues pooled 18 trials in 602 people who consumed intrinsically labelled whey, casein or milk protein. Over five hours, 50% ± 14% of dietary protein-derived phenylalanine appeared in the circulation. Casein was 45% ± 11%, whey 57% ± 10% and milk 65% ± 13%. Appearance rose with dose. In the age subset, older adults showed 45% ± 10% and young adults 51% ± 14%.","synthesis_limitations":"The tracer is phenylalanine. The trials were built to study muscle protein handling. They do not measure tryptophan, brain entry or neurotransmitter synthesis, and they do not show that a higher plasma peak improves those later steps.","evidence_considered":[{"label":"Gorissen et al. (2020)","citation_key":"gorissen_phenylalanine_2020","href":"/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020","data_level":"Human Mechanistic","exposure_context":"dietary whey, casein or milk protein","evidence_source":"bounded-external-search","directional_finding":"About half of dietary protein-derived phenylalanine appeared in the circulation over five hours. The fraction was lower for casein, higher with a larger dose, and slightly lower in older adults.","assessment":{"study":"Pooled analysis of 18 randomised trials using intrinsically labelled whey, casein or milk protein.","population":"602 participants, mean age 53 years. The age comparison used 82 young adults and 83 older adults.","result":"Dietary phenylalanine entered the circulation. Protein type, dose and age changed the fraction that appeared.","effect_magnitude":"Mean appearance 50% ± 14% over five hours. Casein 45% ± 11%, whey 57% ± 10%, milk 65% ± 13%. Older adults 45% ± 10% versus young adults 51% ± 14%.","evidence_summary":"A protein meal delivers phenylalanine into the circulation, and the amount depends on the protein, the dose and age.","limitations":"Phenylalanine appearance is not the full indispensable set, not tryptophan, and not a brain or clinical endpoint."},"canonical_reference":{"author_year":"Gorissen et al. (2020)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
 
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** The pattern of protein intake across the day may influence how effectively dietary amino acids are utilised; meal-level distribution and source quality can affect tissue retention and amino-acid availability [Walrand & Boirie, 2005].
-- **Key References:**
+<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Indispensable amino-acid coverage is a property of the diet, not of each meal","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Protein quality is digestible coverage of the indispensable amino acids, not grams of protein alone. Adult vegetarian diets that include protein-rich plant foods can meet those requirements. Varied plant proteins across the day can cover the set without combining them in every meal.","finding_interpretation":"This supports dietary protein and indispensable amino-acid supply as provision routes. It does not set a dose, and it does not show a brain-transmitter effect.","finding_statement":"Digestible indispensable-amino-acid coverage, including in varied vegetarian diets, can meet adult requirements without each meal supplying the full set. That coverage is not evidence of increased neurotransmitter synthesis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mariotti and Gardner review adult vegetarian and vegan diets and conclude that protein-rich plant foods can meet protein and amino-acid requirements, and that amino-acid deficiency has been overstated. Moughan and Lim describe protein quality as the digestible indispensable amino acid score rather than total protein. Marsh and colleagues state that a variety of plant proteins across the diet can cover indispensable amino acids, so complementary proteins do not have to share one meal when the diet is varied.","synthesis_limitations":"These are requirement and scoring reviews. They do not measure the postprandial circulating pool, brain entry or neurotransmitter synthesis.","evidence_considered":[{"label":"Mariotti and Gardner (2019)","citation_key":"mariotti_dietary_2019","href":"/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019","data_level":"Mechanistic","exposure_context":"vegetarian and vegan dietary patterns","evidence_source":"repository-inherited","directional_finding":"Adult vegetarian diets that include protein-rich plant foods can meet protein and amino-acid requirements. Amino-acid deficiency is described as overstated.","assessment":{"study":"Review of protein and amino-acid intakes from vegetarian and vegan diets in Western adults.","population":"Adults, including older adults, eating vegetarian or vegan diets. Children are discussed separately.","result":"Protein-rich plant foods can achieve protein and amino-acid adequacy in adults.","effect_magnitude":"No single intake-response estimate. The result is adequacy against requirements, not a change in brain transmitters.","evidence_summary":"Dietary patterns can cover the indispensable amino acids this pool requires.","limitations":"Requirement coverage is not a plasma time course and not a neurotransmitter outcome."},"canonical_reference":{"author_year":"Mariotti and Gardner (2019)","number":1,"anchor":"#pm-ref-1"}},{"label":"Moughan and Lim (2024)","citation_key":"moughan_diaas_2024","href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","data_level":"Mechanistic","exposure_context":"protein-quality scoring","evidence_source":"repository-inherited","directional_finding":"Protein quality is scored by digestible indispensable amino acids rather than by protein grams alone.","assessment":{"study":"Review of the digestible indispensable amino acid score a decade after its introduction.","population":"Not a new human trial. The score is applied to foods and diets.","result":"Quality depends on digestible indispensable amino acids.","effect_magnitude":"No neurotransmitter effect size.","evidence_summary":"Coverage of those amino acids is the quality claim this mechanism can use.","limitations":"A scoring review does not measure circulating or brain amino acids."},"canonical_reference":{"author_year":"Moughan and Lim (2024)","number":3,"anchor":"#pm-ref-3"}},{"label":"Marsh et al. (2013)","citation_key":"marsh_protein_2013","href":"/docs/papers/BRAIN-Diet-References#marsh_protein_2013","data_level":"Mechanistic","exposure_context":"vegetarian dietary pattern","evidence_source":"repository-inherited","directional_finding":"Varied plant-protein sources across the diet can cover indispensable amino acids without combining complementary proteins in each meal.","assessment":{"study":"Review of protein in vegetarian diets.","population":"People eating vegetarian diets.","result":"Completeness can be reached across the day rather than inside every meal.","effect_magnitude":"No meal-level neurotransmitter measurement.","evidence_summary":"Each meal does not have to supply the full indispensable set.","limitations":"The review does not test brain precursor availability."},"canonical_reference":{"author_year":"Marsh et al. (2013)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[]}} />
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005","label":"Walrand & Boirie (2005)","dataLevel":"Human Mechanistic"}]} />
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Phenylalanine is converted to tyrosine in humans","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Human tracer studies show that phenylalanine is hydroxylated to tyrosine, mainly in the liver. Tyrosine is normally dispensable because the body makes it from phenylalanine. When phenylalanine is limited, tyrosine can become conditionally indispensable.","finding_interpretation":"Tyrosine in this pool is usually supplied by conversion, not by classifying tyrosine as an indispensable amino acid. Conversion is not a dopamine result.","finding_statement":"In humans, phenylalanine is converted to tyrosine. Tyrosine is dispensable when phenylalanine is available and can become conditionally indispensable when phenylalanine is limited. Conversion does not establish increased brain catecholamine synthesis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Matthews reviews human phenylalanine and tyrosine kinetics. Hydroxylation of phenylalanine to tyrosine is the primary disposal route and occurs mainly in the liver. Tyrosine synthesis depends on phenylalanine availability, so limited phenylalanine can make tyrosine conditionally indispensable.","synthesis_limitations":"The review establishes conversion and conditional indispensability. It does not test whether extra phenylalanine or tyrosine raises brain dopamine or noradrenaline.","evidence_considered":[{"label":"Matthews (2007)","citation_key":"matthews_phenylalanine_2007","href":"/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007","data_level":"Mechanistic","exposure_context":"human tracer infusions","evidence_source":"repository-inherited","directional_finding":"Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.","assessment":{"study":"Overview of human phenylalanine and tyrosine tracer kinetics.","population":"Human tracer studies in people with ordinary hydroxylation and in disorders that block it.","result":"Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.","effect_magnitude":"Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.","evidence_summary":"Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.","limitations":"Conversion kinetics are not brain dopamine or noradrenaline synthesis."},"canonical_reference":{"author_year":"Matthews (2007)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[]}} />
 
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Physiological flexibility in protein handling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Larger protein boluses can sustain positive whole-body protein balance for several hours, indicating that amino-acid sufficiency depends on quantity, quality, and dietary pattern rather than rigid per-meal distribution rules [Trommelen et al., 2023].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023","label":"Trommelen et al. (2023)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Protein quality and DIAAS</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Digestible Indispensable Amino Acid Score (DIAAS) evaluates protein quality by digestible indispensable amino-acid content, supporting interpretation of sufficiency as a function of quality and coverage rather than grams alone [Moughan & Lim, 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Plant-protein variety across the diet</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Variety of plant-protein sources can support indispensable amino-acid coverage across the diet; this is a dietary-pattern property, not a requirement to combine complementary proteins at each meal [Marsh et al., 2013]; [Mariotti et al., 2019]; [Moughan & Lim, 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#marsh_protein_2013","label":"Marsh et al. (2013)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019","label":"Mariotti et al. (2019)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#moughan_diaas_2024","label":"Moughan & Lim (2024)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM1-F4","finding_label":"Tyrosine and tryptophan are the precursors later pathways use","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Tryptophan is the serotonin precursor and tyrosine is the dopamine precursor. That names the amino acids in this pool. It does not show that raising the pool raises brain serotonin or dopamine.","finding_interpretation":"The names justify why these amino acids are the ones this mechanism follows. Behavioural depletion and supplement studies are a different exposure and do not belong to meal-protein coverage.","finding_statement":"Tryptophan and tyrosine are the precursors for serotonin and dopamine. Precursor identity is not evidence that dietary coverage changes brain transmitter synthesis, attention, mood or reward.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Aquili identifies tryptophan as the serotonergic precursor and tyrosine as the dopaminergic precursor, then reviews acute depletion and supplementation studies of executive function and reward. Only the precursor identity belongs to this mechanism.","synthesis_limitations":"The behavioural evidence uses depletion or supplements, not ordinary protein coverage, and it does not measure the circulating pool this page governs.","evidence_considered":[{"label":"Aquili (2020)","citation_key":"aquili_role_2020","href":"/docs/papers/BRAIN-Diet-References#aquili_role_2020","data_level":"Mechanistic","exposure_context":"narrative review of depletion and supplementation studies","evidence_source":"repository-inherited","directional_finding":"Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed behavioural effects come from depletion and supplementation, not from meal-protein coverage.","assessment":{"study":"Narrative review of tryptophan and tyrosine in executive function and reward.","population":"The behavioural studies are mostly acute depletion or supplementation experiments.","result":"The precursor relationship is stated. Cognitive effects in the review are not effects of this dietary pool.","effect_magnitude":"No effect size for meal protein on brain transmitters.","evidence_summary":"The precursor names are supported. The cognitive conclusions are not a result for this mechanism.","limitations":"Depletion and isolated supplements are not indispensable-amino-acid coverage."},"canonical_reference":{"author_year":"Aquili (2020)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -522,16 +540,16 @@ The core biology of amino-acid availability is well established. The studies bel
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — Methylation uses methionine, another indispensable amino acid supplied by dietary protein. That is a shared amino-acid source, not a control this mechanism exerts on the methylation cycle.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
-- [BRS1-FM1-PM4 - Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
-- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — The tyrosine and tryptophan in this circulating pool still have to enter the brain. That entry is competitive transport, not this supply step.
+- [BRS1-FM1-PM3 - Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) — Dopamine synthesis uses tyrosine after brain entry, including tyrosine made from phenylalanine. This mechanism supplies that precursor. It does not carry out the synthesis.
+- [BRS1-FM1-PM4 - Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — Noradrenaline synthesis uses the same tyrosine after brain entry. This mechanism supplies the circulating precursor and does not regulate noradrenaline signalling.
+- [BRS1-FM1-PM5 - Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation) — Serotonin synthesis uses tryptophan from this pool. This mechanism supplies that indispensable amino acid and does not carry out serotonin synthesis.
 
 ## 7. Phenome Connections
 
@@ -584,10 +602,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#aquili_role_2020","label":"Aquili (2020)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention.
 </div>
 </div>
 </div>
@@ -607,10 +622,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5).
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987","label":"Reimherr & Ward (1987)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#aquili_role_2020","label":"Aquili (2020)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling.
 </div>
 </div>
 </div>
@@ -630,25 +642,17 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#oades_role_2010","label":"Oades (2010)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)","dataLevel":"Human Study"}]} />
+- **Rationale:** Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step.
 </div>
 </div>
 </div>
 
 ## 8. References
 
-- <span id="pm-ref-1">[1]</span> [Mariotti et al. (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- <span id="pm-ref-2">[2]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
-- <span id="pm-ref-3">[3]</span> [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
-- <span id="pm-ref-4">[4]</span> [Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
-- <span id="pm-ref-5">[5]</span> [Reimherr & Ward (1987) — An Open Trial of L-tyrosine in the Treatment of Attention Deficit Disorder,](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)
-- <span id="pm-ref-6">[6]</span> [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)
-- <span id="pm-ref-7">[7]</span> [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
-- <span id="pm-ref-8">[8]</span> [Walrand & Boirie (2005) — Optimizing Protein Intake in Aging](/docs/papers/BRAIN-Diet-References#walrand_optimizing_2005)
-- <span id="pm-ref-9">[9]</span> [Trommelen et al. (2023) — Anabolic Response to Protein Ingestion](/docs/papers/BRAIN-Diet-References#trommelen_anabolic_2023)
-- <span id="pm-ref-10">[10]</span> [Moughan & Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)
-- <span id="pm-ref-11">[11]</span> [Matthews (2007) — An Overview of Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)
-- <span id="pm-ref-12">[12]</span> [Marsh et al. (2013) — Protein and vegetarian diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)
+- <span id="pm-ref-1">[1]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- <span id="pm-ref-2">[2]</span> [Aquili (2020) — Tryptophan and Tyrosine as Serotonin and Dopamine Precursors](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
+- <span id="pm-ref-3">[3]</span> [Moughan and Lim (2024) — Digestible Indispensable Amino Acid Score (DIAAS)](/docs/papers/BRAIN-Diet-References#moughan_diaas_2024)
+- <span id="pm-ref-4">[4]</span> [Matthews (2007) — Phenylalanine and Tyrosine Kinetics in Humans](/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007)
+- <span id="pm-ref-5">[5]</span> [Marsh et al. (2013) — Protein and Vegetarian Diets](/docs/papers/BRAIN-Diet-References#marsh_protein_2013)
+- <span id="pm-ref-6">[6]</span> [Gorissen et al. (2020) — Dietary Protein and Circulating Phenylalanine](/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020)
+

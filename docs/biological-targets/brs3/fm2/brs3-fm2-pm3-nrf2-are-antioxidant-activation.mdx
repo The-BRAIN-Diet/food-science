@@ -1,100 +1,80 @@
 ---
-title: Nrf2-ARE Antioxidant Activation
+title: Nrf2-Mediated Cellular Defence Regulation
 pm_id: BRS3-FM2-PM3
-mission: >-
-  Switch on endogenous antioxidant and detoxification genes so cells can raise
-  protection against oxidative stress.
+mission: Regulate the expression of cellular defence genes in response to oxidative and electrophilic stress.
 parent_fm: BRS3(FM2)
 parent_brs: BRS3
-summary: >-
-  Activates Nrf2-dependent antioxidant and detoxification gene programmes (the
-  cell's own inducible defence switch) that raise endogenous protection against
-  oxidative stress from within, rather than relying solely on antioxidants
-  supplied through diet. This mechanism governs induction of the body's internal
-  defence machinery specifically, distinct from exogenous antioxidant supply
-  covered elsewhere. Activation depends on antioxidant substrate and cofactor
-  sufficiency, meaning dietary quality still shapes how strongly this internal
-  switch can respond.
-key_constraints:
-  - BRS3(KC1) - Antioxidant Substrate Availability
+summary: 'Nrf2 is held by Keap1 until oxidative or electrophilic stress lets it reach defence genes. A three-day broccoli sprout homogenate raised phase II enzyme RNA in nasal cells of healthy adults. That is airway gene expression, not brain Nrf2, and sulforaphane is not a nutrient this regulation requires.'
 cofactors: []
-intervention_dominance: Diet-Dominant
-intervention_breakdown: Food-State Dominant
+intervention_dominance: Diet-Supported
+intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
-dose_sensitivity: >-
-  Regular crucifer intake; practical strategy: repeated broccoli/sprout
-  inclusion weekly
+dose_sensitivity: No ordinary crucifer intake is set. The gene result is a three-day myrosinase-completed sprout homogenate. A four-week broccoli-sprout extract capsule did not raise Nrf2 target-gene expression in the lungs of people with COPD.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: A prepared broccoli sprout homogenate changed nasal phase II enzyme RNA. That is conditional food-preparation influence on a defence-gene endpoint. It does not establish that diet is the principal route for this switch.
+    routes:
+      - group_id: '3.2'
+        evidence_basis: intervention-effect
+        intervention_effect: 'Three daily doses of a broccoli sprout homogenate, prepared with added daikon myrosinase, increased phase II enzyme RNA in nasal cells.'
+        context: Healthy nonsmoking adults. Nasal cells were sampled two hours after the third dose. Alfalfa sprout homogenate did not produce the increase.
+        limitations: 'Nasal enzyme RNA is not Nrf2 protein, brain Nrf2 activation, or a cognitive result. The COPD capsule trial does not erase this food result, and this food result does not erase that null.'
+        evidence_source:
+          finding_ids:
+            - PM3-F2
+          citation_keys:
+            - riedl_sulforaphane_airway_2009
+            - wise_sulforaphane_copd_2016
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.2'
+    rationale: 'No direct dietary requirement is established. The only admitted intervention is the myrosinase-completed sprout homogenate, so that practice is the section 1 lever. Lifestyle was not shown to change this switch.'
+    comparative_limitations: 'The homogenate changed nasal enzyme RNA. It is not ordinary broccoli, not a capsule, and not brain Nrf2.'
+    assessments:
+      - group_id: '3.2'
+        relevance: 'The practice raises phase II enzyme RNA, the defence-gene class this switch is about, in human nasal cells.'
+        directness: The exposure tested is the homogenate. The authors read the shared enzyme pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.
+        extent: 'Three daily doses in healthy nonsmoking adults, sampled in nasal cells. This is not brain Nrf2 activation, an ordinary broccoli serving, or the four-week sprout-extract capsules in COPD.'
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-dietary_input_traceability:
-  - atom_id: PM3-DIT-1
-    input: Vitamin C
-    input_type: nutrient/substance
-    biological_role: Dietary antioxidant substrate whose adequacy is relevant to Nrf2-ARE inducible defence under oxidative load; this is PM-owned KC context, not a sulforaphane-induction requirement
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: vitamin-c-activation-constraint
+    applicability_proposition: Vitamin C availability constrains the Nrf2 activation step on this page.
+    disposition: evidence-supported-non-application
+    established_links:
+      - 'Verlaet lists vitamin C as a water-soluble non-enzymatic antioxidant, beside the antioxidant enzymes.'
+      - 'Houghton reports ascorbic acid as a weak inducer of NQO1 compared with sulforaphane, and treats ascorbate as a direct antioxidant used up in the reaction.'
+    inferred_links:
+      - Antioxidant substrate sufficiency would have to be in place before Nrf2 could switch defence genes on.
     evidence_source:
+      finding_ids:
+        - PM3-F1
       citation_keys:
         - verlaet_rationale_2018
         - houghton_sulforaphane_2016
-    evidence_limitation: Antioxidant-treatment rationale and sulforaphane reviews do not establish that increasing vitamin C intake induces Nrf2-ARE or improves ADHD outcomes.
-dietary_lever_atoms:
-  - atom_id: PM3-DIT-1
-    relationship_layer: kc-relevance
-    claim_ceiling: biological-dependency
-    permitted_wording: Vitamin C is shown here only as PM3-relevant KC-context antioxidant substrate. It is not a Direct Nrf2-ARE Dietary Requirement and is not sulforaphane induction.
-    evidence_limitation: Antioxidant-treatment rationale and sulforaphane reviews do not establish that increasing vitamin C intake induces Nrf2-ARE or improves ADHD outcomes.
-dietary_lever_presentations:
-  - atom_id: PM3-DIT-1
-    label: Vitamin C
-    presentation_section: 3.1.3
-pm_kc_relationships:
-  - relationship_id: BRS3-FM2-PM3-KCR-1
-    kc_id: BRS3(KC1)
-    pm_biological_role: Nrf2-ARE induction assumes antioxidant-substrate sufficiency, so this PM draws on BRS3(KC1) rather than treating sulforaphane as a required cofactor of the Nrf2 system.
-    evidence_source:
-      citation_keys:
-        - verlaet_rationale_2018
-        - houghton_sulforaphane_2016
-    evidence_limitation: Shared-pool relevance does not make every KC1 constituent a Direct Dietary Requirement of Nrf2-ARE activation.
-    constituent_relationships:
-      - relationship_id: BRS3-FM2-PM3-KCI-1
-        pm_atom_id: PM3-DIT-1
-        label: Vitamin C
-        kc_membership_status: legacy-unreviewed
-        legacy_kc_constituent_label: Vitamin C
-        kc_change_control_flag_id: KC-CC-BRS3-FM2-PM3-01
-kc_change_control_flags:
-  - flag_id: KC-CC-BRS3-FM2-PM3-01
-    flag_type: constituent-challenge
-    kc_id: BRS3(KC1)
-    proposition: Whether the independently adjudicated PM3 vitamin C Input→PM relationship is the same constrained-pool membership as BRS3(KC1) vitamin C.
-    evidence_source:
-      citation_keys:
-        - verlaet_rationale_2018
-    status: pending-kc-review
-
+    rationale: 'General antioxidant status, and a weak comparison of inducer strength, do not show that vitamin C availability constrains this activation step. Public mapping is not published.'
 references:
-  - >-
-    [Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the
-    Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-  - >-
-    [Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in
-    ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)
-  - >-
-    [Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant
-    Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+  - '[Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)'
+  - '[Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)'
+  - '[Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)'
+  - '[Costa et al. (2026) — Nrf2 Activation in Inflammatory Diseases](/docs/papers/BRAIN-Diet-References#costa_nrf2_activators_2026)'
+  - '[Riedl, Saxon and Diaz-Sanchez (2009) — Oral Sulforaphane increases Phase II antioxidant enzymes in the human upper airway](/docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009)'
+  - '[Wise et al. (2016) — Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD](/docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016)'
+  - '[Itoh et al. (1999) — Keap1 represses Nrf2](/docs/papers/BRAIN-Diet-References#itoh_keap1_1999)'
+  - '[Zhang et al. (2004) — Keap1 is a Cul3 substrate adaptor](/docs/papers/BRAIN-Diet-References#zhang_keap1_2004)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      A narrative review frames a rationale for dietary antioxidant treatment of
-      ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked
-      endogenous induction may support cognitive clarity context when cofactors
-      are sufficient.
+    rationale: 'Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result.'
     references:
       - index: 1
         label: Verlaet et al. (2018)
@@ -111,10 +91,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Endogenous antioxidant induction and mineral cofactor sufficiency may
-      modulate attention-relevant oxidative burden in ADHD contexts; repeated
-      dietary pattern matters more than bolus sulforaphane dosing.
+    rationale: 'The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose.'
     references:
       - index: 1
         label: Verlaet et al. (2018)
@@ -126,10 +103,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Nrf2-dependent detoxification and antioxidant gene programmes may
-      intersect stress-buffering redox context; direct ADHD stress-outcome
-      evidence remains limited.
+    rationale: Nrf2-dependent detoxification and antioxidant gene programmes may intersect stress-buffering redox context; direct ADHD stress-outcome evidence remains limited.
     references:
       - index: 1
         label: Mocchegiani & Malavolta (2019)
@@ -137,6 +111,101 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#mocchegiani_role_2019
         data_level: Mechanistic
     evidence_confidence: low
+system_optimisation_practices:
+  - atom_id: PM3-SOP-1
+    optimisation_category: food_prep
+    input: Myrosinase-completed broccoli sprout homogenate
+    presentation_label: Myrosinase-completed broccoli sprout homogenate
+    input_type: preparation characteristic
+    biological_role: 'Three daily doses of broccoli sprouts, blended with water and daikon sprouts and held at 37°C so myrosinase could finish forming sulforaphane, increased phase II enzyme RNA in nasal cells of healthy adults. The authors read that shared pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.'
+    evidence_source:
+      finding_ids:
+        - PM3-F2
+      citation_keys:
+        - riedl_sulforaphane_airway_2009
+        - wise_sulforaphane_copd_2016
+    evidence_limitation: 'This is three days of that homogenate in healthy adults and nasal enzyme RNA, not brain Nrf2, an ordinary broccoli serving, or the four-week sprout-extract capsules that did not raise lung target-gene expression in COPD.'
+    claim_ceiling: modulation-demonstrated
+scientific_findings_intro: Keap1 holds Nrf2 until oxidative or electrophilic stress lets defence genes be transcribed. A three-day myrosinase-completed broccoli sprout homogenate raised phase II enzyme RNA in nasal cells. Extracted sulforaphane capsules did not raise that class of genes in COPD lung cells. Sulforaphane is not a nutrient this regulation requires.
+scientific_findings:
+  - id: PM3-F1
+    finding_label: Keap1 holds Nrf2 until stress lets defence genes be read
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Keap1 binds Nrf2 and keeps defence-gene transcription off. Electrophiles and oxidative stress release that hold. Keap1 also sends Nrf2 for disposal, and sulforaphane or oxidative stress slows that disposal. Turning the response up is not, by itself, the aim.'
+    finding_interpretation: 'This is the control step. It is not a nutrient requirement, and it is not evidence that more activity is always useful.'
+    finding_statement: 'Keap1 represses Nrf2 until oxidative or electrophilic stress allows defence-gene transcription. Sulforaphane can slow Keap1-directed disposal of Nrf2 in cells. That is regulation, not a dietary requirement.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Itoh and colleagues identified Keap1 as the protein that binds Nrf2 and represses antioxidant-response-element activity. Electrophilic agents opposed that repression and let Nrf2 move toward the nucleus. Zhang and colleagues showed Keap1 is the adaptor that marks Nrf2 for disposal, and that oxidative stress or sulforaphane inhibits that marking. Neither paper is a dietary trial.'
+    synthesis_limitations: 'Both results are cell biology. They do not measure brain Nrf2, and they do not show that eating more of any nutrient improves this regulation.'
+    evidence_considered:
+      - label: Itoh et al. (1999)
+        citation_key: itoh_keap1_1999
+        href: /docs/papers/BRAIN-Diet-References#itoh_keap1_1999
+        data_level: Cellular / Molecular
+        exposure_context: transfected cells and electrophilic agents
+        evidence_source: bounded-external-search
+        directional_finding: Keap1 binds the Neh2 domain of Nrf2 and represses antioxidant-response-element activity. Electrophiles oppose that repression.
+        assessment:
+          study: 'Identification of Keap1 as the repressor of Nrf2, with tests of electrophilic agents in cells.'
+          population: Transfected cell lines. No human cohort.
+          result: 'Keap1 holds Nrf2 back, and electrophiles release that hold so defence genes can be transcribed.'
+          effect_magnitude: The paper reports repression and its release. It does not give a human fold change.
+          evidence_summary: Defence-gene transcription is a regulated response to oxidative and electrophilic stress.
+          limitations: Cell identification of the sensor is not a food result and not a brain measurement.
+      - label: Zhang et al. (2004)
+        citation_key: zhang_keap1_2004
+        href: /docs/papers/BRAIN-Diet-References#zhang_keap1_2004
+        data_level: Cellular / Molecular
+        exposure_context: cells exposed to oxidative stress or sulforaphane
+        evidence_source: bounded-external-search
+        directional_finding: Keap1 marks Nrf2 for disposal. Oxidative stress and sulforaphane inhibit that marking. A cysteine-151 mutant of Keap1 resists that inhibition.
+        assessment:
+          study: Cell and biochemical tests of Keap1 as the adaptor that marks Nrf2 for disposal.
+          population: Cultured cells. No human dietary cohort.
+          result: Stress or sulforaphane slows disposal of Nrf2. Changing cysteine 151 of Keap1 blocks that effect.
+          effect_magnitude: 'The paper reports inhibition of ubiquitination, not a dietary dose.'
+          evidence_summary: Sulforaphane acts on the Keap1 sensor in cells. It is not a nutrient the regulation requires.
+          limitations: Cell exposure to sulforaphane is not the sprout homogenate and not brain Nrf2.
+  - id: PM3-F2
+    finding_label: A prepared sprout homogenate raised airway defence-gene RNA
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: 'Healthy nonsmokers drank a broccoli sprout homogenate, finished with daikon myrosinase, once a day for three days. Phase II enzyme RNA rose in nasal cells. Alfalfa did not do this. Capsules of extracted sulforaphane for four weeks did not raise Nrf2 target genes in COPD lung cells.'
+    finding_interpretation: 'The homogenate is a preparation that changed an airway readout of this gene programme. It is not a nutrient requirement, not brain Nrf2, and not evidence that a capsule does the same thing.'
+    finding_statement: A myrosinase-completed broccoli sprout homogenate raised phase II enzyme RNA in nasal cells of healthy adults. Extracted sulforaphane capsules did not raise Nrf2 target-gene expression in COPD lung cells.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Riedl, Saxon and Diaz-Sanchez gave healthy nonsmokers a broccoli sprout homogenate blended with daikon sprouts and held at 37°C, once a day for three days. Nasal phase II enzyme RNA rose with dose. Alfalfa sprout homogenate did not. Wise and colleagues gave people with COPD 25 or 150 micromoles of extracted sulforaphane, or placebo, for four weeks. Nrf2 target-gene expression in alveolar macrophages and bronchial epithelium did not rise, and inflammation and lung function did not change.'
+    synthesis_limitations: 'Nasal RNA after three days is not brain Nrf2. The capsule null is a different preparation in COPD, so it does not cancel the homogenate result, and the homogenate result does not make capsules work.'
+    evidence_considered:
+      - label: 'Riedl, Saxon and Diaz-Sanchez (2009)'
+        citation_key: riedl_sulforaphane_airway_2009
+        href: /docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009
+        data_level: Human Mechanistic
+        exposure_context: myrosinase-completed broccoli sprout homogenate
+        evidence_source: repository-inherited
+        directional_finding: Nasal phase II enzyme RNA rose with dose after three days of the homogenate. Alfalfa homogenate did not do this.
+        assessment:
+          study: 'Placebo-style food comparison in healthy nonsmokers. Broccoli sprout homogenate versus alfalfa sprout homogenate, once daily for three days.'
+          population: Healthy nonsmoking adults. Nasal cells sampled after the third dose.
+          result: Phase II enzyme RNA in nasal cells rose with the broccoli sprout dose and did not rise with alfalfa.
+          effect_magnitude: 'The rise was dose-related. Nrf2 protein was not measured, so no Nrf2 fold change is available.'
+          evidence_summary: A defined sprout preparation can raise airway defence-gene RNA.
+          limitations: 'Airway RNA is not brain Nrf2, not an ordinary broccoli serving, and not a clinical outcome.'
+      - label: Wise et al. (2016)
+        citation_key: wise_sulforaphane_copd_2016
+        href: /docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016
+        data_level: Human Mechanistic
+        exposure_context: capsules of sulforaphane extracted from broccoli sprouts
+        evidence_source: repository-inherited
+        directional_finding: Four weeks of 25 or 150 micromoles of extracted sulforaphane did not raise Nrf2 target genes in COPD lung cells.
+        assessment:
+          study: Randomised comparison of two sulforaphane capsule doses with placebo for four weeks.
+          population: People with COPD.
+          result: Nrf2 target-gene expression in alveolar macrophages and bronchial epithelium did not rise. Inflammation markers and lung function did not differ.
+          effect_magnitude: No rise in the measured target genes at either 25 or 150 micromoles a day.
+          evidence_summary: Extracted sulforaphane capsules did not reproduce the homogenate gene result.
+          limitations: 'COPD lung cells are not healthy nasal cells, and capsules are not the myrosinase-completed homogenate.'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -146,18 +215,18 @@ phenome_relationships:
   />
 </p>
 
-## BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation
+## BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation
 
-(Activating the Cell's Antioxidant Defence System)
+(Regulating cellular defence gene expression)
 
 ## 1. Mission & Overview + Dietary Levers
 
 ### Mission
 
-Switch on endogenous antioxidant and detoxification genes so cells can raise protection against oxidative stress.
+Regulate the expression of cellular defence genes in response to oxidative and electrophilic stress.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Diet-Supported
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -175,7 +244,7 @@ Switch on endogenous antioxidant and detoxification genes so cells can raise pro
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No Direct or Derived Dietary Requirement is currently established for Nrf2-ARE antioxidant activation.
+No Direct or Derived Dietary Requirement is currently established for Nrf2-mediated cellular defence regulation.
 
 </div>
 </div>
@@ -189,7 +258,7 @@ No Direct or Derived Dietary Requirement is currently established for Nrf2-ARE a
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No PM-specific cofactor Dietary Requirement is established. Sulforaphane can induce Nrf2 in cited work; induction is modulation, not a requirement of the Nrf2-ARE system.
+No evidence-supported cofactors or substrates are currently established for this mechanism.
 
 </div>
 </div>
@@ -203,16 +272,7 @@ No PM-specific cofactor Dietary Requirement is established. Sulforaphane can ind
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Vitamin C
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -224,14 +284,14 @@ No PM-specific cofactor Dietary Requirement is established. Sulforaphane can ind
 </div>
 ### Overview
 
-Activates Nrf2-dependent antioxidant and detoxification gene programmes (the cell's own inducible defence switch) that raise endogenous protection against oxidative stress from within, rather than relying solely on antioxidants supplied through diet. This mechanism governs induction of the body's internal defence machinery specifically, distinct from exogenous antioxidant supply covered elsewhere. Activation depends on antioxidant substrate and cofactor sufficiency, meaning dietary quality still shapes how strongly this internal switch can respond.
+Nrf2 is held by Keap1 until oxidative or electrophilic stress lets it reach defence genes. Itoh et al. (1999) showed that Keap1 represses Nrf2 and that electrophiles release that repression. [[7]](#pm-ref-7) Zhang et al. (2004) showed that Keap1 marks Nrf2 for disposal until stress or sulforaphane slows that disposal. [[8]](#pm-ref-8) A three-day broccoli sprout homogenate raised phase II enzyme RNA in nasal cells. [[5]](#pm-ref-5) That is airway gene expression, not brain Nrf2, and sulforaphane is not a nutrient this regulation requires.
 
-* Switches on the cell's own inducible antioxidant defence programme.
-* Governs internal defence induction, distinct from dietary antioxidant supply.
-* Depends on substrate and cofactor sufficiency to respond fully.
+- **Benefits:** This regulation lets cells raise defence-gene transcription when oxidative or electrophilic stress rises. [[7]](#pm-ref-7)
+- **Implementation Notes:** The tested practice is a myrosinase-completed broccoli sprout homogenate once a day for three days. [[5]](#pm-ref-5) Capsules of extracted sulforaphane did not raise the same class of genes in COPD lung cells. [[6]](#pm-ref-6)
+- **Biological Relevance:** The enzymes this regulation induces are used by later clearance, membrane, and recycling steps — see PM4, PM5 and PM6.
 
 ## 2. Primary Biological Effects
-↑ endogenous antioxidant gene expression
+Defence-gene transcription rises when stress releases Nrf2 from Keap1
 
 ## 3. Intervention Levers
 
@@ -243,7 +303,24 @@ Activates Nrf2-dependent antioxidant and detoxification gene programmes (the cel
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+<p>Only the category with a reviewed practice is shown.</p>
+
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">A three-day broccoli sprout homogenate, prepared with added myrosinase, raised phase II enzyme gene expression in nasal cells. This is not an ordinary broccoli serving or a sulforaphane capsule.</p>
+
+- Myrosinase-completed broccoli sprout homogenate
+
+</div>
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -257,7 +334,7 @@ Activates Nrf2-dependent antioxidant and detoxification gene programmes (the cel
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+No lifestyle lever is established. Sleep, stress, and activity were not shown to change this regulation.
 
 </div>
 </div>
@@ -267,23 +344,23 @@ No evidence-qualified lifestyle relationship is projected. Timing, stress and ac
 
 ### Summary
 
-Cellular redox defence is not limited to dietary antioxidant intake. Nrf2-ARE activation raises endogenous gene programmes for antioxidant protection and detoxification within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), provided substrate and cofactor context is sufficient.
+Cellular defence-gene expression is regulated when oxidative or electrophilic stress releases Nrf2 from Keap1. That regulation sits within [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity).
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nrf2 activation and endogenous antioxidant defence</strong>
+<strong>Keap1 and defence-gene regulation</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 #### (Nrf2-ARE signalling)
 
-Nrf2 activation increases transcription of cellular defence genes involved in antioxidant protection, redox buffering, and detoxification → [Houghton et al., 2016]
+Itoh et al. (1999) showed that Keap1 represses Nrf2 until electrophiles release that hold. [[7]](#pm-ref-7) Zhang et al. (2004) showed that Keap1 marks Nrf2 for disposal, and that oxidative stress or sulforaphane slows that disposal. [[8]](#pm-ref-8) Raising the response is not, by itself, the aim of this regulation.
 
 #### (Isothiocyanate signalling and induction kinetics)
 
-Glucoraphanin-derived isothiocyanates such as sulforaphane can activate Nrf2-linked pathways. Induction is dose- and repetition-sensitive: sustained exposure patterns are more biologically meaningful than isolated bolus events → [Houghton et al., 2016]
+Riedl, Saxon and Diaz-Sanchez (2009) found that a three-day broccoli sprout homogenate, finished with daikon myrosinase, raised phase II enzyme RNA in nasal cells. [[5]](#pm-ref-5) Wise et al. (2016) found that four weeks of extracted sulforaphane capsules did not raise Nrf2 target genes in COPD lung cells. [[6]](#pm-ref-6) Sulforaphane is an inducer in this preparation, not a nutrient the regulation requires.
 
 #### (Boundaries of the mechanism)
 
@@ -291,55 +368,21 @@ Net ROS generation versus clearance dynamics are handled by [BRS3-FM2-PM4 - ROS 
 
 #### (Integration within BRS3)
 
-This PM supports endogenous defence capacity within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability).
+This PM supports endogenous defence capacity within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity). Vitamin C, zinc and selenium are not established here as requirements of the activation step.
 
 </div>
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-Nrf2-ARE induction biology is well established. The evidence below emphasises endogenous defence activation, cofactor dependence, and why food-based induction patterns matter more than isolated megadosing.
+Keap1 holds Nrf2 until oxidative or electrophilic stress lets defence genes be transcribed. A three-day myrosinase-completed broccoli sprout homogenate raised phase II enzyme RNA in nasal cells. Extracted sulforaphane capsules did not raise that class of genes in COPD lung cells. Sulforaphane is not a nutrient this regulation requires.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Sulforaphane bioavailability and Nrf2 activation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+<ScientificFinding finding={{"id":"PM3-F1","finding_label":"Keap1 holds Nrf2 until stress lets defence genes be read","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Keap1 binds Nrf2 and keeps defence-gene transcription off. Electrophiles and oxidative stress release that hold. Keap1 also sends Nrf2 for disposal, and sulforaphane or oxidative stress slows that disposal. Turning the response up is not, by itself, the aim.","finding_interpretation":"This is the control step. It is not a nutrient requirement, and it is not evidence that more activity is always useful.","finding_statement":"Keap1 represses Nrf2 until oxidative or electrophilic stress allows defence-gene transcription. Sulforaphane can slow Keap1-directed disposal of Nrf2 in cells. That is regulation, not a dietary requirement.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Itoh and colleagues identified Keap1 as the protein that binds Nrf2 and represses antioxidant-response-element activity. Electrophilic agents opposed that repression and let Nrf2 move toward the nucleus. Zhang and colleagues showed Keap1 is the adaptor that marks Nrf2 for disposal, and that oxidative stress or sulforaphane inhibits that marking. Neither paper is a dietary trial.","synthesis_limitations":"Both results are cell biology. They do not measure brain Nrf2, and they do not show that eating more of any nutrient improves this regulation.","evidence_considered":[{"label":"Itoh et al. (1999)","citation_key":"itoh_keap1_1999","href":"/docs/papers/BRAIN-Diet-References#itoh_keap1_1999","data_level":"Cellular / Molecular","exposure_context":"transfected cells and electrophilic agents","evidence_source":"bounded-external-search","directional_finding":"Keap1 binds the Neh2 domain of Nrf2 and represses antioxidant-response-element activity. Electrophiles oppose that repression.","assessment":{"study":"Identification of Keap1 as the repressor of Nrf2, with tests of electrophilic agents in cells.","population":"Transfected cell lines. No human cohort.","result":"Keap1 holds Nrf2 back, and electrophiles release that hold so defence genes can be transcribed.","effect_magnitude":"The paper reports repression and its release. It does not give a human fold change.","evidence_summary":"Defence-gene transcription is a regulated response to oxidative and electrophilic stress.","limitations":"Cell identification of the sensor is not a food result and not a brain measurement."},"canonical_reference":{"author_year":"Itoh et al. (1999)","number":7,"anchor":"#pm-ref-7"}},{"label":"Zhang et al. (2004)","citation_key":"zhang_keap1_2004","href":"/docs/papers/BRAIN-Diet-References#zhang_keap1_2004","data_level":"Cellular / Molecular","exposure_context":"cells exposed to oxidative stress or sulforaphane","evidence_source":"bounded-external-search","directional_finding":"Keap1 marks Nrf2 for disposal. Oxidative stress and sulforaphane inhibit that marking. A cysteine-151 mutant of Keap1 resists that inhibition.","assessment":{"study":"Cell and biochemical tests of Keap1 as the adaptor that marks Nrf2 for disposal.","population":"Cultured cells. No human dietary cohort.","result":"Stress or sulforaphane slows disposal of Nrf2. Changing cysteine 151 of Keap1 blocks that effect.","effect_magnitude":"The paper reports inhibition of ubiquitination, not a dietary dose.","evidence_summary":"Sulforaphane acts on the Keap1 sensor in cells. It is not a nutrient the regulation requires.","limitations":"Cell exposure to sulforaphane is not the sprout homogenate and not brain Nrf2."},"canonical_reference":{"author_year":"Zhang et al. (2004)","number":8,"anchor":"#pm-ref-8"}}],"connected_supportive_evidence":[]}} />
 
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Sulforaphane shows higher bioavailability than many polyphenol-based Nrf2 activators and engages antioxidant and detoxification gene programmes in human intervention work — a direct lever for this PM [Houghton et al., 2016]. Repeated crucifer exposure matters more than one-off intake.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016","label":"Houghton et al. (2016)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Mineral cofactors for antioxidant enzymes</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Selenium, zinc, and manganese are required for proper functioning of endogenous antioxidant enzyme systems that Nrf2 programmes depend on — reinforcing cofactor-rich dietary patterns alongside induction signals [Mocchegiani & Malavolta, 2019].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019","label":"Mocchegiani & Malavolta (2019)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM3-F2","finding_label":"A prepared sprout homogenate raised airway defence-gene RNA","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Healthy nonsmokers drank a broccoli sprout homogenate, finished with daikon myrosinase, once a day for three days. Phase II enzyme RNA rose in nasal cells. Alfalfa did not do this. Capsules of extracted sulforaphane for four weeks did not raise Nrf2 target genes in COPD lung cells.","finding_interpretation":"The homogenate is a preparation that changed an airway readout of this gene programme. It is not a nutrient requirement, not brain Nrf2, and not evidence that a capsule does the same thing.","finding_statement":"A myrosinase-completed broccoli sprout homogenate raised phase II enzyme RNA in nasal cells of healthy adults. Extracted sulforaphane capsules did not raise Nrf2 target-gene expression in COPD lung cells.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Riedl, Saxon and Diaz-Sanchez gave healthy nonsmokers a broccoli sprout homogenate blended with daikon sprouts and held at 37°C, once a day for three days. Nasal phase II enzyme RNA rose with dose. Alfalfa sprout homogenate did not. Wise and colleagues gave people with COPD 25 or 150 micromoles of extracted sulforaphane, or placebo, for four weeks. Nrf2 target-gene expression in alveolar macrophages and bronchial epithelium did not rise, and inflammation and lung function did not change.","synthesis_limitations":"Nasal RNA after three days is not brain Nrf2. The capsule null is a different preparation in COPD, so it does not cancel the homogenate result, and the homogenate result does not make capsules work.","evidence_considered":[{"label":"Riedl, Saxon and Diaz-Sanchez (2009)","citation_key":"riedl_sulforaphane_airway_2009","href":"/docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009","data_level":"Human Mechanistic","exposure_context":"myrosinase-completed broccoli sprout homogenate","evidence_source":"repository-inherited","directional_finding":"Nasal phase II enzyme RNA rose with dose after three days of the homogenate. Alfalfa homogenate did not do this.","assessment":{"study":"Placebo-style food comparison in healthy nonsmokers. Broccoli sprout homogenate versus alfalfa sprout homogenate, once daily for three days.","population":"Healthy nonsmoking adults. Nasal cells sampled after the third dose.","result":"Phase II enzyme RNA in nasal cells rose with the broccoli sprout dose and did not rise with alfalfa.","effect_magnitude":"The rise was dose-related. Nrf2 protein was not measured, so no Nrf2 fold change is available.","evidence_summary":"A defined sprout preparation can raise airway defence-gene RNA.","limitations":"Airway RNA is not brain Nrf2, not an ordinary broccoli serving, and not a clinical outcome."},"canonical_reference":{"author_year":"Riedl, Saxon and Diaz-Sanchez (2009)","number":5,"anchor":"#pm-ref-5"}},{"label":"Wise et al. (2016)","citation_key":"wise_sulforaphane_copd_2016","href":"/docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016","data_level":"Human Mechanistic","exposure_context":"capsules of sulforaphane extracted from broccoli sprouts","evidence_source":"repository-inherited","directional_finding":"Four weeks of 25 or 150 micromoles of extracted sulforaphane did not raise Nrf2 target genes in COPD lung cells.","assessment":{"study":"Randomised comparison of two sulforaphane capsule doses with placebo for four weeks.","population":"People with COPD.","result":"Nrf2 target-gene expression in alveolar macrophages and bronchial epithelium did not rise. Inflammation markers and lung function did not differ.","effect_magnitude":"No rise in the measured target genes at either 25 or 150 micromoles a day.","evidence_summary":"Extracted sulforaphane capsules did not reproduce the homogenate gene result.","limitations":"COPD lung cells are not healthy nasal cells, and capsules are not the myrosinase-completed homogenate."},"canonical_reference":{"author_year":"Wise et al. (2016)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -351,16 +394,16 @@ Nrf2-ARE induction biology is well established. The evidence below emphasises en
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial electron transport is a source of reactive oxygen that this regulation responds to. It is not Nrf2 transcription itself.
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — Mitochondrial reactive-oxygen control is an upstream source of oxidative load. This page regulates defence-gene expression rather than generating that load.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
-- [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — Clearance enzymes set net oxidative pressure. This page regulates expression of those defence genes. It is not the clearance balance.
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — Lipid peroxidation is membrane damage downstream of oxidative load. This regulation does not itself stop that chain reaction.
+- [BRS3-FM2-PM6 - Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) — Recycling regenerates vitamin and thiol antioxidants after use. This page regulates defence-gene expression and does not restore the spent vitamins.
 
 ## 7. Phenome Connections
 
@@ -413,10 +456,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Medium
-- **Rationale:** A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018","label":"Verlaet et al. (2018)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016","label":"Houghton et al. (2016)","dataLevel":"Human Outcome"}]} />
+- **Rationale:** Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result.
 </div>
 </div>
 </div>
@@ -436,10 +476,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Endogenous antioxidant induction and mineral cofactor sufficiency may modulate attention-relevant oxidative burden in ADHD contexts; repeated dietary pattern matters more than bolus sulforaphane dosing.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018","label":"Verlaet et al. (2018)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose.
 </div>
 </div>
 </div>
@@ -460,14 +497,18 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
 - **Rationale:** Nrf2-dependent detoxification and antioxidant gene programmes may intersect stress-buffering redox context; direct ADHD stress-outcome evidence remains limited.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019","label":"Mocchegiani & Malavolta (2019)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
+
 - <span id="pm-ref-1">[1]</span> [Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
 - <span id="pm-ref-2">[2]</span> [Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)
 - <span id="pm-ref-3">[3]</span> [Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- <span id="pm-ref-4">[4]</span> [Costa et al. (2026) — Nrf2 Activation in Inflammatory Diseases](/docs/papers/BRAIN-Diet-References#costa_nrf2_activators_2026)
+- <span id="pm-ref-5">[5]</span> [Riedl, Saxon and Diaz-Sanchez (2009) — Oral Sulforaphane increases Phase II antioxidant enzymes in the human upper airway](/docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009)
+- <span id="pm-ref-6">[6]</span> [Wise et al. (2016) — Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD](/docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016)
+- <span id="pm-ref-7">[7]</span> [Itoh et al. (1999) — Keap1 represses Nrf2](/docs/papers/BRAIN-Diet-References#itoh_keap1_1999)
+- <span id="pm-ref-8">[8]</span> [Zhang et al. (2004) — Keap1 is a Cul3 substrate adaptor](/docs/papers/BRAIN-Diet-References#zhang_keap1_2004)
+

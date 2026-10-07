@@ -28,6 +28,7 @@ tags:
   - Carotenoid
   - Vitamin K
   - Kaempferol
+  - Betaine
 list_image: /img/foods/spinach/spinach_thumb.webp
 nutrition_per_100g:
   calcium_mg: 99
@@ -81,11 +82,30 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Spinach; a single defensible per-100 g value is not
       taken from the abbreviated USDA nutrient panel.
+  - key: betaine_qual
+    label: Betaine
+    status: Measured in frozen spinach, not in this raw panel
+    amount_display: 110–130 mg/100 g in frozen spinach
+    source_note: >-
+      Patterson et al. (2008) report 110–130 mg betaine per 100 g in frozen
+      spinach (NDB 11464, 11463 and 98013). Release 2 corrected earlier spinach
+      estimates that were too high. This page’s raw spinach panel does not
+      report betaine.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Betaine
+    relationship: contains
+    description: >-
+      Frozen spinach preparations contained 110–130 mg betaine per 100 g in the
+      corrected USDA database. This page records raw spinach, so that figure is
+      not its composition panel.
+    citation_keys:
+      - patterson_choline_2008
+substance_card_captions:
+  Betaine: Present in spinach. The corrected assay is frozen spinach, 110–130 mg per 100 g, not this raw panel.
 ---
 ## Overview
 

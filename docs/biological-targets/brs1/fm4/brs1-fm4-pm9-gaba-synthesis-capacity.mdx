@@ -4,9 +4,9 @@ pm_id: BRS1-FM4-PM9
 mission: 'Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.'
 parent_fm: BRS1(FM4)
 parent_brs: BRS1
-summary: 'GABA synthesis capacity is the conversion of glutamate into the inhibitory neurotransmitter GABA by glutamate decarboxylase (GAD), which requires pyridoxal-5′-phosphate (PLP). This reaction supplies the GABA pool used by later inhibitory signalling. Differences between GAD isoforms indicate that PLP availability principally affects reserve capacity rather than basal output. This mechanism concerns synthesis from available glutamate, not GABA concentration, degradation, transport, receptor signalling, glutamate clearance or injury-level excitotoxicity.'
+summary: 'The brain makes GABA, its main calming transmitter, by converting glutamate with an enzyme that needs the active form of vitamin B6. That reaction supplies GABA for later inhibitory signalling. Vitamin B6 in food is the dietary route to the cofactor, and it mainly affects reserve capacity rather than everyday output.'
 cofactors:
-  - Pyridoxal-5′-phosphate (PLP)
+  - Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 dietary_input_traceability:
   - atom_id: PM9-DIT-1
     input: Glutamate
@@ -19,7 +19,7 @@ dietary_input_traceability:
         - martin_regulation_1993
     evidence_limitation: 'The evidence establishes glutamate as the GAD substrate, not that dietary glutamate or protein controls neuronal glutamate availability or human brain GABA synthesis.'
   - atom_id: PM9-DIT-2
-    input: Pyridoxal-5-phosphate (PLP)
+    input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: Required cofactor for GAD-dependent conversion of glutamate to GABA
     evidence_source:
@@ -66,7 +66,7 @@ dietary_lever_atoms:
     evidence_limitation: 'Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific.'
 dietary_lever_presentations:
   - atom_id: PM9-DIT-2
-    label: Pyridoxal-5′-phosphate (PLP)
+    label: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     presentation_section: 3.1.1
   - atom_id: PM9-DIT-3
     label: Vitamin B6
@@ -75,7 +75,7 @@ dietary_lever_presentations:
     label: Glutamate
     presentation_section: 3.1.2
   - atom_id: PM9-DIT-2
-    label: Pyridoxal-5′-phosphate (PLP)
+    label: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     presentation_section: 3.1.2
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
@@ -611,7 +611,7 @@ references:
   - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
   - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
 hide_title: true
-scientific_findings_intro: 'GABA is produced from glutamate by glutamate decarboxylase (GAD), an enzyme that requires pyridoxal-5′-phosphate (PLP), the active coenzyme form of vitamin B6. The evidence therefore identifies glutamate substrate availability and PLP-dependent GAD activity as requirements for GABA synthesis capacity. Vitamin B6 contributes through its conversion to PLP, although PLP supports many biological processes and this requirement does not establish that increasing vitamin B6 intake increases GABA production.'
+scientific_findings_intro: "Enzyme evidence distinguishes largely cofactor-saturated GAD67, which sustains basal synthesis, from a recruitable GAD65 pool: PLP availability can therefore influence reserve synthesis capacity rather than simply determine the resting rate. [[1]](#pm-ref-1) Recombinant human pyridoxal-kinase studies show metal-dependent PLP formation under specified assay conditions, but do not establish physiological zinc limitation. [[2]](#pm-ref-2) [[4]](#pm-ref-4) This evidence supports biochemical dependence, not selective enhancement of brain GABA production from additional vitamin B6 or zinc intake."
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -651,7 +651,7 @@ Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofacto
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Pyridoxal-5′-phosphate (PLP)
+- Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 - Vitamin B6
 
 </div>
@@ -667,7 +667,7 @@ Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofacto
 <div class="brs-fm-hub-panel" hidden>
 
 - Glutamate
-- Pyridoxal-5′-phosphate (PLP)
+- Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 
 </div>
 </div>
@@ -693,11 +693,10 @@ No mapping established.
 </div>
 ### Overview
 
-GABA synthesis capacity is the conversion of glutamate into the inhibitory neurotransmitter GABA by glutamate decarboxylase (GAD), which requires pyridoxal-5′-phosphate (PLP) Martin and Rimvall (1993) [[1]](#pm-ref-1). This reaction supplies the GABA pool used by later inhibitory signalling. Differences between GAD isoforms indicate that PLP availability principally affects reserve capacity rather than basal output. This mechanism concerns synthesis from available glutamate, not GABA concentration, degradation, transport, receptor signalling, glutamate clearance or injury-level excitotoxicity.
+The brain makes GABA, its main calming transmitter, by converting glutamate with an enzyme that needs the active form of vitamin B6. [[1]](#pm-ref-1) That reaction supplies GABA for later inhibitory signalling. [[1]](#pm-ref-1) Vitamin B6 in food is the dietary route to the cofactor, and it mainly affects reserve capacity rather than everyday output. [[1]](#pm-ref-1) [[2]](#pm-ref-2)
 
-* **Mechanism boundary:** Includes GAD-dependent conversion of available glutamate to GABA; upstream glutamate supply and downstream GABA handling are outside scope.
-* **Evidence boundary:** GABA concentration can move differently from synthesis rate, so spectroscopy or tissue pools cannot be read as GAD flux Mason et al. (2001) [[6]](#pm-ref-6).
-* **Biological relevance:** GABA synthesis supplies inhibitory signalling capacity, but ordinary dietary variation has not been shown to increase human brain synthesis or provide an ADHD treatment Martin and Rimvall (1993) [[1]](#pm-ref-1); Edden et al. (2012) [[7]](#pm-ref-7).
+- **Benefits:** Making GABA keeps inhibitory signalling supplied. [[1]](#pm-ref-1) A measured GABA concentration is not the same as the speed of synthesis. [[6]](#pm-ref-6)
+- **Implementation Notes:** Vitamin B6 is the dietary source of the active cofactor, pyridoxal 5′-phosphate. [[1]](#pm-ref-1) [[2]](#pm-ref-2) Glutamate is the substrate already in the pathway, not a dietary glutamate target. [[1]](#pm-ref-1) A high-dose vitamin B6 trial reduced anxiety scores without measuring GABA, so it does not set a dose for this mechanism. [[14]](#pm-ref-14)
 
 ## 2. Primary Biological Effects
 GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
@@ -763,9 +762,9 @@ Pyridoxal-5′-phosphate is formed from dietary B6 vitamers by pyridoxal kinase.
 
 This PM is the synthesis arm only. GABA concentration, degradation and turnover, transport, receptor signalling, generic inhibitory tone, excitation/inhibition balance and NMDA signalling all lie outside it. Measured GABA concentration in particular cannot stand in for synthesis capacity: inhibiting GABA degradation raises concentration while lowering synthesis rate → [Mason et al., 2001]
 
-#### (Relation to BRS1-FM4-PM8 and BRS1-FM4-PM10)
+#### (Relation to BRS1(FM4) and BRS1-FM4-PM10)
 
-BRS1-FM4-PM9 supplies the **synthesis arm** of the E/I cluster, while [BRS1-FM4-PM8](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) integrates balance and [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) addresses glutamate clearance.
+BRS1-FM4-PM9 supplies the **synthesis arm** of the E/I cluster, while [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) describes the integrated state and [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) addresses glutamate clearance.
 
 #### (Key constraint)
 
@@ -779,9 +778,9 @@ Substrate and cofactor sufficiency are therefore the inputs this mechanism depen
 
 ### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-GABA is produced from glutamate by glutamate decarboxylase (GAD), an enzyme that requires pyridoxal-5′-phosphate (PLP), the active coenzyme form of vitamin B6. The evidence therefore identifies glutamate substrate availability and PLP-dependent GAD activity as requirements for GABA synthesis capacity. Vitamin B6 contributes through its conversion to PLP, although PLP supports many biological processes and this requirement does not establish that increasing vitamin B6 intake increases GABA production.
+Enzyme evidence distinguishes largely cofactor-saturated GAD67, which sustains basal synthesis, from a recruitable GAD65 pool: PLP availability can therefore influence reserve synthesis capacity rather than simply determine the resting rate. [[1]](#pm-ref-1) Recombinant human pyridoxal-kinase studies show metal-dependent PLP formation under specified assay conditions, but do not establish physiological zinc limitation. [[2]](#pm-ref-2) [[4]](#pm-ref-4) This evidence supports biochemical dependence, not selective enhancement of brain GABA production from additional vitamin B6 or zinc intake.
 
 <ScientificFinding finding={{"id":"PM9-F1","finding_label":"Vitamin B6 supports the enzyme that makes GABA","finding_summary":"GABA is made from glutamate by glutamate decarboxylase (GAD). GAD requires pyridoxal-5′-phosphate (PLP), the active coenzyme form of vitamin B6. Two GAD forms behave differently: one largely sustains everyday (basal) production, while another exists partly without its cofactor attached and can be recruited when PLP availability rises — so cofactor status principally governs reserve capacity to increase synthesis, not the resting rate.","finding_interpretation":"Vitamin B6 is biologically required for this reaction. This does not demonstrate that increasing vitamin B6 intake increases GABA synthesis in adequately nourished humans.","fm_rollup":true,"finding_statement":"GABA synthesis requires pyridoxal-5-phosphate as the glutamate decarboxylase coenzyme, and because GAD65 exists substantially as apoenzyme while GAD67 is largely holoenzyme, cofactor availability governs reserve synthesis capacity more than basal output.","finding_discriminator":"Concerns the cofactor dependence of the enzyme itself. PM9-F2 concerns how that cofactor is formed upstream.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"GABA is formed by decarboxylation of glutamate by glutamate decarboxylase, which is catalytically inactive without pyridoxal-5-phosphate. The two isoforms behave differently: GAD67 is largely saturated with cofactor and sustains basal synthesis, whereas a substantial pool of GAD65 exists as apoenzyme that can be recruited when pyridoxal-5-phosphate availability rises. The consequence for this mechanism is specific - cofactor sufficiency principally determines the inducible or reserve capacity to raise GABA synthesis, not the resting rate.","synthesis_limitations":"Established from enzymology and brain-tissue work rather than in vivo human flux measurement. The apo/holo distinction is well characterised biochemically, but how much it changes human brain GABA production across ordinary dietary vitamin B6 variation has not been quantified. The mechanistic synthesis relies primarily on one authoritative review and has not been independently demonstrated using human in-vivo GABA flux measurements.","evidence_considered":[{"label":"Martin & Rimvall (1993)","citation_key":"martin_regulation_1993","href":"/docs/papers/BRAIN-Diet-References#martin_regulation_1993","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"GAD65 is substantially apoenzyme and recruitable by pyridoxal-5-phosphate; GAD67 is largely holoenzyme and supports basal synthesis.","assessment":{"study":"Authoritative review of the biochemical regulation of brain GABA synthesis, covering glutamate decarboxylase isoform properties, cofactor binding equilibria and the apoenzyme/holoenzyme distinction.","population":"Mammalian brain tissue and purified enzyme preparations; no human participants.","result":"Glutamate decarboxylase activity depends on pyridoxal-5-phosphate binding. A substantial fraction of GAD65 is present as apoenzyme and can be activated by increased cofactor availability, whereas GAD67 is predominantly holoenzyme. Short-term regulation of GABA synthesis therefore operates largely through the apo/holo equilibrium.","effect_magnitude":"No single interpretable effect estimate; the review reports enzymological parameters across preparations rather than a pooled estimate.","evidence_summary":"Establishes that pyridoxal-5-phosphate availability is a genuine regulatory input to GABA synthesis capacity, and locates that regulation in reserve rather than basal synthesis.","limitations":"A review, not primary data, and predates in vivo human flux methods. It does not quantify the dietary range over which cofactor availability becomes limiting in humans."},"canonical_reference":{"author_year":"Martin and Rimvall (1993)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Bayoumi et al. (1972)","citation_key":"bayoumi_vitamin_b6_deficiency_1972","href":"/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972","data_level":"Animal Data","why_relevant":"Severe experimental dietary vitamin B6 deficiency in rats reduced brain glutamic acid decarboxylase activity and GABA concentration, supporting the biological sensitivity of GAD/GABA-related endpoints to marked cofactor depletion.","why_excluded":"Animal evidence under severe experimental deficiency. It measured GAD activity and GABA concentration, not in-vivo GABA synthesis flux, and does not establish responsiveness across ordinary human dietary vitamin B6 variation.","canonical_reference":{"author_year":"Bayoumi et al. (1972)","number":20,"anchor":"#pm-ref-20"}},{"label":"Erecińska et al. (1996)","citation_key":"erecinska_regulation_1996","href":"/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996","data_level":"Cellular / Molecular","why_relevant":"Stable-isotope experiments in isolated rat-brain synaptosomes found that acetoacetate and beta-hydroxybutyrate increased internal glutamate, GABA concentration and the rate of GABA formation, providing PM9-relevant evidence that ketone metabolism can alter substrate partitioning into GABA.","why_excluded":"Isolated preclinical nerve-terminal preparation rather than an intact animal or human dietary intervention. It identifies upstream metabolic context and does not alter PM9-F1's PLP proposition, establish ketones as a core PM9 substrate/cofactor, or demonstrate human GAD or synthesis-flux effects.","canonical_reference":{"author_year":"Erecińska et al. (1996)","number":21,"anchor":"#pm-ref-21"}},{"label":"Zhang et al. (2015)","citation_key":"zhang_decreased_carbon_2015","href":"/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015","data_level":"Animal Data","why_relevant":"In ketogenic-diet-fed rats, carbon contribution from labelled acetoacetate to brain GABA increased markedly while total GABA concentration remained unchanged, connecting diet-induced ketosis with altered upstream metabolic contribution to GABA formation.","why_excluded":"Preclinical rat evidence with tracer incorporation rather than a demonstrated human GAD-activity or GABA synthesis-flux effect. It is connected metabolic context, not evidence that ketones are another core PM9 substrate/cofactor or a human Direct Dietary Lever.","canonical_reference":{"author_year":"Zhang et al. (2015)","number":22,"anchor":"#pm-ref-22"}},{"label":"Cataldo et al. (2024)","citation_key":"cataldo_comprehensive_2024","href":"/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024","data_level":"Cellular / Molecular","why_relevant":"Characterises glutamate decarboxylase physiology, genomics and proteomics in Levilactobacillus brevis, confirming the same PLP-dependent decarboxylation chemistry in a microbial system.","why_excluded":"It is a bacterial study. It does not establish human PLP-dependent GAD biochemistry.","canonical_reference":{"author_year":"Cataldo et al. (2024)","number":18,"anchor":"#pm-ref-18"}},{"label":"Abedrabbo et al. (2026)","citation_key":"abedrabbo_classical_2026","href":"/docs/papers/BRAIN-Diet-References#abedrabbo_classical_2026","data_level":"Mechanistic","why_relevant":"Pyridoxine-dependent epilepsy arising from ALDH7A1 deficiency causes accumulation of metabolites that inactivate pyridoxal-5-phosphate, producing seizures that respond to pyridoxine or pyridoxal-5-phosphate administration. This is the clearest human demonstration that availability of GAD's cofactor can limit neurological function, and it establishes the GABA synthesis pathway as genuinely rate-limiting under severe constraint. Cofactor inactivation in ALDH7A1 deficiency produces pyridoxine-responsive seizures, evidencing a rate-limiting role for pyridoxal-5-phosphate availability and human proof that cofactor availability can limit GAD-dependent function at the severe end.","why_excluded":"Demonstrated only at the extreme of severe, genetically driven cofactor inactivation. It shows the pathway can be rate-limiting, not that it is rate-limiting across ordinary dietary variation, and it cannot be used to support a dietary lever. The affected outcome is seizure control, which is not among the phenome connections on this page. The cofactor inactivation in this disorder also affects many other pyridoxal-5-phosphate-dependent enzymes, so the phenotype is not attributable to GAD alone. A narrative review of a rare genetic disorder rather than primary or dose-ranging data. The mechanism is cofactor inactivation, not dietary insufficiency, and multiple enzymes are affected simultaneously.","canonical_reference":{"author_year":"Abedrabbo et al. (2026)","number":5,"anchor":"#pm-ref-5"}}],"evidence_dependency":["Martin is also a co-author of Mason et al. (2001); the same laboratory lineage supplies both the isoform enzymology here and the flux-versus-concentration result there."],"presentation":"mechanistic-basis","informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"},{"phenome":"Social Engagement Capacity","href":"/docs/phenomes/details/ph018-social-engagement-capacity"}]}} />
 
@@ -805,7 +804,6 @@ Primary Mechanisms in other Biological Regulatory Systems that directly interact
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS1-FM4-PM8 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) — Coordinates transmission that uses GABA produced here. Functional coordination, not a second synthesis-capacity claim.
 - [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) — Clears and recycles glutamate, the substrate this PM decarboxylates. Shared glutamate pool, not GAD activity.
 - [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) — Limits excitotoxic injury if glutamate handling fails. Association with glutamate stress, not a synthesis dependency.
 

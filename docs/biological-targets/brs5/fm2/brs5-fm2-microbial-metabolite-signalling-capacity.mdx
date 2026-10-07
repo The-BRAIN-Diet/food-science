@@ -5,7 +5,7 @@ parent_brs: BRS5
 summary: 'Maintains microbial metabolite signalling capacity by supporting production of beneficial metabolites that shape immune, endocrine, and neurobiological pathways.'
 mechanisms_covered:
   - id: BRS5-FM2-PM4
-    name: Microbial Ecological Turnover & Competitive Selection
+    name: Microbial Substrate-Processing Selection & Adaptation
     href: /docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection
   - id: BRS5-FM2-PM5
     name: SCFA Production & Signalling
@@ -33,6 +33,9 @@ references:
   - '[Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)'
   - '[Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)'
   - '[Schleupner and Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)'
+  - "[Patnode et al. (2019) — Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019)"
+  - "[Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)"
+  - "[Hoyles et al. (2018) — Protective Effects of Propionate Upon the Blood-brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)"
 hide_title: true
 functional_outcome_context:
   - outcome_name: Focus / Attention Stability
@@ -63,6 +66,8 @@ functional_outcome_context:
       - label: Steckler et al. (2024)
         citation_key: steckler_disrupted_2024
         href: /docs/papers/BRAIN-Diet-References#steckler_disrupted_2024
+functional_rationale: "Community substrate processing, SCFA signalling and polyphenol conversion contribute to producing biologically relevant microbial metabolites; diversity and turnover are not outcomes to maximise in themselves."
+fm_evidence_summary: "Defined-community experiments measure substrate competition and processing. In human dietary work, fibre increased processing-gene potential, while fermented foods increased diversity and reduced 19 circulating inflammatory proteins; these are distinct responses, not evidence that diversity caused the immune changes. SCFA studies and direct urolithin A interventions add downstream signalling and mitochondrial context. {{cite:patnode_interspecies_2019,wastyk_gut-microbiota-targeted_2021,silva_role_2020,hoyles_microbiome-host_2018,andreux_mitophagy_2019}}\n\nIf processing and conversion capacities operate adequately, they would support metabolite output and its relevant host interactions. Functional potential is not measured metabolic output, and direct metabolite supplementation does not prove equivalent effects from its dietary precursors."
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -75,6 +80,19 @@ functional_outcome_context:
 ## BRS5(FM2) - Microbial Metabolite Signalling Capacity
 
 (Gut Bacteria Signals That Reach the Body)
+
+<span id="41-core-primary-mechanisms" />
+
+### Primary Mechanisms
+
+- [BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection)
+- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
+- [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
+
+### Key Constraints
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+- [BRS5(KC2) — Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability)
 
 ## 1. Definition
 
@@ -90,50 +108,19 @@ A functional control point governing production of beneficial microbial metaboli
 
 ## 4. Mechanistic Basis (Integrated FM Narrative)
 
-Microbial metabolite signalling capacity emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
+<span id="42-integrated-functional-narrative" />
 
-**Supporting Key Constraint Pools**
+### 4.1 Functional Rationale
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">(Key Constraint) (KC1) — Fermentable Fibre Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- **Relied upon by:** [BRS5-FM2-PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection), [BRS5-FM2-PM5](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
-- Maintain fermentable-fibre sufficiency to support microbial fermentation and short-chain fatty acid production.
-</div>
-</div>
-</div>
+Community substrate processing, SCFA signalling and polyphenol conversion contribute to producing biologically relevant microbial metabolites; diversity and turnover are not outcomes to maximise in themselves.
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">(Key Constraint) (KC2) — Polyphenol & Plant-Diversity Input Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- **Relied upon by:** [BRS5-FM2-PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection), [BRS5-FM2-PM6](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
-- Maintain microbiome-active polyphenol and plant-diversity input sufficiency to support microbial ecology and biotransformation.
-</div>
-</div>
-</div>
+<span id="44-evidence-highlights" />
 
-### 4.1 Core Primary Mechanisms
+### 4.2 Evidence Summary
 
-- [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection)
-  Continuous renewal of the gut microbial ecosystem driven by substrate availability and ecological competition, leading to selection of taxa and functions over time.
+Defined-community experiments measure substrate competition and processing. In human dietary work, fibre increased processing-gene potential, while fermented foods increased diversity and reduced 19 circulating inflammatory proteins; these are distinct responses, not evidence that diversity caused the immune changes. SCFA studies and direct urolithin A interventions add downstream signalling and mitochondrial context. [[1](#fm-ref-1), [2](#fm-ref-2), [7](#fm-ref-7), [8](#fm-ref-8), [9](#fm-ref-9)]
 
-- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
-  Microbial fermentation of fibres into short-chain fatty acids that influence barrier function, inflammation, metabolism, and brain signalling.
-
-- [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
-  Microbial conversion of dietary polyphenols into downstream metabolites such as urolithin A that influence mitochondrial and inflammatory resilience.
-
-### 4.2 Integrated Functional Narrative
-
-Together, these PMs operationalise BRS5(FM2) as coordinated microbial metabolite signalling capacity.
-
-At the integrated FM level, this is the main mechanism set through which plant diversity, fermentable fibres, and microbiome-active polyphenols are translated into downstream physiological effects, rather than remaining as unprocessed dietary inputs [Wastyk et al., 2021; Andreux et al., 2019; Singh et al., 2022].
+If processing and conversion capacities operate adequately, they would support metabolite output and its relevant host interactions. Functional potential is not measured metabolic output, and direct metabolite supplementation does not prove equivalent effects from its dietary precursors.
 
 ### 4.3 Suboptimal Function & Its Effects
 
@@ -143,89 +130,8 @@ Low fibre and low plant-diversity dietary patterns may reduce [BRS5(KC1) — Fer
 
 Low plant diversity over time may reduce [BRS5(KC2) — Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability). Low polyphenol density in the diet may further strain pool availability, repetitive ultra-processed food patterns with narrow botanical exposure, lack of herbs, spices, legumes, and whole grains, while ecological monotony reducing microbial redundancy.
 
-These pressures may impair [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection), weaken [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling), and reduce the effectiveness of [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation). At the FM level, this may shift BRS5(FM2) toward reduced microbial metabolite signalling capacity performance.
+These pressures may impair [BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection), weaken [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling), and reduce the effectiveness of [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation). At the FM level, this may shift BRS5(FM2) toward reduced microbial metabolite signalling capacity performance.
 
-### 4.4 Evidence Highlights
-
-#### Introduction/Summary
-
-The studies below support microbial metabolite signalling capacity as an integrated FM state emerging from coordinated child PM biology — mechanism-qualifying findings that refine framework interpretation, not phenome/outcome science (which belongs in §3).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Microbiota-targeted diets and immune–ecological modulation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Gut-microbiota-targeted dietary interventions modulated human immune status and microbial ecology in controlled feeding contexts — supporting plant-diversity and fermentable-substrate patterns as levers for continuous ecosystem shaping [Wastyk et al., 2021].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021","label":"Wastyk et al. (2021)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Taxonomic diversity and metabolite-generation capacity</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Increasing taxonomic diversity expands the ecological possibilities for producing beneficial microbial metabolites and reducing harmful by-products — through ecological competition and turnover among microbial communities [Schleupner and Carmichael, 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022","label":"Schleupner and Carmichael (2022)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>SCFAs as gut–brain signalling molecules</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Short-chain fatty acids from gut microbial fermentation act as signalling molecules influencing barrier integrity, immune tone, and gut–brain communication — linking microbial fermentation to barrier, immune, and gut–brain signalling [Silva et al., 2020].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#silva_role_2020","label":"Silva et al. (2020)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Propionate and blood–brain barrier protection</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Propionate shows protective effects upon the blood–brain barrier in mechanistic framing, linking microbial propionate output to gut-derived signalling relevant beyond local intestinal biology [Hoyles et al., 2018].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018","label":"Hoyles et al. (2018)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
 
 ## 5. Connected Mechanisms
 
@@ -339,9 +245,13 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 
 ## 8. References
-- [Wastyk et al. (2021) — Gut-microbiota-targeted Diets Modulate Human Immune Status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
-- [Andreux et al. (2019) — Mitophagy Activator Urolithin a Is Safe and Induces a Molecular Signature](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
-- [Singh et al. (2022) — Direct Supplementation with Urolithin a Overcomes Limitations of Dietary Exposure and Gut](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
-- [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
-- [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-- [Schleupner and Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)
+
+- <span id="fm-ref-1">[1]</span> [Wastyk et al. (2021) — Gut-microbiota-targeted Diets Modulate Human Immune Status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
+- <span id="fm-ref-2">[2]</span> [Andreux et al. (2019) — Mitophagy Activator Urolithin a Is Safe and Induces a Molecular Signature](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
+- <span id="fm-ref-3">[3]</span> [Singh et al. (2022) — Direct Supplementation with Urolithin a Overcomes Limitations of Dietary Exposure and Gut](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
+- <span id="fm-ref-4">[4]</span> [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+- <span id="fm-ref-5">[5]</span> [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- <span id="fm-ref-6">[6]</span> [Schleupner and Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)
+- <span id="fm-ref-7">[7]</span> [Patnode et al. (2019) — Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019)
+- <span id="fm-ref-8">[8]</span> [Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)
+- <span id="fm-ref-9">[9]</span> [Hoyles et al. (2018) — Protective Effects of Propionate Upon the Blood-brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)

@@ -14,7 +14,8 @@ const contract=fs.readFileSync('system/dietary-input-traceability-contract.md','
 const client=fs.readFileSync('src/lib/dietaryLeverDisclosure.ts','utf8');
 const component=fs.readFileSync('src/components/PmDietaryLeverEnhancer.tsx','utf8');
 function excerpt(prefix,name){const part=contract.split(`<!-- ${prefix}:${name} -->`)[1]?.split(`<!-- /${prefix}:${name} -->`)[0];assert.ok(part);return part.slice(part.indexOf('\n',part.indexOf('```'))+1,part.lastIndexOf('```')).trimEnd();}
-const context={exports:{}};vm.createContext(context);
+const substancePages=JSON.parse(fs.readFileSync('src/data/substance-input-pages.json','utf8'));
+const context={exports:{},require(id){if(String(id).endsWith('substance-input-pages.json'))return{default:substancePages};throw new Error(id);}};vm.createContext(context);
 vm.runInContext(ts.transpileModule(client,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText,context);
 const clientMap=context.exports.buildDietaryLeverDisclosureMap(data);
 const renderContext={exports:{},pmReferenceHref:context.exports.pmReferenceHref};vm.createContext(renderContext);
@@ -114,7 +115,9 @@ test('governing PM schema embeds the same executable canonical Stage 2B example'
  const schema=fs.readFileSync('system/primary-mechanism-schema.md','utf8');
  const embedded=schema.split('<!-- PM7-KC-CANONICAL-EXAMPLE:begin -->')[1]?.split('<!-- PM7-KC-CANONICAL-EXAMPLE:end -->')[0].trim();
  const start=contract.indexOf('### Admitted PM-owned KC input disclosure');
- assert.equal(embedded,contract.slice(start,contract.indexOf('\n## 8',start)).trim());
+ const nextLayout=contract.indexOf('### Evidence-adjudicated intervention dominance',start);
+ const end=nextLayout<0?contract.indexOf('\n## 8',start):nextLayout;
+ assert.equal(embedded,contract.slice(start,end).trim());
  assert.doesNotMatch(schema,/Render the linked iKC title|index of applicable or proposed iKCs/);
  // Identical record/projection/interaction blocks execute in the tests above.
 });
