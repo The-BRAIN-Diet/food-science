@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Migrate PM §4 lever headings to canonical structure:
+ * Migrate legacy PM §4 lever headings (current section-3 pages are skipped):
  * 4.1 Dietary → 4.2 Optimisation → 4.3 Lifestyle
  *
- * PM6 merges weekly oily-fish frequency bullet into Optimisation and drops empty Lifestyle.
+ * DHA PM7 merges weekly oily-fish frequency bullet into Optimisation and drops empty Lifestyle.
  */
 import fs from "node:fs";
 import path from "node:path";

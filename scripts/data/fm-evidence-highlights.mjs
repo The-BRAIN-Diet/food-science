@@ -28,8 +28,8 @@ export const FM_EVIDENCE_HIGHLIGHTS = {
   "BRS5(FM2)": {
     blocks: [
       {
-        heading: "Fermented-food patterns and immune status",
-        body: "Gut-microbiota-targeted diets modulated human immune status in controlled feeding contexts — supporting plant-diversity and fermentable-substrate patterns as levers for microbial metabolite signalling [Wastyk et al., 2021].",
+        heading: "Fermented-food intake raised stool microbiota diversity and lowered 19 serum inflammatory proteins",
+        body: "In a free-living trial, healthy adults raised either fermented foods or fibre, with 18 people analysed in each arm. Fermented-food intake rose from 0.4 to 6.3 servings a day, and stool microbiota diversity rose steadily in that arm. Nineteen of 93 circulating inflammatory serum proteins fell, including IL-6, IL-10, and IL-12b. The high-fibre arm did not show those changes: fibre rose from 21.5 to 45.1 g/day and glycan-degrading CAZyme genes increased, while microbiota diversity stayed stable and those 19 proteins did not fall. The prespecified cytokine response score did not change in either arm, and the trial does not show that diversity caused the protein decreases [Wastyk et al., 2021].",
       },
       {
         heading: "Polyphenol biotransformation and mitophagy",

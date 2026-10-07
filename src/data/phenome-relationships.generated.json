@@ -1,19 +1,19 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-09-30T15:46:29.339Z",
+    "generatedAt": "2026-10-06T19:12:37.989Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
-    "pmPageCount": 63,
-    "pmPagesWithMappings": 63,
-    "relationshipCount": 159,
-    "mappedRelationshipCount": 159
+    "pmPageCount": 62,
+    "pmPagesWithMappings": 62,
+    "relationshipCount": 156,
+    "mappedRelationshipCount": 156
   },
   "diagnostics": {
     "registryPhenomeCount": 18,
-    "relationshipEdgeCount": 159,
-    "mappedEdgeCount": 159,
+    "relationshipEdgeCount": 156,
+    "mappedEdgeCount": 156,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
@@ -508,7 +508,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "observational",
-      "rationale": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap).",
+      "rationale": "Folic acid, with or without vitamin B12, lowers blood homocysteine {{cite:collaboration_lowering_1998}}. In older adults with mild cognitive impairment, B-vitamin treatment was associated with slower cognitive decline only when omega-3 status was higher {{cite:oulhaj_omega-3_2016}}. Blood homocysteine and that combined B-vitamin interaction do not measure methionine synthase flux, and they do not establish that this reaction itself changes cognitive clarity.",
       "references": [
         {
           "index": 1,
@@ -542,7 +542,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts.",
+      "rationale": "Lower plasma homocysteine after betaine supplements is a blood measurement, not a test of cognitive clarity or of tissue BHMT activity {{cite:olthof_low_2003}}. A choline review discusses neurodevelopment rather than an effect of this reaction on clarity {{cite:derbyshire_role_2023}}. The relationship remains an indirect bridge with no direct outcome evidence.",
       "references": [
         {
           "index": 1,
@@ -598,7 +598,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
+      "rationale": "SAM donates methyl groups, and homocysteine is then split between remethylation and transsulfuration {{cite:chiang_s-adenosylmethionine_1996,finkelstein_homocysteine_1998}}. Homocysteine concentration is discussed as a risk marker for cognitive decline and Alzheimer disease {{cite:luzzi_homocysteine_2022,yu_evidence-based_2020}}. Those studies measure a metabolite level. They do not measure branch rates, and they do not show that changing cycle throughput improves Cognitive Clarity.",
       "references": [
         {
           "index": 1,
@@ -608,15 +608,21 @@
         },
         {
           "index": 2,
-          "label": "Aragão et al. (2024)",
-          "citationKey": "aragao_revitalising_2024",
-          "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024"
+          "label": "Finkelstein (1998)",
+          "citationKey": "finkelstein_homocysteine_1998",
+          "href": "/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
         },
         {
           "index": 3,
           "label": "Luzzi et al. (2022)",
           "citationKey": "luzzi_homocysteine_2022",
           "href": "/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022"
+        },
+        {
+          "index": 4,
+          "label": "Yu et al. (2020)",
+          "citationKey": "yu_evidence-based_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020"
         }
       ],
       "targetPhenomeId": "PH011"
@@ -632,7 +638,7 @@
       "confidence": "medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "B-vitamin cognitive effects depend on omega-3 status (VITACOG reanalysis); phospholipid methylation couples homocysteine regulation to omega-3-enriched PC delivery toward the brain. PEMT pathway biology and phospholipid-bound DHA accretion evidence support cognitive-clarity framework translation — ADHD-specific cognitive-clarity trials on PC formation remain limited (biology > evidence gap).",
+      "rationale": "SAMe-dependent phosphatidylcholine formation couples one-carbon methylation to membrane phospholipid chemistry — the methylation-dependent bridge between B-vitamin status and omega-3-enriched PC delivery toward the brain. VITACOG reanalysis, PEMT pathway biology, and phospholipid-bound DHA accretion evidence support cognitive-clarity framework translation. The findings support an association with cognitive outcomes, while the proposed causal role of methylation–membrane coupling remains unproven. Applicability to ADHD has not yet been established.",
       "references": [
         {
           "index": 1,
@@ -713,7 +719,7 @@
     },
     {
       "sourceNode": "BRS3-FM2-PM3",
-      "sourceTitle": "Nrf2-ARE Antioxidant Activation",
+      "sourceTitle": "Nrf2-Mediated Cellular Defence Regulation",
       "sourcePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
       "parentFM": "BRS3(FM2)",
       "parentBRS": "BRS3",
@@ -722,7 +728,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.",
+      "rationale": "Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result.",
       "references": [
         {
           "index": 1,
@@ -778,7 +784,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Elevated malondialdehyde in adult ADHD and carotenoid-linked neural membrane protection may support cognitive clarity context through modifiable lipid-phase oxidative damage.",
+      "rationale": "One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction.",
       "references": [
         {
           "index": 1,
@@ -875,7 +881,7 @@
     },
     {
       "sourceNode": "BRS5-FM2-PM4",
-      "sourceTitle": "Microbial Ecological Turnover & Competitive Selection",
+      "sourceTitle": "Microbial Substrate-Processing Selection & Adaptation",
       "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
       "parentFM": "BRS5(FM2)",
       "parentBRS": "BRS5",
@@ -1027,8 +1033,8 @@
       "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "Reduced cellular and mitochondrial respiration in ADHD cybrids supports impaired ATP-generating capacity under fluctuating cognitive demand — this PM governs ETC flux only, not substrate routing (PM6–PM8) or redox protection (FM2).",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The same cybrid cells respired less, which is consistent with less ATP-generating capacity in that model {{cite:verma_attention_2016}}. Cognitive energy was not measured, and the result is not a meal prescription.",
       "references": [
         {
           "index": 1,
@@ -1050,7 +1056,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy.",
+      "rationale": "Cybrid cells carrying platelet mitochondria from three boys with ADHD respired less, but NAD⁺ was not measured {{cite:verma_attention_2016}}. A review of ADHD mitochondrial papers does not add an NAD⁺ measurement {{cite:ogutlu_mitochondrial_2023}}.",
       "references": [
         {
           "index": 1,
@@ -1506,25 +1512,19 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5.",
+      "rationale": "Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step.",
       "references": [
         {
           "index": 1,
-          "label": "Oades (2010)",
-          "citationKey": "oades_role_2010",
-          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+          "label": "Mariotti and Gardner (2019)",
+          "citationKey": "mariotti_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019"
         },
         {
           "index": 2,
-          "label": "Fernstrom (2013)",
-          "citationKey": "fernstrom_lnna_2013",
-          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
-        },
-        {
-          "index": 3,
-          "label": "Briguglio et al. (2018)",
-          "citationKey": "briguglio_dietary_2018",
-          "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018"
+          "label": "Aquili (2020)",
+          "citationKey": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020"
         }
       ],
       "targetPhenomeId": "PH003"
@@ -1632,34 +1632,6 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
-      "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-      "parentFM": "BRS1(FM4)",
-      "parentBRS": "BRS1",
-      "targetPhenome": "Emotional Regulation",
-      "relationshipType": "modulates",
-      "confidence": "medium",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Substantial mismatch between excitation and inhibition would be expected to impair emotional control. Reduced GABA concentration in ADHD cohorts {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}} supplies pool context, not an emotional-regulation scale and not GABA synthesis.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Edden et al. (2012)",
-          "citationKey": "edden_reduced_2012",
-          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012"
-        },
-        {
-          "index": 2,
-          "label": "Puts et al. (2020)",
-          "citationKey": "puts_reduced_2020",
-          "href": "/docs/papers/BRAIN-Diet-References#puts_reduced_2020"
-        }
-      ],
-      "targetPhenomeId": "PH003"
-    },
-    {
       "sourceNode": "BRS1-FM4-PM9",
       "sourceTitle": "GABA Synthesis Capacity",
       "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
@@ -1760,7 +1732,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.",
+      "rationale": "Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.",
       "references": [
         {
           "index": 1,
@@ -2016,19 +1988,19 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone.",
+      "rationale": "Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention.",
       "references": [
         {
           "index": 1,
-          "label": "Fernstrom (2013)",
-          "citationKey": "fernstrom_lnna_2013",
-          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+          "label": "Gorissen et al. (2020)",
+          "citationKey": "gorissen_phenylalanine_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#gorissen_phenylalanine_2020"
         },
         {
           "index": 2,
-          "label": "Wang et al. (2019)",
-          "citationKey": "wang_dietary_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+          "label": "Matthews (2007)",
+          "citationKey": "matthews_phenylalanine_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007"
         },
         {
           "index": 3,
@@ -2232,40 +2204,6 @@
       "targetPhenomeId": "PH001"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
-      "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-      "parentFM": "BRS1(FM4)",
-      "parentBRS": "BRS1",
-      "targetPhenome": "Focus / Attention Stability",
-      "relationshipType": "modulates",
-      "confidence": "high",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "Matched glutamate–GABA signalling is a core biological context for attentional stability. ADHD cohorts show reduced GABA concentration {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}}, and glutamate/glutamine measures associate with attention scores {{cite:maltezos_glutamateglutamine_2014}}. Those are pool and score associations, not synthesis or clearance flux.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Edden et al. (2012)",
-          "citationKey": "edden_reduced_2012",
-          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012"
-        },
-        {
-          "index": 2,
-          "label": "Puts et al. (2020)",
-          "citationKey": "puts_reduced_2020",
-          "href": "/docs/papers/BRAIN-Diet-References#puts_reduced_2020"
-        },
-        {
-          "index": 3,
-          "label": "Maltezos et al. (2014)",
-          "citationKey": "maltezos_glutamateglutamine_2014",
-          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014"
-        }
-      ],
-      "targetPhenomeId": "PH001"
-    },
-    {
       "sourceNode": "BRS2-FM1-PM1",
       "sourceTitle": "Folate/B12-Dependent Homocysteine Remethylation",
       "sourcePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation",
@@ -2276,7 +2214,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap).",
+      "rationale": "Children with ADHD have been reported to have lower folate and vitamin B12 than comparison groups, and one cohort of boys also had higher homocysteine {{cite:razavinia_vitamins_2024,lukovac_serum_2024,wang_dietary_2019}}. Those are observational blood and diet differences. They do not show that methionine synthase activity is lower, and they do not show that folate or vitamin B12 supplementation improves attention. An MTHFR polymorphism meta-analysis concerns a folate-cycle enzyme upstream of this reaction, not methionine synthase flux {{cite:meng_association_2022}}.",
       "references": [
         {
           "index": 1,
@@ -2316,7 +2254,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap).",
+      "rationale": "Reviews of ADHD diets and of choline in neurodevelopment discuss attention, but they do not test BHMT activity or betaine supplementation as an attention treatment {{cite:millichap_diet_2012,derbyshire_role_2023}}. The enzyme reaction is established separately, and a change in plasma homocysteine is not an attention outcome {{cite:evans_betaine_2002,olthof_low_2003}}. Direct evidence that this remethylation route changes Focus / Attention Stability remains a gap.",
       "references": [
         {
           "index": 1,
@@ -2326,15 +2264,21 @@
         },
         {
           "index": 2,
-          "label": "Olthof et al. (2003)",
-          "citationKey": "olthof_low_2003",
-          "href": "/docs/papers/BRAIN-Diet-References#olthof_low_2003"
-        },
-        {
-          "index": 3,
           "label": "Derbyshire and Maes (2023)",
           "citationKey": "derbyshire_role_2023",
           "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023"
+        },
+        {
+          "index": 3,
+          "label": "Evans et al. (2002)",
+          "citationKey": "evans_betaine_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#evans_betaine_2002"
+        },
+        {
+          "index": 4,
+          "label": "Olthof et al. (2003)",
+          "citationKey": "olthof_low_2003",
+          "href": "/docs/papers/BRAIN-Diet-References#olthof_low_2003"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2350,7 +2294,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.",
+      "rationale": "Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls, and a separate case-control study linked less healthy diets with lower folate, vitamin B6 and vitamin B12 and with ADHD {{cite:lukovac_serum_2024,wang_dietary_2019}}. Those are concentration and dietary-pattern associations. They do not measure remethylation or transsulfuration rates {{cite:finkelstein_homocysteine_1998,lamers_vitamin_b6_methionine_cycle_2011}}.",
       "references": [
         {
           "index": 1,
@@ -2366,9 +2310,15 @@
         },
         {
           "index": 3,
-          "label": "Chiang et al. (1996)",
-          "citationKey": "chiang_s-adenosylmethionine_1996",
-          "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996"
+          "label": "Finkelstein (1998)",
+          "citationKey": "finkelstein_homocysteine_1998",
+          "href": "/docs/papers/BRAIN-Diet-References#finkelstein_homocysteine_1998"
+        },
+        {
+          "index": 4,
+          "label": "Lamers et al. (2011)",
+          "citationKey": "lamers_vitamin_b6_methionine_cycle_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#lamers_vitamin_b6_methionine_cycle_2011"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2384,25 +2334,31 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Dietary patterns rich in folate and omega-3 associated with reduced ADHD symptoms and choline implicated across neurodevelopmental disorders link methylation–membrane coupling to attention-relevant nutrient patterns. PC formation is the methylation-dependent bridge — direct ADHD attention-outcome trials on PEMT/PC biology remain sparse.",
+      "rationale": "Diet and choline reviews discuss attention and neurodevelopment {{cite:millichap_diet_2012}} {{cite:derbyshire_role_2023}}. They do not measure PEMT activity. Piglet brain DHA accretion and human cerebrospinal-fluid DHA likewise do not record this methylation {{cite:liu_higher_2014}} {{cite:arellanes_brain_2020}}. Any attention relationship is a downstream inference.",
       "references": [
         {
           "index": 1,
-          "label": "Oulhaj et al. (2016)",
-          "citationKey": "oulhaj_omega-3_2016",
-          "href": "/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016"
-        },
-        {
-          "index": 2,
           "label": "Millichap and Yee (2012)",
           "citationKey": "millichap_diet_2012",
           "href": "/docs/papers/BRAIN-Diet-References#millichap_diet_2012"
         },
         {
-          "index": 3,
+          "index": 2,
           "label": "Derbyshire and Maes (2023)",
           "citationKey": "derbyshire_role_2023",
           "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023"
+        },
+        {
+          "index": 3,
+          "label": "Liu et al. (2014)",
+          "citationKey": "liu_higher_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#liu_higher_2014"
+        },
+        {
+          "index": 4,
+          "label": "Arellanes et al. (2020)",
+          "citationKey": "arellanes_brain_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#arellanes_brain_2020"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2446,7 +2402,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Propionate may stimulate norepinephrine secretion with possible relevance to attention; gut-derived inflammatory load and microbiome shifts correlate with ADHD-relevant gut–brain readouts.",
+      "rationale": "Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.",
       "references": [
         {
           "index": 1,
@@ -2465,7 +2421,7 @@
     },
     {
       "sourceNode": "BRS3-FM2-PM3",
-      "sourceTitle": "Nrf2-ARE Antioxidant Activation",
+      "sourceTitle": "Nrf2-Mediated Cellular Defence Regulation",
       "sourcePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
       "parentFM": "BRS3(FM2)",
       "parentBRS": "BRS3",
@@ -2474,7 +2430,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Endogenous antioxidant induction and mineral cofactor sufficiency may modulate attention-relevant oxidative burden in ADHD contexts; repeated dietary pattern matters more than bolus sulforaphane dosing.",
+      "rationale": "The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose.",
       "references": [
         {
           "index": 1,
@@ -2595,20 +2551,14 @@
       "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "ADHD cybrid models show reduced mitochondrial respiration, lower complex V activity, and membrane-potential loss in platelet-derived cells — positioning electron-transport throughput as a biological node intersecting attention-relevant bioenergetic strain rather than a single-complex pharmacology claim.",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Cybrid cells carrying platelet mitochondria from three boys with ADHD had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids {{cite:verma_attention_2016}}. That is a small cell model. It does not show that diet changes attention.",
       "references": [
         {
           "index": 1,
           "label": "Verma et al. (2016)",
           "citationKey": "verma_attention_2016",
           "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016"
-        },
-        {
-          "index": 2,
-          "label": "Öğütlü et al. (2022)",
-          "citationKey": "ogutlu_mitochondrial_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2687,7 +2637,7 @@
     },
     {
       "sourceNode": "BRS5-FM1-PM3",
-      "sourceTitle": "Keystone Taxa Support",
+      "sourceTitle": "Microbial Barrier–Immune Interface Support",
       "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
       "parentFM": "BRS5(FM1)",
       "parentBRS": "BRS5",
@@ -2721,7 +2671,7 @@
     },
     {
       "sourceNode": "BRS5-FM2-PM4",
-      "sourceTitle": "Microbial Ecological Turnover & Competitive Selection",
+      "sourceTitle": "Microbial Substrate-Processing Selection & Adaptation",
       "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
       "parentFM": "BRS5(FM2)",
       "parentBRS": "BRS5",
@@ -3020,22 +2970,16 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5).",
+      "rationale": "Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling.",
       "references": [
         {
           "index": 1,
-          "label": "Fernstrom (2013)",
-          "citationKey": "fernstrom_lnna_2013",
-          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+          "label": "Matthews (2007)",
+          "citationKey": "matthews_phenylalanine_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007"
         },
         {
           "index": 2,
-          "label": "Reimherr & Ward (1987)",
-          "citationKey": "f_w_reimherr_open_1987",
-          "href": "/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987"
-        },
-        {
-          "index": 3,
           "label": "Aquili (2020)",
           "citationKey": "aquili_role_2020",
           "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020"
@@ -3135,7 +3079,7 @@
     },
     {
       "sourceNode": "BRS5-FM1-PM3",
-      "sourceTitle": "Keystone Taxa Support",
+      "sourceTitle": "Microbial Barrier–Immune Interface Support",
       "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
       "parentFM": "BRS5(FM1)",
       "parentBRS": "BRS5",
@@ -3294,7 +3238,7 @@
       "confidence": "low",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM.",
+      "rationale": "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without a direct anhedonia measurement.",
       "references": [
         {
           "index": 1,
@@ -3388,13 +3332,19 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Transsulfuration supplies cysteine for downstream glutathione synthesis — an indirect framework translation to recovery capacity through redox substrate availability rather than measured recovery outcomes in ADHD cohorts.",
+      "rationale": "Cysteine released by cystathionine cleavage can be used later for glutathione synthesis, which is a separate mechanism. The enzyme studies do not measure recovery capacity, and they do not show that changing this conversion treats recovery {{cite:zhu_cgl_kinetics_2008,steegborn_cgl_kinetics_1999}}.",
       "references": [
         {
           "index": 1,
-          "label": "Gregory et al. (2016)",
-          "citationKey": "gregory_homocysteine_2016",
-          "href": "/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016"
+          "label": "Zhu et al. (2008)",
+          "citationKey": "zhu_cgl_kinetics_2008",
+          "href": "/docs/papers/BRAIN-Diet-References#zhu_cgl_kinetics_2008"
+        },
+        {
+          "index": 2,
+          "label": "Steegborn et al. (1999)",
+          "citationKey": "steegborn_cgl_kinetics_1999",
+          "href": "/docs/papers/BRAIN-Diet-References#steegborn_cgl_kinetics_1999"
         }
       ],
       "targetPhenomeId": "PH005"
@@ -3410,7 +3360,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support; review evidence maps sulfur amino acids and cofactors to glutathione pathway support. Elevated homocysteine in paediatric ADHD intersects oxidative-stress framing — GSH synthesis is a modifiable downstream redox node without established ADHD recovery-outcome trials (biology > evidence gap).",
+      "rationale": "Glutathione assembly supplies a thiol used in cellular redox buffering, which is relevant to recovery only as downstream biology. The human synthesis measurements are erythrocyte kinetics after combined precursor supplementation in older adults, not a recovery-outcome trial {{cite:sekhar_glutathione_2011}}. A sulfur-amino-acid-free diet slowed whole-blood synthesis while concentration was maintained {{cite:lyons_glutathione_2000}}. Higher homocysteine in boys with ADHD does not measure glutathione synthesis or recovery {{cite:lukovac_serum_2024}}.",
       "references": [
         {
           "index": 1,
@@ -3420,9 +3370,9 @@
         },
         {
           "index": 2,
-          "label": "Minich et al. (2019)",
-          "citationKey": "minich_glutathione_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#minich_glutathione_2019"
+          "label": "Lyons et al. (2000)",
+          "citationKey": "lyons_glutathione_2000",
+          "href": "/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000"
         },
         {
           "index": 3,
@@ -3444,7 +3394,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes.",
+      "rationale": "The ADHD mitochondrial review discusses mitochondrial strain. It does not measure recovery, and it does not measure NAD⁺ {{cite:ogutlu_mitochondrial_2023}}.",
       "references": [
         {
           "index": 1,
@@ -3950,28 +3900,6 @@
       "targetPhenomeId": "PH015"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
-      "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-      "parentFM": "BRS1(FM4)",
-      "parentBRS": "BRS1",
-      "targetPhenome": "Stress Reactivity",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Network excitation–inhibition framing treats matched tone as a property of circuits under load {{cite:mamiya_precision_2021}}. The attached sources do not measure stress-reactivity outcomes after a dietary change.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Mamiya et al. (2021)",
-          "citationKey": "mamiya_precision_2021",
-          "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021"
-        }
-      ],
-      "targetPhenomeId": "PH015"
-    },
-    {
       "sourceNode": "BRS2-FM2-PM5",
       "sourceTitle": "Transsulfuration Pathway",
       "sourcePath": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway",
@@ -3982,16 +3910,10 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "B6 status associates with methionine–homocysteine cycle markers supporting transsulfuration as a practical dietary lever; elevated homocysteine in paediatric ADHD intersects oxidative-stress framing where transsulfuration-derived cysteine may modulate stress-relevant redox tone. Direct ADHD stress-reactivity outcome evidence for transsulfuration flux remains limited (biology > evidence gap).",
+      "rationale": "Homocysteine can be joined to serine and then cleaved to cysteine, but that chemistry is not evidence of a stress-reactivity effect. A study of boys with ADHD found higher serum homocysteine and lower vitamin B12. It did not measure these enzymes, cysteine production, or stress outcomes, and it is not a treatment result {{cite:lukovac_serum_2024}}.",
       "references": [
         {
           "index": 1,
-          "label": "Gregory et al. (2016)",
-          "citationKey": "gregory_homocysteine_2016",
-          "href": "/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016"
-        },
-        {
-          "index": 2,
           "label": "Lukovac et al. (2024)",
           "citationKey": "lukovac_serum_2024",
           "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024"
@@ -4280,7 +4202,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Endogenous glutathione production positions GSH synthesis as a pattern-based dietary outcome supporting stress-buffering redox resilience when transsulfuration substrate and cofactor coverage are adequate. Direct ADHD stress-resilience outcome evidence remains limited.",
+      "rationale": "The same thiol pool is a plausible contributor to stress buffering, but no assessed study tested a stress-resilience outcome {{cite:sekhar_glutathione_2011,lyons_glutathione_2000}}. The paediatric ADHD biomarker study measured homocysteine and vitamin B12, not glutathione synthesis or stress resilience {{cite:lukovac_serum_2024}}.",
       "references": [
         {
           "index": 1,
@@ -4290,16 +4212,22 @@
         },
         {
           "index": 2,
-          "label": "Minich et al. (2019)",
-          "citationKey": "minich_glutathione_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#minich_glutathione_2019"
+          "label": "Lyons et al. (2000)",
+          "citationKey": "lyons_glutathione_2000",
+          "href": "/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000"
+        },
+        {
+          "index": 3,
+          "label": "Lukovac et al. (2024)",
+          "citationKey": "lukovac_serum_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024"
         }
       ],
       "targetPhenomeId": "PH006"
     },
     {
       "sourceNode": "BRS3-FM2-PM3",
-      "sourceTitle": "Nrf2-ARE Antioxidant Activation",
+      "sourceTitle": "Nrf2-Mediated Cellular Defence Regulation",
       "sourcePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
       "parentFM": "BRS3(FM2)",
       "parentBRS": "BRS3",
@@ -4507,7 +4435,6 @@
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM5",
       "BRS1-FM3-PM7",
-      "BRS1-FM4-PM8",
       "BRS1-FM4-PM9",
       "BRS2-FM1-PM3",
       "BRS3-FM1-PM1",
@@ -4530,7 +4457,6 @@
       "BRS1-FM2-PM6",
       "BRS1-FM3-PM7",
       "BRS1-FM4-PM10",
-      "BRS1-FM4-PM8",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM4",
@@ -4611,7 +4537,6 @@
     "Stress Reactivity": [
       "BRS-X(Hormones-PM3)",
       "BRS1-FM4-PM11",
-      "BRS1-FM4-PM8",
       "BRS2-FM2-PM5",
       "BRS4-FM2-PM4",
       "BRS5-FM1-PM2",
@@ -4698,7 +4623,6 @@
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM5",
       "BRS1-FM3-PM7",
-      "BRS1-FM4-PM8",
       "BRS1-FM4-PM9",
       "BRS2-FM1-PM3",
       "BRS3-FM1-PM1",
@@ -4721,7 +4645,6 @@
       "BRS1-FM2-PM6",
       "BRS1-FM3-PM7",
       "BRS1-FM4-PM10",
-      "BRS1-FM4-PM8",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM4",
@@ -4802,7 +4725,6 @@
     "PH015": [
       "BRS-X(Hormones-PM3)",
       "BRS1-FM4-PM11",
-      "BRS1-FM4-PM8",
       "BRS2-FM2-PM5",
       "BRS4-FM2-PM4",
       "BRS5-FM1-PM2",
@@ -4868,7 +4790,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Serotonin signalling is a core biological substrate for emotional regulation, impulse control and affective stability {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not establish a uniform serotonin deficit that diet can correct {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}. Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5. Carbohydrate-rich versus protein-rich meals can change the plasma tryptophan-to-LNAA ratio {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}. Plasma-ratio change is not serotonin signalling or an emotional-regulation benefit.",
+        "evidence_summary": "Serotonin signalling is a core biological substrate for emotional regulation, impulse control and affective stability {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not establish a uniform serotonin deficit that diet can correct {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}. Tryptophan is an indispensable amino acid and the serotonin precursor. Coverage of that amino acid is not a measurement of emotional regulation, and serotonin signalling is a later step. Carbohydrate-rich versus protein-rich meals can change the plasma tryptophan-to-LNAA ratio {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}. Plasma-ratio change is not serotonin signalling or an emotional-regulation benefit.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM5",
@@ -4902,7 +4824,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}. Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone. Meal-level LNAA competition at LAT1 can shift plasma tyrosine and tryptophan ratios and, on review evidence, brain-entry bias {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}. The attached meal studies do not measure attention or ADHD outcomes, and transport modulation cannot substitute for substrate sufficiency or downstream signalling. Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged {{cite:odonnell_norepinephrine_2012}}. That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect {{cite:macdonald_dopamine_2024}}.",
+        "evidence_summary": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}. Meal protein supplies circulating phenylalanine, and phenylalanine can be converted to tyrosine. Tyrosine and tryptophan are precursors later catecholamine and serotonin pathways can use. These studies do not measure attention. Meal-level LNAA competition at LAT1 can shift plasma tyrosine and tryptophan ratios and, on review evidence, brain-entry bias {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}. The attached meal studies do not measure attention or ADHD outcomes, and transport modulation cannot substitute for substrate sufficiency or downstream signalling. Noradrenaline helps set arousal and vigilance so attention and executive control can stay engaged {{cite:odonnell_norepinephrine_2012}}. That biological role is not a dietary-treatment claim, and ADHD imaging that varies by dopamine process does not show a uniform noradrenaline deficit or a food-based attention effect {{cite:macdonald_dopamine_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM3",
@@ -4944,7 +4866,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5). Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM. Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
+        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling. Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM. Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM3",
@@ -5118,11 +5040,11 @@
       },
       {
         "target_phenome": "Emotional Regulation",
-        "connected_pm_count": 2,
+        "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
-        "overall_confidence": "high",
-        "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking. Substantial mismatch between excitation and inhibition would be expected to impair emotional control. Reduced GABA concentration in ADHD cohorts {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}} supplies pool context, not an emotional-regulation scale and not GABA synthesis.",
+        "overall_confidence": "medium",
+        "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM9",
@@ -5131,24 +5053,16 @@
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "intervention"
-          },
-          {
-            "id": "BRS1-FM4-PM8",
-            "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-            "relationship_type": "modulates",
-            "confidence": "medium",
-            "evidence_level": "mechanistic"
           }
         ]
       },
       {
         "target_phenome": "Focus / Attention Stability",
-        "connected_pm_count": 2,
+        "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "observational",
-        "overall_confidence": "high",
-        "evidence_summary": "Regional glutamate/glutamine measures associate with attention scores in adults with ADHD {{cite:maltezos_glutamateglutamine_2014}}. That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}. Matched glutamate–GABA signalling is a core biological context for attentional stability. ADHD cohorts show reduced GABA concentration {{cite:edden_reduced_2012}} {{cite:puts_reduced_2020}}, and glutamate/glutamine measures associate with attention scores {{cite:maltezos_glutamateglutamine_2014}}. Those are pool and score associations, not synthesis or clearance flux.",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Regional glutamate/glutamine measures associate with attention scores in adults with ADHD {{cite:maltezos_glutamateglutamine_2014}}. That is a spectroscopic pool link, not measured excitatory amino-acid transporter flux. Uptake and recycling terminate excitatory signalling {{cite:zhou_glutamate_2014}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM10",
@@ -5157,14 +5071,6 @@
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
-          },
-          {
-            "id": "BRS1-FM4-PM8",
-            "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-            "relationship_type": "modulates",
-            "confidence": "high",
-            "evidence_level": "observational"
           }
         ]
       },
@@ -5224,20 +5130,12 @@
       },
       {
         "target_phenome": "Stress Reactivity",
-        "connected_pm_count": 2,
+        "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "medium",
-        "evidence_summary": "Network excitation–inhibition framing treats matched tone as a property of circuits under load {{cite:mamiya_precision_2021}}. The attached sources do not measure stress-reactivity outcomes after a dietary change. This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
+        "overall_confidence": "low",
+        "evidence_summary": "This mapping is translational. Injury-level glutamate-receptor stress can sit near how systems react under load, but the attached work does not measure human stress-reactivity outcomes. Clerc et al. used a preclinical chronic receptor-stimulation model, so the relationship remains low-confidence {{cite:clerc_magnesium_2013}}.",
         "contributing_pms": [
-          {
-            "id": "BRS1-FM4-PM8",
-            "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          },
           {
             "id": "BRS1-FM4-PM11",
             "name": "Excitotoxicity Modulation",
@@ -5308,7 +5206,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes. Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.",
+        "evidence_summary": "Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes. Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.",
         "contributing_pms": [
           {
             "id": "BRS3-FM1-PM1",
@@ -5334,7 +5232,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Postprandial and LPS-linked inflammatory signalling intersects ADHD metabolic overlap — pattern-based anti-inflammatory meals may modulate attention-relevant inflammatory tone rather than acute NF-κB pharmacology. Propionate may stimulate norepinephrine secretion with possible relevance to attention; gut-derived inflammatory load and microbiome shifts correlate with ADHD-relevant gut–brain readouts.",
+        "evidence_summary": "Postprandial and LPS-linked inflammatory signalling intersects ADHD metabolic overlap — pattern-based anti-inflammatory meals may modulate attention-relevant inflammatory tone rather than acute NF-κB pharmacology. Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.",
         "contributing_pms": [
           {
             "id": "BRS3-FM1-PM1",
@@ -5494,7 +5392,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM. Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.",
+        "evidence_summary": "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without a direct anhedonia measurement. Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",
@@ -6026,7 +5924,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "high",
-        "evidence_summary": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap). Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts. SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect {{cite:chiang_s-adenosylmethionine_1996}}. Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance {{cite:corrillero_bravo_analysis_2022}}. Direct relationship evidence remains a gap. Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
+        "evidence_summary": "Folic acid, with or without vitamin B12, lowers blood homocysteine {{cite:collaboration_lowering_1998}}. In older adults with mild cognitive impairment, B-vitamin treatment was associated with slower cognitive decline only when omega-3 status was higher {{cite:oulhaj_omega-3_2016}}. Blood homocysteine and that combined B-vitamin interaction do not measure methionine synthase flux, and they do not establish that this reaction itself changes cognitive clarity. Lower plasma homocysteine after betaine supplements is a blood measurement, not a test of cognitive clarity or of tissue BHMT activity {{cite:olthof_low_2003}}. A choline review discusses neurodevelopment rather than an effect of this reaction on clarity {{cite:derbyshire_role_2023}}. The relationship remains an indirect bridge with no direct outcome evidence. SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect {{cite:chiang_s-adenosylmethionine_1996}}. Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance {{cite:corrillero_bravo_analysis_2022}}. Direct relationship evidence remains a gap. SAM donates methyl groups, and homocysteine is then split between remethylation and transsulfuration {{cite:chiang_s-adenosylmethionine_1996,finkelstein_homocysteine_1998}}. Homocysteine concentration is discussed as a risk marker for cognitive decline and Alzheimer disease {{cite:luzzi_homocysteine_2022,yu_evidence-based_2020}}. Those studies measure a metabolite level. They do not measure branch rates, and they do not show that changing cycle throughput improves Cognitive Clarity.",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM1",
@@ -6086,7 +5984,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "medium",
-        "evidence_summary": "Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap). Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap). Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.",
+        "evidence_summary": "Children with ADHD have been reported to have lower folate and vitamin B12 than comparison groups, and one cohort of boys also had higher homocysteine {{cite:razavinia_vitamins_2024,lukovac_serum_2024,wang_dietary_2019}}. Those are observational blood and diet differences. They do not show that methionine synthase activity is lower, and they do not show that folate or vitamin B12 supplementation improves attention. An MTHFR polymorphism meta-analysis concerns a folate-cycle enzyme upstream of this reaction, not methionine synthase flux {{cite:meng_association_2022}}. Reviews of ADHD diets and of choline in neurodevelopment discuss attention, but they do not test BHMT activity or betaine supplementation as an attention treatment {{cite:millichap_diet_2012,derbyshire_role_2023}}. The enzyme reaction is established separately, and a change in plasma homocysteine is not an attention outcome {{cite:evans_betaine_2002,olthof_low_2003}}. Direct evidence that this remethylation route changes Focus / Attention Stability remains a gap. Boys with ADHD had higher serum homocysteine and lower vitamin B12 than controls, and a separate case-control study linked less healthy diets with lower folate, vitamin B6 and vitamin B12 and with ADHD {{cite:lukovac_serum_2024,wang_dietary_2019}}. Those are concentration and dietary-pattern associations. They do not measure remethylation or transsulfuration rates {{cite:finkelstein_homocysteine_1998,lamers_vitamin_b6_methionine_cycle_2011}}.",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM1",
@@ -6122,7 +6020,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "medium",
-        "evidence_summary": "B-vitamin cognitive effects depend on omega-3 status (VITACOG reanalysis); phospholipid methylation couples homocysteine regulation to omega-3-enriched PC delivery toward the brain. PEMT pathway biology and phospholipid-bound DHA accretion evidence support cognitive-clarity framework translation — ADHD-specific cognitive-clarity trials on PC formation remain limited (biology > evidence gap).",
+        "evidence_summary": "SAMe-dependent phosphatidylcholine formation couples one-carbon methylation to membrane phospholipid chemistry — the methylation-dependent bridge between B-vitamin status and omega-3-enriched PC delivery toward the brain. VITACOG reanalysis, PEMT pathway biology, and phospholipid-bound DHA accretion evidence support cognitive-clarity framework translation. The findings support an association with cognitive outcomes, while the proposed causal role of methylation–membrane coupling remains unproven. Applicability to ADHD has not yet been established.",
         "contributing_pms": [
           {
             "id": "BRS2-FM3-PM7",
@@ -6140,7 +6038,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Dietary patterns rich in folate and omega-3 associated with reduced ADHD symptoms and choline implicated across neurodevelopmental disorders link methylation–membrane coupling to attention-relevant nutrient patterns. PC formation is the methylation-dependent bridge — direct ADHD attention-outcome trials on PEMT/PC biology remain sparse.",
+        "evidence_summary": "Diet and choline reviews discuss attention and neurodevelopment {{cite:millichap_diet_2012}} {{cite:derbyshire_role_2023}}. They do not measure PEMT activity. Piglet brain DHA accretion and human cerebrospinal-fluid DHA likewise do not record this methylation {{cite:liu_higher_2014}} {{cite:arellanes_brain_2020}}. Any attention relationship is a downstream inference.",
         "contributing_pms": [
           {
             "id": "BRS2-FM3-PM7",
@@ -6160,11 +6058,11 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient. Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims. Elevated malondialdehyde in adult ADHD and carotenoid-linked neural membrane protection may support cognitive clarity context through modifiable lipid-phase oxidative damage. Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
+        "evidence_summary": "Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result. Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims. One adult cohort had higher malondialdehyde. That marker is not a vitamin E result. Lutein is not the chain-breaking antioxidant in this membrane reaction. Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
         "contributing_pms": [
           {
             "id": "BRS3-FM2-PM3",
-            "name": "Nrf2-ARE Antioxidant Activation",
+            "name": "Nrf2-Mediated Cellular Defence Regulation",
             "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6236,11 +6134,11 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Endogenous antioxidant induction and mineral cofactor sufficiency may modulate attention-relevant oxidative burden in ADHD contexts; repeated dietary pattern matters more than bolus sulforaphane dosing. Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance. Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
+        "evidence_summary": "The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose. Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance. Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
         "contributing_pms": [
           {
             "id": "BRS3-FM2-PM3",
-            "name": "Nrf2-ARE Antioxidant Activation",
+            "name": "Nrf2-Mediated Cellular Defence Regulation",
             "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6274,7 +6172,7 @@
         "contributing_pms": [
           {
             "id": "BRS3-FM2-PM3",
-            "name": "Nrf2-ARE Antioxidant Activation",
+            "name": "Nrf2-Mediated Cellular Defence Regulation",
             "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation",
             "relationship_type": "modulates",
             "confidence": "low",
@@ -6302,7 +6200,7 @@
         "contributing_pms": [
           {
             "id": "BRS5-FM2-PM4",
-            "name": "Microbial Ecological Turnover & Competitive Selection",
+            "name": "Microbial Substrate-Processing Selection & Adaptation",
             "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
             "relationship_type": "indirect",
             "confidence": "low",
@@ -6346,7 +6244,7 @@
         "contributing_pms": [
           {
             "id": "BRS5-FM2-PM4",
-            "name": "Microbial Ecological Turnover & Competitive Selection",
+            "name": "Microbial Substrate-Processing Selection & Adaptation",
             "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6388,7 +6286,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "medium",
-        "evidence_summary": "Reduced cellular and mitochondrial respiration in ADHD cybrids supports impaired ATP-generating capacity under fluctuating cognitive demand — this PM governs ETC flux only, not substrate routing (PM6–PM8) or redox protection (FM2). NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy. Creatine–phosphocreatine buffering is positioned to stabilise ATP supply during changing demand. In a small crossover trial during acute sleep deprivation, a high single creatine dose altered cerebral high-energy phosphate measures and partially preserved cognitive performance {{cite:gordji-nejad_creatine_sleep_2024}}. This supports a conditional relationship under acute metabolic stress, not a universal energy effect.",
+        "evidence_summary": "The same cybrid cells respired less, which is consistent with less ATP-generating capacity in that model {{cite:verma_attention_2016}}. Cognitive energy was not measured, and the result is not a meal prescription. Cybrid cells carrying platelet mitochondria from three boys with ADHD respired less, but NAD⁺ was not measured {{cite:verma_attention_2016}}. A review of ADHD mitochondrial papers does not add an NAD⁺ measurement {{cite:ogutlu_mitochondrial_2023}}. Creatine–phosphocreatine buffering is positioned to stabilise ATP supply during changing demand. In a small crossover trial during acute sleep deprivation, a high single creatine dose altered cerebral high-energy phosphate measures and partially preserved cognitive performance {{cite:gordji-nejad_creatine_sleep_2024}}. This supports a conditional relationship under acute metabolic stress, not a universal energy effect.",
         "contributing_pms": [
           {
             "id": "BRS4-FM1-PM1",
@@ -6396,7 +6294,7 @@
             "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
             "relationship_type": "modulates",
             "confidence": "low-medium",
-            "evidence_level": "observational"
+            "evidence_level": "mechanistic"
           },
           {
             "id": "BRS4-FM1-PM2",
@@ -6420,9 +6318,9 @@
         "target_phenome": "Focus / Attention Stability",
         "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "observational",
+        "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "ADHD cybrid models show reduced mitochondrial respiration, lower complex V activity, and membrane-potential loss in platelet-derived cells — positioning electron-transport throughput as a biological node intersecting attention-relevant bioenergetic strain rather than a single-complex pharmacology claim.",
+        "evidence_summary": "Cybrid cells carrying platelet mitochondria from three boys with ADHD had lower respiration, lower complex V activity, a lower membrane potential and higher mitochondrial superoxide than control cybrids {{cite:verma_attention_2016}}. That is a small cell model. It does not show that diet changes attention.",
         "contributing_pms": [
           {
             "id": "BRS4-FM1-PM1",
@@ -6430,7 +6328,7 @@
             "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
             "relationship_type": "modulates",
             "confidence": "low-medium",
-            "evidence_level": "observational"
+            "evidence_level": "mechanistic"
           }
         ]
       },
@@ -6440,7 +6338,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes. Rapid ATP buffering is biologically relevant to recovery after energetic demand, but the reviewed human evidence primarily measures cerebral creatine, cognition during acute stress, or clinical contexts rather than recovery capacity itself {{cite:dolan_beyond_muscle_2019}}. The relationship therefore remains indirect and evidence-limited.",
+        "evidence_summary": "The ADHD mitochondrial review discusses mitochondrial strain. It does not measure recovery, and it does not measure NAD⁺ {{cite:ogutlu_mitochondrial_2023}}. Rapid ATP buffering is biologically relevant to recovery after energetic demand, but the reviewed human evidence primarily measures cerebral creatine, cognition during acute stress, or clinical contexts rather than recovery capacity itself {{cite:dolan_beyond_muscle_2019}}. The relationship therefore remains indirect and evidence-limited.",
         "contributing_pms": [
           {
             "id": "BRS4-FM1-PM2",
@@ -6622,7 +6520,7 @@
           },
           {
             "id": "BRS5-FM1-PM3",
-            "name": "Keystone Taxa Support",
+            "name": "Microbial Barrier–Immune Interface Support",
             "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6640,7 +6538,7 @@
         "contributing_pms": [
           {
             "id": "BRS5-FM1-PM3",
-            "name": "Keystone Taxa Support",
+            "name": "Microbial Barrier–Immune Interface Support",
             "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6878,7 +6776,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Transsulfuration supplies cysteine for downstream glutathione synthesis — an indirect framework translation to recovery capacity through redox substrate availability rather than measured recovery outcomes in ADHD cohorts. Deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support; review evidence maps sulfur amino acids and cofactors to glutathione pathway support. Elevated homocysteine in paediatric ADHD intersects oxidative-stress framing — GSH synthesis is a modifiable downstream redox node without established ADHD recovery-outcome trials (biology > evidence gap).",
+        "evidence_summary": "Cysteine released by cystathionine cleavage can be used later for glutathione synthesis, which is a separate mechanism. The enzyme studies do not measure recovery capacity, and they do not show that changing this conversion treats recovery {{cite:zhu_cgl_kinetics_2008,steegborn_cgl_kinetics_1999}}. Glutathione assembly supplies a thiol used in cellular redox buffering, which is relevant to recovery only as downstream biology. The human synthesis measurements are erythrocyte kinetics after combined precursor supplementation in older adults, not a recovery-outcome trial {{cite:sekhar_glutathione_2011}}. A sulfur-amino-acid-free diet slowed whole-blood synthesis while concentration was maintained {{cite:lyons_glutathione_2000}}. Higher homocysteine in boys with ADHD does not measure glutathione synthesis or recovery {{cite:lukovac_serum_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS2-FM2-PM5",
@@ -6904,7 +6802,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "B6 status associates with methionine–homocysteine cycle markers supporting transsulfuration as a practical dietary lever; elevated homocysteine in paediatric ADHD intersects oxidative-stress framing where transsulfuration-derived cysteine may modulate stress-relevant redox tone. Direct ADHD stress-reactivity outcome evidence for transsulfuration flux remains limited (biology > evidence gap).",
+        "evidence_summary": "Homocysteine can be joined to serine and then cleaved to cysteine, but that chemistry is not evidence of a stress-reactivity effect. A study of boys with ADHD found higher serum homocysteine and lower vitamin B12. It did not measure these enzymes, cysteine production, or stress outcomes, and it is not a treatment result {{cite:lukovac_serum_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS2-FM2-PM5",
@@ -6922,7 +6820,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Endogenous glutathione production positions GSH synthesis as a pattern-based dietary outcome supporting stress-buffering redox resilience when transsulfuration substrate and cofactor coverage are adequate. Direct ADHD stress-resilience outcome evidence remains limited.",
+        "evidence_summary": "The same thiol pool is a plausible contributor to stress buffering, but no assessed study tested a stress-resilience outcome {{cite:sekhar_glutathione_2011,lyons_glutathione_2000}}. The paediatric ADHD biomarker study measured homocysteine and vitamin B12, not glutathione synthesis or stress resilience {{cite:lukovac_serum_2024}}.",
         "contributing_pms": [
           {
             "id": "BRS2-FM2-PM6",

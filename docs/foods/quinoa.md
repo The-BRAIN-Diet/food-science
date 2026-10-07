@@ -18,6 +18,7 @@ tags:
   - Vitamin B6
   - Vitamin B9
   - Choline
+  - Betaine
 list_image: /img/foods/quinoa/quinoa_thumb.webp
 nutrition_per_100g:
   vitamin_a_rae_ug: 1
@@ -65,6 +66,29 @@ nutrition_source:
 main_image: /img/foods/quinoa/quinoa_medium.webp
 legacy_list_image: /img/foods/quinoa/quinoa_thumb.webp
 legacy_main_image: /img/foods/quinoa/quinoa_medium.webp
+nutrition_supplementary_sources:
+  - key: betaine_mg
+    label: Betaine
+    value: 630
+    unit: mg
+    amount_display: 630 mg/100 g
+    status: One-sample assay, separate from this page’s nutrient panel
+    source_note: >-
+      Patterson et al. (2008), USDA Database for the Choline Content of Common
+      Foods, Release 2: quinoa (NDB 20035), 630 mg betaine per 100 g, one
+      sample. This is not the FDC 168874 panel used for the other nutrients
+      on this page.
+substance_relationships:
+  - substance: Betaine
+    relationship: contains
+    description: >-
+      The corrected USDA choline database reports 630 mg betaine per 100 g in
+      quinoa, from one sample. That assay is separate from this page’s other
+      nutrients.
+    citation_keys:
+      - patterson_choline_2008
+substance_card_captions:
+  Betaine: Occurs directly in quinoa; 630 mg per 100 g in one corrected USDA sample.
 ---
 ## Overview
 

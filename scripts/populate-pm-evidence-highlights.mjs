@@ -41,6 +41,7 @@ function buildEvidenceBlock(config) {
   const entries = normalizeEvidenceConfig(config);
   return renderEvidenceHighlightsSection({
     heading: "### 4.1 Evidence Highlights",
+    summaryHeading: "Summary",
     intro: config.intro,
     entries,
   });

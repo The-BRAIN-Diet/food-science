@@ -6,13 +6,95 @@ export interface BibEntry {
     entryTags: Record<string, string>;
 }
 
+const LATEX_ACCENTS: Record<string, Record<string, string>> = {
+    "'": {
+        A: 'Á', E: 'É', I: 'Í', O: 'Ó', U: 'Ú', Y: 'Ý',
+        a: 'á', c: 'ć', e: 'é', i: 'í', n: 'ń', o: 'ó', s: 'ś', u: 'ú', y: 'ý', z: 'ź',
+    },
+    '`': {
+        A: 'À', E: 'È', I: 'Ì', O: 'Ò', U: 'Ù',
+        a: 'à', e: 'è', i: 'ì', o: 'ò', u: 'ù',
+    },
+    '^': {
+        A: 'Â', E: 'Ê', I: 'Î', O: 'Ô', U: 'Û',
+        a: 'â', e: 'ê', i: 'î', o: 'ô', u: 'û',
+    },
+    '"': {
+        A: 'Ä', E: 'Ë', I: 'Ï', O: 'Ö', U: 'Ü',
+        a: 'ä', e: 'ë', i: 'ï', o: 'ö', u: 'ü', y: 'ÿ',
+    },
+    '~': {
+        A: 'Ã', N: 'Ñ', O: 'Õ',
+        a: 'ã', n: 'ñ', o: 'õ',
+    },
+    '=': {a: 'ā', e: 'ē', i: 'ī', o: 'ō', u: 'ū'},
+    '.': {c: 'ċ', e: 'ė', z: 'ż', Z: 'Ż'},
+    c: {C: 'Ç', c: 'ç', s: 'ş', t: 'ţ'},
+    v: {
+        C: 'Č', D: 'Ď', E: 'Ě', N: 'Ň', R: 'Ř', S: 'Š', T: 'Ť', Z: 'Ž',
+        c: 'č', d: 'ď', e: 'ě', n: 'ň', r: 'ř', s: 'š', t: 'ť', z: 'ž',
+    },
+    u: {A: 'Ă', a: 'ă', g: 'ğ'},
+    H: {O: 'Ő', U: 'Ű', o: 'ő', u: 'ű'},
+    k: {a: 'ą', e: 'ę'},
+    r: {A: 'Å', a: 'å'},
+};
+
+function applyLatexAccent(command: string, letter: string): string {
+    return LATEX_ACCENTS[command]?.[letter] ?? letter;
+}
+
 /**
- * BibTeX uses `{Like This}` to protect capitalisation for bibliography styles.
- * Strip those groups for HTML so titles and journal names read as normal text.
+ * Turn BibTeX accent commands and protective braces into readable text.
+ * `{\v{r}}` becomes ř, and `{\textregistered}` becomes ®.
  */
-function stripBibTeXBraces(value: string): string {
+function decodeBibTeX(value: string): string {
     if (!value) return value;
     let out = value;
+
+    const symbols: Array<[string, string]> = [
+        ['\\textregistered', '®'],
+        ['\\texttrademark', '™'],
+        ['\\copyright', '©'],
+        ['\\textbackslash', '\\'],
+        ['\\beta', 'β'],
+        ['\\&', '&'],
+        ['\\%', '%'],
+        ['\\$', '$'],
+        ['\\#', '#'],
+        ['\\_', '_'],
+        ['\\OE', 'Œ'],
+        ['\\oe', 'œ'],
+        ['\\AE', 'Æ'],
+        ['\\ae', 'æ'],
+        ['\\AA', 'Å'],
+        ['\\aa', 'å'],
+        ['\\O', 'Ø'],
+        ['\\o', 'ø'],
+        ['\\L', 'Ł'],
+        ['\\l', 'ł'],
+        ['\\ss', 'ß'],
+        ['\\DJ', 'Đ'],
+        ['\\dj', 'đ'],
+        ['\\DH', 'Ð'],
+        ['\\dh', 'ð'],
+    ];
+    symbols.forEach(([from, to]) => {
+        out = out.split(from).join(to);
+    });
+
+    out = out.replace(/\\(["'`^=.~cuvHrk])\s*\{\\i\}/g, (_, command: string) => applyLatexAccent(command, 'i'));
+    out = out.replace(
+        /\\(["'`^=.~cuvHrk])\s*\{([A-Za-z])\}/g,
+        (_, command: string, letter: string) => applyLatexAccent(command, letter),
+    );
+    out = out.replace(
+        /\\(["'`^=.~cuvHrk])\s*([A-Za-z])/g,
+        (_, command: string, letter: string) => applyLatexAccent(command, letter),
+    );
+    out = out.replace(/\\(?:textit|textbf|emph|textrm|textsc|textsf|texttt)\s*/g, '');
+    out = out.split('\\i').join('i');
+
     let prev = '';
     while (out !== prev) {
         prev = out;
@@ -21,8 +103,12 @@ function stripBibTeXBraces(value: string): string {
     return out.replace(/\s{2,}/g, ' ').trim();
 }
 
+function pageRange(pages: string): string {
+    return pages.replace(/---/g, '—').replace(/--/g, '–');
+}
+
 function displayTag(entryTags: Record<string, string>, key: string): string {
-    return stripBibTeXBraces(entryTags[key] || '');
+    return decodeBibTeX(entryTags[key] || '');
 }
 
 export function formatReference(entry: BibEntry, style: ReferenceStyle = 'apa'): string {
@@ -52,7 +138,7 @@ function formatAPA(entry: BibEntry): string {
         const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         const doi = entryTags.doi ? ` https://doi.org/${entryTags.doi}` : '';
 
         return `${authors} (${year}). ${title}. <em>${journal}</em>${volume ? `, ${volume}` : ''}${number ? `(${number})` : ''}${pages ? `, ${pages}` : ''}.${doi}`;
@@ -66,7 +152,7 @@ function formatAPA(entry: BibEntry): string {
 
     if (['inproceedings', 'conference'].includes(entryType.toLowerCase())) {
         const booktitle = displayTag(entryTags, 'booktitle');
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         const publisher = entryTags.publisher || '';
         return `${authors} (${year}). ${title}. In <em>${booktitle}</em>${pages ? ` (pp. ${pages})` : ''}. ${publisher}.`;
     }
@@ -84,7 +170,7 @@ function formatMLA(entry: BibEntry): string {
         const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         return `${authors}. "${title}." <em>${journal}</em>, vol. ${volume}${number ? `, no. ${number}` : ''}${year ? `, ${year}` : ''}${pages ? `, pp. ${pages}` : ''}.`;
     }
 
@@ -106,7 +192,7 @@ function formatChicago(entry: BibEntry): string {
         const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         return `${authors}. "${title}." <em>${journal}</em> ${volume}${number ? `, no. ${number}` : ''} (${year})${pages ? `: ${pages}` : ''}.`;
     }
 
@@ -129,13 +215,13 @@ function formatIEEE(entry: BibEntry): string {
         const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         return `${authors}, "${title}," <em>${journal}</em>, vol. ${volume}${number ? `, no. ${number}` : ''}${pages ? `, pp. ${pages}` : ''}, ${year}.`;
     }
 
     if (['inproceedings', 'conference'].includes(entryType.toLowerCase())) {
         const booktitle = displayTag(entryTags, 'booktitle');
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
         return `${authors}, "${title}," in <em>${booktitle}</em>${pages ? `, pp. ${pages}` : ''}, ${year}.`;
     }
 
@@ -152,7 +238,7 @@ function formatHarvard(entry: BibEntry): string {
         const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
-        const pages = entryTags.pages || '';
+        const pages = pageRange(entryTags.pages || '');
 
         const parts: string[] = [];
         if (journal) parts.push(`<em>${journal}</em>`);
@@ -176,7 +262,7 @@ function formatHarvard(entry: BibEntry): string {
         const publisher = entryTags.publisher || '';
         const address = entryTags.address || '';
         const location = address ? `${address}, ` : '';
-        const pagePart = pages ? `, pp. ${pages.replace('--', '–')}` : '';
+        const pagePart = pages ? `, pp. ${pageRange(pages)}` : '';
         return `${authors} ${year}, '${title}', in <em>${booktitle}</em>, ${location}${publisher}${pagePart}.`;
     }
 
@@ -198,7 +284,7 @@ function formatHarvard(entry: BibEntry): string {
 function formatAuthors(authorString: string, style: ReferenceStyle): string {
     if (!authorString) return '';
 
-    const authors = authorString.split(' and ').map(a => a.trim());
+    const authors = decodeBibTeX(authorString).split(' and ').map(a => a.trim());
 
     if (authors.length === 0) return '';
     if (authors.length === 1) return formatSingleAuthor(authors[0], style);

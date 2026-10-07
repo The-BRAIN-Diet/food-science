@@ -4,11 +4,11 @@ pm_id: BRS1-FM1-PM5
 mission: 'Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.'
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Serotonergic regulation begins when brain-available tryptophan is hydroxylated by neuronal TPH2 and then decarboxylated to serotonin. Release, multiple receptor families, serotonin-transporter reuptake and metabolism subsequently shape signalling. Together, these stages regulate serotonin availability and responses across different cells and brain regions over time. This mechanism concerns those synthesis and signalling stages after precursor entry into the brain; circulating tryptophan supply and competitive blood–brain transport remain upstream.'
+summary: 'Serotonin is made in neurons when tryptophan is converted through two enzyme steps, then shaped by release, receptors, reuptake and breakdown. Across brain regions, the same transmitter can support different responses. That system supports mood stability, inhibition and behavioural regulation. Tryptophan, iron and vitamin B6 are part of the chemistry.'
 cofactors:
   - Iron
   - Tetrahydrobiopterin (BH4)
-  - Pyridoxal-5′-phosphate (PLP)
+  - Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'No'
@@ -36,7 +36,7 @@ dietary_input_traceability:
         - fanet_tetrahydrobioterin_2021
     evidence_limitation: 'Substrate necessity does not establish that additional dietary tryptophan increases brain serotonin or improves mood, sleep or ADHD.'
   - atom_id: PM5-DIT-3
-    input: Pyridoxal-5′-phosphate (PLP)
+    input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: Cofactor for aromatic L-amino-acid decarboxylase conversion of 5-hydroxytryptophan to serotonin
     evidence_source:
@@ -107,7 +107,7 @@ dietary_lever_atoms:
   - atom_id: PM5-DIT-4
     requirement_classification: derived
     relationship_mode: capacity-requirement
-    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     derived_target_atom_id: PM5-DIT-3
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
@@ -129,7 +129,7 @@ dietary_lever_presentations:
     label: Iron
     presentation_section: 3.1.1
   - atom_id: PM5-DIT-3
-    label: Pyridoxal-5′-phosphate (PLP)
+    label: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     presentation_section: 3.1.1
   - atom_id: PM5-DIT-4
     label: Vitamin B6
@@ -387,7 +387,7 @@ kc_applicability_adjudications:
       show that ordinary methylation-cycle variation controls serotonin signalling,
       mood or sleep. Not a negative finding.
 hide_title: true
-scientific_findings_intro: 'Serotonin (5-hydroxytryptamine) is a neuromodulator used in mood stability, behavioural inhibition and related control. The findings below separate that signalling role from the tryptophan-to-serotonin synthesis path and from meal-level precursor transport. They establish biological relevance and important limits; they do not show that changing diet raises brain serotonin or treats mood, sleep or ADHD.'
+scientific_findings_intro: "Enzyme studies and biochemical reviews establish the neuronal tryptophan-to-serotonin synthesis sequence and its cofactor dependence. [[13]](#pm-ref-13) [[14]](#pm-ref-14) [[12]](#pm-ref-12) Broader reviews support receptor diversity and transporter-mediated handling as additional determinants of serotonergic function. [[15]](#pm-ref-15) Together, the evidence supports synthesis and signalling as related but distinct capacities; it does not directly establish that ordinary dietary changes regulate human brain serotonin or produce uniform functional benefits."
 candidate_cross_brs_relationships:
   - target_brs: BRS2
     relationship_scope: One-carbon metabolism and SAM-dependent conversion of serotonin toward melatonin
@@ -664,7 +664,7 @@ Support serotonergic signalling so mood stability, inhibition, and behavioural r
 
 - Tryptophan
 - Iron
-- Pyridoxal-5′-phosphate (PLP)
+- Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 - Vitamin B6
 
 </div>
@@ -695,16 +695,7 @@ Tetrahydrobiopterin is an endogenous cofactor required for tryptophan hydroxylat
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-Tryptophan competes with other large neutral amino acids for transport into the brain. This balance can affect its availability for serotonin synthesis, without establishing an effect on mood or ADHD symptoms.
-</div>
-</div>
-</div>
+No additional distinct KC relationship established; precursor availability is covered in §3.1.1.
 
 </div>
 </div>
@@ -716,11 +707,11 @@ Tryptophan competes with other large neutral amino acids for transport into the 
 </div>
 ### Overview
 
-Serotonergic regulation begins when brain-available tryptophan is hydroxylated by neuronal TPH2 and then decarboxylated to serotonin Fitzpatrick (1999) [[13]](#pm-ref-13); Walther et al. (2003) [[14]](#pm-ref-14). Release, multiple receptor families, serotonin-transporter reuptake and metabolism subsequently shape signalling Berger, Gray and Roth (2009) [[15]](#pm-ref-15). Together, these stages regulate serotonin availability and responses across different cells and brain regions over time. This mechanism concerns those synthesis and signalling stages after precursor entry into the brain; circulating tryptophan supply and competitive blood–brain transport remain upstream Fernstrom (2013) [[1]](#pm-ref-1).
+Serotonin is made in neurons when tryptophan is converted through two enzyme steps, then shaped by release, receptors, reuptake and breakdown. [[13]](#pm-ref-13) [[14]](#pm-ref-14) [[15]](#pm-ref-15) Across brain regions, the same transmitter can support different responses. [[15]](#pm-ref-15) That system supports mood stability, inhibition and behavioural regulation. [[4]](#pm-ref-4) [[15]](#pm-ref-15) Tryptophan, iron and vitamin B6 are part of the chemistry. [[13]](#pm-ref-13) [[10]](#pm-ref-10)
 
-* **Mechanism boundary:** Includes neuronal serotonin formation, release, receptor signalling, reuptake and metabolism; precursor-pool provision and LAT1 competition are upstream.
-* **Evidence boundary:** Enzyme and transport requirements establish pathway capacity, not that ordinary dietary changes alter human brain serotonin signalling Fitzpatrick (1999) [[13]](#pm-ref-13); Fernstrom (2013) [[1]](#pm-ref-1).
-* **Biological relevance:** Serotonin is relevant to emotional and behavioural regulation, but heterogeneous ADHD evidence does not establish a uniform serotonin deficit or a nutritional treatment Faraone et al. (2025) [[3]](#pm-ref-3); Shaw et al. (2014) [[4]](#pm-ref-4).
+- **Benefits:** Serotonin signalling supports emotional regulation, impulse control and behavioural stability. [[4]](#pm-ref-4) [[15]](#pm-ref-15)
+- **Implementation Notes:** Tryptophan, iron, and vitamin B6 are the substrate and cofactor relationships. [[13]](#pm-ref-13) [[10]](#pm-ref-10) Extra intake is not established to raise brain serotonin or improve mood or attention. [[3]](#pm-ref-3) [[4]](#pm-ref-4) Tetrahydrobiopterin is made in the body and is not a dietary recommendation. [[12]](#pm-ref-12)
+- **Biological Relevance:** This is the signalling step after tryptophan has [entered the brain](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation); circulating supply and competitive transport come first. [[1]](#pm-ref-1)
 
 ## 2. Primary Biological Effects
 ↑ serotonergic signalling capacity; ↑ emotional regulation support; ↑ stress-response modulation; ↑ behavioural inhibition; ↑ sleep-compatible neurochemical signalling
@@ -794,9 +785,9 @@ Amino-acid pool sufficiency belongs to [BRS1-FM1-PM1](/docs/biological-targets/b
 
 ### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-Serotonin (5-hydroxytryptamine) is a neuromodulator used in mood stability, behavioural inhibition and related control. The findings below separate that signalling role from the tryptophan-to-serotonin synthesis path and from meal-level precursor transport. They establish biological relevance and important limits; they do not show that changing diet raises brain serotonin or treats mood, sleep or ADHD.
+Enzyme studies and biochemical reviews establish the neuronal tryptophan-to-serotonin synthesis sequence and its cofactor dependence. [[13]](#pm-ref-13) [[14]](#pm-ref-14) [[12]](#pm-ref-12) Broader reviews support receptor diversity and transporter-mediated handling as additional determinants of serotonergic function. [[15]](#pm-ref-15) Together, the evidence supports synthesis and signalling as related but distinct capacities; it does not directly establish that ordinary dietary changes regulate human brain serotonin or produce uniform functional benefits.
 
 <ScientificFinding finding={{"id":"PM5-F1","finding_label":"Serotonin supports mood stability, inhibition and behavioural regulation","finding_summary":"Serotonin (5-hydroxytryptamine) is a neuromodulator that helps set emotional tone, behavioural inhibition and related control. That is a signalling role, not a dietary dosing rule.","finding_interpretation":"This supports the mechanism’s mood-stability and inhibition mission. It does not show that changing food intake raises brain serotonin or treats mood, sleep or ADHD.","fm_rollup":true,"finding_statement":"Serotonin modulates emotional processing, impulse control and behavioural regulation rather than acting as a single directional mood chemical.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human emotion-dysregulation and ADHD-related serotonin reviews treat serotonergic signalling as relevant to affective stability and inhibition. A broader serotonin-biology review places the same transmitter across receptor families that shape mood- and behaviour-related circuits. Together they support the signalling mission. They do not measure dietary intake, brain serotonin after meals, or a uniform clinical lesion that food can correct.","synthesis_limitations":"The sources are reviews, not dietary trials. They do not isolate everyday serotonin tone, quantify receptor-specific effects after meals, or show that precursor or cofactor intake changes signalling.","evidence_considered":[{"label":"Shaw et al. (2014)","citation_key":"shaw_emotion_2014","href":"/docs/papers/BRAIN-Diet-References#shaw_emotion_2014","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Emotion dysregulation in ADHD is discussed as a clinically important phenotype with serotonergic and broader monoamine context, without testing diet.","assessment":{"study":"Narrative review of emotion dysregulation in ADHD.","population":"Children and adults with ADHD and comparison groups described in the reviewed literature.","result":"Identified emotion dysregulation as a core associated feature rather than a single-chemical deficit.","effect_magnitude":"No pooled dietary or serotonin-process effect estimate.","evidence_summary":"Anchors the mood-stability and inhibition mission in human clinical-mechanistic literature.","limitations":"ADHD-focused review; not a serotonin dietary trial."},"canonical_reference":{"author_year":"Shaw et al. (2014)","number":4,"anchor":"#pm-ref-4"}},{"label":"Berger, Gray and Roth (2009)","citation_key":"berger_serotonin_2009","href":"/docs/papers/BRAIN-Diet-References#berger_serotonin_2009","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Serotonin acts through multiple receptor families and central circuits that include mood, sleep–wake and behavioural-control functions.","assessment":{"study":"Narrative review of expanded serotonin biology.","population":"Mixed experimental and human mechanistic literature; not a dietary sample.","result":"Described receptor diversity and non-dietary physiological roles of serotonin.","effect_magnitude":"No dietary or clinical effect estimate.","evidence_summary":"Establishes serotonin as a multi-receptor neuromodulator rather than a single mood chemical.","limitations":"Review synthesis; does not demonstrate dietary modification."},"canonical_reference":{"author_year":"Berger, Gray and Roth (2009)","number":15,"anchor":"#pm-ref-15"}}],"connected_supportive_evidence":[{"label":"Banerjee and Nandagopal (2015)","citation_key":"banerjee_does_2015","href":"/docs/papers/BRAIN-Diet-References#banerjee_does_2015","data_level":"Mechanistic","why_relevant":"Frames possible serotonin-related susceptibility in ADHD without proving a uniform deficit.","why_excluded":"Hypothesis review; not a dietary or process-specific measurement.","canonical_reference":{"author_year":"Banerjee and Nandagopal (2015)","number":5,"anchor":"#pm-ref-5"}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Stress Resilience","href":"/docs/phenomes/details/ph006-stress-resilience"},{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"},{"phenome":"Reward Regulation","href":"/docs/phenomes/details/ph009-reward-regulation"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"},{"phenome":"Pleasure & Interest Capacity","href":"/docs/phenomes/details/ph017-pleasure-interest-capacity"},{"phenome":"Social Engagement Capacity","href":"/docs/phenomes/details/ph018-social-engagement-capacity"}]}} />
 

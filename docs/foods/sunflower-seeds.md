@@ -16,6 +16,7 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
+  - Spermidine
 list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
 nutrition_per_100g:
   beta_carotene_ug: 30
@@ -52,7 +53,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 60
 omega3_components:
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 14
 nutrition_source:
   database: USDA FoodData Central
@@ -66,6 +67,27 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 legacy_list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
 legacy_main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
+nutrition_supplementary_sources:
+  - key: spermidine_qual
+    label: Spermidine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    notes: Measured food occurrence; content varies by sample and preparation.
+    source_note: >-
+      Muñoz-Esparza et al. (2021), §3.1 and Figures 3–5: Sunflower Seeds is
+      identified as a spermidine-containing food. The selected USDA panel does
+      not quantify this analyte. A comparable product-specific per-100 g value
+      is not established here. https://doi.org/10.3390/foods10081752
+substance_relationships:
+  - substance: Spermidine
+    relationship: contains
+    description: >-
+      Analytical food evidence identifies spermidine in sunflower seeds;
+      concentration varies with the sample and preparation.
+    citation_keys:
+      - munoz_esparza_food_polyamines_2021
+substance_card_captions:
+  Spermidine: Occurs directly in this food; a product-specific amount is not established.
 ---
 ## Overview
 
@@ -113,3 +135,5 @@ Pair with legumes or grains to complete essential amino acid coverage.
 [1] Dhir et al. (2019). [Thiamine physiology and neuro-metabolic relevance](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019). Abstract Enriching brain DHA is believed to be beneficial for the prevention and treatment of several neurological diseases, including Alzheimer’s disease.
 
 [2] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+
+[3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.

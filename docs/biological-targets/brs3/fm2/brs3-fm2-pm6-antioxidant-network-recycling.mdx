@@ -1,29 +1,16 @@
 ---
 title: Antioxidant Network Recycling
 pm_id: BRS3-FM2-PM6
-mission: >-
-  Regenerate vitamin and thiol antioxidants across networked systems so
-  endogenous defence capacity is sustained.
+mission: Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.
 parent_fm: BRS3(FM2)
 parent_brs: BRS3
-summary: >-
-  Supports recycling interactions among antioxidant systems that regenerate
-  vitamin and thiol antioxidant capacity (networked regeneration, such as
-  vitamin C recycling vitamin E, rather than single-compound resupply). This
-  mechanism governs antioxidant-network recycling specifically, distinct from
-  exogenous antioxidant supply or Nrf2-driven endogenous activation covered
-  elsewhere. Because recycling extends how long existing antioxidant capacity
-  lasts, network efficiency can matter as much as raw antioxidant intake for
-  sustained protection.
-key_constraints:
-  - BRS3(KC1) - Antioxidant Substrate Availability
-cofactors:
-  - Vitamin C
-  - Vitamin E
-intervention_dominance: Diet-Dominant
+summary: Vitamin C can reduce the vitamin E radical and return vitamin E to its working form. That is a different job from vitamin E breaking peroxyl-radical chains in membranes. The chemistry is not a high-dose rule.
+key_constraints: []
+cofactors: []
+intervention_dominance: Not established
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Pattern-based network coverage rather than single-nutrient megadose
+timing_specific: 'No'
+dose_sensitivity: 'No intake was shown to speed this recycling. Extra vitamin E is not a benefit: a prevention trial found more prostate cancers with 400 IU a day.'
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
@@ -32,36 +19,40 @@ dietary_input_traceability:
   - atom_id: PM6-DIT-1
     input: Vitamin C
     input_type: nutrient/substance
-    biological_role: Water-soluble antioxidant that can regenerate oxidised vitamin E in the networked recycling system
+    biological_role: 'Reduces the vitamin E radical so vitamin E can keep working. This is regeneration, not the chain-breaking job in the membrane.'
     evidence_source:
+      finding_ids:
+        - PM6-F1
       citation_keys:
-        - packer_vitamin_1997
-        - vertuani_antioxidants_2004
-    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin C intake improves antioxidant-network capacity or clinical outcomes.
+        - packer_direct_1979
+        - niki_vitamin_2014
+    evidence_limitation: Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people.
   - atom_id: PM6-DIT-2
     input: Vitamin E
     input_type: nutrient/substance
-    biological_role: Lipid-soluble antioxidant whose tocopheroxyl radical can be recycled by vitamin C in the same network
+    biological_role: The lipid-phase antioxidant whose radical is reduced by vitamin C. Chain-breaking in the membrane is a different job.
     evidence_source:
+      finding_ids:
+        - PM6-F1
       citation_keys:
-        - packer_vitamin_1997
-        - klein_vitamin_2011
-    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin E intake improves recycling capacity; Klein 2011 also cautions high-dose vitamin E in other clinical contexts.
+        - packer_direct_1979
+        - niki_vitamin_2014
+    evidence_limitation: Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day.
 dietary_lever_atoms:
   - atom_id: PM6-DIT-1
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: Vitamin C is a Direct nutrient in the recycling network that can regenerate vitamin E. This is not a high-dose vitamin C rule.
-    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin C intake improves antioxidant-network capacity or clinical outcomes.
+    permitted_wording: 'Vitamin C is a Direct nutrient in this recycling step because it can reduce the vitamin E radical. This is not a high-dose vitamin C rule, and it is not the membrane chain-breaking job.'
+    evidence_limitation: Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people.
   - atom_id: PM6-DIT-2
     requirement_classification: direct
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: Vitamin E is a Direct nutrient in the recycling network. This is not a high-dose vitamin E rule.
-    evidence_limitation: Network recycling chemistry does not establish that increasing vitamin E intake improves recycling capacity; Klein 2011 also cautions high-dose vitamin E in other clinical contexts.
+    permitted_wording: Vitamin E is a Direct nutrient here as the radical that vitamin C reduces. Its chain-breaking job in membranes is separate. This is not a high-dose vitamin E rule.
+    evidence_limitation: Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day.
 dietary_lever_presentations:
   - atom_id: PM6-DIT-1
     label: Vitamin C
@@ -69,28 +60,6 @@ dietary_lever_presentations:
   - atom_id: PM6-DIT-2
     label: Vitamin E
     presentation_section: 3.1.1
-  - atom_id: PM6-DIT-1
-    label: Vitamin C
-    presentation_section: 3.1.2
-  - atom_id: PM6-DIT-2
-    label: Vitamin E
-    presentation_section: 3.1.2
-pm_kc_relationships:
-  - relationship_id: BRS3-FM2-PM6-KCR-1
-    kc_id: BRS3(KC1)
-    pm_biological_role: Antioxidant-network recycling uses vitamin C as a water-soluble network substrate, so this PM draws on BRS3(KC1) antioxidant-substrate sufficiency at that overlapping input.
-    evidence_source:
-      citation_keys:
-        - packer_vitamin_1997
-        - vertuani_antioxidants_2004
-    evidence_limitation: Recycling chemistry does not establish that cysteine, glycine or glutamate on the KC page are Direct Dietary Requirements of this PM.
-    constituent_relationships:
-      - relationship_id: BRS3-FM2-PM6-KCI-1
-        pm_atom_id: PM6-DIT-1
-        label: Vitamin C
-        kc_membership_status: legacy-unreviewed
-        legacy_kc_constituent_label: Vitamin C
-        kc_change_control_flag_id: KC-CC-BRS3-FM2-PM6-01
 kc_change_control_flags:
   - flag_id: KC-CC-BRS3-FM2-PM6-01
     flag_type: constituent-challenge
@@ -100,37 +69,22 @@ kc_change_control_flags:
       citation_keys:
         - packer_vitamin_1997
     status: pending-kc-review
-
 references:
-  - >-
-    [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant
-    Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-  - >-
-    [Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants
-    Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-  - >-
-    [Klein et al. (2011) — Vitamin E and Prostate
-    Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
-  - >-
-    [Pachter et al. (2024) — Glycemic and Microbiome Effects of Green
-    Mediterranean
-    Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
-  - >-
-    [Verlaet et al. (2019) — A Case–control
-    Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-  - >-
-    [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled
-    Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+  - '[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)'
+  - '[Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)'
+  - '[Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)'
+  - '[Pachter et al. (2024) — Glycemic and Microbiome Effects of Green Mediterranean Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)'
+  - '[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)'
+  - '[Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)'
+  - '[Packer, Slater and Willson (1979) — Direct observation of a free radical interaction between vitamin E and vitamin C](/docs/papers/BRAIN-Diet-References#packer_direct_1979)'
+  - '[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Synergistic antioxidant network regeneration may support cognitive clarity
-      context in ADHD oxidative-load framing better than isolated megadose
-      antioxidants.
+    rationale: Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.
     references:
       - index: 1
         label: Packer et al. (1997)
@@ -147,10 +101,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Compensatory glutathione elevation in ADHD may reflect network activity
-      under oxidative burden; polyphenol–fibre patterns supporting urolithin A
-      context may modulate stress-buffering redox resilience.
+    rationale: Compensatory glutathione elevation in ADHD may reflect network activity under oxidative burden; polyphenol–fibre patterns supporting urolithin A context may modulate stress-buffering redox resilience.
     references:
       - index: 1
         label: Verlaet et al. (2019)
@@ -167,10 +118,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Network antioxidant sufficiency may indirectly modulate affective context
-      under chronic oxidative stress; high-dose single-nutrient supplementation
-      shows inconsistent benefit.
+    rationale: Network antioxidant sufficiency may indirectly modulate affective context under chronic oxidative stress; high-dose single-nutrient supplementation shows inconsistent benefit.
     references:
       - index: 1
         label: Klein et al. (2011)
@@ -178,6 +126,85 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#klein_vitamin_2011
         data_level: Human Outcome
     evidence_confidence: low-medium
+scientific_findings_intro: Vitamin C can reduce the vitamin E radical and return vitamin E to its working form. That regeneration is distinct from vitamin E breaking peroxyl-radical chains. It is not a high-dose rule.
+scientific_findings:
+  - id: PM6-F1
+    finding_label: Vitamin C reduces the vitamin E radical
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Pulse radiolysis showed vitamin C reacting with the vitamin E radical. The interaction can return vitamin E toward its working form. Kinetic reviews describe the same partnership as extending vitamin E capacity. This is not an intake trial.
+    finding_interpretation: 'This is the recycling job. It is different from vitamin E stopping peroxyl radicals in the membrane, and it is not a reason to take high doses.'
+    finding_statement: Vitamin C can reduce the vitamin E radical. That regeneration is a biochemical partnership. It does not set a high-dose intake.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Packer, Slater and Willson observed a free-radical interaction between vitamin E and vitamin C by pulse radiolysis: ascorbate reduced the tocopheroxyl radical. Niki states that the synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E. Neither source is a feeding trial.'
+    synthesis_limitations: The observation is chemical. It does not show that eating more vitamin C or vitamin E speeds recycling in people.
+    evidence_considered:
+      - label: 'Packer, Slater and Willson (1979)'
+        citation_key: packer_direct_1979
+        href: /docs/papers/BRAIN-Diet-References#packer_direct_1979
+        data_level: Mechanistic
+        exposure_context: pulse radiolysis of vitamin E and vitamin C radicals
+        evidence_source: bounded-external-search
+        directional_finding: Ascorbate reduced the vitamin E radical in a direct free-radical observation.
+        assessment:
+          study: Pulse-radiolysis observation of the vitamin E radical reacting with vitamin C.
+          population: Chemical solution. No human participants.
+          result: Vitamin C reduced the vitamin E radical.
+          effect_magnitude: A direct radical-radical observation. No intake effect.
+          evidence_summary: Vitamin C can regenerate vitamin E from its radical.
+          limitations: A chemical observation is not a dietary dose and not a clinical outcome.
+      - label: Niki (2014)
+        citation_key: niki_vitamin_2014
+        href: /docs/papers/BRAIN-Diet-References#niki_vitamin_2014
+        data_level: Mechanistic
+        exposure_context: review of vitamin E and vitamin C interaction
+        evidence_source: bounded-external-search
+        directional_finding: The synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E.
+        assessment:
+          study: 'Review of vitamin E as a peroxyl-radical scavenger, including its interaction with vitamin C.'
+          population: Kinetic and in vivo ratio evidence. No new feeding trial.
+          result: Vitamin C is described as extending vitamin E capacity.
+          effect_magnitude: No recycling rate after a change in intake.
+          evidence_summary: The partnership is part of how vitamin E keeps working.
+          limitations: The same review is used elsewhere for chain-breaking. Here only the vitamin C interaction is the claim.
+    connected_supportive_evidence:
+      - label: Packer et al. (1997)
+        citation_key: packer_vitamin_1997
+        href: /docs/papers/BRAIN-Diet-References#packer_vitamin_1997
+        data_level: Mechanistic
+        why_relevant: 'Places vitamin E in a network in which other antioxidants, including thiols, can regenerate it.'
+        why_excluded: 'A network chapter is not the direct observation of the vitamin C reaction, and it does not test intake.'
+      - label: Klein et al. (2011)
+        citation_key: klein_vitamin_2011
+        href: /docs/papers/BRAIN-Diet-References#klein_vitamin_2011
+        data_level: Human Outcome
+        why_relevant: A prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.
+        why_excluded: Cancer incidence is not a recycling measurement. It only blocks reading this chemistry as a high-dose rule.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: Ascorbate reduces the vitamin E radical in pulse radiolysis. No cited study shows that raising vitamin C or vitamin E intake speeds that recycling in people.
+    scope_note: High-dose vitamin E is not a recycling rule.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: The radical reaction is biochemical. It was not shown as an intake effect.
+    comparative_limitations: 'No route is ranked above another, because none is established.'
+    assessments: []
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: glutathione-precursor-sufficiency
+    applicability_proposition: Cysteine and glycine availability for glutathione synthesis constrains vitamin C recycling of vitamin E.
+    disposition: unresolved
+    established_links: []
+    inferred_links:
+      - A glutathione-precursor pool would have to limit ascorbate regeneration of vitamin E before that iKC could constrain this step.
+    evidence_source:
+      citation_keys:
+        - packer_direct_1979
+    rationale: 'The vitamin C and vitamin E radical reaction does not show that cysteine and glycine availability constrains recycling. The mapping stays unresolved, so it is not published.'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -198,7 +225,9 @@ phenome_relationships:
 Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Not established — No principal intervention route established
+
+Ascorbate reduces the vitamin E radical in a chemical observation. No cited study shows that raising vitamin C or vitamin E intake speeds that recycling.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -231,8 +260,7 @@ Regenerate vitamin and thiol antioxidants across networked systems so endogenous
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Vitamin C
-- Vitamin E
+Vitamin C and vitamin E are already the dietary requirements above. They are not repeated here.
 
 </div>
 </div>
@@ -246,16 +274,7 @@ Regenerate vitamin and thiol antioxidants across networked systems so endogenous
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Vitamin C
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -267,11 +286,11 @@ Regenerate vitamin and thiol antioxidants across networked systems so endogenous
 </div>
 ### Overview
 
-Supports recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity (networked regeneration, such as vitamin C recycling vitamin E, rather than single-compound resupply). This mechanism governs antioxidant-network recycling specifically, distinct from exogenous antioxidant supply or Nrf2-driven endogenous activation covered elsewhere. Because recycling extends how long existing antioxidant capacity lasts, network efficiency can matter as much as raw antioxidant intake for sustained protection.
+Vitamin C can reduce the vitamin E radical and return vitamin E toward its working form. Packer, Slater and Willson (1979) observed that reaction directly. [[7]](#pm-ref-7) Niki (2014) describes the same partnership as extending vitamin E capacity. [[8]](#pm-ref-8) This is regeneration, not the chain-breaking job vitamin E does in membranes, and it is not a high-dose rule.
 
-* Recycles vitamin and thiol antioxidants across networked systems.
-* Extends how long existing antioxidant capacity lasts before depletion.
-* Distinct from exogenous supply or endogenous Nrf2-driven activation.
+- **Benefits:** Regenerating vitamin E after it has acted lets that antioxidant keep working longer than one reaction. [[7]](#pm-ref-7) [[8]](#pm-ref-8)
+- **Implementation Notes:** Vitamin C and vitamin E are the nutrients in this reaction. [[7]](#pm-ref-7) No intake was shown to speed it. Extra vitamin E is not a benefit. [[3]](#pm-ref-3)
+- **Biological Relevance:** Defence-gene regulation is a different step — see PM3. Vitamin E breaking peroxyl-radical chains in membranes is a different job — see PM5.
 
 ## 2. Primary Biological Effects
 ↑ antioxidant regeneration; ↑ persistence of antioxidant protection
@@ -286,7 +305,7 @@ Supports recycling interactions among antioxidant systems that regenerate vitami
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+No evidence-qualified System Optimisation Practice is established.
 
 </div>
 </div>
@@ -300,7 +319,7 @@ Supports recycling interactions among antioxidant systems that regenerate vitami
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+No lifestyle lever is established. Sleep, stress, and activity were not shown to change this recycling step.
 
 </div>
 </div>
@@ -322,86 +341,31 @@ Antioxidant protection persists only when depleted antioxidants are regenerated 
 
 #### (Network rather than single-nutrient protection)
 
-Antioxidant protection functions as a network in which vitamin C, vitamin E, glutathione, CoQ10, lipoic acid, and related systems regenerate one another in vivo rather than acting as isolated nutrients → [Packer et al., 1997]; [Vertuani et al., 2004]
+Packer, Slater and Willson (1979) observed ascorbate reducing the vitamin E radical. [[7]](#pm-ref-7) Niki (2014) describes that partnership as extending vitamin E capacity. [[8]](#pm-ref-8) Glutathione and other thiols are sometimes placed in a wider network. They are not a dietary glutathione target here — see PM4.
 
 #### (Regeneration cycles and cofactor dependence)
 
-Recycling capacity depends on simultaneous availability of water-soluble and lipid-soluble antioxidants plus thiol and cofactor support. Depletion in one network node propagates vulnerability across the broader redox system → [Packer et al., 1997]
+The recycling job is vitamin C reducing the vitamin E radical. [[7]](#pm-ref-7) Vitamin E stopping peroxyl radicals in the membrane is a different job — see PM5. Klein et al. (2011) found more prostate cancers with 400 IU of vitamin E a day, so this chemistry is not a high-dose rule. [[3]](#pm-ref-3)
 
 #### (Boundaries of the mechanism)
 
-Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Net ROS generation versus clearance is handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid peroxidation control is represented by [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control).
+Transcriptional Nrf2 induction belongs to [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation). Net ROS generation versus clearance is handled by [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance). Membrane lipid peroxidation control is represented by [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control).
 
 #### (Integration within BRS3)
 
-This PM encodes network persistence within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Mitochondrial electron-transport context imported through [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) modulates oxidative regeneration load.
+This PM encodes regeneration of vitamin E by vitamin C within [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity). No shared-pool mapping is established. Mitochondrial electron transport can change how fast radicals are formed, which is a neighbouring pressure on this recycling step, not the recycling reaction itself — see [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function).
 
 </div>
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-The antioxidant-network concept is well established. The evidence below anchors regeneration logic and cautions against single-nutrient megadosing without clinical justification.
+Vitamin C can reduce the vitamin E radical and return vitamin E to its working form. That regeneration is distinct from vitamin E breaking peroxyl-radical chains. It is not a high-dose rule.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Synergistic antioxidant network regeneration</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Vitamins E and C, glutathione, lipoic acid, and CoQ10 function as an interacting regeneration network in vivo rather than independent antioxidants [Packer et al., 1997; Vertuani et al., 2004].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Megadose supplement caution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** High-dose isolated antioxidant supplements have shown inconsistent or harmful effects in some trials — reinforcing food-based network coverage as the practical frame aligned with this PM [Klein et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Green Mediterranean Diet and urolithin A context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Green Mediterranean Diet interventions report neuroprotective metabolic shifts accompanied by increases in microbiome-derived urolithin A — illustrating polyphenol–fibre–gut synergy as a network-supportive dietary pattern [Zelicha et al., 2022; Pachter et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM6-F1","finding_label":"Vitamin C reduces the vitamin E radical","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Pulse radiolysis showed vitamin C reacting with the vitamin E radical. The interaction can return vitamin E toward its working form. Kinetic reviews describe the same partnership as extending vitamin E capacity. This is not an intake trial.","finding_interpretation":"This is the recycling job. It is different from vitamin E stopping peroxyl radicals in the membrane, and it is not a reason to take high doses.","finding_statement":"Vitamin C can reduce the vitamin E radical. That regeneration is a biochemical partnership. It does not set a high-dose intake.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Packer, Slater and Willson observed a free-radical interaction between vitamin E and vitamin C by pulse radiolysis: ascorbate reduced the tocopheroxyl radical. Niki states that the synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E. Neither source is a feeding trial.","synthesis_limitations":"The observation is chemical. It does not show that eating more vitamin C or vitamin E speeds recycling in people.","evidence_considered":[{"label":"Packer, Slater and Willson (1979)","citation_key":"packer_direct_1979","href":"/docs/papers/BRAIN-Diet-References#packer_direct_1979","data_level":"Mechanistic","exposure_context":"pulse radiolysis of vitamin E and vitamin C radicals","evidence_source":"bounded-external-search","directional_finding":"Ascorbate reduced the vitamin E radical in a direct free-radical observation.","assessment":{"study":"Pulse-radiolysis observation of the vitamin E radical reacting with vitamin C.","population":"Chemical solution. No human participants.","result":"Vitamin C reduced the vitamin E radical.","effect_magnitude":"A direct radical-radical observation. No intake effect.","evidence_summary":"Vitamin C can regenerate vitamin E from its radical.","limitations":"A chemical observation is not a dietary dose and not a clinical outcome."},"canonical_reference":{"author_year":"Packer, Slater and Willson (1979)","number":7,"anchor":"#pm-ref-7"}},{"label":"Niki (2014)","citation_key":"niki_vitamin_2014","href":"/docs/papers/BRAIN-Diet-References#niki_vitamin_2014","data_level":"Mechanistic","exposure_context":"review of vitamin E and vitamin C interaction","evidence_source":"bounded-external-search","directional_finding":"The synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E.","assessment":{"study":"Review of vitamin E as a peroxyl-radical scavenger, including its interaction with vitamin C.","population":"Kinetic and in vivo ratio evidence. No new feeding trial.","result":"Vitamin C is described as extending vitamin E capacity.","effect_magnitude":"No recycling rate after a change in intake.","evidence_summary":"The partnership is part of how vitamin E keeps working.","limitations":"The same review is used elsewhere for chain-breaking. Here only the vitamin C interaction is the claim."},"canonical_reference":{"author_year":"Niki (2014)","number":8,"anchor":"#pm-ref-8"}}],"connected_supportive_evidence":[{"label":"Packer et al. (1997)","citation_key":"packer_vitamin_1997","href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","data_level":"Mechanistic","why_relevant":"Places vitamin E in a network in which other antioxidants, including thiols, can regenerate it.","why_excluded":"A network chapter is not the direct observation of the vitamin C reaction, and it does not test intake.","canonical_reference":{"author_year":"Packer et al. (1997)","number":1,"anchor":"#pm-ref-1"}},{"label":"Klein et al. (2011)","citation_key":"klein_vitamin_2011","href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","data_level":"Human Outcome","why_relevant":"A prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.","why_excluded":"Cancer incidence is not a recycling measurement. It only blocks reading this chemistry as a high-dose rule.","canonical_reference":{"author_year":"Klein et al. (2011)","number":3,"anchor":"#pm-ref-3"}}]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -413,16 +377,16 @@ The antioxidant-network concept is well established. The evidence below anchors 
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Electron transport is a source of the oxidative load this network regenerates against. It is not the vitamin-to-vitamin recycling step.
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — Mitochondrial reactive-oxygen control is upstream oxidative pressure. This page regenerates spent antioxidants and does not set that production rate.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation)
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
+- [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — Nrf2 regulates defence-gene expression. It does not return oxidised vitamin E to its working form.
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — Clearance balance is the net oxidative pressure. Recycling keeps the antioxidant network available for that clearance.
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — Lipid peroxidation is the membrane-fat damage that vitamin E interrupts. Recycling restores that vitamin after it has been used.
 
 ## 7. Phenome Connections
 
@@ -476,9 +440,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","label":"Packer et al. (1997)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019","label":"Verlaet et al. (2019)","dataLevel":"Human Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -499,9 +460,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Medium
 - **Rationale:** Compensatory glutathione elevation in ADHD may reflect network activity under oxidative burden; polyphenol–fibre patterns supporting urolithin A context may modulate stress-buffering redox resilience.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019","label":"Verlaet et al. (2019)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#zelicha_effect_2022","label":"Zelicha et al. (2022)","dataLevel":"Human Outcome"}]} />
 </div>
 </div>
 </div>
@@ -522,17 +480,18 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Network antioxidant sufficiency may indirectly modulate affective context under chronic oxidative stress; high-dose single-nutrient supplementation shows inconsistent benefit.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","label":"Klein et al. (2011)","dataLevel":"Human Outcome"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
+
 - <span id="pm-ref-1">[1]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
 - <span id="pm-ref-2">[2]</span> [Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
 - <span id="pm-ref-3">[3]</span> [Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
 - <span id="pm-ref-4">[4]</span> [Pachter et al. (2024) — Glycemic and Microbiome Effects of Green Mediterranean Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
 - <span id="pm-ref-5">[5]</span> [Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
 - <span id="pm-ref-6">[6]</span> [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- <span id="pm-ref-7">[7]</span> [Packer, Slater and Willson (1979) — Direct observation of a free radical interaction between vitamin E and vitamin C](/docs/papers/BRAIN-Diet-References#packer_direct_1979)
+- <span id="pm-ref-8">[8]</span> [Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)
+

@@ -1,125 +1,76 @@
 ---
 title: Gut-Derived Inflammatory Signalling
 pm_id: BRS3-FM1-PM2
-mission: >-
-  Limit gut-derived endotoxin spillover so barrier dysfunction does not drive
-  systemic inflammatory load.
+mission: Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
 parent_fm: BRS3(FM1)
 parent_brs: BRS3
-summary: >-
-  Describes inflammatory signalling driven by endotoxin translocation (leakage
-  of bacterial lipopolysaccharide across a compromised gut lining) and barrier
-  dysfunction, linking gut ecology directly to systemic and neural inflammation.
-  Unlike the transcriptional regulation covered elsewhere, this mechanism
-  captures inflammatory load entering specifically from the gut interface, where
-  barrier integrity, microbial balance, and endotoxin burden jointly determine
-  downstream immune signalling. Gut-supportive dietary patterns influence this
-  entry point directly.
-key_constraints:
-  - BRS3(KC1) - Antioxidant Substrate Availability
-cofactors:
-  - Butyrate
-intervention_dominance: Diet-Dominant
+summary: Lipopolysaccharide can enter the blood when the gut barrier changes. That rise is reviewed as a route to low-grade systemic inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.
+cofactors: []
+intervention_dominance: Not established
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: >-
-  Pattern-based: sustained fibre/fermented-food diversity rather than bolus
-  dosing
+timing_specific: 'No'
+dose_sensitivity: No intake was shown to lower endotoxin translocation.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: 'No cited study establishes a fibre intake, butyrate dose, meal pattern, sleep practice, or activity practice that lowers lipopolysaccharide translocation.'
+    scope_note: A prebiotic-fibre trial in young adults did not lower lipopolysaccharide-binding protein overall. A fibre meta-analysis reported lower serum lipopolysaccharide with extreme heterogeneity and no change in lipopolysaccharide-binding protein. Neither result is admitted as a requirement.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: Fermentation of fibre to short-chain fatty acids is a neighbouring fact. It was not shown to be a requirement for limiting endotoxin spillover.
+    comparative_limitations: 'No route is ranked above another, because none is established.'
+    assessments: []
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-dietary_input_traceability:
-  - atom_id: PM2-DIT-1
-    input: Fermentable fibre
-    input_type: food component
-    biological_role: Fermentable substrate for microbial short-chain fatty acid production relevant to gut-barrier and gut-derived inflammatory signalling
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: glutathione-precursor-sufficiency
+    applicability_proposition: Cysteine and glycine availability for glutathione synthesis constrains gut-derived inflammatory signalling on this page.
+    disposition: unresolved
+    established_links: []
+    inferred_links:
+      - Endotoxin load would have to limit glutathione synthesis before the glutathione precursor pool could constrain this signalling step.
     evidence_source:
       citation_keys:
-        - cavaliere_butyrate_2022
-        - gruter_propionate_2023
-        - li_sodium_2024
-    evidence_limitation: "Fermentable fibre provision does not establish reduced endotoxin translocation, lower systemic inflammation, or a clinical benefit in ADHD."
-  - atom_id: PM2-DIT-2
-    input: Butyrate
-    input_type: biochemical requirement
-    biological_role: Microbial short-chain fatty acid implicated in barrier and host inflammatory signalling downstream of fermentation
-    evidence_source:
-      citation_keys:
-        - cavaliere_butyrate_2022
-        - hoyles_microbiome-host_2018
-    evidence_limitation: Butyrate is produced in the gut; this is not evidence for dietary butyrate as a lever or for an ADHD outcome.
-dietary_lever_atoms:
-  - atom_id: PM2-DIT-1
-    requirement_classification: direct
-    relationship_layer: dietary-requirement
-    dietary_addressability: direct
-    claim_ceiling: dietary-provision
-    permitted_wording: "Fermentable fibre is a Direct food-component requirement of this PM because it supplies the fermentation substrate for gut-derived short-chain fatty acids. This is a provision relationship, not an LPS- or ADHD-treatment rule."
-    evidence_limitation: "Fermentable fibre provision does not establish reduced endotoxin translocation, lower systemic inflammation, or a clinical benefit in ADHD."
-  - atom_id: PM2-DIT-2
-    relationship_layer: biochemical-requirement
-    claim_ceiling: biological-dependency
-    permitted_wording: "Butyrate is a microbial metabolite in this PM's signalling context. It is not a dietary-butyrate recommendation."
-    evidence_limitation: Butyrate is produced in the gut; this is not evidence for dietary butyrate as a lever or for an ADHD outcome.
-dietary_lever_presentations:
-  - atom_id: PM2-DIT-1
-    label: Fermentable fibre
-    presentation_section: 3.1.1
-  - atom_id: PM2-DIT-2
-    label: Butyrate
-    presentation_section: 3.1.2
-pm_kc_relationships:
-  - relationship_id: BRS3-FM1-PM2-KCR-1
-    kc_id: BRS3(KC1)
-    pm_biological_role: Gut-derived endotoxin load raises inflammatory and oxidative signalling pressure, so this PM draws on BRS3(KC1) antioxidant-substrate sufficiency as a shared constraint rather than inheriting KC food lists.
-    evidence_source:
-      citation_keys:
-        - batey_lipopolysaccharide_2024
         - mohammad_role_2021
-    evidence_limitation: Endotoxin and barrier context on this PM does not establish that BRS3(KC1) constituents are Direct Dietary Requirements of gut-derived inflammatory signalling.
-
+        - batey_lipopolysaccharide_2024
+        - sekhar_glutathione_2011
+    rationale: 'The KC page has one iKC, BRS3(KC1), glutathione precursor sufficiency. The historical title Antioxidant Substrate Sufficiency is not that iKC. Endotoxin and barrier papers on this PM do not show that cysteine and glycine availability constrains gut-derived inflammatory signalling. The mapping stays unresolved, so it is not published.'
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM1-PM2-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    proposition: The public entry named the historical KC title Antioxidant Substrate Sufficiency and said this PM draws on BRS3(KC1) as a shared redox constraint. The only iKC on that page is glutathione precursor sufficiency. That iKC is not established for gut-derived inflammatory signalling.
+    evidence_source:
+      citation_keys:
+        - sekhar_glutathione_2011
+        - mohammad_role_2021
+        - batey_lipopolysaccharide_2024
+    status: pending-kc-review
 references:
-  - >-
-    [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic
-    Inflammation and Potential
-    Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
-  - >-
-    [Batey et al. (2024) — Understanding Implications for
-    Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
-  - >-
-    [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children
-    with Attention Deficit Hyperactivity
-    Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
-  - >-
-    [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in
-    ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-  - >-
-    [Yunting Li et al. (2024) — Sodium Butyrate and
-    Neuroinflammation](/docs/papers/BRAIN-Diet-References#li_sodium_2024)
-  - >-
-    [Cavaliere et al. (2022) — Butyrate and
-    Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
-  - >-
-    [Grüter et al. (2023) — Propionate and the Blood–Brain
-    Barrier](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
-  - >-
-    [Hoyles et al. (2018) — Microbiome-Host Cometabolism and
-    Propionate](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
-  - >-
-    [Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional
-    Behavior and Central GABA Receptor
-    Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+  - '[Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)'
+  - '[Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)'
+  - '[Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)'
+  - '[Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)'
+  - '[Yunting Li et al. (2024) — Sodium Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#li_sodium_2024)'
+  - '[Cavaliere et al. (2022) — Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)'
+  - '[Grüter et al. (2023) — Propionate in the Peripheral Nervous System](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)'
+  - '[Hoyles et al. (2018) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)'
+  - '[Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)'
+  - '[Koh et al. (2016) — From Dietary Fiber to Host Physiology](/docs/papers/BRAIN-Diet-References#koh_dietary_2016)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Propionate may stimulate norepinephrine secretion with possible relevance
-      to attention; gut-derived inflammatory load and microbiome shifts
-      correlate with ADHD-relevant gut–brain readouts.
+    rationale: 'Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.'
     references:
       - index: 1
         label: Hoyles et al. (2018)
@@ -136,10 +87,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Butyrate and gut-barrier context may reduce neuroinflammation and support
-      brain energy metabolism — translational links to cognitive clarity without
-      direct ADHD treatment-efficacy claims.
+    rationale: Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.
     references:
       - index: 1
         label: Yunting Li et al. (2024)
@@ -156,10 +104,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Low-grade endotoxemia and sustained systemic inflammation correlate with
-      mood instability in translational framing; gut-derived load remains the
-      mechanism boundary for this PM.
+    rationale: Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.
     references:
       - index: 1
         label: Mohammad & Thiemermann (2021)
@@ -171,11 +116,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: >-
-      Gut–brain microbiota signalling modulates central GABA receptor expression
-      and anxiety-related behaviour in animal models; gut-derived inflammatory
-      load may intersect apprehensive-worry biology in anxiety/depression
-      comorbidity framing.
+    rationale: Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.
     references:
       - index: 1
         label: Bravo et al. (2011)
@@ -192,11 +133,7 @@ phenome_relationships:
     relationship_type: indirect
     confidence: low
     evidence_level: mechanistic
-    rationale: >-
-      Gut–brain GABAergic modulation has been linked to reduced anxiety- and
-      depression-related behaviour in preclinical models; social-engagement
-      outcomes remain indirect translational inference for this gut-inflammatory
-      PM.
+    rationale: Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.
     references:
       - index: 1
         label: Bravo et al. (2011)
@@ -204,6 +141,46 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#bravo_ingestion_2011
         data_level: Animal Data
     evidence_confidence: low-medium
+scientific_findings_intro: 'A change in the gut barrier can let lipopolysaccharide into the blood, and that rise is reviewed as a route to low-grade inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.'
+scientific_findings:
+  - id: PM2-F1
+    finding_label: Barrier translocation can raise systemic inflammatory signalling
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: The gut lining normally keeps lipopolysaccharide out of the blood. Dietary change can alter that lining. Lipopolysaccharide that gets through activates Toll-like receptor 4 and is reviewed as a route to low-grade systemic inflammation.
+    finding_interpretation: 'This is the exposure route. It is a review, not a measurement of how much lipopolysaccharide crosses after a fibre intake.'
+    finding_statement: 'Metabolic endotoxemia is lipopolysaccharide reaching the blood after a change in the gut barrier, with downstream inflammatory signalling through Toll-like receptor 4.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: Mohammad and Thiemermann review diet-linked metabolic endotoxemia. The gut epithelium normally limits lipopolysaccharide absorption. Structural change in that lining lets lipopolysaccharide into the bloodstream. Lipopolysaccharide then activates Toll-like receptor 4 and pro-inflammatory cytokines. The review suggests dietary interventions might reduce that inflammation. It does not test one.
+    synthesis_limitations: A narrative review of the route is not a human translocation-flux trial and not a fibre-dose result.
+    evidence_considered:
+      - label: Mohammad and Thiemermann (2021)
+        citation_key: mohammad_role_2021
+        href: /docs/papers/BRAIN-Diet-References#mohammad_role_2021
+        data_level: Mechanistic
+        exposure_context: narrative review of diet-linked endotoxemia
+        evidence_source: repository-inherited
+        directional_finding: 'Barrier change can raise plasma lipopolysaccharide, and that lipopolysaccharide activates Toll-like receptor 4.'
+        assessment:
+          study: 'Narrative review of metabolic endotoxemia, barrier change, and inflammatory signalling.'
+          population: Animal and human literature. No new cohort.
+          result: Lipopolysaccharide that crosses a changed gut lining is reviewed as a contributor to low-grade systemic inflammation.
+          effect_magnitude: No single translocation rate or intake effect is pooled.
+          evidence_summary: 'Endotoxin spillover is a barrier-to-blood route, not a nutrient reaction.'
+          limitations: 'The review does not measure translocation after fermentable fibre, and it does not test butyrate as a requirement.'
+    connected_supportive_evidence:
+      - label: Koh et al. (2016)
+        citation_key: koh_dietary_2016
+        href: /docs/papers/BRAIN-Diet-References#koh_dietary_2016
+        data_level: Mechanistic
+        why_relevant: 'Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate.'
+        why_excluded: 'Fermentation of fibre is not a measurement of lipopolysaccharide crossing the barrier, so fibre is not admitted as a requirement for limiting spillover.'
+      - label: Cavaliere et al. (2022)
+        citation_key: cavaliere_butyrate_2022
+        href: /docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022
+        data_level: Animal Data
+        why_relevant: Butyrate given to obese mice partly reduced neuroinflammation in cortex.
+        why_excluded: 'Exogenous butyrate in obese mice is not dietary fibre, and the study did not measure lipopolysaccharide translocation.'
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -224,7 +201,9 @@ phenome_relationships:
 Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Not established — No principal intervention route established
+
+No cited study establishes a fibre intake, butyrate dose, meal pattern, sleep practice, or activity practice that lowers lipopolysaccharide translocation.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -242,7 +221,7 @@ Limit gut-derived endotoxin spillover so barrier dysfunction does not drive syst
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Fermentable fibre
+No Direct or Derived Dietary Requirement is currently established for gut-derived endotoxin spillover.
 
 </div>
 </div>
@@ -256,7 +235,7 @@ Limit gut-derived endotoxin spillover so barrier dysfunction does not drive syst
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Butyrate
+No PM-specific cofactor or substrate requirement is established.
 
 </div>
 </div>
@@ -270,16 +249,7 @@ Limit gut-derived endotoxin spillover so barrier dysfunction does not drive syst
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS3(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">(Key Constraint) (KC1) — Antioxidant Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-This PM draws on BRS3(KC1) as a shared redox constraint.
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -291,11 +261,11 @@ This PM draws on BRS3(KC1) as a shared redox constraint.
 </div>
 ### Overview
 
-Describes inflammatory signalling driven by endotoxin translocation (leakage of bacterial lipopolysaccharide across a compromised gut lining) and barrier dysfunction, linking gut ecology directly to systemic and neural inflammation. Unlike the transcriptional regulation covered elsewhere, this mechanism captures inflammatory load entering specifically from the gut interface, where barrier integrity, microbial balance, and endotoxin burden jointly determine downstream immune signalling. Gut-supportive dietary patterns influence this entry point directly.
+Lipopolysaccharide can enter the blood when the gut barrier changes. Mohammad and Thiemermann (2021) review that rise as a route to low-grade systemic inflammation through Toll-like receptor 4. [[1]](#pm-ref-1) Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate. Koh et al. (2016) describe that fermentation. [[10]](#pm-ref-10) It was not shown to lower endotoxin translocation.
 
-* Links gut barrier dysfunction and endotoxin translocation to systemic inflammation.
-* Captures inflammatory load entering specifically from the gut interface.
-* Depends jointly on barrier integrity, microbial balance, and endotoxin burden.
+- **Benefits:** Limiting this spillover keeps microbial products from adding to systemic inflammation after the barrier has changed. [[1]](#pm-ref-1)
+- **Implementation Notes:** No intake was shown to lower endotoxin translocation. Fermentable fibre and butyrate are not dietary targets for this step. [[10]](#pm-ref-10)
+- **Biological Relevance:** The transcriptional response that can follow this inflammatory load is a later step — see PM1.
 
 ## 2. Primary Biological Effects
 ↓ LPS translocation; ↓ neuroinflammatory signalling
@@ -310,7 +280,7 @@ Describes inflammatory signalling driven by endotoxin translocation (leakage of 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+No evidence-qualified System Optimisation Practice is established for endotoxin spillover.
 
 </div>
 </div>
@@ -324,7 +294,7 @@ Describes inflammatory signalling driven by endotoxin translocation (leakage of 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+No lifestyle lever is established. Sleep, stress, and activity were not shown to change endotoxin translocation.
 
 </div>
 </div>
@@ -346,11 +316,11 @@ Systemic inflammatory tone can be driven partly by gut-derived signals. When bar
 
 #### (Endotoxin-linked inflammatory load)
 
-Lipopolysaccharide and related microbial products can activate systemic inflammatory pathways when translocation across the gut barrier increases → [Mohammad & Thiemermann, 2021]
+Mohammad and Thiemermann (2021) review lipopolysaccharide reaching the blood after a change in the gut lining, with inflammatory signalling through Toll-like receptor 4. [[1]](#pm-ref-1) That is the spillover this mechanism governs.
 
 #### (Microbial and barrier modulation logic)
 
-Fermentable substrate availability, microbial ecology, and barrier integrity jointly determine endotoxin exposure at the gut–systemic interface. Dietary pattern shifts microbial and barrier context over time rather than through single-meal bolus effects → [Jiang et al., 2018]
+Koh et al. (2016) describe fermentation of dietary fibre to short-chain fatty acids. [[10]](#pm-ref-10) Cavaliere et al. (2022) gave butyrate to obese mice and saw a partial fall in cortical neuroinflammation. [[6]](#pm-ref-6) Neither result measures lipopolysaccharide crossing the barrier, so neither is a dietary requirement of this spillover.
 
 #### (Boundaries of the mechanism)
 
@@ -358,74 +328,19 @@ Upstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Sign
 
 #### (Integration within BRS3)
 
-This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Barrier and endotoxin-containment context imported through section 4.3 connected mechanisms conditions translocation load.
+This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone). Barrier and endotoxin-containment context imported through section 4.3 connected mechanisms conditions translocation load.
 
 </div>
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-The gut–inflammation axis is well established. The studies below highlight endotoxin, microbiome, and SCFA findings that refine how gut-derived inflammatory load is interpreted in practice.
+A change in the gut barrier can let lipopolysaccharide into the blood, and that rise is reviewed as a route to low-grade inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Metabolic endotoxemia and systemic inflammation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** When the gut barrier weakens, bacterial fragments such as lipopolysaccharide enter circulation and sustain chronic low-grade inflammation — illustrating gut-derived endotoxin translocation and its inflammatory consequences [Mohammad & Thiemermann, 2021]. Dietary and postprandial context modulates LPS-linked inflammatory responses [Batey et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024","label":"Batey et al. (2024)","dataLevel":"Human Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Butyrate and neuroinflammation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Butyrate has anti-inflammatory effects and supports mitochondrial brain energy metabolism — linking gut-derived SCFA biology to this PM's inflammatory load frame [Yunting Li et al., 2024; Cavaliere et al., 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#li_sodium_2024","label":"Yunting Li et al. (2024)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Propionate and blood–brain barrier context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Propionate may protect the blood–brain barrier and reduce neuroinflammation in preclinical and mechanistic framing [Grüter et al., 2023; Hoyles et al., 2018].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gruter_propionate_2023","label":"Grüter et al. (2023)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM2-F1","finding_label":"Barrier translocation can raise systemic inflammatory signalling","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"The gut lining normally keeps lipopolysaccharide out of the blood. Dietary change can alter that lining. Lipopolysaccharide that gets through activates Toll-like receptor 4 and is reviewed as a route to low-grade systemic inflammation.","finding_interpretation":"This is the exposure route. It is a review, not a measurement of how much lipopolysaccharide crosses after a fibre intake.","finding_statement":"Metabolic endotoxemia is lipopolysaccharide reaching the blood after a change in the gut barrier, with downstream inflammatory signalling through Toll-like receptor 4.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mohammad and Thiemermann review diet-linked metabolic endotoxemia. The gut epithelium normally limits lipopolysaccharide absorption. Structural change in that lining lets lipopolysaccharide into the bloodstream. Lipopolysaccharide then activates Toll-like receptor 4 and pro-inflammatory cytokines. The review suggests dietary interventions might reduce that inflammation. It does not test one.","synthesis_limitations":"A narrative review of the route is not a human translocation-flux trial and not a fibre-dose result.","evidence_considered":[{"label":"Mohammad and Thiemermann (2021)","citation_key":"mohammad_role_2021","href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","data_level":"Mechanistic","exposure_context":"narrative review of diet-linked endotoxemia","evidence_source":"repository-inherited","directional_finding":"Barrier change can raise plasma lipopolysaccharide, and that lipopolysaccharide activates Toll-like receptor 4.","assessment":{"study":"Narrative review of metabolic endotoxemia, barrier change, and inflammatory signalling.","population":"Animal and human literature. No new cohort.","result":"Lipopolysaccharide that crosses a changed gut lining is reviewed as a contributor to low-grade systemic inflammation.","effect_magnitude":"No single translocation rate or intake effect is pooled.","evidence_summary":"Endotoxin spillover is a barrier-to-blood route, not a nutrient reaction.","limitations":"The review does not measure translocation after fermentable fibre, and it does not test butyrate as a requirement."},"canonical_reference":{"author_year":"Mohammad and Thiemermann (2021)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Koh et al. (2016)","citation_key":"koh_dietary_2016","href":"/docs/papers/BRAIN-Diet-References#koh_dietary_2016","data_level":"Mechanistic","why_relevant":"Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate.","why_excluded":"Fermentation of fibre is not a measurement of lipopolysaccharide crossing the barrier, so fibre is not admitted as a requirement for limiting spillover.","canonical_reference":{"author_year":"Koh et al. (2016)","number":10,"anchor":"#pm-ref-10"}},{"label":"Cavaliere et al. (2022)","citation_key":"cavaliere_butyrate_2022","href":"/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022","data_level":"Animal Data","why_relevant":"Butyrate given to obese mice partly reduced neuroinflammation in cortex.","why_excluded":"Exogenous butyrate in obese mice is not dietary fibre, and the study did not measure lipopolysaccharide translocation.","canonical_reference":{"author_year":"Cavaliere et al. (2022)","number":6,"anchor":"#pm-ref-6"}}]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -437,15 +352,15 @@ The gut–inflammation axis is well established. The studies below highlight end
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
-- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut Barrier Integrity and Immune Interface
-- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Insulin Sensitivity & Glucose Disposal
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — Tight-junction integrity limits lipopolysaccharide crossing into the circulation that this page treats as the inflammatory exposure.
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — The gut–immune interface is the setting in which barrier failure lets microbial products raise systemic inflammatory signalling.
+- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Glycaemic variability is neighbouring metabolic context. It is not the measurement of endotoxin crossing the gut barrier.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation)
+- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — NF-κB transcriptional control is the neighbouring response once inflammatory load is already raised. It is not this gut-entry step.
 
 ## 7. Phenome Connections
 
@@ -498,10 +413,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Propionate may stimulate norepinephrine secretion with possible relevance to attention; gut-derived inflammatory load and microbiome shifts correlate with ADHD-relevant gut–brain readouts.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018","label":"Hoyles et al. (2018)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"}]} />
+- **Rationale:** Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.
 </div>
 </div>
 </div>
@@ -522,9 +434,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#li_sodium_2024","label":"Yunting Li et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#gruter_propionate_2023","label":"Grüter et al. (2023)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -544,10 +453,7 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-- **Rationale:** Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.
 </div>
 </div>
 </div>
@@ -568,9 +474,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011","label":"Bravo et al. (2011)","dataLevel":"Animal Data"},{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -591,20 +494,20 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011","label":"Bravo et al. (2011)","dataLevel":"Animal Data"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
+
 - <span id="pm-ref-1">[1]</span> [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
 - <span id="pm-ref-2">[2]</span> [Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
 - <span id="pm-ref-3">[3]</span> [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
 - <span id="pm-ref-4">[4]</span> [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
 - <span id="pm-ref-5">[5]</span> [Yunting Li et al. (2024) — Sodium Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#li_sodium_2024)
 - <span id="pm-ref-6">[6]</span> [Cavaliere et al. (2022) — Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
-- <span id="pm-ref-7">[7]</span> [Grüter et al. (2023) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
-- <span id="pm-ref-8">[8]</span> [Hoyles et al. (2018) — Microbiome-Host Cometabolism and Propionate](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
+- <span id="pm-ref-7">[7]</span> [Grüter et al. (2023) — Propionate in the Peripheral Nervous System](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
+- <span id="pm-ref-8">[8]</span> [Hoyles et al. (2018) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
 - <span id="pm-ref-9">[9]</span> [Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+- <span id="pm-ref-10">[10]</span> [Koh et al. (2016) — From Dietary Fiber to Host Physiology](/docs/papers/BRAIN-Diet-References#koh_dietary_2016)
+

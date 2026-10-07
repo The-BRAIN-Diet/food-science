@@ -10,6 +10,20 @@ Stopping: KC1 and dietary provision are resolved at bounded claims. KC2 remains 
 
 Implementation and validation status is maintained in the QC register, not inferred from this report.
 
+## Evidence qualification and principal-route selection — 2026-10-02
+
+This supersedes the first dominance/layout assessment, which promoted dietary requirements because F5 showed a dietary response and no alternative route was admitted. That was insufficient for principal selection. The canonical `intervention_dominance: Diet-Supported` label is preserved, including its governing meaning; it is not replaced by a group name or upgraded to Diet-Dominant.
+
+The qualification decision retains F5's measured eight-week folate-restriction effect on female-mouse hepatic d3-PC enrichment/product:precursor enrichment, with sex/context, enrichment-versus-flux and above-adequacy/human/cognitive limitations. The prior route evidence is unchanged. The separately recorded principal selection is not-established: conditional responsiveness does not by itself establish the relevance, directness and extent needed for principal prominence; absence of admitted alternatives is not comparative evidence. No equal dominance is inferred. Comparative PM-specific route appraisal remains necessary if promotion is proposed later.
+
+The shared public statement is `Intervention Dominance: Diet-Supported — No principal intervention route established`, followed by qualification scope and comparative limitations. Mission precedes it; Overview follows it. All three canonical groups remain once in section 3, visibly numbered 3.1/3.2/3.3. Stable identifiers and all existing disclosure interactions remain intact. Supported non-principal routes are retained, not scientifically excluded.
+
+Stage 2B and the governing schema embed the exact separated PM7 record, shared placement function and explicitly synthetic joint-principal fixture. Selection requires distinct relevance/directness/extent records and joint-prominence rationale for multiple groups. The spreadsheet schema's “dominance” label and FM inheritance remain preserved but do not adjudicate PM placement.
+
+Actual verification: 78 live focused/regression tests passed, including supported-but-unselected routes, one principal among multiple supported routes, separate joint rationale, qualification label preservation, source PM7 placement, canonical identifiers and executable documented examples. Pre-existing PM7 scientific records remain unchanged apart from the replaced dominance assessment; the prior F5 route evidence is identical. Browser refresh again timed out before page inspection. No live browser pass or production build for this revision is claimed. FW042 remains pending for live verification. The preceding workspace build does not establish a production-build pass for this revision.
+
+KC2/phenome follow-ups and the existing public F5/F7 deployment gap remain separate and unchanged.
+
 ## Clarified KC input presentation and interaction — 2026-10-02
 
 This supersedes presentation wording in the preceding implementation pass only. Public §3.1.3 now contains Folate, Betaine and Choline as named disclosure buttons, each with a separate `KC1: Methyl Donor Pool` origin link. Parent-KC input and audit headings are removed. The three presentation labels and origin metadata changed; mission, scientific Findings, bibliography, dietary five-atom evidence, applicability adjudications and canonical identifiers remain unchanged. KC1 is conditionally admitted and KC2 unresolved/audit-only.

@@ -1,5 +1,7 @@
 # Primary Mechanism (PM) Schema
 
+**Governing assessment instructions:** [Stage 2A — scientific assessment](scientific-finding-schema.md) and [Stage 2B — applicability and lever implementation](dietary-input-traceability-contract.md). This schema governs the whole PM page; it is not a substitute for either assessment stage.
+
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
 
 ## Build Gate Proviso
@@ -69,9 +71,9 @@ outputs_biological_effects:
 functional_mechanism_ownership:      # from Column P
   fm_id: string
   fm_name: string
-intervention_dominance:              # from intervention dominance
+intervention_dominance:              # legacy ingest metadata; not a scientific placement decision
   mode: "diet-dominant" | "lifestyle-dominant" | "mixed"
-  inherit_from_fm: boolean
+  inherit_from_fm: boolean            # legacy only; never establishes PM dominance
   override_justification: string     # required if inherit_from_fm=false
 constraints_failure_modes:
   - type: string                     # e.g. substrate deficiency, cofactor deficiency, bottleneck
@@ -131,7 +133,7 @@ findings.
 
 `timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.3 Lifestyle Levers**, **Primary Biological Effects**, or **Mechanistic Basis**.
 
-`intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. `intervention_dominance` is rendered in **canonical §3 Levers** (legacy §4) as **Intervention Profile**.
+`intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. Canonical `intervention_dominance` retains its qualification label and governing meaning; it is not a placement decision. Canonical assessed pages render `intervention_dominance_assessment` immediately after Mission, followed by independently adjudicated principal groups before Overview; unassessed legacy pages retain their current layout pending review.
 
 ## Section body prose
 
@@ -150,9 +152,10 @@ Primary Biological Effects (§2) → Levers (§3) → Mechanistic Basis (§4, wi
 §4.1 Scientific Findings where authored) → BRS Pathways and Connections (§5) →
 Phenome Connections (§7) → References (§8). §6 is unused (Scoreable Inputs removed).
 
-1. Mission & Overview — `## 1. Mission & Overview` with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets). Front matter: `mission` + `summary`. See **PM §1 — Mission & Overview** and `system/mechanism-page-section-prose.md`. **Do not use `## 1. Definition` on PM pages.**
+1. Mission & Overview — `## 1. Mission & Overview` with `### Mission`, visible Intervention Dominance and adjudicated dominant lever groups, then `### Overview` (~65–75 word paragraph + normally 3 useful scannable bullets; adapt when evidence does not support all three). Front matter: `mission` + `summary`. See **PM §1 — Mission & Overview** and `system/mechanism-page-section-prose.md`. **Do not use `## 1. Definition` on PM pages.**
 2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
 3. Intervention Levers — `## 3. Intervention Levers` (legacy §4) — public section for dietary requirements, system optimisation and lifestyle implementation (see **PM Levers** below)
+   - Canonical group IDs below retain their meanings; visible numbering follows displayed placement through the shared dominance transform.
    - **3.1 Dietary Requirements** — outer `<details>` dropdown
      - **3.1.1 Direct and/or Derived Dietary Requirements** — PM-attributable dietary requirements, with Direct and Derived relationships distinguished.
      - **3.1.2 Cofactors and Substrates** — the actual biochemical cofactors and substrates required by the PM mechanism.
@@ -176,6 +179,10 @@ Phenome Connections (§7) → References (§8). §6 is unused (Scoreable Inputs 
 
 Do **not** include **Scoreable Inputs & Modulation Signals** on PM pages.
 
+### Nutrient naming
+
+Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
+
 ### Stage 2A — audience and public voice
 
 **Intended readers:** interested members of the public. Nutritionists are the
@@ -190,6 +197,10 @@ Stage 2A public copy must:
 - gloss necessary technical terms briefly on first use, and keep deeper
   evidence in expandable disclosures (Scientific Findings and the five-atom
   record);
+- when a lever Input has a page in this system, link that page from the
+  Input line inside the five-atom disclosure only. The compact heading above
+  the disclosure stays plain text. See
+  `system/dietary-input-traceability-contract.md` (**Input page link**);
 - describe every published connected-PM relationship and dependency in 1–2
   evidence-supported lines, including direction where established;
 - identify structured upstream dependencies for Stage 2B so always-visible
@@ -260,9 +271,13 @@ Validators: `validatePublishedPmConnectionExplanations` in
 
 ### PM §1 — Mission & Overview
 
+**References stay with this PM.** In Biological Relevance and in every other section, do not cite a study because another PM uses it. A reference may appear on this page only when it supports a claim about this page’s own mechanism. A sentence that only sets a boundary with a neighbouring PM names that PM, for example “see PM2”, and carries no citation.
+
+**Stage 2A ownership:** Assess and author this section under `system/scientific-finding-schema.md`, **Evidence-supported Overview (Stage 2A)**. These schema rules implement that instruction; supporting prose guidance does not replace Stage 2A. Stage 2B adjudicates lever candidates, and changes to admitted levers require reconciliation of affected Overview claims with the Stage 2A evidence. The Overview does not independently admit requirements or interventions.
+
 **Heading:** `## 1. Mission & Overview`
 
-**Purpose:** Open every PM with biological ambition (Mission), then context and significance (Overview) before Primary Biological Effects, Phenome Connections, or Levers.
+**Purpose:** Open every PM with biological ambition (Mission), the adjudicated intervention qualification and principal groups, then a useful Overview explaining purpose, health significance and implementation context before Primary Biological Effects. Preserve the governing lever-placement rule.
 
 ```
 ## 1. Mission & Overview
@@ -271,39 +286,31 @@ Validators: `validatePublishedPmConnectionExplanations` in
 [1–2 lines — biological ambition]
 
 ### Overview
-[~65–75 words — orientation paragraph + exactly 3 scannable bullets]
+[~65–75 words — orientation paragraph + normally 3 useful scannable bullets; adapt when evidence does not support all three]
 ```
 
 | Subsection | Role | Rules |
 |------------|------|--------|
 | **Mission** | Biological ambition — what capability this PM maintains or supports | 1–2 lines; functional biological capacity; **no** nutrients, foods, interventions, biomarkers, or title paraphrase |
-| **Overview** | Orientation — what the mechanism does, its boundaries and why it matters, in ~20 seconds | **~65–75 word evidence-supported paragraph** + **exactly 3 non-duplicative scannable bullets** (mechanism boundary / evidence-measurement boundary / biological relevance and treatment limitation); **no parent FM or BRS architecture**; must stand alone for readers with no framework context |
+| **Overview** | Orientation — the purpose, health significance and usable intervention routes, in ~20 seconds | **~65–75 word evidence-supported paragraph** + **normally 3 non-duplicative scannable bullets** (Benefits / Implementation Notes / Biological Relevance); adapt rather than pad when relevant points are unavailable. Biological Relevance names one nutritionist mix-up; Pathways and Connections keeps the fuller map |
 
 **20-second acid test:** Can someone understand this page's purpose in ~20 seconds? If not, the Overview is doing too much.
 
-**Overview paragraph — three questions:**
+**Overview paragraph — purpose and usefulness:** Explain what the PM does, why its function matters for health, and what the evidence measured. Use plain language and a ~65–75 word opening rather than a technical study summary. Do not close the paragraph with an outcome ceiling about extra intake, supplementation, or treatment. When a lever is admitted, put one use condition in Implementation Notes only: the form, the meal pattern, or the dose gap. When no lever is admitted, omit Implementation Notes. State relevance for cognitive function and brain health. Do not name ADHD or another therapeutic area, and do not mention medication; medication is outside this framework. A biological benefit explains the value of the function; it is not automatically a demonstrated benefit from increasing intake or taking a supplement.
 
-1. What biological job does this mechanism perform?
-2. What are its defining supply, reaction or regulatory steps?
-3. How can diet influence it at the established claim ceiling? (very high level only)
+**Evidence reuse — including purpose and scope:** Reuse the PM’s existing adjudicated Scientific Findings, study assessments and canonical bibliography to substantiate the Mission, statements of purpose and inclusion/exclusion scope, the Overview, and all three bullet roles. Translate the supported biology into accessible language without broadening the claim, population, context or outcome. A purpose, benefit or cross-system statement is not exempt from evidence support because it is introductory. Connect each substantive proposition to the relevant existing Finding and source in the authoring/review record, and use claim-local numbered citations in public explanatory prose; the concise Mission need not carry a citation if its evidence trace is recorded. Do not treat the presence of a reference as support for every statement. Where the existing evidence does not support a proposition, narrow or qualify it, record the precise gap, and retrieve targeted evidence only when needed. Reuse sufficient verified evidence rather than repeating research solely to supply the Overview.
 
-**Overview bullets — exactly three roles:**
+**Overview bullets — preferred order:**
 
-1. **Mechanism boundary:** what the PM includes and which adjacent biological
-   stages it excludes.
-2. **Evidence / measurement boundary:** what the evidence measures and what it
-   cannot be interpreted as showing.
-3. **Biological relevance and treatment limitation:** why the mechanism matters
-   without converting mechanistic relevance into an unsupported nutritional or
-   clinical benefit claim.
+1. **Benefits:** say what useful function is preserved when this process is adequately maintained. That is the value of keeping the process, not a claim that eating more of a listed nutrient will improve the function. In one to three sentences, name the function this PM regulates, supplies, or enables, then why keeping it matters at the highest level the page’s existing evidence supports. If that evidence reaches only a cellular or physiological function, stop there. Add a boundary only where a reader could take biological necessity as evidence that more intake produces a benefit. Neighbouring PMs must name their own contribution. Use supports, helps maintain, contributes to, enables, supplies, coordinates, or helps protect. Do not use improves, enhances, prevents, treats, or reduces symptoms unless the cited evidence establishes that outcome. Cite each extended claim beside the sentence it supports. If the further point cannot be supported, keep the narrower biological benefit and record the citation gap. Follow [Stage 2A — Evidence-supported Overview](scientific-finding-schema.md#evidence-supported-overview-stage-2a).
+2. **Implementation Notes:** open with the admitted lever’s name, in the same words as Dietary Requirements, then one use condition: form, preparation, meal pattern, or dose gap. Link to the disclosure where useful. Where no lever is admitted, omit this bullet. Do not write a bullet that only says no regimen exists, and do not invent a dose, generic food recommendation, or broader ingredient effect.
+3. **Biological Relevance:** name the one mix-up a nutritionist is likely to make: a neighbouring mechanism, a measurement that is not this job, or a nutrient reading that does not follow. One sentence. When the sentence only marks a neighbouring PM as outside this job, end with a pointer such as “see PM2” and do not cite that PM’s papers. Omit the bullet when the paragraph or another bullet already makes that mix-up clear. Follow [Stage 2A — Evidence-supported Overview](scientific-finding-schema.md#evidence-supported-overview-stage-2a).
 
-Bullets must add orientation rather than repeat the paragraph. Substantive
-paragraph and bullet claims require readable, claim-local bibliography
-citations. Before targeted retrieval, review every reference already attached
-to the PM page and test it against the proposition; do not assume that a listed
-reference supports every Overview claim.
+**Adaptation rule:** These are the default three roles, not a paperwork quota. Where sufficiently relevant, supported points are unavailable, omit or combine a role, or substitute a more useful evidence-supported orientation point. A page with no admitted lever omits Implementation Notes. Record a brief rationale in the review record. Do not pad, repeat the paragraph, or manufacture a benefit, action, or “no regimen” bullet merely to reach three. Preserve a concise, useful Overview.
 
-**Overview anti-patterns:** microbiome ecology essays; stacking many new concepts in the opening paragraph; parent FM placement (`BRSn(FMx)…`, `ecological strand of…`); `— within BRSn` suffixes (belong in §6, not §1).
+**Placement:** mechanism inclusion/exclusion boundaries, endpoint distinctions and detailed study limitations belong in **§4 Mechanistic Basis / Scientific Findings**, not as the default Overview bullets. Keep an essential practical claim boundary beside an implementation suggestion when needed for accurate use. Full relationship navigation remains in Pathways and Connections.
+
+Paragraph and bullet claims require readable, claim-local numbered bibliography citations. Review the PM's existing evidence before targeted retrieval; listed references do not automatically support every claim. The opening must stand alone for a reader with no BRS knowledge. Biological Relevance is that one mix-up. Pathways and Connections keeps the fuller map.
 
 **Front matter:**
 
@@ -456,7 +463,11 @@ and methionine as the substrate used by MAT.
 
 If the §3.1.1 relationship is already that same biochemical role (same input, input
 type, and biological role), do not also list it in §3.1.2. Dual listing is only for
-two distinct relationships. It is not a reprint of the Direct/Derived row.
+two distinct relationships. It is not a reprint of the Direct/Derived row. That
+input + type + role test detects reprints between §3.1.1 and §3.1.2. It does not
+establish KC distinctness. For §3.1.3, apply the KC distinctness gate: a different
+input name, input type, or origin tag can still be the provision relationship
+already published in §3.1.1.
 
 Render Input + biochemical Input Type from the atom. Do not display
 Direct/Derived or Derived Target in §3.1.2, even when the same atom also appears
@@ -470,7 +481,7 @@ adjudication rather than forcing it into §3.1.2.
 
 KCs retain the resource-pool/bottleneck definition in
 `system/key-constraint-schema.md`. **KC1 / KC2 / KC3** are KC pages; an **iKC** is
-an individual Key Constraint on that page. PM ↔ iKC is many-to-many.
+an individually registered constituent of that canonical KC pool, linked to a verified substance ID. PM ↔ iKC is many-to-many.
 
 An input is not an iKC merely because it is a substrate, cofactor, nutritional
 requirement, food-supplied input, upstream input or participant in a larger
@@ -480,10 +491,7 @@ substrate/cofactor relationship.
 **“PM-specific”** means the iKC is shown to apply to this PM. It does not mean
 the constraint is unique, that evidence must be owned only here, or that this
 PM must govern the pool. Stage 2B uses
-`system/dietary-input-traceability-contract.md` § **Type D — shared-constraint
-applicability**: same threshold whether the PM governs the constraint or is
-constrained by it; precursor delivery plus substrate necessity does not
-automatically establish membership.
+`system/dietary-input-traceability-contract.md` § **Type D — shared-pool applicability**. Supported upstream supply and Conditional constraint are separate propositions. Supply-chain evidence may establish supply without a limiting-effect experiment; conditional constraint requires a context-specific capacity limitation. Neither establishes KC membership or propagates downstream automatically.
 
 `key_constraints` records independently admitted iKCs only. Proposed, rejected
 and unresolved candidates remain audit-only. It does not inherit constituents.
@@ -491,7 +499,7 @@ For individually authorised input relationships, render each input name as the
 disclosure trigger with a separate sibling KC origin link, using the canonical
 PM7 example below. Do not use the parent KC title as the input title or copy
 KC-page constituent or food-source bullets.
-Overlap with §3.1.1 inputs is not a rejection criterion. Direct/Derived metadata
+Overlap by input name is not a rejection criterion; repeated biological jobs must be consolidated under the final KC distinctness gate. Direct/Derived metadata
 from a reused input atom must not appear in §3.1.3.
 
 The KC page owns iKC membership. The PM independently owns Input→PM and PM↔iKC
@@ -538,19 +546,44 @@ Retirement or modification of a KC/iKC must not delete a valid PM-owned atom.
 
 When a KC pass is newly completed or reassessed, record each assessed arm in
 `kc_applicability_adjudications` (`established`, `unassessed`, `unresolved`,
-or `evidence-supported-non-application`). Publish `key_constraints` /
-`pm_kc_relationships` only for `established` rows. Public empty copy remains
-`No mapping established.`
+or `evidence-supported-non-application`). Publish a public `key_constraints`
+disclosure only for an `established` row that remains distinct after the final
+distinctness gate. Keep `pm_kc_relationships` and the applicability record when
+an established mapping’s public disclosure is consolidated. Public empty copy
+remains `No mapping established.` only when no PM↔iKC mapping is established.
+An established mapping whose disclosures were all consolidated leaves §3.1.3
+without that sentence.
 
 If PM review systematically conflicts with an iKC's claimed scope, record
 `kc_change_control_flags` (`ikc-scope-conflict` when that is the issue) and leave
 canonical iKC data unchanged. See `system/key-constraint-schema.md` and
 `system/mechanism-change-control-queue.md`.
 
+## KC relationship distinctness and duplication — final Stage 2B gate
+
+A separate **conditional-constraint** KC disclosure must explain an evidence-supported constraint relationship distinct from relationships already published under **§3.1.1 Direct/Derived Requirements, §3.1.2 Cofactors and Substrates, or §3.2 System Optimisation Practices**. Ask: **“What different biological job does this KC relationship explain?”**
+
+Compare the input or defined pool, biological role, relationship claim, context and supporting evidence. A different section, KC origin tag, record identifier or wording does not establish a different relationship. Shared evidence alone does not prove duplication; different evidence alone does not prove distinctness. Do not deduplicate by input name: independently supported jobs may share an input.
+
+A provision relationship stays one job when §3.1.1 already states it as two atoms: the direct substrate used in the reaction, and a precursor that supplies that substrate by conversion. Publish both in §3.1.1 at the distance the evidence supports. A KC disclosure whose stated job is sustaining that same capacity is the same relationship.
+
+An input-type label, including “Resource dependency,” does not answer the job question. Neither does a KC origin tag.
+
+Results that only bound that provision stay with the provision atoms. Combined depletion and an adequate-intake boundary limit what those atoms may claim, and they remain supporting evidence. They support a separate conditional-constraint KC disclosure when the evidence establishes a further constraint — competition, allocation, transport, or another bottleneck — beyond provision of the same inputs. A supported mechanistic chain can establish that further constraint; distinctness does not require one direct measurement of the bottleneck. The chain must establish a constraint beyond provision. A precursor-to-substrate chain alone is the provision relationship already recorded in §3.1.1 and does not establish KC distinctness. When no such constraint is established, consolidate that conditional-constraint disclosure as a duplicate. Concise supported supply summaries follow the canonical iKC rule below. Keep its evidence, canonical KC identifiers, provenance and decision history on the retained records, and leave applicability on the applicability record. If every proposed disclosure is consolidated, §3.1.3 has no public disclosure. Do not write `No mapping established.` That sentence means no PM↔iKC mapping was established. Consolidating presentation must not erase an established applicability record.
+
+- Repeated substrate, cofactor, precursor or intervention relationships: consolidate duplicate public presentation while preserving evidence, canonical identifiers, provenance and decision history in the retained relationship and audit.
+- Distinct shared-resource limitations: retain a separate KC disclosure explaining the limitation and its boundaries.
+- Combined-pool evidence: retain a pool-level public claim only when that pool passes the job test above. Do not split a retained pool into individually limiting constituents without supporting adjudication. Name a retained pool as the trigger with a separate KC origin tag. Individually authorised input triggers remain appropriate only for individually supported, distinct relationships. When the pool’s job is provision already recorded for its constituents, consolidate the public disclosure and preserve the combined result in the supporting evidence and limitations, without attributing individual effects the study did not isolate.
+- Unresolved distinctness: retain the proposed additional disclosure audit-only, recording the precise gap and follow-up. Scientific applicability and public distinctness are separate decisions; consolidation does not reject an otherwise valid applicability record.
+
+**Mandatory recorded review:** Before completion, compare every proposed KC/iKC and constituent disclosure against all three sections. Reuse the Stage 2B report's disposition, rationale, evidence and record-ID columns; no new public atom, front-matter status or applicability enum is required. Record **distinct**, **consolidated as duplicate**, or **unresolved** as the presentation-review disposition, alongside (not replacing) scientific applicability. A concise row must identify proposed relationship/atom IDs, compared records (or explicit “none” for each section), the biological job and context comparison, supporting evidence, rationale, retained/public destination, preserved provenance and any precise gap. Rejected candidates remain audit-only under the existing admission rules.
+
+Final review must verify that every proposed disclosure has a decision, no duplicate public relationship remains, unresolved additional disclosures are absent publicly, and consolidation preserves its evidence and provenance. This is an evidence review, not string matching. For a focused report gate, pass the existing report rows and proposed public relationship IDs to `validateKcDistinctnessReview` in `scripts/lib/kc-relationship-distinctness-review.mjs`. It checks completeness and disposition-to-publication consistency, not biological truth. A row that records a different job string can pass this structural check. Different wording does not prove a different biological job; evidence adjudication must establish that job. The check also rejects a `distinct` disposition when the row records the same biological job as a compared record, including when the pool name, a “Resource dependency” label, or the citation set differs, and it rejects consolidated presentation that replaces an established mapping with `No mapping established.` Run `node --test scripts/kc-relationship-distinctness-review.test.mjs`.
+
 <!-- PM7-KC-CANONICAL-EXAMPLE:begin -->
 ### Admitted PM-owned KC input disclosure — PM7 integration reference
 
-Use the existing shared renderer. Public §3.1.3 titles are the individually authorised **input names**, not the parent KC name. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
+Use the existing shared renderer. Public §3.1.3 titles identify the adjudicated distinct **input or defined pool**, not a parent KC used as a substitute for the biological input. The following individual-input example demonstrates renderer integration only; it does not waive distinctness review or approve scientific admissions. Pool evidence requires a pool trigger rather than unsupported constituent splitting. Render `Folate · [KC1: Methyl Donor Pool]`, `Betaine · [KC1: Methyl Donor Pool]`, `Choline · [KC1: Methyl Donor Pool]`. Each input name is a button; the separate origin tag is a sibling navigation link, never nested inside it. Do not add audit headings such as “Established mapping” or “Independently supported input relationships”.
 
 **Admission:** Stage 2B independently evidence-reviews each proposed PM→KC/iKC/input relationship and records evidence, limitations, rationale and disposition. Publish only supported or conditionally admitted relationships. Rejected and unresolved candidates remain audit-only, with exact remaining gaps and follow-up. KC membership or a provenance tag alone does not authorise an input; missing records do not justify exclusion. Preserve canonical KC/iKC/constituent identifiers when applicable; do not invent iKC identifiers or label every nutrient an iKC. PM7 KC1 remains conditionally established; KC2 remains unresolved and is not a public requirement or admitted mapping. Folate/betaine/choline provision does not settle KC2's methionine/cysteine capacity question.
 
@@ -759,7 +792,7 @@ Existing shared interaction handlers → trigger preview, pinning and close beha
 ```
 <!-- /PM7-KC-REFERENCE:interaction -->
 
-Expected closed result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
+Expected closed integration-fixture result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Live publication additionally requires the final distinctness gate; consolidate repeated jobs or retain an adjudicated pool claim as appropriate. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
 
 Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability/governance/PM3 reference suites. The documented example must execute actual shared projection and rendering code with canonical dependencies, including interaction events and unresolved-parent suppression. Browser-check focus/activation/Escape, origin navigation, ordering and link targets; report actual results and deployment gaps separately from these completion instructions.
 <!-- PM7-KC-CANONICAL-EXAMPLE:end -->
@@ -780,11 +813,9 @@ Biological Role / biochemical requirement
 Primary Mechanism
 ```
 
-Example: protein-containing foods → dietary protein/amino-acid provision
-(`Derived`, `Input Type = Substrate Provision`) → methionine (`Direct`,
-`Input Type = Substrate`) → MAT substrate requirement → SAMe synthesis capacity.
-Not every PM must contain every level. Food composition and Food → Substance mapping
-remain owned by the Food architecture.
+Example: when protein-containing foods merely supply cysteine for glutathione synthesis, assess cysteine as the biological input; do not create an extra “Dietary protein → Cysteine” requirement. Food-source delivery remains in the food ontology. The same applies to methionine delivery for MAT. The illustrative hierarchy does not require a delivery level to become a PM requirement.
+
+Before dietary candidate adjudication, apply **Input-specificity adjudication** in `system/dietary-input-traceability-contract.md`. For every candidate, record a specificity decision and supporting evidence. A concise table row is sufficient for straightforward cases. Explicitly address all three questions where the label is broad, the target changes, or the relationship is disputed or unresolved. Record retained/narrowed/consolidated/moved/rejected/unresolved in the existing disposition/rationale entry. Retained broad inputs require mechanism-specific justification. Preserve defined indispensable-amino-acid coverage and independently evidenced protein-level interventions; do not infer constituent effects from mixtures/patterns or auto-replace generic words. Reuse report fields; preserve evidence, upstream dependencies and decision history. These are reporting/governance requirements, not additional public atoms or a retrospective page migration.
 
 The five-atom evidence structure remains `Input | Input Type | Biological Role |
 Evidence Source | Limitation`. Direct/Derived classification does not
@@ -812,12 +843,14 @@ PM pages should progressively answer:
 
 **Heading:** `## 3. Intervention Levers` on canonical PMs; `## 4. Levers` on untouched legacy PMs.
 
-**Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **3.1**, **3.2**, and **3.3** lever dropdowns (legacy pages: 4.1–4.3). Do not use `<details>` for Intervention Profile.
+**Intervention Dominance (required on assessed canonical pages):** render immediately after Mission, then all independently adjudicated principal groups before Overview. Remaining groups stay once in section 3. Use `intervention_dominance_assessment` and the exact shared layout example below; legacy labels and FM inheritance do not decide placement.
 
 **Public vs audit (Dietary Requirements):** Public §3.1 / §4.1 panels show the current
 evidence-qualified scientific state and reader-relevant limitations only. Empty
-§3.1.1 / §4.1.1 uses `emptyDirectDerivedCopy` (governed state). Empty §3.1.3 / §4.1.3
-uses `emptyKeyConstraintCopy`. Rejected candidates, Stage 2B reasoning, KC-page
+§3.1.1 / §4.1.1 uses `emptyDirectDerivedCopy` (governed state). §3.1.3 / §4.1.3
+uses `emptyKeyConstraintCopy` only when no PM↔iKC mapping is established. An
+established mapping whose disclosures were all consolidated leaves that panel
+without `No mapping established.` Rejected candidates, Stage 2B reasoning, KC-page
 scope disputes, and migration history belong in Stage 2B / change-control records
 (`scripts/lib/pm-dietary-requirements-public-copy.mjs`).
 
@@ -848,9 +881,7 @@ in reader-facing introductions; retain detailed qualification in each five-atom 
 ```markdown
 ## 3. Intervention Levers
 
-### Intervention Profile
-
-**Intervention Dominance:** <from front matter intervention_dominance>
+<!-- Groups are authored once here. The shared build places independently adjudicated principal groups after Mission. -->
 
 <details>
 <summary><strong>3.1 Dietary Requirements</strong></summary>
@@ -967,7 +998,7 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 |-------|-------------------|
 | **`### Summary`** | Usually implication-only; when a single study directly supports the central claim, use canonical PM first-mention format `Author et al. (year) [n]`. |
 | **Primary mechanism `####` blocks** | **Required** for evidence-backed statements (pathway biology, meal effects, substrate relationships). First mention in a section uses `Author et al. (year) [n]`; two-author studies use `Author and Author (year) [n]`. |
-| **Boundaries** | Cite when the boundary claim depends on literature; PM cross-links alone need no duplicate citation if References already lists the source. |
+| **Boundaries** | Do not cite. A boundary that only places this PM against a neighbouring PM names that PM, for example “see PM2”, and carries no reference. |
 | **Integration** | Typically placement prose + entity links; citations optional unless integration asserts an evidence-backed dependency. |
 
 **Reference generation and integrity:** author text, year, display number and the
@@ -997,9 +1028,9 @@ legacy PMs use §5.1. Relationship-specific Findings render under their primary
 
 | § | Role (Profile A extended) |
 |---|------|
-| **§1 Mission & Overview** | Biological ambition + brief orientation (~65–75 words) + 3 scannable bullets | What + why before how; no dietary implementation; no parent-FM architecture |
+| **§1 Mission & Overview** | Biological ambition + evidence-supported orientation (~65–75 words) + preferred Benefits / Implementation Notes / Biological Relevance bullets; adapt when relevant evidence is insufficient. Give practical orientation to admitted levers; keep detailed implementation in disclosures and technical boundaries in §4. |
 | **§2 Primary Biological Effects** | Directional ↑/↓ summary of emergent outcomes. |
-| **§3 Levers** | Dietary (3.1.1–3.1.3), optimisation (3.2), and lifestyle (3.3) implementation — all in `<details>` dropdowns. Builds on §1 Overview; Pattern → Nutrients → Biology → Target Foods inside §3.1. |
+| **§3 Levers** | Dietary, optimisation, and lifestyle implementation — all in `<details>` dropdowns. Before a move, those groups are 3.1 (children 3.1.1–3.1.3), 3.2 and 3.3. When Dietary Requirements is moved before Overview, 3.1 becomes 1.1 (children 1.1.1–1.1.3), and the groups left in section 3 become 3.1 System Optimisation Practices and 3.2 Lifestyle Levers. |
 | **§4 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
 | **§4.1 Scientific Findings** | Findings that adjudicate defined Mechanistic Basis propositions. |
 | **§5 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
@@ -1020,7 +1051,9 @@ mechanism review. Do not populate from BRS hub ADHD dropdown tables; those rows
 feed phenome review (`system/phenome-relationship-review-methodology.md`), not
 mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
 
-**UX:** `#### Introduction/Summary` (visible) → one or more Scientific Finding
+**Summary content:** Follow Stage 2A’s “Scientific Findings — Summary authoring rule”: synthesise the strongest adjudicated evidence, its convergence or differences, and principal context/limitations; do not repeat §4’s mechanism walkthrough. Reuse target-page numbered citations.
+
+**UX:** `#### Summary` (visible) → one or more Scientific Finding
 components. Phenome-relationship Findings render fully inside their primary §7
 relationship; cross-relationships reuse the id without duplicating the evidence
 body.
@@ -1055,7 +1088,138 @@ Authoring detail: `system/mechanism-page-section-prose.md` (**PM §5.1 — Evide
 
 ### Excluded from the public PM body
 
-Body sections **do not** include Missing Entities, System Integration, Key Insight, Functional Mechanism Ownership, Intervention Summary, Intervention Breakdown, Constraints and Failure Modes, Scoring Interpretation, Notes, or Mechanism Summary Table. Those belong in front matter, FM pages, authoring metadata, or other artefacts. `intervention_breakdown` and FM ownership stay in YAML/front matter; `intervention_dominance` is rendered only via **§4 Intervention Profile**.
+Body sections **do not** include Missing Entities, System Integration, Key Insight, Functional Mechanism Ownership, Intervention Summary, Intervention Breakdown, Constraints and Failure Modes, Scoring Interpretation, Notes, or Mechanism Summary Table. Those belong in front matter, FM pages, authoring metadata, or other artefacts. `intervention_breakdown` and FM ownership stay in YAML/front matter; Legacy `intervention_dominance` remains ingest metadata; assessed canonical pages render Intervention Dominance only after Mission through the shared layout.
+
+<!-- PM-LEVER-DOMINANCE-EXAMPLE:begin -->
+### Evidence-adjudicated intervention dominance and training layout
+
+This governs canonical Profile A PMs with `intervention_dominance_assessment`. Group meanings remain: **3.1 Dietary Requirements** (its three existing dietary/biochemical/KC subgroups), **3.2 System Optimisation Practices** (defined practices/protocols in the existing five categories), **3.3 Lifestyle Levers** (foundational/recurrent behaviours). Moving a group changes prominence only, never its classification, claim ceiling or evidence status.
+
+Required rendered order: **Mission → Intervention Dominance → every adjudicated principal group → Overview**. Remaining groups appear once in section 3. The shared MDX build transform `src/plugin/pm-lever-layout/index.cjs` performs placement and numbering before HTML/TOC generation; it is registered through `beforeDefaultRemarkPlugins` in `docusaurus.config.ts`. Do not run the retired diet-only migration or hand-copy groups into two sections.
+
+| Adjudicated canonical routes | Visible number after Mission, before Overview | Visible numbers remaining in section 3 |
+|---|---|---|
+| 3.1 Dietary Requirements | 1.1 Dietary Requirements | 3.1 System Optimisation Practices; 3.2 Lifestyle Levers |
+| 3.2 System Optimisation Practices | 1.1 System Optimisation Practices | 3.1 Dietary Requirements; 3.2 Lifestyle Levers |
+| 3.3 Lifestyle Levers | 1.1 Lifestyle Levers | 3.1 Dietary Requirements; 3.2 System Optimisation Practices |
+| 3.2 + 3.3 | 1.1 System Optimisation Practices + 1.2 Lifestyle Levers | 3.1 Dietary Requirements |
+| Any other independently adjudicated principal combination | All principal groups, numbered 1.1, 1.2… in canonical order | All unselected groups, numbered 3.1, 3.2… in canonical order |
+| Not established | Preserved qualification + “No principal intervention route established”; no promoted group | 3.1 Dietary Requirements; 3.2 System Optimisation Practices; 3.3 Lifestyle Levers |
+
+**Two separately traceable decisions are mandatory.** Evidence qualification records the supported influence, context and limitations; principal-route selection determines placement. Preserve the canonical `intervention_dominance` label verbatim (including `Diet-Supported`) and its governing meaning. The spreadsheet schema calls this field “dominance” and permits FM inheritance; the approximate FM profile mapping does not redefine it or adjudicate PM placement. A qualification is not silently replaced by a group title or upgraded to Diet-Dominant. Unassessed legacy pages retain their existing presentation pending review.
+
+**Evidence qualification:** `intervention_dominance_assessment.evidence_qualification` contains `label` (matching the canonical label), `rationale`, optional `scope_note` and independently assessed `routes`. Each route carries canonical `group_id`, `evidence_basis: intervention-effect`, measured `intervention_effect`, `context`, `limitations` and `evidence_source.finding_ids`/`citation_keys`. Trace evidence to this PM's canonical Findings and bibliography. Neither nutrient presence, biochemical necessity, KC membership nor provision tracing alone establishes intervention responsiveness. Conditional correction/restriction evidence remains eligible within its boundaries; do not impose a universal human assay or enhancement above adequacy.
+
+**Principal selection:** the separate `principal_route_selection` contains `disposition` (`established` or `not-established`), unique `selected_groups`, `rationale`, `comparative_limitations` and `assessments`. Each selected route requires a distinct assessment of `relevance`, `directness` and `extent` of its demonstrated influence on this PM. Qualification alone, or missing admitted competitors, does not establish primacy. Multiple selected groups additionally require `joint_prominence_rationale` explaining why joint prominence is justified; two supported entries do not imply equal dominance. Unestablished selection uses an empty `selected_groups` list while retaining all qualified routes. Supported non-principal groups remain in section 3. Rejected/unresolved candidates remain in the audit; no placement is inferred from FM inheritance.
+
+**Public statement:** render `Intervention Dominance: <preserved qualification> — <selected principal group(s) or No principal intervention route established>`, followed by the qualification scope and comparative limitations. Keep conditional boundaries visible. Do not invent rankings or equal dominance where the evidence does not establish them. Structural validation checks this separation and traceability; Stage 2B must review the science.
+
+**Numbering and stable identity:** author all three groups once with their canonical labels/IDs in section 3. When Dietary Requirements is moved before Overview, canonical **3.1 becomes 1.1**. Its children become 1.1.1 Direct and/or Derived Dietary Requirements, 1.1.2 Cofactors and Substrates, and 1.1.3 Key Constraints. The groups that remain in section 3 are then numbered from 3.1 in canonical order: canonical **3.2 System Optimisation Practices becomes 3.1**, and canonical **3.3 Lifestyle Levers becomes 3.2**. The same renumbering applies whichever group is moved. A moved group takes the next 1.n number (1.1, then 1.2). Each group left in section 3 takes the next 3.n number (3.1, then 3.2). Titles retain their meanings. `data-pm-lever-group="3.1"` and `data-pm-lever-section="3.1.3"` retain canonical lookup identity independent of visible numbering. Preserve existing anchors; missing ones receive stable `pm-lever-dietary`, `pm-lever-optimisation`, `pm-lever-lifestyle` and dietary-child IDs. Do not renumber Finding, atom, KC/iKC, bibliography or relationship identifiers. The shared disclosure renderer reads these attributes before its legacy heading fallback, preserving the existing hover/focus, click/tap, Escape and origin-link behaviour.
+
+**Exact live PM7 assessment → Diet-Supported retained; principal selection not established; all groups remain in section 3.** F5 qualifies conditional dietary influence, not comparative dominance; F7 provision tracing does not select a principal route. All Findings, full studies and bibliography remain canonical PM7 dependencies; no existing scientific classification is rewritten.
+
+<!-- DOMINANCE-REFERENCE:pm7 -->
+```yaml
+intervention_dominance: Diet-Supported
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: The retained Diet-Supported qualification is supported by conditional PM-specific dietary influence; it does not establish comparative intervention dominance.
+    scope_note: Conditional animal evidence concerns folate restriction and methyl-derived PC enrichment; it does not establish absolute PEMT flux, benefit above adequacy or cognitive benefit.
+    routes:
+      - group_id: '3.1'
+        evidence_basis: intervention-effect
+        intervention_effect: Eight-week folate restriction with labelled choline maintained reduced hepatic d3-PC enrichment and the product/precursor enrichment ratio in female mice.
+        context: Female wild-type and Mthfr-heterozygous mice; the hepatic response was not demonstrated in males.
+        limitations: Enrichment is not absolute PEMT flux. The restriction experiment does not establish supplementation benefit above adequacy, a human intake target or cognitive benefit.
+        evidence_source:
+          finding_ids:
+            - PM7-F5
+          citation_keys:
+            - chew_folate_choline_2011
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: F5 demonstrates conditional dietary responsiveness, but the current assessment does not establish the relevance, directness and extent needed to prioritise this route over the other intervention groups. Absence of admitted alternative entries is not evidence of dietary primacy.
+    comparative_limitations: Comparative dominance is not established; no ranking or equal dominance is inferred.
+    assessments: []
+```
+<!-- /DOMINANCE-REFERENCE:pm7 -->
+
+**Exact shared decision-to-placement code → section and route labels.** Integration excerpt from the existing registered build transform, not a standalone renderer. `GROUPS` retains the three canonical titles; `validateDominanceAssessment` rejects unresolved IDs/citations and biochemical-necessity-only evidence.
+
+<!-- DOMINANCE-REFERENCE:plan -->
+```js
+function dominancePlan(data) {
+  const a = data.intervention_dominance_assessment;
+  if (!a) return null; // Legacy strings/modes and FM inheritance are not evidence adjudications.
+  const errors = validateDominanceAssessment(data);
+  if (errors.length) throw new Error(`${data.pm_id || 'PM'} dominance: ${errors.join('; ')}`);
+  const promoted = Object.keys(GROUPS).filter(id => a.principal_route_selection.selected_groups.includes(id));
+  const remaining = Object.keys(GROUPS).filter(id => !promoted.includes(id));
+  const headings = Object.fromEntries([...promoted.map((id, i) => [id, `1.${i + 1}`]), ...remaining.map((id, i) => [id, `3.${i + 1}`])]);
+  const selection = a.principal_route_selection;
+  const routeLabel = promoted.length ? promoted.map(id => GROUPS[id].title).join(' + ') : 'No principal intervention route established';
+  return {promoted, remaining, headings, label: `${a.evidence_qualification.label} — ${routeLabel}`, scope: [a.evidence_qualification.scope_note, selection.comparative_limitations].filter(Boolean).join(' ')};
+}
+```
+<!-- /DOMINANCE-REFERENCE:plan -->
+
+**Explicit independently adjudicated joint-principal test fixture → 1.1 System Optimisation Practices + 1.2 Lifestyle Levers, with 3.1 Dietary Requirements remaining below.** This is synthetic test data, not a real PM scientific admission; `FIX-F1`/`fixture_source` dependencies live only in the test fixture. The same fixture is exercised for each single route, every combination, and no established dominance.
+
+<!-- DOMINANCE-REFERENCE:joint-fixture -->
+```yaml
+intervention_dominance: Mixed
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Mixed
+    rationale: Synthetic qualification only; two independently supported simulated routes.
+    scope_note: Synthetic test fixture only.
+    routes:
+      - group_id: '3.2'
+        evidence_basis: intervention-effect
+        intervention_effect: Simulated intervention changes a simulated endpoint.
+        context: Synthetic test dataset only.
+        limitations: Not a scientific study or a live admission.
+        evidence_source:
+          finding_ids:
+            - FIX-F1
+          citation_keys:
+            - fixture_source
+      - group_id: '3.3'
+        evidence_basis: intervention-effect
+        intervention_effect: Simulated intervention changes a simulated endpoint.
+        context: Synthetic test dataset only.
+        limitations: Not a scientific study or a live admission.
+        evidence_source:
+          finding_ids:
+            - FIX-F1
+          citation_keys:
+            - fixture_source
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.2'
+      - '3.3'
+    rationale: Synthetic assessment of relevance, directness and extent selects both routes.
+    comparative_limitations: Synthetic demonstration only; no real intervention ranking.
+    joint_prominence_rationale: The simulated interventions address complementary substantial parts of the simulated PM endpoint; joint prominence was independently adjudicated.
+    assessments:
+      - group_id: '3.2'
+        relevance: Simulated PM-specific endpoint.
+        directness: Simulated intervention directly changes the endpoint.
+        extent: Simulated substantial complementary influence.
+      - group_id: '3.3'
+        relevance: Simulated PM-specific endpoint.
+        directness: Simulated intervention directly changes the endpoint.
+        extent: Simulated substantial complementary influence.
+```
+<!-- /DOMINANCE-REFERENCE:joint-fixture -->
+
+Minimal authoring pattern: use the existing shared hub dropdown or native `<details>` exactly once for each canonical group; retain its evidence content. The test source `scripts/fixtures/pm-lever-layout.fixture.mdx` demonstrates stable anchor preservation. Run `node --test scripts/pm-lever-layout.test.mjs` to compile/render the actual transform, execute these documented records, verify all combinations and unchanged disclosure lookup, and reject invalid evidence chains, qualification-label changes and joint promotion without a separate rationale. Supported-but-unselected fixtures verify that support does not imply principal placement. Record actual test/build/browser outcomes separately from this instruction. No synthetic study or bibliography is copied into a live PM.
+
+
+<!-- PM-LEVER-DOMINANCE-EXAMPLE:end -->
 
 ### MDX body vs YAML
 
@@ -1077,12 +1241,13 @@ page has `mechanistic_authoring_required: true` in front matter.
 
 - `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
 - Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
-- Extended Profile A PMs must include `## 1. Mission & Overview` (or legacy `## 1. Definition` until migrated) with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets).
+- Extended Profile A PMs must include `## 1. Mission & Overview` (or legacy `## 1. Definition` until migrated) with `### Mission` and `### Overview` (~65–75 word paragraph + normally 3 useful scannable bullets; adapt when evidence does not support all three).
 - Overview paragraph word count target: **65–75 words** (acceptable range **50–90** for authoring review); must pass the **20-second acid test** (see `system/mechanism-page-section-prose.md` **PM §1 — Overview**).
 - Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after §1.
-- Canonical Profile A PMs must include `## 3. Intervention Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above 3.1–3.3. Newly authored or recomputed pages use **3.1 Dietary Requirements**, **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints** exactly. Untouched PMs may retain the former §3.1/§4.1 terminology for backward compatibility.
+- Assessed canonical Profile A PMs include `## 3. Intervention Levers` for remaining groups and render Intervention Dominance plus promoted groups after Mission. Author canonical group titles once; generated visible numbering follows placement while canonical identity remains stable. Untouched legacy pages retain their previous layout until independently assessed.
 - Stage 2B (`evidence_status: stage-2b-dietary-addressability`) must evidence-review all three Dietary Requirements layers. `cofactors:` names are not evidence. `key_constraints` does not inherit iKC constituents. §3.1.3 / §4.1.3 is PM↔iKC evidence in `pm_kc_relationships`.
 - **Review & Corrections** is a required PM workflow surface (the page tab). Decision records live in `system/framework-qc/framework-issues-register.json` and are linked by `scope.page_ids`. Do not maintain a separate manually written history on the PM. A rerun is incomplete until accepted corrections and unresolved decisions are recorded. Do not mark a correction `applied` until implementation checks pass. Evidence `review_status` stays separate from `correction_status`. PM evidence-audit records (`register_surface: pm-tab`) must not be published on the Framework Review & Corrections register.
+- **Open Issues** is the current-question tab for one PM. Records live once in `system/framework-qc/pm-open-issues.json` and are not framework-register rows. See `system/framework-qc-schema.md` § PM Open Issues. Do not promote a PM research gap into the framework register unless it is a shared problem across pages.
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).
@@ -1102,7 +1267,24 @@ page has `mechanistic_authoring_required: true` in front matter.
 
 - Dependencies -> `dependencies` (KCs + connected mechanisms only)
 - Cofactors -> `cofactors` (cofactors only)
-- Intervention dominance -> `intervention_dominance.mode`
+- Evidence qualification and independent principal-route selection -> separate records within `intervention_dominance_assessment`; preserve the canonical `intervention_dominance` label
 - Column P -> `functional_mechanism_ownership`
 
 An entity must not appear in more than one of these roles with conflicting meaning.
+
+
+
+### Canonical constituent iKC identity and PM-specific upstream supply
+
+Follow **Canonical iKC identity and PM-specific upstream supply**, the exact PM3 §3.1.3 worked example, and **Canonical KC decision examples — existing shared integration** in `system/dietary-input-traceability-contract.md`. The latter includes actual PM2 conditional-constraint/consolidation records, its audit-only folate decision, and an explicitly synthetic missing-identity/repair-action fixture. Reuse the existing renderer; do not reconstruct replacement components. Test the documented records with canonical dependencies using `scripts/stage2b-kc-documented-cases.test.mjs`.
+
+- iKC identity means a registered canonical KC constituent linked to a verified substance ID. KC membership and PM-specific applicability are separate adjudications; retain multiple KC memberships on one substance identity.
+- Existing `individual_key_constraints` and `kc_input_traceability` hold registrations, with `ikc_identity_version: constituent-v2`, `ikc_id`, `kc_atom_id`, `substance_id`, `identity_status`, `registration_status`, `substance_href`. Explicit `legacy_ikc_references` preserve old pool/arm meanings; no silent migration. Missing substance identity keeps registration pending.
+- `supported-upstream-supply` admits a cited supply route without mandatory deficiency or demonstrated constraint. `conditional-constraint` requires a context-specific limitation on PM capacity; supported chains may suffice. Preserve legacy `governs` / `constrained-by` meaning. Neither type establishes extra-intake benefit or downstream propagation.
+- **§3.1.2 remains Cofactors and Substrates, unchanged. §3.1.3 contains pool and individual KC disclosures.** Under the pool, use **Individual KC inputs** and five atoms, reader description and supporting Finding link for every individually admitted input. Do not repeat full atoms in the pool summary or import members into other sections automatically.
+- `pm_kc_relationships[].constituent_relationships` retains `pm_atom_id`, `kc_atom_id`, `ikc_id`, `substance_id`, `canonical_identity`, `relationship_type` and reviewed pathway. Its scientific fields resolve from the PM atom, not copied overrides.
+- `canonical_identity.status` = `resolved`, `existing-substance-identity-inconsistency`, or `missing-substance`. Resolved ID/page linkage is verified; missing/inconsistent identity is a MAJOR flag with PM/KC/type, checked candidates/aliases, repair/creation action and subsequent food assessment in `pending_actions`. Keep science visible and block unreliable projections.
+- Existing ontology/SubstanceMatrix reads the same independently admitted canonical §3.1.3 edges, preserving type/evidence/limitations. Future food and FM/BRS projections reuse them; no automatic membership or downstream inheritance. Food composition and approved top-10 are separate later adjudications.
+
+
+**Visible numbering after placement:** A lever group displayed in section 1 is numbered `1.1` (then `1.2` for another promoted group), with dietary children `1.1.1`–`1.1.3`. Canonical section IDs remain `3.1`/`3.1.1`–`3.1.3` for records, lookup and stable anchors. This numbering correction also applies to a group already placed in section 1 on a legacy page; it neither selects a principal route nor changes its evidence qualification. Do not display §3.1 under section 1.

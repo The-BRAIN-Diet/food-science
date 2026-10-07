@@ -1,4 +1,6 @@
-# Scientific Finding schema
+# Stage 2A — Scientific Assessment & Finding Schema
+
+**Status:** Authoritative Stage 2A scientific assessment instruction and Finding schema. Use with the [whole-PM page schema](primary-mechanism-schema.md); proceed to the [Stage 2B contract](dietary-input-traceability-contract.md) for applicability and lever implementation.
 
 The canonical evidence unit for mechanism pages. A Scientific Finding states a
 proposition precise enough to be assessed across a body of evidence, and carries
@@ -97,37 +99,47 @@ not scientific completion.
 
 ### Evidence-supported Overview (Stage 2A)
 
+**References stay with this PM.** In Biological Relevance and in every other section, do not cite a study because another PM uses it. A reference may appear on this page only when it supports a claim about this page’s own mechanism. A sentence that only sets a boundary with a neighbouring PM names that PM, for example “see PM2”, and carries no citation.
+
 Every Stage 2A PM review must assess and publish an evidence-supported
 `### Overview`. Treat each substantive Overview statement as a proposition
 alongside the Mission scope, Mechanistic Basis, defining pathway steps and
 Phenome relationships. Do not treat inherited Overview prose as established
 merely because it is already published.
 
-The Overview must:
+**Stage ownership:** Stage 2A assesses and authors the Overview. The PM schema's **PM §1 — Mission & Overview** implements this same rule; prose guidance is supporting authoring guidance, not a separate assessment workflow. Stage 2B adjudicates dietary and other lever candidates. Overview wording must not independently admit a candidate or imply an unassessed intervention is established. When Stage 2B changes an admitted lever or its boundaries, reconcile the affected Overview claims with the Stage 2A evidence.
 
-- explain what the mechanism does, its biological boundaries and why it is
-  relevant;
-- reflect the adjudicated Scientific Findings and their claim ceilings;
-- include readable bibliography citations close to substantive scientific
-  claims;
-- distinguish established mechanism from inference or unresolved context where
-  that distinction matters; and
-- avoid unsupported benefit claims or conclusions stronger than the Findings.
+**Opening paragraph:** Explain the biological job, why it matters for health, and what the evidence measured, including practical support where that support is itself a measured result. Aim for ~65–75 words (acceptable authoring range 50–90), understandable in ~20 seconds. Write an orientation, not a technical study summary. Do not close the paragraph with an outcome ceiling — a statement that extra intake, supplementation, or treatment has not been shown to improve symptoms, attention, mood, or a named condition. When a lever is admitted, state one use condition in Implementation Notes: the form, the meal pattern, or the dose gap. When no lever is admitted, omit Implementation Notes.
 
-After the concise explanatory paragraph, use exactly three non-duplicative,
-scannable bullets:
+**Overview scope:** State relevance for cognitive function and brain health. Do not name ADHD or another therapeutic area in the paragraph or the bullets. Do not mention medication. Medication is outside this framework. Condition-specific and medication evidence belongs on Therapeutic Area pages and, where a Phenome relationship requires the studied population, in §7.
 
-1. **Mechanism boundary** — what biological process the PM includes and which
-   adjacent stages it excludes.
-2. **Evidence / measurement boundary** — what the cited measurements establish
-   and which tempting interpretation they do not establish.
-3. **Biological relevance and treatment limitation** — why the mechanism
-   matters, while separating biological relevance from evidence of dietary,
-   supplemental or clinical benefit.
+**Preferred bullets, in order:**
 
-The bullets must add orientation rather than repeat the Overview paragraph.
-Support substantive bullet claims with readable, claim-local PM bibliography
-citations.
+1. **Benefits:** say what useful function is preserved when this process is adequately maintained. The rule is set out under **Benefits** below.
+2. **Implementation Notes:** open with the admitted lever’s name, using the same label as Dietary Requirements, then the one use condition: form, preparation, meal pattern, or dose gap. Link to the disclosure where useful. Where no lever is admitted, omit this bullet. Do not add a bullet whose only content is that no regimen exists, and do not invent a dose, food advice, or broader ingredient effect.
+3. **Biological Relevance:** name the one mix-up a nutritionist is likely to make: a neighbouring mechanism, a measurement that is not this job, or a nutrient reading that does not follow. One sentence. When the sentence only marks a neighbouring PM as outside this job, end with a pointer such as “see PM2” and do not cite that PM’s papers. Omit the bullet when the paragraph or another bullet already makes that mix-up clear.
+
+**Benefits:** Write for a nutritionist or an informed reader. Ask what useful biological, physiological, cognitive, or everyday function this process helps preserve when it is adequately maintained. That is the value of keeping the process. It is not a claim that eating more of a listed nutrient will improve the function.
+
+Use one to three sentences:
+
+1. Name the function this PM regulates, supplies, or enables.
+2. Say why keeping that function matters, at the highest level the page’s existing evidence supports: cellular, tissue, physiological, cognitive, or everyday. If the evidence reaches only a cellular or physiological function, stop there. Do not invent a clinical, cognitive, or everyday outcome to make the benefit sound more concrete.
+3. Add a boundary only where a reader could take biological necessity as evidence that more intake produces a benefit. Say what the cited evidence does not establish about diet, supplementation, symptoms, disease, or clinical benefit. Do not put that disclaimer on every page, and do not put an outcome ceiling in the opening paragraph.
+
+Neighbouring PMs must name their own contribution. Remethylation restores methionine. SAMe synthesis supplies the shared methyl donor. Methionine-cycle flux coordinates the competing demands. Transsulfuration directs sulfur toward cysteine. Glutathione synthesis supplies the antioxidant thiol.
+
+Use **supports**, **helps maintain**, **contributes to**, **enables**, **supplies**, **coordinates**, or **helps protect**. Do not use **improves**, **enhances**, **prevents**, **treats**, or **reduces symptoms** unless the cited evidence establishes that outcome. Do not turn a requirement into a supplementation recommendation, and do not imply that more pathway activity, neurotransmitter, nutrient, or substrate is better. Keep nonlinear, baseline-dependent, region-specific, and population-specific qualifications. Separate the value of maintaining the process from the effect of a dietary or lifestyle intervention.
+
+Cite each extended claim beside the sentence it supports, using a source already on the page that actually supports it. If the references support only the mechanism, call the further point biological or functional relevance, not a measured health outcome. Do not infer a downstream outcome from the PM title. If the further point cannot be supported, keep the narrower biological benefit and record the citation gap in the Stage 2A report. Revising Benefits does not change evidence classifications, dietary requirements, intervention mappings, or any other section.
+
+A nutritionist who reads only this bullet should be able to say what function is maintained, why that matters, whether the wording is a biological requirement, a functional relevance, an observed outcome, or an intervention effect, and whether it stays inside the cited evidence.
+
+**Adaptation:** These are preferred roles, not an exact three-bullet quota. Omit, combine or substitute a role when sufficiently relevant supported points are unavailable, and record a concise rationale in the Stage 2A report. A page with no admitted lever omits Implementation Notes. Do not pad, repeat the paragraph, or manufacture a benefit, action, or “no regimen” bullet to reach three.
+
+**Placement:** Put detailed mechanism inclusion/exclusion boundaries, endpoint distinctions and study limitations in §4 Mechanistic Basis / Scientific Findings. Retain an essential practical claim boundary beside an implementation suggestion where necessary. The Overview must accurately reflect scope without becoming a boundary checklist. Preserve the governing Mission → Intervention Dominance → adjudicated principal groups → Overview order; do not duplicate lever groups.
+
+**Evidence reuse — purpose and scope included:** Substantiate the Mission, purpose, scope, Overview paragraph and bullets from existing adjudicated Findings, study assessments and canonical bibliography. Record each substantive proposition's supporting Finding/source in the Stage 2A report, using a concise table where sufficient. Preserve population, context, measured endpoint and claim ceiling; introductory wording is not exempt from evidence assessment. Use claim-local numbered PM bibliography citations in explanatory prose. The concise Mission may retain its evidence trace in the report instead of an inline citation. Narrow or qualify unsupported propositions, record the exact gap and retrieve targeted evidence only where necessary; do not repeat sufficient verified research solely for the Overview.
 
 Do not attach one general reference to a paragraph containing several claims
 that the source does not support. Place each citation beside the claim or
@@ -290,6 +302,15 @@ modulation and functional or clinical benefit remain distinct.
 
 ## Dietary input traceability (PM evidence)
 
+**Input page link.** Every lever Input that has a page in this system links to
+that page from the Input line inside the five-atom disclosure. The compact
+heading above the disclosure stays plain text. Do not link “Glutathione —
+Biochemical requirement”; link `Input = Glutathione`. This applies to PM, SM,
+and KC levers. A preparation, practice, pattern, or class with no page stays
+unlinked. Do not match a longer phrase to a shorter page. The resolver and
+presentation rule live in `system/dietary-input-traceability-contract.md`
+(**Input page link**).
+
 When adjudication establishes a **dietary-relevant** biological requirement, follow
 the **2B — Dietary Input Traceability & Visibility Contract**
 (`system/dietary-input-traceability-contract.md`) — authoritative definition of the
@@ -329,7 +350,7 @@ Record downstream representation gaps in `system/mechanism-change-control-queue.
 | Layer | Location | Status |
 |-------|----------|--------|
 | Findings | `scientific_findings` in PM front matter | **durable source** |
-| §4.1 Introduction/Summary | `scientific_findings_intro` in PM front matter | **durable source** — reader-facing biology for this PM (requirements, boundaries); not evidence-system or page-architecture prose |
+| §4.1 Summary | `scientific_findings_intro` in PM front matter | **durable source** — concise synthesis of the most relevant adjudicated findings and overall evidence picture, with studied context and limitations; not a repeat of §4 mechanism biology |
 | Dietary-input atoms | `dietary_input_traceability` in PM front matter (when populated) | **durable source** — see dietary-input-traceability-contract.md |
 | System Optimisation Practice atoms | `system_optimisation_practices` in PM front matter (when populated) | **durable PM scientific-evidence source** |
 | Lifestyle Priority atoms | `lifestyle_priorities` in PM front matter (when populated) | **durable PM scientific-evidence source** |
@@ -456,3 +477,7 @@ phenome relationships are **legacy** values on a different scale from
 Synthesised Evidence Confidence. Findings do not read, rescore or replace them.
 Where adjudication shows a legacy value is no longer adequate, record it in
 `system/mechanism-change-control-queue.md` rather than silently changing it.
+
+### Scientific Findings — Summary authoring rule
+
+Summarise the most relevant adjudicated findings and the overall evidence picture in a short reader-facing paragraph. State what the strongest evidence establishes, identify important convergence or differences in results, and preserve the studied context and principal inference boundary. Distinguish measured endpoints from inferred mechanisms. Reuse the existing Finding records and target-page numbered bibliography references. Do not substitute a mechanism walkthrough, nutrient inventory, list of section contents, or generic statement that “the findings below” support the biology. §4 explains how the process works; this Summary explains what its evidence shows. Where evidence is limited to biochemical or preclinical work, say so without manufacturing a human result. Summarise rather than enumerate every study; adapt length to the available evidence. Necessary biological wording may recur for clarity: the test is added evidence interpretation, not artificial variation. Preserve the stable `scientific_findings_intro` source field.

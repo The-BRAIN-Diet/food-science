@@ -14,7 +14,7 @@ export { BRS5_PM_EVIDENCE, BRS6_PM_EVIDENCE, BRS_X_PM_EVIDENCE };
 export const BRS1_PM_EVIDENCE = {
   "brs1-fm1-pm1-amino-acid-availability-and-prioritisation": {
     intro:
-      "The core biology of amino-acid availability is well established. The studies below do not redefine this mechanism; they highlight practical protein-adequacy findings that refine how meal-level substrate sufficiency is interpreted.",
+      "Human protein-handling evidence supports flexible amino-acid provision: larger protein boluses can sustain positive whole-body protein balance for several hours, while reviews emphasise digestible indispensable-amino-acid coverage and source quality rather than grams alone. [[9]](#pm-ref-9) [[10]](#pm-ref-10) These findings support interpreting sufficiency across the dietary pattern; they do not establish a rigid per-meal distribution rule or directly measure brain neurotransmitter synthesis. [[8]](#pm-ref-8) [[1]](#pm-ref-1)",
     blocks: [
       {
         heading: "Protein distribution and utilisation",
@@ -168,23 +168,6 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "mcnamara_role_2006", label: "McNamara & Carlson (2006)" },
     ],
   },
-  "brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance": {
-    intro:
-      "Excitatory–inhibitory balance biology is well established. The studies below highlight network-level E/I framing that refines how this integrative PM is interpreted — not condition-specific biomarker claims.",
-    blocks: [
-      {
-        heading: "Excitation–inhibition balance as a network property",
-        body: "Neural excitation and inhibition balance operates as a coordinated network property across inhibitory and excitatory signalling systems rather than as isolated transmitter effects [Mamiya et al., 2021].",
-      },
-    ],
-    referenceNoteKeys: [{ citation_key: "mamiya_precision_2021", label: "Mamiya et al. (2021)" }],
-  },
-  // BRS1-FM4-PM9 is migrated to the canonical Scientific Finding model: its §5.1
-  // is generated from `scientific_findings` front matter by
-  // `npm run findings:sync`. The former seed here attributed magnesium/NMDA and
-  // human PLP-dependent GAD biochemistry to Cataldo et al. (2024), a
-  // Levilactobacillus brevis study that supports neither claim; it was retracted
-  // during PM9 adjudication (historical ticket CC-PM8) and must not be reintroduced.
   "brs1-fm4-pm10-glutamate-clearance-and-recycling": {
     intro:
       "Glutamate clearance and recycling biology is well established. The studies below highlight uptake, recycling, and excitability context that refine how excitatory control is interpreted within BRS1(FM4).",

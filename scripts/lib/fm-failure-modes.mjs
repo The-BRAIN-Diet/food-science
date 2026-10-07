@@ -204,6 +204,11 @@ export function loadKcStressorMap(rootDir) {
 }
 
 export function insertFailureModesInSection4(section4, failureModes, evidenceBlock) {
+  if (/^### 4\.2 Evidence Summary/m.test(section4)) {
+    const preserved = failureModes || section4.match(/^### 4\.3 Suboptimal Function & Its Effects[\s\S]*/m)?.[0];
+    if (!preserved) throw new Error('FM Suboptimal Function account is missing');
+    return section4.replace(/^### 4\.3 Suboptimal Function & Its Effects[\s\S]*/m, preserved.trim());
+  }
   let body = section4.replace(/\n### 4\.4 Evidence Highlights[\s\S]*?(?=\n## 5\.|$)/, "");
   body = body.replace(/\n### 4\.3 Suboptimal Function & Its Effects[\s\S]*?(?=\n### 4\.4|\n## 5\.|$)/, "");
   body = body.replace(/\n### 4\.2 Supporting Biological Pools \(Key Constraints\)[\s\S]*?(?=\n### 4\.[23])/g, "");
@@ -223,6 +228,7 @@ export function insertFailureModesInSection4(section4, failureModes, evidenceBlo
 }
 
 export function extractEvidenceHighlightsBlock(section4) {
+  if (/^### 4\.2 Evidence Summary/m.test(section4)) return section4.match(/(?:<span id="44-evidence-highlights" \/>\s*\n)?### 4\.2 Evidence Summary[\s\S]*?(?=\n### 4\.3)/m)?.[0]?.trim() || '';
   const m = section4.match(/(### 4\.4 Evidence Highlights[\s\S]*?)(?=\n## 5\.|$)/);
   return m ? m[1].trim() : "";
 }

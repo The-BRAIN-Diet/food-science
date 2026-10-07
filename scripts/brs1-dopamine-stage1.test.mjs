@@ -28,13 +28,13 @@ function corePmFiles() {
   });
 }
 
-test("core framework and BRS1 PM totals reflect the dopamine insertion", () => {
+test("core framework and BRS1 PM totals reflect dopamine insertion and PM8 retirement", () => {
   const files = corePmFiles();
-  assert.equal(files.length, 52, "core BRS1–BRS6 total must be 52 PMs");
+  assert.equal(files.length, 51, "core BRS1–BRS6 total must be 51 active PMs after PM8 retirement");
   assert.equal(
     files.filter((file) => path.relative(BRS_ROOT, file).startsWith("brs1/")).length,
-    11,
-    "BRS1 must contain 11 PMs",
+    10,
+    "BRS1 must contain 10 active PMs after PM8 retirement",
   );
 });
 
@@ -284,7 +284,7 @@ test("renumbered public routes retain aliases from their former canonical routes
     ],
     [
       "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
-      "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
+      "brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation",
     ],
     [
       "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",

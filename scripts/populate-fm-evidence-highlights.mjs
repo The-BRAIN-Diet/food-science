@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Rebuild FM §4.4 Evidence Highlights from child PM §5.1 phenome-style entries.
+ * Rebuild FM §4.2 Evidence Summary from reviewed FM aggregation source.
  *
  * Usage:
  *   node scripts/populate-fm-evidence-highlights.mjs

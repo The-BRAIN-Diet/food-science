@@ -2,11 +2,11 @@
 title: Methyl Donor Pool
 kc_id: BRS2(KC1)
 parent_brs: BRS2
-summary: 'Maintain adequate one-carbon donor availability for homocysteine remethylation and methyl-group transfer across connected mechanisms.'
+summary: Maintain adequate one-carbon donor availability for homocysteine remethylation and methyl-group transfer across connected mechanisms.
 kc_evidence_review_status: canonical
 kc_input_traceability:
   - atom_id: BRS2-KC1-KIT-1
-    input: Folate
+    input: Vitamin B9 (folate)
     input_type: nutrient/substance
     biological_role: 'Provides 5-methyltetrahydrofolate, the methyl-group donor used by methionine synthase to remethylate homocysteine and replenish methionine for SAM synthesis.'
     evidence_source:
@@ -17,10 +17,13 @@ kc_input_traceability:
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    ikc_id: BRS2-KC1-KIT-1
+    substance_id: vitamin-b9
+    identity_status: resolved
   - atom_id: BRS2-KC1-KIT-2
     input: Choline
     input_type: precursor
-    biological_role: 'Dietary precursor that can be irreversibly oxidised to betaine, supplying methyl groups to the BHMT remethylation route and thereby supporting methionine and SAM availability.'
+    biological_role: 'Dietary precursor that can be irreversibly oxidised to betaine, supplying methyl groups to the BHMT remethylation route and thereby contributing to methionine regeneration upstream of SAM synthesis; this route does not itself establish a rise in SAM availability.'
     evidence_source:
       citation_keys:
         - zeisel_choline_2006
@@ -29,6 +32,9 @@ kc_input_traceability:
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    ikc_id: BRS2-KC1-KIT-2
+    substance_id: choline
+    identity_status: resolved
   - atom_id: BRS2-KC1-KIT-3
     input: Betaine
     input_type: substrate
@@ -41,8 +47,11 @@ kc_input_traceability:
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: modulation-demonstrated
+    ikc_id: BRS2-KC1-KIT-3
+    substance_id: betaine
+    identity_status: resolved
   - atom_id: BRS2-KC1-KIT-4
-    input: Vitamin B12
+    input: Vitamin B12 (cobalamin)
     input_type: cofactor
     biological_role: 'Cofactor for methionine synthase, enabling transfer of the methyl group from 5-methyltetrahydrofolate to homocysteine.'
     evidence_source:
@@ -52,9 +61,10 @@ kc_input_traceability:
     constraint_status: biochemical-requirement
     ikc_membership: excluded
     claim_ceiling: biological-dependency
+    ikc_id: BRS2(KC1)
 kc_constituent_presentations:
   - atom_id: BRS2-KC1-KIT-1
-    label: Folate
+    label: Vitamin B9 (folate)
     section: core-nutritional-requirements
   - atom_id: BRS2-KC1-KIT-2
     label: Choline
@@ -79,7 +89,7 @@ kc_emerging_support_traceability:
   - atom_id: BRS2-KC1-EBS-2
     input: Creatine supplementation
     input_type: nutrient/substance
-    biological_role: 'Feedback-suppresses endogenous creatine synthesis and thereby reduces precursor supply to the SAM-consuming guanidinoacetate methylation reaction.'
+    biological_role: Feedback-suppresses endogenous creatine synthesis and thereby reduces precursor supply to the SAM-consuming guanidinoacetate methylation reaction.
     evidence_source:
       citation_keys:
         - peters_creatine_2015
@@ -88,7 +98,7 @@ kc_emerging_support_traceability:
   - atom_id: BRS2-KC1-EBS-3
     input: Riboflavin supplementation in MTHFR 677TT
     input_type: cofactor precursor
-    biological_role: 'Provides the precursor for the FAD cofactor used by MTHFR and increased plasma SAM in a genotype-selected human intervention.'
+    biological_role: Provides the precursor for the FAD cofactor used by MTHFR and increased plasma SAM in a genotype-selected human intervention.
     evidence_source:
       citation_keys:
         - rooney_riboflavin_2020
@@ -104,46 +114,46 @@ kc_emerging_support_presentations:
     support_slug: riboflavin-mthfr-677tt
     label: Riboflavin for MTHFR 677TT-linked capacity
 references:
-  - >-
-    [Ducker and Rabinowitz (2017) — One-Carbon Metabolism in Health and
-    Disease](/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017)
-  - >-
-    [Obeid (2013) — Metabolic Burden of Methyl Donor
-    Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)
-  - >-
-    [Zeisel (2006) — Choline Requirements and Methyl-Group
-    Provision](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)
-  - >-
-    [Froese et al. (2019) — Vitamin B12, Folate and Methionine
-    Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)
-  - >-
-    [Olthof et al. (2003) — Low-Dose Betaine and Plasma
-    Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
-  - >-
-    [Peters et al. (2015) — Creatine, Guanidinoacetate and Methyl-Cycle
-    Biomarkers](/docs/papers/BRAIN-Diet-References#peters_creatine_2015)
-  - >-
-    [Stead et al. (2001) — Creatine Provision, Methyl Demand and
-    Homocysteine](/docs/papers/BRAIN-Diet-References#stead_creatine_2001)
-  - >-
-    [Loehrer et al. (1997) — Oral SAMe and Plasma One-Carbon
-    Metabolites](/docs/papers/BRAIN-Diet-References#loehrer_same_1997)
-  - >-
-    [Yang et al. (2009) — Oral and Intravenous SAMe
-    Pharmacokinetics](/docs/papers/BRAIN-Diet-References#yang_same_2009)
-  - >-
-    [Mischoulon et al. (2012) — SAMe Bioavailability and One-Carbon
-    Metabolites](/docs/papers/BRAIN-Diet-References#mischoulon_same_2012)
-  - >-
-    [Gören et al. (2004) — SAMe Bioavailability and
-    Tolerability](/docs/papers/BRAIN-Diet-References#goren_same_2004)
-  - >-
-    [Sharma et al. (2017) — SAMe Clinical Safety and Interaction
-    Review](/docs/papers/BRAIN-Diet-References#sharma_same_2017)
-  - >-
-    [Rooney et al. (2020) — Riboflavin, MTHFR 677TT and One-Carbon
-    Metabolites](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)
+  - '[Ducker and Rabinowitz (2017) — One-Carbon Metabolism in Health and Disease](/docs/papers/BRAIN-Diet-References#ducker_one-carbon_2017)'
+  - '[Obeid (2013) — Metabolic Burden of Methyl Donor Deficiency](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)'
+  - '[Zeisel (2006) — Choline Requirements and Methyl-Group Provision](/docs/papers/BRAIN-Diet-References#zeisel_choline_2006)'
+  - '[Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)'
+  - '[Olthof et al. (2003) — Low-Dose Betaine and Plasma Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)'
+  - '[Peters et al. (2015) — Creatine, Guanidinoacetate and Methyl-Cycle Biomarkers](/docs/papers/BRAIN-Diet-References#peters_creatine_2015)'
+  - '[Stead et al. (2001) — Creatine Provision, Methyl Demand and Homocysteine](/docs/papers/BRAIN-Diet-References#stead_creatine_2001)'
+  - '[Loehrer et al. (1997) — Oral SAMe and Plasma One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#loehrer_same_1997)'
+  - '[Yang et al. (2009) — Oral and Intravenous SAMe Pharmacokinetics](/docs/papers/BRAIN-Diet-References#yang_same_2009)'
+  - '[Mischoulon et al. (2012) — SAMe Bioavailability and One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#mischoulon_same_2012)'
+  - '[Gören et al. (2004) — SAMe Bioavailability and Tolerability](/docs/papers/BRAIN-Diet-References#goren_same_2004)'
+  - '[Sharma et al. (2017) — SAMe Clinical Safety and Interaction Review](/docs/papers/BRAIN-Diet-References#sharma_same_2017)'
+  - '[Rooney et al. (2020) — Riboflavin, MTHFR 677TT and One-Carbon Metabolites](/docs/papers/BRAIN-Diet-References#rooney_riboflavin_2020)'
 hide_title: true
+ikc_identity_version: constituent-v2
+legacy_ikc_references:
+  - ikc_id: BRS2(KC1)
+    meaning: 'Legacy whole-pool relationship; retained for compatibility, not a constituent identity.'
+individual_key_constraints:
+  - ikc_id: BRS2-KC1-KIT-1
+    title: Vitamin B9 (folate)
+    kc_atom_id: BRS2-KC1-KIT-1
+    substance_id: vitamin-b9
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+  - ikc_id: BRS2-KC1-KIT-3
+    title: Betaine
+    kc_atom_id: BRS2-KC1-KIT-3
+    substance_id: betaine
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/bioactive-compounds/choline-methylation/betaine
+  - ikc_id: BRS2-KC1-KIT-2
+    title: Choline
+    kc_atom_id: BRS2-KC1-KIT-2
+    substance_id: choline
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/bioactive-compounds/choline-methylation/choline
 ---
 
 <p class="brs-pm-thumbnail-wrap">
@@ -172,13 +182,19 @@ Maintain adequate folate- and betaine-linked methyl-group input to sustain homoc
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Folate
+- Vitamin B9 (folate)
 - Choline
 - Betaine
 
 </div>
 </div>
 </div>
+### Membership and applicability boundary
+
+The registered constituents are **Vitamin B9 (folate), betaine and choline**. Folate supplies the carrier/substrate forms used by the folate remethylation route; betaine supplies the alternative methyl donor, and choline can supply betaine. This is a named shared donor-resource network, not an exhaustive inventory of all one-carbon sources or a claim that every constituent supplies every connected reaction ([Froese et al., 2019](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019); [Obeid, 2013](/docs/papers/BRAIN-Diet-References#obeid_metabolic_2013)).
+
+Canonical membership establishes identity within this pool. Each PM separately adjudicates **Supported upstream supply**, **Conditional constraint**, or an unresolved/not-established relationship. A limiting effect, tissue-wide response or benefit from extra intake cannot be inherited from membership. Vitamin B12 supports the folate reaction as a cofactor and remains outside KC1 membership. SAMe supplementation, creatine and genotype-specific riboflavin remain separately labelled emerging support, not additional registered members.
+
 ### 3. Evidence Base
 
 #### Summary
@@ -192,11 +208,11 @@ This constraint concerns methyl-group supply from folate and betaine for homocys
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="folate">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="folate-evidence-panel" aria-label="Expand Folate evidence details">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-controls="folate-evidence-panel" aria-label="Expand Vitamin B9 (folate) evidence details">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <div class="brs-evidence-title-wrap">
-<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="folate-evidence-panel">Folate</button>
+<button type="button" class="brs-evidence-title-trigger brs-fm-hub-title" aria-expanded="false" aria-controls="folate-evidence-panel">Vitamin B9 (folate)</button>
 </div>
 </div>
 <div id="folate-evidence-panel" class="brs-fm-hub-panel" hidden>
@@ -380,6 +396,14 @@ Phosphatidylcholine was not carried forward as a separate candidate because its 
 - [BRS2-FM1-PM3 - SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
 - [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
 - [BRS2-FM3-PM7 - Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
+
+#### Independently reviewed cross-BRS supply connections
+
+These PM-owned links establish bounded upstream supply, not a uniform constraint on the connected PMs. Individual constituents and limitations are recorded on each PM; membership is not inherited.
+
+- [BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation) — folate, betaine and choline supply the connected methionine/SAM resource route used by COMT; regional neural contribution and limiting effect remain unresolved.
+- [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) — separately adjudicated methionine/SAM supply upstream of COMT; peripheral remethylation is not neuronal BHMT or a proven change in signalling.
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — choline contribution to the methyl-derived LPC-DHA carrier route; folate/betaine individual admissions and donor limitation remain unresolved.
 
 ### 6. Key References
 

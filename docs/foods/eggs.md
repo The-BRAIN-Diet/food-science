@@ -14,7 +14,10 @@ tags:
   - Lutein
   - Zeaxanthin
   - Carotenoid
+  - Cysteine
 list_image: /img/foods/eggs/eggs_thumb.webp
+public_display:
+  cystine_mg: internal-only
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 143
@@ -28,6 +31,7 @@ nutrition_per_100g:
   dha_mg: 58
   linoleic_g: 1.531
   protein_g: 12.56
+  cystine_mg: 272
   iron_mg: 1.75
   magnesium_mg: 12
   phosphorus_mg: 198
@@ -72,6 +76,13 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 272 mg per 100 g of Egg, whole, raw, fresh (FDC 171287). One
+      large egg (50 g) contains 136 mg. Composition only; not a
+      glutathione-synthesis result.
 main_image: /img/foods/eggs/eggs_medium.webp
 legacy_list_image: /img/foods/eggs/eggs_thumb.webp
 legacy_main_image: /img/foods/eggs/eggs_medium.webp
@@ -83,6 +94,14 @@ import NutritionTable from "@site/src/components/NutritionTable";
 Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. The yolk concentrates highly bioavailable **lutein** and **zeaxanthin** (xanthophyll carotenoids relevant to retinal and neural antioxidant context), alongside **selenium** and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
 
 **Protein profile:** Complete essential amino acid profile.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Eggs supply cystine, which contributes to cysteine availability. This raw whole egg contains **272 mg per 100 g**, and **136 mg in one large egg (50 g)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
 
 ## Food Context
 

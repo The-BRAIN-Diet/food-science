@@ -188,12 +188,26 @@ function resolveScrollTarget(target: HTMLElement, hash: string): HTMLElement {
 }
 
 function scrollHashTargetIntoView(target: HTMLElement): void {
+  const item =
+    target.closest<HTMLElement>('li.reference-item') ||
+    (target.id.startsWith('pm-ref-') ? target.closest<HTMLElement>('li') : null) ||
+    target;
   const scroll = () => {
-    target.scrollIntoView({ block: 'start', behavior: 'auto' });
+    item.scrollIntoView({ block: 'start', behavior: 'auto' });
   };
   requestAnimationFrame(() => {
     requestAnimationFrame(scroll);
   });
+}
+
+let hashRetryTimer = 0;
+let hashRetryAttempts = 0;
+
+function scheduleHashRetry(root: ParentNode, options: { force?: boolean }): void {
+  if (typeof window === 'undefined' || hashRetryAttempts >= 25) return;
+  hashRetryAttempts += 1;
+  window.clearTimeout(hashRetryTimer);
+  hashRetryTimer = window.setTimeout(() => openHubTargetFromHash(root, options), 100);
 }
 
 let lastPathname = '';
@@ -228,6 +242,8 @@ function resetHashStateForPathname(): void {
   lastPathname = pathname;
   lastAutoOpenedHash = '';
   dismissedHash = '';
+  hashRetryAttempts = 0;
+  if (typeof window !== 'undefined') window.clearTimeout(hashRetryTimer);
 }
 
 function dismissHashForItem(item: HTMLElement): void {
@@ -253,7 +269,11 @@ function openHubTargetFromHash(
   }
 
   const target = findHashTarget(hash, root);
-  if (!target) return;
+  if (!target) {
+    scheduleHashRetry(root, options);
+    return;
+  }
+  hashRetryAttempts = 0;
 
   openHubAncestors(target);
   lastAutoOpenedHash = hash;

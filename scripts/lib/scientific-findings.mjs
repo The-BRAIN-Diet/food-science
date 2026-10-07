@@ -487,7 +487,7 @@ export function renderScientificFindingsSection(data, { sectionNum = 4, subNum =
   return [
     `### ${sectionNum}.${subNum} ${SCIENTIFIC_FINDINGS_SECTION_TITLE}`,
     "",
-    "#### Introduction/Summary",
+    "#### Summary",
     "",
     intro,
     "",

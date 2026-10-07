@@ -79,6 +79,7 @@ export const BIOACTIVE_LIPID_KEYS: readonly string[] = [
   "arginine_g",
   "glycine_g",
   "methionine_g",
+  "cystine_mg",
 ]
 
 export const NUTRIENT_ORDER: readonly string[] = [
@@ -142,6 +143,7 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   arginine_g: {label: "Arginine", unit: "g"},
   glycine_g: {label: "Glycine", unit: "g"},
   methionine_g: {label: "Methionine", unit: "g"},
+  cystine_mg: {label: "Cystine", unit: "mg"},
 }
 
 export const SUBSTANCE_LABEL_ALIASES: Record<string, string[]> = {
@@ -177,6 +179,8 @@ export const SUBSTANCE_LABEL_ALIASES: Record<string, string[]> = {
   zeaxanthin: ["Zeaxanthin", "Lutein + zeaxanthin"],
   "beta-glucans": ["Beta-Glucans", "Beta-glucan"],
   "beta-glucan": ["Beta-Glucans", "Beta-glucan"],
+  cystine: ["Cystine", "Cysteine"],
+  cysteine: ["Cystine", "Cysteine"],
 }
 
 export function normaliseSubstanceLabel(value: string): string {
@@ -231,6 +235,7 @@ const AMINO_ACID_KEYS = new Set([
   "arginine_g",
   "glycine_g",
   "methionine_g",
+  "cystine_mg",
 ])
 
 const AMINO_ACID_LABELS = new Set([

@@ -2,20 +2,26 @@
 id: lentils
 title: Lentils
 sidebar_label: Lentils
-description: 'Legume rich in protein, fibre, folate, iron, and prebiotics'
+description: Folate-rich legume with plant protein, fibre and non-haem iron
+eaa_profile_applicable: true
 tags:
   - Food
   - Lentils
   - Vegan
   - Vegetarian
+  - Vitamin B9
   - Iron
-  - Magnesium
   - Zinc
-  - Potassium
+  - Cysteine
 list_image: /img/foods/lentils/lentils_thumb.webp
-amino_acid_strengths: 'Lysine-rich relative to grains; good plant source of iron, zinc, and folate.'
-limiting_amino_acids: Lower in methionine and cysteine (DIAAS 65–70).
-complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+amino_acid_strengths: Lysine, relative to grains.
+limiting_amino_acids: >-
+  Combined methionine plus cysteine is the lowest ratio to the 1991 FAO pattern
+  in the cited cooked-lentil assay. That score is separate from cystine per serving.
+complementary_pairings: >-
+  Grains such as rice, oats or barley across the day. Eating them in the same meal is optional.
+public_display:
+  cystine_mg: internal-only
 nutrition_per_100g:
   beta_carotene_ug: 23
   vitamin_b3_mg: 2.605
@@ -45,6 +51,7 @@ nutrition_per_100g:
   calcium_mg: 35
   potassium_mg: 677
   zinc_mg: 3.27
+  cystine_mg: 322
   selenium_ug: 0.1
   vitamin_k_ug: 5
   pufa_18_3_unresolved_mg: 112
@@ -55,45 +62,77 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+nutrition_supplementary_sources:
+  - key: cystine_cooked_mg
+    label: Cystine (cooked, boiled)
+    value: 118
+    unit: mg
+    public_display: internal-only
+    notes: >-
+      Per 100 g of boiled mature lentils. A separate preparation from the dry-seed cystine row.
+    source_note: >-
+      USDA FoodData Central, Lentils, mature seeds, cooked, boiled, without salt,
+      FDC 172421. Nutrient name Cystine, 0.118 g per 100 g. Household cup 198 g,
+      about 234 mg cystine. Different food from the dry seed, FDC 172420, which
+      has a 192 g cup and about 618 mg cystine.
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 322 mg per 100 g of Lentils, raw (FDC 172420). Cooked boiled
+      lentils are a separate food (FDC 172421, 118 mg per 100 g). Composition
+      only; not a glutathione-synthesis result.
 main_image: /img/foods/lentils/lentils_medium.webp
 legacy_list_image: /img/foods/lentils/lentils_thumb.webp
 legacy_main_image: /img/foods/lentils/lentils_medium.webp
 ---
-import NutritionTable from "@site/src/components/NutritionTable";
-
 ## Overview
 
-Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes. Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health.
+Lentils provide plant protein, fibre, folate and non-haem iron, with very little fat. They are a versatile base for soups, salads and stews, and a useful part of meals containing little or no meat.
 
-Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately. Soaking and sprouting reduce phytates in legumes. Pairing with vitamin C–rich foods improves non-haem iron absorption in mixed meals; that is mixed-meal evidence, not a lentil-feeding trial [1].
+Whole brown, green and black lentils retain their seed coat and generally hold their shape when cooked. Split red and yellow lentils are usually dehulled, cook faster and soften readily, making them well suited to soups and dahls.
+
+## Other Nutritional Highlights
+
+- **Folate:** Lentils contribute to dietary folate intake, supporting normal one-carbon metabolism.
+- **Plant protein and fibre:** They contribute both within a varied dietary pattern.
+- **Non-haem iron:** Lentils supply iron, although phytate affects its absorption. Including vitamin C–rich foods in the meal can help improve non-haem iron absorption [3].
+
+## Advanced Nutrition
+
+### Amino acids
+
+Lentils supply cystine, which contributes to cysteine availability. Representative composition values are **118 mg per 100 g of boiled lentils**, or approximately **234 mg in a 198 g cooked cup**. Dry lentils contain approximately **322 mg per 100 g**; this is an ingredient-weight comparison, not a cooked serving.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
+
+### Protein quality
+
+In the studied cooked whole green and split red lentils, **methionine plus cysteine** had the lowest amino-acid score relative to the 1991 reference requirement pattern. “Limiting” describes that relative balance; it does not mean lentils lack these amino acids or make no useful contribution [1].
+
+The study measured protein digestibility in rats, so its digestibility-adjusted scores are not direct measurements of adult-human dietary adequacy. A varied diet can provide complementary amino-acid profiles without requiring lentils and grains to be eaten in the same meal [1,2].
 
 ## Food Context
 
+### Sourcing
+
+- Whole brown, green and black lentils keep the seed coat. Red and yellow lentils are often split and dehulled, and they cook to a softer texture.
+- Lentil polyphenols sit mainly in the seed coat. Proanthocyanidins were characterised there, mostly as polymers. Dehulled split lentils should not be treated as the same polyphenol food as whole lentils [4].
+
 ### Synergies
 
-- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
-- Pair with vitamin C sources to enhance iron absorption; Hallberg 1989 is mixed-meal iron-absorption evidence, not a lentil trial [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+- Include a vitamin C–rich food in the same meal if raising non-haem iron absorption is the aim [3].
 
 ### Preparation
 
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability
-- Source of prebiotic fiber (GOS - galactooligosaccharides) supporting gut microbiome health
+- Cook lentils until soft. Cooking presoaked lentils removed trypsin-inhibitor activity and lowered phytic acid. Tannins and catechins increased, and the size of the change depended on the variety [5].
+- A 9-hour soak cut α-galactosides by 45–100%. Little of that loss was found in the soak water, and cooking afterwards changed those sugars only slightly [6].
+- Split lentils soften without a long soak. Soak whole lentils when the aim is fewer of these oligosaccharides [6]. The lentil processing studies did not measure iron absorption, so a soak is not evidence that more iron will be absorbed [5,6].
+- Sprouting for several days is not the same as an overnight soak. After 6 days of germination, trypsin-inhibitor activity and phytic acid fell, while tannins and catechins rose [5].
 
 ### Essential Amino Acid Profile
 
-Lentils provide a strong plant protein source but are not a complete protein.
-
-Notable amino acids:
-
-- Lysine
-
-Limiting amino acids:
-
-- Methionine and cysteine (DIAAS ~65–70)
-
-Protein pairing strategy:
-
-Lentils are rich in lysine but relatively low in sulfur-containing amino acids. Combining lentils with grains such as [rice](/docs/foods/rice), [oats](/docs/foods/oats), barley, or other grains helps create a more balanced essential amino acid profile.
+Lentils contribute plant protein, with lysine relatively abundant compared with grains. The methionine-plus-cysteine score, and the cystine amount in a serving, are set out under Advanced Nutrition [1,2].
 
 ## Recipes
 
@@ -107,4 +146,14 @@ Lentils are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
-[1] Hallberg et al. (1989). [Vitamin C and non‑heme iron absorption in human studies](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
+[1] Nosworthy et al. (2017). [Determination of the protein quality of cooked Canadian pulses](/docs/papers/BRAIN-Diet-References#nosworthy_cooked_pulses_2017). Cooked Canadian whole green and split red lentils, cooked without soaking, then analysed on a dry-matter basis. Table 3 cysteine is from performic-acid oxidation (whole green 0.26 g cysteine and 0.21 g methionine per 100 g dry matter; split red 0.22 g and 0.22 g), not the as-eaten cystine row. On the 1991 FAO pattern, methionine plus cysteine was the lowest ratio: amino-acid score 0.714, true protein digestibility 87.89% and PDCAAS 0.628 for whole green lentils; amino-acid score 0.594, true protein digestibility 90.60% and PDCAAS 0.538 for split red lentils. DIAAS used fecal protein digestibility rather than ileal amino-acid digestibility: 0.58 and 0.50. No cooked pulse in the set reached 0.75. Rat assay, not an adult-human adequacy measurement. Green-lentil PDCAAS was 0.63, against 0.51 cited for an average lentil.
+
+[2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not a lentil digestibility trial.
+
+[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human iron-absorption series: phytate inhibits non-haem iron absorption in a dose-dependent way; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a lentil trial.
+
+[4] Dueñas et al. (2003). [Proanthocyanidin Composition in the Seed Coat of Lentils (Lens culinaris L.)](/docs/papers/BRAIN-Diet-References#duenas_lentil_seed_coat_2003). Lentil polyphenols are located essentially in the seed coat. In that coat, proanthocyanidin polymers were 65–75% (mean degree of polymerization 7–9) and oligomers 20–30%. Seed-coat composition, not a feeding trial and not a retail comparison of split versus whole lentils.
+
+[5] Vidal-Valverde et al. (1994). [Effect of processing on some antinutritional factors of lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_antinutrients_1994). Soaking lowered phytic acid without changing trypsin-inhibitor activity, and tannins and catechins rose. Cooking presoaked seeds removed trypsin-inhibitor activity and reduced phytic acid further; tannins and catechins increased. Six-day germination greatly reduced trypsin inhibitor and phytic acid. Effects varied by variety. Iron absorption was not measured.
+
+[6] Vidal-Valverde et al. (1992). [Effect of Processing on the Soluble Carbohydrate Content of Lentils](/docs/papers/BRAIN-Diet-References#vidal_valverde_lentils_carbohydrate_1992). A 9-hour soak reduced α-galactosides by 45–100%, and only 1–10% of those losses were recovered in the soak water. Cooking the soaked lentils changed α-galactoside content only slightly.

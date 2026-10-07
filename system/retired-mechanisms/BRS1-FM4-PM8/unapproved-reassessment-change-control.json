@@ -1,0 +1,212 @@
+{
+  "status": "Stage 2A/2B draft — not approved",
+  "mission": "Keep excitatory glutamate and inhibitory GABA signalling matched so neural networks operate with stability.",
+  "canonical_changed": false,
+  "decisions": [
+    {
+      "record_id": "PM8-DIT-3",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "disposition": "supported",
+      "relationship_layer": "dietary-requirement",
+      "dietary_classification": "direct",
+      "derived_target": null,
+      "biological_role": "PLP is required by GAD for endogenous GABA synthesis, supporting the inhibitory signalling capacity on which PM8 depends.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_rajeswari_1984"
+        ]
+      },
+      "limitations": "An intracellular cofactor requirement; PLP is formed from B6 vitamers. This does not establish a need to ingest PLP itself, additional-intake benefit or corrected E/I balance.",
+      "kc_applicability": "no established mapping",
+      "phenome_outcome": "not established by dependency alone"
+    },
+    {
+      "record_id": "PM8-DIT-4",
+      "input": "Vitamin B6",
+      "disposition": "supported",
+      "relationship_layer": "dietary-requirement",
+      "dietary_classification": "derived",
+      "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "biological_role": "B6 vitamers provide precursors for PLP, supporting GAD-dependent GABA synthesis within the endogenous inhibitory arm.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "lee_human_2000",
+          "pm8_fenalti_2007",
+          "pm8_rajeswari_1984",
+          "pm8_guilarte_1989"
+        ]
+      },
+      "limitations": "Supported capacity/provision chain, not proof that extra B6 improves signalling balance in adequately supplied people. Deficiency findings are age/model dependent; PLP is not GABA-specific.",
+      "kc_applicability": "no established mapping",
+      "phenome_outcome": "not established by dependency alone"
+    },
+    {
+      "record_id": "PM8-DIT-5",
+      "input": "Glutamate",
+      "disposition": "supported",
+      "relationship_layer": "biochemical-requirement",
+      "dietary_classification": "not-admitted",
+      "derived_target": null,
+      "biological_role": "Intracellular glutamate is the immediate GAD substrate for GABA synthesis and the transmitter used by the excitatory arm.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F11",
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_liang_2006",
+          "pm8_nakamura_2013"
+        ]
+      },
+      "limitations": "Endogenous synthesis, neuronal uptake and recycling contribute. This does not establish a requirement to consume glutamate, MSG or a separate protein delivery category.",
+      "kc_applicability": "no established mapping",
+      "phenome_outcome": "not established by dependency alone"
+    },
+    {
+      "record_id": "PM8-DIT-6",
+      "input": "Glutamine",
+      "disposition": "supported",
+      "relationship_layer": "biochemical-requirement",
+      "dietary_classification": "not-admitted",
+      "derived_target": null,
+      "biological_role": "Astrocytic glutamine supplies neuronal glutamate and can sustain activity-dependent vesicular GABA release through the glutamate–GABA–glutamine cycle.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_liang_2006"
+        ]
+      },
+      "limitations": "Endogenous, compartment-specific recycling; experimental bath rescue is not oral supplementation efficacy, an indispensable dietary glutamine requirement or universal dependence of resting transmission.",
+      "kc_applicability": "no established mapping",
+      "phenome_outcome": "not established by dependency alone"
+    },
+    {
+      "record_id": "PM8-DIT-7",
+      "input": "Vitamin B2 (riboflavin)",
+      "disposition": "conditionally-admitted",
+      "relationship_layer": "dietary-requirement",
+      "dietary_classification": "derived",
+      "derived_target": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "biological_role": "Riboflavin is converted to FMN, enabling PNPO-dependent conversion of pyridoxine/pyridoxamine phosphates to PLP for the endogenous GABA-synthesis supply route.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F14",
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "pm8_karthikeyan_2003",
+          "pm8_musayev_2003",
+          "pm8_fenalti_2007"
+        ]
+      },
+      "limitations": "Conditional provision route: direct pyridoxal phosphorylation bypasses PNPO. No B2 intake threshold, ordinary-status limitation or improvement of E/I balance from additional intake is established.",
+      "kc_applicability": "no established mapping",
+      "phenome_outcome": "not established by dependency alone"
+    },
+    {
+      "record_id": "PM8-DIT-1",
+      "input": "GABA (isolated oral exposure; preclinical)",
+      "disposition": "moved",
+      "original_destination": "3.1.1",
+      "retained_destination": "3.2",
+      "retained_record_id": "PM8-SOP-2",
+      "rationale": "Biomarker/receptor results do not establish the target PM governed matched E/I state for Direct requirement admission; separately qualified bounded experimental intervention.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F7"
+        ],
+        "citation_keys": [
+          "pm8_xu_2025"
+        ]
+      },
+      "limitations": "Mouse gavage and a regional ELISA endpoint; not microbial GABA tracing, a dietary necessity, demonstrated circuit balance, ordinary-food equivalence or human benefit.",
+      "history": "previous-pass/records.json"
+    },
+    {
+      "record_id": "PM8-DIT-2",
+      "input": "Lacticaseibacillus rhamnosus JB-1 (preclinical)",
+      "disposition": "moved",
+      "original_destination": "3.1.1",
+      "retained_destination": "3.2",
+      "retained_record_id": "PM8-SOP-3",
+      "rationale": "Biomarker/receptor results do not establish the target PM governed matched E/I state for Direct requirement admission; separately qualified bounded experimental intervention.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F6"
+        ],
+        "citation_keys": [
+          "bravo_ingestion_2011",
+          "pm8_janik_2016",
+          "pm8_kelly_2017"
+        ]
+      },
+      "limitations": "Strain-specific mouse effects; bacterial GABA mediation and synaptic E/I correction were not isolated. A healthy-male human trial did not improve assessed stress, cognitive or EEG outcomes.",
+      "history": "previous-pass/records.json"
+    }
+  ],
+  "kc_reviews": [
+    {
+      "kc_id": "BRS1(KC1)",
+      "ikc_id": "BRS1(KC1)",
+      "arm_id": "amino-acid-quality",
+      "applicability_proposition": "The current BRS1(KC1) monoamine-precursor LNAA competitive pool constrains PM8 endogenous GABA/glutamate signalling capacity.",
+      "disposition": "unresolved",
+      "established_links": [
+        "Current KC constituents are tryptophan, tyrosine and phenylalanine in the monoamine LAT1 competitive pool; the broad IAA-quality construct is excluded by the KC record.",
+        "GAD uses neuronal glutamate and PLP; activity-dependent inhibitory supply uses astrocyte–neuron glutamine recycling (PM8-F11/F12)."
+      ],
+      "inferred_links": [
+        "A separate monoamine-to-PM8 constraint route would need evidence; amino-acid naming or general protein quality does not establish it."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F11",
+          "PM8-F12"
+        ],
+        "citation_keys": [
+          "pm8_fenalti_2007",
+          "pm8_liang_2006",
+          "fernstrom_lnna_2013"
+        ]
+      },
+      "rationale": "The current KC definition no longer includes the historical broad IAA-quality construct. No mapping is admitted: a monoamine-pool inadequacy/imbalance-to-PM8 capacity constraint remains unestablished and requires a separate supported chain. The missing link is not proof that monoamines never influence E/I circuits. Historical unresolved identity is retained in the audit; no canonical iKC was invented."
+    },
+    {
+      "kc_id": "BRS1(KC1)",
+      "ikc_id": "BRS1(KC1)",
+      "arm_id": "competitive-lat1",
+      "applicability_proposition": "Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain this mechanism’s governed excitation–inhibition capacity.",
+      "disposition": "evidence-supported-non-application",
+      "established_links": [
+        "Network E/I balance is a circuit property once transmitters are in place (PM8-F1).",
+        "Fernstrom 2013’s LAT1 cargo set is large neutral amino acids, not glutamate or GABA."
+      ],
+      "inferred_links": [
+        "LAT1 imbalance would change amino-acid presentation and thereby constrain E/I capacity."
+      ],
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "mamiya_precision_2021",
+          "fernstrom_lnna_2013"
+        ]
+      },
+      "rationale": "The named competitive state is LAT1 LNAA balance. Glutamate and GABA are not that cargo set. Delivery inference does not apply this arm to E/I capacity."
+    }
+  ],
+  "full_candidate_review": "reassessment-report.md",
+  "phenome_review": "phenome-anxiety-addendum.md",
+  "remaining_validation_conflict": "reassessment-verification.md"
+}

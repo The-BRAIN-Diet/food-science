@@ -1,29 +1,25 @@
 ---
-title: Keystone Taxa Support
+title: Microbial Barrier–Immune Interface Support
 pm_id: BRS5-FM1-PM3
 mission: >-
-  Maintain a resilient gut microbial ecosystem that supports beneficial
-  metabolite production and gut–brain signalling.
+  Support intestinal mucus maintenance and mucosal immune regulation through
+  defined microbial activities.
 summary: >-
-  Keystone taxa (groups of related microorganisms) help maintain a healthy gut
-  ecosystem by supporting fibre fermentation, beneficial metabolite production
-  and gut–brain communication. Although they may represent only a small
-  proportion of the microbiome, they perform functions that help stabilise the
-  wider microbial community. Dietary pattern, plant diversity and fermentable
-  fibres influence whether these beneficial communities remain resilient or
-  gradually lose functional capacity.
+  Some gut microbes help maintain the mucus layer that separates the intestinal
+  contents from the gut lining, and they influence local immune responses. These
+  functions matter because a protective mucus barrier reduces unwanted microbial
+  contact, while appropriately regulated immunity helps prevent inflammatory
+  injury. This PM concerns those protective microbial activities.
 parent_fm: BRS5(FM1)
 parent_brs: BRS5
-key_constraints:
-  - BRS5(KC1) - Fermentable Fibre Availability
-  - BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability
-cofactors:
-  - fermentable fibre
-  - polyphenols
-intervention_dominance: Diet-Dominant
-intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Pattern-based ecological support rather than strain-only logic
+key_constraints: []
+cofactors: []
+intervention_dominance: Diet-Supported
+intervention_breakdown: Food-State Leaning
+timing_specific: 'No'
+dose_sensitivity: >-
+  Effects depend on the exact preparation, strain and experimental context; no
+  human dosing or timing target is established.
 references:
   - >-
     [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children
@@ -43,6 +39,14 @@ references:
     [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in
     Young Patients with
     ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+  - >-
+    [Schroeder et al. (2018) — Bifidobacteria or Fiber Protects against
+    Diet-Induced Microbiota-Mediated Colonic Mucus
+    Deterioration](/docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018)
+  - >-
+    [Mazmanian et al. (2008) — A microbial symbiosis factor prevents intestinal
+    inflammatory
+    disease](/docs/papers/BRAIN-Diet-References#mazmanian_symbiosis_2008)
 hide_title: true
 phenome_relationships:
   - target_phenome: Motivation / Drive
@@ -85,6 +89,321 @@ phenome_relationships:
         label: Wang et al. (2022)
         citation_key: wang_effect_2022
         href: /docs/papers/BRAIN-Diet-References#wang_effect_2022
+scientific_findings_intro: >-
+  Defined microbial contributions are supported by strain- and
+  component-specific experimental measurements. Composition and symptom studies
+  remain contextual; they do not establish these actions.
+scientific_findings:
+  - id: PM3-F1
+    finding_label: A defined strain and fibre preparation affect distinct mucus properties
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Microbial contributions to mucus function can be tested independently of
+      taxon abundance.
+    finding_interpretation: >-
+      This is a strain-specific mouse result, not a generic Bifidobacterium
+      effect or a human dietary requirement. The responsible microbial effector
+      was not identified. Mucus growth, penetrability and epithelial
+      tight-junction permeability are different endpoints.
+    finding_statement: >-
+      Bifidobacterium longum NCC2705 can prevent impaired colonic mucus growth
+      in a Western-diet mouse model.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Schroeder et al. compared B. longum NCC2705, oligofructose-enriched inulin
+      and their combination. The strain prevented impaired mucus growth; inulin
+      alone prevented increased mucus penetrability. These were distinct
+      responses, and mucus thickness did not change.
+    synthesis_limitations: >-
+      This is a strain-specific mouse result, not a generic Bifidobacterium
+      effect or a human dietary requirement. The responsible microbial effector
+      was not identified. Mucus growth, penetrability and epithelial
+      tight-junction permeability are different endpoints.
+    evidence_considered:
+      - label: Schroeder et al. (2018)
+        citation_key: schroeder_bifidobacteria_2018
+        href: /docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          NCC2705 prevented the mucus growth defect, while inulin separately
+          prevented increased penetrability.
+        assessment:
+          study: Controlled Western-diet mouse intervention; Results and Figure 6
+          population: >-
+            Mice receiving B. longum NCC2705, 1% oligofructose-enriched inulin,
+            both, or vehicle for four weeks
+          result: >-
+            Strain treatment preserved mucus growth; inulin preserved
+            penetrability; neither changed thickness.
+          effect_magnitude: >-
+            Mucus growth comparison: p=0.006 for strain alone, p=0.005 for the
+            combination; inulin penetrability comparison: p=0.007.
+          evidence_summary: >-
+            Measured host-interface functions distinguish the treatments;
+            microbial abundance alone would not establish these effects.
+          limitations: >-
+            No human effect or generic food claim; component mediation
+            unresolved.
+    connected_supportive_evidence: []
+  - id: PM3-F2
+    finding_label: A defined microbial molecule can regulate mucosal immune responses
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Microbial effector identity matters more than a broad beneficial-taxon
+      label.
+    finding_interpretation: >-
+      Experimental animal and cell evidence does not establish a generic
+      Bacteroides benefit, a dietary admission, or efficacy in humans. The
+      publisher abstract and figure descriptions were inspected; complete
+      subscription results were not available.
+    finding_statement: >-
+      Bacteroides fragilis polysaccharide A can protect against experimental
+      intestinal inflammation through an IL-10-dependent immune response.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Mazmanian et al. compared PSA-expressing and PSA-deficient B. fragilis and
+      tested purified PSA. Protection against experimental colitis required PSA
+      and IL-10-producing CD4 cells; local pro-inflammatory responses were
+      measured.
+    synthesis_limitations: >-
+      Experimental animal and cell evidence does not establish a generic
+      Bacteroides benefit, a dietary admission, or efficacy in humans. The
+      publisher abstract and figure descriptions were inspected; complete
+      subscription results were not available.
+    evidence_considered:
+      - label: Mazmanian et al. (2008)
+        citation_key: mazmanian_symbiosis_2008
+        href: /docs/papers/BRAIN-Diet-References#mazmanian_symbiosis_2008
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: PSA-dependent protection required IL-10-producing CD4 cells.
+        assessment:
+          study: >-
+            PSA-expressing versus PSA-deficient bacterial and purified-component
+            experiments; publisher abstract and Figures 1–5 descriptions
+          population: >-
+            Experimental intestinal inflammation in animals, with complementary
+            cell experiments
+          result: >-
+            PSA-dependent protection and modulation of local cytokine responses
+            were reported.
+          effect_magnitude: >-
+            No quantitative effect size extracted from the accessible
+            abstract/figure descriptions.
+          evidence_summary: >-
+            Identifies a microbial effector–immune relationship distinct from
+            community substrate competition.
+          limitations: >-
+            Full subscription text unavailable; no human clinical or food
+            inference.
+    connected_supportive_evidence:
+      - label: Jiang et al. (2018)
+        citation_key: jiang_gut_2018
+        href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
+        data_level: Human Study
+        why_relevant: >-
+          Composition and symptom associations provide clinical microbiome
+          context.
+        why_excluded: >-
+          No dietary manipulation, microbial effector or barrier/immune endpoint
+          establishing this job.
+      - label: Aarts et al. (2017)
+        citation_key: aarts_gut_2017
+        href: /docs/papers/BRAIN-Diet-References#aarts_gut_2017
+        data_level: Human Study
+        why_relevant: Predicted precursor potential was associated with reward-related fMRI.
+        why_excluded: >-
+          Prediction is not measured precursor flux or host-interface activity;
+          precursor handling belongs to PM8.
+      - label: Pärtty et al. (2015)
+        citation_key: partty_possible_2015
+        href: /docs/papers/BRAIN-Diet-References#partty_possible_2015
+        data_level: Human Study
+        why_relevant: >-
+          Early-life LGG ATCC 53103 exposure, bacterial measurements and later
+          diagnoses remain useful developmental context.
+        why_excluded: >-
+          Does not establish fermented-food, fibre-selection or barrier/immune
+          mediation claims.
+      - label: Wang et al. (2022)
+        citation_key: wang_effect_2022
+        href: /docs/papers/BRAIN-Diet-References#wang_effect_2022
+        data_level: Human Study
+        why_relevant: >-
+          Open-label B. bifidum Bf-688 exposure accompanied symptoms and
+          composition changes.
+        why_excluded: >-
+          Single-arm observations do not identify barrier/immune action or
+          establish a genus-wide keystone function.
+      - label: Prehn-Kristensen et al. (2018)
+        citation_key: prehn-kristensen_reduced_2018
+        href: /docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018
+        data_level: Human Study
+        why_relevant: Case–control diversity differences provide observational context.
+        why_excluded: >-
+          No microbial effector test, dietary modifiability or universal
+          diversity target.
+dietary_input_traceability:
+  - atom_id: PM3-DIT-1
+    input: Oligofructose-enriched inulin
+    input_type: food component
+    biological_role: >-
+      In Western-diet mice, this inulin preparation prevented increased
+      inner-colonic mucus penetrability; mucus growth was not restored.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - schroeder_bifidobacteria_2018
+    evidence_limitation: >-
+      A defined mouse exposure, not an indispensable nutrient or a human dose
+      recommendation. The responsible microbial effector was not isolated;
+      combining it with NCC2705 did not preserve the penetrability effect.
+  - atom_id: PM3-DIT-2
+    input: Bifidobacterium longum NCC2705
+    input_type: defined dietary exposure
+    biological_role: >-
+      Administering this exact strain prevented reduced colonic mucus growth in
+      Western-diet mice.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - schroeder_bifidobacteria_2018
+    evidence_limitation: >-
+      Strain-specific preclinical modulation does not establish a human dietary
+      requirement, clinical benefit or equivalence to fermented foods.
+      Penetrability and thickness were not restored by the strain.
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-1
+    relationship_layer: dietary-requirement
+    requirement_classification: direct
+    relationship_mode: state-regulation
+    dietary_addressability: direct
+    claim_ceiling: modulation-demonstrated
+    permitted_wording: >-
+      In Western-diet mice, this inulin preparation prevented increased
+      inner-colonic mucus penetrability; mucus growth was not restored.
+    evidence_limitation: >-
+      A defined mouse exposure, not an indispensable nutrient or a human dose
+      recommendation. The responsible microbial effector was not isolated;
+      combining it with NCC2705 did not preserve the penetrability effect.
+  - atom_id: PM3-DIT-2
+    relationship_layer: dietary-requirement
+    requirement_classification: direct
+    relationship_mode: state-regulation
+    dietary_addressability: direct
+    claim_ceiling: modulation-demonstrated
+    permitted_wording: >-
+      Administering this exact strain prevented reduced colonic mucus growth in
+      Western-diet mice.
+    evidence_limitation: >-
+      Strain-specific preclinical modulation does not establish a human dietary
+      requirement, clinical benefit or equivalence to fermented foods.
+      Penetrability and thickness were not restored by the strain.
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-1
+    label: Oligofructose-enriched inulin
+    presentation_section: 3.1.1
+    reader_description: >-
+      This inulin preparation preserved the mucus layer’s resistance to
+      penetration in the studied mouse model.
+    description_finding_id: PM3-F1
+  - atom_id: PM3-DIT-2
+    label: Bifidobacterium longum NCC2705
+    presentation_section: 3.1.1
+    reader_description: >-
+      This specific bacterial strain supported colonic mucus growth in
+      Western-diet mice.
+    description_finding_id: PM3-F1
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: >-
+      Defined orally delivered preparations altered distinct mucus endpoints in
+      mice. Evidence supports bounded experimental modulation, not dietary
+      indispensability.
+    scope_note: >-
+      Preclinical state-regulation entries are not human nutritional necessities
+      or recommendations.
+    routes:
+      - group_id: '3.1'
+        evidence_basis: intervention-effect
+        intervention_effect: >-
+          The exact strain preserved mucus growth and the exact inulin
+          preparation preserved penetrability in Western-diet mice.
+        context: Western-diet mouse intervention.
+        limitations: >-
+          No demonstrated human translation; endpoints and preparations are not
+          interchangeable.
+        evidence_source:
+          finding_ids:
+            - PM3-F1
+          citation_keys:
+            - schroeder_bifidobacteria_2018
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.1'
+    rationale: >-
+      Defined dietary-facing interventions address the revised mucus job
+      directly in the studied model, making this the principal documented route
+      within that context.
+    comparative_limitations: >-
+      Principal placement is bounded to the assessed evidence; comparative
+      superiority over other routes and general human dominance are not
+      established.
+    assessments:
+      - group_id: '3.1'
+        relevance: Interventions change mucus growth or penetrability.
+        directness: Directly administered interventions with measured mucus endpoints.
+        extent: >-
+          One preclinical model and two distinct endpoints; immune-effector
+          dietary addressability remains unresolved.
+kc_applicability_adjudications:
+  - kc_id: BRS5(KC1)
+    ikc_id: BRS5(KC1)
+    arm_id: fermentable-fibre-sufficiency
+    applicability_proposition: >-
+      Inadequacy of the defined shared fermentable pool constrains the specific
+      microbial mucus or immune contribution.
+    disposition: unresolved
+    established_links:
+      - >-
+        A defined inulin preparation altered mucus penetrability in mice; exact
+        microbial effector not established.
+    inferred_links:
+      - >-
+        A distinct shared-pool bottleneck, rather than the same provision
+        relationship, has not been established for this PM.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - schroeder_bifidobacteria_2018
+    rationale: >-
+      KC-owned membership and provision do not settle PM applicability or
+      distinctness. Repeated public provision would be consolidated;
+      independently substantiated parent-FM integration is deferred.
+    remaining_gap: >-
+      Establish the named shared-pool capacity constraint and its PM-specific
+      chain; for a separate public disclosure identify a distinct biological job
+      beyond provision. An end-to-end human assay is not universally required.
+  - kc_id: BRS5(KC2)
+    ikc_id: BRS5(KC2)
+    arm_id: combined-polyphenol-plant-diversity
+    disposition: evidence-supported-non-application
+    applicability_proposition: >-
+      The proposed combined polyphenol/plant-diversity pool supplies a coherent
+      shared limiting resource for this PM.
+    rationale: >-
+      The existing KC2 review rejects this combined pool as incoherent; no
+      admitted iKC is inherited. This does not reject all constituent
+      interventions.
+    evidence_review: system/brs5-kc2-evidence-review.md
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -94,18 +413,40 @@ phenome_relationships:
   />
 </p>
 
-## BRS5-FM1-PM3 - Keystone Taxa Support
+## BRS5-FM1-PM3 - Microbial Barrier–Immune Interface Support
 
-(Maintaining Beneficial Microbial Communities & Gut Ecosystem Function)
+(Defined Microbial Contributions to Mucus and Immune Function)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
-Maintain a resilient gut microbial ecosystem that supports beneficial metabolite production and gut–brain signalling.
+
+Support intestinal mucus maintenance and mucosal immune regulation through defined microbial activities.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Diet-Supported
+
+### Overview
+
+Some gut microbes help maintain the mucus layer that separates the intestinal contents from the gut lining, and they influence local immune responses. These functions matter because a protective mucus barrier reduces unwanted microbial contact, while appropriately regulated immunity helps prevent inflammatory injury. This PM concerns those protective microbial activities. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
+
+- **Benefits:** Maintaining protective mucus and regulated local immunity can help protect the gut lining from microbial contact and inflammatory injury. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
+- **Implementation Notes:** Oligofructose-enriched inulin is the studied fibre preparation, and it is distinct from Bifidobacterium longum NCC2705. They are not interchangeable, and no routine human regimen is established here. [[6]](#pm-ref-6)
+- **Biological Relevance:** Mucus maintenance and protection from experimental intestinal inflammation are separate microbial actions, not one general gut benefit. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
+
+## 2. Primary Biological Effects
+
+Strain-specific support of mucus growth; microbial-effector-dependent modulation of local immune responses. These are experimental capacities, not universal abundance targets.
+
+## 3. Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** Diet-Supported
+
+- **Intervention Breakdown:** Food-State Leaning
+- **Timing Specific:** No
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -123,9 +464,8 @@ Maintain a resilient gut microbial ecosystem that supports beneficial metabolite
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- GOS/inulin/pectin ← ecological support inputs
-- Polyphenol-rich foods ← berries, green tea, cocoa
-- Fermented foods ← supportive ecological context
+- Oligofructose-enriched inulin
+- Bifidobacterium longum NCC2705
 
 </div>
 </div>
@@ -139,8 +479,7 @@ Maintain a resilient gut microbial ecosystem that supports beneficial metabolite
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- fermentable fibre
-- polyphenols
+No additional cofactor or substrate requirement is established for the defined microbial contributions.
 
 </div>
 </div>
@@ -154,30 +493,7 @@ Maintain a resilient gut microbial ecosystem that supports beneficial metabolite
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">(Key Constraint) (KC1) — Fermentable Fibre Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Inulin/GOS ← onions, chicory, legumes
-- Pectin/soluble fibre ← oats, apples, flax seeds
-- Resistant starch ← cooled potatoes, cooled rice, green bananas
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">(Key Constraint) (KC2) — Polyphenol & Plant-Diversity Input Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Microbiome-active polyphenols ← berries, green tea, cocoa, pomegranate
-- Plant-diversity inputs ← herbs, spices, legumes, whole grains
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -187,18 +503,6 @@ Maintain a resilient gut microbial ecosystem that supports beneficial metabolite
 </div>
 
 </div>
-### Overview
-
-Keystone taxa (groups of related microorganisms) help maintain a healthy gut ecosystem by supporting fibre fermentation, beneficial metabolite production and gut–brain communication. Although they may represent only a small proportion of the microbiome, they perform functions that help stabilise the wider microbial community. Dietary pattern, plant diversity and fermentable fibres influence whether these beneficial communities remain resilient or gradually lose functional capacity.
-
-* Supports beneficial microbial communities that sustain fibre fermentation and gut–brain signalling.
-* Maintains ecological resilience supporting gut barrier integrity and balanced immune function.
-* Highlights dietary diversity and fermentable fibres as key drivers of long-term microbial stability.
-
-## 2. Primary Biological Effects
-↑ beneficial taxa abundance/function; ↓ inflammatory microbial drift
-
-## 3. Intervention Levers
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -207,10 +511,8 @@ Keystone taxa (groups of related microorganisms) help maintain a healthy gut eco
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
 
-- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Soak overnight to reduce phytates and improve mineral bioavailability — see [Oats — Preparation](/docs/foods/oats#preparation).
+No distinct preparation, supplementation or other optimisation practice is established beyond the bounded input relationships above.
 
 </div>
 </div>
@@ -224,8 +526,7 @@ Keystone taxa (groups of related microorganisms) help maintain a healthy gut eco
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Repeated pattern quality matters more than short probiotic “bursts”.
-- Highly restrictive, low-variety eating may work against keystone support over time.
+No mechanism-specific lifestyle lever is established by the assessed evidence.
 
 </div>
 </div>
@@ -235,132 +536,29 @@ Keystone taxa (groups of related microorganisms) help maintain a healthy gut eco
 
 ### Summary
 
-BRS5-FM1-PM3 links fermentable fibres, polyphenol-rich plant inputs, and fermented-food support to ecological conditions more favourable for beneficial taxa and functional guilds [Jiang et al., 2018; Pärtty et al., 2015; Aarts et al., 2017].
+Defined microbes can contribute to mucus maintenance and local immune regulation through distinguishable actions Schroeder et al. (2018) [[6]](#pm-ref-6); Mazmanian et al. (2008) [[7]](#pm-ref-7). The contribution must be tested at the strain, effector or evidenced functional-guild level; a genus label or composition association does not identify its biological job.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Keystone taxa and functional guild support</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+### Defined microbial actions at the host interface
 
-#### (Guild support, not deterministic strain claims)
+B. longum NCC2705 preserved mucus growth in a Western-diet mouse experiment, while inulin affected penetrability separately Schroeder et al. (2018) [[6]](#pm-ref-6). B. fragilis PSA-dependent immune protection illustrates a component-specific action Mazmanian et al. (2008) [[7]](#pm-ref-7). Neither establishes a generic food or taxon-abundance prescription.
 
-This PM is best interpreted as support for beneficial ecological guilds and functions, not as a deterministic claim about one strain universally rising in all individuals.
+### Mechanism boundary
 
-#### (Dietary support logic)
+Community substrate competition belongs to PM4. Epithelial tight-junction regulation belongs to PM1 and endotoxin containment to PM2. SCFA signalling, polyphenol conversion and precursor processing remain with PM5, PM6 and PM8. A shared study may inform connected stages without giving this PM ownership of all downstream outcomes.
 
-GOS, inulin, pectin, polyphenol-rich foods, and fermented-food patterns create ecological conditions more compatible with beneficial taxa persistence and function.
+### Measurement boundaries
 
-#### (Responder variability)
+Mucus growth, penetrability and thickness are distinct outcomes. The inulin preparation and NCC2705 affected different mucus properties; taxon abundance cannot substitute for these measurements. [[6]](#pm-ref-6)
 
-Because microbiome response is heterogeneous, the most defensible framing is supportive ecological pressure rather than guaranteed taxa-level outcomes.
+### 4.1 Scientific Findings
 
-</div>
-</div>
-</div>
+#### Summary
 
-### 4.1 Evidence Highlights
+Defined microbial contributions are supported by strain- and component-specific experimental measurements. Composition and symptom studies remain contextual; they do not establish these actions.
 
-#### Introduction/Summary
+<ScientificFinding finding={{"id":"PM3-F1","finding_label":"A defined strain and fibre preparation affect distinct mucus properties","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Microbial contributions to mucus function can be tested independently of taxon abundance.","finding_interpretation":"This is a strain-specific mouse result, not a generic Bifidobacterium effect or a human dietary requirement. The responsible microbial effector was not identified. Mucus growth, penetrability and epithelial tight-junction permeability are different endpoints.","finding_statement":"Bifidobacterium longum NCC2705 can prevent impaired colonic mucus growth in a Western-diet mouse model.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Schroeder et al. compared B. longum NCC2705, oligofructose-enriched inulin and their combination. The strain prevented impaired mucus growth; inulin alone prevented increased mucus penetrability. These were distinct responses, and mucus thickness did not change.","synthesis_limitations":"This is a strain-specific mouse result, not a generic Bifidobacterium effect or a human dietary requirement. The responsible microbial effector was not identified. Mucus growth, penetrability and epithelial tight-junction permeability are different endpoints.","evidence_considered":[{"label":"Schroeder et al. (2018)","citation_key":"schroeder_bifidobacteria_2018","href":"/docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"NCC2705 prevented the mucus growth defect, while inulin separately prevented increased penetrability.","assessment":{"study":"Controlled Western-diet mouse intervention; Results and Figure 6","population":"Mice receiving B. longum NCC2705, 1% oligofructose-enriched inulin, both, or vehicle for four weeks","result":"Strain treatment preserved mucus growth; inulin preserved penetrability; neither changed thickness.","effect_magnitude":"Mucus growth comparison: p=0.006 for strain alone, p=0.005 for the combination; inulin penetrability comparison: p=0.007.","evidence_summary":"Measured host-interface functions distinguish the treatments; microbial abundance alone would not establish these effects.","limitations":"No human effect or generic food claim; component mediation unresolved."},"canonical_reference":{"author_year":"Schroeder et al. (2018)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
 
-Keystone taxa and functional-guild ecology is well established. The studies below do not restate microbiome composition; they highlight ecological-support and early-life probiotic findings that refine how beneficial taxa persistence is interpreted — not condition-specific outcome claims.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Compositional shifts in beneficial taxa guilds</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Gut microbiota profiling shows compositional differences in taxa such as Bifidobacterium and Faecalibacterium across cohorts — supporting keystone-guild interpretation as an ecological property rather than a single deterministic strain effect [Jiang et al., 2018]; [Aarts et al., 2017].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#aarts_gut_2017","label":"Aarts et al. (2017)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Early probiotic ecological support</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Early Lactobacillus rhamnosus GG exposure influenced Bifidobacterium ecology in infancy, illustrating how fermented-food and probiotic patterns can shape keystone taxa context over developmental time [Pärtty et al., 2015].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#partty_possible_2015","label":"Pärtty et al. (2015)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary ecological pressure rather than strain-only logic</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Fermentable fibres, polyphenol-rich plant inputs, and fermented-food patterns create ecological conditions more compatible with beneficial taxa persistence — the support logic this PM operationalises [Jiang et al., 2018]; [Pärtty et al., 2015].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#partty_possible_2015","label":"Pärtty et al. (2015)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Probiotic intervention in ADHD cohorts</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Open-label Bifidobacterium bifidum supplementation in children with ADHD was associated with symptom change and altered gut microbiota composition — illustrating keystone-taxa modulation as an intervention route, with replication and controlled-trial evidence still limited [Wang et al., 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#wang_effect_2022","label":"Wang et al. (2022)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Responder variability in taxa response</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Microbiome compositional responses to dietary inputs are heterogeneous across individuals, supporting pattern-based ecological pressure rather than guaranteed taxa-level outcomes [Aarts et al., 2017].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#aarts_gut_2017","label":"Aarts et al. (2017)"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM3-F2","finding_label":"A defined microbial molecule can regulate mucosal immune responses","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Microbial effector identity matters more than a broad beneficial-taxon label.","finding_interpretation":"Experimental animal and cell evidence does not establish a generic Bacteroides benefit, a dietary admission, or efficacy in humans. The publisher abstract and figure descriptions were inspected; complete subscription results were not available.","finding_statement":"Bacteroides fragilis polysaccharide A can protect against experimental intestinal inflammation through an IL-10-dependent immune response.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mazmanian et al. compared PSA-expressing and PSA-deficient B. fragilis and tested purified PSA. Protection against experimental colitis required PSA and IL-10-producing CD4 cells; local pro-inflammatory responses were measured.","synthesis_limitations":"Experimental animal and cell evidence does not establish a generic Bacteroides benefit, a dietary admission, or efficacy in humans. The publisher abstract and figure descriptions were inspected; complete subscription results were not available.","evidence_considered":[{"label":"Mazmanian et al. (2008)","citation_key":"mazmanian_symbiosis_2008","href":"/docs/papers/BRAIN-Diet-References#mazmanian_symbiosis_2008","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"PSA-dependent protection required IL-10-producing CD4 cells.","assessment":{"study":"PSA-expressing versus PSA-deficient bacterial and purified-component experiments; publisher abstract and Figures 1–5 descriptions","population":"Experimental intestinal inflammation in animals, with complementary cell experiments","result":"PSA-dependent protection and modulation of local cytokine responses were reported.","effect_magnitude":"No quantitative effect size extracted from the accessible abstract/figure descriptions.","evidence_summary":"Identifies a microbial effector–immune relationship distinct from community substrate competition.","limitations":"Full subscription text unavailable; no human clinical or food inference."},"canonical_reference":{"author_year":"Mazmanian et al. (2008)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[{"label":"Jiang et al. (2018)","citation_key":"jiang_gut_2018","href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","data_level":"Human Study","why_relevant":"Composition and symptom associations provide clinical microbiome context.","why_excluded":"No dietary manipulation, microbial effector or barrier/immune endpoint establishing this job.","canonical_reference":{"author_year":"Jiang et al. (2018)","number":1,"anchor":"#pm-ref-1"}},{"label":"Aarts et al. (2017)","citation_key":"aarts_gut_2017","href":"/docs/papers/BRAIN-Diet-References#aarts_gut_2017","data_level":"Human Study","why_relevant":"Predicted precursor potential was associated with reward-related fMRI.","why_excluded":"Prediction is not measured precursor flux or host-interface activity; precursor handling belongs to PM8.","canonical_reference":{"author_year":"Aarts et al. (2017)","number":3,"anchor":"#pm-ref-3"}},{"label":"Pärtty et al. (2015)","citation_key":"partty_possible_2015","href":"/docs/papers/BRAIN-Diet-References#partty_possible_2015","data_level":"Human Study","why_relevant":"Early-life LGG ATCC 53103 exposure, bacterial measurements and later diagnoses remain useful developmental context.","why_excluded":"Does not establish fermented-food, fibre-selection or barrier/immune mediation claims.","canonical_reference":{"author_year":"Pärtty et al. (2015)","number":2,"anchor":"#pm-ref-2"}},{"label":"Wang et al. (2022)","citation_key":"wang_effect_2022","href":"/docs/papers/BRAIN-Diet-References#wang_effect_2022","data_level":"Human Study","why_relevant":"Open-label B. bifidum Bf-688 exposure accompanied symptoms and composition changes.","why_excluded":"Single-arm observations do not identify barrier/immune action or establish a genus-wide keystone function.","canonical_reference":{"author_year":"Wang et al. (2022)","number":4,"anchor":"#pm-ref-4"}},{"label":"Prehn-Kristensen et al. (2018)","citation_key":"prehn-kristensen_reduced_2018","href":"/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018","data_level":"Human Study","why_relevant":"Case–control diversity differences provide observational context.","why_excluded":"No microbial effector test, dietary modifiability or universal diversity target.","canonical_reference":{"author_year":"Prehn-Kristensen et al. (2018)","number":5,"anchor":"#pm-ref-5"}}]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -372,15 +570,16 @@ Keystone taxa and functional-guild ecology is well established. The studies belo
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
-- [BRS6-FM1-PM3 - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — biological connection relevant to this mechanism
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — microbial and diet-associated immune responses provide context for downstream inflammatory signalling; no specific mediator is established here.
+- [BRS6-FM1-PM3 - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — metabolic outcomes require separate assessment; the microbial findings here do not establish a human metabolic benefit.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity)
-- [BRS5-FM1-PM2 - LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment)
+- [BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — host tight-junction machinery governs selective permeability; microbial mucus effects do not establish that endpoint.
+- [BRS5-FM1-PM2 - LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — host exposure to endotoxin is a separate downstream question from a defined microbial action.
+- [BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — community resource competition is distinct from a defined microbial host-interface action.
 
 ## 7. Phenome Connections
 
@@ -434,9 +633,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Gut microbiome composition linked to neural reward anticipation in ADHD positions keystone taxa support as a biological node intersecting motivation-relevant gut–brain signalling — not a direct reward-intervention claim.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#aarts_gut_2017","label":"Aarts et al. (2017)"}]} />
 </div>
 </div>
 </div>
@@ -457,16 +653,16 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018","label":"Prehn-Kristensen et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#wang_effect_2022","label":"Wang et al. (2022)"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
-- [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
-- [Pärtty et al. (2015) — A Randomized Trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
-- [Aarts et al. (2017) — Gut Microbiome in ADHD and Its Relation to Neural Reward Anticipation](/docs/papers/BRAIN-Diet-References#aarts_gut_2017)
-- [Wang et al. (2022) — Effect of Bifidobacterium bifidum on Clinical Characteristics and Gut Microbiota in ADHD](/docs/papers/BRAIN-Diet-References#wang_effect_2022)
-- [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+
+- <span id="pm-ref-1">[1]</span> [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
+- <span id="pm-ref-2">[2]</span> [Pärtty et al. (2015) — A Randomized Trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+- <span id="pm-ref-3">[3]</span> [Aarts et al. (2017) — Gut Microbiome in ADHD and Its Relation to Neural Reward Anticipation](/docs/papers/BRAIN-Diet-References#aarts_gut_2017)
+- <span id="pm-ref-4">[4]</span> [Wang et al. (2022) — Effect of Bifidobacterium bifidum on Clinical Characteristics and Gut Microbiota in ADHD](/docs/papers/BRAIN-Diet-References#wang_effect_2022)
+- <span id="pm-ref-5">[5]</span> [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- <span id="pm-ref-6">[6]</span> [Schroeder et al. (2018) — Bifidobacteria or Fiber Protects against Diet-Induced Microbiota-Mediated Colonic Mucus Deterioration](/docs/papers/BRAIN-Diet-References#schroeder_bifidobacteria_2018)
+- <span id="pm-ref-7">[7]</span> [Mazmanian et al. (2008) — A microbial symbiosis factor prevents intestinal inflammatory disease](/docs/papers/BRAIN-Diet-References#mazmanian_symbiosis_2008)

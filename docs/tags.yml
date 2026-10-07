@@ -96,6 +96,11 @@ Choline:
   permalink: /choline
   description: Essential nutrient
 
+Betaine:
+  label: Betaine
+  permalink: /betaine
+  description: Trimethylglycine from food and from choline oxidation; methyl donor for BHMT
+
 CoQ10:
   label: CoQ10
   permalink: /coq10
@@ -120,6 +125,11 @@ Creatine:
   label: Creatine
   permalink: /creatine
   description: Amino acid derivative
+
+Cysteine:
+  label: Cysteine
+  permalink: /cysteine
+  description: Sulfur amino acid the body can make from methionine; food tables report the disulfide as cystine
 
 Curcumin:
   label: Curcumin
@@ -1847,3 +1857,8 @@ Polyphenols:
   label: Polyphenols
   permalink: /polyphenols
   description: Plant polyphenols with antioxidant and neuroprotective properties
+
+Spermidine:
+  label: Spermidine
+  permalink: /spermidine
+  description: Dietary and endogenous polyamine with experimental cellular-maintenance evidence

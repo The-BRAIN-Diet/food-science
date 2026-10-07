@@ -75,7 +75,6 @@ export const HUB_OPTIMISATION_LEVERS = {
           "to protect delicate marine fats during cooking and support ongoing brain membrane health over time.",
         match_pm_ids: [
           "BRS1-FM3-PM7",
-          "BRS1-FM4-PM8",
           "BRS1-FM4-PM11",
           "BRS1-FM1-PM4",
         ],
@@ -90,7 +89,7 @@ export const HUB_OPTIMISATION_LEVERS = {
         action: "Soak or sprout phytate-rich seeds and legumes when mineral density matters",
         explanation:
           "to improve plant zinc and mineral bioavailability that supports neurotransmission cofactor chemistry.",
-        match_pm_ids: ["BRS1-FM4-PM8", "BRS1-FM4-PM9", "BRS1-FM2-PM6"],
+        match_pm_ids: [ "BRS1-FM4-PM9", "BRS1-FM2-PM6"],
       },
       {
         action: "Pair iron-containing foods with vitamin C and meal-context enhancers",
@@ -161,13 +160,13 @@ export const HUB_OPTIMISATION_LEVERS = {
         action: "Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds",
         explanation:
           "to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.",
-        match_pm_ids: ["BRS3-FM2-PM3", "BRS3-FM2-PM6"],
+        match_pm_ids: ["BRS3-FM2-PM6"],
       },
       {
         action: "Prepare cruciferous vegetables to retain myrosinase-linked activity",
         explanation:
           "to support sulforaphane yield that feeds NRF2-linked antioxidant defence chemistry.",
-        match_pm_ids: ["BRS3-FM2-PM3", "BRS3-FM2-PM5", "BRS3-FM2-PM6"],
+        match_pm_ids: ["BRS3-FM2-PM5", "BRS3-FM2-PM6"],
       },
       {
         action: "Soak or sprout phytate-rich seeds and legumes when mineral density matters",

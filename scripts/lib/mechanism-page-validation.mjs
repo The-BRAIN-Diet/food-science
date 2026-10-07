@@ -1,3 +1,5 @@
+import { validateFmSynthesisLayout } from './fm-synthesis-layout.mjs';
+import pmLeverLayout from "../../src/plugin/pm-lever-layout/index.cjs";
 /**
  * FM / PM mechanism page validation (JS layer).
  * timing_specific is required ontology front matter; visible "## N. Timing Specific" body sections are forbidden.
@@ -28,6 +30,7 @@ import {
   validateSinglePmFmOutcomeAlignment,
 } from "./phenome-relationships.mjs";
 import { validateDietaryLeverAtoms } from "./dietary-lever-atoms.mjs";
+import { validateStructuredVitaminLabels } from "./nutrient-naming.mjs";
 import {
   PM_SECTION_6_2_TITLE,
   PM_SECTION_6_3_TITLE,
@@ -41,6 +44,7 @@ import {
   validateKcOwnedEvidence,
   validateKcCoreMembershipProjection,
   validatePmKcGovernance,
+  validateConstituentIdentityRecords,
 } from "./kc-evidence-governance.mjs";
 import { validatePmReferenceIntegrity } from "./pm-reference-index.mjs";
 
@@ -68,7 +72,7 @@ const INTERVENTION_SUMMARY_HEADING = /^##\s+3\.\s+Intervention Summary\s*$/m;
 const LEGACY_INTERVENTION_BREAKDOWN_HEADING = /^##\s+3\.\s+Intervention Breakdown\s*$/m;
 const ANY_INTERVENTION_SECTION_HEADING = /^##\s+\d+\.\s+Intervention (Summary|Breakdown)\s*$/m;
 // Levers is §3 in the canonical PM order and §4 in the legacy one.
-const LEVERS_SECTION_HEADING = /^##\s+[34]\.\s+Levers\s*$/m;
+const LEVERS_SECTION_HEADING = /^##\s+(?:3\.\s+Intervention Levers|[34]\.\s+Levers)\s*$/m;
 
 export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-CROSS"]);
 
@@ -527,8 +531,12 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
     );
   }
 
+  for (const message of pmLeverLayout.validateDominanceAssessment(data)) {
+    pushIssue(issues, "invalid_intervention_dominance_assessment", `${entityLabel}: ${message}`);
+  }
+
   const dominance = data.intervention_dominance;
-  if (dominance && !INTERVENTION_DOMINANCE_VALUES.has(String(dominance).trim())) {
+  if (!data.intervention_dominance_assessment && dominance && !INTERVENTION_DOMINANCE_VALUES.has(String(dominance).trim())) {
     pushIssue(
       issues,
       "invalid_intervention_dominance",
@@ -545,7 +553,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
   }
 
   const leversExtracted = extractLeversSectionBody(content);
-  if (leversExtracted && !forbidBodySection) {
+  if (leversExtracted && !forbidBodySection && !data.intervention_dominance_assessment && !/^##\s+3\.\s+Intervention Levers\s*$/m.test(content)) {
     validateInterventionProfileInLevers(leversExtracted.block, issues, {
       entityLabel,
       dominance: data.intervention_dominance,
@@ -699,16 +707,16 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
       `${entityLabel}: Evidence Highlights section number must match Mechanistic Basis (e.g. ### 4.4 under ## 4. Mechanistic Basis)`,
     );
   }
-  if (evSub !== 4 && /Integrated FM Narrative/.test(mechanistic.title)) {
+  if (evSub !== 2 && /Integrated FM Narrative/.test(mechanistic.title)) {
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: on FM pages use ### 4.4 Evidence Highlights (§4.3 is Suboptimal Function & Its Effects)`,
+      `${entityLabel}: on FM pages use ### 4.2 Evidence Summary before §4.3 Suboptimal Function & Its Effects`,
     );
   }
 }
 
-/** FM synthesis contract: no intervention sections; §5 Connected Mechanisms. PM links live in §4.1 only. */
+/** FM synthesis contract: no intervention sections; §5 Connected Mechanisms. PM/KC navigation lives above section 1. */
 const FM_FORBIDDEN_BODY_SECTIONS = [
   "Dietary Levers",
   "Lifestyle Levers",
@@ -802,61 +810,8 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
       : content.indexOf(nextMajor.line, mbStart + 1);
   const mbBlock = mbStart === -1 ? "" : content.slice(mbStart, mbEnd);
 
-  if (/^### 4\.2 Supporting Biological Pools \(Key Constraints\)/m.test(mbBlock)) {
-    pushIssue(
-      issues,
-      "fm_forbidden_kc_subsection",
-      `${entityLabel}: do not use ### 4.2 Supporting Biological Pools (Key Constraints); render Supporting Key Constraint Pools after the §4 opening paragraph and before ### 4.1, derived from constituent PM → KC mappings`,
-    );
-  }
+  issues.push(...validateFmSynthesisLayout(data, content));
 
-  for (const [sub, label] of [
-    ["4.1 Core Primary Mechanisms", "§4.1 Core Primary Mechanisms"],
-    ["4.2 Integrated Functional Narrative", "§4.2 Integrated Functional Narrative"],
-    ["4.3 Suboptimal Function & Its Effects", "§4.3 Suboptimal Function & Its Effects"],
-  ]) {
-    const subPattern = sub.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    if (mechanistic && !new RegExp(`^### ${subPattern}`, "m").test(mbBlock)) {
-      pushIssue(
-        issues,
-        "fm_integrated_narrative_subsection",
-        `${entityLabel}: §4 must include ### ${label}`,
-      );
-    }
-  }
-
-  const hasKcs = Array.isArray(data.key_constraints) && data.key_constraints.length > 0;
-  if (hasKcs && mechanistic && !/^### 4\.3 Suboptimal Function & Its Effects/m.test(mbBlock)) {
-    pushIssue(
-      issues,
-      "fm_missing_failure_modes",
-      `${entityLabel}: §4 must include ### 4.3 Suboptimal Function & Its Effects when key_constraints are linked`,
-    );
-  }
-
-  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock) && !/^### 4\.3 Suboptimal Function & Its Effects/m.test(mbBlock)) {
-    pushIssue(
-      issues,
-      "fm_missing_failure_modes",
-      `${entityLabel}: canonical §4 requires ### 4.3 Suboptimal Function & Its Effects before ### 4.4 Evidence Highlights`,
-    );
-  }
-
-  if (/^### 4\.3 Evidence Highlights/m.test(mbBlock)) {
-    pushIssue(
-      issues,
-      "fm_evidence_highlights_subsection",
-      `${entityLabel}: move Evidence Highlights to ### 4.4 Evidence Highlights (§4.3 is Suboptimal Function & Its Effects)`,
-    );
-  }
-
-  if (mechanistic && !/^### 4\.4 Evidence Highlights/m.test(mbBlock)) {
-    pushIssue(
-      issues,
-      "fm_missing_evidence_highlights",
-      `${entityLabel}: §4 must include ### 4.4 Evidence Highlights before phenome Phase 2 (run npm run mechanisms:migrate-fm-schema)`,
-    );
-  }
 }
 
 /** §1 may use Definition, Mission & Overview (legacy), or Mission, Objective & Biological Context (PM Profile A). */
@@ -1111,8 +1066,8 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
   const layout = pmSectionNumbers(content);
   if (byLevel.has(layout.levers)) {
     const leversTitle = String(byLevel.get(layout.levers));
-    if (leversTitle !== "Levers") {
-      pushIssue(issues, "pm_section4", `${entityLabel}: §${layout.levers} must be Levers`);
+    if (!["Levers", "Intervention Levers"].includes(leversTitle)) {
+      pushIssue(issues, "pm_section4", `${entityLabel}: §${layout.levers} must be Intervention Levers (or legacy Levers)`);
     }
   }
   if (byLevel.has(layout.pathways)) {
@@ -1257,6 +1212,8 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel, pageKin
           ? got.startsWith(want)
           : want === "BRS Pathways and Connections"
             ? got.startsWith("BRS Pathways")
+            : want === "Levers"
+            ? ["Levers", "Intervention Levers"].includes(got)
             : got === want;
       if (!ok) {
         pushIssue(
@@ -1372,7 +1329,7 @@ function validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, ex
   }
 }
 
-function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
+function validatePmPage(filePath, { canonicalKcIndex = null, identityContext = {} } = {}) {
   const { data, content } = readMechanismPage(filePath);
   const entityLabel = data.pm_id || path.basename(filePath);
   const issues = [];
@@ -1390,10 +1347,13 @@ function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
     data.system_optimisation_practices?.length ||
     data.lifestyle_priorities?.length
   ) {
-    validateDietaryLeverAtoms(data, issues, { entityLabel });
+    validateDietaryLeverAtoms(data, issues, { entityLabel, content });
     validatePmReferenceIntegrity(data.references || [], content, issues, { entityLabel });
+  } else {
+    validateStructuredVitaminLabels(data, issues, { entityLabel, content });
   }
   validatePmKcGovernance(data, issues, { entityLabel, canonicalKcIndex });
+  validateConstituentIdentityRecords(data, issues, {entityLabel, ...identityContext});
   if (Array.isArray(data.scientific_findings) && data.scientific_findings.length) {
     validatePublishedPmConnectionExplanations(content, issues, { entityLabel });
   }
@@ -1405,14 +1365,15 @@ function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
   return { kind: "pm", filePath, entityId: data.pm_id, ok: issues.length === 0, issues };
 }
 
-function validateKcPage(filePath) {
+function validateKcPage(filePath, identityContext = {}) {
   const { data, content } = readMechanismPage(filePath);
   const entityLabel = data.kc_id || path.basename(filePath);
   const issues = [];
   validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
   validateNoGenericReferenceLabels(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "kc" });
-  validateKcOwnedEvidence(data, issues, { entityLabel });
+  validateKcOwnedEvidence(data, issues, { entityLabel, content });
+  validateConstituentIdentityRecords(data, issues, {entityLabel, ...identityContext});
   validateKcCoreMembershipProjection(data, content, issues, { entityLabel });
 
   if (/### 6\. Constraint Stressors \/ Burdens/m.test(content)) {
@@ -1553,10 +1514,13 @@ export function validateAllMechanismPages(rootDir = process.cwd()) {
   const canonicalKcIndex = buildCanonicalKcIndex(
     kcFiles.map((filePath) => readMechanismPage(filePath).data),
   );
+  const registry = JSON.parse(fs.readFileSync(path.join(rootDir, "registry/substances.json"), "utf8"));
+  const substancePages = Object.entries(registry).filter(([,entry]) => entry?.path && fs.existsSync(path.join(rootDir,"docs/substances",entry.path))).map(([,entry]) => ({permalink:`/docs/substances/${entry.path.replace(/\.mdx?$/, "")}`,frontMatter:matter(fs.readFileSync(path.join(rootDir,"docs/substances",entry.path),"utf8")).data}));
+  const identityContext = {registry,substancePages};
   const pm = listMechanismMdxFiles(rootDir, "pm").map((filePath) =>
-    validatePmPage(filePath, { canonicalKcIndex }),
+    validatePmPage(filePath, { canonicalKcIndex, identityContext }),
   );
-  const kc = kcFiles.map(validateKcPage);
+  const kc = kcFiles.map(filePath => validateKcPage(filePath, identityContext));
   const sm = listMechanismMdxFiles(rootDir, "sm").map(validateSmPage);
   return { fm, pm, kc, sm, all: [...fm, ...pm, ...kc, ...sm] };
 }

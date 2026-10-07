@@ -1,5 +1,10 @@
 # Substance Page Schema (Canonical)
 
+### Nutrient naming
+
+Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
+
+
 Consolidated schema for BRAIN Diet substance pages (bioactives, metabolites, nutrients).  
 **Worked examples:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (short Highlights page) and `docs/substances/nutrients/micronutrients/minerals/trace/copper.md` (Highlights + Advanced Nutrition + Therapeutic Area Research).
 
@@ -206,3 +211,7 @@ Same canonical bibliographic core as food pages (`system/food-page-schema.md`) f
 ## Validation
 
 Run `npm run substance:validate` for the migrated calibration pages and inverse Food safeguards. Run `npm run test:substance-schema` for regression coverage. The wider Substance library remains on legacy/fallback behaviour until explicitly migrated.
+
+## Individually admitted KC resource projections
+
+Follow the canonical iKC identity rule in `system/dietary-input-traceability-contract.md`. Read PM-owned §3.1.3 edges and registered KC memberships through the existing ontology/SubstanceMatrix projection. Preserve upstream/conditional type, evidence and limitation. Registry/page identity must verify; aliases/tags/slugs alone are insufficient. Missing identity remains a major flag and pending canonical repair/page action, without fabricated composition edges or rankings.

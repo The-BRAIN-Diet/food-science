@@ -2,7 +2,7 @@
  * Canonical §1 Mission & Overview upgrades for the 54 shallow PM pages
  * (overview currently under 50 words) across BRS1–BRS4, BRS6, and BRS-X.
  *
- * Style target: BRS5-FM1-PM3 (Keystone Taxa Support) §1 — mission states a
+ * Style target: BRS5-FM1-PM3 (Microbial Barrier–Immune Interface Support) §1 — mission states a
  * biological ambition (not a title paraphrase, not a nutrient list);
  * translational is 2–3 stand-alone sentences (~65–75 words) that name what
  * the mechanism does, gloss its first technical term parenthetically, state
@@ -78,17 +78,6 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Incorporates DHA into neuronal membranes via phospholipid-bound carrier transport.",
       "Builds membrane enrichment over weeks to months of habitual intake.",
       "Sets the structural lipid environment surrounding neurotransmitter receptors.",
-    ],
-  },
-  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx": {
-    mission:
-      "Maintain balanced excitatory glutamate and inhibitory GABA signalling so neural networks operate with stability.",
-    translational:
-      "Represents the net balance between glutamatergic excitation and GABAergic inhibition (the brain's principal excitatory–inhibitory neurotransmitter pair) rather than either arm's synthesis or clearance individually, which sibling mechanisms cover. When these two signalling arms are well matched, neural circuits maintain stable excitability appropriate to task demand; when the balance shifts toward excess excitation, attention, emotional control, and sensory processing all become more vulnerable to overload.",
-    bullets: [
-      "Represents net excitatory–inhibitory balance rather than either arm alone.",
-      "Supports stable network excitability appropriate to task demand.",
-      "Sets the regulatory context for sibling synthesis and clearance mechanisms.",
     ],
   },
   "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": {

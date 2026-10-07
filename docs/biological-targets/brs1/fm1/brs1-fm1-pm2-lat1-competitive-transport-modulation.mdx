@@ -1,10 +1,10 @@
 ---
 title: LAT1 Competitive Transport Modulation
 pm_id: BRS1-FM1-PM2
-mission: Shape blood–brain barrier transport so key neurotransmitter precursors reach the brain favourably after meals.
+mission: Influence competition for transport across the blood–brain barrier so neurotransmitter precursors can reach the brain after meals.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'LAT1 is a shared transporter that carries tyrosine, tryptophan and other large neutral amino acids across the blood–brain barrier; each amino acid competes according to its plasma concentration relative to the others. Human meal studies show that carbohydrate-rich and protein-rich meals shift plasma tryptophan- and tyrosine-to-competing-amino-acid ratios in different directions. This mechanism therefore describes meal-sensitive precursor presentation at the brain boundary, not neurotransmitter synthesis or signalling.'
+summary: 'LAT1 is a shared transporter that carries tyrosine, tryptophan and other large neutral amino acids into the brain. Each one competes according to its level in the blood relative to the others. In healthy adults, carbohydrate-rich and protein-rich meals shift those blood ratios in different directions. Those ratios decide which precursors are favoured for brain entry.'
 key_constraints:
   - BRS1(KC1) - Amino Acid Quality & Competitive Balance
 cofactors: []
@@ -16,7 +16,7 @@ dietary_addressability: direct
 claim_ceiling: modulation-demonstrated
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-scientific_findings_intro: 'LAT1 is a shared blood–brain-barrier shuttle for large neutral amino acids. The findings below separate competitive transport biology from meal-driven plasma-ratio change. They establish that ordinary meals can shift tryptophan and tyrosine ratios; they do not establish brain monoamine dosing, ADHD benefit, or a requirement to eat more tyrosine or tryptophan.'
+scientific_findings_intro: "Human meal studies show that carbohydrate-versus-protein composition changes circulating tryptophan-to-competing-amino-acid ratios, with reciprocal tyrosine-ratio changes also observed. [[3]](#pm-ref-3) [[2]](#pm-ref-2) Reviewed transporter evidence explains why these ratios matter for competitive brain entry. [[1]](#pm-ref-1) Together, the findings support meal-responsive precursor availability, while the meal studies stop at plasma measurements and do not establish changes in brain uptake, monoamine signalling or functional outcomes."
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
     input: Tyrosine
@@ -399,7 +399,7 @@ hide_title: true
 
 ### Mission
 
-Shape blood–brain barrier transport so key neurotransmitter precursors reach the brain favourably after meals.
+Influence competition for transport across the blood–brain barrier so neurotransmitter precursors can reach the brain after meals.
 
 
 **Intervention Dominance:** Diet-Dominant
@@ -449,16 +449,7 @@ Shape blood–brain barrier transport so key neurotransmitter precursors reach t
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS1(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">(Key Constraint) (KC1) — Amino Acid Quality & Competitive Balance</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-Large neutral amino acids share one route into the brain. This mechanism is about how meals change that competition, not about whether the protein supply is complete.
-</div>
-</div>
-</div>
+No additional distinct KC relationship established; the transport-competition relationship is described above.
 
 </div>
 </div>
@@ -470,11 +461,11 @@ Large neutral amino acids share one route into the brain. This mechanism is abou
 </div>
 ### Overview
 
-LAT1 is a shared transporter that carries tyrosine, tryptophan and other large neutral amino acids across the blood–brain barrier; each amino acid competes according to its plasma concentration relative to the others [Fernstrom (2013) [[1]](#pm-ref-1)]. Human meal studies show that carbohydrate-rich and protein-rich meals shift plasma tryptophan- and tyrosine-to-competing-amino-acid ratios in different directions [Wurtman et al. (2003) [[2]](#pm-ref-2); Ashley et al. (1985) [[3]](#pm-ref-3)]. This mechanism therefore describes meal-sensitive precursor presentation at the brain boundary, not neurotransmitter synthesis or signalling.
+LAT1 is a shared transporter that carries tyrosine, tryptophan and other large neutral amino acids into the brain. [[1]](#pm-ref-1) Each one competes according to its level in the blood relative to the others. [[1]](#pm-ref-1) In healthy adults, carbohydrate-rich and protein-rich meals shift those blood ratios in different directions. [[2]](#pm-ref-2) [[3]](#pm-ref-3) Those ratios decide which precursors are favoured for brain entry. [[1]](#pm-ref-1)
 
-* **Mechanism boundary:** Covers competitive large-neutral-amino-acid transport at the blood–brain barrier; dietary amino-acid sufficiency and downstream monoamine synthesis and signalling are separate mechanisms [Fernstrom (2013) [[1]](#pm-ref-1)].
-* **Evidence boundary:** The meal studies measured plasma precursor-to-competitor ratios, not brain LAT1 flux, neurotransmitter production or an optimal carbohydrate-to-protein ratio [Wurtman et al. (2003) [[2]](#pm-ref-2); Ashley et al. (1985) [[3]](#pm-ref-3)].
-* **Biological relevance:** Precursor competition can shape the amino-acid supply presented to downstream monoamine pathways, but meal-driven plasma-ratio changes do not establish attention, emotional-regulation or ADHD benefit [Fernstrom (2013) [[1]](#pm-ref-1); Aquili (2020) [[4]](#pm-ref-4)].
+- **Benefits:** The precursor favoured for entry is how a meal’s amino-acid pattern reaches the brain’s supply for dopamine, noradrenaline and serotonin. [[1]](#pm-ref-1) The meal studies measured blood ratios in healthy adults, not that formation. [[2]](#pm-ref-2) [[3]](#pm-ref-3)
+- **Implementation Notes:** Meal carbohydrate-to-protein composition is the lever. Carbohydrate-rich meals raised the tryptophan ratio, and protein-rich meals raised the tyrosine ratio. [[2]](#pm-ref-2) [[3]](#pm-ref-3) Tyrosine and tryptophan are cargo amino acids, not a reason to take more of either, and no best ratio is established. [[1]](#pm-ref-1)
+- **Biological Relevance:** This is the brain-entry step after [dietary amino-acid supply](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation); dopamine, noradrenaline and serotonin formation come later. [[1]](#pm-ref-1) [[4]](#pm-ref-4)
 
 ## 2. Primary Biological Effects
 ↑ LAT1 transport context; ↑ LNAA competition control; ↑ precursor transport bias
@@ -550,9 +541,9 @@ Depends on [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biolo
 
 ### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-LAT1 is a shared blood–brain-barrier shuttle for large neutral amino acids. The findings below separate competitive transport biology from meal-driven plasma-ratio change. They establish that ordinary meals can shift tryptophan and tyrosine ratios; they do not establish brain monoamine dosing, ADHD benefit, or a requirement to eat more tyrosine or tryptophan.
+Human meal studies show that carbohydrate-versus-protein composition changes circulating tryptophan-to-competing-amino-acid ratios, with reciprocal tyrosine-ratio changes also observed. [[3]](#pm-ref-3) [[2]](#pm-ref-2) Reviewed transporter evidence explains why these ratios matter for competitive brain entry. [[1]](#pm-ref-1) Together, the findings support meal-responsive precursor availability, while the meal studies stop at plasma measurements and do not establish changes in brain uptake, monoamine signalling or functional outcomes.
 
 <ScientificFinding finding={{"id":"PM2-F1","finding_label":"Large neutral amino acids compete at LAT1","finding_summary":"Tyrosine, tryptophan and other large neutral amino acids share LAT1 at the blood–brain barrier. Relative plasma concentration, not the absolute amount of one amino acid, shapes which precursor is favoured for brain entry.","finding_interpretation":"This establishes competitive transport biology. It does not show that eating more tyrosine or tryptophan increases brain monoamines or improves function.","fm_rollup":true,"finding_statement":"Large neutral amino acids share LAT1-mediated blood–brain-barrier transport, so each precursor’s plasma concentration relative to competing LNAAs determines transport bias at a given meal.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Review evidence identifies LAT1 as a shared, saturable shuttle for tyrosine, tryptophan, phenylalanine and other LNAAs. Brain uptake tracks the plasma ratio of a given LNAA to the sum of its competitors. That competitive rule is the capacity this PM represents.","synthesis_limitations":"The synthesis is review-level rather than a new human transport experiment. It does not quantify everyday meal effects, measure neurotransmitter synthesis in the cited meal studies, or establish a clinical outcome.","evidence_considered":[{"label":"Fernstrom (2013)","citation_key":"fernstrom_lnna_2013","href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"Dietary and plasma LNAA ratios influence LAT1-mediated brain uptake of tyrosine, tryptophan and related amino acids and can change precursor availability for neurotransmitter synthesis.","assessment":{"study":"Narrative review of dietary LNAA effects on brain transport and neurochemistry.","population":"Mixed human and experimental literature; not a single intervention sample.","result":"Identified competitive LAT1 transport and plasma-ratio dependence as determinants of brain LNAA entry.","effect_magnitude":"No pooled meal-response effect estimate.","evidence_summary":"Establishes the shared-transporter rule that defines this PM.","limitations":"Review synthesis; does not by itself demonstrate that ordinary meals change human brain monoamines or function."},"canonical_reference":{"author_year":"Fernstrom (2013)","number":1,"anchor":"#pm-ref-1"}}],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Motivation / Drive","href":"/docs/phenomes/details/ph002-motivation-drive"},{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
 

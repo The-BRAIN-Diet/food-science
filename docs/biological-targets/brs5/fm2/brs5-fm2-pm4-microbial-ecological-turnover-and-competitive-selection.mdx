@@ -1,30 +1,31 @@
 ---
-title: Microbial Ecological Turnover & Competitive Selection
+title: Microbial Substrate-Processing Selection & Adaptation
 pm_id: BRS5-FM2-PM4
 mission: >-
-  Maintain continuous microbial renewal so beneficial functions are selected
-  over time.
+  Adjust community substrate-processing capacity through resource competition
+  and changes in microbial function.
 summary: >-
-  The gut microbiome is not static — microbial communities turn over
-  continuously through substrate availability and competition between species.
-  This mechanism describes how repeated dietary inputs help select which
-  functions persist, supporting diversity and resilience rather than a fixed
-  microbial snapshot. Daily plant diversity and regular fermentable fibre
-  exposure are the main dietary drivers of healthy turnover.
+  Gut microbes compete for available substrates and adjust the machinery used to
+  process them. Experiments manipulating community membership and fibre
+  structure show that resource access, protein expression and glycan degradation
+  depend on community context Patnode et al. (2019). Human dietary evidence also
+  shows that processing potential can change without increased diversity Wastyk
+  et al. (2021). This PM concerns how available substrates shape microbial
+  competition and processing functions. Community turnover may accompany these
+  changes, but is not itself a measure of improved function.
 parent_fm: BRS5(FM2)
 parent_brs: BRS5
-key_constraints:
-  - BRS5(KC1) - Fermentable Fibre Availability
-  - BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability
+key_constraints: []
 cofactors:
-  - fermentable fibre
-  - polyphenols
-  - circadian regularity
-  - meal regularity
-intervention_dominance: Diet-Dominant
-intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Pattern-based daily plant diversity and regular high-fibre intake
+  - Pea-fibre arabinan
+  - Citrus pectin
+  - Resistant starch (RS2/RS3)
+intervention_dominance: Diet-Supported
+intervention_breakdown: Food-State Leaning
+timing_specific: 'No'
+dose_sensitivity: >-
+  Substrate structure and community composition affect processing; no optimal
+  daily diversity count, timing or dose is established.
 references:
   - >-
     [Wastyk et al. (2021) — Gut-microbiota-targeted Diets Modulate Human Immune
@@ -40,6 +41,18 @@ references:
   - >-
     [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty
     Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+  - >-
+    [Patnode et al. (2019) — Interspecies Competition Impacts Targeted
+    Manipulation of Human Gut Bacteria by Fiber-Derived
+    Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019)
+  - >-
+    [Desai et al. (2016) — A Dietary Fiber-Deprived Gut Microbiota Degrades the
+    Colonic Mucus Barrier and Enhances Pathogen
+    Susceptibility](/docs/papers/BRAIN-Diet-References#desai_fiber-deprived_2016)
+  - >-
+    [Ze et al. (2012) — Ruminococcus bromii is a keystone species for the
+    degradation of resistant starch in the human
+    colon](/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012)
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -77,6 +90,441 @@ phenome_relationships:
         citation_key: schleupner_attention-deficithyperactivity_2022
         href: >-
           /docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022
+scientific_findings_intro: >-
+  Community competition and substrate-use adaptation have experimental
+  activity-level evidence. Human gene-potential and immune findings remain
+  distinct measurements; neither diversity nor turnover is a universal benefit
+  target.
+scientific_findings:
+  - id: PM4-F1
+    finding_label: Community competition changes glycan-processing functions
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Community context changes which microbes can access and process a
+      resource.
+    finding_interpretation: >-
+      Defined mouse communities do not establish a universal human response,
+      benefit from greater diversity or an optimal turnover rate. Substrate use
+      can also accompany adverse host effects. Specific SCFA, polyphenol and
+      precursor conversions belong to PM5, PM6 and PM8.
+    finding_statement: >-
+      Competition and functional acclimation can change community glycan
+      processing even when several organisms possess relevant utilisation genes.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Patnode et al. manipulated fibre preparations and membership of defined
+      human-derived bacterial communities in gnotobiotic mice. Utilisation-locus
+      proteomics and genetic fitness screens identified resource-use machinery;
+      glycan-coated beads measured degradation in vivo. Desai et al. separately
+      showed substrate-dependent shifts toward host-mucin use in a defined
+      community, with transcriptional and enzymatic readouts and mucus injury.
+    synthesis_limitations: >-
+      Defined mouse communities do not establish a universal human response,
+      benefit from greater diversity or an optimal turnover rate. Substrate use
+      can also accompany adverse host effects. Specific SCFA, polyphenol and
+      precursor conversions belong to PM5, PM6 and PM8.
+    evidence_considered:
+      - label: Patnode et al. (2019)
+        citation_key: patnode_interspecies_2019
+        href: /docs/papers/BRAIN-Diet-References#patnode_interspecies_2019
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Competitor manipulation changed resource-use fitness and protein
+          expression; glycan degradation was measured directly.
+        assessment:
+          study: >-
+            Defined-community fibre interventions, competitor omission,
+            proteomics, genetic screens and glycan-coated bead assays; Figures
+            3–5
+          population: Gnotobiotic mice colonised with defined human gut bacterial strains
+          result: >-
+            Competition and acclimation altered utilisation machinery; bead
+            assays resolved substrate-processing capacity.
+          effect_magnitude: >-
+            GC–MS quantified glycan depletion from recovered beads; no
+            generalised pooled effect size used.
+          evidence_summary: >-
+            Distinguishes functional expression and measured degradation from
+            gene potential and taxonomic composition.
+          limitations: >-
+            Defined-community and artificial substrate assays; no demonstrated
+            cognition or universal human benefit.
+      - label: Desai et al. (2016)
+        citation_key: desai_fiber-deprived_2016
+        href: /docs/papers/BRAIN-Diet-References#desai_fiber-deprived_2016
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Fibre deprivation shifted community glycan-use readouts toward mucus
+          substrates, with barrier erosion and increased pathogen
+          susceptibility.
+        assessment:
+          study: >-
+            Defined-community dietary fibre deprivation; community
+            transcriptional/enzymatic readouts and barrier outcomes
+          population: Gnotobiotic mice carrying a 14-species human-derived community
+          result: >-
+            Host-glycan use increased under the studied deprivation conditions
+            and was accompanied by mucus erosion.
+          effect_magnitude: >-
+            No pooled quantitative magnitude extracted; directional experimental
+            findings retained.
+          evidence_summary: >-
+            Resource selection can have adverse as well as favourable host
+            consequences.
+          limitations: >-
+            Results passages retrieved; complete PDF opening timed out.
+            Model-specific findings do not show all fibre deprivation acts
+            through one route.
+    connected_supportive_evidence: []
+  - id: PM4-F2
+    finding_label: Dietary responses separate processing potential from immune outcomes
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Human dietary intervention can change processing potential without
+      increased diversity; immune responses require separate interpretation.
+    finding_interpretation: >-
+      The prespecified cytokine-response score did not change. Gene abundance is
+      functional potential, not enzyme flux; stool metabolite concentration is
+      not production rate. Diversity and immune changes were accompanying
+      results, not demonstrated causal mediation. No improvement in cognition
+      surveys, glucose, lipids or blood pressure was established.
+    finding_statement: >-
+      High-fibre intake can increase metagenomic glycan-processing potential
+      without increased diversity, while fermented-food-associated immune
+      changes do not establish diversity-mediated benefit.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      In Wastyk et al., 18 healthy adults were analysed in each free-living
+      dietary arm after a four-week ramp and six-week maintenance. Fibre
+      increased from 21.5 to 45.1 g/day; glycan-degrading CAZyme gene abundance
+      increased with stable diversity. Residual stool carbohydrate increased
+      with fibre intake, leaving processing sufficiency unresolved. Fermented
+      foods increased from 0.4 to 6.3 servings/day; diversity increased and 19
+      of 93 circulating inflammatory proteins decreased, including IL-6, IL-10
+      and IL-12b.
+    synthesis_limitations: >-
+      The prespecified cytokine-response score did not change. Gene abundance is
+      functional potential, not enzyme flux; stool metabolite concentration is
+      not production rate. Diversity and immune changes were accompanying
+      results, not demonstrated causal mediation. No improvement in cognition
+      surveys, glucose, lipids or blood pressure was established.
+    evidence_considered:
+      - label: Wastyk et al. (2021)
+        citation_key: wastyk_gut-microbiota-targeted_2021
+        href: /docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: >-
+          Fibre changed CAZyme potential without increased diversity; fermented
+          foods changed diversity and inflammatory proteins without establishing
+          mediation.
+        assessment:
+          study: >-
+            Free-living dietary trial; Figure 3C–E, Figures 5–6 and
+            primary-outcome methods/Table S4
+          population: >-
+            18 healthy adults analysed per arm; high-fibre versus
+            high-fermented-food dietary exposure
+          result: >-
+            Distinct community-capacity and immune responses occurred across the
+            two arms.
+          effect_magnitude: >-
+            Fibre 21.5→45.1 g/day; fermented foods 0.4→6.3 servings/day; 19/93
+            inflammatory proteins decreased in that arm.
+          evidence_summary: >-
+            Preserves the measured inflammatory response without attributing it
+            to diversity or a defined taxon.
+          limitations: >-
+            No untreated control arm or diversity-mediation test; primary
+            cytokine-response score unchanged; potential, activity and host
+            outcomes remain distinct.
+    connected_supportive_evidence:
+      - label: Schleupner and Carmichael (2022)
+        citation_key: schleupner_attention-deficithyperactivity_2022
+        href: >-
+          /docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022
+        data_level: Mechanistic
+        why_relevant: Review identifies gut–brain research gaps.
+        why_excluded: >-
+          Review is not an experiment establishing competitive selection or
+          benefit from increased diversity.
+      - label: Prehn-Kristensen et al. (2018)
+        citation_key: prehn-kristensen_reduced_2018
+        href: /docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018
+        data_level: Human Study
+        why_relevant: Case–control stool diversity/composition context.
+        why_excluded: 'Does not measure dietary selection, turnover or processing activity.'
+      - label: Steckler et al. (2024)
+        citation_key: steckler_disrupted_2024
+        href: /docs/papers/BRAIN-Diet-References#steckler_disrupted_2024
+        data_level: Human Study
+        why_relevant: Case–control stool composition and SCFA concentrations.
+        why_excluded: >-
+          Concentration is not production flux; specific SCFA claims belong to
+          PM5 and no dietary modifiability is established.
+  - id: PM4-F3
+    finding_label: Specialist degraders enable resistant-starch processing
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Resistant-starch processing can depend on specialist degraders.
+    finding_interpretation: >-
+      Primary-source abstract reviewed; full results access was restricted.
+      Cultures and one donor’s faecal rescue do not establish oral R. bromii
+      efficacy, uniform human processing, equivalence to RS4 or clinical
+      benefit.
+    finding_statement: >-
+      These resistant starch forms provide substrates for specialist microbial
+      degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3
+      fermentation in one donor’s faecal community in vitro.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Ze et al. compared four human colonic bacteria in culture and co-culture.
+      R. bromii enabled partners to utilise RS2/RS3 and enhanced RS3
+      fermentation when added to a low-fermenting donor’s mixed faecal
+      community. This establishes a community-processing link, not a barrier
+      benefit or probiotic recommendation.
+    synthesis_limitations: >-
+      Primary-source abstract reviewed; full results access was restricted.
+      Cultures and one donor’s faecal rescue do not establish oral R. bromii
+      efficacy, uniform human processing, equivalence to RS4 or clinical
+      benefit.
+    evidence_considered:
+      - label: Ze et al. (2012)
+        citation_key: ze_resistant_starch_2012
+        href: /docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Specialist degrader addition enhanced community starch utilisation.
+        assessment:
+          study: >-
+            Four-species culture/co-culture and donor faecal-community
+            supplementation; primary abstract accessible
+          population: >-
+            Human colonic isolates and a low-RS3-fermenting donor’s faecal
+            community
+          result: >-
+            R. bromii stimulated RS2/RS3 utilisation by partners and enhanced
+            RS3 fermentation in the tested mixed community.
+          effect_magnitude: No numerical effect extracted from abstract.
+          evidence_summary: >-
+            Direct culture/fermentation endpoints support community-dependent
+            substrate processing.
+          limitations: >-
+            Primary-source abstract reviewed; full results access was
+            restricted. Cultures and one donor’s faecal rescue do not establish
+            oral R. bromii efficacy, uniform human processing, equivalence to
+            RS4 or clinical benefit.
+    connected_supportive_evidence: []
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    input: Pea-fibre arabinan
+    input_type: substrate
+    biological_role: >-
+      Arabinan in the studied pea-fibre preparation supplies a glycan resource
+      whose utilisation depends on microbial utilisation machinery and
+      competition.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - patnode_interspecies_2019
+    evidence_limitation: >-
+      Defined human-derived communities in mice; the food matrix and competitors
+      affect access. No universal human response, optimal dose or host benefit
+      is established.
+  - atom_id: PM4-DIT-2
+    input: Citrus pectin
+    input_type: substrate
+    biological_role: >-
+      The studied citrus pectin supplies glycans for microbial utilisation;
+      community context and expression of utilisation machinery alter
+      processing.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - patnode_interspecies_2019
+    evidence_limitation: >-
+      Defined-community mouse experiments and glycan assays do not establish
+      equivalence across all pectins, a human intake target or beneficial host
+      outcomes.
+  - atom_id: PM4-DIT-3
+    input: Resistant starch (RS2/RS3)
+    input_type: substrate
+    biological_role: >-
+      These resistant starch forms provide substrates for specialist microbial
+      degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3
+      fermentation in one donor’s faecal community in vitro.
+    evidence_source:
+      finding_ids:
+        - PM4-F3
+      citation_keys:
+        - ze_resistant_starch_2012
+    evidence_limitation: >-
+      Primary-source abstract reviewed; full results access was restricted.
+      Cultures and one donor’s faecal rescue do not establish oral R. bromii
+      efficacy, uniform human processing, equivalence to RS4 or clinical
+      benefit.
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    relationship_layer: dietary-requirement
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: >-
+      Arabinan in the studied pea-fibre preparation supplies a glycan resource
+      whose utilisation depends on microbial utilisation machinery and
+      competition.
+    evidence_limitation: >-
+      Defined human-derived communities in mice; the food matrix and competitors
+      affect access. No universal human response, optimal dose or host benefit
+      is established.
+  - atom_id: PM4-DIT-2
+    relationship_layer: dietary-requirement
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: >-
+      The studied citrus pectin supplies glycans for microbial utilisation;
+      community context and expression of utilisation machinery alter
+      processing.
+    evidence_limitation: >-
+      Defined-community mouse experiments and glycan assays do not establish
+      equivalence across all pectins, a human intake target or beneficial host
+      outcomes.
+  - atom_id: PM4-DIT-3
+    relationship_layer: dietary-requirement
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+    permitted_wording: >-
+      These resistant starch forms provide substrates for specialist microbial
+      degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3
+      fermentation in one donor’s faecal community in vitro.
+    evidence_limitation: >-
+      Primary-source abstract reviewed; full results access was restricted.
+      Cultures and one donor’s faecal rescue do not establish oral R. bromii
+      efficacy, uniform human processing, equivalence to RS4 or clinical
+      benefit.
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: Pea-fibre arabinan
+    presentation_section: 3.1.1
+    reader_description: >-
+      Pea-fibre arabinan supplies a resource that gut microbes compete to access
+      and process.
+    description_finding_id: PM4-F1
+  - atom_id: PM4-DIT-2
+    label: Citrus pectin
+    presentation_section: 3.1.1
+    reader_description: >-
+      Citrus pectin provides glycans processed by community-dependent microbial
+      machinery.
+    description_finding_id: PM4-F1
+  - atom_id: PM4-DIT-3
+    label: Resistant starch (RS2/RS3)
+    presentation_section: 3.1.1
+    reader_description: >-
+      These starch forms supply a resource whose processing can depend on
+      specialist degraders and their community partners.
+    description_finding_id: PM4-F3
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: >-
+      Substrate intervention changes microbial processing machinery and
+      degradation in models; human high-fibre intervention changes processing
+      potential.
+    scope_note: >-
+      Potential, measured degradation and host benefit are separate; comparative
+      dominance is untested.
+    routes:
+      - group_id: '3.1'
+        evidence_basis: intervention-effect
+        intervention_effect: >-
+          Fibre manipulation changed utilisation machinery and measured glycan
+          degradation; human high-fibre intake increased CAZyme gene potential.
+        context: Defined-community mice; free-living healthy adults.
+        limitations: >-
+          No universal response, optimal intake or clinical benefit; gene
+          potential is not processing flux.
+        evidence_source:
+          finding_ids:
+            - PM4-F1
+            - PM4-F2
+          citation_keys:
+            - patnode_interspecies_2019
+            - wastyk_gut-microbiota-targeted_2021
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.1'
+    rationale: >-
+      Resource manipulation directly addresses the revised substrate-processing
+      job and has expression/degradation evidence, making dietary relationships
+      the principal documented route.
+    comparative_limitations: >-
+      Principal placement is bounded to the assessed evidence; comparative
+      superiority over other routes and general human dominance are not
+      established.
+    assessments:
+      - group_id: '3.1'
+        relevance: Resources drive the microbial processing job.
+        directness: >-
+          Manipulated substrates with utilisation-machinery and degradation
+          endpoints.
+        extent: >-
+          Convergent resource-specific processing evidence; human potential
+          changes support translation only at that level.
+kc_applicability_adjudications:
+  - kc_id: BRS5(KC1)
+    ikc_id: BRS5(KC1)
+    arm_id: fermentable-fibre-sufficiency
+    applicability_proposition: >-
+      Inadequacy of the defined shared fermentable pool constrains community
+      substrate-processing capacity beyond the published provision
+      relationships.
+    disposition: unresolved
+    established_links:
+      - >-
+        Defined glycans provide resources; experimental competitors and
+        utilisation machinery influence degradation.
+    inferred_links:
+      - >-
+        A distinct shared-pool bottleneck, rather than the same provision
+        relationship, has not been established for this PM.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - patnode_interspecies_2019
+    rationale: >-
+      KC-owned membership and provision do not settle PM applicability or
+      distinctness. Repeated public provision would be consolidated;
+      independently substantiated parent-FM integration is deferred.
+    remaining_gap: >-
+      Establish the named shared-pool capacity constraint and its PM-specific
+      chain; for a separate public disclosure identify a distinct biological job
+      beyond provision. An end-to-end human assay is not universally required.
+  - kc_id: BRS5(KC2)
+    ikc_id: BRS5(KC2)
+    arm_id: combined-polyphenol-plant-diversity
+    disposition: evidence-supported-non-application
+    applicability_proposition: >-
+      The proposed combined polyphenol/plant-diversity pool supplies a coherent
+      shared limiting resource for this PM.
+    rationale: >-
+      The existing KC2 review rejects this combined pool as incoherent; no
+      admitted iKC is inherited. This does not reject all constituent
+      interventions.
+    evidence_review: system/brs5-kc2-evidence-review.md
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -86,18 +534,40 @@ phenome_relationships:
   />
 </p>
 
-## BRS5-FM2-PM4 - Microbial Ecological Turnover & Competitive Selection
+## BRS5-FM2-PM4 - Microbial Substrate-Processing Selection & Adaptation
 
-(Refreshing Gut Bacteria Through Healthy Competition)
+(Community Competition and Adaptation in Substrate Use)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
-Maintain continuous microbial renewal so beneficial functions are selected over time.
+
+Adjust community substrate-processing capacity through resource competition and changes in microbial function.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Diet-Supported
+
+### Overview
+
+Gut microbes compete for available substrates and adjust the machinery used to process them. Experiments manipulating community membership and fibre structure show that resource access, protein expression and glycan degradation depend on community context Patnode et al. (2019) [[5]](#pm-ref-5). Human dietary evidence also shows that processing potential can change without increased diversity Wastyk et al. (2021) [[1]](#pm-ref-1). This PM concerns how available substrates shape microbial competition and processing functions. Community turnover may accompany these changes, but is not itself a measure of improved function.
+
+- **Mechanism boundary:** Community resource-use competition and functional acclimation belong here; specific SCFA production/signalling (PM5), polyphenol conversion (PM6) and precursor handling (PM8) retain their own jobs Patnode et al. (2019) [[5]](#pm-ref-5).
+- **Measurement boundary:** Gene potential, protein expression and measured substrate degradation establish different links. More diversity or a longer time course does not demonstrate greater activity Wastyk et al. (2021) [[1]](#pm-ref-1); Patnode et al. (2019) [[5]](#pm-ref-5).
+- **Biological relevance:** Resource-use changes can affect host conditions, including adverse mucus effects in models. Human immune responses must be preserved without assuming ecological changes caused them Wastyk et al. (2021) [[1]](#pm-ref-1); Desai et al. (2016) [[6]](#pm-ref-6).
+
+## 2. Primary Biological Effects
+
+Substrate-dependent microbial competition; changes in utilisation machinery and community processing capacity. The direction of a host outcome must be assessed separately.
+
+## 3. Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** Diet-Supported
+
+- **Intervention Breakdown:** Food-State Leaning
+- **Timing Specific:** No
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -115,9 +585,9 @@ Maintain continuous microbial renewal so beneficial functions are selected over 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Diverse plant inputs ← herbs, spices, legumes, whole grains, vegetables
-- Multiple fibre classes ← inulin, pectin, resistant starch sources
-- Polyphenol exposure ← berries, green tea, cocoa
+- Pea-fibre arabinan
+- Citrus pectin
+- Resistant starch (RS2/RS3)
 
 </div>
 </div>
@@ -131,10 +601,7 @@ Maintain continuous microbial renewal so beneficial functions are selected over 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- circadian regularity
-- fermentable fibre
-- meal regularity
-- polyphenols
+The substrate relationships are disclosed above; no additional biochemical requirement is independently established.
 
 </div>
 </div>
@@ -148,30 +615,7 @@ Maintain continuous microbial renewal so beneficial functions are selected over 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">(Key Constraint) (KC1) — Fermentable Fibre Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Inulin/GOS ← onions, chicory, legumes
-- Pectin/soluble fibre ← oats, apples, flax seeds
-- Resistant starch ← cooled potatoes, cooled rice, green bananas
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">(Key Constraint) (KC2) — Polyphenol & Plant-Diversity Input Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Microbiome-active polyphenols ← berries, green tea, cocoa, pomegranate
-- Plant-diversity inputs ← herbs, spices, legumes, whole grains
-</div>
-</div>
-</div>
+No mapping established.
 
 </div>
 </div>
@@ -181,18 +625,6 @@ Maintain continuous microbial renewal so beneficial functions are selected over 
 </div>
 
 </div>
-### Overview
-
-The gut microbiome is not static — microbial communities turn over continuously through substrate availability and competition between species. This mechanism describes how repeated dietary inputs help select which functions persist, supporting diversity and resilience rather than a fixed microbial snapshot. Daily plant diversity and regular fermentable fibre exposure are the main dietary drivers of healthy turnover.
-
-* Drives ongoing ecological renewal and competitive selection of microbial functions.
-* Sustains community diversity and resilience against dysbiosis-prone drift.
-* Highlights repeated fermentable substrate and plant diversity as key long-term drivers.
-
-## 2. Primary Biological Effects
-↑ alpha diversity; ↑ functional redundancy; ↓ dysbiosis risk
-
-## 3. Intervention Levers
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -201,12 +633,8 @@ The gut microbiome is not static — microbial communities turn over continuousl
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
 
-- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Prefer minimally refined whole-kernel or whole-flour products where tolerated. — see [Whole Grains — Preparation](/docs/foods/whole-grains#preparation).
-- Prefer polyphenol exposure — berries, green tea, cocoa.
-- Prepare cruciferous vegetables to support myrosinase-dependent sulforaphane yield — see [Broccoli Sprouts — Preparation](/docs/foods/broccoli-sprouts#preparation).
+No distinct preparation, supplementation or other optimisation practice is established beyond the bounded input relationships above.
 
 </div>
 </div>
@@ -220,8 +648,7 @@ The gut microbiome is not static — microbial communities turn over continuousl
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Consistent meal timing may help support microbial rhythm stability.
-- Repeated dietary pattern quality matters more than occasional microbiome-focused meals.
+No mechanism-specific lifestyle lever is established by the assessed evidence.
 
 </div>
 </div>
@@ -231,113 +658,27 @@ The gut microbiome is not static — microbial communities turn over continuousl
 
 ### Summary
 
-BRS5-FM2-PM4 links plant diversity, fibre-class variety, polyphenol exposure, and meal regularity to microbial selection pressures that shape ecology over time [Wastyk et al., 2021; Schleupner and Carmichael, 2022; Prehn-Kristensen et al., 2018].
+Available substrates and competing community members influence which utilisation functions are expressed and which resources are processed Patnode et al. (2019) [[5]](#pm-ref-5). This includes acclimation within an existing community, not only replacement of taxa.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Ecological turnover and microbial selection pressure</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+### Competition and processing machinery
 
-#### (Ecology rather than single strain logic)
+Defined-community experiments distinguish utilisation-gene possession from protein expression, resource-use fitness and actual glycan degradation Patnode et al. (2019) [[5]](#pm-ref-5). Diet-associated CAZyme gene enrichment in humans supplies a separate potential-level measurement; it does not measure enzyme flux Wastyk et al. (2021) [[1]](#pm-ref-1).
 
-This PM is about continuous ecosystem shaping rather than one-off strain addition. Repeated dietary exposures influence which taxa and functions are competitively favoured.
+### Host consequences and boundaries
 
-#### (Dietary drivers)
+Resource-use shifts can be adverse: a fibre-deprived defined community increased host-mucin use alongside mucus injury Desai et al. (2016) [[6]](#pm-ref-6). Increased diversity and reduced inflammatory proteins accompanied fermented-food intake in a human trial, without establishing diversity-mediated benefit Wastyk et al. (2021) [[1]](#pm-ref-1). PM4 owns the community resource-use process; PM5, PM6 and PM8 own their specific products and conversions.
 
-Multiple fibre classes, broad plant diversity, polyphenol exposure, and lower ultra-processed food pressure create the ecological conditions in which beneficial functions are more likely to persist.
+### 4.1 Scientific Findings
 
-#### (Rhythm context)
+#### Summary
 
-Because microbial ecosystems also respond to feeding rhythms, this PM links outward to [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment).
+Community competition and substrate-use adaptation have experimental activity-level evidence. Human gene-potential and immune findings remain distinct measurements; neither diversity nor turnover is a universal benefit target.
 
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"Community competition changes glycan-processing functions","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Community context changes which microbes can access and process a resource.","finding_interpretation":"Defined mouse communities do not establish a universal human response, benefit from greater diversity or an optimal turnover rate. Substrate use can also accompany adverse host effects. Specific SCFA, polyphenol and precursor conversions belong to PM5, PM6 and PM8.","finding_statement":"Competition and functional acclimation can change community glycan processing even when several organisms possess relevant utilisation genes.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Patnode et al. manipulated fibre preparations and membership of defined human-derived bacterial communities in gnotobiotic mice. Utilisation-locus proteomics and genetic fitness screens identified resource-use machinery; glycan-coated beads measured degradation in vivo. Desai et al. separately showed substrate-dependent shifts toward host-mucin use in a defined community, with transcriptional and enzymatic readouts and mucus injury.","synthesis_limitations":"Defined mouse communities do not establish a universal human response, benefit from greater diversity or an optimal turnover rate. Substrate use can also accompany adverse host effects. Specific SCFA, polyphenol and precursor conversions belong to PM5, PM6 and PM8.","evidence_considered":[{"label":"Patnode et al. (2019)","citation_key":"patnode_interspecies_2019","href":"/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Competitor manipulation changed resource-use fitness and protein expression; glycan degradation was measured directly.","assessment":{"study":"Defined-community fibre interventions, competitor omission, proteomics, genetic screens and glycan-coated bead assays; Figures 3–5","population":"Gnotobiotic mice colonised with defined human gut bacterial strains","result":"Competition and acclimation altered utilisation machinery; bead assays resolved substrate-processing capacity.","effect_magnitude":"GC–MS quantified glycan depletion from recovered beads; no generalised pooled effect size used.","evidence_summary":"Distinguishes functional expression and measured degradation from gene potential and taxonomic composition.","limitations":"Defined-community and artificial substrate assays; no demonstrated cognition or universal human benefit."},"canonical_reference":{"author_year":"Patnode et al. (2019)","number":5,"anchor":"#pm-ref-5"}},{"label":"Desai et al. (2016)","citation_key":"desai_fiber-deprived_2016","href":"/docs/papers/BRAIN-Diet-References#desai_fiber-deprived_2016","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Fibre deprivation shifted community glycan-use readouts toward mucus substrates, with barrier erosion and increased pathogen susceptibility.","assessment":{"study":"Defined-community dietary fibre deprivation; community transcriptional/enzymatic readouts and barrier outcomes","population":"Gnotobiotic mice carrying a 14-species human-derived community","result":"Host-glycan use increased under the studied deprivation conditions and was accompanied by mucus erosion.","effect_magnitude":"No pooled quantitative magnitude extracted; directional experimental findings retained.","evidence_summary":"Resource selection can have adverse as well as favourable host consequences.","limitations":"Results passages retrieved; complete PDF opening timed out. Model-specific findings do not show all fibre deprivation acts through one route."},"canonical_reference":{"author_year":"Desai et al. (2016)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
 
-### 4.1 Evidence Highlights
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Dietary responses separate processing potential from immune outcomes","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Human dietary intervention can change processing potential without increased diversity; immune responses require separate interpretation.","finding_interpretation":"The prespecified cytokine-response score did not change. Gene abundance is functional potential, not enzyme flux; stool metabolite concentration is not production rate. Diversity and immune changes were accompanying results, not demonstrated causal mediation. No improvement in cognition surveys, glucose, lipids or blood pressure was established.","finding_statement":"High-fibre intake can increase metagenomic glycan-processing potential without increased diversity, while fermented-food-associated immune changes do not establish diversity-mediated benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In Wastyk et al., 18 healthy adults were analysed in each free-living dietary arm after a four-week ramp and six-week maintenance. Fibre increased from 21.5 to 45.1 g/day; glycan-degrading CAZyme gene abundance increased with stable diversity. Residual stool carbohydrate increased with fibre intake, leaving processing sufficiency unresolved. Fermented foods increased from 0.4 to 6.3 servings/day; diversity increased and 19 of 93 circulating inflammatory proteins decreased, including IL-6, IL-10 and IL-12b.","synthesis_limitations":"The prespecified cytokine-response score did not change. Gene abundance is functional potential, not enzyme flux; stool metabolite concentration is not production rate. Diversity and immune changes were accompanying results, not demonstrated causal mediation. No improvement in cognition surveys, glucose, lipids or blood pressure was established.","evidence_considered":[{"label":"Wastyk et al. (2021)","citation_key":"wastyk_gut-microbiota-targeted_2021","href":"/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"Fibre changed CAZyme potential without increased diversity; fermented foods changed diversity and inflammatory proteins without establishing mediation.","assessment":{"study":"Free-living dietary trial; Figure 3C–E, Figures 5–6 and primary-outcome methods/Table S4","population":"18 healthy adults analysed per arm; high-fibre versus high-fermented-food dietary exposure","result":"Distinct community-capacity and immune responses occurred across the two arms.","effect_magnitude":"Fibre 21.5→45.1 g/day; fermented foods 0.4→6.3 servings/day; 19/93 inflammatory proteins decreased in that arm.","evidence_summary":"Preserves the measured inflammatory response without attributing it to diversity or a defined taxon.","limitations":"No untreated control arm or diversity-mediation test; primary cytokine-response score unchanged; potential, activity and host outcomes remain distinct."},"canonical_reference":{"author_year":"Wastyk et al. (2021)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Schleupner and Carmichael (2022)","citation_key":"schleupner_attention-deficithyperactivity_2022","href":"/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022","data_level":"Mechanistic","why_relevant":"Review identifies gut–brain research gaps.","why_excluded":"Review is not an experiment establishing competitive selection or benefit from increased diversity.","canonical_reference":{"author_year":"Schleupner and Carmichael (2022)","number":2,"anchor":"#pm-ref-2"}},{"label":"Prehn-Kristensen et al. (2018)","citation_key":"prehn-kristensen_reduced_2018","href":"/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018","data_level":"Human Study","why_relevant":"Case–control stool diversity/composition context.","why_excluded":"Does not measure dietary selection, turnover or processing activity.","canonical_reference":{"author_year":"Prehn-Kristensen et al. (2018)","number":3,"anchor":"#pm-ref-3"}},{"label":"Steckler et al. (2024)","citation_key":"steckler_disrupted_2024","href":"/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024","data_level":"Human Study","why_relevant":"Case–control stool composition and SCFA concentrations.","why_excluded":"Concentration is not production flux; specific SCFA claims belong to PM5 and no dietary modifiability is established.","canonical_reference":{"author_year":"Steckler et al. (2024)","number":4,"anchor":"#pm-ref-4"}}]}} />
 
-#### Introduction/Summary
-
-Microbial ecological turnover and competitive selection are well established. The studies below do not restate community ecology; they highlight dietary-intervention, diversity, and substrate-exposure findings that refine how ecosystem shaping is interpreted over time.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Microbiota-targeted diets and immune–ecological modulation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Gut-microbiota-targeted dietary interventions modulated human immune status and microbial ecology in controlled feeding contexts — supporting plant-diversity and fermentable-substrate patterns as levers for continuous ecosystem shaping [Wastyk et al., 2021].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021","label":"Wastyk et al. (2021)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Taxonomic diversity and metabolite-generation capacity</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Increasing taxonomic diversity expands the ecological possibilities for producing beneficial microbial metabolites and reducing harmful by-products — through ecological competition and turnover among microbial communities [Schleupner and Carmichael, 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022","label":"Schleupner and Carmichael (2022)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Alpha diversity as an ecological readout</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Reduced microbiome alpha diversity has been reported in dysbiotic ecological contexts, reinforcing diversity maintenance as a modifiable property of microbial turnover rather than a fixed trait [Prehn-Kristensen et al., 2018].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018","label":"Prehn-Kristensen et al. (2018)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Repeated substrate exposure over time</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Multiple fibre classes, broad plant diversity, and polyphenol exposure create the repeated selection pressures through which beneficial functions are competitively favoured — not one-off microbiome-focused meals [Wastyk et al., 2021]; [Schleupner and Carmichael, 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021","label":"Wastyk et al. (2021)"},{"href":"/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022","label":"Schleupner and Carmichael (2022)"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM4-F3","finding_label":"Specialist degraders enable resistant-starch processing","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Resistant-starch processing can depend on specialist degraders.","finding_interpretation":"Primary-source abstract reviewed; full results access was restricted. Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.","finding_statement":"These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Ze et al. compared four human colonic bacteria in culture and co-culture. R. bromii enabled partners to utilise RS2/RS3 and enhanced RS3 fermentation when added to a low-fermenting donor’s mixed faecal community. This establishes a community-processing link, not a barrier benefit or probiotic recommendation.","synthesis_limitations":"Primary-source abstract reviewed; full results access was restricted. Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.","evidence_considered":[{"label":"Ze et al. (2012)","citation_key":"ze_resistant_starch_2012","href":"/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Specialist degrader addition enhanced community starch utilisation.","assessment":{"study":"Four-species culture/co-culture and donor faecal-community supplementation; primary abstract accessible","population":"Human colonic isolates and a low-RS3-fermenting donor’s faecal community","result":"R. bromii stimulated RS2/RS3 utilisation by partners and enhanced RS3 fermentation in the tested mixed community.","effect_magnitude":"No numerical effect extracted from abstract.","evidence_summary":"Direct culture/fermentation endpoints support community-dependent substrate processing.","limitations":"Primary-source abstract reviewed; full results access was restricted. Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."},"canonical_reference":{"author_year":"Ze et al. (2012)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -349,16 +690,18 @@ Microbial ecological turnover and competitive selection are well established. Th
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — biological connection relevant to this mechanism
-- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — biological connection relevant to this mechanism
-- [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — circadian Feeding & Light-Dark Entrainment
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — the fermented-food trial measured circulating inflammatory responses; those results provide context without identifying a microbial mediator.
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — metabolic outcomes require separate assessment; the microbial findings here do not establish a human metabolic benefit.
+- [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — feeding schedules are an external exposure context; the substrate-processing studies here do not independently establish a circadian constraint.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS5-FM2-PM5 - SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
-- [BRS5-FM2-PM6 - Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
+- [BRS5-FM2-PM5 - SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — community substrate use lies upstream of specific SCFA production and signalling, which remain owned here.
+- [BRS5-FM2-PM6 - Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation) — specific polyphenol conversion and metabolite exposure remain separate from general glycan-use selection.
+- [BRS5-FM1-PM3 — Microbial Barrier–Immune Interface Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) — defined microbial host-interface contributions are distinct from community substrate-processing selection.
+- [BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability) — precursor conversion and availability remain a specific downstream process; community glycan-use measurements do not establish precursor flux.
 
 ## 7. Phenome Connections
 
@@ -412,9 +755,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Reduced microbial alpha diversity in paediatric ADHD and lower faecal SCFA levels versus controls support ecological turnover and competitive selection as modifiable gut-community processes intersecting attention-relevant microbiome structure.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018","label":"Prehn-Kristensen et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024","label":"Steckler et al. (2024)"}]} />
 </div>
 </div>
 </div>
@@ -435,15 +775,17 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
 - **Rationale:** ADHD-focused gut–brain axis review literature synthesises microbiome ecology research gaps — indirect cognitive-clarity framing through microbial community resilience rather than measured clarity outcomes.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022","label":"Schleupner & Carmichael (2022)"}]} />
 </div>
 </div>
 </div>
 
 ## 8. References
-- [Wastyk et al. (2021) — Gut-microbiota-targeted Diets Modulate Human Immune Status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
-- [Schleupner and Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)
-- [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-- [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+
+- <span id="pm-ref-1">[1]</span> [Wastyk et al. (2021) — Gut-microbiota-targeted Diets Modulate Human Immune Status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
+- <span id="pm-ref-2">[2]</span> [Schleupner and Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)
+- <span id="pm-ref-3">[3]</span> [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- <span id="pm-ref-4">[4]</span> [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+- <span id="pm-ref-5">[5]</span> [Patnode et al. (2019) — Interspecies Competition Impacts Targeted Manipulation of Human Gut Bacteria by Fiber-Derived Glycans](/docs/papers/BRAIN-Diet-References#patnode_interspecies_2019)
+- <span id="pm-ref-6">[6]</span> [Desai et al. (2016) — A Dietary Fiber-Deprived Gut Microbiota Degrades the Colonic Mucus Barrier and Enhances Pathogen Susceptibility](/docs/papers/BRAIN-Diet-References#desai_fiber-deprived_2016)
+- <span id="pm-ref-7">[7]</span> [Ze et al. (2012) — Ruminococcus bromii is a keystone species for the degradation of resistant starch in the human colon](/docs/papers/BRAIN-Diet-References#ze_resistant_starch_2012)
+

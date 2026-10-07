@@ -15,12 +15,14 @@ The citation system should allow readers to:
 - Access complete citation details through the Master BRAIN Diet Bibliography.
 - Maintain a professional scientific style without disrupting readability.
 
+**References stay with the page they support.** In Biological Relevance and in every other section, do not cite a study because another PM uses it. A reference may appear on this page only when it supports a claim about this page’s own mechanism. A sentence that only sets a boundary with a neighbouring PM names that PM, for example “see PM2”, and carries no citation.
+
 ---
 
 ## Inline Citations (Body Text)
 
-Use **author–year** citations within square brackets on BRS hubs, FM, SM, KC and
-legacy PM pages. Canonical PM pages use the linked author–year + numbered format
+Use **author–year** citations within square brackets on BRS hubs, SM, KC and
+legacy PM pages. FM and canonical PM pages use the linked author–year + numbered format
 defined below.
 
 **Format:**
@@ -76,14 +78,14 @@ List studies in the order most relevant to the claim.
 - Numeric-only refs (`[1]`, `[2]`) without author text on first mention.
 - Markdown bibliography links in running prose — the References section carries the link.
 
-### Canonical PM pages
+### FM and canonical PM pages
 
-On first mention of a study within a PM section, render `Author et al. (year) [n]`;
+On first mention of a study within an FM or PM section, render `Author et al. (year) [n]`;
 name both authors as `Author and Author (year) [n]`. The square-bracket number
-links to that study's anchored entry in PM §8. Later mentions in the same section
+links to that study's anchored entry in the target page’s §8 (`fm-ref-n` for FM; `pm-ref-n` for PM). Later mentions in the same section
 may use the linked `[n]` alone.
 
-Author text, year, number and link must be generated from the same canonical PM
+Author text, year, number and link must be generated from the same canonical target-page
 reference record. Do not hand-author author–year text beside an independently
 generated number.
 

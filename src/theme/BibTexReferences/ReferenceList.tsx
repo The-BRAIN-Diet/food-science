@@ -21,9 +21,11 @@ export default function ReferenceList({
   // Apply filter if provided
   const filteredEntries = filter ? entries.filter(filter) : entries
 
-  // Deduplicate entries that represent the same reference (e.g. multiple keys for same DOI/title)
-  const dedupedEntries: BibEntry[] = []
-  const signatureMap = new Map<string, BibEntry>()
+  // Deduplicate entries that represent the same reference (e.g. multiple keys for same DOI/title).
+  // Keep the unsuffixed citation key as the public anchor. Zotero duplicates use keys
+  // such as `key-1` and `key-2`; pages link to the original key.
+  const dedupedEntries: Array<{entry: BibEntry; aliasKeys: string[]}> = []
+  const signatureMap = new Map<string, {entry: BibEntry; aliasKeys: string[]}>()
 
   function getSignature(entry: BibEntry): string {
     const tags = entry.entryTags || {}
@@ -54,27 +56,51 @@ export default function ReferenceList({
     return score
   }
 
+  function isDuplicateSuffixKey(key: string): boolean {
+    return /-\d+$/.test(key)
+  }
+
+  function chooseStableKey(keys: string[]): string {
+    return keys.find((key) => key && !isDuplicateSuffixKey(key)) || keys.find(Boolean) || ""
+  }
+
+  function mergeTags(display: BibEntry, other: BibEntry): BibEntry["entryTags"] {
+    const merged: BibEntry["entryTags"] = {...(other.entryTags || {})}
+    for (const [key, value] of Object.entries(display.entryTags || {})) {
+      if (String(value || "").trim()) merged[key] = value
+    }
+    return merged
+  }
+
   filteredEntries.forEach((entry: BibEntry) => {
     const signature = getSignature(entry)
 
     // If we can't build any signature, keep the entry (very rare)
     if (!signature) {
-      dedupedEntries.push(entry)
+      dedupedEntries.push({entry, aliasKeys: []})
       return
     }
 
     const existing = signatureMap.get(signature)
     if (!existing) {
-      signatureMap.set(signature, entry)
+      signatureMap.set(signature, {entry, aliasKeys: []})
       return
     }
 
-    // Prefer the entry with richer metadata (more complete citation)
-    const existingScore = getMetadataScore(existing)
-    const newScore = getMetadataScore(entry)
-    if (newScore > existingScore) {
-      signatureMap.set(signature, entry)
-    }
+    const display = getMetadataScore(entry) > getMetadataScore(existing.entry) ? entry : existing.entry
+    const other = display === entry ? existing.entry : entry
+    const keys = [existing.entry.citationKey, entry.citationKey, ...existing.aliasKeys].filter(
+      (key): key is string => Boolean(key),
+    )
+    const stableKey = chooseStableKey(keys)
+    signatureMap.set(signature, {
+      entry: {
+        ...display,
+        citationKey: stableKey,
+        entryTags: mergeTags(display, other),
+      },
+      aliasKeys: [...new Set(keys.filter((key) => key !== stableKey))],
+    })
   })
 
   // Collect deduped entries from the map, plus any no-signature fallbacks we already pushed
@@ -86,17 +112,17 @@ export default function ReferenceList({
     let valueB: string | number = ""
 
     if (sortBy === "year") {
-      valueA = parseInt(a.entryTags.year || "0", 10)
-      valueB = parseInt(b.entryTags.year || "0", 10)
+      valueA = parseInt(a.entry.entryTags.year || "0", 10)
+      valueB = parseInt(b.entry.entryTags.year || "0", 10)
     } else if (sortBy === "author") {
-      valueA = a.entryTags.author || ""
-      valueB = b.entryTags.author || ""
+      valueA = a.entry.entryTags.author || ""
+      valueB = b.entry.entryTags.author || ""
     } else if (sortBy === "title") {
-      valueA = a.entryTags.title || ""
-      valueB = b.entryTags.title || ""
+      valueA = a.entry.entryTags.title || ""
+      valueB = b.entry.entryTags.title || ""
     } else if (sortBy === "citationKey") {
-      valueA = a.citationKey || ""
-      valueB = b.citationKey || ""
+      valueA = a.entry.citationKey || ""
+      valueB = b.entry.citationKey || ""
     }
 
     if (typeof valueA === "number" && typeof valueB === "number") {
@@ -113,16 +139,20 @@ export default function ReferenceList({
 
   return (
     <ol className="references">
-      {sortedEntries.map((entry, index) => (
+      {sortedEntries.map(({entry, aliasKeys}, index) => (
         <li
           key={entry.citationKey || `ref-${index}`}
+          id={entry.citationKey || undefined}
           className={`reference-item reference-type-${entry.entryType.toLowerCase()}`}>
-          {/* Heading id so Docusaurus and cross-page #citationKey links resolve (li id alone is not indexed). */}
+          {/* Heading stays for the citation-key label. The list item carries the public id so the visible row is the scroll target. */}
           {entry.citationKey && (
-            <h3 id={entry.citationKey} className="reference-citation-heading">
+            <h3 className="reference-citation-heading">
               <span className="reference-citation-heading__label">{entry.citationKey}</span>
             </h3>
           )}
+          {aliasKeys.map((alias) => (
+            <span key={alias} id={alias} className="reference-citation-heading" />
+          ))}
           {/* Anchor link for direct linking to this reference */}
           {entry.citationKey && (
             <a
@@ -158,15 +188,18 @@ export default function ReferenceList({
             const href = externalHref
 
             return (
-              <a
-                href={href}
-                className="reference-link"
-                aria-label={`Link to reference ${entry.citationKey}`}
-                title={href}
-                target="_blank"
-                rel="noopener noreferrer">
-                {href}
-              </a>
+              <>
+                {' '}
+                <a
+                  href={href}
+                  className="reference-link"
+                  aria-label={`Link to reference ${entry.citationKey}`}
+                  title={href}
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  {href}
+                </a>
+              </>
             )
           })()}
         </li>

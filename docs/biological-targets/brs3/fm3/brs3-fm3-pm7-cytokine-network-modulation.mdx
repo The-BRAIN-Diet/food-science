@@ -4,17 +4,28 @@ pm_id: BRS3-FM3-PM7
 mission: Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.
 parent_fm: BRS3(FM3)
 parent_brs: BRS3
-summary: 'Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways (immune messenger molecules that coordinate and amplify inflammatory responses) once transcriptional activation has already occurred upstream. This mechanism governs downstream signalling intensity specifically, complementing rather than duplicating the upstream NF-κB transcriptional regulation covered elsewhere. Chronically elevated cytokine tone contributes to sustained low-grade inflammation, making this a distinct dietary-actionable node further along the inflammatory cascade.'
+summary: 'IL-6 and TNF-α are messenger signals of inflammatory tone. CRP is a blood marker linked to that tone, not the messenger step. An endotoxin challenge in healthy adults has been used to read these responses. EPA plus DHA did not significantly change IL-6 or TNF-α in that challenge.'
 cofactors: []
-intervention_dominance: Diet-Dominant
+intervention_dominance: Not established
 intervention_breakdown: Food-State Dominant
-timing_specific: 'Yes'
-dose_sensitivity: Regular omega-3/polyphenol pattern; strengthened by stable glycaemic and gut inputs
+timing_specific: 'No'
+dose_sensitivity: No intake pattern or behaviour is established for this cytokine step.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: 'No cited study establishes a preparation, supplement protocol, fasting pattern, sleep practice, activity practice, or stress-recovery practice that changes this circulating cytokine step.'
+    scope_note: 'Omega-3 capsules were tested in two attached trials. One did not change plasma IL-6, TNF-α, or CRP. The other lowered stimulated IL-6 production in student blood cells. Neither result is a practice for this circulating cytokine network, and neither is a sleep, activity, or stress-recovery lever.'
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: Dietary requirements were already refused. The separate optimisation and lifestyle pass also found no practice that changes IL-6 and TNF-α as circulating messengers.
+    comparative_limitations: 'No route is ranked above another, because none is established.'
+    assessments: []
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-
 references:
   - '[Chang et al. (2020) — Cortisol, Inflammatory Biomarkers and Neurotrophins in Children and Adolescents with Attention Deficit](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)'
   - '[Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)'
@@ -85,7 +96,7 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM.
+    rationale: Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without a direct anhedonia measurement.
     references:
       - index: 1
         label: Song et al. (2023)
@@ -93,6 +104,47 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#song_mitochondrial_2023
         data_level: Mechanistic
     evidence_confidence: low-medium
+scientific_findings_intro: 'IL-6 and TNF-α are messenger signals of inflammatory tone. CRP is a blood marker linked to that tone, not the messenger step. An endotoxin challenge in healthy adults has been used to read these responses. EPA plus DHA did not significantly change IL-6 or TNF-α in that challenge.'
+scientific_findings:
+  - id: PM7-F1
+    finding_label: IL-6 and TNF-α are downstream messengers of inflammatory tone
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'IL-6 and TNF-α carry inflammatory signals after upstream transcription. CRP is a blood marker linked to that tone, not the messenger step. An endotoxin challenge in healthy adults has been used to read the cytokine response.'
+    finding_interpretation: 'The challenge reads the messengers. It does not make EPA, DHA, or sleep a requirement of this step.'
+    finding_statement: 'IL-6 and TNF-α are inflammatory messengers used to read this downstream step. They are not the NF-κB transcription step, and an endotoxin challenge did not show that EPA plus DHA significantly changed each of them.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Slavich and Irwin place IL-6 and TNF-α among the inflammatory signals in a stress-to-depression review. Ferguson and colleagues gave healthy adults an intravenous endotoxin challenge after eight weeks of EPA plus DHA or placebo. Temperature rise was smaller at 3600 mg a day. Individual cytokine responses, including IL-6 and TNF-α, were not statistically different from placebo.'
+    synthesis_limitations: A stress review and an endotoxin challenge do not show that a food intake sets this cytokine step. Upstream transcription is a separate mechanism.
+    evidence_considered:
+      - label: Slavich and Irwin (2014)
+        citation_key: slavich_stress_inflammation_2014
+        href: /docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014
+        data_level: Mechanistic
+        exposure_context: isolated-substance
+        evidence_source: repository-inherited
+        directional_finding: IL-6 and TNF-α are treated as inflammatory messengers in a stress-to-depression review. The review is not a dietary trial.
+        assessment:
+          study: 'Integrative review of stress, inflammatory signalling, and depression.'
+          population: Literature review. No new cohort.
+          result: IL-6 and TNF-α are placed among the signals that carry inflammatory tone.
+          effect_magnitude: No intake effect and no NF-κB transcription rate.
+          evidence_summary: These cytokines are the messengers this step is about.
+          limitations: 'A stress-and-depression review does not show that diet changes the messengers, and it does not measure the upstream transcription step.'
+      - label: Ferguson et al. (2014)
+        citation_key: ferguson_omega3_2014
+        href: /docs/papers/BRAIN-Diet-References#ferguson_omega3_2014
+        data_level: Human Study
+        exposure_context: dietary
+        evidence_source: repository-inherited
+        directional_finding: Endotoxin raised a cytokine response that could be read. EPA plus DHA did not significantly change IL-6 or TNF-α compared with placebo.
+        assessment:
+          study: Eight-week randomised trial of EPA plus DHA before an intravenous endotoxin challenge.
+          population: '60 healthy adults, age 18–45.'
+          result: 'High-dose EPA plus DHA reduced the temperature rise. IL-6, TNF-α, and the other individual inflammatory markers were not statistically different from placebo.'
+          effect_magnitude: 900 mg a day did not reduce fever. 3600 mg a day reduced the temperature rise (p = 0.03) without a significant change in each cytokine.
+          evidence_summary: The challenge is a way to read these messengers. It is not a dietary requirement.
+          limitations: A non-significant cytokine pattern is not evidence that omega-3 fats set this network.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -113,7 +165,9 @@ phenome_relationships:
 Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.
 
 
-**Intervention Dominance:** Diet-Dominant
+**Intervention Dominance:** Not established — No principal intervention route established
+
+No cited study establishes a preparation, supplement protocol, sleep practice, activity practice, or stress-recovery practice that changes this circulating cytokine step. Omega-3 capsules were tested in two attached trials. One did not change plasma IL-6, TNF-α, or CRP. The other lowered stimulated IL-6 production in student blood cells. Neither result is a practice for this circulating cytokine network.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -171,11 +225,11 @@ No mapping established.
 </div>
 ### Overview
 
-Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways (immune messenger molecules that coordinate and amplify inflammatory responses) once transcriptional activation has already occurred upstream. This mechanism governs downstream signalling intensity specifically, complementing rather than duplicating the upstream NF-κB transcriptional regulation covered elsewhere. Chronically elevated cytokine tone contributes to sustained low-grade inflammation, making this a distinct dietary-actionable node further along the inflammatory cascade.
+IL-6 and TNF-α are inflammatory messengers. Slavich and Irwin (2014) place them on the path from stress-related immune signalling to inflammatory tone. [[5]](#pm-ref-5) Ferguson et al. (2014) used an endotoxin challenge in healthy adults to read that response. [[2]](#pm-ref-2) EPA plus DHA did not significantly change IL-6 or TNF-α in that challenge. [[2]](#pm-ref-2) CRP is a blood marker, not the messenger step.
 
-* Modulates IL-6, TNF-α, and CRP-linked cytokine signalling intensity.
-* Governs downstream signalling tone, complementing upstream transcriptional regulation.
-* Contributes to sustained low-grade inflammation when chronically elevated.
+- **Benefits:** Tuning this intensity is about the messengers themselves, including IL-6 and TNF-α, after upstream genes have already been switched on. [[5]](#pm-ref-5)
+- **Implementation Notes:** No dietary requirement is established. In the endotoxin trial, EPA plus DHA did not significantly change IL-6 or TNF-α. [[2]](#pm-ref-2)
+- **Biological Relevance:** The transcriptional step that sits ahead of these messengers is separate — see PM1.
 
 ## 2. Primary Biological Effects
 ↓ IL-6/TNF-a pressure; ↓ inflammatory signalling tone
@@ -190,7 +244,7 @@ Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammat
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-sop-category-desc">Only categories with a substantive evidence-qualified intervention are shown. Food-page preparation lines are not projected; they are not Stage 2A Finding objects on this PM.</p>
+<p class="brs-hub-sop-category-desc">No preparation, supplement protocol, or fasting practice is established for this cytokine step.</p>
 
 </div>
 </div>
@@ -204,7 +258,7 @@ Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammat
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No evidence-qualified lifestyle relationship is projected. Timing, stress and activity lines are not Stage 2A Finding objects on this PM.
+No sleep, activity, or stress-recovery practice is established for this cytokine step.
 
 </div>
 </div>
@@ -238,55 +292,19 @@ Upstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Sign
 
 #### (Integration within BRS3)
 
-This PM supports resolution-oriented inflammatory tone within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity), supported by habitual EPA/DHA intake through §4.1.1 Direct and/or Derived Dietary Requirements. Stable glycaemic and gut context imported through section 4.3 connected mechanisms conditions downstream cytokine expression.
+This PM supports resolution-oriented inflammatory tone within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity). EPA and DHA are substrates on the neighbouring eicosanoid page. They are not a requirement of this cytokine step.
 
 </div>
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-Cytokine networks are standard inflammatory readouts. The evidence below highlights omega-3 effects on resolution-phase inflammation in controlled models and on circulating cytokine tone in a human supplementation trial.
+IL-6 and TNF-α are messenger signals of inflammatory tone. CRP is a blood marker linked to that tone, not the messenger step. An endotoxin challenge in healthy adults has been used to read these responses. EPA plus DHA did not significantly change IL-6 or TNF-α in that challenge.
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Omega-3 effects on cytokine pathways</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In controlled endotoxemia models, high-dose EPA+DHA attenuated fever and downstream cytokines (IL-6, IL-10) while TNF-α remained unchanged — suggesting omega-3s reshape resolution-phase inflammation rather than block initiation [Ferguson et al., 2014].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Omega-3 supplementation, cytokine markers, and stress-related outcomes</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** intervention
-- **Rationale:** In a randomized controlled trial of medical students under academic stress, omega-3 supplementation reduced circulating inflammatory markers (including IL-6) alongside anxiety symptoms — human evidence that fatty-acid intake can modulate cytokine-network tone within this PM's mechanism boundary, without isolating omega-3 as a PM treatment [Kiecolt-Glaser et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM7-F1","finding_label":"IL-6 and TNF-α are downstream messengers of inflammatory tone","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"IL-6 and TNF-α carry inflammatory signals after upstream transcription. CRP is a blood marker linked to that tone, not the messenger step. An endotoxin challenge in healthy adults has been used to read the cytokine response.","finding_interpretation":"The challenge reads the messengers. It does not make EPA, DHA, or sleep a requirement of this step.","finding_statement":"IL-6 and TNF-α are inflammatory messengers used to read this downstream step. They are not the NF-κB transcription step, and an endotoxin challenge did not show that EPA plus DHA significantly changed each of them.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Slavich and Irwin place IL-6 and TNF-α among the inflammatory signals in a stress-to-depression review. Ferguson and colleagues gave healthy adults an intravenous endotoxin challenge after eight weeks of EPA plus DHA or placebo. Temperature rise was smaller at 3600 mg a day. Individual cytokine responses, including IL-6 and TNF-α, were not statistically different from placebo.","synthesis_limitations":"A stress review and an endotoxin challenge do not show that a food intake sets this cytokine step. Upstream transcription is a separate mechanism.","evidence_considered":[{"label":"Slavich and Irwin (2014)","citation_key":"slavich_stress_inflammation_2014","href":"/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014","data_level":"Mechanistic","exposure_context":"isolated-substance","evidence_source":"repository-inherited","directional_finding":"IL-6 and TNF-α are treated as inflammatory messengers in a stress-to-depression review. The review is not a dietary trial.","assessment":{"study":"Integrative review of stress, inflammatory signalling, and depression.","population":"Literature review. No new cohort.","result":"IL-6 and TNF-α are placed among the signals that carry inflammatory tone.","effect_magnitude":"No intake effect and no NF-κB transcription rate.","evidence_summary":"These cytokines are the messengers this step is about.","limitations":"A stress-and-depression review does not show that diet changes the messengers, and it does not measure the upstream transcription step."},"canonical_reference":{"author_year":"Slavich and Irwin (2014)","number":5,"anchor":"#pm-ref-5"}},{"label":"Ferguson et al. (2014)","citation_key":"ferguson_omega3_2014","href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","data_level":"Human Study","exposure_context":"dietary","evidence_source":"repository-inherited","directional_finding":"Endotoxin raised a cytokine response that could be read. EPA plus DHA did not significantly change IL-6 or TNF-α compared with placebo.","assessment":{"study":"Eight-week randomised trial of EPA plus DHA before an intravenous endotoxin challenge.","population":"60 healthy adults, age 18–45.","result":"High-dose EPA plus DHA reduced the temperature rise. IL-6, TNF-α, and the other individual inflammatory markers were not statistically different from placebo.","effect_magnitude":"900 mg a day did not reduce fever. 3600 mg a day reduced the temperature rise (p = 0.03) without a significant change in each cytokine.","evidence_summary":"The challenge is a way to read these messengers. It is not a dietary requirement.","limitations":"A non-significant cytokine pattern is not evidence that omega-3 fats set this network."},"canonical_reference":{"author_year":"Ferguson et al. (2014)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -307,7 +325,7 @@ Primary Mechanisms in other Biological Regulatory Systems that directly interact
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)
+- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — Eicosanoid and resolving-mediator balance is a lipid-signal step. Cytokine intensity is a later messenger readout, not that substrate shift.
 
 ## 7. Phenome Connections
 
@@ -361,9 +379,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chang_cortisol_2020","label":"Chang et al. (2020)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
 </div>
 </div>
 </div>
@@ -384,9 +399,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#brown_associations_2025","label":"Brown et al. (2025)","dataLevel":"Human Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -407,9 +419,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Medium
 - **Evidence Confidence:** Medium
 - **Rationale:** Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014","label":"Slavich & Irwin (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#marsland_systemic_2017","label":"Marsland et al. (2017)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
 </div>
 </div>
 </div>
@@ -429,15 +438,13 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low–Medium
-- **Rationale:** Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023","label":"Song et al. (2023)","dataLevel":"Mechanistic"}]} />
+- **Rationale:** Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without a direct anhedonia measurement.
 </div>
 </div>
 </div>
 
 ## 8. References
+
 - <span id="pm-ref-1">[1]</span> [Chang et al. (2020) — Cortisol, Inflammatory Biomarkers and Neurotrophins in Children and Adolescents with Attention Deficit](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)
 - <span id="pm-ref-2">[2]</span> [Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)
 - <span id="pm-ref-3">[3]</span> [Brown et al. (2025) — A Cross-sectional Study on Danish Adolescents](/docs/papers/BRAIN-Diet-References#brown_associations_2025)
@@ -445,3 +452,4 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-5">[5]</span> [Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
 - <span id="pm-ref-6">[6]</span> [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
 - <span id="pm-ref-7">[7]</span> [Song et al. (2023) — A Fatal Blow in Depression](/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023)
+

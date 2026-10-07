@@ -112,11 +112,30 @@ function tableRowsUnresolvedSubstance(fm, lookup) {
   })
 }
 
+function storedContainsRelationship(fm, tag) {
+  const relationships = Array.isArray(fm.substance_relationships) ? fm.substance_relationships : []
+  return relationships.some(
+    (relationship) =>
+      relationship &&
+      relationship.relationship === "contains" &&
+      labelsOverlap(String(relationship.substance || ""), tag),
+  )
+}
+
 function editorialMissingFromTables(fm) {
   const tableLabels = tableBackedLabels(fm)
-  return editorialSubstanceTags(fm).filter(
-    (tag) => !tableLabels.some((label) => labelsOverlap(tag, label)),
-  )
+  return editorialSubstanceTags(fm).filter((tag) => {
+    if (tableLabels.some((label) => labelsOverlap(tag, label))) return false
+    // Composition kept for the ontology and described outside the public tables.
+    if (storedContainsRelationship(fm, tag)) {
+      const nutrition = fm.nutrition_per_100g && typeof fm.nutrition_per_100g === "object" ? fm.nutrition_per_100g : {}
+      const stored = Object.entries(nutrition).some(
+        ([key, value]) => typeof value === "number" && value > 0 && labelsOverlap(tag, key.replace(/_mg$|_g$|_ug$/, "").replace(/_/g, " ")),
+      )
+      if (stored) return false
+    }
+    return true
+  })
 }
 
 export function overviewMissingFromTables(fm, markdownBody = "") {

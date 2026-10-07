@@ -8,6 +8,7 @@ import InChIImage from "@theme/InChIImage"
 import type {Props} from "@theme/DocItem/Content"
 import DocUtilityBar from "@site/src/components/ReviewCorrections/DocUtilityBar"
 import {AdvancedNutritionProvider} from "@site/src/components/AdvancedNutrition"
+import SubstanceMatrix from "../../SubstanceMatrix"
 import PmDietaryLeverEnhancer from "@site/src/components/PmDietaryLeverEnhancer"
 import PmSystemOptimisationEnhancer from "@site/src/components/PmSystemOptimisationEnhancer"
 import {TherapeuticAreaPmLinks} from "@site/src/theme/TherapeuticAreaDetail"
@@ -195,6 +196,7 @@ export default function DocItemContent({children}: Props): ReactNode {
       )}
 
         <MDXContent>{children}</MDXContent>
+        {isSubstanceDoc && <SubstanceMatrix tag={String(frontMatter.id)} substanceId={String(frontMatter.id)} canonicalOnly />}
         {pmId && <TherapeuticAreaPmLinks pmId={pmId} />}
       </DocUtilityBar>
         <PmDietaryLeverEnhancer frontMatter={frontMatter as Record<string, unknown>} />

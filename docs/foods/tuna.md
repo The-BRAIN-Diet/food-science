@@ -12,6 +12,9 @@ tags:
   - Vitamin B3
   - Selenium
   - Creatine
+  - Cysteine
+public_display:
+  cystine_mg: internal-only
 list_image: /img/foods/tuna/tuna_thumb.webp
 nutrition_per_100g:
   vitamin_e_mg: 1
@@ -28,6 +31,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.455
   linoleic_g: 0.053
   protein_g: 23.33
+  cystine_mg: 250
   iron_mg: 1.02
   magnesium_mg: 50
   phosphorus_mg: 254
@@ -61,6 +65,13 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 250 mg per 100 g of Fish, tuna, fresh, bluefin, raw (FDC 173706).
+      An 85 g (3 oz) portion is about 213 mg. Composition only; not a
+      glutathione-synthesis result.
 main_image: /img/foods/tuna/tuna_medium.webp
 legacy_list_image: /img/foods/tuna/tuna_thumb.webp
 legacy_main_image: /img/foods/tuna/tuna_medium.webp
@@ -87,6 +98,14 @@ Within the BRAIN Diet framework, tuna is used as one component of a broader fish
 - EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
 - Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
 - Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
+## Advanced Nutrition
+
+### Amino acids
+
+Tuna supplies cystine, which contributes to cysteine availability. This raw bluefin contains **250 mg per 100 g**, about **213 mg in 85 g (3 oz)**. On that raw weight it is a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
 
 ## Food Context
 

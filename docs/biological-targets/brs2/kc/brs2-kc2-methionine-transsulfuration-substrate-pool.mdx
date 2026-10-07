@@ -2,13 +2,13 @@
 title: Methionine–Cysteine Sulfur Amino Acid Pool
 kc_id: BRS2(KC2)
 parent_brs: BRS2
-summary: 'Maintain adequate methionine and cysteine availability across the shared sulfur-amino-acid requirement that supplies methionine-cycle and transsulfuration-linked biology.'
+summary: Maintain adequate methionine and cysteine availability across the shared sulfur-amino-acid requirement that supplies methionine-cycle and transsulfuration-linked biology.
 kc_evidence_review_status: canonical
 kc_input_traceability:
   - atom_id: BRS2-KC2-KIT-1
     input: Methionine
     input_type: substrate
-    biological_role: 'Dietarily indispensable sulfur amino acid that enters the methionine cycle and supplies sulfur to the irreversible transsulfuration route; inadequate availability can constrain methionine-cycle and downstream sulfur-amino-acid capacity.'
+    biological_role: Dietarily indispensable sulfur amino acid that enters the methionine cycle and supplies sulfur to the irreversible transsulfuration route; inadequate availability can constrain methionine-cycle and downstream sulfur-amino-acid capacity.
     evidence_source:
       citation_keys:
         - ball_methionine_cysteine_2006
@@ -17,6 +17,8 @@ kc_input_traceability:
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    ikc_id: BRS2-KC2-KIT-1
+    substance_id: methionine
   - atom_id: BRS2-KC2-KIT-2
     input: Cysteine
     input_type: substrate
@@ -29,28 +31,31 @@ kc_input_traceability:
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    ikc_id: BRS2(KC2)
   - atom_id: BRS2-KC2-KIT-3
     input: Serine
     input_type: substrate
-    biological_role: 'Biochemical cosubstrate with homocysteine for cystathionine formation in transsulfuration.'
+    biological_role: Biochemical cosubstrate with homocysteine for cystathionine formation in transsulfuration.
     evidence_source:
       citation_keys:
         - kumar_transsulfuration_2017
-    evidence_limitation: 'Pathway participation does not establish ordinary dietary serine availability as a meaningful shared constraint. Serine is therefore excluded from this iKC and remains eligible for PM-layer treatment where independently supported.'
+    evidence_limitation: Pathway participation does not establish ordinary dietary serine availability as a meaningful shared constraint. Serine is therefore excluded from this iKC and remains eligible for PM-layer treatment where independently supported.
     constraint_status: biochemical-requirement
     ikc_membership: excluded
     claim_ceiling: biological-dependency
+    ikc_id: BRS2(KC2)
   - atom_id: BRS2-KC2-KIT-4
     input: Glycine
     input_type: substrate
-    biological_role: 'Glutathione substrate whose availability can conditionally co-limit glutathione synthesis with cysteine.'
+    biological_role: Glutathione substrate whose availability can conditionally co-limit glutathione synthesis with cysteine.
     evidence_source:
       citation_keys:
         - sekhar_glutathione_2011
-    evidence_limitation: 'The demonstrated limitation is conditional GSH-precursor biology in older adults and does not show that glycine participates in the shared methionine–cysteine sulfur-amino-acid requirement across the proposed BRS2 scope. Exclusion from this iKC does not deny its PM6 or BRS3 glutathione-pool relevance.'
+    evidence_limitation: The demonstrated limitation is conditional GSH-precursor biology in older adults and does not show that glycine participates in the shared methionine–cysteine sulfur-amino-acid requirement across the proposed BRS2 scope. Exclusion from this iKC does not deny its PM6 or BRS3 glutathione-pool relevance.
     constraint_status: nutritionally-constrained
     ikc_membership: excluded
     claim_ceiling: dietary-provision
+    ikc_id: BRS2(KC2)
 kc_constituent_presentations:
   - atom_id: BRS2-KC2-KIT-1
     label: Methionine
@@ -59,16 +64,21 @@ kc_constituent_presentations:
     label: Cysteine
     section: core-nutritional-requirements
 references:
-  - >-
-    [Ball et al. (2006) — Methionine Sparing by Cysteine in Human Sulfur
-    Amino-Acid Requirements](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)
-  - >-
-    [Kumar and Yadav (2017) — The Transsulfuration
-    Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-  - >-
-    [Sekhar et al. (2011) — Deficient Synthesis of
-    Glutathione](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+  - '[Ball et al. (2006) — Methionine Sparing by Cysteine in Human Sulfur Amino-Acid Requirements](/docs/papers/BRAIN-Diet-References#ball_methionine_cysteine_2006)'
+  - '[Kumar and Yadav (2017) — The Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)'
+  - '[Sekhar et al. (2011) — Deficient Synthesis of Glutathione](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
 hide_title: true
+ikc_identity_version: constituent-v2
+legacy_ikc_references:
+  - ikc_id: BRS2(KC2)
+    meaning: Legacy shared pool reference; not an individual substance identity.
+individual_key_constraints:
+  - ikc_id: BRS2-KC2-KIT-1
+    kc_atom_id: BRS2-KC2-KIT-1
+    substance_id: methionine
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/essential/methionine
 ---
 
 <p class="brs-pm-thumbnail-wrap">

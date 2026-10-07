@@ -1,0 +1,150 @@
+{
+  "issues": [
+    {
+      "id": "PM6-OI-1",
+      "pm_id": "BRS2-FM2-PM6",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does an ordinary mixed diet limit glutathione synthesis in the way the experimental amino-acid formula did?",
+      "established": "In seven healthy young men, ten days of an amino-acid formula with methionine and cysteine both removed slowed whole-blood glutathione synthesis. The glutathione concentration stayed about the same.",
+      "claim_boundary": "This does not show that everyday meals are short of methionine and cysteine, or that eating more of either amino acid would raise glutathione synthesis.",
+      "resolution_needs": "A human study that measures glutathione synthesis while people eat ordinary mixed diets, rather than an amino-acid formula with both sulfur amino acids removed.",
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "lyons_glutathione_2000"
+      ]
+    },
+    {
+      "id": "PM6-OI-2",
+      "pm_id": "BRS2-FM2-PM6",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does the same change in sulfur-amino-acid intake affect glutathione synthesis in the brain?",
+      "established": "The human measurements are of whole-blood or red-cell glutathione synthesis. In the formula study, the synthesis rate changed while the blood concentration did not.",
+      "claim_boundary": "Blood-cell results do not show that these diets change glutathione synthesis in nerve tissue.",
+      "resolution_needs": "A measurement of glutathione synthesis in nerve tissue under the same dietary conditions.",
+      "finding_ids": [
+        "PM6-F2",
+        "PM6-IC1"
+      ],
+      "citation_keys": [
+        "lyons_glutathione_2000",
+        "sekhar_glutathione_2011"
+      ]
+    },
+    {
+      "id": "PM6-OI-3",
+      "pm_id": "BRS2-FM2-PM6",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does N-acetylcysteine or glycine change glutathione synthesis when either is given on its own?",
+      "established": "In older adults, N-acetylcysteine given together with glycine raised erythrocyte glutathione synthesis.",
+      "claim_boundary": "That result does not show an effect of either supplement alone, and it does not provide a dose for ordinary food.",
+      "resolution_needs": "A human synthesis study that changes one of these precursors at a time, including the milligram dose used in the combined protocol.",
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "sekhar_glutathione_2011"
+      ]
+    },
+    {
+      "id": "PM6-OI-4",
+      "pm_id": "BRS2-FM2-PM6",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does removing methionine alone slow glutathione synthesis when cysteine intake stays adequate?",
+      "established": "Synthesis slowed when methionine and cysteine were removed together. It did not slow in young men when cysteine was removed and methionine intake stayed adequate.",
+      "claim_boundary": "The combined result does not show that methionine by itself is the limit, and the cysteine-free result does not show what happens when methionine is the amino acid removed.",
+      "resolution_needs": "A human synthesis study that removes methionine while cysteine intake remains adequate.",
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "lyons_glutathione_2000",
+        "courtney_martin_cysteine_2008"
+      ]
+    },
+    {
+      "id": "PM6-OI-5",
+      "pm_id": "BRS2-FM2-PM6",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Do these changes in glutathione synthesis improve recovery, stress resilience, or ADHD?",
+      "established": "Blood-cell glutathione synthesis can change under the dietary and supplement conditions already studied. Those studies did not measure recovery, stress resilience, or ADHD.",
+      "claim_boundary": "A change in blood-cell synthesis does not show that foods or supplements treat recovery, stress, or ADHD.",
+      "resolution_needs": "A study that measures recovery, stress resilience, or ADHD, rather than only blood-cell glutathione synthesis or oxidative-stress markers.",
+      "finding_ids": [
+        "PM6-F3",
+        "PM6-F4",
+        "PM6-IC1"
+      ],
+      "citation_keys": [
+        "sekhar_glutathione_2011",
+        "lukovac_serum_2024"
+      ]
+    },
+    {
+      "id": "BRS5-FM1-PM3-OI-SCOPE-20261005",
+      "pm_id": "BRS5-FM1-PM3",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Human translation, phenome validity and independently assessed parent-FM KC integration remain unresolved after scope-specific Stage 2B.",
+      "established": "Stage 2B now records bounded input relationships, all legacy candidate dispositions and evidence-qualified principal placement; see system/brs5-pm3-pm4-stage2b-report.md.",
+      "claim_boundary": "Preclinical state regulation and substrate provision do not establish human efficacy or validate existing phenome ratings.",
+      "resolution_needs": "Phenome and parent-FM review; preparation-specific functional chains and human translation as identified in the Stage 2B report.",
+      "finding_ids": [
+        "PM3-F1",
+        "PM3-F2"
+      ],
+      "citation_keys": [
+        "schroeder_bifidobacteria_2018",
+        "mazmanian_symbiosis_2008"
+      ]
+    },
+    {
+      "id": "BRS5-FM2-PM4-OI-SCOPE-20261005",
+      "pm_id": "BRS5-FM2-PM4",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Human translation, phenome validity and independently assessed parent-FM KC integration remain unresolved after scope-specific Stage 2B.",
+      "established": "Stage 2B now records bounded input relationships, all legacy candidate dispositions and evidence-qualified principal placement; see system/brs5-pm3-pm4-stage2b-report.md.",
+      "claim_boundary": "Preclinical state regulation and substrate provision do not establish human efficacy or validate existing phenome ratings.",
+      "resolution_needs": "Phenome and parent-FM review; preparation-specific functional chains and human translation as identified in the Stage 2B report.",
+      "finding_ids": [
+        "PM4-F1",
+        "PM4-F2"
+      ],
+      "citation_keys": [
+        "patnode_interspecies_2019",
+        "wastyk_gut-microbiota-targeted_2021"
+      ]
+    },
+    {
+      "id": "BRS3-FM2-PM3-OI-1",
+      "pm_id": "BRS3-FM2-PM3",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does a myrosinase-active whole broccoli sprout supplement raise phase II enzyme RNA the way the sprout homogenate did?",
+      "established": "Houghton calculates that about 2 grams of a 1% sulforaphane-yielding powder might match the sulforaphane in Riedl’s 200 gram homogenate. That calculation is not a trial of the powder. Myrosinase-inactive supplements produced lower plasma isothiocyanate metabolites than fresh sprouts in the comparison Houghton cites.",
+      "claim_boundary": "A supplement is not admitted. The homogenate result does not transfer to a capsule or powder.",
+      "resolution_needs": "A human study of a defined myrosinase-active whole broccoli sprout supplement that measures phase II enzyme RNA or Nrf2 target-gene expression.",
+      "finding_ids": ["PM3-F1"],
+      "citation_keys": ["houghton_sulforaphane_2016", "riedl_sulforaphane_airway_2009"]
+    },
+    {
+      "id": "BRS3-FM2-PM3-OI-2",
+      "pm_id": "BRS3-FM2-PM3",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does the 2019 zinc and selenium chapter show that either mineral constrains the Nrf2 activation step?",
+      "established": "Verlaet places zinc on copper-zinc superoxide dismutase and selenium on glutathione peroxidase. Those are downstream antioxidant enzymes. The chapter itself was not retrieved in full.",
+      "claim_boundary": "Zinc and selenium are not admitted as requirements of Nrf2 activation.",
+      "resolution_needs": "A reading of Mocchegiani and Malavolta 2019 that separates enzyme cofactor roles from the Nrf2 activation step.",
+      "finding_ids": ["PM3-F1"],
+      "citation_keys": ["verlaet_rationale_2018", "mocchegiani_role_2019"]
+    }
+  ]
+}

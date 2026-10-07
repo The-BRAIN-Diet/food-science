@@ -96,7 +96,7 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 
 **Connected mechanisms:**
 
-- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — nrf2-ARE Antioxidant Activation
+- [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — Nrf2-Mediated Cellular Defence Regulation
 - [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
 - [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — cytokine Network Modulation
 - [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
@@ -121,7 +121,7 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-Mediated Cellular Defence Regulation</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance">BRS3-FM2-PM4 — ROS Generation vs Clearance Balance</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control">BRS3-FM2-PM5 — Lipid Peroxidation Control</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling">BRS3-FM2-PM6 — Antioxidant Network Recycling</a></li>
@@ -505,7 +505,7 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 
 **Connected mechanisms:**
 
-- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — nrf2-ARE Antioxidant Activation
+- [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — Nrf2-Mediated Cellular Defence Regulation
 - [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
 - [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — cytokine Network Modulation
 - [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
@@ -530,7 +530,7 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-Mediated Cellular Defence Regulation</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance">BRS3-FM2-PM4 — ROS Generation vs Clearance Balance</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control">BRS3-FM2-PM5 — Lipid Peroxidation Control</a></li>
   <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling">BRS3-FM2-PM6 — Antioxidant Network Recycling</a></li>

@@ -1,3 +1,42 @@
+# Stage 2B KC/constituent reassessment — 2026-10-02
+
+This reassessment supersedes the older candidate statements below where they treat B12/folate as assessable only through a parent KC paragraph. Scientific admission is independent of record absence and of direct ChAT-cofactor status. Mission, dietary classifications, phenomes, shared renderer and KC membership are unchanged.
+
+## Current candidate decisions
+
+| Candidate | Specificity / scientific decision | Measured links, inferred links and boundaries | Public destination |
+|---|---|---|---|
+| Choline / phosphatidylcholine | Retained direct substrate / derived choline provision | Existing PM6-DIT-1/2 and PM6-F2/F4; no additional one-carbon KC reprint | §3.1.1 unchanged |
+| Acetyl-CoA / pantothenate | Retained biochemical substrate / cofactor precursor | Existing PM6-DIT-3/4 and PM6-F2/F5/F7; not dietary acetyl-CoA or a ChAT vitamin cofactor | §3.1.2 unchanged |
+| Folate | Retained specific input; conditionally admitted KC constituent | Chan 2008: folate deprivation, lower brain choline/ACh, SAM rescue, methylated nicotinamide observations. Retention/efflux mechanism and synthesis-capacity consequence inferred; Crivello 2010 gives age/region-dependent direction. No universal deficiency, human flux or extra-intake benefit | New PM6-DIT-5 / BRS1-FM2-PM6-KCI-1 in §3.1.3 |
+| Vitamin B12 | Unresolved PM-specific dietary/resource admission; not automatically excluded from PM assessment | MTRR genetic impairment is measured, B12 restriction is not. Jadavji 2014 supports impaired methionine-cycle/choline metabolism. An additional targeted search found Sasaki 1992 (PMID 1438503), a B12 intervention under choline deficiency; accessible indexed abstract suggests tissue ACh rescue, but full formulation, controls and causal resource route remain unappraised. No categorical negative conclusion | Audit-only pending appraisal; no KC1 constituent tag |
+| Betaine | Unresolved individually limiting/restorative PM6 relationship | Lower betaine in MTRR mutants is not an isolated betaine intervention or proof that betaine limits ACh capacity; targeted search did not establish a PM6-specific rescue chain | Audit-only |
+| One-carbon resource constraint | Retain established, conditional parent applicability | Dietary/genetic impairment affects brain choline/ACh; retain supported upstream chain without imposing universal human or direct-flux assay | Parent records retained; publish only vetted folate constituent |
+| BRS1 KC1 / sulfur amino-acid pool | Retain prior non-admission for this PM | Choline is not LAT1 cargo; no independently supported additional sulfur-pool/ACh bottleneck found in reviewed corpus | Audit-only |
+| CoA / glucose / pyruvate / citrate / thiamine / enzymes and transporters | Retain prior boundary decisions | Review existing PM6-F1/F2/F5/F7; intermediates/transport machinery do not establish separate dietary admissions. No new evidence changing these prior dispositions | Existing mechanistic coverage unchanged |
+
+## Distinctness gate
+
+Compared BRS1-FM2-PM6-KCI-1 and its parent with §3.1.1 PM6-DIT-1/2, §3.1.2 PM6-DIT-3/4, and §3.2 (no admitted entries). Disposition: **distinct, conditionally bounded**. Choline's assembly-substrate job is different from folate-dependent maintenance of the available brain choline resource under methyl-metabolic impairment. This inference uses the dietary deprivation/SAM rescue and methylated-nicotinamide/choline chain; it is not established by a different nutrient name or citation set. Brain choline loss/retention is the further resource mechanism, not another delivery form of dietary choline. No separate choline or betaine KC reprint is admitted.
+
+## Contract conflict and unresolved gaps
+
+The current KC1 record BRS2-KC1-KIT-4 explicitly says B12 is a catalytic cofactor and `ikc_membership: excluded`. The governance validator rejects projection of excluded KC atoms. Therefore this reassessment does not silently publish B12 as a KC1 donor constituent. This membership boundary does **not** prohibit an independently supported PM-layer B12 relationship. Its exact remaining evidence gap is appraisal of the B12 intervention's exposure, controls, endpoints and supported causal connection to this PM; MTRR loss cannot alone be relabelled dietary B12 inadequacy. No shared contract or membership change made.
+
+## Retrieval and stopping rationale
+
+Reviewed current dietary contract (specificity, supported-chain threshold, distinctness, verified renderer example), PM schema, citation/Finding/lever contracts, canonical KC1 record, PM source and prior Stage 2B report. Rechecked primary indexed Chan 2008, Jadavji 2014 and Crivello 2010 records; searched specifically for B12 deprivation/intervention and brain choline/ACh. Chan primary full-text indexing describes methylated nicotinamide/choline retention; direct full-text retrieval encountered a browser challenge. Jadavji primary abstract distinguishes measured pools/expression from proposed compensation. Sasaki 1992 retrieval encountered a challenge; indexed abstract is a lead, not fully assessed evidence. Stop with folate admitted within inherited and reverified preclinical bounds; retain precise B12/betaine gaps rather than fabricate certainty. This is a focused KC rerun, not a new phenome or dominance assessment.
+
+Primary sources: https://pubmed.ncbi.nlm.nih.gov/18373034/ ; https://pubmed.ncbi.nlm.nih.gov/24800750/ ; https://www.ars.usda.gov/research/publications/publication/?seqNo115=255177 ; https://pubmed.ncbi.nlm.nih.gov/1438503/ .
+
+## Actual verification
+
+Page-level KC governance/membership, applicability and dietary-atom validators: zero issues. Preservation checks confirmed unchanged Mission, Findings, phenomes, references, applicability adjudications and all four prior atoms. Existing KC governance, distinctness and dietary traceability test suites: **45 passed, 0 failed**. Changed-file `git diff --check`: passed. Browser: KC section opened; Folate button opened the shared disclosure; description, exactly five fields and final research link appeared in order. Citation anchors pm-ref-9/10 and Finding anchor pm6-f6 exist; separate origin link points to canonical KC1. Escape closed and returned focus to Folate without reopening. No full build or exhaustive hover/touch matrix run; existing renderer unchanged. B12/betaine evidence gaps remain open, so this is a bounded reassessment with unresolved candidates, not universal scientific closure.
+
+---
+
+## Prior report (retained decision history; superseded where noted)
+
 # BRS1-FM2-PM6 Acetylcholine Synthesis Support — Stage 2B Report
 
 ## Outcome

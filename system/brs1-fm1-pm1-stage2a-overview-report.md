@@ -23,31 +23,52 @@ were assessed as propositions rather than inherited authority.
 | Inconsistent or incomplete intake causes every downstream monoaminergic pathway to inherit a shortfall | Overstated; removed | Substrate dependency is biologically relevant, but the universal causal wording exceeds the assessed provision evidence and bypasses transport and conversion controls. |
 | Extra protein raises brain monoamines or improves ADHD | Not established | The provision and protein-quality sources do not measure either outcome. The public copy states this limitation without converting absence of evidence into evidence of no effect. |
 
+## Paragraph ceiling removal — 5 October 2026
+
+The closing sentence that extra protein or precursor supplements have not been shown to improve attention was removed from the opening paragraph. That use limit remains in Benefits and Implementation Notes. Implementation Notes opens with the Dietary Requirements labels: dietary protein, indispensable amino-acid supply, and tryptophan. The paragraph now ends on protein coverage as the supported dietary route.
+
 ## Public Overview result
 
-The rewritten paragraph is 67 words before citations. It answers the
-mechanism's job, defining provision boundary and dietary claim ceiling. Exactly
-three non-duplicative bullets provide:
+Rewritten again on 5 October 2026 under the updated Evidence-supported Overview
+contract. The opening paragraph is 68 words before citations. It states the
+dietary job, why the circulating pool matters, the supported protein route, and
+the provision ceiling. The superseded mechanism-boundary and evidence-boundary
+bullets were removed from the Overview; transport and conversion limits now sit
+in Biological Relevance and in §4.
 
-1. the mechanism boundary;
-2. the evidence and measurement boundary; and
-3. biological relevance separated from supplementation or ADHD benefit.
+The three bullets follow the updated roles:
+
+1. **Benefits** — these amino acids, including tyrosine made from phenylalanine, are how meal protein supplies the pool that dopamine, noradrenaline and serotonin pathways draw on, separated from an attention or mood benefit.
+2. **Implementation Notes** — admitted disclosures for protein, indispensable
+   amino-acid coverage and tryptophan; tyrosine is not an indispensable amino
+   acid; no intake dose; a single meal need not supply the full set.
+3. **Biological Relevance** — those amino acids still have to cross into the
+   brain before they are used to make dopamine, noradrenaline or serotonin.
 
 Readable citations are claim-local and resolve to PM references [1], [2], [4],
-[10] and [11]. The frontmatter `summary` was aligned with the adjudicated
-paragraph without embedding citation markup.
+[10], [11] and [12]. Marsh et al. (2013) [12] supports only the
+meal-completeness limitation, which Stage 2B had already adjudicated. The
+frontmatter `summary` matches the paragraph without citation markup.
 
-Rendered local verification confirmed one explanatory paragraph, exactly three
-bullets and valid targets for every Overview citation link.
+| Overview proposition | Disposition | Evidence |
+|---|---|---|
+| Food protein supplies indispensable amino acids, including phenylalanine and tryptophan | Supported at dietary-provision ceiling | Mariotti et al. (2019) [1]; Moughan and Lim (2024) [10] |
+| Phenylalanine can be converted to tyrosine | Supported | Matthews (2007) [11] |
+| Those amino acids supply a circulating pool later signalling can use for dopamine, noradrenaline and serotonin | Supported as precursor identity, not as increased synthesis | Matthews (2007) [11]; Aquili (2020) [4] |
+| Protein coverage of those amino acids is the supported dietary route | Supported at dietary-provision ceiling | Mariotti et al. (2019) [1]; Moughan and Lim (2024) [10] |
+| Extra protein or precursor supplements improve attention | Not established; stated as a ceiling | Provision sources do not measure that outcome [1], [10] |
+| No intake dose; each meal need not supply the full set | Supported limitation | Mariotti et al. (2019) [1]; Moughan and Lim (2024) [10]; Marsh et al. (2013) [12] |
+| Amino acids still have to enter the brain before neurotransmitter formation | Supported as a later step, not as this mechanism's job | Fernstrom (2013) [2]; Aquili (2020) [4] |
 
 ## Coverage and stopping rationale
 
 All references already attached to PM1 were screened for the propositions
 needed by the Overview. Mariotti et al. (2019), Moughan and Lim (2024),
-Matthews (2007), Fernstrom (2013) and Aquili (2020) adequately establish the
-limited public claims: dietary provision and protein quality, the
-phenylalanine-to-tyrosine relationship, precursor identity, and the boundary at
-brain transport and downstream conversion.
+Matthews (2007), Fernstrom (2013), Aquili (2020) and Marsh et al. (2013)
+adequately establish the limited public claims: dietary provision and protein
+quality, the phenylalanine-to-tyrosine relationship, precursor identity, the
+later brain-entry step, and the existing limit that one meal need not supply
+the full amino-acid set.
 
 No targeted external retrieval was needed for this Overview-only pass because
 unsupported distribution and universal-shortfall claims were removed rather

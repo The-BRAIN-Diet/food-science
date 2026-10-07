@@ -14,12 +14,22 @@ tags:
   - Copper
   - Folate
   - Beta-glucan
+  - Cysteine
 list_image: /img/foods/oats/oats_thumb.webp
+eaa_profile_applicable: true
 amino_acid_strengths: >-
-  Methionine-rich relative to legumes; good source of magnesium, iron, selenium,
-  and folate.
-limiting_amino_acids: Lower in lysine (typical of grains).
-complementary_pairings: 'Lentils, beans, or other legumes to complete essential amino acid profile.'
+  On this dry-oat composition, lysine is the lowest ratio to the 2013 FAO
+  pattern for older children, adolescents and adults. Methionine plus cystine
+  is above that pattern.
+limiting_amino_acids: >-
+  Lysine, as an uncorrected amino-acid score of about 0.86 against the 2013
+  pattern. Sulfur amino acids are not the limiting ratio. The score is separate
+  from cystine per serving.
+complementary_pairings: >-
+  Lysine-rich foods such as lentils or beans across the day. Eating them in the
+  same meal is optional.
+public_display:
+  cystine_mg: internal-only
 nutrition_per_100g:
   fibre_g: 10.6
   iron_mg: 4.72
@@ -39,6 +49,7 @@ nutrition_per_100g:
   calcium_mg: 54
   potassium_mg: 429
   zinc_mg: 3.97
+  cystine_mg: 408
   vitamin_b3_mg: 0.961
   vitamin_b5_mg: 1.349
   linoleic_g: 2.424
@@ -52,6 +63,20 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
+  - key: cystine_cooked_mg
+    label: Cystine (cooked oatmeal)
+    value: 97
+    unit: mg
+    public_display: internal-only
+    notes: >-
+      Per 100 g of regular or quick oats cooked with water, unenriched, without salt.
+      A separate preparation from the dry-oat cystine row.
+    source_note: >-
+      USDA FoodData Central FDC 173905, Cereals, oats, regular and quick,
+      unenriched, cooked with water (includes boiling and microwaving), without
+      salt. Nutrient name Cystine, 0.097 g per 100 g. One cup weighs 234 g
+      (the 175 g measure is 0.75 cup), about 227 mg cystine. The dry-oat row is
+      FDC 169705, cup 156 g, about 636 mg cystine.
   - key: beta_glucan_g
     label: Beta-glucan
     value: 7.52
@@ -70,6 +95,13 @@ nutrition_functional_metrics:
     notes: >-
       Avenanthramides and other oat phenolics are not standard USDA panel rows;
       qualitative only here.
+substance_relationships:
+  - substance: Cysteine
+    relationship: contains
+    description: >-
+      Cystine 408 mg per 100 g of dry oats (FDC 169705). Cooked oatmeal is a
+      separate food (FDC 173905, 97 mg per 100 g). Composition only; not a
+      glutathione-synthesis result.
 main_image: /img/foods/oats/oats_medium.webp
 legacy_list_image: /img/foods/oats/oats_thumb.webp
 legacy_main_image: /img/foods/oats/oats_medium.webp
@@ -78,14 +110,29 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that support gut health, serotonin synthesis, and stable glucose release. Key contributions include **magnesium**, **iron**, **selenium**, and **folate**. Beta-glucans support gut microbiome health.
+Oats provide beta-glucan fibre, B vitamins, and minerals, including magnesium, iron and folate. They are a practical grain for porridge, baking and meals built around slow-release carbohydrate.
+
+Rolled and quick oats cook into oatmeal. Dry oats are the ingredient weight; a bowl of oatmeal is the cooked food, and the two are not the same portion.
 
 ## Key Nutritional Highlights
 
-- Concentrated source of beta-glucan, the soluble oat fibre most linked to glycaemic and lipid benefits.
-- Strong micronutrient profile for a grain, including magnesium, iron, selenium, and folate.
-- Naturally gluten-free as a grain, though cross-contamination risk depends on sourcing/processing.
-- Oat protein remains lysine-limited, so amino-acid balance improves when paired with legumes.
+- **Beta-glucan:** The soluble oat fibre most linked to glycaemic and lipid benefits.
+- **Minerals:** Magnesium, iron and folate in useful amounts for a grain.
+- **Naturally gluten-free as a grain,** though cross-contamination depends on sourcing and processing.
+
+## Advanced Nutrition
+
+### Amino acids
+
+Oats supply cystine, which contributes to cysteine availability. Representative values for cooked oatmeal are **97 mg per 100 g**, or about **227 mg in a 234 g cup**. Dry oats contain **408 mg per 100 g**, about **636 mg in a 156 g cup**. The dry figure is an ingredient-weight comparison, not a cooked serving. On that dry weight, oats are a relatively rich cystine source.
+
+Food-composition values are representative, not fixed. Variety, preparation and source can change the amount.
+
+### Protein quality
+
+For these dry oats, lysine has the lowest ratio to the 2013 reference pattern for older children, adolescents and adults (uncorrected score about 0.86). Methionine plus cystine is above that pattern (about 1.85), so sulfur amino acids are not the limiting ratio. “Limiting” describes that relative balance. It does not mean the food contains little cystine. The score is composition arithmetic, not a digestibility measurement [1].
+
+A varied diet can provide complementary amino-acid profiles without requiring oats and legumes to be eaten in the same meal [2].
 
 ## Food Context
 
@@ -93,7 +140,7 @@ Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that suppor
 
 - Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio
 - Best consumed in evening for calming effect; timing midday or evening for calming effect
-- Part of grain-legume complementarity strategy; grains (typically lysine-limited) and legumes (methionine/cysteine-limited) complete each other's profiles when paired
+- Lysine is often the lower ratio in grains, and methionine plus cysteine are proportionally slightly lower in legumes. Eating both across the day covers those ratios. The same meal is optional [2]
 - Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
 
 ### Preparation
@@ -102,15 +149,7 @@ Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that suppor
 
 ### Essential Amino Acid Profile
 
-Oats provide meaningful plant protein but are not a complete protein.
-
-Limiting amino acids:
-
-- Lysine (typical of grains)
-
-Protein pairing strategy:
-
-Oats are relatively higher in methionine than many legumes but lower in lysine. Combining oats with lentils, beans, or other legumes helps create a more balanced essential amino acid profile.
+Oats contribute plant protein. Lysine is the lowest ratio to the 2013 pattern; cystine amounts and that score are under Advanced Nutrition. Oats can be eaten with lysine-rich foods such as [lentils](/docs/foods/lentils) across the day [1,2].
 
 ## Recipes
 
@@ -124,8 +163,8 @@ Oats are relatively higher in methionine than many legumes but lower in lysine. 
 
 ## References
 
-[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] Food and Agriculture Organization of the United Nations (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Scoring pattern for older children, adolescents and adults: lysine 48 mg/g protein and sulfur amino acids 23 mg/g protein. Applied to the dry oats on this page (FDC 169705; 16.89 g protein, 0.701 g lysine, 0.312 g methionine and 0.408 g cystine per 100 g): lysine 41.5 mg/g protein, uncorrected score 0.86; methionine plus cystine 42.6 mg/g protein, uncorrected score 1.85. Lysine is the lowest indispensable ratio on that pattern. Composition arithmetic, not an FAO oat trial and not PDCAAS or DIAAS.
 
-[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Lysine is proportionally low in grains, and methionine plus cysteine are proportionally slightly low in legumes. The review treats “complete” and “incomplete” as misleading and finds no requirement to combine complementary proteins in the same meal when intake is varied across the day. Not an oat digestibility trial.
 
-[3] Sean Davies (2018). [Oat bran lipid/phospholipid response study](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)
+[3] Sean Davies (2018). [Oatmeal Effect on N-acyl-phosphatidylethanolamines](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018). Trial registration proposing that one oatmeal meal would raise serum NAPE and NAE. This page does not use it as evidence of an oat effect.

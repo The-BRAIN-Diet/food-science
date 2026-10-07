@@ -98,6 +98,7 @@
     "nutrition:pipeline": "npm run nutrition:apply -- --all && npm run nutrition:repair",
     "check-foods": "node scripts/check-foods-global.js",
     "qc:generate": "node scripts/generate-framework-qc.mjs",
+    "substances:input-pages": "node scripts/generate-substance-input-pages.mjs",
     "test:framework-qc": "node --test scripts/framework-qc.test.mjs",
     "docusaurus": "docusaurus",
     "start": "INCLUDE_INTERNAL_DOCS=true docusaurus start",

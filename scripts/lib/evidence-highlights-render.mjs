@@ -49,13 +49,14 @@ export function renderEvidenceEntryDropdown(entry) {
 export function renderEvidenceHighlightsSection({
   heading = "### 5.1 Evidence Highlights",
   intro,
+  summaryHeading = "Introduction/Summary",
   entries = [],
 }) {
   if (!entries.length) return "";
   const body = entries.map(renderEvidenceEntryDropdown).join("\n");
   return `${heading}
 
-#### Introduction/Summary
+#### ${summaryHeading}
 
 ${intro}
 

@@ -19,7 +19,7 @@ import {
 import { renderPmPhenomeSectionBody } from "./phenome-relationships.mjs";
 import { pmSectionNumbers } from "./pm-section-layout.mjs";
 
-/** Fallback when a PM omits `scientific_findings_intro` — author reader-facing biology per PM. */
+/** Fallback when a PM omits `scientific_findings_intro` — author an evidence synthesis per PM. */
 export const FINDINGS_INTRO = "";
 
 /** Heading forms the generator owns. */

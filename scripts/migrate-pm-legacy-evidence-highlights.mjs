@@ -55,7 +55,7 @@ function isLegacyEvidenceSection(sectionText) {
 }
 
 function extractIntro(sectionText) {
-  const match = sectionText.match(/#### Introduction\/Summary\s*\n\n([\s\S]*?)(?=\n<|$)/);
+  const match = sectionText.match(/#### (?:Introduction\/Summary|Summary)\s*\n\n([\s\S]*?)(?=\n<|$)/);
   return match ? match[1].trim() : "";
 }
 
@@ -105,6 +105,7 @@ function main() {
     try {
       const block = renderEvidenceHighlightsSection({
         heading: "### 5.1 Evidence Highlights",
+        summaryHeading: "Summary",
         intro: intro || "Mechanism-qualifying evidence highlights for this PM.",
         entries,
       });

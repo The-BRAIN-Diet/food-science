@@ -56,6 +56,8 @@ export const AMINO_ACID_KEYS = {
   Arginine: "arginine_g",
   Glycine: "glycine_g",
   Methionine: "methionine_g",
+  // Stored as milligrams. Cysteine is not an indispensable amino acid and is not a laundry-drop tag.
+  Cysteine: "cystine_mg",
 }
 
 export const K2_FOOD_SLUGS = new Set([

@@ -13,6 +13,8 @@ Applies to **PM**, **FM**, **SM**, and **KC** pages under `docs/biological-targe
 
 ## Rule
 
+**References stay with the PM they support.** In Biological Relevance and in every other section, do not cite a study because another PM uses it. A reference may appear on this page only when it supports a claim about this page’s own mechanism. A sentence that only sets a boundary with a neighbouring PM names that PM, for example “see PM2”, and carries no citation.
+
 **Sections should never begin by restating the title or definition.**
 
 Each section must follow **only** the schema role for that section (Definition, Primary Biological Effects, Phenome Connections, Mechanistic Basis, Dietary Requirements, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
@@ -55,7 +57,7 @@ After front matter, each mechanism page opens with:
 
 | Section | Write |
 |---------|--------|
-| **§1 Mission & Overview (PM)** | Biological ambition → ~65–75 word orientation + 3 scannable bullets | Mechanism biology dump; foods; parent-FM architecture; title paraphrase |
+| **§1 Mission & Overview (PM)** | Biological ambition → purpose, health significance and practical support; preferred Benefits / Implementation Notes / Biological Relevance bullets, adaptable to evidence | Technical evidence dump; unsupported benefit/action claims; unexplained architecture |
 | **§1 Definition / Mission & Overview (FM/SM legacy)** | **Translational opening paragraph (1–3 sentences) + 3 bullets** — see **PM §1** for migration target |
 | **Phenome Connections (PM / FM / SM §7)** | Evidence-weighted translational mappings only — not mechanism definition |
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
@@ -133,7 +135,7 @@ Technical/architectural detail belongs in **Mechanistic Basis**, not a separate 
 [1–2 lines]
 
 ### Overview
-[~65–75 words — orientation paragraph + exactly 3 scannable bullets]
+[~65–75 words — purpose/health/usefulness paragraph + normally Benefits, Implementation Notes and Biological Relevance bullets; adapt when evidence is insufficient]
 ```
 
 **20-second acid test:** Can someone understand this page's purpose in ~20 seconds? If not, the Overview is doing too much.
@@ -162,42 +164,38 @@ Answers:
 
 **Job:** Make the reader think *"Ah, this is why [this mechanism] matters"* — not teach full pathway or parent-FM architecture.
 
-A good Overview answers **three questions** in a **~65–75 word paragraph**, then **exactly 3 scannable bullets** — one per question:
-
-1. What biological job does this mechanism perform?
-2. Why is it important?
-3. How does diet influence it? (very high level only)
+**Governing rule:** Follow [Stage 2A — Evidence-supported Overview](scientific-finding-schema.md#evidence-supported-overview-stage-2a) for paragraph content, preferred bullet roles, adaptation, evidence reuse, claim boundaries and completion checks. Follow [PM §1 — Mission & Overview](primary-mechanism-schema.md#pm-1--mission--overview) for page structure and frontmatter. This section supplies writing aids and an illustrative example, not a second assessment contract.
 
 | Do | Avoid |
-|----|--------|
-| **~65–75 words** — minimal new concepts; one gloss on first specialist term is enough | Microbiome ecology essays; stacking many concepts in the opening paragraph |
-| **3 bullets** — short, scannable; carry job, importance, and diet influence | Food lists or substance ← food bullets |
-| Stand alone for a reader landing from search with **no BRS context** | Parent FM architecture (`BRS5(FM1)…`, `ecological strand of…`, `— within BRSn` in Overview) |
-| Spend words in bullets rather than the paragraph | Framework jargon; pathway detail (belongs in §5 or §6) |
-| | Repeat Mission wording or the PM title |
+|----|-------|
+| Explain purpose, health significance and supported routes in plain language | Technical evidence summaries in the opening |
+| Give useful implementation context at the adjudicated claim ceiling | Invented doses, generic food lists or experimental effects recast as human recommendations |
+| In Benefits, name the function maintained and why it matters, at the highest level the page’s evidence supports | A mechanism description followed by a study limit; an invented clinical outcome; the same benefit repeated on neighbouring PMs |
+| Name one nutritionist mix-up in Biological Relevance | Framework placement, or a mix-up the paragraph already states |
+| Put mechanism boundaries and measurement detail in §4 Mechanistic Basis / Scientific Findings | Boundary and limitation bullets replacing the reader's orientation |
 
-**Parent FM / BRS placement** belongs in **§6 Connected Mechanisms** or **§5 Mechanistic Basis** — not in Overview. Readers who need architecture are already oriented before they reach those sections.
+`summary` stores the opening paragraph; bullets are body-only. Retain claim-local numbered citations. See the live PM3 source for the exact current evidence-supported example; do not restore the former generic “keystone taxa / plant diversity / resilience” example.
 
-**Front matter:** `summary` (Overview paragraph only; bullets are body-only).
+**Worked PM3 example (use with its canonical references and admitted input disclosures):**
 
-**Canonical example:**
-
-> Keystone taxa (groups of related microorganisms) help maintain a healthy gut ecosystem by supporting fibre fermentation, beneficial metabolite production and gut–brain communication. Although they may represent only a small proportion of the microbiome, they perform functions that help stabilise the wider microbial community. Dietary pattern, plant diversity and fermentable fibres influence whether these beneficial communities remain resilient or gradually lose functional capacity.
+> Some gut microbes help maintain the mucus layer that separates the intestinal contents from the gut lining, and they influence local immune responses. These functions matter because a protective mucus barrier reduces unwanted microbial contact, while appropriately regulated immunity helps prevent inflammatory injury. This PM concerns those protective microbial activities. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
 >
-> * Supports beneficial microbial communities that sustain fibre fermentation and gut–brain signalling.
-> * Maintains ecological resilience supporting gut barrier integrity and balanced immune function.
-> * Highlights dietary diversity and fermentable fibres as key drivers of long-term microbial stability.
+> - **Benefits:** Maintaining protective mucus and regulated local immunity can help protect the gut lining from microbial contact and inflammatory injury. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
+> - **Implementation Notes:** Oligofructose-enriched inulin is the studied fibre preparation, and it is distinct from Bifidobacterium longum NCC2705. They are not interchangeable, and no routine human regimen is established here. [[6]](#pm-ref-6)
+> - **Biological Relevance:** Mucus maintenance and protection from experimental intestinal inflammation are separate microbial actions, not one general gut benefit. [[6]](#pm-ref-6) [[7]](#pm-ref-7)
+
+Example reference numbers are local to PM3. Resolve citations from each target PM's bibliography; do not copy or renumber PM3's references for other pages. Detailed mechanism and endpoint boundaries remain in PM3 §4.
 
 ### §1 role split (PM)
 
-| §1 subsection | Role | §5 Mechanistic Basis |
+| §1 subsection | Role | §4 Mechanistic Basis |
 |---------------|------|----------------------|
 | **Mission** | Biological ambition | `### Summary` — implication in depth |
 | **Overview** | Context + job + importance + high-level diet frame (paragraph + 3 bullets) | Primary mechanism `####` blocks — how it works |
 
-After reading §1 only, a non-specialist should understand what the mechanism does, why it matters, and how diet relates at a high level — without reading §5 enzymology first.
+After reading §1 only, a non-specialist should understand what the mechanism does, why it matters, and how diet relates at a high level — without reading §4 pathway detail first.
 
-**Canonical PM example:** [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support).
+**Canonical PM example:** [BRS5-FM1-PM3 — Microbial Barrier–Immune Interface Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support).
 
 ## PM translational writing
 
@@ -292,7 +290,7 @@ PM pages should progressively answer:
 | Part | Role | Rules |
 |------|------|--------|
 | **Mission** | Biological ambition | Same rules as **PM §1 — Mission** |
-| **Overview** | Context + significance | Same rules as **PM §1 — Overview** |
+| **Overview** | Context + significance | Follow the FM/SM governing schema for structure; apply the plain-language purpose/health/usefulness principles above. The PM bullet-count exception applies to PMs. |
 
 **Front matter:** `mission` + `summary` (Overview paragraph).
 
@@ -319,7 +317,7 @@ Front matter `summary` / `overview` should align with this paragraph’s intent.
 
 ### Three bullets (required)
 
-Immediately follow the opening paragraph with **exactly 3 concise bullets** highlighting important downstream biological consequences or cross-system effects.
+For PMs, follow the adaptive Benefits / Implementation Notes / Biological Relevance rule above. For other page types, follow the opening paragraph with **exactly 3 concise bullets** highlighting important downstream biological consequences or cross-system effects.
 
 **Requirements:**
 
@@ -351,7 +349,7 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 
 | Entity | §1 heading | Paragraph focus | Bullet focus |
 |--------|------------|-----------------|--------------|
-| **PM (Profile A)** | `## 1. Mission & Overview` | Mission + Overview (~65–75 words) | Overview: 3 scannable bullets (job / importance / diet) |
+| **PM (Profile A)** | `## 1. Mission & Overview` | Mission + Overview (~65–75 words) | Overview: normally Benefits / Implementation Notes / Biological Relevance; adapt to evidence |
 | **FM** | `## 1. Definition` or `## 1. Mission & Overview` | Emergent integrated state and why it matters | Cross-system effects of the FM state |
 | **SM** | `## 1. Definition` | Why this interpretation layer matters | How the SM changes reading of connected biology |
 | **KC** | `### 1. Ambition` | Desired state of shared resource availability | What functions become constrained when the pool is strained |
@@ -371,12 +369,12 @@ ontology proposes the question; evidence gets to challenge it. Define propositio
 |----|--------|
 | Explain why a finding matters for this PM | Restating §4 mechanism biology |
 | Prefer landmark trials, meta-analyses, human relevance, synergy/limitation insights | Exhaustive or redundant paper summaries |
-| Insight-first bullets with `[Author et al., Year]` | Methods-heavy study recaps |
+| Insight-first prose with target-page numbered bibliography links | Methods-heavy study recaps |
 | Reuse bibliography entries; add BibTeX only when needed | Plain-text or unlinked “see study X” bullets |
 
 **Core principle:** §4 = how the mechanism works. §4.1 = how we know (findings that change interpretation).
 
-**§4.1 UX (reference: BRS1 PM1, BRS1 PM2):** `#### Introduction/Summary` stays visible; curated finding bullets or short `####` blocks go inside one `<details><summary>Evidence highlights — …</summary>…</details>`. Do not repeat §4 mechanism prose in §4.1.
+**§4.1 UX (reference: BRS1 PM1, BRS1 PM2):** `#### Summary` stays visible; individual Scientific Findings follow in the existing shared disclosure components (legacy Evidence Highlights retain their existing components). Do not repeat §4 mechanism prose in §4.1. The visible Summary synthesises the strongest adjudicated findings and overall evidence picture, including studied context and principal limitations; follow Stage 2A’s “Scientific Findings — Summary authoring rule”.
 
 ## PM section roles — avoid triple repetition
 
@@ -394,10 +392,10 @@ The **`### Summary`** (or first paragraph of § Mechanistic Basis on **FM** and 
 
 | Page type | Open with (implication) | Then explain |
 |-----------|-------------------------|--------------|
-| **FM** | The emergent integrated state | How constituent PMs combine (e.g. methylation capacity from linked one-carbon pathways, not one reaction) |
+| **FM** | Concise Functional Rationale (§4.1) | Evidence Summary (§4.2), then Suboptimal Function (§4.3); PM/KC links sit above section 1 |
 | **SM-CROSS** | Why the signal is inherently multi-domain | The cross-system concept (e.g. few systems span neural, immune, gut, and circadian biology — then histamine) |
 | **SM-SNP** | Variant interpretation at stake | Connected host PM biology (§4); do not duplicate PM §4 structure on SMs unless overlay-specific |
 
-Expanded FM narrative may use `<details>`; §5.5 (SM-CROSS) remains for cross-BRS **PM links**, not for repeating the Summary implication.
+FM pages use the concise synthesis layout in `functional-mechanism-schema.md`, without an expanded PM-by-PM narrative; §5.5 (SM-CROSS) remains for cross-BRS **PM links**, not for repeating the Summary implication.
 
 Referenced from: `system/primary-mechanism-schema.md`, `system/functional-mechanism-schema.md`, `system/specific-mechanism-schema.md`, `system/key-constraint-schema.md`.

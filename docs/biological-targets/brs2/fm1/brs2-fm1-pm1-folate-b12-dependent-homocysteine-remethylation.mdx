@@ -4,7 +4,7 @@ pm_id: BRS2-FM1-PM1
 mission: Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: 'Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate, with methylcobalamin as the vitamin B12 cofactor. Regenerated methionine can later be used to form SAMe, but that conversion is a separate reaction. Folic acid and vitamin B12 can lower blood homocysteine, a circulating marker rather than tissue remethylation flux. Betaine-dependent remethylation and transsulfuration are neighbouring routes.'
+summary: 'Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate. Methylcobalamin, the vitamin B12 cofactor, takes part in that transfer. Regenerated methionine can later be used to form SAMe, in a separate reaction. Folic acid and vitamin B12 can lower blood homocysteine. That change is a circulating marker, not tissue remethylation flux.'
 evidence_status: stage-2b-dietary-addressability
 cofactors:
   - Methylcobalamin
@@ -88,7 +88,7 @@ dietary_input_traceability:
         - froese_vitamin_2019
     evidence_limitation: Necessity of 5-methyltetrahydrofolate does not show that raising its intake increases tissue methionine-synthase flux.
   - atom_id: PM1-DIT-2
-    input: Folate
+    input: Vitamin B9 (folate)
     input_type: substrate provision
     biological_role: 'Dietary folate, including folic acid reduced by dihydrofolate reductase, is converted through the folate cycle to 5-methyltetrahydrofolate, the methyl donor used by methionine synthase.'
     evidence_source:
@@ -97,6 +97,17 @@ dietary_input_traceability:
       citation_keys:
         - froese_vitamin_2019
     evidence_limitation: 'This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker.'
+    substance_id: vitamin-b9
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-1
+    relationship_type: supported-upstream-supply
+    canonical_identity:
+      status: resolved
+      substance_id: vitamin-b9
+      substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+      verified_against:
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
   - atom_id: PM1-DIT-3
     input: Methylcobalamin
     input_type: cofactor
@@ -108,7 +119,7 @@ dietary_input_traceability:
         - froese_vitamin_2019
     evidence_limitation: Cofactor necessity does not show that extra vitamin B12 increases tissue methionine-synthase flux when stores are already adequate.
   - atom_id: PM1-DIT-4
-    input: Vitamin B12
+    input: Vitamin B12 (cobalamin)
     input_type: cofactor precursor
     biological_role: Dietary cobalamin is absorbed and processed intracellularly to the methylcobalamin cofactor used by methionine synthase.
     evidence_source:
@@ -174,13 +185,13 @@ dietary_lever_presentations:
     label: 5-Methyltetrahydrofolate
     presentation_section: 3.1.1
   - atom_id: PM1-DIT-2
-    label: Folate
+    label: Vitamin B9 (folate)
     presentation_section: 3.1.1
   - atom_id: PM1-DIT-3
     label: Methylcobalamin
     presentation_section: 3.1.1
   - atom_id: PM1-DIT-4
-    label: Vitamin B12
+    label: Vitamin B12 (cobalamin)
     presentation_section: 3.1.1
   - atom_id: PM1-DIT-5
     label: Homocysteine
@@ -196,7 +207,53 @@ kc_applicability_adjudications:
     inferred_links:
       - 'Inadequacy of the named methyl-donor pool, including choline and betaine, limits tissue methionine-synthase capacity.'
       - A fall in blood homocysteine is a fall in tissue remethylation flux.
-scientific_findings_intro: 'Methionine synthase moves a methyl group from 5-methyltetrahydrofolate onto homocysteine, making methionine and freeing tetrahydrofolate. Methylcobalamin, formed from vitamin B12, carries that methyl group. Riboflavin supports the earlier folate-cycle enzyme and the separate repair enzyme, not this cofactor site. A fall in blood homocysteine is a change in a circulating marker, not a direct measure of how fast the reaction runs in tissues.'
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    arm_id: reviewed-member-supply
+    applicability_mode: supported-upstream-supply
+    applicability_proposition: The folate member of KC1 supplies folate forms converted to 5-methyltetrahydrofolate for PM1 methionine synthase.
+    disposition: established
+    established_links:
+      - The folate member of KC1 supplies folate forms converted to 5-methyltetrahydrofolate for PM1 methionine synthase.
+    inferred_links:
+      - 'This is the folate provision relationship already disclosed on PM1, not a new reaction or proof of a limiting effect on tissue flux. Functional B12 is required. Betaine and choline support a parallel BHMT route, not this enzyme’s donor reaction.'
+    evidence_source: &ref_0
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    rationale: The source-supported folate-to-5-methyltetrahydrofolate route qualifies without a dietary dose-response or direct human flux assay. Pool membership does not admit the alternative BHMT donors as inputs to MTR.
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-3
+    arm_id: individual-member-to-MTR
+    disposition: evidence-supported-non-application
+    applicability_proposition: betaine as a methyl-donor supply input to PM1 methionine synthase
+    established_links:
+      - MTR uses 5-methyltetrahydrofolate; BHMT uses betaine as a separate reaction.
+    inferred_links:
+      - A parallel BHMT donor is therefore a donor to MTR.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    rationale: 'Not established for this specific PM supply relationship. Alternative-route compensation is shared context, not automatic MTR applicability. No new constraint admission is made.'
+  - kc_id: BRS2(KC1)
+    ikc_id: BRS2-KC1-KIT-2
+    arm_id: individual-member-to-MTR
+    disposition: evidence-supported-non-application
+    applicability_proposition: choline as a methyl-donor supply input to PM1 methionine synthase
+    established_links:
+      - MTR uses 5-methyltetrahydrofolate; BHMT uses betaine as a separate reaction.
+    inferred_links:
+      - A parallel BHMT donor is therefore a donor to MTR.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - froese_vitamin_2019
+    rationale: 'Not established for this specific PM supply relationship. Alternative-route compensation is shared context, not automatic MTR applicability. No new constraint admission is made.'
+scientific_findings_intro: 'Human-pathway evidence establishes methionine synthase’s folate-substrate and methylcobalamin requirements and distinguishes them from upstream flavin-dependent enzymes. [[9]](#pm-ref-9) In an adult observational study, riboflavin status modified the association between an MTHFR variant and circulating homocysteine. [[10]](#pm-ref-10) Together, these findings clarify enzyme-specific dependence and a status–genotype interaction; the circulating marker does not directly measure tissue remethylation flux.'
 scientific_findings:
   - id: PM1-F1
     finding_label: Methionine synthase remethylates homocysteine
@@ -389,6 +446,54 @@ scientific_findings:
         data_level: Human Mechanistic
         why_relevant: 'Shows that folic acid and vitamin B12 lower blood homocysteine, the marker often used to interpret B-vitamin cognitive trials.'
         why_excluded: 'The meta-analysis measured blood homocysteine, not cognitive clarity and not tissue methionine-synthase flux. That marker limit is assessed in PM1-IC1.'
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decisions:
+      - kc_id: BRS2(KC1)
+        ikc_id: BRS2(KC1)
+        arm_id: methyl-donor-pool-inadequacy
+        disposition: unresolved
+        established_links:
+          - '5-Methyltetrahydrofolate, produced from folate by methylenetetrahydrofolate reductase, is an obligatory substrate of methionine synthase.'
+          - 'Folic acid supplementation lowers blood homocysteine, with a larger reduction when pretreatment folate is lower.'
+        inferred_links:
+          - 'Inadequacy of the named methyl-donor pool, including choline and betaine, limits tissue methionine-synthase capacity.'
+          - A fall in blood homocysteine is a fall in tissue remethylation flux.
+    reason: Preserve prior constraint assessment; independently admit folate supply under the revised gate.
+pm_kc_relationships:
+  - relationship_id: PM1-KC1-FOLATE-SUPPLY
+    kc_id: BRS2(KC1)
+    ikc_id: BRS2(KC1)
+    relationship_type: supported-upstream-supply
+    pm_biological_role: The folate member of KC1 supplies folate forms converted to 5-methyltetrahydrofolate for PM1 methionine synthase.
+    evidence_source: *ref_0
+    evidence_limitation: 'This is the folate provision relationship already disclosed on PM1, not a new reaction or proof of a limiting effect on tissue flux. Functional B12 is required. Betaine and choline support a parallel BHMT route, not this enzyme’s donor reaction.'
+    origin_label: 'KC1: Methyl Donor Pool'
+    kc_href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
+    constituent_relationships:
+      - relationship_id: PM1-DIT-2-KC1-ADMISSION
+        pm_atom_id: PM1-DIT-2
+        kc_atom_id: BRS2-KC1-KIT-1
+        ikc_id: BRS2-KC1-KIT-1
+        kc_membership_status: canonical-reviewed
+        substance_id: vitamin-b9
+        canonical_identity:
+          status: resolved
+          substance_id: vitamin-b9
+          substance_href: /docs/substances/nutrients/micronutrients/vitamins/vitamin-b9
+          verified_against:
+            - registry/substances.json
+            - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
+        relationship_type: supported-upstream-supply
+        disposition: established
+        presentation_section: 3.1.3
+        public_disclosure: consolidated-as-duplicate
+        retained_record_ids:
+          - PM1-DIT-2
+        rationale: Individually evidenced KC membership and PM applicability. The full provision disclosure is already retained on this PM; no second identical atom is published.
+    public_disclosure: consolidated-as-duplicate
+    retained_record_ids:
+      - PM1-DIT-2
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -428,10 +533,9 @@ Recycle homocysteine to methionine through folate and B12 so methyl-donor supply
 <div class="brs-fm-hub-panel" hidden>
 
 - 5-Methyltetrahydrofolate
-- Folate
+- Vitamin B9 (folate)
 - Methylcobalamin
-- Vitamin B12
-
+- Vitamin B12 (cobalamin)
 </div>
 </div>
 </div>
@@ -458,7 +562,7 @@ Recycle homocysteine to methionine through folate and B12 so methyl-donor supply
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No mapping established.
+[KC1](https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)’s independently admitted folate supply is disclosed under [Vitamin B9 (folate) in the dietary requirements](#pm-lever-dietary-1). Its full five-atom disclosure is retained there; a second identical disclosure is consolidated. Betaine and choline are not admitted as PM1 methyl-donor inputs. The stronger tissue-capacity constraint remains unresolved.
 
 </div>
 </div>
@@ -470,11 +574,11 @@ No mapping established.
 </div>
 ### Overview
 
-Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate, with methylcobalamin as the vitamin B12 cofactor [Froese et al. (2019) [[9]](#pm-ref-9)]. Regenerated methionine can later be used to form SAMe, but that conversion is a separate reaction. Folic acid and vitamin B12 can lower blood homocysteine, a circulating marker rather than tissue remethylation flux [Collaboration (1998) [[1]](#pm-ref-1)]. Betaine-dependent remethylation and transsulfuration are neighbouring routes.
+Methionine synthase transfers a methyl group from 5-methyltetrahydrofolate to homocysteine, forming methionine and tetrahydrofolate. [[9]](#pm-ref-9) Methylcobalamin, the vitamin B12 cofactor, takes part in that transfer. [[9]](#pm-ref-9) Regenerated methionine can later be used to form SAMe, in a separate reaction. [[9]](#pm-ref-9) Folic acid and vitamin B12 can lower blood homocysteine. [[1]](#pm-ref-1) That change is a circulating marker, not tissue remethylation flux. [[1]](#pm-ref-1)
 
-* **Mechanism boundary:** Includes only the folate- and B12-dependent methionine synthase reaction; betaine remethylation, SAMe synthesis, later methyl-transfer reactions and transsulfuration are separate [Froese et al. (2019) [[9]](#pm-ref-9)].
-* **Evidence boundary:** Blood homocysteine lowering shows a change in a circulating marker, not tissue methionine-synthase flux or methylation output [Collaboration (1998) [[1]](#pm-ref-1)].
-* **Biological relevance:** Recycling homocysteine replenishes methionine used before SAMe formation [Froese et al. (2019) [[9]](#pm-ref-9)], but that role does not show that folate or vitamin B12 supplementation treats attention or cognitive outcomes.
+- **Benefits:** Remethylating homocysteine restores methionine, which can then be converted into SAMe. [[9]](#pm-ref-9) This helps maintain the methyl-group supply used by later methylation.
+- **Implementation Notes:** 5-Methyltetrahydrofolate, vitamin B9 (folate), methylcobalamin, and vitamin B12 (cobalamin) are the provision routes. [[9]](#pm-ref-9) [[1]](#pm-ref-1) Homocysteine is the substrate already in the pathway, not a dietary target. Lowering blood homocysteine does not set a dose for tissue remethylation flux. [[1]](#pm-ref-1)
+- **Biological Relevance:** [Betaine-dependent remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) and [transsulfuration](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) are neighbouring routes, not this reaction. [[9]](#pm-ref-9)
 
 ## 2. Primary Biological Effects
 ↓ homocysteine; ↑ methionine regeneration
@@ -562,9 +666,9 @@ Within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs
 
 ### 4.1 Scientific Findings
 
-#### Introduction/Summary
+#### Summary
 
-Methionine synthase moves a methyl group from 5-methyltetrahydrofolate onto homocysteine, making methionine and freeing tetrahydrofolate. Methylcobalamin, formed from vitamin B12, carries that methyl group. Riboflavin supports the earlier folate-cycle enzyme and the separate repair enzyme, not this cofactor site. A fall in blood homocysteine is a change in a circulating marker, not a direct measure of how fast the reaction runs in tissues.
+Human-pathway evidence establishes methionine synthase’s folate-substrate and methylcobalamin requirements and distinguishes them from upstream flavin-dependent enzymes. [[9]](#pm-ref-9) In an adult observational study, riboflavin status modified the association between an MTHFR variant and circulating homocysteine. [[10]](#pm-ref-10) Together, these findings clarify enzyme-specific dependence and a status–genotype interaction; the circulating marker does not directly measure tissue remethylation flux.
 
 <ScientificFinding finding={{"id":"PM1-F1","finding_label":"Methionine synthase remethylates homocysteine","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate. Methylcobalamin carries that methyl group. Betaine remethylation, SAMe synthesis, transsulfuration and phospholipid methylation are different reactions.","finding_interpretation":"This defines the reaction and its direct participants. It does not show that eating more folate or vitamin B12 speeds the reaction in human tissues, and it does not make riboflavin a cofactor of the synthase.","finding_statement":"Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A human-pathway review states the reaction directly: methionine synthase (MTR) converts homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires the methylated form of cobalamin. Methylenetetrahydrofolate reductase produces that folate substrate. Betaine-homocysteine methyltransferase is a separate, mainly liver and kidney route. Methionine adenosyltransferase then converts methionine to SAMe, and cystathionine beta-synthase starts transsulfuration. The review also traces dietary folate, including folic acid reduced by dihydrofolate reductase, into 5-methyltetrahydrofolate, and dietary cobalamin through absorption and intracellular processing onto the enzyme as methylcobalamin.","synthesis_limitations":"The primary source is a biochemical review, not a new human flux study. Reaction identity does not show that ordinary dietary intake controls tissue remethylation rate, and it does not assign clinical benefit. Phosphatidylethanolamine methylation is a later SAMe-consuming reaction, not part of this step.","evidence_considered":[{"label":"Froese et al. (2019)","citation_key":"froese_vitamin_2019","href":"/docs/papers/BRAIN-Diet-References#froese_vitamin_2019","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.","assessment":{"study":"Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.","population":"No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.","result":"Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.","effect_magnitude":"No new numeric effect size. The result is reaction identity and pathway separation.","evidence_summary":"Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.","limitations":"A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."},"canonical_reference":{"author_year":"Froese et al. (2019)","number":9,"anchor":"#pm-ref-9"}}],"connected_supportive_evidence":[{"label":"Aragão et al. (2024)","citation_key":"aragao_revitalising_2024","href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","data_level":"Mechanistic","why_relevant":"Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.","why_excluded":"Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation.","canonical_reference":{"author_year":"Aragão et al. (2024)","number":2,"anchor":"#pm-ref-2"}}],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"},{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"}]}} />
 
