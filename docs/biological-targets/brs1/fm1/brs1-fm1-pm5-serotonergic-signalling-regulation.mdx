@@ -1,10 +1,17 @@
 ---
 title: Serotonergic Signalling Regulation
 pm_id: BRS1-FM1-PM5
-mission: 'Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.'
+mission: >-
+  Support serotonergic signalling so mood stability, inhibition, and behavioural
+  regulation remain well grounded.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'Serotonin is made in neurons when tryptophan is converted through two enzyme steps, then shaped by release, receptors, reuptake and breakdown. Across brain regions, the same transmitter can support different responses. That system supports mood stability, inhibition and behavioural regulation. Tryptophan, iron and vitamin B6 are part of the chemistry.'
+summary: >-
+  Serotonin is made in neurons when tryptophan is converted through two enzyme
+  steps, then shaped by release, receptors, reuptake and breakdown. Across brain
+  regions, the same transmitter can support different responses. That system
+  supports mood stability, inhibition and behavioural regulation. Tryptophan,
+  iron and vitamin B6 are part of the chemistry.
 cofactors:
   - Iron
   - Tetrahydrobiopterin (BH4)
@@ -12,7 +19,9 @@ cofactors:
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'No'
-dose_sensitivity: 'No intake-response range established; serotonin effects are receptor-, region- and task-dependent'
+dose_sensitivity: >-
+  No intake-response range established; serotonin effects are receptor-, region-
+  and task-dependent
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
 mechanistic_authoring_required: false
@@ -21,12 +30,15 @@ dietary_input_traceability:
   - atom_id: PM5-DIT-1
     input: Tryptophan
     input_type: substrate
-    biological_role: 'Substrate for tryptophan hydroxylase conversion to 5-hydroxytryptophan, the immediate precursor of serotonin'
+    biological_role: >-
+      Substrate for tryptophan hydroxylase conversion to 5-hydroxytryptophan,
+      the immediate precursor of serotonin
     upstream_pm_relationships:
       - relationship_label: Supply
         pm_short_id: PM1
         pm_id: BRS1-FM1-PM1
-        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
+        href: >-
+          /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
     evidence_source:
       finding_ids:
         - PM5-F2
@@ -34,18 +46,25 @@ dietary_input_traceability:
         - fitzpatrick_aromatic_1999
         - walther_tph2_2003
         - fanet_tetrahydrobioterin_2021
-    evidence_limitation: 'Substrate necessity does not establish that additional dietary tryptophan increases brain serotonin or improves mood, sleep or ADHD.'
+    evidence_limitation: >-
+      Substrate necessity does not establish that additional dietary tryptophan
+      increases brain serotonin or improves mood, sleep or ADHD.
   - atom_id: PM5-DIT-3
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
-    biological_role: Cofactor for aromatic L-amino-acid decarboxylase conversion of 5-hydroxytryptophan to serotonin
+    biological_role: >-
+      Cofactor for aromatic L-amino-acid decarboxylase conversion of
+      5-hydroxytryptophan to serotonin
     evidence_source:
       finding_ids:
         - PM5-F2
       citation_keys:
         - kennedy_b_2016
         - fitzpatrick_aromatic_1999
-    evidence_limitation: Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not establish dietary PLP provision or an intake-to-serotonin response in humans.
+    evidence_limitation: >-
+      Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not
+      establish dietary PLP provision or an intake-to-serotonin response in
+      humans.
   - atom_id: PM5-DIT-4
     input: Vitamin B6
     input_type: cofactor precursor
@@ -56,29 +75,40 @@ dietary_input_traceability:
       citation_keys:
         - kennedy_b_2016
         - spector_vitamin_1978
-    evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis.'
+    evidence_limitation: >-
+      Dietary B6 can supply PLP precursors, including vitamers that enter the
+      central nervous system, but increasing B6 intake has not been shown to
+      increase human brain serotonin synthesis.
   - atom_id: PM5-DIT-5
     input: Iron
     input_type: cofactor
-    biological_role: Required metal cofactor of tryptophan hydroxylase during conversion of tryptophan to 5-hydroxytryptophan
+    biological_role: >-
+      Required metal cofactor of tryptophan hydroxylase during conversion of
+      tryptophan to 5-hydroxytryptophan
     evidence_source:
       finding_ids:
         - PM5-F2
       citation_keys:
         - fitzpatrick_aromatic_1999
         - fanet_tetrahydrobioterin_2021
-    evidence_limitation: Iron is required by the hydroxylase. That is not evidence that extra dietary iron raises brain serotonin when iron status is adequate.
+    evidence_limitation: >-
+      Iron is required by the hydroxylase. That is not evidence that extra
+      dietary iron raises brain serotonin when iron status is adequate.
   - atom_id: PM5-DIT-6
     input: Tetrahydrobiopterin (BH4)
     input_type: cofactor
-    biological_role: Endogenous cofactor required by tryptophan hydroxylase during conversion of tryptophan to 5-hydroxytryptophan
+    biological_role: >-
+      Endogenous cofactor required by tryptophan hydroxylase during conversion
+      of tryptophan to 5-hydroxytryptophan
     evidence_source:
       finding_ids:
         - PM5-F2
       citation_keys:
         - fanet_tetrahydrobioterin_2021
         - fitzpatrick_aromatic_1999
-    evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased serotonin synthesis.
+    evidence_limitation: >-
+      BH4 is synthesised and recycled in vivo; this is not evidence for dietary
+      BH4 provision or increased serotonin synthesis.
 dietary_lever_atoms:
   - atom_id: PM5-DIT-1
     requirement_classification: direct
@@ -86,24 +116,41 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: Tryptophan is a Direct substrate requirement for tryptophan-hydroxylase conversion to 5-hydroxytryptophan. This does not establish that additional dietary tryptophan increases brain serotonin or improves a functional or clinical outcome.
-    evidence_limitation: 'Substrate necessity does not establish that additional dietary tryptophan increases brain serotonin or improves mood, sleep or ADHD.'
+    permitted_wording: >-
+      Tryptophan is a Direct substrate requirement for tryptophan-hydroxylase
+      conversion to 5-hydroxytryptophan. This does not establish that additional
+      dietary tryptophan increases brain serotonin or improves a functional or
+      clinical outcome.
+    evidence_limitation: >-
+      Substrate necessity does not establish that additional dietary tryptophan
+      increases brain serotonin or improves mood, sleep or ADHD.
   - atom_id: PM5-DIT-5
     requirement_classification: direct
     relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: Iron is a Direct cofactor requirement for tryptophan hydroxylase. This does not establish that additional iron increases brain serotonin when iron status is adequate.
-    evidence_limitation: Iron is required by the hydroxylase. That is not evidence that extra dietary iron raises brain serotonin when iron status is adequate.
+    permitted_wording: >-
+      Iron is a Direct cofactor requirement for tryptophan hydroxylase. This
+      does not establish that additional iron increases brain serotonin when
+      iron status is adequate.
+    evidence_limitation: >-
+      Iron is required by the hydroxylase. That is not evidence that extra
+      dietary iron raises brain serotonin when iron status is adequate.
   - atom_id: PM5-DIT-3
     requirement_classification: direct
     relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: not-established
     claim_ceiling: biological-dependency
-    permitted_wording: PLP is the Direct cofactor requirement for aromatic L-amino-acid decarboxylase conversion of 5-hydroxytryptophan to serotonin. This does not establish dietary PLP provision.
-    evidence_limitation: Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not establish dietary PLP provision or an intake-to-serotonin response in humans.
+    permitted_wording: >-
+      PLP is the Direct cofactor requirement for aromatic L-amino-acid
+      decarboxylase conversion of 5-hydroxytryptophan to serotonin. This does
+      not establish dietary PLP provision.
+    evidence_limitation: >-
+      Kennedy reviews B-vitamin roles in neurochemical synthesis; this does not
+      establish dietary PLP provision or an intake-to-serotonin response in
+      humans.
   - atom_id: PM5-DIT-4
     requirement_classification: derived
     relationship_mode: capacity-requirement
@@ -112,18 +159,31 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
     claim_ceiling: dietary-provision
-    permitted_wording: 'Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP. This does not establish that increasing B6 intake increases serotonin synthesis or improves mood, sleep or ADHD.'
-    evidence_limitation: 'Dietary B6 can supply PLP precursors, including vitamers that enter the central nervous system, but increasing B6 intake has not been shown to increase human brain serotonin synthesis.'
+    permitted_wording: >-
+      Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers
+      are converted to PLP. This does not establish that increasing B6 intake
+      increases serotonin synthesis or improves mood, sleep or ADHD.
+    evidence_limitation: >-
+      Dietary B6 can supply PLP precursors, including vitamers that enter the
+      central nervous system, but increasing B6 intake has not been shown to
+      increase human brain serotonin synthesis.
   - atom_id: PM5-DIT-6
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: BH4 is the endogenous cofactor required for tryptophan hydroxylation. It is not a dietary BH4 recommendation.
-    evidence_limitation: BH4 is synthesised and recycled in vivo; this is not evidence for dietary BH4 provision or increased serotonin synthesis.
+    permitted_wording: >-
+      BH4 is the endogenous cofactor required for tryptophan hydroxylation. It
+      is not a dietary BH4 recommendation.
+    evidence_limitation: >-
+      BH4 is synthesised and recycled in vivo; this is not evidence for dietary
+      BH4 provision or increased serotonin synthesis.
 dietary_lever_presentations:
   - atom_id: PM5-DIT-1
     label: Tryptophan
     presentation_section: 3.1.1
-    reader_description: 'Tryptophan is the starting material used to make serotonin. Tryptophan hydroxylase converts it to 5-hydroxytryptophan, which is then converted to serotonin. Circulating tryptophan comes from the amino-acid pool.'
+    reader_description: >-
+      Tryptophan is the starting material used to make serotonin. Tryptophan
+      hydroxylase converts it to 5-hydroxytryptophan, which is then converted to
+      serotonin. Circulating tryptophan comes from the amino-acid pool.
     description_finding_id: PM5-F2
   - atom_id: PM5-DIT-5
     label: Iron
@@ -134,7 +194,9 @@ dietary_lever_presentations:
   - atom_id: PM5-DIT-4
     label: Vitamin B6
     presentation_section: 3.1.1
-    reader_description: 'Vitamin B6 is the dietary route to PLP, the active decarboxylase cofactor. It is not a second independent serotonin-synthesis cofactor.'
+    reader_description: >-
+      Vitamin B6 is the dietary route to PLP, the active decarboxylase cofactor.
+      It is not a second independent serotonin-synthesis cofactor.
     description_finding_id: PM5-F2
   - atom_id: PM5-DIT-6
     label: Tetrahydrobiopterin (BH4)
@@ -157,13 +219,21 @@ pm_kc_relationships:
         - fernstrom_lnna_2013
     evidence_limitation: >-
       The mapping is constrained-by synthesis capacity. It does not establish
-      serotonin release, receptor signalling, mood change, or a Dietary Requirement.
+      serotonin release, receptor signalling, mood change, or a Dietary
+      Requirement.
+    relationship_type: conditional-constraint
+    legacy_relationship_mode: constrained-by
 phenome_relationships:
   - target_phenome: Emotional Regulation
     relationship_type: supports
     confidence: high
     evidence_level: mechanistic
-    rationale: 'Serotonin signalling is a core biological substrate for emotional regulation, impulse control and affective stability {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not establish a uniform serotonin deficit that diet can correct {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}.'
+    rationale: >-
+      Serotonin signalling is a core biological substrate for emotional
+      regulation, impulse control and affective stability
+      {{cite:shaw_emotion_2014}}. ADHD-focused serotonin reviews do not
+      establish a uniform serotonin deficit that diet can correct
+      {{cite:faraone_serotonin_2025}} {{cite:banerjee_does_2015}}.
     references:
       - index: 1
         label: Tang et al. (2025)
@@ -193,7 +263,11 @@ phenome_relationships:
     relationship_type: supports
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Serotonin signalling participates in emotional processing and stress-related control {{cite:shaw_emotion_2014}}. The attached sources do not measure stress resilience after a dietary change aimed at serotonin {{cite:tang_nutritional_2025}}.'
+    rationale: >-
+      Serotonin signalling participates in emotional processing and
+      stress-related control {{cite:shaw_emotion_2014}}. The attached sources do
+      not measure stress resilience after a dietary change aimed at serotonin
+      {{cite:tang_nutritional_2025}}.
     references:
       - index: 1
         label: Tang et al. (2025)
@@ -212,7 +286,10 @@ phenome_relationships:
     relationship_type: supports
     confidence: medium
     evidence_level: mechanistic
-    rationale: 'Serotonin participates in sleep–wake and calming neurochemistry {{cite:berger_serotonin_2009}}. Meal-level precursor transport is not a sleep outcome {{cite:fernstrom_lnna_2013}}.'
+    rationale: >-
+      Serotonin participates in sleep–wake and calming neurochemistry
+      {{cite:berger_serotonin_2009}}. Meal-level precursor transport is not a
+      sleep outcome {{cite:fernstrom_lnna_2013}}.
     references:
       - index: 1
         label: Fernstrom (2013)
@@ -227,7 +304,10 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: 'Serotonin can interact with dopaminergic reward circuits and behavioural inhibition {{cite:faraone_serotonin_2025}}. That interaction is not a measured reward outcome after diet {{cite:tang_nutritional_2025}}.'
+    rationale: >-
+      Serotonin can interact with dopaminergic reward circuits and behavioural
+      inhibition {{cite:faraone_serotonin_2025}}. That interaction is not a
+      measured reward outcome after diet {{cite:tang_nutritional_2025}}.
     references:
       - index: 1
         label: Tang et al. (2025)
@@ -246,7 +326,11 @@ phenome_relationships:
     relationship_type: supports
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Serotonin signalling intersects negative-valence and control circuits discussed in mood and anxiety contexts {{cite:briguglio_dietary_2018}}. Systemic-inflammation connectivity is not a serotonin measurement {{cite:marsland_systemic_2017}}.'
+    rationale: >-
+      Serotonin signalling intersects negative-valence and control circuits
+      discussed in mood and anxiety contexts {{cite:briguglio_dietary_2018}}.
+      Systemic-inflammation connectivity is not a serotonin measurement
+      {{cite:marsland_systemic_2017}}.
     references:
       - index: 1
         label: Briguglio et al. (2018)
@@ -266,7 +350,11 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: intervention
-    rationale: 'Serotonin pathways sit near positive-valence mood biology {{cite:berger_serotonin_2009}}. Saffron supplementation trials are not serotonin-process measurements and are not a Dietary Requirement of this mechanism {{cite:jackson_effects_2021}}.'
+    rationale: >-
+      Serotonin pathways sit near positive-valence mood biology
+      {{cite:berger_serotonin_2009}}. Saffron supplementation trials are not
+      serotonin-process measurements and are not a Dietary Requirement of this
+      mechanism {{cite:jackson_effects_2021}}.
     references:
       - index: 1
         label: Jackson et al. (2021)
@@ -285,7 +373,11 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: intervention
-    rationale: 'Serotonin can modulate affiliative and social-affective behaviour in translational accounts {{cite:berger_serotonin_2009}}. A saffron social-relationship outcome is not a serotonin signalling measurement {{cite:jackson_effects_2021}}.'
+    rationale: >-
+      Serotonin can modulate affiliative and social-affective behaviour in
+      translational accounts {{cite:berger_serotonin_2009}}. A saffron
+      social-relationship outcome is not a serotonin signalling measurement
+      {{cite:jackson_effects_2021}}.
     references:
       - index: 1
         label: Jackson et al. (2021)
@@ -296,63 +388,82 @@ phenome_relationships:
     scientific_findings:
       - PM5-F1
 references:
-  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
-  - '[Tang et al. 2025 — A Comprehensive Review of Nutritional Influences on the Serotonergic System](/docs/papers/BRAIN-Diet-References#tang_nutritional_2025)'
-  - '[Faraone et al. 2025 — Role of serotonin in the neurobiology of attention-deficit/hyperactivity disorder: a systematic literature review](/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025)'
-  - '[Shaw et al. (2014) — Emotion Dysregulation in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)'
-  - '[Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate Susceptibility to ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)'
-  - '[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
-  - '[Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)'
-  - '[Jackson et al. (2021) — A Randomized, Double-Blind, Parallel Group, Clinical Trial](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)'
-  - '[Lopresti & Drummond (2014) — Saffron ( Crocus Sativus ) for Depression](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)'
-  - '[Kennedy (2016) — B Vitamins and Brain Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)'
-  - '[Spector (1978) — Vitamin B6 Transport in the Central Nervous System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)'
-  - '[Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)'
-  - '[Fitzpatrick (1999) — Tetrahydropterin-dependent Amino Acid Hydroxylases](/docs/papers/BRAIN-Diet-References#fitzpatrick_aromatic_1999)'
-  - '[Walther et al. (2003) — Synthesis of Serotonin by a Second Tryptophan Hydroxylase Isoform](/docs/papers/BRAIN-Diet-References#walther_tph2_2003)'
-  - '[Berger, Gray and Roth (2009) — The Expanded Biology of Serotonin](/docs/papers/BRAIN-Diet-References#berger_serotonin_2009)'
-  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
-  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+  - >-
+    [Fernstrom (2013) — LNAA Transport and Brain
+    Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+  - >-
+    [Tang et al. 2025 — A Comprehensive Review of Nutritional Influences on the
+    Serotonergic
+    System](/docs/papers/BRAIN-Diet-References#tang_nutritional_2025)
+  - >-
+    [Faraone et al. 2025 — Role of serotonin in the neurobiology of
+    attention-deficit/hyperactivity disorder: a systematic literature
+    review](/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025)
+  - >-
+    [Shaw et al. (2014) — Emotion Dysregulation in Attention Deficit
+    Hyperactivity
+    Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)
+  - >-
+    [Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate
+    Susceptibility to
+    ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)
+  - >-
+    [Briguglio et al. (2018) — A Narrative Review on Current
+    Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
+  - >-
+    [Marsland et al. (2017) — Systemic Inflammation and Resting State
+    Connectivity of the Default Mode
+    Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
+  - >-
+    [Jackson et al. (2021) — A Randomized, Double-Blind, Parallel Group,
+    Clinical Trial](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
+  - >-
+    [Lopresti & Drummond (2014) — Saffron ( Crocus Sativus ) for
+    Depression](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
+  - >-
+    [Kennedy (2016) — B Vitamins and Brain
+    Function](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+  - >-
+    [Spector (1978) — Vitamin B6 Transport in the Central Nervous
+    System](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)
+  - >-
+    [Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine
+    Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)
+  - >-
+    [Fitzpatrick (1999) — Tetrahydropterin-dependent Amino Acid
+    Hydroxylases](/docs/papers/BRAIN-Diet-References#fitzpatrick_aromatic_1999)
+  - >-
+    [Walther et al. (2003) — Synthesis of Serotonin by a Second Tryptophan
+    Hydroxylase Isoform](/docs/papers/BRAIN-Diet-References#walther_tph2_2003)
+  - >-
+    [Berger, Gray and Roth (2009) — The Expanded Biology of
+    Serotonin](/docs/papers/BRAIN-Diet-References#berger_serotonin_2009)
+  - >-
+    [FAO (2013) — Dietary Protein Quality Evaluation in Human
+    Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+  - >-
+    [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian
+    Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 kc_applicability_adjudications:
-  - kc_id: BRS1(KC1)
-    ikc_id: BRS1(KC1)
-    arm_id: amino-acid-quality
-    applicability_proposition: >-
-      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
-      this mechanism’s governed serotonergic capacity.
-    disposition: unresolved
-    established_links:
-      - Tryptophan is indispensable and is the serotonin starting material (PM5-F2).
-      - DIAAS and related scores measure digestible IAA adequacy for protein quality (FAO 2013; Mariotti 2019).
-    inferred_links:
-      - Incomplete meal protein quality would therefore lower tryptophan supply and constrain serotonin signalling.
-    evidence_source:
-      finding_ids:
-        - PM5-F2
-      citation_keys:
-        - fitzpatrick_aromatic_1999
-        - walther_tph2_2003
-        - fao_diaas_2013
-        - mariotti_dietary_2019
-    rationale: >-
-      Assessment was completed. Quality-scoring evidence does not connect IAA-quality
-      inadequacy to serotonergic capacity. Fernstrom’s protein effects operate through
-      the plasma tryptophan-to-LNAA ratio, which is the competitive arm. Extreme
-      tryptophan-poor diets are a different construct. The capacity-constraint link
-      remains a material gap, not a negative finding.
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: competitive-lat1
     applicability_proposition: >-
-      Imbalance of LAT1 competitive large-neutral-amino-acid balance can constrain
-      this mechanism’s governed serotonergic capacity.
+      Imbalance of LAT1 competitive large-neutral-amino-acid balance can
+      constrain this mechanism’s governed serotonergic capacity.
     disposition: established
-    applicability_mode: constrained-by
+    applicability_mode: conditional-constraint
     established_links:
-      - LAT1 competition changes tryptophan presentation (PM5-IC1; Fernstrom 2013).
-      - Fernstrom 2013: ordinary protein-driven LNAA changes produce large variations in brain tryptophan uptake and serotonin synthesis.
+      - >-
+        LAT1 competition changes tryptophan presentation (PM5-IC1; Fernstrom
+        2013).
+      - Fernstrom 2013: >-
+          ordinary protein-driven LNAA changes produce large variations in brain
+          tryptophan uptake and serotonin synthesis.
     inferred_links:
-      - Those synthesis-rate changes would also change serotonin release, mood or ADHD outcomes.
+      - >-
+        Those synthesis-rate changes would also change serotonin release, mood
+        or ADHD outcomes.
     evidence_source:
       finding_ids:
         - PM5-F2
@@ -360,9 +471,11 @@ kc_applicability_adjudications:
       citation_keys:
         - fernstrom_lnna_2013
     rationale: >-
-      Type D (2) is met for formation capacity: named LAT1 imbalance is connected to
-      a constraint on serotonin synthesis, a defining capacity this mechanism governs.
-      Transport is still not signalling (PM5-IC1). Mood, sleep and ADHD remain inference.
+      Type D (2) is met for formation capacity: named LAT1 imbalance is
+      connected to a constraint on serotonin synthesis, a defining capacity this
+      mechanism governs. Transport is still not signalling (PM5-IC1). Mood,
+      sleep and ADHD remain inference.
+    legacy_applicability_mode: constrained-by
   - kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     arm_id: one-carbon-methyl-donor-pool
@@ -371,10 +484,16 @@ kc_applicability_adjudications:
       governed serotonergic capacity.
     disposition: unresolved
     established_links:
-      - Pineal conversion of serotonin toward melatonin can use SAM (PM5-F4; §5.2).
-      - Kennedy 2016 treats B-vitamin one-carbon chemistry as relevant to brain methyl-group transfer.
+      - >-
+        Pineal conversion of serotonin toward melatonin can use SAM (PM5-F4;
+        §5.2).
+      - >-
+        Kennedy 2016 treats B-vitamin one-carbon chemistry as relevant to brain
+        methyl-group transfer.
     inferred_links:
-      - Methyl-donor inadequacy would therefore constrain SAM-dependent serotonin metabolism toward melatonin.
+      - >-
+        Methyl-donor inadequacy would therefore constrain SAM-dependent
+        serotonin metabolism toward melatonin.
     evidence_source:
       finding_ids:
         - PM5-F4
@@ -382,81 +501,164 @@ kc_applicability_adjudications:
         - kennedy_b_2016
     rationale: >-
       This existing KC was already named as a cross-BRS candidate. SAM-dependent
-      serotonin-to-melatonin conversion is a later metabolic fate, not a demonstrated
-      constraint on serotonergic signalling capacity. The attached corpus does not
-      show that ordinary methylation-cycle variation controls serotonin signalling,
-      mood or sleep. Not a negative finding.
+      serotonin-to-melatonin conversion is a later metabolic fate, not a
+      demonstrated constraint on serotonergic signalling capacity. The attached
+      corpus does not show that ordinary methylation-cycle variation controls
+      serotonin signalling, mood or sleep. Not a negative finding.
 hide_title: true
-scientific_findings_intro: "Enzyme studies and biochemical reviews establish the neuronal tryptophan-to-serotonin synthesis sequence and its cofactor dependence. [[13]](#pm-ref-13) [[14]](#pm-ref-14) [[12]](#pm-ref-12) Broader reviews support receptor diversity and transporter-mediated handling as additional determinants of serotonergic function. [[15]](#pm-ref-15) Together, the evidence supports synthesis and signalling as related but distinct capacities; it does not directly establish that ordinary dietary changes regulate human brain serotonin or produce uniform functional benefits."
+scientific_findings_intro: >-
+  Enzyme studies and biochemical reviews establish the neuronal
+  tryptophan-to-serotonin synthesis sequence and its cofactor dependence.
+  [[13]](#pm-ref-13) [[14]](#pm-ref-14) [[12]](#pm-ref-12) Broader reviews
+  support receptor diversity and transporter-mediated handling as additional
+  determinants of serotonergic function. [[15]](#pm-ref-15) Together, the
+  evidence supports synthesis and signalling as related but distinct capacities;
+  it does not directly establish that ordinary dietary changes regulate human
+  brain serotonin or produce uniform functional benefits.
 candidate_cross_brs_relationships:
   - target_brs: BRS2
-    relationship_scope: One-carbon metabolism and SAM-dependent conversion of serotonin toward melatonin
+    relationship_scope: >-
+      One-carbon metabolism and SAM-dependent conversion of serotonin toward
+      melatonin
     status: constrained-dependency
 scientific_findings:
   - id: PM5-F1
     finding_label: 'Serotonin supports mood stability, inhibition and behavioural regulation'
-    finding_summary: 'Serotonin (5-hydroxytryptamine) is a neuromodulator that helps set emotional tone, behavioural inhibition and related control. That is a signalling role, not a dietary dosing rule.'
-    finding_interpretation: 'This supports the mechanism’s mood-stability and inhibition mission. It does not show that changing food intake raises brain serotonin or treats mood, sleep or ADHD.'
+    finding_summary: >-
+      Serotonin (5-hydroxytryptamine) is a neuromodulator that helps set
+      emotional tone, behavioural inhibition and related control. That is a
+      signalling role, not a dietary dosing rule.
+    finding_interpretation: >-
+      This supports the mechanism’s mood-stability and inhibition mission. It
+      does not show that changing food intake raises brain serotonin or treats
+      mood, sleep or ADHD.
     fm_rollup: true
-    finding_statement: 'Serotonin modulates emotional processing, impulse control and behavioural regulation rather than acting as a single directional mood chemical.'
+    finding_statement: >-
+      Serotonin modulates emotional processing, impulse control and behavioural
+      regulation rather than acting as a single directional mood chemical.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Human emotion-dysregulation and ADHD-related serotonin reviews treat serotonergic signalling as relevant to affective stability and inhibition. A broader serotonin-biology review places the same transmitter across receptor families that shape mood- and behaviour-related circuits. Together they support the signalling mission. They do not measure dietary intake, brain serotonin after meals, or a uniform clinical lesion that food can correct.'
-    synthesis_limitations: 'The sources are reviews, not dietary trials. They do not isolate everyday serotonin tone, quantify receptor-specific effects after meals, or show that precursor or cofactor intake changes signalling.'
+    synthesis: >-
+      Human emotion-dysregulation and ADHD-related serotonin reviews treat
+      serotonergic signalling as relevant to affective stability and inhibition.
+      A broader serotonin-biology review places the same transmitter across
+      receptor families that shape mood- and behaviour-related circuits.
+      Together they support the signalling mission. They do not measure dietary
+      intake, brain serotonin after meals, or a uniform clinical lesion that
+      food can correct.
+    synthesis_limitations: >-
+      The sources are reviews, not dietary trials. They do not isolate everyday
+      serotonin tone, quantify receptor-specific effects after meals, or show
+      that precursor or cofactor intake changes signalling.
     evidence_considered:
       - label: Shaw et al. (2014)
         citation_key: shaw_emotion_2014
         href: /docs/papers/BRAIN-Diet-References#shaw_emotion_2014
         data_level: Human Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Emotion dysregulation in ADHD is discussed as a clinically important phenotype with serotonergic and broader monoamine context, without testing diet.'
+        directional_finding: >-
+          Emotion dysregulation in ADHD is discussed as a clinically important
+          phenotype with serotonergic and broader monoamine context, without
+          testing diet.
         assessment:
           study: Narrative review of emotion dysregulation in ADHD.
-          population: Children and adults with ADHD and comparison groups described in the reviewed literature.
-          result: Identified emotion dysregulation as a core associated feature rather than a single-chemical deficit.
+          population: >-
+            Children and adults with ADHD and comparison groups described in the
+            reviewed literature.
+          result: >-
+            Identified emotion dysregulation as a core associated feature rather
+            than a single-chemical deficit.
           effect_magnitude: No pooled dietary or serotonin-process effect estimate.
-          evidence_summary: Anchors the mood-stability and inhibition mission in human clinical-mechanistic literature.
+          evidence_summary: >-
+            Anchors the mood-stability and inhibition mission in human
+            clinical-mechanistic literature.
           limitations: ADHD-focused review; not a serotonin dietary trial.
       - label: 'Berger, Gray and Roth (2009)'
         citation_key: berger_serotonin_2009
         href: /docs/papers/BRAIN-Diet-References#berger_serotonin_2009
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: 'Serotonin acts through multiple receptor families and central circuits that include mood, sleep–wake and behavioural-control functions.'
+        directional_finding: >-
+          Serotonin acts through multiple receptor families and central circuits
+          that include mood, sleep–wake and behavioural-control functions.
         assessment:
           study: Narrative review of expanded serotonin biology.
-          population: Mixed experimental and human mechanistic literature; not a dietary sample.
-          result: Described receptor diversity and non-dietary physiological roles of serotonin.
+          population: >-
+            Mixed experimental and human mechanistic literature; not a dietary
+            sample.
+          result: >-
+            Described receptor diversity and non-dietary physiological roles of
+            serotonin.
           effect_magnitude: No dietary or clinical effect estimate.
-          evidence_summary: Establishes serotonin as a multi-receptor neuromodulator rather than a single mood chemical.
+          evidence_summary: >-
+            Establishes serotonin as a multi-receptor neuromodulator rather than
+            a single mood chemical.
           limitations: Review synthesis; does not demonstrate dietary modification.
     connected_supportive_evidence:
       - label: Banerjee and Nandagopal (2015)
         citation_key: banerjee_does_2015
         href: /docs/papers/BRAIN-Diet-References#banerjee_does_2015
         data_level: Mechanistic
-        why_relevant: Frames possible serotonin-related susceptibility in ADHD without proving a uniform deficit.
+        why_relevant: >-
+          Frames possible serotonin-related susceptibility in ADHD without
+          proving a uniform deficit.
         why_excluded: Hypothesis review; not a dietary or process-specific measurement.
     presentation: mechanistic-basis
   - id: PM5-F2
-    finding_label: Serotonin formation depends on tryptophan hydroxylation and PLP-dependent decarboxylation
-    finding_summary: 'Brain serotonin is formed from tryptophan. Tryptophan hydroxylase (the first and rate-limiting enzyme) needs iron and tetrahydrobiopterin (BH4). Pyridoxal-5′-phosphate (PLP; the active form of vitamin B6) then supports decarboxylation of 5-hydroxytryptophan to serotonin. These are biological requirements, not proof that extra tryptophan, iron or B6 raises brain serotonin.'
-    finding_interpretation: 'Tryptophan remains the pathway starting material. Circulating amino-acid supply and competitive brain entry are earlier steps. Iron, BH4 and PLP are candidates for dietary assessment. This finding does not admit an intake-responsive serotonin lever.'
+    finding_label: >-
+      Serotonin formation depends on tryptophan hydroxylation and PLP-dependent
+      decarboxylation
+    finding_summary: >-
+      Brain serotonin is formed from tryptophan. Tryptophan hydroxylase (the
+      first and rate-limiting enzyme) needs iron and tetrahydrobiopterin (BH4).
+      Pyridoxal-5′-phosphate (PLP; the active form of vitamin B6) then supports
+      decarboxylation of 5-hydroxytryptophan to serotonin. These are biological
+      requirements, not proof that extra tryptophan, iron or B6 raises brain
+      serotonin.
+    finding_interpretation: >-
+      Tryptophan remains the pathway starting material. Circulating amino-acid
+      supply and competitive brain entry are earlier steps. Iron, BH4 and PLP
+      are candidates for dietary assessment. This finding does not admit an
+      intake-responsive serotonin lever.
     fm_rollup: true
-    finding_statement: 'Serotonin formation depends on tryptophan-hydroxylase conversion of tryptophan to 5-hydroxytryptophan, requiring iron and BH4, followed by PLP-dependent decarboxylation; cofactor or substrate necessity is not evidence of intake-responsive human brain serotonin.'
+    finding_statement: >-
+      Serotonin formation depends on tryptophan-hydroxylase conversion of
+      tryptophan to 5-hydroxytryptophan, requiring iron and BH4, followed by
+      PLP-dependent decarboxylation; cofactor or substrate necessity is not
+      evidence of intake-responsive human brain serotonin.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Aromatic-amino-acid hydroxylase biochemistry identifies tryptophan hydroxylase as an iron- and tetrahydrobiopterin-dependent monooxygenase that forms 5-hydroxytryptophan. A second tryptophan hydroxylase isoform (TPH2) accounts for neuronal serotonin synthesis. BH4-pathway review evidence places the same cofactor on serotonin as well as dopamine synthesis. B-vitamin review evidence places PLP in neurochemical decarboxylation, and a transport study shows that B6 vitamers can enter the central nervous system. Together they establish the defining synthesis sequence and its participants. They do not show ordinary-diet control of human brain serotonin.'
-    synthesis_limitations: 'The synthesis is mechanistic and review-level. It does not show that ordinary dietary tryptophan, iron or vitamin B6 changes human brain serotonin, mood, sleep or ADHD when status is already adequate.'
+    synthesis: >-
+      Aromatic-amino-acid hydroxylase biochemistry identifies tryptophan
+      hydroxylase as an iron- and tetrahydrobiopterin-dependent monooxygenase
+      that forms 5-hydroxytryptophan. A second tryptophan hydroxylase isoform
+      (TPH2) accounts for neuronal serotonin synthesis. BH4-pathway review
+      evidence places the same cofactor on serotonin as well as dopamine
+      synthesis. B-vitamin review evidence places PLP in neurochemical
+      decarboxylation, and a transport study shows that B6 vitamers can enter
+      the central nervous system. Together they establish the defining synthesis
+      sequence and its participants. They do not show ordinary-diet control of
+      human brain serotonin.
+    synthesis_limitations: >-
+      The synthesis is mechanistic and review-level. It does not show that
+      ordinary dietary tryptophan, iron or vitamin B6 changes human brain
+      serotonin, mood, sleep or ADHD when status is already adequate.
     evidence_considered:
       - label: Fitzpatrick (1999)
         citation_key: fitzpatrick_aromatic_1999
         href: /docs/papers/BRAIN-Diet-References#fitzpatrick_aromatic_1999
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: Tryptophan hydroxylase is a tetrahydropterin-dependent aromatic amino-acid hydroxylase that uses non-haem iron and molecular oxygen to form 5-hydroxytryptophan.
+        directional_finding: >-
+          Tryptophan hydroxylase is a tetrahydropterin-dependent aromatic
+          amino-acid hydroxylase that uses non-haem iron and molecular oxygen to
+          form 5-hydroxytryptophan.
         assessment:
-          study: Biochemical review of tetrahydropterin-dependent amino-acid hydroxylases.
+          study: >-
+            Biochemical review of tetrahydropterin-dependent amino-acid
+            hydroxylases.
           population: Enzyme and experimental literature; not a human dietary sample.
-          result: 'Identified iron, tetrahydrobiopterin and oxygen as required participants in tryptophan hydroxylation.'
+          result: >-
+            Identified iron, tetrahydrobiopterin and oxygen as required
+            participants in tryptophan hydroxylation.
           effect_magnitude: No dietary or functional effect estimate.
           evidence_summary: Establishes the rate-limiting hydroxylation chemistry.
           limitations: Enzyme-mechanism review; not an intake-to-serotonin trial.
@@ -465,11 +667,15 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#walther_tph2_2003
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: 'A second tryptophan hydroxylase isoform (TPH2) synthesises serotonin in the brain, distinct from the peripheral TPH1 enzyme.'
+        directional_finding: >-
+          A second tryptophan hydroxylase isoform (TPH2) synthesises serotonin
+          in the brain, distinct from the peripheral TPH1 enzyme.
         assessment:
           study: Identification of neuronal tryptophan hydroxylase 2.
           population: Experimental biochemistry and mouse genetics; not a dietary trial.
-          result: Showed that brain serotonin synthesis uses TPH2 rather than treating TPH as a single peripheral enzyme.
+          result: >-
+            Showed that brain serotonin synthesis uses TPH2 rather than treating
+            TPH as a single peripheral enzyme.
           effect_magnitude: Not a dose-response estimate.
           evidence_summary: Places the hydroxylase step in neuronal serotonin formation.
           limitations: Isoform discovery; does not measure diet or mood.
@@ -478,10 +684,14 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: Tetrahydrobiopterin is required for serotonin as well as dopamine synthesis and is made and recycled in the body.
+        directional_finding: >-
+          Tetrahydrobiopterin is required for serotonin as well as dopamine
+          synthesis and is made and recycled in the body.
         assessment:
           study: Review of BH4 metabolism and neuropsychiatric relevance.
-          population: Mixed preclinical and clinical literature; not an ordinary-diet serotonin trial.
+          population: >-
+            Mixed preclinical and clinical literature; not an ordinary-diet
+            serotonin trial.
           result: Identified BH4 as an essential cofactor for serotonin synthesis.
           effect_magnitude: No ordinary-diet serotonin effect estimate.
           evidence_summary: Supports BH4 as an endogenous hydroxylase cofactor on this path.
@@ -491,73 +701,147 @@ scientific_findings:
         citation_key: kennedy_b_2016
         href: /docs/papers/BRAIN-Diet-References#kennedy_b_2016
         data_level: Mechanistic
-        why_relevant: 'Reviews B-vitamin roles in neurochemical synthesis, including vitamin B6 as cofactor context for decarboxylation.'
-        why_excluded: General B-vitamin review; it does not isolate aromatic L-amino-acid decarboxylase or show an intake-to-serotonin response.
+        why_relevant: >-
+          Reviews B-vitamin roles in neurochemical synthesis, including vitamin
+          B6 as cofactor context for decarboxylation.
+        why_excluded: >-
+          General B-vitamin review; it does not isolate aromatic L-amino-acid
+          decarboxylase or show an intake-to-serotonin response.
       - label: Spector (1978)
         citation_key: spector_vitamin_1978
         href: /docs/papers/BRAIN-Diet-References#spector_vitamin_1978
         data_level: Animal Data
-        why_relevant: Shows that B6 vitamers enter the central nervous system and contribute to the brain vitamin B6 pool.
-        why_excluded: 'Rabbit transport study; it does not measure serotonin synthesis, release or function.'
+        why_relevant: >-
+          Shows that B6 vitamers enter the central nervous system and contribute
+          to the brain vitamin B6 pool.
+        why_excluded: >-
+          Rabbit transport study; it does not measure serotonin synthesis,
+          release or function.
       - label: Tang et al. (2025)
         citation_key: tang_nutritional_2025
         href: /docs/papers/BRAIN-Diet-References#tang_nutritional_2025
         data_level: Human Mechanistic
-        why_relevant: 'Summarises nutritional influences discussed around the serotonergic system, including precursor and micronutrient context.'
-        why_excluded: Nutrition review; it does not establish intake-responsive human brain serotonin on this mechanism.
+        why_relevant: >-
+          Summarises nutritional influences discussed around the serotonergic
+          system, including precursor and micronutrient context.
+        why_excluded: >-
+          Nutrition review; it does not establish intake-responsive human brain
+          serotonin on this mechanism.
     presentation: mechanistic-basis
   - id: PM5-F4
-    finding_label: 'Serotonin signalling uses receptor families, reuptake and enzymatic metabolism'
-    finding_summary: 'After synthesis, serotonin is released, acts on several receptor families, is taken back up by the serotonin transporter (SERT) and can be metabolised enzymatically. That sequence is signalling biology, not a dietary rule.'
-    finding_interpretation: This finding covers the release-and-receptor part of the Overview. It identifies later-stage dietary candidates as still unassessed. It does not admit a SERT or MAO dietary lever.
+    finding_label: >-
+      Serotonin signalling uses receptor families, reuptake and enzymatic
+      metabolism
+    finding_summary: >-
+      After synthesis, serotonin is released, acts on several receptor families,
+      is taken back up by the serotonin transporter (SERT) and can be
+      metabolised enzymatically. That sequence is signalling biology, not a
+      dietary rule.
+    finding_interpretation: >-
+      This finding covers the release-and-receptor part of the Overview. It
+      identifies later-stage dietary candidates as still unassessed. It does not
+      admit a SERT or MAO dietary lever.
     fm_rollup: true
-    finding_statement: 'Serotonergic signalling includes vesicular handling, receptor-mediated actions, transporter-mediated reuptake and enzymatic metabolism; those stages are not interchangeable with precursor supply and are not evidence of dietary control.'
+    finding_statement: >-
+      Serotonergic signalling includes vesicular handling, receptor-mediated
+      actions, transporter-mediated reuptake and enzymatic metabolism; those
+      stages are not interchangeable with precursor supply and are not evidence
+      of dietary control.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The expanded-biology review describes serotonin’s receptor diversity, transporter-mediated clearance and metabolic handling as the operational signalling sequence. ADHD-focused serotonin reviews use receptor and transporter language as pharmacological and neurobiological context, not as food targets. Together they establish that signalling is more than synthesis. They do not measure diet-responsive receptor or transporter change.'
-    synthesis_limitations: Review-level coverage. Specific dietary dependencies of monoamine oxidase or of SERT function remain unassessed.
+    synthesis: >-
+      The expanded-biology review describes serotonin’s receptor diversity,
+      transporter-mediated clearance and metabolic handling as the operational
+      signalling sequence. ADHD-focused serotonin reviews use receptor and
+      transporter language as pharmacological and neurobiological context, not
+      as food targets. Together they establish that signalling is more than
+      synthesis. They do not measure diet-responsive receptor or transporter
+      change.
+    synthesis_limitations: >-
+      Review-level coverage. Specific dietary dependencies of monoamine oxidase
+      or of SERT function remain unassessed.
     evidence_considered:
       - label: 'Berger, Gray and Roth (2009)'
         citation_key: berger_serotonin_2009
         href: /docs/papers/BRAIN-Diet-References#berger_serotonin_2009
         data_level: Mechanistic
         evidence_source: bounded-external-search
-        directional_finding: 'Serotonin signalling involves multiple receptor families, transporter-mediated reuptake and further metabolic fates, including a pineal route toward melatonin.'
+        directional_finding: >-
+          Serotonin signalling involves multiple receptor families,
+          transporter-mediated reuptake and further metabolic fates, including a
+          pineal route toward melatonin.
         assessment:
-          study: 'Same serotonin-biology review used for PM5-F1, reused here for the signalling-sequence proposition.'
+          study: >-
+            Same serotonin-biology review used for PM5-F1, reused here for the
+            signalling-sequence proposition.
           population: Mixed mechanistic literature; not a dietary sample.
-          result: Described post-synthesis signalling stages without testing food intake.
+          result: >-
+            Described post-synthesis signalling stages without testing food
+            intake.
           effect_magnitude: No dietary effect estimate.
-          evidence_summary: 'Establishes release, receptor, reuptake and metabolism as part of the mechanism.'
+          evidence_summary: >-
+            Establishes release, receptor, reuptake and metabolism as part of
+            the mechanism.
           limitations: Review; no dietary or ADHD endpoint.
     connected_supportive_evidence:
       - label: Faraone et al. (2025)
         citation_key: faraone_serotonin_2025
         href: /docs/papers/BRAIN-Diet-References#faraone_serotonin_2025
         data_level: Human Mechanistic
-        why_relevant: 'Systematic review of serotonin in ADHD neurobiology, including receptor and transporter context.'
+        why_relevant: >-
+          Systematic review of serotonin in ADHD neurobiology, including
+          receptor and transporter context.
         why_excluded: ADHD literature review; not a dietary signalling measurement.
     evidence_dependency:
-      - 'Berger, Gray and Roth (2009) is also primary evidence in PM5-F1. Reuse here answers the signalling-sequence proposition, not an independent replication of the mood-role review.'
+      - >-
+        Berger, Gray and Roth (2009) is also primary evidence in PM5-F1. Reuse
+        here answers the signalling-sequence proposition, not an independent
+        replication of the mood-role review.
     presentation: mechanistic-basis
   - id: PM5-F3
     finding_label: Emotional-regulation relevance is not a dietary or ADHD-treatment finding
-    finding_summary: 'The attached sources support serotonin as emotion-regulation-relevant biology. They do not show that meals, tryptophan, iron or B6 change human serotonin signalling, and they do not show a uniform ADHD lesion that diet can correct.'
-    finding_interpretation: Keep biological relevance separate from dietary modulation and from inflammation or saffron findings that are not serotonin-process measurements.
-    finding_statement: Repository and bounded-review evidence supports a translational relationship from serotonergic signalling to Emotional Regulation without establishing dietary modification of serotonin or an ADHD treatment effect.
+    finding_summary: >-
+      The attached sources support serotonin as emotion-regulation-relevant
+      biology. They do not show that meals, tryptophan, iron or B6 change human
+      serotonin signalling, and they do not show a uniform ADHD lesion that diet
+      can correct.
+    finding_interpretation: >-
+      Keep biological relevance separate from dietary modulation and from
+      inflammation or saffron findings that are not serotonin-process
+      measurements.
+    finding_statement: >-
+      Repository and bounded-review evidence supports a translational
+      relationship from serotonergic signalling to Emotional Regulation without
+      establishing dietary modification of serotonin or an ADHD treatment
+      effect.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: Shaw supplies the emotion-regulation account. Faraone and Banerjee show that ADHD-related serotonin discussion is heterogeneous and cannot be restated as a single deficit. Fernstrom describes meal-level precursor transport upstream of signalling. Together they support a biology-to-emotion mapping while blocking a food-as-serotonin-treatment reading.
-    synthesis_limitations: 'No attached study measures emotional regulation after a dietary change aimed at serotonin. Plasma amino-acid ratios, inflammation connectivity and saffron trials are not serotonin signalling.'
+    synthesis: >-
+      Shaw supplies the emotion-regulation account. Faraone and Banerjee show
+      that ADHD-related serotonin discussion is heterogeneous and cannot be
+      restated as a single deficit. Fernstrom describes meal-level precursor
+      transport upstream of signalling. Together they support a
+      biology-to-emotion mapping while blocking a food-as-serotonin-treatment
+      reading.
+    synthesis_limitations: >-
+      No attached study measures emotional regulation after a dietary change
+      aimed at serotonin. Plasma amino-acid ratios, inflammation connectivity
+      and saffron trials are not serotonin signalling.
     evidence_considered:
       - label: Shaw et al. (2014)
         citation_key: shaw_emotion_2014
         href: /docs/papers/BRAIN-Diet-References#shaw_emotion_2014
         data_level: Human Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Emotion dysregulation is a clinically important ADHD-related phenotype discussed with monoamine context, without testing diet.'
+        directional_finding: >-
+          Emotion dysregulation is a clinically important ADHD-related phenotype
+          discussed with monoamine context, without testing diet.
         assessment:
-          study: 'Same emotion-dysregulation review used for PM5-F1, reused here for the Phenome-relationship proposition.'
+          study: >-
+            Same emotion-dysregulation review used for PM5-F1, reused here for
+            the Phenome-relationship proposition.
           population: ADHD and comparison literature; not a dietary sample.
-          result: Supports emotion-regulation-relevant biology without a treatment or intake effect.
+          result: >-
+            Supports emotion-regulation-relevant biology without a treatment or
+            intake effect.
           effect_magnitude: No clinical or dietary effect estimate.
           evidence_summary: Anchors the Phenome mapping in signalling biology.
           limitations: Review; no dietary endpoint.
@@ -566,11 +850,16 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#faraone_serotonin_2025
         data_level: Human Mechanistic
         evidence_source: repository-inherited
-        directional_finding: ADHD-related serotonin findings are mixed across methods and constructs and do not support a uniform global deficit that can be treated as a serotonin-diet claim.
+        directional_finding: >-
+          ADHD-related serotonin findings are mixed across methods and
+          constructs and do not support a uniform global deficit that can be
+          treated as a serotonin-diet claim.
         assessment:
           study: Systematic literature review of serotonin in ADHD neurobiology.
           population: ADHD clinical and mechanistic literature.
-          result: Reported heterogeneous serotonin-related findings rather than one directional lesion.
+          result: >-
+            Reported heterogeneous serotonin-related findings rather than one
+            directional lesion.
           effect_magnitude: No pooled dietary serotonin effect estimate.
           evidence_summary: Constrains ADHD wording attached to this Phenome relationship.
           limitations: ADHD-focused; not a serotonin dietary trial.
@@ -579,50 +868,168 @@ scientific_findings:
         citation_key: fernstrom_lnna_2013
         href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
         data_level: Mechanistic
-        why_relevant: Describes meal-level large-neutral-amino-acid transport that can change tryptophan presentation before serotonin synthesis.
-        why_excluded: Transport and plasma-ratio biology; it does not measure serotonin signalling or emotion regulation.
+        why_relevant: >-
+          Describes meal-level large-neutral-amino-acid transport that can
+          change tryptophan presentation before serotonin synthesis.
+        why_excluded: >-
+          Transport and plasma-ratio biology; it does not measure serotonin
+          signalling or emotion regulation.
       - label: Jackson et al. (2021)
         citation_key: jackson_effects_2021
         href: /docs/papers/BRAIN-Diet-References#jackson_effects_2021
         data_level: Human Outcome
-        why_relevant: Saffron supplementation trial in low mood; sometimes attached to mood phenomes.
-        why_excluded: 'Wrong construct for this mechanism: not a serotonin-process measurement and not a Dietary Requirement.'
+        why_relevant: >-
+          Saffron supplementation trial in low mood; sometimes attached to mood
+          phenomes.
+        why_excluded: >-
+          Wrong construct for this mechanism: not a serotonin-process
+          measurement and not a Dietary Requirement.
       - label: Marsland et al. (2017)
         citation_key: marsland_systemic_2017
         href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
         data_level: Human Mechanistic
-        why_relevant: Links systemic inflammation to default-mode connectivity discussed near perseverative thought.
-        why_excluded: Inflammation and connectivity; it does not measure serotonin signalling.
+        why_relevant: >-
+          Links systemic inflammation to default-mode connectivity discussed
+          near perseverative thought.
+        why_excluded: >-
+          Inflammation and connectivity; it does not measure serotonin
+          signalling.
     evidence_dependency:
-      - 'Shaw et al. (2014) is also primary evidence in PM5-F1. Reuse here answers the Phenome-relationship proposition, not an independent replication of the signalling review.'
-      - 'Fernstrom (2013) is connected evidence here and primary evidence in PM5-IC1. That is one transport review used for two propositions, not two independent studies.'
+      - >-
+        Shaw et al. (2014) is also primary evidence in PM5-F1. Reuse here
+        answers the Phenome-relationship proposition, not an independent
+        replication of the signalling review.
+      - >-
+        Fernstrom (2013) is connected evidence here and primary evidence in
+        PM5-IC1. That is one transport review used for two propositions, not two
+        independent studies.
     presentation: phenome-relationship
     primary_phenome: Emotional Regulation
   - id: PM5-IC1
     finding_label: Precursor transport is not serotonergic signalling
-    finding_summary: 'Plasma amino-acid ratios and meal-level LAT1 competition can sit next to this mechanism. They do not measure serotonin release, receptor signalling or a mood outcome of changing diet.'
-    finding_interpretation: Use these sources to keep measurements distinct. Do not promote them as headline serotonin Findings.
-    finding_statement: LAT1-related precursor presentation is not interchangeable with serotonergic signalling.
+    finding_summary: >-
+      Plasma amino-acid ratios and meal-level LAT1 competition can sit next to
+      this mechanism. They do not measure serotonin release, receptor signalling
+      or a mood outcome of changing diet.
+    finding_interpretation: >-
+      Use these sources to keep measurements distinct. Do not promote them as
+      headline serotonin Findings.
+    finding_statement: >-
+      LAT1-related precursor presentation is not interchangeable with
+      serotonergic signalling.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Fernstrom addresses competitive precursor transport, including tryptophan. That is useful as a boundary on how other evidence is read. It does not establish serotonin signalling change or a dietary mood effect.'
-    synthesis_limitations: Interpretive only. This source does not fill the missing human dietary-to-serotonin measurement.
+    synthesis: >-
+      Fernstrom addresses competitive precursor transport, including tryptophan.
+      That is useful as a boundary on how other evidence is read. It does not
+      establish serotonin signalling change or a dietary mood effect.
+    synthesis_limitations: >-
+      Interpretive only. This source does not fill the missing human
+      dietary-to-serotonin measurement.
     evidence_dependency:
-      - 'Fernstrom (2013) is also connected evidence in PM5-F3. Reuse here constrains measurement identity, not a second transport experiment.'
+      - >-
+        Fernstrom (2013) is also connected evidence in PM5-F3. Reuse here
+        constrains measurement identity, not a second transport experiment.
     evidence_considered:
       - label: Fernstrom (2013)
         citation_key: fernstrom_lnna_2013
         href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: Meal composition can change plasma tryptophan-to-LNAA ratios and therefore competitive presentation of tryptophan at LAT1.
+        directional_finding: >-
+          Meal composition can change plasma tryptophan-to-LNAA ratios and
+          therefore competitive presentation of tryptophan at LAT1.
         assessment:
-          study: Review of large-neutral-amino-acid transport and brain neurochemistry.
+          study: >-
+            Review of large-neutral-amino-acid transport and brain
+            neurochemistry.
           population: Human meal-study and mechanistic literature.
-          result: 'Showed transport-level precursor presentation, not serotonin signalling.'
+          result: >-
+            Showed transport-level precursor presentation, not serotonin
+            signalling.
           effect_magnitude: Plasma-ratio changes; not a serotonin-release estimate.
           evidence_summary: Constrains transport evidence as upstream presentation.
           limitations: 'Does not measure serotonin receptors, mood or ADHD.'
     presentation: interpretive-constraint
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS1(KC1)
+      ikc_id: BRS1(KC1)
+      arm_id: amino-acid-quality
+      applicability_proposition: >-
+        Inadequacy of the shared indispensable-amino-acid quality pool can
+        constrain this mechanism’s governed serotonergic capacity.
+      disposition: unresolved
+      established_links:
+        - >-
+          Tryptophan is indispensable and is the serotonin starting material
+          (PM5-F2).
+        - >-
+          DIAAS and related scores measure digestible IAA adequacy for protein
+          quality (FAO 2013; Mariotti 2019).
+      inferred_links:
+        - >-
+          Incomplete meal protein quality would therefore lower tryptophan
+          supply and constrain serotonin signalling.
+      evidence_source:
+        finding_ids:
+          - PM5-F2
+        citation_keys:
+          - fitzpatrick_aromatic_1999
+          - walther_tph2_2003
+          - fao_diaas_2013
+          - mariotti_dietary_2019
+      rationale: >-
+        Assessment was completed. Quality-scoring evidence does not connect
+        IAA-quality inadequacy to serotonergic capacity. Fernstrom’s protein
+        effects operate through the plasma tryptophan-to-LNAA ratio, which is
+        the competitive arm. Extreme tryptophan-poor diets are a different
+        construct. The capacity-constraint link remains a material gap, not a
+        negative finding.
+    rationale: >-
+      Superseded scope: this proposition concerns the former broad
+      indispensable-amino-acid quality arm. Current BRS1 KC1 is the
+      monoamine-precursor LNAA competitive pool. Archiving does not reject
+      general protein-quality biology or alter the separately assessed
+      competitive/supply decisions.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS1(KC1)
+      ikc_id: BRS1(KC1)
+      arm_id: competitive-lat1
+      applicability_proposition: >-
+        Imbalance of LAT1 competitive large-neutral-amino-acid balance can
+        constrain this mechanism’s governed serotonergic capacity.
+      disposition: established
+      applicability_mode: constrained-by
+      established_links:
+        - >-
+          LAT1 competition changes tryptophan presentation (PM5-IC1; Fernstrom
+          2013).
+        - Fernstrom 2013: >-
+            ordinary protein-driven LNAA changes produce large variations in
+            brain tryptophan uptake and serotonin synthesis.
+      inferred_links:
+        - >-
+          Those synthesis-rate changes would also change serotonin release, mood
+          or ADHD outcomes.
+      evidence_source:
+        finding_ids:
+          - PM5-F2
+          - PM5-IC1
+        citation_keys:
+          - fernstrom_lnna_2013
+      rationale: >-
+        Type D (2) is met for formation capacity: named LAT1 imbalance is
+        connected to a constraint on serotonin synthesis, a defining capacity
+        this mechanism governs. Transport is still not signalling (PM5-IC1).
+        Mood, sleep and ADHD remain inference.
+    rationale: >-
+      Metadata migration only: preserve the established governs/constrained-by
+      interpretation as a typed Conditional constraint for FM summary
+      derivation. No stronger scientific admission.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 ---
 
 <p class="brs-pm-thumbnail-wrap">

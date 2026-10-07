@@ -1,18 +1,30 @@
 ---
 title: Glutathione Synthesis
 pm_id: BRS2-FM2-PM6
-mission: Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.
+mission: >-
+  Build glutathione from sulfur amino acids so cellular antioxidant defence
+  stays connected to one-carbon metabolism.
 parent_fm: BRS2(FM2)
 parent_brs: BRS2
 evidence_status: stage-2b-dietary-addressability
-summary: 'Cells assemble glutathione, the main intracellular thiol, in two ATP-dependent steps. Glutamate–cysteine ligase joins glutamate and cysteine, then glutathione synthetase adds glycine. A sulfur-amino-acid-free diet slowed whole-blood synthesis in healthy young men. Combined precursor supplements raised erythrocyte synthesis in older adults. These tracer studies measured synthesis in blood cells, not in the brain.'
+summary: >-
+  Cells assemble glutathione, the main intracellular thiol, in two ATP-dependent
+  steps. Glutamate–cysteine ligase joins glutamate and cysteine, then
+  glutathione synthetase adds glycine. A sulfur-amino-acid-free diet slowed
+  whole-blood synthesis in healthy young men. Combined precursor supplements
+  raised erythrocyte synthesis in older adults. These tracer studies measured
+  synthesis in blood cells, not in the brain.
 key_constraints:
   - BRS2(KC2) - Methionine–Cysteine Sulfur Amino Acid Pool
 pm_kc_relationships:
   - relationship_id: BRS2-FM2-PM6-KCR-1
     kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
-    pm_biological_role: 'Removing methionine and cysteine together slowed whole-blood glutathione synthesis, and removing cysteine alone did not when methionine stayed adequate. That is the sulfur-amino-acid provision relationship already recorded for cysteine and methionine.'
+    pm_biological_role: >-
+      Removing methionine and cysteine together slowed whole-blood glutathione
+      synthesis, and removing cysteine alone did not when methionine stayed
+      adequate. That is the sulfur-amino-acid provision relationship already
+      recorded for cysteine and methionine.
     evidence_source:
       finding_ids:
         - PM6-F1
@@ -21,34 +33,62 @@ pm_kc_relationships:
         - lyons_glutathione_2000
         - misra_human_gcl_1998
         - courtney_martin_cysteine_2008
-    evidence_limitation: 'Lyons used a 10-day amino-acid formula that removed both methionine and cysteine in healthy young men, and whole-blood glutathione concentration was maintained. Courtney-Martin kept methionine adequate and found that removing cysteine did not lower erythrocyte synthesis in young men. Neither study identifies a bottleneck beyond those provision relationships. This is not neuronal synthesis, ordinary mixed-diet advice, or a benefit from increasing an adequate intake.'
+    evidence_limitation: >-
+      Lyons used a 10-day amino-acid formula that removed both methionine and
+      cysteine in healthy young men, and whole-blood glutathione concentration
+      was maintained. Courtney-Martin kept methionine adequate and found that
+      removing cysteine did not lower erythrocyte synthesis in young men.
+      Neither study identifies a bottleneck beyond those provision
+      relationships. This is not neuronal synthesis, ordinary mixed-diet advice,
+      or a benefit from increasing an adequate intake.
     presentation_review:
       disposition: consolidated as duplicate
       compared_records:
-        "3.1.1":
+        3.1.1:
           - PM6-DIT-1
           - PM6-DIT-9
-        "3.1.2": []
-        "3.2": []
+        3.1.2: []
+        '3.2': []
       retained_record_ids:
         - PM6-DIT-1
         - PM6-DIT-9
         - BRS2-FM2-PM6-KCR-1
-      rationale: 'Sulfur-amino-acid provision sustaining glutathione synthesis is cysteine as the direct assembly substrate and methionine as its precursor. A resource-dependency label and a KC2 origin tag do not create a further biological job. Lyons supplies the combined-depletion bound and Courtney-Martin the adequate-methionine bound. No additional competition, allocation, or other bottleneck was measured.'
+      rationale: >-
+        Sulfur-amino-acid provision sustaining glutathione synthesis is cysteine
+        as the direct assembly substrate and methionine as its precursor. A
+        resource-dependency label and a KC2 origin tag do not create a further
+        biological job. Lyons supplies the combined-depletion bound and
+        Courtney-Martin the adequate-methionine bound. No additional
+        competition, allocation, or other bottleneck was measured.
+    relationship_type: conditional-constraint
+    legacy_relationship_mode: constrained-by
+    public_disclosure: consolidated-as-duplicate
 kc_applicability_adjudications:
   - kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
     arm_id: methionine-cysteine-sulfur-amino-acid-pool
-    applicability_proposition: Inadequacy of the shared methionine and cysteine pool constrains glutathione synthesis capacity.
+    applicability_proposition: >-
+      Inadequacy of the shared methionine and cysteine pool constrains
+      glutathione synthesis capacity.
     disposition: established
-    applicability_mode: constrained-by
+    applicability_mode: conditional-constraint
     established_links:
-      - Glutamate-cysteine ligase uses cysteine and ATP to form γ-glutamylcysteine (PM6-F1).
-      - 'A diet containing neither methionine nor cysteine slowed whole-blood glutathione fractional and absolute synthesis in healthy young men, while glycine intake was not reduced (PM6-F2).'
-      - 'With methionine held at an adequate intake, cysteine intakes from zero upward did not change erythrocyte glutathione synthesis in young men (PM6-F2).'
+      - >-
+        Glutamate-cysteine ligase uses cysteine and ATP to form
+        γ-glutamylcysteine (PM6-F1).
+      - >-
+        A diet containing neither methionine nor cysteine slowed whole-blood
+        glutathione fractional and absolute synthesis in healthy young men,
+        while glycine intake was not reduced (PM6-F2).
+      - >-
+        With methionine held at an adequate intake, cysteine intakes from zero
+        upward did not change erythrocyte glutathione synthesis in young men
+        (PM6-F2).
     inferred_links:
       - Ordinary mixed diets are commonly short of this pool.
-      - The same synthesis-rate change occurs in neurons or in clinical populations.
+      - >-
+        The same synthesis-rate change occurs in neurons or in clinical
+        populations.
     evidence_source:
       finding_ids:
         - PM6-F1
@@ -57,23 +97,52 @@ kc_applicability_adjudications:
         - lyons_glutathione_2000
         - misra_human_gcl_1998
         - courtney_martin_cysteine_2008
-    rationale: 'KC2 applicability stays established because these sulfur-amino-acid studies bear on glutathione synthesis. The public disclosure is consolidated as a duplicate of PM6-DIT-1 and PM6-DIT-9. Lyons is combined depletion. Courtney-Martin is the adequate-methionine boundary. Neither study measures a competition, allocation, or other bottleneck beyond that provision.'
+    rationale: >-
+      KC2 applicability stays established because these sulfur-amino-acid
+      studies bear on glutathione synthesis. The public disclosure is
+      consolidated as a duplicate of PM6-DIT-1 and PM6-DIT-9. Lyons is combined
+      depletion. Courtney-Martin is the adequate-methionine boundary. Neither
+      study measures a competition, allocation, or other bottleneck beyond that
+      provision.
+    legacy_applicability_mode: constrained-by
 cofactors:
   - Magnesium ions (Mg²⁺)
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'No'
-dose_sensitivity: 'Cysteine, glutamate and glycine are assembly substrates. Combined precursor supplementation raised erythrocyte synthesis in older adults only; that is not general dietary advice. Selenium and riboflavin are not synthesis requirements.'
+dose_sensitivity: >-
+  Cysteine, glutamate and glycine are assembly substrates. Combined precursor
+  supplementation raised erythrocyte synthesis in older adults only; that is not
+  general dietary advice. Selenium and riboflavin are not synthesis
+  requirements.
 references:
-  - '[Misra and Griffith (1998) — Human glutamate-cysteine ligase reaction](/docs/papers/BRAIN-Diet-References#misra_human_gcl_1998)'
-  - '[Polekhina et al. (1999) — Human glutathione synthetase and magnesium](/docs/papers/BRAIN-Diet-References#polekhina_gss_1999)'
-  - '[Lyons et al. (2000) — Sulfur-amino-acid-free diet and glutathione synthesis](/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000)'
-  - '[Sekhar et al. (2011) — Deficient glutathione synthesis in aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
-  - '[Courtney-Martin et al. (2008) — Methionine-adequate cysteine-free diet](/docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008)'
-  - '[Minich et al. (2019) — A Review of Dietary (Phyto)Nutrients for Glutathione Support](/docs/papers/BRAIN-Diet-References#minich_glutathione_2019)'
-  - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
-  - '[Mullenbach et al. (1987) — Selenocysteine in human glutathione peroxidase](/docs/papers/BRAIN-Diet-References#mullenbach_gpx_selenocysteine_1987)'
-  - '[Karplus and Schulz (1989) — Glutathione reductase FAD and substrate binding](/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_1989)'
+  - >-
+    [Misra and Griffith (1998) — Human glutamate-cysteine ligase
+    reaction](/docs/papers/BRAIN-Diet-References#misra_human_gcl_1998)
+  - >-
+    [Polekhina et al. (1999) — Human glutathione synthetase and
+    magnesium](/docs/papers/BRAIN-Diet-References#polekhina_gss_1999)
+  - >-
+    [Lyons et al. (2000) — Sulfur-amino-acid-free diet and glutathione
+    synthesis](/docs/papers/BRAIN-Diet-References#lyons_glutathione_2000)
+  - >-
+    [Sekhar et al. (2011) — Deficient glutathione synthesis in
+    aging](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+  - >-
+    [Courtney-Martin et al. (2008) — Methionine-adequate cysteine-free
+    diet](/docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008)
+  - >-
+    [Minich et al. (2019) — A Review of Dietary (Phyto)Nutrients for Glutathione
+    Support](/docs/papers/BRAIN-Diet-References#minich_glutathione_2019)
+  - >-
+    [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric
+    ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+  - >-
+    [Mullenbach et al. (1987) — Selenocysteine in human glutathione
+    peroxidase](/docs/papers/BRAIN-Diet-References#mullenbach_gpx_selenocysteine_1987)
+  - >-
+    [Karplus and Schulz (1989) — Glutathione reductase FAD and substrate
+    binding](/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_1989)
 hide_title: true
 phenome_relationships:
   - target_phenome: Recovery Capacity
@@ -81,7 +150,16 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: 'Glutathione assembly supplies a thiol used in cellular redox buffering, which is relevant to recovery only as downstream biology. The human synthesis measurements are erythrocyte kinetics after combined precursor supplementation in older adults, not a recovery-outcome trial {{cite:sekhar_glutathione_2011}}. A sulfur-amino-acid-free diet slowed whole-blood synthesis while concentration was maintained {{cite:lyons_glutathione_2000}}. Higher homocysteine in boys with ADHD does not measure glutathione synthesis or recovery {{cite:lukovac_serum_2024}}.'
+    rationale: >-
+      Glutathione assembly supplies a thiol used in cellular redox buffering,
+      which is relevant to recovery only as downstream biology. The human
+      synthesis measurements are erythrocyte kinetics after combined precursor
+      supplementation in older adults, not a recovery-outcome trial
+      {{cite:sekhar_glutathione_2011}}. A sulfur-amino-acid-free diet slowed
+      whole-blood synthesis while concentration was maintained
+      {{cite:lyons_glutathione_2000}}. Higher homocysteine in boys with ADHD
+      does not measure glutathione synthesis or recovery
+      {{cite:lukovac_serum_2024}}.
     scientific_findings:
       - PM6-F1
       - PM6-F2
@@ -108,7 +186,12 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: 'The same thiol pool is a plausible contributor to stress buffering, but no assessed study tested a stress-resilience outcome {{cite:sekhar_glutathione_2011,lyons_glutathione_2000}}. The paediatric ADHD biomarker study measured homocysteine and vitamin B12, not glutathione synthesis or stress resilience {{cite:lukovac_serum_2024}}.'
+    rationale: >-
+      The same thiol pool is a plausible contributor to stress buffering, but no
+      assessed study tested a stress-resilience outcome
+      {{cite:sekhar_glutathione_2011,lyons_glutathione_2000}}. The paediatric
+      ADHD biomarker study measured homocysteine and vitamin B12, not
+      glutathione synthesis or stress resilience {{cite:lukovac_serum_2024}}.
     scientific_findings:
       - PM6-F1
       - PM6-F2
@@ -134,12 +217,15 @@ dietary_input_traceability:
   - atom_id: PM6-DIT-1
     input: Cysteine
     input_type: substrate
-    biological_role: Sulfur-amino-acid substrate joined to glutamate in the first ATP-dependent step of glutathione assembly.
+    biological_role: >-
+      Sulfur-amino-acid substrate joined to glutamate in the first ATP-dependent
+      step of glutathione assembly.
     upstream_pm_relationships:
       - relationship_label: Supply
         pm_short_id: PM5
         pm_id: BRS2-FM2-PM5
-        href: /docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway
+        href: >-
+          /docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway
     evidence_source:
       finding_ids:
         - PM6-F1
@@ -148,21 +234,33 @@ dietary_input_traceability:
         - misra_human_gcl_1998
         - lyons_glutathione_2000
         - courtney_martin_cysteine_2008
-    evidence_limitation: Cysteine is the substrate of the first assembly step. A formula that removed methionine and cysteine together slowed whole-blood synthesis, and that formula also removed methionine. When methionine intake stayed adequate, removing cysteine did not lower red-cell synthesis in young men. This does not show that eating more cysteine, once intake is adequate, raises glutathione synthesis.
+    evidence_limitation: >-
+      Cysteine is the substrate of the first assembly step. A formula that
+      removed methionine and cysteine together slowed whole-blood synthesis, and
+      that formula also removed methionine. When methionine intake stayed
+      adequate, removing cysteine did not lower red-cell synthesis in young men.
+      This does not show that eating more cysteine, once intake is adequate,
+      raises glutathione synthesis.
   - atom_id: PM6-DIT-2
     input: Glutamate
     input_type: substrate
-    biological_role: Amino-acid substrate joined to cysteine in the first ATP-dependent step of glutathione assembly.
+    biological_role: >-
+      Amino-acid substrate joined to cysteine in the first ATP-dependent step of
+      glutathione assembly.
     evidence_source:
       finding_ids:
         - PM6-F1
       citation_keys:
         - misra_human_gcl_1998
-    evidence_limitation: No human study in this assessment showed that changing dietary glutamate changes glutathione synthesis.
+    evidence_limitation: >-
+      No human study in this assessment showed that changing dietary glutamate
+      changes glutathione synthesis.
   - atom_id: PM6-DIT-3
     input: Glycine
     input_type: substrate
-    biological_role: Amino-acid substrate added to γ-glutamylcysteine in the second ATP-dependent step of glutathione assembly.
+    biological_role: >-
+      Amino-acid substrate added to γ-glutamylcysteine in the second
+      ATP-dependent step of glutathione assembly.
     evidence_source:
       finding_ids:
         - PM6-F1
@@ -170,54 +268,78 @@ dietary_input_traceability:
       citation_keys:
         - polekhina_gss_1999
         - sekhar_glutathione_2011
-    evidence_limitation: 'In older adults glycine was supplemented together with a cysteine precursor, so that rise in erythrocyte synthesis does not isolate glycine.'
+    evidence_limitation: >-
+      In older adults glycine was supplemented together with a cysteine
+      precursor, so that rise in erythrocyte synthesis does not isolate glycine.
   - atom_id: PM6-DIT-4
     input: ATP
     input_type: substrate
-    biological_role: Adenine-nucleotide substrate consumed by both glutathione assembly enzymes.
+    biological_role: >-
+      Adenine-nucleotide substrate consumed by both glutathione assembly
+      enzymes.
     evidence_source:
       finding_ids:
         - PM6-F1
       citation_keys:
         - misra_human_gcl_1998
         - polekhina_gss_1999
-    evidence_limitation: 'Diet does not supply ATP to these enzymes, and no dietary ATP lever is established.'
+    evidence_limitation: >-
+      Diet does not supply ATP to these enzymes, and no dietary ATP lever is
+      established.
   - atom_id: PM6-DIT-5
     input: Magnesium ions (Mg²⁺)
     input_type: catalytic ion
-    biological_role: 'Metal ion bound by human glutathione synthetase, one per subunit, during ATP-dependent glutathione formation.'
+    biological_role: >-
+      Metal ion bound by human glutathione synthetase, one per subunit, during
+      ATP-dependent glutathione formation.
     evidence_source:
       finding_ids:
         - PM6-F1
       citation_keys:
         - polekhina_gss_1999
-    evidence_limitation: Bound magnesium is a biochemical requirement of glutathione synthetase. It does not show that dietary magnesium intake changes glutathione synthesis.
+    evidence_limitation: >-
+      Bound magnesium is a biochemical requirement of glutathione synthetase. It
+      does not show that dietary magnesium intake changes glutathione synthesis.
   - atom_id: PM6-DIT-7
     input: N-acetylcysteine
     input_type: precursor
-    biological_role: 'Supplemental cysteine precursor given with glycine to older adults, in whom erythrocyte glutathione synthesis increased.'
+    biological_role: >-
+      Supplemental cysteine precursor given with glycine to older adults, in
+      whom erythrocyte glutathione synthesis increased.
     evidence_source:
       finding_ids:
         - PM6-F2
       citation_keys:
         - sekhar_glutathione_2011
-    evidence_limitation: 'The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result.'
+    evidence_limitation: >-
+      The synthesis increase was measured in older adults given this precursor
+      together with glycine. It does not show an effect of N-acetylcysteine
+      alone, of ordinary foods, or of supplementation outside that group, and it
+      is not a neuronal or clinical result.
   - atom_id: PM6-DIT-9
     input: Methionine
     input_type: precursor
-    biological_role: Dietary methionine can supply cysteine for glutathione assembly. Methionine is not a substrate of the assembly enzymes.
+    biological_role: >-
+      Dietary methionine can supply cysteine for glutathione assembly.
+      Methionine is not a substrate of the assembly enzymes.
     upstream_pm_relationships:
       - relationship_label: Supply
         pm_short_id: PM5
         pm_id: BRS2-FM2-PM5
-        href: /docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway
+        href: >-
+          /docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway
     evidence_source:
       finding_ids:
         - PM6-F2
       citation_keys:
         - lyons_glutathione_2000
         - courtney_martin_cysteine_2008
-    evidence_limitation: A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis.
+    evidence_limitation: >-
+      A formula that removed methionine and cysteine together slowed whole-blood
+      synthesis, so that result does not isolate methionine. In the
+      cysteine-free study, methionine intake stayed adequate and red-cell
+      synthesis did not fall. This does not show that eating more methionine,
+      once intake is adequate, raises glutathione synthesis.
 dietary_lever_atoms:
   - atom_id: PM6-DIT-1
     requirement_classification: direct
@@ -225,34 +347,61 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: biological-dependency
-    permitted_wording: Cysteine is a direct substrate of the first glutathione assembly step. Removing it while methionine stayed adequate did not lower red-cell synthesis, and eating more cysteine once intake is adequate is not shown to raise synthesis.
-    evidence_limitation: Cysteine is the substrate of the first assembly step. A formula that removed methionine and cysteine together slowed whole-blood synthesis, and that formula also removed methionine. When methionine intake stayed adequate, removing cysteine did not lower red-cell synthesis in young men. This does not show that eating more cysteine, once intake is adequate, raises glutathione synthesis.
+    permitted_wording: >-
+      Cysteine is a direct substrate of the first glutathione assembly step.
+      Removing it while methionine stayed adequate did not lower red-cell
+      synthesis, and eating more cysteine once intake is adequate is not shown
+      to raise synthesis.
+    evidence_limitation: >-
+      Cysteine is the substrate of the first assembly step. A formula that
+      removed methionine and cysteine together slowed whole-blood synthesis, and
+      that formula also removed methionine. When methionine intake stayed
+      adequate, removing cysteine did not lower red-cell synthesis in young men.
+      This does not show that eating more cysteine, once intake is adequate,
+      raises glutathione synthesis.
   - atom_id: PM6-DIT-2
     requirement_classification: direct
     relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: biological-dependency
-    permitted_wording: Glutamate is a direct substrate of the first glutathione assembly step. This does not show that increasing dietary glutamate increases synthesis.
-    evidence_limitation: No human study in this assessment showed that changing dietary glutamate changes glutathione synthesis.
+    permitted_wording: >-
+      Glutamate is a direct substrate of the first glutathione assembly step.
+      This does not show that increasing dietary glutamate increases synthesis.
+    evidence_limitation: >-
+      No human study in this assessment showed that changing dietary glutamate
+      changes glutathione synthesis.
   - atom_id: PM6-DIT-3
     requirement_classification: direct
     relationship_mode: capacity-requirement
     relationship_layer: dietary-requirement
     dietary_addressability: direct
     claim_ceiling: biological-dependency
-    permitted_wording: Glycine is a direct substrate of the second glutathione assembly step. The older-adult synthesis increase was measured with glycine and a cysteine precursor together.
-    evidence_limitation: 'In older adults glycine was supplemented together with a cysteine precursor, so that rise in erythrocyte synthesis does not isolate glycine.'
+    permitted_wording: >-
+      Glycine is a direct substrate of the second glutathione assembly step. The
+      older-adult synthesis increase was measured with glycine and a cysteine
+      precursor together.
+    evidence_limitation: >-
+      In older adults glycine was supplemented together with a cysteine
+      precursor, so that rise in erythrocyte synthesis does not isolate glycine.
   - atom_id: PM6-DIT-4
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: ATP is an intracellular substrate for both glutathione assembly enzymes. It is not a Dietary Requirement.
-    evidence_limitation: 'Diet does not supply ATP to these enzymes, and no dietary ATP lever is established.'
+    permitted_wording: >-
+      ATP is an intracellular substrate for both glutathione assembly enzymes.
+      It is not a Dietary Requirement.
+    evidence_limitation: >-
+      Diet does not supply ATP to these enzymes, and no dietary ATP lever is
+      established.
   - atom_id: PM6-DIT-5
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Magnesium ions participate in glutathione synthetase catalysis. This does not establish a dietary magnesium effect on glutathione synthesis.
-    evidence_limitation: Bound magnesium is a biochemical requirement of glutathione synthetase. It does not show that dietary magnesium intake changes glutathione synthesis.
+    permitted_wording: >-
+      Magnesium ions participate in glutathione synthetase catalysis. This does
+      not establish a dietary magnesium effect on glutathione synthesis.
+    evidence_limitation: >-
+      Bound magnesium is a biochemical requirement of glutathione synthetase. It
+      does not show that dietary magnesium intake changes glutathione synthesis.
   - atom_id: PM6-DIT-9
     requirement_classification: derived
     derived_target: Cysteine
@@ -261,8 +410,16 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
     claim_ceiling: biological-dependency
-    permitted_wording: Methionine is a precursor of cysteine for glutathione assembly. It is not a substrate of the assembly enzymes. Eating more methionine once intake is adequate is not shown to raise glutathione synthesis.
-    evidence_limitation: A formula that removed methionine and cysteine together slowed whole-blood synthesis, so that result does not isolate methionine. In the cysteine-free study, methionine intake stayed adequate and red-cell synthesis did not fall. This does not show that eating more methionine, once intake is adequate, raises glutathione synthesis.
+    permitted_wording: >-
+      Methionine is a precursor of cysteine for glutathione assembly. It is not
+      a substrate of the assembly enzymes. Eating more methionine once intake is
+      adequate is not shown to raise glutathione synthesis.
+    evidence_limitation: >-
+      A formula that removed methionine and cysteine together slowed whole-blood
+      synthesis, so that result does not isolate methionine. In the
+      cysteine-free study, methionine intake stayed adequate and red-cell
+      synthesis did not fall. This does not show that eating more methionine,
+      once intake is adequate, raises glutathione synthesis.
   - atom_id: PM6-DIT-7
     requirement_classification: derived
     derived_target: Cysteine
@@ -271,8 +428,15 @@ dietary_lever_atoms:
     relationship_layer: dietary-requirement
     dietary_addressability: precursor-mediated
     claim_ceiling: modulation-demonstrated
-    permitted_wording: 'N-acetylcysteine is a supplemental cysteine precursor. In older adults, giving it with glycine raised erythrocyte glutathione synthesis. This is not evidence about ordinary food.'
-    evidence_limitation: 'The synthesis increase was measured in older adults given this precursor together with glycine. It does not show an effect of N-acetylcysteine alone, of ordinary foods, or of supplementation outside that group, and it is not a neuronal or clinical result.'
+    permitted_wording: >-
+      N-acetylcysteine is a supplemental cysteine precursor. In older adults,
+      giving it with glycine raised erythrocyte glutathione synthesis. This is
+      not evidence about ordinary food.
+    evidence_limitation: >-
+      The synthesis increase was measured in older adults given this precursor
+      together with glycine. It does not show an effect of N-acetylcysteine
+      alone, of ordinary foods, or of supplementation outside that group, and it
+      is not a neuronal or clinical result.
 dietary_lever_presentations:
   - atom_id: PM6-DIT-1
     label: Cysteine
@@ -282,7 +446,9 @@ dietary_lever_presentations:
   - atom_id: PM6-DIT-9
     label: Methionine
     presentation_section: 3.1.1
-    reader_description: Methionine can supply cysteine for glutathione assembly. It is not a substrate of the assembly enzymes.
+    reader_description: >-
+      Methionine can supply cysteine for glutathione assembly. It is not a
+      substrate of the assembly enzymes.
     description_finding_id: PM6-F2
   - atom_id: PM6-DIT-2
     label: Glutamate
@@ -297,86 +463,203 @@ dietary_lever_presentations:
   - atom_id: PM6-DIT-7
     label: N-acetylcysteine
     presentation_section: 3.1.1
-    reader_description: N-acetylcysteine is a supplemental precursor of cysteine that was given with glycine.
+    reader_description: >-
+      N-acetylcysteine is a supplemental precursor of cysteine that was given
+      with glycine.
     description_finding_id: PM6-F2
   - atom_id: PM6-DIT-4
     label: ATP
     presentation_section: 3.1.2
-    reader_description: Both assembly enzymes use ATP, which the cell supplies.
+    reader_description: 'Both assembly enzymes use ATP, which the cell supplies.'
     description_finding_id: PM6-F1
   - atom_id: PM6-DIT-5
     label: Magnesium ions (Mg²⁺)
     presentation_section: 3.1.2
-    reader_description: Glutathione synthetase binds one magnesium ion per subunit while it adds glycine.
+    reader_description: >-
+      Glutathione synthetase binds one magnesium ion per subunit while it adds
+      glycine.
     description_finding_id: PM6-F1
-scientific_findings_intro: "Human tracer studies show context-dependent substrate responsiveness. Removing methionine and cysteine together reduced whole-blood glutathione synthesis, whereas removing cysteine with methionine kept adequate did not reduce erythrocyte synthesis in young men. [[3]](#pm-ref-3) [[5]](#pm-ref-5) In older adults with lower baseline synthesis, combined N-acetylcysteine and glycine supplementation raised erythrocyte synthesis. [[4]](#pm-ref-4) These contrasts support provision under defined conditions, not universal dietary cysteine limitation; blood-cell measurements do not establish neuronal synthesis or clinical benefit."
+scientific_findings_intro: >-
+  Human tracer studies show context-dependent substrate responsiveness. Removing
+  methionine and cysteine together reduced whole-blood glutathione synthesis,
+  whereas removing cysteine with methionine kept adequate did not reduce
+  erythrocyte synthesis in young men. [[3]](#pm-ref-3) [[5]](#pm-ref-5) In older
+  adults with lower baseline synthesis, combined N-acetylcysteine and glycine
+  supplementation raised erythrocyte synthesis. [[4]](#pm-ref-4) These contrasts
+  support provision under defined conditions, not universal dietary cysteine
+  limitation; blood-cell measurements do not establish neuronal synthesis or
+  clinical benefit.
 scientific_findings:
   - id: PM6-F1
     finding_label: Two ATP-dependent enzymes assemble glutathione
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: 'Glutamate-cysteine ligase joins glutamate and cysteine using ATP. Glutathione synthetase then adds glycine, again using ATP, and binds magnesium. Selenium-dependent peroxidase activity and riboflavin-derived FAD in glutathione reductase are not part of these assembly reactions.'
-    finding_interpretation: 'Glutamate, cysteine, glycine and ATP are the assembly substrates. Magnesium participates in the second enzyme. ATP and magnesium are intracellular biochemical requirements, not dietary levers. Selenium and riboflavin support later use and recycling of glutathione.'
-    finding_statement: 'Glutathione synthesis requires ATP-dependent formation of γ-glutamylcysteine from glutamate and cysteine, followed by ATP-dependent addition of glycine, and does not use selenium or riboflavin as synthesis substrates.'
+    finding_summary: >-
+      Glutamate-cysteine ligase joins glutamate and cysteine using ATP.
+      Glutathione synthetase then adds glycine, again using ATP, and binds
+      magnesium. Selenium-dependent peroxidase activity and riboflavin-derived
+      FAD in glutathione reductase are not part of these assembly reactions.
+    finding_interpretation: >-
+      Glutamate, cysteine, glycine and ATP are the assembly substrates.
+      Magnesium participates in the second enzyme. ATP and magnesium are
+      intracellular biochemical requirements, not dietary levers. Selenium and
+      riboflavin support later use and recycling of glutathione.
+    finding_statement: >-
+      Glutathione synthesis requires ATP-dependent formation of
+      γ-glutamylcysteine from glutamate and cysteine, followed by ATP-dependent
+      addition of glycine, and does not use selenium or riboflavin as synthesis
+      substrates.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Reviewed catalytic annotation of purified human glutamate-cysteine ligase records ATP-dependent ligation of L-glutamate and L-cysteine as the first step. Human glutathione synthetase structural work records ATP-dependent addition of glycine and one bound magnesium ion per subunit as the second step. Together they define the assembly boundary. Human glutathione peroxidase uses an active-site selenocysteine to reduce peroxides with glutathione already formed, and glutathione reductase binds FAD while reducing glutathione disulfide. Those enzymes consume or restore glutathione; they do not assemble it.'
-    synthesis_limitations: 'The enzyme evidence is purified protein and structure, not intact human flux. A lower cysteine Km on the first enzyme does not prove that ordinary diets are cysteine-limited. Magnesium binding does not show that magnesium intake changes synthesis. The dietary review that groups selenium and riboflavin with glutathione support does not move those cofactors into the assembly reactions.'
+    synthesis: >-
+      Reviewed catalytic annotation of purified human glutamate-cysteine ligase
+      records ATP-dependent ligation of L-glutamate and L-cysteine as the first
+      step. Human glutathione synthetase structural work records ATP-dependent
+      addition of glycine and one bound magnesium ion per subunit as the second
+      step. Together they define the assembly boundary. Human glutathione
+      peroxidase uses an active-site selenocysteine to reduce peroxides with
+      glutathione already formed, and glutathione reductase binds FAD while
+      reducing glutathione disulfide. Those enzymes consume or restore
+      glutathione; they do not assemble it.
+    synthesis_limitations: >-
+      The enzyme evidence is purified protein and structure, not intact human
+      flux. A lower cysteine Km on the first enzyme does not prove that ordinary
+      diets are cysteine-limited. Magnesium binding does not show that magnesium
+      intake changes synthesis. The dietary review that groups selenium and
+      riboflavin with glutathione support does not move those cofactors into the
+      assembly reactions.
     evidence_considered:
       - label: Misra and Griffith (1998)
         citation_key: misra_human_gcl_1998
         href: /docs/papers/BRAIN-Diet-References#misra_human_gcl_1998
         data_level: Cellular / Molecular
         evidence_source: bounded-external-search
-        directional_finding: 'Purified human glutamate-cysteine ligase catalyses ATP-dependent ligation of L-glutamate and L-cysteine, the first step of glutathione biosynthesis.'
+        directional_finding: >-
+          Purified human glutamate-cysteine ligase catalyses ATP-dependent
+          ligation of L-glutamate and L-cysteine, the first step of glutathione
+          biosynthesis.
         assessment:
-          study: 'Expression and purification of human gamma-glutamylcysteine synthetase, with catalytic constants recorded in the reviewed human GCLC entry that cites this paper.'
+          study: >-
+            Expression and purification of human gamma-glutamylcysteine
+            synthetase, with catalytic constants recorded in the reviewed human
+            GCLC entry that cites this paper.
           population: Purified human enzyme; no human participants.
-          result: 'The reaction consumes L-glutamate, L-cysteine and ATP to form γ-glutamylcysteine, ADP and phosphate. The cited annotation reports Km values of 0.1 mM for L-cysteine, 1.8 mM for L-glutamate and 0.4 mM for ATP.'
+          result: >-
+            The reaction consumes L-glutamate, L-cysteine and ATP to form
+            γ-glutamylcysteine, ADP and phosphate. The cited annotation reports
+            Km values of 0.1 mM for L-cysteine, 1.8 mM for L-glutamate and 0.4
+            mM for ATP.
           effect_magnitude: Purified-enzyme Km values only; no human synthesis-rate effect.
-          evidence_summary: Direct human-enzyme evidence for the first ATP-dependent assembly step and its amino-acid and ATP substrates.
-          limitations: 'In-vitro constants do not establish in-vivo limitation, dietary responsiveness, tissue differences or clinical effects.'
+          evidence_summary: >-
+            Direct human-enzyme evidence for the first ATP-dependent assembly
+            step and its amino-acid and ATP substrates.
+          limitations: >-
+            In-vitro constants do not establish in-vivo limitation, dietary
+            responsiveness, tissue differences or clinical effects.
       - label: Polekhina et al. (1999)
         citation_key: polekhina_gss_1999
         href: /docs/papers/BRAIN-Diet-References#polekhina_gss_1999
         data_level: Cellular / Molecular
         evidence_source: bounded-external-search
-        directional_finding: Human glutathione synthetase produces glutathione from γ-glutamylcysteine and glycine in an ATP-dependent reaction and binds one magnesium ion per subunit.
+        directional_finding: >-
+          Human glutathione synthetase produces glutathione from
+          γ-glutamylcysteine and glycine in an ATP-dependent reaction and binds
+          one magnesium ion per subunit.
         assessment:
-          study: 'Crystal structure of human glutathione synthetase at 2.10 Å in complex with ADP and glutathione, with catalytic and cofactor annotation.'
+          study: >-
+            Crystal structure of human glutathione synthetase at 2.10 Å in
+            complex with ADP and glutathione, with catalytic and cofactor
+            annotation.
           population: Crystallised human glutathione synthetase; no human participants.
-          result: The structure and catalytic annotation place glycine and ATP in the second assembly step and record one Mg2+ ion bound per subunit.
+          result: >-
+            The structure and catalytic annotation place glycine and ATP in the
+            second assembly step and record one Mg2+ ion bound per subunit.
           effect_magnitude: 2.10 Å structure; no physiological effect size.
-          evidence_summary: Direct structural evidence for the second ATP-dependent step and its magnesium ion.
-          limitations: 'A product-bound structure establishes catalytic participants, not dietary dose response or in-vivo flux.'
+          evidence_summary: >-
+            Direct structural evidence for the second ATP-dependent step and its
+            magnesium ion.
+          limitations: >-
+            A product-bound structure establishes catalytic participants, not
+            dietary dose response or in-vivo flux.
     connected_supportive_evidence:
       - label: Minich et al. (2019)
         citation_key: minich_glutathione_2019
         href: /docs/papers/BRAIN-Diet-References#minich_glutathione_2019
         data_level: Mechanistic
-        why_relevant: 'Reviews dietary nutrients discussed for glutathione support, including sulfur amino acids, selenium and riboflavin.'
-        why_excluded: 'It is a narrative review and does not itself measure the ligase reactions, ATP use, or separation of assembly from peroxidase and reductase cofactors.'
+        why_relevant: >-
+          Reviews dietary nutrients discussed for glutathione support, including
+          sulfur amino acids, selenium and riboflavin.
+        why_excluded: >-
+          It is a narrative review and does not itself measure the ligase
+          reactions, ATP use, or separation of assembly from peroxidase and
+          reductase cofactors.
       - label: Mullenbach et al. (1987)
         citation_key: mullenbach_gpx_selenocysteine_1987
         href: /docs/papers/BRAIN-Diet-References#mullenbach_gpx_selenocysteine_1987
         data_level: Cellular / Molecular
-        why_relevant: 'Shows that human glutathione peroxidase encodes an active-site selenocysteine, so selenium belongs to peroxide removal that uses glutathione.'
-        why_excluded: Peroxidase activity consumes glutathione. It is not a substrate or cofactor of either assembly enzyme.
+        why_relevant: >-
+          Shows that human glutathione peroxidase encodes an active-site
+          selenocysteine, so selenium belongs to peroxide removal that uses
+          glutathione.
+        why_excluded: >-
+          Peroxidase activity consumes glutathione. It is not a substrate or
+          cofactor of either assembly enzyme.
       - label: Karplus and Schulz (1989)
         citation_key: karplus_glutathione_reductase_1989
         href: /docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_1989
         data_level: Cellular / Molecular
-        why_relevant: 'Glutathione reductase structures show bound FAD, the riboflavin-derived cofactor, at the enzyme that reduces glutathione disulfide.'
-        why_excluded: Disulfide reduction is recycling of glutathione already made. FAD is not a substrate of glutamate-cysteine ligase or glutathione synthetase.
+        why_relevant: >-
+          Glutathione reductase structures show bound FAD, the
+          riboflavin-derived cofactor, at the enzyme that reduces glutathione
+          disulfide.
+        why_excluded: >-
+          Disulfide reduction is recycling of glutathione already made. FAD is
+          not a substrate of glutamate-cysteine ligase or glutathione
+          synthetase.
   - id: PM6-F2
     finding_label: Blood-cell synthesis responds only under defined substrate conditions
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: Removing both methionine and cysteine slowed whole-blood glutathione synthesis in healthy young men. Combined cysteine-precursor and glycine supplementation raised erythrocyte synthesis in older adults. A methionine-adequate diet without cysteine did not lower erythrocyte synthesis in young men.
-    finding_interpretation: 'Substrate supply can change blood-cell synthesis in these specific conditions. That does not mean every ordinary diet is cysteine-limited, and the older-adult result is a supplemental precursor plus glycine, not a food prescription.'
-    finding_statement: 'Human blood-cell glutathione synthesis can slow when dietary methionine and cysteine are both removed and can rise in older adults after combined cysteine and glycine precursor supplementation, whereas a methionine-adequate cysteine-free diet did not limit erythrocyte synthesis in young men.'
+    finding_summary: >-
+      Removing both methionine and cysteine slowed whole-blood glutathione
+      synthesis in healthy young men. Combined cysteine-precursor and glycine
+      supplementation raised erythrocyte synthesis in older adults. A
+      methionine-adequate diet without cysteine did not lower erythrocyte
+      synthesis in young men.
+    finding_interpretation: >-
+      Substrate supply can change blood-cell synthesis in these specific
+      conditions. That does not mean every ordinary diet is cysteine-limited,
+      and the older-adult result is a supplemental precursor plus glycine, not a
+      food prescription.
+    finding_statement: >-
+      Human blood-cell glutathione synthesis can slow when dietary methionine
+      and cysteine are both removed and can rise in older adults after combined
+      cysteine and glycine precursor supplementation, whereas a
+      methionine-adequate cysteine-free diet did not limit erythrocyte synthesis
+      in young men.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Three human tracer studies set the ceiling. In seven healthy young men, a 10-day amino-acid diet with methionine and cysteine removed lowered whole-blood fractional synthesis from 0.65 ± 0.13 to 0.49 ± 0.13 per day and lowered absolute synthesis by about 23%, while concentration stayed near 1.2 mM and glycine intake was not reduced. In eight older adults compared with eight younger adults, erythrocyte glutathione synthesis and concentration were lower, and two weeks of cysteine plus glycine precursor supplementation raised fractional synthesis by 78.8% and absolute synthesis by 230.9%. The cysteine source in that protocol is N-acetylcysteine, given with glycine. In four young men, cysteine intakes from zero to 40 mg/kg/day did not change erythrocyte synthesis when methionine was held at 14 mg/kg/day. Synthesis is therefore substrate-responsive under defined restrictions, not universally limited by dietary cysteine.'
-    synthesis_limitations: 'All three studies measured blood-cell, not neuronal, synthesis. The sulfur-amino-acid-free diet was an experimental amino-acid formula in seven young men for 10 days. The older-adult increase required combined supplementation and was not an isolated N-acetylcysteine or glycine test, not an ADHD trial, and not ordinary food. The cysteine-free arm used only four young men and two days of adaptation. Concentration did not track synthesis rate in the sulfur-amino-acid-free study.'
+    synthesis: >-
+      Three human tracer studies set the ceiling. In seven healthy young men, a
+      10-day amino-acid diet with methionine and cysteine removed lowered
+      whole-blood fractional synthesis from 0.65 ± 0.13 to 0.49 ± 0.13 per day
+      and lowered absolute synthesis by about 23%, while concentration stayed
+      near 1.2 mM and glycine intake was not reduced. In eight older adults
+      compared with eight younger adults, erythrocyte glutathione synthesis and
+      concentration were lower, and two weeks of cysteine plus glycine precursor
+      supplementation raised fractional synthesis by 78.8% and absolute
+      synthesis by 230.9%. The cysteine source in that protocol is
+      N-acetylcysteine, given with glycine. In four young men, cysteine intakes
+      from zero to 40 mg/kg/day did not change erythrocyte synthesis when
+      methionine was held at 14 mg/kg/day. Synthesis is therefore
+      substrate-responsive under defined restrictions, not universally limited
+      by dietary cysteine.
+    synthesis_limitations: >-
+      All three studies measured blood-cell, not neuronal, synthesis. The
+      sulfur-amino-acid-free diet was an experimental amino-acid formula in
+      seven young men for 10 days. The older-adult increase required combined
+      supplementation and was not an isolated N-acetylcysteine or glycine test,
+      not an ADHD trial, and not ordinary food. The cysteine-free arm used only
+      four young men and two days of adaptation. Concentration did not track
+      synthesis rate in the sulfur-amino-acid-free study.
     evidence_considered:
       - label: Lyons et al. (2000)
         citation_key: lyons_glutathione_2000
@@ -384,51 +667,130 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: dietary
         evidence_source: bounded-external-search
-        directional_finding: A sulfur-amino-acid-free amino-acid diet slowed whole-blood glutathione synthesis in healthy young men without lowering glutathione concentration.
+        directional_finding: >-
+          A sulfur-amino-acid-free amino-acid diet slowed whole-blood
+          glutathione synthesis in healthy young men without lowering
+          glutathione concentration.
         assessment:
-          study: 'Randomised crossover of two 10-day L-amino-acid diets, adequate versus methionine and cysteine both set to zero, with a primed intravenous L-[1-13C]cysteine infusion on day 10.'
+          study: >-
+            Randomised crossover of two 10-day L-amino-acid diets, adequate
+            versus methionine and cysteine both set to zero, with a primed
+            intravenous L-[1-13C]cysteine infusion on day 10.
           population: 'Seven healthy men, age 24 ± 6 years.'
-          result: 'Fractional synthesis fell from 0.65 ± 0.13 to 0.49 ± 0.13 per day (P < 0.01). Absolute synthesis fell from 747 ± 216 to 578.6 ± 135 µmol/L/day (P < 0.05), about 23%. Whole-blood glutathione stayed about 1.2 mM (1,142 ± 243 versus 1,216 ± 162 µM). Glycine in the formula rose from 39.6 to 75.1 mg/kg/day so nitrogen stayed constant; glutamic acid was unchanged.'
-          effect_magnitude: About a 23% lower absolute synthesis rate after 10 days without methionine and cysteine; concentration unchanged.
-          evidence_summary: Direct human evidence that removing the shared sulfur-amino-acid supply slows whole-blood glutathione synthesis.
-          limitations: 'Experimental formula, young men, short duration, whole blood rather than brain, and no clinical outcome. Glycine was increased, so the slowdown is not a glycine deficit.'
+          result: >-
+            Fractional synthesis fell from 0.65 ± 0.13 to 0.49 ± 0.13 per day (P
+            < 0.01). Absolute synthesis fell from 747 ± 216 to 578.6 ± 135
+            µmol/L/day (P < 0.05), about 23%. Whole-blood glutathione stayed
+            about 1.2 mM (1,142 ± 243 versus 1,216 ± 162 µM). Glycine in the
+            formula rose from 39.6 to 75.1 mg/kg/day so nitrogen stayed
+            constant; glutamic acid was unchanged.
+          effect_magnitude: >-
+            About a 23% lower absolute synthesis rate after 10 days without
+            methionine and cysteine; concentration unchanged.
+          evidence_summary: >-
+            Direct human evidence that removing the shared sulfur-amino-acid
+            supply slows whole-blood glutathione synthesis.
+          limitations: >-
+            Experimental formula, young men, short duration, whole blood rather
+            than brain, and no clinical outcome. Glycine was increased, so the
+            slowdown is not a glycine deficit.
       - label: Sekhar et al. (2011)
         citation_key: sekhar_glutathione_2011
         href: /docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011
         data_level: Human Mechanistic
         exposure_context: supplemental-formulation
         evidence_source: repository-inherited
-        directional_finding: 'Older adults had lower erythrocyte glutathione synthesis than younger adults, and two weeks of cysteine plus glycine precursor supplementation restored synthesis and concentration.'
+        directional_finding: >-
+          Older adults had lower erythrocyte glutathione synthesis than younger
+          adults, and two weeks of cysteine plus glycine precursor
+          supplementation restored synthesis and concentration.
         assessment:
-          study: Stable-isotope erythrocyte glutathione kinetics before and after precursor supplementation. Cysteine was supplied as N-acetylcysteine together with glycine.
-          population: 'Eight older adults restudied after supplementation, compared with eight younger adults.'
-          result: 'Before supplementation, older adults had lower erythrocyte glycine, cysteine, glutathione concentration, fractional synthesis (45.80 ± 5.69 versus 83.14 ± 6.43 %/day) and absolute synthesis (0.55 ± 0.12 versus 1.73 ± 0.16 mmol/L red cells per day). After two weeks, glutathione concentration was 94.6% higher, fractional synthesis 78.8% higher and absolute synthesis 230.9% higher, and plasma oxidative-stress markers were lower.'
-          effect_magnitude: 'Combined precursor supplementation in older adults: fractional synthesis +78.8% and absolute synthesis +230.9% from the deficient baseline.'
-          evidence_summary: Human evidence that combined supplemental cysteine precursor and glycine can raise erythrocyte glutathione synthesis when it is low in older adults.
-          limitations: 'Small older-adult sample, erythrocyte pool, combined supplements, not ordinary food, not neuronal synthesis, and not an ADHD or recovery trial.'
+          study: >-
+            Stable-isotope erythrocyte glutathione kinetics before and after
+            precursor supplementation. Cysteine was supplied as N-acetylcysteine
+            together with glycine.
+          population: >-
+            Eight older adults restudied after supplementation, compared with
+            eight younger adults.
+          result: >-
+            Before supplementation, older adults had lower erythrocyte glycine,
+            cysteine, glutathione concentration, fractional synthesis (45.80 ±
+            5.69 versus 83.14 ± 6.43 %/day) and absolute synthesis (0.55 ± 0.12
+            versus 1.73 ± 0.16 mmol/L red cells per day). After two weeks,
+            glutathione concentration was 94.6% higher, fractional synthesis
+            78.8% higher and absolute synthesis 230.9% higher, and plasma
+            oxidative-stress markers were lower.
+          effect_magnitude: >-
+            Combined precursor supplementation in older adults: fractional
+            synthesis +78.8% and absolute synthesis +230.9% from the deficient
+            baseline.
+          evidence_summary: >-
+            Human evidence that combined supplemental cysteine precursor and
+            glycine can raise erythrocyte glutathione synthesis when it is low
+            in older adults.
+          limitations: >-
+            Small older-adult sample, erythrocyte pool, combined supplements,
+            not ordinary food, not neuronal synthesis, and not an ADHD or
+            recovery trial.
       - label: Courtney-Martin et al. (2008)
         citation_key: courtney_martin_cysteine_2008
         href: /docs/papers/BRAIN-Diet-References#courtney_martin_cysteine_2008
         data_level: Human Mechanistic
         exposure_context: dietary
         evidence_source: bounded-external-search
-        directional_finding: 'Erythrocyte glutathione synthesis did not change across cysteine intakes, including zero, when methionine intake was adequate.'
+        directional_finding: >-
+          Erythrocyte glutathione synthesis did not change across cysteine
+          intakes, including zero, when methionine intake was adequate.
         assessment:
-          study: 'Five graded cysteine intakes (0, 10, 20, 30 and 40 mg/kg/day) in random order with methionine fixed at 14 mg/kg/day and protein at 1 g/kg/day. Erythrocyte glutathione synthesis was measured after two days at each intake.'
+          study: >-
+            Five graded cysteine intakes (0, 10, 20, 30 and 40 mg/kg/day) in
+            random order with methionine fixed at 14 mg/kg/day and protein at 1
+            g/kg/day. Erythrocyte glutathione synthesis was measured after two
+            days at each intake.
           population: Four healthy young adult men.
-          result: Fractional and absolute erythrocyte glutathione synthesis and glutathione concentration did not change as cysteine intake increased. Urinary sulfate excretion rose with cysteine intake (r = 0.92).
-          effect_magnitude: No change in erythrocyte glutathione synthesis across the cysteine range tested.
-          evidence_summary: Human evidence that dietary cysteine is not independently limiting for erythrocyte glutathione synthesis when methionine intake meets the protein requirement.
-          limitations: 'Preliminary sample of four men, two-day adaptation, erythrocyte endpoint, and no neuronal or clinical outcome.'
+          result: >-
+            Fractional and absolute erythrocyte glutathione synthesis and
+            glutathione concentration did not change as cysteine intake
+            increased. Urinary sulfate excretion rose with cysteine intake (r =
+            0.92).
+          effect_magnitude: >-
+            No change in erythrocyte glutathione synthesis across the cysteine
+            range tested.
+          evidence_summary: >-
+            Human evidence that dietary cysteine is not independently limiting
+            for erythrocyte glutathione synthesis when methionine intake meets
+            the protein requirement.
+          limitations: >-
+            Preliminary sample of four men, two-day adaptation, erythrocyte
+            endpoint, and no neuronal or clinical outcome.
     evidence_dependency:
-      - 'Sekhar et al. (2011) is also used in PM6-F3 and PM6-F4 for the phenome boundary, and in PM6-IC1 for the measurement boundary. Those uses are not independent replications of the synthesis-rate result.'
+      - >-
+        Sekhar et al. (2011) is also used in PM6-F3 and PM6-F4 for the phenome
+        boundary, and in PM6-IC1 for the measurement boundary. Those uses are
+        not independent replications of the synthesis-rate result.
   - id: PM6-IC1
-    finding_label: Blood-cell glutathione kinetics are not neuronal synthesis or clinical outcome
+    finding_label: >-
+      Blood-cell glutathione kinetics are not neuronal synthesis or clinical
+      outcome
     presentation: interpretive-constraint
-    finding_statement: 'Erythrocyte and whole-blood glutathione synthesis rates and concentrations do not measure neuronal glutathione synthesis, do not establish that every person is substrate-limited, and are not ADHD, recovery or stress-resilience outcomes.'
+    finding_statement: >-
+      Erythrocyte and whole-blood glutathione synthesis rates and concentrations
+      do not measure neuronal glutathione synthesis, do not establish that every
+      person is substrate-limited, and are not ADHD, recovery or
+      stress-resilience outcomes.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The human tracer studies measure incorporation of labelled cysteine or glycine into glutathione in whole blood or red cells. In the sulfur-amino-acid-free diet, synthesis slowed while concentration was maintained, so concentration is not a substitute for synthesis rate. None of the studies sampled brain glutathione synthesis or tested a recovery, stress or ADHD outcome. A paediatric ADHD study that found higher homocysteine and lower vitamin B12 did not measure glutathione.'
-    synthesis_limitations: 'This constraint limits interpretation. It does not prove that neuronal synthesis is unrelated to substrate supply, and it does not reclassify the blood-cell synthesis results themselves.'
+    synthesis: >-
+      The human tracer studies measure incorporation of labelled cysteine or
+      glycine into glutathione in whole blood or red cells. In the
+      sulfur-amino-acid-free diet, synthesis slowed while concentration was
+      maintained, so concentration is not a substitute for synthesis rate. None
+      of the studies sampled brain glutathione synthesis or tested a recovery,
+      stress or ADHD outcome. A paediatric ADHD study that found higher
+      homocysteine and lower vitamin B12 did not measure glutathione.
+    synthesis_limitations: >-
+      This constraint limits interpretation. It does not prove that neuronal
+      synthesis is unrelated to substrate supply, and it does not reclassify the
+      blood-cell synthesis results themselves.
     evidence_considered:
       - label: Lyons et al. (2000)
         citation_key: lyons_glutathione_2000
@@ -436,13 +798,23 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: dietary
         evidence_source: bounded-external-search
-        directional_finding: 'Whole-blood synthesis rate changed while glutathione concentration did not, and the measurement was not a brain or clinical endpoint.'
+        directional_finding: >-
+          Whole-blood synthesis rate changed while glutathione concentration did
+          not, and the measurement was not a brain or clinical endpoint.
         assessment:
-          study: Sulfur-amino-acid-free versus adequate amino-acid diets with whole-blood glutathione kinetics.
+          study: >-
+            Sulfur-amino-acid-free versus adequate amino-acid diets with
+            whole-blood glutathione kinetics.
           population: Seven healthy young men.
-          result: Synthesis slowed and concentration was maintained. No neuronal or symptom endpoint was measured.
-          effect_magnitude: Concentration unchanged despite about a 23% lower absolute synthesis rate.
-          evidence_summary: Shows that blood glutathione concentration and blood synthesis rate are different measurements.
+          result: >-
+            Synthesis slowed and concentration was maintained. No neuronal or
+            symptom endpoint was measured.
+          effect_magnitude: >-
+            Concentration unchanged despite about a 23% lower absolute synthesis
+            rate.
+          evidence_summary: >-
+            Shows that blood glutathione concentration and blood synthesis rate
+            are different measurements.
           limitations: Does not describe neuronal glutathione.
       - label: Sekhar et al. (2011)
         citation_key: sekhar_glutathione_2011
@@ -450,39 +822,79 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: supplemental-formulation
         evidence_source: repository-inherited
-        directional_finding: Erythrocyte synthesis and oxidative-stress markers changed in older adults; the study did not measure brain synthesis or an ADHD outcome.
+        directional_finding: >-
+          Erythrocyte synthesis and oxidative-stress markers changed in older
+          adults; the study did not measure brain synthesis or an ADHD outcome.
         assessment:
-          study: Erythrocyte glutathione kinetics and plasma oxidative-stress markers before and after precursor supplementation.
+          study: >-
+            Erythrocyte glutathione kinetics and plasma oxidative-stress markers
+            before and after precursor supplementation.
           population: Eight older adults and eight younger adults.
-          result: 'Erythrocyte synthesis and concentration rose in the older group after supplementation. No ADHD, recovery or stress-resilience outcome was tested.'
-          effect_magnitude: Erythrocyte fractional synthesis +78.8% in the supplemented older group.
-          evidence_summary: 'The supported endpoint is older-adult erythrocyte synthesis, not a universal or clinical claim.'
+          result: >-
+            Erythrocyte synthesis and concentration rose in the older group
+            after supplementation. No ADHD, recovery or stress-resilience
+            outcome was tested.
+          effect_magnitude: >-
+            Erythrocyte fractional synthesis +78.8% in the supplemented older
+            group.
+          evidence_summary: >-
+            The supported endpoint is older-adult erythrocyte synthesis, not a
+            universal or clinical claim.
           limitations: Blood-cell kinetics in a small older-adult sample.
       - label: Lukovac et al. (2024)
         citation_key: lukovac_serum_2024
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
         data_level: Human Study
         evidence_source: repository-inherited
-        directional_finding: Boys with ADHD had higher homocysteine and lower vitamin B12 than controls; glutathione was not measured.
+        directional_finding: >-
+          Boys with ADHD had higher homocysteine and lower vitamin B12 than
+          controls; glutathione was not measured.
         assessment:
-          study: Cross-sectional serum biomarkers and behavioural scores in boys with and without ADHD.
+          study: >-
+            Cross-sectional serum biomarkers and behavioural scores in boys with
+            and without ADHD.
           population: '133 boys aged 6.5–12.5 years, 67 with ADHD and 66 controls.'
-          result: Homocysteine was higher and vitamin B12 lower in the ADHD group. Glutathione synthesis was not an endpoint.
+          result: >-
+            Homocysteine was higher and vitamin B12 lower in the ADHD group.
+            Glutathione synthesis was not an endpoint.
           effect_magnitude: No glutathione concentration or synthesis rate was reported.
-          evidence_summary: An ADHD biomarker association that does not measure this synthesis reaction.
-          limitations: 'Cross-sectional, boys only, no glutathione assay, and no dietary intervention.'
+          evidence_summary: >-
+            An ADHD biomarker association that does not measure this synthesis
+            reaction.
+          limitations: >-
+            Cross-sectional, boys only, no glutathione assay, and no dietary
+            intervention.
     evidence_dependency:
-      - Lyons et al. (2000) and Sekhar et al. (2011) are primary synthesis evidence in PM6-F2. PM6-IC1 uses them only to bound what those measurements can mean.
+      - >-
+        Lyons et al. (2000) and Sekhar et al. (2011) are primary synthesis
+        evidence in PM6-F2. PM6-IC1 uses them only to bound what those
+        measurements can mean.
   - id: PM6-F3
     finding_label: Recovery-capacity benefit is not established
     presentation: phenome-relationship
     primary_phenome: Recovery Capacity
-    finding_summary: 'Glutathione assembly is biologically relevant to redox buffering, but the assessed studies do not show that changing synthesis improves Recovery Capacity.'
-    finding_interpretation: Older-adult erythrocyte synthesis and a paediatric homocysteine difference must not be read as recovery treatment evidence.
-    finding_statement: The assessed human evidence does not demonstrate that glutathione synthesis capacity changes Recovery Capacity as a functional or clinical outcome.
+    finding_summary: >-
+      Glutathione assembly is biologically relevant to redox buffering, but the
+      assessed studies do not show that changing synthesis improves Recovery
+      Capacity.
+    finding_interpretation: >-
+      Older-adult erythrocyte synthesis and a paediatric homocysteine difference
+      must not be read as recovery treatment evidence.
+    finding_statement: >-
+      The assessed human evidence does not demonstrate that glutathione
+      synthesis capacity changes Recovery Capacity as a functional or clinical
+      outcome.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The older-adult trial changed erythrocyte glutathione synthesis and plasma oxidative-stress markers after combined precursor supplementation. It did not measure recovery capacity. The paediatric ADHD study measured homocysteine and vitamin B12, not glutathione synthesis and not recovery. The relationship remains a mechanistic possibility with a direct-evidence gap.'
-    synthesis_limitations: 'This is a gap in the assessed evidence, not proof that no relationship exists. Oxidative-stress markers are not a recovery phenome.'
+    synthesis: >-
+      The older-adult trial changed erythrocyte glutathione synthesis and plasma
+      oxidative-stress markers after combined precursor supplementation. It did
+      not measure recovery capacity. The paediatric ADHD study measured
+      homocysteine and vitamin B12, not glutathione synthesis and not recovery.
+      The relationship remains a mechanistic possibility with a direct-evidence
+      gap.
+    synthesis_limitations: >-
+      This is a gap in the assessed evidence, not proof that no relationship
+      exists. Oxidative-stress markers are not a recovery phenome.
     evidence_considered:
       - label: Sekhar et al. (2011)
         citation_key: sekhar_glutathione_2011
@@ -490,11 +902,18 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: supplemental-formulation
         evidence_source: repository-inherited
-        directional_finding: 'Precursor supplementation raised erythrocyte glutathione synthesis in older adults and lowered oxidative-stress markers, without a recovery outcome.'
+        directional_finding: >-
+          Precursor supplementation raised erythrocyte glutathione synthesis in
+          older adults and lowered oxidative-stress markers, without a recovery
+          outcome.
         assessment:
-          study: Erythrocyte glutathione kinetics and plasma oxidative-stress markers.
+          study: >-
+            Erythrocyte glutathione kinetics and plasma oxidative-stress
+            markers.
           population: Eight older adults and eight younger adults.
-          result: Synthesis and glutathione concentration rose in the older group. Recovery capacity was not measured.
+          result: >-
+            Synthesis and glutathione concentration rose in the older group.
+            Recovery capacity was not measured.
           effect_magnitude: No recovery-outcome effect size exists in the study.
           evidence_summary: 'Supports a synthesis change, not a recovery-capacity benefit.'
           limitations: Wrong endpoint for this phenome relationship.
@@ -503,26 +922,47 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
         data_level: Human Study
         evidence_source: repository-inherited
-        directional_finding: 'ADHD was associated with higher homocysteine and lower vitamin B12, not with a glutathione or recovery measurement.'
+        directional_finding: >-
+          ADHD was associated with higher homocysteine and lower vitamin B12,
+          not with a glutathione or recovery measurement.
         assessment:
-          study: Cross-sectional serum biomarker comparison in boys with and without ADHD.
+          study: >-
+            Cross-sectional serum biomarker comparison in boys with and without
+            ADHD.
           population: 133 boys aged 6.5–12.5 years.
-          result: Homocysteine and vitamin B12 differed by ADHD status. Glutathione and recovery were not measured.
+          result: >-
+            Homocysteine and vitamin B12 differed by ADHD status. Glutathione
+            and recovery were not measured.
           effect_magnitude: No glutathione or recovery effect.
           evidence_summary: Does not test this phenome relationship.
           limitations: Cross-sectional biomarker study in boys.
     evidence_dependency:
-      - Sekhar et al. (2011) is primary synthesis evidence in PM6-F2. Its use here is only to show that the trial did not measure Recovery Capacity.
+      - >-
+        Sekhar et al. (2011) is primary synthesis evidence in PM6-F2. Its use
+        here is only to show that the trial did not measure Recovery Capacity.
   - id: PM6-F4
     finding_label: Stress-resilience benefit is not established
     presentation: phenome-relationship
     primary_phenome: Stress Resilience
-    finding_summary: 'Substrate-responsive glutathione synthesis is relevant to redox buffering, but none of the assessed studies tested Stress Resilience.'
-    finding_interpretation: Do not convert blood-cell synthesis changes or an ADHD homocysteine difference into a stress-resilience treatment claim.
-    finding_statement: The assessed human evidence does not demonstrate that glutathione synthesis capacity changes Stress Resilience.
+    finding_summary: >-
+      Substrate-responsive glutathione synthesis is relevant to redox buffering,
+      but none of the assessed studies tested Stress Resilience.
+    finding_interpretation: >-
+      Do not convert blood-cell synthesis changes or an ADHD homocysteine
+      difference into a stress-resilience treatment claim.
+    finding_statement: >-
+      The assessed human evidence does not demonstrate that glutathione
+      synthesis capacity changes Stress Resilience.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: Sulfur-amino-acid removal and older-adult precursor supplementation changed blood-cell glutathione synthesis. Neither study measured stress resilience. The paediatric ADHD biomarker study did not measure glutathione or stress resilience. The phenome link stays mechanistic and untested.
-    synthesis_limitations: Absence of a direct test is not evidence against a biological contribution. It does block treatment and dietary-advice claims.
+    synthesis: >-
+      Sulfur-amino-acid removal and older-adult precursor supplementation
+      changed blood-cell glutathione synthesis. Neither study measured stress
+      resilience. The paediatric ADHD biomarker study did not measure
+      glutathione or stress resilience. The phenome link stays mechanistic and
+      untested.
+    synthesis_limitations: >-
+      Absence of a direct test is not evidence against a biological
+      contribution. It does block treatment and dietary-advice claims.
     evidence_considered:
       - label: Sekhar et al. (2011)
         citation_key: sekhar_glutathione_2011
@@ -530,9 +970,13 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: supplemental-formulation
         evidence_source: repository-inherited
-        directional_finding: 'Older-adult erythrocyte glutathione synthesis rose after precursor supplementation, with no stress-resilience endpoint.'
+        directional_finding: >-
+          Older-adult erythrocyte glutathione synthesis rose after precursor
+          supplementation, with no stress-resilience endpoint.
         assessment:
-          study: Erythrocyte glutathione kinetics and plasma oxidative-stress markers.
+          study: >-
+            Erythrocyte glutathione kinetics and plasma oxidative-stress
+            markers.
           population: Eight older adults and eight younger adults.
           result: Erythrocyte synthesis changed. Stress resilience was not measured.
           effect_magnitude: No stress-resilience effect size.
@@ -543,16 +987,71 @@ scientific_findings:
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
         data_level: Human Study
         evidence_source: repository-inherited
-        directional_finding: 'The ADHD cohort difference was in homocysteine and vitamin B12, not glutathione synthesis or stress resilience.'
+        directional_finding: >-
+          The ADHD cohort difference was in homocysteine and vitamin B12, not
+          glutathione synthesis or stress resilience.
         assessment:
           study: Cross-sectional serum biomarkers in boys with and without ADHD.
           population: 133 boys aged 6.5–12.5 years.
-          result: Homocysteine and vitamin B12 differed. Stress resilience and glutathione were not endpoints.
+          result: >-
+            Homocysteine and vitamin B12 differed. Stress resilience and
+            glutathione were not endpoints.
           effect_magnitude: No stress-resilience or glutathione effect.
           evidence_summary: Does not test the phenome relationship.
           limitations: Cross-sectional paediatric biomarker study.
     evidence_dependency:
-      - Sekhar et al. (2011) is primary synthesis evidence in PM6-F2 and is reused here only for the missing stress-resilience endpoint. Lukovac et al. (2024) is also primary evidence in PM6-F3 and PM6-IC1.
+      - >-
+        Sekhar et al. (2011) is primary synthesis evidence in PM6-F2 and is
+        reused here only for the missing stress-resilience endpoint. Lukovac et
+        al. (2024) is also primary evidence in PM6-F3 and PM6-IC1.
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC2)
+      ikc_id: BRS2(KC2)
+      arm_id: methionine-cysteine-sulfur-amino-acid-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methionine and cysteine pool constrains
+        glutathione synthesis capacity.
+      disposition: established
+      applicability_mode: constrained-by
+      established_links:
+        - >-
+          Glutamate-cysteine ligase uses cysteine and ATP to form
+          γ-glutamylcysteine (PM6-F1).
+        - >-
+          A diet containing neither methionine nor cysteine slowed whole-blood
+          glutathione fractional and absolute synthesis in healthy young men,
+          while glycine intake was not reduced (PM6-F2).
+        - >-
+          With methionine held at an adequate intake, cysteine intakes from zero
+          upward did not change erythrocyte glutathione synthesis in young men
+          (PM6-F2).
+      inferred_links:
+        - Ordinary mixed diets are commonly short of this pool.
+        - >-
+          The same synthesis-rate change occurs in neurons or in clinical
+          populations.
+      evidence_source:
+        finding_ids:
+          - PM6-F1
+          - PM6-F2
+        citation_keys:
+          - lyons_glutathione_2000
+          - misra_human_gcl_1998
+          - courtney_martin_cysteine_2008
+      rationale: >-
+        KC2 applicability stays established because these sulfur-amino-acid
+        studies bear on glutathione synthesis. The public disclosure is
+        consolidated as a duplicate of PM6-DIT-1 and PM6-DIT-9. Lyons is
+        combined depletion. Courtney-Martin is the adequate-methionine boundary.
+        Neither study measures a competition, allocation, or other bottleneck
+        beyond that provision.
+    rationale: >-
+      Metadata migration only: preserve the established governs/constrained-by
+      interpretation as a typed Conditional constraint for FM summary
+      derivation. No stronger scientific admission.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

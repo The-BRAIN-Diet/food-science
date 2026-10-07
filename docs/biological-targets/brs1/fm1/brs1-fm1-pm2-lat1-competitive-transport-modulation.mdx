@@ -1,22 +1,39 @@
 ---
 title: LAT1 Competitive Transport Modulation
 pm_id: BRS1-FM1-PM2
-mission: Influence competition for transport across the blood–brain barrier so neurotransmitter precursors can reach the brain after meals.
+mission: >-
+  Influence competition for transport across the blood–brain barrier so
+  neurotransmitter precursors can reach the brain after meals.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
-summary: 'LAT1 is a shared transporter that carries tyrosine, tryptophan and other large neutral amino acids into the brain. Each one competes according to its level in the blood relative to the others. In healthy adults, carbohydrate-rich and protein-rich meals shift those blood ratios in different directions. Those ratios decide which precursors are favoured for brain entry.'
+summary: >-
+  LAT1 is a shared transporter that carries tyrosine, tryptophan and other large
+  neutral amino acids into the brain. Each one competes according to its level
+  in the blood relative to the others. In healthy adults, carbohydrate-rich and
+  protein-rich meals shift those blood ratios in different directions. Those
+  ratios decide which precursors are favoured for brain entry.
 key_constraints:
   - BRS1(KC1) - Amino Acid Quality & Competitive Balance
 cofactors: []
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: Pattern target rather than single nutrient threshold; depends on protein/carbohydrate composition
+dose_sensitivity: >-
+  Pattern target rather than single nutrient threshold; depends on
+  protein/carbohydrate composition
 dietary_addressability: direct
 claim_ceiling: modulation-demonstrated
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
-scientific_findings_intro: "Human meal studies show that carbohydrate-versus-protein composition changes circulating tryptophan-to-competing-amino-acid ratios, with reciprocal tyrosine-ratio changes also observed. [[3]](#pm-ref-3) [[2]](#pm-ref-2) Reviewed transporter evidence explains why these ratios matter for competitive brain entry. [[1]](#pm-ref-1) Together, the findings support meal-responsive precursor availability, while the meal studies stop at plasma measurements and do not establish changes in brain uptake, monoamine signalling or functional outcomes."
+scientific_findings_intro: >-
+  Human meal studies show that carbohydrate-versus-protein composition changes
+  circulating tryptophan-to-competing-amino-acid ratios, with reciprocal
+  tyrosine-ratio changes also observed. [[3]](#pm-ref-3) [[2]](#pm-ref-2)
+  Reviewed transporter evidence explains why these ratios matter for competitive
+  brain entry. [[1]](#pm-ref-1) Together, the findings support meal-responsive
+  precursor availability, while the meal studies stop at plasma measurements and
+  do not establish changes in brain uptake, monoamine signalling or functional
+  outcomes.
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
     input: Tyrosine
@@ -27,7 +44,9 @@ dietary_input_traceability:
         - PM2-F1
       citation_keys:
         - fernstrom_lnna_2013
-    evidence_limitation: Competitive transport biology does not establish that eating more tyrosine increases brain tyrosine or catecholamine signalling.
+    evidence_limitation: >-
+      Competitive transport biology does not establish that eating more tyrosine
+      increases brain tyrosine or catecholamine signalling.
   - atom_id: PM2-DIT-2
     input: Tryptophan
     input_type: substrate
@@ -40,11 +59,15 @@ dietary_input_traceability:
         - fernstrom_lnna_2013
         - wurtman_effects_2003
         - ashley_breakfast_1985
-    evidence_limitation: Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish increased brain serotonin or a clinical benefit.
+    evidence_limitation: >-
+      Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish
+      increased brain serotonin or a clinical benefit.
   - atom_id: PM2-DIT-3
     input: Meal carbohydrate-to-protein composition
     input_type: dietary pattern
-    biological_role: Regulates plasma tryptophan- and tyrosine-to-LNAA ratios at LAT1 after a meal
+    biological_role: >-
+      Regulates plasma tryptophan- and tyrosine-to-LNAA ratios at LAT1 after a
+      meal
     evidence_source:
       finding_ids:
         - PM2-F2
@@ -53,7 +76,9 @@ dietary_input_traceability:
         - ashley_breakfast_1985
         - wurtman_effects_2003
         - fernstrom_lnna_2013
-    evidence_limitation: 'Ordinary meals change plasma LNAA ratios. That is not measured brain transport, monoamine synthesis, or a Phenome or ADHD outcome.'
+    evidence_limitation: >-
+      Ordinary meals change plasma LNAA ratios. That is not measured brain
+      transport, monoamine synthesis, or a Phenome or ADHD outcome.
 dietary_lever_atoms:
   - atom_id: PM2-DIT-3
     requirement_classification: direct
@@ -64,25 +89,36 @@ dietary_lever_atoms:
   - atom_id: PM2-DIT-1
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Tyrosine is a LAT1 cargo amino acid in this PM. It is not a Direct Dietary Requirement to eat more tyrosine.
-    evidence_limitation: Competitive transport biology does not establish that eating more tyrosine increases brain tyrosine or catecholamine signalling.
+    permitted_wording: >-
+      Tyrosine is a LAT1 cargo amino acid in this PM. It is not a Direct Dietary
+      Requirement to eat more tyrosine.
+    evidence_limitation: >-
+      Competitive transport biology does not establish that eating more tyrosine
+      increases brain tyrosine or catecholamine signalling.
   - atom_id: PM2-DIT-2
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
-    permitted_wording: Tryptophan is a LAT1 cargo amino acid in this PM. Carbohydrate–protein meals can change its plasma ratio to competing LNAAs; that is not a serotonin-dosing rule.
-    evidence_limitation: Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish increased brain serotonin or a clinical benefit.
+    permitted_wording: >-
+      Tryptophan is a LAT1 cargo amino acid in this PM. Carbohydrate–protein
+      meals can change its plasma ratio to competing LNAAs; that is not a
+      serotonin-dosing rule.
+    evidence_limitation: >-
+      Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish
+      increased brain serotonin or a clinical benefit.
 dietary_lever_presentations:
   - atom_id: PM2-DIT-3
     label: Meal carbohydrate-to-protein composition
     presentation_section: 3.1.1
     reader_description: >-
-      Meal composition can shift the balance between neurotransmitter precursors and the other large
-      neutral amino acids competing for LAT1 transport. In the human meal studies reviewed here,
-      carbohydrate-rich meals increased the plasma tryptophan-to-competing-LNAA ratio, whereas
-      protein-rich meals reduced that ratio and increased the tyrosine ratio. The relevant dietary
-      variable is therefore the composition of the meal, rather than simply increasing precursor
-      intake. These findings demonstrate changes in circulating precursor ratios; they do not
-      establish an optimal meal ratio or a neurotransmitter or clinical effect.
+      Meal composition can shift the balance between neurotransmitter precursors
+      and the other large neutral amino acids competing for LAT1 transport. In
+      the human meal studies reviewed here, carbohydrate-rich meals increased
+      the plasma tryptophan-to-competing-LNAA ratio, whereas protein-rich meals
+      reduced that ratio and increased the tyrosine ratio. The relevant dietary
+      variable is therefore the composition of the meal, rather than simply
+      increasing precursor intake. These findings demonstrate changes in
+      circulating precursor ratios; they do not establish an optimal meal ratio
+      or a neurotransmitter or clinical effect.
     description_finding_id: PM2-F2
   - atom_id: PM2-DIT-1
     label: Tyrosine
@@ -93,7 +129,9 @@ dietary_lever_presentations:
 pm_kc_relationships:
   - relationship_id: BRS1-FM1-PM2-KCR-1
     kc_id: BRS1(KC1)
-    pm_biological_role: This PM governs meal-level LAT1 competitive balance among large neutral amino acids.
+    pm_biological_role: >-
+      This PM governs meal-level LAT1 competitive balance among large neutral
+      amino acids.
     evidence_source:
       finding_ids:
         - PM2-F1
@@ -102,18 +140,26 @@ pm_kc_relationships:
         - fernstrom_lnna_2013
         - ashley_breakfast_1985
         - wurtman_effects_2003
-    evidence_limitation: The competitive-balance mapping does not inherit KC1 quality-arm constituents or make those items Dietary Requirements of this PM. Quality-arm applicability is recorded separately as unassessed under Type D and is not decided by assessment ownership.
+    evidence_limitation: >-
+      Meal-level competitive precursor presentation is established; plasma
+      ratios are not regional brain signalling outcomes. The former broad
+      IAA-quality arm is archived as superseded scope and no KC nutrient list is
+      inherited.
+    relationship_type: conditional-constraint
+    legacy_relationship_mode: governs
 kc_applicability_adjudications:
   - kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     arm_id: competitive-lat1
     applicability_proposition: >-
-      This mechanism governs meal-level LAT1 competitive large-neutral-amino-acid
-      balance.
+      This mechanism governs meal-level LAT1 competitive
+      large-neutral-amino-acid balance.
     disposition: established
-    applicability_mode: governs
+    applicability_mode: conditional-constraint
     established_links:
-      - Meal-level LNAA competition at LAT1 is the state this PM governs (PM2-F1, PM2-F2).
+      - >-
+        Meal-level LNAA competition at LAT1 is the state this PM governs
+        (PM2-F1, PM2-F2).
     inferred_links: []
     evidence_source:
       finding_ids:
@@ -123,30 +169,8 @@ kc_applicability_adjudications:
         - fernstrom_lnna_2013
         - ashley_breakfast_1985
         - wurtman_effects_2003
-    rationale: >-
-      Type D is met in the governs mode. This does not decide the quality arm.
-  - kc_id: BRS1(KC1)
-    ikc_id: BRS1(KC1)
-    arm_id: amino-acid-quality
-    applicability_proposition: >-
-      Inadequacy of the shared indispensable-amino-acid quality pool can constrain
-      this mechanism’s governed LAT1 competitive-transport capacity.
-    disposition: unresolved
-    established_links:
-      - DIAAS and related scores measure digestible IAA adequacy for protein quality (FAO 2013; Mariotti 2019).
-      - LAT1 competition depends on the relative plasma LNAA mix (Fernstrom 2013).
-    inferred_links:
-      - Incomplete IAA quality would therefore change the LNAA mix and constrain transport capacity.
-    evidence_source:
-      citation_keys:
-        - fernstrom_lnna_2013
-        - fao_diaas_2013
-        - mariotti_dietary_2019
-    rationale: >-
-      Assessment was completed. Quality-scoring evidence does not measure LAT1
-      competition. Fernstrom’s competitive effects assume LNAAs are present; they
-      do not show that a DIAAS-type quality shortfall constrains transport capacity.
-      Ownership on PM1 does not decide this arm.
+    rationale: Type D is met in the governs mode. This does not decide the quality arm.
+    legacy_applicability_mode: governs
 kc_change_control_flags:
   - flag_id: KC-CC-BRS1-FM1-PM2-02
     flag_type: applicability-retest
@@ -164,7 +188,13 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Meal-level LNAA competition at LAT1 can shift plasma tyrosine and tryptophan ratios and, on review evidence, brain-entry bias {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}. The attached meal studies do not measure attention or ADHD outcomes, and transport modulation cannot substitute for substrate sufficiency or downstream signalling.'
+    rationale: >-
+      Meal-level LNAA competition at LAT1 can shift plasma tyrosine and
+      tryptophan ratios and, on review evidence, brain-entry bias
+      {{cite:fernstrom_lnna_2013,ashley_breakfast_1985,wurtman_effects_2003}}.
+      The attached meal studies do not measure attention or ADHD outcomes, and
+      transport modulation cannot substitute for substrate sufficiency or
+      downstream signalling.
     scientific_findings:
       - PM2-F1
       - PM2-F2
@@ -190,7 +220,11 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM.'
+    rationale: >-
+      Protein-forward meals can raise the plasma tyrosine ratio relative to
+      competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is
+      precursor-presentation bias, not a motivation, drive or ADHD outcome;
+      signalling belongs downstream of this PM.
     scientific_findings:
       - PM2-F1
       - PM2-F2
@@ -216,7 +250,12 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: 'Carbohydrate-rich versus protein-rich meals can change the plasma tryptophan-to-LNAA ratio {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}. Plasma-ratio change is not serotonin signalling or an emotional-regulation benefit.'
+    rationale: >-
+      Carbohydrate-rich versus protein-rich meals can change the plasma
+      tryptophan-to-LNAA ratio
+      {{cite:wurtman_effects_2003,ashley_breakfast_1985,fernstrom_lnna_2013}}.
+      Plasma-ratio change is not serotonin signalling or an emotional-regulation
+      benefit.
     scientific_findings:
       - PM2-F1
       - PM2-F2
@@ -241,37 +280,84 @@ phenome_relationships:
 scientific_findings:
   - id: PM2-F1
     finding_label: Large neutral amino acids compete at LAT1
-    finding_summary: 'Tyrosine, tryptophan and other large neutral amino acids share LAT1 at the blood–brain barrier. Relative plasma concentration, not the absolute amount of one amino acid, shapes which precursor is favoured for brain entry.'
-    finding_interpretation: This establishes competitive transport biology. It does not show that eating more tyrosine or tryptophan increases brain monoamines or improves function.
+    finding_summary: >-
+      Tyrosine, tryptophan and other large neutral amino acids share LAT1 at the
+      blood–brain barrier. Relative plasma concentration, not the absolute
+      amount of one amino acid, shapes which precursor is favoured for brain
+      entry.
+    finding_interpretation: >-
+      This establishes competitive transport biology. It does not show that
+      eating more tyrosine or tryptophan increases brain monoamines or improves
+      function.
     fm_rollup: true
-    finding_statement: 'Large neutral amino acids share LAT1-mediated blood–brain-barrier transport, so each precursor’s plasma concentration relative to competing LNAAs determines transport bias at a given meal.'
+    finding_statement: >-
+      Large neutral amino acids share LAT1-mediated blood–brain-barrier
+      transport, so each precursor’s plasma concentration relative to competing
+      LNAAs determines transport bias at a given meal.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Review evidence identifies LAT1 as a shared, saturable shuttle for tyrosine, tryptophan, phenylalanine and other LNAAs. Brain uptake tracks the plasma ratio of a given LNAA to the sum of its competitors. That competitive rule is the capacity this PM represents.'
-    synthesis_limitations: 'The synthesis is review-level rather than a new human transport experiment. It does not quantify everyday meal effects, measure neurotransmitter synthesis in the cited meal studies, or establish a clinical outcome.'
+    synthesis: >-
+      Review evidence identifies LAT1 as a shared, saturable shuttle for
+      tyrosine, tryptophan, phenylalanine and other LNAAs. Brain uptake tracks
+      the plasma ratio of a given LNAA to the sum of its competitors. That
+      competitive rule is the capacity this PM represents.
+    synthesis_limitations: >-
+      The synthesis is review-level rather than a new human transport
+      experiment. It does not quantify everyday meal effects, measure
+      neurotransmitter synthesis in the cited meal studies, or establish a
+      clinical outcome.
     evidence_considered:
       - label: Fernstrom (2013)
         citation_key: fernstrom_lnna_2013
         href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Dietary and plasma LNAA ratios influence LAT1-mediated brain uptake of tyrosine, tryptophan and related amino acids and can change precursor availability for neurotransmitter synthesis.'
+        directional_finding: >-
+          Dietary and plasma LNAA ratios influence LAT1-mediated brain uptake of
+          tyrosine, tryptophan and related amino acids and can change precursor
+          availability for neurotransmitter synthesis.
         assessment:
-          study: Narrative review of dietary LNAA effects on brain transport and neurochemistry.
-          population: Mixed human and experimental literature; not a single intervention sample.
-          result: Identified competitive LAT1 transport and plasma-ratio dependence as determinants of brain LNAA entry.
+          study: >-
+            Narrative review of dietary LNAA effects on brain transport and
+            neurochemistry.
+          population: >-
+            Mixed human and experimental literature; not a single intervention
+            sample.
+          result: >-
+            Identified competitive LAT1 transport and plasma-ratio dependence as
+            determinants of brain LNAA entry.
           effect_magnitude: No pooled meal-response effect estimate.
           evidence_summary: Establishes the shared-transporter rule that defines this PM.
-          limitations: Review synthesis; does not by itself demonstrate that ordinary meals change human brain monoamines or function.
+          limitations: >-
+            Review synthesis; does not by itself demonstrate that ordinary meals
+            change human brain monoamines or function.
     presentation: mechanistic-basis
   - id: PM2-F2
     finding_label: Ordinary meals shift plasma tryptophan and tyrosine ratios
-    finding_summary: 'In healthy adults, carbohydrate-rich versus protein-rich meals change plasma tryptophan-to-LNAA and tyrosine-to-LNAA ratios. The direction follows meal macronutrient structure, not total daily protein alone.'
-    finding_interpretation: This supports meal carbohydrate-to-protein composition as a dietary relationship with plasma LNAA ratios. It is not a serotonin- or dopamine-dosing rule or an ADHD treatment claim.
+    finding_summary: >-
+      In healthy adults, carbohydrate-rich versus protein-rich meals change
+      plasma tryptophan-to-LNAA and tyrosine-to-LNAA ratios. The direction
+      follows meal macronutrient structure, not total daily protein alone.
+    finding_interpretation: >-
+      This supports meal carbohydrate-to-protein composition as a dietary
+      relationship with plasma LNAA ratios. It is not a serotonin- or
+      dopamine-dosing rule or an ADHD treatment claim.
     fm_rollup: true
-    finding_statement: Carbohydrate-rich and protein-rich ordinary meals change plasma tryptophan and tyrosine ratios to competing LNAAs in healthy adults through meal-level macronutrient structure and insulin-mediated partitioning.
+    finding_statement: >-
+      Carbohydrate-rich and protein-rich ordinary meals change plasma tryptophan
+      and tyrosine ratios to competing LNAAs in healthy adults through
+      meal-level macronutrient structure and insulin-mediated partitioning.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'Two human meal studies show that breakfast or mixed-meal carbohydrate-versus-protein composition moves the plasma tryptophan-to-LNAA ratio, and the later study also shows a reciprocal tyrosine-ratio shift after protein-rich meals. Together they support meal-level competitive-balance modulation as a measurable human exposure, without measuring brain transport or monoamine signalling.'
-    synthesis_limitations: 'Small healthy-adult samples, plasma ratios only, and no brain, neurotransmitter or functional endpoint. The two studies are complementary meal designs, not independent replications of one protocol.'
+    synthesis: >-
+      Two human meal studies show that breakfast or mixed-meal
+      carbohydrate-versus-protein composition moves the plasma
+      tryptophan-to-LNAA ratio, and the later study also shows a reciprocal
+      tyrosine-ratio shift after protein-rich meals. Together they support
+      meal-level competitive-balance modulation as a measurable human exposure,
+      without measuring brain transport or monoamine signalling.
+    synthesis_limitations: >-
+      Small healthy-adult samples, plasma ratios only, and no brain,
+      neurotransmitter or functional endpoint. The two studies are complementary
+      meal designs, not independent replications of one protocol.
     evidence_considered:
       - label: Ashley et al. (1985)
         citation_key: ashley_breakfast_1985
@@ -279,39 +365,79 @@ scientific_findings:
         data_level: Human Mechanistic
         exposure_context: breakfast meal composition
         evidence_source: repository-inherited
-        directional_finding: Breakfast carbohydrate-versus-protein composition changed the plasma tryptophan-to-LNAA ratio in healthy lean young men.
+        directional_finding: >-
+          Breakfast carbohydrate-versus-protein composition changed the plasma
+          tryptophan-to-LNAA ratio in healthy lean young men.
         assessment:
-          study: Controlled breakfast-composition experiment measuring plasma tryptophan relative to competing large neutral amino acids.
+          study: >-
+            Controlled breakfast-composition experiment measuring plasma
+            tryptophan relative to competing large neutral amino acids.
           population: Healthy lean young men.
           result: Breakfast composition altered the plasma tryptophan-to-LNAA ratio.
           effect_magnitude: Directional meal contrast; no general clinical effect size.
-          evidence_summary: Shows that a single ordinary breakfast can move the tryptophan competitive ratio.
-          limitations: 'Plasma ratio only; no brain transport, serotonin or functional measure; young male sample.'
+          evidence_summary: >-
+            Shows that a single ordinary breakfast can move the tryptophan
+            competitive ratio.
+          limitations: >-
+            Plasma ratio only; no brain transport, serotonin or functional
+            measure; young male sample.
       - label: Wurtman et al. (2003)
         citation_key: wurtman_effects_2003
         href: /docs/papers/BRAIN-Diet-References#wurtman_effects_2003
         data_level: Human Mechanistic
         exposure_context: high-carbohydrate versus high-protein ordinary meals
         evidence_source: repository-inherited
-        directional_finding: Carbohydrate-rich meals increased the plasma tryptophan ratio and protein-rich meals reduced it while increasing the plasma tyrosine ratio.
+        directional_finding: >-
+          Carbohydrate-rich meals increased the plasma tryptophan ratio and
+          protein-rich meals reduced it while increasing the plasma tyrosine
+          ratio.
         assessment:
-          study: Controlled comparison of ordinary high-carbohydrate versus high-protein meals on plasma tryptophan and tyrosine ratios.
+          study: >-
+            Controlled comparison of ordinary high-carbohydrate versus
+            high-protein meals on plasma tryptophan and tyrosine ratios.
           population: Healthy adult volunteers.
-          result: Meal macronutrient structure shifted plasma tryptophan-to-LNAA and tyrosine-to-LNAA ratios in opposite directions.
+          result: >-
+            Meal macronutrient structure shifted plasma tryptophan-to-LNAA and
+            tyrosine-to-LNAA ratios in opposite directions.
           effect_magnitude: Directional meal contrast; no brain or clinical effect estimate.
-          evidence_summary: Extends breakfast-ratio evidence to mixed ordinary meals and to the tyrosine ratio.
-          limitations: 'Plasma ratios only; small healthy sample; no neurotransmitter, cognitive or clinical outcome.'
+          evidence_summary: >-
+            Extends breakfast-ratio evidence to mixed ordinary meals and to the
+            tyrosine ratio.
+          limitations: >-
+            Plasma ratios only; small healthy sample; no neurotransmitter,
+            cognitive or clinical outcome.
     evidence_dependency:
-      - 'Ashley et al. (1985) and Wurtman et al. (2003) both measure plasma LNAA ratios after macronutrient-defined meals in healthy adults. They are complementary designs, not two independent replications of one protocol.'
+      - >-
+        Ashley et al. (1985) and Wurtman et al. (2003) both measure plasma LNAA
+        ratios after macronutrient-defined meals in healthy adults. They are
+        complementary designs, not two independent replications of one protocol.
     presentation: mechanistic-basis
   - id: PM2-F3
     finding_label: Meal-level LNAA-ratio shifts do not establish Phenome or ADHD outcomes
-    finding_summary: 'The attached meal and transport evidence changes plasma precursor ratios. It does not show that those meals improve attention, motivation, emotional regulation or ADHD.'
-    finding_interpretation: Phenome mappings remain translational relationships. Precursor-loading or depletion cognition literature is a different exposure and must not be read as ordinary-meal LAT1 evidence.
-    finding_statement: 'Human meal-driven changes in plasma tryptophan or tyrosine ratios, and review-level LAT1 competition, do not establish attention, motivation, emotional-regulation or ADHD outcomes.'
+    finding_summary: >-
+      The attached meal and transport evidence changes plasma precursor ratios.
+      It does not show that those meals improve attention, motivation, emotional
+      regulation or ADHD.
+    finding_interpretation: >-
+      Phenome mappings remain translational relationships. Precursor-loading or
+      depletion cognition literature is a different exposure and must not be
+      read as ordinary-meal LAT1 evidence.
+    finding_statement: >-
+      Human meal-driven changes in plasma tryptophan or tyrosine ratios, and
+      review-level LAT1 competition, do not establish attention, motivation,
+      emotional-regulation or ADHD outcomes.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: Ashley and Wurtman establish plasma-ratio change. Fernstrom supports competitive brain-entry biology. Aquili reviews tryptophan and tyrosine effects on executive function and reward mainly through depletion and loading designs. Those literatures do not jointly demonstrate that ordinary carbohydrate–protein meals change a Phenome or an ADHD outcome via LAT1.
-    synthesis_limitations: 'No attached study measured a Phenome or ADHD endpoint after an ordinary meal. The relationship therefore remains mechanistic inference, not an outcome finding.'
+    synthesis: >-
+      Ashley and Wurtman establish plasma-ratio change. Fernstrom supports
+      competitive brain-entry biology. Aquili reviews tryptophan and tyrosine
+      effects on executive function and reward mainly through depletion and
+      loading designs. Those literatures do not jointly demonstrate that
+      ordinary carbohydrate–protein meals change a Phenome or an ADHD outcome
+      via LAT1.
+    synthesis_limitations: >-
+      No attached study measured a Phenome or ADHD endpoint after an ordinary
+      meal. The relationship therefore remains mechanistic inference, not an
+      outcome finding.
     evidence_considered:
       - label: Aquili (2020)
         citation_key: aquili_role_2020
@@ -319,68 +445,193 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: precursor depletion and loading
         evidence_source: repository-inherited
-        directional_finding: 'Tryptophan and tyrosine can modulate executive function and reward processing in reviewed experimental designs, largely through acute depletion or loading rather than ordinary meals.'
+        directional_finding: >-
+          Tryptophan and tyrosine can modulate executive function and reward
+          processing in reviewed experimental designs, largely through acute
+          depletion or loading rather than ordinary meals.
         assessment:
-          study: Narrative review of tryptophan and tyrosine in executive function and reward processing.
-          population: Mixed experimental and clinical literature; not an ordinary-meal LAT1 sample.
-          result: Precursor availability was linked to executive and reward measures in depletion and loading contexts.
+          study: >-
+            Narrative review of tryptophan and tyrosine in executive function
+            and reward processing.
+          population: >-
+            Mixed experimental and clinical literature; not an ordinary-meal
+            LAT1 sample.
+          result: >-
+            Precursor availability was linked to executive and reward measures
+            in depletion and loading contexts.
           effect_magnitude: No pooled ordinary-meal or ADHD effect estimate.
-          evidence_summary: 'Shows that precursor-manipulation studies exist, but they are the wrong construct for this PM’s meal-level LAT1 claim.'
-          limitations: Review-level; depletion and loading are not carbohydrate–protein meals and do not measure LAT1 transport.
+          evidence_summary: >-
+            Shows that precursor-manipulation studies exist, but they are the
+            wrong construct for this PM’s meal-level LAT1 claim.
+          limitations: >-
+            Review-level; depletion and loading are not carbohydrate–protein
+            meals and do not measure LAT1 transport.
     connected_supportive_evidence:
       - label: Ashley et al. (1985)
         citation_key: ashley_breakfast_1985
         href: /docs/papers/BRAIN-Diet-References#ashley_breakfast_1985
         data_level: Human Mechanistic
-        why_relevant: Demonstrates that breakfast composition changes the plasma tryptophan-to-LNAA ratio.
+        why_relevant: >-
+          Demonstrates that breakfast composition changes the plasma
+          tryptophan-to-LNAA ratio.
         why_excluded: 'No attention, emotional-regulation or ADHD outcome was measured.'
       - label: Wurtman et al. (2003)
         citation_key: wurtman_effects_2003
         href: /docs/papers/BRAIN-Diet-References#wurtman_effects_2003
         data_level: Human Mechanistic
-        why_relevant: Demonstrates that ordinary high-carbohydrate and high-protein meals move plasma tryptophan and tyrosine ratios.
+        why_relevant: >-
+          Demonstrates that ordinary high-carbohydrate and high-protein meals
+          move plasma tryptophan and tyrosine ratios.
         why_excluded: Plasma ratios are not Phenome or clinical endpoints.
       - label: Fernstrom (2013)
         citation_key: fernstrom_lnna_2013
         href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
         data_level: Mechanistic
         why_relevant: Frames why plasma LNAA ratios can change brain precursor entry.
-        why_excluded: 'Review of transport and neurochemistry, not a meal-to-Phenome or ADHD trial.'
+        why_excluded: >-
+          Review of transport and neurochemistry, not a meal-to-Phenome or ADHD
+          trial.
     presentation: phenome-relationship
     primary_phenome: Focus / Attention Stability
   - id: PM2-IC1
     finding_label: Plasma LNAA ratios are not monoamine dosing
-    finding_summary: 'A change in the plasma tryptophan or tyrosine ratio is not a measurement of brain LAT1 flux, neurotransmitter synthesis or a functional outcome.'
-    finding_interpretation: 'Read meal studies as plasma competitive-balance evidence. Do not restate them as serotonin, dopamine or ADHD effects.'
-    finding_statement: 'Plasma large-neutral-amino-acid ratio change after a meal is not equivalent to measured brain transport, monoamine synthesis or a Phenome outcome.'
+    finding_summary: >-
+      A change in the plasma tryptophan or tyrosine ratio is not a measurement
+      of brain LAT1 flux, neurotransmitter synthesis or a functional outcome.
+    finding_interpretation: >-
+      Read meal studies as plasma competitive-balance evidence. Do not restate
+      them as serotonin, dopamine or ADHD effects.
+    finding_statement: >-
+      Plasma large-neutral-amino-acid ratio change after a meal is not
+      equivalent to measured brain transport, monoamine synthesis or a Phenome
+      outcome.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: 'The human meal papers report circulating amino-acid ratios. The transport review explains why those ratios matter at LAT1. Neither layer substitutes for a brain-transport, synthesis-flux or outcome measure.'
-    synthesis_limitations: The constraint is interpretive. It does not deny that brain entry can follow plasma ratios; it denies treating the attached meal endpoints as if they were those later steps.
+    synthesis: >-
+      The human meal papers report circulating amino-acid ratios. The transport
+      review explains why those ratios matter at LAT1. Neither layer substitutes
+      for a brain-transport, synthesis-flux or outcome measure.
+    synthesis_limitations: >-
+      The constraint is interpretive. It does not deny that brain entry can
+      follow plasma ratios; it denies treating the attached meal endpoints as if
+      they were those later steps.
     evidence_considered:
       - label: Fernstrom (2013)
         citation_key: fernstrom_lnna_2013
         href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
         data_level: Mechanistic
         evidence_source: repository-inherited
-        directional_finding: 'Dietary LNAA patterns can change brain precursor availability, but plasma ratio, brain uptake and neurotransmitter synthesis are separable steps.'
+        directional_finding: >-
+          Dietary LNAA patterns can change brain precursor availability, but
+          plasma ratio, brain uptake and neurotransmitter synthesis are
+          separable steps.
         assessment:
-          study: 'Narrative review distinguishing plasma LNAA ratios, LAT1 transport and downstream neurochemistry.'
+          study: >-
+            Narrative review distinguishing plasma LNAA ratios, LAT1 transport
+            and downstream neurochemistry.
           population: Mixed mechanistic literature.
-          result: Supported competitive transport while keeping later neurochemical steps distinct.
+          result: >-
+            Supported competitive transport while keeping later neurochemical
+            steps distinct.
           effect_magnitude: No single-step effect estimate.
-          evidence_summary: Supplies the interpretive boundary between ratio change and monoamine effect.
+          evidence_summary: >-
+            Supplies the interpretive boundary between ratio change and
+            monoamine effect.
           limitations: Review-level; does not replace a human brain-transport experiment.
     evidence_dependency:
-      - 'Fernstrom (2013) is also primary Evidence Considered in PM2-F1. Reuse here is interpretive, not an independent replication of the transport rule.'
+      - >-
+        Fernstrom (2013) is also primary Evidence Considered in PM2-F1. Reuse
+        here is interpretive, not an independent replication of the transport
+        rule.
     presentation: interpretive-constraint
 references:
-  - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
-  - '[Wurtman et al. (2003) — Effects of Normal Meals Rich in Carbohydrates or Proteins on Plasma Tryptophan](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)'
-  - '[Ashley et al. (1985) — Breakfast Meal Composition Influences Plasma Tryptophan to Large Neutral Amino Acid Ratios](/docs/papers/BRAIN-Diet-References#ashley_breakfast_1985)'
-  - '[Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)'
-  - '[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)'
-  - '[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)'
+  - >-
+    [Fernstrom (2013) — LNAA Transport and Brain
+    Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+  - >-
+    [Wurtman et al. (2003) — Effects of Normal Meals Rich in Carbohydrates or
+    Proteins on Plasma
+    Tryptophan](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)
+  - >-
+    [Ashley et al. (1985) — Breakfast Meal Composition Influences Plasma
+    Tryptophan to Large Neutral Amino Acid
+    Ratios](/docs/papers/BRAIN-Diet-References#ashley_breakfast_1985)
+  - >-
+    [Aquili (2020) — Role of Tryptophan and Tyrosine in Executive Function and
+    Reward Processing](/docs/papers/BRAIN-Diet-References#aquili_role_2020)
+  - >-
+    [FAO (2013) — Dietary Protein Quality Evaluation in Human
+    Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+  - >-
+    [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian
+    Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 hide_title: true
+kc_adjudication_history:
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS1(KC1)
+      ikc_id: BRS1(KC1)
+      arm_id: amino-acid-quality
+      applicability_proposition: >-
+        Inadequacy of the shared indispensable-amino-acid quality pool can
+        constrain this mechanism’s governed LAT1 competitive-transport capacity.
+      disposition: unresolved
+      established_links:
+        - >-
+          DIAAS and related scores measure digestible IAA adequacy for protein
+          quality (FAO 2013; Mariotti 2019).
+        - >-
+          LAT1 competition depends on the relative plasma LNAA mix (Fernstrom
+          2013).
+      inferred_links:
+        - >-
+          Incomplete IAA quality would therefore change the LNAA mix and
+          constrain transport capacity.
+      evidence_source:
+        citation_keys:
+          - fernstrom_lnna_2013
+          - fao_diaas_2013
+          - mariotti_dietary_2019
+      rationale: >-
+        Assessment was completed. Quality-scoring evidence does not measure LAT1
+        competition. Fernstrom’s competitive effects assume LNAAs are present;
+        they do not show that a DIAAS-type quality shortfall constrains
+        transport capacity. Ownership on PM1 does not decide this arm.
+    rationale: >-
+      Superseded scope: this proposition concerns the former broad
+      indispensable-amino-acid quality arm. Current BRS1 KC1 is the
+      monoamine-precursor LNAA competitive pool. Archiving does not reject
+      general protein-quality biology or alter the separately assessed
+      competitive/supply decisions.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS1(KC1)
+      ikc_id: BRS1(KC1)
+      arm_id: competitive-lat1
+      applicability_proposition: >-
+        This mechanism governs meal-level LAT1 competitive
+        large-neutral-amino-acid balance.
+      disposition: established
+      applicability_mode: governs
+      established_links:
+        - >-
+          Meal-level LNAA competition at LAT1 is the state this PM governs
+          (PM2-F1, PM2-F2).
+      inferred_links: []
+      evidence_source:
+        finding_ids:
+          - PM2-F1
+          - PM2-F2
+        citation_keys:
+          - fernstrom_lnna_2013
+          - ashley_breakfast_1985
+          - wurtman_effects_2003
+      rationale: Type D is met in the governs mode. This does not decide the quality arm.
+    rationale: >-
+      Metadata migration only: preserve the established governs/constrained-by
+      interpretation as a typed Conditional constraint for FM summary
+      derivation. No stronger scientific admission.
+    review_record: system/kc-unresolved-decisions-reconciliation.md
 ---
 
 <p class="brs-pm-thumbnail-wrap">
