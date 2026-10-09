@@ -21,14 +21,6 @@ hide_title: true
 
 (Light–Dark Entrainment & Feeding-Time Synchronisation)
 
-## Rationale for inclusion as a distinct BRS-X
-
-Circadian regulation belongs in the framework as a distinct cross-system because it coordinates **when biological processes operate**. The central clock in the suprachiasmatic nucleus (SCN) responds to retinal light, while feeding time can influence peripheral metabolic timing. In healthy adults, delaying meals shifted glucose and adipose clock-gene timing without shifting melatonin or cortisol. This makes timing a distinct regulatory job that connects nutrition, metabolism and sleep rather than belonging wholly to any one of them [Wehrens et al., 2017].
-
-Food is therefore more than a source of nutrients: **when we eat can influence how the body processes it**. Supporting regulation is not simply a matter of increasing intake. Light exposure and meal timing provide different cues, so this BRS-X keeps their contributions separate [Gooley et al., 2011; Wehrens et al., 2017].
-
-Time-restricted feeding has produced metabolic protection in mice without reducing calories, supporting further investigation of timing alongside food quantity and composition [Hatori et al., 2012]. These findings do not establish that feeding windows reset every central and peripheral clock, or that they improve human neuroplasticity or extend lifespan. Human intervention findings must retain their measured outcomes and population boundaries.
-
 <!-- brs-hub-all-mechanisms:start -->
 <div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -99,6 +91,14 @@ Keeps the central clock in step with the light–dark cycle, and peripheral meta
 ## Ambition
 
 Keep retinal light and feeding time as separate timing cues, so the central clock and peripheral metabolic clocks can be described without treating cortisol output, sleep duration, or a metabolic benefit as the same result.
+
+## Rationale for inclusion as a distinct BRS-X
+
+Circadian regulation belongs in the framework as a distinct cross-system because it coordinates **when biological processes operate**. The central clock in the suprachiasmatic nucleus (SCN) responds to retinal light, while feeding time can influence peripheral metabolic timing. In healthy adults, delaying meals shifted glucose and adipose clock-gene timing without shifting melatonin or cortisol. This makes timing a distinct regulatory job that connects nutrition, metabolism and sleep rather than belonging wholly to any one of them [Wehrens et al., 2017].
+
+Food is therefore more than a source of nutrients: **when we eat can influence how the body processes it**. Supporting regulation is not simply a matter of increasing intake. Light exposure and meal timing provide different cues, so this BRS-X keeps their contributions separate [Gooley et al., 2011; Wehrens et al., 2017].
+
+Time-restricted feeding has produced metabolic protection in mice without reducing calories, supporting further investigation of timing alongside food quantity and composition [Hatori et al., 2012]. These findings do not establish that feeding windows reset every central and peripheral clock, or that they improve human neuroplasticity or extend lifespan. Human intervention findings must retain their measured outcomes and population boundaries.
 
 ## Therapeutic Area Research
 
