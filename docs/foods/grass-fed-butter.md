@@ -70,6 +70,18 @@ nutrition_supplementary_sources:
       Grass-Fed Butter is a documented dietary source of menaquinones (vitamin
       K2). USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2
       quantity is not established here.
+substance_relationships:
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Preformed vitamin A (retinol and retinyl esters)
+    process: Oxidation to retinal, then to retinoic acid
+    description: >-
+      This page uses the unsalted-butter panel, 684 µg RAE vitamin A per 100 g,
+      not a separate grass-fed vitamin A assay. The dominant precursor is
+      preformed vitamin A. The food is not recorded as containing retinoic acid.
+    citation_keys:
+      - duester_retinoic_acid_2008
+      - harrison_vitamin_a_absorption_2012
 ---
 ## Overview
 

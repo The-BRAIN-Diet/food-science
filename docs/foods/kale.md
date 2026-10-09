@@ -95,6 +95,17 @@ substance_relationships:
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Beta-carotene
+    process: Cleavage to retinal, then oxidation to retinoic acid
+    description: >-
+      Raw kale records 2,873 µg beta-carotene and 241 µg RAE vitamin A per
+      100 g. The dominant precursor is beta-carotene. The food is not recorded
+      as containing retinoic acid.
+    citation_keys:
+      - harrison_vitamin_a_absorption_2012
+      - duester_retinoic_acid_2008
 ---
 ## Overview
 

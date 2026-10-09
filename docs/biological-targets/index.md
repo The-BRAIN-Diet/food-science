@@ -121,13 +121,22 @@ Whole-body regulation: stress allocation, autonomic tone, hormonal coordination,
       />
     </p>
   </a>
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/brs-x/circadian/brs-x-circadian">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg"
+        alt="BRS-X(Circadian) — Circadian Rhythm Regulation"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
 </div>
 
 ### [BRS-X - Cross-System Regulation](/docs/biological-targets/cross-system-regulation)
 
 Some biological systems operate across multiple BRSs simultaneously and cannot be accurately represented within a single domain.
 
-**BRS-X** systems capture these cross-system regulatory networks. They function as higher-order signalling architectures that influence multiple BRSs concurrently and provide important integration layers within the wider framework — spanning domains such as endocannabinoid and hormone signalling.
+**BRS-X** systems capture these cross-system regulatory networks. They function as higher-order signalling architectures that influence multiple BRSs concurrently and provide important integration layers within the wider framework — spanning domains such as endocannabinoid signalling, hormone signalling, and circadian rhythm regulation.
 
 ## Each BRS System features
 

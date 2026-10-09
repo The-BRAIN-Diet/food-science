@@ -122,28 +122,6 @@ export const BRS6_PM_PHENOME = {
       ],
     }),
   ],
-  "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment": [
-    row({
-      target_phenome: "Sleep / Calming Tone",
-      relationship_type: "indirect",
-      confidence: "low-medium",
-      evidence_confidence: "low",
-      evidence_level: "observational",
-      rationale:
-        "Altered morning cortisol patterns in youths with ADHD implicate circadian entrainment of HPA rhythm — indirect sleep/calming framing through feeding–light timing as modifiable entrainment levers without ADHD sleep-outcome trials in the hub set.",
-      references: [ref(1, "Chang et al. (2021)", "chang_cortisol_2021")],
-    }),
-    row({
-      target_phenome: "Stress Resilience",
-      relationship_type: "indirect",
-      confidence: "low-medium",
-      evidence_confidence: "low",
-      evidence_level: "observational",
-      rationale:
-        "Circadian-aligned feeding and light–dark cues may stabilise cortisol rhythm dysregulation reported in ADHD youth — indirect stress-resilience translation from HPA meta-analytic patterns.",
-      references: [ref(1, "Chang et al. (2021)", "chang_cortisol_2021")],
-    }),
-  ],
   "brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery": [
     row({
       target_phenome: "Stress Reactivity",

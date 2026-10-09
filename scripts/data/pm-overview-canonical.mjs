@@ -437,17 +437,6 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Drifts in amplitude and phase when daily cues become inconsistent.",
     ],
   },
-  "brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx": {
-    mission:
-      "Ensure feeding and light exposure stay aligned with circadian rhythms across the 24-hour cycle.",
-    translational:
-      "Aligns feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms (entrainment, the process by which external cues synchronise internal biological clocks) across the 24-hour cycle. This mechanism provides the timing scaffold that cortisol rhythm regulation and broader metabolic cycling depend on, rather than governing hormone output directly. Irregular meal timing or mistimed light exposure can desynchronise this scaffold even when nutrient quality itself remains adequate.",
-    bullets: [
-      "Synchronises feeding, light exposure, and sleep with circadian rhythms.",
-      "Provides the timing scaffold that cortisol regulation depends on.",
-      "Can desynchronise from irregular meal timing even with adequate nutrition.",
-    ],
-  },
   "brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx": {
     mission:
       "Maintain autonomic flexibility by shifting cleanly from sympathetic activation back into parasympathetic recovery.",

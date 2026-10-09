@@ -74,3 +74,34 @@ test('already promoted legacy PM3 group uses section-1 numbering without a new d
  assert.match(rendered,/3.1.3/);
  assert.equal(pm.data.intervention_dominance,'Diet-Supported');
 });
+
+test('every canonical PM uses section-1 numbering after the actual shared transform', () => {
+ const files = dir => fs.readdirSync(dir, {withFileTypes:true}).flatMap(entry => entry.isDirectory() ? files(path.join(dir,entry.name)) : [path.join(dir,entry.name)]);
+ const nodeText = node => node.value || (node.children || []).map(nodeText).join('');
+ let checked = 0, promoted = 0;
+ for (const file of files(path.join(root,'docs/biological-targets')).filter(file => /\.mdx?$/.test(file))) {
+  const page = matter(fs.readFileSync(file,'utf8'));
+  if (!page.data.pm_id) continue;
+  const before = JSON.stringify(page.data);
+  const tree = createProcessor().parse(page.content);
+  layout.applyLeverLayout(tree,page.data);
+  let section = null;
+  for (const node of tree.children) {
+   if (node.type === 'heading' && node.depth === 2) section = nodeText(node).match(/^(\d+)\./)?.[1] || null;
+   if (section !== '1') continue;
+   const visit = current => {
+    if (current.name === 'summary' || current.name === 'button') {
+     const label = nodeText(current).trim();
+     assert.doesNotMatch(label,/^3\.1(?:\.[123])?\s/,`${page.data.pm_id}: ${label}`);
+     if (/^1\.\d+\s+(Dietary Requirements|System Optimisation Practices|Lifestyle Levers)$/.test(label)) promoted++;
+    }
+    for (const child of current.children || []) visit(child);
+   };
+   visit(node);
+  }
+  assert.equal(JSON.stringify(page.data),before,`${page.data.pm_id}: scientific records changed`);
+  checked++;
+ }
+ assert.ok(checked >= 60,`Only ${checked} PMs checked`);
+ assert.ok(promoted > 0,'No section-1 groups exercised');
+});

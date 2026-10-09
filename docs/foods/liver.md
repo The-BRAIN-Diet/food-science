@@ -88,6 +88,17 @@ substance_relationships:
       Cystine 376 mg per 100 g of Beef, variety meats and by-products, liver,
       raw (FDC 169451). A 113 g (4 oz) portion is about 425 mg. Composition
       only; not a glutathione-synthesis result.
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Preformed vitamin A (retinol and retinyl esters)
+    process: Oxidation to retinal, then to retinoic acid
+    description: >-
+      Beef liver records 4,968 µg RAE vitamin A per 100 g, with 232 µg
+      beta-carotene. The dominant precursor is preformed vitamin A. The food
+      is not recorded as containing retinoic acid.
+    citation_keys:
+      - duester_retinoic_acid_2008
+      - harrison_vitamin_a_absorption_2012
 ---
 ## Overview
 

@@ -92,8 +92,6 @@ export const MECHANISM_FUNCTIONAL_DESCRIPTORS = {
     "(Helping the Body Clear Sugar Efficiently)",
   "brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx":
     "(Keeping the Daily Cortisol Curve Healthy)",
-  "brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx":
-    "(Aligning Meals With Body-Clock Rhythms)",
   "brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx":
     "(Recovery After Fight-or-Flight Activation)",
   "brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx":

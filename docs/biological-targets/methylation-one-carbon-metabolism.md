@@ -720,3 +720,25 @@ Specific Mechanisms (SMs) are interpretation layers — context-specific reading
 ## Future development {#future-development}
 
 One-carbon metabolism also contributes to nucleotide synthesis and the maintenance of DNA synthesis and repair. These functions are biologically relevant to cellular renewal and genomic stability but are not represented by dedicated Primary Mechanisms within Version 1.0. Their relationship with the existing BRS2 architecture and connected phenomic domains will be evaluated in a future framework revision.
+
+## References
+
+[1] Lukovac et al. (2024). [Serum Biomarker Analysis in Pediatric ADHD: Implications of Homocysteine, Vitamin B12, Vitamin D, Ferritin, and Iron Levels](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024). Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some pediatric ADHD cohorts, although findings remain heterogeneous across studies.
+
+[2] Razavinia et al. (2024). [Vitamins B9 and B12 in children with attention deficit hyperactivity disorder (ADHD)](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024). Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micronutrient disturbance.
+
+[3] Meng et al. (2022). [Association between MTHFR (677C>T and 1298A>C) polymorphisms and psychiatric disorder: A meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022). MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed no consistent ADHD association in the same analysis.
+
+[4] Wang et al. (2019). [Dietary Profiles, Nutritional Biochemistry Status, and Attention-Deficit/Hyperactivity Disorder: Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019). Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis.
+
+[5] Millichap & Yee (2012). [The Diet Factor in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012). Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms.
+
+[6] Derbyshire & Maes (2023). [The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023). Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways.
+
+[7] Johansson et al. (2013). [Decreased binding capacity (B max) of muscarinic acetylcholine receptors in fibroblasts from boys with attention-deficit/hyperactivity disorder (ADHD)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013). Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology.
+
+[8] Chiang et al. (1996). [S-Adenosylmethionine and methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996). Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.
+
+[9] Kennedy et al. (2016). [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016). Reviews B-vitamin involvement in one-carbon metabolism and brain function; it does not establish a clinical BRS2 → BRS1 effect.
+
+[10] Kumar et al. (2017). [The transsulfuration pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017). Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.

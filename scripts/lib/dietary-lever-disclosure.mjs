@@ -106,6 +106,11 @@ export function buildDietaryLeverDisclosureMap(data) {
     );
     map.set(key, {
       title: resolved.input,
+      identityStatus: (data.dietary_input_traceability || []).find(row => String(row.atom_id) === String(pres.atom_id))?.canonical_identity?.status,
+      inputHref: (() => {
+        const identity = (data.dietary_input_traceability || []).find(row => String(row.atom_id) === String(pres.atom_id))?.canonical_identity;
+        return identity?.status === "resolved" ? identity.substance_href : undefined;
+      })(),
       inputType: formatInputTypeLabel(resolved.input_type),
       biologicalRole: resolved.biological_role,
       evidenceLimitation: String(limitation).trim(),
@@ -142,7 +147,9 @@ export function buildDietaryLeverDisclosureMap(data) {
         evidenceLimitation: String(row.evidence_limitation || "").trim(),
         evidenceReferences: evidenceSourceReferences(data, row.evidence_source),
         compactQualifier: "",
-        presentationSection: "3.1.3",
+        presentationSection: section,
+        readerDescription: String(row.reader_description || "").trim(),
+        supportingFinding: supportingFindingLink(data, row.description_finding_id),
       });
     }
   }

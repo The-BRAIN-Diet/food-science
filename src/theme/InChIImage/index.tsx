@@ -8,6 +8,8 @@ interface InChIImageProps {
   className?: string
   style?: React.CSSProperties
   fallback?: string
+  /** PubChem PNG pixel size, for example "720x720". List thumbnails omit this. */
+  imageSize?: string
 }
 
 // Global cache for CID lookups and image format to avoid repeated API calls
@@ -43,11 +45,20 @@ async function processQueue() {
  * First gets the CID from InChIKey (with caching), then tries PNG first,
  * falling back to SVG if PNG fails. Falls back to a default image if both fail.
  */
+function pubchemImageUrl(cid: number, format: "PNG" | "SVG", imageSize?: string): string {
+  const base = `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cid}/${format}`
+  if (format === "PNG" && imageSize) {
+    return `${base}?image_size=${encodeURIComponent(imageSize)}`
+  }
+  return base
+}
+
 export default function InChIImage({
   inchikey,
   className = "",
   style,
   fallback,
+  imageSize,
 }: InChIImageProps): React.ReactElement {
   const [imageUrl, setImageUrl] = useState<string | null>(null)
   const [imageError, setImageError] = useState<boolean>(false)
@@ -68,7 +79,7 @@ export default function InChIImage({
     // Check cache first
     const cached = cidCache.get(inchikey)
     if (cached) {
-      const imageUrl = `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cached.cid}/${cached.format}`
+      const imageUrl = pubchemImageUrl(cached.cid, cached.format, imageSize)
       if (mountedRef.current) {
         setImageUrl(imageUrl)
       }
@@ -119,7 +130,7 @@ export default function InChIImage({
           
           // Try PNG first, then fall back to SVG if PNG fails
           const tryImageFormat = async (format: 'PNG' | 'SVG'): Promise<boolean> => {
-            const imageUrl = `https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/${cid}/${format}`
+            const imageUrl = pubchemImageUrl(cid, format, imageSize)
             
             try {
               const imageController = new AbortController()
@@ -225,7 +236,7 @@ export default function InChIImage({
     return () => {
       mountedRef.current = false
     }
-  }, [inchikey])
+  }, [inchikey, imageSize])
 
   // No InChIKey provided or error occurred, use fallback
   if (!inchikey || imageError) {

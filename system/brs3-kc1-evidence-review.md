@@ -207,3 +207,54 @@ one 65–90-word paragraph and exactly three distinct cited bullets. All page
 citation keys resolve to existing bibliography records. Focused governance,
 bibliography, mechanism-page and build checks are recorded in the completion
 handoff.
+
+## 7 October 2026 — current constituent-identity reconciliation
+
+This addendum supersedes the earlier **iKC definition** paragraph calling the whole pool a single iKC and the earlier instruction against declaring individual registrations. Historical evidence decisions are retained; existing PM records are not silently migrated.
+
+### Governing conflict and resolution
+
+`kc-page-evidence-review-contract.md` §2 retains the legacy sentence “Until `individual_key_constraints` is declared, the page is one iKC whose `ikc_id` equals `kc_id`.” Current `key-constraint-schema.md` **Canonical constituent iKC identity**, and Stage 2B **Canonical iKC identity and PM-specific upstream supply**, define an iKC as an individually registered constituent with verified substance identity and expressly preserve legacy pool/arm references. Apply that explicit migration rule: register the two admitted members and retain `BRS3(KC1)` as a documented legacy pool reference. No new constraint, parallel registry or PM admission is created. The older contract describes the unmigrated state; its pool terminology must not be used for new constituent identities.
+
+### Evidence verified
+
+Rechecked Sekhar et al. (2011), DOI 10.3945/ajcn.110.003483, PMID **21795440**, against the primary publication's Methods, Discussion and PubMed abstract/Figure 1. Full-page opening was blocked at PMC/publisher, but the primary publisher's indexed Methods and PMC Discussion were retrieved by targeted search:
+
+- Methods, **Metabolic study protocol**: eight adults aged 60–75 and eight younger adults aged 30–40. Only older participants received 14 days of glycine (1.33 mmol/kg/day) plus cysteine provision **as N-acetylcysteine** (0.81 mmol/kg/day), while retaining habitual diets. This was a before/after supplementation comparison, not a randomised placebo-controlled treatment trial.
+- Stable-isotope glycine tracing measured red-cell glutathione fractional and absolute synthesis; intracellular precursor/GSH concentrations and plasma oxidative-stress/damage markers were also measured. Figure 1 presents GSH concentration and synthesis results.
+- Discussion attributes reduced precursor availability potentially to protein turnover or endogenous synthesis; the underlying cause remains unestablished. Do not turn lower intracellular pools into proof of inadequate food intake.
+- Combined treatment supports a bounded shared precursor-supply limitation and membership of cysteine and glycine. It does not isolate either constituent's causal effect, prove an ordinary-food equivalent, measure brain synthesis, or show that every BRS3 PM is constrained. N-acetylcysteine is the administered source, not an automatically admitted additional pool member.
+
+Primary links: [publication](https://ajcn.nutrition.org/article/S0002-9165%2823%2902430-9/fulltext), [PubMed](https://pubmed.ncbi.nlm.nih.gov/21795440/), [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3155927/).
+
+### Constituent and identity decisions
+
+| Candidate | Pool membership | Canonical identity / registration | Boundary |
+| --- | --- | --- | --- |
+| Cysteine | Retained | `cysteine`; `BRS3-KC1-KIT-1` reused as membership ID; actual page `id: cysteine` verified | Biological substrate; treatment supplied it as NAC together with glycine; no isolated effect. |
+| Glycine | Retained | `glycine`; `BRS3-KC1-KIT-2` reused as membership ID; actual page `id: glycine` verified | Same combined experiment; no universal dietary shortage. |
+| Glutamate | Excluded, retained audit atom KIT-3 | No constituent registration | Biochemical GSH participant does not establish nutritional pool limitation. |
+| Polyphenols | Excluded, retained audit atom KIT-4 | No constituent registration | Pattern exposure does not establish this precursor membership. |
+| Vitamin C | Excluded, retained audit atom KIT-5 | No constituent registration | Redox partner rather than a member of this defined precursor pool. |
+
+**MAJOR identity flag discovered and repaired:** Cysteine had a canonical page with an explicit ID, but no `registry/substances.json` entry. Checked the entire registry for cysteine/glycine names and aliases and verified both page front matters. Added only the missing cysteine registration using the existing registry entry shape/path-inference conventions (`scripts/sync_substances.py`); did not run its global sync or change either substance page. Glycine's existing registry entry was retained. Both identities now resolve; no outstanding identity blocker.
+
+Existing Sekhar bibliography entry contained the wrong PMID and author names for Patel/Reid. Corrected to 21795440, Sanjeet G. Patel and Marvin Reid, preserving its citation key and unrelated bibliography edits.
+
+### Public and projection result
+
+Pool name/ambition remain Glutathione Precursor Sufficiency. Existing cysteine/glycine five-atom disclosures now carry combined-treatment, NAC, red-cell, study-design and inference limitations. Summary remains one paragraph plus three boundary bullets. Connected-mechanism links remain proposed biological scope, with an explicit public caveat that they do not establish constraint applicability to every linked PM.
+
+`ikc_identity_version: constituent-v2` registers KIT-1 and KIT-2. `legacy_ikc_references` retains whole-pool `BRS3(KC1)` for old PM/audit records. Excluded atoms retain legacy provenance and never become registered constituents. Matrix projections still require independently admitted PM constituent records; a focused test confirms membership alone projects **zero** supply relationships. PM decisions and FM roll-ups are unchanged.
+
+### Verification and stopping point
+
+- `node --test scripts/brs3-kc1-reconciliation.test.mjs scripts/kc-evidence-governance.test.mjs scripts/kc1-fm1-constituent-projection.test.mjs`: **25/25 passed**. Actual KC identity/evidence validator passed; existing BRS2 matrix tests passed.
+- Actual KC1 MDX compiled with `@mdx-js/mdx` successfully.
+- Live localhost page verified: cysteine focus reveals Input → Input type → Biological role → Evidence source → Limitation; clicking opens its detailed panel; keyboard Enter opens glycine; the Sekhar reference links point to the canonical bibliography key; glycine's substance link uses its verified destination. Summary shows the amended measured-endpoint and treatment boundaries.
+- Site-wide `validate-mechanism-pages.mjs` remains failing on prior issues; comparison against the previous validation log found **zero introduced issues**. KC public-copy checks pass. Existing BRS3 PM2/PM4 missing Sekhar audit references, legacy PM heading warnings and FM1 KC-union warning remain for the next steps. No full production build/deployment performed.
+- `git diff --check` passed.
+
+Files changed in this reconciliation: this report, BRS3 KC1 canonical MDX, `registry/substances.json`, the existing Sekhar entry in `static/bibtex/BRAIN-diet.bib`, and `scripts/brs3-kc1-reconciliation.test.mjs`.
+
+**Next actions:** individually assess PM1 onward using Supported upstream supply versus Conditional constraint and the accepted pool definition. Food-composition work remains separate: cysteine/cystine measurement identity and preparation/comparison units must be preserved; no source ranking is authorised by this KC review. Update FM summaries only after child-PM adjudication. Stop this KC-page pass here.

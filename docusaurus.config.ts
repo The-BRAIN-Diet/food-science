@@ -109,6 +109,7 @@ const brsOverviewDocIds = new Set([
   'biological-targets/cross-system-regulation',
   'biological-targets/brs-x/ecs/brs-x-ecs',
   'biological-targets/brs-x/hormones/brs-x-hormones',
+  'biological-targets/brs-x/circadian/brs-x-circadian',
 ]);
 
 function removeDuplicateBrsOverviewDocs(items: any[]): any[] {
@@ -148,10 +149,16 @@ function isHiddenSidebarItem(item: any): boolean {
   ];
 
 
+  const redirectDocIds = new Set([
+    'biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment',
+  ]);
   const docId =
     (item.type === 'doc' && item.id) ||
     (item.type === 'link' && item.docId) ||
     (item.type === 'category' && item.link?.id);
+  if (typeof docId === 'string' && redirectDocIds.has(docId)) {
+    return true;
+  }
   if (
     typeof docId === 'string' &&
     hiddenPrefixes.some((prefix) => docId === prefix || docId.startsWith(`${prefix}/`))
@@ -416,7 +423,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation', from: '/docs/biological-targets/brs5/fm3/brs5-fm3-pm1-vagal-ens-signalling-modulation' },
           { to: '/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability', from: '/docs/biological-targets/brs5/fm3/brs5-fm3-pm2-neurotransmitter-precursor-biotransformation-and-availability' },
           { to: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation', from: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm1-cortisol-rhythm-regulation' },
-          { to: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment', from: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm2-circadian-feeding-and-light-dark-entrainment' },
+          { to: '/docs/biological-targets/brs-x/circadian/brs-x-circadian', from: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm2-circadian-feeding-and-light-dark-entrainment' },
           { to: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery', from: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm1-sympathetic-activation-and-parasympathetic-recovery' },
           { to: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation', from: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm2-vagal-tone-hrv-regulation' },
           { to: '/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling', from: '/docs/biological-targets/brs6/fm4/brs6-fm4-pm1-metabolic-inflammation-and-adipose-stress-signalling' },
@@ -466,7 +473,7 @@ const config: Config = {
           { to: '/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation', from: '/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation' },
           { to: '/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal', from: '/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal' },
           { to: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation', from: '/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation' },
-          { to: '/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment', from: '/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment' },
+          { to: '/docs/biological-targets/brs-x/circadian/brs-x-circadian', from: '/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment' },
           { to: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery', from: '/docs/biological-targets/brs6/pm/brs6-pm6-sympathetic-activation-and-parasympathetic-recovery' },
           { to: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation', from: '/docs/biological-targets/brs6/pm/brs6-pm7-vagal-tone-hrv-regulation' },
           { to: '/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling', from: '/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling' },

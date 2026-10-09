@@ -531,6 +531,31 @@ Dedicated Stage 2A then Stage 2B for BRS3-FM1-PM1, PM2, BRS3-FM2-PM3, PM5, PM6, 
 
 Phenome confidence values were not rescored. Two rationales were corrected where they stated the wrong fact: PM2 no longer says propionate stimulates norepinephrine, and PM5 no longer treats malondialdehyde or lutein as the vitamin E result. PM1 lifestyle dominance and the PM2 fibre and butyrate admissions were withdrawn because the cited papers do not measure the governed step. PM5 and PM6 no longer publish the historical Antioxidant Substrate Sufficiency card; BRS3(KC1) stays unresolved. PM4’s `targeted-retrieval` finding check remains a pre-existing failure.
 
+### CC-BRS5-FM1-PM2-2A-2B-20261007 — endotoxin exposure narrowed; no dietary requirement admitted
+
+**Status:** implemented on the PM page. Parent FM roll-up not yet rewritten.
+
+BRS5-FM1-PM2 now follows circulating lipopolysaccharide. Inherited fibre, polyphenol, fermented-food, ultra-processed-food, cofactor, preparation, and sleep claims are withdrawn. BRS5(KC1) applicability stays unresolved, with public copy “No mapping established.” Diet-Dominant is replaced by Diet-Supported and no principal route. Phenome scores were not rescored; rationales now say the cited studies do not measure lipopolysaccharide. Intestinal alkaline phosphatase remains unresolved and is not on the public page. See `system/brs5-fm1-pm2-stage2a-report.md` and `system/brs5-fm1-pm2-stage2b-report.md`.
+
 ### CC-BRS5-FM1-PM3-OVERVIEW-20261005 — practical reader orientation
 
 User-authorised authoring correction: Overview explains purpose, health significance and implementation context. Default bullets are Benefits, Implementation Notes and Biological Relevance; omit/combine/substitute when relevant supported points are unavailable and record the reason. Technical boundaries and measurement distinctions belong in §4. Reconciled primary-mechanism-schema.md and mechanism-page-section-prose.md; replaced the obsolete ecological PM3 example. Only PM3’s current Overview and boundary placement were revised. Scientific Findings, mission, five-atom inputs, dominance, KCs and phenome records are preserved. No other PM migration.
+
+
+## ECS/Hormones Stage 2A/2B — 2026-10-09
+
+Canonical identities and missions retained pending scope review; no parent or phenome uplift.
+
+- **BRS-X(ECS-PM1)** — Whether orally supplied PE/NAPE reaches the relevant neural precursor pool and changes its production; choline participation in other phospholipids does not resolve this link. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(ECS-PM2)** — ALA-to-EPA/DHA-to-neural ethanolamide supply was not established as a PM-specific dietary relationship; no automatic ALA admission. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(ECS-PM3)** — Food-level genistein exposure to relevant neural FAAH inhibition and signal duration is unestablished. Probiotic serum FAAH concentration is not a brain enzyme-activity assay. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(ECS-PM4)** — Dietary precursor status to this specific circuit response remains unresolved; shared lipid supply is not independent evidence of a food intervention. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(ECS-PM5)** — The mission’s neuroinflammatory component lacks a separately extracted causal endpoint in this pass. Ordinary-food stress-buffering claims remain unresolved. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM1)** — A diet or practice influencing the stated neural signalling endpoint has not been established; soy cognitive null results do not negate estrogen receptor biology. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM2)** — Defined dietary substrate or practice to relevant glucuronidase conversion and systemic recycling remains unresolved; generic fermentable-fibre sufficiency is not selective enzyme evidence. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM3)** — The demonstrated process is progestin production, not progesterone stability. Canonical fermentable-fibre members to converter-accessible hydrogen and the hormonal endpoint need separate adjudication. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM4)** — The dietary trial did not establish insulin mediation or superior reproductive hormone concentrations; broader reproductive and neural benefit is unestablished. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM5)** — Receptor response and motivation were not established. Zinc supply is not an androgen-receptor catalytic cofactor, and sleep restoration efficacy was not tested. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+- **BRS-X(Hormones-PM6)** — The local-to-circulating androgen link and exposure-specific microbial control remain unresolved; reverse-direction hormone experiments do not close that gap. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
+
+Inherited intervention qualifications without a current qualifying route require separate label reconciliation. Hub food/KC lists and parent claims were not silently propagated or updated.

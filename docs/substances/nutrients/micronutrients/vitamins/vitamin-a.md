@@ -18,7 +18,7 @@ inchi_image: /img/inchi/FPIPGXGPPPQFEQ-OVSJKPMPSA-N.png
 
 ## Overview
 
-Vitamin A is a fat-soluble vitamin that exists in two main forms: preformed vitamin A (retinoids) from animal sources and provitamin A carotenoids (like β-carotene) from plant sources. Vitamin A is essential for vision, immune function, and neurodevelopment. Provitamin A carotenoids also function as antioxidants in neural tissue, contributing to the antioxidant network that protects brain cells from oxidative damage. The absorption of carotenoids is significantly enhanced when consumed with dietary fats, making food pairing important for maximizing bioavailability.
+Vitamin A is a fat-soluble vitamin that exists in two main forms: preformed vitamin A (retinoids) from animal sources and provitamin A carotenoids (like β-carotene) from plant sources. The body can oxidise those precursors to [retinoic acid](/docs/substances/nutrients/micronutrients/vitamins/retinoic-acid); the foods do not store that acid. Vitamin A is essential for vision, immune function, and neurodevelopment. Provitamin A carotenoids also function as antioxidants in neural tissue, contributing to the antioxidant network that protects brain cells from oxidative damage. The absorption of carotenoids is significantly enhanced when consumed with dietary fats, making food pairing important for maximizing bioavailability.
 
 ## Recipes
 

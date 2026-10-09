@@ -1,0 +1,120 @@
+{
+  "pages": [
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "entityId": "BRS5-FM1-PM1",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "entityId": "BRS5-FM1-PM2",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "entityId": "BRS5-FM1-PM3",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "entityId": "BRS5-FM2-PM4",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "entityId": "BRS5-FM2-PM5",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "entityId": "BRS5-FM2-PM6",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "entityId": "BRS5-FM3-PM7",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "entityId": "BRS5-FM3-PM8",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "entityId": "BRS6-FM1-PM1",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "entityId": "BRS6-FM1-PM2",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "entityId": "BRS6-FM1-PM3",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+      "entityId": "BRS6-FM2-PM4",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "entityId": "BRS6-FM3-PM6",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "entityId": "BRS6-FM3-PM7",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+      "entityId": "BRS6-FM4-PM8",
+      "ok": true,
+      "issues": []
+    },
+    {
+      "kind": "pm",
+      "filePath": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+      "entityId": "BRS6-FM4-PM9",
+      "ok": true,
+      "issues": []
+    }
+  ],
+  "findingsIssues": [],
+  "all16MdxCompiled": true,
+  "globalFailurePages": 49,
+  "globalIssues": 69
+}

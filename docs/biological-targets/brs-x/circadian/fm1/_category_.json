@@ -1,0 +1,10 @@
+{
+  "label": "BRS-X(Circadian-FM1) - Light and Feeding Zeitgeber Entrainment",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment"
+  },
+  "collapsed": true,
+  "collapsible": true
+}

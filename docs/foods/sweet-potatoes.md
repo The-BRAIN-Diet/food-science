@@ -65,6 +65,18 @@ nutrition_supplementary_sources:
 main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 legacy_list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
+substance_relationships:
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Beta-carotene
+    process: Cleavage to retinal, then oxidation to retinoic acid
+    description: >-
+      Raw sweet potato records 8,509 µg beta-carotene and 709 µg RAE vitamin A
+      per 100 g. The dominant precursor is beta-carotene. The food is not
+      recorded as containing retinoic acid.
+    citation_keys:
+      - harrison_vitamin_a_absorption_2012
+      - duester_retinoic_acid_2008
 ---
 ## Overview
 

@@ -178,21 +178,23 @@ export default function DocItemContent({children}: Props): ReactNode {
         !ionNotation &&
         (!isMineralSubstanceDoc || allowMineralInchi) &&
         (inchiImage || inchikey) && (
-        <p className="substance-structure-wrap">
+        <div className="food-page-hero-wrap">
           {inchiImage ? (
             <img
               src={inchiImage}
               alt={`${metadata.title} structure`}
-              className="substance-structure-inline"
+              className="food-page-hero substance-page-hero substance-structure-hero"
             />
           ) : (
             <InChIImage
               inchikey={inchikey ?? undefined}
               fallback={fallbackInchiImage ?? undefined}
-              className="substance-structure-inline"
+              className="food-page-hero substance-page-hero substance-structure-hero"
+              imageSize="720x720"
+              style={{width: "auto", height: "auto"}}
             />
           )}
-        </p>
+        </div>
       )}
 
         <MDXContent>{children}</MDXContent>

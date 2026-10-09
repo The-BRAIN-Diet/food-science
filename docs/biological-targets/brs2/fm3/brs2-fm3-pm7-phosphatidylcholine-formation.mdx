@@ -2,19 +2,19 @@
 title: Phosphatidylcholine Formation
 pm_id: BRS2-FM3-PM7
 mission: >-
-  Maintain hepatic methylation that converts phosphatidylethanolamine into
-  phosphatidylcholine.
+  Maintain phosphatidylcholine formation through PEMT methylation and the
+  choline-based Kennedy pathway.
 parent_fm: BRS2(FM3)
 parent_brs: BRS2
 evidence_status: stage-2b-dietary-addressability
 mechanistic_authoring_required: false
 summary: >-
-  In the liver, phosphatidylethanolamine N-methyltransferase converts
-  phosphatidylethanolamine into phosphatidylcholine by three methyl transfers
-  from S-adenosylmethionine. S-adenosylhomocysteine, the product, can regulate
-  that activity. SAMe and phosphatidylethanolamine are the substrates. The
-  CDP-choline route uses choline and does not perform these methylations. The
-  liver uses this reaction when the choline-based route is unavailable.
+  Cells form phosphatidylcholine through distinct routes: hepatic PEMT
+  methylates phosphatidylethanolamine using SAMe, while the Kennedy pathway
+  combines choline-derived phosphocholine with CTP and then diacylglycerol.
+  Uridine can contribute upstream to nucleotide supply. These routes support
+  membrane phospholipid provision; precursor availability does not establish
+  that extra intake increases human membrane synthesis or improves cognition.
 intervention_dominance: Diet-Supported
 intervention_dominance_assessment:
   evidence_qualification:
@@ -108,23 +108,35 @@ kc_applicability_adjudications:
     disposition: unresolved
     established_links:
       - >-
-        Dietary methionine changed hepatic SAM and PC:PE with choline maintained
-        (PM7-F6).
-      - MAT1A deletion reduced measured PEMT activity in young mice (PM7-F6).
+        Dietary methionine supplies the upstream MAT/SAM route used by PEMT
+        (PM7-F1/F6). This supported chain is not rejected for being upstream.
       - >-
-        Sugiyama 1998 primary abstract: three methionine levels (2.5, 4.5, 7.5
-        g/kg), 14-day rat feeding, with/without eritadenine; hepatic SAM and
-        PC:PE changed. Lowest intake is not established as inadequate here.
+        Shimada 2003 Table 4 separates methionine-associated phospholipid
+        changes from cystine-associated growth rescue with choline held
+        constant; PC:PE and SAM concentrations are not PEMT flux.
       - >-
-        Cano 2011 indexed primary abstract and prior canonical appraisal
-        supports lower PEMT synthesis in young MAT1A-knockout mice; genetic
-        SAM-synthesis impairment is not demonstrated inadequacy of the
-        methionine–cysteine pool.
+        Asiriwardhana 2025 Figure 4C measures dietary methionine-dependent
+        methyl incorporation into hepatic PC in neonatal piglets; cysteine was
+        held constant. This closes the concentration-only endpoint gap.
+      - >-
+        Robinson 2016 primary abstract reports higher hepatic PC synthesis and
+        lower creatine synthesis after donor removal with methionine restricted
+        in both groups. Allocation is context-dependent, not uniform
+        suppression.
+      - >-
+        Sugiyama 1995 primary abstract reports that eritadenine did not directly
+        inhibit PEMT in the assay; the 1998 inhibitor comparison is not a
+        selective PEMT blockade.
+      - >-
+        Cano 2011 indexed primary results and prior appraisal support altered
+        PEMT activity after MAT1A deletion. Genetic SAM-production impairment is
+        not dietary sulfur-pool inadequacy.
     inferred_links:
       - >-
-        Dietary-study methods establishing an inadequacy/imbalance context and a
-        distinct sulfur-pool limitation, with inhibitor specificity, cysteine
-        contribution and compensation assessed.
+        Whether methionine–cysteine pool availability creates a separately
+        supported allocation, competition or other constraint on PEMT beyond the
+        documented methionine-to-SAM provision job. Cysteine compensation and
+        the relevant context remain unestablished for this proposition.
     evidence_source:
       finding_ids:
         - PM7-F1
@@ -133,15 +145,23 @@ kc_applicability_adjudications:
         - sugiyama_methionine_pe_1998
         - shimada_methionine_desaturase_2003
         - cano_mat1a_vldl_2011
+        - sugiyama_eritadenine_phospholipid_1995
+        - robinson_methyl_donors_partitioning_2016
+        - asiriwardhana_methionine_transmethylation_2025
     rationale: >-
-      Retain unresolved after triangulation. No human or absolute-flux gate: the
-      gap concerns the named dietary exposure and distinct limitation, not the
-      existence of SAM-dependent PEMT chemistry.
+      Retain the specified conditional-constraint proposition unresolved, while
+      recognising supported upstream methionine provision and measured
+      nutritional effects on methyl incorporation into PC. No human, universal
+      deficiency or absolute-flux gate is imposed. Provision evidence does not
+      by itself establish a distinct shared sulfur-pool bottleneck; donor
+      restriction can redistribute synthesis rather than lower PC synthesis.
     evidence_gap: >-
-      Dietary-study methods establishing an inadequacy/imbalance context and a
-      distinct sulfur-pool limitation, with inhibitor specificity, cysteine
-      contribution and compensation assessed.
-    review_record: system/kc-unresolved-decisions-reconciliation.md
+      Evidence linking the named methionine–cysteine pool, including cysteine
+      compensation where relevant, to a constraint beyond methionine/SAM
+      provision in a specified context. Sugiyama 1998 full methods and Cano 2011
+      full assay methods remain inaccessible in this pass; neither access gap is
+      treated as proof of non-applicability.
+    review_record: system/brs2-fm3-pm7-kc2-focused-reassessment.md
 references:
   - >-
     [Vance (2014) — Physiological Roles of Phosphatidylethanolamine
@@ -188,6 +208,31 @@ references:
   - >-
     [Cano et al. (2011) — MAT1A Loss and PEMT
     Activity](/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011)
+  - >-
+    [Sugiyama et al. (1995) — Eritadenine and Hepatic Phospholipid
+    Metabolism](/docs/papers/BRAIN-Diet-References#sugiyama_eritadenine_phospholipid_1995)
+  - >-
+    [Robinson et al. (2016) — Methionine Partitioning under Methyl-Donor
+    Restriction](/docs/papers/BRAIN-Diet-References#robinson_methyl_donors_partitioning_2016)
+  - >-
+    [Asiriwardhana et al. (2025) — Dietary Methionine and Transmethylated
+    Products](/docs/papers/BRAIN-Diet-References#asiriwardhana_methionine_transmethylation_2025)
+  - >-
+    [Ulus et al. (2006) — Cytidine and Uridine Increase Striatal CDP-Choline
+    Levels Without Decreasing Acetylcholine Synthesis or
+    Release](/docs/papers/BRAIN-Diet-References#ulus_uridine_cdp_choline_2006)
+  - >-
+    [Cansev et al. (2005) — Oral uridine-5-monophosphate (UMP) increases brain
+    CDP-choline levels in
+    gerbils](/docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005)
+  - >-
+    [Agarwal et al. (2010) — Short-term administration of uridine increases
+    brain membrane phospholipid precursors in healthy
+    adults](/docs/papers/BRAIN-Diet-References#agarwal_uridine_mrs_2010)
+  - >-
+    [Wurtman et al. (2006) — Synaptic proteins and phospholipids are increased
+    in gerbil brain by administering uridine plus docosahexaenoic acid
+    orally](/docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -387,6 +432,89 @@ dietary_input_traceability:
     kc_id: BRS2(KC1)
     ikc_id: BRS2-KC1-KIT-3
     relationship_type: conditional-constraint
+  - atom_id: PM7-DIT-7
+    input: Uridine
+    input_type: precursor
+    biological_role: >-
+      Uridine can be converted through nucleotide metabolism into CTP, which
+      helps form the CDP-choline used to build phosphatidylcholine.
+    evidence_source:
+      finding_ids:
+        - PM7-F8
+      citation_keys:
+        - ulus_uridine_cdp_choline_2006
+        - cansev_ump_cdp_choline_2005
+        - wurtman_uridine_dha_phospholipids_2006
+    evidence_limitation: >-
+      Uridine is a supported precursor source, not an indispensable dietary
+      requirement: endogenous nucleotide synthesis and salvage also supply CTP.
+      Rat-slice and oral-UMP gerbil results do not establish an ordinary-food
+      dose, increased human PC flux or cognitive benefit; human MRS measures
+      precursor pools.
+    canonical_identity:
+      status: missing-substance
+      severity: MAJOR
+  - atom_id: PM7-DIT-8
+    input: Cytidine triphosphate (CTP)
+    input_type: substrate
+    biological_role: CTP reacts with phosphocholine to form CDP-choline in the Kennedy pathway.
+    evidence_source:
+      finding_ids:
+        - PM7-F8
+      citation_keys:
+        - ulus_uridine_cdp_choline_2006
+        - cansev_ump_cdp_choline_2005
+        - wurtman_uridine_dha_phospholipids_2006
+    evidence_limitation: >-
+      This intracellular reaction participant is not a requirement to consume
+      CTP. Nucleotide synthesis and salvage can supply it; more precursor does
+      not establish greater human PC flux.
+    canonical_identity:
+      status: missing-substance
+      severity: MAJOR
+  - atom_id: PM7-DIT-9
+    input: Diacylglycerol (DAG)
+    input_type: substrate
+    biological_role: >-
+      Diacylglycerol receives the phosphocholine group from CDP-choline to form
+      phosphatidylcholine.
+    evidence_source:
+      finding_ids:
+        - PM7-F8
+      citation_keys:
+        - ulus_uridine_cdp_choline_2006
+        - cansev_ump_cdp_choline_2005
+        - wurtman_uridine_dha_phospholipids_2006
+    evidence_limitation: >-
+      DAG is an intracellular substrate pool with varied fatty-acid composition,
+      not a dietary DAG target or a DHA-specific requirement.
+    canonical_identity:
+      status: missing-substance
+      severity: MAJOR
+  - atom_id: PM7-DIT-10
+    input: Choline
+    input_type: substrate
+    biological_role: >-
+      Choline is phosphorylated to phosphocholine, the choline-containing
+      precursor used by the Kennedy pathway.
+    evidence_source:
+      finding_ids:
+        - PM7-F8
+      citation_keys:
+        - ulus_uridine_cdp_choline_2006
+        - cansev_ump_cdp_choline_2005
+    evidence_limitation: >-
+      This reaction role is separate from choline methyl-donor provision to
+      PEMT. It does not establish that extra choline increases brain PC
+      synthesis.
+    substance_id: choline
+    canonical_identity:
+      status: resolved
+      substance_id: choline
+      substance_href: /docs/substances/bioactive-compounds/choline-methylation/choline
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/choline-methylation/choline.md
 dietary_lever_atoms:
   - atom_id: PM7-DIT-5
     relationship_layer: kc-relevance
@@ -442,6 +570,48 @@ dietary_lever_atoms:
     evidence_limitation: >-
       Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
       ordinary-food equivalence or benefit.
+  - atom_id: PM7-DIT-7
+    relationship_layer: dietary-requirement
+    claim_ceiling: dietary-provision
+    requirement_classification: direct
+    relationship_mode: capacity-requirement
+    dietary_addressability: direct
+    permitted_wording: >-
+      Uridine can be converted through nucleotide metabolism into CTP, which
+      helps form the CDP-choline used to build phosphatidylcholine.
+    evidence_limitation: >-
+      Uridine is a supported precursor source, not an indispensable dietary
+      requirement: endogenous nucleotide synthesis and salvage also supply CTP.
+      Rat-slice and oral-UMP gerbil results do not establish an ordinary-food
+      dose, increased human PC flux or cognitive benefit; human MRS measures
+      precursor pools.
+  - atom_id: PM7-DIT-8
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: CTP reacts with phosphocholine to form CDP-choline in the Kennedy pathway.
+    evidence_limitation: >-
+      This intracellular reaction participant is not a requirement to consume
+      CTP. Nucleotide synthesis and salvage can supply it; more precursor does
+      not establish greater human PC flux.
+  - atom_id: PM7-DIT-9
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Diacylglycerol receives the phosphocholine group from CDP-choline to form
+      phosphatidylcholine.
+    evidence_limitation: >-
+      DAG is an intracellular substrate pool with varied fatty-acid composition,
+      not a dietary DAG target or a DHA-specific requirement.
+  - atom_id: PM7-DIT-10
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Choline is phosphorylated to phosphocholine, the choline-containing
+      precursor used by the Kennedy pathway.
+    evidence_limitation: >-
+      This reaction role is separate from choline methyl-donor provision to
+      PEMT. It does not establish that extra choline increases brain PC
+      synthesis.
 dietary_lever_presentations:
   - atom_id: PM7-DIT-1
     label: Phosphatidylethanolamine
@@ -473,6 +643,32 @@ dietary_lever_presentations:
       Dietary phosphatidylcholine can provide choline for its methyl-donor
       provision relationship to PEMT-dependent formation.
     description_finding_id: PM7-F7
+  - atom_id: PM7-DIT-7
+    label: Uridine
+    presentation_section: 3.1.1
+    reader_description: >-
+      Uridine can be converted through nucleotide metabolism into CTP, which
+      helps form the CDP-choline used to build phosphatidylcholine.
+    description_finding_id: PM7-F8
+  - atom_id: PM7-DIT-8
+    label: Cytidine triphosphate (CTP)
+    presentation_section: 3.1.2
+    reader_description: CTP reacts with phosphocholine to form CDP-choline in the Kennedy pathway.
+    description_finding_id: PM7-F8
+  - atom_id: PM7-DIT-9
+    label: Diacylglycerol (DAG)
+    presentation_section: 3.1.2
+    reader_description: >-
+      Diacylglycerol receives the phosphocholine group from CDP-choline to form
+      phosphatidylcholine.
+    description_finding_id: PM7-F8
+  - atom_id: PM7-DIT-10
+    label: Choline
+    presentation_section: 3.1.2
+    reader_description: >-
+      Choline is phosphorylated to phosphocholine, the choline-containing
+      precursor used by the Kennedy pathway.
+    description_finding_id: PM7-F8
 scientific_findings_intro: >-
   Enzyme localisation, mutagenesis and kinetic evidence establishes
   PEMT-mediated phosphatidylcholine formation and regulation by its substrates
@@ -483,7 +679,13 @@ scientific_findings_intro: >-
   identifies methyl-derived phosphatidylcholine separately from intact-headgroup
   incorporation, supporting provision without establishing indispensable
   dependence, increased absolute hepatic flux or brain benefit.
-  [[10]](#pm-ref-10)
+  [[10]](#pm-ref-10) Kennedy-pathway studies add a separate nucleotide-provision
+  chain: uridine increased CDP-choline formation in rat slices, and oral UMP
+  increased brain precursor pools in gerbils. [[19]](#pm-ref-19)
+  [[20]](#pm-ref-20) Human MRS provides connected precursor-pool evidence rather
+  than proof of PC synthesis or benefit. [[21]](#pm-ref-21) A longer gerbil
+  study measured PC abundance after dietary UMP, a stronger lipid endpoint than
+  precursor pools, but not a human flux or benefit result. [[22]](#pm-ref-22)
 scientific_findings:
   - id: PM7-F1
     finding_label: PEMT methylates phosphatidylethanolamine to phosphatidylcholine
@@ -1042,31 +1244,35 @@ scientific_findings:
             Supplement rescue does not establish ordinary betaine deficiency;
             assay details and ethanol context limit attribution.
   - id: PM7-F6
-    finding_label: Methionine evidence leaves the dietary constraint unresolved
+    finding_label: >-
+      Methionine supports PC methylation; the shared-pool constraint remains
+      unresolved
     presentation: mechanistic-basis
     fm_rollup: false
     finding_summary: >-
-      Dietary methionine affects hepatic SAM and phospholipid measurements in
-      rats, but the evidence reviewed does not establish sulfur-amino-acid
-      inadequacy as a constraint on this formation capacity.
+      Dietary methionine supplies the SAM-dependent PC methylation route. Piglet
+      tracing measures nutritional effects on methyl incorporation into PC, but
+      does not establish a distinct methionine–cysteine pool bottleneck.
     finding_interpretation: >-
-      No human trial, numeric deficiency threshold or single end-to-end assay is
-      required. Indirect dietary outcomes and genetic perturbation do not yet
-      resolve exposure attribution.
+      Substrate provision, synthesis allocation and a separately limiting pool
+      are different claims. Neonatal feeding and genetic findings do not
+      establish adult intake benefits or cysteine-specific effects.
     finding_statement: >-
-      Dietary methionine affects hepatic SAM and phospholipid measurements in
-      rats, but the evidence reviewed does not establish sulfur-amino-acid
-      inadequacy as a constraint on this formation capacity.
+      Dietary methionine supplies the SAM-dependent PC methylation route. Piglet
+      tracing measures nutritional effects on methyl incorporation into PC, but
+      does not establish a distinct methionine–cysteine pool bottleneck.
     synthesised_evidence_confidence: not-yet-scored
     synthesis: >-
-      Dietary intervention and inhibitor comparisons support more than precursor
-      proximity. Upstream enzyme loss separately changes PEMT activity. The
-      remaining inference connects dietary inadequacy to the governed formation
-      capacity.
+      Rat phospholipid measurements support the upstream supply route. New
+      piglet tracer evidence moves beyond concentration endpoints, while donor
+      restriction can redistribute methyl use toward PC. MAT1A impairment
+      separately affects PEMT activity. These findings do not yet establish the
+      proposed shared sulfur-pool constraint beyond provision.
     synthesis_limitations: >-
-      No human trial, numeric deficiency threshold or single end-to-end assay is
-      required. Indirect dietary outcomes and genetic perturbation do not yet
-      resolve exposure attribution.
+      No universal human or absolute-flux threshold applies. Neonatal diet
+      composition, competing methyl demands and pathway compensation bound the
+      inference; neither shared pool limitation nor benefit from extra adult
+      intake follows automatically.
     evidence_considered:
       - label: Sugiyama et al. (1998)
         citation_key: sugiyama_methionine_pe_1998
@@ -1091,8 +1297,10 @@ scientific_findings:
             Dietary and inhibitor perturbations are consistent with altered PE
             methylation.
           limitations: >-
-            PC:PE is not synthesis rate. Intake adequacy and inhibitor
-            specificity need full-method appraisal.
+            PC:PE is not synthesis rate. Full intake-adequacy methods were not
+            obtained. The 1995 primary abstract shows eritadenine is not a
+            direct PEMT inhibitor, so its lipid effects are not selective
+            enzyme-blockade evidence.
       - label: Shimada et al. (2003)
         citation_key: shimada_methionine_desaturase_2003
         href: /docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003
@@ -1107,8 +1315,9 @@ scientific_findings:
             experiments; choline held constant. Primary full text assessed.
           population: Male Wistar rats; six groups of eight per experiment.
           result: >-
-            Methionine raised SAM and PC:PE; cystine had little or no comparable
-            effect; glycine attenuated responses.
+            Methionine raised SAM and PC:PE. Table 4 shows cystine rescued
+            growth without the corresponding PC/PE change; glycine attenuated
+            methionine-associated lipid responses.
           effect_magnitude: >-
             Choline bitartrate 0.25 g/100 g diet; methionine 0.43%, cystine
             0.34% supplements.
@@ -1116,9 +1325,10 @@ scientific_findings:
             Methionine-specific dietary effects were separable from choline
             removal.
           limitations: >-
-            Lipid ratios and desaturase endpoints remain indirect; SAM responses
-            were not uniformly monotonic. Cystine non-equivalence does not
-            establish KC non-application.
+            Rat SAM concentrations, phospholipid pools and desaturase
+            measurements do not measure PEMT flux. Growth rescue is not
+            interchangeable with methyl provision; non-monotonic SAM responses
+            suggest compensation.
       - label: Cano et al. (2011)
         citation_key: cano_mat1a_vldl_2011
         href: /docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011
@@ -1127,8 +1337,8 @@ scientific_findings:
         directional_finding: Upstream enzyme impairment affected measured PEMT activity.
         assessment:
           study: >-
-            Genetic upstream impairment; indexed primary results and radiometric
-            assay description assessed.
+            Indexed primary results and prior canonical appraisal of MAT1A
+            knockout; full assay methods could not be retrieved in this pass.
           population: Three- and eight-month-old wild-type and MAT1A-knockout mice.
           result: >-
             PEMT activity decreased in young knockouts; older animals showed a
@@ -1140,6 +1350,77 @@ scientific_findings:
           limitations: >-
             Genetic loss changes expression and metabolism; it does not isolate
             dietary methionine inadequacy or cysteine sparing.
+      - label: Sugiyama et al. (1995)
+        citation_key: sugiyama_eritadenine_phospholipid_1995
+        href: >-
+          /docs/papers/BRAIN-Diet-References#sugiyama_eritadenine_phospholipid_1995
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Eritadenine reduced labelled methionine incorporation into PC without
+          direct PEMT inhibition in the assay.
+        assessment:
+          study: Primary publisher abstract; full methods not obtained.
+          population: Rats.
+          result: >-
+            Eritadenine reduced labelled methionine incorporation into PC
+            without direct PEMT inhibition in the assay.
+          effect_magnitude: 200 micromol/kg diet in the tracer comparison.
+          evidence_summary: >-
+            Eritadenine reduced labelled methionine incorporation into PC
+            without direct PEMT inhibition in the assay.
+          limitations: >-
+            SAH accumulation and a lower SAM:SAH ratio accompanied the effect;
+            not a selective PEMT probe.
+      - label: Robinson et al. (2016)
+        citation_key: robinson_methyl_donors_partitioning_2016
+        href: >-
+          /docs/papers/BRAIN-Diet-References#robinson_methyl_donors_partitioning_2016
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          PC synthesis rose while creatine synthesis fell under donor
+          restriction.
+        assessment:
+          study: >-
+            Primary abstract; donor-deficient versus sufficient feeding,
+            followed by methionine restriction in both groups.
+          population: Neonatal piglets; 8 deficient and 7 sufficient.
+          result: >-
+            PC synthesis rose while creatine synthesis fell under donor
+            restriction.
+          effect_magnitude: PC +60%; creatine -30%; methionine 80% of requirement.
+          evidence_summary: >-
+            PC synthesis rose while creatine synthesis fell under donor
+            restriction.
+          limitations: >-
+            Combined donor exposure; not isolated methionine/cysteine effects,
+            adult biology or uniform PC suppression.
+      - label: Asiriwardhana et al. (2025)
+        citation_key: asiriwardhana_methionine_transmethylation_2025
+        href: >-
+          /docs/papers/BRAIN-Diet-References#asiriwardhana_methionine_transmethylation_2025
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Methyl-tracer incorporation into hepatic PC increased with dietary
+          methionine.
+        assessment:
+          study: >-
+            Primary full XML; Methods and Figure 4C. Each pig received one
+            methionine dose for 48 hours.
+          population: 20 neonatal Yucatan piglets.
+          result: >-
+            Methyl-tracer incorporation into hepatic PC increased with dietary
+            methionine.
+          effect_magnitude: '20–220% of estimated requirement; linear r2=0.53, P<0.0003.'
+          evidence_summary: >-
+            Methyl-tracer incorporation into hepatic PC increased with dietary
+            methionine.
+          limitations: >-
+            Cysteine fixed; no added free choline, but lipid emulsion supplied
+            PC. Total Kennedy/PEMT flux and cysteine sparing were not
+            independently determined. No adult dose or benefit inference.
   - id: PM7-F7
     finding_label: Dietary choline forms supply methyl groups to the PEMT route
     presentation: mechanistic-basis
@@ -1183,6 +1464,124 @@ scientific_findings:
             D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM
             intermediates and hepatic origin are mechanistically attributed, not
             directly measured here.
+  - id: PM7-F8
+    finding_label: Uridine supplies nucleotide precursors for the Kennedy pathway
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Uridine can contribute to CTP and CDP-choline supply for the Kennedy route
+      of phosphatidylcholine formation.
+    finding_statement: >-
+      Uridine can contribute to CTP and CDP-choline supply for the Kennedy route
+      of phosphatidylcholine formation.
+    finding_interpretation: >-
+      The supported precursor chain is distinct from PEMT; dietary provision
+      does not establish indispensability, increased human PC flux or cognitive
+      benefit.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Rat-slice CDP-choline formation and oral-UMP gerbil precursor measurements
+      support nucleotide provision. Human MRS is connected evidence for
+      phospholipid precursor responses, not direct confirmation of PC synthesis.
+      A four-week gerbil experiment also measured increased PC abundance with
+      UMP alone on a choline-containing diet, extending support beyond precursor
+      pools without establishing human synthesis flux.
+    synthesis_limitations: >-
+      Endogenous nucleotide production and salvage remain alternative sources.
+      Tissue, species, exposure form and measured endpoint limit translation; no
+      ordinary-food uridine target is established.
+    evidence_considered:
+      - label: Ulus et al. (2006)
+        citation_key: ulus_uridine_cdp_choline_2006
+        href: /docs/papers/BRAIN-Diet-References#ulus_uridine_cdp_choline_2006
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Uridine increased CDP-choline formation in rat brain slices without
+          reducing acetylcholine release.
+        assessment:
+          study: >-
+            Primary full text; Abstract, Introduction, Methods and Results. Rat
+            slices exposed to uridine or cytidine with and without choline.
+          population: >-
+            Rat striatal slices; hippocampal and cortical slices also tested for
+            acetylcholine release.
+          result: >-
+            At 400 micromolar, uridine increased choline utilisation to form
+            CDP-choline by 61%; acetylcholine release and levels were not
+            reduced.
+          effect_magnitude: >-
+            61% increase in CDP-choline formation at 400 micromolar uridine;
+            tested nucleoside concentrations 25–400 micromolar.
+          evidence_summary: >-
+            Supports a nucleotide-provision route to a Kennedy-pathway
+            intermediate, distinct from PEMT methyl transfer.
+          limitations: >-
+            Ex-vivo concentrations; CDP-choline formation is not an absolute PC
+            synthesis-flux assay, an ordinary-food exposure or a human cognitive
+            outcome.
+      - label: Cansev et al. (2005)
+        citation_key: cansev_ump_cdp_choline_2005
+        href: /docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: 'Oral UMP increased brain uridine, UTP, CTP and CDP-choline in gerbils.'
+        assessment:
+          study: >-
+            Primary publisher abstract and accessible Results summary; single
+            oral UMP gavage, serial plasma and brain measurements.
+          population: Adult male Mongolian gerbils.
+          result: >-
+            Oral UMP increased circulating and brain uridine and brain
+            nucleotide/CDP-choline pools.
+          effect_magnitude: >-
+            At 1 mmol/kg, plasma uridine rose from 6.6 to 32.7 micromolar at 30
+            minutes; brain uridine from 22.6 to 89.1 pmol/mg.
+          evidence_summary: >-
+            Measured oral provision to brain precursor pools supports the
+            UMP/uridine-to-nucleotide chain.
+          limitations: >-
+            UMP exposure is not isolated dietary uridine or an ordinary-food
+            dose; altered pool concentrations do not determine net PC flux,
+            human adequacy or benefit.
+      - label: Wurtman et al. (2006)
+        citation_key: wurtman_uridine_dha_phospholipids_2006
+        href: >-
+          /docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Dietary UMP increased brain PC abundance in gerbils consuming a
+          choline-containing diet.
+        assessment:
+          study: >-
+            Primary full text; Results §2.1 and Table 1A. Four-week UMP and/or
+            DHA treatment compared with control.
+          population: Adult gerbils on a choline-containing diet.
+          result: >-
+            UMP alone increased PC abundance; the UMP/DHA combination produced a
+            larger response.
+          effect_magnitude: 'PC per mg protein: UMP alone +13%; DHA alone +22%; combination +45%.'
+          evidence_summary: >-
+            Adds a measured PC abundance endpoint beyond short-term nucleotide
+            pools.
+          limitations: >-
+            UMP rather than isolated uridine; animal exposure. PC abundance is
+            not synthesis flux or a human outcome. Combination responses cannot
+            be attributed to uridine alone; protein markers do not count
+            synapses.
+    connected_supportive_evidence:
+      - label: Agarwal et al. (2010)
+        citation_key: agarwal_uridine_mrs_2010
+        href: /docs/papers/BRAIN-Diet-References#agarwal_uridine_mrs_2010
+        data_level: Human Mechanistic
+        why_relevant: >-
+          Randomised uridine/placebo study in 17 healthy men; 1 g twice daily
+          for seven days, with phosphorus MRS. Brain phosphomonoesters
+          increased.
+        why_excluded: >-
+          MRS precursor pools do not identify CTP supply, PC synthesis flux or
+          membrane accretion; no uridine-specific cognition claim follows.
 key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
 pm_kc_relationships:
@@ -1269,6 +1668,56 @@ kc_adjudication_history:
           Dietary methionine changed hepatic SAM and PC:PE with choline
           maintained (PM7-F6).
         - MAT1A deletion reduced measured PEMT activity in young mice (PM7-F6).
+        - >-
+          Sugiyama 1998 primary abstract: three methionine levels (2.5, 4.5, 7.5
+          g/kg), 14-day rat feeding, with/without eritadenine; hepatic SAM and
+          PC:PE changed. Lowest intake is not established as inadequate here.
+        - >-
+          Cano 2011 indexed primary abstract and prior canonical appraisal
+          supports lower PEMT synthesis in young MAT1A-knockout mice; genetic
+          SAM-synthesis impairment is not demonstrated inadequacy of the
+          methionine–cysteine pool.
+      inferred_links:
+        - >-
+          Dietary-study methods establishing an inadequacy/imbalance context and
+          a distinct sulfur-pool limitation, with inhibitor specificity,
+          cysteine contribution and compensation assessed.
+      evidence_source:
+        finding_ids:
+          - PM7-F1
+          - PM7-F6
+        citation_keys:
+          - sugiyama_methionine_pe_1998
+          - shimada_methionine_desaturase_2003
+          - cano_mat1a_vldl_2011
+      rationale: >-
+        Retain unresolved after triangulation. No human or absolute-flux gate:
+        the gap concerns the named dietary exposure and distinct limitation, not
+        the existence of SAM-dependent PEMT chemistry.
+      evidence_gap: >-
+        Dietary-study methods establishing an inadequacy/imbalance context and a
+        distinct sulfur-pool limitation, with inhibitor specificity, cysteine
+        contribution and compensation assessed.
+      review_record: system/kc-unresolved-decisions-reconciliation.md
+    rationale: >-
+      Preserved before the focused primary-evidence reassessment; the new
+      appraisal resolves measurement and inhibitor questions without admitting a
+      distinct KC2 constraint.
+    review_record: system/brs2-fm3-pm7-kc2-focused-reassessment.md
+  - date: '2026-10-07'
+    decision:
+      kc_id: BRS2(KC2)
+      ikc_id: BRS2(KC2)
+      arm_id: methionine-cysteine-sulfur-amino-acid-pool
+      applicability_proposition: >-
+        Inadequacy of the shared methionine and cysteine pool constrains hepatic
+        PEMT-dependent phosphatidylcholine formation.
+      disposition: unresolved
+      established_links:
+        - >-
+          Dietary methionine changed hepatic SAM and PC:PE with choline
+          maintained (PM7-F6).
+        - MAT1A deletion reduced measured PEMT activity in young mice (PM7-F6).
       inferred_links:
         - >-
           Whether dietary inadequacy or imbalance of the named sulfur-amino-acid
@@ -1334,6 +1783,60 @@ kc_adjudication_history:
       interpretation as a typed Conditional constraint for FM summary
       derivation. No stronger scientific admission.
     review_record: system/kc-unresolved-decisions-reconciliation.md
+pending_actions:
+  - input: Uridine
+    pm_id: BRS2-FM3-PM7
+    pm_atom_id: PM7-DIT-7
+    relationship_type: dietary-provision
+    severity: MAJOR
+    status: pending
+    intended_identity: Uridine
+    candidate_records_checked:
+      - registry/substances.json
+      - docs/substances
+    aliases_checked:
+      - uridine
+      - UMP (distinct phosphorylated form)
+    required_action: >-
+      Resolve canonical identity through the existing registration workflow; do
+      not invent an ID or project a missing identity.
+    subsequent_food_assessment: >-
+      After identity resolution, assess source-backed food provision and
+      preparation; no ranking or ordinary-food target is established.
+  - input: Cytidine triphosphate (CTP)
+    pm_id: BRS2-FM3-PM7
+    pm_atom_id: PM7-DIT-8
+    relationship_type: biochemical-requirement
+    severity: MAJOR
+    status: pending
+    intended_identity: Cytidine triphosphate (CTP)
+    candidate_records_checked:
+      - registry/substances.json
+      - docs/substances
+    aliases_checked:
+      - CTP
+      - cytidine triphosphate
+    required_action: >-
+      Resolve canonical identity through the existing registration workflow; do
+      not invent an ID or project a missing identity.
+    subsequent_food_assessment: No dietary target follows from the intracellular reaction role.
+  - input: Diacylglycerol (DAG)
+    pm_id: BRS2-FM3-PM7
+    pm_atom_id: PM7-DIT-9
+    relationship_type: biochemical-requirement
+    severity: MAJOR
+    status: pending
+    intended_identity: Diacylglycerol (DAG)
+    candidate_records_checked:
+      - registry/substances.json
+      - docs/substances
+    aliases_checked:
+      - DAG
+      - diacylglycerol
+    required_action: >-
+      Resolve canonical identity through the existing registration workflow; do
+      not invent an ID or project a missing identity.
+    subsequent_food_assessment: No dietary target follows from the intracellular reaction role.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -1345,28 +1848,27 @@ kc_adjudication_history:
 
 ## BRS2-FM3-PM7 - Phosphatidylcholine Formation
 
-(Converting a membrane phospholipid into phosphatidylcholine in the liver)
+(PEMT methylation and Kennedy-pathway phosphatidylcholine synthesis)
 
 ## 1. Mission, Objective & Biological Context
 
 ### Mission
 
-Maintain hepatic methylation that converts phosphatidylethanolamine into phosphatidylcholine.
+Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.
 
 
 
 ### Overview
 
-In the liver, phosphatidylethanolamine N-methyltransferase converts phosphatidylethanolamine into phosphatidylcholine by three methyl transfers from S-adenosylmethionine. [[1]](#pm-ref-1) [[7]](#pm-ref-7) S-adenosylhomocysteine, the product, can regulate that activity. [[1]](#pm-ref-1) SAMe and phosphatidylethanolamine are the substrates. [[1]](#pm-ref-1) The CDP-choline route uses choline and does not perform these methylations. [[1]](#pm-ref-1) The liver uses this reaction when the choline-based route is unavailable. [[1]](#pm-ref-1)
+Cells form phosphatidylcholine through distinct routes: hepatic PEMT methylates phosphatidylethanolamine using SAMe, while the Kennedy pathway combines choline-derived phosphocholine with CTP and then diacylglycerol. Uridine can contribute upstream to nucleotide supply. These routes support membrane phospholipid provision; precursor availability does not establish that extra intake increases human membrane synthesis or improves cognition. [[19]](#pm-ref-19) [[20]](#pm-ref-20) [[1]](#pm-ref-1)
 
-- **Benefits:** The phosphatidylcholine made by these methylations is how the liver keeps a membrane phospholipid supplied from the methyl-donor pool. [[1]](#pm-ref-1) Mice that lack the enzyme develop liver failure within three days on a choline-deficient diet, and their hepatocyte membranes leak. [[1]](#pm-ref-1)
-- **Implementation Notes:** Choline and phosphatidylcholine are the provision routes. [[1]](#pm-ref-1) No intake protocol is established for speeding this methylation. [[1]](#pm-ref-1)
-- **Biological Relevance:** Blood–brain DHA transport and neuronal membrane uptake are later steps, and this reaction does not carry them out. [[1]](#pm-ref-1) [[3]](#pm-ref-3)
+- **Benefits:** PC formation supplies a major membrane phospholipid. PEMT/choline-route loss in mice demonstrates the importance of maintaining hepatic PC provision; the new uridine evidence measures precursor formation, not a clinical benefit. [[1]](#pm-ref-1) [[19]](#pm-ref-19)
+- **Implementation Notes:** Choline and phosphatidylcholine can supply the existing methyl-donor provision route. Uridine adds a supported nucleotide-precursor route, with no established ordinary-food dose or human PC-flux benefit. [[20]](#pm-ref-20) [[21]](#pm-ref-21)
+- **Biological Relevance:** Only the PEMT branch directly couples methylation to membrane chemistry in the parent FM. Kennedy synthesis is a parallel PC-forming route; brain DHA delivery and incorporation remain separate downstream jobs. [[1]](#pm-ref-1) [[19]](#pm-ref-19)
 
 ## 2. Primary Biological Effects
 
-↑ hepatic phosphatidylcholine formed from phosphatidylethanolamine<br />
-↑ S-adenosylhomocysteine released with each methyl transfer
+Phosphatidylcholine formation through distinct PEMT and Kennedy routes; S-adenosylhomocysteine production confined to PEMT methyl transfer. [[1]](#pm-ref-1) [[19]](#pm-ref-19)
 
 ## 3. Levers
 
@@ -1388,6 +1890,7 @@ In the liver, phosphatidylethanolamine N-methyltransferase converts phosphatidyl
 
 - Choline
 - Phosphatidylcholine
+- Uridine
 
 </div>
 </div>
@@ -1403,6 +1906,9 @@ In the liver, phosphatidylethanolamine N-methyltransferase converts phosphatidyl
 
 - Phosphatidylethanolamine
 - S-adenosylmethionine (SAMe)
+- Choline
+- Cytidine triphosphate (CTP)
+- Diacylglycerol (DAG)
 
 </div>
 </div>
@@ -1464,7 +1970,7 @@ No sleep, activity or stress practice has been shown to change the rate of this 
 
 ### Summary
 
-Liver cells can build phosphatidylcholine in more than one way. The route that matters here is methylation of an existing membrane phospholipid. That chemistry uses a methyl donor and stops before DHA is carried into the brain.
+PC formation has two distinct routes. Hepatic PEMT uses SAMe to methylate phosphatidylethanolamine. The Kennedy pathway builds PC using choline, CTP and diacylglycerol; uridine can contribute to its nucleotide supply. Neither route alone establishes brain DHA uptake or cognitive benefit. [[1]](#pm-ref-1) [[19]](#pm-ref-19)
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -1484,6 +1990,12 @@ The substrates are phosphatidylethanolamine and SAMe. Conserved amino acids in t
 
 SAMe used here is produced by methionine adenosyltransferase in [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Needing that methyl donor does not make a SAMe supplement the substrate, and it does not show that more SAMe intake speeds these methylations.
 
+#### (Kennedy-pathway PC formation)
+
+Choline is phosphorylated to phosphocholine. CTP then supplies the nucleotide used to form CDP-choline; transfer of its phosphocholine group to diacylglycerol forms PC. This route does not consume SAMe methyl groups. Uridine can enter nucleotide metabolism upstream of CTP. [[19]](#pm-ref-19)
+
+In rat brain slices, uridine increased CDP-choline formation without reducing measured acetylcholine release. Oral UMP increased brain uridine, UTP, CTP and CDP-choline in gerbils. Those are provision and precursor endpoints, not measurements of absolute human PC synthesis. [[19]](#pm-ref-19) [[20]](#pm-ref-20) In a four-week gerbil study, dietary UMP also increased measured PC abundance on a choline-containing diet (Table 1A); this was not a synthesis-flux measurement. [[22]](#pm-ref-22) Human uridine administration changed phosphomonoester signals on phosphorus MRS; these signals do not establish membrane accretion or cognition. [[21]](#pm-ref-21)
+
 #### (Boundaries of the mechanism)
 
 The CDP-choline pathway, also called the Kennedy pathway, builds phosphatidylcholine from choline by different reactions. Mice that lack PEMT cope on an ordinary diet. The same mice develop liver failure within three days if the diet also lacks choline, because both routes are then missing. The liver phosphatidylcholine to phosphatidylethanolamine ratio falls and hepatocyte membranes leak [Vance (2014) [[1]](#pm-ref-1)]. Choline therefore supports the parallel route. It is not the molecule PEMT methylates.
@@ -1494,7 +2006,7 @@ In mild cognitive impairment, B vitamins were linked with slower cognitive decli
 
 #### (Integration within BRS2)
 
-Within [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling), this is the methylation that turns phosphatidylethanolamine into phosphatidylcholine. [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) can regenerate methionine that later becomes SAMe. That is earlier than the methyl transfers. [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) is the reaction that supplies the SAMe used here. Methyl-donor supply and the methionine pool sit upstream of that SAMe. Their shortage has not been shown to limit this methylation itself, as distinct from limiting SAMe production. Neuronal DHA incorporation remains the downstream step in [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation).
+Within [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling), this is the methylation that turns phosphatidylethanolamine into phosphatidylcholine. [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) can regenerate methionine that later becomes SAMe. That is earlier than the methyl transfers. [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) is the reaction that supplies the SAMe used here. Methionine supplies that SAMe upstream. Neonatal piglet tracing shows dietary methionine-dependent methyl incorporation into hepatic PC [[18]](#pm-ref-18). This supports provision; a distinct methionine–cysteine pool constraint remains unresolved (PM7-F6). Neuronal DHA incorporation remains the downstream step in [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation).
 
 </div>
 </div>
@@ -1504,7 +2016,7 @@ Within [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/
 
 #### Summary
 
-Enzyme localisation, mutagenesis and kinetic evidence establishes PEMT-mediated phosphatidylcholine formation and regulation by its substrates and methyl-transfer product. [[7]](#pm-ref-7) [[8]](#pm-ref-8) [[9]](#pm-ref-9) Donor restriction/rescue and upstream perturbation studies support bounded dependence, with experimental contexts limiting extrapolation. [[11]](#pm-ref-11) [[12]](#pm-ref-12) [[15]](#pm-ref-15) Human tracing identifies methyl-derived phosphatidylcholine separately from intact-headgroup incorporation, supporting provision without establishing indispensable dependence, increased absolute hepatic flux or brain benefit. [[10]](#pm-ref-10)
+Enzyme localisation, mutagenesis and kinetic evidence establishes PEMT-mediated phosphatidylcholine formation and regulation by its substrates and methyl-transfer product. [[7]](#pm-ref-7) [[8]](#pm-ref-8) [[9]](#pm-ref-9) Donor restriction/rescue and upstream perturbation studies support bounded dependence, with experimental contexts limiting extrapolation. [[11]](#pm-ref-11) [[12]](#pm-ref-12) [[15]](#pm-ref-15) Human tracing identifies methyl-derived phosphatidylcholine separately from intact-headgroup incorporation, supporting provision without establishing indispensable dependence, increased absolute hepatic flux or brain benefit. [[10]](#pm-ref-10) Kennedy-pathway studies add a separate nucleotide-provision chain: uridine increased CDP-choline formation in rat slices, and oral UMP increased brain precursor pools in gerbils. [[19]](#pm-ref-19) [[20]](#pm-ref-20) Human MRS provides connected precursor-pool evidence rather than proof of PC synthesis or benefit. [[21]](#pm-ref-21) A longer gerbil study measured PC abundance after dietary UMP, a stronger lipid endpoint than precursor pools, but not a human flux or benefit result. [[22]](#pm-ref-22)
 
 <ScientificFinding finding={{"id":"PM7-F1","finding_label":"PEMT methylates phosphatidylethanolamine to phosphatidylcholine","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In the liver, phosphatidylethanolamine N-methyltransferase (PEMT) adds three methyl groups from S-adenosylmethionine (SAMe) to phosphatidylethanolamine and releases phosphatidylcholine. Magnesium is not a cofactor of this reaction. The CDP-choline route is a separate way to make phosphatidylcholine.","finding_interpretation":"Phosphatidylethanolamine and SAMe are the substrates of the methylation. Choline feeds the parallel route, and animals that lack PEMT need dietary choline. That does not make choline a substrate of this methylation, and it does not make supplemental SAMe or magnesium a requirement of it.","finding_statement":"Hepatic PEMT converts phosphatidylethanolamine to phosphatidylcholine by three sequential SAMe-dependent methyl transfers. The reaction substrates are phosphatidylethanolamine and SAMe. Magnesium is not an established cofactor of this reaction, and the CDP-choline pathway is a parallel route outside it.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human liver enzyme localisation, SAMe-binding mutagenesis and a physiological review agree on the reaction boundary. PEMT in the endoplasmic reticulum and mitochondria-associated membranes of liver uses SAMe to methylate phosphatidylethanolamine in three steps, through phosphatidylmonomethylethanolamine and phosphatidyldimethylethanolamine, to phosphatidylcholine. Conserved residues are required for SAMe binding and activity. Mice that lack PEMT tolerate a normal diet, but a choline-deficient diet causes liver failure within days because the CDP-choline route is then unavailable as well. None of these sources names magnesium as a PEMT cofactor.","synthesis_limitations":"The enzyme evidence is recombinant protein and a review of knockout mice, not a human dietary flux study. Absence of magnesium from the reaction description rejects the claim that magnesium is a PEMT cofactor; it does not test every buffer condition in the older assay literature. The choline-deficient knockout result shows that choline supports a parallel route. It does not show that choline is a PEMT substrate or that choline intake increases this methylation.","evidence_considered":[{"label":"Shields et al. (2003) — topography","citation_key":"shields_pemt_topography_2003","href":"/docs/papers/BRAIN-Diet-References#shields_pemt_topography_2003","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Human liver PEMT activity localises to the endoplasmic reticulum and mitochondria-associated membranes and catalyses three SAMe-dependent methylations of phosphatidylethanolamine.","assessment":{"study":"Endoproteinase-protection mapping of epitope-tagged human PEMT and biochemical localisation in human liver.","population":"Human liver fractions and recombinant protein. No dietary intervention and no human participants in a feeding study.","result":"Methyltransferase activity localised primarily to the endoplasmic reticulum and mitochondria-associated membranes. The enzyme spans the membrane four times. S-adenosylmethionine is the methyl donor for three sequential methylations.","effect_magnitude":"No dietary dose or in-vivo flux estimate.","evidence_summary":"Direct description of the human hepatic reaction, its localisation and its methyl donor.","limitations":"Topography and localisation do not show that ordinary diet changes PEMT rate."},"canonical_reference":{"author_year":"Shields et al. (2003)","number":7,"anchor":"#pm-ref-7"}},{"label":"Shields et al. (2003) — SAMe binding","citation_key":"shields_pemt_adomet_2003","href":"/docs/papers/BRAIN-Diet-References#shields_pemt_adomet_2003","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Conserved residues in human PEMT are required for S-adenosylmethionine binding and for enzyme activity.","assessment":{"study":"Site-directed mutagenesis of predicted S-adenosylmethionine-binding motifs in recombinant human PEMT, with binding measurements.","population":"Recombinant human PEMT. No animals or human participants.","result":"Gly100 and Glu180 were essential for S-adenosylmethionine binding. Conservative changes at Gly98 and Glu181 raised the reported binding parameter relative to unmodified enzyme. The abstract describes three sequential methylations of phosphatidylethanolamine and names S-adenosylhomocysteine as a product.","effect_magnitude":"The paper reports the binding comparison as 303.1 pmol for unmodified enzyme, 400 pmol after the Gly98 change and 666.7 pmol after the Glu181 change. These are not dietary doses.","evidence_summary":"Direct evidence that SAMe binding is required for human PEMT activity.","limitations":"A recombinant binding study does not show that supplemental SAMe increases hepatic phosphatidylcholine formation in people."},"canonical_reference":{"author_year":"Shields et al. (2003)","number":8,"anchor":"#pm-ref-8"}},{"label":"Vance (2014)","citation_key":"vance_phospholipid_2014","href":"/docs/papers/BRAIN-Diet-References#vance_phospholipid_2014","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"PEMT methylates phosphatidylethanolamine using AdoMet. Supply of AdoMet, phosphatidylethanolamine and the product AdoHcy can regulate activity. Loss of PEMT plus a choline-deficient diet causes rapid liver failure in mice.","assessment":{"study":"Narrative review of PEMT localisation, regulation and knockout-mouse physiology.","population":"Review, including Pemt knockout mice fed chow or a choline-deficient diet. Not a human enzyme-rate trial.","result":"PEMT is a liver endoplasmic-reticulum and mitochondria-associated-membrane enzyme. Substrate supply and product AdoHcy can regulate it. Knockout mice have a mild phenotype on chow. On a choline-deficient diet they develop steatohepatitis and liver failure after 3 days, with a lower phosphatidylcholine to phosphatidylethanolamine ratio and leakage from hepatocyte membranes.","effect_magnitude":"Liver failure by 3 days in Pemt knockout mice fed a choline-deficient diet. No human PEMT flux.","evidence_summary":"Physiological boundary for the substrates, product regulation and the parallel choline-dependent route.","limitations":"Review synthesis. The knockout diet result removes PEMT and dietary choline together. It does not show that choline is methylated by PEMT."},"canonical_reference":{"author_year":"Vance (2014)","number":1,"anchor":"#pm-ref-1"}}],"evidence_dependency":["Vance (2014) is also primary evidence in PM7-F2 for the separate claim that S-adenosylhomocysteine can regulate activity. It is not a second independent demonstration of the methyl-transfer chemistry."],"connected_supportive_evidence":[{"label":"Ridgway and Vance (1988)","citation_key":"ridgway_pemt_kinetics_1988","href":"/docs/papers/BRAIN-Diet-References#ridgway_pemt_kinetics_1988","data_level":"Cellular / Molecular","why_relevant":"Purified rat-liver kinetics place phosphatidylethanolamine and SAMe in an ordered mechanism and release S-adenosylhomocysteine after methyl transfer.","why_excluded":"The primary use of this paper is the product-regulation proposition in PM7-F2. It is cited here only to confirm the same substrates.","canonical_reference":{"author_year":"Ridgway and Vance (1988)","number":9,"anchor":"#pm-ref-9"}}],"informs":[{"phenome":"Cognitive Clarity","href":"/docs/phenomes/details/ph011-cognitive-clarity"},{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 
@@ -1512,9 +2024,11 @@ Enzyme localisation, mutagenesis and kinetic evidence establishes PEMT-mediated 
 
 <ScientificFinding finding={{"id":"PM7-F5","finding_label":"Donor insufficiency can constrain hepatic methylation","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Folate restriction can reduce the contribution of dietary methyl groups to hepatic phosphatidylcholine formation through PEMT in female mice.","finding_interpretation":"Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.","finding_statement":"Folate restriction can reduce the contribution of dietary methyl groups to hepatic phosphatidylcholine formation through PEMT in female mice.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Named-donor restriction altered pathway-specific methyl incorporation with choline maintained. Betaine rescue under ethanol-induced imbalance is complementary evidence, not independent confirmation of the same exposure.","synthesis_limitations":"Conditional animal evidence; tracer enrichment is not absolute flux. No universal donor limitation, human intake target or cognitive benefit is established.","evidence_considered":[{"label":"Chew et al. (2011)","citation_key":"chew_folate_choline_2011","href":"/docs/papers/BRAIN-Diet-References#chew_folate_choline_2011","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Donor restriction reduced pathway-specific methyl incorporation in female liver.","assessment":{"study":"Eight-week folate restriction versus otherwise matched control diets with labelled choline. Indexed primary methods, results and discussion assessed.","population":"Male and female Mthfr wild-type and heterozygous mice.","result":"Females had lower hepatic d3-PC enrichment and product/precursor enrichment ratio; males lacked that hepatic response.","effect_magnitude":"Hepatic d3-PC enrichment 30% lower (P=0.017); d3-PC:d9-choline ratio P=0.049.","evidence_summary":"Donor restriction reduced pathway-specific methyl incorporation in female liver.","limitations":"Precursor enrichment, turnover and methyl competition affect this measurement; total PEMT flux was not measured."},"canonical_reference":{"author_year":"Chew et al. (2011)","number":11,"anchor":"#pm-ref-11"}},{"label":"Kharbanda et al. (2007)","citation_key":"kharbanda_betaine_pemt_2007","href":"/docs/papers/BRAIN-Diet-References#kharbanda_betaine_pemt_2007","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Betaine corrected production under an imposed methylation imbalance.","assessment":{"study":"Control/ethanol liquid diets with or without 1% betaine for four weeks. Primary abstract assessed; full assay methods unavailable.","population":"Male Wistar rats.","result":"Betaine restored SAM:SAH balance and reported PEMT-mediated PC production under ethanol exposure.","effect_magnitude":"No usable numerical production estimate in the abstract.","evidence_summary":"Betaine corrected production under an imposed methylation imbalance.","limitations":"Supplement rescue does not establish ordinary betaine deficiency; assay details and ethanol context limit attribution."},"canonical_reference":{"author_year":"Kharbanda et al. (2007)","number":12,"anchor":"#pm-ref-12"}}],"connected_supportive_evidence":[]}} />
 
-<ScientificFinding finding={{"id":"PM7-F6","finding_label":"Methionine evidence leaves the dietary constraint unresolved","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Dietary methionine affects hepatic SAM and phospholipid measurements in rats, but the evidence reviewed does not establish sulfur-amino-acid inadequacy as a constraint on this formation capacity.","finding_interpretation":"No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.","finding_statement":"Dietary methionine affects hepatic SAM and phospholipid measurements in rats, but the evidence reviewed does not establish sulfur-amino-acid inadequacy as a constraint on this formation capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Dietary intervention and inhibitor comparisons support more than precursor proximity. Upstream enzyme loss separately changes PEMT activity. The remaining inference connects dietary inadequacy to the governed formation capacity.","synthesis_limitations":"No human trial, numeric deficiency threshold or single end-to-end assay is required. Indirect dietary outcomes and genetic perturbation do not yet resolve exposure attribution.","evidence_considered":[{"label":"Sugiyama et al. (1998)","citation_key":"sugiyama_methionine_pe_1998","href":"/docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Dietary and inhibitor perturbations are consistent with altered PE methylation.","assessment":{"study":"Fourteen-day feeding at three methionine levels with or without eritadenine. Primary abstract assessed; full text not obtained.","population":"Rats.","result":"Methionine increased SAM and microsomal PC:PE; eritadenine abolished lipid effects.","effect_magnitude":"Methionine 2.5, 4.5 and 7.5 g/kg; eritadenine 30 mg/kg. No usable outcome magnitude in the abstract.","evidence_summary":"Dietary and inhibitor perturbations are consistent with altered PE methylation.","limitations":"PC:PE is not synthesis rate. Intake adequacy and inhibitor specificity need full-method appraisal."},"canonical_reference":{"author_year":"Sugiyama et al. (1998)","number":13,"anchor":"#pm-ref-13"}},{"label":"Shimada et al. (2003)","citation_key":"shimada_methionine_desaturase_2003","href":"/docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methionine-specific dietary effects were separable from choline removal.","assessment":{"study":"Fourteen-day protein-level and methionine/cystine supplementation experiments; choline held constant. Primary full text assessed.","population":"Male Wistar rats; six groups of eight per experiment.","result":"Methionine raised SAM and PC:PE; cystine had little or no comparable effect; glycine attenuated responses.","effect_magnitude":"Choline bitartrate 0.25 g/100 g diet; methionine 0.43%, cystine 0.34% supplements.","evidence_summary":"Methionine-specific dietary effects were separable from choline removal.","limitations":"Lipid ratios and desaturase endpoints remain indirect; SAM responses were not uniformly monotonic. Cystine non-equivalence does not establish KC non-application."},"canonical_reference":{"author_year":"Shimada et al. (2003)","number":14,"anchor":"#pm-ref-14"}},{"label":"Cano et al. (2011)","citation_key":"cano_mat1a_vldl_2011","href":"/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Upstream enzyme impairment affected measured PEMT activity.","assessment":{"study":"Genetic upstream impairment; indexed primary results and radiometric assay description assessed.","population":"Three- and eight-month-old wild-type and MAT1A-knockout mice.","result":"PEMT activity decreased in young knockouts; older animals showed a different lipid/activity pattern.","effect_magnitude":"PEMT activity 30% lower and transcript expression 40% lower in three-month-old knockouts; 4–8 animals per group.","evidence_summary":"Upstream enzyme impairment affected measured PEMT activity.","limitations":"Genetic loss changes expression and metabolism; it does not isolate dietary methionine inadequacy or cysteine sparing."},"canonical_reference":{"author_year":"Cano et al. (2011)","number":15,"anchor":"#pm-ref-15"}}],"connected_supportive_evidence":[]}} />
+<ScientificFinding finding={{"id":"PM7-F6","finding_label":"Methionine supports PC methylation; the shared-pool constraint remains unresolved","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Dietary methionine supplies the SAM-dependent PC methylation route. Piglet tracing measures nutritional effects on methyl incorporation into PC, but does not establish a distinct methionine–cysteine pool bottleneck.","finding_interpretation":"Substrate provision, synthesis allocation and a separately limiting pool are different claims. Neonatal feeding and genetic findings do not establish adult intake benefits or cysteine-specific effects.","finding_statement":"Dietary methionine supplies the SAM-dependent PC methylation route. Piglet tracing measures nutritional effects on methyl incorporation into PC, but does not establish a distinct methionine–cysteine pool bottleneck.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Rat phospholipid measurements support the upstream supply route. New piglet tracer evidence moves beyond concentration endpoints, while donor restriction can redistribute methyl use toward PC. MAT1A impairment separately affects PEMT activity. These findings do not yet establish the proposed shared sulfur-pool constraint beyond provision.","synthesis_limitations":"No universal human or absolute-flux threshold applies. Neonatal diet composition, competing methyl demands and pathway compensation bound the inference; neither shared pool limitation nor benefit from extra adult intake follows automatically.","evidence_considered":[{"label":"Sugiyama et al. (1998)","citation_key":"sugiyama_methionine_pe_1998","href":"/docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Dietary and inhibitor perturbations are consistent with altered PE methylation.","assessment":{"study":"Fourteen-day feeding at three methionine levels with or without eritadenine. Primary abstract assessed; full text not obtained.","population":"Rats.","result":"Methionine increased SAM and microsomal PC:PE; eritadenine abolished lipid effects.","effect_magnitude":"Methionine 2.5, 4.5 and 7.5 g/kg; eritadenine 30 mg/kg. No usable outcome magnitude in the abstract.","evidence_summary":"Dietary and inhibitor perturbations are consistent with altered PE methylation.","limitations":"PC:PE is not synthesis rate. Full intake-adequacy methods were not obtained. The 1995 primary abstract shows eritadenine is not a direct PEMT inhibitor, so its lipid effects are not selective enzyme-blockade evidence."},"canonical_reference":{"author_year":"Sugiyama et al. (1998)","number":13,"anchor":"#pm-ref-13"}},{"label":"Shimada et al. (2003)","citation_key":"shimada_methionine_desaturase_2003","href":"/docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methionine-specific dietary effects were separable from choline removal.","assessment":{"study":"Fourteen-day protein-level and methionine/cystine supplementation experiments; choline held constant. Primary full text assessed.","population":"Male Wistar rats; six groups of eight per experiment.","result":"Methionine raised SAM and PC:PE. Table 4 shows cystine rescued growth without the corresponding PC/PE change; glycine attenuated methionine-associated lipid responses.","effect_magnitude":"Choline bitartrate 0.25 g/100 g diet; methionine 0.43%, cystine 0.34% supplements.","evidence_summary":"Methionine-specific dietary effects were separable from choline removal.","limitations":"Rat SAM concentrations, phospholipid pools and desaturase measurements do not measure PEMT flux. Growth rescue is not interchangeable with methyl provision; non-monotonic SAM responses suggest compensation."},"canonical_reference":{"author_year":"Shimada et al. (2003)","number":14,"anchor":"#pm-ref-14"}},{"label":"Cano et al. (2011)","citation_key":"cano_mat1a_vldl_2011","href":"/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Upstream enzyme impairment affected measured PEMT activity.","assessment":{"study":"Indexed primary results and prior canonical appraisal of MAT1A knockout; full assay methods could not be retrieved in this pass.","population":"Three- and eight-month-old wild-type and MAT1A-knockout mice.","result":"PEMT activity decreased in young knockouts; older animals showed a different lipid/activity pattern.","effect_magnitude":"PEMT activity 30% lower and transcript expression 40% lower in three-month-old knockouts; 4–8 animals per group.","evidence_summary":"Upstream enzyme impairment affected measured PEMT activity.","limitations":"Genetic loss changes expression and metabolism; it does not isolate dietary methionine inadequacy or cysteine sparing."},"canonical_reference":{"author_year":"Cano et al. (2011)","number":15,"anchor":"#pm-ref-15"}},{"label":"Sugiyama et al. (1995)","citation_key":"sugiyama_eritadenine_phospholipid_1995","href":"/docs/papers/BRAIN-Diet-References#sugiyama_eritadenine_phospholipid_1995","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Eritadenine reduced labelled methionine incorporation into PC without direct PEMT inhibition in the assay.","assessment":{"study":"Primary publisher abstract; full methods not obtained.","population":"Rats.","result":"Eritadenine reduced labelled methionine incorporation into PC without direct PEMT inhibition in the assay.","effect_magnitude":"200 micromol/kg diet in the tracer comparison.","evidence_summary":"Eritadenine reduced labelled methionine incorporation into PC without direct PEMT inhibition in the assay.","limitations":"SAH accumulation and a lower SAM:SAH ratio accompanied the effect; not a selective PEMT probe."},"canonical_reference":{"author_year":"Sugiyama et al. (1995)","number":16,"anchor":"#pm-ref-16"}},{"label":"Robinson et al. (2016)","citation_key":"robinson_methyl_donors_partitioning_2016","href":"/docs/papers/BRAIN-Diet-References#robinson_methyl_donors_partitioning_2016","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"PC synthesis rose while creatine synthesis fell under donor restriction.","assessment":{"study":"Primary abstract; donor-deficient versus sufficient feeding, followed by methionine restriction in both groups.","population":"Neonatal piglets; 8 deficient and 7 sufficient.","result":"PC synthesis rose while creatine synthesis fell under donor restriction.","effect_magnitude":"PC +60%; creatine -30%; methionine 80% of requirement.","evidence_summary":"PC synthesis rose while creatine synthesis fell under donor restriction.","limitations":"Combined donor exposure; not isolated methionine/cysteine effects, adult biology or uniform PC suppression."},"canonical_reference":{"author_year":"Robinson et al. (2016)","number":17,"anchor":"#pm-ref-17"}},{"label":"Asiriwardhana et al. (2025)","citation_key":"asiriwardhana_methionine_transmethylation_2025","href":"/docs/papers/BRAIN-Diet-References#asiriwardhana_methionine_transmethylation_2025","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Methyl-tracer incorporation into hepatic PC increased with dietary methionine.","assessment":{"study":"Primary full XML; Methods and Figure 4C. Each pig received one methionine dose for 48 hours.","population":"20 neonatal Yucatan piglets.","result":"Methyl-tracer incorporation into hepatic PC increased with dietary methionine.","effect_magnitude":"20–220% of estimated requirement; linear r2=0.53, P\u003c0.0003.","evidence_summary":"Methyl-tracer incorporation into hepatic PC increased with dietary methionine.","limitations":"Cysteine fixed; no added free choline, but lipid emulsion supplied PC. Total Kennedy/PEMT flux and cysteine sparing were not independently determined. No adult dose or benefit inference."},"canonical_reference":{"author_year":"Asiriwardhana et al. (2025)","number":18,"anchor":"#pm-ref-18"}}],"connected_supportive_evidence":[]}} />
 
 <ScientificFinding finding={{"id":"PM7-F7","finding_label":"Dietary choline forms supply methyl groups to the PEMT route","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.","finding_interpretation":"Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.","finding_statement":"Choline and dietary phosphatidylcholine can provide methyl groups used in PEMT-dependent phosphatidylcholine formation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Provision is supported by methyl-derived labelling, separately from intact-headgroup PC. This does not establish indispensable dependence or enhanced activity.","synthesis_limitations":"Plasma tracing does not measure absolute hepatic flux, intermediary SAM, ordinary-food equivalence or benefit.","evidence_considered":[{"label":"Böckmann et al. (2023)","citation_key":"bockmann_choline_supplements_2023","href":"/docs/papers/BRAIN-Diet-References#bockmann_choline_supplements_2023","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"D3-PC supports methyl-donor provision after choline chloride and POPC.","assessment":{"study":"Randomised crossover, labelled choline forms; full text assessed.","population":"Six healthy men.","result":"Results subsection D3-PC from the PEMT pathway: Figure S5B reports delayed D3-PC after all four inputs; S5A relates it to betaine labelling.","effect_magnitude":"No significant D3-PC difference between formulations.","evidence_summary":"D3-PC supports methyl-donor provision after choline chloride and POPC.","limitations":"D3-PC (m/z 187) is distinct from D9-PC (193). Methionine/SAM intermediates and hepatic origin are mechanistically attributed, not directly measured here."},"canonical_reference":{"author_year":"Böckmann et al. (2023)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM7-F8","finding_label":"Uridine supplies nucleotide precursors for the Kennedy pathway","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Uridine can contribute to CTP and CDP-choline supply for the Kennedy route of phosphatidylcholine formation.","finding_statement":"Uridine can contribute to CTP and CDP-choline supply for the Kennedy route of phosphatidylcholine formation.","finding_interpretation":"The supported precursor chain is distinct from PEMT; dietary provision does not establish indispensability, increased human PC flux or cognitive benefit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Rat-slice CDP-choline formation and oral-UMP gerbil precursor measurements support nucleotide provision. Human MRS is connected evidence for phospholipid precursor responses, not direct confirmation of PC synthesis. A four-week gerbil experiment also measured increased PC abundance with UMP alone on a choline-containing diet, extending support beyond precursor pools without establishing human synthesis flux.","synthesis_limitations":"Endogenous nucleotide production and salvage remain alternative sources. Tissue, species, exposure form and measured endpoint limit translation; no ordinary-food uridine target is established.","evidence_considered":[{"label":"Ulus et al. (2006)","citation_key":"ulus_uridine_cdp_choline_2006","href":"/docs/papers/BRAIN-Diet-References#ulus_uridine_cdp_choline_2006","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Uridine increased CDP-choline formation in rat brain slices without reducing acetylcholine release.","assessment":{"study":"Primary full text; Abstract, Introduction, Methods and Results. Rat slices exposed to uridine or cytidine with and without choline.","population":"Rat striatal slices; hippocampal and cortical slices also tested for acetylcholine release.","result":"At 400 micromolar, uridine increased choline utilisation to form CDP-choline by 61%; acetylcholine release and levels were not reduced.","effect_magnitude":"61% increase in CDP-choline formation at 400 micromolar uridine; tested nucleoside concentrations 25–400 micromolar.","evidence_summary":"Supports a nucleotide-provision route to a Kennedy-pathway intermediate, distinct from PEMT methyl transfer.","limitations":"Ex-vivo concentrations; CDP-choline formation is not an absolute PC synthesis-flux assay, an ordinary-food exposure or a human cognitive outcome."},"canonical_reference":{"author_year":"Ulus et al. (2006)","number":19,"anchor":"#pm-ref-19"}},{"label":"Cansev et al. (2005)","citation_key":"cansev_ump_cdp_choline_2005","href":"/docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Oral UMP increased brain uridine, UTP, CTP and CDP-choline in gerbils.","assessment":{"study":"Primary publisher abstract and accessible Results summary; single oral UMP gavage, serial plasma and brain measurements.","population":"Adult male Mongolian gerbils.","result":"Oral UMP increased circulating and brain uridine and brain nucleotide/CDP-choline pools.","effect_magnitude":"At 1 mmol/kg, plasma uridine rose from 6.6 to 32.7 micromolar at 30 minutes; brain uridine from 22.6 to 89.1 pmol/mg.","evidence_summary":"Measured oral provision to brain precursor pools supports the UMP/uridine-to-nucleotide chain.","limitations":"UMP exposure is not isolated dietary uridine or an ordinary-food dose; altered pool concentrations do not determine net PC flux, human adequacy or benefit."},"canonical_reference":{"author_year":"Cansev et al. (2005)","number":20,"anchor":"#pm-ref-20"}},{"label":"Wurtman et al. (2006)","citation_key":"wurtman_uridine_dha_phospholipids_2006","href":"/docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Dietary UMP increased brain PC abundance in gerbils consuming a choline-containing diet.","assessment":{"study":"Primary full text; Results §2.1 and Table 1A. Four-week UMP and/or DHA treatment compared with control.","population":"Adult gerbils on a choline-containing diet.","result":"UMP alone increased PC abundance; the UMP/DHA combination produced a larger response.","effect_magnitude":"PC per mg protein: UMP alone +13%; DHA alone +22%; combination +45%.","evidence_summary":"Adds a measured PC abundance endpoint beyond short-term nucleotide pools.","limitations":"UMP rather than isolated uridine; animal exposure. PC abundance is not synthesis flux or a human outcome. Combination responses cannot be attributed to uridine alone; protein markers do not count synapses."},"canonical_reference":{"author_year":"Wurtman et al. (2006)","number":22,"anchor":"#pm-ref-22"}}],"connected_supportive_evidence":[{"label":"Agarwal et al. (2010)","citation_key":"agarwal_uridine_mrs_2010","href":"/docs/papers/BRAIN-Diet-References#agarwal_uridine_mrs_2010","data_level":"Human Mechanistic","why_relevant":"Randomised uridine/placebo study in 17 healthy men; 1 g twice daily for seven days, with phosphorus MRS. Brain phosphomonoesters increased.","why_excluded":"MRS precursor pools do not identify CTP supply, PC synthesis flux or membrane accretion; no uridine-specific cognition claim follows.","canonical_reference":{"author_year":"Agarwal et al. (2010)","number":21,"anchor":"#pm-ref-21"}}]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -1641,4 +2155,11 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-13">[13]</span> [Sugiyama et al. (1998) — Dietary Methionine and PE Methylation](/docs/papers/BRAIN-Diet-References#sugiyama_methionine_pe_1998)
 - <span id="pm-ref-14">[14]</span> [Shimada et al. (2003) — Methionine and Hepatic Phospholipids](/docs/papers/BRAIN-Diet-References#shimada_methionine_desaturase_2003)
 - <span id="pm-ref-15">[15]</span> [Cano et al. (2011) — MAT1A Loss and PEMT Activity](/docs/papers/BRAIN-Diet-References#cano_mat1a_vldl_2011)
+- <span id="pm-ref-16">[16]</span> [Sugiyama et al. (1995) — Eritadenine and Hepatic Phospholipid Metabolism](/docs/papers/BRAIN-Diet-References#sugiyama_eritadenine_phospholipid_1995)
+- <span id="pm-ref-17">[17]</span> [Robinson et al. (2016) — Methionine Partitioning under Methyl-Donor Restriction](/docs/papers/BRAIN-Diet-References#robinson_methyl_donors_partitioning_2016)
+- <span id="pm-ref-18">[18]</span> [Asiriwardhana et al. (2025) — Dietary Methionine and Transmethylated Products](/docs/papers/BRAIN-Diet-References#asiriwardhana_methionine_transmethylation_2025)
+- <span id="pm-ref-19">[19]</span> [Ulus et al. (2006) — Cytidine and Uridine Increase Striatal CDP-Choline Levels Without Decreasing Acetylcholine Synthesis or Release](/docs/papers/BRAIN-Diet-References#ulus_uridine_cdp_choline_2006)
+- <span id="pm-ref-20">[20]</span> [Cansev et al. (2005) — Oral uridine-5-monophosphate (UMP) increases brain CDP-choline levels in gerbils](/docs/papers/BRAIN-Diet-References#cansev_ump_cdp_choline_2005)
+- <span id="pm-ref-21">[21]</span> [Agarwal et al. (2010) — Short-term administration of uridine increases brain membrane phospholipid precursors in healthy adults](/docs/papers/BRAIN-Diet-References#agarwal_uridine_mrs_2010)
+- <span id="pm-ref-22">[22]</span> [Wurtman et al. (2006) — Synaptic proteins and phospholipids are increased in gerbil brain by administering uridine plus docosahexaenoic acid orally](/docs/papers/BRAIN-Diet-References#wurtman_uridine_dha_phospholipids_2006)
 
