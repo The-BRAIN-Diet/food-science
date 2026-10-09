@@ -1,6 +1,6 @@
 # BRS-X(Circadian) — Implementation Specification
 
-**Status:** Spec only — **do not implement hub/FM/PM pages or migrate BRS6-FM2-PM5 until the ADHD paper ships.**
+**Status:** Hub, FM1, and two PMs are published. Light–dark entrainment and feeding-time synchronisation are separate mechanisms. Further FMs in this outline (sleep regularity, NAD oscillation, melatonin, glycaemic rhythms, gut rhythmicity) and a replacement BRS6 interface PM are not implemented.
 **Authoritative schema:** `system/brs-x-schema.md`, `system/specific-mechanism-schema.md`, `system/primary-mechanism-schema.md`
 **Related manuscript:** `paper.txt` Section 10 (Circadian Rhythm Modulators, Chrono-Nutrition, Exercise, Sleep)
 
@@ -193,7 +193,7 @@ List **specific PM/FM pages** only — never BRS hubs alone.
 
 ## 5. Migration matrix — `BRS6-FM2-PM5`
 
-**Current page:** `docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx`
+**Former page:** that path now redirects to the circadian hub. The published mechanisms are BRS-X(Circadian-FM1-PM1) and BRS-X(Circadian-FM1-PM2). The rows below are the older unimplemented split and are not the published structure.
 
 ### Migrate → BRS-X(Circadian)
 

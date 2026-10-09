@@ -98,29 +98,6 @@ export const BRS6_PM_EVIDENCE = {
       { citation_key: "schmidt_prebiotic_2015", label: "Schmidt et al. (2015)" },
     ],
   },
-  "brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment": {
-    intro:
-      "Feeding time as a peripheral circadian zeitgeber is well established. The studies below highlight chrononutrition and misalignment findings that refine how feeding-window structure entrains metabolic and neuroendocrine rhythms.",
-    blocks: [
-      {
-        heading: "Time-restricted feeding and peripheral clock entrainment",
-        body: "Time-restricted feeding without caloric reduction prevented metabolic disease in mice on a high-fat diet, supporting feeding-window structure as a mechanistic lever for circadian metabolic regulation [Hatori et al., 2012].",
-      },
-      {
-        heading: "Chrononutrition and meal-timing biology",
-        body: "The timing of food intake associates with metabolic outcomes independent of total calories alone; late eating and misaligned meal patterns are plausible contributors to peripheral clock dysregulation [Garaulet & Gómez-Abellán, 2014].",
-      },
-      {
-        heading: "Circadian misalignment across timing cues",
-        body: "When light, sleep, and feeding cues conflict, circadian misalignment propagates through metabolic and neuroendocrine systems — reinforcing timing coherence as a cross-cutting regulatory target within BRS6(FM2) [Scheer et al., 2009].",
-      },
-    ],
-    referenceNoteKeys: [
-      { citation_key: "hatori_2012_22608008", label: "Hatori et al. (2012)" },
-      { citation_key: "garaulet_2014_24467926", label: "Garaulet & Gómez-Abellán (2014)" },
-      { citation_key: "scheer_2009_19255424", label: "Scheer et al. (2009)" },
-    ],
-  },
   "brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery": {
     intro:
       "Sympathetic–parasympathetic balance biology is well established. The studies below highlight autonomic coupling and gut–vagal pathway findings that refine how activation–recovery cycles are interpreted — not functional outcome or condition claims.",

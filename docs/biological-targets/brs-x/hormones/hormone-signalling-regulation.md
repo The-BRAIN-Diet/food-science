@@ -23,6 +23,14 @@ hide_title: true
 
 (Reproductive & Metabolic Hormone Integration)
 
+## Rationale for inclusion as a distinct BRS-X
+
+Hormone signalling belongs in the framework as a distinct cross-system because it provides **a changing biological context for brain function, metabolism and reproduction**. Reproductive hormones interact with neural processes rather than acting only on reproductive organs. A human study linked estradiol-related working-memory differences to dopamine-related COMT measures, supporting an endocrine–neural interface without establishing that higher hormone levels are uniformly better [Jacobs and D’Esposito, 2011].
+
+Nutrition and daily behaviour can influence parts of this network. A randomized trial in women with polycystic ovary syndrome found greater improvement in insulin sensitivity among completers receiving a low-glycaemic-index diet, illustrating a context-specific metabolic–reproductive connection [Marsh et al., 2010]. A small laboratory study found lower daytime testosterone after sleep restriction in healthy young men, connecting sleep with endocrine regulation [Leproult and Van Cauter, 2011]. Neither result applies equally across sexes, life stages or clinical conditions.
+
+This BRS-X brings these interfaces together while keeping their biological jobs distinct from neurotransmitter production, circadian entrainment and gut microbial metabolism. Its purpose is responsive hormone signalling, not maximising concentrations or promising a generic “hormone-balancing” diet. Dietary inputs, microbial transformations and lifestyle practices must be assessed separately; changes in circulating hormones do not by themselves establish improved cognition, mood or reproductive health.
+
 <!-- brs-hub-all-mechanisms:start -->
 <div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -308,3 +316,11 @@ SM-Female may reference BRS-X(Hormones-FM2), Estrogen–Neurotransmitter Couplin
 - [BRS4 — Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
 - [BRS5 — Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 - [BRS6 — Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress)
+
+### Rationale references
+
+[Jacobs and D’Esposito (2011)](/docs/papers/BRAIN-Diet-References#jacobs_estrogen_dopamine_cognitive_processes_2011).
+
+[Marsh et al. (2010)](/docs/papers/BRAIN-Diet-References#marsh_low_gi_pcos_2010).
+
+[Leproult and Van Cauter (2011)](/docs/papers/BRAIN-Diet-References#leproult_sleep_testosterone_2011).

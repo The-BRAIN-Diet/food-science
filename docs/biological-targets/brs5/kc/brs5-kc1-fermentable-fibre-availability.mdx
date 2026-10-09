@@ -2,42 +2,94 @@
 title: Fermentable Fibre Sufficiency
 kc_id: BRS5(KC1)
 parent_brs: BRS5
-summary: 'Maintain fermentable-fibre sufficiency to support microbial fermentation and short-chain fatty acid production.'
+summary: >-
+  Maintain fermentable-fibre sufficiency to support microbial fermentation and
+  short-chain fatty acid production.
 kc_evidence_review_status: canonical
 kc_input_traceability:
   - atom_id: BRS5-KC1-KIT-1
-    input: Inulin-type fructans and galacto-oligosaccharides
+    input: FOS/GOS
     input_type: nutrient/compound class
-    biological_role: 'Nondigestible oligosaccharide classes that reach the colon and contribute fermentable substrate to the shared microbial short-chain-fatty-acid resource pool.'
+    biological_role: >-
+      Nondigestible oligosaccharide classes that reach the colon and contribute
+      fermentable substrate to the shared microbial short-chain-fatty-acid
+      resource pool.
     evidence_source:
       citation_keys:
         - van_trijp_intraintestinal_2024
-    evidence_limitation: 'Human evidence directly establishes intestinal handling and fermentation of controlled FOS/GOS preparations, not equal fermentation kinetics for every food matrix, a universal requirement threshold, or benefit from additional intake.'
+    evidence_limitation: >-
+      Controlled human FOS/GOS fermentation does not establish the effects of
+      inulin alone, individual FOS or GOS, ordinary food portions, or human
+      tight-junction improvement.
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    substance_id: fructo-galacto-oligosaccharides
+    canonical_identity:
+      status: resolved
+      substance_id: fructo-galacto-oligosaccharides
+      substance_href: >-
+        /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides
+      verification: >-
+        Existing canonical registry entry and substance-page record inspected;
+        study preparation boundaries retained.
+    ikc_id: BRS5-KC1-KIT-1
   - atom_id: BRS5-KC1-KIT-2
     input: Pectin
     input_type: nutrient/compound class
-    biological_role: 'Structurally heterogeneous fermentable polysaccharide class that contributes microbial substrate and predominantly acetate-generating capacity to the shared pool.'
+    biological_role: >-
+      Structurally heterogeneous fermentable polysaccharide class that
+      contributes microbial substrate and predominantly acetate-generating
+      capacity to the shared pool.
     evidence_source:
       citation_keys:
         - pascale_potential_2022
-    evidence_limitation: 'Evidence for microbiota utilisation and SCFA production is dominated by in-vitro human-faecal fermentation; structure materially affects response, and generic soluble fibre membership must not be inferred from pectin evidence.'
+    evidence_limitation: >-
+      Human-faecal culture evidence is preparation-dependent and predominantly
+      acetate-generating; it does not establish a uniform butyrate yield or
+      human tight-junction benefit. Apple and citrus preparations are not
+      interchangeable.
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    substance_id: pectin
+    canonical_identity:
+      status: resolved
+      substance_id: pectin
+      substance_href: >-
+        /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin
+      verification: >-
+        Existing canonical registry entry and substance-page record inspected;
+        study preparation boundaries retained.
+    ikc_id: BRS5-KC1-KIT-2
   - atom_id: BRS5-KC1-KIT-3
     input: Resistant starch
     input_type: nutrient/compound class
-    biological_role: 'Starch fraction resistant to small-intestinal digestion that contributes colonic microbial substrate and can support short-chain-fatty-acid, including butyrate, production within the shared pool.'
+    biological_role: >-
+      Starch fraction resistant to small-intestinal digestion that contributes
+      colonic microbial substrate and can support short-chain-fatty-acid,
+      including butyrate, production within the shared pool.
     evidence_source:
       citation_keys:
         - sobh_tolerability_2022
-    evidence_limitation: 'SCFA responses vary by resistant-starch type, dose, study population and microbiota; faecal SCFA measurements do not establish a universal limiting threshold or benefit from additional intake.'
+    evidence_limitation: >-
+      Response varies with starch type, preparation, dose and microbiota. Faecal
+      short-chain fatty acids do not measure epithelial delivery or establish
+      human tight-junction improvement; resistant potato starch results do not
+      establish effects for every RS2 or RS3 preparation.
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
+    substance_id: resistant-starch
+    canonical_identity:
+      status: resolved
+      substance_id: resistant-starch
+      substance_href: >-
+        /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch
+      verification: >-
+        Existing canonical registry entry and substance-page record inspected;
+        study preparation boundaries retained.
+    ikc_id: BRS5-KC1-KIT-3
 kc_constituent_presentations:
   - atom_id: BRS5-KC1-KIT-1
     label: Inulin-type fructans and galacto-oligosaccharides
@@ -56,10 +108,107 @@ references:
     [Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota
     in Gut-Brain
     Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)
-  - '[van Trijp et al. (2024) — Human FOS/GOS Intestinal Fermentation and SCFA Fate](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024)'
-  - '[Pascale et al. (2022) — Pectin Fermentation by Human Gut Microbiota](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)'
-  - '[Sobh et al. (2022) — Resistant Starch Tolerability and SCFA Production](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)'
+  - >-
+    [van Trijp et al. (2024) — Human FOS/GOS Intestinal Fermentation and SCFA
+    Fate](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024)
+  - >-
+    [Pascale et al. (2022) — Pectin Fermentation by Human Gut
+    Microbiota](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)
+  - >-
+    [Sobh et al. (2022) — Resistant Starch Tolerability and SCFA
+    Production](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)
 hide_title: true
+ikc_identity_reconciliation_history:
+  - date: '2026-10-09'
+    rationale: >-
+      Retain canonical constituent IDs; narrow KIT-1 display to the tested
+      FOS/GOS preparation, not all inulin-type fructans.
+    previous_constituents:
+      - atom_id: BRS5-KC1-KIT-1
+        input: Inulin-type fructans and galacto-oligosaccharides
+        input_type: nutrient/compound class
+        biological_role: >-
+          Nondigestible oligosaccharide classes that reach the colon and
+          contribute fermentable substrate to the shared microbial
+          short-chain-fatty-acid resource pool.
+        evidence_source:
+          citation_keys:
+            - van_trijp_intraintestinal_2024
+        evidence_limitation: >-
+          Human evidence directly establishes intestinal handling and
+          fermentation of controlled FOS/GOS preparations, not equal
+          fermentation kinetics for every food matrix, a universal requirement
+          threshold, or benefit from additional intake.
+        constraint_status: nutritionally-constrained
+        ikc_membership: admitted
+        claim_ceiling: dietary-provision
+      - atom_id: BRS5-KC1-KIT-2
+        input: Pectin
+        input_type: nutrient/compound class
+        biological_role: >-
+          Structurally heterogeneous fermentable polysaccharide class that
+          contributes microbial substrate and predominantly acetate-generating
+          capacity to the shared pool.
+        evidence_source:
+          citation_keys:
+            - pascale_potential_2022
+        evidence_limitation: >-
+          Evidence for microbiota utilisation and SCFA production is dominated
+          by in-vitro human-faecal fermentation; structure materially affects
+          response, and generic soluble fibre membership must not be inferred
+          from pectin evidence.
+        constraint_status: nutritionally-constrained
+        ikc_membership: admitted
+        claim_ceiling: dietary-provision
+      - atom_id: BRS5-KC1-KIT-3
+        input: Resistant starch
+        input_type: nutrient/compound class
+        biological_role: >-
+          Starch fraction resistant to small-intestinal digestion that
+          contributes colonic microbial substrate and can support
+          short-chain-fatty-acid, including butyrate, production within the
+          shared pool.
+        evidence_source:
+          citation_keys:
+            - sobh_tolerability_2022
+        evidence_limitation: >-
+          SCFA responses vary by resistant-starch type, dose, study population
+          and microbiota; faecal SCFA measurements do not establish a universal
+          limiting threshold or benefit from additional intake.
+        constraint_status: nutritionally-constrained
+        ikc_membership: admitted
+        claim_ceiling: dietary-provision
+individual_key_constraints:
+  - ikc_id: BRS5-KC1-KIT-1
+    title: FOS/GOS
+    kc_atom_id: BRS5-KC1-KIT-1
+    substance_id: fructo-galacto-oligosaccharides
+    identity_status: resolved
+    registration_status: registered
+    substance_href: >-
+      /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides
+  - ikc_id: BRS5-KC1-KIT-2
+    title: Pectin
+    kc_atom_id: BRS5-KC1-KIT-2
+    substance_id: pectin
+    identity_status: resolved
+    registration_status: registered
+    substance_href: >-
+      /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin
+  - ikc_id: BRS5-KC1-KIT-3
+    title: Resistant starch
+    kc_atom_id: BRS5-KC1-KIT-3
+    substance_id: resistant-starch
+    identity_status: resolved
+    registration_status: registered
+    substance_href: >-
+      /docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch
+ikc_identity_version: constituent-v2
+legacy_ikc_references:
+  - ikc_id: BRS5(KC1)
+    meaning: >-
+      Legacy whole-pool relationship retained for compatibility, not a
+      constituent identity.
 ---
 
 <p class="brs-pm-thumbnail-wrap">

@@ -70,22 +70,22 @@ Examples:
 |----|------|----------------|
 | `BRS-X(ECS)` | Endocannabinoid System | BRS1, BRS3, BRS4, BRS5, BRS6 |
 | `BRS-X(Hormones)` | Hormone Signalling & Regulation | BRS1, BRS2, BRS3, BRS4, BRS5, BRS6 |
-| `BRS-X(Circadian)` | Circadian Rhythm Regulation | BRS1, BRS2, BRS3, BRS4, BRS5, BRS6 — **planned; spec only** |
+| `BRS-X(Circadian)` | Circadian Rhythm Regulation | BRS1, BRS4, BRS5, BRS6 — hub, FM1, and two PMs are published; further FMs remain deferred |
 
-### BRS-X(Circadian) — planned (spec only)
+### BRS-X(Circadian) — FM1 published
 
-**Do not implement pages until the ADHD paper ships.** Full FM/PM structure, BRS6-FM2-PM5 migration matrix, evidence tiers, and frontmatter stubs: **`system/brs-x-circadian-outline.md`**.
+The hub, FM1, and two primary mechanisms are published. Light–dark entrainment and feeding-time synchronisation replaced BRS6-FM2-PM5. Cortisol output stays on BRS6-FM2-PM4. The longer outline in `system/brs-x-circadian-outline.md` is not the published structure.
 
 | FM | Title | PMs |
 |----|-------|-----|
-| `BRS-X(Circadian-FM1)` | Zeitgeber Entrainment & Chrono-Structure | PM1 Light–Dark Entrainment; PM2 Sleep–Wake Regularity; PM3 Chrono-Nutrition & Feeding-Window Entrainment *(migrates from BRS6-FM2-PM5)* |
-| `BRS-X(Circadian-FM2)` | Circadian Metabolic & Endocrine Oscillation | PM4 CLOCK–NAMPT–NAD⁺ Oscillation; PM5 Diurnal Cortisol & HPA Phase Coupling; PM6 Circadian Glycaemic & Insulin-Sensitivity Rhythms |
-| `BRS-X(Circadian-FM3)` | Circadian Neurochemical & Sleep–Wake Coupling | PM7 Melatonin Synthesis & Dietary Support; PM8 Diurnal Monoamine & Precursor Timing; PM9 Arousal–Sleep Interface (Histaminergic Context) |
-| `BRS-X(Circadian-FM4)` | Circadian Gut–Microbiome Rhythmicity *(deferred)* | PM10 Feeding-Rhythm → Microbiome Turnover; PM11 Microbial Metabolite–Melatonin Interface |
+| `BRS-X(Circadian-FM1)` | Light and Feeding Zeitgeber Entrainment | PM1 Light–Dark Circadian Entrainment; PM2 Feeding-Time Circadian Synchronisation |
+| `BRS-X(Circadian-FM2)` | Circadian Metabolic & Endocrine Oscillation *(deferred, not published)* | PM4 CLOCK–NAMPT–NAD⁺ Oscillation; PM5 Diurnal Cortisol & HPA Phase Coupling; PM6 Circadian Glycaemic & Insulin-Sensitivity Rhythms |
+| `BRS-X(Circadian-FM3)` | Circadian Neurochemical & Sleep–Wake Coupling *(deferred, not published)* | PM7 Melatonin Synthesis & Dietary Support; PM8 Diurnal Monoamine & Precursor Timing; PM9 Arousal–Sleep Interface (Histaminergic Context) |
+| `BRS-X(Circadian-FM4)` | Circadian Gut–Microbiome Rhythmicity *(deferred, not published)* | PM10 Feeding-Rhythm → Microbiome Turnover; PM11 Microbial Metabolite–Melatonin Interface |
 
-**KCs:** `BRS-X(Circadian-KC1)` Zeitgeber Coherence & Day-Structure Regularity; `BRS-X(Circadian-KC2)` Circadian Substrate & Cofactor Sufficiency.
+**KCs (not published):** `BRS-X(Circadian-KC1)` Zeitgeber Coherence & Day-Structure Regularity; `BRS-X(Circadian-KC2)` Circadian Substrate & Cofactor Sufficiency.
 
-**BRS6 retention:** Replace `BRS6-FM2-PM5` with *Circadian Misalignment → HPA–Metabolic Stress Interface* (downstream BRS6 readout). Keep `BRS6-FM2-PM4` as cortisol owner.
+**BRS6 retention:** `BRS6-FM2-PM5` has moved. No replacement interface PM was added. `BRS6-FM2-PM4` remains the cortisol mechanism.
 
 ### BRS-X(Hormones) — proposed FM structure
 
@@ -98,4 +98,4 @@ Examples:
 
 ## Long-term vision
 
-BRS1–BRS6 remain the core architecture. **BRS-X(Circadian)** is the next planned system (see `system/brs-x-circadian-outline.md`). Promotion requires evidence of genuine cross-system regulatory role, not modifier or intervention status alone. Exercise timing, stress-reduction techniques, and caffeine remain **modulators** (hub acknowledgment only) — not PM-mapped in the initial circadian rollout.
+BRS1–BRS6 remain the core architecture. **BRS-X(Circadian)** is published for the hub, FM1, and the two zeitgeber mechanisms. Further circadian functional mechanisms stay in `system/brs-x-circadian-outline.md` and are not published. Promotion of a further mechanism requires evidence of a distinct biological route. Exercise timing, stress-reduction techniques, and caffeine remain modulators and are not mapped as primary mechanisms.

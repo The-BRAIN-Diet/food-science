@@ -11,6 +11,9 @@ tags:
   - Methylation & One-Carbon Metabolism
 mechanisms:
   Methylation & One-Carbon Metabolism: 'Cysteine is a substrate of glutamate–cysteine ligase. A diet lacking both methionine and cysteine slowed whole-blood glutathione synthesis in young men; omitting cysteine alone did not when methionine remained adequate. Food cystine is composition, not a synthesis result.'
+list_image: /img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png
+inchikey: XUJNEKJLAYXESH-REOHCLBHSA-N
+inchi_image: /img/inchi/XUJNEKJLAYXESH-REOHCLBHSA-N.png
 ---
 
 ## Overview

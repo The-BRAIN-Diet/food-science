@@ -338,14 +338,7 @@ export const HUB_OPTIMISATION_LEVERS = {
     ],
     dietary_protocols: [],
     conditional_supplementation: [],
-    light_circadian: [
-      {
-        action: "Get morning daylight and limit evening artificial light",
-        explanation:
-          "to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.",
-        match_pm_ids: ["BRS6-FM2-PM4", "BRS6-FM2-PM5"],
-      },
-    ],
+    light_circadian: [],
     stress_autonomic: [
       {
         action: "Use slow breathing and recovery routines after stress or exertion",

@@ -4,30 +4,52 @@ kc_id: BRS3(KC1)
 parent_brs: BRS3
 summary: 'Maintain cysteine and glycine sufficiency for glutathione synthesis so endogenous GSH-centred redox buffering can remain available under oxidative demand.'
 kc_evidence_review_status: canonical
+ikc_identity_version: constituent-v2
+legacy_ikc_references:
+  - ikc_id: BRS3(KC1)
+    meaning: 'Legacy whole glutathione-precursor pool/constraint-arm reference; retained for existing PM records, not an individual substance identity.'
+individual_key_constraints:
+  - ikc_id: BRS3-KC1-KIT-1
+    title: Cysteine
+    kc_atom_id: BRS3-KC1-KIT-1
+    substance_id: cysteine
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+  - ikc_id: BRS3-KC1-KIT-2
+    title: Glycine
+    kc_atom_id: BRS3-KC1-KIT-2
+    substance_id: glycine
+    identity_status: resolved
+    registration_status: registered
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
 kc_input_traceability:
   - atom_id: BRS3-KC1-KIT-1
+    ikc_id: BRS3-KC1-KIT-1
     input: Cysteine
     input_type: substrate
-    biological_role: 'Sulfur-amino-acid substrate whose availability can limit glutathione synthesis, constraining the endogenous GSH precursor pool.'
+    biological_role: 'Sulfur-amino-acid substrate in glutathione; lower red-cell cysteine accompanied deficient synthesis in older adults, and combined glycine plus N-acetylcysteine provision restored synthesis. Supports participation in the shared precursor pool, not an isolated cysteine effect.'
     evidence_source:
       citation_keys:
         - sekhar_glutathione_2011
-    evidence_limitation: 'Elderly humans; cysteine plus glycine supplementation restored GSH synthesis. Does not establish a universal intake threshold, ADHD-specific limitation, isolated cysteine as a sole lever, or that extra cysteine benefits GSH-replete people.'
+    evidence_limitation: 'Eight older adults, compared with eight younger controls, were restudied after 14 days of glycine plus N-acetylcysteine (the cysteine source). Red-cell synthesis was measured by isotope tracing. No placebo-controlled treatment arm or isolated constituent effect; not brain synthesis, ordinary-food equivalence, universal intake need or benefit in glutathione-replete people.'
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
   - atom_id: BRS3-KC1-KIT-2
+    ikc_id: BRS3-KC1-KIT-2
     input: Glycine
     input_type: substrate
-    biological_role: 'Glycine residue of glutathione; availability can co-limit GSH synthesis with cysteine.'
+    biological_role: 'Glycine residue of glutathione; lower red-cell glycine accompanied deficient synthesis in older adults, and combined glycine plus N-acetylcysteine provision restored synthesis. Supports participation in the shared precursor pool, not an isolated glycine effect.'
     evidence_source:
       citation_keys:
         - sekhar_glutathione_2011
-    evidence_limitation: 'Same supplementation trial as cysteine; conditional on deficient GSH synthesis in aging, not proof of ordinary dietary glycine limitation in all populations.'
+    evidence_limitation: 'Same combined glycine plus N-acetylcysteine study in eight older adults; 14-day before/after treatment without a placebo arm. Red-cell synthesis, not brain synthesis. Does not isolate glycine, establish ordinary dietary shortage or prove benefit in glutathione-replete people.'
     constraint_status: nutritionally-constrained
     ikc_membership: admitted
     claim_ceiling: dietary-provision
   - atom_id: BRS3-KC1-KIT-3
+    ikc_id: BRS3(KC1)
     input: Glutamate
     input_type: substrate
     biological_role: 'γ-Glutamyl constituent of glutathione; required for GSH structure and GSH-centred antioxidant-network recycling.'
@@ -39,6 +61,7 @@ kc_input_traceability:
     ikc_membership: excluded
     claim_ceiling: biological-dependency
   - atom_id: BRS3-KC1-KIT-4
+    ikc_id: BRS3(KC1)
     input: Polyphenols
     input_type: nutrient/compound class
     biological_role: 'Proposed exogenous antioxidant substrate class; not admitted to the glutathione precursor shared constraint.'
@@ -51,6 +74,7 @@ kc_input_traceability:
     ikc_membership: excluded
     claim_ceiling: biological-dependency
   - atom_id: BRS3-KC1-KIT-5
+    ikc_id: BRS3(KC1)
     input: Vitamin C
     input_type: nutrient/substance
     biological_role: 'Redox-network recycling input; not shown to participate in the glutathione precursor shared constraint.'
@@ -168,10 +192,10 @@ Maintain cysteine and glycine availability for glutathione synthesis so endogeno
 
 #### Summary
 
-This constraint concerns cysteine and glycine availability for glutathione synthesis. Both amino acids are substrates of glutathione, and a human study in older adults with deficient synthesis found that combined provision restored synthesis and intracellular glutathione concentrations. Their availability can therefore form a coherent precursor bottleneck under relevant deficiency states. The evidence is conditional, however, and does not establish ordinary dietary limitation, a universal intake threshold or isolated effects of either amino acid in the general population ([Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
+This constraint concerns cysteine and glycine availability for glutathione synthesis. Both amino acids are substrates of glutathione, and a human study in older adults with deficient synthesis found that glycine plus N-acetylcysteine (a cysteine source) restored red-cell synthesis and glutathione concentrations. Their availability can therefore form a coherent precursor bottleneck under relevant deficiency states. The evidence is conditional, however, and does not establish ordinary dietary limitation, a universal intake threshold or isolated effects of either amino acid in the general population ([Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
 
 - **Constraint and membership boundary:** Glutamate is required for glutathione structure but is not shown to be nutritionally limiting; polyphenols and vitamin C belong to wider redox biology rather than this precursor-availability constraint ([Packer et al., 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)).
-- **Evidence and measurement boundary:** The cited human evidence measured combined cysteine-and-glycine supplementation in older adults with deficient glutathione synthesis; it does not separate either amino acid's effect or establish the same limitation in other populations ([Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
+- **Evidence and measurement boundary:** Eight older adults were restudied after 14 days of glycine plus N-acetylcysteine, alongside eight younger controls. Isotope tracing measured red-cell glutathione synthesis; there was no placebo-controlled treatment arm, no isolated constituent comparison and no brain measurement ([Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
 - **Biological relevance and provision limitation:** Adequate precursor availability can prevent glutathione-synthesis constraint under the studied conditions, but this does not show that extra intake improves redox function or clinical outcomes in glutathione-replete people ([Sekhar et al., 2011](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)).
 
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-kc-evidence-resource="cysteine">
@@ -188,11 +212,11 @@ This constraint concerns cysteine and glycine availability for glutathione synth
 
 #### Biological Importance
 
-Cysteine is the sulfur-amino-acid substrate in glutathione. In older adults with deficient glutathione synthesis, combined cysteine and glycine provision restored synthesis, supporting conditional cysteine availability as one part of the precursor constraint.
+Cysteine is the sulfur-amino-acid substrate in glutathione. In older adults with deficient glutathione synthesis, combined glycine and N-acetylcysteine provision restored red-cell synthesis, supporting conditional cysteine availability as one part of the precursor constraint.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — Deficient glutathione synthesis in aging humans was correctable by dietary cysteine and glycine supplementation, supporting conditional precursor limitation. The trial does not establish a general-population intake threshold or isolated effects of either amino acid.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — In eight older adults, 14 days of glycine plus N-acetylcysteine restored red-cell glutathione synthesis measured by isotope tracing. This supports a conditional shared precursor limitation, not an isolated cysteine effect, an ordinary-food equivalent or a brain outcome.</p></li>
 </ul>
 
 </div>
@@ -214,11 +238,11 @@ Cysteine is the sulfur-amino-acid substrate in glutathione. In older adults with
 
 #### Biological Importance
 
-Glycine contributes the terminal amino-acid residue of glutathione. In the same older-adult study, its combined provision with cysteine corrected deficient synthesis, supporting glycine as a conditional co-limiting precursor rather than a universally limiting dietary input.
+Glycine contributes the terminal amino-acid residue of glutathione. In the same older-adult study, glycine given with N-acetylcysteine corrected deficient red-cell synthesis, supporting glycine as a conditional co-limiting precursor rather than a universally limiting dietary input.
 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — Combined cysteine and glycine supplementation restored deficient glutathione synthesis and concentrations in older adults. The study does not isolate glycine's effect or establish ordinary dietary glycine limitation across populations.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011">Sekhar et al., 2011</a> — Glycine plus N-acetylcysteine restored deficient red-cell glutathione synthesis and concentrations in eight older adults after 14 days. The before/after study does not isolate glycine or establish ordinary dietary glycine shortage, brain synthesis or long-term clinical benefit.</p></li>
 </ul>
 
 </div>
@@ -230,6 +254,8 @@ Glycine contributes the terminal amino-acid residue of glutathione. In the same 
 No Emerging Biological Supports are currently prioritised for this KC.
 
 ### 5. Connected Mechanisms
+
+These links identify related biology for separate relationship assessment. They do not establish that this precursor pool constrains every listed mechanism.
 
 #### Functional Mechanisms
 

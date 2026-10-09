@@ -1,26 +1,42 @@
 ---
 title: Gut-Derived Inflammatory Signalling
 pm_id: BRS3-FM1-PM2
-mission: Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
+mission: >-
+  Limit gut-derived endotoxin spillover so barrier dysfunction does not drive
+  systemic inflammatory load.
 parent_fm: BRS3(FM1)
 parent_brs: BRS3
-summary: Lipopolysaccharide can enter the blood when the gut barrier changes. That rise is reviewed as a route to low-grade systemic inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.
+summary: >-
+  The evidence supports gut-derived inflammatory load as a barrier-related
+  process. Glutathione participates in oxidant-sensitive epithelial protection,
+  but is not a universal barrier constraint. A defined prebiotic intervention
+  changed permeability and circulating LPS in obese mice; this does not
+  establish a generic fibre requirement or a human intake target.
 cofactors: []
-intervention_dominance: Not established
+intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Dominant
 timing_specific: 'No'
-dose_sensitivity: No intake was shown to lower endotoxin translocation.
+dose_sensitivity: >-
+  No human intake target is established. Experimental epithelial and obese-mouse
+  effects must retain their exposure and endpoint boundaries.
 intervention_dominance_assessment:
   evidence_qualification:
-    label: Not established
-    rationale: 'No cited study establishes a fibre intake, butyrate dose, meal pattern, sleep practice, or activity practice that lowers lipopolysaccharide translocation.'
-    scope_note: A prebiotic-fibre trial in young adults did not lower lipopolysaccharide-binding protein overall. A fibre meta-analysis reported lower serum lipopolysaccharide with extreme heterogeneity and no change in lipopolysaccharide-binding protein. Neither result is admitted as a requirement.
+    label: Diet-Supported
+    rationale: >-
+      A defined oligofructose exposure influenced permeability and plasma LPS in
+      obese mice. This is bounded preclinical intervention evidence, not a human
+      dietary requirement.
+    scope_note: >-
+      KC1 upstream supply does not itself establish intervention responsiveness.
+      A human protocol and principal route remain unestablished.
     routes: []
   principal_route_selection:
     disposition: not-established
     selected_groups: []
-    rationale: Fermentation of fibre to short-chain fatty acids is a neighbouring fact. It was not shown to be a requirement for limiting endotoxin spillover.
-    comparative_limitations: 'No route is ranked above another, because none is established.'
+    rationale: >-
+      Preclinical influence does not establish which intervention group deserves
+      principal prominence.
+    comparative_limitations: Comparative dominance and human implementation remain unestablished.
     assessments: []
 dietary_addressability: not-established
 claim_ceiling: biological-dependency
@@ -29,48 +45,124 @@ evidence_status: stage-2b-dietary-addressability
 kc_applicability_adjudications:
   - kc_id: BRS3(KC1)
     ikc_id: BRS3(KC1)
-    arm_id: glutathione-precursor-sufficiency
-    applicability_proposition: Cysteine and glycine availability for glutathione synthesis constrains gut-derived inflammatory signalling on this page.
-    disposition: unresolved
-    established_links: []
+    arm_id: glutathione-epithelial-redox-supply
+    applicability_proposition: >-
+      KC1 provides cysteine and glycine for glutathione used in
+      oxidant-sensitive epithelial barrier protection. This resource connection
+      is distinct from the downstream NF-κB response to gut-derived signals.
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    relationship_type: supported-upstream-supply
+    established_links:
+      - >-
+        Cysteine and glycine are glutathione constituents; combined provision
+        increased red-cell glutathione synthesis.
+      - >-
+        Glutathione/redox manipulations alter oxidant-induced epithelial
+        paracellular permeability in Caco-2 cells.
     inferred_links:
-      - Endotoxin load would have to limit glutathione synthesis before the glutathione precursor pool could constrain this signalling step.
-    evidence_source:
+      - >-
+        Transfer from human red-cell precursor provision to intestinal
+        epithelial provision.
+      - >-
+        Contribution of this experimentally supported barrier route to
+        gut-derived endotoxin spillover in humans.
+    evidence_source: &ref_0
+      finding_ids:
+        - PM2-F3
       citation_keys:
-        - mohammad_role_2021
-        - batey_lipopolysaccharide_2024
         - sekhar_glutathione_2011
-    rationale: 'The KC page has one iKC, BRS3(KC1), glutathione precursor sufficiency. The historical title Antioxidant Substrate Sufficiency is not that iKC. Endotoxin and barrier papers on this PM do not show that cysteine and glycine availability constrains gut-derived inflammatory signalling. The mapping stays unresolved, so it is not published.'
+        - rao_glutathione_permeability_2000
+        - van_ampting_glutathione_barrier_2009
+    rationale: >-
+      The supported chain qualifies as upstream resource supply at its stated
+      experimental scope. It does not establish a general limiting constraint.
+    review_record: system/brs3-fm1-pm2-stage2b-report.md
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: precursor-inadequacy-endotoxin-constraint
+    applicability_proposition: >-
+      Precursor inadequacy limits barrier protection and increases endotoxin
+      spillover in a specified context.
+    disposition: unresolved
+    evidence_source: *ref_0
+    evidence_gap: >-
+      Establish inadequate precursor provision, the relevant intestinal
+      glutathione/redox consequence and increased endotoxin entry in a defined
+      context, accounting for compensation. Salmonella-rat depletion did not
+      establish this barrier limitation.
+    rationale: >-
+      Permeability, bacterial translocation and circulating LPS are different
+      endpoints. Endotoxin need not first reduce glutathione synthesis; the
+      previous rationale reversed the proposed dependency.
+    review_record: system/brs3-fm1-pm2-stage2b-report.md
 kc_change_control_flags:
   - flag_id: KC-CC-BRS3-FM1-PM2-01
     flag_type: ikc-scope-conflict
     kc_id: BRS3(KC1)
     ikc_id: BRS3(KC1)
-    proposition: The public entry named the historical KC title Antioxidant Substrate Sufficiency and said this PM draws on BRS3(KC1) as a shared redox constraint. The only iKC on that page is glutathione precursor sufficiency. That iKC is not established for gut-derived inflammatory signalling.
-    evidence_source:
-      citation_keys:
-        - sekhar_glutathione_2011
-        - mohammad_role_2021
-        - batey_lipopolysaccharide_2024
-    status: pending-kc-review
+    proposition: >-
+      Canonical KC1 constituent identity reconciled; cysteine and glycine
+      admitted as supported upstream supply, while conditional spillover
+      limitation remains unresolved.
+    evidence_source: *ref_0
+    status: resolved-by-kc-review
 references:
-  - '[Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)'
-  - '[Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)'
-  - '[Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)'
-  - '[Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)'
-  - '[Yunting Li et al. (2024) — Sodium Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#li_sodium_2024)'
-  - '[Cavaliere et al. (2022) — Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)'
-  - '[Grüter et al. (2023) — Propionate in the Peripheral Nervous System](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)'
-  - '[Hoyles et al. (2018) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)'
-  - '[Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)'
-  - '[Koh et al. (2016) — From Dietary Fiber to Host Physiology](/docs/papers/BRAIN-Diet-References#koh_dietary_2016)'
+  - >-
+    [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic
+    Inflammation and Potential
+    Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
+  - >-
+    [Batey et al. (2024) — Understanding Implications for
+    Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
+  - >-
+    [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children
+    with Attention Deficit Hyperactivity
+    Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
+  - >-
+    [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in
+    ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+  - >-
+    [Yunting Li et al. (2024) — Sodium Butyrate and
+    Neuroinflammation](/docs/papers/BRAIN-Diet-References#li_sodium_2024)
+  - >-
+    [Cavaliere et al. (2022) — Butyrate and
+    Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
+  - >-
+    [Grüter et al. (2023) — Propionate in the Peripheral Nervous
+    System](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
+  - >-
+    [Hoyles et al. (2018) — Propionate and the Blood–Brain
+    Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
+  - >-
+    [Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional
+    Behavior and Central GABA Receptor
+    Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+  - >-
+    [Koh et al. (2016) — From Dietary Fiber to Host
+    Physiology](/docs/papers/BRAIN-Diet-References#koh_dietary_2016)
+  - >-
+    [Sekhar et al.
+    (2011)](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+  - >-
+    [Rao et al.
+    (2000)](/docs/papers/BRAIN-Diet-References#rao_glutathione_permeability_2000)
+  - >-
+    [van Ampting et al.
+    (2009)](/docs/papers/BRAIN-Diet-References#van_ampting_glutathione_barrier_2009)
+  - >-
+    [Cani et al.
+    (2009)](/docs/papers/BRAIN-Diet-References#cani_glp2_endotoxemia_2009)
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'Propionate protected an in vitro blood–brain barrier model. That is not endotoxin translocation, and it is not an attention result. Gut microbiota studies in children remain context for this spillover step.'
+    rationale: >-
+      Propionate protected an in vitro blood–brain barrier model. That is not
+      endotoxin translocation, and it is not an attention result. Gut microbiota
+      studies in children remain context for this spillover step.
     references:
       - index: 1
         label: Hoyles et al. (2018)
@@ -87,7 +179,10 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.
+    rationale: >-
+      Butyrate and gut-barrier context may reduce neuroinflammation and support
+      brain energy metabolism — translational links to cognitive clarity without
+      direct ADHD treatment-efficacy claims.
     references:
       - index: 1
         label: Yunting Li et al. (2024)
@@ -104,7 +199,10 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the boundary of this spillover step.
+    rationale: >-
+      Low-grade endotoxemia and sustained systemic inflammation correlate with
+      mood instability in translational framing; gut-derived load remains the
+      boundary of this spillover step.
     references:
       - index: 1
         label: Mohammad & Thiemermann (2021)
@@ -116,7 +214,11 @@ phenome_relationships:
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.
+    rationale: >-
+      Gut–brain microbiota signalling modulates central GABA receptor expression
+      and anxiety-related behaviour in animal models; gut-derived inflammatory
+      load may intersect apprehensive-worry biology in anxiety/depression
+      comorbidity framing.
     references:
       - index: 1
         label: Bravo et al. (2011)
@@ -133,7 +235,11 @@ phenome_relationships:
     relationship_type: indirect
     confidence: low
     evidence_level: mechanistic
-    rationale: Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.
+    rationale: >-
+      Gut–brain GABAergic modulation has been linked to reduced anxiety- and
+      depression-related behaviour in preclinical models; social-engagement
+      outcomes remain indirect translational inference for this gut-inflammatory
+      PM.
     references:
       - index: 1
         label: Bravo et al. (2011)
@@ -141,18 +247,40 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#bravo_ingestion_2011
         data_level: Animal Data
     evidence_confidence: low-medium
-scientific_findings_intro: 'A change in the gut barrier can let lipopolysaccharide into the blood, and that rise is reviewed as a route to low-grade inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.'
+scientific_findings_intro: >-
+  The evidence supports gut-derived inflammatory load as a barrier-related
+  process. Glutathione participates in oxidant-sensitive epithelial protection,
+  but is not a universal barrier constraint. A defined prebiotic intervention
+  changed permeability and circulating LPS in obese mice; this does not
+  establish a generic fibre requirement or a human intake target.
 scientific_findings:
   - id: PM2-F1
     finding_label: Barrier translocation can raise systemic inflammatory signalling
     presentation: mechanistic-basis
     fm_rollup: true
-    finding_summary: The gut lining normally keeps lipopolysaccharide out of the blood. Dietary change can alter that lining. Lipopolysaccharide that gets through activates Toll-like receptor 4 and is reviewed as a route to low-grade systemic inflammation.
-    finding_interpretation: 'This is the exposure route. It is a review, not a measurement of how much lipopolysaccharide crosses after a fibre intake.'
-    finding_statement: 'Metabolic endotoxemia is lipopolysaccharide reaching the blood after a change in the gut barrier, with downstream inflammatory signalling through Toll-like receptor 4.'
+    finding_summary: >-
+      The gut lining normally keeps lipopolysaccharide out of the blood. Dietary
+      change can alter that lining. Lipopolysaccharide that gets through
+      activates Toll-like receptor 4 and is reviewed as a route to low-grade
+      systemic inflammation.
+    finding_interpretation: >-
+      This is the exposure route. It is a review, not a measurement of how much
+      lipopolysaccharide crosses after a fibre intake.
+    finding_statement: >-
+      Metabolic endotoxemia is lipopolysaccharide reaching the blood after a
+      change in the gut barrier, with downstream inflammatory signalling through
+      Toll-like receptor 4.
     synthesised_evidence_confidence: not-yet-scored
-    synthesis: Mohammad and Thiemermann review diet-linked metabolic endotoxemia. The gut epithelium normally limits lipopolysaccharide absorption. Structural change in that lining lets lipopolysaccharide into the bloodstream. Lipopolysaccharide then activates Toll-like receptor 4 and pro-inflammatory cytokines. The review suggests dietary interventions might reduce that inflammation. It does not test one.
-    synthesis_limitations: A narrative review of the route is not a human translocation-flux trial and not a fibre-dose result.
+    synthesis: >-
+      Mohammad and Thiemermann review diet-linked metabolic endotoxemia. The gut
+      epithelium normally limits lipopolysaccharide absorption. Structural
+      change in that lining lets lipopolysaccharide into the bloodstream.
+      Lipopolysaccharide then activates Toll-like receptor 4 and
+      pro-inflammatory cytokines. The review suggests dietary interventions
+      might reduce that inflammation. It does not test one.
+    synthesis_limitations: >-
+      A narrative review of the route is not a human translocation-flux trial
+      and not a fibre-dose result.
     evidence_considered:
       - label: Mohammad and Thiemermann (2021)
         citation_key: mohammad_role_2021
@@ -160,27 +288,458 @@ scientific_findings:
         data_level: Mechanistic
         exposure_context: narrative review of diet-linked endotoxemia
         evidence_source: repository-inherited
-        directional_finding: 'Barrier change can raise plasma lipopolysaccharide, and that lipopolysaccharide activates Toll-like receptor 4.'
+        directional_finding: >-
+          Barrier change can raise plasma lipopolysaccharide, and that
+          lipopolysaccharide activates Toll-like receptor 4.
         assessment:
-          study: 'Narrative review of metabolic endotoxemia, barrier change, and inflammatory signalling.'
+          study: >-
+            Narrative review of metabolic endotoxemia, barrier change, and
+            inflammatory signalling.
           population: Animal and human literature. No new cohort.
-          result: Lipopolysaccharide that crosses a changed gut lining is reviewed as a contributor to low-grade systemic inflammation.
+          result: >-
+            Lipopolysaccharide that crosses a changed gut lining is reviewed as
+            a contributor to low-grade systemic inflammation.
           effect_magnitude: No single translocation rate or intake effect is pooled.
-          evidence_summary: 'Endotoxin spillover is a barrier-to-blood route, not a nutrient reaction.'
-          limitations: 'The review does not measure translocation after fermentable fibre, and it does not test butyrate as a requirement.'
+          evidence_summary: >-
+            Endotoxin spillover is a barrier-to-blood route, not a nutrient
+            reaction.
+          limitations: >-
+            The review does not measure translocation after fermentable fibre,
+            and it does not test butyrate as a requirement.
     connected_supportive_evidence:
       - label: Koh et al. (2016)
         citation_key: koh_dietary_2016
         href: /docs/papers/BRAIN-Diet-References#koh_dietary_2016
         data_level: Mechanistic
-        why_relevant: 'Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate.'
-        why_excluded: 'Fermentation of fibre is not a measurement of lipopolysaccharide crossing the barrier, so fibre is not admitted as a requirement for limiting spillover.'
+        why_relevant: >-
+          Gut bacteria ferment dietary fibre to short-chain fatty acids,
+          including butyrate.
+        why_excluded: >-
+          Fermentation of fibre is not a measurement of lipopolysaccharide
+          crossing the barrier, so fibre is not admitted as a requirement for
+          limiting spillover.
       - label: Cavaliere et al. (2022)
         citation_key: cavaliere_butyrate_2022
         href: /docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022
         data_level: Animal Data
-        why_relevant: Butyrate given to obese mice partly reduced neuroinflammation in cortex.
-        why_excluded: 'Exogenous butyrate in obese mice is not dietary fibre, and the study did not measure lipopolysaccharide translocation.'
+        why_relevant: >-
+          Butyrate given to obese mice partly reduced neuroinflammation in
+          cortex.
+        why_excluded: >-
+          Exogenous butyrate in obese mice is not dietary fibre, and the study
+          did not measure lipopolysaccharide translocation.
+  - id: PM2-F3
+    finding_label: >-
+      Glutathione supports oxidant-sensitive epithelial protection, with
+      context-dependent barrier effects
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Glutathione prevented oxidant-induced permeability in epithelial cells,
+      but depletion did not increase permeability or bacterial translocation in
+      infected rats.
+    finding_statement: >-
+      KC1 provides cysteine and glycine for glutathione used in
+      oxidant-sensitive epithelial barrier protection. This resource connection
+      is distinct from the downstream NF-κB response to gut-derived signals.
+    finding_interpretation: >-
+      Supported upstream resource supply is distinct from an established dietary
+      constraint on endotoxin entry.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Precursor provision, epithelial permeability and infectious translocation
+      measure different links. The chain supports bounded resource relevance;
+      the negative depletion result prevents a universal glutathione-barrier
+      constraint claim.
+    synthesis_limitations: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+    evidence_considered:
+      - label: Sekhar et al. (2011)
+        citation_key: sekhar_glutathione_2011
+        href: /docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011
+        data_level: Human Mechanistic
+        exposure_context: >-
+          Eight older and eight younger adults; older adults restudied after 14
+          days of combined glycine and N-acetylcysteine.
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Stable-isotope tracing measured increased red-cell glutathione
+          synthesis.
+        assessment:
+          study: >-
+            Eight older and eight younger adults; older adults restudied after
+            14 days of combined glycine and N-acetylcysteine.
+          population: >-
+            Eight older and eight younger adults; older adults restudied after
+            14 days of combined glycine and N-acetylcysteine.
+          result: >-
+            Stable-isotope tracing measured increased red-cell glutathione
+            synthesis.
+          effect_magnitude: No human dietary effect magnitude assigned.
+          evidence_summary: >-
+            Stable-isotope tracing measured increased red-cell glutathione
+            synthesis.
+          limitations: >-
+            Before/after intervention; no isolated constituent effect,
+            intestinal glutathione or endotoxin endpoint.
+      - label: Rao et al. (2000)
+        citation_key: rao_glutathione_permeability_2000
+        href: /docs/papers/BRAIN-Diet-References#rao_glutathione_permeability_2000
+        data_level: Cellular / Molecular
+        exposure_context: Caco-2 epithelial monolayers exposed to hydrogen peroxide.
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Glutathione and N-acetylcysteine prevented oxidant-induced
+          paracellular permeability; glutathione oxidation accompanied
+          phosphatase inhibition.
+        assessment:
+          study: Caco-2 epithelial monolayers exposed to hydrogen peroxide.
+          population: Caco-2 epithelial monolayers exposed to hydrogen peroxide.
+          result: >-
+            Glutathione and N-acetylcysteine prevented oxidant-induced
+            paracellular permeability; glutathione oxidation accompanied
+            phosphatase inhibition.
+          effect_magnitude: No human dietary effect magnitude assigned.
+          evidence_summary: >-
+            Glutathione and N-acetylcysteine prevented oxidant-induced
+            paracellular permeability; glutathione oxidation accompanied
+            phosphatase inhibition.
+          limitations: >-
+            Primary abstract verified; cell permeability is not LPS entry, a
+            dietary exposure or a clinical outcome.
+      - label: van Ampting et al. (2009)
+        citation_key: van_ampting_glutathione_barrier_2009
+        href: >-
+          /docs/papers/BRAIN-Diet-References#van_ampting_glutathione_barrier_2009
+        data_level: Animal Data
+        exposure_context: >-
+          Salmonella-infected rats with depleted or maintained mucosal
+          glutathione.
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Depletion increased mucosal inflammation without increasing
+          permeability or bacterial translocation. Cystine protection was not
+          established as glutathione-mediated.
+        assessment:
+          study: >-
+            Salmonella-infected rats with depleted or maintained mucosal
+            glutathione.
+          population: >-
+            Salmonella-infected rats with depleted or maintained mucosal
+            glutathione.
+          result: >-
+            Depletion increased mucosal inflammation without increasing
+            permeability or bacterial translocation. Cystine protection was not
+            established as glutathione-mediated.
+          effect_magnitude: No human dietary effect magnitude assigned.
+          evidence_summary: >-
+            Depletion increased mucosal inflammation without increasing
+            permeability or bacterial translocation. Cystine protection was not
+            established as glutathione-mediated.
+          limitations: >-
+            Infection-specific animal context; bacteria translocation differs
+            from isolated LPS flux.
+    connected_supportive_evidence: []
+  - id: PM2-F4
+    finding_label: Oligofructose changed permeability and circulating endotoxin in obese mice
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      A prebiotic exposure improved barrier readouts and lowered circulating LPS
+      in obese mice; GLP-2 blockade attenuated the effects.
+    finding_statement: >-
+      The defined mouse exposure provides evidence for dietary state regulation,
+      rather than proving fermentable fibre is a necessary substrate for this
+      PM.
+    finding_interpretation: >-
+      This corrects the blanket assertion that no dietary exposure influenced
+      this state. It does not approve a generic fibre requirement or a human
+      intervention protocol.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Permeability assays, tight-junction observations and circulating LPS
+      converge within the obese-mouse experiment. GLP-2 antagonism supports a
+      mediated barrier pathway; fermentation or SCFA production alone would not
+      establish it.
+    synthesis_limitations: >-
+      Obese-mouse intervention; plasma LPS is not a direct translocation-flux
+      measurement. No human dose or benefit is assigned, and the tested exposure
+      cannot be generalized to every fermentable fibre.
+    evidence_considered:
+      - label: Cani et al. (2009)
+        citation_key: cani_glp2_endotoxemia_2009
+        href: /docs/papers/BRAIN-Diet-References#cani_glp2_endotoxemia_2009
+        data_level: Animal Data
+        exposure_context: 'Obese mice receiving oligofructose, with GLP-2 pathway manipulations.'
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Improved intestinal permeability and tight-junction readouts with
+          lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.
+        assessment:
+          study: >-
+            Obese mice receiving oligofructose, with GLP-2 pathway
+            manipulations.
+          population: >-
+            Obese mice receiving oligofructose, with GLP-2 pathway
+            manipulations.
+          result: >-
+            Improved intestinal permeability and tight-junction readouts with
+            lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.
+          effect_magnitude: No human dietary effect magnitude assigned.
+          evidence_summary: >-
+            Improved intestinal permeability and tight-junction readouts with
+            lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.
+          limitations: >-
+            Preclinical dietary state regulation, not biochemical necessity,
+            human implementation or brain benefit. Full-dose protocol
+            verification remains pending.
+    connected_supportive_evidence: []
+dietary_input_traceability:
+  - atom_id: PM2-KC1-UPSTREAM-1
+    input: Cysteine
+    input_type: supported upstream supply
+    biological_role: >-
+      Cysteine supplies a constituent of glutathione used in epithelial redox
+      protection. Glutathione prevented oxidant-induced paracellular
+      permeability in a cell model; this supports upstream supply to a
+      barrier-protection route, not a proven dietary reduction in endotoxin
+      spillover.
+    evidence_source: *ref_0
+    evidence_limitation: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+    substance_id: cysteine
+    canonical_identity:
+      status: resolved
+      substance_id: cysteine
+      substance_href: >-
+        /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+      verified_against:
+        - registry/substances.json
+        - >-
+          docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3-KC1-KIT-1
+    relationship_type: supported-upstream-supply
+  - atom_id: PM2-KC1-UPSTREAM-2
+    input: Glycine
+    input_type: supported upstream supply
+    biological_role: >-
+      Glycine supplies a constituent of glutathione used in epithelial redox
+      protection. Glutathione prevented oxidant-induced paracellular
+      permeability in a cell model; this supports upstream supply to a
+      barrier-protection route, not a proven dietary reduction in endotoxin
+      spillover.
+    evidence_source: *ref_0
+    evidence_limitation: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+    substance_id: glycine
+    canonical_identity:
+      status: resolved
+      substance_id: glycine
+      substance_href: >-
+        /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
+      verified_against:
+        - registry/substances.json
+        - >-
+          docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3-KC1-KIT-2
+    relationship_type: supported-upstream-supply
+dietary_lever_atoms:
+  - atom_id: PM2-KC1-UPSTREAM-1
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Cysteine supplies a constituent of glutathione used in epithelial redox
+      protection. Glutathione prevented oxidant-induced paracellular
+      permeability in a cell model; this supports upstream supply to a
+      barrier-protection route, not a proven dietary reduction in endotoxin
+      spillover.
+    evidence_limitation: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+  - atom_id: PM2-KC1-UPSTREAM-2
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+    permitted_wording: >-
+      Glycine supplies a constituent of glutathione used in epithelial redox
+      protection. Glutathione prevented oxidant-induced paracellular
+      permeability in a cell model; this supports upstream supply to a
+      barrier-protection route, not a proven dietary reduction in endotoxin
+      spillover.
+    evidence_limitation: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+dietary_lever_presentations:
+  - atom_id: PM2-KC1-UPSTREAM-1
+    label: Cysteine
+    presentation_section: 3.1.3
+    reader_description: >-
+      Cysteine helps supply glutathione used in intestinal epithelial redox
+      protection.
+    description_finding_id: PM2-F3
+  - atom_id: PM2-KC1-UPSTREAM-2
+    label: Glycine
+    presentation_section: 3.1.3
+    reader_description: >-
+      Glycine helps supply glutathione used in intestinal epithelial redox
+      protection.
+    description_finding_id: PM2-F3
+input_identity_audit:
+  - atom_id: PM2-DIT-1
+    input: Magnesium ions (Mg²⁺)
+    status: resolved
+    substance_id: magnesium
+    substance_href: /docs/substances/nutrients/micronutrients/minerals/macro/magnesium
+    verified_against:
+      - registry/substances.json
+      - docs/substances/nutrients/micronutrients/minerals/macro/magnesium.md
+    identity_scope: >-
+      Mg²⁺ catalytic ionic form; the canonical magnesium page identifies the
+      substance, not an admitted dietary intervention.
+  - atom_id: PM2-KC1-UPSTREAM-1
+    input: Cysteine
+    status: resolved
+    substance_id: cysteine
+    substance_href: >-
+      /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+    verified_against:
+      - registry/substances.json
+      - >-
+        docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md
+  - atom_id: PM2-KC1-UPSTREAM-2
+    input: Glycine
+    status: resolved
+    substance_id: glycine
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
+    verified_against:
+      - registry/substances.json
+      - >-
+        docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md
+pm_kc_relationships:
+  - relationship_id: PM2-KC1-UPSTREAM-POOL
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    relationship_type: supported-upstream-supply
+    input: Glutathione precursor pool (cysteine and glycine)
+    input_type: supported upstream supply
+    pm_biological_role: >-
+      KC1 provides cysteine and glycine for glutathione used in
+      oxidant-sensitive epithelial barrier protection. This resource connection
+      is distinct from the downstream NF-κB response to gut-derived signals.
+    evidence_source: *ref_0
+    evidence_limitation: >-
+      Supported upstream supply through glutathione-dependent epithelial redox
+      protection, not an established dietary constraint on endotoxin spillover.
+      Human precursor tracing measured red-cell glutathione after combined
+      glycine and N-acetylcysteine; epithelial experiments measured
+      oxidant-induced paracellular permeability. In Salmonella-infected rats,
+      glutathione depletion did not increase permeability or bacterial
+      translocation. Neither intestinal precursor inadequacy, individual
+      constituent limitation, human LPS reduction nor benefit from additional
+      intake is established.
+    presentation_label: Glutathione precursor pool (cysteine and glycine)
+    reader_description: >-
+      The precursor pool supplies glutathione used in epithelial redox
+      protection.
+    description_finding_id: PM2-F3
+    applicability_label: Supported upstream supply
+    origin_label: 'KC1: Glutathione Precursor Sufficiency'
+    kc_href: >-
+      /docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability
+    constituent_relationships:
+      - relationship_id: PM2-KC1-UPSTREAM-1-REL
+        pm_atom_id: PM2-KC1-UPSTREAM-1
+        kc_atom_id: BRS3-KC1-KIT-1
+        ikc_id: BRS3-KC1-KIT-1
+        kc_membership_status: canonical-reviewed
+        label: Cysteine
+        presentation_section: 3.1.3
+        reader_description: >-
+          Cysteine helps supply glutathione used in intestinal epithelial redox
+          protection.
+        description_finding_id: PM2-F3
+        relationship_type: supported-upstream-supply
+        substance_id: cysteine
+        canonical_identity:
+          status: resolved
+          substance_id: cysteine
+          substance_href: >-
+            /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+          verified_against:
+            - registry/substances.json
+            - >-
+              docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md
+        disposition: established
+        rationale: >-
+          Individually reviewed constituent provision plus experimental
+          epithelial redox protection; no individual limiting effect or human
+          spillover benefit admitted.
+      - relationship_id: PM2-KC1-UPSTREAM-2-REL
+        pm_atom_id: PM2-KC1-UPSTREAM-2
+        kc_atom_id: BRS3-KC1-KIT-2
+        ikc_id: BRS3-KC1-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Glycine
+        presentation_section: 3.1.3
+        reader_description: >-
+          Glycine helps supply glutathione used in intestinal epithelial redox
+          protection.
+        description_finding_id: PM2-F3
+        relationship_type: supported-upstream-supply
+        substance_id: glycine
+        canonical_identity:
+          status: resolved
+          substance_id: glycine
+          substance_href: >-
+            /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
+          verified_against:
+            - registry/substances.json
+            - >-
+              docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md
+        disposition: established
+        rationale: >-
+          Individually reviewed constituent provision plus experimental
+          epithelial redox protection; no individual limiting effect or human
+          spillover benefit admitted.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -194,16 +753,16 @@ scientific_findings:
 
 (Endotoxin Spillover and Gut Interface Management)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
 Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
 
 
-**Intervention Dominance:** Not established — No principal intervention route established
+**Intervention Dominance:** Diet-Supported in an obese-mouse experiment; no principal intervention route established
 
-No cited study establishes a fibre intake, butyrate dose, meal pattern, sleep practice, or activity practice that lowers lipopolysaccharide translocation.
+A defined oligofructose exposure changed permeability and circulating LPS in obese mice. Human implementation and comparative route prominence remain unestablished. [[14]](#pm-ref-14)
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -249,7 +808,12 @@ No PM-specific cofactor or substrate requirement is established.
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No mapping established.
+- Glutathione precursor pool (cysteine and glycine)
+
+#### Individual KC inputs
+
+- Cysteine
+- Glycine
 
 </div>
 </div>
@@ -261,14 +825,14 @@ No mapping established.
 </div>
 ### Overview
 
-Lipopolysaccharide can enter the blood when the gut barrier changes. Mohammad and Thiemermann (2021) review that rise as a route to low-grade systemic inflammation through Toll-like receptor 4. [[1]](#pm-ref-1) Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate. Koh et al. (2016) describe that fermentation. [[10]](#pm-ref-10) It was not shown to lower endotoxin translocation.
+The gut barrier helps contain microbial products within the intestine. When that containment changes, endotoxin can contribute to systemic inflammatory signalling. This PM concerns the gut-derived load reaching the circulation, connecting intestinal barrier function with inflammatory regulation elsewhere. Experimental evidence identifies epithelial redox protection and a prebiotic-sensitive barrier route, while their context determines what can be inferred about dietary action. [[1]](#pm-ref-1) [[12]](#pm-ref-12) [[14]](#pm-ref-14)
 
-- **Benefits:** Limiting this spillover keeps microbial products from adding to systemic inflammation after the barrier has changed. [[1]](#pm-ref-1)
-- **Implementation Notes:** No intake was shown to lower endotoxin translocation. Fermentable fibre and butyrate are not dietary targets for this step. [[10]](#pm-ref-10)
-- **Biological Relevance:** The transcriptional response that can follow this inflammatory load is a later step — see PM1.
+- **Benefits:** Limiting inappropriate microbial-product entry helps contain inflammatory pressure; the reviewed experiments do not establish a clinical treatment benefit. [[1]](#pm-ref-1)
+- **Implementation Notes:** Cysteine and glycine provide upstream glutathione resources. Oligofructose altered barrier readouts in obese mice, but a human intake protocol is not established. [[11]](#pm-ref-11) [[14]](#pm-ref-14)
+- **Biological Relevance:** Gut-barrier processes connect BRS5 to this gut-derived load; [PM1](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) concerns the downstream NF-κB response.
 
 ## 2. Primary Biological Effects
-↓ LPS translocation; ↓ neuroinflammatory signalling
+Gut-to-blood microbial-product handling; barrier-related systemic inflammatory signalling.
 
 ## 3. Intervention Levers
 
@@ -324,7 +888,7 @@ Koh et al. (2016) describe fermentation of dietary fibre to short-chain fatty ac
 
 #### (Boundaries of the mechanism)
 
-Upstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation). Downstream cytokine-network expression belongs to [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Native gut-barrier biology is represented within [BRS5](/docs/biological-targets/gut-brain-axis-enteric-nervous-system); this PM captures the BRS3 inflammatory-tone output of gut-derived signals.
+Downstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation). Downstream cytokine-network expression belongs to [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Native gut-barrier biology is represented within [BRS5](/docs/biological-targets/gut-brain-axis-enteric-nervous-system); this PM captures the BRS3 inflammatory-tone output of gut-derived signals.
 
 #### (Integration within BRS3)
 
@@ -338,9 +902,13 @@ This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/b
 
 #### Summary
 
-A change in the gut barrier can let lipopolysaccharide into the blood, and that rise is reviewed as a route to low-grade inflammation. Dietary fibre is fermented to short-chain fatty acids. That fermentation was not shown to lower endotoxin translocation.
+The evidence supports gut-derived inflammatory load as a barrier-related process. Glutathione participates in oxidant-sensitive epithelial protection, but is not a universal barrier constraint. A defined prebiotic intervention changed permeability and circulating LPS in obese mice; this does not establish a generic fibre requirement or a human intake target.
 
 <ScientificFinding finding={{"id":"PM2-F1","finding_label":"Barrier translocation can raise systemic inflammatory signalling","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"The gut lining normally keeps lipopolysaccharide out of the blood. Dietary change can alter that lining. Lipopolysaccharide that gets through activates Toll-like receptor 4 and is reviewed as a route to low-grade systemic inflammation.","finding_interpretation":"This is the exposure route. It is a review, not a measurement of how much lipopolysaccharide crosses after a fibre intake.","finding_statement":"Metabolic endotoxemia is lipopolysaccharide reaching the blood after a change in the gut barrier, with downstream inflammatory signalling through Toll-like receptor 4.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mohammad and Thiemermann review diet-linked metabolic endotoxemia. The gut epithelium normally limits lipopolysaccharide absorption. Structural change in that lining lets lipopolysaccharide into the bloodstream. Lipopolysaccharide then activates Toll-like receptor 4 and pro-inflammatory cytokines. The review suggests dietary interventions might reduce that inflammation. It does not test one.","synthesis_limitations":"A narrative review of the route is not a human translocation-flux trial and not a fibre-dose result.","evidence_considered":[{"label":"Mohammad and Thiemermann (2021)","citation_key":"mohammad_role_2021","href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","data_level":"Mechanistic","exposure_context":"narrative review of diet-linked endotoxemia","evidence_source":"repository-inherited","directional_finding":"Barrier change can raise plasma lipopolysaccharide, and that lipopolysaccharide activates Toll-like receptor 4.","assessment":{"study":"Narrative review of metabolic endotoxemia, barrier change, and inflammatory signalling.","population":"Animal and human literature. No new cohort.","result":"Lipopolysaccharide that crosses a changed gut lining is reviewed as a contributor to low-grade systemic inflammation.","effect_magnitude":"No single translocation rate or intake effect is pooled.","evidence_summary":"Endotoxin spillover is a barrier-to-blood route, not a nutrient reaction.","limitations":"The review does not measure translocation after fermentable fibre, and it does not test butyrate as a requirement."},"canonical_reference":{"author_year":"Mohammad and Thiemermann (2021)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Koh et al. (2016)","citation_key":"koh_dietary_2016","href":"/docs/papers/BRAIN-Diet-References#koh_dietary_2016","data_level":"Mechanistic","why_relevant":"Gut bacteria ferment dietary fibre to short-chain fatty acids, including butyrate.","why_excluded":"Fermentation of fibre is not a measurement of lipopolysaccharide crossing the barrier, so fibre is not admitted as a requirement for limiting spillover.","canonical_reference":{"author_year":"Koh et al. (2016)","number":10,"anchor":"#pm-ref-10"}},{"label":"Cavaliere et al. (2022)","citation_key":"cavaliere_butyrate_2022","href":"/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022","data_level":"Animal Data","why_relevant":"Butyrate given to obese mice partly reduced neuroinflammation in cortex.","why_excluded":"Exogenous butyrate in obese mice is not dietary fibre, and the study did not measure lipopolysaccharide translocation.","canonical_reference":{"author_year":"Cavaliere et al. (2022)","number":6,"anchor":"#pm-ref-6"}}]}} />
+
+<ScientificFinding finding={{"id":"PM2-F3","finding_label":"Glutathione supports oxidant-sensitive epithelial protection, with context-dependent barrier effects","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Glutathione prevented oxidant-induced permeability in epithelial cells, but depletion did not increase permeability or bacterial translocation in infected rats.","finding_statement":"KC1 provides cysteine and glycine for glutathione used in oxidant-sensitive epithelial barrier protection. This resource connection is distinct from the downstream NF-κB response to gut-derived signals.","finding_interpretation":"Supported upstream resource supply is distinct from an established dietary constraint on endotoxin entry.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Precursor provision, epithelial permeability and infectious translocation measure different links. The chain supports bounded resource relevance; the negative depletion result prevents a universal glutathione-barrier constraint claim.","synthesis_limitations":"Supported upstream supply through glutathione-dependent epithelial redox protection, not an established dietary constraint on endotoxin spillover. Human precursor tracing measured red-cell glutathione after combined glycine and N-acetylcysteine; epithelial experiments measured oxidant-induced paracellular permeability. In Salmonella-infected rats, glutathione depletion did not increase permeability or bacterial translocation. Neither intestinal precursor inadequacy, individual constituent limitation, human LPS reduction nor benefit from additional intake is established.","evidence_considered":[{"label":"Sekhar et al. (2011)","citation_key":"sekhar_glutathione_2011","href":"/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011","data_level":"Human Mechanistic","exposure_context":"Eight older and eight younger adults; older adults restudied after 14 days of combined glycine and N-acetylcysteine.","evidence_source":"bounded-external-search","directional_finding":"Stable-isotope tracing measured increased red-cell glutathione synthesis.","assessment":{"study":"Eight older and eight younger adults; older adults restudied after 14 days of combined glycine and N-acetylcysteine.","population":"Eight older and eight younger adults; older adults restudied after 14 days of combined glycine and N-acetylcysteine.","result":"Stable-isotope tracing measured increased red-cell glutathione synthesis.","effect_magnitude":"No human dietary effect magnitude assigned.","evidence_summary":"Stable-isotope tracing measured increased red-cell glutathione synthesis.","limitations":"Before/after intervention; no isolated constituent effect, intestinal glutathione or endotoxin endpoint."},"canonical_reference":{"author_year":"Sekhar et al. (2011)","number":11,"anchor":"#pm-ref-11"}},{"label":"Rao et al. (2000)","citation_key":"rao_glutathione_permeability_2000","href":"/docs/papers/BRAIN-Diet-References#rao_glutathione_permeability_2000","data_level":"Cellular / Molecular","exposure_context":"Caco-2 epithelial monolayers exposed to hydrogen peroxide.","evidence_source":"bounded-external-search","directional_finding":"Glutathione and N-acetylcysteine prevented oxidant-induced paracellular permeability; glutathione oxidation accompanied phosphatase inhibition.","assessment":{"study":"Caco-2 epithelial monolayers exposed to hydrogen peroxide.","population":"Caco-2 epithelial monolayers exposed to hydrogen peroxide.","result":"Glutathione and N-acetylcysteine prevented oxidant-induced paracellular permeability; glutathione oxidation accompanied phosphatase inhibition.","effect_magnitude":"No human dietary effect magnitude assigned.","evidence_summary":"Glutathione and N-acetylcysteine prevented oxidant-induced paracellular permeability; glutathione oxidation accompanied phosphatase inhibition.","limitations":"Primary abstract verified; cell permeability is not LPS entry, a dietary exposure or a clinical outcome."},"canonical_reference":{"author_year":"Rao et al. (2000)","number":12,"anchor":"#pm-ref-12"}},{"label":"van Ampting et al. (2009)","citation_key":"van_ampting_glutathione_barrier_2009","href":"/docs/papers/BRAIN-Diet-References#van_ampting_glutathione_barrier_2009","data_level":"Animal Data","exposure_context":"Salmonella-infected rats with depleted or maintained mucosal glutathione.","evidence_source":"bounded-external-search","directional_finding":"Depletion increased mucosal inflammation without increasing permeability or bacterial translocation. Cystine protection was not established as glutathione-mediated.","assessment":{"study":"Salmonella-infected rats with depleted or maintained mucosal glutathione.","population":"Salmonella-infected rats with depleted or maintained mucosal glutathione.","result":"Depletion increased mucosal inflammation without increasing permeability or bacterial translocation. Cystine protection was not established as glutathione-mediated.","effect_magnitude":"No human dietary effect magnitude assigned.","evidence_summary":"Depletion increased mucosal inflammation without increasing permeability or bacterial translocation. Cystine protection was not established as glutathione-mediated.","limitations":"Infection-specific animal context; bacteria translocation differs from isolated LPS flux."},"canonical_reference":{"author_year":"van Ampting et al. (2009)","number":13,"anchor":"#pm-ref-13"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM2-F4","finding_label":"Oligofructose changed permeability and circulating endotoxin in obese mice","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"A prebiotic exposure improved barrier readouts and lowered circulating LPS in obese mice; GLP-2 blockade attenuated the effects.","finding_statement":"The defined mouse exposure provides evidence for dietary state regulation, rather than proving fermentable fibre is a necessary substrate for this PM.","finding_interpretation":"This corrects the blanket assertion that no dietary exposure influenced this state. It does not approve a generic fibre requirement or a human intervention protocol.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Permeability assays, tight-junction observations and circulating LPS converge within the obese-mouse experiment. GLP-2 antagonism supports a mediated barrier pathway; fermentation or SCFA production alone would not establish it.","synthesis_limitations":"Obese-mouse intervention; plasma LPS is not a direct translocation-flux measurement. No human dose or benefit is assigned, and the tested exposure cannot be generalized to every fermentable fibre.","evidence_considered":[{"label":"Cani et al. (2009)","citation_key":"cani_glp2_endotoxemia_2009","href":"/docs/papers/BRAIN-Diet-References#cani_glp2_endotoxemia_2009","data_level":"Animal Data","exposure_context":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","evidence_source":"bounded-external-search","directional_finding":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","assessment":{"study":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","population":"Obese mice receiving oligofructose, with GLP-2 pathway manipulations.","result":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","effect_magnitude":"No human dietary effect magnitude assigned.","evidence_summary":"Improved intestinal permeability and tight-junction readouts with lower plasma LPS; GLP-2 antagonist abolished most prebiotic effects.","limitations":"Preclinical dietary state regulation, not biochemical necessity, human implementation or brain benefit. Full-dose protocol verification remains pending."},"canonical_reference":{"author_year":"Cani et al. (2009)","number":14,"anchor":"#pm-ref-14"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -510,4 +1078,8 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-8">[8]</span> [Hoyles et al. (2018) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
 - <span id="pm-ref-9">[9]</span> [Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
 - <span id="pm-ref-10">[10]</span> [Koh et al. (2016) — From Dietary Fiber to Host Physiology](/docs/papers/BRAIN-Diet-References#koh_dietary_2016)
+- <span id="pm-ref-11">[11]</span> [Sekhar et al. (2011)](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+- <span id="pm-ref-12">[12]</span> [Rao et al. (2000)](/docs/papers/BRAIN-Diet-References#rao_glutathione_permeability_2000)
+- <span id="pm-ref-13">[13]</span> [van Ampting et al. (2009)](/docs/papers/BRAIN-Diet-References#van_ampting_glutathione_barrier_2009)
+- <span id="pm-ref-14">[14]</span> [Cani et al. (2009)](/docs/papers/BRAIN-Diet-References#cani_glp2_endotoxemia_2009)
 

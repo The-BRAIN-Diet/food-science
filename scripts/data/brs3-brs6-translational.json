@@ -483,13 +483,13 @@
     ]
   },
   {
-    "path": "brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx",
-    "translational": "Aligns feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
-    "scientific": "Alignment of feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
+    "path": "brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "translational": "Explains how feeding schedules influence peripheral clock timing. A metabolic benefit from meal timing does not, by itself, establish clock synchronisation.",
+    "scientific": "Feeding schedules can shift peripheral glucose and adipose-clock timing without shifting melatonin or cortisol. Metabolic protection from timed feeding is not that clock result.",
     "bullets": [
-      "Entrains metabolism to light–dark and feeding rhythms — within BRS6.",
-      "Supports cortisol phase alignment across the 24-hour cycle — within BRS6.",
-      "Links meal timing and sleep structure to HPA-axis stability — within BRS6."
+      "A five-hour meal delay shifted glucose and adipose PER2 timing in ten healthy men.",
+      "Melatonin and cortisol timing did not shift in that protocol.",
+      "Mouse metabolic protection is not a human clock-phase measurement."
     ]
   },
   {

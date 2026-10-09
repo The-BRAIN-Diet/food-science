@@ -1,0 +1,1882 @@
+{
+  "date": "2026-10-08",
+  "authorisation": "User: can you make all the PM examples you did for BRS5 and BRS6 live please",
+  "scope": "Canonical local pages; no deployment. Retired BRS6 PM5 remains redirected. No confidence uplift or automatic upstream inheritance.",
+  "pages": [
+    {
+      "id": "BRS5-FM1-PM1",
+      "source": "docs/system/stage2b-preview/brs5-fm1-pm1-gut-barrier-tight-junction-integrity-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Serum zonulin was associated with hyperactivity scores in one small cross-sectional ADHD study {{cite:ozyurt_increased_2018}}, but serum zonulin is an indirect barrier marker and the design cannot establish that tight-junction integrity causes attention instability. The attached microbiota-composition study did not measure permeability or tight junctions {{cite:jiang_gut_2018}}. The PM → Phenome relationship therefore remains indirect and observational.",
+            "scientific_findings": [
+              "PM1-F3"
+            ],
+            "references": [
+              {
+                "index": 1,
+                "label": "Özyurt et al. (2018)",
+                "citation_key": "ozyurt_increased_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#ozyurt_increased_2018",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Jiang et al. (2018)",
+                "citation_key": "jiang_gut_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018",
+                "data_level": "Human Study"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Emotional Regulation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational",
+            "evidence_confidence": "low",
+            "rationale": "The attached ADHD microbiota study did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes {{cite:jiang_gut_2018}}. No direct evidence in the bounded assessment established that this PM modulates Emotional Regulation, so this remains a framework-level hypothesis with a direct-evidence gap.",
+            "scientific_findings": [
+              "PM1-F4"
+            ],
+            "references": [
+              {
+                "index": 1,
+                "label": "Jiang et al. (2018)",
+                "citation_key": "jiang_gut_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018",
+                "data_level": "Human Study"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Butyrate",
+            "disposition": "retained with boundaries",
+            "rationale": "Microbially produced short-chain fatty acid that serves as a colonocyte energy substrate and directly promotes intestinal tight-junction assembly.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Fermentable dietary fibre",
+            "disposition": "retained with boundaries",
+            "rationale": "Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Retinoic acid",
+            "disposition": "retained with boundaries",
+            "rationale": "Active vitamin A metabolite involved in epithelial differentiation and permeability regulation; the direction of permeability change varies with experimental context.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Vitamin A",
+            "disposition": "retained with boundaries",
+            "rationale": "Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Zinc",
+            "disposition": "retained with boundaries",
+            "rationale": "Required cellular mineral for maintenance of occludin and claudin-3 expression and intestinal tight-junction integrity.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Glutamine",
+            "disposition": "retained with boundaries",
+            "rationale": "Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Butyrate / glutamine repeated in §3.1.2",
+            "disposition": "consolidated as duplicate",
+            "rationale": "Same epithelial substrate jobs retained in the §3.1.1 atoms; evidence and original IDs retained in the draft history.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Generic marine-fat cooking, staple preparation, fat pairing, daily consistency and alcohol/UPF claims",
+            "disposition": "unresolved / not admitted",
+            "rationale": "Existing delivery/practice claims do not establish a PM1-specific controlled permeability effect at the stated level.",
+            "evidence_gap": "Preparation or behaviour manipulation linked to junction/permeability endpoints; no automatic dietary reclassification."
+          },
+          {
+            "input": "Inulin-type fructans and galacto-oligosaccharides",
+            "disposition": "supported upstream provision; individual projection pending",
+            "rationale": "Microbiota-accessible oligosaccharide substrates that undergo colonic fermentation and can contribute short-chain-fatty-acid provision upstream of butyrate-sensitive epithelial barrier biology.",
+            "evidence_gap": "The direct human fermentation study was small and acute and tested FOS/GOS under controlled conditions; it did not measure tight-junction outcomes or establish that ordinary food portions predictably alter PM1. Canonical KC constituent registration/identity must be reconciled before individual projection."
+          },
+          {
+            "input": "Pectin",
+            "disposition": "supported upstream provision; individual projection pending",
+            "rationale": "Fermentable plant polysaccharide that can supply microbial substrate for short-chain-fatty-acid production upstream of epithelial barrier effects.",
+            "evidence_gap": "Pectin evidence is dominated by in-vitro fermentation with human microbiota, commonly yields more acetate than butyrate, and does not directly demonstrate a PM1 tight-junction effect. It must not be broadened to all soluble fibre. Canonical KC constituent registration/identity must be reconciled before individual projection."
+          },
+          {
+            "input": "Resistant starch",
+            "disposition": "supported upstream provision; individual projection pending",
+            "rationale": "Microbiota-accessible starch that can increase colonic short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier biology.",
+            "evidence_gap": "Human responses vary by resistant-starch type, dose and baseline microbiota; increased faecal SCFAs do not directly establish epithelial exposure, a tight-junction outcome or a universal intake threshold. Canonical KC constituent registration/identity must be reconciled before individual projection."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM1-DIT-1",
+            "input": "Butyrate",
+            "status": "resolved",
+            "substance_id": "butyrate",
+            "substance_href": "/docs/substances/microbial-metabolites/scfas/butyrate",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/microbial-metabolites/scfas/butyrate.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM1-DIT-2",
+            "input": "Fermentable dietary fibre",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Fermentable dietary fibre",
+            "aliases_checked": [
+              "Fermentable dietary fibre"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM1-DIT-3",
+            "input": "Retinoic acid",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Retinoic acid",
+            "aliases_checked": [
+              "Retinoic acid"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM1-DIT-4",
+            "input": "Vitamin A",
+            "status": "resolved",
+            "substance_id": "vitamin-a",
+            "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-a",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/nutrients/micronutrients/vitamins/vitamin-a.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM1-DIT-5",
+            "input": "Zinc",
+            "status": "resolved",
+            "substance_id": "zinc",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/zinc",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/nutrients/micronutrients/minerals/trace/zinc.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM1-DIT-6",
+            "input": "Glutamine",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Glutamine",
+            "aliases_checked": [
+              "Glutamine"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM2",
+      "source": "docs/system/stage2b-preview/brs5-fm1-pm2-lps-containment-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_url": "https://thebraindiet.org/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment/",
+        "draft_source_date": "2026-10-07"
+      }
+    },
+    {
+      "id": "BRS5-FM1-PM3",
+      "source": "docs/system/stage2b-preview/brs5-fm1-pm3-keystone-taxa-support-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Motivation / Drive",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Gut microbiome composition linked to neural reward anticipation in ADHD positions keystone taxa support as a biological node intersecting motivation-relevant gut–brain signalling — not a direct reward-intervention claim.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Aarts et al. (2017)",
+                "citation_key": "aarts_gut_2017",
+                "href": "/docs/papers/BRAIN-Diet-References#aarts_gut_2017"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Prehn-Kristensen et al. (2018)",
+                "citation_key": "prehn-kristensen_reduced_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Jiang et al. (2018)",
+                "citation_key": "jiang_gut_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 3,
+                "label": "Wang et al. (2022)",
+                "citation_key": "wang_effect_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Oligofructose-enriched inulin",
+            "disposition": "retained; Direct state regulation",
+            "rationale": "In Western-diet mice, this inulin preparation prevented increased inner-colonic mucus penetrability; mucus growth was not restored.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Bifidobacterium longum NCC2705",
+            "disposition": "retained; Direct state regulation",
+            "rationale": "Administering this exact strain prevented reduced colonic mucus growth in Western-diet mice.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "GOS / pectin, generic bifidobacteria and fermented foods",
+            "disposition": "unresolved additional admission",
+            "rationale": "Do not broaden a precise preparation/strain result to unrelated inputs.",
+            "evidence_gap": "Preparation-specific microbial effector and controlled mucus/immune function evidence."
+          },
+          {
+            "input": "B. fragilis / polysaccharide A",
+            "disposition": "mechanistic Finding retained; no dietary admission",
+            "rationale": "Experimental microbial-molecule immunology does not establish a safe dietary source or a routine human intervention.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Generic polyphenols; food-preparation and daily-pattern claims",
+            "disposition": "not admitted at proposed level",
+            "rationale": "No source-backed defined mucus/immune job; polyphenol conversion remains PM6.",
+            "evidence_gap": "None at the bounded claim level."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM3-DIT-1",
+            "input": "Oligofructose-enriched inulin",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Oligofructose-enriched inulin",
+            "aliases_checked": [
+              "Oligofructose-enriched inulin"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM3-DIT-2",
+            "input": "Bifidobacterium longum NCC2705",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Bifidobacterium longum NCC2705",
+            "aliases_checked": [
+              "Bifidobacterium longum NCC2705"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM2-PM4",
+      "source": "docs/system/stage2b-preview/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Reduced microbial alpha diversity in paediatric ADHD and lower faecal SCFA levels versus controls support ecological turnover and competitive selection as modifiable gut-community processes intersecting attention-relevant microbiome structure.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Prehn-Kristensen et al. (2018)",
+                "citation_key": "prehn-kristensen_reduced_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Steckler et al. (2024)",
+                "citation_key": "steckler_disrupted_2024",
+                "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Cognitive Clarity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic",
+            "evidence_confidence": "low",
+            "rationale": "ADHD-focused gut–brain axis review literature synthesises microbiome ecology research gaps — indirect cognitive-clarity framing through microbial community resilience rather than measured clarity outcomes.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Schleupner & Carmichael (2022)",
+                "citation_key": "schleupner_attention-deficithyperactivity_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Pea-fibre arabinan",
+            "disposition": "retained; Direct capacity provision",
+            "rationale": "Arabinan in the studied pea-fibre preparation supplies a glycan resource whose utilisation depends on microbial utilisation machinery and competition.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Citrus pectin",
+            "disposition": "retained; Direct capacity provision",
+            "rationale": "The studied citrus pectin supplies glycans for microbial utilisation; community context and expression of utilisation machinery alter processing.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Resistant starch (RS2/RS3)",
+            "disposition": "retained; Direct capacity provision",
+            "rationale": "These resistant starch forms provide substrates for specialist microbial degradation and cross-feeding; adding Ruminococcus bromii enhanced RS3 fermentation in one donor’s faecal community in vitro.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "High-fibre dietary pattern",
+            "disposition": "supportive human evidence retained",
+            "rationale": "Wastyk measured increased carbohydrate-processing gene potential; it does not isolate every fibre’s activity or demonstrate comparative benefit.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Fermented-food pattern",
+            "disposition": "host immune evidence preserved; no processing-specific admission",
+            "rationale": "Inflammatory proteins changed, but no demonstrated microbial processing mediator.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Plant diversity count, generic polyphenols, meal timing and generic kitchen preparations",
+            "disposition": "not admitted at proposed level",
+            "rationale": "No distinct mechanism-specific activity chain in the reviewed studies; source-delivery context is not a second requirement.",
+            "evidence_gap": "None at the bounded claim level."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM4-DIT-1",
+            "input": "Pea-fibre arabinan",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Pea-fibre arabinan",
+            "aliases_checked": [
+              "Pea-fibre arabinan"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM4-DIT-2",
+            "input": "Citrus pectin",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Citrus pectin",
+            "aliases_checked": [
+              "Citrus pectin"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM4-DIT-3",
+            "input": "Resistant starch (RS2/RS3)",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Resistant starch (RS2/RS3)",
+            "aliases_checked": [
+              "Resistant starch (RS2/RS3)"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM2-PM5",
+      "source": "docs/system/stage2b-preview/brs5-fm2-pm5-scfa-production-and-signalling-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls — positioning microbial SCFA production and signalling as a direct observational anchor for attention-relevant gut metabolite biology.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Steckler et al. (2024)",
+                "citation_key": "steckler_disrupted_2024",
+                "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Emotional Regulation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational",
+            "evidence_confidence": "low",
+            "rationale": "SCFA gut–brain signalling may intersect affective regulation through vagal and immune pathways — indirect translational framing from ADHD SCFA deficit observation without emotional-outcome intervention trials.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Steckler et al. (2024)",
+                "citation_key": "steckler_disrupted_2024",
+                "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Resistant potato starch",
+            "disposition": "Direct substrate provision; bounded",
+            "rationale": "The tested preparation supplies microbial carbohydrate associated with increased faecal butyrate in a short human intervention.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+            "disposition": "Direct substrate provision; bounded",
+            "rationale": "The administered oligosaccharide preparation supplies carbohydrate for microbial SCFA formation.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Pectin",
+            "disposition": "Direct substrate provision; bounded",
+            "rationale": "Fermentable polysaccharide supplying microbial SCFA production in human-microbiota culture experiments.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Acetate",
+            "disposition": "biochemical product inventory; not oral requirement",
+            "rationale": "Acetate is a microbial fermentation product involved in metabolic or receptor-mediated signalling; this is product biology, not an oral requirement.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Propionate",
+            "disposition": "biochemical product inventory; not oral requirement",
+            "rationale": "Propionate is a microbial fermentation product involved in metabolic or receptor-mediated signalling; this is product biology, not an oral requirement.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Butyrate",
+            "disposition": "biochemical product inventory; not oral requirement",
+            "rationale": "Butyrate is a microbial fermentation product involved in metabolic or receptor-mediated signalling; this is product biology, not an oral requirement.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Generic microbial diversity, meal patterns, polyphenols and preparation rules",
+            "disposition": "not admitted at proposed level",
+            "rationale": "The attached corpus does not identify these as separate required fermentation inputs or controlled practices.",
+            "evidence_gap": "Specific exposure and SCFA production/signalling evidence needed."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM5-DIT-1",
+            "input": "Resistant potato starch",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Resistant potato starch",
+            "aliases_checked": [
+              "Resistant potato starch"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM5-DIT-2",
+            "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+            "aliases_checked": [
+              "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM5-DIT-3",
+            "input": "Pectin",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Pectin",
+            "aliases_checked": [
+              "Pectin"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM5-DIT-4",
+            "input": "Acetate",
+            "status": "resolved",
+            "substance_id": "acetate",
+            "substance_href": "/docs/substances/microbial-metabolites/scfas/acetate",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/microbial-metabolites/scfas/acetate.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM5-DIT-5",
+            "input": "Propionate",
+            "status": "resolved",
+            "substance_id": "propionate",
+            "substance_href": "/docs/substances/microbial-metabolites/scfas/propionate",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/microbial-metabolites/scfas/propionate.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM5-DIT-6",
+            "input": "Butyrate",
+            "status": "resolved",
+            "substance_id": "butyrate",
+            "substance_href": "/docs/substances/microbial-metabolites/scfas/butyrate",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/microbial-metabolites/scfas/butyrate.md"
+            ],
+            "projection_status": "draft-only"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM2-PM6",
+      "source": "docs/system/stage2b-preview/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Recovery Capacity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic",
+            "evidence_confidence": "low",
+            "rationale": "Microbial polyphenol biotransformation generates mitophagy-relevant metabolites bridging BRS5 to BRS4 — ADHD hub evidence for this PM is indirect via gut–brain axis review context; direct ADHD urolithin-outcome trials are not in the curated set (biology > evidence gap).",
+            "references": [
+              {
+                "index": 1,
+                "label": "Schleupner & Carmichael (2022)",
+                "citation_key": "schleupner_attention-deficithyperactivity_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Cognitive Clarity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic",
+            "evidence_confidence": "low",
+            "rationale": "Gut-derived polyphenol metabolites may influence mitochondrial and inflammatory resilience with downstream cognitive implications — framework translation from ADHD gut–brain research gaps rather than direct clarity-outcome measurement.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Schleupner & Carmichael (2022)",
+                "citation_key": "schleupner_attention-deficithyperactivity_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Ellagic acid",
+            "disposition": "Direct substrate",
+            "rationale": "Immediate microbial substrate for the assessed urolithin-generation pathway.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Ellagitannins",
+            "disposition": "Derived provision",
+            "rationale": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Direct urolithin A",
+            "disposition": "downstream Finding retained; no PM6 requirement",
+            "rationale": "Administering the product bypasses rather than improves microbial biotransformation.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "All polyphenols, microbial diversity and generic fermented/plant foods",
+            "disposition": "not admitted at proposed level",
+            "rationale": "Do not project one substrate-specific conversion route across a broad nutrient checklist.",
+            "evidence_gap": "Route-specific substrate, product and conversion evidence."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM6-DIT-1",
+            "input": "Ellagic acid",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Ellagic acid",
+            "aliases_checked": [
+              "Ellagic acid"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM6-DIT-2",
+            "input": "Ellagitannins",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Ellagitannins",
+            "aliases_checked": [
+              "Ellagitannins"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM3-PM7",
+      "source": "docs/system/stage2b-preview/brs5-fm3-pm7-vagal-ens-signalling-modulation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Stress Resilience",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention",
+            "evidence_confidence": "low-medium",
+            "rationale": "Open-label Bifidobacterium bifidum supplementation associated with symptom change and altered gut microbiota in children with ADHD — vagal/ENS signalling is the proposed gut–brain conduit; early-life Lactobacillus exposure adds developmental modulation context.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Wang et al. (2022)",
+                "citation_key": "wang_effect_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+              },
+              {
+                "index": 2,
+                "label": "Pärtty et al. (2015)",
+                "citation_key": "partty_possible_2015",
+                "href": "/docs/papers/BRAIN-Diet-References#partty_possible_2015"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Emotional Regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention",
+            "evidence_confidence": "low-medium",
+            "rationale": "Probiotic-associated symptom change in ADHD children and hypothesis-generating early-life microbial modulation windows support gut–vagal pathways intersecting affective regulation biology without definitive prevention claims.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Wang et al. (2022)",
+                "citation_key": "wang_effect_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+              },
+              {
+                "index": 2,
+                "label": "Pärtty et al. (2015)",
+                "citation_key": "partty_possible_2015",
+                "href": "/docs/papers/BRAIN-Diet-References#partty_possible_2015"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Lactobacillus rhamnosus JB-1",
+            "disposition": "Direct state modulation; experimental",
+            "rationale": "This exact strain elicited vagus-dependent receptor-transcript and behavioural responses in mice.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Glucose",
+            "disposition": "Direct state modulation; experimental",
+            "rationale": "Luminal glucose acted as a sensory stimulus in the tested mouse neuropod–vagal circuit.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Glutamate",
+            "disposition": "biochemical transmitter inventory",
+            "rationale": "Endogenous transmitter used by neuropod cells for rapid synaptic communication with vagal neurons.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "B. bifidum Bf-688 / LGG ATCC53103",
+            "disposition": "supportive studies retained; no vagal admission",
+            "rationale": "Symptom/development outcomes do not demonstrate the JB-1 vagal route; preserve exact strain distinctions.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Clinical electrical vagus stimulation",
+            "disposition": "mechanistic context; not a dietary practice",
+            "rationale": "The administered intervention is direct nerve stimulation, not evidence for gut-food action.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Generic fibre/SCFA → vagal supply, meal timing, magnesium and polyphenols",
+            "disposition": "unresolved / not admitted at proposed level",
+            "rationale": "No individually adjudicated source-supported path from these candidates to this PM’s stated neuronal response in the bounded corpus.",
+            "evidence_gap": "Specific receptor/neural pathway and exposure evidence, rather than generic microbiome relevance."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM7-DIT-1",
+            "input": "Lactobacillus rhamnosus JB-1",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Lactobacillus rhamnosus JB-1",
+            "aliases_checked": [
+              "Lactobacillus rhamnosus JB-1"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM7-DIT-2",
+            "input": "Glucose",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Glucose",
+            "aliases_checked": [
+              "Glucose"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM7-DIT-3",
+            "input": "Glutamate",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Glutamate",
+            "aliases_checked": [
+              "Glutamate"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS5-FM3-PM8",
+      "source": "docs/system/stage2b-preview/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low",
+            "rationale": "ADHD microbiota compositional differences and lower SCFA levels imply altered microbial biotransformation of dietary precursors relevant to gut–brain neurotransmitter availability — mechanism boundary is microbial precursor processing, not BRS1 monoamine synthesis.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Jiang et al. (2018)",
+                "citation_key": "jiang_gut_2018",
+                "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Steckler et al. (2024)",
+                "citation_key": "steckler_disrupted_2024",
+                "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Motivation / Drive",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational",
+            "evidence_confidence": "low",
+            "rationale": "Microbial metabolite handling intersects reward-anticipation biology linked to gut composition in ADHD — indirect motivation framing through precursor/metabolite availability rather than direct drive-outcome trials.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Aarts et al. (2017)",
+                "citation_key": "aarts_gut_2017",
+                "href": "/docs/papers/BRAIN-Diet-References#aarts_gut_2017"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_connections": {},
+        "draft_candidate_assessments": [
+          {
+            "input": "Tryptophan",
+            "disposition": "Direct relationship; bounded",
+            "rationale": "Immediate substrate used by the microbial tryptophan-processing routes assessed here.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Apple pectin (studied preparation)",
+            "disposition": "Direct relationship; bounded",
+            "rationale": "The tested pectin supplies cross-fed carbohydrate that redirects microbial tryptophan processing.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+            "disposition": "biochemical cofactor; no automatic B6 dietary admission",
+            "rationale": "Intracellular catalytic cofactor of the assessed E. coli tryptophanase enzyme.",
+            "evidence_gap": "None at the bounded claim level."
+          },
+          {
+            "input": "Vitamin B6, generic dietary protein, tyrosine, magnesium, iron and polyphenols",
+            "disposition": "unresolved / not admitted at proposed level",
+            "rationale": "Specific microbial roles, substrate supply and dietary limitation are separate decisions; do not substitute predicted genes for measured activity.",
+            "evidence_gap": "Mechanism-specific resource/delivery evidence before dietary or KC admission."
+          }
+        ],
+        "draft_identity_audit": [
+          {
+            "atom_id": "PM8-DIT-1",
+            "input": "Tryptophan",
+            "status": "resolved",
+            "substance_id": "tryptophan",
+            "substance_href": "/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan",
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan.md"
+            ],
+            "projection_status": "draft-only"
+          },
+          {
+            "atom_id": "PM8-DIT-2",
+            "input": "Apple pectin (studied preparation)",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Apple pectin (studied preparation)",
+            "aliases_checked": [
+              "Apple pectin (studied preparation)"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          },
+          {
+            "atom_id": "PM8-DIT-3",
+            "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+            "status": "missing-substance",
+            "severity": "MAJOR",
+            "intended_identity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+            "aliases_checked": [
+              "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"
+            ],
+            "checked_sources": [
+              "registry/substances.json",
+              "docs/substances/ (label/form/alias search)"
+            ],
+            "projection_status": "blocked"
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS6-FM1-PM1",
+      "source": "docs/system/stage2b-preview/brs6-fm1-pm1-glucose-appearance-kinetics-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Cognitive Energy Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "PET evidence of altered cerebral glucose metabolism in adults with hyperactivity of childhood onset and unhealthy dietary pattern associations with ADHD in case–control path analysis converge on meal-level glucose appearance kinetics as a cognitive-energy node.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Zametkin et al. (1990)",
+                "citation_key": "zametkin_cerebral_1990",
+                "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+              },
+              {
+                "index": 2,
+                "label": "Wang et al. (2019)",
+                "citation_key": "wang_dietary_2019",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+                "data_level": "Human Study"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Dietary pattern linked to ADHD burden implicates postprandial glucose dynamics intersecting prefrontal and striatal fuel supply relevant to attention biology — this PM governs glucose appearance rate, not insulin disposal (PM3) or variability amplitude (PM2).",
+            "references": [
+              {
+                "index": 1,
+                "label": "Wang et al. (2019)",
+                "citation_key": "wang_dietary_2019",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+                "data_level": "Human Study"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "chromium",
+          "B vitamins"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability"
+        ],
+        "draft_inherited_intervention_breakdown": "Food-State Dominant",
+        "draft_candidate_assessments": [
+          {
+            "input": "Wholemeal rye bread in place of the tested refined wheat bread",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The tested replacement slowed early model-derived glucose appearance.",
+            "evidence_gap": "The result applies to the tested breads and does not identify one responsible nutrient.",
+            "evidence_keys": [
+              "ostman_glucose_appearance_2019"
+            ]
+          },
+          {
+            "input": "Fish before rice in the studied meal sequence",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+            "evidence_gap": "An acute meal result; no claim that protein alone accounts for the effect.",
+            "evidence_keys": [
+              "kuwata_meal_sequence_2016"
+            ]
+          },
+          {
+            "input": "The tested high-slowly-digestible-starch breakfast in place of extruded cereal",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The high-slowly-digestible-starch product redistributed glucose appearance from earlier to later in the morning.",
+            "evidence_gap": "Measured in 12 tracer participants after specific breakfasts; no universal product, dose or longer-term outcome claim.",
+            "evidence_keys": [
+              "vinoy_cereal_processing_2013"
+            ]
+          },
+          {
+            "input": "The studied whey preload before a carbohydrate meal",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "Whey given before the studied meal delayed scintigraphic gastric emptying and stimulated insulin and gut hormones.",
+            "evidence_gap": "Eight adults with diet-controlled type 2 diabetes; 55 g whey 30 min before the meal, additional energy, acute results. No universal preload prescription or direct requirement.",
+            "evidence_keys": [
+              "ma_whey_preload_2009"
+            ]
+          },
+          {
+            "input": "The tested semolina pasta matrix in place of semolina bread or couscous",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The pasta matrix retained starch within larger particles and a protein network during the assessed digestion steps.",
+            "evidence_gap": "Separate human and simulated-digestion experiments; appearance slowing is inferred, not quantified. The result does not apply to every pasta or processing method.",
+            "evidence_keys": [
+              "vanhatalo_pasta_structure_2022"
+            ]
+          },
+          {
+            "input": "Cooling and reheating the tested chickpea pasta",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "Cooling and reheating increased measured resistant starch in this pasta, reducing the readily digestible fraction as a plausible entry-pathway change.",
+            "evidence_gap": "Twelve healthy adults; 24 h at 4 °C and the tested reheating method. Glucose entry was not measured and digestible carbohydrate was not re-matched after processing.",
+            "evidence_keys": [
+              "bojarczuk_chickpea_cooling_2024"
+            ]
+          },
+          {
+            "input": "The tested beta-glucan addition to a polenta meal",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+            "evidence_gap": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+            "evidence_keys": [
+              "nazare_beta_glucan_2009"
+            ]
+          },
+          {
+            "input": "The tested guar–chickpea flour flatbread blend",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The 4% guar and 15% chickpea flour formulation modestly reduced four-hour exogenous glucose appearance in the tested flatbread.",
+            "evidence_gap": "The primary half-absorption-time endpoint did not change significantly; larger liver-production and disposal changes also occurred. No isolated guar effect or general fibre requirement.",
+            "evidence_keys": [
+              "boers_fibre_glucose_kinetics_2017"
+            ]
+          },
+          {
+            "input": "Isomaltulose instead of sucrose in the studied sugar-load comparison",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The tested substitution slowed estimated oral-glucose appearance under the study conditions.",
+            "evidence_gap": "Eleven adults with type 2 diabetes under a clamp; not an instruction to add sugar. A separate 12-week trial did not show an HbA1c advantage.",
+            "evidence_keys": [
+              "ang_isomaltulose_kinetics_2014",
+              "brunner_isomaltulose_2012"
+            ]
+          },
+          {
+            "input": "Vinegar with the studied starchy meal",
+            "disposition": "supported bounded §3.2 practice",
+            "rationale": "The matched-meal trial supports a possible delay in gastric delivery from its lower paracetamol-marker response.",
+            "evidence_gap": "Indirect marker in ten healthy volunteers, no appearance flux. Further delay occurred in diabetic gastroparesis and may be disadvantageous; do not apply this practice to that context.",
+            "evidence_keys": [
+              "liljeberg_vinegar_emptying_1998",
+              "hlebowicz_vinegar_gastroparesis_2007"
+            ]
+          },
+          {
+            "input": "Generic fibre / psyllium / mycoprotein entry slowing",
+            "disposition": "not admitted as a blanket relationship",
+            "rationale": "Fibre preparations differ. Psyllium did not delay measured emptying; mycoprotein did not reduce measured exogenous appearance.",
+            "evidence_gap": "Psyllium intestinal uptake remains unresolved in the retrieved experiment; the mycoprotein negative is specific to the tested dose/matrix.",
+            "evidence_keys": [
+              "rigaud_psyllium_emptying_1998",
+              "whelehan_mycoprotein_kinetics_2024"
+            ]
+          },
+          {
+            "input": "All cooled starch / intact grains / universal ultra-processed-food restriction",
+            "disposition": "broad generalisation unresolved",
+            "rationale": "Admit the tested preparation/matrix rather than extrapolating a class-wide entry effect.",
+            "evidence_gap": "Product-specific structure/digestibility and entry evidence; non-significant comparisons and carbohydrate-dose changes must remain visible.",
+            "evidence_keys": [
+              "bojarczuk_chickpea_cooling_2024",
+              "hodges_pasta_preparation_2020",
+              "vanhatalo_pasta_structure_2022"
+            ]
+          },
+          {
+            "input": "Sodium, magnesium, chromium, all B vitamins",
+            "disposition": "no separately established PM1 dietary requirement",
+            "rationale": "Transport/enzyme participation and general metabolism do not establish a need to consume an extra named input to regulate entry; sodium-linked transport is not an extra-salt lever.",
+            "evidence_gap": "A PM1-specific dietary dependency or inadequacy claim would need its own evidence; no evidence-supported universal exclusion asserted.",
+            "evidence_keys": [
+              "turk_sglt1_malabsorption_1991"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Expanded mission-bounded retrieval covers processing/digestibility, matrix, fibre formulation, gastric delivery/preloads/acids, sugar linkage, uptake machinery and contrary evidence. Full access versus abstract-only extraction is recorded per source. No formal systematic-review completeness claim.",
+          "previous_pass_error": "The previous pass grouped distinct preparation/fibre/preload candidates as unresolved after two positive comparisons. This did not satisfy the instruction to retrieve evidence for material omitted mission steps; it also risked making an entry-flux assay an unnecessary universal admission threshold."
+        },
+        "draft_candidate_assessment_history": [
+          {
+            "date": "2026-10-08",
+            "reason": "Superseded by wider mission-bounded retrieval requested by the user; preserve previous decisions for comparison.",
+            "decisions": [
+              {
+                "input": "Bread matrix / meal sequencing",
+                "disposition": "moved to §3.2",
+                "rationale": "Defined preparation and protocol effects, not indispensable nutrients.",
+                "evidence_gap": "",
+                "evidence_keys": [
+                  "ostman_glucose_appearance_2019",
+                  "kuwata_meal_sequence_2016"
+                ]
+              },
+              {
+                "input": "Vinegar / acetic acid",
+                "disposition": "Finding context; entry-rate admission unresolved",
+                "rationale": "Johnston measures meal glucose/insulin responses; no recovered entry-flux endpoint.",
+                "evidence_gap": "Retrieve full trial and identify entry or digestion measure before PM1-specific disclosure.",
+                "evidence_keys": [
+                  "johnston_2004_14694010"
+                ]
+              },
+              {
+                "input": "Generic fibre, cooled starch, protein/fat buffering, ultra-processed food restriction",
+                "disposition": "unresolved at proposed specificity",
+                "rationale": "Broad review or delivery labels do not isolate each proposed entry-rate relationship.",
+                "evidence_gap": "Preparation-specific digestion/emptying/appearance studies; separate meal matrix from constituent.",
+                "evidence_keys": [
+                  "reynolds_2019_30638909",
+                  "kubota_2020_meal_sequence"
+                ]
+              },
+              {
+                "input": "Magnesium, chromium, all B vitamins",
+                "disposition": "not admitted as PM1-specific cofactors",
+                "rationale": "General metabolic participation does not identify a catalytic requirement of the glucose-entry job.",
+                "evidence_gap": "Specific step and substance/form evidence; do not import PM3 requirements.",
+                "evidence_keys": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "BRS6-FM1-PM2",
+      "source": "docs/system/stage2b-preview/brs6-fm1-pm2-glycaemic-variability-regulation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Cognitive Energy Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Altered cerebral glucose metabolism in ADHD and metabolic syndrome/insulin-resistance overlap in adult ADHD outpatients support glycaemic variability as a modifiable context for steadier cognitive fuel supply.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Zametkin et al. (1990)",
+                "citation_key": "zametkin_cerebral_1990",
+                "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+              },
+              {
+                "index": 2,
+                "label": "Di Girolamo et al. (2022)",
+                "citation_key": "di_girolamo_prevalence_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Focus / Attention Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Prefrontal glucose utilisation patterns in ADHD and metabolic comorbidity prevalence link glycaemic fluctuation control to attention-relevant cognitive energy availability.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Zametkin et al. (1990)",
+                "citation_key": "zametkin_cerebral_1990",
+                "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "B vitamins"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability"
+        ],
+        "draft_inherited_intervention_breakdown": "Food-State Dominant",
+        "draft_candidate_assessments": [
+          {
+            "input": "Exercise",
+            "disposition": "retained in §3.3",
+            "rationale": "Direct CGM excursion endpoint supports a bounded activity relationship.",
+            "evidence_gap": "",
+            "evidence_keys": [
+              "mikus_2012_22311420"
+            ]
+          },
+          {
+            "input": "Meal sequence",
+            "disposition": "§3.2 independently admitted",
+            "rationale": "Measured variability, not inherited from PM1 merely because the exposure overlaps.",
+            "evidence_gap": "",
+            "evidence_keys": [
+              "kuwata_meal_sequence_2016"
+            ]
+          },
+          {
+            "input": "Magnesium / B vitamins / generic meal buffering",
+            "disposition": "unresolved dietary admission",
+            "rationale": "The attached studies do not establish independent variability requirements at those labels.",
+            "evidence_gap": "Specific nutrient/pattern perturbation with variability endpoints, or supported machinery dependency.",
+            "evidence_keys": []
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM1-PM3",
+      "source": "docs/system/stage2b-preview/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Cognitive Energy Stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Insulin resistance and ADHD metabolic overlap reviewed in narrative synthesis support efficient glucose disposal as a contributor to cognitive fuel stability — mechanism boundary is peripheral/metabolic insulin action, not CNS glucose transport pharmacology.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Di Girolamo et al. (2022)",
+                "citation_key": "di_girolamo_prevalence_2022",
+                "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+              },
+              {
+                "index": 2,
+                "label": "Marcelli et al. (2025)",
+                "citation_key": "marcelli_bridging_2025",
+                "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "chromium",
+          "vitamin D context"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability"
+        ],
+        "draft_inherited_intervention_breakdown": "Food-State Leaning",
+        "draft_candidate_assessments": [
+          {
+            "input": "Magnesium",
+            "disposition": "narrowed; Direct capacity requirement",
+            "rationale": "A named cofactor and dietary-depletion chain support the insulin-signalling job. One full disclosure in §3.1.1, referenced from §3.1.2.",
+            "evidence_gap": "Human threshold and supplementation response are separate.",
+            "evidence_keys": [
+              "suarez_magnesium_insulin_1995"
+            ]
+          },
+          {
+            "input": "Chromium, vitamin D, generic B vitamins, polyphenols, omega-3s",
+            "disposition": "unresolved additional requirements",
+            "rationale": "Neither the attached general reviews nor lower meal glucose prove each candidate independently supports disposal at the proposed specificity.",
+            "evidence_gap": "Individual nutrient/form and insulin-signalling or disposal evidence.",
+            "evidence_keys": []
+          },
+          {
+            "input": "Post-meal walking / resistance activity",
+            "disposition": "supported candidate; not widened from the seven-day aerobic assay",
+            "rationale": "Position statement and acute glucose reductions are useful context; source-specific disposal endpoints and protocol must be linked before separate claims.",
+            "evidence_gap": "Retrieve the specific training primary evidence rather than merge all activity types.",
+            "evidence_keys": [
+              "colberg_2016_27926890",
+              "mikus_2012_22311420"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM2-PM4",
+      "source": "docs/system/stage2b-preview/brs6-fm2-pm4-cortisol-rhythm-regulation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Stress Reactivity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD; cortisol levels in children with ADHD and sensory-over-responsivity differentiation work using cortisol markers converge on HPA rhythm as a stress-reactivity node.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Chang et al. (2021)",
+                "citation_key": "chang_cortisol_2021",
+                "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+              },
+              {
+                "index": 2,
+                "label": "Isaksson et al. (2012)",
+                "citation_key": "isaksson_cortisol_2012",
+                "href": "/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012"
+              },
+              {
+                "index": 3,
+                "label": "Lane et al. (2010)",
+                "citation_key": "lane_sensory_2010",
+                "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Emotional Regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD intersect affective regulation biology through HPA-axis tone — this PM governs cortisol rhythm, not autonomic recovery (FM3).",
+            "references": [
+              {
+                "index": 1,
+                "label": "Chang et al. (2020)",
+                "citation_key": "chang_cortisol_2020",
+                "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2020",
+                "data_level": "Human Mechanistic"
+              },
+              {
+                "index": 2,
+                "label": "Chang et al. (2021)",
+                "citation_key": "chang_cortisol_2021",
+                "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "vitamin C",
+          "magnesium",
+          "Vitamin B5 (pantothenic acid)",
+          "Vitamin B6"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability",
+          "BRS6(KC2) - Stress-Response Micronutrient & Lipid Sufficiency"
+        ],
+        "draft_inherited_intervention_breakdown": "Behavioural/Lifestyle Dominant",
+        "draft_candidate_assessments": [
+          {
+            "input": "B-GOS / generic prebiotics",
+            "disposition": "Finding retained; full-rhythm lever unresolved",
+            "rationale": "Exact preparation and waking endpoint preserved; not a Direct requirement or demonstrated restoration.",
+            "evidence_gap": "Full diurnal sampling and characterised effect in a relevant rhythm context.",
+            "evidence_keys": [
+              "schmidt_prebiotic_2015"
+            ]
+          },
+          {
+            "input": "Vitamin C, magnesium, vitamin B5, vitamin B6",
+            "disposition": "unresolved rhythm applicability",
+            "rationale": "Adrenal machinery participation is not an established amplitude/phase relationship.",
+            "evidence_gap": "Source-supported upstream rhythm chain or specific rhythm perturbation; no universal supplementation efficacy requirement.",
+            "evidence_keys": []
+          },
+          {
+            "input": "Morning daylight, evening dimming, sleep regularity separately",
+            "disposition": "context candidates; no isolated cortisol admission",
+            "rationale": "Combined timing evidence cannot attribute the cortisol result to each cue.",
+            "evidence_gap": "Cue-specific daily cortisol evidence before separate disclosure.",
+            "evidence_keys": [
+              "scheer_2009_19255424"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM3-PM6",
+      "source": "docs/system/stage2b-preview/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Stress Reactivity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Sensory over-responsivity differentiated from ADHD using electrodermal responses, cortisol, and anxiety markers; cortisol and inflammatory biomarkers in ADHD youth support autonomic activation/recovery balance as a stress-reactivity node.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Lane et al. (2010)",
+                "citation_key": "lane_sensory_2010",
+                "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+              },
+              {
+                "index": 2,
+                "label": "Chang et al. (2020)",
+                "citation_key": "chang_cortisol_2020",
+                "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2020",
+                "data_level": "Human Mechanistic"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Recovery Capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Parasympathetic recovery after sympathetic activation is the mechanism boundary for restoring autonomic balance following challenge — Lane autonomic differentiation work provides ADHD-relevant context.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Lane et al. (2010)",
+                "citation_key": "lane_sensory_2010",
+                "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "omega-3",
+          "B vitamins"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC2) - Stress-Response Micronutrient & Lipid Sufficiency"
+        ],
+        "draft_inherited_intervention_breakdown": "Behavioural/Lifestyle Dominant",
+        "draft_candidate_assessments": [
+          {
+            "input": "Magnesium, all B vitamins, omega-3s",
+            "disposition": "unresolved direct requirements",
+            "rationale": "Generic stress biology or inflammatory changes do not establish recovery kinetics for each nutrient.",
+            "evidence_gap": "Resource-specific autonomic recovery evidence or a supported machinery dependency.",
+            "evidence_keys": []
+          },
+          {
+            "input": "Lactobacillus rhamnosus JB-1",
+            "disposition": "Finding context; no PM6 requirement",
+            "rationale": "Mouse vagotomy/GABA-receptor findings do not measure sympathetic-to-parasympathetic recovery.",
+            "evidence_gap": "Exact strain and recovery endpoint with a characterised link.",
+            "evidence_keys": [
+              "bravo_ingestion_2011"
+            ]
+          },
+          {
+            "input": "Slow breathing / exercise / sleep routines",
+            "disposition": "candidate practices, not automatically inherited from PM7",
+            "rationale": "Cardiac HRV change alone does not establish distinct whole autonomic recovery.",
+            "evidence_gap": "Specify sympathetic and parasympathetic endpoints across recovery.",
+            "evidence_keys": []
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM3-PM7",
+      "source": "docs/system/stage2b-preview/brs6-fm3-pm7-vagal-tone-hrv-regulation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Stress Resilience",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Electrodermal and autonomic markers differentiate sensory over-responsivity from ADHD — vagal tone/HRV regulation is the parasympathetic arm supporting stress-buffering capacity in neurodevelopmental autonomic profiling.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Lane et al. (2010)",
+                "citation_key": "lane_sensory_2010",
+                "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Sleep / Calming Tone",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational",
+            "evidence_confidence": "low",
+            "rationale": "Vagal tone intersects calming and sleep-relevant autonomic tone — indirect framing from ADHD autonomic differentiation literature without direct sleep-intervention outcomes.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Lane et al. (2010)",
+                "citation_key": "lane_sensory_2010",
+                "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "omega-3",
+          "magnesium"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC2) - Stress-Response Micronutrient & Lipid Sufficiency"
+        ],
+        "draft_inherited_intervention_breakdown": "Behavioural/Lifestyle Dominant",
+        "draft_candidate_assessments": [
+          {
+            "input": "EPA/DHA",
+            "disposition": "moved to conditional supplementation",
+            "rationale": "Administered mixture with measured HRV, not Direct vagal requirement.",
+            "evidence_gap": "Food equivalence and constituent-specific roles remain untested.",
+            "evidence_keys": [
+              "sauder_effects_2013"
+            ]
+          },
+          {
+            "input": "Magnesium / generic nutrient adequacy",
+            "disposition": "unresolved HRV requirement",
+            "rationale": "No PM-specific catalytic or supply chain was recovered from the attached corpus.",
+            "evidence_gap": "Mechanism-specific availability and cardiac endpoint evidence.",
+            "evidence_keys": []
+          },
+          {
+            "input": "Electrical vagus stimulation",
+            "disposition": "context; not a dietary or general lifestyle lever",
+            "rationale": "Clinical electrical stimulation differs from nutrient intake and cardiac vagal regulation.",
+            "evidence_gap": "Clinical indication and cardiac outcomes require independent assessment.",
+            "evidence_keys": [
+              "austelle_comprehensive_2022"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM4-PM8",
+      "source": "docs/system/stage2b-preview/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Recovery Capacity",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic",
+            "evidence_confidence": "low",
+            "rationale": "Metabolic-inflammatory load allocation may constrain recovery after sustained metabolic or stress challenge — indirect translation from ADHD–metabolic disorder synthesis rather than measured recovery outcomes.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Marcelli et al. (2025)",
+                "citation_key": "marcelli_bridging_2025",
+                "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "omega-3",
+          "polyphenols",
+          "vitamin D context"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability"
+        ],
+        "draft_inherited_intervention_breakdown": "Food-State Leaning",
+        "draft_candidate_assessments": [
+          {
+            "input": "Magnesium",
+            "disposition": "unresolved PM8 dietary admission; mechanistic candidate retained",
+            "rationale": "Cazzola describes context-dependent adipose mechanisms and contradictory depletion results, not one uniform protective dietary effect.",
+            "evidence_gap": "Retrieve its specific adipocyte-deficiency and stress-signalling primary studies before atom admission.",
+            "evidence_keys": [
+              "cazzola_magnesium_2024"
+            ]
+          },
+          {
+            "input": "Omega-3s / polyphenols / vitamin D",
+            "disposition": "unresolved adipose-specific requirements",
+            "rationale": "Systemic cytokines, broad compounds and general deficiency associations do not isolate adipose roles.",
+            "evidence_gap": "Named substance/form, tissue step and supported supply or intervention effect.",
+            "evidence_keys": [
+              "kiecolt-glaser_omega-3_2011",
+              "mohammad_role_2021"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    },
+    {
+      "id": "BRS6-FM4-PM9",
+      "source": "docs/system/stage2b-preview/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation-stage2ab-draft.mdx",
+      "target": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+      "draftMetadata": {
+        "draft_review_status": "not-approved",
+        "draft_source_page": "/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+        "draft_baseline_head": "774c86aaa527ac397f9ffc7e37158917d4a4cfaf",
+        "draft_inherited_phenome_candidates": [
+          {
+            "target_phenome": "Reward Regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Unhealthy dietary pattern linked to ADHD in case–control path analysis and altered cortisol patterns in ADHD youth intersect stress-driven appetite and reward regulation biology.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Wang et al. (2019)",
+                "citation_key": "wang_dietary_2019",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Chang et al. (2021)",
+                "citation_key": "chang_cortisol_2021",
+                "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+              }
+            ]
+          },
+          {
+            "target_phenome": "Motivation / Drive",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational",
+            "evidence_confidence": "low-medium",
+            "rationale": "Dietary pattern associations with ADHD burden and HPA dysregulation support stress-modulated reward/motivation pathways — mechanism boundary is appetite–reward drive under stress, not BRS1 catecholamine synthesis.",
+            "references": [
+              {
+                "index": 1,
+                "label": "Wang et al. (2019)",
+                "citation_key": "wang_dietary_2019",
+                "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+                "data_level": "Human Study"
+              },
+              {
+                "index": 2,
+                "label": "Marcelli et al. (2025)",
+                "citation_key": "marcelli_bridging_2025",
+                "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
+              }
+            ]
+          }
+        ],
+        "draft_inherited_cofactors": [
+          "magnesium",
+          "B vitamins",
+          "protein sufficiency context"
+        ],
+        "draft_inherited_key_constraints": [
+          "BRS6(KC1) - Glucose / Energy Substrate Availability"
+        ],
+        "draft_inherited_intervention_breakdown": "Food-State Leaning",
+        "draft_candidate_assessments": [
+          {
+            "input": "Mindfulness",
+            "disposition": "§3.2 admitted at self-report level",
+            "rationale": "Defined food-related training and appropriate behavioural endpoints.",
+            "evidence_gap": "Objective intake, durability and neural mediation remain separate.",
+            "evidence_keys": [
+              "torske_mindfulness_2024"
+            ]
+          },
+          {
+            "input": "Prebiotics / cortisol-lowering inputs",
+            "disposition": "Finding context; appetite admission unresolved",
+            "rationale": "Waking cortisol and emotional bias do not measure stress-eating.",
+            "evidence_gap": "Eating or food-seeking endpoint plus supported intermediary path.",
+            "evidence_keys": [
+              "schmidt_prebiotic_2015"
+            ]
+          },
+          {
+            "input": "Protein, magnesium, all B vitamins, general healthy pattern",
+            "disposition": "unresolved dietary requirements",
+            "rationale": "Ordinary satiety/delivery and general nutritional associations are not an isolated stress-reward relationship.",
+            "evidence_gap": "Specific resource or exposure and measured stress-linked appetite claim.",
+            "evidence_keys": [
+              "wang_dietary_2019",
+              "marcelli_bridging_2025"
+            ]
+          }
+        ],
+        "draft_reporting_scope": {
+          "type": "Stage 2A/2B independent unapproved preview",
+          "candidate_specificity": "Every candidate has a disposition and evidence/rationale; broad/disputed entries include the target and exact gap.",
+          "confidence": "No SEC/phenome uplift from this preview. Existing labels are preserved as historical qualifications, not freshly proven comparative rankings.",
+          "search_limitations": "Targeted primary retrieval plus full attached bibliography inventory. Abstract-only access is stated per source; precise unexamined links remain unresolved."
+        }
+      }
+    }
+  ]
+}

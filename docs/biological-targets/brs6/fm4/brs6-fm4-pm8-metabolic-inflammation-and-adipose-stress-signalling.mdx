@@ -2,65 +2,329 @@
 title: Metabolic Inflammation & Adipose Stress Signalling
 pm_id: BRS6-FM4-PM8
 mission: >-
-  Limit metabolic-inflammatory signalling from adipose stress so whole-body
-  resource allocation is not overloaded.
+  Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is
+  not overloaded.
 parent_fm: BRS6(FM4)
 parent_brs: BRS6
 summary: >-
-  Describes inflammatory and endocrine signalling from metabolic overload,
-  adipose tissue stress, and insulin-resistant states (adipose stress
-  signalling, the inflammatory messages released when fat tissue becomes
-  overloaded or dysfunctional) that shape whole-body resource allocation and
-  neuroendocrine load. Unlike acute post-meal glycaemic mechanisms, this pathway
-  reflects chronic, cumulative metabolic strain building over time. As adipose
-  stress rises, the resulting inflammatory and endocrine signals compete with
-  other systems for regulatory and energetic resources.
-key_constraints:
-  - BRS6(KC1) - Glucose / Energy Substrate Availability
-cofactors:
-  - magnesium
-  - omega-3
-  - polyphenols
-  - vitamin D context
+  Fat tissue stores fuel and also communicates with immune and metabolic systems. When its capacity
+  is stressed, changes in inflammatory and oxidative pathways can accompany impaired metabolic
+  function. Reducing excess adiposity can change this tissue biology, but the sequence matters:
+  moderate weight loss improved insulin action before the measured inflammation fell. This gives a
+  practical, context-specific route while keeping tissue measurements separate from inflammatory
+  markers measured only in blood.
+key_constraints: []
+cofactors: []
 intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
-timing_specific: 'No'
-dose_sensitivity: '[MISSING_OR_DERIVE_FROM_COLUMN_J_N]'
+timing_specific: "No"
+dose_sensitivity: >-
+  Effects depend on the tested exposure, preparation and study population; no universal dose is
+  established.
 references:
   - >-
-    [Mohammad & Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic
-    Inflammation and Potential
-    Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
+    [Mohammad & Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and
+    Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
   - >-
-    [Cazzola et al. (2024) — A Defense Line to Mitigate Inflammation and
-    Oxidative Stress in Adipose
+    [Cazzola et al. (2024) — A Defense Line to Mitigate Inflammation and Oxidative Stress in Adipose
     Tissue](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)
   - >-
     [Kiecolt-Glaser et al. (2011) — A Randomized Controlled
     Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
   - >-
-    [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin
-    Resistance in a Sample of
-    Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
+    [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample
+    of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
   - >-
     [Marcelli et al. (2025) — Insights Into Shared Mechanisms and Clinical
     Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025)
+  - >-
+    [Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic
+    function and adipose tissue biology in humans with
+    obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)
 hide_title: true
-phenome_relationships:
-  - target_phenome: Recovery Capacity
-    relationship_type: indirect
-    confidence: low-medium
-    evidence_level: mechanistic
-    evidence_confidence: low
-    rationale: >-
-      Metabolic-inflammatory load allocation may constrain recovery after
-      sustained metabolic or stress challenge — indirect translation from
-      ADHD–metabolic disorder synthesis rather than measured recovery outcomes.
-    references:
-      - index: 1
-        label: Marcelli et al. (2025)
+phenome_relationships: []
+list_image: /img/biological-targets/brs6-portrait-thumbnail.png
+scientific_findings:
+  - id: PM8-F1
+    finding_label: Adipose responses differ across stages of weight loss
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      Progressive weight loss changed adipose pathway expression and inflammatory measures in adults
+      with obesity.
+    finding_statement: >-
+      Progressive weight loss changed adipose pathway expression and inflammatory measures in adults
+      with obesity.
+    finding_interpretation: >-
+      The early insulin-sensitivity improvement was not mediated by a measured early fall in adipose
+      inflammation.
+    synthesis: >-
+      The early insulin-sensitivity improvement was not mediated by a measured early fall in adipose
+      inflammation.
+    synthesis_limitations: Small later subgroup and subcutaneous sampling; do not infer all fat depots.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Magkos et al. (2016)
+        citation_key: magkos_weight_loss_adipose_2016
+        href: /docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Larger losses changed tissue pathways; early moderate loss did not reduce measured
+          inflammation.
+        study_exposure: >-
+          Randomized initial weight-loss study with later progressive-loss subgroup and adipose
+          biopsies.
+        study_finding: >-
+          Larger losses changed tissue pathways; early moderate loss did not reduce measured
+          inflammation.
+        assessment:
+          study: >-
+            Randomized initial weight-loss study with later progressive-loss subgroup and adipose
+            biopsies.
+          population: >-
+            Randomized initial weight-loss study with later progressive-loss subgroup and adipose
+            biopsies.
+          result: >-
+            Larger losses changed tissue pathways; early moderate loss did not reduce measured
+            inflammation.
+          effect_magnitude: Only source-extracted comparisons retained; no pooled benefit estimate.
+          evidence_summary: >-
+            Larger losses changed tissue pathways; early moderate loss did not reduce measured
+            inflammation.
+          limitations: Later comparisons were not independently randomized; clinical context is obesity.
+          retrieval_scope: Primary Results, Tables and Discussion retrieved.
+          source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4833627/
+    connected_supportive_evidence:
+      - label: Mohammad & Thiemermann (2021)
+        citation_key: mohammad_role_2021
+        href: /docs/papers/BRAIN-Diet-References#mohammad_role_2021
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          The attached source is contextual. No separately extracted mission-specific intermediary
+          or intervention endpoint justifies a new requirement, KC admission or phenome rating from
+          this source.
+      - label: Cazzola et al. (2024)
+        citation_key: cazzola_magnesium_2024
+        href: /docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          Review-level adipose pathways retained as candidates; primary tissue-specific studies and
+          contradictory contexts need adjudication.
+      - label: Di Girolamo et al. (2022)
+        citation_key: di_girolamo_prevalence_2022
+        href: /docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          The attached source is contextual. No separately extracted mission-specific intermediary
+          or intervention endpoint justifies a new requirement, KC admission or phenome rating from
+          this source.
+      - label: Marcelli et al. (2025)
         citation_key: marcelli_bridging_2025
         href: /docs/papers/BRAIN-Diet-References#marcelli_bridging_2025
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          The attached source is contextual. No separately extracted mission-specific intermediary
+          or intervention endpoint justifies a new requirement, KC admission or phenome rating from
+          this source.
+  - id: PM8-F2
+    finding_label: Systemic cytokine effects do not establish adipose mediation
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: The attached omega-3 student trial reduced stimulated immune-cell IL-6 production.
+    finding_statement: The attached omega-3 student trial reduced stimulated immune-cell IL-6 production.
+    finding_interpretation: Useful inflammatory evidence is preserved without making adipose the established source.
+    synthesis: Useful inflammatory evidence is preserved without making adipose the established source.
+    synthesis_limitations: No adipose biopsy or adipose-specific signalling endpoint.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Kiecolt-Glaser et al. (2011)
+        citation_key: kiecolt-glaser_omega-3_2011
+        href: /docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Stimulated cytokine production and anxiety were measured.
+        study_exposure: Combined EPA-rich supplement versus placebo in medical students.
+        study_finding: Stimulated cytokine production and anxiety were measured.
+        assessment:
+          study: Combined EPA-rich supplement versus placebo in medical students.
+          population: Combined EPA-rich supplement versus placebo in medical students.
+          result: Stimulated cytokine production and anxiety were measured.
+          effect_magnitude: Only source-extracted comparisons retained; no pooled benefit estimate.
+          evidence_summary: Stimulated cytokine production and anxiety were measured.
+          limitations: Cannot establish a distinct adipose requirement or its causal mediation.
+          retrieval_scope: >-
+            Primary abstract/results retrieved; full methods not independently extracted unless
+            noted.
+          source_url: https://www.sciencedirect.com/science/article/pii/S0889159111004685/
+    connected_supportive_evidence: []
+dietary_input_traceability: []
+dietary_lever_atoms: []
+dietary_lever_presentations: []
+pending_actions: []
+system_optimisation_practices:
+  - atom_id: PM8-SOP-1
+    input: Diet-induced weight reduction when excess adiposity is relevant
+    input_type: context-specific dietary protocol
+    biological_role: The assessed programme changed measured adipose tissue pathways with progressive loss.
+    evidence_source:
+      finding_ids:
+        - PM8-F1
+      citation_keys:
+        - magkos_weight_loss_adipose_2016
+    evidence_limitation: Small later subgroup and subcutaneous tissue; early loss did not lower measured inflammation.
+    optimisation_category: dietary_protocols
+    reader_description: The assessed programme changed measured adipose tissue pathways with progressive loss.
+    description_finding_id: PM8-F1
+lifestyle_priorities: []
+pm_kc_relationships: []
+kc_applicability_adjudications:
+  - kc_id: BRS6(KC1)
+    ikc_id: BRS6(KC1)
+    arm_id: PM8-KC1-review
+    disposition: unresolved
+    proposition: >-
+      Does the narrowed circulating-glucose availability pool establish a PM-specific upstream
+      supply or conditional constraint?
+    rationale: >-
+      The existing KC1 assessment narrows the pool to circulating glucose availability. Its
+      cerebral-energy relevance does not automatically admit this PM or a checklist of meal
+      nutrients.
+    evidence_source:
+      finding_ids:
+        - PM8-F1
+      citation_keys:
+        - magkos_weight_loss_adipose_2016
+    evidence_limitation: >-
+      Source-supported availability-to-adipose-stress pathway, separate from excess energy
+      intervention or systemic cytokines.
+    remaining_gap: >-
+      Source-supported availability-to-adipose-stress pathway, separate from excess energy
+      intervention or systemic cytokines.
+    review_record: system/brs6-kc1-evidence-review.md
+  - kc_id: BRS6(KC2)
+    ikc_id: BRS6(KC2)
+    arm_id: PM8-KC2-review
+    disposition: unresolved
+    proposition: >-
+      Does the current stress-response micronutrient/lipid checklist define a coherent shared
+      resource relationship?
+    rationale: >-
+      The existing KC2 evidence review finds no coherent shared pool in the current checklist.
+      Individual magnesium, fatty-acid or other decisions remain independent; this does not exclude
+      their supported PM biology.
+    evidence_source:
+      finding_ids:
+        - PM8-F1
+      citation_keys:
+        - magkos_weight_loss_adipose_2016
+    evidence_limitation: >-
+      The current pool definition does not establish a coherent relationship. This is an unresolved
+      definition/applicability gap, not evidence that every constituent fails to constrain this PM.
+    remaining_gap: >-
+      A canonical coherent pool definition and separately vetted membership would be needed before
+      reconsidering pool admission.
+    review_record: system/brs6-kc2-evidence-review.md
+kc_distinctness_review:
+  - relationship_id: PM8-KC1-CANDIDATE
+    kc_id: BRS6(KC1)
+    disposition: unresolved
+    biological_job: >-
+      Does the narrowed circulating-glucose availability pool establish a PM-specific upstream
+      supply or conditional constraint?
+    compared_records:
+      3.1.1: []
+      3.1.2: []
+      "3.2":
+        - PM8-SOP-1
+    compared_biological_jobs:
+      - The assessed programme changed measured adipose tissue pathways with progressive loss.
+    evidence_source:
+      finding_ids:
+        - PM8-F1
+      citation_keys:
+        - magkos_weight_loss_adipose_2016
+    gap: >-
+      Source-supported availability-to-adipose-stress pathway, separate from excess energy
+      intervention or systemic cytokines.
+    rationale: >-
+      No additional public KC disclosure is admitted. Scientific applicability and public
+      distinctness are separate; review the exact gap, not name/type/citation differences.
+  - relationship_id: PM8-KC2-CANDIDATE
+    kc_id: BRS6(KC2)
+    disposition: unresolved
+    biological_job: >-
+      Does the current stress-response micronutrient/lipid checklist define a coherent shared
+      resource relationship?
+    compared_records:
+      3.1.1: []
+      3.1.2: []
+      "3.2":
+        - PM8-SOP-1
+    compared_biological_jobs:
+      - The assessed programme changed measured adipose tissue pathways with progressive loss.
+    evidence_source:
+      finding_ids:
+        - PM8-F1
+      citation_keys:
+        - magkos_weight_loss_adipose_2016
+    gap: >-
+      A canonical coherent pool definition and separately vetted membership would be needed before
+      reconsidering pool admission.
+    rationale: >-
+      No additional public KC disclosure is admitted. Scientific applicability and public
+      distinctness are separate; review the exact gap, not name/type/citation differences.
+pm_lever_layout: principal-after-mission
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Diet-Supported
+    rationale: >-
+      Preserved inherited evidence-qualification label; this preview separates the newly assessed
+      intervention effects from that label and does not ratify a legacy comparative ranking.
+    routes:
+      - group_id: "3.2"
+        evidence_basis: intervention-effect
+        intervention_effect: >-
+          Progressive weight loss changed adipose pathway expression and inflammatory measures in
+          adults with obesity.
+        context: >-
+          Randomized initial weight-loss study with later progressive-loss subgroup and adipose
+          biopsies.
+        limitations: Small later subgroup and subcutaneous sampling; do not infer all fat depots.
+        evidence_source:
+          finding_ids:
+            - PM8-F1
+          citation_keys:
+            - magkos_weight_loss_adipose_2016
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - "3.2"
+    rationale: >-
+      Promote the most directly mission-relevant demonstrated route in this bounded assessment;
+      preserve the tested endpoint and context.
+    assessments:
+      - group_id: "3.2"
+        relevance: >-
+          The selected entries address the mission-specific measured process rather than a generic
+          nutrient checklist.
+        directness: Each measured link and inferred link is bounded in its Finding and five-atom record.
+        extent: >-
+          Specific preparations, populations and protocols; no universal dose, outcome or
+          superiority inference.
+scientific_findings_intro: >-
+  Diet-induced weight loss measured adipose biology directly, with early metabolic improvements
+  preceding inflammatory change. Omega-3 student cytokines are not adipose evidence. Magnesium’s
+  plausible tissue role remains under individual adjudication. Kiecolt-Glaser et al. (2011)
+  [[3]](#pm-ref-3); Magkos et al. (2016) [[6]](#pm-ref-6)
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -70,135 +334,91 @@ phenome_relationships:
   />
 </p>
 
-## BRS6-FM4-PM8 - Metabolic Inflammation & Adipose Stress Signalling
+## BRS6-FM4-PM8 — Metabolic Inflammation & Adipose Stress Signalling
 
-(Inflammation Signals From Metabolic Strain)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
 Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is not overloaded.
 
+**Intervention Dominance:** Diet-Supported (inherited qualification, retained pending approval). Principal route displayed: System Optimisation Practices. This placement reflects the assessed process, not proven comparative superiority.
 
-**Intervention Dominance:** Diet-Supported
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Mediterranean-style and high-fibre patterns may reduce inflammatory metabolic load versus ultra-processed–heavy diets.
-- Omega-3–rich seafoods and polyphenol-rich plant foods may support inflammatory resolution context.
-- Lower refined-carbohydrate and hyperpalatable matrix load may reduce metabolic endotoxemia pressure in some individuals.
-- Adequate magnesium and micronutrient context may support adipose and insulin-signalling environments (supportive interpretation).
-
-Net effect: ↓ metabolic-inflammatory signalling; ↓ adipose stress load.
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Magnesium ← leafy greens, nuts, seeds
-- omega-3
-- polyphenols
-- vitamin D context
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS6(KC1)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">(Key Constraint) (KC1) — Glucose / Energy Substrate Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Slow-release carbohydrate substrates ← oats, barley, legumes
-- Dietary protein substrate context ← fish, eggs, dairy, legumes
-- Dietary fat substrate context ← olive oil, nuts, seeds, fish
-- Soluble-viscous fibre classes ← oats, barley, pulses, apples
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
 ### Overview
 
-Describes inflammatory and endocrine signalling from metabolic overload, adipose tissue stress, and insulin-resistant states (adipose stress signalling, the inflammatory messages released when fat tissue becomes overloaded or dysfunctional) that shape whole-body resource allocation and neuroendocrine load. Unlike acute post-meal glycaemic mechanisms, this pathway reflects chronic, cumulative metabolic strain building over time. As adipose stress rises, the resulting inflammatory and endocrine signals compete with other systems for regulatory and energetic resources.
+Fat tissue stores fuel and also communicates with immune and metabolic systems. When its capacity is stressed, changes in inflammatory and oxidative pathways can accompany impaired metabolic function. Reducing excess adiposity can change this tissue biology, but the sequence matters: moderate weight loss improved insulin action before the measured inflammation fell. This gives a practical, context-specific route while keeping tissue measurements separate from inflammatory markers measured only in blood. Kiecolt-Glaser et al. (2011) [[3]](#pm-ref-3); Magkos et al. (2016) [[6]](#pm-ref-6)
 
-* Signals metabolic-inflammatory load from overloaded or dysfunctional adipose tissue.
-* Reflects chronic, cumulative metabolic strain rather than acute glucose swings.
-* Competes with other systems for regulatory and energetic resources.
+- **Benefits:** Reducing excess tissue stress can improve metabolic function in people with obesity. Magkos et al. (2016) [[6]](#pm-ref-6)
+- **Implementation Notes:** Diet-induced weight reduction was studied in adults with obesity; adipose and systemic responses differed across stages. Kiecolt-Glaser et al. (2011) [[3]](#pm-ref-3); Magkos et al. (2016) [[6]](#pm-ref-6)
+- **Biological Relevance:** An inflammatory blood marker does not identify its source as adipose tissue.
 
 ## 2. Primary Biological Effects
-↓ adipose inflammatory signalling; ↓ metabolic stress load; ↓ low-grade systemic inflammation pressure; ↑ metabolic allocation stability
+
+- Progressive weight loss changed adipose pathway expression and inflammatory measures in adults with obesity. Magkos et al. (2016) [[6]](#pm-ref-6)
+- The attached omega-3 student trial reduced stimulated immune-cell IL-6 production. Kiecolt-Glaser et al. (2011) [[3]](#pm-ref-3)
 
 ## 3. Intervention Levers
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Soak overnight to reduce phytates and improve mineral bioavailability — see [Oats — Preparation](/docs/foods/oats#preparation).
-- Soak before cooking to reduce phytates and improve mineral bioavailability [4]. — see [Barley — Preparation](/docs/foods/barley#preparation).
-- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and spro… — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.3 Lifestyle Levers</strong>
-</button>
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1 Dietary Requirements</strong></button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Regular physical activity and recovery balance may improve insulin sensitivity and inflammatory resolution.
-- Sleep timing and duration stability may reduce allostatic metabolic-inflammatory load.
-- Visceral adiposity reduction (where clinically appropriate) may lower adipose-derived inflammatory signalling.
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No independently admitted Direct/Derived Dietary Requirements established by this assessment.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.2 Cofactors and Substrates</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No additional separately adjudicated biochemical requirement established by this assessment; generic metabolic participation is not an admitted PM-specific requirement.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.3 Key Constraints</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Diet-induced weight reduction when excess adiposity is relevant
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.3 Lifestyle Levers</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No separately adjudicated Lifestyle Lever is admitted by this assessment.
 
 </div>
 </div>
@@ -208,118 +428,43 @@ Describes inflammatory and endocrine signalling from metabolic overload, adipose
 
 ### Summary
 
-BRS6-FM4-PM8 governs how chronic metabolic overload and adipose stress generate inflammatory and endocrine signals that influence neuroendocrine allocation. Pattern-level dietary and lifestyle context often matters more than isolated nutrient changes alone.
+Progressive weight loss changed adipose pathway expression and inflammatory measures in adults with obesity. Magkos et al. (2016) [[6]](#pm-ref-6)
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Metabolic inflammation, endotoxemia, and adipose stress</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+#### Biological process
 
-#### (Metabolic endotoxemia and systemic inflammation)
+The early insulin-sensitivity improvement was not mediated by a measured early fall in adipose inflammation. Magkos et al. (2016) [[6]](#pm-ref-6)
 
-Diet-induced changes in gut barrier function can increase translocation of bacterial lipopolysaccharide (LPS) into circulation, termed metabolic endotoxemia, with downstream low-grade inflammation. [Mohammad & Thiemermann, 2021] reviewed metabolic endotoxemia in systemic inflammation and potential dietary interventions, supporting gut–immune–metabolic coupling as a mechanistic pathway relevant to chronic load [Mohammad & Thiemermann, 2021]
+#### Mechanism Boundary
 
-#### (Adipose tissue as an inflammatory signalling organ)
+An inflammatory blood marker does not identify its source as adipose tissue. This assessment preserves each source’s measured endpoint; the Mission describes the biological job and does not assert that every tested lever achieved the entire Mission.
 
-In obesity and insulin-resistant states, adipose tissue releases cytokines and alters endocrine signalling, contributing to persistent inflammatory tone. [Cazzola et al., 2024] described how magnesium deficiency may potentiate oxidative stress and inflammatory processes in adipose tissue, illustrating micronutrient context within metabolic-inflammatory signalling (supportive, not deterministic) [Cazzola et al., 2024]
+#### Integration
 
-#### (Nutrient patterns and inflammatory resolution)
+This PM contributes its specified process to BRS6(FM4). Shared fuels, nutrient lists and correlated markers do not merge distinct biological jobs or establish the integrated outcome.
 
-Dietary patterns rich in omega-3 fatty acids and lower in pro-inflammatory ultra-processed loads may support inflammatory resolution context. [Kiecolt-Glaser et al., 2011] reported reduced inflammation and anxiety with omega-3 supplementation in a stressed cohort, relevant to how nutrient context may modulate inflammatory burden alongside metabolic load [Kiecolt-Glaser et al., 2011]
+### 4.1 Scientific Findings
 
-#### (Integration within FM4)
+#### Summary
 
-Together with BRS6-FM4-PM9, PM8 operationalises FM4 as allocation of metabolic and neuroendocrine resources under chronic stress: reducing inflammatory–endocrine load from adipose and gut–immune pathways may stabilise brain-relevant energy and stress state.
+Diet-induced weight loss measured adipose biology directly, with early metabolic improvements preceding inflammatory change. Omega-3 student cytokines are not adipose evidence. Magnesium’s plausible tissue role remains under individual adjudication. Kiecolt-Glaser et al. (2011) [[3]](#pm-ref-3); Magkos et al. (2016) [[6]](#pm-ref-6)
 
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM8-F1","finding_label":"Adipose responses differ across stages of weight loss","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Progressive weight loss changed adipose pathway expression and inflammatory measures in adults with obesity.","finding_statement":"Progressive weight loss changed adipose pathway expression and inflammatory measures in adults with obesity.","finding_interpretation":"The early insulin-sensitivity improvement was not mediated by a measured early fall in adipose inflammation.","synthesis":"The early insulin-sensitivity improvement was not mediated by a measured early fall in adipose inflammation.","synthesis_limitations":"Small later subgroup and subcutaneous sampling; do not infer all fat depots.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Magkos et al. (2016)","citation_key":"magkos_weight_loss_adipose_2016","href":"/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Larger losses changed tissue pathways; early moderate loss did not reduce measured inflammation.","study_exposure":"Randomized initial weight-loss study with later progressive-loss subgroup and adipose biopsies.","study_finding":"Larger losses changed tissue pathways; early moderate loss did not reduce measured inflammation.","assessment":{"study":"Randomized initial weight-loss study with later progressive-loss subgroup and adipose biopsies.","population":"Randomized initial weight-loss study with later progressive-loss subgroup and adipose biopsies.","result":"Larger losses changed tissue pathways; early moderate loss did not reduce measured inflammation.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Larger losses changed tissue pathways; early moderate loss did not reduce measured inflammation.","limitations":"Later comparisons were not independently randomized; clinical context is obesity.","retrieval_scope":"Primary Results, Tables and Discussion retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4833627/"},"canonical_reference":{"author_year":"Magkos et al. (2016)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[{"label":"Mohammad & Thiemermann (2021)","citation_key":"mohammad_role_2021","href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Mohammad and Thiemermann (2021)","number":1,"anchor":"#pm-ref-1"}},{"label":"Cazzola et al. (2024)","citation_key":"cazzola_magnesium_2024","href":"/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"Review-level adipose pathways retained as candidates; primary tissue-specific studies and contradictory contexts need adjudication.","canonical_reference":{"author_year":"Cazzola et al. (2024)","number":2,"anchor":"#pm-ref-2"}},{"label":"Di Girolamo et al. (2022)","citation_key":"di_girolamo_prevalence_2022","href":"/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Di Girolamo et al. (2022)","number":4,"anchor":"#pm-ref-4"}},{"label":"Marcelli et al. (2025)","citation_key":"marcelli_bridging_2025","href":"/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Marcelli et al. (2025)","number":5,"anchor":"#pm-ref-5"}}]}} />
 
-### 4.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Metabolic-inflammatory and adipose stress-signalling biology is well established. The studies below highlight endotoxemia, adipose inflammatory tone, and dietary-pattern findings that refine how chronic metabolic load is interpreted — not phenome or treatment-outcome claims.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Metabolic endotoxemia and systemic inflammation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Diet-induced gut barrier changes can increase bacterial lipopolysaccharide translocation into circulation, sustaining low-grade systemic inflammation through gut–immune–metabolic coupling — illustrating gut-derived endotoxin translocation and its inflammatory consequences [Mohammad & Thiemermann, 2021].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Adipose tissue as an inflammatory signalling organ</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** In obesity and insulin-resistant states, adipose tissue releases cytokines and alters endocrine signalling; magnesium deficiency may potentiate oxidative stress and inflammatory processes within adipose tissue [Cazzola et al., 2024].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024","label":"Cazzola et al. (2024)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Omega-3 context and inflammatory resolution</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Omega-3 supplementation reduced inflammatory markers in a stressed cohort, supporting dietary fatty-acid context as a modifiable layer within metabolic-inflammatory signalling rather than isolated nutrient dosing [Kiecolt-Glaser et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM8-F2","finding_label":"Systemic cytokine effects do not establish adipose mediation","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"The attached omega-3 student trial reduced stimulated immune-cell IL-6 production.","finding_statement":"The attached omega-3 student trial reduced stimulated immune-cell IL-6 production.","finding_interpretation":"Useful inflammatory evidence is preserved without making adipose the established source.","synthesis":"Useful inflammatory evidence is preserved without making adipose the established source.","synthesis_limitations":"No adipose biopsy or adipose-specific signalling endpoint.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Kiecolt-Glaser et al. (2011)","citation_key":"kiecolt-glaser_omega-3_2011","href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Stimulated cytokine production and anxiety were measured.","study_exposure":"Combined EPA-rich supplement versus placebo in medical students.","study_finding":"Stimulated cytokine production and anxiety were measured.","assessment":{"study":"Combined EPA-rich supplement versus placebo in medical students.","population":"Combined EPA-rich supplement versus placebo in medical students.","result":"Stimulated cytokine production and anxiety were measured.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Stimulated cytokine production and anxiety were measured.","limitations":"Cannot establish a distinct adipose requirement or its causal mediation.","retrieval_scope":"Primary abstract/results retrieved; full methods not independently extracted unless noted.","source_url":"https://www.sciencedirect.com/science/article/pii/S0889159111004685/"},"canonical_reference":{"author_year":"Kiecolt-Glaser et al. (2011)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
 
-- None listed
+No newly adjudicated BRS pathway is established by this assessment.
 
 ### 5.2 Cross-BRS Mechanism Relationships
 
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — Monoaminergic Function
-- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
-- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+No downstream mapping is inherited from a shared nutrient or KC candidate.
 
 ### 5.3 Local BRS Mechanism Relationships
 
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS6-FM4-PM9 - Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation)
+[PM3](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) addresses insulin-sensitive disposal; early insulin improvement did not require measured early adipose inflammation reduction.
 
 ## 7. Phenome Connections
 
@@ -357,32 +502,14 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — indirect">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-</button>
-<strong class="brs-fm-hub-title">Recovery Capacity — indirect</strong>
-<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — indirect">
-<span class="brs-fm-hub-open-label">Open Page →</span>
-<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</a>
-</div>
-<div class="brs-fm-hub-panel" hidden>
-- **Biology → Phenome Relationship Strength:** Low–Medium
-- **Evidence Confidence:** Low
-- **Rationale:** Metabolic-inflammatory load allocation may constrain recovery after sustained metabolic or stress challenge — indirect translation from ADHD–metabolic disorder synthesis rather than measured recovery outcomes.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025","label":"Marcelli et al. (2025)"}]} />
-</div>
-</div>
-</div>
+No direct functional outcome relationship currently mapped.
 
 ## 8. References
-- [Mohammad & Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
-- [Cazzola et al. (2024) — A Defense Line to Mitigate Inflammation and Oxidative Stress in Adipose Tissue](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)
-- [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
-- [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
-- [Marcelli et al. (2025) — Insights Into Shared Mechanisms and Clinical Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025)
+
+- <span id="pm-ref-1">[1]</span> [Mohammad & Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
+- <span id="pm-ref-2">[2]</span> [Cazzola et al. (2024) — A Defense Line to Mitigate Inflammation and Oxidative Stress in Adipose Tissue](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)
+- <span id="pm-ref-3">[3]</span> [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
+- <span id="pm-ref-4">[4]</span> [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
+- <span id="pm-ref-5">[5]</span> [Marcelli et al. (2025) — Insights Into Shared Mechanisms and Clinical Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025)
+- <span id="pm-ref-6">[6]</span> [Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)
+

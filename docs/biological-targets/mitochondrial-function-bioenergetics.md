@@ -862,3 +862,29 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS4 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 **Pending SM-SNP layer:** ADHD–mitochondrial genetic variation (mtDNA copy number, haplogroups, and polymorphisms such as 10398 A/G) is reviewed in [Öğütlü et al., 2022](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023) and flagged in the Therapeutic Area Research table above. Dedicated **BRS4(SM-SNP)** pages are not yet published — planned as a next framework extension.
+
+## References
+
+[1] Van Oudheusden & Scholte (2002). [Efficacy of carnitine in the treatment of children with attention-deficit hyperactivity disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002). Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial.
+
+[2] Verlaet et al. (2019). [Oxidative stress and immune aberrancies in attention-deficit/hyperactivity disorder (ADHD): a case–control comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019). Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work; GSH required for mitochondrial lactate metabolism and ROS neutralisation.
+
+[3] Verma et al. (2016). [Attention deficit-hyperactivity disorder suffers from mitochondrial dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016). Cybrid models from ADHD platelets showed reduced cellular and mitochondrial respiration, lower complex V activity, membrane-potential loss, and elevated oxidative stress.
+
+[4] Ogutlu et al. (2023). [Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023). Narrative review synthesising ADHD-relevant mitochondrial biomarker, oxidative-stress, and genetic-variation literature (including elevated mtDNA copy number and haplogroup / polymorphism associations).
+
+[5] Almutairi et al. (2024). [Mitochondrial dysfunction and mitophagy in ADHD: Cellular and molecular mechanisms](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024). Review of mitochondrial bioenergetic regulation and mitophagy at cellular and molecular level in ADHD.
+
+[6] Harris et al. (2012). [Synaptic energy use and supply](/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012). Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.
+
+[7] Picard et al. (2015). [Mitochondrial synapses: intracellular communication and signal integration](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015). Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.
+
+[8] Picard et al. (2014). [Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014). Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.
+
+[9] Jaggar et al. (2020). [You've got male: Sex and the microbiota-gut-brain axis across the lifespan](/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020). Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.
+
+[10] McEwen et al. (2006). [Protective and damaging effects of stress mediators in health and disease](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006). Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.
+
+[11] Erecińska et al. (1996). [Regulation of GABA level in rat brain synaptosomes: fluxes through enzymes of the GABA shunt and effects of glutamate, calcium, and ketone bodies](/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996). Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation. No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.
+
+[12] Zhang et al. (2015). [Decreased carbon shunting from glucose toward oxidative metabolism in diet-induced ketotic rat brain](/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015). Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation. No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.

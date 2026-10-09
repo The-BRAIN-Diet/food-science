@@ -4,7 +4,13 @@ pm_id: BRS-X(ECS-PM4)
 mission: Shape dopaminergic reward and motivation pathways through endocannabinoid neuromodulatory interaction.
 parent_fm: BRS-X(ECS-FM1)
 parent_brs: BRS-X(ECS)
-summary: 'Describes interaction between endocannabinoid signalling and dopaminergic reward, motivation, and behavioural activation pathways (a neuromodulatory crosstalk rather than direct receptor stimulation), linking endocannabinoidome biology to drive and effort-related neurocircuitry. This intersection means endocannabinoid tone can influence motivation-relevant dopamine signalling without acting on dopamine pathways directly, operating instead through modulatory interaction at shared neural circuits. Because this pathway sits downstream of both biosynthesis and preservation mechanisms, it depends on adequate upstream endocannabinoidome tone to have influence at all.'
+summary: >-
+  Endocannabinoid signalling can influence dopamine responses to reward-predicting cues. The relevant job
+  is local circuit modulation, rather than producing lipid precursors or slowing their degradation. Rat
+  experiments identify a VTA CB1-dependent route and distinguish 2-AG augmentation from anandamide
+  administration. Those distinctions matter because two signalling lipids need not produce the same
+  response. The evidence explains a mechanism contributing to cue-driven behaviour; it does not establish
+  that a nutrient or food improves human motivation through this circuit.
 intervention_dominance: Lifestyle-Supported
 intervention_breakdown: Mixed Modulation
 timing_specific: 'Yes'
@@ -14,7 +20,9 @@ phenome_relationships:
     relationship_type: supports
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM addresses neuromodulation rather than dopamine production.
+    rationale: >-
+      Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM addresses
+      neuromodulation rather than dopamine production.
     references:
       - index: 1
         label: Covey et al. (2017)
@@ -27,11 +35,15 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021
         data_level: Mechanistic
     evidence_confidence: low-medium
+    scientific_findings: []
+    assessment_status: legacy-rating-pending-outcome-reassessment
   - target_phenome: Behavioural Activation
     relationship_type: modulates
     confidence: low
     evidence_level: mechanistic
-    rationale: Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related signalling context relevant to ADHD framing.
+    rationale: >-
+      Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related
+      signalling context relevant to ADHD framing.
     references:
       - index: 1
         label: Covey et al. (2017)
@@ -39,11 +51,15 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017
         data_level: Mechanistic
     evidence_confidence: low
+    scientific_findings: []
+    assessment_status: legacy-rating-pending-outcome-reassessment
   - target_phenome: Reward Regulation
     relationship_type: modulates
     confidence: low-medium
     evidence_level: mechanistic
-    rationale: Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation without equating to substance reward pharmacology.
+    rationale: >-
+      Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation
+      without equating to substance reward pharmacology.
     references:
       - index: 1
         label: Covey et al. (2017)
@@ -56,42 +72,324 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#solinas_anandamide_2006
         data_level: Preclinical
     evidence_confidence: low-medium
+    scientific_findings: []
+    assessment_status: legacy-rating-pending-outcome-reassessment
 references:
-  - '[Covey et al. (2017) — Endocannabinoid Modulation of Dopamine Neurotransmission](/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017)'
-  - '[Laksmidewi & Soejitno (2021) — Pas De Deux Underlying Human Motivation and Behaviors](/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021)'
-  - '[Solinas et al. (2006) — Anandamide Administration Alone and After Inhibition of Fatty Acid Amide Hydrolase (FAAH)](/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006)'
+  - >-
+    [Covey et al. (2017) — Endocannabinoid Modulation of Dopamine
+    Neurotransmission](/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017)
+  - >-
+    [Laksmidewi & Soejitno (2021) — Pas De Deux Underlying Human Motivation and
+    Behaviors](/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021)
+  - >-
+    [Solinas et al. (2006) — Anandamide Administration Alone and After Inhibition of Fatty Acid Amide
+    Hydrolase (FAAH)](/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006)
+  - >-
+    [Oleson et al. (2012) — Endocannabinoids shape accumbal encoding of cue-motivated behavior via CB1
+    receptor activation in the ventral
+    tegmentum](/docs/papers/BRAIN-Diet-References#oleson_endocannabinoid_reward_2012)
 hide_title: true
+scientific_findings:
+  - id: PM4-F1
+    finding_label: VTA CB1 and 2-AG signalling shape reward-cue dopamine responses
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested
+      cue-linked response.
+    finding_statement: >-
+      CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested
+      cue-linked response.
+    finding_interpretation: Local pharmacology is not a dietary intervention or a general motivation benefit.
+    synthesis: >-
+      CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested
+      cue-linked response.
+    synthesis_limitations: Local pharmacology is not a dietary intervention or a general motivation benefit.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Oleson et al. (2012)
+        citation_key: oleson_endocannabinoid_reward_2012
+        href: /docs/papers/BRAIN-Diet-References#oleson_endocannabinoid_reward_2012
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the
+          tested cue-linked response.
+        assessment:
+          study: Rat VTA cannabinoid manipulations with accumbal dopamine recording and reward-cue behaviour.
+          population: Rat VTA cannabinoid manipulations with accumbal dopamine recording and reward-cue behaviour.
+          result: >-
+            CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the
+            tested cue-linked response.
+          effect_magnitude: Only the extracted directional comparison is used; no pooled estimate is asserted.
+          evidence_summary: >-
+            CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the
+            tested cue-linked response.
+          limitations: Local pharmacology is not a dietary intervention or a general motivation benefit.
+          retrieval_scope: Primary Summary and Discussion excerpts retrieved.
+          source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3269037/
+    connected_supportive_evidence:
+      - label: Covey et al. (2017)
+        citation_key: covey_endocannabinoid_2017
+        href: /docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017
+        why_relevant: Preserved attached corpus and original relationship provenance.
+        why_excluded: >-
+          Contextual synthesis of this pathway. It is not used as an independent exposure-specific
+          admission or a new outcome-confidence assessment.
+      - label: Laksmidewi & Soejitno (2021)
+        citation_key: laksmidewi_endocannabinoid_2021
+        href: /docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021
+        why_relevant: Preserved attached corpus and original relationship provenance.
+        why_excluded: >-
+          Contextual synthesis of this pathway. It is not used as an independent exposure-specific
+          admission or a new outcome-confidence assessment.
+  - id: PM4-F2
+    finding_label: Administered anandamide changes accumbal dopamine in rats
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: >-
+      FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed
+      pharmacologically.
+    finding_statement: >-
+      FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed
+      pharmacologically.
+    finding_interpretation: >-
+      Administered anandamide and experimental inhibitors do not establish food efficacy or everyday
+      motivational improvement.
+    synthesis: >-
+      FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed
+      pharmacologically.
+    synthesis_limitations: >-
+      Administered anandamide and experimental inhibitors do not establish food efficacy or everyday
+      motivational improvement.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Solinas et al. (2006)
+        citation_key: solinas_anandamide_2006
+        href: /docs/papers/BRAIN-Diet-References#solinas_anandamide_2006
+        data_level: Animal Data
+        evidence_source: repository-inherited
+        directional_finding: >-
+          FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed
+          pharmacologically.
+        assessment:
+          study: >-
+            Intravenous anandamide with receptor and FAAH manipulation; accumbal microdialysis in awake
+            rats.
+          population: >-
+            Intravenous anandamide with receptor and FAAH manipulation; accumbal microdialysis in awake
+            rats.
+          result: >-
+            FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component
+            differed pharmacologically.
+          effect_magnitude: Only the extracted directional comparison is used; no pooled estimate is asserted.
+          evidence_summary: >-
+            FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component
+            differed pharmacologically.
+          limitations: >-
+            Administered anandamide and experimental inhibitors do not establish food efficacy or
+            everyday motivational improvement.
+          retrieval_scope: Repository primary abstract and DOI identity verified.
+          source_url: https://doi.org/10.1111/j.1471-4159.2006.03880.x
+    connected_supportive_evidence: []
+scientific_findings_intro: >-
+  Local rat circuit interventions and dopamine recordings support endocannabinoid–dopamine interaction.
+  Cue-linked 2-AG and administered anandamide are distinct exposures, not interchangeable dietary levers.
+key_constraints: []
+cofactors:
+  - 2-Arachidonoylglycerol (2-AG)
+pm_kc_relationships: []
+dietary_input_traceability:
+  - atom_id: PM4-DIT-1
+    input: 2-Arachidonoylglycerol (2-AG)
+    input_type: biochemical requirement
+    biological_role: Endogenous 2-AG signalling contributes to VTA CB1-dependent reward-cue dopamine modulation.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - oleson_endocannabinoid_reward_2012
+    evidence_limitation: Local pharmacology is not a dietary intervention or a general motivation benefit.
+    canonical_identity:
+      status: missing-substance
+      severity: MAJOR
+      intended_identity: 2-Arachidonoylglycerol (2-AG)
+      candidates_checked:
+        - Canonical registry, page titles and aliases checked; no verified identity.
+      gap: Register this specific biochemical identity before substance/food projection.
+dietary_lever_atoms:
+  - atom_id: PM4-DIT-1
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Endogenous 2-AG signalling contributes to VTA CB1-dependent reward-cue dopamine modulation.
+    evidence_limitation: Local pharmacology is not a dietary intervention or a general motivation benefit.
+dietary_lever_presentations:
+  - atom_id: PM4-DIT-1
+    label: 2-Arachidonoylglycerol (2-AG)
+    presentation_section: 3.1.2
+    reader_description: Endogenous 2-AG signalling contributes to VTA CB1-dependent reward-cue dopamine modulation.
+    description_finding_id: PM4-F1
+pending_actions:
+  - severity: MAJOR
+    input: 2-Arachidonoylglycerol (2-AG)
+    pm_id: BRS-X(ECS-PM4)
+    section: 3.1.2
+    relationship_type: biochemical-requirement
+    canonical_identity:
+      status: missing-substance
+      severity: MAJOR
+      intended_identity: 2-Arachidonoylglycerol (2-AG)
+      candidates_checked:
+        - Canonical registry, page titles and aliases checked; no verified identity.
+      gap: Register this specific biochemical identity before substance/food projection.
+    required_action: >-
+      Canonical substance identity registration/repair, followed by separately sourced composition and
+      food-relationship assessment. No unreliable identity projection.
+system_optimisation_practices: []
+lifestyle_priorities: []
+kc_applicability_adjudications:
+  - kc_id: BRS-X(ECS-KC1)
+    arm_id: ecs-pm4-resource-supply
+    disposition: unresolved
+    rationale: >-
+      The legacy ECS pool lacks an admitted canonical constituent definition. Specific precursor biology
+      is preserved; it cannot silently validate the entire legacy phospholipid/choline pool.
+    evidence_source:
+      finding_ids:
+        - PM4-F1
+      citation_keys:
+        - oleson_endocannabinoid_reward_2012
+    remaining_gap: >-
+      Reconcile the canonical pool and individually adjudicate its constituents against this PM; no
+      downstream inheritance.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Lifestyle-Supported
+    rationale: >-
+      Inherited qualification retained for traceability. The current review qualifies only the routes and
+      contexts recorded below; the inherited label is not proof of comparative dominance.
+    scope_note: >-
+      The inherited intervention qualification is not confirmed by a mission-specific dietary/practice
+      effect in this assessment.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: No principal intervention route established from the reviewed mission-specific exposure evidence.
+    assessments: []
+stage2ab_assessment_history:
+  - date: '2026-10-09'
+    reason: Independent ECS/Hormones evidence and input-specificity reassessment; original ratings preserved.
+    previous_records:
+      mission: >-
+        Shape dopaminergic reward and motivation pathways through endocannabinoid neuromodulatory
+        interaction.
+      summary: >-
+        Describes interaction between endocannabinoid signalling and dopaminergic reward, motivation, and
+        behavioural activation pathways (a neuromodulatory crosstalk rather than direct receptor
+        stimulation), linking endocannabinoidome biology to drive and effort-related neurocircuitry. This
+        intersection means endocannabinoid tone can influence motivation-relevant dopamine signalling
+        without acting on dopamine pathways directly, operating instead through modulatory interaction at
+        shared neural circuits. Because this pathway sits downstream of both biosynthesis and
+        preservation mechanisms, it depends on adequate upstream endocannabinoidome tone to have
+        influence at all.
+      intervention_dominance: Lifestyle-Supported
+      phenome_relationships:
+        - target_phenome: Motivation / Drive
+          relationship_type: supports
+          confidence: low-medium
+          evidence_level: mechanistic
+          rationale: >-
+            Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM
+            addresses neuromodulation rather than dopamine production.
+          references:
+            - index: 1
+              label: Covey et al. (2017)
+              citation_key: covey_endocannabinoid_2017
+              href: /docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017
+              data_level: Mechanistic
+            - index: 2
+              label: Laksmidewi & Soejitno (2021)
+              citation_key: laksmidewi_endocannabinoid_2021
+              href: /docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021
+              data_level: Mechanistic
+          evidence_confidence: low-medium
+        - target_phenome: Behavioural Activation
+          relationship_type: modulates
+          confidence: low
+          evidence_level: mechanistic
+          rationale: >-
+            Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related
+            signalling context relevant to ADHD framing.
+          references:
+            - index: 1
+              label: Covey et al. (2017)
+              citation_key: covey_endocannabinoid_2017
+              href: /docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017
+              data_level: Mechanistic
+          evidence_confidence: low
+        - target_phenome: Reward Regulation
+          relationship_type: modulates
+          confidence: low-medium
+          evidence_level: mechanistic
+          rationale: >-
+            Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation
+            without equating to substance reward pharmacology.
+          references:
+            - index: 1
+              label: Covey et al. (2017)
+              citation_key: covey_endocannabinoid_2017
+              href: /docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017
+              data_level: Mechanistic
+            - index: 3
+              label: Solinas et al. (2006)
+              citation_key: solinas_anandamide_2006
+              href: /docs/papers/BRAIN-Diet-References#solinas_anandamide_2006
+              data_level: Preclinical
+          evidence_confidence: low-medium
+    report_path: system/brs-x-ecs-stage2ab-assessment.md
+list_image: /img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg
+stage2a_scope_review:
+  pm_id: BRS-X(ECS-PM4)
+  issue: >-
+    Dietary precursor status to this specific circuit response remains unresolved; shared lipid supply is
+    not independent evidence of a food intervention.
+  disposition: pending-scope-review
+  instruction: >-
+    Preserve identity and mission pending review; current evidence statements remain bounded. No
+    automatic rating or parent-FM uplift.
 ---
 
-<p class="brs-pm-thumbnail-wrap">
-  <img
-    src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg"
-    alt="BRS-X(ECS) — Endocannabinoid System"
-    class="brs-pm-thumbnail"
-  />
-</p>
+<p class="brs-pm-thumbnail-wrap"><img src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg" alt="BRS-X(ECS)" class="brs-pm-thumbnail" /></p>
 
 ## BRS-X(ECS-PM4) - Endocannabinoid–Dopamine Neuromodulation
 
-(Reward & Motivation Through Lipid Signalling)
-
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
 Shape dopaminergic reward and motivation pathways through endocannabinoid neuromodulatory interaction.
 
+### Overview
 
-**Intervention Dominance:** Lifestyle-Supported
+Endocannabinoid signalling can influence dopamine responses to reward-predicting cues. The relevant job is local circuit modulation, rather than producing lipid precursors or slowing their degradation. Rat experiments identify a VTA CB1-dependent route and distinguish 2-AG augmentation from anandamide administration. Those distinctions matter because two signalling lipids need not produce the same response. The evidence explains a mechanism contributing to cue-driven behaviour; it does not establish that a nutrient or food improves human motivation through this circuit.  Solinas et al. (2006) [[3]](#pm-ref-3); Oleson et al. (2012) [[4]](#pm-ref-4)
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+- **Biological Relevance:** CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.  Oleson et al. (2012) [[4]](#pm-ref-4)
+
+## 2. Primary Biological Effects
+
+- CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.  Oleson et al. (2012) [[4]](#pm-ref-4)
+- FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.  Solinas et al. (2006) [[3]](#pm-ref-3)
+
+## 3. Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 <strong>3.1 Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -99,11 +397,7 @@ Shape dopaminergic reward and motivation pathways through endocannabinoid neurom
 <strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
-- Phospholipid-rich foods supporting NAE tone ← eggs, fish roe, liver
-- Polyphenol-rich patterns supporting FAAH-sensitive preservation ← soy, legumes, vegetables
-- Omega-3-rich foods intersecting ethanolamide context ← oily fish
-
+No Direct or Derived Dietary Requirement is currently established.
 </div>
 </div>
 </div>
@@ -115,9 +409,7 @@ Shape dopaminergic reward and motivation pathways through endocannabinoid neurom
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
-- None assigned
-
+- 2-Arachidonoylglycerol (2-AG)
 </div>
 </div>
 </div>
@@ -129,58 +421,34 @@ Shape dopaminergic reward and motivation pathways through endocannabinoid neurom
 <strong>3.1.3 Key Constraints</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
-- None listed
-
+No mapping established.
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 
-</div>
-</div>
-
-</div>
-### Overview
-
-Describes interaction between endocannabinoid signalling and dopaminergic reward, motivation, and behavioural activation pathways (a neuromodulatory crosstalk rather than direct receptor stimulation), linking endocannabinoidome biology to drive and effort-related neurocircuitry. This intersection means endocannabinoid tone can influence motivation-relevant dopamine signalling without acting on dopamine pathways directly, operating instead through modulatory interaction at shared neural circuits. Because this pathway sits downstream of both biosynthesis and preservation mechanisms, it depends on adequate upstream endocannabinoidome tone to have influence at all.
-
-* Links endocannabinoid tone to dopaminergic reward and motivation signalling.
-* Operates through modulatory crosstalk rather than direct receptor stimulation.
-* Depends on adequate upstream biosynthesis and preservation to have effect.
-
-## 2. Primary Biological Effects
-↑ endocannabinoid–dopamine neuromodulatory coupling; ↑ motivation and reward-signalling context; ↓ uncoupled dopaminergic volatility where endocannabinoidome support is weak
-
-## 3. Intervention Levers
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Spinach — Synergies](/docs/foods/spinach#synergies), [Kale — Synergies](/docs/foods/kale#synergies).
-- Pair iron-containing foods with vitamin C and meal-context enhancers to support absorption — see [Lentils — Synergies](/docs/foods/lentils#synergies).
-
+No evidence-qualified System Optimisation Practice is currently established.
 </div>
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 <strong>3.3 Lifestyle Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
-- Sleep regularity and stress recovery may support endocannabinoid–dopamine coupling context.
-- Chronic stress may weaken endocannabinoid tone intersecting dopaminergic motivation pathways.
-
+No evidence-qualified Lifestyle Lever is currently established.
 </div>
 </div>
 </div>
@@ -189,98 +457,19 @@ Describes interaction between endocannabinoid signalling and dopaminergic reward
 
 ### Summary
 
-Endocannabinoid signalling modulates dopaminergic reward, motivation, and behavioural activation within [BRS-X(ECS-FM1)](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation) — the strongest ADHD-relevant ECS mechanism in diet-actionable framing, distinct from dopamine substrate production [Covey et al., 2017; Laksmidewi & Soejitno, 2021].
+CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.  Oleson et al. (2012) [[4]](#pm-ref-4)
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Endocannabinoid–dopamine interface</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+**Mechanism boundary:** Dietary precursor status to this specific circuit response remains unresolved; shared lipid supply is not independent evidence of a food intervention.
 
-#### (Motivation and reward neuromodulation)
+### 4.1 Scientific Findings
 
-Endocannabinoid signalling interacts with dopaminergic pathways governing motivation, effort, and reward-related behaviour → [Covey et al., 2017]; [Laksmidewi & Soejitno, 2021]
+#### Summary
 
-#### (Anandamide and mesolimbic dopamine)
+Local rat circuit interventions and dopamine recordings support endocannabinoid–dopamine interaction. Cue-linked 2-AG and administered anandamide are distinct exposures, not interchangeable dietary levers.
 
-Anandamide and FAAH-sensitive tone may influence nucleus accumbens dopamine context characteristic of reward signalling → [Solinas et al., 2006]
+<ScientificFinding finding={{"id":"PM4-F1","finding_label":"VTA CB1 and 2-AG signalling shape reward-cue dopamine responses","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","finding_statement":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","finding_interpretation":"Local pharmacology is not a dietary intervention or a general motivation benefit.","synthesis":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","synthesis_limitations":"Local pharmacology is not a dietary intervention or a general motivation benefit.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Oleson et al. (2012)","citation_key":"oleson_endocannabinoid_reward_2012","href":"/docs/papers/BRAIN-Diet-References#oleson_endocannabinoid_reward_2012","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","assessment":{"study":"Rat VTA cannabinoid manipulations with accumbal dopamine recording and reward-cue behaviour.","population":"Rat VTA cannabinoid manipulations with accumbal dopamine recording and reward-cue behaviour.","result":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"CB1 disruption reduced cue responses; augmenting 2-AG, rather than anandamide, enhanced the tested cue-linked response.","limitations":"Local pharmacology is not a dietary intervention or a general motivation benefit.","retrieval_scope":"Primary Summary and Discussion excerpts retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3269037/"},"canonical_reference":{"author_year":"Oleson et al. (2012)","number":4,"anchor":"#pm-ref-4"}}],"connected_supportive_evidence":[{"label":"Covey et al. (2017)","citation_key":"covey_endocannabinoid_2017","href":"/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission or a new outcome-confidence assessment.","canonical_reference":{"author_year":"Covey et al. (2017)","number":1,"anchor":"#pm-ref-1"}},{"label":"Laksmidewi & Soejitno (2021)","citation_key":"laksmidewi_endocannabinoid_2021","href":"/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021","why_relevant":"Preserved attached corpus and original relationship provenance.","why_excluded":"Contextual synthesis of this pathway. It is not used as an independent exposure-specific admission or a new outcome-confidence assessment.","canonical_reference":{"author_year":"Laksmidewi and Soejitno (2021)","number":2,"anchor":"#pm-ref-2"}}]}} />
 
-#### (Boundaries of the mechanism)
-
-This PM is not dopamine production or amino-acid substrate supply — those belong to [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function). NAPE biosynthesis belongs to [BRS-X(ECS-PM1)](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity).
-
-#### (Integration within BRS-X(ECS))
-
-This PM operationalises the dopaminergic neuromodulation arm of BRS-X(ECS-FM1), supported upstream by NAE biosynthesis and FAAH preservation PMs.
-
-</div>
-</div>
-</div>
-
-### 4.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Endocannabinoid–dopamine neuromodulatory coupling is mechanistically established. The studies below highlight interface biology that refines how this PM is interpreted — neuromodulation of dopaminergic pathways, not dopamine substrate production.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Endocannabinoid modulation of dopamine neurotransmission</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Endocannabinoid signalling interacts with dopaminergic pathways governing motivation, effort, and reward-related neuromodulation — distinct from monoaminergic substrate supply represented in BRS1(FM1) [Covey et al., 2017].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017","label":"Covey et al. (2017)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Motivation and behavioural activation interface</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Endocannabinoid and dopamine systems operate as coupled neuromodulatory partners underlying human motivation and behavioural activation context — as coupled partners in motivation and behavioural activation [Laksmidewi & Soejitno, 2021].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021","label":"Laksmidewi & Soejitno (2021)","dataLevel":"Mechanistic"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Anandamide and mesolimbic dopamine context</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Anandamide and FAAH-sensitive tone may influence nucleus accumbens dopamine signalling characteristic of reward-related neuromodulation, linking upstream NAE biosynthesis and preservation PMs to dopaminergic interface biology [Solinas et al., 2006].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006","label":"Solinas et al. (2006)","dataLevel":"Preclinical"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM4-F2","finding_label":"Administered anandamide changes accumbal dopamine in rats","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","finding_statement":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","finding_interpretation":"Administered anandamide and experimental inhibitors do not establish food efficacy or everyday motivational improvement.","synthesis":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","synthesis_limitations":"Administered anandamide and experimental inhibitors do not establish food efficacy or everyday motivational improvement.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Solinas et al. (2006)","citation_key":"solinas_anandamide_2006","href":"/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006","data_level":"Animal Data","evidence_source":"repository-inherited","directional_finding":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","assessment":{"study":"Intravenous anandamide with receptor and FAAH manipulation; accumbal microdialysis in awake rats.","population":"Intravenous anandamide with receptor and FAAH manipulation; accumbal microdialysis in awake rats.","result":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","effect_magnitude":"Only the extracted directional comparison is used; no pooled estimate is asserted.","evidence_summary":"FAAH inhibition prolonged the rapid CB1-sensitive dopamine response; a later component differed pharmacologically.","limitations":"Administered anandamide and experimental inhibitors do not establish food efficacy or everyday motivational improvement.","retrieval_scope":"Repository primary abstract and DOI identity verified.","source_url":"https://doi.org/10.1111/j.1471-4159.2006.03880.x"},"canonical_reference":{"author_year":"Solinas et al. (2006)","number":3,"anchor":"#pm-ref-3"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
@@ -292,18 +481,20 @@ Endocannabinoid–dopamine neuromodulatory coupling is mechanistically establish
 
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-- [BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation) — the strongest ADHD-relevant ECS mechanism in diet-actionable framing, distinct from dopamine substrate production [Covey et al., 2017; Laksmidewi & Soejitno, 2021]
-- [BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity) — bRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity
-- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Classical NAPE → NAE biosynthesis from phospholipids
-- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
-- [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — This PM integrates stress modulation, inflammation buffering, and glutamatergic regulation context — not isolated CB1/CB2 receptor biology. NAPE biosynthesis
+- [BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation) — Parent integration combines these child processes without establishing a new nutrient or outcome claim.
+- [BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity) — Supplies NAE formation; downstream signal clearance and receptor responses remain separate jobs.
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — DHA is shared lipid context, but membrane incorporation and ethanolamide formation are separately measured processes.
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — Candidate contextual connection retained for review; an exposure-specific resource or signalling relationship is not yet characterised.
+- [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — Stress-axis output is an interfacing endpoint; the regional endocannabinoid route is qualified separately from general cortisol regulation.
 
 ### 5.3 Local BRS Mechanism Relationships
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity)
-- [BRS-X(ECS-PM3) — FAAH-Mediated Endocannabinoid Preservation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation)
+- [BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity) — Supplies NAE formation; downstream signal clearance and receptor responses remain separate jobs.
+- [BRS-X(ECS-PM3) — FAAH-Mediated Endocannabinoid Preservation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation) — Controls NAE degradation after formation; laboratory inhibition is separate from dietary precursor supply.
+
+**Phenome assessment boundary:** Existing ratings and their original source records are retained pending outcome reassessment. The new mechanism and lever Findings do not validate or raise those ratings.
 
 ## 7. Phenome Connections
 
@@ -357,9 +548,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM addresses neuromodulation rather than dopamine production.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017","label":"Covey et al. (2017)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021","label":"Laksmidewi & Soejitno (2021)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -380,9 +568,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
 - **Rationale:** Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related signalling context relevant to ADHD framing.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017","label":"Covey et al. (2017)","dataLevel":"Mechanistic"}]} />
 </div>
 </div>
 </div>
@@ -403,14 +588,14 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
 - **Rationale:** Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation without equating to substance reward pharmacology.
-- **Key References:**
+</div>
+</div>
+</div>
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017","label":"Covey et al. (2017)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006","label":"Solinas et al. (2006)","dataLevel":"Preclinical"}]} />
-</div>
-</div>
-</div>
 
 ## 8. References
-- [Covey et al. (2017) — Endocannabinoid Modulation of Dopamine Neurotransmission](/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017)
-- [Laksmidewi & Soejitno (2021) — Pas De Deux Underlying Human Motivation and Behaviors](/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021)
-- [Solinas et al. (2006) — Anandamide Administration Alone and After Inhibition of Fatty Acid Amide Hydrolase (FAAH)](/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006)
+
+- <span id="pm-ref-1">[1]</span> [Covey et al. (2017) — Endocannabinoid Modulation of Dopamine Neurotransmission](/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017)
+- <span id="pm-ref-2">[2]</span> [Laksmidewi & Soejitno (2021) — Pas De Deux Underlying Human Motivation and Behaviors](/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021)
+- <span id="pm-ref-3">[3]</span> [Solinas et al. (2006) — Anandamide Administration Alone and After Inhibition of Fatty Acid Amide Hydrolase (FAAH)](/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006)
+- <span id="pm-ref-4">[4]</span> [Oleson et al. (2012) — Endocannabinoids shape accumbal encoding of cue-motivated behavior via CB1 receptor activation in the ventral tegmentum](/docs/papers/BRAIN-Diet-References#oleson_endocannabinoid_reward_2012)

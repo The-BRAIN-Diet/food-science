@@ -100,6 +100,8 @@ type PresentationRow = {
 
 type NonDietaryLeverRow = TraceRow & {
   presentation_label?: string;
+  reader_description?: string;
+  description_finding_id?: string;
 };
 
 function buildPmReferenceKeyIndex(references: string[] = []): Map<string, EvidenceReference> {
@@ -255,6 +257,8 @@ export function buildDietaryLeverDisclosureMap(
     );
     map.set(key, {
       title: String(base.input),
+      identityStatus: base.canonical_identity?.status,
+      inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
       inputType: formatInputTypeLabel(String(base.input_type || "")),
       biologicalRole: String(base.biological_role || ""),
       evidenceLimitation: String(limitation).trim(),
@@ -302,7 +306,9 @@ export function buildDietaryLeverDisclosureMap(
           row.evidence_source?.citation_keys || [],
         ),
         compactQualifier: "",
-        presentationSection: "3.1.3",
+        presentationSection: section,
+        readerDescription: String(row.reader_description || "").trim(),
+        supportingFinding: supportingFindingLink(frontMatter, row.description_finding_id),
       });
     }
   }

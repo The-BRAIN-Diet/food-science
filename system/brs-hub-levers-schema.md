@@ -27,13 +27,13 @@ separate Lever bibliography.
 | 5 | **Functional Mechanisms** | Required — regenerate with `npm run brs:update-hub-fms` |
 | 5a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
 | 6 | **Specific Mechanisms** and downstream navigation (SMs, etc.) | Required |
+| 7 | **References** | Required — bibliographic core used on food and substance pages. One line per citation already used in Therapeutic Area Research or Cross-BRS Dependencies: `[n] Author(s) (Year). [Paper title](/docs/papers/BRAIN-Diet-References#citationKey). Why this source is cited on this hub.` |
 
 **Removed from hub pages (do not restore):**
 
 - Standalone **Key Constraints (Dietary Bottlenecks)** section (KC pools fold into Dietary Guidance — see [KC-integrated Dietary Guidance](#kc-integrated-dietary-guidance-canonical))
 - Standalone **Overview** section (content relocated into Ambition or Dietary Guidance Biology)
 - Standalone **Biological Bottlenecks / Constraints** section (content integrated into Dietary Guidance Biology)
-- Standalone **References** section on the hub (TA dropdown carries its own references)
 - Separate **Target Foods** dropdown (target foods now live inside each Dietary Guidance point)
 - Standalone **Modulators** and **Functional Outputs** sections (legacy leftover from the April 2026 ontology template; circadian, sleep, activity and meal-timing content now lives in Dietary and Lifestyle Levers, and observable system-state patterns belong in Ambition / Phenomes rather than uncited hub bullets)
 

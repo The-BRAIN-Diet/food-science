@@ -7,11 +7,11 @@ list_image: /img/icons/nutrients.svg
 
 # Nutrients
 
-This page organizes nutrients according to their classification: **Macronutrients** (amino acids, fatty acids, phospholipids) and **Micronutrients** (vitamins, minerals).
+This page organizes nutrients according to their classification: **Macronutrients** (amino acids, fatty acids, phospholipids, carbohydrates) and **Micronutrients** (vitamins, minerals).
 
 ## Macronutrients
 
-Macronutrients include amino acids, fatty acids, and phospholipids that provide energy and structural components.
+Macronutrients include amino acids, fatty acids, phospholipids, and carbohydrates, including dietary fibre.
 
 [Macronutrients →](/docs/substances/nutrients/macronutrients/)
 

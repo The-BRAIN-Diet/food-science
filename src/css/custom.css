@@ -137,6 +137,8 @@
 
 .brs-overview-thumbnail-link,
 .brs-overview-x-thumbnail-link {
+  flex: 1 1 calc(33.333% - 0.75rem);
+  min-width: 0;
   line-height: 0;
   text-decoration: none;
 }
@@ -150,6 +152,9 @@
 .brs-overview-thumbnails .brs-pm-thumbnail-wrap,
 .brs-overview-x-thumbnails .brs-pm-thumbnail-wrap {
   margin: 0;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 217 / 122;
 }
 
 .phenome-register-hero {
@@ -209,8 +214,8 @@
 }
 
 .brs-x-combined-hero-item {
-  flex: 1 1 280px;
-  min-width: 0;
+  flex: 1 1 calc(33.333% - 0.75rem);
+  min-width: 180px;
   line-height: 0;
 }
 
@@ -1629,9 +1634,19 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
 }
 
 /* Substance hero images should match food hero visual scale more closely */
-.substance-page-hero {
+.substance-page-hero,
+.substance-structure-hero {
   max-height: 360px;
   object-fit: contain;
+}
+
+.substance-structure-hero {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 560px);
+  background: #fff;
+  border-radius: 4px;
 }
 
 .mineral-photo-caption {
@@ -1683,7 +1698,8 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
     max-height: 320px;
   }
 
-  .substance-page-hero {
+  .substance-page-hero,
+  .substance-structure-hero {
     max-height: 320px;
   }
 

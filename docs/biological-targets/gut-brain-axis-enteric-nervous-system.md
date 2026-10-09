@@ -141,7 +141,7 @@ Maintains microbial metabolite signalling capacity by supporting production of b
 
 - [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — biological connection relevant to this mechanism
 - [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — biological connection relevant to this mechanism
-- [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — circadian Feeding & Light-Dark Entrainment
+- [BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation) — feeding time can shift peripheral clocks; substrate studies here do not establish that synchronisation
 
 </div>
 </div>
@@ -550,7 +550,7 @@ Maintains microbial metabolite signalling capacity by supporting production of b
 
 - [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — biological connection relevant to this mechanism
 - [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — biological connection relevant to this mechanism
-- [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — circadian Feeding & Light-Dark Entrainment
+- [BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation) — feeding time can shift peripheral clocks; substrate studies here do not establish that synchronisation
 
 </div>
 </div>
@@ -788,3 +788,31 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 ## Specific Mechanisms
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS5 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
+
+## References
+
+[1] Prehn-Kristensen et al. (2018). [Reduced microbiome alpha diversity in young patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018). Reduced microbial alpha diversity reported in paediatric ADHD cohorts.
+
+[2] Aarts et al. (2017). [Gut microbiome in ADHD and its relation to neural reward anticipation](/docs/papers/BRAIN-Diet-References#aarts_gut_2017). Gut microbiome composition linked to neural reward anticipation in ADHD.
+
+[3] Jiang et al. (2018). [Gut microbiota profiles in treatment-naïve children with attention deficit hyperactivity disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018). Compositional differences in gut microbiota profiles in treatment-naïve children with ADHD, including beneficial taxa guild shifts.
+
+[4] Steckler et al. (2024). [Disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024). ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls.
+
+[5] Wang et al. (2022). [Effect of Bifidobacterium bifidum on Clinical Characteristics and Gut Microbiota in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#wang_effect_2022). Open-label *Bifidobacterium bifidum* supplementation associated with symptom change and altered gut microbiota in children with ADHD.
+
+[6] Pärtty et al. (2015). [A possible link between early probiotic intervention and the risk of neuropsychiatric disorders later in childhood: a randomized trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015). Early-life *Lactobacillus rhamnosus* GG exposure with later neurodevelopmental risk associations including ADHD; hypothesis-generating developmental modulation window rather than definitive prevention.
+
+[7] Schleupner & Carmichael (2022). [Attention-Deficit/Hyperactivity Disorder and the Gut Microbiota–Gut–Brain Axis: Closing Research Gaps through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022). ADHD-focused review of gut microbiota–gut–brain axis research gaps, including female inclusion in study design.
+
+[8] Bravo et al. (2011). [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011). Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.
+
+[9] Jaggar et al. (2020). [You've got male: Sex and the microbiota-gut-brain axis across the lifespan](/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020). Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.
+
+[10] O’Mahony et al. (2015). [Serotonin, tryptophan metabolism and the brain-gut-microbiome axis](/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015). Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.
+
+[11] Slavich & Irwin (2014). [From stress to inflammation and major depressive disorder: A social signal transduction theory of depression](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014). Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.
+
+[12] Picard et al. (2014). [Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014). Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.
+
+[13] Thayer et al. (2012). [A meta-analysis of heart rate variability and neuroimaging studies: implications for heart rate variability as a marker of stress and health.](/docs/papers/BRAIN-Diet-References#thayer_2012_22178086). Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.

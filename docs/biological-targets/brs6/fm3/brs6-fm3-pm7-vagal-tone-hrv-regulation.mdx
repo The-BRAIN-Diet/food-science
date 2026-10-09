@@ -2,76 +2,323 @@
 title: Vagal Tone / HRV Regulation
 pm_id: BRS6-FM3-PM7
 mission: >-
-  Sustain vagal tone so heart-rate-variability-linked recovery signalling
-  remains robust under repeated stress exposure.
+  Sustain vagal tone so heart-rate-variability-linked recovery signalling remains robust under
+  repeated stress exposure.
 parent_fm: BRS6(FM3)
 parent_brs: BRS6
 summary: >-
-  Regulates vagal tone and heart-rate-variability-related recovery signalling
-  (HRV, a measurable proxy for parasympathetic nervous system activity and
-  recovery capacity) that reflects readiness to recover after stress, exercise,
-  or cognitive demand. Unlike the broader sympathetic–parasympathetic shift
-  covered by a sibling mechanism, this pathway focuses specifically on vagal
-  nerve output and its measurable HRV signature. Nutrient status, gut–vagal
-  signalling, and consistent recovery practices all shape how robust this vagal
-  tone remains over time.
-key_constraints:
-  - BRS6(KC2) - Stress-Response Micronutrient & Lipid Sufficiency
-cofactors:
-  - omega-3
-  - magnesium
+  The vagus nerve helps regulate the heart’s response to demand. Heart-rate variability, the
+  changing interval between beats, provides one window onto cardiac regulation when breathing and
+  measurement conditions are considered. Paced breathing can change this signal during a session. An
+  omega-3 trial also found changes in adults with elevated triglycerides. These findings make
+  cardiac regulation addressable, while requiring a clear distinction between measured HRV and the
+  wider functions of the vagus.
+key_constraints: []
+cofactors: []
 intervention_dominance: Lifestyle-Dominant
 intervention_breakdown: Behavioural/Lifestyle Dominant
-timing_specific: 'Yes'
-dose_sensitivity: '[MISSING_OR_DERIVE_FROM_COLUMN_J_N]'
+timing_specific: "Yes"
+dose_sensitivity: >-
+  Effects depend on the tested exposure, preparation and study population; no universal dose is
+  established.
 references:
   - >-
-    [Sauder et al. (2013) — Effects of Omega-3 Fatty Acid Supplementation on
-    Heart Rate Variability At
-    Rest](/docs/papers/BRAIN-Diet-References#sauder_effects_2013)
+    [Sauder et al. (2013) — Effects of Omega-3 Fatty Acid Supplementation on Heart Rate Variability
+    At Rest](/docs/papers/BRAIN-Diet-References#sauder_effects_2013)
   - >-
-    [Austelle et al. (2022) — A Comprehensive Review of Vagus Nerve Stimulation
-    for
+    [Austelle et al. (2022) — A Comprehensive Review of Vagus Nerve Stimulation for
     Depression](/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022)
   - >-
     [Kiecolt-Glaser et al. (2011) — A Randomized Controlled
     Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
   - >-
-    [Lane et al. (2010) — Differentiating Using Electrodermal Responses,
-    Cortisol, and Anxiety](/docs/papers/BRAIN-Diet-References#lane_sensory_2010)
+    [Lane et al. (2010) — Differentiating Using Electrodermal Responses, Cortisol, and
+    Anxiety](/docs/papers/BRAIN-Diet-References#lane_sensory_2010)
+  - >-
+    [You et al. (2021) — Single Slow-Paced Breathing Session at Six Cycles per Minute: Investigation
+    of Dose-Response Relationship on Cardiac Vagal
+    Activity](/docs/papers/BRAIN-Diet-References#you_breathing_dose_2021)
 hide_title: true
-phenome_relationships:
-  - target_phenome: Stress Resilience
-    relationship_type: modulates
-    confidence: low-medium
-    evidence_level: observational
-    evidence_confidence: low-medium
-    rationale: >-
-      Electrodermal and autonomic markers differentiate sensory
-      over-responsivity from ADHD — vagal tone/HRV regulation is the
-      parasympathetic arm supporting stress-buffering capacity in
-      neurodevelopmental autonomic profiling.
-    references:
-      - index: 1
-        label: Lane et al. (2010)
+phenome_relationships: []
+list_image: /img/biological-targets/brs6-portrait-thumbnail.png
+scientific_findings:
+  - id: PM7-F1
+    finding_label: Slow breathing changes session HRV without a simple longer-is-better result
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Slow-paced breathing increased RMSSD during the session relative to control.
+    finding_statement: Slow-paced breathing increased RMSSD during the session relative to control.
+    finding_interpretation: >-
+      The cardiac proxy was responsive; post-session persistence and general vagal function remain
+      different questions.
+    synthesis: >-
+      The cardiac proxy was responsive; post-session persistence and general vagal function remain
+      different questions.
+    synthesis_limitations: Young adults; respiration directly influences HRV interpretation.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: You et al. (2021)
+        citation_key: you_breathing_dose_2021
+        href: /docs/papers/BRAIN-Diet-References#you_breathing_dose_2021
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: During-session RMSSD increased without a significant duration gradient.
+        study_exposure: >-
+          Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and
+          control.
+        study_finding: During-session RMSSD increased without a significant duration gradient.
+        assessment:
+          study: >-
+            Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and
+            control.
+          population: >-
+            Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and
+            control.
+          result: During-session RMSSD increased without a significant duration gradient.
+          effect_magnitude: Only source-extracted comparisons retained; no pooled benefit estimate.
+          evidence_summary: During-session RMSSD increased without a significant duration gradient.
+          limitations: No established lasting elevation after the practice.
+          retrieval_scope: Primary abstract, Methods and Results Tables 1–3 retrieved.
+          source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8656666/
+    connected_supportive_evidence:
+      - label: Austelle et al. (2022)
+        citation_key: austelle_comprehensive_2022
+        href: /docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          Clinical electrical vagus stimulation is not an independently established food or ordinary
+          lifestyle relationship.
+      - label: Kiecolt-Glaser et al. (2011)
+        citation_key: kiecolt-glaser_omega-3_2011
+        href: /docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          Stimulated systemic immune-cell cytokines and anxiety; not adipose-specific signalling or
+          a distinct HRV nutrient requirement.
+      - label: Lane et al. (2010)
         citation_key: lane_sensory_2010
         href: /docs/papers/BRAIN-Diet-References#lane_sensory_2010
-  - target_phenome: Sleep / Calming Tone
-    relationship_type: indirect
-    confidence: low
-    evidence_level: observational
-    evidence_confidence: low
+        why_relevant: >-
+          Preserved attached corpus, assessed for the mission-specific endpoint rather than
+          inherited as an admission.
+        why_excluded: >-
+          The attached source is contextual. No separately extracted mission-specific intermediary
+          or intervention endpoint justifies a new requirement, KC admission or phenome rating from
+          this source.
+  - id: PM7-F2
+    finding_label: An EPA+DHA intervention changes HRV in a defined population
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: The higher-dose EPA+DHA condition increased RMSSD and total power relative to placebo.
+    finding_statement: The higher-dose EPA+DHA condition increased RMSSD and total power relative to placebo.
+    finding_interpretation: This is an intervention observation, not an indispensable vagal nutrient requirement.
+    synthesis: This is an intervention observation, not an indispensable vagal nutrient requirement.
+    synthesis_limitations: Elevated-triglyceride adults, combined formulation; constituent effects not isolated.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Sauder et al. (2013)
+        citation_key: sauder_effects_2013
+        href: /docs/papers/BRAIN-Diet-References#sauder_effects_2013
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.
+        study_exposure: Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.
+        study_finding: Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.
+        assessment:
+          study: Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.
+          population: Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.
+          result: Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.
+          effect_magnitude: Only source-extracted comparisons retained; no pooled benefit estimate.
+          evidence_summary: Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.
+          limitations: Exact combined supplement and study context, not food equivalence.
+          retrieval_scope: >-
+            Primary abstract/results retrieved; full methods not independently extracted unless
+            noted.
+          source_url: https://pubmed.ncbi.nlm.nih.gov/23592752/
+    connected_supportive_evidence: []
+dietary_input_traceability: []
+dietary_lever_atoms: []
+dietary_lever_presentations: []
+pending_actions: []
+system_optimisation_practices:
+  - atom_id: PM7-SOP-1
+    input: Slow-paced breathing at six cycles per minute
+    input_type: paced breathing protocol
+    biological_role: The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated measure.
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+      citation_keys:
+        - you_breathing_dose_2021
+    evidence_limitation: Session HRV is respiration-dependent and does not show durable whole-body vagal improvement.
+    optimisation_category: stress_autonomic
+    reader_description: The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated measure.
+    description_finding_id: PM7-F1
+  - atom_id: PM7-SOP-2
+    input: EPA+DHA supplementation (studied combined formulation)
+    input_type: conditional supplementation
+    biological_role: The higher-dose combined exposure changed RMSSD and total power in the trial.
+    evidence_source:
+      finding_ids:
+        - PM7-F2
+      citation_keys:
+        - sauder_effects_2013
+    evidence_limitation: Small elevated-triglyceride sample; no separated EPA/DHA necessity or routine benefit claim.
+    optimisation_category: conditional_supplementation
+    reader_description: The higher-dose combined exposure changed RMSSD and total power in the trial.
+    description_finding_id: PM7-F2
+lifestyle_priorities: []
+pm_kc_relationships: []
+kc_applicability_adjudications:
+  - kc_id: BRS6(KC1)
+    ikc_id: BRS6(KC1)
+    arm_id: PM7-KC1-review
+    disposition: unresolved
+    proposition: >-
+      Does the narrowed circulating-glucose availability pool establish a PM-specific upstream
+      supply or conditional constraint?
     rationale: >-
-      Vagal tone intersects calming and sleep-relevant autonomic tone — indirect
-      framing from ADHD autonomic differentiation literature without direct
-      sleep-intervention outcomes.
-    references:
-      - index: 1
-        label: Lane et al. (2010)
-        citation_key: lane_sensory_2010
-        href: /docs/papers/BRAIN-Diet-References#lane_sensory_2010
+      The existing KC1 assessment narrows the pool to circulating glucose availability. Its
+      cerebral-energy relevance does not automatically admit this PM or a checklist of meal
+      nutrients.
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+      citation_keys:
+        - you_breathing_dose_2021
+    evidence_limitation: >-
+      Source-supported availability-to-cardiac-vagal-regulation pathway; a glucose fuel role is not
+      this PM relationship.
+    remaining_gap: >-
+      Source-supported availability-to-cardiac-vagal-regulation pathway; a glucose fuel role is not
+      this PM relationship.
+    review_record: system/brs6-kc1-evidence-review.md
+  - kc_id: BRS6(KC2)
+    ikc_id: BRS6(KC2)
+    arm_id: PM7-KC2-review
+    disposition: unresolved
+    proposition: >-
+      Does the current stress-response micronutrient/lipid checklist define a coherent shared
+      resource relationship?
+    rationale: >-
+      The existing KC2 evidence review finds no coherent shared pool in the current checklist.
+      Individual magnesium, fatty-acid or other decisions remain independent; this does not exclude
+      their supported PM biology.
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+      citation_keys:
+        - you_breathing_dose_2021
+    evidence_limitation: >-
+      The current pool definition does not establish a coherent relationship. This is an unresolved
+      definition/applicability gap, not evidence that every constituent fails to constrain this PM.
+    remaining_gap: >-
+      A canonical coherent pool definition and separately vetted membership would be needed before
+      reconsidering pool admission.
+    review_record: system/brs6-kc2-evidence-review.md
+kc_distinctness_review:
+  - relationship_id: PM7-KC1-CANDIDATE
+    kc_id: BRS6(KC1)
+    disposition: unresolved
+    biological_job: >-
+      Does the narrowed circulating-glucose availability pool establish a PM-specific upstream
+      supply or conditional constraint?
+    compared_records:
+      3.1.1: []
+      3.1.2: []
+      "3.2":
+        - PM7-SOP-1
+        - PM7-SOP-2
+    compared_biological_jobs:
+      - >-
+        The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated
+        measure.
+      - The higher-dose combined exposure changed RMSSD and total power in the trial.
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+      citation_keys:
+        - you_breathing_dose_2021
+    gap: >-
+      Source-supported availability-to-cardiac-vagal-regulation pathway; a glucose fuel role is not
+      this PM relationship.
+    rationale: >-
+      No additional public KC disclosure is admitted. Scientific applicability and public
+      distinctness are separate; review the exact gap, not name/type/citation differences.
+  - relationship_id: PM7-KC2-CANDIDATE
+    kc_id: BRS6(KC2)
+    disposition: unresolved
+    biological_job: >-
+      Does the current stress-response micronutrient/lipid checklist define a coherent shared
+      resource relationship?
+    compared_records:
+      3.1.1: []
+      3.1.2: []
+      "3.2":
+        - PM7-SOP-1
+        - PM7-SOP-2
+    compared_biological_jobs:
+      - >-
+        The tested breathing pace increased during-session RMSSD, a cardiac vagal-associated
+        measure.
+      - The higher-dose combined exposure changed RMSSD and total power in the trial.
+    evidence_source:
+      finding_ids:
+        - PM7-F1
+      citation_keys:
+        - you_breathing_dose_2021
+    gap: >-
+      A canonical coherent pool definition and separately vetted membership would be needed before
+      reconsidering pool admission.
+    rationale: >-
+      No additional public KC disclosure is admitted. Scientific applicability and public
+      distinctness are separate; review the exact gap, not name/type/citation differences.
+pm_lever_layout: principal-after-mission
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Lifestyle-Dominant
+    rationale: >-
+      Preserved inherited evidence-qualification label; this preview separates the newly assessed
+      intervention effects from that label and does not ratify a legacy comparative ranking.
+    routes:
+      - group_id: "3.2"
+        evidence_basis: intervention-effect
+        intervention_effect: Slow-paced breathing increased RMSSD during the session relative to control.
+        context: >-
+          Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and
+          control.
+        limitations: Young adults; respiration directly influences HRV interpretation.
+        evidence_source:
+          finding_ids:
+            - PM7-F1
+          citation_keys:
+            - you_breathing_dose_2021
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - "3.2"
+    rationale: >-
+      Promote the most directly mission-relevant demonstrated route in this bounded assessment;
+      preserve the tested endpoint and context.
+    assessments:
+      - group_id: "3.2"
+        relevance: >-
+          The selected entries address the mission-specific measured process rather than a generic
+          nutrient checklist.
+        directness: Each measured link and inferred link is bounded in its Finding and five-atom record.
+        extent: >-
+          Specific preparations, populations and protocols; no universal dose, outcome or
+          superiority inference.
+scientific_findings_intro: >-
+  Slow breathing produced a during-session HRV effect without a duration gradient or established
+  persistent change. EPA+DHA altered HRV in a specific metabolic population. The student
+  anxiety/inflammation trial did not measure vagal tone. Sauder et al. (2013) [[1]](#pm-ref-1); You
+  et al. (2021) [[5]](#pm-ref-5)
 ---
-
 <p class="brs-pm-thumbnail-wrap">
   <img
     src="/img/biological-targets/brs6-portrait-thumbnail.png"
@@ -80,135 +327,92 @@ phenome_relationships:
   />
 </p>
 
-## BRS6-FM3-PM7 - Vagal Tone / HRV Regulation
+## BRS6-FM3-PM7 — Vagal Tone / HRV Regulation
 
-(Calming the Body Through the Vagus Nerve)
 
-## 1. Mission & Overview + Dietary Levers
+## 1. Mission & Overview
 
 ### Mission
 
 Sustain vagal tone so heart-rate-variability-linked recovery signalling remains robust under repeated stress exposure.
 
+**Intervention Dominance:** Lifestyle-Dominant (inherited qualification, retained pending approval). Principal route displayed: System Optimisation Practices. This placement reflects the assessed process, not proven comparative superiority.
 
-**Intervention Dominance:** Lifestyle-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1 Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Omega-3-rich seafoods and algae-derived sources may support HRV and vagal recovery context.
-- Fermented foods plus fermentable fibre may support gut–vagal signalling pathways.
-- Magnesium-rich foods may support neuromuscular and autonomic relaxation context.
-- Stable, lower-inflammatory meal patterns may reduce autonomic strain that antagonises recovery signalling.
-
-Net effect: ↑ vagal recovery context; ↑ HRV-supportive physiology.
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.2 Cofactors and Substrates</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- omega-3
-- Magnesium ← leafy greens, nuts, seeds
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.3 Key Constraints</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS6(KC2)">
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">(Key Constraint) (KC2) — Stress-Response Micronutrient & Lipid Sufficiency</a></strong>
-</div>
-<div class="brs-fm-hub-panel">
-- Magnesium ← leafy greens, nuts, seeds
-- Vitamin C ← citrus, kiwi, peppers
-- B vitamins (B1, B2, B3, B5, B6, B7, B9, B12) ← whole grains, legumes, eggs
-- Iron and zinc ← seafood, meat, legumes, seeds
-- Long-chain omega-3 fatty acids (EPA, DHA) ← oily fish, algae
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
 ### Overview
 
-Regulates vagal tone and heart-rate-variability-related recovery signalling (HRV, a measurable proxy for parasympathetic nervous system activity and recovery capacity) that reflects readiness to recover after stress, exercise, or cognitive demand. Unlike the broader sympathetic–parasympathetic shift covered by a sibling mechanism, this pathway focuses specifically on vagal nerve output and its measurable HRV signature. Nutrient status, gut–vagal signalling, and consistent recovery practices all shape how robust this vagal tone remains over time.
+The vagus nerve helps regulate the heart’s response to demand. Heart-rate variability, the changing interval between beats, provides one window onto cardiac regulation when breathing and measurement conditions are considered. Paced breathing can change this signal during a session. An omega-3 trial also found changes in adults with elevated triglycerides. These findings make cardiac regulation addressable, while requiring a clear distinction between measured HRV and the wider functions of the vagus. Sauder et al. (2013) [[1]](#pm-ref-1); You et al. (2021) [[5]](#pm-ref-5)
 
-* Regulates vagal tone and its measurable HRV signature.
-* Reflects readiness to recover after stress or cognitive demand.
-* Shaped by nutrient status, gut–vagal signalling, and recovery practices.
+- **Benefits:** Responsive cardiac regulation contributes to recovery physiology, with HRV used as a context-dependent measure. You et al. (2021) [[5]](#pm-ref-5)
+- **Implementation Notes:** Slow-paced breathing at six cycles per minute was studied for five to twenty minutes; longer was not consistently better. Sauder et al. (2013) [[1]](#pm-ref-1); You et al. (2021) [[5]](#pm-ref-5)
+- **Biological Relevance:** Higher session HRV does not establish stronger whole-body vagal function or lasting recovery.
 
 ## 2. Primary Biological Effects
-↑ vagal tone context; ↑ HRV-related recovery signalling; ↓ chronic autonomic strain; ↑ physiological downshifting capacity
+
+- Slow-paced breathing increased RMSSD during the session relative to control. You et al. (2021) [[5]](#pm-ref-5)
+- The higher-dose EPA+DHA condition increased RMSSD and total power relative to placebo. Sauder et al. (2013) [[1]](#pm-ref-1)
 
 ## 3. Intervention Levers
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation).
-- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Soak or sprout phytate-rich seeds and legumes to improve plant zinc and mineral bioavailability.
-- Prefer minimally refined whole-kernel or whole-flour products where tolerated. — see [Whole Grains — Preparation](/docs/foods/whole-grains#preparation).
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.3 Lifestyle Levers</strong>
-</button>
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1 Dietary Requirements</strong></button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Breathwork, meditation, and vagal-training practices may directly support HRV-related recovery.
-- Regular aerobic activity and recovery pacing may improve autonomic flexibility over time.
-- Sleep regularity and stress downshifting may sustain vagal tone across days.
-- Acute overtraining without recovery may antagonise HRV improvement in some contexts.
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No independently admitted Direct/Derived Dietary Requirements established by this assessment.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.2 Cofactors and Substrates</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No additional separately adjudicated biochemical requirement established by this assessment; generic metabolic participation is not an admitted PM-specific requirement.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.3 Key Constraints</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Slow-paced breathing at six cycles per minute
+- EPA+DHA supplementation (studied combined formulation)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.3 Lifestyle Levers</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No separately adjudicated Lifestyle Lever is admitted by this assessment.
 
 </div>
 </div>
@@ -218,117 +422,43 @@ Regulates vagal tone and heart-rate-variability-related recovery signalling (HRV
 
 ### Summary
 
-BRS6-FM3-PM7 governs vagal-mediated recovery signalling, often indexed through HRV context in research and practice. Vagal tone reflects whether recovery physiology is available after demand, not merely whether sympathetic activation occurred.
+Slow-paced breathing increased RMSSD during the session relative to control. You et al. (2021) [[5]](#pm-ref-5)
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Vagal tone, HRV, and recovery signalling</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
+#### Biological process
 
-#### (HRV as autonomic recovery context)
+The cardiac proxy was responsive; post-session persistence and general vagal function remain different questions. You et al. (2021) [[5]](#pm-ref-5)
 
-Heart rate variability provides a practical window into parasympathetic–sympathetic balance. [Sauder et al., 2013] reported effects of omega-3 fatty acid supplementation on heart rate variability at rest and during acute stress, supporting dietary context as a modulator of HRV-related autonomic function [Sauder et al., 2013]
+#### Mechanism Boundary
 
-#### (Vagus nerve as a therapeutic and regulatory axis)
+Higher session HRV does not establish stronger whole-body vagal function or lasting recovery. This assessment preserves each source’s measured endpoint; the Mission describes the biological job and does not assert that every tested lever achieved the entire Mission.
 
-Vagal pathways link brain, autonomic, and inflammatory signalling. [Austelle et al., 2022] reviewed vagus nerve stimulation approaches in depression, summarising evidence that vagal modulation can influence mood and stress-related neurocircuitry—relevant mechanistic context for vagal tone as a recovery axis [Austelle et al., 2022]
+#### Integration
 
-#### (Omega-3, inflammation, and stress physiology)
+This PM contributes its specified process to BRS6(FM3). Shared fuels, nutrient lists and correlated markers do not merge distinct biological jobs or establish the integrated outcome.
 
-Omega-3 status may influence inflammatory and stress-related physiology with downstream autonomic implications. [Kiecolt-Glaser et al., 2011] reported that omega-3 supplementation lowered inflammation and anxiety in medical students, illustrating nutrient context that may support broader stress-recovery physiology relevant to HRV [Kiecolt-Glaser et al., 2011]
+### 4.1 Scientific Findings
 
-#### (Integration within FM3)
+#### Summary
 
-Together with BRS6-FM3-PM6, PM7 operationalises FM3 as restored vagal recovery capacity: repeated lifestyle practice plus supportive nutrient and gut–vagal context may improve whether recovery signalling is physiologically available after stress load.
+Slow breathing produced a during-session HRV effect without a duration gradient or established persistent change. EPA+DHA altered HRV in a specific metabolic population. The student anxiety/inflammation trial did not measure vagal tone. Sauder et al. (2013) [[1]](#pm-ref-1); You et al. (2021) [[5]](#pm-ref-5)
 
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM7-F1","finding_label":"Slow breathing changes session HRV without a simple longer-is-better result","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Slow-paced breathing increased RMSSD during the session relative to control.","finding_statement":"Slow-paced breathing increased RMSSD during the session relative to control.","finding_interpretation":"The cardiac proxy was responsive; post-session persistence and general vagal function remain different questions.","synthesis":"The cardiac proxy was responsive; post-session persistence and general vagal function remain different questions.","synthesis_limitations":"Young adults; respiration directly influences HRV interpretation.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"You et al. (2021)","citation_key":"you_breathing_dose_2021","href":"/docs/papers/BRAIN-Diet-References#you_breathing_dose_2021","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"During-session RMSSD increased without a significant duration gradient.","study_exposure":"Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and control.","study_finding":"During-session RMSSD increased without a significant duration gradient.","assessment":{"study":"Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and control.","population":"Fifty-nine young adults; randomized visits with six-cycle breathing for 5–20 minutes and control.","result":"During-session RMSSD increased without a significant duration gradient.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"During-session RMSSD increased without a significant duration gradient.","limitations":"No established lasting elevation after the practice.","retrieval_scope":"Primary abstract, Methods and Results Tables 1–3 retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8656666/"},"canonical_reference":{"author_year":"You et al. (2021)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[{"label":"Austelle et al. (2022)","citation_key":"austelle_comprehensive_2022","href":"/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"Clinical electrical vagus stimulation is not an independently established food or ordinary lifestyle relationship.","canonical_reference":{"author_year":"Austelle et al. (2022)","number":2,"anchor":"#pm-ref-2"}},{"label":"Kiecolt-Glaser et al. (2011)","citation_key":"kiecolt-glaser_omega-3_2011","href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"Stimulated systemic immune-cell cytokines and anxiety; not adipose-specific signalling or a distinct HRV nutrient requirement.","canonical_reference":{"author_year":"Kiecolt-Glaser et al. (2011)","number":3,"anchor":"#pm-ref-3"}},{"label":"Lane et al. (2010)","citation_key":"lane_sensory_2010","href":"/docs/papers/BRAIN-Diet-References#lane_sensory_2010","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Lane et al. (2010)","number":4,"anchor":"#pm-ref-4"}}]}} />
 
-### 4.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Vagal tone and HRV-related autonomic biology is well established. The studies below highlight dietary and vagal-axis findings that refine how parasympathetic recovery signalling is interpreted — not depression treatment or phenome outcome claims.
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Omega-3 context and HRV autonomic function</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Omega-3 fatty acid supplementation affected heart rate variability at rest and during acute stress, supporting dietary lipid context as a modulator of HRV-related autonomic function [Sauder et al., 2013].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#sauder_effects_2013","label":"Sauder et al. (2013)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Vagus nerve as a regulatory signalling axis</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Vagal pathways link brain, autonomic, and inflammatory signalling; vagal modulation influences stress-related neurocircuitry — establishing vagal tone as a mechanistic recovery axis rather than a behavioural proxy alone [Austelle et al., 2022].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022","label":"Austelle et al. (2022)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Omega-3, inflammation, and stress-recovery physiology</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Omega-3 supplementation lowered inflammatory markers in a stressed cohort, illustrating nutrient context that may support broader stress-recovery physiology relevant to vagal and HRV signalling [Kiecolt-Glaser et al., 2011].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)"}]} />
-
-</div>
-</div>
-</div>
+<ScientificFinding finding={{"id":"PM7-F2","finding_label":"An EPA+DHA intervention changes HRV in a defined population","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"The higher-dose EPA+DHA condition increased RMSSD and total power relative to placebo.","finding_statement":"The higher-dose EPA+DHA condition increased RMSSD and total power relative to placebo.","finding_interpretation":"This is an intervention observation, not an indispensable vagal nutrient requirement.","synthesis":"This is an intervention observation, not an indispensable vagal nutrient requirement.","synthesis_limitations":"Elevated-triglyceride adults, combined formulation; constituent effects not isolated.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Sauder et al. (2013)","citation_key":"sauder_effects_2013","href":"/docs/papers/BRAIN-Diet-References#sauder_effects_2013","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.","study_exposure":"Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.","study_finding":"Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.","assessment":{"study":"Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.","population":"Twenty-six adults, crossover 0.85 or 3.4 g/day EPA+DHA versus placebo for eight weeks.","result":"Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Higher-dose HRV measures increased; mood did not provide a generalized outcome claim.","limitations":"Exact combined supplement and study context, not food equivalence.","retrieval_scope":"Primary abstract/results retrieved; full methods not independently extracted unless noted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/23592752/"},"canonical_reference":{"author_year":"Sauder et al. (2013)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[]}} />
 
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
 
-- None listed
+No newly adjudicated BRS pathway is established by this assessment.
 
 ### 5.2 Cross-BRS Mechanism Relationships
 
-Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
-
-- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
-- [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling) — Gut–Vagal Neuromodulation & ENS Signalling
+No downstream mapping is inherited from a shared nutrient or KC candidate.
 
 ### 5.3 Local BRS Mechanism Relationships
 
-Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
-
-- [BRS6-FM3-PM6 - Sympathetic Activation & Parasympathetic Recovery](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery)
+[PM6](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery) addresses recovery after activation; a respiration-sensitive HRV rise does not prove recovery of all autonomic branches.
 
 ## 7. Phenome Connections
 
@@ -366,54 +496,13 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Stress Resilience — modulates">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-</button>
-<strong class="brs-fm-hub-title">Stress Resilience — modulates</strong>
-<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph006-stress-resilience" aria-label="Open page: Stress Resilience — modulates">
-<span class="brs-fm-hub-open-label">Open Page →</span>
-<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</a>
-</div>
-<div class="brs-fm-hub-panel" hidden>
-- **Biology → Phenome Relationship Strength:** Low–Medium
-- **Evidence Confidence:** Low–Medium
-- **Rationale:** Electrodermal and autonomic markers differentiate sensory over-responsivity from ADHD — vagal tone/HRV regulation is the parasympathetic arm supporting stress-buffering capacity in neurodevelopmental autonomic profiling.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lane_sensory_2010","label":"Lane et al. (2010)"}]} />
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Sleep / Calming Tone — indirect">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-</button>
-<strong class="brs-fm-hub-title">Sleep / Calming Tone — indirect</strong>
-<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph008-sleep-calming-tone" aria-label="Open page: Sleep / Calming Tone — indirect">
-<span class="brs-fm-hub-open-label">Open Page →</span>
-<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</a>
-</div>
-<div class="brs-fm-hub-panel" hidden>
-- **Biology → Phenome Relationship Strength:** Low
-- **Evidence Confidence:** Low
-- **Rationale:** Vagal tone intersects calming and sleep-relevant autonomic tone — indirect framing from ADHD autonomic differentiation literature without direct sleep-intervention outcomes.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lane_sensory_2010","label":"Lane et al. (2010)"}]} />
-</div>
-</div>
-</div>
+No direct functional outcome relationship currently mapped.
 
 ## 8. References
-- [Sauder et al. (2013) — Effects of Omega-3 Fatty Acid Supplementation on Heart Rate Variability At Rest](/docs/papers/BRAIN-Diet-References#sauder_effects_2013)
-- [Austelle et al. (2022) — A Comprehensive Review of Vagus Nerve Stimulation for Depression](/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022)
-- [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
-- [Lane et al. (2010) — Differentiating Using Electrodermal Responses, Cortisol, and Anxiety](/docs/papers/BRAIN-Diet-References#lane_sensory_2010)
+
+- <span id="pm-ref-1">[1]</span> [Sauder et al. (2013) — Effects of Omega-3 Fatty Acid Supplementation on Heart Rate Variability At Rest](/docs/papers/BRAIN-Diet-References#sauder_effects_2013)
+- <span id="pm-ref-2">[2]</span> [Austelle et al. (2022) — A Comprehensive Review of Vagus Nerve Stimulation for Depression](/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022)
+- <span id="pm-ref-3">[3]</span> [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
+- <span id="pm-ref-4">[4]</span> [Lane et al. (2010) — Differentiating Using Electrodermal Responses, Cortisol, and Anxiety](/docs/papers/BRAIN-Diet-References#lane_sensory_2010)
+- <span id="pm-ref-5">[5]</span> [You et al. (2021) — Single Slow-Paced Breathing Session at Six Cycles per Minute: Investigation of Dose-Response Relationship on Cardiac Vagal Activity](/docs/papers/BRAIN-Diet-References#you_breathing_dose_2021)
+

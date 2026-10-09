@@ -571,6 +571,11 @@ Vitamin A:
   permalink: /vitamin-a
   description: Essential vitamin
 
+Retinoic acid:
+  label: Retinoic acid
+  permalink: /retinoic-acid
+  description: All-trans-retinoic acid formed from dietary vitamin A precursors
+
 Vitamin B1:
   label: Vitamin B1
   permalink: /vitamin-b1
@@ -1522,6 +1527,26 @@ Astaxanthin:
   label: Astaxanthin
   permalink: /astaxanthin
   description: Xanthophyll carotenoid in salmon and related marine foods; BRS3 redox and BRS4 mitochondrial membrane support
+
+Carbohydrate:
+  label: Carbohydrate
+  permalink: /carbohydrate
+  description: Carbohydrate nutrients, including dietary fibre
+
+Dietary Fibre:
+  label: Dietary Fibre
+  permalink: /dietary-fibre
+  description: Carbohydrates that resist digestion in the small intestine
+
+Fructan:
+  label: Fructan
+  permalink: /fructan
+  description: Fructose polymers, including inulin-type fructans
+
+Oligofructose:
+  label: Oligofructose
+  permalink: /oligofructose
+  description: Short-chain inulin-type fructan mixture, not a synonym for every use of FOS
 
 Lignan:
   label: Lignan

@@ -1,0 +1,10 @@
+{
+  "label": "BRS-X(Circadian) - Circadian Rhythm Regulation",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs-x/circadian/brs-x-circadian"
+  },
+  "collapsed": true,
+  "collapsible": true
+}

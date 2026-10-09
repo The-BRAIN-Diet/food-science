@@ -104,6 +104,17 @@ substance_relationships:
       not its composition panel.
     citation_keys:
       - patterson_choline_2008
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Beta-carotene
+    process: Cleavage to retinal, then oxidation to retinoic acid
+    description: >-
+      Raw spinach records 5,626 µg beta-carotene and 469 µg RAE vitamin A per
+      100 g. The dominant precursor is beta-carotene. The food is not recorded
+      as containing retinoic acid.
+    citation_keys:
+      - harrison_vitamin_a_absorption_2012
+      - duester_retinoic_acid_2008
 substance_card_captions:
   Betaine: Present in spinach. The corrected assay is frozen spinach, 110–130 mg per 100 g, not this raw panel.
 ---

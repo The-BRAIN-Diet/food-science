@@ -801,17 +801,6 @@ export const ENHANCEMENTS = {
       "Depends on sleep–wake and feeding cue consistency — within BRS6.",
     ],
   },
-  "brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx": {
-    translational:
-      "Aligns feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
-    scientific:
-      "Alignment of feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
-    bullets: [
-      "Entrains metabolism to light–dark and feeding rhythms — within BRS6.",
-      "Supports cortisol phase alignment across the 24-hour cycle — within BRS6.",
-      "Links meal timing and sleep structure to HPA-axis stability — within BRS6.",
-    ],
-  },
   "brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx": {
     translational:
       "Regulates sympathetic arousal and the shift back into parasympathetic recovery after stress, exercise, or cognitive demand — restoring autonomic flexibility across activation–recovery cycles.",

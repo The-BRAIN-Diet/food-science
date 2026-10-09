@@ -68,6 +68,18 @@ nutrition_supplementary_sources:
     source_note: >-
       Butter is a documented dietary source of menaquinones (vitamin K2). A
       comparable K2 quantity is not established here.
+substance_relationships:
+  - substance: Retinoic acid
+    relationship: dietary-precursor
+    input: Preformed vitamin A (retinol and retinyl esters)
+    process: Oxidation to retinal, then to retinoic acid
+    description: >-
+      Unsalted butter records 684 µg RAE vitamin A per 100 g and 158 µg
+      beta-carotene. The dominant precursor is preformed vitamin A. The food
+      is not recorded as containing retinoic acid.
+    citation_keys:
+      - duester_retinoic_acid_2008
+      - harrison_vitamin_a_absorption_2012
 ---
 ## Overview
 

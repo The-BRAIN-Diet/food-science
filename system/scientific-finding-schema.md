@@ -97,6 +97,40 @@ coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation (`findings:check`, page validators, tests) is
 not scientific completion.
 
+### Completion gate — coverage challenge and targeted second search
+
+Before completing either stage, compare the reviewed evidence against the Mission's defining biological steps and relevant intervention candidates. Trigger a second targeted search when a material step or candidate:
+
+- has not been assessed;
+- was parked as unresolved without candidate-specific retrieval;
+- was excluded using an evidence threshold stricter than the applicability contract; or
+- is represented only by indirect endpoints that leave the central question unanswered.
+
+For each triggered question, search relevant pathway, input and endpoint synonyms; follow references from useful primary studies; and seek contradictory or null findings where relevant. Reuse verified sources rather than repeating completed retrieval. Reopen Stage 2A if Stage 2B reveals omitted foundational biology.
+
+Reassess using the permitted evidence-supported chains. Distinguish measured from inferred links, biochemical dependency from dietary applicability, and intervention effects from functional benefit. Do not impose a universal end-to-end human assay or supplementation-efficacy threshold for a biochemical dependency.
+
+Reuse the existing stage report's candidate/evidence/rationale/disposition fields. A concise row must record **coverage gap → targeted question → research examined → revised decision → remaining gap and stopping rationale**. Record actual searches and sources examined, not only a promise to search. Complete only when each material question is adjudicated or explicitly unresolved after targeted review. An exhaustive search or fixed study/Finding count is not required. Structural validation cannot certify scientific adequacy.
+
+### Other intervention routes — mandatory hub coverage and retrieval
+
+For every PM assessment, inspect the parent BRS hub's **System Optimisation Practices** and **Lifestyle Priorities**, together with their definitions in [BRS hub levers schema](brs-hub-levers-schema.md). Review every category for PM-relevant candidates, including categories shown as “Coming soon”; an empty hub category is not evidence of biological irrelevance:
+
+| Hub category | PM assessment boundary |
+|---|---|
+| Food Preparation & Delivery | Food structure, cooking, bioavailability and nutrient delivery. |
+| Conditional Supplementation | Defined, condition-specific supplementation exposures. |
+| Dietary & Fasting Protocols | Defined dietary, fasting or timing protocols. |
+| Light & Circadian Optimisation | Circadian entrainment and biological timing practices. |
+| Stress & Autonomic Regulation | Deliberate autonomic and adaptive-stress interventions. |
+| Lifestyle Priorities | Foundational, recurrent behaviours; implemented as canonical §3.3 Lifestyle Levers, distinct from defined §3.2 protocols. |
+
+**Required retrieval trigger:** when canonical §3.1 Dietary Requirements is not the adjudicated principal route, has very low PM-specific intervention relevance, or cannot establish a principal route, actively search primary evidence for plausible PM-specific candidates in the remaining §3.2 and §3.3 groups before completing the assessment. Existing sufficient, verified evidence may be reused with its coverage documented. Lack of a dietary admission does not establish lack of practical intervention routes.
+
+For each hub category, record candidates and evidence decisions, or a mechanism-specific reason that no relevant candidate was identified. Search all categories with plausible PM relevance; do not dismiss a whole group because one candidate failed. Hub entries and “Supports” links propose questions, not automatic PM admissions. Assess the original sources and actual endpoints, context and limitations. Do not populate empty categories, inherit hub claims, or force a principal route merely to complete the frame.
+
+Stage 2A assesses the biological propositions and evidence; Stage 2B adjudicates and implements requirements, practices and lifestyle relationships in their existing categories. Record evidence qualification separately from principal-route selection. Reassess placement after reviewing the relevant groups, without automatically treating supported entries as dominant or inferring equal dominance. If another stage must finish the adjudication, record the handoff and leave the combined assessment incomplete rather than declaring full lever coverage.
+
 ### Evidence-supported Overview (Stage 2A)
 
 **References stay with this PM.** In Biological Relevance and in every other section, do not cite a study because another PM uses it. A reference may appear on this page only when it supports a claim about this page’s own mechanism. A sentence that only sets a boundary with a neighbouring PM names that PM, for example “see PM2”, and carries no citation.

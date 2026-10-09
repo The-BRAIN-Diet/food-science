@@ -1,0 +1,478 @@
+---
+title: Feeding-Time Circadian Synchronisation
+pm_id: BRS-X(Circadian-FM1-PM2)
+mission: Coordinate peripheral metabolic clock timing through feeding cues.
+parent_fm: BRS-X(Circadian-FM1)
+parent_brs: BRS-X(Circadian)
+summary: >-
+  Feeding time is a cue for peripheral metabolic clocks, helping organise when tissues process incoming
+  nutrients. Changing meal timing can shift these rhythms without shifting the measured central-clock markers.
+  Human evidence distinguishes the timing of blood glucose from the timing of a clock gene in adipose tissue.
+  The practical route is a defined meal schedule; changing timing is not automatically evidence of better
+  alignment or health.
+key_constraints: []
+cofactors: []
+intervention_dominance: Lifestyle-Dominant
+intervention_breakdown: Behavioural/Lifestyle Dominant
+timing_specific: 'Yes'
+dose_sensitivity: The comparison is a five-hour delay of meals in a laboratory routine. It is not an eating-window target.
+references:
+  - >-
+    [Wehrens et al. (2017) — Meal Timing Regulates the Human Circadian
+    System](/docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017)
+  - >-
+    [Hatori et al. (2012) — Time-restricted feeding without reducing caloric intake prevents metabolic
+    diseases in mice fed a high-fat diet](/docs/papers/BRAIN-Diet-References#hatori_2012_22608008)
+  - >-
+    [Garaulet & Gómez-Abellán (2014) — Timing of food intake and obesity: a novel
+    association.](/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926)
+  - >-
+    [Stokkan et al. (2001) — Entrainment of the circadian clock in the liver by
+    feeding](/docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001)
+  - >-
+    [Damiola et al. (2000) — Restricted feeding uncouples circadian oscillators in peripheral tissues from the
+    central pacemaker in the suprachiasmatic
+    nucleus](/docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000)
+  - >-
+    [Crosby et al. (2019) — Insulin/IGF-1 Drives PERIOD Synthesis to Entrain Circadian Rhythms with Feeding
+    Time](/docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019)
+hide_title: true
+list_image: /img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg
+scientific_findings:
+  - id: PM2-F1
+    finding_label: A meal delay shifts peripheral timing without shifting melatonin or cortisol
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: >-
+      In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and
+      adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.
+    finding_statement: >-
+      In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and
+      adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.
+    finding_interpretation: >-
+      Peripheral metabolic timing can move while the central melatonin and cortisol signals stay put. A
+      metabolic benefit is not that clock result.
+    synthesis: >-
+      A 13-day ordered laboratory protocol used early meals then six days of late meals. Rhythms were assessed
+      during 37-hour constant routines with hourly snacks. The glucose rhythm shifted much more than adipose
+      PER2; these endpoints are not interchangeable and do not demonstrate improved whole-system alignment.
+    synthesis_limitations: >-
+      The sample is ten young men on an ordered laboratory schedule. It does not establish a universal eating
+      window.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Wehrens et al. (2017)
+        citation_key: wehrens_meal_timing_2017
+        href: /docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017
+        data_level: Human Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'Glucose and adipose PER2 timing shifted, while melatonin and cortisol timing did not.'
+        assessment:
+          study: >-
+            Ten healthy men; meals five hours apart, starting 0.5 versus 5.5 hours after waking; 37-hour
+            constant-routine rhythm assessments.
+          population: Ten healthy men.
+          result: >-
+            In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and
+            adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol
+            timing.
+          effect_magnitude: >-
+            Glucose phase +5.69 ± 1.29 h; adipose PER2 +0.97 ± 0.29 h; these are measured responses, not the
+            five-hour exposure dose.
+          evidence_summary: >-
+            Meal timing changed peripheral metabolic and adipose-clock readouts without moving the measured
+            central hormonal timing.
+          limitations: >-
+            Small ordered rather than randomised sequence; peripheral clock-gene sampling, not direct SCN
+            recording. No optimum eating window or clinical benefit established.
+          retrieval_scope: Full primary Results/Methods retrieved; Figure 2 glucose and Figure 4 adipose clock-gene analysis.
+    connected_supportive_evidence:
+      - label: Hatori et al. (2012)
+        citation_key: hatori_2012_22608008
+        href: /docs/papers/BRAIN-Diet-References#hatori_2012_22608008
+        data_level: Animal Data
+        why_relevant: >-
+          Time-restricted feeding without a calorie reduction prevented metabolic disease in mice on a
+          high-fat diet.
+        why_excluded: Metabolic protection is not a measurement of peripheral clock phase in humans.
+      - label: Garaulet and Gómez-Abellán (2014)
+        citation_key: garaulet_2014_24467926
+        href: /docs/papers/BRAIN-Diet-References#garaulet_2014_24467926
+        data_level: Review
+        why_relevant: The review associates the timing of food intake with obesity.
+        why_excluded: An association with obesity does not establish that a peripheral clock moved.
+  - id: PM2-F2
+    finding_label: Feeding cues can reset peripheral clocks independently of the central pacemaker
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: >-
+      Animal feeding manipulations shift peripheral clock rhythms while central-clock phase remains linked to
+      the light cycle.
+    finding_statement: >-
+      Animal feeding manipulations shift peripheral clock rhythms while central-clock phase remains linked to
+      the light cycle.
+    finding_interpretation: >-
+      Stokkan and Damiola distinguish food-driven peripheral resetting from light-linked central timing.
+      Crosby identifies insulin/IGF-1 signalling and PERIOD induction as a mechanistic link. This supports a
+      feeding-to-clock chain, not a general recommendation to increase insulin or nutrient intake.
+    synthesis: >-
+      Stokkan and Damiola distinguish food-driven peripheral resetting from light-linked central timing.
+      Crosby identifies insulin/IGF-1 signalling and PERIOD induction as a mechanistic link. This supports a
+      feeding-to-clock chain, not a general recommendation to increase insulin or nutrient intake.
+    synthesis_limitations: >-
+      Animal and cellular pathways support the mechanism; their tissue responses and effect sizes cannot be
+      assigned to every human organ or feeding protocol.
+    synthesised_evidence_confidence: not-yet-scored
+    evidence_considered:
+      - label: Stokkan et al. (2001)
+        citation_key: stokkan_feeding_liver_clock_2001
+        href: /docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed
+          phase-locked to the light–dark cycle.
+        assessment:
+          study: Transgenic rat tissue rhythms under restricted feeding.
+          population: Transgenic rat tissue rhythms under restricted feeding.
+          result: >-
+            Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed
+            phase-locked to the light–dark cycle.
+          effect_magnitude: >-
+            Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed
+            phase-locked to the light–dark cycle.
+          evidence_summary: >-
+            Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed
+            phase-locked to the light–dark cycle.
+          limitations: 'Animal liver entrainment, not a human optimum meal schedule.'
+          retrieval_scope: Primary abstract retrieved; no unextracted full-method detail asserted.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/11161204/'
+      - label: Damiola et al. (2000)
+        citation_key: damiola_feeding_peripheral_clock_2000
+        href: /docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected;
+          adaptation differed across tissues.
+        assessment:
+          study: Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.
+          population: Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.
+          result: >-
+            Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained
+            unaffected; adaptation differed across tissues.
+          effect_magnitude: >-
+            Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained
+            unaffected; adaptation differed across tissues.
+          evidence_summary: >-
+            Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained
+            unaffected; adaptation differed across tissues.
+          limitations: Peripheral uncoupling can occur; a shift is not proof of beneficial alignment.
+          retrieval_scope: Primary abstract retrieved; no unextracted full-method detail asserted.
+          source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC317100/'
+      - label: Crosby et al. (2019)
+        citation_key: crosby_insulin_period_2019
+        href: /docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019
+        data_level: Animal Data
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian
+          organisation.
+        assessment:
+          study: Cellular and mouse insulin/IGF-1 signalling manipulations.
+          population: Cellular and mouse insulin/IGF-1 signalling manipulations.
+          result: >-
+            Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian
+            organisation.
+          effect_magnitude: >-
+            Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian
+            organisation.
+          evidence_summary: >-
+            Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian
+            organisation.
+          limitations: 'Animal/cellular mechanism, not proof that a particular human diet optimises clocks.'
+          retrieval_scope: Primary abstract retrieved; no unextracted full-method detail asserted.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/31030999/'
+    connected_supportive_evidence: []
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Lifestyle-Dominant
+    rationale: >-
+      Timing exposures directly influence this mechanism; the inherited Lifestyle-Dominant qualification is
+      retained separately from protocol placement.
+    scope_note: Feeding-driven peripheral timing is distinct from metabolic benefit and central-clock resetting.
+    routes:
+      - group_id: '3.2'
+        evidence_basis: intervention-effect
+        intervention_effect: Defined meal scheduling changes measured peripheral timing.
+        context: Ten healthy men; ordered meal-delay protocol with constant routines.
+        limitations: No optimum window or beneficial alignment inferred.
+        evidence_source:
+          finding_ids:
+            - PM2-F1
+          citation_keys:
+            - wehrens_meal_timing_2017
+  principal_route_selection:
+    disposition: established
+    selected_groups:
+      - '3.2'
+    rationale: >-
+      Feeding schedule is the defining cue of this PM, with human peripheral rhythm measurements supported by
+      animal tissue resetting. Defined meal protocols are the principal assessed route.
+    comparative_limitations: >-
+      Principal route selection identifies the mechanism-specific intervention class, not a universal optimal
+      schedule or superiority across all health outcomes.
+    assessments:
+      - group_id: '3.2'
+        relevance: Manipulates the defining cue within this PM mission.
+        directness: Human constant-routine peripheral rhythm measurements.
+        extent: >-
+          Substantial glucose rhythm shift and smaller adipose PER2 shift; central markers did not
+          significantly shift.
+stage2ab_assessment_history:
+  - date: '2026-10-08'
+    reason: Coverage challenge and independent intervention-route reassessment; cross-system split retained.
+    previous_mission: >-
+      Explain how feeding schedules influence peripheral clock timing and its alignment with the wider
+      circadian system.
+    previous_principal_route_selection:
+      disposition: not-established
+      selected_groups: []
+      rationale: >-
+        The meal delay shows that feeding time can move peripheral readouts. It does not identify a principal
+        schedule, so no group is selected.
+      comparative_limitations: >-
+        A metabolic benefit from meal timing does not establish clock synchronisation. Light-driven melatonin
+        timing is a different mechanism.
+system_optimisation_practices:
+  - atom_id: PM2-SOP-1
+    input: Defined meal-timing schedule
+    input_type: Defined timing protocol
+    biological_role: >-
+      Meal timing can shift peripheral glucose and adipose clock-gene rhythms while measured melatonin and
+      cortisol timing remain unchanged.
+    evidence_source:
+      finding_ids:
+        - PM2-F1
+      citation_keys:
+        - wehrens_meal_timing_2017
+    evidence_limitation: >-
+      Five-hour meal delay in ten healthy men; PER2 shifted about one hour. No universal eating window,
+      improved alignment or health benefit is established.
+    optimisation_category: dietary_protocols
+    reader_description: >-
+      Meal timing can shift peripheral glucose and adipose clock-gene rhythms while measured melatonin and
+      cortisol timing remain unchanged.
+    description_finding_id: PM2-F1
+lifestyle_priorities: []
+scientific_findings_intro: >-
+  Human meal scheduling shifted glucose timing much more than adipose PER2 timing. Animal studies establish
+  independent peripheral resetting and a feeding-hormone-to-PERIOD pathway. These findings support a timing
+  mechanism; they do not show that every phase shift improves alignment, or that metabolic protection alone
+  demonstrates entrainment.
+---
+
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg"
+    alt="BRS-X(Circadian) — Circadian Rhythm Regulation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS-X(Circadian-FM1-PM2) - Feeding-Time Circadian Synchronisation
+
+(Meal Timing and Peripheral Clocks)
+
+## 1. Mission & Overview
+
+### Mission
+
+Coordinate peripheral metabolic clock timing through feeding cues.
+
+### Overview
+
+Feeding time is a cue for peripheral metabolic clocks, helping organise when tissues process incoming nutrients. Changing meal timing can shift these rhythms without shifting the measured central-clock markers. Human evidence distinguishes the timing of blood glucose from the timing of a clock gene in adipose tissue. The practical route is a defined meal schedule; changing timing is not automatically evidence of better alignment or health. Wehrens et al. (2017) [[1]](#pm-ref-1); Stokkan et al. (2001) [[4]](#pm-ref-4)
+
+- **Implementation Notes:** Use the defined meal-schedule evidence below to understand which rhythms can respond. It does not prescribe delaying meals or a universal fasting window. Wehrens et al. (2017) [[1]](#pm-ref-1)
+- **Biological Relevance:** Peripheral timing can change while measured central markers remain stable. Cortisol regulation remains with BRS6 PM4. Wehrens et al. (2017) [[1]](#pm-ref-1)
+
+## 2. Primary Biological Effects
+
+- Glucose rhythm delayed by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours after a five-hour meal delay. Wehrens et al. (2017) [[1]](#pm-ref-1)
+- No significant shift of measured melatonin or cortisol timing in that protocol. Wehrens et al. (2017) [[1]](#pm-ref-1)
+
+## 3. Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for synchronising peripheral clocks with feeding time.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-supported cofactors or substrates are currently established for this mechanism.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Dietary &amp; Fasting Protocols</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Defined meal-timing schedule
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No evidence-qualified lifestyle relationship is projected.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Feeding cues can reset peripheral rhythms independently of the light-linked central pacemaker. Human glucose and adipose clock-gene responses differ in magnitude; animal insulin/IGF-1 experiments support a mechanistic route. Wehrens et al. (2017) [[1]](#pm-ref-1); Crosby et al. (2019) [[6]](#pm-ref-6)
+
+**Mechanism boundary:** Light-driven central entrainment remains with PM1. Glucose concentration, weight change and inflammatory outcomes do not independently demonstrate clock resetting. This PM does not own cortisol synthesis or microbial substrate-processing capacity.
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Human meal scheduling shifted glucose timing much more than adipose PER2 timing. Animal studies establish independent peripheral resetting and a feeding-hormone-to-PERIOD pathway. These findings support a timing mechanism; they do not show that every phase shift improves alignment, or that metabolic protection alone demonstrates entrainment.
+
+<ScientificFinding finding={{"id":"PM2-F1","finding_label":"A meal delay shifts peripheral timing without shifting melatonin or cortisol","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.","finding_statement":"In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.","finding_interpretation":"Peripheral metabolic timing can move while the central melatonin and cortisol signals stay put. A metabolic benefit is not that clock result.","synthesis":"A 13-day ordered laboratory protocol used early meals then six days of late meals. Rhythms were assessed during 37-hour constant routines with hourly snacks. The glucose rhythm shifted much more than adipose PER2; these endpoints are not interchangeable and do not demonstrate improved whole-system alignment.","synthesis_limitations":"The sample is ten young men on an ordered laboratory schedule. It does not establish a universal eating window.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Wehrens et al. (2017)","citation_key":"wehrens_meal_timing_2017","href":"/docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Glucose and adipose PER2 timing shifted, while melatonin and cortisol timing did not.","assessment":{"study":"Ten healthy men; meals five hours apart, starting 0.5 versus 5.5 hours after waking; 37-hour constant-routine rhythm assessments.","population":"Ten healthy men.","result":"In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.","effect_magnitude":"Glucose phase +5.69 ± 1.29 h; adipose PER2 +0.97 ± 0.29 h; these are measured responses, not the five-hour exposure dose.","evidence_summary":"Meal timing changed peripheral metabolic and adipose-clock readouts without moving the measured central hormonal timing.","limitations":"Small ordered rather than randomised sequence; peripheral clock-gene sampling, not direct SCN recording. No optimum eating window or clinical benefit established.","retrieval_scope":"Full primary Results/Methods retrieved; Figure 2 glucose and Figure 4 adipose clock-gene analysis."},"canonical_reference":{"author_year":"Wehrens et al. (2017)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Hatori et al. (2012)","citation_key":"hatori_2012_22608008","href":"/docs/papers/BRAIN-Diet-References#hatori_2012_22608008","data_level":"Animal Data","why_relevant":"Time-restricted feeding without a calorie reduction prevented metabolic disease in mice on a high-fat diet.","why_excluded":"Metabolic protection is not a measurement of peripheral clock phase in humans.","canonical_reference":{"author_year":"Hatori et al. (2012)","number":2,"anchor":"#pm-ref-2"}},{"label":"Garaulet and Gómez-Abellán (2014)","citation_key":"garaulet_2014_24467926","href":"/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926","data_level":"Review","why_relevant":"The review associates the timing of food intake with obesity.","why_excluded":"An association with obesity does not establish that a peripheral clock moved.","canonical_reference":{"author_year":"Garaulet and Gómez-Abellán (2014)","number":3,"anchor":"#pm-ref-3"}}]}} />
+
+<ScientificFinding finding={{"id":"PM2-F2","finding_label":"Feeding cues can reset peripheral clocks independently of the central pacemaker","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Animal feeding manipulations shift peripheral clock rhythms while central-clock phase remains linked to the light cycle.","finding_statement":"Animal feeding manipulations shift peripheral clock rhythms while central-clock phase remains linked to the light cycle.","finding_interpretation":"Stokkan and Damiola distinguish food-driven peripheral resetting from light-linked central timing. Crosby identifies insulin/IGF-1 signalling and PERIOD induction as a mechanistic link. This supports a feeding-to-clock chain, not a general recommendation to increase insulin or nutrient intake.","synthesis":"Stokkan and Damiola distinguish food-driven peripheral resetting from light-linked central timing. Crosby identifies insulin/IGF-1 signalling and PERIOD induction as a mechanistic link. This supports a feeding-to-clock chain, not a general recommendation to increase insulin or nutrient intake.","synthesis_limitations":"Animal and cellular pathways support the mechanism; their tissue responses and effect sizes cannot be assigned to every human organ or feeding protocol.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Stokkan et al. (2001)","citation_key":"stokkan_feeding_liver_clock_2001","href":"/docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.","assessment":{"study":"Transgenic rat tissue rhythms under restricted feeding.","population":"Transgenic rat tissue rhythms under restricted feeding.","result":"Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.","effect_magnitude":"Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.","evidence_summary":"Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.","limitations":"Animal liver entrainment, not a human optimum meal schedule.","retrieval_scope":"Primary abstract retrieved; no unextracted full-method detail asserted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/11161204/"},"canonical_reference":{"author_year":"Stokkan et al. (2001)","number":4,"anchor":"#pm-ref-4"}},{"label":"Damiola et al. (2000)","citation_key":"damiola_feeding_peripheral_clock_2000","href":"/docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.","assessment":{"study":"Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.","population":"Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.","result":"Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.","effect_magnitude":"Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.","evidence_summary":"Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.","limitations":"Peripheral uncoupling can occur; a shift is not proof of beneficial alignment.","retrieval_scope":"Primary abstract retrieved; no unextracted full-method detail asserted.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC317100/"},"canonical_reference":{"author_year":"Damiola et al. (2000)","number":5,"anchor":"#pm-ref-5"}},{"label":"Crosby et al. (2019)","citation_key":"crosby_insulin_period_2019","href":"/docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.","assessment":{"study":"Cellular and mouse insulin/IGF-1 signalling manipulations.","population":"Cellular and mouse insulin/IGF-1 signalling manipulations.","result":"Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.","effect_magnitude":"Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.","evidence_summary":"Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.","limitations":"Animal/cellular mechanism, not proof that a particular human diet optimises clocks.","retrieval_scope":"Primary abstract retrieved; no unextracted full-method detail asserted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/31030999/"},"canonical_reference":{"author_year":"Crosby et al. (2019)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS6-FM2-PM4 — Cortisol Rhythm Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation) — cortisol timing did not move with the meal delay; cortisol output is a different job; see PM4
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — a shift in glucose timing is not the same job as glucose appearance; see BRS6-FM1-PM1
+- [BRS5-FM2-PM4 — Microbial Substrate-Processing Selection & Adaptation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) — feeding schedules are an exposure context; those substrate studies do not establish clock synchronisation
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS-X(Circadian-FM1-PM1) — Light–Dark Circadian Entrainment](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment) — retinal light changes a central melatonin signal; see PM1
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+No direct functional outcome relationship currently mapped.
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Wehrens et al. (2017) — Meal Timing Regulates the Human Circadian System](/docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017)
+- <span id="pm-ref-2">[2]</span> [Hatori et al. (2012) — Time-restricted feeding without reducing caloric intake prevents metabolic diseases in mice fed a high-fat diet](/docs/papers/BRAIN-Diet-References#hatori_2012_22608008)
+- <span id="pm-ref-3">[3]</span> [Garaulet & Gómez-Abellán (2014) — Timing of food intake and obesity: a novel association.](/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926)
+- <span id="pm-ref-4">[4]</span> [Stokkan et al. (2001) — Entrainment of the circadian clock in the liver by feeding](/docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001)
+- <span id="pm-ref-5">[5]</span> [Damiola et al. (2000) — Restricted feeding uncouples circadian oscillators in peripheral tissues from the central pacemaker in the suprachiasmatic nucleus](/docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000)
+- <span id="pm-ref-6">[6]</span> [Crosby et al. (2019) — Insulin/IGF-1 Drives PERIOD Synthesis to Entrain Circadian Rhythms with Feeding Time](/docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019)

@@ -2,7 +2,7 @@
 id: neurotransmitter-regulation
 title: BRS1 - Neurotransmitter Regulation
 sidebar_label: BRS1 - Neurotransmitter Regulation
-description: Signal layer covering neurotransmitter synthesis, signalling, and excitatory-inhibitory balance.
+description: Signal layer covering neurotransmitter synthesis, signalling, excitatory-inhibitory regulation, and the structural organisation supporting neuronal communication.
 tags:
   - Biological Target
   - Neurotransmitter Regulation
@@ -18,7 +18,7 @@ hide_title: true
 
 ## BRS1 - Neurotransmitter Regulation
 
-(Neurotransmitter Signalling & Chemical Communication)
+(Neurotransmitter Signalling, Chemical Communication & Structural Organisation)
 
 <!-- brs-hub-all-mechanisms:start -->
 <div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
@@ -66,6 +66,15 @@ hide_title: true
 </a>
   </div>
 </li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM5) — Neuronal Connectivity &amp; Structural Adaptation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation" aria-label="Open FM: BRS1(FM5) — Neuronal Connectivity &amp; Structural Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 </div>
@@ -94,17 +103,18 @@ hide_title: true
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and dopaminergic, noradrenergic and serotonergic regulation.
+Monoaminergic function brings together amino-acid precursor supply, competitive entry into the brain, and regulation of dopamine, noradrenaline and serotonin signalling. Supply supports synthesis, while neuronal activity, receptors and clearance help determine how signals operate in different brain regions. These processes contribute to attention, arousal, motivation, mood and behavioural regulation. Evidence for their biological roles does not by itself establish that increasing nutrient intake improves these functions.
 
 **FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
 
-**Primary biological effects:** ↑ precursor availability; ↑ tyrosine/tryptophan support; improved monoaminergic brain-delivery context
+**Primary biological effects:** ↑ precursor availability; regulated competitive brain entry; context-dependent dopaminergic, noradrenergic and serotonergic signalling
 
 **Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Meal–Daily
 
 **Key constraints:**
 
-- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+- [BRS1(KC1) — Monoamine Precursor LNAA Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+- [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 
 **Connected mechanisms:**
 
@@ -168,19 +178,23 @@ Maintains cholinergic signalling capacity to support attention, working memory, 
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 delivery to support stable signalling and membrane integrity.
+Neuronal membranes provide the lipid environment in which receptors, channels and synapses operate. This FM currently focuses on DHA delivery and incorporation as one contribution to that environment; other membrane lipids and local maintenance processes also matter. Evidence for incorporation does not by itself establish that more dietary DHA improves cognition.
 
 **FM page:** [BRS1(FM3) — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration)
 
-**Primary biological effects:** ↑ membrane fluidity context; ↑ structural lipid integrity; ↑ neuronal signalling competence
+**Primary biological effects:** DHA delivery → incorporation into neuronal phospholipids → contribution to the membrane environment for signalling
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily–Weekly
 
+**Key constraints:**
+
+- [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
+
 **Connected mechanisms:**
 
-- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
-- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — a parallel precursor-provision process; its amino-acid requirements do not establish DHA delivery requirements.
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — a separate competitive amino-acid transport process; DHA is not identified here as LAT1 cargo.
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — uses choline for transmitter synthesis; that role does not establish a choline-intake constraint on DHA incorporation.
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
 - [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
 
@@ -202,23 +216,19 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
   <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance & Recycling</a></li>
   <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and GABAergic inhibition to support neural stability.
+GABA synthesis supplies inhibitory transmitter, while glutamate uptake and recycling help terminate and replenish signalling. Protection against excessive receptor stimulation is a separate safeguard. These processes contribute to excitatory–inhibitory regulation; receptor responses and synaptic adaptation remain outside the retained PM coverage.
 
 **FM page:** [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 
-**Primary biological effects:** ↑ inhibitory tone support; ↑ GABA synthesis support; ↑ glutamate control; ↑ excitation–inhibition balance
+**Primary biological effects:** Support GABA synthesis capacity; support glutamate signal termination/recycling; limit receptor-overload bioenergetic harm in defined contexts. These do not establish uniformly increased inhibition or comprehensive E/I regulation.
 
 **Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
-
-**Key constraints:**
-
-- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
 **Connected mechanisms:**
 
@@ -226,6 +236,42 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 - [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
 - [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
 - [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM5) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM5) — Neuronal Connectivity & Structural Adaptation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation" aria-label="Open FM: BRS1(FM5) — Neuronal Connectivity & Structural Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity">BRS1-FM5-PM12 — Synaptic Structural Plasticity</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Neuronal communication depends on the physical organisation of connections as well as transmitter signalling. Formation, selective retention, remodelling and removal can allow circuits to adapt without treating more synapses as inherently better. Initial coverage is synaptic structural plasticity, supported mainly by animal imaging and neuronal experiments; it does not cover all axonal wiring, myelination or neurogenesis.
+
+**FM page:** [BRS1(FM5) — Neuronal Connectivity & Structural Adaptation](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation)
+
+**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](#fm-ref-1) [[3]](#fm-ref-3) [[4]](#fm-ref-4) [[6]](#fm-ref-6)
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Context-dependent learning, sleep, development and ageing
+
+**Connected mechanisms:**
+
+- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](#fm-ref-7)
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](#fm-ref-7)
+- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](#fm-ref-2)
 
 </div>
 </div>
@@ -242,7 +288,7 @@ Maintain continuous, balanced neurotransmitter signalling across monoaminergic, 
 
 ## Rationale for inclusion as a distinct BRS
 
-Neurotransmitter regulation was defined as a distinct BRS because it coordinates the brain’s chemical-communication infrastructure: monoaminergic signalling, cholinergic function, GABA–glutamate balance, and the membrane-lipid environment in which receptors and transporters operate. These interconnected processes jointly determine attention, arousal, motivation, emotional regulation and behavioural control. BRS1 is therefore represented as the primary signalling system of the framework: other BRSs can constrain it through precursor supply, cofactors, energy, redox tone or stress allocation, but they do not replace transmitter-specific enzymatic and receptor regulation. It is not presented as a single-neurotransmitter explanation for brain-related conditions, but as a coherent, diet-responsive signalling architecture with biologically traceable dependencies across the wider regulatory network.
+Neurotransmitter regulation was defined as a distinct BRS because it coordinates the brain’s chemical-communication infrastructure and supporting physical organisation: monoaminergic signalling, cholinergic function, GABA–glutamate balance, and the membrane-lipid environment in which receptors and transporters operate, and the selective formation, retention, remodelling and elimination of synaptic connections. These interconnected processes jointly determine attention, arousal, motivation, emotional regulation and behavioural control. BRS1 is therefore represented as the primary signalling system of the framework: other BRSs can constrain it through precursor supply, cofactors, energy, redox tone or stress allocation, but they do not replace transmitter-specific enzymatic and receptor regulation. It is not presented as a single-neurotransmitter explanation for brain-related conditions, but as a coherent signalling architecture with independently assessed dietary and behavioural routes with biologically traceable dependencies across the wider regulatory network.
 
 ## Therapeutic Area Research
 
@@ -523,6 +569,15 @@ Monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate mechanisms join
 </a>
   </div>
 </li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM5) — Neuronal Connectivity &amp; Structural Adaptation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation" aria-label="Open FM: BRS1(FM5) — Neuronal Connectivity &amp; Structural Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
@@ -550,17 +605,18 @@ Monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate mechanisms join
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and dopaminergic, noradrenergic and serotonergic regulation.
+Monoaminergic function brings together amino-acid precursor supply, competitive entry into the brain, and regulation of dopamine, noradrenaline and serotonin signalling. Supply supports synthesis, while neuronal activity, receptors and clearance help determine how signals operate in different brain regions. These processes contribute to attention, arousal, motivation, mood and behavioural regulation. Evidence for their biological roles does not by itself establish that increasing nutrient intake improves these functions.
 
 **FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
 
-**Primary biological effects:** ↑ precursor availability; ↑ tyrosine/tryptophan support; improved monoaminergic brain-delivery context
+**Primary biological effects:** ↑ precursor availability; regulated competitive brain entry; context-dependent dopaminergic, noradrenergic and serotonergic signalling
 
 **Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Meal–Daily
 
 **Key constraints:**
 
-- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+- [BRS1(KC1) — Monoamine Precursor LNAA Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+- [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 
 **Connected mechanisms:**
 
@@ -624,19 +680,23 @@ Maintains cholinergic signalling capacity to support attention, working memory, 
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 delivery to support stable signalling and membrane integrity.
+Neuronal membranes provide the lipid environment in which receptors, channels and synapses operate. This FM currently focuses on DHA delivery and incorporation as one contribution to that environment; other membrane lipids and local maintenance processes also matter. Evidence for incorporation does not by itself establish that more dietary DHA improves cognition.
 
 **FM page:** [BRS1(FM3) — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration)
 
-**Primary biological effects:** ↑ membrane fluidity context; ↑ structural lipid integrity; ↑ neuronal signalling competence
+**Primary biological effects:** DHA delivery → incorporation into neuronal phospholipids → contribution to the membrane environment for signalling
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily–Weekly
 
+**Key constraints:**
+
+- [BRS2(KC1) — Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
+
 **Connected mechanisms:**
 
-- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
-- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
-- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — a parallel precursor-provision process; its amino-acid requirements do not establish DHA delivery requirements.
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — a separate competitive amino-acid transport process; DHA is not identified here as LAT1 cargo.
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — uses choline for transmitter synthesis; that role does not establish a choline-intake constraint on DHA incorporation.
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
 - [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
 
@@ -658,23 +718,19 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
   <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance & Recycling</a></li>
   <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and GABAergic inhibition to support neural stability.
+GABA synthesis supplies inhibitory transmitter, while glutamate uptake and recycling help terminate and replenish signalling. Protection against excessive receptor stimulation is a separate safeguard. These processes contribute to excitatory–inhibitory regulation; receptor responses and synaptic adaptation remain outside the retained PM coverage.
 
 **FM page:** [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 
-**Primary biological effects:** ↑ inhibitory tone support; ↑ GABA synthesis support; ↑ glutamate control; ↑ excitation–inhibition balance
+**Primary biological effects:** Support GABA synthesis capacity; support glutamate signal termination/recycling; limit receptor-overload bioenergetic harm in defined contexts. These do not establish uniformly increased inhibition or comprehensive E/I regulation.
 
 **Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
-
-**Key constraints:**
-
-- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
 **Connected mechanisms:**
 
@@ -682,6 +738,42 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 - [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
 - [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
 - [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM5) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM5) — Neuronal Connectivity & Structural Adaptation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation" aria-label="Open FM: BRS1(FM5) — Neuronal Connectivity & Structural Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity">BRS1-FM5-PM12 — Synaptic Structural Plasticity</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Neuronal communication depends on the physical organisation of connections as well as transmitter signalling. Formation, selective retention, remodelling and removal can allow circuits to adapt without treating more synapses as inherently better. Initial coverage is synaptic structural plasticity, supported mainly by animal imaging and neuronal experiments; it does not cover all axonal wiring, myelination or neurogenesis.
+
+**FM page:** [BRS1(FM5) — Neuronal Connectivity & Structural Adaptation](/docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation)
+
+**Primary biological effects:** Selective connection formation and persistence; contact remodelling and resizing; context-specific elimination and structural organisation. These processes can contribute to adaptation without a uniformly upward change in counts. [[1]](#fm-ref-1) [[3]](#fm-ref-3) [[4]](#fm-ref-4) [[6]](#fm-ref-6)
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Context-dependent learning, sleep, development and ageing
+
+**Connected mechanisms:**
+
+- [BRS1-FM3 — Phospholipid-mediated DHA Delivery and Membrane Integration](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration) — membrane material supports structural assembly; incorporation alone does not measure physical connection formation. [[7]](#fm-ref-7)
+- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — supplies a membrane synthesis route supporting structural assembly. Its dietary or KC relationships are not automatically inherited. [[7]](#fm-ref-7)
+- [BRS1-FM4 — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) — transmitter supply, clearance and injury protection shape activity context; this FM separately concerns the organisation of physical connections. [[2]](#fm-ref-2)
 
 </div>
 </div>
@@ -929,3 +1021,55 @@ Specific Mechanisms (SMs) are interpretation layers — context-specific reading
 
 - [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)
 - [BRS1(SM-SNP2) — APOE4 Omega-3 Brain Delivery Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity)
+
+## References
+
+[1] MacDonald et al. (2024). [The dopamine hypothesis for ADHD: An evaluation of evidence accumulated from human studies and animal models](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024). Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region.
+
+[2] Wang et al. (2019). [Dietary Profiles, Nutritional Biochemistry Status, and Attention-Deficit/Hyperactivity Disorder: Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019). Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways.
+
+[3] F W Reimherr & M Ward (1987). [An open trial of L-tyrosine in the treatment of attention deficit disorder, residual type](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987). A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as tolerance developed; it does not support sustained L-tyrosine supplementation for ADHD.
+
+[4] Oades et al. (2010). [The Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010). Role of serotonin in ADHD.
+
+[5] Banerjee & Nandagopal (2015). [Does serotonin deficit mediate susceptibility to ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015). Serotonin deficit susceptibility in ADHD.
+
+[6] Shaw et al. (2014). [Emotion Dysregulation in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014). Emotion dysregulation in attention deficit hyperactivity disorder.
+
+[7] Derbyshire & Maes (2023). [The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023). Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning.
+
+[8] Johansson et al. (2013). [Decreased binding capacity (B max) of muscarinic acetylcholine receptors in fibroblasts from boys with attention-deficit/hyperactivity disorder (ADHD)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013). Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts.
+
+[9] Pei-Chen Chang (2021). [Personalised medicine in child and Adolescent Psychiatry: Focus on omega-3 polyunsaturated fatty acids and ADHD](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021). Focus on omega-3 polyunsaturated fatty acids and ADHD.
+
+[10] Huss et al. (2010). [Supplementation of polyunsaturated fatty acids, magnesium and zinc in children seeking medical advice for attention-deficit/hyperactivity problems - an observational cohort study](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010). PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms.
+
+[11] Maltezos et al. (2014). [Glutamate/glutamine and neuronal integrity in adults with ADHD: a proton MRS study](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014). Low glutamate in critical brain areas correlates with low Barkley attention scale scores.
+
+[12] Edden et al. (2012). [Reduced GABA Concentration in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#edden_reduced_2012). Reduced GABA concentration in attention-deficit/hyperactivity disorder.
+
+[13] Puts et al. (2020). [Reduced striatal GABA in unmedicated children with ADHD at 7T](/docs/papers/BRAIN-Diet-References#puts_reduced_2020). Reduced striatal GABA in unmedicated children with ADHD.
+
+[14] Mamiya et al. (2021). [Precision Medicine Care in ADHD: The Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021). Neural excitation and inhibition balance framing.
+
+[15] Harris et al. (2012). [Synaptic energy use and supply](/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012). Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.
+
+[16] Picard et al. (2015). [Mitochondrial synapses: intracellular communication and signal integration](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015). Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.
+
+[17] Slavich & Irwin (2014). [From stress to inflammation and major depressive disorder: A social signal transduction theory of depression](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014). Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.
+
+[18] Savitz et al. (2020). [The kynurenine pathway: a finger in every pie](/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019). Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.
+
+[19] McEwen et al. (1998). [Protective and damaging effects of stress mediators](/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998). Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.
+
+[20] McEwen et al. (2006). [Protective and damaging effects of stress mediators in health and disease](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006). Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.
+
+[21] Thayer et al. (2012). [A meta-analysis of heart rate variability and neuroimaging studies: implications for heart rate variability as a marker of stress and health.](/docs/papers/BRAIN-Diet-References#thayer_2012_22178086). Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.
+
+[22] Chiang et al. (1996). [S-Adenosylmethionine and methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996). Reviews S-adenosylmethionine as the principal cellular methyl donor and its roles in transmethylation pathways.
+
+[23] Kennedy et al. (2016). [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016). Reviews B-vitamin involvement in one-carbon metabolism and brain function; it does not establish a clinical BRS2 → BRS1 effect.
+
+[24] Bravo et al. (2011). [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011). Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.
+
+[25] Jaggar et al. (2020). [You've got male: Sex and the microbiota-gut-brain axis across the lifespan](/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020). Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.
