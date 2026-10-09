@@ -21,14 +21,6 @@ hide_title: true
 
 (Lipid-Mediated Neuromodulation & Stress Buffering)
 
-## Rationale for inclusion as a distinct BRS-X
-
-The endocannabinoid system belongs in the framework as a distinct cross-system because it provides **lipid-based signals that adjust how other systems respond**. Its mediators, receptors and breakdown enzymes connect neural activity with stress physiology. In rats, restraint stress increased amygdala FAAH activity and reduced anandamide; manipulating this pathway altered the hormonal stress response. This identifies a regulatory connection between brain signalling and the stress axis, rather than another copy of either system [Hill et al., 2009].
-
-The hub also includes the wider endocannabinoidome: related lipid mediators do not all act through the classical cannabinoid receptors. DHA conversion to synaptamide supported neuronal development in cell experiments, illustrating how a nutrient can supply a signalling precursor as well as a membrane component [Kim et al., 2011]. These are distinct biological contributions, although they share an input.
-
-For nutrition, the relevant goal is proportionate endogenous signalling, rather than simply increasing every mediator. Precursor provision, mediator formation and breakdown each require their own evidence assessment. Cell and animal findings establish useful pathways but do not demonstrate that eating more DHA, choline or polyphenols improves human stress regulation. This BRS-X therefore connects lipid supply, neurotransmission and stress biology while preserving the boundaries of each measured effect.
-
 <!-- brs-hub-all-mechanisms:start -->
 <div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -106,6 +98,15 @@ Maintains endocannabinoidome signalling capacity by coordinating precursor avail
 ## Ambition
 
 Maintain balanced endocannabinoid signalling so the brain can regulate neural homeostasis, stress adaptation, appetite, and neuroimmune communication across changing physiological demands.
+
+## Rationale for inclusion as a distinct BRS-X
+
+The endocannabinoid system belongs in the framework as a distinct cross-system because it provides **lipid-based signals that adjust how other systems respond**. Its mediators, receptors and breakdown enzymes connect neural activity with stress physiology. In rats, restraint stress increased amygdala FAAH activity and reduced anandamide; manipulating this pathway altered the hormonal stress response. This identifies a regulatory connection between brain signalling and the stress axis, rather than another copy of either system [Hill et al., 2009].
+
+The hub also includes the wider endocannabinoidome: related lipid mediators do not all act through the classical cannabinoid receptors. DHA conversion to synaptamide supported neuronal development in cell experiments, illustrating how a nutrient can supply a signalling precursor as well as a membrane component [Kim et al., 2011]. These are distinct biological contributions, although they share an input.
+
+For nutrition, the relevant goal is proportionate endogenous signalling, rather than simply increasing every mediator. Precursor provision, mediator formation and breakdown each require their own evidence assessment. Cell and animal findings establish useful pathways but do not demonstrate that eating more DHA, choline or polyphenols improves human stress regulation. This BRS-X therefore connects lipid supply, neurotransmission and stress biology while preserving the boundaries of each measured effect.
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Dietary patterns, food handling and behavioural levers shape how effectively this Biological Regulatory System can operate under daily demand.</p>
