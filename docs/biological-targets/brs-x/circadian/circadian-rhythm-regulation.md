@@ -98,8 +98,6 @@ Circadian regulation belongs in the framework as a distinct cross-system because
 
 Food is therefore more than a source of nutrients: **when we eat can influence how the body processes it**. Supporting regulation is not simply a matter of increasing intake. Light exposure and meal timing provide different cues, so this BRS-X keeps their contributions separate [Gooley et al., 2011; Wehrens et al., 2017].
 
-Time-restricted feeding has produced metabolic protection in mice without reducing calories, supporting further investigation of timing alongside food quantity and composition [Hatori et al., 2012]. These findings do not establish that feeding windows reset every central and peripheral clock, or that they improve human neuroplasticity or extend lifespan. Human intervention findings must retain their measured outcomes and population boundaries.
-
 ## Therapeutic Area Research
 
 <p class="brs-hub-ta-research-intro">ADHD is the first mapped therapeutic area in the BRAIN Framework. Circadian research adds a timing dimension: sleep timing, internal clock phase and ADHD symptoms are related endpoints, but are not interchangeable.</p>
