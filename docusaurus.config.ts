@@ -219,6 +219,7 @@ function flattenPapersCategory(items: any[]): any[] {
 type SidebarDocRef = {
   id: string;
   title: string;
+  sourceDirName?: string;
   frontMatter?: {
     sidebar_label?: string;
     slug?: string;
@@ -248,9 +249,16 @@ function substanceDisplayLabel(item: any, docsById: Map<string, SidebarDocRef>):
 }
 
 function substanceHref(id: string, doc: SidebarDocRef | undefined): string {
-  const slug = doc?.frontMatter?.slug;
-  if (typeof slug === 'string' && slug.startsWith('/')) {
-    return `/docs${slug}`;
+  const slug = doc?.frontMatter?.slug?.trim();
+  if (slug?.startsWith('/')) {
+    return `/docs${slug}`.replace(/\/+$/, '') || '/docs';
+  }
+  // A relative slug replaces the document id. SCFAs is published at
+  // .../scfas/scfas even though its id ends in SCFAs.
+  if (slug && doc?.sourceDirName && doc.sourceDirName !== '.') {
+    const directory = `/${doc.sourceDirName.replace(/^\/+|\/+$/g, '')}/`;
+    const resolved = new URL(slug, `http://local${directory}`).pathname;
+    return `/docs${resolved}`.replace(/\/+$/, '') || '/docs';
   }
   return `/docs/${id}`;
 }
