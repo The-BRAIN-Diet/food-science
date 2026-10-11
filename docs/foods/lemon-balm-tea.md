@@ -11,38 +11,19 @@ tags:
   - Polyphenol
   - Terpene
 list_image: /img/foods/lemon-balm-tea/lemon-balm-tea_thumb.webp
-nutrition_per_100g:
-  kcal: 17
-  protein_g: 0.47
-  fat_g: 0.07
-  carbs_g: 5.66
-  fibre_g: 0.7
-  ala_mg: 6
-  calcium_mg: 9
-  iron_mg: 0.06
-  magnesium_mg: 6
-  potassium_mg: 109
-  zinc_mg: 0.23
-  vitamin_b6_mg: 0.037
-  folate_ug: 11
-  sat_fat_g: 0.027
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 6
-omega3_components:
-  - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
-    amount_mg: 6
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Lemon juice from concentrate, bottled, REAL LEMON'
-  fdc_id: 167802
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 main_image: /img/foods/lemon-balm-tea/lemon-balm-tea_medium.webp
 legacy_list_image: /img/foods/lemon-balm-tea/lemon-balm-tea_thumb.webp
 legacy_main_image: /img/foods/lemon-balm-tea/lemon-balm-tea_medium.webp
+nutrition_unavailable: true
+composition_status: withdrawn
+eaa_profile_applicable: false
+composition_withdrawn:
+  withdrawn_record: 'FDC 167802, Lemon juice from concentrate, bottled, REAL LEMON'
+  identity_failure: 'species and product: lemon juice is not Melissa officinalis infusion'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_relationships: []
 ---
 ## Overview
 

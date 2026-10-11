@@ -216,10 +216,111 @@ function flattenPapersCategory(items: any[]): any[] {
   })
 }
 
-function customizeDocsSidebar(items: any[]): any[] {
-  return flattenPapersCategory(
-    removeHiddenSidebarItems(removeDuplicateBrsOverviewDocs(items)),
-  )
+type SidebarDocRef = {
+  id: string;
+  title: string;
+  frontMatter?: {
+    sidebar_label?: string;
+    slug?: string;
+  };
+};
+
+function isSubstancesCategory(item: any): boolean {
+  const linkId = typeof item?.link?.id === 'string' ? item.link.id : '';
+  return item?.type === 'category' && (item.label === 'Substances' || linkId === 'substances');
+}
+
+function collectSidebarDocs(items: any[], acc: any[] = []): any[] {
+  for (const item of items) {
+    if (item?.type === 'doc' && typeof item.id === 'string') acc.push(item);
+    else if (item?.type === 'category') collectSidebarDocs(item.items ?? [], acc);
+  }
+  return acc;
+}
+
+function substanceDisplayLabel(item: any, docsById: Map<string, SidebarDocRef>): string {
+  if (typeof item.label === 'string' && item.label.trim()) return item.label.trim();
+  const doc = docsById.get(item.id);
+  const sidebarLabel = doc?.frontMatter?.sidebar_label;
+  if (typeof sidebarLabel === 'string' && sidebarLabel.trim()) return sidebarLabel.trim();
+  if (doc?.title?.trim()) return doc.title.trim();
+  return String(item.id);
+}
+
+function substanceHref(id: string, doc: SidebarDocRef | undefined): string {
+  const slug = doc?.frontMatter?.slug;
+  if (typeof slug === 'string' && slug.startsWith('/')) {
+    return `/docs${slug}`;
+  }
+  return `/docs/${id}`;
+}
+
+function buildSubstanceAzCategory(docs: any[], docsById: Map<string, SidebarDocRef>) {
+  const entries = docs
+    .map((item) => {
+      const doc = docsById.get(item.id);
+      const label = substanceDisplayLabel(item, docsById);
+      return { label, href: substanceHref(item.id, doc) };
+    })
+    .sort((a, b) => a.label.localeCompare(b.label, 'en', { numeric: true, sensitivity: 'base' }));
+
+  const byLetter = new Map<string, typeof entries>();
+  for (const entry of entries) {
+    const match = entry.label.match(/[A-Za-z]/);
+    const letter = match ? match[0].toUpperCase() : '#';
+    const group = byLetter.get(letter) ?? [];
+    group.push(entry);
+    byLetter.set(letter, group);
+  }
+
+  return {
+    type: 'category',
+    label: 'A–Z',
+    collapsible: true,
+    collapsed: true,
+    items: [...byLetter.keys()]
+      .sort((a, b) => a.localeCompare(b, 'en'))
+      .map((letter) => ({
+        type: 'category',
+        label: letter,
+        collapsible: true,
+        collapsed: true,
+        items: (byLetter.get(letter) ?? []).map((entry) => ({
+          type: 'link',
+          label: entry.label,
+          href: entry.href,
+        })),
+      })),
+  };
+}
+
+function insertSubstanceAzIndex(items: any[], docs: SidebarDocRef[]): any[] {
+  const docsById = new Map(docs.map((doc) => [doc.id, doc]));
+  return items.map((item) => {
+    if (item?.type !== 'category') return item;
+    const children = insertSubstanceAzIndex(item.items ?? [], docs);
+    if (!isSubstancesCategory(item)) {
+      return { ...item, items: children };
+    }
+    if (children.some((child) => child?.type === 'category' && child.label === 'A–Z')) {
+      return { ...item, items: children };
+    }
+    const substances = collectSidebarDocs(children);
+    if (substances.length === 0) return { ...item, items: children };
+    return {
+      ...item,
+      items: [buildSubstanceAzCategory(substances, docsById), ...children],
+    };
+  });
+}
+
+function customizeDocsSidebar(items: any[], docs: SidebarDocRef[] = []): any[] {
+  return insertSubstanceAzIndex(
+    flattenPapersCategory(
+      removeHiddenSidebarItems(removeDuplicateBrsOverviewDocs(items)),
+    ),
+    docs,
+  );
 }
 
 const config: Config = {
@@ -269,6 +370,7 @@ const config: Config = {
   clientModules: [
     require.resolve('./src/client/resetSidebarState.ts'),
     require.resolve('./src/client/brsFmHubDropdown.ts'),
+    require.resolve('./src/client/substanceAzExpandAll.ts'),
   ],
 
   markdown: {
@@ -287,7 +389,7 @@ const config: Config = {
           sidebarCollapsed: true,
           async sidebarItemsGenerator(args) {
             const sidebarItems = await args.defaultSidebarItemsGenerator(args);
-            return customizeDocsSidebar(sidebarItems);
+            return customizeDocsSidebar(sidebarItems, args.docs ?? []);
           },
           exclude: docsExclude,
           // Please change this to your repo.
@@ -329,6 +431,10 @@ const config: Config = {
           {
             id: 'BRAIN-diet',
             path: 'bibtex/BRAIN-diet.bib',
+          },
+          {
+            id: 'BRAIN-diet-sources',
+            path: 'bibtex/BRAIN-diet-sources.bib',
           },
         ],
       },

@@ -58,6 +58,20 @@ complementary_pairings: >-
 main_image: /img/foods/rice/rice_medium.webp
 legacy_list_image: /img/foods/rice/rice_thumb.webp
 legacy_main_image: /img/foods/rice/rice_medium.webp
+substance_relationships:
+  - substance: Vitamin B1
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B1 in Rice, white, long-grain,
+      regular, raw, unenriched.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: rice|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Rice, white, long-grain, regular, raw, unenriched'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169756/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

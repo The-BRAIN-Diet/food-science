@@ -2,7 +2,7 @@
 id: seaweed
 title: Seaweed
 sidebar_label: Seaweed
-description: 'Iodine, EPA (in red algae), magnesium, and trace minerals'
+description: Iodine, EPA (in red algae), magnesium, and trace minerals
 tags:
   - Food
   - Seaweed
@@ -12,51 +12,7 @@ tags:
   - Omega-3 Fatty Acids
   - Magnesium
 list_image: /img/foods/seaweed/seaweed_thumb.webp
-nutrition_per_100g:
-  vitamin_e_mg: 0.87
-  carbs_g: 9.57
-  sugar_g: 0.6
-  beta_carotene_ug: 70
-  vitamin_k_ug: 66
-  vitamin_a_rae_ug: 6
-  choline_mg: 12.8
-  kcal: 43
-  vitamin_c_mg: 3
-  fibre_g: 1.3
-  iron_mg: 2.85
-  magnesium_mg: 121
-  phosphorus_mg: 42
-  sodium_mg: 233
-  copper_mg: 0.13
-  manganese_mg: 0.2
-  protein_g: 1.68
-  sat_fat_g: 0.247
-  vitamin_b1_mg: 0.05
-  vitamin_b2_mg: 0.15
-  folate_ug: 180
-  epa_mg: 4
-  linoleic_g: 0.02
-  fat_g: 0.56
-  vitamin_b3_mg: 0.47
-  vitamin_b5_mg: 0.642
-  vitamin_b6_mg: 0.002
-  calcium_mg: 168
-  potassium_mg: 89
-  zinc_mg: 1.23
-  selenium_ug: 0.7
-  omega3_mg: 4
-  pufa_18_3_unresolved_mg: 4
-omega3_components:
-  - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
-    amount_mg: 4
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Seaweed, kelp, raw'
-  fdc_id: 168457
-  retrieval_method: SR Legacy bulk (April 2018)
-  basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+nutrition_per_100g: {}
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/seaweed/seaweed_medium.webp
 legacy_list_image: /img/foods/seaweed/seaweed_thumb.webp
@@ -65,11 +21,77 @@ nutrition_supplementary_sources:
   - key: iodine_qual
     label: Iodine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Seaweed is used as a dietary iodine source; iodine is often absent from
-      USDA SR Legacy nutrient panels, so quantity is not established for this
-      page.
+      Seaweed bioactives: A comprehensive review of nutritional and functional
+      roles (2026). Composition review explicitly identifies iodine, magnesium
+      and individual omega-3 fatty acids in edible marine algae; no single kelp
+      panel represents the category.
+    public_note: >-
+      Reported in edible seaweeds; species and preparation strongly affect
+      content.
+    source_group: seaweed-presence
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/
+    notes: edible seaweed species
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      Reported in edible seaweeds; species and preparation strongly affect
+      content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: seaweed|Omega-3 Fatty Acids
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Seaweed bioactives: A comprehensive review of nutritional and functional
+      roles (2026)
+    evidence_material: edible seaweed species
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/
+    source_reference: '#food-source-3'
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      Reported in edible seaweeds; species and preparation strongly affect
+      content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: seaweed|Magnesium
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Seaweed bioactives: A comprehensive review of nutritional and functional
+      roles (2026)
+    evidence_material: edible seaweed species
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/
+    source_reference: '#food-source-3'
+  - substance: Iodine
+    relationship: contains
+    description: >-
+      Reported in edible seaweeds; species and preparation strongly affect
+      content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: seaweed|Iodine
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Seaweed bioactives: A comprehensive review of nutritional and functional
+      roles (2026)
+    evidence_material: edible seaweed species
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/
+    source_reference: '#food-source-3'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: Seaweed, kelp, raw
+  identity_failure: 'species/category: raw kelp is not a composition for all edible seaweeds'
+  reason: 'species/category: raw kelp is not a composition for all edible seaweeds'
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -108,3 +130,7 @@ Seaweed contribute plant protein. Pair with complementary protein sources (e.g. 
 [1] Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis. Arterburn et al. 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)
 
 [2] Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)
+
+<span id="food-source-3" />
+
+[3] [Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)](/docs/papers/BRAIN-Diet-References#food_composition_fd2ab56d3fe8)

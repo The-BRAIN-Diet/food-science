@@ -26,7 +26,7 @@ Vitamin B12 (cobalamin) is an essential water-soluble vitamin used by methionine
 
 Deficiency can produce haematological and neurological consequences, but deficiency treatment, ordinary dietary adequacy and supplementation in replete people are different evidence contexts [4]. Homocysteine-lowering studies have generally tested supplemental B vitamins, sometimes alongside omega-3 status, rather than whole B12-containing foods [1–3].
 
-## Dietary Origin
+## Dietary Context
 
 Vitamin B12 occurs directly in animal-derived foods including shellfish, fish, meat, eggs and dairy, and in fortified foods. This is the ordinary relationship `Food → contains → Vitamin B12`; it does not require a microbial-formation or dietary-precursor module.
 
@@ -45,13 +45,13 @@ The evidence supports B12 as a biochemical cofactor and shows that supplemental 
 
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Vitamin B12" />
-
 ## Foods
 
 <SubstanceFoods tag="Vitamin B12" />
+
+## Recipes
+
+<SubstanceRecipes tag="Vitamin B12" />
 
 ## Biological Regulatory Systems
 

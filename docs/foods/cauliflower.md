@@ -46,7 +46,7 @@ nutrition_per_100g:
   omega3_mg: 15
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 15
 nutrition_source:
   database: USDA FoodData Central
@@ -58,6 +58,30 @@ nutrition_source:
 main_image: /img/foods/cauliflower/cauliflower_medium.webp
 legacy_list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp
+substance_relationships:
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Cauliflower, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cauliflower|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cauliflower, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169986/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Cauliflower, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cauliflower|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cauliflower, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169986/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

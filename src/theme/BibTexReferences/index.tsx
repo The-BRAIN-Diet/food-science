@@ -32,16 +32,19 @@ export default function BibTexReferences({
   sortDirection = "desc",
   className = "",
 }: BibTexReferencesProps): React.JSX.Element {
-  const globalData = usePluginData("bibtex-loader")
-  const bibtexData = globalData?.[fileId] as {entries?: BibEntry[]; path?: string} | undefined
+  const globalData = usePluginData("bibtex-loader") as
+    | Record<string, {entries?: BibEntry[]; path?: string} | undefined>
+    | undefined
+  const bibtexData = globalData?.[fileId]
 
-  // Extract entries from the plugin data
+  // Extract entries from the plugin data. Newer citation records live in a
+  // companion file so the primary bibliography stays within the commit size limit.
   const entries = useMemo(() => {
-    if (bibtexData && bibtexData.entries && Array.isArray(bibtexData.entries)) {
-      return bibtexData.entries
-    }
-    return []
-  }, [bibtexData])
+    const primary = bibtexData?.entries && Array.isArray(bibtexData.entries) ? bibtexData.entries : []
+    const companionEntries = globalData?.["BRAIN-diet-sources"]?.entries
+    const companion = fileId === "BRAIN-diet" && Array.isArray(companionEntries) ? companionEntries : []
+    return [...primary, ...companion]
+  }, [bibtexData, fileId, globalData])
 
   const location = useLocation()
 

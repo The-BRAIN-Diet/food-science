@@ -1,0 +1,2160 @@
+[
+  {
+    "food": "green-tea",
+    "substance": "EGCG",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EFSA (2018), Scientific opinion on green tea catechins",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7009618/",
+      "material": "green tea infusions",
+      "verification": "Green tea leaves and infusions contain individual EGCG; no total-catechin amount transferred.",
+      "description": "Reported in green tea infusions.",
+      "source_group": "tea"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "green-tea",
+    "substance": "L-Theanine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Li et al. (2022), L-Theanine: A Unique Functional Amino Acid in Tea",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35445053/",
+      "material": "Camellia sinensis tea",
+      "verification": "Review explicitly identifies L-theanine as a tea constituent.",
+      "description": "L-theanine occurs in green tea; content varies with the leaves and brewing.",
+      "source_group": "theanine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "shiitake-mushroom",
+    "substance": "Beta-Glucans",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sari et al. (2017), Food Chemistry 216:45–51",
+      "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
+      "material": "mushroom fruiting bodies",
+      "verification": "Named species identified; enzymatic beta-glucan measurements of fruiting material in Tables 1 and 3. Quantities expressed per dry mass; no fresh-food conversion.",
+      "description": "Beta-glucans occur in the fruiting body; dry-mass assays are not fresh-food amounts.",
+      "source_group": "mushroom-glucans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "oyster-mushroom",
+    "substance": "Beta-Glucans",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sari et al. (2017), Food Chemistry 216:45–51",
+      "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
+      "material": "mushroom fruiting bodies",
+      "verification": "Named species identified; enzymatic beta-glucan measurements of fruiting material in Tables 1 and 3. Quantities expressed per dry mass; no fresh-food conversion.",
+      "description": "Beta-glucans occur in the fruiting body; dry-mass assays are not fresh-food amounts.",
+      "source_group": "mushroom-glucans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "turkey-tail-mushroom",
+    "substance": "Beta-Glucans",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sari et al. (2017), Food Chemistry 216:45–51",
+      "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
+      "material": "mushroom fruiting bodies",
+      "verification": "Named species identified; enzymatic beta-glucan measurements of fruiting material in Tables 1 and 3. Quantities expressed per dry mass; no fresh-food conversion.",
+      "description": "Beta-glucans occur in the fruiting body; dry-mass assays are not fresh-food amounts.",
+      "source_group": "mushroom-glucans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "maitake-mushroom",
+    "substance": "Beta-Glucans",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sari et al. (2017), discussion of Grifola frondosa",
+      "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
+      "material": "Grifola frondosa mushroom",
+      "verification": "Discussion specifically identifies beta-glucans in Grifola frondosa; not included as a new measured species value.",
+      "description": "Reported in Grifola frondosa mushroom.",
+      "source_group": "maitake-glucans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-powder",
+    "substance": "Catechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-powder",
+    "substance": "Epicatechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-powder",
+    "substance": "Oligomeric Procyanidins",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cocoa",
+    "substance": "Catechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cocoa",
+    "substance": "Epicatechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cocoa",
+    "substance": "Oligomeric Procyanidins",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "dark-chocolate",
+    "substance": "Catechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "dark-chocolate",
+    "substance": "Epicatechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "dark-chocolate",
+    "substance": "Oligomeric Procyanidins",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-nibs-raw",
+    "substance": "Catechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-nibs-raw",
+    "substance": "Epicatechin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cacao-nibs-raw",
+    "substance": "Oligomeric Procyanidins",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/",
+      "material": "cocoa beans and cocoa products",
+      "verification": "Composition section identifies catechin, epicatechin and oligomeric procyanidins independently; processing affects content.",
+      "description": "Occurs in cocoa; content varies with processing and the cocoa proportion.",
+      "source_group": "cocoa"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "turmeric",
+    "substance": "Curcumin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Ahmad et al. (2020), Biochemistry, Safety, Pharmacological Activities, and Clinical Applications of Turmeric: A Mechanistic Review",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7238329/",
+      "material": "ground Curcuma longa rhizome",
+      "verification": "Abstract identifies curcumin in ground turmeric rhizome independently from total curcuminoids.",
+      "description": "Reported in ground Curcuma longa rhizome.",
+      "source_group": "turmeric"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cinnamon",
+    "substance": "Cinnamaldehyde",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Ranasinghe et al. (2013), Medicinal properties of true cinnamon",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3854496/",
+      "material": "cinnamon bark",
+      "verification": "Composition identifies cinnamaldehyde in cinnamon bark, distinct from leaf eugenol and root camphor.",
+      "description": "Reported in cinnamon bark.",
+      "source_group": "cinnamon"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "thyme",
+    "substance": "Thymol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EMA assessment report, Thymus vulgaris / zygis herba",
+      "source_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+      "material": "thyme herb",
+      "verification": "Herb volatile fraction identifies thymol and carvacrol; essential-oil percentages are not herb composition.",
+      "description": "Occurs in thyme’s volatile fraction; essential-oil percentages are not amounts in the herb.",
+      "source_group": "thyme"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "thyme",
+    "substance": "Carvacrol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EMA assessment report, Thymus vulgaris / zygis herba",
+      "source_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf",
+      "material": "thyme herb",
+      "verification": "Herb volatile fraction identifies thymol and carvacrol; essential-oil percentages are not herb composition.",
+      "description": "Occurs in thyme’s volatile fraction; essential-oil percentages are not amounts in the herb.",
+      "source_group": "thyme"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "rosemary",
+    "substance": "Carnosic acid",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EMA (2024), Rosmarinus officinalis folium assessment report",
+      "source_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+      "material": "rosemary leaves",
+      "verification": "Whole dried leaf definition and leaf-constituent list explicitly include carnosic acid and carnosol.",
+      "description": "Reported in rosemary leaves.",
+      "source_group": "rosemary"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "rosemary",
+    "substance": "Carnosol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EMA (2024), Rosmarinus officinalis folium assessment report",
+      "source_url": "https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf",
+      "material": "rosemary leaves",
+      "verification": "Whole dried leaf definition and leaf-constituent list explicitly include carnosic acid and carnosol.",
+      "description": "Reported in rosemary leaves.",
+      "source_group": "rosemary"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "watermelon",
+    "substance": "Citrulline",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Wehner et al. (2011), L-citrulline levels in watermelon cultigens tested in two environments",
+      "source_url": "https://cucurbitbreeding.wordpress.ncsu.edu/files/2016/04/l-citrulline-levels-in-watermelon-cultigens-tested-in-two-environments.pdf",
+      "material": "fresh watermelon flesh",
+      "verification": "Fresh flesh assayed; abstract/table data identify individual citrulline. Cultigen means span 1.09–4.52 mg/g fresh weight in this one study, not a universal food composition.",
+      "description": "Reported in fresh watermelon flesh.",
+      "source_group": "watermelon"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "extra-virgin-olive-oil",
+    "substance": "Hydroxytyrosol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "extra-virgin-olive-oil",
+    "substance": "Tyrosol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "extra-virgin-olive-oil",
+    "substance": "Oleacein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "extra-virgin-olive-oil",
+    "substance": "Oleocanthal",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "early-harvest-olive-oil",
+    "substance": "Hydroxytyrosol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "early-harvest-olive-oil",
+    "substance": "Tyrosol",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "early-harvest-olive-oil",
+    "substance": "Oleacein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "early-harvest-olive-oil",
+    "substance": "Oleocanthal",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/",
+      "material": "virgin olive oil",
+      "verification": "Virgin-oil phenolic composition includes individual phenolic alcohols and the oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its derivatives.",
+      "description": "Occurs in virgin olive oil; concentration varies with production and storage.",
+      "source_group": "olive-phenols"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "beef",
+    "substance": "Creatine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "the named meat or fish tissue",
+      "verification": "Table 7 separately lists positive creatine for beef muscle, lamb, pork ham, beef liver and tuna. No range assigned across different foods or cuts.",
+      "description": "Contains creatine; amounts vary with the cut and cooking.",
+      "source_group": "creatine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lamb",
+    "substance": "Creatine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "the named meat or fish tissue",
+      "verification": "Table 7 separately lists positive creatine for beef muscle, lamb, pork ham, beef liver and tuna. No range assigned across different foods or cuts.",
+      "description": "Contains creatine; amounts vary with the cut and cooking.",
+      "source_group": "creatine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "pork",
+    "substance": "Creatine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "the named meat or fish tissue",
+      "verification": "Table 7 separately lists positive creatine for beef muscle, lamb, pork ham, beef liver and tuna. No range assigned across different foods or cuts.",
+      "description": "Contains creatine; amounts vary with the cut and cooking.",
+      "source_group": "creatine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "liver",
+    "substance": "Creatine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "the named meat or fish tissue",
+      "verification": "Table 7 separately lists positive creatine for beef muscle, lamb, pork ham, beef liver and tuna. No range assigned across different foods or cuts.",
+      "description": "Contains creatine; amounts vary with the cut and cooking.",
+      "source_group": "creatine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tuna",
+    "substance": "Creatine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "the named meat or fish tissue",
+      "verification": "Table 7 separately lists positive creatine for beef muscle, lamb, pork ham, beef liver and tuna. No range assigned across different foods or cuts.",
+      "description": "Contains creatine; amounts vary with the cut and cooking.",
+      "source_group": "creatine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "liver",
+    "substance": "CoQ10",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+      "material": "beef and pork liver",
+      "verification": "Table 7 identifies individual CoQ10 in beef and pork liver; no representative generic liver amount used.",
+      "description": "Reported in beef and pork liver.",
+      "source_group": "liver-coq"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "butter",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11356998/",
+      "material": "butter, egg yolk or fermented soybean food",
+      "verification": "Primary abstract explicitly identifies K2 in butter, egg yolk, natto and cheese. No total vitamin K value used as K2.",
+      "description": "Contains menaquinones (vitamin K2); the amount is product-dependent.",
+      "source_group": "vitamin-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "egg-yolks",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11356998/",
+      "material": "butter, egg yolk or fermented soybean food",
+      "verification": "Primary abstract explicitly identifies K2 in butter, egg yolk, natto and cheese. No total vitamin K value used as K2.",
+      "description": "Contains menaquinones (vitamin K2); the amount is product-dependent.",
+      "source_group": "vitamin-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "natto",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11356998/",
+      "material": "butter, egg yolk or fermented soybean food",
+      "verification": "Primary abstract explicitly identifies K2 in butter, egg yolk, natto and cheese. No total vitamin K value used as K2.",
+      "description": "Contains menaquinones (vitamin K2); the amount is product-dependent.",
+      "source_group": "vitamin-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "grass-fed-butter",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/11356998/",
+      "material": "butter, egg yolk or fermented soybean food",
+      "verification": "Primary abstract explicitly identifies K2 in butter, egg yolk, natto and cheese. No total vitamin K value used as K2.",
+      "description": "Contains menaquinones (vitamin K2); the amount is product-dependent.",
+      "source_group": "vitamin-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sauerkraut",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Walther et al. (2013), Menaquinones, Bacteria, and the Food Supply",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3941825/",
+      "material": "fermented cabbage",
+      "verification": "Review explicitly reports long-chain menaquinones in sauerkraut; amounts vary with fermentation.",
+      "description": "Menaquinones have been reported in sauerkraut; content depends on fermentation.",
+      "source_group": "sauerkraut-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lemon",
+    "substance": "Eriocitrin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon juices",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12769519/",
+      "material": "lemon juice",
+      "verification": "Primary abstract identifies eriocitrin and hesperidin separately in lemon juice.",
+      "description": "Reported in lemon juice.",
+      "source_group": "lemon-flavonoids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lemon",
+    "substance": "Hesperidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon juices",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12769519/",
+      "material": "lemon juice",
+      "verification": "Primary abstract identifies eriocitrin and hesperidin separately in lemon juice.",
+      "description": "Reported in lemon juice.",
+      "source_group": "lemon-flavonoids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "EPA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "DHA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "Omega-3 Fatty Acids",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "trout-roe",
+    "substance": "EPA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "trout-roe",
+    "substance": "DHA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "trout-roe",
+    "substance": "Omega-3 Fatty Acids",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lumpfish-roe",
+    "substance": "EPA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lumpfish-roe",
+    "substance": "DHA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lumpfish-roe",
+    "substance": "Omega-3 Fatty Acids",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+      "material": "commercial salmon, trout or lumpfish roe",
+      "verification": "Table 3 separately identifies EPA and DHA in salmon, trout and lumpfish commercial roe products; fatty-acid percentages are not amounts per 100 g food.",
+      "description": "Contains omega-3 fatty acids; content varies with the roe product.",
+      "source_group": "roe-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "EPA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+      "material": "edible Cerastoderma edule tissue",
+      "verification": "Primary Table 1 separately reports EPA and DHA in edible cockle tissue; fatty-acid percentages not converted into food amounts.",
+      "description": "Reported in edible Cerastoderma edule tissue.",
+      "source_group": "cockle-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "DHA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+      "material": "edible Cerastoderma edule tissue",
+      "verification": "Primary Table 1 separately reports EPA and DHA in edible cockle tissue; fatty-acid percentages not converted into food amounts.",
+      "description": "Reported in edible Cerastoderma edule tissue.",
+      "source_group": "cockle-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "Omega-3 Fatty Acids",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+      "material": "edible Cerastoderma edule tissue",
+      "verification": "Primary Table 1 separately reports EPA and DHA in edible cockle tissue; fatty-acid percentages not converted into food amounts.",
+      "description": "Reported in edible Cerastoderma edule tissue.",
+      "source_group": "cockle-fatty-acids"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "clams",
+    "substance": "Taurine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The potential protective effects of taurine on coronary heart disease (2009)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/",
+      "material": "clam or scallop edible tissue, or dark poultry meat",
+      "verification": "Table 2 separately identifies taurine in raw clams, raw scallops and dark chicken/turkey meat.",
+      "description": "Contains taurine; the amount varies with the food and cooking.",
+      "source_group": "taurine-foods"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "scallops",
+    "substance": "Taurine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The potential protective effects of taurine on coronary heart disease (2009)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/",
+      "material": "clam or scallop edible tissue, or dark poultry meat",
+      "verification": "Table 2 separately identifies taurine in raw clams, raw scallops and dark chicken/turkey meat.",
+      "description": "Contains taurine; the amount varies with the food and cooking.",
+      "source_group": "taurine-foods"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "dark-meat-poultry",
+    "substance": "Taurine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The potential protective effects of taurine on coronary heart disease (2009)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/",
+      "material": "clam or scallop edible tissue, or dark poultry meat",
+      "verification": "Table 2 separately identifies taurine in raw clams, raw scallops and dark chicken/turkey meat.",
+      "description": "Contains taurine; the amount varies with the food and cooking.",
+      "source_group": "taurine-foods"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "beetroot",
+    "substance": "Nitrate",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8229785/",
+      "material": "beetroot root",
+      "verification": "Food composition discussion explicitly identifies nitrate in beetroot and beetroot juice; not restricted to an isolated supplement.",
+      "description": "Reported in beetroot root.",
+      "source_group": "beet-nitrate"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "garlic",
+    "substance": "Allicin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Functionality of garlic sulfur compounds (Review, 2025)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/",
+      "material": "fresh garlic after crushing or chopping",
+      "verification": "Alliinase produces allicin from alliin when raw garlic tissue is disrupted; heating changes enzyme activity and products.",
+      "description": "Allicin forms when raw garlic is crushed or chopped; heating changes its content.",
+      "source_group": "garlic-allicin"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "soy-lecithin",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive",
+      "source_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742",
+      "material": "food-grade soybean or sunflower lecithin",
+      "verification": "Table 2 separately identifies phosphatidylcholine in sunflower and soybean food lecithins.",
+      "description": "Contains phosphatidylcholine; the proportion varies with the lecithin product.",
+      "source_group": "lecithin-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sunflower-lecithin",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive",
+      "source_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742",
+      "material": "food-grade soybean or sunflower lecithin",
+      "verification": "Table 2 separately identifies phosphatidylcholine in sunflower and soybean food lecithins.",
+      "description": "Contains phosphatidylcholine; the proportion varies with the lecithin product.",
+      "source_group": "lecithin-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sunflower-lecithin",
+    "substance": "Choline",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive",
+      "source_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742",
+      "material": "sunflower food lecithin",
+      "verification": "Phosphatidylcholine in sunflower lecithin contains bound choline; no claim of free choline or equivalent mass of phosphatidylcholine.",
+      "description": "Provides choline bound in phosphatidylcholine; amounts depend on the product.",
+      "source_group": "lecithin-choline"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "parmesan-cheese",
+    "substance": "Vitamin K2",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Vitamin K content of Australian foods (2021)",
+      "source_url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.753059/pdf",
+      "material": "Parmesan cheese",
+      "verification": "Primary food table separately reports positive MK-4 for Parmesan; total vitamin K is not substituted for K2.",
+      "description": "Contains menaquinones (vitamin K2); amounts vary by product.",
+      "source_group": "parmesan-k2"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon",
+    "substance": "Astaxanthin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Salmon fillet nutritional composition feeding study (2025)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952918/",
+      "material": "salmon fillet",
+      "verification": "Primary results separately measure astaxanthin in salmon muscle; different feeding groups are not one food composition range.",
+      "description": "Astaxanthin occurs in salmon flesh; content depends on the fish and feed.",
+      "source_group": "salmon-astaxanthin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sesame-seeds",
+    "substance": "Sesamin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sesame: A Comprehensive Review of Nutritional Value and Phytochemical Composition (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/",
+      "material": "sesame seeds",
+      "verification": "Composition section identifies sesamin and sesamolin separately in sesame seeds; no unrelated study range assigned.",
+      "description": "Reported in sesame seeds.",
+      "source_group": "sesame-lignans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sesame-seeds",
+    "substance": "Sesamolin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sesame: A Comprehensive Review of Nutritional Value and Phytochemical Composition (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/",
+      "material": "sesame seeds",
+      "verification": "Composition section identifies sesamin and sesamolin separately in sesame seeds; no unrelated study range assigned.",
+      "description": "Reported in sesame seeds.",
+      "source_group": "sesame-lignans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "edamame",
+    "substance": "Genistein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "NTP-CERHR Expert Panel Report on Genistein (2006)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/",
+      "material": "soybeans and the named soy foods",
+      "verification": "Food table separately lists positive genistein for green soybeans, mature soybeans, tempeh and tofu; totals are aglycone equivalents, not amounts of free genistein.",
+      "description": "Contains genistein-related isoflavones, including glycosides; proportions vary with processing.",
+      "source_group": "soy-genistein"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "soy",
+    "substance": "Genistein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "NTP-CERHR Expert Panel Report on Genistein (2006)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/",
+      "material": "soybeans and the named soy foods",
+      "verification": "Food table separately lists positive genistein for green soybeans, mature soybeans, tempeh and tofu; totals are aglycone equivalents, not amounts of free genistein.",
+      "description": "Contains genistein-related isoflavones, including glycosides; proportions vary with processing.",
+      "source_group": "soy-genistein"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tempeh",
+    "substance": "Genistein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "NTP-CERHR Expert Panel Report on Genistein (2006)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/",
+      "material": "soybeans and the named soy foods",
+      "verification": "Food table separately lists positive genistein for green soybeans, mature soybeans, tempeh and tofu; totals are aglycone equivalents, not amounts of free genistein.",
+      "description": "Contains genistein-related isoflavones, including glycosides; proportions vary with processing.",
+      "source_group": "soy-genistein"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tofu",
+    "substance": "Genistein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "NTP-CERHR Expert Panel Report on Genistein (2006)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/",
+      "material": "soybeans and the named soy foods",
+      "verification": "Food table separately lists positive genistein for green soybeans, mature soybeans, tempeh and tofu; totals are aglycone equivalents, not amounts of free genistein.",
+      "description": "Contains genistein-related isoflavones, including glycosides; proportions vary with processing.",
+      "source_group": "soy-genistein"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lions-mane-mushroom",
+    "substance": "Polysaccharides",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Unveiling the Chemical Composition and Biofunctionality of Hericium spp. Fungi (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11172836/",
+      "material": "Hericium erinaceus fruiting bodies",
+      "verification": "Review identifies polysaccharides isolated from H. erinaceus fruiting bodies, independently of mycelium-only compounds.",
+      "description": "Reported in Hericium erinaceus fruiting bodies.",
+      "source_group": "hericium-polys"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "reishi-mushroom",
+    "substance": "Polysaccharides",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "A Systematic Review on Polysaccharides from Fungal Traditional Chinese Medicine (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10574063/",
+      "material": "Ganoderma lucidum fruiting bodies",
+      "verification": "Review identifies polysaccharides isolated from Ganoderma lucidum fruiting bodies.",
+      "description": "Reported in Ganoderma lucidum fruiting bodies.",
+      "source_group": "reishi-polys"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "turkey-tail-mushroom",
+    "substance": "Polysaccharides",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Sari et al. (2017), Food Chemistry 216:45–51",
+      "source_url": "https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf",
+      "material": "Trametes versicolor fruiting bodies",
+      "verification": "Table 3 identifies beta-glucan polysaccharides in Trametes versicolor fruiting bodies; not an extract yield applied to whole material.",
+      "description": "Contains beta-glucan polysaccharides; extract composition is not whole-mushroom composition.",
+      "source_group": "turkey-polys"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "avocado",
+    "substance": "Lutein",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Avocado Consumption Increases Macular Pigment Density in Older Adults (2017)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5622679/",
+      "material": "fresh Hass avocado edible flesh",
+      "verification": "Methods report separately measured lutein 0.40 ± 0.01 mg/100 g edible portion in study Hass avocados; no combined analyte inference.",
+      "description": "Reported in fresh Hass avocado edible flesh.",
+      "source_group": "avocado-lutein"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "pomegranates",
+    "substance": "Cyanidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction Methods (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/",
+      "material": "pomegranate juice",
+      "verification": "Six separately identified glycosides include cyanidin, delphinidin and pelargonidin glucosides/diglucosides in juice; not free-aglycone concentrations.",
+      "description": "Occurs as anthocyanin glycosides in pomegranate juice.",
+      "source_group": "pomegranate-anthocyanins"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "pomegranates",
+    "substance": "Delphinidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction Methods (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/",
+      "material": "pomegranate juice",
+      "verification": "Six separately identified glycosides include cyanidin, delphinidin and pelargonidin glucosides/diglucosides in juice; not free-aglycone concentrations.",
+      "description": "Occurs as anthocyanin glycosides in pomegranate juice.",
+      "source_group": "pomegranate-anthocyanins"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "pomegranates",
+    "substance": "Pelargonidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction Methods (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/",
+      "material": "pomegranate juice",
+      "verification": "Six separately identified glycosides include cyanidin, delphinidin and pelargonidin glucosides/diglucosides in juice; not free-aglycone concentrations.",
+      "description": "Occurs as anthocyanin glycosides in pomegranate juice.",
+      "source_group": "pomegranate-anthocyanins"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "aubergine",
+    "substance": "Delphinidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The Phenolics of Black and Purple versus White Eggplant Cultivars (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9030419/",
+      "material": "purple or black aubergine peel",
+      "verification": "Primary analysis identifies delphinidin glycosides in black/purple edible peel; flesh and white varieties are not given the peel concentration.",
+      "description": "Delphinidin glycosides occur mainly in purple or black aubergine skin.",
+      "source_group": "eggplant-delphinidin"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "strawberries",
+    "substance": "Cyanidin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Total Anthocyanin Content of Strawberry and Profile Changes by Extraction and Processing (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9027082/",
+      "material": "strawberry fruit",
+      "verification": "UHPLC-MS analysis of strawberry fruit extracts independently identifies cyanidin-related anthocyanins; no petal evidence used.",
+      "description": "Occurs among strawberry anthocyanins; quantities vary with variety and processing.",
+      "source_group": "strawberry-cyanidin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "broccoli-sprouts",
+    "substance": "Glucoraphanin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Intensifying sulforaphane formation in broccoli sprouts (2018)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6085252/",
+      "material": "broccoli sprouts",
+      "verification": "Table 1 separately identifies glucoraphanin in broccoli sprouts; peak area not converted to food mass.",
+      "description": "Reported in broccoli sprouts.",
+      "source_group": "sprout-glucoraphanin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "broccoli-sprouts",
+    "substance": "Sulforaphane",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Intensifying sulforaphane formation in broccoli sprouts (2018)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6085252/",
+      "material": "broccoli sprouts after tissue disruption",
+      "verification": "Sulforaphane separately identified in hydrolyzed broccoli sprout material; conversion of precursor depends on tissue disruption and processing.",
+      "description": "Sulforaphane forms from glucoraphanin when sprouts are chopped or chewed; preparation affects the amount.",
+      "source_group": "sprout-sulforaphane"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "mankai",
+    "substance": "Iron",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The Metabolomic-Gut-Clinical Axis of Mankai Plant-Derived Dietary Polyphenols (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8229908/",
+      "material": "cultivated Wolffia globosa Mankai",
+      "verification": "Trial describes cultivated Wolffia globosa Mankai as an iron-containing food; dry matter/shake intake percentages not converted into fresh composition.",
+      "description": "Reported in cultivated Wolffia globosa Mankai.",
+      "source_group": "mankai-iron"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "mankai",
+    "substance": "ALA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Freshwater Macrophytes: A Potential Source of Minerals and Fatty Acids (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9036174/",
+      "material": "Wolffia globosa biomass",
+      "verification": "Individual C18:3n-3 ALA is identified in Wolffia globosa; no unspecified 18:3 inference.",
+      "description": "Contains alpha-linolenic acid; content varies with cultivation.",
+      "source_group": "mankai-ala"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "fortified-plant-milks",
+    "substance": "Calcium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in Europe (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/",
+      "material": "plant-based drinks fortified with the named nutrient",
+      "verification": "Survey separately identifies calcium, iodine, vitamin D and B12 fortification; not all products receive all nutrients.",
+      "description": "Present in products fortified with this nutrient; check the product label.",
+      "source_group": "plant-milk-fortification"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "fortified-plant-milks",
+    "substance": "Iodine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in Europe (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/",
+      "material": "plant-based drinks fortified with the named nutrient",
+      "verification": "Survey separately identifies calcium, iodine, vitamin D and B12 fortification; not all products receive all nutrients.",
+      "description": "Present in products fortified with this nutrient; check the product label.",
+      "source_group": "plant-milk-fortification"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "fortified-plant-milks",
+    "substance": "Vitamin D",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in Europe (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/",
+      "material": "plant-based drinks fortified with the named nutrient",
+      "verification": "Survey separately identifies calcium, iodine, vitamin D and B12 fortification; not all products receive all nutrients.",
+      "description": "Present in products fortified with this nutrient; check the product label.",
+      "source_group": "plant-milk-fortification"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "fortified-plant-milks",
+    "substance": "Vitamin B12",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in Europe (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/",
+      "material": "plant-based drinks fortified with the named nutrient",
+      "verification": "Survey separately identifies calcium, iodine, vitamin D and B12 fortification; not all products receive all nutrients.",
+      "description": "Present in products fortified with this nutrient; check the product label.",
+      "source_group": "plant-milk-fortification"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "pistachios",
+    "substance": "CoQ10",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nano-Liquid Chromatography for Coenzyme Q10 in Pistachio Samples (2023)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9920066/",
+      "material": "pistachio kernels",
+      "verification": "Primary Table 2 measures individual CoQ10 in six named pistachio samples.",
+      "description": "Reported in pistachio kernels.",
+      "source_group": "pistachio-coq"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nutritional-yeast",
+    "substance": "Vitamin B6",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Saccharomyces cerevisiae Yeast-Based Supplementation: Composition Review (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996189/",
+      "material": "fortified nutritional yeast flakes",
+      "verification": "Table 2 separately lists B6 in nutritional yeast flake products and B12 in one fortified flake product; absence in the other is retained as product dependence.",
+      "description": "Present in fortified nutritional yeast products; check the label for the named vitamin.",
+      "source_group": "nutryeast"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "nutritional-yeast",
+    "substance": "Vitamin B12",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Saccharomyces cerevisiae Yeast-Based Supplementation: Composition Review (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7996189/",
+      "material": "fortified nutritional yeast flakes",
+      "verification": "Table 2 separately lists B6 in nutritional yeast flake products and B12 in one fortified flake product; absence in the other is retained as product dependence.",
+      "description": "Present in fortified nutritional yeast products; check the label for the named vitamin.",
+      "source_group": "nutryeast"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "whey-protein",
+    "substance": "Leucine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Practical applications of whey protein (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8075117/",
+      "material": "whey protein concentrate and isolate",
+      "verification": "Table 1 separately identifies leucine in whey protein concentrate and isolate per 25 g protein; no per-protein to food-mass substitution.",
+      "description": "Reported in whey protein concentrate and isolate.",
+      "source_group": "whey-leucine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Magnesium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+      "material": "dried toasted purple laver (nori)",
+      "verification": "Official record specifically identifies dried toasted Porphyra nori edible material and separately lists magnesium, iron, iodine, folate and vitamin K. Raw laver values are not transferred.",
+      "description": "Reported in dried toasted purple laver (nori).",
+      "source_group": "nori-mext"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Iron",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+      "material": "dried toasted purple laver (nori)",
+      "verification": "Official record specifically identifies dried toasted Porphyra nori edible material and separately lists magnesium, iron, iodine, folate and vitamin K. Raw laver values are not transferred.",
+      "description": "Reported in dried toasted purple laver (nori).",
+      "source_group": "nori-mext"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Iodine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+      "material": "dried toasted purple laver (nori)",
+      "verification": "Official record specifically identifies dried toasted Porphyra nori edible material and separately lists magnesium, iron, iodine, folate and vitamin K. Raw laver values are not transferred.",
+      "description": "Reported in dried toasted purple laver (nori).",
+      "source_group": "nori-mext"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Vitamin B9",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+      "material": "dried toasted purple laver (nori)",
+      "verification": "Official record specifically identifies dried toasted Porphyra nori edible material and separately lists magnesium, iron, iodine, folate and vitamin K. Raw laver values are not transferred.",
+      "description": "Reported in dried toasted purple laver (nori).",
+      "source_group": "nori-mext"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Vitamin K",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+      "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+      "material": "dried toasted purple laver (nori)",
+      "verification": "Official record specifically identifies dried toasted Porphyra nori edible material and separately lists magnesium, iron, iodine, folate and vitamin K. Raw laver values are not transferred.",
+      "description": "Reported in dried toasted purple laver (nori).",
+      "source_group": "nori-mext"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "nori",
+    "substance": "Vitamin B12",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Effect of roasted purple laver (nori) on vitamin B12 nutritional status of vegetarians (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519184/",
+      "material": "studied roasted purple-laver nori",
+      "verification": "Chemical analyses and trial identify active B12 in studied roasted nori; study discusses differences across products and processing. No general intake recommendation.",
+      "description": "Active vitamin B12 is documented in studied roasted nori; amounts vary by product.",
+      "source_group": "nori-b12"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "chlorella",
+    "substance": "Vitamin B12",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Vitamin B12 sources and microbial interaction (2018)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5788147/",
+      "material": "dried Chlorella food/supplement products",
+      "verification": "Analysis of 19 dried Chlorella products identifies active cobalamins separately from occasional inactive corrinoids and documents large culture/product variation.",
+      "description": "Some Chlorella products contain active vitamin B12; content depends on cultivation and product.",
+      "source_group": "chlorella-b12"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Phospholipids of Animal and Marine Origin: Structure and Function (2018)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150200/",
+      "material": "salmon roe",
+      "verification": "Marine food table identifies phosphatidylcholine separately in salmon roe, not only total phospholipids. Percent of lipid fractions not converted to food mass.",
+      "description": "Reported in salmon roe.",
+      "source_group": "salmonroe-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "Choline",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Phospholipids of Animal and Marine Origin: Structure and Function (2018)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6150200/",
+      "material": "salmon roe",
+      "verification": "Individually identified phosphatidylcholine in salmon roe establishes bound choline by its chemical identity, not a free choline concentration.",
+      "description": "Contains choline bound in phosphatidylcholine; a separate total-choline amount is unavailable.",
+      "source_group": "salmonroe-choline"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "salmon-roe",
+    "substance": "Astaxanthin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Yamaguchi et al. (2012), Journal of Oleo Science 61:505–513",
+      "source_url": "https://www.jstage.jst.go.jp/article/jos/61/9/61_505/_pdf",
+      "material": "salmon roe",
+      "verification": "HPLC independently identifies astaxanthin in crude salmon-roe lipid extract; extract percentages not treated as whole-roe amounts.",
+      "description": "Astaxanthin has been identified in salmon roe; amount varies with the product.",
+      "source_group": "salmonroe-astax"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "Selenium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Maher et al. (1997), Selenium occurrence, distribution and speciation in the cockle Anadara trapezia",
+      "source_url": "https://citeseerx.ist.psu.edu/document?doi=47b7230dd2a8efce9e0a5de69c3083c51453ad77&repid=rep1&type=pdf",
+      "material": "cockle edible tissue",
+      "verification": "Primary study identifies selenium in cockle tissues including edible adductor and mantle; environmental concentrations are not promoted as a food amount.",
+      "description": "Selenium is documented in cockle tissue; concentrations vary with species and growing waters.",
+      "source_group": "cockle-selenium"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "wheat-germ",
+    "substance": "Choline",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173896/nutrients",
+      "source_group": "usda-presence-173896",
+      "material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+      "verification": "Verified positive choline_mg=178.6 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Choline is documented in toasted wheat germ; a separate raw-germ amount is unavailable."
+    }
+  },
+  {
+    "food": "wheat-germ",
+    "substance": "Vitamin E",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173896/nutrients",
+      "source_group": "usda-presence-173896",
+      "material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+      "verification": "Verified positive vitamin_e_mg=15.99 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Vitamin E is documented in toasted wheat germ; content depends on preparation."
+    }
+  },
+  {
+    "food": "dark-meat-poultry",
+    "substance": "Iron",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted (FDC 171065)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171065/nutrients",
+      "source_group": "usda-presence-171065",
+      "material": "Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted",
+      "verification": "Verified positive iron_mg=1.36 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Iron occurs in dark poultry meat; content varies with cut and cooking."
+    }
+  },
+  {
+    "food": "grass-fed-butter",
+    "substance": "Vitamin A",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Butter, without salt (FDC 173430)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+      "source_group": "usda-presence-173430",
+      "material": "Butter, without salt",
+      "verification": "Verified positive vitamin_a_rae_ug=684 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Contains vitamin A; the generic butter record does not establish a grass-fed-specific amount."
+    }
+  },
+  {
+    "food": "grass-fed-butter",
+    "substance": "Selenium",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Butter, without salt (FDC 173430)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+      "source_group": "usda-presence-173430",
+      "material": "Butter, without salt",
+      "verification": "Verified positive selenium_ug=1 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Selenium is documented in butter; the generic record does not establish a grass-fed-specific amount."
+    }
+  },
+  {
+    "food": "crab",
+    "substance": "Vitamin B12",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
+      "source_group": "usda-presence-174202",
+      "material": "Crustaceans, crab, alaska king, cooked, moist heat",
+      "verification": "Verified positive vitamin_b12_ug=11.5 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Documented in edible crab meat; the amount varies with species and preparation."
+    }
+  },
+  {
+    "food": "crab",
+    "substance": "Selenium",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
+      "source_group": "usda-presence-174202",
+      "material": "Crustaceans, crab, alaska king, cooked, moist heat",
+      "verification": "Verified positive selenium_ug=40 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Documented in edible crab meat; the amount varies with species and preparation."
+    }
+  },
+  {
+    "food": "crab",
+    "substance": "Zinc",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "USDA-SR-Legacy",
+      "source": "USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
+      "source_group": "usda-presence-174202",
+      "material": "Crustaceans, crab, alaska king, cooked, moist heat",
+      "verification": "Verified positive zinc_mg=7.62 in local original SR Legacy record. Qualitative presence only; the source preparation is retained and no value transferred to a different panel.",
+      "description": "Documented in edible crab meat; the amount varies with species and preparation."
+    }
+  },
+  {
+    "food": "oysters",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Exploitable Lipids in Crassostrea gigas on the French Atlantic Coast (2016)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4926063/",
+      "material": "Pacific oyster edible tissue",
+      "verification": "Primary study separately identifies phosphatidylcholine in oyster tissue across seasons; lipid fractions not food-mass quantities.",
+      "description": "Reported in Pacific oyster edible tissue.",
+      "source_group": "oyster-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "mussels",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Current Progress in Lipidomics of Marine Invertebrates (2021)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8708635/",
+      "material": "Mytilus mussel edible tissue",
+      "verification": "Review identifies individual PC molecular species in Mytilus galloprovincialis; edible foot also specifically listed.",
+      "description": "Reported in Mytilus mussel edible tissue.",
+      "source_group": "mussel-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "mackerel",
+    "substance": "Taurine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Extractive Nitrogenous Constituents from the Dark Muscle of Fish (1985)",
+      "source_url": "https://www.jstage.jst.go.jp/article/suisan1932/51/9/51_9_1461/_article/-char/en",
+      "material": "mackerel muscle",
+      "verification": "Primary abstract separately identifies taurine in common mackerel dark muscle; no viscera-only transfer.",
+      "description": "Contains taurine; content differs between dark and white muscle.",
+      "source_group": "mackerel-taurine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "soy",
+    "substance": "Quercetin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Dynamic polyphenolic profiling of soybean seeds and leaves during developmental stages (2025)",
+      "source_url": "https://www.nature.com/articles/s41598-025-23063-2",
+      "material": "soybean seeds",
+      "verification": "Primary analysis separately identifies quercetin in soybean seeds as well as leaves; cultivar variation does not negate qualitative presence.",
+      "description": "Quercetin is documented in soybean seeds; content varies with variety.",
+      "source_group": "soy-quercetin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "chlorella",
+    "substance": "Iron",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Potential of Chlorella as a Dietary Supplement to Promote Human Health (2020)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7551956/",
+      "material": "dried Chlorella products",
+      "verification": "Composition review explicitly identifies iron in dried commercial Chlorella products; no pooled quantity assigned.",
+      "description": "Reported in dried Chlorella products.",
+      "source_group": "chlorella-iron"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tofu",
+    "substance": "Choline",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "USDA Database for the Choline Content of Common Foods, Release 2 (2008)",
+      "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Choline/Choln02.pdf",
+      "material": "firm tofu",
+      "verification": "Table separately measures choline metabolites in tofu prepared with calcium sulfate/nigari; PC column is expressed as choline moiety, not PC mass.",
+      "description": "Choline is documented in tofu; a preparation-matched amount is unavailable.",
+      "source_group": "tofu-choline"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "broccoli",
+    "substance": "Sulforaphane",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Broccoli sprouts: An exceptionally rich source of inducers (1997)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC23369/",
+      "material": "broccoli after tissue disruption",
+      "verification": "Primary discussion identifies sulforaphane from myrosinase conversion of glucoraphanin in broccoli; precursor concentration not assigned as sulforaphane.",
+      "description": "Sulforaphane forms from glucoraphanin when broccoli is chopped or chewed; preparation affects the amount.",
+      "source_group": "broccoli-sulforaphane"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "trout-roe",
+    "substance": "Phosphatidylcholine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during storage",
+      "source_url": "https://doi.org/10.1111/j.1365-2621.1982.tb00163.x",
+      "material": "rainbow trout roe",
+      "verification": "Primary abstract separately identifies the lecithin phospholipid fraction in rainbow trout roe, using lecithin as PC class, contrasted with cephalin. No PC fraction percentage converted to food mass.",
+      "description": "Reported in rainbow trout roe.",
+      "source_group": "troutroe-pc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "trout-roe",
+    "substance": "Choline",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during storage",
+      "source_url": "https://doi.org/10.1111/j.1365-2621.1982.tb00163.x",
+      "material": "rainbow trout roe",
+      "verification": "Identified PC (lecithin phospholipid class) establishes bound choline chemically; not inferred from a generic total-phospholipid measurement.",
+      "description": "Contains choline bound in phosphatidylcholine; a separate total-choline amount is unavailable.",
+      "source_group": "troutroe-choline"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "mackerel",
+    "substance": "CoQ10",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies",
+      "source_url": "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng",
+      "material": "mackerel or sardine edible muscle",
+      "verification": "Review Table 1 separately lists CoQ10 in sardine and mackerel muscle. Different muscle types and studies are not merged into a standard range.",
+      "description": "Reported in mackerel or sardine edible muscle.",
+      "source_group": "fish-coq"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sardines",
+    "substance": "CoQ10",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies",
+      "source_url": "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng",
+      "material": "mackerel or sardine edible muscle",
+      "verification": "Review Table 1 separately lists CoQ10 in sardine and mackerel muscle. Different muscle types and studies are not merged into a standard range.",
+      "description": "Reported in mackerel or sardine edible muscle.",
+      "source_group": "fish-coq"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "early-harvest-olive-oil",
+    "substance": "CoQ10",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies",
+      "source_url": "https://dirros.openscience.si/Dokument.php?id=36758&lang=eng",
+      "material": "extra virgin olive oil",
+      "verification": "Table 1 identifies CoQ10 in extra virgin olive oil. Early-harvest is within virgin olive oil; this supports presence without an early-harvest amount or enhancement claim.",
+      "description": "CoQ10 is documented in virgin olive oil; an early-harvest-specific amount is unavailable.",
+      "source_group": "earlyolive-coq"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Magnesium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Potassium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Copper",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Iron",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Manganese",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "sourdough-bread",
+    "substance": "Zinc",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+      "material": "wheat sourdough breads",
+      "verification": "Primary mineral profile identifies potassium, magnesium, copper, iron, manganese and zinc in common/ancient-wheat sourdough breads. Presence is retained; no flour data or unrelated recipe ranges become a standard bread panel.",
+      "description": "Present in wheat sourdough bread; content depends on flour and recipe.",
+      "source_group": "sourdough-minerals"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tahini",
+    "substance": "Sesamin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Effect of the form of the sesame-based diet on the absorption of lignans (2008)",
+      "source_url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE",
+      "material": "sesame tahini",
+      "verification": "Experimental tahini diet contains sesamin and sesamolin separately in the dietary-lignan composition/intake analysis, followed by individually measured plasma responses. Plasma amounts are not food composition.",
+      "description": "Reported in sesame tahini.",
+      "source_group": "tahini-lignans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "tahini",
+    "substance": "Sesamolin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Effect of the form of the sesame-based diet on the absorption of lignans (2008)",
+      "source_url": "https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE",
+      "material": "sesame tahini",
+      "verification": "Experimental tahini diet contains sesamin and sesamolin separately in the dietary-lignan composition/intake analysis, followed by individually measured plasma responses. Plasma amounts are not food composition.",
+      "description": "Reported in sesame tahini.",
+      "source_group": "tahini-lignans"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "romaine-lettuce",
+    "substance": "Zeaxanthin",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Hwang et al. (2025), Identification and quantification of carotenoid in agricultural crops in Korea",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11904015/",
+      "material": "romaine lettuce leaves",
+      "verification": "Discussion explicitly identifies individually analysed zeaxanthin in green romaine; HPLC-PDA source, not a combined USDA measurement. Dry-mass result not converted to fresh serving.",
+      "description": "Zeaxanthin is individually documented in romaine; a separate fresh-food amount is unavailable.",
+      "source_group": "romaine-zeaxanthin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "algal-oil",
+    "substance": "EPA",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "EFSA (2014), Extension of use for DHA and EPA-rich algal oil from Schizochytrium sp.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13136942/",
+      "material": "EPA-containing Schizochytrium algal oil products",
+      "verification": "Official opinion identifies EPA in a specified DHA/EPA algal oil ingredient; DHA-only algal oils are not assumed to contain EPA.",
+      "description": "Present in EPA-containing algal oils; DHA-only products may differ.",
+      "source_group": "algal-epa"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "seaweed",
+    "substance": "Iodine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/",
+      "material": "edible seaweed species",
+      "verification": "Composition review explicitly identifies iodine, magnesium and individual omega-3 fatty acids in edible marine algae; no single kelp panel represents the category.",
+      "description": "Reported in edible seaweeds; species and preparation strongly affect content.",
+      "source_group": "seaweed-presence"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "seaweed",
+    "substance": "Magnesium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/",
+      "material": "edible seaweed species",
+      "verification": "Composition review explicitly identifies iodine, magnesium and individual omega-3 fatty acids in edible marine algae; no single kelp panel represents the category.",
+      "description": "Reported in edible seaweeds; species and preparation strongly affect content.",
+      "source_group": "seaweed-presence"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "seaweed",
+    "substance": "Omega-3 Fatty Acids",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/",
+      "material": "edible seaweed species",
+      "verification": "Composition review explicitly identifies iodine, magnesium and individual omega-3 fatty acids in edible marine algae; no single kelp panel represents the category.",
+      "description": "Reported in edible seaweeds; species and preparation strongly affect content.",
+      "source_group": "seaweed-presence"
+    },
+    "presence_status": "product_or_preparation_dependent"
+  },
+  {
+    "food": "avocado-oil",
+    "substance": "Vitamin E",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Green and Wang (2020), First report on quality and purity evaluations of avocado oil sold in the US",
+      "source_url": "https://doi.org/10.1016/j.foodcont.2020.107328",
+      "material": "avocado oil",
+      "verification": "Primary analysis identifies alpha-tocopherol in avocado oils; separate tocopherol forms are not all counted as alpha-tocopherol.",
+      "description": "Contains alpha-tocopherol (vitamin E); content varies with processing.",
+      "source_group": "avocadooil-e"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cordyceps-mushroom",
+    "substance": "Polysaccharides",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Structural Elucidation and Activities of Cordyceps militaris-Derived Polysaccharides (2022)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9193282/",
+      "material": "cultivated Cordyceps militaris fruiting bodies",
+      "verification": "Fruiting-body section identifies polysaccharides independently of fermentation-broth/extracellular yields.",
+      "description": "Polysaccharides occur in Cordyceps militaris fruiting bodies; extracts and mycelial products differ.",
+      "source_group": "cordyceps-polys"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "Taurine",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Changes in taste and texture of the foot of Japanese cockle by cooking and storage (2002)",
+      "source_url": "https://www.jstage.jst.go.jp/article/fishsci1994/68/5/68_5_1138/_pdf/-char/ja",
+      "material": "Japanese cockle edible foot",
+      "verification": "Primary study separately identifies taurine as a major free amino constituent of Fulvia mutica edible foot.",
+      "description": "Taurine is documented in cockle edible tissue; content varies with species and cooking.",
+      "source_group": "cockle-taurine"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "Vitamin B12",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The Concise New Zealand Food Composition Tables, 9th edition (2012), T31",
+      "source_url": "https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf",
+      "material": "boiled Austrovenus stutchburyi cockles",
+      "verification": "Printed page 136 (PDF page 146) separately lists positive zinc and B12 for boiled Austrovenus stutchburyi cockles; preparation/species confirmed at printed page 213. No boiled values copied into raw Alaska panel.",
+      "description": "Documented in boiled New Zealand cockles; a separate amount for the raw Alaska record is unavailable.",
+      "source_group": "cockle-b12-zinc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "cockles",
+    "substance": "Zinc",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "The Concise New Zealand Food Composition Tables, 9th edition (2012), T31",
+      "source_url": "https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf",
+      "material": "boiled Austrovenus stutchburyi cockles",
+      "verification": "Printed page 136 (PDF page 146) separately lists positive zinc and B12 for boiled Austrovenus stutchburyi cockles; preparation/species confirmed at printed page 213. No boiled values copied into raw Alaska panel.",
+      "description": "Documented in boiled New Zealand cockles; a separate amount for the raw Alaska record is unavailable.",
+      "source_group": "cockle-b12-zinc"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "lions-mane-mushroom",
+    "substance": "Vitamin B3",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "Edible mushrooms for improved human health, food security and environmental sustainability: A critical review (2025)",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0048969725017334",
+      "material": "Hericium erinaceus fruiting body",
+      "verification": "Composition table explicitly identifies niacin (B3) in Hericium erinaceus; no total B-vitamins inference or per-protein value used.",
+      "description": "Reported in Hericium erinaceus fruiting body.",
+      "source_group": "lions-niacin"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "whole-grains",
+    "substance": "Magnesium",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+      "material": "whole wheat grain",
+      "verification": "Original local SR record contains positive magnesium_mg for whole wheat grain. Qualitative whole-grain category link; no single grain amount or buckwheat panel is made representative.",
+      "description": "Documented in whole wheat; content varies among whole grains.",
+      "source_group": "wholegrains"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "whole-grains",
+    "substance": "Iron",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+      "material": "whole wheat grain",
+      "verification": "Original local SR record contains positive iron_mg for whole wheat grain. Qualitative whole-grain category link; no single grain amount or buckwheat panel is made representative.",
+      "description": "Documented in whole wheat; content varies among whole grains.",
+      "source_group": "wholegrains"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "whole-grains",
+    "substance": "Zinc",
+    "evidence": {
+      "kind": "food-composition-literature",
+      "source": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+      "material": "whole wheat grain",
+      "verification": "Original local SR record contains positive zinc_mg for whole wheat grain. Qualitative whole-grain category link; no single grain amount or buckwheat panel is made representative.",
+      "description": "Documented in whole wheat; content varies among whole grains.",
+      "source_group": "wholegrains"
+    },
+    "presence_status": "presence_supported_amount_unavailable"
+  },
+  {
+    "food": "radicchio",
+    "substance": "Lutein",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "primary-food-composition-study",
+      "source": "Influence of UV radiation-absorbing foils on metabolites in lettuce cultivars (2023)",
+      "source_url": "https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2023.1208100/full",
+      "source_group": "radicchio-individual-carotenoids",
+      "material": "radicchio-type Cichorium intybus Indigo leaves",
+      "verification": "Table 2 separately identifies lutein and zeaxanthin in radicchio-type Indigo. Dry-mass assay not converted to a fresh-food amount; combined USDA result not split.",
+      "description": "Individually documented in radicchio leaves; a separate fresh-food amount is unavailable."
+    }
+  },
+  {
+    "food": "radicchio",
+    "substance": "Zeaxanthin",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "primary-food-composition-study",
+      "source": "Influence of UV radiation-absorbing foils on metabolites in lettuce cultivars (2023)",
+      "source_url": "https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2023.1208100/full",
+      "source_group": "radicchio-individual-carotenoids",
+      "material": "radicchio-type Cichorium intybus Indigo leaves",
+      "verification": "Table 2 separately identifies lutein and zeaxanthin in radicchio-type Indigo. Dry-mass assay not converted to a fresh-food amount; combined USDA result not split.",
+      "description": "Individually documented in radicchio leaves; a separate fresh-food amount is unavailable."
+    }
+  },
+  {
+    "food": "duck-fat",
+    "substance": "Selenium",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "authoritative-composition-record",
+      "source": "USDA National Nutrient Database, SR28 (2015), NDB 04574 Fat, duck",
+      "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+      "source_group": "duckfat-SR28",
+      "material": "rendered duck fat",
+      "verification": "PDF page 22 separately lists selenium 0.2 micrograms per 100 g in Fat, duck. Database estimate, not a duck-liver assay. No liver mineral amount retained.",
+      "description": "The USDA duck-fat record reports a small amount of selenium."
+    }
+  },
+  {
+    "food": "tempeh",
+    "substance": "Choline",
+    "presence_status": "presence_supported_amount_unavailable",
+    "evidence": {
+      "kind": "food-composition-review",
+      "source": "Plant-based nutrition for healthcare professionals (2017), Table 2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5466942/",
+      "source_group": "tempeh-choline",
+      "material": "soy tempeh",
+      "verification": "Table 2 includes soy foods as choline sources and explicitly defines soy foods as tempeh and tofu. Qualitative category support is proportionate for soybean tempeh; no tofu amount transferred.",
+      "description": "Choline is documented in soy foods, including tempeh; a separate tempeh amount is unavailable."
+    }
+  },
+  {
+    "food": "mct-oil",
+    "substance": "Caprylic Triglyceride",
+    "presence_status": "product_or_preparation_dependent",
+    "evidence": {
+      "kind": "primary-molecular-composition-and-product-identity",
+      "source": "Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil, Table 1; ABITEC CAPTEX product identity",
+      "source_url": "https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content",
+      "additional_source_url": "https://www.abiteccorp.com/media/3309/human-cognition-brochure.pdf",
+      "material": "unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a health-food store; formulation-dependent",
+      "verification": "The original oil was separately analyzed before emissions were generated. Table 1 identifies trioctanoin (tricaprylin) (CAS 538-23-8) as an individual molecular species by non-targeted GC-MS, alongside mixed C8/C10 triglycerides. Manufacturer separately names corresponding CAPTEX tricaprylin/tricaprin identities. No individual concentration was calibrated; no fatty-acid-fraction-to-molecule conversion or emission result transferred to food.",
+      "description": "Identified in a studied commercial C8/C10 MCT oil; content depends on the formulation and a separate amount is unavailable.",
+      "source_group": "mct-molecular-species"
+    }
+  },
+  {
+    "food": "mct-oil",
+    "substance": "Capric Triglyceride",
+    "presence_status": "product_or_preparation_dependent",
+    "evidence": {
+      "kind": "primary-molecular-composition-and-product-identity",
+      "source": "Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil, Table 1; ABITEC CAPTEX product identity",
+      "source_url": "https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content",
+      "additional_source_url": "https://www.abiteccorp.com/media/3309/human-cognition-brochure.pdf",
+      "material": "unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a health-food store; formulation-dependent",
+      "verification": "The original oil was separately analyzed before emissions were generated. Table 1 identifies tricaprin (CAS 621-71-6) as an individual molecular species by non-targeted GC-MS, alongside mixed C8/C10 triglycerides. Manufacturer separately names corresponding CAPTEX tricaprylin/tricaprin identities. No individual concentration was calibrated; no fatty-acid-fraction-to-molecule conversion or emission result transferred to food.",
+      "description": "Identified in a studied commercial C8/C10 MCT oil; content depends on the formulation and a separate amount is unavailable.",
+      "source_group": "mct-molecular-species"
+    }
+  }
+]

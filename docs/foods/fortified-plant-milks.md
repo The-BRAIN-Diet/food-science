@@ -2,7 +2,7 @@
 id: fortified-plant-milks
 title: Fortified Plant Milks
 sidebar_label: Fortified Plant Milks
-description: 'Plant-based milks fortified with B12, D, and sometimes iodine'
+description: Plant-based milks fortified with B12, D, and sometimes iodine
 tags:
   - Food
   - Fortified Plant Milks
@@ -13,32 +13,7 @@ tags:
   - Calcium
   - Iodine
 list_image: /img/foods/fortified-plant-milks/fortified-plant-milks_thumb.webp
-nutrition_per_100g:
-  kcal: 112
-  protein_g: 3.53
-  fat_g: 0
-  carbs_g: 23.53
-  fibre_g: 1.2
-  calcium_mg: 88
-  iron_mg: 0.42
-  magnesium_mg: 40
-  potassium_mg: 339
-  zinc_mg: 1.13
-  selenium_ug: 7
-  vitamin_b6_mg: 0.047
-  folate_ug: 12
-  choline_mg: 15.2
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Yogurt, chocolate, nonfat milk, fortified with vitamin D'
-  fdc_id: 172221
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
 legacy_list_image: /img/foods/fortified-plant-milks/fortified-plant-milks_thumb.webp
 legacy_main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
@@ -46,26 +21,115 @@ nutrition_supplementary_sources:
   - key: iodine_qual
     label: Iodine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Fortified Plant Milks is used as a dietary iodine source; iodine is often
-      absent from USDA SR Legacy nutrient panels, so quantity is not established
-      for this page.
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023). Survey separately identifies calcium, iodine, vitamin D and
+      B12 fortification; not all products receive all nutrients.
+    public_note: Present in products fortified with this nutrient; check the product label.
+    source_group: plant-milk-fortification
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    notes: plant-based drinks fortified with the named nutrient
+    source_reference: '#food-source-3'
   - key: vitamin_b12_qual
     label: Vitamin B12
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Fortified Plant Milks supply vitamin B12 only when fortified; USDA SR
-      Legacy has no single representative product, so quantity is not
-      established.
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023). Survey separately identifies calcium, iodine, vitamin D and
+      B12 fortification; not all products receive all nutrients.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    source_group: plant-milk-fortification
+    public_note: Present in products fortified with this nutrient; check the product label.
+    notes: plant-based drinks fortified with the named nutrient
+    source_reference: '#food-source-3'
   - key: vitamin_d_fortified_qual
     label: Vitamin D
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Fortified Plant Milks supply vitamin D only when fortified; quantity
-      varies by product and is not taken from a single USDA commodity record.
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023). Survey separately identifies calcium, iodine, vitamin D and
+      B12 fortification; not all products receive all nutrients.
+    public_note: Present in products fortified with this nutrient; check the product label.
+    source_group: plant-milk-fortification
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    notes: plant-based drinks fortified with the named nutrient
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Iodine
+    relationship: contains
+    description: Present in products fortified with this nutrient; check the product label.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: fortified-plant-milks|Iodine
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023)
+    evidence_material: plant-based drinks fortified with the named nutrient
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    source_reference: '#food-source-3'
+  - substance: Vitamin B12
+    relationship: contains
+    description: Present in products fortified with this nutrient; check the product label.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: fortified-plant-milks|Vitamin B12
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023)
+    evidence_material: plant-based drinks fortified with the named nutrient
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    source_reference: '#food-source-3'
+  - substance: Vitamin D
+    relationship: contains
+    description: Present in products fortified with this nutrient; check the product label.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: fortified-plant-milks|Vitamin D
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023)
+    evidence_material: plant-based drinks fortified with the named nutrient
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    source_reference: '#food-source-3'
+  - substance: Calcium
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in
+      Europe (2023)
+    evidence_material: plant-based drinks fortified with the named nutrient
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10421432/
+    description: Present in products fortified with this nutrient; check the product label.
+    source_reference: '#food-source-3'
+nutrition_unavailable: true
+composition_status: withdrawn
+eaa_profile_applicable: false
+composition_withdrawn:
+  withdrawn_record: FDC 172221, Yogurt, chocolate, nonfat milk, fortified with vitamin D
+  identity_failure: 'species and product: dairy chocolate yogurt is not plant milk'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -103,3 +167,7 @@ Within the BRAIN Diet framework, targets foods providing essential brain support
 [1] Fortified plant milks can help close calcium and iron gaps when paired appropriately within mixed meals. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 
 [2] B-vitamin fortification in plant beverages supports one-carbon and neurochemical pathways in vegan patterns. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+
+<span id="food-source-3" />
+
+[3] [A Comprehensive Analysis of Plant-Based Drinks and Yogurt Alternatives in Europe (2023)](/docs/papers/BRAIN-Diet-References#food_composition_d822ffe0318e)

@@ -49,7 +49,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 65
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Strawberries, raw'
+  food_name: Strawberries, raw
   fdc_id: 167762
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -61,19 +61,96 @@ nutrition_supplementary_sources:
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Strawberries; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      Total Anthocyanin Content of Strawberry and Profile Changes by Extraction
+      and Processing (2022). UHPLC-MS analysis of strawberry fruit extracts
+      independently identifies cyanidin-related anthocyanins; no petal evidence
+      used.
+    public_note: >-
+      Occurs among strawberry anthocyanins; quantities vary with variety and
+      processing.
+    source_group: strawberry-cyanidin
+    notes: strawberry fruit
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9027082/
+    source_reference: '#food-source-3'
   - key: pelargonidin_qual
     label: Pelargonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list pelargonidin glycosides in
-      Strawberries; individual pelargonidin quantity is not in the selected USDA
-      SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 59; Strawberries,
+      raw; NDB 09316. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: Strawberries, raw; NDB 09316 — glycosides / reported aglycone equivalents
+    public_display: table
+    evidence_status: supported
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Strawberries, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: strawberries|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Strawberries, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167762/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin C
+    relationship: contains
+    description: USDA FoodData Central reports vitamin C in Strawberries, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: strawberries|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Strawberries, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167762/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Cyanidin
+    relationship: contains
+    description: >-
+      Occurs among strawberry anthocyanins; quantities vary with variety and
+      processing.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: strawberries|Cyanidin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Total Anthocyanin Content of Strawberry and Profile Changes by Extraction
+      and Processing (2022)
+    evidence_material: strawberry fruit
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9027082/
+    source_reference: '#food-source-3'
+  - substance: Pelargonidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies pelargonidin-derived glycosides in
+      strawberries, raw. A separate amount for this page is not established.
+      This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: strawberries|Pelargonidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: Strawberries, raw; NDB 09316
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -113,3 +190,15 @@ Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods 
 [1] Berry consumption is associated with cognitive benefits in aging populations. Hein et al. 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
 
 [2] Strawberry polyphenols contribute to high-flavonoid dietary patterns linked to cognitive endpoints. Neshatdoust et al. 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+
+<span id="food-source-3" />
+
+[3] [Total Anthocyanin Content of Strawberry and Profile Changes by Extraction and Processing (2022)](/docs/papers/BRAIN-Diet-References#food_composition_c5ca802b3fd4)
+
+<span id="food-source-4" />
+
+[4] [USDA flavonoid database Release 3.3 (2018)](/docs/papers/BRAIN-Diet-References#food_composition_0142f9970fab)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_8e57c9176795)

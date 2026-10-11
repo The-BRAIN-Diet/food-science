@@ -60,24 +60,125 @@ nutrition_supplementary_sources:
   - key: sesamin_qual
     label: Sesamin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, hull fraction
-      and roasting (Andargie et al. 2021). No tahini-specific quantity is
-      assigned here.
+      Effect of the form of the sesame-based diet on the absorption of lignans
+      (2008). Experimental tahini diet contains sesamin and sesamolin separately
+      in the dietary-lignan composition/intake analysis, followed by
+      individually measured plasma responses. Plasma amounts are not food
+      composition.
+    public_note: Reported in sesame tahini.
+    source_group: tahini-lignans
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE
+    notes: sesame tahini
+    source_reference: '#food-source-8'
   - key: sesamolin_qual
     label: Sesamolin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, hull fraction
-      and roasting (Andargie et al. 2021). No tahini-specific quantity is
-      assigned here.
+      Effect of the form of the sesame-based diet on the absorption of lignans
+      (2008). Experimental tahini diet contains sesamin and sesamolin separately
+      in the dietary-lignan composition/intake analysis, followed by
+      individually measured plasma responses. Plasma amounts are not food
+      composition.
+    public_note: Reported in sesame tahini.
+    source_group: tahini-lignans
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE
+    notes: sesame tahini
+    source_reference: '#food-source-8'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
-complementary_pairings: Legumes for lysine complementarity; grains are themselves typically lysine-limited.
+complementary_pairings: >-
+  Legumes for lysine complementarity; grains are themselves typically
+  lysine-limited.
 main_image: /img/foods/tahini/tahini_medium.webp
 legacy_list_image: /img/foods/tahini/tahini_thumb.webp
 legacy_main_image: /img/foods/tahini/tahini_medium.webp
+substance_relationships:
+  - substance: Oleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports oleic acid in Seeds, sesame butter, tahini,
+      from roasted and toasted kernels (most common type).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tahini|Oleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Seeds, sesame butter, tahini, from roasted and toasted kernels (most
+      common type)
+    source_url: https://fdc.nal.usda.gov/food-details/170189/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-9'
+  - substance: Linoleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports linoleic acid in Seeds, sesame butter,
+      tahini, from roasted and toasted kernels (most common type).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tahini|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Seeds, sesame butter, tahini, from roasted and toasted kernels (most
+      common type)
+    source_url: https://fdc.nal.usda.gov/food-details/170189/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-9'
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Seeds, sesame butter, tahini,
+      from roasted and toasted kernels (most common type).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tahini|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Seeds, sesame butter, tahini, from roasted and toasted kernels (most
+      common type)
+    source_url: https://fdc.nal.usda.gov/food-details/170189/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-9'
+  - substance: Sesamin
+    relationship: contains
+    description: Reported in sesame tahini.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tahini|Sesamin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Effect of the form of the sesame-based diet on the absorption of lignans
+      (2008)
+    evidence_material: sesame tahini
+    source_url: >-
+      https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE
+    source_reference: '#food-source-8'
+  - substance: Sesamolin
+    relationship: contains
+    description: Reported in sesame tahini.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tahini|Sesamolin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Effect of the form of the sesame-based diet on the absorption of lignans
+      (2008)
+    evidence_material: sesame tahini
+    source_url: >-
+      https://www.cambridge.org/core/journals/british-journal-of-nutrition/article/effect-of-the-form-of-the-sesamebased-diet-on-the-absorption-of-lignans/549A8449C1B4189F2B1C04838D2121EE
+    source_reference: '#food-source-8'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -148,3 +249,11 @@ Sesame is a major regulated food allergen. Tahini is a concentrated sesame paste
 [6] Mariotti and Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Nut and seed proteins are typically lysine-limited, as are cereal proteins; legumes are the lysine-rich plant complement.
 
 [7] McDonald et al. (2018). [American Gut: an Open Platform for Citizen Science Microbiome Research](/docs/papers/BRAIN-Diet-References#mcdonald_american_gut_2018). Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold.
+
+<span id="food-source-8" />
+
+[8] [Effect of the form of the sesame-based diet on the absorption of lignans (2008)](/docs/papers/BRAIN-Diet-References#food_composition_37ef3b03edf7)
+
+<span id="food-source-9" />
+
+[9] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_e72a64dcd6a1)

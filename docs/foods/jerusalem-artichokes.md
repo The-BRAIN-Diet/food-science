@@ -39,6 +39,18 @@ nutrition_source:
 main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.webp
 legacy_list_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_thumb.webp
 legacy_main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.webp
+substance_relationships:
+  - substance: Potassium
+    relationship: contains
+    description: 'USDA FoodData Central reports potassium in Jerusalem-artichokes, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: jerusalem-artichokes|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Jerusalem-artichokes, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169236/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

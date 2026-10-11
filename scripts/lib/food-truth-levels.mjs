@@ -8,7 +8,6 @@
  * explicit override. Keep in sync with src/data/nutritionTableMapping.ts.
  */
 
-import {meetsKeyMicronutrientThreshold} from "../../src/utils/recipeNutritionCalculate.mjs"
 import {percentOfReference} from "../../src/utils/nutrientReference.mjs"
 
 export const CATEGORY_TAGS = new Set([
@@ -289,9 +288,9 @@ export const SUBSTANCE_LABEL_ALIASES = {
   "docosahexaenoic acid": ["DHA", "Docosahexaenoic Acid"],
   epa: ["EPA", "Eicosapentaenoic Acid"],
   "eicosapentaenoic acid": ["EPA", "Eicosapentaenoic Acid"],
-  "lutein + zeaxanthin": ["Lutein", "Zeaxanthin", "Lutein + zeaxanthin"],
-  lutein: ["Lutein", "Lutein + zeaxanthin"],
-  zeaxanthin: ["Zeaxanthin", "Lutein + zeaxanthin"],
+  "lutein + zeaxanthin": ["Lutein + zeaxanthin"],
+  lutein: ["Lutein"],
+  zeaxanthin: ["Zeaxanthin"],
   "beta-carotene": ["Beta-Carotene", "Beta-Carotene"],
   "caprylic acid (c8:0)": ["Caprylic acid (C8:0)"],
   "capric acid (c10:0)": ["Capric acid (C10:0)"],
@@ -421,12 +420,12 @@ export function isKeyFoodMicronutrient(fm, key) {
   if (!MICRONUTRIENT_KEYS.includes(key)) return false
   const label = NUTRIENT_LABELS[key]?.label || key
   const explicit = explicitPublicDisplay(fm, key) || explicitPublicDisplay(fm, label)
-  if (explicit === PUBLIC_DISPLAY.TABLE) return true
   if (explicit && explicit !== PUBLIC_DISPLAY.TABLE) return false
   if (!isPublicTableKey(fm, key)) return false
   const nutrition = fm.nutrition_per_100g && typeof fm.nutrition_per_100g === "object" ? fm.nutrition_per_100g : {}
   const amount = nutrition[key]
-  return meetsKeyMicronutrientThreshold(percentOfReference(key, amount))
+  const pct = percentOfReference(key, amount)
+  return pct !== null ? pct >= 10 : explicit === PUBLIC_DISPLAY.TABLE
 }
 
 export function resolvePublicDisplayForSupplementary(fm, row) {
@@ -480,6 +479,8 @@ export function isPublicTableKey(fm, key) {
 }
 
 export function isPublicSupplementaryRow(fm, row) {
+  if ((row.section === "core" || row.section === "mineral") && row.nutrition_panel_eligible !== true) return false
+  if (/per\s*(?:g|gram)\s*(?:of\s*)?protein/i.test(row.basis || "")) return false
   return resolvePublicDisplayForSupplementary(fm, row) === PUBLIC_DISPLAY.TABLE
 }
 
@@ -556,6 +557,9 @@ export function supplementaryTableRows(fm) {
         status,
         source_note: sourceNote,
         notes: typeof s.notes === "string" ? s.notes.trim() : "",
+        section: s.section,
+        basis: s.basis,
+        nutrition_panel_eligible: s.nutrition_panel_eligible,
         public_display: typeof s.public_display === "string" ? s.public_display.trim() : undefined,
         quantitative: hasNumeric,
         qualitative: !hasNumeric && (display.length > 0 || status.length > 0),

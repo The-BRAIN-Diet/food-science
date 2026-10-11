@@ -40,7 +40,7 @@ nutrition_per_100g:
   choline_mg: 56
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Edamame, frozen, unprepared'
+  food_name: Edamame, frozen, unprepared
   fdc_id: 168410
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -54,11 +54,61 @@ nutrition_supplementary_sources:
   - key: genistein_qual
     label: Genistein
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      USDA Database for the Isoflavone Content of Selected Foods lists genistein
-      in Edamame; the selected SR Legacy proximate panel does not include
-      isoflavones.
+      NTP-CERHR Expert Panel Report on Genistein (2006). Food table separately
+      lists positive genistein for green soybeans, mature soybeans, tempeh and
+      tofu; totals are aglycone equivalents, not amounts of free genistein.
+    public_note: >-
+      Contains genistein-related isoflavones, including glycosides; proportions
+      vary with processing.
+    source_group: soy-genistein
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/
+    notes: soybeans and the named soy foods
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Edamame, frozen, unprepared.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: edamame|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Edamame, frozen, unprepared
+    source_url: https://fdc.nal.usda.gov/food-details/168410/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Edamame, frozen, unprepared.  The
+      recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: edamame|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Edamame, frozen, unprepared
+    source_url: https://fdc.nal.usda.gov/food-details/168410/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Genistein
+    relationship: contains
+    description: >-
+      Contains genistein-related isoflavones, including glycosides; proportions
+      vary with processing.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: edamame|Genistein
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: NTP-CERHR Expert Panel Report on Genistein (2006)
+    evidence_material: soybeans and the named soy foods
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2020434/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -97,3 +147,11 @@ Edamame provide a relatively complete plant protein (higher in lysine than most 
 [1] Edamame supplies soy isoflavones such as genistein studied for metabolic and neuroinflammatory pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
 
 [2] Young soybeans provide complete plant protein with favourable digestibility for a legume. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-3" />
+
+[3] [NTP-CERHR Expert Panel Report on Genistein (2006)](/docs/papers/BRAIN-Diet-References#food_composition_16903d08234b)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_e3dec38feb28)

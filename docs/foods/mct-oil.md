@@ -11,7 +11,6 @@ tags:
   - MCT
   - Caprylic Triglyceride
   - Capric Triglyceride
-  - Caproic Triglyceride
   - Vegan
   - Vegetarian
 list_image: /img/foods/mct-oil/mct-oil_thumb.webp
@@ -21,7 +20,9 @@ nutrition_per_100g:
   sat_fat_g: 100
 nutrition_source:
   database: USDA FoodData Central (Branded) — manufacturer specification
-  food_name: MCT Premium C8 & C10 100% Pure Oil; declared ingredient "MCT oil (60% C8, 40% C10)"
+  food_name: >-
+    MCT Premium C8 & C10 100% Pure Oil; declared ingredient "MCT oil (60% C8,
+    40% C10)"
   fdc_id: 2543941
   retrieval_method: API
   basis: per 100 g product
@@ -32,9 +33,9 @@ nutrition_source:
     single-ingredient product outranks any general composition database — and no
     general database holds it. The values are chemically constrained by what the
     product is: a pure triglyceride oil is entirely fat, and both C8:0 and C10:0
-    are fully saturated, so a saturated fat approaching the total fat is expected
-    rather than surprising. The Australia New Zealand Food Standards Code
-    defines medium chain triglycerides as "triacylglycerols that contain
+    are fully saturated, so a saturated fat approaching the total fat is
+    expected rather than surprising. The Australia New Zealand Food Standards
+    Code defines medium chain triglycerides as "triacylglycerols that contain
     predominantly the saturated fatty acids designated by 8:0 and 10:0", which
     corroborates the fatty acid class independently of any one brand.
   limitations: >-
@@ -67,12 +68,78 @@ nutrition_supplementary_sources:
       specification (FDC 2543941) declares 60 per cent C8 and 40 per cent C10,
       but that ratio is particular to one formulation and C6 is not quantified
       at all, so no per-chain quantity is published for MCT oil in general.
+    public_note: >-
+      MCT oil consists of medium-chain triglycerides; C8/C10 proportions vary
+      with the formulation.
+    source_group: mct-product-definition
+    source_url: https://fdc.nal.usda.gov/food-details/2543941/nutrients
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: MCT
+    relationship: contains
+    description: >-
+      MCT oil consists of medium-chain triglycerides; C8/C10 proportions vary
+      with the formulation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mct-oil|MCT
+    evidence_source: Adopted manufacturer declaration FDC 2543941
+    evidence_material: Single-ingredient C8/C10 MCT oil specification
+    source_url: https://fdc.nal.usda.gov/food-details/2543941/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-3'
+  - substance: Caprylic Triglyceride
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mct-oil|Caprylic Triglyceride
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil,
+      Table 1; ABITEC CAPTEX product identity
+    evidence_material: >-
+      unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a
+      health-food store; formulation-dependent
+    source_url: >-
+      https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content
+    description: >-
+      Identified in a studied commercial C8/C10 MCT oil; content depends on the
+      formulation and a separate amount is unavailable.
+    previous_review_reason: >-
+      Fatty-acid C6/C8/C10 fractions do not identify the named homogeneous
+      triacylglycerol molecule. Molecular-species or relevant product evidence
+      is required.
+    source_reference: '#food-source-4'
+  - substance: Capric Triglyceride
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mct-oil|Capric Triglyceride
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil,
+      Table 1; ABITEC CAPTEX product identity
+    evidence_material: >-
+      unheated commercial St. Francis Herb Farm C8/C10 MCT oil from a
+      health-food store; formulation-dependent
+    source_url: >-
+      https://science-ouverte.canada.ca/server/api/core/bitstreams/e8cf968d-6a5c-4bb0-8f3b-a00c2a666b6f/content
+    description: >-
+      Identified in a studied commercial C8/C10 MCT oil; content depends on the
+      formulation and a separate amount is unavailable.
+    previous_review_reason: >-
+      Fatty-acid C6/C8/C10 fractions do not identify the named homogeneous
+      triacylglycerol molecule. Molecular-species or relevant product evidence
+      is required.
+    source_reference: '#food-source-4'
+substance_review_candidates:
+  - Caproic Triglyceride
 ---
 ## Overview
 
-MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6).
+MCT oil is a concentrated triglyceride product usually made with caprylic (C8) and capric (C10) fatty acids. Formulations vary. Fatty-acid proportions do not identify every individual triglyceride molecule.
 
-Within the BRAIN Diet framework, coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
+MCT oil differs in composition from ordinary coconut oil.
 
 ## Food Context
 
@@ -101,3 +168,11 @@ Within the BRAIN Diet framework, coconut Oil / MCT Oil provides MCTs (C8, C10), 
 [1] Medium-chain triglycerides are rapidly oxidised and studied in ketogenic and metabolic contexts. Crosby et al. 2021. [Ketogenic Diets and Chronic Disease: Weighing the Benefits Against the Risks](/docs/papers/BRAIN-Diet-References#crosby_ketogenic_2021)
 
 [2] Ketogenic substrates including MCTs influence brain energy metabolism in clinical research. Popiolek-Kalisz et al. 2024. [Ketogenic diet and cardiovascular risk – state of the art review](/docs/papers/BRAIN-Diet-References#popiolek-kalisz_ketogenic_2024)
+
+<span id="food-source-3" />
+
+[3] [Adopted manufacturer declaration FDC 2543941](/docs/papers/BRAIN-Diet-References#food_composition_1240d3906e70)
+
+<span id="food-source-4" />
+
+[4] [Kosarac et al. (2021), Frontiers in Chemistry 9:756745, unheated MCT oil, Table 1; ABITEC CAPTEX product identity](/docs/papers/BRAIN-Diet-References#food_composition_a1823fa6055f)

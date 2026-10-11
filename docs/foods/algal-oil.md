@@ -37,20 +37,20 @@ nutrition_authorised_specifications:
   accessed: '2026-08-16'
   rows:
     - formulation: DHA-rich Schizochytrium oil
-      dha: '≥32 g/100 g oil'
+      dha: ≥32 g/100 g oil
       epa: Not specified
       interpretation: Common DHA-focused specification
       supports:
         - DHA
     - formulation: Selected strain-specific DHA-rich oils
-      dha: '≥35 g/100 g oil'
+      dha: ≥35 g/100 g oil
       epa: Not specified
       interpretation: Strain-specific authorised specification
       supports:
         - DHA
     - formulation: DHA/EPA-rich Schizochytrium oil
-      dha: '≥15 g/100 g oil'
-      epa: '≥10 g/100 g oil'
+      dha: ≥15 g/100 g oil
+      epa: ≥10 g/100 g oil
       interpretation: Distinct combined formulation
       supports:
         - DHA
@@ -58,6 +58,34 @@ nutrition_authorised_specifications:
 list_image: /img/foods/algal-oil/algal-oil_thumb.webp
 main_image: /img/foods/algal-oil/algal-oil_large.webp
 legacy_list_image: /img/foods/algal-oil/algal-oil_thumb.webp
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: >-
+      DHA presence is supported by the authorised algal-oil specifications on
+      this page. The amount is formulation-specific and is not established as
+      one value for algal oil in general.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: algal-oil|DHA
+    evidence_source: EU authorised algal oil specifications
+    evidence_material: Authorised algal oils; formulation-specific
+    source_url: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-4'
+  - substance: EPA
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      EFSA (2014), Extension of use for DHA and EPA-rich algal oil from
+      Schizochytrium sp.
+    evidence_material: EPA-containing Schizochytrium algal oil products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13136942/
+    description: Present in EPA-containing algal oils; DHA-only products may differ.
+    source_reference: '#food-source-5'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -102,3 +130,11 @@ DHA is the principal identity constituent of typical authorised algal oils and i
 [2] Arterburn et al. (2008). [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008). Randomized comparison of algal-oil capsules with cooked salmon found similar DHA bioavailability; the intervention was capsules, not culinary oil.
 
 [3] NIH (2022). [Omega-3 Fatty Acids: Fact Sheet for Consumers](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer). Consumer fact sheet listing algal oil as a vegetarian omega-3 source; commercial products vary in dose and form.
+
+<span id="food-source-4" />
+
+[4] [EU authorised algal oil specifications](/docs/papers/BRAIN-Diet-References#food_composition_b03688d6f332)
+
+<span id="food-source-5" />
+
+[5] [EFSA (2014), Extension of use for DHA and EPA-rich algal oil from Schizochytrium sp.](/docs/papers/BRAIN-Diet-References#food_composition_981932cb4ec6)

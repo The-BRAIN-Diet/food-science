@@ -22,7 +22,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 957
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oil, avocado'
+  food_name: Oil, avocado
   fdc_id: 173573
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -36,10 +36,47 @@ nutrition_supplementary_sources:
   - key: vitamin_e_qual
     label: Vitamin E
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Avocado Oil is a recognised α-tocopherol food; the selected USDA SR Legacy
-      record omits vitamin E, so quantity is not established from that panel.
+      Green and Wang (2020), First report on quality and purity evaluations of
+      avocado oil sold in the US. Primary analysis identifies alpha-tocopherol
+      in avocado oils; separate tocopherol forms are not all counted as
+      alpha-tocopherol.
+    public_note: Contains alpha-tocopherol (vitamin E); content varies with processing.
+    source_group: avocadooil-e
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://doi.org/10.1016/j.foodcont.2020.107328
+    notes: avocado oil
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: Oleic Acid
+    relationship: contains
+    description: USDA FoodData Central reports oleic acid in Oil, avocado.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado-oil|Oleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Oil, avocado
+    source_url: https://fdc.nal.usda.gov/food-details/173573/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin E
+    relationship: contains
+    description: Contains alpha-tocopherol (vitamin E); content varies with processing.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado-oil|Vitamin E
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Green and Wang (2020), First report on quality and purity evaluations of
+      avocado oil sold in the US
+    evidence_material: avocado oil
+    source_url: https://doi.org/10.1016/j.foodcont.2020.107328
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -81,3 +118,11 @@ Within the BRAIN Diet, it can help absorb carotenoids from salads and salsa [2].
 [2] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Avocado oil (and avocado fruit) added to salad increased human absorption of α-carotene, β-carotene and lutein versus salad without avocado lipid.
 
 [3] Flores et al. (2019). [Avocado Oil: Characteristics, Properties, and Applications](/docs/papers/BRAIN-Diet-References#flores_avocado_oil_2019)
+
+<span id="food-source-4" />
+
+[4] [Green and Wang (2020), First report on quality and purity evaluations of avocado oil sold in the US](/docs/papers/BRAIN-Diet-References#food_composition_027885bbbf98)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_188fdf6a8766)

@@ -72,7 +72,9 @@ export function useAdvancedNutritionSlot(): {
 function NamedTabPanel({
   name,
   children,
+  tabOnly = false,
 }: {
+  tabOnly?: boolean
   name: ContentPanelName
   children?: ReactNode
 }): ReactNode {
@@ -83,16 +85,19 @@ function NamedTabPanel({
     setPanel(name, children ?? null)
     return () => setPanel(name, null)
   }, [children, name, setPanel])
+  if (tabOnly) return null
   if (!slot || slot.useTabPanel) return slot ? null : <>{children}</>
   return <>{children}</>
 }
 
 export default function AdvancedNutrition({
   children,
+  tabOnly = false,
 }: {
   children?: ReactNode
+  tabOnly?: boolean
 }): ReactNode {
-  return <NamedTabPanel name="advanced">{children}</NamedTabPanel>
+  return <NamedTabPanel name="advanced" tabOnly={tabOnly}>{children}</NamedTabPanel>
 }
 
 export function TherapeuticAreaResearch({

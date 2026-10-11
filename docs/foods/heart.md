@@ -40,7 +40,7 @@ nutrition_per_100g:
   omega3_mg: 11
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
@@ -56,9 +56,48 @@ nutrition_supplementary_sources:
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: Food-composition surveys report coenzyme Q10 in Heart (e.g. Mattila & Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+    amount_display: Present — separate amount not established
+    source_note: >-
+      Primary abstract explicitly analyzes individual CoQ10 in beef steak and
+      beef heart; no generic cut-specific amount inferred.
+    public_note: >-
+      Mattila et al. (2000) analysed CoQ10 in beef heart. A separate amount for
+      this page’s preparation is not established.
+    source_group: >-
+      Mattila & Kumpulainen 2001 supports this qualitative constituent record.
+      See technical provenance for food form and measurement details.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    source_url: 'https://pubmed.ncbi.nlm.nih.gov/10775376/'
+    notes: Beef heart tissue
 protein_profile_note: Complete essential amino acid profile.
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beef, variety meats and by-products,
+      heart, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: heart|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beef, variety meats and by-products, heart, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168625/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: CoQ10
+    relationship: contains
+    description: >-
+      Mattila et al. (2000) analysed CoQ10 in beef heart. A separate amount for
+      this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: heart|CoQ10
+    evidence_source: 'Mattila, Lehtonen and Kumpulainen (2000), primary abstract, PMID 10775376'
+    evidence_material: Beef heart tissue
+    source_url: 'https://pubmed.ncbi.nlm.nih.gov/10775376/'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -55,7 +55,7 @@ nutrition_per_100g:
   omega3_mg: 120
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 120
 nutrition_source:
   database: USDA FoodData Central
@@ -67,6 +67,68 @@ nutrition_source:
 main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 legacy_list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 legacy_main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
+substance_relationships:
+  - substance: Tyrosine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports tyrosine in Seeds, pumpkin and squash seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pumpkin-seeds|Tyrosine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, pumpkin and squash seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Tryptophan
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports tryptophan in Seeds, pumpkin and squash seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pumpkin-seeds|Tryptophan
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, pumpkin and squash seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Seeds, pumpkin and squash seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pumpkin-seeds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, pumpkin and squash seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Seeds, pumpkin and squash seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pumpkin-seeds|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, pumpkin and squash seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Seeds, pumpkin and squash seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pumpkin-seeds|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, pumpkin and squash seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170556/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -56,6 +56,43 @@ nutrition_source:
 main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 legacy_list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
 legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
+substance_relationships:
+  - substance: Beta-Carotene
+    relationship: contains
+    description: 'USDA FoodData Central reports beta-carotene in Peppers, sweet, red, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: bell-peppers|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peppers, sweet, red, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170108/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Peppers, sweet, red, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: bell-peppers|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peppers, sweet, red, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170108/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Sommerburg et al. (1998) identified lutein in studied red pepper fruit. A
+      separate amount for this page’s preparation is not established.
+    source_url: 'https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf'
+    evidence_note: >-
+      Table 1 separates lutein from zeaxanthin in red pepper; lutein is reported
+      as 7 mole% of carotenoids, not mg/100 g food.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: bell-peppers|Lutein
+    evidence_source: 'Sommerburg et al. (1998), Table 1'
+    evidence_material: Studied red pepper fruit
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

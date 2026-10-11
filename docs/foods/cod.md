@@ -43,13 +43,13 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 1
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 120
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 64
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
@@ -62,6 +62,21 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/cod/cod_medium.webp
 legacy_list_image: /img/foods/cod/cod_thumb.webp
 legacy_main_image: /img/foods/cod/cod_medium.webp
+substance_relationships:
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, cod,
+      Atlantic, raw. This class link does not treat a combined total as EPA, DHA
+      or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cod|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, cod, Atlantic, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171955/nutrients'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -19,8 +19,8 @@ list_image: /img/foods/oats/oats_thumb.webp
 eaa_profile_applicable: true
 amino_acid_strengths: >-
   On this dry-oat composition, lysine is the lowest ratio to the 2013 FAO
-  pattern for older children, adolescents and adults. Methionine plus cystine
-  is above that pattern.
+  pattern for older children, adolescents and adults. Methionine plus cystine is
+  above that pattern.
 limiting_amino_acids: >-
   Lysine, as an uncorrected amino-acid score of about 0.86 against the 2013
   pattern. Sulfur amino acids are not the limiting ratio. The score is separate
@@ -69,14 +69,20 @@ nutrition_supplementary_sources:
     unit: mg
     public_display: internal-only
     notes: >-
-      Per 100 g of regular or quick oats cooked with water, unenriched, without salt.
-      A separate preparation from the dry-oat cystine row.
+      Per 100 g of regular or quick oats cooked with water, unenriched, without
+      salt. A separate preparation from the dry-oat cystine row.
     source_note: >-
       USDA FoodData Central FDC 173905, Cereals, oats, regular and quick,
       unenriched, cooked with water (includes boiling and microwaving), without
-      salt. Nutrient name Cystine, 0.097 g per 100 g. One cup weighs 234 g
-      (the 175 g measure is 0.75 cup), about 227 mg cystine. The dry-oat row is
-      FDC 169705, cup 156 g, about 636 mg cystine.
+      salt. Nutrient name Cystine, 0.097 g per 100 g. One cup weighs 234 g (the
+      175 g measure is 0.75 cup), about 227 mg cystine. The dry-oat row is FDC
+      169705, cup 156 g, about 636 mg cystine.
+    public_note: >-
+      FDC 1739 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_group: >-
+      FDC 1739 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
   - key: beta_glucan_g
     label: Beta-glucan
     value: 7.52
@@ -88,6 +94,12 @@ nutrition_supplementary_sources:
       USDA FoodData Central Foundation food FDC 2346396 (footnote: beta-glucan
       values corrected in 10/2024 update). Varies by oat type (groats vs rolled
       vs instant) and processing.
+    public_note: >-
+      FDC 2346 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_group: >-
+      FDC 2346 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
 nutrition_functional_metrics:
   - key: total_oat_phenolics_proxy
     label: Total phenolics (grain matrix)
@@ -102,9 +114,58 @@ substance_relationships:
       Cystine 408 mg per 100 g of dry oats (FDC 169705). Cooked oatmeal is a
       separate food (FDC 173905, 97 mg per 100 g). Composition only; not a
       glutathione-synthesis result.
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Oats (Includes foods for USDA's
+      Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oats|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Oats (Includes foods for USDA's Food Distribution Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/169705/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports copper in Oats (Includes foods for USDA's
+      Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oats|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Oats (Includes foods for USDA's Food Distribution Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/169705/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Oats (Includes foods for USDA's Food
+      Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oats|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Oats (Includes foods for USDA's Food Distribution Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/169705/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Oats (Includes foods for USDA's Food
+      Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oats|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Oats (Includes foods for USDA's Food Distribution Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/169705/nutrients'
+    presence_status: presence_and_amount_supported
 main_image: /img/foods/oats/oats_medium.webp
 legacy_list_image: /img/foods/oats/oats_thumb.webp
 legacy_main_image: /img/foods/oats/oats_medium.webp
+substance_review_candidates: []
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

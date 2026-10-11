@@ -59,14 +59,35 @@ substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
-    process: Cleavage to retinal, then oxidation to retinoic acid
+    process: 'Cleavage to retinal, then oxidation to retinoic acid'
     description: >-
-      Raw carrots record 8,285 µg beta-carotene and 835 µg RAE vitamin A per
-      100 g. The dominant precursor is beta-carotene. The food is not recorded
-      as containing retinoic acid.
+      Raw carrots record 8,285 µg beta-carotene and 835 µg RAE vitamin A per 100
+      g. The dominant precursor is beta-carotene. The food is not recorded as
+      containing retinoic acid.
     citation_keys:
       - harrison_vitamin_a_absorption_2012
       - duester_retinoic_acid_2008
+  - substance: Beta-Carotene
+    relationship: contains
+    description: 'USDA FoodData Central reports beta-carotene in Carrots, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: carrots|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Carrots, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170393/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: 'USDA FoodData Central reports potassium in Carrots, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: carrots|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Carrots, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170393/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

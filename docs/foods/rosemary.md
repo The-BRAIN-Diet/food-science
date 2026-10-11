@@ -2,7 +2,7 @@
 id: rosemary
 title: Rosemary
 sidebar_label: Rosemary
-description: 'Focus, antioxidant, and neuroprotective effects'
+description: Focus, antioxidant, and neuroprotective effects
 tags:
   - Food
   - Rosemary
@@ -41,7 +41,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 414
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Rosemary, fresh'
+  food_name: Rosemary, fresh
   fdc_id: 173473
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -49,26 +49,109 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: carnosic_acid_mg
     label: Carnosic acid
-    value: 840
-    unit: mg
     notes: Major lipophilic antioxidant diterpene in rosemary.
     source_note: >-
       Fresh S. rosmarinus foliage in one validated HPLC study ranged about
       5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a
       representative midpoint estimate. Concentrations vary by genotype, harvest
       stage, and extraction/handling conditions.
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 840 mg (estimate)
+    source_url: >-
+      https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    source_group: estimate-carnosic_acid_mg
+    public_note: >-
+      Fresh S. rosmarinus foliage in one validated HPLC study ranged about
+      5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a
+      representative midpoint estimate. Concentrations vary by genotype, harvest
+      stage, and extraction/handling conditions.
+    value: 840
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-4'
   - key: carnosol_mg
     label: Carnosol
-    value: 280
-    unit: mg
     notes: Oxidation product/related diterpene often co-occurring with carnosic acid.
     source_note: >-
       Same validated HPLC dataset reported carnosol around 1045-4470 ug/g fresh
       weight (~105-447 mg/100 g); 280 mg/100 g used as a representative midpoint
       estimate. Values vary strongly with cultivar and processing.
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 280 mg (estimate)
+    source_url: >-
+      https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    source_group: estimate-carnosol_mg
+    public_note: >-
+      Same validated HPLC dataset reported carnosol around 1045-4470 ug/g fresh
+      weight (~105-447 mg/100 g); 280 mg/100 g used as a representative midpoint
+      estimate. Values vary strongly with cultivar and processing.
+    value: 280
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-4'
 main_image: /img/foods/rosemary/rosemary_medium.webp
 legacy_list_image: /img/foods/rosemary/rosemary_thumb.webp
 legacy_main_image: /img/foods/rosemary/rosemary_medium.webp
+substance_relationships:
+  - substance: Carnosic acid
+    relationship: contains
+    description: Reported in rosemary leaves.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: rosemary|Carnosic acid
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: EMA (2024), Rosmarinus officinalis folium assessment report
+    evidence_material: rosemary leaves
+    source_url: >-
+      https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    source_reference: '#food-source-4'
+  - substance: Carnosol
+    relationship: contains
+    description: Reported in rosemary leaves.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: rosemary|Carnosol
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: EMA (2024), Rosmarinus officinalis folium assessment report
+    evidence_material: rosemary leaves
+    source_url: >-
+      https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf
+    source_reference: '#food-source-4'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Carnosic acid amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 840 mg per 100 g. Original note: Fresh S.
+      rosmarinus foliage in one validated HPLC study ranged about 5638-12173
+      ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a
+      representative midpoint estimate. Concentrations vary by genotype, harvest
+      stage, and extraction/handling conditions.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'Carnosol amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 280 mg per 100 g. Original note: Same
+      validated HPLC dataset reported carnosol around 1045-4470 ug/g fresh
+      weight (~105-447 mg/100 g); 280 mg/100 g used as a representative midpoint
+      estimate. Values vary strongly with cultivar and processing.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
 ---
 ## Overview
 
@@ -112,3 +195,7 @@ In the BRAIN Diet framework, rosemary is best used as a concentrated flavor-and-
 [2] Quantitative fresh-leaf datasets report wide concentration ranges for these bioactives, indicating strong variability by plant material and handling. Paloukopoulou & Karioti 2022. [A validated method for determination of carnosic acid and carnosol in fresh rosemary foliage](/docs/papers/BRAIN-Diet-References#paloukopoulou_validated_carnosic_carnosol_rosemary_2022)
 
 [3] Carnosol has broad anti-inflammatory and anti-cancer mechanistic evidence in preclinical models, but this should not be interpreted as proven clinical efficacy in humans. Johnson et al. 2011. [Carnosol: A promising anti-cancer and anti-inflammatory agent](/docs/papers/BRAIN-Diet-References#johnson_carnosol_anti-cancer_2011)
+
+<span id="food-source-4" />
+
+[4] [EMA (2024), Rosmarinus officinalis folium assessment report](/docs/papers/BRAIN-Diet-References#food_composition_0607d4e1e193)

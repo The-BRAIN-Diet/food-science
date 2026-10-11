@@ -19,6 +19,16 @@ import {FOODS_DIR_DEFAULT, getFoodSlugs} from "./food-page-validation.mjs"
  * of these ids would reinstate the substitution behind a repaired-looking page.
  */
 export const SUBSTITUTED_RECORDS = {
+  "duck-fat": {fdc_id: 174467, describes: "Duck, domesticated, liver, raw", identity_failure: "edible material: liver is not rendered duck fat"},
+  "dark-meat-poultry": {fdc_id: 171637, describes: "Bologna, meat and poultry", identity_failure: "product: bologna is not poultry muscle"},
+  "chicory-root": {fdc_id: 169992, describes: "Chicory greens, raw", identity_failure: "edible material: greens are not root"},
+  "lemon-balm-tea": {fdc_id: 167802, describes: "Lemon juice from concentrate, bottled, REAL LEMON", identity_failure: "species and product: lemon juice is not Melissa officinalis infusion"},
+  "fermented-vegetables": {fdc_id: 174280, describes: "Tofu, salted and fermented (fuyu)", identity_failure: "product: fermented tofu is not fermented vegetables"},
+  "fortified-plant-milks": {fdc_id: 172221, describes: "Yogurt, chocolate, nonfat milk, fortified with vitamin D", identity_failure: "species and product: dairy chocolate yogurt is not plant milk"},
+  "salmon-roe": {fdc_id: 175132, describes: "Fish, roe, mixed species, raw (FDC 175132) — raw mixed-species roe, not commercial cured ikura.", identity_failure: "species: mixed-species roe does not establish salmon-specific composition"},
+  "trout-roe": {fdc_id: 175132, describes: "Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132).", identity_failure: "species: mixed-species roe does not establish trout-specific composition"},
+  "mucuna-beans": {fdc_id: 2644281, describes: "Beans, cannellini, dry", identity_failure: "species"},
+  "nutritional-yeast": {fdc_id: 167717, describes: "Yeast extract spread", identity_failure: "product and processing state"},
   "mct-oil": {fdc_id: 748278, describes: "Oil, canola", identity_failure: "food"},
   "sunflower-lecithin": {
     fdc_id: 1750349,

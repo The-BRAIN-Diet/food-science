@@ -29,50 +29,31 @@ contribution_levels:
   Arginine: Presence only (trace)
   Methionine: Presence only (trace)
 nutrition_per_100g:
-  beta_carotene_ug: 3121
-  sugar_g: 0.49
-  carbs_g: 5.11
-  vitamin_e_mg: 1
-  kcal: 35
-  choline_mg: 10.4
-  vitamin_a_rae_ug: 260
-  vitamin_k_ug: 4
-  fat_g: 0.28
-  calcium_mg: 70
-  potassium_mg: 356
-  zinc_mg: 1.05
-  vitamin_b3_mg: 1.47
-  vitamin_b5_mg: 0.521
-  vitamin_b6_mg: 0.159
-  linoleic_g: 0.004
-  protein_g: 5.81
-  fibre_g: 0.3
-  iron_mg: 1.8
-  magnesium_mg: 2
-  phosphorus_mg: 58
-  sodium_mg: 48
-  copper_mg: 0.264
-  manganese_mg: 0.988
-  sat_fat_g: 0.061
-  epa_mg: 80
-  vitamin_c_mg: 39
-  vitamin_b1_mg: 0.098
-  vitamin_b2_mg: 0.446
-  folate_ug: 146
-  selenium_ug: 0.7
-  omega3_mg: 80
-  pufa_18_3_unresolved_mg: 1
-omega3_components:
-  - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
-    amount_mg: 80
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Seaweed, laver, raw'
-  fdc_id: 168458
-  retrieval_method: SR Legacy bulk (April 2018)
-  basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+  kcal: 297
+  protein_g: 41.4
+  fat_g: 3.7
+  carbs_g: 44.3
+  fibre_g: 36
+  sodium_mg: 530
+  potassium_mg: 2400
+  calcium_mg: 280
+  magnesium_mg: 300
+  phosphorus_mg: 700
+  iron_mg: 11
+  zinc_mg: 3.6
+  copper_mg: 0.55
+  manganese_mg: 3.72
+  iodine_ug: 2100
+  selenium_ug: 9
+  vitamin_k_ug: 390
+  folate_ug: 1900
+  vitamin_e_mg: 4.6
+  vitamin_b1_mg: 0.69
+  vitamin_b2_mg: 2.33
+  vitamin_b3_mg: 12
+  vitamin_b6_mg: 0.59
+  vitamin_b5_mg: 1.18
+  vitamin_c_mg: 210
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/nori/nori_medium.webp
 legacy_list_image: /img/foods/nori/nori_thumb.webp
@@ -81,10 +62,22 @@ nutrition_supplementary_sources:
   - key: iodine_qual
     label: Iodine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Nori is used as a dietary iodine source; iodine is often absent from USDA
-      SR Legacy nutrient panels, so quantity is not established for this page.
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004. Official record specifically identifies dried toasted Porphyra nori
+      edible material and separately lists magnesium, iron, iodine, folate and
+      vitamin K. Raw laver values are not transferred.
+    public_note: Reported in dried toasted purple laver (nori).
+    source_group: nori-mext
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    notes: dried toasted purple laver (nori)
+    source_reference: '#food-source-3'
   - key: carotenoids_qual
     label: Carotenoids
     status: Present — quantity not established
@@ -92,18 +85,146 @@ nutrition_supplementary_sources:
     source_note: >-
       Nori contains mixed carotenoids; USDA laver records may list individual
       carotenoids, but the class total is not a USDA field.
+    public_note: >-
+      Nori contains mixed carotenoids; USDA laver records may list individual
+      carotenoids, but the class total is not a USDA field.
+    source_group: >-
+      Nori contains mixed carotenoids; USDA laver records may list individual
+      carotenoids, but the class total is not a USDA field.
   - key: vitamin_b12_qual
     label: Vitamin B12
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Nori is tagged for vitamin B12. Fortified products vary by brand; seaweed
-      B12 may include analogues; abbreviated USDA panels may omit cobalamin.
-      True cobalamin quantity is not established here.
+      Effect of roasted purple laver (nori) on vitamin B12 nutritional status of
+      vegetarians (2024). Chemical analyses and trial identify active B12 in
+      studied roasted nori; study discusses differences across products and
+      processing. No general intake recommendation.
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11519184/
+    source_group: nori-b12
+    public_note: >-
+      Active vitamin B12 is documented in studied roasted nori; amounts vary by
+      product.
+    notes: studied roasted purple-laver nori
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: Reported in dried toasted purple laver (nori).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: nori|Magnesium
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004
+    evidence_material: dried toasted purple laver (nori)
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    source_reference: '#food-source-3'
+  - substance: Iron
+    relationship: contains
+    description: Reported in dried toasted purple laver (nori).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: nori|Iron
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004
+    evidence_material: dried toasted purple laver (nori)
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    source_reference: '#food-source-3'
+  - substance: Vitamin B9
+    relationship: contains
+    description: Reported in dried toasted purple laver (nori).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: nori|Vitamin B9
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004
+    evidence_material: dried toasted purple laver (nori)
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    source_reference: '#food-source-3'
+  - substance: Vitamin K
+    relationship: contains
+    description: Reported in dried toasted purple laver (nori).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: nori|Vitamin K
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004
+    evidence_material: dried toasted purple laver (nori)
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    source_reference: '#food-source-3'
+  - substance: Iodine
+    relationship: contains
+    description: Reported in dried toasted purple laver (nori).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: nori|Iodine
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      09004
+    evidence_material: dried toasted purple laver (nori)
+    source_url: >-
+      https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+    source_reference: '#food-source-3'
+  - substance: Vitamin B12
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    evidence_source: >-
+      Effect of roasted purple laver (nori) on vitamin B12 nutritional status of
+      vegetarians (2024)
+    evidence_material: studied roasted purple-laver nori
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11519184/
+    description: >-
+      Active vitamin B12 is documented in studied roasted nori; amounts vary by
+      product.
+    source_reference: '#food-source-4'
+substance_review_candidates: []
+composition_status: supported
+nutrition_source:
+  database: >-
+    MEXT Standard Tables of Food Composition in Japan (2023 supplement), food
+    09004
+  food_name: Purple laver (Porphyra spp.), dried, toasted
+  basis: per 100 g edible dried, toasted nori; not a typical serving
+  source_url: >-
+    https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100
+  source_reference: '#food-source-3'
+composition_technical_provenance:
+  source_record: MEXT 09004, 2023 supplement
+  carbohydrate_identity: >-
+    Total carbohydrate 44.3 g, not available carbohydrate by mass (1.7 g),
+    monosaccharide equivalent (1.9 g), or available carbohydrate by difference
+    (19.2 g).
+  protein_identity: >-
+    Protein 41.4 g, not the separate amino-acid-composition protein value 32.0
+    g.
+  fibre_identity: Total dietary fibre 36.0 g. No crude-fibre substitution.
+  b12: >-
+    Official 56.7 micrograms not assigned a general product quantity here;
+    active-cobalamin evidence is retained separately for studied roasted
+    products.
 ---
 ## Overview
 
-Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids.
+Nori is a red seaweed used for sushi sheets and garnishes. The composition table below describes dried, toasted purple laver, rather than fresh seaweed. Its iodine content is concentrated, and the 100 g comparison basis is much larger than a usual portion.
 
 Within the BRAIN Diet framework, while nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects.
 
@@ -138,4 +259,12 @@ Nori contribute plant protein. Pair with complementary protein sources (e.g. gra
 
 [1] Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)
 
-[2] Marine algae and seaweed are primary iodine sources critical for thyroid and brain development. Arterburn et al. 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)
+[2] [MEXT food 09004: dried, toasted purple laver](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100). Preparation-specific composition source for the nutrition panel.
+
+<span id="food-source-3" />
+
+[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](/docs/papers/BRAIN-Diet-References#food_composition_74eb21e22bfb)
+
+<span id="food-source-4" />
+
+[4] [Effect of roasted purple laver (nori) on vitamin B12 nutritional status of vegetarians (2024)](/docs/papers/BRAIN-Diet-References#food_composition_d353427cdc28)

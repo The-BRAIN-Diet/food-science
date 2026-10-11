@@ -12,26 +12,7 @@ tags:
   - Zinc
   - Iron
 list_image: /img/foods/whole-grains/whole-grains_thumb.webp
-nutrition_per_100g:
-  kcal: 331.6005206
-  protein_g: 11.06534
-  fat_g: 3.039
-  carbs_g: 71.13066
-  fibre_g: 4.046
-  calcium_mg: 13.64
-  iron_mg: 2.444
-  magnesium_mg: 203
-  potassium_mg: 414.5
-  zinc_mg: 2.236
-  selenium_ug: 13.6
-  vitamin_b6_mg: 0.2776
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Buckwheat, whole grain'
-  fdc_id: 2512378
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 amino_acid_strengths: >-
   Relatively higher in methionine than legumes; lysine-limited like other
   grains.
@@ -42,6 +23,48 @@ complementary_pairings: >-
 main_image: /img/foods/whole-grains/whole-grains_medium.webp
 legacy_list_image: /img/foods/whole-grains/whole-grains_thumb.webp
 legacy_main_image: /img/foods/whole-grains/whole-grains_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: Documented in whole wheat; content varies among whole grains.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: whole-grains|Magnesium
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA SR Legacy, Wheat, hard red winter (FDC 168890)
+    evidence_material: whole wheat grain
+    source_url: https://fdc.nal.usda.gov/food-details/168890/nutrients
+    source_reference: '#food-source-3'
+  - substance: Iron
+    relationship: contains
+    description: Documented in whole wheat; content varies among whole grains.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: whole-grains|Iron
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA SR Legacy, Wheat, hard red winter (FDC 168890)
+    evidence_material: whole wheat grain
+    source_url: https://fdc.nal.usda.gov/food-details/168890/nutrients
+    source_reference: '#food-source-3'
+  - substance: Zinc
+    relationship: contains
+    description: Documented in whole wheat; content varies among whole grains.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: whole-grains|Zinc
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA SR Legacy, Wheat, hard red winter (FDC 168890)
+    evidence_material: whole wheat grain
+    source_url: https://fdc.nal.usda.gov/food-details/168890/nutrients
+    source_reference: '#food-source-3'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: Buckwheat, whole grain
+  identity_failure: 'category: a buckwheat record is not whole grains generally'
+  reason: 'category: a buckwheat record is not whole grains generally'
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -94,3 +117,7 @@ Grains such as whole grains are relatively higher in methionine but lysine-limit
 [1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
 [2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy, Wheat, hard red winter (FDC 168890)](/docs/papers/BRAIN-Diet-References#food_composition_0dca358f38cf)

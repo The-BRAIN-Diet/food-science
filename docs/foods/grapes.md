@@ -65,38 +65,165 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Grapes; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
+      raw; NDB 97074. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: delphinidin_qual
     label: Delphinidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list delphinidin glycosides in
-      Grapes; per-100 g of the isolated anthocyanidin is not in the selected
-      USDA SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
+      raw; NDB 97074. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: malvidin_qual
     label: Malvidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists malvidin glycosides in Grapes; individual
-      malvidin quantity is not in the selected USDA SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
+      raw; NDB 97074. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: peonidin_qual
     label: Peonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists peonidin glycosides in Grapes; individual
-      peonidin quantity is not in the selected USDA SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
+      raw; NDB 97074. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: petunidin_qual
     label: Petunidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists petunidin glycosides in Grapes; individual
-      petunidin quantity is not in the selected USDA SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 37; Grapes, red,
+      raw; NDB 97074. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Grapes, red, raw; NDB 97074 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+substance_relationships:
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Grapes, red or green (European
+      type, such as Thompson seedless), raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Grapes, red or green (European type, such as Thompson seedless), raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174683/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Cyanidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies cyanidin-derived glycosides in
+      grapes, red, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Cyanidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Grapes, red, raw; NDB 97074'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Delphinidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies delphinidin-derived glycosides in
+      grapes, red, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Delphinidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Grapes, red, raw; NDB 97074'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Malvidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies malvidin-derived glycosides in
+      grapes, red, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Malvidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Grapes, red, raw; NDB 97074'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Peonidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies peonidin-derived glycosides in
+      grapes, red, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Peonidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Grapes, red, raw; NDB 97074'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Petunidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies petunidin-derived glycosides in
+      grapes, red, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grapes|Petunidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Grapes, red, raw; NDB 97074'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

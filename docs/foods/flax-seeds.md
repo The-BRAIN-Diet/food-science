@@ -50,7 +50,7 @@ nutrition_per_100g:
   omega3_mg: 22813
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    identity: '18:3 n-3 (ALA; USDA 1270 interpreted)'
     amount_mg: 22813
 public_display:
   ala_mg: internal-only
@@ -61,22 +61,71 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-  limitations: Unqualified 18:3 on this record is documented in FCIR-003.
+  limitations: 'Unqualified 18:3 on this record is documented in FCIR-003.'
 nutrition_supplementary_sources:
   - key: ala_interpreted
-    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    label: 'Alpha-linolenic acid (ALA; 18:3 n-3)'
     value: 22.8
     unit: g
-    notes: USDA 18:3 quantity; isomer from flax-specific literature
+    notes: 'USDA 18:3 quantity; isomer from flax-specific literature'
     public_display: table
     exclude_from_recipe_sum: true
     fcir_case: FCIR-003
     source_note: This value uses a documented composition interpretation. See FCIR-003.
+    public_note: This value uses a documented composition interpretation.
+    source_group: This value uses a documented composition interpretation.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
 legacy_list_image: /img/foods/flax-seeds/flax-seeds_thumb.webp
 legacy_main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
+substance_relationships:
+  - substance: ALA
+    relationship: contains
+    description: >-
+      Alpha-linolenic acid is supported by the food-specific isomer evidence in
+      the composition notes. The quantity uses the documented composition
+      interpretation.
+    requires_supplementary_key: ala_interpreted
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: flax-seeds|ALA
+    evidence_source: FCIR-003
+    evidence_material: Flax seed
+    source_url: >-
+      /docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register
+    presence_status: presence_and_amount_supported
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Seeds, flaxseed.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: flax-seeds|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, flaxseed'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Seeds, flaxseed.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: flax-seeds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, flaxseed'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Seeds, flaxseed.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: flax-seeds|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, flaxseed'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169414/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

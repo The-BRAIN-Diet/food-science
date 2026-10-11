@@ -8,33 +8,20 @@ tags:
   - Vegan
   - Vegetarian
 list_image: /img/foods/fermented-vegetables/fermented-vegetables_thumb.webp
-nutrition_per_100g:
-  kcal: 116
-  protein_g: 8.92
-  fat_g: 8
-  carbs_g: 4.38
-  calcium_mg: 46
-  iron_mg: 1.98
-  magnesium_mg: 52
-  potassium_mg: 75
-  zinc_mg: 1.56
-  selenium_ug: 17.3
-  vitamin_b6_mg: 0.091
-  folate_ug: 29
-  vitamin_b12_ug: 0
-  sat_fat_g: 1.157
-  pufa_18_3_unresolved_mg: 534
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Tofu, salted and fermented (fuyu)'
-  fdc_id: 174280
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/fermented-vegetables/fermented-vegetables_medium.webp
 legacy_list_image: /img/foods/fermented-vegetables/fermented-vegetables_thumb.webp
 legacy_main_image: /img/foods/fermented-vegetables/fermented-vegetables_medium.webp
+nutrition_unavailable: true
+composition_status: withdrawn
+eaa_profile_applicable: false
+composition_withdrawn:
+  withdrawn_record: 'FDC 174280, Tofu, salted and fermented (fuyu)'
+  identity_failure: 'product: fermented tofu is not fermented vegetables'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_relationships: []
 ---
 ## Overview
 
@@ -53,10 +40,6 @@ Within the BRAIN Diet framework, fermentation goes further: lactic acid bacteria
 - Include in diverse fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 - Enhanced nutrient bioavailability; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels
 - Some varieties may produce GABA through specific bacterial strains; Levilactobacillus brevis strains isolated from fermented foods can produce GABA
-
-### Essential Amino Acid Profile
-
-Fermented Vegetables contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
 ## Recipes
 

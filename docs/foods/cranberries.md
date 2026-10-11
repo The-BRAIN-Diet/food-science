@@ -62,16 +62,73 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Cranberries; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 31–32;
+      Cranberries, raw; NDB 09078. Positive mean in the named food row, not an
+      assumed association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Cranberries, raw; NDB 09078 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: peonidin_qual
     label: Peonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists peonidin glycosides in Cranberries;
-      individual peonidin quantity is not in the selected USDA SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 31–32;
+      Cranberries, raw; NDB 09078. Positive mean in the named food row, not an
+      assumed association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Cranberries, raw; NDB 09078 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+substance_relationships:
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Cranberries, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cranberries|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cranberries, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171722/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Cyanidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies cyanidin-derived glycosides in
+      cranberries, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cranberries|Cyanidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Cranberries, raw; NDB 09078'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Peonidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies peonidin-derived glycosides in
+      cranberries, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cranberries|Peonidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Cranberries, raw; NDB 09078'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

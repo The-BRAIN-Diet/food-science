@@ -50,7 +50,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 5
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beets, raw'
+  food_name: Beets, raw
   fdc_id: 169145
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -62,10 +62,21 @@ nutrition_supplementary_sources:
   - key: nitrate_qual
     label: Nitrate
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Beetroot is a recognised dietary nitrate vegetable. Quantity varies with
-      cultivar, season and storage.
+      Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and
+      Betalains in Health and Disease (2021). Food composition discussion
+      explicitly identifies nitrate in beetroot and beetroot juice; not
+      restricted to an isolated supplement.
+    public_note: Reported in beetroot root.
+    source_group: beet-nitrate
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8229785/
+    notes: beetroot root
+    source_reference: '#food-source-2'
   - key: betalain_qual
     label: Betalain
     status: Present — quantity not established
@@ -73,6 +84,8 @@ nutrition_supplementary_sources:
     source_note: >-
       Beetroot is characterised by betalain pigments. A comparable quantity is
       not established here.
+    public_note: Beetroot is characterised by betalain pigments.
+    source_group: Beetroot is characterised by betalain pigments.
   - key: betaine_mg
     label: Betaine
     value: 130
@@ -83,16 +96,93 @@ nutrition_supplementary_sources:
       Patterson et al. (2008), USDA Database for the Choline Content of Common
       Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This
       is not the FDC 169145 panel used for the other nutrients on this page.
+    public_note: >-
+      Patterson et al. (2008) supports this source-specific measurement. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Patterson et al. (2008) supports this source-specific measurement. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Betaine
     relationship: contains
     description: >-
-      Raw beets contained 130 mg betaine per 100 g in the corrected USDA
-      choline database. That assay is separate from this page’s other nutrients.
+      Raw beets contained 130 mg betaine per 100 g in the corrected USDA choline
+      database. That assay is separate from this page’s other nutrients.
     citation_keys:
       - patterson_choline_2008
+  - substance: Magnesium
+    relationship: contains
+    description: USDA FoodData Central reports magnesium in Beets, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beets, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169145/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Potassium
+    relationship: contains
+    description: USDA FoodData Central reports potassium in Beets, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beets, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169145/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Beets, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beets, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169145/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Manganese
+    relationship: contains
+    description: USDA FoodData Central reports manganese in Beets, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beets, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169145/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Beets, raw.  The recorded analyte
+      is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beets, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169145/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Nitrate
+    relationship: contains
+    description: Reported in beetroot root.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beetroot|Nitrate
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and
+      Betalains in Health and Disease (2021)
+    evidence_material: beetroot root
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8229785/
+    source_reference: '#food-source-2'
 substance_card_captions:
   Betaine: Occurs directly in raw beets; 130 mg per 100 g in the corrected USDA assay.
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -122,3 +212,11 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 ## References
 
 [1] Milton-Laskibar et al. (2021). [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease](/docs/papers/BRAIN-Diet-References#milton_laskibar_beetroot_2021). Beetroot-specific review describing nitrate and betalains as major bioactive constituents and documenting substantial variation with variety and processing.
+
+<span id="food-source-2" />
+
+[2] [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease (2021)](/docs/papers/BRAIN-Diet-References#food_composition_e9d2786d6670)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_09e6ecfaadc9)

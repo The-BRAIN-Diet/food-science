@@ -106,7 +106,11 @@ export function laterKeyOwningSentence(sentence, ownerByNorm, citedKey) {
 
 function buildOwnerIndex(root) {
   const bibPath = path.join(root, BIB_REL)
-  const bib = fs.readFileSync(bibPath, "utf8")
+  const companionPath = path.join(root, "static/bibtex/BRAIN-diet-sources.bib")
+  const bib = [bibPath, companionPath]
+    .filter((filePath) => fs.existsSync(filePath))
+    .map((filePath) => fs.readFileSync(filePath, "utf8"))
+    .join("\n")
   const starts = parseStarts(bib)
   const newIndex = loadBibIndex(bibPath)
 

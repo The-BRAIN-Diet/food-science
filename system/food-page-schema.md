@@ -1,3 +1,37 @@
+## Nutrition display threshold and tabs
+
+Vitamins and minerals providing at least 10% of the reference intake per 100 g appear in Nutritional Highlights. Lower contributions remain accessible in Advanced Nutrition. This is an editorial display threshold, not a judgement of biological significance.
+
+Eligibility uses unrounded canonical values. The shared renderer registers lower-contribution rows in the Advanced Nutrition page tab, not an inline disclosure in Highlights. No-reference nutrients and bioactives retain their existing rules; core nutrients and food–substance membership are unchanged. Both views use the same composition record.
+
+## Source-note numbering and reference routing
+
+Render Sources and limitations as bullets labelled with the relevant nutrient or compound names. Reserve square-bracket numbers for citations to the page’s References; do not introduce a second numbered note system. Any bracket marker beside a table amount must match the References number, not the bullet position. Notes contain only concise reader-relevant material, preparation or interpretation context. Remove audit comparisons, migration decisions and checking history from ordinary source notes.
+
+Public food-page source links must point to that page’s References entry via `source_reference: '#food-source-N'`. Each References entry links to the canonical BRAIN-Diet-References record; that record provides the external paper or database URL. Never link directly out from nutrition notes, composition-source footers or substance cards. Retain `source_url` internally for provenance, not as the public href. Supplementary source groups organise shared evidence internally; they do not create separate public citation numbers. Label citation links with the References number in square brackets, such as `[4]`, rather than generic “Source” or “Reference”. Include these page-local citation links in technical provenance as well as concise public notes. Format all References entries consistently as `[N] Author (year). [Title](canonical bibliography anchor). Short source-supported description.`; use a corporate author for databases and do not invent missing metadata. Preserve analytical distinctions in structured metadata and technical evidence rather than repetitive public audit wording.
+
+<!-- User-approved estimate retention rule: 2026-10-10 -->
+## Retain researched estimates while attaching citations
+
+A missing quantitative citation alone is a documentation gap, not a reason to delete an existing researched bioactive estimate or replace it with zero. Preserve its original numeric value, unit, preparation basis and explanatory note; label the amount as an estimate. Set `quantity_citation_pending: true` and add a pending entry to `nutrition_value_reviews`, which appears in the food page’s Review & Corrections panel (`?review=1`). Record the original research note, amount, source-attachment task and any denominator/preparation checks there. Presence citations must not be represented as verification of the estimated amount. Do not expose extraction logs in ordinary source notes.
+
+This retention rule does not override demonstrated wrong-food substitutions, wrong chemical identities, combined-analyte splits, unsuitable per-protein denominators or withdrawn preparation-specific composition. Record those substantive problems separately. Missing amounts remain missing, not analytical zeros. Algorithmic consumers must distinguish estimates from source-verified quantities.
+
+## Scientific and presentation decisions — authoritative clarification (10 October 2026)
+
+This section supersedes any older requirement that a relationship or card must have a public nutrition-table row.
+
+- `substance_relationships` is the canonical reciprocal relationship record. Explicit evidence-supported `contains` / `direct-food-occurrence` links may appear in both directions without quantified content or a nutrition-table row. Evidence, quantified content and approval as a leading/top-10 source are three separate decisions. Do not infer ranking from occurrence, and do not rewrite PM/BRS mappings.
+- Tags are candidates for review, not proof. Preserve unsupported candidates in the internal review queue. Missing quantities do not justify suppressing supported occurrence. Preserve valid explicit decisions, including precursor/formation edges.
+- Combined analytes are distinct identities. A sum never supplies either constituent’s amount or independently establishes either constituent’s presence. Seek food-specific individual evidence; do not split a sum. Apply to every combined analyte, not just carotenoids.
+- Decide nutrition-panel eligibility before wording. A coherent panel requires matching species, edible material, preparation and denominator. Do not combine unrelated review ranges. Supplementary core/mineral rows require `nutrition_panel_eligible: true` after evidence review; an explicit display override does not bypass eligibility.
+- Undefined carbohydrate is withheld pending clarification; an unspecified method alone does not establish what it includes or excludes. Crude fibre is not dietary fibre. Ash and technical proximate measures belong in technical evidence, not nutritional highlights. Do not infer nitrogen factors or extraction methods without verification in the individual source.
+- Withhold unresolved minerals, protein-basis amino acids and unsuitable measurements from public panels and reference-intake calculations. Preserve original units, conversions, methods actually documented, source passages and uncertainty internally. Never guess a corrected value.
+- When coherent preparation-specific data are unavailable, set `nutrition_unavailable: true` and display: “Reliable composition data for this preparation are not yet available.” Retain independently supported relationships.
+- Supplementary notes use distinct numbered references. Use `source_group` only for a genuinely shared source and limitation; use `public_note` for concise interpretation, `source_reference` for the page-local References link and `source_url` for internal traceability. Keep preparation, dry-weight basis, combined identity and qualitative content beside the data. Full `source_note` belongs in expandable technical provenance. Do not repeat values/conversions below a table or expose review status, admission rules or repair history.
+- Use familiar equivalent names, including linoleic acid; retain systematic synonyms in technical metadata. A review’s list of chemicals is not a list of nutritional highlights.
+- Mucuna seed L-DOPA is pharmacologically active exposure, not an ordinary dietary recommendation. Raw seed, cooked food, extract and supplement measurements are not interchangeable. Generic processing descriptions do not establish safe residuals.
+
 # Food Page Schema (Canonical)
 
 Consolidated schema for BRAIN Diet food pages. **Worked example:** `docs/foods/dark-chocolate.md`.  
@@ -29,9 +63,9 @@ A food may be included because it is:
 
 Food pages use the canonical **Three Sources of Truth** from `system/food-page-model.md`. These are the **rendered** layers:
 
-1. **Overview** — editorial identity narrative (intrinsic identity constituents only). **Other Nutritional Highlights** is an optional residual section, not a fourth Source of Truth and not a second Overview. Headline identity compounds must resolve to a rendered table row or enter an explicit research-queue state. Numerical statements in Overview or Other Nutritional Highlights must match rendered-table rounding.
-2. **Database nutrition table** — the **rendered** composition table from at least one valid representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); and/or supported qualitative `nutrition_supplementary_sources`. An empty `nutrition_per_100g: {}` is implementation compatibility only and is not the compositional source. Hidden/internal records do not count as table admission. Rendered headings: **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds**, plus specialist specification tables when used. Significant vitamin/mineral rows are derived from `nutrition_per_100g` and the adult reference-intake rule; remaining quantitative micros sit in collapsed **Advanced Nutrition**. Tags do not whitelist the vitamin/mineral table.
-3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every **rendered** card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row (Key, Advanced Nutrition, bioactive, or specification). Not every table row requires a card. Do not add a Substance relationship merely to make a nutrient appear in the table.
+1. **Overview** — editorial identity narrative (intrinsic identity constituents only). **Other Nutritional Highlights** is an optional residual section, not a fourth Source of Truth and not a second Overview. Headline identity compounds must have supported canonical presence or enter an explicit research-queue state. Numerical statements in Overview or Other Nutritional Highlights must match rendered-table rounding.
+2. **Database nutrition table** — the **rendered** composition table from at least one valid representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); and/or supported qualitative `nutrition_supplementary_sources`. An empty `nutrition_per_100g: {}` is implementation compatibility only and is not the compositional source. Hidden/internal records do not count as table admission. Rendered headings: **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds**, plus specialist specification tables when used. Significant vitamin/mineral rows are derived from `nutrition_per_100g` and the adult reference-intake rule; remaining quantitative micros sit in the **Advanced Nutrition** page tab. Tags do not whitelist the vitamin/mineral table.
+3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional. Not every table row requires a card. Do not add a Substance relationship merely to make a nutrient appear in the table.
 
 Composition/provenance classes, Intrinsic / Mechanism / Strategy, and the A/B/C/D distinction below remain separate models and must not be called the Three Sources of Truth.
 
@@ -315,11 +349,11 @@ These examples guide research. They do not pre-authorise claims or Substance car
 
 **Bibliographic core (project-wide):** `[n] Author(s) (Year). [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)`
 
-**Food-page extension:** References retain the project-wide Author (Year) and linked-title core. Food pages may append a concise food-specific finding or trial highlight because study detail is normally omitted from the Overview.
+**Food-page extension:** References retain the project-wide Author (Year) and linked-title core. Each food-page References entry must append one concise, source-supported description of its food-specific finding, scope or relevance.
 
 Format: `[n] Author(s) (Year). [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey). Food-relevant finding or trial highlight.`
 
-The annotation is optional. When present it may state a direct food finding, trial dose/design and principal result, analytical finding, preparation finding, or a necessary scope limitation. Do not lead with dietary advice. State what the source found; practical guidance belongs in Overview, Food Context, or Other Nutritional Highlights when that is the residual home. Study design, dose, duration, comparators, numerical outcomes and evidential limitations belong here, not in Overview or Other Nutritional Highlights.
+The short description is required. It may state a direct food finding, trial dose/design and principal result, analytical finding, preparation finding, or a necessary scope limitation. Do not lead with dietary advice. State what the source found; practical guidance belongs in Overview, Food Context, or Other Nutritional Highlights when that is the residual home. Study design, dose, duration, comparators, numerical outcomes and evidential limitations belong here, not in Overview or Other Nutritional Highlights.
 
 Do not: use abstracts from neighbouring BibTeX entries; describe a generic mechanism as direct food evidence; infer a food quantity from total fibre or another parent measure; make the annotation broader than the paper; retain a reference merely because it was previously present.
 
@@ -346,7 +380,7 @@ Unmigrated later-letter pages may still use the previous explanation-first order
 - Generic mechanism papers cannot stand in for food evidence unless they are explicitly labelled as mechanistic context and genuinely needed. Never present supplement, substance-class, or neighbouring-food evidence as direct evidence for the food.
 - Flag weak evidence rather than padding references. Leave a claim uncited rather than attaching a keyword-matched paper.
 
-**Join rule:** Every food-page annotation is joined to BibTeX **only by the exact citation key** in `/docs/papers/BRAIN-Diet-References#key`. Resolution must not use array position, neighbouring entries, or fallback order. If that key has no reviewed food-relevant finding, omit the annotation or use an accurate same-page citation sentence **without changing the bibliographic core**. It must **never** borrow another entry’s abstract, copy the paper title as “Reports on …”, or use the opening abstract sentence as a summary. Missing abstracts produce no invented summary.
+**Join rule:** Every food-page annotation is joined to BibTeX **only by the exact citation key** in `/docs/papers/BRAIN-Diet-References#key`. Resolution must not use array position, neighbouring entries, or fallback order. If that key has no reviewed food-relevant finding, use a verified description of the source’s scope or an accurate same-page citation sentence **without changing the bibliographic core**. It must **never** borrow another entry’s abstract, copy the paper title as “Reports on …”, or use the opening abstract sentence as a summary. Missing abstracts produce no invented summary.
 
 **Citation correctness and citation relevance are separate checks.** A correctly joined key can still be scientifically irrelevant (`system/food-page-letter-audit-schema.md`).
 
@@ -374,10 +408,10 @@ See `system/food-page-frontmatter-shapes.md` for full YAML examples.
 
 | Command | Checks |
 |---------|--------|
-| `npm run nutrition:validate` | EAA when required; no downstream-metabolite tags; directional layer reconciliation (Substances cards missing **rendered** table rows; unsupported quantitative values; qualitative rows lacking source; Overview identity headlines flagged for verification) |
+| `npm run nutrition:validate` | EAA when required; no downstream-metabolite tags; directional layer reconciliation (Substances cards missing supported canonical relationships; unsupported quantitative values; qualitative rows lacking source; Overview identity headlines flagged for verification) |
 | `npm run nutrition:validate -- --canonical` | Baseline + canonical section order, optional Other Nutritional Highlights, components, bibliography-linked references |
 | `npm run nutrition:validate -- --canonical --slug almonds` | Canonical checks for one page only |
-| `npm run nutrition:reconcile-layers` | Post-apply **report only**: cards without rows, Overview compounds without rows, verified table compounds that may need cards, synonym/canonical-ID notes, **proposed** missing substance pages, unpromoted trace rows. Does not create Substance pages. |
+| `npm run nutrition:reconcile-layers` | Post-apply **report only**: unsupported canonical cards, Overview compounds requiring presence or quantity evidence, verified table compounds that may need cards, synonym/canonical-ID notes, **proposed** missing substance pages, unpromoted trace rows. Does not create Substance pages. |
 | `node scripts/audit-food-page-layers.mjs --letters A` | Letter-scope audit. A supported qualitative row is **not** an Overview → table gap; remaining work uses precise research-queue states. |
 | `node scripts/food-page-letter-audit.mjs --schema` | Print editorial record schema (role, evidence type, depth). Does not rewrite pages or start a letter batch. |
 | `npm run test:food-truth-levels` | USDA extract ranking + almonds table-backed substance fixtures + three-model documentation tests + A-food calibration fixtures + BibTeX key-join regression |
@@ -393,7 +427,7 @@ Canonical mode is intended for **migration batches** (e.g. letter A). Full corpu
 | `docs/foods/.cursor/rules/Foods-Pages.mdc` | Authoring rules for agents |
 | `system/food-page-letter-audit-schema.md` | Letter-audit editorial records (role, evidence type, depth). Does not change reference rendering. |
 | `scripts/lib/food-page-validation.mjs` | EAA and downstream-metabolite validation |
-| `scripts/lib/food-truth-reconciliation.mjs` | Directional page-layer reconciliation (cards → table rows; not every table row → card) |
+| `scripts/lib/food-truth-reconciliation.mjs` | Directional page-layer reconciliation (cards → supported canonical relationships; quantitative rows → suitable composition evidence) |
 | `scripts/lib/usda-nutrient-extract.mjs` | USDA extract + richest-panel ranking |
 | `scripts/repair-food-pages.mjs` | Reports EAA editorial gaps; performs tag cleanup and substances-component repair without authoring filler |
 | `cue/brain/` | Mechanism schemas only (no food CUE yet) |

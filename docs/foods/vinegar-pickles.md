@@ -54,6 +54,20 @@ nutrition_source:
 main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
 legacy_list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
 legacy_main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
+substance_relationships:
+  - substance: Sodium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports sodium in Pickles, cucumber, dill or kosher
+      dill.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: vinegar-pickles|Sodium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Pickles, cucumber, dill or kosher dill'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168558/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

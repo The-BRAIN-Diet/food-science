@@ -45,7 +45,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 289
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Nuts, pistachio nuts, raw'
+  food_name: Nuts, pistachio nuts, raw
   fdc_id: 170184
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -59,10 +59,32 @@ nutrition_supplementary_sources:
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in Pistachios (e.g. Mattila &
-      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+      Nano-Liquid Chromatography for Coenzyme Q10 in Pistachio Samples (2023).
+      Primary Table 2 measures individual CoQ10 in six named pistachio samples.
+    public_note: Reported in pistachio kernels.
+    source_group: pistachio-coq
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9920066/
+    notes: pistachio kernels
+    source_reference: '#food-source-1'
+substance_relationships:
+  - substance: CoQ10
+    relationship: contains
+    description: Reported in pistachio kernels.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pistachios|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Nano-Liquid Chromatography for Coenzyme Q10 in Pistachio Samples (2023)
+    evidence_material: pistachio kernels
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9920066/
+    source_reference: '#food-source-1'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -102,3 +124,7 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
+
+<span id="food-source-1" />
+
+[1] [Nano-Liquid Chromatography for Coenzyme Q10 in Pistachio Samples (2023)](/docs/papers/BRAIN-Diet-References#food_composition_cbbabe8383bc)

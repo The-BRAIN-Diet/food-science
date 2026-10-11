@@ -196,7 +196,7 @@ export const QUALITATIVE_COMPOUNDS = [
     key: "ldopa_qual",
     slugs: ["mucuna-beans"],
     source: (title) =>
-      `${title} (Mucuna pruriens) are a documented food source of L-DOPA. USDA SR Legacy has no mucuna record, so quantity is not established here.`,
+      `${title} (Mucuna pruriens) contain L-DOPA. Sowdhanya et al. (2024) identify it as the predominant seed bioactive and do not give one seed concentration.`,
   },
   {
     label: "Citrulline",

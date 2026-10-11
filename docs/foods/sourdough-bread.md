@@ -17,57 +17,7 @@ tags:
   - Copper
   - Manganese
 list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp
-nutrition_per_100g:
-  linoleic_g: 0.788
-  protein_g: 10.75
-  fibre_g: 2.2
-  iron_mg: 3.91
-  magnesium_mg: 32
-  phosphorus_mg: 105
-  sodium_mg: 602
-  copper_mg: 0.152
-  manganese_mg: 0.577
-  vitamin_b1_mg: 0.71
-  vitamin_b2_mg: 0.427
-  folate_ug: 123
-  vitamin_k_ug: 0.7
-  sat_fat_g: 0.529
-  caprylic_g: 0.001
-  ala_mg: 63
-  fat_g: 2.42
-  carbs_g: 51.88
-  kcal: 272
-  sugar_g: 4.62
-  calcium_mg: 52
-  potassium_mg: 117
-  zinc_mg: 1.04
-  selenium_ug: 28.6
-  vitamin_e_mg: 0.21
-  lutein_zeaxanthin_ug: 45
-  vitamin_b3_mg: 4.817
-  vitamin_b5_mg: 0.455
-  vitamin_b6_mg: 0.107
-  choline_mg: 8
-  capric_g: 0.002
-  omega3_mg: 63
-omega3_components:
-  - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
-    amount_mg: 63
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Bread, french or vienna (includes sourdough)'
-  fdc_id: 172675
-  retrieval_method: SR Legacy bulk (April 2018)
-  basis: per 100 g edible portion
-  last_checked: '2026-09-16'
-  table_maps_to: >-
-    A generic French or Vienna loaf that includes some sourdough. Fibre
-    (~2.2 g/100 g) matches a refined-wheat bread, not wholegrain sourdough.
-    Apparent thiamine, riboflavin, niacin, folate and iron density often
-    reflects enriched wheat flour rather than fermentation. Selenium varies
-    with grain origin and soil. Sodium is a practical product-to-product
-    variable and should be compared on the label.
+nutrition_per_100g: {}
 limiting_amino_acids: Lysine (typical of wheat and other cereal grains).
 complementary_pairings: >-
   Protein-rich foods in the same meal (eggs, yogurt, legumes, fish) rather than
@@ -75,6 +25,97 @@ complementary_pairings: >-
 main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
 legacy_list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp
 legacy_main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Magnesium
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+  - substance: Potassium
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Potassium
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+  - substance: Copper
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Copper
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+  - substance: Iron
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Iron
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+  - substance: Manganese
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Manganese
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+  - substance: Zinc
+    relationship: contains
+    description: Present in wheat sourdough bread; content depends on flour and recipe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sourdough-bread|Zinc
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Nutritional composition of bread as affected by ancient wheat flour and
+      sourdough fermentation (2024)
+    evidence_material: wheat sourdough breads
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/
+    source_reference: '#food-source-7'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: Bread, french or vienna (includes sourdough)
+  identity_failure: >-
+    product: a French/Vienna bread group that includes sourdough does not
+    identify a sourdough formulation
+  reason: >-
+    product: a French/Vienna bread group that includes sourdough does not
+    identify a sourdough formulation
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -180,3 +221,7 @@ Salmon and beetroot toast is a meal implementation in the Recipes list below, no
 [5] Gobbetti et al. (2014). [How the sourdough may affect the functional features of leavened baked goods](/docs/papers/BRAIN-Diet-References#gobbetti_how_2014). Acidification, enzyme activation, fibre/phytochemical matrix, mineral uptake conditions, metabolites including GABA and exopolysaccharides; process-dependent.
 
 [6] Coda, Rizzello and Gobbetti (2010). [Use of sourdough fermentation and pseudo-cereals and leguminous flours for the making of a functional bread enriched of γ-aminobutyric acid (GABA)](/docs/papers/BRAIN-Diet-References#coda_use_2010). Formulation-specific GABA enrichment using selected flours and fermentation; not a general sourdough property.
+
+<span id="food-source-7" />
+
+[7] [Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)](/docs/papers/BRAIN-Diet-References#food_composition_c671c7f60ed1)

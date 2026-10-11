@@ -29,7 +29,7 @@ nutrition_per_100g:
   folate_ug: 29.58
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushroom, lion''s mane'
+  food_name: Mushroom, lion's mane
   fdc_id: 1999626
   retrieval_method: API
   basis: per 100 g edible portion
@@ -41,18 +41,65 @@ nutrition_supplementary_sources:
   - key: polysaccharides_qual
     label: Polysaccharides
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Lion's Mane Mushroom is characterised by fungal polysaccharides; USDA SR
-      Legacy has no record for this mushroom, so quantity is not established.
+      Unveiling the Chemical Composition and Biofunctionality of Hericium spp.
+      Fungi (2024). Review identifies polysaccharides isolated from H. erinaceus
+      fruiting bodies, independently of mycelium-only compounds.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11172836/
+    source_group: hericium-polys
+    public_note: Reported in Hericium erinaceus fruiting bodies.
+    notes: Hericium erinaceus fruiting bodies
+    source_reference: '#food-source-3'
   - key: vitamin_b3_qual
     label: Vitamin B3
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Lion's Mane Mushroom is grouped with culinary mushrooms as a
-      niacin-containing fungus; USDA SR Legacy has no record for this specialty
-      mushroom, so quantity is not established.
+      Edible mushrooms for improved human health, food security and
+      environmental sustainability: A critical review (2025). Composition table
+      explicitly identifies niacin (B3) in Hericium erinaceus; no total
+      B-vitamins inference or per-protein value used.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://www.sciencedirect.com/science/article/abs/pii/S0048969725017334
+    source_group: lions-niacin
+    public_note: Reported in Hericium erinaceus fruiting body.
+    notes: Hericium erinaceus fruiting body
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: Polysaccharides
+    relationship: contains
+    description: Reported in Hericium erinaceus fruiting bodies.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lions-mane-mushroom|Polysaccharides
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Unveiling the Chemical Composition and Biofunctionality of Hericium spp.
+      Fungi (2024)
+    evidence_material: Hericium erinaceus fruiting bodies
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11172836/
+    source_reference: '#food-source-3'
+  - substance: Vitamin B3
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Edible mushrooms for improved human health, food security and
+      environmental sustainability: A critical review (2025)
+    evidence_material: Hericium erinaceus fruiting body
+    source_url: https://www.sciencedirect.com/science/article/abs/pii/S0048969725017334
+    description: Reported in Hericium erinaceus fruiting body.
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -88,3 +135,11 @@ Within the BRAIN Diet framework, while preclinical research suggests potential b
 [1] Mushrooms including lion's mane supply beta-glucans and fungal polysaccharides studied for immune and gut effects. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
 
 [2] Dietary bioactives from fungi may interact with gut microbiota composition. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+
+<span id="food-source-3" />
+
+[3] [Unveiling the Chemical Composition and Biofunctionality of Hericium spp. Fungi (2024)](/docs/papers/BRAIN-Diet-References#food_composition_0c4492e0f64c)
+
+<span id="food-source-4" />
+
+[4] [Edible mushrooms for improved human health, food security and environmental sustainability: A critical review (2025)](/docs/papers/BRAIN-Diet-References#food_composition_6e9fdf0e9d35)

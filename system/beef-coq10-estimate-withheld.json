@@ -1,0 +1,13 @@
+{
+  "row": {
+    "key": "coq10_mg",
+    "label": "Coenzyme Q10 (CoQ10)",
+    "value": 2.5,
+    "unit": "mg",
+    "notes": "Mitochondrial ubiquinone; cut and cooking method alter measured content.",
+    "source_note": "Representative value within the measured range for beef muscle reported by Mattila & Kumpulainen (2001); cut strongly affects the result.\n",
+    "public_note": "Mattila & Kumpulainen (2001) supports this source-specific measurement. See technical provenance for food form and measurement details.",
+    "source_group": "Mattila & Kumpulainen (2001) supports this source-specific measurement. See technical provenance for food form and measurement details."
+  },
+  "reason": "Representative midpoint is not a selected-cut measurement; merged duplicate public CoQ10 rows into one qualitative record."
+}

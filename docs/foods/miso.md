@@ -47,7 +47,7 @@ nutrition_per_100g:
   omega3_mg: 405
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    identity: '18:3 n-3 (ALA; USDA 1270 interpreted)'
     amount_mg: 405
 public_display:
   ala_mg: internal-only
@@ -58,7 +58,7 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-  limitations: Unqualified 18:3 on this record is documented in FCIR-018.
+  limitations: 'Unqualified 18:3 on this record is documented in FCIR-018.'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/miso/miso_medium.webp
@@ -66,14 +66,28 @@ legacy_list_image: /img/foods/miso/miso_thumb.webp
 legacy_main_image: /img/foods/miso/miso_medium.webp
 nutrition_supplementary_sources:
   - key: ala_interpreted
-    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    label: 'Alpha-linolenic acid (ALA; 18:3 n-3)'
     value: 0.405
     unit: g
-    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    notes: 'USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404'
     public_display: table
     exclude_from_recipe_sum: true
     fcir_case: FCIR-018
     source_note: This value uses a documented composition interpretation. See FCIR-018.
+    public_note: This value uses a documented composition interpretation.
+    source_group: This value uses a documented composition interpretation.
+substance_relationships:
+  - substance: Sodium
+    relationship: contains
+    description: USDA FoodData Central reports sodium in Miso.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: miso|Sodium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Miso
+    source_url: 'https://fdc.nal.usda.gov/food-details/172442/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

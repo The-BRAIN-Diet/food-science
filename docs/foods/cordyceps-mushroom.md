@@ -34,10 +34,39 @@ nutrition_supplementary_sources:
   - key: polysaccharides_qual
     label: Polysaccharides
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cordyceps Mushroom is characterised by fungal polysaccharides; USDA SR
-      Legacy has no record for this mushroom, so quantity is not established.
+      Structural Elucidation and Activities of Cordyceps militaris-Derived
+      Polysaccharides (2022). Fruiting-body section identifies polysaccharides
+      independently of fermentation-broth/extracellular yields.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9193282/
+    source_group: cordyceps-polys
+    public_note: >-
+      Polysaccharides occur in Cordyceps militaris fruiting bodies; extracts and
+      mycelial products differ.
+    notes: cultivated Cordyceps militaris fruiting bodies
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Polysaccharides
+    relationship: contains
+    description: >-
+      Polysaccharides occur in Cordyceps militaris fruiting bodies; extracts and
+      mycelial products differ.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cordyceps-mushroom|Polysaccharides
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Structural Elucidation and Activities of Cordyceps militaris-Derived
+      Polysaccharides (2022)
+    evidence_material: cultivated Cordyceps militaris fruiting bodies
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9193282/
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -78,3 +107,7 @@ Within the BRAIN Diet framework, cordyceps is a medicinal-mushroom adjunct; evid
 ## References
 
 [1] Cordycepin and polysaccharide bioactives in functional mushroom matrices. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+
+<span id="food-source-2" />
+
+[2] [Structural Elucidation and Activities of Cordyceps militaris-Derived Polysaccharides (2022)](/docs/papers/BRAIN-Diet-References#food_composition_fc8d90311518)

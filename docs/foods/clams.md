@@ -58,7 +58,7 @@ omega3_components:
     amount_mg: 15
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mollusks, clam, mixed species, raw'
+  food_name: Mollusks, clam, mixed species, raw
   fdc_id: 174214
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -70,8 +70,59 @@ nutrition_supplementary_sources:
   - key: taurine_qual
     label: Taurine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: Taurine is a characteristic free amino sulfonic acid in Clams; USDA SR Legacy does not include a taurine field.
+    amount_display: Present
+    source_note: >-
+      The potential protective effects of taurine on coronary heart disease
+      (2009). Table 2 separately identifies taurine in raw clams, raw scallops
+      and dark chicken/turkey meat.
+    public_note: Contains taurine; the amount varies with the food and cooking.
+    source_group: taurine-foods
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/
+    notes: clam or scallop edible tissue, or dark poultry meat
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Mollusks, clam, mixed species, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: clams|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, clam, mixed species, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174214/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Mollusks, clam, mixed
+      species, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: clams|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, clam, mixed species, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174214/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Taurine
+    relationship: contains
+    description: Contains taurine; the amount varies with the food and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: clams|Taurine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      The potential protective effects of taurine on coronary heart disease
+      (2009)
+    evidence_material: clam or scallop edible tissue, or dark poultry meat
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -110,3 +161,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts. Wójcik & Koenig 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
 
 [2] Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health. Pawlak & Parrott 2013. [How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+
+<span id="food-source-3" />
+
+[3] [The potential protective effects of taurine on coronary heart disease (2009)](/docs/papers/BRAIN-Diet-References#food_composition_d8e1ccc9fc16)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_35566e45e4c7)

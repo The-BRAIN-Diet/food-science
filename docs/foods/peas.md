@@ -69,6 +69,13 @@ nutrition_supplementary_sources:
       spermidine-containing food. The selected USDA panel does not quantify this
       analyte. A comparable product-specific per-100 g value is not established
       here. https://doi.org/10.3390/foods10081752
+    public_note: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_url: 'https://doi.org/10.3390/foods10081752'
 substance_relationships:
   - substance: Spermidine
     relationship: contains
@@ -77,8 +84,31 @@ substance_relationships:
       varies with the sample and preparation.
     citation_keys:
       - munoz_esparza_food_polyamines_2021
+  - substance: Vitamin B1
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B1 in Peas, green, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peas|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peas, green, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170419/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Peas, green, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peas|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peas, green, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170419/nutrients'
+    presence_status: presence_and_amount_supported
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
+substance_review_candidates: []
 ---
 ## Overview
 

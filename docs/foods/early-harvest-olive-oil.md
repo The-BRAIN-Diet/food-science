@@ -13,7 +13,6 @@ tags:
   - CoQ10
   - Hydroxytyrosol
   - Tyrosol
-  - Oleuropein
   - Oleocanthal
   - Oleacein
   - Polyphenol
@@ -32,7 +31,7 @@ nutrition_per_100g:
   vitamin_k_ug: 60.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oil, olive, salad or cooking'
+  food_name: Oil, olive, salad or cooking
   fdc_id: 171413
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -44,18 +43,43 @@ nutrition_supplementary_sources:
   - key: hydroxytyrosol_qual
     label: Hydroxytyrosol
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Olive-oil phenol composition includes hydroxytyrosol in Olive Oil (Early
-      Harvest); USDA SR Legacy olive-oil records do not report individual
-      phenols.
+      Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils. Virgin-oil
+      phenolic composition includes individual phenolic alcohols and the
+      oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its
+      derivatives.
+    public_note: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    source_group: olive-phenols
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    notes: virgin olive oil
+    source_reference: '#food-source-1'
   - key: tyrosol_qual
     label: Tyrosol
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Olive-oil phenol composition includes tyrosol in Olive Oil (Early
-      Harvest); USDA SR Legacy does not report individual phenols.
+      Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils. Virgin-oil
+      phenolic composition includes individual phenolic alcohols and the
+      oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its
+      derivatives.
+    public_note: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    source_group: olive-phenols
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    notes: virgin olive oil
+    source_reference: '#food-source-1'
   - key: oleuropein_qual
     label: Oleuropein
     status: Present — quantity not established
@@ -63,55 +87,167 @@ nutrition_supplementary_sources:
     source_note: >-
       Olive Oil (Early Harvest) retains oleuropein-related secoiridoids typical
       of early-harvest fruit; USDA SR Legacy does not report oleuropein.
+    public_note: >-
+      Olive Oil (Early Harvest) retains oleuropein-related secoiridoids typical
+      of early-harvest fruit; USDA SR Legacy does not report oleuropein.
+    source_group: >-
+      Olive Oil (Early Harvest) retains oleuropein-related secoiridoids typical
+      of early-harvest fruit; USDA SR Legacy does not report oleuropein.
+    public_display: internal-only
+    omit_substance_card: true
+    evidence_status: unresolved
   - key: oleocanthal_qual
     label: Oleocanthal
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Olive Oil (Early Harvest) is a documented source of oleocanthal; USDA SR
-      Legacy does not report this phenol.
+      Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils. Virgin-oil
+      phenolic composition includes individual phenolic alcohols and the
+      oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its
+      derivatives.
+    public_note: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    source_group: olive-phenols
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    notes: virgin olive oil
+    source_reference: '#food-source-1'
   - key: oleacein_qual
     label: Oleacein
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Olive Oil (Early Harvest) is a documented source of oleacein; USDA SR
-      Legacy does not report this phenol.
+      Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils. Virgin-oil
+      phenolic composition includes individual phenolic alcohols and the
+      oleacein/oleocanthal secoiridoids; intact oleuropein not inferred from its
+      derivatives.
+    public_note: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    source_group: olive-phenols
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    notes: virgin olive oil
+    source_reference: '#food-source-1'
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in Olive Oil (Early Harvest)
-      (e.g. Mattila & Kumpulainen 2001); USDA SR Legacy does not include a CoQ10
-      field.
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies. Table 1 identifies CoQ10 in extra virgin olive
+      oil. Early-harvest is within virgin olive oil; this supports presence
+      without an early-harvest amount or enhancement claim.
+    public_note: >-
+      CoQ10 is documented in virgin olive oil; an early-harvest-specific amount
+      is unavailable.
+    source_group: earlyolive-coq
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    notes: extra virgin olive oil
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Hydroxytyrosol
+    relationship: contains
+    description: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: early-harvest-olive-oil|Hydroxytyrosol
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils
+    evidence_material: virgin olive oil
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    source_reference: '#food-source-1'
+  - substance: Tyrosol
+    relationship: contains
+    description: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: early-harvest-olive-oil|Tyrosol
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils
+    evidence_material: virgin olive oil
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    source_reference: '#food-source-1'
+  - substance: Oleuropein
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: unresolved
+    recovery_audit: early-harvest-olive-oil|Oleuropein
+    presence_status: identity_or_presence_genuinely_unresolved
+    internal_review_reason: >-
+      Olive-oil evidence identifies oleuropein aglycone and derivatives, not
+      necessarily the intact oleuropein glycoside represented by this canonical
+      substance.
+  - substance: Oleocanthal
+    relationship: contains
+    description: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: early-harvest-olive-oil|Oleocanthal
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils
+    evidence_material: virgin olive oil
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    source_reference: '#food-source-1'
+  - substance: Oleacein
+    relationship: contains
+    description: >-
+      Occurs in virgin olive oil; concentration varies with production and
+      storage.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: early-harvest-olive-oil|Oleacein
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils
+    evidence_material: virgin olive oil
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/
+    source_reference: '#food-source-1'
+  - substance: CoQ10
+    relationship: contains
+    description: >-
+      CoQ10 is documented in virgin olive oil; an early-harvest-specific amount
+      is unavailable.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: early-harvest-olive-oil|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies
+    evidence_material: extra virgin olive oil
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    source_reference: '#food-source-2'
+substance_review_candidates:
+  - Oleuropein
 ---
 ## Overview
 
-Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harvested from olives picked earlier in the season when they contain significantly higher concentrations of bioactive compounds. **Olive oil's brain benefits come from polyphenols, not fatty acids.** Early harvest oils have substantially higher levels of the key secoiridoids and phenolics that provide brain health benefits:
-
-- **Oleuropein aglycone** → mitophagy, SIRT1, AMPK activation (up to 53-56% more CoQ10 than later harvest)
-- **Oleocanthal** → NF-κB inhibition, anti-inflammatory effects
-- **Oleacein** → antioxidant, NRF2 activation
-- **Tyrosol / Hydroxytyrosol** → neuroprotective effects
-
-These enhanced bioactive levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health. The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols .
-
-## Key Nutritional Highlights
-
-- **Olive oil's brain benefits come from polyphenols, not fatty acids.** Early harvest oils have substantially higher levels of the key secoiridoids and phenolics that provide brain health benefits: - **Oleuropein aglycone** → mitophagy, S…
-- The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleoca…
+Early-harvest extra virgin olive oil is made from olives picked earlier in the season. It contains phenolics including oleocanthal, oleacein, hydroxytyrosol and tyrosol. Amounts vary with the olives, harvest, processing and storage. Oleuropein-related derivatives in oil should be distinguished from intact oleuropein.
 
 ## Food Context
 
 ### Preparation
 
-- Best used for salad dressings, drizzling, and low-heat applications to preserve polyphenols and CoQ10
-- Avoid high-heat cooking to prevent degradation of bioactive compounds
-- Store away from heat and light to preserve antioxidant properties and CoQ10 levels
-- Look for harvest date information on labels; early harvest typically occurs in September-October (Northern Hemisphere)
-- Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting the critical importance of harvest timing
-- Higher polyphenol content provides stronger antioxidant and anti-inflammatory effects compared to standard EVOO
+- Use for dressings, drizzling and cooking.
+- Store away from heat and light.
+- Harvest timing alone does not guarantee a particular phenolic or CoQ10 concentration.
 
 ## Recipes
 
@@ -125,3 +261,11 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 
 ## References
 
+
+<span id="food-source-1" />
+
+[1] [Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils](/docs/papers/BRAIN-Diet-References#food_composition_2751bd2d180f)
+
+<span id="food-source-2" />
+
+[2] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)

@@ -2,7 +2,7 @@
 id: sesame-seeds
 title: Sesame Seeds
 sidebar_label: Sesame Seeds
-description: 'Whole sesame seed with unsaturated fat, minerals and lignans'
+description: Whole sesame seed with unsaturated fat, minerals and lignans
 tags:
   - Food
   - Sesame Seeds
@@ -50,7 +50,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 376
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Seeds, sesame seeds, whole, dried'
+  food_name: Seeds, sesame seeds, whole, dried
   fdc_id: 170150
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -61,17 +61,37 @@ nutrition_supplementary_sources:
   - key: sesamin_qual
     label: Sesamin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, seed fraction and
-      roasting (Andargie et al. 2021).
+      Sesame: A Comprehensive Review of Nutritional Value and Phytochemical
+      Composition (2022). Composition section identifies sesamin and sesamolin
+      separately in sesame seeds; no unrelated study range assigned.
+    public_note: Reported in sesame seeds.
+    source_group: sesame-lignans
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/
+    notes: sesame seeds
+    source_reference: '#food-source-10'
   - key: sesamolin_qual
     label: Sesamolin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Characteristic sesame lignan. Amount varies by cultivar, seed fraction and
-      roasting (Andargie et al. 2021).
+      Sesame: A Comprehensive Review of Nutritional Value and Phytochemical
+      Composition (2022). Composition section identifies sesamin and sesamolin
+      separately in sesame seeds; no unrelated study range assigned.
+    public_note: Reported in sesame seeds.
+    source_group: sesame-lignans
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/
+    notes: sesame seeds
+    source_reference: '#food-source-10'
   - key: spermidine_qual
     label: Spermidine
     status: Present — quantity not established
@@ -82,6 +102,14 @@ nutrition_supplementary_sources:
       identified as a spermidine-containing food. The selected USDA panel does
       not quantify this analyte. A comparable product-specific per-100 g value
       is not established here. https://doi.org/10.3390/foods10081752
+    public_note: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_url: https://doi.org/10.3390/foods10081752
+    source_reference: '#food-source-11'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: >-
   Legumes for lysine complementarity; grains are themselves typically
@@ -97,8 +125,109 @@ substance_relationships:
       concentration varies with the sample and preparation.
     citation_keys:
       - munoz_esparza_food_polyamines_2021
+  - substance: Oleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports oleic acid in Seeds, sesame seeds, whole,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Oleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Linoleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Seeds, sesame seeds, whole,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Seeds, sesame seeds, whole,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Copper
+    relationship: contains
+    description: USDA FoodData Central reports copper in Seeds, sesame seeds, whole, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Seeds, sesame seeds, whole, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Seeds, sesame seeds, whole, dried
+    source_url: https://fdc.nal.usda.gov/food-details/170150/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-12'
+  - substance: Sesamin
+    relationship: contains
+    description: Reported in sesame seeds.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Sesamin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Sesame: A Comprehensive Review of Nutritional Value and Phytochemical
+      Composition (2022)
+    evidence_material: sesame seeds
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/
+    source_reference: '#food-source-10'
+  - substance: Sesamolin
+    relationship: contains
+    description: Reported in sesame seeds.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sesame-seeds|Sesamolin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Sesame: A Comprehensive Review of Nutritional Value and Phytochemical
+      Composition (2022)
+    evidence_material: sesame seeds
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9573514/
+    source_reference: '#food-source-10'
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -172,3 +301,15 @@ Sesame is a major regulated food allergen. Reactions can be severe, and cross-co
 [8] McDonald et al. (2018). [American Gut: an Open Platform for Citizen Science Microbiome Research](/docs/papers/BRAIN-Diet-References#mcdonald_american_gut_2018). Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold.
 
 [9] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.
+
+<span id="food-source-10" />
+
+[10] [Sesame: A Comprehensive Review of Nutritional Value and Phytochemical Composition (2022)](/docs/papers/BRAIN-Diet-References#food_composition_d5966553a52d)
+
+<span id="food-source-11" />
+
+[11] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)
+
+<span id="food-source-12" />
+
+[12] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_a3f9bbec0035)

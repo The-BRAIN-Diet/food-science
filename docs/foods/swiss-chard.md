@@ -65,7 +65,7 @@ substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
-    process: Cleavage to retinal, then oxidation to retinoic acid
+    process: 'Cleavage to retinal, then oxidation to retinoic acid'
     description: >-
       Raw Swiss chard records 3,647 µg beta-carotene and 306 µg RAE vitamin A
       per 100 g. The dominant precursor is beta-carotene. The food is not
@@ -73,6 +73,109 @@ substance_relationships:
     citation_keys:
       - harrison_vitamin_a_absorption_2012
       - duester_retinoic_acid_2008
+  - substance: Beta-Carotene
+    relationship: contains
+    description: 'USDA FoodData Central reports beta-carotene in Chard, swiss, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Chard, swiss, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Chard, swiss, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Chard, swiss, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Chard, swiss, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Chard, swiss, raw.  This
+      vitamin K record is not a vitamin K2 measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chard, swiss, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169991/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Barickman and Kopsell (2016) conference poster identified lutein in fresh
+      swiss chard leaf tissue, rhubarb red and oriole orange cultivars. A
+      separate amount for this page’s preparation is not established.
+    source_url: >-
+      https://ashs.confex.com/ashs/2016/webprogram/Presentation/Paper24703/Barickman%20and%20Kopsell-2016%20Swiss%20Chard%20N.pdf
+    evidence_note: >-
+      Conference poster, Tables 1–3; HPLC of fresh-mass shoot tissue in two
+      nutrient-solution-grown cultivars. Individual lutein and zeaxanthin
+      columns are positive. Not a generic cooked or frozen composition.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Lutein
+    evidence_source: 'Barickman and Kopsell (2016) conference poster, Tables 1–3'
+    evidence_material: 'Fresh Swiss chard leaf tissue, Rhubarb Red and Oriole Orange cultivars'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Barickman and Kopsell (2016) conference poster identified zeaxanthin in
+      fresh swiss chard leaf tissue, rhubarb red and oriole orange cultivars. A
+      separate amount for this page’s preparation is not established.
+    source_url: >-
+      https://ashs.confex.com/ashs/2016/webprogram/Presentation/Paper24703/Barickman%20and%20Kopsell-2016%20Swiss%20Chard%20N.pdf
+    evidence_note: >-
+      Conference poster, Tables 1–3; HPLC of fresh-mass shoot tissue in two
+      nutrient-solution-grown cultivars. Individual lutein and zeaxanthin
+      columns are positive. Not a generic cooked or frozen composition.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: swiss-chard|Zeaxanthin
+    evidence_source: 'Barickman and Kopsell (2016) conference poster, Tables 1–3'
+    evidence_material: 'Fresh Swiss chard leaf tissue, Rhubarb Red and Oriole Orange cultivars'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -2,7 +2,7 @@
 id: cinnamon
 title: Cinnamon
 sidebar_label: Cinnamon
-description: 'Glycemic control, insulin sensitivity, and cognitive support'
+description: Glycemic control, insulin sensitivity, and cognitive support
 tags:
   - Food
   - Cinnamon
@@ -53,7 +53,7 @@ omega3_components:
     amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Spices, cinnamon, ground'
+  food_name: Spices, cinnamon, ground
   fdc_id: 171320
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -66,10 +66,33 @@ nutrition_supplementary_sources:
   - key: cinnamaldehyde_qual
     label: Cinnamaldehyde
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cinnamaldehyde is the defining volatile of Cinnamon bark oil; it is not
-      reported in USDA SR Legacy nutrient panels.
+      Ranasinghe et al. (2013), Medicinal properties of true cinnamon.
+      Composition identifies cinnamaldehyde in cinnamon bark, distinct from leaf
+      eugenol and root camphor.
+    public_note: Reported in cinnamon bark.
+    source_group: cinnamon
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3854496/
+    notes: cinnamon bark
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Cinnamaldehyde
+    relationship: contains
+    description: Reported in cinnamon bark.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cinnamon|Cinnamaldehyde
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Ranasinghe et al. (2013), Medicinal properties of true cinnamon
+    evidence_material: cinnamon bark
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3854496/
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -138,3 +161,7 @@ Cinnamon contribute plant protein. Pair with complementary protein sources (e.g.
 ## References
 
 [1] Polyphenol-rich spice with glycaemic-control research interest. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+
+<span id="food-source-2" />
+
+[2] [Ranasinghe et al. (2013), Medicinal properties of true cinnamon](/docs/papers/BRAIN-Diet-References#food_composition_bff5b40ffef8)

@@ -51,7 +51,7 @@ nutrition_per_100g:
   arginine_g: 0.059
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Watermelon, raw'
+  food_name: Watermelon, raw
   fdc_id: 167765
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -63,10 +63,91 @@ nutrition_supplementary_sources:
   - key: citrulline_qual
     label: Citrulline
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: 109–452 mg per 100 g fresh flesh (study cultigen means)
     source_note: >-
-      Watermelon flesh and rind are documented dietary sources of L-citrulline;
-      USDA SR Legacy does not report citrulline.
+      Davis et al. (2011), L-Citrulline Levels in Watermelon Cultigens Tested in
+      Two Environments, abstract and Table 1: cultigen means 1.09–4.52 mg/g
+      fresh sample. Multiplying by 100 g gives 109–452 mg/100 g. TLC quantified
+      the screening samples; selected samples were compared using HPLC. Fresh
+      ripe fruit centre flesh, homogenized and frozen for analysis. No unrelated
+      preparation ranges combined.
+    public_note: >-
+      Davis et al. (2011): range of cultigen means in one fresh-flesh study;
+      amounts varied with growing location. This is not a guaranteed range for
+      every watermelon.
+    source_group: watermelon
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    source_url: >-
+      https://cucurbitbreeding.wordpress.ncsu.edu/files/2016/04/l-citrulline-levels-in-watermelon-cultigens-tested-in-two-environments.pdf
+    notes: fresh watermelon flesh
+    amount_min: 109
+    amount_max: 452
+    unit: mg
+    basis: per 100 g fresh ripe watermelon flesh
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Lycopene
+    relationship: contains
+    description: USDA FoodData Central reports lycopene in Watermelon, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watermelon|Lycopene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Watermelon, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167765/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Arginine
+    relationship: contains
+    description: USDA FoodData Central reports arginine in Watermelon, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watermelon|Arginine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Watermelon, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167765/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-4'
+  - substance: Potassium
+    relationship: contains
+    description: USDA FoodData Central reports potassium in Watermelon, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watermelon|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Watermelon, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167765/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin C
+    relationship: contains
+    description: USDA FoodData Central reports vitamin C in Watermelon, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watermelon|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Watermelon, raw
+    source_url: https://fdc.nal.usda.gov/food-details/167765/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Citrulline
+    relationship: contains
+    description: Reported in fresh watermelon flesh.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watermelon|Citrulline
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      Wehner et al. (2011), L-citrulline levels in watermelon cultigens tested
+      in two environments
+    evidence_material: fresh watermelon flesh
+    source_url: >-
+      https://cucurbitbreeding.wordpress.ncsu.edu/files/2016/04/l-citrulline-levels-in-watermelon-cultigens-tested-in-two-environments.pdf
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -117,3 +198,11 @@ Watermelon is included because it contributes to a connected biological network 
 [1] Avgerinos et al. (2018). [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
 
 [2] Mariotti & Gardner (2019). [Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+<span id="food-source-3" />
+
+[3] [Wehner et al. (2011), L-citrulline levels in watermelon cultigens tested in two environments](/docs/papers/BRAIN-Diet-References#food_composition_ef718bcbebc1)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_8d6250372e28)

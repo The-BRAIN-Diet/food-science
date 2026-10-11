@@ -62,7 +62,7 @@ omega3_components:
     amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mollusks, oyster, eastern, wild, raw'
+  food_name: Mollusks, oyster, eastern, wild, raw
   fdc_id: 171978
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -83,6 +83,14 @@ nutrition_supplementary_sources:
       (Ostrea edulis) in the Danish FRIDA database are lower (~171 mg EPA per
       100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an
       indicative range.
+    public_note: >-
+      FDC 1742 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_group: >-
+      FDC 1742 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_url: https://tools.myfooddata.com/nutrition-facts/174250/wt2
+    source_reference: '#food-source-3'
   - key: dha_mg
     label: DHA
     value: 500
@@ -98,17 +106,137 @@ nutrition_supplementary_sources:
       (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per
       100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an
       indicative range.
+    public_note: >-
+      FDC 1742 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_group: >-
+      FDC 1742 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_url: https://tools.myfooddata.com/nutrition-facts/174250/wt2
+    source_reference: '#food-source-3'
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Oysters is a phospholipid-rich food in which phosphatidylcholine is a
-      major choline form; USDA SR Legacy reports choline, not
-      phosphatidylcholine specifically.
+      Exploitable Lipids in Crassostrea gigas on the French Atlantic Coast
+      (2016). Primary study separately identifies phosphatidylcholine in oyster
+      tissue across seasons; lipid fractions not food-mass quantities.
+    public_note: Reported in Pacific oyster edible tissue.
+    source_group: oyster-pc
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4926063/
+    notes: Pacific oyster edible tissue
+    source_reference: '#food-source-4'
 main_image: /img/foods/oysters/oysters_medium.webp
 legacy_list_image: /img/foods/oysters/oysters_thumb.webp
 legacy_main_image: /img/foods/oysters/oysters_medium.webp
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: EPA
+    relationship: contains
+    description: USDA FoodData Central reports EPA in Mollusks, oyster, eastern, wild, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Mollusks, oyster,
+      eastern, wild, raw. This class link does not treat a combined total as
+      EPA, DHA or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-5'
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Mollusks, oyster, eastern, wild,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Mollusks, oyster, eastern, wild,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Mollusks, oyster, eastern, wild,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Mollusks, oyster, eastern,
+      wild, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, oyster, eastern, wild, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171978/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Phosphatidylcholine
+    relationship: contains
+    description: Reported in Pacific oyster edible tissue.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oysters|Phosphatidylcholine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Exploitable Lipids in Crassostrea gigas on the French Atlantic Coast
+      (2016)
+    evidence_material: Pacific oyster edible tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4926063/
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -154,3 +282,15 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Among commonly eaten foods, oysters are notable for their zinc density, supporting enzymes involved in neurotransmitter synthesis, antioxidant defence, and immune function. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
 [2] Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability. Yang & Li 2024. [Understanding the variable metal concentrations in estuarine oysters Crassostrea hongkongensis: A biokinetic analysis](/docs/papers/BRAIN-Diet-References#yang_metal_oysters_2024)
+
+<span id="food-source-3" />
+
+[3] [Composition evidence for EPA](/docs/papers/BRAIN-Diet-References#food_composition_bf423801311d)
+
+<span id="food-source-4" />
+
+[4] [Exploitable Lipids in Crassostrea gigas on the French Atlantic Coast (2016)](/docs/papers/BRAIN-Diet-References#food_composition_491acbc23c17)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_1acaef739022)

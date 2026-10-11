@@ -2,7 +2,9 @@
 id: radicchio
 title: Radicchio
 sidebar_label: Radicchio
-description: Bitter red chicory leaf providing lutein and vitamin K
+description: >-
+  Bitter red chicory leaf; lutein and zeaxanthin are reported together, with
+  vitamin K
 tags:
   - Food
   - Radicchio
@@ -47,7 +49,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.057
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Radicchio, raw'
+  food_name: Radicchio, raw
   fdc_id: 168564
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -55,10 +57,55 @@ nutrition_source:
 main_image: /img/foods/radicchio/radicchio_medium.webp
 legacy_list_image: /img/foods/radicchio/radicchio_thumb.webp
 legacy_main_image: /img/foods/radicchio/radicchio_medium.webp
+substance_relationships:
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Radicchio, raw.  This vitamin K
+      record is not a vitamin K2 measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: radicchio|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Radicchio, raw
+    source_url: https://fdc.nal.usda.gov/food-details/168564/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Lutein
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Influence of UV radiation-absorbing foils on metabolites in lettuce
+      cultivars (2023)
+    evidence_material: radicchio-type Cichorium intybus Indigo leaves
+    source_url: >-
+      https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2023.1208100/full
+    description: >-
+      Individually documented in radicchio leaves; a separate fresh-food amount
+      is unavailable.
+    source_reference: '#food-source-4'
+  - substance: Zeaxanthin
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Influence of UV radiation-absorbing foils on metabolites in lettuce
+      cultivars (2023)
+    evidence_material: radicchio-type Cichorium intybus Indigo leaves
+    source_url: >-
+      https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2023.1208100/full
+    description: >-
+      Individually documented in radicchio leaves; a separate fresh-food amount
+      is unavailable.
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
-Radicchio is a bitter red chicory leaf used in mixed salads for colour and contrast. It is a concentrated source of **lutein** and **zeaxanthin** among salad leaves, and it also supplies **vitamin K**.
+Radicchio is a bitter red chicory leaf used in mixed salads for colour and contrast. The composition table reports 8,832 µg lutein plus zeaxanthin per 100 g. A separate lutein amount and a separate zeaxanthin amount are not established for this leaf. It also supplies **vitamin K**.
 
 Within a BRAIN-aligned pattern it is included as a distinctive salad chicory rather than as a generic lettuce substitute. Dietary fat in the same meal supports absorption of those carotenoids [1,2].
 
@@ -66,7 +113,7 @@ Within a BRAIN-aligned pattern it is included as a distinctive salad chicory rat
 
 ### Synergies
 
-- Pair with a fat-containing dressing so lutein and zeaxanthin from the leaf are absorbed more effectively [1].
+- Pair with a fat-containing dressing so carotenoids from the leaf are absorbed more effectively [1].
 - The bitter flavour is useful against creamy or sweet dressings; it is not a reason to cook the leaf as if it were a root chicory.
 
 ### Preparation
@@ -88,4 +135,12 @@ Within a BRAIN-aligned pattern it is included as a distinctive salad chicory rat
 
 [1] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Adding avocado fruit or avocado oil to salad increased human absorption of α-carotene, β-carotene and lutein versus the same salad without added lipid.
 
-[2] Johnson (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014). Labelled lutein/zeaxanthin context: this review is not a radicchio feeding trial; radicchio composition includes lutein and zeaxanthin as reported in the table.
+[2] Johnson (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014). This review is not a radicchio feeding trial. The table on this page reports lutein and zeaxanthin as one sum.
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_abe4315539bc)
+
+<span id="food-source-4" />
+
+[4] [Influence of UV radiation-absorbing foils on metabolites in lettuce cultivars (2023)](/docs/papers/BRAIN-Diet-References#food_composition_4d6d5ad0c096)

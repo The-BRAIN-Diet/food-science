@@ -60,9 +60,18 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      reports quercetin glycosides in Onions; a single defensible per-100 g
-      value is not taken from the abbreviated USDA nutrient panel.
+      USDA flavonoid database Release 3.3 (2018); Printed page 81; Onions, raw
+      (bulb); NDB 11282. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Onions, raw (bulb); NDB 11282 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: kaempferol_qual
     label: Kaempferol
     status: Present — quantity not established
@@ -71,11 +80,41 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Onions; a single defensible per-100 g value is not
       taken from the abbreviated USDA nutrient panel.
+    public_note: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Onions, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: onions|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Onions, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170000/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Quercetin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies quercetin-derived glycosides in
+      onions, raw (bulb). A separate amount for this page is not established.
+      This does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: onions|Quercetin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Onions, raw (bulb); NDB 11282'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

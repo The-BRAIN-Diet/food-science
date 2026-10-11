@@ -58,7 +58,7 @@ nutrition_per_100g:
   choline_mg: 12
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cocoa, dry powder, unsweetened'
+  food_name: Cocoa, dry powder, unsweetened
   fdc_id: 169593
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -66,8 +66,6 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: epicatechin_mg
     label: Epicatechin
-    value: 196
-    unit: mg
     notes: >-
       Dominant monomeric flavanol in minimally processed cacao powder; much
       lower in Dutch-processed cocoa.
@@ -75,20 +73,47 @@ nutrition_supplementary_sources:
       Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340
       mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and
       alkalisation.
+    public_note: >-
+      Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340
+      mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and
+      alkalisation.
+    source_group: estimate-epicatechin_mg
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 196 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    value: 196
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-7'
   - key: catechin_mg
     label: Catechin
-    value: 51
-    unit: mg
     notes: >-
       Present alongside epicatechin; processing can shift stereochemistry and
       relative abundance.
     source_note: >-
       Phenol-Explorer cocoa powder range for (+)-catechin: ~10–92 mg/100 g (mean
       ~51 mg/100 g); roasting and Dutch processing alter flavan-3-ol profiles.
+    public_note: >-
+      Phenol-Explorer cocoa powder range for (+)-catechin: ~10–92 mg/100 g (mean
+      ~51 mg/100 g); roasting and Dutch processing alter flavan-3-ol profiles.
+    source_group: estimate-catechin_mg
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 51 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    value: 51
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-7'
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
-    value: 344
-    unit: mg
     notes: >-
       Oligomeric flavanols; fraction varies with fermentation, roasting, and
       alkalisation.
@@ -96,6 +121,22 @@ nutrition_supplementary_sources:
       Proanthocyanidin oligomer fraction in natural cocoa powder reported
       ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and
       process-dependent.
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 344 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_group: estimate-oligomeric_procyanidins_mg
+    public_note: >-
+      Proanthocyanidin oligomer fraction in natural cocoa powder reported
+      ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and
+      process-dependent.
+    value: 344
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-7'
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
     label: Total polyphenols (Folin-type)
@@ -106,6 +147,110 @@ nutrition_functional_metrics:
 main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
 legacy_list_image: /img/foods/cacao-powder/cacao-powder_thumb.webp
 legacy_main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: USDA FoodData Central reports magnesium in Cocoa, dry powder, unsweetened.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cocoa, dry powder, unsweetened
+    source_url: https://fdc.nal.usda.gov/food-details/169593/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Cocoa, dry powder, unsweetened.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cocoa, dry powder, unsweetened
+    source_url: https://fdc.nal.usda.gov/food-details/169593/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Zinc
+    relationship: contains
+    description: USDA FoodData Central reports zinc in Cocoa, dry powder, unsweetened.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cocoa, dry powder, unsweetened
+    source_url: https://fdc.nal.usda.gov/food-details/169593/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Epicatechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Epicatechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-7'
+  - substance: Catechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Catechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-7'
+  - substance: Oligomeric Procyanidins
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-powder|Oligomeric Procyanidins
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-7'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Epicatechin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 196 mg per 100 g. Original note:
+      Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340
+      mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and
+      alkalisation.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'Catechin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 51 mg per 100 g. Original note:
+      Phenol-Explorer cocoa powder range for (+)-catechin: ~10–92 mg/100 g (mean
+      ~51 mg/100 g); roasting and Dutch processing alter flavan-3-ol profiles.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'Oligomeric Procyanidins amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 344 mg per 100 g. Original note:
+      Proanthocyanidin oligomer fraction in natural cocoa powder reported
+      ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and
+      process-dependent.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
 ---
 ## Overview
 
@@ -180,3 +325,11 @@ When cacao powder contributes meaningfully to protein intake in a meal, pair wit
 [5] Godebo et al. (2024). [Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024). Select low-Cd/Pb origins with published contaminant testing where available; Latin American origins often show higher cadmium than West African beans, mainly reflecting soil geology.
 
 [6] Zhai et al. (2015). [Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015). Pair with calcium- and zinc-containing foods as part of a broader strategy that may help reduce cadmium uptake over time.
+
+<span id="food-source-7" />
+
+[7] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)
+
+<span id="food-source-8" />
+
+[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_fe75cc0bb9f2)

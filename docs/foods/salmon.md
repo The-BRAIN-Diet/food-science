@@ -2,7 +2,7 @@
 id: salmon
 title: Salmon
 sidebar_label: Salmon
-description: 'Oily fish rich in EPA/DHA, protein, and B vitamins'
+description: Oily fish rich in EPA/DHA, protein, and B vitamins
 tags:
   - Food
   - Salmon
@@ -67,7 +67,7 @@ omega3_components:
     amount_mg: 148
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish, salmon, Atlantic, farmed, raw'
+  food_name: Fish, salmon, Atlantic, farmed, raw
   fdc_id: 175167
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -75,8 +75,6 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: astaxanthin_mg
     label: Astaxanthin
-    value: 3.2
-    unit: mg
     notes: >-
       Carotenoid pigment; farmed salmon levels depend strongly on feed
       astaxanthin formulation.
@@ -84,9 +82,111 @@ nutrition_supplementary_sources:
       Literature estimate for farmed Atlantic salmon; carotenoid content varies
       by feed and species (e.g. Turujman et al., 1997; USDA does not report
       astaxanthin).
+    public_note: >-
+      Literature estimate for farmed Atlantic salmon; carotenoid content varies
+      by feed and species (e.g. Turujman et al., 1997; USDA does not report
+      astaxanthin).
+    source_group: estimate-astaxanthin_mg
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 3.2 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952918/
+    value: 3.2
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-3'
 main_image: /img/foods/salmon/salmon_medium.webp
 legacy_list_image: /img/foods/salmon/salmon_thumb.webp
 legacy_main_image: /img/foods/salmon/salmon_medium.webp
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: EPA
+    relationship: contains
+    description: USDA FoodData Central reports EPA in Fish, salmon, Atlantic, farmed, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports alpha-linolenic acid, EPA, DHA, total
+      omega-3 in Fish, salmon, Atlantic, farmed, raw. This class link does not
+      treat a combined total as EPA, DHA or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-4'
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Fish, salmon, Atlantic, farmed,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Fish, salmon, Atlantic,
+      farmed, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Astaxanthin
+    relationship: contains
+    description: Astaxanthin occurs in salmon flesh; content depends on the fish and feed.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: salmon|Astaxanthin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Salmon fillet nutritional composition feeding study (2025)
+    evidence_material: salmon fillet
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11952918/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Astaxanthin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 3.2 mg per 100 g. Original note: Literature
+      estimate for farmed Atlantic salmon; carotenoid content varies by feed and
+      species (e.g. Turujman et al., 1997; USDA does not report astaxanthin).
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 
@@ -136,3 +236,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations. McNamara & Carlson 2006. [Omega-3 fatty acids and neuropsychiatric function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
 [2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive outcomes in adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)
+
+<span id="food-source-3" />
+
+[3] [Salmon fillet nutritional composition feeding study (2025)](/docs/papers/BRAIN-Diet-References#food_composition_5cdbf4d42fc5)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_b71c83b1a950)

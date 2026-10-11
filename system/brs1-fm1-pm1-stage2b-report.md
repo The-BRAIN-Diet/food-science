@@ -96,7 +96,7 @@ phenylalanine as a member of that set.
 | Atom | Decision | Addressability | Ceiling | Evidence |
 |------|----------|----------------|---------|----------|
 | **PM1-DIT-1** Indispensable amino-acid supply | **Retain Direct** | `direct` | `dietary-provision` | Mariotti 2019; Moughan 2024 |
-| **PM1-DIT-2** Dietary protein | **Retain Derived → IAA supply** | `direct` | `dietary-provision` | Mariotti 2019; Moughan 2024 |
+| **PM1-DIT-2** Dietary protein | **Consolidated into PM1-DIT-1; no separate public requirement** | Delivery evidence retained | `dietary-provision` | Gorissen 2020; Mariotti 2019; Moughan 2024 |
 | **PM1-DIT-3** Complementary plant-protein pairing | **Not admitted** | n/a | n/a | Marsh 2013; Mariotti 2019. Variety across the diet ≠ same-meal pairing. |
 | **PM1-DIT-4** Tyrosine | **Demoted from Direct DR** | n/a | `biological-dependency` | Matthews 2007; Aquili 2020. Now §4.1.2 inventory only. |
 | **PM1-DIT-5** Tryptophan | **Retain Direct substrate** | `direct` | `dietary-provision` | Mariotti 2019; Aquili 2020 |
@@ -136,7 +136,6 @@ The profile note was removed. Provision, the monoamine ceiling, and the complete
 Rendered labels and compact qualifiers:
 
 - Indispensable amino-acid supply — Direct · Nutrient / compound class
-- Dietary protein — Derived · Substrate Provision → Indispensable amino-acid supply
 - Tryptophan — Direct · Substrate
 
 Five-atom copy (reader disclosure):
@@ -187,6 +186,10 @@ No mapping established.
 
 | Layer | Result |
 |-------|--------|
-| §4.1.1 | IAA supply (Direct); dietary protein (Derived); tryptophan (Direct). |
+| §4.1.1 | IAA supply (Direct); tryptophan (Direct). Dietary-protein delivery consolidated into DIT-1. |
 | §4.1.2 | Tyrosine only. Tryptophan is not reprinted: same role as the §4.1.1 Direct substrate. |
 | §4.1.3 | No mapping established. Quality-arm PM↔KC1 remains a candidate in this audit (`KC-CC-BRS1-FM1-PM1-01`). Competitive balance remains PM2. |
+
+## 2026-10-11 provision consolidation
+
+PM1-DIT-2 is retained in the historical five-atom account above, but removed from active traceability, lever admission and public presentation. Its delivery relationship supplies the defined indispensable-amino-acid pool already admitted as PM1-DIT-1; it does not establish another requirement. Gorissen 2020 remains PM1-F1 evidence of circulating dietary phenylalanine; Mariotti 2019 and Moughan 2024 remain PM1-F2 coverage evidence. No Findings or sources were removed. Public Overview continues to explain protein delivery. DIT-1 remains Direct; DIT-5 and DIT-4 retain their accepted classifications. No KC membership or PM↔KC mapping was added or changed. This is consolidation of presentation/admission, not rejection of dietary protein as a source.

@@ -47,6 +47,18 @@ nutrition_source:
 main_image: /img/foods/buckwheat/buckwheat_medium.webp
 legacy_list_image: /img/foods/buckwheat/buckwheat_thumb.webp
 legacy_main_image: /img/foods/buckwheat/buckwheat_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: USDA FoodData Central reports magnesium in Buckwheat.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: buckwheat|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Buckwheat
+    source_url: 'https://fdc.nal.usda.gov/food-details/170286/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

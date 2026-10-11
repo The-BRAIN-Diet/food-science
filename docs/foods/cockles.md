@@ -2,7 +2,7 @@
 id: cockles
 title: Cockles
 sidebar_label: Cockles
-description: 'Bivalve shellfish providing B12, iron, zinc, selenium, and marine taurine'
+description: Bivalve shellfish providing B12, iron, zinc, selenium, and marine taurine
 tags:
   - Food
   - Cockles
@@ -27,7 +27,7 @@ nutrition_per_100g:
   vitamin_b3_mg: 3.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cockles, raw (Alaska Native)'
+  food_name: Cockles, raw (Alaska Native)
   fdc_id: 169803
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -40,46 +40,216 @@ nutrition_supplementary_sources:
   - key: taurine_qual
     label: Taurine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Taurine is a characteristic free amino sulfonic acid in Cockles; USDA SR
-      Legacy does not include a taurine field.
+      Changes in taste and texture of the foot of Japanese cockle by cooking and
+      storage (2002). Primary study separately identifies taurine as a major
+      free amino constituent of Fulvia mutica edible foot.
+    public_note: >-
+      Taurine is documented in cockle edible tissue; content varies with species
+      and cooking.
+    source_group: cockle-taurine
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://www.jstage.jst.go.jp/article/fishsci1994/68/5/68_5_1138/_pdf/-char/ja
+    notes: Japanese cockle edible foot
+    source_reference: '#food-source-4'
   - key: vitamin_b12_qual
     label: Vitamin B12
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cockles is tagged for vitamin B12. Fortified products vary by brand;
-      seaweed B12 may include analogues; abbreviated USDA panels may omit
-      cobalamin. True cobalamin quantity is not established here.
+      The Concise New Zealand Food Composition Tables, 9th edition (2012), T31.
+      Printed page 136 (PDF page 146) separately lists positive zinc and B12 for
+      boiled Austrovenus stutchburyi cockles; preparation/species confirmed at
+      printed page 213. No boiled values copied into raw Alaska panel.
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf
+    source_group: cockle-b12-zinc
+    public_note: >-
+      Documented in boiled New Zealand cockles; a separate amount for the raw
+      Alaska record is unavailable.
+    notes: boiled Austrovenus stutchburyi cockles
+    source_reference: '#food-source-5'
   - key: zinc_qual
     label: Zinc
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      The USDA SR Legacy Cockles record is an abbreviated Alaska Native panel
-      and omits zinc; quantity is not established from this record.
+      The Concise New Zealand Food Composition Tables, 9th edition (2012), T31.
+      Printed page 136 (PDF page 146) separately lists positive zinc and B12 for
+      boiled Austrovenus stutchburyi cockles; preparation/species confirmed at
+      printed page 213. No boiled values copied into raw Alaska panel.
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf
+    source_group: cockle-b12-zinc
+    public_note: >-
+      Documented in boiled New Zealand cockles; a separate amount for the raw
+      Alaska record is unavailable.
+    notes: boiled Austrovenus stutchburyi cockles
+    source_reference: '#food-source-5'
   - key: selenium_qual
     label: Selenium
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      The USDA SR Legacy Cockles record is abbreviated and omits selenium;
-      quantity is not established from this panel.
+      Maher et al. (1997), Selenium occurrence, distribution and speciation in
+      the cockle Anadara trapezia. Primary study identifies selenium in cockle
+      tissues including edible adductor and mantle; environmental concentrations
+      are not promoted as a food amount.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://citeseerx.ist.psu.edu/document?doi=47b7230dd2a8efce9e0a5de69c3083c51453ad77&repid=rep1&type=pdf
+    source_group: cockle-selenium
+    public_note: >-
+      Selenium is documented in cockle tissue; concentrations vary with species
+      and growing waters.
+    notes: cockle edible tissue
+    source_reference: '#food-source-6'
   - key: epa_qual
     label: EPA
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      The USDA SR Legacy Cockles record is abbreviated and omits EPA; quantity
-      is not established from this panel.
+      Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015).
+      Primary Table 1 separately reports EPA and DHA in edible cockle tissue;
+      fatty-acid percentages not converted into food amounts.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/
+    source_group: cockle-fatty-acids
+    public_note: Reported in edible Cerastoderma edule tissue.
+    notes: edible Cerastoderma edule tissue
+    source_reference: '#food-source-7'
   - key: dha_qual
     label: DHA
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      The USDA SR Legacy Cockles record is abbreviated and omits DHA; quantity
-      is not established from this panel.
+      Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015).
+      Primary Table 1 separately reports EPA and DHA in edible cockle tissue;
+      fatty-acid percentages not converted into food amounts.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/
+    source_group: cockle-fatty-acids
+    public_note: Reported in edible Cerastoderma edule tissue.
+    notes: edible Cerastoderma edule tissue
+    source_reference: '#food-source-7'
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Cockles, raw (Alaska Native).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cockles|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cockles, raw (Alaska Native)
+    source_url: https://fdc.nal.usda.gov/food-details/169803/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Taurine
+    relationship: contains
+    description: >-
+      Taurine is documented in cockle edible tissue; content varies with species
+      and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cockles|Taurine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Changes in taste and texture of the foot of Japanese cockle by cooking and
+      storage (2002)
+    evidence_material: Japanese cockle edible foot
+    source_url: >-
+      https://www.jstage.jst.go.jp/article/fishsci1994/68/5/68_5_1138/_pdf/-char/ja
+    source_reference: '#food-source-4'
+  - substance: EPA
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)
+    evidence_material: edible Cerastoderma edule tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/
+    description: Reported in edible Cerastoderma edule tissue.
+    source_reference: '#food-source-7'
+  - substance: DHA
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)
+    evidence_material: edible Cerastoderma edule tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/
+    description: Reported in edible Cerastoderma edule tissue.
+    source_reference: '#food-source-7'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)
+    evidence_material: edible Cerastoderma edule tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/
+    description: Reported in edible Cerastoderma edule tissue.
+    source_reference: '#food-source-7'
+  - substance: Selenium
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Maher et al. (1997), Selenium occurrence, distribution and speciation in
+      the cockle Anadara trapezia
+    evidence_material: cockle edible tissue
+    source_url: >-
+      https://citeseerx.ist.psu.edu/document?doi=47b7230dd2a8efce9e0a5de69c3083c51453ad77&repid=rep1&type=pdf
+    description: >-
+      Selenium is documented in cockle tissue; concentrations vary with species
+      and growing waters.
+    source_reference: '#food-source-6'
+  - substance: Vitamin B12
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: The Concise New Zealand Food Composition Tables, 9th edition (2012), T31
+    evidence_material: boiled Austrovenus stutchburyi cockles
+    source_url: https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf
+    description: >-
+      Documented in boiled New Zealand cockles; a separate amount for the raw
+      Alaska record is unavailable.
+    source_reference: '#food-source-5'
+  - substance: Zinc
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: The Concise New Zealand Food Composition Tables, 9th edition (2012), T31
+    evidence_material: boiled Austrovenus stutchburyi cockles
+    source_url: https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf
+    description: >-
+      Documented in boiled New Zealand cockles; a separate amount for the raw
+      Alaska record is unavailable.
+    source_reference: '#food-source-5'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -131,3 +301,23 @@ This food provides a complete essential amino acid profile typical of animal pro
 [2] Marine taurine source; phospholipid-bound omega-3 in shellfish matrices. Wójcik & Koenig 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
 
 [3] Complete animal protein (DIAAS context). FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-4" />
+
+[4] [Changes in taste and texture of the foot of Japanese cockle by cooking and storage (2002)](/docs/papers/BRAIN-Diet-References#food_composition_4c7c714595ba)
+
+<span id="food-source-5" />
+
+[5] [The Concise New Zealand Food Composition Tables, 9th edition (2012), T31](/docs/papers/BRAIN-Diet-References#food_composition_54d9c39408d0)
+
+<span id="food-source-6" />
+
+[6] [Maher et al. (1997), Selenium occurrence, distribution and speciation in the cockle Anadara trapezia](/docs/papers/BRAIN-Diet-References#food_composition_06a16e50c3c0)
+
+<span id="food-source-7" />
+
+[7] [Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)](/docs/papers/BRAIN-Diet-References#food_composition_7fe823d36d49)
+
+<span id="food-source-8" />
+
+[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_bdef88e9ab28)

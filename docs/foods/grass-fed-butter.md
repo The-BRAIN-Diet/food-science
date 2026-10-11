@@ -2,7 +2,7 @@
 id: grass-fed-butter
 title: Grass-Fed Butter
 sidebar_label: Grass-Fed Butter
-description: 'Butyrate, CLA, vitamins A/D/K2, selenium, and C15:0'
+description: Butyrate, CLA, vitamins A/D/K2, selenium, and C15:0
 tags:
   - Food
   - Grass-Fed Butter
@@ -11,52 +11,7 @@ tags:
   - Vitamin K2
   - Selenium
 list_image: /img/foods/grass-fed-butter/grass-fed-butter_thumb.webp
-nutrition_per_100g:
-  sugar_g: 0.06
-  calcium_mg: 24
-  magnesium_mg: 2
-  beta_carotene_ug: 158
-  linoleic_g: 2.166
-  ala_mg: 315
-  vitamin_b1_mg: 0.005
-  folate_ug: 3
-  vitamin_b6_mg: 0.003
-  choline_mg: 18.8
-  vitamin_e_mg: 2.32
-  kcal: 717
-  vitamin_k_ug: 7
-  vitamin_a_rae_ug: 684
-  iron_mg: 0.02
-  phosphorus_mg: 24
-  vitamin_b12_ug: 0.17
-  caprylic_g: 1.19
-  caproic_g: 2.007
-  capric_g: 2.529
-  potassium_mg: 24
-  zinc_mg: 0.09
-  sat_fat_g: 50.489
-  vitamin_b3_mg: 0.042
-  vitamin_b5_mg: 0.11
-  fat_g: 81.11
-  carbs_g: 0.06
-  protein_g: 0.85
-  vitamin_b2_mg: 0.034
-  sodium_mg: 11
-  copper_mg: 0.016
-  manganese_mg: 0.004
-  selenium_ug: 1
-  omega3_mg: 315
-omega3_components:
-  - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
-    amount_mg: 315
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Butter, without salt'
-  fdc_id: 173430
-  retrieval_method: SR Legacy bulk (April 2018)
-  basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+nutrition_per_100g: {}
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 legacy_list_image: /img/foods/grass-fed-butter/grass-fed-butter_thumb.webp
@@ -65,11 +20,20 @@ nutrition_supplementary_sources:
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Grass-Fed Butter is a documented dietary source of menaquinones (vitamin
-      K2). USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2
-      quantity is not established here.
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food. Primary abstract explicitly identifies K2 in butter,
+      egg yolk, natto and cheese. No total vitamin K value used as K2.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_group: vitamin-k2
+    public_note: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    notes: butter, egg yolk or fermented soybean food
+    source_reference: '#food-source-6'
 substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
@@ -82,6 +46,57 @@ substance_relationships:
     citation_keys:
       - duester_retinoic_acid_2008
       - harrison_vitamin_a_absorption_2012
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      Selenium is documented in butter; the generic record does not establish a
+      grass-fed-specific amount.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grass-fed-butter|Selenium
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA FoodData Central, Butter, without salt (FDC 173430)
+    evidence_material: Butter, without salt
+    source_url: https://fdc.nal.usda.gov/food-details/173430/nutrients
+    source_reference: '#food-source-7'
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      Contains vitamin A; the generic butter record does not establish a
+      grass-fed-specific amount.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grass-fed-butter|Vitamin A
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA FoodData Central, Butter, without salt (FDC 173430)
+    evidence_material: Butter, without salt
+    source_url: https://fdc.nal.usda.gov/food-details/173430/nutrients
+    source_reference: '#food-source-7'
+  - substance: Vitamin K2
+    relationship: contains
+    description: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: grass-fed-butter|Vitamin K2
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food
+    evidence_material: butter, egg yolk or fermented soybean food
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_reference: '#food-source-6'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: Butter, without salt
+  identity_failure: >-
+    production identity: unsalted butter is not an identified grass-fed butter
+    product
+  reason: >-
+    production identity: unsalted butter is not an identified grass-fed butter
+    product
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -137,3 +152,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [4] Hard cheeses are major Western sources of longer-chain menaquinones. Vermeer et al. 2018. [Menaquinone Content of Cheese](/docs/papers/BRAIN-Diet-References#vermeer_menaquinone_cheese_2018)
 
 [5] C15:0 in dairy fat; circulating levels associate with cardiometabolic benefit and candidate essential-fatty-acid status. Venn-Watson et al. 2020. [Efficacy of dietary odd-chain saturated fatty acid pentadecanoic acid parallels broad associated health benefits in humans: could it be essential?](/docs/papers/BRAIN-Diet-References#venn_watson_c15_2020)
+
+<span id="food-source-6" />
+
+[6] [Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food](/docs/papers/BRAIN-Diet-References#food_composition_a955736e9d48)
+
+<span id="food-source-7" />
+
+[7] [USDA FoodData Central, Butter, without salt (FDC 173430)](/docs/papers/BRAIN-Diet-References#food_composition_f287b7193234)

@@ -21,7 +21,7 @@ Arabinan is a branched plant polysaccharide. Its backbone is (1→5)-linked α-L
 
 In mice colonised with defined human-derived communities, arabinan in one pea-fibre preparation supplied a glycan whose use depended on microbial utilisation machinery and on competition with other species [1]. The food matrix and the competitors affected access. That result does not set a human intake, an optimal dose, or a host benefit, and it does not transfer to sugar-beet arabinan or to pectin in general [1].
 
-## Dietary Origin
+## Dietary Context
 
 Direct occurrence is arabinan in plant cell walls, as a side chain of pectin. The studied exposure is narrower: arabinan in one pea-fibre preparation, given in a defined-community mouse model [1]. A linear, enzymatically debranched arabinan is a different preparation. A food that contains peas, sugar beet, or pectin is not identified as the studied fraction. No food page has a measured arabinan amount, so none is linked.
 
@@ -38,13 +38,13 @@ Access to the glycan changed with the community and with competitors [1]. That i
 
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Arabinan" />
-
 ## Foods
 
 <SubstanceFoods tag="Arabinan" />
+
+## Recipes
+
+<SubstanceRecipes tag="Arabinan" />
 
 ## Biological Regulatory Systems
 

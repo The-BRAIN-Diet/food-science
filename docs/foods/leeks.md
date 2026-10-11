@@ -63,11 +63,31 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Leeks; a single defensible per-100 g value is not
       taken from the abbreviated USDA nutrient panel.
+    public_note: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Leeks, (bulb and lower
+      leaf-portion), raw.  This vitamin K record is not a vitamin K2
+      measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: leeks|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Leeks, (bulb and lower leaf-portion), raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169246/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

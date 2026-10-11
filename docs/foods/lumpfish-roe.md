@@ -13,50 +13,105 @@ tags:
   - DHA
 list_image: /img/foods/lumpfish-roe/lumpfish-roe_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
-nutrition_per_100g:
-  kcal: 143
-  protein_g: 21.4
-  fat_g: 7.1
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 20
-  iron_mg: 0.5
-  magnesium_mg: 18
-  potassium_mg: 100
-  zinc_mg: 0.9
-  selenium_ug: 32
-  vitamin_b6_mg: 0.12
-  folate_ug: 50
-  choline_mg: 220
-  vitamin_b12_ug: 10
-  sat_fat_g: 1.5
-  epa_mg: 220
-  dha_mg: 280
-nutrition_source:
-  database: Literature + branded label scaling
-  food_name: >-
+nutrition_per_100g: {}
+nutrition_supplementary_sources:
+  - key: sodium_mg_note
+    label: Sodium (salted product)
+    amount_display: Varies by cure and product; check label
+    notes: Salted product; use the product label for sodium content.
+    source_note: No product-specific sodium amount is established.
+    status: Present — quantity not established
+    public_note: Salted product; use the product label for sodium content.
+    source_group: lumpfish-product-label
+  - key: epa_qual
+    label: EPA
+    amount_display: Present; amount varies with the product
+    notes: Commercial lumpfish roe; no whole-food amount assigned.
+    status: Present — quantity not established
+    public_display: table
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_group: lumpfish-roe-fatty-acids
+    public_note: EPA and DHA are identified in commercial lumpfish roe products.
+    source_note: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    source_reference: '#food-source-2'
+  - key: dha_qual
+    label: DHA
+    amount_display: Present; amount varies with the product
+    notes: Commercial lumpfish roe; no whole-food amount assigned.
+    status: Present — quantity not established
+    public_display: table
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_group: lumpfish-roe-fatty-acids
+    public_note: EPA and DHA are identified in commercial lumpfish roe products.
+    source_note: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    source_reference: '#food-source-2'
+main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
+legacy_list_image: /img/foods/lumpfish-roe/lumpfish-roe_thumb.webp
+legacy_main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lumpfish-roe|DHA
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    source_reference: '#food-source-2'
+  - substance: EPA
+    relationship: contains
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lumpfish-roe|EPA
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    source_reference: '#food-source-2'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lumpfish-roe|Omega-3 Fatty Acids
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    source_reference: '#food-source-2'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: >-
     Lumpfish caviar, salted (retail; dyed black/red products common). Macros
     scaled from a representative branded nutrition label (~14 g/serving); fatty
     acids are mid-range estimates — species-specific assays vary and are often
     lower than fresh salmonid roe per 100 g.
-  retrieval_method: Manual curation
-  basis: per 100 g product
-  last_checked: '2026-03-14'
-nutrition_supplementary_sources:
-  - key: sodium_mg_note
-    label: Sodium (salted product)
-    amount_display: Very high (often thousands of mg per 100 g)
-    notes: >-
-      Retail lumpfish roe is heavily salted; sodium dominates the risk–benefit
-      trade-off vs fresh roe.
-    source_note: >-
-      Not shown as a standard NutritionTable row yet; check the label for your
-      brand. Values often exceed ordinary daily sodium targets if eaten in large
-      amounts.
-    status: Present — quantity not established
-main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
-legacy_list_image: /img/foods/lumpfish-roe/lumpfish-roe_thumb.webp
-legacy_main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
+  identity_failure: >-
+    untraceable compilation: unnamed label and mid-range fatty-acid estimates do
+    not establish one salted lumpfish product
+  reason: >-
+    untraceable compilation: unnamed label and mid-range fatty-acid estimates do
+    not establish one salted lumpfish product
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -105,3 +160,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## References
 
 [1] Sodium and formulation for lumpfish caviar are **label-dependent**; BRAIN Diet emphasis remains on **whole-food salmonid roe** when maximizing omega-3 quality per unit sodium. Patrick et al. 2019. [Role of phosphatidylcholine‐DHA in preventing APOE4‐associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+
+<span id="food-source-2" />
+
+[2] [Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)](/docs/papers/BRAIN-Diet-References#food_composition_5a40b36508dd)

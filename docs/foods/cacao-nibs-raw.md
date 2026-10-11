@@ -14,24 +14,7 @@ tags:
   - Catechin
   - Oligomeric Procyanidins
 list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
-nutrition_per_100g:
-  kcal: 600
-  protein_g: 14
-  fat_g: 43
-  carbs_g: 33
-  fibre_g: 27
-  calcium_mg: 160
-  iron_mg: 7
-  magnesium_mg: 270
-  potassium_mg: 700
-  zinc_mg: 3
-  sat_fat_g: 25
-nutrition_source:
-  database: Summary estimate
-  food_name: Cacao nibs (unsweetened)
-  retrieval_method: Manual (placeholder)
-  basis: per 100 g edible portion
-  last_checked: '2026-03-25'
+nutrition_per_100g: {}
 main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
 legacy_list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
 legacy_main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
@@ -40,24 +23,96 @@ nutrition_supplementary_sources:
   - key: epicatechin_qual
     label: Epicatechin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cocoa flavanol analyses report epicatechin in Cacao Nibs (Raw); USDA SR
-      Legacy has no cacao-nibs record.
+      Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease.
+      Composition section identifies catechin, epicatechin and oligomeric
+      procyanidins independently; processing affects content.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_group: cocoa
+    public_note: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    notes: cocoa beans and cocoa products
+    source_reference: '#food-source-4'
   - key: catechin_qual
     label: Catechin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cocoa flavanol analyses report catechin in Cacao Nibs (Raw); USDA SR
-      Legacy has no cacao-nibs record.
+      Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease.
+      Composition section identifies catechin, epicatechin and oligomeric
+      procyanidins independently; processing affects content.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_group: cocoa
+    public_note: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    notes: cocoa beans and cocoa products
+    source_reference: '#food-source-4'
   - key: opc_qual
     label: Oligomeric Procyanidins
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Cacao Nibs (Raw) contain oligomeric procyanidins typical of cacao; USDA SR
-      Legacy does not quantify OPCs for this food.
+      Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease.
+      Composition section identifies catechin, epicatechin and oligomeric
+      procyanidins independently; processing affects content.
+    public_note: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    source_group: cocoa
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    notes: cocoa beans and cocoa products
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: Epicatechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-nibs-raw|Epicatechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-4'
+  - substance: Catechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-nibs-raw|Catechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-4'
+  - substance: Oligomeric Procyanidins
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cacao-nibs-raw|Oligomeric Procyanidins
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-4'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: Cacao nibs (unsweetened)
+  identity_failure: 'placeholder estimate: no identified composition source'
+  reason: 'placeholder estimate: no identified composition source'
+  queue: system/specialist-composition-review-queue.md
+nutrition_unavailable: true
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -105,3 +160,7 @@ Cacao Nibs (Raw) is not used as a primary protein food in this framework; typica
 [2] Cocoa flavanols have vascular mechanistic interest. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
 
 [3] Heavy-metal (Cd/Pb) sourcing matters for frequent cacao intake. Hands & Anderson 2024. [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+
+<span id="food-source-4" />
+
+[4] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)

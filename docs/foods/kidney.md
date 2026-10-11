@@ -41,7 +41,7 @@ nutrition_per_100g:
   omega3_mg: 7
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 7
 nutrition_source:
   database: USDA FoodData Central
@@ -54,6 +54,20 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/kidney/kidney_medium.webp
 legacy_list_image: /img/foods/kidney/kidney_thumb.webp
 legacy_main_image: /img/foods/kidney/kidney_medium.webp
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beef, variety meats and by-products,
+      kidneys, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: kidney|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beef, variety meats and by-products, kidneys, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169449/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

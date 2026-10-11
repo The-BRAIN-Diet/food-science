@@ -39,7 +39,7 @@ nutrition_per_100g:
   linoleic_g: 0.264
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beverages, Protein powder whey based'
+  food_name: Beverages, Protein powder whey based
   fdc_id: 173180
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -52,11 +52,33 @@ nutrition_supplementary_sources:
   - key: leucine_qual
     label: Leucine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Whey Protein is defined by a high leucine fraction of whey protein; the
-      selected USDA protein-powder record reports protein but not individual
-      amino acids.
+      Practical applications of whey protein (2021). Table 1 separately
+      identifies leucine in whey protein concentrate and isolate per 25 g
+      protein; no per-protein to food-mass substitution.
+    public_note: Reported in whey protein concentrate and isolate.
+    source_group: whey-leucine
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8075117/
+    notes: whey protein concentrate and isolate
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Leucine
+    relationship: contains
+    description: Reported in whey protein concentrate and isolate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: whey-protein|Leucine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Practical applications of whey protein (2021)
+    evidence_material: whey protein concentrate and isolate
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8075117/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -95,3 +117,7 @@ Whey Protein contribute plant protein. Pair with complementary protein sources (
 [1] Whey protein isolate scores among the highest DIAAS values for essential amino-acid quality. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
 [2] Leucine-rich whey protein acutely stimulates muscle protein synthesis via mTOR signalling. Norton & Layman 2006. [Leucine regulates translation initiation of protein synthesis in skeletal muscle after exercise](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
+
+<span id="food-source-3" />
+
+[3] [Practical applications of whey protein (2021)](/docs/papers/BRAIN-Diet-References#food_composition_94f0e9232198)

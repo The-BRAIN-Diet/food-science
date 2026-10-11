@@ -42,14 +42,14 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 723
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Wheat germ, crude'
+  food_name: Wheat germ, crude
   fdc_id: 168892
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 main_image_source:
-  url: 'https://www.hollandandbarrett.com/'
+  url: https://www.hollandandbarrett.com/
   label: Holland & Barrett
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
@@ -57,17 +57,43 @@ nutrition_supplementary_sources:
   - key: vitamin_e_qual
     label: Vitamin E
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Wheat Germ is a recognised α-tocopherol food; the selected USDA SR Legacy
-      record omits vitamin E, so quantity is not established from that panel.
+      USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain
+      (FDC 173896). Verified positive vitamin_e_mg=15.99 in local original SR
+      Legacy record. Qualitative presence only; the source preparation is
+      retained and no value transferred to a different panel.
+    public_note: >-
+      Vitamin E is documented in toasted wheat germ; content depends on
+      preparation.
+    source_group: usda-presence-173896
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://fdc.nal.usda.gov/food-details/173896/nutrients
+    notes: Cereals ready-to-eat, wheat germ, toasted, plain
+    source_reference: '#food-source-4'
   - key: choline_qual
     label: Choline
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Wheat Germ is a choline-containing food; the selected USDA SR Legacy
-      record omits choline, so quantity is not established from that panel.
+      USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain
+      (FDC 173896). Verified positive choline_mg=178.6 in local original SR
+      Legacy record. Qualitative presence only; the source preparation is
+      retained and no value transferred to a different panel.
+    public_note: >-
+      Choline is documented in toasted wheat germ; a separate raw-germ amount is
+      unavailable.
+    source_group: usda-presence-173896
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://fdc.nal.usda.gov/food-details/173896/nutrients
+    notes: Cereals ready-to-eat, wheat germ, toasted, plain
+    source_reference: '#food-source-4'
   - key: spermidine_qual
     label: Spermidine
     status: Present — quantity not established
@@ -78,6 +104,14 @@ nutrition_supplementary_sources:
       identified as a spermidine-containing food. The selected USDA panel does
       not quantify this analyte. A comparable product-specific per-100 g value
       is not established here. https://doi.org/10.3390/foods10081752
+    public_note: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_url: https://doi.org/10.3390/foods10081752
+    source_reference: '#food-source-5'
   - key: betaine_qual
     label: Betaine
     status: Measured in toasted wheat germ
@@ -87,6 +121,12 @@ nutrition_supplementary_sources:
       (NDB 08084), 410 mg betaine per 100 g. This page records crude wheat germ
       (FDC 168892), which was not that assayed form. An earlier figure near
       1,240 mg per 100 g was later corrected downward.
+    public_note: >-
+      Patterson et al. (2008) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Patterson et al. (2008) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 amino_acid_strengths: >-
   Relatively higher in methionine than legumes; lysine-limited like other
   grains.
@@ -110,9 +150,42 @@ substance_relationships:
       related preparation, not this panel.
     citation_keys:
       - patterson_choline_2008
+  - substance: Vitamin E
+    relationship: contains
+    description: >-
+      Vitamin E is documented in toasted wheat germ; content depends on
+      preparation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: wheat-germ|Vitamin E
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain
+      (FDC 173896)
+    evidence_material: Cereals ready-to-eat, wheat germ, toasted, plain
+    source_url: https://fdc.nal.usda.gov/food-details/173896/nutrients
+    source_reference: '#food-source-4'
+  - substance: Choline
+    relationship: contains
+    description: >-
+      Choline is documented in toasted wheat germ; a separate raw-germ amount is
+      unavailable.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: wheat-germ|Choline
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain
+      (FDC 173896)
+    evidence_material: Cereals ready-to-eat, wheat germ, toasted, plain
+    source_url: https://fdc.nal.usda.gov/food-details/173896/nutrients
+    source_reference: '#food-source-4'
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
-  Betaine: Present in wheat germ. The corrected assay is toasted wheat germ, 410 mg per 100 g, not this crude panel.
+  Betaine: >-
+    Present in wheat germ. The corrected assay is toasted wheat germ, 410 mg per
+    100 g, not this crude panel.
+substance_review_candidates: []
 ---
 
 ## Overview
@@ -160,3 +233,11 @@ Grains such as wheat germ are relatively higher in methionine but lysine-limited
 [2] Packer et al. (1997). [Vitamin E antioxidant network context](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997). Background evidence retained for the vitamin E relationship.
 
 [3] Muñoz-Esparza et al. (2021). [Occurrence of Polyamines in Foods and the Influence of Cooking Processes](/docs/papers/BRAIN-Diet-References#munoz_esparza_food_polyamines_2021). Analytical evidence for spermidine occurrence; food type and preparation affect composition.
+
+<span id="food-source-4" />
+
+[4] [USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)](/docs/papers/BRAIN-Diet-References#food_composition_1c40a9e2ddd3)
+
+<span id="food-source-5" />
+
+[5] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)

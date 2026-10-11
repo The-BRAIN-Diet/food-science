@@ -2,7 +2,7 @@
 id: anchovies
 title: Anchovies
 sidebar_label: Anchovies
-description: Small oily fish, typically canned and drained, providing EPA, DHA and niacin
+description: 'Small oily fish, typically canned and drained, providing EPA, DHA and niacin'
 tags:
   - Food
   - Anchovies
@@ -48,13 +48,13 @@ nutrition_per_100g:
   omega3_mg: 2096
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 1292
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 763
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 41
 nutrition_source:
   database: USDA FoodData Central
@@ -67,6 +67,93 @@ main_image: /img/foods/anchovies/anchovies_medium.webp
 legacy_list_image: /img/foods/anchovies/anchovies_thumb.webp
 legacy_main_image: /img/foods/anchovies/anchovies_medium.webp
 protein_profile_note: Complete essential amino acid profile.
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports DHA in Fish, anchovy, european, canned in
+      oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: EPA
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA in Fish, anchovy, european, canned in
+      oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, anchovy,
+      european, canned in oil, drained solids. This class link does not treat a
+      combined total as EPA, DHA or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Fish, anchovy, european, canned
+      in oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Sodium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports sodium in Fish, anchovy, european, canned in
+      oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|Sodium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Fish, anchovy, european, canned
+      in oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Fish, anchovy, european,
+      canned in oil, drained solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: anchovies|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, anchovy, european, canned in oil, drained solids'
+    source_url: 'https://fdc.nal.usda.gov/food-details/174183/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

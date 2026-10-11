@@ -2,7 +2,7 @@
 id: lentils
 title: Lentils
 sidebar_label: Lentils
-description: Folate-rich legume with plant protein, fibre and non-haem iron
+description: 'Folate-rich legume with plant protein, fibre and non-haem iron'
 eaa_profile_applicable: true
 tags:
   - Food
@@ -14,12 +14,14 @@ tags:
   - Zinc
   - Cysteine
 list_image: /img/foods/lentils/lentils_thumb.webp
-amino_acid_strengths: Lysine, relative to grains.
+amino_acid_strengths: 'Lysine, relative to grains.'
 limiting_amino_acids: >-
   Combined methionine plus cysteine is the lowest ratio to the 1991 FAO pattern
-  in the cited cooked-lentil assay. That score is separate from cystine per serving.
+  in the cited cooked-lentil assay. That score is separate from cystine per
+  serving.
 complementary_pairings: >-
-  Grains such as rice, oats or barley across the day. Eating them in the same meal is optional.
+  Grains such as rice, oats or barley across the day. Eating them in the same
+  meal is optional.
 public_display:
   cystine_mg: internal-only
 nutrition_per_100g:
@@ -64,17 +66,24 @@ nutrition_source:
   last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: cystine_cooked_mg
-    label: Cystine (cooked, boiled)
+    label: 'Cystine (cooked, boiled)'
     value: 118
     unit: mg
     public_display: internal-only
     notes: >-
-      Per 100 g of boiled mature lentils. A separate preparation from the dry-seed cystine row.
+      Per 100 g of boiled mature lentils. A separate preparation from the
+      dry-seed cystine row.
     source_note: >-
-      USDA FoodData Central, Lentils, mature seeds, cooked, boiled, without salt,
-      FDC 172421. Nutrient name Cystine, 0.118 g per 100 g. Household cup 198 g,
-      about 234 mg cystine. Different food from the dry seed, FDC 172420, which
-      has a 192 g cup and about 618 mg cystine.
+      USDA FoodData Central, Lentils, mature seeds, cooked, boiled, without
+      salt, FDC 172421. Nutrient name Cystine, 0.118 g per 100 g. Household cup
+      198 g, about 234 mg cystine. Different food from the dry seed, FDC 172420,
+      which has a 192 g cup and about 618 mg cystine.
+    public_note: >-
+      FDC 1724 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
+    source_group: >-
+      FDC 1724 supports this source-specific measurement. See technical
+      provenance for food form and measurement details.
 substance_relationships:
   - substance: Cysteine
     relationship: contains
@@ -82,9 +91,42 @@ substance_relationships:
       Cystine 322 mg per 100 g of Lentils, raw (FDC 172420). Cooked boiled
       lentils are a separate food (FDC 172421, 118 mg per 100 g). Composition
       only; not a glutathione-synthesis result.
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Lentils, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lentils|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lentils, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Lentils, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lentils|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lentils, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Lentils, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lentils|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lentils, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172420/nutrients'
+    presence_status: presence_and_amount_supported
 main_image: /img/foods/lentils/lentils_medium.webp
 legacy_list_image: /img/foods/lentils/lentils_thumb.webp
 legacy_main_image: /img/foods/lentils/lentils_medium.webp
+substance_review_candidates: []
 ---
 ## Overview
 

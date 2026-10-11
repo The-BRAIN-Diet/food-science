@@ -13,67 +13,103 @@ tags:
   - Phosphatidylcholine
 list_image: /img/foods/trout-roe/trout-roe_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
-nutrition_per_100g:
-  kcal: 143
-  protein_g: 22.32
-  fat_g: 6.42
-  carbs_g: 1.5
-  fibre_g: 0
-  calcium_mg: 22
-  iron_mg: 0.6
-  magnesium_mg: 20
-  potassium_mg: 221
-  zinc_mg: 1
-  selenium_ug: 40.3
-  vitamin_b6_mg: 0.16
-  folate_ug: 80
-  choline_mg: 335.4
-  vitamin_b12_ug: 10
-  sat_fat_g: 1.456
-  epa_mg: 983
-  dha_mg: 1363
-  omega3_mg: 2428
-  pufa_18_3_unresolved_mg: 6
-omega3_components:
-  - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
-    amount_mg: 1363
-  - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
-    amount_mg: 983
-  - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
-    amount_mg: 82
-nutrition_source:
-  database: USDA FoodData Central (proxy)
-  food_name: >-
-    Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132).
-  fdc_id: 175132
-  retrieval_method: USDA SR Legacy composition record
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 nutrition_supplementary_sources:
-  - key: astaxanthin_mg
-    label: Astaxanthin
-    value: 2.5
-    unit: mg
-    notes: >-
-      Present in salmonid roe; farmed trout pigment varies with feed
-      carotenoids.
-    source_note: >-
-      Order-of-magnitude literature estimate; not on the proxy FDC record;
-      farmed trout roe can be lighter than salmon ikura.
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Trout Roe is a phospholipid-rich food in which phosphatidylcholine is a
-      major choline form; USDA SR Legacy reports choline, not
-      phosphatidylcholine specifically.
+      Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during
+      storage. Primary abstract separately identifies the lecithin phospholipid
+      fraction in rainbow trout roe, using lecithin as PC class, contrasted with
+      cephalin. No PC fraction percentage converted to food mass.
+    public_note: Reported in rainbow trout roe.
+    source_group: troutroe-pc
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://doi.org/10.1111/j.1365-2621.1982.tb00163.x
+    notes: rainbow trout roe
+    source_reference: '#food-source-3'
 main_image: /img/foods/trout-roe/trout-roe_medium.webp
 legacy_list_image: /img/foods/trout-roe/trout-roe_thumb.webp
 legacy_main_image: /img/foods/trout-roe/trout-roe_medium.webp
+substance_relationships:
+  - substance: Phosphatidylcholine
+    relationship: contains
+    description: Reported in rainbow trout roe.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: trout-roe|Phosphatidylcholine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during
+      storage
+    evidence_material: rainbow trout roe
+    source_url: https://doi.org/10.1111/j.1365-2621.1982.tb00163.x
+    source_reference: '#food-source-3'
+  - substance: EPA
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    source_reference: '#food-source-4'
+  - substance: DHA
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    source_reference: '#food-source-4'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
+      (2020)
+    evidence_material: commercial salmon, trout or lumpfish roe
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
+    description: Contains omega-3 fatty acids; content varies with the roe product.
+    source_reference: '#food-source-4'
+  - substance: Choline
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during
+      storage
+    evidence_material: rainbow trout roe
+    source_url: https://doi.org/10.1111/j.1365-2621.1982.tb00163.x
+    description: >-
+      Contains choline bound in phosphatidylcholine; a separate total-choline
+      amount is unavailable.
+    source_reference: '#food-source-3'
+nutrition_unavailable: true
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: >-
+    FDC 175132, Trout roe — compositional proxy: Fish, roe, mixed species, raw
+    (FDC 175132).
+  identity_failure: 'species: mixed-species roe does not establish trout-specific composition'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -123,3 +159,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Mechanistic discussions of LPC-associated DHA transport apply to phospholipid-rich seafood matrices generally. Patrick et al. 2019. [Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
 
 [2] DHA supplied as phospholipid supports brain DHA accretion more effectively than DHA as triglyceride in neonatal models — supporting the biological relevance of roe's phospholipid-rich matrix. Liu et al. 2014. [Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
+
+<span id="food-source-3" />
+
+[3] [Kaitaranta (1982), Hydrolytic changes in the lipids of roe products during storage](/docs/papers/BRAIN-Diet-References#food_composition_3e1964f23e93)
+
+<span id="food-source-4" />
+
+[4] [Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)](/docs/papers/BRAIN-Diet-References#food_composition_5a40b36508dd)

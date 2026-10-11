@@ -1,0 +1,14 @@
+[
+  {
+    "key": "astaxanthin_mg",
+    "label": "Astaxanthin",
+    "value": 2.5,
+    "unit": "mg",
+    "notes": "Present in salmonid roe; farmed trout pigment varies with feed carotenoids.",
+    "source_note": "Order-of-magnitude literature estimate; not on the proxy FDC record; farmed trout roe can be lighter than salmon ikura.",
+    "public_note": "Order-of-magnitude literature estimate; not on the proxy FDC record; farmed trout roe can be lighter than salmon ikura.",
+    "source_group": "Order-of-magnitude literature estimate; not on the proxy FDC record; farmed trout roe can be lighter than salmon ikura.",
+    "public_display": "internal-only",
+    "omit_substance_card": true
+  }
+]

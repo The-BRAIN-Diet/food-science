@@ -31,7 +31,7 @@ nutrition_per_100g:
   omega3_mg: 152
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 152
 nutrition_source:
   database: USDA FoodData Central
@@ -51,6 +51,12 @@ nutrition_supplementary_sources:
     source_note: >-
       Black pepper (Piper nigrum) is the culinary source of piperine. A
       comparable piperine quantity is not established here (Shoba et al. 1998).
+    public_note: >-
+      Shoba et al. 1998 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Shoba et al. 1998 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 ---
 ## Overview
 

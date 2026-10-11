@@ -51,11 +51,23 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-  limitations: Unqualified 18:3 on this record is not published as ALA. See FCIR-019.
+  limitations: 'Unqualified 18:3 on this record is not published as ALA. See FCIR-019.'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/spirulina/spirulina_medium.webp
 legacy_list_image: /img/foods/spirulina/spirulina_thumb.webp
 legacy_main_image: /img/foods/spirulina/spirulina_medium.webp
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Seaweed, spirulina, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spirulina|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seaweed, spirulina, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170495/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

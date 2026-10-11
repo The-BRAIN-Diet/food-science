@@ -11,7 +11,6 @@ tags:
   - Vegetarian
   - Vitamin A
   - Vitamin E
-  - Vitamin K2
 list_image: /img/foods/ghee/ghee_thumb.webp
 nutrition_per_100g:
   vitamin_e_mg: 2.8
@@ -59,23 +58,61 @@ nutrition_supplementary_sources:
       Ghee is a documented dietary source of menaquinones (vitamin K2). USDA SR
       Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is not
       established here.
+    public_display: internal-only
+    omit_substance_card: true
+    evidence_status: unresolved
 substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Preformed vitamin A (retinol and retinyl esters)
-    process: Oxidation to retinal, then to retinoic acid
+    process: 'Oxidation to retinal, then to retinoic acid'
     description: >-
       Anhydrous butter oil records 840 µg RAE vitamin A per 100 g. That is a
       retinol precursor. The food is not recorded as containing retinoic acid.
     citation_keys:
       - duester_retinoic_acid_2008
       - harrison_vitamin_a_absorption_2012
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Butter oil, anhydrous.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: ghee|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Butter oil, anhydrous'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173412/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin E
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin E in Butter oil, anhydrous.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: ghee|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Butter oil, anhydrous'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173412/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin K2
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: unresolved
+    recovery_audit: ghee|Vitamin K2
+    presence_status: identity_or_presence_genuinely_unresolved
+    internal_review_reason: >-
+      Positive ghee MK-4/MK-6 results were found in an independently published
+      laboratory report, but sample definition, laboratory identity and
+      analytical validation cannot be verified. Butter evidence is insufficient
+      to assign ghee a quantified or established K2 claim.
+substance_review_candidates:
+  - Vitamin K2
 ---
 ## Overview
 
-Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
+Ghee is clarified butter providing butyrate, vitamins A/D/E, and heat stability, making it suitable for high-heat cooking.
 
-Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
+Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
 
 ## Food Context
 

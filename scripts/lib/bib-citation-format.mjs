@@ -9,6 +9,15 @@ import { fileURLToPath } from "node:url"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const BIB_PATH = path.join(__dirname, "../../static/bibtex/BRAIN-diet.bib")
+const BIB_SOURCE_PATH = path.join(__dirname, "../../static/bibtex/BRAIN-diet-sources.bib")
+
+export function readCanonicalBib(bibPath = BIB_PATH) {
+  const parts = [fs.readFileSync(path.resolve(bibPath), "utf8")]
+  if (path.resolve(bibPath) === BIB_PATH && fs.existsSync(BIB_SOURCE_PATH)) {
+    parts.push(fs.readFileSync(BIB_SOURCE_PATH, "utf8"))
+  }
+  return parts.join("\n")
+}
 
 export const CANONICAL_REF_LINE_RE =
   /^\[(\d+)\]\s+\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)\s*$/
@@ -74,7 +83,7 @@ function parseBibEntry(chunk) {
 
 export function loadBibIndex(bibPath = BIB_PATH) {
   if (bibIndexCache && bibPath === BIB_PATH) return bibIndexCache
-  const bib = fs.readFileSync(path.resolve(bibPath), "utf8")
+  const bib = readCanonicalBib(bibPath)
   const index = new Map()
   const starts = []
   const startRe = /@\w+\{[^,]+,/g

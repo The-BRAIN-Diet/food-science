@@ -46,7 +46,7 @@ export default function DocUtilityBar({
   const location = useLocation()
   const history = useHistory()
   const fm = (frontMatter || {}) as Record<string, unknown>
-  const page = useMemo(
+  const registeredPage = useMemo(
     () =>
       findPublicPageRecord({
         permalink: metadata.permalink,
@@ -55,6 +55,17 @@ export default function DocUtilityBar({
       }),
     [metadata.permalink, metadata.id, fm.id, fm.pm_id, fm.fm_id, fm.kc_id, fm.sm_id],
   )
+  const valueReviews = Array.isArray(fm.nutrition_value_reviews) ? fm.nutrition_value_reviews : []
+  const page = valueReviews.length ? {
+    page_id: typeof fm.id === "string" ? fm.id : metadata.id,
+    site_path: metadata.permalink,
+    title: String(fm.title || metadata.title),
+    page_type: "Food", letter: "", review_status: "unreviewed",
+    last_checked: null, reviewer: null, review_scope: "Bioactive quantity citation attachment",
+    issues: [], limitations: [], history: [],
+    ...registeredPage,
+    corrections: [...(registeredPage?.corrections || []), ...valueReviews],
+  } as NonNullable<typeof registeredPage> : registeredPage
   const {siteConfig} = useDocusaurusContext()
   const includeInternalDocs = siteConfig.customFields?.includeInternalDocs === true
   const onContentPage = showsPageUtilityBar({

@@ -161,6 +161,10 @@ What would close this: a named product specification that declares its form and 
 
 ## Related entries
 
+### `mucuna-beans` — unresolved composition; public ranges withdrawn
+
+All compiled proximate and mineral ranges are withheld. Crude carbohydrate has an unresolved definition; crude fibre is not dietary fibre. Protein/fat methods were not verified for the underlying reports and must not be invented. Ezeokonkwo & Okafor (2015), methods and Table 2, identify leaves, not seeds, for K 0.13, P 0.02 and Fe 0.95 mg/g. No corrected bean values are inferred. Review endpoints still need primary tracing. Full prior records: `system/mucuna-composition-evidence.json`. Independently measured seed L-DOPA remains qualitative on the food page; a cooked-food residual is unknown.
+
 ### `walnuts` — resolved by combined provenance
 
 Left this queue. Public ALA is 9.08 g per 100 g*, USDA SR Legacy FDC 170187 nutrient 1270 interpreted as 18:3 n-3 by Kafkas et al. 2017 and Yoshinaga-Kiriake et al. 2022. Foundation FDC 2346394 still has no 1404. Detail: `system/seed-fatty-acid-evidence.md` and `system/food-nutrition-schema.md`.
@@ -175,6 +179,17 @@ Left this queue. Public ALA is 22.8 g per 100 g*, USDA SR Legacy FDC 169414 nutr
 
 Cites FDC 167717, described as **Yeast extract spread** — a Marmite-type concentrated spread. The page documents nutritional yeast flakes. Same organism, different product form and processing state, and materially different composition: a yeast extract spread is far higher in sodium and is used by the teaspoon rather than the tablespoon.
 
-The panel is retained for now by direction. Recorded here because the same rule that withdrew the pages above — processing state must match — applies to it.
+The panel is now withdrawn under the exact-food rule. Original values are preserved in `system/nutritional-yeast-withdrawn-panel.json`.
 
 Its unsupported ALA has been suppressed.
+
+## Additional exact-food failures found 10 October 2026
+
+- duck-fat: FDC 174467; edible material: liver is not rendered duck fat. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- dark-meat-poultry: FDC 171637; product: bologna is not poultry muscle. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- chicory-root: FDC 169992; edible material: greens are not root. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- lemon-balm-tea: FDC 167802; species and product: lemon juice is not Melissa officinalis infusion. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- fermented-vegetables: FDC 174280; product: fermented tofu is not fermented vegetables. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- fortified-plant-milks: FDC 172221; species and product: dairy chocolate yogurt is not plant milk. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- salmon-roe: FDC 175132; species: mixed-species roe does not establish salmon-specific composition. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- trout-roe: FDC 175132; species: mixed-species roe does not establish trout-specific composition. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.

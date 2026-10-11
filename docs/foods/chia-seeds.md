@@ -45,7 +45,7 @@ nutrition_per_100g:
   omega3_mg: 17830
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 17830
 nutrition_source:
   database: USDA FoodData Central
@@ -59,6 +59,70 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
 legacy_list_image: /img/foods/chia-seeds/chia-seeds_thumb.webp
 legacy_main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
+substance_relationships:
+  - substance: ALA
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports alpha-linolenic acid in Seeds, chia seeds,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|ALA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Calcium
+    relationship: contains
+    description: 'USDA FoodData Central reports calcium in Seeds, chia seeds, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Seeds, chia seeds, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Seeds, chia seeds, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Seeds, chia seeds, dried.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chia-seeds|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, chia seeds, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170554/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

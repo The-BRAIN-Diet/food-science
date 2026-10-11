@@ -53,6 +53,30 @@ nutrition_source:
 main_image: /img/foods/cabbage/cabbage_medium.webp
 legacy_list_image: /img/foods/cabbage/cabbage_thumb.webp
 legacy_main_image: /img/foods/cabbage/cabbage_medium.webp
+substance_relationships:
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Cabbage, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cabbage|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cabbage, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169975/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Cabbage, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cabbage|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cabbage, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169975/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

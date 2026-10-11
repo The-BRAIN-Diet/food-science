@@ -8,7 +8,6 @@ tags:
   - Kimchi
   - Vegan
   - Vegetarian
-  - Vitamin K2
 list_image: /img/foods/kimchi/kimchi_thumb.webp
 nutrition_per_100g:
   fat_g: 0.5
@@ -58,6 +57,24 @@ nutrition_supplementary_sources:
       Kimchi is a documented dietary source of menaquinones (vitamin K2). USDA
       SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is
       not established here.
+    public_display: internal-only
+    omit_substance_card: true
+    evidence_status: unresolved
+substance_relationships:
+  - substance: Vitamin K2
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: unresolved
+    recovery_audit: kimchi|Vitamin K2
+    presence_status: identity_or_presence_genuinely_unresolved
+    internal_review_reason: >-
+      A recent review names K2 in kimchi, while the food-assay source reports
+      phylloquinone and does not establish a positive menaquinone result in the
+      accessible record. Bacterial isolate production is not evidence for the
+      finished food. Conflicting source support requires preparation-specific
+      resolution, not an assumption of absence.
+substance_review_candidates:
+  - Vitamin K2
 ---
 ## Overview
 

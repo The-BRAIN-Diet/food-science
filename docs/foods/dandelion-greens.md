@@ -52,6 +52,20 @@ nutrition_source:
 main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 legacy_list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
 legacy_main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
+substance_relationships:
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Dandelion greens, raw.  This
+      vitamin K record is not a vitamin K2 measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dandelion-greens|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Dandelion greens, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169226/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -2,7 +2,7 @@
 id: tuna
 title: Tuna
 sidebar_label: Tuna
-description: 'Fish providing omega-3, niacin, selenium, and complete protein'
+description: Fish providing omega-3, niacin, selenium, and complete protein
 tags:
   - Food
   - Tuna
@@ -59,7 +59,7 @@ omega3_components:
     amount_mg: 125
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish, tuna, fresh, bluefin, raw'
+  food_name: Fish, tuna, fresh, bluefin, raw
   fdc_id: 173706
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -72,6 +72,79 @@ substance_relationships:
       Cystine 250 mg per 100 g of Fish, tuna, fresh, bluefin, raw (FDC 173706).
       An 85 g (3 oz) portion is about 213 mg. Composition only; not a
       glutathione-synthesis result.
+  - substance: DHA
+    relationship: contains
+    description: USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: EPA
+    relationship: contains
+    description: USDA FoodData Central reports EPA in Fish, tuna, fresh, bluefin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, tuna,
+      fresh, bluefin, raw. This class link does not treat a combined total as
+      EPA, DHA or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-3'
+  - substance: Selenium
+    relationship: contains
+    description: USDA FoodData Central reports selenium in Fish, tuna, fresh, bluefin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Fish, tuna, fresh, bluefin,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Creatine
+    relationship: contains
+    description: Contains creatine; amounts vary with the cut and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tuna|Creatine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: the named meat or fish tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-2'
 main_image: /img/foods/tuna/tuna_medium.webp
 legacy_list_image: /img/foods/tuna/tuna_thumb.webp
 legacy_main_image: /img/foods/tuna/tuna_medium.webp
@@ -79,10 +152,22 @@ nutrition_supplementary_sources:
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Creatine occurs in Tuna muscle/organ tissue; USDA SR Legacy does not
-      report creatine.
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 separately
+      lists positive creatine for beef muscle, lamb, pork ham, beef liver and
+      tuna. No range assigned across different foods or cuts.
+    public_note: Contains creatine; amounts vary with the cut and cooking.
+    source_group: creatine
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: the named meat or fish tissue
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -136,3 +221,11 @@ This food provides a **complete essential amino acid profile** typical of animal
 ## References
 
 [1] McNamara & Carlson (2006). [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Constituent-level review of long-chain omega-3 fatty acids in brain development and function; not a tuna feeding trial.
+
+<span id="food-source-2" />
+
+[2] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_6d6a73ac96aa)

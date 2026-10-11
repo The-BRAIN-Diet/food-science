@@ -62,6 +62,122 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/black-beans/black-beans_medium.webp
 legacy_list_image: /img/foods/black-beans/black-beans_thumb.webp
 legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Beans, black, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Beans, black, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports manganese in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Beans, black, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B1 in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B6 in Beans, black, mature seeds,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Beans, black, mature seeds, raw. 
+      The recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-beans|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, black, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

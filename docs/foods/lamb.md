@@ -42,7 +42,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 420
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Lamb, ground, raw'
+  food_name: Lamb, ground, raw
   fdc_id: 174370
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -54,10 +54,58 @@ nutrition_supplementary_sources:
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Creatine occurs in Lamb muscle/organ tissue; USDA SR Legacy does not
-      report creatine.
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 separately
+      lists positive creatine for beef muscle, lamb, pork ham, beef liver and
+      tuna. No range assigned across different foods or cuts.
+    public_note: Contains creatine; amounts vary with the cut and cooking.
+    source_group: creatine
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: the named meat or fish tissue
+    source_reference: '#food-source-7'
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Lamb, ground, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lamb|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Lamb, ground, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Zinc
+    relationship: contains
+    description: USDA FoodData Central reports zinc in Lamb, ground, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lamb|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Lamb, ground, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174370/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-8'
+  - substance: Creatine
+    relationship: contains
+    description: Contains creatine; amounts vary with the cut and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lamb|Creatine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: the named meat or fish tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-7'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -119,3 +167,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [5] Gibson et al. (2006). [Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006). Combine lamb with **legumes** (lentils, chickpeas) in Mediterranean-style dishes so lamb supplies highly bioavailable iron, zinc, and B12 while legumes contribute fibre and plant polyphenols for cardiometabolic balance.
 
 [6] Toldrá et al. (2010). [Handbook of Meat Processing](/docs/papers/BRAIN-Diet-References#toldra_meat_processing_2010). Include **acidic ingredients** such as tomatoes, lemon, or yogurt-based marinades to support tenderisation, improve palatability, and shift overall meal composition toward a more plant-forward pattern.
+
+<span id="food-source-7" />
+
+[7] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)
+
+<span id="food-source-8" />
+
+[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_1a981b50468f)

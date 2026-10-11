@@ -1,3 +1,37 @@
+## Nutrition display threshold and tabs
+
+Vitamins and minerals providing at least 10% of the reference intake per 100 g appear in Nutritional Highlights. Lower contributions remain accessible in Advanced Nutrition. This is an editorial display threshold, not a judgement of biological significance.
+
+Eligibility uses unrounded canonical values. The shared renderer registers lower-contribution rows in the Advanced Nutrition page tab, not an inline disclosure in Highlights. No-reference nutrients and bioactives retain their existing rules; core nutrients and food–substance membership are unchanged. Both views use the same composition record.
+
+## Source-note numbering and reference routing
+
+Render Sources and limitations as bullets labelled with the relevant nutrient or compound names. Reserve square-bracket numbers for citations to the page’s References; do not introduce a second numbered note system. Any bracket marker beside a table amount must match the References number, not the bullet position. Notes contain only concise reader-relevant material, preparation or interpretation context. Remove audit comparisons, migration decisions and checking history from ordinary source notes.
+
+Public food-page source links must point to that page’s References entry via `source_reference: '#food-source-N'`. Each References entry links to the canonical BRAIN-Diet-References record; that record provides the external paper or database URL. Never link directly out from nutrition notes, composition-source footers or substance cards. Retain `source_url` internally for provenance, not as the public href. Supplementary source groups organise shared evidence internally; they do not create separate public citation numbers. Label citation links with the References number in square brackets, such as `[4]`, rather than generic “Source” or “Reference”. Include these page-local citation links in technical provenance as well as concise public notes. Format all References entries consistently as `[N] Author (year). [Title](canonical bibliography anchor). Short source-supported description.`; use a corporate author for databases and do not invent missing metadata. Preserve analytical distinctions in structured metadata and technical evidence rather than repetitive public audit wording.
+
+<!-- User-approved estimate retention rule: 2026-10-10 -->
+## Retain researched estimates while attaching citations
+
+A missing quantitative citation alone is a documentation gap, not a reason to delete an existing researched bioactive estimate or replace it with zero. Preserve its original numeric value, unit, preparation basis and explanatory note; label the amount as an estimate. Set `quantity_citation_pending: true` and add a pending entry to `nutrition_value_reviews`, which appears in the food page’s Review & Corrections panel (`?review=1`). Record the original research note, amount, source-attachment task and any denominator/preparation checks there. Presence citations must not be represented as verification of the estimated amount. Do not expose extraction logs in ordinary source notes.
+
+This retention rule does not override demonstrated wrong-food substitutions, wrong chemical identities, combined-analyte splits, unsuitable per-protein denominators or withdrawn preparation-specific composition. Record those substantive problems separately. Missing amounts remain missing, not analytical zeros. Algorithmic consumers must distinguish estimates from source-verified quantities.
+
+## Scientific and presentation decisions — authoritative clarification (10 October 2026)
+
+This section supersedes any older requirement that a relationship or card must have a public nutrition-table row.
+
+- `substance_relationships` is the canonical reciprocal relationship record. Explicit evidence-supported `contains` / `direct-food-occurrence` links may appear in both directions without quantified content or a nutrition-table row. Evidence, quantified content and approval as a leading/top-10 source are three separate decisions. Do not infer ranking from occurrence, and do not rewrite PM/BRS mappings.
+- Tags are candidates for review, not proof. Preserve unsupported candidates in the internal review queue. Missing quantities do not justify suppressing supported occurrence. Preserve valid explicit decisions, including precursor/formation edges.
+- Combined analytes are distinct identities. A sum never supplies either constituent’s amount or independently establishes either constituent’s presence. Seek food-specific individual evidence; do not split a sum. Apply to every combined analyte, not just carotenoids.
+- Decide nutrition-panel eligibility before wording. A coherent panel requires matching species, edible material, preparation and denominator. Do not combine unrelated review ranges. Supplementary core/mineral rows require `nutrition_panel_eligible: true` after evidence review; an explicit display override does not bypass eligibility.
+- Undefined carbohydrate is withheld pending clarification; an unspecified method alone does not establish what it includes or excludes. Crude fibre is not dietary fibre. Ash and technical proximate measures belong in technical evidence, not nutritional highlights. Do not infer nitrogen factors or extraction methods without verification in the individual source.
+- Withhold unresolved minerals, protein-basis amino acids and unsuitable measurements from public panels and reference-intake calculations. Preserve original units, conversions, methods actually documented, source passages and uncertainty internally. Never guess a corrected value.
+- When coherent preparation-specific data are unavailable, set `nutrition_unavailable: true` and display: “Reliable composition data for this preparation are not yet available.” Retain independently supported relationships.
+- Supplementary notes use distinct numbered references. Use `source_group` only for a genuinely shared source and limitation; use `public_note` for concise interpretation, `source_reference` for the page-local References link and `source_url` for internal traceability. Keep preparation, dry-weight basis, combined identity and qualitative content beside the data. Full `source_note` belongs in expandable technical provenance. Do not repeat values/conversions below a table or expose review status, admission rules or repair history.
+- Use familiar equivalent names, including linoleic acid; retain systematic synonyms in technical metadata. A review’s list of chemicals is not a list of nutritional highlights.
+- Mucuna seed L-DOPA is pharmacologically active exposure, not an ordinary dietary recommendation. Raw seed, cooked food, extract and supplement measurements are not interchangeable. Generic processing descriptions do not establish safe residuals.
+
 ## BRAIN Diet Food Nutrition Schema
 
 This document defines the **canonical nutrition data schema** for all BRAIN Diet food pages.
@@ -20,7 +54,7 @@ Valid representations (one or more):
 
 An empty `nutrition_per_100g: {}` object may remain as an **implementation compatibility field** if a component currently reads that key. It must **not** be described as the compositional source or as the canonical requirement. Do not invent USDA values to fill it.
 
-Every rendered Substance card must still resolve to a **rendered row** in whichever valid representation the page uses.
+Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional.
 
 When standard database composition **is** used, nutrient quantities are stored **per 100 g edible portion** (or per 100 g edible, drained portion where relevant) under `nutrition_per_100g`.
 
@@ -182,14 +216,14 @@ Keep the classes distinct. Do not convert ontology presence into invented compos
 |-------|------------|-------------------|-----------------|
 | **1. Standard compositional** | Conventional energy, macronutrients, vitamins, minerals, and fatty acids with quantitative values from USDA FoodData Central or another named authoritative composition database. | Database nutrition table: `nutrition_per_100g` + `nutrition_source` | value, unit (from key), basis, named source |
 | **2. Extended analytical** | BRAIN-relevant amino acids, individual fatty acids, nutrient forms, fibres, polyphenols, and other bioactives supported by analytical food-composition data or **food-specific** literature for compounds USDA does not capture. | Database nutrition table: individual fatty-acid keys in `nutrition_per_100g`, plus `nutrition_supplementary_sources` | Quantitative: value, unit, source. Qualitative: explicit status (canonical: `Present — quantity not established`) and `source_note` |
-| **3. Ontology admission** | Whether a verified table compound is also admitted to the Substances list and, if needed, a canonical substance page. | Substances list + canonical substance pages | Card only after a supported table row. Must **not** invent a number. Not a BRS mapping. Not every table row is admitted. |
+| **3. Ontology admission** | Whether a verified table compound is also admitted to the Substances list and, if needed, a canonical substance page. | Substances list + canonical substance pages | Card after positive food-specific presence evidence; quantity and table inclusion are separate. Must **not** invent a number. Not a BRS mapping. Not every table row is admitted. |
 
 **Reconciliation (directional):**
 
-- Every **rendered** Substances card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row. A hidden/internal record does not satisfy this.
+- Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional.
 - Not every nutrition-table row requires a Substances card. Ordinary background nutrients should generally remain table-only.
-- Compositional presence alone is insufficient for a card. Trace detection does not automatically admit a card.
-- Every headline Overview **identity** compound must resolve to a rendered table row or enter an explicit research-queue state.
+- Supported presence permits Contains, including trace presence. Leading-source approval is separate.
+- Every headline Overview **identity** compound must have supported canonical presence or enter an explicit research-queue state.
 - A supported qualitative row establishes presence and is **not** an Overview → table gap.
 - Unsupported Overview quantities must be removed; they must not generate cards or canonical pages.
 - Values must never be copied from a related, substitute, or superficially similar food.
@@ -201,11 +235,11 @@ Keep the classes distinct. Do not convert ontology presence into invented compos
 
 ## Rendering groups (`NutritionTable`)
 
-The UI splits `nutrition_per_100g` into **sub-tables** for readability. The public group labels are **Core nutrients**, **Key vitamins and minerals** and **Bioactive compounds**, matching the recipe nutrition panel (`src/theme/RecipeNutrition`) so a reader moving between a food page and a recipe meets the same category names. Remaining quantitative vitamins and minerals sit in a collapsed **Advanced Nutrition** details block so the primary page stays simple:
+The UI splits `nutrition_per_100g` into **sub-tables** for readability. The public group labels are **Core nutrients**, **Key vitamins and minerals** and **Bioactive compounds**, matching the recipe nutrition panel (`src/theme/RecipeNutrition`) so a reader moving between a food page and a recipe meets the same category names. Remaining quantitative vitamins and minerals sit in the page’s **Advanced Nutrition** tab so the primary page stays simple:
 
 1. **Core nutrients** — energy, protein, fat (total + saturated), carbohydrates, sugars, fibre. Always derived from the composition panel when those keys are present.
-2. **Key vitamins and minerals** — vitamins and minerals whose per-100 g amount displays as at least 15% of the adult reference intake (`meetsKeyMicronutrientThreshold` / `percentOfReference`). Derived from `nutrition_per_100g`. **Tags are not a whitelist and must not decide whether a significant nutrient appears.** Food pages do not apply the recipe eight-row cap.  
-3. **Advanced Nutrition** — other quantitative vitamins and minerals from the same composition panel. Progressive disclosure only (not a fourth `<h3>`). These rows remain rendered table evidence for Substance cards and later scoring; they are not headline nutrients of this food.
+2. **Key vitamins and minerals** — vitamins and minerals whose unrounded per-100 g amount supplies at least 10% of the adult reference intake (`isKeyFoodMicronutrient` / `percentOfReference`). Derived from `nutrition_per_100g`. **Tags are not a whitelist and must not decide whether a significant nutrient appears.** Food pages do not apply the recipe eight-row cap.  
+3. **Advanced Nutrition** — other quantitative vitamins and minerals from the same composition panel. A separate page tab, activated when these rows exist; never duplicate them in Highlights. These rows remain rendered table evidence for Substance cards and later scoring; they are not headline nutrients of this food.
 4. **Bioactive compounds** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when explicitly identified and publicly admitted; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists. The complete fatty-acid panel stays in `nutrition_per_100g` for recipe calculation whether or not a given acid is publicly admitted here. Bioactives remain tag- or `public_display`-admitted in this pass.
 5. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
 6. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, not product-label doses, and must not be inferred from a different oil. Distinct formulations must be visibly distinguished (example: DHA-rich algal oils vs combined EPA/DHA algal oils; EPA is formulation-specific).
@@ -278,7 +312,7 @@ nutrition_functional_metrics:
 | `amount_display` | string | If no numeric value | Qualitative or labelled amount. |
 | `notes` | string | No | Notes column. |
 
-Named analytes in `nutrition_supplementary_sources` are table rows. They become Substances cards only when admitted to the Substances layer; supplementary presence alone does not require a card, and a card still requires the table row.
+Named analytes in `nutrition_supplementary_sources` are table rows. They become Substances cards only when admitted to the Substances layer; supplementary presence alone does not require a card, and a card requires a supported canonical presence record, not table inclusion.
 
 ---
 
@@ -368,5 +402,25 @@ nutrition_source:
 
 ## Three Sources of Truth (canonical page layers)
 
-How the nutrition block relates to the **Overview** and **Substances list** is defined in `system/food-page-model.md`. Those three **rendered** layers — Overview, Database nutrition table, Substances list — are the canonical Three Sources of Truth. The composition and provenance classes above do not replace them and must not be labelled the Three Sources of Truth. Every rendered Substances card requires a matching **rendered** table row in whichever valid compositional representation the page uses; a hidden/internal record does not count; not every table row requires a card.
+How the nutrition block relates to the **Overview** and **Substances list** is defined in `system/food-page-model.md`. Those three **rendered** layers — Overview, Database nutrition table, Substances list — are the canonical Three Sources of Truth. The composition and provenance classes above do not replace them and must not be labelled the Three Sources of Truth. Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional. Not every table row requires a card.
 
+
+
+### Evidence reconciliation amendment (10 October 2026)
+
+A migrated tag or renderable row is not scientific recovery. Recovered relationships require an identifiable positive source, species/food identity, plant part and studied preparation. Unresolved or rejected evidence cannot enter public tables through a display override. Preserve pending candidates internally. Presence, a preparation-specific quantified amount and approval as a leading source are separate decisions. A combined-analyte measurement does not establish either constituent individually; fatty-acid fractions do not identify individual triglyceride molecules. Shared sources are cited once with numbered material exceptions; detailed extraction and conversion records belong in technical provenance.
+
+## Active sourcing and presence coverage (2026-10-10)
+
+A missing local citation, incomplete search, unavailable amount or withdrawn composition panel does not establish absence. Actively source routine relationships using credible food-specific composition literature, authoritative records and suitable reviews. A qualitative occurrence report is sufficient for Contains; primary quantified assays are not universally required. Confirm food, edible material and chemical identity proportionately. Only require cultivar, batch or processing specificity when it materially changes the claim.
+
+Internal `presence_status` values are independent of numeric-panel eligibility and top-source approval:
+- `established_presence_citation_pending`: established basis exists; citation attachment remains. Require `evidence_basis.kind` (authoritative-composition-record, accepted-scientific-decision or documented-food-specific-literature), `record` and `rationale`. An unsupported tag or copied assertion is not a basis.
+- `presence_supported_amount_unavailable`: cited presence; no suitable public amount.
+- `presence_and_amount_supported`: cited presence and a suitable, explicitly based quantity.
+- `product_or_preparation_dependent`: supported in specified material or products; state material limitation beside the claim. Quantity is a separate field.
+- `identity_or_presence_genuinely_unresolved`: a specific identity/presence problem remains; record that problem and sources examined.
+
+A citation-attachment gap alone must not remove a relationship with a documented established basis. A scientific rejection requires a substantive reason. Record unfinished research as documentation work, not negative evidence. Never infer an individual constituent solely from a combined assay, or an individual triacylglycerol from a fatty-acid profile. Aglycone families may be linked with explicit glycoside-form qualification; do not represent glycosides as a measured free-aglycone concentration.
+
+Public descriptions state what the reader can conclude, with concise material limitations. Workflow labels and extraction/calculation histories remain internal. Shared composition sources appear once per table/section; detailed provenance remains expandable.
