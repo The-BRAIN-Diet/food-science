@@ -100,7 +100,7 @@ Food is therefore more than a source of nutrients: **when we eat can influence h
 
 ## Therapeutic Area Research
 
-<p class="brs-hub-ta-research-intro">Circadian dysregulation is a clinically relevant phenotype in a subgroup of people with ADHD. It may amplify difficulties in sleep, attention and emotional regulation, although intervention effects on core symptoms remain inconsistent. BRAIN therefore models temporal regulation as a cross-system influence on adaptive regulatory capacity, distinguishing biological timing from sleep behaviour and environmental demands [9,13,14,15].</p>
+<p class="brs-hub-ta-research-intro">ADHD is the first mapped therapeutic area in the BRAIN Framework. Circadian research adds a timing dimension: sleep timing, internal clock phase and ADHD symptoms are related endpoints, but are not interchangeable.</p>
 
 <!-- brs-hub-ta-research:start -->
 <div class="brs-hub-ta-research">
@@ -112,39 +112,45 @@ Food is therefore more than a source of nutrients: **when we eat can influence h
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary>Evidence check: delayed phase and biological markers</summary>
+### Introduction
 
-**Evidence:** The 2017 systematic review identified 62 studies involving 4,462 participants with ADHD, with consistent evidence of eveningness and delayed circadian markers [9]. Baird et al. assessed activity, melatonin, cortisol and oral-mucosa BMAL1/PER2 expression, reporting altered endocrine and peripheral molecular rhythms [10].
+Circadian regulation coordinates the timing of wakefulness, sleep and metabolic activity. In ADHD, this provides a useful framework for investigating delayed sleep timing and individual differences in daily function, while keeping light-driven entrainment separate from feeding-time synchronisation.
 
-**Subgroup and measurement limits:** Bijlenga et al. studied 12 medication-naïve adults with ADHD plus delayed sleep phase and 12 controls. Melatonin onset was approximately 1.5 hours later, with comparable delays in activity and temperature. Bedtimes were more variable, but within-person melatonin profiles were equally stable: behavioural irregularity did not demonstrate biological clock instability [11]. Peripheral gene expression does not directly measure the brain clock or establish causation. The 2025 Perspective synthesises this literature; it is not a new cohort or universal diagnostic finding [12].
+### ADHD translational biological context
 
-</details>
+A placebo-controlled trial in 105 medication-free children with ADHD and chronic sleep-onset insomnia found that melatonin advanced sleep onset and the dim-light melatonin rhythm, and increased sleep duration. Behaviour, cognition and quality of life did not significantly improve. This supports a circadian/sleep relationship in that selected group, rather than a universal circadian explanation or treatment for ADHD [4].
 
-<details>
-<summary>Evidence check: phase correction and ADHD symptoms</summary>
+An epigenome-wide study of saliva from 391 children with ADHD and 213 controls reported sex-dependent methylation differences at VIPR2, a gene encoding a receptor involved in circadian signalling: lower methylation in male cases and higher methylation in female cases. The diagnosis-associated findings were not genome-wide significant. Peripheral methylation does not measure brain receptor activity, clock phase or a diet-responsive mechanism [5].
 
-**Adult intervention:** In 51 adults with ADHD plus delayed sleep phase, three weeks of low-dose melatonin advanced DLMO by approximately 88 minutes; melatonin plus morning light advanced it by approximately 118 minutes. ADHD symptoms decreased by 14% immediately after melatonin alone, but not after the combination. Phase and symptoms returned towards baseline after treatment stopped [13].
+Together, these findings justify assessing circadian timing in ADHD research. They do not establish that every person with ADHD has a delayed clock, that nutritional changes correct VIPR2 methylation, or that improving a sleep endpoint necessarily improves core ADHD symptoms.
 
-**Light-specific evidence:** A pilot combining morning bright light with reduced evening light advanced DLMO by 31 minutes and mid-sleep by 57 minutes. Larger advances correlated with symptom reductions. Unchanged actigraphic sleep duration and efficiency were reported in a subset of eight participants; this does not establish an effect independent of sleep, exclude expectancy, or isolate morning light from evening restriction [14].
+### ADHD evidence and connected circadian mechanisms
 
-**Sleep behaviour:** The secondary sleep analysis found that advancing DLMO did not automatically advance actual sleep timing. The authors recommended behavioural support alongside chronotherapy; its added benefit was not tested in this analysis [20].
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Four-week randomized trial in 105 children with ADHD and chronic sleep-onset insomnia: melatonin advanced sleep onset and endogenous melatonin timing and increased total sleep; no significant behaviour, cognition or quality-of-life benefit. The tested intervention is melatonin, not proof of light or meal-timing efficacy. | Van der Heijden et al. (2007) [[4]](/docs/papers/BRAIN-Diet-References#van_der_heijden_melatonin_adhd_2007) | [Circadian-FM1 — Light and Feeding Zeitgeber Entrainment](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — central timing context; no automatic PM intervention admission. |
+| Childhood ADHD saliva methylation study: sex-dependent VIPR2 association; no genome-wide significant diagnosis-associated sites. Association does not establish causal receptor dysfunction or nutritional reversibility. | Mooney et al. (2020) [[5]](/docs/papers/BRAIN-Diet-References#mooney_large_2020) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — circadian signalling research context, beyond the two retained zeitgeber PMs. |
+| Systematic review: 62 studies, 4,462 participants with ADHD; eveningness and delayed circadian markers across studied populations. | Coogan & McGowan (2017) [[9]](/docs/papers/BRAIN-Diet-References#coogan_circadian_2017) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — system-level timing context. |
+| Adults with ADHD: altered activity, endocrine and peripheral BMAL1/PER2 rhythms. | Baird et al. (2012) [[10]](/docs/papers/BRAIN-Diet-References#baird_circadian_2012) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment); [Cortisol Rhythm Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation). |
+| Case–control study: 12 medication-naïve adults with ADHD and delayed sleep phase, 12 controls; delayed melatonin, activity and temperature rhythms. Variable bedtimes coexisted with stable melatonin profiles. | Bijlenga et al. (2013) [[11]](/docs/papers/BRAIN-Diet-References#bijlenga_circadian_profiles_2013) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — phase and behavioural-alignment context. |
+| Perspective on circadian dysfunction in an ADHD subgroup; synthesises phase-marker and chronotherapy evidence. | Luu & Fabiano (2025) [[12]](/docs/papers/BRAIN-Diet-References#luu_circadian_2025) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — subgroup research synthesis. |
+| Randomized trial: 51 adults with ADHD and delayed sleep phase; melatonin advanced DLMO and reduced symptoms immediately after treatment. Melatonin plus light produced a larger phase advance without symptom improvement. | van Andel et al. (2021) [[13]](/docs/papers/BRAIN-Diet-References#van_andel_chronotherapy_2021) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — chronotherapy context; melatonin is a separate intervention. |
+| Uncontrolled adult ADHD pilot: morning light plus evening light restriction advanced DLMO; phase advances correlated with symptom reductions. | Fargason et al. (2017) [[14]](/docs/papers/BRAIN-Diet-References#fargason_light_adhd_2017) | [Light–Dark Circadian Entrainment](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment) — light-specific evidence panel. |
+| Integrative review of circadian–dopaminergic interactions in ADHD, including developmental variation and comorbidities. | Glavan et al. (2026) [[15]](/docs/papers/BRAIN-Diet-References#glavan_chronobiological_2026) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment); [Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation). |
+| Exploratory secondary analysis: 37 adults with ADHD and delayed sleep phase; some hormone changes after melatonin, without strong indications of glucose/appetite dysregulation. | van Andel et al. (2024) [[16]](/docs/papers/BRAIN-Diet-References#van_andel_metabolic_2024) | [Cortisol Rhythm Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation); [Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal). |
+| Secondary sleep analysis: adults with ADHD and delayed sleep phase from the same chronotherapy trial; advancing DLMO did not automatically advance sleep timing. | van Andel et al. (2022) [[20]](/docs/papers/BRAIN-Diet-References#van_andel_chronotherapy_sleep_2022) | [Circadian-FM1](/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment) — biological phase versus sleep behaviour. |
 
-**Contrary evidence:** The child melatonin trial improved timing and sleep without significant behaviour or cognition benefit [4]. Taken together, phase correction is achievable; consistent improvement of core ADHD symptoms and causal mediation through realignment remain unestablished. Melatonin evidence does not establish a food, light or meal-timing effect.
+### Current evidence limitations
 
-</details>
+| Question | Remaining gap |
+| --- | --- |
+| Do light or meal-timing changes improve ADHD through measured clock changes? | ADHD-specific studies measuring both timing and functional outcomes are needed; healthy-volunteer timing results cannot settle this. |
+| Can diet modify the ADHD-associated VIPR2 signal? | No nutritional intervention or causal mediation is established by the cited methylation study. |
+| Do exercise, fasting or nutrient combinations improve ADHD by circadian mediation? | Separate physiological effects from measured clock changes and from ADHD outcomes; the supplied manuscript summary does not establish that chain. |
 
-<details>
-<summary>Evidence check: cross-system interpretation</summary>
+### Framework expansion
 
-**Dopamine:** The 2026 integrative review proposes bidirectional interactions between circadian and dopaminergic dysfunction. This supports a relationship to investigate, rather than demonstrated human mediation or a dietary treatment claim [15].
-
-**Metabolism:** An exploratory secondary analysis of 37 adults from the chronotherapy trial found normal baseline insulin/glucose and no strong indications of appetite/glucose dysregulation. Melatonin changed some hormone measures; the combination did not. Fixed morning sampling may represent different biological times across participants. This is not independent replication or proof of metabolic restoration [16].
-
-**Framework interpretation:** Biological phase, behavioural schedules and environmental demands are distinct contributors. General human misalignment experiments support endocrine/metabolic consequences [17]; clock–NAD⁺ feedback and feeding-hormone clock resetting are supported in model systems [18,19]. These evidence layers do not establish the same pathways as causes of ADHD.
-
-</details>
-
+Sleep outcomes and VIPR2 signalling broaden the research context without creating new PMs or transferring phenome ratings. Feeding-time and light-driven mechanisms retain their distinct ownership. Maternal metabolic and environmental-exposure evidence requires separate routing and does not establish a VIPR2 dietary lever.
 
 </div>
 </div>
