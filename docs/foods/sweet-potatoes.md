@@ -62,6 +62,12 @@ nutrition_supplementary_sources:
     source_note: >-
       Typical USDA-reported beta-carotene order-of-magnitude for raw orange
       sweet potato; values vary by cultivar and storage.
+    public_note: >-
+      Typical USDA-reported beta-carotene order-of-magnitude for raw orange
+      sweet potato; values vary by cultivar and storage.
+    source_group: >-
+      Typical USDA-reported beta-carotene order-of-magnitude for raw orange
+      sweet potato; values vary by cultivar and storage.
 main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 legacy_list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
@@ -69,7 +75,7 @@ substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
-    process: Cleavage to retinal, then oxidation to retinoic acid
+    process: 'Cleavage to retinal, then oxidation to retinoic acid'
     description: >-
       Raw sweet potato records 8,509 µg beta-carotene and 709 µg RAE vitamin A
       per 100 g. The dominant precursor is beta-carotene. The food is not
@@ -77,6 +83,35 @@ substance_relationships:
     citation_keys:
       - harrison_vitamin_a_absorption_2012
       - duester_retinoic_acid_2008
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Sweet potato, raw, unprepared
+      (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sweet-potatoes|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution
+      Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/168482/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin C in Sweet potato, raw, unprepared
+      (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sweet-potatoes|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution
+      Program)
+    source_url: 'https://fdc.nal.usda.gov/food-details/168482/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

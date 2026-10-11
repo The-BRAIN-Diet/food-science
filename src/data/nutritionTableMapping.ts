@@ -13,7 +13,6 @@
  * editorial Substance relationships. public_display is the exception override.
  */
 
-import {meetsKeyMicronutrientThreshold} from "../utils/recipeNutritionCalculate.mjs"
 import {percentOfReference} from "../utils/nutrientReference.mjs"
 
 /** Macronutrients + sugars + fibre — first sub-table */
@@ -174,9 +173,13 @@ export const SUBSTANCE_LABEL_ALIASES: Record<string, string[]> = {
   "vitamin e (tocopherols/tocotrienols)": ["Vitamin E"],
   ala: ["ALA", "Alpha-Linolenic Acid"],
   "alpha-linolenic acid": ["ALA", "Alpha-Linolenic Acid"],
-  "lutein + zeaxanthin": ["Lutein", "Zeaxanthin", "Lutein + zeaxanthin"],
-  lutein: ["Lutein", "Lutein + zeaxanthin"],
-  zeaxanthin: ["Zeaxanthin", "Lutein + zeaxanthin"],
+  "beta-carotene": ["Beta-Carotene", "β-Carotene"],
+  "β-carotene": ["Beta-Carotene", "β-Carotene"],
+  coq10: ["CoQ10", "Coenzyme Q10"],
+  "coenzyme q10": ["CoQ10", "Coenzyme Q10"],
+  "lutein + zeaxanthin": ["Lutein + zeaxanthin"],
+  lutein: ["Lutein"],
+  zeaxanthin: ["Zeaxanthin"],
   "beta-glucans": ["Beta-Glucans", "Beta-glucan"],
   "beta-glucan": ["Beta-Glucans", "Beta-glucan"],
   cystine: ["Cystine", "Cysteine"],
@@ -285,17 +288,17 @@ function panelAmount(fm: Record<string, unknown>, key: string): number | null {
 
 /**
  * A vitamin or mineral earns the public *Key vitamins and minerals* table when
- * its per-100 g amount displays as 15% or more of the adult reference intake.
- * Tags are not consulted. public_display: table can force a row into Key.
+ * its unrounded per-100 g amount supplies at least 10% of the adult reference intake.
+ * Tags are not consulted. public_display controls row visibility; reference-bearing rows still use the threshold.
  */
 export function isKeyFoodMicronutrient(fm: Record<string, unknown>, key: string): boolean {
   if (!(MICRONUTRIENT_KEYS as readonly string[]).includes(key)) return false
   const label = NUTRIENT_LABELS[key]?.label ?? key
   const explicit = explicitDisplay(fm, key) || explicitDisplay(fm, label)
-  if (explicit === PUBLIC_DISPLAY.TABLE) return true
   if (explicit && explicit !== PUBLIC_DISPLAY.TABLE) return false
   if (!isPublicTableKey(fm, key)) return false
-  return meetsKeyMicronutrientThreshold(percentOfReference(key, panelAmount(fm, key)))
+  const pct = percentOfReference(key, panelAmount(fm, key))
+  return pct !== null ? pct >= 10 : explicit === PUBLIC_DISPLAY.TABLE
 }
 
 function tagLabels(fm: Record<string, unknown>): string[] {
@@ -377,12 +380,19 @@ interface SupplementaryDisplayRow {
   amount_display?: string
   status?: string
   public_display?: string
+  section?: string
+  evidence_status?: string
+  nutrition_panel_eligible?: boolean
+  basis?: string
 }
 
 export function isPublicSupplementaryRow(
   fm: Record<string, unknown>,
   row: SupplementaryDisplayRow,
 ): boolean {
+  if (row.evidence_status === "unresolved" || row.evidence_status === "rejected") return false
+  if ((row.section === "core" || row.section === "mineral") && row.nutrition_panel_eligible !== true) return false
+  if (/per\s*(?:g|gram)\s*(?:of\s*)?protein/i.test(row.basis || "")) return false
   const explicit =
     (row.public_display as PublicDisplayStatus | undefined) ||
     explicitDisplay(fm, row.key) ||

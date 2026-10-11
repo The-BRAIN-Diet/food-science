@@ -8,10 +8,13 @@ import { execSync } from "node:child_process";
 import { toJSON } from "@orcid/bibtex-parse-js";
 
 const ROOT = process.cwd();
-const BIB_PATH = path.join(ROOT, "static/bibtex/BRAIN-diet.bib");
+const BIB_PATHS = [
+  path.join(ROOT, "static/bibtex/BRAIN-diet.bib"),
+  path.join(ROOT, "static/bibtex/BRAIN-diet-sources.bib"),
+];
 const DOCS_DIR = path.join(ROOT, "docs");
 
-const bib = toJSON(fs.readFileSync(BIB_PATH, "utf8"));
+const bib = toJSON(BIB_PATHS.filter((bibPath) => fs.existsSync(bibPath)).map((bibPath) => fs.readFileSync(bibPath, "utf8")).join("\n"));
 const bibKeys = new Set(bib.map((e) => e.key || e.citationKey));
 
 const cited = [
@@ -28,11 +31,11 @@ const cited = [
 const missing = cited.filter((k) => !bibKeys.has(k)).sort();
 
 if (missing.length) {
-  console.error(`Missing ${missing.length} citation key(s) in ${BIB_PATH}:\n`);
+  console.error(`Missing ${missing.length} citation key(s) in the BRAIN Diet bibliography:\n`);
   for (const k of missing) {
     console.error(`  - ${k}`);
   }
   process.exit(1);
 }
 
-console.log(`All ${cited.length} cited keys are present in BRAIN-diet.bib (${bibKeys.size} total entries).`);
+console.log(`All ${cited.length} cited keys are present in the BRAIN Diet bibliography (${bibKeys.size} total entries).`);

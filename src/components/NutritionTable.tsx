@@ -1,4 +1,5 @@
-import React from "react"
+import React, {useMemo} from "react"
+import AdvancedNutrition from "@site/src/components/AdvancedNutrition"
 import {ADULT_REFERENCE_INTAKE} from "@site/src/utils/nutrientReference.mjs"
 import {
   BIOACTIVE_LIPID_KEYS,
@@ -28,10 +29,21 @@ interface SupplementarySource {
   /** Explicit qualitative status; rendered when amount_display is absent */
   status?: string
   source_note: string
+  public_note?: string
+  source_group?: string
+  source_url?: string
+  source_reference?: string
+  nutrition_panel_eligible?: boolean
+  basis?: string
   /** Override public visibility; default qualitative rows are substance-only. */
   public_display?: "table" | "substance-only" | "internal-only" | "excluded-error"
   /** Short note for the Bioactive Compounds “Notes” column (optional) */
   notes?: string
+  /**
+   * Where a literature range belongs. Omitted rows stay in Bioactive compounds.
+   * Core and mineral ranges are not single assays, so % reference intake stays blank.
+   */
+  section?: "core" | "mineral" | "bioactive"
 }
 
 /** Optional fourth sub-table: total polyphenols, antioxidant proxies, etc. */
@@ -56,17 +68,18 @@ interface FunctionalMetric {
 
 interface NutritionTableProps {
   details: FrontMatter
+  view?: "highlights" | "advanced"
 }
 
 /** Caption under “Key vitamins and minerals”. */
 export const KEY_VITAMIN_TABLE_CAPTION =
-  "Vitamins and minerals supplying at least 15% of an adult reference intake per 100 g, derived from the composition panel. Tags do not decide which rows appear."
+  "Vitamins and minerals supplying at least 10% of an adult reference intake per 100 g, derived from the composition panel."
 
 export const ADVANCED_NUTRITION_CAPTION =
-  "Other quantitative vitamins and minerals from the same composition panel. They remain available for Substance cards and later scoring; they are not headline nutrients of this food."
+  "Other vitamins and minerals reported for the same food and preparation."
 
 export const BIOACTIVE_TABLE_CAPTION =
-  "Explicitly identified compounds, including individual fatty acids, with a defensible quantity or an explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
+  "Content applies to the food and preparation identified in the source notes."
 
 /**
  * Reference daily intakes come from the canonical set in
@@ -145,8 +158,10 @@ function isValidFunctionalMetric(s: unknown): s is FunctionalMetric {
   )
 }
 
-export default function NutritionTable({details}: NutritionTableProps): React.ReactElement {
-  const nutrition = (details.nutrition_per_100g || {}) as NutritionValues
+export default function NutritionTable({details, view = "highlights"}: NutritionTableProps): React.ReactElement {
+  const advancedContent = useMemo(() => <NutritionTable details={details} view="advanced" />, [details])
+  const nutritionUnavailable = details.nutrition_unavailable || details.composition_status === "withdrawn"
+  const nutrition = (nutritionUnavailable ? {} : (details.nutrition_per_100g || {})) as NutritionValues
   const source = (details.nutrition_source || {}) as Record<string, unknown>
   const tableMapsTo =
     typeof source.table_maps_to === "string" ? source.table_maps_to.trim() : ""
@@ -174,8 +189,21 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     hasAuthorisedSpecs
 
   if (!hasAnyNutrition) {
-    return null
+    return nutritionUnavailable ? <section id="nutritional-highlights"><h2>Nutrition</h2><p>Reliable composition data for this preparation are not yet available.</p></section> : null
   }
+
+  const noteGroups = new Map<string, {number: number; rows: SupplementarySource[]}>()
+  for (const sup of supplementary) {
+    const group = sup.source_group || sup.source_note
+    if (!noteGroups.has(group)) noteGroups.set(group, {number: noteGroups.size + 1, rows: []})
+    noteGroups.get(group)!.rows.push(sup)
+  }
+  const citationSuffix = (sup: SupplementarySource) => {
+    const number = sup.source_reference?.match(/food-source-(\d+)$/)?.[1]
+    return number ? ` [${number}]` : ""
+  }
+  let hasReferencePercent = false
+
 
   function renderRdaCells(key: string, raw: number | null | undefined): React.ReactNode {
     const meta = NUTRIENT_LABELS[key] || {label: key, unit: ""}
@@ -192,6 +220,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     if (value !== null && rda && rda > 0) {
       const pct = roundTo((value / rda) * 100, 1)
       percentDisplay = `${pct}%`
+      hasReferencePercent = true
     }
 
     return (
@@ -261,14 +290,38 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     )
   }
 
-  const supplementaryRows = supplementary.map((sup) => {
+  const coreRangeRows = supplementary.filter((sup) => sup.section === "core")
+  const mineralRangeRows = supplementary.filter((sup) => sup.section === "mineral")
+  const bioactiveSupplementary = supplementary.filter(
+    (sup) => sup.section !== "core" && sup.section !== "mineral",
+  )
+
+  function renderRangeRow(sup: SupplementarySource): React.ReactElement {
     const amountCell =
       typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0
-        ? `${sup.amount_display.trim()} *`
+        ? `${sup.amount_display.trim()}${citationSuffix(sup)}`
         : typeof sup.status === "string" && sup.status.trim().length > 0
-          ? `${sup.status.trim()} *`
+          ? `${sup.status.trim()}${citationSuffix(sup)}`
           : typeof sup.value === "number" && sup.unit
-            ? `${roundTo(sup.value, 1)} ${sup.unit} *`
+            ? `${roundTo(sup.value, 1)} ${sup.unit}${citationSuffix(sup)}`
+            : "—"
+    return (
+      <tr key={sup.key} id={`nutrition-row-${sup.key}`} className="nutrition-row-target">
+        <td style={tdStyle}>{sup.label}</td>
+        <td style={tdStyle}>{amountCell}</td>
+        <td style={tdStyle}>—</td>
+      </tr>
+    )
+  }
+
+  const supplementaryRows = bioactiveSupplementary.map((sup) => {
+    const amountCell =
+      typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0
+        ? `${sup.amount_display.trim()}${citationSuffix(sup)}`
+        : typeof sup.status === "string" && sup.status.trim().length > 0
+          ? `${sup.status.trim()}${citationSuffix(sup)}`
+          : typeof sup.value === "number" && sup.unit
+            ? `${roundTo(sup.value, 1)} ${sup.unit}${citationSuffix(sup)}`
             : "—"
     const notesCell =
       typeof sup.notes === "string" && sup.notes.trim().length > 0 ? sup.notes.trim() : "—"
@@ -315,7 +368,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   const hasFunctionalSection = functionalRows.length > 0
   const hasUsdaCompositionTables =
     coreRows.length > 0 ||
+    coreRangeRows.length > 0 ||
     microRows.length > 0 ||
+    mineralRangeRows.length > 0 ||
     advancedMicroRows.length > 0 ||
     hasBioactiveSection ||
     hasFunctionalSection
@@ -330,37 +385,64 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
         .join(" · ")
     : ""
 
+  if (view === "advanced") {
+    return <section className="nutrition-table-block">
+      <h2>Vitamins and minerals (per 100 g)</h2>
+      <p>{ADVANCED_NUTRITION_CAPTION}</p>
+      {typeof source.food_name === "string" && <p><strong>Selected food and preparation:</strong> {String(source.food_name)}. {String(source.basis || "per 100 g of the named food")}.</p>}
+      <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+        <thead><tr><th style={thStyle}>Nutrient</th><th style={thStyle}>Amount per 100 g</th><th style={thStyle}>% reference intake per 100 g</th></tr></thead>
+        <tbody>{advancedMicroRows}</tbody>
+      </table>
+      {MICRONUTRIENT_KEYS.some(key => isPublicTableKey(details, key) && !isKeyFoodMicronutrient(details, key) && typeof nutrition[key] === "number" && RDA_VALUES[key] > 0) && <p>Reference intakes: US Dietary Reference Intakes for adults (19–50 years; using the higher of male/female values where they differ).</p>}
+      {source.database && <p>Composition source: {source.source_reference ? <a href={String(source.source_reference)}>{String(source.database)}</a> : String(source.database)}{source.food_name ? `, ${String(source.food_name)}` : ""}{source.fdc_id ? `, FDC ID ${String(source.fdc_id)}` : ""}.</p>}
+    </section>
+  }
+
   return (
     <section className="nutrition-table-block" id="nutritional-highlights">
+      {nutritionUnavailable ? <><h2>Nutrition</h2><p>Reliable composition data for this preparation are not yet available.</p></> : null}
       {hasUsdaCompositionTables && (
-        <h2 id="nutrition-tables">Nutrient Tables (per 100 g)</h2>
+        <h2 id="nutrition-tables">{nutritionUnavailable ? "Recorded constituents" : "Nutrient Tables (per 100 g)"}</h2>
+      )}
+      {Object.keys(nutrition).length > 0 && typeof source.food_name === "string" && (
+        <p className="nutrition-preparation"><strong>Selected food and preparation:</strong> {String(source.food_name)}. {String(source.basis || "per 100 g of the named food")}.</p>
       )}
       {tableMapsTo && hasUsdaCompositionTables && (
-        <p style={{fontSize: "0.95em", color: "#555", marginTop: "0.25rem", marginBottom: "0.75rem"}}>
+        <p style={{fontSize: "0.95em", color: "var(--ifm-font-color-base)", marginTop: "0.25rem", marginBottom: "0.75rem"}}>
           <strong>Maps to:</strong> {tableMapsTo}
         </p>
       )}
 
-      {coreRows.length > 0 && (
+      {(coreRows.length > 0 || coreRangeRows.length > 0) && (
         <>
           <h3>Core nutrients</h3>
+          {coreRangeRows.length > 0 && (
+            <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
+              The food form and measurement basis are specified in the source notes.
+              Reference-intake percentages are not calculated from ranges.
+            </p>
+          )}
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
                 <th style={thStyle}>Nutrient</th>
                 <th style={thStyle}>Amount per 100 g</th>
-                <th style={thStyle}>% RDA per 100 g</th>
+                <th style={thStyle}>% reference intake per 100 g</th>
               </tr>
             </thead>
-            <tbody>{coreRows}</tbody>
+            <tbody>
+              {coreRows}
+              {coreRangeRows.map(renderRangeRow)}
+            </tbody>
           </table>
         </>
       )}
 
-      {microRows.length > 0 && (
+      {(microRows.length > 0 || mineralRangeRows.length > 0) && (
         <>
           <h3>Key vitamins and minerals</h3>
-          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
+          <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
             {KEY_VITAMIN_TABLE_CAPTION}
           </p>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
@@ -368,46 +450,29 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
               <tr>
                 <th style={thStyle}>Nutrient</th>
                 <th style={thStyle}>Amount per 100 g</th>
-                <th style={thStyle}>% RDA per 100 g</th>
+                <th style={thStyle}>% reference intake per 100 g</th>
               </tr>
             </thead>
-            <tbody>{microRows}</tbody>
+            <tbody>{microRows}{mineralRangeRows.map(renderRangeRow)}</tbody>
           </table>
         </>
       )}
 
-      {advancedMicroRows.length > 0 && (
-        <details id="advanced-nutrition" style={{marginTop: "0.75rem"}}>
-          <summary style={{cursor: "pointer", color: "var(--ifm-color-primary)"}}>
-            Advanced Nutrition
-          </summary>
-          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
-            {ADVANCED_NUTRITION_CAPTION}
-          </p>
-          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
-            <thead>
-              <tr>
-                <th style={thStyle}>Nutrient</th>
-                <th style={thStyle}>Amount per 100 g</th>
-                <th style={thStyle}>% RDA per 100 g</th>
-              </tr>
-            </thead>
-            <tbody>{advancedMicroRows}</tbody>
-          </table>
-        </details>
+      {advancedMicroRows.length > 0 && view === "highlights" && (
+        <AdvancedNutrition tabOnly>{advancedContent}</AdvancedNutrition>
       )}
 
       {hasBioactiveSection && (
         <>
           <h3>Bioactive compounds</h3>
-          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
+          {bioactiveLipidRows.length > 0 && <p style={{fontSize: "0.9em", color: "var(--ifm-font-color-base)", marginTop: "0.5rem"}}>
             {BIOACTIVE_TABLE_CAPTION}
-          </p>
+          </p>}
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
                 <th style={thStyle}>Compound / class</th>
-                <th style={thStyle}>Amount per 100 g</th>
+                <th style={thStyle}>{nutritionUnavailable ? "Content" : "Amount per 100 g"}</th>
                 <th style={thStyle}>Notes</th>
               </tr>
             </thead>
@@ -417,19 +482,28 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
             </tbody>
           </table>
 
-          {hasSupplementary && (
-            <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
-              <strong>Source notes (supplementary):</strong>
-              <ul style={{marginTop: "0.25rem", marginBottom: 0, paddingLeft: "1.25rem"}}>
-                {supplementary.map((sup) => (
-                  <li key={sup.key} id={`nutrition-note-${sup.key}`} className="nutrition-row-target">
-                    * <strong>{sup.label}:</strong> {linkifyFcirIds(sup.source_note)}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
         </>
+      )}
+
+      {hasSupplementary && (
+        <div style={{marginTop: "0.75rem", fontSize: "0.9em"}}>
+          <strong>Sources and limitations</strong>
+          <ul>
+            {Array.from(noteGroups.values()).map(({number, rows}) => (
+              <li key={number} id={`nutrition-source-${number}`}>
+                <strong>{rows.map((row) => row.label).join(", ")}:</strong>{" "}{rows[0].public_note || "Supporting evidence and original measurement details are available in technical provenance below."}
+                {rows[0].source_reference ? <> <a href={rows[0].source_reference}>[{rows[0].source_reference.match(/food-source-(\d+)$/)?.[1] || "Reference"}]</a></> : null}
+              </li>
+            ))}
+          </ul>
+          <details><summary>Technical provenance</summary>
+            {Array.from(noteGroups.values()).map(({number, rows}) => (
+              <div key={number}><strong>Source note {number}</strong>
+                {rows.map((sup) => <p key={sup.key} id={`nutrition-note-${sup.key}`}><strong>{sup.label}:</strong> {linkifyFcirIds(sup.source_note)}{sup.source_reference ? <> <a href={sup.source_reference}>[{sup.source_reference.match(/food-source-(\d+)$/)?.[1] || "Reference"}]</a></> : null}</p>)}
+              </div>
+            ))}
+          </details>
+        </div>
       )}
 
       {hasFunctionalSection && (
@@ -449,7 +523,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
               <tbody>{functionalRows}</tbody>
             </table>
 
-            <p style={{marginTop: "1rem", fontSize: "0.9em", color: "#555"}}>
+            <p style={{marginTop: "1rem", fontSize: "0.9em", color: "var(--ifm-font-color-base)"}}>
               <strong>Note:</strong> Functional-metric values depend strongly on assay method,
               processing, and product formulation. Use these as contextual metrics, not strict
               like-for-like nutrient equivalents.
@@ -491,12 +565,12 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
             </tbody>
           </table>
           {authorised.caption && (
-            <p style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
+            <p style={{marginTop: "0.75rem", fontSize: "0.9em", color: "var(--ifm-font-color-base)"}}>
               {authorised.caption}
             </p>
           )}
           {authorisedProvenance && (
-            <p style={{marginTop: "0.5rem", fontSize: "0.9em", color: "#555"}}>
+            <p style={{marginTop: "0.5rem", fontSize: "0.9em", color: "var(--ifm-font-color-base)"}}>
               <strong>
                 Data provenance (regulatory product specifications, not USDA
                 food-composition measurements):
@@ -508,15 +582,15 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       )}
 
       {hasUsdaCompositionTables && (
-      <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
-        <div style={{marginBottom: "0.25rem"}}>
+      <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "var(--ifm-font-color-base)"}}>
+        {hasReferencePercent && <div style={{marginBottom: "0.25rem"}}>
           <strong>Reference intakes:</strong> US Dietary Reference Intakes for adults (19–50 years;
           using the higher of male/female values where they differ).
-        </div>
+        </div>}
         {source && (source.database || source.food_name || source.fdc_id) && (
           <div>
-            <strong>Data provenance (core / micronutrient panel):</strong>{" "}
-            {source.database && <span>{String(source.database)}</span>}
+            <strong>Composition source:</strong>{" "}
+            {source.database && <span>{source.source_reference ? <a href={String(source.source_reference)}>{String(source.database)}</a> : String(source.database)}</span>}
             {source.food_name && (
               <span>
                 {", "}
@@ -529,22 +603,10 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
                 {String(source.fdc_id)}
               </span>
             )}
-            {source.retrieval_method && (
-              <span>
-                {", "}
-                {String(source.retrieval_method)}
-              </span>
-            )}
             {source.basis && (
               <span>
                 {", "}
                 {String(source.basis)}
-              </span>
-            )}
-            {source.last_checked && (
-              <span>
-                {", last checked "}
-                {String(source.last_checked)}
               </span>
             )}
           </div>
@@ -552,7 +614,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       </div>
       )}
       {fcirFooterIds.length > 0 && (
-        <div className="fcir-food-notes" style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
+        <div className="fcir-food-notes" style={{marginTop: "0.75rem", fontSize: "0.9em", color: "var(--ifm-font-color-base)"}}>
           {fcirFooterIds.map((id) => (
             <p key={id} style={{margin: "0.25rem 0"}}>
               {linkifyFcirIds(foodPageNote(id))}

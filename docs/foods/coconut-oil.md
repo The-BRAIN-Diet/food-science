@@ -6,10 +6,6 @@ description: MCTs for rapid brain energy and ketone production
 tags:
   - Food
   - Coconut Oil
-  - MCT
-  - Caprylic Triglyceride
-  - Capric Triglyceride
-  - Caproic Triglyceride
   - Vegan
   - Vegetarian
 list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
@@ -31,7 +27,7 @@ nutrition_per_100g:
   omega3_mg: 19
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 19
 nutrition_source:
   database: USDA FoodData Central
@@ -43,31 +39,34 @@ nutrition_source:
 main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 legacy_list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
 legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
+substance_relationships:
+  - substance: MCT
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: unresolved
+    recovery_audit: coconut-oil|MCT
+    presence_status: identity_or_presence_genuinely_unresolved
+    internal_review_reason: >-
+      Coconut oil has mixed-chain triglycerides and is a manufacturing source of
+      commercial C8/C10 MCT oil. Medium-chain fatty-acid fractions alone do not
+      establish the canonical C8/C10 triglyceride mixture; rescope as
+      manufacturing source, not equivalent product.
+substance_review_candidates:
+  - Capric Triglyceride
+  - Caproic Triglyceride
+  - Caprylic Triglyceride
+  - MCT
 ---
 ## Overview
 
-Coconut oil is a **saturated-fat-rich** oil high in **medium-chain triglycerides (MCTs)** used for culinary and ketogenic contexts [1]. Saturated fat intake should remain within dietary upper limits [1].
-
-Within the BRAIN Diet framework, coconut oil is an occasional culinary fat; evidence for brain-specific benefit beyond energy metabolism is limited — overall fat quality and plant-food volume matter more
-
-## Key Nutritional Highlights
-
-- High in saturated fat and MCTs (C8/C10 fractions vary by product) [1].
-- MCTs provide rapidly oxidised fatty acids; ketogenic contexts only.
-- Not a preferred default cooking fat vs olive/avocado oils for cardiometabolic patterns [2].
-- Energy-dense; typical use is tablespoons, not 100 g.
+Coconut oil is a culinary fat rich in saturated fatty acids, especially lauric acid. It contains a mixture of triglyceride molecules and differs from concentrated C8/C10 MCT oil. Fatty-acid composition should not be read as a measurement of individual triglycerides.
 
 ## Food Context
 
-### Synergies
-
-- Part of MCT strategy for brain energy
-
 ### Preparation
 
-- Use in smoothies, baking, or small portions
-- Supports ketone production
-- Antimicrobial properties for gut health
+- Used in baking and other cooking.
+- Coconut oil and commercial MCT oil have different compositions.
 
 ## Recipes
 

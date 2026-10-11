@@ -49,7 +49,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 33
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Sauerkraut, canned, solids and liquids'
+  food_name: Sauerkraut, canned, solids and liquids
   fdc_id: 169279
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -61,11 +61,37 @@ nutrition_supplementary_sources:
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Sauerkraut is a documented dietary source of menaquinones (vitamin K2).
-      USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity
-      is not established here.
+      Walther et al. (2013), Menaquinones, Bacteria, and the Food Supply. Review
+      explicitly reports long-chain menaquinones in sauerkraut; amounts vary
+      with fermentation.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3941825/
+    source_group: sauerkraut-k2
+    public_note: >-
+      Menaquinones have been reported in sauerkraut; content depends on
+      fermentation.
+    notes: fermented cabbage
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Vitamin K2
+    relationship: contains
+    description: >-
+      Menaquinones have been reported in sauerkraut; content depends on
+      fermentation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sauerkraut|Vitamin K2
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Walther et al. (2013), Menaquinones, Bacteria, and the Food Supply
+    evidence_material: fermented cabbage
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3941825/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -113,3 +139,7 @@ Within the BRAIN Diet framework, sauerkraut belongs to the fermented-vegetable p
 [1] Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials. Wastyk et al. 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
 
 [2] Sauerkraut fermentation produces live lactic acid bacteria and organic acids through sequential *Leuconostoc* and *Lactobacillus* dominance. Pärtty et al. 2015. [A possible link between early probiotic intervention and the risk of neuropsychiatric disorders later in childhood: a randomized trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+
+<span id="food-source-3" />
+
+[3] [Walther et al. (2013), Menaquinones, Bacteria, and the Food Supply](/docs/papers/BRAIN-Diet-References#food_composition_c525a727f948)

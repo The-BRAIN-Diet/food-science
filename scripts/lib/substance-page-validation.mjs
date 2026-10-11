@@ -23,9 +23,9 @@ export const CANONICAL_BRS_HUBS = new Set([
 
 const REQUIRED_HEADINGS = [
   "Overview",
-  "Dietary Origin",
-  "Recipes",
+  "Dietary Context",
   "Foods",
+  "Recipes",
   "Biological Regulatory Systems",
   "References",
 ]
@@ -66,10 +66,10 @@ export function validateCanonicalSubstancePage(raw, label = "substance page") {
   }
 
   const spotlight = headingOffset(content, "Research Spotlights & Evidence Checks")
-  const recipes = headingOffset(content, "Recipes")
-  const dietaryOrigin = headingOffset(content, "Dietary Origin")
-  if (spotlight !== -1 && !(spotlight > dietaryOrigin && spotlight < recipes)) {
-    issues.push("Research Spotlights & Evidence Checks must sit between Dietary Origin and Recipes")
+  const foods = headingOffset(content, "Foods")
+  const dietaryOrigin = headingOffset(content, "Dietary Context")
+  if (spotlight !== -1 && !(spotlight > dietaryOrigin && spotlight < foods)) {
+    issues.push("Research Spotlights & Evidence Checks must sit between Dietary Context and Foods")
   }
   if (/^## Key Compound Highlights$/m.test(content)) {
     issues.push("Key Compound Highlights is no longer canonical")

@@ -1,0 +1,82 @@
+[
+  {
+    "food": "cockles",
+    "substance": "Vitamin B12",
+    "key": "vitamin_b12_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "Cockles is tagged for vitamin B12. Fortified products vary by brand; seaweed B12 may include analogues; abbreviated USDA panels may omit cobalamin. True cobalamin quantity is not established here.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "cockles",
+    "substance": "Zinc",
+    "key": "zinc_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "The USDA SR Legacy Cockles record is an abbreviated Alaska Native panel and omits zinc; quantity is not established from this record.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "cockles",
+    "substance": "Selenium",
+    "key": "selenium_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "The USDA SR Legacy Cockles record is abbreviated and omits selenium; quantity is not established from this panel.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "cockles",
+    "substance": "EPA",
+    "key": "epa_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "The USDA SR Legacy Cockles record is abbreviated and omits EPA; quantity is not established from this panel.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "cockles",
+    "substance": "DHA",
+    "key": "dha_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "The USDA SR Legacy Cockles record is abbreviated and omits DHA; quantity is not established from this panel.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "lions-mane-mushroom",
+    "substance": "Vitamin B3",
+    "key": "vitamin_b3_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "Lion's Mane Mushroom is grouped with culinary mushrooms as a niacin-containing fungus; USDA SR Legacy has no record for this specialty mushroom, so quantity is not established.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "nori",
+    "substance": "Vitamin B12",
+    "key": "vitamin_b12_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "Nori is tagged for vitamin B12. Fortified products vary by brand; seaweed B12 may include analogues; abbreviated USDA panels may omit cobalamin. True cobalamin quantity is not established here.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  },
+  {
+    "food": "nutritional-yeast",
+    "substance": "Vitamin B12",
+    "key": "vitamin_b12_qual",
+    "reason": "Existing note supplies a tag or missing database field, not food-specific evidence.",
+    "original_note": "Nutritional Yeast is tagged for vitamin B12. Fortified products vary by brand; seaweed B12 may include analogues; abbreviated USDA panels may omit cobalamin. True cobalamin quantity is not established here.",
+    "historical_audit": true,
+    "current_classification": "source_supported",
+    "resolution_record": "system/food-substance-recovery-evidence.json"
+  }
+]

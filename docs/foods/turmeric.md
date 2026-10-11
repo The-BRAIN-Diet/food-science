@@ -50,7 +50,7 @@ omega3_components:
     amount_mg: 3
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Spices, turmeric, ground'
+  food_name: Spices, turmeric, ground
   fdc_id: 172231
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -58,8 +58,6 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: curcumin_mg
     label: Curcumin
-    value: 3500
-    unit: mg
     notes: >-
       Curcuminoids are often ~2–6% of turmeric powder; piperine + fat improves
       absorption.
@@ -67,10 +65,54 @@ nutrition_supplementary_sources:
       Representative mid-range for ground turmeric spice as a percent of powder
       mass; extracts and curry blends differ. Standard USDA panels do not
       resolve curcuminoids separately.
+    public_note: >-
+      Representative mid-range for ground turmeric spice as a percent of powder
+      mass; extracts and curry blends differ. Standard USDA panels do not
+      resolve curcuminoids separately.
+    source_group: estimate-curcumin_mg
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 3500 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7238329/
+    value: 3500
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-3'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/turmeric/turmeric_medium.webp
 legacy_list_image: /img/foods/turmeric/turmeric_thumb.webp
 legacy_main_image: /img/foods/turmeric/turmeric_medium.webp
+substance_relationships:
+  - substance: Curcumin
+    relationship: contains
+    description: Reported in ground Curcuma longa rhizome.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turmeric|Curcumin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Ahmad et al. (2020), Biochemistry, Safety, Pharmacological Activities, and
+      Clinical Applications of Turmeric: A Mechanistic Review
+    evidence_material: ground Curcuma longa rhizome
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7238329/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Curcumin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 3500 mg per 100 g. Original note:
+      Representative mid-range for ground turmeric spice as a percent of powder
+      mass; extracts and curry blends differ. Standard USDA panels do not
+      resolve curcuminoids separately.
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
 ---
 ## Overview
 
@@ -109,3 +151,7 @@ Turmeric contribute plant protein. Pair with complementary protein sources (e.g.
 [1] Curcumin from turmeric is studied for anti-inflammatory and neuroprotective mechanisms. Goozee et al. 2016. [Examining the effects of a special Turmeric extract on cognition: a systematic review](/docs/papers/BRAIN-Diet-References#goozee_examining_2016)
 
 [2] Piperine markedly increases curcumin bioavailability when turmeric is paired with black pepper. Shoba et al. 1998. [Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)
+
+<span id="food-source-3" />
+
+[3] [Ahmad et al. (2020), Biochemistry, Safety, Pharmacological Activities, and Clinical Applications of Turmeric: A Mechanistic Review](/docs/papers/BRAIN-Diet-References#food_composition_3badc3bb450f)

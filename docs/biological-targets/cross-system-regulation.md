@@ -28,7 +28,7 @@ hide_title: true
   <a class="brs-x-combined-hero-item" href="/docs/biological-targets/brs-x/circadian/brs-x-circadian">
     <img
       src="/img/biological-targets/brs-x-circadian-portrait-thumbnail.jpg"
-      alt="BRS-X(Circadian) — Circadian Rhythm Regulation"
+      alt="BRS-X(Circadian) — Temporal Regulation & Circadian Alignment"
       class="brs-x-hero"
     />
   </a>
@@ -58,6 +58,14 @@ Cross-system endocrine signalling network governing hormone production, hormone-
 
 Scope includes estrogen, progesterone, and testosterone signalling; hormone–microbiome interactions; estrobolome and androbolome biology; and hormonal adaptation across life stages.
 
-### [BRS-X(Circadian) — Circadian Rhythm Regulation](/docs/biological-targets/brs-x/circadian/brs-x-circadian)
+### [BRS-X(Circadian) — Temporal Regulation & Circadian Alignment](/docs/biological-targets/brs-x/circadian/brs-x-circadian)
 
 Cross-system timing network for retinal light, which sets the central clock, and feeding time, which can shift peripheral metabolic clocks. Cortisol output remains with BRS6. A metabolic benefit from meal timing does not, by itself, establish clock synchronisation.
+
+## Cross-BRS Dependencies
+
+BRS-X networks interact with mechanisms across BRS1–BRS6. Each connection needs its own biological explanation and evidence boundary.
+
+### Temporal Regulation & Circadian Alignment
+
+[Circadian cross-BRS dependency evidence](/docs/biological-targets/brs-x/circadian/brs-x-circadian#cross-brs-dependencies) connects timing with dopaminergic regulation, cortisol and metabolic responses, feeding-hormone entrainment, and clock–NAD⁺ feedback. The circadian hub provides expandable evidence panels and links to the owning PMs.

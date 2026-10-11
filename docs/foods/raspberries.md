@@ -62,17 +62,85 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Raspberries; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 57; Raspberries,
+      raw; NDB 09302. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Raspberries, raw; NDB 09302 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
   - key: pelargonidin_qual
     label: Pelargonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list pelargonidin glycosides in
-      Raspberries; individual pelargonidin quantity is not in the selected USDA
-      SR Legacy record.
+      USDA flavonoid database Release 3.3 (2018); Printed page 57; Raspberries,
+      raw; NDB 09302. Positive mean in the named food row, not an assumed
+      association from database title. No free-aglycone mass inferred.
+    public_note: >-
+      USDA flavonoid database, Release 3.3; the studied food form is shown
+      beside each constituent. Glycoside-derived records do not establish
+      free-aglycone amounts.
+    source_group: USDA-flavonoid-3.3
+    notes: 'Raspberries, raw; NDB 09302 — glycosides / reported aglycone equivalents'
+    public_display: table
+    evidence_status: supported
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+substance_relationships:
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Raspberries, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: raspberries|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Raspberries, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/167755/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Raspberries, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: raspberries|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Raspberries, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/167755/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Cyanidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies cyanidin-derived glycosides in
+      raspberries, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: raspberries|Cyanidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Raspberries, raw; NDB 09302'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Pelargonidin
+    relationship: contains
+    description: >-
+      USDA’s flavonoid database identifies pelargonidin-derived glycosides in
+      raspberries, raw. A separate amount for this page is not established. This
+      does not establish free-aglycone content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: raspberries|Pelargonidin
+    evidence_source: USDA flavonoid database Release 3.3 (2018)
+    evidence_material: 'Raspberries, raw; NDB 09302'
+    source_url: 'https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 

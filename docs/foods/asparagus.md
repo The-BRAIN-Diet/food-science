@@ -58,17 +58,25 @@ nutrition_supplementary_sources:
   - key: inulin_type_fructans_qual
     label: Inulin-type fructans
     status: Present — quantity not established
-    amount_display: Present in edible spear; fresh-weight quantity not established for this page.
+    amount_display: >-
+      Present in edible spear; fresh-weight quantity not established for this
+      page.
     public_display: table
     notes: Do not use root concentrations as spear values.
     source_note: >-
-      Goñi et al. 2024 quantified inulin at about 1.48–1.52 g/100 g dry weight in
-      edible spear versus 14.92 g/100 g dry weight in root; DP3/DP4
+      Goñi et al. 2024 quantified inulin at about 1.48–1.52 g/100 g dry weight
+      in edible spear versus 14.92 g/100 g dry weight in root; DP3/DP4
       oligosaccharides were quantified in root only. Redondo-Cuenca et al. 2023
       reported the same pattern (1.30 vs 16.18 g inulin/100 g dry matter). USDA
       SR Legacy (Asparagus, raw; FDC 168389) reports total fibre 2.1 g/100 g and
       does not quantify FOS. This row records spear presence, not a converted
       fresh-weight USDA value. Do not use root concentrations as spear values.
+    public_note: >-
+      Redondo-Cuenca et al. 2023 supports this qualitative constituent record.
+      See technical provenance for food form and measurement details.
+    source_group: >-
+      Redondo-Cuenca et al. 2023 supports this qualitative constituent record.
+      See technical provenance for food form and measurement details.
   - key: kaempferol_qual
     label: Kaempferol
     status: Present — quantity not established
@@ -77,11 +85,30 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Asparagus; a single defensible per-100 g value is
       not taken from the abbreviated USDA nutrient panel.
+    public_note: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Asparagus, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: asparagus|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Asparagus, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168389/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

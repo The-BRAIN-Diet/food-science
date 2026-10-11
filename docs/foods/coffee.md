@@ -43,6 +43,12 @@ nutrition_supplementary_sources:
     source_note: >-
       Coffee is a dietary source of chlorogenic acids and related polyphenols;
       USDA SR Legacy does not report total polyphenols for brewed coffee.
+    public_note: >-
+      Coffee is a dietary source of chlorogenic acids and related polyphenols;
+      USDA SR Legacy does not report total polyphenols for brewed coffee.
+    source_group: >-
+      Coffee is a dietary source of chlorogenic acids and related polyphenols;
+      USDA SR Legacy does not report total polyphenols for brewed coffee.
 ---
 ## Overview
 

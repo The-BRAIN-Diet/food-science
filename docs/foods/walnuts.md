@@ -54,7 +54,7 @@ nutrition_per_100g:
   omega3_mg: 9080
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    identity: '18:3 n-3 (ALA; USDA 1270 interpreted)'
     amount_mg: 9080
 public_display:
   ala_mg: internal-only
@@ -65,17 +65,19 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-  limitations: Unqualified 18:3 on this record is documented in FCIR-004.
+  limitations: 'Unqualified 18:3 on this record is documented in FCIR-004.'
 nutrition_supplementary_sources:
   - key: ala_interpreted
-    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    label: 'Alpha-linolenic acid (ALA; 18:3 n-3)'
     value: 9.08
     unit: g
-    notes: USDA 18:3 quantity; isomer from walnut-specific literature
+    notes: 'USDA 18:3 quantity; isomer from walnut-specific literature'
     public_display: table
     exclude_from_recipe_sum: true
     fcir_case: FCIR-004
     source_note: This value uses a documented composition interpretation. See FCIR-004.
+    public_note: This value uses a documented composition interpretation.
+    source_group: This value uses a documented composition interpretation.
   - key: walnut_polyphenols_proxy
     label: Ellagitannins / total polyphenols
     amount_display: High among tree nuts (varies by batch)
@@ -87,6 +89,12 @@ nutrition_supplementary_sources:
       nutrient row. Use for framework context, not precise comparison across
       studies.
     status: Present — quantity not established
+    public_note: >-
+      Qualitative ranking with high batch/cultivar variance; not a USDA standard
+      nutrient row.
+    source_group: >-
+      Qualitative ranking with high batch/cultivar variance; not a USDA standard
+      nutrient row.
 nutrition_functional_metrics:
   - key: total_polyphenols_walnut
     label: Total polyphenols (Folin proxy)
@@ -99,6 +107,73 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 main_image: /img/foods/walnuts/walnuts_medium.webp
 legacy_list_image: /img/foods/walnuts/walnuts_thumb.webp
 legacy_main_image: /img/foods/walnuts/walnuts_medium.webp
+substance_relationships:
+  - substance: ALA
+    relationship: contains
+    description: >-
+      Alpha-linolenic acid is supported by the food-specific isomer evidence in
+      the composition notes. The quantity uses the documented composition
+      interpretation.
+    requires_supplementary_key: ala_interpreted
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|ALA
+    evidence_source: FCIR-004
+    evidence_material: Walnut kernels
+    source_url: >-
+      /docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register
+    presence_status: presence_and_amount_supported
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Nuts, walnuts, english.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, walnuts, english'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Nuts, walnuts, english.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, walnuts, english'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Nuts, walnuts, english.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, walnuts, english'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Nuts, walnuts, english.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, walnuts, english'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Nuts, walnuts, english.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: walnuts|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, walnuts, english'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -48,10 +48,10 @@ nutrition_per_100g:
   omega3_mg: 7
 omega3_components:
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 1
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
@@ -63,6 +63,18 @@ nutrition_source:
 main_image: /img/foods/kefir/kefir_medium.webp
 legacy_list_image: /img/foods/kefir/kefir_thumb.webp
 legacy_main_image: /img/foods/kefir/kefir_medium.webp
+substance_relationships:
+  - substance: Calcium
+    relationship: contains
+    description: 'USDA FoodData Central reports calcium in Kefir, lowfat, plain, LIFEWAY.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: kefir|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Kefir, lowfat, plain, LIFEWAY'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170904/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

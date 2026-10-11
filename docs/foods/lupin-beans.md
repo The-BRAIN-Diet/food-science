@@ -57,6 +57,48 @@ complementary_pairings: >-
 main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
 legacy_list_image: /img/foods/lupin-beans/lupin-beans_thumb.webp
 legacy_main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
+substance_relationships:
+  - substance: Arginine
+    relationship: contains
+    description: 'USDA FoodData Central reports arginine in Lupins, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lupin-beans|Arginine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lupins, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172423/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Lupins, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lupin-beans|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lupins, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172423/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Lupins, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lupin-beans|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lupins, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172423/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Lupins, mature seeds, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lupin-beans|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Lupins, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172423/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

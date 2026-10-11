@@ -284,8 +284,8 @@ test("legacy recipe_nutrition without 100 g fallback still calculates when grams
     fs.readFileSync(path.join(ROOT, "docs/recipes/Snacks/neuroeshot.md"), "utf8"),
   )
   const result = calculateRecipeNutrition(neuro.data, foodDocs)
-  assert.equal(result.status, "calculated")
-  assert.ok(result.perServing.kcal < 200)
+  assert.equal(result.status, "pending")
+  assert.ok(result.blockers.length > 0, "withdrawn salmon composition blocks a total")
 })
 
 test("creamed-corn calculates from a named coconut-milk record, never coconut oil", () => {
@@ -380,12 +380,10 @@ test("salt added to taste is excluded and disclosed rather than guessed", () => 
 test("a nutrient the sources cannot establish is never printed as a number", () => {
   const neuro = loadRecipe("Snacks/neuroeshot.md")
   const result = calculateRecipeNutrition(neuro.data, foodDocs)
-  assert.equal(result.status, "calculated")
+  assert.equal(result.status, "pending")
   assert.match(result.unresolved.sodium_mg, /brine|label/i)
   const sodiumRow = selectPublicRows(result).find((r) => r.key === "sodium_mg")
-  assert.ok(sodiumRow)
-  assert.equal(sodiumRow.amount, null)
-  assert.ok(sodiumRow.unresolvedReason)
+  assert.ok(!sodiumRow || sodiumRow.amount === null)
 })
 
 test("recipes that cannot be calculated say why", () => {
@@ -613,82 +611,22 @@ test("a completed ingredient panel recomputes the recipe vector and reranks the 
   assert.ok(displaced.length > 0, "a former headline row must give way when a new nutrient ranks higher")
 })
 
-test("salmon roe publishes EPA and DHA but no alanine dressed as ALA", () => {
-  const roe = foodDocs.find((doc) => doc.title === "Salmon Roe")
-  assert.ok(roe, "the salmon roe food page is loaded")
-  const panel = roe.frontMatter.nutrition_per_100g
-
-  // USDA FDC 175132 holds 1.428 g alanine per 100 g. That number was stored as
-  // ala_mg and published as an omega-3 larger than the food's own DHA.
-  assert.equal(panel.ala_mg, undefined, "ALA is unreported, not restated from alanine")
-  assert.notEqual(panel.ala_mg, 1428)
-  assert.equal(panel.epa_mg, 983)
-  assert.equal(panel.dha_mg, 1363)
-
-  // The total is EPA, DHA and the record's DPA — every component named, and each
-  // one carrying an n-3 isomer in its own source field.
-  const components = roe.frontMatter.omega3_components
-  assert.deepEqual(
-    components.map((c) => c.nutrient).sort(),
-    ["dha_mg", "dpa_mg", "epa_mg"],
-    "the total states which verified components were summed",
-  )
-  for (const component of components) {
-    assert.match(component.identity, /n-3/, `${component.nutrient} names its isomer`)
+test("species-unspecified roe quantities are withdrawn rather than inherited by recipes", () => {
+  for (const title of ["Salmon Roe", "Trout Roe"]) {
+    const roe = foodDocs.find((doc) => doc.title === title)
+    assert.deepEqual(roe.frontMatter.nutrition_per_100g, {})
+    assert.equal(roe.frontMatter.nutrition_source, undefined)
+    assert.equal(roe.frontMatter.omega3_components, undefined)
   }
-  assert.equal(
-    panel.omega3_mg,
-    components.reduce((sum, c) => sum + c.amount_mg, 0),
-    "the rollup is its components and carries no phantom ALA",
-  )
-  assert.ok(panel.omega3_mg < 3774, "the pre-repair total included 1428 mg of alanine")
-
-  const neuroshot = loadRecipe("Snacks/neuroeshot.md")
-  const result = calculateRecipeNutrition(neuroshot.data, foodDocs)
-  assert.equal(result.status, "calculated")
-
-  const bioactives = selectPublicRows(result, neuroshot.data).filter((row) => row.group === "brain")
-  const keys = bioactives.map((row) => row.key)
-  assert.ok(!keys.includes("ala_mg"), "no ALA row is published for this recipe")
-  assert.ok(keys.includes("epa_mg") && keys.includes("dha_mg"))
-
-  assert.ok(Math.abs(result.perServing.epa_mg - 147.45) < 0.01)
-  assert.ok(Math.abs(result.perServing.dha_mg - 204.45) < 0.01)
-
-  // The 15 g serving would have carried about 214 mg of alanine as ALA.
-  assert.ok(
-    !(result.perServing.ala_mg > 100),
-    "no serving-scaled alanine survives anywhere in the total",
-  )
-})
-
-test("Neuroeshot inherits corrected B12, promotes choline and projects qualitative astaxanthin", () => {
-  const salmonRoe = foodDocs.find((doc) => doc.frontMatter.id === "salmon-roe")
-  const troutRoe = foodDocs.find((doc) => doc.frontMatter.id === "trout-roe")
-  assert.equal(salmonRoe.frontMatter.nutrition_per_100g.vitamin_b12_ug, 10)
-  assert.equal(troutRoe.frontMatter.nutrition_per_100g.vitamin_b12_ug, 10)
-  assert.equal(String(salmonRoe.frontMatter.nutrition_source.fdc_id), "175132")
-  assert.doesNotMatch(String(salmonRoe.frontMatter.nutrition_source.food_name), /adjusted|under-reports/i)
-
   const recipe = loadRecipe("Snacks/neuroeshot.md")
   const result = calculateRecipeNutrition(recipe.data, foodDocs)
+  assert.equal(result.status, "pending")
+  assert.ok(result.blockers.length > 0)
+  assert.equal(result.perServing.epa_mg, undefined)
+  assert.equal(result.perServing.dha_mg, undefined)
+  assert.equal(result.perServing.vitamin_b12_ug, undefined)
   const rows = selectPublicRows(result, recipe.data)
-  assert.ok(Math.abs(result.perServing.vitamin_b12_ug - 1.5) < 0.01)
-
-  const choline = rows.find((row) => row.key === "choline_mg")
-  assert.ok(choline)
-  assert.match(choline.promoted, /useful contribution/i)
-  assert.ok(choline.pct > 9 && choline.pct < 10)
-
-  const astaxanthin = rows.find((row) => row.label === "Astaxanthin")
-  assert.ok(astaxanthin)
-  assert.equal(astaxanthin.amount, null)
-  assert.equal(astaxanthin.amountDisplay, "Present — quantity not established")
-  assert.equal(result.perServing.astaxanthin_mg, undefined)
-
-  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeNutrition/index.tsx"), "utf8")
-  assert.match(ui, /substanceFor/)
-  assert.match(ui, /Present — quantity not established/)
+  assert.ok(!rows.some((row) => ["epa_mg", "dha_mg", "vitamin_b12_ug"].includes(row.key) && row.amount != null))
 })
 
 test("flax and walnuts lost their alanine-sized ALA; chia's real value survived", () => {
@@ -970,7 +908,7 @@ test("a withdrawn composition panel publishes nothing quantitative", () => {
         "undefined",
         `${doc.title}: ${row.key} carries a quantity with no established source`,
       )
-      assert.match(String(row.amount_display), /not established/i)
+      assert.doesNotMatch(String(row.amount_display), /\d\s*(?:mg|µg|ug|g)\b/i, `${doc.title}: qualitative restoration must not resurrect an unsupported amount`)
     }
   }
 })
@@ -1024,15 +962,13 @@ test("recipes cannot consume a withdrawn record", () => {
   const withdrawn = foodDocs.filter((doc) => doc.frontMatter.composition_status === "withdrawn")
   const slugs = new Set(withdrawn.map((doc) => doc.frontMatter.id))
 
-  // No recipe reaches one today.
+  // Recipes may retain an ingredient with withdrawn composition; they cannot calculate its totals.
   for (const file of walkMd(RECIPES_DIR)) {
     const data = matter(fs.readFileSync(file, "utf8")).data
-    for (const ing of data.recipe_ingredients || []) {
-      const slug = ing.food_slug || ing.food
-      assert.ok(
-        !slugs.has(String(slug)),
-        `${path.basename(file)} names ${slug}, whose composition is withdrawn`,
-      )
+    if ((data.recipe_ingredients || []).some((ing) => slugs.has(String(ing.food_slug || ing.food)))) {
+      const result = calculateRecipeNutrition(data, foodDocs)
+      assert.equal(result.status, "pending", path.basename(file))
+      assert.ok(result.blockers.length > 0)
     }
   }
 
@@ -1168,7 +1104,7 @@ test("completeNutrientDataset is NDC-ready: complete, unrounded and honestly lab
   const shotResult = calculateRecipeNutrition(neuroshot.data, foodDocs)
   assert.ok(shotResult.unresolved.sodium_mg, "neuroshot sodium is unresolved")
   const shotRows = selectPublicRows(shotResult, neuroshot.data)
-  assert.equal(shotRows.find((r) => r.key === "sodium_mg").amount, null)
+  assert.ok(!shotRows.find((r) => r.key === "sodium_mg") || shotRows.find((r) => r.key === "sodium_mg").amount === null)
 
   // 5. Public rounding never writes back to the stored value.
   const storedEnergy = byKey.get("kcal").amount
@@ -1439,3 +1375,28 @@ test("recipe prose does not restate the calculated summary table", () => {
   }
 })
 
+
+// Preserve the numerical and identity regressions after withdrawing salmon/trout proxies.
+// This fixture is explicitly the USDA mixed-species record, never salmon-specific data.
+test("source-scoped roe fixture preserves omega-3, B12 and choline calculation regressions", () => {
+  const saved = JSON.parse(fs.readFileSync(path.join(ROOT, "system/food-identity-withdrawals-2026-10-10.json"), "utf8")).find(row => row.food === "salmon-roe")
+  const panel = saved.values
+  assert.equal(panel.ala_mg, undefined, "alanine must never become ALA")
+  assert.notEqual(panel.ala_mg, 1428)
+  assert.equal(panel.epa_mg, 983)
+  assert.equal(panel.dha_mg, 1363)
+  assert.equal(panel.vitamin_b12_ug, 10)
+  const fixture = {title: "Mixed-species raw roe", permalink: "/docs/foods/mixed-species-roe-fixture", frontMatter: {id: "mixed-species-roe-fixture", nutrition_per_100g: panel, nutrition_source: {database: "USDA FoodData Central", fdc_id: 175132, food_name: "Fish, roe, mixed species, raw"}}, tags: []}
+  const recipe = {servings: 1, recipe_ingredients: [{food_slug: "mixed-species-roe-fixture", calculation_weight_g: 15, included_in_default: true}], nutrition_key_micronutrients: [{key: "choline_mg", reason: "Fixture display promotion"}]}
+  const result = calculateRecipeNutrition(recipe, [fixture])
+  assert.equal(result.status, "calculated")
+  assert.ok(Math.abs(result.perServing.epa_mg - 147.45) < 0.01)
+  assert.ok(Math.abs(result.perServing.dha_mg - 204.45) < 0.01)
+  assert.ok(Math.abs(result.perServing.vitamin_b12_ug - 1.5) < 0.01)
+  assert.ok(!(result.perServing.ala_mg > 100), "no serving-scaled alanine can survive")
+  const rows = selectPublicRows(result, recipe)
+  const choline = rows.find(row => row.key === "choline_mg")
+  assert.ok(choline)
+  assert.ok(choline.pct > 9 && choline.pct < 10)
+  assert.ok(!rows.some(row => row.key === "ala_mg"))
+})

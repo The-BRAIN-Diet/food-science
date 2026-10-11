@@ -129,8 +129,8 @@ test("tahini Key vitamins come from composition, not mineral tags", () => {
   assert.ok(keySet.has("selenium_ug"))
   assert.ok(keySet.has("manganese_mg"))
   assert.ok(keySet.has("zinc_mg"))
-  assert.equal(isKeyFoodMicronutrient(tahini, "vitamin_b5_mg"), false, "B5 is below 15% RI")
-  assert.equal(isPublicTableKey(tahini, "vitamin_b5_mg"), true, "B5 remains a rendered Advanced row")
+  assert.equal(isKeyFoodMicronutrient(tahini, "vitamin_b5_mg"), true, "B5 qualifies at the new 10% RI threshold")
+  assert.equal(isPublicTableKey(tahini, "vitamin_b5_mg"), true, "B5 remains a public row")
 })
 
 test("sample foods keep core tables and tagged Substance rows without using tags as a Key whitelist", () => {

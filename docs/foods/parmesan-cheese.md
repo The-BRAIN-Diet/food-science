@@ -2,7 +2,7 @@
 id: parmesan-cheese
 title: Parmesan Cheese
 sidebar_label: Parmesan Cheese
-description: 'CLA, K2, C15:0, and high protein/calcium'
+description: CLA, K2, C15:0, and high protein/calcium
 tags:
   - Food
   - Parmesan Cheese
@@ -49,7 +49,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 297
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cheese, parmesan, hard'
+  food_name: Cheese, parmesan, hard
   fdc_id: 170848
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -62,11 +62,57 @@ nutrition_supplementary_sources:
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Parmesan Cheese is a documented dietary source of menaquinones (vitamin
-      K2). USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2
-      quantity is not established here.
+      Vitamin K content of Australian foods (2021). Primary food table
+      separately reports positive MK-4 for Parmesan; total vitamin K is not
+      substituted for K2.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.753059/pdf
+    source_group: parmesan-k2
+    public_note: Contains menaquinones (vitamin K2); amounts vary by product.
+    notes: Parmesan cheese
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Tyrosine
+    relationship: contains
+    description: USDA FoodData Central reports tyrosine in Cheese, parmesan, hard.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: parmesan-cheese|Tyrosine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cheese, parmesan, hard
+    source_url: https://fdc.nal.usda.gov/food-details/170848/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-3'
+  - substance: Calcium
+    relationship: contains
+    description: USDA FoodData Central reports calcium in Cheese, parmesan, hard.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: parmesan-cheese|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Cheese, parmesan, hard
+    source_url: https://fdc.nal.usda.gov/food-details/170848/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin K2
+    relationship: contains
+    description: Contains menaquinones (vitamin K2); amounts vary by product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: parmesan-cheese|Vitamin K2
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Vitamin K content of Australian foods (2021)
+    evidence_material: Parmesan cheese
+    source_url: >-
+      https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2021.753059/pdf
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -105,3 +151,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## References
 
 [1] Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Soerensen & Thorning 2014. [Effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
+
+<span id="food-source-2" />
+
+[2] [Vitamin K content of Australian foods (2021)](/docs/papers/BRAIN-Diet-References#food_composition_686b2546ed9e)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_b67da5653095)

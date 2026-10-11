@@ -53,6 +53,38 @@ nutrition_source:
 main_image: /img/foods/mushrooms/mushrooms_medium.webp
 legacy_list_image: /img/foods/mushrooms/mushrooms_thumb.webp
 legacy_main_image: /img/foods/mushrooms/mushrooms_medium.webp
+substance_relationships:
+  - substance: Selenium
+    relationship: contains
+    description: 'USDA FoodData Central reports selenium in Mushrooms, white, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mushrooms|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Mushrooms, white, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169251/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B3 in Mushrooms, white, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mushrooms|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Mushrooms, white, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169251/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin D
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin D in Mushrooms, white, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mushrooms|Vitamin D
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Mushrooms, white, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/169251/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

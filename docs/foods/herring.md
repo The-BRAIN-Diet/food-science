@@ -47,13 +47,13 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 103
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 862
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 709
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 55
 nutrition_source:
   database: USDA FoodData Central
@@ -66,6 +66,51 @@ main_image: /img/foods/herring/herring_medium.webp
 legacy_list_image: /img/foods/herring/herring_thumb.webp
 legacy_main_image: /img/foods/herring/herring_medium.webp
 protein_profile_note: Complete essential amino acid profile.
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: 'USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: herring|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, herring, Atlantic, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175116/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: EPA
+    relationship: contains
+    description: 'USDA FoodData Central reports EPA in Fish, herring, Atlantic, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: herring|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, herring, Atlantic, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175116/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, herring,
+      Atlantic, raw. This class link does not treat a combined total as EPA, DHA
+      or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: herring|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, herring, Atlantic, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175116/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Vitamin D
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin D in Fish, herring, Atlantic, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: herring|Vitamin D
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Fish, herring, Atlantic, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175116/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

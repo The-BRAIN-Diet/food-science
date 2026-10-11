@@ -65,6 +65,128 @@ nutrition_source:
 main_image: /img/foods/milk/milk_medium.webp
 legacy_list_image: /img/foods/milk/milk_thumb.webp
 legacy_main_image: /img/foods/milk/milk_medium.webp
+substance_relationships:
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Milk, whole, 3.25% milkfat, with
+      added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Milk, whole, 3.25% milkfat, with
+      added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B1 in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B2
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B2 in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Vitamin B2
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B5
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B5 in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Vitamin B5
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin D
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin D in Milk, whole, 3.25% milkfat,
+      with added vitamin D.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: milk|Vitamin D
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Milk, whole, 3.25% milkfat, with added vitamin D'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171265/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

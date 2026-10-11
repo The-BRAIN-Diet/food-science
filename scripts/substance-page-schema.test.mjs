@@ -31,7 +31,7 @@ test("canonical Substance schema declares the redesigned public structure", () =
   const schema = read("system/substance-page-schema.md")
   const headings = [
     "## Overview",
-    "## Dietary Origin",
+    "## Dietary Context",
     "## Research Spotlights & Evidence Checks",
     "## BRS mapping",
     "## Food / Substance evidence boundary",
@@ -68,7 +68,7 @@ mechanisms: {}
 
 Example.
 
-## Dietary Origin
+## Dietary Context
 
 Example.
 
@@ -78,13 +78,13 @@ Example.
 Evidence.
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Example" />
-
 ## Foods
 
 <SubstanceFoods tag="Example" />
+
+## Recipes
+
+<SubstanceRecipes tag="Example" />
 
 ## Biological Regulatory Systems
 
@@ -110,11 +110,11 @@ test("Pomegranates expose a precursor edge without a Urolithin A contains assert
   assert.doesNotMatch(content, /Pomegranate(?:s)?\s*→\s*contains\s*→\s*Urolithin A/i)
 })
 
-test("legacy food tags are presented as unreviewed associations, not contains edges", () => {
+test("food tags alone are not shown as substance relationships", () => {
   const component = read("src/theme/SubstanceFoods/index.tsx")
-  assert.match(component, /Legacy food association · relationship unreviewed/)
-  assert.match(component, /legacy tag association/)
-  assert.doesNotMatch(component, /if \(legacy\) return "Direct occurrence/)
+  assert.doesNotMatch(component, /Legacy food association/)
+  assert.doesNotMatch(component, /legacy tag association/)
+  assert.match(component, /A food tag alone is not a relationship/)
 })
 
 test("fermentable-food support is not represented as direct Butyrate content", () => {

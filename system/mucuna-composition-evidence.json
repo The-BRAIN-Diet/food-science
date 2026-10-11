@@ -1,0 +1,190 @@
+{
+  "audit_date": "2026-10-10",
+  "previous_source": {
+    "database": "Sowdhanya et al. (2024), Journal of Agriculture and Food Research",
+    "food_name": "Mucuna pruriens seed, compiled dry-weight ranges",
+    "retrieval_method": "Review, section 2; not a single assay",
+    "basis": "per 100 g dry weight, ranges across reports",
+    "last_checked": "2026-10-10",
+    "table_maps_to": "Velvet bean seed (Mucuna pruriens), dry weight."
+  },
+  "previous_rows": [
+    {
+      "key": "crude_carbohydrate",
+      "label": "Crude carbohydrate (laboratory range)",
+      "section": "core",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "42.79\u201364.88 g",
+      "status": "Compiled dry-weight range",
+      "source_note": "Sowdhanya et al. (2024) compile 42.79\u201364.88 g per 100 g dry weight as crude carbohydrate. The review does not say whether that figure is carbohydrate by difference, nitrogen-free extract, or available carbohydrate, so it is not dietary carbohydrate."
+    },
+    {
+      "key": "crude_protein",
+      "label": "Protein",
+      "section": "core",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "23\u201343 g",
+      "status": "Compiled dry-weight range",
+      "source_note": "Protein estimated from nitrogen in the reports compiled by Sowdhanya et al. (2024): 23\u201343 g per 100 g dry weight. A range across reports, not one portion."
+    },
+    {
+      "key": "crude_lipid",
+      "label": "Fat",
+      "section": "core",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "4.1\u201314.39 g",
+      "status": "Compiled dry-weight range",
+      "source_note": "Fat measured by extraction in the reports compiled by Sowdhanya et al. (2024): 4.1\u201314.39 g per 100 g dry weight. Not a fatty-acid profile."
+    },
+    {
+      "key": "crude_fibre",
+      "label": "Crude fibre (laboratory measure)",
+      "section": "core",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "5.3\u201311.5 g",
+      "status": "Compiled dry-weight range",
+      "source_note": "An older analytical residue, not total dietary fibre. Sowdhanya et al. (2024): 5.3\u201311.5 g per 100 g dry weight."
+    },
+    {
+      "key": "ash",
+      "label": "Ash",
+      "section": "core",
+      "public_display": "internal-only",
+      "omit_substance_card": true,
+      "amount_display": "2.9\u20135.5 g",
+      "status": "Compiled dry-weight range",
+      "source_note": "Mineral residue after combustion. Sowdhanya et al. (2024): 2.9\u20135.5 g per 100 g dry weight."
+    },
+    {
+      "key": "iron_range",
+      "label": "Iron",
+      "section": "mineral",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "6\u201395 mg",
+      "status": "Compiled range, converted from mg/g",
+      "notes": "Review states 0.06\u20130.95 mg/g",
+      "source_note": "Sowdhanya et al. (2024), section 2: iron 0.06\u20130.95 mg/g, shown as 6\u201395 mg per 100 g."
+    },
+    {
+      "key": "calcium_range",
+      "label": "Calcium",
+      "section": "mineral",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "76\u2013530 mg",
+      "status": "Compiled range, converted from mg/g",
+      "notes": "Review states 0.76\u20135.30 mg/g",
+      "source_note": "Sowdhanya et al. (2024), section 2: calcium 0.76\u20135.30 mg/g. Shown as 76\u2013530 mg/100 g."
+    },
+    {
+      "key": "potassium_range",
+      "label": "Potassium",
+      "section": "mineral",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "13\u201319 mg",
+      "status": "Compiled range, converted from mg/g",
+      "notes": "Review states 0.13\u20130.19 mg/g",
+      "source_note": "Sowdhanya et al. (2024), section 2: potassium 0.13\u20130.19 mg/g, shown as 13\u201319 mg per 100 g."
+    },
+    {
+      "key": "phosphorus_range",
+      "label": "Phosphorus",
+      "section": "mineral",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "2 mg",
+      "status": "Single figure, converted from mg/g",
+      "notes": "Review states 0.02 mg/g",
+      "source_note": "Sowdhanya et al. (2024), section 2: phosphorus 0.02 mg/g, a single figure rather than a range. Shown as 2 mg/100 g."
+    },
+    {
+      "key": "ldopa_qual",
+      "label": "L-DOPA",
+      "section": "bioactive",
+      "public_display": "table",
+      "amount_display": "3.54\u20133.70 g",
+      "status": "Measured seed range",
+      "notes": "M. pruriens var. utilis; per 100 g seed material, weight/weight",
+      "source_note": "Boonchoong et al. (2018), Table 3: validated HPLC measurements of M. pruriens var. utilis seeds from Thai sources, 3.54\u20133.70% w/w, equivalent to 3,540\u20133,700 mg per 100 g. This is not a cooked-bean value or a moisture-corrected dry-weight value. Higher heating reduced measured L-DOPA."
+    },
+    {
+      "key": "polyphenols_qual",
+      "label": "Polyphenols",
+      "section": "bioactive",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "Present",
+      "status": "Named class",
+      "source_note": "Sowdhanya et al. (2024) name polyphenols among the seed bioactives."
+    },
+    {
+      "key": "flavonoids_qual",
+      "label": "Flavonoids",
+      "section": "bioactive",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "Present",
+      "status": "Named class",
+      "source_note": "Sowdhanya et al. (2024) name flavonoids among the seed bioactives."
+    },
+    {
+      "key": "octadecadienoic_qual",
+      "label": "9,12-Octadecadienoic acid",
+      "section": "bioactive",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "Present",
+      "status": "Named bioactive",
+      "notes": "Linoleic acid; not a measured fatty-acid amount",
+      "source_note": "Sowdhanya et al. (2024) name 9,12-octadecadienoic acid among the seed bioactives. This is not a measured linoleic acid amount."
+    },
+    {
+      "key": "fatty_acids_named",
+      "label": "Fatty acids named",
+      "section": "bioactive",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "Present",
+      "status": "Named classes",
+      "notes": "Myristic, palmitic, stearic, oleic, linoleic, linolenic",
+      "source_note": "Sowdhanya et al. (2024), section 2, name saturated fatty acids (myristic, palmitic, stearic) and unsaturated fatty acids (oleic, linoleic, linolenic)."
+    },
+    {
+      "key": "antinutrients_named",
+      "label": "Other antinutrients named",
+      "section": "bioactive",
+      "public_display": "table",
+      "omit_substance_card": true,
+      "amount_display": "Present",
+      "status": "Named, not quantified",
+      "notes": "Phytates, tannin, oxalate, hydrogen cyanide, trypsin inhibitors, saponins",
+      "source_note": "Sowdhanya et al. (2024) name phytates, tannin, oxalate, hydrogen cyanide, and trypsin inhibitors with L-DOPA, and name phytic acid, tannins, and saponins in the conclusion."
+    }
+  ],
+  "decision": "Withheld from standard nutrition panel: unrelated review ranges, undefined carbohydrate, crude fibre, unresolved minerals. Seed assay retained only as technical evidence.",
+  "primary_mineral_trace": {
+    "source": "https://www.iosrjournals.org/iosr-jac/papers/vol8-issue10/Version-1/G081014245.pdf",
+    "material": "Leaves: air-dried and pulverized; methods also describe methanol extraction. Not bean seed.",
+    "table": 2,
+    "original_unit": "mg/g",
+    "potassium": 0.13,
+    "phosphorus": 0.02,
+    "iron": 0.95,
+    "conversion": "mg/g multiplied by 100 gives mg/100 g; arithmetic does not validate edible material.",
+    "unresolved": "Other range endpoints and original review citation chain not fully verified."
+  },
+  "amino_acids": "Review values in mg/g protein cannot be treated as mg/100 g food. No conversion made.",
+  "provenance_corrections": {
+    "historical_notes": "The preserved source_note strings above are withdrawn extraction history, not verified analytical-method claims.",
+    "carbohydrate": "Measurement definition is unresolved. An unspecified method does not establish what the carbohydrate figure excludes.",
+    "protein": "Nitrogen estimation is a conventional interpretation of crude protein terminology; the methods of the individual underlying reports have not been verified here.",
+    "fat": "Extraction is a conventional interpretation of crude fat terminology; individual underlying report methods have not been verified here.",
+    "ldopa": "Verified primary abstract: studied Mucuna pruriens var. utilis seed samples, 3.54\u20133.70% w/w, HPLC. Table location and moisture basis are not established by the checked abstract. No cooked-bean or safe residual amount inferred."
+  }
+}

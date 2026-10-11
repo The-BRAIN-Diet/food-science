@@ -1426,13 +1426,13 @@ Required rendered order: **Mission → Intervention Dominance → every adjudica
 
 **Evidence qualification:** `intervention_dominance_assessment.evidence_qualification` contains `label` (matching the canonical label), `rationale`, optional `scope_note` and independently assessed `routes`. Each route carries canonical `group_id`, `evidence_basis: intervention-effect`, measured `intervention_effect`, `context`, `limitations` and `evidence_source.finding_ids`/`citation_keys`. Trace evidence to this PM's canonical Findings and bibliography. Neither nutrient presence, biochemical necessity, KC membership nor provision tracing alone establishes intervention responsiveness. Conditional correction/restriction evidence remains eligible within its boundaries; do not impose a universal human assay or enhancement above adequacy.
 
-**Principal selection:** the separate `principal_route_selection` contains `disposition` (`established` or `not-established`), unique `selected_groups`, `rationale`, `comparative_limitations` and `assessments`. Each selected route requires a distinct assessment of `relevance`, `directness` and `extent` of its demonstrated influence on this PM. Qualification alone, or missing admitted competitors, does not establish primacy. Multiple selected groups additionally require `joint_prominence_rationale` explaining why joint prominence is justified; two supported entries do not imply equal dominance. Unestablished selection uses an empty `selected_groups` list while retaining all qualified routes. Supported non-principal groups remain in section 3. Rejected/unresolved candidates remain in the audit; no placement is inferred from FM inheritance.
+**Principal selection:** the separate `principal_route_selection` contains `disposition` (`established` or `not-established`), unique `selected_groups`, `rationale`, `comparative_limitations` and `assessments`. Each selected route requires a distinct assessment of `relevance`, `directness` and `extent` of its demonstrated influence on this PM. Qualification alone, or missing admitted competitors, does not establish primacy. Principal display prominence may be established from mission-specific relevance, directness and extent of dietary influence within its supported context; a head-to-head comparison of all intervention groups is not mandatory. Preserve the qualification label and do not imply comparative efficacy or enhancement above adequacy. Multiple selected groups additionally require `joint_prominence_rationale` explaining why joint prominence is justified; two supported entries do not imply equal dominance. Unestablished selection uses an empty `selected_groups` list while retaining all qualified routes. Supported non-principal groups remain in section 3. Rejected/unresolved candidates remain in the audit; no placement is inferred from FM inheritance.
 
 **Public statement:** render `Intervention Dominance: <preserved qualification> — <selected principal group(s) or No principal intervention route established>`, followed by the qualification scope and comparative limitations. Keep conditional boundaries visible. Do not invent rankings or equal dominance where the evidence does not establish them. Structural validation checks this separation and traceability; Stage 2B must review the science.
 
 **Numbering and stable identity:** author all three groups once with their canonical labels/IDs in section 3. When Dietary Requirements is moved before Overview, canonical **3.1 becomes 1.1**. Its children become 1.1.1 Direct and/or Derived Dietary Requirements, 1.1.2 Cofactors and Substrates, and 1.1.3 Key Constraints. The groups that remain in section 3 are then numbered from 3.1 in canonical order: canonical **3.2 System Optimisation Practices becomes 3.1**, and canonical **3.3 Lifestyle Levers becomes 3.2**. The same renumbering applies whichever group is moved. A moved group takes the next 1.n number (1.1, then 1.2). Each group left in section 3 takes the next 3.n number (3.1, then 3.2). Titles retain their meanings. `data-pm-lever-group="3.1"` and `data-pm-lever-section="3.1.3"` retain canonical lookup identity independent of visible numbering. Preserve existing anchors; missing ones receive stable `pm-lever-dietary`, `pm-lever-optimisation`, `pm-lever-lifestyle` and dietary-child IDs. Do not renumber Finding, atom, KC/iKC, bibliography or relationship identifiers. The shared disclosure renderer reads these attributes before its legacy heading fallback, preserving the existing hover/focus, click/tap, Escape and origin-link behaviour.
 
-**Exact live PM7 assessment → Diet-Supported retained; principal selection not established; all groups remain in section 3.** F5 qualifies conditional dietary influence, not comparative dominance; F7 provision tracing does not select a principal route. All Findings, full studies and bibliography remain canonical PM7 dependencies; no existing scientific classification is rewritten.
+**Exact live PM7 assessment → Diet-Supported retained; Dietary Requirements promoted to §1.1.** F5 supports principal dietary placement through mission-specific relevance, experimentally demonstrated dietary influence and measured extent within the animal context. F7 provision tracing alone does not select a principal route. All Findings, full studies and bibliography remain canonical PM7 dependencies; no existing scientific classification is rewritten.
 
 <!-- DOMINANCE-REFERENCE:pm7 -->
 ```yaml
@@ -1440,25 +1440,64 @@ intervention_dominance: Diet-Supported
 intervention_dominance_assessment:
   evidence_qualification:
     label: Diet-Supported
-    rationale: The retained Diet-Supported qualification is supported by conditional PM-specific dietary influence; it does not establish comparative intervention dominance.
-    scope_note: Conditional animal evidence concerns folate restriction and methyl-derived PC enrichment; it does not establish absolute PEMT flux, benefit above adequacy or cognitive benefit.
+    rationale: >-
+      The retained Diet-Supported qualification is supported by conditional
+      PM-specific dietary influence; it does not establish comparative
+      intervention dominance.
+    scope_note: >-
+      Conditional animal evidence concerns folate restriction and methyl-derived
+      PC enrichment; it does not establish absolute PEMT flux, benefit above
+      adequacy or cognitive benefit.
     routes:
       - group_id: '3.1'
         evidence_basis: intervention-effect
-        intervention_effect: Eight-week folate restriction with labelled choline maintained reduced hepatic d3-PC enrichment and the product/precursor enrichment ratio in female mice.
-        context: Female wild-type and Mthfr-heterozygous mice; the hepatic response was not demonstrated in males.
-        limitations: Enrichment is not absolute PEMT flux. The restriction experiment does not establish supplementation benefit above adequacy, a human intake target or cognitive benefit.
+        intervention_effect: >-
+          Eight-week folate restriction with labelled choline maintained reduced
+          hepatic d3-PC enrichment and the product/precursor enrichment ratio in
+          female mice.
+        context: >-
+          Female wild-type and Mthfr-heterozygous mice; the hepatic response was
+          not demonstrated in males.
+        limitations: >-
+          Enrichment is not absolute PEMT flux. The restriction experiment does
+          not establish supplementation benefit above adequacy, a human intake
+          target or cognitive benefit.
         evidence_source:
           finding_ids:
             - PM7-F5
           citation_keys:
             - chew_folate_choline_2011
   principal_route_selection:
-    disposition: not-established
-    selected_groups: []
-    rationale: F5 demonstrates conditional dietary responsiveness, but the current assessment does not establish the relevance, directness and extent needed to prioritise this route over the other intervention groups. Absence of admitted alternative entries is not evidence of dietary primacy.
-    comparative_limitations: Comparative dominance is not established; no ranking or equal dominance is inferred.
-    assessments: []
+    disposition: established
+    selected_groups:
+      - '3.1'
+    rationale: >-
+      Dietary Requirements is the principal displayed route because the assessed
+      folate-restriction intervention changed pathway-specific hepatic PC methyl
+      enrichment, a mission-relevant endpoint. The measured conditional effect,
+      rather than nutrient necessity or absence of competing levers, supports
+      prominence. Precursor provision records explain the route but do not
+      independently establish intervention responsiveness.
+    comparative_limitations: >-
+      Dietary prominence is supported within the studied animal context; it is
+      not a head-to-head ranking against lifestyle or optimisation, a human
+      intake target, or evidence of benefit from extra intake.
+    assessments:
+      - group_id: '3.1'
+        relevance: >-
+          PM7-F5 measures dietary methyl contribution to hepatic PC formation,
+          directly relevant to the PEMT branch of this PM's mission.
+        directness: >-
+          Chew 2011 experimentally restricted folate for eight weeks with choline
+          maintained; female mice had reduced labelled PC enrichment and a lower
+          product/precursor enrichment ratio. This is dietary manipulation,
+          not an inference from nutrient presence.
+        extent: >-
+          Hepatic d3-PC enrichment was 30% lower (P=0.017), with a lower
+          d3-PC:d9-choline ratio (P=0.049). This supports substantial conditional
+          dietary influence on the measured PEMT-related endpoint, not absolute
+          flux or all PC synthesis. The hepatic response was not demonstrated
+          in males, and no human or cognitive benefit is inferred.
 ```
 <!-- /DOMINANCE-REFERENCE:pm7 -->
 
@@ -2523,3 +2562,9 @@ Run `node --test scripts/stage2b-kc-documented-cases.test.mjs scripts/upstream-r
 **Visible numbering after placement:** A lever group displayed in section 1 is numbered `1.1` (then `1.2` for another promoted group), with dietary children `1.1.1`–`1.1.3`. Canonical section IDs remain `3.1`/`3.1.1`–`3.1.3` for records, lookup and stable anchors. This numbering correction also applies to a group already placed in section 1 on a legacy page; it neither selects a principal route nor changes its evidence qualification. Do not display §3.1 under section 1.
 
 **Documented KC-case verification (2026-10-07):** The three-case suite, PM3 pilot suite and FM1 constituent-projection suite passed: 12 tests, 0 failures. Checks exercised canonical disclosure output, conditional projection type/limitations, non-admitted-member suppression, missing-identity projection blocking and required repair actions. No live page or shared renderer was changed; this instruction-only update did not perform a new browser verification or claim site-wide validation is clean.
+
+### Direct pools and upstream pools: placement
+
+Direct and upstream KC pool relationships are both allowed in canonical §3.1.3 (visible §1.1.3), subject to independently established KC applicability and PM-specific evidence. Neither relationship type exempts the pool from comparison with dietary levers in §3.1.1 (visible §1.1.1): a pool disclosure must not repeat their provision relationship. A direct shared-pool relationship can remain when it describes a distinct supported biological role or context; an upstream relationship must establish its actual supply chain and also avoid duplicate provision. Do not require every direct pool relationship to be upstream, and do not manufacture a limiting effect to justify placement.
+
+A defined pool independently admitted as a Direct dietary requirement may itself remain in §3.1.1. Pool identity alone does not make it a Key Constraint. KC membership or supply does not automatically admit a dietary lever or substrate. Review both scientific applicability and public distinctness; preserve accepted applicability, canonical substrate relationships, evidence, upstream links and decision history when consolidating duplicate presentation. Food/macronutrient delivery of an already identified requirement does not establish another requirement.

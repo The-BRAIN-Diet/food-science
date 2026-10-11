@@ -48,7 +48,7 @@ nutrition_per_100g:
   omega3_mg: 14
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 14
 nutrition_source:
   database: USDA FoodData Central
@@ -60,10 +60,36 @@ nutrition_source:
 main_image: /img/foods/corn/corn_medium.webp
 legacy_list_image: /img/foods/corn/corn_thumb.webp
 legacy_main_image: /img/foods/corn/corn_medium.webp
+substance_relationships:
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Perry et al. (2009) identified zeaxanthin in studied cooked corn. A
+      separate amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: corn|Zeaxanthin
+    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_material: Studied cooked corn
+    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Perry et al. (2009) identified lutein in studied cooked corn. A separate
+      amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: corn|Lutein
+    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_material: Studied cooked corn
+    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 
-Corn provides **lutein** and **zeaxanthin** carotenoids relevant to macular and cognitive dietary patterns [1,2]. Carotenoid absorption improves with co-ingested dietary fat [3].
+Corn provides **lutein** and **zeaxanthin** [7]. The 644 µg per 100 g on this page is USDA lutein plus zeaxanthin for raw sweet yellow corn, not a zeaxanthin amount. Carotenoid absorption improves with co-ingested dietary fat [3].
 
 Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contributing carotenoid diversity; sweet corn and maize products differ in sugar and processing [1,2,3].
 
@@ -109,3 +135,5 @@ Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contrib
 [5] Kindel et al. (2010). [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). The mechanism of the formation and secretion of chylomicrons.
 
 [6] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection.
+
+[7] Eisenhauer et al. (2017). [Lutein and Zeaxanthin—Food Sources, Bioavailability and Dietary Variety in Age-Related Macular Degeneration Protection](/docs/papers/BRAIN-Diet-References#eisenhauer_lutein_zeaxanthin_2017). Table 4 reports 202 µg trans-zeaxanthin and 202 µg trans-lutein per 100 g in the cooked corn measured by Perry et al. (2009).

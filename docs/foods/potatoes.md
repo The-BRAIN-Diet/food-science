@@ -55,6 +55,38 @@ nutrition_source:
 main_image: /img/foods/potatoes/potatoes_medium.webp
 legacy_list_image: /img/foods/potatoes/potatoes_thumb.webp
 legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
+substance_relationships:
+  - substance: Potassium
+    relationship: contains
+    description: 'USDA FoodData Central reports potassium in Potatoes, flesh and skin, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: potatoes|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Potatoes, flesh and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170026/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B6 in Potatoes, flesh and skin, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: potatoes|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Potatoes, flesh and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170026/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Potatoes, flesh and skin, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: potatoes|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Potatoes, flesh and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170026/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

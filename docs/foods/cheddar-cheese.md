@@ -55,19 +55,19 @@ nutrition_per_100g:
   omega3_mg: 137
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 1
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 10
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 17
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 108
   - nutrient: n3_20_3_mg
-    identity: 20:3 n-3
+    identity: '20:3 n-3'
     amount_mg: 1
 nutrition_source:
   database: USDA FoodData Central
@@ -79,6 +79,68 @@ nutrition_source:
 main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 legacy_list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
 legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
+substance_relationships:
+  - substance: Tyrosine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports tyrosine in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Tyrosine
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Calcium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports calcium in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Cheese, cheddar (Includes foods
+      for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Cheese, cheddar (Includes foods for
+      USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Cheese, cheddar (Includes
+      foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cheddar-cheese|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173414/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -30,17 +30,66 @@ nutrition_supplementary_sources:
   - key: iron_qual
     label: Iron
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Mankai (Duckweed) (Wolffia) is reported as an iron-containing duckweed in
-      food-specific composition studies; USDA SR Legacy has no mankai record.
+      The Metabolomic-Gut-Clinical Axis of Mankai Plant-Derived Dietary
+      Polyphenols (2021). Trial describes cultivated Wolffia globosa Mankai as
+      an iron-containing food; dry matter/shake intake percentages not converted
+      into fresh composition.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8229908/
+    source_group: mankai-iron
+    public_note: Reported in cultivated Wolffia globosa Mankai.
+    notes: cultivated Wolffia globosa Mankai
+    source_reference: '#food-source-2'
   - key: ala_qual
     label: ALA
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Mankai (Duckweed) contains alpha-linolenic acid in published duckweed
-      analyses; USDA SR Legacy has no mankai record.
+      Freshwater Macrophytes: A Potential Source of Minerals and Fatty Acids
+      (2022). Individual C18:3n-3 ALA is identified in Wolffia globosa; no
+      unspecified 18:3 inference.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9036174/
+    source_group: mankai-ala
+    public_note: Contains alpha-linolenic acid; content varies with cultivation.
+    notes: Wolffia globosa biomass
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: Reported in cultivated Wolffia globosa Mankai.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mankai|Iron
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      The Metabolomic-Gut-Clinical Axis of Mankai Plant-Derived Dietary
+      Polyphenols (2021)
+    evidence_material: cultivated Wolffia globosa Mankai
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8229908/
+    source_reference: '#food-source-2'
+  - substance: ALA
+    relationship: contains
+    description: Contains alpha-linolenic acid; content varies with cultivation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mankai|ALA
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Freshwater Macrophytes: A Potential Source of Minerals and Fatty Acids
+      (2022)
+    evidence_material: Wolffia globosa biomass
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9036174/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -77,3 +126,11 @@ Within the BRAIN Diet framework, precision sourcing of functional plant foods su
 ## References
 
 [1] Vitamin B₁₂ (also present in Wolffia globosa). Kaplan & Zelicha 2019. [Protein bioavailability of Wolffia globosa duckweed, a novel aquatic plant – A randomized controlled trial](/docs/papers/BRAIN-Diet-References#kaplan_protein_2019)
+
+<span id="food-source-2" />
+
+[2] [The Metabolomic-Gut-Clinical Axis of Mankai Plant-Derived Dietary Polyphenols (2021)](/docs/papers/BRAIN-Diet-References#food_composition_c59c415b3a36)
+
+<span id="food-source-3" />
+
+[3] [Freshwater Macrophytes: A Potential Source of Minerals and Fatty Acids (2022)](/docs/papers/BRAIN-Diet-References#food_composition_144b48850b91)

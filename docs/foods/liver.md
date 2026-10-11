@@ -2,7 +2,7 @@
 id: liver
 title: Liver
 sidebar_label: Liver
-description: 'Nutrient-dense organ meat with bioavailable B12, retinol, iron, and CoQ10'
+description: Nutrient-dense organ meat with bioavailable B12, retinol, iron, and CoQ10
 tags:
   - Food
   - Liver
@@ -57,7 +57,7 @@ omega3_components:
     amount_mg: 7
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beef, variety meats and by-products, liver, raw'
+  food_name: Beef, variety meats and by-products, liver, raw
   fdc_id: 169451
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -70,17 +70,39 @@ nutrition_supplementary_sources:
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in Liver (e.g. Mattila &
-      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 identifies
+      individual CoQ10 in beef and pork liver; no representative generic liver
+      amount used.
+    public_note: Reported in beef and pork liver.
+    source_group: liver-coq
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: beef and pork liver
+    source_reference: '#food-source-3'
   - key: creatine_qual
     label: Creatine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Creatine occurs in Liver muscle/organ tissue; USDA SR Legacy does not
-      report creatine.
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products. Table 7 separately
+      lists positive creatine for beef muscle, lamb, pork ham, beef liver and
+      tuna. No range assigned across different foods or cuts.
+    public_note: Contains creatine; amounts vary with the cut and cooking.
+    source_group: creatine
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    notes: the named meat or fish tissue
+    source_reference: '#food-source-3'
 substance_relationships:
   - substance: Cysteine
     relationship: contains
@@ -94,11 +116,103 @@ substance_relationships:
     process: Oxidation to retinal, then to retinoic acid
     description: >-
       Beef liver records 4,968 µg RAE vitamin A per 100 g, with 232 µg
-      beta-carotene. The dominant precursor is preformed vitamin A. The food
-      is not recorded as containing retinoic acid.
+      beta-carotene. The dominant precursor is preformed vitamin A. The food is
+      not recorded as containing retinoic acid.
     citation_keys:
       - duester_retinoic_acid_2008
       - harrison_vitamin_a_absorption_2012
+  - substance: Choline
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports choline in Beef, variety meats and
+      by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Choline
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beef, variety meats and by-products,
+      liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Beef, variety meats and by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Beef, variety meats and
+      by-products, liver, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Beef, variety meats and
+      by-products, liver, raw.  The recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Beef, variety meats and by-products, liver, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169451/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: CoQ10
+    relationship: contains
+    description: Reported in beef and pork liver.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: beef and pork liver
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-3'
+  - substance: Creatine
+    relationship: contains
+    description: Contains creatine; amounts vary with the cut and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: liver|Creatine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: the named meat or fish tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -155,3 +269,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Latoch et al. (2024). [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024). These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily.
 
 [2] Crane et al. (2001). [Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+
+<span id="food-source-3" />
+
+[3] [Kulczynski et al. (2019), Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_8457f2b30c13)

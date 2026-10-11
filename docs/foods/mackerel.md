@@ -2,7 +2,7 @@
 id: mackerel
 title: Mackerel
 sidebar_label: Mackerel
-description: 'Oily fish rich in EPA/DHA, CoQ10, taurine, and vitamin D'
+description: Oily fish rich in EPA/DHA, CoQ10, taurine, and vitamin D
 tags:
   - Food
   - Mackerel
@@ -58,7 +58,7 @@ omega3_components:
     amount_mg: 212
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish, mackerel, Atlantic, raw'
+  food_name: Fish, mackerel, Atlantic, raw
   fdc_id: 175119
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -71,17 +71,113 @@ nutrition_supplementary_sources:
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in Mackerel (e.g. Mattila &
-      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies. Review Table 1 separately lists CoQ10 in sardine
+      and mackerel muscle. Different muscle types and studies are not merged
+      into a standard range.
+    public_note: Reported in mackerel or sardine edible muscle.
+    source_group: fish-coq
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    notes: mackerel or sardine edible muscle
+    source_reference: '#food-source-3'
   - key: taurine_qual
     label: Taurine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Taurine is a characteristic free amino sulfonic acid in Mackerel; USDA SR
-      Legacy does not include a taurine field.
+      Extractive Nitrogenous Constituents from the Dark Muscle of Fish (1985).
+      Primary abstract separately identifies taurine in common mackerel dark
+      muscle; no viscera-only transfer.
+    public_note: Contains taurine; content differs between dark and white muscle.
+    source_group: mackerel-taurine
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://www.jstage.jst.go.jp/article/suisan1932/51/9/51_9_1461/_article/-char/en
+    notes: mackerel muscle
+    source_reference: '#food-source-4'
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, mackerel, Atlantic, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: EPA
+    relationship: contains
+    description: USDA FoodData Central reports EPA in Fish, mackerel, Atlantic, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, mackerel, Atlantic, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Fish, mackerel,
+      Atlantic, raw. This class link does not treat a combined total as EPA, DHA
+      or ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, mackerel, Atlantic, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-5'
+  - substance: Vitamin D
+    relationship: contains
+    description: USDA FoodData Central reports vitamin D in Fish, mackerel, Atlantic, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|Vitamin D
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, mackerel, Atlantic, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175119/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: CoQ10
+    relationship: contains
+    description: Reported in mackerel or sardine edible muscle.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|CoQ10
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and
+      Fortification Strategies
+    evidence_material: mackerel or sardine edible muscle
+    source_url: https://dirros.openscience.si/Dokument.php?id=36758&lang=eng
+    source_reference: '#food-source-3'
+  - substance: Taurine
+    relationship: contains
+    description: Contains taurine; content differs between dark and white muscle.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mackerel|Taurine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Extractive Nitrogenous Constituents from the Dark Muscle of Fish (1985)
+    evidence_material: mackerel muscle
+    source_url: >-
+      https://www.jstage.jst.go.jp/article/suisan1932/51/9/51_9_1461/_article/-char/en
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -128,3 +224,15 @@ This food provides a **complete essential amino acid profile** typical of animal
 [1] These intrinsic compounds support neuronal membrane phospholipid composition, mitochondrial oxidative phosphorylation, and antioxidant enzyme systems. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
 [2] Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-3" />
+
+[3] [Pravst, Zmitek and Zmitek (2010), Coenzyme Q10 Contents in Foods and Fortification Strategies](/docs/papers/BRAIN-Diet-References#food_composition_909fffb6dabb)
+
+<span id="food-source-4" />
+
+[4] [Extractive Nitrogenous Constituents from the Dark Muscle of Fish (1985)](/docs/papers/BRAIN-Diet-References#food_composition_b7f31044141a)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_907265aa1998)

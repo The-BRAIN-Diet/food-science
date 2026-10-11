@@ -54,13 +54,13 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 140
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 30
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 10
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
@@ -76,9 +76,94 @@ substance_relationships:
       Cystine 249 mg per 100 g of Chicken, broilers or fryers, meat and skin,
       raw (FDC 171447). A 113 g (4 oz) portion is about 281 mg. Composition
       only; not a glutathione-synthesis result.
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Chicken, broilers or fryers, meat
+      and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Chicken, broilers or fryers, meat
+      and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B6 in Chicken, broilers or fryers,
+      meat and skin, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chicken|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chicken, broilers or fryers, meat and skin, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171447/nutrients'
+    presence_status: presence_and_amount_supported
 main_image: /img/foods/chicken/chicken_medium.webp
 legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp
+substance_review_candidates: []
 ---
 ## Overview
 

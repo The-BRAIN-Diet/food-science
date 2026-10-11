@@ -19,7 +19,7 @@ import {
   tableBackedLabels,
 } from "./lib/food-truth-levels.mjs"
 import { reconcileFoodPage } from "./lib/food-truth-reconciliation.mjs"
-import { isFoodReferenceLine } from "./lib/bib-citation-format.mjs"
+import { isFoodReferenceLine, parseReferenceLine } from "./lib/bib-citation-format.mjs"
 import { auditFoodPage } from "./audit-food-page-layers.mjs"
 import { FOOD_PAGE_ROLES } from "./lib/food-page-letter-audit-schema.mjs"
 import { requiresEaaSection } from "./lib/food-page-validation.mjs"
@@ -116,32 +116,11 @@ test("generated summaries cannot label provenance classes as Three Sources of Tr
   }, /must not be labelled the Three Sources of Truth/)
 })
 
-test("bioactive-compounds caption does not admit unquantified traces to Substances without a table row", () => {
+test("public captions explain measurements without leaking card admission rules", () => {
   const table = readDoc("src/components/NutritionTable.tsx")
-  const substances = readDoc("src/theme/FoodSubstancesFromTable/index.tsx")
-  const renderedExplanatory = `${table}\n${substances}`
-
-  assert.doesNotMatch(
-    renderedExplanatory,
-    /Unquantified or trace constituents stay in the\s+Substances section/s,
-  )
-  assert.doesNotMatch(
-    renderedExplanatory,
-    /stay in the Substances section unless/i,
-  )
-  assert.doesNotMatch(
-    renderedExplanatory,
-    /Unquantified or trace constituents stay in the Substances section without a corresponding/i,
-  )
-  assert.match(
-    table,
-    /Unquantified or trace constituents are not automatically admitted to the Substances list/,
-  )
-  assert.match(
-    table,
-    /Explicitly identified compounds, including individual fatty acids, with a defensible quantity or an explicit qualitative status/,
-  )
-  assert.match(table, /Asterisks \(\*\) identify supplementary sources below/)
+  assert.match(table, /Content applies to the food and preparation identified in the source notes/)
+  assert.match(table, /noteNumber\(sup\)/)
+  assert.doesNotMatch(table, /Unquantified or trace constituents are not automatically admitted/)
 })
 
 test("nutrition and recipe rows are addressable for the FCIR register", () => {
@@ -186,7 +165,8 @@ test("public nutrition grouping is Core nutrients / Key vitamins and minerals / 
     "Key vitamins and minerals",
     "Bioactive compounds",
   ])
-  assert.match(table, /<summary[^>]*>\s*Advanced Nutrition\s*<\/summary>/)
+  assert.match(table, /<AdvancedNutrition tabOnly>/)
+  assert.doesNotMatch(table, /<details id="advanced-nutrition"/)
   assert.doesNotMatch(table, /<h3>Advanced Nutrition<\/h3>/)
 })
 
@@ -353,9 +333,9 @@ test("algal oil uses EU authorised specifications rather than a USDA substitute"
     .split("\n")
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
-  assert.equal(refLines.length, 3)
+  assert.ok(refLines.length >= 3)
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line), true, line)
+    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
   }
   assert.match(refLines[0], /eu_2017_2470_union_list/)
   assert.match(refLines[1], /arterburn_algal_2008/)
@@ -440,7 +420,7 @@ test("A-food calibration rules are documented in canonical rule files", () => {
   const shapes = readDoc("system/food-page-frontmatter-shapes.md")
   const all = `${pageModel}\n${schema}\n${nutrition}\n${workflow}\n${shapes}`
 
-  assert.match(pageModel, /Every rendered Substances card must resolve to a corresponding rendered quantitative or explicit qualitative table row/)
+  assert.match(pageModel, /Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional/)
   assert.match(pageModel, /hidden\/internal composition record does not satisfy/)
   assert.match(pageModel, /Ordinary background nutrients should generally remain table-only/)
   assert.match(pageModel, /Compositional presence alone is insufficient/)
@@ -505,11 +485,11 @@ test("compositional representation is a one-of rule, not a universal nutrition_p
   assert.match(nutrition, /Supported qualitative composition/)
   assert.match(
     nutrition,
-    /Every rendered Substance card must still resolve to a \*\*rendered row\*\* in whichever valid representation/,
+    /Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional/,
   )
   assert.match(pageModel, /populated USDA-shaped `nutrition_per_100g` block is not universally required/)
   assert.match(pageModel, /empty `nutrition_per_100g: \{\}` is compatibility only and is not the compositional source/)
-  assert.match(pageModel, /Every rendered Substance card must resolve to a rendered row in the representation actually used/)
+  assert.match(pageModel, /Every rendered Substances card must resolve to an evidence-supported canonical relationship; a public nutrition-table row is optional/)
   assert.match(shapes, /at least one\*\* valid compositional representation/)
   assert.match(workflow, /not necessarily a populated USDA-shaped `nutrition_per_100g` block/)
   assert.match(workflow, /implementation compatibility field/)
@@ -570,7 +550,7 @@ test("amaranth is lysine-rich relative to cereals and cites USDA for minerals", 
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line), true, line)
+    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
   }
 })
 
@@ -592,7 +572,7 @@ test("almonds use almond-specific evidence and do not claim soaking improves min
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line), true, line)
+    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
   }
 })
 
@@ -667,7 +647,7 @@ test("apples pectin presence is evidenced without a USDA-style quantity", () => 
     .filter((line) => /^\[\d+\]/.test(line))
   assert.equal(refLines.length, 3)
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line), true, line)
+    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
   }
   assert.doesNotMatch(raw, /gruber_impact_2023/)
   assert.doesNotMatch(raw, /boots_health_2008/)
@@ -713,7 +693,7 @@ test("aubergine nasunin citation is Noda 2000 not lutein/zeaxanthin", () => {
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line), true, line)
+    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
   }
 })
 
@@ -773,10 +753,10 @@ test("salmon-roe keeps raw USDA sodium distinct from commercial cured ikura", ()
     /commercial cured ikura/i.test(String(row.label)),
   )
 
-  assert.equal(fm.nutrition_per_100g.sodium_mg, 91)
-  assert.equal(String(fm.nutrition_source.fdc_id), "175132")
-  assert.match(String(fm.nutrition_source.food_name), /Fish, roe, mixed species, raw/)
-  assert.match(String(fm.nutrition_source.food_name), /not\s+commercial cured ikura/)
+  assert.equal(fm.nutrition_per_100g.sodium_mg, undefined)
+  assert.equal(fm.nutrition_source, undefined)
+  assert.equal(fm.composition_status, "withdrawn")
+  assert.match(fm.composition_withdrawn.withdrawn_record, /175132/)
   assert.equal(fm.public_display?.sodium_mg, "table")
   assert.equal(fm.tags.includes("Sodium"), false)
   assert.ok(commercial)
@@ -790,7 +770,7 @@ test("salmon-roe keeps raw USDA sodium distinct from commercial cured ikura", ()
   assert.match(overview, /small portions useful in preparations such as Neuroeshot/)
   const highlights = content.split("## Key Nutritional Highlights")[1]?.split("## ")[0] ?? ""
   assert.match(highlights, /phospholipid-rich marine matrix/)
-  assert.match(highlights, /does not quantify what fraction/)
+  assert.match(highlights, /do not establish the proportion/)
   assert.match(highlights, /Astaxanthin/)
   assert.match(highlights, /amount in a particular commercial product is not established/)
   assert.match(content, /liu_higher_2014/)
@@ -910,7 +890,7 @@ test("food-page editorial guidance and letter-audit schema are documented withou
   assert.match(schema, /Citation correctness and citation relevance are separate/)
   assert.match(schema, /never\*\* borrow another entry/)
   assert.match(schema, /References retain the project-wide Author \(Year\) and linked-title core/)
-  assert.match(schema, /Food pages may append a concise food-specific finding/)
+  assert.match(schema, /Each food-page References entry must append one concise, source-supported description/)
   assert.match(pageModel, /Author\(s\) \(Year\)\. \[linked title\]/)
   assert.match(foodsRule, /Bibliographic core/)
   assert.match(schema, /recommended page depth/)

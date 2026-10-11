@@ -46,24 +46,6 @@ dietary_input_traceability:
       establish that increasing protein raises brain monoamine synthesis or
       improves attention or mood. The indispensable set includes phenylalanine;
       tyrosine is not an indispensable amino acid.
-  - atom_id: PM1-DIT-2
-    input: Dietary protein
-    input_type: substrate provision
-    biological_role: >-
-      Provides the indispensable amino acids that constitute the circulating
-      pool this PM governs
-    evidence_source:
-      finding_ids:
-        - PM1-F1
-        - PM1-F2
-      citation_keys:
-        - gorissen_phenylalanine_2020
-        - mariotti_dietary_2019
-        - moughan_diaas_2024
-    evidence_limitation: >-
-      Dietary protein provision of amino acids is supported; this does not
-      establish an intake-to-neurotransmitter or clinical-response relationship,
-      and it does not require each meal to be a complete protein.
   - atom_id: PM1-DIT-4
     input: Tyrosine
     input_type: substrate
@@ -118,23 +100,6 @@ dietary_lever_atoms:
       establish that increasing protein raises brain monoamine synthesis or
       improves attention or mood. The indispensable set includes phenylalanine;
       tyrosine is not an indispensable amino acid.
-  - atom_id: PM1-DIT-2
-    requirement_classification: derived
-    derived_target: Indispensable amino-acid supply
-    derived_target_atom_id: PM1-DIT-1
-    relationship_layer: dietary-requirement
-    relationship_mode: capacity-requirement
-    dietary_addressability: direct
-    claim_ceiling: dietary-provision
-    permitted_wording: >-
-      Dietary protein is a Derived Dietary Requirement because it provides the
-      indispensable amino acids this PM requires. This does not establish that
-      more protein increases neurotransmitter synthesis, or that each meal must
-      be a complete protein.
-    evidence_limitation: >-
-      Dietary protein provision of amino acids is supported; this does not
-      establish an intake-to-neurotransmitter or clinical-response relationship,
-      and it does not require each meal to be a complete protein.
   - atom_id: PM1-DIT-4
     relationship_layer: biochemical-requirement
     claim_ceiling: biological-dependency
@@ -163,9 +128,6 @@ dietary_lever_atoms:
 dietary_lever_presentations:
   - atom_id: PM1-DIT-1
     label: Indispensable amino-acid supply
-    presentation_section: 3.1.1
-  - atom_id: PM1-DIT-2
-    label: Dietary protein
     presentation_section: 3.1.1
   - atom_id: PM1-DIT-5
     label: Tryptophan
@@ -665,7 +627,6 @@ Ensure meal-level protein supply delivers the amino-acid foundation neurotransmi
 <div class="brs-fm-hub-panel" hidden>
 
 - Indispensable amino-acid supply
-- Dietary protein
 - Tryptophan
 
 </div>
@@ -710,7 +671,7 @@ No mapping established.
 Food protein supplies indispensable amino acids—the amino acids the body cannot make in sufficient amounts—including phenylalanine and tryptophan. [[1]](#pm-ref-1) [[3]](#pm-ref-3) Phenylalanine can also be converted to tyrosine. [[4]](#pm-ref-4) After a protein meal, dietary phenylalanine appears in the circulation. [[6]](#pm-ref-6) Tyrosine and tryptophan are precursors later signalling can use for dopamine, noradrenaline and serotonin. [[2]](#pm-ref-2) Protein that covers those amino acids is the supported dietary route. [[1]](#pm-ref-1) [[3]](#pm-ref-3)
 
 - **Benefits:** These amino acids, including tyrosine made from phenylalanine, are how meal protein supplies the pool that dopamine, noradrenaline and serotonin pathways draw on. [[4]](#pm-ref-4) [[2]](#pm-ref-2) That capacity is not evidence that extra protein improves attention or mood. [[1]](#pm-ref-1) [[6]](#pm-ref-6)
-- **Implementation Notes:** Dietary protein, indispensable amino-acid supply, and tryptophan are the provision routes. [[1]](#pm-ref-1) [[3]](#pm-ref-3) Tyrosine is made from phenylalanine, so it is not classed as an indispensable amino acid. [[4]](#pm-ref-4) No intake dose is established. [[1]](#pm-ref-1) [[6]](#pm-ref-6) Each meal does not have to supply the full set. [[5]](#pm-ref-5)
+- **Implementation Notes:** Indispensable amino-acid supply and tryptophan are the dietary requirements; food protein supplies these amino acids. [[1]](#pm-ref-1) [[3]](#pm-ref-3) Tyrosine is made from phenylalanine, so it is not classed as an indispensable amino acid. [[4]](#pm-ref-4) No intake dose is established. [[1]](#pm-ref-1) [[6]](#pm-ref-6) Each meal does not have to supply the full set. [[5]](#pm-ref-5)
 - **Biological Relevance:** Those amino acids still have to cross into the brain before they are used to make dopamine, noradrenaline or serotonin - see [PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
 
 ## 2. Primary Biological Effects

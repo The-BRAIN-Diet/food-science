@@ -15,3 +15,7 @@ The published card titled Antioxidant Substrate Sufficiency is withdrawn. The iK
 ## Dominance
 
 Diet-Dominant is withdrawn. Biochemical necessity is not an intervention that was shown to lower peroxidation. No System Optimisation Practice. The weekly “antioxidant pairing” lifestyle bullet had no finding and is withdrawn. Dominance is Not established. `timing_specific` is No.
+
+## 2026-10-11 layout reconciliation
+
+The section-1 heading is now Mission & Overview. Dietary Requirements is authored once under §3 Intervention Levers, matching the shared renderer’s existing no-principal-route decision. Vitamin E remains PM5-DIT-1, a Direct dietary requirement. Its quantity/addressability, evidence, limitations and all KC/phenome mappings are unchanged. No §1.1 is manufactured from biochemical necessity; no principal-route or dominance decision was changed.

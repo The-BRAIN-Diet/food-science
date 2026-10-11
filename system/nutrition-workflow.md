@@ -159,7 +159,7 @@ npm run nutrition:reconcile-layers
 
 This stage **does not silently create** canonical substance pages and **does not** promote trace database rows into the Substances list. It reports:
 
-- Substances cards without **rendered** table rows
+- Substances cards without supported canonical presence records
 - important Overview **identity** compounds without rendered table rows
 - verified table compounds that may require cards (editorial; not auto-admitted)
 - synonym / canonical-ID resolution notes

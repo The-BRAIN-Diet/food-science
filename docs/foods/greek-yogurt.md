@@ -49,10 +49,10 @@ nutrition_per_100g:
   omega3_mg: 27
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 4
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 23
 nutrition_source:
   database: USDA FoodData Central
@@ -64,6 +64,52 @@ nutrition_source:
 main_image: /img/foods/yogurt/yogurt_medium.webp
 legacy_list_image: /img/foods/yogurt/yogurt_thumb.webp
 legacy_main_image: /img/foods/yogurt/yogurt_medium.webp
+substance_relationships:
+  - substance: Calcium
+    relationship: contains
+    description: 'USDA FoodData Central reports calcium in Yogurt, Greek, plain, whole milk.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: greek-yogurt|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Yogurt, Greek, plain, whole milk'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171304/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Yogurt, Greek, plain, whole
+      milk.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: greek-yogurt|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Yogurt, Greek, plain, whole milk'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171304/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Yogurt, Greek, plain, whole
+      milk.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: greek-yogurt|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Yogurt, Greek, plain, whole milk'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171304/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Yogurt, Greek, plain, whole milk.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: greek-yogurt|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Yogurt, Greek, plain, whole milk'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171304/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 

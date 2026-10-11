@@ -47,6 +47,8 @@ nutrition_supplementary_sources:
     source_note: >-
       Black tea is formed by oxidation of leaf catechins to theaflavins. A
       comparable theaflavin quantity is not established here.
+    public_note: Black tea is formed by oxidation of leaf catechins to theaflavins.
+    source_group: Black tea is formed by oxidation of leaf catechins to theaflavins.
   - key: catechins_qual
     label: Catechins
     status: Present — quantity not established
@@ -55,6 +57,12 @@ nutrition_supplementary_sources:
       Brewed black tea retains some unoxidised catechins, typically at lower
       levels than green tea. A comparable catechin quantity is not established
       here.
+    public_note: >-
+      Brewed black tea retains some unoxidised catechins, typically at lower
+      levels than green tea.
+    source_group: >-
+      Brewed black tea retains some unoxidised catechins, typically at lower
+      levels than green tea.
   - key: kaempferol_qual
     label: Kaempferol
     status: Present — quantity not established
@@ -63,11 +71,30 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Black Tea; a single defensible per-100 g value is
       not taken from the abbreviated USDA nutrient panel.
+    public_note: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
     citation_keys:
       - dabeek_dietary_kaempferol_2019
+  - substance: Manganese
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports manganese in Beverages, tea, black, brewed,
+      prepared with tap water.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: black-tea|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beverages, tea, black, brewed, prepared with tap water'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173227/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

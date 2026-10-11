@@ -58,16 +58,16 @@ nutrition_per_100g:
   omega3_mg: 102
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 58
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 7
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 36
   - nutrient: n3_20_3_mg
-    identity: 20:3 n-3
+    identity: '20:3 n-3'
     amount_mg: 1
 nutrition_source:
   database: USDA FoodData Central
@@ -80,18 +80,83 @@ substance_relationships:
   - substance: Cysteine
     relationship: contains
     description: >-
-      Cystine 272 mg per 100 g of Egg, whole, raw, fresh (FDC 171287). One
-      large egg (50 g) contains 136 mg. Composition only; not a
-      glutathione-synthesis result.
+      Cystine 272 mg per 100 g of Egg, whole, raw, fresh (FDC 171287). One large
+      egg (50 g) contains 136 mg. Composition only; not a glutathione-synthesis
+      result.
+  - substance: Choline
+    relationship: contains
+    description: 'USDA FoodData Central reports choline in Egg, whole, raw, fresh.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Choline
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Egg, whole, raw, fresh'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Egg, whole, raw, fresh.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Egg, whole, raw, fresh'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: 'USDA FoodData Central reports selenium in Egg, whole, raw, fresh.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Egg, whole, raw, fresh'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Egg, whole, raw, fresh.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Egg, whole, raw, fresh'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171287/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Perry et al. (2009) identified zeaxanthin in studied raw and cooked whole
+      egg. A separate amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Zeaxanthin
+    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_material: Studied raw and cooked whole egg
+    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Perry et al. (2009) identified lutein in studied raw and cooked whole egg.
+      A separate amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: eggs|Lutein
+    evidence_source: 'Perry et al. (2009), values reproduced in Eisenhauer et al. (2017) Table 4'
+    evidence_material: Studied raw and cooked whole egg
+    source_url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5331551/'
+    presence_status: presence_supported_amount_unavailable
 main_image: /img/foods/eggs/eggs_medium.webp
 legacy_list_image: /img/foods/eggs/eggs_thumb.webp
 legacy_main_image: /img/foods/eggs/eggs_medium.webp
+substance_review_candidates: []
 ---
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. The yolk concentrates highly bioavailable **lutein** and **zeaxanthin** (xanthophyll carotenoids relevant to retinal and neural antioxidant context), alongside **selenium** and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
+Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. The yolk concentrates **lutein** and **zeaxanthin** [5]. The 503 µg per 100 g on this page is USDA lutein plus zeaxanthin, not a zeaxanthin amount. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
 
 **Protein profile:** Complete essential amino acid profile.
 
@@ -142,3 +207,5 @@ This food provides a complete essential amino acid profile typical of animal pro
 [3] Nimalaratne et al. (2012). [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012). Boiling, frying and microwaving reduced total yolk xanthophylls by 6–18%, with higher Z-isomer content after cooking and the largest all-E-lutein loss after boiling.
 
 [4] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: the same raw salad (100 g tomatoes, 62 g carrots, 70 g baby spinach, 25 g romaine, 5 g Chinese wolfberry; all with 3 g canola oil) plus 150 g scrambled whole eggs (~3 eggs) increased TRL carotenoid AUC versus no egg — lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold. The ~1.5-egg meal did not significantly raise total carotenoid AUC versus control. The authors cite yolk phospholipids as well as total yolk lipid as promoters of intestinal micellarization; the trial did not isolate phospholipids from triglycerides, and arugula was not tested.
+
+[5] Eisenhauer et al. (2017). [Lutein and Zeaxanthin—Food Sources, Bioavailability and Dietary Variety in Age-Related Macular Degeneration Protection](/docs/papers/BRAIN-Diet-References#eisenhauer_lutein_zeaxanthin_2017). Table 4 reports 279 µg trans-zeaxanthin and 288 µg trans-lutein per 100 g in the raw whole egg measured by Perry et al. (2009).

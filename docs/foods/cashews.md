@@ -60,6 +60,78 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 main_image: /img/foods/cashews/cashews_medium.webp
 legacy_list_image: /img/foods/cashews/cashews_thumb.webp
 legacy_main_image: /img/foods/cashews/cashews_medium.webp
+substance_relationships:
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Nuts, cashew nuts, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: cashews|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, cashew nuts, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170162/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

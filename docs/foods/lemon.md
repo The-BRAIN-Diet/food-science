@@ -45,7 +45,7 @@ nutrition_per_100g:
   selenium_ug: 0.4
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Lemons, raw, without peel'
+  food_name: Lemons, raw, without peel
   fdc_id: 167746
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -57,17 +57,76 @@ nutrition_supplementary_sources:
   - key: eriocitrin_qual
     label: Eriocitrin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Lemon flavanones include eriocitrin; USDA SR Legacy does not report
-      individual flavanones.
+      Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon
+      juices. Primary abstract identifies eriocitrin and hesperidin separately
+      in lemon juice.
+    public_note: Reported in lemon juice.
+    source_group: lemon-flavonoids
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
+    notes: lemon juice
+    source_reference: '#food-source-2'
   - key: hesperidin_qual
     label: Hesperidin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Lemon flavanones include hesperidin; USDA SR Legacy does not report
-      individual flavanones.
+      Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon
+      juices. Primary abstract identifies eriocitrin and hesperidin separately
+      in lemon juice.
+    public_note: Reported in lemon juice.
+    source_group: lemon-flavonoids
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
+    notes: lemon juice
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Vitamin C
+    relationship: contains
+    description: USDA FoodData Central reports vitamin C in Lemons, raw, without peel.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lemon|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Lemons, raw, without peel
+    source_url: https://fdc.nal.usda.gov/food-details/167746/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Eriocitrin
+    relationship: contains
+    description: Reported in lemon juice.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lemon|Eriocitrin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon
+      juices
+    evidence_material: lemon juice
+    source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
+    source_reference: '#food-source-2'
+  - substance: Hesperidin
+    relationship: contains
+    description: Reported in lemon juice.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: lemon|Hesperidin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon
+      juices
+    evidence_material: lemon juice
+    source_url: https://pubmed.ncbi.nlm.nih.gov/12769519/
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -120,3 +179,11 @@ Whole blended lemon recipes can be surprisingly palatable and functionally usefu
 ## References
 
 [1] Gimenez-Bastida et al. (2021). [Comparative human pharmacokinetics of citrus flavanones eriocitrin and hesperidin](/docs/papers/BRAIN-Diet-References#gimenez-bastida_eriocitrin_hesperidin_pk_2021). Comparative human pharmacokinetics of citrus flavanones eriocitrin and hesperidin.
+
+<span id="food-source-2" />
+
+[2] [Caristi et al. (2003), Flavonoids detection by HPLC-DAD-MS-MS in lemon juices](/docs/papers/BRAIN-Diet-References#food_composition_9a4748b52289)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_6f29d795ef3d)

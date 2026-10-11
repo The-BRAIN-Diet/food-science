@@ -173,3 +173,9 @@ Not written to `system/mechanism-change-control-queue.md`, per this run.
 - Human dietary dose-response for PEMT-dependent phosphatidylcholine formation.
 - Whether supplemental SAMe changes PEMT flux. Not admitted.
 - Finding cards in §4.1 and §7 are not generated. `findings:sync` and `phenome:sync` were not run. The rendered dietary disclosures were checked on the local page.
+
+## 2026-10-11 principal dietary placement reassessment
+
+Supersedes the earlier unestablished principal-route selection only. Diet-Supported remains the evidence qualification. Dietary Requirements (canonical 3.1) is now independently selected for prominent display as 1.1. Relevance: F5 measures hepatic PC methyl incorporation, matching the PEMT mission. Directness: experimental eight-week folate restriction with choline maintained. Extent: female hepatic d3-PC enrichment 30% lower (P=0.017), product/precursor ratio P=0.049; no corresponding male hepatic response. The primary Chew 2011 indexed full text was rechecked. Kharbanda 2007 remains complementary ethanol/betaine evidence within F5, not an interchangeable effect estimate. Provision tracing, nutrient necessity, and absence of competitors were not treated as sufficient selection evidence. Head-to-head superiority is not claimed or required for editorial prominence. Absolute flux, human dosing, extra-intake benefit and cognition remain unestablished.
+
+All dietary atoms, substrates/cofactors, Findings, references, KC applicability, Phenome mappings and FM ownership remain unchanged. The shared renderer performs placement and renumbering; no group is copied into section 1.

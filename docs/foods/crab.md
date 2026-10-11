@@ -2,7 +2,7 @@
 id: crab
 title: Crab
 sidebar_label: Crab
-description: 'Lean shellfish providing complete protein, zinc, selenium, and vitamin B12'
+description: Lean shellfish providing complete protein, zinc, selenium, and vitamin B12
 tags:
   - Food
   - Crab
@@ -33,6 +33,53 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/crab/crab_medium.webp
 legacy_list_image: /img/foods/crab/crab_thumb.webp
 legacy_main_image: /img/foods/crab/crab_medium.webp
+substance_relationships:
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      Documented in edible crab meat; the amount varies with species and
+      preparation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: crab|Selenium
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat
+      (FDC 174202)
+    evidence_material: Crustaceans, crab, alaska king, cooked, moist heat
+    source_url: https://fdc.nal.usda.gov/food-details/174202/nutrients
+    source_reference: '#food-source-5'
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      Documented in edible crab meat; the amount varies with species and
+      preparation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: crab|Zinc
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat
+      (FDC 174202)
+    evidence_material: Crustaceans, crab, alaska king, cooked, moist heat
+    source_url: https://fdc.nal.usda.gov/food-details/174202/nutrients
+    source_reference: '#food-source-5'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      Documented in edible crab meat; the amount varies with species and
+      preparation.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: crab|Vitamin B12
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat
+      (FDC 174202)
+    evidence_material: Crustaceans, crab, alaska king, cooked, moist heat
+    source_url: https://fdc.nal.usda.gov/food-details/174202/nutrients
+    source_reference: '#food-source-5'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -89,3 +136,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 [3] Selenium contributes to selenoprotein-based antioxidant defence. Mocchegiani & Malavolta 2019. [Role of Zinc and Selenium in Oxidative Stress and Immunosenescence: Implications for Healthy Aging and Longevity](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
 
 [4] And B12 supports one-carbon metabolism and neurological maintenance. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+
+<span id="food-source-5" />
+
+[5] [USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)](/docs/papers/BRAIN-Diet-References#food_composition_29fb3c843062)

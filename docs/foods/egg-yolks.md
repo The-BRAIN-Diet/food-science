@@ -2,7 +2,7 @@
 id: egg-yolks
 title: Egg Yolks
 sidebar_label: Egg Yolks
-description: 'Nutrient-dense part of eggs with choline, lutein, and fat-soluble vitamins'
+description: Nutrient-dense part of eggs with choline, lutein, and fat-soluble vitamins
 tags:
   - Food
   - Egg Yolks
@@ -63,7 +63,7 @@ omega3_components:
     amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Egg, yolk, raw, fresh'
+  food_name: Egg, yolk, raw, fresh
   fdc_id: 172184
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -76,11 +76,20 @@ nutrition_supplementary_sources:
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Egg Yolks is a documented dietary source of menaquinones (vitamin K2).
-      USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity
-      is not established here.
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food. Primary abstract explicitly identifies K2 in butter,
+      egg yolk, natto and cheese. No total vitamin K value used as K2.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_group: vitamin-k2
+    public_note: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    notes: butter, egg yolk or fermented soybean food
+    source_reference: '#food-source-4'
 substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
@@ -88,15 +97,101 @@ substance_relationships:
     process: Oxidation to retinal, then to retinoic acid
     description: >-
       Raw egg yolk records 381 µg RAE vitamin A per 100 g and 88 µg
-      beta-carotene. The dominant precursor is preformed vitamin A. The food
-      is not recorded as containing retinoic acid.
+      beta-carotene. The dominant precursor is preformed vitamin A. The food is
+      not recorded as containing retinoic acid.
     citation_keys:
       - duester_retinoic_acid_2008
       - harrison_vitamin_a_absorption_2012
+  - substance: Choline
+    relationship: contains
+    description: USDA FoodData Central reports choline in Egg, yolk, raw, fresh.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Choline
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Egg, yolk, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Egg, yolk, raw, fresh.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Egg, yolk, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin D
+    relationship: contains
+    description: USDA FoodData Central reports vitamin D in Egg, yolk, raw, fresh.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Vitamin D
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Egg, yolk, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin E
+    relationship: contains
+    description: USDA FoodData Central reports vitamin E in Egg, yolk, raw, fresh.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Egg, yolk, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/172184/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-5'
+  - substance: Vitamin K2
+    relationship: contains
+    description: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Vitamin K2
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food
+    evidence_material: butter, egg yolk or fermented soybean food
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_reference: '#food-source-4'
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Sommerburg et al. (1998) identified zeaxanthin in studied egg yolk. A
+      separate amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Zeaxanthin
+    evidence_source: Sommerburg et al. (1998), Table 1
+    evidence_material: Studied egg yolk
+    source_url: https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-6'
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Sommerburg et al. (1998) identified lutein in studied egg yolk. A separate
+      amount for this page’s preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: egg-yolks|Lutein
+    evidence_source: Sommerburg et al. (1998), Table 1
+    evidence_material: Studied egg yolk
+    source_url: https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-6'
+substance_review_candidates: []
 ---
 ## Overview
 
-Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
+Egg yolks provide choline (acetylcholine precursor), lutein and zeaxanthin [3], and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. The 1,094 µg per 100 g on this page is USDA lutein plus zeaxanthin, not a zeaxanthin amount.
 
 Within the BRAIN Diet framework, acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
 
@@ -134,3 +229,17 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Yolk **lutein** and **zeaxanthin** are highly bioavailable xanthophylls. Boiling, frying, and microwaving change isomer profiles and reduce total yolk xanthophyll content by about **6–18%** (all-E-lutein most affected in boiled yolk); cooked yolks show more Z-isomers. Nimalaratne & Lopes-Lutz 2012. [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
 
 [2] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: 150 g scrambled whole eggs (~3 eggs) with a raw mixed salad increased TRL carotenoid AUC versus no egg (lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold). The authors discuss yolk phospholipids as well as total yolk lipid as promoters of micellarization; the trial used whole eggs and did not isolate phospholipids from triglycerides.
+
+[3] Eisenhauer et al. (2017). [Lutein and Zeaxanthin—Food Sources, Bioavailability and Dietary Variety in Age-Related Macular Degeneration Protection](/docs/papers/BRAIN-Diet-References#eisenhauer_lutein_zeaxanthin_2017). Table 4 reports 762 µg trans-zeaxanthin and 787 µg trans-lutein per 100 g in the raw egg yolk measured by Perry et al. (2009).
+
+<span id="food-source-4" />
+
+[4] [Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food](/docs/papers/BRAIN-Diet-References#food_composition_a955736e9d48)
+
+<span id="food-source-5" />
+
+[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_45c42cf7d90e)
+
+<span id="food-source-6" />
+
+[6] [Sommerburg et al. (1998), Table 1](/docs/papers/BRAIN-Diet-References#food_composition_611f5fce395b)

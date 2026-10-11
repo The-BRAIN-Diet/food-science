@@ -70,7 +70,7 @@ Examples:
 |----|------|----------------|
 | `BRS-X(ECS)` | Endocannabinoid System | BRS1, BRS3, BRS4, BRS5, BRS6 |
 | `BRS-X(Hormones)` | Hormone Signalling & Regulation | BRS1, BRS2, BRS3, BRS4, BRS5, BRS6 |
-| `BRS-X(Circadian)` | Circadian Rhythm Regulation | BRS1, BRS4, BRS5, BRS6 — hub, FM1, and two PMs are published; further FMs remain deferred |
+| `BRS-X(Circadian)` | Temporal Regulation & Circadian Alignment | BRS1, BRS4, BRS5, BRS6 — hub, FM1, and two PMs are published; further FMs remain deferred |
 
 ### BRS-X(Circadian) — FM1 published
 

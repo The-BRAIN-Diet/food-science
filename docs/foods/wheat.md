@@ -61,6 +61,38 @@ complementary_pairings: >-
 main_image: /img/foods/wheat/wheat_medium.webp
 legacy_list_image: /img/foods/wheat/wheat_thumb.webp
 legacy_main_image: /img/foods/wheat/wheat_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Wheat, hard red winter.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: wheat|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Wheat, hard red winter'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168890/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Wheat, hard red winter.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: wheat|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Wheat, hard red winter'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168890/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Wheat, hard red winter.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: wheat|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Wheat, hard red winter'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168890/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

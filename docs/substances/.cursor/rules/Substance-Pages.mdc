@@ -5,7 +5,7 @@ alwaysApply: false
 ---
 
 Canonical schema: `system/substance-page-schema.md`.  
-**Worked examples:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (Highlights) and `docs/substances/nutrients/micronutrients/minerals/trace/copper.md` (Highlights + Advanced Nutrition + Therapeutic Area Research).  
+**Canonical worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (the merged template: practical dietary context, followed by expandable Research Spotlights & Evidence Checks).
 References follow the same bibliographic convention as food pages (`system/food-page-schema.md`).
 
 - Tag each food page with the substances it contains.
@@ -20,10 +20,10 @@ References follow the same bibliographic convention as food pages (`system/food-
 ## Canonical section order
 
 1. **Overview** — editorial synthesis: identity, distinctive biological/nutritional relevance, BRAIN relevance, and major evidence qualification. Do not enumerate mechanisms for coverage. Inline numeric citations `[1]`, `[2]`.
-2. **Dietary Origin** — supported relationship paths only: direct occurrence, dietary precursor, microbial/endogenous formation, food-matrix/bioavailability context, and direct supplemental/concentrated exposure. Never equate direct occurrence with precursor-supported formation.
+2. **Dietary Context** — explain supported direct occurrence, precursor supply or microbial/endogenous formation within this section. Use supported Food sources, Synergies and interactions, and Supplement versus food subsections where useful. Omit unsupported subsections; combination evidence alone does not establish synergy. Do not add a separate Dietary Origin section or duplicate the generated Foods list. No universal supplement advice or condition-specific research in this section.
 3. **Research Spotlights & Evidence Checks** — optional evidence presentations. Use `<EvidencePresentation>` and retain `exposureContext`; do not create duplicate evidence records.
-4. **Recipes** — `<SubstanceRecipes tag="the substance" />`
-5. **Foods** — `<SubstanceFoods tag="the substance" />`; relationship labels must distinguish contains from precursor/support edges.
+4. **Foods** — `<SubstanceFoods tag="the substance" />`; relationship labels must distinguish contains from precursor/support edges.
+5. **Recipes** — `<SubstanceRecipes tag="the substance" />`
 6. **Biological Regulatory Systems** — compact cited BRS table, preferably resolving through evidence-qualified PM/KC relationships. Tag-driven `<SubstanceMatrix />` is legacy fallback. Deeper biology goes in `<AdvancedNutrition>`; condition-specific evidence goes in `<TherapeuticAreaResearch>`. Headings inside those slots must be HTML so they stay out of the Highlights TOC.
 7. **References** — canonical author/year, linked-title, explanation format. **No bullet prefix.** Each line:
 
@@ -31,7 +31,7 @@ References follow the same bibliographic convention as food pages (`system/food-
 [n] {Author et al.} ({Year}). [{Full paper title}](/docs/papers/BRAIN-Diet-References#citationKey). {Why this source matters on this Substance page.}
 ```
 
-`Key Compound Highlights` is not a canonical standalone section. Resolve useful material into Overview, Dietary Origin, Research Spotlights/Evidence Checks, or an advanced evidence view.
+`Key Compound Highlights` is not a canonical standalone section. Resolve useful material into Overview, Dietary Context, Research Spotlights/Evidence Checks, or an advanced evidence view.
 
 Every citation key must exist in `static/bibtex/BRAIN-diet.bib`. Plain-text-only reference lines are invalid.
 

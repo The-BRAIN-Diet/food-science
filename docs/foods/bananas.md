@@ -60,6 +60,12 @@ nutrition_supplementary_sources:
     source_note: >-
       Direct analyses of Cavendish and plantain bananas found resistant starch
       declined during ripening (Gao et al. 2016).
+    public_note: >-
+      Gao et al. 2016 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Gao et al. 2016 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
   - key: polyphenol_oxidase_qual
     label: Polyphenol oxidase (PPO)
     status: Present — activity depends on fruit and handling
@@ -67,9 +73,37 @@ nutrition_supplementary_sources:
     source_note: >-
       A controlled banana-smoothie study identified banana PPO activity as the
       relevant preparation property (Ottaviani et al. 2023).
+    public_note: >-
+      Ottaviani et al. 2023 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Ottaviani et al. 2023 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 main_image: /img/foods/bananas/bananas_medium.webp
 legacy_list_image: /img/foods/bananas/bananas_thumb.webp
 legacy_main_image: /img/foods/bananas/bananas_medium.webp
+substance_relationships:
+  - substance: Potassium
+    relationship: contains
+    description: 'USDA FoodData Central reports potassium in Bananas, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: bananas|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Bananas, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173944/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B6 in Bananas, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: bananas|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Bananas, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173944/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

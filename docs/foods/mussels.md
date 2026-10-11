@@ -62,7 +62,7 @@ omega3_components:
     amount_mg: 22
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mollusks, mussel, blue, raw'
+  food_name: Mollusks, mussel, blue, raw
   fdc_id: 174216
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -75,11 +75,113 @@ nutrition_supplementary_sources:
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Mussels is a phospholipid-rich food in which phosphatidylcholine is a
-      major choline form; USDA SR Legacy reports choline, not
-      phosphatidylcholine specifically.
+      Current Progress in Lipidomics of Marine Invertebrates (2021). Review
+      identifies individual PC molecular species in Mytilus galloprovincialis;
+      edible foot also specifically listed.
+    public_note: Reported in Mytilus mussel edible tissue.
+    source_group: mussel-pc
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8708635/
+    notes: Mytilus mussel edible tissue
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: DHA
+    relationship: contains
+    description: USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|DHA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: EPA
+    relationship: contains
+    description: USDA FoodData Central reports EPA in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|EPA
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Omega-3 Fatty Acids
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports EPA, DHA, total omega-3 in Mollusks, mussel,
+      blue, raw. This class link does not treat a combined total as EPA, DHA or
+      ALA.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Omega-3 Fatty Acids
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-3'
+  - substance: Iron
+    relationship: contains
+    description: USDA FoodData Central reports iron in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Selenium
+    relationship: contains
+    description: USDA FoodData Central reports selenium in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Zinc
+    relationship: contains
+    description: USDA FoodData Central reports zinc in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin B12
+    relationship: contains
+    description: USDA FoodData Central reports vitamin B12 in Mollusks, mussel, blue, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mollusks, mussel, blue, raw
+    source_url: https://fdc.nal.usda.gov/food-details/174216/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Phosphatidylcholine
+    relationship: contains
+    description: Reported in Mytilus mussel edible tissue.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: mussels|Phosphatidylcholine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Current Progress in Lipidomics of Marine Invertebrates (2021)
+    evidence_material: Mytilus mussel edible tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8708635/
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -124,3 +226,11 @@ This food provides a **complete essential amino acid profile** typical of animal
 ## References
 
 [1] They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-2" />
+
+[2] [Current Progress in Lipidomics of Marine Invertebrates (2021)](/docs/papers/BRAIN-Diet-References#food_composition_12a56bba9e00)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_eb3e3e604a4a)

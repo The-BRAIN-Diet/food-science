@@ -33,6 +33,34 @@ complementary_pairings: Grains and legumes for balanced essential amino acid pro
 main_image: /img/foods/chlorella/chlorella_medium.webp
 legacy_list_image: /img/foods/chlorella/chlorella_thumb.webp
 legacy_main_image: /img/foods/chlorella/chlorella_medium.webp
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: Reported in dried Chlorella products.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chlorella|Iron
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      Potential of Chlorella as a Dietary Supplement to Promote Human Health
+      (2020)
+    evidence_material: dried Chlorella products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7551956/
+    source_reference: '#food-source-2'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      Some Chlorella products contain active vitamin B12; content depends on
+      cultivation and product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chlorella|Vitamin B12
+    presence_status: product_or_preparation_dependent
+    evidence_source: Vitamin B12 sources and microbial interaction (2018)
+    evidence_material: dried Chlorella food/supplement products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5788147/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -79,3 +107,11 @@ Chlorella contribute plant protein. Pair with complementary protein sources (e.g
 ## References
 
 [1] Microalgae protein with validated true B12 in some preparations. Watanabe & Takenaka 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)
+
+<span id="food-source-2" />
+
+[2] [Potential of Chlorella as a Dietary Supplement to Promote Human Health (2020)](/docs/papers/BRAIN-Diet-References#food_composition_d554e82bb827)
+
+<span id="food-source-3" />
+
+[3] [Vitamin B12 sources and microbial interaction (2018)](/docs/papers/BRAIN-Diet-References#food_composition_c033cc5196a3)

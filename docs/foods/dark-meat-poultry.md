@@ -9,50 +9,7 @@ tags:
   - Taurine
   - Iron
 list_image: /img/foods/dark-meat-poultry/dark-meat-poultry_thumb.webp
-nutrition_per_100g:
-  kcal: 281
-  protein_g: 10.34
-  fat_g: 23.77
-  carbs_g: 6.31
-  fibre_g: 0
-  ala_mg: 205
-  calcium_mg: 125
-  iron_mg: 1.24
-  magnesium_mg: 15
-  potassium_mg: 320
-  zinc_mg: 1.06
-  selenium_ug: 14.4
-  vitamin_b6_mg: 0.193
-  folate_ug: 7
-  choline_mg: 59.3
-  vitamin_b12_ug: 0
-  sat_fat_g: 7.389
-  epa_mg: 3
-  dha_mg: 6
-  omega3_mg: 239
-omega3_components:
-  - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
-    amount_mg: 6
-  - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
-    amount_mg: 3
-  - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
-    amount_mg: 14
-  - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
-    amount_mg: 205
-  - nutrient: n3_20_3_mg
-    identity: 20:3 n-3
-    amount_mg: 11
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Bologna, meat and poultry'
-  fdc_id: 171637
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
 legacy_list_image: /img/foods/dark-meat-poultry/dark-meat-poultry_thumb.webp
@@ -61,10 +18,54 @@ nutrition_supplementary_sources:
   - key: taurine_qual
     label: Taurine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Taurine is a characteristic free amino sulfonic acid in Dark-Meat Poultry;
-      USDA SR Legacy does not include a taurine field.
+      The potential protective effects of taurine on coronary heart disease
+      (2009). Table 2 separately identifies taurine in raw clams, raw scallops
+      and dark chicken/turkey meat.
+    public_note: Contains taurine; the amount varies with the food and cooking.
+    source_group: taurine-foods
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/
+    notes: clam or scallop edible tissue, or dark poultry meat
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Taurine
+    relationship: contains
+    description: Contains taurine; the amount varies with the food and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-meat-poultry|Taurine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      The potential protective effects of taurine on coronary heart disease
+      (2009)
+    evidence_material: clam or scallop edible tissue, or dark poultry meat
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/
+    source_reference: '#food-source-3'
+  - substance: Iron
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      USDA FoodData Central, Chicken, broilers or fryers, dark meat, meat and
+      skin, cooked, roasted (FDC 171065)
+    evidence_material: Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted
+    source_url: https://fdc.nal.usda.gov/food-details/171065/nutrients
+    description: Iron occurs in dark poultry meat; content varies with cut and cooking.
+    source_reference: '#food-source-4'
+nutrition_unavailable: true
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: FDC 171637, Bologna, meat and poultry
+  identity_failure: 'product: bologna is not poultry muscle'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -103,3 +104,11 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Dark-meat poultry is a practical dietary source of taurine alongside seafood and other animal proteins. Wójcik et al. 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
 
 [2] Poultry provides highly digestible complete protein with strong amino-acid bioavailability. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+<span id="food-source-3" />
+
+[3] [The potential protective effects of taurine on coronary heart disease (2009)](/docs/papers/BRAIN-Diet-References#food_composition_d8e1ccc9fc16)
+
+<span id="food-source-4" />
+
+[4] [USDA FoodData Central, Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted (FDC 171065)](/docs/papers/BRAIN-Diet-References#food_composition_9b0aff944230)

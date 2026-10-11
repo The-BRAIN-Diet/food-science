@@ -20,15 +20,23 @@ inchi_image: /img/inchi/MQZIGYBFDRPAKN-UWFIBFSHSA-N.png
 
 ## Overview
 
-Astaxanthin is a xanthophyll carotenoid that gives salmon, salmon roe, shrimp, lobster, and some microalgae their orange-red colour. It spans inner and outer membrane leaflets, can cross the blood–brain barrier, and is used in this ontology as a food constituent and as a studied supplement — not as a stand-in for oily-fish trials [1,3]. Humans do not synthesise it, so intake depends on marine foods or supplements [3].
+Astaxanthin is a xanthophyll carotenoid that gives salmon, salmon roe, shrimp, lobster, and some microalgae their orange-red colour. Researchers study its role in protecting cell membranes and its potential relevance to brain function, although much of that evidence comes from laboratory and animal studies [1,3]. Humans do not synthesise it, so intake depends on marine foods or supplements [3].
 
-Isolated-supplement evidence is the main research base. A mechanistic review links astaxanthin to reduced oxidative stress, neuroinflammatory signalling and mitochondrial-membrane protection, but much of the neurodegeneration evidence remains preclinical [1]. A meta-analysis of randomised supplemental trials found lower blood malondialdehyde, while CRP and TNF-α effects were not significant [2]. Human cognition findings are mixed and some positive trials used combination formulations, so neither salmon outcomes nor blend outcomes can be assigned to isolated astaxanthin [3].
+Isolated-supplement evidence is the main research base. A mechanistic review links astaxanthin to reduced oxidative stress, neuroinflammatory signalling and mitochondrial-membrane protection, but much of the neurodegeneration evidence remains preclinical [1]. A meta-analysis of randomised supplemental trials found lower blood malondialdehyde, while CRP and TNF-α effects were not significant [2]. Human studies of cognition have produced mixed results. Some tested astaxanthin alongside other ingredients, making its individual contribution uncertain [3].
 
-## Dietary Origin
+## Dietary Context
 
-Astaxanthin occurs directly in salmon, salmon roe, shrimp, krill, lobster and some algae, including *Haematococcus*. In farmed salmon its concentration depends strongly on feed formulation. As a lipid-soluble carotenoid, its absorption depends on digestion and micelle formation within a fat-containing matrix.
+### Food sources
 
-Most human biomarker and cognition research has tested isolated supplemental astaxanthin or combination formulations rather than ordinary portions of marine foods [2,3]. The food-occurrence relationship and the intervention-evidence relationship therefore remain separate: `marine food → contains → astaxanthin` does not establish that eating the food reproduces a capsule trial.
+Salmon, salmon roe, shrimp, krill, lobster and some algae, including *Haematococcus*, are sources. In farmed salmon its concentration depends strongly on feed formulation [3].
+
+### Food matrix and absorption
+
+As a lipid-soluble carotenoid, its absorption depends on digestion and micelle formation within a fat-containing matrix [3].
+
+### Supplement versus food
+
+Most human biomarker and cognition research has tested isolated supplemental astaxanthin or combination formulations rather than ordinary portions of marine foods [2,3]. These studies tell us about the products and amounts tested; they do not establish the same effects from a serving of seafood.
 
 ## Research Spotlights & Evidence Checks
 
@@ -47,20 +55,20 @@ The included studies tested supplemental astaxanthin. This supports a qualified 
   kind="check"
   title="Can results from mixed antioxidant formulations be attributed to astaxanthin alone?"
   exposureContext="combination-formulation"
-  summary="No. Some cognition studies combined astaxanthin with sesamin or tocotrienols, so their outcomes cannot be silently projected as isolated-astaxanthin effects [3]."
+  summary="No. Some cognition studies combined astaxanthin with sesamin or tocotrienols, so we cannot tell how much astaxanthin contributed to the results [3]."
 >
 
 The critical review reports mixed human cognition results and identifies combination formulations in part of the evidence base. Those studies remain relevant to formulation research but do not isolate astaxanthin as the causal component [3].
 
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Astaxanthin" />
-
 ## Foods
 
 <SubstanceFoods tag="Astaxanthin" />
+
+## Recipes
+
+<SubstanceRecipes tag="Astaxanthin" />
 
 ## Biological Regulatory Systems
 

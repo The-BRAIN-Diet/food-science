@@ -20,10 +20,74 @@ substance_relationships:
     relationship: dietary-precursor
     input: Ellagitannins / ellagic acid
     process: Microbial conversion
-    description: Pomegranate supplies ellagitannin precursors; microbiome-dependent conversion may produce Urolithin A. The fruit is not represented as containing Urolithin A.
+    description: >-
+      Pomegranate supplies ellagitannin precursors; microbiome-dependent
+      conversion may produce Urolithin A. The fruit is not represented as
+      containing Urolithin A.
     citation_keys:
       - zelicha_effect_2022
       - singh_direct_2022
+  - substance: Potassium
+    relationship: contains
+    description: USDA FoodData Central reports potassium in Pomegranates, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pomegranates|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Pomegranates, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169134/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Vitamin C
+    relationship: contains
+    description: USDA FoodData Central reports vitamin C in Pomegranates, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pomegranates|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Pomegranates, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169134/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Cyanidin
+    relationship: contains
+    description: Occurs as anthocyanin glycosides in pomegranate juice.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pomegranates|Cyanidin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021)
+    evidence_material: pomegranate juice
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
+  - substance: Delphinidin
+    relationship: contains
+    description: Occurs as anthocyanin glycosides in pomegranate juice.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pomegranates|Delphinidin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021)
+    evidence_material: pomegranate juice
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
+  - substance: Pelargonidin
+    relationship: contains
+    description: Occurs as anthocyanin glycosides in pomegranate juice.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: pomegranates|Pelargonidin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021)
+    evidence_material: pomegranate juice
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
 nutrition_per_100g:
   vitamin_e_mg: 0.6
   choline_mg: 7.6
@@ -55,7 +119,7 @@ nutrition_per_100g:
   linoleic_g: 0.079
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Pomegranates, raw'
+  food_name: Pomegranates, raw
   fdc_id: 169134
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -67,27 +131,58 @@ nutrition_supplementary_sources:
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Pomegranates; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021). Six separately identified glycosides include cyanidin,
+      delphinidin and pelargonidin glucosides/diglucosides in juice; not
+      free-aglycone concentrations.
+    public_note: Occurs as anthocyanin glycosides in pomegranate juice.
+    source_group: pomegranate-anthocyanins
+    notes: pomegranate juice
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
   - key: delphinidin_qual
     label: Delphinidin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list delphinidin glycosides in
-      Pomegranates; per-100 g of the isolated anthocyanidin is not in the
-      selected USDA SR Legacy record.
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021). Six separately identified glycosides include cyanidin,
+      delphinidin and pelargonidin glucosides/diglucosides in juice; not
+      free-aglycone concentrations.
+    public_note: Occurs as anthocyanin glycosides in pomegranate juice.
+    source_group: pomegranate-anthocyanins
+    notes: pomegranate juice
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
   - key: pelargonidin_qual
     label: Pelargonidin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list pelargonidin glycosides in
-      Pomegranates; individual pelargonidin quantity is not in the selected USDA
-      SR Legacy record.
+      Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction
+      Methods (2021). Six separately identified glycosides include cyanidin,
+      delphinidin and pelargonidin glucosides/diglucosides in juice; not
+      free-aglycone concentrations.
+    public_note: Occurs as anthocyanin glycosides in pomegranate juice.
+    source_group: pomegranate-anthocyanins
+    notes: pomegranate juice
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8304681/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -122,3 +217,11 @@ Within the BRAIN Diet framework, higher polyphenol intake and microbial diversit
 [1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
 
 [2] Urolithin A supports mitochondrial resilience and mitophagy, improving cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019). Singh & D’Amico 2022. [Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
+
+<span id="food-source-3" />
+
+[3] [Elucidation of Anthocyanins in Pomegranate Juices from Three Extraction Methods (2021)](/docs/papers/BRAIN-Diet-References#food_composition_a323fbc0c8cf)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_06df2db9e2cd)

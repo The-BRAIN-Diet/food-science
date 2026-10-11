@@ -2,7 +2,7 @@
 id: almonds
 title: Almonds
 sidebar_label: Almonds
-description: Nutrient-dense nut providing vitamin E, magnesium, fibre and unsaturated fats
+description: 'Nutrient-dense nut providing vitamin E, magnesium, fibre and unsaturated fats'
 tags:
   - Food
   - Almonds
@@ -51,7 +51,7 @@ nutrition_per_100g:
   omega3_mg: 3
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 3
 nutrition_source:
   database: USDA FoodData Central
@@ -61,10 +61,104 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
-complementary_pairings: Legumes for lysine complementarity; grains are themselves typically lysine-limited.
+complementary_pairings: >-
+  Legumes for lysine complementarity; grains are themselves typically
+  lysine-limited.
 main_image: /img/foods/almonds/almonds_medium.webp
 legacy_list_image: /img/foods/almonds/almonds_thumb.webp
 legacy_main_image: /img/foods/almonds/almonds_medium.webp
+substance_relationships:
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Calcium
+    relationship: contains
+    description: 'USDA FoodData Central reports calcium in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B2
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B2 in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Vitamin B2
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin E
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin E in Nuts, almonds.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: almonds|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Nuts, almonds'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170567/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

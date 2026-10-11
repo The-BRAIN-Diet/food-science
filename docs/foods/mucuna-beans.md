@@ -2,7 +2,7 @@
 id: mucuna-beans
 title: Mucuna Beans
 sidebar_label: Mucuna Beans
-description: Natural L-DOPA source for dopamine synthesis
+description: Velvet bean seeds containing pharmacologically active L-DOPA
 tags:
   - Food
   - Mucuna Beans
@@ -10,75 +10,65 @@ tags:
   - Vegetarian
   - L-DOPA
 list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
-nutrition_per_100g:
-  kcal: 336.59519
-  protein_g: 21.5625
-  fat_g: 2.199
-  carbs_g: 59.7955
-  calcium_mg: 142.9
-  iron_mg: 6.673
-  magnesium_mg: 153.6
-  potassium_mg: 1424
-  zinc_mg: 2.72
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Beans, cannellini, dry'
-  fdc_id: 2644281
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-amino_acid_strengths: Lysine-rich relative to grains.
-limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
-complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+nutrition_per_100g: {}
 main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
 legacy_list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
 legacy_main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
+eaa_profile_applicable: false
 nutrition_supplementary_sources:
   - key: ldopa_qual
     label: L-DOPA
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
+    section: bioactive
+    public_display: table
+    amount_display: Present in studied seeds; cooked content not established
+    status: Qualitative seed occurrence
+    source_group: mucuna-ldopa
+    public_note: 'Boonchoong et al. (2018): Mucuna pruriens var. utilis seed material.'
     source_note: >-
-      Mucuna Beans (Mucuna pruriens) are a documented food source of L-DOPA.
-      USDA SR Legacy has no mucuna record, so quantity is not established here.
+      Boonchoong et al. (2018), primary abstract: M. pruriens var. utilis seed
+      samples, 3.54–3.70% w/w by HPLC (3.54–3.70 g per 100 g seed material). The
+      record does not establish the moisture basis or a concentration for cooked
+      beans.
+    source_url: https://ejournals.swu.ac.th/index.php/pharm/article/view/10751
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: L-DOPA
+    relationship: contains
+    description: >-
+      Boonchoong et al. (2018) confirmed L-DOPA in var. utilis seeds. A separate
+      amount for cooked beans is not established.
+    citation_keys:
+      - boonchoong_ldopa_seeds_2018
+    source_url: https://ejournals.swu.ac.th/index.php/pharm/article/view/10751
+    evidence_material: >-
+      Mucuna pruriens var. utilis seed material from studied Thai sources; not
+      cooked beans, leaves, extract or supplement
+    evidence_source: Boonchoong et al. (2018)
+    source_reference: '#food-source-3'
+substance_card_captions:
+  L-DOPA: >-
+    Boonchoong et al. (2018) confirmed L-DOPA in var. utilis seeds. Content in
+    cooked beans is not established.
+nutrition_unavailable: true
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: USDA FDC 2644281, Beans, cannellini, dry
+  identity_failure: species
+  reason: >-
+    Cannellini is not Mucuna pruriens. Review ranges are not a coherent
+    preparation-specific replacement panel.
+  queue: system/specialist-composition-review-queue.md
 ---
+
 ## Overview
 
-Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis.
-
-The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA [1].
-
-## Key Nutritional Highlights
-
-- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA.
+Mucuna beans are velvet bean seeds, *Mucuna pruriens*. Seed studies confirm L-DOPA (levodopa), a pharmacologically active precursor of dopamine [2]. Its presence does not establish a suitable dietary dose.
 
 ## Food Context
 
-### Synergies
-
-- Part of precision nutrition strategy
-
 ### Preparation
 
-- Can be consumed as legume
-- Supports dopamine synthesis pathways
-- Use with awareness of L-DOPA content
-
-### Essential Amino Acid Profile
-
-Mucuna Beans provide a strong plant protein source but are not a complete protein.
-
-Notable amino acids:
-
-- Lysine
-
-Limiting amino acids:
-
-- Methionine and cysteine (DIAAS ~65–70)
-
-Protein pairing strategy:
-
-Mucuna Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+Soaking, boiling and other processing methods are discussed in the composition review [1]. These descriptions do not establish safe residual L-DOPA levels for a particular cooked preparation. Raw seeds, cooked beans, extracts and supplements have different compositions; seed assay results cannot be transferred between them.
 
 ## Recipes
 
@@ -92,4 +82,10 @@ Mucuna Beans are rich in lysine but relatively low in sulfur-containing amino ac
 
 ## References
 
-[1] The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols, grass-fed liver for bioavailable retinol and B12, mucuna beans for natural LDOPA. Gasmi & Nasreen 2022. [Neurotransmitters Regulation and Food Intake: The Role of Dietary Sources in Neurotransmission](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)
+[1] Sowdhanya et al. (2024). [Nutritional significance of velvet bean and opportunities for its processing into value-added products](/docs/papers/BRAIN-Diet-References#sowdhanya_velvet_bean_2024). A review of composition and processing; it does not supply a single composition panel for cooked beans.
+
+[2] Boonchoong et al. (2018). [Quantitative Analysis of L-DOPA in Mucuna pruriens Seeds by High Performance Liquid Chromatography](/docs/papers/BRAIN-Diet-References#boonchoong_ldopa_seeds_2018). Seed-specific evidence; not a cooked-food concentration.
+
+<span id="food-source-3" />
+
+[3] [Boonchoong et al. (2018)](/docs/papers/BRAIN-Diet-References#boonchoong_ldopa_seeds_2018)

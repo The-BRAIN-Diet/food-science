@@ -29,7 +29,7 @@ Butyrate is a short-chain fatty acid produced principally in the colon when micr
 
 Evidence spans cell systems, animal models, human observational work and direct administration, with different doses and routes. Associations between altered SCFA profiles and neurological conditions do not establish deficiency, causality or a dietary treatment effect [3]. Claims about mitochondrial, inflammatory or brain outcomes therefore retain the exposure and model actually studied [3–5].
 
-## Dietary Origin
+## Dietary Context
 
 Most Butyrate reaching the colon is produced by gut microbes fermenting suitable dietary substrates [2].
 
@@ -52,13 +52,13 @@ BRS5-FM1-PM1 stores Butyrate as a direct substrate relationship and fermentable 
 
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Butyrate" />
-
 ## Foods
 
 <SubstanceFoods tag="Butyrate" />
+
+## Recipes
+
+<SubstanceRecipes tag="Butyrate" />
 
 ## Biological Regulatory Systems
 

@@ -1,4 +1,6 @@
 import React from "react"
+import {canonicalFoodRelationships} from "@site/src/data/foodSubstanceRelationships.mjs"
+import {substanceLabelsOverlap} from "@site/src/data/nutritionTableMapping"
 import { usePluginData } from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
@@ -42,48 +44,16 @@ type SubstanceRelationship = {
   process?: string
   description?: string
   citation_keys?: string[]
+  source_url?: string
 }
 
 type FoodRelationship = {
   doc: Document
   edge: SubstanceRelationship
-  legacy: boolean
 }
 
-const RELATIONSHIP_LABELS: Record<string, string> = {
-  contains: "Contains",
-  "direct-food-occurrence": "Direct food occurrence",
-  "dietary-precursor": "Dietary precursor",
-  "microbial-formation": "Supports microbial formation",
-  "endogenous-formation": "Supports endogenous formation",
-  "bioavailability-context": "Bioavailability / food-matrix context",
-  "direct-supplemental-exposure": "Direct supplemental exposure",
-}
-
-function relationshipLabel(edge: SubstanceRelationship, legacy: boolean): string {
-  if (legacy) return "Legacy food association · relationship unreviewed"
-  return RELATIONSHIP_LABELS[edge.relationship] || edge.relationship
-}
-
-function relationshipPath(
-  foodTitle: string,
-  substance: string,
-  edge: SubstanceRelationship,
-  legacy: boolean,
-): string {
-  if (legacy) return `${foodTitle} → legacy tag association → ${substance}`
-  if (edge.relationship === "contains" || edge.relationship === "direct-food-occurrence") {
-    return `${foodTitle} → contains → ${substance}`
-  }
-  const input = edge.input ? ` → provides ${edge.input}` : ""
-  const process = edge.process ? ` → ${edge.process}` : ""
-  return `${foodTitle}${input}${process} → ${substance}`
-}
-
-function DocItemImage({ relationship, substance }: { relationship: FoodRelationship; substance: string }) {
-  const {doc, edge, legacy} = relationship
-  const label = relationshipLabel(edge, legacy)
-  const path = relationshipPath(doc.title, substance, edge, legacy)
+function DocItemImage({ relationship }: { relationship: FoodRelationship }) {
+  const {doc} = relationship
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
@@ -95,20 +65,7 @@ function DocItemImage({ relationship, substance }: { relationship: FoodRelations
             <h3>{doc.title}</h3>
           </Link>
           {doc.description && <p>{doc.description}</p>}
-          <p className="substance-food-relationship">
-            <span
-              className="substance-food-relationship__label"
-              title={legacy
-                ? "Legacy fallback inferred from the Food tag. This edge has not yet been migrated to an explicit relationship record."
-                : edge.description || path}
-            >
-              {label}
-            </span>
-            <span className="substance-food-relationship__path">{path}</span>
-          </p>
-          {edge.description ? (
-            <p className="substance-food-relationship__description">{edge.description}</p>
-          ) : null}
+
         </div>
       </div>
     </article>
@@ -118,9 +75,8 @@ function DocItemImage({ relationship, substance }: { relationship: FoodRelations
 /**
  * SubstanceFoods component
  *
- * Finds direct and precursor/support relationships between foods and a substance.
- * Explicit `substance_relationships` records take precedence. Existing food tags
- * remain visible as a labelled legacy direct-occurrence fallback.
+ * Lists foods with an explicit `substance_relationships` record for this substance.
+ * A food tag alone is not a relationship and is not shown.
  */
 export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
@@ -138,44 +94,23 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
     new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values()
   )
 
-  const getSubstanceName = (title: string): string => {
-    return title.split("(")[0].trim()
-  }
-
-  const substanceName = getSubstanceName(tag)
   const substanceFoods: FoodRelationship[] = []
   for (const food of uniqueFoods) {
     const explicit = Array.isArray(food.frontMatter.substance_relationships)
-      ? (food.frontMatter.substance_relationships as unknown[])
+      ? (canonicalFoodRelationships(food.frontMatter) as unknown[])
           .filter((item): item is SubstanceRelationship => {
             if (!item || typeof item !== "object") return false
             const candidate = item as Partial<SubstanceRelationship>
             return (
               typeof candidate.substance === "string" &&
               typeof candidate.relationship === "string" &&
-              getSubstanceName(candidate.substance) === substanceName
+              substanceLabelsOverlap(candidate.substance, tag)
             )
           })
       : []
 
-    if (explicit.length) {
-      for (const edge of explicit) {
-        substanceFoods.push({doc: food, edge, legacy: false})
-      }
-      continue
-    }
-
-    const foodTagLabels = food.tags.map((t: Tag) => t.label)
-    const tagMatch = foodTagLabels.some((foodTag: string) => {
-      const normalizedFoodTag = getSubstanceName(foodTag)
-      return foodTag === tag || foodTag === substanceName || normalizedFoodTag === substanceName
-    })
-    if (tagMatch) {
-      substanceFoods.push({
-        doc: food,
-        edge: {substance: substanceName, relationship: "direct-food-occurrence"},
-        legacy: true,
-      })
+    for (const edge of explicit) {
+      substanceFoods.push({doc: food, edge})
     }
   }
 
@@ -217,14 +152,13 @@ export default function SubstanceFoods({ tag }: SubstanceFoodsProps): React.Reac
             e.currentTarget.style.textDecoration = "none"
           }}
         >
-          {substanceFoods.length} food relationship{substanceFoods.length !== 1 ? "s" : ""}
+          {substanceFoods.length} food{substanceFoods.length !== 1 ? "s" : ""}
         </summary>
         <div style={{ marginTop: "1rem" }}>
           {substanceFoods.map((relationship: FoodRelationship, index: number) => (
             <DocItemImage
               key={`${relationship.doc.permalink}-${relationship.edge.relationship}-${index}`}
               relationship={relationship}
-              substance={substanceName}
             />
           ))}
         </div>

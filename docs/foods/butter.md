@@ -52,7 +52,7 @@ omega3_components:
     amount_mg: 315
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Butter, without salt'
+  food_name: Butter, without salt
   fdc_id: 173430
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -64,10 +64,20 @@ nutrition_supplementary_sources:
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Butter is a documented dietary source of menaquinones (vitamin K2). A
-      comparable K2 quantity is not established here.
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food. Primary abstract explicitly identifies K2 in butter,
+      egg yolk, natto and cheese. No total vitamin K value used as K2.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_group: vitamin-k2
+    public_note: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    notes: butter, egg yolk or fermented soybean food
+    source_reference: '#food-source-2'
 substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
@@ -75,11 +85,49 @@ substance_relationships:
     process: Oxidation to retinal, then to retinoic acid
     description: >-
       Unsalted butter records 684 µg RAE vitamin A per 100 g and 158 µg
-      beta-carotene. The dominant precursor is preformed vitamin A. The food
-      is not recorded as containing retinoic acid.
+      beta-carotene. The dominant precursor is preformed vitamin A. The food is
+      not recorded as containing retinoic acid.
     citation_keys:
       - duester_retinoic_acid_2008
       - harrison_vitamin_a_absorption_2012
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Butter, without salt.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: butter|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Butter, without salt
+    source_url: https://fdc.nal.usda.gov/food-details/173430/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin E
+    relationship: contains
+    description: USDA FoodData Central reports vitamin E in Butter, without salt.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: butter|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Butter, without salt
+    source_url: https://fdc.nal.usda.gov/food-details/173430/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin K2
+    relationship: contains
+    description: Contains menaquinones (vitamin K2); the amount is product-dependent.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: butter|Vitamin K2
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Schurgers and Vermeer (2000), Determination of phylloquinone and
+      menaquinones in food
+    evidence_material: butter, egg yolk or fermented soybean food
+    source_url: https://pubmed.ncbi.nlm.nih.gov/11356998/
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -112,3 +160,11 @@ Within a BRAIN-aligned pattern it is a culinary fat, not a staple.
 ## References
 
 [1] Schurgers & Vermeer (2000). [Determination of Phylloquinone and Menaquinones in Food](/docs/papers/BRAIN-Diet-References#schurgers_phylloquinone_menaquinones_2000). Food-composition analysis reporting vitamin K forms, including menaquinones, in butter and other foods.
+
+<span id="food-source-2" />
+
+[2] [Schurgers and Vermeer (2000), Determination of phylloquinone and menaquinones in food](/docs/papers/BRAIN-Diet-References#food_composition_a955736e9d48)
+
+<span id="food-source-3" />
+
+[3] [USDA FoodData Central, Butter, without salt (FDC 173430)](/docs/papers/BRAIN-Diet-References#food_composition_f287b7193234)

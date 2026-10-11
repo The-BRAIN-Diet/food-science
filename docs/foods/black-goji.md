@@ -12,7 +12,7 @@ tags:
 list_image: /img/foods/black-goji/black-goji_thumb.webp
 composition_status: withdrawn
 composition_withdrawn:
-  withdrawn_record: USDA FDC 2710837, 'Plum, black, with skin, raw'
+  withdrawn_record: 'USDA FDC 2710837, ''Plum, black, with skin, raw'''
   identity_failure: species
   reason: >-
     The entire quantitative panel — energy, macronutrients, fibre, sugars and
@@ -32,6 +32,12 @@ nutrition_supplementary_sources:
     source_note: >-
       Black goji (Lycium ruthenicum) is characterised by dense anthocyanin
       pigmentation. A comparable quantity is not established here.
+    public_note: >-
+      Black goji (Lycium ruthenicum) is characterised by dense anthocyanin
+      pigmentation.
+    source_group: >-
+      Black goji (Lycium ruthenicum) is characterised by dense anthocyanin
+      pigmentation.
 ---
 ## Overview
 

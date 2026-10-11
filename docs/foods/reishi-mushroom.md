@@ -35,10 +35,35 @@ nutrition_supplementary_sources:
   - key: polysaccharides_qual
     label: Polysaccharides
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Reishi Mushroom is characterised by fungal polysaccharides; USDA SR Legacy
-      has no record for this mushroom, so quantity is not established.
+      A Systematic Review on Polysaccharides from Fungal Traditional Chinese
+      Medicine (2023). Review identifies polysaccharides isolated from Ganoderma
+      lucidum fruiting bodies.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10574063/
+    source_group: reishi-polys
+    public_note: Reported in Ganoderma lucidum fruiting bodies.
+    notes: Ganoderma lucidum fruiting bodies
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Polysaccharides
+    relationship: contains
+    description: Reported in Ganoderma lucidum fruiting bodies.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: reishi-mushroom|Polysaccharides
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      A Systematic Review on Polysaccharides from Fungal Traditional Chinese
+      Medicine (2023)
+    evidence_material: Ganoderma lucidum fruiting bodies
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10574063/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -74,3 +99,7 @@ Within the BRAIN Diet framework, modern research links these effects largely to 
 [1] Reishi supplies fungal polysaccharides studied for immune-modulating properties. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
 
 [2] Mushroom polyphenols and triterpenes contribute antioxidant nutraceutical mechanisms. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+
+<span id="food-source-3" />
+
+[3] [A Systematic Review on Polysaccharides from Fungal Traditional Chinese Medicine (2023)](/docs/papers/BRAIN-Diet-References#food_composition_c029f537d0a3)

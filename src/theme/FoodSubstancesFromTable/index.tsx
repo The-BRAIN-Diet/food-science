@@ -1,4 +1,5 @@
 import React from "react"
+import {canonicalContainsRelationships, pendingFoodRelationship} from "@site/src/data/foodSubstanceRelationships.mjs"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
@@ -43,13 +44,15 @@ interface SupplementarySource {
   amount_display?: string
   status?: string
   source_note: string
+  /** Proximate and class rows can stay in the nutrition table without a substance card. */
+  omit_substance_card?: boolean
 }
 
 interface FoodSubstancesFromTableProps {
   details: Record<string, unknown>
 }
 
-function DocItemImage({doc, caption}: {doc: Document; caption?: string}) {
+function DocItemImage({doc, caption, sourceUrl}: {doc: Document; caption?: string; sourceUrl?: string}) {
   const isSubstance = doc.permalink.includes("/substances/")
   const inchikey = doc.frontMatter.inchikey as string | undefined
   const inchiImage = doc.frontMatter.inchi_image as string | undefined
@@ -82,6 +85,7 @@ function DocItemImage({doc, caption}: {doc: Document; caption?: string}) {
             <h3>{doc.title}</h3>
           </Link>
           {body && <p>{body}</p>}
+          {sourceUrl && <p><a href={sourceUrl}>Source</a></p>}
         </div>
       </div>
     </article>
@@ -171,7 +175,7 @@ function substanceCardCaption(
  * FoodSubstancesFromTable
  *
  * Substances list for the canonical Three Sources of Truth: cards that already
- * have a supported nutrition-table row. Editorial tags without a row are omitted.
+ * have a supported nutrition-table row or an explicit occurrence record.
  * Not every table row becomes a card. Cards are not BRS mappings.
  */
 export default function FoodSubstancesFromTable({
@@ -289,6 +293,7 @@ export default function FoodSubstancesFromTable({
     }
   }
   for (const sup of supplementary) {
+    if (sup.omit_substance_card) continue
     if (!isPublicSupplementaryRow(details, sup)) continue
     tableLabels.push(sup.label)
   }
@@ -296,7 +301,7 @@ export default function FoodSubstancesFromTable({
     tableLabels.push(label)
   }
   const labelsInOrder = supplementary
-    .filter((sup) => isPublicSupplementaryRow(details, sup))
+    .filter((sup) => !sup.omit_substance_card && isPublicSupplementaryRow(details, sup))
     .map((sup) => sup.label)
   const resolveSubstanceDoc = (label: string): Document | undefined => {
     const exact = substanceNameMap.get(label)
@@ -309,11 +314,32 @@ export default function FoodSubstancesFromTable({
 
   const analyticalResolved = labelsInOrder.map((label) => ({
     label,
-    doc: resolveSubstanceDoc(label) ?? null,
+    doc:
+      label.trim().toLowerCase() === "lutein + zeaxanthin"
+        ? null
+        : (resolveSubstanceDoc(label) ?? null),
   }))
+
+  // Explicit canonical occurrence records carry independent qualitative evidence.
+  // Their display does not depend on a quantity or a nutrition-table admission.
+  const directEdges = canonicalContainsRelationships(details)
+  const explicitPresence = (label: string): boolean =>
+    directEdges.some((edge) => substanceLabelsOverlap(edge.substance, label))
 
   const rowBacked = (label: string): boolean =>
     tableLabels.some((tableLabel) => substanceLabelsOverlap(label, tableLabel))
+
+  // The composition panel stores one combined analyte. It must not be presented
+  // as lutein alone or as zeaxanthin alone.
+  const combinedXanthophyllOnly = (label: string): boolean => {
+    const base = getSubstanceName(label)
+    if (base !== "Lutein" && base !== "Zeaxanthin") return false
+    const ownRow = tableLabels.some((tableLabel) => getSubstanceName(tableLabel) === base)
+    const combined = tableLabels.some(
+      (tableLabel) => tableLabel.trim().toLowerCase() === "lutein + zeaxanthin",
+    )
+    return combined && !ownRow
+  }
 
   // Union: editorial tags that already have a table row, then public supplementary
   // analytes not already listed. Not every table row becomes a card.
@@ -324,12 +350,15 @@ export default function FoodSubstancesFromTable({
   for (const doc of editorialDocs) {
     const baseTitle = getSubstanceName(doc.title)
     if (EXCLUDED_SUBSTANCE_TITLES.has(baseTitle)) continue
-    if (!rowBacked(baseTitle) && !rowBacked(doc.title)) continue
+    if (pendingFoodRelationship(details, baseTitle, substanceLabelsOverlap)) continue
+    if (!explicitPresence(baseTitle) && (combinedXanthophyllOnly(baseTitle) || combinedXanthophyllOnly(doc.title))) continue
+    if (!explicitPresence(baseTitle) && !rowBacked(baseTitle) && !rowBacked(doc.title)) continue
     seenPermalinks.add(doc.permalink)
     seenLabels.add(baseTitle)
     merged.push({ label: baseTitle || doc.title, doc })
   }
   for (const { label, doc } of analyticalResolved) {
+    if (pendingFoodRelationship(details, label, substanceLabelsOverlap)) continue
     if (doc) {
       const baseTitle = getSubstanceName(doc.title)
       if (EXCLUDED_SUBSTANCE_TITLES.has(baseTitle)) continue
@@ -342,12 +371,19 @@ export default function FoodSubstancesFromTable({
     merged.push({ label, doc })
   }
 
+  for (const edge of directEdges) {
+    // Explicit class records remain traceable even when inferred class cards are excluded.
+    const doc = resolveSubstanceDoc(edge.substance) || uniqueSubstances.find(candidate => substanceLabelsOverlap(candidate.title, edge.substance))
+    if (!doc || seenPermalinks.has(doc.permalink)) continue
+    seenPermalinks.add(doc.permalink)
+    merged.push({label: edge.substance, doc})
+  }
+
   if (merged.length === 0) {
     return (
       <div className="bok-tag-list">
         <p style={{fontStyle: "italic"}}>
-          No nutrition data yet and no editorial substances. Add tags (from the Overview) and/or
-          populate the nutrition table so substances appear here.
+          No evidenced substance relationships are currently available.
         </p>
       </div>
     )
@@ -355,10 +391,6 @@ export default function FoodSubstancesFromTable({
 
   return (
     <div className="bok-tag-list">
-      <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)"}}>
-        Substances admitted through a supported nutrition-table row. Not every
-        table row appears here. Cards are not BRS mappings.
-      </p>
       <details open>
         <summary
           style={{
@@ -374,9 +406,10 @@ export default function FoodSubstancesFromTable({
         </summary>
         <div style={{marginTop: "1rem"}}>
           {merged.map(({label, doc}) => {
-            const caption = substanceCardCaption(details, label, doc)
+            const edge = directEdges.find((edge) => substanceLabelsOverlap(edge.substance, label))
+            const caption = edge?.recovery_origin ? edge.description : (substanceCardCaption(details, label, doc) || edge?.description)
             return doc ? (
-              <DocItemImage key={doc.permalink} doc={doc} caption={caption} />
+              <DocItemImage key={doc.permalink} doc={doc} caption={caption} sourceUrl={edge?.source_reference} />
             ) : (
               <div key={label} style={{marginBottom: "0.75rem"}}>
                 <strong>{label}</strong>

@@ -2,7 +2,7 @@
 id: beef
 title: Beef
 sidebar_label: Beef
-description: 'High creatine, CoQ10, and bioavailable heme iron'
+description: High creatine, CoQ10, and bioavailable heme iron
 tags:
   - Food
   - Beef
@@ -72,11 +72,10 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  source_reference: '#food-source-6'
 nutrition_supplementary_sources:
   - key: creatine_mg
     label: Creatine
-    value: 400
-    unit: mg
     notes: >-
       Concentrated in muscle; not reported in ordinary beef composition tables
       for most cuts.
@@ -85,24 +84,234 @@ nutrition_supplementary_sources:
       creatine source summaries and compositional surveys (raw beef muscle
       ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018
       and creatine dietary sources reviews).
+    public_note: >-
+      Approximate content for cooked beef muscle; cut and cooking affect the amount.
+    source_group: estimate-creatine_mg
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 400 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    value: 400
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-4'
   - key: coq10_mg
     label: Coenzyme Q10 (CoQ10)
-    value: 2.5
-    unit: mg
     notes: Mitochondrial ubiquinone; cut and cooking method alter measured content.
     source_note: >
-      Representative value within the measured range for beef muscle reported
-      by Mattila & Kumpulainen (2001); cut strongly affects the result.
+      Representative value within the measured range for beef muscle reported by
+      Mattila & Kumpulainen (2001); cut strongly affects the result.
+    public_note: >-
+      Mattila & Kumpulainen (2001) supports this source-specific measurement.
+      See technical provenance for food form and measurement details.
+    source_group: >-
+      Mattila & Kumpulainen (2001) supports this source-specific measurement.
+      See technical provenance for food form and measurement details.
+    public_display: internal-only
+    omit_substance_card: true
+    evidence_status: unresolved
+    amount_display: Separate amount not established
   - key: coq10_qual
     label: CoQ10
     status: Present — quantity varies by cut
-    amount_display: Present — quantity varies by cut
+    amount_display: 2.5 mg (estimate)
     source_note: >-
-      HPLC food-composition analysis measured CoQ10 in beef muscle and organs
-      (Mattila & Kumpulainen 2001).
+      The cited study analysed CoQ10 separately in beef steak and beef heart.
+      It supports presence in those materials; the retained 2.5 mg estimate
+      is not a preparation-specific measurement from that abstract.
+    public_note: >-
+      Representative estimate for beef muscle; not a measured value for every
+      cut or ground-beef preparation.
+    source_group: >-
+      Mattila & Kumpulainen 2001 supports this qualitative constituent record.
+      See technical provenance for food form and measurement details.
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    source_url: https://pubmed.ncbi.nlm.nih.gov/10775376/
+    notes: Beef-muscle estimate; cut and preparation affect content.
+    value: 2.5
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-5'
 main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
+substance_relationships:
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beef, ground, 85% lean meat / 15%
+      fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Beef, ground, 85% lean meat / 15%
+      fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Vitamin B2
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B2 in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Vitamin B2
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Vitamin B3
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B3 in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Vitamin B6
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B6 in Beef, ground, 85% lean meat /
+      15% fat, raw (Includes foods for USDA's Food Distribution Program).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+      Distribution Program)
+    source_url: https://fdc.nal.usda.gov/food-details/171796/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Creatine
+    relationship: contains
+    description: Contains creatine; amounts vary with the cut and cooking.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|Creatine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: >-
+      Kulczynski et al. (2019), Characteristics of Selected Antioxidative and
+      Bioactive Compounds in Meat and Animal Origin Products
+    evidence_material: the named meat or fish tissue
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/
+    source_reference: '#food-source-4'
+  - substance: CoQ10
+    relationship: contains
+    description: >-
+      Mattila et al. (2000) analysed CoQ10 in beef steak. This supports
+      beef-tissue presence; a separate amount for this page’s ground-beef
+      preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: beef|CoQ10
+    evidence_source: Mattila, Lehtonen and Kumpulainen (2000), primary abstract, PMID 10775376
+    evidence_material: Studied beef steak; not the ground-beef standard-panel record
+    source_url: https://pubmed.ncbi.nlm.nih.gov/10775376/
+    presence_status: presence_supported_amount_unavailable
+    source_reference: '#food-source-5'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Creatine amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >
+      Retained researched estimate: 400 mg per 100 g. Original note: Approximate
+      creatine content per 100 g cooked beef based on dietary creatine source
+      summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g,
+      with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary
+      sources reviews).
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'CoQ10 amount: preparation and citation check pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained original beef-muscle estimate of 2.5 mg per 100 g. The cited
+      food-composition research supports beef occurrence, while the exact
+      estimate and applicability to ground beef require verification.
+    decision: >-
+      Retain as an estimate in one CoQ10 row; do not duplicate the compound or
+      treat this as a preparation-specific assay.
 ---
 ## Overview
 
@@ -147,3 +356,15 @@ Beef provides the essential amino acids expected from an animal muscle protein.
 [2] Ahn et al. (2007). [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007). Direct cooked-ground-beef experiment; effects depended on the plant extract and formulation tested.
 
 [3] Mattila & Kumpulainen (2001). [Coenzymes Q9 and Q10: Contents in Foods and Dietary Intake](/docs/papers/BRAIN-Diet-References#mattila_coq_foods_2001). HPLC food-composition analysis measured CoQ10 in beef and other foods; beef values varied by tissue and cut.
+
+<span id="food-source-4" />
+
+[4] Kulczyński et al. (2019). [Characteristics of Selected Antioxidative and Bioactive Compounds in Meat and Animal Origin Products](/docs/papers/BRAIN-Diet-References#food_composition_8249db9abe99). Review of bioactive compounds in meat, including creatine; content varies with animal species and tissue.
+
+<span id="food-source-5" />
+
+[5] Mattila et al. (2000). [Comparison of in-line connected diode array and electrochemical detectors in the high-performance liquid chromatographic analysis of coenzymes Q9 and Q10 in food materials](/docs/papers/BRAIN-Diet-References#food_composition_d3a572997731). Analytical study of individual coenzymes Q9 and Q10 in food materials, including beef steak and heart.
+
+<span id="food-source-6" />
+
+[6] USDA (2018). [FoodData Central: Beef, ground, 85% lean meat / 15% fat, raw (FDC 171796)](/docs/papers/BRAIN-Diet-References#food_composition_15cd028d49d5). Composition baseline for raw ground beef containing 15% fat; the bioactive estimates use separate sources.

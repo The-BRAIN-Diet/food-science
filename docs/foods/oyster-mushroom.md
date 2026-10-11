@@ -44,7 +44,7 @@ nutrition_per_100g:
   vitamin_d_ug: 0.7
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushrooms, oyster, raw'
+  food_name: Mushrooms, oyster, raw
   fdc_id: 168580
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -56,10 +56,50 @@ nutrition_supplementary_sources:
   - key: beta_glucans_qual
     label: Beta-Glucans
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Oyster Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
-      records do not quantify β-glucans.
+      Sari et al. (2017), Food Chemistry 216:45–51. Named species identified;
+      enzymatic beta-glucan measurements of fruiting material in Tables 1 and 3.
+      Quantities expressed per dry mass; no fresh-food conversion.
+    public_note: >-
+      Beta-glucans occur in the fruiting body; dry-mass assays are not
+      fresh-food amounts.
+    source_group: mushroom-glucans
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf
+    notes: mushroom fruiting bodies
+    source_reference: '#food-source-2'
+substance_relationships:
+  - substance: Vitamin B3
+    relationship: contains
+    description: USDA FoodData Central reports vitamin B3 in Mushrooms, oyster, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oyster-mushroom|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mushrooms, oyster, raw
+    source_url: https://fdc.nal.usda.gov/food-details/168580/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Beta-Glucans
+    relationship: contains
+    description: >-
+      Beta-glucans occur in the fruiting body; dry-mass assays are not
+      fresh-food amounts.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: oyster-mushroom|Beta-Glucans
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Sari et al. (2017), Food Chemistry 216:45–51
+    evidence_material: mushroom fruiting bodies
+    source_url: >-
+      https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf
+    source_reference: '#food-source-2'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -93,3 +133,11 @@ Within the BRAIN Diet framework, oyster mushrooms are widely cultivated and used
 ## References
 
 [1] Starck et al. (2024). [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024). Food-group mushroom vitamin D evidence; not an oyster-mushroom feeding trial.
+
+<span id="food-source-2" />
+
+[2] [Sari et al. (2017), Food Chemistry 216:45–51](/docs/papers/BRAIN-Diet-References#food_composition_6047947d4ba6)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_207dd4842330)

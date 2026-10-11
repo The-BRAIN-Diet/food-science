@@ -1,8 +1,10 @@
 ---
 id: neuroeshot-roe
-title: Neuroeshot (Roe, Lemon, Hot Sauce)
+title: 'Neuroeshot (Roe, Lemon, Hot Sauce)'
 sidebar_label: Neuroeshot
-description: A small savory shot of roe, lemon juice, and fermented hot sauce for concentrated omega-3s and choline.
+description: >-
+  A small savory shot of roe, lemon juice, and fermented hot sauce for
+  concentrated omega-3s and choline.
 tags:
   - Recipe
   - Snacks
@@ -25,10 +27,9 @@ recipe_ingredients:
     calculation_weight_g: 15
     included_in_default: true
     preparation_state: raw
-    composition_basis: named food-page record (Fish, roe, mixed species, raw; FDC 175132)
+    composition_basis: Composition for the named salmon-roe preparation is not established
     conversion_source: recipe-stated edible grams
-    formulation_note: >-
-      Commercial ikura is brine-cured; the raw roe record understates its sodium.
+    formulation_note: Commercial ikura is brine-cured; composition varies by product.
   - display: 7.5 ml (1½ tsp) lemon juice
     food_slug: null
     quantity: 7.5
@@ -52,7 +53,7 @@ recipe_ingredients:
     composition_basis: >-
       named food-page record (Sauce, ready-to-serve, pepper, TABASCO; FDC
       174528)
-    conversion_source: midpoint of the stated 0.6–1.2 ml, taken at 1.0 g/ml
+    conversion_source: 'midpoint of the stated 0.6–1.2 ml, taken at 1.0 g/ml'
     formulation_note: hot-sauce sodium varies widely by brand
 nutrition_unresolved:
   - key: sodium_mg
@@ -60,10 +61,6 @@ nutrition_unresolved:
       Packaged salmon roe is brine-cured and hot-sauce salting varies by brand.
       Neither is established by the raw USDA records used here, so no sodium
       figure is published for this recipe. Check both product labels.
-nutrition_assumptions:
-  - >-
-    Energy and macronutrients use raw mixed-species roe; a cured commercial ikura
-    differs mainly in salt rather than in energy.
 ---
 <img src="/img/recipes/neuroeshot/neuroeshot_medium.webp" alt="Neuroeshot with roe and lemon" width="480" />
 
@@ -71,7 +68,7 @@ nutrition_assumptions:
 
 Neuroeshot is a one- or two-mouthful appetiser that makes a small serving of salmon roe feel distinctive rather than dutiful. Chilled roe pearls bring salinity, umami and a delicate pop; bright lemon acidity follows, with a brief fermented-chilli finish.
 
-The interest is the density of the roe itself: preformed EPA and DHA in a phospholipid-rich marine food matrix, phosphatidylcholine and total choline, vitamin B12, astaxanthin and high-quality protein in only 15 g. The principal quantified bioactive contribution is approximately 350 mg EPA plus DHA. The named mixed-species USDA record quantifies those fatty acids and total choline, but it does not quantify the fraction of EPA or DHA bound within particular lipid classes.
+This recipe uses a small portion of roe. A preparation-specific composition record for its salmon roe is not established, so nutrient totals are unavailable. Check the product label for sodium and other declared nutrients.
 
 ## Ingredients (1 serving)
 

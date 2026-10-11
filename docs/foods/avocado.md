@@ -56,7 +56,7 @@ omega3_components:
     amount_mg: 111
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Avocados, raw, all commercial varieties'
+  food_name: Avocados, raw, all commercial varieties
   fdc_id: 171705
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -66,6 +66,91 @@ public_display:
 main_image: /img/foods/avocado/avocado_medium.webp
 legacy_list_image: /img/foods/avocado/avocado_thumb.webp
 legacy_main_image: /img/foods/avocado/avocado_medium.webp
+substance_relationships:
+  - substance: Beta-Carotene
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports beta-carotene in Avocados, raw, all
+      commercial varieties.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Avocados, raw, all commercial varieties
+    source_url: https://fdc.nal.usda.gov/food-details/171705/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Oleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports oleic acid in Avocados, raw, all commercial
+      varieties.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado|Oleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Avocados, raw, all commercial varieties
+    source_url: https://fdc.nal.usda.gov/food-details/171705/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Avocados, raw, all commercial
+      varieties.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Avocados, raw, all commercial varieties
+    source_url: https://fdc.nal.usda.gov/food-details/171705/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Vitamin E
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin E in Avocados, raw, all commercial
+      varieties.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: avocado|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Avocados, raw, all commercial varieties
+    source_url: https://fdc.nal.usda.gov/food-details/171705/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-3'
+  - substance: Lutein
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: >-
+      Avocado Consumption Increases Macular Pigment Density in Older Adults
+      (2017)
+    evidence_material: fresh Hass avocado edible flesh
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5622679/
+    description: Reported in fresh Hass avocado edible flesh.
+    source_reference: '#food-source-2'
+substance_review_candidates: []
+nutrition_supplementary_sources:
+  - key: lutein_study_mg
+    label: Lutein
+    value: 0.4
+    unit: mg
+    public_display: table
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    basis: per 100 g fresh edible Hass avocado flesh
+    amount_display: 0.40 mg per 100 g fresh Hass flesh
+    source_group: avocado-lutein
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5622679/
+    public_note: Measured lutein in the fresh Hass avocados used in the 2017 study.
+    source_note: >-
+      Avocado Consumption Increases Macular Pigment Density in Older Adults
+      (2017), methods: measured lutein 0.40 ± 0.01 mg/100 g fresh edible
+      portion. Study-specific mean; no separation of the USDA combined-analyte
+      value.
+    source_reference: '#food-source-2'
 ---
 ## Overview
 
@@ -104,3 +189,11 @@ Within the BRAIN Diet, avocado is a whole-food fat source for salads and mixed d
 ## References
 
 [1] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Adding avocado fruit or avocado oil to salsa or salad increased human absorption of lycopene, α-carotene, β-carotene and lutein versus the same meals without avocado lipid.
+
+<span id="food-source-2" />
+
+[2] [Avocado Consumption Increases Macular Pigment Density in Older Adults (2017)](/docs/papers/BRAIN-Diet-References#food_composition_37a7e0259a1b)
+
+<span id="food-source-3" />
+
+[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_05bc30f00d3a)

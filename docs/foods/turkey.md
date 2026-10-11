@@ -51,13 +51,13 @@ nutrition_per_100g:
   omega3_mg: 10
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 2
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 3
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 5
 nutrition_source:
   database: USDA FoodData Central
@@ -69,6 +69,60 @@ nutrition_source:
 main_image: /img/foods/turkey/turkey_medium.webp
 legacy_list_image: /img/foods/turkey/turkey_thumb.webp
 legacy_main_image: /img/foods/turkey/turkey_medium.webp
+substance_relationships:
+  - substance: Tryptophan
+    relationship: contains
+    description: 'USDA FoodData Central reports tryptophan in Turkey, whole, meat only, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turkey|Tryptophan
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Turkey, whole, meat only, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Selenium
+    relationship: contains
+    description: 'USDA FoodData Central reports selenium in Turkey, whole, meat only, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turkey|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Turkey, whole, meat only, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B12
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B12 in Turkey, whole, meat only,
+      raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turkey|Vitamin B12
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Turkey, whole, meat only, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B3 in Turkey, whole, meat only, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turkey|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Turkey, whole, meat only, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B6 in Turkey, whole, meat only, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: turkey|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Turkey, whole, meat only, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/171480/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

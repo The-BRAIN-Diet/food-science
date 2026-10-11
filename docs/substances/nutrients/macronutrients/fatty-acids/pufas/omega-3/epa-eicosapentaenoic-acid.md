@@ -29,6 +29,12 @@ inchi_image: /img/inchi/JAZBEHYOTPTENJ-RCHUDCCISA-N.png
 
 EPA (eicosapentaenoic acid, 20:5 n-3) is a potent anti-inflammatory omega-3 fatty acid that serves as a precursor to E-series resolvins. It modulates dopamine and serotonin signalling and synergises with DHA while having independent mechanisms. Most research showing brain function improvements leans towards higher ratios of EPA to DHA (e.g., 2:1 ratio), with DHA having a more structural role and EPA with a more functional role.
 
+## Dietary Context
+
+### Food matrix
+
+Fish roe provides EPA alongside phospholipids, protein, vitamins, minerals and antioxidants. This combination makes roe an interesting dietary source: EPA comes within a food matrix whose components may contribute together to its nutritional value.
+
 ## Recipes
 
 <SubstanceRecipes tag="EPA" />

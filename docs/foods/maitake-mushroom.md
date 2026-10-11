@@ -43,7 +43,7 @@ nutrition_per_100g:
   kcal: 31
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushrooms, maitake, raw'
+  food_name: Mushrooms, maitake, raw
   fdc_id: 169403
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -55,10 +55,46 @@ nutrition_supplementary_sources:
   - key: beta_glucans_qual
     label: Beta-Glucans
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Maitake Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
-      records do not quantify β-glucans.
+      Sari et al. (2017), discussion of Grifola frondosa. Discussion
+      specifically identifies beta-glucans in Grifola frondosa; not included as
+      a new measured species value.
+    public_note: Reported in Grifola frondosa mushroom.
+    source_group: maitake-glucans
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: >-
+      https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf
+    notes: Grifola frondosa mushroom
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Vitamin B3
+    relationship: contains
+    description: USDA FoodData Central reports vitamin B3 in Mushrooms, maitake, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: maitake-mushroom|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Mushrooms, maitake, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169403/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Beta-Glucans
+    relationship: contains
+    description: Reported in Grifola frondosa mushroom.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: maitake-mushroom|Beta-Glucans
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Sari et al. (2017), discussion of Grifola frondosa
+    evidence_material: Grifola frondosa mushroom
+    source_url: >-
+      https://prod-media.megazyme.com/media/pdf/25/07/d6/screening-of-beta-glucan-contents-in-commercially-cultivated-and-wild-sari-et-al-2017.pdf
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -94,3 +130,11 @@ Within the BRAIN Diet framework, the mushroom is also valued for its culinary pr
 [1] Maitake supplies beta-glucans and fungal polysaccharides with immune-modulating research interest. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
 
 [2] Beta-glucans from fungi and yeast modulate innate immune signalling pathways. Lacasa et al. 2023. [Yeast Beta-Glucan Supplementation with Multivitamins Attenuates Cognitive Impairments in Individuals with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial](/docs/papers/BRAIN-Diet-References#lacasa_yeast_2023)
+
+<span id="food-source-3" />
+
+[3] [Sari et al. (2017), Food Chemistry 216:45–51](/docs/papers/BRAIN-Diet-References#food_composition_6047947d4ba6)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_d1c5426287b7)

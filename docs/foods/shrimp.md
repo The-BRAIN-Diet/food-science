@@ -44,16 +44,16 @@ nutrition_per_100g:
   omega3_mg: 150
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 70
   - nutrient: epa_mg
-    identity: 20:5 n-3 (EPA)
+    identity: '20:5 n-3 (EPA)'
     amount_mg: 68
   - nutrient: dpa_mg
-    identity: 22:5 n-3 (DPA)
+    identity: '22:5 n-3 (DPA)'
     amount_mg: 6
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
@@ -68,6 +68,36 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/shrimp/shrimp_medium.webp
 legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp
 legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
+substance_relationships:
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Crustaceans, shrimp, mixed
+      species, raw (may contain additives to retain moisture).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: shrimp|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+      moisture)
+    source_url: 'https://fdc.nal.usda.gov/food-details/174210/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Crustaceans, shrimp, mixed species,
+      raw (may contain additives to retain moisture).
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: shrimp|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: >-
+      Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+      moisture)
+    source_url: 'https://fdc.nal.usda.gov/food-details/174210/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

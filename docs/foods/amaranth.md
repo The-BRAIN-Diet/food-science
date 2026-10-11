@@ -2,7 +2,7 @@
 id: amaranth
 title: Amaranth
 sidebar_label: Amaranth
-description: Comparatively lysine-rich pseudograin providing protein, magnesium and iron
+description: 'Comparatively lysine-rich pseudograin providing protein, magnesium and iron'
 tags:
   - Food
   - Amaranth
@@ -45,7 +45,7 @@ nutrition_per_100g:
   omega3_mg: 42
 omega3_components:
   - nutrient: ala_mg
-    identity: 18:3 n-3 (ALA)
+    identity: '18:3 n-3 (ALA)'
     amount_mg: 42
 nutrition_source:
   database: USDA FoodData Central
@@ -78,8 +78,14 @@ nutrition_supplementary_sources:
     source_note: >-
       Jan et al. 2023 review amaranth-seed phytic acid as 2.9–7.9 g/kg (citing
       Thakur et al. 2021). USDA SR Legacy (Amaranth grain, uncooked; FDC 170682)
-      does not quantify phytate. This row records presence, not a per-100 g
-      USDA value.
+      does not quantify phytate. This row records presence, not a per-100 g USDA
+      value.
+    public_note: >-
+      Jan et al. 2023 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Jan et al. 2023 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
   - key: oxalate_qual
     label: Oxalate
     status: Present — quantity not established
@@ -91,6 +97,34 @@ nutrition_supplementary_sources:
       approximately 38% reduction after optimized germination, with an
       approximately 30% reduction in phytic acid. USDA SR Legacy does not
       quantify oxalate. This row records presence, not a per-100 g USDA value.
+    public_note: >-
+      Hejazi et al. 2016 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Hejazi et al. 2016 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Amaranth grain, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: amaranth|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Amaranth grain, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170682/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Amaranth grain, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: amaranth|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Amaranth grain, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170682/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

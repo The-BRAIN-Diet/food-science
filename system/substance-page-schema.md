@@ -6,7 +6,7 @@ Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin n
 
 
 Consolidated schema for BRAIN Diet substance pages (bioactives, metabolites, nutrients).  
-**Worked examples:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (short Highlights page) and `docs/substances/nutrients/micronutrients/minerals/trace/copper.md` (Highlights + Advanced Nutrition + Therapeutic Area Research).
+**Canonical worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (the merged template: practical dietary context, followed by expandable Research Spotlights & Evidence Checks).
 
 Food pages remain under `system/food-page-schema.md`. Substance pages follow the same **reference convention** as food pages.
 
@@ -22,19 +22,19 @@ The default public view is **Nutritional Highlights**. Longer biological researc
 
 ## Body section order (canonical, Nutritional Highlights)
 
-Order matches `astaxanthin.md` — identity, dietary origin and evidence qualification before generated lists:
+Order matches `astaxanthin.md` — identity, practical dietary context and evidence qualification before generated lists:
 
 | # | Section | Heading / component | Required |
 |---|---------|---------------------|----------|
 | 1 | Overview | `## Overview` | Yes |
-| 2 | Dietary Origin | `## Dietary Origin` | Yes |
+| 2 | Dietary Context | `## Dietary Context` | Yes; include supported exposure or formation context |
 | 3 | Research Spotlights & Evidence Checks | `## Research Spotlights & Evidence Checks` | Optional |
-| 4 | Recipes | `## Recipes` + `<SubstanceRecipes tag="…" />` | Yes |
-| 5 | Foods | `## Foods` + `<SubstanceFoods tag="…" />` | Yes |
+| 4 | Foods | `## Foods` + `<SubstanceFoods tag="…" />` | Yes |
+| 5 | Recipes | `## Recipes` + `<SubstanceRecipes tag="…" />` | Yes |
 | 6 | Biological Regulatory Systems | `## Biological Regulatory Systems` + compact BRS table | Yes when a mapping is evidenced |
 | 7 | References | `## References` | Yes (canonical); top five preferred when the evidence base allows it |
 
-`Key Compound Highlights` is no longer a canonical standalone section. Useful material belongs in Overview, Dietary Origin, a Research Spotlight or Evidence Check, or the appropriate advanced evidence view.
+`Key Compound Highlights` is no longer a canonical standalone section. Useful material belongs in Overview, Dietary Context, a Research Spotlight or Evidence Check, or the appropriate advanced evidence view.
 
 When there is **no attributed research** for the isolated substance, keep Overview / Recipes / Foods, do not invent bibliography rows, and do not add a BRS mapping note as a substitute table.
 
@@ -71,7 +71,7 @@ Rules:
 
 ---
 
-## Dietary Origin
+## Dietary Context
 
 Explain how dietary exposure relates to the substance. This is relationship-aware and conditional, not a fixed checklist. Include only relationships supported for the substance:
 
@@ -85,7 +85,7 @@ Explain how dietary exposure relates to the substance. This is relationship-awar
 Direct occurrence and precursor/support relationships are different edges. A food that supplies ellagitannins for microbial Urolithin A production does not contain Urolithin A. A fermentable-fibre food does not contain Butyrate merely because fermentation may produce it.
 
 Where canonical PM/KC dietary-requirement atoms and validated Food-to-input
-relationships exist, Dietary Origin may render them with
+relationships exist, Dietary Context may render them with
 `<DietaryOriginProjection target="…" pmId="…" />`. The component is a
 presentation of those records: nodes are entities, edges are relationships,
 clicks navigate available entities, and hover/disclosure exposes the evidence
@@ -105,6 +105,20 @@ substance_relationships:
 ```
 
 `relationship` is an extensible relationship label, not a closed ontology. Current presentation recognises `dietary-precursor`, `microbial-formation`, `endogenous-formation`, `bioavailability-context`, and `direct-supplemental-exposure`. Do not use `contains` for downstream formation unless direct occurrence is independently evidenced.
+
+---
+
+### Practical dietary interpretation
+
+Keep practical dietary interpretation in this same section, before the evidence panels. It combines the useful food, interaction and exposure distinctions from Copper with Astaxanthin's evidence presentations. Astaxanthin remains the canonical worked example; Copper's full page and research tabs are not the template.
+
+Include only the subsections that have useful, substance-specific evidence:
+
+- **Food sources:** a short description of supported food sources or dietary precursors, with preparation and serving context where relevant. Do not invent a ranking or manually duplicate the generated Foods list. For metabolites, explain precursor supply rather than imply direct containment.
+- **Synergies and interactions:** evidenced effects on absorption, utilisation or regulation. Include antagonistic interactions where relevant. Name the studied exposure and dose context; a combination trial does not establish synergy or isolate each ingredient's contribution. Omit this subsection when no relevant evidence is available.
+- **Supplement versus food:** distinguish ordinary food exposure from isolated, concentrated, extract or combination exposures. Explain relevant limits on translating the cited studies to meals. Do not impose a universal food-first recommendation, supplement protocol or diagnosis-specific advice.
+
+Explain occurrence or formation alongside its practical dietary meaning without repeating the Overview. Do not create a separate Dietary Origin section. Cite scientific claims from the shared References list. These subsections support the evidence panels and do not replace them or introduce a second bibliography. Condition-specific research remains in its own optional tab.
 
 ---
 
@@ -135,7 +149,7 @@ Prefer canonical PM Dietary Requirement relationships where available. Do not cr
 
 - Tag the page with the **BRS hub tag names** used on biological-target documents (`Neurotransmitter Regulation`, `Inflammation & Oxidative Stress`, `Gut-Brain Axis & Enteric Nervous System`, `Metabolic & Neuroendocrine Regulation`, `Methylation & One-Carbon Metabolism`, `Mitochondrial Function & Bioenergetics`).
 - Put matching copy in front-matter `mechanisms:` using those exact keys.
-- Prefer a hand-authored markdown table on Highlights when the mapping is evidenced and cited, as on copper. `<SubstanceMatrix />` is a legacy/fallback renderer for unmigrated pages and may be used only when current hub tags resolve; it is not the future source of truth.
+- Prefer a hand-authored markdown table on Highlights when the mapping is evidenced and cited, as on Astaxanthin. `<SubstanceMatrix />` is a legacy/fallback renderer for unmigrated pages and may be used only when current hub tags resolve; it is not the future source of truth.
 - Do not assign a BRS mapping without bibliography-backed evidence.
 - Longer mechanistic narrative, diagrams and measurement caveats go in **Advanced Nutrition** as overspill of this table, not as a second Highlights section.
 
@@ -148,7 +162,7 @@ Prefer canonical PM Dietary Requirement relationships where available. Do not cr
 3. Composition evidence, bioavailability evidence, intervention evidence and clinical/outcome evidence are distinct relationships.
 4. Translation between Food exposure and isolated/concentrated Substance exposure requires evidence or must remain explicitly inferential.
 
-The relationship-aware Foods presentation may show direct occurrence and precursor/support edges together, but must label the edge. Existing tag-only matches remain a migration fallback and must be identified as such rather than silently strengthening the relationship.
+The Foods list uses canonical relationship records for membership. Each public food card shows only its image, linked food name and one-line food description. Do not add migration status, review labels, relationship arrows, source lists or a second relationship description. Keep evidence and relationship semantics in canonical records and the relevant Dietary Context or evidence notes; keep audit and migration history in internal review records. A plain card does not change the underlying relationship into a Contains claim.
 
 ---
 

@@ -35,21 +35,69 @@ nutrition_supplementary_sources:
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Sunflower lecithin is by definition a phospholipid fraction, and
-      phosphatidylcholine is one of its defining constituents. Presence follows
-      from what the product is, not from a composition record. No analytical
-      source for this material has been established, so no quantity is given.
+      EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive. Table
+      2 separately identifies phosphatidylcholine in sunflower and soybean food
+      lecithins.
+    public_note: >-
+      Contains phosphatidylcholine; the proportion varies with the lecithin
+      product.
+    source_group: lecithin-pc
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742
+    notes: food-grade soybean or sunflower lecithin
+    source_reference: '#food-source-3'
   - key: choline_qual
     label: Choline
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Choline is present as the head group of phosphatidylcholine, so its
-      presence follows from the phospholipid identity of the product. Quantity
-      varies with the lecithin's phospholipid content and is not established
-      here; a manufacturer specification for a named product would settle it.
+      EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive.
+      Phosphatidylcholine in sunflower lecithin contains bound choline; no claim
+      of free choline or equivalent mass of phosphatidylcholine.
+    public_note: >-
+      Provides choline bound in phosphatidylcholine; amounts depend on the
+      product.
+    source_group: lecithin-choline
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    source_url: https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742
+    notes: sunflower food lecithin
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Phosphatidylcholine
+    relationship: contains
+    description: >-
+      Contains phosphatidylcholine; the proportion varies with the lecithin
+      product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-lecithin|Phosphatidylcholine
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive
+    evidence_material: food-grade soybean or sunflower lecithin
+    source_url: https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742
+    source_reference: '#food-source-3'
+  - substance: Choline
+    relationship: contains
+    description: >-
+      Provides choline bound in phosphatidylcholine; amounts depend on the
+      product.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-lecithin|Choline
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive
+    evidence_material: sunflower food lecithin
+    source_url: https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4742
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -81,3 +129,7 @@ Within the BRAIN Diet framework, vegans should ensure adequate choline intake (e
 [1] Sunflower lecithin provides phosphatidylcholine for choline intake in plant-based diets. Derbyshire & Maes 2023. [The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 
 [2] Adequate choline supports neurotransmitter synthesis and membrane integrity. Halder & Lal 2021. [Cholinergic System and Its Therapeutic Importance in Inflammation and Autoimmunity](/docs/papers/BRAIN-Diet-References#halder_cholinergic_2021)
+
+<span id="food-source-3" />
+
+[3] [EFSA (2017), Re-evaluation of lecithins (E 322) as a food additive](/docs/papers/BRAIN-Diet-References#food_composition_831b815cb332)

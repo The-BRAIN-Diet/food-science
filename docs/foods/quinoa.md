@@ -54,7 +54,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 260
 omega3_components:
   - nutrient: dha_mg
-    identity: 22:6 n-3 (DHA)
+    identity: '22:6 n-3 (DHA)'
     amount_mg: 47
 nutrition_source:
   database: USDA FoodData Central
@@ -72,12 +72,18 @@ nutrition_supplementary_sources:
     value: 630
     unit: mg
     amount_display: 630 mg/100 g
-    status: One-sample assay, separate from this page’s nutrient panel
+    status: 'One-sample assay, separate from this page’s nutrient panel'
     source_note: >-
       Patterson et al. (2008), USDA Database for the Choline Content of Common
       Foods, Release 2: quinoa (NDB 20035), 630 mg betaine per 100 g, one
-      sample. This is not the FDC 168874 panel used for the other nutrients
-      on this page.
+      sample. This is not the FDC 168874 panel used for the other nutrients on
+      this page.
+    public_note: >-
+      Patterson et al. (2008) supports this source-specific measurement. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Patterson et al. (2008) supports this source-specific measurement. See
+      technical provenance for food form and measurement details.
 substance_relationships:
   - substance: Betaine
     relationship: contains
@@ -87,8 +93,111 @@ substance_relationships:
       nutrients.
     citation_keys:
       - patterson_choline_2008
+  - substance: Choline
+    relationship: contains
+    description: 'USDA FoodData Central reports choline in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Choline
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B1 in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B2
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B2 in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Vitamin B2
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B6 in Quinoa, uncooked.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Quinoa, uncooked.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: quinoa|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Quinoa, uncooked'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168874/nutrients'
+    presence_status: presence_and_amount_supported
 substance_card_captions:
   Betaine: Occurs directly in quinoa; 630 mg per 100 g in one corrected USDA sample.
+substance_review_candidates: []
 ---
 ## Overview
 

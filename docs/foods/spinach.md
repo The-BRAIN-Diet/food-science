@@ -82,15 +82,30 @@ nutrition_supplementary_sources:
       Dabeek and Marra 2019 compile Phenol-Explorer and USDA flavonoid values
       showing kaempferol in Spinach; a single defensible per-100 g value is not
       taken from the abbreviated USDA nutrient panel.
+    public_note: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Dabeek and Marra 2019 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
   - key: betaine_qual
     label: Betaine
-    status: Measured in frozen spinach, not in this raw panel
+    status: 'Measured in frozen spinach, not in this raw panel'
     amount_display: 110–130 mg/100 g in frozen spinach
     source_note: >-
       Patterson et al. (2008) report 110–130 mg betaine per 100 g in frozen
       spinach (NDB 11464, 11463 and 98013). Release 2 corrected earlier spinach
       estimates that were too high. This page’s raw spinach panel does not
       report betaine.
+    public_note: >-
+      Patterson et al. (2008) report betaine in frozen spinach. This does not
+      supply a quantity for this page’s raw preparation.
+    source_group: >-
+      Patterson et al. (2008) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    notes: >-
+      Presence evidence is for frozen spinach; no raw-spinach amount is
+      established.
 substance_relationships:
   - substance: Kaempferol
     relationship: contains
@@ -107,7 +122,7 @@ substance_relationships:
   - substance: Retinoic acid
     relationship: dietary-precursor
     input: Beta-carotene
-    process: Cleavage to retinal, then oxidation to retinoic acid
+    process: 'Cleavage to retinal, then oxidation to retinoic acid'
     description: >-
       Raw spinach records 5,626 µg beta-carotene and 469 µg RAE vitamin A per
       100 g. The dominant precursor is beta-carotene. The food is not recorded
@@ -115,12 +130,207 @@ substance_relationships:
     citation_keys:
       - harrison_vitamin_a_absorption_2012
       - duester_retinoic_acid_2008
+  - substance: Beta-Carotene
+    relationship: contains
+    description: 'USDA FoodData Central reports beta-carotene in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Calcium
+    relationship: contains
+    description: 'USDA FoodData Central reports calcium in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Calcium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: 'USDA FoodData Central reports potassium in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: 'USDA FoodData Central reports iron in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin A
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin A as retinol activity equivalents in
+      Spinach, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin A
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B1 in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B2
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B2 in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin B2
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B6 in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Spinach, raw.  The recorded
+      analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Spinach, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Spinach, raw.  This vitamin K
+      record is not a vitamin K2 measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Spinach, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/168462/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Sommerburg et al. (1998) identified zeaxanthin in studied spinach leaves
+      (zeaxanthin reported as traces). A separate amount for this page’s
+      preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Zeaxanthin
+    evidence_source: 'Sommerburg et al. (1998), Table 1'
+    evidence_material: Studied spinach leaves (zeaxanthin reported as traces)
+    source_url: 'https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf'
+    presence_status: presence_supported_amount_unavailable
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Sommerburg et al. (1998) identified lutein in studied spinach leaves
+      (zeaxanthin reported as traces). A separate amount for this page’s
+      preparation is not established.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: spinach|Lutein
+    evidence_source: 'Sommerburg et al. (1998), Table 1'
+    evidence_material: Studied spinach leaves (zeaxanthin reported as traces)
+    source_url: 'https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf'
+    presence_status: presence_supported_amount_unavailable
 substance_card_captions:
-  Betaine: Present in spinach. The corrected assay is frozen spinach, 110–130 mg per 100 g, not this raw panel.
+  Betaine: >-
+    Present in spinach. The corrected assay is frozen spinach, 110–130 mg per
+    100 g, not this raw panel.
+substance_review_candidates: []
 ---
 ## Overview
 
-Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids (including lutein and zeaxanthin), nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Within the BRAIN Diet framework, spinach is valued as a high-coverage food supporting multiple Biological Regulatory Systems, including methylation (folate), neurotransmitter regulation (iron and magnesium), mitochondrial and metabolic function (magnesium, nitrate, and antioxidant compounds), and oxidative-stress resilience through its diverse phytonutrient content.
+Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids, nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Lutein has been measured separately in spinach. Zeaxanthin presence is supported as a trace, and a separate zeaxanthin amount is not established; the table reports lutein and zeaxanthin together [4]. Within the BRAIN Diet framework, spinach is valued as a high-coverage food supporting multiple Biological Regulatory Systems, including methylation (folate), neurotransmitter regulation (iron and magnesium), mitochondrial and metabolic function (magnesium, nitrate, and antioxidant compounds), and oxidative-stress resilience through its diverse phytonutrient content.
 
 Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling reduces soluble oxalate far more than steaming and can improve mineral bioavailability, which matters most for people with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content.
 
@@ -154,3 +364,5 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 [2] Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence. Chaiyarit & Thongboonkerd 2020. [Mitochondrial Dysfunction and Kidney Stone Disease](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
 
 [3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.
+
+[4] Sommerburg et al. (1998). [Fruits and vegetables that are sources for lutein and zeaxanthin: the macular pigment in human eyes](/docs/papers/BRAIN-Diet-References#sommerburg_lutein_zeaxanthin_1998). Spinach lutein was 47 mol% of carotenoids, and zeaxanthin in the green vegetables they grouped with spinach was only a trace.

@@ -78,6 +78,13 @@ nutrition_supplementary_sources:
       identified as a spermidine-containing food. The selected USDA panel does
       not quantify this analyte. A comparable product-specific per-100 g value
       is not established here. https://doi.org/10.3390/foods10081752
+    public_note: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Esparza et al. (2021) supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_url: 'https://doi.org/10.3390/foods10081752'
 substance_relationships:
   - substance: Spermidine
     relationship: contains
@@ -86,8 +93,105 @@ substance_relationships:
       concentration varies with the sample and preparation.
     citation_keys:
       - munoz_esparza_food_polyamines_2021
+  - substance: Linoleic Acid
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports linoleic acid in Seeds, sunflower seed
+      kernels, dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports copper in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports manganese in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Selenium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports selenium in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Selenium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B1 in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin E
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin E in Seeds, sunflower seed kernels,
+      dried.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: sunflower-seeds|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Seeds, sunflower seed kernels, dried'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170562/nutrients'
+    presence_status: presence_and_amount_supported
 substance_card_captions:
   Spermidine: Occurs directly in this food; a product-specific amount is not established.
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -2,45 +2,42 @@
 id: duck-fat
 title: Duck Fat
 sidebar_label: Duck Fat
-description: 'Oleic acid, selenium, and palmitoleic acid for cooking'
+description: Oleic acid, selenium, and palmitoleic acid for cooking
 tags:
   - Food
   - Duck Fat
   - Selenium
 list_image: /img/foods/duck-fat/duck-fat_thumb.webp
-nutrition_per_100g:
-  kcal: 136
-  protein_g: 18.74
-  fat_g: 4.64
-  carbs_g: 3.53
-  fibre_g: 0
-  calcium_mg: 11
-  iron_mg: 30.53
-  magnesium_mg: 24
-  potassium_mg: 230
-  zinc_mg: 3.07
-  selenium_ug: 67
-  vitamin_b6_mg: 0.76
-  folate_ug: 738
-  vitamin_b12_ug: 54
-  sat_fat_g: 1.44
-  epa_mg: 0
-  dha_mg: 0
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Duck, domesticated, liver, raw'
-  fdc_id: 174467
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+nutrition_per_100g: {}
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/duck-fat/duck-fat_medium.webp
 legacy_list_image: /img/foods/duck-fat/duck-fat_thumb.webp
 legacy_main_image: /img/foods/duck-fat/duck-fat_medium.webp
+substance_relationships:
+  - substance: Selenium
+    relationship: contains
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: USDA National Nutrient Database, SR28 (2015), NDB 04574 Fat, duck
+    evidence_material: rendered duck fat
+    source_url: >-
+      https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf
+    description: The USDA duck-fat record reports a small amount of selenium.
+    source_reference: '#food-source-3'
+nutrition_unavailable: true
+composition_status: withdrawn
+eaa_profile_applicable: false
+composition_withdrawn:
+  withdrawn_record: FDC 174467, Duck, domesticated, liver, raw
+  identity_failure: 'edible material: liver is not rendered duck fat'
+  reason: The composition record does not identify the named food and preparation.
+  queue: system/specialist-composition-review-queue.md
+substance_review_candidates: []
 ---
 ## Overview
 
-Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
+Duck fat is a culinary fat used for roasting vegetables and pan cooking.
 
 ## Food Context
 
@@ -53,10 +50,6 @@ Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflam
 - Suitable for roasting vegetables and pan cooking
 - Supports MUFA intake
 - Heat-stable cooking fat
-
-### Essential Amino Acid Profile
-
-This food provides a complete essential amino acid profile typical of animal proteins.
 
 ## Recipes
 
@@ -73,3 +66,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 [1] Monounsaturated-rich animal fats such as duck fat fit within MUFA-forward dietary patterns. Schwingshackl & Hoffmann 2014. [Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
 
 [2] Dietary fat quality affects chylomicron formation and absorption of fat-soluble micronutrients. Kindel et al. 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+
+<span id="food-source-3" />
+
+[3] [USDA National Nutrient Database, SR28 (2015), NDB 04574 Fat, duck](/docs/papers/BRAIN-Diet-References#food_composition_7fd3ea86e210)

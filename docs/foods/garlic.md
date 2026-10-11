@@ -2,7 +2,7 @@
 id: garlic
 title: Garlic
 sidebar_label: Garlic
-description: 'Allicin, sulfur compounds, and prebiotic fiber for gut and antioxidant support'
+description: Allicin, sulfur compounds, and prebiotic fiber for gut and antioxidant support
 tags:
   - Food
   - Garlic
@@ -47,7 +47,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 20
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Garlic, raw'
+  food_name: Garlic, raw
   fdc_id: 169230
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -60,11 +60,48 @@ nutrition_supplementary_sources:
   - key: allicin_qual
     label: Allicin
     status: Present — quantity not established
-    amount_display: Present — quantity not established
+    amount_display: Present
     source_note: >-
-      Allicin is generated from alliin when Garlic is crushed; it is not a
-      stable USDA composition analyte. Presence is preparation-dependent
-      (Borlinghaus et al. 2014).
+      Functionality of garlic sulfur compounds (Review, 2025). Alliinase
+      produces allicin from alliin when raw garlic tissue is disrupted; heating
+      changes enzyme activity and products.
+    public_note: >-
+      Allicin forms when raw garlic is crushed or chopped; heating changes its
+      content.
+    source_group: garlic-allicin
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/
+    notes: fresh garlic after crushing or chopping
+    source_reference: '#food-source-3'
+substance_relationships:
+  - substance: Manganese
+    relationship: contains
+    description: USDA FoodData Central reports manganese in Garlic, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: garlic|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Garlic, raw
+    source_url: https://fdc.nal.usda.gov/food-details/169230/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-4'
+  - substance: Allicin
+    relationship: contains
+    description: >-
+      Allicin forms when raw garlic is crushed or chopped; heating changes its
+      content.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: garlic|Allicin
+    presence_status: product_or_preparation_dependent
+    evidence_source: Functionality of garlic sulfur compounds (Review, 2025)
+    evidence_material: fresh garlic after crushing or chopping
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12150274/
+    source_reference: '#food-source-3'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -104,3 +141,11 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 [1] Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016). Randomized trial of a garlic-and-lemon juice mixture in moderate hyperlipidaemia; mixed-food intervention, not garlic alone.
 
 [2] Borlinghaus et al. 2014. [Allicin chemistry and biological properties review](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014). Constituent-level review of allicin chemistry, not a garlic-food feeding trial.
+
+<span id="food-source-3" />
+
+[3] [Functionality of garlic sulfur compounds (Review, 2025)](/docs/papers/BRAIN-Diet-References#food_composition_7452fbc2e72c)
+
+<span id="food-source-4" />
+
+[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_59cd92bd1848)

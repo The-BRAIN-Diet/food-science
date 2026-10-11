@@ -26,7 +26,7 @@ Urolithin A is a microbial metabolite formed when suitable gut organisms convert
 
 Research on mitophagy and mitochondrial resilience includes preclinical work and direct supplemental Urolithin A exposure. A human trial showed that oral Urolithin A can produce a molecular signature consistent with mitochondrial response, but this does not establish that precursor foods reliably reproduce the tested exposure [1,2]. Disease and cognition claims remain exposure- and model-dependent [3].
 
-## Dietary Origin
+## Dietary Context
 
 The canonical dietary path is `Pomegranate or another ellagitannin source → provides ellagitannins/ellagic acid → microbial conversion → Urolithin A`. It is not `Pomegranate → contains → Urolithin A`. Producer status depends on microbial capacity, substrate exposure and host context.
 
@@ -56,13 +56,13 @@ The Food relationship is explicitly recorded as a dietary-precursor edge. Pomegr
 
 </EvidencePresentation>
 
-## Recipes
-
-<SubstanceRecipes tag="Urolithin A" />
-
 ## Foods
 
 <SubstanceFoods tag="Urolithin A" />
+
+## Recipes
+
+<SubstanceRecipes tag="Urolithin A" />
 
 ## Biological Regulatory Systems
 

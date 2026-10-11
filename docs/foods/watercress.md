@@ -2,7 +2,7 @@
 id: watercress
 title: Watercress
 sidebar_label: Watercress
-description: Peppery brassica salad leaf providing vitamin C, vitamin K and carotenoids
+description: 'Peppery brassica salad leaf providing vitamin C, vitamin K and carotenoids'
 tags:
   - Food
   - Watercress
@@ -63,12 +63,86 @@ nutrition_supplementary_sources:
     source_note: >-
       Watercress forms isothiocyanates from glucosinolates after myrosinase
       action. Human conversion is higher from uncooked than from boiled
-      watercress (Getahun & Chung 1999). A single defensible per-100 g
-      quantity is not taken here.
+      watercress (Getahun & Chung 1999). A single defensible per-100 g quantity
+      is not taken here.
+    public_note: >-
+      Getahun & Chung 1999 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Getahun & Chung 1999 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+substance_relationships:
+  - substance: Beta-Carotene
+    relationship: contains
+    description: 'USDA FoodData Central reports beta-carotene in Watercress, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watercress|Beta-Carotene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Watercress, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170068/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin C in Watercress, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watercress|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Watercress, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170068/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin K
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin K in Watercress, raw.  This vitamin
+      K record is not a vitamin K2 measurement.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watercress|Vitamin K
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Watercress, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170068/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Lutein
+    relationship: contains
+    description: >-
+      Kopsell et al. (2007) identified lutein in watercress shoot tissue
+      (nasturtium officinale). A separate amount for this page’s preparation is
+      not established.
+    source_url: 'https://pubmed.ncbi.nlm.nih.gov/18052091/'
+    evidence_note: >-
+      Primary study abstract identifies lutein and zeaxanthin tissue responses
+      in nutrient-solution-grown watercress; DOI 10.1021/jf072793f. No universal
+      serving quantity inferred.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watercress|Lutein
+    evidence_source: 'Kopsell et al. (2007), primary abstract'
+    evidence_material: Watercress shoot tissue (Nasturtium officinale)
+    presence_status: presence_supported_amount_unavailable
+  - substance: Zeaxanthin
+    relationship: contains
+    description: >-
+      Kopsell et al. (2007) identified zeaxanthin in watercress shoot tissue
+      (nasturtium officinale). A separate amount for this page’s preparation is
+      not established.
+    source_url: 'https://pubmed.ncbi.nlm.nih.gov/18052091/'
+    evidence_note: >-
+      Primary study abstract identifies lutein and zeaxanthin tissue responses
+      in nutrient-solution-grown watercress; DOI 10.1021/jf072793f. No universal
+      serving quantity inferred.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: watercress|Zeaxanthin
+    evidence_source: 'Kopsell et al. (2007), primary abstract'
+    evidence_material: Watercress shoot tissue (Nasturtium officinale)
+    presence_status: presence_supported_amount_unavailable
+substance_review_candidates: []
 ---
 ## Overview
 
-Watercress is a peppery brassica salad leaf providing **vitamin C**, **vitamin K**, and carotenoids including **lutein**, **zeaxanthin** and **beta-carotene**. It also forms **isothiocyanates** from glucosinolates when the leaf is chewed or otherwise disrupted [1].
+Watercress is a peppery brassica salad leaf providing **vitamin C**, **vitamin K**, and **beta-carotene**. The composition table reports lutein and zeaxanthin together; a separate zeaxanthin amount is not established. It also forms **isothiocyanates** from glucosinolates when the leaf is chewed or otherwise disrupted [1].
 
 Within a BRAIN-aligned pattern it adds crucifer diversity to mixed salads rather than acting as a concentrated isothiocyanate supplement. Eating it raw preserves plant myrosinase; boiling reduces conversion [1]. Dietary fat in the same meal supports carotenoid absorption [2].
 

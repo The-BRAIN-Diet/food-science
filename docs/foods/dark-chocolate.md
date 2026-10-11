@@ -58,7 +58,7 @@ omega3_components:
     amount_mg: 34
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Chocolate, dark, 70-85% cacao solids'
+  food_name: Chocolate, dark, 70-85% cacao solids
   fdc_id: 170273
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -66,30 +66,71 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: epicatechin_mg
     label: Epicatechin
-    value: 70.4
-    unit: mg
     notes: Often the dominant monomeric cocoa flavanol in dark chocolate.
     source_note: >-
       Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
       mg/100 g (mean ~70.4 mg/100 g).
+    public_note: >-
+      Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
+      mg/100 g (mean ~70.4 mg/100 g).
+    source_group: estimate-epicatechin_mg
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 70.4 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    value: 70.4
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-5'
   - key: catechin_mg
     label: Catechin
-    value: 20.5
-    unit: mg
     notes: Present alongside epicatechin; typically lower than epicatechin.
     source_note: >-
       Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g
       (mean ~20.5 mg/100 g).
+    public_note: >-
+      Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g
+      (mean ~20.5 mg/100 g).
+    source_group: estimate-catechin_mg
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 20.5 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    value: 20.5
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-5'
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
-    value: 138.4
-    unit: mg
     notes: Oligomeric flavanols; fraction varies with cocoa % and processing.
     source_note: >-
       Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate
       (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a
       representative oligomeric procyanidin proxy; values vary strongly with
       cocoa percentage and processing).
+    status: Present — quantity not established
+    public_display: table
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    amount_display: 138.4 mg (estimate)
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_group: estimate-oligomeric_procyanidins_mg
+    public_note: >-
+      Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate
+      (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a
+      representative oligomeric procyanidin proxy; values vary strongly with
+      cocoa percentage and processing).
+    value: 138.4
+    unit: mg
+    quantity_citation_pending: true
+    source_reference: '#food-source-5'
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
     label: Total polyphenols (Folin-type)
@@ -101,6 +142,116 @@ complementary_pairings: Grains and legumes for balanced essential amino acid pro
 main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 legacy_list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp
 legacy_main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Chocolate, dark, 70-85% cacao
+      solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Chocolate, dark, 70-85% cacao solids
+    source_url: https://fdc.nal.usda.gov/food-details/170273/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Chocolate, dark, 70-85% cacao
+      solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Chocolate, dark, 70-85% cacao solids
+    source_url: https://fdc.nal.usda.gov/food-details/170273/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Chocolate, dark, 70-85% cacao
+      solids.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Chocolate, dark, 70-85% cacao solids
+    source_url: https://fdc.nal.usda.gov/food-details/170273/nutrients
+    presence_status: presence_and_amount_supported
+    source_reference: '#food-source-6'
+  - substance: Epicatechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Epicatechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-5'
+  - substance: Catechin
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Catechin
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-5'
+  - substance: Oligomeric Procyanidins
+    relationship: contains
+    description: Occurs in cocoa; content varies with processing and the cocoa proportion.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: dark-chocolate|Oligomeric Procyanidins
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease
+    evidence_material: cocoa beans and cocoa products
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4696435/
+    source_reference: '#food-source-5'
+substance_review_candidates: []
+nutrition_value_reviews:
+  - title: 'Epicatechin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 70.4 mg per 100 g. Original note:
+      Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
+      mg/100 g (mean ~70.4 mg/100 g).
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'Catechin amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 20.5 mg per 100 g. Original note:
+      Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g
+      (mean ~20.5 mg/100 g).
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
+  - title: 'Oligomeric Procyanidins amount: citation attachment pending'
+    section: Bioactive compounds
+    correction_status: pending
+    description: >-
+      Retained researched estimate: 138.4 mg per 100 g. Original note:
+      Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate
+      (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a
+      representative oligomeric procyanidin proxy; values vary strongly with
+      cocoa percentage and processing).
+    decision: >-
+      Retain the estimate while attaching its quantitative source and verifying
+      preparation and denominator. Presence citations do not independently
+      verify this amount.
 ---
 ## Overview
 
@@ -134,3 +285,11 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 [3] Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake. Hands & Anderson 2024. [Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 
 [4] Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality. Godebo & Stoner 2024. [Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context)](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+
+<span id="food-source-5" />
+
+[5] [Katz et al. (2011), Cocoa and Chocolate in Human Health and Disease](/docs/papers/BRAIN-Diet-References#food_composition_12a9ef0926ab)
+
+<span id="food-source-6" />
+
+[6] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_f1b1897fedaa)

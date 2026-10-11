@@ -29,6 +29,8 @@ Lutein is a carotenoid pigment found in dark green leafy vegetables, egg yolks, 
 
 ## Foods
 
+A linked food is shown when a cited assay measured lutein itself. The composition figure labelled lutein plus zeaxanthin is the combined analyte, not a lutein amount.
+
 <SubstanceFoods tag="Lutein" />
 
 ## Biological Mechanisms and Implications

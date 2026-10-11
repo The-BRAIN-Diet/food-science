@@ -1,0 +1,262 @@
+[
+  {
+    "food": "duck-fat",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Duck, domesticated, liver, raw",
+      "fdc_id": 174467,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 136,
+      "protein_g": 18.74,
+      "fat_g": 4.64,
+      "carbs_g": 3.53,
+      "fibre_g": 0,
+      "calcium_mg": 11,
+      "iron_mg": 30.53,
+      "magnesium_mg": 24,
+      "potassium_mg": 230,
+      "zinc_mg": 3.07,
+      "selenium_ug": 67,
+      "vitamin_b6_mg": 0.76,
+      "folate_ug": 738,
+      "vitamin_b12_ug": 54,
+      "sat_fat_g": 1.44,
+      "epa_mg": 0,
+      "dha_mg": 0
+    },
+    "reason": "edible material: liver is not rendered duck fat"
+  },
+  {
+    "food": "dark-meat-poultry",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Bologna, meat and poultry",
+      "fdc_id": 171637,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 281,
+      "protein_g": 10.34,
+      "fat_g": 23.77,
+      "carbs_g": 6.31,
+      "fibre_g": 0,
+      "ala_mg": 205,
+      "calcium_mg": 125,
+      "iron_mg": 1.24,
+      "magnesium_mg": 15,
+      "potassium_mg": 320,
+      "zinc_mg": 1.06,
+      "selenium_ug": 14.4,
+      "vitamin_b6_mg": 0.193,
+      "folate_ug": 7,
+      "choline_mg": 59.3,
+      "vitamin_b12_ug": 0,
+      "sat_fat_g": 7.389,
+      "epa_mg": 3,
+      "dha_mg": 6,
+      "omega3_mg": 239
+    },
+    "reason": "product: bologna is not poultry muscle"
+  },
+  {
+    "food": "chicory-root",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Chicory greens, raw",
+      "fdc_id": 169992,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 23,
+      "protein_g": 1.7,
+      "fat_g": 0.3,
+      "carbs_g": 4.7,
+      "fibre_g": 4,
+      "calcium_mg": 100,
+      "iron_mg": 0.9,
+      "magnesium_mg": 30,
+      "potassium_mg": 420,
+      "zinc_mg": 0.42,
+      "selenium_ug": 0.3,
+      "vitamin_b6_mg": 0.105,
+      "folate_ug": 110,
+      "choline_mg": 12.8,
+      "vitamin_b12_ug": 0,
+      "sat_fat_g": 0.073,
+      "epa_mg": 0,
+      "dha_mg": 0,
+      "pufa_18_3_unresolved_mg": 19
+    },
+    "reason": "edible material: greens are not root"
+  },
+  {
+    "food": "lemon-balm-tea",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Lemon juice from concentrate, bottled, REAL LEMON",
+      "fdc_id": 167802,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 17,
+      "protein_g": 0.47,
+      "fat_g": 0.07,
+      "carbs_g": 5.66,
+      "fibre_g": 0.7,
+      "ala_mg": 6,
+      "calcium_mg": 9,
+      "iron_mg": 0.06,
+      "magnesium_mg": 6,
+      "potassium_mg": 109,
+      "zinc_mg": 0.23,
+      "vitamin_b6_mg": 0.037,
+      "folate_ug": 11,
+      "sat_fat_g": 0.027,
+      "epa_mg": 0,
+      "dha_mg": 0,
+      "omega3_mg": 6
+    },
+    "reason": "species and product: lemon juice is not Melissa officinalis infusion"
+  },
+  {
+    "food": "fermented-vegetables",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Tofu, salted and fermented (fuyu)",
+      "fdc_id": 174280,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 116,
+      "protein_g": 8.92,
+      "fat_g": 8,
+      "carbs_g": 4.38,
+      "calcium_mg": 46,
+      "iron_mg": 1.98,
+      "magnesium_mg": 52,
+      "potassium_mg": 75,
+      "zinc_mg": 1.56,
+      "selenium_ug": 17.3,
+      "vitamin_b6_mg": 0.091,
+      "folate_ug": 29,
+      "vitamin_b12_ug": 0,
+      "sat_fat_g": 1.157,
+      "pufa_18_3_unresolved_mg": 534
+    },
+    "reason": "product: fermented tofu is not fermented vegetables"
+  },
+  {
+    "food": "fortified-plant-milks",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Yogurt, chocolate, nonfat milk, fortified with vitamin D",
+      "fdc_id": 172221,
+      "retrieval_method": "API",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 112,
+      "protein_g": 3.53,
+      "fat_g": 0,
+      "carbs_g": 23.53,
+      "fibre_g": 1.2,
+      "calcium_mg": 88,
+      "iron_mg": 0.42,
+      "magnesium_mg": 40,
+      "potassium_mg": 339,
+      "zinc_mg": 1.13,
+      "selenium_ug": 7,
+      "vitamin_b6_mg": 0.047,
+      "folate_ug": 12,
+      "choline_mg": 15.2,
+      "vitamin_b12_ug": 0,
+      "sat_fat_g": 0,
+      "epa_mg": 0,
+      "dha_mg": 0
+    },
+    "reason": "species and product: dairy chocolate yogurt is not plant milk"
+  },
+  {
+    "food": "salmon-roe",
+    "source": {
+      "database": "USDA FoodData Central",
+      "food_name": "Fish, roe, mixed species, raw (FDC 175132) — raw mixed-species roe, not commercial cured ikura.",
+      "fdc_id": 175132,
+      "retrieval_method": "USDA SR Legacy composition record",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-08-18",
+      "note": "The USDA sodium value is for raw mixed-species roe. Do not treat it as the sodium content of packaged, brine-cured ikura."
+    },
+    "values": {
+      "kcal": 143,
+      "protein_g": 22.32,
+      "fat_g": 6.42,
+      "carbs_g": 1.5,
+      "fibre_g": 0,
+      "calcium_mg": 22,
+      "iron_mg": 0.6,
+      "magnesium_mg": 20,
+      "potassium_mg": 221,
+      "sodium_mg": 91,
+      "zinc_mg": 1,
+      "selenium_ug": 40.3,
+      "vitamin_b6_mg": 0.16,
+      "folate_ug": 80,
+      "choline_mg": 335.4,
+      "vitamin_b12_ug": 10,
+      "sat_fat_g": 1.456,
+      "epa_mg": 983,
+      "dha_mg": 1363,
+      "omega3_mg": 2428,
+      "pufa_18_3_unresolved_mg": 6
+    },
+    "reason": "species: mixed-species roe does not establish salmon-specific composition"
+  },
+  {
+    "food": "trout-roe",
+    "source": {
+      "database": "USDA FoodData Central (proxy)",
+      "food_name": "Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132).",
+      "fdc_id": 175132,
+      "retrieval_method": "USDA SR Legacy composition record",
+      "basis": "per 100 g edible portion",
+      "last_checked": "2026-03-14"
+    },
+    "values": {
+      "kcal": 143,
+      "protein_g": 22.32,
+      "fat_g": 6.42,
+      "carbs_g": 1.5,
+      "fibre_g": 0,
+      "calcium_mg": 22,
+      "iron_mg": 0.6,
+      "magnesium_mg": 20,
+      "potassium_mg": 221,
+      "zinc_mg": 1,
+      "selenium_ug": 40.3,
+      "vitamin_b6_mg": 0.16,
+      "folate_ug": 80,
+      "choline_mg": 335.4,
+      "vitamin_b12_ug": 10,
+      "sat_fat_g": 1.456,
+      "epa_mg": 983,
+      "dha_mg": 1363,
+      "omega3_mg": 2428,
+      "pufa_18_3_unresolved_mg": 6
+    },
+    "reason": "species: mixed-species roe does not establish trout-specific composition"
+  }
+]

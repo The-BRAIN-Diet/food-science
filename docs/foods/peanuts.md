@@ -61,6 +61,110 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/peanuts/peanuts_medium.webp
 legacy_list_image: /img/foods/peanuts/peanuts_thumb.webp
 legacy_main_image: /img/foods/peanuts/peanuts_medium.webp
+substance_relationships:
+  - substance: Linoleic Acid
+    relationship: contains
+    description: 'USDA FoodData Central reports linoleic acid in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Linoleic Acid
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Magnesium
+    relationship: contains
+    description: 'USDA FoodData Central reports magnesium in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: 'USDA FoodData Central reports phosphorus in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: 'USDA FoodData Central reports copper in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: 'USDA FoodData Central reports manganese in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: 'USDA FoodData Central reports zinc in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B1 in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B3
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin B3 in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Vitamin B3
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Peanuts, all types, raw.  The
+      recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin E
+    relationship: contains
+    description: 'USDA FoodData Central reports vitamin E in Peanuts, all types, raw.'
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: peanuts|Vitamin E
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Peanuts, all types, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/172430/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

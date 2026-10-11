@@ -29,6 +29,8 @@ Zeaxanthin is a carotenoid pigment found in dark green leafy vegetables, corn, e
 
 ## Foods
 
+Linked foods have evidence for zeaxanthin itself; each source note identifies the studied material. A measurement of lutein plus zeaxanthin is a combined amount and does not establish either constituent individually.
+
 <SubstanceFoods tag="Zeaxanthin" />
 
 ## Biological Mechanisms and Implications

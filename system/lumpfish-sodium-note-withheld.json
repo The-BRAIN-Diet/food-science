@@ -1,0 +1,10 @@
+{
+  "key": "sodium_mg_note",
+  "label": "Sodium (salted product)",
+  "amount_display": "Very high (often thousands of mg per 100 g)",
+  "notes": "Retail lumpfish roe is heavily salted; sodium dominates the risk–benefit trade-off vs fresh roe.",
+  "source_note": "Not shown as a standard NutritionTable row yet; check the label for your brand. Values often exceed ordinary daily sodium targets if eaten in large amounts.",
+  "status": "Present — quantity not established",
+  "public_note": "Not shown as a standard NutritionTable row yet; check the label for your brand.",
+  "source_group": "Not shown as a standard NutritionTable row yet; check the label for your brand."
+}

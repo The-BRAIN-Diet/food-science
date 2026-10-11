@@ -2,7 +2,9 @@
 id: aubergine
 title: Aubergine
 sidebar_label: Aubergine
-description: Fibre-containing vegetable with chlorogenic acid and nasunin in its purple skin
+description: >-
+  Fibre-containing vegetable with chlorogenic acid and nasunin in its purple
+  skin
 tags:
   - Food
   - Aubergine
@@ -45,7 +47,7 @@ nutrition_per_100g:
   pufa_18_3_unresolved_mg: 13
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Eggplant, raw'
+  food_name: Eggplant, raw
   fdc_id: 169228
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
@@ -57,31 +59,56 @@ nutrition_supplementary_sources:
   - key: delphinidin_glycosides_nasunin
     label: Delphinidin
     status: Present as glycosides (nasunin) — quantity not established
-    amount_display: Present as glycosides (nasunin) — quantity not established
-    notes: >-
-      Parent aglycone; present principally as glycosides including nasunin.
+    amount_display: Present as glycosides (nasunin)
+    notes: Parent aglycone; present principally as glycosides including nasunin.
     source_note: >-
-      Noda et al. 2000 isolated nasunin
-      (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside) as purple crystals
-      from eggplant peels. USDA SR Legacy does not quantify nasunin or free
-      delphinidin. The Delphinidin card is a parent/aglycone ontology link, not
-      a claim that free delphinidin is the principal pigment. Nasunin is an
-      anthocyanin glycoside, not a fat-soluble carotenoid.
+      Noda et al. 2000: nasunin identified as a delphinidin glycoside in
+      eggplant peel. The Phenolics of Black and Purple versus White Eggplant
+      Cultivars (2022). Primary analysis identifies delphinidin glycosides in
+      black/purple edible peel; flesh and white varieties are not given the peel
+      concentration. Nasunin is a delphinidin glycoside, not a fat-soluble
+      carotenoid.
+    public_note: Delphinidin glycosides occur mainly in purple or black aubergine skin.
+    source_group: eggplant-delphinidin
+    public_display: internal-only
+    omit_substance_card: false
+    evidence_status: supported
+    presence_status: product_or_preparation_dependent
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9030419/
+    source_reference: '#food-source-4'
   - key: chlorogenic_acid_qual
     label: Chlorogenic Acid
     status: Present — quantity not established
     amount_display: Present — quantity not established
     public_display: table
-    notes: >-
-      Major phenolic of the flesh, including white cultivars without nasunin.
+    notes: Major phenolic of the flesh, including white cultivars without nasunin.
     source_note: >-
       Plazas et al. 2013 identify chlorogenic acid (5-O-caffeoylquinic acid) as
       typically 80–95% of hydroxycinnamic acids in eggplant flesh. USDA SR
       Legacy (Eggplant, raw; FDC 169228) does not quantify chlorogenic acid.
       Cultivar and cooking ranges are too wide for a single per-100 g USDA-style
       number. This row records presence, not a Substances card.
+    public_note: >-
+      Plazas et al. 2013 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
+    source_group: >-
+      Plazas et al. 2013 supports this qualitative constituent record. See
+      technical provenance for food form and measurement details.
 substance_card_captions:
   Delphinidin: Parent aglycone; present principally as glycosides including nasunin.
+substance_relationships:
+  - substance: Delphinidin
+    relationship: contains
+    description: Delphinidin glycosides occur mainly in purple or black aubergine skin.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: aubergine|Delphinidin
+    presence_status: product_or_preparation_dependent
+    evidence_source: The Phenolics of Black and Purple versus White Eggplant Cultivars (2022)
+    evidence_material: purple or black aubergine peel
+    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9030419/
+    source_reference: '#food-source-4'
+substance_review_candidates: []
 ---
 ## Overview
 
@@ -125,3 +152,7 @@ Within the BRAIN Diet, aubergine adds fibre and polyphenol variety. Cultivar and
 [2] Plazas et al. (2013). [Breeding for Chlorogenic Acid Content in Eggplant: Interest and Prospects](/docs/papers/BRAIN-Diet-References#plazas_eggplant_cga_2013). Chlorogenic acid (5-O-caffeoylquinic acid) is typically 80–95% of hydroxycinnamic acids in eggplant flesh, including cultivars without purple-peel nasunin; not a USDA per-100 g quantity.
 
 [3] Zaro et al. (2015). [Chlorogenic acid retention in white and purple eggplant after processing and cooking](/docs/papers/BRAIN-Diet-References#zaro_eggplant_cga_cooking_2015). White Cloud Nine and purple Lucia fruit differed in pulp chlorogenic acid; wet cooking increased extractability, while hot-air and sun-drying almost depleted it.
+
+<span id="food-source-4" />
+
+[4] [The Phenolics of Black and Purple versus White Eggplant Cultivars (2022)](/docs/papers/BRAIN-Diet-References#food_composition_deef1410143a)

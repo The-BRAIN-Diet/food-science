@@ -63,6 +63,128 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/chickpeas/chickpeas_medium.webp
 legacy_list_image: /img/foods/chickpeas/chickpeas_thumb.webp
 legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Phosphorus
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports phosphorus in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Phosphorus
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Copper
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports copper in Chickpeas (garbanzo beans, bengal
+      gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Copper
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Chickpeas (garbanzo beans, bengal
+      gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Manganese
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports manganese in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Manganese
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Zinc
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports zinc in Chickpeas (garbanzo beans, bengal
+      gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Zinc
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B1
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B1 in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Vitamin B1
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B6
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin B6 in Chickpeas (garbanzo beans,
+      bengal gram), mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Vitamin B6
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Chickpeas (garbanzo beans, bengal
+      gram), mature seeds, raw.  The recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: chickpeas|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

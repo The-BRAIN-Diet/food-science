@@ -55,6 +55,44 @@ nutrition_source:
 main_image: /img/foods/tomatoes/tomatoes_medium.webp
 legacy_list_image: /img/foods/tomatoes/tomatoes_thumb.webp
 legacy_main_image: /img/foods/tomatoes/tomatoes_medium.webp
+substance_relationships:
+  - substance: Lycopene
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports lycopene in Tomatoes, red, ripe, raw, year
+      round average.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tomatoes|Lycopene
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Tomatoes, red, ripe, raw, year round average'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170457/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Potassium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports potassium in Tomatoes, red, ripe, raw, year
+      round average.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tomatoes|Potassium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Tomatoes, red, ripe, raw, year round average'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170457/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin C
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports vitamin C in Tomatoes, red, ripe, raw, year
+      round average.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: tomatoes|Vitamin C
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Tomatoes, red, ripe, raw, year round average'
+    source_url: 'https://fdc.nal.usda.gov/food-details/170457/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 

@@ -55,6 +55,44 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 legacy_list_image: /img/foods/kidney-beans/kidney-beans_thumb.webp
 legacy_main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
+substance_relationships:
+  - substance: Magnesium
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports magnesium in Beans, kidney, all types,
+      mature seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: kidney-beans|Magnesium
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, kidney, all types, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175193/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Iron
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports iron in Beans, kidney, all types, mature
+      seeds, raw.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: kidney-beans|Iron
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, kidney, all types, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175193/nutrients'
+    presence_status: presence_and_amount_supported
+  - substance: Vitamin B9
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports folate in Beans, kidney, all types, mature
+      seeds, raw.  The recorded analyte is folate.
+    recovery_origin: legacy-tag-migration
+    evidence_status: supported
+    recovery_audit: kidney-beans|Vitamin B9
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: 'Beans, kidney, all types, mature seeds, raw'
+    source_url: 'https://fdc.nal.usda.gov/food-details/175193/nutrients'
+    presence_status: presence_and_amount_supported
+substance_review_candidates: []
 ---
 ## Overview
 
