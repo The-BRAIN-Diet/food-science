@@ -64,3 +64,33 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+## Preparation and relationship filters for the BRS1 review index
+
+The initial preparation selection is **All preparations**. Include all eligible verified per-100 g observations with their source-specific preparation and measurement basis. Preserve multiple observations; do not average or merge incompatible states. Mixed preparations/bases and overlapping ranges use alphabetical display, not a precise cross-state ranking. A preparation filter narrows food observations, not scientific admissions. The main preview has at most ten material/preparation sources; do not place quantified cooked or dried records in qualitative sources solely because another state has more records.
+
+Ownership is a PM–input relationship property. Initial independent checkboxes select both **PM-owned dietary relationships** (accepted A relationships with Dietary input Yes) and **Upstream/shared relationships** (accepted B/C dietary supply references plus D pool references). D remains a pool reference, not a nutrient amount. Filter relationships first, then generate all three views and visible relationship/substance/food/pool counts from the selected connections. Each remaining substance and food must have a selected dietary relationship. Neither selected yields empty dietary views. Retain unique constituent amounts regardless of reach.
+
+Display each relationship’s designation beside its PM/section connection. Do not label a substance globally as owned or upstream. No/unset biological context remains in a separate disclosure independent of these checkboxes. Dietary Yes with an incompatible/missing accounting designation is explicitly unresolved there; do not infer a category. Search applies within the projected view and reports matching rows separately from relationship-selection totals.
+
+
+## Scoped generator runs
+
+Run `npm run mappings:brs1` or `npm run mappings:brs2`. Outputs are reproducible under `system/generated/<brs>-input-substance-food/`. Each run reads PM admissions from that BRS and only explicit external dependencies. Missing `dietary_input` values remain unset and are reported; a generator run does not perform scientific admission or populate supply decisions by inference. BRS2 generation does not enable PM food disclosures or publish a new review route.
+
+
+The review has a single-selection BRS 1–6 button group, initially BRS1. Switching BRS resets preparation to All preparations and pagination while retaining relationship checkbox choices. BRS2 consumes the same generated dataset; generated `src/data/brs2InputMapping.generated.json` is a read-only fallback for existing preview sessions until the plugin reloads. Live plugin data takes precedence. Never hand-edit this snapshot; `npm run mappings:brs2` refreshes it. BRS3–6 display not-generated status without borrowing BRS1 data or implying no scientific relationships exist. Unset dietary flags remain visible as inventory/context, not admitted food supplies.
+
+
+BRS3–6 generator commands are `npm run mappings:brs3` through `npm run mappings:brs6`; they refresh the corresponding review snapshots and selector datasets exactly as for BRS2. Generation preserves unset dietary decisions, missing projections and conflicting canonical identities. Counts report admitted structured relationships only; narrative-only and unprojected records are explicit coverage gaps, not invented food mappings.
+
+
+Pending dietary decisions and biological context use the same four substance-review columns as admitted mappings across BRS1–6: Section ID / relationship accounting, Substance, Up to ten quantified sources, and Other supported sources. Group context by canonical substance identity, retaining all PM relationships and accepted limitations. Unknown identities remain explicit inputs. Auto-open this separate context table when the selected main view has no rows, so an incomplete migration does not look like an empty inventory. Unset/No/ambiguous accounting still never admits food supplies, and dietary filters continue to affect only resolved admitted relationships.
+
+
+For independently admitted food-related SOPs, follow `system/food-strategy-rollup-schema.md`. Record stable `food_strategy_id` and explicit `food_strategy_scope` on the PM SOP atom, retain its original role/evidence/limitation, and regenerate the rollup. A dietary-input No does not admit an SOP. The food rollup is a separate strategy/intervention view; canonical food or substance links require accepted identities and must not be guessed.
+
+### Combined BRS review
+
+The “Show All BRS” selector combines BRS1–6 authoritative projections. Keep every distinct PM–input relationship, while deduplicating substance IDs, food/material source IDs and pool IDs across scopes. Apply the same preparation and relationship filters to the combined data before computing visible counts and connections. Individual BRS selection remains available.

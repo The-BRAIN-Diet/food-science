@@ -114,6 +114,13 @@
       "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred."
     },
     {
+      "kind": "composition-observation-held",
+      "food_id": "quinoa",
+      "substance_id": "dha-docosahexaenoic-acid",
+      "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+      "reason": "DHA observation: independent confirmation unresolved"
+    },
+    {
       "kind": "mapping-gap",
       "relationship_id": "BRS1-FM1-PM1::PM1-DIT-1",
       "input": "Indispensable amino-acid supply",

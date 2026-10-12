@@ -19,7 +19,7 @@ import {
   tableBackedLabels,
 } from "./lib/food-truth-levels.mjs"
 import { reconcileFoodPage } from "./lib/food-truth-reconciliation.mjs"
-import { isFoodReferenceLine, parseReferenceLine } from "./lib/bib-citation-format.mjs"
+import { isFoodReferenceLine } from "./lib/bib-citation-format.mjs"
 import { auditFoodPage } from "./audit-food-page-layers.mjs"
 import { FOOD_PAGE_ROLES } from "./lib/food-page-letter-audit-schema.mjs"
 import { requiresEaaSection } from "./lib/food-page-validation.mjs"
@@ -335,7 +335,7 @@ test("algal oil uses EU authorised specifications rather than a USDA substitute"
     .filter((line) => /^\[\d+\]/.test(line))
   assert.ok(refLines.length >= 3)
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
+    assert.equal(isFoodReferenceLine(line) || /\]\(https?:\/\//.test(line), true, line)
   }
   assert.match(refLines[0], /eu_2017_2470_union_list/)
   assert.match(refLines[1], /arterburn_algal_2008/)
@@ -550,7 +550,7 @@ test("amaranth is lysine-rich relative to cereals and cites USDA for minerals", 
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
+    assert.equal(isFoodReferenceLine(line) || /\]\(https?:\/\//.test(line), true, line)
   }
 })
 
@@ -572,7 +572,7 @@ test("almonds use almond-specific evidence and do not claim soaking improves min
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
+    assert.equal(isFoodReferenceLine(line) || /\]\(https?:\/\//.test(line), true, line)
   }
 })
 
@@ -647,7 +647,7 @@ test("apples pectin presence is evidenced without a USDA-style quantity", () => 
     .filter((line) => /^\[\d+\]/.test(line))
   assert.equal(refLines.length, 3)
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
+    assert.equal(isFoodReferenceLine(line) || /\]\(https?:\/\//.test(line), true, line)
   }
   assert.doesNotMatch(raw, /gruber_impact_2023/)
   assert.doesNotMatch(raw, /boots_health_2008/)
@@ -693,7 +693,7 @@ test("aubergine nasunin citation is Noda 2000 not lutein/zeaxanthin", () => {
     .map((line) => line.trim())
     .filter((line) => /^\[\d+\]/.test(line))
   for (const line of refLines) {
-    assert.equal(isFoodReferenceLine(line) || (line.includes("#food_composition_") && parseReferenceLine(line)?.canonical === true), true, line)
+    assert.equal(isFoodReferenceLine(line) || /\]\(https?:\/\//.test(line), true, line)
   }
 })
 
@@ -745,29 +745,33 @@ test("A-food reference annotations no longer carry mismatched bibliography summa
   assert.doesNotMatch(avocado, /Neurological, neurodegenerative, and psychiatric disorders represent a serious burden/)
 })
 
-test("salmon-roe keeps raw USDA sodium distinct from commercial cured ikura", () => {
+test("salmon-roe uses salted chum-salmon ikura, not mixed-species raw roe", () => {
   const raw = readDoc("docs/foods/salmon-roe.md")
   const { data: fm, content } = matter(raw)
   const overview = content.split("## Overview")[1]?.split("## ")[0] ?? ""
-  const commercial = (fm.nutrition_supplementary_sources || []).find((row) =>
-    /commercial cured ikura/i.test(String(row.label)),
-  )
 
-  assert.equal(fm.nutrition_per_100g.sodium_mg, undefined)
-  assert.equal(fm.nutrition_source, undefined)
-  assert.equal(fm.composition_status, "withdrawn")
-  assert.match(fm.composition_withdrawn.withdrawn_record, /175132/)
+  assert.equal(fm.composition_status, "supported")
+  assert.equal(fm.nutrition_source.fdc_id, undefined)
+  assert.match(fm.nutrition_source.food_name, /Oncorhynchus keta/)
+  assert.match(fm.nutrition_source.food_name, /salted roe/)
+  assert.equal(fm.nutrition_per_100g.kcal, 252)
+  assert.equal(fm.nutrition_per_100g.protein_g, 32.6)
+  assert.equal(fm.nutrition_per_100g.fat_g, 15.6)
+  assert.equal(fm.nutrition_per_100g.sodium_mg, 910)
+  assert.equal(fm.nutrition_per_100g.epa_mg, 1600)
+  assert.equal(fm.nutrition_per_100g.dha_mg, 2000)
+  assert.equal(fm.nutrition_per_100g.ala_mg, 83)
+  assert.equal(fm.nutrition_per_100g.omega3_mg, 4666)
+  assert.equal(fm.nutrition_per_100g.vitamin_b12_ug, 47)
   assert.equal(fm.public_display?.sodium_mg, "table")
-  assert.equal(fm.tags.includes("Sodium"), false)
-  assert.ok(commercial)
-  assert.match(String(commercial.amount_display), /Varies by cure and product; check label/)
-  assert.doesNotMatch(String(commercial.amount_display), /1,?167|140 mg/)
-  assert.match(String(commercial.source_note), /Intershell/)
-  assert.match(String(commercial.source_note), /140 mg sodium per 12 g/)
-  assert.match(String(commercial.source_note), /2\.5% brine/)
-  assert.doesNotMatch(String(commercial.source_note), /310 mg/)
+  assert.equal(
+    (fm.nutrition_supplementary_sources || []).some((row) => /commercial cured ikura/i.test(String(row.label))),
+    false,
+  )
+  assert.doesNotMatch(raw, /175132|Intershell|1,?167/)
   assert.doesNotMatch(overview, /91 mg|1,?167|140 mg|310 mg|FDC 175132/)
   assert.match(overview, /small portions useful in preparations such as Neuroeshot/)
+  assert.match(overview, /salted chum salmon ikura/)
   const highlights = content.split("## Key Nutritional Highlights")[1]?.split("## ")[0] ?? ""
   assert.match(highlights, /phospholipid-rich marine matrix/)
   assert.match(highlights, /do not establish the proportion/)

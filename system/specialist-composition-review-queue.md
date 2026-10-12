@@ -179,17 +179,17 @@ Left this queue. Public ALA is 22.8 g per 100 g*, USDA SR Legacy FDC 169414 nutr
 
 Cites FDC 167717, described as **Yeast extract spread** — a Marmite-type concentrated spread. The page documents nutritional yeast flakes. Same organism, different product form and processing state, and materially different composition: a yeast extract spread is far higher in sodium and is used by the teaspoon rather than the tablespoon.
 
-The panel is now withdrawn under the exact-food rule. Original values are preserved in `system/nutritional-yeast-withdrawn-panel.json`.
+Left this queue. FDC 167717 remains barred. Current panel is the Marigold Engevita Nutritional Yeast Flakes with B12 label, the blue 100 g tub. Original yeast-extract values stay in `system/nutritional-yeast-withdrawn-panel.json`.
 
 Its unsupported ALA has been suppressed.
 
 ## Additional exact-food failures found 10 October 2026
 
-- duck-fat: FDC 174467; edible material: liver is not rendered duck fat. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- duck-fat: left this queue. FDC 174467 remains barred. Current panel is USDA SR28 NDB 04574, Fat, duck (rendered). Original liver values stay in system/food-identity-withdrawals-2026-10-10.json.
 - dark-meat-poultry: FDC 171637; product: bologna is not poultry muscle. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
-- chicory-root: FDC 169992; edible material: greens are not root. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- chicory-root: left this queue. FDC 169992 remains barred. Current panel is USDA SR Legacy FDC 169993, chicory roots, raw. Dietary fibre in that panel does not include inulin. Original greens values stay in system/food-identity-withdrawals-2026-10-10.json.
 - lemon-balm-tea: FDC 167802; species and product: lemon juice is not Melissa officinalis infusion. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
 - fermented-vegetables: FDC 174280; product: fermented tofu is not fermented vegetables. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
 - fortified-plant-milks: FDC 172221; species and product: dairy chocolate yogurt is not plant milk. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
-- salmon-roe: FDC 175132; species: mixed-species roe does not establish salmon-specific composition. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.
+- salmon-roe: left this queue. FDC 175132 remains barred. Current panel is MEXT 2023 supplement food 10140, chum salmon (Oncorhynchus keta), salted roe (ikura). Original mixed-species values stay in system/food-identity-withdrawals-2026-10-10.json.
 - trout-roe: FDC 175132; species: mixed-species roe does not establish trout-specific composition. Full quantitative panel withdrawn; original evidence preserved in system/food-identity-withdrawals-2026-10-10.json.

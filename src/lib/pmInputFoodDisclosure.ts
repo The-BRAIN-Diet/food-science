@@ -1,4 +1,5 @@
-import { selectQuantified } from "../data/inputSubstanceFoodSelection.mjs";
+import generatedScopes from "../data/inputMappingScopes.mjs";
+import { selectQuantified, selectBrsReviewData } from "../data/inputSubstanceFoodSelection.mjs";
 /** Read-only display of generated PM input joins; no hand-maintained food lists. */
 export type MappingData = {
     pilot_pms: string[];
@@ -9,10 +10,11 @@ export type MappingData = {
 const norm = (v: string) => String(v || '').toLowerCase().replace(/\s+/g, ' ').trim();
 function esc(v: unknown) { return String(v ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
 export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, pm: string, label: string, section: string) {
-    if (!data?.pilot_pms?.includes(pm) || !/^3\.1\.[123]$/.test(section))
+    if (!data || !/^BRS[1-6]-/.test(pm) || !/^3\.1\.[123]$/.test(section))
         return;
     li.querySelector('.pm-input-food-sources')?.remove();
-    const relationships = data.relationships.filter(r => r.dietary_input === true && r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
+    const scoped = selectBrsReviewData(data, generatedScopes, pm.split('-')[0]).data;
+    const relationships = scoped.relationships.filter(r => r.dietary_input === true && r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
     if (!relationships.length)
         return;
     const box = document.createElement('details');
@@ -21,7 +23,7 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     const summary = document.createElement('summary');
     summary.textContent = 'Food sources';
     box.append(summary);
-    const sources = data.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
+    const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
     const selection = selectQuantified(sources), selected = selection.sources, ranked = selection.ranked;
     const other = selection.other_sources;
     const notes = document.createElement('p');
@@ -52,16 +54,14 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
         }
     }
     if (other.length) {
-        const more = document.createElement('details'), s = document.createElement('summary');
-        s.textContent = `Other supported food sources (${other.length})`;
-        more.append(s);
-        const note = document.createElement('p');
-        note.textContent = 'Includes qualitative presence and observations unsuitable for comparable per-100 g ranking.';
-        more.append(note);
+        if (selected.length) {
+            const heading = document.createElement('p');
+            heading.textContent = `Other supported food sources (${other.length})`;
+            box.append(heading);
+        }
         const list = document.createElement('ul');
         other.forEach(f => list.append(row(f)));
-        more.append(list);
-        box.append(more);
+        box.append(list);
     }
     if (!sources.length) {
         const note = document.createElement('p');

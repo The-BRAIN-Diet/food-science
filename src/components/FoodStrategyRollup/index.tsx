@@ -1,0 +1,8 @@
+import React, {useState} from 'react';
+import data from '../../data/foodStrategyRollup.generated.json';
+export default function FoodStrategyRollup() {
+ const [brs,setBrs]=useState('all');
+ const rows=data.relationships.filter(r=>brs==='all'||r.brs===brs);
+ const ids=new Set(rows.map(r=>r.strategy_id));
+ return <div className="input-substance-food-review food-strategy-rollup"><p>{ids.size} strategies · {rows.length} independently admitted PM relationships. This rollup is separate from nutrient supply and quantities.</p><label>BRS <select value={brs} onChange={e=>setBrs(e.target.value)}><option value="all">All BRSs</option>{[1,2,3,4,5,6].map(n=><option key={n} value={`BRS${n}`}>BRS{n}</option>)}</select></label><div style={{overflowX:'auto'}}><table><thead><tr><th>PM</th><th>Food-related strategy / intervention</th><th>Scope</th><th>Accepted biological role</th><th>Evidence and limitation</th></tr></thead><tbody>{rows.map(r=><tr key={r.id}><td><a href={r.pm_page}>{r.pm}</a></td><td>{r.input}</td><td>{r.scope}<br />{r.category}</td><td>{r.biological_role}</td><td>{(r.evidence?.finding_ids || []).map(id=><a key={id} href={r.pm_page+'#'+id.toLowerCase()}>{id} </a>)}<p>{r.limitation}</p><details><summary>Canonical links and provenance</summary><p>{r.food_ids.length||r.substance_ids.length ? [...r.food_ids,...r.substance_ids].join('; ') : 'Canonical food/substance links not recorded. The accepted strategy remains visible; no food or dose equivalence inferred.'}</p><p><code>{r.strategy_id}</code></p><code>{r.source_record}</code></details></td></tr>)}</tbody></table></div>{!rows.length&&<p>No admitted food-related SOP records are currently available for this BRS.</p>}</div>;
+}

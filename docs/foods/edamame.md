@@ -154,4 +154,4 @@ Edamame provide a relatively complete plant protein (higher in lysine than most 
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_e3dec38feb28)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/168410/nutrients)

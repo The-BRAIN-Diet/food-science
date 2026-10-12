@@ -263,7 +263,7 @@ Nori contribute plant protein. Pair with complementary protein sources (e.g. gra
 
 <span id="food-source-3" />
 
-[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](/docs/papers/BRAIN-Diet-References#food_composition_74eb21e22bfb)
+[3] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100)
 
 <span id="food-source-4" />
 

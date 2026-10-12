@@ -275,4 +275,4 @@ Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient w
 
 <span id="food-source-4" />
 
-[4] [Norwegian Food Composition Table](/docs/papers/BRAIN-Diet-References#food_composition_dad986b6ec32)
+[4] [Norwegian Food Composition Table](https://www.matvaretabellen.no/en/broccoli-sprouts-raw/)

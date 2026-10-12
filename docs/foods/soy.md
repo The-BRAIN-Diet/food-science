@@ -309,4 +309,4 @@ Soy provide a relatively complete plant protein (higher in lysine than most grai
 
 <span id="food-source-7" />
 
-[7] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_2a4e46331446)
+[7] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174270/nutrients)

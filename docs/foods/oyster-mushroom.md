@@ -140,4 +140,4 @@ Within the BRAIN Diet framework, oyster mushrooms are widely cultivated and used
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_207dd4842330)
+[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/168580/nutrients)

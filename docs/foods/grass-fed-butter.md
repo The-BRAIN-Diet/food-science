@@ -159,4 +159,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-7" />
 
-[7] [USDA FoodData Central, Butter, without salt (FDC 173430)](/docs/papers/BRAIN-Diet-References#food_composition_f287b7193234)
+[7] [USDA FoodData Central, Butter, without salt (FDC 173430)](https://fdc.nal.usda.gov/food-details/173430/nutrients)

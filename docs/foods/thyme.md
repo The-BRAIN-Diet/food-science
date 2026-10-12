@@ -207,4 +207,4 @@ Thyme contributes modest plant protein. Pair with complementary protein sources 
 
 <span id="food-source-3" />
 
-[3] [EMA assessment report, Thymus vulgaris / zygis herba](/docs/papers/BRAIN-Diet-References#food_composition_8e83b7c89558)
+[3] [EMA assessment report, Thymus vulgaris / zygis herba](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-thymus-vulgaris-l-vulgaris-zygis-l-herba_en.pdf)

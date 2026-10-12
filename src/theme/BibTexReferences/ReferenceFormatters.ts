@@ -232,7 +232,9 @@ function formatHarvard(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'harvard');
     const year = entryTags.year || '';
-    const title = displayTag(entryTags, 'title');
+    const title = displayTag(entryTags, 'title').replace(/^['‘’"]+|['‘’"]+$/g, '').trim();
+    const contributorYear = [authors.trim(), year.trim()].filter(Boolean).join(' ');
+    const heading = [contributorYear, title].filter(Boolean).join(', ');
 
     if (entryType.toLowerCase() === 'article') {
         const journal = displayTag(entryTags, 'journal');
@@ -247,7 +249,7 @@ function formatHarvard(entry: BibEntry): string {
         if (pages) parts.push(`pp. ${pages}`);
 
         const tail = parts.length ? `, ${parts.join(', ')}.` : '.';
-        return `${authors} ${year}, '${title}'${tail}`;
+        return `${heading}${tail}`;
     }
 
     if (entryType.toLowerCase() === 'book') {
@@ -263,7 +265,7 @@ function formatHarvard(entry: BibEntry): string {
         const address = entryTags.address || '';
         const location = address ? `${address}, ` : '';
         const pagePart = pages ? `, pp. ${pageRange(pages)}` : '';
-        return `${authors} ${year}, '${title}', in <em>${booktitle}</em>, ${location}${publisher}${pagePart}.`;
+        return `${heading}, in <em>${booktitle}</em>, ${location}${publisher}${pagePart}.`;
     }
 
     const source = (
@@ -278,7 +280,7 @@ function formatHarvard(entry: BibEntry): string {
         : reportNumber
           ? `, ${reportNumber}`
           : '';
-    return `${authors} ${year}, '${title}'${sourcePart}.`;
+    return `${heading}${sourcePart}.`;
 }
 
 function formatAuthors(authorString: string, style: ReferenceStyle): string {

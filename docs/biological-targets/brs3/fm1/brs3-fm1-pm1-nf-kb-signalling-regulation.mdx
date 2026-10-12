@@ -16,6 +16,8 @@ cofactors:
   - Magnesium ions (Mg²⁺)
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Magnesium ions (Mg²⁺)
     input_type: catalytic ion
     biological_role: >-
@@ -48,6 +50,8 @@ dietary_input_traceability:
       Mg²⁺ catalytic ionic form; the canonical magnesium page identifies the
       substance, not an admitted dietary intervention.
   - atom_id: PM1-KC1-UPSTREAM-1
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Cysteine
     input_type: supported upstream supply
     biological_role: >-
@@ -83,6 +87,8 @@ dietary_input_traceability:
     ikc_id: BRS3-KC1-KIT-1
     relationship_type: supported-upstream-supply
   - atom_id: PM1-KC1-UPSTREAM-2
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Glycine
     input_type: supported upstream supply
     biological_role: >-
@@ -574,6 +580,8 @@ input_identity_audit:
     verified_against: *ref_3
 pm_kc_relationships:
   - relationship_id: PM1-KC1-UPSTREAM-POOL
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS3(KC1)
     ikc_id: BRS3(KC1)
     relationship_type: supported-upstream-supply

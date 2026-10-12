@@ -4,16 +4,18 @@ import path from 'node:path';
 import vm from 'node:vm';
 import matter from 'gray-matter';
 import { canonicalContainsRelationships } from '../../src/data/foodSubstanceRelationships.mjs';
-import { selectQuantified } from '../../src/data/inputSubstanceFoodSelection.mjs';
+import { selectQuantified, PILOT_PMS } from '../../src/data/inputSubstanceFoodSelection.mjs';
 export { selectQuantified } from '../../src/data/inputSubstanceFoodSelection.mjs';
 import { checkExactFoodMatch } from './composition-provenance.mjs';
-export const PILOT_PMS = ['BRS1-FM1-PM3', 'BRS1-FM2-PM6', 'BRS1-FM3-PM7', 'BRS1-FM5-PM12'];
+export { PILOT_PMS } from '../../src/data/inputSubstanceFoodSelection.mjs';
 export const normalize = v => String(v || '').toLowerCase().normalize('NFKD').replace(/[′’']/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
 const section = v => String(v || '').replace(/^1\.1\./, '3.1.');
 const walk = dir => fs.existsSync(dir) ? fs.readdirSync(dir, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(dir, e.name)) : [path.join(dir, e.name)]).filter(p => /\.mdx?$/.test(p)) : [];
 const unique = a => [...new Set(a)];
 export function amountDisplay(o) { return o?.value != null ? `${o.value} ${o.unit}` : o?.range ? `${o.range[0]}–${o.range[1]} ${o.unit}` : 'Quantity not established'; }
-export function buildInputSubstanceFood(root) {
+export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
+    if (!/^BRS[1-6]$/.test(brs)) throw new Error('Mapping scope must be BRS1–6');
+    const scope = brs.toLowerCase();
     const reads = new Set(), gaps = [], conflicts = [];
     function load(file) { const full = path.join(root, file); reads.add(file); return { file, ...matter(fs.readFileSync(full, 'utf8')) }; }
     const registryFile = 'registry/substances.json', registry = JSON.parse(fs.readFileSync(path.join(root, registryFile), 'utf8'));
@@ -53,7 +55,7 @@ export function buildInputSubstanceFood(root) {
     if (!literal)
         throw Error('Nutrient label source not found');
     const nutrientLabels = vm.runInNewContext('(' + literal[1] + ')');
-    const pmDocs = walk(path.join(root, 'docs/biological-targets/brs1')).map(f => load(path.relative(root, f))).filter(d => d.data.pm_id), pms = new Map(pmDocs.map(d => [d.data.pm_id, d]));
+    const pmDocs = walk(path.join(root, 'docs/biological-targets', scope)).map(f => load(path.relative(root, f))).filter(d => d.data.pm_id), pms = new Map(pmDocs.map(d => [d.data.pm_id, d]));
     const dependencyDocs = new Map();
     function dep(kind, id, href) { if (pms.has(id))
         return pms.get(id); if (dependencyDocs.has(id))
@@ -100,7 +102,7 @@ export function buildInputSubstanceFood(root) {
                     gaps.push({ kind: 'constituent-without-pm-atom', pm_id: pm, id: c.relationship_id });
             }
             if (k.input && k.pm_biological_role && k.presentation_label) {
-                relationships.push({ id: pm + '::' + k.relationship_id, brs: 'BRS1', fm: d.parent_fm, pm, pm_page: pmPage, input: k.input, input_type: k.input_type || 'resource dependency', relationship_type: k.relationship_type || null, biological_role: k.pm_biological_role, dietary_input: k.dietary_input ?? null, dietary_input_note: k.dietary_input_note, accounting: 'D', accounting_label: 'Shared pool/KC reference', pool_references: [k.kc_id], upstream: [], substance_id: null, source_record: doc.file + '#pm_kc_relationships/' + k.relationship_id, evidence: k.evidence_source, limitation: k.evidence_limitation, identity_status: 'pool', qualification: 'Pool reference; no nutrient quantity added.', presentations: [{ label: k.presentation_label, section: '3.1.3' }], members: [] });
+                relationships.push({ id: pm + '::' + k.relationship_id, brs, fm: d.parent_fm, pm, pm_page: pmPage, input: k.input, input_type: k.input_type || 'resource dependency', relationship_type: k.relationship_type || null, biological_role: k.pm_biological_role, dietary_input: k.dietary_input ?? null, dietary_input_note: k.dietary_input_note, accounting: 'D', accounting_label: 'Shared pool/KC reference', pool_references: [k.kc_id], upstream: [], substance_id: null, source_record: doc.file + '#pm_kc_relationships/' + k.relationship_id, evidence: k.evidence_source, limitation: k.evidence_limitation, identity_status: 'pool', qualification: 'Pool reference; no nutrient quantity added.', presentations: [{ label: k.presentation_label, section: '3.1.3' }], members: [] });
             }
         }
         for (const l of d.dietary_lever_atoms || []) {
@@ -118,7 +120,8 @@ export function buildInputSubstanceFood(root) {
             if (!ident.id && ['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
                 ident.status = a.input_type;
             const type = l.relationship_layer || 'dietary-requirement', supply = upstream.some(u => /supply/i.test(u.relationship_label));
-            let accounting = members.length ? 'C' : supply ? 'B' : type === 'biochemical-requirement' || (/PLP|tetrahydrobiopterin|acetyl.CoA/i.test(a.input) && l.dietary_addressability === 'not-established') ? 'E' : type === 'kc-relevance' ? 'unresolved' : 'A';
+            let accounting = members.length ? 'C' : supply ? 'B' : (type === 'biochemical-requirement' && a.dietary_input !== true) || (/PLP|tetrahydrobiopterin|acetyl.CoA/i.test(a.input) && l.dietary_addressability === 'not-established') ? 'E' : type === 'kc-relevance' ? 'unresolved' : 'A';
+            if (accounting === 'E' && a.dietary_input === true) gaps.push({kind:'dietary-accounting-designation-unresolved',relationship_id:pm+'::'+l.atom_id,reason:'Dietary section admission retained, but active-cofactor/product accounting remains unresolved. Do not count precursor and intracellular product as independent supplies.'});
             const designation = { A: 'PM-owned dietary relationship', B: 'Upstream PM reference', C: 'Upstream iKC/resource constituent relationship', D: 'Shared pool/KC reference', E: 'Endogenous/biochemical dependency', unresolved: 'Accounting designation unresolved' }[accounting];
             const qualification = [];
             if (ident.status !== 'resolved')
@@ -135,7 +138,7 @@ export function buildInputSubstanceFood(root) {
                 qualification.push('Supported upstream resource supply; not reclassified as limiting iKC applicability.');
             if (!ident.id && !['dietary pattern', 'nutrient/compound class', 'dietary matrix'].includes(a.input_type))
                 gaps.push({ kind: 'substance-identity', pm_id: pm, id: l.atom_id, input: a.input, status: ident.status });
-            const rel = { id: pm + '::' + l.atom_id, brs: 'BRS1', fm: d.parent_fm, pm, pm_page: pmPage, input: a.input, input_type: a.input_type, relationship_type: { layer: type, classification: l.requirement_classification || null, mode: l.relationship_mode || null, addressability: l.dietary_addressability || null, claim_ceiling: l.claim_ceiling || null }, biological_role: a.biological_role, dietary_input: a.dietary_input ?? null, dietary_input_note: a.dietary_input_note, dietary_input_flags: a.dietary_input_flags || [], accounting, accounting_label: designation, upstream, pool_references: unique(members.map(x => x.kc_id)), members, substance_id: ident.id, substance_page: substances[ident.id]?.page || null, identity_status: ident.status, source_record: doc.file + '#dietary_input_traceability/' + l.atom_id, evidence: a.evidence_source, limitation: a.evidence_limitation || l.evidence_limitation, derived_target_atom_id: l.derived_target_atom_id ? pm + '::' + l.derived_target_atom_id : null, derived_target: l.derived_target || null, qualification: qualification.join(' '), presentations: [...pres.map(p => ({ label: p.label || a.input, section: section(p.presentation_section) })), ...members.filter(m => m.label).map(m => ({ label: m.label, section: m.presentation_section }))].filter((p, i, all) => all.findIndex(q => q.label === p.label && q.section === p.section) === i) };
+            const rel = { id: pm + '::' + l.atom_id, brs, fm: d.parent_fm, pm, pm_page: pmPage, input: a.input, input_type: a.input_type, relationship_type: { layer: type, classification: l.requirement_classification || null, mode: l.relationship_mode || null, addressability: l.dietary_addressability || null, claim_ceiling: l.claim_ceiling || null }, biological_role: a.biological_role, dietary_input: a.dietary_input ?? null, dietary_input_note: a.dietary_input_note, dietary_input_flags: a.dietary_input_flags || [], accounting, accounting_label: designation, upstream, pool_references: unique(members.map(x => x.kc_id)), members, substance_id: ident.id, substance_page: substances[ident.id]?.page || null, identity_status: ident.status, source_record: doc.file + '#dietary_input_traceability/' + l.atom_id, evidence: a.evidence_source, limitation: a.evidence_limitation || l.evidence_limitation, derived_target_atom_id: l.derived_target_atom_id ? pm + '::' + l.derived_target_atom_id : null, derived_target: l.derived_target || null, qualification: qualification.join(' '), presentations: [...pres.map(p => ({ label: p.label || a.input, section: section(p.presentation_section) })), ...members.filter(m => m.label).map(m => ({ label: m.label, section: m.presentation_section }))].filter((p, i, all) => all.findIndex(q => q.label === p.label && q.section === p.section) === i) };
             relationships.push(rel);
         }
         coverage.push({ pm_id: pm, record: doc.file, accepted_relationships: relationships.filter(r => r.pm === pm).length, structured_atoms: (d.dietary_lever_atoms || []).length });
@@ -146,13 +149,16 @@ export function buildInputSubstanceFood(root) {
     const needed = new Set(relationships.filter(r => r.dietary_input === true).map(r => r.substance_id).filter(Boolean));
     for (const f of walk(path.join(root, 'docs/foods'))) {
         const doc = load(path.relative(root, f)), d = doc.data, foodId = d.id || path.basename(f).replace(/\.mdx?$/, ''), page = '/docs/' + doc.file.replace(/^docs\//, '').replace(/\.mdx?$/, ''), validPanel = checkExactFoodMatch(d, foodId).length === 0 && d.composition_status !== 'withdrawn', src = d.nutrition_source;
+        const heldSubstances = new Set((d.nutrition_value_reviews || []).filter(r => r.exclude_from_food_lists === true).map(r => r.substance_id));
+        for (const review of d.nutrition_value_reviews || []) if (review.exclude_from_food_lists === true)
+            gaps.push({ kind: 'composition-observation-held', food_id: foodId, substance_id: review.substance_id, record: doc.file + '#nutrition_value_reviews', reason: review.title });
         const entries = new Map();
         function entry(id, material, preparation) { const key = foodId + '::' + id + '::' + normalize(material || 'unspecified') + '::' + normalize(preparation || 'unspecified'); if (!entries.has(key))
             entries.set(key, { id: key, substance_id: id, food_id: foodId, food_title: d.title || foodId, food_page: page, food_record: doc.file, material: material || null, preparation: preparation || null, species: d.food_identity?.species || null, product: d.food_identity?.product || null, edible_part: d.food_identity?.edible_part || null, chemical_form: null, food_matrix: null, preparation_effects: null, absorption_evidence: null, observations: [], presence_records: [], qualification: [] }); return entries.get(key); }
         const material = src?.food_name || d.food_identity?.material || d.title, prep = d.preparation_state || d.food_identity?.preparation || (/\b(raw|uncooked|cooked|dried|roasted|boiled|oil)\b/i.exec(src?.food_name || '')?.[1] || null);
         for (const edge of canonicalContainsRelationships(d)) {
             const ident = identity(edge.substance, edge.substance_id);
-            if (!ident.id || !needed.has(ident.id))
+            if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
             const e = entry(ident.id, edge.evidence_material || material, edge.preparation_state || prep);
             e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, citation_keys: edge.citation_keys || [], presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
@@ -168,7 +174,7 @@ export function buildInputSubstanceFood(root) {
             if (/\+|total|unresolved/i.test(label) || /unresolved|omega3|lutein_zeaxanthin/.test(key))
                 continue;
             const ident = identity(label);
-            if (!ident.id || !needed.has(ident.id))
+            if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
             const e = entry(ident.id, material, prep);
             e.observations.push(observation({ value, unit: nutrientLabels[key].unit, basis: src.basis, source_url: src.source_url || null, material, preparation: prep, record: doc.file + '#nutrition_per_100g/' + key, source_record: doc.file + '#nutrition_source', verified: true }));
@@ -177,9 +183,14 @@ export function buildInputSubstanceFood(root) {
             if (row.evidence_status === 'rejected' || row.evidence_status === 'unresolved' || row.analyte_scope === 'combined' || /\+/.test(row.label || ''))
                 continue;
             const ident = identity(row.label, row.substance_id);
-            if (!ident.id || !needed.has(ident.id))
+            if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
-            const mat = row.evidence_material || row.material || material, pre = row.preparation_state || prep, e = entry(ident.id, mat, pre), pointer = doc.file + '#nutrition_supplementary_sources/' + row.key;
+            const pre = row.preparation_state || prep;
+            // A qualitative supplementary citation can repeat an explicit contains edge.
+            // Reuse its evidence material; never borrow the generic composition-panel species.
+            const matches = !row.evidence_material && !row.material && !Number.isFinite(row.value) && !row.range && row.source_url
+                ? [...entries.values()].filter(e => e.substance_id === ident.id && e.preparation === pre && e.presence_records.some(p => p.source_url === row.source_url)) : [];
+            const mat = row.evidence_material || row.material || (matches.length === 1 ? matches[0].material : material), e = entry(ident.id, mat, pre), pointer = doc.file + '#nutrition_supplementary_sources/' + row.key;
             e.chemical_form = row.chemical_form || e.chemical_form;
             e.food_matrix = row.food_matrix || e.food_matrix;
             e.preparation_effects = row.preparation_effects || e.preparation_effects;
@@ -232,5 +243,5 @@ export function buildInputSubstanceFood(root) {
     const dietaryIds = unique(relationships.filter(r => r.dietary_input === true).map(r => r.substance_id).filter(Boolean));
     const substanceView = unique(relationships.map(r => r.substance_id).filter(Boolean)).map(id => ({ ...substances[id], dietary_accounted: dietaryIds.includes(id), relationships: relationships.filter(r => r.substance_id === id).map(r => r.id), food_sources: bySub.get(id) || [], selection: selectQuantified(bySub.get(id) || []) }));
     const foodView = unique(foodSources.map(f => f.food_id)).map(id => { const sources = foodSources.filter(f => f.food_id === id), ids = unique(sources.map(s => s.substance_id)), rs = relationships.filter(r => r.dietary_input === true && ids.includes(r.substance_id)), diet = rs.filter(r => r.dietary_input === true); return { food_id: id, title: sources[0].food_title, page: sources[0].food_page, substance_ids: ids, unique_dietary_inputs: unique(diet.map(r => r.substance_id)), unique_input_coverage: unique(diet.map(r => r.substance_id)).length, biological_reach: unique(rs.map(r => r.pm)).length, connected_pms: unique(rs.map(r => r.pm)), shared_pools: unique(rs.flatMap(r => r.pool_references)), sources: sources.map(s => s.id) }; });
-    return { pattern_candidates: views.filter(r=>r.input_type==='dietary pattern').map(r=>({relationship_id:r.id,input:r.input,qualification:r.gap,candidates:r.pattern_candidates})), scope: 'BRS1', schema_version: 2, pilot_pms: PILOT_PMS, relationships, views, rows, substances: substanceView, food_sources: foodSources, foods: foodView, pools: [...pools.values()], coverage, gaps, conflicts, source_records: [...reads].sort(), summary: { dietary_input: { yes: relationships.filter(r => r.dietary_input === true).length, no: relationships.filter(r => r.dietary_input === false).length, unset: relationships.filter(r => r.dietary_input == null).length }, pms: coverage.length, relationships: relationships.length, accounting: Object.fromEntries(['A', 'B', 'C', 'D', 'E', 'unresolved'].map(c => [c, relationships.filter(r => r.accounting === c).length])), unique_dietary_substances: dietaryIds.length, unique_shared_pools: pools.size, food_source_materials: foodSources.length, quantified_observations: foodSources.flatMap(f => f.observations).filter(o => o.verified).length, qualitative_materials: foodSources.filter(f => !f.observations.some(o => o.rank_eligible)).length, gaps: gaps.length, conflicts: conflicts.length } };
+    return { pattern_candidates: views.filter(r=>r.input_type==='dietary pattern').map(r=>({relationship_id:r.id,input:r.input,qualification:r.gap,candidates:r.pattern_candidates})), scope: brs, schema_version: 3, source_revision: Math.max(0, ...[...reads].map(file => fs.existsSync(path.join(root,file)) ? fs.statSync(path.join(root,file)).mtimeMs : 0)), pilot_pms: coverage.map(p => p.pm_id), relationships, views, rows, substances: substanceView, food_sources: foodSources, foods: foodView, pools: [...pools.values()], coverage, gaps, conflicts, source_records: [...reads].sort(), summary: { dietary_input: { yes: relationships.filter(r => r.dietary_input === true).length, no: relationships.filter(r => r.dietary_input === false).length, unset: relationships.filter(r => r.dietary_input == null).length }, pms: coverage.length, relationships: relationships.length, accounting: Object.fromEntries(['A', 'B', 'C', 'D', 'E', 'unresolved'].map(c => [c, relationships.filter(r => r.accounting === c).length])), unique_dietary_substances: dietaryIds.length, unique_shared_pools: pools.size, food_source_materials: foodSources.length, quantified_observations: foodSources.flatMap(f => f.observations).filter(o => o.verified).length, qualitative_materials: foodSources.filter(f => !f.observations.some(o => o.rank_eligible)).length, gaps: gaps.length, conflicts: conflicts.length } };
 }

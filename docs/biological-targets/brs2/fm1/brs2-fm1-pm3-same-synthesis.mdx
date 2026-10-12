@@ -187,6 +187,8 @@ phenome_relationships:
         data_level: Human Mechanistic
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Methionine
     input_type: substrate
     biological_role: Direct amino-acid substrate for MAT-dependent SAMe formation
@@ -200,6 +202,8 @@ dietary_input_traceability:
       No ordinary-diet human dose-response demonstrating increased MAT-dependent
       SAMe synthesis was identified.
   - atom_id: PM3-DIT-2
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: ATP
     input_type: substrate
     biological_role: Direct adenine-nucleotide substrate for MAT-dependent SAMe formation
@@ -213,6 +217,8 @@ dietary_input_traceability:
       Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis
       is established.
   - atom_id: PM3-DIT-3
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Magnesium ions (Mg²⁺)
     input_type: catalytic ion
     biological_role: >-
@@ -227,6 +233,8 @@ dietary_input_traceability:
       No ordinary-diet human evidence demonstrates magnesium-responsive MAT
       flux.
   - atom_id: PM3-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Potassium ions (K⁺)
     input_type: catalytic ion
     biological_role: >-
@@ -241,6 +249,8 @@ dietary_input_traceability:
       No ordinary-diet human evidence demonstrates potassium-responsive MAT
       flux.
   - atom_id: PM3-DIT-5
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Dietary protein
     input_type: substrate provision
     biological_role: >-
@@ -258,6 +268,8 @@ dietary_input_traceability:
       MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids
       as methionine + cysteine.
   - atom_id: PM3-KC1-UPSTREAM-1
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Vitamin B9 (folate)
     input_type: supported upstream supply
     biological_role: >-
@@ -295,6 +307,8 @@ dietary_input_traceability:
         href: >-
           /docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation
   - atom_id: PM3-KC1-UPSTREAM-2
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Betaine
     input_type: supported upstream supply
     biological_role: >-
@@ -338,6 +352,8 @@ dietary_input_traceability:
         href: >-
           /docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation
   - atom_id: PM3-KC1-UPSTREAM-3
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Choline
     input_type: supported upstream supply
     biological_role: >-
@@ -847,6 +863,8 @@ scientific_findings:
         use; it is not independent supply-chain or dietary-response evidence.
 pm_kc_relationships:
   - relationship_id: PM3-KC1-UPSTREAM-POOL
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

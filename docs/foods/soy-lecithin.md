@@ -119,4 +119,4 @@ Soy Lecithin provide a relatively complete plant protein (higher in lysine than 
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_aca0f251dad9)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171426/nutrients)

@@ -287,6 +287,8 @@ kc_applicability_adjudications:
       stronger limitation on integrated rates remains unresolved.
 dietary_input_traceability:
   - atom_id: PM4-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Methionine
     input_type: substrate
     biological_role: >-
@@ -302,6 +304,8 @@ dietary_input_traceability:
       Methionine is required to enter the cycle. This does not show that raising
       methionine intake increases human remethylation or transsulfuration rates.
   - atom_id: PM4-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Dietary protein
     input_type: substrate provision
     biological_role: 'Provides digestible methionine, the amino acid that enters the cycle.'
@@ -316,6 +320,8 @@ dietary_input_traceability:
       protein increases cycle rates. DIAAS scores sulfur amino acids as
       methionine plus cysteine.
   - atom_id: PM4-DIT-3
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B9 (folate)
     input_type: nutrient/substance
     biological_role: >-
@@ -344,6 +350,8 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
   - atom_id: PM4-DIT-4
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B12 (cobalamin)
     input_type: nutrient/substance
     biological_role: >-
@@ -360,6 +368,8 @@ dietary_input_traceability:
       Added vitamin B12 can lower blood homocysteine further after folic acid.
       That is a concentration result, not a measured cycle-rate response.
   - atom_id: PM4-DIT-5
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B6
     input_type: nutrient/substance
     biological_role: >-
@@ -378,6 +388,8 @@ dietary_input_traceability:
       plasma pyridoxal phosphate and did not change mean postprandial
       remethylation, transmethylation, or total transsulfuration rates.
   - atom_id: PM4-DIT-6
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B2 (riboflavin)
     input_type: nutrient/substance
     biological_role: >-
@@ -394,6 +406,8 @@ dietary_input_traceability:
       at the methionine-synthase catalytic site, and it has not been shown to
       change human cycle rates.
   - atom_id: PM4-KC1-SUPPLY-2
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Betaine
     input_type: supported upstream supply
     biological_role: >-
@@ -430,6 +444,8 @@ dietary_input_traceability:
         href: >-
           /docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation
   - atom_id: PM4-KC1-SUPPLY-3
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Choline
     input_type: supported upstream supply
     biological_role: >-
@@ -1399,6 +1415,8 @@ kc_adjudication_history:
     review_record: system/kc-unresolved-decisions-reconciliation.md
 pm_kc_relationships:
   - relationship_id: PM4-KC1-REMETHYLATION-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

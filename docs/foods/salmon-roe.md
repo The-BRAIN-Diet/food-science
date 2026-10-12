@@ -1,7 +1,5 @@
 ---
 id: salmon-roe
-fcir_cases:
-  - FCIR-009
 title: Salmon Roe
 sidebar_label: Salmon Roe
 description: Premium salmon (ikura) eggs — phospholipid-bound EPA/DHA and choline
@@ -16,9 +14,93 @@ tags:
   - Astaxanthin
 list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
-nutrition_per_100g: {}
+nutrition_per_100g:
+  kcal: 252
+  protein_g: 32.6
+  fat_g: 15.6
+  sat_fat_g: 2.42
+  carbs_g: 0.2
+  sodium_mg: 910
+  potassium_mg: 210
+  calcium_mg: 94
+  magnesium_mg: 95
+  phosphorus_mg: 530
+  iron_mg: 2
+  zinc_mg: 2.1
+  copper_mg: 0.76
+  manganese_mg: 0.06
+  vitamin_a_rae_ug: 330
+  vitamin_d_ug: 44
+  vitamin_e_mg: 9.1
+  vitamin_b1_mg: 0.42
+  vitamin_b2_mg: 0.55
+  vitamin_b3_mg: 0.1
+  vitamin_b5_mg: 2.36
+  vitamin_b6_mg: 0.06
+  vitamin_b12_ug: 47
+  folate_ug: 100
+  vitamin_c_mg: 6
+  linoleic_g: 0.11
+  ala_mg: 83
+  epa_mg: 1600
+  dha_mg: 2000
+  omega3_mg: 4666
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 83
+  - nutrient: stearidonic_mg
+    identity: 18:4 n-3
+    amount_mg: 93
+  - nutrient: eicosatetraenoic_n3_mg
+    identity: 20:4 n-3
+    amount_mg: 220
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 1600
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 670
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 2000
 public_display:
   sodium_mg: table
+  ala_mg: table
+nutrition_source:
+  database: >-
+    MEXT Standard Tables of Food Composition in Japan (2023 supplement), food
+    10140
+  food_name: Chum salmon (Oncorhynchus keta), salted roe (ikura)
+  basis: per 100 g edible portion
+  source_url: https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7
+  source_reference: '#food-source-8'
+  last_checked: '2026-10-12'
+composition_status: supported
+composition_technical_provenance:
+  source_record: MEXT 10140, 2023 supplement
+  protein_identity: >-
+    Protein 32.6 g is the reference protein. The separate amino-acid-composition
+    protein, 28.8 g, is parenthetical in the table and is not published here.
+  carbohydrate_identity: >-
+    Carbohydrate 0.2 g is the stated carbohydrate. Available carbohydrate by
+    difference, 7.9 g, is not published.
+  fat_identity: >-
+    Total fat 15.6 g is the lipid value. Saturated fat 2.42 g is total saturated
+    fatty acids per 100 g edible portion. Triacylglycerol equivalents are 11.7 g
+    and are not used as the fat value.
+  omega3_identity: >-
+    Identified n-3 fatty acids per 100 g edible portion sum to 4,666 mg: 18:3
+    n-3 83 mg, 18:4 n-3 93 mg, 20:4 n-3 220 mg, EPA 1,600 mg, DPA 670 mg, DHA
+    2,000 mg. The general-component table rounds n-3 polyunsaturated fatty acids
+    to 4.7 g.
+  niacin_identity: >-
+    Vitamin B3 is the measured niacin, 0.1 mg. The parenthetical niacin
+    equivalent, 6.1 mg, is not published.
+  not_reported: >-
+    Iodine, selenium, chromium, molybdenum and choline are unmeasured in this
+    record. Vitamin K is a parenthetical zero and is not published. Oleic acid
+    is not separated from total 18:1.
 nutrition_supplementary_sources:
   - key: astaxanthin_mg
     label: Astaxanthin
@@ -57,34 +139,21 @@ nutrition_supplementary_sources:
     source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6150200/
     notes: salmon roe
     source_reference: '#food-source-5'
-  - key: commercial_ikura_sodium_qual
-    label: Commercial cured ikura — sodium
-    status: Formulation-specific
-    amount_display: Varies by cure and product; check label
-    public_display: table
-    notes: >-
-      Packaged ikura is typically brine-cured. Label examples are not a
-      category-wide range and are not interchangeable with USDA raw roe.
+  - key: dpa_mg
+    label: DPA
+    value: 670
+    unit: mg
+    notes: 22:5 n-3
+    public_note: Docosapentaenoic acid (22:5 n-3) in salted chum-salmon ikura.
     source_note: >-
-      USDA SR Legacy (Fish, roe, mixed species, raw; FDC 175132) reports 91 mg
-      sodium per 100 g for the raw mixed-species record only. Commercial ikura
-      sodium is formulation-specific. Example, not a population composition:
-      Intershell frozen ikura lists 140 mg sodium per 12 g serving (about 1,167
-      mg/100 g) at https://intershellseafood.com/products/ikura-salmon-roe-4oz
-      (accessed 18 August 2026). Vital Choice states that its ikura is cured in
-      a 2.5% brine
-      (https://www.vitalchoice.com/v/wild-salmon/ikura-wild-salmon-caviar); the
-      current labelled sodium milligrams and serving size were not confirmed on
-      the live product page, so no per-100 g equivalent is calculated from that
-      brand.
-    public_note: >-
-      FDC 1751 supports this qualitative constituent record. See technical
-      provenance for food form and measurement details.
-    source_group: >-
-      FDC 1751 supports this qualitative constituent record. See technical
-      provenance for food form and measurement details.
-    source_url: https://intershellseafood.com/products/ikura-salmon-roe-4oz
-    source_reference: '#food-source-6'
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      10140, fatty acids per 100 g edible portion. 22:5 n-3 is 670 mg.
+    source_group: salmonroe-mext
+    public_display: table
+    omit_substance_card: true
+    evidence_status: supported
+    source_url: https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4
+    source_reference: '#food-source-8'
 main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 legacy_list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
 legacy_main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
@@ -117,38 +186,40 @@ substance_relationships:
     relationship: contains
     recovery_origin: legacy-tag-migration
     evidence_status: supported
-    presence_status: presence_supported_amount_unavailable
+    presence_status: presence_and_amount_supported
     evidence_source: >-
-      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
-      (2020)
-    evidence_material: commercial salmon, trout or lumpfish roe
-    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
-    description: Contains omega-3 fatty acids; content varies with the roe product.
-    source_reference: '#food-source-7'
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      10140
+    evidence_material: chum salmon (Oncorhynchus keta), salted roe (ikura)
+    source_url: https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4
+    description: Salted chum-salmon ikura contains 1,600 mg EPA per 100 g.
+    source_reference: '#food-source-8'
   - substance: DHA
     relationship: contains
     recovery_origin: legacy-tag-migration
     evidence_status: supported
-    presence_status: presence_supported_amount_unavailable
+    presence_status: presence_and_amount_supported
     evidence_source: >-
-      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
-      (2020)
-    evidence_material: commercial salmon, trout or lumpfish roe
-    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
-    description: Contains omega-3 fatty acids; content varies with the roe product.
-    source_reference: '#food-source-7'
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      10140
+    evidence_material: chum salmon (Oncorhynchus keta), salted roe (ikura)
+    source_url: https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4
+    description: Salted chum-salmon ikura contains 2,000 mg DHA per 100 g.
+    source_reference: '#food-source-8'
   - substance: Omega-3 Fatty Acids
     relationship: contains
     recovery_origin: legacy-tag-migration
     evidence_status: supported
-    presence_status: presence_supported_amount_unavailable
+    presence_status: presence_and_amount_supported
     evidence_source: >-
-      Comparison of Chemical Composition and Safety Issues in Fish Roe Products
-      (2020)
-    evidence_material: commercial salmon, trout or lumpfish roe
-    source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/
-    description: Contains omega-3 fatty acids; content varies with the roe product.
-    source_reference: '#food-source-7'
+      MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food
+      10140
+    evidence_material: chum salmon (Oncorhynchus keta), salted roe (ikura)
+    source_url: https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4
+    description: >-
+      Salted chum-salmon ikura contains 4,666 mg of identified n-3 fatty acids
+      per 100 g.
+    source_reference: '#food-source-8'
   - substance: Choline
     relationship: contains
     recovery_origin: legacy-tag-migration
@@ -161,26 +232,17 @@ substance_relationships:
       Contains choline bound in phosphatidylcholine; a separate total-choline
       amount is unavailable.
     source_reference: '#food-source-5'
-nutrition_unavailable: true
-composition_status: withdrawn
-composition_withdrawn:
-  withdrawn_record: >-
-    FDC 175132, Fish, roe, mixed species, raw (FDC 175132) — raw mixed-species
-    roe, not commercial cured ikura.
-  identity_failure: 'species: mixed-species roe does not establish salmon-specific composition'
-  reason: The composition record does not identify the named food and preparation.
-  queue: system/specialist-composition-review-queue.md
 substance_review_candidates: []
 ---
 ## Overview
 
-Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2], alongside **choline**, **vitamin B12**, **astaxanthin** and high-quality protein. This unusually concentrated combination makes small portions useful in preparations such as Neuroeshot. Most commercial ikura is cured in brine, however, so sodium varies considerably by product and should be checked on the label.
+Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2], alongside **choline**, **vitamin B12**, **astaxanthin** and high-quality protein. This unusually concentrated combination makes small portions useful in preparations such as Neuroeshot. The nutrient table is salted chum salmon ikura (*Oncorhynchus keta*).
 
 ## Key Nutritional Highlights
 
 - Roe is a phospholipid-rich marine matrix. The cited mechanistic studies concern phospholipid-form DHA, but they do not establish the proportion of EPA or DHA in particular lipid classes for this preparation [1,2].
 - **Astaxanthin** (carotenoid) is present, but its amount in a particular commercial product is not established without product-relevant analysis.
-- Most commercial **ikura** is brine-cured; sodium is formulation-specific and should be read from the product label.
+- The table is cured ikura. Sodium in that record is part of the salt cure.
 - **Freshness and cold chain** matter: oxidation risk rises with poor storage even if the matrix is phospholipid-bound.
 
 ## Food Context
@@ -194,7 +256,7 @@ Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2],
 
 - Prefer reputable suppliers with clear species and harvest region; frozen ikura is common and acceptable when thawed safely.
 - Colour and texture vary by species, diet, and season — not a reliable purity test on its own.
-- Retail ikura is usually cured; sodium varies by product, so use the product label.
+- The composition table is salted chum salmon (*Oncorhynchus keta*) ikura.
 
 ### Preparation
 
@@ -232,10 +294,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 [5] [Phospholipids of Animal and Marine Origin: Structure and Function (2018)](/docs/papers/BRAIN-Diet-References#food_composition_61edf925ad9f)
 
-<span id="food-source-6" />
+<span id="food-source-8" />
 
-[6] [Composition evidence for Commercial cured ikura — sodium](/docs/papers/BRAIN-Diet-References#food_composition_6c4050c3d29b)
-
-<span id="food-source-7" />
-
-[7] [Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)](/docs/papers/BRAIN-Diet-References#food_composition_5a40b36508dd)
+[8] [MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140, chum salmon salted roe (ikura)](https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7)

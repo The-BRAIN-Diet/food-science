@@ -238,8 +238,8 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-5" />
 
-[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_45c42cf7d90e)
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/172184/nutrients)
 
 <span id="food-source-6" />
 
-[6] [Sommerburg et al. (1998), Table 1](/docs/papers/BRAIN-Diet-References#food_composition_611f5fce395b)
+[6] [Sommerburg et al. (1998), Table 1](https://www.kinkiagri.or.jp/CropFFF/vegetables/Pdf/zeaxanthin1.pdf)

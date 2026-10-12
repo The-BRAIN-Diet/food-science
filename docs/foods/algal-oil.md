@@ -133,7 +133,7 @@ DHA is the principal identity constituent of typical authorised algal oils and i
 
 <span id="food-source-4" />
 
-[4] [EU authorised algal oil specifications](/docs/papers/BRAIN-Diet-References#food_composition_b03688d6f332)
+[4] [EU authorised algal oil specifications](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470)
 
 <span id="food-source-5" />
 

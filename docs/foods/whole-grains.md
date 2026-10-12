@@ -120,4 +120,4 @@ Grains such as whole grains are relatively higher in methionine but lysine-limit
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy, Wheat, hard red winter (FDC 168890)](/docs/papers/BRAIN-Diet-References#food_composition_0dca358f38cf)
+[3] [USDA SR Legacy, Wheat, hard red winter (FDC 168890)](https://fdc.nal.usda.gov/food-details/168890/nutrients)

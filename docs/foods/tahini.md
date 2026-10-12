@@ -256,4 +256,4 @@ Sesame is a major regulated food allergen. Tahini is a concentrated sesame paste
 
 <span id="food-source-9" />
 
-[9] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_e72a64dcd6a1)
+[9] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170189/nutrients)

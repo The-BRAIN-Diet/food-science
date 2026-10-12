@@ -328,7 +328,7 @@ Extra virgin olive oil is a culinary oil rich in oleic acid. It contains phenoli
 
 [2] Fielding & Rowley 2005. [Increases in plasma lycopene after tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005). Tomato–olive-oil cooking increased plasma lycopene; pairing/matrix evidence, not an extra-virgin-olive-oil-only trial.
 
-[3] [Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils](https://pmc.ncbi.nlm.nih.gov/articles/PMC6149152/). Individual phenolics and related derivatives; composition varies.
+[3] [Bendini et al. (2007), Phenolic Molecules in Virgin Olive Oils](/docs/papers/BRAIN-Diet-References#food_composition_2751bd2d180f). Individual phenolics and related derivatives; composition varies.
 
 <span id="food-source-4" />
 

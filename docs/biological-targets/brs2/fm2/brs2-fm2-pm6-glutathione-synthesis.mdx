@@ -18,6 +18,8 @@ key_constraints:
   - BRS2(KC2) - Methionine–Cysteine Sulfur Amino Acid Pool
 pm_kc_relationships:
   - relationship_id: BRS2-FM2-PM6-KCR-1
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
     pm_biological_role: >-
@@ -215,6 +217,8 @@ phenome_relationships:
         data_level: Human Study
 dietary_input_traceability:
   - atom_id: PM6-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Cysteine
     input_type: substrate
     biological_role: >-
@@ -242,6 +246,8 @@ dietary_input_traceability:
       This does not show that eating more cysteine, once intake is adequate,
       raises glutathione synthesis.
   - atom_id: PM6-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Glutamate
     input_type: substrate
     biological_role: >-
@@ -256,6 +262,8 @@ dietary_input_traceability:
       No human study in this assessment showed that changing dietary glutamate
       changes glutathione synthesis.
   - atom_id: PM6-DIT-3
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Glycine
     input_type: substrate
     biological_role: >-
@@ -272,6 +280,8 @@ dietary_input_traceability:
       In older adults glycine was supplemented together with a cysteine
       precursor, so that rise in erythrocyte synthesis does not isolate glycine.
   - atom_id: PM6-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: ATP
     input_type: substrate
     biological_role: >-
@@ -287,6 +297,8 @@ dietary_input_traceability:
       Diet does not supply ATP to these enzymes, and no dietary ATP lever is
       established.
   - atom_id: PM6-DIT-5
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Magnesium ions (Mg²⁺)
     input_type: catalytic ion
     biological_role: >-
@@ -301,6 +313,8 @@ dietary_input_traceability:
       Bound magnesium is a biochemical requirement of glutathione synthetase. It
       does not show that dietary magnesium intake changes glutathione synthesis.
   - atom_id: PM6-DIT-7
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: N-acetylcysteine
     input_type: precursor
     biological_role: >-
@@ -317,6 +331,8 @@ dietary_input_traceability:
       alone, of ordinary foods, or of supplementation outside that group, and it
       is not a neuronal or clinical result.
   - atom_id: PM6-DIT-9
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Methionine
     input_type: precursor
     biological_role: >-

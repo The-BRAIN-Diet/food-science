@@ -104,6 +104,8 @@ phenome_relationships:
         data_level: Cellular / Molecular
 dietary_input_traceability:
   - atom_id: PM5-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: >-
@@ -125,6 +127,8 @@ dietary_input_traceability:
       B6 restriction changed cystathionine handling but did not significantly
       reduce total transsulfuration in the assessed human tracer study.
   - atom_id: PM5-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B6
     input_type: cofactor precursor
     biological_role: >-
@@ -148,6 +152,8 @@ dietary_input_traceability:
       cystathionine handling but did not significantly reduce total
       transsulfuration in the assessed human tracer study.
   - atom_id: PM5-DIT-3
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Homocysteine
     input_type: substrate
     biological_role: >-
@@ -164,6 +170,8 @@ dietary_input_traceability:
       dietary intake, and its use by cystathionine beta-synthase does not show
       that diet controls transsulfuration flux.
   - atom_id: PM5-DIT-4
+    dietary_input: true
+    dietary_input_note: "The accepted serine limitation explicitly admits endogenous and dietary provision. This records supply, not increased flux from intake."
     input: Serine
     input_type: substrate
     biological_role: >-
@@ -180,6 +188,8 @@ dietary_input_traceability:
       both supply it; this does not show that dietary serine or protein intake
       increases cystathionine formation.
   - atom_id: PM5-DIT-5
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Cystathionine
     input_type: substrate
     biological_role: >-
@@ -195,6 +205,8 @@ dietary_input_traceability:
       Cystathionine is formed inside this pathway. It is not a dietary intake,
       and its cleavage does not measure whole-body transsulfuration flux.
   - atom_id: PM5-KC2-UPSTREAM-1
+    dietary_input: true
+    dietary_input_note: "Accepted upstream methionine provision through the sulfur-amino-acid resource pool; not a direct CBS substrate or an extra nutrient quantity."
     input: Methionine
     input_type: supported upstream supply
     biological_role: >-
@@ -1131,6 +1143,8 @@ kc_adjudication_history:
     review_record: system/kc-unresolved-decisions-reconciliation.md
 pm_kc_relationships:
   - relationship_id: PM5-KC2-METHIONINE-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC2)
     ikc_id: BRS2(KC2)
     relationship_type: supported-upstream-supply
@@ -1177,6 +1191,8 @@ pm_kc_relationships:
           compensation and benefit from extra methionine intake are not
           established.
   - relationship_id: PM5-KC1-COMBINED-DEPRIVATION
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: conditional-constraint

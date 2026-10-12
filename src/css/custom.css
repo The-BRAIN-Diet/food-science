@@ -2083,3 +2083,35 @@ main:has(.input-substance-food-review) .row > .col:has(.input-substance-food-rev
   white-space: normal;
   overflow-wrap: anywhere;
 }
+
+
+.mapping-brs-selector { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; }
+.mapping-brs-button {
+  min-width: 4.5rem; min-height: 3.5rem; padding: .65rem 1.25rem;
+  font-size: 1.5rem; font-weight: 700; line-height: 1;
+  border: 2px solid transparent; border-radius: .65rem;
+  background: var(--mapping-brs-color); color: #101820; cursor: pointer;
+}
+.mapping-brs-all { --mapping-brs-color: var(--ifm-color-emphasis-200); color: var(--ifm-font-color-base); font-size: 1rem; width: 4.5rem; padding: .65rem .5rem; }
+.mapping-brs-1 { --mapping-brs-color: #2090e0; }
+.mapping-brs-2 { --mapping-brs-color: #10d070; }
+.mapping-brs-3 { --mapping-brs-color: #e02020; color: #fff; }
+.mapping-brs-4 { --mapping-brs-color: #ffd000; }
+.mapping-brs-5 { --mapping-brs-color: #b0e040; }
+.mapping-brs-6 { --mapping-brs-color: #e09040; }
+.mapping-brs-button[aria-pressed="true"] { outline: 3px solid var(--ifm-font-color-base); outline-offset: 3px; }
+.mapping-brs-button:hover { filter: brightness(1.08); }
+.mapping-brs-button:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 4px; }
+.mapping-brs-summary p { margin: .35rem 0; }
+.mapping-brs-summary { margin-bottom: 1.25rem; }
+
+.recipe-method-photo {
+  margin: 1.75rem auto 2rem;
+  text-align: center;
+}
+
+.recipe-method-photo img {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+}

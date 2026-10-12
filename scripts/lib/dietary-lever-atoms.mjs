@@ -178,6 +178,7 @@ const COMPACT_INPUT_TYPE_LABEL = {
   cofactor: "Cofactor",
   "catalytic ion": "Catalytic Ion",
   "cofactor precursor": "Cofactor Precursor",
+  "regulatory modulator": "Regulatory Modulator",
   precursor: "Precursor",
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",

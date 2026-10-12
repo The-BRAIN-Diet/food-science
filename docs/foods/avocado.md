@@ -196,4 +196,4 @@ Within the BRAIN Diet, avocado is a whole-food fat source for salads and mixed d
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_05bc30f00d3a)
+[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171705/nutrients)

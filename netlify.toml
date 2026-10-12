@@ -1,0 +1,4 @@
+# Docusaurus client compilation exceeds Node's default ~2 GiB heap.
+# Keep headroom for the operating system and other build processes.
+[build.environment]
+  NODE_OPTIONS = "--max-old-space-size=4096"

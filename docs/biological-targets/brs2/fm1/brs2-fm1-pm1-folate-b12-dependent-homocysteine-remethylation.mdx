@@ -130,6 +130,15 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
+    dietary_input: true
+    dietary_input_note: >-
+      Foods directly supply preformed 5-methyltetrahydrofolate, including
+      polyglutamated forms deconjugated during intestinal absorption. Other
+      dietary folate forms can supply this target through folate metabolism
+      and MTHFR-dependent conversion. Form-specific presence is supported;
+      total folate values must not be relabelled as 5-MTHF quantities or added
+      to 5-MTHF as a separate independent nutrient supply.
+    substance_id: 5-methyltetrahydrofolate
     input: 5-Methyltetrahydrofolate
     input_type: substrate
     biological_role: >-
@@ -144,6 +153,8 @@ dietary_input_traceability:
       Necessity of 5-methyltetrahydrofolate does not show that raising its
       intake increases tissue methionine-synthase flux.
   - atom_id: PM1-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B9 (folate)
     input_type: substrate provision
     biological_role: >-
@@ -171,6 +182,10 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/nutrients/micronutrients/vitamins/vitamin-b9.md
   - atom_id: PM1-DIT-3
+    dietary_input: null
+    dietary_input_note: "Direct reaction-cofactor classification is retained, but the accepted overlay states that dietary cobalamin is processed to methylcobalamin and methylcobalamin is not an independent intake target. Dietary admission and this supply limitation require reconciliation; do not count it as a second supply alongside vitamin B12."
+    dietary_input_flags:
+      - section-supply-contradiction
     input: Methylcobalamin
     input_type: cofactor
     biological_role: >-
@@ -186,6 +201,8 @@ dietary_input_traceability:
       Cofactor necessity does not show that extra vitamin B12 increases tissue
       methionine-synthase flux when stores are already adequate.
   - atom_id: PM1-DIT-4
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin B12 (cobalamin)
     input_type: cofactor precursor
     biological_role: >-
@@ -202,6 +219,8 @@ dietary_input_traceability:
       homocysteine beyond folic acid in pooled trials, which remains a
       circulating marker.
   - atom_id: PM1-DIT-5
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Homocysteine
     input_type: substrate
     biological_role: >-
@@ -1076,6 +1095,8 @@ kc_adjudication_history:
     review_record: system/kc-unresolved-decisions-reconciliation.md
 pm_kc_relationships:
   - relationship_id: PM1-KC1-FOLATE-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

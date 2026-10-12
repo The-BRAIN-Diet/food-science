@@ -1,0 +1,195 @@
+[
+  {
+    "brs": "BRS3",
+    "dietary_input": {
+      "yes": 0,
+      "no": 0,
+      "unset": 17
+    },
+    "pms": 8,
+    "relationships": 17,
+    "accounting": {
+      "A": 7,
+      "B": 0,
+      "C": 4,
+      "D": 2,
+      "E": 4,
+      "unresolved": 0
+    },
+    "unique_dietary_substances": 0,
+    "unique_shared_pools": 1,
+    "food_source_materials": 0,
+    "quantified_observations": 0,
+    "qualitative_materials": 0,
+    "gaps": 19,
+    "conflicts": [],
+    "empty_pm_inventories": [
+      "BRS3-FM2-PM3",
+      "BRS3-FM3-PM7"
+    ]
+  },
+  {
+    "brs": "BRS4",
+    "dietary_input": {
+      "yes": 0,
+      "no": 0,
+      "unset": 12
+    },
+    "pms": 9,
+    "relationships": 12,
+    "accounting": {
+      "A": 7,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 5,
+      "unresolved": 0
+    },
+    "unique_dietary_substances": 0,
+    "unique_shared_pools": 0,
+    "food_source_materials": 0,
+    "quantified_observations": 0,
+    "qualitative_materials": 0,
+    "gaps": 25,
+    "conflicts": [],
+    "empty_pm_inventories": [
+      "BRS4-FM2-PM4",
+      "BRS4-FM2-PM5",
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
+      "BRS4-FM4-PM9"
+    ]
+  },
+  {
+    "brs": "BRS5",
+    "dietary_input": {
+      "yes": 0,
+      "no": 0,
+      "unset": 38
+    },
+    "pms": 8,
+    "relationships": 38,
+    "accounting": {
+      "A": 24,
+      "B": 0,
+      "C": 3,
+      "D": 4,
+      "E": 7,
+      "unresolved": 0
+    },
+    "unique_dietary_substances": 0,
+    "unique_shared_pools": 1,
+    "food_source_materials": 0,
+    "quantified_observations": 0,
+    "qualitative_materials": 0,
+    "gaps": 46,
+    "conflicts": [
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM1-PM1",
+        "atom_id": "PM1-DIT-3",
+        "input": "Retinoic acid",
+        "resolved_id": "retinoic-acid"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM1-PM1",
+        "atom_id": "PM1-DIT-6",
+        "input": "Glutamine",
+        "resolved_id": "glutamine"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM1-PM2",
+        "atom_id": "PM2-DIT-1",
+        "input": "Oligofructose",
+        "resolved_id": "oligofructose"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM2-PM4",
+        "atom_id": "PM4-DIT-3",
+        "input": "Resistant starch (RS2/RS3)",
+        "resolved_id": "resistant-starch"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-2",
+        "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+        "resolved_id": "fructo-galacto-oligosaccharides"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM2-PM5",
+        "atom_id": "PM5-DIT-3",
+        "input": "Pectin",
+        "resolved_id": "pectin"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM2-PM6",
+        "atom_id": "PM6-DIT-1",
+        "input": "Ellagic acid",
+        "resolved_id": "ellagic-acid"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM2-PM6",
+        "atom_id": "PM6-DIT-2",
+        "input": "Ellagitannins",
+        "resolved_id": "ellagitannins"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM3-PM7",
+        "atom_id": "PM7-DIT-2",
+        "input": "Glucose",
+        "resolved_id": "glucose"
+      },
+      {
+        "kind": "stale-missing-substance-status",
+        "pm_id": "BRS5-FM3-PM7",
+        "atom_id": "PM7-DIT-3",
+        "input": "Glutamate",
+        "resolved_id": "glutamate"
+      }
+    ],
+    "empty_pm_inventories": []
+  },
+  {
+    "brs": "BRS6",
+    "dietary_input": {
+      "yes": 0,
+      "no": 0,
+      "unset": 1
+    },
+    "pms": 8,
+    "relationships": 1,
+    "accounting": {
+      "A": 1,
+      "B": 0,
+      "C": 0,
+      "D": 0,
+      "E": 0,
+      "unresolved": 0
+    },
+    "unique_dietary_substances": 0,
+    "unique_shared_pools": 0,
+    "food_source_materials": 0,
+    "quantified_observations": 0,
+    "qualitative_materials": 0,
+    "gaps": 10,
+    "conflicts": [],
+    "empty_pm_inventories": [
+      "BRS6-FM1-PM1",
+      "BRS6-FM1-PM2",
+      "BRS6-FM2-PM4",
+      "BRS6-FM3-PM6",
+      "BRS6-FM3-PM7",
+      "BRS6-FM4-PM8",
+      "BRS6-FM4-PM9"
+    ]
+  }
+]

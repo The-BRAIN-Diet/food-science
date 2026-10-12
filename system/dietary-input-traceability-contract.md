@@ -687,6 +687,12 @@ relabel a capacity relationship as regulation to gain admission. Do not describe
 regulation as biological dependency, substrate requirement, deficiency
 prevention, or nutritional necessity unless that stronger claim is established.
 
+### Direct Regulatory Modulator admission
+
+A nonessential food-derived compound may qualify as a **Direct Regulatory Modulator** when reproducible experimental evidence establishes modulation of this PM's defined biological mechanism and credible dietary-exposure evidence supports delivery of the active compound. Human target-engagement evidence strengthens admission but is distinct from clinical efficacy. Mechanistic plausibility or food presence alone is insufficient.
+
+Use the compound as the dietary input, `input_type: regulatory modulator`, `requirement_classification: direct`, `relationship_mode: state-regulation` and an evidence-supported claim ceiling. Direct describes relationship distance, not essentiality, deficiency prevention or an effective dose in every food serving. Record the tested formulation, preparation, tissue and population in the evidence and limitation. Do not substitute a preparation SOP for the compound or mix the two admissions: separately admitted preparation practices remain in §3.2. Food-source mapping is not a claim that every listed preparation reproduces target engagement. Keep human peripheral target engagement, human brain engagement and clinical/ADHD efficacy separate.
+
 `Direct` and `Derived` classify **relationship distance**, not evidence strength.
 
 - **Direct:** the dietary input itself has the evidence-supported relationship to
@@ -2602,3 +2608,9 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+### Active reaction forms and dietary supply
+
+A Direct label for an enzyme substrate or cofactor does not by itself establish independent dietary supply of that exact form. Read the accepted lever overlay, supply route and limitation together. Where dietary precursors supply an intracellular active form, retain both biological identities and the existing Direct/Derived classification, but do not admit a second dietary supply by section location alone. If admission and supply metadata conflict, set `dietary_input: null` with `section-supply-contradiction` until reconciled. Missing food composition data alone is not a contradiction and must not change an admitted Yes to No.
+
+Preformed 5-MTHF in food and conversion from other dietary folates are distinct supported routes to the same reaction target. Direct dietary presence can establish Yes even when no extra-intake benefit is shown. A folate vitamer is part of the folate family: never add its amount to total folate as though these were disjoint nutrient supplies. Preserve analyte-specific observations.

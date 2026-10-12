@@ -82,3 +82,12 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+## Preparation and relationship filters for the BRS1 review index
+
+The initial preparation selection is **All preparations**. Include all eligible verified per-100 g observations with their source-specific preparation and measurement basis. Preserve multiple observations; do not average or merge incompatible states. Mixed preparations/bases and overlapping ranges use alphabetical display, not a precise cross-state ranking. A preparation filter narrows food observations, not scientific admissions. The main preview has at most ten material/preparation sources; do not place quantified cooked or dried records in qualitative sources solely because another state has more records.
+
+Ownership is a PM–input relationship property. Initial independent checkboxes select both **PM-owned dietary relationships** (accepted A relationships with Dietary input Yes) and **Upstream/shared relationships** (accepted B/C dietary supply references plus D pool references). D remains a pool reference, not a nutrient amount. Filter relationships first, then generate all three views and visible relationship/substance/food/pool counts from the selected connections. Each remaining substance and food must have a selected dietary relationship. Neither selected yields empty dietary views. Retain unique constituent amounts regardless of reach.
+
+Display each relationship’s designation beside its PM/section connection. Do not label a substance globally as owned or upstream. No/unset biological context remains in a separate disclosure independent of these checkboxes. Dietary Yes with an incompatible/missing accounting designation is explicitly unresolved there; do not infer a category. Search applies within the projected view and reports matching rows separately from relationship-selection totals.

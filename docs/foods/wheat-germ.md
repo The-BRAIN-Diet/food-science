@@ -236,7 +236,7 @@ Grains such as wheat germ are relatively higher in methionine but lysine-limited
 
 <span id="food-source-4" />
 
-[4] [USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)](/docs/papers/BRAIN-Diet-References#food_composition_1c40a9e2ddd3)
+[4] [USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)](https://fdc.nal.usda.gov/food-details/173896/nutrients)
 
 <span id="food-source-5" />
 

@@ -58,7 +58,53 @@ nutrition_source:
 main_image: /img/foods/cauliflower/cauliflower_medium.webp
 legacy_list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp
+nutrition_supplementary_sources:
+  - key: 5_mthf_wang_2010
+    label: 5-Methyltetrahydrofolate
+    substance_id: 5-methyltetrahydrofolate
+    value: 92
+    unit: µg
+    basis: per 100 g fresh edible material
+    preparation_state: raw
+    evidence_material: Raw vegetable, analytical sample treated for folate extraction
+    chemical_form: 5-MTHF equivalents, summed monoglutamate and polyglutamate species
+    source_url: https://pubmed.ncbi.nlm.nih.gov/20888309/
+    source_reference: Wang, Riedl and Schwartz (2010), Journal of Chromatography B 878(29), 2949–2958, Table 5
+    original_observation:
+      value: 2001
+      unit: pmol/g
+      basis: wet weight
+      analyte: Sum of 5-MTHF Glu1–Glu8 species
+    calculation:
+      expression: pmol/g × 459.5 × 0.0001
+      molecular_weight_g_per_mol: 459.5
+      output_unit: µg/100 g as monoglutamate 5-MTHF equivalents
+      rounding: nearest whole µg
+    source_note: >-
+      Calculated from the reported Table 5 molar sum, not directly reported
+      mass concentration. Includes polyglutamate species as monoglutamate
+      equivalents, not their intact molecular masses. Glu8 response was
+      estimated by calibration extrapolation; no Glu8 was detected in this cauliflower sample.
+      Analytical steaming was extraction treatment, not a cooked-food state.
+      One study sample does not establish universal food composition; do not
+      add this vitamer value to total folate as an independent nutrient supply.
 substance_relationships:
+  - substance: 5-Methyltetrahydrofolate
+    substance_id: 5-methyltetrahydrofolate
+    relationship: contains
+    evidence_material: Raw vegetable, analytical sample treated for folate extraction
+    preparation_state: raw
+    chemical_form: Monoglutamyl and polyglutamyl 5-methyltetrahydrofolate
+    source_url: https://pubmed.ncbi.nlm.nih.gov/20888309/
+    evidence_source: >-
+      Wang, Riedl and Schwartz (2010), Journal of Chromatography B,
+      878(29):2949–2958. DOI: 10.1016/j.jchromb.2010.08.043.
+      Form-specific HPLC-MS/MS analysis of store-bought vegetables.
+    material_limitations: >-
+      Supports form-specific 5-MTHF presence. The extraction included analytical
+      steaming; this is not a cooked-food composition observation. Table 5 quantities and their conversion are recorded separately
+      in nutrition_supplementary_sources. The total-folate panel is a different analyte
+      and must not be used as a 5-MTHF quantity.
   - substance: Vitamin B9
     relationship: contains
     description: >-

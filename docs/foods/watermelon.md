@@ -205,4 +205,4 @@ Watermelon is included because it contributes to a connected biological network 
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_8d6250372e28)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167765/nutrients)

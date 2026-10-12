@@ -312,4 +312,4 @@ Sesame is a major regulated food allergen. Reactions can be severe, and cross-co
 
 <span id="food-source-12" />
 
-[12] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_a3f9bbec0035)
+[12] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170150/nutrients)

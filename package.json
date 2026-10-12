@@ -112,7 +112,16 @@
     "typecheck": "tsc",
     "prepare": "husky",
     "mappings:brs1": "node scripts/generate-input-substance-food.mjs",
-    "test:input-substance-food": "node --test scripts/input-substance-food.test.mjs"
+    "test:input-substance-food": "node --test scripts/input-substance-food.test.mjs",
+    "mappings:brs2": "node scripts/generate-input-substance-food.mjs --brs BRS2",
+    "mappings:brs3": "node scripts/generate-input-substance-food.mjs --brs BRS3",
+    "mappings:brs4": "node scripts/generate-input-substance-food.mjs --brs BRS4",
+    "mappings:brs5": "node scripts/generate-input-substance-food.mjs --brs BRS5",
+    "mappings:brs6": "node scripts/generate-input-substance-food.mjs --brs BRS6",
+    "mappings:all": "node scripts/generate-all-input-mappings.mjs",
+    "mappings:food-strategies": "node scripts/generate-food-strategy-rollup.mjs",
+    "prestart": "node scripts/generate-all-input-mappings.mjs",
+    "prebuild": "node scripts/generate-all-input-mappings.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
