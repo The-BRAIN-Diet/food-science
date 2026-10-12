@@ -16,6 +16,8 @@ cofactors:
   - Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
 dietary_input_traceability:
   - atom_id: PM9-DIT-1
+    dietary_input: false
+    dietary_input_note: "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM."
     input: Glutamate
     input_type: substrate
     biological_role: Substrate for GAD-dependent GABA synthesis
@@ -29,6 +31,9 @@ dietary_input_traceability:
       glutamate or protein controls neuronal glutamate availability or human
       brain GABA synthesis.
   - atom_id: PM9-DIT-2
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: Required cofactor for GAD-dependent conversion of glutamate to GABA
@@ -41,6 +46,8 @@ dietary_input_traceability:
       The evidence establishes PLP dependence of GAD, but not dietary PLP
       provision or an intake-to-synthesis response in humans.
   - atom_id: PM9-DIT-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B6
     input_type: cofactor precursor
     biological_role: >-

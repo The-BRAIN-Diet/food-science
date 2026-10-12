@@ -67,6 +67,8 @@ const unpublishedSitemapIgnore = [
   '/docs/therapeutic-areas/depressive-disorders/',
 ];
 const sitemapIgnore = [
+  '/docs/system/brs1-substance-index{,/**}',
+  '/docs/system/brs1-input-substance-food{,/**}',
   ...(includeInternalDocs ? [] : unpublishedSitemapIgnore),
   ...(includeWipRecipes ? [] : wipSitemapIgnore),
   ...(includeInternalDocs ? [] : localOnlySitemapIgnore),
@@ -431,6 +433,7 @@ const config: Config = {
   "plugins": [
     localInternalDocsPlugin,
     './src/plugin/category-listing',
+    './src/plugin/input-substance-food',
     './src/plugin/ontology-projection',
     [
       './src/plugin/bibtex-loader',

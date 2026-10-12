@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { usePluginData } from "@docusaurus/useGlobalData";
+import { attachInputFoodDisclosure, type MappingData } from "@site/src/lib/pmInputFoodDisclosure";
 import { useDoc } from "@docusaurus/plugin-content-docs/client";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import {
@@ -56,6 +58,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>
       <p class="brs-dietary-lever-detail-evidence"><span class="brs-dietary-lever-detail-k">Evidence source</span> = ${renderEvidenceLinks(d.evidenceReferences)}</p>
       ${limitation}
+      ${d.dietaryInput !== undefined ? `<p><span class="brs-dietary-lever-detail-k">Dietary input</span> = ${d.dietaryInput === true ? "Yes" : d.dietaryInput === false ? "No" : "Unset — clarification required"}${d.dietaryInputNote ? `<br />${escapeHtml(d.dietaryInputNote)}` : ""}</p>` : ""}
       ${buildResearchLinkHtml(d)}
     </div>
   `.trim();
@@ -158,7 +161,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   trigger.className = "brs-dietary-lever-trigger";
   trigger.setAttribute("aria-expanded", "false");
   trigger.setAttribute("aria-haspopup", "dialog");
-  trigger.title = "View five-field evidence";
+  trigger.title = "View input evidence";
   trigger.textContent = parsed.label;
 
   const titleLink = disclosure.titleHref ? document.createElement("a") : null;
@@ -214,7 +217,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   detail.hidden = true;
   detail.setAttribute("role", "dialog");
   detail.setAttribute("aria-modal", "false");
-  detail.setAttribute("aria-label", `${disclosure.title} — five-field evidence`);
+  detail.setAttribute("aria-label", `${disclosure.title} — input evidence`);
   detail.innerHTML = buildDetailHtml(disclosure);
 
   li.textContent = "";
@@ -298,7 +301,7 @@ function enhanceEvidenceTitle(
 
   host.dataset.brsDietaryLeverInit = "true";
   const detailId = `brs-emerging-support-${Math.random().toString(36).slice(2, 9)}`;
-  trigger.title = "View five-field evidence; activate to expand research details";
+  trigger.title = "View input evidence; activate to expand research details";
 
   const detail = document.createElement("div");
   detail.id = detailId;
@@ -306,7 +309,7 @@ function enhanceEvidenceTitle(
   detail.hidden = true;
   detail.setAttribute("role", "dialog");
   detail.setAttribute("aria-modal", "false");
-  detail.setAttribute("aria-label", `${disclosure.title} — five-field evidence`);
+  detail.setAttribute("aria-label", `${disclosure.title} — input evidence`);
   detail.innerHTML = buildDetailHtml(disclosure);
   host.append(detail);
 
@@ -345,6 +348,7 @@ function enhanceEvidenceTitle(
 }
 
 export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.ReactNode {
+  const inputFoodData = usePluginData("input-substance-food") as MappingData;
   const { metadata } = useDoc();
   const { siteConfig } = useDocusaurusContext();
   const canonicalPmUrl = new URL(metadata.permalink, siteConfig.url).href;
@@ -415,17 +419,25 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
 
     root.querySelectorAll("li").forEach((li) => {
       if (!(li instanceof HTMLLIElement)) return;
-      const parsed = parseLeverBullet(li.textContent || "");
+      const parsed = li.dataset.pmInputLabel
+        ? { label: li.dataset.pmInputLabel, foods: li.dataset.pmInputFoods || "" }
+        : parseLeverBullet(li.textContent || "");
       if (!parsed) return;
-      const section = presentationSectionForListItem(li);
+      const section = li.dataset.pmInputSection || presentationSectionForListItem(li);
       const disclosure =
         map.get(dietaryLeverBulletKey(parsed.label, parsed.foods, section)) ||
         map.get(dietaryLeverBulletKey(parsed.label, parsed.foods));
-      if (disclosure) enhanceListItem(li, disclosure, root);
+      if (disclosure) {
+        li.dataset.pmInputLabel = parsed.label;
+        li.dataset.pmInputFoods = parsed.foods || "";
+        li.dataset.pmInputSection = section;
+        enhanceListItem(li, disclosure, root);
+        attachInputFoodDisclosure(li, inputFoodData, String(frontMatter.pm_id || ""), parsed.label, section);
+      }
     });
 
     return () => document.removeEventListener("click", onDocClick);
-  }, [frontMatter, canonicalPmUrl]);
+  }, [frontMatter, canonicalPmUrl, inputFoodData]);
 
   return null;
 }

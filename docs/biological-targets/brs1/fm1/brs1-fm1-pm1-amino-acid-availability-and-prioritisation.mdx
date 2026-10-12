@@ -28,6 +28,8 @@ mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Indispensable amino-acid supply
     input_type: nutrient/compound class
     biological_role: >-
@@ -47,6 +49,9 @@ dietary_input_traceability:
       improves attention or mood. The indispensable set includes phenylalanine;
       tyrosine is not an indispensable amino acid.
   - atom_id: PM1-DIT-4
+    dietary_input: null
+    dietary_input_note: "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No."
+    dietary_input_flags: ["dietary-supply-unresolved"]
     input: Tyrosine
     input_type: substrate
     biological_role: >-
@@ -68,6 +73,8 @@ dietary_input_traceability:
       evidence-scope decision, not a claim that phenylalanine is absent from the
       indispensable pool.
   - atom_id: PM1-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Tryptophan
     input_type: substrate
     biological_role: >-

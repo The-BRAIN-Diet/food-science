@@ -716,6 +716,8 @@ scientific_findings_intro: >-
 phenome_relationships: []
 dietary_input_traceability:
   - atom_id: PM12-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Choline
     input_type: precursor
     biological_role: >-
@@ -745,6 +747,8 @@ dietary_input_traceability:
         pm_id: BRS2-FM3-PM7
         href: /docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation
   - atom_id: PM12-DIT-2
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Uridine
     input_type: precursor
     biological_role: >-
@@ -761,20 +765,22 @@ dietary_input_traceability:
       Endogenous nucleotide synthesis and salvage also contribute. UMP alone did not significantly
       increase gerbil spine density; that null structural result does not erase the precursor role.
       No ordinary-food dose or human structural benefit is established.
+    substance_id: uridine
     canonical_identity:
-      status: missing-substance
-      intended_identity: Uridine
-      aliases_checked:
-        - uridine
-        - UMP (distinct phosphorylated form)
-        - uridine monophosphate
-      severity: MAJOR
+      status: resolved
+      substance_id: uridine
+      substance_href: /docs/substances/bioactive-compounds/uridine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/uridine.md
     upstream_pm_relationships:
       - relationship_label: Membrane synthesis
         pm_short_id: BRS2 PM7
         pm_id: BRS2-FM3-PM7
         href: /docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation
   - atom_id: PM12-DIT-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Docosahexaenoic acid (DHA)
     input_type: nutrient/substance
     biological_role: >-
@@ -1040,26 +1046,6 @@ stage2ab_assessment_history:
       Formation, stabilisation, remodelling and elimination; separate development, healthy
       adaptation, ageing and injury.
 pending_actions:
-  - input: Uridine
-    pm_id: BRS1-FM5-PM12
-    pm_atom_id: PM12-DIT-2
-    relationship_type: dietary-provision
-    severity: MAJOR
-    status: pending
-    intended_identity: Uridine (distinct from UMP)
-    candidate_records_checked:
-      - registry/substances.json
-      - docs/substances
-    aliases_checked:
-      - uridine
-      - UMP
-      - uridine monophosphate
-    required_action: >-
-      Resolve or create the canonical substance identity through the existing workflow, coordinated
-      with PM7-DIT-7; do not guess an ID or publish identity-based projections.
-    subsequent_food_assessment: >-
-      Assess composition-backed food provision only after identity repair; no food ranking is
-      created.
   - input: Spermidine
     pm_id: BRS1-FM5-PM12
     pm_atom_id: PM12-SOP-2

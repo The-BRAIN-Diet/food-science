@@ -1,0 +1,416 @@
+[
+  {
+    "relationship_id": "BRS1-FM1-PM1::PM1-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#dietary_input_traceability/PM1-DIT-1",
+    "input": "Indispensable amino-acid supply",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM1::PM1-DIT-4",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#dietary_input_traceability/PM1-DIT-4",
+    "input": "Tyrosine",
+    "dietary_input": null,
+    "note": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
+    "flags": [
+      "dietary-supply-unresolved"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM1::PM1-DIT-5",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx#dietary_input_traceability/PM1-DIT-5",
+    "input": "Tryptophan",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM2::PM2-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx#dietary_input_traceability/PM2-DIT-3",
+    "input": "Meal carbohydrate-to-protein composition",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM2::PM2-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx#dietary_input_traceability/PM2-DIT-1",
+    "input": "Tyrosine",
+    "dietary_input": null,
+    "note": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
+    "flags": [
+      "dietary-supply-unresolved"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM2::PM2-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx#dietary_input_traceability/PM2-DIT-2",
+    "input": "Tryptophan",
+    "dietary_input": null,
+    "note": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
+    "flags": [
+      "dietary-supply-unresolved"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-BRS1-KC1-PRECURSOR",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#pm_kc_relationships/BRS1-PM3-BRS1-KC1-PRECURSOR",
+    "input": "Monoamine precursor supply",
+    "dietary_input": false,
+    "note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-BRS2-KC1-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#pm_kc_relationships/BRS1-PM3-BRS2-KC1-SUPPLY",
+    "input": "Methyl-resource supply for COMT",
+    "dietary_input": false,
+    "note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "Iron",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "dietary_input": null,
+    "note": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-3",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-5",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-5",
+    "input": "Tyrosine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-DIT-4",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-DIT-4",
+    "input": "Tetrahydrobiopterin (BH4)",
+    "dietary_input": false,
+    "note": "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-1",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-2",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::BRS1-PM3-KC1-DONOR-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/BRS1-PM3-KC1-DONOR-3",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM3::PM3-KC1-PHENYLALANINE-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#dietary_input_traceability/PM3-KC1-PHENYLALANINE-SUPPLY",
+    "input": "Phenylalanine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-BRS1-KC1-PRECURSOR",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#pm_kc_relationships/BRS1-PM4-BRS1-KC1-PRECURSOR",
+    "input": "Monoamine precursor supply",
+    "dietary_input": false,
+    "note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-BRS2-KC1-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#pm_kc_relationships/BRS1-PM4-BRS2-KC1-SUPPLY",
+    "input": "Methyl-resource supply for COMT",
+    "dietary_input": false,
+    "note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-1",
+    "input": "Iron",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "dietary_input": null,
+    "note": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-3",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-4",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-4",
+    "input": "Copper",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-DIT-5",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-DIT-5",
+    "input": "Vitamin C (ascorbate)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-KC1-TYROSINE-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-KC1-TYROSINE-SUPPLY",
+    "input": "Tyrosine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-1",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-2",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-2",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::BRS1-PM4-KC1-DONOR-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/BRS1-PM4-KC1-DONOR-3",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM4::PM4-KC1-PHENYLALANINE-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx#dietary_input_traceability/PM4-KC1-PHENYLALANINE-SUPPLY",
+    "input": "Phenylalanine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-1",
+    "input": "Tryptophan",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-5",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-5",
+    "input": "Iron",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-3",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "dietary_input": null,
+    "note": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-4",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-4",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM1-PM5::PM5-DIT-6",
+    "source_record": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx#dietary_input_traceability/PM5-DIT-6",
+    "input": "Tetrahydrobiopterin (BH4)",
+    "dietary_input": false,
+    "note": "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-1",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-2",
+    "input": "Phosphatidylcholine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-3",
+    "input": "Acetyl-CoA",
+    "dietary_input": false,
+    "note": "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-4",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-4",
+    "input": "Vitamin B5 (pantothenate)",
+    "dietary_input": true,
+    "note": "Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM2-PM6::PM6-DIT-5",
+    "source_record": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx#dietary_input_traceability/PM6-DIT-5",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::BRS1-PM7-BRS2-KC1-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#pm_kc_relationships/BRS1-PM7-BRS2-KC1-SUPPLY",
+    "input": "Methyl-derived DHA-carrier supply",
+    "dietary_input": false,
+    "note": "Pool/constraint reference; constituent dietary supply is recorded separately.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::PM7-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-DIT-1",
+    "input": "DHA",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::PM7-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-DIT-2",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::PM7-KC1-FOLATE-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-KC1-FOLATE-SUPPLY",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM3-PM7::PM7-KC1-BETAINE-SUPPLY",
+    "source_record": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx#dietary_input_traceability/PM7-KC1-BETAINE-SUPPLY",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM9::PM9-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx#dietary_input_traceability/PM9-DIT-1",
+    "input": "Glutamate",
+    "dietary_input": false,
+    "note": "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM9::PM9-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx#dietary_input_traceability/PM9-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "dietary_input": null,
+    "note": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
+    "flags": [
+      "section-supply-contradiction"
+    ]
+  },
+  {
+    "relationship_id": "BRS1-FM4-PM9::PM9-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx#dietary_input_traceability/PM9-DIT-3",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM5-PM12::PM12-DIT-1",
+    "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#dietary_input_traceability/PM12-DIT-1",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM5-PM12::PM12-DIT-2",
+    "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#dietary_input_traceability/PM12-DIT-2",
+    "input": "Uridine",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS1-FM5-PM12::PM12-DIT-3",
+    "source_record": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx#dietary_input_traceability/PM12-DIT-3",
+    "input": "Docosahexaenoic acid (DHA)",
+    "dietary_input": true,
+    "note": "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.",
+    "flags": []
+  }
+]

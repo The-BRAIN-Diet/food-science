@@ -470,9 +470,14 @@ dietary_input_traceability:
       Rat-slice and oral-UMP gerbil results do not establish an ordinary-food
       dose, increased human PC flux or cognitive benefit; human MRS measures
       precursor pools.
+    substance_id: uridine
     canonical_identity:
-      status: missing-substance
-      severity: MAJOR
+      status: resolved
+      substance_id: uridine
+      substance_href: /docs/substances/bioactive-compounds/uridine
+      verified_against:
+        - registry/substances.json
+        - docs/substances/bioactive-compounds/uridine.md
   - atom_id: PM7-DIT-8
     input: Cytidine triphosphate (CTP)
     input_type: substrate
@@ -1803,25 +1808,6 @@ kc_adjudication_history:
       derivation. No stronger scientific admission.
     review_record: system/kc-unresolved-decisions-reconciliation.md
 pending_actions:
-  - input: Uridine
-    pm_id: BRS2-FM3-PM7
-    pm_atom_id: PM7-DIT-7
-    relationship_type: dietary-provision
-    severity: MAJOR
-    status: pending
-    intended_identity: Uridine
-    candidate_records_checked:
-      - registry/substances.json
-      - docs/substances
-    aliases_checked:
-      - uridine
-      - UMP (distinct phosphorylated form)
-    required_action: >-
-      Resolve canonical identity through the existing registration workflow; do
-      not invent an ID or project a missing identity.
-    subsequent_food_assessment: >-
-      After identity resolution, assess source-backed food provision and
-      preparation; no ranking or ordinary-food target is established.
   - input: Cytidine triphosphate (CTP)
     pm_id: BRS2-FM3-PM7
     pm_atom_id: PM7-DIT-8

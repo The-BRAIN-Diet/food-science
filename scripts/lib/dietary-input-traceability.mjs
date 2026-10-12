@@ -1,5 +1,5 @@
 /**
- * PM Evidence layer — canonical five-atom lever evidence relationships.
+ * PM Evidence layer — canonical six-atom dietary evidence relationships.
  * @see system/dietary-input-traceability-contract.md
  */
 
@@ -97,6 +97,12 @@ export function validateDietaryInputTraceability(data, issues, { entityLabel }) 
     }
     if (!row?.evidence_limitation?.trim()) {
       push(issues, "dit_missing_limitation", `${label} requires evidence_limitation`);
+    }
+    if (row.dietary_input !== undefined && row.dietary_input !== null && typeof row.dietary_input !== "boolean") {
+      push(issues, "dit_invalid_dietary_input", `${label} dietary_input must be true, false or null (unset)`);
+    }
+    if (row.dietary_input === null && !row.dietary_input_note?.trim()) {
+      push(issues, "dit_unset_dietary_input_note", `${label} unset dietary_input requires a specific clarification note`);
     }
     const es = row?.evidence_source;
     if (!es || typeof es !== "object") {

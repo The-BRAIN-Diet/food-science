@@ -110,7 +110,9 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "prepare": "husky"
+    "prepare": "husky",
+    "mappings:brs1": "node scripts/generate-input-substance-food.mjs",
+    "test:input-substance-food": "node --test scripts/input-substance-food.test.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",

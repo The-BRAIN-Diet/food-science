@@ -36,6 +36,9 @@ scientific_findings_intro: >-
   outcomes.
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
+    dietary_input: null
+    dietary_input_note: "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No."
+    dietary_input_flags: ["dietary-supply-unresolved"]
     input: Tyrosine
     input_type: substrate
     biological_role: Large-neutral amino acid that competes for LAT1-mediated brain entry
@@ -48,6 +51,9 @@ dietary_input_traceability:
       Competitive transport biology does not establish that eating more tyrosine
       increases brain tyrosine or catecholamine signalling.
   - atom_id: PM2-DIT-2
+    dietary_input: null
+    dietary_input_note: "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No."
+    dietary_input_flags: ["dietary-supply-unresolved"]
     input: Tryptophan
     input_type: substrate
     biological_role: Large-neutral amino acid that competes for LAT1-mediated brain entry
@@ -63,6 +69,8 @@ dietary_input_traceability:
       Meal-driven changes in plasma tryptophan-to-LNAA ratios do not establish
       increased brain serotonin or a clinical benefit.
   - atom_id: PM2-DIT-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Meal carbohydrate-to-protein composition
     input_type: dietary pattern
     biological_role: >-
@@ -128,6 +136,8 @@ dietary_lever_presentations:
     presentation_section: 3.1.2
 pm_kc_relationships:
   - relationship_id: BRS1-FM1-PM2-KCR-1
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS1(KC1)
     pm_biological_role: >-
       This PM governs meal-level LAT1 competitive balance among large neutral

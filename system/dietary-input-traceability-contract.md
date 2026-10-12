@@ -194,24 +194,25 @@ can consume PM evidence without reconstructing biological roles or provenance fr
 
 ---
 
-## 1. Canonical five-atom structure
+## 1. Canonical six-atom dietary structure
 
 For every **dietary-relevant** relationship established by PM evidence, preserve
-the five mandatory atomic fields:
+the six atomic fields (unset dietary decisions require a clarification note):
 
-`Input | Input type | Biological role | Evidence source | Limitation`
+`Input | Input type | Biological role | Evidence source | Limitation | Dietary input`
 
 | Atom | Meaning |
 |------|---------|
-| **Input** | Evidence-supported dietary-facing identifier at the granularity actually established (for example a substance, class, component, food group, matrix, pattern, preparation characteristic, or other defined exposure). When that identifier has a page in this system, the Input value inside the five-atom disclosure links to it. The compact heading above the disclosure does not. |
+| **Input** | Evidence-supported dietary-facing identifier at the granularity actually established (for example a substance, class, component, food group, matrix, pattern, preparation characteristic, or other defined exposure). When that identifier has a page in this system, the Input value inside the six-atom dietary disclosure links to it. The compact heading above the disclosure does not. |
 | **Input type** | Category of input (see § Input types) |
 | **Biological role** | What job this input performs in the mechanism biology (public science; not ownership or page-maintenance language) |
 | **Evidence source** | What supports **that biological role** — at least one resolvable Scientific Finding id and PM-bibliography `citation_key` |
 | **Limitation** | Concise boundary preventing interpretation beyond the linked Finding and citation |
+| **Dietary input** | Yes / No / Unset; authoritative `dietary_input` boolean or null, independent of accounting and ownership |
 
-Together these form the canonical reader-facing five-atom structure:
+Together these form the canonical reader-facing six-atom dietary structure:
 
-`Input | Input type | Biological role | Evidence source | Limitation`
+`Input | Input type | Biological role | Evidence source | Limitation | Dietary input`
 
 **Limitation is mandatory relationship currency, not a separate research exercise.**
 Derive it from the existing adjudication and cited Evidence Source; do not initiate a
@@ -219,7 +220,7 @@ separate search for a “limitation reference.”
 
 **Input page link.** Every admitted lever on a PM, SM, or KC page links its Input
 to that input’s page when the page exists in this system. The link is the Input
-value inside the five-atom disclosure only. Do not link the compact heading above
+value inside the six-atom dietary disclosure only. Do not link the compact heading above
 it. “Glutathione — Biochemical requirement” stays plain text; the disclosed
 `Input = Glutathione` links to the glutathione page. Resolve the page from the
 substance pages already published. Do not invent a page. Do not match a longer
@@ -299,7 +300,7 @@ That is not a licence to treat every modulation paper as a Dietary Requirement.
 Not every dietary exposure belongs in §3.1.1. Empty §3.1.1 remains valid.
 
 Granularity does not add or rename an atom. The canonical structure remains
-`Input | Input type | Biological role | Evidence source | Limitation`;
+`Input | Input type | Biological role | Evidence source | Limitation | Dietary input`;
 the generic name **Input** is intentional.
 
 ---
@@ -841,7 +842,7 @@ The **dietary-input label** is the evidence-bearing UI object:
 - **Default:** show the dietary input only; indicate that more information is available
   (e.g. underlined / interactive label).
 - **Hover, keyboard focus, or tap:** expose the five mandatory fields in a compact
-  disclosure: `Input | Input type | Biological role | Evidence source | Limitation`.
+  disclosure: `Input | Input type | Biological role | Evidence source | Limitation | Dietary input`.
 - **Evidence/reference control:** navigates to the canonical reference in the PM
   References section. On first mention, reader-facing evidence uses
   `Author et al. (year) [n]` (or both author names for a two-author study), with
@@ -2568,3 +2569,36 @@ Run `node --test scripts/stage2b-kc-documented-cases.test.mjs scripts/upstream-r
 Direct and upstream KC pool relationships are both allowed in canonical §3.1.3 (visible §1.1.3), subject to independently established KC applicability and PM-specific evidence. Neither relationship type exempts the pool from comparison with dietary levers in §3.1.1 (visible §1.1.1): a pool disclosure must not repeat their provision relationship. A direct shared-pool relationship can remain when it describes a distinct supported biological role or context; an upstream relationship must establish its actual supply chain and also avoid duplicate provision. Do not require every direct pool relationship to be upstream, and do not manufacture a limiting effect to justify placement.
 
 A defined pool independently admitted as a Direct dietary requirement may itself remain in §3.1.1. Pool identity alone does not make it a Key Constraint. KC membership or supply does not automatically admit a dietary lever or substrate. Review both scientific applicability and public distinctness; preserve accepted applicability, canonical substrate relationships, evidence, upstream links and decision history when consolidating duplicate presentation. Food/macronutrient delivery of an already identified requirement does not establish another requirement.
+
+## Generated food-source joins
+
+`system/input-substance-food-mapping.md` defines the **Input to Substance to Food** BRS1 pilot. It consumes accepted dietary/biochemical/pool relationships and their structured presentations without changing admission, KC applicability, Findings or ratings. Biological role, accepted relationship type and accounting designation are separate fields. Derived B6→PLP and other precursor/product relationships are preserved as links, not conversion yields or two dietary supplies.
+
+
+## Sixth atomic field — Dietary input (Stage 2A / Stage 2B)
+
+The PM dietary-context contract is **Input | Input type | Biological role | Evidence source | Limitation | Dietary input**. Store the sixth field on the authoritative `dietary_input_traceability` atom as `dietary_input: true`, `false`, or `null`; render these as **Yes**, **No**, or **Unset — clarification required**. Never copy the decision into a separately editable food registry or lever overlay. `dietary_input_note` and `dietary_input_flags` are review metadata, not additional atomic fields. Missing legacy values remain unset until reviewed.
+
+Stage 2A makes the existing accepted supply decision explicit; Stage 2B projects that same atom without reassessing evidence. Preserve findings, citations, limitations, biological role, relationship classification, ownership and upstream/KC applicability.
+
+- §1.1.1 / §3.1.1 Direct/Derived Dietary Requirements normally receive Yes because section admission establishes dietary applicability. Explicit contradictions must be flagged (`section-supply-contradiction`), leaving the value unset pending resolution rather than silently overriding either record.
+- §1.1.2 / §3.1.2 Cofactors and Substrates require individual review of the accepted biological role, supply route and limitation. Intracellular participation alone establishes neither Yes nor No.
+- §1.1.3 / §3.1.3 Key Constraints/upstream resource inputs distinguish dietary constituents from the pool or constraint itself. A constituent may receive Yes; a pool reference receives No when no dietary supply relationship is admitted for the pool itself. Constituent decisions remain on their PM atoms, never inherited from KC applicability.
+- Ambiguous cases receive `dietary_input: null`, a specific `dietary_input_note` and a clarification flag. Do not default to No.
+
+No means **no dietary supply relationship is admitted for this entry in this PM**. It does not mean the substance is absent from food or biologically unnecessary. Lack of demonstrated benefit from extra intake, dose responsiveness or a universal requirement is not alone a reason to assign No. Dietary input and PM ownership/upstream/accounting designation are independent fields.
+
+```yaml
+- atom_id: PM-example-DIT-1
+  input: Vitamin B6
+  input_type: cofactor precursor
+  biological_role: Accepted precursor provision for intracellular PLP
+  evidence_source: # retain accepted finding and citation references
+    finding_ids: [PM-example-F1]
+    citation_keys: [accepted_reference_key]
+  evidence_limitation: Retain the accepted limitation verbatim
+  dietary_input: true
+  dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
+```
+
+Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.

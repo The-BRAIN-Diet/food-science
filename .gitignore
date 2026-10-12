@@ -50,3 +50,8 @@ scripts/out/therapeutic-area-evidence-scan.json
 .private-migration-backup/
 
 static/img/recipes/originals/
+
+# Large reproducible mapping exports; generate with npm run mappings:brs1.
+/system/generated/brs1-input-substance-food/input-to-substance-to-food.csv
+/system/generated/brs1-input-substance-food/input-to-substance-to-food.md
+/system/generated/brs1-input-substance-food/mapping.generated.json

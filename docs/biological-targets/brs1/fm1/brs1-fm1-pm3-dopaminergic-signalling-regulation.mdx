@@ -41,6 +41,8 @@ scientific_findings_intro: >-
   signalling. [[1]](#pm-ref-1) [[3]](#pm-ref-3)
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Iron
     input_type: cofactor
     biological_role: Cofactor required by tyrosine hydroxylase during catecholamine synthesis
@@ -55,6 +57,9 @@ dietary_input_traceability:
       established; the direct dopamine-metabolite evidence assessed here is
       preclinical deficiency evidence.
   - atom_id: PM3-DIT-2
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: >-
@@ -70,6 +75,8 @@ dietary_input_traceability:
       establish dietary PLP provision or an intake-to-dopamine response in
       humans.
   - atom_id: PM3-DIT-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B6
     input_type: cofactor precursor
     biological_role: >-
@@ -86,6 +93,8 @@ dietary_input_traceability:
       central nervous system, but increasing B6 intake has not been shown to
       increase human brain dopamine synthesis.
   - atom_id: PM3-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Tyrosine
     input_type: substrate
     biological_role: Tyrosine is the substrate for conversion to L-DOPA in dopamine synthesis.
@@ -119,6 +128,8 @@ dietary_input_traceability:
     ikc_id: BRS1-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: PM3-DIT-4
+    dietary_input: false
+    dietary_input_note: "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM."
     input: Tetrahydrobiopterin (BH4)
     input_type: cofactor
     biological_role: >-
@@ -133,6 +144,8 @@ dietary_input_traceability:
       BH4 is synthesised and recycled in vivo; this is not evidence for dietary
       BH4 provision or increased dopamine synthesis.
   - atom_id: BRS1-PM3-KC1-DONOR-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B9 (folate)
     input_type: supported upstream supply
     biological_role: >-
@@ -165,6 +178,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-1
     relationship_type: supported-upstream-supply
   - atom_id: BRS1-PM3-KC1-DONOR-2
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Betaine
     input_type: supported upstream supply
     biological_role: >-
@@ -199,6 +214,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-3
     relationship_type: supported-upstream-supply
   - atom_id: BRS1-PM3-KC1-DONOR-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Choline
     input_type: supported upstream supply
     biological_role: >-
@@ -234,6 +251,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: PM3-KC1-PHENYLALANINE-SUPPLY
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Phenylalanine
     input_type: supported upstream supply
     biological_role: >-
@@ -1971,6 +1990,8 @@ kc_applicability_adjudications:
 hide_title: true
 pm_kc_relationships:
   - relationship_id: BRS1-PM3-BRS1-KC1-PRECURSOR
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     relationship_type: supported-upstream-supply
@@ -2055,6 +2076,8 @@ pm_kc_relationships:
           proposition is separate.
     public_disclosure: pool-with-consolidated-individual-reference
   - relationship_id: BRS1-PM3-BRS2-KC1-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

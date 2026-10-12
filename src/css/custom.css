@@ -2059,3 +2059,27 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
 .az-expand-all:hover {
   text-decoration: underline;
 }
+
+
+/* Mapping reviews use the available documentation width, retaining navigation. */
+main:has(.input-substance-food-review) .container {
+  max-width: none;
+}
+main:has(.input-substance-food-review) .row > .col:has(.input-substance-food-review) {
+  --ifm-col-width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.input-substance-food-review table {
+  width: 100%;
+  display: table;
+}
+
+/* Keep substance identity compact so food-source columns have more room. */
+.input-substance-food-review .mapping-substance-column {
+  width: 10rem;
+  min-width: 7rem;
+  max-width: 10rem;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}

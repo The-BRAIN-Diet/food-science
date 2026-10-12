@@ -25,6 +25,8 @@ mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM7-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: DHA
     input_type: nutrient/substance
     biological_role: >-
@@ -44,6 +46,8 @@ dietary_input_traceability:
       an ADHD treatment effect or a human dosing rule from the porcine
       phospholipid comparison.
   - atom_id: PM7-DIT-2
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Choline
     input_type: supported upstream supply
     biological_role: >-
@@ -76,6 +80,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: PM7-KC1-FOLATE-SUPPLY
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B9 (folate)
     input_type: supported upstream supply
     biological_role: >-
@@ -113,6 +119,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-1
     relationship_type: supported-upstream-supply
   - atom_id: PM7-KC1-BETAINE-SUPPLY
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Betaine
     input_type: supported upstream supply
     biological_role: >-
@@ -1049,6 +1057,8 @@ scientific_findings:
         assessed upstream links.
 pm_kc_relationships:
   - relationship_id: BRS1-PM7-BRS2-KC1-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

@@ -38,6 +38,8 @@ export type DietaryLeverDisclosure = {
   titleHref?: string;
   originTag?: { text: string; href: string };
   inputType: string;
+  dietaryInput?: boolean | null;
+  dietaryInputNote?: string;
   biologicalRole: string;
   evidenceLimitation: string;
   evidenceReferences: EvidenceReference[];
@@ -68,6 +70,8 @@ type TraceRow = {
   canonical_identity?: {status?: string; substance_href?: string};
   input?: string;
   input_type?: string;
+  dietary_input?: boolean | null;
+  dietary_input_note?: string;
   biological_role?: string;
   evidence_source?: { citation_keys?: string[] };
   evidence_limitation?: string;
@@ -260,6 +264,8 @@ export function buildDietaryLeverDisclosureMap(
       identityStatus: base.canonical_identity?.status,
       inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
       inputType: formatInputTypeLabel(String(base.input_type || "")),
+      dietaryInput: base.dietary_input ?? null,
+      dietaryInputNote: base.dietary_input_note,
       biologicalRole: String(base.biological_role || ""),
       evidenceLimitation: String(limitation).trim(),
       evidenceReferences: evidenceSourceReferences(
@@ -316,6 +322,7 @@ export function buildDietaryLeverDisclosureMap(
   type PmKcDisclosureRow = {
     kc_id?: string; ikc_id?: string; disposition?: string;
     input?: string; input_type?: string; pm_biological_role?: string;
+    dietary_input?: boolean | null; dietary_input_note?: string;
     evidence_source?: { citation_keys?: string[] };
     evidence_limitation?: string; presentation_label?: string;
     presentation_section?: string; applicability_label?: string; kc_href?: string; origin_label?: string;
@@ -333,6 +340,8 @@ export function buildDietaryLeverDisclosureMap(
     map.set(dietaryLeverBulletKey(row.presentation_label, "", section), {
       title: row.input,
       inputType: formatInputTypeLabel(row.input_type),
+      dietaryInput: row.dietary_input ?? null,
+      dietaryInputNote: row.dietary_input_note,
       biologicalRole: row.pm_biological_role,
       evidenceLimitation: String(row.evidence_limitation || ""),
       evidenceReferences: evidenceSourceReferences(references, row.evidence_source?.citation_keys || []),
@@ -371,6 +380,8 @@ export function buildDietaryLeverDisclosureMap(
         identityStatus: base.canonical_identity?.status,
         inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
         inputType: formatInputTypeLabel(String(base.input_type || "")),
+        dietaryInput: base.dietary_input ?? null,
+        dietaryInputNote: base.dietary_input_note,
         biologicalRole: String(base.biological_role || ""),
         evidenceLimitation: String(base.evidence_limitation || "").trim(),
         evidenceReferences: evidenceSourceReferences(
@@ -404,6 +415,8 @@ export function buildDietaryLeverDisclosureMap(
     const disclosure: DietaryLeverDisclosure = {
       title: String(base.input),
       inputType: formatInputTypeLabel(String(base.input_type || "")),
+      dietaryInput: base.dietary_input ?? null,
+      dietaryInputNote: base.dietary_input_note,
       biologicalRole: String(base.biological_role || ""),
       evidenceLimitation: String(base.evidence_limitation || "").trim(),
       evidenceReferences: evidenceSourceReferences(
@@ -438,6 +451,8 @@ export function buildDietaryLeverDisclosureMap(
     map.set(dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`), {
       title: String(base.input),
       inputType: formatInputTypeLabel(String(base.input_type || "")),
+      dietaryInput: base.dietary_input ?? null,
+      dietaryInputNote: base.dietary_input_note,
       biologicalRole: String(base.biological_role || ""),
       evidenceLimitation: String(base.evidence_limitation || "").trim(),
       evidenceReferences: evidenceSourceReferences(

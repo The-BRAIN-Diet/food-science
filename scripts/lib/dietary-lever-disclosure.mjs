@@ -112,6 +112,8 @@ export function buildDietaryLeverDisclosureMap(data) {
         return identity?.status === "resolved" ? identity.substance_href : undefined;
       })(),
       inputType: formatInputTypeLabel(resolved.input_type),
+      dietaryInput: resolved.dietary_input ?? null,
+      dietaryInputNote: resolved.dietary_input_note,
       biologicalRole: resolved.biological_role,
       evidenceLimitation: String(limitation).trim(),
       evidenceReferences: evidenceSourceReferences(data, resolved.evidence_source),
@@ -165,6 +167,8 @@ export function buildDietaryLeverDisclosureMap(data) {
     map.set(dietaryLeverBulletKey(row.presentation_label, "", section), {
       title: row.input,
       inputType: formatInputTypeLabel(row.input_type),
+      dietaryInput: row.dietary_input ?? null,
+      dietaryInputNote: row.dietary_input_note,
       biologicalRole: row.pm_biological_role,
       evidenceLimitation: String(row.evidence_limitation || ""),
       evidenceReferences: evidenceSourceReferences(data, row.evidence_source),
@@ -195,6 +199,8 @@ export function buildDietaryLeverDisclosureMap(data) {
         identityStatus: atom.canonical_identity?.status,
         inputHref: atom.canonical_identity?.status === "resolved" ? atom.canonical_identity.substance_href : undefined,
         inputType: formatInputTypeLabel(atom.input_type),
+        dietaryInput: atom.dietary_input ?? null,
+        dietaryInputNote: atom.dietary_input_note,
         biologicalRole: atom.biological_role,
         evidenceLimitation: String(atom.evidence_limitation || "").trim(),
         evidenceReferences: evidenceSourceReferences(data, atom.evidence_source),
@@ -222,6 +228,8 @@ export function buildDietaryLeverDisclosureMap(data) {
     const disclosure = {
       title: atom.input,
       inputType: formatInputTypeLabel(atom.input_type),
+      dietaryInput: atom.dietary_input ?? null,
+      dietaryInputNote: atom.dietary_input_note,
       biologicalRole: atom.biological_role,
       evidenceLimitation: String(atom.evidence_limitation || "").trim(),
       evidenceReferences: evidenceSourceReferences(data, atom.evidence_source, {
@@ -250,6 +258,8 @@ export function buildDietaryLeverDisclosureMap(data) {
     map.set(dietaryLeverBulletKey(label, "", `kc-emerging-support:${slug}`), {
       title: atom.input,
       inputType: formatInputTypeLabel(atom.input_type),
+      dietaryInput: atom.dietary_input ?? null,
+      dietaryInputNote: atom.dietary_input_note,
       biologicalRole: atom.biological_role,
       evidenceLimitation: String(atom.evidence_limitation || "").trim(),
       evidenceReferences: evidenceSourceReferences(data, atom.evidence_source, {

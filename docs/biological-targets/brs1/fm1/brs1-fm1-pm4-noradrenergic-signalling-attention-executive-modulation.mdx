@@ -36,6 +36,8 @@ scientific_findings_intro: >-
   intake changes brain noradrenaline firing or attention.
 dietary_input_traceability:
   - atom_id: PM4-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Iron
     input_type: cofactor
     biological_role: >-
@@ -51,6 +53,9 @@ dietary_input_traceability:
       established; the cited dopamine-metabolite and developmental evidence is
       not a noradrenaline-dosing trial.
   - atom_id: PM4-DIT-2
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: >-
@@ -66,6 +71,8 @@ dietary_input_traceability:
       establish dietary PLP provision or an intake-to-noradrenaline response in
       humans.
   - atom_id: PM4-DIT-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B6
     input_type: cofactor precursor
     biological_role: Provides dietary B6 vitamers that are converted to PLP
@@ -80,6 +87,8 @@ dietary_input_traceability:
       central nervous system, but increasing B6 intake has not been shown to
       increase human brain noradrenaline synthesis.
   - atom_id: PM4-DIT-4
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Copper
     input_type: cofactor
     biological_role: >-
@@ -98,6 +107,8 @@ dietary_input_traceability:
       animal deficiency models are not evidence that extra dietary copper raises
       brain noradrenaline when copper status is adequate.
   - atom_id: PM4-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin C (ascorbate)
     input_type: cofactor
     biological_role: >-
@@ -115,6 +126,8 @@ dietary_input_traceability:
       dietary vitamin C increases human brain noradrenaline or improves
       attention when vitamin C status is adequate.
   - atom_id: PM4-KC1-TYROSINE-SUPPLY
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Tyrosine
     input_type: supported upstream supply
     biological_role: >-
@@ -146,6 +159,8 @@ dietary_input_traceability:
     ikc_id: BRS1-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: BRS1-PM4-KC1-DONOR-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B9 (folate)
     input_type: supported upstream supply
     biological_role: >-
@@ -178,6 +193,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-1
     relationship_type: supported-upstream-supply
   - atom_id: BRS1-PM4-KC1-DONOR-2
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Betaine
     input_type: supported upstream supply
     biological_role: >-
@@ -212,6 +229,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-3
     relationship_type: supported-upstream-supply
   - atom_id: BRS1-PM4-KC1-DONOR-3
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Choline
     input_type: supported upstream supply
     biological_role: >-
@@ -247,6 +266,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: PM4-KC1-PHENYLALANINE-SUPPLY
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Phenylalanine
     input_type: supported upstream supply
     biological_role: >-
@@ -1600,6 +1621,8 @@ kc_applicability_adjudications:
 hide_title: true
 pm_kc_relationships:
   - relationship_id: BRS1-PM4-BRS1-KC1-PRECURSOR
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     relationship_type: supported-upstream-supply
@@ -1679,6 +1702,8 @@ pm_kc_relationships:
           Source-supported route assessed individually; the limiting-effect
           proposition is separate.
   - relationship_id: BRS1-PM4-BRS2-KC1-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: supported-upstream-supply

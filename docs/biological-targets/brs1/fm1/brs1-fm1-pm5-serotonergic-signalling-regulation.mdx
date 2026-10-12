@@ -28,6 +28,8 @@ mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM5-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Tryptophan
     input_type: substrate
     biological_role: >-
@@ -50,6 +52,9 @@ dietary_input_traceability:
       Substrate necessity does not establish that additional dietary tryptophan
       increases brain serotonin or improves mood, sleep or ADHD.
   - atom_id: PM5-DIT-3
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)
     input_type: cofactor
     biological_role: >-
@@ -66,6 +71,8 @@ dietary_input_traceability:
       establish dietary PLP provision or an intake-to-serotonin response in
       humans.
   - atom_id: PM5-DIT-4
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B6
     input_type: cofactor precursor
     biological_role: Provides dietary B6 vitamers that are converted to PLP
@@ -80,6 +87,8 @@ dietary_input_traceability:
       central nervous system, but increasing B6 intake has not been shown to
       increase human brain serotonin synthesis.
   - atom_id: PM5-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Iron
     input_type: cofactor
     biological_role: >-
@@ -95,6 +104,8 @@ dietary_input_traceability:
       Iron is required by the hydroxylase. That is not evidence that extra
       dietary iron raises brain serotonin when iron status is adequate.
   - atom_id: PM5-DIT-6
+    dietary_input: false
+    dietary_input_note: "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM."
     input: Tetrahydrobiopterin (BH4)
     input_type: cofactor
     biological_role: >-
@@ -205,6 +216,8 @@ key_constraints:
   - BRS1(KC1) - Amino Acid Quality & Competitive Balance
 pm_kc_relationships:
   - relationship_id: BRS1-FM1-PM5-KCR-1
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS1(KC1)
     ikc_id: BRS1(KC1)
     pm_biological_role: >-

@@ -16,6 +16,8 @@ mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 dietary_input_traceability:
   - atom_id: PM6-DIT-1
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Choline
     input_type: substrate
     biological_role: Direct substrate combined with acetyl-CoA by choline acetyltransferase to form acetylcholine
@@ -27,6 +29,8 @@ dietary_input_traceability:
         - ojiakor_choline_transporter_2020
     evidence_limitation: 'Choline is required and diet supplies it, but additional intake has not been shown here to raise acetylcholine synthesis in the human brain or improve attention.'
   - atom_id: PM6-DIT-2
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Phosphatidylcholine
     input_type: substrate provision
     biological_role: 'Dietary choline-containing phospholipid that is digested and remodelled, producing circulating choline as one route to the direct choline substrate'
@@ -37,6 +41,8 @@ dietary_input_traceability:
         - bockmann_choline_supplements_2023
     evidence_limitation: Human tracer evidence establishes phosphatidylcholine as a choline-provision route; it does not show delivery to cholinergic terminals or increased brain acetylcholine synthesis.
   - atom_id: PM6-DIT-3
+    dietary_input: false
+    dietary_input_note: "Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM."
     input: Acetyl-CoA
     input_type: substrate
     biological_role: Acetyl-group donor combined with choline by choline acetyltransferase to form acetylcholine
@@ -51,6 +57,8 @@ dietary_input_traceability:
         - jope_choline_acetylcoa_1979
     evidence_limitation: 'Acetyl-CoA is a cellular reaction substrate, not a dietary acetyl-CoA recommendation; ordinary dietary control of its availability in human cholinergic neurons is not established.'
   - atom_id: PM6-DIT-4
+    dietary_input: true
+    dietary_input_note: "Existing biological role explicitly admits the nutritional precursor route to coenzyme A; intracellular reaction participation does not negate that dietary route."
     input: Vitamin B5 (pantothenate)
     input_type: cofactor precursor
     biological_role: 'Nutritional precursor of coenzyme A, from which cells form the acetyl-CoA required for acetylcholine synthesis'
@@ -61,6 +69,8 @@ dietary_input_traceability:
         - rivera_calimlim_pantothenic_1988
     evidence_limitation: Chronic ethanol-associated pantothenate depletion and rescue affected acetylcholine synthesis in rats; this does not establish that extra B5 raises brain acetylcholine in adequately nourished humans.
   - atom_id: PM6-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added."
     input: Vitamin B9 (folate)
     input_type: resource dependency
     biological_role: Folate-dependent methyl metabolism helps maintain the brain choline resource available for acetylcholine formation; folate deprivation lowered choline and acetylcholine in studied mouse models, with SAM rescue supporting this upstream resource relationship.
@@ -185,6 +195,8 @@ key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
 pm_kc_relationships:
   - relationship_id: BRS1-FM2-PM6-KCR-1
+    dietary_input: false
+    dietary_input_note: "Pool/constraint reference; constituent dietary supply is recorded separately."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     pm_biological_role: 'Inadequate one-carbon donor availability can increase pressure on choline-dependent methyl donation and disturb brain choline and acetylcholine availability, thereby constraining the substrate capacity used for acetylcholine synthesis.'
