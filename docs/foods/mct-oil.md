@@ -171,7 +171,7 @@ MCT oil differs in composition from ordinary coconut oil.
 
 <span id="food-source-3" />
 
-[3] [Adopted manufacturer declaration FDC 2543941](/docs/papers/BRAIN-Diet-References#food_composition_1240d3906e70)
+[3] [Adopted manufacturer declaration FDC 2543941](https://fdc.nal.usda.gov/food-details/2543941/nutrients)
 
 <span id="food-source-4" />
 

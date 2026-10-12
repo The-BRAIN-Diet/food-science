@@ -318,4 +318,4 @@ Tempeh provide a relatively complete plant protein (higher in lysine than most g
 
 <span id="food-source-6" />
 
-[6] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_9bbd11a10584)
+[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174272/nutrients)

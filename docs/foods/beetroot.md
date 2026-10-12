@@ -219,4 +219,4 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_09e6ecfaadc9)
+[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169145/nutrients)

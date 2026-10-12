@@ -233,6 +233,8 @@ scientific_findings:
     connected_supportive_evidence: []
 dietary_input_traceability:
   - atom_id: PM5-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Resistant potato starch
     input_type: substrate
     biological_role: >-
@@ -257,6 +259,8 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM5-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)
     input_type: substrate
     biological_role: >-
@@ -281,6 +285,8 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM5-DIT-3
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Pectin
     input_type: substrate
     biological_role: >-
@@ -305,6 +311,8 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM5-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Acetate
     input_type: biochemical requirement
     biological_role: >-
@@ -328,6 +336,8 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: acetate
   - atom_id: PM5-DIT-5
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Propionate
     input_type: biochemical requirement
     biological_role: >-
@@ -352,6 +362,8 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: propionate
   - atom_id: PM5-DIT-6
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Butyrate
     input_type: biochemical requirement
     biological_role: >-
@@ -500,6 +512,8 @@ pending_actions:
       is not automatic individual admission.
 pm_kc_relationships:
   - relationship_id: PM5-KC1-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS5(KC1)
     ikc_id: BRS5(KC1)
     relationship_type: supported-upstream-supply

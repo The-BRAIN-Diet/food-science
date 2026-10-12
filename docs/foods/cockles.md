@@ -308,7 +308,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-5" />
 
-[5] [The Concise New Zealand Food Composition Tables, 9th edition (2012), T31](/docs/papers/BRAIN-Diet-References#food_composition_54d9c39408d0)
+[5] [The Concise New Zealand Food Composition Tables, 9th edition (2012), T31](https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf)
 
 <span id="food-source-6" />
 
@@ -320,4 +320,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-8" />
 
-[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_bdef88e9ab28)
+[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169803/nutrients)

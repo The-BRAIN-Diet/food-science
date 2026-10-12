@@ -328,4 +328,4 @@ When cocoa powder contributes meaningfully to protein intake in a meal, pair wit
 
 <span id="food-source-8" />
 
-[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_fe75cc0bb9f2)
+[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169593/nutrients)

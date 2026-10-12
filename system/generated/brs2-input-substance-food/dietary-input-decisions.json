@@ -1,0 +1,428 @@
+[
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-1",
+    "input": "5-Methyltetrahydrofolate",
+    "dietary_input": true,
+    "note": "Foods directly supply preformed 5-methyltetrahydrofolate, including polyglutamated forms deconjugated during intestinal absorption. Other dietary folate forms can supply this target through folate metabolism and MTHFR-dependent conversion. Form-specific presence is supported; total folate values must not be relabelled as 5-MTHF quantities or added to 5-MTHF as a separate independent nutrient supply.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-2",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-3",
+    "input": "Methylcobalamin",
+    "dietary_input": null,
+    "note": "Direct reaction-cofactor classification is retained, but the accepted overlay states that dietary cobalamin is processed to methylcobalamin and methylcobalamin is not an independent intake target. Dietary admission and this supply limitation require reconciliation; do not count it as a second supply alongside vitamin B12.",
+    "flags": [
+      "section-supply-contradiction"
+    ]
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM1::PM1-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx#dietary_input_traceability/PM1-DIT-5",
+    "input": "Homocysteine",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM2::PM2-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-1",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM2::PM2-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-2",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM2::PM2-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-3",
+    "input": "Homocysteine",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM2::PM2-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx#dietary_input_traceability/PM2-DIT-4",
+    "input": "Zinc ion (Zn²⁺)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-POOL",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#pm_kc_relationships/PM3-KC1-UPSTREAM-POOL",
+    "input": "One-carbon methyl-donor pool (folate, betaine, choline)",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "Methionine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-2",
+    "input": "ATP",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-3",
+    "input": "Magnesium ions (Mg²⁺)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-4",
+    "input": "Potassium ions (K⁺)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-DIT-5",
+    "input": "Dietary protein",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-1",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-1",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-2",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM3::PM3-KC1-UPSTREAM-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx#dietary_input_traceability/PM3-KC1-UPSTREAM-3",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-KC1-REMETHYLATION-SUPPLY",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#pm_kc_relationships/PM4-KC1-REMETHYLATION-SUPPLY",
+    "input": "One-carbon methyl-donor pool (folate, betaine, choline)",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-1",
+    "input": "Methionine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-2",
+    "input": "Dietary protein",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-3",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-5",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-DIT-6",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-DIT-6",
+    "input": "Vitamin B2 (riboflavin)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-KC1-SUPPLY-2",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-KC1-SUPPLY-2",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM1-PM4::PM4-KC1-SUPPLY-3",
+    "source_record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx#dietary_input_traceability/PM4-KC1-SUPPLY-3",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-KC2-METHIONINE-SUPPLY",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#pm_kc_relationships/PM5-KC2-METHIONINE-SUPPLY",
+    "input": "Methionine-cycle sulfur supply",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-KC1-COMBINED-DEPRIVATION",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#pm_kc_relationships/PM5-KC1-COMBINED-DEPRIVATION",
+    "input": "Combined folate/choline donor availability",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-1",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-2",
+    "input": "Vitamin B6",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-3",
+    "input": "Homocysteine",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-4",
+    "input": "Serine",
+    "dietary_input": true,
+    "note": "The accepted serine limitation explicitly admits endogenous and dietary provision. This records supply, not increased flux from intake.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-DIT-5",
+    "input": "Cystathionine",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM5::PM5-KC2-UPSTREAM-1",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx#dietary_input_traceability/PM5-KC2-UPSTREAM-1",
+    "input": "Methionine",
+    "dietary_input": true,
+    "note": "Accepted upstream methionine provision through the sulfur-amino-acid resource pool; not a direct CBS substrate or an extra nutrient quantity.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-1",
+    "input": "Cysteine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-2",
+    "input": "Glutamate",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-3",
+    "input": "Glycine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-4",
+    "input": "ATP",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-5",
+    "input": "Magnesium ions (Mg²⁺)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-9",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-9",
+    "input": "Methionine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM2-PM6::PM6-DIT-7",
+    "source_record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx#dietary_input_traceability/PM6-DIT-7",
+    "input": "N-acetylcysteine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::BRS2-FM3-PM7-KCR-1",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#pm_kc_relationships/BRS2-FM3-PM7-KCR-1",
+    "input": "One-carbon methyl-donor availability",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-5",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-5",
+    "input": "Vitamin B9 (folate)",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-6",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-6",
+    "input": "Betaine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-1",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-1",
+    "input": "Phosphatidylethanolamine",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-2",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-2",
+    "input": "S-adenosylmethionine (SAMe)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-3",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-3",
+    "input": "Choline",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-4",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-4",
+    "input": "Phosphatidylcholine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-7",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-7",
+    "input": "Uridine",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-8",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-8",
+    "input": "Cytidine triphosphate (CTP)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-9",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-9",
+    "input": "Diacylglycerol (DAG)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS2-FM3-PM7::PM7-DIT-10",
+    "source_record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#dietary_input_traceability/PM7-DIT-10",
+    "input": "Choline",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  }
+]

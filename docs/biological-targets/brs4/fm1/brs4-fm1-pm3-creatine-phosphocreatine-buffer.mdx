@@ -22,6 +22,8 @@ evidence_status: stage-2a-scientific-evidence
 scientific_findings_intro: 'The creatine–phosphocreatine system is an intracellular energy buffer, not a single concentration marker. The findings below separate synthesis and transport, habitual dietary exposure, cerebral target engagement and functional outcomes. They support conditional intervention relevance while preserving the distinction between total creatine, phosphocreatine, ATP buffering and cognitive performance.'
 dietary_input_traceability:
   - atom_id: PM3-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Creatine
     input_type: substrate
     biological_role: 'Creatine accepts and donates phosphate through the reversible creatine-kinase reaction, forming the phosphocreatine reserve used for rapid ATP buffering.'
@@ -34,6 +36,8 @@ dietary_input_traceability:
         - dolan_beyond_muscle_2019
     evidence_limitation: 'The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses.'
   - atom_id: PM3-DIT-2
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Arginine
     input_type: precursor
     biological_role: Arginine donates its amidino group to glycine in the first step of endogenous creatine synthesis.
@@ -44,6 +48,8 @@ dietary_input_traceability:
         - beard_creatine_cns_2010
     evidence_limitation: The synthesis requirement does not establish that ordinary arginine intake limits cerebral creatine or phosphocreatine buffering.
   - atom_id: PM3-DIT-3
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Glycine
     input_type: precursor
     biological_role: 'Glycine accepts the amidino group from arginine to form guanidinoacetate, the immediate precursor used in creatine synthesis.'
@@ -54,6 +60,8 @@ dietary_input_traceability:
         - beard_creatine_cns_2010
     evidence_limitation: The synthesis requirement does not establish that ordinary glycine intake limits cerebral creatine or phosphocreatine buffering.
   - atom_id: PM3-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Methionine-derived S-adenosylmethionine (SAM)
     input_type: cofactor
     biological_role: SAM provides the methyl group used to convert guanidinoacetate to creatine through guanidinoacetate methyltransferase.
@@ -104,6 +112,8 @@ dietary_lever_presentations:
     presentation_section: 3.1.2
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
+    food_strategy_scope: food-preparation
+    food_strategy_id: food-strategy-d77d8db065cc
     optimisation_category: food_prep
     input: Limit unnecessary cumulative heat exposure when retaining creatine in pork products
     presentation_label: Limit unnecessary cumulative heat exposure when retaining creatine in pork products
@@ -117,6 +127,8 @@ system_optimisation_practices:
     evidence_limitation: Evidence is limited to processed pork matrices and does not establish higher creatine intake or cerebral target engagement.
     claim_ceiling: food-composition
   - atom_id: PM3-SOP-2
+    food_strategy_scope: supplementation
+    food_strategy_id: food-strategy-d01445d73fbe
     optimisation_category: conditional_supplementation
     input: Consider creatine monohydrate only in defined low-intake or high-demand contexts
     presentation_label: Consider creatine monohydrate only in defined low-intake or high-demand contexts

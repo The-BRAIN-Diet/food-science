@@ -22,6 +22,7 @@ const INPUT_TYPE_LABEL = {
   cofactor: "Cofactor",
   "catalytic ion": "Catalytic ion",
   "cofactor precursor": "Cofactor precursor",
+  "regulatory modulator": "Regulatory Modulator",
   precursor: "Precursor",
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",

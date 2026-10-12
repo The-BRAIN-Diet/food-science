@@ -198,4 +198,4 @@ In the BRAIN Diet framework, rosemary is best used as a concentrated flavor-and-
 
 <span id="food-source-4" />
 
-[4] [EMA (2024), Rosmarinus officinalis folium assessment report](/docs/papers/BRAIN-Diet-References#food_composition_0607d4e1e193)
+[4] [EMA (2024), Rosmarinus officinalis folium assessment report](https://www.ema.europa.eu/en/documents/herbal-report/final-assessment-report-rosmarinus-officinalis-l-aetheroleum-rosmarinus-officinalis-l-folium-revision-1_en.pdf)

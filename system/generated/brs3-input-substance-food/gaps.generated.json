@@ -1,0 +1,134 @@
+{
+  "gaps": [
+    {
+      "kind": "no-structured-admissions",
+      "pm_id": "BRS3-FM3-PM7",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "specialist-specification-not-joined",
+      "food_id": "algal-oil",
+      "record": "docs/foods/algal-oil.md",
+      "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred."
+    },
+    {
+      "kind": "composition-observation-held",
+      "food_id": "quinoa",
+      "substance_id": "dha-docosahexaenoic-acid",
+      "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+      "reason": "DHA observation: independent confirmation unresolved"
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-2",
+      "input": "Glycine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-2",
+      "input": "Glycine",
+      "reason": "No supported canonical food-source record found."
+    }
+  ],
+  "conflicts": [],
+  "pm_coverage": [
+    {
+      "pm_id": "BRS3-FM1-PM1",
+      "record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+      "accepted_relationships": 4,
+      "structured_atoms": 3
+    },
+    {
+      "pm_id": "BRS3-FM1-PM2",
+      "record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+      "accepted_relationships": 3,
+      "structured_atoms": 2
+    },
+    {
+      "pm_id": "BRS3-FM2-PM3",
+      "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS3-FM2-PM4",
+      "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "accepted_relationships": 5,
+      "structured_atoms": 5
+    },
+    {
+      "pm_id": "BRS3-FM2-PM5",
+      "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "accepted_relationships": 1,
+      "structured_atoms": 1
+    },
+    {
+      "pm_id": "BRS3-FM2-PM6",
+      "record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "accepted_relationships": 2,
+      "structured_atoms": 2
+    },
+    {
+      "pm_id": "BRS3-FM3-PM7",
+      "record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+      "accepted_relationships": 0,
+      "structured_atoms": 0
+    },
+    {
+      "pm_id": "BRS3-FM3-PM8",
+      "record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+      "accepted_relationships": 2,
+      "structured_atoms": 2
+    }
+  ],
+  "pools": [
+    {
+      "id": "BRS3(KC1)",
+      "title": "Glutathione Precursor Sufficiency",
+      "record": "docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability.mdx",
+      "dependent_pms": [
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "constituent_relationships": [
+        {
+          "kc_id": "BRS3(KC1)",
+          "ikc_id": "BRS3-KC1-KIT-1",
+          "constituent_id": "BRS3-KC1-KIT-1",
+          "relationship_id": "PM1-KC1-UPSTREAM-1-REL",
+          "relationship_type": "supported-upstream-supply",
+          "membership": "admitted",
+          "label": "Cysteine",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability.mdx#kc_input_traceability/BRS3-KC1-KIT-1",
+          "substance_id": "cysteine",
+          "id": "BRS3(KC1)::BRS3-KC1-KIT-1",
+          "pm_id": "BRS3-FM1-PM1",
+          "dependent_pms": [
+            "BRS3-FM1-PM1",
+            "BRS3-FM1-PM2"
+          ]
+        },
+        {
+          "kc_id": "BRS3(KC1)",
+          "ikc_id": "BRS3-KC1-KIT-2",
+          "constituent_id": "BRS3-KC1-KIT-2",
+          "relationship_id": "PM1-KC1-UPSTREAM-2-REL",
+          "relationship_type": "supported-upstream-supply",
+          "membership": "admitted",
+          "label": "Glycine",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability.mdx#kc_input_traceability/BRS3-KC1-KIT-2",
+          "substance_id": "glycine",
+          "id": "BRS3(KC1)::BRS3-KC1-KIT-2",
+          "pm_id": "BRS3-FM1-PM1",
+          "dependent_pms": [
+            "BRS3-FM1-PM1",
+            "BRS3-FM1-PM2"
+          ]
+        }
+      ]
+    }
+  ]
+}

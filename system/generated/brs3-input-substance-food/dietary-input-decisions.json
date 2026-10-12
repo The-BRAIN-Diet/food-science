@@ -1,0 +1,146 @@
+[
+  {
+    "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-POOL",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#pm_kc_relationships/PM1-KC1-UPSTREAM-POOL",
+    "input": "Glutathione precursor pool (cysteine and glycine)",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM1::PM1-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-DIT-1",
+    "input": "Magnesium ions (Mg²⁺)",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-1",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-1",
+    "input": "Cysteine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM1::PM1-KC1-UPSTREAM-2",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx#dietary_input_traceability/PM1-KC1-UPSTREAM-2",
+    "input": "Glycine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-POOL",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#pm_kc_relationships/PM2-KC1-UPSTREAM-POOL",
+    "input": "Glutathione precursor pool (cysteine and glycine)",
+    "dietary_input": false,
+    "note": "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-1",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-KC1-UPSTREAM-1",
+    "input": "Cysteine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM1-PM2::PM2-KC1-UPSTREAM-2",
+    "source_record": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx#dietary_input_traceability/PM2-KC1-UPSTREAM-2",
+    "input": "Glycine",
+    "dietary_input": true,
+    "note": "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM3::PM3-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx#dietary_input_traceability/PM3-DIT-1",
+    "input": "Sulforaphane",
+    "dietary_input": true,
+    "note": "Admitted as a nonessential food-derived Direct Regulatory Modulator, not a nutrient requirement. Dietary delivery and human peripheral target engagement are preparation-specific; the compound is the lever.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-1",
+    "input": "Selenium",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-2",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-2",
+    "input": "Zinc",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-3",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-3",
+    "input": "Copper",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-4",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-4",
+    "input": "Manganese",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM4::PM4-DIT-5",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx#dietary_input_traceability/PM4-DIT-5",
+    "input": "Glutathione",
+    "dietary_input": false,
+    "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM5::PM5-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx#dietary_input_traceability/PM5-DIT-1",
+    "input": "Vitamin E",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM6::PM6-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-1",
+    "input": "Vitamin C",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM2-PM6::PM6-DIT-2",
+    "source_record": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx#dietary_input_traceability/PM6-DIT-2",
+    "input": "Vitamin E",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM3-PM8::PM8-DIT-1",
+    "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx#dietary_input_traceability/PM8-DIT-1",
+    "input": "EPA",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS3-FM3-PM8::PM8-DIT-2",
+    "source_record": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx#dietary_input_traceability/PM8-DIT-2",
+    "input": "DHA",
+    "dietary_input": true,
+    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "flags": []
+  }
+]

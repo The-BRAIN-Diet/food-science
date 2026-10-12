@@ -125,4 +125,4 @@ Within the BRAIN Diet, it can help absorb carotenoids from salads and salsa [2].
 
 <span id="food-source-5" />
 
-[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_188fdf6a8766)
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/173573/nutrients)

@@ -144,6 +144,8 @@ kc_applicability_adjudications:
 key_constraints: []
 pm_kc_relationships:
   - relationship_id: PM2-KC1-DEPLETION-CONSTRAINT
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     relationship_type: conditional-constraint
@@ -329,6 +331,8 @@ phenome_relationships:
         data_level: Mechanistic
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Betaine
     input_type: substrate
     biological_role: >-
@@ -363,6 +367,8 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/bioactive-compounds/choline-methylation/betaine.md
   - atom_id: PM2-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Choline
     input_type: precursor
     biological_role: >-
@@ -396,6 +402,8 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/bioactive-compounds/choline-methylation/choline.md
   - atom_id: PM2-DIT-3
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Homocysteine
     input_type: substrate
     biological_role: Methyl-acceptor substrate that BHMT converts to methionine
@@ -409,6 +417,8 @@ dietary_input_traceability:
       Homocysteine is produced in the methionine cycle and is not a dietary
       input for this reaction.
   - atom_id: PM2-DIT-4
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Zinc ion (Zn²⁺)
     input_type: catalytic ion
     biological_role: >-

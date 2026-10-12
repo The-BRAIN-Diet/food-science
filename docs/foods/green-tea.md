@@ -323,7 +323,7 @@ Within the BRAIN Diet framework, green tea is best used as a **polyphenol bevera
 
 <span id="food-source-6" />
 
-[6] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_49d13a3a0196)
+[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171917/nutrients)
 
 [7] Klepacka (2022). [Tea Infusions as a Source of Phenolic Compounds in the Human Diet](/docs/papers/BRAIN-Diet-References#klepacka_tea_infusions_2022). Table 1 reports green-tea infusion measurements at four brewing times.
 

@@ -470,3 +470,6 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+For an explicitly accepted temporary composition hold, preserve the source-specific observation in `nutrition_value_reviews[].original_observation`. Set its canonical `substance_id`, `nutrient_key`, pending correction status and `exclude_from_food_lists: true`. Mapping consumers must suppress that food–substance connection while retaining the review and other food inputs. Withhold dependent totals from active fields; do not turn held or unresolved amounts into zero. This requires an explicit review decision, not merely a missing citation.

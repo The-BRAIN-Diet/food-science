@@ -317,8 +317,8 @@ Notable amino acids:
 
 <span id="food-source-4" />
 
-[4] [USDA Database for the Choline Content of Common Foods, Release 2 (2008)](/docs/papers/BRAIN-Diet-References#food_composition_10b512a83440)
+[4] [USDA Database for the Choline Content of Common Foods, Release 2 (2008)](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Choline/Choln02.pdf)
 
 <span id="food-source-5" />
 
-[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_6802f031996e)
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/172475/nutrients)

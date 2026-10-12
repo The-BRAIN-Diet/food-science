@@ -1,6 +1,6 @@
 ---
 id: vitamin-b9
-title: Vitamin B9 (Folate; 5-MTHF)
+title: Vitamin B9 (Folate)
 sidebar_label: Vitamin B9 (Folate)
 description: One-carbon metabolism; methylation; homocysteine recycling
 tags:
@@ -21,7 +21,7 @@ inchi_image: /img/inchi/OVBPIULPVIDEAO-LBPRGKRZSA-N.png
 
 ## Overview
 
-Vitamin B9, commonly known as folate, is a water-soluble vitamin that plays a central role in one-carbon metabolism and methylation processes. The active form, 5-MTHF (5-methyltetrahydrofolate), is an essential cofactor in the remethylation of homocysteine to methionine, which is then converted to S-adenosylmethionine (SAMe). SAMe fuels the synthesis of dopamine, norepinephrine, and serotonin and drives phospholipid methylation in neuronal membranes. Folate works synergistically with other B vitamins (B6, B2, B12) and minerals (zinc) in methylation processes, and deficiencies in these nutrients are correlated with ADHD symptoms.
+Vitamin B9, commonly known as folate, is a water-soluble vitamin that plays a central role in one-carbon metabolism and methylation processes. The reduced form [5-methyltetrahydrofolate (5-MTHF)](/docs/substances/nutrients/micronutrients/vitamins/5-methyltetrahydrofolate) is an essential cofactor in the remethylation of homocysteine to methionine, which is then converted to S-adenosylmethionine (SAMe). SAMe fuels the synthesis of dopamine, norepinephrine, and serotonin and drives phospholipid methylation in neuronal membranes. Folate works synergistically with other B vitamins (B6, B2, B12) and minerals (zinc) in methylation processes, and deficiencies in these nutrients are correlated with ADHD symptoms.
 
 ## Recipes
 

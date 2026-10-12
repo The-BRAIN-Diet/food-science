@@ -167,4 +167,4 @@ Within a BRAIN-aligned pattern it is a culinary fat, not a staple.
 
 <span id="food-source-3" />
 
-[3] [USDA FoodData Central, Butter, without salt (FDC 173430)](/docs/papers/BRAIN-Diet-References#food_composition_f287b7193234)
+[3] [USDA FoodData Central, Butter, without salt (FDC 173430)](https://fdc.nal.usda.gov/food-details/173430/nutrients)

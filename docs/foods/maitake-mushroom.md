@@ -137,4 +137,4 @@ Within the BRAIN Diet framework, the mushroom is also valued for its culinary pr
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_d1c5426287b7)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169403/nutrients)

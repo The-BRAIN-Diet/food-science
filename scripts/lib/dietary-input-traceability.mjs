@@ -11,6 +11,7 @@ import { SOP_CATEGORIES } from "../data/brs-hub-optimisation-levers.mjs";
 export const INPUT_TYPES = new Set([
   "supported upstream supply",
   "substrate",
+  "regulatory modulator",
   "substrate provision",
   "nutrient/substance",
   "cofactor",

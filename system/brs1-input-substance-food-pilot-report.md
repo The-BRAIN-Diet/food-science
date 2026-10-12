@@ -74,3 +74,12 @@ The four PLP entries remain unset with section/supply contradiction flags. PM1 T
 Generated web/Markdown/CSV views expose dietary applicability plus BRS, PM and recorded section IDs. The substance index associates each section ID with its PM instead of assuming one section for a substance across mechanisms. Existing structured presentation sections are used; missing section metadata is reported, not invented.
 
 Validation: 14 mapping/accounting, schema and disclosure tests pass. Existing traceability suite remains 19/21, with its two pre-existing unrelated failures. Full TypeScript validation has pre-existing site errors; no errors in the mapping review or dietary disclosure modules. Browser verification is blocked by connection refusal from localhost:3000 (preview server not running).
+
+
+## Bounded preparation/relationship filter update
+
+All preparations are eligible by default; exact preparation selection is optional. Verified per-100 g observations preserve separate source values and preparation/basis. Mixed states display alphabetically instead of as one nutritional rank. Additional quantified sources remain accessible separately from qualitative/unverified sources.
+
+PM-owned (A) and upstream/shared (B/C, plus D pool references) are independent relationship filters, both initially selected. The shared projection filters relationships before generating PM, substance and food views and counts. Context and unresolved accounting stay in a separate disclosure. Vitamin B5 retains its accepted dietary flag but its existing E accounting is flagged unresolved rather than guessed. No accepted biological role, supply relationship or KC applicability was altered.
+
+Focused verification: 19 checks pass, including four checkbox combinations, mixed/raw/dried/cooked selection, source-specific observation preservation, pool separation and independent choline roles. Browser verified both (38 relationships), owned only (18), upstream/shared only (20), neither (0), unchanged separate context (12), and the dried preparation filter. All preparations/both boxes restored after verification. Full TypeScript check retains unrelated existing errors; no errors in the changed review/food-disclosure modules. No full build or publication requested for this update.

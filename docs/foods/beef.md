@@ -367,4 +367,4 @@ Beef provides the essential amino acids expected from an animal muscle protein.
 
 <span id="food-source-6" />
 
-[6] USDA (2018). [FoodData Central: Beef, ground, 85% lean meat / 15% fat, raw (FDC 171796)](/docs/papers/BRAIN-Diet-References#food_composition_15cd028d49d5). Composition baseline for raw ground beef containing 15% fat; the bioactive estimates use separate sources.
+[6] USDA (2018). [FoodData Central: Beef, ground, 85% lean meat / 15% fat, raw (FDC 171796)](https://fdc.nal.usda.gov/food-details/171796/nutrients). Composition baseline for raw ground beef containing 15% fat; the bioactive estimates use separate sources.

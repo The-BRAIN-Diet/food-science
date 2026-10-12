@@ -188,7 +188,7 @@ Within a BRAIN-aligned pattern it is a culinary-support salad vegetable rather t
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_43373b0ba57e)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169247/nutrients)
 
 <span id="food-source-5" />
 

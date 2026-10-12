@@ -148,4 +148,4 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_59cd92bd1848)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169230/nutrients)

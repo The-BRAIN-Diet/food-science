@@ -186,4 +186,4 @@ Whole blended lemon recipes can be surprisingly palatable and functionally usefu
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_6f29d795ef3d)
+[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167746/nutrients)

@@ -440,6 +440,21 @@
         "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
       },
       {
+        "food_id": "chicory-root",
+        "food_page": "/docs/foods/chicory-root",
+        "title": "Chicory Root",
+        "composition_record": "docs/foods/chicory-root.md#nutrition_per_100g",
+        "composition_values": {
+          "carbs_g": 17.51,
+          "protein_g": 1.4
+        },
+        "fields": [
+          "carbs_g",
+          "protein_g"
+        ],
+        "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
+      },
+      {
         "food_id": "chlorella",
         "food_page": "/docs/foods/chlorella",
         "title": "Chlorella",
@@ -627,6 +642,21 @@
         "composition_values": {
           "carbs_g": 45.9,
           "protein_g": 7.79
+        },
+        "fields": [
+          "carbs_g",
+          "protein_g"
+        ],
+        "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
+      },
+      {
+        "food_id": "duck-fat",
+        "food_page": "/docs/foods/duck-fat",
+        "title": "Duck Fat",
+        "composition_record": "docs/foods/duck-fat.md#nutrition_per_100g",
+        "composition_values": {
+          "carbs_g": 0,
+          "protein_g": 0
         },
         "fields": [
           "carbs_g",
@@ -1100,6 +1130,21 @@
         "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
       },
       {
+        "food_id": "nutritional-yeast",
+        "food_page": "/docs/foods/nutritional-yeast",
+        "title": "Nutritional Yeast",
+        "composition_record": "docs/foods/nutritional-yeast.md#nutrition_per_100g",
+        "composition_values": {
+          "carbs_g": 19,
+          "protein_g": 47
+        },
+        "fields": [
+          "carbs_g",
+          "protein_g"
+        ],
+        "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
+      },
+      {
         "food_id": "oats",
         "food_page": "/docs/foods/oats",
         "title": "Oats",
@@ -1482,6 +1527,21 @@
         "composition_values": {
           "carbs_g": 60.73,
           "protein_g": 10.63
+        },
+        "fields": [
+          "carbs_g",
+          "protein_g"
+        ],
+        "qualification": "Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target."
+      },
+      {
+        "food_id": "salmon-roe",
+        "food_page": "/docs/foods/salmon-roe",
+        "title": "Salmon Roe",
+        "composition_record": "docs/foods/salmon-roe.md#nutrition_per_100g",
+        "composition_values": {
+          "carbs_g": 0.2,
+          "protein_g": 32.6
         },
         "fields": [
           "carbs_g",

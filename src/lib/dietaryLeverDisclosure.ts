@@ -18,6 +18,7 @@ const INPUT_TYPE_LABEL: Record<string, string> = {
   cofactor: "Cofactor",
   "catalytic ion": "Catalytic ion",
   "cofactor precursor": "Cofactor precursor",
+  "regulatory modulator": "Regulatory Modulator",
   precursor: "Precursor",
   "resource dependency": "Resource dependency",
   "biochemical requirement": "Biochemical requirement",
@@ -153,6 +154,7 @@ const COMPACT_INPUT_TYPE_LABEL: Record<string, string> = {
   ...INPUT_TYPE_LABEL,
   "substrate provision": "Substrate Provision",
   "cofactor precursor": "Cofactor Precursor",
+  "regulatory modulator": "Regulatory Modulator",
 };
 
 export function formatRequirementCompactQualifier(atom: {

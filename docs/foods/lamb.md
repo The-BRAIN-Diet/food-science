@@ -174,4 +174,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-8" />
 
-[8] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_1a981b50468f)
+[8] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/174370/nutrients)

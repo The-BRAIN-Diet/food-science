@@ -139,4 +139,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-5" />
 
-[5] [USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)](/docs/papers/BRAIN-Diet-References#food_composition_29fb3c843062)
+[5] [USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)](https://fdc.nal.usda.gov/food-details/174202/nutrients)

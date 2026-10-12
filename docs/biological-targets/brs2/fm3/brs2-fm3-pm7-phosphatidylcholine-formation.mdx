@@ -327,6 +327,8 @@ phenome_relationships:
         data_level: Human Mechanistic
 dietary_input_traceability:
   - atom_id: PM7-DIT-1
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Phosphatidylethanolamine
     input_type: substrate
     biological_role: >-
@@ -345,6 +347,8 @@ dietary_input_traceability:
       show that eating phosphatidylethanolamine or ethanolamine increases
       hepatic PEMT activity in humans.
   - atom_id: PM7-DIT-2
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: S-adenosylmethionine (SAMe)
     input_type: substrate
     biological_role: >-
@@ -370,6 +374,8 @@ dietary_input_traceability:
       methylation, and it does not show that raising SAMe intake increases PEMT
       activity in humans.
   - atom_id: PM7-DIT-3
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Choline
     input_type: precursor
     biological_role: >-
@@ -384,6 +390,8 @@ dietary_input_traceability:
       Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
       ordinary-food equivalence or benefit.
   - atom_id: PM7-DIT-4
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Phosphatidylcholine
     input_type: substrate provision
     biological_role: >-
@@ -398,6 +406,8 @@ dietary_input_traceability:
       Plasma tracing does not measure absolute hepatic flux, intermediary SAM,
       ordinary-food equivalence or benefit.
   - atom_id: PM7-DIT-5
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Vitamin B9 (folate)
     input_type: precursor
     biological_role: >-
@@ -425,6 +435,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-1
     relationship_type: conditional-constraint
   - atom_id: PM7-DIT-6
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Betaine
     input_type: substrate provision
     biological_role: >-
@@ -452,6 +464,8 @@ dietary_input_traceability:
     ikc_id: BRS2-KC1-KIT-3
     relationship_type: conditional-constraint
   - atom_id: PM7-DIT-7
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Uridine
     input_type: precursor
     biological_role: >-
@@ -479,6 +493,8 @@ dietary_input_traceability:
         - registry/substances.json
         - docs/substances/bioactive-compounds/uridine.md
   - atom_id: PM7-DIT-8
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Cytidine triphosphate (CTP)
     input_type: substrate
     biological_role: CTP reacts with phosphocholine to form CDP-choline in the Kennedy pathway.
@@ -497,6 +513,8 @@ dietary_input_traceability:
       status: missing-substance
       severity: MAJOR
   - atom_id: PM7-DIT-9
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Diacylglycerol (DAG)
     input_type: substrate
     biological_role: >-
@@ -516,6 +534,8 @@ dietary_input_traceability:
       status: missing-substance
       severity: MAJOR
   - atom_id: PM7-DIT-10
+    dietary_input: false
+    dietary_input_note: "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability."
     input: Choline
     input_type: substrate
     biological_role: >-
@@ -1610,6 +1630,8 @@ key_constraints:
   - BRS2(KC1) - Methyl Donor Pool
 pm_kc_relationships:
   - relationship_id: BRS2-FM3-PM7-KCR-1
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS2(KC1)
     ikc_id: BRS2(KC1)
     input: One-carbon methyl-donor availability

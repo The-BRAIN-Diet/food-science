@@ -111,4 +111,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-4" />
 
-[4] [USDA FoodData Central, Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted (FDC 171065)](/docs/papers/BRAIN-Diet-References#food_composition_9b0aff944230)
+[4] [USDA FoodData Central, Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted (FDC 171065)](https://fdc.nal.usda.gov/food-details/171065/nutrients)

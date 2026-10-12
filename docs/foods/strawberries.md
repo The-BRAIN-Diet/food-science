@@ -197,8 +197,8 @@ Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods 
 
 <span id="food-source-4" />
 
-[4] [USDA flavonoid database Release 3.3 (2018)](/docs/papers/BRAIN-Diet-References#food_composition_0142f9970fab)
+[4] [USDA flavonoid database Release 3.3 (2018)](https://www.ars.usda.gov/ARSUserFiles/80400535/Data/Flav/Flav3.3.pdf)
 
 <span id="food-source-5" />
 
-[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_8e57c9176795)
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/167762/nutrients)

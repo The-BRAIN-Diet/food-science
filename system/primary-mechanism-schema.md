@@ -1370,3 +1370,10 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
 ```
 
 Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+
+
+For independently admitted food-related SOPs, follow `system/food-strategy-rollup-schema.md`. Record stable `food_strategy_id` and explicit `food_strategy_scope` on the PM SOP atom, retain its original role/evidence/limitation, and regenerate the rollup. A dietary-input No does not admit an SOP. The food rollup is a separate strategy/intervention view; canonical food or substance links require accepted identities and must not be guessed.
+
+### Direct Regulatory Modulators (Stage 2B)
+
+Apply the Stage 2B Direct Regulatory Modulator admission rule in `dietary-input-traceability-contract.md`. The compound is the dietary lever; preparation-specific delivery is qualified in evidence and limitations. A separately admitted preparation SOP remains in §3.2 and must not replace or duplicate the compound admission. Direct does not imply essentiality or clinical benefit.

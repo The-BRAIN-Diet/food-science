@@ -137,4 +137,4 @@ Within the BRAIN Diet framework, the mushroom also contains lentinan, a beta-glu
 
 <span id="food-source-4" />
 
-[4] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_dfdac4ec6fdc)
+[4] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169242/nutrients)

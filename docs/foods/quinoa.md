@@ -34,7 +34,6 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.318
   folate_ug: 184
   sat_fat_g: 0.706
-  dha_mg: 47
   protein_g: 14.12
   fat_g: 6.07
   calcium_mg: 47
@@ -50,12 +49,41 @@ nutrition_per_100g:
   linoleic_g: 2.977
   carbs_g: 64.16
   kcal: 368
-  omega3_mg: 47
   pufa_18_3_unresolved_mg: 260
-omega3_components:
-  - nutrient: dha_mg
-    identity: '22:6 n-3 (DHA)'
-    amount_mg: 47
+nutrition_value_reviews:
+  - title: 'DHA observation: independent confirmation unresolved'
+    section: Fatty acids
+    correction_status: pending
+    substance_id: dha-docosahexaenoic-acid
+    nutrient_key: dha_mg
+    exclude_from_food_lists: true
+    original_observation:
+      source: USDA SR Legacy April 2018
+      fdc_id: 168874
+      food_name: 'Quinoa, uncooked'
+      nutrient_id: 1272
+      nutrient_name: 'PUFA 22:6 n-3 (DHA)'
+      value: 0.047
+      unit: g
+      basis: per 100 g edible portion
+      data_points: 3
+      range: [0.03, 0.06]
+      derivation: Analytical
+      source_url: https://fdc.nal.usda.gov/food-details/168874/nutrients
+    description: >-
+      The archived USDA record reports DHA at 47 mg/100 g. Identity and unit
+      conversion are verified, but independent confirmation of this amount in
+      edible quinoa remains unresolved. The database observation is retained
+      here, not replaced with zero or relabelled as ALA.
+    decision: >-
+      Temporarily withhold quinoa from DHA food lists and quantified rankings.
+      The former 47 mg omega-3 total depended entirely on this held observation
+      and is withheld too. Unqualified 18:3 remains separately unresolved.
+      Reinstate only after review of supporting analytical identity and food basis.
+    independent_review_sources:
+      - https://pmc.ncbi.nlm.nih.gov/articles/PMC7500770/
+      - https://pmc.ncbi.nlm.nih.gov/articles/PMC9025313/
+      - https://www.matvaretabellen.no/en/quinoa-black-uncooked/
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Quinoa, uncooked'

@@ -292,4 +292,4 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 <span id="food-source-6" />
 
-[6] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_f1b1897fedaa)
+[6] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/170273/nutrients)

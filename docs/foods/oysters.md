@@ -285,7 +285,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-3" />
 
-[3] [Composition evidence for EPA](/docs/papers/BRAIN-Diet-References#food_composition_bf423801311d)
+[3] [Composition evidence for EPA](https://tools.myfooddata.com/nutrition-facts/174250/wt2)
 
 <span id="food-source-4" />
 
@@ -293,4 +293,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 <span id="food-source-5" />
 
-[5] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_1acaef739022)
+[5] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/171978/nutrients)

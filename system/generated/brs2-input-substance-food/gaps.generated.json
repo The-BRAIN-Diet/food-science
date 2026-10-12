@@ -1,0 +1,375 @@
+{
+  "gaps": [
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS2-FM1-PM1::PM1-DIT-3",
+      "reason": "Direct reaction-cofactor classification is retained, but the accepted overlay states that dietary cobalamin is processed to methylcobalamin and methylcobalamin is not an independent intake target. Dietary admission and this supply limitation require reconciliation; do not count it as a second supply alongside vitamin B12.",
+      "flags": [
+        "section-supply-contradiction"
+      ]
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM1",
+      "id": "PM1-DIT-3",
+      "input": "Methylcobalamin",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM1",
+      "id": "PM1-DIT-5",
+      "input": "Homocysteine",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM2",
+      "id": "PM2-DIT-3",
+      "input": "Homocysteine",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM2",
+      "id": "PM2-DIT-4",
+      "input": "Zinc ion (Zn²⁺)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM3",
+      "id": "PM3-DIT-2",
+      "input": "ATP",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM3",
+      "id": "PM3-DIT-3",
+      "input": "Magnesium ions (Mg²⁺)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM3",
+      "id": "PM3-DIT-4",
+      "input": "Potassium ions (K⁺)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM3",
+      "id": "PM3-DIT-5",
+      "input": "Dietary protein",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM1-PM4",
+      "id": "PM4-DIT-2",
+      "input": "Dietary protein",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM2-PM5",
+      "id": "PM5-DIT-1",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM2-PM5",
+      "id": "PM5-DIT-3",
+      "input": "Homocysteine",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM2-PM5",
+      "id": "PM5-DIT-5",
+      "input": "Cystathionine",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM2-PM6",
+      "id": "PM6-DIT-4",
+      "input": "ATP",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM2-PM6",
+      "id": "PM6-DIT-5",
+      "input": "Magnesium ions (Mg²⁺)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM3-PM7",
+      "id": "PM7-DIT-2",
+      "input": "S-adenosylmethionine (SAMe)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM3-PM7",
+      "id": "PM7-DIT-8",
+      "input": "Cytidine triphosphate (CTP)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "substance-identity",
+      "pm_id": "BRS2-FM3-PM7",
+      "id": "PM7-DIT-9",
+      "input": "Diacylglycerol (DAG)",
+      "status": "unresolved-identity"
+    },
+    {
+      "kind": "specialist-specification-not-joined",
+      "food_id": "algal-oil",
+      "record": "docs/foods/algal-oil.md",
+      "reason": "Authorised specification schema needs a material-specific adapter; no generic amount inferred."
+    },
+    {
+      "kind": "composition-observation-held",
+      "food_id": "quinoa",
+      "substance_id": "dha-docosahexaenoic-acid",
+      "record": "docs/foods/quinoa.md#nutrition_value_reviews",
+      "reason": "DHA observation: independent confirmation unresolved"
+    },
+    {
+      "kind": "upstream-supply-relationship-unresolved",
+      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-1",
+      "upstream_pm": "BRS2-FM2-PM5"
+    },
+    {
+      "kind": "upstream-supply-relationship-unresolved",
+      "relationship_id": "BRS2-FM3-PM7::PM7-DIT-2",
+      "upstream_pm": "BRS2-FM1-PM3"
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM1-PM3::PM3-DIT-1",
+      "input": "Methionine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
+      "input": "Dietary protein",
+      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-1",
+      "input": "Methionine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-2",
+      "input": "Dietary protein",
+      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM5::PM5-DIT-1",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM5::PM5-DIT-4",
+      "input": "Serine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM5::PM5-KC2-UPSTREAM-1",
+      "input": "Methionine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-2",
+      "input": "Glutamate",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-3",
+      "input": "Glycine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-9",
+      "input": "Methionine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-7",
+      "input": "N-acetylcysteine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM3-PM7::PM7-DIT-7",
+      "input": "Uridine",
+      "reason": "No supported canonical food-source record found."
+    }
+  ],
+  "conflicts": [],
+  "pm_coverage": [
+    {
+      "pm_id": "BRS2-FM1-PM1",
+      "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "accepted_relationships": 5,
+      "structured_atoms": 5
+    },
+    {
+      "pm_id": "BRS2-FM1-PM2",
+      "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "accepted_relationships": 4,
+      "structured_atoms": 4
+    },
+    {
+      "pm_id": "BRS2-FM1-PM3",
+      "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "accepted_relationships": 9,
+      "structured_atoms": 8
+    },
+    {
+      "pm_id": "BRS2-FM1-PM4",
+      "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "accepted_relationships": 9,
+      "structured_atoms": 8
+    },
+    {
+      "pm_id": "BRS2-FM2-PM5",
+      "record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "accepted_relationships": 8,
+      "structured_atoms": 6
+    },
+    {
+      "pm_id": "BRS2-FM2-PM6",
+      "record": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "accepted_relationships": 7,
+      "structured_atoms": 7
+    },
+    {
+      "pm_id": "BRS2-FM3-PM7",
+      "record": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "accepted_relationships": 11,
+      "structured_atoms": 10
+    }
+  ],
+  "pools": [
+    {
+      "id": "BRS2(KC1)",
+      "title": "Methyl Donor Pool",
+      "record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx",
+      "dependent_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM2",
+        "BRS2-FM1-PM3",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5",
+        "BRS2-FM3-PM7"
+      ],
+      "constituent_relationships": [
+        {
+          "kc_id": "BRS2(KC1)",
+          "ikc_id": "BRS2-KC1-KIT-1",
+          "constituent_id": "BRS2-KC1-KIT-1",
+          "relationship_id": "PM1-DIT-2-KC1-ADMISSION",
+          "relationship_type": "supported-upstream-supply",
+          "membership": "admitted",
+          "label": "Vitamin B9 (folate)",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx#kc_input_traceability/BRS2-KC1-KIT-1",
+          "substance_id": "vitamin-b9",
+          "id": "BRS2(KC1)::BRS2-KC1-KIT-1",
+          "pm_id": "BRS2-FM1-PM1",
+          "dependent_pms": [
+            "BRS2-FM1-PM1",
+            "BRS2-FM1-PM3",
+            "BRS2-FM1-PM4",
+            "BRS2-FM3-PM7"
+          ]
+        },
+        {
+          "kc_id": "BRS2(KC1)",
+          "ikc_id": "BRS2-KC1-KIT-3",
+          "constituent_id": "BRS2-KC1-KIT-3",
+          "relationship_id": "PM2-DIT-1-KC1-ADMISSION",
+          "relationship_type": "conditional-constraint",
+          "membership": "admitted",
+          "label": "Betaine",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx#kc_input_traceability/BRS2-KC1-KIT-3",
+          "substance_id": "betaine",
+          "id": "BRS2(KC1)::BRS2-KC1-KIT-3",
+          "pm_id": "BRS2-FM1-PM2",
+          "dependent_pms": [
+            "BRS2-FM1-PM2",
+            "BRS2-FM1-PM3",
+            "BRS2-FM1-PM4",
+            "BRS2-FM3-PM7"
+          ]
+        },
+        {
+          "kc_id": "BRS2(KC1)",
+          "ikc_id": "BRS2-KC1-KIT-2",
+          "constituent_id": "BRS2-KC1-KIT-2",
+          "relationship_id": "PM2-DIT-2-KC1-ADMISSION",
+          "relationship_type": "conditional-constraint",
+          "membership": "admitted",
+          "label": "Choline",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx#kc_input_traceability/BRS2-KC1-KIT-2",
+          "substance_id": "choline",
+          "id": "BRS2(KC1)::BRS2-KC1-KIT-2",
+          "pm_id": "BRS2-FM1-PM2",
+          "dependent_pms": [
+            "BRS2-FM1-PM2",
+            "BRS2-FM1-PM3",
+            "BRS2-FM1-PM4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "BRS2(KC2)",
+      "title": "Methionine–Cysteine Sulfur Amino Acid Pool",
+      "record": "docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool.mdx",
+      "dependent_pms": [
+        "BRS2-FM2-PM5",
+        "BRS2-FM2-PM6"
+      ],
+      "constituent_relationships": [
+        {
+          "kc_id": "BRS2(KC2)",
+          "ikc_id": "BRS2-KC2-KIT-1",
+          "constituent_id": "BRS2-KC2-KIT-1",
+          "relationship_id": "PM5-KC2-UPSTREAM-1-REL",
+          "relationship_type": "supported-upstream-supply",
+          "membership": "admitted",
+          "label": "Methionine",
+          "presentation_section": "3.1.3",
+          "source_record": "docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool.mdx#kc_input_traceability/BRS2-KC2-KIT-1",
+          "substance_id": "methionine",
+          "id": "BRS2(KC2)::BRS2-KC2-KIT-1",
+          "pm_id": "BRS2-FM2-PM5",
+          "dependent_pms": [
+            "BRS2-FM2-PM5"
+          ]
+        }
+      ]
+    }
+  ]
+}

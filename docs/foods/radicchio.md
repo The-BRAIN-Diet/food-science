@@ -139,7 +139,7 @@ Within a BRAIN-aligned pattern it is included as a distinctive salad chicory rat
 
 <span id="food-source-3" />
 
-[3] [USDA SR Legacy April 2018](/docs/papers/BRAIN-Diet-References#food_composition_abe4315539bc)
+[3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/168564/nutrients)
 
 <span id="food-source-4" />
 

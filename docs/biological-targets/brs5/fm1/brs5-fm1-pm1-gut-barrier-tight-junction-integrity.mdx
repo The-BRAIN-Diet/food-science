@@ -10,6 +10,9 @@ key_constraints:
 cofactors: []
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Butyrate
     input_type: substrate
     biological_role: Microbially produced short-chain fatty acid that serves as a colonocyte energy substrate and directly promotes intestinal tight-junction assembly.
@@ -30,6 +33,8 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: butyrate
   - atom_id: PM1-DIT-2
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Fermentable dietary fibre
     input_type: substrate provision
     biological_role: 'Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.'
@@ -50,6 +55,9 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM1-DIT-3
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Retinoic acid
     input_type: biochemical requirement
     biological_role: Active vitamin A metabolite involved in epithelial differentiation and permeability regulation; the direction of permeability change varies with experimental context.
@@ -72,6 +80,8 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM1-DIT-4
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Vitamin A
     input_type: precursor
     biological_role: Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.
@@ -92,6 +102,8 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: vitamin-a
   - atom_id: PM1-DIT-5
+    dietary_input: true
+    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
     input: Zinc
     input_type: biochemical requirement
     biological_role: Required cellular mineral for maintenance of occludin and claudin-3 expression and intestinal tight-junction integrity.
@@ -111,6 +123,9 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: zinc
   - atom_id: PM1-DIT-6
+    dietary_input: null
+    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
+    dietary_input_flags: ["section-supply-contradiction"]
     input: Glutamine
     input_type: substrate
     biological_role: 'Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.'
@@ -133,6 +148,8 @@ dietary_input_traceability:
         - docs/substances/ (label/form/alias search)
       projection_status: blocked
   - atom_id: PM1-KC1-UPSTREAM-1
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: FOS/GOS
     input_type: supported upstream supply
     biological_role: The tested FOS/GOS preparation supplies microbial fermentation substrates upstream of epithelial barrier biology.
@@ -152,6 +169,8 @@ dietary_input_traceability:
     ikc_id: BRS5-KC1-KIT-1
     relationship_type: supported-upstream-supply
   - atom_id: PM1-KC1-UPSTREAM-2
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Pectin
     input_type: supported upstream supply
     biological_role: Pectin provides microbial fermentation substrate that contributes short-chain fatty acids upstream of epithelial barrier biology.
@@ -171,6 +190,8 @@ dietary_input_traceability:
     ikc_id: BRS5-KC1-KIT-2
     relationship_type: supported-upstream-supply
   - atom_id: PM1-KC1-UPSTREAM-3
+    dietary_input: true
+    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
     input: Resistant starch
     input_type: supported upstream supply
     biological_role: Resistant starch supplies colonic microbes whose fermentation products contribute upstream to epithelial barrier biology.
@@ -278,6 +299,8 @@ dietary_lever_presentations:
     description_finding_id: PM1-F6
 pm_kc_relationships:
   - relationship_id: PM1-KC1-SUPPLY
+    dietary_input: false
+    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
     kc_id: BRS5(KC1)
     ikc_id: BRS5(KC1)
     relationship_type: supported-upstream-supply
@@ -974,6 +997,8 @@ input_identity_audit:
     verification: Existing canonical registry entry and substance-page record inspected; study preparation boundaries retained.
 system_optimisation_practices:
   - atom_id: PM1-SOP-1
+    food_strategy_scope: food-preparation
+    food_strategy_id: food-strategy-f8e9fd166d63
     input: Include dietary fat with provitamin-A vegetables
     input_type: Food delivery practice
     optimisation_category: food_prep

@@ -67,6 +67,7 @@ const unpublishedSitemapIgnore = [
   '/docs/therapeutic-areas/depressive-disorders/',
 ];
 const sitemapIgnore = [
+  '/docs/system/food-strategy-rollup{,/**}',
   '/docs/system/brs1-substance-index{,/**}',
   '/docs/system/brs1-input-substance-food{,/**}',
   ...(includeInternalDocs ? [] : unpublishedSitemapIgnore),

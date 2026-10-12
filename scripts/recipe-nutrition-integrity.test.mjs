@@ -284,8 +284,9 @@ test("legacy recipe_nutrition without 100 g fallback still calculates when grams
     fs.readFileSync(path.join(ROOT, "docs/recipes/Snacks/neuroeshot.md"), "utf8"),
   )
   const result = calculateRecipeNutrition(neuro.data, foodDocs)
-  assert.equal(result.status, "pending")
-  assert.ok(result.blockers.length > 0, "withdrawn salmon composition blocks a total")
+  assert.equal(result.status, "calculated")
+  assert.ok(result.perServing.epa_mg > 200, "salted ikura supplies the EPA")
+  assert.ok(result.unresolved.sodium_mg, "hot-sauce sodium keeps the recipe sodium unresolved")
 })
 
 test("creamed-corn calculates from a named coconut-milk record, never coconut oil", () => {
@@ -380,9 +381,9 @@ test("salt added to taste is excluded and disclosed rather than guessed", () => 
 test("a nutrient the sources cannot establish is never printed as a number", () => {
   const neuro = loadRecipe("Snacks/neuroeshot.md")
   const result = calculateRecipeNutrition(neuro.data, foodDocs)
-  assert.equal(result.status, "pending")
-  assert.match(result.unresolved.sodium_mg, /brine|label/i)
-  const sodiumRow = selectPublicRows(result).find((r) => r.key === "sodium_mg")
+  assert.equal(result.status, "calculated")
+  assert.match(result.unresolved.sodium_mg, /hot sauce|brand/i)
+  const sodiumRow = selectPublicRows(result, neuro.data).find((r) => r.key === "sodium_mg")
   assert.ok(!sodiumRow || sodiumRow.amount === null)
 })
 
@@ -611,22 +612,25 @@ test("a completed ingredient panel recomputes the recipe vector and reranks the 
   assert.ok(displaced.length > 0, "a former headline row must give way when a new nutrient ranks higher")
 })
 
-test("species-unspecified roe quantities are withdrawn rather than inherited by recipes", () => {
-  for (const title of ["Salmon Roe", "Trout Roe"]) {
-    const roe = foodDocs.find((doc) => doc.title === title)
-    assert.deepEqual(roe.frontMatter.nutrition_per_100g, {})
-    assert.equal(roe.frontMatter.nutrition_source, undefined)
-    assert.equal(roe.frontMatter.omega3_components, undefined)
-  }
+test("trout roe stays withdrawn; salmon roe uses salted chum-salmon ikura", () => {
+  const trout = foodDocs.find((doc) => doc.title === "Trout Roe")
+  assert.deepEqual(trout.frontMatter.nutrition_per_100g, {})
+  assert.equal(trout.frontMatter.nutrition_source, undefined)
+  assert.equal(trout.frontMatter.omega3_components, undefined)
+  const salmon = foodDocs.find((doc) => doc.title === "Salmon Roe")
+  assert.equal(salmon.frontMatter.nutrition_per_100g.epa_mg, 1600)
+  assert.equal(salmon.frontMatter.nutrition_per_100g.dha_mg, 2000)
+  assert.notEqual(salmon.frontMatter.nutrition_source?.fdc_id, 175132)
   const recipe = loadRecipe("Snacks/neuroeshot.md")
   const result = calculateRecipeNutrition(recipe.data, foodDocs)
-  assert.equal(result.status, "pending")
-  assert.ok(result.blockers.length > 0)
-  assert.equal(result.perServing.epa_mg, undefined)
-  assert.equal(result.perServing.dha_mg, undefined)
-  assert.equal(result.perServing.vitamin_b12_ug, undefined)
+  assert.equal(result.status, "calculated")
+  assert.ok(result.perServing.epa_mg > 200)
+  assert.ok(result.perServing.dha_mg > 250)
+  assert.ok(result.perServing.vitamin_b12_ug > 5)
+  assert.ok(result.unresolved.sodium_mg)
   const rows = selectPublicRows(result, recipe.data)
-  assert.ok(!rows.some((row) => ["epa_mg", "dha_mg", "vitamin_b12_ug"].includes(row.key) && row.amount != null))
+  assert.ok(rows.some((row) => row.key === "epa_mg" && row.amount != null))
+  assert.ok(!rows.some((row) => row.key === "sodium_mg" && row.amount != null))
 })
 
 test("flax and walnuts lost their alanine-sized ALA; chia's real value survived", () => {

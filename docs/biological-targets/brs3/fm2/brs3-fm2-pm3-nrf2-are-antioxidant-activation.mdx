@@ -15,7 +15,7 @@ intervention_dominance_assessment:
     label: Diet-Supported
     rationale: A prepared broccoli sprout homogenate changed nasal phase II enzyme RNA. That is conditional food-preparation influence on a defence-gene endpoint. It does not establish that diet is the principal route for this switch.
     routes:
-      - group_id: '3.2'
+      - group_id: '3.1'
         evidence_basis: intervention-effect
         intervention_effect: 'Three daily doses of a broccoli sprout homogenate, prepared with added daikon myrosinase, increased phase II enzyme RNA in nasal cells.'
         context: Healthy nonsmoking adults. Nasal cells were sampled two hours after the third dose. Alfalfa sprout homogenate did not produce the increase.
@@ -29,16 +29,16 @@ intervention_dominance_assessment:
   principal_route_selection:
     disposition: established
     selected_groups:
-      - '3.2'
-    rationale: 'No direct dietary requirement is established. The only admitted intervention is the myrosinase-completed sprout homogenate, so that practice is the section 1 lever. Lifestyle was not shown to change this switch.'
+      - '3.1'
+    rationale: 'Sulforaphane is admitted separately as a Direct Regulatory Modulator in 3.1. The compound is the principal dietary lever. The preparation practice remains separately in 3.2 and is not jointly promoted or counted as another intervention supply. Lifestyle was not shown to change this switch.'
     comparative_limitations: 'The homogenate changed nasal enzyme RNA. It is not ordinary broccoli, not a capsule, and not brain Nrf2.'
     assessments:
-      - group_id: '3.2'
+      - group_id: '3.1'
         relevance: 'The practice raises phase II enzyme RNA, the defence-gene class this switch is about, in human nasal cells.'
-        directness: The exposure tested is the homogenate. The authors read the shared enzyme pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.
+        directness: Sulforaphane is the admitted regulatory modulator. The tested delivery was the homogenate, specified as an exposure limitation rather than the dietary input. The authors inferred Nrf2-linked induction from phase II enzyme RNA; they did not measure Nrf2 protein or nuclear translocation.
         extent: 'Three daily doses in healthy nonsmoking adults, sampled in nasal cells. This is not brain Nrf2 activation, an ordinary broccoli serving, or the four-week sprout-extract capsules in COPD.'
-dietary_addressability: not-established
-claim_ceiling: biological-dependency
+dietary_addressability: direct
+claim_ceiling: modulation-demonstrated
 mechanistic_authoring_required: false
 evidence_status: stage-2b-dietary-addressability
 kc_applicability_adjudications:
@@ -111,8 +111,59 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#mocchegiani_role_2019
         data_level: Mechanistic
     evidence_confidence: low
+dietary_input_traceability:
+  - atom_id: PM3-DIT-1
+    input: Sulforaphane
+    substance_id: sulforaphane
+    input_type: regulatory modulator
+    dietary_input: true
+    dietary_input_note: >-
+      Admitted as a nonessential food-derived Direct Regulatory Modulator,
+      not a nutrient requirement. Dietary delivery and human peripheral
+      target engagement are preparation-specific; the compound is the lever.
+    biological_role: >-
+      Modulates KEAP1-mediated control of Nrf2, promoting antioxidant-response
+      gene transcription. Human dietary exposure increased Nrf2-associated
+      phase II enzyme RNA in nasal lavage cells.
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+        - PM3-F2
+      citation_keys:
+        - zhang_keap1_2004
+        - riedl_sulforaphane_airway_2009
+        - wise_sulforaphane_copd_2016
+    evidence_limitation: >-
+      Human target engagement varies by formulation, tissue and population.
+      The positive study used a myrosinase-completed broccoli sprout homogenate
+      for three days in healthy nonsmokers and measured nasal phase II enzyme
+      RNA, not Nrf2 protein or nuclear translocation. Extract capsules did not
+      increase lung target-gene expression in COPD. An ordinary broccoli meal,
+      direct activation of Nrf2 in the human brain and clinical ADHD benefit
+      remain unestablished. Sulforaphane is not an essential nutrient.
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-1
+    requirement_classification: direct
+    relationship_mode: state-regulation
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: modulation-demonstrated
+    permitted_wording: >-
+      Sulforaphane is a Direct Regulatory Modulator of KEAP1–Nrf2.
+      Food-derived exposure increased Nrf2-associated gene expression in human
+      nasal cells under the tested preparation; brain engagement and ADHD
+      benefit are not established.
+    evidence_limitation: >-
+      Preparation-, tissue- and population-specific target engagement;
+      no ordinary-serving efficacy, essentiality or brain/ADHD benefit claim.
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-1
+    label: Sulforaphane
+    presentation_section: 3.1.1
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
+    food_strategy_scope: food-preparation
+    food_strategy_id: food-strategy-bec27b284d44
     optimisation_category: food_prep
     input: Myrosinase-completed broccoli sprout homogenate
     presentation_label: Myrosinase-completed broccoli sprout homogenate
@@ -244,7 +295,7 @@ Regulate the expression of cellular defence genes in response to oxidative and e
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-No Direct or Derived Dietary Requirement is currently established for Nrf2-mediated cellular defence regulation.
+- Sulforaphane
 
 </div>
 </div>

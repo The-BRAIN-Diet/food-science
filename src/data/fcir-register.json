@@ -811,12 +811,10 @@
       "problem": "Roe’s USDA alanine value was stored as ALA and entered the recipe as 214.2 mg of false omega‑3.",
       "decision": "The previous ALA figure was alanine. EPA and DHA on this record are explicit n‑3 acids.",
       "action": "Suppress ALA. Keep EPA 983 mg and DHA 1,363 mg per 100 g. Identified omega‑3 is the sum of verified n‑3 components only.",
-      "source_public": "[FDC 175132](https://fdc.nal.usda.gov/food-details/175132/nutrients), *Fish, roe, mixed species, raw*: nutrient 1278 (EPA), 1272 (DHA). Unqualified 18:3 nutrient 1270 = 6 mg, unpublished. Recipe: [Neuroeshot](/docs/recipes/Snacks/neuroeshot-roe#recipe-nutrition) scales 15 g of that record.",
+      "source_public": "[FDC 175132](https://fdc.nal.usda.gov/food-details/175132/nutrients), *Fish, roe, mixed species, raw*: nutrient 1278 (EPA), 1272 (DHA). Unqualified 18:3 nutrient 1270 = 6 mg, unpublished. Recipe history: [Neuroeshot](/docs/recipes/Snacks/neuroeshot-roe#recipe-nutrition) previously scaled 15 g of that record. The record is withdrawn from the salmon roe page.",
       "food_or_scope": "[Salmon roe](/docs/foods/salmon-roe#nutrition-row-epa_mg) and [Neuroeshot](/docs/recipes/Snacks/neuroeshot-roe#nutrition-row-epa_mg)",
       "interpretation_public": "**Decision:** ALA is suppressed. EPA and DHA remain because their identities and quantities are explicit. **Action:** Identified omega‑3 totals include only verified n‑3 components. The leftover 6 mg of unqualified 18:3 stays unpublished.",
-      "food_slugs": [
-        "salmon-roe"
-      ],
+      "food_slugs": [],
       "recipes": [
         {
           "title": "Neuroeshot",
@@ -829,10 +827,10 @@
       "chemically_ambiguous_nutrient": true,
       "nutrient_identity_state": "identified",
       "identity": {
-        "food_material": "Raw mixed-species fish roe used on the salmon roe page and in Neuroeshot",
+        "food_material": "Raw mixed-species fish roe formerly used on the salmon roe page and in Neuroeshot",
         "identity_at_issue": "Alanine mis-stored as ALA; EPA and DHA remain named n‑3 acids",
         "scientific_species": "Mixed species (FDC description); a single species is Not established",
-        "material_form": "Raw mixed-species fish roe; Neuroeshot scales 15 g of that record",
+        "material_form": "Raw mixed-species fish roe; Neuroeshot previously scaled 15 g of that record",
         "canonical_chemical_name": "EPA (20:5 n‑3) and DHA (22:6 n‑3); ALA suppressed; leftover unqualified 18:3 unpublished",
         "substance_identifier": "EPA/icosapent/AAN7QOV9EA; DHA/doconexent/ZAD9OKH9JC; Alanine/OF5P57N2ZX; Leftover 6 mg of unqualified 18:3 remains unpublished; no UNII is assignable.",
         "fdc_food_id": {
@@ -842,7 +840,7 @@
               "id": "175132",
               "label": "*Fish, roe, mixed species, raw*",
               "href": "https://fdc.nal.usda.gov/food-details/175132/nutrients",
-              "note": "composition record for the food page and recipe"
+              "note": "withdrawn mixed-species record; not the current salmon-roe panel"
             }
           ],
           "supporting": [],

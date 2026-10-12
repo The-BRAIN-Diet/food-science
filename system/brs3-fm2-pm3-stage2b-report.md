@@ -1,17 +1,11 @@
-# BRS3-FM2-PM3 Stage 2B — 6 October 2026
+# BRS3-FM2-PM3 Stage 2B — updated 12 October 2026
 
-## §3.1.1 and §3.1.2
+## Admitted compound
 
-No Direct or Derived Dietary Requirement. No cofactor. Sulforaphane is an inducer in a defined preparation, not a nutrient this regulation requires. Zinc, selenium, copper, manganese, vitamin C, and vitamin E are not admitted here.
+Sulforaphane — Direct · Regulatory Modulator; Dietary input Yes; state-regulation, modulation-demonstrated. Existing PM3-F1 establishes KEAP1–Nrf2 mechanism and PM3-F2 supports food-derived exposure with human nasal phase II gene induction. Admission is for sulforaphane, not a preparation or an essential nutrient. The former non-admission based solely on nonessentiality is superseded by the explicit Stage 2B regulatory-modulator rule.
 
-## System Optimisation Practice
+Human peripheral target engagement is preparation-, tissue- and population-specific. The COPD capsule null remains a limitation. Nrf2 protein/nuclear translocation, direct human brain engagement and clinical ADHD benefit are not established by the nasal RNA study. No ordinary broccoli-serving dose or efficacy is inferred.
 
-PM3-SOP-1 remains the myrosinase-completed broccoli sprout homogenate, claim ceiling modulation-demonstrated. Evidence is now PM3-F2 (Riedl and Wise), not the control-step finding.
+## Separate SOP
 
-Qualified route: three daily doses raised nasal phase II enzyme RNA in healthy nonsmokers. Alfalfa did not. The COPD capsule trial is the limitation, not a cancellation of the homogenate and not a second practice.
-
-Principal route remains that practice (`3.2`). Diet-Supported is the preserved label: the practice is food preparation, and it is not evidence that ordinary diet is the main control of this regulation. No lifestyle lever is established.
-
-## Key constraint
-
-Vitamin C does not constrain this step. Public mapping is not published. BRS3(KC1) is not given the historical Antioxidant Substrate Sufficiency title.
+PM3-SOP-1 remains unchanged as the myrosinase-completed broccoli sprout homogenate preparation practice. It is not the compound admission and is not counted as another nutrient supply. Diet-Supported and KC applicability remain unchanged. No cofactors or other compounds are newly admitted.
