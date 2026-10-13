@@ -69,10 +69,10 @@ else
 test('selection does not impose a precise rank on overlapping source-specific ranges', () => { const source = d.food_sources.find(f => f.observations.some(o => o.rank_eligible)); const o = source.observations.find(o => o.rank_eligible); const result = selectQuantified([{ ...source, id: 'test-left', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }, { ...source, id: 'test-right', observations: [{ ...o, range: [o.value, o.value], low: o.low, high: o.high }] }]); assert.equal(result.ranked, false); });
 
 test('sixth field gates PM lists independently of accounting and preserves unresolved decisions', () => {
- assert.deepEqual(d.summary.dietary_input, {yes:34,no:9,unset:7});
+ assert.deepEqual(d.summary.dietary_input, {yes:36,no:9,unset:5});
  for (const r of d.views) {
   assert.ok([true,false,null].includes(r.dietary_input));
-  if(r.dietary_input !== true) assert.equal(r.foods.length,0,r.id);
+  if(r.dietary_input !== true && r.foods.length) assert.ok(r.substance_id, r.id);
   if(r.dietary_input === null) assert.ok(d.gaps.some(g=>g.kind==='dietary-input-unset' && g.relationship_id===r.id));
  }
  assert.equal(byId.get('BRS1-FM2-PM6::PM6-DIT-4').dietary_input,true);
@@ -191,6 +191,28 @@ test('BRS2 generation inventories every structured atom and consumes recorded di
  assert.deepEqual(b.pilot_pms,b.coverage.map(p=>p.pm_id));
 });
 
+test('SAMe methionine gets ontology-backed high-methionine food sources', () => {
+ const b=buildInputSubstanceFood(root,{brs:'BRS2'});
+ const r=b.views.find(r=>r.id==='BRS2-FM1-PM3::PM3-DIT-1');
+ assert.equal(r.dietary_input,true);
+ assert.equal(r.substance_id,'methionine');
+ assert.deepEqual(r.foods.map(f=>f.food_id).sort(),['chicken','eggs','salmon','sardines','tuna']);
+ assert.equal(r.gap,null);
+ assert.ok(r.foods.every(f=>f.presence_records.some(p=>p.record.includes('#substance_relationships/'))));
+ assert.ok(r.foods.every(f=>f.observations.some(o=>o.record.includes('#nutrition_per_100g/methionine_g'))));
+ assert.match(r.selected.qualification,/Verified per-100 g observations/);
+});
+
+test('SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements', () => {
+ const b=buildInputSubstanceFood(root,{brs:'BRS2'});
+ for (const [atom, substance] of [['PM3-DIT-3','magnesium'],['PM3-DIT-4','potassium']]) {
+  const r=b.views.find(r=>r.id===`BRS2-FM1-PM3::${atom}`);
+  assert.equal(r.dietary_input,false);
+  assert.equal(r.substance_id,substance);
+  assert.ok(r.foods.some(f=>f.observations.length));
+ }
+});
+
 test('BRS selector uses independent datasets and shows ungenerated BRSs without fallback', async () => {
  const {selectBrsReviewData,projectMappingReview}=await import('../src/data/inputSubstanceFoodSelection.mjs');
  const b=buildInputSubstanceFood(root,{brs:'BRS2'});
@@ -250,7 +272,7 @@ test('rollout records every accepted atom decision and retains evidence and prec
    }
    for(const k of source.pm_kc_relationships||[])assert.equal(k.dietary_input,false);
   }
-  for(const r of b.views)if(r.dietary_input!==true)assert.equal(r.foods.length,0);
+  for(const r of b.views)if(r.dietary_input!==true && r.foods.length)assert.ok(r.substance_id);
   assert.ok(b.pilot_pms.every(id=>id.startsWith('BRS'+n+'-')));
  }
  const b2=buildInputSubstanceFood(root,{brs:'BRS2'});
@@ -341,4 +363,18 @@ test('newer canonical source revision supersedes stale preview mappings',async()
  assert.equal(selectBrsReviewData({scopes:{BRS3:stale}},{BRS3:current},'BRS3').data,current);
  assert.equal(selectBrsReviewData({scopes:{BRS3:current}},{BRS3:stale},'BRS3').data,current);
  for(const food of ['broccoli','broccoli-sprouts'])assert.ok(current.food_sources.some(f=>f.substance_id==='sulforaphane' && f.food_id===food));
+});
+
+test('PM2 transport inputs retain upstream supply and food links across section numbering',async()=>{
+ const {canonicalInputSection}=await import('../src/data/inputSubstanceFoodSelection.mjs');
+ for(const n of [1,2,3])assert.equal(canonicalInputSection(`1.1.${n}`),`3.1.${n}`);
+ for(const n of [1,2,3])assert.equal(canonicalInputSection(`3.1.${n}`),`3.1.${n}`);
+ const b=buildInputSubstanceFood(root);
+ for(const atom of ['PM2-DIT-1','PM2-DIT-2']) {
+  const r=b.relationships.find(r=>r.id===`BRS1-FM1-PM2::${atom}`);
+  assert.equal(r.dietary_input,true);assert.equal(r.accounting,'B');
+  assert.equal(r.upstream[0].pm_id,'BRS1-FM1-PM1');
+  assert.ok(r.upstream[0].relationship_ids.length);
+  assert.ok(b.food_sources.some(f=>f.substance_id===r.substance_id));
+ }
 });

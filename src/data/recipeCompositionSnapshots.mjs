@@ -1415,7 +1415,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
     "description": "Lettuce, cos or romaine, raw",
     "database": "USDA FoodData Central SR Legacy (April 2018)",
     "basis": "per 100 g edible portion",
-    "note": "Romaine/cos lettuce; no food page. Not a mixed-leaf or iceberg substitute.",
+    "note": "Romaine/cos lettuce snapshot; recipes with a food page should use romaine-lettuce. Not a mixed-leaf or iceberg substitute.",
     "nutrition_per_100g": {
       "choline_mg": 9.9,
       "vitamin_a_rae_ug": 436,
@@ -1464,7 +1464,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
     "description": "Watercress, raw",
     "database": "USDA FoodData Central SR Legacy (April 2018)",
     "basis": "per 100 g edible portion",
-    "note": "Watercress; no food page.",
+    "note": "Watercress snapshot; recipes with a food page should use watercress.",
     "nutrition_per_100g": {
       "lutein_zeaxanthin_ug": 5767,
       "vitamin_e_mg": 1,
@@ -1513,7 +1513,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
     "description": "Radicchio, raw",
     "database": "USDA FoodData Central SR Legacy (April 2018)",
     "basis": "per 100 g edible portion",
-    "note": "Radicchio; no food page. Not chicory greens or witloof.",
+    "note": "Radicchio snapshot; recipes with a food page should use radicchio. Not chicory greens or witloof.",
     "nutrition_per_100g": {
       "sat_fat_g": 0.06,
       "oleic_g": 0.005,
@@ -1560,7 +1560,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
     "description": "Fish, anchovy, european, canned in oil, drained solids",
     "database": "USDA FoodData Central SR Legacy (April 2018)",
     "basis": "per 100 g edible portion",
-    "note": "European anchovy, canned in oil, drained solids. No Anchovy food page.",
+    "note": "European anchovy, canned in oil, drained solids snapshot; recipes with a food page should use anchovies.",
     "nutrition_per_100g": {
       "vitamin_k_ug": 12.1,
       "vitamin_e_mg": 3.33,
@@ -1744,6 +1744,55 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
           "amount_mg": 223
         }
       ]
+    }
+  },
+  "mustard-seed-ground": {
+    "fdc_id": "170929",
+    "description": "Spices, mustard seed, ground",
+    "database": "USDA FoodData Central SR Legacy (April 2018)",
+    "basis": "per 100 g edible portion",
+    "note": "Ground mustard seed. No food page. The level teaspoon on this record is 2 g.",
+    "nutrition_per_100g": {
+      "sugar_g": 6.79,
+      "vitamin_k_ug": 5.4,
+      "choline_mg": 122.7,
+      "protein_g": 26.08,
+      "fibre_g": 12.2,
+      "iron_mg": 9.21,
+      "magnesium_mg": 370,
+      "phosphorus_mg": 828,
+      "sodium_mg": 13,
+      "copper_mg": 0.645,
+      "manganese_mg": 2.448,
+      "vitamin_a_rae_ug": 2,
+      "beta_carotene_ug": 18,
+      "tryptophan_g": 0.256,
+      "methionine_g": 0.483,
+      "tyrosine_g": 0.809,
+      "glycine_g": 1.587,
+      "sat_fat_g": 1.989,
+      "vitamin_c_mg": 7.1,
+      "vitamin_b1_mg": 0.805,
+      "vitamin_b2_mg": 0.261,
+      "folate_ug": 162,
+      "calcium_mg": 266,
+      "potassium_mg": 738,
+      "zinc_mg": 6.08,
+      "selenium_ug": 208.1,
+      "vitamin_e_mg": 5.07,
+      "fat_g": 36.24,
+      "carbs_g": 28.09,
+      "kcal": 508,
+      "oleic_g": 8.463,
+      "linoleic_g": 5.921,
+      "pufa_18_3_unresolved_mg": 3792,
+      "vitamin_b3_mg": 4.733,
+      "vitamin_b5_mg": 0.81,
+      "vitamin_b6_mg": 0.397,
+      "leucine_g": 2.08,
+      "lysine_g": 1.844,
+      "arginine_g": 1.933,
+      "lutein_zeaxanthin_ug": 568
     }
   },
   "salt-table": {

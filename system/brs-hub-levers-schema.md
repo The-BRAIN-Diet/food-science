@@ -8,11 +8,12 @@ Rollup and presentation schema for **BRS1–BRS6 hub pages**.
 
 Each BRS hub page should orient readers in under one minute: explain the biological objective, translate system requirements into practical dietary guidance, and guide readers into Functional Modules — without duplicating PM-level biology, Food Profiles, or Recipes.
 
-**PM Evidence traceability (future Lever build):** Dietary-facing labels must use the same
-four-field atomic currency as PM Evidence (`system/dietary-input-traceability-contract.md`).
-Default presentation stays compact; full Input / Type / Role / Evidence Source is exposed
-on interaction. Evidence links resolve to the PM canonical References section — no
-separate Lever bibliography.
+**PM Evidence traceability (future Lever build):** Dietary-facing labels must use
+the same six-field atomic currency as PM Evidence
+(`system/dietary-input-traceability-contract.md`). Default presentation stays
+compact; full Input / Type / Role / Evidence Source / Limitation / Dietary input
+is exposed on interaction. Evidence links resolve to the PM canonical References
+section — no separate Lever bibliography.
 
 ---
 
@@ -432,6 +433,13 @@ time-restricted feeding / fasting intervention → SOP `dietary_protocols`; a
 dietary input required by or evidence-qualified as regulating the PM → Dietary
 Requirement.
 
+`dietary_input` is still recorded on SOP evidence rows as the sixth atom. A food,
+preparation, timing or exposure practice may be `true`; pure exercise, breathing,
+meditation or other non-dietary practices are `false`; mixed or insufficiently
+classified interventions remain `null` pending review. This dietary-involvement
+flag does not move SOPs into Dietary Requirements and does not create nutritional
+necessity or therapeutic efficacy claims.
+
 **Do not place in SOP:**
 
 - Ordinary food choice, nutrients, dietary patterns (Dietary Guidance / Requirements)
@@ -847,9 +855,10 @@ PM pattern prose is appended when not semantically redundant.
 
 1. For atom-owned canonical PMs, consume §**3.1.1** through
    `dietary_lever_presentations` → `dietary_lever_atoms` →
-   `dietary_input_traceability`. Preserve the source `atom_id` and its five-atom
+   `dietary_input_traceability`. Preserve the source `atom_id` and its six-atom
    relationship provenance through aggregation. Do not reconstruct Input Type,
-   Biological Role, Evidence Source or Limitation from rendered bullet text.
+   Biological Role, Evidence Source, Limitation or Dietary input from rendered
+   bullet text.
 2. Do not extract cofactor/substrate-only §3.1.2 rows as Dietary Guidance merely
    because the same input is dietary-facing.
 3. Parse PM §**3.1.3 Key Constraints** (or the legacy §4.1.3 / §3.1.3 KCs heading)

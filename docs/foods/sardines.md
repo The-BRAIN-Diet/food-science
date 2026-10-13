@@ -14,6 +14,7 @@ tags:
   - Vitamin B3
   - Vitamin B12
   - Selenium
+  - Methionine
 list_image: /img/foods/sardines/sardines_thumb.webp
 nutrition_per_100g:
   vitamin_e_mg: 2.04
@@ -38,6 +39,7 @@ nutrition_per_100g:
   magnesium_mg: 39
   phosphorus_mg: 490
   protein_g: 24.62
+  methionine_g: 1.086
   vitamin_b1_mg: 0.08
   vitamin_b2_mg: 0.227
   sat_fat_g: 1.528
@@ -85,6 +87,18 @@ nutrition_supplementary_sources:
     source_reference: '#food-source-4'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 1.086 g per 100 g in Fish,
+      sardine, Atlantic, canned in oil, drained solids with bone (FDC 175139).
+      Composition only; this does not establish a PM-specific dietary efficacy
+      claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, sardine, Atlantic, canned in oil, drained solids with bone
+    source_url: https://fdc.nal.usda.gov/food-details/175139/nutrients
+    presence_status: presence_and_amount_supported
   - substance: DHA
     relationship: contains
     description: >-

@@ -9,20 +9,9 @@
       ]
     },
     {
-      "kind": "dietary-input-unset",
-      "relationship_id": "BRS1-FM1-PM2::PM2-DIT-1",
-      "reason": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
-      "flags": [
-        "dietary-supply-unresolved"
-      ]
-    },
-    {
-      "kind": "dietary-input-unset",
-      "relationship_id": "BRS1-FM1-PM2::PM2-DIT-2",
-      "reason": "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No.",
-      "flags": [
-        "dietary-supply-unresolved"
-      ]
+      "kind": "unpresented-admitted-atom",
+      "pm_id": "BRS1-FM1-PM3",
+      "id": "PM3-DIT-2"
     },
     {
       "kind": "dietary-input-unset",
@@ -91,6 +80,11 @@
       "kind": "no-structured-admissions",
       "pm_id": "BRS1-FM4-PM11",
       "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "unpresented-admitted-atom",
+      "pm_id": "BRS1-FM4-PM9",
+      "id": "PM9-DIT-2"
     },
     {
       "kind": "dietary-input-unset",

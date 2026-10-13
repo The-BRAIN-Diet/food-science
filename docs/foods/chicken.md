@@ -14,6 +14,7 @@ tags:
   - Zinc
   - Iron
   - Cysteine
+  - Methionine
 list_image: /img/foods/chicken/chicken_thumb.webp
 public_display:
   cystine_mg: internal-only
@@ -35,6 +36,7 @@ nutrition_per_100g:
   dha_mg: 30
   epa_mg: 10
   protein_g: 18.6
+  methionine_g: 0.493
   cystine_mg: 249
   fat_g: 15.06
   kcal: 215
@@ -70,6 +72,17 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 0.493 g per 100 g in Chicken,
+      broilers or fryers, meat and skin, raw (FDC 171447). Composition only;
+      this does not establish a PM-specific dietary efficacy claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Chicken, broilers or fryers, meat and skin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/171447/nutrients
+    presence_status: presence_and_amount_supported
   - substance: Cysteine
     relationship: contains
     description: >-

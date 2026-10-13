@@ -12,6 +12,7 @@ tags:
   - Vitamin B12
   - Selenium
   - Astaxanthin
+  - Methionine
 list_image: /img/foods/salmon/salmon_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 overview_key_compounds:
@@ -40,6 +41,7 @@ nutrition_per_100g:
   vitamin_b12_ug: 3.23
   vitamin_k_ug: 0.5
   protein_g: 20.42
+  methionine_g: 0.626
   iron_mg: 0.34
   magnesium_mg: 27
   phosphorus_mg: 240
@@ -101,6 +103,17 @@ main_image: /img/foods/salmon/salmon_medium.webp
 legacy_list_image: /img/foods/salmon/salmon_thumb.webp
 legacy_main_image: /img/foods/salmon/salmon_medium.webp
 substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 0.626 g per 100 g in Fish,
+      salmon, Atlantic, farmed, raw (FDC 175167). Composition only; this does
+      not establish a PM-specific dietary efficacy claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, salmon, Atlantic, farmed, raw
+    source_url: https://fdc.nal.usda.gov/food-details/175167/nutrients
+    presence_status: presence_and_amount_supported
   - substance: DHA
     relationship: contains
     description: USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw.

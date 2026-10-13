@@ -221,6 +221,15 @@ Stage 2B adjudicates dietary relationships: provision of substrates and
 cofactors, derived dietary routes and state-regulation inputs. It uses
 Stage 2A Findings and retrieves further evidence where needed.
 
+For nutritional capacity relationships, Stage 2B applies the B/D
+dependency-supply model: B establishes the PM biological dependency; D establishes
+the dietary pathway that supplies or maintains that same dependency pathway.
+Capacity Dietary Requirement = B AND D. B and D are adjudication propositions
+recorded in the existing Stage 2B review; they are not new Scientific Finding
+fields, disclosure atoms or a parallel schema. Biochemical necessity, dietary
+provision, demonstrated modulation and functional or clinical benefit remain
+separate claims.
+
 If Stage 2B discovers a missing foundational mechanism claim, record and
 route that gap back to Stage 2A. Do not silently bypass the Finding
 assessment. The focused follow-up path is defined in
@@ -369,7 +378,7 @@ Stage 2B tests shared-constraint applicability separately
 applicability**).
 
 When a Finding supports a PM-owned **System Optimisation Practice** or **Lifestyle
-Priority**, store the same five atoms in `system_optimisation_practices` or
+Priority**, store the same six atoms in `system_optimisation_practices` or
 `lifestyle_priorities`. The collection determines §3.2 or §3.3 placement. These
 relationships remain in the PM scientific-evidence layer and are not provisional
 Dietary Levers candidates.
@@ -543,4 +552,4 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
   dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
 ```
 
-Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOP and lifestyle records also carry the same sixth field where evidence-qualified, but their category remains SOP/lifestyle; a Yes value never migrates them into Dietary Requirements.

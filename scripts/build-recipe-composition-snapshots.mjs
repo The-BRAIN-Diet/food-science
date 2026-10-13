@@ -90,6 +90,10 @@ const SNAPSHOTS = {
     note: "Regular mayonnaise; no food page. Brand fat and sodium vary. Not aioli.",
   },
   "ginger-ground": {fdc_id: "170926", note: "Dried ground ginger, not fresh root."},
+  "mustard-seed-ground": {
+    fdc_id: "170929",
+    note: "Ground mustard seed. No food page. The level teaspoon on this record is 2 g.",
+  },
   "salt-table": {fdc_id: "173468", note: "Only for recipes that state an exact salt weight."},
   "tabasco-pepper-sauce": {
     fdc_id: "174528",
