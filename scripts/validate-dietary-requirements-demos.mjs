@@ -21,6 +21,21 @@ for(const name of fs.readdirSync(folder).filter(f=>f.endsWith('.mdx'))){
   assert.equal(crypto.createHash('sha256').update(fs.readFileSync(source)).digest('hex'),data.source_sha256);
   for(const heading of ['1.1.1 Direct and/or Derived Dietary Requirements','1.1.2 Cofactors and Substrates','1.1.3 Key Constraints','SOP boundary','Demonstration review notes'])assert.ok(fileContent.includes(heading));
   assert.ok(fileContent.includes('```mermaid'));
+  assert.ok(fileContent.includes('## Pilot B/D assessment and allocation'));
+  const dietary=fileContent.split('### 1.1.1 Direct and/or Derived Dietary Requirements')[1].split('### 1.1.2 Cofactors and Substrates')[0];
+  const biochemical=fileContent.split('### 1.1.2 Cofactors and Substrates')[1].split('### 1.1.3 Key Constraints')[0];
+  const expected={
+    'same-synthesis.mdx':{diet:['Methionine'],bio:['ATP','Mg²⁺ and K⁺'],excluded:['Methionine']},
+    'dopamine.mdx':{diet:['Tyrosine','Iron','Vitamin B6'],bio:['BH4','L-DOPA'],excluded:['Tyrosine','Iron','PLP']},
+    'gaba-synthesis.mdx':{diet:['Vitamin B6'],bio:['Glutamate'],excluded:['PLP']},
+    'nad-metabolism.mdx':{diet:['Nicotinamide (a form of vitamin B3)','Nicotinic acid (a form of vitamin B3)','Tryptophan'],bio:['NAD⁺ / NADH'],excluded:['Nicotinamide','Nicotinic acid','Tryptophan']}
+  }[name];
+  for(const input of expected.diet)assert.ok(dietary.includes('| '+input+' |'), 'Missing primary dietary entry: '+input);
+  for(const input of expected.bio)assert.ok(biochemical.includes('| '+input+' |'), 'Missing biochemical-only entry: '+input);
+  for(const input of expected.excluded)assert.ok(!biochemical.includes('| '+input+' |'), 'Duplicate primary explanation: '+input);
+  assert.equal(dietary.split('\n').filter(line=>line.startsWith('| ') && !line.startsWith('| Accepted') && !line.startsWith('| ---')).length,expected.diet.length);
+  assert.equal(biochemical.split('\n').filter(line=>line.startsWith('| ') && !line.startsWith('| Participant') && !line.startsWith('| ---')).length,expected.bio.length);
+
   pages++;
  }
  console.log(name+': Docusaurus MDX compilation and isolation checks passed');

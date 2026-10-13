@@ -1,11 +1,11 @@
 ---
-title: Dietary Requirements — Four Demonstrations
+title: Dietary Requirements — B/D Pilot and Single-Entry Review
 unlisted: true
 sidebar_class_name: hidden
 ---
 
-:::warning Isolated pilot
-These pages test presentation; they do not amend canonical PM science, schemas, ontology or shared rendering. Current classifications stay visible with disagreements marked.
+:::warning Isolated pilot — revised B/D allocation
+Scientific assessment and explanatory allocation are separate stages. No canonical admission, schema, validator, ontology, KC, SOP or shared renderer was changed.
 :::
 
 - [SAMe synthesis](/docs/system/dietary-requirements-demo/same-synthesis)
@@ -13,34 +13,40 @@ These pages test presentation; they do not amend canonical PM science, schemas, 
 - [NAD⁺ metabolism](/docs/system/dietary-requirements-demo/nad-metabolism)
 - [GABA synthesis capacity](/docs/system/dietary-requirements-demo/gaba-synthesis)
 
-## Comparative findings
+## Before / after
 
-1. **Functional distinction:** §1.1.1 explains an accepted dietary provision relationship; §1.1.2 explains reaction participation and supply/regeneration. A repeated name earns its place only through different information.
-2. **Biochemical-only substrate:** ATP in MAT and neuronal glutamate in GAD belong in biochemical context when the accepted evidence does not admit direct dietary supply to that reaction. Endogenous regeneration does not change substrate identity.
-3. **Dietary-only precursor:** B6 can be the dietary provision entry while PLP is the reaction cofactor. B6 itself is not an additional GAD/AADC cofactor.
-4. **Legitimate dual presentation:** methionine or tyrosine can appear as a supplied dietary input and a consumed reaction substrate. Iron can appear as mineral provision and a catalytic cofactor. Distinct explanations matter more than a repeated name.
-5. **Unnecessary repetition:** copying the same atom's role and limitation twice adds no information. The current GABA PLP and MAT methionine presentations require distinct explanations or consolidation, not automatic deletion of biochemical context.
-6. **Endogenous supply:** state explicitly that the parent includes reaction context, not just intake targets. Name endogenous synthesis, salvage or regeneration beside each participant. Do not equate redox regeneration of NAD⁺ with replenishment after NAD⁺ consumption.
-7. **Single reaction versus complex PM:** the distinction is clearest for MAT and GAD. Dopamine requires a synthesis subpathway within its broader unchanged mission. NAD⁺ needs a pathway-level summary; listing every intermediate would exceed the accepted records and obscure tissue dependence. These demonstrations test the proposed interpretation; they do not prove one layout is best for all PMs.
-8. **Instruction disagreements:** the same-input/type/role no-reprint rule does not provide a way to express separate provision and reaction explanations on one atom. Derived-target validation currently requires a Direct-classified target, which conflicts with treating Direct solely as independently admitted dietary provision when PLP supply is not established. Capacity requirements must not inherit regulatory/therapeutic response thresholds. The broad dietary-protein delivery admission also needs specificity review.
+| Demonstration | Removed duplicate primary explanations | Retained biochemical-only context | Review issue |
+| --- | --- | --- | --- |
+| SAMe | Methionine removed from §1.1.2; protein delivery folded into methionine | ATP co-substrate; Mg²⁺/K⁺ catalytic ions | Derived protein record retained; distinct requirement versus delivery unresolved |
+| Dopamine | Tyrosine and iron no longer reprinted; PLP explained once through B6 | BH4; endogenous L-DOPA intermediate/substrate | Direct PLP preserved in audit; independent intake and validator meaning disputed |
+| GABA | Separate PLP row removed; B6 → PLP → GAD explained once | Glutamate as immediate substrate | Dietary glutamate control of neuronal GABA unestablished; Direct PLP audit retained |
+| NAD⁺ | Nicotinamide, nicotinic acid and tryptophan not reprinted in §1.1.2 | NAD⁺/NADH redox cycling and replenishment after consumption | Tissue-specific precursor contributions and therapeutic benefit remain bounded |
 
-## Proposed replacement wording — not implemented
+## Scientific assessment versus allocation
 
-> §1.1.1 identifies independently accepted dietary provision or regulatory relationships. Preserve Direct/Derived classification and name the supported route. Biochemical participation alone does not establish dietary admission. Nutritional sufficiency does not require demonstrated benefit from increasing an already adequate intake.
+For nutritional capacity, **B AND D** means a supported biochemical dependency has a supported dietary supply pathway. The active target and dietary input may differ. Adequacy is not maximisation, and an absent extra-intake response does not negate a supported capacity relationship. A pathway not established is not proof of no dietary contribution. Regulatory modulators, shared-pool inputs and SOPs retain separate criteria.
 
-> §1.1.2 identifies reaction participants and explains their step, active form, principal supply/regeneration and connection to dietary provision. A substance may appear in both sections when provision and reaction function add different information. Cross-reference shared records; do not create another supply or duplicate an explanation. Do not require a complete intermediate inventory where the accepted PM evidence supports only a pathway summary.
+One primary explanation belongs in §1.1.1 when both dependency and provision are supported. Additional biochemical participants without an admitted PM-specific dietary pathway belong in §1.1.2. A precursor entry explains target function as well as supply, so the same active-target explanation is not repeated. Reaction diagrams preserve biochemical context without creating intake requirements.
 
-> A Derived dietary route may name its supported biochemical target without implying that the target has a separate direct-intake requirement. Preserve precursor/target identities and conversion evidence. Reconcile the current Direct-target validator before changing canonical classifications.
+## Schema and validator questions — not implemented
 
-> §1.1.3 retains accepted shared-pool and upstream relationships, including ownership and limitations. It does not automatically promote constituents to dietary requirements. SOPs require their own accepted intervention evidence, not merely nutritional necessity. Preserve the existing regulatory-modulator rule pending separate review.
+- Current Direct PLP capacity records do not establish independent dietary PLP supply. They remain traceable, not silently reclassified.
+- The Derived-target validator requires the target overlay to be Direct (scripts/lib/dietary-lever-atoms.mjs, lines 312–346). A supported biochemical target need not have an independent direct-intake admission. Clarify this distinction before changing canonical records.
+- Source presentations share a single biological role across sections. This pilot allocates one explanation rather than adding per-section scientific copies.
+- ATP remains a substrate through endogenous regeneration. Mg²⁺/K⁺ essentiality must not be denied because this PM lacks an admitted mineral provision relationship.
+- Existing upstream KC relationships stay in §1.1.3. They do not become new Derived requirements by generic metabolic association.
 
-## Minimal implementation choices for review
+## Proposed instruction wording — review only
 
-- Prefer separate provision and reaction explanations referencing existing canonical records, rather than new requirement classes.
-- Decide whether active targets such as PLP remain explanatory targets under a Derived entry or receive a separate biochemical entry; their independent dietary admission must be judged separately.
-- Decide whether NAD⁺ needs finer reaction-specific evidence before expanding its biochemical inventory.
-- Preserve stable source IDs and supply ownership; calculate each dietary analyte once regardless of presentation or PM count.
-- This pilot uses existing Markdown/MDX, admonitions, tables and Mermaid; no shared component changes were needed. It does not mount canonical PM enhancer/food components because that would project the old placement rules into the isolated experiment.
+> Assess B (biochemical dependency) and D (supported dietary pathway) separately, linking their evidence. For nutritional capacity, admit the supply relationship only when both are supported; B and D may identify different molecules along an established precursor pathway. Preserve uncertainty rather than treating absence of evidence as a negative biological finding.
+
+> Allocate one primary explanatory entry per substance or supply relationship. §1.1.1 explains accepted dietary provision together with target function; §1.1.2 explains additional reaction participants and their endogenous supply/regeneration, without reprinting participants already adequately explained. Diagrams and traceability panels may repeat identities without adding dietary requirements.
+
+> Keep regulatory relationships, shared-pool admissions and SOPs under their separate evidence criteria. Preserve existing classifications and validator conflicts in review notes until adjudicated. Calculate each dietary analyte once and never multiply supply by section, PM or pool appearances.
+
+## Accounting and scope
+
+No new food records, nutrient quantities, precursor conversion yields or intake targets are generated. Protein delivery is not added to methionine as another nutrient amount; PLP is not added to its B6 supply. Existing canonical identities, accepted evidence, KC ownership and SOP classifications remain authoritative.
 
 ## Source preservation
 
