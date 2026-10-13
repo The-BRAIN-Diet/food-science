@@ -61,3 +61,8 @@ export function selectBrsReviewData(primary, generatedScopes, brs) {
     const data = snapshot && (!live || (live.schema_version || 0) < snapshot.schema_version || (snapshot.source_revision || 0) > (live.source_revision || 0)) ? snapshot : live || snapshot;
     return { available: !!data, data: data || {scope:brs,relationships:[],food_sources:[],substances:[],pools:[],summary:{},coverage:[],gaps:[]} };
 }
+
+/** Visible numbering changes with lever prominence; joins use canonical sections. */
+export function canonicalInputSection(section) {
+    return String(section || '').replace(/^1\.1\.([123])$/, '3.1.$1');
+}

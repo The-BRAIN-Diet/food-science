@@ -13,6 +13,7 @@ tags:
   - Selenium
   - Creatine
   - Cysteine
+  - Methionine
 public_display:
   cystine_mg: internal-only
 list_image: /img/foods/tuna/tuna_thumb.webp
@@ -31,6 +32,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.455
   linoleic_g: 0.053
   protein_g: 23.33
+  methionine_g: 0.69
   cystine_mg: 250
   iron_mg: 1.02
   magnesium_mg: 50
@@ -66,6 +68,17 @@ nutrition_source:
   last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 0.69 g per 100 g in Fish, tuna,
+      fresh, bluefin, raw (FDC 173706). Composition only; this does not establish
+      a PM-specific dietary efficacy claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Fish, tuna, fresh, bluefin, raw
+    source_url: https://fdc.nal.usda.gov/food-details/173706/nutrients
+    presence_status: presence_and_amount_supported
   - substance: Cysteine
     relationship: contains
     description: >-

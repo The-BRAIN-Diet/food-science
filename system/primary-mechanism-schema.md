@@ -195,10 +195,10 @@ Stage 2A public copy must:
   and, where a dietary relationship is in scope, why that dietary input
   matters;
 - gloss necessary technical terms briefly on first use, and keep deeper
-  evidence in expandable disclosures (Scientific Findings and the five-atom
+  evidence in expandable disclosures (Scientific Findings and the six-atom
   record);
 - when a lever Input has a page in this system, link that page from the
-  Input line inside the five-atom disclosure only. The compact heading above
+  Input line inside the six-atom disclosure only. The compact heading above
   the disclosure stays plain text. See
   `system/dietary-input-traceability-contract.md` (**Input page link**);
 - describe every published connected-PM relationship and dependency in 1–2
@@ -415,59 +415,82 @@ Dietary Requirements identify evidence-supported dietary relationships attributa
 to the PM. They are not automatically recommendations and do not require evidence
 that increasing intake increases mechanism activity.
 
+For nutritional capacity relationships, apply the B/D dependency-supply model:
+
+- **B — Biological dependency:** evidence establishes that the defined PM requires
+  the substrate, co-substrate, cofactor, catalytic ion or other biochemical
+  participant.
+- **D — Dietary supply:** evidence establishes a dietary pathway that supplies or
+  maintains that same supported dependency pathway.
+- **Capacity Dietary Requirement = B AND D.** The dietary input and biochemical
+  participant need not be molecularly identical, for example dietary vitamin B6 →
+  PLP availability → GAD-dependent GABA synthesis.
+
+B and D are adjudication propositions supported by the existing evidence records,
+not additional disclosure atoms or a parallel schema. Record each as Established,
+Not established or Unresolved in the Stage 2B review. Biochemical participation
+alone cannot admit a Dietary Requirement; food presence alone cannot admit a
+PM-specific Dietary Requirement; absence of dietary-supply evidence is not evidence
+that no dietary contribution exists.
+
 **Canonical build requirement:** for every newly authored or recomputed PM, each
 reader-facing §3.1 dietary relationship must be an atomic projection governed by
 the **2B — Dietary Input Traceability & Visibility Contract**
 (`system/dietary-input-traceability-contract.md`). Every entry must resolve by
 `atom_id` to the canonical `Input | Input Type | Biological Role | Evidence Source
-| Limitation` record. Do not author an independent Markdown list
+| Limitation | Dietary input` record. Do not author an independent Markdown list
 that carries scientific relationship data separately from the atoms.
 
 `dietary_lever_presentations` controls placement, labels, a faithful short
 `reader_description` and canonical Finding navigation (`description_finding_id`).
 Follow the working PM3 example embedded in the Stage 2B contract: description
-inside the opened dropdown, five atoms, then the research link. Presentation
+inside the opened dropdown, six atoms, then the research link. Presentation
 metadata uses concise, faithful plain language without adding scientific claims.
 A concise Biological role may also serve as the reader description; artificial
 variation is not required.
 It does not own Input Type,
-Biological Role, Evidence Source, Direct/Derived classification, Derived Target or
-Limitation. The PM reader must project those values from
+Biological Role, Evidence Source, Direct/Derived classification, Derived Target,
+Limitation or Dietary input. The PM reader must project those values from
 `dietary_input_traceability` + `dietary_lever_atoms`.
 
 ##### §3.1.1 Direct and/or Derived Dietary Requirements
 
-- **Direct Dietary Requirement:** a dietary input that is itself directly required
-  by the PM biology. Direct describes the relationship to the PM, not evidence
-  strength or demonstrated dietary modulation.
+- **Direct Dietary Requirement:** a dietary input or exposure whose supported
+  dietary relationship applies directly to the PM-governed capacity or state.
+  Direct describes dietary relationship distance, not evidence strength,
+  therapeutic benefit or simple appearance in a reaction diagram.
 - **Derived Dietary Requirement:** a dietary input that provides, generates,
-  maintains or enables a Direct Dietary Requirement without itself being the direct
-  biochemical requirement. Derived does not mean weak, indirect or speculative
-  evidence.
+  maintains or enables the active biochemical target or direct relationship through
+  a supported intermediate step. A Derived precursor can support an active target
+  without creating a separate direct-intake requirement for that target.
 
 Where machine-readable classification is needed, use optional
 `requirement_classification: direct | derived` on the dietary relationship overlay.
 Derived rows must also name the Direct requirement they provide or enable
 (`derived_target`, optionally `derived_target_atom_id`). This is relationship
-metadata outside the canonical five scientific atoms; it does not replace
+metadata outside the canonical six atoms; it does not replace
 `input_type`. Evidence, claim ceilings and §3.1.1 rendering rules live in
 `system/dietary-input-traceability-contract.md`.
 
 ##### §3.1.2 Cofactors and Substrates
 
-This subsection is the mechanistic inventory of actual biochemical cofactors and
-substrates required by the PM. It is distinct from the dietary classification in
-§3.1.1. A substance may legitimately appear in both subsections where two different
-relationships are represented—for example, methionine as a Direct Dietary Requirement
-and methionine as the substrate used by MAT.
+This subsection explains additional evidence-supported biochemical participants
+required by the PM whose primary roles have not already been adequately explained
+in §3.1.1. It is not a second reader-facing inventory of every participant already
+described under Dietary Requirements.
 
-If the §3.1.1 relationship is already that same biochemical role (same input, input
-type, and biological role), do not also list it in §3.1.2. Dual listing is only for
-two distinct relationships. It is not a reprint of the Direct/Derived row. That
-input + type + role test detects reprints between §3.1.1 and §3.1.2. It does not
-establish KC distinctness. For §3.1.3, apply the KC distinctness gate: a different
-input name, input type, or origin tag can still be the provision relationship
-already published in §3.1.1.
+If §3.1.1 already explains the participant's biochemical role as part of the
+admitted dietary relationship, do not create another primary explanatory entry in
+§3.1.2 merely because the same substance also appears in the reaction. Use the
+reaction diagram, a concise cross-reference or traceability when needed. This is a
+presentation allocation rule, not deletion of underlying biochemical evidence,
+provenance or canonical identities.
+
+A participant may legitimately appear in §3.1.2 when B is established but D is
+not independently admitted for this PM entry, or when its role is additional to
+the dietary explanation. ATP in SAMe synthesis is the reference case: MAT uses ATP
+as a co-substrate, but ATP availability is maintained primarily through cellular
+energy metabolism rather than an independent dietary ATP supply requirement.
 
 Render Input + biochemical Input Type from the atom. Do not display
 Direct/Derived or Derived Target in §3.1.2, even when the same atom also appears
@@ -589,7 +612,7 @@ Use the existing shared renderer. Public §3.1.3 titles identify the adjudicated
 
 **Interaction:** hover or focus on the input previews its disclosure; click/tap pins the same disclosure; a second activation, Escape or the existing outside-click close interaction dismisses it. Enter/Space activate the native button. Tab reaches the separate origin link, which navigates without opening or pinning the disclosure. Hover/focus on the origin tag alone does not preview. Escape returns focus to the input without reopening it.
 
-**Opened order:** reader description → exactly five atoms (Input → Input type → Biological role → Evidence source → Limitation) → Supporting mechanism research. Conditional animal contexts, enrichment-versus-flux limits and provision-versus-enhancement boundaries remain inside the disclosure. The research link is navigation, not a sixth atom.
+**Opened order:** reader description → exactly six atoms (Input → Input type → Biological role → Evidence source → Limitation → Dietary input) → Supporting mechanism research. Conditional animal contexts, enrichment-versus-flux limits and provision-versus-enhancement boundaries remain inside the disclosure. The research link is navigation, not an additional atom.
 
 Canonical PM source: `docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx`. Canonical origin destination: https://thebraindiet.org/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool. PM7-F5 resolves to “Donor insufficiency can constrain hepatic methylation” at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f5; choline uses PM7-F7 at https://thebraindiet.org/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation#pm7-f7. Resolve titles/anchors from the canonical Finding, not an invented target. Evidence source links remain Author et al. (year) [n], with numbering resolved from the target PM bibliography. Do not copy PM3/KC bibliographies or renumber live pages for this example.
 
@@ -603,7 +626,7 @@ Canonical PM source: `docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidyl
 ```
 <!-- /PM7-KC-REFERENCE:markdown -->
 
-Stored PM-owned records → constituent five fields, description and research target. The representative folate atom below is exact; betaine DIT-6 and choline DIT-3, all Findings, bibliography and the established KC1 adjudication are loaded from canonical PM7 dependencies. `kc_atom_id` records reviewed membership separately from `pm_atom_id`; no atom fields are inherited from the KC page. The relationship's `origin_label`/`kc_href` provide provenance only. Other existing parent relationship evidence fields are retained in canonical source, not copied into this instruction.
+Stored PM-owned records → constituent six fields, description and research target. The representative folate atom below is exact; betaine DIT-6 and choline DIT-3, all Findings, bibliography and the established KC1 adjudication are loaded from canonical PM7 dependencies. `kc_atom_id` records reviewed membership separately from `pm_atom_id`; no atom fields are inherited from the KC page. The relationship's `origin_label`/`kc_href` provide provenance only. Other existing parent relationship evidence fields are retained in canonical source, not copied into this instruction.
 
 <!-- PM7-KC-REFERENCE:records -->
 ```yaml
@@ -697,7 +720,7 @@ Stored constituent edges → disclosure map in `src/lib/dietaryLeverDisclosure.t
 ```
 <!-- /PM7-KC-REFERENCE:projection -->
 
-Displayed origin tag → sibling link inside existing `enhanceListItem`; the input remains the existing named trigger button. Only this origin wiring is added; the existing five-field renderer is reused:
+Displayed origin tag → sibling link inside existing `enhanceListItem`; the input remains the existing named trigger button. Only this origin wiring is added; the existing shared renderer is reused:
 
 <!-- PM7-KC-REFERENCE:origin-link -->
 ```tsx
@@ -792,7 +815,7 @@ Existing shared interaction handlers → trigger preview, pinning and close beha
 ```
 <!-- /PM7-KC-REFERENCE:interaction -->
 
-Expected closed integration-fixture result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Live publication additionally requires the final distinctness gate; consolidate repeated jobs or retain an adjudicated pool claim as appropriate. Expected opened result: description, five fields and final canonical research link, with each input's own conditional limitations.
+Expected closed integration-fixture result: the three input buttons with separate KC1 tags, no parent-KC input or audit headings. Live publication additionally requires the final distinctness gate; consolidate repeated jobs or retain an adjudicated pool claim as appropriate. Expected opened result: description, six fields and final canonical research link, with each input's own conditional limitations.
 
 Run `node --test scripts/pm7-kc-reference.test.mjs` and the related traceability/governance/PM3 reference suites. The documented example must execute actual shared projection and rendering code with canonical dependencies, including interaction events and unresolved-parent suppression. Browser-check focus/activation/Escape, origin navigation, ordering and link targets; report actual results and deployment gaps separately from these completion instructions.
 <!-- PM7-KC-CANONICAL-EXAMPLE:end -->
@@ -817,10 +840,13 @@ Example: when protein-containing foods merely supply cysteine for glutathione sy
 
 Before dietary candidate adjudication, apply **Input-specificity adjudication** in `system/dietary-input-traceability-contract.md`. For every candidate, record a specificity decision and supporting evidence. A concise table row is sufficient for straightforward cases. Explicitly address all three questions where the label is broad, the target changes, or the relationship is disputed or unresolved. Record retained/narrowed/consolidated/moved/rejected/unresolved in the existing disposition/rationale entry. Retained broad inputs require mechanism-specific justification. Preserve defined indispensable-amino-acid coverage and independently evidenced protein-level interventions; do not infer constituent effects from mixtures/patterns or auto-replace generic words. Reuse report fields; preserve evidence, upstream dependencies and decision history. These are reporting/governance requirements, not additional public atoms or a retrospective page migration.
 
-The five-atom evidence structure remains `Input | Input Type | Biological Role |
-Evidence Source | Limitation`. Direct/Derived classification does not
-replace Input Type. See `system/dietary-input-traceability-contract.md` for evidence
-admissibility, limitations, claim ceilings, responsiveness and adjudication.
+The six-atom evidence structure is `Input | Input Type | Biological Role |
+Evidence Source | Limitation | Dietary input`. `dietary_input` is authoritative
+Yes/No/Unset supply or exposure admission for the specific record, independent of
+accounting, ownership, Direct/Derived classification and presentation location.
+Direct/Derived classification does not replace Input Type. See
+`system/dietary-input-traceability-contract.md` for evidence admissibility,
+limitations, claim ceilings, responsiveness and adjudication.
 
 **Non-equivalences:** Direct ≠ demonstrated dietary modulation; Derived ≠ weak
 evidence; Substrate ≠ KC; Cofactor ≠ KC; dietary provision ≠ biochemical substrate;
@@ -857,7 +883,7 @@ scope disputes, and migration history belong in Stage 2B / change-control record
 **§3.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
 
 Evidence-qualified §3.2 practices use `system_optimisation_practices`; evidence-qualified
-§3.3 priorities use `lifestyle_priorities`. Each relationship carries the same five
+§3.3 priorities use `lifestyle_priorities`. Each relationship carries the same six
 atoms as §3.1. PM ownership is implicit in the containing PM, and the collection name
 determines the destination subsection. These PM scientific-evidence relationships are
 not provisional dietary candidates and must not be removed or overwritten by a later
@@ -866,7 +892,7 @@ Dietary Levers pass.
 Every populated §3.2 category and §3.3 Lifestyle Levers block begins with one
 plain-language sentence stating the measured proximal effect and the nearest important
 evidence boundary. Avoid governance language such as “provisional cofactor candidate”
-in reader-facing introductions; retain detailed qualification in each five-atom record.
+in reader-facing introductions; retain detailed qualification in each six-atom record.
 
 **§3.2 vs §3.3 boundary:**
 
@@ -889,14 +915,13 @@ in reader-facing introductions; retain detailed qualification in each five-atom 
 <details>
 <summary><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></summary>
 
-- Direct or Derived relationship labels backed by the five-atom evidence structure
+- Direct or Derived relationship labels backed by the six-atom evidence structure
 
 </details>
 
 <details>
 <summary><strong>3.1.2 Cofactors and Substrates</strong></summary>
 
-- Methionine — substrate for MAT
 - ATP — biochemical substrate, not an external Dietary Requirement
 - PLP — cofactor for GAD
 
@@ -924,7 +949,9 @@ evidence-qualified `system_optimisation_practices` record:
 - Stress & Autonomic Regulation
 
 Every record carries `optimisation_category` as relationship metadata. Category
-membership is not a sixth evidence atom.
+membership is not an additional evidence atom. SOP evidence uses the same
+six-atom contract; `dietary_input` records dietary involvement without moving the
+SOP into Dietary Requirements.
 
 A §3.1.1 / §4.1.1 **NO** does not auto-admit an Optimisation Strategy. Connected
 mechanistic distance must stay explicit; SOP must not be projected upstream as a
@@ -1320,7 +1347,7 @@ Follow **Canonical iKC identity and PM-specific upstream supply**, the exact PM3
 - iKC identity means a registered canonical KC constituent linked to a verified substance ID. KC membership and PM-specific applicability are separate adjudications; retain multiple KC memberships on one substance identity.
 - Existing `individual_key_constraints` and `kc_input_traceability` hold registrations, with `ikc_identity_version: constituent-v2`, `ikc_id`, `kc_atom_id`, `substance_id`, `identity_status`, `registration_status`, `substance_href`. Explicit `legacy_ikc_references` preserve old pool/arm meanings; no silent migration. Missing substance identity keeps registration pending.
 - `supported-upstream-supply` admits a cited supply route without mandatory deficiency or demonstrated constraint. `conditional-constraint` requires a context-specific limitation on PM capacity; supported chains may suffice. Preserve legacy `governs` / `constrained-by` meaning. Neither type establishes extra-intake benefit or downstream propagation.
-- **§3.1.2 remains Cofactors and Substrates, unchanged. §3.1.3 contains pool and individual KC disclosures.** Under the pool, use **Individual KC inputs** and five atoms, reader description and supporting Finding link for every individually admitted input. Do not repeat full atoms in the pool summary or import members into other sections automatically.
+- **§3.1.2 remains Cofactors and Substrates, unchanged. §3.1.3 contains pool and individual KC disclosures.** Under the pool, use **Individual KC inputs** and six atoms, reader description and supporting Finding link for every individually admitted input. Do not repeat full atoms in the pool summary or import members into other sections automatically.
 - `pm_kc_relationships[].constituent_relationships` retains `pm_atom_id`, `kc_atom_id`, `ikc_id`, `substance_id`, `canonical_identity`, `relationship_type` and reviewed pathway. Its scientific fields resolve from the PM atom, not copied overrides.
 - `canonical_identity.status` = `resolved`, `existing-substance-identity-inconsistency`, or `missing-substance`. Resolved ID/page linkage is verified; missing/inconsistent identity is a MAJOR flag with PM/KC/type, checked candidates/aliases, repair/creation action and subsequent food assessment in `pending_actions`. Keep science visible and block unreliable projections.
 - Existing ontology/SubstanceMatrix reads the same independently admitted canonical §3.1.3 edges, preserving type/evidence/limitations. Future food and FM/BRS projections reuse them; no automatic membership or downstream inheritance. Food composition and approved top-10 are separate later adjudications.
@@ -1369,7 +1396,7 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
   dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
 ```
 
-Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOPs/lifestyle are outside this PM dietary-input migration.
+Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship. SOP/lifestyle records also carry `dietary_input`; their category remains SOP/lifestyle and a Yes value does not migrate them into Dietary Requirements.
 
 
 For independently admitted food-related SOPs, follow `system/food-strategy-rollup-schema.md`. Record stable `food_strategy_id` and explicit `food_strategy_scope` on the PM SOP atom, retain its original role/evidence/limitation, and regenerate the rollup. A dietary-input No does not admit an SOP. The food rollup is a separate strategy/intervention view; canonical food or substance links require accepted identities and must not be guessed.
@@ -1377,3 +1404,9 @@ For independently admitted food-related SOPs, follow `system/food-strategy-rollu
 ### Direct Regulatory Modulators (Stage 2B)
 
 Apply the Stage 2B Direct Regulatory Modulator admission rule in `dietary-input-traceability-contract.md`. The compound is the dietary lever; preparation-specific delivery is qualified in evidence and limitations. A separately admitted preparation SOP remains in §3.2 and must not replace or duplicate the compound admission. Direct does not imply essentiality or clinical benefit.
+
+### Visible dietary-lever summaries and food disclosures
+
+Give each admitted §1.1.1 / §3.1.1 intervention a concise `reader_description` on its canonical dietary lever presentation: normally three sentences explaining the input, the supported biological effect and its material limitation. Show that summary beneath the input, before Food sources, without requiring the evidence panel to open. Keep detailed scientific fields in the evidence panel; do not duplicate the summary there.
+
+Food disclosures apply equally to canonical §3.1.1–3.1.3 and their prominent §1.1.1–1.1.3 display numbering. Generate them only for Dietary input Yes, including accepted upstream supply in Cofactors/Substrates and Key Constraints. Preserve the same amount/preparation display contract in every section. Pool/constraint references and No/unset entries remain distinct; do not invent food equivalents. Record an established upstream PM supply route structurally where accepted page evidence already establishes it.

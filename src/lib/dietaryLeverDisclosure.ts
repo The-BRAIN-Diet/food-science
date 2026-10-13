@@ -307,6 +307,8 @@ export function buildDietaryLeverDisclosureMap(
       map.set(dietaryLeverBulletKey(label, "", section), {
         title: String(row.input || ""),
         inputType: formatInputTypeLabel(String(row.input_type || "")),
+        dietaryInput: row.dietary_input ?? null,
+        dietaryInputNote: row.dietary_input_note,
         biologicalRole: String(row.biological_role || ""),
         evidenceLimitation: String(row.evidence_limitation || "").trim(),
         evidenceReferences: evidenceSourceReferences(

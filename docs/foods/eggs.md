@@ -15,6 +15,7 @@ tags:
   - Zeaxanthin
   - Carotenoid
   - Cysteine
+  - Methionine
 list_image: /img/foods/eggs/eggs_thumb.webp
 public_display:
   cystine_mg: internal-only
@@ -31,6 +32,7 @@ nutrition_per_100g:
   dha_mg: 58
   linoleic_g: 1.531
   protein_g: 12.56
+  methionine_g: 0.38
   cystine_mg: 272
   iron_mg: 1.75
   magnesium_mg: 12
@@ -77,6 +79,17 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 substance_relationships:
+  - substance: Methionine
+    relationship: contains
+    description: >-
+      USDA FoodData Central reports methionine 0.38 g per 100 g in Egg, whole,
+      raw, fresh (FDC 171287). Composition only; this does not establish a
+      PM-specific dietary efficacy claim.
+    evidence_status: supported
+    evidence_source: USDA SR Legacy April 2018
+    evidence_material: Egg, whole, raw, fresh
+    source_url: https://fdc.nal.usda.gov/food-details/171287/nutrients
+    presence_status: presence_and_amount_supported
   - substance: Cysteine
     relationship: contains
     description: >-

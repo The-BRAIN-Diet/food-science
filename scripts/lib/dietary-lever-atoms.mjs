@@ -402,6 +402,7 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
       continue;
     }
     const lever = levers.find((r) => String(r.atom_id) === aid);
+    const presentationTraceAtom = trace.byId.get(aid);
     if (pres?.presentation_section && !PRESENTATION_SECTIONS.has(String(pres.presentation_section))) {
       push(
         issues,
@@ -429,9 +430,39 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
         `${label} must not list food levers when addressability is not-established`,
       );
     }
+    if (
+      String(pres?.presentation_section || "") === "3.1.1" &&
+      Object.prototype.hasOwnProperty.call(presentationTraceAtom || {}, "dietary_input") &&
+      presentationTraceAtom?.dietary_input === false
+    ) {
+      push(
+        issues,
+        "dla_presentation_unset_dietary_requirement",
+        `${label} must not render a §3.1.1 Dietary Requirement unless dietary_input is admitted as true`,
+      );
+    }
     rejectPublicOwnershipProse(pres?.reader_description, issues, label, "reader_description");
     rejectPublicOwnershipProse(lever?.permitted_wording, issues, label, "permitted_wording");
     rejectPublicOwnershipProse(lever?.evidence_limitation, issues, label, "evidence_limitation");
+  }
+
+  const primarySectionsByAtom = new Map();
+  for (const pres of data?.dietary_lever_presentations || []) {
+    const aid = String(pres?.atom_id || "").trim();
+    const section = String(pres?.presentation_section || "").trim();
+    if (!aid || (section !== "3.1.1" && section !== "3.1.2")) continue;
+    const sections = primarySectionsByAtom.get(aid) || new Set();
+    sections.add(section);
+    primarySectionsByAtom.set(aid, sections);
+  }
+  for (const [aid, sections] of primarySectionsByAtom.entries()) {
+    if (sections.has("3.1.1") && sections.has("3.1.2")) {
+      push(
+        issues,
+        "dla_presentation_duplicate_primary_entry",
+        `${entityLabel}: atom ${aid} must not render as separate primary entries in both §3.1.1 and §3.1.2`,
+      );
+    }
   }
 }
 

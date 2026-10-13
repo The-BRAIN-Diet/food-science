@@ -33,7 +33,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cashews | 6 | copper; iron; vitamin-c; vitamin-b6; vitamin-b9; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Cauliflower | 7 | vitamin-b9; vitamin-c; iron; copper; vitamin-b5; vitamin-b6; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Chamomile Tea | 2 | iron; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7 | BRS2(KC1) |
-| Cheddar Cheese | 8 | tyrosine; dha-docosahexaenoic-acid; copper; vitamin-b5; vitamin-b6; vitamin-b9; iron; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Cheddar Cheese | 8 | tyrosine; dha-docosahexaenoic-acid; copper; vitamin-b5; vitamin-b6; vitamin-b9; iron; choline | BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Cherries | 7 | vitamin-c; choline; vitamin-b5; vitamin-b6; vitamin-b9; iron; copper | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Chia Seeds | 4 | iron; copper; vitamin-c; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7 | BRS2(KC1) |
 | Chicken | 8 | iron; vitamin-b6; choline; copper; vitamin-b9; dha-docosahexaenoic-acid; vitamin-b5; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -103,7 +103,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Oregano | 4 | iron; vitamin-b6; vitamin-b9; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Oyster Mushroom | 6 | copper; iron; vitamin-b5; vitamin-b6; vitamin-b9; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Oysters | 8 | dha-docosahexaenoic-acid; iron; phosphatidylcholine; copper; vitamin-b9; vitamin-b5; vitamin-b6; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Parmesan Cheese | 7 | tyrosine; choline; copper; vitamin-b9; iron; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Parmesan Cheese | 7 | tyrosine; choline; copper; vitamin-b9; iron; vitamin-b5; vitamin-b6 | BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Parsley | 7 | vitamin-b9; vitamin-c; choline; vitamin-b5; vitamin-b6; iron; copper | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Peanuts | 6 | copper; vitamin-b9; choline; iron; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Peas | 7 | vitamin-b9; choline; iron; copper; vitamin-c; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -112,7 +112,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Pomegranates | 7 | vitamin-c; choline; iron; copper; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Pork | 7 | vitamin-b9; vitamin-b5; vitamin-b6; iron; copper; vitamin-c; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Potatoes | 7 | vitamin-b6; vitamin-c; choline; vitamin-b9; copper; iron; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Pumpkin Seeds | 9 | tyrosine; tryptophan; iron; vitamin-c; vitamin-b9; choline; copper; vitamin-b5; vitamin-b6 | BRS1-FM1-PM1; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Pumpkin Seeds | 9 | tyrosine; tryptophan; iron; vitamin-c; vitamin-b9; choline; copper; vitamin-b5; vitamin-b6 | BRS1-FM1-PM1; BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Quinoa | 7 | betaine; choline; iron; vitamin-b6; vitamin-b9; copper; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Radicchio | 7 | choline; copper; iron; vitamin-c; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Raspberries | 7 | vitamin-b9; vitamin-c; choline; vitamin-b5; vitamin-b6; copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -131,7 +131,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Shrimp | 7 | choline; vitamin-b5; vitamin-b6; vitamin-b9; iron; copper; dha-docosahexaenoic-acid | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Sourdough Bread | 2 | copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5 |  |
 | Soy Lecithin | 2 | choline; phosphatidylcholine | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM5-PM12 | BRS2(KC1) |
-| Soy | 9 | choline; tyrosine; tryptophan; iron; vitamin-b6; vitamin-b9; vitamin-c; copper; vitamin-b5 | BRS1-FM1-PM1; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Soy | 9 | choline; tyrosine; tryptophan; iron; vitamin-b6; vitamin-b9; vitamin-c; copper; vitamin-b5 | BRS1-FM1-PM1; BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Spelt | 5 | vitamin-b5; vitamin-b6; vitamin-b9; iron; copper | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Spinach | 8 | betaine; copper; iron; vitamin-b6; vitamin-b9; vitamin-c; vitamin-b5; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Spirulina | 7 | iron; choline; vitamin-b5; vitamin-b6; copper; vitamin-c; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -142,13 +142,13 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Swiss Chard | 7 | iron; vitamin-b9; choline; copper; vitamin-c; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Tahini | 6 | vitamin-b5; vitamin-b6; vitamin-b9; iron; copper; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Tart Cherry | 7 | vitamin-c; choline; vitamin-b9; iron; copper; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Tempeh | 7 | tyrosine; copper; iron; choline; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Tempeh | 7 | tyrosine; copper; iron; choline; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Thyme | 6 | iron; copper; vitamin-b6; vitamin-b9; vitamin-c; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Tofu | 8 | tyrosine; copper; iron; choline; vitamin-c; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
+| Tofu | 8 | tyrosine; copper; iron; choline; vitamin-c; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |
 | Tomatoes | 7 | vitamin-c; choline; vitamin-b5; vitamin-b6; iron; copper; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Trout Roe | 3 | phosphatidylcholine; dha-docosahexaenoic-acid; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM5-PM12 | BRS2(KC1) |
 | Tuna | 7 | dha-docosahexaenoic-acid; choline; vitamin-b5; vitamin-b6; iron; copper; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Turkey | 8 | tryptophan; vitamin-b6; dha-docosahexaenoic-acid; iron; copper; vitamin-b9; vitamin-b5; choline | BRS1-FM1-PM1; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
+| Turkey | 8 | tryptophan; vitamin-b6; dha-docosahexaenoic-acid; iron; copper; vitamin-b9; vitamin-b5; choline | BRS1-FM1-PM1; BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Turmeric | 7 | vitamin-b5; iron; copper; vitamin-c; vitamin-b9; vitamin-b6; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Vinegar Pickles | 7 | vitamin-b9; vitamin-b5; vitamin-b6; iron; vitamin-c; copper; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Vinegar | 2 | copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5 |  |

@@ -31,31 +31,15 @@
     },
     {
       "kind": "substance-identity",
-      "pm_id": "BRS2-FM1-PM2",
-      "id": "PM2-DIT-4",
-      "input": "Zinc ion (Zn²⁺)",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
       "pm_id": "BRS2-FM1-PM3",
       "id": "PM3-DIT-2",
       "input": "ATP",
       "status": "unresolved-identity"
     },
     {
-      "kind": "substance-identity",
+      "kind": "unpresented-admitted-atom",
       "pm_id": "BRS2-FM1-PM3",
-      "id": "PM3-DIT-3",
-      "input": "Magnesium ions (Mg²⁺)",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS2-FM1-PM3",
-      "id": "PM3-DIT-4",
-      "input": "Potassium ions (K⁺)",
-      "status": "unresolved-identity"
+      "id": "PM3-DIT-5"
     },
     {
       "kind": "substance-identity",
@@ -97,13 +81,6 @@
       "pm_id": "BRS2-FM2-PM6",
       "id": "PM6-DIT-4",
       "input": "ATP",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS2-FM2-PM6",
-      "id": "PM6-DIT-5",
-      "input": "Magnesium ions (Mg²⁺)",
       "status": "unresolved-identity"
     },
     {
@@ -152,21 +129,9 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM1-PM3::PM3-DIT-1",
-      "input": "Methionine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS2-FM1-PM3::PM3-DIT-5",
       "input": "Dietary protein",
       "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-1",
-      "input": "Methionine",
-      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",
@@ -188,12 +153,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM2-PM5::PM5-KC2-UPSTREAM-1",
-      "input": "Methionine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS2-FM2-PM6::PM6-DIT-2",
       "input": "Glutamate",
       "reason": "No supported canonical food-source record found."
@@ -202,12 +161,6 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS2-FM2-PM6::PM6-DIT-3",
       "input": "Glycine",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS2-FM2-PM6::PM6-DIT-9",
-      "input": "Methionine",
       "reason": "No supported canonical food-source record found."
     },
     {

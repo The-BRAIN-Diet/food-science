@@ -44,7 +44,13 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         if (substances[explicit])
             return { id: explicit, status: substances[explicit].exists ? 'resolved' : 'missing-page' };
         return { id: null, status: 'unknown-explicit-id', reason: explicit };
-    } const ids = aliases.get(normalize(input)) || aliases.get(normalize(String(input).replace(/\s*\([^)]*\)\s*$/, ''))); if (ids?.size === 1) {
+    } const raw = String(input || ''), variants = unique([
+        raw,
+        raw.replace(/\s*\([^)]*\)\s*$/, ''),
+        raw.replace(/\s+ions?\b/ig, '').replace(/\s*\([^)]*\)\s*$/, ''),
+        raw.replace(/\s*\([^)]*\)\s*$/, '').replace(/\s+ions?\b/ig, ''),
+    ]).map(normalize).filter(Boolean);
+    const matches = variants.map(v => aliases.get(v)).filter(Boolean), ids = matches.find(s => s.size === 1) || (matches.length ? matches[0] : null); if (ids?.size === 1) {
         const id = [...ids][0];
         return { id, status: substances[id].exists ? 'resolved' : 'missing-page' };
     } if (ids?.size > 1)
@@ -110,7 +116,6 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             const members = memberships.get(l.atom_id) || [];
             if (!pres.length && !members.length) {
                 gaps.push({ kind: 'unpresented-admitted-atom', pm_id: pm, id: l.atom_id });
-                continue;
             }
             if (!a) {
                 gaps.push({ kind: 'unresolved-admitted-atom', pm_id: pm, id: l.atom_id });
@@ -146,7 +151,9 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             gaps.push({ kind: 'no-structured-admissions', pm_id: pm, reason: 'No structured accepted dietary inputs; narrative mentions are not admissions.' });
     }
     const foodSources = [], patternCandidates = [];
-    const needed = new Set(relationships.filter(r => r.dietary_input === true).map(r => r.substance_id).filter(Boolean));
+    // Food composition is ontology-owned. Build sources for every resolved
+    // mapped substance; dietary_input only governs dietary admission/roll-up.
+    const needed = new Set(relationships.map(r => r.substance_id).filter(Boolean));
     for (const f of walk(path.join(root, 'docs/foods'))) {
         const doc = load(path.relative(root, f)), d = doc.data, foodId = d.id || path.basename(f).replace(/\.mdx?$/, ''), page = '/docs/' + doc.file.replace(/^docs\//, '').replace(/\.mdx?$/, ''), validPanel = checkExactFoodMatch(d, foodId).length === 0 && d.composition_status !== 'withdrawn', src = d.nutrition_source;
         const heldSubstances = new Set((d.nutrition_value_reviews || []).filter(r => r.exclude_from_food_lists === true).map(r => r.substance_id));
@@ -225,7 +232,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
                 gaps.push({ kind: 'upstream-supply-relationship-unresolved', relationship_id: r.id, upstream_pm: u.pm_id });
         }
     }
-    const views = relationships.map(r => { const foods = r.dietary_input === true ? bySub.get(r.substance_id) || [] : [], selected = selectQuantified(foods); return { ...r, foods, selected, qualitative_sources: selected.other_sources, pattern_candidates: r.input_type === 'dietary pattern' ? patternCandidates : [], gap: r.dietary_input !== true ? null : !r.substance_id ? (r.input_type === 'dietary pattern' ? 'Meal pattern retained; ingredient composition candidates available, no accepted meal-rule-to-food mapping.' : r.identity_status === 'pool' ? null : 'Identity/compound-class mapping unresolved; no dietary equivalent inferred.') : !foods.length ? 'No supported canonical food-source record found.' : null }; });
+    const views = relationships.map(r => { const foods = r.substance_id ? bySub.get(r.substance_id) || [] : [], selected = selectQuantified(foods); return { ...r, foods, selected, qualitative_sources: selected.other_sources, pattern_candidates: r.input_type === 'dietary pattern' ? patternCandidates : [], gap: r.dietary_input !== true ? null : !r.substance_id ? (r.input_type === 'dietary pattern' ? 'Meal pattern retained; ingredient composition candidates available, no accepted meal-rule-to-food mapping.' : r.identity_status === 'pool' ? null : 'Identity/compound-class mapping unresolved; no dietary equivalent inferred.') : !foods.length ? 'No supported canonical food-source record found.' : null }; });
     const rows = views.flatMap(r => (r.foods.length ? r.foods : [null]).map(f => ({ ...r, foods: undefined, selected: undefined, qualitative_sources: undefined, pattern_candidates: undefined, row_id: r.id + '::' + (f?.id || 'gap'), food: f })));
     for (const r of views)
         if (r.gap)

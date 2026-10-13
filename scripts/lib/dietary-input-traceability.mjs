@@ -170,9 +170,9 @@ export const SYSTEM_OPTIMISATION_CATEGORIES = new Set(
  */
 
 /**
- * Validate PM-owned §3.2/§3.3 evidence relationships against the same five atoms.
+ * Validate PM-owned §3.2/§3.3 evidence relationships against the same six atoms.
  * The containing collection determines lever class and destination subsection;
- * System Optimisation category is relationship metadata, not a sixth atom.
+ * System Optimisation category remains relationship metadata.
  */
 export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel }) {
   const findingIds = hasScientificFindings(data)
@@ -225,6 +225,12 @@ export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel })
       }
       if (!row?.evidence_limitation?.trim()) {
         push(issues, "pm_lever_missing_limitation", `${label} requires evidence_limitation`);
+      }
+      if (row.dietary_input !== undefined && row.dietary_input !== null && typeof row.dietary_input !== "boolean") {
+        push(issues, "pm_lever_invalid_dietary_input", `${label} dietary_input must be true, false or null (unset)`);
+      }
+      if (row.dietary_input === null && !row.dietary_input_note?.trim()) {
+        push(issues, "pm_lever_unset_dietary_input_note", `${label} unset dietary_input requires a specific clarification note`);
       }
 
       const source = row?.evidence_source;

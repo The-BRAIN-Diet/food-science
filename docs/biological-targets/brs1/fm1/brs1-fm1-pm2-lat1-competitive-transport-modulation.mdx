@@ -36,9 +36,17 @@ scientific_findings_intro: >-
   outcomes.
 dietary_input_traceability:
   - atom_id: PM2-DIT-1
-    dietary_input: null
-    dietary_input_note: "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No."
-    dietary_input_flags: ["dietary-supply-unresolved"]
+    dietary_input: true
+    dietary_input_note: >-
+      Dietary amino-acid supply is established upstream in PM1; this entry
+      retains the accepted LAT1 cargo/competition role. Food composition is
+      not evidence that eating more of this amino acid improves brain entry
+      or signalling.
+    upstream_pm_relationships:
+      - relationship_label: Supply
+        pm_id: BRS1-FM1-PM1
+        pm_short_id: PM1
+        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
     input: Tyrosine
     input_type: substrate
     biological_role: Large-neutral amino acid that competes for LAT1-mediated brain entry
@@ -51,9 +59,17 @@ dietary_input_traceability:
       Competitive transport biology does not establish that eating more tyrosine
       increases brain tyrosine or catecholamine signalling.
   - atom_id: PM2-DIT-2
-    dietary_input: null
-    dietary_input_note: "Accepted precursor/transport role, but this entry does not explicitly establish its dietary supply route. Clarification required; not defaulted to No."
-    dietary_input_flags: ["dietary-supply-unresolved"]
+    dietary_input: true
+    dietary_input_note: >-
+      Dietary amino-acid supply is established upstream in PM1; this entry
+      retains the accepted LAT1 cargo/competition role. Food composition is
+      not evidence that eating more of this amino acid improves brain entry
+      or signalling.
+    upstream_pm_relationships:
+      - relationship_label: Supply
+        pm_id: BRS1-FM1-PM1
+        pm_short_id: PM1
+        href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
     input: Tryptophan
     input_type: substrate
     biological_role: Large-neutral amino acid that competes for LAT1-mediated brain entry
@@ -118,15 +134,12 @@ dietary_lever_presentations:
     label: Meal carbohydrate-to-protein composition
     presentation_section: 3.1.1
     reader_description: >-
-      Meal composition can shift the balance between neurotransmitter precursors
-      and the other large neutral amino acids competing for LAT1 transport. In
-      the human meal studies reviewed here, carbohydrate-rich meals increased
-      the plasma tryptophan-to-competing-LNAA ratio, whereas protein-rich meals
-      reduced that ratio and increased the tyrosine ratio. The relevant dietary
-      variable is therefore the composition of the meal, rather than simply
-      increasing precursor intake. These findings demonstrate changes in
-      circulating precursor ratios; they do not establish an optimal meal ratio
-      or a neurotransmitter or clinical effect.
+      Carbohydrate-rich versus protein-rich meals change the plasma balance
+      between tryptophan, tyrosine and other amino acids competing for LAT1.
+      Human meal studies found a higher tryptophan-to-competing-amino-acid
+      ratio after carbohydrate-rich meals, while protein-rich meals favoured
+      the tyrosine ratio. These blood measurements establish no optimal meal
+      ratio, brain neurotransmitter increase or clinical benefit.
     description_finding_id: PM2-F2
   - atom_id: PM2-DIT-1
     label: Tyrosine
