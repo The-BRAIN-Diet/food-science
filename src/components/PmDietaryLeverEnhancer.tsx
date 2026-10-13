@@ -182,18 +182,11 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
     originLink.addEventListener("click", (event) => event.stopPropagation());
   }
 
-  const qualifierSpan = document.createElement("span");
-  qualifierSpan.className = "brs-dietary-lever-qualifier";
-  qualifierSpan.textContent = disclosure.compactQualifier
-    ? ` — ${disclosure.compactQualifier}`
-    : "";
-
   const upstreamWrap = document.createElement("span");
   upstreamWrap.className = "brs-dietary-lever-upstream";
   const upstreamIndicators = disclosure.upstreamIndicators || [];
   upstreamIndicators.forEach((indicator, index) => {
-    const prefix =
-      disclosure.compactQualifier || index > 0 ? " · [" : " — [";
+    const prefix = index > 0 ? " · [" : " — [";
     upstreamWrap.append(document.createTextNode(prefix));
     const link = document.createElement("a");
     link.className = "brs-dietary-lever-upstream-link";
@@ -224,7 +217,6 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   li.append(trigger);
   if (titleLink) li.append(document.createTextNode(" "), titleLink);
   if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
-  if (disclosure.compactQualifier) li.append(qualifierSpan);
   if (upstreamIndicators.length) li.append(upstreamWrap);
   if (parsed.foods) li.append(foodsSpan);
   li.append(detail);

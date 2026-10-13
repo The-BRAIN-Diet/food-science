@@ -1078,7 +1078,6 @@
   color: inherit;
 }
 
-.brs-dietary-lever-qualifier,
 .brs-dietary-lever-upstream {
   margin-left: 0.15rem;
   color: var(--ifm-color-emphasis-700);
@@ -1147,6 +1146,121 @@
 
 .brs-dietary-lever-detail-references a {
   white-space: normal;
+}
+
+.pm-input-food-sources {
+  margin: 0.35rem 0 0.15rem;
+  padding: 0;
+}
+
+.pm-input-food-sources summary {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+}
+
+.pm-input-food-sources summary * {
+  text-decoration: none !important;
+}
+
+.pm-input-food-sources summary::-webkit-details-marker {
+  display: none;
+}
+
+.pm-input-food-sources summary::marker {
+  content: "";
+}
+
+.pm-input-food-sources summary:hover,
+.pm-input-food-sources summary:focus-visible,
+.pm-input-food-sources[open] > summary {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.pm-input-food-source-arrow,
+.pm-input-food-source-kind {
+  font-weight: 600;
+}
+
+.pm-input-food-source-kind {
+  color: var(--ifm-font-color-base) !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: dotted !important;
+  text-decoration-color: var(--ifm-color-primary) !important;
+  text-underline-offset: 0.15em;
+}
+
+.pm-input-food-sources summary > a {
+  color: var(--ifm-link-color) !important;
+  text-decoration-line: underline !important;
+  text-decoration-style: solid !important;
+  text-decoration-color: currentColor !important;
+  text-underline-offset: 0.15em;
+}
+
+.pm-input-food-sources summary > a:link,
+.pm-input-food-sources summary > a:visited,
+.pm-input-food-sources summary > a:hover,
+.pm-input-food-sources summary > a:focus,
+.pm-input-food-sources summary > a:active {
+  color: var(--ifm-link-color) !important;
+}
+
+.pm-input-food-sources summary:hover .pm-input-food-source-kind,
+.pm-input-food-sources summary:hover > a,
+.pm-input-food-sources summary:focus-visible .pm-input-food-source-kind,
+.pm-input-food-sources summary:focus-visible > a,
+.pm-input-food-sources[open] > summary .pm-input-food-source-kind,
+.pm-input-food-sources[open] > summary > a {
+  text-decoration-style: solid;
+}
+
+.pm-input-food-source-arrow {
+  display: inline-block;
+  min-width: 1.1em;
+}
+
+.pm-input-food-source-meta,
+.pm-input-food-source-empty,
+.pm-input-food-sources li span {
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+}
+
+.pm-input-food-sources ul {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0.25rem 0 0.35rem 7.65rem;
+  padding: 0;
+  list-style: none;
+}
+
+.pm-input-food-sources[data-food-source-kind="animal-based"] ul {
+  margin-left: 8.75rem;
+}
+
+.pm-input-food-sources li {
+  margin: 0;
+}
+
+.pm-input-food-qualification {
+  margin: 0.35rem 0 0.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.86rem;
+}
+
+@media (max-width: 720px) {
+  .pm-input-food-sources ul,
+  .pm-input-food-sources[data-food-source-kind="animal-based"] ul {
+    margin-left: 1.1rem;
+  }
 }
 
 /* Medium hero on individual BRS hub pages */
