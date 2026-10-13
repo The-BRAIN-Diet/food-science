@@ -36,6 +36,7 @@ import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRe
 import AdvancedNutrition, {TherapeuticAreaResearch} from '../../components/AdvancedNutrition';
 import AccessibleMermaid from '../../components/AccessibleMermaid';
 import Mermaid from '@theme/Mermaid';
+import PmDietaryLeverListItem from '../../components/PmDietaryLeverListItem';
 
 export default {
   ...MDXComponents,
@@ -76,4 +77,5 @@ export default {
   TherapeuticAreaResearch,
   AccessibleMermaid,
   Mermaid,
+  li: PmDietaryLeverListItem,
 };
