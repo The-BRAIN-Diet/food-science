@@ -1254,6 +1254,19 @@
     "inchikey": "",
     "list_image": ""
   },
+  "flavin-mononucleotide": {
+    "path": "nutrients/micronutrients/vitamins/flavin-mononucleotide.md",
+    "title": "Flavin mononucleotide (FMN)",
+    "tags": [
+      "nutrient"
+    ],
+    "aliases": [
+      "FMN",
+      "riboflavin 5'-phosphate"
+    ],
+    "inchikey": "FVTCRASFADXXNN-SCRDCRAPSA-N",
+    "list_image": "/img/inchi/FVTCRASFADXXNN-SCRDCRAPSA-N.png"
+  },
   "5-methyltetrahydrofolate": {
     "path": "nutrients/micronutrients/vitamins/5-methyltetrahydrofolate.md",
     "title": "5-Methyltetrahydrofolate",

@@ -3,13 +3,6 @@
     {
       "kind": "substance-identity",
       "pm_id": "BRS4-FM1-PM1",
-      "id": "PM1-DIT-2",
-      "input": "FMN",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS4-FM1-PM1",
       "id": "PM1-DIT-4",
       "input": "Ubiquinone",
       "status": "unresolved-identity"
@@ -81,8 +74,8 @@
     {
       "kind": "mapping-gap",
       "relationship_id": "BRS4-FM1-PM1::PM1-DIT-2",
-      "input": "FMN",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "input": "Flavin mononucleotide (FMN)",
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",

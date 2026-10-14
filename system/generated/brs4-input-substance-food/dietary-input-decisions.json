@@ -10,7 +10,7 @@
   {
     "relationship_id": "BRS4-FM1-PM1::PM1-DIT-2",
     "source_record": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx#dietary_input_traceability/PM1-DIT-2",
-    "input": "FMN",
+    "input": "Flavin mononucleotide (FMN)",
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
     "flags": []
