@@ -34,6 +34,7 @@ export type SupportingFindingLink = {
 };
 
 export type DietaryLeverDisclosure = {
+  atomId?: string;
   title: string;
   identityStatus?: string;
   titleHref?: string;
@@ -47,6 +48,7 @@ export type DietaryLeverDisclosure = {
   requirementClassification?: string | null;
   derivedTarget?: string | null;
   compactQualifier?: string;
+  shortDescriptor?: string;
   presentationSection?: string;
   readerDescription?: string;
   supportingFinding?: SupportingFindingLink | null;
@@ -98,6 +100,7 @@ type PresentationRow = {
   atom_id?: string;
   label?: string;
   foods?: string;
+  short_descriptor?: string;
   presentation_section?: string;
   reader_description?: string;
   description_finding_id?: string;
@@ -261,7 +264,8 @@ export function buildDietaryLeverDisclosureMap(
       String(pres.foods || ""),
       String(pres.presentation_section || ""),
     );
-    map.set(key, {
+    const disclosure: DietaryLeverDisclosure = {
+      atomId,
       title: String(base.input),
       identityStatus: base.canonical_identity?.status,
       inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,
@@ -284,6 +288,7 @@ export function buildDietaryLeverDisclosureMap(
         },
         String(pres.presentation_section || ""),
       ),
+      shortDescriptor: String(pres.short_descriptor || "").trim(),
       presentationSection: String(pres.presentation_section || "").trim(),
       readerDescription: String(pres.reader_description || "").trim(),
       supportingFinding: supportingFindingLink(frontMatter, pres.description_finding_id),
@@ -293,7 +298,22 @@ export function buildDietaryLeverDisclosureMap(
           href: String(row?.href || "").trim(),
         }))
         .filter((row) => row.text && row.href.startsWith("/docs/")),
-    });
+    };
+    map.set(key, disclosure);
+    if (pres.foods) {
+      const foodlessKey = dietaryLeverBulletKey(
+        String(pres.label || base.input),
+        "",
+        String(pres.presentation_section || ""),
+      );
+      const existing = map.get(foodlessKey);
+      if (existing && existing.atomId !== disclosure.atomId) {
+        throw new Error(
+          `Dietary lever disclosure foodless-key collision for ${foodlessKey}: ${existing.atomId || "unknown"} versus ${disclosure.atomId}`,
+        );
+      }
+      map.set(foodlessKey, existing || disclosure);
+    }
   }
 
   for (const [field, section] of [

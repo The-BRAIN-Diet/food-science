@@ -23,6 +23,7 @@ import {
   resolveLeverAtom,
 } from "./lib/dietary-lever-atoms.mjs";
 import { buildDietaryLeverDisclosureMap, dietaryLeverBulletKey } from "./lib/dietary-lever-disclosure.mjs";
+import { buildInputSubstanceFood } from "./lib/input-substance-food.mjs";
 import { substanceHrefForInput } from "./lib/substance-input-pages.mjs";
 import { RETIRED_KC_HREFS, RETIRED_KC_IDS } from "./lib/kc-registry.mjs";
 
@@ -62,6 +63,10 @@ const PM_LEVER_ENHANCER = path.join(
   process.cwd(),
   "src/components/PmDietaryLeverEnhancer.tsx",
 );
+const PM_INPUT_FOOD_DISCLOSURE = path.join(
+  process.cwd(),
+  "src/lib/pmInputFoodDisclosure.ts",
+);
 
 function readPm8() {
   return matter(fs.readFileSync(PM9, "utf8"));
@@ -89,6 +94,15 @@ function readBrs5Kc1() {
 
 function readBrs2Kc1() {
   return matter(fs.readFileSync(BRS2_KC1, "utf8"));
+}
+
+function assertDisclosureDescriptor(data, label, section, descriptor, atomId) {
+  const disclosure = buildDietaryLeverDisclosureMap(data).get(dietaryLeverBulletKey(label, "", section));
+  assert.ok(disclosure, `${label} disclosure`);
+  assert.equal(disclosure.atomId, atomId);
+  assert.equal(disclosure.shortDescriptor, descriptor);
+  assert.equal(disclosure.biologicalRole.includes(descriptor), false);
+  assert.equal(disclosure.readerDescription.includes(descriptor), false);
 }
 
 test("PM reader mounts the atomic Dietary Requirement projection enhancer", () => {
@@ -657,7 +671,7 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
     "Derived · Substrate Provision → Methionine",
   );
 
-  const disclosures = [...buildDietaryLeverDisclosureMap(data).values()].filter(item => item.inputType !== "Supported upstream supply");
+  const disclosures = [...new Set(buildDietaryLeverDisclosureMap(data).values())].filter(item => item.inputType !== "Supported upstream supply");
   assert.equal(disclosures.length, 4);
   assert.deepEqual(
     disclosures.map((item) => item.title),
@@ -675,6 +689,49 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
       item.evidenceReferences.every((ref) => ref.label && !ref.label.includes("PM3-")),
     ),
   );
+  const disclosureMap = buildDietaryLeverDisclosureMap(data);
+  const methionineFullKey = dietaryLeverBulletKey("Methionine", "Chicken, Eggs, Salmon", "3.1.1");
+  const methionineFoodlessKey = dietaryLeverBulletKey("Methionine", "", "3.1.1");
+  const methionineFull = disclosureMap.get(methionineFullKey);
+  const methionineFoodless = disclosureMap.get(methionineFoodlessKey);
+  assert.ok(methionineFull);
+  assert.ok(methionineFoodless);
+  assert.equal(methionineFull, methionineFoodless);
+  assert.equal(methionineFoodless.atomId, "PM3-DIT-1");
+  assert.equal(methionineFoodless.title, "Methionine");
+  assert.equal(
+    disclosureMap.get(dietaryLeverBulletKey("Magnesium ions (Mg²⁺)", "", "3.1.2")).atomId,
+    "PM3-DIT-3",
+  );
+
+  const inputFood = buildInputSubstanceFood(process.cwd(), { brs: "BRS2" });
+  const methionineFoodRelationship = inputFood.relationships.find(
+    (row) => row.id === "BRS2-FM1-PM3::PM3-DIT-1",
+  );
+  assert.ok(methionineFoodRelationship);
+  assert.ok(
+    methionineFoodRelationship.presentations.some(
+      (presentation) => presentation.label === "Methionine" && presentation.section === "3.1.1",
+    ),
+  );
+  assert.ok(
+    inputFood.food_sources.some(
+      (source) => source.substance_id === methionineFoodRelationship.substance_id,
+    ),
+  );
+  assert.equal(methionineFoodless.shortDescriptor, "Essential amino acid");
+  assert.equal(
+    disclosureMap.get(dietaryLeverBulletKey("ATP", "", "3.1.2")).shortDescriptor,
+    "Cellular energy co-substrate",
+  );
+  assert.equal(
+    disclosureMap.get(dietaryLeverBulletKey("Magnesium ions (Mg²⁺)", "", "3.1.2")).shortDescriptor,
+    "Essential mineral · Catalytic cofactor",
+  );
+  assert.equal(
+    disclosureMap.get(dietaryLeverBulletKey("Potassium ions (K⁺)", "", "3.1.2")).shortDescriptor,
+    "Essential mineral · Catalytic ion",
+  );
 
   const duplicateProteinPrimary = structuredClone(data);
   duplicateProteinPrimary.dietary_lever_presentations.push({
@@ -686,6 +743,154 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
   validateDietaryLeverAtoms(duplicateProteinPrimary, duplicateIssues, { entityLabel: "BRS2-FM1-PM3-duplicate-protein" });
   assert.ok(
     duplicateIssues.some((issue) => issue.code === "dla_presentation_duplicate_substrate_provision"),
+  );
+});
+
+test("four reference PMs carry short input descriptors without changing atoms or disclosures", () => {
+  assertDisclosureDescriptor(readPm3().data, "Methionine", "3.1.1", "Essential amino acid", "PM3-DIT-1");
+  assertDisclosureDescriptor(readPm3().data, "ATP", "3.1.2", "Cellular energy co-substrate", "PM3-DIT-2");
+  assertDisclosureDescriptor(readPm3().data, "Magnesium ions (Mg²⁺)", "3.1.2", "Essential mineral · Catalytic cofactor", "PM3-DIT-3");
+  assertDisclosureDescriptor(readPm3().data, "Potassium ions (K⁺)", "3.1.2", "Essential mineral · Catalytic ion", "PM3-DIT-4");
+
+  const dopamine = readDopaminePm3().data;
+  assertDisclosureDescriptor(dopamine, "Tyrosine", "3.1.1", "Non-essential amino acid", "PM3-DIT-5");
+  assertDisclosureDescriptor(dopamine, "Iron", "3.1.1", "Essential mineral · Enzyme cofactor", "PM3-DIT-1");
+  assertDisclosureDescriptor(dopamine, "Vitamin B6", "3.1.1", "Essential vitamin · Cofactor precursor", "PM3-DIT-3");
+  assertDisclosureDescriptor(dopamine, "Tetrahydrobiopterin (BH4)", "3.1.2", "Endogenous enzyme cofactor", "PM3-DIT-4");
+
+  const nad = readNadPm2().data;
+  assertDisclosureDescriptor(nad, "Nicotinamide (a form of vitamin B3)", "3.1.1", "Vitamin B3 form", "PM2-DIT-1");
+  assertDisclosureDescriptor(nad, "Nicotinic acid (a form of vitamin B3)", "3.1.1", "Vitamin B3 form", "PM2-DIT-2");
+  assertDisclosureDescriptor(nad, "Tryptophan", "3.1.1", "Essential amino acid", "PM2-DIT-3");
+
+  const gaba = readPm8().data;
+  assertDisclosureDescriptor(gaba, "Vitamin B6", "3.1.1", "Essential vitamin · Cofactor precursor", "PM9-DIT-3");
+  assertDisclosureDescriptor(gaba, "Glutamate", "3.1.2", "GABA synthesis substrate", "PM9-DIT-1");
+
+  const source = fs.readFileSync(PM_LEVER_ENHANCER, "utf8");
+  assert.match(source, /disclosure\.shortDescriptor/);
+  assert.match(source, /` — \$\{descriptor\}`/);
+  const detailBuilder = source.slice(source.indexOf("function buildDetailHtml"), source.indexOf("function escapeHtml"));
+  assert.doesNotMatch(detailBuilder, /shortDescriptor/);
+});
+
+test("PM input food-source renderer keeps compact category, citation and review formatting", () => {
+  const source = fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE, "utf8");
+  assert.match(source, /createFoodSourceDetails\('Plant-based'/);
+  assert.match(source, /createFoodSourceDetails\('Animal-based'/);
+  assert.doesNotMatch(source, /Plant Based|Animal Based|no mapped values/);
+  assert.match(source, /No verified sources yet/);
+  assert.match(source, / — \$\{formatFoodAmount\(source\)\} · \$\{formatFoodPrep\(source\)\}/);
+  assert.match(source, /preparation === 'oil'\) return 'oil-packed'/);
+  assert.match(source, /data-quality-flag="missing-preparation"/);
+  assert.match(source, /data-food-id="\$\{esc\(source\.food_id \|\| ''\)\}"/);
+  assert.match(source, /data-substance-id="\$\{esc\(source\.substance_id \|\| ''\)\}"/);
+});
+
+test("SAMe food-source mappings retain Methionine, magnesium and potassium links and review IDs", () => {
+  const inputFood = buildInputSubstanceFood(process.cwd(), { brs: "BRS2" });
+  const relationshipIds = [
+    "BRS2-FM1-PM3::PM3-DIT-1",
+    "BRS2-FM1-PM3::PM3-DIT-3",
+    "BRS2-FM1-PM3::PM3-DIT-4",
+  ];
+  const relationships = relationshipIds.map((id) => inputFood.relationships.find((row) => row.id === id));
+  assert.ok(relationships.every(Boolean));
+  for (const relationship of relationships) {
+    const sources = inputFood.food_sources.filter((source) => source.substance_id === relationship.substance_id);
+    assert.ok(sources.length, `${relationship.id} has food-source mappings`);
+    assert.ok(sources.every((source) => source.food_page?.startsWith("/docs/foods/")), `${relationship.id} links canonical food pages`);
+  }
+
+  const methionine = inputFood.relationships.find((row) => row.id === "BRS2-FM1-PM3::PM3-DIT-1");
+  const methionineSources = inputFood.food_sources.filter((source) => source.substance_id === methionine.substance_id);
+  const animalTopFive = methionineSources
+    .filter((source) => /\b(anchov|beef|chicken|clam|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/i.test([
+      source.food_id,
+      source.food_title,
+      source.material,
+      source.food_matrix,
+      source.product,
+      source.species,
+    ].filter(Boolean).join(" ")))
+    .sort((a, b) => {
+      const strongest = (source) => Math.max(...(source.observations || [])
+        .flatMap((obs) => [obs.high, obs.low, obs.value])
+        .map(Number)
+        .filter(Number.isFinite));
+      return strongest(b) - strongest(a) || String(a.food_title).localeCompare(String(b.food_title));
+    })
+    .slice(0, 5);
+  assert.deepEqual(
+    animalTopFive.map((source) => source.food_title),
+    ["Sardines", "Tuna", "Salmon", "Chicken", "Eggs"],
+  );
+  assert.deepEqual(
+    animalTopFive.map((source) => source.food_page),
+    ["/docs/foods/sardines", "/docs/foods/tuna", "/docs/foods/salmon", "/docs/foods/chicken", "/docs/foods/eggs"],
+  );
+
+  const missingPreparationSources = inputFood.food_sources.filter((source) => !String(source.preparation || "").trim());
+  assert.ok(missingPreparationSources.length, "missing preparation observations exist for data-quality review");
+  assert.ok(
+    missingPreparationSources.every((source) => source.id && source.food_id && source.substance_id),
+    "review flags can retain source, food and substance identifiers",
+  );
+});
+
+test("dietary lever disclosure foodless aliases do not overwrite another atom", () => {
+  const fixture = {
+    dietary_input_traceability: [
+      {
+        atom_id: "EX-DIT-1",
+        input: "Methionine",
+        input_type: "substrate",
+        dietary_input: true,
+        biological_role: "Direct substrate",
+        evidence_source: {},
+        evidence_limitation: "Limited.",
+      },
+      {
+        atom_id: "EX-DIT-2",
+        input: "Methionine context",
+        input_type: "substrate",
+        dietary_input: false,
+        biological_role: "Context record",
+        evidence_source: {},
+        evidence_limitation: "Limited.",
+      },
+    ],
+    dietary_lever_atoms: [
+      {
+        atom_id: "EX-DIT-1",
+        requirement_classification: "direct",
+        relationship_layer: "dietary-requirement",
+        evidence_limitation: "Limited.",
+      },
+      {
+        atom_id: "EX-DIT-2",
+        relationship_layer: "biochemical-requirement",
+        evidence_limitation: "Limited.",
+      },
+    ],
+    dietary_lever_presentations: [
+      {
+        atom_id: "EX-DIT-2",
+        label: "Methionine",
+        presentation_section: "3.1.1",
+      },
+      {
+        atom_id: "EX-DIT-1",
+        label: "Methionine",
+        foods: "Chicken, Eggs, Salmon",
+        presentation_section: "3.1.1",
+      },
+    ],
+  };
+
+  assert.throws(
+    () => buildDietaryLeverDisclosureMap(fixture),
+    /foodless-key collision.*EX-DIT-2 versus EX-DIT-1/,
   );
 });
 
@@ -939,6 +1144,10 @@ test("primary presentations use one reader-facing entry per atom", () => {
     map.get(
       dietaryLeverBulletKey("Methionine substrate context", "", "3.1.3"),
     ).compactQualifier,
+    "",
+  );
+  assert.equal(
+    map.get(dietaryLeverBulletKey("Methionine", "", "3.1.1")).shortDescriptor || "",
     "",
   );
 
