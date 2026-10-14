@@ -201,6 +201,9 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   foodsSpan.className = "brs-dietary-lever-foods";
   foodsSpan.textContent = parsed.foods ? ` ← ${parsed.foods}` : "";
 
+  const descriptor = String(disclosure.shortDescriptor || "").trim();
+  const descriptorText = descriptor ? document.createTextNode(` — ${descriptor}`) : null;
+
   const detailId = `brs-dietary-lever-${Math.random().toString(36).slice(2, 9)}`;
   trigger.setAttribute("aria-controls", detailId);
 
@@ -216,6 +219,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   li.textContent = "";
   li.append(trigger);
   if (titleLink) li.append(document.createTextNode(" "), titleLink);
+  if (descriptorText) li.append(descriptorText);
   if (originLink) li.append(document.createTextNode(" · ["), originLink, document.createTextNode("]"));
   if (upstreamIndicators.length) li.append(upstreamWrap);
   if (parsed.foods) li.append(foodsSpan);

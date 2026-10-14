@@ -37,10 +37,16 @@ function formatFoodAmount(source: any): string {
 function formatFoodPrep(source: any): string {
     const preparation = String(source.preparation || '').trim().toLowerCase();
     if (preparation === 'uncooked') return 'raw';
+    if (preparation === 'oil') return 'oil-packed';
     return esc(source.preparation || 'preparation not established');
 }
 function renderFoodSourceItem(source: any): string {
-    return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta">, ${formatFoodAmount(source)}, · ${formatFoodPrep(source)}</span>`;
+    const missingPreparation = !String(source.preparation || '').trim();
+    const qualityAttrs = missingPreparation
+        ? ` data-quality-flag="missing-preparation" data-food-source-id="${esc(source.id || '')}" data-food-id="${esc(source.food_id || '')}" data-substance-id="${esc(source.substance_id || '')}"`
+        : '';
+    const qualityClass = missingPreparation ? ' pm-input-food-source-meta--review' : '';
+    return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${formatFoodAmount(source)} · ${formatFoodPrep(source)}</span>`;
 }
 function updateFoodArrow(details: HTMLDetailsElement) {
     const arrow = details.querySelector<HTMLElement>('.pm-input-food-source-arrow');
@@ -79,7 +85,7 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     const top = selected[0];
     summary.innerHTML = top
         ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${renderFoodSourceItem(top)}`
-        : `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> <span class="pm-input-food-source-empty">no mapped values</span>`;
+        : `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> <span class="pm-input-food-source-empty">No verified sources yet</span>`;
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
     if (selected.length > 1) {
@@ -105,8 +111,8 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     if (!relationships.length)
         return;
     const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
-    const plantBox = createFoodSourceDetails('Plant Based', sources.filter(source => !isProbablyAnimalSource(source)));
-    const animalBox = createFoodSourceDetails('Animal Based', sources.filter(source => isProbablyAnimalSource(source)));
+    const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)));
+    const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)));
     plantBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
     li.append(plantBox);
     animalBox.dataset.relationshipIds = relationships.map(r => r.id).join(' ');
