@@ -316,7 +316,7 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
         push(
           issues,
           "dla_derived_missing_target",
-          `${label} Derived relationships must identify the Direct requirement they provide or enable (derived_target)`,
+          `${label} Derived relationships must identify the biochemical target or dependency relationship they support (derived_target)`,
         );
       }
       if (targetId && !trace.byId.has(targetId)) {
@@ -329,19 +329,36 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
           `${label} Derived provision must not use Input Type "substrate"; use substrate provision or another provision type`,
         );
       }
-      const targetAtom = targetId
-        ? trace.byId.get(targetId)
-        : [...trace.byId.values()].find(
+      const targetById = targetId ? trace.byId.get(targetId) : null;
+      const targetTextMatches = target
+        ? [...trace.byId.values()].filter(
             (atom) => String(atom.input || "").trim().toLowerCase() === target.toLowerCase(),
-          );
-      const targetLever = targetAtom
-        ? levers.find((r) => String(r.atom_id) === String(targetAtom.atom_id))
-        : null;
-      if (!targetLever || targetLever.requirement_classification !== "direct") {
+          )
+        : [];
+      const targetByText = targetTextMatches.length === 1 ? targetTextMatches[0] : null;
+      if (target && !targetId && !targetTextMatches.length) {
         push(
           issues,
-          "dla_derived_target_not_direct",
-          `${label} derived_target must point to a Direct Dietary Requirement`,
+          "dla_derived_target_unresolved",
+          `${label} derived_target "${target}" does not resolve to a dietary_input_traceability atom`,
+        );
+      }
+      if (target && !targetId && targetTextMatches.length > 1) {
+        push(
+          issues,
+          "dla_derived_target_ambiguous",
+          `${label} derived_target "${target}" resolves to multiple dietary_input_traceability atoms`,
+        );
+      }
+      if (
+        targetById &&
+        targetByText &&
+        String(targetById.atom_id || "") !== String(targetByText.atom_id || "")
+      ) {
+        push(
+          issues,
+          "dla_derived_target_conflict",
+          `${label} derived_target and derived_target_atom_id resolve to different atoms`,
         );
       }
     }
@@ -461,6 +478,40 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
         issues,
         "dla_presentation_duplicate_primary_entry",
         `${entityLabel}: atom ${aid} must not render as separate primary entries in both §3.1.1 and §3.1.2`,
+      );
+    }
+  }
+
+  for (const lever of levers) {
+    const sourceId = String(lever?.atom_id || "").trim();
+    const targetId = String(lever?.derived_target_atom_id || "").trim();
+    if (!sourceId || !targetId) continue;
+    if (!primarySectionsByAtom.has(sourceId) || !primarySectionsByAtom.has(targetId)) continue;
+
+    const sourceTrace = trace.byId.get(sourceId);
+    const targetTrace = trace.byId.get(targetId);
+    const targetLever = levers.find((row) => String(row?.atom_id || "").trim() === targetId);
+    const sourceInputType = String(sourceTrace?.input_type || "").trim();
+    const sourceIsDerived = lever?.requirement_classification === "derived";
+    const targetDietaryAddressability = String(targetLever?.dietary_addressability || "").trim();
+    if (!sourceIsDerived) continue;
+
+    if (
+      targetTrace?.dietary_input === false ||
+      (targetTrace?.dietary_input === null && targetDietaryAddressability === "not-established")
+    ) {
+      push(
+        issues,
+        "dla_presentation_duplicate_derived_target",
+        `${entityLabel}: Derived atom ${sourceId} and its biochemical target ${targetId} must not render as separate primary entries unless the target has an independently admitted dietary relationship`,
+      );
+    }
+
+    if (sourceInputType === "substrate provision" && targetTrace?.dietary_input === true) {
+      push(
+        issues,
+        "dla_presentation_duplicate_substrate_provision",
+        `${entityLabel}: substrate-provision atom ${sourceId} and supplied substrate ${targetId} must not render as separate primary entries without adjudication that both are independently admitted relationships`,
       );
     }
   }

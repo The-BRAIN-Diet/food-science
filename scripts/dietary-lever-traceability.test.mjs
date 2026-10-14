@@ -422,7 +422,7 @@ test("multi-role reappearance preserves distinct atoms", () => {
   );
 });
 
-test("dietary candidates require all six atoms, resolvable evidence, and a Direct derived target", () => {
+test("dietary candidates require all six atoms and a resolvable derived biochemical target", () => {
   const { data } = readPm8();
 
   const missingLimitation = structuredClone(data);
@@ -443,12 +443,82 @@ test("dietary candidates require all six atoms, resolvable evidence, and a Direc
   validateDietaryLeverAtoms(missingCitation, citationIssues, { entityLabel: "missing-citation" });
   assert.ok(citationIssues.some((issue) => issue.code === "dit_missing_bibliography_source"));
 
-  const nonDirectTarget = structuredClone(data);
-  nonDirectTarget.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-2")
-    .requirement_classification = "derived";
-  const targetIssues = [];
-  validateDietaryLeverAtoms(nonDirectTarget, targetIssues, { entityLabel: "non-direct-target" });
-  assert.ok(targetIssues.some((issue) => issue.code === "dla_derived_target_not_direct"));
+  const biochemicalTargetById = structuredClone(data);
+  const plpLever = biochemicalTargetById.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-2");
+  delete plpLever.requirement_classification;
+  plpLever.relationship_layer = "biochemical-requirement";
+  const plpTrace = biochemicalTargetById.dietary_input_traceability.find((row) => row.atom_id === "PM9-DIT-2");
+  plpTrace.dietary_input = false;
+  const biochemicalTargetByIdIssues = [];
+  validateDietaryLeverAtoms(biochemicalTargetById, biochemicalTargetByIdIssues, { entityLabel: "b6-plp-gad-target-id" });
+  assert.deepEqual(biochemicalTargetByIdIssues, []);
+
+  const biochemicalTargetUnset = structuredClone(data);
+  const plpUnsetLever = biochemicalTargetUnset.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-2");
+  delete plpUnsetLever.requirement_classification;
+  plpUnsetLever.relationship_layer = "biochemical-requirement";
+  const plpUnsetTrace = biochemicalTargetUnset.dietary_input_traceability.find((row) => row.atom_id === "PM9-DIT-2");
+  plpUnsetTrace.dietary_input = null;
+  plpUnsetTrace.dietary_input_note = "Direct PLP supply requires classification reconciliation.";
+  const biochemicalTargetUnsetIssues = [];
+  validateDietaryLeverAtoms(biochemicalTargetUnset, biochemicalTargetUnsetIssues, { entityLabel: "b6-plp-gad-target-unset" });
+  assert.deepEqual(biochemicalTargetUnsetIssues, []);
+
+  const biochemicalTargetByText = structuredClone(data);
+  const b6ByText = biochemicalTargetByText.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3");
+  delete b6ByText.derived_target_atom_id;
+  b6ByText.derived_target = "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)";
+  const plpByTextLever = biochemicalTargetByText.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-2");
+  delete plpByTextLever.requirement_classification;
+  plpByTextLever.relationship_layer = "biochemical-requirement";
+  const biochemicalTargetByTextIssues = [];
+  validateDietaryLeverAtoms(biochemicalTargetByText, biochemicalTargetByTextIssues, { entityLabel: "b6-plp-gad-target-text" });
+  assert.deepEqual(biochemicalTargetByTextIssues, []);
+
+  const consistentTarget = structuredClone(data);
+  const b6Consistent = consistentTarget.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3");
+  b6Consistent.derived_target = "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)";
+  const consistentIssues = [];
+  validateDietaryLeverAtoms(consistentTarget, consistentIssues, { entityLabel: "consistent-target" });
+  assert.deepEqual(consistentIssues, []);
+
+  const unresolvedTargetId = structuredClone(data);
+  unresolvedTargetId.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3")
+    .derived_target_atom_id = "PM9-DIT-NOPE";
+  const targetIdIssues = [];
+  validateDietaryLeverAtoms(unresolvedTargetId, targetIdIssues, { entityLabel: "unresolved-target-id" });
+  assert.ok(targetIdIssues.some((issue) => issue.code === "dla_derived_target_unresolved"));
+
+  const unresolvedTargetText = structuredClone(data);
+  const b6UnresolvedText = unresolvedTargetText.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3");
+  delete b6UnresolvedText.derived_target_atom_id;
+  b6UnresolvedText.derived_target = "Unknown target";
+  const targetTextIssues = [];
+  validateDietaryLeverAtoms(unresolvedTargetText, targetTextIssues, { entityLabel: "unresolved-target-text" });
+  assert.ok(targetTextIssues.some((issue) => issue.code === "dla_derived_target_unresolved"));
+
+  const conflictingTarget = structuredClone(data);
+  conflictingTarget.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3")
+    .derived_target = "Vitamin B6";
+  const conflictIssues = [];
+  validateDietaryLeverAtoms(conflictingTarget, conflictIssues, { entityLabel: "conflicting-target" });
+  assert.ok(conflictIssues.some((issue) => issue.code === "dla_derived_target_conflict"));
+
+  const ambiguousTargetText = structuredClone(data);
+  ambiguousTargetText.dietary_input_traceability.push({
+    atom_id: "PM9-DIT-PLP-DUP",
+    input: "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    input_type: "cofactor",
+    biological_role: "Duplicate target fixture",
+    evidence_source: { pathway_resources: ["example"] },
+    evidence_limitation: "Example limitation",
+  });
+  const b6Ambiguous = ambiguousTargetText.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3");
+  delete b6Ambiguous.derived_target_atom_id;
+  b6Ambiguous.derived_target = "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)";
+  const ambiguousIssues = [];
+  validateDietaryLeverAtoms(ambiguousTargetText, ambiguousIssues, { entityLabel: "ambiguous-target-text" });
+  assert.ok(ambiguousIssues.some((issue) => issue.code === "dla_derived_target_ambiguous"));
 });
 
 test("KC identity cannot create PM science without an independently adjudicated PM atom", () => {
@@ -536,6 +606,16 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
     "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific.",
   );
   assert.ok(data.dietary_lever_atoms.every((r) => r.evidence_limitation));
+
+  const duplicatePlpPrimary = structuredClone(data);
+  duplicatePlpPrimary.dietary_lever_presentations.push({
+    atom_id: "PM9-DIT-2",
+    label: "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    presentation_section: "3.1.2",
+  });
+  const duplicateIssues = [];
+  validateDietaryLeverAtoms(duplicatePlpPrimary, duplicateIssues, { entityLabel: "BRS1-FM4-PM9-duplicate-plp" });
+  assert.ok(duplicateIssues.some((issue) => issue.code === "dla_presentation_duplicate_derived_target"));
 });
 
 test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", () => {
@@ -594,6 +674,18 @@ test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", (
     disclosures.every((item) =>
       item.evidenceReferences.every((ref) => ref.label && !ref.label.includes("PM3-")),
     ),
+  );
+
+  const duplicateProteinPrimary = structuredClone(data);
+  duplicateProteinPrimary.dietary_lever_presentations.push({
+    atom_id: "PM3-DIT-5",
+    label: "Dietary protein",
+    presentation_section: "3.1.1",
+  });
+  const duplicateIssues = [];
+  validateDietaryLeverAtoms(duplicateProteinPrimary, duplicateIssues, { entityLabel: "BRS2-FM1-PM3-duplicate-protein" });
+  assert.ok(
+    duplicateIssues.some((issue) => issue.code === "dla_presentation_duplicate_substrate_provision"),
   );
 });
 
@@ -677,6 +769,32 @@ test("BRS1-FM1-PM3 presents dopamine dietary supply once", () => {
     map.get(dietaryLeverBulletKey("Vitamin B6", "", "3.1.1")).compactQualifier,
     "Derived · Cofactor Precursor → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
   );
+
+  const duplicatePlpPrimary = structuredClone(data);
+  duplicatePlpPrimary.dietary_lever_presentations.push({
+    atom_id: "PM3-DIT-2",
+    label: "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    presentation_section: "3.1.2",
+  });
+  const duplicateIssues = [];
+  validateDietaryLeverAtoms(duplicatePlpPrimary, duplicateIssues, { entityLabel: "BRS1-FM1-PM3-duplicate-plp" });
+  assert.ok(duplicateIssues.some((issue) => issue.code === "dla_presentation_duplicate_derived_target"));
+});
+
+test("BRS1-FM1-PM3 permits B6 derived supply to PLP without independent Direct PLP admission", () => {
+  const { data } = readDopaminePm3();
+  const fixture = structuredClone(data);
+  const plp = fixture.dietary_lever_atoms.find((row) => row.atom_id === "PM3-DIT-2");
+  if (plp) {
+    delete plp.requirement_classification;
+    delete plp.relationship_mode;
+    plp.relationship_layer = "biochemical-requirement";
+  }
+  const plpTrace = fixture.dietary_input_traceability.find((row) => row.atom_id === "PM3-DIT-2");
+  if (plpTrace) plpTrace.dietary_input = false;
+  const issues = [];
+  validateDietaryLeverAtoms(fixture, issues, { entityLabel: "BRS1-FM1-PM3-b6-plp-aadc" });
+  assert.deepEqual(issues, []);
 });
 
 test("BRS4-FM1-PM2 keeps NAD lifestyle disclosure out of dietary requirements", () => {
@@ -684,6 +802,13 @@ test("BRS4-FM1-PM2 keeps NAD lifestyle disclosure out of dietary requirements", 
   const issues = [];
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS4-FM1-PM2" });
   assert.deepEqual(issues, []);
+
+  assert.deepEqual(
+    data.dietary_lever_presentations
+      .filter((row) => row.presentation_section === "3.1.1")
+      .map((row) => row.label),
+    ["Nicotinamide (a form of vitamin B3)", "Nicotinic acid (a form of vitamin B3)", "Tryptophan"],
+  );
 
   const map = buildDietaryLeverDisclosureMap(data);
   const training = map.get(dietaryLeverBulletKey("Aerobic or resistance training", "", "3.3"));
@@ -817,6 +942,26 @@ test("primary presentations use one reader-facing entry per atom", () => {
     "",
   );
 
+  const kcOnlyPresentation = structuredClone(fixture);
+  kcOnlyPresentation.dietary_lever_presentations.push({
+    atom_id: "EX-DIT-2",
+    label: "Dietary protein",
+    presentation_section: "3.1.3",
+  });
+  const kcOnlyIssues = [];
+  validateDietaryLeverAtoms(kcOnlyPresentation, kcOnlyIssues, { entityLabel: "kc-only-presentation" });
+  assert.deepEqual(kcOnlyIssues, []);
+
+  const foodCompositionPresentation = structuredClone(fixture);
+  foodCompositionPresentation.dietary_lever_presentations[0].foods = [
+    { name: "Example food", href: "/docs/foods/example-food" },
+  ];
+  const foodCompositionIssues = [];
+  validateDietaryLeverAtoms(foodCompositionPresentation, foodCompositionIssues, {
+    entityLabel: "food-composition-presentation",
+  });
+  assert.deepEqual(foodCompositionIssues, []);
+
   const duplicatePrimary = structuredClone(fixture);
   duplicatePrimary.dietary_lever_presentations.push({
     atom_id: "EX-DIT-1",
@@ -826,6 +971,20 @@ test("primary presentations use one reader-facing entry per atom", () => {
   const duplicateIssues = [];
   validateDietaryLeverAtoms(duplicatePrimary, duplicateIssues, { entityLabel: "duplicate-primary" });
   assert.ok(duplicateIssues.some((issue) => issue.code === "dla_presentation_duplicate_primary_entry"));
+
+  const duplicateProteinPrimary = structuredClone(fixture);
+  duplicateProteinPrimary.dietary_lever_presentations.push({
+    atom_id: "EX-DIT-2",
+    label: "Dietary protein",
+    presentation_section: "3.1.1",
+  });
+  const duplicateProteinIssues = [];
+  validateDietaryLeverAtoms(duplicateProteinPrimary, duplicateProteinIssues, {
+    entityLabel: "duplicate-protein-primary",
+  });
+  assert.ok(
+    duplicateProteinIssues.some((issue) => issue.code === "dla_presentation_duplicate_substrate_provision"),
+  );
 
   const unresolvedDietaryPrimary = structuredClone(fixture);
   unresolvedDietaryPrimary.dietary_input_traceability[0].dietary_input = false;
