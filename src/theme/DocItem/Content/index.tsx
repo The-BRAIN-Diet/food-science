@@ -1,4 +1,4 @@
-import React, {type ReactNode} from "react"
+import React, {useLayoutEffect, useRef, type ReactNode} from "react"
 import clsx from "clsx"
 import {ThemeClassNames} from "@docusaurus/theme-common"
 import {useDoc} from "@docusaurus/plugin-content-docs/client"
@@ -13,6 +13,46 @@ import PmDietaryLeverEnhancer from "@site/src/components/PmDietaryLeverEnhancer"
 import PmSystemOptimisationEnhancer from "@site/src/components/PmSystemOptimisationEnhancer"
 import {TherapeuticAreaPmLinks} from "@site/src/theme/TherapeuticAreaDetail"
 
+const BRS_IDS = ["1", "2", "3", "4", "5", "6"] as const
+const BRS_X_ACCENTS = [
+  ["/docs/biological-targets/brs-x/circadian", "circadian"],
+  ["/docs/biological-targets/brs-x/hormones", "hormones"],
+  ["/docs/biological-targets/brs-x/ecs", "ecs"],
+] as const
+type BrsAccent = (typeof BRS_IDS)[number] | (typeof BRS_X_ACCENTS)[number][1]
+
+const BRS_HUB_ACCENT: Record<string, BrsAccent> = {
+  "/docs/biological-targets/neurotransmitter-regulation": "1",
+  "/docs/biological-targets/methylation-one-carbon-metabolism": "2",
+  "/docs/biological-targets/inflammation-oxidative-stress": "3",
+  "/docs/biological-targets/mitochondrial-function-bioenergetics": "4",
+  "/docs/biological-targets/gut-brain-axis-enteric-nervous-system": "5",
+  "/docs/biological-targets/metabolic-neuroendocrine-stress": "6",
+}
+
+function brsAccentFromPermalink(permalink: string): BrsAccent | null {
+  const path = permalink.split(/[?#]/, 1)[0].replace(/\/+$/, "") || "/"
+  const hub = BRS_HUB_ACCENT[path]
+  if (hub) return hub
+  for (const id of BRS_IDS) {
+    const root = `/docs/biological-targets/brs${id}`
+    if (path === root || path.startsWith(`${root}/`)) return id
+  }
+  for (const [root, accent] of BRS_X_ACCENTS) {
+    if (path === root || path.startsWith(`${root}/`)) return accent
+  }
+  return null
+}
+
+function docsWrapperFrom(start: HTMLElement | null): HTMLElement | null {
+  let node = start?.parentElement ?? null
+  while (node) {
+    if ([...node.classList].some((name) => name.startsWith("docsWrapper"))) return node
+    node = node.parentElement
+  }
+  return null
+}
+
 function useSyntheticTitle(): string | null {
   const {metadata, frontMatter, contentTitle} = useDoc()
   const shouldRender = !frontMatter.hide_title && typeof contentTitle === "undefined"
@@ -23,6 +63,16 @@ function useSyntheticTitle(): string | null {
 export default function DocItemContent({children}: Props): ReactNode {
   const syntheticTitle = useSyntheticTitle()
   const {metadata, frontMatter} = useDoc()
+  const brsAccent = brsAccentFromPermalink(metadata.permalink)
+  const markdownRef = useRef<HTMLDivElement>(null)
+
+  useLayoutEffect(() => {
+    const wrapper = docsWrapperFrom(markdownRef.current)
+    if (!wrapper) return undefined
+    if (brsAccent) wrapper.setAttribute("data-brs", brsAccent)
+    else wrapper.removeAttribute("data-brs")
+    return () => wrapper.removeAttribute("data-brs")
+  }, [brsAccent])
   const pmId =
     typeof (frontMatter as {pm_id?: unknown})?.pm_id === "string"
       ? String((frontMatter as {pm_id: string}).pm_id)
@@ -119,7 +169,7 @@ export default function DocItemContent({children}: Props): ReactNode {
         : null
 
   return (
-    <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
+    <div ref={markdownRef} className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       <AdvancedNutritionProvider>
       <DocUtilityBar>
         {syntheticTitle && (
