@@ -750,10 +750,13 @@ Use the compound as the dietary input, `input_type: regulatory modulator`, `requ
   the PM-governed biological objective/state (capacity **or** state-regulation).
   Direct does **not** mean demonstrated phenome benefit, dose-response, or
   stronger evidence than Derived.
-- **Derived:** the dietary input provides, generates, maintains or enables the
-  Direct input **or Direct relationship** through an evidence-supported
-  intermediate step. Each necessary edge must be supported. Derived must name
-  that Direct target.
+- **Derived:** a dietary input that provides, generates, maintains or enables an
+  established PM-specific biochemical dependency through an evidence-supported
+  intermediate supply or conversion pathway. Each necessary edge must be
+  supported. The Derived entry must identify the specific biochemical target or
+  dependency relationship it supports. Identifying that target does not require a
+  separate independently admitted Direct Dietary Requirement for the target.
+  Generic upstream metabolic support alone is insufficient for admission.
 
 Do not infer Direct from pathway-diagram proximity. Do not infer Derived merely
 because a food contains a compound.
@@ -951,7 +954,7 @@ Author one short sentence explaining input → contribution/conversion → proce
 | Iron | Iron helps the enzyme that carries out the first step in making dopamine from tyrosine. |
 | Vitamin B6 | Vitamin B6 is converted into PLP, the active cofactor used in the final step of dopamine synthesis. |
 
-Local requirements remain local even with upstream supply: Tyrosine — Direct · Substrate · [Supply: PM1]; Iron — Direct · Cofactor; Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor) — Direct · Cofactor; Vitamin B6 — Derived · Cofactor Precursor → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor). Do not repeat the supply explanation in the description. Retain `upstream_pm_relationships` on the reviewed atom; render its link beside that input, never on the subsection header. PM1's canonical destination is https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation. Do not import PM1's dietary entries.
+Local requirements remain local even with upstream supply: Tyrosine — Direct · Substrate · [Supply: PM1]; Iron — Direct · Cofactor; Vitamin B6 — Derived · Cofactor Precursor → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor). PLP is the biochemical target supported by the B6 entry, not a separate Direct Dietary Requirement unless a separate PM-specific dietary PLP supply relationship is independently established and admitted. Do not repeat the supply explanation in the description. Retain `upstream_pm_relationships` on the reviewed atom; render its link beside that input, never on the subsection header. PM1's canonical destination is https://thebraindiet.org/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation. Do not import PM1's dietary entries.
 
 If no local Direct/Derived requirements are established, state the adjudicated status: distinguish an established absence from an unresolved assessment. An independently supported upstream dependency may appear once as a linked relationship with a concise explanation; it does not create local nutrient atoms. Do not manufacture six-field local disclosures from upstream lists.
 
@@ -989,7 +992,7 @@ The following is exact source Markdown; descriptions, qualifiers, fields and res
 ```
 <!-- /PM3-REFERENCE:markdown -->
 
-Minimal frontmatter integration excerpts follow: Tyrosine (Direct), vitamin B6 (Derived) and BH4 (biochemical). Each retains its complete six-field atom and presentation metadata; overlays show the classification fields needed for display. B6 targets canonical PLP atom `PM3-DIT-2`, whose complete Direct record remains in PM3. Apply these patterns to the target PM’s own reviewed records; these excerpts are not a complete standalone frontmatter file.
+Minimal frontmatter integration excerpts follow: Tyrosine (Direct), vitamin B6 (Derived) and BH4 (biochemical). Each retains its complete six-field atom and presentation metadata; overlays show the classification fields needed for display. B6 targets canonical PLP atom `PM3-DIT-2`, which remains available for biochemical evidence, traceability and unresolved classification history; this does not establish an independent dietary PLP admission. Apply these patterns to the target PM’s own reviewed records; these excerpts are not a complete standalone frontmatter file.
 
 Full `scientific_findings` and `references` remain in the canonical PM3 source. **Citation numbering is resolved from the target PM’s own bibliography**, by matching atom citation keys to its `references` positions. Do not copy PM3’s bibliography into another PM, hard-code PM3’s numbers, or renumber the live page to simplify this example. The renderer resolves author/year and [n] separately from the Finding navigation. Tests load the complete canonical PM3 source for dependencies omitted here.
 
@@ -1769,7 +1772,7 @@ entries must use this atomic projection; do not retain an unlinked parallel list
 
 | Input type | Use for |
 |------------|---------|
-| `substrate` | Direct metabolic substrate (e.g. glutamate, methionine) |
+| `substrate` | Biochemical substrate used by the PM mechanism (e.g. methionine, glutamate). This input type does not establish a Direct Dietary Requirement or `dietary_input: true`; dietary admission requires separate evidence. |
 | `substrate provision` | A specifically identified, independently supported input providing a direct substrate after digestion, absorption or conversion; not a generic food/macronutrient supplier included solely for delivery |
 | `nutrient/substance` | Named nutrient or biochemical (e.g. vitamin B6, iron) |
 | `cofactor` | Enzymatic cofactor requirement in this PM context |
@@ -2066,7 +2069,7 @@ An **iKC** is an individually registered constituent of a canonical Key Constrai
 
 Neither participation nor homocysteine lowering establishes increased MAT flux, increased SAMe availability or benefit from extra intake. Keep limiting effects unresolved when not established. Individual admission is independent of pool membership/admission; do not inherit every constituent or propagate downstream applicability.
 
-**Section boundaries are unchanged:** §3.1.1 = independently admitted Direct/Derived Dietary Requirements. §3.1.2 = actual biochemical **Cofactors and Substrates**. §3.1.3 = shared KC relationship plus independently admitted individual KC inputs. Never broaden §3.1.2 for upstream supply or copy iKCs there or into §3.1.1 solely because KC1 is admitted.
+**Section boundaries are unchanged:** §3.1.1 = independently admitted Direct/Derived Dietary Requirements. §3.1.2 = additional evidence-supported biochemical **Cofactors and Substrates** whose roles have not already been adequately explained in §3.1.1; it is not a second complete biochemical inventory. §3.1.3 = shared KC relationship plus independently admitted individual KC inputs. Never broaden §3.1.2 for upstream supply or copy iKCs there or into §3.1.1 solely because KC1 is admitted.
 
 Under the KC in §3.1.3, show the concise pool-level relationship, evidence and attached limitation, followed by **Individual KC inputs**. Each admitted individual has the existing shared dropdown: reader description → exactly Input → Input type → Biological role → Evidence source → Limitation → supporting mechanism research link. Use `input_type: supported upstream supply` when appropriate. The pool summary does not repeat full individual atoms. Origin tags navigate separately from triggers; reviewed intermediary PM links belong beside inputs/in their disclosure, never on section headings. Preserve distinct independently adjudicated roles across other sections using the same substance identity, with cross-references instead of identical full disclosures.
 
@@ -2680,7 +2683,7 @@ The PM dietary-context contract is **Input | Input type | Biological role | Evid
 
 Stage 2A makes the existing accepted supply decision explicit; Stage 2B projects that same atom without reassessing evidence. Preserve findings, citations, limitations, biological role, relationship classification, ownership and upstream/KC applicability.
 
-- §1.1.1 / §3.1.1 Direct/Derived Dietary Requirements normally receive Yes because section admission establishes dietary applicability. Explicit contradictions must be flagged (`section-supply-contradiction`), leaving the value unset pending resolution rather than silently overriding either record.
+- §1.1.1 / §3.1.1 Direct/Derived Dietary Requirements receive Yes when the accepted admission establishes a dietary supply or exposure relationship for this PM: for capacity relationships, B AND D must be supported for the same dependency pathway; separately admitted regulatory-state relationships follow their existing evidence rules. Explicit contradictions must be flagged (`section-supply-contradiction`), leaving the value unset pending resolution rather than silently overriding either record.
 - §1.1.2 / §3.1.2 Cofactors and Substrates require individual review of the accepted biological role, supply route and limitation. Intracellular participation alone establishes neither Yes nor No.
 - §1.1.3 / §3.1.3 Key Constraints/upstream resource inputs distinguish dietary constituents from the pool or constraint itself. A constituent may receive Yes; a pool reference receives No when no dietary supply relationship is admitted for the pool itself. Constituent decisions remain on their PM atoms, never inherited from KC applicability.
 - Ambiguous cases receive `dietary_input: null`, a specific `dietary_input_note` and a clarification flag. Do not default to No.
@@ -2700,7 +2703,7 @@ No means **no dietary supply relationship is admitted for this entry in this PM*
   dietary_input_note: Accepted dietary precursor route; no conversion yield inferred
 ```
 
-Generate PM-input substance–food lists only for `dietary_input === true`. Keep No and unset entries visible as biological context; suppress their food lists without removing canonical food composition records. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship.
+Use `dietary_input === true` to determine PM-specific dietary admission, roll-up eligibility and admitted dietary-source records. Do not use `dietary_input: false` or `null` to suppress, remove or invalidate independently verified food–substance composition relationships. No and unset entries may display food-composition context where the canonical food ontology supports it, but that display must be clearly distinguished from PM-specific dietary efficacy or a Dietary Requirement. The same substance may have Yes and No entries in different PMs. Generated tables expose the sixth field and source note; retain unresolved rows and gaps. Missing optional food quantities do not suppress an admitted qualitative food relationship.
 
 Emergent diet roll-up may use admitted `dietary_input === true` relationships
 across Dietary Requirements and SOPs, preserving the original relationship
