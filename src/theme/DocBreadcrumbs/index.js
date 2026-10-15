@@ -65,6 +65,27 @@ const BRS6_PARENT_FM_BREADCRUMBS = {
   },
 };
 
+const CANONICAL_PM_ID = /^(?:BRS[1-6]-FM\d+-PM(\d+)|BRS-X\((?:Hormones|ECS)-PM(\d+)\)|BRS-X\(Circadian-FM\d+-PM(\d+)\))$/;
+const PUBLISHED_BRS_PM_PATH = /^\/docs\/biological-targets\/(?:brs[1-6]|brs-x\/(?:hormones|ecs|circadian))\//;
+
+export function pmFinalBreadcrumbLabel(pmId, label, pathname) {
+  const match = String(pmId ?? '').match(CANONICAL_PM_ID);
+  const pmNumber = match && (match[1] || match[2] || match[3]);
+  if (!pmNumber) {
+    return label;
+  }
+  const path = String(pathname ?? '').split(/[?#]/, 1)[0].replace(/\/+$/, '') || '/';
+  if (!PUBLISHED_BRS_PM_PATH.test(`${path}/`)) {
+    return label;
+  }
+  const prefix = `PM${pmNumber} — `;
+  const text = label ?? '';
+  if (text.startsWith(prefix)) {
+    return text;
+  }
+  return `${prefix}${text}`;
+}
+
 function addParentFmBreadcrumb({breadcrumbs, frontMatter, location, parentFmUrls}) {
   const parentFmId = frontMatter?.parent_fm;
   const parentFm = parentFmId ? BRS6_PARENT_FM_BREADCRUMBS[parentFmId] : undefined;
@@ -159,7 +180,9 @@ export default function DocBreadcrumbs() {
             return (
               <BreadcrumbsItem key={idx} active={isLast}>
                 <BreadcrumbsItemLink href={href} isLast={isLast}>
-                  {item.label}
+                  {isLast
+                    ? pmFinalBreadcrumbLabel(frontMatter?.pm_id, item.label, location.pathname)
+                    : item.label}
                 </BreadcrumbsItemLink>
               </BreadcrumbsItem>
             );

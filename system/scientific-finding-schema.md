@@ -363,6 +363,8 @@ optional `dietary_input_traceability` front matter.
 Stage 2A public Findings and connection copy follow
 `system/primary-mechanism-schema.md` § **Stage 2A — audience and public voice**
 (interested public; nutritionists as the most specialised intended readers).
+Apply the same schema's **Technical language policy** for first-use scientific
+abbreviations in each independently readable Finding or disclosure context.
 Stage 2A also establishes **published PM connections** in §5.2 / §5.3 (or
 §6.2 / §6.3): each link needs an evidence-supported relationship explanation
 before Stage 2B classifies diet. Identify supported upstream PM dependencies
