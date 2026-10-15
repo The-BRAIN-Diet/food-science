@@ -3,6 +3,10 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import Module, {createRequire} from 'node:module';
+import ts from 'typescript';
+import {load as parseHtml} from 'cheerio';
+import * as foodSelection from '../src/data/inputSubstanceFoodSelection.mjs';
 import {
   INPUT_TYPES,
   SYSTEM_OPTIMISATION_CATEGORIES,
@@ -1450,4 +1454,124 @@ test('NAD B3 form documentation links remain distinct and do not change the six-
  assert.match(renderer,/No verified sources yet/);
  assert.match(renderer,/createFoodSourceDetails\('Plant-based'/);
  assert.match(renderer,/createFoodSourceDetails\('Animal-based'/);
+});
+
+// Execute the real renderer, with generated scope loading isolated from these disposable fixtures.
+const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
+rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
+const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
+rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
+ : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : rendererRequire(id);
+rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
+ compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
+}).outputText,PM_INPUT_FOOD_DISCLOSURE);
+const {renderFoodSourceItem,selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance} = rendererModule.exports;
+const c1Source = (food, substance, value, extra={}) => ({
+ id:food+'::'+substance,food_id:food,food_title:food==='chicken'?'Chicken':'Chickpeas',
+ food_page:'/docs/foods/'+food,substance_id:substance,material:food==='chicken'?'Chicken breast':'Chickpea',preparation:'unknown',
+ observations:[{id:food+'::'+substance,value,unit:'mg',display:value+' mg',low:value,high:value,verified:true,
+ basis:'per 100 g sample; fresh/dry basis not reported',preparation:'unknown',material:food==='chicken'?'Chicken breast':'Chickpea',
+ source_reference:'#food-source-4',source_url:'https://www.ejast.org/archive/view_article?pid=jast-61-3-138',
+ public_note:'Method-defined extractable analyte; native free-vitamer concentration and dietary availability are not established.',
+ source_note:'Synthetic Çatak fixture: 0.1 N HCl, heated acid extraction at 121 °C for 30 min before HPLC; laboratory extraction, not cooking.',
+ rank_eligible:false,comparison_group:null,...extra}],
+});
+test('C1 real renderer keeps all four synthetic quantities, full basis, material, unknown preparation and source beside each amount',()=>{
+ const sources=[c1Source('chicken','nicotinamide',5.442),c1Source('chicken','nicotinic-acid',3.739),c1Source('chickpeas','nicotinamide',1.412),c1Source('chickpeas','nicotinic-acid',1.681)];
+ const selected=selectFoodDisclosureSources(sources);
+ assert.equal(selected.length,4);
+ for(const item of selected){
+  const html=renderFoodSourceItem(item),$=parseHtml(html),text=$.text();
+  assert.ok(text.includes(item.observations[0].display));
+  assert.ok(text.includes('per 100 g sample; fresh/dry basis not reported'));
+  assert.ok(text.includes('Studied material: '+item.material));
+  assert.ok(text.includes('unknown'));assert.ok(text.includes('native free-vitamer'));
+  assert.ok(text.includes('Analytical qualification:'));
+  assert.ok(text.includes('no concentration ranking'));
+  assert.equal($('a').last().attr('href'),item.food_page+'#food-source-4');
+  assert.doesNotMatch(text,/cooked|raw|roasted/);
+ }
+});
+test('C1 renderer preserves multiple observations, removes exact canonical duplicates and withholds unverified quantities',()=>{
+ const first=c1Source('chicken','nicotinamide',5.442);
+ const alternate=c1Source('chicken','nicotinamide',123,{id:'alternate',display:'123 µg',unit:'µg',basis:'per g dry material',preparation:null,material:'Chicken breast, alternative assay',source_reference:'#food-source-5'});
+ const held=c1Source('chicken','nicotinamide',999,{id:'held',verified:false,display:'999 mg'});
+ const multi={...first,observations:[...first.observations,...alternate.observations,...held.observations]};
+ const selected=selectFoodDisclosureSources([multi,first]);
+ assert.equal(selected.length,3);
+ const $=parseHtml(selected.map(renderFoodSourceItem).join(''));
+ assert.ok($.text().includes('123 µg (per g dry material)'));
+ assert.ok($.text().includes('Chicken breast, alternative assay'));
+ assert.ok($.text().includes('preparation not established'));
+ assert.ok($.text().includes('quantity not established'));
+ assert.doesNotMatch($.text(),/999/);
+ assert.deepEqual(selectFoodDisclosureSources([c1Source('chicken','nicotinamide',888,{public_display:'internal-only'})]),[]);
+ assert.equal($('a[href="/docs/foods/chicken#food-source-5"]').length,1);
+ // No verified quantities are manufactured for presence-only sources.
+ assert.match(renderFoodSourceItem({...first,observations:[]}),/quantity not established/);
+});
+test('C1 concentration ranking needs explicit compatible analytical groups and does not reject preparation differences',()=>{
+ const comparable=(food,value,preparation,extra={})=>c1Source(food,'nicotinamide',value,{basis:'per 100 g edible material',comparison_group:'reviewed-protocol-A',rank_eligible:true,preparation,...extra});
+ const selected=selectFoodDisclosureSources([comparable('chickpeas',1.412,'boiled'),comparable('chicken',5.442,'raw')]);
+ assert.deepEqual(selected.map(s=>s.food_id),['chicken','chickpeas']);
+ assert.ok(selected.every(s=>/Concentration order/.test(s.comparisonNotice)));
+ const overlapping=selectFoodDisclosureSources([comparable('chicken',5,'raw',{low:3,high:6,range:[3,6]}),comparable('chickpeas',4,'boiled',{low:4,high:7,range:[4,7]})]);
+ assert.ok(overlapping.every(s=>/no concentration ranking/.test(s.comparisonNotice)));
+ const otherAnalyte=c1Source('chickpeas','nicotinic-acid',100,{basis:'per 100 g edible material',comparison_group:'reviewed-protocol-A',rank_eligible:true});
+ const incompatible=selectFoodDisclosureSources([otherAnalyte,...selected,comparable('chicken',88,'raw',{id:'dry',basis:'per 100 g dry material',comparison_group:'protocol-B'})]);
+ assert.notEqual(incompatible[0].observations[0].value,100); // No global amount sort across analytes/methods/bases.
+ const unresolved=selectFoodDisclosureSources([c1Source('chickpeas','nicotinamide',99),c1Source('chicken','nicotinamide',1)]);
+ assert.deepEqual(unresolved.map(s=>s.food_id),['chicken','chickpeas']);
+ assert.ok(unresolved.every(s=>/no concentration ranking/.test(s.comparisonNotice)));
+});
+test('C1 ordinary Methionine and magnesium projection retains actual renderer ordering, links, quantities and preparation',()=>{
+ const data=buildInputSubstanceFood(process.cwd(),{brs:'BRS2'});
+ for(const id of ['methionine','magnesium']){
+  const sources=data.food_sources.filter(s=>s.substance_id===id);
+  const expected=[...sources].sort((a,b)=>Math.max(...b.observations.flatMap(o=>[o.high,o.low,o.value]))-Math.max(...a.observations.flatMap(o=>[o.high,o.low,o.value]))||a.food_title.localeCompare(b.food_title)).slice(0,5);
+  const selected=selectFoodDisclosureSources(sources);
+  assert.deepEqual(selected.map(s=>s.food_id),expected.map(s=>s.food_id));
+  for(const item of selected){
+   const $=parseHtml(renderFoodSourceItem(item));
+   assert.equal($('a').first().attr('href'),item.food_page);
+   assert.ok($.text().includes(item.observations[0].display));
+   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil-packed':item.preparation || 'preparation not established'));
+   assert.doesNotMatch($.text(),/Analytical qualification/);
+  }
+ }
+ const nad=buildInputSubstanceFood(process.cwd(),{brs:'BRS4'});
+ assert.deepEqual(nad.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
+  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
+ ]);
+ assert.equal(nad.food_sources.filter(s=>s.substance_id==='tryptophan').length,3);
+});
+
+test('C1 closed summary carries public qualification and reference, while technical provenance stays in its secondary disclosure',()=>{
+ const item=selectFoodDisclosureSources([c1Source('chicken','nicotinamide',5.442)])[0];
+ const $=parseHtml('<details><summary>'+renderFoodSourceSummary('Animal-based',item)+'</summary></details>');
+ const summary=$('details:not([open]) > summary');
+ assert.ok(summary.text().includes('5.442 mg (per 100 g sample; fresh/dry basis not reported)'));
+ assert.ok(summary.text().includes('Studied material: Chicken breast'));
+ assert.ok(summary.text().includes('unknown'));
+ assert.ok(summary.text().includes('native free-vitamer concentration and dietary availability are not established'));
+ assert.equal(summary.find('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
+ assert.doesNotMatch(summary.text(),/121 °C/);
+ const provenance=parseHtml(renderProvenance(item));
+ assert.equal(provenance('details > summary').text(),'Measurement provenance');
+ assert.match(provenance('p').text(),/121 °C/);
+ assert.equal(provenance('a').attr('href'),item.observations[0].source_url);
+ assert.match(renderFoodSourceSummary('Plant-based'),/No verified sources yet/);
+ const legacy=selectFoodDisclosureSources([c1Source('chicken','nicotinamide',5.442,{rank_eligible:true,comparison_group:'edible::raw'})]);
+ assert.match(legacy[0].comparisonNotice,/no concentration ranking/);
+});
+
+test('C1 supported qualitative presence retains source limitations and cannot expose a withheld numerical value',()=>{
+ const source=c1Source('chicken','nicotinamide',999);
+ source.observations=[];
+ source.presence_records=[{record:'presence-only',source_reference:'#food-source-4',source_url:'https://example.org/assay',public_note:'Method-defined extractable analyte; amount not established.',value:999,verified:false}];
+ const items=selectFoodDisclosureSources([source]);
+ const $=parseHtml(renderFoodSourceItem(items[0]));
+ assert.match($.text(),/quantity not established/);assert.match($.text(),/amount not established/);
+ assert.doesNotMatch($.text(),/999/);
+ assert.equal($('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
 });
