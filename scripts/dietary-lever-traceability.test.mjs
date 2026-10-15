@@ -1427,3 +1427,27 @@ test("Input links to its substance page and the compact heading stays unlinked",
   assert.equal(substanceHrefForInput("Creatine supplementation"), undefined);
   assert.equal(substanceHrefForInput("glutathione peroxidase"), undefined);
 });
+
+test('NAD B3 form documentation links remain distinct and do not change the six-atom projection',async()=>{
+ const {buildSubstanceInputPages}=await import('./lib/substance-input-pages.mjs');
+ const pages=buildSubstanceInputPages(),data=readNadPm2().data;
+ const base='/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3';
+ assert.equal(substanceHrefForInput('Niacinamide',pages),base+'#nicotinamide');
+ assert.equal(substanceHrefForInput('Nicotinamide (a form of vitamin B3)',pages),base+'#nicotinamide');
+ assert.equal(substanceHrefForInput('Nicotinic acid (a form of vitamin B3)',pages),base+'#nicotinic-acid');
+ assert.equal(substanceHrefForInput('Vitamin B3',pages),base);
+ assert.equal(substanceHrefForInput('Niacin',pages),base);
+ assert.equal(substanceHrefForInput('Unregistered B3 derivative',pages),undefined);
+ const before=structuredClone(data),map=buildDietaryLeverDisclosureMap(data);
+ for(const [label,id] of [['Nicotinamide (a form of vitamin B3)','nicotinamide'],['Nicotinic acid (a form of vitamin B3)','nicotinic-acid']]){
+  const disclosure=map.get(dietaryLeverBulletKey(label,'','3.1.1'));
+  assert.equal(disclosure.inputHref,base+'#'+id);
+  assert.equal(disclosure.titleHref,undefined);
+  assert.equal(disclosure.dietaryInput,true);
+ }
+ assert.deepEqual(data,before);
+ const renderer=fs.readFileSync('src/lib/pmInputFoodDisclosure.ts','utf8');
+ assert.match(renderer,/No verified sources yet/);
+ assert.match(renderer,/createFoodSourceDetails\('Plant-based'/);
+ assert.match(renderer,/createFoodSourceDetails\('Animal-based'/);
+});

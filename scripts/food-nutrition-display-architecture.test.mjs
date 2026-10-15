@@ -211,3 +211,23 @@ test("Caesar composition is unchanged except tahini oleic", () => {
   assert.ok(Math.abs(tahini.contributions.vitamin_b1_mg - 1.22 * 0.3) < 1e-9)
   assert.ok(Math.abs(tahini.contributions.oleic_g - 20.045 * 0.3) < 1e-9)
 })
+
+test("the B3 form projection cannot change parent nutrient thresholds or unrelated composition", async () => {
+  const {projectFoodNutrientForms} = await import("../src/data/foodNutrientForms.mjs")
+  const registry = JSON.parse(fs.readFileSync(path.join(ROOT, "registry/substances.json"), "utf8"))
+  const links = JSON.parse(fs.readFileSync(path.join(ROOT, "src/data/substance-input-pages.json"), "utf8"))
+  for (const slug of [...SAMPLE_SLUGS, "chicken"]) {
+    const food = loadFood(slug)
+    const saved = structuredClone(food)
+    const before = keyMicronutrients(food)
+    assert.deepEqual(projectFoodNutrientForms(food, registry, links).observations, [])
+    assert.deepEqual(food, saved)
+    assert.deepEqual(keyMicronutrients(food), before)
+  }
+  for (const [amount, expected] of [[1.599, false], [1.6, true]]) {
+    const food = {id: "synthetic-threshold-only", nutrition_per_100g: {vitamin_b3_mg: amount}}
+    projectFoodNutrientForms(food, registry, links)
+    assert.equal(isKeyFoodMicronutrient(food, "vitamin_b3_mg"), expected)
+    assert.equal(food.nutrition_per_100g.vitamin_b3_mg, amount)
+  }
+})

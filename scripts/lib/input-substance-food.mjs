@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import vm from 'node:vm';
 import matter from 'gray-matter';
+import { readRegisteredSubstanceForms } from './substance-input-pages.mjs';
 import { canonicalContainsRelationships } from '../../src/data/foodSubstanceRelationships.mjs';
 import { selectQuantified, PILOT_PMS } from '../../src/data/inputSubstanceFoodSelection.mjs';
 export { selectQuantified } from '../../src/data/inputSubstanceFoodSelection.mjs';
@@ -20,11 +21,19 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     function load(file) { const full = path.join(root, file); reads.add(file); return { file, ...matter(fs.readFileSync(full, 'utf8')) }; }
     const registryFile = 'registry/substances.json', registry = JSON.parse(fs.readFileSync(path.join(root, registryFile), 'utf8'));
     reads.add(registryFile);
-    const substances = {}, aliases = new Map();
+    const substances = {}, aliases = new Map(), forms = readRegisteredSubstanceForms(root);
     function alias(label, id) { const n = normalize(label); if (!n)
         return; if (!aliases.has(n))
         aliases.set(n, new Set()); aliases.get(n).add(id); }
     for (const [id, r] of Object.entries(registry)) {
+        const form = forms.get(id);
+        if (form) {
+            reads.add(form.file);
+            substances[id] = { id, title: form.title, page: form.href, record: registryFile + '#' + id, exists: Boolean(form.documented), identity_registered: true, parent_substance_id: form.parent_substance_id };
+            for (const name of [id, form.title, ...form.aliases]) alias(name, id);
+            if (!form.documented) gaps.push({ kind: 'substance-documentation', substance_id: id, record: form.file, reason: 'Registered identity retained; shared documentation page or anchor does not verify.' });
+            continue;
+        }
         if (!r?.path)
             continue;
         const file = 'docs/substances/' + r.path;
@@ -42,7 +51,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     }
     function identity(input, explicit) { if (explicit) {
         if (substances[explicit])
-            return { id: explicit, status: substances[explicit].exists ? 'resolved' : 'missing-page' };
+            return { id: explicit, status: (substances[explicit].identity_registered || substances[explicit].exists) ? 'resolved' : 'missing-page' };
         return { id: null, status: 'unknown-explicit-id', reason: explicit };
     } const raw = String(input || ''), variants = unique([
         raw,
@@ -52,7 +61,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
     ]).map(normalize).filter(Boolean);
     const matches = variants.map(v => aliases.get(v)).filter(Boolean), ids = matches.find(s => s.size === 1) || (matches.length ? matches[0] : null); if (ids?.size === 1) {
         const id = [...ids][0];
-        return { id, status: substances[id].exists ? 'resolved' : 'missing-page' };
+        return { id, status: (substances[id].identity_registered || substances[id].exists) ? 'resolved' : 'missing-page' };
     } if (ids?.size > 1)
         return { id: null, status: 'conflicting-alias', reason: [...ids].join(', ') }; return { id: null, status: 'unresolved-identity' }; }
     const labelSource = 'src/data/nutritionTableMapping.ts';
@@ -167,7 +176,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             const ident = identity(edge.substance, edge.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
-            const e = entry(ident.id, edge.evidence_material || material, edge.preparation_state || prep);
+            const e = entry(ident.id, edge.evidence_material || material, Object.hasOwn(edge, 'preparation_state') ? edge.preparation_state : prep);
             e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, citation_keys: edge.citation_keys || [], presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
             e.chemical_form = edge.chemical_form || e.chemical_form;
             e.food_matrix = edge.food_matrix || e.food_matrix;
@@ -192,7 +201,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             const ident = identity(row.label, row.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
-            const pre = row.preparation_state || prep;
+            const pre = Object.hasOwn(row, 'preparation_state') ? row.preparation_state : prep;
             // A qualitative supplementary citation can repeat an explicit contains edge.
             // Reuse its evidence material; never borrow the generic composition-panel species.
             const matches = !row.evidence_material && !row.material && !Number.isFinite(row.value) && !row.range && row.source_url

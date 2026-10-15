@@ -523,6 +523,33 @@
     "inchikey": "",
     "list_image": ""
   },
+  "nicotinamide": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b3.md",
+    "title": "Nicotinamide",
+    "parent_substance_id": "vitamin-b3",
+    "page_anchor": "nicotinamide",
+    "aliases": [
+      "Niacinamide",
+      "Nicotinamide (a form of vitamin B3)"
+    ],
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ]
+  },
+  "nicotinic-acid": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b3.md",
+    "title": "Nicotinic acid",
+    "parent_substance_id": "vitamin-b3",
+    "page_anchor": "nicotinic-acid",
+    "aliases": [
+      "Nicotinic acid (a form of vitamin B3)"
+    ],
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ]
+  },
   "vitamin-b3": {
     "path": "nutrients/micronutrients/vitamins/vitamin-b3.md",
     "tags": [
