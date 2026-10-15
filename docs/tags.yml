@@ -366,6 +366,11 @@ Nutrient:
   permalink: /nutrient
   description: Essential nutrients for brain health
 
+Flavin mononucleotide:
+  label: Flavin mononucleotide
+  permalink: /flavin-mononucleotide
+  description: Riboflavin-derived cofactor used by respiratory complex I
+
 Oleic Acid:
   label: Oleic Acid
   permalink: /oleic-acid

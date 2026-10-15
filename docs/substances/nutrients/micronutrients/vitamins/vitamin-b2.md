@@ -2,7 +2,7 @@
 id: vitamin-b2
 title: Vitamin B2 (Riboflavin)
 sidebar_label: Vitamin B2 (Riboflavin)
-description: FMN/FAD coenzymes; redox balance; supports methylation via MTHFR
+description: Flavin mononucleotide (FMN) and FAD coenzymes; redox balance; supports methylation via MTHFR
 tags:
   - Substance
   - Nutrient
@@ -13,14 +13,14 @@ tags:
 list_image: /img/inchi/AUNGANRZJHBGPY-SCRDCRAPSA-N.png
 mechanisms:
   Methylation: 'FAD acts as a critical cofactor for MTHFR, linking riboflavin to homocysteine recycling and methylation capacity'
-  Mitochondrial Support: 'Forms FMN/FAD coenzymes, supporting oxidative metabolism and redox balance; facilitates metabolism of B12, B6, and niacin; supports antioxidant enzymes'
+  Mitochondrial Support: 'Forms flavin mononucleotide (FMN) and FAD coenzymes, supporting oxidative metabolism and redox balance; facilitates metabolism of B12, B6, and niacin; supports antioxidant enzymes'
 inchikey: AUNGANRZJHBGPY-SCRDCRAPSA-N
 inchi_image: /img/inchi/AUNGANRZJHBGPY-SCRDCRAPSA-N.png
 ---
 
 ## Overview
 
-Vitamin B2, also known as riboflavin, is a water-soluble vitamin that forms the coenzymes FMN (flavin mononucleotide) and FAD (flavin adenine dinucleotide). These coenzymes support oxidative metabolism and redox balance throughout the body. FAD acts as a critical cofactor for MTHFR (methylenetetrahydrofolate reductase), linking riboflavin to homocysteine recycling and methylation capacity. Riboflavin also facilitates the metabolism of other B vitamins including B12, B6, and niacin, and supports antioxidant enzymes, making it an important component of the B vitamin network.
+Vitamin B2, also known as riboflavin, is a water-soluble vitamin that forms the coenzymes [flavin mononucleotide (FMN)](/docs/substances/nutrients/micronutrients/vitamins/flavin-mononucleotide) and FAD (flavin adenine dinucleotide). These coenzymes support oxidative metabolism and redox balance throughout the body. FAD acts as a critical cofactor for MTHFR (methylenetetrahydrofolate reductase), linking riboflavin to homocysteine recycling and methylation capacity. Riboflavin also facilitates the metabolism of other B vitamins including B12, B6, and niacin, and supports antioxidant enzymes, making it an important component of the B vitamin network.
 
 ## Recipes
 
@@ -36,5 +36,5 @@ Vitamin B2, also known as riboflavin, is a water-soluble vitamin that forms the 
 
 ## References
 
-- Riboflavin forms FMN/FAD, supporting oxidative metabolism and redox balance; FAD is a critical cofactor for MTHFR, linking B2 to homocysteine recycling and methylation capacity [Aragão et al. 2024](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- Riboflavin forms flavin mononucleotide (FMN) and FAD, supporting oxidative metabolism and redox balance; FAD is a critical cofactor for MTHFR, linking B2 to homocysteine recycling and methylation capacity [Aragão et al. 2024](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
 - Riboflavin facilitates metabolism of B12, B6, and niacin; supports antioxidant enzymes; ties into methylation capacity
