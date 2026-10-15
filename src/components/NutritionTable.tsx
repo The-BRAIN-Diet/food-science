@@ -1,5 +1,9 @@
 import React, {useMemo} from "react"
+import {useLocation} from "@docusaurus/router"
 import AdvancedNutrition from "@site/src/components/AdvancedNutrition"
+import substanceRegistry from "../../registry/substances.json"
+import substanceInputPages from "../data/substance-input-pages.json"
+import {foodFormReferenceHref, projectFoodNutrientForms} from "../data/foodNutrientForms.mjs"
 import {ADULT_REFERENCE_INTAKE} from "@site/src/utils/nutrientReference.mjs"
 import {
   BIOACTIVE_LIPID_KEYS,
@@ -159,7 +163,11 @@ function isValidFunctionalMetric(s: unknown): s is FunctionalMetric {
 }
 
 export default function NutritionTable({details, view = "highlights"}: NutritionTableProps): React.ReactElement {
+  const location = useLocation()
   const advancedContent = useMemo(() => <NutritionTable details={details} view="advanced" />, [details])
+  const formProjection = useMemo(() => projectFoodNutrientForms(details, substanceRegistry, substanceInputPages), [details])
+  const formObservations = formProjection.observations
+  const advancedObservationKeys = new Set(formObservations.map((row) => row.supplementary_key).filter(Boolean))
   const nutritionUnavailable = details.nutrition_unavailable || details.composition_status === "withdrawn"
   const nutrition = (nutritionUnavailable ? {} : (details.nutrition_per_100g || {})) as NutritionValues
   const source = (details.nutrition_source || {}) as Record<string, unknown>
@@ -172,6 +180,8 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     // Omit numeric zeros from the bioactive table; keep qualitative entries (amount_display).
     .filter((sup) => (typeof sup.value === "number" ? sup.value > 0 : true))
     .filter((sup) => isPublicSupplementaryRow(details, sup))
+    // Only suppress the exact observation that will be presented in Advanced.
+    .filter((sup) => !advancedObservationKeys.has(sup.key))
 
   const rawFunctional = (details.nutrition_functional_metrics || []) as unknown[]
   const functionalMetrics = rawFunctional
@@ -186,7 +196,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
     (nutrition && Object.entries(nutrition).some(([_, v]) => typeof v === "number" || v === null)) ||
     supplementary.length > 0 ||
     functionalMetrics.length > 0 ||
-    hasAuthorisedSpecs
+    hasAuthorisedSpecs || formObservations.length > 0
 
   if (!hasAnyNutrition) {
     return nutritionUnavailable ? <section id="nutritional-highlights"><h2>Nutrition</h2><p>Reliable composition data for this preparation are not yet available.</p></section> : null
@@ -387,6 +397,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
 
   if (view === "advanced") {
     return <section className="nutrition-table-block">
+      {advancedMicroRows.length > 0 && <>
       <h2>Vitamins and minerals (per 100 g)</h2>
       <p>{ADVANCED_NUTRITION_CAPTION}</p>
       {typeof source.food_name === "string" && <p><strong>Selected food and preparation:</strong> {String(source.food_name)}. {String(source.basis || "per 100 g of the named food")}.</p>}
@@ -396,6 +407,27 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
       </table>
       {MICRONUTRIENT_KEYS.some(key => isPublicTableKey(details, key) && !isKeyFoodMicronutrient(details, key) && typeof nutrition[key] === "number" && RDA_VALUES[key] > 0) && <p>Reference intakes: US Dietary Reference Intakes for adults (19–50 years; using the higher of male/female values where they differ).</p>}
       {source.database && <p>Composition source: {source.source_reference ? <a href={String(source.source_reference)}>{String(source.database)}</a> : String(source.database)}{source.food_name ? `, ${String(source.food_name)}` : ""}{source.fdc_id ? `, FDC ID ${String(source.fdc_id)}` : ""}.</p>}
+      </>}
+      {formObservations.length > 0 && <details id="vitamin-b3-individual-forms" open>
+        <summary><strong>Vitamin B3 — Individual Forms</strong></summary>
+        <div style={{overflowX: "auto"}}>
+          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+            <thead><tr><th style={thStyle}>Form</th><th style={thStyle}>Reported content</th><th style={thStyle}>Basis and preparation</th><th style={thStyle}>Evidence and limitations</th></tr></thead>
+            <tbody>{formObservations.map((row) => <tr key={row.id} id={row.supplementary_key ? `nutrition-row-${row.supplementary_key}` : undefined}>
+              <td style={tdStyle}>{row.href ? <a href={row.href}>{row.title}</a> : row.title}</td>
+              <td style={tdStyle}>{row.quantity_status === "supported"
+                ? `${row.range ? row.range.join("–") : row.value} ${row.unit}`
+                : "Present — quantity not established"}</td>
+              <td style={tdStyle}>{row.basis || "Measurement basis not established"}<br />{row.preparation || "Preparation not established"}{row.material ? <><br />{row.material}</> : null}</td>
+              <td style={tdStyle}>
+                <a href={foodFormReferenceHref(row.source_reference, location)}>[{row.source_reference.match(/food-source-(\d+)$/)?.[1]}]</a>
+                {row.limitation && <p>{row.limitation}</p>}
+                {row.provenance && <details><summary>Measurement details</summary><p>{row.provenance}</p></details>}
+              </td>
+            </tr>)}</tbody>
+          </table>
+        </div>
+      </details>}
     </section>
   }
 
@@ -458,7 +490,7 @@ export default function NutritionTable({details, view = "highlights"}: Nutrition
         </>
       )}
 
-      {advancedMicroRows.length > 0 && view === "highlights" && (
+      {(advancedMicroRows.length > 0 || formObservations.length > 0) && view === "highlights" && (
         <AdvancedNutrition tabOnly>{advancedContent}</AdvancedNutrition>
       )}
 
