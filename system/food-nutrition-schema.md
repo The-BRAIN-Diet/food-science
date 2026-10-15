@@ -468,3 +468,32 @@ original measurement details. Source links retain the food's existing
 row only by the exact supplementary key actually presented in Advanced; distinct
 observations for the same form remain separate. Form-only content registers the
 existing Advanced tab without adding an empty micronutrient table or a new tab.
+
+### Evidence-preserving PM food-source presentation
+
+PM food disclosures must preserve each observation's exact amount and unit,
+complete measurement basis, source-reported material, preparation (including
+unknown), public analytical qualifications, technical provenance and source
+references. A reader-facing quantity must carry material qualifications even
+in the collapsed food-source summary. Longer provenance may use an accessible
+secondary disclosure. Do not simplify a qualified basis to generic per 100 g,
+interpret extraction as cooking, or present an unverified/review-held quantity
+as verified. Existing eligible qualitative presence may remain without an amount.
+
+Distinct canonical observations must remain separate; do not select only the
+first, average them, or duplicate the same canonical observation. Preserve
+existing verification, public-display restrictions and review decisions. This
+presentation requirement changes neither dietary admission nor the six atoms.
+
+Qualified concentration ordering requires an explicitly established compatible
+canonical analyte, unit/denominator, full measurement basis and analytical
+definition. Use existing `comparison_group` and `rank_eligible` decisions; a
+shared citation, similar description or food category cannot establish them.
+Preparation differences remain visible but do not independently invalidate a
+comparison. An unresolved material measurement basis prevents definitive ranking;
+retain the observations with that limitation. Keep incompatible groups separate
+and identify the scope of any concentration ordering. Concentration does not
+establish equivalent bioavailability, brain delivery or nutritional effectiveness.
+Preserve existing ordinary composition rankings, including Methionine and magnesium;
+this correction does not initiate a general ranking reassessment or add ontology
+fields, evidence classifications or production Çatak observations.

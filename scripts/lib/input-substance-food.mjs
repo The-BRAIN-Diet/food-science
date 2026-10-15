@@ -177,7 +177,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
             const e = entry(ident.id, edge.evidence_material || material, Object.hasOwn(edge, 'preparation_state') ? edge.preparation_state : prep);
-            e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, citation_keys: edge.citation_keys || [], presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
+            e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, source_reference: edge.source_reference || null, citation_keys: edge.citation_keys || [], presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
             e.chemical_form = edge.chemical_form || e.chemical_form;
             e.food_matrix = edge.food_matrix || e.food_matrix;
             e.preparation_effects = edge.preparation_effects || e.preparation_effects;
@@ -193,7 +193,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
             const e = entry(ident.id, material, prep);
-            e.observations.push(observation({ value, unit: nutrientLabels[key].unit, basis: src.basis, source_url: src.source_url || null, material, preparation: prep, record: doc.file + '#nutrition_per_100g/' + key, source_record: doc.file + '#nutrition_source', verified: true }));
+            e.observations.push(observation({ nutrition_source: src, public_note: src.public_note, material_limitations: src.material_limitations, source_note: src.source_note, value, unit: nutrientLabels[key].unit, basis: src.basis, source_url: src.source_url || null, source_reference: src.source_reference || null, material, preparation: prep, record: doc.file + '#nutrition_per_100g/' + key, source_record: doc.file + '#nutrition_source', verified: true }));
         }
         for (const row of d.nutrition_supplementary_sources || []) {
             if (row.evidence_status === 'rejected' || row.evidence_status === 'unresolved' || row.analyte_scope === 'combined' || /\+/.test(row.label || ''))
@@ -201,21 +201,32 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             const ident = identity(row.label, row.substance_id);
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
+            const publicDisplay = row.public_display || d.public_display?.[row.key] || d.public_display?.[row.substance_id] || d.public_display?.[row.label];
+            const publicRestricted = ['internal-only', 'excluded-error', 'substance-only'].includes(publicDisplay);
             const pre = Object.hasOwn(row, 'preparation_state') ? row.preparation_state : prep;
             // A qualitative supplementary citation can repeat an explicit contains edge.
             // Reuse its evidence material; never borrow the generic composition-panel species.
             const matches = !row.evidence_material && !row.material && !Number.isFinite(row.value) && !row.range && row.source_url
                 ? [...entries.values()].filter(e => e.substance_id === ident.id && e.preparation === pre && e.presence_records.some(p => p.source_url === row.source_url)) : [];
-            const mat = row.evidence_material || row.material || (matches.length === 1 ? matches[0].material : material), e = entry(ident.id, mat, pre), pointer = doc.file + '#nutrition_supplementary_sources/' + row.key;
+            const mat = row.evidence_material || row.material || (matches.length === 1 ? matches[0].material : material), pointer = doc.file + '#nutrition_supplementary_sources/' + row.key;
+            const existing = [...entries.values()].find(e => e.substance_id === ident.id && e.material === mat && e.preparation === (pre || null));
+            // Retain corroborating internal provenance without admitting a new public source.
+            if (publicRestricted && !existing) continue;
+            const e = existing || entry(ident.id, mat, pre);
             e.chemical_form = row.chemical_form || e.chemical_form;
             e.food_matrix = row.food_matrix || e.food_matrix;
             e.preparation_effects = row.preparation_effects || e.preparation_effects;
             e.absorption_evidence = row.absorption_evidence || e.absorption_evidence;
-            e.presence_records.push({ record: pointer, evidence: row.source_note || null, source_url: row.source_url || null, presence_status: row.presence_status || row.status || 'qualitative', limitations: row.notes || null });
+            e.presence_records.push({ ...row, record: pointer, evidence: row.source_note || null, source_url: row.source_url || null, source_reference: row.source_reference || null, evidence_status: row.evidence_status, public_display: publicDisplay, presence_status: row.presence_status || row.status || 'qualitative', limitations: row.notes || null });
             const range = Array.isArray(row.range) && row.range.length === 2 && row.range.every(Number.isFinite) ? row.range : null;
-            const verified = !!(row.source_url || row.source_reference) && !row.quantity_citation_pending && !/estimate|representative|approximate/i.test(row.source_group || '') && (Number.isFinite(row.value) || range);
-            if (Number.isFinite(row.value) || range)
-                e.observations.push(observation({ value: Number.isFinite(row.value) ? row.value : null, range, unit: row.unit, basis: row.basis, source_url: row.source_url, material: mat, preparation: pre, record: pointer, source_record: pointer, verified: !!verified, limitations: row.source_note || null }));
+            const reviewHeld = (d.nutrition_value_reviews || []).some(review => {
+                if (review.correction_status === 'resolved' && !review.exclude_from_food_lists) return false;
+                const key = review.nutrient_key || review.key;
+                return key ? key === row.key : review.substance_id ? review.substance_id === ident.id : review.correction_status === 'pending';
+            });
+            const verified = !publicRestricted && row.verified !== false && !reviewHeld && !row.status && !row.amount_display && !/amount_unavailable|citation_pending/.test(row.presence_status || '') && !!(row.source_url || row.source_reference) && !row.quantity_citation_pending && !/estimate|representative|approximate/i.test(row.source_group || '') && (Number.isFinite(row.value) || range);
+            if (!publicRestricted && (Number.isFinite(row.value) || range))
+                e.observations.push(observation({ ...row, value: Number.isFinite(row.value) ? row.value : null, range, unit: row.unit, basis: row.basis, source_url: row.source_url, material: mat, preparation: pre, record: pointer, source_record: pointer, verified: !!verified, nutrition_value_reviews: d.nutrition_value_reviews || [], limitations: row.limitations || row.source_note || null }));
         }
         for (const row of (Array.isArray(d.nutrition_authorised_specifications) ? d.nutrition_authorised_specifications : d.nutrition_authorised_specifications ? [d.nutrition_authorised_specifications] : [])) {
             gaps.push({ kind: 'specialist-specification-not-joined', food_id: foodId, record: doc.file, reason: 'Authorised specification schema needs a material-specific adapter; no generic amount inferred.' });
@@ -224,7 +235,20 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
         if (validPanel && src && Number.isFinite(d.nutrition_per_100g?.carbs_g) && Number.isFinite(d.nutrition_per_100g?.protein_g))
             patternCandidates.push({ food_id: foodId, food_page: page, title: d.title, composition_record: doc.file + '#nutrition_per_100g', composition_values: { carbs_g: d.nutrition_per_100g.carbs_g, protein_g: d.nutrition_per_100g.protein_g }, fields: ['carbs_g', 'protein_g'], qualification: 'Candidate ingredient composition only; a single food does not establish a meal pattern, ratio or target.' });
     }
-    function observation(o) { const factor = { g: 1000, mg: 1, 'µg': 0.001, ug: 0.001 }[o.unit], basis = /per\s*100\s*g/i.test(o.basis || ''), dry = /dry|dried|powder/i.test(o.basis || '') ? 'dry' : 'edible'; const low = (o.range?.[0] ?? o.value) * factor, high = (o.range?.[1] ?? o.value) * factor; return { ...o, id: o.record, rank_eligible: !!(o.verified && basis && factor && o.preparation), comparison_group: basis && o.preparation ? dry + '::' + normalize(o.preparation) : null, low, high, display: amountDisplay(o) }; }
+    function observation(o) {
+        const factor = { g: 1000, mg: 1, 'µg': 0.001, ug: 0.001 }[o.unit];
+        const per100g = /per\s*100\s*g/i.test(o.basis || '');
+        const qualified = !!(o.public_note || o.material_limitations || o.notes || o.source_note || o.limitations);
+        // Existing explicit comparison decisions are not inferred from citations or prose.
+        // Keep the legacy ordinary-panel groups; qualified records need adjudication.
+        const group = qualified ? (o.rank_eligible === true && o.comparison_group || null)
+            : per100g && o.preparation ? (/dry|dried|powder/i.test(o.basis || '') ? 'dry' : 'edible') + '::' + normalize(o.preparation) : null;
+        const rankEligible = !!(o.verified && per100g && factor && group && o.rank_eligible !== false);
+        return { ...o, id: o.record, rank_eligible: rankEligible,
+            comparison_group: rankEligible ? group : null,
+            low: (o.range?.[0] ?? o.value) * factor, high: (o.range?.[1] ?? o.value) * factor,
+            display: amountDisplay(o) };
+    }
     const bySub = new Map();
     for (const e of foodSources) {
         if (!bySub.has(e.substance_id))

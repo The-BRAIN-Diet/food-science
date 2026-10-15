@@ -3,6 +3,10 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import os from 'node:os';
+import {spawnSync} from 'node:child_process';
+import Module, {createRequire} from 'node:module';
+import ts from 'typescript';
+import * as foodSelection from '../src/data/inputSubstanceFoodSelection.mjs';
 import matter from 'gray-matter';
 import { buildInputSubstanceFood, selectQuantified } from './lib/input-substance-food.mjs';
 import { readRegisteredSubstanceForms } from './lib/substance-input-pages.mjs';
@@ -387,7 +391,7 @@ function b3IdentityFixture(t, supplementary = []) {
  t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
  const copy=file=>{fs.mkdirSync(path.dirname(path.join(dir,file)),{recursive:true});fs.copyFileSync(path.join(root,file),path.join(dir,file));};
  for(const file of ['registry/substances.json','docs/substances/nutrients/micronutrients/vitamins/vitamin-b3.md','src/data/nutritionTableMapping.ts','docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx']) copy(file);
- const chicken=matter(fs.readFileSync(path.join(root,'docs/foods/chicken.md'),'utf8')).data;
+ const chicken=structuredClone(matter(fs.readFileSync(path.join(root,'docs/foods/chicken.md'),'utf8')).data);
  chicken.substance_relationships=[];
  chicken.nutrition_supplementary_sources=supplementary;
  fs.mkdirSync(path.join(dir,'docs/foods'),{recursive:true});
@@ -475,4 +479,121 @@ test('registered B3 identity is independent of documentation availability; links
  registry.nicotinamide.parent_substance_id='unregistered-family';
  fs.writeFileSync(registryFile,JSON.stringify(registry));
  assert.throws(()=>readRegisteredSubstanceForms(dir),/Invalid registered nutrient form/);
+});
+
+// Çatak values are synthetic regression fixtures, never imported production observations.
+const catakFixtureRow = (substance_id, value, material, extra = {}) => ({
+ key: 'c1_' + substance_id, substance_id, label: substance_id === 'nicotinamide' ? 'Nicotinamide' : 'Nicotinic acid',
+ value, unit: 'mg', basis: 'per 100 g sample; fresh/dry basis not reported',
+ evidence_material: material, preparation_state: 'unknown', evidence_status: 'supported',
+ source_reference: '#food-source-4', source_url: 'https://www.ejast.org/archive/view_article?pid=jast-61-3-138',
+ public_note: 'Method-defined extractable analyte; native free-vitamer concentration and dietary availability are not established.',
+ source_note: 'Synthetic Çatak regression fixture: 0.1 N HCl, heated acid extraction at 121 °C for 30 min before HPLC. Laboratory extraction is not food preparation.',
+ ...extra,
+});
+function catakFixture(t, extraChicken = [], reviews = []) {
+ const chicken = [catakFixtureRow('nicotinamide',5.442,'Chicken breast'),catakFixtureRow('nicotinic-acid',3.739,'Chicken breast'),...extraChicken];
+ const dir = b3IdentityFixture(t,chicken);
+ const file = path.join(dir,'docs/foods/chicken.md');
+ const doc = matter(fs.readFileSync(file,'utf8'));
+ doc.data.nutrition_value_reviews = reviews;
+ fs.writeFileSync(file,matter.stringify('## References\n\n<span id="food-source-4"></span>\nSynthetic regression reference only.\n',doc.data));
+ fs.writeFileSync(path.join(dir,'docs/foods/chickpeas.md'),matter.stringify('## References\n\n<span id="food-source-4"></span>\nSynthetic regression reference only.\n',{
+  id:'chickpeas',title:'Chickpeas',preparation_state:'boiled',nutrition_supplementary_sources:[
+   catakFixtureRow('nicotinamide',1.412,'Chickpea'),catakFixtureRow('nicotinic-acid',1.681,'Chickpea'),
+  ],
+ }));
+ return dir;
+}
+test('C1 four disposable Çatak observations preserve exact evidence without inventing comparability',t=>{
+ const dir=catakFixture(t), b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ const rows=b.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
+ assert.equal(rows.length,4);
+ const expected={'chicken::nicotinamide':5.442,'chicken::nicotinic-acid':3.739,'chickpeas::nicotinamide':1.412,'chickpeas::nicotinic-acid':1.681};
+ for(const source of rows){
+  const obs=source.observations[0];
+  assert.equal(obs.value,expected[source.food_id+'::'+source.substance_id]);
+  assert.equal(obs.display,obs.value+' mg');assert.equal(obs.unit,'mg');
+  assert.equal(obs.basis,'per 100 g sample; fresh/dry basis not reported');
+  assert.equal(obs.material,source.food_id==='chicken'?'Chicken breast':'Chickpea');
+  assert.equal(obs.preparation,'unknown');assert.equal(source.preparation,'unknown');
+  assert.match(obs.source_note,/121 °C/);assert.match(obs.public_note,/native free-vitamer/);
+  assert.equal(obs.source_reference,'#food-source-4');
+  assert.ok(fs.readFileSync(path.join(dir,source.food_record),'utf8').includes('id="food-source-4"'));
+  assert.match(obs.source_url,/pid=jast-61-3-138$/);
+  assert.equal(obs.evidence_status,'supported');assert.equal(obs.verified,true);
+  assert.equal(obs.rank_eligible,false);assert.equal(obs.comparison_group,null);
+ }
+ // The fixture builder never writes canonical food records; production forms remain empty.
+ const production=buildInputSubstanceFood(root,{brs:'BRS4'});
+ assert.equal(production.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id)).length,0);
+});
+test('C1 distinct observations, exact units, explicit comparison decisions and review holds survive',t=>{
+ const dir=catakFixture(t,[
+  catakFixtureRow('nicotinamide',123,'Chicken breast, alternate assay',{key:'alternate',unit:'µg',basis:'per g dry material',source_url:'https://example.org/alternate',preparation_state:null}),
+  catakFixtureRow('nicotinamide',999,'Chicken breast',{key:'unverified',verified:false}),
+  catakFixtureRow('nicotinic-acid',777,'Chicken breast',{key:'review-held'}),
+  catakFixtureRow('nicotinamide',22,'Chicken breast',{key:'explicit-comparison',basis:'per 100 g edible material',rank_eligible:true,comparison_group:'synthetic-reviewed-extractable-nam',preparation_state:'cooked'}),
+ ],[{key:'review-held',correction_status:'pending',title:'Synthetic quantitative review hold'}]);
+ const b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ const obs=b.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id)).flatMap(f=>f.observations);
+ assert.equal(obs.length,8);
+ const find=key=>obs.find(o=>o.key===key);
+ assert.equal(find('alternate').display,'123 µg');assert.equal(find('alternate').preparation,null);
+ assert.equal(find('unverified').verified,false);assert.equal(find('review-held').verified,false);
+ assert.equal(find('review-held').nutrition_value_reviews[0].correction_status,'pending');
+ assert.equal(find('explicit-comparison').comparison_group,'synthetic-reviewed-extractable-nam');
+ assert.equal(find('explicit-comparison').rank_eligible,true);
+ assert.equal(find('unverified').comparison_group,null);
+});
+
+test('C1 public-display restrictions never admit a supplementary quantity or a new public material',t=>{
+ const dir=catakFixture(t,[catakFixtureRow('nicotinamide',999,'Private different material',{key:'private',public_display:'internal-only'})]);
+ const mapping=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ assert.equal(mapping.food_sources.some(f=>f.material==='Private different material'),false);
+ assert.equal(mapping.food_sources.flatMap(f=>f.observations).some(o=>o.key==='private'),false);
+});
+
+// Exercise the actual CLI serialization boundary before feeding the real PM renderer.
+test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries',t=>{
+ const dir=catakFixture(t,[
+  catakFixtureRow('nicotinamide',123,'Chicken breast, alternate synthetic assay',{key:'e2e-alternate',unit:'µg',basis:'per g dry synthetic material',preparation_state:null,source_url:'https://example.org/alternate-assay'}),
+  catakFixtureRow('nicotinamide',999,'Chicken breast',{key:'e2e-held'}),
+ ],[{key:'e2e-held',correction_status:'pending',title:'Synthetic quantitative review hold'}]);
+ const result=spawnSync(process.execPath,[path.join(root,'scripts/generate-input-substance-food.mjs'),'--brs','BRS4'],{cwd:dir,encoding:'utf8'});
+ assert.equal(result.status,0,result.stderr);
+ const snapshot=JSON.parse(fs.readFileSync(path.join(dir,'src/data/brs4InputMapping.generated.json'),'utf8'));
+ const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
+ const mod=new Module(rendererFile),require=createRequire(rendererFile);
+ mod.filename=rendererFile;
+ mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:require(id);
+ mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
+ const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
+ const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
+ const selected=selectFoodDisclosureSources(forms);
+ assert.equal(selected.length,6); // Four pilot fixtures plus two independent synthetic observations.
+ for(const [food,substance,value] of [['chicken','nicotinamide',5.442],['chicken','nicotinic-acid',3.739],['chickpeas','nicotinamide',1.412],['chickpeas','nicotinic-acid',1.681]]){
+  const item=selected.find(f=>f.food_id===food&&f.substance_id===substance&&f.observations[0].value===value);
+  assert.ok(item);
+  const obs=item.observations[0],html=renderFoodSourceSummary('Fixture category',item);
+  assert.equal(obs.unit,'mg');assert.equal(obs.preparation,'unknown');
+  assert.ok(html.includes(value+' mg ('+obs.basis+')'));
+  assert.ok(html.includes('Studied material: '+obs.material));
+  assert.ok(html.includes('unknown'));
+  assert.ok(html.includes(obs.public_note));
+  assert.ok(html.includes(item.food_page+obs.source_reference));
+  assert.ok(html.includes('no concentration ranking'));
+  assert.ok(renderProvenance(item).includes(obs.source_url));
+  assert.ok(renderProvenance(item).includes('heated acid extraction at 121 °C'));
+ }
+ const held=selected.find(f=>f.observations[0].key==='e2e-held');
+ assert.equal(held.observations[0].verified,false);
+ assert.match(renderFoodSourceSummary('Fixture category',held),/quantity not established/);
+ assert.doesNotMatch(renderFoodSourceSummary('Fixture category',held),/999/);
+ const alternate=selected.find(f=>f.observations[0].key==='e2e-alternate');
+ assert.equal(alternate.preparation,null);
+ assert.match(renderFoodSourceSummary('Fixture category',alternate),/123 µg \(per g dry synthetic material\)/);
+ assert.deepEqual(snapshot.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
+  ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
+ ]);
 });
