@@ -424,3 +424,47 @@ Internal `presence_status` values are independent of numeric-panel eligibility a
 A citation-attachment gap alone must not remove a relationship with a documented established basis. A scientific rejection requires a substantive reason. Record unfinished research as documentation work, not negative evidence. Never infer an individual constituent solely from a combined assay, or an individual triacylglycerol from a fatty-acid profile. Aglycone families may be linked with explicit glycoside-form qualification; do not represent glycosides as a measured free-aglycone concentration.
 
 Public descriptions state what the reader can conclude, with concise material limitations. Workflow labels and extraction/calculation histories remain internal. Shared composition sources appear once per table/section; detailed provenance remains expandable.
+
+## Vitamin B3 individual forms — Advanced Nutrition pilot
+
+The optional **Vitamin B3 — Individual Forms** subsection is a read-only
+projection of existing food records. It supports only `nicotinamide` and
+`nicotinic-acid`, using their registered `vitamin-b3` parent and B1 documentation
+anchors. It creates no food relationships, observations, nutrient calculations
+or scientific admissions. Omit the subsection when no eligible observations
+exist. The parent nutrition row, 10% reference-intake threshold and unrelated
+Bioactive rows retain their existing behaviour.
+
+Use explicit substance IDs and existing observation identifiers: supplementary
+`key`, or presence relationship `relationship_id` / `recovery_audit`. A
+`requires_supplementary_key` connection binds an existing contains decision to
+that specific supplementary observation. Do not join quantities by substance
+name or source URL alone. Preserve each source, material, measurement basis,
+preparation and analytical qualification separately. Do not calculate a family
+total, niacin equivalents or a tryptophan conversion from these observations.
+
+Existing `evidence_status: supported` on the observation, or an explicitly bound
+supported canonical contains relationship, establishes its recorded admission.
+The bound relationship's `presence_status: presence_and_amount_supported` can
+support the recorded amount. A citation URL and number alone do not establish
+admission. Existing rejected/unresolved decisions, public-display restrictions,
+combined-analyte scope, pending quantitative citations and review holds remain
+in force. Supported presence can be projected without its withheld or unknown
+amount; it must not display zero by default. Unknown preparation remains unknown,
+including when the general food has a known preparation. Laboratory extraction
+conditions remain measurement provenance, never food preparation.
+
+When the existing record lacks a stable identifier, explicit support decision
+or page-local `source_reference`, leave it unprojected and return a diagnostic
+from the pure projection helper. Do not mark it verified or create replacement
+evidence fields. Conflicting observation IDs also remain unprojected. Existing
+canonical data are never rewritten. This pilot imports no Çatak observations.
+
+Render eligible quantities with their recorded units and bases, without using
+the parent reference intake. Show concise analytical limitations and expandable
+original measurement details. Source links retain the food's existing
+`#food-source-N` reference anchor and meaningful URL parameters, removing only
+`advanced` so the References section is visible. Suppress an existing Bioactive
+row only by the exact supplementary key actually presented in Advanced; distinct
+observations for the same form remain separate. Form-only content registers the
+existing Advanced tab without adding an empty micronutrient table or a new tab.
