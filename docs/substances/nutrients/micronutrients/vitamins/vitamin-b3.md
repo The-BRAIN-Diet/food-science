@@ -24,11 +24,15 @@ Vitamin B3 (niacin) is a water-soluble vitamin family that includes nicotinamide
 
 ## Nicotinamide {#nicotinamide}
 
-Nicotinamide, also called niacinamide, is a form of vitamin B3. Cells recycle it through the salvage pathway to replenish nicotinamide adenine dinucleotide (NAD⁺) [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). It is chemically distinct from nicotinic acid. A total-niacin food measurement does not establish the amount of nicotinamide.
+Nicotinamide, also called niacinamide, is a form of vitamin B3. Cells recycle it through the salvage pathway to replenish nicotinamide adenine dinucleotide (NAD⁺) [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). It is chemically distinct from nicotinic acid.
+
+**Evidence limitations:** Nicotinamide is a vitamin B3 form used in NAD⁺ salvage. Total-niacin measurements do not establish its individual concentration. Measurements following hydrolytic extraction describe the recovered analyte and may not represent native free nicotinamide ([EN 15652:2009](https://webstore.ansi.org/standards/din/dinen156522009)). Food-composition results do not establish brain delivery, tissue-specific NAD⁺ replenishment or neurological benefit.
 
 ## Nicotinic acid {#nicotinic-acid}
 
-Nicotinic acid is a form of vitamin B3 that enters synthesis of nicotinamide adenine dinucleotide (NAD⁺) through the Preiss–Handler pathway, a separate route from nicotinamide salvage [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). A total-niacin food measurement does not establish the amount of nicotinic acid. The high-dose niacin study in mitochondrial myopathy does not establish an equivalent effect from ordinary food intake [Pirinen et al. (2020)](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020).
+Nicotinic acid is a form of vitamin B3 that enters synthesis of nicotinamide adenine dinucleotide (NAD⁺) through the Preiss–Handler pathway, a separate route from nicotinamide salvage [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). The high-dose niacin study in mitochondrial myopathy does not establish an equivalent effect from ordinary food intake [Pirinen et al. (2020)](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020).
+
+**Evidence limitations:** Nicotinic acid is a vitamin B3 form used in the Preiss–Handler pathway. Total-niacin measurements do not establish its individual concentration. Hydrolytic extraction can affect the recovered amount and vitamer distribution; results must not automatically be interpreted as native free nicotinic acid ([EN 15652:2009](https://webstore.ansi.org/standards/din/dinen156522009)). Food-composition results do not establish pathway-specific brain uptake or clinical benefit.
 
 ## Recipes
 

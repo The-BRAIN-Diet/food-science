@@ -18,6 +18,9 @@ Stage 2B public copy must:
   and why each admitted dietary input matters;
 - gloss necessary technical terms briefly on first use, and keep the six-atom
   evidence record and Scientific Finding link in the expandable disclosure;
+- follow `system/primary-mechanism-schema.md` **Technical language policy** for
+  first-use scientific abbreviations in independently readable dietary
+  disclosures, tooltips and food-source explanations;
 - describe connected PM relationships and dependencies in public scientific
   language, and display always-visible contextual indicators where required
   (including `Supply: PM1` beside Tyrosine);

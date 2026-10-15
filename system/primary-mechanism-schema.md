@@ -405,6 +405,14 @@ PhD-level knowledge. Do not delete substantive science to simplify.
 
 Do **not** introduce uncommon specialist terms without a short plain-English gloss in brackets on first use.
 
+On first meaningful use within a reader-facing context, spell out the full preferred scientific name followed by its abbreviation in parentheses. Subsequent occurrences within the same continuous reading context may use the abbreviation alone.
+
+Apply this independently to each PM page and to content that may be encountered without preceding text, including expandable Scientific Findings, dietary disclosures, tooltips and standalone food-source explanations.
+
+Do not automatically repeat full expansions in every sentence or every underlying evidence field. Use canonical preferred terminology and preserve scientific precision.
+
+Do not change atom IDs, `derived_target` values, citation keys, evidence provenance or six-atom records solely to satisfy display wording.
+
 Examples: Ketones (alternative energy molecules produced from fat); Substrate (the biological material used to fuel or build a process); Taxa (groups of related microorganisms); Excitotoxicity (cell damage caused by excessive excitatory signalling); Glycaemic variability (fluctuations in blood glucose over time); Short-chain fatty acids (beneficial microbial metabolites produced from fibre); One-carbon metabolism (the biochemical network that transfers methyl groups between molecules).
 
 Do **not** over-explain common biological terms. Definitions stay concise.
