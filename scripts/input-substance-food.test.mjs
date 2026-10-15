@@ -2,8 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import os from 'node:os';
 import matter from 'gray-matter';
 import { buildInputSubstanceFood, selectQuantified } from './lib/input-substance-food.mjs';
+import { readRegisteredSubstanceForms } from './lib/substance-input-pages.mjs';
 const root = process.cwd(), d = buildInputSubstanceFood(root), byId = new Map(d.relationships.map(r => [r.id, r]));
 test('every accepted structured BRS1 lever is present once, or explicitly unresolved', () => { for (const pm of d.coverage) {
     const a = matter(fs.readFileSync(pm.record, 'utf8')).data;
@@ -377,4 +379,100 @@ test('PM2 transport inputs retain upstream supply and food links across section 
   assert.ok(r.upstream[0].relationship_ids.length);
   assert.ok(b.food_sources.some(f=>f.substance_id===r.substance_id));
  }
+});
+
+// These synthetic composition observations exist only in disposable fixtures.
+function b3IdentityFixture(t, supplementary = []) {
+ const dir=fs.mkdtempSync(path.join(os.tmpdir(),'b3-form-identity-'));
+ t.after(()=>fs.rmSync(dir,{recursive:true,force:true}));
+ const copy=file=>{fs.mkdirSync(path.dirname(path.join(dir,file)),{recursive:true});fs.copyFileSync(path.join(root,file),path.join(dir,file));};
+ for(const file of ['registry/substances.json','docs/substances/nutrients/micronutrients/vitamins/vitamin-b3.md','src/data/nutritionTableMapping.ts','docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx']) copy(file);
+ const chicken=matter(fs.readFileSync(path.join(root,'docs/foods/chicken.md'),'utf8')).data;
+ chicken.substance_relationships=[];
+ chicken.nutrition_supplementary_sources=supplementary;
+ fs.mkdirSync(path.join(dir,'docs/foods'),{recursive:true});
+ fs.writeFileSync(path.join(dir,'docs/foods/chicken.md'),matter.stringify('',chicken));
+ const family={pm_id:'BRS4-FM1-PM99',parent_fm:'BRS4(FM1)',dietary_input_traceability:[{atom_id:'FAMILY',input:'Vitamin B3',input_type:'precursor',dietary_input:true}],dietary_lever_atoms:[{atom_id:'FAMILY',requirement_classification:'direct'}],dietary_lever_presentations:[{atom_id:'FAMILY',label:'Vitamin B3',presentation_section:'3.1.1'}]};
+ fs.writeFileSync(path.join(dir,'docs/biological-targets/brs4/fm1/fixture-family.mdx'),matter.stringify('',family));
+ return dir;
+}
+
+test('B3 forms resolve independently with shared documentation and no invented food values',()=>{
+ const b=buildInputSubstanceFood(root,{brs:'BRS4'});
+ const nad=b.relationships.filter(r=>r.pm==='BRS4-FM1-PM2');
+ assert.deepEqual(nad.map(r=>[r.id,r.substance_id,r.identity_status,r.dietary_input,r.relationship_type.classification]),[
+  ['BRS4-FM1-PM2::PM2-DIT-1','nicotinamide','resolved',true,'direct'],
+  ['BRS4-FM1-PM2::PM2-DIT-2','nicotinic-acid','resolved',true,'direct'],
+  ['BRS4-FM1-PM2::PM2-DIT-3','tryptophan','resolved',true,'derived'],
+ ]);
+ assert.equal(nad[2].derived_target_atom_id,nad[0].id);
+ assert.equal(nad[2].derived_target,nad[0].input);
+ for(const r of nad.slice(0,2)){
+  assert.equal(b.food_sources.filter(f=>f.substance_id===r.substance_id).length,0);
+  assert.ok(r.substance_page.endsWith('#'+r.substance_id));
+  assert.ok(r.presentations.every(p=>p.section==='3.1.1'));
+ }
+ assert.equal(b.food_sources.filter(f=>f.substance_id==='tryptophan').length,3);
+ const forms=readRegisteredSubstanceForms(root);
+ for(const id of ['nicotinamide','nicotinic-acid']){
+  assert.equal(forms.get(id).parent_substance_id,'vitamin-b3');
+  assert.equal(forms.get(id).documented,true);
+ }
+ // Existing standalone identities retain their original public destinations.
+ assert.equal(b.substances.find(s=>s.id==='tryptophan').page,'/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan');
+});
+
+test('B3 family aliases and total-niacin amounts never become form identities or amounts',t=>{
+ const dir=b3IdentityFixture(t);
+ const pmFile=path.join(dir,'docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx');
+ const pm=matter(fs.readFileSync(pmFile,'utf8'));
+ pm.data.dietary_input_traceability[0].input='Niacinamide';
+ pm.data.dietary_input_traceability[1].input='Nicotinic acid';
+ fs.writeFileSync(pmFile,matter.stringify(pm.content,pm.data));
+ const b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ assert.equal(b.relationships.find(r=>r.input==='Niacinamide').substance_id,'nicotinamide');
+ assert.equal(b.relationships.find(r=>r.input==='Nicotinic acid').substance_id,'nicotinic-acid');
+ assert.equal(b.relationships.find(r=>r.pm==='BRS4-FM1-PM99').substance_id,'vitamin-b3');
+ assert.ok(b.food_sources.some(f=>f.substance_id==='vitamin-b3'&&f.observations.length));
+ assert.equal(b.food_sources.some(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id)),false);
+ assert.deepEqual(b.conflicts.filter(c=>/alias/.test(c.kind)),[]);
+});
+
+test('B3 form observations keep independent provenance and explicitly unknown preparation',t=>{
+ const rows=[
+  {key:'fixture_nam',label:'Nicotinamide',substance_id:'nicotinamide',value:1.25,unit:'mg',basis:'per 100 g test material',preparation_state:null,source_url:'https://example.org/fixture-nam',source_note:'Synthetic method fixture; preparation is unknown.'},
+  {key:'fixture_na',label:'Nicotinic acid',substance_id:'nicotinic-acid',value:25,unit:'µg',basis:'per 100 g test material',preparation_state:'cooked',source_url:'https://example.org/fixture-na',source_note:'Separate synthetic observation.'},
+  {key:'fixture_nam_unknown',label:'Nicotinamide',substance_id:'nicotinamide',status:'Present — quantity not established',preparation_state:'unknown',source_url:'https://example.org/fixture-presence',source_note:'Synthetic qualitative observation; no quantitative result.'},
+ ];
+ const dir=b3IdentityFixture(t,rows),b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ const nam=b.food_sources.find(f=>f.substance_id==='nicotinamide'&&f.preparation===null);
+ assert.ok(nam);assert.equal(nam.observations[0].value,1.25);assert.equal(nam.observations[0].unit,'mg');
+ assert.equal(nam.observations[0].basis,rows[0].basis);assert.equal(nam.observations[0].source_url,rows[0].source_url);
+ assert.equal(nam.observations[0].rank_eligible,false);
+ const na=b.food_sources.find(f=>f.substance_id==='nicotinic-acid');
+ assert.equal(na.preparation,'cooked');assert.equal(na.observations[0].value,25);assert.equal(na.observations[0].unit,'µg');
+ assert.equal(na.observations[0].source_url,rows[1].source_url);
+ const unknown=b.food_sources.find(f=>f.substance_id==='nicotinamide'&&f.preparation==='unknown');
+ assert.ok(unknown);assert.deepEqual(unknown.observations,[]);
+ const family=b.food_sources.filter(f=>f.substance_id==='vitamin-b3');
+ assert.equal(family.length,1);assert.deepEqual(family[0].observations.map(o=>o.value),[6.801]);
+});
+
+test('registered B3 identity is independent of documentation availability; links still verify',t=>{
+ const dir=b3IdentityFixture(t),page=path.join(dir,'docs/substances/nutrients/micronutrients/vitamins/vitamin-b3.md');
+ fs.writeFileSync(page,fs.readFileSync(page,'utf8').replace('{#nicotinamide}','{#different-anchor}'));
+ let b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ let nam=b.relationships.find(r=>r.substance_id==='nicotinamide');
+ assert.equal(nam.identity_status,'resolved');assert.equal(nam.substance_page,null);
+ assert.ok(b.gaps.some(g=>g.kind==='substance-documentation'&&g.substance_id==='nicotinamide'));
+ fs.appendFileSync(page,'\n## Duplicate {#nicotinic-acid}\n');
+ assert.equal(readRegisteredSubstanceForms(dir).get('nicotinic-acid').href,null);
+ fs.rmSync(page);
+ b=buildInputSubstanceFood(dir,{brs:'BRS4'});
+ nam=b.relationships.find(r=>r.substance_id==='nicotinamide');
+ assert.equal(nam.identity_status,'resolved');assert.equal(nam.substance_page,null);
+ const registryFile=path.join(dir,'registry/substances.json'),registry=JSON.parse(fs.readFileSync(registryFile,'utf8'));
+ registry.nicotinamide.parent_substance_id='unregistered-family';
+ fs.writeFileSync(registryFile,JSON.stringify(registry));
+ assert.throws(()=>readRegisteredSubstanceForms(dir),/Invalid registered nutrient form/);
 });

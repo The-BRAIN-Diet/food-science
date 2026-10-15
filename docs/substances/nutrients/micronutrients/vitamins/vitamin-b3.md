@@ -1,6 +1,6 @@
 ---
 id: vitamin-b3
-title: Vitamin B3 (Niacin; Niacinamide)
+title: Vitamin B3 (Niacin)
 sidebar_label: Vitamin B3 (Niacin)
 description: NAD+ precursor; supports mitochondrial biogenesis and ATP production
 tags:
@@ -20,7 +20,15 @@ inchi_image: /img/inchi/PVNIIMVLHYAWGP-UHFFFAOYSA-N.png
 
 ## Overview
 
-Vitamin B3, also known as niacin or niacinamide, is a water-soluble vitamin that serves as a precursor to NAD⁺ (nicotinamide adenine dinucleotide), a central coenzyme in cellular energy metabolism. NAD⁺ is essential for oxidative phosphorylation, acting as an electron carrier that enables ATP generation in mitochondria. Niacin also supports sirtuin signalling and mitochondrial biogenesis, making it important for neuronal energy metabolism. As part of the broader B-vitamin group, niacin works interdependently with other B vitamins to support brain energy production and neurochemical synthesis [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016).
+Vitamin B3 (niacin) is a water-soluble vitamin family that includes nicotinamide (niacinamide) and nicotinic acid. These forms supply precursors for nicotinamide adenine dinucleotide (NAD⁺), a central coenzyme in cellular energy metabolism. NAD⁺ is essential for oxidative phosphorylation, acting as an electron carrier that enables ATP generation in mitochondria. Niacin also supports sirtuin signalling and mitochondrial biogenesis, making it important for neuronal energy metabolism. As part of the broader B-vitamin group, niacin works interdependently with other B vitamins to support brain energy production and neurochemical synthesis [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016).
+
+## Nicotinamide {#nicotinamide}
+
+Nicotinamide, also called niacinamide, is a form of vitamin B3. Cells recycle it through the salvage pathway to replenish nicotinamide adenine dinucleotide (NAD⁺) [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). It is chemically distinct from nicotinic acid. A total-niacin food measurement does not establish the amount of nicotinamide.
+
+## Nicotinic acid {#nicotinic-acid}
+
+Nicotinic acid is a form of vitamin B3 that enters synthesis of nicotinamide adenine dinucleotide (NAD⁺) through the Preiss–Handler pathway, a separate route from nicotinamide salvage [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). A total-niacin food measurement does not establish the amount of nicotinic acid. The high-dose niacin study in mitochondrial myopathy does not establish an equivalent effect from ordinary food intake [Pirinen et al. (2020)](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020).
 
 ## Recipes
 

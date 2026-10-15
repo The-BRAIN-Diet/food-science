@@ -37,7 +37,37 @@ function aliasesFromTitle(title) {
   return names;
 }
 
-export function buildSubstanceInputPages() {
+/** Registered nutrient forms own their identity; the parent supplies documentation only. */
+export function readRegisteredSubstanceForms(root = ROOT) {
+  const registry = JSON.parse(fs.readFileSync(path.join(root, "registry/substances.json"), "utf8"));
+  const forms = new Map();
+  for (const [id, entry] of Object.entries(registry)) {
+    if (!entry?.parent_substance_id) continue;
+    const parent = registry[entry.parent_substance_id];
+    if (!parent?.path || parent.parent_substance_id || entry.parent_substance_id === id ||
+        (entry.path && entry.path !== parent.path) || !entry.title ||
+        (entry.aliases !== undefined && !Array.isArray(entry.aliases)) ||
+        !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(entry.page_anchor || "")) {
+      throw new Error(`Invalid registered nutrient form: ${id}`);
+    }
+    const file = `docs/substances/${parent.path}`;
+    const full = path.join(root, file);
+    const document = fs.existsSync(full) ? matter(fs.readFileSync(full, "utf8")) : null;
+    // Explicit anchors remain stable when the reader-facing heading changes.
+    const anchors = document?.content.matchAll(/^#{1,6}\s+.+?\s+\{#([a-z0-9-]+)\}\s*$/gm) || [];
+    const documented = document?.data.id === entry.parent_substance_id &&
+      [...anchors].filter(match => match[1] === entry.page_anchor).length === 1;
+    forms.set(id, {
+      id, title: entry.title, aliases: entry.aliases || [],
+      parent_substance_id: entry.parent_substance_id,
+      file, documented,
+      href: documented ? `/docs/substances/${parent.path.replace(/\.mdx?$/, "")}#${entry.page_anchor}` : null,
+    });
+  }
+  return forms;
+}
+
+export function buildSubstanceInputPages(root = ROOT) {
   const pages = new Map();
   const dropped = [];
   const add = (name, href) => {
@@ -52,9 +82,9 @@ export function buildSubstanceInputPages() {
     if (!dropped.includes(key)) pages.set(key, href);
   };
 
-  for (const file of walk(path.join(ROOT, "docs/substances"))) {
+  for (const file of walk(path.join(root, "docs/substances"))) {
     const { data } = matter(fs.readFileSync(file, "utf8"));
-    const href = `/docs/${path.relative(path.join(ROOT, "docs"), file).replace(/\.mdx?$/, "").split(path.sep).join("/")}`;
+    const href = `/docs/${path.relative(path.join(root, "docs"), file).replace(/\.mdx?$/, "").split(path.sep).join("/")}`;
     const names = [
       data.title,
       data.sidebar_label,
@@ -62,6 +92,11 @@ export function buildSubstanceInputPages() {
       ...aliasesFromTitle(data.title),
     ];
     for (const name of names) add(name, href);
+  }
+
+  for (const form of readRegisteredSubstanceForms(root).values()) {
+    if (!form.href) continue;
+    for (const name of [form.id.replace(/-/g, " "), form.title, ...form.aliases]) add(name, form.href);
   }
 
   return Object.fromEntries([...pages.entries()].sort(([a], [b]) => a.localeCompare(b)));

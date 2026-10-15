@@ -14,6 +14,33 @@ Food pages remain under `system/food-page-schema.md`. Substance pages follow the
 
 ## Design principle
 
+### Registered nutrient forms with shared documentation
+
+Canonical chemical identity and public documentation are separate. A registered
+nutrient form may use its own registry ID, `title` and `aliases`, with
+`parent_substance_id` naming an existing standalone nutrient family and
+`page_anchor` naming an explicit stable heading on that family's page. Its
+optional `path` must equal the parent's existing path. This extension does not
+create another public page or change the parent's canonical ID or URL.
+
+For the vitamin B3 pilot, `nicotinamide` and `nicotinic-acid` belong to
+`vitamin-b3` and link to `#nicotinamide` and `#nicotinic-acid`. Niacinamide is an
+alias of nicotinamide, not the B3 family. Form identity comes only from the
+explicit registry entry; do not copy the documentation page's title, aliases,
+food observations, PM relationships or dietary admissions. Registered identity
+remains valid if documentation is missing; report a documentation gap separately
+and omit an unverifiable public link. Existing standalone-page resolution stays
+unchanged. This is not a change to KC identity validation.
+
+Food observations continue to use the existing food composition records and
+explicit substance IDs. Total niacin, individual B3 forms and niacin equivalents
+are different analytes; family membership supplies no quantity or aggregation
+rule in either direction. Each observation retains its own source, unit, basis,
+material, preparation and analytical limitations. An explicitly unknown
+`preparation_state` must not inherit the food's general preparation. Laboratory
+extraction conditions are analytical metadata, not food preparation. This pilot
+does not admit the Çatak measurements or implement the Advanced food tab.
+
 Substance pages record **chemical identity**, **dietary origin**, and **evidence attributed at the level studied** (isolated compound, glycoside, extract, food, standardised extract, supplemental formulation, or combination formulation). Do not treat a food trial as a substance trial, or a family-level finding as an isolated-compound finding.
 
 The default public view is **Nutritional Highlights**. Longer biological research belongs in **Advanced Nutrition**. Condition-specific evidence belongs in **Therapeutic Area Research**. Those two panels must not leak headings into the Highlights table of contents or duplicate the default view.
