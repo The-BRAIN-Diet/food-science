@@ -5,7 +5,7 @@ import ScientificFinding, {type ScientificFindingData} from '../ScientificFindin
 import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';
 import styles from './styles.module.css';
 import {curatedSourcesFor, withPreviewCuratedSources, preparePreviewDisclosure, previewCuratedReferences} from './curatedSources.mjs';
-import {sf1Conclusion, sf2Audit} from './assessmentAudit.mjs';
+import {audit, sf1Conclusion, sf2Audit} from './assessmentAudit.mjs';
 
 // One reusable synthetic fixture. It is not a scientific scoring record.
 const layoutExample = Object.freeze({score: 6, label: 'Moderate–High', factors: 'D2/B2/P2/R0'});
@@ -24,13 +24,13 @@ export function PreviewIntro() {
 export function CalibrationFinding({finding}: {finding: ScientificFindingData}) {
   return <div className={styles.finding} data-sec-finding={finding.id}>
     <div className={styles.confidence}>
-      <strong>{finding.id} · {finding.id === 'PM9-F2' ? 'Conditional SEC estimate — under calibration' : 'Assessment pending'}</strong>
-      {finding.id === 'PM9-F2' ? <EvidenceConfidenceIndicator score={sf2Audit.conditional.adjustedScore} srPrefix="Conditional SEC estimate — under calibration" /> : <EvidenceConfidenceIndicator />}
+      <strong>{finding.id} · {['PM9-F1', 'PM9-F2'].includes(finding.id) ? 'Conditional SEC estimate — under calibration' : 'Assessment pending'}</strong>
+      {finding.id === 'PM9-F1' ? <EvidenceConfidenceIndicator score={audit.conditional.adjustedScore} srPrefix="Conditional SEC estimate — under calibration" /> : finding.id === 'PM9-F2' ? <EvidenceConfidenceIndicator score={sf2Audit.conditional.adjustedScore} srPrefix="Conditional SEC estimate — under calibration" /> : <EvidenceConfidenceIndicator />}
       {finding.id === 'PM9-F1' && <a href="?review=1#gaba-sf1-assessment-v1">Evidence &amp; Audit assessment</a>}
       {finding.id === 'PM9-F2' && <a href="?review=1#gaba-sf2-assessment-v1">Evidence &amp; Audit assessment</a>}
     </div>
     <ScientificFinding finding={finding.id === 'PM9-F1' ? {...finding,
-      synthesised_evidence_confidence: 'Not scored — precision and replication unresolved',
+      synthesised_evidence_confidence: audit.status,
       finding_summary: sf1Conclusion,
     } : finding.id === 'PM9-F2' ? {...finding, synthesised_evidence_confidence: sf2Audit.status} : finding} />
     {finding.id === 'PM9-F1' && <p id="pm9-f1-curated">Elementary reaction and cofactor annotations: <a href="#pm-curated-1">[C1]</a>, <a href="#pm-curated-2">[C2]</a>, <a href="#pm-curated-3">[C3]</a>, <a href="#pm-curated-4">[C4]</a>, <a href="#pm-curated-5">[C5]</a>. The biochemical shorthand is L-glutamate → GABA + CO₂; Rhea explicitly includes the proton. These records establish reaction identity and cofactor participation; isoform regulation and physiological interpretation retain PM9-F1’s peer-reviewed synthesis and limitations.</p>}

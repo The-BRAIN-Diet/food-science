@@ -26,7 +26,7 @@ export default function EvidenceAudit({panelId}: {panelId: string}) {
       <div className="brs-fm-hub-shell">
         <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
           <span className="brs-fm-hub-chevron" aria-hidden="true" />
-          <strong>{audit.findingId} · {'title' in audit ? audit.title : 'GAD cofactor occupancy'} · {conditional ? 'Conditional 5/8 · under calibration' : 'Not scored'} · {audit.lastEvidenceAssessmentDate || 'Date not recorded'}</strong>
+          <strong>{audit.findingId} · {'title' in audit ? audit.title : 'GAD cofactor occupancy'} · {conditional ? `Conditional ${conditional.adjustedScore}/8 · under calibration` : 'Not scored'} · {audit.lastEvidenceAssessmentDate || 'Date not recorded'}</strong>
         </button>
         <div className="brs-fm-hub-panel" hidden>
           <p><a href={`?review=0#${audit.findingId.toLowerCase()}`}>{audit.findingId}</a> · {audit.status} {conditional ? <EvidenceConfidenceIndicator score={conditional.adjustedScore} srPrefix="Conditional SEC estimate — under calibration" /> : <EvidenceConfidenceIndicator />}</p>

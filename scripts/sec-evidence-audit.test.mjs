@@ -18,10 +18,10 @@ test('versioned audit preserves exact proposition, unresolved factors and source
   const f1 = canonical.scientific_findings.find(f => f.id === audit.findingId);
   assert.equal(audit.canonicalProposition, f1.finding_statement);
   assert.match(audit.proposition,/suggests potentially recruitable/);
-  assert.equal(audit.recordVersion, 3);
+  assert.equal(audit.recordVersion, 4);
   assert.equal(audit.proposition, sf1Conclusion);
   assert.match(read('src/components/SecCalibrationPreview/index.tsx'), /finding_summary: sf1Conclusion/);
-  assert.deepEqual(audit.factors, {D:1, B:1, P:null, R:null});
+  assert.deepEqual(audit.factors, {D:1, B:null, P:null, R:null});
   assert.equal(audit.rawScore, null); assert.equal(audit.adjustedScore, null);
   assert.equal(audit.lastEvidenceAssessmentDate, '2026-10-17');
   assert.equal(audit.reviewer, null); assert.equal(audit.methodology.version, null);
@@ -31,10 +31,32 @@ test('versioned audit preserves exact proposition, unresolved factors and source
   assert.match(audit.sources.contradictoryAssessment, /absence is not established/);
   assert.ok(audit.history.length); assert.equal(audit.discussionUrl, null);
   assert.equal(audit.workingEstimate,undefined);
-  assert.match(audit.status,/^Not scored/);
-  assert.equal(audit.sources.targetedChecks.length,4);
-  assert.ok(audit.sources.targetedChecks.every(source=>/abstract only/i.test(source.access)));
+  assert.match(audit.status,/Conditional SEC estimate — under calibration.*formal SEC Not scored/);
+  assert.equal(audit.sources.targetedChecks.length,5);
+  assert.ok(audit.sources.targetedChecks.slice(1).every(source=>/abstract only/i.test(source.access)));
   assert.match(audit.sources.targetedChecks.find(s=>s.doi==='10.1042/bj2310695').assessment,/not a verified independent replication/);
+});
+
+test('SF1 conditional reassessment preserves withdrawal history and formal unknowns', () => {
+  assert.deepEqual(audit.conditional.factors,{D:1,B:1,P:1,R:1});
+  assert.equal(Object.values(audit.conditional.factors).reduce((a,b)=>a+b,0),4);
+  assert.equal(audit.conditional.rawScore,4); assert.equal(audit.conditional.adjustedScore,4);
+  assert.equal(audit.conditional.label,'Low–Moderate');
+  for (const factor of ['B','P','R']) assert.equal(audit.conditional.statuses[factor],'Conditional');
+  assert.match(audit.conditional.caps,/ceiling of 5/);
+  assert.equal(audit.history.length,4);
+  assert.match(audit.history[2].decision,/withdrew/);
+  assert.match(audit.history[3].decision,/recovering Kaufman/);
+  assert.match(audit.rationale.R,/Independent replication was not established in this assessment\./);
+  assert.match(audit.rationale.P,/numerical table cells/);
+  const recovered=audit.sources.targetedChecks[0];
+  assert.equal(recovered.doi,'10.1111/j.1471-4159.1991.tb08211.x');
+  assert.match(recovered.access,/full text read in full/);
+  assert.match(recovered.assessment,/not observed human physiological reserve or dietary response/);
+  const component=read('src/components/SecCalibrationPreview/index.tsx');
+  assert.match(component,/score=\{audit.conditional.adjustedScore\}/);
+  assert.match(component,/synthesised_evidence_confidence: audit.status/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/conditional.adjustedScore\}\/8/);
 });
 test('three status surfaces and original correction panel remain separate', () => {
   const panel = read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
