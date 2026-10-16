@@ -15,6 +15,8 @@ import {
 } from "@site/src/data/frameworkQcPublic"
 import {usePageContentTabs} from "@site/src/components/AdvancedNutrition"
 import PageReviewPanel from "./PageReviewPanel"
+import EvidenceAudit from "../SecCalibrationPreview/EvidenceAudit"
+import {isAuditPreview} from "../SecCalibrationPreview/assessmentAudit.mjs"
 import OpenIssuesPanel from "./OpenIssuesPanel"
 import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
 import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
@@ -44,6 +46,7 @@ export default function DocUtilityBar({
 }): ReactNode {
   const {metadata, frontMatter} = useDoc()
   const location = useLocation()
+  const auditPreview = isAuditPreview(location.pathname)
   const history = useHistory()
   const fm = (frontMatter || {}) as Record<string, unknown>
   const registeredPage = useMemo(
@@ -81,7 +84,7 @@ export default function DocUtilityBar({
   const pmId = typeof fm.pm_id === "string" ? fm.pm_id : ""
   const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
   const showOpenIssuesTab = isPmPage && openIssueCount > 0
-  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage)
+  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage || auditPreview)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
   const params = new URLSearchParams(location.search)
@@ -108,7 +111,7 @@ export default function DocUtilityBar({
     params.get(ADVANCED_QUERY_PARAM) === "1"
   const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen
   const qcLabel =
-    openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+    auditPreview ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
   const issuesLabel = `Open Issues (${openIssueCount})`
 
   useLayoutEffect(() => {
@@ -365,7 +368,7 @@ export default function DocUtilityBar({
         <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
       ) : null}
       {reviewOpen ? (
-        <PageReviewPanel page={page} panelId="review-corrections-panel" />
+        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}
       {advancedOpen && contentSlots?.panels.advanced ? (
         <div

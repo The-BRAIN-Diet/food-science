@@ -1,0 +1,94 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import matter from 'gray-matter';
+import {audit, sf2Audit, isAuditPreview, sf1Conclusion} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
+
+const read = path => fs.readFileSync(path, 'utf8');
+test('audit routing applies only to isolated preview, including trailing slash', () => {
+  assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba'), true);
+  assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba/'), true);
+  for (const path of ['/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity','/docs/system/sec-calibration/gaba-other','/docs/foods/eggs']) assert.equal(isAuditPreview(path), false);
+  const bar = read('src/components/ReviewCorrections/DocUtilityBar.tsx');
+  assert.match(bar, /auditPreview \? "Evidence & Audit"/);
+  assert.match(bar, /auditPreview \? <EvidenceAudit[\s\S]*: <PageReviewPanel/);
+});
+test('versioned audit preserves exact proposition, unresolved factors and source identities', () => {
+  const canonical = matter(read('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx')).data;
+  const f1 = canonical.scientific_findings.find(f => f.id === audit.findingId);
+  assert.equal(audit.canonicalProposition, f1.finding_statement);
+  assert.match(audit.proposition,/suggests potentially recruitable/);
+  assert.equal(audit.recordVersion, 3);
+  assert.equal(audit.proposition, sf1Conclusion);
+  assert.match(read('src/components/SecCalibrationPreview/index.tsx'), /finding_summary: sf1Conclusion/);
+  assert.deepEqual(audit.factors, {D:1, B:1, P:null, R:null});
+  assert.equal(audit.rawScore, null); assert.equal(audit.adjustedScore, null);
+  assert.equal(audit.lastEvidenceAssessmentDate, '2026-10-17');
+  assert.equal(audit.reviewer, null); assert.equal(audit.methodology.version, null);
+  assert.deepEqual(audit.sources.supporting, f1.evidence_considered.map(e => e.citation_key));
+  assert.deepEqual(audit.sources.contextual, f1.connected_supportive_evidence.map(e => e.citation_key));
+  assert.ok(audit.sources.retrievalLimited.length);
+  assert.match(audit.sources.contradictoryAssessment, /absence is not established/);
+  assert.ok(audit.history.length); assert.equal(audit.discussionUrl, null);
+  assert.equal(audit.workingEstimate,undefined);
+  assert.match(audit.status,/^Not scored/);
+  assert.equal(audit.sources.targetedChecks.length,4);
+  assert.ok(audit.sources.targetedChecks.every(source=>/abstract only/i.test(source.access)));
+  assert.match(audit.sources.targetedChecks.find(s=>s.doi==='10.1042/bj2310695').assessment,/not a verified independent replication/);
+});
+test('three status surfaces and original correction panel remain separate', () => {
+  const panel = read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
+  for (const label of ['Evidence review status','SEC assessment status and confidence','Correction status','Assessment date:','Reviewer','Methodology']) assert.ok(panel.includes(label));
+  assert.match(panel, /<PageReviewPanel page=\{page\}/);
+  assert.match(panel, /findPublicPageRecord\(\{pageId: audit.pmId\}\)/);
+  assert.match(panel, /reviewStatusLabel\(page.review_status\)/);
+  assert.match(panel, /Not recorded/);
+  const finding = read('src/components/SecCalibrationPreview/index.tsx');
+  assert.match(finding, /\?review=1#gaba-sf1-assessment-v1/);
+  assert.match(panel, /id=\{audit.id\}/);
+  assert.match(panel, /audit.findingId.toLowerCase\(\)/);
+  assert.match(finding, /<EvidenceConfidenceIndicator \/>/);
+  assert.doesNotMatch(finding, /score=\{illustrative/);
+  assert.doesNotMatch(finding, /workingEstimate|Provisional working estimate/);
+  assert.match(panel,/className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub/);
+  assert.match(panel,/className="brs-fm-hub-summary" aria-expanded="false"/);
+  assert.match(panel,/className="brs-fm-hub-panel" hidden/);
+  assert.match(panel,/initBrsFmHubDropdowns\(root.current\)/);
+  assert.doesNotMatch(panel,/<details|useState|onClick/);
+});
+
+test('SF2 conditional score cannot masquerade as a formal SEC calculation', () => {
+  assert.deepEqual(sf2Audit.factors,{D:2,B:null,P:null,R:null});
+  assert.equal(sf2Audit.rawScore,null); assert.equal(sf2Audit.adjustedScore,null);
+  assert.deepEqual(sf2Audit.conditional.factors,{D:2,B:1,P:1,R:1});
+  assert.equal(Object.values(sf2Audit.conditional.factors).reduce((a,b)=>a+b,0),5);
+  assert.equal(sf2Audit.conditional.rawScore,5); assert.equal(sf2Audit.conditional.adjustedScore,5);
+  assert.equal(sf2Audit.conditional.label,'Moderate');
+  for(const factor of ['B','P','R']) assert.equal(sf2Audit.conditional.statuses[factor],'Conditional');
+  assert.match(sf2Audit.status,/Conditional SEC estimate — under calibration/);
+  assert.match(sf2Audit.status,/formal SEC Not scored/);
+  assert.match(sf2Audit.rationale.R,/Independent replication was not established in this assessment\./);
+  assert.match(sf2Audit.proposition,/do not establish physiological zinc limitation, dietary zinc responsiveness or increased human brain GABA synthesis/);
+});
+
+test('SF2 recovery retains species, access and independence limitations', () => {
+  const byDoi=new Map(sf2Audit.sources.targetedChecks.map(s=>[s.doi,s]));
+  assert.match(byDoi.get('10.1074/jbc.m500805200').assessment,/sheep brain/);
+  assert.match(byDoi.get('10.3390/catal10050555').role,/not independent replication/);
+  assert.match(byDoi.get('10.1016/j.pep.2004.04.021').assessment,/MgATP preference/);
+  assert.match(byDoi.get('10.1007/s10534-013-9660-0').access,/abstract/);
+  assert.equal(sf2Audit.sources.retrievalLimited.length,3);
+  assert.ok(sf2Audit.sources.retrievalLimited.every(s=>s.doi&&s.url&&/Missing/i.test(s.limitation)));
+  assert.ok(sf2Audit.stoppingRationale);
+  assert.ok(sf2Audit.recommendation.includes('No canonical rewrite'));
+  const canonical=matter(read('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx')).data;
+  const f2=canonical.scientific_findings.find(f=>f.id==='PM9-F2');
+  assert.equal(f2.synthesised_evidence_confidence,'not-yet-scored');
+  assert.equal(f2.evidence_considered.length,3);
+  const component=read('src/components/SecCalibrationPreview/index.tsx');
+  assert.match(component,/\?review=1#gaba-sf2-assessment-v1/);
+  assert.match(component,/score=\{sf2Audit.conditional.adjustedScore\}/);
+  const compact=component.slice(component.indexOf('function Compact'),component.indexOf('type PreviewAtom'));
+  assert.doesNotMatch(compact,/sf2Audit|score=/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/\[audit, sf2Audit\]\.map/);
+});

@@ -8,3 +8,7 @@
 .rationale summary:focus-visible, .compact a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 3px; }
 .compact { font-size: .85em; color: var(--ifm-font-color-base); }
 @media (max-width: 480px) { .notice, .examples { padding: .7rem; } .confidence { align-items: flex-start; flex-direction: column; } }
+
+.curated { display: block; font-size: .85rem; line-height: 1.6; margin-top: .25rem; overflow-wrap: anywhere; }
+.curated a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 2px; }
+.accession { white-space: nowrap; }

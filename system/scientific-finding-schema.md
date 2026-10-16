@@ -97,6 +97,20 @@ coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation (`findings:check`, page validators, tests) is
 not scientific completion.
 
+### Evidence limitations versus retrieval and assessment limitations
+
+> Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence.
+
+Keep these statements distinct:
+
+- **A. “There is insufficient evidence.”** A statement about the entire scientific literature; it requires a sufficiently comprehensive assessment and cannot follow merely from incomplete searching or inaccessible papers.
+- **B. “Insufficient evidence was identified in this assessment.”** A statement about the evidence actually retrieved and evaluated, without claiming that supporting research does not exist elsewhere.
+- **C. “Independent replication was not established in this assessment.”** A statement that sufficiently independent replication of the exact proposition has not been verified in this assessment.
+
+Use the existing Stage 2A report to record searches and retrieved evidence, pivotal evidence assessed, inaccessible sources, supporting/contradictory/contextual evidence, whether independent replication was verified, and which uncertainties arise from incomplete retrieval rather than demonstrated scientific weakness. Preserve the exact assessed proposition and bounded-search stopping rationale.
+
+**Unknown is not zero.** In provisional SEC assessment, incomplete replication retrieval does not establish R0; that judgement requires an assessed evidence body meeting the rubric's criteria. Inaccessible methods or uncertainty estimates do not establish B0 or P0. Preserve unresolved factors, avoid unjustified confidence downgrades, and retain Not scored unless all four factor judgements are defensible. This clarification adds no scoring anchors, formula or admission threshold.
+
 ### Completion gate — coverage challenge and targeted second search
 
 Before completing either stage, compare the reviewed evidence against the Mission's defining biological steps and relevant intervention candidates. Trigger a second targeted search when a material step or candidate:

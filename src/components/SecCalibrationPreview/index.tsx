@@ -1,9 +1,11 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useMemo, useState} from 'react';
 import {createPortal} from 'react-dom';
 import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';
 import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';
 import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';
 import styles from './styles.module.css';
+import {curatedSourcesFor, withPreviewCuratedSources, preparePreviewDisclosure, previewCuratedReferences} from './curatedSources.mjs';
+import {sf1Conclusion, sf2Audit} from './assessmentAudit.mjs';
 
 // One reusable synthetic fixture. It is not a scientific scoring record.
 const layoutExample = Object.freeze({score: 6, label: 'Moderate–High', factors: 'D2/B2/P2/R0'});
@@ -20,23 +22,18 @@ export function PreviewIntro() {
 }
 
 export function CalibrationFinding({finding}: {finding: ScientificFindingData}) {
-  const illustrative = finding.id === 'PM9-F1';
   return <div className={styles.finding} data-sec-finding={finding.id}>
     <div className={styles.confidence}>
-      <strong>{finding.id} · {illustrative ? 'Illustrative layout only' : 'Assessment pending'}</strong>
-      <EvidenceConfidenceIndicator score={illustrative ? layoutExample.score : null} srPrefix={illustrative ? 'Illustrative confidence, not a scientific assessment' : 'Evidence confidence'} />
-      {illustrative && <span>SEC {layoutExample.score}/8 — synthetic display value; not assigned to F1.</span>}
+      <strong>{finding.id} · {finding.id === 'PM9-F2' ? 'Conditional SEC estimate — under calibration' : 'Assessment pending'}</strong>
+      {finding.id === 'PM9-F2' ? <EvidenceConfidenceIndicator score={sf2Audit.conditional.adjustedScore} srPrefix="Conditional SEC estimate — under calibration" /> : <EvidenceConfidenceIndicator />}
+      {finding.id === 'PM9-F1' && <a href="?review=1#gaba-sf1-assessment-v1">Evidence &amp; Audit assessment</a>}
+      {finding.id === 'PM9-F2' && <a href="?review=1#gaba-sf2-assessment-v1">Evidence &amp; Audit assessment</a>}
     </div>
-    <details className={styles.rationale}>
-      <summary>Confidence rationale and scope</summary>
-      {illustrative ? <>
-        <p>The bar tests eight-segment placement. A hypothetical D2/B2/P2/R0 totals 6; these factors have not been assigned to this Finding.</p>
-        <p>F1 combines PLP dependence with GAD isoform regulation. A narrow PLP-dependency assessment cannot silently score the full composite statement. Its supporting review must be traced to underlying experiments before bias protection, precision and independent replication can be assessed.</p>
-        <p>Biochemical necessity does not establish that extra dietary B6 increases human brain GABA synthesis or treats ADHD.</p>
-      </> : <p>No proposition-level assessment is available. The canonical synthesis, limitations and study disclosures below remain authoritative.</p>}
-      <a href={findingLink(finding.id)}>Supporting Scientific Finding</a>
-    </details>
-    <ScientificFinding finding={finding} />
+    <ScientificFinding finding={finding.id === 'PM9-F1' ? {...finding,
+      synthesised_evidence_confidence: 'Not scored — precision and replication unresolved',
+      finding_summary: sf1Conclusion,
+    } : finding.id === 'PM9-F2' ? {...finding, synthesised_evidence_confidence: sf2Audit.status} : finding} />
+    {finding.id === 'PM9-F1' && <p id="pm9-f1-curated">Elementary reaction and cofactor annotations: <a href="#pm-curated-1">[C1]</a>, <a href="#pm-curated-2">[C2]</a>, <a href="#pm-curated-3">[C3]</a>, <a href="#pm-curated-4">[C4]</a>, <a href="#pm-curated-5">[C5]</a>. The biochemical shorthand is L-glutamate → GABA + CO₂; Rhea explicitly includes the proton. These records establish reaction identity and cofactor participation; isoform regulation and physiological interpretation retain PM9-F1’s peer-reviewed synthesis and limitations.</p>}
   </div>;
 }
 
@@ -49,9 +46,44 @@ function Compact({kind}: {kind: string}) {
   </span>;
 }
 
+type PreviewAtom = {
+  atom_id: string;
+  input: string;
+  input_type: string;
+  biological_role: string;
+  evidence_source?: {pathway_resources?: string[]; citation_keys?: string[]; finding_ids?: string[]};
+  evidence_limitation: string;
+  dietary_input: boolean | null;
+  dietary_input_note?: string;
+};
+
+function CuratedReferences({atom}: {atom: PreviewAtom}) {
+  const sources = curatedSourcesFor(atom.evidence_source?.pathway_resources);
+  if (!sources.length) return null;
+  return <span className={styles.curated} data-curated-atom={atom.atom_id}>
+    {sources.map((source, index) => <React.Fragment key={`${source.database}:${source.accession}`}>
+      {index > 0 && ' · '}
+      <a id={`curated-cite-${atom.atom_id}-${source.label}`} href={`#${source.anchor}`} title={source.scope}>[{source.label}] {source.database}{' '}<span className={styles.accession}>{source.accession}</span>{source.accession === 'O00764' ? ' (PDXK)' : source.accession === 'Q9NVS9' ? ' (PNPO)' : ''}</a>
+    </React.Fragment>)}
+    {(atom.evidence_source?.finding_ids || []).map(id => <React.Fragment key={id}>{' · '}<a href={findingLink(id)}>{id}</a></React.Fragment>)}
+  </span>;
+}
+
+export function CuratedReferenceList() {
+  return <ul aria-label="Curated biochemical references">{previewCuratedReferences.map(source =>
+    <li id={source.anchor} key={source.anchor}>[{source.label}] {source.database}: {source.title}. {source.accession}. {source.scope} Accessed {source.accessed}.{' '}
+      <a href={source.href} target="_blank" rel="noopener noreferrer">Authoritative record</a>{' · '}
+      <a href={['C6', 'C7', 'C8'].includes(source.label) ? '#curated-cite-PM9-DIT-3-' + source.label : '#curated-cite-PM9-DIT-1-' + source.label}>Return to Evidence source</a>
+      {['C1', 'C2', 'C3', 'C4', 'C5'].includes(source.label) && <> · <a href="#pm9-f1-curated">Return to PM9-F1</a></>}
+    </li>)}</ul>;
+}
+
 // Read existing canonical display data locally; never register preview metadata.
 // The shared enhancer retains six-atom evidence and food-source behavior.
 export function PreviewEnhancements({data}: {data: Record<string, unknown>}) {
+  const previewData = useMemo(() => withPreviewCuratedSources(data), [data]);
+  const atoms = previewData.dietary_input_traceability as PreviewAtom[];
+  const [curatedSlots, setCuratedSlots] = useState<Array<{node: HTMLElement; atom: PreviewAtom}>>([]);
   const [slots, setSlots] = useState<Array<{node: HTMLElement; kind: string}>>([]);
   useEffect(() => {
     const root = document.querySelector('.theme-doc-markdown');
@@ -70,6 +102,18 @@ export function PreviewEnhancements({data}: {data: Record<string, unknown>}) {
         }
         targets.push({node: slot, kind});
       });
+      const evidenceTargets: Array<{node: HTMLElement; atom: PreviewAtom}> = [];
+      // Exact atom IDs are resolved through existing presentation metadata, never similar wording.
+      const presentations = previewData.dietary_lever_presentations as Array<{atom_id: string; label: string; presentation_section: string}>;
+      root.querySelectorAll<HTMLLIElement>('li[data-pm-input-label]').forEach(li => {
+        const presentation = presentations.find(p => p.label === li.dataset.pmInputLabel && p.presentation_section === li.dataset.pmInputSection);
+        const atom = atoms.find(a => a.atom_id === presentation?.atom_id);
+        const detail = li.querySelector<HTMLElement>(':scope > .brs-dietary-lever-detail > .brs-dietary-lever-detail-inner');
+        if (!atom || !detail || !curatedSourcesFor(atom.evidence_source?.pathway_resources).length) return;
+        const slot = preparePreviewDisclosure(li, detail, atom);
+        if (slot) evidenceTargets.push({node: slot, atom});
+      });
+      setCuratedSlots(previous => previous.length === evidenceTargets.length && previous.every((s, i) => s.node === evidenceTargets[i].node && s.atom === evidenceTargets[i].atom) ? previous : evidenceTargets);
       // Legacy intervention lists have no explicit canonical Finding linkage.
       root.querySelectorAll<HTMLElement>('.brs-fm-hub-item').forEach(group => {
         const title = group.querySelector(':scope > .brs-fm-hub-shell > .brs-fm-hub-summary')?.textContent || '';
@@ -88,8 +132,8 @@ export function PreviewEnhancements({data}: {data: Record<string, unknown>}) {
     observer.observe(root, {childList: true, subtree: true});
     update();
     return () => { observer.disconnect(); root.removeAttribute('data-brs'); };
-  }, []);
-  return <><PmDietaryLeverEnhancer frontMatter={data} />{slots.map(({node, kind}, i) => createPortal(<Compact kind={kind} />, node, `${kind}-${i}`))}</>;
+  }, [previewData, atoms]);
+  return <><PmDietaryLeverEnhancer frontMatter={previewData} />{curatedSlots.map(({node, atom}) => createPortal(<CuratedReferences atom={atom} />, node, atom.atom_id))}{slots.map(({node, kind}, i) => createPortal(<Compact kind={kind} />, node, `${kind}-${i}`))}</>;
 }
 
 export function CalibrationExamples() {

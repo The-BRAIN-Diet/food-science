@@ -95,6 +95,8 @@ Before declaring Stage 2B complete, the report must explain why evidence
 coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation is not scientific completion.
 
+Apply [Stage 2A — Evidence limitations versus retrieval and assessment limitations](scientific-finding-schema.md#evidence-limitations-versus-retrieval-and-assessment-limitations) when finalising Scientific Findings and limitations. Preserve its distinction between scientific evidence limitations and incomplete retrieval; missing retrieval is not negative evidence. Preserve the exact assessed proposition and unresolved SEC factors, avoid unjustified confidence downgrades, and distinguish evidence-supported scientific rejection from inability to establish a conclusion in the completed assessment. Inaccessible methods, uncertainty estimates or unverified replication must not automatically become B0, P0 or R0; retain Not scored unless all four factor judgements are defensible. Existing admission rules remain unchanged.
+
 Limitation text remains derived from the adjudication (see §1). That does
 not forbid retrieving the evidence needed to adjudicate the relationship
 itself.
