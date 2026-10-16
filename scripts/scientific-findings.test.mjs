@@ -663,6 +663,65 @@ test("Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-
   assert.match(stage2b, /Do not require clinical benefit to establish a supported dependency/);
 });
 
+test("Stage 2A intervention discovery covers canonical routes without changing ownership", () => {
+  const contract = fs.readFileSync(path.join(root, "system/scientific-finding-schema.md"), "utf8");
+  const coverage = contract.split("### Other intervention routes — mandatory hub coverage and retrieval")[1]
+    ?.split("### Evidence-supported Overview (Stage 2A)")[0];
+  assert.ok(coverage, "Landscape coverage belongs in the existing intervention assessment step");
+  for (const category of [
+    "Food Preparation & Delivery", "Conditional Supplementation", "Dietary & Fasting Protocols",
+    "Light & Circadian Optimisation", "Stress & Autonomic Regulation", "Lifestyle Priorities",
+  ]) {
+    assert.ok(coverage.includes(category), `Screen the canonical category: ${category}`);
+  }
+  assert.match(coverage, /across both SOP and lifestyle routes/);
+  assert.match(coverage, /Screen every canonical SOP hub category and Lifestyle Priorities/);
+  assert.match(coverage, /Within materially relevant categories, investigate the principal intervention families and meaningful alternatives/);
+  assert.match(coverage, /Do not describe an isolated intervention as representative/);
+  assert.match(coverage, /focused intervention assessment may be sufficient/);
+  assert.match(coverage, /Do not require exhaustive searches in irrelevant categories/);
+  assert.match(coverage, /Preserve existing SOP versus lifestyle classification and intervention-dominance contracts/);
+  assert.match(coverage, /do not reclassify an intervention because it appears in both prompt lists/);
+  assert.match(coverage, /Food selection, dietary patterns and preparation do not become lifestyle levers/);
+  assert.match(coverage, /discovery prompts, not replacement taxonomies/);
+  assert.match(coverage, /not a new mandatory research stage/);
+});
+
+test("Stage 2A landscape reporting retains bounded searches and counter-evidence", () => {
+  const contract = fs.readFileSync(path.join(root, "system/scientific-finding-schema.md"), "utf8");
+  const coverage = contract.split("**Proportionate intervention-landscape coverage:**")[1]
+    ?.split("### Evidence-supported Overview (Stage 2A)")[0];
+  assert.ok(coverage);
+  assert.match(coverage, /Reuse the existing Stage 2A report and candidate\/evidence\/rationale\/disposition fields/);
+  assert.match(coverage, /categories screened, families searched, supporting and null evidence, remaining gaps and stopping rationale/);
+  assert.match(coverage, /contradictory\/null-evidence requirement across material families/);
+  assert.match(coverage, /failed target engagement, population-dependent effects, dose-response uncertainty, feasibility and safety limitations/);
+  assert.match(coverage, /Do not count publications from the same cohort as independent replication/);
+});
+
+test("Stage 2A functional translation and hypotheses preserve admission and phenome gates", () => {
+  const contract = fs.readFileSync(path.join(root, "system/scientific-finding-schema.md"), "utf8");
+  const claims = contract.split("### Claim thresholds")[1]
+    ?.split("## PM scope triangulation (headline Finding promotion)")[0];
+  assert.ok(claims, "Translation guidance belongs within existing claim thresholds");
+  assert.match(claims, /Do not require clinical benefit to establish a supported dependency/);
+  assert.match(claims, /For both SOP and lifestyle candidates/);
+  assert.match(claims, /biochemical or molecular target engagement, physiological effects, functional or behavioural outcomes, and clinical outcomes/);
+  assert.match(claims, /without requiring direct ADHD or cognitive outcomes to establish a supported biochemical dependency/);
+  assert.match(claims, /Joint metabolic and cognitive measurement alone does not establish mediation/);
+  assert.match(claims, /Do not infer functional or clinical benefit from a biological endpoint alone/);
+  assert.match(claims, /population and baseline health or metabolic status, exact intervention and comparator, dose\/intensity/);
+  assert.match(claims, /effect estimate and uncertainty where available, null findings, safety limitations and generalisation limits/);
+  assert.match(claims, /Use the existing phenome review process/);
+  assert.match(claims, /does not assign final phenome confidence or confer scientific admission/);
+  assert.match(claims, /supporting and conflicting evidence, unverified causal steps, testable prediction, relevant outcome, major confounders and evidence needed for adjudication/);
+  assert.match(claims, /A hypothesis does not admit a Dietary Requirement, SOP, lifestyle lever, KC relationship or phenome benefit/);
+  assert.match(claims, /Preserve Stage 2B admission thresholds and six-atom governance/);
+  assert.match(claims, /Nutrient composition, food membership or food tags alone do not establish meal-level rules/);
+  assert.match(claims, /food-strategy-rollup-schema\.md/);
+  assert.match(claims, /food-nutrition-schema\.md/);
+});
+
 test("Stage 2A pages publish explained PM connections, not bare links", () => {
   const bare = validatePublishedPmConnectionExplanations(
     "### 5.3 Local BRS Mechanism Relationships\n\n- [BRS1-FM1-PM1 — Title](/docs/biological-targets/brs1/fm1/x)\n",
