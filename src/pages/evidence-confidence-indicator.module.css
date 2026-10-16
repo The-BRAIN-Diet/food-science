@@ -69,7 +69,7 @@
 
 /* Demo-only overrides of the component's segment geometry. */
 .proportionCompact {
-  --brain-evidence-segment-width: 0.875rem;
+  --brain-evidence-segment-width: calc(0.875rem * 2 / 3);
   --brain-evidence-segment-height: 0.625rem;
 }
 

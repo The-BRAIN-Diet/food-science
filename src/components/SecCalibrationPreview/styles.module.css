@@ -1,0 +1,10 @@
+.notice, .examples { padding: 1.1rem; border: 1px solid var(--ifm-color-emphasis-400); border-radius: .5rem; background: var(--ifm-background-surface-color); margin-bottom: 1.5rem; }
+.notice h1 { font-size: 1.7rem; }
+.finding { margin-block: 1.5rem; }
+.confidence { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; padding: .7rem 0; }
+.confidence > span:last-child { font-size: .85rem; }
+.rationale { margin-block: .6rem; padding: .6rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: .4rem; }
+.rationale summary { cursor: pointer; font-weight: 600; }
+.rationale summary:focus-visible, .compact a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 3px; }
+.compact { font-size: .85em; color: var(--ifm-font-color-base); }
+@media (max-width: 480px) { .notice, .examples { padding: .7rem; } .confidence { align-items: flex-start; flex-direction: column; } }
