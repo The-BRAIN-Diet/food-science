@@ -1,17 +1,18 @@
 /*
  * EvidenceConfidenceIndicator
  *
- * Segmented-block gauge. Four fixed positions; the number of filled segments
- * carries the level.
+ * Four grouped blocks, two increments each. The number of filled increments
+ * carries an already-decided SEC score from 1 to 8. A legacy four-level value
+ * still uses one row of four blocks and is not given an eight-level score.
  *
  * Two separate neutral layers, by design:
  *   1. --brain-evidence-indicator-bg  — the surface behind the whole component
  *   2. --brain-evidence-inactive      — the fill of an unreached segment
- * They must never resolve to the same colour, or the four-position structure
- * disappears.
+ * They must never resolve to the same colour, or the increments disappear.
  *
- * All four segments share one geometry block. Only `background` changes between
- * active and inactive.
+ * Every increment shares one geometry. Only `background` changes between
+ * active and inactive. The gap inside a pair is one third tighter than the
+ * gap between the four colour blocks.
  *
  * Geometry reads through --brain-evidence-segment-* with defaults inline, so a
  * wrapper can override the proportions for side-by-side comparison without
@@ -19,10 +20,11 @@
  */
 
 .indicator {
-  --segment-width: var(--brain-evidence-segment-width, 1.125rem);
+  --segment-width: var(--brain-evidence-segment-width, 0.75rem);
   --segment-height: var(--brain-evidence-segment-height, 0.625rem);
   --segment-radius: var(--brain-evidence-segment-radius, 0.0625rem);
-  --segment-gap: var(--brain-evidence-segment-gap, 0.1875rem);
+  --segment-gap: var(--brain-evidence-segment-gap, 0.125rem);
+  --block-gap: var(--brain-evidence-block-gap, 0.375rem);
   --active-fill: var(--brain-evidence-inactive);
 
   box-sizing: border-box;
@@ -37,10 +39,20 @@
   vertical-align: middle;
 }
 
-.segments {
+.segments,
+.blocks,
+.block {
   display: inline-flex;
   align-items: center;
+}
+
+.segments,
+.block {
   gap: var(--segment-gap);
+}
+
+.blocks {
+  gap: var(--block-gap);
 }
 
 .segment {

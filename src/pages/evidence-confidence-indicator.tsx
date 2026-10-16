@@ -1,33 +1,34 @@
-import type { ReactNode } from 'react';
+import type {ReactNode} from 'react';
 import Layout from '@theme/Layout';
 import EvidenceConfidenceIndicator, {
-  EVIDENCE_CONFIDENCE_LEVELS,
-  type EvidenceConfidenceLevel,
+  SEC_DISPLAY_LEVELS,
 } from '@site/src/components/EvidenceConfidenceIndicator';
 import styles from './evidence-confidence-indicator.module.css';
 
-const LEVEL_NOTES: Record<EvidenceConfidenceLevel, string> = {
-  'very-low': '1 active segment (red) + 3 inactive',
-  low: '2 active segments (yellow) + 2 inactive',
-  moderate: '3 active segments (orange) + 1 inactive',
-  high: '4 active segments (green)',
-};
-
-const PROPORTIONS: { name: string; note: string; className: string }[] = [
-  { name: 'Compact', note: '14 x 10px segments', className: styles.proportionCompact },
-  { name: 'Standard', note: '18 x 10px segments (current default)', className: '' },
-  { name: 'Wide gauge', note: '24 x 8px segments', className: styles.proportionWide },
+const PROPORTIONS: {name: string; note: string; className: string}[] = [
+  {name: 'Compact', note: '9.3 × 10px increments', className: styles.proportionCompact},
+  {name: 'Standard', note: '12 × 10px increments', className: ''},
 ];
 
-function StateStack({ grayscale = false }: { grayscale?: boolean }) {
+function StateStack({grayscale = false}: {grayscale?: boolean}) {
   return (
     <div className={grayscale ? styles.stackGrayscale : styles.stack}>
-      {EVIDENCE_CONFIDENCE_LEVELS.map((level) => (
-        <div key={level} className={styles.stackRow}>
-          <EvidenceConfidenceIndicator level={level} />
-          <span className={styles.stackNote}>{LEVEL_NOTES[level]}</span>
+      {SEC_DISPLAY_LEVELS.map((level) => (
+        <div key={level.score} className={styles.stackRow}>
+          <EvidenceConfidenceIndicator score={level.score} />
+          <span className={styles.stackNote}>
+            {level.score}/8 · {level.label} · {level.family}
+          </span>
         </div>
       ))}
+      <div className={styles.stackRow}>
+        <EvidenceConfidenceIndicator />
+        <span className={styles.stackNote}>Missing assessment · Not scored</span>
+      </div>
+      <div className={styles.stackRow}>
+        <EvidenceConfidenceIndicator score={0} />
+        <span className={styles.stackNote}>Raw zero · Not scored, not shown as 1</span>
+      </div>
     </div>
   );
 }
@@ -42,10 +43,7 @@ function ThemePanel({
   children: ReactNode;
 }) {
   return (
-    <section
-      data-theme={theme}
-      className={theme === 'dark' ? styles.panelDark : styles.panelLight}
-    >
+    <section data-theme={theme} className={theme === 'dark' ? styles.panelDark : styles.panelLight}>
       <h3 className={styles.panelTitle}>{title}</h3>
       {children}
     </section>
@@ -56,25 +54,23 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
   return (
     <Layout
       title="Evidence Confidence indicator"
-      description="Development preview of the reusable Evidence Confidence visual indicator in both themes."
+      description="Development preview of the eight-level Synthesised Evidence Confidence indicator."
     >
       <main className="container margin-vert--lg">
         <h1>Evidence Confidence indicator</h1>
         <p className={styles.lede}>
-          Development preview of the reusable <code>EvidenceConfidenceIndicator</code> component. It
-          renders a confidence state that has already been determined elsewhere. It does not
-          calculate, infer or modify any score, and it is not yet used anywhere on the site.
+          Development preview of the reusable <code>EvidenceConfidenceIndicator</code>. It renders a
+          Synthesised Evidence Confidence state that governance has already decided. It does not
+          add directness, bias protection, precision or replication, and the examples below are
+          not scientific findings.
         </p>
         <p className={styles.lede}>
-          The four levels are an ordinal scale. They are not percentages and carry no implied
-          probability.
+          Four grouped blocks each contain two increments. Scores 1–2 are red, 3–4 yellow, 5–6
+          orange, and 7–8 green. A missing assessment or a raw zero stays outside the scale as Not
+          scored.
         </p>
 
-        <h2>All four states, both themes</h2>
-        <p>
-          Each panel forces its own theme so the two can be compared directly, regardless of the
-          theme currently selected in the navbar.
-        </p>
+        <h2>All eight levels, both themes</h2>
         <div className={styles.panelGrid}>
           <ThemePanel theme="light" title="Light page">
             <StateStack />
@@ -84,34 +80,29 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
           </ThemePanel>
         </div>
 
-        <h2>Geometry check</h2>
+        <h2>Four blocks</h2>
         <p>
-          The states are stacked so the segment columns line up. Every block in every column should
-          share one width, one height and one spacing, with only the fill colour changing between
-          active and inactive.
+          The wider gap separates the four colour-family blocks. Only the fill changes between an
+          active increment and a neutral one. Score 6 fills six increments in the orange family.
         </p>
         <div className={styles.panelGrid}>
           <ThemePanel theme="light" title="Light page">
             <div className={styles.geometryStack}>
-              {EVIDENCE_CONFIDENCE_LEVELS.map((level) => (
-                <EvidenceConfidenceIndicator key={level} level={level} />
+              {SEC_DISPLAY_LEVELS.map((level) => (
+                <EvidenceConfidenceIndicator key={level.score} score={level.score} />
               ))}
             </div>
           </ThemePanel>
           <ThemePanel theme="dark" title="Dark page">
             <div className={styles.geometryStack}>
-              {EVIDENCE_CONFIDENCE_LEVELS.map((level) => (
-                <EvidenceConfidenceIndicator key={level} level={level} />
+              {SEC_DISPLAY_LEVELS.map((level) => (
+                <EvidenceConfidenceIndicator key={level.score} score={level.score} />
               ))}
             </div>
           </ThemePanel>
         </div>
 
         <h2>Segment proportions</h2>
-        <p>
-          Three candidate block proportions for comparison. These are set by the demo page only; the
-          component itself ships the standard size and the API is unchanged.
-        </p>
         <div className={styles.panelGrid}>
           {(['light', 'dark'] as const).map((theme) => (
             <ThemePanel key={theme} theme={theme} title={theme === 'dark' ? 'Dark page' : 'Light page'}>
@@ -125,8 +116,8 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
                       {proportion.name} — {proportion.note}
                     </div>
                     <div className={styles.geometryStack}>
-                      {EVIDENCE_CONFIDENCE_LEVELS.map((level) => (
-                        <EvidenceConfidenceIndicator key={level} level={level} />
+                      {SEC_DISPLAY_LEVELS.map((level) => (
+                        <EvidenceConfidenceIndicator key={level.score} score={level.score} />
                       ))}
                     </div>
                   </div>
@@ -138,8 +129,8 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
 
         <h2>Without colour</h2>
         <p>
-          The same states rendered greyscale. Confidence must still be readable from the number of
-          filled segments and the written label alone.
+          The same states in greyscale. The score, the filled increments, and the written label
+          still identify the level.
         </p>
         <div className={styles.panelGrid}>
           <ThemePanel theme="light" title="Light page, greyscale">
@@ -151,16 +142,13 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
         </div>
 
         <h2>In context</h2>
-        <p>
-          The indicator is inline, so it sits inside running text and table cells without changing
-          line height.
-        </p>
+        <p>Illustrative finding lines. These scores are display samples, not adjudicated records.</p>
         <div className={styles.panelGrid}>
           <ThemePanel theme="light" title="Light page">
             <p className={styles.contextParagraph}>
               Circadian misalignment and cortisol disruption{' '}
-              <EvidenceConfidenceIndicator level="moderate" /> is one of several findings that
-              qualify how this mechanism should be read.
+              <EvidenceConfidenceIndicator score={6} /> is one of several findings that qualify how
+              this mechanism should be read.
             </p>
             <table className={styles.contextTable}>
               <thead>
@@ -173,13 +161,19 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
                 <tr>
                   <td>Diurnal cortisol as a timing mechanism</td>
                   <td>
-                    <EvidenceConfidenceIndicator level="high" />
+                    <EvidenceConfidenceIndicator score={7} />
                   </td>
                 </tr>
                 <tr>
                   <td>Gut-related modulation of waking cortisol</td>
                   <td>
-                    <EvidenceConfidenceIndicator level="low" />
+                    <EvidenceConfidenceIndicator score={3} />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Assessment not yet recorded</td>
+                  <td>
+                    <EvidenceConfidenceIndicator />
                   </td>
                 </tr>
               </tbody>
@@ -188,8 +182,8 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
           <ThemePanel theme="dark" title="Dark page">
             <p className={styles.contextParagraph}>
               Circadian misalignment and cortisol disruption{' '}
-              <EvidenceConfidenceIndicator level="moderate" /> is one of several findings that
-              qualify how this mechanism should be read.
+              <EvidenceConfidenceIndicator score={6} /> is one of several findings that qualify how
+              this mechanism should be read.
             </p>
             <table className={styles.contextTable}>
               <thead>
@@ -202,13 +196,19 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
                 <tr>
                   <td>Diurnal cortisol as a timing mechanism</td>
                   <td>
-                    <EvidenceConfidenceIndicator level="high" />
+                    <EvidenceConfidenceIndicator score={7} />
                   </td>
                 </tr>
                 <tr>
                   <td>Gut-related modulation of waking cortisol</td>
                   <td>
-                    <EvidenceConfidenceIndicator level="low" />
+                    <EvidenceConfidenceIndicator score={3} />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Assessment not yet recorded</td>
+                  <td>
+                    <EvidenceConfidenceIndicator />
                   </td>
                 </tr>
               </tbody>
@@ -216,22 +216,33 @@ export default function EvidenceConfidenceIndicatorDemo(): ReactNode {
           </ThemePanel>
         </div>
 
-        <h2>Usage</h2>
+        <h2>Legacy four-level prop</h2>
         <p>
-          The component is registered for MDX, so pages can use it directly. It takes one required
-          prop.
+          The previous <code>level</code> prop still renders four blocks and is not assigned an
+          eight-level score. A stored finding remains <code>not-yet-scored</code> until governance
+          records one.
         </p>
-        <pre className={styles.usageBlock}>
-          <code>{`<EvidenceConfidenceIndicator level="moderate" />
+        <div className={styles.panelGrid}>
+          <ThemePanel theme="light" title="Light page">
+            <EvidenceConfidenceIndicator level="moderate" />
+          </ThemePanel>
+          <ThemePanel theme="dark" title="Dark page">
+            <EvidenceConfidenceIndicator level="moderate" />
+          </ThemePanel>
+        </div>
 
-level: "very-low" | "low" | "moderate" | "high"   (required)
-className: string                                  (optional)
-srPrefix: string                                   (optional, default "Evidence confidence")`}</code>
+        <h2>Usage</h2>
+        <pre className={styles.usageBlock}>
+          <code>{`<EvidenceConfidenceIndicator score={6} />
+<EvidenceConfidenceIndicator score={8} adjustedScore={4} />
+<EvidenceConfidenceIndicator />
+<EvidenceConfidenceIndicator level="moderate" />`}</code>
         </pre>
         <p>
-          Each instance exposes a single accessible label, for example{' '}
-          <em>&ldquo;Evidence confidence: Moderate, level 3 of 4&rdquo;</em>. The individual segments
-          are hidden from assistive technology so they are not announced one by one.
+          A scored indicator exposes one accessible label, for example{' '}
+          <em>&ldquo;Evidence confidence: 6 of 8, Moderate–High&rdquo;</em>. The increments are
+          hidden from assistive technology. An adjusted score replaces the raw total. A missing
+          score is announced as Not scored.
         </p>
       </main>
     </Layout>
