@@ -1,6 +1,17 @@
 import {secLevelForScore} from '../EvidenceConfidenceIndicator/secDisplay.mjs';
 import {secAssessmentStatusErrors} from './assessmentAudit.mjs';
 
+export const secFactors = Object.freeze({
+  D: {name: 'Directness', explanation: 'Does the evidence directly test the scientific conclusion being assessed, or does it require assumptions to connect the results to that conclusion?'},
+  B: {name: 'Bias Protection', explanation: 'How well does the research design and methodology protect against misleading or systematically distorted findings?'},
+  P: {name: 'Precision', explanation: 'How clearly do the measurements and their uncertainty distinguish between different plausible scientific conclusions?'},
+  R: {name: 'Replication', explanation: 'Has the same scientific conclusion been independently supported by other studies or experimental research groups?'},
+});
+
+export function describeFactorScores(text) {
+  return String(text).replace(/\b([DBPR])([0-2])\b/g, (_, factor, score) => `${secFactors[factor].name} ${score}/2`);
+}
+
 export const readerAssessmentLabels = Object.freeze({
   'not-scored': 'Not scored',
   conditional: 'Conditional estimate',

@@ -116,7 +116,7 @@ export const sf2Audit = {
 };
 
 export function isAuditPreview(path) {
-  return String(path).replace(/\/$/, '') === '/docs/system/sec-calibration/gaba';
+  return ['/docs/system/sec-calibration/gaba', '/docs/system/sec-calibration/glycaemic-variability'].includes(String(path).replace(/\/$/, ''));
 }
 
 export const secAssessmentLabels = Object.freeze({

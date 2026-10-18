@@ -1,16 +1,19 @@
 .notice, .examples { padding: 1.1rem; border: 1px solid var(--ifm-color-emphasis-400); border-radius: .5rem; background: var(--ifm-background-surface-color); margin-bottom: 1.5rem; }
 .notice h1 { font-size: 1.7rem; }
 .finding { margin-block: 1.5rem; }
-.confidence { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; padding: .7rem 0; }
+.confidence { display: flex; flex-direction: column; gap: .6rem; align-items: flex-start; padding: .7rem 0; }
 .confidence > span:last-child { font-size: .85rem; }
 .rationale { margin-block: .6rem; padding: .6rem; border: 1px solid var(--ifm-color-emphasis-300); border-radius: .4rem; }
 .rationale summary { cursor: pointer; font-weight: 600; }
 .rationale summary:focus-visible, .compact a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 3px; }
 .compact { font-size: .85em; color: var(--ifm-font-color-base); }
-@media (max-width: 480px) { .notice, .examples { padding: .7rem; } .confidence { align-items: flex-start; flex-direction: column; } }
+@media (max-width: 480px) { .notice, .examples { padding: .7rem; } }
 
 .curated { display: block; font-size: .85rem; line-height: 1.6; margin-top: .25rem; overflow-wrap: anywhere; }
 .curated a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 2px; }
 .accession { white-space: nowrap; }
 .auditSummary { display: flex; flex-direction: column; gap: .25rem; min-width: 0; overflow-wrap: anywhere; }
 .auditSummary time { font-size: .8rem; font-weight: normal; }
+.confidenceLegend { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: .5rem 1rem; list-style: none; padding-left: 0; }
+.factorLegend dt { margin-top: .9rem; }
+.factorLegend dd { margin: .25rem 0 .75rem; }

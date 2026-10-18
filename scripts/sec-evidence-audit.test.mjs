@@ -3,9 +3,19 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import matter from 'gray-matter';
 import {audit, sf2Audit, isAuditPreview, sf1Conclusion, secAssessmentStatusErrors, secAssessmentLabels} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
-import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, readerAssessmentLabels} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
+import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, readerAssessmentLabels, secFactors, describeFactorScores} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
+import {SEC_DISPLAY_LEVELS} from '../src/components/EvidenceConfidenceIndicator/secDisplay.mjs';
 
 const read = path => fs.readFileSync(path, 'utf8');
+test('Finding confidence uses the same stacked default layout at every viewport', () => {
+  const css=read('src/components/SecCalibrationPreview/styles.module.css');
+  const rule=css.match(/^\.confidence \{([^}]+)\}/m)?.[1] || '';
+  assert.match(rule,/flex-direction: column/);
+  assert.match(rule,/align-items: flex-start/);
+  assert.doesNotMatch(rule,/flex-wrap/);
+  const component=read('src/components/SecCalibrationPreview/index.tsx');
+  assert.match(component,/<div className=\{styles.confidence\}>/);
+});
 test('audit routing applies only to isolated preview, including trailing slash', () => {
   assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba'), true);
   assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba/'), true);
@@ -57,14 +67,14 @@ test('SF1 conditional reassessment preserves withdrawal history and formal unkno
   assert.match(recovered.assessment,/not observed human physiological reserve or dietary response/);
   const component=read('src/components/SecCalibrationPreview/index.tsx');
   assert.match(component,/score=\{audit.conditional.adjustedScore\}/);
-  assert.match(component,/synthesised_evidence_confidence: audit.status/);
+  assert.match(component,/synthesised_evidence_confidence: `\$\{assessment\?\.readout\} · \$\{assessment\?\.statusLabel\}`/);
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentPresentation\(audit\)/);
 });
 test('three status surfaces and original correction panel remain separate', () => {
   const panel = read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
   for (const label of ['Evidence review status','Scientific Finding assessments','Correction status','Assessment date:','Human reviewer','Methodology']) assert.ok(panel.includes(label));
   assert.match(panel, /<PageReviewPanel page=\{page\}/);
-  assert.match(panel, /findPublicPageRecord\(\{pageId: audit.pmId\}\)/);
+  assert.match(panel, /findPublicPageRecord\(\{pageId: records\[0\].pmId\}\)/);
   assert.match(panel, /evidenceReviewPresentation\(page\)/);
   assert.match(panel, /correctionPresentation\(page\)/);
   const finding = read('src/components/SecCalibrationPreview/index.tsx');
@@ -121,7 +131,8 @@ test('SF2 recovery retains species, access and independence limitations', () => 
   assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/Formal raw and adjusted SEC totals remain uncalculated/);
   const compact=component.slice(component.indexOf('function Compact'),component.indexOf('type PreviewAtom'));
   assert.doesNotMatch(compact,/sf2Audit|score=/);
-  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/\[audit, sf2Audit\]\.map/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/\? glycaemicAudits : \[audit, sf2Audit\]/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/records\.map/);
 });
 
 const completedFixture = () => ({
@@ -187,12 +198,41 @@ test('reader-facing fixtures distinguish all four states without registering Fin
   assert.equal(assessmentPresentation({...unscored,adjustedScore:7}).score,null);
   assert.equal(assessmentPresentation(sf2Audit).readout,'5/8 · Moderate');
   const panel=read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
-  const summary=panel.slice(panel.indexOf('<button type="button"'),panel.indexOf('<div className="brs-fm-hub-panel" hidden>'));
+  const assessments=panel.slice(panel.indexOf('{records.map'));
+  const summary=assessments.slice(assessments.indexOf('<button type="button"'),assessments.indexOf('<div className="brs-fm-hub-panel" hidden>'));
   assert.doesNotMatch(summary,/formal SEC|audit.status|retrieval|Not recorded/);
   assert.match(summary,/display.incomplete \? 'Assessment incomplete'/);
   assert.match(summary,/display.score !== null \? <EvidenceConfidenceIndicator/);
   assert.match(summary,/display.statusLabel/);
   assert.doesNotMatch(panel,/SF3|SF4|SF5|Example finding|Pending expert review/);
+});
+
+test('rubric legend reuses standard disclosure and all eight canonical display levels', () => {
+  const panel=read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
+  const legend=panel.slice(panel.indexOf('<div id="sec-rubric-legend"'),panel.indexOf('<h3>Evidence review status'));
+  assert.ok(panel.indexOf('<h2 tabIndex={-1}>Evidence &amp; Audit</h2>') < panel.indexOf('<div id="sec-rubric-legend"'));
+  assert.match(legend,/How evidence confidence is assessed/);
+  assert.match(legend,/Understand the 8-point Synthesised Evidence Confidence \(SEC\) score and review statuses/);
+  assert.match(legend,/className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub/);
+  assert.match(legend,/type="button" className="brs-fm-hub-summary" aria-expanded="false"/);
+  assert.match(legend,/className="brs-fm-hub-panel" hidden/);
+  assert.match(legend,/SEC_DISPLAY_LEVELS.map/);
+  assert.match(legend,/<EvidenceConfidenceIndicator score=\{level.score\}/);
+  assert.deepEqual(SEC_DISPLAY_LEVELS.map(l=>l.score),[1,2,3,4,5,6,7,8]);
+  assert.deepEqual(SEC_DISPLAY_LEVELS.map(l=>l.family),['red','red','yellow','yellow','orange','orange','green','green']);
+  assert.match(legend,/Synthesised Evidence Confidence \(SEC\) describes how strongly the assessed body of research supports a specific scientific conclusion\. It does not measure treatment effectiveness or the size of a biological effect\./);
+  for (const text of ['A low score does not automatically mean a finding is false.','Missing evidence must not automatically be scored zero.','The SEC rubric and caps remain under scientific calibration.','Methodology under calibration']) assert.ok(legend.includes(text));
+  assert.doesNotMatch(legend,/<a |D2|B1|P1|R0/);
+  for (const label of Object.values(readerAssessmentLabels)) assert.ok(legend.includes(label));
+  assert.match(legend,/SEC = Directness \+ Bias Protection \+ Precision \+ Replication/);
+  assert.equal(secFactors.D.explanation,'Does the evidence directly test the scientific conclusion being assessed, or does it require assumptions to connect the results to that conclusion?');
+  assert.equal(secFactors.B.explanation,'How well does the research design and methodology protect against misleading or systematically distorted findings?');
+  assert.equal(secFactors.P.explanation,'How clearly do the measurements and their uncertainty distinguish between different plausible scientific conclusions?');
+  assert.equal(secFactors.R.explanation,'Has the same scientific conclusion been independently supported by other studies or experimental research groups?');
+  assert.equal(describeFactorScores('D2/B1/P1/R0'),'Directness 2/2/Bias Protection 1/2/Precision 1/2/Replication 0/2');
+  assert.match(panel,/secFactors\[factor\].name/);
+  assert.doesNotMatch(panel,/<dt>\{factor\} —/);
+  assert.match(panel,/\?review=0#\$\{audit.findingId.toLowerCase\(\)\}/);
 });
 
 test('review and correction fallbacks require explicit authoritative data', () => {
@@ -210,6 +250,25 @@ test('review and correction fallbacks require explicit authoritative data', () =
   assert.equal(correctionPresentation({corrections:[],issues:[{correction_status:'pending'}]}),'Corrections pending');
   assert.equal(correctionPresentation({corrections:[{}]}),'Status unavailable');
   assert.equal(evidenceReviewPresentation({assessmentStatus:'scientifically-reviewed'}),'Review status not recorded');
+});
+
+test('SF and audit use the same short assessment labels without changing stored status', () => {
+  const component=read('src/components/SecCalibrationPreview/index.tsx');
+  const panel=read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
+  assert.match(component,/assessmentPresentation\(audit\)/);
+  assert.match(component,/assessmentPresentation\(sf2Audit\)/);
+  assert.match(component,/assessment\?\.statusLabel \|\| 'Not scored'/);
+  assert.equal((component.match(/srPrefix=\{assessment\?\.statusLabel\}/g)||[]).length,2);
+  assert.doesNotMatch(component,/Conditional SEC estimate — under calibration|estimates under calibration|Assessment pending/);
+  assert.match(panel,/conditional.qualification.replace\('Conditional SEC estimate — under calibration', display.statusLabel\)/);
+  for (const record of [audit,sf2Audit]) {
+    assert.match(record.status,/Conditional SEC estimate — under calibration/);
+    assert.equal(assessmentPresentation(record).statusLabel,'Conditional estimate');
+  }
+  assert.equal(assessmentPresentation(audit).readout,'4/8 · Low–Moderate');
+  assert.equal(assessmentPresentation(sf2Audit).readout,'5/8 · Moderate');
+  assert.match(panel,/<strong>Conditional estimate:<\/strong>/);
+  assert.match(panel,/<p>Methodology under calibration<\/p>/);
 });
 
 test('status governance is shared while canonical confidence storage and evidence limitation wording stay unchanged', () => {
