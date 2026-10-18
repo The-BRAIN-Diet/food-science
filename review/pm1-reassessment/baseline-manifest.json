@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-18",
+  "canonical": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+  "sha256": "1e2da99757336aa62052a809c3af90c123cb938281c0c127f36a632f3d0b38c4",
+  "preserved": [
+    "dietary_input_traceability",
+    "dietary_lever_atoms",
+    "key_constraints",
+    "pm_kc_relationships",
+    "kc_applicability_adjudications",
+    "kc_change_control_flags",
+    "kc_adjudication_history",
+    "phenome_relationships"
+  ],
+  "inheritedCanonicalChanges": [
+    "BRS1-FM4-PM9",
+    "BRS6-FM1-PM2",
+    "BRS2-FM1-PM3"
+  ],
+  "baselineNote": "Full uncommitted integration checkout copied without resetting or committing. Canonical and governing records remain unchanged by PM1 execution.",
+  "approvalRequired": [
+    "All proposed PM1 wording, SOP selection and SEC adoption",
+    "Tyrosine independent dietary admission remains Unset pending explicit adjudication",
+    "Immutable SOP/food-strategy registration only after scientific approval",
+    "PM1 canonical SEC allowlist expansion requires separate schema approval"
+  ]
+}
