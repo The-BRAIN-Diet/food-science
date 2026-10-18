@@ -5,7 +5,8 @@ import {findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '..
 import EvidenceConfidenceIndicator, {SEC_DISPLAY_LEVELS} from '../EvidenceConfidenceIndicator';
 import {initBrsFmHubDropdowns} from '../../client/brsFmHubDropdown';
 import {audit, sf2Audit} from './assessmentAudit.mjs';
-import {glycaemicAudits} from './glycaemicAudit.mjs';
+import {expandedGlycaemicAudits as glycaemicAudits} from './glycaemicStage2.mjs';
+import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';
 import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';
 import styles from './styles.module.css';
 
@@ -55,6 +56,7 @@ export default function EvidenceAudit({panelId}: {panelId: string}) {
     </div>
     <h3>Evidence review status</h3>
     <p>{evidenceReviewPresentation(page)}</p>
+    {records === glycaemicAudits && <GlycaemicStage2Audit />}
     <h3>Scientific Finding assessments</h3>
     {records.map(audit => {
       const conditional = 'conditional' in audit ? audit.conditional : null;
@@ -85,7 +87,7 @@ export default function EvidenceAudit({panelId}: {panelId: string}) {
             return <React.Fragment key={factor}><dt><strong>{secFactors[factor].name} — {value === null ? 'Unresolved' : `${value}/2`}</strong> · {state}</dt><dd>{describeFactorScores(reason)}</dd></React.Fragment>;
           })}</dl>
           <p>Unknown is not zero. Inaccessible methods or uncertainty do not justify zero for Bias Protection or Precision; incomplete replication retrieval does not justify zero for Replication. {conditional ? 'Formal SEC remains Not scored until all four judgements are defensible; conditional factors are not established scores.' : 'Completed factor judgements are provisional anchor assessments, not measured quantities or human scientific review.'}</p>
-          <p>Supporting synthesis: {audit.sources.supporting.map(key => <a key={key} href={`/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>)}</p>
+          <p>Supporting synthesis: {audit.sources.supporting.map(key => <React.Fragment key={key}><a href={key.startsWith('stage2-ref-') ? `?review=0#${key}` : `/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>{' · '}</React.Fragment>)}</p>
           <p>{audit.sources.contradictoryAssessment}</p>
           <ul>{audit.sources.targetedChecks.map(source => <li key={source.doi}><a href={`https://doi.org/${source.doi}`}>{source.doi}</a> · {source.role} · {source.access}. {source.assessment}</li>)}</ul>
           <p>Contextual evidence: {audit.sources.contextual.map(key => <React.Fragment key={key}><a href={`/docs/papers/BRAIN-Diet-References#${key}`}>{key}</a>{' · '}</React.Fragment>)}</p>
@@ -97,6 +99,12 @@ export default function EvidenceAudit({panelId}: {panelId: string}) {
           {'recommendation' in audit && <p>{audit.recommendation}</p>}
           {'stoppingRationale' in audit && <p>{audit.stoppingRationale}</p>}
           <ul>{audit.history.map((item, index) => <li key={index}>{item.date}: {describeFactorScores(item.decision)}</li>)}</ul>
+          {'previousAssessments' in audit && audit.previousAssessments.map(previous => <div key={previous.recordVersion}>
+            <h4>Prior assessment version {previous.recordVersion}</h4>
+            <p>{previous.proposition} Raw {previous.rawScore}/8; adjusted {previous.adjustedScore}/8.</p>
+            <p>{previous.stoppingRationale}</p>
+            <ul>{previous.sources.retrievalLimited.map(source => <li key={source.url}><a href={source.url}>{source.doi}</a>: {source.limitation}</li>)}</ul>
+          </div>)}
           <p>Original discussion link: not recorded. Research dialogue is supporting history, not the authoritative assessment.</p>
         </div>
       </div>

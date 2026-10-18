@@ -16,8 +16,12 @@ const previewPath = 'docs/system/sec-calibration/glycaemic-variability.mdx';
 const canonical = matter(read(canonicalPath));
 const preview = matter(read(previewPath));
 
-test('complete PM body, scientific records, six atoms and links are copied without scientific edits', () => {
-  assert.ok(preview.content.includes(canonical.content.replaceAll('<ScientificFinding finding=', '<GlycaemicFinding finding=').trimEnd()));
+test('complete PM copy preserves science outside explicitly proposed intervention sections and new preview Findings', () => {
+  const proposedBody = canonical.content.replaceAll('<ScientificFinding finding=', '<GlycaemicFinding finding=')
+    .replace('- Fish before rice in the studied meal sequence', '<GlycaemicInterventions section="3.2" />')
+    .replace('- Regular aerobic activity (studied seven-day programme)', '<GlycaemicInterventions section="3.3" />')
+    .replace('## 5. BRS Pathways and Connections', '<GlycaemicStage2Findings />\n\n## 5. BRS Pathways and Connections');
+  assert.ok(preview.content.includes(proposedBody.trimEnd()));
   const data = JSON.parse(preview.content.match(/export const previewDisplayData = (.*);/)[1]);
   for (const key of Object.keys(data)) assert.deepEqual(data[key], canonical.data[key]);
   assert.equal(data.pm_id, 'BRS6-FM1-PM2');

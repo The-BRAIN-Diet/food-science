@@ -2,7 +2,7 @@ import React from 'react';
 import ScientificFinding, {type ScientificFindingData} from '../ScientificFinding';
 import EvidenceConfidenceIndicator from '../EvidenceConfidenceIndicator';
 import PmDietaryLeverEnhancer from '../PmDietaryLeverEnhancer';
-import {glycaemicAudits} from './glycaemicAudit.mjs';
+import {expandedGlycaemicAudits as glycaemicAudits, stage2Findings, stage2DisplayData} from './glycaemicStage2.mjs';
 import {assessmentPresentation} from './auditPresentation.mjs';
 import styles from './styles.module.css';
 
@@ -10,13 +10,18 @@ export function GlycaemicPreviewIntro() {
   return <aside className={styles.notice} role="note">
     <h1>Glycaemic Variability Regulation — Isolated SEC Pilot</h1>
     <p>Complete PM copy for scientific review, not a canonical PM. Synthesised Evidence Confidence (SEC) scores assess the stated Findings, not dietary effectiveness or ADHD benefit. Canonical wording and relationships remain unchanged.</p>
-    <p>SF1 retains its original causal claim and is scored accordingly; its proposed narrower wording is in Evidence &amp; Audit. All four assessments are provisional Codex judgements, not human scientific review. Methodology under calibration.</p>
+    <p>SF1 retains its original causal claim and score; its proposed narrower wording is in Evidence &amp; Audit. Sections 3.2 and 3.3 contain proposed protocol-specific interventions. New Findings F5-F8 and the candidate audit are isolated proposals, not canonical admissions. Assessments are provisional Codex judgements, not human scientific review. Methodology under calibration.</p>
     <a href="?review=1">Evidence &amp; Audit</a>
   </aside>;
 }
 
 export function GlycaemicPreviewEnhancements({data}: {data: Record<string, unknown>}) {
+  data = stage2DisplayData(data);
   return <PmDietaryLeverEnhancer frontMatter={data} />;
+}
+
+export function GlycaemicStage2Findings() {
+  return <>{stage2Findings.map(finding => <GlycaemicFinding key={finding.id} finding={finding} />)}</>;
 }
 
 export function GlycaemicFinding({finding}: {finding: ScientificFindingData}) {

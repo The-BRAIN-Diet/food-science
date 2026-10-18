@@ -6,7 +6,8 @@ hide_title: true
 list_image: /img/biological-targets/brs6-portrait-thumbnail.png
 ---
 
-import {GlycaemicFinding, GlycaemicPreviewIntro, GlycaemicPreviewEnhancements} from '@site/src/components/SecCalibrationPreview/GlycaemicPreview';
+import {GlycaemicFinding, GlycaemicPreviewIntro, GlycaemicPreviewEnhancements, GlycaemicStage2Findings} from '@site/src/components/SecCalibrationPreview/GlycaemicPreview';
+import {GlycaemicInterventions, GlycaemicStage2References} from '@site/src/components/SecCalibrationPreview/GlycaemicInterventionPreview';
 
 export const previewDisplayData = {"pm_id":"BRS6-FM1-PM2","dietary_input_traceability":[],"dietary_lever_atoms":[],"dietary_lever_presentations":[],"references":["[Monnier et al. (2006) — Activation of Oxidative Stress by Acute Glucose Fluctuations Compared with Sustained Chronic](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)","[Mikus et al. (2012) — Glycaemic Control Is Improved by 7 Days of Aerobic Exercise Training in](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)","[Zametkin et al. (1990) — Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990)","[Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)","[Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)","[Dunstan et al. (2012) — Breaking up prolonged sitting reduces postprandial glucose and insulin responses](/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012)"]};
 
@@ -97,7 +98,7 @@ No mapping established.
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Fish before rice in the studied meal sequence
+<GlycaemicInterventions section="3.2" />
 
 </div>
 </div>
@@ -108,7 +109,7 @@ No mapping established.
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.3 Lifestyle Levers</strong></button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Regular aerobic activity (studied seven-day programme)
+<GlycaemicInterventions section="3.3" />
 
 </div>
 </div>
@@ -145,6 +146,8 @@ CGM exercise results and acute meal-sequence variability are responsive endpoint
 <GlycaemicFinding finding={{"id":"PM2-F3","finding_label":"Variability and oxidative stress are associated","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers.","finding_statement":"An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers.","finding_interpretation":"The association motivates assessment; it does not demonstrate that flattening glucose improves cognition.","synthesis":"The association motivates assessment; it does not demonstrate that flattening glucose improves cognition.","synthesis_limitations":"Nonrandomized association; marker and causal endpoint differ.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Monnier et al. (2006)","citation_key":"monnier_2006_16638903","href":"/docs/papers/BRAIN-Diet-References#monnier_2006_16638903","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Greater excursions correlated with oxidative-stress marker excretion.","study_exposure":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","study_finding":"Greater excursions correlated with oxidative-stress marker excretion.","assessment":{"study":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","population":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","result":"Greater excursions correlated with oxidative-stress marker excretion.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Greater excursions correlated with oxidative-stress marker excretion.","limitations":"Do not label this an induced-glucose-fluctuation experiment; inherited key has a wrong PMID.","retrieval_scope":"Primary abstract/results retrieved; full methods not independently extracted unless noted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/16609090/"},"canonical_reference":{"author_year":"Monnier et al. (2006)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[]}} />
 
 <GlycaemicFinding finding={{"id":"PM2-F4","finding_label":"Sitting breaks lower a meal response without proving a volatility endpoint","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting.","finding_statement":"Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting.","finding_interpretation":"This supports activity-related meal responsiveness; AUC alone does not measure volatility.","synthesis":"This supports activity-related meal responsiveness; AUC alone does not measure volatility.","synthesis_limitations":"Nineteen overweight/obese adults, acute laboratory comparison; no synthesis/disposal tracer.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Dunstan et al. (2012)","citation_key":"dunstan_sitting_breaks_2012","href":"/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Post-meal glucose and insulin AUC were lower.","study_exposure":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","study_finding":"Post-meal glucose and insulin AUC were lower.","assessment":{"study":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","population":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","result":"Post-meal glucose and insulin AUC were lower.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Post-meal glucose and insulin AUC were lower.","limitations":"Do not substitute average exposure for CGM variability or insulin sensitivity.","retrieval_scope":"Full primary methods and results retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3329818/"},"canonical_reference":{"author_year":"Dunstan et al. (2012)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
+
+<GlycaemicStage2Findings />
 
 ## 5. BRS Pathways and Connections
 
@@ -206,3 +209,5 @@ No direct functional outcome relationship currently mapped.
 - <span id="pm-ref-4">[4]</span> [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
 - <span id="pm-ref-5">[5]</span> [Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)
 - <span id="pm-ref-6">[6]</span> [Dunstan et al. (2012) — Breaking up prolonged sitting reduces postprandial glucose and insulin responses](/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012)
+
+<GlycaemicStage2References />
