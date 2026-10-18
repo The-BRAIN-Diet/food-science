@@ -12,3 +12,5 @@
 .curated { display: block; font-size: .85rem; line-height: 1.6; margin-top: .25rem; overflow-wrap: anywhere; }
 .curated a:focus-visible { outline: 3px solid var(--ifm-color-primary); outline-offset: 2px; }
 .accession { white-space: nowrap; }
+.auditSummary { display: flex; flex-direction: column; gap: .25rem; min-width: 0; overflow-wrap: anywhere; }
+.auditSummary time { font-size: .8rem; font-weight: normal; }

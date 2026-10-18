@@ -77,7 +77,7 @@ test('evidence governance distinguishes literature limits from incomplete assess
  const conclusion='GAD65 and GAD67 differ in their typical PLP-bound states, providing experimental evidence for distinct modes of regulating GABA synthesis. The larger apoenzyme fraction associated with GAD65 suggests potentially recruitable catalytic capacity. However, independent replication of the specific occupancy finding has not yet been established in this assessment, and the physiological importance of this proposed reserve mechanism in the human brain remains uncertain.';
  assert.ok(fs.readFileSync('src/components/SecCalibrationPreview/assessmentAudit.mjs','utf8').includes(conclusion));
  assert.match(previewSource,/finding_summary: sf1Conclusion/);
- assert.match(fs.readFileSync('src/components/SecCalibrationPreview/EvidenceAudit.tsx','utf8'),/F1 remains Not scored until all four judgements are defensible/);
+ assert.match(fs.readFileSync('src/components/SecCalibrationPreview/EvidenceAudit.tsx','utf8'),/Formal SEC remains Not scored until all four judgements are defensible/);
  assert.equal(canonical.data.scientific_findings.find(f=>f.id==='PM9-F1').synthesised_evidence_confidence,'not-yet-scored');
 });
 

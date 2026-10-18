@@ -15,7 +15,7 @@ const findingLink = (id: string) => `#${id.toLowerCase()}`;
 export function PreviewIntro() {
   return <aside className={styles.notice} role="note">
     <h1>SEC Calibration Preview — Not a Canonical PM</h1>
-    <p>Complete GABA template, copied from current main. Original scientific decisions and evidence remain unchanged. Numerical examples are illustrative layout values only: no scientific SEC assessment has been assigned.</p>
+    <p>Isolated GABA template. Canonical scientific records remain unchanged. SF1 and SF2 show conditional SEC estimates under calibration, not accepted confidence assessments. Synthetic layout examples are labelled separately.</p>
     <p>Calibration data is page-body presentation data, not document scientific metadata. D/B/P/R anchors and caps await scientific approval. Canonical Findings remain <strong>Not scored</strong>.</p>
     <a href="#sec-calibration-examples">Calibration examples and linkage stress tests</a>
   </aside>;
@@ -32,7 +32,7 @@ export function CalibrationFinding({finding}: {finding: ScientificFindingData}) 
     <ScientificFinding finding={finding.id === 'PM9-F1' ? {...finding,
       synthesised_evidence_confidence: audit.status,
       finding_summary: sf1Conclusion,
-    } : finding.id === 'PM9-F2' ? {...finding, synthesised_evidence_confidence: sf2Audit.status} : finding} />
+    } : finding.id === 'PM9-F2' ? {...finding, synthesised_evidence_confidence: sf2Audit.status, finding_summary: sf2Audit.proposition} : finding} />
     {finding.id === 'PM9-F1' && <p id="pm9-f1-curated">Elementary reaction and cofactor annotations: <a href="#pm-curated-1">[C1]</a>, <a href="#pm-curated-2">[C2]</a>, <a href="#pm-curated-3">[C3]</a>, <a href="#pm-curated-4">[C4]</a>, <a href="#pm-curated-5">[C5]</a>. The biochemical shorthand is L-glutamate → GABA + CO₂; Rhea explicitly includes the proton. These records establish reaction identity and cofactor participation; isoform regulation and physiological interpretation retain PM9-F1’s peer-reviewed synthesis and limitations.</p>}
   </div>;
 }

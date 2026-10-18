@@ -1,12 +1,14 @@
 /** Local pilot record. Never a canonical review or scientific scoring record. */
 export const sf1Conclusion = 'GAD65 and GAD67 differ in their typical PLP-bound states, providing experimental evidence for distinct modes of regulating GABA synthesis. The larger apoenzyme fraction associated with GAD65 suggests potentially recruitable catalytic capacity. However, independent replication of the specific occupancy finding has not yet been established in this assessment, and the physiological importance of this proposed reserve mechanism in the human brain remains uncertain.';
 export const audit = {
-  recordVersion: 4,
+  recordVersion: 5,
   id: 'gaba-sf1-assessment-v1',
   pmId: 'BRS1-FM4-PM9',
   findingId: 'PM9-F1',
+  assessmentStatus: 'conditional',
+  humanReview: null,
   recordedOn: '2026-10-17',
-  lastEvidenceAssessmentDate: '2026-10-17',
+  lastEvidenceAssessmentDate: '2026-10-18',
   reviewer: null,
   process: 'Codex-assisted bounded reassessment: existing four-study abstract synthesis plus complete Kaufman 1991 text via Scite; formal assessment unresolved; no expert-review completion inferred',
   methodology: {
@@ -54,15 +56,18 @@ export const audit = {
     {date: '2026-10-17', decision: 'Version 2: targeted Scite abstract checks support provisional D1/B1. Formal P/R remain unresolved. Added conditional P1/R1 scenario yielding working estimate 4/8, not a formal score. Adopted the user-approved narrower conclusion; no admission changed.'},
     {date: '2026-10-17', decision: 'Version 3: withdrew the conditional numerical estimate from current presentation. Retained Not scored, unresolved P/R and the exact approved conclusion shared with SF1. Version 2 scenario is superseded history only.'},
     {date: '2026-10-17', decision: 'Version 4: reassessed under the same conditional/established distinction as SF2 after recovering Kaufman 1991 full text. Display conditional D1/B1/P1/R1 = 4/8 Low–Moderate; formal B/P/R and totals remain unresolved. Preserved versions 1–3, approved conclusion, sources and dietary boundaries. Earlier abstract-level B1 is now explicitly conditional, not a completed bias appraisal.'},
+    {date: '2026-10-18', decision: 'Version 5 calibration review: retained conditional 4/8, not accepted provisional SEC. D1 reflects the reserve-capacity inference, not an automatic animal-study penalty. B1/P1/R1 remain bounded hypotheses based on examined controls, qualitative response and partial corroboration; they are not substitutes for missing methods, uncertainty or independence checks. No new retrieval, scope change or promotion; prior history preserved.'},
   ],
   discussionUrl: null,
 };
 
 export const sf2Audit = {
-  recordVersion: 1,
+  recordVersion: 2,
   id: 'gaba-sf2-assessment-v1', pmId: 'BRS1-FM4-PM9', findingId: 'PM9-F2',
+  assessmentStatus: 'conditional',
+  humanReview: null,
   title: 'PDXK metal–nucleotide regulation',
-  recordedOn: '2026-10-17', lastEvidenceAssessmentDate: '2026-10-17', reviewer: null,
+  recordedOn: '2026-10-17', lastEvidenceAssessmentDate: '2026-10-18', reviewer: null,
   process: 'Codex-assisted bounded evidence recovery: publisher, repository and Scite checks; no expert-review completion inferred',
   methodology: {name: 'SEC calibration rubric proposal', version: null, source: 'system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html'},
   status: 'Conditional SEC estimate — under calibration: 5/8 · Moderate; formal SEC Not scored',
@@ -103,10 +108,44 @@ export const sf2Audit = {
   limitations: ['Pivotal Lee/Navarro full methods and exact uncertainty remain unverified; B/P/R are conditional.', 'No human dietary zinc/B6, physiological PLP-availability or brain GABA effect is established by these assays.'],
   recommendation: 'For later scientific review only: clarify PNPO’s role after PN/PM phosphorylation; identify Tang’s sheep-brain preparation; qualify zinc ranking by assay/speciation conditions and discuss MgATP evidence. No canonical rewrite was performed.',
   stoppingRationale: 'Stopped after three pivotal studies, two independent-lineage recovery studies and one same-lineage follow-up; forward Scite screening identified other-organism, clinical-proxy or different-regulator studies, not verified replications of the exact proposition. Remaining access gaps are explicit and further generic searching is unlikely to resolve them efficiently.',
-  history: [{date: '2026-10-17', decision: 'Initial bounded SF2 synthesis: D2 established for in-vitro scope; B1/P1/R1 conditional. Conditional raw/adjusted 5/8; formal totals withheld. No dietary or PM-wide confidence transfer.'}],
+  history: [
+    {date: '2026-10-17', decision: 'Initial bounded SF2 synthesis: D2 established for in-vitro scope; B1/P1/R1 conditional. Conditional raw/adjusted 5/8; formal totals withheld. No dietary or PM-wide confidence transfer.'},
+    {date: '2026-10-18', decision: 'Version 2 calibration review: retained conditional 5/8, not accepted provisional SEC. D2 applies only to the specified in-vitro proposition; B/P/R are not established by abstracts, shared authors or generic PDXK agreement. Aligned the preview Finding summary verbatim with the existing assessed proposition, without changing canonical SF2 or its evidence. No new retrieval or confidence promotion.'},
+  ],
   discussionUrl: null,
 };
 
 export function isAuditPreview(path) {
   return String(path).replace(/\/$/, '') === '/docs/system/sec-calibration/gaba';
+}
+
+export const secAssessmentLabels = Object.freeze({
+  'not-scored': 'Not scored',
+  conditional: 'Conditional estimate — under calibration',
+  'codex-provisional': 'Codex-assessed provisional SEC',
+  'scientifically-reviewed': 'Scientifically reviewed SEC',
+});
+
+// Structural safeguards for local audit metadata; never adjudicate evidence quality.
+export function secAssessmentStatusErrors(record) {
+  const status = record.assessmentStatus || 'not-scored';
+  const errors = [];
+  const validFactor = value => Number.isInteger(value) && value >= 0 && value <= 2;
+  if (!Object.hasOwn(secAssessmentLabels, status)) return ['Unknown SEC assessment status'];
+  if (status === 'not-scored') return errors;
+  if (status === 'conditional') {
+    const estimate = record.conditional;
+    if (!estimate || !['D', 'B', 'P', 'R'].every(f => validFactor(estimate.factors?.[f]))) errors.push('Conditional estimate requires four explicit proposed factors');
+    if (!Object.values(estimate?.statuses || {}).includes('Conditional')) errors.push('Conditional estimate must identify conditional factors');
+    return errors;
+  }
+  if (record.conditional || !['D', 'B', 'P', 'R'].every(f => validFactor(record.factors?.[f]) && record.factorStates?.[f] === 'established' && record.rationale?.[f]?.trim())) errors.push('Completed SEC requires four defensible, non-conditional factor judgements');
+  if (!record.assessmentComplete || !record.process?.trim() || !record.proposition?.trim() || !record.id || !Number.isInteger(record.recordVersion) || record.recordVersion < 1 || !record.lastEvidenceAssessmentDate) errors.push('Completed SEC requires an identified, versioned completion record');
+  const raw = ['D', 'B', 'P', 'R'].reduce((sum, f) => sum + record.factors?.[f], 0);
+  if (record.rawScore !== raw || !Number.isInteger(record.adjustedScore) || record.adjustedScore < 0 || record.adjustedScore > raw || !record.capRationale?.trim()) errors.push('Completed SEC requires consistent raw/adjusted totals and documented caps');
+  if (status === 'scientifically-reviewed') {
+    const review = record.humanReview;
+    if (review?.reviewerType !== 'human' || !review.reviewerIdentity?.trim() || !review.qualifications?.trim() || !review.reviewDate || review.outcome !== 'accepted' || review.assessedRecordVersion !== record.recordVersion || !review.changes?.trim()) errors.push('Scientifically reviewed SEC requires a recorded qualified human acceptance of this version');
+  }
+  return errors;
 }
