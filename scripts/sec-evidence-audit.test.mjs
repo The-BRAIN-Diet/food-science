@@ -201,7 +201,7 @@ test('reader-facing fixtures distinguish all four states without registering Fin
   const assessments=panel.slice(panel.indexOf('{records.map'));
   const summary=assessments.slice(assessments.indexOf('<button type="button"'),assessments.indexOf('<div className="brs-fm-hub-panel" hidden>'));
   assert.doesNotMatch(summary,/formal SEC|audit.status|retrieval|Not recorded/);
-  assert.match(summary,/display.incomplete \? 'Assessment incomplete'/);
+  assert.match(summary,/display.incomplete \? \('unscoredReason' in audit \? audit.unscoredReason : 'Assessment incomplete'\)/);
   assert.match(summary,/display.score !== null \? <EvidenceConfidenceIndicator/);
   assert.match(summary,/display.statusLabel/);
   assert.doesNotMatch(panel,/SF3|SF4|SF5|Example finding|Pending expert review/);

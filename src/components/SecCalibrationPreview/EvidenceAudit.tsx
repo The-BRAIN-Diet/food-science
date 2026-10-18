@@ -5,6 +5,7 @@ import {findPublicPageRecord, frameworkQcPublic, type PublicPageRecord} from '..
 import EvidenceConfidenceIndicator, {SEC_DISPLAY_LEVELS} from '../EvidenceConfidenceIndicator';
 import {initBrsFmHubDropdowns} from '../../client/brsFmHubDropdown';
 import {audit, sf2Audit} from './assessmentAudit.mjs';
+import {sameAudits} from './sameAudit.mjs';
 import {expandedGlycaemicAudits as glycaemicAudits} from './glycaemicStage2.mjs';
 import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';
 import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';
@@ -12,7 +13,7 @@ import styles from './styles.module.css';
 
 export default function EvidenceAudit({panelId}: {panelId: string}) {
   const location = useLocation();
-  const records = location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit];
+  const records = location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit];
   const root = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (root.current) initBrsFmHubDropdowns(root.current);
@@ -68,7 +69,7 @@ export default function EvidenceAudit({panelId}: {panelId: string}) {
           <span className={styles.auditSummary} data-sec-assessment-status={display.status}>
             <strong>{display.shortId} — {display.title}</strong>
             <span>{display.score !== null ? <EvidenceConfidenceIndicator score={display.score} srPrefix={display.statusLabel} /> : display.readout}</span>
-            <span>{display.incomplete ? 'Assessment incomplete' : display.statusLabel}</span>
+            <span>{display.incomplete ? ('unscoredReason' in audit ? audit.unscoredReason : 'Assessment incomplete') : display.statusLabel}</span>
             {display.date && <time dateTime={display.date}>{display.date}</time>}
           </span>
         </button>
