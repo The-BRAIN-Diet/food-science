@@ -60,3 +60,19 @@ test('actual lever claims stay unscored; multiple Finding support is explicit', 
  assert.match(component, /Not assessed/);
  assert.doesNotMatch(component, /Math\.(max|min)|\.reduce\(/);
 });
+
+test('historical preview distinguishes approved assessment governance from illustrative values', () => {
+ const component=fs.readFileSync('src/components/SecCalibrationPreview/index.tsx','utf8');
+ for (const label of ['Not scored:', 'Conditional estimate:', 'Provisionally assessed:', 'Scientifically reviewed:']) assert.ok(component.includes(label),label);
+ assert.match(component, /Human expert approval is not required for Codex-assessed provisional SEC/);
+ assert.match(component, /not the later SF1\/SF2 conditional assessments/);
+ assert.match(component, /Illustrative values are not provisional scientific assessments/);
+ assert.match(component, /Factor anchors and numerical caps remain proposals/);
+ assert.match(component, /Assessment status, confidence level, evidence-review status and correction status remain separate/);
+ assert.match(component, /Unknown factors are not zero/);
+ assert.match(component, /Methodology under calibration/);
+ assert.match(component, /<strong>\{finding.id\} · Not scored/);
+ assert.match(component, /Object.freeze\(\{score: 6, label: 'Moderate–High', factors: 'D2\/B2\/P2\/R0'\}\)/);
+ assert.doesNotMatch(component, /Assessment pending|copied from current main/);
+ assert.match(component, /<details className=\{styles.rationale\}>\s*<summary>Assessment states and governance/);
+});

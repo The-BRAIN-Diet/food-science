@@ -13,8 +13,15 @@ const findingLink = (id: string) => `#${id.toLowerCase()}`;
 export function PreviewIntro() {
   return <aside className={styles.notice} role="note">
     <h1>SEC Calibration Preview — Not a Canonical PM</h1>
-    <p>Complete GABA template, copied from current main. Original scientific decisions and evidence remain unchanged. Numerical examples are illustrative layout values only: no scientific SEC assessment has been assigned.</p>
-    <p>Calibration data is page-body presentation data, not document scientific metadata. D/B/P/R anchors and caps await scientific approval. Canonical Findings remain <strong>Not scored</strong>.</p>
+    <p>Historical GABA template snapshot from the original isolated pilot. Original scientific decisions and evidence remain unchanged. Synthesised Evidence Confidence (SEC) numbers in this snapshot are illustrative layout values only, not the later SF1/SF2 conditional assessments.</p>
+    <p>Calibration data is page-body presentation data, not document scientific metadata. This snapshot contains no completed proposition-level assessment records; its actual Findings remain <strong>Not scored</strong>. Illustrative values are not provisional scientific assessments. Factor anchors and numerical caps remain proposals; merging governance does not approve them.</p>
+    <details className={styles.rationale}>
+      <summary>Assessment states and governance</summary>
+      <p><strong>Not scored:</strong> no complete defensible assessment is available. <strong>Conditional estimate:</strong> a numerical working estimate includes conditional factor judgements.</p>
+      <p><strong>Provisionally assessed:</strong> all four factors are defensibly assessed for the exact proposition, with evidence, limitations, caps and a versioned assessment process documented. Human expert approval is not required for Codex-assessed provisional SEC.</p>
+      <p><strong>Scientifically reviewed:</strong> an identified qualified human has evaluated and accepted the assessment. A score, Codex completion or passing tests does not establish human review.</p>
+      <p>Assessment status, confidence level, evidence-review status and correction status remain separate. Unknown factors are not zero. Methodology under calibration.</p>
+    </details>
     <a href="#sec-calibration-examples">Calibration examples and linkage stress tests</a>
   </aside>;
 }
@@ -23,7 +30,7 @@ export function CalibrationFinding({finding}: {finding: ScientificFindingData}) 
   const illustrative = finding.id === 'PM9-F1';
   return <div className={styles.finding} data-sec-finding={finding.id}>
     <div className={styles.confidence}>
-      <strong>{finding.id} · {illustrative ? 'Illustrative layout only' : 'Assessment pending'}</strong>
+      <strong>{finding.id} · Not scored{illustrative ? ' · Illustrative layout only' : ''}</strong>
       <EvidenceConfidenceIndicator score={illustrative ? layoutExample.score : null} srPrefix={illustrative ? 'Illustrative confidence, not a scientific assessment' : 'Evidence confidence'} />
       {illustrative && <span>SEC {layoutExample.score}/8 — synthetic display value; not assigned to F1.</span>}
     </div>
@@ -33,7 +40,7 @@ export function CalibrationFinding({finding}: {finding: ScientificFindingData}) 
         <p>The bar tests eight-segment placement. A hypothetical D2/B2/P2/R0 totals 6; these factors have not been assigned to this Finding.</p>
         <p>F1 combines PLP dependence with GAD isoform regulation. A narrow PLP-dependency assessment cannot silently score the full composite statement. Its supporting review must be traced to underlying experiments before bias protection, precision and independent replication can be assessed.</p>
         <p>Biochemical necessity does not establish that extra dietary B6 increases human brain GABA synthesis or treats ADHD.</p>
-      </> : <p>No proposition-level assessment is available. The canonical synthesis, limitations and study disclosures below remain authoritative.</p>}
+      </> : <p>No proposition-level assessment is available in this historical snapshot. The copied synthesis, limitations and study disclosures remain unchanged; this is not a claim that no later assessment exists.</p>}
       <a href={findingLink(finding.id)}>Supporting Scientific Finding</a>
     </details>
     <ScientificFinding finding={finding} />
@@ -95,7 +102,7 @@ export function PreviewEnhancements({data}: {data: Record<string, unknown>}) {
 export function CalibrationExamples() {
   return <section id="sec-calibration-examples" className={styles.examples}>
     <h2>SEC calibration — separate research and layout examples</h2>
-    <p>Not additional GABA Findings or admitted levers. No real-study factor scores are assigned. Exact claim scope comes before scoring.</p>
+    <p>Not additional GABA Findings or admitted levers. These examples assign no real-study factor scores and do not replace later versioned assessments. Exact claim scope comes before scoring.</p>
     <h3>1. Established biochemical proposition</h3>
     <p>PLP is required for GAD-catalysed GABA synthesis. Existing GABA F1 is the source link, but also contains distinct isoform propositions. <a href="#pm9-f1">Read F1 and its limitations</a>. The review alone does not establish how many independent experimental lines support each component.</p>
     <h3>2. Direct dietary intervention with limited independent replication</h3>

@@ -97,6 +97,26 @@ coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation (`findings:check`, page validators, tests) is
 not scientific completion.
 
+### Evidence limitations versus retrieval and assessment limitations
+
+> Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence.
+
+Keep these statements distinct:
+
+- **A. “There is insufficient evidence.”** A statement about the entire scientific literature; it requires a sufficiently comprehensive assessment and cannot follow merely from incomplete searching or inaccessible papers.
+- **B. “Insufficient evidence was identified in this assessment.”** A statement about the evidence actually retrieved and evaluated, without claiming that supporting research does not exist elsewhere.
+- **C. “Independent replication was not established in this assessment.”** A statement that sufficiently independent replication of the exact proposition has not been verified in this assessment.
+
+Use the existing Stage 2A report to record searches and retrieved evidence, pivotal evidence assessed, inaccessible sources, supporting/contradictory/contextual evidence, whether independent replication was verified, and which uncertainties arise from incomplete retrieval rather than demonstrated scientific weakness. Preserve the exact assessed proposition and bounded-search stopping rationale.
+
+**Unknown is not zero.** In provisional SEC assessment, incomplete replication retrieval does not establish R0; that judgement requires an assessed evidence body meeting the rubric's criteria. Inaccessible methods or uncertainty estimates do not establish B0 or P0. Preserve unresolved factors, avoid unjustified confidence downgrades, and retain Not scored unless all four factor judgements are defensible. This clarification adds no scoring anchors, formula or admission threshold.
+
+### SEC assessment status and provisional completion
+
+Apply the [SEC status distinction and provisional acceptance gate](reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status). Stage 2A may complete a **Codex-assessed provisional SEC** without human expert approval when the exact proposition, all four defensible factor judgements, proportionate evidence appraisal/recovery, evidence roles, independence, limitations, raw/adjusted totals and caps are documented in an identified, versioned assessment. Exhaustive retrieval or access to every historical paper is not required. A documented limitation does not automatically prohibit a provisional score; an unresolved essential factor does. Keep incomplete assessments **Not scored**, or label a bounded numerical working estimate **Conditional estimate — under calibration**; do not promote conditional factors by arithmetic alone.
+
+**Scientifically reviewed SEC** requires a subsequent recorded qualified human review, including identity, date, outcome, assessed version and changes. Keep SEC confidence level and assessment status separate from existing evidence-review and correction statuses. Record these distinctions in the stage report/versioned audit; this clarification does not expand the canonical `synthesised_evidence_confidence` field beyond its currently authorised value or change admissions, factor anchors, caps or evidence atoms.
+
 ### Completion gate — coverage challenge and targeted second search
 
 Before completing either stage, compare the reviewed evidence against the Mission's defining biological steps and relevant intervention candidates. Trigger a second targeted search when a material step or candidate:
@@ -334,8 +354,17 @@ dependencies, **do not renumber** stable ids because presentation order, inserts
 UI layout changed.
 
 Finding ids are canonical for structured data, anchors, cross-references, and audit
-machinery. They **must not** render as reader-facing headings or labels — use
-`finding_label` in public copy.
+machinery. Reader-facing titles derive the short local identifier from the canonical
+ID and combine it with `finding_label`: **SF1 — Descriptive finding title**, never
+**PM1-F1 — Descriptive finding title**. Do not store a second identifier or renumber
+canonical IDs. Stage 2A authors a concise, precise descriptive label aligned with
+the assessed proposition; labels do not imply broader dietary or clinical effects.
+Map every headline Finding to an explicit Section 4 explanation. Reuse the derived
+SF identifier and exact descriptive label in its paragraph heading, with reciprocal
+links. Apply the shared combined Section 4 heading and dynamic Finding count;
+do not create one headline Finding per study or silently change scientific scope.
+Follow the [shared PM presentation rule](primary-mechanism-schema.md#pm-scientific-findings--canonical-41-legacy-51)
+for dynamic section counts, intervention links, SEC and Evidence & Audit identity.
 
 Legacy `SF-PM8-n` ids on the former PM8 page (now PM9) were migrated to `PM9-Fn` / `PM9-IC1` when the production
 contract was established.

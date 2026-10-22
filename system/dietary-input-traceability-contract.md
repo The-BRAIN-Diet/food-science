@@ -95,6 +95,22 @@ Before declaring Stage 2B complete, the report must explain why evidence
 coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation is not scientific completion.
 
+Stage 2B must verify that each descriptive `finding_label` remains aligned with
+the final adjudicated proposition and apply the [shared PM Finding presentation
+rule](primary-mechanism-schema.md#pm-scientific-findings--canonical-41-legacy-51):
+derived SF identifiers, dynamic section counts, consistent SEC/audit labels and
+explicit SF-to-intervention links. Reconcile those links whenever an intervention
+is retired, removed or reclassified; proposed interventions must not appear as
+admitted SOPs or lifestyle levers. This changes presentation, not admission.
+Verify that each headline Finding has a matching Section 4 explanation headed by
+the same derived SF identifier and exact `finding_label`, with working reciprocal
+links. Use the shared combined Section 4 heading and dynamically derived count;
+this reconciliation must not admit an intervention or alter an assessed proposition.
+
+Apply [Stage 2A — Evidence limitations versus retrieval and assessment limitations](scientific-finding-schema.md#evidence-limitations-versus-retrieval-and-assessment-limitations) when finalising Scientific Findings and limitations. Preserve its distinction between scientific evidence limitations and incomplete retrieval; missing retrieval is not negative evidence. Preserve the exact assessed proposition and unresolved SEC factors, avoid unjustified confidence downgrades, and distinguish evidence-supported scientific rejection from inability to establish a conclusion in the completed assessment. Inaccessible methods, uncertainty estimates or unverified replication must not automatically become B0, P0 or R0; retain Not scored unless all four factor judgements are defensible. Existing admission rules remain unchanged.
+
+Preserve [Stage 2A — SEC assessment status and provisional completion](scientific-finding-schema.md#sec-assessment-status-and-provisional-completion) in the Stage 2B report and audit presentation. A completed Codex-assessed provisional SEC does not require external expert approval. Do not promote conditional estimates, infer human scientific review from Codex completion/tests/user wording approval, or overwrite evidence-review/correction status. Reuse a score only for the exact assessed proposition; new dietary or outcome inferences require their own assessment. Preserve factors, limitations, caps, process/version and human-review provenance where present. Canonical confidence storage remains unchanged pending bounded integration; Direct/Derived, B/D, SOP/lifestyle, KC, six-atom and phenome admission rules are unaffected.
+
 Limitation text remains derived from the adjudication (see §1). That does
 not forbid retrieving the evidence needed to adjudicate the relationship
 itself.
@@ -1219,7 +1235,7 @@ function supportingFindingLink(
   const finding = findings.find((row) => String(row?.id || "") === id);
   const label = String(finding?.finding_label || "").trim();
   if (!label) return null;
-  return { id, label, href: `#${id.toLowerCase()}` };
+  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
 }
 ```
 <!-- /PM3-REFERENCE:resolver -->
