@@ -4,13 +4,14 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import matter from 'gray-matter';
+import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
 import {compile} from '@mdx-js/mdx';
 import {listMechanismMdxFiles} from './lib/mechanism-page-validation.mjs';
 import {glycaemicAudits} from '../src/components/SecCalibrationPreview/glycaemicAudit.mjs';
 import {audit, sf2Audit, secAssessmentStatusErrors, isAuditPreview} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
 import {assessmentPresentation} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 
-const read = path => fs.readFileSync(path, 'utf8');
+const read = readPilotBaseline;
 const canonicalPath = 'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx';
 const previewPath = 'docs/system/sec-calibration/glycaemic-variability.mdx';
 const canonical = matter(read(canonicalPath));
@@ -112,7 +113,7 @@ test('audit uses existing collapsed component, full factors and matching SF link
   assert.equal(isAuditPreview('/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation'),false);
 });
 
-test('GABA calibration, canonical PMs and bibliography remain byte-identical to HEAD', () => {
+test('GABA calibration, archived pilot sources and bibliography remain byte-identical to baseline', () => {
   for (const file of [canonicalPath,'docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx','docs/system/sec-calibration/gaba.mdx','src/components/SecCalibrationPreview/curatedSources.mjs']) {
     assert.equal(read(file), execFileSync('git',['show',`HEAD:${file}`],{encoding:'utf8',maxBuffer:5e6}));
   }

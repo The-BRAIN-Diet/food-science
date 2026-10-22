@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-22",
+  "pm_id": "BRS6-FM4-PM8",
+  "checks": [
+    {
+      "name": "Target PM mechanism contract",
+      "status": "pass"
+    },
+    {
+      "name": "All Findings-owned pages model and generated freshness",
+      "status": "pass"
+    },
+    {
+      "name": "PM8 mechanistic-basis audit",
+      "status": "pass"
+    },
+    {
+      "name": "Instruction versions unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "Preserve mission, parent hierarchy, phenotype and canonical KC decisions",
+      "status": "pass"
+    },
+    {
+      "name": "Pattern attribution without independent food requirements",
+      "status": "pass"
+    },
+    {
+      "name": "Retain material negative results and exact formulation boundaries",
+      "status": "pass"
+    },
+    {
+      "name": "All published lever records retain six-field traceability",
+      "status": "pass"
+    },
+    {
+      "name": "No numerical SEC or new Phenome score manufactured",
+      "status": "pass"
+    },
+    {
+      "name": "BRS6 projection retains the pattern mapping gap, without invented food equivalence",
+      "status": "pass"
+    },
+    {
+      "name": "Generated food-strategy science matches PM8 records",
+      "status": "pass"
+    },
+    {
+      "name": "Visible summary renderer moves canonical description out of dialog",
+      "status": "pass"
+    },
+    {
+      "name": "PM-specific correction record valid before application",
+      "status": "pass"
+    }
+  ],
+  "tests": {
+    "focused": {
+      "passed": 93,
+      "failed": 0,
+      "files": [
+        "dietary-lever-traceability",
+        "input-substance-food",
+        "pm-lever-layout"
+      ]
+    },
+    "broader": {
+      "total": 142,
+      "passed": 136,
+      "failed": 6,
+      "limitations": [
+        "Existing PM1/PM9 section-heading expectations",
+        "PM3 documented-source and renumbered-reference fixtures",
+        "Historical QC register fixtures FW004 and BRS5 corrections absent from this working checkout"
+      ]
+    }
+  },
+  "bibliography": "All 829 cited keys resolved; target reference keys verified.",
+  "browser": {
+    "url": "http://127.0.0.1:3128/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling/",
+    "compiled": true,
+    "dietaryParentAndChildToggle": "pass",
+    "visibleFoodSummaryWithoutEvidencePopup": "pass",
+    "sixFieldsAndLocalFindingNavigation": "pass",
+    "escapeDismissalAndFocusReturn": "pass",
+    "openIssuesFive": "pass",
+    "correctionTab": "pass: applied correction visible with Issues logged evidence status, and no framework-register link",
+    "screenshot": "outputs/pm8-dietary-levers.png",
+    "greenDietStudyPanel": "pass: 294 randomized, shared walnut exposure, VAT −14.1/−6.0/−4.2%, weight-adjusted p=0.042 versus MED and p=0.07 versus guidance visible",
+    "localQcAlias": "Relative fallback import resolves to the generated local QC dataset; confirmed in browser after restart"
+  },
+  "limitations": [
+    "Pattern-to-food efficacy mapping intentionally unresolved; no ingredient ranking or food-dose equivalence inferred.",
+    "SEC remains Not scored; this is not a qualified human scientific review.",
+    "Development compile and target checks, not a clean whole-site production build.",
+    "Pre-existing tag warnings remain; preview uses polling after watcher-limit errors.",
+    "Inherited React class-property/paragraph-nesting development warnings remain; they did not prevent tested interactions."
+  ],
+  "scope": "Local PM8, its supplied walnut reference and the necessary shared dietary-summary visibility fix; no deployment.",
+  "sharedFixes": [
+    "Existing dietary enhancer moves reviewed summaries outside the evidence popup without duplication",
+    "Local QC alias matches the relative fallback import as well as the absolute path"
+  ],
+  "source_sha256": {
+    "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx": "8c05ff5a809755e0734369877b1f182cec11381f1fa230018cc3043c0c956243",
+    "docs/foods/walnuts.md": "13889a63c9d9fda8040a2f3c62f5665c2c2fc458e494aa207ee9d3f5438c0966",
+    "src/components/PmDietaryLeverEnhancer.tsx": "b7bb604efb1da73521d650c0d3fa12e84cc8cdd36de1a77fc1478eebf9d95c40",
+    "docusaurus.config.ts": "23cb67542d3979d7bd7ee85d384b7930348d456f29b53a8caf9cb1f81761b9e7",
+    "system/framework-qc/framework-issues-register.json": "bdee255c91aa9d92416fca55b30cff11133a443abbc2b44cfb35f3a787d77b3a"
+  }
+}

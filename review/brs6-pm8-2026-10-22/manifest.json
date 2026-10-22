@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-22",
+  "pm_id": "BRS6-FM4-PM8",
+  "canonical": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+  "baseline_sha256": "5242e7cefe7068fabfc4a370fa082f52a11b64151b41fb01e63414341f9c8066",
+  "schemas": {
+    "scientific-finding-schema.md": "2ddd6b880a70403bad0ff2fa9a840ad27b83b1146c213a6808c0c8d4a7f6137c",
+    "dietary-input-traceability-contract.md": "bb1b8cc8604232c47f19ea5641b7e9cfe525201a1db7ed9aceb47cfb2a6d5660",
+    "primary-mechanism-schema.md": "36c59690aeadd57541edcd6e9a6aca2febb6eb85e3cd7e1cf69e80e859565ebd"
+  },
+  "scope": "Local PM8 Stage 2A/2B reassessment; no deployment or other BRS6 PM rewrite"
+}

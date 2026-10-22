@@ -21,6 +21,7 @@ import { fileURLToPath } from "node:url";
 import { REFERENCE_DATA_LEVELS } from "./reference-data-levels.mjs";
 import { loadPhenomeRegistry, phenomeDetailUrlForName } from "./phenome-registry.mjs";
 import { buildPmReferenceRecordIndex } from "./pm-reference-index.mjs";
+import {loadSecRegistry, validateSecRegistry, resolveSecAssessment} from "./sec-assessments.mjs";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
@@ -139,7 +140,7 @@ function push(issues, code, message) {
  * declared only once, and the same study may not be primary Evidence Considered
  * in more than one Finding (which would double-count one dataset).
  */
-export function validateScientificFindings(data, issues = [], { entityLabel = "page" } = {}) {
+export function validateScientificFindings(data, issues = [], { entityLabel = "page", secRegistry } = {}) {
   const findings = data?.scientific_findings;
   if (findings === undefined) return issues;
   if (!Array.isArray(findings)) {
@@ -217,6 +218,12 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
         "finding_sec_value",
         `${entityLabel}: ${id} synthesised_evidence_confidence must be "${SEC_NOT_YET_SCORED}" (found "${sec}")`,
       );
+    }
+    if (Object.hasOwn(finding, "sec_assessment_ref")) {
+      const registry = secRegistry ?? loadSecRegistry();
+      for (const issue of [...validateSecRegistry(registry), ...resolveSecAssessment(registry, {pmId:data.pm_id, finding}).errors]) {
+        push(issues, issue.code, `${entityLabel}: ${id} ${issue.message}`);
+      }
     }
 
     const evidence = finding?.evidence_considered;
@@ -447,12 +454,12 @@ function withCanonicalFindingReferences(finding, referenceIndex) {
   };
 }
 
-function renderFindingBlocks(findings, informs, referenceIndex = new Map()) {
+function renderFindingBlocks(findings, informs, referenceIndex = new Map(), pmId, authoredLessons = new Map()) {
   return findings.flatMap((finding) => {
     const payload = withCanonicalFindingReferences(finding, referenceIndex);
     const informedBy = informs.get(String(finding.id));
     if (informedBy?.length) payload.informs = informedBy;
-    return [`<ScientificFinding finding={${jsonProp(payload)}} />`, ""];
+    return [`<ScientificFinding finding={${jsonProp(payload)}}${Object.hasOwn(finding,"sec_assessment_ref") ? ' pmId={'+jsonProp(pmId || '')+'}' : ''} />`, "", ...(authoredLessons.has(finding.id) ? [authoredLessons.get(finding.id), ""] : [])];
   });
 }
 
@@ -468,6 +475,7 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
     primary,
     index,
     buildPmReferenceRecordIndex(data.references || []),
+    data.pm_id,
   )
     .join("\n")
     .trimEnd();
@@ -479,7 +487,7 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
  * Phenome Connection; interpretive constraints render at the inference they
  * constrain.
  */
-export function renderScientificFindingsSection(data, { sectionNum = 4, subNum = 1, intro } = {}) {
+export function renderScientificFindingsSection(data, { sectionNum = 4, subNum = 1, intro, authoredLessons = new Map() } = {}) {
   const findings = headlineMechanisticFindings(data);
   if (!findings.length) return "";
   const informs = findingInformsIndex(data);
@@ -495,6 +503,8 @@ export function renderScientificFindingsSection(data, { sectionNum = 4, subNum =
       findings,
       informs,
       buildPmReferenceRecordIndex(data.references || []),
+      data.pm_id,
+      authoredLessons,
     ),
   ]
     .join("\n")

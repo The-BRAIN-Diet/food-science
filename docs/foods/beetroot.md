@@ -90,18 +90,23 @@ nutrition_supplementary_sources:
     label: Betaine
     value: 130
     unit: mg
-    amount_display: 130 mg/100 g
-    status: Measured in a separate choline-and-betaine assay
+    basis: per 100 g edible portion
+    evidence_material: Beets, raw
+    preparation_state: raw
+    evidence_status: supported
+    verified: true
+    rank_eligible: false
+    source_url: https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf
+    source_reference: '#food-source-4'
     source_note: >-
       Patterson et al. (2008), USDA Database for the Choline Content of Common
       Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This
       is not the FDC 169145 panel used for the other nutrients on this page.
-    public_note: >-
-      Patterson et al. (2008) supports this source-specific measurement. See
-      technical provenance for food form and measurement details.
-    source_group: >-
-      Patterson et al. (2008) supports this source-specific measurement. See
-      technical provenance for food form and measurement details.
+      Verified against the original table on printed page 21 (PDF page 21),
+      NDB 11080. The table lists N=1; its confidence code B concerns total
+      choline, not betaine. Cultivar and growing conditions can change plant
+      betaine content. No cooked-beetroot value or cross-food ranking is inferred.
+    source_group: USDA Choline Release 2 (2008), NDB 11080
 substance_relationships:
   - substance: Betaine
     relationship: contains
@@ -220,3 +225,7 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 <span id="food-source-3" />
 
 [3] [USDA SR Legacy April 2018](https://fdc.nal.usda.gov/food-details/169145/nutrients)
+
+<span id="food-source-4" />
+
+[4] Patterson et al. (2008). [USDA Database for the Choline Content of Common Foods, Release Two](/docs/papers/BRAIN-Diet-References#patterson_choline_2008). The original table reports **130 mg betaine per 100 g of raw beets**, NDB 11080, printed page 21. This is a separate analytical source from the main nutrient panel, not an amount for cooked beets or beetroot extract. The table lists N=1; its confidence code concerns total choline, not betaine. Plant variety and growing conditions limit generalisation.

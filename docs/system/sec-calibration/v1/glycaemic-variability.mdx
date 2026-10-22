@@ -1,0 +1,214 @@
+---
+id: sec-v1-glycaemic-variability
+title: Glycaemic Variability Regulation — Proposed V1
+slug: /system/sec-calibration/v1/glycaemic-variability
+hide_title: true
+list_image: /img/biological-targets/brs6-portrait-thumbnail.png
+---
+import {V1Finding, V1Intro, V1Enhancements, V1Interventions, V1ExtraFindings} from '@site/src/components/SecCalibrationPreview/V1Preview';
+import {PreviewEnhancements, CuratedReferenceList} from '@site/src/components/SecCalibrationPreview';
+import {SamePreviewEnhancements, SameReferences} from '@site/src/components/SecCalibrationPreview/SamePreview';
+import {GlycaemicStage2References} from '@site/src/components/SecCalibrationPreview/GlycaemicInterventionPreview';
+
+export const previewDisplayData = {"pm_id":"BRS6-FM1-PM2","dietary_input_traceability":[],"dietary_lever_atoms":[],"dietary_lever_presentations":[],"references":["[Monnier et al. (2006) — Activation of Oxidative Stress by Acute Glucose Fluctuations Compared with Sustained Chronic](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)","[Mikus et al. (2012) — Glycaemic Control Is Improved by 7 Days of Aerobic Exercise Training in](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)","[Zametkin et al. (1990) — Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990)","[Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)","[Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)","[Dunstan et al. (2012) — Breaking up prolonged sitting reduces postprandial glucose and insulin responses](/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012)","[Aberg et al. (2020)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-aberg)","[Bruno et al. (2024)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-bruno)","[Jamshed et al. (2019)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-jamshed)","[Karstoft et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-karstoft)","[Babir et al. (2026)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-babir)","[Trico et al. (2016)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-trico)","[Shukla et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-shukla)","[Touhamy et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-touhamy)","[Smith et al. (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-smith)","[Pabla et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-pabla)","[Collins et al. (2025)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-collins)","[Sonia et al. (2015)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-sonia)","[Liatis et al. (2010)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-liatis)","[Reynolds et al. (2016)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-reynolds)","[Dempsey et al. (2017)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-dempsey)","[Bailey et al. (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-bailey)","[Resistance/endurance comparison (2012)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-resistance)","[Wheat-porridge comparison (2022)](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation#stage2-ref-wheat)"],"system_optimisation_practices":[{"atom_id":"PM2-SOP-2","input":"Less-processed whole-grain food package (two-week trial)","input_type":"dietary protocol","biological_role":"In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.","evidence_source":{"finding_ids":["PM2-F5"],"citation_keys":["stage2-ref-aberg"]},"evidence_limitation":"A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.","dietary_input":true,"dietary_input_note":"Dietary SOP, not a nutritional capacity requirement.","optimisation_category":"food_prep","description_finding_id":"PM2-F5","reader_description":"31 adults with type 2 diabetes; 28 completed. Two-week crossover: intact oats, brown rice and coarse/kibbled bread versus matched finely processed whole-grain products; at least two-week washout."},{"atom_id":"PM2-SOP-3","input":"Early eating with front-loaded calories (six-day trial)","input_type":"dietary protocol","biological_role":"In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.","evidence_source":{"finding_ids":["PM2-F6"],"citation_keys":["stage2-ref-bruno","stage2-ref-jamshed"]},"evidence_limitation":"Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.","dietary_input":true,"dietary_input_note":"Dietary SOP, not a nutritional capacity requirement.","optimisation_category":"dietary_protocols","description_finding_id":"PM2-F6","reader_description":"10 adults with prediabetes and overweight/obesity. Six days of matched weight-maintenance food: 08:00-16:00, 80% of calories before 14:00, versus usual later distribution; randomised crossover without washout."}],"lifestyle_priorities":[{"atom_id":"PM2-LIFE-2","input":"Supervised interval walking (two-week trial)","input_type":"physical activity","biological_role":"Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.","evidence_source":{"finding_ids":["PM2-F7"],"citation_keys":["stage2-ref-karstoft"]},"evidence_limitation":"Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.","dietary_input":false,"dietary_input_note":"Non-dietary exercise relationship.","optimisation_category":null,"description_finding_id":"PM2-F7","reader_description":"14 adults with type 2 diabetes; 13 usable CGM records. Randomised crossover: ten supervised 60-minute sessions over two weeks, alternating three-minute slower/faster walking; continuous and inactive comparator periods, multiweek washout."},{"atom_id":"PM2-LIFE-3","input":"Four brief vigorous activity bouts daily (48-hour trial)","input_type":"physical activity","biological_role":"Four brief vigorous bodyweight bouts daily produced small secondary continuous glucose monitoring (CGM) variability improvements over 48 hours in inactive adults with well-controlled type 2 diabetes; the primary mean-glucose contrast was not significant.","evidence_source":{"finding_ids":["PM2-F8"],"citation_keys":["stage2-ref-babir"]},"evidence_limitation":"Small secondary effects without multiplicity adjustment; short washout permits carryover. Not evidence for gentle walking or lasting clinical benefit.","dietary_input":false,"dietary_input_note":"Non-dietary exercise relationship.","optimisation_category":null,"description_finding_id":"PM2-F8","reader_description":"31 inactive adults with well-controlled, non-insulin-treated type 2 diabetes. Two 48-hour crossover periods: four one-minute vigorous bodyweight bouts daily versus usual activity; at least one hour between bouts, encouraged after meals."}],"scientific_findings":[{"id":"PM2-F1","finding_label":"Short training and observed glucose excursions"},{"id":"PM2-F2","finding_label":"A meal protocol affects acute glucose variability"},{"id":"PM2-F3","finding_label":"Variability and oxidative stress are associated"},{"id":"PM2-F4","finding_label":"Sitting breaks lower a meal response without proving a volatility endpoint"},{"id":"PM2-F5","finding_label":"Whole-grain processing and daily variability"},{"id":"PM2-F6","finding_label":"Early eating and glucose variability"},{"id":"PM2-F7","finding_label":"Interval walking and glucose variability"},{"id":"PM2-F8","finding_label":"Vigorous activity bouts and variability"}]};
+
+<V1Intro pmId="BRS6-FM1-PM2" />
+
+<V1Enhancements data={previewDisplayData} />
+
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs6-portrait-thumbnail.png"
+    alt="BRS6 — Metabolic & Neuroendocrine Regulation: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS6-1-2 - Glycaemic Variability Regulation
+
+
+## 1. Mission & Overview
+
+### Mission
+
+Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.
+
+**Intervention Dominance:** Diet-Dominant (inherited qualification, retained pending approval). Principal route displayed: Lifestyle Levers. This placement reflects the assessed process, not proven comparative superiority.
+
+### Overview
+
+Blood glucose varies as meals arrive and tissues take up their fuel. Regulation concerns the size, duration and frequency of these changes, rather than keeping glucose perfectly flat. In a small uncontrolled type 2 diabetes cohort, short aerobic training was associated with selected excursion changes. The order of a meal also changed within-meal variability. These findings identify activity and meal protocols that can influence different parts of the glucose pattern. Monnier et al. (2006) [[1]](#pm-ref-1); Mikus et al. (2012) [[2]](#pm-ref-2); Kuwata et al. (2016) [[5]](#pm-ref-5); Dunstan et al. (2012) [[6]](#pm-ref-6)
+
+- **Benefits:** Selected protocols changed measured glucose-dispersion endpoints in the studied diabetes cohorts; this does not establish a clinical or cognitive benefit. Mikus et al. (2012) [[2]](#pm-ref-2)
+- **Implementation Notes:** Aerobic activity was assessed over seven days; this is not evidence that every ordinary fluctuation needs correcting. Monnier et al. (2006) [[1]](#pm-ref-1); Mikus et al. (2012) [[2]](#pm-ref-2); Kuwata et al. (2016) [[5]](#pm-ref-5); Dunstan et al. (2012) [[6]](#pm-ref-6)
+- **Biological Relevance:** A smaller average glucose response does not necessarily demonstrate lower variability.
+
+## 2. Primary Biological Effects
+
+- Short aerobic training was associated with selected excursion changes in an uncontrolled diabetes cohort; high-excursion frequency and duration remained inconclusive. Mikus et al. (2012) [[2]](#pm-ref-2)
+- Fish before rice reduced within-meal glucose variability in the diabetes group. Kuwata et al. (2016) [[5]](#pm-ref-5)
+- An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers. Monnier et al. (2006) [[1]](#pm-ref-1)
+- Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting. Dunstan et al. (2012) [[6]](#pm-ref-6)
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1 Dietary Requirements</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.1">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.1 Direct and/or Derived Dietary Requirements</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No independently admitted Direct/Derived Dietary Requirements established by this assessment.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.2 Cofactors and Substrates</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No additional separately adjudicated biochemical requirement established by this assessment; generic metabolic participation is not an admitted PM-specific requirement.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-section="3.1.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.1.3 Key Constraints</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.2">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.2 System Optimisation Practices</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<V1Interventions section="3.2" data={previewDisplayData} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-pm-lever-group="3.3">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>3.3 Lifestyle Levers</strong></button>
+<div class="brs-fm-hub-panel" hidden>
+
+<V1Interventions section="3.3" data={previewDisplayData} />
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+Seven days of aerobic training reduced excursion frequency, magnitude and duration in type 2 diabetes. Mikus et al. (2012) [[2]](#pm-ref-2)
+
+#### Biological process
+
+Continuous monitoring tests variability more directly than one fasting value. Mikus et al. (2012) [[2]](#pm-ref-2)
+
+#### Mechanism Boundary
+
+A smaller average glucose response does not necessarily demonstrate lower variability. This assessment preserves each source’s measured endpoint; the Mission describes the biological job and does not assert that every tested lever achieved the entire Mission.
+
+#### Integration
+
+This PM contributes its specified process to BRS6(FM1). Shared fuels, nutrient lists and correlated markers do not merge distinct biological jobs or establish the integrated outcome.
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+CGM exercise results and acute meal-sequence variability are responsive endpoints. The oxidative-stress paper is observational, not experimental proof that fluctuations cause more injury than steady hyperglycaemia. Monnier et al. (2006) [[1]](#pm-ref-1); Mikus et al. (2012) [[2]](#pm-ref-2); Kuwata et al. (2016) [[5]](#pm-ref-5); Dunstan et al. (2012) [[6]](#pm-ref-6)
+
+<V1Finding finding={{"id":"PM2-F1","finding_label":"Short training and observed glucose excursions","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.","finding_statement":"In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.","finding_interpretation":"Continuous monitoring tests variability more directly than one fasting value.","synthesis":"In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.","synthesis_limitations":"Uncontrolled before/after association, not demonstrated exercise causation or all-endpoint improvement. No cognitive or ADHD endpoint; a null 24-hour mean does not negate endpoint-specific excursion changes.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Mikus et al. (2012)","citation_key":"mikus_2012_22311420","href":"/docs/papers/BRAIN-Diet-References#mikus_2012_22311420","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"In an uncontrolled cohort of 13 sedentary adults with type 2 diabetes, seven days of aerobic training were associated with lower glucose range and selected excursion measures; high-glucose excursion frequency and duration remained statistically inconclusive.","study_exposure":"Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.","study_finding":"CGM excursions decreased without measurable fitness or body-composition change.","assessment":{"study":"Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.","population":"Thirteen sedentary adults with type 2 diabetes; habitual-activity days compared with seven-day training.","result":"CGM excursions decreased without measurable fitness or body-composition change.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"CGM excursions decreased without measurable fitness or body-composition change.","limitations":"No parallel control; do not infer brain energy stability.","retrieval_scope":"Primary abstract/results retrieved; full methods not independently extracted unless noted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/22311420/"},"canonical_reference":{"author_year":"Mikus et al. (2012)","number":2,"anchor":"#pm-ref-2"}}],"connected_supportive_evidence":[{"label":"Zametkin et al. (1990)","citation_key":"zametkin_cerebral_1990","href":"/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Zametkin et al. (1990)","number":3,"anchor":"#pm-ref-3"}},{"label":"Di Girolamo et al. (2022)","citation_key":"di_girolamo_prevalence_2022","href":"/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022","why_relevant":"Preserved attached corpus, assessed for the mission-specific endpoint rather than inherited as an admission.","why_excluded":"The attached source is contextual. No separately extracted mission-specific intermediary or intervention endpoint justifies a new requirement, KC admission or phenome rating from this source.","canonical_reference":{"author_year":"Di Girolamo et al. (2022)","number":4,"anchor":"#pm-ref-4"}}]}} />
+
+<V1Finding finding={{"id":"PM2-F2","finding_label":"A meal protocol affects acute glucose variability","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Fish before rice reduced within-meal glucose variability in the diabetes group.","finding_statement":"Fish before rice reduced within-meal glucose variability in the diabetes group.","finding_interpretation":"This tests the excursion pattern, while PM1 considers its upstream emptying link.","synthesis":"This tests the excursion pattern, while PM1 considers its upstream emptying link.","synthesis_limitations":"Acute sequence-specific effects do not establish day-long stability.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Kuwata et al. (2016)","citation_key":"kuwata_meal_sequence_2016","href":"/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Glucose standard deviation was lower with fish first in the diabetes group.","study_exposure":"Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.","study_finding":"Glucose standard deviation was lower with fish first in the diabetes group.","assessment":{"study":"Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.","population":"Fish/rice crossover in twelve adults with type 2 diabetes and ten healthy volunteers.","result":"Glucose standard deviation was lower with fish first in the diabetes group.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Glucose standard deviation was lower with fish first in the diabetes group.","limitations":"The healthy comparison and long-term response must not be assumed equivalent.","retrieval_scope":"Primary Methods/Results retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4742500/"},"canonical_reference":{"author_year":"Kuwata et al. (2016)","number":5,"anchor":"#pm-ref-5"}}],"connected_supportive_evidence":[]}} />
+
+<V1Finding finding={{"id":"PM2-F3","finding_label":"Variability and oxidative stress are associated","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers.","finding_statement":"An observational diabetes study linked glucose fluctuation measures with urinary oxidative-stress markers.","finding_interpretation":"The association motivates assessment; it does not demonstrate that flattening glucose improves cognition.","synthesis":"The original cohort association was not reproduced in an independent better-controlled diabetes sample using mass spectrometry. Population and assay differences constrain generalisation; this is not a causal oxidative-stress claim.","synthesis_limitations":"Independent null evidence prevents presenting the association as uniformly established across type 2 diabetes. Assay and glycaemic-control differences may contribute to heterogeneity; neither causal direction nor dietary/cognitive efficacy follows.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Monnier et al. (2006)","citation_key":"monnier_2006_16638903","href":"/docs/papers/BRAIN-Diet-References#monnier_2006_16638903","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Greater excursions correlated with oxidative-stress marker excretion.","study_exposure":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","study_finding":"Greater excursions correlated with oxidative-stress marker excretion.","assessment":{"study":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","population":"Observational type 2 diabetes CGM and urinary isoprostane comparison.","result":"Greater excursions correlated with oxidative-stress marker excretion.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Greater excursions correlated with oxidative-stress marker excretion.","limitations":"Do not label this an induced-glucose-fluctuation experiment; inherited key has a wrong PMID.","retrieval_scope":"Primary abstract/results retrieved; full methods not independently extracted unless noted.","source_url":"https://pubmed.ncbi.nlm.nih.gov/16609090/"},"canonical_reference":{"author_year":"Monnier et al. (2006)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[]}} />
+
+<V1Finding finding={{"id":"PM2-F4","finding_label":"Sitting breaks lower a meal response without proving a volatility endpoint","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting.","finding_statement":"Brief walking interruptions reduced postprandial glucose and insulin exposure versus continuous sitting.","finding_interpretation":"This supports activity-related meal responsiveness; AUC alone does not measure volatility.","synthesis":"This supports activity-related meal responsiveness; AUC alone does not measure volatility.","synthesis_limitations":"Nineteen overweight/obese adults, acute laboratory comparison; no synthesis/disposal tracer.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Dunstan et al. (2012)","citation_key":"dunstan_sitting_breaks_2012","href":"/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Post-meal glucose and insulin AUC were lower.","study_exposure":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","study_finding":"Post-meal glucose and insulin AUC were lower.","assessment":{"study":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","population":"Randomized crossover, two-minute walking breaks every twenty minutes versus uninterrupted sitting.","result":"Post-meal glucose and insulin AUC were lower.","effect_magnitude":"Only source-extracted comparisons retained; no pooled benefit estimate.","evidence_summary":"Post-meal glucose and insulin AUC were lower.","limitations":"Do not substitute average exposure for CGM variability or insulin sensitivity.","retrieval_scope":"Full primary methods and results retrieved.","source_url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3329818/"},"canonical_reference":{"author_year":"Dunstan et al. (2012)","number":6,"anchor":"#pm-ref-6"}}],"connected_supportive_evidence":[]}} />
+
+<V1ExtraFindings pmId="BRS6-FM1-PM2" />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+No newly adjudicated BRS pathway is established by this assessment.
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+No downstream mapping is inherited from a shared nutrient or KC candidate.
+
+### 5.3 Local BRS Mechanism Relationships
+
+[PM1](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) addresses entry and [PM3](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) addresses disposal; variability is their observed profile, not either flux measurement.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+No direct functional outcome relationship currently mapped.
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Monnier et al. (2006) — Activation of Oxidative Stress by Acute Glucose Fluctuations Compared with Sustained Chronic](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)
+- <span id="pm-ref-2">[2]</span> [Mikus et al. (2012) — Glycaemic Control Is Improved by 7 Days of Aerobic Exercise Training in](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)
+- <span id="pm-ref-3">[3]</span> [Zametkin et al. (1990) — Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990)
+- <span id="pm-ref-4">[4]</span> [Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)
+- <span id="pm-ref-5">[5]</span> [Kuwata et al. (2016) — Meal sequence and glucose excursion, gastric emptying and incretin secretion in type 2 diabetes: a randomised, controlled crossover, exploratory trial](/docs/papers/BRAIN-Diet-References#kuwata_meal_sequence_2016)
+- <span id="pm-ref-6">[6]</span> [Dunstan et al. (2012) — Breaking up prolonged sitting reduces postprandial glucose and insulin responses](/docs/papers/BRAIN-Diet-References#dunstan_sitting_breaks_2012)
+
+<GlycaemicStage2References />

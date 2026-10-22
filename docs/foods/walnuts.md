@@ -177,13 +177,13 @@ substance_review_candidates: []
 ---
 ## Overview
 
-Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
+Walnuts provide ALA, polyphenols and ellagitannins. In DIRECT-PLUS, both Mediterranean groups received 28 g/day walnuts; the green-Mediterranean group also received green tea and Mankai and reduced red/processed meat. Its greater visceral-fat reduction supports the combined pattern, while the walnut-intake and urinary urolithin A associations do not establish walnut-specific causality [1].
 
-Within the BRAIN Diet framework, walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy [1].
+A separate six-month trial of 56 g/day walnuts found no significant visceral-fat benefit [2]. Walnuts remain a food candidate for further testing, with the package-level and individual-food evidence distinguished in [BRS6-PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling#pm8-f4).
 
 ## Key Nutritional Highlights
 
-- Walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy.
+- Walnuts were included in both Mediterranean groups in DIRECT-PLUS; the trial does not isolate their contribution to the green pattern’s greater visceral-fat loss [1].
 
 ## Food Context
 
@@ -221,5 +221,7 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+[1] Zelicha et al. (2022). [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022). Combined-pattern evidence; walnuts were shared by both MED groups.
+
+[2] Njike et al. (2015). [Walnut ingestion in adults at risk for diabetes: effects on body composition, diet quality, and cardiac risk measures](/docs/papers/BRAIN-Diet-References#njike_walnut_body_composition_2015). No significant visceral-fat benefit in this trial.
 

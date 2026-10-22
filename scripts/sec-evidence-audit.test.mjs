@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import matter from 'gray-matter';
+import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
 import {audit, sf2Audit, isAuditPreview, sf1Conclusion, secAssessmentStatusErrors, secAssessmentLabels} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
 import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, readerAssessmentLabels, secFactors, describeFactorScores} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import {SEC_DISPLAY_LEVELS} from '../src/components/EvidenceConfidenceIndicator/secDisplay.mjs';
@@ -16,16 +17,18 @@ test('Finding confidence uses the same stacked default layout at every viewport'
   const component=read('src/components/SecCalibrationPreview/index.tsx');
   assert.match(component,/<div className=\{styles.confidence\}>/);
 });
-test('audit routing applies only to isolated preview, including trailing slash', () => {
+test('preview routing stays isolated and canonical audit requires an explicit assessment reference', () => {
   assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba'), true);
   assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba/'), true);
   for (const path of ['/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity','/docs/system/sec-calibration/gaba-other','/docs/foods/eggs']) assert.equal(isAuditPreview(path), false);
   const bar = read('src/components/ReviewCorrections/DocUtilityBar.tsx');
-  assert.match(bar, /auditPreview \? "Evidence & Audit"/);
-  assert.match(bar, /auditPreview \? <EvidenceAudit[\s\S]*: <PageReviewPanel/);
+  assert.match(bar, /auditPreview \|\| hasSecReferences \? "Evidence & Audit"/);
+  assert.match(bar, /hasSecReferences = isPmPage && secFindings.some/);
+  assert.match(bar, /Object.hasOwn\(f, "sec_assessment_ref"\)/);
+  assert.match(bar, /auditPreview \? <EvidenceAudit[\s\S]*hasSecReferences \? <CanonicalSecAudit[\s\S]*: <PageReviewPanel/);
 });
 test('versioned audit preserves exact proposition, unresolved factors and source identities', () => {
-  const canonical = matter(read('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx')).data;
+  const canonical = matter(readPilotBaseline('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx')).data;
   const f1 = canonical.scientific_findings.find(f => f.id === audit.findingId);
   assert.equal(audit.canonicalProposition, f1.finding_statement);
   assert.match(audit.proposition,/suggests potentially recruitable/);
@@ -68,18 +71,20 @@ test('SF1 conditional reassessment preserves withdrawal history and formal unkno
   const component=read('src/components/SecCalibrationPreview/index.tsx');
   assert.match(component,/score=\{audit.conditional.adjustedScore\}/);
   assert.match(component,/synthesised_evidence_confidence: `\$\{assessment\?\.readout\} · \$\{assessment\?\.statusLabel\}`/);
-  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentPresentation\(audit\)/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentView=assessmentPresentation/);
+  assert.match(read('src/components/SecCalibrationPreview/EvidenceAudit.tsx'),/assessmentView\(audit\)/);
 });
 test('three status surfaces and original correction panel remain separate', () => {
   const panel = read('src/components/SecCalibrationPreview/EvidenceAudit.tsx');
   for (const label of ['Evidence review status','Scientific Finding assessments','Correction status','Assessment date:','Human reviewer','Methodology']) assert.ok(panel.includes(label));
   assert.match(panel, /<PageReviewPanel page=\{page\}/);
-  assert.match(panel, /findPublicPageRecord\(\{pageId: records\[0\].pmId\}\)/);
+  assert.match(panel, /assessmentPage !== undefined \? assessmentPage : findPublicPageRecord\(\{pageId: assessmentPmId \|\| records\[0\]\?\.pmId\}\)/);
   assert.match(panel, /evidenceReviewPresentation\(page\)/);
   assert.match(panel, /correctionPresentation\(page\)/);
   const finding = read('src/components/SecCalibrationPreview/index.tsx');
   assert.match(finding, /\?review=1#gaba-sf1-assessment-v1/);
-  assert.match(panel, /id=\{audit.id\}/);
+  assert.match(panel, /recordAnchor=\(r:any\)=>r.id/);
+  assert.match(panel, /id=\{recordAnchor\(audit\)\}/);
   assert.match(panel, /audit.findingId.toLowerCase\(\)/);
   assert.match(finding, /<EvidenceConfidenceIndicator \/>/);
   assert.doesNotMatch(finding, /score=\{illustrative/);

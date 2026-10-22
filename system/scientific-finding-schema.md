@@ -354,8 +354,17 @@ dependencies, **do not renumber** stable ids because presentation order, inserts
 UI layout changed.
 
 Finding ids are canonical for structured data, anchors, cross-references, and audit
-machinery. They **must not** render as reader-facing headings or labels — use
-`finding_label` in public copy.
+machinery. Reader-facing titles derive the short local identifier from the canonical
+ID and combine it with `finding_label`: **SF1 — Descriptive finding title**, never
+**PM1-F1 — Descriptive finding title**. Do not store a second identifier or renumber
+canonical IDs. Stage 2A authors a concise, precise descriptive label aligned with
+the assessed proposition; labels do not imply broader dietary or clinical effects.
+Map every headline Finding to an explicit Section 4 explanation. Reuse the derived
+SF identifier and exact descriptive label in its paragraph heading, with reciprocal
+links. Apply the shared combined Section 4 heading and dynamic Finding count;
+do not create one headline Finding per study or silently change scientific scope.
+Follow the [shared PM presentation rule](primary-mechanism-schema.md#pm-scientific-findings--canonical-41-legacy-51)
+for dynamic section counts, intervention links, SEC and Evidence & Audit identity.
 
 Legacy `SF-PM8-n` ids on the former PM8 page (now PM9) were migrated to `PM9-Fn` / `PM9-IC1` when the production
 contract was established.

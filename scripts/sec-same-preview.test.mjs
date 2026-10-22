@@ -5,6 +5,7 @@ import vm from 'node:vm';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
+import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
 import {compile} from '@mdx-js/mdx';
 import {sameAudits} from '../src/components/SecCalibrationPreview/sameAudit.mjs';
 import {sameCuratedReferences, sameSourcesFor} from '../src/components/SecCalibrationPreview/sameSources.mjs';
@@ -15,7 +16,7 @@ import * as sourceData from '../src/components/SecCalibrationPreview/sameSources
 import * as auditData from '../src/components/SecCalibrationPreview/sameAudit.mjs';
 import * as presentationData from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 
-const read = p => fs.readFileSync(p, 'utf8');
+const read = readPilotBaseline;
 const path = 'docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx';
 const canonical = matter(read(path));
 const preview = matter(read('docs/system/sec-calibration/same-synthesis.mdx'));
@@ -100,7 +101,7 @@ test('actual React preview renders provenance, proposed score, limitations and u
   const js=ts.transpileModule(read('src/components/SecCalibrationPreview/SamePreview.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sfJs=ts.transpileModule(read('src/components/ScientificFinding.tsx'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020,jsx:ts.JsxEmit.ReactJSX,esModuleInterop:true}}).outputText;
   const sf={exports:{}};
-  new Function('exports','require','module',sfJs)(sf.exports,id=>id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
+  new Function('exports','require','module',sfJs)(sf.exports,id=>id==='./SecAssessment'?{SecAssessmentSummary(){throw new Error('Legacy finding must not render a referenced assessment');}}:id==='../client/brsFmHubDropdown'?{initBrsFmHubDropdowns(){}}:require(id),sf);
   const mod={exports:{}};
   const localRequire=id=>id==='./sameSources.mjs'?sourceData:id==='./sameAudit.mjs'?auditData:id==='./auditPresentation.mjs'?presentationData:id.endsWith('.module.css')?{}:id==='../ScientificFinding'?sf.exports:id==='../EvidenceConfidenceIndicator'?({score})=>React.createElement('span',null,score===null?'Not scored':score+'/8'):id==='../PmDietaryLeverEnhancer'?()=>null:require(id);
   new Function('exports','require','module',js)(mod.exports,localRequire,mod);

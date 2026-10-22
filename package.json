@@ -21,6 +21,8 @@
     "mechanisms:migrate-sm-profile-a": "node scripts/migrate-sm-legacy-to-profile-a.mjs",
     "findings:sync": "node scripts/sync-pm-scientific-findings.mjs",
     "findings:check": "node scripts/sync-pm-scientific-findings.mjs --check",
+    "sec:check": "node scripts/check-sec-assessments.mjs",
+    "test:sec-integration": "node --test scripts/sec-assessment-integration.test.mjs scripts/sec-canonical-integration.test.mjs",
     "test:scientific-findings": "node --test scripts/scientific-findings.test.mjs",
     "test:brs1-dopamine-stage1": "node --test scripts/brs1-dopamine-stage1.test.mjs",
     "test:dietary-lever-traceability": "node --test scripts/dietary-lever-traceability.test.mjs",
@@ -121,7 +123,8 @@
     "mappings:all": "node scripts/generate-all-input-mappings.mjs",
     "mappings:food-strategies": "node scripts/generate-food-strategy-rollup.mjs",
     "prestart": "node scripts/generate-all-input-mappings.mjs",
-    "prebuild": "node scripts/generate-all-input-mappings.mjs"
+    "prebuild": "node scripts/check-sec-assessments.mjs && node scripts/generate-all-input-mappings.mjs",
+    "predeploy": "node scripts/check-sec-assessments.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",

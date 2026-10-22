@@ -25,12 +25,19 @@ function analyticalQualification(obs: any): string {
         obs.limitations !== obs.source_note ? obs.limitations : null].filter(Boolean);
     return [...new Set(publicNotes.length ? publicNotes : [obs.limitations || obs.source_note].filter(Boolean))].join(' ');
 }
+/** Provenance alone is not a public analytical qualification. Keep it on the food page. */
+function hasCompactFoodMeasurement(obs: any): boolean {
+    return obs?.verified === true && typeof obs.display === 'string' && !!obs.display.trim()
+        && /^per\s*100\s*g\s+(edible portion|edible material|of food)$/i.test(obs.basis || '')
+        && !obs.public_note && !obs.material_limitations && !obs.notes
+        && (!obs.limitations || obs.limitations === obs.source_note);
+}
 function strongestAmount(source: any): number {
     const values = (source.observations || []).filter((o: any) => o.verified === true)
         .flatMap((o: any) => [o.high, o.low]).filter((v: any) => typeof v === 'number' && Number.isFinite(v));
     return values.length ? Math.max(...values) : -Infinity;
 }
-/** One display item per canonical observation; preparation alone does not define comparability. */
+/** Keep measured observations distinct; qualitative provenance does not multiply food rows. */
 export function selectFoodDisclosureSources(sources: any[]): any[] {
     const seen = new Set<string>();
     const items = sources.flatMap(source => {
@@ -38,6 +45,9 @@ export function selectFoodDisclosureSources(sources: any[]): any[] {
         if (source.observations?.length && !source.observations.some(visible)) return [];
         const observations = source.observations?.length ? source.observations.filter(visible) : (source.presence_records || [])
             .filter((record: any) => !['internal-only', 'excluded-error', 'substance-only'].includes(record.public_display))
+            // All presence records remain on the source. One display row represents
+            // this canonical food/substance/material/preparation identity.
+            .slice(0, 1)
             .map((record: any) => ({ ...record, verified: false, source_note: record.source_note || record.evidence }));
         return (observations.length ? observations : [null]).flatMap((obs: any) => {
             const key = obs?.id || obs?.record || JSON.stringify([source.id, obs]);
@@ -109,6 +119,9 @@ export function renderFoodSourceItem(source: any): string {
         : '';
     const qualityClass = missingPreparation ? ' pm-input-food-source-meta--review' : '';
     const obs = (source.observations || [])[0] || {};
+    if (hasCompactFoodMeasurement(obs)) {
+        return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${esc(obs.display)} per 100 g · ${formatFoodPrep(source)}</span>`;
+    }
     const qualification = analyticalQualification(obs);
     const detail = qualification ? ` · Studied material: ${esc(source.material || 'not reported')} · Analytical qualification: ${esc(qualification)}` : '';
     const comparison = source.comparisonNotice ? ` <span>${esc(source.comparisonNotice)}</span>` : '';
@@ -117,6 +130,7 @@ export function renderFoodSourceItem(source: any): string {
 }
 export function renderProvenance(source: any): string {
     const obs = source.observations[0];
+    if (hasCompactFoodMeasurement(obs)) return '';
     if (!obs || !analyticalQualification(obs) || !obs.source_note) return '';
     return `<details><summary>Measurement provenance</summary><p>${esc(obs.source_note)}</p>${obs.source_url && /^https?:\/\//.test(obs.source_url) ? `<a href="${esc(obs.source_url)}">Original source</a>` : ''}</details>`;
 }

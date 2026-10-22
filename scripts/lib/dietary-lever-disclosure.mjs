@@ -4,6 +4,7 @@
  */
 
 import { evidenceSourceReferenceNumbers } from "./dietary-input-traceability.mjs";
+import {findingReaderLabel} from '../../src/lib/scientificFindingPresentation.mjs';
 import {
   formatRequirementCompactQualifier,
   formatUpstreamIndicatorText,
@@ -65,7 +66,7 @@ function supportingFindingLink(data, findingId) {
   if (!finding) return null;
   const label = String(finding.finding_label || "").trim();
   if (!label) return null;
-  return { id, label, href: `#${id.toLowerCase()}` };
+  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
 }
 
 function evidenceSourceReferences(data, evidenceSource, { directHref = false } = {}) {

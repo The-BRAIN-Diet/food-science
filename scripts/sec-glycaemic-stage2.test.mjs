@@ -4,12 +4,13 @@ import fs from 'node:fs';
 import {execFileSync} from 'node:child_process';
 import {createRequire} from 'node:module';
 import matter from 'gray-matter';
+import {readPilotBaseline} from './lib/sec-pilot-baseline.mjs';
 import {stage2Assessment, stage2Studies, stage2Candidates, proposedSops, proposedLifestyle, stage2Audits, stage2Findings, expandedGlycaemicAudits, stage2DisplayData, hubScreen} from '../src/components/SecCalibrationPreview/glycaemicStage2.mjs';
 import {glycaemicAudits} from '../src/components/SecCalibrationPreview/glycaemicAudit.mjs';
 import {secAssessmentStatusErrors} from '../src/components/SecCalibrationPreview/assessmentAudit.mjs';
 import {assessmentPresentation} from '../src/components/SecCalibrationPreview/auditPresentation.mjs';
 import * as stage2Data from '../src/components/SecCalibrationPreview/glycaemicStage2.mjs';
-const read = path => fs.readFileSync(path,'utf8');
+const read = readPilotBaseline;
 const root = 'src/components/SecCalibrationPreview/';
 const canonicalPath = 'docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx';
 const original = matter(read(canonicalPath)).data;
@@ -147,7 +148,7 @@ test('actual isolated React components render selected protocols, closed audit a
   }
 });
 
-test('canonical PMs, GABA, archived audit, methodology and governing contracts remain byte-identical', () => {
+test('archived pilot PMs, GABA, audit, methodology and governing contracts remain byte-identical', () => {
   for (const path of [canonicalPath,`${root}glycaemicAudit.mjs`,'docs/system/sec-calibration/gaba.mdx',
     'system/primary-mechanism-schema.md','system/scientific-finding-schema.md','system/dietary-input-traceability-contract.md',
     'system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html']) {

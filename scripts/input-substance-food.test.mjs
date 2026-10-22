@@ -290,7 +290,8 @@ test('rollout records every accepted atom decision and retains evidence and prec
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
- assert.equal(s.strategies.length,25);assert.equal(s.relationships.length,27);
+ // PM2's two protocols plus the two independently assessed PM8 protocols.
+ assert.equal(s.strategies.length,29);assert.equal(s.relationships.length,30);
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
   const file=r.source_record.split('#')[0],source=matter(fs.readFileSync(file,'utf8')).data;

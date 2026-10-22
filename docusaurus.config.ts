@@ -95,6 +95,7 @@ function localInternalDocsPlugin() {
       return {
         resolve: {
           alias: {
+            './framework-qc-public.fallback.json': generatedQcPath,
             [fallbackQcPath]: generatedQcPath,
           },
         },

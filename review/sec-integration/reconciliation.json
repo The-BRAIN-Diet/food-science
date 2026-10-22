@@ -1,0 +1,439 @@
+{
+  "date": "2026-10-18",
+  "canonicalMain": "e360e38bcd6864e5e4021f7add74dc4611befd55",
+  "base": "98f7294088f1475c101cb0ff01ae11dc74d4af51",
+  "records": [
+    {
+      "slug": "gaba",
+      "pmId": "BRS1-FM4-PM9",
+      "canonical": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "originalSections": [
+        "## 1. Mission & Overview + Dietary Levers",
+        "## 2. Primary Biological Effects",
+        "## 3. Intervention Levers",
+        "## 4. Mechanistic Basis",
+        "## 5. BRS Pathways and Connections",
+        "## 7. Phenome Connections",
+        "## 8. References"
+      ],
+      "changes": [
+        "Retain F1 conditional 4/8 and F2 conditional 5/8; align statement, summary and synthesis to the assessed propositions.",
+        "Correct PDXK/PNPO activation and Tang sheep-brain identity; retain original study citations and archive.",
+        "Correct F6 anxiety comparator: p=0.140 interaction, not established efficacy versus placebo; preserve positive visual result.",
+        "Preserve F3-F7 and IC1 as bounded contextual/interpretive records, with explicit unscored audit assessments.",
+        "Remove generic legacy preparation and lifestyle advice from proposed public interventions; retain original body in canonical archive."
+      ],
+      "dietaryDecisions": "Existing dietary_input_traceability, dietary_lever_atoms, dietary_lever_presentations and KC decisions preserved without scientific reclassification.",
+      "selectedSops": [],
+      "selectedLifestyle": [],
+      "hubReview": [
+        [
+          "Food Preparation & Delivery",
+          "Generic protein pairing, sprouting and fish-preparation advice does not establish the PM9 glutamate/PLP relationship; not selected. Existing B6 dietary provision is preserved."
+        ],
+        [
+          "Conditional Supplementation",
+          "Field B6 trial: visual endpoint positive, anxiety comparator inconclusive and GABA synthesis unmeasured. Severe deficiency/genetic cofactor-inactivation evidence is not ordinary dietary enhancement; no high-dose SOP selected."
+        ],
+        [
+          "Dietary & Fasting Protocols",
+          "Existing Erecinska synaptosome and Zhang ketotic-rat tracer evidence is contextual. Label incorporation, metabolic adaptation and species limits prevent a general human ketogenic/GAD recommendation; retain for protocol-specific follow-up, not scientific rejection."
+        ],
+        [
+          "Light & Circadian Optimisation",
+          "Legacy meal-timing assertion lacks an attached exact GAD/PLP protocol or established chain in the assessed records. No light/circadian intervention admitted for V1; no literature-wide absence claim."
+        ],
+        [
+          "Stress & Autonomic Regulation",
+          "Generic stress-recovery advice has no exact PM9 synthesis relationship established in the assessed records; not selected as a protocol. Concentration or signalling changes cannot silently become synthesis-capacity claims."
+        ],
+        [
+          "Lifestyle Priorities",
+          "Generic exercise/timing assertions are not PM9-specific public levers on the reviewed evidence. Relevant behaviour and concentration evidence remains contextual, not discarded."
+        ]
+      ],
+      "archivedInterventions": [
+        "Complementary protein pairing/distributed protein",
+        "Soaking or sprouting phytate-rich foods",
+        "Gentle fish cooking/EPA-DHA preservation",
+        "Meal timing/circadian eating",
+        "Physical activity/stress recovery"
+      ],
+      "candidateDecisions": [],
+      "unresolved": [
+        "F1 and F2 B/P/R verification remains conditional; no promotion.",
+        "Contextual F3-F7 complete SEC appraisals remain unfinished; no synthesis or intervention efficacy inferred."
+      ]
+    },
+    {
+      "slug": "glycaemic-variability",
+      "pmId": "BRS6-FM1-PM2",
+      "canonical": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "originalSections": [
+        "## 1. Mission & Overview",
+        "## 2. Primary Biological Effects",
+        "## 3. Intervention Levers",
+        "## 4. Mechanistic Basis",
+        "## 5. BRS Pathways and Connections",
+        "## 7. Phenome Connections",
+        "## 8. References"
+      ],
+      "changes": [
+        "F1 narrowed and explicitly reassessed: old causal 2/8 archived; scoped observational proposition 4/8.",
+        "F2 acute fish/rice evidence and 4/8 retained, but not a leading SOP: only acute meal dispersion, narrow food/population protocol and limited transportability.",
+        "F3 association includes independent null evidence; F4 remains acute exposure context, not a PM2 variability intervention.",
+        "Select two dietary SOPs (grain processing package, early/front-loaded eating) and two lifestyle protocols (interval walking, brief vigorous bouts), each with exact Finding and six-atom evidence links.",
+        "Retire broad legacy aerobic advice and fish/rice leading placement in the draft only; preserve source records and candidate decisions."
+      ],
+      "dietaryDecisions": "Existing dietary_input_traceability, dietary_lever_atoms, dietary_lever_presentations and KC decisions preserved without scientific reclassification.",
+      "selectedSops": [
+        {
+          "atom_id": "PM2-SOP-2",
+          "input": "Less-processed whole-grain food package (two-week trial)",
+          "input_type": "dietary protocol",
+          "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F5"
+            ],
+            "citation_keys": [
+              "stage2-ref-aberg"
+            ]
+          },
+          "evidence_limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+          "dietary_input": true,
+          "dietary_input_note": "Dietary SOP, not a nutritional capacity requirement.",
+          "optimisation_category": "food_prep",
+          "description_finding_id": "PM2-F5",
+          "reader_description": "31 adults with type 2 diabetes; 28 completed. Two-week crossover: intact oats, brown rice and coarse/kibbled bread versus matched finely processed whole-grain products; at least two-week washout."
+        },
+        {
+          "atom_id": "PM2-SOP-3",
+          "input": "Early eating with front-loaded calories (six-day trial)",
+          "input_type": "dietary protocol",
+          "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F6"
+            ],
+            "citation_keys": [
+              "stage2-ref-bruno",
+              "stage2-ref-jamshed"
+            ]
+          },
+          "evidence_limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+          "dietary_input": true,
+          "dietary_input_note": "Dietary SOP, not a nutritional capacity requirement.",
+          "optimisation_category": "dietary_protocols",
+          "description_finding_id": "PM2-F6",
+          "reader_description": "10 adults with prediabetes and overweight/obesity. Six days of matched weight-maintenance food: 08:00-16:00, 80% of calories before 14:00, versus usual later distribution; randomised crossover without washout."
+        }
+      ],
+      "selectedLifestyle": [
+        {
+          "atom_id": "PM2-LIFE-2",
+          "input": "Supervised interval walking (two-week trial)",
+          "input_type": "physical activity",
+          "biological_role": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F7"
+            ],
+            "citation_keys": [
+              "stage2-ref-karstoft"
+            ]
+          },
+          "evidence_limitation": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+          "dietary_input": false,
+          "dietary_input_note": "Non-dietary exercise relationship.",
+          "optimisation_category": null,
+          "description_finding_id": "PM2-F7",
+          "reader_description": "14 adults with type 2 diabetes; 13 usable CGM records. Randomised crossover: ten supervised 60-minute sessions over two weeks, alternating three-minute slower/faster walking; continuous and inactive comparator periods, multiweek washout."
+        },
+        {
+          "atom_id": "PM2-LIFE-3",
+          "input": "Four brief vigorous activity bouts daily (48-hour trial)",
+          "input_type": "physical activity",
+          "biological_role": "Four brief vigorous bodyweight bouts daily produced small secondary continuous glucose monitoring (CGM) variability improvements over 48 hours in inactive adults with well-controlled type 2 diabetes; the primary mean-glucose contrast was not significant.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F8"
+            ],
+            "citation_keys": [
+              "stage2-ref-babir"
+            ]
+          },
+          "evidence_limitation": "Small secondary effects without multiplicity adjustment; short washout permits carryover. Not evidence for gentle walking or lasting clinical benefit.",
+          "dietary_input": false,
+          "dietary_input_note": "Non-dietary exercise relationship.",
+          "optimisation_category": null,
+          "description_finding_id": "PM2-F8",
+          "reader_description": "31 inactive adults with well-controlled, non-insulin-treated type 2 diabetes. Two 48-hour crossover periods: four one-minute vigorous bodyweight bouts daily versus usual activity; at least one hour between bouts, encouraged after meals."
+        }
+      ],
+      "hubReview": [
+        [
+          "Food Preparation & Delivery",
+          "Aberg processing package selected; resistant-starch/cooling distinctions and meal-specific versus daily outcomes retained."
+        ],
+        [
+          "Conditional Supplementation",
+          "No generic nutrient-capacity requirement or supplement effect on PM2 variability inferred from exposure-only results."
+        ],
+        [
+          "Dietary & Fasting Protocols",
+          "Early/front-loaded eating selected; exact fish/rice evidence retained but not leading. Whey, vinegar and complex preloads retain protocol-specific positive/null outcomes in original candidate audit."
+        ],
+        [
+          "Light & Circadian Optimisation",
+          "Early eating is the tested dietary package, not proof of a light-specific or isolated clock mechanism."
+        ],
+        [
+          "Stress & Autonomic Regulation",
+          "Original bounded screen retained contextual/mixed results; no isolated PM2 protocol selected."
+        ],
+        [
+          "Lifestyle Priorities",
+          "Interval walking and brief vigorous bouts selected with population/medication boundaries; post-meal walking and sitting-break exposure evidence is not automatically variability evidence."
+        ]
+      ],
+      "archivedInterventions": [
+        {
+          "atom_id": "PM2-SOP-1",
+          "food_strategy_scope": "dietary-protocol",
+          "food_strategy_id": "food-strategy-053016fdaaca",
+          "input": "Fish before rice in the studied meal sequence",
+          "input_type": "meal sequencing protocol",
+          "biological_role": "This sequence reduced measured acute variability in the diabetes comparison.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F2"
+            ],
+            "citation_keys": [
+              "kuwata_meal_sequence_2016"
+            ]
+          },
+          "evidence_limitation": "One meal protocol does not establish a universal effect across diets or populations.",
+          "optimisation_category": "dietary_protocols",
+          "reader_description": "This sequence reduced measured acute variability in the diabetes comparison.",
+          "description_finding_id": "PM2-F2"
+        },
+        {
+          "atom_id": "PM2-LIFE-1",
+          "input": "Regular aerobic activity (studied seven-day programme)",
+          "input_type": "recurrent physical activity",
+          "biological_role": "The studied programme reduced CGM excursion frequency, magnitude and duration.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM2-F1"
+            ],
+            "citation_keys": [
+              "mikus_2012_22311420"
+            ]
+          },
+          "evidence_limitation": "Small type 2 diabetes before/after study; response in healthy people is not established.",
+          "reader_description": "The studied programme reduced CGM excursion frequency, magnitude and duration.",
+          "description_finding_id": "PM2-F1"
+        }
+      ],
+      "candidateDecisions": [
+        {
+          "id": "grain",
+          "candidate": "Whole-grain processing/food matrix",
+          "decision": "Proposed SOP",
+          "finding": "PM2-F5",
+          "studies": [
+            "aberg",
+            "wheat"
+          ],
+          "reason": "Direct daily SD and MAGE evidence for the tested package; not a generic whole-grain claim.",
+          "owner": "PM2; no ownership transfer"
+        },
+        {
+          "id": "timing",
+          "candidate": "Defined early eating/calorie distribution",
+          "decision": "Proposed SOP",
+          "finding": "PM2-F6",
+          "studies": [
+            "bruno",
+            "jamshed"
+          ],
+          "reason": "MAGE measured directly; small studies, mixed endpoints and differing protocols retained.",
+          "owner": "PM2; circadian links contextual"
+        },
+        {
+          "id": "sequence",
+          "candidate": "Fish fifteen minutes before rice",
+          "decision": "Retained evidence; not selected for leading V1 SOP",
+          "finding": "PM2-F2",
+          "studies": [
+            "trico",
+            "shukla",
+            "touhamy"
+          ],
+          "reason": "Acute fish/rice dispersion is relevant but narrow; direct daylong food-package and early-eating evidence takes priority. Not scientifically rejected.",
+          "owner": "PM2 acute component; broader sequence claims unresolved"
+        },
+        {
+          "id": "interval",
+          "candidate": "Supervised interval walking training",
+          "decision": "Proposed lifestyle lever",
+          "finding": "PM2-F7",
+          "studies": [
+            "karstoft"
+          ],
+          "reason": "Direct MAGE contrast against inactive control; exact training protocol only.",
+          "owner": "PM2; other aerobic programmes not interchangeable"
+        },
+        {
+          "id": "snacks",
+          "candidate": "Brief vigorous bodyweight exercise bouts",
+          "decision": "Proposed lifestyle lever",
+          "finding": "PM2-F8",
+          "studies": [
+            "babir"
+          ],
+          "reason": "Small secondary variability effects despite null primary mean; qualified pilot option, not universal advice.",
+          "owner": "PM2; capacity/medication suitability requires individual assessment"
+        },
+        {
+          "id": "whey",
+          "candidate": "Seven-day whey preloads",
+          "decision": "Not admitted to PM2 preview",
+          "studies": [
+            "smith"
+          ],
+          "reason": "Positive mean/time-in-range effects but no established CV/MAGE improvement.",
+          "owner": "Preserve for PM1/PM3 mission check; not automatically admitted there"
+        },
+        {
+          "id": "mct",
+          "candidate": "MCT with/without later whey",
+          "decision": "Retained, not selected",
+          "studies": [
+            "pabla"
+          ],
+          "reason": "Specific acute CV result; complex unmasked package, primary exposure null. Not interchangeable with whey alone.",
+          "owner": "PM2 candidate for protocol-level adjudication, not scientifically rejected"
+        },
+        {
+          "id": "starch",
+          "candidate": "Resistant-starch substitution/cooling",
+          "decision": "Retained, not selected",
+          "studies": [
+            "collins",
+            "sonia"
+          ],
+          "reason": "Bespoke substitution has meal-specific MAGE evidence but daily SD null; cooling evidence is exposure-only. No common preparation rule established.",
+          "owner": "Keep PM2 meal-specific candidate; PM1/PM3 exposure follow-up separately"
+        },
+        {
+          "id": "acid",
+          "candidate": "Vinegar/acidic additions",
+          "decision": "Not admitted to PM2 preview",
+          "studies": [
+            "liatis"
+          ],
+          "reason": "High-index exposure positive, low-index null; no verified variability proposition.",
+          "owner": "Preserve for PM1/PM3 mission check; not automatic ownership or recommendation"
+        },
+        {
+          "id": "postmeal",
+          "candidate": "Ten-minute post-meal walking",
+          "decision": "Not admitted to PM2 preview",
+          "studies": [
+            "reynolds"
+          ],
+          "reason": "Meal exposure positive, measured MAGE/CONGA contrasts null or inconclusive.",
+          "owner": "Preserve for PM1/PM3 mission check; evidence not discarded"
+        },
+        {
+          "id": "sitting",
+          "candidate": "Walking/resistance sitting interruptions",
+          "decision": "Not admitted to PM2 preview",
+          "finding": "PM2-F4",
+          "studies": [
+            "dempsey",
+            "bailey"
+          ],
+          "reason": "Original Dunstan/independent Bailey evidence concerns acute exposure; different free-living CV study null, Dempsey variability unresolved.",
+          "owner": "Preserve existing SF4 and 6/8 exposure score; PM1/PM3 follow-up only"
+        },
+        {
+          "id": "aerobic",
+          "candidate": "Generic aerobic/resistance exercise",
+          "decision": "No blanket admission",
+          "finding": "PM2-F1",
+          "studies": [
+            "karstoft",
+            "resistance"
+          ],
+          "reason": "Uncontrolled seven-day evidence and heterogeneous protocols cannot establish every exercise mode; precise interval protocol evaluated separately.",
+          "owner": "Existing SF1 retained; broader PM3 and exercise ownership review proposed"
+        }
+      ],
+      "unresolved": [
+        "New intervention admissions and proposed identifier allocation require approval.",
+        "Touhamy and Dempsey targeted recovery gaps remain parked; not prerequisites for selecting other well-appraised protocols."
+      ]
+    },
+    {
+      "slug": "same-synthesis",
+      "pmId": "BRS2-FM1-PM3",
+      "canonical": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "originalSections": [
+        "## 1. Mission & Overview",
+        "## 2. Primary Biological Effects",
+        "## 3. Intervention Levers",
+        "## 4. Mechanistic Basis",
+        "## 5. BRS Pathways and Connections",
+        "## 7. Phenome Connections",
+        "## 8. References"
+      ],
+      "changes": [
+        "F1/F4 become unscored curated biochemical provenance in proposed reader presentation, retaining identities and complete historical evidence.",
+        "F2/F3 remain bounded evidence gaps, IC1 remains interpretive, F5 proposed experimental stability synthesis retains provisional 5/8.",
+        "Explicitly retain conflicting ATP-first versus random substrate-binding models; do not assert settled kinetic order.",
+        "Remove unsupported legume-preparation SOPs from public draft; no PM3-specific lifestyle protocol admitted."
+      ],
+      "dietaryDecisions": "Existing dietary_input_traceability, dietary_lever_atoms, dietary_lever_presentations and KC decisions preserved without scientific reclassification.",
+      "selectedSops": [],
+      "selectedLifestyle": [],
+      "hubReview": [
+        [
+          "Food Preparation & Delivery",
+          "Legume cooking/protein preparation concerns delivery and meal quality, not an independently established MAT-optimisation protocol. Methionine/protein delivery records remain intact."
+        ],
+        [
+          "Conditional Supplementation",
+          "Exogenous SAMe or combined folate/B12 mood-treatment evidence does not isolate endogenous MAT capacity. Accepted upstream supply remains; no supplementation SOP inferred."
+        ],
+        [
+          "Dietary & Fasting Protocols",
+          "Corrillero dietary-pattern study measures circulating pools, not isolated MAT flux. Wan 2024 ketogenic liver-tumour work has a specific pathological model and different objective; not a general healthy-brain optimisation recommendation."
+        ],
+        [
+          "Light & Circadian Optimisation",
+          "No exact light/timing MAT-capacity relationship established in the reviewed source set; no V1 protocol, without asserting that none could exist."
+        ],
+        [
+          "Stress & Autonomic Regulation",
+          "Generic demand/ATP plausibility is not an independently supported MAT-specific intervention relationship; no protocol selected."
+        ],
+        [
+          "Lifestyle Priorities",
+          "Intracellular ATP dependence does not establish exercise, sleep or timing prescriptions for SAMe synthesis; candidate-specific evidence remains a future improvement."
+        ]
+      ],
+      "archivedInterventions": [
+        "Soak/cook legumes for methionine provision",
+        "Gentle preparation of mixed protein sources"
+      ],
+      "candidateDecisions": [],
+      "unresolved": [
+        "Substrate-binding order remains unresolved.",
+        "KC2 remains unresolved; B12 route retained through PM1, no new PM3 admission."
+      ]
+    }
+  ]
+}

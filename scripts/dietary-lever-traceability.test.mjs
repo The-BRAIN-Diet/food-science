@@ -580,7 +580,7 @@ test("§3 reflects adjudicated PM9 dietary relationships without food mappings",
   assert.ok(!content.includes("Protein matrix ← yogurt, kefir"));
   assert.ok(!content.includes("PM Evidence qualification"));
   assert.ok(!content.includes("Conflict flag"));
-  assert.ok(!content.includes("PM9-DIT-"));
+  assert.ok(!section3.includes("PM9-DIT-"), "Reader-facing dietary prose does not expose evidence atom identifiers");
   assert.equal(data.cofactors?.[0], "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)");
   const issues = [];
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
@@ -1466,6 +1466,44 @@ rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOS
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
 }).outputText,PM_INPUT_FOOD_DISCLOSURE);
 const {renderFoodSourceItem,selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance} = rendererModule.exports;
+
+test('Beetroot betaine resolves the verified USDA quantity while provenance stays on its food page',()=>{
+ const mapping=buildInputSubstanceFood(process.cwd(),{brs:'BRS2'});
+ const source=mapping.food_sources.find(s=>s.food_id==='beetroot'&&s.substance_id==='betaine');
+ assert.ok(source);const obs=source.observations[0];
+ assert.equal(obs.value,130);assert.equal(obs.unit,'mg');assert.equal(obs.verified,true);
+ assert.equal(obs.basis,'per 100 g edible portion');assert.equal(obs.preparation,'raw');
+ assert.equal(obs.source_reference,'#food-source-4');assert.match(obs.source_url,/ars\.usda\.gov.*Choln02\.pdf/);
+ assert.equal(obs.rank_eligible,false);assert.equal(obs.comparison_group,null);
+ const item=selectFoodDisclosureSources([source])[0],$=parseHtml(renderFoodSourceItem(item));
+ assert.equal($.text(),'Beetroot — 130 mg per 100 g · raw');
+ assert.equal($('a').length,1);assert.equal($('a').attr('href'),'/docs/foods/beetroot');
+ assert.doesNotMatch($.text(),/Patterson|Analytical qualification|Studied material|ranking|Source/);
+ assert.equal(renderProvenance(item),'');
+ const food=fs.readFileSync('docs/foods/beetroot.md','utf8');
+ assert.match(food,/id="food-source-4"/);assert.match(food,/BRAIN-Diet-References#patterson_choline_2008/);
+ assert.match(food,/130 mg betaine per 100 g of raw beets/);
+});
+
+test('Spinach and wheat germ presence provenance produces one row each without deleting evidence',()=>{
+ const mapping=buildInputSubstanceFood(process.cwd(),{brs:'BRS2'});
+ const sources=mapping.food_sources.filter(s=>s.substance_id==='betaine'&&['spinach','wheat-germ'].includes(s.food_id));
+ assert.equal(sources.length,2);
+ assert.ok(sources.every(s=>s.observations.length===0&&s.presence_records.length===2));
+ const before=structuredClone(sources),selected=selectFoodDisclosureSources(sources);
+ assert.equal(selected.length,2);
+ for(const id of ['spinach','wheat-germ']) {
+  const rows=selected.filter(s=>s.food_id===id);assert.equal(rows.length,1);
+  assert.equal(rows[0].presence_records.length,2);
+  assert.match(parseHtml(renderFoodSourceItem(rows[0])).text(),/quantity not established/);
+ }
+ assert.deepEqual(sources,before);
+ // A separately recorded preparation remains distinct, even without a quantity.
+ const cooked={...structuredClone(sources[0]),id:'spinach::betaine::spinach cooked::cooked',material:'Spinach, cooked',preparation:'cooked'};
+ cooked.presence_records=cooked.presence_records.map(p=>({...p,record:p.record+'-cooked-fixture'}));
+ assert.equal(selectFoodDisclosureSources([...sources,cooked]).filter(s=>s.food_id==='spinach').length,2);
+});
+
 const c1Source = (food, substance, value, extra={}) => ({
  id:food+'::'+substance,food_id:food,food_title:food==='chicken'?'Chicken':'Chickpeas',
  food_page:'/docs/foods/'+food,substance_id:substance,material:food==='chicken'?'Chicken breast':'Chickpea',preparation:'unknown',

@@ -7,6 +7,7 @@
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
 const CITE_MARKER_RE = /\{\{cite:([^}]+)\}\}/g;
+export const PM_LOCAL_SOURCE_HEADING = '### PM-local source records';
 
 export function citationKeyFromPmReferenceLine(line) {
   const m = String(line || "").match(REF_LINE_RE);
@@ -131,7 +132,10 @@ export function replacePmReferencesSection(content, referencesBlock) {
   const after = content.slice(start);
   const next = after.slice(1).search(/^## \d+\. /m);
   const end = next === -1 ? content.length : start + 1 + next;
-  return `${content.slice(0, start).trimEnd()}\n\n${referencesBlock}\n\n${content.slice(end).trimStart()}`;
+  const local = content.slice(start,end).split(PM_LOCAL_SOURCE_HEADING);
+  if(local.length>2)throw new Error('Duplicate PM-local source annex; refusing to overwrite authored references');
+  const annex = local.length===2 ? '\n\n'+PM_LOCAL_SOURCE_HEADING+local[1].trimEnd() : '';
+  return `${content.slice(0, start).trimEnd()}\n\n${referencesBlock}${annex}\n\n${content.slice(end).trimStart()}`;
 }
 
 export function validatePmReferenceIntegrity(
@@ -171,7 +175,9 @@ export function validatePmReferenceIntegrity(
   const after = String(content).slice(start);
   const next = after.slice(1).search(/^## \d+\. /m);
   const end = next === -1 ? String(content).length : start + 1 + next;
-  const actual = String(content).slice(start, end).trimEnd();
+  const referenceParts=String(content).slice(start,end).split(PM_LOCAL_SOURCE_HEADING);
+  const actual = referenceParts[0].trimEnd();
+  if(referenceParts.length>2)issues.push({code:'pm_local_sources_duplicate',message:`${entityLabel}: only one explicit PM-local source annex is permitted`});
   if (actual !== expected) {
     issues.push({
       code: "pm_references_section_stale",

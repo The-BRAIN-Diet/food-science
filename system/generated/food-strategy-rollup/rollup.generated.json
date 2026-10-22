@@ -116,8 +116,7 @@
       "scope": "dietary-protocol",
       "category": "dietary_protocols",
       "relationship_ids": [
-        "BRS6-FM1-PM1::PM1-SOP-2",
-        "BRS6-FM1-PM2::PM2-SOP-1"
+        "BRS6-FM1-PM1::PM1-SOP-2"
       ]
     },
     {
@@ -193,6 +192,24 @@
       ]
     },
     {
+      "id": "food-strategy-485ec8fa28a2",
+      "title": "Less-processed whole-grain food package (two-week trial)",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "relationship_ids": [
+        "BRS6-FM1-PM2::PM2-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-e67a5bf54b65",
+      "title": "Early eating with front-loaded calories (six-day trial)",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM1-PM2::PM2-SOP-3"
+      ]
+    },
+    {
       "id": "food-strategy-4601009eb275",
       "title": "Diet-induced weight reduction when excess adiposity is relevant",
       "scope": "dietary-protocol",
@@ -218,6 +235,24 @@
       "category": "conditional_supplementation",
       "relationship_ids": [
         "BRS6-FM3-PM7::PM7-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-brs6-pm8-marine-omega3",
+      "title": "Marine omega-3 formulations in selected metabolic contexts",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "relationship_ids": [
+        "BRS6-FM4-PM8::PM8-SOP-2"
+      ]
+    },
+    {
+      "id": "food-strategy-brs6-pm8-tread-10h",
+      "title": "Ten-hour eating window for adults with obesity and long baseline eating windows",
+      "scope": "mixed-food-and-timing",
+      "category": "dietary_protocols",
+      "relationship_ids": [
+        "BRS6-FM4-PM8::PM8-SOP-3"
       ]
     },
     {
@@ -767,27 +802,53 @@
       "substance_ids": []
     },
     {
-      "id": "BRS6-FM1-PM2::PM2-SOP-1",
-      "strategy_id": "food-strategy-053016fdaaca",
+      "id": "BRS6-FM1-PM2::PM2-SOP-2",
+      "strategy_id": "food-strategy-485ec8fa28a2",
       "brs": "BRS6",
       "fm": "BRS6(FM1)",
       "pm": "BRS6-FM1-PM2",
       "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
-      "input": "Fish before rice in the studied meal sequence",
-      "input_type": "meal sequencing protocol",
-      "scope": "dietary-protocol",
-      "category": "dietary_protocols",
-      "biological_role": "This sequence reduced measured acute variability in the diabetes comparison.",
+      "input": "Less-processed whole-grain food package (two-week trial)",
+      "input_type": "dietary protocol",
+      "scope": "food-preparation",
+      "category": "food_prep",
+      "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
       "evidence": {
         "finding_ids": [
-          "PM2-F2"
+          "PM2-F5"
         ],
         "citation_keys": [
-          "kuwata_meal_sequence_2016"
+          "stage2-ref-aberg"
         ]
       },
-      "limitation": "One meal protocol does not establish a universal effect across diets or populations.",
-      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx#system_optimisation_practices/PM2-SOP-1",
+      "limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx#system_optimisation_practices/PM2-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM1-PM2::PM2-SOP-3",
+      "strategy_id": "food-strategy-e67a5bf54b65",
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_page": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "input": "Early eating with front-loaded calories (six-day trial)",
+      "input_type": "dietary protocol",
+      "scope": "dietary-protocol",
+      "category": "dietary_protocols",
+      "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+      "evidence": {
+        "finding_ids": [
+          "PM2-F6"
+        ],
+        "citation_keys": [
+          "stage2-ref-bruno",
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+      "source_record": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx#system_optimisation_practices/PM2-SOP-3",
       "food_ids": [],
       "substance_ids": []
     },
@@ -877,7 +938,7 @@
       "input_type": "context-specific dietary protocol",
       "scope": "dietary-protocol",
       "category": "dietary_protocols",
-      "biological_role": "The assessed programme changed measured adipose tissue pathways with progressive loss.",
+      "biological_role": "Progressive diet-induced loss altered subcutaneous adipose tissue pathways; moderate initial loss improved insulin action before measured inflammation declined.",
       "evidence": {
         "finding_ids": [
           "PM8-F1"
@@ -886,8 +947,61 @@
           "magkos_weight_loss_adipose_2016"
         ]
       },
-      "limitation": "Small later subgroup and subcutaneous tissue; early loss did not lower measured inflammation.",
+      "limitation": "Later progressive-loss comparisons involved nine participants and were not independently randomized; other depots and unmeasured inflammatory processes remain uncertain.",
       "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#system_optimisation_practices/PM8-SOP-1",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM4-PM8::PM8-SOP-2",
+      "strategy_id": "food-strategy-brs6-pm8-marine-omega3",
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "input": "Marine omega-3 formulations in selected metabolic contexts",
+      "input_type": "conditional supplementation",
+      "scope": "supplementation",
+      "category": "conditional_supplementation",
+      "biological_role": "Tested marine omega-3 formulations altered adipose macrophage, chemokine, transcript or oxylipin endpoints in selected adults, with variable responses.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F6"
+        ],
+        "citation_keys": [
+          "spencer_omega3_adipose_2013",
+          "fisk_omega3_adipose_2022",
+          "hames_omega3_adipose_null_2017"
+        ]
+      },
+      "limitation": "Doses, baseline metabolic state, depot and assays differ; tissue target engagement does not establish improved insulin sensitivity or an ordinary-food equivalent.",
+      "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#system_optimisation_practices/PM8-SOP-2",
+      "food_ids": [],
+      "substance_ids": []
+    },
+    {
+      "id": "BRS6-FM4-PM8::PM8-SOP-3",
+      "strategy_id": "food-strategy-brs6-pm8-tread-10h",
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "input": "Ten-hour eating window for adults with obesity and long baseline eating windows",
+      "input_type": "dietary timing protocol",
+      "scope": "mixed-food-and-timing",
+      "category": "dietary_protocols",
+      "biological_role": "The TREAD protocol increased weight and fat loss, with exploratory subcutaneous inflammatory pathway changes in a selected biopsy subgroup.",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F11"
+        ],
+        "citation_keys": [
+          "wilkinson_tread_adipose_2026",
+          "dote_montero_tre_visceral_2025"
+        ]
+      },
+      "limitation": "TREAD selected the greatest weight losers for RNA-seq, and fat endpoints and populations differed across trials; timing-independent anti-inflammatory benefit is unproven.",
+      "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#system_optimisation_practices/PM8-SOP-3",
       "food_ids": [],
       "substance_ids": []
     },
@@ -1025,7 +1139,12 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
-      "relationship_id": "BRS6-FM1-PM2::PM2-SOP-1",
+      "relationship_id": "BRS6-FM1-PM2::PM2-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM1-PM2::PM2-SOP-3",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     },
     {
@@ -1050,13 +1169,23 @@
     },
     {
       "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM4-PM8::PM8-SOP-2",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
+      "relationship_id": "BRS6-FM4-PM8::PM8-SOP-3",
+      "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
+    },
+    {
+      "kind": "canonical-food-substance-links-not-recorded",
       "relationship_id": "BRS6-FM4-PM9::PM9-SOP-1",
       "reason": "Original strategy remains admitted. Do not infer foods, isolated constituents or dose equivalence from its label."
     }
   ],
   "summary": {
-    "strategies": 25,
-    "relationships": 27,
+    "strategies": 29,
+    "relationships": 30,
     "pms": 12,
     "brs": [
       "BRS1",
