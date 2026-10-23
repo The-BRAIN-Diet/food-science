@@ -18,7 +18,7 @@ inchi_image: /img/inchi/WTJKGGKOPKCXLL-VYOBOKEXSA-N.png
 
 ## Overview
 
-Phosphatidylcholine (PC) is a major phospholipid that is central to neuronal membrane structure and function. It plays a crucial role in membrane fluidity, neurotransmitter receptor function, and serves as a carrier for DHA and EPA. When DHA or EPA are incorporated into PC and converted to lysophosphatidylcholine (LPC), they cross the blood-brain barrier far more efficiently than free fatty acid or triglyceride-bound forms. PC is also involved in acetylcholine synthesis pathways and is a key component of the phospholipid methylation process that influences ion channel behavior and gamma oscillations linked to attention and cognition. Food sources include eggs, fish roe, and liver, and choline intake supports PC synthesis.
+Phosphatidylcholine (PC) is a major phospholipid that is central to neuronal membrane structure and function. It plays a crucial role in membrane fluidity, neurotransmitter receptor function, and serves as a carrier for DHA and EPA. When DHA or EPA are incorporated into PC and converted to lysophosphatidylcholine (LPC), they cross the blood-brain barrier far more efficiently than free fatty acid or triglyceride-bound forms. PC is also involved in acetylcholine synthesis pathways and is a key component of the phospholipid methylation process that influences ion channel behavior and gamma oscillations linked to attention and cognition. Food sources include eggs, fish roe, and liver, and [choline](/docs/substances/bioactive-compounds/choline-methylation/choline) intake supports PC synthesis. The choline page holds the nutrient value. A phosphatidylcholine figure is not that food choline value.
 
 ## Recipes
 

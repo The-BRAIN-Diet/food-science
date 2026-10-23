@@ -10,6 +10,8 @@ tags:
   - Dietary Fibre
   - Resistant starch
   - Gut-Brain Axis & Enteric Nervous System
+aliases:
+  - Resistant potato starch
 mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Resistant starch forms can be microbial substrates. A type 2 mouse diet, resistant potato starch in people, and RS2/RS3 cultures are not one efficacy result.'
 list_image: /img/icons/nutrient.svg
@@ -23,7 +25,7 @@ In aged female mice, a high-fat diet plus 20% type 2 resistant starch for sixtee
 
 ## Dietary Origin
 
-Some cooked-and-cooled starchy foods contain more resistant starch than the hot food. That is a food-matrix fact. The mouse result used 20% type 2 resistant starch added to a high-fat diet [1]. The human butyrate result used a resistant potato starch preparation [2]. The culture result used defined RS2 and RS3 substrates [3]. No food page is linked, because a home-cooled starch is not those exposures.
+Some cooked-and-cooled starchy foods contain more resistant starch than the hot food. That is a food-matrix fact. Green bananas, cooked-and-cooled potatoes, cooked black beans and cooked chickpeas are linked for the preparations those assays measured. The mouse result used 20% type 2 resistant starch added to a high-fat diet [1]. The human butyrate result used a resistant potato starch preparation [2]. The culture result used defined RS2 and RS3 substrates [3]. A home-cooled starch is not the mouse diet, that potato-starch intervention, or those assay conditions.
 
 ## Research Spotlights & Evidence Checks
 

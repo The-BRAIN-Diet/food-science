@@ -20,6 +20,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -56,6 +61,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "butter",
       "food_title": "Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -64,6 +74,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Butter, without salt."
         }
@@ -103,6 +114,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "egg-yolks",
       "food_title": "Egg Yolks",
+      "food_material": "Egg, yolk, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -111,6 +127,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Egg, yolk, raw, fresh."
         }
@@ -150,6 +167,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "ghee",
       "food_title": "Ghee",
+      "food_material": "Butter oil, anhydrous",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -158,6 +180,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Butter oil, anhydrous."
         }
@@ -197,6 +220,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "grass-fed-butter",
       "food_title": "Grass-Fed Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -205,6 +233,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains vitamin A; the generic butter record does not establish a grass-fed-specific amount."
         }
@@ -244,6 +273,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "kale",
       "food_title": "Kale",
+      "food_material": "Kale, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -252,6 +286,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Kale, raw."
         }
@@ -291,6 +326,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "liver",
       "food_title": "Liver",
+      "food_material": "Beef, variety meats and by-products, liver, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -299,6 +339,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Beef, variety meats and by-products, liver, raw."
         }
@@ -338,6 +379,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "romaine-lettuce",
       "food_title": "Romaine Lettuce",
+      "food_material": "Lettuce, cos or romaine, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -346,6 +392,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169247/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Lettuce, cos or romaine, raw."
         }
@@ -385,33 +432,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 330,
-          "unit": "µg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20A",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 0.33,
-          "high": 0.33,
-          "display": "330 µg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 330 µg RAE vitamin A per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -429,7 +465,7 @@
       "limitations": [
         "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
       ],
-      "missing_ontology_edge": "salmon-roe → vitamin-a"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -449,6 +485,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "spinach",
       "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -457,6 +498,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Spinach, raw."
         }
@@ -496,6 +538,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "swiss-chard",
       "food_title": "Swiss Chard",
+      "food_material": "Chard, swiss, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -504,6 +551,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169991/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Chard, swiss, raw."
         }
@@ -543,6 +591,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beef",
       "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -551,6 +604,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)."
         }
@@ -589,6 +643,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "black-beans",
       "food_title": "Black Beans",
+      "food_material": "Beans, black, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -597,6 +656,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Beans, black, mature seeds, raw."
         }
@@ -635,6 +695,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli",
       "food_title": "Broccoli",
+      "food_material": "Broccoli, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -643,6 +708,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Broccoli, raw."
         }
@@ -681,6 +747,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cacao-powder",
       "food_title": "Cacao Powder",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -689,6 +760,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Cocoa, dry powder, unsweetened."
         }
@@ -727,6 +799,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cashews",
       "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -735,6 +812,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Nuts, cashew nuts, raw."
         }
@@ -773,6 +851,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cheddar-cheese",
       "food_title": "Cheddar Cheese",
+      "food_material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -781,6 +864,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Cheese, cheddar (Includes foods for USDA's Food Distribution Program)."
         }
@@ -819,6 +903,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicken",
       "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -827,6 +916,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Chicken, broilers or fryers, meat and skin, raw."
         }
@@ -865,6 +955,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
+      "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -873,6 +968,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
         }
@@ -911,34 +1007,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA SR Legacy, FDC 169993",
-            "food_name": "Chicory roots, raw (Cichorium intybus)",
-            "fdc_id": 169993,
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.33,
-          "unit": "mg",
-          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "record": "docs/foods/chicory-root.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy, FDC 169993",
           "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-          "source_reference": "#food-source-3",
-          "material": "Chicory roots, raw (Cichorium intybus)",
-          "preparation": "raw",
-          "record": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
-          "source_record": "docs/foods/chicory-root.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
-          "rank_eligible": true,
-          "comparison_group": "edible::raw",
-          "low": 0.33,
-          "high": 0.33,
-          "display": "0.33 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 0.33 mg zinc per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
         }
       ],
       "pm_evidence": {
@@ -955,7 +1039,7 @@
       "limitations": [
         "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
       ],
-      "missing_ontology_edge": "chicory-root → zinc"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -975,6 +1059,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cockles",
       "food_title": "Cockles",
+      "food_material": "boiled Austrovenus stutchburyi cockles",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -983,6 +1072,7 @@
           "source_url": "https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Documented in boiled New Zealand cockles; a separate amount for the raw Alaska record is unavailable."
         }
@@ -1021,6 +1111,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cocoa",
       "food_title": "Cocoa",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1029,6 +1124,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Cocoa, dry powder, unsweetened."
         }
@@ -1067,6 +1163,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "crab",
       "food_title": "Crab",
+      "food_material": "Crustaceans, crab, alaska king, cooked, moist heat",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1075,6 +1176,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Documented in edible crab meat; the amount varies with species and preparation."
         }
@@ -1113,6 +1215,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "dark-chocolate",
       "food_title": "Dark Chocolate",
+      "food_material": "Chocolate, dark, 70-85% cacao solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1121,6 +1228,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Chocolate, dark, 70-85% cacao solids."
         }
@@ -1159,6 +1267,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "eggs",
       "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1167,6 +1280,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Egg, whole, raw, fresh."
         }
@@ -1205,6 +1319,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "greek-yogurt",
       "food_title": "Greek Yogurt",
+      "food_material": "Yogurt, Greek, plain, whole milk",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1213,6 +1332,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171304/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Yogurt, Greek, plain, whole milk."
         }
@@ -1251,6 +1371,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lamb",
       "food_title": "Lamb",
+      "food_material": "Lamb, ground, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1259,6 +1384,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Lamb, ground, raw."
         }
@@ -1297,6 +1423,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lentils",
       "food_title": "Lentils",
+      "food_material": "Lentils, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1305,6 +1436,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172420/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Lentils, raw."
         }
@@ -1343,6 +1475,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lupin-beans",
       "food_title": "Lupin Beans",
+      "food_material": "Lupins, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1351,6 +1488,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Lupins, mature seeds, raw."
         }
@@ -1389,6 +1527,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "milk",
       "food_title": "Milk",
+      "food_material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1397,6 +1540,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Milk, whole, 3.25% milkfat, with added vitamin D."
         }
@@ -1435,6 +1579,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mussels",
       "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1443,6 +1592,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Mollusks, mussel, blue, raw."
         }
@@ -1481,32 +1631,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 3.6,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Zinc",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 3.6,
-          "high": 3.6,
-          "display": "3.6 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 3.6 mg zinc per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -1523,7 +1663,7 @@
       "limitations": [
         "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
       ],
-      "missing_ontology_edge": "nori → zinc"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -1543,33 +1683,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nutritional-yeast",
       "food_title": "Nutritional Yeast",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "Marigold Health Foods label",
-            "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
-            "basis": "per 100 g dry product; the label serving is 5 g",
-            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 120,
-          "unit": "mg",
-          "basis": "per 100 g dry product; the label serving is 5 g",
+          "record": "docs/foods/nutritional-yeast.md#substance_relationships/Zinc",
+          "evidence": "Marigold Health Foods label",
           "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
-          "source_reference": "#food-source-3",
-          "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
-          "preparation": "dried",
-          "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
-          "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 120,
-          "high": 120,
-          "display": "120 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Marigold Health Foods label reports 120 mg zinc per 100 g edible portion in Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae."
         }
       ],
       "pm_evidence": {
@@ -1586,7 +1715,7 @@
       "limitations": [
         "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
       ],
-      "missing_ontology_edge": "nutritional-yeast → zinc"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -1606,6 +1735,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oats",
       "food_title": "Oats",
+      "food_material": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1614,6 +1748,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Oats (Includes foods for USDA's Food Distribution Program)."
         }
@@ -1652,6 +1787,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oysters",
       "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1660,6 +1800,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Mollusks, oyster, eastern, wild, raw."
         }
@@ -1698,6 +1839,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "peanuts",
       "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1706,6 +1852,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Peanuts, all types, raw."
         }
@@ -1744,6 +1891,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pork",
       "food_title": "Pork",
+      "food_material": "Pork, fresh, loin, whole, separable lean and fat, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1752,6 +1904,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Pork, fresh, loin, whole, separable lean and fat, raw."
         }
@@ -1790,6 +1943,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pumpkin-seeds",
       "food_title": "Pumpkin Seeds",
+      "food_material": "Seeds, pumpkin and squash seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1798,6 +1956,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Seeds, pumpkin and squash seed kernels, dried."
         }
@@ -1836,6 +1995,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "quinoa",
       "food_title": "Quinoa",
+      "food_material": "Quinoa, uncooked",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1844,6 +2008,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Quinoa, uncooked."
         }
@@ -1882,33 +2047,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 2.1,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Zinc",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 2.1,
-          "high": 2.1,
-          "display": "2.1 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 2.1 mg zinc per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -1925,7 +2079,7 @@
       "limitations": [
         "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
       ],
-      "missing_ontology_edge": "salmon-roe → zinc"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -1945,6 +2099,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "shrimp",
       "food_title": "Shrimp",
+      "food_material": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1953,6 +2112,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174210/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)."
         }
@@ -1991,6 +2151,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sourdough-bread",
       "food_title": "Sourdough Bread",
+      "food_material": "wheat sourdough breads",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1999,6 +2164,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
         }
@@ -2037,6 +2203,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "spinach",
       "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2045,6 +2216,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Spinach, raw."
         }
@@ -2083,6 +2255,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "wheat",
       "food_title": "Wheat",
+      "food_material": "Wheat, hard red winter",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2091,6 +2268,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports zinc in Wheat, hard red winter."
         }
@@ -2129,6 +2307,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "whole-grains",
       "food_title": "Whole Grains",
+      "food_material": "whole wheat grain",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2137,6 +2320,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Documented in whole wheat; content varies among whole grains."
         }
@@ -2175,6 +2359,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2212,6 +2401,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2248,6 +2442,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2284,6 +2483,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2320,6 +2524,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2356,6 +2565,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2392,6 +2606,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2418,9 +2637,9 @@
       "dietary_input": "Citrus pectin",
       "type": "A",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "pectin",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
         "food": "unresolved"
       },
@@ -2428,6 +2647,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2463,16 +2687,48 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "bananas",
-      "food_title": "Green bananas",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
-        "sources": [
-          "https://doi.org/10.1016/j.postharvbio.2016.03.022"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "food_title": "Bananas",
+      "food_material": "Cavendish and plantain bananas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cavendish and plantain bananas",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM4-F3"
@@ -2485,54 +2741,9 @@
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
-        "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield."
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
       ],
-      "missing_ontology_edge": "bananas → resistant-starch"
-    },
-    {
-      "brs": "BRS5",
-      "fm": "BRS5(FM2)",
-      "pm": "BRS5-FM2-PM4",
-      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
-      "dietary_input": "Resistant starch (RS2/RS3)",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "resistant-starch",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "potatoes",
-      "food_title": "Cooked-and-cooled potatoes",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "Resistant starch was measured by cooking method and service temperature.",
-        "sources": [
-          "https://pubmed.ncbi.nlm.nih.gov/27132853/"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
-      "pm_evidence": {
-        "finding_ids": [
-          "PM4-F3"
-        ],
-        "citation_keys": [
-          "ze_resistant_starch_2012"
-        ]
-      },
-      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
-        "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger."
-      ],
-      "missing_ontology_edge": "potatoes → resistant-starch"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -2551,16 +2762,48 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "black-beans",
-      "food_title": "Cooked black beans",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
-        "sources": [
-          "https://doi.org/10.1016/j.nfs.2016.02.002"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "food_title": "Black Beans",
+      "food_material": "Cooked black beans",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked black beans",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM4-F3"
@@ -2573,10 +2816,9 @@
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
-        "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
       ],
-      "missing_ontology_edge": "black-beans → resistant-starch"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -2595,16 +2837,48 @@
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
-      "food_title": "Cooked chickpeas",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
-        "sources": [
-          "https://doi.org/10.1016/j.nfs.2016.02.002"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "food_title": "Chickpeas",
+      "food_material": "Cooked chickpeas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked chickpeas",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM4-F3"
@@ -2617,10 +2891,84 @@
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
-        "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
       ],
-      "missing_ontology_edge": "chickpeas → resistant-starch"
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Resistant starch (RS2/RS3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "potatoes",
+      "food_title": "Potatoes",
+      "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "ze_resistant_starch_2012"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit."
+      ],
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -2630,18 +2978,57 @@
       "dietary_input": "Resistant potato starch",
       "type": "A",
       "classification": "direct",
-      "canonical_substance_id": null,
+      "canonical_substance_id": "resistant-starch",
       "ontology_connections": {
-        "identity": "unresolved",
+        "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "food_target": "bananas",
+      "food_title": "Bananas",
+      "food_material": "Cavendish and plantain bananas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cavendish and plantain bananas",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM5-F1"
@@ -2650,8 +3037,233 @@
           "baxter_fermentable_fibers_2019"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant potato starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "food_material": "Cooked black beans",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked black beans",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant potato starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_material": "Cooked chickpeas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked chickpeas",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant potato starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "potatoes",
+      "food_title": "Potatoes",
+      "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
         "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
@@ -2676,6 +3288,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2712,6 +3329,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2748,6 +3370,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2785,15 +3412,47 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "walnuts",
       "food_title": "Walnuts",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": {
-        "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
-        "sources": [
-          "https://doi.org/10.1016/j.foodchem.2013.11.158"
-        ],
-        "retrieved": "2026-10-23",
-        "kind": "primary-food-composition"
-      },
+      "food_material": "Walnut kernels",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Walnut kernels",
+          "preparation": "Walnut kernels; assay-specific extraction",
+          "evidence": {
+            "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+            "sources": [
+              "https://doi.org/10.1016/j.foodchem.2013.11.158"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
       "pm_evidence": {
         "finding_ids": [
           "PM6-F1"
@@ -2806,10 +3465,9 @@
       "delivery": "precursor-source",
       "conversion_pathway": [],
       "limitations": [
-        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
-        "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred."
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
-      "missing_ontology_edge": "walnuts → ellagitannins"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS5",
@@ -2829,6 +3487,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2866,6 +3529,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2902,6 +3570,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pumpkin-seeds",
       "food_title": "Pumpkin Seeds",
+      "food_material": "Seeds, pumpkin and squash seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2910,6 +3583,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Seeds, pumpkin and squash seed kernels, dried."
         }
@@ -2949,6 +3623,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "soy",
       "food_title": "Soy",
+      "food_material": "Soybeans, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2957,6 +3636,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Soybeans, mature seeds, raw."
         }
@@ -2996,6 +3676,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "turkey",
       "food_title": "Turkey",
+      "food_material": "Turkey, whole, meat only, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3004,6 +3689,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Turkey, whole, meat only, raw."
         }
@@ -3043,6 +3729,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {

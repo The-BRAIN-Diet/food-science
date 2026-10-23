@@ -115,6 +115,22 @@ substance_relationships:
     source_url: https://www.marigoldhealthfoods.co.uk/engevita
     description: 44 µg cyanocobalamin per 100 g in this fortified product.
     source_reference: '#food-source-3'
+  - substance: Vitamin B2
+    relationship: contains
+    description: "Marigold Health Foods label reports 18 mg vitamin B2 per 100 g edible portion in Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "Marigold Health Foods label"
+    evidence_material: "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae"
+    source_url: "https://www.marigoldhealthfoods.co.uk/engevita"
+  - substance: Zinc
+    relationship: contains
+    description: "Marigold Health Foods label reports 120 mg zinc per 100 g edible portion in Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "Marigold Health Foods label"
+    evidence_material: "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae"
+    source_url: "https://www.marigoldhealthfoods.co.uk/engevita"
 substance_review_candidates: []
 ---
 ## Overview

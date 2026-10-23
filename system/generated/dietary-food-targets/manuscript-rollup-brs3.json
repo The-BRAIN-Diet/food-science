@@ -20,6 +20,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli-sprouts",
       "food_title": "Broccoli Sprouts",
+      "food_material": "broccoli sprouts after tissue disruption",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -28,6 +33,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6085252/",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "product_or_preparation_dependent",
           "limitations": "Sulforaphane forms from glucoraphanin when sprouts are chopped or chewed; preparation affects the amount."
         }
@@ -69,6 +75,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli",
       "food_title": "Broccoli",
+      "food_material": "UK mature broccoli, sous vide at 100 °C for 20 minutes, with and without 1 g brown mustard powder",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -77,6 +88,7 @@
           "source_url": "https://doi.org/10.1002/mnfr.201700980",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "product_or_preparation_dependent",
           "limitations": "Sulforaphane forms from glucoraphanin when myrosinase is active. In one cooked-broccoli study the amount depended on preparation, and it is not entered as a per-100 g nutrient."
         }
@@ -118,6 +130,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "anchovies",
       "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -126,6 +143,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Fish, anchovy, european, canned in oil, drained solids."
         }
@@ -165,6 +183,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beef",
       "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -173,6 +196,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)."
         }
@@ -212,6 +236,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cheddar-cheese",
       "food_title": "Cheddar Cheese",
+      "food_material": "Cheese, cheddar (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -220,6 +249,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Cheese, cheddar (Includes foods for USDA's Food Distribution Program)."
         }
@@ -259,6 +289,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicken",
       "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -267,6 +302,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Chicken, broilers or fryers, meat and skin, raw."
         }
@@ -306,34 +342,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA SR Legacy, FDC 169993",
-            "food_name": "Chicory roots, raw (Cichorium intybus)",
-            "fdc_id": 169993,
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.7,
-          "unit": "µg",
-          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "record": "docs/foods/chicory-root.md#substance_relationships/Selenium",
+          "evidence": "USDA SR Legacy, FDC 169993",
           "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-          "source_reference": "#food-source-3",
-          "material": "Chicory roots, raw (Cichorium intybus)",
-          "preparation": "raw",
-          "record": "docs/foods/chicory-root.md#nutrition_per_100g/selenium_ug",
-          "source_record": "docs/foods/chicory-root.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/chicory-root.md#nutrition_per_100g/selenium_ug",
-          "rank_eligible": true,
-          "comparison_group": "edible::raw",
-          "low": 0.0007,
-          "high": 0.0007,
-          "display": "0.7 µg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 0.7 µg selenium per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
         }
       ],
       "pm_evidence": {
@@ -351,7 +375,7 @@
       "limitations": [
         "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
       ],
-      "missing_ontology_edge": "chicory-root → selenium"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -371,6 +395,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cockles",
       "food_title": "Cockles",
+      "food_material": "cockle edible tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -379,6 +408,7 @@
           "source_url": "https://citeseerx.ist.psu.edu/document?doi=47b7230dd2a8efce9e0a5de69c3083c51453ad77&repid=rep1&type=pdf",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Selenium is documented in cockle tissue; concentrations vary with species and growing waters."
         }
@@ -418,6 +448,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "crab",
       "food_title": "Crab",
+      "food_material": "Crustaceans, crab, alaska king, cooked, moist heat",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -426,6 +461,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Documented in edible crab meat; the amount varies with species and preparation."
         }
@@ -465,6 +501,46 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "duck-fat",
       "food_title": "Duck Fat",
+      "food_material": "rendered duck fat",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Rendered duck fat (Fat, duck)",
+          "preparation": null,
+          "evidence": [
+            {
+              "nutrition_source": {
+                "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+                "food_name": "Rendered duck fat (Fat, duck)",
+                "basis": "per 100 g",
+                "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+                "source_reference": "#food-source-3",
+                "last_checked": "2026-10-12"
+              },
+              "value": 0.2,
+              "unit": "µg",
+              "basis": "per 100 g",
+              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+              "source_reference": "#food-source-3",
+              "material": "Rendered duck fat (Fat, duck)",
+              "preparation": null,
+              "record": "docs/foods/duck-fat.md#nutrition_per_100g/selenium_ug",
+              "source_record": "docs/foods/duck-fat.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/duck-fat.md#nutrition_per_100g/selenium_ug",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 0.0002,
+              "high": 0.0002,
+              "display": "0.2 µg"
+            }
+          ],
+          "limitations": null,
+          "reason": "Same explicit food-source anchor, composition source, preparation and complete product/material name; descriptive suffix retained in provenance."
+        }
+      ],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -473,47 +549,10 @@
           "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "0.2 µg selenium per 100 g of rendered duck fat."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM4-F3"
-        ],
-        "citation_keys": [
-          "xia_selenoprotein_2010",
-          "weydert_measurement_2010"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS3",
-      "fm": "BRS3(FM2)",
-      "pm": "BRS3-FM2-PM4",
-      "biological_mechanism": "Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.",
-      "dietary_input": "Selenium",
-      "type": null,
-      "classification": "direct",
-      "canonical_substance_id": "selenium",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "duck-fat",
-      "food_title": "Duck Fat",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": [
+        },
         {
           "nutrition_source": {
             "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
@@ -556,7 +595,7 @@
       "limitations": [
         "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
       ],
-      "missing_ontology_edge": "duck-fat → selenium"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -576,6 +615,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "eggs",
       "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -584,6 +628,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Egg, whole, raw, fresh."
         }
@@ -623,6 +668,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "grass-fed-butter",
       "food_title": "Grass-Fed Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -631,6 +681,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Selenium is documented in butter; the generic record does not establish a grass-fed-specific amount."
         }
@@ -670,6 +721,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mushrooms",
       "food_title": "White/Button Mushroom",
+      "food_material": "Mushrooms, white, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -678,6 +734,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169251/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Mushrooms, white, raw."
         }
@@ -717,6 +774,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mussels",
       "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -725,6 +787,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Mollusks, mussel, blue, raw."
         }
@@ -764,32 +827,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 9,
-          "unit": "µg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Selenium",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/selenium_ug",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/selenium_ug",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 0.009000000000000001,
-          "high": 0.009000000000000001,
-          "display": "9 µg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 9 µg selenium per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -807,7 +860,7 @@
       "limitations": [
         "In selenium-deficient adults, plasma glutathione peroxidase activity levelled off once intake reached about 35 micrograms a day. Intake above that plateau did not raise the enzyme further, and the study did not measure net oxidative pressure."
       ],
-      "missing_ontology_edge": "nori → selenium"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -827,6 +880,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oysters",
       "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -835,6 +893,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Mollusks, oyster, eastern, wild, raw."
         }
@@ -874,6 +933,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon",
       "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -882,6 +946,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Fish, salmon, Atlantic, farmed, raw."
         }
@@ -921,6 +986,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sardines",
       "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -929,6 +999,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
         }
@@ -968,6 +1039,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "scallops",
       "food_title": "Scallops",
+      "food_material": "Mollusks, scallop, mixed species, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -976,6 +1052,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174220/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Mollusks, scallop, mixed species, raw."
         }
@@ -1015,6 +1092,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "shrimp",
       "food_title": "Shrimp",
+      "food_material": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1023,6 +1105,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174210/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)."
         }
@@ -1062,6 +1145,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sunflower-seeds",
       "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1070,6 +1158,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Seeds, sunflower seed kernels, dried."
         }
@@ -1109,6 +1198,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tofu",
       "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1117,6 +1211,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Tofu, raw, firm, prepared with calcium sulfate."
         }
@@ -1156,6 +1251,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tuna",
       "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1164,6 +1264,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Fish, tuna, fresh, bluefin, raw."
         }
@@ -1203,6 +1304,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "turkey",
       "food_title": "Turkey",
+      "food_material": "Turkey, whole, meat only, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1211,6 +1317,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports selenium in Turkey, whole, meat only, raw."
         }
@@ -1250,6 +1357,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "almonds",
       "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1258,6 +1370,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Nuts, almonds."
         }
@@ -1297,6 +1410,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "black-beans",
       "food_title": "Black Beans",
+      "food_material": "Beans, black, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1305,6 +1423,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Beans, black, mature seeds, raw."
         }
@@ -1344,6 +1463,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cashews",
       "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1352,6 +1476,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Nuts, cashew nuts, raw."
         }
@@ -1391,6 +1516,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
+      "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1399,6 +1529,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
         }
@@ -1438,34 +1569,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA SR Legacy, FDC 169993",
-            "food_name": "Chicory roots, raw (Cichorium intybus)",
-            "fdc_id": 169993,
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.077,
-          "unit": "mg",
-          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "record": "docs/foods/chicory-root.md#substance_relationships/Copper",
+          "evidence": "USDA SR Legacy, FDC 169993",
           "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-          "source_reference": "#food-source-3",
-          "material": "Chicory roots, raw (Cichorium intybus)",
-          "preparation": "raw",
-          "record": "docs/foods/chicory-root.md#nutrition_per_100g/copper_mg",
-          "source_record": "docs/foods/chicory-root.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/chicory-root.md#nutrition_per_100g/copper_mg",
-          "rank_eligible": true,
-          "comparison_group": "edible::raw",
-          "low": 0.077,
-          "high": 0.077,
-          "display": "0.077 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 0.077 mg copper per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
         }
       ],
       "pm_evidence": {
@@ -1483,7 +1602,7 @@
       "limitations": [
         "Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate."
       ],
-      "missing_ontology_edge": "chicory-root → copper"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -1503,32 +1622,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 0.55,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Copper",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/copper_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/copper_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 0.55,
-          "high": 0.55,
-          "display": "0.55 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 0.55 mg copper per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -1546,7 +1655,7 @@
       "limitations": [
         "Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate."
       ],
-      "missing_ontology_edge": "nori → copper"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -1566,6 +1675,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oats",
       "food_title": "Oats",
+      "food_material": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1574,6 +1688,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Oats (Includes foods for USDA's Food Distribution Program)."
         }
@@ -1613,6 +1728,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "peanuts",
       "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1621,6 +1741,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Peanuts, all types, raw."
         }
@@ -1660,33 +1781,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.76,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Copper",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 0.76,
-          "high": 0.76,
-          "display": "0.76 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.76 mg copper per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -1704,7 +1814,7 @@
       "limitations": [
         "Erythrocyte superoxide dismutase rose after copper repletion in infants with marginal copper status. That does not show that extra copper raises the enzyme when status is already adequate."
       ],
-      "missing_ontology_edge": "salmon-roe → copper"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -1724,6 +1834,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sesame-seeds",
       "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1732,6 +1847,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
           "source_reference": "#food-source-12",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Seeds, sesame seeds, whole, dried."
         }
@@ -1771,6 +1887,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sourdough-bread",
       "food_title": "Sourdough Bread",
+      "food_material": "wheat sourdough breads",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1779,6 +1900,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
         }
@@ -1818,6 +1940,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "spinach",
       "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1826,6 +1953,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Spinach, raw."
         }
@@ -1865,6 +1993,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sunflower-seeds",
       "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1873,6 +2006,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Seeds, sunflower seed kernels, dried."
         }
@@ -1912,6 +2046,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tempeh",
       "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1920,6 +2059,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Tempeh."
         }
@@ -1959,6 +2099,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tofu",
       "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1967,6 +2112,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Tofu, raw, firm, prepared with calcium sulfate."
         }
@@ -2006,6 +2152,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "walnuts",
       "food_title": "Walnuts",
+      "food_material": "Nuts, walnuts, english",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2014,6 +2165,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports copper in Nuts, walnuts, english."
         }
@@ -2053,6 +2205,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "almonds",
       "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2061,6 +2218,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Nuts, almonds."
         }
@@ -2100,6 +2258,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "avocado-oil",
       "food_title": "Avocado Oil",
+      "food_material": "avocado oil",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2108,6 +2271,7 @@
           "source_url": "https://doi.org/10.1016/j.foodcont.2020.107328",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains alpha-tocopherol (vitamin E); content varies with processing."
         }
@@ -2147,6 +2311,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "avocado",
       "food_title": "Avocado",
+      "food_material": "Avocados, raw, all commercial varieties",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2155,6 +2324,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Avocados, raw, all commercial varieties."
         }
@@ -2194,6 +2364,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "butter",
       "food_title": "Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2202,6 +2377,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Butter, without salt."
         }
@@ -2241,33 +2417,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "duck-fat",
       "food_title": "Duck Fat",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Rendered duck fat (Fat, duck)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
-            "food_name": "Rendered duck fat (Fat, duck)",
-            "basis": "per 100 g",
-            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 2.7,
-          "unit": "mg",
-          "basis": "per 100 g",
+          "record": "docs/foods/duck-fat.md#substance_relationships/Vitamin%20E",
+          "evidence": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
           "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
-          "source_reference": "#food-source-3",
-          "material": "Rendered duck fat (Fat, duck)",
-          "preparation": null,
-          "record": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/duck-fat.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 2.7,
-          "high": 2.7,
-          "display": "2.7 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA National Nutrient Database, SR28 (2015), NDB 04574 reports 2.7 mg vitamin E per 100 g edible portion in Rendered duck fat (Fat, duck)."
         }
       ],
       "pm_evidence": {
@@ -2285,7 +2450,7 @@
       "limitations": [
         "Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day."
       ],
-      "missing_ontology_edge": "duck-fat → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -2305,6 +2470,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "egg-yolks",
       "food_title": "Egg Yolks",
+      "food_material": "Egg, yolk, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2313,6 +2483,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Egg, yolk, raw, fresh."
         }
@@ -2352,6 +2523,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "ghee",
       "food_title": "Ghee",
+      "food_material": "Butter oil, anhydrous",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2360,6 +2536,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Butter oil, anhydrous."
         }
@@ -2399,32 +2576,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 4.6,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Vitamin%20E",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 4.6,
-          "high": 4.6,
-          "display": "4.6 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 4.6 mg vitamin E per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -2442,7 +2609,7 @@
       "limitations": [
         "Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day."
       ],
-      "missing_ontology_edge": "nori → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -2462,6 +2629,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "peanuts",
       "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2470,6 +2642,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Peanuts, all types, raw."
         }
@@ -2509,33 +2682,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 9.1,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20E",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 9.1,
-          "high": 9.1,
-          "display": "9.1 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 9.1 mg vitamin E per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -2553,7 +2715,7 @@
       "limitations": [
         "Vitamin E breaks peroxyl-radical chains in membranes. That chemistry does not show that extra vitamin E lowers peroxidation in people. A prevention trial found more prostate cancers with 400 IU a day."
       ],
-      "missing_ontology_edge": "salmon-roe → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -2573,6 +2735,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sunflower-seeds",
       "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2581,6 +2748,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Seeds, sunflower seed kernels, dried."
         }
@@ -2620,6 +2788,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "wheat-germ",
       "food_title": "Wheat Germ",
+      "food_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2628,6 +2801,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173896/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Vitamin E is documented in toasted wheat germ; content depends on preparation."
         }
@@ -2667,6 +2841,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "apples",
       "food_title": "Apples",
+      "food_material": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2675,6 +2854,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171688/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)."
         }
@@ -2714,6 +2894,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "bell-peppers",
       "food_title": "Bell Peppers",
+      "food_material": "Peppers, sweet, red, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2722,6 +2907,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170108/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Peppers, sweet, red, raw."
         }
@@ -2761,6 +2947,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "blueberries",
       "food_title": "Blueberries",
+      "food_material": "Blueberries, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2769,6 +2960,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171711/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Blueberries, raw."
         }
@@ -2808,6 +3000,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli-sprouts",
       "food_title": "Broccoli Sprouts",
+      "food_material": "Broccoli sprouts, raw (sprout material, not mature broccoli)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2816,6 +3013,7 @@
           "source_url": "https://www.matvaretabellen.no/en/broccoli-sprouts-raw/",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Norwegian Food Composition Table reports vitamin C in Broccoli sprouts, raw."
         }
@@ -2855,6 +3053,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli",
       "food_title": "Broccoli",
+      "food_material": "Broccoli, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2863,6 +3066,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Broccoli, raw."
         }
@@ -2902,6 +3106,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "brussels-sprouts",
       "food_title": "Brussels Sprouts",
+      "food_material": "Brussels sprouts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2910,6 +3119,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170383/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Brussels sprouts, raw."
         }
@@ -2949,6 +3159,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cabbage",
       "food_title": "Cabbage",
+      "food_material": "Cabbage, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2957,6 +3172,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169975/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Cabbage, raw."
         }
@@ -2996,6 +3212,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cauliflower",
       "food_title": "Cauliflower",
+      "food_material": "Cauliflower, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3004,6 +3225,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169986/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Cauliflower, raw."
         }
@@ -3043,6 +3265,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cherries",
       "food_title": "Cherries",
+      "food_material": "Cherries, sweet, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3051,6 +3278,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171719/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Cherries, sweet, raw."
         }
@@ -3090,34 +3318,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA SR Legacy, FDC 169993",
-            "food_name": "Chicory roots, raw (Cichorium intybus)",
-            "fdc_id": 169993,
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 5,
-          "unit": "mg",
-          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "record": "docs/foods/chicory-root.md#substance_relationships/Vitamin%20C",
+          "evidence": "USDA SR Legacy, FDC 169993",
           "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-          "source_reference": "#food-source-3",
-          "material": "Chicory roots, raw (Cichorium intybus)",
-          "preparation": "raw",
-          "record": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg",
-          "source_record": "docs/foods/chicory-root.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg",
-          "rank_eligible": true,
-          "comparison_group": "edible::raw",
-          "low": 5,
-          "high": 5,
-          "display": "5 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 5 mg vitamin C per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
         }
       ],
       "pm_evidence": {
@@ -3135,7 +3351,7 @@
       "limitations": [
         "Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people."
       ],
-      "missing_ontology_edge": "chicory-root → vitamin-c"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -3155,6 +3371,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cranberries",
       "food_title": "Cranberries",
+      "food_material": "Cranberries, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3163,6 +3384,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171722/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Cranberries, raw."
         }
@@ -3202,6 +3424,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "kale",
       "food_title": "Kale",
+      "food_material": "Kale, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3210,6 +3437,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Kale, raw."
         }
@@ -3249,6 +3477,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lemon",
       "food_title": "Lemon",
+      "food_material": "Lemons, raw, without peel",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3257,6 +3490,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/167746/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Lemons, raw, without peel."
         }
@@ -3296,32 +3530,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 210,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Vitamin%20C",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_c_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_c_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 210,
-          "high": 210,
-          "display": "210 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 210 mg vitamin C per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -3339,7 +3563,7 @@
       "limitations": [
         "Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people."
       ],
-      "missing_ontology_edge": "nori → vitamin-c"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -3359,6 +3583,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "onions",
       "food_title": "Onions",
+      "food_material": "Onions, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3367,6 +3596,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170000/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Onions, raw."
         }
@@ -3406,6 +3636,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oranges",
       "food_title": "Oranges",
+      "food_material": "Oranges, raw, all commercial varieties",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3414,6 +3649,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169097/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Oranges, raw, all commercial varieties."
         }
@@ -3453,6 +3689,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "parsley",
       "food_title": "Parsley",
+      "food_material": "Parsley, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3461,6 +3702,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170416/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Parsley, fresh."
         }
@@ -3500,6 +3742,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pomegranates",
       "food_title": "Pomegranates",
+      "food_material": "Pomegranates, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3508,6 +3755,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169134/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Pomegranates, raw."
         }
@@ -3547,6 +3795,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "potatoes",
       "food_title": "Potatoes",
+      "food_material": "Potatoes, flesh and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3555,6 +3808,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170026/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Potatoes, flesh and skin, raw."
         }
@@ -3594,6 +3848,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "raspberries",
       "food_title": "Raspberries",
+      "food_material": "Raspberries, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3602,6 +3861,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/167755/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Raspberries, raw."
         }
@@ -3641,33 +3901,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 6,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20C",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 6,
-          "high": 6,
-          "display": "6 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 6 mg vitamin C per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -3685,7 +3934,7 @@
       "limitations": [
         "Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people."
       ],
-      "missing_ontology_edge": "salmon-roe → vitamin-c"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -3705,6 +3954,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "spinach",
       "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3713,6 +3967,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Spinach, raw."
         }
@@ -3752,6 +4007,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "strawberries",
       "food_title": "Strawberries",
+      "food_material": "Strawberries, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3760,6 +4020,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/167762/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Strawberries, raw."
         }
@@ -3799,6 +4060,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sweet-potatoes",
       "food_title": "Sweet Potatoes",
+      "food_material": "Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3807,6 +4073,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168482/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution Program)."
         }
@@ -3846,6 +4113,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tart-cherry",
       "food_title": "Tart Cherry",
+      "food_material": "Cherries, sour, red, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3854,6 +4126,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173954/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Cherries, sour, red, raw."
         }
@@ -3893,6 +4166,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tomatoes",
       "food_title": "Tomatoes",
+      "food_material": "Tomatoes, red, ripe, raw, year round average",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3901,6 +4179,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170457/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Tomatoes, red, ripe, raw, year round average."
         }
@@ -3940,6 +4219,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "watercress",
       "food_title": "Watercress",
+      "food_material": "Watercress, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3948,6 +4232,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170068/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Watercress, raw."
         }
@@ -3987,6 +4272,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "watermelon",
       "food_title": "Watermelon",
+      "food_material": "Watermelon, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3995,6 +4285,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/167765/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin C in Watermelon, raw."
         }
@@ -4034,6 +4325,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "almonds",
       "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4042,6 +4338,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Nuts, almonds."
         }
@@ -4081,6 +4378,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "avocado-oil",
       "food_title": "Avocado Oil",
+      "food_material": "avocado oil",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4089,6 +4391,7 @@
           "source_url": "https://doi.org/10.1016/j.foodcont.2020.107328",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains alpha-tocopherol (vitamin E); content varies with processing."
         }
@@ -4128,6 +4431,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "avocado",
       "food_title": "Avocado",
+      "food_material": "Avocados, raw, all commercial varieties",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4136,6 +4444,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Avocados, raw, all commercial varieties."
         }
@@ -4175,6 +4484,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "butter",
       "food_title": "Butter",
+      "food_material": "Butter, without salt",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4183,6 +4497,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Butter, without salt."
         }
@@ -4222,33 +4537,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "duck-fat",
       "food_title": "Duck Fat",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Rendered duck fat (Fat, duck)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
-            "food_name": "Rendered duck fat (Fat, duck)",
-            "basis": "per 100 g",
-            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 2.7,
-          "unit": "mg",
-          "basis": "per 100 g",
+          "record": "docs/foods/duck-fat.md#substance_relationships/Vitamin%20E",
+          "evidence": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
           "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
-          "source_reference": "#food-source-3",
-          "material": "Rendered duck fat (Fat, duck)",
-          "preparation": null,
-          "record": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/duck-fat.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 2.7,
-          "high": 2.7,
-          "display": "2.7 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA National Nutrient Database, SR28 (2015), NDB 04574 reports 2.7 mg vitamin E per 100 g edible portion in Rendered duck fat (Fat, duck)."
         }
       ],
       "pm_evidence": {
@@ -4266,7 +4570,7 @@
       "limitations": [
         "Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day."
       ],
-      "missing_ontology_edge": "duck-fat → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -4286,6 +4590,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "egg-yolks",
       "food_title": "Egg Yolks",
+      "food_material": "Egg, yolk, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4294,6 +4603,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Egg, yolk, raw, fresh."
         }
@@ -4333,6 +4643,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "ghee",
       "food_title": "Ghee",
+      "food_material": "Butter oil, anhydrous",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4341,6 +4656,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Butter oil, anhydrous."
         }
@@ -4380,32 +4696,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 4.6,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Vitamin%20E",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 4.6,
-          "high": 4.6,
-          "display": "4.6 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 4.6 mg vitamin E per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -4423,7 +4729,7 @@
       "limitations": [
         "Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day."
       ],
-      "missing_ontology_edge": "nori → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -4443,6 +4749,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "peanuts",
       "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4451,6 +4762,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Peanuts, all types, raw."
         }
@@ -4490,33 +4802,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 9.1,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20E",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 9.1,
-          "high": 9.1,
-          "display": "9.1 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 9.1 mg vitamin E per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -4534,7 +4835,7 @@
       "limitations": [
         "Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day."
       ],
-      "missing_ontology_edge": "salmon-roe → vitamin-e"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS3",
@@ -4554,6 +4855,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sunflower-seeds",
       "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4562,6 +4868,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin E in Seeds, sunflower seed kernels, dried."
         }
@@ -4601,6 +4908,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "wheat-germ",
       "food_title": "Wheat Germ",
+      "food_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4609,6 +4921,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173896/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Vitamin E is documented in toasted wheat germ; content depends on preparation."
         }
@@ -4648,6 +4961,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "algal-oil",
       "food_title": "Algal Oil",
+      "food_material": "EPA-containing Schizochytrium algal oil products",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4656,6 +4974,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13136942/",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "product_or_preparation_dependent",
           "limitations": "Present in EPA-containing algal oils; DHA-only products may differ."
         }
@@ -4696,6 +5015,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "anchovies",
       "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4704,6 +5028,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, anchovy, european, canned in oil, drained solids."
         }
@@ -4744,6 +5069,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cockles",
       "food_title": "Cockles",
+      "food_material": "edible Cerastoderma edule tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4752,6 +5082,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Reported in edible Cerastoderma edule tissue."
         }
@@ -4792,6 +5123,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "herring",
       "food_title": "Herring",
+      "food_material": "Fish, herring, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4800,6 +5136,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, herring, Atlantic, raw."
         }
@@ -4840,6 +5177,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lumpfish-roe",
       "food_title": "Lumpfish Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4848,6 +5190,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
           "source_reference": "#food-source-2",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
         }
@@ -4888,6 +5231,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mackerel",
       "food_title": "Mackerel",
+      "food_material": "Fish, mackerel, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4896,6 +5244,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, mackerel, Atlantic, raw."
         }
@@ -4936,6 +5285,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mussels",
       "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4944,6 +5298,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Mollusks, mussel, blue, raw."
         }
@@ -4984,6 +5339,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oysters",
       "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -4992,6 +5352,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Mollusks, oyster, eastern, wild, raw."
         }
@@ -5032,6 +5393,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
+      "food_material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5040,6 +5406,7 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Salted chum-salmon ikura contains 1,600 mg EPA per 100 g."
         }
@@ -5080,6 +5447,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon",
       "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5088,6 +5460,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, salmon, Atlantic, farmed, raw."
         }
@@ -5128,6 +5501,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sardines",
       "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5136,6 +5514,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
         }
@@ -5176,6 +5555,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "trout-roe",
       "food_title": "Trout Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5184,6 +5568,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
         }
@@ -5224,6 +5609,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tuna",
       "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5232,6 +5622,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports EPA in Fish, tuna, fresh, bluefin, raw."
         }
@@ -5272,6 +5663,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "algal-oil",
       "food_title": "Algal Oil",
+      "food_material": "Authorised algal oils; formulation-specific",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5280,6 +5676,7 @@
           "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "DHA presence is supported by the authorised algal-oil specifications on this page. The amount is formulation-specific and is not established as one value for algal oil in general."
         }
@@ -5320,6 +5717,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "anchovies",
       "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5328,6 +5730,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
         }
@@ -5368,6 +5771,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cockles",
       "food_title": "Cockles",
+      "food_material": "edible Cerastoderma edule tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5376,6 +5784,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Reported in edible Cerastoderma edule tissue."
         }
@@ -5416,6 +5825,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "herring",
       "food_title": "Herring",
+      "food_material": "Fish, herring, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5424,6 +5838,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
         }
@@ -5464,6 +5879,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lumpfish-roe",
       "food_title": "Lumpfish Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5472,6 +5892,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
           "source_reference": "#food-source-2",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
         }
@@ -5512,6 +5933,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mackerel",
       "food_title": "Mackerel",
+      "food_material": "Fish, mackerel, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5520,6 +5946,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
         }
@@ -5560,6 +5987,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mussels",
       "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5568,6 +6000,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw."
         }
@@ -5608,6 +6041,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "oysters",
       "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5616,6 +6054,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw."
         }
@@ -5656,6 +6095,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
+      "food_material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5664,6 +6108,7 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
         }
@@ -5704,6 +6149,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon",
       "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5712,6 +6162,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
         }
@@ -5752,6 +6203,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "sardines",
       "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5760,6 +6216,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
           "source_reference": "#food-source-5",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
         }
@@ -5800,6 +6257,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "trout-roe",
       "food_title": "Trout Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5808,6 +6270,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
         }
@@ -5848,6 +6311,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tuna",
       "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -5856,6 +6324,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
         }

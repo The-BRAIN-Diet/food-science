@@ -20,6 +20,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "almonds",
       "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -28,6 +33,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Nuts, almonds."
         }
@@ -66,6 +72,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "amaranth",
       "food_title": "Amaranth",
+      "food_material": "Amaranth grain, uncooked",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -74,6 +85,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170682/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Amaranth grain, uncooked."
         }
@@ -112,6 +124,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beef",
       "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -120,6 +137,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)."
         }
@@ -158,6 +176,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beetroot",
       "food_title": "Beetroot",
+      "food_material": "Beets, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -166,6 +189,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169145/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beets, raw."
         }
@@ -204,6 +228,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "black-beans",
       "food_title": "Black Beans",
+      "food_material": "Beans, black, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -212,6 +241,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beans, black, mature seeds, raw."
         }
@@ -250,6 +280,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli-sprouts",
       "food_title": "Broccoli Sprouts",
+      "food_material": "Broccoli sprouts, raw (sprout material, not mature broccoli)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -258,6 +293,7 @@
           "source_url": "https://www.matvaretabellen.no/en/broccoli-sprouts-raw/",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Norwegian Food Composition Table reports iron in Broccoli sprouts, raw."
         }
@@ -296,6 +332,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli",
       "food_title": "Broccoli",
+      "food_material": "Broccoli, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -304,6 +345,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Broccoli, raw."
         }
@@ -342,6 +384,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cacao-powder",
       "food_title": "Cacao Powder",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -350,6 +397,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Cocoa, dry powder, unsweetened."
         }
@@ -388,6 +436,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cashews",
       "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -396,6 +449,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Nuts, cashew nuts, raw."
         }
@@ -434,6 +488,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicken",
       "food_title": "Chicken",
+      "food_material": "Chicken, broilers or fryers, meat and skin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -442,6 +501,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Chicken, broilers or fryers, meat and skin, raw."
         }
@@ -480,6 +540,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
+      "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -488,6 +553,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
         }
@@ -526,34 +592,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chicory roots, raw (Cichorium intybus)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "USDA SR Legacy, FDC 169993",
-            "food_name": "Chicory roots, raw (Cichorium intybus)",
-            "fdc_id": 169993,
-            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
-            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.8,
-          "unit": "mg",
-          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "record": "docs/foods/chicory-root.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy, FDC 169993",
           "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
-          "source_reference": "#food-source-3",
-          "material": "Chicory roots, raw (Cichorium intybus)",
-          "preparation": "raw",
-          "record": "docs/foods/chicory-root.md#nutrition_per_100g/iron_mg",
-          "source_record": "docs/foods/chicory-root.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/chicory-root.md#nutrition_per_100g/iron_mg",
-          "rank_eligible": true,
-          "comparison_group": "edible::raw",
-          "low": 0.8,
-          "high": 0.8,
-          "display": "0.8 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA SR Legacy, FDC 169993 reports 0.8 mg iron per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
         }
       ],
       "pm_evidence": {
@@ -570,7 +624,7 @@
       "limitations": [
         "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
       ],
-      "missing_ontology_edge": "chicory-root → iron"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS4",
@@ -590,6 +644,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "chlorella",
       "food_title": "Chlorella",
+      "food_material": "dried Chlorella products",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -598,6 +657,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7551956/",
           "source_reference": "#food-source-2",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Reported in dried Chlorella products."
         }
@@ -636,6 +696,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "clams",
       "food_title": "Clams",
+      "food_material": "Mollusks, clam, mixed species, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -644,6 +709,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Mollusks, clam, mixed species, raw."
         }
@@ -682,6 +748,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cockles",
       "food_title": "Cockles",
+      "food_material": "Cockles, raw (Alaska Native)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -690,6 +761,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169803/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Cockles, raw (Alaska Native)."
         }
@@ -728,6 +800,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "cocoa",
       "food_title": "Cocoa",
+      "food_material": "Cocoa, dry powder, unsweetened",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -736,6 +813,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Cocoa, dry powder, unsweetened."
         }
@@ -774,6 +852,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "dark-chocolate",
       "food_title": "Dark Chocolate",
+      "food_material": "Chocolate, dark, 70-85% cacao solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -782,6 +865,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Chocolate, dark, 70-85% cacao solids."
         }
@@ -820,6 +904,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "dark-meat-poultry",
       "food_title": "Dark-Meat Poultry",
+      "food_material": "Chicken, broilers or fryers, dark meat, meat and skin, cooked, roasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -828,6 +917,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171065/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Iron occurs in dark poultry meat; content varies with cut and cooking."
         }
@@ -866,6 +956,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "edamame",
       "food_title": "Edamame",
+      "food_material": "Edamame, frozen, unprepared",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -874,6 +969,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168410/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Edamame, frozen, unprepared."
         }
@@ -912,6 +1008,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "eggs",
       "food_title": "Eggs",
+      "food_material": "Egg, whole, raw, fresh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -920,6 +1021,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Egg, whole, raw, fresh."
         }
@@ -958,6 +1060,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "heart",
       "food_title": "Heart",
+      "food_material": "Beef, variety meats and by-products, heart, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -966,6 +1073,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168625/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beef, variety meats and by-products, heart, raw."
         }
@@ -1004,6 +1112,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "kidney-beans",
       "food_title": "Kidney Beans",
+      "food_material": "Beans, kidney, all types, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1012,6 +1125,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/175193/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beans, kidney, all types, mature seeds, raw."
         }
@@ -1050,6 +1164,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "kidney",
       "food_title": "Kidney",
+      "food_material": "Beef, variety meats and by-products, kidneys, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1058,6 +1177,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169449/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beef, variety meats and by-products, kidneys, raw."
         }
@@ -1096,6 +1216,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lamb",
       "food_title": "Lamb",
+      "food_material": "Lamb, ground, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1104,6 +1229,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
           "source_reference": "#food-source-8",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Lamb, ground, raw."
         }
@@ -1142,6 +1268,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lentils",
       "food_title": "Lentils",
+      "food_material": "Lentils, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1150,6 +1281,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172420/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Lentils, raw."
         }
@@ -1188,6 +1320,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "liver",
       "food_title": "Liver",
+      "food_material": "Beef, variety meats and by-products, liver, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1196,6 +1333,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Beef, variety meats and by-products, liver, raw."
         }
@@ -1234,6 +1372,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lupin-beans",
       "food_title": "Lupin Beans",
+      "food_material": "Lupins, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1242,6 +1385,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Lupins, mature seeds, raw."
         }
@@ -1280,6 +1424,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mankai",
       "food_title": "Mankai (Duckweed)",
+      "food_material": "cultivated Wolffia globosa Mankai",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1288,6 +1437,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8229908/",
           "source_reference": "#food-source-2",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Reported in cultivated Wolffia globosa Mankai."
         }
@@ -1326,6 +1476,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "mussels",
       "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1334,6 +1489,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports iron in Mollusks, mussel, blue, raw."
         }
@@ -1372,6 +1528,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
+      "food_material": "dried toasted purple laver (nori)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -1380,6 +1541,7 @@
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "Reported in dried toasted purple laver (nori)."
         }
@@ -1416,8 +1578,793 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oats",
+      "food_title": "Oats",
+      "food_material": "Oats (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oats.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Oats (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oysters",
+      "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oysters.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Mollusks, oyster, eastern, wild, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pumpkin-seeds",
+      "food_title": "Pumpkin Seeds",
+      "food_material": "Seeds, pumpkin and squash seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Seeds, pumpkin and squash seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "quinoa",
+      "food_title": "Quinoa",
+      "food_material": "Quinoa, uncooked",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/quinoa.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Quinoa, uncooked."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "uncooked",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Iron",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 2 mg iron per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sourdough-bread",
+      "food_title": "Sourdough Bread",
+      "food_material": "wheat sourdough breads",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sourdough-bread.md#substance_relationships/Iron",
+          "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "soy",
+      "food_title": "Soy",
+      "food_material": "Soybeans, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/soy.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Soybeans, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "spinach",
+      "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spinach.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Spinach, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "spirulina",
+      "food_title": "Spirulina",
+      "food_material": "Seaweed, spirulina, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spirulina.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170495/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Seaweed, spirulina, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "swiss-chard",
+      "food_title": "Swiss Chard",
+      "food_material": "Chard, swiss, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/swiss-chard.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169991/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Chard, swiss, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "wheat",
+      "food_title": "Wheat",
+      "food_material": "Wheat, hard red winter",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/wheat.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports iron in Wheat, hard red winter."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "whole-grains",
+      "food_title": "Whole Grains",
+      "food_material": "whole wheat grain",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/whole-grains.md#substance_relationships/Iron",
+          "evidence": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Documented in whole wheat; content varies among whole grains."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F1"
+        ],
+        "citation_keys": [
+          "vercellino_respiratory_chain_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM1",
+      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
+      "dietary_input": "Iron",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "iron",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+      "ontology_relationship_status": "material-equivalence-review",
+      "reconciled_sources": [],
       "mapping_status": "research-supported-provisional",
       "food_evidence": [
         {
@@ -1460,713 +2407,6 @@
       "limitations": [
         "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
       ],
-      "missing_ontology_edge": "nori → iron"
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "oats",
-      "food_title": "Oats",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/oats.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Oats (Includes foods for USDA's Food Distribution Program)."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "oysters",
-      "food_title": "Oysters",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/oysters.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
-          "source_reference": "#food-source-5",
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Mollusks, oyster, eastern, wild, raw."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "pumpkin-seeds",
-      "food_title": "Pumpkin Seeds",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Seeds, pumpkin and squash seed kernels, dried."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "dried",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "quinoa",
-      "food_title": "Quinoa",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/quinoa.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Quinoa, uncooked."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "uncooked",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "salmon-roe",
-      "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": [
-        {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 2,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
-          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 2,
-          "high": 2,
-          "display": "2 mg"
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": "salmon-roe → iron"
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "sesame-seeds",
-      "food_title": "Sesame Seeds",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/sesame-seeds.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
-          "source_reference": "#food-source-12",
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Seeds, sesame seeds, whole, dried."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "dried",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "sourdough-bread",
-      "food_title": "Sourdough Bread",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/sourdough-bread.md#substance_relationships/Iron",
-          "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
-          "source_reference": "#food-source-7",
-          "citation_keys": [],
-          "presence_status": "presence_supported_amount_unavailable",
-          "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "soy",
-      "food_title": "Soy",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/soy.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
-          "source_reference": "#food-source-7",
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Soybeans, mature seeds, raw."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "spinach",
-      "food_title": "Spinach",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/spinach.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Spinach, raw."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "spirulina",
-      "food_title": "Spirulina",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/spirulina.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/170495/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Seaweed, spirulina, dried."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "dried",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "swiss-chard",
-      "food_title": "Swiss Chard",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/swiss-chard.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/169991/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Chard, swiss, raw."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "tempeh",
-      "food_title": "Tempeh",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/tempeh.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
-          "source_reference": "#food-source-6",
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Tempeh."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "tofu",
-      "food_title": "Tofu",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/tofu.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
-          "source_reference": "#food-source-5",
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Tofu, raw, firm, prepared with calcium sulfate."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "wheat",
-      "food_title": "Wheat",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/wheat.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy April 2018",
-          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
-          "source_reference": null,
-          "citation_keys": [],
-          "presence_status": "presence_and_amount_supported",
-          "limitations": "USDA FoodData Central reports iron in Wheat, hard red winter."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM1",
-      "biological_mechanism": "Sustain efficient electron transport so mitochondria generate ATP without excessive electron leakage.",
-      "dietary_input": "Iron",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "iron",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "whole-grains",
-      "food_title": "Whole Grains",
-      "mapping_status": "verified",
-      "food_evidence": [
-        {
-          "record": "docs/foods/whole-grains.md#substance_relationships/Iron",
-          "evidence": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
-          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
-          "source_reference": "#food-source-3",
-          "citation_keys": [],
-          "presence_status": "presence_supported_amount_unavailable",
-          "limitations": "Documented in whole wheat; content varies among whole grains."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM1-F1"
-        ],
-        "citation_keys": [
-          "vercellino_respiratory_chain_2022"
-        ]
-      },
-      "preparation": null,
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "This identifies iron centres in the chain. It does not show that eating more iron, once iron status is adequate, raises electron transport."
-      ],
       "missing_ontology_edge": null
     },
     {
@@ -2187,6 +2427,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2223,6 +2468,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "almonds",
       "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2231,6 +2481,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Nuts, almonds."
         }
@@ -2269,6 +2520,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beef",
       "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2277,6 +2533,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
           "source_reference": "#food-source-6",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)."
         }
@@ -2315,6 +2572,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "broccoli",
       "food_title": "Broccoli",
+      "food_material": "Broccoli, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2323,6 +2585,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Broccoli, raw."
         }
@@ -2361,6 +2624,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "kale",
       "food_title": "Kale",
+      "food_material": "Kale, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2369,6 +2637,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Kale, raw."
         }
@@ -2407,6 +2676,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "milk",
       "food_title": "Milk",
+      "food_material": "Milk, whole, 3.25% milkfat, with added vitamin D",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2415,6 +2689,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Milk, whole, 3.25% milkfat, with added vitamin D."
         }
@@ -2453,32 +2728,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nori",
       "food_title": "Nori",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
-            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
-            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-            "source_reference": "#food-source-3"
-          },
-          "value": 2.33,
-          "unit": "mg",
-          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "record": "docs/foods/nori.md#substance_relationships/Vitamin%20B2",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
-          "source_reference": "#food-source-3",
-          "material": "Purple laver (Porphyra spp.), dried, toasted",
-          "preparation": "dried",
-          "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_b2_mg",
-          "source_record": "docs/foods/nori.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_b2_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 2.33,
-          "high": 2.33,
-          "display": "2.33 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 2.33 mg vitamin B2 per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
         }
       ],
       "pm_evidence": {
@@ -2495,7 +2760,7 @@
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
-      "missing_ontology_edge": "nori → vitamin-b2"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS4",
@@ -2515,33 +2780,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "nutritional-yeast",
       "food_title": "Nutritional Yeast",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "Marigold Health Foods label",
-            "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
-            "basis": "per 100 g dry product; the label serving is 5 g",
-            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
-            "source_reference": "#food-source-3",
-            "last_checked": "2026-10-12"
-          },
-          "value": 18,
-          "unit": "mg",
-          "basis": "per 100 g dry product; the label serving is 5 g",
+          "record": "docs/foods/nutritional-yeast.md#substance_relationships/Vitamin%20B2",
+          "evidence": "Marigold Health Foods label",
           "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
-          "source_reference": "#food-source-3",
-          "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
-          "preparation": "dried",
-          "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b2_mg",
-          "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b2_mg",
-          "rank_eligible": true,
-          "comparison_group": "dry::dried",
-          "low": 18,
-          "high": 18,
-          "display": "18 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Marigold Health Foods label reports 18 mg vitamin B2 per 100 g edible portion in Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae."
         }
       ],
       "pm_evidence": {
@@ -2558,7 +2812,7 @@
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
-      "missing_ontology_edge": "nutritional-yeast → vitamin-b2"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS4",
@@ -2578,6 +2832,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "quinoa",
       "food_title": "Quinoa",
+      "food_material": "Quinoa, uncooked",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2586,6 +2845,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Quinoa, uncooked."
         }
@@ -2624,33 +2884,22 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
-      "mapping_status": "research-supported-provisional",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
       "food_evidence": [
         {
-          "nutrition_source": {
-            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
-            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-            "basis": "per 100 g edible portion",
-            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-            "source_reference": "#food-source-8",
-            "last_checked": "2026-10-12"
-          },
-          "value": 0.55,
-          "unit": "mg",
-          "basis": "per 100 g edible portion",
+          "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20B2",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
           "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
-          "source_reference": "#food-source-8",
-          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
-          "preparation": null,
-          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
-          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
-          "verified": true,
-          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
-          "rank_eligible": false,
-          "comparison_group": null,
-          "low": 0.55,
-          "high": 0.55,
-          "display": "0.55 mg"
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.55 mg vitamin B2 per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
         }
       ],
       "pm_evidence": {
@@ -2667,7 +2916,7 @@
       "limitations": [
         "The review does not show that eating more riboflavin, once flavin mononucleotide (FMN) is adequate, raises electron transport. Riboflavin-responsive complex I disease is a separate clinical context."
       ],
-      "missing_ontology_edge": "salmon-roe → vitamin-b2"
+      "missing_ontology_edge": null
     },
     {
       "brs": "BRS4",
@@ -2687,6 +2936,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "spinach",
       "food_title": "Spinach",
+      "food_material": "Spinach, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2695,6 +2949,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_and_amount_supported",
           "limitations": "USDA FoodData Central reports vitamin B2 in Spinach, raw."
         }
@@ -2733,6 +2988,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2769,6 +3029,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": null,
       "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "unresolved",
       "food_evidence": null,
       "pm_evidence": {
@@ -2807,6 +3072,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pumpkin-seeds",
       "food_title": "Pumpkin Seeds",
+      "food_material": "Seeds, pumpkin and squash seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2815,6 +3085,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Seeds, pumpkin and squash seed kernels, dried."
         }
@@ -2853,6 +3124,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "soy",
       "food_title": "Soy",
+      "food_material": "Soybeans, mature seeds, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2861,6 +3137,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Soybeans, mature seeds, raw."
         }
@@ -2899,6 +3176,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "turkey",
       "food_title": "Turkey",
+      "food_material": "Turkey, whole, meat only, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2907,6 +3189,7 @@
           "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
           "source_reference": null,
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "USDA FoodData Central reports tryptophan in Turkey, whole, meat only, raw."
         }
@@ -2945,6 +3228,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "beef",
       "food_title": "Beef",
+      "food_material": "the named meat or fish tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -2953,6 +3241,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
           "source_reference": "#food-source-4",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains creatine; amounts vary with the cut and cooking."
         }
@@ -2991,68 +3280,13 @@
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": "beef",
-      "food_title": "Beef",
-      "mapping_status": "research-supported-provisional",
-      "food_evidence": [
-        {
-          "key": "creatine_mg",
-          "label": "Creatine",
-          "notes": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts.",
-          "source_note": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
-          "public_note": "Approximate content for cooked beef muscle; cut and cooking affect the amount.",
-          "source_group": "estimate-creatine_mg",
-          "public_display": "table",
-          "omit_substance_card": false,
-          "evidence_status": "supported",
-          "presence_status": "presence_supported_amount_unavailable",
-          "amount_display": "400 mg (estimate)",
-          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
-          "value": 400,
-          "unit": "mg",
-          "quantity_citation_pending": true,
-          "source_reference": "#food-source-4",
-          "record": "docs/foods/beef.md#nutrition_supplementary_sources/creatine_mg",
-          "evidence": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
-          "limitations": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts."
-        }
-      ],
-      "pm_evidence": {
-        "finding_ids": [
-          "PM3-F1",
-          "PM3-F3"
-        ],
-        "citation_keys": [
-          "beard_creatine_cns_2010",
-          "dolan_beyond_muscle_2019"
-        ]
-      },
-      "preparation": "raw",
-      "delivery": "direct-input-source",
-      "conversion_pathway": [],
-      "limitations": [
-        "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
-      ],
-      "missing_ontology_edge": "beef → creatine"
-    },
-    {
-      "brs": "BRS4",
-      "fm": "BRS4(FM1)",
-      "pm": "BRS4-FM1-PM3",
-      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
-      "dietary_input": "Creatine",
-      "type": null,
-      "classification": "direct",
-      "canonical_substance_id": "creatine",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "supported"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "lamb",
       "food_title": "Lamb",
+      "food_material": "the named meat or fish tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3061,6 +3295,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
           "source_reference": "#food-source-7",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains creatine; amounts vary with the cut and cooking."
         }
@@ -3101,6 +3336,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "liver",
       "food_title": "Liver",
+      "food_material": "the named meat or fish tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3109,6 +3349,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains creatine; amounts vary with the cut and cooking."
         }
@@ -3149,6 +3390,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "pork",
       "food_title": "Pork",
+      "food_material": "the named meat or fish tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3157,6 +3403,7 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
           "source_reference": "#food-source-3",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains creatine; amounts vary with the cut and cooking."
         }
@@ -3197,6 +3444,11 @@
       "admission_basis": "historical-decision-pending-reconciliation",
       "food_target": "tuna",
       "food_title": "Tuna",
+      "food_material": "the named meat or fish tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
       "mapping_status": "verified",
       "food_evidence": [
         {
@@ -3205,8 +3457,74 @@
           "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
           "source_reference": "#food-source-2",
           "citation_keys": [],
+          "relationship_type": "contains",
           "presence_status": "presence_supported_amount_unavailable",
           "limitations": "Contains creatine; amounts vary with the cut and cooking."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1",
+          "PM3-F3"
+        ],
+        "citation_keys": [
+          "beard_creatine_cns_2010",
+          "dolan_beyond_muscle_2019"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "biological_mechanism": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "dietary_input": "Creatine",
+      "type": null,
+      "classification": "direct",
+      "canonical_substance_id": "creatine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "material_equivalence_status": "review-required",
+      "material_equivalence_reason": "Material, brand/fortification, cultivar or analytical-sample equivalence is not established by the recorded provenance.",
+      "ontology_relationship_status": "material-equivalence-review",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "key": "creatine_mg",
+          "label": "Creatine",
+          "notes": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts.",
+          "source_note": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+          "public_note": "Approximate content for cooked beef muscle; cut and cooking affect the amount.",
+          "source_group": "estimate-creatine_mg",
+          "public_display": "table",
+          "omit_substance_card": false,
+          "evidence_status": "supported",
+          "presence_status": "presence_supported_amount_unavailable",
+          "amount_display": "400 mg (estimate)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+          "value": 400,
+          "unit": "mg",
+          "quantity_citation_pending": true,
+          "source_reference": "#food-source-4",
+          "record": "docs/foods/beef.md#nutrition_supplementary_sources/creatine_mg",
+          "evidence": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+          "limitations": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts."
         }
       ],
       "pm_evidence": {

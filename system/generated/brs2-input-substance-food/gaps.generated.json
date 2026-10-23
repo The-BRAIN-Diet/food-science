@@ -11,13 +11,6 @@
     {
       "kind": "substance-identity",
       "pm_id": "BRS2-FM1-PM1",
-      "id": "PM1-DIT-3",
-      "input": "Methylcobalamin",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS2-FM1-PM1",
       "id": "PM1-DIT-5",
       "input": "Homocysteine",
       "status": "unresolved-identity"
@@ -53,13 +46,6 @@
       "pm_id": "BRS2-FM1-PM4",
       "id": "PM4-DIT-2",
       "input": "Dietary protein",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS2-FM2-PM5",
-      "id": "PM5-DIT-1",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
       "status": "unresolved-identity"
     },
     {
@@ -143,7 +129,7 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS2-FM2-PM5::PM5-DIT-1",
       "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
+      "reason": "No supported canonical food-source record found."
     },
     {
       "kind": "mapping-gap",

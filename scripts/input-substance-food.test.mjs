@@ -40,7 +40,10 @@ test('B6 and PLP are separate relationships, not two dietary supplies', () => { 
     const target = byId.get(r.derived_target_atom_id);
     assert.ok(target.input.includes('PLP'));
     assert.equal(target.accounting, 'E');
-    assert.equal(target.substance_id, null);
+    assert.equal(target.substance_id, 'pyridoxal-5-phosphate');
+    const registry=JSON.parse(fs.readFileSync(path.join(root,'registry/substances.json')));
+    assert.ok(registry[target.substance_id].aliases.includes('PLP'));
+    assert.ok(!d.food_sources.some(f=>f.substance_id===target.substance_id), 'B6 content does not establish direct food PLP');
 } });
 test('qualitative phosphatidylcholine and betaine survive without numbers', () => { for (const id of ['phosphatidylcholine', 'betaine']) {
     const s = d.substances.find(s => s.id === id);

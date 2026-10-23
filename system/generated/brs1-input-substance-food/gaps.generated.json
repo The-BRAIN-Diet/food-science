@@ -22,13 +22,6 @@
       ]
     },
     {
-      "kind": "substance-identity",
-      "pm_id": "BRS1-FM1-PM3",
-      "id": "PM3-DIT-2",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "status": "unresolved-identity"
-    },
-    {
       "kind": "dietary-input-unset",
       "relationship_id": "BRS1-FM1-PM4::PM4-DIT-2",
       "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
@@ -37,26 +30,12 @@
       ]
     },
     {
-      "kind": "substance-identity",
-      "pm_id": "BRS1-FM1-PM4",
-      "id": "PM4-DIT-2",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "status": "unresolved-identity"
-    },
-    {
       "kind": "dietary-input-unset",
       "relationship_id": "BRS1-FM1-PM5::PM5-DIT-3",
       "reason": "Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.",
       "flags": [
         "section-supply-contradiction"
       ]
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS1-FM1-PM5",
-      "id": "PM5-DIT-3",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "status": "unresolved-identity"
     },
     {
       "kind": "constituent-relationship-type-missing",
@@ -93,13 +72,6 @@
       "flags": [
         "section-supply-contradiction"
       ]
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS1-FM4-PM9",
-      "id": "PM9-DIT-2",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
-      "status": "unresolved-identity"
     },
     {
       "kind": "specialist-specification-not-joined",

@@ -10,6 +10,8 @@ tags:
   - Dietary Fibre
   - Pectin
   - Gut-Brain Axis & Enteric Nervous System
+aliases:
+  - Citrus pectin
 mechanisms:
   Gut-Brain Axis & Enteric Nervous System: 'Studied pectin preparations can be microbial substrates. Apple pectin, citrus pectin, and in vitro fermentation substrates are not interchangeable, and none is a human brain benefit.'
 list_image: /img/icons/nutrient.svg

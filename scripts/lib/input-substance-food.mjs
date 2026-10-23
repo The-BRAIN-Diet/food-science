@@ -179,7 +179,7 @@ export function buildInputSubstanceFood(root, { brs = 'BRS1' } = {}) {
             if (!ident.id || !needed.has(ident.id) || heldSubstances.has(ident.id))
                 continue;
             const e = entry(ident.id, edge.evidence_material || material, Object.hasOwn(edge, 'preparation_state') ? edge.preparation_state : prep);
-            e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, source_reference: edge.source_reference || null, citation_keys: edge.citation_keys || [], presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
+            e.presence_records.push({ record: doc.file + '#substance_relationships/' + encodeURIComponent(edge.substance), evidence: edge.evidence_source || edge.evidence_basis || null, source_url: edge.source_url || null, source_reference: edge.source_reference || null, citation_keys: edge.citation_keys || [], relationship_type: edge.relationship, presence_status: edge.presence_status || 'supported-qualitative', limitations: edge.material_limitations || edge.description || null });
             e.chemical_form = edge.chemical_form || e.chemical_form;
             e.food_matrix = edge.food_matrix || e.food_matrix;
             e.preparation_effects = edge.preparation_effects || e.preparation_effects;
