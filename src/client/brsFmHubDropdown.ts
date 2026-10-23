@@ -4,6 +4,8 @@
  */
 
 function setHubCollapsibleOpen(item: HTMLElement, open: boolean): void {
+  // A page-local scientific review hold also blocks automatic deep-link expansion.
+  if (open && item.closest('.markdown')?.querySelector('[data-pm-disclosures-locked]')) return;
   const shell = item.querySelector<HTMLElement>(':scope > .brs-fm-hub-shell');
   if (!shell) return;
 

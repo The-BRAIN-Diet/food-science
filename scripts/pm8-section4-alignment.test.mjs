@@ -29,7 +29,7 @@ for(const page of manifest.pages){
   // Non-heading client components are fixtures here; their authored content is
   // protected byte-for-byte above, not reimplemented by this alignment test.
   const fixture=({children})=>React.createElement('div',null,children);
-  const html=renderToStaticMarkup(React.createElement(evaluated.default,{components:{ScientificFinding:({finding})=>React.createElement('div',{id:finding.id.toLowerCase()},finding.finding_label),AccessibleMermaid:fixture,PmCuratedEvidence:fixture,PmCuratedReferenceList:fixture,PmCuratedReferences:fixture}}));
+  const html=renderToStaticMarkup(React.createElement(evaluated.default,{components:{PmDevelopmentDisclosureLock:()=>null,ScientificFinding:({finding})=>React.createElement('div',{id:finding.id.toLowerCase()},finding.finding_label),AccessibleMermaid:fixture,PmCuratedEvidence:fixture,PmCuratedReferenceList:fixture,PmCuratedReferences:fixture}}));
   assert.ok(html.includes(`4. Mechanistic Basis + Scientific Findings (SFs ${page.findings.length})`));
   assert.ok(html.includes(`4.1 Scientific Findings (${page.findings.length})`));
   assert.ok(html.includes('id="4-mechanistic-basis"'));assert.ok(html.includes('id="41-scientific-findings"'));
