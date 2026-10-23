@@ -55,8 +55,8 @@
     "relationship_id": "BRS5-FM1-PM1::PM1-DIT-6",
     "source_record": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx#dietary_input_traceability/PM1-DIT-6",
     "input": "Glutamine",
-    "dietary_input": null,
-    "note": "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.",
+    "dietary_input": true,
+    "note": "2026-10-23: previously Unset supply decision completed under the documented Capacity gate. Original atom and note are preserved in the immutable assessment baseline. Supplemental exposure is not ordinary-food efficacy.",
     "flags": [
       "section-supply-contradiction"
     ]
@@ -182,6 +182,14 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS5-FM2-PM4::PM4-DIT-DEFERRED-1",
+    "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx#dietary_input_traceability/PM4-DIT-DEFERRED-1",
+    "input": "Inulin",
+    "dietary_input": true,
+    "note": "Admitted provision/exposure is distinct from a food-specific intervention effect.",
+    "flags": []
+  },
+  {
     "relationship_id": "BRS5-FM2-PM5::PM5-KC1-SUPPLY",
     "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#pm_kc_relationships/PM5-KC1-SUPPLY",
     "input": "Fermentable fibre resource pool",
@@ -275,6 +283,14 @@
     "input": "Glutamate",
     "dietary_input": false,
     "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS5-FM3-PM7::PM7-DIT-DEFERRED-1",
+    "source_record": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx#dietary_input_traceability/PM7-DIT-DEFERRED-1",
+    "input": "Linoleic acid",
+    "dietary_input": true,
+    "note": "Admitted provision/exposure is distinct from a food-specific intervention effect.",
     "flags": []
   },
   {

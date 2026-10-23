@@ -1,0 +1,203 @@
+{
+  "pm_id": "BRS-X(Circadian-FM1-PM2)",
+  "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+  "mission": "Coordinate peripheral metabolic clock timing through feeding cues.",
+  "stage2a": {
+    "operation": "Feeding-related peripheral entrainment is distinct from retinal central-clock entrainment. Reuse bounded phase evidence; do not convert a phase shift into a beneficial dietary effect.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM2-F1",
+        "proposition": "In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.",
+        "existing_source_assessments": [
+          {
+            "label": "Wehrens et al. (2017)",
+            "citation_key": "wehrens_meal_timing_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Glucose and adipose PER2 timing shifted, while melatonin and cortisol timing did not.",
+            "assessment": {
+              "study": "Ten healthy men; meals five hours apart, starting 0.5 versus 5.5 hours after waking; 37-hour constant-routine rhythm assessments.",
+              "population": "Ten healthy men.",
+              "result": "In ten healthy men, a five-hour meal delay shifted glucose rhythm timing by 5.69 ± 1.29 hours and adipose PER2 by 0.97 ± 0.29 hours, without significant changes in measured melatonin or cortisol timing.",
+              "effect_magnitude": "Glucose phase +5.69 ± 1.29 h; adipose PER2 +0.97 ± 0.29 h; these are measured responses, not the five-hour exposure dose.",
+              "evidence_summary": "Meal timing changed peripheral metabolic and adipose-clock readouts without moving the measured central hormonal timing.",
+              "limitations": "Small ordered rather than randomised sequence; peripheral clock-gene sampling, not direct SCN recording. No optimum eating window or clinical benefit established.",
+              "retrieval_scope": "Full primary Results/Methods retrieved; Figure 2 glucose and Figure 4 adipose clock-gene analysis."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Hatori et al. (2012)",
+            "citation_key": "hatori_2012_22608008",
+            "href": "/docs/papers/BRAIN-Diet-References#hatori_2012_22608008",
+            "data_level": "Animal Data",
+            "why_relevant": "Time-restricted feeding without a calorie reduction prevented metabolic disease in mice on a high-fat diet.",
+            "why_excluded": "Metabolic protection is not a measurement of peripheral clock phase in humans."
+          },
+          {
+            "label": "Garaulet and Gómez-Abellán (2014)",
+            "citation_key": "garaulet_2014_24467926",
+            "href": "/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926",
+            "data_level": "Review",
+            "why_relevant": "The review associates the timing of food intake with obesity.",
+            "why_excluded": "An association with obesity does not establish that a peripheral clock moved."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F2",
+        "proposition": "Animal feeding manipulations shift peripheral clock rhythms while central-clock phase remains linked to the light cycle.",
+        "existing_source_assessments": [
+          {
+            "label": "Stokkan et al. (2001)",
+            "citation_key": "stokkan_feeding_liver_clock_2001",
+            "href": "/docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001",
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.",
+            "assessment": {
+              "study": "Transgenic rat tissue rhythms under restricted feeding.",
+              "population": "Transgenic rat tissue rhythms under restricted feeding.",
+              "result": "Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.",
+              "effect_magnitude": "Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.",
+              "evidence_summary": "Liver rhythm shifted by approximately ten hours within two days while SCN rhythmicity stayed phase-locked to the light–dark cycle.",
+              "limitations": "Animal liver entrainment, not a human optimum meal schedule.",
+              "retrieval_scope": "Primary abstract retrieved; no unextracted full-method detail asserted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/11161204/"
+            }
+          },
+          {
+            "label": "Damiola et al. (2000)",
+            "citation_key": "damiola_feeding_peripheral_clock_2000",
+            "href": "/docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000",
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.",
+            "assessment": {
+              "study": "Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.",
+              "population": "Mouse daytime/night-time restricted feeding with peripheral and SCN clock-gene measurements.",
+              "result": "Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.",
+              "effect_magnitude": "Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.",
+              "evidence_summary": "Peripheral gene-expression phase shifted by up to twelve hours while SCN phase remained unaffected; adaptation differed across tissues.",
+              "limitations": "Peripheral uncoupling can occur; a shift is not proof of beneficial alignment.",
+              "retrieval_scope": "Primary abstract retrieved; no unextracted full-method detail asserted.",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC317100/"
+            }
+          },
+          {
+            "label": "Crosby et al. (2019)",
+            "citation_key": "crosby_insulin_period_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019",
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.",
+            "assessment": {
+              "study": "Cellular and mouse insulin/IGF-1 signalling manipulations.",
+              "population": "Cellular and mouse insulin/IGF-1 signalling manipulations.",
+              "result": "Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.",
+              "effect_magnitude": "Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.",
+              "evidence_summary": "Insulin/IGF-1 induced PERIOD proteins and reset rhythms; mistimed signalling disrupted circadian organisation.",
+              "limitations": "Animal/cellular mechanism, not proof that a particular human diet optimises clocks.",
+              "retrieval_scope": "Primary abstract retrieved; no unextracted full-method detail asserted.",
+              "source_url": "https://pubmed.ncbi.nlm.nih.gov/31030999/"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Human meal-delay effects on glucose and adipose PER2 phase differ from melatonin/cortisol phase and from a demonstrated health improvement. Animal insulin/clock experiments remain contextual and do not create extra human replications.",
+    "source_to_claim_records": [
+      {
+        "id": "feeding-phase",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28578930/",
+        "kind": "primary-human-laboratory",
+        "proposition": "A five-hour meal delay shifted glucose and adipose PER2 rhythms without shifting melatonin or cortisol rhythms.",
+        "limitation": "Ten healthy young men in ordered laboratory schedules; phase shifts are not proof of improved health or a prescription for an optimum clock time.",
+        "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Wehrens et al. (2017) — Meal Timing Regulates the Human Circadian System](/docs/papers/BRAIN-Diet-References#wehrens_meal_timing_2017)",
+      "[Hatori et al. (2012) — Time-restricted feeding without reducing caloric intake prevents metabolic diseases in mice fed a high-fat diet](/docs/papers/BRAIN-Diet-References#hatori_2012_22608008)",
+      "[Garaulet & Gómez-Abellán (2014) — Timing of food intake and obesity: a novel association.](/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926)",
+      "[Stokkan et al. (2001) — Entrainment of the circadian clock in the liver by feeding](/docs/papers/BRAIN-Diet-References#stokkan_feeding_liver_clock_2001)",
+      "[Damiola et al. (2000) — Restricted feeding uncouples circadian oscillators in peripheral tissues from the central pacemaker in the suprachiasmatic nucleus](/docs/papers/BRAIN-Diet-References#damiola_feeding_peripheral_clock_2000)",
+      "[Crosby et al. (2019) — Insulin/IGF-1 Drives PERIOD Synthesis to Entrain Circadian Rhythms with Feeding Time](/docs/papers/BRAIN-Diet-References#crosby_insulin_period_2019)"
+    ],
+    "preserved_phenome_source_records": [],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "The existing meal-schedule SOP is retained. Peripheral clock timing is distinct from retinal light entrainment; no extra dietary substance, preferred universal meal time or clinical efficacy claim is added.",
+    "all_existing_inputs": [],
+    "existing_practices": [
+      {
+        "atom_id": "PM2-SOP-1",
+        "input": "Defined meal-timing schedule",
+        "input_type": "Defined timing protocol",
+        "biological_role": "Meal timing can shift peripheral glucose and adipose clock-gene rhythms while measured melatonin and cortisol timing remain unchanged.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F1"
+          ],
+          "citation_keys": [
+            "wehrens_meal_timing_2017"
+          ]
+        },
+        "evidence_limitation": "Five-hour meal delay in ten healthy men; PER2 shifted about one hour. No universal eating window, improved alignment or health benefit is established.",
+        "optimisation_category": "dietary_protocols",
+        "reader_description": "Meal timing can shift peripheral glucose and adipose clock-gene rhythms while measured melatonin and cortisol timing remain unchanged.",
+        "description_finding_id": "PM2-F1"
+      }
+    ],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 0,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "66cbb53948ed94f00d3c71b68db4f87d4b4256f1229683d6cdf9904f6993d31e",
+    "original_counts": {
+      "dietary_input_traceability": 0,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 0,
+      "dietary_lever_presentations": 0,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 1,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 6,
+      "phenome_relationships": 0,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

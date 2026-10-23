@@ -1,0 +1,37 @@
+{
+  "implementation_files": [
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "before_sha256": "e28f6716bd7a3f5276a24c54f599dc5223b64dd81753d56315ba7ae0df22bad9",
+      "after_sha256": "621d680f2e3777d66f1bbd2f60199836085caf17d24d9cc0c6de89642fe311b8",
+      "change": "presentation; all structured frontmatter unchanged"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+      "before_sha256": "128384dc296eb21ae7600a370549defeecec06ac6615c0bc742a5c595f5c0fea",
+      "after_sha256": "e026f9c77b942394eb6e54b70fd6889c8886be522c76edec81463db71c85bc4e",
+      "change": "presentation; all structured frontmatter unchanged"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+      "before_sha256": "757d8062b47fb0a344a8d8cd7612db31b23547f8883c8ee1974b7eeb40862dce",
+      "after_sha256": "06df56c5419c0e5f503d0c93bbdd3b31e5a697b16e5e774a951e825cba473e5d",
+      "change": "presentation; all structured frontmatter unchanged"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "before_sha256": "9634f9ac5b0218854203e3b2897786fdce7cce0a0ecae9b7ceab2adbb8a93882",
+      "after_sha256": "1682c32fd221d71e77934847a58f0b6ec5d8a325a22a575f64b96c37d0c75293",
+      "change": "presentation; all structured frontmatter unchanged"
+    },
+    {
+      "file": "scripts/brs4-validation-repair.test.mjs",
+      "change": "six new focused regression/preservation tests"
+    }
+  ],
+  "evidence_directory": "review/brs4-validation-repair-2026-10-23",
+  "source_fingerprints_unchanged": 2589,
+  "source_status_unchanged": true,
+  "other_prior_implementation_files_unchanged": true,
+  "branch": "codex/deferred-stage2ab-enrichment"
+}

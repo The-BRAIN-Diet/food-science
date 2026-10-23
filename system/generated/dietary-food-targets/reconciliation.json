@@ -796,9 +796,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
@@ -1136,9 +1136,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
@@ -1156,9 +1156,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
@@ -1313,10 +1313,8 @@
       "eligible": true,
       "state": "eligible-candidate"
     },
-    "admission_basis": "historical-decision-pending-reconciliation",
-    "issues": [
-      "scientific-assessment-missing"
-    ],
+    "admission_basis": "versioned-assessment",
+    "issues": [],
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
@@ -1551,9 +1549,9 @@
     "ontology_connections": {
       "identity": "resolved",
       "conversion": "not-applicable",
-      "food": "unresolved"
+      "food": "supported"
     },
-    "food_target_mapping": "unresolved",
+    "food_target_mapping": "research-supported-provisional",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {

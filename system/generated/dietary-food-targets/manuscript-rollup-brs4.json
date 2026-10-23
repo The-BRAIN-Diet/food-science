@@ -2982,19 +2982,26 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "food_target": "chicken",
+      "food_title": "Chicken (studied breast material)",
+      "food_material": "Chicken breast purchased in Turkey; cooking state not established",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
       "pm_evidence": {
         "finding_ids": [
           "PM2-F1"
@@ -3003,13 +3010,63 @@
           "covarrubias_nad_2021"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD⁺. The myopathy niacin study used nicotinic acid at pharmacological doses."
+        "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD⁺. The myopathy niacin study used nicotinic acid at pharmacological doses.",
+        "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "chicken → nicotinamide [Chicken breast purchased in Turkey; cooking state not established; Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM2",
+      "biological_mechanism": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
+      "dietary_input": "Nicotinamide (a form of vitamin B3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "nicotinamide",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas (studied analytical material)",
+      "food_material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "covarrubias_nad_2021"
+        ]
+      },
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD⁺. The myopathy niacin study used nicotinic acid at pharmacological doses.",
+        "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+      ],
+      "missing_ontology_edge": "chickpeas → nicotinamide [Chickpea samples purchased in Turkey; cooking state not established; Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement]"
     },
     {
       "brs": "BRS4",
@@ -3023,19 +3080,26 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "food_target": "chicken",
+      "food_title": "Chicken (studied breast material)",
+      "food_material": "Chicken breast purchased in Turkey; cooking state not established",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
       "pm_evidence": {
         "finding_ids": [
           "PM2-F1",
@@ -3046,13 +3110,65 @@
           "pirinen_niacin_2020"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "In five adults with mitochondrial myopathy, niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured."
+        "In five adults with mitochondrial myopathy, niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured.",
+        "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "chicken → nicotinic-acid [Chicken breast purchased in Turkey; cooking state not established; Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM2",
+      "biological_mechanism": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
+      "dietary_input": "Nicotinic acid (a form of vitamin B3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "nicotinic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas (studied analytical material)",
+      "food_material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F1",
+          "PM2-F4"
+        ],
+        "citation_keys": [
+          "covarrubias_nad_2021",
+          "pirinen_niacin_2020"
+        ]
+      },
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "In five adults with mitochondrial myopathy, niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured.",
+        "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+      ],
+      "missing_ontology_edge": "chickpeas → nicotinic-acid [Chickpea samples purchased in Turkey; cooking state not established; Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement]"
     },
     {
       "brs": "BRS4",
@@ -3544,6 +3660,106 @@
         "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM6",
+      "biological_mechanism": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+      "dietary_input": "L-Carnitine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "l-carnitine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef meat samples in the primary radioisotopic composition study",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2003.09.023"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F2"
+        ],
+        "citation_keys": [
+          "gobin_cpt1a_deficiency_2003",
+          "demarquoy_carnitine_food_composition_2004"
+        ]
+      },
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+        "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge."
+      ],
+      "missing_ontology_edge": "beef → l-carnitine [Beef meat samples in the primary radioisotopic composition study; Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred]"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM6",
+      "biological_mechanism": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+      "dietary_input": "L-Carnitine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "l-carnitine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lamb",
+      "food_title": "Lamb",
+      "food_material": "Lamb meat samples in the primary radioisotopic composition study",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2003.09.023"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F2"
+        ],
+        "citation_keys": [
+          "gobin_cpt1a_deficiency_2003",
+          "demarquoy_carnitine_food_composition_2004"
+        ]
+      },
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+        "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge."
+      ],
+      "missing_ontology_edge": "lamb → l-carnitine [Lamb meat samples in the primary radioisotopic composition study; Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred]"
     }
   ]
 }

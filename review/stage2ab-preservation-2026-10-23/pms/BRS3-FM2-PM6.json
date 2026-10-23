@@ -1,0 +1,348 @@
+{
+  "pm_id": "BRS3-FM2-PM6",
+  "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+  "mission": "Regenerate vitamin and thiol antioxidants across networked systems so endogenous defence capacity is sustained.",
+  "stage2a": {
+    "operation": "Distinct regeneration operation retained. Broader thiol-network contribution remains an explicit coverage gap rather than a fabricated additional dietary admission.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM6-F1",
+        "proposition": "Vitamin C can reduce the vitamin E radical. That regeneration is a biochemical partnership. It does not set a high-dose intake.",
+        "existing_source_assessments": [
+          {
+            "label": "Packer, Slater and Willson (1979)",
+            "citation_key": "packer_direct_1979",
+            "href": "/docs/papers/BRAIN-Diet-References#packer_direct_1979",
+            "data_level": "Mechanistic",
+            "exposure_context": "pulse radiolysis of vitamin E and vitamin C radicals",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Ascorbate reduced the vitamin E radical in a direct free-radical observation.",
+            "assessment": {
+              "study": "Pulse-radiolysis observation of the vitamin E radical reacting with vitamin C.",
+              "population": "Chemical solution. No human participants.",
+              "result": "Vitamin C reduced the vitamin E radical.",
+              "effect_magnitude": "A direct radical-radical observation. No intake effect.",
+              "evidence_summary": "Vitamin C can regenerate vitamin E from its radical.",
+              "limitations": "A chemical observation is not a dietary dose and not a clinical outcome."
+            }
+          },
+          {
+            "label": "Niki (2014)",
+            "citation_key": "niki_vitamin_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#niki_vitamin_2014",
+            "data_level": "Mechanistic",
+            "exposure_context": "review of vitamin E and vitamin C interaction",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E.",
+            "assessment": {
+              "study": "Review of vitamin E as a peroxyl-radical scavenger, including its interaction with vitamin C.",
+              "population": "Kinetic and in vivo ratio evidence. No new feeding trial.",
+              "result": "Vitamin C is described as extending vitamin E capacity.",
+              "effect_magnitude": "No recycling rate after a change in intake.",
+              "evidence_summary": "The partnership is part of how vitamin E keeps working.",
+              "limitations": "The same review is used elsewhere for chain-breaking. Here only the vitamin C interaction is the claim."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Packer et al. (1997)",
+            "citation_key": "packer_vitamin_1997",
+            "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997",
+            "data_level": "Mechanistic",
+            "why_relevant": "Places vitamin E in a network in which other antioxidants, including thiols, can regenerate it.",
+            "why_excluded": "A network chapter is not the direct observation of the vitamin C reaction, and it does not test intake."
+          },
+          {
+            "label": "Klein et al. (2011)",
+            "citation_key": "klein_vitamin_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#klein_vitamin_2011",
+            "data_level": "Human Outcome",
+            "why_relevant": "A prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.",
+            "why_excluded": "Cancer incidence is not a recycling measurement. It only blocks reading this chemistry as a high-dose rule."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "A new unscored Finding adds human glutathione-reductase structure and inherited enzyme-deficiency evidence to the thiol arm of the existing mission. Chemical vitamin C–E recycling remains a separate, unchanged Finding. Curated reaction records are pathway context, not additional experimental replications.",
+    "source_to_claim_records": [
+      {
+        "id": "recycling-primary",
+        "url": "https://www.nature.com/articles/278737a0",
+        "kind": "primary-experiment",
+        "proposition": "Chemical experiment directly observed the vitamin E radical/vitamin C interaction.",
+        "limitation": "Radical chemistry, not a human dietary recycling rate or supplementation prescription.",
+        "retrieval": "Publisher primary abstract; full paywalled methods not newly extracted.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "vitamin-e-capacity",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17561088/",
+        "kind": "secondary-review",
+        "proposition": "Alpha-tocopherol supports lipid-phase peroxyl-radical chain termination.",
+        "limitation": "Vitamin E forms differ in retention; high-dose benefits and brain efficacy are not inferred.",
+        "retrieval": "Review full text and abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [
+      "PM6-F2"
+    ],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)",
+      "[Vertuani et al. (2004) — Antioxidants and Pro-Antioxidants Network](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)",
+      "[Klein et al. (2011) — Vitamin E and Prostate Cancer](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)",
+      "[Pachter et al. (2024) — Glycemic and Microbiome Effects of Green Mediterranean Diet](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)",
+      "[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)",
+      "[Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)",
+      "[Packer, Slater and Willson (1979) — Direct observation of a free radical interaction between vitamin E and vitamin C](/docs/papers/BRAIN-Diet-References#packer_direct_1979)",
+      "[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Packer et al. (1997)",
+            "citation_key": "packer_vitamin_1997",
+            "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997",
+            "data_level": "Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Verlaet et al. (2019)",
+            "citation_key": "verlaet_oxidative_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+            "data_level": "Human Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Compensatory glutathione elevation in ADHD may reflect network activity under oxidative burden; polyphenol–fibre patterns supporting urolithin A context may modulate stress-buffering redox resilience.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Verlaet et al. (2019)",
+            "citation_key": "verlaet_oxidative_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+            "data_level": "Human Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Zelicha et al. (2022)",
+            "citation_key": "zelicha_effect_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+            "data_level": "Human Outcome"
+          }
+        ],
+        "evidence_confidence": "medium"
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "relationship_type": "modulates",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "rationale": "Network antioxidant sufficiency may indirectly modulate affective context under chronic oxidative stress; high-dose single-nutrient supplementation shows inconsistent benefit.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Klein et al. (2011)",
+            "citation_key": "klein_vitamin_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#klein_vitamin_2011",
+            "data_level": "Human Outcome"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      }
+    ],
+    "new_finding_records": [
+      {
+        "id": "PM6-F2",
+        "finding_label": "Human glutathione reductase has defined flavin-dependent machinery",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_statement": "The human glutathione-reductase structure contains FAD, and inherited GSR defects can abolish blood-cell enzyme activity.",
+        "finding_summary": "Structural and human genetic evidence identify machinery supporting the glutathione arm of thiol regeneration.",
+        "finding_interpretation": "This adds evidence for a defining thiol-regeneration step alongside vitamin C–E recycling. Enzyme machinery is not itself a new dietary admission.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "synthesis": "Primary human-enzyme crystallography resolves the bound FAD cofactor. A separate inherited-deficiency investigation identifies loss of glutathione-reductase activity in patient blood cells and impaired protein stability in a recombinant variant. UniProtKB P00390 records the NADPH-dependent GSSG-to-GSH reaction (Rhea 11740), providing curated pathway context rather than an additional experiment.",
+        "synthesis_limitations": "The experiments concern structure and rare genetic deficiency, not ordinary dietary exposure or neuronal recycling flux. They do not establish that additional riboflavin or another food improves this PM, cognition or ADHD. Thioredoxin-system coverage and a possible dietary FAD-precursor route remain separate research questions.",
+        "evidence_considered": [
+          {
+            "label": "Karplus and Schulz (1987)",
+            "citation_key": "karplus_glutathione_reductase_structure_1987",
+            "href": "/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_structure_1987",
+            "data_level": "Mechanistic",
+            "exposure_context": "purified human glutathione reductase crystal; no dietary intervention",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Primary X-ray crystallography resolves the FAD prosthetic group in human glutathione reductase.",
+            "assessment": {
+              "study": "Primary structural experiment: refinement of human glutathione reductase at 1.54 angstrom resolution.",
+              "population": "Purified human enzyme crystal; no dietary intervention or clinical cohort.",
+              "result": "The refined structure includes bound FAD and resolves its active-site environment.",
+              "effect_magnitude": "Structural resolution 1.54 angstrom; no dietary effect size or recycling flux.",
+              "evidence_summary": "Direct structural support for the FAD-containing machinery of glutathione reductase.",
+              "limitations": "A bound cofactor does not establish dietary limitation, human brain flux or benefit from extra riboflavin. Structural and database records describe the same protein, not independent replications.",
+              "retrieval_scope": "Primary publication abstract and deposited experimental structure RCSB PDB 3GRS, entry version 1.4 (revision 2024-10-30), retrieved 2026-10-23; full publisher methods not re-extracted."
+            }
+          },
+          {
+            "label": "Kamerbeek et al. (2007)",
+            "citation_key": "kamerbeek_gsr_deficiency_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007",
+            "data_level": "Human Study",
+            "exposure_context": "inherited GSR variants; human blood-cell assays and recombinant enzyme",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Inherited GSR defects were associated with absent red-cell glutathione-reductase activity; residual leukocyte activity and protein instability varied with genotype.",
+            "assessment": {
+              "study": "Primary molecular case investigation of inherited glutathione-reductase deficiency with blood-cell activity/protein assays, genetic analysis and recombinant G330A characterization.",
+              "population": "Two affected relatives and one unrelated patient; blood cells and recombinant enzyme, not a nutrition trial.",
+              "result": "Affected red cells lacked detectable GR activity; the deletion and compound-heterozygous variants impaired protein expression or stability.",
+              "effect_magnitude": "Absent detectable red-cell enzyme activity in the described cases; no population treatment or food effect estimate.",
+              "evidence_summary": "Human loss-of-function evidence complements the structural finding at the level of enzyme capacity.",
+              "limitations": "Rare genetic loss of enzyme is not a dietary deficiency model and does not identify an effective food, nutrient dose, neuronal effect or ADHD benefit.",
+              "retrieval_scope": "Primary PubMed abstract PMID 17185460; full publisher methods not re-extracted. UniProtKB P00390 entry version 273, sequence version 2, annotation 2026-09-02 checked separately as curated pathway context on 2026-10-23."
+            }
+          }
+        ],
+        "evidence_dependency": [
+          "PDB 3GRS and its primary Karplus–Schulz paper are the same structural evidence. UniProt curation is not counted as an independent primary experiment. The Kamerbeek human genetic investigation tests a different proposition and is not a replication of crystallographic structure."
+        ]
+      }
+    ]
+  },
+  "stage2b": {
+    "clarification": "Both vitamin C and E records remain unchanged. FAD-dependent machinery motivates a precursor research question only; no new riboflavin, selenium or glutathione dietary input is admitted through structural evidence alone.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS3-FM2-PM6",
+        "atom_id": "PM6-DIT-1",
+        "input": "Vitamin C",
+        "section_presentations": [
+          {
+            "atom_id": "PM6-DIT-1",
+            "label": "Vitamin C",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM6-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "not-established",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Vitamin C is a Direct nutrient in this recycling step because it can reduce the vitamin E radical. This is not a high-dose vitamin C rule, and it is not the membrane chain-breaking job.",
+          "evidence_limitation": "Pulse radiolysis shows ascorbate reacting with the vitamin E radical. It does not show that more vitamin C speeds recycling in people."
+        },
+        "record_preserved": true,
+        "source_sha256": "f8f5dc41d183bfff9f6eb49fadbd1ea1793b173e4baed631e08b171456429b9c",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS3-FM2-PM6",
+        "atom_id": "PM6-DIT-2",
+        "input": "Vitamin E",
+        "section_presentations": [
+          {
+            "atom_id": "PM6-DIT-2",
+            "label": "Vitamin E",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM6-DIT-2",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "not-established",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Vitamin E is a Direct nutrient here as the radical that vitamin C reduces. Its chain-breaking job in membranes is separate. This is not a high-dose vitamin E rule.",
+          "evidence_limitation": "Regeneration of the vitamin E radical is not a high-dose rule. A prevention trial found more prostate cancers with 400 IU of vitamin E a day."
+        },
+        "record_preserved": true,
+        "source_sha256": "abc3eba14aabb6dafc4f0f06dd218f1daa62b28d85a2efbec948bbf03dd0ff74",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 40,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "64aac2fd33c2155a15a4e72990aa128f159a111600de51947772541aa5283373",
+    "original_counts": {
+      "dietary_input_traceability": 2,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 2,
+      "dietary_lever_presentations": 2,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 1,
+      "references": 8,
+      "phenome_relationships": 3,
+      "kc_change_control_flags": 1
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Only append-only Finding/reference metadata and the corresponding generated Finding/reference presentation are extended; existing Finding/reference objects and all other fields remain equal.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [
+    {
+      "id": "PRES-20261023-THIOL-IDENTITY",
+      "pm": "BRS3-FM2-PM6",
+      "record": "New PM6-F2 follow-up; registry/substances.json",
+      "concern": "The retrieved GSR FAD cofactor has ChEBI CHEBI:57692, but a resolved local FAD identity and complete dietary precursor pathway have not been established in this run.",
+      "proposal": "Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically.",
+      "sources": [
+        "https://www.rcsb.org/structure/3GRS",
+        "https://rest.uniprot.org/uniprotkb/P00390.json"
+      ],
+      "status": "open-research-question; no new dietary admission"
+    }
+  ],
+  "proposed_changes_requiring_approval": [
+    {
+      "id": "PRES-20261023-THIOL-IDENTITY",
+      "proposal": "Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically."
+    }
+  ],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

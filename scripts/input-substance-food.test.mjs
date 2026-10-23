@@ -194,7 +194,8 @@ test('BRS2 generation inventories every structured atom and consumes recorded di
  for(const pm of b.coverage){const data=matter(fs.readFileSync(pm.record,'utf8')).data;for(const a of data.dietary_lever_atoms||[])assert.ok(b.relationships.some(r=>r.id===pm.pm_id+'::'+a.atom_id));}
  assert.ok(b.relationships.every(r=>r.brs==='BRS2'));
  assert.equal(new Set(b.relationships.map(r=>r.id)).size,b.relationships.length);
- assert.deepEqual(b.summary.dietary_input,{yes:32,no:20,unset:1});
+ assert.deepEqual(b.summary.dietary_input,{yes:33,no:20,unset:1}); // Includes the independently gated GNMT glycine admission.
+ assert.equal(b.relationships.find(r=>r.id==='BRS2-FM1-PM4::PM4-DIT-DEFERRED-1').scientific_admission,'admitted');
  assert.ok(b.food_sources.length>0);
  assert.equal(b.pools.length,2);
  assert.ok(b.relationships.filter(r=>r.accounting==='D').every(r=>r.dietary_input===false));
@@ -289,13 +290,16 @@ test('rollout records every accepted atom decision and retains evidence and prec
  assert.equal(b2.relationships.find(r=>r.id==='BRS2-FM1-PM3::PM3-DIT-2').dietary_input,false); // ATP
  assert.equal(b2.relationships.find(r=>r.id==='BRS2-FM2-PM5::PM5-DIT-4').dietary_input,true); // explicit dietary serine
  const b5=buildInputSubstanceFood(root,{brs:'BRS5'});
- for(const id of ['PM1-DIT-1','PM1-DIT-3','PM1-DIT-6'])assert.equal(b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::'+id).dietary_input,null);
+ for(const id of ['PM1-DIT-1','PM1-DIT-3'])assert.equal(b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::'+id).dietary_input,null);
+ const glutamine=b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::PM1-DIT-6');
+ assert.equal(glutamine.dietary_input,true);assert.equal(glutamine.scientific_admission,'admitted');
+ assert.equal(glutamine.food_target_mapping,'unresolved'); // Admission is not a fabricated food mapping.
 });
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
  // PM2's two protocols plus the two independently assessed PM8 protocols.
- assert.equal(s.strategies.length,29);assert.equal(s.relationships.length,30);
+ assert.equal(s.strategies.length,35);assert.equal(s.relationships.length,38);
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
   const file=r.source_record.split('#')[0],source=matter(fs.readFileSync(file,'utf8')).data;

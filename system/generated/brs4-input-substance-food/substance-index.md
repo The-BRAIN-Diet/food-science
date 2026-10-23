@@ -11,6 +11,7 @@ Generated from the same authoritative records as the PM disclosures. The preview
 | [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Nicotinic acid](http://localhost:3000/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinic-acid) — nicotinic-acid | No comparable quantified food sources | None recorded |
 | [BRS4-FM1-PM2](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [Tryptophan](http://localhost:3000/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan) — tryptophan | [Pumpkin Seeds](http://localhost:3000/docs/foods/pumpkin-seeds) — 0.576 g (per 100 g edible portion) · dried<br/>[Soy](http://localhost:3000/docs/foods/soy) — 0.591 g (per 100 g edible portion) · raw<br/>[Turkey](http://localhost:3000/docs/foods/turkey) — 0.241 g (per 100 g edible portion) · raw | None recorded |
 | [BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship<br/>[BRS4-FM1-PM3](http://localhost:3000/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — 3.1.2 Cofactors and Substrates — PM-owned dietary relationship | [Creatine](http://localhost:3000/docs/substances/bioactive-compounds/lipid-based/creatine) — creatine | No comparable quantified food sources | [Beef](http://localhost:3000/docs/foods/beef) — Quantity not established · raw<br/>[Beef](http://localhost:3000/docs/foods/beef) — 400 mg (basis unknown; unverified amount) · raw<br/>[Lamb](http://localhost:3000/docs/foods/lamb) — Quantity not established · raw<br/>[Liver](http://localhost:3000/docs/foods/liver) — Quantity not established · raw<br/>[Pork](http://localhost:3000/docs/foods/pork) — Quantity not established · raw<br/>[Tuna](http://localhost:3000/docs/foods/tuna) — Quantity not established · raw |
+| [BRS4-FM3-PM6](http://localhost:3000/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport) — 3.1.1 Dietary Inputs & Regulatory Modulators — PM-owned dietary relationship | [L-Carnitine](http://localhost:3000/docs/substances/bioactive-compounds/lipid-based/l-carnitine) — l-carnitine | No comparable quantified food sources | None recorded |
 
 ## Iron — iron
 
@@ -380,6 +381,17 @@ Food sources identified; no verified comparable quantities available.
 
 </details>
 
+## L-Carnitine — l-carnitine
+
+No food-source mappings for this preparation.
+
+<details>
+<summary>All mapped food sources (0)</summary>
+
+No eligible dietary food list is generated. Check the PM dietary-input decision separately from sourcing coverage.
+
+</details>
+
 ## Biological context and unresolved accounting
 
 Separate from dietary relationship filters.
@@ -389,3 +401,6 @@ Separate from dietary relationship filters.
 - BRS4-FM1-PM3 — Arginine: Endogenous/biochemical dependency
 - BRS4-FM1-PM3 — Glycine: Endogenous/biochemical dependency
 - BRS4-FM1-PM3 — Methionine-derived S-adenosylmethionine (SAM): Endogenous/biochemical dependency
+- BRS4-FM3-PM6 — Carnitine: Endogenous/biochemical dependency
+- BRS4-FM3-PM7 — Acetoacetate: Endogenous/biochemical dependency
+- BRS4-FM3-PM7 — Beta-hydroxybutyrate: Endogenous/biochemical dependency

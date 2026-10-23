@@ -2344,6 +2344,51 @@
     {
       "brs": "BRS5",
       "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Glutamine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glutamine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": null,
+      "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F6",
+          "PM1-F11"
+        ],
+        "citation_keys": [
+          "rao_role_2012",
+          "abbasi_systematic_2024",
+          "zhou_glutamine_piibs_2019",
+          "li_glutamine_junction_pi3k_2009"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
       "pm": "BRS5-FM1-PM2",
       "biological_mechanism": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
       "dietary_input": "Oligofructose",
@@ -2973,6 +3018,106 @@
     {
       "brs": "BRS5",
       "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicory-root",
+      "food_title": "Chicory root",
+      "food_material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+        "sources": [
+          "https://doi.org/10.1186/s43094-020-00087-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred."
+      ],
+      "missing_ontology_edge": "chicory-root → inulin [Authenticated Cichorium intybus market taproots; isolated inulin characterised; Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol]"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "jerusalem-artichokes",
+      "food_title": "Jerusalem artichokes",
+      "food_material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred."
+      ],
+      "missing_ontology_edge": "jerusalem-artichokes → inulin [Helianthus tuberosus tubers sampled at defined maturity and storage conditions; Harvest maturity and storage-specific laboratory analysis; cooked products not tested]"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM5",
       "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
       "dietary_input": "Resistant starch",
@@ -3340,19 +3485,26 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
       "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
       "pm_evidence": {
         "finding_ids": [
           "PM6-F1"
@@ -3362,13 +3514,14 @@
           "singh_direct_2022"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
     },
     {
       "brs": "BRS5",
@@ -3444,6 +3597,55 @@
         "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]"
     },
     {
       "brs": "BRS5",
@@ -3527,6 +3729,646 @@
         "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar."
       ],
       "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chia-seeds",
+      "food_title": "Chia Seeds",
+      "food_material": "Seeds, chia seeds, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chia-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "flax-seeds",
+      "food_title": "Flax Seeds",
+      "food_material": "Seeds, flaxseed",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/flax-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, flaxseed."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tahini",
+      "food_title": "Tahini",
+      "food_material": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tahini.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170189/nutrients",
+          "source_reference": "#food-source-9",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "roasted",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Nuts, walnuts, english",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 0.11,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 110,
+          "high": 110,
+          "display": "0.11 g"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": "salmon-roe → linoleic-acid [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
     },
     {
       "brs": "BRS5",

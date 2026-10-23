@@ -1,0 +1,100 @@
+[
+  {
+    "check": "governance",
+    "command": [
+      "node",
+      "scripts/check-dietary-input-governance.mjs"
+    ],
+    "exit_code": 0,
+    "seconds": 0.94
+  },
+  {
+    "check": "findings-freshness",
+    "command": [
+      "node",
+      "scripts/sync-pm-scientific-findings.mjs",
+      "--check"
+    ],
+    "exit_code": 0,
+    "seconds": 1.34
+  },
+  {
+    "check": "substance-ontology",
+    "command": [
+      "node",
+      "scripts/validate-substance-pages.mjs"
+    ],
+    "exit_code": 0,
+    "seconds": 0.17
+  },
+  {
+    "check": "sec-preservation",
+    "command": [
+      "node",
+      "scripts/check-sec-assessments.mjs",
+      "110a26bc52663ba6a2e5bdd1a02e4014278b5233"
+    ],
+    "exit_code": 0,
+    "seconds": 0.43
+  },
+  {
+    "check": "bibliography",
+    "command": [
+      "node",
+      "scripts/validate-bib-citation-keys.mjs"
+    ],
+    "exit_code": 1,
+    "seconds": 0.38
+  },
+  {
+    "check": "finding-title-baseline",
+    "command": [
+      "node",
+      "--test",
+      "scripts/scientific-findings.test.mjs"
+    ],
+    "exit_code": 1,
+    "seconds": 3.01
+  },
+  {
+    "check": "pm5-compilation",
+    "command": [
+      "node",
+      "scripts/run-brs5-pm5-retest.mjs"
+    ],
+    "exit_code": 0,
+    "seconds": 0.93
+  },
+  {
+    "check": "focused-regressions",
+    "passed": 156,
+    "failed": 0
+  },
+  {
+    "check": "rapid-final",
+    "passed": 10,
+    "failed": 0
+  },
+  {
+    "check": "actual-client-browser",
+    "status": "PASS",
+    "cases": 4
+  },
+  {
+    "check": "targeted-page-compilation",
+    "status": "PASS",
+    "cases": 6
+  },
+  {
+    "check": "production-build",
+    "exit_code": 134,
+    "status": "RESOURCE FAILURE",
+    "detail": "Node heap exhaustion; server compiled, remaining client/overall build incomplete."
+  },
+  {
+    "check": "preexisting-brs2-kc-fixture",
+    "passed": 3,
+    "failed": 1,
+    "detail": "Unchanged isolated test passes KC2-only index for a PM also referring to KC1."
+  }
+]

@@ -1,0 +1,151 @@
+{
+  "dietary_input": {
+    "yes": 36,
+    "no": 9,
+    "unset": 5
+  },
+  "pms": 11,
+  "relationships": 50,
+  "accounting": {
+    "A": 19,
+    "B": 3,
+    "C": 14,
+    "D": 5,
+    "E": 9,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 14,
+  "unique_shared_pools": 2,
+  "food_source_materials": 927,
+  "quantified_observations": 896,
+  "qualitative_materials": 276,
+  "gaps": 18,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 32,
+    "no": 20,
+    "unset": 1
+  },
+  "pms": 7,
+  "relationships": 53,
+  "accounting": {
+    "A": 19,
+    "B": 3,
+    "C": 12,
+    "D": 5,
+    "E": 14,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 16,
+  "unique_shared_pools": 2,
+  "food_source_materials": 1026,
+  "quantified_observations": 983,
+  "qualitative_materials": 336,
+  "gaps": 25,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 12,
+    "no": 6,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 18,
+  "accounting": {
+    "A": 8,
+    "B": 0,
+    "C": 4,
+    "D": 2,
+    "E": 4,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 9,
+  "unique_shared_pools": 1,
+  "food_source_materials": 937,
+  "quantified_observations": 904,
+  "qualitative_materials": 281,
+  "gaps": 5,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 7,
+    "no": 5,
+    "unset": 0
+  },
+  "pms": 9,
+  "relationships": 12,
+  "accounting": {
+    "A": 7,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 5,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 7,
+  "unique_shared_pools": 0,
+  "food_source_materials": 421,
+  "quantified_observations": 407,
+  "qualitative_materials": 132,
+  "gaps": 13,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 24,
+    "no": 11,
+    "unset": 3
+  },
+  "pms": 8,
+  "relationships": 38,
+  "accounting": {
+    "A": 24,
+    "B": 0,
+    "C": 3,
+    "D": 4,
+    "E": 7,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 11,
+  "unique_shared_pools": 1,
+  "food_source_materials": 390,
+  "quantified_observations": 373,
+  "qualitative_materials": 126,
+  "gaps": 26,
+  "conflicts": 11
+}
+{
+  "dietary_input": {
+    "yes": 2,
+    "no": 0,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 2,
+  "accounting": {
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 1,
+  "unique_shared_pools": 0,
+  "food_source_materials": 144,
+  "quantified_observations": 139,
+  "qualitative_materials": 49,
+  "gaps": 9,
+  "conflicts": 0
+}
+{
+  strategies: 29,
+  relationships: 30,
+  pms: 12,
+  brs: [ 'BRS1', 'BRS3', 'BRS4', 'BRS5', 'BRS6' ]
+}
+{"rollup_records":824,"repair_items":31,"reconciliation_records":84}

@@ -1,0 +1,195 @@
+TAP version 13
+# Subtest: BRS-X(Hormones-PM4) preserves existing science, narrative and decision provenance
+ok 1 - BRS-X(Hormones-PM4) preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 18.334542
+  ...
+# Subtest: BRS-X(Hormones-PM5) preserves existing science, narrative and decision provenance
+ok 2 - BRS-X(Hormones-PM5) preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 4.043291
+  ...
+# Subtest: BRS1-FM1-PM1 preserves existing science, narrative and decision provenance
+ok 3 - BRS1-FM1-PM1 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.552375
+  ...
+# Subtest: BRS1-FM1-PM2 preserves existing science, narrative and decision provenance
+ok 4 - BRS1-FM1-PM2 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.308917
+  ...
+# Subtest: BRS1-FM1-PM3 preserves existing science, narrative and decision provenance
+ok 5 - BRS1-FM1-PM3 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 10.048417
+  ...
+# Subtest: BRS1-FM1-PM4 preserves existing science, narrative and decision provenance
+ok 6 - BRS1-FM1-PM4 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 8.134625
+  ...
+# Subtest: BRS1-FM1-PM5 preserves existing science, narrative and decision provenance
+ok 7 - BRS1-FM1-PM5 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 5.532375
+  ...
+# Subtest: BRS1-FM5-PM12 preserves existing science, narrative and decision provenance
+ok 8 - BRS1-FM5-PM12 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 5.914667
+  ...
+# Subtest: BRS2-FM1-PM3 preserves existing science, narrative and decision provenance
+ok 9 - BRS2-FM1-PM3 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.286667
+  ...
+# Subtest: BRS2-FM1-PM4 preserves existing science, narrative and decision provenance
+ok 10 - BRS2-FM1-PM4 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.075416
+  ...
+# Subtest: BRS2-FM2-PM5 preserves existing science, narrative and decision provenance
+ok 11 - BRS2-FM2-PM5 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.20175
+  ...
+# Subtest: BRS2-FM2-PM6 preserves existing science, narrative and decision provenance
+ok 12 - BRS2-FM2-PM6 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 3.889333
+  ...
+# Subtest: BRS2-FM3-PM7 preserves existing science, narrative and decision provenance
+ok 13 - BRS2-FM3-PM7 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 6.114916
+  ...
+# Subtest: BRS3-FM1-PM1 preserves existing science, narrative and decision provenance
+ok 14 - BRS3-FM1-PM1 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 3.73875
+  ...
+# Subtest: BRS3-FM1-PM2 preserves existing science, narrative and decision provenance
+ok 15 - BRS3-FM1-PM2 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 3.731958
+  ...
+# Subtest: BRS4-FM3-PM6 preserves existing science, narrative and decision provenance
+ok 16 - BRS4-FM3-PM6 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.573833
+  ...
+# Subtest: BRS4-FM3-PM7 preserves existing science, narrative and decision provenance
+ok 17 - BRS4-FM3-PM7 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.27375
+  ...
+# Subtest: BRS4-FM3-PM8 preserves existing science, narrative and decision provenance
+ok 18 - BRS4-FM3-PM8 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.311584
+  ...
+# Subtest: BRS4-FM4-PM9 preserves existing science, narrative and decision provenance
+ok 19 - BRS4-FM4-PM9 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.697709
+  ...
+# Subtest: BRS5-FM1-PM1 preserves existing science, narrative and decision provenance
+ok 20 - BRS5-FM1-PM1 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 5.545375
+  ...
+# Subtest: BRS5-FM1-PM2 preserves existing science, narrative and decision provenance
+ok 21 - BRS5-FM1-PM2 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 4.567292
+  ...
+# Subtest: BRS5-FM1-PM3 preserves existing science, narrative and decision provenance
+ok 22 - BRS5-FM1-PM3 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 2.28075
+  ...
+# Subtest: BRS5-FM2-PM4 preserves existing science, narrative and decision provenance
+ok 23 - BRS5-FM2-PM4 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 2.725875
+  ...
+# Subtest: BRS5-FM3-PM7 preserves existing science, narrative and decision provenance
+ok 24 - BRS5-FM3-PM7 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 3.502417
+  ...
+# Subtest: BRS5-FM3-PM8 preserves existing science, narrative and decision provenance
+ok 25 - BRS5-FM3-PM8 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 2.32775
+  ...
+# Subtest: BRS6-FM1-PM3 preserves existing science, narrative and decision provenance
+ok 26 - BRS6-FM1-PM3 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.9105
+  ...
+# Subtest: BRS6-FM2-PM4 preserves existing science, narrative and decision provenance
+ok 27 - BRS6-FM2-PM4 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.42575
+  ...
+# Subtest: BRS6-FM3-PM6 preserves existing science, narrative and decision provenance
+ok 28 - BRS6-FM3-PM6 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.281
+  ...
+# Subtest: BRS6-FM3-PM7 preserves existing science, narrative and decision provenance
+ok 29 - BRS6-FM3-PM7 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.266959
+  ...
+# Subtest: BRS6-FM4-PM9 preserves existing science, narrative and decision provenance
+ok 30 - BRS6-FM4-PM9 preserves existing science, narrative and decision provenance
+  ---
+  duration_ms: 1.2825
+  ...
+# Subtest: scope is exactly the thirty deferred identities; the completed and blocked PMs remain byte-identical
+ok 31 - scope is exactly the thirty deferred identities; the completed and blocked PMs remain byte-identical
+  ---
+  duration_ms: 32.883791
+  ...
+# Subtest: all four new admissions satisfy their independent gates and resolve existing identities
+ok 32 - all four new admissions satisfy their independent gates and resolve existing identities
+  ---
+  duration_ms: 4.390417
+  ...
+# Subtest: all new Findings remain unscored; every existing score and Phenome field is preserved
+ok 33 - all new Findings remain unscored; every existing score and Phenome field is preserved
+  ---
+  duration_ms: 469.067667
+  ...
+# Subtest: new dietary disclosures have six scientific fields and bounded source interpretation
+ok 34 - new dietary disclosures have six scientific fields and bounded source interpretation
+  ---
+  duration_ms: 8.855875
+  ...
+# Subtest: verified, provisional and missing food coverage remain independent of scientific admission
+ok 35 - verified, provisional and missing food coverage remain independent of scientific admission
+  ---
+  duration_ms: 567.034417
+  ...
+# Subtest: no canonical food edges, identities, SEC registry or governance files changed
+ok 36 - no canonical food edges, identities, SEC registry or governance files changed
+  ---
+  duration_ms: 11.773833
+  ...
+# Subtest: six generated BRS shards reconstruct the consolidated historical catalogue
+ok 37 - six generated BRS shards reconstruct the consolidated historical catalogue
+  ---
+  duration_ms: 30.390625
+  ...
+1..37
+# tests 37
+# suites 0
+# pass 37
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1459.917

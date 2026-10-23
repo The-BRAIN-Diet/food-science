@@ -559,3 +559,68 @@ Canonical identities and missions retained pending scope review; no parent or ph
 - **BRS-X(Hormones-PM6)** — The local-to-circulating androgen link and exposure-specific microbial control remain unresolved; reverse-direction hormone experiments do not close that gap. Preserve identity and mission pending review; current evidence statements remain bounded. No automatic rating or parent-FM uplift.
 
 Inherited intervention qualifications without a current qualifying route require separate label reconciliation. Hub food/KC lists and parent claims were not silently propagated or updated.
+
+
+## Additive Stage 2A/2B preservation review — 2026-10-23
+
+All original PM records remain in place. These are review requests, not implemented corrections or newly validated admissions.
+
+### PRES-20261023-GAD-B6 — BRS1-FM4-PM9
+
+**Status:** open-review-required; original record preserved
+
+**Exact record:** `dietary_input_traceability[PM9-DIT-3].biological_role`
+
+**Concern:** The shorthand says pyridoxal kinase converts dietary B6 vitamers to PLP without distinguishing PNPO-dependent oxidation of phosphorylated pyridoxine/pyridoxamine.
+
+**Proposed action requiring review:** After approval, clarify vitamer-specific phosphorylation and oxidation steps while preserving the B6 Capacity/Derived admission.
+
+**Evidence:** [https://pubmed.ncbi.nlm.nih.gov/17766369/](https://pubmed.ncbi.nlm.nih.gov/17766369/); [https://pubmed.ncbi.nlm.nih.gov/15182361/](https://pubmed.ncbi.nlm.nih.gov/15182361/)
+
+### PRES-20261023-ACH-B5 — BRS1-FM2-PM6
+
+**Status:** open-review-required; original source assessment preserved
+
+**Exact record:** `scientific_findings[PM6-F5].evidence_considered[rivera_calimlim_pantothenic_1988].assessment.evidence_summary`
+
+**Concern:** The phrase Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision may overstate isolated causal mediation in an ethanol-exposure model.
+
+**Proposed action requiring review:** Review whether the study isolates acetyl-CoA mediation; if approved, describe the ethanol-specific association/intervention separately from the established biochemical precursor pathway. Retain B5 admission.
+
+**Evidence:** [https://doi.org/10.1111/j.1476-5381.1988.tb16550.x](https://doi.org/10.1111/j.1476-5381.1988.tb16550.x); [https://pubmed.ncbi.nlm.nih.gov/3219477/](https://pubmed.ncbi.nlm.nih.gov/3219477/)
+
+### PRES-20261023-NRF2-PREP — BRS3-FM2-PM3
+
+**Status:** open-material-review; existing record preserved
+
+**Exact record:** `docs/foods/broccoli.md#substance_relationships/Sulforaphane`
+
+**Concern:** The inherited raw preparation join differs from the described cooked/sous-vide/mustard material context. This concerns one food exposure, not the PM admission.
+
+**Proposed action requiring review:** Independently reconcile material, preparation and measurement context before interpreting that exposure. No canonical edge repair or PM downgrade in this run.
+
+**Evidence:** `system/rapid-stage2ab-2026-10-23/adjudications.json`; `review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json`
+
+### PRES-20261023-ETC-FMN — BRS4-FM1-PM1
+
+**Status:** open-food-traceability-question; admission retained
+
+**Exact record:** `dietary_input_traceability[PM1-DIT-2]`
+
+**Concern:** Direct active-FMN dietary occurrence and the supported riboflavin-derived route are distinct; current active-FMN food coverage is incomplete.
+
+**Proposed action requiring review:** Research form-specific direct delivery and preserve the existing active-form and precursor records during reconciliation; do not infer direct FMN amounts from riboflavin.
+
+**Evidence:** `registry/substances.json`; [https://pubmed.ncbi.nlm.nih.gov/27509854/](https://pubmed.ncbi.nlm.nih.gov/27509854/)
+
+### PRES-20261023-THIOL-IDENTITY — BRS3-FM2-PM6
+
+**Status:** open-research-question; no new dietary admission
+
+**Exact record:** `New PM6-F2 follow-up; registry/substances.json`
+
+**Concern:** The retrieved GSR FAD cofactor has ChEBI CHEBI:57692, but a resolved local FAD identity and complete dietary precursor pathway have not been established in this run.
+
+**Proposed action requiring review:** Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically.
+
+**Evidence:** [https://www.rcsb.org/structure/3GRS](https://www.rcsb.org/structure/3GRS); [https://rest.uniprot.org/uniprotkb/P00390.json](https://rest.uniprot.org/uniprotkb/P00390.json)

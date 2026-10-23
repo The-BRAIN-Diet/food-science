@@ -1,0 +1,451 @@
+{
+  "pm_id": "BRS4-FM1-PM3",
+  "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+  "mission": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+  "stage2a": {
+    "operation": "Buffer substrate identity is distinct from NAD or ETC capacity. A reviewed existing candidate admission is retained at the capacity ceiling; no high-dose brain protocol is prescribed.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM3-F1",
+        "proposition": "Cerebral creatine availability is jointly determined by endogenous synthesis, SLC6A8-mediated transport and cellular compartmentalisation, with more restricted exogenous uptake than in skeletal muscle.",
+        "existing_source_assessments": [
+          {
+            "label": "Béard & Braissant (2010)",
+            "citation_key": "beard_creatine_cns_2010",
+            "href": "/docs/papers/BRAIN-Diet-References#beard_creatine_cns_2010",
+            "data_level": "Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "CNS creatine depends on endogenous synthesis and transporter-mediated movement, while blood–brain barrier entry is relatively inefficient.",
+            "assessment": {
+              "study": "Narrative review of CNS creatine synthesis, transport and creatine-deficiency disorders.",
+              "population": "Mixed cellular, animal and human clinical-genetics evidence.",
+              "result": "Identified local synthesis and SLC6A8-dependent transport as joint determinants of cerebral creatine availability.",
+              "effect_magnitude": "No pooled effect estimate.",
+              "evidence_summary": "Establishes the major biological determinants and precursor reactions represented by this PM.",
+              "limitations": "Review-level synthesis does not quantify diet-to-brain responsiveness in healthy populations."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F2",
+        "proposition": "Habitual dietary creatine exposure does not map directly onto posterior-cingulate total creatine concentration in healthy adults.",
+        "existing_source_assessments": [
+          {
+            "label": "Solis et al. (2014)",
+            "citation_key": "solis_brain_creatine_vegetarians_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#solis_brain_creatine_vegetarians_2014",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "habitual vegetarian or omnivorous diet",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Much lower dietary creatine intake in vegetarians was not accompanied by lower posterior-cingulate total creatine.",
+            "assessment": {
+              "study": "Cross-sectional proton magnetic resonance spectroscopy comparison.",
+              "population": "Healthy vegetarian and omnivorous adults.",
+              "result": "Posterior-cingulate total creatine did not differ significantly between dietary groups.",
+              "effect_magnitude": "No interpretable intake-response effect estimate.",
+              "evidence_summary": "Challenges a simple habitual dietary-creatine to cerebral-total-creatine model.",
+              "limitations": "Small cross-sectional regional study; total creatine is not phosphocreatine flux or functional capacity."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F3",
+        "proposition": "Exogenous creatine can alter cerebral total creatine or phosphocreatine, with smaller, region- and protocol-dependent responses than in skeletal muscle.",
+        "existing_source_assessments": [
+          {
+            "label": "Dolan et al. (2019)",
+            "citation_key": "dolan_beyond_muscle_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#dolan_beyond_muscle_2019",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "creatine supplementation",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Cerebral creatine-related measures were responsive in most reviewed supplementation studies, but changes were modest, heterogeneous and not universal.",
+            "assessment": {
+              "study": "Review of human supplementation studies measuring cerebral creatine or phosphocreatine.",
+              "population": "Healthy and selected clinical human populations across heterogeneous protocols.",
+              "result": "Most studies reported some cerebral increase, while others were null; responses were smaller than typical muscle responses.",
+              "effect_magnitude": "Reviewed changes ranged from approximately null to low double-digit percentages.",
+              "evidence_summary": "Establishes conditional cerebral target engagement while preserving protocol and measurement heterogeneity.",
+              "limitations": "Review of a small, heterogeneous evidence base without an established optimal cerebral-loading protocol."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F4",
+        "proposition": "Creatine supplementation does not produce a uniform cognitive benefit in healthy populations; observed effects vary by domain, age, dietary context and study design.",
+        "existing_source_assessments": [
+          {
+            "label": "Avgerinos et al. (2018)",
+            "citation_key": "avgerinos_effects_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#avgerinos_effects_2018",
+            "data_level": "Human Outcome",
+            "exposure_context": "creatine supplementation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Short-term memory and reasoning showed possible benefit, while many other cognitive domains were conflicting or unchanged.",
+            "assessment": {
+              "study": "Systematic review of six randomised controlled trials.",
+              "population": "281 healthy participants across varied ages and habitual diets.",
+              "result": "Effects were domain- and population-dependent rather than uniformly positive.",
+              "effect_magnitude": "No pooled overall effect estimate.",
+              "evidence_summary": "Supports a constrained, context-dependent interpretation of cognitive supplementation evidence.",
+              "limitations": "Small heterogeneous evidence base with limited direct cerebral target-engagement measurement."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F5",
+        "proposition": "Under acute sleep deprivation, high-dose creatine can modify cerebral high-energy-phosphate measures and partially preserve cognitive performance.",
+        "existing_source_assessments": [
+          {
+            "label": "Gordji-Nejad et al. (2024)",
+            "citation_key": "gordji-nejad_creatine_sleep_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#gordji-nejad_creatine_sleep_2024",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "high-dose creatine during acute sleep deprivation",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Creatine altered cerebral high-energy-phosphate measures and partially preserved selected cognitive performance during sleep deprivation.",
+            "assessment": {
+              "study": "Double-blind randomised placebo-controlled crossover trial with repeated MRS and cognitive testing.",
+              "population": "Fifteen healthy adults aged 20–28 years.",
+              "result": "A single 0.35 g/kg dose changed several cerebral metabolite ratios and improved selected cognitive outcomes over the sleep-deprivation night.",
+              "effect_magnitude": "Outcome-specific changes; no general clinical effect size.",
+              "evidence_summary": "Provides direct but small-sample human target-engagement and functional evidence under acute metabolic stress.",
+              "limitations": "Small young sample, high acute dose and sleep-deprivation context limit generalisation."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F6",
+        "proposition": "Cooking time, temperature profile and sample location influence creatine retention and creatinine formation in pork matrices.",
+        "existing_source_assessments": [
+          {
+            "label": "Mora et al. (2008)",
+            "citation_key": "mora_cooking_creatine_2008",
+            "href": "/docs/papers/BRAIN-Diet-References#mora_cooking_creatine_2008",
+            "data_level": "Mechanistic",
+            "exposure_context": "controlled cooking of pork loin and cooked ham",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Greater heat exposure increased the creatinine-to-creatine ratio, particularly at the product surface.",
+            "assessment": {
+              "study": "Controlled food-chemistry experiments comparing pork cooking programmes and sample locations.",
+              "population": "Pork loin, prepared cooked ham and commercial cooked-ham samples.",
+              "result": "Creatine conversion varied with cooking method and was greater at the surface than the core.",
+              "effect_magnitude": "Matrix- and location-specific differences; no human exposure estimate.",
+              "evidence_summary": "Supports a food-preparation relationship for retaining creatine in pork matrices.",
+              "limitations": "Food-composition evidence only; no human biological outcome."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Human supplementation studies, spectroscopy, acute sleep-deprivation work, habitual-diet comparisons and pork cooking experiments remain separate evidence streams. Total creatine is not a direct ATP-buffering flux measurement.",
+    "source_to_claim_records": [
+      {
+        "id": "creatine-primary",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10484486/",
+        "kind": "primary-human-intervention",
+        "proposition": "Oral creatine monohydrate increased regional brain total-creatine measurements in a small study.",
+        "limitation": "Six participants, supplement loading; concentration is not ATP-buffering flux, ordinary-meat efficacy or cognition.",
+        "retrieval": "Primary abstract; prior brain-creatine reviews retained as secondary synthesis.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "creatine-preparation",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18989971/",
+        "kind": "primary-food-composition",
+        "proposition": "Heating protocols altered creatine-to-creatinine conversion in pork/ham materials.",
+        "limitation": "Composition retention only, not brain effects; no advice to undercook food.",
+        "retrieval": "Primary abstract; DOI 10.1021/jf801953t verifies correction of mismatched bibliography PMID.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Béard & Braissant (2010) — CNS creatine synthesis and transport](/docs/papers/BRAIN-Diet-References#beard_creatine_cns_2010)",
+      "[Solis et al. (2014) — Brain total creatine in vegetarians and omnivores](/docs/papers/BRAIN-Diet-References#solis_brain_creatine_vegetarians_2014)",
+      "[Dolan et al. (2019) — Cerebral creatine response to supplementation](/docs/papers/BRAIN-Diet-References#dolan_beyond_muscle_2019)",
+      "[Avgerinos et al. (2018) — Creatine supplementation and cognition](/docs/papers/BRAIN-Diet-References#avgerinos_effects_2018)",
+      "[Gordji-Nejad et al. (2024) — Creatine during sleep deprivation](/docs/papers/BRAIN-Diet-References#gordji-nejad_creatine_sleep_2024)",
+      "[Mora et al. (2008) — Cooking conditions and creatine conversion](/docs/papers/BRAIN-Diet-References#mora_cooking_creatine_2008)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "intervention",
+        "evidence_confidence": "low-medium",
+        "rationale": "Creatine–phosphocreatine buffering is positioned to stabilise ATP supply during changing demand. In a small crossover trial during acute sleep deprivation, a high single creatine dose altered cerebral high-energy phosphate measures and partially preserved cognitive performance {{cite:gordji-nejad_creatine_sleep_2024}}. This supports a conditional relationship under acute metabolic stress, not a universal energy effect.",
+        "scientific_findings": [
+          "PM3-F5"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Gordji-Nejad et al. (2024)",
+            "citation_key": "gordji-nejad_creatine_sleep_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#gordji-nejad_creatine_sleep_2024",
+            "data_level": "Human Mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "relationship_type": "indirect",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "evidence_confidence": "low",
+        "rationale": "Rapid ATP buffering is biologically relevant to recovery after energetic demand, but the reviewed human evidence primarily measures cerebral creatine, cognition during acute stress, or clinical contexts rather than recovery capacity itself {{cite:dolan_beyond_muscle_2019}}. The relationship therefore remains indirect and evidence-limited.",
+        "scientific_findings": [
+          "PM3-F3"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Dolan et al. (2019)",
+            "citation_key": "dolan_beyond_muscle_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#dolan_beyond_muscle_2019",
+            "data_level": "Mechanistic"
+          }
+        ]
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Creatine and all endogenous-synthesis participants remain unchanged. Both existing preparation SOPs are retained; source-specific cooking observations are not instructions to undercook foods or evidence of a brain effect.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS4-FM1-PM3",
+        "atom_id": "PM3-DIT-1",
+        "input": "Creatine",
+        "section_presentations": [
+          {
+            "atom_id": "PM3-DIT-1",
+            "label": "Creatine — candidate pending Dietary Levers review",
+            "presentation_section": "3.1.1"
+          },
+          {
+            "atom_id": "PM3-DIT-1",
+            "label": "Creatine",
+            "presentation_section": "3.1.2"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM3-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "modulation-demonstrated",
+          "permitted_wording": "Candidate for Dietary Levers review: exogenous creatine can contribute directly to the cerebral creatine pool in some contexts, but the response is modest and variable.",
+          "evidence_limitation": "The brain also synthesises creatine, and exogenous exposure produces smaller and less consistent cerebral responses than skeletal-muscle responses."
+        },
+        "record_preserved": true,
+        "source_sha256": "4ea4a67aa00ad5f4976de0469720965264dee14667495c2cde3675eaf4ee5f49",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM3",
+        "atom_id": "PM3-DIT-2",
+        "input": "Arginine",
+        "section_presentations": [
+          {
+            "atom_id": "PM3-DIT-2",
+            "label": "Arginine",
+            "presentation_section": "3.1.2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM3-DIT-2",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Arginine is a precursor substrate for endogenous creatine synthesis; this is not evidence for additional arginine intake.",
+          "evidence_limitation": "The synthesis requirement does not establish that ordinary arginine intake limits cerebral creatine or phosphocreatine buffering."
+        },
+        "record_preserved": true,
+        "source_sha256": "a3720234c31fa2cb2abb2a8b6c945c7e28ef0ec24dc34add7d428f0c4cb9539c",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM3",
+        "atom_id": "PM3-DIT-3",
+        "input": "Glycine",
+        "section_presentations": [
+          {
+            "atom_id": "PM3-DIT-3",
+            "label": "Glycine",
+            "presentation_section": "3.1.2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM3-DIT-3",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Glycine is a precursor substrate for endogenous creatine synthesis; this is not evidence for additional glycine intake.",
+          "evidence_limitation": "The synthesis requirement does not establish that ordinary glycine intake limits cerebral creatine or phosphocreatine buffering."
+        },
+        "record_preserved": true,
+        "source_sha256": "5b226dd169d81697b0148513522d208c80d04cf02efb8f8e24e578aeb452e341",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM3",
+        "atom_id": "PM3-DIT-4",
+        "input": "Methionine-derived S-adenosylmethionine (SAM)",
+        "section_presentations": [
+          {
+            "atom_id": "PM3-DIT-4",
+            "label": "Methionine-derived S-adenosylmethionine (SAM)",
+            "presentation_section": "3.1.2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM3-DIT-4",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Methionine-derived SAM supplies the methyl group used in creatine synthesis; this is not evidence for additional methionine intake.",
+          "evidence_limitation": "The methyl-donor requirement does not establish that ordinary methionine intake controls cerebral creatine synthesis."
+        },
+        "record_preserved": true,
+        "source_sha256": "b950d2589fd3fe6fd4e78d9e3ec8d84639e5c9ec9b9916ddfca15fa4bafb32f9",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [
+      {
+        "atom_id": "PM3-SOP-1",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-d77d8db065cc",
+        "optimisation_category": "food_prep",
+        "input": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+        "presentation_label": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+        "input_type": "food preparation/delivery practice",
+        "biological_role": "Controlled pork-loin and cooked-ham experiments found greater creatine-to-creatinine conversion with higher heat exposure, especially at the product surface.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F6"
+          ],
+          "citation_keys": [
+            "mora_cooking_creatine_2008"
+          ]
+        },
+        "evidence_limitation": "Evidence is limited to processed pork matrices and does not establish higher creatine intake or cerebral target engagement.",
+        "claim_ceiling": "food-composition"
+      },
+      {
+        "atom_id": "PM3-SOP-2",
+        "food_strategy_scope": "supplementation",
+        "food_strategy_id": "food-strategy-d01445d73fbe",
+        "optimisation_category": "conditional_supplementation",
+        "input": "Consider creatine monohydrate only in defined low-intake or high-demand contexts",
+        "presentation_label": "Consider creatine monohydrate only in defined low-intake or high-demand contexts",
+        "input_type": "nutrient/substance",
+        "biological_role": "Human reviews indicate that supplementation can raise cerebral total creatine or phosphocreatine modestly and variably, while a small crossover trial during sleep deprivation found concurrent changes in cerebral high-energy phosphates and cognitive performance.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F3",
+            "PM3-F4",
+            "PM3-F5"
+          ],
+          "citation_keys": [
+            "dolan_beyond_muscle_2019",
+            "avgerinos_effects_2018",
+            "gordji-nejad_creatine_sleep_2024"
+          ]
+        },
+        "evidence_limitation": "Effective dosing and responder characteristics remain uncertain, and cognitive trials do not consistently measure cerebral target engagement.",
+        "claim_ceiling": "conditional-human-intervention"
+      }
+    ],
+    "existing_lifestyle": [],
+    "existing_kcs": [
+      "BRS4(KC1) - Macronutrient Substrate Availability"
+    ],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 5,
+      "provisional": 1,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "cc1db65ade6d29c94843b950a3006bda18a634f20ec87a59293a5980b345d868",
+    "original_counts": {
+      "dietary_input_traceability": 4,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 4,
+      "dietary_lever_presentations": 5,
+      "key_constraints": 1,
+      "cofactors": 3,
+      "system_optimisation_practices": 2,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 6,
+      "references": 6,
+      "phenome_relationships": 2,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

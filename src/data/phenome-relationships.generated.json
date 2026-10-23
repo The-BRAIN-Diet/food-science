@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-10-08T14:14:31.388Z",
+    "generatedAt": "2026-10-23T18:15:55.910Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -130,7 +130,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The closest human trial found that high-dose vitamin B6 reduced self-reported anxiety and strengthened an inhibitory visual assay, but it measured neither GABA nor GABA synthesis {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
+      "rationale": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The high-dose B6 group improved from baseline, but the anxiety change-versus-placebo interaction was inconclusive (p=0.140); the visual surround-suppression interaction was positive (p=0.011). Neither GABA nor GABA synthesis was measured {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
       "references": [
         {
           "index": 1,
@@ -2564,7 +2564,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM.",
+      "rationale": "The tested meals changed competitive plasma ratios; the recovered breakfast study did not show a tyrosine-ratio rise after protein {{cite:wurtman_effects_2003}}. This remains a translational mapping, not demonstrated motivation, drive or ADHD benefit.",
       "references": [
         {
           "index": 1,
@@ -3172,7 +3172,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. There is no human evidence linking GABA synthesis capacity to social engagement, and rodent partner preference is not equivalent to human social capacity.",
+      "rationale": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. Direct human evidence linking GABA synthesis capacity to social engagement was not established in the assessed sources, and rodent partner preference is not equivalent to human social capacity.",
       "references": [
         {
           "index": 1,
@@ -4002,7 +4002,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling. Protein-forward meals can raise the plasma tyrosine ratio relative to competing LNAAs {{cite:wurtman_effects_2003,fernstrom_lnna_2013}}. That is precursor-presentation bias, not a motivation, drive or ADHD outcome; signalling belongs downstream of this PM. Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
+        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Phenylalanine from dietary protein can be converted to tyrosine, the dopamine precursor. That supply is not a measurement of motivation or drive, and it is not dopaminergic signalling. The tested meals changed competitive plasma ratios; the recovered breakfast study did not show a tyrosine-ratio rise after protein {{cite:wurtman_effects_2003}}. This remains a translational mapping, not demonstrated motivation, drive or ADHD benefit. Noradrenaline can change arousal and effort-related tone, but dopaminergic reward circuitry remains the primary biological driver of Motivation / Drive {{cite:macdonald_dopamine_2024}}. The attached sources do not measure motivation after a dietary change, and iron-deficiency reviews are not motivation trials {{cite:beard_iron_2003}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM3",
@@ -4144,7 +4144,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The closest human trial found that high-dose vitamin B6 reduced self-reported anxiety and strengthened an inhibitory visual assay, but it measured neither GABA nor GABA synthesis {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
+        "evidence_summary": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The high-dose B6 group improved from baseline, but the anxiety change-versus-placebo interaction was inconclusive (p=0.140); the visual surround-suppression interaction was positive (p=0.011). Neither GABA nor GABA synthesis was measured {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM9",
@@ -4252,7 +4252,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. There is no human evidence linking GABA synthesis capacity to social engagement, and rodent partner preference is not equivalent to human social capacity.",
+        "evidence_summary": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. Direct human evidence linking GABA synthesis capacity to social engagement was not established in the assessed sources, and rodent partner preference is not equivalent to human social capacity.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM9",

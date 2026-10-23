@@ -1,0 +1,11 @@
+
+--- Canonical Substance-page validation ---
+
+OK: bioactive-compounds/carotenoids/astaxanthin.md
+OK: nutrients/micronutrients/vitamins/vitamin-b12.md
+OK: microbial-metabolites/secondary-plant-conversions/urolithin-a.md
+OK: microbial-metabolites/scfas/butyrate.md
+
+OK: Food ↔ Substance inverse relationship safeguards
+
+Substance validation passed.

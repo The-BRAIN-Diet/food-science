@@ -1,0 +1,73 @@
+{
+  "pm": "BRS4-FM3-PM6",
+  "atom": {
+    "atom_id": "PM6-DIT-CARNITINE-1",
+    "input": "L-Carnitine",
+    "input_type": "substrate",
+    "biological_role": "L-carnitine accepts and releases fatty-acyl groups in the mitochondrial shuttle, sustaining long-chain fatty-acid entry for oxidation. Dietary L-carnitine supplies this same circulating substrate alongside endogenous synthesis.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "gobin_cpt1a_deficiency_2003",
+        "demarquoy_carnitine_food_composition_2004"
+      ]
+    },
+    "evidence_limitation": "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+    "dietary_input": true,
+    "dietary_input_note": "2026-10-23: authorised Type A Capacity / Direct admission. Provision is distinct from incremental benefit or dietary indispensability.",
+    "substance_id": "l-carnitine",
+    "canonical_identity": {
+      "status": "resolved",
+      "substance_id": "l-carnitine",
+      "substance_href": "/docs/substances/bioactive-compounds/lipid-based/l-carnitine"
+    }
+  },
+  "assessment": {
+    "atom_id": "PM6-DIT-CARNITINE-1",
+    "status": "admitted",
+    "type": "A",
+    "classification": "direct",
+    "operation": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+    "canonical_substance_id": "l-carnitine",
+    "functional_dependency": {
+      "status": "established",
+      "statement": "The shuttle reaction uses L-carnitine to transfer long-chain acyl groups; enzyme-function evidence and versioned reaction annotation establish the PM-specific dependency.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/14517221/",
+        "https://www.uniprot.org/uniprotkb/P50416/entry",
+        "https://www.rhea-db.org/rhea/12661"
+      ]
+    },
+    "dietary_supply": {
+      "status": "established",
+      "statement": "Directly measured food L-carnitine supplies the same substrate; no conversion from total protein or generalisation of a supplemental effect is used.",
+      "sources": [
+        "https://doi.org/10.1016/j.foodchem.2003.09.023"
+      ]
+    },
+    "assessment_date": "2026-10-23",
+    "assessment_limitations": "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+    "food_target_research": {
+      "completed": true,
+      "sources_examined": [
+        "registry/substances.json",
+        "docs/foods/beef.md",
+        "docs/foods/lamb.md",
+        "system/food-target-research.json",
+        "review/brs4-candidate-reconciliation-2026-10-23/carnitine-identity.json"
+      ],
+      "targeted_searches": [
+        {
+          "date": "2026-10-23",
+          "query": "Demarquoy radioisotopic free L-carnitine beef lamb dairy food samples; canonical L/(R) identity",
+          "outcome": "Primary publisher text explicitly identifies beef/lamb samples. Two qualitative provisional sources; exact preparation/cut unresolved. No kefir or blanket dairy edge created."
+        }
+      ]
+    }
+  },
+  "finding": "PM6-F2",
+  "biochemical_identity_reconciled": "PM6-DEFERRED-BIO-1",
+  "historical_records": "preserved in before-files.json"
+}

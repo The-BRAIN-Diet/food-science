@@ -98,7 +98,8 @@ test('mission, downstream finding, scores, food/registry records and historical 
  assert.equal(pm.data.mission,old.mission);assert.deepEqual(pm.data.scientific_findings[1],old.scientific_findings[1]);assert.deepEqual(pm.data.phenome_relationships,old.phenome_relationships);
  assert.ok(pm.data.scientific_findings.every(f=>f.synthesised_evidence_confidence==='not-yet-scored'));
  const changed=execFileSync('git',['diff','--name-only','96b08913b917fffb8c96862ac4aab50a46a8d4fe'],{encoding:'utf8'}).trim().split('\n');
- assert.equal(changed.some(f=>/^(docs\/foods\/|registry\/|system\/sec)/.test(f)),false);
+ assert.equal(changed.some(f=>/^(docs\/foods\/|registry\/|system\/sec)/.test(f)&&f!=='registry/substances.json'),false);
+ const originalRegistry=JSON.parse(execFileSync('git',['show','96b08913b917fffb8c96862ac4aab50a46a8d4fe:registry/substances.json'],{encoding:'utf8'}));const currentRegistry={...registry};delete currentRegistry['l-carnitine'];assert.deepEqual(currentRegistry,originalRegistry);
  for(const h of pm.data.dietary_input_reconciliation_history)assert.deepEqual(h.previous_record,old.dietary_input_traceability.find(a=>a.atom_id===h.previous_record.atom_id));
 });
 test('actual PM MDX and Finding component compile; warning precedes precisely six atoms',async()=>{

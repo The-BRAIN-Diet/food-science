@@ -112,6 +112,568 @@
       "pm_ids": [
         "BRS5-FM2-PM5"
       ]
+    },
+    {
+      "food_id": "chicken",
+      "food_title": "Chicken (studied breast material)",
+      "food_page": "/docs/foods/chicken",
+      "substance_id": "nicotinamide",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS4-FM1-PM2"
+      ],
+      "evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+    },
+    {
+      "food_id": "chicken",
+      "food_title": "Chicken (studied breast material)",
+      "food_page": "/docs/foods/chicken",
+      "substance_id": "nicotinic-acid",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS4-FM1-PM2"
+      ],
+      "evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+    },
+    {
+      "food_id": "chickpeas",
+      "food_title": "Chickpeas (studied analytical material)",
+      "food_page": "/docs/foods/chickpeas",
+      "substance_id": "nicotinamide",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS4-FM1-PM2"
+      ],
+      "evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+    },
+    {
+      "food_id": "chickpeas",
+      "food_title": "Chickpeas (studied analytical material)",
+      "food_page": "/docs/foods/chickpeas",
+      "substance_id": "nicotinic-acid",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS4-FM1-PM2"
+      ],
+      "evidence": {
+        "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+        "sources": [
+          "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "No numerical amount, free-vitamer pool, cooking yield, bioavailability or food-to-NAD effect inferred. Total niacin is not relabelled as either form."
+    },
+    {
+      "food_id": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_page": "/docs/foods/pomegranates",
+      "substance_id": "ellagic-acid",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS5-FM2-PM6"
+      ],
+      "evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+    },
+    {
+      "food_id": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_page": "/docs/foods/pomegranates",
+      "substance_id": "ellagitannins",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "status": "research-supported-provisional",
+      "pm_ids": [
+        "BRS5-FM2-PM6"
+      ],
+      "evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "glycine",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+      "pm_ids": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "serine",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+      "pm_ids": [
+        "BRS2-FM2-PM5"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "pork",
+      "food_title": "Pork",
+      "food_page": "/docs/foods/pork",
+      "substance_id": "glycine",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+      "pm_ids": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "pork",
+      "food_title": "Pork",
+      "food_page": "/docs/foods/pork",
+      "substance_id": "serine",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+      "pm_ids": [
+        "BRS2-FM2-PM5"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "lamb",
+      "food_title": "Lamb",
+      "food_page": "/docs/foods/lamb",
+      "substance_id": "glycine",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+      "pm_ids": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "lamb",
+      "food_title": "Lamb",
+      "food_page": "/docs/foods/lamb",
+      "substance_id": "serine",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+      "pm_ids": [
+        "BRS2-FM2-PM5"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "chicory-root",
+      "food_title": "Chicory root",
+      "food_page": "/docs/foods/chicory-root",
+      "substance_id": "inulin",
+      "material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+        "sources": [
+          "https://doi.org/10.1186/s43094-020-00087-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred.",
+      "pm_ids": [
+        "BRS5-FM2-PM4"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "jerusalem-artichokes",
+      "food_title": "Jerusalem artichokes",
+      "food_page": "/docs/foods/jerusalem-artichokes",
+      "substance_id": "inulin",
+      "material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitations": "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred.",
+      "pm_ids": [
+        "BRS5-FM2-PM4"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23"
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "histidine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "isoleucine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "leucine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "lysine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "methionine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "phenylalanine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "threonine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "tryptophan",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "valine",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "authoritative-food-composition-compilation"
+      },
+      "limitations": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking.",
+      "pm_ids": [
+        "BRS1-FM1-PM1"
+      ],
+      "research_batch": "deferred-stage2ab-2026-10-23",
+      "assessment_context": "Composition of an existing admitted pool member, not an individual PM admission. Aggregate identity join remains unresolved."
+    },
+    {
+      "food_id": "beef",
+      "food_title": "Beef",
+      "food_page": "/docs/foods/beef",
+      "substance_id": "l-carnitine",
+      "material": "Beef meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2003.09.023"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge.",
+      "pm_ids": [
+        "BRS4-FM3-PM6"
+      ],
+      "research_batch": "brs4-candidate-reconciliation-2026-10-23"
+    },
+    {
+      "food_id": "lamb",
+      "food_title": "Lamb",
+      "food_page": "/docs/foods/lamb",
+      "substance_id": "l-carnitine",
+      "material": "Lamb meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2003.09.023"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge.",
+      "pm_ids": [
+        "BRS4-FM3-PM6"
+      ],
+      "research_batch": "brs4-candidate-reconciliation-2026-10-23"
     }
   ]
 }

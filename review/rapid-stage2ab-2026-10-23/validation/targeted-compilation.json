@@ -1,0 +1,27 @@
+[
+  {
+    "pm": "BRS3-FM2-PM3",
+    "pass": true,
+    "bytes": 28907
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "pass": true,
+    "bytes": 49941
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "pass": true,
+    "bytes": 19968
+  },
+  {
+    "pm": "BRS6-FM1-PM2",
+    "pass": true,
+    "bytes": 58205
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM2)",
+    "pass": true,
+    "bytes": 24103
+  }
+]

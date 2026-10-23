@@ -1,0 +1,60 @@
+TAP version 13
+# Subtest: all active PMs have an explicit disposition; deferral is not an evidence-absence claim
+ok 1 - all active PMs have an explicit disposition; deferral is not an evidence-absence claim
+  ---
+  duration_ms: 6.806292
+  ...
+# Subtest: only individually adjudicated eligible canonical admissions enter the manuscript
+ok 2 - only individually adjudicated eligible canonical admissions enter the manuscript
+  ---
+  duration_ms: 4.366166
+  ...
+# Subtest: food identity, evidence and mapping status remain independently traceable
+ok 3 - food identity, evidence and mapping status remain independently traceable
+  ---
+  duration_ms: 0.490583
+  ...
+# Subtest: experimental responses and downstream metabolites do not become ordinary food claims
+ok 4 - experimental responses and downstream metabolites do not become ordinary food claims
+  ---
+  duration_ms: 4.254375
+  ...
+# Subtest: food deduplication preserves PM-specific relationships, distinct materials and reviews
+ok 5 - food deduplication preserves PM-specific relationships, distinct materials and reviews
+  ---
+  duration_ms: 7.672916
+  ...
+# Subtest: queue is deduplicated, retains coverage/conversion tasks and has no stale repaired walnut/RS edges
+ok 6 - queue is deduplicated, retains coverage/conversion tasks and has no stale repaired walnut/RS edges
+  ---
+  duration_ms: 0.32275
+  ...
+# Subtest: six BRS shards reconstruct the consolidated food-input records exactly
+ok 7 - six BRS shards reconstruct the consolidated food-input records exactly
+  ---
+  duration_ms: 48.480167
+  ...
+# Subtest: timing, grain processing and exercise remain separate from six-atom dietary requirements
+ok 8 - timing, grain processing and exercise remain separate from six-atom dietary requirements
+  ---
+  duration_ms: 0.239542
+  ...
+# Subtest: rendered records show six atoms, pending icons and warnings before the first atom
+ok 9 - rendered records show six atoms, pending icons and warnings before the first atom
+  ---
+  duration_ms: 161.026792
+  ...
+# Subtest: canonical scientific records, governance, food edges, registry and SEC scores are untouched
+ok 10 - canonical scientific records, governance, food edges, registry and SEC scores are untouched
+  ---
+  duration_ms: 320.514292
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1241.635208

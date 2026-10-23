@@ -1,0 +1,139 @@
+{
+  "scope": "18 PMs with retained inputs/practices in rapid report; full canonical records preserved",
+  "notes": {
+    "BRS5-FM2-PM5": {
+      "stage2a": "Substrate utilisation, product concentrations, inferred production and downstream barrier/mitochondrial effects answer different propositions. Retain both Findings, including null/compartment qualifications and secondary-review classification.",
+      "stage2b": "Resistant starch and pectin retain their existing Capacity/Direct relationships to production. Preserve the historical FOS/GOS review disposition and product-only acetate/propionate/butyrate records; no ordinary-food butyrate yield is inferred."
+    },
+    "BRS1-FM4-PM9": {
+      "stage2a": "PLP-dependent GAD capacity is distinct from GABA concentration, synthesis flux and the attached clinical/behavioural observations. PDXK phosphorylation and PNPO oxidation depend on the incoming B6 vitamer.",
+      "stage2b": "The existing B6 dietary route, glutamate substrate and PLP participant are all retained. Activation is a supported Derived pathway relative to GAD; no higher-intake anxiety or ADHD effect is inferred."
+    },
+    "BRS2-FM1-PM1": {
+      "stage2a": "The MTR reaction, upstream folate conversion and cobalamin processing are distinct from plasma homocysteine or tumour-cell effects. Keep the human tracer and clinical limitations already attached to all six Findings.",
+      "stage2b": "Retain 5-MTHF, folate, methylcobalamin, B12 and homocysteine in their current categories. Total folate composition is not a form-specific 5-MTHF quantity; precursor and active-form records are not independent doses."
+    },
+    "BRS3-FM2-PM5": {
+      "stage2a": "Chemical chain-breaking and deficient-cell oxidative challenge support a bounded vitamin E role. The existing high-dose prevention-trial harm remains an important clinical limit, not a peroxidation-rate measurement.",
+      "stage2b": "Keep vitamin E Capacity provision and its current classification. Ordinary-food occurrence is separate from formulation-specific supplementation, repletion and cancer outcomes; no high-dose recommendation is added."
+    },
+    "BRS4-FM1-PM1": {
+      "stage2a": "Primary respiratory-complex structure supports metal/flavin machinery; structural cofactor presence is not a feeding experiment or a direct demonstration of reduced electron leakage. All respiratory, ROS, cybrid and Phenome Findings are retained.",
+      "stage2b": "Preserve iron, FMN, riboflavin, ubiquinone and copper records exactly as currently adjudicated. Riboflavin-derived FMN delivery is distinct from direct FMN food occurrence; missing active-form food coverage triggers research, not deletion."
+    },
+    "BRS6-FM1-PM1": {
+      "stage2a": "Gastric-emptying markers, model-derived exogenous appearance and systemic glucose curves are different endpoints. All eight Findings and ten optimisation records remain, including prior nulls, formulation and status qualifications.",
+      "stage2b": "The selected fish/rice sequence and beta-glucan formulation remain protocol-specific SOP evidence. Other existing SOPs are preserved in full; none is converted into a biochemical input or silently retired."
+    },
+    "BRS1-FM3-PM7": {
+      "stage2a": "Human intravenous-DHA PET estimates brain incorporation under studied conditions; neonatal-piglet carrier comparisons and MFSD2A experiments address different questions. The human PET result is not an oral food dose.",
+      "stage2b": "DHA, upstream choline and both folate/betaine KC supply records are retained. No LPC-carrier advantage is transferred to all fish, roe or oils; multiple upstream supplies do not become independent effect multipliers."
+    },
+    "BRS1-FM2-PM6": {
+      "stage2a": "ChAT substrate use, choline delivery, pantothenate/acetyl-CoA provision, methyl-metabolism support and precursor compartmentation remain separately assessed. The ethanol-specific pantothenate experiment does not isolate a simple dietary deficiency or prove the proposed mediator.",
+      "stage2b": "Retain choline, phosphatidylcholine, acetyl-CoA, B5 and folate records in their accepted categories, including those not selected in the rapid manuscript. Phosphatidylcholine is a precursor route to choline, not a second independent acetylcholine effect."
+    },
+    "BRS2-FM1-PM2": {
+      "stage2a": "BHMT structural chemistry is distinct from choline oxidation, tissue specificity and blood homocysteine responses. All genetic/deprivation, substrate, biomarker and Phenome limitations remain.",
+      "stage2b": "Betaine Capacity/Direct and choline Capacity/Derived are assessed relative to the BHMT reaction. Homocysteine and zinc participants are retained; an upstream conversion alone is not proof of increased brain remethylation."
+    },
+    "BRS3-FM3-PM8": {
+      "stage2a": "The human n-3 exposure changed selected mediator concentrations, with important null or undetected analytes. Concentrations, biosynthetic flux, inflammatory resolution and clinical brain outcomes are not interchangeable.",
+      "stage2b": "Keep both EPA and DHA substrate relationships. Dietary composition supports precursor supply; the supplement formulation and mediator response do not establish the same response from ordinary fish or prove clinical resolution."
+    },
+    "BRS4-FM1-PM3": {
+      "stage2a": "Human supplementation studies, spectroscopy, acute sleep-deprivation work, habitual-diet comparisons and pork cooking experiments remain separate evidence streams. Total creatine is not a direct ATP-buffering flux measurement.",
+      "stage2b": "Creatine and all endogenous-synthesis participants remain unchanged. Both existing preparation SOPs are retained; source-specific cooking observations are not instructions to undercook foods or evidence of a brain effect."
+    },
+    "BRS4-FM1-PM2": {
+      "stage2a": "NAM salvage, nicotinic-acid synthesis, tryptophan contribution, circadian regulation, exercise NAMPT and clinical endpoints remain separate propositions. Pharmacological niacin in myopathy does not establish ordinary-food responsiveness.",
+      "stage2b": "Preserve nicotinamide, nicotinic acid and tryptophan admissions plus the existing exercise record. Form-specific chicken/chickpea assay proposals retain acid-extraction and native-free-vitamer limits; total niacin is not relabelled as either form."
+    },
+    "BRS3-FM2-PM3": {
+      "stage2a": "Cellular KEAP1 engagement, nasal gene transcription after a defined sprout homogenate and the COPD capsule null retain their different systems and formulations. No gene-expression-to-clinical-benefit inference is added.",
+      "stage2b": "Sulforaphane remains the existing Regulation relationship and the sprout SOP remains. The broccoli material/preparation join concern is flagged separately; it does not remove or downgrade the PM input."
+    },
+    "BRS3-FM2-PM4": {
+      "stage2a": "Superoxide/peroxide clearance, selenium repletion and infant copper/SOD responses are distinct from whole-organism net oxidative pressure. Selenium intake plateaus differ by measured selenoprotein.",
+      "stage2b": "All five participant/input records are preserved, including zinc, manganese and glutathione. Selenium and copper Capacity records retain status, population and endpoint limits; no generic intake-to-redox or brain effect is inferred."
+    },
+    "BRS3-FM2-PM6": {
+      "stage2a": "A new unscored Finding adds human glutathione-reductase structure and inherited enzyme-deficiency evidence to the thiol arm of the existing mission. Chemical vitamin C–E recycling remains a separate, unchanged Finding. Curated reaction records are pathway context, not additional experimental replications.",
+      "stage2b": "Both vitamin C and E records remain unchanged. FAD-dependent machinery motivates a precursor research question only; no new riboflavin, selenium or glutathione dietary input is admitted through structural evidence alone."
+    },
+    "BRS5-FM2-PM6": {
+      "stage2a": "Pure-culture intermediate formation and variable human urolithin exposure are distinct. Downstream administered-urolithin experiments do not establish food-driven mitochondrial, cognitive or ADHD effects.",
+      "stage2b": "Ellagic acid and ellagitannins retain existing Capacity and Direct/Derived metadata. Verified and provisional precursor sources are retained with product/matrix limitations; they are not direct urolithin A foods."
+    },
+    "BRS6-FM1-PM2": {
+      "stage2a": "CGM variability, mean glycaemia, oxidative markers and inferred neuroendocrine consequences remain separate. The longer early-eating/calorie-restriction trial provides contrary context to a different short early/front-loaded protocol, not a reason to delete the existing SOP.",
+      "stage2b": "Both existing SOPs and both lifestyle records are preserved, with their exact statuses. No protocol is promoted to a biochemical input, universal optimal eating window or demonstrated brain intervention."
+    },
+    "BRS-X(Circadian-FM1-PM2)": {
+      "stage2a": "Human meal-delay effects on glucose and adipose PER2 phase differ from melatonin/cortisol phase and from a demonstrated health improvement. Animal insulin/clock experiments remain contextual and do not create extra human replications.",
+      "stage2b": "The existing meal-schedule SOP is retained. Peripheral clock timing is distinct from retinal light entrainment; no extra dietary substance, preferred universal meal time or clinical efficacy claim is added."
+    }
+  },
+  "issues": [
+    {
+      "id": "PRES-20261023-GAD-B6",
+      "pm": "BRS1-FM4-PM9",
+      "record": "dietary_input_traceability[PM9-DIT-3].biological_role",
+      "concern": "The shorthand says pyridoxal kinase converts dietary B6 vitamers to PLP without distinguishing PNPO-dependent oxidation of phosphorylated pyridoxine/pyridoxamine.",
+      "proposal": "After approval, clarify vitamer-specific phosphorylation and oxidation steps while preserving the B6 Capacity/Derived admission.",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+        "https://pubmed.ncbi.nlm.nih.gov/15182361/"
+      ],
+      "status": "open-review-required; original record preserved"
+    },
+    {
+      "id": "PRES-20261023-ACH-B5",
+      "pm": "BRS1-FM2-PM6",
+      "record": "scientific_findings[PM6-F5].evidence_considered[rivera_calimlim_pantothenic_1988].assessment.evidence_summary",
+      "concern": "The phrase Directly links severe pantothenate depletion to reduced acetylcholine synthesis through acetyl-CoA provision may overstate isolated causal mediation in an ethanol-exposure model.",
+      "proposal": "Review whether the study isolates acetyl-CoA mediation; if approved, describe the ethanol-specific association/intervention separately from the established biochemical precursor pathway. Retain B5 admission.",
+      "sources": [
+        "https://doi.org/10.1111/j.1476-5381.1988.tb16550.x",
+        "https://pubmed.ncbi.nlm.nih.gov/3219477/"
+      ],
+      "status": "open-review-required; original source assessment preserved"
+    },
+    {
+      "id": "PRES-20261023-NRF2-PREP",
+      "pm": "BRS3-FM2-PM3",
+      "record": "docs/foods/broccoli.md#substance_relationships/Sulforaphane",
+      "concern": "The inherited raw preparation join differs from the described cooked/sous-vide/mustard material context. This concerns one food exposure, not the PM admission.",
+      "proposal": "Independently reconcile material, preparation and measurement context before interpreting that exposure. No canonical edge repair or PM downgrade in this run.",
+      "sources": [
+        "system/rapid-stage2ab-2026-10-23/adjudications.json",
+        "review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json"
+      ],
+      "status": "open-material-review; existing record preserved"
+    },
+    {
+      "id": "PRES-20261023-ETC-FMN",
+      "pm": "BRS4-FM1-PM1",
+      "record": "dietary_input_traceability[PM1-DIT-2]",
+      "concern": "Direct active-FMN dietary occurrence and the supported riboflavin-derived route are distinct; current active-FMN food coverage is incomplete.",
+      "proposal": "Research form-specific direct delivery and preserve the existing active-form and precursor records during reconciliation; do not infer direct FMN amounts from riboflavin.",
+      "sources": [
+        "registry/substances.json",
+        "https://pubmed.ncbi.nlm.nih.gov/27509854/"
+      ],
+      "status": "open-food-traceability-question; admission retained"
+    },
+    {
+      "id": "PRES-20261023-THIOL-IDENTITY",
+      "pm": "BRS3-FM2-PM6",
+      "record": "New PM6-F2 follow-up; registry/substances.json",
+      "concern": "The retrieved GSR FAD cofactor has ChEBI CHEBI:57692, but a resolved local FAD identity and complete dietary precursor pathway have not been established in this run.",
+      "proposal": "Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically.",
+      "sources": [
+        "https://www.rcsb.org/structure/3GRS",
+        "https://rest.uniprot.org/uniprotkb/P00390.json"
+      ],
+      "status": "open-research-question; no new dietary admission"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+TAP version 13
+# Subtest: every Findings-owned PM satisfies the shared canonical model and freshness gate
+not ok 1 - every Findings-owned PM satisfies the shared canonical model and freshness gate
+  ---
+  duration_ms: 1278.855083
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab/scripts/scientific-findings.test.mjs:68:1'
+  failureType: 'testCodeFailure'
+  error: 'BRS1-FM1-PM1 canonical section order'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  actual:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis + Scientific Findings'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab/scripts/scientific-findings.test.mjs:79:14)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+# Subtest: Scientific Finding condition tags resolve to canonical Therapeutic Areas
+ok 2 - Scientific Finding condition tags resolve to canonical Therapeutic Areas
+  ---
+  duration_ms: 0.402
+  ...
+# Subtest: FM roll-up has no declaration-order fallback
+ok 3 - FM roll-up has no declaration-order fallback
+  ---
+  duration_ms: 0.160875
+  ...
+# Subtest: FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+ok 4 - FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+  ---
+  duration_ms: 1.631166
+  ...
+# Subtest: legacy evidence generator cannot overwrite any Findings-owned PM
+ok 5 - legacy evidence generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 369.11175
+  ...
+# Subtest: legacy phenome generator cannot overwrite any Findings-owned PM
+ok 6 - legacy phenome generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 330.624541
+  ...
+# Subtest: PM9 Scientific Findings satisfy the canonical model
+ok 7 - PM9 Scientific Findings satisfy the canonical model
+  ---
+  duration_ms: 128.708167
+  ...
+# Subtest: Scientific Finding evidence relationships preserve non-empty exposure context
+ok 8 - Scientific Finding evidence relationships preserve non-empty exposure context
+  ---
+  duration_ms: 354.169333
+  ...
+# Subtest: Synthesised Evidence Confidence remains unscored
+ok 9 - Synthesised Evidence Confidence remains unscored
+  ---
+  duration_ms: 2.531584
+  ...
+# Subtest: Findings are referenced by relationships, never duplicated into them
+ok 10 - Findings are referenced by relationships, never duplicated into them
+  ---
+  duration_ms: 2.707208
+  ...
+# Subtest: §4.1 body is generated from front matter and is fresh
+ok 11 - §4.1 body is generated from front matter and is fresh
+  ---
+  duration_ms: 3.121375
+  ...
+# Subtest: retracted PM9 evidence cannot be reintroduced by the legacy seed
+ok 12 - retracted PM9 evidence cannot be reintroduced by the legacy seed
+  ---
+  duration_ms: 2.029875
+  ...
+# Subtest: magnesium is removed from PM9's synthesis boundary
+ok 13 - magnesium is removed from PM9's synthesis boundary
+  ---
+  duration_ms: 1.984709
+  ...
+# Subtest: FM4 roll-up no longer displays retracted PM9 evidence
+ok 14 - FM4 roll-up no longer displays retracted PM9 evidence
+  ---
+  duration_ms: 0.506
+  ...
+# Subtest: phase-3 snapshot covers every live PM9 relationship
+ok 15 - phase-3 snapshot covers every live PM9 relationship
+  ---
+  duration_ms: 1.719708
+  ...
+# Subtest: every Finding citation key resolves in the durable bibliography
+ok 16 - every Finding citation key resolves in the durable bibliography
+  ---
+  duration_ms: 19.290625
+  ...
+# Subtest: PM9 uses the canonical section order
+not ok 17 - PM9 uses the canonical section order
+  ---
+  duration_ms: 4.670916
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab/scripts/scientific-findings.test.mjs:376:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+
+      [
+        '1 Mission & Overview',
+        '2 Primary Biological Effects',
+        '3 Levers',
+    +   '4 Mechanistic Basis + Scientific Findings',
+    -   '4 Mechanistic Basis',
+        '5 BRS Pathways and Connections',
+        '7 Phenome Connections',
+        '8 References'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  actual:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis + Scientific Findings'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab/scripts/scientific-findings.test.mjs:383:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: a study may be primary evidence in several Findings when the reuse is declared
+ok 18 - a study may be primary evidence in several Findings when the reuse is declared
+  ---
+  duration_ms: 138.008584
+  ...
+# Subtest: §7 renders relationship Findings as supporting evidence without IC or Related Findings
+ok 19 - §7 renders relationship Findings as supporting evidence without IC or Related Findings
+  ---
+  duration_ms: 2.569375
+  ...
+# Subtest: Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+ok 20 - Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+  ---
+  duration_ms: 1.673292
+  ...
+# Subtest: FM roll-up selection is explicit, not declaration order
+ok 21 - FM roll-up selection is explicit, not declaration order
+  ---
+  duration_ms: 2.294583
+  ...
+# Subtest: every Finding carries a compact label for reference rendering
+ok 22 - every Finding carries a compact label for reference rendering
+  ---
+  duration_ms: 1.466709
+  ...
+# Subtest: every Evidence Considered item carries a complete Individual Study Assessment
+ok 23 - every Evidence Considered item carries a complete Individual Study Assessment
+  ---
+  duration_ms: 1.51125
+  ...
+# Subtest: PM reference numbers are stable by citation_key
+ok 24 - PM reference numbers are stable by citation_key
+  ---
+  duration_ms: 1.542709
+  ...
+# Subtest: PM first-mention citations derive author, year, number and link from one reference record
+ok 25 - PM first-mention citations derive author, year, number and link from one reference record
+  ---
+  duration_ms: 0.11925
+  ...
+# Subtest: PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+ok 26 - PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+  ---
+  duration_ms: 0.942083
+  ...
+# Subtest: PM9 phenome Finding ids follow consecutive F sequence in presentation order
+ok 27 - PM9 phenome Finding ids follow consecutive F sequence in presentation order
+  ---
+  duration_ms: 1.283417
+  ...
+# Subtest: Stage 2A and Stage 2B instructions share the public audience and layer split
+ok 28 - Stage 2A and Stage 2B instructions share the public audience and layer split
+  ---
+  duration_ms: 1.660042
+  ...
+# Subtest: Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+ok 29 - Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+  ---
+  duration_ms: 5.42825
+  ...
+# Subtest: Stage 2A intervention discovery covers canonical routes without changing ownership
+ok 30 - Stage 2A intervention discovery covers canonical routes without changing ownership
+  ---
+  duration_ms: 0.65725
+  ...
+# Subtest: Stage 2A landscape reporting retains bounded searches and counter-evidence
+ok 31 - Stage 2A landscape reporting retains bounded searches and counter-evidence
+  ---
+  duration_ms: 0.367917
+  ...
+# Subtest: Stage 2A functional translation and hypotheses preserve admission and phenome gates
+ok 32 - Stage 2A functional translation and hypotheses preserve admission and phenome gates
+  ---
+  duration_ms: 0.407583
+  ...
+# Subtest: Stage 2A pages publish explained PM connections, not bare links
+ok 33 - Stage 2A pages publish explained PM connections, not bare links
+  ---
+  duration_ms: 3.745291
+  ...
+1..33
+# tests 33
+# suites 0
+# pass 31
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 2927.08125

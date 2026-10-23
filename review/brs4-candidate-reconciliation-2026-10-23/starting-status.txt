@@ -1,0 +1,263 @@
+ M docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx
+ M docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx
+ M docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx
+ M docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx
+ M docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx
+ M docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx
+ M docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx
+ M docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx
+ M docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx
+ M docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx
+ M docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx
+ M docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx
+ M docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx
+ M docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx
+ M docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx
+ M docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx
+ M docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx
+ M docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx
+ M docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx
+ M docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx
+ M docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx
+ M docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx
+ M docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx
+ M docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx
+ M docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx
+ M docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx
+ M docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx
+ M docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx
+ M docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx
+ M docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx
+ M docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx
+ M docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx
+ M docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md
+ M scripts/food-target-reconciliation.test.mjs
+ M scripts/input-substance-food.test.mjs
+ M src/data/phenome-relationships.generated.json
+ M static/bibtex/BRAIN-diet.bib
+ M system/food-target-research.json
+ M system/generated/brs2-input-substance-food/dietary-input-decisions.json
+ M system/generated/brs2-input-substance-food/gaps.generated.json
+ M system/generated/brs2-input-substance-food/inventory.md
+ M system/generated/brs2-input-substance-food/substance-index.md
+ M system/generated/brs4-input-substance-food/dietary-input-decisions.json
+ M system/generated/brs4-input-substance-food/gaps.generated.json
+ M system/generated/brs4-input-substance-food/inventory.md
+ M system/generated/brs4-input-substance-food/substance-index.md
+ M system/generated/brs5-input-substance-food/dietary-input-decisions.json
+ M system/generated/brs5-input-substance-food/food-to-inputs.md
+ M system/generated/brs5-input-substance-food/gaps.generated.json
+ M system/generated/brs5-input-substance-food/inventory.md
+ M system/generated/brs5-input-substance-food/substance-index.md
+ M system/generated/dietary-food-targets/cursor-repair-queue.json
+ M system/generated/dietary-food-targets/cursor-repair-summary.md
+ M system/generated/dietary-food-targets/manuscript-rollup-brs1.json
+ M system/generated/dietary-food-targets/manuscript-rollup-brs2.json
+ M system/generated/dietary-food-targets/manuscript-rollup-brs4.json
+ M system/generated/dietary-food-targets/manuscript-rollup-brs5.json
+ M system/generated/dietary-food-targets/reconciliation.json
+ M system/generated/dietary-food-targets/research-ledger-reconciliation.json
+ M system/generated/food-strategy-rollup/index.md
+ M system/generated/food-strategy-rollup/rollup.generated.json
+ M system/mechanism-change-control-queue.md
+?? review/brs4-candidate-reconciliation-2026-10-23/carnitine-identity.json
+?? review/brs4-candidate-reconciliation-2026-10-23/cpt1a.json
+?? review/brs4-candidate-reconciliation-2026-10-23/cpt2.json
+?? review/brs4-candidate-reconciliation-2026-10-23/research.json
+?? review/brs4-candidate-reconciliation-2026-10-23/starting-status.txt
+?? review/brs4-validation-repair-2026-10-23/before.json
+?? review/brs4-validation-repair-2026-10-23/changed-file-manifest.json
+?? review/brs4-validation-repair-2026-10-23/compilation.json
+?? review/brs4-validation-repair-2026-10-23/findings.log
+?? review/brs4-validation-repair-2026-10-23/mechanisms.log
+?? review/brs4-validation-repair-2026-10-23/report.md
+?? review/brs4-validation-repair-2026-10-23/scientific-review-items.json
+?? review/brs4-validation-repair-2026-10-23/sec.log
+?? review/brs4-validation-repair-2026-10-23/tests.log
+?? review/brs5-pm5-retest-2026-10-23/compiled-pm.html
+?? review/brs5-pm5-retest-2026-10-23/controlled-render.html
+?? review/deferred-stage2ab-2026-10-23/assessment-matrix.json
+?? review/deferred-stage2ab-2026-10-23/assessment-matrix.md
+?? review/deferred-stage2ab-2026-10-23/baseline-bibliography.bib
+?? review/deferred-stage2ab-2026-10-23/baseline-food-research.json
+?? review/deferred-stage2ab-2026-10-23/batch-results.json
+?? review/deferred-stage2ab-2026-10-23/changed-file-manifest.json
+?? review/deferred-stage2ab-2026-10-23/client/browser-disclosure.mjs
+?? review/deferred-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs
+?? review/deferred-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs
+?? review/deferred-stage2ab-2026-10-23/client/foodTargetTraceability.mjs
+?? review/deferred-stage2ab-2026-10-23/client/inputMappingScopes.mjs
+?? review/deferred-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs
+?? review/deferred-stage2ab-2026-10-23/client/scopes.json
+?? review/deferred-stage2ab-2026-10-23/complete-baseline.json
+?? review/deferred-stage2ab-2026-10-23/cursor-repair-queue.json
+?? review/deferred-stage2ab-2026-10-23/cursor-repair-summary.md
+?? review/deferred-stage2ab-2026-10-23/dietary-targets.json
+?? review/deferred-stage2ab-2026-10-23/food-research.json
+?? review/deferred-stage2ab-2026-10-23/food-target-preview.html
+?? review/deferred-stage2ab-2026-10-23/food-targets.json
+?? review/deferred-stage2ab-2026-10-23/implementation-manifest.json
+?? review/deferred-stage2ab-2026-10-23/microbial-crossfeeding-2025.xml
+?? review/deferred-stage2ab-2026-10-23/new-admissions.json
+?? review/deferred-stage2ab-2026-10-23/new-participants.json
+?? review/deferred-stage2ab-2026-10-23/new-practices.json
+?? review/deferred-stage2ab-2026-10-23/report.md
+?? review/deferred-stage2ab-2026-10-23/retrieved-primary-metadata.json
+?? review/deferred-stage2ab-2026-10-23/scientific-review-proposals.json
+?? review/deferred-stage2ab-2026-10-23/source-preservation.json
+?? review/deferred-stage2ab-2026-10-23/validation-report.json
+?? review/deferred-stage2ab-2026-10-23/validation-report.md
+?? review/deferred-stage2ab-2026-10-23/validation/baseline-mechanisms.log
+?? review/deferred-stage2ab-2026-10-23/validation/bibliography.log
+?? review/deferred-stage2ab-2026-10-23/validation/compiled-pages.json
+?? review/deferred-stage2ab-2026-10-23/validation/deferred-regressions.log
+?? review/deferred-stage2ab-2026-10-23/validation/final-focused-tests.log
+?? review/deferred-stage2ab-2026-10-23/validation/generation.log
+?? review/deferred-stage2ab-2026-10-23/validation/infrastructure-tests.log
+?? review/deferred-stage2ab-2026-10-23/validation/mechanisms.log
+?? review/deferred-stage2ab-2026-10-23/validation/phenome-generation.log
+?? review/deferred-stage2ab-2026-10-23/validation/preservation-and-findings-tests.log
+?? review/deferred-stage2ab-2026-10-23/validation/reference-integrity.json
+?? review/deferred-stage2ab-2026-10-23/validation/sec.log
+?? review/deferred-stage2ab-2026-10-23/validation/substances.log
+?? review/rapid-stage2ab-2026-10-23/actual-client-preview.html
+?? review/rapid-stage2ab-2026-10-23/baseline-and-preservation.json
+?? review/rapid-stage2ab-2026-10-23/batch-1-rollup.json
+?? review/rapid-stage2ab-2026-10-23/batch-2-rollup.json
+?? review/rapid-stage2ab-2026-10-23/batch-3-rollup.json
+?? review/rapid-stage2ab-2026-10-23/batch-4-rollup.json
+?? review/rapid-stage2ab-2026-10-23/batch-results.json
+?? review/rapid-stage2ab-2026-10-23/brs1-baseline.json
+?? review/rapid-stage2ab-2026-10-23/brs2-baseline.json
+?? review/rapid-stage2ab-2026-10-23/brs3-baseline.json
+?? review/rapid-stage2ab-2026-10-23/brs4-baseline.json
+?? review/rapid-stage2ab-2026-10-23/brs5-baseline.json
+?? review/rapid-stage2ab-2026-10-23/brs6-baseline.json
+?? review/rapid-stage2ab-2026-10-23/changed-files.md
+?? review/rapid-stage2ab-2026-10-23/client/browser-disclosure.mjs
+?? review/rapid-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs
+?? review/rapid-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs
+?? review/rapid-stage2ab-2026-10-23/client/foodTargetTraceability.mjs
+?? review/rapid-stage2ab-2026-10-23/client/inputMappingScopes.mjs
+?? review/rapid-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs
+?? review/rapid-stage2ab-2026-10-23/client/scopes.json
+?? review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json
+?? review/rapid-stage2ab-2026-10-23/cursor-repair-summary.md
+?? review/rapid-stage2ab-2026-10-23/food-target-rollup.json
+?? review/rapid-stage2ab-2026-10-23/historical-conversion-gaps.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.csv
+?? review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-preview.html
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs1.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs2.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs3.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs4.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs5.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs6.json
+?? review/rapid-stage2ab-2026-10-23/manuscript-synthesis.md
+?? review/rapid-stage2ab-2026-10-23/optimisation-and-lifestyle.json
+?? review/rapid-stage2ab-2026-10-23/pm-inventory.json
+?? review/rapid-stage2ab-2026-10-23/pm-inventory.md
+?? review/rapid-stage2ab-2026-10-23/report.md
+?? review/rapid-stage2ab-2026-10-23/scientific-admission-reconciliation.json
+?? review/rapid-stage2ab-2026-10-23/scientific-issues-and-deferred-work.md
+?? review/rapid-stage2ab-2026-10-23/source-inventory.json
+?? review/rapid-stage2ab-2026-10-23/summary.json
+?? review/rapid-stage2ab-2026-10-23/validation/BRS-X-Circadian-FM1-PM2--compiled.html
+?? review/rapid-stage2ab-2026-10-23/validation/BRS3-FM2-PM3-compiled.html
+?? review/rapid-stage2ab-2026-10-23/validation/BRS4-FM1-PM2-compiled.html
+?? review/rapid-stage2ab-2026-10-23/validation/BRS5-FM2-PM6-compiled.html
+?? review/rapid-stage2ab-2026-10-23/validation/BRS6-FM1-PM2-compiled.html
+?? review/rapid-stage2ab-2026-10-23/validation/bibliography.log
+?? review/rapid-stage2ab-2026-10-23/validation/browser-display.json
+?? review/rapid-stage2ab-2026-10-23/validation/finding-title-baseline.log
+?? review/rapid-stage2ab-2026-10-23/validation/findings-freshness.log
+?? review/rapid-stage2ab-2026-10-23/validation/focused-regressions.log
+?? review/rapid-stage2ab-2026-10-23/validation/generated-mappings.log
+?? review/rapid-stage2ab-2026-10-23/validation/governance-final.log
+?? review/rapid-stage2ab-2026-10-23/validation/governance.log
+?? review/rapid-stage2ab-2026-10-23/validation/pm5-compilation.log
+?? review/rapid-stage2ab-2026-10-23/validation/preexisting-brs2-pm5-kc-fixture.log
+?? review/rapid-stage2ab-2026-10-23/validation/production-build.log
+?? review/rapid-stage2ab-2026-10-23/validation/rapid-final.log
+?? review/rapid-stage2ab-2026-10-23/validation/results.json
+?? review/rapid-stage2ab-2026-10-23/validation/sec-final.log
+?? review/rapid-stage2ab-2026-10-23/validation/sec-preservation.log
+?? review/rapid-stage2ab-2026-10-23/validation/substance-ontology.log
+?? review/rapid-stage2ab-2026-10-23/validation/targeted-compilation.json
+?? review/stage2ab-preservation-2026-10-23/all-preserved-inputs.json
+?? review/stage2ab-preservation-2026-10-23/canonical-food-target-catalogue.json
+?? review/stage2ab-preservation-2026-10-23/changed-file-manifest.json
+?? review/stage2ab-preservation-2026-10-23/per-pm-matrix.md
+?? review/stage2ab-preservation-2026-10-23/pm-reviews.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.md
+?? review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.json
+?? review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.md
+?? review/stage2ab-preservation-2026-10-23/report.md
+?? review/stage2ab-preservation-2026-10-23/review-issues.json
+?? review/stage2ab-preservation-2026-10-23/summary.json
+?? scripts/brs4-validation-repair.test.mjs
+?? scripts/deferred-stage2ab.test.mjs
+?? scripts/rapid-food-display-check.mjs
+?? scripts/rapid-stage2ab.test.mjs
+?? scripts/run-deferred-stage2ab.mjs
+?? scripts/run-rapid-stage2ab.mjs
+?? scripts/run-stage2ab-preservation.mjs
+?? scripts/stage2ab-preservation.test.mjs
+?? system/rapid-stage2ab-2026-10-23/adjudications.json
+?? system/rapid-stage2ab-2026-10-23/source-verification.json
+?? system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json
+?? system/reviews/deferred-stage2ab-2026-10-23/sources.json
+?? system/reviews/stage2ab-preservation-2026-10-23/execution-summary.json
+?? system/reviews/stage2ab-preservation-2026-10-23/plan.json
+?? system/reviews/stage2ab-preservation-2026-10-23/preservation-manifest.json
+?? system/reviews/stage2ab-preservation-2026-10-23/uniprot-P00390-context.json

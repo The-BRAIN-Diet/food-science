@@ -1,0 +1,316 @@
+{
+  "pm_id": "BRS3-FM2-PM3",
+  "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+  "mission": "Regulate the expression of cellular defence genes in response to oxidative and electrophilic stress.",
+  "stage2a": {
+    "operation": "Cell mechanism and prepared-food exposure support bounded regulation; nasal targets are not direct brain efficacy. Mature-broccoli preparation join is held, while the specified disrupted-sprout source remains usable.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM3-F1",
+        "proposition": "Keap1 represses Nrf2 until oxidative or electrophilic stress allows defence-gene transcription. Sulforaphane can slow Keap1-directed disposal of Nrf2 in cells. That is regulation, not a dietary requirement.",
+        "existing_source_assessments": [
+          {
+            "label": "Itoh et al. (1999)",
+            "citation_key": "itoh_keap1_1999",
+            "href": "/docs/papers/BRAIN-Diet-References#itoh_keap1_1999",
+            "data_level": "Cellular / Molecular",
+            "exposure_context": "transfected cells and electrophilic agents",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Keap1 binds the Neh2 domain of Nrf2 and represses antioxidant-response-element activity. Electrophiles oppose that repression.",
+            "assessment": {
+              "study": "Identification of Keap1 as the repressor of Nrf2, with tests of electrophilic agents in cells.",
+              "population": "Transfected cell lines. No human cohort.",
+              "result": "Keap1 holds Nrf2 back, and electrophiles release that hold so defence genes can be transcribed.",
+              "effect_magnitude": "The paper reports repression and its release. It does not give a human fold change.",
+              "evidence_summary": "Defence-gene transcription is a regulated response to oxidative and electrophilic stress.",
+              "limitations": "Cell identification of the sensor is not a food result and not a brain measurement."
+            }
+          },
+          {
+            "label": "Zhang et al. (2004)",
+            "citation_key": "zhang_keap1_2004",
+            "href": "/docs/papers/BRAIN-Diet-References#zhang_keap1_2004",
+            "data_level": "Cellular / Molecular",
+            "exposure_context": "cells exposed to oxidative stress or sulforaphane",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Keap1 marks Nrf2 for disposal. Oxidative stress and sulforaphane inhibit that marking. A cysteine-151 mutant of Keap1 resists that inhibition.",
+            "assessment": {
+              "study": "Cell and biochemical tests of Keap1 as the adaptor that marks Nrf2 for disposal.",
+              "population": "Cultured cells. No human dietary cohort.",
+              "result": "Stress or sulforaphane slows disposal of Nrf2. Changing cysteine 151 of Keap1 blocks that effect.",
+              "effect_magnitude": "The paper reports inhibition of ubiquitination, not a dietary dose.",
+              "evidence_summary": "Sulforaphane acts on the Keap1 sensor in cells. It is not a nutrient the regulation requires.",
+              "limitations": "Cell exposure to sulforaphane is not the sprout homogenate and not brain Nrf2."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM3-F2",
+        "proposition": "A myrosinase-completed broccoli sprout homogenate raised phase II enzyme RNA in nasal cells of healthy adults. Extracted sulforaphane capsules did not raise Nrf2 target-gene expression in COPD lung cells.",
+        "existing_source_assessments": [
+          {
+            "label": "Riedl, Saxon and Diaz-Sanchez (2009)",
+            "citation_key": "riedl_sulforaphane_airway_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "myrosinase-completed broccoli sprout homogenate",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Nasal phase II enzyme RNA rose with dose after three days of the homogenate. Alfalfa homogenate did not do this.",
+            "assessment": {
+              "study": "Placebo-style food comparison in healthy nonsmokers. Broccoli sprout homogenate versus alfalfa sprout homogenate, once daily for three days.",
+              "population": "Healthy nonsmoking adults. Nasal cells sampled after the third dose.",
+              "result": "Phase II enzyme RNA in nasal cells rose with the broccoli sprout dose and did not rise with alfalfa.",
+              "effect_magnitude": "The rise was dose-related. Nrf2 protein was not measured, so no Nrf2 fold change is available.",
+              "evidence_summary": "A defined sprout preparation can raise airway defence-gene RNA.",
+              "limitations": "Airway RNA is not brain Nrf2, not an ordinary broccoli serving, and not a clinical outcome."
+            }
+          },
+          {
+            "label": "Wise et al. (2016)",
+            "citation_key": "wise_sulforaphane_copd_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "capsules of sulforaphane extracted from broccoli sprouts",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Four weeks of 25 or 150 micromoles of extracted sulforaphane did not raise Nrf2 target genes in COPD lung cells.",
+            "assessment": {
+              "study": "Randomised comparison of two sulforaphane capsule doses with placebo for four weeks.",
+              "population": "People with COPD.",
+              "result": "Nrf2 target-gene expression in alveolar macrophages and bronchial epithelium did not rise. Inflammation markers and lung function did not differ.",
+              "effect_magnitude": "No rise in the measured target genes at either 25 or 150 micromoles a day.",
+              "evidence_summary": "Extracted sulforaphane capsules did not reproduce the homogenate gene result.",
+              "limitations": "COPD lung cells are not healthy nasal cells, and capsules are not the myrosinase-completed homogenate."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Cellular KEAP1 engagement, nasal gene transcription after a defined sprout homogenate and the COPD capsule null retain their different systems and formulations. No gene-expression-to-clinical-benefit inference is added.",
+    "source_to_claim_records": [
+      {
+        "id": "nrf2-mechanism",
+        "url": "https://doi.org/10.1128/MCB.24.24.10941-10953.2004",
+        "kind": "primary-experiment",
+        "proposition": "Existing primary cell/biochemical source links sulforaphane and Keap1 cysteine-sensitive Nrf2 turnover.",
+        "limitation": "Cell engagement does not itself establish dietary exposure; human preparation evidence assessed separately.",
+        "retrieval": "Existing canonical primary assessment; targeted primary retrieval in this run recorded separately.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "nrf2-food",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/19028145/",
+        "kind": "primary-human-intervention",
+        "proposition": "Defined broccoli-sprout homogenate raised nasal phase-II gene RNA relative to the control preparation.",
+        "limitation": "Nasal target-gene response, not brain/ADHD effect, universal serving response or direct measurement of Nrf2 activation in every tissue.",
+        "retrieval": "Primary abstract; precise preparation retained from prior full source assessment.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "nrf2-null",
+        "url": "https://doi.org/10.1371/journal.pone.0163716",
+        "kind": "primary-human-intervention",
+        "proposition": "The COPD capsule trial did not increase the assessed Nrf2 target-gene endpoints.",
+        "limitation": "Different tissue, disease and formulation; prevents a uniform exposure-response claim.",
+        "retrieval": "Existing assessed primary null; targeted recheck recorded separately.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Houghton et al. (2016) — Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)",
+      "[Verlaet et al. (2018) — Rationale for Dietary Antioxidant Treatment in ADHD](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)",
+      "[Mocchegiani & Malavolta (2019) — Role of Zinc and Selenium in Antioxidant Systems](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)",
+      "[Costa et al. (2026) — Nrf2 Activation in Inflammatory Diseases](/docs/papers/BRAIN-Diet-References#costa_nrf2_activators_2026)",
+      "[Riedl, Saxon and Diaz-Sanchez (2009) — Oral Sulforaphane increases Phase II antioxidant enzymes in the human upper airway](/docs/papers/BRAIN-Diet-References#riedl_sulforaphane_airway_2009)",
+      "[Wise et al. (2016) — Lack of Effect of Oral Sulforaphane Administration on Nrf2 Expression in COPD](/docs/papers/BRAIN-Diet-References#wise_sulforaphane_copd_2016)",
+      "[Itoh et al. (1999) — Keap1 represses Nrf2](/docs/papers/BRAIN-Diet-References#itoh_keap1_1999)",
+      "[Zhang et al. (2004) — Keap1 is a Cul3 substrate adaptor](/docs/papers/BRAIN-Diet-References#zhang_keap1_2004)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Verlaet reviews a rationale for dietary antioxidant treatment in ADHD. The human measurement is nasal defence-gene expression after a prepared sprout homogenate, not a cognitive result.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Verlaet et al. (2018)",
+            "citation_key": "verlaet_rationale_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018",
+            "data_level": "Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Houghton et al. (2016)",
+            "citation_key": "houghton_sulforaphane_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016",
+            "data_level": "Human Outcome"
+          }
+        ],
+        "evidence_confidence": "medium"
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "The human exposure changed phase II enzyme RNA in nasal cells. It does not show that ordinary repeated eating changes attention, and the sources do not compare repeated exposure with a single dose.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Verlaet et al. (2018)",
+            "citation_key": "verlaet_rationale_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "relationship_type": "modulates",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "rationale": "Nrf2-dependent detoxification and antioxidant gene programmes may intersect stress-buffering redox context; direct ADHD stress-outcome evidence remains limited.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Mocchegiani & Malavolta (2019)",
+            "citation_key": "mocchegiani_role_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low"
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Sulforaphane remains the existing Regulation relationship and the sprout SOP remains. The broccoli material/preparation join concern is flagged separately; it does not remove or downgrade the PM input.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS3-FM2-PM3",
+        "atom_id": "PM3-DIT-1",
+        "input": "Sulforaphane",
+        "section_presentations": [
+          {
+            "atom_id": "PM3-DIT-1",
+            "label": "Sulforaphane",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM3-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_mode": "state-regulation",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "modulation-demonstrated",
+          "permitted_wording": "Sulforaphane is a Direct Regulatory Modulator of KEAP1–Nrf2. Food-derived exposure increased Nrf2-associated gene expression in human nasal cells under the tested preparation; brain engagement and ADHD benefit are not established.",
+          "evidence_limitation": "Preparation-, tissue- and population-specific target engagement; no ordinary-serving efficacy, essentiality or brain/ADHD benefit claim."
+        },
+        "record_preserved": true,
+        "source_sha256": "d3a1c8d0eb31367068a175e5f0e637b96d731620d0ae8e5e969936fa4c11275e",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [
+      {
+        "atom_id": "PM3-SOP-1",
+        "food_strategy_scope": "food-preparation",
+        "food_strategy_id": "food-strategy-bec27b284d44",
+        "optimisation_category": "food_prep",
+        "input": "Myrosinase-completed broccoli sprout homogenate",
+        "presentation_label": "Myrosinase-completed broccoli sprout homogenate",
+        "input_type": "preparation characteristic",
+        "biological_role": "Three daily doses of broccoli sprouts, blended with water and daikon sprouts and held at 37°C so myrosinase could finish forming sulforaphane, increased phase II enzyme RNA in nasal cells of healthy adults. The authors read that shared pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM3-F2"
+          ],
+          "citation_keys": [
+            "riedl_sulforaphane_airway_2009",
+            "wise_sulforaphane_copd_2016"
+          ]
+        },
+        "evidence_limitation": "This is three days of that homogenate in healthy adults and nasal enzyme RNA, not brain Nrf2, an ordinary broccoli serving, or the four-week sprout-extract capsules that did not raise lung target-gene expression in COPD.",
+        "claim_ceiling": "modulation-demonstrated"
+      }
+    ],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 2,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "b082d512988588467df4856c11ee87f752e809a04f8995d7d6a015777334de68",
+    "original_counts": {
+      "dietary_input_traceability": 1,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 1,
+      "dietary_lever_presentations": 1,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 1,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 8,
+      "phenome_relationships": 3,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [
+    {
+      "id": "PRES-20261023-NRF2-PREP",
+      "pm": "BRS3-FM2-PM3",
+      "record": "docs/foods/broccoli.md#substance_relationships/Sulforaphane",
+      "concern": "The inherited raw preparation join differs from the described cooked/sous-vide/mustard material context. This concerns one food exposure, not the PM admission.",
+      "proposal": "Independently reconcile material, preparation and measurement context before interpreting that exposure. No canonical edge repair or PM downgrade in this run.",
+      "sources": [
+        "system/rapid-stage2ab-2026-10-23/adjudications.json",
+        "review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json"
+      ],
+      "status": "open-material-review; existing record preserved"
+    }
+  ],
+  "proposed_changes_requiring_approval": [
+    {
+      "id": "PRES-20261023-NRF2-PREP",
+      "proposal": "Independently reconcile material, preparation and measurement context before interpreting that exposure. No canonical edge repair or PM downgrade in this run."
+    }
+  ],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

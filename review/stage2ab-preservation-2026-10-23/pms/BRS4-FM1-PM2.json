@@ -1,0 +1,576 @@
+{
+  "pm_id": "BRS4-FM1-PM2",
+  "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+  "mission": "Maintain NAD⁺ availability so redox reactions and mitochondrial signalling stay adequately powered.",
+  "stage2a": {
+    "operation": "NAD supply is distinct from direct ETC electron transfer. Tryptophan route remains a conditional historical pathway but is not additionally abstracted without resolving tissue-specific contribution.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM2-F1",
+        "proposition": "Major pathways that maintain the mammalian NAD⁺ pool are de novo synthesis from tryptophan, the Preiss–Handler route from nicotinic acid, and salvage of nicotinamide. Most cells outside the liver depend on salvage. These are not the only precursor entry routes.",
+        "existing_source_assessments": [
+          {
+            "label": "Covarrubias et al. (2021)",
+            "citation_key": "covarrubias_nad_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "NAD⁺ is made from tryptophan, from nicotinic acid, and by salvage of nicotinamide, with salvage as the main route outside the liver.",
+            "assessment": {
+              "study": "Review of NAD⁺ biosynthesis and of NAD⁺-dependent enzymes in energy metabolism and ageing.",
+              "population": "No new human feeding cohort. Review of biochemical and organism studies.",
+              "result": "Three biosynthetic routes are distinguished. Nicotinamide salvage supplies most NAD⁺ outside the liver. The contribution of tryptophan is not established.",
+              "effect_magnitude": "No ordinary-diet effect size.",
+              "evidence_summary": "Defines major pathways that maintain the NAD⁺ pool, not every precursor entry.",
+              "limitations": "A review does not test meals, adequate versus extra intake, or cognitive outcomes."
+            },
+            "canonical_reference": {
+              "author_year": "Covarrubias et al. (2021)",
+              "number": 1,
+              "anchor": "#pm-ref-1"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews B vitamins among cofactors linked to energy metabolism and fatigue.",
+            "why_excluded": "It does not define the NAD⁺ biosynthetic enzymes or measure NAD⁺.",
+            "canonical_reference": {
+              "author_year": "Tardy et al. (2020)",
+              "number": 9,
+              "anchor": "#pm-ref-9"
+            }
+          },
+          {
+            "label": "Kyriazis et al. (2022)",
+            "citation_key": "kyriazis_impact_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews how several diet patterns relate to mitochondrial function, biogenesis and turnover.",
+            "why_excluded": "It does not establish the NAD⁺ biosynthetic routes or a change in NAD⁺ availability.",
+            "canonical_reference": {
+              "author_year": "Kyriazis et al. (2022)",
+              "number": 10,
+              "anchor": "#pm-ref-10"
+            }
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F2",
+        "proposition": "NAD⁺ is a substrate of non-redox enzymes, including sirtuins, CD38 and poly(ADP-ribose) polymerases, as well as a hydride acceptor in energy metabolism.",
+        "existing_source_assessments": [
+          {
+            "label": "Covarrubias et al. (2021)",
+            "citation_key": "covarrubias_nad_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Sirtuins, CD38 and poly(ADP-ribose) polymerases consume NAD⁺ in addition to its use as a redox cofactor.",
+            "assessment": {
+              "study": "Review of NAD⁺ metabolism, including non-redox consumers of the cofactor.",
+              "population": "No new human cohort.",
+              "result": "NAD⁺ is required by sirtuins, CD38 and poly(ADP-ribose) polymerases. Ageing-related decline and the benefit of restoring NAD⁺ in people are left unresolved by the review.",
+              "effect_magnitude": "No human intake effect size.",
+              "evidence_summary": "Establishes enzymatic consumption of NAD⁺.",
+              "limitations": "Does not test diet or cognitive outcomes."
+            },
+            "canonical_reference": {
+              "author_year": "Covarrubias et al. (2021)",
+              "number": 1,
+              "anchor": "#pm-ref-1"
+            }
+          },
+          {
+            "label": "Chang and Guarente (2014)",
+            "citation_key": "chang_sirt1_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#chang_sirt1_2014",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "SIRT1 uses NAD⁺ as the cofactor for protein deacetylation linked to metabolic regulation.",
+            "assessment": {
+              "study": "Review of SIRT1 and other sirtuins in metabolism.",
+              "population": "No new human feeding cohort.",
+              "result": "Sirtuins are described as NAD⁺-dependent deacylases that connect metabolic state to protein regulation.",
+              "effect_magnitude": "No dietary effect size.",
+              "evidence_summary": "Supports sirtuins as consumers of NAD⁺.",
+              "limitations": "A review of enzyme biology is not evidence that dietary niacin changes human cognition."
+            },
+            "canonical_reference": {
+              "author_year": "Chang and Guarente (2014)",
+              "number": 3,
+              "anchor": "#pm-ref-3"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F3",
+        "proposition": "Circadian clock factors control NAMPT-mediated NAD⁺ biosynthesis in mice and cells, so NAD⁺ availability oscillates across the day in those systems.",
+        "existing_source_assessments": [
+          {
+            "label": "Ramsey et al. (2009)",
+            "citation_key": "ramsey_circadian_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#ramsey_circadian_2009",
+            "data_level": "Animal Data",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "The circadian clock controls NAMPT-mediated NAD⁺ biosynthesis and NAD⁺ oscillates across the day.",
+            "assessment": {
+              "study": "Mouse and cell experiments on clock control of NAMPT and NAD⁺.",
+              "population": "Mice and cultured cells. No human sleep cohort.",
+              "result": "Clock factors drive Nampt, and NAD⁺ levels oscillate with that control.",
+              "effect_magnitude": "A daily oscillation in the model systems. No human effect size.",
+              "evidence_summary": "Links the clock to nicotinamide salvage in mice.",
+              "limitations": "Not a test of human sleep timing or dietary niacin."
+            },
+            "canonical_reference": {
+              "author_year": "Ramsey et al. (2009)",
+              "number": 4,
+              "anchor": "#pm-ref-4"
+            }
+          },
+          {
+            "label": "Nakahata et al. (2008)",
+            "citation_key": "nakahata_clock_2009",
+            "href": "/docs/papers/BRAIN-Diet-References#nakahata_clock_2009",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "SIRT1, which uses NAD⁺, modulates CLOCK-mediated circadian control.",
+            "assessment": {
+              "study": "Cell and mouse experiments on SIRT1, CLOCK and oscillating NAD⁺.",
+              "population": "Cultured cells and mice. No human participants.",
+              "result": "SIRT1 binds the clock machinery and NAD⁺ levels change across the day in the reported system.",
+              "effect_magnitude": "No human effect size.",
+              "evidence_summary": "Connects NAD⁺ consumption by SIRT1 to circadian control in the model.",
+              "limitations": "Does not test sleep schedules or niacin intake in people."
+            },
+            "canonical_reference": {
+              "author_year": "Nakahata et al. (2008)",
+              "number": 5,
+              "anchor": "#pm-ref-5"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Spiegel et al. (1999)",
+            "citation_key": "spiegel_impact_1999",
+            "href": "/docs/papers/BRAIN-Diet-References#spiegel_impact_1999",
+            "data_level": "Human Mechanistic",
+            "why_relevant": "The page had used this sleep-debt experiment as support for NAD⁺ synthesis.",
+            "why_excluded": "The study measured glucose tolerance and endocrine responses to sleep debt. It did not measure NAD⁺ or NAMPT.",
+            "canonical_reference": {
+              "author_year": "Spiegel et al. (1999)",
+              "number": 11,
+              "anchor": "#pm-ref-11"
+            }
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F4",
+        "proposition": "In adults with mitochondrial myopathy, escalating niacin to 750–1,000 mg/day increased blood NAD⁺ and restored muscle NAD⁺ to the matched-control level, without a cognitive endpoint.",
+        "existing_source_assessments": [
+          {
+            "label": "Pirinen et al. (2020)",
+            "citation_key": "pirinen_niacin_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "supplemental-formulation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Slow-release niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ in mitochondrial myopathy to the control level.",
+            "assessment": {
+              "study": "Open niacin supplementation in adults with mitochondrial myopathy and in matched controls.",
+              "population": "Five adults with adult-onset mitochondrial myopathy and matched controls. Two controls discontinued.",
+              "result": "Blood NAD⁺ rose by up to 8-fold. Muscle NAD⁺ in patients reached the control level. Muscle strength increased. Cognition was not tested.",
+              "effect_magnitude": "Up to an 8-fold rise in blood NAD⁺ at 750–1,000 mg/day.",
+              "evidence_summary": "Pharmacological niacin can rebuild a deficient NAD⁺ pool in this disease.",
+              "limitations": "Not an ordinary diet, not a randomised untreated comparison, and not a brain or attention outcome."
+            },
+            "canonical_reference": {
+              "author_year": "Pirinen et al. (2020)",
+              "number": 2,
+              "anchor": "#pm-ref-2"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F5",
+        "proposition": "Aerobic and resistance training increased skeletal-muscle NAMPT protein in young and older adults, without a reported change in NAD⁺ concentration.",
+        "existing_source_assessments": [
+          {
+            "label": "de Guia et al. (2019)",
+            "citation_key": "de_guia_nad_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Aerobic and resistance training increased skeletal-muscle NAMPT protein in young and older adults.",
+            "assessment": {
+              "study": "Twelve-week aerobic and resistance training, with NAMPT and related enzymes measured in muscle biopsies.",
+              "population": "Adults aged 35 or under and adults aged 55 or over. A separate group provided abdominal fat biopsies.",
+              "result": "Muscle NAMPT rose after both training modes. Other salvage enzymes in muscle did not. Fat NAMPT did not change after interval training.",
+              "effect_magnitude": "About 12–28% after aerobic training and about 25–30% after resistance training, larger in the older groups.",
+              "evidence_summary": "Training increases the amount of the rate-limiting salvage enzyme in human muscle.",
+              "limitations": "NAMPT protein is not NAD⁺ concentration and not a cognitive endpoint."
+            },
+            "canonical_reference": {
+              "author_year": "de Guia et al. (2019)",
+              "number": 6,
+              "anchor": "#pm-ref-6"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F6",
+        "proposition": "No assessed study measured NAD⁺ availability against cognitive energy. The ADHD cybrid experiment measured respiration without an NAD⁺ or cognitive-energy endpoint.",
+        "existing_source_assessments": [
+          {
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "ADHD cybrids respired less. NAD⁺ and cognitive energy were not measured.",
+            "assessment": {
+              "study": "Cybrid model using platelet mitochondria from boys with ADHD.",
+              "population": "Three boys with ADHD, aged 10 and 13. No dietary arm.",
+              "result": "Lower respiration and related mitochondrial changes in the cybrids. No NAD⁺ assay and no cognitive-energy test.",
+              "effect_magnitude": "No NAD⁺ effect size.",
+              "evidence_summary": "The study does not test this pool.",
+              "limitations": "A respiration result cannot be read as an NAD⁺ or cognitive-energy result."
+            },
+            "canonical_reference": {
+              "author_year": "Verma et al. (2016)",
+              "number": 7,
+              "anchor": "#pm-ref-7"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Öğütlü et al. (2022)",
+            "citation_key": "ogutlu_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+            "data_level": "Human Study",
+            "why_relevant": "Reviews mitochondrial findings in ADHD, which the page had tied to NAD⁺.",
+            "why_excluded": "The review does not measure NAD⁺ or cognitive energy.",
+            "canonical_reference": {
+              "author_year": "Öğütlü et al. (2022)",
+              "number": 8,
+              "anchor": "#pm-ref-8"
+            }
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM2-F7",
+        "proposition": "No assessed study measured NAD⁺ salvage or NAD⁺ availability against recovery capacity.",
+        "existing_source_assessments": [
+          {
+            "label": "Öğütlü et al. (2022)",
+            "citation_key": "ogutlu_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+            "data_level": "Human Study",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "The review summarises ADHD mitochondrial biomarkers and does not measure NAD⁺ or recovery.",
+            "assessment": {
+              "study": "Narrative review of mitochondrial findings in ADHD.",
+              "population": "No new participants.",
+              "result": "No NAD⁺ measurement and no recovery endpoint.",
+              "effect_magnitude": "No NAD⁺ effect size.",
+              "evidence_summary": "Does not test this phenome relationship.",
+              "limitations": "A review of other mitochondrial markers is not an NAD⁺ recovery study."
+            },
+            "canonical_reference": {
+              "author_year": "Öğütlü et al. (2022)",
+              "number": 8,
+              "anchor": "#pm-ref-8"
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "NAM salvage, nicotinic-acid synthesis, tryptophan contribution, circadian regulation, exercise NAMPT and clinical endpoints remain separate propositions. Pharmacological niacin in myopathy does not establish ordinary-food responsiveness.",
+    "source_to_claim_records": [
+      {
+        "id": "nad-review",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7963035/",
+        "kind": "secondary-review",
+        "proposition": "Existing NAD review distinguishes NAM salvage, nicotinic-acid and tryptophan routes.",
+        "limitation": "Not primary replication; tryptophan contribution and ordinary-diet responsiveness are uncertain.",
+        "retrieval": "Existing full canonical assessment; publication accessible for review context.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "nad-niacin",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+        "kind": "primary-human-intervention",
+        "proposition": "Niacin increased blood/muscle NAD in a mitochondrial-myopathy context.",
+        "limitation": "Open study and pharmacological exposure, not ordinary-food or brain efficacy; distinguish original article from its erratum.",
+        "retrieval": "Primary original abstract; DOI and erratum identity checked.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Covarrubias et al. (2021) — NAD⁺ metabolism and its roles in cellular processes during ageing](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021)",
+      "[Pirinen et al. (2020) — Niacin and Systemic NAD⁺ Deficiency in Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)",
+      "[Chang and Guarente (2014) — SIRT1 and Sirtuins in Metabolism](/docs/papers/BRAIN-Diet-References#chang_sirt1_2014)",
+      "[Ramsey et al. (2009) — Circadian NAD⁺ Biosynthesis via NAMPT](/docs/papers/BRAIN-Diet-References#ramsey_circadian_2009)",
+      "[Nakahata et al. (2008) — CLOCK–SIRT1 Circadian NAD⁺ Control](/docs/papers/BRAIN-Diet-References#nakahata_clock_2009)",
+      "[de Guia et al. (2019) — Exercise Training and NAD⁺ Salvage Capacity](/docs/papers/BRAIN-Diet-References#de_guia_nad_2019)",
+      "[Verma et al. (2016) — Attention Deficit-Hyperactivity Disorder Suffers from Mitochondrial Dysfunction](/docs/papers/BRAIN-Diet-References#verma_attention_2016)",
+      "[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)",
+      "[Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)",
+      "[Kyriazis et al. (2022) — Diet Effects on Mitochondrial Physiology](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)",
+      "[Spiegel et al. (1999) — Sleep Debt and Metabolic Function](/docs/papers/BRAIN-Diet-References#spiegel_impact_1999)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "evidence_confidence": "low-medium",
+        "rationale": "Cybrid cells carrying platelet mitochondria from three boys with ADHD respired less, but NAD⁺ was not measured {{cite:verma_attention_2016}}. A review of ADHD mitochondrial papers does not add an NAD⁺ measurement {{cite:ogutlu_mitochondrial_2023}}.",
+        "scientific_findings": [
+          "PM2-F1",
+          "PM2-F6"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Verma et al. (2016)",
+            "citation_key": "verma_attention_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016",
+            "data_level": "Human Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Öğütlü et al. (2022)",
+            "citation_key": "ogutlu_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+            "data_level": "Human Study"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "relationship_type": "indirect",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "evidence_confidence": "low",
+        "rationale": "The ADHD mitochondrial review discusses mitochondrial strain. It does not measure recovery, and it does not measure NAD⁺ {{cite:ogutlu_mitochondrial_2023}}.",
+        "scientific_findings": [
+          "PM2-F7"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Öğütlü et al. (2022)",
+            "citation_key": "ogutlu_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023",
+            "data_level": "Human Study"
+          }
+        ]
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Preserve nicotinamide, nicotinic acid and tryptophan admissions plus the existing exercise record. Form-specific chicken/chickpea assay proposals retain acid-extraction and native-free-vitamer limits; total niacin is not relabelled as either form.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS4-FM1-PM2",
+        "atom_id": "PM2-DIT-1",
+        "input": "Nicotinamide (a form of vitamin B3)",
+        "section_presentations": [
+          {
+            "atom_id": "PM2-DIT-1",
+            "label": "Nicotinamide (a form of vitamin B3)",
+            "short_descriptor": "Vitamin B3 form",
+            "presentation_section": "3.1.1",
+            "reader_description": "Nicotinamide is the form cells recycle when they rebuild NAD⁺.",
+            "description_finding_id": "PM2-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM2-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Nicotinamide is recycled toward NAD⁺. Eating more once intake is adequate is not shown to raise the pool.",
+          "evidence_limitation": "The review identifies the salvage substrate. It does not show that eating more nicotinamide, once intake is adequate, raises NAD⁺. The myopathy niacin study used nicotinic acid at pharmacological doses."
+        },
+        "record_preserved": true,
+        "source_sha256": "71803afcb87d5eaa114e78fe571b39e0d519d7eb19f33ffbbaa576d41cb35af8",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM2",
+        "atom_id": "PM2-DIT-2",
+        "input": "Nicotinic acid (a form of vitamin B3)",
+        "section_presentations": [
+          {
+            "atom_id": "PM2-DIT-2",
+            "label": "Nicotinic acid (a form of vitamin B3)",
+            "short_descriptor": "Vitamin B3 form",
+            "presentation_section": "3.1.1",
+            "reader_description": "Nicotinic acid is a vitamin form that enters a separate route to NAD⁺.",
+            "description_finding_id": "PM2-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM2-DIT-2",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Nicotinic acid enters the route that makes NAD⁺. The high-dose myopathy result is not evidence for ordinary meals.",
+          "evidence_limitation": "In five adults with mitochondrial myopathy, niacin at 750–1,000 mg/day raised blood NAD⁺ and brought muscle NAD⁺ to the control level. That is medical dosing in a deficiency disease, not a result for adequate everyday intake, and attention was not measured."
+        },
+        "record_preserved": true,
+        "source_sha256": "977bdc0bcc508c7fb50f4fdf57ea0bdbf8f951a19efa89f73821060a15bd0c21",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS4-FM1-PM2",
+        "atom_id": "PM2-DIT-3",
+        "input": "Tryptophan",
+        "section_presentations": [
+          {
+            "atom_id": "PM2-DIT-3",
+            "label": "Tryptophan",
+            "short_descriptor": "Essential amino acid",
+            "presentation_section": "3.1.1",
+            "reader_description": "The liver can turn tryptophan into nicotinamide, which other cells then recycle into NAD⁺.",
+            "description_finding_id": "PM2-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM2-DIT-3",
+          "requirement_classification": "derived",
+          "derived_target": "Nicotinamide (a form of vitamin B3)",
+          "derived_target_atom_id": "PM2-DIT-1",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "precursor-mediated",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Tryptophan can supply nicotinamide for NAD⁺ salvage. Eating more protein is not shown to raise NAD⁺.",
+          "evidence_limitation": "Most cells outside the liver do not run the full route. The review does not establish what share of the NAD⁺ pool comes from tryptophan, and eating more protein is not shown to raise NAD⁺."
+        },
+        "record_preserved": true,
+        "source_sha256": "be5ac4a0ac3dae575b15d76e1344993f6c8c2e5a5c821de8a708b298db56ec5d",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [
+      {
+        "atom_id": "PM2-LP-1",
+        "dietary_input": false,
+        "dietary_input_note": "Lifestyle practice; no dietary input relationship is admitted for this record.",
+        "input": "Aerobic or resistance training",
+        "presentation_label": "Aerobic or resistance training",
+        "input_type": "lifestyle practice",
+        "biological_role": "Twelve weeks of aerobic or resistance training increased skeletal-muscle NAMPT protein, the enzyme that limits nicotinamide salvage, in young and older adults.",
+        "evidence_source": {
+          "finding_ids": [
+            "PM2-F5"
+          ],
+          "citation_keys": [
+            "de_guia_nad_2019"
+          ]
+        },
+        "evidence_limitation": "The study measured NAMPT protein, not NAD⁺ concentration. Adipose NAMPT did not change after high-intensity interval training. Attention and cognitive energy were not measured."
+      }
+    ],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 3,
+      "provisional": 4,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "60157c2f10d64aac14e83cd50d2518fafb9511b514b6931eba286428b7aea548",
+    "original_counts": {
+      "dietary_input_traceability": 3,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 3,
+      "dietary_lever_presentations": 3,
+      "key_constraints": 0,
+      "cofactors": 3,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 1,
+      "scientific_findings": 7,
+      "references": 11,
+      "phenome_relationships": 2,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

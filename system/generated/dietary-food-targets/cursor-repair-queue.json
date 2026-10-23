@@ -2,6 +2,34 @@
   "schema_version": 1,
   "items": [
     {
+      "source_entity": "beef",
+      "target_entity": "tryptophan",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "tryptophan"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains tryptophan (Cut/cooking unspecified; qualitative composition only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "nori",
       "target_entity": "iron",
       "relationship_type": "material-equivalence-review",
@@ -421,6 +449,93 @@
       "verification_status": "requires-material-equivalence-review"
     },
     {
+      "source_entity": "beef",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "glycine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pork",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pork",
+        "substance": "glycine"
+      },
+      "candidate_food": "Pork",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pork.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "lamb",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "lamb",
+        "substance": "glycine"
+      },
+      "candidate_food": "Lamb",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/lamb.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "vitamin-b9",
       "target_entity": "5-Methyltetrahydrofolate",
       "relationship_type": "precursor-conversion",
@@ -622,6 +737,118 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
+      "source_entity": "chicken",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicken",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "beef",
       "target_entity": "creatine",
       "relationship_type": "material-equivalence-review",
@@ -663,6 +890,62 @@
       "missing_edge": "Beef → Creatine [Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program); raw]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "l-carnitine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "l-carnitine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "evidence": [
+        {
+          "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2003.09.023"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM3-PM6"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains l-carnitine (Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "lamb",
+      "target_entity": "l-carnitine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "lamb",
+        "substance": "l-carnitine"
+      },
+      "candidate_food": "Lamb",
+      "material": "Lamb meat samples in the primary radioisotopic composition study",
+      "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+      "evidence": [
+        {
+          "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2003.09.023"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM3-PM6"
+      ],
+      "missing_edge": "docs/foods/lamb.md#substance_relationships: contains l-carnitine (Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
     },
     {
       "source_entity": "vitamin-b2",
@@ -721,6 +1004,62 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
+      "source_entity": "chicory-root",
+      "target_entity": "inulin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "inulin"
+      },
+      "candidate_food": "Chicory root",
+      "material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "evidence": [
+        {
+          "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+          "sources": [
+            "https://doi.org/10.1186/s43094-020-00087-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains inulin (Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "jerusalem-artichokes",
+      "target_entity": "inulin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "jerusalem-artichokes",
+        "substance": "inulin"
+      },
+      "candidate_food": "Jerusalem artichokes",
+      "material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "evidence": [
+        {
+          "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/jerusalem-artichokes.md#substance_relationships: contains inulin (Harvest maturity and storage-specific laboratory analysis; cooked products not tested)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "apples",
       "target_entity": "pectin",
       "relationship_type": "contains",
@@ -745,6 +1084,110 @@
         "BRS5-FM2-PM5"
       ],
       "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagic-acid"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagic-acid (Chilled commercial juice; not whole-fruit or other-product equivalence)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagitannins",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagitannins"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagitannins (Chilled commercial juice; not whole-fruit or other-product equivalence)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "linoleic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "linoleic-acid"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.11,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 110,
+            "high": 110,
+            "display": "0.11 g"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM3-PM7"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (null)",
       "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
       "verification_status": "pending-independent-verification"
     },
@@ -933,6 +1376,292 @@
       "missing_edge": "Nori → Magnesium [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
       "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
       "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "serine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Beef muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pork",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pork",
+        "substance": "serine"
+      },
+      "candidate_food": "Pork",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/pork.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Pork muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "lamb",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "lamb",
+        "substance": "serine"
+      },
+      "candidate_food": "Lamb",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/lamb.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Lamb muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "histidine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "histidine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains histidine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "isoleucine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "isoleucine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains isoleucine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "leucine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "leucine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains leucine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "lysine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "lysine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains lysine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "methionine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "methionine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains methionine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "phenylalanine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "phenylalanine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains phenylalanine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "threonine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "threonine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains threonine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "valine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "valine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains valine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
     }
   ]
 }

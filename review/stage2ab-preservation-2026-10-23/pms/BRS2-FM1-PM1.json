@@ -1,0 +1,562 @@
+{
+  "pm_id": "BRS2-FM1-PM1",
+  "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+  "mission": "Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.",
+  "stage2a": {
+    "operation": "MTR remethylation is distinct from BHMT, MAT and transsulfuration. Reuse the supported capacity pathways, not a claim that lower blood homocysteine measures brain remethylation.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM1-F1",
+        "proposition": "Cobalamin-dependent methionine synthase transfers the methyl group of 5-methyltetrahydrofolate to homocysteine, producing methionine and tetrahydrofolate, and uses methylcobalamin as its cofactor. Betaine-dependent remethylation, methionine adenosyltransferase, transsulfuration and phosphatidylethanolamine methylation are separate reactions.",
+        "existing_source_assessments": [
+          {
+            "label": "Froese et al. (2019)",
+            "citation_key": "froese_vitamin_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+            "data_level": "Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Methionine synthase uses methylcobalamin to remethylate homocysteine with 5-methyltetrahydrofolate, producing methionine and tetrahydrofolate. Parallel and downstream reactions are named separately.",
+            "assessment": {
+              "study": "Narrative review of cobalamin absorption, intracellular cofactor processing, folate-mediated one-carbon metabolism and methionine-cycle regulation.",
+              "population": "No new participants. The review synthesises human pathway biochemistry and inherited disorders of cobalamin and folate metabolism.",
+              "result": "Methionine synthase (MTR, EC 2.1.1.13) catalyses homocysteine plus 5-methyltetrahydrofolate to methionine plus tetrahydrofolate and requires methylcobalamin. Methylenetetrahydrofolate reductase produces 5-methyltetrahydrofolate. Betaine-homocysteine methyltransferase is an alternative remethylation enzyme, mainly in liver and kidney. Methionine adenosyltransferase converts methionine and ATP to SAMe. Cystathionine beta-synthase combines homocysteine with serine to start transsulfuration. Dietary folic acid is reduced to tetrahydrofolate by dihydrofolate reductase, and dietary cobalamin is processed to methylcobalamin on the synthase.",
+              "effect_magnitude": "No new numeric effect size. The result is reaction identity and pathway separation.",
+              "evidence_summary": "Direct statement of the human methionine synthase reaction, its methylcobalamin cofactor, the folate route to its substrate, and the neighbouring reactions this PM does not include.",
+              "limitations": "A review does not measure tissue remethylation flux, ordinary-diet dose response, or a cognitive or attention outcome."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Aragão et al. (2024)",
+            "citation_key": "aragao_revitalising_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024",
+            "data_level": "Mechanistic",
+            "why_relevant": "Riboflavin is often discussed beside folate-cycle enzymes, so this review was checked against the synthase reaction.",
+            "why_excluded": "Its abstract describes general riboflavin physiology. It does not state the methionine synthase reaction, methylcobalamin dependence, or separation from betaine remethylation."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F2",
+        "proposition": "Flavin adenine dinucleotide derived from riboflavin is a cofactor of methylenetetrahydrofolate reductase and of methionine synthase reductase, not of the methionine synthase catalytic site, which uses methylcobalamin.",
+        "existing_source_assessments": [
+          {
+            "label": "García-Minguillán et al. (2014)",
+            "citation_key": "garcia_minguillan_riboflavin_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014",
+            "data_level": "Human Study",
+            "exposure_context": "dietary",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Riboflavin status modified MTHFR-linked differences in blood homocysteine. The synthase cofactor named in the paper is methylcobalamin, while FAD is assigned to MTHFR and to MTRR.",
+            "assessment": {
+              "study": "Cross-sectional analysis of whether fasting plasma total homocysteine associations with MTHFR 677C>T, MTRR 66A>G and MTRR 524C>T depend on riboflavin status, measured by the erythrocyte glutathione reductase activation coefficient.",
+              "population": "771 adults aged 18–75 years in Tarragona province, Spain, excluding B-vitamin users and pregnant or lactating women. Recruitment was in 1998–2002, before mandatory folic acid fortification of flour in that setting.",
+              "result": "The paper states that FAD is a cofactor of MTHFR, that MTRR binds flavin mononucleotide and FAD, and that methionine synthase uses methylcobalamin and is reactivated by MTRR. Among MTHFR 677T carriers with plasma folate below 14.7 nmol/L, blood homocysteine was 8.2% higher than in the 677CC genotype, and that difference was not seen when riboflavin status was optimal (interaction p = 0.048).",
+              "effect_magnitude": "8.2% higher blood homocysteine in the specified MTHFR contrast (p < 0.01), eliminated at optimal riboflavin status (interaction p = 0.048). No methionine-synthase activity or tissue-flux estimate is reported.",
+              "evidence_summary": "Separates the riboflavin-dependent enzymes (MTHFR and MTRR) from the methylcobalamin cofactor of methionine synthase, and shows a riboflavin-status interaction with an MTHFR variant on blood homocysteine.",
+              "limitations": "Observational genotype analysis. The endpoint is plasma homocysteine, not enzyme rate. Optimal riboflavin status did not identify riboflavin as a prosthetic group of methionine synthase."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Froese et al. (2019)",
+            "citation_key": "froese_vitamin_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#froese_vitamin_2019",
+            "data_level": "Mechanistic",
+            "why_relevant": "States that methionine synthase requires methylcobalamin and that methylenetetrahydrofolate reductase produces its folate substrate.",
+            "why_excluded": "It does not itself test riboflavin status or assign FAD to MTHFR or MTRR, so it is not the study that adjudicates the riboflavin split."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-IC1",
+        "proposition": "A reduction in blood homocysteine after folic acid or vitamin B12 does not measure tissue methionine-synthase flux.",
+        "existing_source_assessments": [
+          {
+            "label": "Collaboration (1998)",
+            "citation_key": "collaboration_lowering_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "supplemental-formulation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Folic acid lowered blood homocysteine, vitamin B12 added a further reduction, and vitamin B6 did not. The endpoint was blood concentration, not tissue enzyme flux.",
+            "assessment": {
+              "study": "Meta-analysis of randomised trials of folic-acid-based supplements, using individual data and multivariate regression to separate folic acid dose from added vitamin B12 or vitamin B6.",
+              "population": "1114 people in 12 trials. Results were standardised to pretreatment blood homocysteine of 12 µmol/L and blood folate of 12 nmol/L, described as approximate Western-population averages.",
+              "result": "After that standardisation, dietary folic acid reduced blood homocysteine by 25% (95% confidence interval 23% to 28%). Effects were similar from 0.5 to 5 mg folic acid daily. Vitamin B12 (mean 0.5 mg daily) produced an additional 7% reduction (3% to 10%). Vitamin B6 (mean 16.5 mg daily) had no significant additional effect. Reductions were larger at higher pretreatment homocysteine and lower pretreatment folate.",
+              "effect_magnitude": "25% (23% to 28%) blood homocysteine reduction with folic acid; additional 7% (3% to 10%) with vitamin B12; no significant added effect of vitamin B6.",
+              "evidence_summary": "Direct human evidence that folic acid and vitamin B12 lower a circulating homocysteine marker, with the folate effect depending on starting folate and homocysteine.",
+              "limitations": "Supplement doses, blood concentration only, no tissue remethylation-flux measurement, and no clinical-outcome test in this meta-analysis."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Tao Huang et al. (2015)",
+            "citation_key": "tao_huang_effect_2015",
+            "href": "/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015",
+            "data_level": "Human Mechanistic",
+            "why_relevant": "A randomised comparison also reported lower plasma homocysteine after vitamin B12.",
+            "why_excluded": "Thirty-eight participants were assigned to vitamin B12, fish oil, or both, and plasma homocysteine fell by 22%, 19% and 39%. Fish oil is not a methionine-synthase substrate, and plasma homocysteine is still not tissue flux."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F3",
+        "proposition": "Attached ADHD biomarker and MTHFR-genotype studies do not establish that folate- and B12-dependent methionine synthase activity modulates Focus / Attention Stability.",
+        "existing_source_assessments": [
+          {
+            "label": "Razavinia et al. (2024)",
+            "citation_key": "razavinia_vitamins_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024",
+            "data_level": "Human Study",
+            "exposure_context": "dietary",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Children with ADHD had lower vitamin B9 and vitamin B12 than comparison children. Methionine synthase activity was not measured.",
+            "assessment": {
+              "study": "Systematic review and meta-analysis of case-control or cross-sectional studies of plasma vitamins B9 and B12 in children with ADHD, searched through June 2023.",
+              "population": "Six studies, 982 children aged about 6–12 years (204 girls and 744 boys; mean age 8.86 ± 2.03 years).",
+              "result": "Vitamin B9 differed between children with and without ADHD (standardised mean difference −0.80, 95% confidence interval −1.55 to −0.04). Vitamin B12 was lower in ADHD (standardised mean difference −0.29, 95% confidence interval −0.42 to −0.16). After sensitivity analysis the B12 difference remained (standardised mean difference −0.19, 95% confidence interval −0.34 to −0.04).",
+              "effect_magnitude": "Vitamin B9 standardised mean difference −0.80 (−1.55 to −0.04). Vitamin B12 standardised mean difference −0.29 (−0.42 to −0.16), and −0.19 (−0.34 to −0.04) after sensitivity analysis. Heterogeneity for the B12 analysis was I² = 93% before that sensitivity analysis, then 21%.",
+              "evidence_summary": "Observational evidence of lower circulating folate and vitamin B12 in children with ADHD, without an enzyme or treatment measurement.",
+              "limitations": "Blood levels only, high heterogeneity before sensitivity analysis, no methionine-synthase assay and no supplementation outcome."
+            }
+          },
+          {
+            "label": "Lukovac et al. (2024)",
+            "citation_key": "lukovac_serum_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024",
+            "data_level": "Human Study",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Boys with ADHD had higher homocysteine and lower vitamin B12 than age-matched boys. This was a diagnostic-marker comparison, not a synthase-flux or treatment study.",
+            "assessment": {
+              "study": "Cross-sectional serum comparison of homocysteine, vitamin B12, vitamin D, ferritin and iron, with behavioural and cognitive assessments.",
+              "population": "133 boys aged 6.5–12.5 years, 67 with DSM-V ADHD and 66 age-matched boys without ADHD.",
+              "result": "Homocysteine was higher and vitamin B12 was lower in the ADHD group. Multiple logistic regression identified homocysteine as a potential prognostic indicator for ADHD.",
+              "effect_magnitude": "The abstract reports statistically significant differences and does not give means, confidence intervals, or an enzyme-activity effect.",
+              "evidence_summary": "A single-sex paediatric case-control difference in two blood markers associated with one-carbon metabolism.",
+              "limitations": "Boys only, no folate measurement in the reported panel, no methionine-synthase assay, and no intervention. A prognostic association is not a causal test of this reaction."
+            }
+          },
+          {
+            "label": "Wang et al. (2019)",
+            "citation_key": "wang_dietary_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+            "data_level": "Human Study",
+            "exposure_context": "dietary",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Children with ADHD had lower serum folate and vitamin B12 and a dietary pattern poorer in vegetables, fruit and protein-rich foods. The path model links diet, nutrient markers and ADHD; it does not measure methionine synthase.",
+            "assessment": {
+              "study": "Case-control study of food-frequency intake and fasting nutritional biochemistry, with a structural equation model linking diet, markers and ADHD.",
+              "population": "216 children with ADHD and 216 age-, height- and sex-matched controls from 31 elementary schools in Taiwan.",
+              "result": "Compared with controls, children with ADHD had lower serum vitamin B12, folate, vitamin B6, ferritin and monounsaturated fatty acids, and higher saturated fatty acids, n-6/n-3 ratio and inorganic phosphorus. They reported more nutrient-poor, high-sugar and high-fat foods and less vegetable, fruit and protein-rich food. The model treated poor nutritional biochemistry as a link between unhealthy diet and ADHD.",
+              "effect_magnitude": "The abstract reports significant group differences and does not give mean differences for folate or vitamin B12, or any synthase-flux estimate.",
+              "evidence_summary": "Human observational evidence that diet pattern and several blood nutrients, including folate and vitamin B12, differ by ADHD status.",
+              "limitations": "Cross-sectional path analysis cannot show that methionine synthase activity changed, or that correcting folate or vitamin B12 improves attention. Several non-B-vitamin markers differed as well."
+            }
+          },
+          {
+            "label": "Meng et al. (2022)",
+            "citation_key": "meng_association_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#meng_association_2022",
+            "data_level": "Human Study",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "An MTHFR 1298A>C meta-analysis was associated with ADHD occurrence. The paper does not measure methionine synthase.",
+            "assessment": {
+              "study": "Random-effects meta-analysis of case-control studies of MTHFR 677C>T and 1298A>C in ADHD, bipolar disorder and schizophrenia.",
+              "population": "Five ADHD studies (434 cases and 670 controls), plus separate bipolar and schizophrenia study sets. Cases and controls were defined by the included psychiatric studies, not by a shared remethylation assay.",
+              "result": "MTHFR 677C>T was associated with bipolar disorder and schizophrenia. MTHFR 1298A>C was related to ADHD and bipolar disorder. Sensitivity analyses were described as stable. No methionine-synthase genotype or enzyme activity was analysed.",
+              "effect_magnitude": "Associations were summarised as odds ratios. The abstract does not give the ADHD odds ratio, and it reports no remethylation-flux effect.",
+              "evidence_summary": "Genetic association of an upstream folate-cycle enzyme variant with ADHD occurrence, not a test of methionine synthase capacity.",
+              "limitations": "MTHFR is upstream of 5-methyltetrahydrofolate supply. Genotype association does not establish enzyme flux, dietary response, or an attention benefit from folate or vitamin B12."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F4",
+        "proposition": "B-vitamin effects on cognitive decline in mild cognitive impairment, including an interaction with omega-3 status, do not measure methionine synthase flux or establish that this reaction modulates Cognitive Clarity.",
+        "existing_source_assessments": [
+          {
+            "label": "Oulhaj et al. (2016)",
+            "citation_key": "oulhaj_omega-3_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016",
+            "data_level": "Human Outcome",
+            "exposure_context": "combination-formulation",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "B vitamins slowed cognitive decline in mild cognitive impairment only when baseline omega-3 status was higher. Methionine synthase flux was not measured.",
+            "assessment": {
+              "study": "Re-analysis of the VITACOG randomised trial testing whether baseline plasma omega-3 status interacted with B-vitamin treatment on cognitive and clinical scores.",
+              "population": "266 participants with mild cognitive impairment, aged 70 years or older, randomised to folic acid plus vitamins B6 and B12, or placebo, for 2 years.",
+              "result": "Final verbal delayed recall, global cognition and clinical dementia rating improved in the B-vitamin group as baseline omega-3 concentration increased, with little relation to omega-3 status in the placebo group. Among participants with good omega-3 status, 33% on B vitamins had a global clinical dementia rating above 0, compared with 59% on placebo. Docosahexaenoic acid, more than eicosapentaenoic acid, carried the interaction. When omega-3 status was low, B vitamins had no effect on cognitive decline.",
+              "effect_magnitude": "33% versus 59% with global clinical dementia rating above 0 in the good omega-3 stratum. No methionine-synthase activity or tissue-flux estimate is reported.",
+              "evidence_summary": "Human outcome evidence that a combined B-vitamin intervention interacts with omega-3 status on cognitive decline in mild cognitive impairment.",
+              "limitations": "Not a test of methionine synthase alone. Vitamin B6, which acts in transsulfuration rather than this reaction, was part of the intervention. The result is conditional on omega-3 status and does not establish a general cognitive-clarity benefit."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Collaboration (1998)",
+            "citation_key": "collaboration_lowering_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998",
+            "data_level": "Human Mechanistic",
+            "why_relevant": "Shows that folic acid and vitamin B12 lower blood homocysteine, the marker often used to interpret B-vitamin cognitive trials.",
+            "why_excluded": "The meta-analysis measured blood homocysteine, not cognitive clarity and not tissue methionine-synthase flux. That marker limit is assessed in PM1-IC1."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM1-F6",
+        "proposition": "A small human tracer study measured increased whole-body remethylation and transmethylation after three weeks of folic acid; concentration changes did not establish those rates.",
+        "existing_source_assessments": [
+          {
+            "label": "Stam et al. (2005)",
+            "citation_key": "stam_folic_acid_methyl_flux_2005",
+            "href": "/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005",
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.",
+            "assessment": {
+              "study": "Three-week before/after folic acid with stable-isotope methionine kinetics",
+              "population": "12 healthy subjects; 5 mg/day folic acid",
+              "result": "Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.",
+              "effect_magnitude": "No general dietary efficacy or tissue-uniform effect is inferred.",
+              "evidence_summary": "Whole-body remethylation increased 59% and transmethylation 20%; concentrations did not track kinetic changes.",
+              "limitations": "Pharmacological folic acid, not ordinary food folate, a deprivation trial or isolated tissue/whole-pool effect. Evidence access: Primary abstract."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "The MTR reaction, upstream folate conversion and cobalamin processing are distinct from plasma homocysteine or tumour-cell effects. Keep the human tracer and clinical limitations already attached to all six Findings.",
+    "source_to_claim_records": [
+      {
+        "id": "mtr-capacity",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30693532/",
+        "kind": "secondary-review",
+        "proposition": "MTR uses methylcobalamin and 5-MTHF; dietary vitamin processing is separate from tissue flux.",
+        "limitation": "Review, not an independent intervention; homocysteine concentration is not remethylation flux.",
+        "retrieval": "Existing assessed review and refreshed primary publication abstract (review).",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "mtr-primary",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34799699/",
+        "kind": "primary-experiment",
+        "proposition": "Isotope tracing and MTR disruption support folate-dependent reaction function in tumour models.",
+        "limitation": "Tumour methionine contribution was minor; do not infer major brain methionine supply or clinical dietary response.",
+        "retrieval": "Primary abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)",
+      "[Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)",
+      "[Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)",
+      "[Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)",
+      "[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)",
+      "[Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)",
+      "[Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)",
+      "[Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)",
+      "[Froese et al. (2019) — Vitamin B12, Folate and Methionine Remethylation](/docs/papers/BRAIN-Diet-References#froese_vitamin_2019)",
+      "[García-Minguillán et al. (2014) — Riboflavin Status, MTHFR, MTRR and Homocysteine](/docs/papers/BRAIN-Diet-References#garcia_minguillan_riboflavin_2014)",
+      "[Stam et al. (2005) — Folic Acid and Whole-Body Methyl Flux](/docs/papers/BRAIN-Diet-References#stam_folic_acid_methyl_flux_2005)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "observational",
+        "evidence_confidence": "low-medium",
+        "rationale": "Children with ADHD have been reported to have lower folate and vitamin B12 than comparison groups, and one cohort of boys also had higher homocysteine {{cite:razavinia_vitamins_2024,lukovac_serum_2024,wang_dietary_2019}}. Those are observational blood and diet differences. They do not show that methionine synthase activity is lower, and they do not show that folate or vitamin B12 supplementation improves attention. An MTHFR polymorphism meta-analysis concerns a folate-cycle enzyme upstream of this reaction, not methionine synthase flux {{cite:meng_association_2022}}.",
+        "scientific_findings": [
+          "PM1-F1",
+          "PM1-IC1",
+          "PM1-F3"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Razavinia et al. (2024)",
+            "citation_key": "razavinia_vitamins_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024"
+          },
+          {
+            "index": 2,
+            "label": "Lukovac et al. (2024)",
+            "citation_key": "lukovac_serum_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024"
+          },
+          {
+            "index": 3,
+            "label": "Wang et al. (2019)",
+            "citation_key": "wang_dietary_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+            "data_level": "Human Study"
+          },
+          {
+            "index": 4,
+            "label": "Meng et al. (2022)",
+            "citation_key": "meng_association_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#meng_association_2022"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Cognitive Clarity",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "observational",
+        "evidence_confidence": "low",
+        "rationale": "Folic acid, with or without vitamin B12, lowers blood homocysteine {{cite:collaboration_lowering_1998}}. In older adults with mild cognitive impairment, B-vitamin treatment was associated with slower cognitive decline only when omega-3 status was higher {{cite:oulhaj_omega-3_2016}}. Blood homocysteine and that combined B-vitamin interaction do not measure methionine synthase flux, and they do not establish that this reaction itself changes cognitive clarity.",
+        "scientific_findings": [
+          "PM1-F1",
+          "PM1-IC1",
+          "PM1-F4"
+        ],
+        "references": [
+          {
+            "index": 1,
+            "label": "Collaboration (1998)",
+            "citation_key": "collaboration_lowering_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998"
+          },
+          {
+            "index": 2,
+            "label": "Oulhaj et al. (2016)",
+            "citation_key": "oulhaj_omega-3_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016"
+          },
+          {
+            "index": 3,
+            "label": "Lukovac et al. (2024)",
+            "citation_key": "lukovac_serum_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024"
+          }
+        ]
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Retain 5-MTHF, folate, methylcobalamin, B12 and homocysteine in their current categories. Total folate composition is not a form-specific 5-MTHF quantity; precursor and active-form records are not independent doses.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS2-FM1-PM1",
+        "atom_id": "PM1-DIT-1",
+        "input": "5-Methyltetrahydrofolate",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-1",
+            "label": "5-Methyltetrahydrofolate",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "5-Methyltetrahydrofolate is the direct methyl-donor substrate for methionine synthase. This does not establish that increasing intake increases tissue remethylation flux.",
+          "evidence_limitation": "Necessity of 5-methyltetrahydrofolate does not show that raising its intake increases tissue methionine-synthase flux."
+        },
+        "record_preserved": true,
+        "source_sha256": "b8016b823ae32ffdb0ad52b723648343c17d939442623d36dc077f4351ef92cd",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS2-FM1-PM1",
+        "atom_id": "PM1-DIT-2",
+        "input": "Vitamin B9 (folate)",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-2",
+            "label": "Vitamin B9 (folate)",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-2",
+          "requirement_classification": "derived",
+          "derived_target": "5-Methyltetrahydrofolate",
+          "derived_target_atom_id": "PM1-DIT-1",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "precursor-mediated",
+          "claim_ceiling": "dietary-provision",
+          "permitted_wording": "Folate provides 5-methyltetrahydrofolate after reduction and folate-cycle conversion. This provision relationship does not establish that more folate increases tissue methionine-synthase flux.",
+          "evidence_limitation": "This conversion pathway does not show that increasing folate intake increases tissue remethylation flux. Folic acid lowers blood homocysteine, which is a circulating marker."
+        },
+        "record_preserved": true,
+        "source_sha256": "e4cda6a7b222369e1115673d6250416347287c8ecf1ca80aa3dcd007687b247b",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS2-FM1-PM1",
+        "atom_id": "PM1-DIT-3",
+        "input": "Methylcobalamin",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-3",
+            "label": "Methylcobalamin",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": null,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "unresolved",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-3",
+          "requirement_classification": "direct",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "not-established",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Methylcobalamin is the cobalamin cofactor of methionine synthase. Diet supplies cobalamin forms that are processed to this cofactor; methylcobalamin itself is not an independent intake target.",
+          "evidence_limitation": "Cofactor necessity does not show that extra vitamin B12 increases tissue methionine-synthase flux when stores are already adequate."
+        },
+        "record_preserved": true,
+        "source_sha256": "bea1604af54d13601a1ae2da2bc1d819b0a86e5061ec8cef95db95d718f9426a",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS2-FM1-PM1",
+        "atom_id": "PM1-DIT-4",
+        "input": "Vitamin B12 (cobalamin)",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-4",
+            "label": "Vitamin B12 (cobalamin)",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-4",
+          "requirement_classification": "derived",
+          "derived_target": "Methylcobalamin",
+          "derived_target_atom_id": "PM1-DIT-3",
+          "relationship_mode": "capacity-requirement",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "precursor-mediated",
+          "claim_ceiling": "dietary-provision",
+          "permitted_wording": "Vitamin B12 provides the cobalamin that cells process to methylcobalamin. This does not establish that increasing vitamin B12 intake increases tissue remethylation flux.",
+          "evidence_limitation": "Provision of vitamin B12 does not show that increasing intake raises tissue remethylation flux. Added vitamin B12 further lowered blood homocysteine beyond folic acid in pooled trials, which remains a circulating marker."
+        },
+        "record_preserved": true,
+        "source_sha256": "a1529c33852ba0a0990dcd98f47993ec7c361c131506e7ba52d19e36795c71b4",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS2-FM1-PM1",
+        "atom_id": "PM1-DIT-5",
+        "input": "Homocysteine",
+        "section_presentations": [
+          {
+            "atom_id": "PM1-DIT-5",
+            "label": "Homocysteine",
+            "presentation_section": "3.1.2"
+          }
+        ],
+        "dietary_input": false,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": null,
+        "type_delivery_metadata": {
+          "atom_id": "PM1-DIT-5",
+          "relationship_layer": "biochemical-requirement",
+          "claim_ceiling": "biological-dependency",
+          "permitted_wording": "Homocysteine is the substrate methionine synthase remethylates. It is generated in the methionine cycle and is not a dietary requirement of this reaction.",
+          "evidence_limitation": "Homocysteine is produced inside the methionine cycle. It is not a dietary requirement of this reaction, and methionine, the product, is not a dietary input for it."
+        },
+        "record_preserved": true,
+        "source_sha256": "f6b506e89b93591d6db06b4357ccb5a07be82313e16291512fde06abd95535b0",
+        "rapid_manuscript_selected": false,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 52,
+      "provisional": 3,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "366f5fe35e0dc056b24ff1175dd61e97c6b5b6039b9c95f7b5dbfd4a93518730",
+    "original_counts": {
+      "dietary_input_traceability": 5,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 5,
+      "dietary_lever_presentations": 5,
+      "key_constraints": 0,
+      "cofactors": 1,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 6,
+      "references": 11,
+      "phenome_relationships": 2,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}
