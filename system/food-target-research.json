@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "purpose": "Composition research ledger only. Not canonical food ontology edges or PM scientific admissions.",
+  "targets": [
+    {
+      "food_id": "walnuts",
+      "food_title": "Walnuts",
+      "food_page": "/docs/foods/walnuts",
+      "substance_id": "ellagitannins",
+      "material": "Walnut kernels",
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2013.11.158"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred."
+    },
+    {
+      "food_id": "bananas",
+      "food_title": "Green bananas",
+      "food_page": "/docs/foods/bananas",
+      "substance_id": "resistant-starch",
+      "material": "Cavendish and plantain bananas",
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+        "sources": [
+          "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield."
+    },
+    {
+      "food_id": "potatoes",
+      "food_title": "Cooked-and-cooled potatoes",
+      "food_page": "/docs/foods/potatoes",
+      "substance_id": "resistant-starch",
+      "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "preparation": "Baked or boiled, then chilled to 4\u00b0C; distinguish reheated material",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "Resistant starch was measured by cooking method and service temperature.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger."
+    },
+    {
+      "food_id": "black-beans",
+      "food_title": "Cooked black beans",
+      "food_page": "/docs/foods/black-beans",
+      "substance_id": "resistant-starch",
+      "material": "Cooked black beans",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+        "sources": [
+          "https://doi.org/10.1016/j.nfs.2016.02.002"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+    },
+    {
+      "food_id": "chickpeas",
+      "food_title": "Cooked chickpeas",
+      "food_page": "/docs/foods/chickpeas",
+      "substance_id": "resistant-starch",
+      "material": "Cooked chickpeas",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+        "sources": [
+          "https://doi.org/10.1016/j.nfs.2016.02.002"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+    }
+  ]
+}

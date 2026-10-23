@@ -1,0 +1,1746 @@
+[
+  {
+    "pm": "BRS1-FM1-PM1",
+    "id": "BRS1-FM1-PM1::PM1-DIT-1",
+    "input": "Indispensable amino-acid supply",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "id": "BRS1-FM1-PM1::PM1-DIT-5",
+    "input": "Tryptophan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "id": "BRS1-FM1-PM2::PM2-DIT-3",
+    "input": "Meal carbohydrate-to-protein composition",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "id": "BRS1-FM1-PM3::PM3-DIT-1",
+    "input": "Iron",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "id": "BRS1-FM1-PM3::PM3-DIT-3",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "id": "BRS1-FM1-PM3::PM3-DIT-5",
+    "input": "Tyrosine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "id": "BRS1-FM1-PM4::PM4-DIT-1",
+    "input": "Iron",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "id": "BRS1-FM1-PM4::PM4-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "id": "BRS1-FM1-PM4::PM4-DIT-3",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "id": "BRS1-FM1-PM4::PM4-DIT-4",
+    "input": "Copper",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "id": "BRS1-FM1-PM4::PM4-DIT-5",
+    "input": "Vitamin C (ascorbate)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "id": "BRS1-FM1-PM5::PM5-DIT-1",
+    "input": "Tryptophan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "id": "BRS1-FM1-PM5::PM5-DIT-5",
+    "input": "Iron",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "id": "BRS1-FM1-PM5::PM5-DIT-3",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "id": "BRS1-FM1-PM5::PM5-DIT-4",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "id": "BRS1-FM2-PM6::PM6-DIT-1",
+    "input": "Choline",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "id": "BRS1-FM2-PM6::PM6-DIT-2",
+    "input": "Phosphatidylcholine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "id": "BRS1-FM3-PM7::PM7-DIT-1",
+    "input": "DHA",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM4-PM9",
+    "id": "BRS1-FM4-PM9::PM9-DIT-3",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "id": "BRS1-FM5-PM12::PM12-DIT-1",
+    "input": "Choline",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "id": "BRS1-FM5-PM12::PM12-DIT-2",
+    "input": "Uridine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "id": "BRS1-FM5-PM12::PM12-DIT-3",
+    "input": "Docosahexaenoic acid (DHA)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "id": "BRS2-FM1-PM1::PM1-DIT-1",
+    "input": "5-Methyltetrahydrofolate",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "id": "BRS2-FM1-PM1::PM1-DIT-2",
+    "input": "Vitamin B9 (folate)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "id": "BRS2-FM1-PM1::PM1-DIT-3",
+    "input": "Methylcobalamin",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "id": "BRS2-FM1-PM1::PM1-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "id": "BRS2-FM1-PM2::PM2-DIT-1",
+    "input": "Betaine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "research-supported-provisional",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "id": "BRS2-FM1-PM2::PM2-DIT-2",
+    "input": "Choline",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM3",
+    "id": "BRS2-FM1-PM3::PM3-DIT-1",
+    "input": "Methionine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-1",
+    "input": "Methionine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-2",
+    "input": "Dietary protein",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-3",
+    "input": "Vitamin B9 (folate)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-5",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "id": "BRS2-FM1-PM4::PM4-DIT-6",
+    "input": "Vitamin B2 (riboflavin)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM5",
+    "id": "BRS2-FM2-PM5::PM5-DIT-1",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM5",
+    "id": "BRS2-FM2-PM5::PM5-DIT-2",
+    "input": "Vitamin B6",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "id": "BRS2-FM2-PM6::PM6-DIT-1",
+    "input": "Cysteine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "id": "BRS2-FM2-PM6::PM6-DIT-2",
+    "input": "Glutamate",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "id": "BRS2-FM2-PM6::PM6-DIT-3",
+    "input": "Glycine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "id": "BRS2-FM2-PM6::PM6-DIT-9",
+    "input": "Methionine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "id": "BRS2-FM2-PM6::PM6-DIT-7",
+    "input": "N-acetylcysteine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "id": "BRS2-FM3-PM7::PM7-DIT-3",
+    "input": "Choline",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "id": "BRS2-FM3-PM7::PM7-DIT-4",
+    "input": "Phosphatidylcholine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "id": "BRS2-FM3-PM7::PM7-DIT-7",
+    "input": "Uridine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM3",
+    "id": "BRS3-FM2-PM3::PM3-DIT-1",
+    "input": "Sulforaphane",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM4",
+    "id": "BRS3-FM2-PM4::PM4-DIT-1",
+    "input": "Selenium",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM4",
+    "id": "BRS3-FM2-PM4::PM4-DIT-3",
+    "input": "Copper",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "id": "BRS3-FM2-PM5::PM5-DIT-1",
+    "input": "Vitamin E",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM6",
+    "id": "BRS3-FM2-PM6::PM6-DIT-1",
+    "input": "Vitamin C",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM2-PM6",
+    "id": "BRS3-FM2-PM6::PM6-DIT-2",
+    "input": "Vitamin E",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM3-PM8",
+    "id": "BRS3-FM3-PM8::PM8-DIT-1",
+    "input": "EPA",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS3-FM3-PM8",
+    "id": "BRS3-FM3-PM8::PM8-DIT-2",
+    "input": "DHA",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM1",
+    "id": "BRS4-FM1-PM1::PM1-DIT-1",
+    "input": "Iron",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM1",
+    "id": "BRS4-FM1-PM1::PM1-DIT-2",
+    "input": "Flavin mononucleotide (FMN)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM1",
+    "id": "BRS4-FM1-PM1::PM1-DIT-3",
+    "input": "Vitamin B2 (riboflavin)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "id": "BRS4-FM1-PM2::PM2-DIT-1",
+    "input": "Nicotinamide (a form of vitamin B3)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "id": "BRS4-FM1-PM2::PM2-DIT-2",
+    "input": "Nicotinic acid (a form of vitamin B3)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "id": "BRS4-FM1-PM2::PM2-DIT-3",
+    "input": "Tryptophan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "id": "BRS4-FM1-PM3::PM3-DIT-1",
+    "input": "Creatine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-1",
+    "input": "Butyrate",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-2",
+    "input": "Fermentable dietary fibre",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "unresolved",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-3",
+    "input": "Retinoic acid",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-4",
+    "input": "Vitamin A",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-5",
+    "input": "Zinc",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "id": "BRS5-FM1-PM1::PM1-DIT-6",
+    "input": "Glutamine",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "id": "BRS5-FM1-PM2::PM2-DIT-1",
+    "input": "Oligofructose",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "id": "BRS5-FM1-PM2::PM2-DIT-2",
+    "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "id": "BRS5-FM1-PM2::PM2-DIT-3",
+    "input": "Fish-oil-containing meal (tested comparison)",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "id": "BRS5-FM1-PM2::PM2-DIT-4",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "id": "BRS5-FM1-PM3::PM3-DIT-1",
+    "input": "Oligofructose-enriched inulin",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "id": "BRS5-FM1-PM3::PM3-DIT-2",
+    "input": "Bifidobacterium longum NCC2705",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "id": "BRS5-FM2-PM4::PM4-DIT-1",
+    "input": "Pea-fibre arabinan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "id": "BRS5-FM2-PM4::PM4-DIT-2",
+    "input": "Citrus pectin",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "id": "BRS5-FM2-PM4::PM4-DIT-3",
+    "input": "Resistant starch (RS2/RS3)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "research-supported-provisional",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "id": "BRS5-FM2-PM5::PM5-DIT-1",
+    "input": "Resistant potato starch",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "id": "BRS5-FM2-PM5::PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "id": "BRS5-FM2-PM5::PM5-DIT-3",
+    "input": "Pectin",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "id": "BRS5-FM2-PM6::PM6-DIT-1",
+    "input": "Ellagic acid",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "id": "BRS5-FM2-PM6::PM6-DIT-2",
+    "input": "Ellagitannins",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "unresolved",
+      "food": "supported"
+    },
+    "food_target_mapping": "research-supported-provisional",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "id": "BRS5-FM3-PM7::PM7-DIT-1",
+    "input": "Lactobacillus rhamnosus JB-1",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "id": "BRS5-FM3-PM7::PM7-DIT-2",
+    "input": "Glucose",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "id": "BRS5-FM3-PM8::PM8-DIT-1",
+    "input": "Tryptophan",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "id": "BRS5-FM3-PM8::PM8-DIT-2",
+    "input": "Apple pectin (studied preparation)",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "id": "BRS6-FM1-PM3::PM3-DIT-1",
+    "input": "Magnesium",
+    "eligibility": {
+      "eligible": true,
+      "state": "eligible-candidate"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "food_target_mapping": "verified",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "id": "BRS6-FM4-PM8::PM8-DIT-1",
+    "input": "Green Mediterranean dietary pattern",
+    "eligibility": {
+      "eligible": false,
+      "state": "ineligible",
+      "code": "section-input-type-ineligible"
+    },
+    "admission_basis": "historical-decision-pending-reconciliation",
+    "issues": [
+      "section-input-type-ineligible",
+      "scientific-assessment-missing"
+    ],
+    "ontology_connections": {
+      "identity": "unresolved",
+      "conversion": "not-applicable",
+      "food": "unresolved"
+    },
+    "food_target_mapping": "unresolved",
+    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
+  }
+]

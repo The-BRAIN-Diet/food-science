@@ -1,0 +1,3065 @@
+{
+  "schema_version": 1,
+  "qualification": "Historical admissions preserved; food delivery is not PM efficacy.",
+  "records": [
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Fermentable dietary fibre",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "unresolved",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "silva_role_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "butter",
+      "food_title": "Butter",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/butter.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Butter, without salt."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "egg-yolks",
+      "food_title": "Egg Yolks",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/egg-yolks.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Egg, yolk, raw, fresh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "ghee",
+      "food_title": "Ghee",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/ghee.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Butter oil, anhydrous."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "grass-fed-butter",
+      "food_title": "Grass-Fed Butter",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/grass-fed-butter.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA FoodData Central, Butter, without salt (FDC 173430)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Contains vitamin A; the generic butter record does not establish a grass-fed-specific amount."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "kale",
+      "food_title": "Kale",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/kale.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Kale, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "liver",
+      "food_title": "Liver",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/liver.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169451/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Beef, variety meats and by-products, liver, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "romaine-lettuce",
+      "food_title": "Romaine Lettuce",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/romaine-lettuce.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169247/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Lettuce, cos or romaine, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 330,
+          "unit": "µg",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 0.33,
+          "high": 0.33,
+          "display": "330 µg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": "salmon-roe → vitamin-a"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "spinach",
+      "food_title": "Spinach",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spinach.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Spinach, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Vitamin A",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "vitamin-a",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "swiss-chard",
+      "food_title": "Swiss Chard",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/swiss-chard.md#substance_relationships/Vitamin%20A",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169991/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports vitamin A as retinol activity equivalents in Chard, swiss, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "cantorna_vitamin_2019",
+          "li_retinoid_junction_2017"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/beef.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171796/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Beans, black, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "broccoli",
+      "food_title": "Broccoli",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/broccoli.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cacao-powder",
+      "food_title": "Cacao Powder",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cacao-powder.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Cocoa, dry powder, unsweetened."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cheddar-cheese",
+      "food_title": "Cheddar Cheese",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cheddar-cheese.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Cheese, cheddar (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicken",
+      "food_title": "Chicken",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chicken.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171447/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Chicken, broilers or fryers, meat and skin, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicory-root",
+      "food_title": "Chicory Root",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "USDA SR Legacy, FDC 169993",
+            "food_name": "Chicory roots, raw (Cichorium intybus)",
+            "fdc_id": 169993,
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "last_checked": "2026-10-12"
+          },
+          "value": 0.33,
+          "unit": "mg",
+          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+          "source_reference": "#food-source-3",
+          "material": "Chicory roots, raw (Cichorium intybus)",
+          "preparation": "raw",
+          "record": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
+          "source_record": "docs/foods/chicory-root.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
+          "rank_eligible": true,
+          "comparison_group": "edible::raw",
+          "low": 0.33,
+          "high": 0.33,
+          "display": "0.33 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": "chicory-root → zinc"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cockles",
+      "food_title": "Cockles",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cockles.md#substance_relationships/Zinc",
+          "evidence": "The Concise New Zealand Food Composition Tables, 9th edition (2012), T31",
+          "source_url": "https://www.foodcomposition.co.nz/downloads/concise-9-edition.pdf",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Documented in boiled New Zealand cockles; a separate amount for the raw Alaska record is unavailable."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cocoa",
+      "food_title": "Cocoa",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cocoa.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Cocoa, dry powder, unsweetened."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "crab",
+      "food_title": "Crab",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/crab.md#substance_relationships/Zinc",
+          "evidence": "USDA FoodData Central, Crustaceans, crab, alaska king, cooked, moist heat (FDC 174202)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174202/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Documented in edible crab meat; the amount varies with species and preparation."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "dark-chocolate",
+      "food_title": "Dark Chocolate",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/dark-chocolate.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Chocolate, dark, 70-85% cacao solids."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "eggs",
+      "food_title": "Eggs",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/eggs.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171287/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Egg, whole, raw, fresh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "greek-yogurt",
+      "food_title": "Greek Yogurt",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/greek-yogurt.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171304/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Yogurt, Greek, plain, whole milk."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "lamb",
+      "food_title": "Lamb",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lamb.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174370/nutrients",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Lamb, ground, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "lentils",
+      "food_title": "Lentils",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lentils.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172420/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Lentils, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "lupin-beans",
+      "food_title": "Lupin Beans",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lupin-beans.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Lupins, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "milk",
+      "food_title": "Milk",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/milk.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Milk, whole, 3.25% milkfat, with added vitamin D."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "mussels",
+      "food_title": "Mussels",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mussels.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Mollusks, mussel, blue, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "nori",
+      "food_title": "Nori",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3"
+          },
+          "value": 3.6,
+          "unit": "mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": "#food-source-3",
+          "material": "Purple laver (Porphyra spp.), dried, toasted",
+          "preparation": "dried",
+          "record": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
+          "source_record": "docs/foods/nori.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
+          "rank_eligible": true,
+          "comparison_group": "dry::dried",
+          "low": 3.6,
+          "high": 3.6,
+          "display": "3.6 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": "nori → zinc"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "nutritional-yeast",
+      "food_title": "Nutritional Yeast",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "Marigold Health Foods label",
+            "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "last_checked": "2026-10-12"
+          },
+          "value": 120,
+          "unit": "mg",
+          "basis": "per 100 g dry product; the label serving is 5 g",
+          "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+          "source_reference": "#food-source-3",
+          "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+          "preparation": "dried",
+          "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
+          "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
+          "rank_eligible": true,
+          "comparison_group": "dry::dried",
+          "low": 120,
+          "high": 120,
+          "display": "120 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": "nutritional-yeast → zinc"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oats",
+      "food_title": "Oats",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oats.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Oats (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oysters",
+      "food_title": "Oysters",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oysters.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Mollusks, oyster, eastern, wild, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pork",
+      "food_title": "Pork",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pork.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/167818/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Pork, fresh, loin, whole, separable lean and fat, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pumpkin-seeds",
+      "food_title": "Pumpkin Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Seeds, pumpkin and squash seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "quinoa",
+      "food_title": "Quinoa",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/quinoa.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Quinoa, uncooked."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "uncooked",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 2.1,
+          "unit": "mg",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 2.1,
+          "high": 2.1,
+          "display": "2.1 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": "salmon-roe → zinc"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "shrimp",
+      "food_title": "Shrimp",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/shrimp.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174210/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sourdough-bread",
+      "food_title": "Sourdough Bread",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sourdough-bread.md#substance_relationships/Zinc",
+          "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "spinach",
+      "food_title": "Spinach",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spinach.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Spinach, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "wheat",
+      "food_title": "Wheat",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/wheat.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports zinc in Wheat, hard red winter."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Zinc",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "zinc",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "whole-grains",
+      "food_title": "Whole Grains",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/whole-grains.md#substance_relationships/Zinc",
+          "evidence": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Documented in whole wheat; content varies among whole grains."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "miyoshi_cellular_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "biological_mechanism": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "dietary_input": "Oligofructose",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "oligofructose",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F4"
+        ],
+        "citation_keys": [
+          "cani_glp2_endotoxemia_2009",
+          "parnell_oligofructose_lps_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "The human result used 21 g/day for 12 weeks in 37 adults; it does not establish nutritional necessity, clinical benefit or equivalent effects from every food or fibre."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "biological_mechanism": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "dietary_input": "Type 2 resistant starch (tested aged-mouse exposure)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F4"
+        ],
+        "citation_keys": [
+          "zhang_rs2_endotoxin_2020"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Sixteen-week mouse protocol; no human dose or equivalence to cooled potatoes, rice or green bananas. Measured metabolite changes do not prove SCFA mediation."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "biological_mechanism": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "dietary_input": "Fish-oil-containing meal (tested comparison)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F3"
+        ],
+        "citation_keys": [
+          "lyte_meal_endotoxin_2016"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Acute comparison of entire meals with differing fatty-acid profiles. Differences from the lower-fat olive-oil control were not significant. No isolated DHA/EPA effect, cofactor status, chronic containment or inflammation benefit established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "biological_mechanism": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "dietary_input": "Milk-fat physical structure (tested comparison)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM2-F3"
+        ],
+        "citation_keys": [
+          "vors_emulsion_endotoxemia_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Eight normal-weight men did not show the same area difference. Physical emulsification is not equivalent to every emulsifier additive; no general avoidance rule or clinical benefit follows."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM3",
+      "biological_mechanism": "Support intestinal mucus maintenance and mucosal immune regulation through defined microbial activities.",
+      "dietary_input": "Oligofructose-enriched inulin",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "schroeder_bifidobacteria_2018"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "A defined mouse exposure, not an indispensable nutrient or a human dose recommendation. The responsible microbial effector was not isolated; combining it with NCC2705 did not preserve the penetrability effect."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM3",
+      "biological_mechanism": "Support intestinal mucus maintenance and mucosal immune regulation through defined microbial activities.",
+      "dietary_input": "Bifidobacterium longum NCC2705",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F1"
+        ],
+        "citation_keys": [
+          "schroeder_bifidobacteria_2018"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Strain-specific preclinical modulation does not establish a human dietary requirement, clinical benefit or equivalence to fermented foods. Penetrability and thickness were not restored by the strain."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Pea-fibre arabinan",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "arabinan",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined human-derived communities in mice; the food matrix and competitors affect access. No universal human response, optimal dose or host benefit is established."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Citrus pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F1"
+        ],
+        "citation_keys": [
+          "patnode_interspecies_2019"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Defined-community mouse experiments and glycan assays do not establish equivalence across all pectins, a human intake target or beneficial host outcomes."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Resistant starch (RS2/RS3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "bananas",
+      "food_title": "Green bananas",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+        "sources": [
+          "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "ze_resistant_starch_2012"
+        ]
+      },
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
+        "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield."
+      ],
+      "missing_ontology_edge": "bananas → resistant-starch"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Resistant starch (RS2/RS3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "potatoes",
+      "food_title": "Cooked-and-cooled potatoes",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Resistant starch was measured by cooking method and service temperature.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "ze_resistant_starch_2012"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
+        "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger."
+      ],
+      "missing_ontology_edge": "potatoes → resistant-starch"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Resistant starch (RS2/RS3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "black-beans",
+      "food_title": "Cooked black beans",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+        "sources": [
+          "https://doi.org/10.1016/j.nfs.2016.02.002"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "ze_resistant_starch_2012"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
+        "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+      ],
+      "missing_ontology_edge": "black-beans → resistant-starch"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Resistant starch (RS2/RS3)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Cooked chickpeas",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+        "sources": [
+          "https://doi.org/10.1016/j.nfs.2016.02.002"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F3"
+        ],
+        "citation_keys": [
+          "ze_resistant_starch_2012"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Cultures and one donor’s faecal rescue do not establish oral R. bromii efficacy, uniform human processing, equivalence to RS4 or clinical benefit.",
+        "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+      ],
+      "missing_ontology_edge": "chickpeas → resistant-starch"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant potato starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "fructo-galacto-oligosaccharides",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "van_trijp_intraintestinal_2024"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Preserve the tested preparation; do not attribute its combined result independently to every constituent or infer ordinary-food equivalence."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure and donor community affect products; this is not demonstrated human brain or clinical benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagic acid",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "ellagic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "selma_urolithin_capacity_2014",
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+        "sources": [
+          "https://doi.org/10.1016/j.foodchem.2013.11.158"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred."
+      ],
+      "missing_ontology_edge": "walnuts → ellagitannins"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Lactobacillus rhamnosus JB-1",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "bravo_ingestion_2011",
+          "kelly_jb1_translation_2017"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "The human placebo-controlled trial did not reproduce overall stress/cognitive benefit. No generic probiotic, fermented-food or nutritional-necessity claim."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Glucose",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "glucose",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F2"
+        ],
+        "citation_keys": [
+          "kaelberer_nutrient_neural_circuit_2018"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Experimental neural response is not an optimal intake, an inadequacy threshold or benefit from more sugar."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM8",
+      "biological_mechanism": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+      "dietary_input": "Tryptophan",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "tryptophan",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pumpkin-seeds",
+      "food_title": "Pumpkin Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Tryptophan",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "USDA FoodData Central reports tryptophan in Seeds, pumpkin and squash seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "sinha_dietary_2024",
+          "omahony_serotonin_2015"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Substrate participation is not benefit from increased intake; host absorption, endogenous competition and microbial compartmentation differ from brain precursor delivery."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM8",
+      "biological_mechanism": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+      "dietary_input": "Tryptophan",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "tryptophan",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "soy",
+      "food_title": "Soy",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/soy.md#substance_relationships/Tryptophan",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "USDA FoodData Central reports tryptophan in Soybeans, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "sinha_dietary_2024",
+          "omahony_serotonin_2015"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Substrate participation is not benefit from increased intake; host absorption, endogenous competition and microbial compartmentation differ from brain precursor delivery."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM8",
+      "biological_mechanism": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+      "dietary_input": "Tryptophan",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "tryptophan",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "turkey",
+      "food_title": "Turkey",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/turkey.md#substance_relationships/Tryptophan",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171480/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "USDA FoodData Central reports tryptophan in Turkey, whole, meat only, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "sinha_dietary_2024",
+          "omahony_serotonin_2015"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Substrate participation is not benefit from increased intake; host absorption, endogenous competition and microbial compartmentation differ from brain precursor delivery."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM8",
+      "biological_mechanism": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+      "dietary_input": "Apple pectin (studied preparation)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "sinha_dietary_2024"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "The experiment does not establish equivalence to all fibre or pectin foods, a human intake recommendation or brain neurotransmitter benefit."
+      ],
+      "missing_ontology_edge": null
+    }
+  ]
+}

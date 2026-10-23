@@ -1,3 +1,10 @@
+import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
+
+// These deliberately incomplete legacy structural fixtures are not scientific admissions.
+function assertOnlyProspectiveReviewGaps(issues) {
+  assert.ok(issues.some(i=>i.code==='input_admission_unresolved'));
+  assert.ok(issues.every(i=>['input_admission_unresolved','input_food_target_research_missing'].includes(i.code)));
+}
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
@@ -491,14 +498,14 @@ test("dietary candidates require all six atoms and a resolvable derived biochemi
   plpByTextLever.relationship_layer = "biochemical-requirement";
   const biochemicalTargetByTextIssues = [];
   validateDietaryLeverAtoms(biochemicalTargetByText, biochemicalTargetByTextIssues, { entityLabel: "b6-plp-gad-target-text" });
-  assert.deepEqual(biochemicalTargetByTextIssues, []);
+  assertOnlyProspectiveReviewGaps(biochemicalTargetByTextIssues);
 
   const consistentTarget = structuredClone(data);
   const b6Consistent = consistentTarget.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3");
   b6Consistent.derived_target = "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)";
   const consistentIssues = [];
   validateDietaryLeverAtoms(consistentTarget, consistentIssues, { entityLabel: "consistent-target" });
-  assert.deepEqual(consistentIssues, []);
+  assertOnlyProspectiveReviewGaps(consistentIssues);
 
   const unresolvedTargetId = structuredClone(data);
   unresolvedTargetId.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-3")
@@ -1124,7 +1131,7 @@ test("primary presentations use one reader-facing entry per atom", () => {
   };
   const issues = [];
   validateDietaryLeverAtoms(fixture, issues, { entityLabel: "direct-derived" });
-  assert.deepEqual(issues, []);
+  assertOnlyProspectiveReviewGaps(issues);
   const methionine = resolveLeverAtom(fixture, { atom_id: "EX-DIT-1" });
   const protein = resolveLeverAtom(fixture, { atom_id: "EX-DIT-2" });
   assert.equal(methionine.input_type, "substrate");
@@ -1163,7 +1170,7 @@ test("primary presentations use one reader-facing entry per atom", () => {
   });
   const kcOnlyIssues = [];
   validateDietaryLeverAtoms(kcOnlyPresentation, kcOnlyIssues, { entityLabel: "kc-only-presentation" });
-  assert.deepEqual(kcOnlyIssues, []);
+  assertOnlyProspectiveReviewGaps(kcOnlyIssues);
 
   const foodCompositionPresentation = structuredClone(fixture);
   foodCompositionPresentation.dietary_lever_presentations[0].foods = [
@@ -1173,7 +1180,7 @@ test("primary presentations use one reader-facing entry per atom", () => {
   validateDietaryLeverAtoms(foodCompositionPresentation, foodCompositionIssues, {
     entityLabel: "food-composition-presentation",
   });
-  assert.deepEqual(foodCompositionIssues, []);
+  assertOnlyProspectiveReviewGaps(foodCompositionIssues);
 
   const duplicatePrimary = structuredClone(fixture);
   duplicatePrimary.dietary_lever_presentations.push({
@@ -1381,7 +1388,7 @@ test("upstream PM relationships render as labelled indicators, not ownership pro
   };
   const issues = [];
   validateDietaryLeverAtoms(fixture, issues, { entityLabel: "upstream" });
-  assert.deepEqual(issues, []);
+  assertOnlyProspectiveReviewGaps(issues);
   const disclosure = buildDietaryLeverDisclosureMap(fixture).get(
     dietaryLeverBulletKey("Tyrosine", "", "3.1.1"),
   );
@@ -1461,7 +1468,7 @@ const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
 const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
- : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : rendererRequire(id);
+ : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : rendererRequire(id);
 rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
 }).outputText,PM_INPUT_FOOD_DISCLOSURE);

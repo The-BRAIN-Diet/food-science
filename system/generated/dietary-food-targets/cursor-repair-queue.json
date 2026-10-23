@@ -1,0 +1,3114 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "iron",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "iron"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.8,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/iron_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/iron_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.8,
+            "high": 0.8,
+            "display": "0.8 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains iron (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "iron",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "iron"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 11,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 11,
+            "high": 11,
+            "display": "11 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains iron (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "iron",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "iron"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 2,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/iron_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 2,
+            "high": 2,
+            "display": "2 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains iron (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "vitamin-b6",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "vitamin-b6"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.241,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_b6_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_b6_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.241,
+            "high": 0.241,
+            "display": "0.241 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS1-FM4-PM9",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains vitamin-b6 (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-b6",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-b6"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 0.59,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_b6_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_b6_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 0.59,
+            "high": 0.59,
+            "display": "0.59 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS1-FM4-PM9",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains vitamin-b6 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nutritional-yeast",
+      "target_entity": "vitamin-b6",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nutritional-yeast",
+        "substance": "vitamin-b6"
+      },
+      "candidate_food": "Nutritional Yeast",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 34,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b6_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b6_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 34,
+            "high": 34,
+            "display": "34 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS1-FM4-PM9",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/nutritional-yeast.md#substance_relationships: contains vitamin-b6 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-b6",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-b6"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.06,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b6_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b6_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.06,
+            "high": 0.06,
+            "display": "0.06 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS1-FM4-PM9",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-b6 (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "copper",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "copper"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.077,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/copper_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/copper_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.077,
+            "high": 0.077,
+            "display": "0.077 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains copper (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "copper",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "copper"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 0.55,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/copper_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/copper_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 0.55,
+            "high": 0.55,
+            "display": "0.55 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains copper (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "copper",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "copper"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.76,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/copper_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.76,
+            "high": 0.76,
+            "display": "0.76 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains copper (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "vitamin-c",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "vitamin-c"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 5,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/vitamin_c_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 5,
+            "high": 5,
+            "display": "5 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains vitamin-c (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-c",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-c"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 210,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_c_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_c_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 210,
+            "high": 210,
+            "display": "210 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains vitamin-c (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-c",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-c"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 6,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_c_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 6,
+            "high": 6,
+            "display": "6 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-c (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "duck-fat",
+      "target_entity": "choline",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "duck-fat",
+        "substance": "choline"
+      },
+      "candidate_food": "Duck Fat",
+      "material": "Rendered duck fat (Fat, duck)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+              "food_name": "Rendered duck fat (Fat, duck)",
+              "basis": "per 100 g",
+              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 122.4,
+            "unit": "mg",
+            "basis": "per 100 g",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+            "source_reference": "#food-source-3",
+            "material": "Rendered duck fat (Fat, duck)",
+            "preparation": null,
+            "record": "docs/foods/duck-fat.md#nutrition_per_100g/choline_mg",
+            "source_record": "docs/foods/duck-fat.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/duck-fat.md#nutrition_per_100g/choline_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 122.4,
+            "high": 122.4,
+            "display": "122.4 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS1-FM5-PM12",
+        "BRS2-FM1-PM2",
+        "BRS2-FM3-PM7"
+      ],
+      "missing_edge": "docs/foods/duck-fat.md#substance_relationships: contains choline (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "BRS1-FM1-PM1::PM1-DIT-1",
+      "target_entity": "Indispensable amino-acid supply",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "mariotti_dietary_2019",
+            "moughan_diaas_2024"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "BRS1-FM1-PM1::PM1-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b6",
+      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b6",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM4-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM5-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM5-F1",
+            "PM5-IC1",
+            "PM5-F5"
+          ],
+          "citation_keys": [
+            "disalvo_plp_availability_2012",
+            "belew_cbs_kinetics_2009",
+            "zhu_cgl_kinetics_2008",
+            "lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "Vitamin B6 → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS1-FM1-PM4::PM4-DIT-2",
+      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM4"
+      ],
+      "missing_edge": "BRS1-FM1-PM4::PM4-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS1-FM1-PM5::PM5-DIT-3",
+      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM5-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "fitzpatrick_aromatic_1999"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM5"
+      ],
+      "missing_edge": "BRS1-FM1-PM5::PM5-DIT-3 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "phosphatidylcholine",
+      "target_entity": "Choline",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "phosphatidylcholine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F4"
+          ],
+          "citation_keys": [
+            "bockmann_choline_supplements_2023"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM7-F7"
+          ],
+          "citation_keys": [
+            "bockmann_choline_supplements_2023"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS2-FM3-PM7"
+      ],
+      "missing_edge": "Phosphatidylcholine → Choline: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b6",
+      "target_entity": "PLP",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b6",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM9-F1",
+            "PM9-F2"
+          ],
+          "citation_keys": [
+            "martin_regulation_1993",
+            "lee_human_2000",
+            "tang_crystal_2005",
+            "navarro_catalytic_2013"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM4-PM9"
+      ],
+      "missing_edge": "Vitamin B6 → PLP: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "kale",
+      "target_entity": "5-methyltetrahydrofolate",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "kale",
+        "substance": "5-methyltetrahydrofolate"
+      },
+      "candidate_food": "Kale",
+      "material": "Raw kale, Brazilian folate-retention study",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 67.02,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "raw",
+            "evidence_material": "Raw kale, Brazilian folate-retention study",
+            "source_url": "https://www.alanrevista.org/storage/articles/1411/art-8.pdf",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "range": null,
+            "material": "Raw kale, Brazilian folate-retention study",
+            "preparation": "raw",
+            "record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "source_record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "verified": true,
+            "nutrition_value_reviews": [],
+            "limitations": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "id": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.06702,
+            "high": 0.06702,
+            "display": "67.02 µg"
+          },
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 67.02,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "raw",
+            "evidence_material": "Raw kale, Brazilian folate-retention study",
+            "source_url": "https://www.alanrevista.org/storage/articles/1411/art-8.pdf",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "evidence": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/kale.md#substance_relationships: contains 5-methyltetrahydrofolate (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "spinach",
+      "target_entity": "5-methyltetrahydrofolate",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "spinach",
+        "substance": "5-methyltetrahydrofolate"
+      },
+      "candidate_food": "Spinach",
+      "material": "Spinach test food, 2015 bioavailability study",
+      "preparation": "unspecified",
+      "evidence": [
+        [
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 72.2,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "unspecified",
+            "evidence_material": "Spinach test food, 2015 bioavailability study",
+            "source_url": "https://pubs.rsc.org/en/content/articlehtml/2015/fo/c4fo00658e",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "range": null,
+            "material": "Spinach test food, 2015 bioavailability study",
+            "preparation": "unspecified",
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "verified": true,
+            "nutrition_value_reviews": [],
+            "limitations": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "id": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.0722,
+            "high": 0.0722,
+            "display": "72.2 µg"
+          },
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 72.2,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "unspecified",
+            "evidence_material": "Spinach test food, 2015 bioavailability study",
+            "source_url": "https://pubs.rsc.org/en/content/articlehtml/2015/fo/c4fo00658e",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "evidence": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/spinach.md#substance_relationships: contains 5-methyltetrahydrofolate (unspecified)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "vitamin-b9",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "vitamin-b9"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 23,
+            "unit": "µg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.023,
+            "high": 0.023,
+            "display": "23 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 23,
+            "unit": "µg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.023,
+            "high": 0.023,
+            "display": "23 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains vitamin-b9 (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-b9",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-b9"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 1900,
+            "unit": "µg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 1.9000000000000001,
+            "high": 1.9000000000000001,
+            "display": "1900 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 1900,
+            "unit": "µg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 1.9000000000000001,
+            "high": 1.9000000000000001,
+            "display": "1900 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains vitamin-b9 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-b9",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-b9"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 100,
+            "unit": "µg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.1,
+            "high": 0.1,
+            "display": "100 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 100,
+            "unit": "µg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.1,
+            "high": 0.1,
+            "display": "100 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-b9 (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nutritional-yeast",
+      "target_entity": "vitamin-b12",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nutritional-yeast",
+        "substance": "vitamin-b12"
+      },
+      "candidate_food": "Nutritional Yeast",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 44,
+            "unit": "µg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b12_ug",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b12_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 0.044,
+            "high": 0.044,
+            "display": "44 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 44,
+            "unit": "µg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b12_ug",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b12_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 0.044,
+            "high": 0.044,
+            "display": "44 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "docs/foods/nutritional-yeast.md#substance_relationships: contains vitamin-b12 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-b12",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-b12"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 47,
+            "unit": "µg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b12_ug",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b12_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.047,
+            "high": 0.047,
+            "display": "47 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 47,
+            "unit": "µg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b12_ug",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b12_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.047,
+            "high": 0.047,
+            "display": "47 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-b12 (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beetroot",
+      "target_entity": "betaine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beetroot",
+        "substance": "betaine"
+      },
+      "candidate_food": "Beetroot",
+      "material": "Beets, raw",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "key": "betaine_mg",
+            "label": "Betaine",
+            "value": 130,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "evidence_material": "Beets, raw",
+            "preparation_state": "raw",
+            "evidence_status": "supported",
+            "verified": true,
+            "rank_eligible": false,
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_reference": "#food-source-4",
+            "source_note": "Patterson et al. (2008), USDA Database for the Choline Content of Common Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This is not the FDC 169145 panel used for the other nutrients on this page. Verified against the original table on printed page 21 (PDF page 21), NDB 11080. The table lists N=1; its confidence code B concerns total choline, not betaine. Cultivar and growing conditions can change plant betaine content. No cooked-beetroot value or cross-food ranking is inferred.",
+            "source_group": "USDA Choline Release 2 (2008), NDB 11080",
+            "range": null,
+            "material": "Beets, raw",
+            "preparation": "raw",
+            "record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_mg",
+            "source_record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_mg",
+            "nutrition_value_reviews": [],
+            "limitations": "Patterson et al. (2008), USDA Database for the Choline Content of Common Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This is not the FDC 169145 panel used for the other nutrients on this page. Verified against the original table on printed page 21 (PDF page 21), NDB 11080. The table lists N=1; its confidence code B concerns total choline, not betaine. Cultivar and growing conditions can change plant betaine content. No cooked-beetroot value or cross-food ranking is inferred.",
+            "id": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_mg",
+            "comparison_group": null,
+            "low": 130,
+            "high": 130,
+            "display": "130 mg"
+          },
+          {
+            "key": "betaine_mg",
+            "label": "Betaine",
+            "value": 130,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "evidence_material": "Beets, raw",
+            "preparation_state": "raw",
+            "evidence_status": "supported",
+            "verified": true,
+            "rank_eligible": false,
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/Choline/Choln02.pdf",
+            "source_reference": "#food-source-4",
+            "source_note": "Patterson et al. (2008), USDA Database for the Choline Content of Common Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This is not the FDC 169145 panel used for the other nutrients on this page. Verified against the original table on printed page 21 (PDF page 21), NDB 11080. The table lists N=1; its confidence code B concerns total choline, not betaine. Cultivar and growing conditions can change plant betaine content. No cooked-beetroot value or cross-food ranking is inferred.",
+            "source_group": "USDA Choline Release 2 (2008), NDB 11080",
+            "record": "docs/foods/beetroot.md#nutrition_supplementary_sources/betaine_mg",
+            "evidence": "Patterson et al. (2008), USDA Database for the Choline Content of Common Foods, Release 2: beets, raw (NDB 11080), 130 mg betaine per 100 g. This is not the FDC 169145 panel used for the other nutrients on this page. Verified against the original table on printed page 21 (PDF page 21), NDB 11080. The table lists N=1; its confidence code B concerns total choline, not betaine. Cultivar and growing conditions can change plant betaine content. No cooked-beetroot value or cross-food ranking is inferred.",
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/beetroot.md#substance_relationships: contains betaine (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-b2",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-b2"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 2.33,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_b2_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_b2_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 2.33,
+            "high": 2.33,
+            "display": "2.33 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains vitamin-b2 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nutritional-yeast",
+      "target_entity": "vitamin-b2",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nutritional-yeast",
+        "substance": "vitamin-b2"
+      },
+      "candidate_food": "Nutritional Yeast",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 18,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b2_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/vitamin_b2_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 18,
+            "high": 18,
+            "display": "18 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/nutritional-yeast.md#substance_relationships: contains vitamin-b2 (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-b2",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-b2"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.55,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_b2_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.55,
+            "high": 0.55,
+            "display": "0.55 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-b2 (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "vitamin-b9",
+      "target_entity": "5-Methyltetrahydrofolate",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b9",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B9 (folate) → 5-Methyltetrahydrofolate: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM1-PM1::PM1-DIT-3",
+      "target_entity": "Methylcobalamin",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "BRS2-FM1-PM1::PM1-DIT-3 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b12",
+      "target_entity": "Methylcobalamin",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b12",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B12 (cobalamin) → Methylcobalamin: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "choline",
+      "target_entity": "Betaine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "choline",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM2-F2",
+            "PM2-F1"
+          ],
+          "citation_keys": [
+            "obeid_metabolic_2013",
+            "salvi_choline_2013",
+            "evans_betaine_2002"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "Choline → Betaine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
+      "target_entity": "Dietary protein",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "BRS2-FM1-PM4::PM4-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
+      "target_entity": "Methionine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": null,
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "Dietary protein → Methionine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM2-PM5::PM5-DIT-1",
+      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM5-F1",
+            "PM5-F2",
+            "PM5-F5"
+          ],
+          "citation_keys": [
+            "belew_cbs_kinetics_2009",
+            "meier_cbs_structure_2001",
+            "zhu_cgl_kinetics_2008",
+            "lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "BRS2-FM2-PM5::PM5-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "methionine",
+      "target_entity": "Cysteine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "methionine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "lyons_glutathione_2000",
+            "courtney_martin_cysteine_2008"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "Methionine → Cysteine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "n-acetylcysteine",
+      "target_entity": "Cysteine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "n-acetylcysteine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "sekhar_glutathione_2011"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "N-acetylcysteine → Cysteine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "selenium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "selenium"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.7,
+            "unit": "µg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/selenium_ug",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/selenium_ug",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.0007,
+            "high": 0.0007,
+            "display": "0.7 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains selenium (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "duck-fat",
+      "target_entity": "selenium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "duck-fat",
+        "substance": "selenium"
+      },
+      "candidate_food": "Duck Fat",
+      "material": "Rendered duck fat (Fat, duck)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+              "food_name": "Rendered duck fat (Fat, duck)",
+              "basis": "per 100 g",
+              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.2,
+            "unit": "µg",
+            "basis": "per 100 g",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+            "source_reference": "#food-source-3",
+            "material": "Rendered duck fat (Fat, duck)",
+            "preparation": null,
+            "record": "docs/foods/duck-fat.md#nutrition_per_100g/selenium_ug",
+            "source_record": "docs/foods/duck-fat.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/duck-fat.md#nutrition_per_100g/selenium_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.0002,
+            "high": 0.0002,
+            "display": "0.2 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/duck-fat.md#substance_relationships: contains selenium (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "selenium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "selenium"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 9,
+            "unit": "µg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/selenium_ug",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/selenium_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 0.009000000000000001,
+            "high": 0.009000000000000001,
+            "display": "9 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains selenium (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "duck-fat",
+      "target_entity": "vitamin-e",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "duck-fat",
+        "substance": "vitamin-e"
+      },
+      "candidate_food": "Duck Fat",
+      "material": "Rendered duck fat (Fat, duck)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+              "food_name": "Rendered duck fat (Fat, duck)",
+              "basis": "per 100 g",
+              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 2.7,
+            "unit": "mg",
+            "basis": "per 100 g",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+            "source_reference": "#food-source-3",
+            "material": "Rendered duck fat (Fat, duck)",
+            "preparation": null,
+            "record": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/duck-fat.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 2.7,
+            "high": 2.7,
+            "display": "2.7 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+              "food_name": "Rendered duck fat (Fat, duck)",
+              "basis": "per 100 g",
+              "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 2.7,
+            "unit": "mg",
+            "basis": "per 100 g",
+            "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+            "source_reference": "#food-source-3",
+            "material": "Rendered duck fat (Fat, duck)",
+            "preparation": null,
+            "record": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/duck-fat.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/duck-fat.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 2.7,
+            "high": 2.7,
+            "display": "2.7 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM5",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/duck-fat.md#substance_relationships: contains vitamin-e (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-e",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-e"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 4.6,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 4.6,
+            "high": 4.6,
+            "display": "4.6 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 4.6,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 4.6,
+            "high": 4.6,
+            "display": "4.6 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM5",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains vitamin-e (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-e",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-e"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 9.1,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 9.1,
+            "high": 9.1,
+            "display": "9.1 mg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 9.1,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_e_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 9.1,
+            "high": 9.1,
+            "display": "9.1 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS3-FM2-PM5",
+        "BRS3-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-e (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "creatine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "creatine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "key": "creatine_mg",
+            "label": "Creatine",
+            "notes": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts.",
+            "source_note": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+            "public_note": "Approximate content for cooked beef muscle; cut and cooking affect the amount.",
+            "source_group": "estimate-creatine_mg",
+            "public_display": "table",
+            "omit_substance_card": false,
+            "evidence_status": "supported",
+            "presence_status": "presence_supported_amount_unavailable",
+            "amount_display": "400 mg (estimate)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+            "value": 400,
+            "unit": "mg",
+            "quantity_citation_pending": true,
+            "source_reference": "#food-source-4",
+            "record": "docs/foods/beef.md#nutrition_supplementary_sources/creatine_mg",
+            "evidence": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+            "limitations": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts."
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains creatine (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "vitamin-b2",
+      "target_entity": "Flavin mononucleotide (FMN)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b2",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "curtabbi_complex_i_fmn_2022"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B2 (riboflavin) → Flavin mononucleotide (FMN): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "tryptophan",
+      "target_entity": "Nicotinamide (a form of vitamin B3)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "tryptophan",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM2-F1"
+          ],
+          "citation_keys": [
+            "covarrubias_nad_2021"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "Tryptophan → Nicotinamide (a form of vitamin B3): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "vitamin-a",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "vitamin-a"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 330,
+            "unit": "µg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/vitamin_a_rae_ug",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.33,
+            "high": 0.33,
+            "display": "330 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains vitamin-a (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "zinc",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "zinc"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.33,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/zinc_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.33,
+            "high": 0.33,
+            "display": "0.33 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains zinc (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "zinc",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "zinc"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 3.6,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/zinc_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 3.6,
+            "high": 3.6,
+            "display": "3.6 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains zinc (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nutritional-yeast",
+      "target_entity": "zinc",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nutritional-yeast",
+        "substance": "zinc"
+      },
+      "candidate_food": "Nutritional Yeast",
+      "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "Marigold Health Foods label",
+              "food_name": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+              "basis": "per 100 g dry product; the label serving is 5 g",
+              "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 120,
+            "unit": "mg",
+            "basis": "per 100 g dry product; the label serving is 5 g",
+            "source_url": "https://www.marigoldhealthfoods.co.uk/engevita",
+            "source_reference": "#food-source-3",
+            "material": "Marigold Engevita Nutritional Yeast Flakes with B12, dried inactive Saccharomyces cerevisiae",
+            "preparation": "dried",
+            "record": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
+            "source_record": "docs/foods/nutritional-yeast.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nutritional-yeast.md#nutrition_per_100g/zinc_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 120,
+            "high": 120,
+            "display": "120 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/nutritional-yeast.md#substance_relationships: contains zinc (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "zinc",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "zinc"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 2.1,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/zinc_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 2.1,
+            "high": 2.1,
+            "display": "2.1 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains zinc (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "bananas",
+      "target_entity": "resistant-starch",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "bananas",
+        "substance": "resistant-starch"
+      },
+      "candidate_food": "Green bananas",
+      "material": "Cavendish and plantain bananas",
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "evidence": [
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/bananas.md#substance_relationships: contains resistant-starch (Green/unripe; cultivar and ripening state matter)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "potatoes",
+      "target_entity": "resistant-starch",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "potatoes",
+        "substance": "resistant-starch"
+      },
+      "candidate_food": "Cooked-and-cooled potatoes",
+      "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "evidence": [
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/potatoes.md#substance_relationships: contains resistant-starch (Baked or boiled, then chilled to 4°C; distinguish reheated material)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "black-beans",
+      "target_entity": "resistant-starch",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "black-beans",
+        "substance": "resistant-starch"
+      },
+      "candidate_food": "Cooked black beans",
+      "material": "Cooked black beans",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "evidence": [
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/black-beans.md#substance_relationships: contains resistant-starch (Cooked; cooking duration and cooling protocol remain study-specific)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "resistant-starch",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "resistant-starch"
+      },
+      "candidate_food": "Cooked chickpeas",
+      "material": "Cooked chickpeas",
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "evidence": [
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains resistant-starch (Cooked; cooking duration and cooling protocol remain study-specific)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "walnuts",
+      "target_entity": "ellagitannins",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "walnuts",
+        "substance": "ellagitannins"
+      },
+      "candidate_food": "Walnuts",
+      "material": "Walnut kernels",
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "evidence": [
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/walnuts.md#substance_relationships: contains ellagitannins (Walnut kernels; assay-specific extraction)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM1::PM1-DIT-2",
+      "target_entity": "Fermentable dietary fibre",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "BRS5-FM1-PM1::PM1-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM1::PM1-DIT-2",
+      "target_entity": "Butyrate",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": null,
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "Fermentable dietary fibre → Butyrate: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-a",
+      "target_entity": "Retinoic acid",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-a",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F5"
+          ],
+          "citation_keys": [
+            "cantorna_vitamin_2019",
+            "li_retinoid_junction_2017"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin A → Retinoic acid: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM3::PM3-DIT-1",
+      "target_entity": "Oligofructose-enriched inulin",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "schroeder_bifidobacteria_2018"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM3"
+      ],
+      "missing_edge": "BRS5-FM1-PM3::PM3-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM2-PM4::PM4-DIT-2",
+      "target_entity": "Citrus pectin",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "patnode_interspecies_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "BRS5-FM2-PM4::PM4-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM2-PM5::PM5-DIT-1",
+      "target_entity": "Resistant potato starch",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM5-F1"
+          ],
+          "citation_keys": [
+            "baxter_fermentable_fibers_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM5"
+      ],
+      "missing_edge": "BRS5-FM2-PM5::PM5-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "ellagitannins",
+      "target_entity": "Ellagic acid",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "ellagitannins",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F1"
+          ],
+          "citation_keys": [
+            "singh_direct_2022"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "Ellagitannins → Ellagic acid: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "magnesium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "magnesium"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 22,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 22,
+            "high": 22,
+            "display": "22 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS6-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains magnesium (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "magnesium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "magnesium"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 300,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 300,
+            "high": 300,
+            "display": "300 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS6-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains magnesium (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "magnesium",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "magnesium"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 95,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 95,
+            "high": 95,
+            "display": "95 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS6-FM1-PM3"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains magnesium (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    }
+  ]
+}

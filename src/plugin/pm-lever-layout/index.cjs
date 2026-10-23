@@ -138,6 +138,14 @@ function applyFindingPresentation(tree, data) {
 function applyLeverLayout(tree, data) {
   if (!data.pm_id) return;
   applyFindingPresentation(tree, data);
+  // Reader heading only: source decisions, canonical section IDs and old anchors stay intact.
+  walk(tree, n => {
+    if(n.type==='heading'&&/^(?:[134]\.1)\.1 (?:Direct and\/or Derived Dietary Requirements|Direct Dietary Levers)$/.test(text(n))) {
+      n.data ||= {}; n.data.hProperties ||= {};
+      n.data.hProperties.id ||= text(n).toLowerCase().replace(/[./]/g,'').replace(/\s+/g,'-');
+    }
+    if(n.type==='text') n.value=n.value.replace(/^((?:[134]\.1)\.1) (?:Direct and\/or Derived Dietary Requirements|Direct Dietary Levers)$/, '$1 Dietary Inputs & Regulatory Modulators');
+  });
   const plan = dominancePlan(data);
   if (!plan) {
     // Correct presentation of already placed legacy groups; do not select or move routes.

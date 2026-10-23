@@ -1,5 +1,7 @@
 # Stage 2A — Scientific Assessment & Finding Schema
 
+**Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
+
 **Status:** Authoritative Stage 2A scientific assessment instruction and Finding schema. Use with the [whole-PM page schema](primary-mechanism-schema.md); proceed to the [Stage 2B contract](dietary-input-traceability-contract.md) for applicability and lever implementation.
 
 The canonical evidence unit for mechanism pages. A Scientific Finding states a

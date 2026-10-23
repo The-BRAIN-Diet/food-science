@@ -1,3 +1,4 @@
+import {informationIcon, renderCoverageWarning, renderTarget} from "./foodTargetTraceability.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
 /** Read-only display of generated PM input joins; no hand-maintained food lists. */
@@ -198,10 +199,36 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
     if (!data || !/^BRS[1-6]-/.test(pm) || !/^3\.1\.[123]$/.test(section))
         return;
     li.querySelectorAll('.pm-input-food-sources').forEach(el => el.remove());
+    li.querySelectorAll('.food-target-info, .food-target-coverage-warning').forEach(el => el.remove());
     const scoped = selectBrsReviewData(data, generatedScopes, pm.split('-')[0]).data;
-    const relationships = scoped.relationships.filter(r => r.pm === pm && r.substance_id && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
+    const relationships = scoped.relationships.filter(r => r.pm === pm && (r.presentations || []).some((p: any) => norm(p.label) === norm(label) && p.section === section));
     if (!relationships.length)
         return;
+    if (section === '3.1.1' && relationships.some((r:any) => 'food_targets' in r)) {
+        const warnings = [...new Set(relationships.flatMap((r:any) => r.coverage_warnings || []))];
+        const detail = li.querySelector('.brs-dietary-lever-detail-inner');
+        const inputRow = detail && [...detail.querySelectorAll('p')].find(p => p.querySelector('.brs-dietary-lever-detail-k')?.textContent === 'Input');
+        const identity = relationships.find((r:any) => r.substance_page);
+        if (inputRow && identity && !inputRow.querySelector('a')) inputRow.innerHTML = `<span class="brs-dietary-lever-detail-k">Input</span> = <a href="${esc(identity.substance_page)}">${esc(identity.input)}</a>`;
+
+        if (warnings.length) {
+            const icon = document.createElement('span'); icon.innerHTML = informationIcon(warnings.join(' '));
+            li.querySelector('.brs-dietary-lever-trigger')?.after(icon.firstElementChild!);
+            if (detail) detail.insertAdjacentHTML('afterbegin', renderCoverageWarning(warnings));
+        }
+        const targets = [...new Map(relationships.flatMap((r:any) => r.food_targets || []).map((f:any) => [JSON.stringify([f.food_id,f.substance_id,f.material,f.preparation]), f])).values()] as any[];
+        const box = document.createElement('details'); box.className = 'pm-input-food-sources';
+        const summary = document.createElement('summary'); summary.textContent = 'Food targets'; box.append(summary);
+        if (targets.length) {
+            const list = document.createElement('ul');
+            targets.forEach(target => {const item=document.createElement('li'); item.innerHTML=renderTarget(target); list.append(item);});
+            box.append(list);
+        } else {
+            const empty=document.createElement('p'); empty.textContent='Food ontology coverage unresolved.'; box.append(empty);
+        }
+        attachFoodDisclosureBehaviour(box); li.append(box); return;
+    }
+
     const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));
     const plantBox = createFoodSourceDetails('Plant-based', sources.filter(source => !isProbablyAnimalSource(source)));
     const animalBox = createFoodSourceDetails('Animal-based', sources.filter(source => isProbablyAnimalSource(source)));

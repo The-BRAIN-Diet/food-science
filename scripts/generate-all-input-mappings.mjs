@@ -5,3 +5,6 @@ for(let n=1;n<=6;n++) {
 }
 const s=spawnSync(process.execPath,['scripts/generate-food-strategy-rollup.mjs'],{stdio:'inherit'});
 if(s.status!==0)process.exit(s.status||1);
+
+const targets=spawnSync(process.execPath,["scripts/generate-dietary-food-targets.mjs"],{stdio:"inherit"});
+if(targets.status!==0)process.exit(targets.status||1);

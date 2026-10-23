@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "qualification": "Historical admissions preserved; food delivery is not PM efficacy.",
+  "records": [
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Nuts, almonds."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "amaranth",
+      "food_title": "Amaranth",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/amaranth.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170682/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Amaranth grain, uncooked."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "uncooked",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "barley",
+      "food_title": "Barley",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/barley.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170283/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Barley, hulled."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "beetroot",
+      "food_title": "Beetroot",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/beetroot.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169145/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Beets, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Beans, black, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "broccoli-sprouts",
+      "food_title": "Broccoli Sprouts",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/broccoli-sprouts.md#substance_relationships/Magnesium",
+          "evidence": "Norwegian Food Composition Table",
+          "source_url": "https://www.matvaretabellen.no/en/broccoli-sprouts-raw/",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Norwegian Food Composition Table reports magnesium in Broccoli sprouts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "broccoli",
+      "food_title": "Broccoli",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/broccoli.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Broccoli, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "buckwheat",
+      "food_title": "Buckwheat",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/buckwheat.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170286/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Buckwheat."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cacao-powder",
+      "food_title": "Cacao Powder",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cacao-powder.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Cocoa, dry powder, unsweetened."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chia-seeds",
+      "food_title": "Chia Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chia-seeds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Seeds, chia seeds, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "chicory-root",
+      "food_title": "Chicory Root",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "USDA SR Legacy, FDC 169993",
+            "food_name": "Chicory roots, raw (Cichorium intybus)",
+            "fdc_id": 169993,
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "last_checked": "2026-10-12"
+          },
+          "value": 22,
+          "unit": "mg",
+          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+          "source_reference": "#food-source-3",
+          "material": "Chicory roots, raw (Cichorium intybus)",
+          "preparation": "raw",
+          "record": "docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg",
+          "source_record": "docs/foods/chicory-root.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/chicory-root.md#nutrition_per_100g/magnesium_mg",
+          "rank_eligible": true,
+          "comparison_group": "edible::raw",
+          "low": 22,
+          "high": 22,
+          "display": "22 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": "chicory-root → magnesium"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "cocoa",
+      "food_title": "Cocoa",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cocoa.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169593/nutrients",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Cocoa, dry powder, unsweetened."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "dark-chocolate",
+      "food_title": "Dark Chocolate",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/dark-chocolate.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170273/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Chocolate, dark, 70-85% cacao solids."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "flax-seeds",
+      "food_title": "Flax Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/flax-seeds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Seeds, flaxseed."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "greek-yogurt",
+      "food_title": "Greek Yogurt",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/greek-yogurt.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171304/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Yogurt, Greek, plain, whole milk."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "kidney-beans",
+      "food_title": "Kidney Beans",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/kidney-beans.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175193/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Beans, kidney, all types, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "lupin-beans",
+      "food_title": "Lupin Beans",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lupin-beans.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172423/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Lupins, mature seeds, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "milk",
+      "food_title": "Milk",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/milk.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171265/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Milk, whole, 3.25% milkfat, with added vitamin D."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "nori",
+      "food_title": "Nori",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/nori.md#substance_relationships/Magnesium",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 09004",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Reported in dried toasted purple laver (nori)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "nori",
+      "food_title": "Nori",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+            "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3"
+          },
+          "value": 300,
+          "unit": "mg",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": "#food-source-3",
+          "material": "Purple laver (Porphyra spp.), dried, toasted",
+          "preparation": "dried",
+          "record": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+          "source_record": "docs/foods/nori.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+          "rank_eligible": true,
+          "comparison_group": "dry::dried",
+          "low": 300,
+          "high": 300,
+          "display": "300 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": "nori → magnesium"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "oats",
+      "food_title": "Oats",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oats.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169705/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Oats (Includes foods for USDA's Food Distribution Program)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pumpkin-seeds",
+      "food_title": "Pumpkin Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/pumpkin-seeds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170556/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Seeds, pumpkin and squash seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "quinoa",
+      "food_title": "Quinoa",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/quinoa.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Quinoa, uncooked."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "uncooked",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 95,
+          "unit": "mg",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/magnesium_mg",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 95,
+          "high": 95,
+          "display": "95 mg"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": "salmon-roe → magnesium"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "seaweed",
+      "food_title": "Seaweed",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/seaweed.md#substance_relationships/Magnesium",
+          "evidence": "Seaweed bioactives: A comprehensive review of nutritional and functional roles (2026)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13141609/",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "product_or_preparation_dependent",
+          "limitations": "Reported in edible seaweeds; species and preparation strongly affect content."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sourdough-bread",
+      "food_title": "Sourdough Bread",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sourdough-bread.md#substance_relationships/Magnesium",
+          "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "spinach",
+      "food_title": "Spinach",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/spinach.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Spinach, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "swiss-chard",
+      "food_title": "Swiss Chard",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/swiss-chard.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169991/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Chard, swiss, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Nuts, walnuts, english."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "wheat",
+      "food_title": "Wheat",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/wheat.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports magnesium in Wheat, hard red winter."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "biological_mechanism": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "dietary_input": "Magnesium",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "magnesium",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "whole-grains",
+      "food_title": "Whole Grains",
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/whole-grains.md#substance_relationships/Magnesium",
+          "evidence": "USDA SR Legacy, Wheat, hard red winter (FDC 168890)",
+          "source_url": "https://fdc.nal.usda.gov/food-details/168890/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Documented in whole wheat; content varies among whole grains."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "suarez_magnesium_insulin_1995"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is not overloaded.",
+      "dietary_input": "Green Mediterranean dietary pattern",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": null,
+      "ontology_connections": {
+        "identity": "unresolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": null,
+      "food_title": null,
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F3"
+        ],
+        "citation_keys": [
+          "zelicha_effect_2022",
+          "zelicha_proteome_2024"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "The randomized evidence applies to the combined pattern with physical activity; individual food effects and adipose inflammatory mediation remain uncertain."
+      ],
+      "missing_ontology_edge": null
+    }
+  ]
+}
