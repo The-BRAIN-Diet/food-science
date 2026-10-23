@@ -248,6 +248,118 @@
         "wilkinson_tread_adipose_2026",
         "dote_montero_tre_visceral_2025"
       ]
+    },
+    {
+      "id": "BRS4-FM2-PM4-OI-KC2-20261023",
+      "pm_id": "BRS4-FM2-PM4",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does the retained mitochondrial cofactor-pool mapping establish a distinct PM-specific supply or constraint relationship?",
+      "established": "The historical mapping is retained as unresolved context; no constituent is inherited.",
+      "claim_boundary": "KC membership and biochemical participation do not automatically establish dietary supply or limitation.",
+      "resolution_needs": "Independently reconcile pool applicability and any individually supported supply chain without duplicating admitted dietary inputs.",
+      "finding_ids": [
+        "PM4-F1"
+      ],
+      "citation_keys": [
+        "brs4_brand2016_20261023",
+        "brs4_chouchani2014_20261023"
+      ]
+    },
+    {
+      "id": "BRS4-FM2-PM5-OI-KC2-20261023",
+      "pm_id": "BRS4-FM2-PM5",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Does the retained mitochondrial cofactor-pool mapping establish a distinct PM-specific supply or constraint relationship?",
+      "established": "The historical mapping is retained as unresolved context; no constituent is inherited.",
+      "claim_boundary": "KC membership and biochemical participation do not automatically establish dietary supply or limitation.",
+      "resolution_needs": "Independently reconcile pool applicability and any individually supported supply chain without duplicating admitted dietary inputs.",
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    {
+      "id": "BRS4-FM2-PM4-OI-SOURCE-20261023",
+      "pm_id": "BRS4-FM2-PM4",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Which dietary interventions alter source-specific mitochondrial ROS generation while preserving physiological signalling?",
+      "established": "Human feeding/activity studies measured net H2O2 emission; source-selective tool compounds support experimental source discrimination.",
+      "claim_boundary": "Emission is not gross production; lower ROS is not intrinsically better; no dietary-to-brain/ADHD effect established.",
+      "resolution_needs": "Source-resolved intervention studies with scavenging, respiratory state, tissue and clinical context addressed.",
+      "finding_ids": [
+        "PM4-F1",
+        "PM4-F3",
+        "PM4-F5"
+      ],
+      "citation_keys": [
+        "brs4_brand2016_20261023",
+        "brs4_chouchani2014_20261023",
+        "brs4_anderson2009_20261023",
+        "brs4_herbst2014_20261023"
+      ]
+    },
+    {
+      "id": "BRS4-FM2-PM5-OI-DELIVERY-20261023",
+      "pm_id": "BRS4-FM2-PM5",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "When does dietary precursor or compound supply sustain the specified local mitochondrial protective function?",
+      "established": "Vitamin E and manganese have bounded Capacity relationships; ubiquinol particle chemistry and mitochondrial GSH import have distinct evidence.",
+      "claim_boundary": "Endogenous synthesis, precursor supply, cellular GSH, plasma conjugates and local protective activity are not interchangeable.",
+      "resolution_needs": "Resolve reduced-form identities/conversion and context-dependent delivery; retain the NAC transport counterexample and sulforaphane exposure limitations.",
+      "finding_ids": [
+        "PM5-F2",
+        "PM5-F3",
+        "PM5-F5"
+      ],
+      "citation_keys": [
+        "brs4_forsmark1991_20261023",
+        "brs4_glover2010_20261023",
+        "wang_slc25a39_2021",
+        "brs4_shi2022_20261023",
+        "brs4_fernandez1997_20261023",
+        "brs4_oliveira2018_20261023",
+        "brs4_zhu2008_20261023"
+      ]
+    },
+    {
+      "id": "BRS4-FM2-PM4-OI-LEGACY-20261023",
+      "pm_id": "BRS4-FM2-PM4",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Do the preserved historical Phenome and therapeutic-area explanations support their stated mitochondrial claims?",
+      "established": "Verlaet measured erythrocyte GSH and peripheral biomarkers, not mitochondrial lactate metabolism or local mitochondrial protection. Historical ratings and relationship records are preserved, not revalidated.",
+      "claim_boundary": "The legacy mitochondrial lactate/GSH assertion is not established by the cited peripheral ADHD study.",
+      "resolution_needs": "Review the exact inherited relationship propositions and source labels; preserve provenance and do not promote them into new dietary or causal claims.",
+      "finding_ids": [
+        "PM4-F1"
+      ],
+      "citation_keys": [
+        "verlaet_oxidative_2019"
+      ]
+    },
+    {
+      "id": "BRS4-FM2-PM5-OI-LEGACY-20261023",
+      "pm_id": "BRS4-FM2-PM5",
+      "kind": "scientific-question",
+      "status": "open",
+      "question": "Do the preserved historical Phenome and therapeutic-area explanations support their stated mitochondrial claims?",
+      "established": "Verlaet measured erythrocyte GSH and peripheral biomarkers, not mitochondrial lactate metabolism or local mitochondrial protection. Historical ratings and relationship records are preserved, not revalidated.",
+      "claim_boundary": "Hou 2024 studied AD mouse models and mitophagy; the historical cognitive-endurance label must not be treated as a new human finding.",
+      "resolution_needs": "Review the exact inherited relationship propositions and source labels; preserve provenance and do not promote them into new dietary or causal claims.",
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "verlaet_oxidative_2019",
+        "hou_urolithin_2024"
+      ]
     }
   ]
 }

@@ -584,7 +584,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  for(const [food,substance,value] of [['chicken','nicotinamide',5.442],['chicken','nicotinic-acid',3.739],['chickpeas','nicotinamide',1.412],['chickpeas','nicotinic-acid',1.681]]){
   const item=selected.find(f=>f.food_id===food&&f.substance_id===substance&&f.observations[0].value===value);
   assert.ok(item);
-  const obs=item.observations[0],html=renderFoodSourceSummary('Fixture category',item);
+  const obs=item.observations[0],html=mod.exports.renderFoodSourceItem(item);
   assert.equal(obs.unit,'mg');assert.equal(obs.preparation,'unknown');
   assert.ok(html.includes(value+' mg ('+obs.basis+')'));
   assert.ok(html.includes('Studied material: '+obs.material));
@@ -597,11 +597,11 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  }
  const held=selected.find(f=>f.observations[0].key==='e2e-held');
  assert.equal(held.observations[0].verified,false);
- assert.match(renderFoodSourceSummary('Fixture category',held),/quantity not established/);
- assert.doesNotMatch(renderFoodSourceSummary('Fixture category',held),/999/);
+ assert.match(mod.exports.renderFoodSourceItem(held),/quantity not established/);
+ assert.doesNotMatch(mod.exports.renderFoodSourceItem(held),/999/);
  const alternate=selected.find(f=>f.observations[0].key==='e2e-alternate');
  assert.equal(alternate.preparation,null);
- assert.match(renderFoodSourceSummary('Fixture category',alternate),/123 µg \(per g dry synthetic material\)/);
+ assert.match(mod.exports.renderFoodSourceItem(alternate),/123 µg \(per g dry synthetic material\)/);
  assert.deepEqual(snapshot.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
   ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
  ]);

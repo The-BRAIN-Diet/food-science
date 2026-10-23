@@ -1,0 +1,4920 @@
+{
+  "P00441": {
+    "url": "https://rest.uniprot.org/uniprotkb/P00441.json",
+    "retrieved": "2026-10-23",
+    "accession": "P00441",
+    "entry_audit": {
+      "firstPublicDate": "1986-07-21",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2007-01-23",
+      "entryVersion": 279,
+      "sequenceVersion": 2
+    },
+    "protein": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Superoxide dismutase [Cu-Zn]"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24140062"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "18948262"
+              }
+            ],
+            "value": "1.15.1.1"
+          },
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "1.8.-.-"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "36630448"
+              }
+            ],
+            "value": "Hydrogen sulfide oxidase"
+          }
+        },
+        {
+          "fullName": {
+            "value": "Superoxide dismutase 1"
+          },
+          "shortNames": [
+            {
+              "value": "hSod1"
+            }
+          ]
+        }
+      ]
+    },
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18948262"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24140062"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36630448"
+              }
+            ],
+            "value": "Destroys radicals which are normally produced within the cells and which are toxic to biological systems (PubMed:18948262, PubMed:24140062). Catalyzes the oxidation of hydrogen sulfide (H2S) to sulfate, playing an important role in detoxifying H2S and limiting the accumulation of reactive sulfur species (RSS) such as persulfides and polysulfides (PubMed:36630448)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "2 superoxide + 2 H(+) = H2O2 + O2",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:20696"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15379"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16240"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18421"
+            }
+          ],
+          "ecNumber": "1.15.1.1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24140062"
+            },
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "18948262"
+            }
+          ]
+        }
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "hydrogen sulfide + 2 O2 = sulfate + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:85007"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15379"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16189"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:29919"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36630448"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:85008"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36630448"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "COFACTOR",
+        "cofactors": [
+          {
+            "name": "Cu cation",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17888947"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36630448"
+              }
+            ],
+            "cofactorCrossReference": {
+              "database": "ChEBI",
+              "id": "CHEBI:23378"
+            }
+          }
+        ],
+        "note": {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17888947"
+                }
+              ],
+              "value": "Binds 1 copper ion per subunit."
+            }
+          ]
+        }
+      },
+      {
+        "commentType": "COFACTOR",
+        "cofactors": [
+          {
+            "name": "Zn(2+)",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17888947"
+              }
+            ],
+            "cofactorCrossReference": {
+              "database": "ChEBI",
+              "id": "CHEBI:29105"
+            }
+          }
+        ],
+        "note": {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "17888947"
+                }
+              ],
+              "value": "Binds 1 zinc ion per subunit."
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18948262"
+              }
+            ],
+            "value": "Activated by CCS/copper chaperone for superoxide dismutase; can also be activated independently of CCS"
+          }
+        ],
+        "commentType": "ACTIVITY REGULATION"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P08228"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10329151"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12911296"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12963370"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15326189"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "16291742"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "16406071"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17548825"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17888947"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20600836"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20727846"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30037290"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "31292775"
+              }
+            ],
+            "value": "Homodimer; non-disulfide-linked (By similarity). Homodimerization may take place via the ditryptophan cross-link at Trp-33. Heterodimer with CCS (PubMed:31292775). The heterodimer CCS:SOD1 interacts with SLC31A1; this heterotrimer is Cu(1+)-mediated and its maintenance is regulated through SOD1 activation (PubMed:31292775). Interacts with DAOA; the interaction is direct (PubMed:30037290)"
+          }
+        ],
+        "commentType": "SUBUNIT"
+      },
+      {
+        "commentType": "INTERACTION",
+        "interactions": [
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P13928",
+              "geneName": "ANXA8",
+              "intActId": "EBI-2556915"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P63010-2",
+              "geneName": "AP2B1",
+              "intActId": "EBI-11529439"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q0P5N6",
+              "geneName": "ARL16",
+              "intActId": "EBI-10186132"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q16611",
+              "geneName": "BAK1",
+              "intActId": "EBI-519866"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P10415",
+              "geneName": "BCL2",
+              "intActId": "EBI-77694"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9BXK5",
+              "geneName": "BCL2L13",
+              "intActId": "EBI-747430"
+            },
+            "numberOfExperiments": 2,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q5SZD1",
+              "geneName": "C6orf141",
+              "intActId": "EBI-10697767"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P02748",
+              "geneName": "C9",
+              "intActId": "EBI-6677628"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8N5S9-2",
+              "geneName": "CAMKK1",
+              "intActId": "EBI-25850646"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q13191",
+              "geneName": "CBLB",
+              "intActId": "EBI-744027"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "O14618",
+              "geneName": "CCS",
+              "intActId": "EBI-11668690"
+            },
+            "numberOfExperiments": 7,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P53672",
+              "geneName": "CRYBA2",
+              "intActId": "EBI-750444"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P48730-2",
+              "geneName": "CSNK1D",
+              "intActId": "EBI-9087876"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P98082",
+              "geneName": "DAB2",
+              "intActId": "EBI-1171238"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8TCX1",
+              "geneName": "DYNC2LI1",
+              "intActId": "EBI-8568003"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P29692",
+              "geneName": "EEF1D",
+              "intActId": "EBI-358607"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8TC29",
+              "geneName": "ENKUR",
+              "intActId": "EBI-9246952"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P02671-2",
+              "geneName": "FGA",
+              "intActId": "EBI-9640259"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8WW76",
+              "geneName": "FGA",
+              "intActId": "EBI-16467458"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "F2Z2M7",
+              "geneName": "GALNT10",
+              "intActId": "EBI-23893155"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P04406",
+              "geneName": "GAPDH",
+              "intActId": "EBI-354056"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P62879",
+              "geneName": "GNB2",
+              "intActId": "EBI-356942"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9Y4H4",
+              "geneName": "GPSM3",
+              "intActId": "EBI-347538"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8WVV9-3",
+              "geneName": "HNRNPLL",
+              "intActId": "EBI-25845242"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P09017",
+              "geneName": "HOXC4",
+              "intActId": "EBI-3923226"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P80217-2",
+              "geneName": "IFI35",
+              "intActId": "EBI-12823003"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q6DN90-2",
+              "geneName": "IQSEC1",
+              "intActId": "EBI-21911304"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "O14713",
+              "geneName": "ITGB1BP1",
+              "intActId": "EBI-2127319"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q15046",
+              "geneName": "KARS1",
+              "intActId": "EBI-356367"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9NVX7-2",
+              "geneName": "KBTBD4",
+              "intActId": "EBI-25871195"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8N4N3-2",
+              "geneName": "KLHL36",
+              "intActId": "EBI-10973851"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q96JM7-2",
+              "geneName": "L3MBTL3",
+              "intActId": "EBI-11985629"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9BYZ2",
+              "geneName": "LDHAL6B",
+              "intActId": "EBI-1108377"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8N448",
+              "geneName": "LNX2",
+              "intActId": "EBI-2340947"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "O95777",
+              "geneName": "LSM8",
+              "intActId": "EBI-347779"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8TDB4",
+              "geneName": "MGARP",
+              "intActId": "EBI-4397720"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "A4FUJ8",
+              "geneName": "MKL1",
+              "intActId": "EBI-21250407"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8N594",
+              "geneName": "MPND",
+              "intActId": "EBI-2512452"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q96FW1",
+              "geneName": "OTUB1",
+              "intActId": "EBI-1058491"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q6GQQ9-2",
+              "geneName": "OTUD7B",
+              "intActId": "EBI-25830200"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9BYU1",
+              "geneName": "PBX4",
+              "intActId": "EBI-10302990"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q13113",
+              "geneName": "PDZK1IP1",
+              "intActId": "EBI-716063"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q08209-2",
+              "geneName": "PPP3CA",
+              "intActId": "EBI-11959013"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P30044",
+              "geneName": "PRDX5",
+              "intActId": "EBI-722161"
+            },
+            "numberOfExperiments": 10,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P28062-2",
+              "geneName": "PSMB8",
+              "intActId": "EBI-372312"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P62191",
+              "geneName": "PSMC1",
+              "intActId": "EBI-357598"
+            },
+            "numberOfExperiments": 5,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P17980",
+              "geneName": "PSMC3",
+              "intActId": "EBI-359720"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P43686-2",
+              "geneName": "PSMC4",
+              "intActId": "EBI-21522939"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q09028",
+              "geneName": "RBBP4",
+              "intActId": "EBI-620823"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q6ZNA4-2",
+              "geneName": "RNF111",
+              "intActId": "EBI-21535400"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9ULX5",
+              "geneName": "RNF112",
+              "intActId": "EBI-25829984"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9NV58",
+              "geneName": "RNF19A",
+              "intActId": "EBI-1390270"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9BUL9",
+              "geneName": "RPP25",
+              "intActId": "EBI-366570"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P08865",
+              "geneName": "RPSA",
+              "intActId": "EBI-354112"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8N488",
+              "geneName": "RYBP",
+              "intActId": "EBI-752324"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P60896",
+              "geneName": "SEM1",
+              "intActId": "EBI-79819"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q15393",
+              "geneName": "SF3B3",
+              "intActId": "EBI-346977"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q2NKQ1-4",
+              "geneName": "SGSM1",
+              "intActId": "EBI-10182463"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9GZS3",
+              "geneName": "SKIC8",
+              "intActId": "EBI-358545"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P37840",
+              "geneName": "SNCA",
+              "intActId": "EBI-985879"
+            },
+            "numberOfExperiments": 9,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P00441",
+              "geneName": "SOD1",
+              "intActId": "EBI-990792"
+            },
+            "numberOfExperiments": 22,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q3SY56",
+              "geneName": "SP6",
+              "intActId": "EBI-11175533"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8NHS9",
+              "geneName": "SPATA22",
+              "intActId": "EBI-7067260"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q96MF2",
+              "geneName": "STAC3",
+              "intActId": "EBI-745680"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q92797-2",
+              "geneName": "SYMPK",
+              "intActId": "EBI-21560407"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9BZK7",
+              "geneName": "TBL1XR1",
+              "intActId": "EBI-765729"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q15554-4",
+              "geneName": "TERF2",
+              "intActId": "EBI-25840535"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q9H3N1",
+              "geneName": "TMX1",
+              "intActId": "EBI-1051115"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q13829",
+              "geneName": "TNFAIP1",
+              "intActId": "EBI-2505861"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P07951-2",
+              "geneName": "TPM2",
+              "intActId": "EBI-10977815"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P07437",
+              "geneName": "TUBB",
+              "intActId": "EBI-350864"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P0CG47",
+              "geneName": "UBB",
+              "intActId": "EBI-413034"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "O75604-3",
+              "geneName": "USP2",
+              "intActId": "EBI-10696113"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q96NC0",
+              "geneName": "ZMAT2",
+              "intActId": "EBI-2682299"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "O95789-4",
+              "geneName": "ZMYM6",
+              "intActId": "EBI-12949277"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8NBB4-2",
+              "geneName": "ZSCAN1",
+              "intActId": "EBI-12021938"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q2QGD7",
+              "geneName": "ZXDC",
+              "intActId": "EBI-1538838"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P26339",
+              "geneName": "Chga",
+              "intActId": "EBI-990900"
+            },
+            "numberOfExperiments": 5,
+            "organismDiffer": true
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P16014",
+              "geneName": "Chgb",
+              "intActId": "EBI-990820"
+            },
+            "numberOfExperiments": 6,
+            "organismDiffer": true
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P01041",
+              "geneName": "Cstb",
+              "intActId": "EBI-26602017"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": true
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P00441",
+              "intActId": "EBI-990792"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P20029",
+              "geneName": "Hspa5",
+              "intActId": "EBI-772325"
+            },
+            "numberOfExperiments": 7,
+            "organismDiffer": true
+          }
+        ]
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "note": {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19741096"
+                }
+              ],
+              "value": "Predominantly cytoplasmic; the pathogenic variants ALS1 Arg-86 and Ala-94 gradually aggregates and accumulates in mitochondria"
+            }
+          ]
+        },
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19741096"
+                }
+              ],
+              "value": "Cytoplasm",
+              "id": "SL-0086"
+            }
+          },
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "22496122"
+                }
+              ],
+              "value": "Nucleus",
+              "id": "SL-0191"
+            }
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12145308"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19741096"
+              }
+            ],
+            "value": "Unlike wild-type protein, the pathogenic variants ALS1 Arg-38, Arg-47, Arg-86 and Ala-94 are polyubiquitinated by RNF19A leading to their proteasomal degradation. The pathogenic variants ALS1 Arg-86 and Ala-94 are ubiquitinated by MARCH5 leading to their proteasomal degradation"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20600836"
+              }
+            ],
+            "value": "The ditryptophan cross-link at Trp-33 is responsible for the non-disulfide-linked homodimerization. Such modification might only occur in extreme conditions and additional experimental evidence is required"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "22496122"
+              }
+            ],
+            "value": "Palmitoylation helps nuclear targeting and decreases catalytic activity"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24140062"
+              }
+            ],
+            "value": "Succinylation, adjacent to copper catalytic site, probably inhibits activity. Desuccinylation by SIRT5 enhances activity"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "commentType": "DISEASE",
+        "disease": {
+          "diseaseId": "Amyotrophic lateral sclerosis 1",
+          "diseaseAccession": "DI-00108",
+          "acronym": "ALS1",
+          "description": "A neurodegenerative disorder affecting upper motor neurons in the brain and lower motor neurons in the brain stem and spinal cord, resulting in fatal paralysis. Sensory abnormalities are absent. The pathologic hallmarks of the disease include pallor of the corticospinal tract due to loss of motor neurons, presence of ubiquitin-positive inclusions within surviving motor neurons, and deposition of pathologic aggregates. The etiology of amyotrophic lateral sclerosis is likely to be multifactorial, involving both genetic and environmental factors. The disease is inherited in 5-10% of the cases.",
+          "diseaseCrossReference": {
+            "database": "MIM",
+            "id": "105400"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10400992"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10430435"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10732812"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11369193"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11535232"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12145308"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12210393"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12402272"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12754496"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12963370"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14506936"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15056757"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18301754"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18378676"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18552350"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19741096"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "20460594"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21220647"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21247266"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24283821"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27604643"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "31086828"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7496169"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7501156"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7647793"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7655468"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7655469"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7655471"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7700376"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7795609"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7836951"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7870076"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7881433"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7887412"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7951252"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7980516"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7997024"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8069312"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8179602"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8351519"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8446170"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8528216"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8682505"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8875253"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8907321"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8938700"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8990014"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9101297"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9131652"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9365366"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9455977"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9541385"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9696308"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9706719"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "Reference",
+              "id": "Ref.86"
+            }
+          ]
+        },
+        "note": {
+          "texts": [
+            {
+              "value": "The disease is caused by variants affecting the gene represented in this entry"
+            }
+          ]
+        }
+      },
+      {
+        "commentType": "DISEASE",
+        "disease": {
+          "diseaseId": "Spastic tetraplegia and axial hypotonia, progressive",
+          "diseaseAccession": "DI-05666",
+          "acronym": "STAHP",
+          "description": "An autosomal recessive, neurologic disorder characterized by loss of motor abilities in the first year of life, after which severe, progressive spastic tetraparesis develops. Affected individuals have severe axial hypotonia, hyperekplexia, hypertonia, and myokymia, reflecting upper motor neuron involvement. Cognitive development may be affected.",
+          "diseaseCrossReference": {
+            "database": "MIM",
+            "id": "618598"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "31314961"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "31332433"
+            }
+          ]
+        },
+        "note": {
+          "texts": [
+            {
+              "value": "The disease is caused by variants affecting the gene represented in this entry"
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "value": "The protein (both wild-type and ALS1 variants) has a tendency to form fibrillar aggregates in the absence of the intramolecular disulfide bond or of bound zinc ions. These aggregates may have cytotoxic effects. Zinc binding promotes dimerization and stabilizes the native form"
+          }
+        ],
+        "commentType": "MISCELLANEOUS"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the Cu-Zn superoxide dismutase family"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "commentType": "SEQUENCE CAUTION",
+        "sequenceCautionType": "Erroneous gene model prediction",
+        "sequence": "AAC41773.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ]
+      },
+      {
+        "commentType": "SEQUENCE CAUTION",
+        "sequenceCautionType": "Erroneous gene model prediction",
+        "sequence": "CAA25917.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305"
+          }
+        ]
+      },
+      {
+        "commentType": "WEB RESOURCE",
+        "resourceName": "Alsod",
+        "resourceUrl": "https://alsod.ac.uk",
+        "ftp": false,
+        "note": "ALS genetic mutations db"
+      },
+      {
+        "commentType": "WEB RESOURCE",
+        "resourceName": "Wikipedia",
+        "resourceUrl": "https://en.wikipedia.org/wiki/Superoxide_dismutase",
+        "ftp": false,
+        "note": "Superoxide dismutase entry"
+      }
+    ],
+    "features": [
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 47,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 47,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:23378"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12963370"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17548825"
+          }
+        ],
+        "ligand": {
+          "name": "Cu cation",
+          "id": "ChEBI:CHEBI:23378",
+          "note": "catalytic"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 49,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 49,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:23378"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12963370"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17548825"
+          }
+        ],
+        "ligand": {
+          "name": "Cu cation",
+          "id": "ChEBI:CHEBI:23378",
+          "note": "catalytic"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 64,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 64,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:23378"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12963370"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17548825"
+          }
+        ],
+        "ligand": {
+          "name": "Cu cation",
+          "id": "ChEBI:CHEBI:23378",
+          "note": "catalytic"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 64,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 64,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29105"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20727846"
+          }
+        ],
+        "ligand": {
+          "name": "Zn(2+)",
+          "id": "ChEBI:CHEBI:29105",
+          "note": "structural"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 72,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 72,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29105"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20727846"
+          }
+        ],
+        "ligand": {
+          "name": "Zn(2+)",
+          "id": "ChEBI:CHEBI:29105",
+          "note": "structural"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 81,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 81,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29105"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20727846"
+          }
+        ],
+        "ligand": {
+          "name": "Zn(2+)",
+          "id": "ChEBI:CHEBI:29105",
+          "note": "structural"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 84,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 84,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29105"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "20727846"
+          }
+        ],
+        "ligand": {
+          "name": "Zn(2+)",
+          "id": "ChEBI:CHEBI:29105",
+          "note": "structural"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 121,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 121,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:23378"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12963370"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17548825"
+          }
+        ],
+        "ligand": {
+          "name": "Cu cation",
+          "id": "ChEBI:CHEBI:23378",
+          "note": "catalytic"
+        }
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 2,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 2,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N-acetylalanine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1463506"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7002610"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "25944712"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 4,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 4,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 10,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 10,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 92,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 92,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 99,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 99,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Phosphoserine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "18669648"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "20068231"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "24275569"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 103,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 103,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Phosphoserine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "24275569"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 106,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 106,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Phosphoserine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P07632"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 108,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 108,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Phosphoserine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 123,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 123,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "19608861"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 123,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 123,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "24140062"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 137,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 137,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 137,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 137,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P08228"
+          }
+        ]
+      }
+    ]
+  },
+  "P04179": {
+    "url": "https://rest.uniprot.org/uniprotkb/P04179.json",
+    "retrieved": "2026-10-23",
+    "accession": "P04179",
+    "entry_audit": {
+      "firstPublicDate": "1987-03-20",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2017-12-20",
+      "entryVersion": 268,
+      "sequenceVersion": 3
+    },
+    "protein": {
+      "recommendedName": {
+        "fullName": {
+          "value": "Superoxide dismutase [Mn], mitochondrial"
+        },
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10334867"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10852710"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11580280"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19265433"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8605177"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9537987"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9537988"
+              }
+            ],
+            "value": "1.15.1.1"
+          }
+        ]
+      },
+      "flag": "Precursor"
+    },
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10334867"
+              }
+            ],
+            "value": "Destroys superoxide anion radicals which are normally produced within the cells and which are toxic to biological systems"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "2 superoxide + 2 H(+) = H2O2 + O2",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:20696"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15379"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16240"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:18421"
+            }
+          ],
+          "ecNumber": "1.15.1.1",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10334867"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10852710"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11580280"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19265433"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8605177"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9537987"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9537988"
+            }
+          ]
+        }
+      },
+      {
+        "commentType": "COFACTOR",
+        "cofactors": [
+          {
+            "name": "Mn(2+)",
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10852710"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11580280"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "1394426"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19265433"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9537987"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9537988"
+              }
+            ],
+            "cofactorCrossReference": {
+              "database": "ChEBI",
+              "id": "CHEBI:29035"
+            }
+          }
+        ],
+        "note": {
+          "texts": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "10852710"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11580280"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "1394426"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "19265433"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9537987"
+                },
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "9537988"
+                }
+              ],
+              "value": "Binds 1 Mn(2+) ion per subunit."
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19265433"
+              }
+            ],
+            "value": "Homotetramer"
+          }
+        ],
+        "commentType": "SUBUNIT"
+      },
+      {
+        "commentType": "INTERACTION",
+        "interactions": [
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P04179",
+              "intActId": "EBI-716989"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "Q8NHQ1",
+              "geneName": "CEP70",
+              "intActId": "EBI-739624"
+            },
+            "numberOfExperiments": 3,
+            "organismDiffer": false
+          },
+          {
+            "interactantOne": {
+              "uniProtKBAccession": "P04179",
+              "intActId": "EBI-716989"
+            },
+            "interactantTwo": {
+              "uniProtKBAccession": "P04179",
+              "geneName": "SOD2",
+              "intActId": "EBI-716989"
+            },
+            "numberOfExperiments": 2,
+            "organismDiffer": false
+          }
+        ]
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "subcellularLocations": [
+          {
+            "location": {
+              "value": "Mitochondrion matrix",
+              "id": "SL-0170"
+            }
+          }
+        ]
+      },
+      {
+        "commentType": "ALTERNATIVE PRODUCTS",
+        "events": [
+          "Alternative splicing"
+        ],
+        "isoforms": [
+          {
+            "name": {
+              "value": "1"
+            },
+            "isoformIds": [
+              "P04179-1"
+            ],
+            "isoformSequenceStatus": "Displayed"
+          },
+          {
+            "name": {
+              "value": "2"
+            },
+            "isoformIds": [
+              "P04179-2"
+            ],
+            "sequenceIds": [
+              "VSP_042558"
+            ],
+            "isoformSequenceStatus": "Described"
+          },
+          {
+            "name": {
+              "value": "3"
+            },
+            "isoformIds": [
+              "P04179-3"
+            ],
+            "sequenceIds": [
+              "VSP_053762"
+            ],
+            "isoformSequenceStatus": "Described"
+          },
+          {
+            "name": {
+              "value": "4"
+            },
+            "isoformIds": [
+              "P04179-4"
+            ],
+            "sequenceIds": [
+              "VSP_053761"
+            ],
+            "isoformSequenceStatus": "Described"
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "20668652"
+              }
+            ],
+            "value": "Expression is regulated by KRIT1"
+          }
+        ],
+        "commentType": "INDUCTION"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10334867"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "16399855"
+              }
+            ],
+            "value": "Nitrated under oxidative stress. Nitration coupled with oxidation inhibits the catalytic activity"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P09671"
+              }
+            ],
+            "value": "Acetylation at Lys-122 decreases enzymatic activity. Deacetylated by SIRT3 upon exposure to ionizing radiations or after long fasting (By similarity)"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21268071"
+              }
+            ],
+            "value": "Polyubiquitinated; leading to proteasomal degradation. Deubiquitinated by USP36 which increases protein stability"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "commentType": "DISEASE",
+        "disease": {
+          "diseaseId": "Microvascular complications of diabetes 6",
+          "diseaseAccession": "DI-02759",
+          "acronym": "MVCD6",
+          "description": "Pathological conditions that develop in numerous tissues and organs as a consequence of diabetes mellitus. They include diabetic retinopathy, diabetic nephropathy leading to end-stage renal disease, and diabetic neuropathy. Diabetic retinopathy remains the major cause of new-onset blindness among diabetic adults. It is characterized by vascular permeability and increased tissue ischemia and angiogenesis.",
+          "diseaseCrossReference": {
+            "database": "MIM",
+            "id": "612634"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12624725"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18989629"
+            }
+          ]
+        },
+        "note": {
+          "texts": [
+            {
+              "value": "Disease susceptibility is associated with variants affecting the gene represented in this entry"
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the iron/manganese superoxide dismutase family"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "commentType": "WEB RESOURCE",
+        "resourceName": "Wikipedia",
+        "resourceUrl": "https://en.wikipedia.org/wiki/Superoxide_dismutase",
+        "ftp": false,
+        "note": "Superoxide dismutase entry"
+      }
+    ],
+    "features": [
+      {
+        "type": "Transit peptide",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 24,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Mitochondrion",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "6386798"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7498159"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7895732"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9150946"
+          }
+        ]
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 50,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 50,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29035"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10852710"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11580280"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1394426"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19265433"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537987"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537988"
+          },
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "PDB",
+            "id": "1JA8"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP5"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP6"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1EM1"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1N0J"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1QNM"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZSP"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZTE"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZUQ"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "2P4K"
+          }
+        ],
+        "ligand": {
+          "name": "Mn(2+)",
+          "id": "ChEBI:CHEBI:29035"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 98,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 98,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29035"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10852710"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11580280"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1394426"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19265433"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537987"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537988"
+          },
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "PDB",
+            "id": "1JA8"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP5"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP6"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1EM1"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1N0J"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1QNM"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZSP"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZTE"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZUQ"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "2P4K"
+          }
+        ],
+        "ligand": {
+          "name": "Mn(2+)",
+          "id": "ChEBI:CHEBI:29035"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 183,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 183,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29035"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10852710"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11580280"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1394426"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19265433"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537987"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537988"
+          },
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "PDB",
+            "id": "1JA8"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP5"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP6"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1EM1"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1N0J"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1QNM"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZSP"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZTE"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZUQ"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "2P4K"
+          }
+        ],
+        "ligand": {
+          "name": "Mn(2+)",
+          "id": "ChEBI:CHEBI:29035"
+        }
+      },
+      {
+        "type": "Binding site",
+        "location": {
+          "start": {
+            "value": 187,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 187,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "featureCrossReferences": [
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:29035"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10852710"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "11580280"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "1394426"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "19265433"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537987"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9537988"
+          },
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "PDB",
+            "id": "1JA8"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP5"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1AP6"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1EM1"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1N0J"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1QNM"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZSP"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZTE"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "1ZUQ"
+          },
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PDB",
+            "id": "2P4K"
+          }
+        ],
+        "ligand": {
+          "name": "Mn(2+)",
+          "id": "ChEBI:CHEBI:29035"
+        }
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 58,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 58,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "3'-nitrotyrosine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10334867"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "16399855"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 68,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 68,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "19608861"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 68,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 68,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 75,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 75,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 75,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 75,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 114,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 114,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 122,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 122,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 122,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 122,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 130,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 130,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0007744",
+            "source": "PubMed",
+            "id": "19608861"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 130,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 130,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-succinyllysine; alternate",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 202,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 202,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "N6-acetyllysine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P09671"
+          }
+        ]
+      }
+    ]
+  },
+  "P36969": {
+    "url": "https://rest.uniprot.org/uniprotkb/P36969.json",
+    "retrieved": "2026-10-23",
+    "accession": "P36969",
+    "entry_audit": {
+      "firstPublicDate": "1994-06-01",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2008-02-26",
+      "entryVersion": 235,
+      "sequenceVersion": 3
+    },
+    "protein": {
+      "recommendedName": {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ],
+          "value": "Phospholipid hydroperoxide glutathione peroxidase GPX4"
+        },
+        "shortNames": [
+          {
+            "value": "PHGPx"
+          }
+        ],
+        "ecNumbers": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11115402"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ],
+            "value": "1.11.1.12"
+          }
+        ]
+      },
+      "alternativeNames": [
+        {
+          "fullName": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "9705830"
+              }
+            ],
+            "value": "Glutathione peroxidase 4"
+          },
+          "shortNames": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "9705830"
+                }
+              ],
+              "value": "GPx-4"
+            },
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000303",
+                  "source": "PubMed",
+                  "id": "9705830"
+                }
+              ],
+              "value": "GSHPx-4"
+            }
+          ],
+          "ecNumbers": [
+            {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "36608588"
+                }
+              ],
+              "value": "1.11.1.9"
+            }
+          ]
+        }
+      ],
+      "flag": "Precursor"
+    },
+    "comments": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "O70325"
+              },
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P36968"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11115402"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17630701"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24439385"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36608588"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "40281343"
+              }
+            ],
+            "value": "Essential antioxidant peroxidase that directly reduces phospholipid hydroperoxide even if they are incorporated in membranes and lipoproteins (PubMed:40281343). Can also reduce cholesterol hydroperoxide and thymine hydroperoxide (By similarity). Plays a key role in protecting cells from oxidative damage by preventing membrane lipid peroxidation (PubMed:40281343). Required to prevent cells from ferroptosis, a non-apoptotic cell death resulting from an iron-dependent accumulation of lipid reactive oxygen species (PubMed:24439385, PubMed:40281343). The presence of selenocysteine (Sec) versus Cys at the active site is essential for life: it provides resistance to overoxidation and prevents cells against ferroptosis (By similarity). The presence of Sec at the active site is also essential for the survival of a specific type of parvalbumin-positive interneurons, thereby preventing against fatal epileptic seizures (By similarity). May be required to protect cells from the toxicity of ingested lipid hydroperoxides (By similarity). Required for normal sperm development and male fertility (By similarity). Essential for maturation and survival of photoreceptor cells (By similarity). Plays a role in a primary T-cell response to viral and parasitic infection by protecting T-cells from ferroptosis and by supporting T-cell expansion (By similarity). Plays a role of glutathione peroxidase in platelets in the arachidonic acid metabolism (PubMed:11115402). Reduces hydroperoxy ester lipids formed by a 15-lipoxygenase that may play a role as down-regulator of the cellular 15-lipoxygenase pathway (By similarity). Can reduce fatty acid-derived hydroperoxides (PubMed:11115402, PubMed:36608588). Can also reduce small soluble hydroperoxides such as H2O2, cumene hydroperoxide and tert-butyl hydroperoxide (PubMed:17630701, PubMed:36608588)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "a hydroperoxy polyunsaturated fatty acid + 2 glutathione = a hydroxy polyunsaturated fatty acid + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:19057"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:131871"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:134019"
+            }
+          ],
+          "ecNumber": "1.11.1.12",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11115402"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:19058"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "2 glutathione + H2O2 = glutathione disulfide + 2 H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:16833"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16240"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            }
+          ],
+          "ecNumber": "1.11.1.9",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:16834"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "tert-butyl hydroperoxide + 2 glutathione = tert-butanol + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69412"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:45895"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:64090"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17630701"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69413"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "cumene hydroperoxide + 2 glutathione = 2-phenylpropan-2-ol + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69651"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:78673"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:131607"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69652"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(9S)-hydroperoxy-(10E,12Z)-octadecadienoate + 2 glutathione = (9S)-hydroxy-(10E,12Z)-octadecadienoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76687"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:60955"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:77852"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76688"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(13S)-hydroperoxy-(9Z,11E)-octadecadienoate + 2 glutathione = (13S)-hydroxy-(9Z,11E)-octadecadienoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:48888"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57466"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:90850"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:48889"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(5S)-hydroperoxy-(6E,8Z,11Z,14Z)-eicosatetraenoate + 2 glutathione = (5S)-hydroxy-(6E,8Z,11Z,14Z)-eicosatetraenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:48620"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57450"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:90632"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:48621"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(12R)-hydroperoxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + 2 glutathione = (12R)-hydroxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76691"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:75230"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:83343"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76692"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(12S)-hydroperoxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + 2 glutathione = (12S)-hydroxy-(5Z,8Z,10E,14Z)-eicosatetraenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:50708"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57444"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:90680"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11115402"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:50709"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "11115402"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(15S)-hydroperoxy-(5Z,8Z,11Z,13E)-eicosatetraenoate + 2 glutathione = (15S)-hydroxy-(5Z,8Z,11Z,13E)-eicosatetraenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76695"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57409"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57446"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76696"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(5S)-hydroperoxy-(6E,8Z,11Z,14Z,17Z)-eicosapentaenoate + 2 glutathione = (5S)-hydroxy-(6E,8Z,11Z,14Z,17Z)-eicosapentaenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76699"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195399"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195400"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76700"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(12S)-hydroperoxy-(5Z,8Z,10E,14Z,17Z)-eicosapentaenoate + 2 glutathione = (12S)-hydroxy-(5Z,8Z,10E,14Z,17Z)-eicosapentaenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76703"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:90772"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195401"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76704"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(15S)-hydroperoxy-(5Z,8Z,11Z,13E,17Z)-eicosapentaenoate + 2 glutathione = (15S)-hydroxy-(5Z,8Z,11Z,13E,17Z)-eicosapentaenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76707"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:132087"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:194369"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76708"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(15S)-hydroperoxy-(11Z,13E)-eicosadienoate + 2 glutathione = (15S)-hydroxy-(11Z,13E)-eicosadienoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76711"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:144832"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195402"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76712"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "(17S)-hydroperoxy-(4Z,7Z,10Z,13Z,15E,19Z)-docosahexaenoate + 2 glutathione = (17S)-hydroxy-(4Z,7Z,10Z,13Z,15E,19Z)-docosahexaenoate + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76715"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:133795"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195403"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76716"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "a hydroperoxy-1,2-diacyl-glycero-3-phosphocholine + 2 glutathione = a hydroxy-1,2-diacyl-glycero-3-phosphocholine + glutathione disulfide + H2O",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:76731"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15377"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57925"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58297"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195423"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:195424"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "36608588"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:76732"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "36608588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "O70325"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17630701"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "36828120"
+              }
+            ],
+            "value": "Monomer. Has a tendency to form higher mass oligomers (PubMed:17630701). Interacts with FUNDC1; this interaction promotes GPX4 recruitment into mitochondria through TOM/TIM complex where it is degraded by mitophagy (PubMed:36828120). Interacts (via KFERQ motif) with HSPA8; promoting its association with LAMP2 and degradation via chaperone-mediated autophagy (By similarity)"
+          }
+        ],
+        "commentType": "SUBUNIT"
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "molecule": "Isoform Mitochondrial",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000250",
+                  "source": "UniProtKB",
+                  "id": "O70325"
+                }
+              ],
+              "value": "Mitochondrion",
+              "id": "SL-0173"
+            }
+          }
+        ]
+      },
+      {
+        "commentType": "SUBCELLULAR LOCATION",
+        "molecule": "Isoform Cytoplasmic",
+        "subcellularLocations": [
+          {
+            "location": {
+              "evidences": [
+                {
+                  "evidenceCode": "ECO:0000269",
+                  "source": "PubMed",
+                  "id": "11115402"
+                }
+              ],
+              "value": "Cytoplasm",
+              "id": "SL-0086"
+            }
+          }
+        ]
+      },
+      {
+        "commentType": "ALTERNATIVE PRODUCTS",
+        "events": [
+          "Alternative initiation"
+        ],
+        "isoforms": [
+          {
+            "name": {
+              "value": "Mitochondrial"
+            },
+            "isoformIds": [
+              "P36969-1"
+            ],
+            "isoformSequenceStatus": "Displayed"
+          },
+          {
+            "name": {
+              "value": "Cytoplasmic"
+            },
+            "isoformIds": [
+              "P36969-2"
+            ],
+            "sequenceIds": [
+              "VSP_018740"
+            ],
+            "isoformSequenceStatus": "Described"
+          }
+        ]
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11115402"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "9705830"
+              }
+            ],
+            "value": "Present primarily in testis. Expressed in platelets (at protein level) (PubMed:11115402)"
+          }
+        ],
+        "commentType": "TISSUE SPECIFICITY"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "40281343"
+              }
+            ],
+            "value": "Degraded via chaperone-mediated autophagy, promoting ferroptosis"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "40281343"
+              }
+            ],
+            "value": "Hydroxylation by EGLN3/PHD3 promotes its stabilization by preventing degradation via chaperone-mediated autophagy"
+          }
+        ],
+        "commentType": "PTM"
+      },
+      {
+        "commentType": "DISEASE",
+        "disease": {
+          "diseaseId": "Spondylometaphyseal dysplasia, Sedaghatian type",
+          "diseaseAccession": "DI-04167",
+          "acronym": "SMDS",
+          "description": "A form of spondylometaphyseal dysplasia, a group of short stature disorders distinguished by abnormalities in the vertebrae and the metaphyses of the tubular bones. SMDS is a neonatal lethal form characterized by severe metaphyseal chondrodysplasia with mild limb shortening, platyspondyly, cardiac conduction defects, and central nervous system abnormalities.",
+          "diseaseCrossReference": {
+            "database": "MIM",
+            "id": "250220"
+          },
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "24706940"
+            }
+          ]
+        },
+        "note": {
+          "texts": [
+            {
+              "value": "The disease is caused by variants affecting the gene represented in this entry"
+            }
+          ]
+        }
+      },
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Belongs to the glutathione peroxidase family"
+          }
+        ],
+        "commentType": "SIMILARITY"
+      },
+      {
+        "commentType": "WEB RESOURCE",
+        "resourceName": "Protein Spotlight",
+        "resourceUrl": "https://www.proteinspotlight.org/back_issues/205/",
+        "ftp": false,
+        "note": "Life, a subtle balance - Issue 205 of July 2018"
+      }
+    ],
+    "features": [
+      {
+        "type": "Transit peptide",
+        "location": {
+          "start": {
+            "value": 1,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": null,
+            "modifier": "UNKNOWN"
+          }
+        },
+        "description": "Mitochondrion",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255"
+          }
+        ]
+      },
+      {
+        "type": "Active site",
+        "location": {
+          "start": {
+            "value": 73,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 73,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "O70325"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 40,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 40,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "Phosphoserine",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000250",
+            "source": "UniProtKB",
+            "id": "P36970"
+          }
+        ]
+      },
+      {
+        "type": "Modified residue",
+        "location": {
+          "start": {
+            "value": 186,
+            "modifier": "EXACT"
+          },
+          "end": {
+            "value": 186,
+            "modifier": "EXACT"
+          }
+        },
+        "description": "4-hydroxyproline",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "40281343"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-23",
+  "services": [
+    "PubMed/PMC/publisher web discovery",
+    "Europe PMC REST primary metadata/abstract recovery",
+    "Existing repository bibliography, food/substance records and BRS4 hub-category definitions"
+  ],
+  "date_boundary": "Published by 2026-10-23; no exhaustive recency cut-off imposed.",
+  "query_groups": [
+    {
+      "question": "Separate ROS source regulation, adaptive signalling and injury",
+      "queries": [
+        "Orr suppressors superoxide production site IQ mitochondria oxidative phosphorylation",
+        "Chouchani succinate accumulation ischaemia reperfusion mitochondrial ROS",
+        "mitochondrial complex III required hypoxia induced ROS cellular oxygen sensing Guzy 2005"
+      ],
+      "outcome": "Primary source-specific and adaptive-signalling evidence supports the approved operation; pathological reperfusion not a food effect."
+    },
+    {
+      "question": "Dietary influence versus antioxidant assumptions",
+      "queries": [
+        "mitochondrial ROS high fat meal human mitochondrial hydrogen peroxide emission Anderson 2009",
+        "fish oil supplementation human muscle mitochondrial hydrogen peroxide emission",
+        "Ristow 2009 antioxidants prevent health promoting effects physical exercise humans",
+        "resveratrol supplementation exercise mitochondrial ROS null humans",
+        "ketones mitochondrial reactive oxygen species complex I neurons Maalouf 2007"
+      ],
+      "outcome": "Human diet/mixture effects and rat ketone experiments assessed without constituent splitting. Fish oil increased emission without measured damage; generic antioxidant supplementation cannot be assumed beneficial."
+    },
+    {
+      "question": "Vitamin E and ubiquinol local protection / nulls",
+      "queries": [
+        "mitochondrial vitamin E deficiency rat lipid peroxidation respiration",
+        "mitochondrial GPX4 vitamin E knockout rescue lipid peroxidation primary study",
+        "mitochondrial CoQ antioxidant peroxidation reduced coenzyme Q primary mitochondria",
+        "coenzyme Q10 supplementation randomized trial mitochondrial cytopathy Glover 2010",
+        "ubiquinol supplementation mitochondrial membrane lipid peroxidation humans randomized"
+      ],
+      "outcome": "Tissue-dependent Vitamin E evidence and primary ubiquinol particle chemistry separated from trials, clinical outcomes and dietary delivery."
+    },
+    {
+      "question": "Glutathione, sulfur supply and compartmental delivery",
+      "queries": [
+        "SLC25A39 mitochondrial glutathione import 2021",
+        "dietary cysteine mitochondrial glutathione depletion protection rat",
+        "dietary cysteine glutathione mitochondrial rats N acetylcysteine transport ethanol cholesterol",
+        "sulforaphane mitochondrial glutathione oxidative damage primary study",
+        "oral sulforaphane broccoli sprouts plasma peak 1.77 micromolar 2002 Ye"
+      ],
+      "outcome": "Import and local use distinguished from precursor supply. NAC failure in ethanol model preserved; human sulforaphane conjugate-rich exposure does not establish free-compound culture equivalence."
+    },
+    {
+      "question": "Enzyme-specific mineral dependencies",
+      "queries": [
+        "manganese SOD2 mitochondrial superoxide deficiency dietary manganese study",
+        "manganese FeSOD2 diet 2018",
+        "selenium mitochondrial glutathione peroxidase 4 dietary deficiency",
+        "selenium deficiency phospholipid hydroperoxide glutathione peroxidase mitochondria rat 1995"
+      ],
+      "outcome": "Manganese SOD2 metal occupancy/mitochondrial protein injury supports a bounded Capacity relationship. Selenium PHGPX dietary evidence is not mitochondrial-isoform specific; no generic mineral package admitted."
+    },
+    {
+      "question": "SOP and lifestyle landscape",
+      "queries": [
+        "exercise training mitochondrial hydrogen peroxide emission humans sleep restriction mitochondrial ROS",
+        "caloric restriction mitochondrial hydrogen peroxide production humans trial",
+        "sleep restriction mitochondrial hydrogen peroxide emission humans muscle",
+        "melatonin mitochondrial lipid peroxidation randomized trial mitochondria",
+        "breathing meditation mitochondrial ROS randomized primary",
+        "circadian light stress breathing mitochondrial hydrogen peroxide emission intervention",
+        "Jarrett 2008 ketogenic diet increases mitochondrial glutathione protects DNA oxidative damage"
+      ],
+      "outcome": "Activity/retraining supported in bounded muscle context. Sleep respiration, generic redox outcomes, mtDNA protection and circadian hypotheses do not substitute for the precise source/protein/membrane endpoints."
+    },
+    {
+      "question": "Food supply and missing edges",
+      "queries": [
+        "coenzyme Q10 foods Mattila Kumpulainen 2001 contents"
+      ],
+      "outcome": "CoQ food composition is credible but does not establish the reduced-form protective delivery chain. Vitamin E/manganese existing USDA food edges and substance pages inspected; three provisional mappings remain exposed."
+    }
+  ],
+  "hub_category_screen": [
+    {
+      "category": "Food Preparation & Delivery",
+      "candidates": "Gentle marine-fat cooking; avoid degraded fats; iron/vitamin C pairing; soaking/sprouting; oxalate reduction; whole grains.",
+      "decision": "Legacy leads preserved. Absorption/food oxidation does not by itself establish either approved mitochondrial operation."
+    },
+    {
+      "category": "Conditional Supplementation",
+      "candidates": "Vitamin E; CoQ/ubiquinol; manganese/selenium; NAC/SAM; sulforaphane; MitoQ.",
+      "decision": "Deficiency/genetic/preclinical contexts assessed. No general optimisation protocol admitted; MitoQ DNA/damage or performance endpoints not substituted for local membrane/protein protection."
+    },
+    {
+      "category": "Dietary & Fasting Protocols",
+      "candidates": "High-fat exposure; fish-oil mixture; caloric restriction; ketogenic feeding; timing.",
+      "decision": "PM4 adverse high-fat exposure retained as an experimental protocol with Dietary input No; ketogenic/CR evidence is contextual or unresolved, not a general recommendation."
+    },
+    {
+      "category": "Light & Circadian Optimisation",
+      "candidates": "Sleep/circadian timing; light-dependent metabolic regulation.",
+      "decision": "Screened despite empty hub category. No sufficiently verified mission-specific practical protocol identified in this bounded assessment; not a claim of biological absence."
+    },
+    {
+      "category": "Stress & Autonomic Regulation",
+      "candidates": "Breathing/meditation and adaptive stress.",
+      "decision": "No adequately verified source-generation/local membrane-protection intervention identified. General oxidative-stress markers do not qualify."
+    },
+    {
+      "category": "Lifestyle Priorities",
+      "candidates": "Activity/inactivity, sleep/recovery, smoking/pollution/alcohol.",
+      "decision": "PM4 aerobic activity retained with experimental context. PM5 sleep/recovery and exposure leads preserved but not newly admitted from general mitochondrial or systemic endpoints."
+    }
+  ],
+  "stopping_rationale": "Core source regulation/adaptive signalling and local protective operations have primary support. Candidate-specific second searches addressed formulation, exposure, transport, tissue specificity and nulls. Remaining relations are explicitly unresolved or contextual after retrieval; no evidence-of-absence claim, mandatory human end-to-end assay or fixed Finding count is used.",
+  "remaining_retrieval_limits": "Some historical chapters/full methods and exhaustive independent replication were not recovered. Source-specific limitations are distinguished from these retrieval limits; no SEC/CC score is invented."
+}

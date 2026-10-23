@@ -11802,6 +11802,1267 @@
         ],
         "unscoredReason": "Interpretive boundary; not numerically scored"
       }
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f1-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F1",
+        "title": "Mitochondrial oxidant production is source- and state-dependent",
+        "proposition": "Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Brand site-selective suppressors and Chouchani reperfusion perturbations test source generation, respiration and reverse-electron-transport endpoints in the stated experimental models (Brand Figs 1–2, 5; Chouchani Figs 2–4). No food or human efficacy proposition is scored.",
+          "B": "Source counterscreens and respiration controls limit nonspecific inhibition, and reperfusion experiments add tracer/pharmacological checks. Tool selectivity and between-model transfer remain material residual concerns; this is not a fully bias-protected dietary trial.",
+          "P": "Dose-response/selectivity and respiratory measurements discriminate source suppression from generalized inhibition. The limits of selectivity and translation across preparations leave uncertainty in effect size and applicable source boundaries; P2 is not established.",
+          "R": "The two research programmes provide partially matching evidence for source-dependent complex-I oxidant regulation. They do not independently replicate every component of this composite Finding; multiple models within Brand are not counted as independent research-group replication."
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness. These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays isolate gross production."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_brand2016_20261023",
+            "brs4_chouchani2014_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cmet.2016.08.012",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific. Tool compounds are not dietary inputs; effects across models are not independent human replications."
+            },
+            {
+              "doi": "10.1038/nature13909",
+              "role": "supporting exact scoped proposition",
+              "access": "full text XML recovered",
+              "assessment": "Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury. Pathological reperfusion is not a meal experiment; the origin of ischaemic succinate has been debated in subsequent primary work. No dietary succinate advice follows."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "brand2016: Figures 1–2 selectivity/respiration counterscreens and Figure 5 perfused heart",
+          "chouchani2014: main Figures 2–4 and extended methods"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "d07ccb292a479016ed8f9d7735fc79c3d3e6d00154c39a2fec0010914362a46b"
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f2-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F2",
+        "title": "Mitochondrial ROS can carry adaptive signals",
+        "proposition": "Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "unresolved"
+        },
+        "rationale": {
+          "D": "Guzy directly perturbs complex III and measures hypoxic oxidant signalling and HIF in the cell context specified by the Finding.",
+          "B": "The recovered abstract identifies genetic/pharmacological perturbations, but control performance and reporting protections in the load-bearing Guzy experiments have not been sufficiently appraised. This is a retrieval/assessment gap, not B0.",
+          "P": "Figure-level uncertainty, assay discrimination and the extent of HIF suppression in Guzy were not recovered sufficiently to distinguish P1/P2 defensibly. An abstract reporting significance is not an uncertainty assessment.",
+          "R": "Bell 2007 is a relevant complementary Qo-site investigation, but exact-proposition independence and the relationship to the Guzy model have not been fully assessed; no default R0 is assigned."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No total calculated: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.",
+          "Recover Guzy figures/methods and appraise control performance and uncertainty; compare Bell/Guzy model and research dependencies before a complete SEC."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_guzy2005_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cmet.2005.05.001",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Complex-III function and oxidant signalling were required for the tested hypoxic HIF response. Context-dependent cell signalling; not all oxygen-sensing pathways or physiological states require this mechanism."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16054089/",
+              "limitation": "Recover Guzy figures/methods and appraise control performance and uncertainty; compare Bell/Guzy model and research dependencies before a complete SEC."
+            }
+          ],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Guzy 2005 primary abstract, PMID16054089",
+          "Bell 2007 primary abstract, PMID17562787 (targeted complementary check)"
+        ],
+        "followUp": "Recover Guzy figures/methods and appraise control performance and uncertainty; compare Bell/Guzy model and research dependencies before a complete SEC.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "2e0c4f7188135fad0b46c6199760058ec29b1d0620eb9ca6207029ab1823afb3"
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f3-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F3",
+        "title": "High-fat exposure altered mitochondrial H2O2-emitting potential",
+        "proposition": "A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Anderson Fig. 6 tests the specified meal/short-feeding exposure and human muscle H2O2 emission. Its separate rodent interventions support the separately stated rodent clause, not human mediation.",
+          "B": "Within-person baseline and validated emission/respirometry assays help attribution, but the sequential human feeding design lacks a randomized contemporaneous meal comparator; diet/time/order confounding remains. The scored statement is the observed experiment, not a causal replacement-diet claim.",
+          "P": "Fig. 6 reports participant-level/sample-size context, mean/SEM and group comparisons; the rise is informative for the tested exposure. Nine men, assay-specific conditions and uncertain magnitude beyond this sample preclude P2. Rodent effects are not pooled with human precision.",
+          "R": "Only one independent human feeding dataset supports the exact meal/five-day muscle-emission result in the bounded assessed body. The obese cross-section and rodent arms do not replicate that exposure/population proposition. R0 describes this scoped body, not proof of absence throughout the literature."
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all dietary fats, brain outcomes or human causal mediation."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_anderson2009_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1172/jci37048",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity. The meal provided 35% of daily energy; post-meal biopsy was at four hours. Small non-randomised feeding sequence and assay-specific emission; rodent causality must not be assigned to the human cohort."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Anderson 2009 Figure 6 and Human studies/Statistics"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "fae7ad6251bc104c01d079160f62e65e214a72c6b019bed30fd5d089b3752720"
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f4-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F4",
+        "title": "Inactivity and training changed mitochondrial H2O2 emission",
+        "proposition": "Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Gram measures H2O2 emission at controlled membrane potential before immobilisation and after retraining; Fig. 9 directly matches the principal claim. The separate acute study supplies only the distinct respiratory-state-dependent clause.",
+          "B": "Within-person measures and the contralateral-leg comparator address baseline differences. Sequential recovery/retraining and resumption of ordinary activity cannot be separated, and not all state-specific assays normalize similarly.",
+          "P": "Gram Figs 8–10 show SEM and protocol-specific comparisons at fixed potential, supporting the scoped direction. Recovery varies by respiratory state, comparator-leg changes occur, and age/size estimates remain uncertain; P1 applies without claiming complete recovery in every state.",
+          "R": "One independent immobilisation/retraining cohort carries the exact longitudinal claim. Young/older strata are not two research-group replications; the acute-exercise cohort tests a different protocol. R0 is for this explicitly bounded evidence body."
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "Measured emission is not pure source production. Immobilisation/retraining does not establish a universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed into “exercise lowers ROS”."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_gram2015_20261023",
+            "brs4_acuteexercise2017_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1113/jp270211",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes. Sequential design; skeletal muscle only; antioxidant-enzyme changes may influence emission."
+            },
+            {
+              "doi": "10.1371/journal.pone.0188421",
+              "role": "supporting exact scoped proposition",
+              "access": "full text XML recovered",
+              "assessment": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition. Not a uniform decrease; exercise/insulin timing and substrates matter; no neurological outcome."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Gram 2015 Figures 8–10 and membrane-potential normalization methods",
+          "Acute exercise 2017 Results and state-specific assays"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "66a5ef06417d34535f220b9e8345fa12b0f4ec2bf2c95e3ea7098ed2dfeb8437"
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f5-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F5",
+        "title": "Omega-3 exposure need not reduce mitochondrial ROS emission",
+        "proposition": "Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "unresolved",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Herbst directly measures the specified formulation, mitochondrial fatty acids, emission and selected damage markers before/after 12 weeks.",
+          "B": "The pre/post study has no placebo arm; temporal and behavioural confounding and selective endpoint sensitivity remain. The Finding is kept as a description of measured endpoints, not a causal claim of harm or safety.",
+          "P": "Emission and membrane results are informative, but the damage-marker non-increase has no prespecified equivalence boundary or recovered uncertainty sufficient to exclude a meaningful increase. Do not turn a nonsignificant marker result into P0, P2, or proof of no injury.",
+          "R": "One independent pre/post cohort supports the exact formulation/time/endpoint combination in the scoped appraisal; two recruitment rounds are not independent research-group replications."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No total calculated: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.",
+          "Appraise damage-marker effect estimates/uncertainty against a justified boundary; retain the descriptive non-increase without interpreting equivalence or safety."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_herbst2014_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1113/jphysiol.2013.267336",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not. No placebo comparison; tested mixture, not independent effects of either constituent or ordinary fish."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24396061/",
+              "limitation": "Appraise damage-marker effect estimates/uncertainty against a justified boundary; retain the descriptive non-increase without interpreting equivalence or safety."
+            }
+          ],
+          "contradictoryAssessment": "No significant increase in selected damage markers is retained; equivalence and absence of harm are not established."
+        },
+        "evidenceLocations": [
+          "Herbst 2014 Methods, Figure 6 ROS/damage measurements and statistical analysis"
+        ],
+        "followUp": "Appraise damage-marker effect estimates/uncertainty against a justified boundary; retain the descriptive non-increase without interpreting equivalence or safety.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "5c7f9c1dc32c9f520075a8ff73f52d2fbfe4d1a4a79a749f0809b68734f54cbc"
+    },
+    {
+      "record": {
+        "id": "brs4-pm4-pm4-f6-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F6",
+        "title": "Ketones changed oxidant responses in neuronal preparations",
+        "proposition": "A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Maalouf directly tests the BHB/acetoacetate mixture in glutamate-stressed neurons and calcium-stressed isolated mitochondria, with oxidant and NADH/respiration assays.",
+          "B": "Parallel electrophysiology, survival, fluorescent and respiration controls triangulate effects. Dye specificity, preparation selection and incomplete allocation/blinding protections leave residual bias; the cells/assays are not independent cohorts.",
+          "P": "Figures 2–5 and same-day respiration controls distinguish the direction at the tested concentrations. Small preparations, assay-dependent oxidant specificity and uncertain mediation magnitude justify P1 rather than P2.",
+          "R": "Only Maalouf tests the full stress/mixture/NADH conjunction in the assessed body. Noh-related neuronal survival and Jarrett ketogenic feeding are partial contextual corroboration, not replication of the same mechanistic experiment."
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "The experiment tested a mixture, not either constituent alone or a ketogenic food intervention; fluorescence and preparation context constrain source attribution."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_maalouf2007_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.neuroscience.2006.11.065",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH. Mechanism engagement in a stress model; no ordinary-food effect, universal ketone response or human brain outcome."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Maalouf 2007 Figures 2–5, mitochondrial respiration and statistics"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "6c1f10f2f01ad387199788c4af4c8aefc2712aa127003e9a183e7acd239d999b"
+    },
+    {
+      "record": {
+        "id": "brs4-pm5-pm5-f1-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F1",
+        "title": "Vitamin E protection depends on tissue and stress context",
+        "proposition": "Vitamin E deficiency and repletion experiments support a protective role for vitamin E in selected mitochondrial membranes. Mitochondrial-GPX4 loss in mice caused retinal lipid oxidation and photoreceptor loss partly ameliorated by vitamin E. Other rat liver experiments did not show the same dependence.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 1,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "The exact synthesis combines membrane protection, deficiency and retinal mitochondrial-GPX4 genetics. Rafique respiratory-chain activity and whole-retina lipid/photoreceptor rescue require an explicit bridge to local mitochondrial membrane protection; D1 preserves this inferential step.",
+          "B": "Isoform-specific knockout/control comparisons, lipid assays and dietary rescue improve attribution. Small tissue/model samples, developmental effects and incomplete protection against allocation/litter-related confounding remain; tissue divergence is retained.",
+          "P": "Azuma Figures 1–3 report replicate counts, variability and partial rescue with retained null cone endpoints; the direction is informative but rescue size and organelle-specific attribution remain uncertain. No numerical pooling across tissues.",
+          "R": "Independent rat and mouse research lines give partial confirmation of context-dependent protective capacity with different endpoints. Liver nulls constrain rather than negate the tissue-qualified proposition; they do not warrant R2 universal protection."
+        },
+        "rawScore": 4,
+        "adjustedScore": 4,
+        "capRationale": "D1 ceiling 5 applies; raw 4 remains adjusted 4. No B0/P0 cap applies.",
+        "limitations": [
+          "Capacity is not benefit from extra intake. Deficiency models, mitochondrial-GPX4 deletion and high supplemental exposure do not establish ordinary-food equivalence, uniform protection across tissues or cognitive benefit. Retinal lipid assays were not measurements restricted to isolated mitochondrial membranes."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_rafique2001_20261023",
+            "brs4_azuma2022_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1042/0264-6021:3570887",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract/article landing page recovered; scanned PDF methods/figures not extracted",
+              "assessment": "Muscle respiratory-chain activity decreased with deficiency, whereas liver activity increased; vitamin E deficiency did not exacerbate induced liver-particle peroxidation/inhibition under the tested conditions. Tissue divergence and the liver null are central; no universal mitochondrial requirement or human optimisation dose."
+            },
+            {
+              "doi": "10.1016/j.jbc.2022.101824",
+              "role": "supporting exact scoped proposition",
+              "access": "full text XML recovered",
+              "assessment": "Photoreceptor loss and oxidised DHA-containing phosphatidylethanolamine increased; vitamin E partly rescued retinal degeneration. The enriched diet was 1000 IU/kg feed, not a human prescription. Tissue lipid oxidation and isoform-specific genetics do not establish a food intervention."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "Rafique liver null/divergent tissue responses and incomplete Azuma cone rescue constrain universal protection; retained in the exact proposition."
+        },
+        "evidenceLocations": [
+          "Azuma 2022 Figures 1–3 and animal/diet/statistics methods",
+          "Rafique 2001 primary abstract; archived full page has no extracted original PDF methods"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "31e0d53704dbe759b17209f55c903d84795819c0598b673e1fabb771ad3fdf4a"
+    },
+    {
+      "record": {
+        "id": "brs4-pm5-pm5-f2-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F2",
+        "title": "Ubiquinol has a local antioxidant role distinct from electron transport",
+        "proposition": "Reduced CoQ10 inhibited induced lipid peroxidation in beef-heart submitochondrial particles even after vitamin E removal, demonstrating a local protective chemistry separate from its electron-carrier role.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "unresolved",
+          "R": "unresolved"
+        },
+        "rationale": {
+          "D": "Forsmark extraction/reconstitution directly tests ubiquinol protection in particles without vitamin E; the clinical Glover trial is contextual and is not used as antioxidant-mechanism replication.",
+          "B": "Extraction and separate/combined reconstitution with HPLC composition checks and oxygen/TBARS endpoints address obvious material confounding. Isolation and chemical initiation remain material assay concerns; not a dietary delivery experiment.",
+          "P": "Primary PDF methods and abstract were recovered, but quantitative curve dispersion, biological replicate independence and measurement uncertainty were not established sufficiently for a complete P judgement. Missing uncertainty is not P0.",
+          "R": "One pivotal reconstitution paper is verified; whether earlier cited particle experiments independently reproduce vitamin-E-independent protection has not been appraised. No R0 inferred from incomplete historical retrieval."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No total calculated: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "Reconstitution is not dietary delivery. Endogenous CoQ synthesis, oxidised/reduced forms, supplement formulation, tissue uptake and membrane antioxidant activity are distinct relationships. A mitochondrial-disease trial showed only limited effects and did not establish local antioxidant mediation.",
+          "Recover and appraise full figure-level quantitative reporting and independent historical particle experiments for the exact vitamin-E-independent proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_forsmark1991_20261023"
+          ],
+          "contextual": [
+            "brs4_glover2010_20261023"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/0014-5793(91)80720-n",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract examined; PMID2065780. No full-method concentrations extracted.",
+              "assessment": "Ubiquinol inhibited lipid peroxidation even without vitamin E. Isolated particle chemistry; no oral delivery, tissue dose or human outcome."
+            },
+            {
+              "doi": "10.1002/mus.21758",
+              "role": "contextual; not independent replication of the core mechanism",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Small effects on exercise aerobic capacity and post-exercise lactate; other clinically relevant variables did not improve. Not proof of mitochondrial membrane protection or ordinary-food efficacy; disease/formulation-specific exposure."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/2065780/",
+              "limitation": "Recover and appraise full figure-level quantitative reporting and independent historical particle experiments for the exact vitamin-E-independent proposition."
+            }
+          ],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Forsmark 1991 abstract and primary PDF page 39 methods",
+          "Glover 2010 clinical trial abstract (context only)"
+        ],
+        "followUp": "Recover and appraise full figure-level quantitative reporting and independent historical particle experiments for the exact vitamin-E-independent proposition.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "babf27509875274c6668c5102d769a7c91c914592ba8391db6f65fd6aa441174"
+    },
+    {
+      "record": {
+        "id": "brs4-pm5-pm5-f3-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F3",
+        "title": "Mitochondrial glutathione requires compartmental transport",
+        "proposition": "SLC25A39 perturbation and organelle uptake experiments establish that mitochondrial glutathione depends on import. Precursor supply, cytosolic synthesis, mitochondrial transport and local glutathione use are separate steps.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 2,
+          "P": 2,
+          "R": 2
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Wang and Shi directly measure mitochondrial GSH and isotope-labelled organelle uptake after SLC25A39 perturbation. The scored proposition is compartmental import, not GSH antioxidant efficacy, dietary precursor success or clinical protection.",
+          "B": "Independent genetic perturbations, cDNA rescue, tag/background controls, organelle separation, isotope uptake time courses and structure-function mutants address off-target, contamination and indirect synthesis explanations (Wang Fig. 3; Shi Figs 4–5). These are design-appropriate protections for this biochemical proposition.",
+          "P": "Uptake contrasts, time courses and rescue/mutant comparisons with independent biological samples and LC-MS quality controls resolve the qualitative presence of an import dependency. The decision boundary is discrimination from intact uptake after knockout or merely cytosolic depletion; no precise human flux is inferred.",
+          "R": "Wang (Birsoy group) and Shi (Shen group) independently establish the same SLC25A39/GSH-import relationship with distinct screens and uptake experiments. Colell is context for transport limitations, not a third SLC25A39 replication."
+        },
+        "rawScore": 8,
+        "adjustedScore": 8,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "Glutathione-dependent iron–sulfur-cluster maintenance is not interchangeable with peroxide detoxification. Cytosolic or blood glutathione does not establish mitochondrial delivery; in ethanol-fed rats NAC failed to restore mitochondrial GSH whereas SAM supplementation did."
+        ],
+        "sources": {
+          "supporting": [
+            "wang_slc25a39_2021",
+            "brs4_shi2022_20261023"
+          ],
+          "contextual": [
+            "brs4_fernandez1997_20261023"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1038/s41586-021-04025-w",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "SLC25A39 was required to maintain mitochondrial GSH; experiments highlighted iron–sulfur-cluster biology rather than establishing antioxidant buffering as the sole essential function. Not an oral precursor trial; organelle GSH concentration is not protective flux."
+            },
+            {
+              "doi": "10.1038/s41467-022-30126-9",
+              "role": "supporting exact scoped proposition",
+              "access": "full text XML recovered",
+              "assessment": "SLC25A39 loss impaired GSH import and OXPHOS; intramitochondrial labelled GSSG supported use of imported GSH. GSSG labelling does not isolate GPX4 activity or prove protection from a dietary precursor."
+            },
+            {
+              "doi": "10.1002/hep.510260323",
+              "role": "contextual; not independent replication of the core mechanism",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "SAM restored mitochondrial GSH after ethanol feeding; NAC did not. Specific ethanol-induced membrane/transport impairment; not evidence that NAC never works or that ordinary sulfur foods are ineffective."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Wang 2021 Figure 3 and GSH uptake assay / Methods",
+          "Shi 2022 Figures 4–5, organelle uptake and statistical reporting"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "51bba122507118522c9506a244cafe9c219fa8941865285a8bc91d270b5eda46"
+    },
+    {
+      "record": {
+        "id": "brs4-pm5-pm5-f4-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F4",
+        "title": "SOD2 metal occupancy affects mitochondrial protein injury",
+        "proposition": "Manganese supports the normal catalytic identity of mitochondrial SOD2. In manganese-deficient or iron-enriched mouse diets, iron-substituted SOD2 acquired prooxidant activity associated with mitochondrial protein oxidation, including complex I.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 2,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Ganini directly tests Mn/Fe SOD2 identity and measures prooxidant activity, mitochondrial protein radicals and complex-I-related injury in the stated protein/cell/mouse settings.",
+          "B": "Metal analysis, matched proteins, peroxide controls, orthogonal radical assays and cellular Mn rescue address major chemistry artefacts. Mouse dietary allocation/blinding and extrapolation from overexpression remain residual concerns; no human protective effect is scored.",
+          "P": "For the qualitative metal-dependent switch, matched Mn/Fe assays, peroxide dependence and orthogonal protein-radical measurements discriminate gain of peroxidase activity from unchanged canonical activity (Figs 1–2, 6–7). These controls resolve the biochemical distinction; they do not establish a precise intake threshold.",
+          "R": "One Ganini research programme carries the exact Fe-substitution/protein-injury conjunction in the assessed body. Its purified enzyme, cell and mouse arms are triangulation within the programme, not independent laboratory replications."
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "No D1/B0/P0 ceiling applies; adjusted equals raw. No extra model-to-human penalty is added because the proposition remains model-specific.",
+        "limitations": [
+          "This is a cofactor-dependent protective role, not control of ROS-generating electron-leak sites. Animal deficiency/iron excess and cellular SOD2 overexpression do not establish benefit from additional manganese in replete people or a safe supplement target."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_ganini2018_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.chembiol.2018.01.007",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "Iron-substituted SOD2 developed peroxidase activity; low manganese-to-iron conditions were associated with mitochondrial protein radicals and dysfunction. Metal occupancy, iron exposure, tissue and peroxide handling interact. More SOD2 or manganese is not automatically protective."
+            }
+          ],
+          "retrievalLimited": [],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Ganini 2018 Figures 1–2 and 6–7; methods and statistical reporting"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "e9ce7db617ce165b57ac5b74e9309fba573905a9957762f8f57bf29b4540cf99"
+    },
+    {
+      "record": {
+        "id": "brs4-pm5-pm5-f5-sec",
+        "recordVersion": 1,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F5",
+        "title": "Sulforaphane protected mitochondria in defined cell experiments",
+        "proposition": "Sulforaphane pretreatment protected mitochondrial lipids, proteins and enzyme activities in oxidant-challenged SH-SY5Y cells through an Nrf2-dependent mechanism; separate vascular-cell experiments measured induction of mitochondrial defences.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded PM4/PM5 SEC completion v1: exact propositions, primary full-text recovery, factor-specific appraisal, scoped independence and explicit unresolved judgements; no human scientific-review status inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-v1",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Oliveira measures mitochondrial lipid/protein injury and Nrf2 dependence after the stated pretreatment/challenge; Zhu measures the separately described defence induction.",
+          "B": "The pivotal Oliveira abstract identifies siRNA dependence but does not establish knockdown controls, allocation, repeat independence or endpoint-reporting protections sufficiently for a formal bias judgement. This is an assessment gap, not evidence of a critical bias.",
+          "P": "Figure-level injury estimates, variability and knockdown/rescue uncertainty were not recovered; an abstract listing significant endpoints cannot establish informativeness. Human metabolite pharmacokinetics cannot supply missing cellular precision.",
+          "R": "One verified experimental line tests the exact SH-SY5Y injury/Nrf2 proposition. Zhu vascular-cell defence induction differs in model and endpoint and is not exact replication."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No total calculated: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "This supports preclinical mechanism engagement. Human broccoli-sprout pharmacokinetics establish absorption mainly as conjugated metabolites, not equivalence to sustained free sulforaphane in culture or demonstrated mitochondrial protection from a food.",
+          "Recover Oliveira full results, replicate structure, knockdown controls and uncertainty. Keep food absorption evidence separate from protective efficacy."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_oliveira2018_20261023",
+            "brs4_zhu2008_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1007/s12035-017-0684-2",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Mitochondrial membrane lipid peroxidation, protein carbonylation/nitration and enzyme inhibition were attenuated; Nrf2 silencing abolished protection. Cell line, imposed oxidant stress and free-compound exposure; not broccoli or human neuronal target engagement."
+            },
+            {
+              "doi": "10.1007/s12012-008-9020-4",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Sulforaphane induced cellular and mitochondrial antioxidant defences and increased resistance to imposed oxidative/electrophilic stress. Mitochondrial defence induction is not the same endpoint as direct mitochondrial membrane injury; not an independent neuronal replication."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28730528/",
+              "limitation": "Recover Oliveira full results, replicate structure, knockdown controls and uncertainty. Keep food absorption evidence separate from protective efficacy."
+            }
+          ],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Oliveira 2018 primary abstract, PMID28730528",
+          "Zhu 2008 primary abstract, PMID18607771 (distinct endpoint)"
+        ],
+        "followUp": "Recover Oliveira full results, replicate structure, knockdown controls and uncertainty. Keep food absorption evidence separate from protective efficacy.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          }
+        ]
+      },
+      "sha256": "3fe4242e4f2e66b7d0f2f4379ddc3c785403c708dd75dde06f3f04787d3a94cb"
+    },
+    {
+      "sha256": "4a465dec6efc624d90b1e232498955c7f0d7eb6e02d5bd77768e3ebe2775e39a",
+      "record": {
+        "id": "brs4-pm4-pm4-f2-sec",
+        "recordVersion": 2,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F2",
+        "title": "Mitochondrial ROS can carry adaptive signals",
+        "proposition": "Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded SEC follow-up v2: targeted primary Results/Methods recovery, exact-proposition precision and replication appraisal; no default factors, dietary inference or human review inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-followup-v2",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Bell 2007 full primary experiments directly perturb complex-III Qo/Rieske signalling and measure ROS, HIF stabilisation and hydroxylation under hypoxia; this tests the existing cell-scoped proposition without relying solely on Guzy abstract data.",
+          "B": "Bell Figures 1–8 include respiratory-incompetent cybrids, control shRNA, retained DMOG responses, loading controls, Qo versus Qi inhibitors, MitoQ versus TPMP and catalase controls. These address generalized respiratory failure and nonspecific ROS explanations; probe specificity, adapted cybrids and incomplete allocation/blinding reporting remain residual concerns (B1).",
+          "P": "Bell Figures 1, 4, 5 and 8 report three/four independent experiments and mean/SEM for quantitative contrasts; loading/DMOG controls discriminate HIF signalling from wholesale response loss. These are informative for a qualitative contribution in tested cells; effect magnitude and model boundaries remain uncertain, warranting P1 rather than P2.",
+          "R": "Guzy (Schumacker group) and Bell (Chandel group) provide separate empirical lines with non-overlapping author lists, but related 143B/cybrid/Rieske methods and contrary rho0-cell results (Srinivas 2001; Vaux 2001) limit generalisation. R1 credits partial confirmation, not universal oxygen-sensing necessity or a literature citation count."
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "D2/B1/P1/R1 raw 5; no D1/B0/P0 cap applies; adjusted 5. No unapproved extra downgrade.",
+        "limitations": [
+          "Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.",
+          "Recover Guzy figures/methods and appraise control performance and uncertainty; compare Bell/Guzy model and research dependencies before a complete SEC."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_guzy2005_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.cmet.2005.05.001",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Complex-III function and oxidant signalling were required for the tested hypoxic HIF response. Context-dependent cell signalling; not all oxygen-sensing pathways or physiological states require this mechanism."
+            },
+            {
+              "doi": "10.1083/jcb.200609074",
+              "role": "supporting; pivotal full primary experiment for the same existing proposition",
+              "access": "Complete Europe PMC XML: PMC2064363, figures/captions and Methods",
+              "assessment": "Bell et al. (2007): Qo/Rieske perturbations, redox/HIF controls and independent repeats establish an informative scoped signalling contribution; not food or clinical efficacy."
+            },
+            {
+              "doi": "10.1074/jbc.C100177200",
+              "role": "contrasting; boundary on universal respiratory-chain/HIF dependence",
+              "access": "Primary abstract, PMID11342528; original full Methods not appraised",
+              "assessment": "Srinivas et al. (2001) observed hypoxic HIF responses in rho0 cells; retained as credible heterogeneity rather than excluded as an irrelevant negative."
+            },
+            {
+              "doi": "10.1182/blood.V98.2.296",
+              "role": "contrasting; oxygen-sensing model boundary",
+              "access": "Primary Blood abstract, Vaux et al. (2001)",
+              "assessment": "Hypoxic HIF responses persisted in respiratory-chain-defective cells; constrains any universal requirement interpretation."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/j.cmet.2005.05.001",
+              "limitation": "Guzy original full paper remains access-limited. Bell full primary evidence supplies the load-bearing appraisal for this cell-scoped synthesis; Guzy quantitative effects are not inferred."
+            }
+          ],
+          "contradictoryAssessment": "Srinivas 2001 and Vaux 2001 report retained HIF responses in respiratory-chain-defective cells. These constrain universal necessity; the scored proposition explicitly concerns a contribution in the tested cell systems. Bell separates respiration from Qo redox signalling. Model/probe differences remain unresolved boundaries, not a reason to erase the contrary evidence."
+        },
+        "evidenceLocations": [
+          "Guzy 2005 primary abstract, PMID16054089",
+          "Bell 2007 primary abstract, PMID17562787 (targeted complementary check)",
+          "Bell 2007 PMC2064363: Figures 1–8 and cell/ROS/immunoblot Methods"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          },
+          {
+            "date": "2026-10-24",
+            "decision": "User requested investigation of all four remaining unscored Findings. Version 1 preserved unchanged; this version records recovered evidence and remaining essential gaps."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "e06e0b6bdba42c589b656a61bdafcd093c456a709cc5ce81932cdec133258665",
+      "record": {
+        "id": "brs4-pm4-pm4-f5-sec",
+        "recordVersion": 2,
+        "pmId": "BRS4-FM2-PM4",
+        "findingId": "PM4-F5",
+        "title": "Omega-3 exposure need not reduce mitochondrial ROS emission",
+        "proposition": "Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded SEC follow-up v2: targeted primary Results/Methods recovery, exact-proposition precision and replication appraisal; no default factors, dietary inference or human review inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-followup-v2",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "unresolved",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Herbst directly measures the specified formulation, mitochondrial fatty acids, emission and selected damage markers before/after 12 weeks.",
+          "B": "The pre/post study has no placebo arm; temporal and behavioural confounding and selective endpoint sensitivity remain. The Finding is kept as a description of measured endpoints, not a causal claim of harm or safety.",
+          "P": "Re-examination locates oxidative products in Herbst Figure 5B/C: whole-muscle homogenate 4HNE and protein-carbonyl measurements, n=18, mean/SEM and paired testing. Numeric paired changes, covariance/uncertainty and a justified equivalence boundary are not recovered. A nonsignificant change cannot establish no meaningful increase. The exact existing phrase “without increasing” remains ambiguous between a descriptive test result and an absence claim; no P factor is forced.",
+          "R": "One independent pre/post cohort supports the exact formulation/time/endpoint combination in the scoped appraisal; two recruitment rounds are not independent research-group replications."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No complete total: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.",
+          "Appraise damage-marker effect estimates/uncertainty against a justified boundary; retain the descriptive non-increase without interpreting equivalence or safety.",
+          "Damage products were measured in muscle homogenates, not isolated mitochondrial membranes. Existing wording should be reviewed before a no-increase interpretation is scored."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_herbst2014_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1113/jphysiol.2013.267336",
+              "role": "supporting exact scoped proposition",
+              "access": "full text HTML recovered",
+              "assessment": "Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not. No placebo comparison; tested mixture, not independent effects of either constituent or ordinary fish."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961091/",
+              "limitation": "Recover paired raw/summary damage-marker data and resolve the claim wording: propose “no statistically detected increase in the measured whole-muscle markers” for scientific review, without changing the canonical Finding in this scoring pass. Do not equate whole-muscle nulls with absence of mitochondrial injury."
+            }
+          ],
+          "contradictoryAssessment": "No significant increase in selected damage markers is retained; equivalence and absence of harm are not established."
+        },
+        "evidenceLocations": [
+          "Herbst 2014 PMC3961091: Figure 5A–C (not Figure 6), whole-muscle homogenate assays; mitochondrial membrane lipid composition is a separate measurement."
+        ],
+        "followUp": "Recover paired raw/summary damage-marker data and resolve the claim wording: propose “no statistically detected increase in the measured whole-muscle markers” for scientific review, without changing the canonical Finding in this scoring pass. Do not equate whole-muscle nulls with absence of mitochondrial injury.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          },
+          {
+            "date": "2026-10-24",
+            "decision": "User requested investigation of all four remaining unscored Findings. Version 1 preserved unchanged; this version records recovered evidence and remaining essential gaps."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "792d1fa50803b2586ba5cefd3fe965b70abf50178c70f430b6000e0adf365fa7",
+      "record": {
+        "id": "brs4-pm5-pm5-f2-sec",
+        "recordVersion": 2,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F2",
+        "title": "Ubiquinol has a local antioxidant role distinct from electron transport",
+        "proposition": "Reduced CoQ10 inhibited induced lipid peroxidation in beef-heart submitochondrial particles even after vitamin E removal, demonstrating a local protective chemistry separate from its electron-carrier role.",
+        "assessmentStatus": "codex-provisional",
+        "assessmentComplete": true,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded SEC follow-up v2: targeted primary Results/Methods recovery, exact-proposition precision and replication appraisal; no default factors, dietary inference or human review inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-followup-v2",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": 1
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Forsmark primary indexed Results, Table I and Figures 1–3 descriptions directly compare extraction/reconstitution in beef-heart submitochondrial particles with no HPLC-detectable vitamin E; this is the exact local chemistry claim, not oral CoQ delivery.",
+          "B": "Matched extraction/reconstitution, HPLC composition checks and convergent oxygen-consumption/MDA assays address material identity and nonspecific suppression. Residual protein-bound CoQ, extraction-induced changes, missing biological-batch/dispersion reporting and artificial oxidation remain important concerns (B1).",
+          "P": "Recovered Results describe loss and return of oxidation inhibition with extraction/re-addition, near-complete MDA suppression in the relevant reduced-CoQ condition, and absent detectable vitamin E. These controlled qualitative contrasts discriminate a protective capacity from its absence. Effect-size dispersion, detection limits and reproducibility across biological preparations remain uncertain (P1, not P2); no confidence intervals are fabricated.",
+          "R": "Independent Yamamoto/Komuro/Niki 1990 and Frei/Kim/Ames 1990 primary experiments corroborate ubiquinol-10 antiperoxidative activity in defined liposomes without requiring co-supplied tocopherol. They differ from Forsmark mitochondrial particles and do not independently reproduce its complete extraction protocol. R1 credits partial mechanism confirmation only."
+        },
+        "rawScore": 5,
+        "adjustedScore": 5,
+        "capRationale": "D2/B1/P1/R1 raw 5; no D1/B0/P0 cap applies; adjusted 5. No unapproved extra downgrade.",
+        "limitations": [
+          "Reconstitution is not dietary delivery. Endogenous CoQ synthesis, oxidised/reduced forms, supplement formulation, tissue uptake and membrane antioxidant activity are distinct relationships. A mitochondrial-disease trial showed only limited effects and did not establish local antioxidant mediation.",
+          "Recover and appraise full figure-level quantitative reporting and independent historical particle experiments for the exact vitamin-E-independent proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_forsmark1991_20261023"
+          ],
+          "contextual": [
+            "brs4_glover2010_20261023"
+          ],
+          "targetedChecks": [
+            {
+              "doi": "10.1016/0014-5793(91)80720-n",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract examined; PMID2065780. No full-method concentrations extracted.",
+              "assessment": "Ubiquinol inhibited lipid peroxidation even without vitamin E. Isolated particle chemistry; no oral delivery, tissue dose or human outcome."
+            },
+            {
+              "doi": "10.1002/mus.21758",
+              "role": "contextual; not independent replication of the core mechanism",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Small effects on exercise aerobic capacity and post-exercise lactate; other clinically relevant variables did not improve. Not proof of mitochondrial membrane protection or ordinary-food efficacy; disease/formulation-specific exposure."
+            },
+            {
+              "doi": "10.3177/jnsv.36.505",
+              "role": "supporting partial replication; independent liposomal chemistry, not mitochondrial-particle protocol",
+              "access": "Primary PubMed/J-STAGE abstract; Scite body is only a 683-character proof note and was NOT treated as full Methods/Results",
+              "assessment": "Yamamoto et al. (1990): reduced ubiquinol inhibits oxidation in defined phosphatidylcholine liposomes; oxidised ubiquinone lacks this activity. Model difference retained."
+            },
+            {
+              "doi": "10.1073/pnas.87.12.4879",
+              "role": "supporting partial replication; independent defined-liposome chemistry",
+              "access": "Scite linear primary body, first 8000 characters: Introduction/Methods; primary PubMed abstract for results",
+              "assessment": "Frei et al. (1990): purified components, controlled radical initiation and HPLC measurements support direct lipid antiperoxidative chemistry; not an independent submitochondrial-particle protocol."
+            },
+            {
+              "doi": "10.1016/0014-5793(91)80720-n",
+              "role": "supporting; recovered original indexed Results and Table I",
+              "access": "Publisher PDF indexed Results/Methods passages; original complete PDF not downloaded",
+              "assessment": "Forsmark et al. (1991): extraction removes detectable CoQ and tocopherol; re-addition restores the relevant respiratory/antiperoxidative contrasts. Residual bound CoQ acknowledged in the primary Results."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/0014-5793(91)80720-n",
+              "limitation": "Complete original PDF, biological-batch counts and curve-level dispersion not recovered. P1 is based on controlled qualitative discrimination, not a precise efficacy magnitude; no P2 credit."
+            }
+          ],
+          "contradictoryAssessment": "Kagan et al. (1990) proposed tocopherol recycling as mediation; Forsmark directly tested removal/re-addition. Independent model-membrane studies support a direct antiperoxidative component. This does not deny tocopherol synergy or prooxidant reactions under other conditions."
+        },
+        "evidenceLocations": [
+          "Forsmark 1991 abstract and primary PDF page 39 methods",
+          "Glover 2010 clinical trial abstract (context only)",
+          "Forsmark indexed original Results p40: Table I and Figures 1–3 descriptions",
+          "Yamamoto 1990 primary abstract and Frei 1990 primary Methods/abstract"
+        ],
+        "followUp": null,
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          },
+          {
+            "date": "2026-10-24",
+            "decision": "User requested investigation of all four remaining unscored Findings. Version 1 preserved unchanged; this version records recovered evidence and remaining essential gaps."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "95d81ea0d19bb488b9e3c63ecaf097106883c31619473726597c1defef6f6453",
+      "record": {
+        "id": "brs4-pm5-pm5-f5-sec",
+        "recordVersion": 2,
+        "pmId": "BRS4-FM2-PM5",
+        "findingId": "PM5-F5",
+        "title": "Sulforaphane protected mitochondria in defined cell experiments",
+        "proposition": "Sulforaphane pretreatment protected mitochondrial lipids, proteins and enzyme activities in oxidant-challenged SH-SY5Y cells through an Nrf2-dependent mechanism; separate vascular-cell experiments measured induction of mitochondrial defences.",
+        "assessmentStatus": "not-scored",
+        "assessmentComplete": false,
+        "humanReview": null,
+        "lastEvidenceAssessmentDate": "2026-10-24",
+        "recordedOn": "2026-10-24",
+        "process": "Codex bounded SEC follow-up v2: targeted primary Results/Methods recovery, exact-proposition precision and replication appraisal; no default factors, dietary inference or human review inferred.",
+        "methodology": {
+          "name": "Existing SEC four-factor anchors and integrated caps",
+          "version": "2026-10-24-pm4-pm5-followup-v2",
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status"
+        },
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": 0
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "established"
+        },
+        "rationale": {
+          "D": "Oliveira measures mitochondrial lipid/protein injury and Nrf2 dependence after the stated pretreatment/challenge; Zhu measures the separately described defence induction.",
+          "B": "Publisher preview and Scite supply only the abstract for the pivotal Oliveira study. It reports Nrf2 silencing, but non-targeting/knockdown controls, assay validation, biological repeat independence and reporting protections remain unverified. Public figure recovery returned HTML, not a usable figure; no B1/B0 is assigned by default.",
+          "P": "No primary figure-level replicate counts, dispersion or dose/knockdown contrasts were recovered. The public abstract and other cell-model studies cannot supply those quantities for the exact SH-SY5Y/H2O2/Nrf2 proposition. Precision remains unresolved rather than P0.",
+          "R": "One verified experimental line tests the exact SH-SY5Y injury/Nrf2 proposition. Zhu vascular-cell defence induction differs in model and endpoint and is not exact replication."
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "capRationale": "No complete total: essential unresolved factors remain; unknown is not zero.",
+        "limitations": [
+          "This supports preclinical mechanism engagement. Human broccoli-sprout pharmacokinetics establish absorption mainly as conjugated metabolites, not equivalence to sustained free sulforaphane in culture or demonstrated mitochondrial protection from a food.",
+          "Recover Oliveira full results, replicate structure, knockdown controls and uncertainty. Keep food absorption evidence separate from protective efficacy."
+        ],
+        "sources": {
+          "supporting": [
+            "brs4_oliveira2018_20261023",
+            "brs4_zhu2008_20261023"
+          ],
+          "contextual": [],
+          "targetedChecks": [
+            {
+              "doi": "10.1007/s12035-017-0684-2",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Mitochondrial membrane lipid peroxidation, protein carbonylation/nitration and enzyme inhibition were attenuated; Nrf2 silencing abolished protection. Cell line, imposed oxidant stress and free-compound exposure; not broccoli or human neuronal target engagement."
+            },
+            {
+              "doi": "10.1007/s12012-008-9020-4",
+              "role": "supporting exact scoped proposition",
+              "access": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+              "assessment": "Sulforaphane induced cellular and mitochondrial antioxidant defences and increased resistance to imposed oxidative/electrophilic stress. Mitochondrial defence induction is not the same endpoint as direct mitochondrial membrane injury; not an independent neuronal replication."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://link.springer.com/article/10.1007/s12035-017-0684-2",
+              "limitation": "Publisher subscription preview and Scite abstract fallback only; usable complete Results/Methods not recovered."
+            }
+          ],
+          "contradictoryAssessment": "No exact-proposition contradiction was established in this bounded appraisal. Nonmatching endpoints and tissue/exposure limits remain explicit; this is not an exhaustive absence-of-contradiction claim."
+        },
+        "evidenceLocations": [
+          "Oliveira 2018 primary abstract, PMID28730528",
+          "Zhu 2008 primary abstract, PMID18607771 (distinct endpoint)",
+          "Publisher preview and Scite source=abstract/contentDenied=true; figure download returned HTML, not scientific data."
+        ],
+        "followUp": "Obtain an authorised full text or author manuscript (Methods, mitochondrial injury figures and Nrf2-silencing controls). Establish biological replicates and uncertainty. No food-effect or human translation conclusion follows from resolving these cellular factors.",
+        "history": [
+          {
+            "date": "2026-10-24",
+            "decision": "User authorised SEC completion for approved PM4/PM5 reassessment. New versioned assessment; propositions, admissions, original confidence storage and all prior SEC records preserved. This is not qualified human scientific review."
+          },
+          {
+            "date": "2026-10-24",
+            "decision": "User requested investigation of all four remaining unscored Findings. Version 1 preserved unchanged; this version records recovered evidence and remaining essential gaps."
+          }
+        ]
+      }
     }
   ]
 }

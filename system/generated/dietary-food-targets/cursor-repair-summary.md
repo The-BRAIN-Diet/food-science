@@ -28,6 +28,9 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Chicken (studied breast material) | nicotinic-acid | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
 | Chickpeas (studied analytical material) | nicotinic-acid | Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement | BRS4-FM1-PM2 | pending-independent-verification |
 | Beef | creatine | raw | BRS4-FM1-PM3 | requires-material-equivalence-review |
+| Chicory Root | manganese | raw | BRS4-FM2-PM5 | pending-independent-verification |
+| Nori | manganese | dried | BRS4-FM2-PM5 | pending-independent-verification |
+| Salmon Roe | manganese |  | BRS4-FM2-PM5 | pending-independent-verification |
 | Beef | l-carnitine | Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred | BRS4-FM3-PM6 | pending-independent-verification |
 | Lamb | l-carnitine | Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred | BRS4-FM3-PM6 | pending-independent-verification |
 | vitamin-b2 | Flavin mononucleotide (FMN) |  | BRS4-FM1-PM1 | requires-pathway-reconciliation |

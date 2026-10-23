@@ -1,0 +1,98 @@
+[
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/rafique2001.txt",
+    "sha256": "eb67f4e9af7f225dd53152aebe47edd56c8a044461e62ed616aa6fdad2223e1b"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/brand2016.html",
+    "sha256": "32d84c0dbbd02d4b03ed26bf1e76f864a5da21d794f96348a7f148d82195d409"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/herbst2014.html",
+    "sha256": "1b053b27d28fb5bdb0f8f72ee2c9d794ed54d007f6c6fcd5d7c722ff4ffbc845"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/chouchani2014.txt",
+    "sha256": "76ce2b93b9d45d7b0dece97ef3c2f4702ae220b222416524b533bc4fbb6e6258"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/azuma2022.xml",
+    "sha256": "fae911c959155236095b2a194c5acede92e393a924e6db6d02ddc806ef128a7f"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/acuteexercise2017.txt",
+    "sha256": "8a032e07faf19f01694ea4068fc681efb5d2bfa2a102bda276926405bd2195a2"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/wang2021.txt",
+    "sha256": "971c0cec76500cc9b26d22269712487aeb0e30579b2c02cf0e35d8aa2782e4f3"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/anderson2009.txt",
+    "sha256": "d0428eea79d395d800df3dec4c63b3e7a147f6e21e012849fb3a58136c082f67"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/acuteexercise2017.xml",
+    "sha256": "d0ec42c0f533059b84adc5aee05a34c1389ef31b01517ecf9615b065b5e841a8"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/azuma2022.txt",
+    "sha256": "0d6701b5ebc57f79672efd16e8748d2d0b2b323ea6a24c8c78c9530e5ca1f876"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/chouchani2014.xml",
+    "sha256": "355834d54e8119e09b0e41dc41239abec01effb197c5224c901b0971b41e7995"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/anderson2009.html",
+    "sha256": "1733d55c23e042fb6cf61d27e74ee72f8b96828ce065f3a615eafe68c121a329"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/rafique2001.html",
+    "sha256": "f2eb5e0e78ed671ee4589549ddc246d9fe3982aae1a8bd2a185c27ddf224383f"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/ganini2018.html",
+    "sha256": "eb945abbab089f538aacffc6967938b534e0828bb03a278985069cb90494edc2"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/gram2015.html",
+    "sha256": "e152e5e3f461238de484a4dad846497b0453e2fcc2e7c4156f631785dd3f1f65"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/wang2021.html",
+    "sha256": "0aa5da5918379ce4dbdc06af2f81c6d2da6a1c238b942d5b16e8d8c5ee27bb0f"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/shi2022.txt",
+    "sha256": "1441b1bf5d696155f9c5656f3903ae9c907de30ac3cfa9c4788bca2bf2c8a9c8"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/maalouf2007.txt",
+    "sha256": "f26ea000c72549cf634c6cbb07976b41070cb3d8ad88e2555e3b37635ba6e438"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/ganini2018.txt",
+    "sha256": "533746d4edf87125547159eac917a3b2cc9f7a9a99d5370dd9903dca719d8f9a"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/brand2016.txt",
+    "sha256": "4e23501cca9f8833cf445953507e5e2011b9a8c5f27b8782f0980e184ff80085"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/shi2022.xml",
+    "sha256": "a2f37db9e24a91aabf7e9ae8d70494eb1a90204f76505f98396d11d086c1d361"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/maalouf2007.html",
+    "sha256": "9c769c98fafe172a041088129b4da6a4b997c891e2996ea90aebd847d72de74c"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/herbst2014.txt",
+    "sha256": "c750f9dead2b8617aaa95ce3a7283a799bee0d96bab69c0f2b3a36ab72a7b20b"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec/sources/gram2015.txt",
+    "sha256": "ca1443cd433221c73b705f68329d5e4b5050165db9e2604e34bfa164b882cfcd"
+  }
+]

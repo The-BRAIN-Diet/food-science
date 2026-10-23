@@ -1,0 +1,120 @@
+TAP version 13
+# Subtest: original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+ok 1 - original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+  ---
+  duration_ms: 3.252458
+  ...
+# Subtest: both scoped mechanism pages and Finding/Phenome generation pass
+ok 2 - both scoped mechanism pages and Finding/Phenome generation pass
+  ---
+  duration_ms: 2874.294542
+  ...
+# Subtest: six atoms, section eligibility, independent admission gates and retained KC review records validate
+ok 3 - six atoms, section eligibility, independent admission gates and retained KC review records validate
+  ---
+  duration_ms: 8.290042
+  ...
+# Subtest: modern dietary heading is accepted without accepting a missing subgroup
+ok 4 - modern dietary heading is accepted without accepting a missing subgroup
+  ---
+  duration_ms: 0.384666
+  ...
+# Subtest: only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+ok 5 - only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+  ---
+  duration_ms: 0.426083
+  ...
+# Subtest: verified/provisional food warnings preserve independent evidence and mapping status
+ok 6 - verified/provisional food warnings preserve independent evidence and mapping status
+  ---
+  duration_ms: 3.998541
+  ...
+# Subtest: mitochondrial source, emission and damage endpoints are not collapsed
+ok 7 - mitochondrial source, emission and damage endpoints are not collapsed
+  ---
+  duration_ms: 0.460958
+  ...
+# Subtest: tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+ok 8 - tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+  ---
+  duration_ms: 0.232334
+  ...
+# Subtest: new Findings remain unscored and secondary legacy sources are not primary replications
+ok 9 - new Findings remain unscored and secondary legacy sources are not primary replications
+  ---
+  duration_ms: 0.491417
+  ...
+# Subtest: presentation repair preserves all scientific decisions and six-atom records
+ok 10 - presentation repair preserves all scientific decisions and six-atom records
+  ---
+  duration_ms: 11.781458
+  ...
+# Subtest: mechanistic explanations match each SF label and link in both directions outside the Summary
+ok 11 - mechanistic explanations match each SF label and link in both directions outside the Summary
+  ---
+  duration_ms: 0.579208
+  ...
+# Subtest: default dietary descriptions remain concise while real mapped foods are retained
+ok 12 - default dietary descriptions remain concise while real mapped foods are retained
+  ---
+  duration_ms: 0.424417
+  ...
+# Subtest: all eleven exact propositions resolve to immutable versioned assessments without changing old registry entries
+ok 13 - all eleven exact propositions resolve to immutable versioned assessments without changing old registry entries
+  ---
+  duration_ms: 142.005042
+  ...
+# Subtest: initial assessment snapshots preserve seven scored and four incomplete historical states
+ok 14 - initial assessment snapshots preserve seven scored and four incomplete historical states
+  ---
+  duration_ms: 1.702459
+  ...
+# Subtest: SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter
+ok 15 - SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter
+  ---
+  duration_ms: 5.344166
+  ...
+# Subtest: generated Findings match canonical sidecars and both MDX documents compile
+ok 16 - generated Findings match canonical sidecars and both MDX documents compile
+  ---
+  duration_ms: 1896.0625
+  ...
+# Subtest: strong import SEC is explicitly not a dietary or local-protection score; null damage result is not equivalence
+ok 17 - strong import SEC is explicitly not a dietary or local-protection score; null damage result is not equivalence
+  ---
+  duration_ms: 0.719958
+  ...
+# Subtest: four new versions preserve all eighty previous SEC snapshots and exact pinned propositions
+ok 18 - four new versions preserve all eighty previous SEC snapshots and exact pinned propositions
+  ---
+  duration_ms: 91.546791
+  ...
+# Subtest: current eleven Findings contain nine provisional assessments and two explicitly incomplete assessments
+ok 19 - current eleven Findings contain nine provisional assessments and two explicitly incomplete assessments
+  ---
+  duration_ms: 23.923333
+  ...
+# Subtest: uncertainty and retrieval limitations remain unresolved rather than default zero or one
+ok 20 - uncertainty and retrieval limitations remain unresolved rather than default zero or one
+  ---
+  duration_ms: 0.670666
+  ...
+# Subtest: only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical
+ok 21 - only SEC pointers change in canonical data; missions, source assessments and dietary content remain identical
+  ---
+  duration_ms: 4.128625
+  ...
+# Subtest: partial replication and contrasting primary evidence stay visible without claiming universal or dietary effects
+ok 22 - partial replication and contrasting primary evidence stay visible without claiming universal or dietary effects
+  ---
+  duration_ms: 0.2875
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3891.59825

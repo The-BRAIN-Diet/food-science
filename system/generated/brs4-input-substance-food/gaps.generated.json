@@ -15,14 +15,68 @@
       "status": "unresolved-identity"
     },
     {
-      "kind": "no-structured-admissions",
-      "pm_id": "BRS4-FM2-PM4",
-      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-MN",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
     },
     {
-      "kind": "no-structured-admissions",
-      "pm_id": "BRS4-FM2-PM5",
-      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-SE",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-CU",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-ZN",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM5::PM5-BIO-Q",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM5::PM5-BIO-GSH",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-SE",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
+    },
+    {
+      "kind": "dietary-input-unset",
+      "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-MG",
+      "reason": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+      "flags": [
+        "pm-specific-supply-review"
+      ]
     },
     {
       "kind": "dietary-input-unset",
@@ -118,14 +172,14 @@
     {
       "pm_id": "BRS4-FM2-PM4",
       "record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
-      "accepted_relationships": 0,
-      "structured_atoms": 0
+      "accepted_relationships": 4,
+      "structured_atoms": 4
     },
     {
       "pm_id": "BRS4-FM2-PM5",
       "record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
-      "accepted_relationships": 0,
-      "structured_atoms": 0
+      "accepted_relationships": 6,
+      "structured_atoms": 6
     },
     {
       "pm_id": "BRS4-FM3-PM6",

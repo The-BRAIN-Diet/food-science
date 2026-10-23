@@ -792,7 +792,7 @@ test("PM input food-source renderer keeps compact category, citation and review 
   assert.doesNotMatch(source, /Plant Based|Animal Based|no mapped values/);
   assert.match(source, /No verified sources yet/);
   assert.match(source, / — \$\{formatFoodAmount\(source\)\} · \$\{formatFoodPrep\(source\)\}/);
-  assert.match(source, /preparation === 'oil'\) return 'oil-packed'/);
+  assert.match(source, /preparation === 'oil'\) return 'oil'/);
   assert.match(source, /data-quality-flag="missing-preparation"/);
   assert.match(source, /data-food-id="\$\{esc\(source\.food_id \|\| ''\)\}"/);
   assert.match(source, /data-substance-id="\$\{esc\(source\.substance_id \|\| ''\)\}"/);
@@ -1580,7 +1580,7 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
    const $=parseHtml(renderFoodSourceItem(item));
    assert.equal($('a').first().attr('href'),item.food_page);
    assert.ok($.text().includes(item.observations[0].display));
-   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil-packed':item.preparation || 'preparation not established'));
+   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil':item.preparation || 'preparation not established'));
    assert.doesNotMatch($.text(),/Analytical qualification/);
   }
  }
@@ -1591,16 +1591,16 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
  assert.equal(nad.food_sources.filter(s=>s.substance_id==='tryptophan').length,3);
 });
 
-test('C1 closed summary carries public qualification and reference, while technical provenance stays in its secondary disclosure',()=>{
+test('closed category summaries stay compact while expanded source details preserve analytical qualifications',()=>{
  const item=selectFoodDisclosureSources([c1Source('chicken','nicotinamide',5.442)])[0];
  const $=parseHtml('<details><summary>'+renderFoodSourceSummary('Animal-based',item)+'</summary></details>');
  const summary=$('details:not([open]) > summary');
- assert.ok(summary.text().includes('5.442 mg (per 100 g sample; fresh/dry basis not reported)'));
- assert.ok(summary.text().includes('Studied material: Chicken breast'));
- assert.ok(summary.text().includes('unknown'));
- assert.ok(summary.text().includes('native free-vitamer concentration and dietary availability are not established'));
- assert.equal(summary.find('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
- assert.doesNotMatch(summary.text(),/121 °C/);
+ assert.match(summary.text(),/Animal-based - Chicken/);
+ assert.doesNotMatch(summary.text(),/Studied material|Analytical qualification|5.442|no concentration ranking|food-source/);
+ const expanded=parseHtml(renderFoodSourceItem(item));
+ assert.match(expanded('details > summary').text(),/Source qualifications/);
+ assert.match(expanded('details').text(),/native free-vitamer/);
+ assert.equal(expanded('details a').attr('href'),'/docs/foods/chicken#food-source-4');
  const provenance=parseHtml(renderProvenance(item));
  assert.equal(provenance('details > summary').text(),'Measurement provenance');
  assert.match(provenance('p').text(),/121 °C/);
@@ -1619,4 +1619,11 @@ test('C1 supported qualitative presence retains source limitations and cannot ex
  assert.match($.text(),/quantity not established/);assert.match($.text(),/amount not established/);
  assert.doesNotMatch($.text(),/999/);
  assert.equal($('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
+});
+
+test('admitted food targets retain plant and animal disclosures and provisional rendering',()=>{
+ const source=fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8');
+ const branch=source.slice(source.indexOf("if (section === '3.1.1'"));
+ assert.match(branch,/Plant-based/);assert.match(branch,/Animal-based/);
+ assert.match(branch,/renderTarget\(target\)/);assert.match(branch,/renderCoverageWarning\(warnings\)/);
 });

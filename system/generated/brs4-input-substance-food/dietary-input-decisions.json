@@ -96,6 +96,102 @@
     "flags": []
   },
   {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-MN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-MN",
+    "input": "Manganese",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-SE",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-SE",
+    "input": "Selenium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-CU",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-CU",
+    "input": "Copper",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-ZN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-ZN",
+    "input": "Zinc",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-DIT-E",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-DIT-E",
+    "input": "Vitamin E",
+    "dietary_input": true,
+    "note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-DIT-MN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-DIT-MN",
+    "input": "Manganese",
+    "dietary_input": true,
+    "note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-Q",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-Q",
+    "input": "CoQ10",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-GSH",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-GSH",
+    "input": "Glutathione",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-SE",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-LEGACY-SE",
+    "input": "Selenium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-MG",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-LEGACY-MG",
+    "input": "Magnesium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
     "relationship_id": "BRS4-FM3-PM6::PM6-DEFERRED-BIO-1",
     "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx#dietary_input_traceability/PM6-DEFERRED-BIO-1",
     "input": "Carnitine",

@@ -1,0 +1,271 @@
+TAP version 13
+# Subtest: original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+ok 1 - original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+  ---
+  duration_ms: 9.426667
+  ...
+# Subtest: both scoped mechanism pages and Finding/Phenome generation pass
+ok 2 - both scoped mechanism pages and Finding/Phenome generation pass
+  ---
+  duration_ms: 5124.347958
+  ...
+# Subtest: six atoms, section eligibility, independent admission gates and retained KC review records validate
+ok 3 - six atoms, section eligibility, independent admission gates and retained KC review records validate
+  ---
+  duration_ms: 24.154125
+  ...
+# Subtest: modern dietary heading is accepted without accepting a missing subgroup
+ok 4 - modern dietary heading is accepted without accepting a missing subgroup
+  ---
+  duration_ms: 0.64275
+  ...
+# Subtest: only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+ok 5 - only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+  ---
+  duration_ms: 0.43325
+  ...
+# Subtest: verified/provisional food warnings preserve independent evidence and mapping status
+ok 6 - verified/provisional food warnings preserve independent evidence and mapping status
+  ---
+  duration_ms: 5.135375
+  ...
+# Subtest: mitochondrial source, emission and damage endpoints are not collapsed
+ok 7 - mitochondrial source, emission and damage endpoints are not collapsed
+  ---
+  duration_ms: 1.418
+  ...
+# Subtest: tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+ok 8 - tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+  ---
+  duration_ms: 0.254792
+  ...
+# Subtest: new Findings remain unscored and secondary legacy sources are not primary replications
+ok 9 - new Findings remain unscored and secondary legacy sources are not primary replications
+  ---
+  duration_ms: 0.484708
+  ...
+# Subtest: presentation repair preserves all scientific decisions and six-atom records
+ok 10 - presentation repair preserves all scientific decisions and six-atom records
+  ---
+  duration_ms: 22.91375
+  ...
+# Subtest: mechanistic explanations match each SF label and link in both directions outside the Summary
+ok 11 - mechanistic explanations match each SF label and link in both directions outside the Summary
+  ---
+  duration_ms: 0.780166
+  ...
+# Subtest: default dietary descriptions remain concise while real mapped foods are retained
+ok 12 - default dietary descriptions remain concise while real mapped foods are retained
+  ---
+  duration_ms: 0.882125
+  ...
+# Subtest: all eleven exact propositions resolve to immutable versioned assessments without changing old registry entries
+ok 13 - all eleven exact propositions resolve to immutable versioned assessments without changing old registry entries
+  ---
+  duration_ms: 155.711833
+  ...
+# Subtest: seven completed assessments preserve factors, totals, caps and provisional status; four gaps remain unscored
+ok 14 - seven completed assessments preserve factors, totals, caps and provisional status; four gaps remain unscored
+  ---
+  duration_ms: 1.08625
+  ...
+# Subtest: SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter
+ok 15 - SEC changes no propositions, source assessments, admissions, missions, six atoms, food records, or other frontmatter
+  ---
+  duration_ms: 4.325167
+  ...
+# Subtest: generated Findings match canonical sidecars and both MDX documents compile
+ok 16 - generated Findings match canonical sidecars and both MDX documents compile
+  ---
+  duration_ms: 3863.305542
+  ...
+# Subtest: strong import SEC is explicitly not a dietary or local-protection score; null damage result is not equivalence
+ok 17 - strong import SEC is explicitly not a dietary or local-protection score; null damage result is not equivalence
+  ---
+  duration_ms: 0.910667
+  ...
+# Subtest: complete provisional SEC requires defensible factors, not human approval
+ok 18 - complete provisional SEC requires defensible factors, not human approval
+  ---
+  duration_ms: 24.063542
+  ...
+# Subtest: GABA conditional scores retain formal unknowns and cannot be silently promoted
+ok 19 - GABA conditional scores retain formal unknowns and cannot be silently promoted
+  ---
+  duration_ms: 8.409791
+  ...
+# Subtest: Not scored, assessed zero and D0 are distinct; existing ceilings compose
+ok 20 - Not scored, assessed zero and D0 are distinct; existing ceilings compose
+  ---
+  duration_ms: 5.999625
+  ...
+# Subtest: scientific review requires qualified identified human acceptance of the exact version
+ok 21 - scientific review requires qualified identified human acceptance of the exact version
+  ---
+  duration_ms: 1.746667
+  ...
+# Subtest: references pin exact PM, Finding, proposition, version and content, never latest
+ok 22 - references pin exact PM, Finding, proposition, version and content, never latest
+  ---
+  duration_ms: 3.538875
+  ...
+# Subtest: immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+ok 23 - immutable append-only snapshots reject edits, deletion, backfill, duplicate identity and hash changes
+  ---
+  duration_ms: 3.119709
+  ...
+# Subtest: factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+ok 24 - factor, evidence-role, limitation, version, scope and provenance requirements fail closed
+  ---
+  duration_ms: 14.659666
+  ...
+# Subtest: legacy scientific finding validation and generated markup stay unchanged without a reference
+ok 25 - legacy scientific finding validation and generated markup stay unchanged without a reference
+  ---
+  duration_ms: 40.58
+  ...
+# Subtest: legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+not ok 26 - legacy Finding evidence HTML is unchanged except the approved derived SF title prefix
+  ---
+  duration_ms: 907.130791
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/sec-assessment-integration.test.mjs:122:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    + actual - expected
+    
+    + '<section class="brain-sf" id="pm3-f1" aria-label="MAT converts methionine and ATP into SAMe"><div class="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>MAT converts methionine and ATP into SAMe</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-lead">Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.</p><div class="brain-sf-interpretation"><p class="brain-sf-interpretation-label"><strong>What this means</strong></p><p class="brain-sf-interpretation-body">This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.</p></div><p class="brain-sf-confidence-compact"><strong>Evidence confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><div class="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Explore the evidence</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-audit-id"><strong>Finding ID:</strong> <code>PM3-F1</code></p><p class="brain-sf-field"><strong>Finding Statement:</strong> MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.</p><p class="brain-sf-field"><strong>Synthesised Evidence Confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><p class="brain-sf-field"><strong>Synthesis:</strong> Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.</p><p class="brain-sf-field"><strong>Synthesis Limitations:</strong> The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.</p><p class="brain-sf-field brain-sf-field--label"><strong>Evidence Considered:</strong></p><ul class="brain-sf-evidence"><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.</dd><dt>Population</dt><dd>Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.</dd><dt>Result</dt><dd>ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.</dd><dt>Effect / Magnitude</dt><dd>ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.</dd><dt>Evidence Summary</dt><dd>Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.</dd><dt>Limitations</dt><dd>In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.</dd><dt>Population</dt><dd>Purified crystallised human MATα2 protein; no cells, animals or human participants.</dd><dt>Result</dt><dd>Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.</dd><dt>Effect / Magnitude</dt><dd>Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.</dd><dt>Evidence Summary</dt><dd>Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.</dd><dt>Limitations</dt><dd>Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li></ul><p class="brain-sf-field brain-sf-field--label"><strong>Connected / Supportive Evidence:</strong></p><ul class="brain-sf-connected"><li><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996" target="_blank" rel="noopener noreferrer">Chiang et al. (1996)</a><span class="brain-sf-data-level"> — Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux.</div></li><li><a href="/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022" target="_blank" rel="noopener noreferrer">Corrillero Bravo et al. (2022)</a><span class="brain-sf-data-level"> — Human Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3.</div></li></ul></div></div></div></div></div></div></section>'
+    - '<section class="brain-sf" id="pm3-f1" aria-label="SF1 — MAT converts methionine and ATP into SAMe"><div class="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>SF1 — MAT converts methionine and ATP into SAMe</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-lead">Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.</p><div class="brain-sf-interpretation"><p class="brain-sf-interpretation-label"><strong>What this means</strong></p><p class="brain-sf-interpretation-body">This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.</p></div><p class="brain-sf-confidence-compact"><strong>Evidence confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><div class="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Explore the evidence</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-audit-id"><strong>Finding ID:</strong> <code>PM3-F1</code></p><p class="brain-sf-field"><strong>Finding Statement:</strong> MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.</p><p class="brain-sf-field"><strong>Synthesised Evidence Confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><p class="brain-sf-field"><strong>Synthesis:</strong> Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.</p><p class="brain-sf-field"><strong>Synthesis Limitations:</strong> The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.</p><p class="brain-sf-field brain-sf-field--label"><strong>Evidence Considered:</strong></p><ul class="brain-sf-evidence"><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.</dd><dt>Population</dt><dd>Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.</dd><dt>Result</dt><dd>ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.</dd><dt>Effect / Magnitude</dt><dd>ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.</dd><dt>Evidence Summary</dt><dd>Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.</dd><dt>Limitations</dt><dd>In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.</dd><dt>Population</dt><dd>Purified crystallised human MATα2 protein; no cells, animals or human participants.</dd><dt>Result</dt><dd>Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.</dd><dt>Effect / Magnitude</dt><dd>Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.</dd><dt>Evidence Summary</dt><dd>Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.</dd><dt>Limitations</dt><dd>Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li></ul><p class="brain-sf-field brain-sf-field--label"><strong>Connected / Supportive Evidence:</strong></p><ul class="brain-sf-connected"><li><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996" target="_blank" rel="noopener noreferrer">Chiang et al. (1996)</a><span class="brain-sf-data-level"> — Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux.</div></li><li><a href="/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022" target="_blank" rel="noopener noreferrer">Corrillero Bravo et al. (2022)</a><span class="brain-sf-data-level"> — Human Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3.</div></li></ul></div></div></div></div></div></div></section>'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: '<section class="brain-sf" id="pm3-f1" aria-label="SF1 — MAT converts methionine and ATP into SAMe"><div class="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>SF1 — MAT converts methionine and ATP into SAMe</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-lead">Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.</p><div class="brain-sf-interpretation"><p class="brain-sf-interpretation-label"><strong>What this means</strong></p><p class="brain-sf-interpretation-body">This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.</p></div><p class="brain-sf-confidence-compact"><strong>Evidence confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><div class="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Explore the evidence</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-audit-id"><strong>Finding ID:</strong> <code>PM3-F1</code></p><p class="brain-sf-field"><strong>Finding Statement:</strong> MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.</p><p class="brain-sf-field"><strong>Synthesised Evidence Confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><p class="brain-sf-field"><strong>Synthesis:</strong> Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.</p><p class="brain-sf-field"><strong>Synthesis Limitations:</strong> The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.</p><p class="brain-sf-field brain-sf-field--label"><strong>Evidence Considered:</strong></p><ul class="brain-sf-evidence"><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.</dd><dt>Population</dt><dd>Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.</dd><dt>Result</dt><dd>ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.</dd><dt>Effect / Magnitude</dt><dd>ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.</dd><dt>Evidence Summary</dt><dd>Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.</dd><dt>Limitations</dt><dd>In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.</dd><dt>Population</dt><dd>Purified crystallised human MATα2 protein; no cells, animals or human participants.</dd><dt>Result</dt><dd>Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.</dd><dt>Effect / Magnitude</dt><dd>Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.</dd><dt>Evidence Summary</dt><dd>Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.</dd><dt>Limitations</dt><dd>Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li></ul><p class="brain-sf-field brain-sf-field--label"><strong>Connected / Supportive Evidence:</strong></p><ul class="brain-sf-connected"><li><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996" target="_blank" rel="noopener noreferrer">Chiang et al. (1996)</a><span class="brain-sf-data-level"> — Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux.</div></li><li><a href="/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022" target="_blank" rel="noopener noreferrer">Corrillero Bravo et al. (2022)</a><span class="brain-sf-data-level"> — Human Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3.</div></li></ul></div></div></div></div></div></div></section>'
+  actual: '<section class="brain-sf" id="pm3-f1" aria-label="MAT converts methionine and ATP into SAMe"><div class="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>MAT converts methionine and ATP into SAMe</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-lead">Human methionine adenosyltransferase (MAT) forms SAMe from methionine and ATP. Catalysis uses coordinated magnesium and potassium ions in the active site, while human MAT2A kinetics indicate ordered ATP-first substrate binding.</p><div class="brain-sf-interpretation"><p class="brain-sf-interpretation-label"><strong>What this means</strong></p><p class="brain-sf-interpretation-body">This establishes the biochemical reaction and its direct requirements. It does not establish that increasing dietary methionine, magnesium or potassium increases SAMe synthesis in adequately nourished humans; ATP is an intracellular biochemical substrate, not a dietary lever.</p></div><p class="brain-sf-confidence-compact"><strong>Evidence confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><div class="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong>Explore the evidence</strong></button><div class="brs-fm-hub-panel" hidden=""><p class="brain-sf-audit-id"><strong>Finding ID:</strong> <code>PM3-F1</code></p><p class="brain-sf-field"><strong>Finding Statement:</strong> MAT-dependent SAMe synthesis directly requires methionine and ATP and uses active-site magnesium and potassium ions to support ATP-dependent catalysis.</p><p class="brain-sf-field"><strong>Synthesised Evidence Confidence:</strong> <span class="brain-sf-sec">Not yet scored</span></p><p class="brain-sf-field"><strong>Synthesis:</strong> Human MAT structural and kinetic studies converge on a defined reaction boundary: MAT catalyses SAMe formation from L-methionine and ATP, with ATP binding before methionine in MAT2A and with divalent magnesium plus potassium coordinating the phosphate chemistry. The studies directly establish enzyme mechanism and substrate/ion requirements. They do not test ordinary dietary modulation, human in-vivo synthesis flux, or downstream methyltransferase outcomes.</p><p class="brain-sf-field"><strong>Synthesis Limitations:</strong> The primary evidence uses purified recombinant protein and crystallised human enzyme rather than intact human physiology. Active-site ion requirements do not show that physiological magnesium or potassium availability ordinarily limits MAT activity. The studies do not establish a methionine intake-response relationship, a clinically meaningful reserve-capacity threshold, or a phenome outcome.</p><p class="brain-sf-field brain-sf-field--label"><strong>Evidence Considered:</strong></p><ul class="brain-sf-evidence"><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — Purified human MAT2A followed an ordered ATP-first, methionine-second kinetic mechanism; MAT2B stabilised the enzyme without materially changing the tested catalytic parameters.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>Purified recombinant human MAT2A steady-state kinetics, product/dead-end inhibition and isothermal titration calorimetry, with and without MAT2B.</dd><dt>Population</dt><dd>Purified human MAT2A/MAT2B proteins; no cells, animals or human participants.</dd><dt>Result</dt><dd>ATP bound before methionine; SAM was released before phosphate and pyrophosphate. MAT2B bound tightly and stabilised low-concentration MAT2A but did not significantly change the tested kinetic parameters.</dd><dt>Effect / Magnitude</dt><dd>ATP Kd 80 ± 30 μM and Km 50 ± 10 μM; MAT2B Kd 6 ± 1 nM. No significant catalytic-parameter change under saturating MAT2B conditions.</dd><dt>Evidence Summary</dt><dd>Direct human-enzyme evidence for the ordered MAT2A reaction and distinction between catalytic activity and MAT2B-mediated stability.</dd><dt>Limitations</dt><dd>In-vitro purified-enzyme conditions do not establish in-vivo flux limitation, dietary responsiveness, tissue-specific regulation or phenome effects.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#bailey_human_mat2a_2021" target="_blank" rel="noopener noreferrer">Bailey et al. (2021)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li><li><div class="brs-fm-hub-item brain-sf-disclosure brain-sf-isa-disclosure" data-brs-fm-hub="true"><div class="brs-fm-hub-shell"><button type="button" class="brs-fm-hub-summary" aria-expanded="false"><span class="brs-fm-hub-chevron" aria-hidden="true"></span><strong><span class="brain-sf-evidence-label"><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></span><span class="brain-sf-evidence-finding"> — High-resolution human MATα2 structures captured substrates/products and active-site ion coordination across ATP-driven SAMe formation.</span></strong></button><div class="brs-fm-hub-panel" hidden=""><dl class="brain-sf-isa"><dt>Study</dt><dd>X-ray crystallography of human MATα2 with methionine, ATP analogues, SAMe, adenosine and phosphate-state ligands.</dd><dt>Population</dt><dd>Purified crystallised human MATα2 protein; no cells, animals or human participants.</dd><dt>Result</dt><dd>Structures captured methionine repositioning toward ATP C5′, SAMe/product states and phosphate-group coordination by magnesium and potassium ions.</dd><dt>Effect / Magnitude</dt><dd>Structures ranged from 1.1 Å to 2.34 Å resolution; no physiological effect size applies.</dd><dt>Evidence Summary</dt><dd>Direct structural support for the reaction chemistry and catalytic-ion requirement of human MAT.</dd><dt>Limitations</dt><dd>Static ligand-bound structures establish catalytic geometry, not physiological nutrient limitation, in-vivo reaction rate, dietary dose response or clinical outcome.</dd><dt>Evidence Source</dt><dd>Bounded external search</dd><dt>Reference</dt><dd><a href="/docs/papers/BRAIN-Diet-References#murray_crystallography_2016" target="_blank" rel="noopener noreferrer">Murray et al. (2016)</a><span class="brain-sf-data-level"> — Cellular / Molecular</span></dd></dl></div></div></div></li></ul><p class="brain-sf-field brain-sf-field--label"><strong>Connected / Supportive Evidence:</strong></p><ul class="brain-sf-connected"><li><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996" target="_blank" rel="noopener noreferrer">Chiang et al. (1996)</a><span class="brain-sf-data-level"> — Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Foundational review establishes SAMe as a major methyl donor and places MAT synthesis upstream of transmethylation.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> It is a broad methylation review and does not independently quantify human MAT kinetics, active-site ion requirements or dietary control of synthesis flux.</div></li><li><a href="/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022" target="_blank" rel="noopener noreferrer">Corrillero Bravo et al. (2022)</a><span class="brain-sf-data-level"> — Human Mechanistic</span><div class="brain-sf-connected-why"><em>Why relevant:</em> Measured circulating SAM, SAH and SAM:SAH after contrasting four-week dietary patterns in healthy adults.</div><div class="brain-sf-connected-why"><em>Why excluded from the primary synthesis:</em> The biomarkers do not isolate MAT synthesis flux; group trajectories were similar, so the study does not establish a dietary lever for PM3.</div></li></ul></div></div></div></div></div></div></section>'
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/sec-assessment-integration.test.mjs:130:12)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+ok 27 - reference renderer reuses indicator and audit, exposes pinned history and preserves review record
+  ---
+  duration_ms: 198.093125
+  ...
+# Subtest: publication gate is installed and approved production registry validates
+not ok 28 - publication gate is installed and approved production registry validates
+  ---
+  duration_ms: 112.178125
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/sec-assessment-integration.test.mjs:157:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    The expression evaluated to a falsy value:
+    
+      assert.ok(pkg.scripts.prebuild.startsWith('node scripts/check-sec-assessments.mjs &&'))
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/sec-assessment-integration.test.mjs:160:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: actual shared audit renders canonical factor states and closed version anchors without invented review
+ok 29 - actual shared audit renders canonical factor states and closed version anchors without invented review
+  ---
+  duration_ms: 153.839167
+  ...
+# Subtest: Finding confidence uses the same stacked default layout at every viewport
+ok 30 - Finding confidence uses the same stacked default layout at every viewport
+  ---
+  duration_ms: 17.621167
+  ...
+# Subtest: preview routing stays isolated and canonical audit requires an explicit assessment reference
+ok 31 - preview routing stays isolated and canonical audit requires an explicit assessment reference
+  ---
+  duration_ms: 5.131291
+  ...
+# Subtest: versioned audit preserves exact proposition, unresolved factors and source identities
+ok 32 - versioned audit preserves exact proposition, unresolved factors and source identities
+  ---
+  duration_ms: 85.742875
+  ...
+# Subtest: SF1 conditional reassessment preserves withdrawal history and formal unknowns
+ok 33 - SF1 conditional reassessment preserves withdrawal history and formal unknowns
+  ---
+  duration_ms: 4.976167
+  ...
+# Subtest: three status surfaces and original correction panel remain separate
+ok 34 - three status surfaces and original correction panel remain separate
+  ---
+  duration_ms: 2.006875
+  ...
+# Subtest: SF2 conditional score cannot masquerade as a formal SEC calculation
+ok 35 - SF2 conditional score cannot masquerade as a formal SEC calculation
+  ---
+  duration_ms: 0.8395
+  ...
+# Subtest: SF2 recovery retains species, access and independence limitations
+ok 36 - SF2 recovery retains species, access and independence limitations
+  ---
+  duration_ms: 67.638917
+  ...
+# Subtest: Codex provisional completion requires no human review; confidence and review status are independent
+ok 37 - Codex provisional completion requires no human review; confidence and review status are independent
+  ---
+  duration_ms: 25.918541
+  ...
+# Subtest: conditional or unresolved factors cannot become completed SEC by changing the status
+ok 38 - conditional or unresolved factors cannot become completed SEC by changing the status
+  ---
+  duration_ms: 2.089708
+  ...
+# Subtest: scientifically reviewed SEC requires explicit qualified human review of the current version
+ok 39 - scientifically reviewed SEC requires explicit qualified human review of the current version
+  ---
+  duration_ms: 0.713458
+  ...
+# Subtest: reader-facing fixtures distinguish all four states without registering Findings
+ok 40 - reader-facing fixtures distinguish all four states without registering Findings
+  ---
+  duration_ms: 2.125792
+  ...
+# Subtest: rubric legend reuses standard disclosure and all eight canonical display levels
+ok 41 - rubric legend reuses standard disclosure and all eight canonical display levels
+  ---
+  duration_ms: 1.159875
+  ...
+# Subtest: review and correction fallbacks require explicit authoritative data
+ok 42 - review and correction fallbacks require explicit authoritative data
+  ---
+  duration_ms: 0.557709
+  ...
+# Subtest: SF and audit use the same short assessment labels without changing stored status
+ok 43 - SF and audit use the same short assessment labels without changing stored status
+  ---
+  duration_ms: 1.139458
+  ...
+# Subtest: status governance is shared while canonical confidence storage and evidence limitation wording stay unchanged
+ok 44 - status governance is shared while canonical confidence storage and evidence limitation wording stay unchanged
+  ---
+  duration_ms: 13.035
+  ...
+1..44
+# tests 44
+# suites 0
+# pass 42
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7016.143958

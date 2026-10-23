@@ -892,6 +892,150 @@
       "verification_status": "requires-material-equivalence-review"
     },
     {
+      "source_entity": "chicory-root",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "manganese"
+      },
+      "candidate_food": "Chicory Root",
+      "material": "Chicory roots, raw (Cichorium intybus)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "USDA SR Legacy, FDC 169993",
+              "food_name": "Chicory roots, raw (Cichorium intybus)",
+              "fdc_id": 169993,
+              "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+              "source_reference": "#food-source-3",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.233,
+            "unit": "mg",
+            "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+            "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+            "source_reference": "#food-source-3",
+            "material": "Chicory roots, raw (Cichorium intybus)",
+            "preparation": "raw",
+            "record": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/chicory-root.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": true,
+            "comparison_group": "edible::raw",
+            "low": 0.233,
+            "high": 0.233,
+            "display": "0.233 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains manganese (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "manganese"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 3.72,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 3.72,
+            "high": 3.72,
+            "display": "3.72 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/nori.md#substance_relationships: contains manganese (dried)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "manganese",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "manganese"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.06,
+            "unit": "mg",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.06,
+            "high": 0.06,
+            "display": "0.06 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS4-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains manganese (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "beef",
       "target_entity": "l-carnitine",
       "relationship_type": "contains",

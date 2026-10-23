@@ -5,7 +5,7 @@ export const SEC_STATUSES = Object.freeze({
   'codex-provisional':'Provisionally assessed', 'scientifically-reviewed':'Scientifically reviewed',
 });
 const factors=['D','B','P','R'];
-export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2']);
+export const SEC_INTEGRATION_PM_IDS=Object.freeze(['BRS1-FM4-PM9','BRS6-FM1-PM2','BRS2-FM1-PM3','BRS1-FM1-PM1','BRS1-FM1-PM2','BRS4-FM2-PM4','BRS4-FM2-PM5']);
 const text=v=>typeof v==='string' && v.trim().length>0;
 const value=v=>Number.isInteger(v) && v>=0 && v<=2;
 const version=v=>Number.isSafeInteger(v) && v>0;

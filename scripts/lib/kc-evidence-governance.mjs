@@ -902,8 +902,8 @@ export function validateStage2bDietaryRequirementLayers(data, issues, { entityLa
   if (String(data?.evidence_status || "") !== "stage-2b-dietary-addressability") return;
 
   const body = String(content || "");
-  if (!/(?:[34]\.1|1\.1)\.1\s+Direct/.test(body)) {
-    push(issues, "stage2b_missing_direct_layer", `${entityLabel}: Stage 2B requires §4.1.1 / §3.1.1 Direct and/or Derived Dietary Requirements`);
+  if (!/(?:[34]\.1|1\.1)\.1\s+(?:Direct|Dietary Inputs (?:&|&amp;) Regulatory Modulators)/.test(body)) {
+    push(issues, "stage2b_missing_direct_layer", `${entityLabel}: Stage 2B requires §3.1.1 Dietary Inputs & Regulatory Modulators (or its accepted legacy alias)`);
   }
   if (!/(?:[34]\.1|1\.1)\.2\s+Cofactors/.test(body)) {
     push(issues, "stage2b_missing_cofactor_layer", `${entityLabel}: Stage 2B requires §4.1.2 / §3.1.2 Cofactors and Substrates`);

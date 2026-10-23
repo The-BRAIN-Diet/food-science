@@ -104,7 +104,7 @@ function formatFoodAmount(source: any): string {
 function formatFoodPrep(source: any): string {
     const preparation = String(source.preparation || '').trim().toLowerCase();
     if (preparation === 'uncooked') return 'raw';
-    if (preparation === 'oil') return 'oil-packed';
+    if (preparation === 'oil') return 'oil';
     return esc(source.preparation || 'preparation not established');
 }
 function sourceReference(source: any, obs: any): string {
@@ -127,7 +127,7 @@ export function renderFoodSourceItem(source: any): string {
     const detail = qualification ? ` · Studied material: ${esc(source.material || 'not reported')} · Analytical qualification: ${esc(qualification)}` : '';
     const comparison = source.comparisonNotice ? ` <span>${esc(source.comparisonNotice)}</span>` : '';
     const reference = sourceReference(source, obs);
-    return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${formatFoodAmount(source)} · ${formatFoodPrep(source)}${detail}${reference}</span>${comparison}`;
+    return `<a href="${esc(source.food_page)}">${esc(source.food_title)}</a><span class="pm-input-food-source-meta${qualityClass}"${qualityAttrs}> — ${formatFoodAmount(source)} · ${formatFoodPrep(source)}</span>${detail || comparison || reference ? `<details class="pm-input-food-analytical-detail"><summary>Source qualifications</summary><p>${detail}${reference}${comparison}</p></details>` : ''}`;
 }
 export function renderProvenance(source: any): string {
     const obs = source.observations[0];
@@ -163,7 +163,7 @@ function attachFoodDisclosureBehaviour(details: HTMLDetailsElement) {
 }
 export function renderFoodSourceSummary(kind: string, top?: any): string {
     return top
-        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${renderFoodSourceItem(top)}`
+        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${hasCompactFoodMeasurement(top.observations?.[0]) ? renderFoodSourceItem(top) : `<a href="${esc(top.food_page)}">${esc(top.food_title)}</a>`}`
         : `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> <span class="pm-input-food-source-empty">No verified sources yet</span>`;
 }
 function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsElement {
@@ -176,9 +176,9 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     summary.innerHTML = renderFoodSourceSummary(kind, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
-    if (top && renderProvenance(top)) {
+    if (top) {
         const provenance = document.createElement('div');
-        provenance.innerHTML = renderProvenance(top);
+        provenance.innerHTML = renderFoodSourceItem(top) + renderProvenance(top);
         box.append(provenance);
     }
     if (selected.length > 1) {
@@ -217,16 +217,23 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             if (detail) detail.insertAdjacentHTML('afterbegin', renderCoverageWarning(warnings));
         }
         const targets = [...new Map(relationships.flatMap((r:any) => r.food_targets || []).map((f:any) => [JSON.stringify([f.food_id,f.substance_id,f.material,f.preparation]), f])).values()] as any[];
-        const box = document.createElement('details'); box.className = 'pm-input-food-sources';
-        const summary = document.createElement('summary'); summary.textContent = 'Food targets'; box.append(summary);
-        if (targets.length) {
-            const list = document.createElement('ul');
-            targets.forEach(target => {const item=document.createElement('li'); item.innerHTML=renderTarget(target); list.append(item);});
-            box.append(list);
-        } else {
-            const empty=document.createElement('p'); empty.textContent='Food ontology coverage unresolved.'; box.append(empty);
+        for (const [kind, group] of [
+            ['Plant-based', targets.filter(t => !isProbablyAnimalSource(t))],
+            ['Animal-based', targets.filter(t => isProbablyAnimalSource(t))],
+        ] as [string, any[]][]) {
+            const box = document.createElement('details'); box.className = 'pm-input-food-sources';
+            box.dataset.foodSourceKind = kind.toLowerCase();
+            const summary = document.createElement('summary'); summary.innerHTML = `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>${esc(kind)}`; box.append(summary);
+            if (group.length) {
+                const list = document.createElement('ul');
+                group.forEach(target => { const item = document.createElement('li'); item.innerHTML = renderTarget(target); list.append(item); });
+                box.append(list);
+            } else {
+                const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : 'Food ontology coverage unresolved.'; box.append(empty);
+            }
+            attachFoodDisclosureBehaviour(box); li.append(box);
         }
-        attachFoodDisclosureBehaviour(box); li.append(box); return;
+        return;
     }
 
     const sources = scoped.food_sources.filter(f => relationships.some(r => r.substance_id === f.substance_id));

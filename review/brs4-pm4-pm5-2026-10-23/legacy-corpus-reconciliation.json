@@ -1,0 +1,86 @@
+[
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "reference": "[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "reference": "[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "reference": "[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Primary peripheral case-control context; no mitochondrial assay",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM4",
+    "reference": "[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Primary peripheral case-control context; no mitochondrial assay",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Primary formulation/exposure study; not proof of precursor-food effect or predictable metabotype",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Primary supplementation/molecular-signature trial; mitophagy not local protection",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Primary AD mouse experiments; historical cognitive-endurance label is inaccurate; mitophagy outside ownership",
+    "current_admission": "Not inherited from citation presence"
+  },
+  {
+    "pm_id": "BRS4-FM2-PM5",
+    "reference": "[Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)",
+    "status": "preserved-in-canonical-reference-array",
+    "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+    "current_admission": "Not inherited from citation presence"
+  }
+]
