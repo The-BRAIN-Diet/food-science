@@ -1,0 +1,84 @@
+{
+  "baseline": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+  "branch": "codex/brs5-scfa-controlled-test",
+  "checks": {
+    "shards_reconstruct_combined": true,
+    "other_pm_rollup_records_unchanged": true,
+    "no_food_or_registry_changes": true,
+    "no_other_pm_changes": true,
+    "no_score_changes": true,
+    "pm_citations_resolve_uniquely": true
+  },
+  "counts": {
+    "canonical_pipeline_before": {
+      "verified": 4,
+      "provisional": 0,
+      "unresolved": 2,
+      "total": 6
+    },
+    "after": {
+      "verified": 4,
+      "provisional": 1,
+      "unresolved": 0,
+      "total": 5
+    },
+    "global_rollup_before": 822,
+    "global_rollup_after": 821,
+    "global_queue_before": 24,
+    "global_queue_after": 25,
+    "pm5_queue_before": 0,
+    "pm5_queue_after": 1,
+    "prior_controlled_diagnostic_queue": 2
+  },
+  "pm5_repair_items": [
+    {
+      "source_entity": "apples",
+      "target_entity": "pectin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "apples",
+        "substance": "pectin"
+      },
+      "candidate_food": "Apples (studied cultivars)",
+      "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "evidence": [
+        {
+          "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+          "sources": [
+            "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    }
+  ],
+  "changed_files": [
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "scripts/food-target-reconciliation.test.mjs",
+    "scripts/generate-dietary-food-targets.mjs",
+    "scripts/lib/dietary-input-governance.mjs",
+    "src/lib/foodTargetTraceability.mjs",
+    "static/bibtex/BRAIN-diet.bib",
+    "system/dietary-input-traceability-contract.md",
+    "system/food-target-research.json",
+    "system/generated/brs5-input-substance-food/dietary-input-decisions.json",
+    "system/generated/brs5-input-substance-food/gaps.generated.json",
+    "system/generated/brs5-input-substance-food/inventory.md",
+    "system/generated/dietary-food-targets/cursor-repair-queue.json",
+    "system/generated/dietary-food-targets/cursor-repair-summary.md",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs5.json",
+    "system/generated/dietary-food-targets/reconciliation.json",
+    "system/generated/dietary-food-targets/research-ledger-reconciliation.json",
+    "system/scientific-finding-schema.md",
+    "scripts/brs5-pm5-reconciliation.test.mjs",
+    "scripts/run-brs5-pm5-retest.mjs"
+  ]
+}

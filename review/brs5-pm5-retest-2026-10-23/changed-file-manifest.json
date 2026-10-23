@@ -1,0 +1,137 @@
+{
+  "working_checkout": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs5-scfa-controlled-test",
+  "branch": "codex/brs5-scfa-controlled-test",
+  "base": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+  "status": "uncommitted isolated test changes",
+  "canonical_and_generated_changes": [
+    {
+      "path": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "sha256": "a56e01dec95b0f79d162b9fa16b7ff4dac4b03c0c10ace0fc598a8fadc511ea0",
+      "new_file": false
+    },
+    {
+      "path": "scripts/food-target-reconciliation.test.mjs",
+      "sha256": "2556a17025d7e6387a8e09ecace74a605b3a8cd4b4773325de5ee409cf48156f",
+      "new_file": false
+    },
+    {
+      "path": "scripts/generate-dietary-food-targets.mjs",
+      "sha256": "05fbfd4ef57b272e9837367f895fed1b6aa0e582acde9022e47b6ac0d8e8cb30",
+      "new_file": false
+    },
+    {
+      "path": "scripts/lib/dietary-input-governance.mjs",
+      "sha256": "0371b0d6d01fadec74ea8a29b1bc3f94c6f5a030314350004b964c1fe2fbf6f3",
+      "new_file": false
+    },
+    {
+      "path": "src/lib/foodTargetTraceability.mjs",
+      "sha256": "b90dde0873ca9de9e39256b35a568b3ef86945b240c921f12dc98ea69504a029",
+      "new_file": false
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "sha256": "b002bc05a4fc9e63dd582e893e3ffc96ccc205b95f7e8ae25a7dbbdeb3d33da1",
+      "new_file": false
+    },
+    {
+      "path": "system/dietary-input-traceability-contract.md",
+      "sha256": "ee010cb73ff8a2c6ad9014646ec9d99fae1b01249010d0a39a24f300d49a4bbc",
+      "new_file": false
+    },
+    {
+      "path": "system/food-target-research.json",
+      "sha256": "ad0e7a480cc30361cf57dab7a1126966d5db588956bffb2048276495f93baf4e",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/dietary-input-decisions.json",
+      "sha256": "5c091aca35e28daf4be1a2b17dd0923f49532644d2352fca568a881c19805e36",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/gaps.generated.json",
+      "sha256": "b5ea7b2637cfa9d07fc896eacbc5a81b64d7d44791323ed2d061a0ba454a9f65",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/brs5-input-substance-food/inventory.md",
+      "sha256": "59fc5929bc1339e73510c1fa86704a7f5641f66238a6f0c80675a7473c790747",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-queue.json",
+      "sha256": "1b32047fbd9eaab909168f7425f00804c265e59e2d814964bf0d2dfca71132aa",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-summary.md",
+      "sha256": "9b397147a7e2defe5bbb4eecfc088269ba4009076712821f1caa01c352223691",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup-brs5.json",
+      "sha256": "9359420a932c1b3937bbcbb57965076e5272a2dd49c4c5d165b920947bce65a9",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/dietary-food-targets/reconciliation.json",
+      "sha256": "2efff4f69d16cde1211a4dc4c67443f6b8a2340d403b4df895d8162dd8019850",
+      "new_file": false
+    },
+    {
+      "path": "system/generated/dietary-food-targets/research-ledger-reconciliation.json",
+      "sha256": "41a10636e6fcfdfe2c14409f8a8b1b6bd3afb5a61020d958ab335d7a5c8bcaa2",
+      "new_file": false
+    },
+    {
+      "path": "system/scientific-finding-schema.md",
+      "sha256": "022862b58387e41f41a892dbc6d52809650cf20e296f1d4d2f38cfb1aef9fe29",
+      "new_file": false
+    },
+    {
+      "path": "scripts/brs5-pm5-reconciliation.test.mjs",
+      "sha256": "47d2ec6a9d14fdae99bc69c312453d33a7a97a145183759d17a38431d7e2de37",
+      "new_file": true
+    },
+    {
+      "path": "scripts/run-brs5-pm5-retest.mjs",
+      "sha256": "e0dd6479b688c26fd7aad85df9598a83dd1a9473741ec10ee34688fad6f1b5b9",
+      "new_file": true
+    }
+  ],
+  "review_artifacts": [
+    "review/brs5-pm5-retest-2026-10-23/actual-client-preview.html",
+    "review/brs5-pm5-retest-2026-10-23/baseline-bibliography.log",
+    "review/brs5-pm5-retest-2026-10-23/baseline-scientific-findings.log",
+    "review/brs5-pm5-retest-2026-10-23/before-food-targets.json",
+    "review/brs5-pm5-retest-2026-10-23/before-global-repair-queue.json",
+    "review/brs5-pm5-retest-2026-10-23/before-pm.json",
+    "review/brs5-pm5-retest-2026-10-23/before-repair-queue.json",
+    "review/brs5-pm5-retest-2026-10-23/bibliography-check.log",
+    "review/brs5-pm5-retest-2026-10-23/bibliography-format.log",
+    "review/brs5-pm5-retest-2026-10-23/browser-disclosure.mjs",
+    "review/brs5-pm5-retest-2026-10-23/changed-file-manifest.json",
+    "review/brs5-pm5-retest-2026-10-23/changed-files.md",
+    "review/brs5-pm5-retest-2026-10-23/classification-matrix.json",
+    "review/brs5-pm5-retest-2026-10-23/compiled-pm.html",
+    "review/brs5-pm5-retest-2026-10-23/controlled-render.html",
+    "review/brs5-pm5-retest-2026-10-23/controlled-result.json",
+    "review/brs5-pm5-retest-2026-10-23/cursor-repair-queue.json",
+    "review/brs5-pm5-retest-2026-10-23/cursor-repair-summary.md",
+    "review/brs5-pm5-retest-2026-10-23/findings-check.log",
+    "review/brs5-pm5-retest-2026-10-23/focused-regression.log",
+    "review/brs5-pm5-retest-2026-10-23/governance-check.log",
+    "review/brs5-pm5-retest-2026-10-23/integration-integrity.json",
+    "review/brs5-pm5-retest-2026-10-23/manuscript-rollup.json",
+    "review/brs5-pm5-retest-2026-10-23/mapping-generation.log",
+    "review/brs5-pm5-retest-2026-10-23/ontology-check.log",
+    "review/brs5-pm5-retest-2026-10-23/pm-mechanism-validation.json",
+    "review/brs5-pm5-retest-2026-10-23/regression.log",
+    "review/brs5-pm5-retest-2026-10-23/report.md",
+    "review/brs5-pm5-retest-2026-10-23/rollup-generation.log",
+    "review/brs5-pm5-retest-2026-10-23/scientific-findings.json",
+    "review/brs5-pm5-retest-2026-10-23/sec-check.log",
+    "review/brs5-pm5-retest-2026-10-23/validation-summary.json"
+  ]
+}

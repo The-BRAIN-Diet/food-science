@@ -44,7 +44,7 @@
       "food_page": "/docs/foods/potatoes",
       "substance_id": "resistant-starch",
       "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
-      "preparation": "Baked or boiled, then chilled to 4\u00b0C; distinguish reheated material",
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
       "status": "research-supported-provisional",
       "evidence": {
         "statement": "Resistant starch was measured by cooking method and service temperature.",
@@ -91,6 +91,27 @@
         "kind": "primary-food-composition"
       },
       "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation."
+    },
+    {
+      "food_id": "apples",
+      "food_title": "Apples (studied cultivars)",
+      "food_page": "/docs/foods/apples",
+      "substance_id": "pectin",
+      "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin.",
+      "pm_ids": [
+        "BRS5-FM2-PM5"
+      ]
     }
   ]
 }

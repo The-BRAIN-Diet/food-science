@@ -24,13 +24,14 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
     if(!ev.length)continue;
     targets.push({...f,observations:(f.observations||[]).filter(visible),presence_records:(f.presence_records||[]).filter(visible),mapping_status:structured.length?'verified':'research-supported-provisional',relationship:'contains',evidence:ev,delivery:r.scientific_assessment?.classification==='derived'||r.relationship_type?.classification==='derived'?'precursor-source':'direct-input-source'});
    }
-   for(const f of research.filter(f=>f.substance_id===supplyId&&f.status==='research-supported-provisional')) {
+   for(const f of research.filter(f=>f.substance_id===supplyId&&f.status==='research-supported-provisional'&&(!f.pm_ids||f.pm_ids.includes(r.pm)))) {
     if(!f.food_id||!f.food_page||!f.preparation||!f.material||!evidencePresent(f.evidence)||!f.limitations)continue;
     targets.push({...f,mapping_status:'research-supported-provisional',relationship:'contains',delivery:r.scientific_assessment?.classification==='derived'||r.relationship_type?.classification==='derived'?'precursor-source':'direct-input-source'});
    }
   }
   const reconciled=reconcileFoodTargets(targets);
   const foods=reconciled.foods.map(f=>({...f,substance_title:identities[supplyId]?.title||supplyId})),warnings=[];
+  if(r.scientific_assessment?.review_required&&scientificStatus==='unresolved')warnings.push(`${r.input}: Scientific admission requires review. ${r.scientific_assessment.review_reason||'See the source assessment.'}`);
   if(!supplyId||!identities[supplyId])warnings.push(`${r.input}: canonical substance identity unresolved.`);
   const derived=(r.scientific_assessment?.classification||r.relationship_type?.classification)==='derived';
   const conversionUnresolved=derived&&(!r.scientific_assessment?.conversion_pathway?.length||admission.errors.some(e=>/conversion|target|dependencies/.test(e)));

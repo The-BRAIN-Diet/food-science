@@ -1,0 +1,351 @@
+[
+  {
+    "atom_id": "PM5-DIT-1",
+    "input": "Resistant starch",
+    "type": "A",
+    "classification": "direct",
+    "scientific_admission": "admitted",
+    "review_reason": null,
+    "canonical_id": "resistant-starch",
+    "admission_errors": [],
+    "food_targets": [
+      {
+        "id": "bananas::resistant-starch::cavendish and plantain bananas::green unripe cultivar and ripening state matter",
+        "substance_id": "resistant-starch",
+        "food_id": "bananas",
+        "food_title": "Bananas",
+        "food_page": "/docs/foods/bananas",
+        "food_record": "docs/foods/bananas.md",
+        "material": "Cavendish and plantain bananas",
+        "preparation": "Green/unripe; cultivar and ripening state matter",
+        "species": null,
+        "product": null,
+        "edible_part": null,
+        "chemical_form": null,
+        "food_matrix": null,
+        "preparation_effects": null,
+        "absorption_evidence": null,
+        "observations": [],
+        "presence_records": [
+          {
+            "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+            "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+            "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+          }
+        ],
+        "qualification": [],
+        "mapping_status": "verified",
+        "relationship": "contains",
+        "evidence": [
+          {
+            "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+            "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+            "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+          },
+          {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          }
+        ],
+        "delivery": "direct-input-source",
+        "reconciled_sources": [
+          {
+            "material": "Cavendish and plantain bananas",
+            "preparation": "Green/unripe; cultivar and ripening state matter",
+            "evidence": {
+              "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+              "sources": [
+                "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            },
+            "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+            "reason": "Same canonical identities, material, preparation and composition source."
+          }
+        ],
+        "substance_title": "Resistant starch"
+      },
+      {
+        "id": "black-beans::resistant-starch::cooked black beans::cooked cooking duration and cooling protocol remain study specific",
+        "substance_id": "resistant-starch",
+        "food_id": "black-beans",
+        "food_title": "Black Beans",
+        "food_page": "/docs/foods/black-beans",
+        "food_record": "docs/foods/black-beans.md",
+        "material": "Cooked black beans",
+        "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+        "species": null,
+        "product": null,
+        "edible_part": null,
+        "chemical_form": null,
+        "food_matrix": null,
+        "preparation_effects": null,
+        "absorption_evidence": null,
+        "observations": [],
+        "presence_records": [
+          {
+            "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+            "evidence": "Fabbri et al., NFS Journal 2016",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+          }
+        ],
+        "qualification": [],
+        "mapping_status": "verified",
+        "relationship": "contains",
+        "evidence": [
+          {
+            "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+            "evidence": "Fabbri et al., NFS Journal 2016",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+          },
+          {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          }
+        ],
+        "delivery": "direct-input-source",
+        "reconciled_sources": [
+          {
+            "material": "Cooked black beans",
+            "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+            "evidence": {
+              "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+              "sources": [
+                "https://doi.org/10.1016/j.nfs.2016.02.002"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            },
+            "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+            "reason": "Same canonical identities, material, preparation and composition source."
+          }
+        ],
+        "substance_title": "Resistant starch"
+      },
+      {
+        "id": "chickpeas::resistant-starch::cooked chickpeas::cooked cooking duration and cooling protocol remain study specific",
+        "substance_id": "resistant-starch",
+        "food_id": "chickpeas",
+        "food_title": "Chickpeas",
+        "food_page": "/docs/foods/chickpeas",
+        "food_record": "docs/foods/chickpeas.md",
+        "material": "Cooked chickpeas",
+        "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+        "species": null,
+        "product": null,
+        "edible_part": null,
+        "chemical_form": null,
+        "food_matrix": null,
+        "preparation_effects": null,
+        "absorption_evidence": null,
+        "observations": [],
+        "presence_records": [
+          {
+            "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+            "evidence": "Fabbri et al., NFS Journal 2016",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+          }
+        ],
+        "qualification": [],
+        "mapping_status": "verified",
+        "relationship": "contains",
+        "evidence": [
+          {
+            "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+            "evidence": "Fabbri et al., NFS Journal 2016",
+            "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+          },
+          {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          }
+        ],
+        "delivery": "direct-input-source",
+        "reconciled_sources": [
+          {
+            "material": "Cooked chickpeas",
+            "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+            "evidence": {
+              "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+              "sources": [
+                "https://doi.org/10.1016/j.nfs.2016.02.002"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            },
+            "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+            "reason": "Same canonical identities, material, preparation and composition source."
+          }
+        ],
+        "substance_title": "Resistant starch"
+      },
+      {
+        "id": "potatoes::resistant-starch::yukon gold dark red norland and russet burbank potatoes::baked or boiled then chilled to 4 c distinguish reheated material",
+        "substance_id": "resistant-starch",
+        "food_id": "potatoes",
+        "food_title": "Potatoes",
+        "food_page": "/docs/foods/potatoes",
+        "food_record": "docs/foods/potatoes.md",
+        "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+        "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+        "species": null,
+        "product": null,
+        "edible_part": null,
+        "chemical_form": null,
+        "food_matrix": null,
+        "preparation_effects": null,
+        "absorption_evidence": null,
+        "observations": [],
+        "presence_records": [
+          {
+            "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+            "evidence": "Raatz et al., Food Chemistry 2016",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+          }
+        ],
+        "qualification": [],
+        "mapping_status": "verified",
+        "relationship": "contains",
+        "evidence": [
+          {
+            "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+            "evidence": "Raatz et al., Food Chemistry 2016",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+            "source_reference": null,
+            "citation_keys": [],
+            "relationship_type": "contains",
+            "presence_status": "presence_supported_amount_unavailable",
+            "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+          },
+          {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          }
+        ],
+        "delivery": "direct-input-source",
+        "reconciled_sources": [
+          {
+            "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+            "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+            "evidence": {
+              "statement": "Resistant starch was measured by cooking method and service temperature.",
+              "sources": [
+                "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+              ],
+              "retrieved": "2026-10-23",
+              "kind": "primary-food-composition"
+            },
+            "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+            "reason": "Same canonical identities, material, preparation and composition source."
+          }
+        ],
+        "substance_title": "Resistant starch"
+      }
+    ]
+  },
+  {
+    "atom_id": "PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "type": "A",
+    "classification": "direct",
+    "scientific_admission": "unresolved",
+    "review_reason": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made.",
+    "canonical_id": "fructo-galacto-oligosaccharides",
+    "admission_errors": [
+      "canonical-input-identity-mismatch",
+      "functional_dependency-unresolved"
+    ],
+    "food_targets": []
+  },
+  {
+    "atom_id": "PM5-DIT-3",
+    "input": "Pectin",
+    "type": "A",
+    "classification": "direct",
+    "scientific_admission": "admitted",
+    "review_reason": null,
+    "canonical_id": "pectin",
+    "admission_errors": [],
+    "food_targets": [
+      {
+        "food_id": "apples",
+        "food_title": "Apples (studied cultivars)",
+        "food_page": "/docs/foods/apples",
+        "substance_id": "pectin",
+        "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+        "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+          "sources": [
+            "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        },
+        "limitations": "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin.",
+        "pm_ids": [
+          "BRS5-FM2-PM5"
+        ],
+        "mapping_status": "research-supported-provisional",
+        "relationship": "contains",
+        "delivery": "direct-input-source",
+        "material_equivalence_status": "not-applicable",
+        "ontology_relationship_status": "missing-context-edge",
+        "substance_title": "Pectin"
+      }
+    ]
+  }
+]

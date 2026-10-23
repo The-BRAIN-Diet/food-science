@@ -192,7 +192,7 @@
   {
     "relationship_id": "BRS5-FM2-PM5::PM5-DIT-1",
     "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-1",
-    "input": "Resistant potato starch",
+    "input": "Resistant starch",
     "dietary_input": true,
     "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
     "flags": []
@@ -202,7 +202,7 @@
     "source_record": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx#dietary_input_traceability/PM5-DIT-2",
     "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
     "dietary_input": true,
-    "note": "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.",
+    "note": "Historical Type A/Direct record retained; current scientific admission requires review and is excluded from admitted manuscript food-target output. Dietary input Yes records historical dietary applicability, not renewed approval.",
     "flags": []
   },
   {

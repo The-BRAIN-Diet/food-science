@@ -44,6 +44,26 @@ Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin n
 
 ### Input-specificity adjudication — before dietary candidate adjudication
 
+Record biological input identity separately from experimental formulation. A
+class-level Type A Capacity claim may use evidence across supported members;
+formulation-specific effects remain restricted to tested exposures. Neither
+automatically narrow an input to a trial product nor broaden its intervention
+effect to the class. Record preparation, microbial utilisation and cross-feeding
+limitations in the existing evidence/assessment fields.
+
+Stage 2B must distinguish class membership and food composition from demonstrated
+intervention-response equivalence. Class-level delivery does not require a
+food-specific efficacy trial; a claimed formulation-specific response requires
+matching evidence. Direct/Derived remains relative to the receiving operation:
+direct microbial substrate supply does not establish direct food occurrence of
+its downstream metabolites.
+
+A reassessed historical record may remain visible as **requiring review** with
+assessment `status: unresolved`, `review_required: true` and an explicit
+`review_reason`. Preserve its historical six atoms and provenance, show the
+review disposition, and exclude it from admitted manuscript output. This is a
+documented unresolved disposition, not a new admission or a satisfied gate.
+
 **Name the specific evidence-supported biological input or defined resource pool required by the PM. Do not use a broad delivery category where the actual biological requirement can be identified.** Apply this before classifying each dietary candidate as Direct/Derived, biochemical inventory or shared constraint. This is a specificity decision, not evidence that a relationship is admitted or that increasing intake helps.
 
 **Worked example — “Dietary protein → cysteine”.** If protein is proposed merely because it supplies cysteine for glutathione synthesis, assess **cysteine** as the biological input at the evidence-supported relationship and claim level. Do not admit an additional “Dietary protein → Cysteine” requirement solely to represent food delivery. Food → Substance composition, quantified food-source links and rankings belong to the food ontology. Evidence of food content or delivery does not establish a PM requirement, responsiveness or benefit from extra intake. Narrow only if the evidence supports cysteine's stated PM relationship; otherwise retain the tested exposure in its appropriate intervention category or record the precise unresolved gap.

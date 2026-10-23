@@ -182,5 +182,31 @@
       "reason": "Same canonical identities, material, preparation and composition source."
     }
   ],
-  "remaining": []
+  "remaining": [
+    {
+      "food_id": "apples",
+      "food_title": "Apples (studied cultivars)",
+      "food_page": "/docs/foods/apples",
+      "substance_id": "pectin",
+      "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "status": "research-supported-provisional",
+      "evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitations": "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin.",
+      "pm_ids": [
+        "BRS5-FM2-PM5"
+      ],
+      "relationship": "contains",
+      "mapping_status": "research-supported-provisional",
+      "material_equivalence_status": "not-applicable",
+      "ontology_relationship_status": "missing-context-edge"
+    }
+  ]
 }

@@ -1517,55 +1517,16 @@
   },
   {
     "pm": "BRS5-FM2-PM5",
-    "id": "BRS5-FM2-PM5::PM5-DIT-1",
-    "input": "Resistant potato starch",
-    "eligibility": {
-      "eligible": true,
-      "state": "eligible-candidate"
-    },
-    "admission_basis": "historical-decision-pending-reconciliation",
-    "issues": [
-      "scientific-assessment-missing"
-    ],
-    "ontology_connections": {
-      "identity": "resolved",
-      "conversion": "not-applicable",
-      "food": "supported"
-    },
-    "food_target_mapping": "verified",
-    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
-  },
-  {
-    "pm": "BRS5-FM2-PM5",
     "id": "BRS5-FM2-PM5::PM5-DIT-2",
     "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
     "eligibility": {
       "eligible": true,
       "state": "eligible-candidate"
     },
-    "admission_basis": "historical-decision-pending-reconciliation",
+    "admission_basis": "versioned-assessment",
     "issues": [
-      "scientific-assessment-missing"
-    ],
-    "ontology_connections": {
-      "identity": "resolved",
-      "conversion": "not-applicable",
-      "food": "unresolved"
-    },
-    "food_target_mapping": "unresolved",
-    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
-  },
-  {
-    "pm": "BRS5-FM2-PM5",
-    "id": "BRS5-FM2-PM5::PM5-DIT-3",
-    "input": "Pectin",
-    "eligibility": {
-      "eligible": true,
-      "state": "eligible-candidate"
-    },
-    "admission_basis": "historical-decision-pending-reconciliation",
-    "issues": [
-      "scientific-assessment-missing"
+      "canonical-input-identity-mismatch",
+      "functional_dependency-unresolved"
     ],
     "ontology_connections": {
       "identity": "resolved",

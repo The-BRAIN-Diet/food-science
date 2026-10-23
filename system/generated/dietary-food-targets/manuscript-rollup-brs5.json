@@ -2975,7 +2975,7 @@
       "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM5",
       "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
-      "dietary_input": "Resistant potato starch",
+      "dietary_input": "Resistant starch",
       "type": "A",
       "classification": "direct",
       "canonical_substance_id": "resistant-starch",
@@ -2985,7 +2985,7 @@
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "bananas",
       "food_title": "Bananas",
       "food_material": "Cavendish and plantain bananas",
@@ -3034,14 +3034,16 @@
           "PM5-F1"
         ],
         "citation_keys": [
-          "baxter_fermentable_fibers_2019"
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
         ]
       },
       "preparation": "Green/unripe; cultivar and ripening state matter",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
       ],
       "missing_ontology_edge": null
     },
@@ -3050,7 +3052,7 @@
       "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM5",
       "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
-      "dietary_input": "Resistant potato starch",
+      "dietary_input": "Resistant starch",
       "type": "A",
       "classification": "direct",
       "canonical_substance_id": "resistant-starch",
@@ -3060,7 +3062,7 @@
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "black-beans",
       "food_title": "Black Beans",
       "food_material": "Cooked black beans",
@@ -3109,14 +3111,16 @@
           "PM5-F1"
         ],
         "citation_keys": [
-          "baxter_fermentable_fibers_2019"
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
         ]
       },
       "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
       ],
       "missing_ontology_edge": null
     },
@@ -3125,7 +3129,7 @@
       "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM5",
       "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
-      "dietary_input": "Resistant potato starch",
+      "dietary_input": "Resistant starch",
       "type": "A",
       "classification": "direct",
       "canonical_substance_id": "resistant-starch",
@@ -3135,7 +3139,7 @@
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
       "food_material": "Cooked chickpeas",
@@ -3184,14 +3188,16 @@
           "PM5-F1"
         ],
         "citation_keys": [
-          "baxter_fermentable_fibers_2019"
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
         ]
       },
       "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
       ],
       "missing_ontology_edge": null
     },
@@ -3200,7 +3206,7 @@
       "fm": "BRS5(FM2)",
       "pm": "BRS5-FM2-PM5",
       "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
-      "dietary_input": "Resistant potato starch",
+      "dietary_input": "Resistant starch",
       "type": "A",
       "classification": "direct",
       "canonical_substance_id": "resistant-starch",
@@ -3210,7 +3216,7 @@
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "potatoes",
       "food_title": "Potatoes",
       "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
@@ -3259,55 +3265,16 @@
           "PM5-F1"
         ],
         "citation_keys": [
-          "baxter_fermentable_fibers_2019"
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
         ]
       },
       "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
       "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Responses vary with microbial context. Faecal concentration does not measure production flux, brain delivery or clinical benefit."
-      ],
-      "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS5",
-      "fm": "BRS5(FM2)",
-      "pm": "BRS5-FM2-PM5",
-      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
-      "dietary_input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
-      "type": "A",
-      "classification": "direct",
-      "canonical_substance_id": "fructo-galacto-oligosaccharides",
-      "ontology_connections": {
-        "identity": "resolved",
-        "conversion": "not-applicable",
-        "food": "unresolved"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
-      "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
-      "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
-      "pm_evidence": {
-        "finding_ids": [
-          "PM5-F1"
-        ],
-        "citation_keys": [
-          "van_trijp_intraintestinal_2024"
-        ]
-      },
-      "preparation": null,
-      "delivery": null,
-      "conversion_pathway": [],
-      "limitations": [
-        "Preserve the tested preparation; do not attribute its combined result independently to every constituent or infer ordinary-food equivalence."
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
       ],
       "missing_ontology_edge": null
     },
@@ -3323,34 +3290,43 @@
       "ontology_connections": {
         "identity": "resolved",
         "conversion": "not-applicable",
-        "food": "unresolved"
+        "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
+      "admission_basis": "versioned-assessment",
+      "food_target": "apples",
+      "food_title": "Apples (studied cultivars)",
+      "food_material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "material_equivalence_status": "not-applicable",
       "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
+      "ontology_relationship_status": "missing-context-edge",
       "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
       "pm_evidence": {
         "finding_ids": [
           "PM5-F1"
         ],
         "citation_keys": [
-          "pascale_potential_2022"
+          "pascale_potential_2022",
+          "bang_pectin_2018"
         ]
       },
-      "preparation": null,
-      "delivery": null,
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "delivery": "direct-input-source",
       "conversion_pathway": [],
       "limitations": [
-        "Pectin structure and donor community affect products; this is not demonstrated human brain or clinical benefit."
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+        "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
       ],
-      "missing_ontology_edge": null
+      "missing_ontology_edge": "apples → pectin [Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.; Cultivar-specific extracted analytical fractions; not a standardised pectin dose]"
     },
     {
       "brs": "BRS5",

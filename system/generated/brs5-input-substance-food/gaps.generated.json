@@ -210,23 +210,9 @@
     {
       "kind": "stale-missing-substance-status",
       "pm_id": "BRS5-FM2-PM5",
-      "atom_id": "PM5-DIT-1",
-      "input": "Resistant potato starch",
-      "resolved_id": "resistant-starch"
-    },
-    {
-      "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM5",
       "atom_id": "PM5-DIT-2",
       "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
       "resolved_id": "fructo-galacto-oligosaccharides"
-    },
-    {
-      "kind": "stale-missing-substance-status",
-      "pm_id": "BRS5-FM2-PM5",
-      "atom_id": "PM5-DIT-3",
-      "input": "Pectin",
-      "resolved_id": "pectin"
     },
     {
       "kind": "stale-missing-substance-status",

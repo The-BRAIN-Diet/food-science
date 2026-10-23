@@ -12,6 +12,23 @@ Replaces the earlier pattern of *mechanistic claim → one or more references*.
 
 ## Bounded assessment
 
+### Source interpretation boundaries
+
+Identify primary experiment versus secondary synthesis explicitly in existing
+study/design, result, limitations and retrieval fields, independently of data
+level. A review of cellular experiments is secondary synthesis, not another
+primary cellular replication. Do not count an underlying study and its review
+as independent experiments.
+
+Where material to the claim, record anatomical compartment, observation window,
+measured endpoint, inference/model status and tracer origin. Concentration is
+not production flux; separately infused product tracing is not automatically
+evidence of precursor conversion. A null in one compartment does not establish
+absence of a process elsewhere. Preserve the distinction between measured
+substrate utilisation, measured product concentrations and inferred production.
+Synchronise repeated source assessments and generated presentation after a
+correction. These clarifications add no disclosure atom or scoring rule.
+
 **The ontology proposes the question. Evidence gets to challenge it.**
 
 KC-page review uses this same bounded-assessment order on KC title, iKC,

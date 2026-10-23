@@ -22,6 +22,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Beef | creatine | raw | BRS4-FM1-PM3 | requires-material-equivalence-review |
 | vitamin-b2 | Flavin mononucleotide (FMN) |  | BRS4-FM1-PM1 | requires-pathway-reconciliation |
 | tryptophan | Nicotinamide (a form of vitamin B3) |  | BRS4-FM1-PM2 | requires-pathway-reconciliation |
+| Apples (studied cultivars) | pectin | Cultivar-specific extracted analytical fractions; not a standardised pectin dose | BRS5-FM2-PM5 | pending-independent-verification |
 | BRS5-FM1-PM1::PM1-DIT-2 | Fermentable dietary fibre |  | BRS5-FM1-PM1 | requires-identity-reconciliation |
 | BRS5-FM1-PM1::PM1-DIT-2 | Butyrate |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |
 | vitamin-a | Retinoic acid |  | BRS5-FM1-PM1 | requires-pathway-reconciliation |

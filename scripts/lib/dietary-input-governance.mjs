@@ -21,7 +21,9 @@ export function validateInputGovernance(data,issues,{entityLabel='',content='',r
    const a=(data.dietary_input_assessments||[]).find(x=>x.atom_id===atom.atom_id);
    const overlay=(data.dietary_lever_atoms||[]).find(l=>l.atom_id===atom.atom_id);
    const result=assessAdmission({...atom,operation:data.mission,relationship_type:{mode:overlay?.relationship_mode,classification:overlay?.requirement_classification}},a,{substances});
-   if(result.status!=='admitted')issues.push({code:'input_admission_unresolved',message:`${entityLabel}: ${atom.atom_id}: ${result.errors.join(', ')||result.status}`});
+   // A documented review disposition may remain visible without becoming admitted.
+   const heldForReview=a?.status==='unresolved'&&a.review_required===true&&!!a.review_reason?.trim();
+   if(result.status!=='admitted'&&!heldForReview)issues.push({code:'input_admission_unresolved',message:`${entityLabel}: ${atom.atom_id}: ${result.errors.join(', ')||result.status}`});
    if(!a?.food_target_research?.completed||!a.food_target_research.sources_examined?.length||(!a.food_target_research.targeted_searches?.length&&!a.food_target_research.sufficient_coverage_rationale?.trim()))issues.push({code:'input_food_target_research_missing',message:`${entityLabel}: ${atom.atom_id} requires recorded ontology search, source examination and targeted research or a documented sufficient-coverage rationale`});
   }
  }

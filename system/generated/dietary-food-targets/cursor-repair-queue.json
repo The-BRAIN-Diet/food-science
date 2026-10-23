@@ -721,6 +721,34 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
+      "source_entity": "apples",
+      "target_entity": "pectin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "apples",
+        "substance": "pectin"
+      },
+      "candidate_food": "Apples (studied cultivars)",
+      "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "evidence": [
+        {
+          "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+          "sources": [
+            "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "BRS5-FM1-PM1::PM1-DIT-2",
       "target_entity": "Fermentable dietary fibre",
       "relationship_type": "identity-resolution",
