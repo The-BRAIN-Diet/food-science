@@ -1,0 +1,20 @@
+{
+  "live_origin": "https://thebraindiet.org",
+  "hosting_observed": "Netlify (HTTP server and cache headers)",
+  "repository_build_command": "npm run build",
+  "repository_publish_directory": "build (Docusaurus output; Netlify setting not verified)",
+  "node_heap": "netlify.toml configures --max-old-space-size=4096",
+  "sec_baseline_requirement": "Nonempty SEC registry requires explicit SEC_BASE_REF accessible in the clone",
+  "netlify_site_binding": "unverified: dashboard is logged out",
+  "production_branch": "unverified",
+  "actual_netlify_build_command": "unverified",
+  "actual_netlify_environment": "unverified",
+  "github_workflows": 0,
+  "github_check_runs_on_main": 0,
+  "github_deployments": 0,
+  "deployment_action_taken": false,
+  "merge_action_taken": false,
+  "generic_docusaurus_deploy": "Not used; this command does not verify Netlify's production deployment mechanism",
+  "release_hold": "Verify Netlify site, production branch, command, publish directory, SEC baseline and current published deploy ID before seeking merge/deployment approval",
+  "rollback_plan": "Record the currently published Netlify deploy ID before release; restore that published deployment via Netlify if required. Separately revert the approved release merge on main through reviewed Git history; preserve release and research branches. No reset or force-push."
+}

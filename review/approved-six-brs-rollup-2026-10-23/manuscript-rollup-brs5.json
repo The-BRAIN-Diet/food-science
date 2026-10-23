@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_commit": "77d2e8c1743bd03246af92eec34f3773d024935a",
+  "source_commit": "3d2ea222191173140539f86d3c4cffe9ccf84fcc",
   "baseline_report": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json.gz",
   "scope": "Approved six-BRS manuscript dietary abstraction, refreshed with the explicitly approved enrichment. Historical mapping catalogue is separate.",
   "qualification": "Food delivery is not formulation-equivalent PM efficacy. Limited animal, cellular, selected-population and supplemental exposures remain qualified. This is not a clinically validated diet or ADHD treatment.",

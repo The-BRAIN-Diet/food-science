@@ -1,0 +1,17 @@
+{
+  "main_is_ancestor": true,
+  "reviewed_pm4_pm5_is_ancestor": true,
+  "approved_pm5_is_ancestor": true,
+  "approved_food_integration_is_ancestor": true,
+  "canonical_food_files_different_from_main": [
+    "docs/foods/beetroot.md"
+  ],
+  "beetroot_diff": "Reviewed provenance qualification only; previously approved quantitative value retained.",
+  "registry_delta": "diff --git a/registry/substances.json b/registry/substances.json\nindex 1b7de75b..03c85210 100644\n--- a/registry/substances.json\n+++ b/registry/substances.json\n@@ -1344,5 +1344,33 @@\n       \"nutrient\",\n       \"vitamin\"\n     ]\n+  },\n+  \"l-carnitine\": {\n+    \"path\": \"bioactive-compounds/lipid-based/l-carnitine.md\",\n+    \"title\": \"L-Carnitine\",\n+    \"aliases\": [\n+      \"Carnitine\",\n+      \"L-carnitine\",\n+      \"(R)-carnitine\",\n+      \"levocarnitine\"\n+    ],\n+    \"tags\": [\n+      \"bioactive\",\n+      \"metabolite\"\n+    ],\n+    \"inchikey\": \"PHIQHXFUZVPYII-ZCFIWIBFSA-N\",\n+    \"list_image\": \"/img/inchi/PHIQHXFUZVPYII-ZCFIWIBFSA-N.png\",\n+    \"external_ids\": {\n+      \"pubchem_cid\": 10917,\n+      \"chebi\": \"CHEBI:16347\"\n+    },\n+    \"identity_evidence\": {\n+      \"retrieved\": \"2026-10-23\",\n+      \"sources\": [\n+        \"https://pubchem.ncbi.nlm.nih.gov/compound/10917\",\n+        \"https://rest.uniprot.org/uniprotkb/P50416.json\"\n+      ],\n+      \"qualification\": \"L/(R) stereoisomer; not D-carnitine, acetyl-L-carnitine or L-carnitine-L-tartrate formulation identity.\"\n+    }\n   }\n }\n",
+  "canonical_sec_registry_matches_reviewed": true,
+  "current_main_content_preserved": [
+    "src/components/SecCalibrationPreview/index.tsx",
+    "scripts/sec-calibration-preview.test.mjs",
+    "docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md"
+  ]
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "check": "findings",
+    "command": [
+      "node",
+      "scripts/sync-pm-scientific-findings.mjs",
+      "--check"
+    ],
+    "exit": 0,
+    "tail": "\nScientific Findings check: 64 PM page(s) checked, 0 problem(s)\n"
+  },
+  {
+    "check": "hypotheses",
+    "command": [
+      "node",
+      "scripts/sync-pm-scientific-hypotheses.mjs",
+      "--check"
+    ],
+    "exit": 0,
+    "tail": "Scientific Hypotheses check: 0 problem(s)\n"
+  },
+  {
+    "check": "dietary-governance",
+    "command": [
+      "node",
+      "scripts/check-dietary-input-governance.mjs"
+    ],
+    "exit": 0,
+    "tail": "{\n  \"checked\": 64,\n  \"issues\": []\n}\n"
+  },
+  {
+    "check": "sec",
+    "command": [
+      "node",
+      "scripts/check-sec-assessments.mjs",
+      "github/main"
+    ],
+    "exit": 0,
+    "tail": "SEC registry, immutable history and canonical references valid (84 snapshots).\n"
+  },
+  {
+    "check": "substances",
+    "command": [
+      "node",
+      "scripts/validate-substance-pages.mjs"
+    ],
+    "exit": 0,
+    "tail": "\n--- Canonical Substance-page validation ---\n\nOK: bioactive-compounds/carotenoids/astaxanthin.md\nOK: nutrients/micronutrients/vitamins/vitamin-b12.md\nOK: microbial-metabolites/secondary-plant-conversions/urolithin-a.md\nOK: microbial-metabolites/scfas/butyrate.md\n\nOK: Food \u2194 Substance inverse relationship safeguards\n\nSubstance validation passed.\n\n"
+  },
+  {
+    "check": "mechanisms",
+    "command": [
+      "node",
+      "scripts/validate-mechanism-pages.mjs"
+    ],
+    "exit": 1,
+    "tail": "oss-BRS Mechanism Relationships\n    - BRS1(SM-SNP2): [pm_connected_subsections] BRS1(SM-SNP2): \u00a75.3 must be Local BRS Mechanism Relationships\n    - BRS1(SM-SNP2): [pm_dietary_requirements_headings] BRS1(SM-SNP2): \u00a73.1.1 must be Dietary Inputs & Regulatory Modulators\n    - BRS2(SM-SNP1): [pm_connected_subsections] BRS2(SM-SNP1): \u00a75.2 must be Cross-BRS Mechanism Relationships\n    - BRS2(SM-SNP1): [pm_connected_subsections] BRS2(SM-SNP1): \u00a75.3 must be Local BRS Mechanism Relationships\n    - BRS2(SM-SNP1): [pm_dietary_requirements_headings] BRS2(SM-SNP1): \u00a73.1.1 must be Dietary Inputs & Regulatory Modulators\n  PM Mechanistic Basis (\u00a74 / numbered Mechanistic Basis): passed\n  SM Mechanistic Basis (\u00a74 / numbered Mechanistic Basis): passed\n  Phenome relationship index: fresh\n  Phenome registry mapping: passed (124/124 edges)\n  Scientific Findings (\u00a74.1 fresh + model valid): passed (64 PM page(s))\n  CUE schemas: present (cue/brain/*.cue \u2014 substance \u2190 food mapping; JS enforces legacy arrow ban)\n"
+  },
+  {
+    "check": "bibliography",
+    "command": [
+      "node",
+      "scripts/validate-bib-citation-keys.mjs"
+    ],
+    "exit": 0,
+    "tail": "All 880 cited keys are present in the BRAIN Diet bibliography (1319 total entries).\n"
+  }
+]
