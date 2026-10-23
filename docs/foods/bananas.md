@@ -103,6 +103,16 @@ substance_relationships:
     evidence_material: 'Bananas, raw'
     source_url: 'https://fdc.nal.usda.gov/food-details/173944/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Resistant starch
+    relationship: contains
+    description: "Gao et al. (2016) measured resistant starch in Cavendish and plantain bananas and its decline during ripening. Presence depends on cultivar and ripeness. No amount is copied onto this page."
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: "Gao et al., Postharvest Biology and Technology 2016"
+    evidence_material: "Cavendish and plantain bananas"
+    preparation_state: "Green/unripe; cultivar and ripening state matter"
+    source_url: "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+    material_limitations: "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
 substance_review_candidates: []
 ---
 ## Overview

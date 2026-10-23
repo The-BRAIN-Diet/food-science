@@ -523,6 +523,40 @@ Synthesised Evidence Confidence. Findings do not read, rescore or replace them.
 Where adjudication shows a legacy value is no longer adequate, record it in
 `system/mechanism-change-control-queue.md` rather than silently changing it.
 
+### Synthesised Evidence Confidence display
+
+The stored finding value remains `not-yet-scored` until evidence governance records an adjudicated score. Do not write a display label or a guessed total back onto a finding. Raw SEC, an adjusted confidence decision, and the reader-facing label stay distinct.
+
+When governance scores a defined proposition, the raw total is **SEC = D + B + P + R**. Each factor is an integer 0–2:
+
+- **D — Directness:** relevance to the exact claim, intervention and endpoint.
+- **B — Bias protection:** protection against systematic error.
+- **P — Precision:** precision and uncertainty of the evidence.
+- **R — Replication:** independent replication and consistency.
+
+The raw total is 0–8. The display component does not calculate these factors. A single unreplicated study cannot receive full replication credit. A raw zero, a missing assessment, or any value that is not an integer 1–8 is **Not scored**. It is not shown as 1.
+
+An adjudicated cap or downgrade is the displayed decision. The raw total does not override it.
+
+Reader-facing labels for a valid display score:
+
+| Score | Label | Colour family |
+|---|---|---|
+| 1 | Extremely Low | Red |
+| 2 | Very Low | Red |
+| 3 | Low | Yellow |
+| 4 | Low–Moderate | Yellow |
+| 5 | Moderate | Orange |
+| 6 | Moderate–High | Orange |
+| 7 | High | Green |
+| 8 | Very High | Green |
+
+The indicator is four grouped blocks, two increments each. Scores 1–2 use the existing red token, 3–4 yellow, 5–6 orange, and 7–8 green. Inactive increments stay neutral. The readout is the score out of 8 and the label, for example `6/8 · Moderate–High`.
+
+This is confidence in a defined evidence proposition. It is not the quality of one study alone, a count of studies, the probability that the finding is true, the magnitude of benefit, clinical effectiveness, or scientific admission. Do not infer a Dietary Requirement, SOP, lifestyle lever, or phenome admission from the displayed score.
+
+Legacy four-level words (`very-low`, `low`, `moderate`, `high`) and phenome confidence values stay on their own scale. They are not converted into SEC numbers. No new scientific admission categories are created.
+
 ### Scientific Findings — Summary authoring rule
 
 Summarise the most relevant adjudicated findings and the overall evidence picture in a short reader-facing paragraph. State what the strongest evidence establishes, identify important convergence or differences in results, and preserve the studied context and principal inference boundary. Distinguish measured endpoints from inferred mechanisms. Reuse the existing Finding records and target-page numbered bibliography references. Do not substitute a mechanism walkthrough, nutrient inventory, list of section contents, or generic statement that “the findings below” support the biology. §4 explains how the process works; this Summary explains what its evidence shows. Where evidence is limited to biochemical or preclinical work, say so without manufacturing a human result. Summarise rather than enumerate every study; adapt length to the available evidence. Necessary biological wording may recur for clarity: the test is added evidence interpretation, not artificial variation. Preserve the stable `scientific_findings_intro` source field.

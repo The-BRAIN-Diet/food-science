@@ -232,6 +232,94 @@ substance_relationships:
       Contains choline bound in phosphatidylcholine; a separate total-choline
       amount is unavailable.
     source_reference: '#food-source-5'
+  - substance: Iron
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 2 mg iron per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin B6
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.06 mg vitamin B6 per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Copper
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.76 mg copper per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin C
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 6 mg vitamin C per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin B9
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 100 µg folate per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin B12
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 47 µg vitamin B12 per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin B2
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 0.55 mg vitamin B2 per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin E
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 9.1 mg vitamin E per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Vitamin A
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 330 µg RAE vitamin A per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Zinc
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 2.1 mg zinc per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
+  - substance: Magnesium
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 95 mg magnesium per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140"
+    evidence_material: "Chum salmon (Oncorhynchus keta), salted roe (ikura)"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7"
 substance_review_candidates: []
 ---
 ## Overview

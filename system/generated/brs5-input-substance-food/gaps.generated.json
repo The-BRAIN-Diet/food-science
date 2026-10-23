@@ -61,20 +61,6 @@
     },
     {
       "kind": "substance-identity",
-      "pm_id": "BRS5-FM2-PM4",
-      "id": "PM4-DIT-2",
-      "input": "Citrus pectin",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM2-PM5",
-      "id": "PM5-DIT-1",
-      "input": "Resistant potato starch",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
       "pm_id": "BRS5-FM3-PM7",
       "id": "PM7-DIT-1",
       "input": "Lactobacillus rhamnosus JB-1",
@@ -85,13 +71,6 @@
       "pm_id": "BRS5-FM3-PM8",
       "id": "PM8-DIT-2",
       "input": "Apple pectin (studied preparation)",
-      "status": "unresolved-identity"
-    },
-    {
-      "kind": "substance-identity",
-      "pm_id": "BRS5-FM3-PM8",
-      "id": "PM8-DIT-3",
-      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
       "status": "unresolved-identity"
     },
     {
@@ -163,18 +142,6 @@
     },
     {
       "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM4::PM4-DIT-2",
-      "input": "Citrus pectin",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM5::PM5-DIT-1",
-      "input": "Resistant potato starch",
-      "reason": "Identity/compound-class mapping unresolved; no dietary equivalent inferred."
-    },
-    {
-      "kind": "mapping-gap",
       "relationship_id": "BRS5-FM2-PM5::PM5-DIT-2",
       "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
       "reason": "No supported canonical food-source record found."
@@ -183,12 +150,6 @@
       "kind": "mapping-gap",
       "relationship_id": "BRS5-FM2-PM6::PM6-DIT-1",
       "input": "Ellagic acid",
-      "reason": "No supported canonical food-source record found."
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS5-FM2-PM6::PM6-DIT-2",
-      "input": "Ellagitannins",
       "reason": "No supported canonical food-source record found."
     },
     {
@@ -235,8 +196,22 @@
     {
       "kind": "stale-missing-substance-status",
       "pm_id": "BRS5-FM2-PM4",
+      "atom_id": "PM4-DIT-2",
+      "input": "Citrus pectin",
+      "resolved_id": "pectin"
+    },
+    {
+      "kind": "stale-missing-substance-status",
+      "pm_id": "BRS5-FM2-PM4",
       "atom_id": "PM4-DIT-3",
       "input": "Resistant starch (RS2/RS3)",
+      "resolved_id": "resistant-starch"
+    },
+    {
+      "kind": "stale-missing-substance-status",
+      "pm_id": "BRS5-FM2-PM5",
+      "atom_id": "PM5-DIT-1",
+      "input": "Resistant potato starch",
       "resolved_id": "resistant-starch"
     },
     {
@@ -280,6 +255,13 @@
       "atom_id": "PM7-DIT-3",
       "input": "Glutamate",
       "resolved_id": "glutamate"
+    },
+    {
+      "kind": "stale-missing-substance-status",
+      "pm_id": "BRS5-FM3-PM8",
+      "atom_id": "PM8-DIT-3",
+      "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "resolved_id": "pyridoxal-5-phosphate"
     }
   ],
   "pm_coverage": [

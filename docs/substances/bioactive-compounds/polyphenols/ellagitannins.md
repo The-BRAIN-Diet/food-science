@@ -22,7 +22,7 @@ The human comparison used pomegranate juice, a matrix that can provide ellagitan
 
 ## Dietary Origin
 
-The dietary relationship is precursor supply: ellagitannins can be hydrolysed to ellagic acid, which is then a microbial substrate. Pomegranate juice is the food matrix in the human comparison [1]. It is not an isolated ellagitannin, and it is not urolithin A. Direct urolithin A supplementation is a different exposure and does not test tannin hydrolysis [1]. No food page is tagged as containing urolithin A because of its ellagitannins.
+The dietary relationship is precursor supply: ellagitannins can be hydrolysed to ellagic acid, which is then a microbial substrate. Walnut kernels are linked from the walnut page because LC–Orbitrap profiling identified ellagitannins in that material ([Regueiro et al., 2014](https://doi.org/10.1016/j.foodchem.2013.11.158)). That link is presence only, not an amount and not urolithin A. Pomegranate juice is the food matrix in the human comparison [1]. It is not an isolated ellagitannin, and it is not urolithin A. Direct urolithin A supplementation is a different exposure and does not test tannin hydrolysis [1]. No food page is tagged as containing urolithin A because of its ellagitannins.
 
 ## Research Spotlights & Evidence Checks
 

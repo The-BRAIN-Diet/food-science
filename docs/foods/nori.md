@@ -196,6 +196,62 @@ substance_relationships:
       Active vitamin B12 is documented in studied roasted nori; amounts vary by
       product.
     source_reference: '#food-source-4'
+  - substance: Vitamin B6
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 0.59 mg vitamin B6 per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Copper
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 0.55 mg copper per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Vitamin C
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 210 mg vitamin C per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Vitamin B2
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 2.33 mg vitamin B2 per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Selenium
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 9 µg selenium per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Vitamin E
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 4.6 mg vitamin E per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
+  - substance: Zinc
+    relationship: contains
+    description: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 3.6 mg zinc per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004"
+    evidence_material: "Purple laver (Porphyra spp.), dried, toasted"
+    source_url: "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100"
 substance_review_candidates: []
 composition_status: supported
 nutrition_source:

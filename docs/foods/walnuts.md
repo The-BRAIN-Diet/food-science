@@ -173,6 +173,16 @@ substance_relationships:
     evidence_material: 'Nuts, walnuts, english'
     source_url: 'https://fdc.nal.usda.gov/food-details/170187/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Ellagitannins
+    relationship: contains
+    description: "Regueiro et al. (2014) identified ellagitannins among the major polyphenols of walnut kernels by LC–Orbitrap mass spectrometry. Presence only; no amount is recorded here."
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: "Regueiro et al., Food Chemistry 2014"
+    evidence_material: "Walnut kernels"
+    preparation_state: "Walnut kernels; assay-specific extraction"
+    source_url: "https://doi.org/10.1016/j.foodchem.2013.11.158"
+    material_limitations: "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
 substance_review_candidates: []
 ---
 ## Overview

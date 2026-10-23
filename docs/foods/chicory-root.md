@@ -59,7 +59,71 @@ composition_technical_provenance:
     published as oleic acid, linoleic acid or ALA. MyFoodData omega-3 and
     omega-6 rows extrapolated from those undifferentiated acids are not used.
 eaa_profile_applicable: false
-substance_relationships: []
+substance_relationships:
+  - substance: Iron
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 0.8 mg iron per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Vitamin B6
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 0.241 mg vitamin B6 per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Copper
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 0.077 mg copper per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Vitamin C
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 5 mg vitamin C per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Vitamin B9
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 23 µg folate per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Selenium
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 0.7 µg selenium per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Zinc
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 0.33 mg zinc per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
+  - substance: Magnesium
+    relationship: contains
+    description: "USDA SR Legacy, FDC 169993 reports 22 mg magnesium per 100 g edible portion in Chicory roots, raw (Cichorium intybus)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA SR Legacy, FDC 169993"
+    evidence_material: "Chicory roots, raw (Cichorium intybus)"
+    source_url: "https://tools.myfooddata.com/nutrition-facts/169993/wt1"
 main_image: /img/foods/chicory-root/chicory-root_medium.webp
 legacy_list_image: /img/foods/chicory-root/chicory-root_thumb.webp
 legacy_main_image: /img/foods/chicory-root/chicory-root_medium.webp

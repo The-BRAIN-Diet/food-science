@@ -184,6 +184,16 @@ substance_relationships:
     evidence_material: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
     source_url: 'https://fdc.nal.usda.gov/food-details/173756/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Resistant starch
+    relationship: contains
+    description: "Fabbri, Schacht and Crosby (2016) assayed resistant starch in cooked chickpeas in the same cooking series as black beans and pinto beans. Figures are dry weight and study-specific. No fresh-weight amount is entered here."
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: "Fabbri et al., NFS Journal 2016"
+    evidence_material: "Cooked chickpeas"
+    preparation_state: "Cooked; cooking duration and cooling protocol remain study-specific"
+    source_url: "https://doi.org/10.1016/j.nfs.2016.02.002"
+    material_limitations: "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
 substance_review_candidates: []
 ---
 ## Overview

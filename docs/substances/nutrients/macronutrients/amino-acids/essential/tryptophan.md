@@ -19,7 +19,7 @@ inchi_image: /img/inchi/QIVBCDIJIAJPQS-VIFPVBQESA-N.png
 
 ## Overview
 
-Tryptophan is an essential amino acid that serves as the precursor for serotonin and melatonin, neurotransmitters that play crucial roles in mood regulation, emotional control, and sleep. Tryptophan's entry into the brain occurs via the LAT1 transporter, where it competes with other large neutral amino acids (LNAAs) like tyrosine and phenylalanine. Carbohydrate-rich, low-protein meals can raise the plasma tryptophan:LNAA ratio because insulin pushes competing LNAAs out to muscles, making more tryptophan available for brain uptake. Tryptophan can also feed NAD+ synthesis via the kynurenine pathway, supporting cellular energy metabolism.
+Tryptophan is an essential amino acid that serves as the precursor for serotonin and melatonin, neurotransmitters that play crucial roles in mood regulation, emotional control, and sleep. Tryptophan's entry into the brain occurs via the LAT1 transporter, where it competes with other large neutral amino acids (LNAAs) like tyrosine and phenylalanine. Carbohydrate-rich, low-protein meals can raise the plasma tryptophan:LNAA ratio because insulin pushes competing LNAAs out to muscles, making more tryptophan available for brain uptake. Tryptophan can also feed NAD+ synthesis via the kynurenine pathway, including de novo formation of [nicotinamide](/docs/substances/nutrients/micronutrients/vitamins/vitamin-b3#nicotinamide). The share supplied by that route is not established [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021).
 
 ## Recipes
 

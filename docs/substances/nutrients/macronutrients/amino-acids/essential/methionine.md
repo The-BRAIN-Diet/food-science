@@ -19,7 +19,7 @@ inchi_image: /img/inchi/FFEARJCKVFRZRR-BYPYZUCNSA-N.png
 
 ## Overview
 
-Methionine is an essential amino acid that plays a central role in methylation processes. It forms S-adenosylmethionine (SAMe), the universal methyl donor that fuels neurotransmitter synthesis (dopamine, norepinephrine, serotonin) and drives phospholipid methylation in neuronal membranes. Methionine is converted to SAMe through a process that involves B vitamins (B6, B2, folate, B12) as cofactors. After donating its methyl group, SAMe becomes S-adenosylhomocysteine, which is then converted to homocysteine, which can be remethylated back to methionine in a cycle that requires adequate B vitamin status.
+Methionine is an essential amino acid supplied in dietary protein. It plays a central role in methylation processes. A methionine figure is not a [cysteine](/docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine) figure. It forms S-adenosylmethionine (SAMe), the universal methyl donor that fuels neurotransmitter synthesis (dopamine, norepinephrine, serotonin) and drives phospholipid methylation in neuronal membranes. Methionine is converted to SAMe through a process that involves B vitamins (B6, B2, folate, B12) as cofactors. After donating its methyl group, SAMe becomes S-adenosylhomocysteine, which is then converted to homocysteine, which can be remethylated back to methionine in a cycle that requires adequate B vitamin status.
 
 ## Recipes
 
