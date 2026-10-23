@@ -1,61 +1,80 @@
 import React from 'react';
 import clsx from 'clsx';
+import {
+  evidenceConfidenceAccessibleLabel,
+  LEGACY_CONFIDENCE_LEVELS,
+  resolveEvidenceConfidence,
+  SEC_DISPLAY_LEVELS,
+} from './secDisplay.mjs';
 import styles from './styles.module.css';
 
 /**
- * Presentation only. The component renders an already-determined confidence
- * state and never derives one from study count, design, references or
- * population — that belongs to the evidence methodology.
+ * Presentation only. Governance determines the confidence state. This component
+ * does not score directness, bias protection, precision or replication.
  */
-export const EVIDENCE_CONFIDENCE_LEVELS = ['very-low', 'low', 'moderate', 'high'] as const;
+export const EVIDENCE_CONFIDENCE_LEVELS = LEGACY_CONFIDENCE_LEVELS;
 
-export type EvidenceConfidenceLevel = (typeof EVIDENCE_CONFIDENCE_LEVELS)[number];
+export type EvidenceConfidenceLevel = (typeof LEGACY_CONFIDENCE_LEVELS)[number];
 
-const TOTAL_SEGMENTS = 4;
-
-const LEVEL_CONFIG: Record<
-  EvidenceConfidenceLevel,
-  { activeSegments: number; label: string; levelClass: string }
-> = {
-  'very-low': { activeSegments: 1, label: 'Very low', levelClass: styles.levelVeryLow },
-  low: { activeSegments: 2, label: 'Low', levelClass: styles.levelLow },
-  moderate: { activeSegments: 3, label: 'Moderate', levelClass: styles.levelModerate },
-  high: { activeSegments: 4, label: 'High', levelClass: styles.levelHigh },
-};
+export {SEC_DISPLAY_LEVELS};
 
 export type EvidenceConfidenceIndicatorProps = {
-  level: EvidenceConfidenceLevel;
+  /** Raw SEC total, 1–8. Zero and any other value render as Not scored. */
+  score?: number | null;
+  /**
+   * Adjudicated cap or downgrade. When passed, it is the displayed state and
+   * the raw score is not used, including when the decision is unscored.
+   */
+  adjustedScore?: number | null;
+  /** Legacy four-level display. It is not converted into an SEC number. */
+  level?: EvidenceConfidenceLevel;
   className?: string;
   /** Prefix used in the accessible label only; never rendered visually. */
   srPrefix?: string;
 };
 
+function Segment({active}: {active: boolean}) {
+  return <span className={clsx(styles.segment, active && styles.segmentActive)} />;
+}
+
 export default function EvidenceConfidenceIndicator({
+  score,
+  adjustedScore,
   level,
   className,
   srPrefix = 'Evidence confidence',
-}: EvidenceConfidenceIndicatorProps): React.ReactElement | null {
-  const config = LEVEL_CONFIG[level];
-  if (!config) return null;
+}: EvidenceConfidenceIndicatorProps): React.ReactElement {
+  const state = resolveEvidenceConfidence({score, adjustedScore, level});
+  const accessibleLabel = evidenceConfidenceAccessibleLabel(state, srPrefix);
 
-  const accessibleLabel = `${srPrefix}: ${config.label}, level ${config.activeSegments} of ${TOTAL_SEGMENTS}`;
+  const marks = state.grouped ? (
+    <span className={styles.blocks} aria-hidden="true">
+      {Array.from({length: 4}, (_, block) => (
+        <span key={block} className={styles.block}>
+          <Segment active={block * 2 < state.activeSegments} />
+          <Segment active={block * 2 + 1 < state.activeSegments} />
+        </span>
+      ))}
+    </span>
+  ) : (
+    <span className={styles.segments} aria-hidden="true">
+      {Array.from({length: 4}, (_, index) => (
+        <Segment key={index} active={index < state.activeSegments} />
+      ))}
+    </span>
+  );
 
   return (
     <span
-      className={clsx(styles.indicator, config.levelClass, className)}
+      className={clsx(styles.indicator, state.familyClass && styles[state.familyClass], className)}
       role="img"
       aria-label={accessibleLabel}
+      data-sec-mode={state.mode}
+      data-sec-score={state.score ?? ''}
     >
-      <span className={styles.segments} aria-hidden="true">
-        {Array.from({ length: TOTAL_SEGMENTS }, (_, index) => (
-          <span
-            key={index}
-            className={clsx(styles.segment, index < config.activeSegments && styles.segmentActive)}
-          />
-        ))}
-      </span>
+      {marks}
       <span className={styles.label} aria-hidden="true">
-        {config.label}
+        {state.readout}
       </span>
     </span>
   );
