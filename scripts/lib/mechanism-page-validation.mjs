@@ -1,3 +1,4 @@
+import {validateScientificHypotheses} from './scientific-hypotheses.mjs';
 import { validateFmSynthesisLayout } from './fm-synthesis-layout.mjs';
 import pmLeverLayout from "../../src/plugin/pm-lever-layout/index.cjs";
 /**
@@ -1358,6 +1359,7 @@ function validatePmPage(filePath, { canonicalKcIndex = null, identityContext = {
   if (Array.isArray(data.scientific_findings) && data.scientific_findings.length) {
     validatePublishedPmConnectionExplanations(content, issues, { entityLabel });
   }
+  validateScientificHypotheses(data, issues, {content});
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });

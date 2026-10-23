@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "source_commit": "77d2e8c1743bd03246af92eec34f3773d024935a",
+  "baseline_report": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json.gz",
+  "scope": "Approved six-BRS manuscript dietary abstraction, refreshed with the explicitly approved enrichment. Historical mapping catalogue is separate.",
+  "qualification": "Food delivery is not formulation-equivalent PM efficacy. Limited animal, cellular, selected-population and supplemental exposures remain qualified. This is not a clinically validated diet or ADHD treatment.",
+  "records": [],
+  "practices": [
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_mission": "Shape the rate of post-meal glucose appearance so metabolic and neuroendocrine systems face manageable, predictable load.",
+      "atom_id": "PM1-SOP-2",
+      "input": "Fish before rice in the studied meal sequence",
+      "input_type": "meal sequencing protocol",
+      "biological_role": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "kuwata_meal_sequence_2016"
+        ]
+      },
+      "limitation": "An acute meal result; no claim that protein alone accounts for the effect.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "fish-sequence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26704625/",
+          "kind": "primary-human-intervention",
+          "proposition": "Fish-before-rice comparison measured breath-test emptying and post-meal glucose responses.",
+          "limitation": "Acute exploratory small study; meat comparison not the randomized crossover; no generic protein-first or chronic brain claim.",
+          "retrieval": "Primary abstract and full text.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "An acute meal result; no claim that protein alone accounts for the effect.",
+      "rollup_status": "Limited",
+      "batch": 1,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_mission": "Shape the rate of post-meal glucose appearance so metabolic and neuroendocrine systems face manageable, predictable load.",
+      "atom_id": "PM1-SOP-7",
+      "input": "The tested beta-glucan addition to a polenta meal",
+      "input_type": "defined fibre meal addition",
+      "biological_role": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F4"
+        ],
+        "citation_keys": [
+          "nazare_beta_glucan_2009"
+        ]
+      },
+      "limitation": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "beta-glucan-meal",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18837470/",
+          "kind": "primary-human-intervention",
+          "proposition": "The tested beta-glucan/polenta meal redistributed isotope-estimated glucose appearance.",
+          "limitation": "Specific 5-g addition in twelve overweight participants; no decrease in total appearance and no universal whole-oat equivalence.",
+          "retrieval": "Primary abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+      "rollup_status": "Limited",
+      "batch": 1,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-2",
+      "input": "Less-processed whole-grain food package (two-week trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "stage2-ref-aberg"
+        ]
+      },
+      "limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "wholegrain-processing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372063/",
+          "kind": "primary-human-crossover",
+          "proposition": "Less-processed whole-grain package reduced CGM excursions and variability relative to finely milled nutrient-matched grains.",
+          "limitation": "31 enrolled, 28 completed; two weeks; type 2 diabetes; combined oats/rice/bread package. Not an isolated fibre effect or brain outcome.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "The less-milled whole-grain package is the exposure; not a biochemical dietary requirement or equivalent to adding isolated fibre.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-3",
+      "input": "Early eating with front-loaded calories (six-day trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F6"
+        ],
+        "citation_keys": [
+          "stage2-ref-bruno",
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "early-eating",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39759025/",
+          "kind": "primary-human-crossover",
+          "proposition": "Six-day early eating with front-loaded calories reduced MAGE and hyperglycaemic exposure in ten adults with prediabetes.",
+          "limitation": "Timing, window and calorie distribution were combined. Inflammatory markers and OGTT did not improve; short trial does not establish universal timing benefits.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "early-eating-null",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804344/",
+          "kind": "primary-human-randomised-secondary-analysis",
+          "proposition": "Early time restriction added to calorie restriction did not improve average glucose or insulin-sensitivity measures over calorie restriction alone.",
+          "limitation": "Different 12-week protocol and overweight/obese population; incomplete CGM coverage. Retained as contrary context, not a second independent replication of Bruno.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Candidate early/front-loaded eating strategy in dysglycaemia; no universally optimal window or established brain/ADHD benefit. Longer trial with a different protocol was null.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-LIFE-2",
+      "input": "Supervised interval walking (two-week trial)",
+      "input_type": "physical activity",
+      "biological_role": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F7"
+        ],
+        "citation_keys": [
+          "stage2-ref-karstoft"
+        ]
+      },
+      "limitation": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.3",
+      "mechanistic_evidence": [
+        {
+          "id": "interval-walking",
+          "url": "https://pure-oai.bham.ac.uk/ws/files/37050575/Karstoft_et_al_The_effects_of_2_weeks_2016.pdf",
+          "kind": "primary-human-crossover",
+          "proposition": "Two weeks of supervised interval walking reduced CGM MAGE versus the control period in type 2 diabetes.",
+          "limitation": "14 participants, 13 usable CGM; mean glucose within-period inconclusive; oxidative stress unchanged. Not generic walking-dose or brain-effect evidence.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Tested supervised slow/fast treadmill programme; retain population, intensity and null oxidative-stress findings.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_mission": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "atom_id": "PM3-SOP-DEFERRED-1",
+      "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+      "input_type": "conditional supplementation",
+      "section": "3.2",
+      "biological_role": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4"
+        ],
+        "citation_keys": [
+          "piatti_oral_arginine_clamp_2001"
+        ]
+      },
+      "limitation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+      "mechanistic_evidence": [
+        {
+          "label": "Piatti et al. (2001)",
+          "citation_key": "piatti_oral_arginine_clamp_2001",
+          "href": "/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001",
+          "data_level": "Human Study",
+          "exposure_context": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+          "assessment": {
+            "study": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+            "population": "Twelve lean adults with type 2 diabetes; double-blind study with random allocation into two groups.",
+            "result": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Euglycaemic-hyperinsulinaemic clamp with glucose tracer; endogenous glucose production and cGMP.",
+            "limitations": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/11347747/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS6-FM1-PM3/PM3-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM3)",
+      "pm": "BRS6-FM3-PM7",
+      "pm_mission": "Sustain vagal tone so heart-rate-variability-linked recovery signalling remains robust under repeated stress exposure.",
+      "atom_id": "PM7-LP-DEFERRED-1",
+      "input": "Aerobic conditioning in the tested twelve-week programme",
+      "input_type": "exercise protocol",
+      "section": "3.3",
+      "biological_role": "The randomised training comparison increased high-frequency RR variability, with sex-dependent autonomic effects.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "sloan_aerobic_autonomic_2009"
+        ]
+      },
+      "limitation": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+      "mechanistic_evidence": [
+        {
+          "label": "Sloan et al. (2009)",
+          "citation_key": "sloan_aerobic_autonomic_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#sloan_aerobic_autonomic_2009",
+          "data_level": "Human Study",
+          "exposure_context": "Twelve weeks of conditioning and four weeks of deconditioning.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Aerobic conditioning increased high-frequency RR variability; post-hoc autonomic effects were confined to men and reversed with deconditioning.",
+          "assessment": {
+            "study": "Twelve weeks of conditioning and four weeks of deconditioning.",
+            "population": "149 sedentary healthy young adults randomised to aerobic or strength training.",
+            "result": "Aerobic conditioning increased high-frequency RR variability; post-hoc autonomic effects were confined to men and reversed with deconditioning.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Resting heart rate and high-frequency RR-interval variability.",
+            "limitations": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19299682/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS6-FM3-PM7/PM7-LP-DEFERRED-1"
+    }
+  ]
+}
