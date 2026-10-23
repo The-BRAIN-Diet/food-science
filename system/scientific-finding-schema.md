@@ -97,6 +97,26 @@ coverage is sufficient and record the bounded-search stopping rationale.
 Successful schema validation (`findings:check`, page validators, tests) is
 not scientific completion.
 
+### Evidence limitations versus retrieval and assessment limitations
+
+> Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence.
+
+Keep these statements distinct:
+
+- **A. “There is insufficient evidence.”** A statement about the entire scientific literature; it requires a sufficiently comprehensive assessment and cannot follow merely from incomplete searching or inaccessible papers.
+- **B. “Insufficient evidence was identified in this assessment.”** A statement about the evidence actually retrieved and evaluated, without claiming that supporting research does not exist elsewhere.
+- **C. “Independent replication was not established in this assessment.”** A statement that sufficiently independent replication of the exact proposition has not been verified in this assessment.
+
+Use the existing Stage 2A report to record searches and retrieved evidence, pivotal evidence assessed, inaccessible sources, supporting/contradictory/contextual evidence, whether independent replication was verified, and which uncertainties arise from incomplete retrieval rather than demonstrated scientific weakness. Preserve the exact assessed proposition and bounded-search stopping rationale.
+
+**Unknown is not zero.** In provisional SEC assessment, incomplete replication retrieval does not establish R0; that judgement requires an assessed evidence body meeting the rubric's criteria. Inaccessible methods or uncertainty estimates do not establish B0 or P0. Preserve unresolved factors, avoid unjustified confidence downgrades, and retain Not scored unless all four factor judgements are defensible. This clarification adds no scoring anchors, formula or admission threshold.
+
+### SEC assessment status and provisional completion
+
+Apply the [SEC status distinction and provisional acceptance gate](reviews/sec-calibration/SEC-calibration-rubric-proposal.html#sec-assessment-status). Stage 2A may complete a **Codex-assessed provisional SEC** without human expert approval when the exact proposition, all four defensible factor judgements, proportionate evidence appraisal/recovery, evidence roles, independence, limitations, raw/adjusted totals and caps are documented in an identified, versioned assessment. Exhaustive retrieval or access to every historical paper is not required. A documented limitation does not automatically prohibit a provisional score; an unresolved essential factor does. Keep incomplete assessments **Not scored**, or label a bounded numerical working estimate **Conditional estimate — under calibration**; do not promote conditional factors by arithmetic alone.
+
+**Scientifically reviewed SEC** requires a subsequent recorded qualified human review, including identity, date, outcome, assessed version and changes. Keep SEC confidence level and assessment status separate from existing evidence-review and correction statuses. Record these distinctions in the stage report/versioned audit; this clarification does not expand the canonical `synthesised_evidence_confidence` field beyond its currently authorised value or change admissions, factor anchors, caps or evidence atoms.
+
 ### Completion gate — coverage challenge and targeted second search
 
 Before completing either stage, compare the reviewed evidence against the Mission's defining biological steps and relevant intervention candidates. Trigger a second targeted search when a material step or candidate:
@@ -130,6 +150,17 @@ For every PM assessment, inspect the parent BRS hub's **System Optimisation Prac
 For each hub category, record candidates and evidence decisions, or a mechanism-specific reason that no relevant candidate was identified. Search all categories with plausible PM relevance; do not dismiss a whole group because one candidate failed. Hub entries and “Supports” links propose questions, not automatic PM admissions. Assess the original sources and actual endpoints, context and limitations. Do not populate empty categories, inherit hub claims, or force a principal route merely to complete the frame.
 
 Stage 2A assesses the biological propositions and evidence; Stage 2B adjudicates and implements requirements, practices and lifestyle relationships in their existing categories. Record evidence qualification separately from principal-route selection. Reassess placement after reviewing the relevant groups, without automatically treating supported entries as dominant or inferring equal dominance. If another stage must finish the adjudication, record the handoff and leave the combined assessment incomplete rather than declaring full lever coverage.
+
+**Proportionate intervention-landscape coverage:** Set research breadth across both SOP and lifestyle routes from the PM mission, plausible intervention diversity and the adequacy of existing verified evidence. Search relevant combinations of mission and mechanistic-target terms, intervention types, biological endpoints and functional outcomes. Reuse the canonical hub-category definitions above and in the BRS hub levers schema; the following are discovery prompts, not replacement taxonomies, additional admission categories or mandatory evidence requirements for every PM:
+
+- Dietary and SOP discovery: substrate provision; food selection and sustained dietary patterns; meal composition and macronutrient combinations; preparation, processing and food structure; sequencing, timing and frequency; fermentable substrates and dietary diversity; supplements and isolated compounds; hydration and relevant beverages; and other mechanism-specific optimisation practices.
+- Lifestyle discovery: aerobic, resistance and other exercise modalities; acute movement, post-meal activity and sedentary interruption; sleep duration, quality, consistency and hygiene; circadian entrainment, light exposure and behavioural timing; stress management and psychological interventions; breathwork, relaxation and autonomic regulation; environmental exposures and behavioural routines; and other relevant interventions supported by mechanistic or clinical evidence.
+
+Screen every canonical SOP hub category and Lifestyle Priorities for relevance. Within materially relevant categories, investigate the principal intervention families and meaningful alternatives. Do not describe an isolated intervention as representative of an entire family or category without adequate coverage. Where an SOP or eating pattern is a principal practical route, assess the principal plausible families before describing public lever coverage as representative. For a PM primarily concerned with biochemical resource dependencies, a focused intervention assessment may be sufficient. Do not require exhaustive searches in irrelevant categories; document the mechanism-specific screening rationale rather than omitting category screening.
+
+Discovery-list placement does not determine scientific ownership. Preserve existing SOP versus lifestyle classification and intervention-dominance contracts; do not reclassify an intervention because it appears in both prompt lists. Defined light/circadian and autonomic protocols remain SOP candidates, while foundational recurrent behaviours retain their existing lifestyle ownership. Food selection, dietary patterns and preparation do not become lifestyle levers through these prompts. Candidates require existing adjudication; do not create new canonical intervention categories.
+
+Reuse the existing Stage 2A report and candidate/evidence/rationale/disposition fields. Record the rationale for breadth, actual search terms, databases or discovery services and search dates, relevant date restrictions, selection boundaries, categories screened, families searched, supporting and null evidence, remaining gaps and stopping rationale. Reuse sufficient verified evidence. Apply the existing contradictory/null-evidence requirement across material families, considering failed target engagement, population-dependent effects, dose-response uncertainty, feasibility and safety limitations where relevant. Do not count publications from the same cohort as independent replication. These requirements extend existing assessment steps, not a new mandatory research stage.
 
 ### Evidence-supported Overview (Stage 2A)
 
@@ -245,6 +276,14 @@ modulation** and **functional or clinical benefit** are distinct claims.
 Do not require clinical benefit to establish a supported dependency, or
 infer modulation from dependency alone.
 
+**Functional translation:** For both SOP and lifestyle candidates, distinguish biochemical or molecular target engagement, physiological effects, functional or behavioural outcomes, and clinical outcomes. These describe claim scope, not a new evidence score or admission hierarchy. Where neurologically relevant, investigate measured attention, cognitive energy, fatigue, executive function, emotional regulation, sleep/arousal or other canonical phenome outcomes. Record relevant ADHD evidence or its absence without requiring direct ADHD or cognitive outcomes to establish a supported biochemical dependency. Do not infer functional or clinical benefit from a biological endpoint alone.
+
+For principal intervention evidence, retain design and sample size, population and baseline health or metabolic status, exact intervention and comparator, dose/intensity, exposure duration and timing, endpoint and measurement method, effect estimate and uncertainty where available, null findings, safety limitations and generalisation limits. State whether biological and functional outcomes were measured together, whether their relationship was tested, and whether the evidence supports an intervention effect, association or an inferred link. Joint metabolic and cognitive measurement alone does not establish mediation. Do not transfer results automatically between clinical, metabolically impaired, healthy or ADHD populations. Use the existing phenome review process for candidate mappings; this assessment does not assign final phenome confidence or confer scientific admission.
+
+**Research hypotheses:** An unresolved but biologically supported question may be recorded as a labelled research hypothesis in the Stage 2A report. Identify its rationale, supporting and conflicting evidence, unverified causal steps, testable prediction, relevant outcome, major confounders and evidence needed for adjudication. A hypothesis does not admit a Dietary Requirement, SOP, lifestyle lever, KC relationship or phenome benefit. Preserve Stage 2B admission thresholds and six-atom governance; neither functional outcomes nor hypotheses bypass existing adjudication.
+
+**Eating-pattern translation:** Where supported, identify the intervention's implications for food selection, combinations, preparation, sequencing, timing, frequency or sustained exposure. Separate evidence for the intervention from evidence supporting a particular food or meal implementation. Reuse the [food-strategy roll-up](food-strategy-rollup-schema.md) and [food-nutrition](food-nutrition-schema.md) contracts; preserve studied materials, protocols and limitations. Nutrient composition, food membership or food tags alone do not establish meal-level rules. Record missing translation data separately from unresolved scientific evidence.
+
 ## PM scope triangulation (headline Finding promotion)
 
 Scientific validity is **necessary but not sufficient** for headline Primary
@@ -315,8 +354,17 @@ dependencies, **do not renumber** stable ids because presentation order, inserts
 UI layout changed.
 
 Finding ids are canonical for structured data, anchors, cross-references, and audit
-machinery. They **must not** render as reader-facing headings or labels — use
-`finding_label` in public copy.
+machinery. Reader-facing titles derive the short local identifier from the canonical
+ID and combine it with `finding_label`: **SF1 — Descriptive finding title**, never
+**PM1-F1 — Descriptive finding title**. Do not store a second identifier or renumber
+canonical IDs. Stage 2A authors a concise, precise descriptive label aligned with
+the assessed proposition; labels do not imply broader dietary or clinical effects.
+Map every headline Finding to an explicit Section 4 explanation. Reuse the derived
+SF identifier and exact descriptive label in its paragraph heading, with reciprocal
+links. Apply the shared combined Section 4 heading and dynamic Finding count;
+do not create one headline Finding per study or silently change scientific scope.
+Follow the [shared PM presentation rule](primary-mechanism-schema.md#pm-scientific-findings--canonical-41-legacy-51)
+for dynamic section counts, intervention links, SEC and Evidence & Audit identity.
 
 Legacy `SF-PM8-n` ids on the former PM8 page (now PM9) were migrated to `PM9-Fn` / `PM9-IC1` when the production
 contract was established.

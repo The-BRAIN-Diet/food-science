@@ -1050,6 +1050,35 @@ contain missing, duplicate, stale, misnumbered or unlinked PM citations, and eve
 
 ### PM Scientific Findings — canonical §4.1; legacy §5.1
 
+**Shared reader-facing presentation:** derive `SF[n]` from each canonical
+`PM[n]-F[n]` ID and display **SF1 — concise `finding_label`** consistently in
+Finding disclosures, supporting-mechanism links and Evidence & Audit. Keep full
+canonical IDs in structured relationships, stable anchors, technical exports and
+history. SEC indicators remain associated with that same Finding and label.
+
+Section 4 paragraph headings that explain a Finding must reuse its derived short
+identifier and exact `finding_label`: **SF1 — Dietary protein and amino-acid availability**.
+Link each explanation to its supporting Finding and provide the reciprocal link.
+Use **4. Mechanistic Basis + Scientific Findings (SFs N)** as the combined parent
+heading, with N derived from the same actual reader-facing Finding collection as
+§4.1. Preserve the existing `4-mechanistic-basis` anchor; do not count curated
+provenance, interpretive constraints or audit versions as additional Findings.
+
+Render the section heading dynamically as **4.1 Scientific Findings (N)** from
+the actual section's rendered Scientific Finding collection, not an authored count
+or the number of studies, audit versions, separate curated-reference records or
+interpretive constraints. Preserve the pre-count section anchor and navigation.
+A biochemical proposition still rendered as a Scientific Finding counts until its
+separate scientific disposition changes; presentation must not silently reclassify it.
+
+Reverse SF-to-intervention links use only selected canonical SOP/lifestyle records
+whose `description_finding_id` or evidence `finding_ids` explicitly names that
+Finding. Show **Supports SOP** or **Supports Lifestyle Lever** with the exact
+intervention name and existing destination. Proposed relationships must be labelled
+**Proposed SOP relationship** or remain in the review draft/audit only. Recompute
+links after retirement, removal or reclassification; never infer admission from
+keywords, a confidence score or a shared nutrient.
+
 Pages with `scientific_findings` front matter use **Scientific Findings** at
 `§4.1` (canonical layout) or `§5.1` (legacy layout). Governance:
 `system/scientific-finding-schema.md` § Bounded assessment — define proposition
