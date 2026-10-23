@@ -7,16 +7,16 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Almonds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Amaranth | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Anchovies | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Apples | 3 | zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM5 | BRS5(KC1) |
+| Apples | 3 | zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
 | Asparagus | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
 | Aubergine | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Avocado | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Bananas | 3 | vitamin-a; magnesium; zinc; resistant-starch | BRS5-FM1-PM1; BRS5-FM2-PM4 | BRS5(KC1) |
+| Bananas | 3 | resistant-starch; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
 | Barley | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
 | Beef | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
 | Beetroot | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
 | Bell Peppers | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Black Beans | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Black Beans | 2 | magnesium; zinc; resistant-starch | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
 | Black Pepper | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Black Tea | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Blueberries | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
@@ -36,8 +36,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Cherries | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Chia Seeds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Chicken | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Chickpeas | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Chicory Root | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Chickpeas | 3 | magnesium; zinc; resistant-starch; vitamin-a | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
+| Chicory Root | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
 | Cilantro | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Cinnamon | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
 | Clams | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
@@ -104,7 +104,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Pistachios | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Pomegranates | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Pork | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Potatoes | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Potatoes | 2 | resistant-starch; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
 | Pumpkin Seeds | 3 | tryptophan; magnesium; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM8 |  |
 | Quinoa | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
 | Radicchio | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
@@ -114,7 +114,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Rosemary | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
 | Saffron | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Sage | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Salmon Roe | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
+| Salmon Roe | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Salmon | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
 | Sardines | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Sauerkraut | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
@@ -143,7 +143,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Turmeric | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
 | Vinegar Pickles | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
 | Vinegar | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Walnuts | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
+| Walnuts | 3 | magnesium; ellagitannins; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM2-PM6 |  |
 | Wasabi | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
 | Watercress | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
 | Watermelon | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |

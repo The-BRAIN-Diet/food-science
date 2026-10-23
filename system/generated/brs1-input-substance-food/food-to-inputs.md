@@ -38,7 +38,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Chia Seeds | 4 | iron; copper; vitamin-c; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7 | BRS2(KC1) |
 | Chicken | 8 | iron; vitamin-b6; choline; copper; vitamin-b9; dha-docosahexaenoic-acid; vitamin-b5; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Chickpeas | 7 | copper; iron; vitamin-b6; vitamin-b9; choline; vitamin-c; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Chicory Root | 6 | iron; copper; vitamin-c; vitamin-b5; vitamin-b6; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
+| Chicory Root | 6 | iron; vitamin-b6; copper; vitamin-c; vitamin-b9; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Chlorella | 1 | iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5 |  |
 | Cilantro | 7 | copper; vitamin-b9; vitamin-b5; choline; vitamin-c; iron; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Cinnamon | 7 | vitamin-b5; vitamin-b6; vitamin-b9; iron; copper; choline; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -94,7 +94,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | White/Button Mushroom | 7 | vitamin-b5; vitamin-b6; vitamin-c; iron; copper; vitamin-b9; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Mussels | 9 | dha-docosahexaenoic-acid; iron; phosphatidylcholine; choline; vitamin-b5; vitamin-b6; copper; vitamin-c; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Natto | 7 | choline; iron; copper; vitamin-c; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Nori | 6 | iron; vitamin-b9; copper; vitamin-b6; vitamin-b5; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
+| Nori | 6 | iron; vitamin-b9; vitamin-b6; copper; vitamin-c; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Nutritional Yeast | 2 | vitamin-b6; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM4-PM9 |  |
 | Oats | 5 | copper; iron; vitamin-b9; vitamin-b5; vitamin-b6 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Olives | 6 | choline; vitamin-b5; vitamin-b6; copper; vitamin-c; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
@@ -121,7 +121,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Rosemary | 6 | vitamin-b5; vitamin-b6; iron; copper; vitamin-b9; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Saffron | 3 | iron; vitamin-b6; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
 | Sage | 4 | iron; vitamin-b6; vitamin-b9; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
-| Salmon Roe | 9 | phosphatidylcholine; dha-docosahexaenoic-acid; choline; iron; copper; vitamin-b5; vitamin-b6; vitamin-b9; vitamin-c | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
+| Salmon Roe | 9 | phosphatidylcholine; dha-docosahexaenoic-acid; choline; iron; vitamin-b6; copper; vitamin-c; vitamin-b9; vitamin-b5 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Salmon | 8 | dha-docosahexaenoic-acid; vitamin-b5; vitamin-b6; iron; copper; vitamin-c; vitamin-b9; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Sardines | 7 | dha-docosahexaenoic-acid; choline; vitamin-b9; vitamin-b5; vitamin-b6; copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Sauerkraut | 7 | choline; vitamin-b5; vitamin-b6; vitamin-c; vitamin-b9; iron; copper | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |

@@ -96,6 +96,7 @@ test("stored findings stay not-yet-scored", () => {
   assert.deepEqual([...SEC_VALUES], [SEC_NOT_YET_SCORED])
   const schema = fs.readFileSync(path.join(root, "system/scientific-finding-schema.md"), "utf8")
   assert.match(schema, /synthesised_evidence_confidence` is `not-yet-scored`/)
+  assert.match(schema, /SEC = D \+ B \+ P \+ R/)
   const findings = fs.readFileSync(
     path.join(root, "src/components/ScientificFinding.tsx"),
     "utf8",

@@ -37,6 +37,17 @@
   flex-shrink: 0;
 }
 
+a.tab {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.tab:hover {
+  text-decoration: none;
+  color: var(--ifm-color-emphasis-800);
+  border-color: var(--ifm-color-emphasis-700);
+}
+
 .contentTabs .tab + .tab {
   border-left: 0;
 }

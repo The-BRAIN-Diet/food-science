@@ -37,7 +37,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Chia Seeds | 2 | magnesium; vitamin-b2; vitamin-b9; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chicken | 7 | methionine; cysteine; zinc; vitamin-b12; vitamin-b6; choline; magnesium; vitamin-b2; vitamin-b9; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Chickpeas | 4 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
-| Chicory Root | 2 | potassium; magnesium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
+| Chicory Root | 2 | vitamin-b6; vitamin-b9; zinc; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Chlorella | 1 | vitamin-b12 | BRS2-FM1-PM1; BRS2-FM1-PM4 |  |
 | Cilantro | 4 | vitamin-b9; choline; zinc; magnesium; vitamin-b2; vitamin-b6; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Cinnamon | 4 | vitamin-b6; vitamin-b9; magnesium; choline; vitamin-b2; potassium; zinc | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -91,8 +91,8 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | White/Button Mushroom | 5 | vitamin-b12; potassium; zinc; vitamin-b6; vitamin-b2; magnesium; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Mussels | 6 | zinc; vitamin-b12; phosphatidylcholine; choline; vitamin-b6; potassium; magnesium; vitamin-b2; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Natto | 4 | choline; magnesium; vitamin-b2; vitamin-b9; potassium; zinc; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
-| Nori | 4 | magnesium; vitamin-b9; vitamin-b12; potassium; zinc; vitamin-b2; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
-| Nutritional Yeast | 3 | vitamin-b6; vitamin-b12; zinc; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM4; BRS2-FM2-PM5 |  |
+| Nori | 4 | magnesium; vitamin-b9; vitamin-b12; vitamin-b6; vitamin-b2; zinc; potassium | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
+| Nutritional Yeast | 3 | vitamin-b6; vitamin-b12; vitamin-b2; zinc | BRS2-FM1-PM1; BRS2-FM1-PM4; BRS2-FM2-PM5 |  |
 | Oats | 4 | cysteine; magnesium; zinc; vitamin-b2; vitamin-b9; potassium; vitamin-b6 | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1) |
 | Olives | 2 | choline; potassium; zinc; vitamin-b6; magnesium | BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Onions | 4 | vitamin-b6; choline; potassium; zinc; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
@@ -118,7 +118,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Rosemary | 3 | vitamin-b6; potassium; zinc; magnesium; vitamin-b2; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Saffron | 2 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Sage | 3 | magnesium; potassium; zinc; vitamin-b6; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
-| Salmon Roe | 6 | phosphatidylcholine; choline; potassium; magnesium; zinc; vitamin-b2; vitamin-b6; vitamin-b12; vitamin-b9 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
+| Salmon Roe | 6 | phosphatidylcholine; choline; vitamin-b6; vitamin-b9; vitamin-b12; vitamin-b2; zinc; magnesium; potassium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |
 | Salmon | 6 | methionine; vitamin-b12; vitamin-b6; potassium; zinc; vitamin-b2; magnesium; vitamin-b9; choline | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Sardines | 6 | methionine; vitamin-b12; choline; vitamin-b9; potassium; zinc; vitamin-b6; magnesium; vitamin-b2 | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM2-PM6; BRS2-FM3-PM7 | BRS2(KC1); BRS2(KC2) |
 | Sauerkraut | 4 | choline; potassium; zinc; vitamin-b6; vitamin-b2; vitamin-b9; magnesium | BRS2-FM1-PM1; BRS2-FM1-PM2; BRS2-FM1-PM3; BRS2-FM1-PM4; BRS2-FM2-PM5; BRS2-FM3-PM7 | BRS2(KC1) |

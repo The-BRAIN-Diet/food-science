@@ -86,6 +86,16 @@ substance_relationships:
     evidence_material: 'Potatoes, flesh and skin, raw'
     source_url: 'https://fdc.nal.usda.gov/food-details/170026/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Resistant starch
+    relationship: contains
+    description: "Raatz et al. (2016) measured resistant starch in Yukon Gold, Dark Red Norland and Russet Burbank potatoes after baking or boiling, served hot, chilled at 4°C, or reheated. The amount depends on that preparation. No single figure is entered here."
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: "Raatz et al., Food Chemistry 2016"
+    evidence_material: "Yukon Gold, Dark Red Norland and Russet Burbank potatoes"
+    preparation_state: "Baked or boiled, then chilled to 4°C; distinguish reheated material"
+    source_url: "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+    material_limitations: "Preparation and service temperature change the assay. A generic potato portion is not this result."
 substance_review_candidates: []
 ---
 ## Overview

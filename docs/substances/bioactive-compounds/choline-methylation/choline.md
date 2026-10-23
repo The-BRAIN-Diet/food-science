@@ -32,7 +32,7 @@ Derbyshire (2019) places choline in neurotransmitter synthesis, membrane phospho
 ## Key Compound Highlights
 
 - Essential: endogenous synthesis does not meet human requirements [1].
-- Oxidised choline (glycine betaine) contributes to S-adenosylmethionine for DNA and histone methylation [1].
+- Oxidised choline ([betaine](/docs/substances/bioactive-compounds/choline-methylation/betaine)) contributes to S-adenosylmethionine for DNA and histone methylation [1].
 - Eggs, meat and milk are the main dietary providers; further restriction of those foods can lower intake [1].
 - Most surveyed European, American, Canadian and Australian populations miss adequate-intake thresholds; UK composition databases and guidelines still omit choline [1].
 - Neurodevelopmental narrative: low or altered status reported in pregnancy and in some people with ASC, ADHD or dyslexia — not an ADHD treatment trial [2].

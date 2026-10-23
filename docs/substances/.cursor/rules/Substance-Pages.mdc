@@ -6,6 +6,8 @@ alwaysApply: false
 
 Canonical schema: `system/substance-page-schema.md`.  
 **Canonical worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (the merged template: practical dietary context, followed by expandable Research Spotlights & Evidence Checks).
+
+**Tab-close template:** `docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md`. When Advanced Nutrition or Therapeutic Area Research has content, close the Overview with one `<ContentTabSummary>` paragraph per tab. Body labels are `Advanced Nutrition` and `Therapeutic Areas`. Each summary sentence starts with a capital letter. The squares share a `12rem` column so the paragraphs align.
 References follow the same bibliographic convention as food pages (`system/food-page-schema.md`).
 
 - Tag each food page with the substances it contains.
@@ -19,7 +21,7 @@ References follow the same bibliographic convention as food pages (`system/food-
 
 ## Canonical section order
 
-1. **Overview** — editorial synthesis: identity, distinctive biological/nutritional relevance, BRAIN relevance, and major evidence qualification. Do not enumerate mechanisms for coverage. Inline numeric citations `[1]`, `[2]`.
+1. **Overview** — editorial synthesis: identity, distinctive biological/nutritional relevance, BRAIN relevance, and major evidence qualification. Do not enumerate mechanisms for coverage. Inline numeric citations `[1]`, `[2]`. When Advanced Nutrition or Therapeutic Area Research has content, close with one `<ContentTabSummary>` paragraph per tab, as on phenylalanine. Body labels are `Advanced Nutrition` and `Therapeutic Areas`. Each summary sentence starts with a capital letter, and both squares share the `12rem` label column.
 2. **Dietary Context** — explain supported direct occurrence, precursor supply or microbial/endogenous formation within this section. Use supported Food sources, Synergies and interactions, and Supplement versus food subsections where useful. Omit unsupported subsections; combination evidence alone does not establish synergy. Do not add a separate Dietary Origin section or duplicate the generated Foods list. No universal supplement advice or condition-specific research in this section.
 3. **Research Spotlights & Evidence Checks** — optional evidence presentations. Use `<EvidencePresentation>` and retain `exposureContext`; do not create duplicate evidence records.
 4. **Foods** — `<SubstanceFoods tag="the substance" />`; relationship labels must distinguish contains from precursor/support edges.

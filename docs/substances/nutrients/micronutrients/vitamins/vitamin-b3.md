@@ -24,7 +24,7 @@ Vitamin B3 (niacin) is a water-soluble vitamin family that includes nicotinamide
 
 ## Nicotinamide {#nicotinamide}
 
-Nicotinamide, also called niacinamide, is a form of vitamin B3. Cells recycle it through the salvage pathway to replenish nicotinamide adenine dinucleotide (NAD⁺) [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). It is chemically distinct from nicotinic acid.
+Nicotinamide, also called niacinamide, is a form of vitamin B3. Cells recycle it through the salvage pathway to replenish nicotinamide adenine dinucleotide (NAD⁺) [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). NAD⁺ can also be made de novo from [tryptophan](/docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan). The share supplied by that route is not established [Covarrubias et al. (2021)](/docs/papers/BRAIN-Diet-References#covarrubias_nad_2021). Nicotinamide is chemically distinct from nicotinic acid.
 
 **Evidence limitations:** Nicotinamide is a vitamin B3 form used in NAD⁺ salvage. Total-niacin measurements do not establish its individual concentration. Measurements following hydrolytic extraction describe the recovered analyte and may not represent native free nicotinamide ([EN 15652:2009](https://webstore.ansi.org/standards/din/dinen156522009)). Food-composition results do not establish brain delivery, tissue-specific NAD⁺ replenishment or neurological benefit.
 

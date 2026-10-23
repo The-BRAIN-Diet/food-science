@@ -177,6 +177,16 @@ substance_relationships:
     evidence_material: 'Beans, black, mature seeds, raw'
     source_url: 'https://fdc.nal.usda.gov/food-details/173734/nutrients'
     presence_status: presence_and_amount_supported
+  - substance: Resistant starch
+    relationship: contains
+    description: "Fabbri, Schacht and Crosby (2016) assayed resistant starch in cooked black beans. The reported figures are dry weight and depend on cooking time. They are not converted to a fresh cooked-bean amount here."
+    evidence_status: supported
+    presence_status: presence_supported_amount_unavailable
+    evidence_source: "Fabbri et al., NFS Journal 2016"
+    evidence_material: "Cooked black beans"
+    preparation_state: "Cooked; cooking duration and cooling protocol remain study-specific"
+    source_url: "https://doi.org/10.1016/j.nfs.2016.02.002"
+    material_limitations: "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
 substance_review_candidates: []
 ---
 ## Overview

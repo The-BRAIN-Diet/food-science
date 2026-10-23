@@ -8,6 +8,8 @@ Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin n
 Consolidated schema for BRAIN Diet substance pages (bioactives, metabolites, nutrients).  
 **Canonical worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (the merged template: practical dietary context, followed by expandable Research Spotlights & Evidence Checks).
 
+**Tab-close template:** `docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md`. When Advanced Nutrition or Therapeutic Area Research has content, close the Overview with one paragraph per tab. Phenylalanine is the worked example for that close.
+
 Food pages remain under `system/food-page-schema.md`. Substance pages follow the same **reference convention** as food pages.
 
 ---
@@ -86,15 +88,48 @@ Rules:
 - Therapeutic Area Research must not invent pages. Therapeutic-area documents are unpublished until ready; keep area names as plain text and do not link `/docs/therapeutic-areas/…`.
 - Cite panel-local references from the matrix or surrounding prose. ADHD and other condition papers belong on this tab, not on Advanced Nutrition. Most observational papers can cite the matrix row they support.
 - Tabs with no slot content remain visible but disabled (“Not yet activated”).
+- When a research tab has content, the Overview closes with one `<ContentTabSummary>` paragraph for that tab. The clickable label is a square in the same style as the page tab, and the link opens that tab. In the body, label the therapeutic square `Therapeutic Areas`. Each summary sentence starts with a capital letter. The two rows share one label column so the paragraphs align. Phenylalanine is the template.
 
 ---
 
 ## Overview
 
-- **Two paragraphs**, ~90–160 words total.
-- Paragraph 1: what the compound is, where it occurs in foods, and how it is used in this ontology.
-- Paragraph 2: strongest evidence-backed relevance, with limitations (study type, supplement vs food, family vs isolated compound).
+- Paragraph 1: what the compound is, where it occurs or how it is formed, and how it is used in this ontology.
+- When Advanced Nutrition or Therapeutic Area Research has content, close with one paragraph per populated tab. Each paragraph is a `<ContentTabSummary>`: `href` is the same-page tab URL (`?advanced=1` or `?therapeutic=1`, plus the panel hash), and the children are at most two sentences. The body labels are `Advanced Nutrition` and `Therapeutic Areas`. The page tab keeps the full name Therapeutic Area Research. Each summary sentence starts with a capital letter.
+- The label renders as a clickable square in the same style as the page tab. Both squares share one column, so the paragraphs have the same indentation. That alignment is `src/components/ContentTabSummary/styles.module.css`:
+
+```css
+.summary {
+  display: grid;
+  grid-template-columns: 12rem minmax(0, 1fr);
+  align-items: center;
+  column-gap: 0.85rem;
+  row-gap: 0.65rem;
+  margin-bottom: var(--ifm-paragraph-margin-bottom, 1rem);
+}
+
+.summary a.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+}
+```
+
+- **Template:** `docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md`. Astaxanthin remains the worked example for Dietary Context, Research Spotlights and the Highlights reference form.
 - Inline numeric citations `[1]`, `[2]` when claims need evidence.
+
+```mdx
+<ContentTabSummary href="/docs/substances/…/phenylalanine?advanced=1#phenylalanine-advanced-nutrition" label="Advanced Nutrition">
+Sets out the hydroxylase, phenylethylamine and LAT1 reactions, and separates direct enzyme cofactors from folate and omega-3 fatty acids.
+</ContentTabSummary>
+
+<ContentTabSummary href="/docs/substances/…/phenylalanine?therapeutic=1#phenylalanine-therapeutic-areas" label="Therapeutic Areas">
+Collects the ADHD evidence.
+</ContentTabSummary>
+```
 
 ---
 

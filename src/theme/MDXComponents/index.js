@@ -29,6 +29,7 @@ import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import ScientificFinding from '../../components/ScientificFinding';
 import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndicator';
 import EvidencePresentation from '../../components/EvidencePresentation';
+import ContentTabSummary from '../../components/ContentTabSummary';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 import TherapeuticAreaDetail from '../TherapeuticAreaDetail';
@@ -68,6 +69,7 @@ export default {
   ScientificFinding,
   EvidenceConfidenceIndicator,
   EvidencePresentation,
+  ContentTabSummary,
   PhenomeRegistry,
   PhenomeDetail,
   TherapeuticAreaDetail,

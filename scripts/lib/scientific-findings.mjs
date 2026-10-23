@@ -26,7 +26,7 @@ const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), 
 
 export const SCIENTIFIC_FINDINGS_SECTION_TITLE = "Scientific Findings";
 
-/** Only this value is authorised until SEC methodology is approved. */
+/** Only this stored value is authorised. Display labels are not written back onto findings. */
 export const SEC_NOT_YET_SCORED = "not-yet-scored";
 export const SEC_VALUES = new Set([SEC_NOT_YET_SCORED]);
 

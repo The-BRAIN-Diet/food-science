@@ -79,6 +79,22 @@ substance_relationships:
       https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf
     description: 0.2 µg selenium per 100 g of rendered duck fat.
     source_reference: '#food-source-3'
+  - substance: Choline
+    relationship: contains
+    description: "USDA National Nutrient Database, SR28 (2015), NDB 04574 reports 122.4 mg choline per 100 g edible portion in Rendered duck fat (Fat, duck)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA National Nutrient Database, SR28 (2015), NDB 04574"
+    evidence_material: "Rendered duck fat (Fat, duck)"
+    source_url: "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf"
+  - substance: Vitamin E
+    relationship: contains
+    description: "USDA National Nutrient Database, SR28 (2015), NDB 04574 reports 2.7 mg vitamin E per 100 g edible portion in Rendered duck fat (Fat, duck)."
+    evidence_status: supported
+    presence_status: presence_and_amount_supported
+    evidence_source: "USDA National Nutrient Database, SR28 (2015), NDB 04574"
+    evidence_material: "Rendered duck fat (Fat, duck)"
+    source_url: "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf"
 eaa_profile_applicable: false
 substance_review_candidates: []
 ---

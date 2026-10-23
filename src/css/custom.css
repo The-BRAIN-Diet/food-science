@@ -50,11 +50,12 @@
  *
  * `--brain-evidence-indicator-bg` (the component surface) and
  * `--brain-evidence-inactive` (an unreached marker) are two separate neutral
- * layers. Keep them clearly apart in luminance or the four-position structure
- * stops reading.
+ * layers. Keep them clearly apart in luminance or the grouped increments
+ * stop reading.
  */
 /* The four semantic colours are shared, not per-theme, so a given confidence
-   level renders the identical colour on a light page and a dark page. */
+   family renders the identical colour on a light page and a dark page.
+   Scores 1–2 use very-low, 3–4 use low, 5–6 use moderate, and 7–8 use high. */
 :root {
   --brain-evidence-very-low: #f05252;
   --brain-evidence-low: #f5c518;

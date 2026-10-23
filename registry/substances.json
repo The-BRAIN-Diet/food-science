@@ -1316,5 +1316,33 @@
       "bioactive",
       "organosulfur"
     ]
+  },
+  "pyridoxal-5-phosphate": {
+    "path": "nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md",
+    "title": "Pyridoxal 5′-phosphate (PLP)",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "aliases": [
+      "PLP",
+      "Pyridoxal 5′-phosphate",
+      "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)"
+    ],
+    "inchikey": "NGVDGCNFYWLIFO-UHFFFAOYSA-N",
+    "list_image": "/img/icons/nutrient.svg"
+  },
+  "methylcobalamin": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b12.md",
+    "parent_substance_id": "vitamin-b12",
+    "page_anchor": "methylcobalamin",
+    "title": "Methylcobalamin",
+    "aliases": [
+      "Methylcobalamin"
+    ],
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ]
   }
 }
