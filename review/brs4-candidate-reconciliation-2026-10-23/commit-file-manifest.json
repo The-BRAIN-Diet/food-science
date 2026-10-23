@@ -1,0 +1,1180 @@
+{
+  "branch": "codex/deferred-stage2ab-enrichment",
+  "base_commit": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "qualification": "Complete reviewed branch delta, including inherited approved rapid/preservation work and phenylalanine component repair; no food-edge, mission, governance or score redesign. Raw large fixtures are retained locally and archived losslessly for commit.",
+  "files": [
+    {
+      "file": ".gitignore",
+      "sha256": "64c291ea4553098a1ee75217d78f46af8810c7227e3d5505ab4a8c1990e5c53d"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+      "sha256": "752bea522006eec14d8d3f383db5ed51f3fc138b07050b163e2febe3a2fb9e57"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+      "sha256": "5d2863c1e17a06dac9cce816c2b349696de8dd7d0100caa46d7f54d382000df7"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+      "sha256": "3e229dd1eefb3619aac766a11b48431142058684eb0fffad5129c1966fc03457"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "sha256": "d78b119b513833d38320b292511725fd19634a732a7bdfb9b2aff4f11ca0ba27"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+      "sha256": "099df03b5679a33ab12f75a8e0f0fd139f5f5d8f298fac6245608ee230bd4b61"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "sha256": "26d424c1c932fb7735a49181a2ea1e0a00d601158b303ff15c1a180009ef8d73"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "sha256": "ecb49e2483a3c4a742fc43e809e06f1d612c86cbea11f566d47314e3b968c510"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "sha256": "43a7ea00a011d3346007d32d27399cb80a91befefe4fb40931b68b7a4353c8f6"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "sha256": "f660e0622fffd20192899dc7b487fd896745b6ba7d3ddc44fb07c5e4f3dd3213"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "sha256": "83f81276b97a22e5f92b274b9e5fd44fa763e3e9b271eb32da793173172767e7"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "sha256": "bbc578fca21b7075b91cdb60b29bbb36b7bdcafc898bddebf710b152c7a93eb4"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+      "sha256": "29a1ce60757e87d733fd6ffe374a2097087c2f6d83e65ea4695141badff1ea72"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "sha256": "b1094d3dc5e075b938894476fcf45bc99f4c5532cd76f88139c86534f81dd716"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "sha256": "224aaf04b0a2a94a4f312744be6f9125783442d5210ba4fdb0177390efb21f85"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "sha256": "64b69cf41aac5bdf0c8d226cbdaf44c5f02bc72a23a3b9d301050c3cc18e1e9c"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "sha256": "d6bd3d0349e805a8efa74b6f412706495a2850bb8b016385b7870766832eaccd"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "sha256": "24da15c939a0e76d74d5bc19eae98a4c3d0a749f5f754af36fb568d9e670a5c2"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "sha256": "cf0953c576c18e4766dca439ca0169efefa6c85e21af7579af07361705c949ea"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "sha256": "a8f481ed83abd52c20b7f87686a0cc3ea06c4825b70c01378ff5ba63d200c0dd"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+      "sha256": "802dc23f2b67a192aac6c17a1d88809579c71b25acbbeb0f66f79d573225eb51"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+      "sha256": "06de0d260c058a6e5573b511fce99605d32c4cab9841265a31a4225ee3301cf5"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "sha256": "4adae3e941c25c67b01687aa5ba19f0298d88ac6905a36c51213b9d9ab2c2838"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "sha256": "83c20469509caad2ff205d089dd41c597181d69a2dc6b370e6130f382a578eaf"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "sha256": "35e847c00ed315ab08f4aa4161b70d1600173df8aeec5bf5e4f1c8b8e4731545"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "sha256": "8dba253098f97086a69e7d95747099ce8ef84f25f27a070d6aaf7d3e6182fb85"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+      "sha256": "687148b6097a156996b05a18b36fa8ea64ca611740ef3d583733639820e71aac"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "sha256": "5682309803ae5e5b2e039c6199f9b31acd1b0e2ad77a3fda99d2119018224949"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "sha256": "a9229d3bf45206d92945af350e212520379d4160b7b400a13300c824f88dca39"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "sha256": "a4cf21113daf960eb4de81b78cc6059f8cbdf9cce16160ddeb22fce004a4f353"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "sha256": "cac55a224c633742491761f90dbccc8c04488f790811d318ce76d92e759bbe30"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+      "sha256": "e026f9c77b942394eb6e54b70fd6889c8886be522c76edec81463db71c85bc4e"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+      "sha256": "06df56c5419c0e5f503d0c93bbdd3b31e5a697b16e5e774a951e825cba473e5d"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "sha256": "1682c32fd221d71e77934847a58f0b6ec5d8a325a22a575f64b96c37d0c75293"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "sha256": "78099d90cb6d8aa8a76ee61915a5de8f5ac2185702ab95bca783ad396e8623e1"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "sha256": "451812f5ed0420cf1a6f9fd251d68d6268367f59986e428fdb4d7925501e8648"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "sha256": "d7c4ded305967785e83ab9e64bd368307df5a064298b4b9e57bcabc70e5a7b4c"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "sha256": "e616f0a15d1804c1c0f681e42baf05074f649729cc4c6504a79980ee0e6a82e9"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "sha256": "97992ddca9ead79589db13f2e269f1240b266b7bccb637a3d7435bff7c38dba6"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "sha256": "1224610aa81a0abe354a4845753d795c8e686448bb78b472e4bc2ffa47cf797b"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "sha256": "0867d061d83c6d37aa16fec07a77d3491299254792421704ff400b8ead30169d"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "sha256": "8d075cf677e00ab2d2132c63c2d085d929c3edd5fdbed4f691bc257308d805f3"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "sha256": "625a3deee2a5f68a6dabef42786cf4d93b5d8e457c95d2859f68638db6e56932"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "sha256": "57f3d229003f9855dcf7d9ff29d97cadab4eff6de3f2654a9b60ef087f2fd0b4"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "sha256": "a14f7d2f3b884dbfb5fb178e63561381c3b1b373d8d3ab8e524ed44ef34b187c"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+      "sha256": "2c8f0a6a0bb7a14e3b3cc5114bc4e3c15d1b46db44b7d0bd368b919e07886bb5"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "sha256": "46cdc622b985ff1a13d09939e9c8d60b43070bfd4c0ba7cd68cec98ce2f65a0e"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "sha256": "1f141cb666eb11121855cbfdef5a864b283b22aaa79996155f6a102e4a086bcf"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+      "sha256": "b10b85ac9c669a69c2ade7139c7dfc63f2bed9fbcde3f1ba9670c5e7952750f7"
+    },
+    {
+      "file": "docs/substances/bioactive-compounds/lipid-based/l-carnitine.md",
+      "sha256": "3c2e28925bd37bc5a8fffca0d50a58d3f56ed4d7a5dde0e0f3b52abc936e7d7b"
+    },
+    {
+      "file": "docs/substances/nutrients/macronutrients/amino-acids/essential/phenylalanine.md",
+      "sha256": "eb97c45f0e70d7e000df20716a9ad3c671687ce4b3937ca6f765cb82a5e41eaa"
+    },
+    {
+      "file": "docs/tags.yml",
+      "sha256": "2dab65c9888207c4551650cbe332d7173849b10a298f642a7845c138f39c26d2"
+    },
+    {
+      "file": "registry/substances.json",
+      "sha256": "8a1b219778ee877cd4198596dcb44221045f33633f890ba7a0a5512ba8d887ea"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/admission.json",
+      "sha256": "e85691136d3cd8cf0aede9398d2bd92893e64f0b49d6da95c48520542d749db3"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/before-files.json.gz",
+      "sha256": "45258747bc25e410d062613c0812038205d0b5cf230848a2fb9fc1dfb1abe3cd"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/bibliography.log",
+      "sha256": "9eaf170397d478dfbf4befc10b0239f276b8f89c5c580b96956b0d0b5b0c2243"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/candidate-assessments.json",
+      "sha256": "60ee1281135c2f86893a2ecf117b0e0971cec9d52ddf6bf74f51f4ca8c1dbaa6"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/carnitine-identity.json",
+      "sha256": "ce784348ba6d275471d3544f1b8932d62294128bd9dc7de0498d04eeae64259b"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/compilation.json",
+      "sha256": "3fd12d85a1dfba8e1376ef384b9dd624e044dd0732b259a5042e5a1f51e74480"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/cpt1a.json",
+      "sha256": "442e4dae0d37b9f01a23e778f98bd08e24c739e4412ef047946f49dca35e37a5"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/cpt2.json",
+      "sha256": "23379827caafe5c527d08d62784e537e91ee15b8a6bd42a80784eaa48493f786"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/cursor-repair-queue.json",
+      "sha256": "ec0d0929e381a01de172ca0f86d9ef46423da8b06d172b99b8eee4e66caa789d"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/final-tests.log",
+      "sha256": "c903e1feb8058bf5d468d3dda96d1da0c0edd1e49aaec5b74fe6f010e0da5425"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/findings.log",
+      "sha256": "1a88db35a7a728ee78964eb6ae9a7c450332ab7965a7d54fbafcb8fe10a9ac45"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/food-targets.json",
+      "sha256": "e730d5947007a3664d65565641089772ba81eaa922ac15aeeb9c4e52898f8238"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/generation.log",
+      "sha256": "d36ee30bed28a3c24f3d077454782c254168fb5780a75e63f20bdf5c0f293d16"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/legacy-findings-tests.log",
+      "sha256": "e1f87b38f3dd360b9b67905c4ab19693daaf901a942fdf333eb977325f710c1e"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/mechanism-and-nr.json",
+      "sha256": "7a551379fdc515e67dbbe92425a605b43928d4f926f21f7d97a2312adb15c006"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/mechanisms.log",
+      "sha256": "af012cf36d7c0dd4592a0a31835eb56d210def76bd96fb59155681bf4f4f318e"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/nr-fulltext.xml",
+      "sha256": "25c377917eb9e9c0f29f774ef077350f100c4df12cf31fc19c0bab0891729047"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/rapid-tests.log",
+      "sha256": "71c41f65151a5d6fc3cfd2f7043794a1d3da6d0a3eb989d3793f3d004f83b575"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/report.md",
+      "sha256": "b6046c28b7b0f92d585434ecd30562df9b982e2bbec2fbeb61631325dbba94d5"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/research.json",
+      "sha256": "34a276d950b801417c6a25cc05c8dff8623c3623e1ab73c5cfeca79ee8ad3cd7"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/sec.log",
+      "sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/starting-status.txt",
+      "sha256": "13c4088359211d00511e1a23a05ada4c6f4c76cd52f2e840887080b8a1574414"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/substances.log",
+      "sha256": "5babbb8f6554974b3e4a2f1a2f36acb03c4fd9bf81948cb48c408c5163d0cc29"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/tests-initial.log",
+      "sha256": "5136ef04ec65f0cdaf07b95ae7991c8c8b9b20ec93f710b049ce1aa070629cef"
+    },
+    {
+      "file": "review/brs4-candidate-reconciliation-2026-10-23/tests.log",
+      "sha256": "7c214702163dc42a473189ee487c7cfa6613a4c9f4784e4785502584071ecf30"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/before.json",
+      "sha256": "fed7bc8123877412c4b995615eeebf3c10c2b1755439b769ebc3d316ea028ce0"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/changed-file-manifest.json",
+      "sha256": "658a6f82683f13af43a44a45ecd49c7347d2da53cf9f290f57ef50dfc9542af6"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/compilation.json",
+      "sha256": "9466f736d5827df6fae4a0a934925d7f4213d01fa0e25e3b8b71d8d3cabbd2c4"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/findings.log",
+      "sha256": "1a88db35a7a728ee78964eb6ae9a7c450332ab7965a7d54fbafcb8fe10a9ac45"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/mechanisms.log",
+      "sha256": "af012cf36d7c0dd4592a0a31835eb56d210def76bd96fb59155681bf4f4f318e"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/report.md",
+      "sha256": "648dd0737c9fe57b3720464d447cbccc55898c5fd7d7882618fc9cd3af4fa747"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/scientific-review-items.json",
+      "sha256": "6c16c396672d3e2ed83cb3e4dfff782f276c6cc4877dd3471b849b99c4dd84bc"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/sec.log",
+      "sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100"
+    },
+    {
+      "file": "review/brs4-validation-repair-2026-10-23/tests.log",
+      "sha256": "e952fd4989ff875ae2408ddd8a605432ac010c0f84433d6b195648fea151ec91"
+    },
+    {
+      "file": "review/brs5-pm5-retest-2026-10-23/compiled-pm.html",
+      "sha256": "e2d201596060e9baad6a535f9e29977b26ac9465c70ae08758d52e3c8614a777"
+    },
+    {
+      "file": "review/brs5-pm5-retest-2026-10-23/controlled-render.html",
+      "sha256": "9bed624ebfe0557883c78e6c90337f91a4307f6a11ccb3eb892370a5cae6ffe7"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/assessment-matrix.json",
+      "sha256": "caa5379476542564c780664e4c244ca57892635f8c47d7b19228708394d2e399"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/assessment-matrix.md",
+      "sha256": "cb873d218832e78b1f5018c7a13cca2308934d12f88cb975506ae34392215987"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/baseline-bibliography.bib.gz",
+      "sha256": "7b7b6b6eb58645433adeff8646c520336ab445fa113ce96f7bb084c8ca20328a"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/baseline-food-research.json",
+      "sha256": "294a20a8b70398ad9a4e5563e46b67456d3c8a04150f2b32accf3c31b61de171"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/batch-results.json",
+      "sha256": "18d862069b4a9447557273c0753537bee1dd75d1d485a790a64ae63277427724"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/changed-file-manifest.json",
+      "sha256": "a6e39906fe9b9abeae4d0ae155c348e58cf1e9a85e1eb21bda7c6a796e39c879"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/browser-disclosure.mjs",
+      "sha256": "55e39e327b8d918f750a289e07d26518bdf68a23cb8b5fc6c314264dfb651f41"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs",
+      "sha256": "06183a49336939ff96a3bbd1504b08e45700073f1596ca88b1030ef7842b9fc3"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs",
+      "sha256": "0bd000448055eab27b2447a4dc9a826e49a56bd563874ac48ef37f1564ddd180"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/foodTargetTraceability.mjs",
+      "sha256": "b90dde0873ca9de9e39256b35a568b3ef86945b240c921f12dc98ea69504a029"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/inputMappingScopes.mjs",
+      "sha256": "9f085b1079ab38f776bbb3930dfd067a838ca3e0483aff8625f88837e8ed964c"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs",
+      "sha256": "9b45547689d70dcd39a1ec14152ba8e72c30d568293be8a7df409cf00acf9e2f"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/scopes.json.gz",
+      "sha256": "07e11a89510711ded7d362b9efd1c441bab2ceb48278ee3627766fbbf97aa51f"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/complete-baseline.json.gz",
+      "sha256": "658985c770d21fa846484ffd08a25b6421664785af7074b3cec06847375e05db"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/cursor-repair-queue.json",
+      "sha256": "5b2ed85bd99dcae1c72115cb1d942dacfcf99b67c27ecee89ab9f20710452bff"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/cursor-repair-summary.md",
+      "sha256": "0332d9ff2df5736abad981f04062f76ee14a5dea7f555747ab72d193175be367"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/dietary-targets.json",
+      "sha256": "6cec98fef65c6454a0163dd572227b74394cab1171f08d686a76a406385f7f64"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-research.json",
+      "sha256": "f46fcc10ef3755f8caa6c1e8a0b3f6cbf78a48c6641ef5feb0667c321f09d013"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-target-preview.html",
+      "sha256": "56240a6872c5c4b72c431650ac99fc96f2286cd8bf6e7fbdd42bc6d5414da163"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-targets.json",
+      "sha256": "e8b43f957e24f9c8a9063691751a864c84ac07c8171844974ac828fa43e318f7"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/implementation-manifest.json",
+      "sha256": "47b699b67b9bd66cffea86b112245720c52edd9767bfb0008d3d79ff3250b94b"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/microbial-crossfeeding-2025.xml",
+      "sha256": "b16f34576f286f90527c82dda8257099fb04e0287c9defb812029c2d325f4953"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-admissions.json",
+      "sha256": "8cf944e2f87f5658eb8265d14d4a3a57714367792eb498f7ff8bba7d85416722"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-participants.json",
+      "sha256": "a87acaa6ba1760006094e0f214f96f8f0cb3eff2ddfb7d28d2b258ecd31affaf"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-practices.json",
+      "sha256": "e3ee9d5644938b77c9e89f640d1b63d4f742112873e3ecf94be26ab401094ed9"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/report.md",
+      "sha256": "62271e62930e6b506ab75dee585fcafa030ae29fcd613a1235f152ae74aaf10a"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/retrieved-primary-metadata.json",
+      "sha256": "c877322d76d957c1ddf47262e9a6dd74d962600695c6c1369e9e2feeeead9e17"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/scientific-review-proposals.json",
+      "sha256": "ce1d8035149b2db0a39782816082e29d1ec7cbe3b0441d02a89c5974ccc2a578"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/source-fingerprints.json",
+      "sha256": "128f074bfb4a86013144b0784a85df8744f6bb93d55c12a9161f3c00e329045c"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/source-preservation.json",
+      "sha256": "9f32957d8b48d2932b10a8dce84d93e1d9237b34d9182e4bafec34c613fe2cf9"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation-report.json",
+      "sha256": "702c4870b2bfbf0de4176e7769c97c5e0e3b6dad9e2aa572ac427586ce6ffc5b"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation-report.md",
+      "sha256": "bf4449ffa1a42ea7abcd7d59706d4f99cbde5738fa405bffb0dfe81e0079b5c9"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/baseline-mechanisms.log",
+      "sha256": "9948a367ea807be8ee5c2ea59cff05e4092b20382163f1459ef6cba0446560be"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/bibliography.log",
+      "sha256": "9eaf170397d478dfbf4befc10b0239f276b8f89c5c580b96956b0d0b5b0c2243"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/compiled-pages.json",
+      "sha256": "bcbdfed0a60a8932fd9bc55950030b7dbfc86d56b966231619b7a19d0fc1c970"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/deferred-regressions.log",
+      "sha256": "37a9792b38d1080854df7437279f9e22f2a043ee13db67137fbe6196e151d472"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/final-focused-tests.log",
+      "sha256": "c81d4d7a2c82705495f7e2a1aa401bdb5cd2d7926ca46208ae3885fbe4ae7b43"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/generation.log",
+      "sha256": "7301386a697df152fde12ad1519ef072040c9e569b8cf995a898be89914a267d"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/infrastructure-tests.log",
+      "sha256": "647752c069e5e563fa3371ac2d0662b75235ad555a1cc073f7996240472fcd87"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/mechanisms.log",
+      "sha256": "b50bd63106292763479db979e4122aa0fbf7ad773eb02fd11cf871464f1e171b"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/phenome-generation.log",
+      "sha256": "0546bc15fbee78212794f205123fb7e0eb076d20362fe448c8924be725c0e56d"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/preservation-and-findings-tests.log",
+      "sha256": "c1d700a8ade6e2e4cc1c9c9c75b55c333e98c5f0357b6cc0d6c01c810e5e50bf"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/reference-integrity.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/sec.log",
+      "sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/substances.log",
+      "sha256": "5babbb8f6554974b3e4a2f1a2f36acb03c4fd9bf81948cb48c408c5163d0cc29"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/actual-client-preview.html",
+      "sha256": "f85b3ef6cd2280456565c13e23c00d9815c1fa163e428ff6dd621006b46fbd05"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/baseline-and-preservation.json",
+      "sha256": "23b42f26a9c780f5e5146361d64764865eec51d8271369b1b56255137232c55f"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/batch-1-rollup.json",
+      "sha256": "3c78b9783c307cc98dea3b9983ceae261f7c40f6411d127757e836c94343dcb6"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/batch-2-rollup.json",
+      "sha256": "02868d2367a302944c6b18eff51e07a95cd2859bcfba72bc92340e252350945d"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/batch-3-rollup.json",
+      "sha256": "f70facef11120b0c668c0d74b164f100f114bff6b28ee1638131e9e12426de45"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/batch-4-rollup.json",
+      "sha256": "507e1ab225a6d2bd899070048f2c33c8c14cbb88230efdeafba6f53648f50467"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/batch-results.json",
+      "sha256": "ca80ccbc5740af908a0287e1b4be1e5f00384cc07f1a4a3f2c5e9862f0a49a4b"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs1-baseline.json.gz",
+      "sha256": "4bebfc2eba24fa58a374ff8ff056358a7e2dd343fb8b8ad88f7e2134b2621e4e"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs2-baseline.json.gz",
+      "sha256": "4f76e45ec77cf6a9b744077471428f426d23ee80dd2e670f9f7866805e737643"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs3-baseline.json",
+      "sha256": "365aa3d94894c217b148a6543eabfc3c598037342855c15d86f7c9e320e685c4"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs4-baseline.json",
+      "sha256": "2b47ed83c6656c6adffdd8d15a2cd7adc13a211521276f01816e9cab6e5b22c9"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs5-baseline.json",
+      "sha256": "8b09287e7b5450947accde7bc9fc0aa88ed229e6c19d817e76a329000aca938e"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/brs6-baseline.json",
+      "sha256": "c0fa278edcf0c3c96229090b7d32caf0c9366e9ada8aaac2f612b61cfc5b2325"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/changed-files.md",
+      "sha256": "16148beb3f98fb92a67c07ab9be33d1d37d477599d2dfb9179eafb3190381522"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/browser-disclosure.mjs",
+      "sha256": "55e39e327b8d918f750a289e07d26518bdf68a23cb8b5fc6c314264dfb651f41"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs",
+      "sha256": "06183a49336939ff96a3bbd1504b08e45700073f1596ca88b1030ef7842b9fc3"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs",
+      "sha256": "0bd000448055eab27b2447a4dc9a826e49a56bd563874ac48ef37f1564ddd180"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/foodTargetTraceability.mjs",
+      "sha256": "b90dde0873ca9de9e39256b35a568b3ef86945b240c921f12dc98ea69504a029"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/inputMappingScopes.mjs",
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs",
+      "sha256": "9b45547689d70dcd39a1ec14152ba8e72c30d568293be8a7df409cf00acf9e2f"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/client/scopes.json",
+      "sha256": "57479a50f06e0136978e925943a678dd3454e0c137d94c6a928f974baae9d0d2"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/cursor-repair-queue.json",
+      "sha256": "8693441682a0cf032b2d6f1f477b153a859cd9848c53f572e6731ad4934a8034"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/cursor-repair-summary.md",
+      "sha256": "dadfa74b95bc4061bd386ed1fd160230fa885eaeed23779eec38f30bd2d4304f"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/food-target-rollup.json",
+      "sha256": "c4bdac3dc5d082b98c1f4c4ffbd724f8685fa327452a80446731bc1fcff70ccd"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/historical-conversion-gaps.json",
+      "sha256": "fde341646e65452b9d986ae540554d51ebaca9a44c27b4c855a88e8f6fb0f055"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.csv",
+      "sha256": "f8ae238dea684a5283718373dc0e0ad7081ac977e25a41cf5ee3e4255a645875"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json.gz",
+      "sha256": "ffb21e8a34ba8c7e02b675546e22022fe0160b874139d1dd3fcfec056e4b6e3a"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-preview.html",
+      "sha256": "ccbf3a6c4550bb8ee0b693350cb405335eed53fb9a3a4a52dad9fa72beaf54bc"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs1.json",
+      "sha256": "e39782022698658a76f8f1feb50380bff2db078355e82bc70b43874281f2b676"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs2.json",
+      "sha256": "b040b17a7c17b0863f78729d57b61dc20c8fd7d157ed135d57598fb5c2b265bd"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs3.json",
+      "sha256": "bec6c8deccccc5cc51b429d5dab2504fc6ca29aed84076d5281f80e1314837cf"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs4.json",
+      "sha256": "933440b8e22e434b6b84564c78571e70ad5fe22a6a7abe03e2fa2b683e6a7c98"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs5.json",
+      "sha256": "eec6075aeeaf3e4879c235b1caf479cacb9752c2ffadc12acd75e745caa8ea8d"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-rollup-brs6.json",
+      "sha256": "78636a4783e7d567530660b043f937ef81601a6971c38c70eeab97b70e870289"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/manuscript-synthesis.md",
+      "sha256": "fb9f89caa016623fbccbbcd70cdf37d1de263a99fc26a67709bd99a32f613f60"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/optimisation-and-lifestyle.json",
+      "sha256": "555bbaf6b805891b95540de6cbec2e22e5c03dd92a5149ae7af6855bbefe9806"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/pm-inventory.json",
+      "sha256": "614a25833c1bf43f51c3acfd0b47c6c93f8196e81d385f0bcea999f9ea07332b"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/pm-inventory.md",
+      "sha256": "3ab1178cd355ac36ad43f831b32649df5a30987652e1227cf15927f9b6fde646"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/report.md",
+      "sha256": "358865c72b9260fffb472b2b149d7598009851cfe677403d414f962b4e8eb5d9"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/scientific-admission-reconciliation.json",
+      "sha256": "f485c4e9db113c1defcb8e2205e4bfd3574f5ba51d537e1ffee20d5381bee554"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/scientific-issues-and-deferred-work.md",
+      "sha256": "23536b0634a7793ebf1d4bb28eced18825ea577bb0b6d40fcc8e26c0c23d2de5"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/source-inventory.json",
+      "sha256": "8fd296f2c97da720f1812fc807c1701a83da125c5b2460783cd55d5a996ddd45"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/summary.json",
+      "sha256": "5a612aa11833046ae52b8ecd13c01491dd662ef25e656bfe2eb36828f6fd212e"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/BRS-X-Circadian-FM1-PM2--compiled.html",
+      "sha256": "4b818eaa664e20a356899696e773dac878f552f3a0b255d6cf69dac09dd9eabf"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/BRS3-FM2-PM3-compiled.html",
+      "sha256": "0cf0324c27fd037813344b6f5a9fd7cb9b2363b92eeddbc01da182ca9d8f1a04"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/BRS4-FM1-PM2-compiled.html",
+      "sha256": "1ac62eb55220e649c6b9545f1d4e0e8c48cbc516badc234e917368c83f6c6994"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/BRS5-FM2-PM6-compiled.html",
+      "sha256": "ea82959f16d15ce832dd37fa7386268b87244c5e0ed4a16bbd3e9e795b4829ac"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/BRS6-FM1-PM2-compiled.html",
+      "sha256": "44bba0fa02b4e4ef7e75afc333c98fc277f4495d6d87ff2fcbab605c91515768"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/bibliography.log",
+      "sha256": "9eaf170397d478dfbf4befc10b0239f276b8f89c5c580b96956b0d0b5b0c2243"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/browser-display.json",
+      "sha256": "c162882ed0f2c91f7aad6b1d68685c2b99a410bbe8adf9c1cb328326db4ce073"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/finding-title-baseline.log",
+      "sha256": "a2afcaf8a5d28109e0b9be2290ce37b6ca44a76fb39cd27b9eaceedb47739ec0"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/findings-freshness.log",
+      "sha256": "a195e6bac03848376330f0a3341b78858ba5a8edc88893a72932cd834d7ddc9f"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/focused-regressions.log",
+      "sha256": "51d3504919638ddc18f90f631e78da3785d21e52191d2761d7183b0601032e8f"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/generated-mappings.log",
+      "sha256": "c9683cc8c9f9412cf4db7ae5898073a58da196c82213e30af7ce7bb653ac4483"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/governance-final.log",
+      "sha256": "79af3d63211012f8b8c1fdfdd162ea3052cb89f81a0663def36595efbc872d63"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/governance.log",
+      "sha256": "79af3d63211012f8b8c1fdfdd162ea3052cb89f81a0663def36595efbc872d63"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/pm5-compilation.log",
+      "sha256": "aad229f222eb15bd61fc85a739a6ca2b9327181ba59f28ed899c692d31c9e47e"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/preexisting-brs2-pm5-kc-fixture.log",
+      "sha256": "6d42a452630d914aa6c8a175a86b7ce4b999c794768823a8fc5e595bd688f51c"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/production-build.log",
+      "sha256": "a798ba465ebf21cddfca30f790598acd4b488bac1eb4620451babd3a1b1a3635"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/rapid-final.log",
+      "sha256": "1602cad6f9711d825152a156fdc1175f4324c1de65ab83cfdba49ce63980c50b"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/results.json",
+      "sha256": "ae75845c7dded9c29c9f43bcf119f53190b9c2da36d6818179387592c7011185"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/sec-final.log",
+      "sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/sec-preservation.log",
+      "sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/substance-ontology.log",
+      "sha256": "5babbb8f6554974b3e4a2f1a2f36acb03c4fd9bf81948cb48c408c5163d0cc29"
+    },
+    {
+      "file": "review/rapid-stage2ab-2026-10-23/validation/targeted-compilation.json",
+      "sha256": "9431202368add8e15fc1dc3f26bfe1fcdc91e266c76725638c55fb13a568dcf8"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/all-preserved-inputs.json",
+      "sha256": "973c8b4f33a0279e10f04a9ee844bd63bbfa8fede093fce3371ac1592a478f25"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/canonical-food-target-catalogue.json",
+      "sha256": "d56c635be717e895c6133ddb7eb60508ee8ad71052b982f669bbe5a1e3070582"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/changed-file-manifest.json",
+      "sha256": "3939457e890833c54cbe13075b3e2c3693a1da8287b5e954395b13eb08c6c89e"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/per-pm-matrix.md",
+      "sha256": "9b589b55852e0fc2b626ad5a2020a541bd66f991d7df78867291c5a9408adb42"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pm-reviews.json",
+      "sha256": "d7ac6c49dc77271c9b6fedeef60bc873c8badd789b50b6cf00bfa0fb33f2f6b8"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.json",
+      "sha256": "89e4ebd03277d130860fd77575bfd63ad160aff240559c2c3f2a0e8eb530afdb"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS-X-Circadian-FM1-PM2-.md",
+      "sha256": "82735723aee7415a5a657bddf2a0d194795145d726237e49bd094f6e87454548"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.json",
+      "sha256": "6854172bbac6536779cffbedf58d1e47048c19814f60d009b398adc37f327e55"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM2-PM6.md",
+      "sha256": "81f6f8cf5e93ef91863738c5869e9da1e3195d6aae54ca0b3e15146cc825ab4a"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.json",
+      "sha256": "39f0e667ac4ad66d065d012dec627bf304bf5b496eb67d21009ebd06d055f033"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM3-PM7.md",
+      "sha256": "c9cef2ded2ef7cd4319e570ab5a80b768722dd0350edcf766712a3a2f0274ea2"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.json",
+      "sha256": "f6af21c1705982cc6e4dabf298c193338e5714b2603fcbbdc1c366d48bdbb1de"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS1-FM4-PM9.md",
+      "sha256": "79a99a5a5fc580508a1d1078fc146fc160a58a7db37a15925994a85ca2257213"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.json",
+      "sha256": "9fc4bc313a39b5831aa584fceb6eacc9984f0c1ae239c95a93a60ec6de79e227"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM1.md",
+      "sha256": "541c1b7a44ad1b4c38fa88e2a10744ed0b0f629c6ee4d5f8905a5918bbf05d46"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.json",
+      "sha256": "5314fe0a87cb32d0cb5db184d08c206a9589c88f23f619e6c0831558acea3fb3"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS2-FM1-PM2.md",
+      "sha256": "b930351fb4d7a41860c2b31c160cab05e6c8dec7ada5f5c3281a17f2cb23ac1e"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.json",
+      "sha256": "fe6fee0afb010dc79a83dd1b13fda07731f114f665608b0d8053f079cae21cdc"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM3.md",
+      "sha256": "0ec49f02d7e0ae8ec4792f122abb8baa89e7410efa88a3279bd9179657709b07"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.json",
+      "sha256": "7cb7a1bbd71e3958c27bd0d71cb7ec74d4dc46975bacd7ab80672f2d81603716"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM4.md",
+      "sha256": "78562a8483bf9f74cde237df3d4a4941922059617f6f2b1afa0ca4911955ed5a"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.json",
+      "sha256": "ec4f98346a61525e8ae5545a07e2800e6aa647fcb92b206dbeee77d8d90967e6"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM5.md",
+      "sha256": "030fb4328ea9962f7013faed3a6fb36999b14e3fd3bd4973ef4967906c30f82f"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.json",
+      "sha256": "beefa26e9d476099d62ff22c26d07a34553556ed2084a5d63ca0a60356ba6b8f"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM2-PM6.md",
+      "sha256": "4f5253f6273bcf150740be73aaa4936a7e1c53f31de1ede78f143cd15c7d273d"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.json",
+      "sha256": "525a7417b76d4ab6dabcb388b1ff3b0a79b8ca54a95daee6a2232d07a1cac2c5"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS3-FM3-PM8.md",
+      "sha256": "5fa4a24c92742f206ce1d34a11487f795801340ac81ff4255cf91ecafc66232e"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.json",
+      "sha256": "324898d05acc247f834383b7cb87ecc59830015a6b26c670b2cb104da5e80728"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM1.md",
+      "sha256": "08f03c66c96a0abcecfc4659787e2c805ccb066eebaee6895d62beb75ad90313"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.json",
+      "sha256": "2743c8201990f0efc7bf0a6af9fd99772d7044bb86445bd946b5a9112d125c94"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM2.md",
+      "sha256": "3e2f58136fece196472ba2221bf4ec21e68e7ec039180c8fa7d974789005d509"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.json",
+      "sha256": "3e225ef66ab0adbf6f243e0cf5f2be841ed621cb3da2da9260340711ece1df27"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS4-FM1-PM3.md",
+      "sha256": "f272eb22816a217aa8c31e189687c86b9b1be168d924b927fc51b032db983ca1"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.json",
+      "sha256": "5db31f86a2942ae6b406326d92b74003c9d3f94a5819a2dd3ea2a0cd4d5e7d52"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM5.md",
+      "sha256": "95575a0563bf3df946e500302467e9889c14419c6ff4bde7e2ae8d75a50060c3"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.json",
+      "sha256": "4190d6f71a96b8a1cee093c7f786489bc67585bbea0fd80c74eeca07763b9b9e"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS5-FM2-PM6.md",
+      "sha256": "ae152e27c553c2cd3593b5ca9a44beb6a035401a197b5e8f0c27928b92b6ee4e"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.json",
+      "sha256": "94608f70fabd7aef63b2c4e45888f90031e5c7bfb6c4bf39239abbde69f27ca4"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM1.md",
+      "sha256": "42958d0e5d6d62bf8095b6678e0d50f51e084e1168cbcd35367c134f02f5a4ee"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.json",
+      "sha256": "31556a91df16638bbf9a2b1ee54987cfc216424dae0b4065435adf7669dc2b41"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/pms/BRS6-FM1-PM2.md",
+      "sha256": "5652656571bc90a48d68dd4c64d1f2c6b634638248e5b4c6daaad701223f3d59"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/report.md",
+      "sha256": "f2a21e8a147a1fb8370ae8d202a7a971883ff5034768bd77d6e02adb40684b62"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/review-issues.json",
+      "sha256": "3e03deb5f852c1fb44493c3ebba5d7a79502a769afa5f43b77613d00ef7bbb3d"
+    },
+    {
+      "file": "review/stage2ab-preservation-2026-10-23/summary.json",
+      "sha256": "92f6c1db00ad94ee035a16e31f97ad2ad7a3d08a6720cb7d69d46183803a30f4"
+    },
+    {
+      "file": "scripts/brs4-carnitine-reconciliation.mjs",
+      "sha256": "89635ab049e9cae358e5db08e626cefa4231cacdb434b3d94931845e6d639f8b"
+    },
+    {
+      "file": "scripts/brs4-carnitine-reconciliation.test.mjs",
+      "sha256": "031fcc384f271afbec7d989ce39a1a5460353248c612665294063875653ad451"
+    },
+    {
+      "file": "scripts/brs4-validation-repair.test.mjs",
+      "sha256": "799d6e9457ce9c905ee3ce0d62de16dab817aa750012433825c79eefd331fc9a"
+    },
+    {
+      "file": "scripts/brs5-pm5-reconciliation.test.mjs",
+      "sha256": "d802ebd404c726a02e4b753c91c3c34d6d58b5991edb915b7417ba46b3d06249"
+    },
+    {
+      "file": "scripts/deferred-stage2ab.test.mjs",
+      "sha256": "84dfd475b13aa83dd052e9fd848ff71fe6da2a29c7822f14dc756455db380531"
+    },
+    {
+      "file": "scripts/food-target-reconciliation.test.mjs",
+      "sha256": "c1379b2502432bf0591e1d4e6b00fc55478341359170d60779b069fecbf4fdc4"
+    },
+    {
+      "file": "scripts/input-substance-food.test.mjs",
+      "sha256": "bd70290f477feacb8afb1c3d02842753fca51260202c94e6b54c7d77028daf9d"
+    },
+    {
+      "file": "scripts/lib/review-json.mjs",
+      "sha256": "f33677d7371063a54722f4ce403b76dcf12e5095c95a209ebf4178c99769c2f9"
+    },
+    {
+      "file": "scripts/rapid-food-display-check.mjs",
+      "sha256": "6f3cdc4cdba55ea0e37f1d71949296f5eeadb06ce7ffbe2d66ce195f17b84b5f"
+    },
+    {
+      "file": "scripts/rapid-stage2ab.test.mjs",
+      "sha256": "4c5a8aa3e3dd71a7472e4a8c2a2506ceb8fca1cc7556b50fb8fadc00d3cb1b8d"
+    },
+    {
+      "file": "scripts/run-deferred-stage2ab.mjs",
+      "sha256": "c87f1a360b42f5b533315ac9ecaaf233b643e015a1a9ab84c38e803062a0b19a"
+    },
+    {
+      "file": "scripts/run-rapid-stage2ab.mjs",
+      "sha256": "b371bf94be236598e0cd99d743dc5631b16a89385002aa33d2f2805b933ab4bf"
+    },
+    {
+      "file": "scripts/run-stage2ab-preservation.mjs",
+      "sha256": "b9f34c6d8c2559f4158e9891d8105472bda79689e6ef5c1116866bcb69952a0d"
+    },
+    {
+      "file": "scripts/stage2ab-preservation.test.mjs",
+      "sha256": "1aeb3a176158a09e57e9561abf8b7cf7600f62addf2b85d70f42a65283dec354"
+    },
+    {
+      "file": "src/data/phenome-relationships.generated.json",
+      "sha256": "a510324fe0168a31546a2655b484fe0e14f3f4120e575bc935df33e13e9fec40"
+    },
+    {
+      "file": "static/bibtex/BRAIN-diet.bib",
+      "sha256": "bf00bb90c49cbb7dc80a4d0eccd7b48ba97bd1c007c0c3b8dd2ea646bd1a659f"
+    },
+    {
+      "file": "static/img/inchi/PHIQHXFUZVPYII-ZCFIWIBFSA-N.png",
+      "sha256": "93a8e8cbdaffb1756bdc20cb3ddc699cad7ff4fafcc6131b420526821d958686"
+    },
+    {
+      "file": "system/food-target-research.json",
+      "sha256": "d32fa11442c67174995829cc9d1c84ae1735275d2096b8a836aa8ab9763a75f8"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/dietary-input-decisions.json",
+      "sha256": "c6f40556d562df041efaad3e8994d3cb1d42ff31d59175d57a4732155e127582"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/gaps.generated.json",
+      "sha256": "dd44ce8accf02e96964d2269f476b4196cbd51dc51ceb491ceccf67d2a6751b5"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/inventory.md",
+      "sha256": "2e6547cdef60d65cc03fa6d1ffb917cbdd028fa5a45ddd322d8b18c8954f29e3"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/substance-index.md",
+      "sha256": "83f9f461ac9e4dfab47454516ee7223251deee1d09c6fa6eb60e94187050bf5e"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/dietary-input-decisions.json",
+      "sha256": "e46ed10468bee81adbf6984e5ccbe947600f17c998f68fe8828602c5174b877a"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/gaps.generated.json",
+      "sha256": "9d7cf740cac1054cda212506b213e6f938440a5cdc85095f6da8594460e78705"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/inventory.md",
+      "sha256": "a81afafa2566360a3d0740acfd55870d9b715b1a8e29d8bc78d8fc50b82278e6"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/substance-index.md",
+      "sha256": "0e2338af766a91169d421cddc55e623047e66f0f28d87e5a335788b339f46851"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/dietary-input-decisions.json",
+      "sha256": "415bc0092d648c26937b81aeb4fcbf341338a4261157103d1cfa5f2036ee7ceb"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/food-to-inputs.md",
+      "sha256": "e71767d86c3891023d0d7c54f16df7a24ec2315ed0234696c69e628f7a0b60f1"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/gaps.generated.json",
+      "sha256": "0e12cd739edc5a41b190ab4ed3d3041d8f0a21bff23071bcdd0a2d2355511653"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/inventory.md",
+      "sha256": "d91de24841e6f474bcf2d9a11ae66aaa1bc54916988465b075a710f4d0c12fde"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/substance-index.md",
+      "sha256": "1644f17976aa0d53bc5f336888579419cbb148f0226c57debd9aac0772d59388"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/cursor-repair-queue.json",
+      "sha256": "ea8c01fa0ad2a820883177f0e97465ed4dbf92a4260c8483caaf7a1bbf2644ed"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/cursor-repair-summary.md",
+      "sha256": "21711fd2061199213d91f77a8eb640f0c6e797bf47e67bfe489568480a4f7309"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs1.json",
+      "sha256": "1b5ac9aeeab33924588fe5b4eac02658aae610e4a8f5206bc8c5f68ee15cdee5"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs2.json",
+      "sha256": "28d68c0ad9fcce3f64d2142a6e134e48c77ace03b763ae4bcd9581884f822aca"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs4.json",
+      "sha256": "41968aacde94262707fee2fd65be14b8dd074d9e4904521d70fba298eb38df5e"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs5.json",
+      "sha256": "896caca34dc035a444d6025e7198345c00caaca2b586a01406a3b65534650c6d"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/reconciliation.json",
+      "sha256": "997367a08560a19874b64a94350f40b725eb8aabf382eadf1ef3b69b7e6a4f3a"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/research-ledger-reconciliation.json",
+      "sha256": "573cabd67e11aebe7e5d3330374fddf6bbe05f5bfcab73957909832dd98b167e"
+    },
+    {
+      "file": "system/generated/food-strategy-rollup/index.md",
+      "sha256": "daacf088ac6356f0dc6c3fa535bb543a6007bdea934446299f3095de59e030bc"
+    },
+    {
+      "file": "system/generated/food-strategy-rollup/rollup.generated.json",
+      "sha256": "de3c0819ce6788ec2830d27c530e33d5755b714b4426dc85c8fab94610225242"
+    },
+    {
+      "file": "system/mechanism-change-control-queue.md",
+      "sha256": "2ad2de242e006cd51adfef39dcf04cd498d029e9d62fffb7b7b1752ee2c419db"
+    },
+    {
+      "file": "system/rapid-stage2ab-2026-10-23/adjudications.json",
+      "sha256": "ee3b30e1471c5ca8f75f7ccb996e698d13295c9cc3697c0cbc83c7a9a9b83cb4"
+    },
+    {
+      "file": "system/rapid-stage2ab-2026-10-23/source-verification.json",
+      "sha256": "34ab985f44bbd169511fc294e4cbf649433a326de6fbefbc7caccbfbec8a2195"
+    },
+    {
+      "file": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json",
+      "sha256": "b41a2cd644af78d8fca356799f6baa4792341a231cd3c060de5b137ace0a9cb0"
+    },
+    {
+      "file": "system/reviews/deferred-stage2ab-2026-10-23/sources.json",
+      "sha256": "44c294caca984824b4e2b8250d350c045e99a1cbd444e87298867606596efdea"
+    },
+    {
+      "file": "system/reviews/stage2ab-preservation-2026-10-23/execution-summary.json",
+      "sha256": "92f6c1db00ad94ee035a16e31f97ad2ad7a3d08a6720cb7d69d46183803a30f4"
+    },
+    {
+      "file": "system/reviews/stage2ab-preservation-2026-10-23/plan.json",
+      "sha256": "eb2b1b914054993ebdb78ae42c491be232a06a3a6209a8fe9226f96898c058cf"
+    },
+    {
+      "file": "system/reviews/stage2ab-preservation-2026-10-23/preservation-manifest.json",
+      "sha256": "f7767571becc51ebae9dc80aa46287fb670137a29a4ee814d1b6b9f312ba4c9b"
+    },
+    {
+      "file": "system/reviews/stage2ab-preservation-2026-10-23/uniprot-P00390-context.json",
+      "sha256": "4e1021b0b3ba194bc1f3c5ddc077e89fbe5777ebdf9892264d3e1fe93a7db70b"
+    }
+  ],
+  "audit_formatting": "Trailing whitespace and CSV record line endings normalized in audit artifacts only; scientific records and values unchanged."
+}

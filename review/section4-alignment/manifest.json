@@ -1,0 +1,177 @@
+{
+  "registrySha256": "696a1f12f162efd6ed0ffd029e29fa1600c2b697f43624b027e9c7dd2b697f46",
+  "pages": [
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "pmId": "BRS2-FM1-PM2",
+      "frontMatterSha256": "51d4b6a54159ab69581cf34b29aed574ff62f7c6a102c40c0edbcc2833ac6d99",
+      "beforeSha256": "281fb43e92838acba0420c81c49906585d14968f493670200e0209e65ddab5ff",
+      "findings": [
+        {
+          "id": "PM2-F1",
+          "label": "BHMT remethylates homocysteine with betaine and catalytic zinc"
+        },
+        {
+          "id": "PM2-F2",
+          "label": "Choline oxidation supplies betaine and is not the BHMT reaction"
+        },
+        {
+          "id": "PM2-F5",
+          "label": "Betaine availability and choline supply can constrain remethylation reserve"
+        }
+      ],
+      "originalLessons": [],
+      "changed": true,
+      "afterSha256": "2c5df192ef08eb6b1469b7d27131f174e6e59dde0b27e61a2fada0023c3e6018"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "pmId": "BRS1-FM4-PM9",
+      "frontMatterSha256": "18b6bda32117475e586cc5413642be9d92462632af3fe730c14d74dea85f4280",
+      "beforeSha256": "a5fedaa222cb860da483de0938c256d75b2487069034c32e33c6813874f7fc95",
+      "findings": [
+        {
+          "id": "PM9-F1",
+          "label": "GAD cofactor occupancy and regulatory capacity"
+        },
+        {
+          "id": "PM9-F2",
+          "label": "PDXK metal-nucleotide regulation in vitro"
+        }
+      ],
+      "originalLessons": [
+        {
+          "id": "PM9-F1",
+          "body": "\n<div id=\"brs1-4-9-f1-l1\" className=\"scientific-lesson brs-fm-hub-item\" data-brs-fm-hub data-pm-id=\"BRS1-FM4-PM9\" data-finding-id=\"PM9-F1\">\n<div className=\"brs-fm-hub-shell\">\n<button type=\"button\" className=\"brs-fm-hub-summary\" aria-expanded=\"false\">\n<span className=\"brs-fm-hub-chevron\" aria-hidden=\"true\"></span>\n<span className=\"scientific-lesson-heading\">\n<span className=\"scientific-lesson-kicker\">\n<svg className=\"scientific-lesson-icon\" viewBox=\"0 0 24 24\" aria-hidden=\"true\" focusable=\"false\">\n<path fill=\"currentColor\" d=\"M5 4.5A2.5 2.5 0 0 1 7.5 2H20v16.2A2.8 2.8 0 0 0 17.2 21H7.5A2.5 2.5 0 0 0 5 18.5v-14Zm2.5-.5a.5.5 0 0 0-.5.5v14c0 .3.1.6.3.8.2.2.5.2.7.2H18V4H7.5ZM8 7h8v1.5H8V7Zm0 3.5h8V12H8v-1.5Z\"/>\n</svg>\nSCIENTIFIC LESSON · F1-L1\n</span>\n<strong>Apoenzymes and Holoenzymes</strong>\n</span>\n</button>\n<div className=\"brs-fm-hub-panel\" hidden>\n\n### What are apoenzymes and holoenzymes?\n\nAn **apoenzyme** is an enzyme without its required bound cofactor. It may have little or no catalytic activity until the cofactor binds.\n\nA **holoenzyme** is the enzyme with its required cofactor bound, making it catalytically competent.\n\nFor glutamate decarboxylase (GAD), the relevant cofactor is pyridoxal 5′-phosphate (PLP), the active coenzyme form of vitamin B6.\n\nAn **isoform** is a distinct molecular form of an enzyme. A **cofactor** is a non-protein component required for enzyme activity. **Catalytic capacity** means the enzyme’s potential to carry out a reaction under suitable conditions.\n\n### How does GAD produce GABA?\n\nGAD converts L-glutamate into gamma-aminobutyric acid (GABA), releasing carbon dioxide (CO₂).\n\nThe reaction is:\n\n**L-glutamate → GABA + CO₂**\n\nCatalysed by PLP-bound GAD.\n\nPLP is a cofactor, not a stoichiometrically consumed substrate in the principal decarboxylation reaction.\n\n### Why are there two forms of GAD?\n\nGAD65 and GAD67 are two isoforms of GAD, encoded by different genes.\n\nBoth catalyse GABA synthesis and require PLP.\n\n**GAD65:** A substantial fraction typically exists without bound PLP. This apoenzyme pool can provide recruitable catalytic capacity when additional GABA synthesis is needed.\n\n**GAD67:** A larger fraction is normally PLP-bound and catalytically competent. It contributes more continuously to basal GABA synthesis.\n\nThese are differences in typical enzyme states, not permanent identities.\n\nBoth GAD65 and GAD67 can form apoenzyme and holoenzyme states. PLP binding and dissociation participate in their regulation, although the kinetics and relative proportions differ. This lesson explains the PM9-F1 mechanism supported by Martin and Rimvall (1993) [[1]](#pm-ref-1).\n\n<AccessibleMermaid\n  title=\"GAD isoform apoenzyme and holoenzyme states\"\n  description=\"GAD65 and GAD67 can each exist without bound PLP as apoenzymes or with bound PLP as catalytically competent holoenzymes. GAD65 typically has a larger apoenzyme fraction and GAD67 is generally more highly PLP-bound. Both PLP-bound holoenzymes catalyse the same conversion of L-glutamate to GABA and carbon dioxide.\"\n  value={'flowchart TB\\n    subgraph S65[\"GAD65 — larger apoenzyme fraction\"]\\n        A65[\"Apo-GAD65<br/>PLP not bound\"]\\n        H65[\"Holo-GAD65<br/>PLP bound\"]\\n        A65 -->|\"PLP binding\"| H65\\n        H65 -.->|\"PLP dissociation\"| A65\\n    end\\n\\n    subgraph S67[\"GAD67 — predominantly holoenzyme\"]\\n        A67[\"Apo-GAD67<br/>PLP not bound\"]\\n        H67[\"Holo-GAD67<br/>PLP bound\"]\\n        A67 -->|\"PLP binding\"| H67\\n        H67 -.->|\"PLP dissociation\"| A67\\n    end\\n\\n    H65 --> R[\"L-glutamate → GABA + CO₂\"]\\n    H67 --> R\\n\\n    classDef apo fill:#fef3c7,stroke:#d97706,color:#78350f\\n    classDef holo fill:#dbeafe,stroke:#2563eb,color:#1e3a8a\\n    classDef reaction fill:#dcfce7,stroke:#16a34a,color:#14532d\\n\\n    class A65,A67 apo\\n    class H65,H67 holo\\n    class R reaction'}\n/>\n\n### Diagram interpretation\n\n- Both isoforms can bind PLP and form catalytically competent holoenzyme.\n- GAD65 generally has a larger apoenzyme fraction.\n- GAD67 is generally more highly saturated with PLP.\n- Both holoenzymes catalyse the same principal GABA-producing reaction.\n- Dashed arrows indicate PLP dissociation pathways, not a claim that both isoforms have identical regulatory kinetics.\n\nThe diagram is qualitative. It does not assign percentages or fixed equilibrium proportions.\n\n### Why this matters\n\nThe GAD65/GAD67 distinction illustrates how biochemical capacity depends not only on the quantity of an enzyme but also on its functional state.\n\nA PLP-unbound enzyme may represent potential catalytic capacity that can be recruited through cofactor binding.\n\nThis provides a mechanistic basis for distinguishing ongoing GABA synthesis from potentially recruitable synthesis capacity.\n\nIt does not establish that dietary vitamin B6 intake is the rate-limiting factor controlling this process in adequately nourished humans.\n\n**Evidence limitation:** GAD isoform behaviour and PLP binding establish biochemical regulation of GABA synthesis capacity. They do not demonstrate that increasing dietary vitamin B6 above adequate intake increases human brain GABA synthesis, improves inhibitory neurotransmission or treats ADHD.\n\nDo not equate enzyme activation with increased whole-brain GABA concentration or improved clinical outcomes.\n\n</div>\n</div>\n</div>\n"
+        }
+      ],
+      "changed": true,
+      "afterSha256": "a9bac3976b93268f65d7acf5d9ce14d1bfecb8a5bf09aad03be266a36a473187"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "pmId": "BRS6-FM1-PM2",
+      "frontMatterSha256": "bab9a5eca8adffb5d3243fe4a86d13303f69a1d21b4cfd065aa63bccb39902ea",
+      "beforeSha256": "dd53ab12c87d783c2115979912becc54a739bef5217f05effdfa540f8b00f3de",
+      "findings": [
+        {
+          "id": "PM2-F1",
+          "label": "Short training and observed glucose excursions"
+        },
+        {
+          "id": "PM2-F2",
+          "label": "A meal protocol affects acute glucose variability"
+        },
+        {
+          "id": "PM2-F3",
+          "label": "Variability and oxidative stress are associated"
+        },
+        {
+          "id": "PM2-F4",
+          "label": "Sitting breaks lower a meal response without proving a volatility endpoint"
+        },
+        {
+          "id": "PM2-F5",
+          "label": "Whole-grain processing and daily variability"
+        },
+        {
+          "id": "PM2-F6",
+          "label": "Early eating and glucose variability"
+        },
+        {
+          "id": "PM2-F7",
+          "label": "Interval walking and glucose variability"
+        },
+        {
+          "id": "PM2-F8",
+          "label": "Vigorous activity bouts and variability"
+        }
+      ],
+      "originalLessons": [],
+      "changed": true,
+      "afterSha256": "a4c56413cae9caaf82adef5e752539b2144078506db94ea656a463bd1279eb26"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "pmId": "BRS2-FM1-PM3",
+      "frontMatterSha256": "c9d809ced7ca2e60c5e4dd03fe142a9b23f67ca10abf727065d02c78651dd7e9",
+      "beforeSha256": "0b35d696fe94b8d9ca0cb3c83c645a9b7dfa183c531b9c6e71d576451cfc9717",
+      "findings": [
+        {
+          "id": "PM3-F1",
+          "label": "Biochemical provenance: MAT reaction"
+        },
+        {
+          "id": "PM3-F4",
+          "label": "Biochemical provenance: methionine regeneration"
+        },
+        {
+          "id": "PM3-F5",
+          "label": "MAT2B and MAT2A stability"
+        }
+      ],
+      "originalLessons": [],
+      "changed": true,
+      "afterSha256": "e0bf14529e931216c9db3c48ee3fd8d9305b711c952031c5ce6e76ab1a67ad65"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "pmId": "BRS1-FM1-PM1",
+      "frontMatterSha256": "e318c035f8053d49f2373b2762a65302c086462371c025e54dc3b2b5c9274b7e",
+      "beforeSha256": "156dc5e8672bad4288d3ccb78933248f4d5276c4f9ca62c7ee76a2f49fa0a921",
+      "findings": [
+        {
+          "id": "PM1-F1",
+          "label": "Dietary protein and amino-acid availability"
+        },
+        {
+          "id": "PM1-F2",
+          "label": "Diet-wide amino-acid adequacy does not require identical complete meals"
+        },
+        {
+          "id": "PM1-F3",
+          "label": "Phenylalanine-to-tyrosine conversion: biochemical provenance"
+        },
+        {
+          "id": "PM1-F4",
+          "label": "Downstream precursor identity is not a dietary efficacy result"
+        },
+        {
+          "id": "PM1-F5",
+          "label": "Food texture and amino-acid appearance"
+        },
+        {
+          "id": "PM1-F6",
+          "label": "Extrusion altered early amino-acid kinetics, not demonstrated total loss"
+        }
+      ],
+      "originalLessons": [
+        {
+          "id": "PM1-F1",
+          "body": "\n<p><a href=\"#pm1-mechanism-f1\">Mechanistic explanation: Dietary protein and amino-acid availability</a></p>\n"
+        },
+        {
+          "id": "PM1-F2",
+          "body": "\n<p><a href=\"#pm1-mechanism-f2\">Mechanistic explanation: Diet-wide amino-acid adequacy does not require identical complete meals</a></p>\n"
+        },
+        {
+          "id": "PM1-F3",
+          "body": "\n<p><a href=\"#pm1-mechanism-f3\">Mechanistic explanation: Phenylalanine-to-tyrosine conversion: biochemical provenance</a></p>\n"
+        },
+        {
+          "id": "PM1-F4",
+          "body": "\n<p><a href=\"#pm1-mechanism-f4\">Mechanistic explanation: Downstream precursor identity is not a dietary efficacy result</a></p>\n"
+        },
+        {
+          "id": "PM1-F5",
+          "body": "\n<p><a href=\"#pm1-mechanism-f5\">Mechanistic explanation: Food texture and amino-acid appearance</a></p>\n"
+        },
+        {
+          "id": "PM1-F6",
+          "body": "\n<p><a href=\"#pm1-mechanism-f6\">Mechanistic explanation: Extrusion altered early amino-acid kinetics, not demonstrated total loss</a></p>\n"
+        }
+      ],
+      "changed": false
+    }
+  ]
+}

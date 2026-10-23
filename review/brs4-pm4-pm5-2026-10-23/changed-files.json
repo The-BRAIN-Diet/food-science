@@ -1,0 +1,229 @@
+{
+  "branch": "codex/brs4-pm4-pm5-reassessment",
+  "canonical_source_files": [
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "scripts/lib/kc-evidence-governance.mjs",
+    "static/bibtex/BRAIN-diet.bib",
+    "system/framework-qc/pm-open-issues.json",
+    "system/generated/brs4-input-substance-food/dietary-input-decisions.json",
+    "system/generated/brs4-input-substance-food/food-to-inputs.md",
+    "system/generated/brs4-input-substance-food/gaps.generated.json",
+    "system/generated/brs4-input-substance-food/inventory.md",
+    "system/generated/brs4-input-substance-food/substance-index.md",
+    "system/generated/dietary-food-targets/cursor-repair-queue.json",
+    "system/generated/dietary-food-targets/cursor-repair-summary.md",
+    "system/generated/dietary-food-targets/manuscript-rollup-brs4.json"
+  ],
+  "review_and_test_additions": [
+    "review/brs4-pm4-pm5-2026-10-23/audit-and-export.mjs",
+    "review/brs4-pm4-pm5-2026-10-23/baseline/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "review/brs4-pm4-pm5-2026-10-23/baseline/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "review/brs4-pm4-pm5-2026-10-23/baseline/manifest.json",
+    "review/brs4-pm4-pm5-2026-10-23/bibliography-results.log",
+    "review/brs4-pm4-pm5-2026-10-23/biochemical-annotations.json",
+    "review/brs4-pm4-pm5-2026-10-23/candidate-decisions.json",
+    "review/brs4-pm4-pm5-2026-10-23/compilation-results.json",
+    "review/brs4-pm4-pm5-2026-10-23/cursor-repair-queue.json",
+    "review/brs4-pm4-pm5-2026-10-23/export.log",
+    "review/brs4-pm4-pm5-2026-10-23/final-validation.log",
+    "review/brs4-pm4-pm5-2026-10-23/finish-validation.mjs",
+    "review/brs4-pm4-pm5-2026-10-23/focused-regression-results.log",
+    "review/brs4-pm4-pm5-2026-10-23/food-targets.json",
+    "review/brs4-pm4-pm5-2026-10-23/governance-results.log",
+    "review/brs4-pm4-pm5-2026-10-23/legacy-corpus-reconciliation.json",
+    "review/brs4-pm4-pm5-2026-10-23/manuscript-dietary-rollup.csv",
+    "review/brs4-pm4-pm5-2026-10-23/manuscript-dietary-rollup.json",
+    "review/brs4-pm4-pm5-2026-10-23/mapping-generation.log",
+    "review/brs4-pm4-pm5-2026-10-23/preview.log",
+    "review/brs4-pm4-pm5-2026-10-23/regression-results.log",
+    "review/brs4-pm4-pm5-2026-10-23/report.md",
+    "review/brs4-pm4-pm5-2026-10-23/research-and-coverage.json",
+    "review/brs4-pm4-pm5-2026-10-23/retrieved-sources.json",
+    "review/brs4-pm4-pm5-2026-10-23/review-corrections-export.json",
+    "review/brs4-pm4-pm5-2026-10-23/review-surface.log",
+    "review/brs4-pm4-pm5-2026-10-23/scientific-assessment.json",
+    "review/brs4-pm4-pm5-2026-10-23/source-index.json",
+    "review/brs4-pm4-pm5-2026-10-23/validation-results.json",
+    "scripts/brs4-pm4-pm5-reassessment.test.mjs"
+  ],
+  "local_only_review_register": "system/framework-qc/framework-issues-register.json",
+  "files": [
+    {
+      "path": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+      "sha256": "1ef8414de13fcc138de59d1f8a6171489d0a1bc6b0b190c055df485315558c1b"
+    },
+    {
+      "path": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+      "sha256": "a616f30c0389d8084f642bf89faaa147bcfdd463ff19950e42ec29d65f507f28"
+    },
+    {
+      "path": "scripts/lib/kc-evidence-governance.mjs",
+      "sha256": "6e7f9d5be7caa9c3af30e64a280e8f74f2d8b8464e31db1d79fe473d01a17471"
+    },
+    {
+      "path": "static/bibtex/BRAIN-diet.bib",
+      "sha256": "5b78bf81a8c42bdab5997807f808f43b0a7a2c7671439bfcfe36eba2f0bf4325"
+    },
+    {
+      "path": "system/framework-qc/pm-open-issues.json",
+      "sha256": "22ad97fccd5889c780f683c5af1967e20f109672baebdd9571d45c95ea57c674"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/dietary-input-decisions.json",
+      "sha256": "2ece7e9f6ba270501a9854529d76db15f84290e3f3b3494522014187e640de55"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/food-to-inputs.md",
+      "sha256": "053ce35545f6b95cf264615cecf7abb04efcb8f6146bc8a4c8726cc1af209533"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/gaps.generated.json",
+      "sha256": "62b94c4f6525fa8ed2e2e6b6a5ea5caaa405d3e8c51371028a283b0b0d9655fb"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/inventory.md",
+      "sha256": "8943b28ad8bf12571cc4c147ba0df9081aad7992db800633b5fdda48af98440d"
+    },
+    {
+      "path": "system/generated/brs4-input-substance-food/substance-index.md",
+      "sha256": "6f823151a61be3ece2a9e935d5f8bf7165e5947ab6cc521c388023db8d1b0b9c"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-queue.json",
+      "sha256": "8352b64035a74cc20105e4b394af0bd6339da8de79d1170321359a88ac300cfe"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/cursor-repair-summary.md",
+      "sha256": "0a56cbe8707d5ea566efe610a7e42bb70db9da41de7f889df83e28c7b0f75cf5"
+    },
+    {
+      "path": "system/generated/dietary-food-targets/manuscript-rollup-brs4.json",
+      "sha256": "a49c1b0f921e44b3f6aa67bb52da2a1ae3647368d92f775dc85fe638193a92c9"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/audit-and-export.mjs",
+      "sha256": "1d1647e457a72894c926db212816404b6ed038c6ff6a44e02c146548646254fc"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/baseline/brs4-fm2-pm4-ros-production-and-control.mdx",
+      "sha256": "feea14b7cc88b65a0e9dc3e6aa5767313b58ead65a6855620b76fceaa3fcb6c9"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/baseline/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+      "sha256": "7e3b930b289e5ab22844302df0c6188e043e20f8841c07c99f0ac233b91743de"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/baseline/manifest.json",
+      "sha256": "b1676351598af3d9dcb8d5ab322036d123aa9782213acbcd1af5fb37c8ff098a"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/bibliography-results.log",
+      "sha256": "9eaf170397d478dfbf4befc10b0239f276b8f89c5c580b96956b0d0b5b0c2243"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/biochemical-annotations.json",
+      "sha256": "cbf2acd9184e46b466291bc21a8440f5e04dc2ada8b2004970f3d58ad473e7ff"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/candidate-decisions.json",
+      "sha256": "913ff4e986b9a584dbee41f38e6f2c1267b9f21bdc4895a9bcb28d586adf01f9"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/compilation-results.json",
+      "sha256": "daac8830c72bd4024a97720d7f132aa1f48e950f3f00f7b9e974eacc58d4259c"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/cursor-repair-queue.json",
+      "sha256": "afba38ef73c419506c5d72543f29adbb419c8d4508048463758ffa7efc470f58"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/export.log",
+      "sha256": "e3649fbce2709f0e3850610c78cf104a4cafa12f5950e6e27d7c2b0a19ffe06f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/final-validation.log",
+      "sha256": "01fd70765b083771ef217e8de533162932785204008789f29450b5366ddf308f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/finish-validation.mjs",
+      "sha256": "9c95ff4b464994a480f7f7045043b4f6e01518ff7738589ecd89e1dda567dd3f"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/focused-regression-results.log",
+      "sha256": "6c2807973667b338198b3068d47bb93c27f7142ebe5d4839f064b42597a05813"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/food-targets.json",
+      "sha256": "5a9803d111e902b911c1b4b80ecc60bd5572187675e9c62a1a8f98a32118388d"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/governance-results.log",
+      "sha256": "79af3d63211012f8b8c1fdfdd162ea3052cb89f81a0663def36595efbc872d63"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/legacy-corpus-reconciliation.json",
+      "sha256": "6c2fe0b125227c1580e91655d973dd77bc0cf4736021a589347442d4560a6752"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/manuscript-dietary-rollup.csv",
+      "sha256": "dda576bebe9d6c8972ca30b9f880ade2bf5e2ac1e631b9b858a4d4c422fb98f7"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/manuscript-dietary-rollup.json",
+      "sha256": "9a43ff347d8a190a0897d13570de95686528ef319f08ae6f4dd55ce1ea167943"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/mapping-generation.log",
+      "sha256": "d9a8f21515bcf1c8111b514fd2cca29366c14b4b529a6f72e83bdaaa6677913b"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/preview.log",
+      "sha256": "1a6dca8f5e706161f1cc5f8945def4488ac3a448d85f9b4260e0f87bd0ff143e"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/regression-results.log",
+      "sha256": "13e97cc1938262f2a3f942707ec7585c88d40c73d9fa184ea6379ae3390d4dce"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/report.md",
+      "sha256": "927b1364cebc5b6b150f471f1a0592d5d2d8f794a978e6f8a1172ca1130c01b5"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/research-and-coverage.json",
+      "sha256": "2d69fcccf146ea433406b9c5265b77f8a805126abdde37cda9c38b533c80ceb0"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/retrieved-sources.json",
+      "sha256": "960bd9f8d8bad02cdd8fcf14e9c5aaa6663f262a1c97ab84a053e67f15b3ad16"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/review-corrections-export.json",
+      "sha256": "26ecee16ede301b71554a50d269cc935dfcd57fea2fb8624785447b9680041b0"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/review-surface.log",
+      "sha256": "92fd8b9af9333c17ef0ae77f5db63264fc9ec3755ed671b503cd2986b2c7f486"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/scientific-assessment.json",
+      "sha256": "ef2f9e417e6d77a62c9090ad0a40c1e056b02ca6bd8772726f6ac5affe16075a"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/source-index.json",
+      "sha256": "1826667513e1e9c257dcf5206c0aa1cdd5181828cc935004d5e50b7766908933"
+    },
+    {
+      "path": "review/brs4-pm4-pm5-2026-10-23/validation-results.json",
+      "sha256": "3586337d81a178315e2867e06b61776988adae0a7bdf4da94c1d5c091a371a86"
+    },
+    {
+      "path": "scripts/brs4-pm4-pm5-reassessment.test.mjs",
+      "sha256": "06211613f6ae1d93acca0857b526ce203162ac06ba4fb8e964fb513115653ed4"
+    },
+    {
+      "path": "system/framework-qc/framework-issues-register.json",
+      "sha256": "22d79797fbd86cf3e4bd5d6c9c313b54a0c181848fd75112e455f5564b519997"
+    }
+  ]
+}

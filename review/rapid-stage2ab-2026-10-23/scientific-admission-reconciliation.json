@@ -1,0 +1,1354 @@
+[
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Resistant starch",
+    "canonical_scientific_status": "admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Fructo-oligosaccharides / galacto-oligosaccharides (studied preparation)",
+    "canonical_scientific_status": "unresolved",
+    "rapid_status": "requires-review",
+    "rationale": "Historical mixture-specific Capacity admission requires review: limited anatomical observations and indirect/modelled results do not sufficiently establish the existing substrate-to-SCFA claim; no independent constituent or butyrate admission is made."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-3",
+    "input": "Pectin",
+    "canonical_scientific_status": "admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-4",
+    "input": "Acetate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-5",
+    "input": "Propionate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM5",
+    "atom_id": "PM5-DIT-6",
+    "input": "Butyrate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-1",
+    "input": "Glutamate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM4-PM9",
+    "atom_id": "PM9-DIT-3",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "5-Methyltetrahydrofolate",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Methylcobalamin",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Homocysteine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Vitamin E",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Iron",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Flavin mononucleotide (FMN)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Vitamin B2 (riboflavin)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Ubiquinone",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Copper",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-DIT-1",
+    "input": "DHA",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-DIT-2",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-KC1-FOLATE-SUPPLY",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM3-PM7",
+    "atom_id": "PM7-KC1-BETAINE-SUPPLY",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Phosphatidylcholine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-3",
+    "input": "Acetyl-CoA",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-4",
+    "input": "Vitamin B5 (pantothenate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM2-PM6",
+    "atom_id": "PM6-DIT-5",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Homocysteine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM2",
+    "atom_id": "PM2-DIT-4",
+    "input": "Zinc ion (Zn²⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "EPA",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS3-FM3-PM8",
+    "atom_id": "PM8-DIT-2",
+    "input": "DHA",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Creatine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Arginine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Glycine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM3",
+    "atom_id": "PM3-DIT-4",
+    "input": "Methionine-derived S-adenosylmethionine (SAM)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Nicotinamide (a form of vitamin B3)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Nicotinic acid (a form of vitamin B3)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS4-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Tryptophan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Sulforaphane",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Selenium",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Zinc",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Copper",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Manganese",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Glutathione",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Vitamin C",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS3-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Vitamin E",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Ellagic acid",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Ellagitannins",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "retained-for-manuscript",
+    "rationale": "See PM-specific source-to-claim adjudication."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "atom_id": "PM1-DIT-1",
+    "input": "N-acyl phosphatidylethanolamines (NAPEs)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "atom_id": "PM1-DIT-2",
+    "input": "Phosphatidylethanolamine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM1)",
+    "atom_id": "PM1-DIT-3",
+    "input": "Zinc ions (Zn²⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "atom_id": "PM2-DIT-1",
+    "input": "Docosahexaenoic acid (DHA)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "atom_id": "PM2-DIT-2",
+    "input": "Eicosapentaenoic acid (EPA)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM3)",
+    "atom_id": "PM3-DIT-1",
+    "input": "Anandamide (AEA)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(ECS-PM4)",
+    "atom_id": "PM4-DIT-1",
+    "input": "2-Arachidonoylglycerol (2-AG)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM2)",
+    "atom_id": "PM2-DIT-1",
+    "input": "Estrogen glucuronides",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "atom_id": "PM3-DIT-1",
+    "input": "3α,5α-Tetrahydrodeoxycorticosterone (THDOC)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM3)",
+    "atom_id": "PM3-DIT-2",
+    "input": "Molecular hydrogen (H₂)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM5)",
+    "atom_id": "PM5-DIT-1",
+    "input": "Zinc",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM6)",
+    "atom_id": "PM6-DIT-1",
+    "input": "Androgen glucuronides",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Indispensable amino-acid supply",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Tyrosine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Tryptophan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Tyrosine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Tryptophan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Meal carbohydrate-to-protein composition",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Iron",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-5",
+    "input": "Tyrosine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-DIT-4",
+    "input": "Tetrahydrobiopterin (BH4)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "BRS1-PM3-KC1-DONOR-1",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "BRS1-PM3-KC1-DONOR-2",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "BRS1-PM3-KC1-DONOR-3",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "atom_id": "PM3-KC1-PHENYLALANINE-SUPPLY",
+    "input": "Phenylalanine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Iron",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Copper",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Vitamin C (ascorbate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-KC1-TYROSINE-SUPPLY",
+    "input": "Tyrosine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "BRS1-PM4-KC1-DONOR-1",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "BRS1-PM4-KC1-DONOR-2",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "BRS1-PM4-KC1-DONOR-3",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "atom_id": "PM4-KC1-PHENYLALANINE-SUPPLY",
+    "input": "Phenylalanine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Tryptophan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-3",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-4",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-5",
+    "input": "Iron",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "atom_id": "PM5-DIT-6",
+    "input": "Tetrahydrobiopterin (BH4)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-1",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-2",
+    "input": "Uridine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "atom_id": "PM12-DIT-3",
+    "input": "Docosahexaenoic acid (DHA)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Methionine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "ATP",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-3",
+    "input": "Magnesium ions (Mg²⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-4",
+    "input": "Potassium ions (K⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-DIT-5",
+    "input": "Dietary protein",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-KC1-UPSTREAM-1",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-KC1-UPSTREAM-2",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "atom_id": "PM3-KC1-UPSTREAM-3",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Methionine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Dietary protein",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-4",
+    "input": "Vitamin B12 (cobalamin)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-5",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-6",
+    "input": "Vitamin B2 (riboflavin)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-KC1-SUPPLY-2",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-KC1-SUPPLY-3",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-1",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-2",
+    "input": "Vitamin B6",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-3",
+    "input": "Homocysteine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-4",
+    "input": "Serine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-DIT-5",
+    "input": "Cystathionine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "atom_id": "PM5-KC2-UPSTREAM-1",
+    "input": "Methionine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-1",
+    "input": "Cysteine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-2",
+    "input": "Glutamate",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-3",
+    "input": "Glycine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-4",
+    "input": "ATP",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-5",
+    "input": "Magnesium ions (Mg²⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-7",
+    "input": "N-acetylcysteine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "atom_id": "PM6-DIT-9",
+    "input": "Methionine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-1",
+    "input": "Phosphatidylethanolamine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-2",
+    "input": "S-adenosylmethionine (SAMe)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-3",
+    "input": "Choline",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-4",
+    "input": "Phosphatidylcholine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-5",
+    "input": "Vitamin B9 (folate)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-6",
+    "input": "Betaine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-7",
+    "input": "Uridine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-8",
+    "input": "Cytidine triphosphate (CTP)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-9",
+    "input": "Diacylglycerol (DAG)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "atom_id": "PM7-DIT-10",
+    "input": "Choline",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Magnesium ions (Mg²⁺)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "atom_id": "PM1-KC1-UPSTREAM-1",
+    "input": "Cysteine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "atom_id": "PM1-KC1-UPSTREAM-2",
+    "input": "Glycine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "atom_id": "PM2-KC1-UPSTREAM-1",
+    "input": "Cysteine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "atom_id": "PM2-KC1-UPSTREAM-2",
+    "input": "Glycine",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-1",
+    "input": "Butyrate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-2",
+    "input": "Fermentable dietary fibre",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-3",
+    "input": "Retinoic acid",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-4",
+    "input": "Vitamin A",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-5",
+    "input": "Zinc",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-6",
+    "input": "Glutamine",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-KC1-UPSTREAM-1",
+    "input": "FOS/GOS",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-KC1-UPSTREAM-2",
+    "input": "Pectin",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-KC1-UPSTREAM-3",
+    "input": "Resistant starch",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-1",
+    "input": "Oligofructose",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-2",
+    "input": "Type 2 resistant starch (tested aged-mouse exposure)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-3",
+    "input": "Fish-oil-containing meal (tested comparison)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-4",
+    "input": "Milk-fat physical structure (tested comparison)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-5",
+    "input": "Zinc",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "atom_id": "PM2-DIT-6",
+    "input": "Magnesium",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Oligofructose-enriched inulin",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM3",
+    "atom_id": "PM3-DIT-2",
+    "input": "Bifidobacterium longum NCC2705",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-1",
+    "input": "Pea-fibre arabinan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-2",
+    "input": "Citrus pectin",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-3",
+    "input": "Resistant starch (RS2/RS3)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-1",
+    "input": "Lactobacillus rhamnosus JB-1",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-2",
+    "input": "Glucose",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-3",
+    "input": "Glutamate",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "Tryptophan",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "atom_id": "PM8-DIT-2",
+    "input": "Apple pectin (studied preparation)",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "atom_id": "PM8-DIT-3",
+    "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+    "canonical_scientific_status": "not-a-dietary-admission",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "atom_id": "PM3-DIT-1",
+    "input": "Magnesium",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  },
+  {
+    "pm_id": "BRS6-FM4-PM8",
+    "atom_id": "PM8-DIT-1",
+    "input": "Green Mediterranean dietary pattern",
+    "canonical_scientific_status": "historical-admitted",
+    "rapid_status": "not-selected-unresolved-in-this-run",
+    "rationale": "No new scientific rejection or readmission. Relationship has not passed this run’s manuscript quality gate."
+  }
+]

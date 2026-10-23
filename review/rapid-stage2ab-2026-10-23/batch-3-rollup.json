@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "baseline": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "scope": "Rapid quality-gated manuscript abstraction, separate from historical mappings not reapproved by this run.",
+  "qualification": "Food composition supports delivery, not intervention equivalence. This is not a clinically validated BRAIN Diet or ADHD treatment.",
+  "records": [],
+  "practices": [
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-2",
+      "input": "Less-processed whole-grain food package (two-week trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "stage2-ref-aberg"
+        ]
+      },
+      "limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "wholegrain-processing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372063/",
+          "kind": "primary-human-crossover",
+          "proposition": "Less-processed whole-grain package reduced CGM excursions and variability relative to finely milled nutrient-matched grains.",
+          "limitation": "31 enrolled, 28 completed; two weeks; type 2 diabetes; combined oats/rice/bread package. Not an isolated fibre effect or brain outcome.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "The less-milled whole-grain package is the exposure; not a biochemical dietary requirement or equivalent to adding isolated fibre.",
+      "rollup_status": "Limited",
+      "batch": 3
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-3",
+      "input": "Early eating with front-loaded calories (six-day trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F6"
+        ],
+        "citation_keys": [
+          "stage2-ref-bruno",
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "early-eating",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39759025/",
+          "kind": "primary-human-crossover",
+          "proposition": "Six-day early eating with front-loaded calories reduced MAGE and hyperglycaemic exposure in ten adults with prediabetes.",
+          "limitation": "Timing, window and calorie distribution were combined. Inflammatory markers and OGTT did not improve; short trial does not establish universal timing benefits.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "early-eating-null",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804344/",
+          "kind": "primary-human-randomised-secondary-analysis",
+          "proposition": "Early time restriction added to calorie restriction did not improve average glucose or insulin-sensitivity measures over calorie restriction alone.",
+          "limitation": "Different 12-week protocol and overweight/obese population; incomplete CGM coverage. Retained as contrary context, not a second independent replication of Bruno.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Candidate early/front-loaded eating strategy in dysglycaemia; no universally optimal window or established brain/ADHD benefit. Longer trial with a different protocol was null.",
+      "rollup_status": "Limited",
+      "batch": 3
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-LIFE-2",
+      "input": "Supervised interval walking (two-week trial)",
+      "input_type": "physical activity",
+      "biological_role": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F7"
+        ],
+        "citation_keys": [
+          "stage2-ref-karstoft"
+        ]
+      },
+      "limitation": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.3",
+      "mechanistic_evidence": [
+        {
+          "id": "interval-walking",
+          "url": "https://pure-oai.bham.ac.uk/ws/files/37050575/Karstoft_et_al_The_effects_of_2_weeks_2016.pdf",
+          "kind": "primary-human-crossover",
+          "proposition": "Two weeks of supervised interval walking reduced CGM MAGE versus the control period in type 2 diabetes.",
+          "limitation": "14 participants, 13 usable CGM; mean glucose within-period inconclusive; oxidative stress unchanged. Not generic walking-dose or brain-effect evidence.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Tested supervised slow/fast treadmill programme; retain population, intensity and null oxidative-stress findings.",
+      "rollup_status": "Limited",
+      "batch": 3
+    },
+    {
+      "brs": "BRS-X(Circadian)",
+      "fm": "BRS-X(Circadian-FM1)",
+      "pm": "BRS-X(Circadian-FM1-PM2)",
+      "pm_mission": "Coordinate peripheral metabolic clock timing through feeding cues.",
+      "atom_id": "PM2-SOP-1",
+      "input": "Defined meal-timing schedule",
+      "input_type": "Defined timing protocol",
+      "biological_role": "Meal timing can shift peripheral glucose and adipose clock-gene rhythms while measured melatonin and cortisol timing remain unchanged.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F1"
+        ],
+        "citation_keys": [
+          "wehrens_meal_timing_2017"
+        ]
+      },
+      "limitation": "Five-hour meal delay in ten healthy men; PER2 shifted about one hour. No universal eating window, improved alignment or health benefit is established.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "feeding-phase",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28578930/",
+          "kind": "primary-human-laboratory",
+          "proposition": "A five-hour meal delay shifted glucose and adipose PER2 rhythms without shifting melatonin or cortisol rhythms.",
+          "limitation": "Ten healthy young men in ordered laboratory schedules; phase shifts are not proof of improved health or a prescription for an optimum clock time.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Meal timing can alter peripheral rhythm phase; the experiment does not establish health improvement, ideal eating times or central-clock resetting.",
+      "rollup_status": "Limited",
+      "batch": 3
+    }
+  ]
+}

@@ -1,0 +1,1958 @@
+[
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "almonds",
+    "food_title": "Almonds",
+    "food_material": "Nuts, almonds",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/almonds.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Nuts, almonds."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "avocado-oil",
+    "food_title": "Avocado Oil",
+    "food_material": "avocado oil",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/avocado-oil.md#substance_relationships/Vitamin%20E",
+        "evidence": "Green and Wang (2020), First report on quality and purity evaluations of avocado oil sold in the US",
+        "source_url": "https://doi.org/10.1016/j.foodcont.2020.107328",
+        "source_reference": "#food-source-4",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "Contains alpha-tocopherol (vitamin E); content varies with processing."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "Oil",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "avocado",
+    "food_title": "Avocado",
+    "food_material": "Avocados, raw, all commercial varieties",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/avocado.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
+        "source_reference": "#food-source-3",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Avocados, raw, all commercial varieties."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "butter",
+    "food_title": "Butter",
+    "food_material": "Butter, without salt",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/butter.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+        "source_reference": "#food-source-3",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Butter, without salt."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "duck-fat",
+    "food_title": "Duck Fat",
+    "food_material": "Rendered duck fat (Fat, duck)",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/duck-fat.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA National Nutrient Database, SR28 (2015), NDB 04574",
+        "source_url": "https://www.ars.usda.gov/ARSUserFiles/80400525/Data/SR/SR28/reports/sr28fg04.pdf",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA National Nutrient Database, SR28 (2015), NDB 04574 reports 2.7 mg vitamin E per 100 g edible portion in Rendered duck fat (Fat, duck)."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "egg-yolks",
+    "food_title": "Egg Yolks",
+    "food_material": "Egg, yolk, raw, fresh",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/egg-yolks.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172184/nutrients",
+        "source_reference": "#food-source-5",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Egg, yolk, raw, fresh."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "ghee",
+    "food_title": "Ghee",
+    "food_material": "Butter oil, anhydrous",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/ghee.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Butter oil, anhydrous."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "oil",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "nori",
+    "food_title": "Nori",
+    "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/nori.md#substance_relationships/Vitamin%20E",
+        "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004 reports 4.6 mg vitamin E per 100 g edible portion in Purple laver (Porphyra spp.), dried, toasted."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "peanuts",
+    "food_title": "Peanuts",
+    "food_material": "Peanuts, all types, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/peanuts.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Peanuts, all types, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "salmon-roe",
+    "food_title": "Salmon Roe",
+    "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/salmon-roe.md#substance_relationships/Vitamin%20E",
+        "evidence": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140 reports 9.1 mg vitamin E per 100 g edible portion in Chum salmon (Oncorhynchus keta), salted roe (ikura)."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "sunflower-seeds",
+    "food_title": "Sunflower Seeds",
+    "food_material": "Seeds, sunflower seed kernels, dried",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/sunflower-seeds.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports vitamin E in Seeds, sunflower seed kernels, dried."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Vitamin E",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "vitamin-e",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "wheat-germ",
+    "food_title": "Wheat Germ",
+    "food_material": "Cereals ready-to-eat, wheat germ, toasted, plain",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/wheat-germ.md#substance_relationships/Vitamin%20E",
+        "evidence": "USDA FoodData Central, Cereals ready-to-eat, wheat germ, toasted, plain (FDC 173896)",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173896/nutrients",
+        "source_reference": "#food-source-4",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "Vitamin E is documented in toasted wheat germ; content depends on preparation."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F1"
+      ],
+      "citation_keys": [
+        "brs4_rafique2001_20261023",
+        "brs4_azuma2022_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "almonds",
+    "food_title": "Almonds",
+    "food_material": "Nuts, almonds",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/almonds.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Nuts, almonds."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "beetroot",
+    "food_title": "Beetroot",
+    "food_material": "Beets, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/beetroot.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169145/nutrients",
+        "source_reference": "#food-source-3",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Beets, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "black-beans",
+    "food_title": "Black Beans",
+    "food_material": "Beans, black, mature seeds, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/black-beans.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173734/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Beans, black, mature seeds, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "black-tea",
+    "food_title": "Black Tea",
+    "food_material": "Beverages, tea, black, brewed, prepared with tap water",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/black-tea.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173227/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Beverages, tea, black, brewed, prepared with tap water."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "blueberries",
+    "food_title": "Blueberries",
+    "food_material": "Blueberries, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/blueberries.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171711/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Blueberries, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "broccoli",
+    "food_title": "Broccoli",
+    "food_material": "Broccoli, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/broccoli.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+        "source_reference": "#food-source-3",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Broccoli, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "cashews",
+    "food_title": "Cashews",
+    "food_material": "Nuts, cashew nuts, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/cashews.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Nuts, cashew nuts, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "chia-seeds",
+    "food_title": "Chia Seeds",
+    "food_material": "Seeds, chia seeds, dried",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/chia-seeds.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Seeds, chia seeds, dried."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "chickpeas",
+    "food_title": "Chickpeas",
+    "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/chickpeas.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/173756/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Chickpeas (garbanzo beans, bengal gram), mature seeds, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "flax-seeds",
+    "food_title": "Flax Seeds",
+    "food_material": "Seeds, flaxseed",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/flax-seeds.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Seeds, flaxseed."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "garlic",
+    "food_title": "Garlic",
+    "food_material": "Garlic, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/garlic.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/169230/nutrients",
+        "source_reference": "#food-source-4",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Garlic, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "green-tea",
+    "food_title": "Green Tea",
+    "food_material": "Beverages, tea, green, brewed, regular",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/green-tea.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/171917/nutrients",
+        "source_reference": "#food-source-6",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Beverages, tea, green, brewed, regular."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "kale",
+    "food_title": "Kale",
+    "food_material": "Kale, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/kale.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/168421/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Kale, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "peanuts",
+    "food_title": "Peanuts",
+    "food_material": "Peanuts, all types, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/peanuts.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Peanuts, all types, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "quinoa",
+    "food_title": "Quinoa",
+    "food_material": "Quinoa, uncooked",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/quinoa.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/168874/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Quinoa, uncooked."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "uncooked",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "sourdough-bread",
+    "food_title": "Sourdough Bread",
+    "food_material": "wheat sourdough breads",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/sourdough-bread.md#substance_relationships/Manganese",
+        "evidence": "Nutritional composition of bread as affected by ancient wheat flour and sourdough fermentation (2024)",
+        "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10997827/",
+        "source_reference": "#food-source-7",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_supported_amount_unavailable",
+        "limitations": "Present in wheat sourdough bread; content depends on flour and recipe."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "spinach",
+    "food_title": "Spinach",
+    "food_material": "Spinach, raw",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/spinach.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/168462/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Spinach, raw."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "sunflower-seeds",
+    "food_title": "Sunflower Seeds",
+    "food_material": "Seeds, sunflower seed kernels, dried",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/sunflower-seeds.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Seeds, sunflower seed kernels, dried."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "tempeh",
+    "food_title": "Tempeh",
+    "food_material": "Tempeh",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/tempeh.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+        "source_reference": "#food-source-6",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Tempeh."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "tofu",
+    "food_title": "Tofu",
+    "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/tofu.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+        "source_reference": "#food-source-5",
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Tofu, raw, firm, prepared with calcium sulfate."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "walnuts",
+    "food_title": "Walnuts",
+    "food_material": "Nuts, walnuts, english",
+    "material_equivalence_status": null,
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": null,
+    "reconciled_sources": [],
+    "mapping_status": "verified",
+    "food_evidence": [
+      {
+        "record": "docs/foods/walnuts.md#substance_relationships/Manganese",
+        "evidence": "USDA SR Legacy April 2018",
+        "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+        "source_reference": null,
+        "citation_keys": [],
+        "relationship_type": "contains",
+        "presence_status": "presence_and_amount_supported",
+        "limitations": "USDA FoodData Central reports manganese in Nuts, walnuts, english."
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": null
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "chicory-root",
+    "food_title": "Chicory Root",
+    "food_material": "Chicory roots, raw (Cichorium intybus)",
+    "material_equivalence_status": "not-applicable",
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": "missing-context-edge",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "nutrition_source": {
+          "database": "USDA SR Legacy, FDC 169993",
+          "food_name": "Chicory roots, raw (Cichorium intybus)",
+          "fdc_id": 169993,
+          "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+          "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+          "source_reference": "#food-source-3",
+          "last_checked": "2026-10-12"
+        },
+        "value": 0.233,
+        "unit": "mg",
+        "basis": "per 100 g edible portion; dietary fibre does not include inulin",
+        "source_url": "https://tools.myfooddata.com/nutrition-facts/169993/wt1",
+        "source_reference": "#food-source-3",
+        "material": "Chicory roots, raw (Cichorium intybus)",
+        "preparation": "raw",
+        "record": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+        "source_record": "docs/foods/chicory-root.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/chicory-root.md#nutrition_per_100g/manganese_mg",
+        "rank_eligible": true,
+        "comparison_group": "edible::raw",
+        "low": 0.233,
+        "high": 0.233,
+        "display": "0.233 mg"
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "raw",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": "chicory-root → manganese [Chicory roots, raw (Cichorium intybus); raw]"
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "nori",
+    "food_title": "Nori",
+    "food_material": "Purple laver (Porphyra spp.), dried, toasted",
+    "material_equivalence_status": "not-applicable",
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": "missing-context-edge",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "nutrition_source": {
+          "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+          "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+          "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+          "source_reference": "#food-source-3"
+        },
+        "value": 3.72,
+        "unit": "mg",
+        "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+        "source_reference": "#food-source-3",
+        "material": "Purple laver (Porphyra spp.), dried, toasted",
+        "preparation": "dried",
+        "record": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+        "source_record": "docs/foods/nori.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/nori.md#nutrition_per_100g/manganese_mg",
+        "rank_eligible": true,
+        "comparison_group": "dry::dried",
+        "low": 3.72,
+        "high": 3.72,
+        "display": "3.72 mg"
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": "dried",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": "nori → manganese [Purple laver (Porphyra spp.), dried, toasted; dried]"
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM2)",
+    "pm": "BRS4-FM2-PM5",
+    "biological_mechanism": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+    "dietary_input": "Manganese",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "manganese",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "salmon-roe",
+    "food_title": "Salmon Roe",
+    "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+    "material_equivalence_status": "not-applicable",
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": "missing-context-edge",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": [
+      {
+        "nutrition_source": {
+          "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+          "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "last_checked": "2026-10-12"
+        },
+        "value": 0.06,
+        "unit": "mg",
+        "basis": "per 100 g edible portion",
+        "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+        "source_reference": "#food-source-8",
+        "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+        "preparation": null,
+        "record": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+        "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+        "verified": true,
+        "id": "docs/foods/salmon-roe.md#nutrition_per_100g/manganese_mg",
+        "rank_eligible": false,
+        "comparison_group": null,
+        "low": 0.06,
+        "high": 0.06,
+        "display": "0.06 mg"
+      }
+    ],
+    "pm_evidence": {
+      "finding_ids": [
+        "PM5-F4"
+      ],
+      "citation_keys": [
+        "brs4_ganini2018_20261023",
+        "brs4_uniprot_p04179_20261023"
+      ]
+    },
+    "preparation": null,
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established."
+    ],
+    "missing_ontology_edge": "salmon-roe → manganese [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+  }
+]

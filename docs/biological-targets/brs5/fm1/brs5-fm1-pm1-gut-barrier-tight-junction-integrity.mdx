@@ -11,8 +11,9 @@ cofactors: []
 dietary_input_traceability:
   - atom_id: PM1-DIT-1
     dietary_input: null
-    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
-    dietary_input_flags: ["section-supply-contradiction"]
+    dietary_input_note: 'Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.'
+    dietary_input_flags:
+      - section-supply-contradiction
     input: Butyrate
     input_type: substrate
     biological_role: Microbially produced short-chain fatty acid that serves as a colonocyte energy substrate and directly promotes intestinal tight-junction assembly.
@@ -34,7 +35,7 @@ dietary_input_traceability:
     substance_id: butyrate
   - atom_id: PM1-DIT-2
     dietary_input: true
-    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Fermentable dietary fibre
     input_type: substrate provision
     biological_role: 'Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.'
@@ -56,8 +57,9 @@ dietary_input_traceability:
       projection_status: blocked
   - atom_id: PM1-DIT-3
     dietary_input: null
-    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
-    dietary_input_flags: ["section-supply-contradiction"]
+    dietary_input_note: 'Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution.'
+    dietary_input_flags:
+      - section-supply-contradiction
     input: Retinoic acid
     input_type: biochemical requirement
     biological_role: Active vitamin A metabolite involved in epithelial differentiation and permeability regulation; the direction of permeability change varies with experimental context.
@@ -81,7 +83,7 @@ dietary_input_traceability:
       projection_status: blocked
   - atom_id: PM1-DIT-4
     dietary_input: true
-    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Vitamin A
     input_type: precursor
     biological_role: Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.
@@ -103,7 +105,7 @@ dietary_input_traceability:
     substance_id: vitamin-a
   - atom_id: PM1-DIT-5
     dietary_input: true
-    dietary_input_note: "Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product."
+    dietary_input_note: 'Dietary applicability is already admitted in the Direct/Derived section. This does not establish ordinary-food equivalence, a quantitative requirement, extra-intake benefit or independent supply of a derived product.'
     input: Zinc
     input_type: biochemical requirement
     biological_role: Required cellular mineral for maintenance of occludin and claudin-3 expression and intestinal tight-junction integrity.
@@ -123,20 +125,23 @@ dietary_input_traceability:
       projection_status: draft-only
     substance_id: zinc
   - atom_id: PM1-DIT-6
-    dietary_input: null
-    dietary_input_note: "Direct-section admission conflicts with the accepted limitation excluding an established general oral/dietary lever. The microbial, active-metabolite or selected supplementation context is preserved; applicability requires resolution."
-    dietary_input_flags: ["section-supply-contradiction"]
+    dietary_input: true
+    dietary_input_note: '2026-10-23: previously Unset supply decision completed under the documented Capacity gate. Original atom and note are preserved in the immutable assessment baseline. Supplemental exposure is not ordinary-food efficacy.'
+    dietary_input_flags:
+      - section-supply-contradiction
     input: Glutamine
     input_type: substrate
     biological_role: 'Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.'
     evidence_source:
       finding_ids:
         - PM1-F6
+        - PM1-F11
       citation_keys:
         - rao_role_2012
         - abbasi_systematic_2024
         - zhou_glutamine_piibs_2019
-    evidence_limitation: 'Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need.'
+        - li_glutamine_junction_pi3k_2009
+    evidence_limitation: 'Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure.'
     canonical_identity:
       status: missing-substance
       severity: MAJOR
@@ -149,7 +154,7 @@ dietary_input_traceability:
       projection_status: blocked
   - atom_id: PM1-KC1-UPSTREAM-1
     dietary_input: true
-    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
+    dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
     input: FOS/GOS
     input_type: supported upstream supply
     biological_role: The tested FOS/GOS preparation supplies microbial fermentation substrates upstream of epithelial barrier biology.
@@ -170,7 +175,7 @@ dietary_input_traceability:
     relationship_type: supported-upstream-supply
   - atom_id: PM1-KC1-UPSTREAM-2
     dietary_input: true
-    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
+    dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
     input: Pectin
     input_type: supported upstream supply
     biological_role: Pectin provides microbial fermentation substrate that contributes short-chain fatty acids upstream of epithelial barrier biology.
@@ -191,7 +196,7 @@ dietary_input_traceability:
     relationship_type: supported-upstream-supply
   - atom_id: PM1-KC1-UPSTREAM-3
     dietary_input: true
-    dietary_input_note: "Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged."
+    dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
     input: Resistant starch
     input_type: supported upstream supply
     biological_role: Resistant starch supplies colonic microbes whose fermentation products contribute upstream to epithelial barrier biology.
@@ -300,7 +305,7 @@ dietary_lever_presentations:
 pm_kc_relationships:
   - relationship_id: PM1-KC1-SUPPLY
     dietary_input: false
-    dietary_input_note: "Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms."
+    dietary_input_note: 'Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.'
     kc_id: BRS5(KC1)
     ikc_id: BRS5(KC1)
     relationship_type: supported-upstream-supply
@@ -390,6 +395,7 @@ references:
   - '[Leclercq et al. (2014) — Intestinal permeability, gut-bacterial dysbiosis, and behavioral markers of alcohol-dependence severity](/docs/papers/BRAIN-Diet-References#leclercq_permeability_abstinence_2014)'
   - '[Zeng et al. (2008) — Clinical trial: effect of active lactic acid bacteria on mucosal barrier function in patients with diarrhoea-predominant irritable bowel syndrome](/docs/papers/BRAIN-Diet-References#zeng_fermented_milk_permeability_2008)'
   - '[Zaccaria et al. (2023) — Endogenous small intestinal microbiome determinants of transient colonisation efficiency by bacteria from fermented dairy products: a randomised controlled trial](/docs/papers/BRAIN-Diet-References#zaccaria_fermented_milk_permeability_2023)'
+  - '[Li et al. (2009) — Glutamine deprivation alters intestinal tight junctions via a PI3-K/Akt mediated pathway in Caco-2 cells.](/docs/papers/BRAIN-Diet-References#li_glutamine_junction_pi3k_2009)'
 hide_title: true
 phenome_relationships: []
 scientific_findings_intro: 'Butyrate and zinc experiments directly interrogate epithelial junction function. Retinoids influence differentiation and permeability, but their direction depends on the model. A selected postinfectious IBS trial found a glutamine response; heterogeneous supplementation evidence does not support a general regimen. Microbiota associations do not establish a barrier-to-cognition effect. [[4]](#pm-ref-4) [[1]](#pm-ref-1) [[5]](#pm-ref-5) [[2]](#pm-ref-2) [[6]](#pm-ref-6) Alcohol studies identify a context-specific barrier stressor and recovery relationship; carotenoid absorption supports upstream delivery, and fermented-milk findings remain preparation- and population-specific.'
@@ -788,6 +794,35 @@ scientific_findings:
           limitations: L. rhamnosus CNCM I-3690 or S. thermophilus CNCM I-1630 plus L. delbrueckii subsp. bulgaricus CNCM I-1519; different products and clinical context.
           retrieval_scope: Primary abstract retrieved; unextracted full methods not asserted.
     connected_supportive_evidence: []
+  - id: PM1-F11
+    finding_label: Glutamine status affects epithelial junction physiology in culture
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: 'Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.'
+    finding_summary: 'Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.'
+    finding_interpretation: Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.'
+    synthesis_limitations: Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.
+    evidence_considered:
+      - label: Li et al. (2009)
+        citation_key: li_glutamine_junction_pi3k_2009
+        href: /docs/papers/BRAIN-Diet-References#li_glutamine_junction_pi3k_2009
+        data_level: Mechanistic
+        exposure_context: Exogenous glutamine manipulation plus inhibition of endogenous glutamine synthesis.
+        evidence_source: bounded-external-search
+        directional_finding: 'Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.'
+        assessment:
+          study: Exogenous glutamine manipulation plus inhibition of endogenous glutamine synthesis.
+          population: Caco-2 monolayers; inhibitor and siRNA perturbations.
+          result: 'Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.'
+          effect_magnitude: Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.
+          evidence_summary: 'Transepithelial resistance, mannitol flux and junction-protein assays.'
+          limitations: Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.
+          retrieval_scope: 'Primary full text Abstract, Methods and Results retrieved.'
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/19211824/'
+    evidence_dependency:
+      - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
 list_image: /img/biological-targets/brs5-portrait-thumbnail.png
 pending_actions:
   - action_id: PM1-IDENTITY-2
@@ -1064,6 +1099,40 @@ practice_candidate_adjudications:
   - input: Daily consistency rather than gut resets
     disposition: unresolved
     remaining_gap: Defined consistency intervention and comparative barrier endpoint; no universal superiority established.
+dietary_input_assessments:
+  - atom_id: PM1-DIT-6
+    status: admitted
+    type: A
+    classification: direct
+    operation: Maintain epithelial tight junction integrity and selective permeability at the gut lining.
+    canonical_substance_id: glutamine
+    functional_dependency:
+      status: established
+      statement: Glutamine availability sustains epithelial junction-related cellular capacity; cell perturbations distinguish this from systemic inflammation.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/19211824/'
+        - 'https://pubmed.ncbi.nlm.nih.gov/30108163/'
+    dietary_supply:
+      status: established
+      statement: The existing randomised oral-glutamine trial establishes delivery of the same identified amino acid. Food composition and ordinary-food intervention equivalence remain unresolved.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/19211824/'
+        - 'https://pubmed.ncbi.nlm.nih.gov/30108163/'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md
+        - docs/foods
+        - system/food-target-research.json
+        - review/deferred-stage2ab-2026-10-23/food-research.json
+      targeted_searches:
+        - date: '2026-10-23'
+          query: 'Glutamine food composition, chemical form and preparation; distinguish tested formulation'
+          outcome: Combined Glx and total-protein tables cannot establish glutamine-specific food composition. No unsupported food source is added.
+    assessment_date: '2026-10-23'
+    assessment_limitations: 'Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose. Selected clinical population and supplemental free glutamine. Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established.'
+    review_source: system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM1-PM1
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -1233,6 +1302,8 @@ Butyrate and zinc experiments directly interrogate epithelial junction function.
 
 <ScientificFinding finding={{"id":"PM1-F10","finding_label":"Fermented-milk barrier findings depend on preparation and population","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"One small IBS-D trial reported lower small-bowel permeability during a four-week fermented-milk treatment; a different fermented-milk trial in ileostomy participants found no permeability change.","finding_interpretation":"One small IBS-D trial reported lower small-bowel permeability during a four-week fermented-milk treatment; a different fermented-milk trial in ileostomy participants found no permeability change.","finding_statement":"One small IBS-D trial reported lower small-bowel permeability during a four-week fermented-milk treatment; a different fermented-milk trial in ileostomy participants found no permeability change.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"One small IBS-D trial reported lower small-bowel permeability during a four-week fermented-milk treatment; a different fermented-milk trial in ileostomy participants found no permeability change.","synthesis_limitations":"Do not equate bacterial species with verified strains, copy a commercial preparation, or extend these results to all traditional fermented foods.","evidence_considered":[{"label":"Zeng et al. (2008)","citation_key":"zeng_fermented_milk_permeability_2008","href":"/docs/papers/BRAIN-Diet-References#zeng_fermented_milk_permeability_2008","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Lactulose:mannitol ratio fell from 0.038 to 0.023 during probiotic treatment (P = 0.004); colonic permeability did not improve.","assessment":{"study":"Clinical trial: effect of active lactic acid bacteria on mucosal barrier function in patients with diarrhoea-predominant irritable bowel syndrome","population":"30 IBS-D patients in a single-blind randomised four-week study.","result":"Lactulose:mannitol ratio fell from 0.038 to 0.023 during probiotic treatment (P = 0.004); colonic permeability did not improve.","effect_magnitude":"Lactulose:mannitol ratio fell from 0.038 to 0.023 during probiotic treatment (P = 0.004); colonic permeability did not improve.","evidence_summary":"Lactulose:mannitol ratio fell from 0.038 to 0.023 during probiotic treatment (P = 0.004); colonic permeability did not improve.","limitations":"Extracted comparison is within-group; between-arm effect size and precise strain/formulation details remain unverified.","retrieval_scope":"Primary abstract retrieved; unextracted full methods not asserted."},"canonical_reference":{"author_year":"Zeng et al. (2008)","number":20,"anchor":"#pm-ref-20"}},{"label":"Zaccaria et al. (2023)","citation_key":"zaccaria_fermented_milk_permeability_2023","href":"/docs/papers/BRAIN-Diet-References#zaccaria_fermented_milk_permeability_2023","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"No gastrointestinal permeability change after the tested fermented milks.","assessment":{"study":"Endogenous small intestinal microbiome determinants of transient colonisation efficiency by bacteria from fermented dairy products: a randomised controlled trial","population":"16 ileostomy participants; three two-week crossover periods.","result":"No gastrointestinal permeability change after the tested fermented milks.","effect_magnitude":"No gastrointestinal permeability change after the tested fermented milks.","evidence_summary":"No gastrointestinal permeability change after the tested fermented milks.","limitations":"L. rhamnosus CNCM I-3690 or S. thermophilus CNCM I-1630 plus L. delbrueckii subsp. bulgaricus CNCM I-1519; different products and clinical context.","retrieval_scope":"Primary abstract retrieved; unextracted full methods not asserted."},"canonical_reference":{"author_year":"Zaccaria et al. (2023)","number":21,"anchor":"#pm-ref-21"}}],"connected_supportive_evidence":[]}} />
 
+<ScientificFinding finding={{"id":"PM1-F11","finding_label":"Glutamine status affects epithelial junction physiology in culture","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.","finding_summary":"Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.","finding_interpretation":"Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.","synthesis_limitations":"Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.","evidence_considered":[{"label":"Li et al. (2009)","citation_key":"li_glutamine_junction_pi3k_2009","href":"/docs/papers/BRAIN-Diet-References#li_glutamine_junction_pi3k_2009","data_level":"Mechanistic","exposure_context":"Exogenous glutamine manipulation plus inhibition of endogenous glutamine synthesis.","evidence_source":"bounded-external-search","directional_finding":"Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.","assessment":{"study":"Exogenous glutamine manipulation plus inhibition of endogenous glutamine synthesis.","population":"Caco-2 monolayers; inhibitor and siRNA perturbations.","result":"Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Transepithelial resistance, mannitol flux and junction-protein assays.","limitations":"Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.","retrieval_scope":"Primary full text Abstract, Methods and Results retrieved.","source_url":"https://pubmed.ncbi.nlm.nih.gov/19211824/"},"canonical_reference":{"author_year":"Li et al. (2009)","number":22,"anchor":"#pm-ref-22"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
+
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
@@ -1286,6 +1357,23 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 
 No direct functional outcome relationship currently mapped.
 
+
+
+{/* deferred-stage2ab-2026-10-23 */}
+<details>
+<summary>Stage 2A/2B dietary-target assessment — 23 October 2026</summary>
+
+**ENRICHED.** Selective epithelial permeability and tight-junction maintenance.
+
+Resolve the previously Unset glutamine supply atom to Yes under Type A Capacity, with cell junction evidence and the existing clinical oral exposure separately documented. Preserve its original atom in the baseline/history. Food-specific glutamine composition remains unresolved: combined Glx is not glutamine. Flag inherited van Trijp/Pascale source-attribution concerns without rewriting old Findings or admissions.
+
+**New implementation:** 1 dietary-input admissions (1 completed Unset candidates), 0 practices, 0 biochemical participants, 1 unscored Findings. Existing accepted inputs, source assessments, mission, KCs, Phenome relationships and scores are retained.
+
+**Source-to-claim boundary:** [Assessment source](https://pubmed.ncbi.nlm.nih.gov/30108163/). Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval.
+
+</details>
+{/* /deferred-stage2ab-2026-10-23 */}
+
 ## 8. References
 
 - <span id="pm-ref-1">[1]</span> [Khailova et al. (2017) — Lactobacillus Rhamnosus GG Treatment Improves Intestinal Permeability and Modulates Inflammatory Response and](/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017)
@@ -1309,3 +1397,4 @@ No direct functional outcome relationship currently mapped.
 - <span id="pm-ref-19">[19]</span> [Leclercq et al. (2014) — Intestinal permeability, gut-bacterial dysbiosis, and behavioral markers of alcohol-dependence severity](/docs/papers/BRAIN-Diet-References#leclercq_permeability_abstinence_2014)
 - <span id="pm-ref-20">[20]</span> [Zeng et al. (2008) — Clinical trial: effect of active lactic acid bacteria on mucosal barrier function in patients with diarrhoea-predominant irritable bowel syndrome](/docs/papers/BRAIN-Diet-References#zeng_fermented_milk_permeability_2008)
 - <span id="pm-ref-21">[21]</span> [Zaccaria et al. (2023) — Endogenous small intestinal microbiome determinants of transient colonisation efficiency by bacteria from fermented dairy products: a randomised controlled trial](/docs/papers/BRAIN-Diet-References#zaccaria_fermented_milk_permeability_2023)
+- <span id="pm-ref-22">[22]</span> [Li et al. (2009) — Glutamine deprivation alters intestinal tight junctions via a PI3-K/Akt mediated pathway in Caco-2 cells.](/docs/papers/BRAIN-Diet-References#li_glutamine_junction_pi3k_2009)

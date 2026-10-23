@@ -1,0 +1,60 @@
+{
+  "registrySha256": "696a1f12f162efd6ed0ffd029e29fa1600c2b697f43624b027e9c7dd2b697f46",
+  "pages": [
+    {
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+      "pmId": "BRS6-FM4-PM8",
+      "frontMatterSha256": "ca841067ac28613d304a879de2798545784d305b511b935c6784ecf7ebf11e16",
+      "beforeSha256": "8c05ff5a809755e0734369877b1f182cec11381f1fa230018cc3043c0c956243",
+      "afterSha256": "3ecab7274c2b0d8418f297553df1eff0624f4951abe07e278d1a62d734e4dfb8",
+      "findings": [
+        {
+          "id": "PM8-F1",
+          "label": "Weight loss changes adipose biology in stages"
+        },
+        {
+          "id": "PM8-F2",
+          "label": "Blood-cell cytokines do not identify an adipose source"
+        },
+        {
+          "id": "PM8-F3",
+          "label": "A defined green Mediterranean pattern reduced visceral fat"
+        },
+        {
+          "id": "PM8-F4",
+          "label": "Walnut-specific visceral-fat effects remain uncertain"
+        },
+        {
+          "id": "PM8-F5",
+          "label": "Tea beverage results depend on formulation"
+        },
+        {
+          "id": "PM8-F6",
+          "label": "Marine omega-3 tissue effects vary with context"
+        },
+        {
+          "id": "PM8-F7",
+          "label": "Adipose stress includes immune and oxidative processes"
+        },
+        {
+          "id": "PM8-F8",
+          "label": "Magnesium is a research candidate with context-dependent adipose effects"
+        },
+        {
+          "id": "PM8-F9",
+          "label": "Exercise can remodel adipose tissue without weight loss"
+        },
+        {
+          "id": "PM8-F10",
+          "label": "Sleep restriction can promote visceral-fat accumulation"
+        },
+        {
+          "id": "PM8-F11",
+          "label": "Time-restricted eating has context-specific adipose findings"
+        }
+      ],
+      "originalLessons": [],
+      "changed": true
+    }
+  ]
+}

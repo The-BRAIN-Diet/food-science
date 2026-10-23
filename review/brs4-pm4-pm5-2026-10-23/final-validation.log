@@ -1,0 +1,52 @@
+{
+  date: '2026-10-23',
+  branch: 'codex/brs4-pm4-pm5-reassessment',
+  base_commit: 'd3570391e7a6e3de40c57af784683cd13bd2370a',
+  scope: 'PM4 and PM5 only; no commit/merge',
+  mechanism_pages: [
+    { pm: 'BRS4-FM2-PM4', ok: true, issues: [] },
+    { pm: 'BRS4-FM2-PM5', ok: true, issues: [] }
+  ],
+  scientific_findings: { checked: 64, issues: [] },
+  governance: { checked: 64, issues: [] },
+  rollup: {
+    before_target_rows: 0,
+    after_target_rows: 36,
+    verified: 33,
+    provisional: 3,
+    six_shards_match_combined: true,
+    unresolved_candidates_excluded: true
+  },
+  regressions: {
+    tests: 152,
+    pass: 150,
+    fail: 2,
+    remaining_failures: 'Pre-existing BRS1 PM1/PM9 section-title expectation mismatch; their pages and test are unchanged from HEAD.'
+  },
+  bibliography: {
+    new_entries_append_only: true,
+    preexisting_missing_keys: [
+      'baker_pea_adhd_1991',
+      'bergwerff_aaa_adhd_2016',
+      'kusaga_pea_methylphenidate_2002',
+      'scassellati_biomarkers_adhd_2012'
+    ]
+  },
+  preservation: {
+    names_ids_urls_phenomes_scores_and_kcs: 'Original canonical names/IDs/filenames and raw Phenome/cofactor/KC fields unchanged; original full pages retained with hashes.',
+    food_substance_registry_changes: [],
+    other_pm_changes: [],
+    neighbouring_brs3_changes: false
+  },
+  compilation: 'Both canonical MDX pages compile; Docusaurus development client compiled successfully with process-local 4 GiB heap. Full production build not run.',
+  browser: 'PM5 mission, five SF dropdowns, six atoms, specific warning above Input and verified/provisional food dropdowns checked; PM4 six-Finding heading checked.',
+  remaining_scientific_questions: [
+    'KC2 applicability retained as unresolved historical context',
+    'Reduced CoQ protective delivery and redox-form identity/conversion',
+    'Conditional GSH precursor/transport/local-use chain',
+    'Selenium mitochondrial-isoform supply attribution',
+    'Sulforaphane cell exposure versus dietary metabolite exposure',
+    'Human brain/ADHD translation and independent replication'
+  ],
+  verdict: 'PASS WITH LIMITATIONS'
+}

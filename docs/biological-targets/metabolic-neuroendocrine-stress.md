@@ -893,6 +893,12 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
+:::note[Future Architecture Review — Adipose Regulatory Functions]
+
+[PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling#scientific-scope--outstanding-architectural-review) remains under scientific development pending an integrated assessment of adipose lipid buffering, endocrine signalling and immune regulation. These interacting functions require clearer mechanistic boundaries, evidence attribution and brain-health relevance before canonical PM ownership can be established. They are research candidates, not approved mechanisms or additions to the active PM inventory.
+
+:::
+
 ## Proposed Primary Mechanisms
 
 ### Metabolic Challenge & Recovery Regulation

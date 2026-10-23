@@ -1,0 +1,288 @@
+
+> temp-docusaurus@0.0.0 prebuild
+> node scripts/check-dietary-input-governance.mjs && node scripts/check-sec-assessments.mjs && node scripts/generate-all-input-mappings.mjs
+
+{
+  "checked": 64,
+  "issues": []
+}
+SEC registry, immutable history and canonical references valid (69 snapshots).
+{
+  "dietary_input": {
+    "yes": 36,
+    "no": 9,
+    "unset": 5
+  },
+  "pms": 11,
+  "relationships": 50,
+  "accounting": {
+    "A": 19,
+    "B": 3,
+    "C": 14,
+    "D": 5,
+    "E": 9,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 14,
+  "unique_shared_pools": 2,
+  "food_source_materials": 927,
+  "quantified_observations": 896,
+  "qualitative_materials": 276,
+  "gaps": 18,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 32,
+    "no": 20,
+    "unset": 1
+  },
+  "pms": 7,
+  "relationships": 53,
+  "accounting": {
+    "A": 19,
+    "B": 3,
+    "C": 12,
+    "D": 5,
+    "E": 14,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 16,
+  "unique_shared_pools": 2,
+  "food_source_materials": 1026,
+  "quantified_observations": 983,
+  "qualitative_materials": 336,
+  "gaps": 25,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 12,
+    "no": 6,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 18,
+  "accounting": {
+    "A": 8,
+    "B": 0,
+    "C": 4,
+    "D": 2,
+    "E": 4,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 9,
+  "unique_shared_pools": 1,
+  "food_source_materials": 937,
+  "quantified_observations": 904,
+  "qualitative_materials": 281,
+  "gaps": 5,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 7,
+    "no": 5,
+    "unset": 0
+  },
+  "pms": 9,
+  "relationships": 12,
+  "accounting": {
+    "A": 7,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 5,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 7,
+  "unique_shared_pools": 0,
+  "food_source_materials": 421,
+  "quantified_observations": 407,
+  "qualitative_materials": 132,
+  "gaps": 13,
+  "conflicts": 0
+}
+{
+  "dietary_input": {
+    "yes": 24,
+    "no": 11,
+    "unset": 3
+  },
+  "pms": 8,
+  "relationships": 38,
+  "accounting": {
+    "A": 24,
+    "B": 0,
+    "C": 3,
+    "D": 4,
+    "E": 7,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 11,
+  "unique_shared_pools": 1,
+  "food_source_materials": 390,
+  "quantified_observations": 373,
+  "qualitative_materials": 126,
+  "gaps": 26,
+  "conflicts": 11
+}
+{
+  "dietary_input": {
+    "yes": 2,
+    "no": 0,
+    "unset": 0
+  },
+  "pms": 8,
+  "relationships": 2,
+  "accounting": {
+    "A": 2,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0,
+    "unresolved": 0
+  },
+  "unique_dietary_substances": 1,
+  "unique_shared_pools": 0,
+  "food_source_materials": 144,
+  "quantified_observations": 139,
+  "qualitative_materials": 49,
+  "gaps": 9,
+  "conflicts": 0
+}
+{
+  strategies: 29,
+  relationships: 30,
+  pms: 12,
+  brs: [ 'BRS1', 'BRS3', 'BRS4', 'BRS5', 'BRS6' ]
+}
+{"rollup_records":824,"repair_items":31,"reconciliation_records":84}
+
+> temp-docusaurus@0.0.0 build
+> DOCUSAURUS_GENERATED_FILES_DIR_NAME=.docusaurus-build docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+Processed BibTeX file: bibtex/BRAIN-diet.bib (1189 entries)
+Processed BibTeX file: bibtex/BRAIN-diet-sources.bib (80 entries)
+[WARNING] Tags [Beta-glucan] used in foods/barley.md are not defined in tags.yml
+[WARNING] Tags [Broccoli Sprouts, Glucoraphanin] used in foods/broccoli-sprouts.md are not defined in tags.yml
+[WARNING] Tags [Epicatechin, Catechin, Oligomeric Procyanidins] used in foods/cacao-nibs-raw.md are not defined in tags.yml
+[WARNING] Tags [Cacao Powder, Epicatechin, Catechin, Oligomeric Procyanidins] used in foods/cacao-powder.md are not defined in tags.yml
+[WARNING] Tags [Cheddar Cheese] used in foods/cheddar-cheese.md are not defined in tags.yml
+[WARNING] Tags [Epicatechin, Catechin, Oligomeric Procyanidins] used in foods/cocoa.md are not defined in tags.yml
+[WARNING] Tags [Epicatechin, Catechin, Oligomeric Procyanidins] used in foods/dark-chocolate.md are not defined in tags.yml
+[WARNING] Tags [Allicin] used in foods/garlic.md are not defined in tags.yml
+[WARNING] Tags [Greek Yogurt] used in foods/greek-yogurt.md are not defined in tags.yml
+[WARNING] Tags [Eriocitrin, Hesperidin] used in foods/lemon.md are not defined in tags.yml
+[WARNING] Tags [Lupin Beans, Folate] used in foods/lupin-beans.md are not defined in tags.yml
+[WARNING] Tags [Folate, Beta-glucan] used in foods/oats.md are not defined in tags.yml
+[WARNING] Tags [Carnosic acid, Carnosol] used in foods/rosemary.md are not defined in tags.yml
+[WARNING] Tags [Beta-carotene] used in foods/sweet-potatoes.md are not defined in tags.yml
+[WARNING] Tags [Thyme, Thymol, Carvacrol] used in foods/thyme.md are not defined in tags.yml
+[WARNING] Tags [Watermelon, Citrulline] used in foods/watermelon.md are not defined in tags.yml
+[WARNING] Tags [Greek Yogurt] used in recipes/Breakfast/Ginger Yogurt & Blueberry Bowl.md are not defined in tags.yml
+[WARNING] Tags [Greek Yogurt] used in recipes/Breakfast/Matcha-mito-smoothie.md are not defined in tags.yml
+[WARNING] Tags [Greek Yogurt] used in recipes/Dinner/black-bean-sweet-potato-chilli.md are not defined in tags.yml
+[WARNING] Tags [Broccoli Sprouts] used in recipes/Dinner/broccoli-potato-onion-soup.md are not defined in tags.yml
+[WARNING] Tags [Fermented, Gut-Brain Axis, Postbiotics, Hydration, Traditional Food, Low Alcohol, Brain Diet] used in recipes/Drinks/Sourdough-soda.md are not defined in tags.yml
+[WARNING] Tags [Roast] used in recipes/Side-dishes/Saffron-roast-potatoes.md are not defined in tags.yml
+[WARNING] Tags [Cacao Nibs (Raw)] used in recipes/Lunch/Salmon-salad.md are not defined in tags.yml
+[WARNING] Tags [N-acetylcysteine] used in substances/bioactive-compounds/n-acetylcysteine.md are not defined in tags.yml
+[WARNING] Tags [Nucleoside, Uridine] used in substances/bioactive-compounds/uridine.md are not defined in tags.yml
+[WARNING] Tags [Organosulfur, Allicin] used in substances/bioactive-compounds/organosulfur/allicin.md are not defined in tags.yml
+[WARNING] Tags [Organosulfur, Glucoraphanin, Broccoli Sprouts] used in substances/bioactive-compounds/organosulfur/glucoraphanin.md are not defined in tags.yml
+[WARNING] Tags [Organosulfur] used in substances/bioactive-compounds/organosulfur/sulforaphane.md are not defined in tags.yml
+[WARNING] Tags [Ellagitannins] used in substances/bioactive-compounds/polyphenols/ellagitannins.md are not defined in tags.yml
+[WARNING] Tags [Catechin] used in substances/bioactive-compounds/polyphenols/flavan-3-ols/catechin.md are not defined in tags.yml
+[WARNING] Tags [Epicatechin] used in substances/bioactive-compounds/polyphenols/flavan-3-ols/epicatechin.md are not defined in tags.yml
+[WARNING] Tags [Oligomeric Procyanidins] used in substances/bioactive-compounds/polyphenols/flavan-3-ols/oligomeric-procyanidins.md are not defined in tags.yml
+[WARNING] Tags [Flavanone, Eriocitrin] used in substances/bioactive-compounds/polyphenols/flavanones/eriocitrin.md are not defined in tags.yml
+[WARNING] Tags [Flavanone, Hesperidin] used in substances/bioactive-compounds/polyphenols/flavanones/hesperidin.md are not defined in tags.yml
+[WARNING] Tags [Ellagic acid] used in substances/bioactive-compounds/polyphenols/phenolic-acids/ellagic-acid.md are not defined in tags.yml
+[WARNING] Tags [Diterpene, Carnosic acid] used in substances/bioactive-compounds/terpenes/diterpenes/carnosic-acid.md are not defined in tags.yml
+[WARNING] Tags [Diterpene, Carnosol] used in substances/bioactive-compounds/terpenes/diterpenes/carnosol.md are not defined in tags.yml
+[WARNING] Tags [Carvacrol, Thyme] used in substances/bioactive-compounds/terpenes/monoterpenes/carvacrol.md are not defined in tags.yml
+[WARNING] Tags [Thymol, Thyme] used in substances/bioactive-compounds/terpenes/monoterpenes/thymol.md are not defined in tags.yml
+[WARNING] Tags [Glucose] used in substances/nutrients/macronutrients/carbohydrates/glucose.md are not defined in tags.yml
+[WARNING] Tags [5-Methyltetrahydrofolate] used in substances/nutrients/micronutrients/vitamins/5-methyltetrahydrofolate.md are not defined in tags.yml
+[WARNING] Tags [Pyridoxal 5′-phosphate] used in substances/nutrients/micronutrients/vitamins/pyridoxal-5-phosphate.md are not defined in tags.yml
+[WARNING] Tags [Folate] used in substances/nutrients/micronutrients/vitamins/vitamin-b9.md are not defined in tags.yml
+[WARNING] Tags [Arabinan] used in substances/nutrients/macronutrients/carbohydrates/dietary-fibre/arabinan.md are not defined in tags.yml
+[WARNING] Tags [Fructo-oligosaccharides / galacto-oligosaccharides] used in substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructo-galacto-oligosaccharides.md are not defined in tags.yml
+[WARNING] Tags [Pectin] used in substances/nutrients/macronutrients/carbohydrates/dietary-fibre/pectin.md are not defined in tags.yml
+[WARNING] Tags [Resistant starch] used in substances/nutrients/macronutrients/carbohydrates/dietary-fibre/resistant-starch.md are not defined in tags.yml
+[WARNING] Tags [Inulin] used in substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md are not defined in tags.yml
+[WARNING] Tags [Citrulline, Watermelon] used in substances/nutrients/macronutrients/amino-acids/conditionals/citrulline.md are not defined in tags.yml
+[WARNING] Tags [Glutamate] used in substances/nutrients/macronutrients/amino-acids/conditionals/glutamate.md are not defined in tags.yml
+[WARNING] Tags [Glutamine] used in substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md are not defined in tags.yml
+[WARNING] Tags [Serine] used in substances/nutrients/macronutrients/amino-acids/conditionals/serine.md are not defined in tags.yml
+Browserslist: browsers data (caniuse-lite) is 9 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[webpackbar] ℹ Compiling Client
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 3.02m
+
+<--- Last few GCs --->
+
+[18200:0x128008000]   478651 ms: Scavenge (reduce) 1982.6 (2030.0) -> 1982.2 (2030.0) MB, 47.42 / 0.00 ms  (average mu = 0.748, current mu = 0.790) allocation failure;
+[18200:0x128008000]   491613 ms: Mark-Compact (reduce) 2038.4 (2085.4) -> 2028.4 (2083.7) MB, 12384.04 / 0.00 ms  (average mu = 0.549, current mu = 0.266) allocation failure; scavenge might not succeed
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Reached heap limit Allocation failed - JavaScript heap out of memory
+----- Native stack trace -----
+
+ 1: 0x10266153c node::Abort() [/usr/local/bin/node]
+ 2: 0x10266173c node::ModifyCodeGenerationFromStrings(v8::Local<v8::Context>, v8::Local<v8::Value>, bool) [/usr/local/bin/node]
+ 3: 0x1027e66c4 v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, v8::OOMDetails const&) [/usr/local/bin/node]
+ 4: 0x1029badb8 v8::internal::Heap::GarbageCollectionReasonToString(v8::internal::GarbageCollectionReason) [/usr/local/bin/node]
+ 5: 0x1029b9894 v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]
+ 6: 0x1029b00ac v8::internal::HeapAllocator::AllocateRawWithLightRetrySlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]
+ 7: 0x1029b090c v8::internal::HeapAllocator::AllocateRawWithRetryOrFailSlowPath(int, v8::internal::AllocationType, v8::internal::AllocationOrigin, v8::internal::AllocationAlignment) [/usr/local/bin/node]
+ 8: 0x102995240 v8::internal::Factory::AllocateRaw(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/local/bin/node]
+ 9: 0x10298b9a4 v8::internal::MaybeHandle<v8::internal::SeqTwoByteString> v8::internal::FactoryBase<v8::internal::Factory>::NewRawStringWithMap<v8::internal::SeqTwoByteString>(int, v8::internal::Map, v8::internal::AllocationType) [/usr/local/bin/node]
+10: 0x102dc42a0 v8::internal::IncrementalStringBuilder::Extend() [/usr/local/bin/node]
+11: 0x102ac7b08 v8::internal::JsonStringifier::SerializeString(v8::internal::Handle<v8::internal::String>) [/usr/local/bin/node]
+12: 0x102accb5c v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<true>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+13: 0x102acadf4 v8::internal::JsonStringifier::Result v8::internal::JsonStringifier::Serialize_<false>(v8::internal::Handle<v8::internal::Object>, bool, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+14: 0x102ac4318 v8::internal::JsonStringifier::Stringify(v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+15: 0x102ac4230 v8::internal::JsonStringify(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>) [/usr/local/bin/node]
+16: 0x102874b04 v8::internal::Builtin_JsonStringify(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]
+17: 0x1030dcb24 Builtins_CEntry_Return1_ArgvOnStack_BuiltinExit [/usr/local/bin/node]
+18: 0x1030543e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+19: 0x1030543e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+20: 0x1030543e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+21: 0x1030f4b3c Builtins_ArrayForEach [/usr/local/bin/node]
+22: 0x1030543e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+23: 0x103137524 Builtins_PromiseConstructor [/usr/local/bin/node]
+24: 0x1030518fc Builtins_JSBuiltinsConstructStub [/usr/local/bin/node]
+25: 0x1031905cc Builtins_ConstructHandler [/usr/local/bin/node]
+26: 0x1030543e4 Builtins_InterpreterEntryTrampoline [/usr/local/bin/node]
+27: 0x1090b4858
+28: 0x10308b210 Builtins_AsyncFunctionAwaitResolveClosure [/usr/local/bin/node]
+29: 0x103138fb8 Builtins_PromiseFulfillReactionJob [/usr/local/bin/node]
+30: 0x10307ab94 Builtins_RunMicrotasks [/usr/local/bin/node]
+31: 0x1030523f4 Builtins_JSRunMicrotasksEntry [/usr/local/bin/node]
+32: 0x102928238 v8::internal::(anonymous namespace)::Invoke(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+33: 0x102928724 v8::internal::(anonymous namespace)::InvokeWithTryCatch(v8::internal::Isolate*, v8::internal::(anonymous namespace)::InvokeParams const&) [/usr/local/bin/node]
+34: 0x102928900 v8::internal::Execution::TryRunMicrotasks(v8::internal::Isolate*, v8::internal::MicrotaskQueue*) [/usr/local/bin/node]
+35: 0x10294facc v8::internal::MicrotaskQueue::RunMicrotasks(v8::internal::Isolate*) [/usr/local/bin/node]
+36: 0x102950268 v8::internal::MicrotaskQueue::PerformCheckpoint(v8::Isolate*) [/usr/local/bin/node]
+37: 0x102590c64 node::InternalCallbackScope::Close() [/usr/local/bin/node]
+38: 0x10259101c node::InternalMakeCallback(node::Environment*, v8::Local<v8::Object>, v8::Local<v8::Object>, v8::Local<v8::Function>, int, v8::Local<v8::Value>*, node::async_context) [/usr/local/bin/node]
+39: 0x1025a74b8 node::AsyncWrap::MakeCallback(v8::Local<v8::Function>, int, v8::Local<v8::Value>*) [/usr/local/bin/node]
+40: 0x102666fac node::fs::FSReqCallback::Resolve(v8::Local<v8::Value>) [/usr/local/bin/node]
+41: 0x1026678e8 node::fs::AfterStat(uv_fs_s*) [/usr/local/bin/node]
+42: 0x10265c488 node::MakeLibuvRequestCallback<uv_fs_s, void (*)(uv_fs_s*)>::Wrapper(uv_fs_s*) [/usr/local/bin/node]
+43: 0x10302e110 uv__work_done [/usr/local/bin/node]
+44: 0x103031b60 uv__async_io [/usr/local/bin/node]
+45: 0x103043c38 uv__io_poll [/usr/local/bin/node]
+46: 0x103032124 uv_run [/usr/local/bin/node]
+47: 0x102591754 node::SpinEventLoopInternal(node::Environment*) [/usr/local/bin/node]
+48: 0x1026a1b8c node::NodeMainInstance::Run(node::ExitCode*, node::Environment*) [/usr/local/bin/node]
+49: 0x1026a1928 node::NodeMainInstance::Run() [/usr/local/bin/node]
+50: 0x10262b6b8 node::Start(int, char**) [/usr/local/bin/node]
+51: 0x188308274 start [/usr/lib/dyld]

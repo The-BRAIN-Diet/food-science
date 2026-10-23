@@ -1,0 +1,18 @@
+[
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/bell2007.txt",
+    "sha256": "61e2a4e95251d5c19184bd25f322afe844f34c0637332470dd9d97df96b1c3c2"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/bell2007.xml",
+    "sha256": "1b00c1d36438171dcbf92d1006e1d696f9b6a8e45742ed994fc50d90ac975a47"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/oliveira-figure13.response.html",
+    "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea"
+  },
+  {
+    "path": "review/brs4-pm4-pm5-2026-10-23/sec-followup/sources/yamamoto1990.html",
+    "sha256": "77e8ff6790a2315bf13a4164866e25200e8fa79197ef9074b4993801790c5a0e"
+  }
+]

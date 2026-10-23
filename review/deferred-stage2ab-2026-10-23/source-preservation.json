@@ -1,0 +1,10 @@
+{
+  "original_checkout": "/Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/rapid-stage2ab",
+  "checked_files": 2589,
+  "changed_source_files": [],
+  "status_unchanged": true,
+  "head": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "integration_branch": "codex/deferred-stage2ab-enrichment",
+  "integration_head": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "no_commit_merge_or_push_performed": true
+}

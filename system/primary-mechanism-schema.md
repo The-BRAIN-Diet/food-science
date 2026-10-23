@@ -1,5 +1,7 @@
 # Primary Mechanism (PM) Schema
 
+**Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
+
 **Governing assessment instructions:** [Stage 2A — scientific assessment](scientific-finding-schema.md) and [Stage 2B — applicability and lever implementation](dietary-input-traceability-contract.md). This schema governs the whole PM page; it is not a substitute for either assessment stage.
 
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
@@ -425,9 +427,7 @@ that increasing intake increases mechanism activity.
 
 For nutritional capacity relationships, apply the B/D dependency-supply model:
 
-- **B — Biological dependency:** evidence establishes that the defined PM requires
-  the substrate, co-substrate, cofactor, catalytic ion or other biochemical
-  participant.
+- **B — Functional dependency:** an identifiable input supplies or sustains the biochemical capacity of the defined operation, directly or through a supported derived pathway.
 - **D — Dietary supply:** evidence establishes a dietary pathway that supplies or
   maintains that same supported dependency pathway.
 - **Capacity Dietary Requirement = B AND D.** The dietary input and biochemical

@@ -1,0 +1,329 @@
+{
+  "pm_id": "BRS3-FM3-PM8",
+  "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+  "mission": "Shift lipid mediator balance from pro-inflammatory eicosanoids toward pro-resolving signals that terminate inflammation.",
+  "stage2a": {
+    "operation": "Precursor substrate capacity retained; mediator formation and clinical termination of inflammation remain distinct. EPA/DHA are Direct to the owned biosynthetic operation, not direct food sources of SPMs.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM8-F1",
+        "proposition": "EPA and DHA are the fatty-acid substrates for resolvins and protectins. Those mediators support resolution of inflammation rather than only blocking it.",
+        "existing_source_assessments": [
+          {
+            "label": "Serhan and Petasis (2011)",
+            "citation_key": "serhan_resolvins_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011",
+            "data_level": "Mechanistic",
+            "exposure_context": "review of resolvin and protectin biosynthesis",
+            "evidence_source": "repository-inherited",
+            "directional_finding": "Resolvins and protectins are generated from EPA and DHA and act in resolution, distinct from inflammatory blockade.",
+            "assessment": {
+              "study": "Chemical review of resolvins and protectins.",
+              "population": "Biosynthetic and cell literature. No new human feeding trial.",
+              "result": "EPA and DHA are the precursors of these pro-resolving mediators.",
+              "effect_magnitude": "No intake amount is prescribed.",
+              "evidence_summary": "The substrates of this balance are EPA and DHA.",
+              "limitations": "Substrate identity is not a clinical resolution result."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Simopoulos (2011)",
+            "citation_key": "simopoulos_evolutionary_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011",
+            "data_level": "Mechanistic",
+            "why_relevant": "Reviews competition between omega-6 and omega-3 fatty acids in mediator pathways.",
+            "why_excluded": "An evolutionary ratio review is not the identification of resolvins and not a measurement of mediators after intake."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM8-F2",
+        "proposition": "Five days of 2.4 g a day of n-3 fatty acids raised selected pro-resolving mediators in healthy adults. Not every mediator rose, and aspirin added no further increase.",
+        "existing_source_assessments": [
+          {
+            "label": "Barden et al. (2014)",
+            "citation_key": "barden_short-term_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#barden_short-term_2014",
+            "data_level": "Human Mechanistic",
+            "exposure_context": "2.4 g/day n-3 fatty acids for 5–7 days",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "RvE1, 18-HEPE, 17-HDHA, and 14-HDHA rose. Other specialised pro-resolving mediators did not. Aspirin added no further rise.",
+            "assessment": {
+              "study": "Open supplementation of n-3 fatty acids for seven days, with random aspirin or placebo from day 5 to day 7.",
+              "population": "21 healthy volunteers.",
+              "result": "Selected E-series and pathway markers rose by day 5. MaR1 stayed below detection. Aspirin did not change the mediators.",
+              "effect_magnitude": "The paper reports a significant rise in RvE1, 18-HEPE, 17-HDHA, and 14-HDHA, and no rise in the other measured specialised pro-resolving mediators.",
+              "evidence_summary": "A short n-3 intake can raise some circulating pro-resolving mediators.",
+              "limitations": "This is not every mediator, not a disease population, and not proof that inflammation resolved."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "The human n-3 exposure changed selected mediator concentrations, with important null or undetected analytes. Concentrations, biosynthetic flux, inflammatory resolution and clinical brain outcomes are not interchangeable.",
+    "source_to_claim_records": [
+      {
+        "id": "spm-primary",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4617141/",
+        "kind": "primary-human-intervention",
+        "proposition": "Selected plasma n-3 pathway mediators changed during combined n-3 supplementation.",
+        "limitation": "Not all mediators increased; aspirin randomisation is distinct from uncontrolled pre/post n-3 exposure; no demonstrated clinical resolution or fish-meal equivalence.",
+        "retrieval": "Primary full text, Table 2 and design.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Serhan and Petasis (2011) — Resolvins and Protectins in Inflammation Resolution](/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011)",
+      "[Simopoulos (2011) — Omega-6/Omega-3 Ratio and the Brain](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)",
+      "[Ferguson et al. (2014) — Omega‐3 PUFA Supplementation and the Response to Evoked Endotoxemia in Healthy Volunteers](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)",
+      "[Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)",
+      "[Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)",
+      "[Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)",
+      "[Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)",
+      "[Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)",
+      "[Barden et al. (2014) — Short-term n-3 fatty acids and proresolving mediators](/docs/papers/BRAIN-Diet-References#barden_short-term_2014)"
+    ],
+    "preserved_phenome_source_records": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Specialized pro-resolving mediators actively terminate inflammation without suppressing immune surveillance — supporting cognitive clarity context through resolution-oriented lipid signalling.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Serhan & Petasis (2011)",
+            "citation_key": "serhan_resolvins_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011",
+            "data_level": "Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "data_level": "Human Study"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "relationship_type": "modulates",
+        "confidence": "low-medium",
+        "evidence_level": "mechanistic",
+        "rationale": "Omega-3-derived resolution biology may modulate affective inflammatory context when EPA/DHA substrate and omega-6:omega-3 balance are adequate over habitual intake.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "data_level": "Human Study"
+          },
+          {
+            "index": 2,
+            "label": "Simopoulos (2011)",
+            "citation_key": "simopoulos_evolutionary_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "relationship_type": "modulates",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "rationale": "Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Serhan & Petasis (2011)",
+            "citation_key": "serhan_resolvins_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#serhan_resolvins_2011",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low"
+      },
+      {
+        "target_phenome": "Apprehensive Worry / Perseverative Thought",
+        "relationship_type": "modulates",
+        "confidence": "medium",
+        "evidence_level": "intervention",
+        "rationale": "Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Slavich & Irwin (2014)",
+            "citation_key": "slavich_stress_inflammation_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014",
+            "data_level": "Human Mechanistic"
+          },
+          {
+            "index": 2,
+            "label": "Marsland et al. (2017)",
+            "citation_key": "marsland_systemic_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+            "data_level": "Human Mechanistic"
+          },
+          {
+            "index": 3,
+            "label": "Kiecolt-Glaser et al. (2011)",
+            "citation_key": "kiecolt-glaser_omega-3_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+            "data_level": "Human Outcome"
+          },
+          {
+            "index": 4,
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "data_level": "Human Study"
+          }
+        ],
+        "evidence_confidence": "medium"
+      },
+      {
+        "target_phenome": "Pleasure & Interest Capacity",
+        "relationship_type": "modulates",
+        "confidence": "low",
+        "evidence_level": "mechanistic",
+        "rationale": "Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.",
+        "references": [
+          {
+            "index": 1,
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "data_level": "Human Study"
+          },
+          {
+            "index": 2,
+            "label": "Gruber et al. (2023)",
+            "citation_key": "gruber_impact_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#gruber_impact_2023",
+            "data_level": "Mechanistic"
+          }
+        ],
+        "evidence_confidence": "low-medium"
+      }
+    ],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Keep both EPA and DHA substrate relationships. Dietary composition supports precursor supply; the supplement formulation and mediator response do not establish the same response from ordinary fish or prove clinical resolution.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS3-FM3-PM8",
+        "atom_id": "PM8-DIT-1",
+        "input": "EPA",
+        "section_presentations": [
+          {
+            "atom_id": "PM8-DIT-1",
+            "label": "EPA",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM8-DIT-1",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "dietary-provision",
+          "permitted_wording": "EPA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a resolvin-dosing or anti-inflammatory treatment rule.",
+          "evidence_limitation": "Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome."
+        },
+        "record_preserved": true,
+        "source_sha256": "ce65b233517bebe0f0368094e03297ce1d75e259a8eda20e432c0cfecd57d50f",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS3-FM3-PM8",
+        "atom_id": "PM8-DIT-2",
+        "input": "DHA",
+        "section_presentations": [
+          {
+            "atom_id": "PM8-DIT-2",
+            "label": "DHA",
+            "presentation_section": "3.1.1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM8-DIT-2",
+          "requirement_classification": "direct",
+          "relationship_layer": "dietary-requirement",
+          "dietary_addressability": "direct",
+          "claim_ceiling": "dietary-provision",
+          "permitted_wording": "DHA is a Direct substrate requirement for SPM synthesis. This is a provision relationship, not a protectin-dosing or anti-inflammatory treatment rule.",
+          "evidence_limitation": "Five days of 2.4 g a day in healthy adults raised some pro-resolving mediators, not every mediator, and not a disease-resolution outcome."
+        },
+        "record_preserved": true,
+        "source_sha256": "b33a0217a0f6160f54095cfe0048a1456a2e81b296a0f1928a7451fead570125",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 26,
+      "provisional": 0,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "623da407135b85990132c3792c5faf9783e9b83d8b527f679897692725f18837",
+    "original_counts": {
+      "dietary_input_traceability": 2,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 2,
+      "dietary_lever_presentations": 2,
+      "key_constraints": 0,
+      "cofactors": 0,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 9,
+      "phenome_relationships": 5,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

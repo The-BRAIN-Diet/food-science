@@ -50,7 +50,7 @@ const unpublishedDocExclude = [
 ];
 // SEC preview is absent from document loading unless explicitly opted in.
 const docsExclude = [
-  ...(process.env.SEC_CALIBRATION_PREVIEW === 'true' ? [] : ['**/system/sec-calibration/**']),
+  ...(process.env.NODE_ENV !== 'production' && process.env.SEC_CALIBRATION_PREVIEW === 'true' ? [] : ['**/system/sec-calibration/**']),
   ...(includeInternalDocs ? [] : unpublishedDocExclude),
   ...(includeWipRecipes ? [] : wipDocExclude),
   ...(includeInternalDocs ? [] : localOnlyDocExclude),
@@ -95,6 +95,7 @@ function localInternalDocsPlugin() {
       return {
         resolve: {
           alias: {
+            './framework-qc-public.fallback.json': generatedQcPath,
             [fallbackQcPath]: generatedQcPath,
           },
         },

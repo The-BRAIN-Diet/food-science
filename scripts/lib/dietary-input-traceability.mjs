@@ -1,3 +1,4 @@
+import {CONTROLLED_INPUT_TYPES} from '../../src/lib/dietaryInputGovernance.mjs';
 /**
  * PM Evidence layer — canonical six-atom dietary evidence relationships.
  * @see system/dietary-input-traceability-contract.md
@@ -8,7 +9,7 @@ import { buildPmReferenceKeyIndex, citationKeyFromPmReferenceLine } from "./pm-r
 import { SOP_CATEGORIES } from "../data/brs-hub-optimisation-levers.mjs";
 
 /** Recommended Input Types. Extensible when evidence requires a more precise type. */
-export const INPUT_TYPES = new Set([
+export const INPUT_TYPES = new Set([...CONTROLLED_INPUT_TYPES,
   "supported upstream supply",
   "substrate",
   "regulatory modulator",
@@ -85,7 +86,7 @@ export function validateDietaryInputTraceability(data, issues, { entityLabel }) 
           "dit_forbidden_input_type",
           `${label} input_type "${row.input_type}" is a catch-all; state the actual biological/nutritional role or flag for adjudication`,
         );
-      } else if (!INPUT_TYPES.has(String(row.input_type).trim())) {
+      } else if (!INPUT_TYPES.has(String(row.input_type).trim().toLowerCase())) {
         push(
           issues,
           "dit_unclassified_input_type",

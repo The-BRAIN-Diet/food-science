@@ -1,0 +1,142 @@
+[
+  {
+    "pm": "BRS4-FM3-PM6",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Carnitine \u2190 beef, lamb, red meat, cheese, kefir, dairy, meat-based foods",
+    "retained_in_panel": "legacy-dietary-review-pm6",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM6",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Cofactor support \u2190 dairy, whole grains, legumes, iron-rich foods",
+    "retained_in_panel": "legacy-dietary-review-pm6",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM6",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Mixed whole-food meals \u2190 broader metabolic-flexibility context",
+    "retained_in_panel": "legacy-dietary-review-pm6",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Lower-carbohydrate whole-food patterns \u2190 vegetables, protein-rich meals, nuts, legumes when metabolic context supports ketone production",
+    "retained_in_panel": "legacy-dietary-review-pm7",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Mixed macronutrient whole-food meals \u2190 broader substrate-flexibility context",
+    "retained_in_panel": "legacy-dietary-review-pm7",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Adequate protein intake \u2190 amino-acid substrate support within varied fuel patterns",
+    "retained_in_panel": "legacy-dietary-review-pm7",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Whole-food dietary patterns \u2190 vegetables, legumes, nuts, seeds, minimally processed staples",
+    "retained_in_panel": "legacy-dietary-review-pm8",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Mixed macronutrient meals \u2190 balanced protein, carbohydrate, and healthy fat combinations",
+    "retained_in_panel": "legacy-dietary-review-pm8",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Fibre-rich foods \u2190 vegetables, legumes, whole grains, fruit",
+    "retained_in_panel": "legacy-dietary-review-pm8",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Protein-rich foods \u2190 fish, poultry, eggs, dairy, legumes",
+    "retained_in_panel": "legacy-dietary-review-pm8",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "source_file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Healthy fat sources \u2190 oily fish, olive oil, nuts, seeds, avocado",
+    "retained_in_panel": "legacy-dietary-review-pm8",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "source_file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- NAD\u207a-supportive nutrition \u2190 niacin-rich foods and protein-rich whole foods",
+    "retained_in_panel": "legacy-dietary-review-pm9",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "source_file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Micronutrient support \u2190 whole grains, legumes, leafy greens, animal foods",
+    "retained_in_panel": "legacy-dietary-review-pm9",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "source_file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "original_section": "3.1.1",
+    "original_statement": "- Polyphenol-rich foods \u2190 berries, tea, extra virgin olive oil",
+    "retained_in_panel": "legacy-dietary-review-pm9",
+    "prior_structured_admission": "not recorded",
+    "decision_changed": false,
+    "requires_scientific_review": true
+  }
+]

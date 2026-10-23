@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-24",
+  "focused_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "broader_sec_suite": {
+    "passed": 42,
+    "failed": 2,
+    "existing_failures": [
+      "legacy Finding evidence HTML fixture mismatch",
+      "obsolete prebuild prefix expectation"
+    ],
+    "prechange_registry_reproduction": "Both failures reproduced using registry-before.json; test, component and package.json unchanged from HEAD."
+  },
+  "finding_consistency": {
+    "checked": 64,
+    "issues": 0
+  },
+  "sec_registry": {
+    "snapshots": 80,
+    "valid": true,
+    "previous_snapshots_unchanged": true
+  },
+  "assessments": {
+    "codex_provisional": 7,
+    "not_scored_with_specific_gaps": 4,
+    "scientifically_reviewed": 0
+  },
+  "compilation": "Both canonical MDX pages compile; Docusaurus development client compiled successfully.",
+  "production_build": "Not run for this bounded SEC pass.",
+  "preservation": "All canonical frontmatter except explicit SEC pointers compares identically to pre-pass snapshots; all old score entries preserved. No food-target regeneration or admission changes.",
+  "commit": "Not committed or merged."
+}

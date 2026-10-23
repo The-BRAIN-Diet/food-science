@@ -1,5 +1,8 @@
 import React, { useEffect, useRef } from "react"
 import { initBrsFmHubDropdowns } from "../client/brsFmHubDropdown"
+import {SecAssessmentSummary} from "./SecAssessment"
+import {findingReaderLabel,findingInterventionLinks} from "../lib/scientificFindingPresentation.mjs"
+import {useDoc} from '@docusaurus/plugin-content-docs/client'
 
 /**
  * Canonical Scientific Finding renderer — audience-layered presentation.
@@ -57,6 +60,7 @@ export type ScientificFindingData = {
   finding_interpretation?: string
   finding_discriminator?: string
   synthesised_evidence_confidence: string
+  sec_assessment_ref?: {id:string;version:number;sha256:string}
   synthesis: string
   synthesis_limitations: string
   evidence_considered: EvidenceConsideredItem[]
@@ -127,7 +131,7 @@ function formatSec(value: string): string {
 }
 
 function readerTitle(finding: ScientificFindingData): string {
-  return String(finding.finding_label || "").trim() || finding.id
+  return findingReaderLabel(finding)
 }
 
 function Citation({
@@ -232,10 +236,14 @@ function HubDisclosure({
 
 export default function ScientificFinding({
   finding,
+  pmId,
 }: {
   finding: ScientificFindingData
+  pmId?: string
 }): React.JSX.Element {
   const rootRef = useRef<HTMLElement>(null)
+  const {frontMatter} = useDoc()
+  const interventionLinks = findingInterventionLinks(frontMatter, finding.id)
   const connected = finding.connected_supportive_evidence || []
   const dependency = finding.evidence_dependency || []
   const informs = finding.informs || []
@@ -263,7 +271,9 @@ export default function ScientificFinding({
             <span className="brs-fm-hub-chevron" aria-hidden="true" />
             <strong>{title}</strong>
           </button>
+          {finding.sec_assessment_ref !== undefined && <p className="brain-sf-confidence-compact"><SecAssessmentSummary finding={finding} pmId={pmId}/></p>}
           <div className="brs-fm-hub-panel" hidden>
+            {interventionLinks.map(link=><p key={link.id} data-intervention-id={link.id}>Supports {link.kind}: <a href={link.href}>{link.label}</a></p>)}
             {summary ? (
               <p className="brain-sf-lead">{renderTextWithPmCites(summary, finding)}</p>
             ) : null}
@@ -279,7 +289,7 @@ export default function ScientificFinding({
 
             <p className="brain-sf-confidence-compact">
               <strong>Evidence confidence:</strong>{" "}
-              <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>
+              {finding.sec_assessment_ref !== undefined ? <SecAssessmentSummary finding={finding} pmId={pmId}/> : <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>}
             </p>
 
             <HubDisclosure label="Explore the evidence">
@@ -299,7 +309,7 @@ export default function ScientificFinding({
 
               <p className="brain-sf-field">
                 <strong>Synthesised Evidence Confidence:</strong>{" "}
-                <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>
+                {finding.sec_assessment_ref !== undefined ? <SecAssessmentSummary finding={finding} pmId={pmId}/> : <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>}
               </p>
 
               <p className="brain-sf-field">

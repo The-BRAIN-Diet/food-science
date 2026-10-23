@@ -1,0 +1,216 @@
+[
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "atom_id": "PM4-DIT-DEFERRED-1",
+    "input": "Glycine",
+    "substance_id": "glycine",
+    "type": "A",
+    "classification": "direct",
+    "prior_status": "absent",
+    "assessment": {
+      "atom_id": "PM4-DIT-DEFERRED-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "canonical_substance_id": "glycine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Glycine is the acceptor substrate of glycine N-methyltransferase, which consumes SAM and forms SAH and sarcosine during methyl-group handling.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/15340920/",
+          "https://pubmed.ncbi.nlm.nih.gov/16779654/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Individual glycine composition in foods supports dietary supply of the same amino-acid substrate; no amount or increased flux is inferred.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/15340920/",
+          "https://pubmed.ncbi.nlm.nih.gov/16779654/",
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md",
+          "docs/foods",
+          "system/food-target-research.json",
+          "review/deferred-stage2ab-2026-10-23/food-research.json"
+        ],
+        "targeted_searches": [
+          {
+            "date": "2026-10-23",
+            "query": "Glycine food composition, chemical form and preparation; distinguish tested formulation",
+            "outcome": "Authoritative FAO individual-amino-acid composition supports qualitative meat sources; no quantity or increased methylation inferred."
+          }
+        ]
+      },
+      "assessment_date": "2026-10-23",
+      "assessment_limitations": "Endogenous glycine synthesis and other methyltransferases also contribute. Enzyme loss is not glycine deficiency; extra dietary glycine has not been established to normalise whole-cycle or brain methylation.",
+      "review_source": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS2-FM1-PM4"
+    }
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "atom_id": "PM1-DIT-6",
+    "input": "Glutamine",
+    "substance_id": "glutamine",
+    "type": "A",
+    "classification": "direct",
+    "prior_status": "unset-candidate",
+    "assessment": {
+      "atom_id": "PM1-DIT-6",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "canonical_substance_id": "glutamine",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Glutamine availability sustains epithelial junction-related cellular capacity; cell perturbations distinguish this from systemic inflammation.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/19211824/",
+          "https://pubmed.ncbi.nlm.nih.gov/30108163/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "The existing randomised oral-glutamine trial establishes delivery of the same identified amino acid. Food composition and ordinary-food intervention equivalence remain unresolved.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/19211824/",
+          "https://pubmed.ncbi.nlm.nih.gov/30108163/"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/amino-acids/conditionals/glutamine.md",
+          "docs/foods",
+          "system/food-target-research.json",
+          "review/deferred-stage2ab-2026-10-23/food-research.json"
+        ],
+        "targeted_searches": [
+          {
+            "date": "2026-10-23",
+            "query": "Glutamine food composition, chemical form and preparation; distinguish tested formulation",
+            "outcome": "Combined Glx and total-protein tables cannot establish glutamine-specific food composition. No unsupported food source is added."
+          }
+        ]
+      },
+      "assessment_date": "2026-10-23",
+      "assessment_limitations": "Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose. Selected clinical population and supplemental free glutamine. Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established.",
+      "review_source": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM1-PM1"
+    }
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "atom_id": "PM4-DIT-DEFERRED-1",
+    "input": "Inulin",
+    "substance_id": "inulin",
+    "type": "A",
+    "classification": "direct",
+    "prior_status": "absent",
+    "assessment": {
+      "atom_id": "PM4-DIT-DEFERRED-1",
+      "status": "admitted",
+      "type": "A",
+      "classification": "direct",
+      "operation": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "canonical_substance_id": "inulin",
+      "functional_dependency": {
+        "status": "established",
+        "statement": "Inulin supplies beta-(2,1)-linked fructan substrate to microbes with the corresponding utilisation machinery, supporting this glycan-processing capacity.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/20603004/",
+          "https://pubmed.ncbi.nlm.nih.gov/33369019/"
+        ]
+      },
+      "dietary_supply": {
+        "status": "established",
+        "statement": "Oral long-chain inulin is a tested dietary exposure. Primary plant chain-length measurements independently support qualitative inulin source research; vegetable consumption has not been shown equivalent to the purified intervention.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/20603004/",
+          "https://pubmed.ncbi.nlm.nih.gov/33369019/",
+          "https://pubmed.ncbi.nlm.nih.gov/28298683/",
+          "https://www.mdpi.com/2073-4395/12/11/2816"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/carbohydrates/dietary-fibre/fructans/inulin.md",
+          "docs/foods",
+          "system/food-target-research.json",
+          "review/deferred-stage2ab-2026-10-23/food-research.json"
+        ],
+        "targeted_searches": [
+          {
+            "date": "2026-10-23",
+            "query": "Inulin food composition, chemical form and preparation; distinguish tested formulation",
+            "outcome": "Primary chain-length measurements support preparation-qualified chicory-root/Jerusalem-artichoke candidates. Generic fructan labels do not establish long-chain inulin."
+          }
+        ]
+      },
+      "assessment_date": "2026-10-23",
+      "assessment_limitations": "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+      "review_source": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM2-PM4"
+    }
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "atom_id": "PM7-DIT-DEFERRED-1",
+    "input": "Linoleic acid",
+    "substance_id": "linoleic-acid",
+    "type": "B",
+    "classification": "direct",
+    "prior_status": "absent",
+    "assessment": {
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "status": "admitted",
+      "type": "B",
+      "classification": "direct",
+      "operation": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "canonical_substance_id": "linoleic-acid",
+      "mechanism_engagement": {
+        "status": "established",
+        "statement": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/36070796/"
+        ]
+      },
+      "dietary_exposure": {
+        "status": "established",
+        "statement": "The identified fatty acid is present in verified food-composition records and reaches intestinal sensing through lipid digestion. The direct classification concerns the fatty-acid sensing input, not a downstream metabolite or a claim that ordinary meals reproduce the 10% experimental exposure.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "https://fdc.nal.usda.gov/food-details/170567/nutrients"
+        ]
+      },
+      "food_target_research": {
+        "completed": true,
+        "sources_examined": [
+          "registry/substances.json",
+          "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid.md",
+          "docs/foods",
+          "system/food-target-research.json",
+          "review/deferred-stage2ab-2026-10-23/food-research.json"
+        ],
+        "targeted_searches": [
+          {
+            "date": "2026-10-23",
+            "query": "Linoleic acid food composition, chemical form and preparation; distinguish tested formulation",
+            "outcome": "Retrieve existing structured linoleic-acid edges; free fatty-acid stimulus differs from esterified fatty acids in foods."
+          }
+        ]
+      },
+      "assessment_date": "2026-10-23",
+      "assessment_limitations": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "review_source": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM3-PM7"
+    }
+  }
+]

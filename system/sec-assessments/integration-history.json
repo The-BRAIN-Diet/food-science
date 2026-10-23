@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "date": "2026-10-18",
+  "approval": "User: Scientific Approval: Three-PM V1 Integration",
+  "baseline": "98f7294088f1475c101cb0ff01ae11dc74d4af51",
+  "archives": [
+    {
+      "pmId": "BRS1-FM4-PM9",
+      "path": "system/sec-assessments/history/gaba-before-v1.mdx",
+      "sha256": "e11e2ddbfb1c45702232b869e31cbb847f759e95504bcb734fcdc21fea141dd4"
+    },
+    {
+      "pmId": "BRS6-FM1-PM2",
+      "path": "system/sec-assessments/history/glycaemic-variability-before-v1.mdx",
+      "sha256": "b04167e2a66985b0ebe05472a0d06879847cdc98749054c6e21b96dd7cb71bd4"
+    },
+    {
+      "pmId": "BRS2-FM1-PM3",
+      "path": "system/sec-assessments/history/same-synthesis-before-v1.mdx",
+      "sha256": "f0705b91335f890b46f1c9794e39360a35c2bcaee4fc3b6a96a58ddcbb33bc28"
+    }
+  ],
+  "registrations": [
+    {
+      "pmId": "BRS6-FM1-PM2",
+      "atomId": "PM2-SOP-2",
+      "foodStrategyId": "food-strategy-485ec8fa28a2",
+      "sourceFinding": "PM2-F5",
+      "input": "Less-processed whole-grain food package (two-week trial)"
+    },
+    {
+      "pmId": "BRS6-FM1-PM2",
+      "atomId": "PM2-SOP-3",
+      "foodStrategyId": "food-strategy-e67a5bf54b65",
+      "sourceFinding": "PM2-F6",
+      "input": "Early eating with front-loaded calories (six-day trial)"
+    },
+    {
+      "pmId": "BRS6-FM1-PM2",
+      "atomId": "PM2-LIFE-2",
+      "foodStrategyId": null,
+      "sourceFinding": "PM2-F7",
+      "input": "Supervised interval walking (two-week trial)"
+    },
+    {
+      "pmId": "BRS6-FM1-PM2",
+      "atomId": "PM2-LIFE-3",
+      "foodStrategyId": null,
+      "sourceFinding": "PM2-F8",
+      "input": "Four brief vigorous activity bouts daily (48-hour trial)"
+    }
+  ],
+  "retiredRelationships": [
+    {
+      "id": "BRS6-FM1-PM2::PM2-SOP-1",
+      "food_strategy_id": "food-strategy-053016fdaaca",
+      "preserved": "BRS6-FM1-PM1::PM1-SOP-2",
+      "reason": "Retained acute scientific evidence, not selected leading PM2 SOP"
+    }
+  ]
+}

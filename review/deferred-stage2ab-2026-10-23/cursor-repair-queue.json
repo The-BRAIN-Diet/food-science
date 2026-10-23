@@ -1,0 +1,1712 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "source_entity": "beef",
+      "target_entity": "tryptophan",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "tryptophan"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains tryptophan (Cut/cooking unspecified; qualitative composition only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "iron",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "iron"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 11,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/iron_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 11,
+            "high": 11,
+            "display": "11 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "Nori → Iron [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "BRS1-FM1-PM1::PM1-DIT-1",
+      "target_entity": "Indispensable amino-acid supply",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "mariotti_dietary_2019",
+            "moughan_diaas_2024"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "BRS1-FM1-PM1::PM1-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b6",
+      "target_entity": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b6",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM4-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM5-F2"
+          ],
+          "citation_keys": [
+            "kennedy_b_2016",
+            "spector_vitamin_1978"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM5-F1",
+            "PM5-IC1",
+            "PM5-F5"
+          ],
+          "citation_keys": [
+            "disalvo_plp_availability_2012",
+            "belew_cbs_kinetics_2009",
+            "zhu_cgl_kinetics_2008",
+            "lamers_vitamin_b6_methionine_cycle_2011"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM3",
+        "BRS1-FM1-PM4",
+        "BRS1-FM1-PM5",
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "Vitamin B6 → Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "phosphatidylcholine",
+      "target_entity": "Choline",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "phosphatidylcholine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F4"
+          ],
+          "citation_keys": [
+            "bockmann_choline_supplements_2023"
+          ]
+        },
+        {
+          "finding_ids": [
+            "PM7-F7"
+          ],
+          "citation_keys": [
+            "bockmann_choline_supplements_2023"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM2-PM6",
+        "BRS2-FM3-PM7"
+      ],
+      "missing_edge": "Phosphatidylcholine → Choline: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b6",
+      "target_entity": "PLP",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b6",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM9-F1",
+            "PM9-F2"
+          ],
+          "citation_keys": [
+            "martin_regulation_1993",
+            "lee_human_2000",
+            "tang_crystal_2005",
+            "navarro_catalytic_2013"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM4-PM9"
+      ],
+      "missing_edge": "Vitamin B6 → PLP: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "kale",
+      "target_entity": "5-methyltetrahydrofolate",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "kale",
+        "substance": "5-methyltetrahydrofolate"
+      },
+      "candidate_food": "Kale",
+      "material": "Raw kale, Brazilian folate-retention study",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 67.02,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "raw",
+            "evidence_material": "Raw kale, Brazilian folate-retention study",
+            "source_url": "https://www.alanrevista.org/storage/articles/1411/art-8.pdf",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "range": null,
+            "material": "Raw kale, Brazilian folate-retention study",
+            "preparation": "raw",
+            "record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "source_record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "verified": true,
+            "nutrition_value_reviews": [],
+            "limitations": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "id": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.06702,
+            "high": 0.06702,
+            "display": "67.02 µg"
+          },
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 67.02,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "raw",
+            "evidence_material": "Raw kale, Brazilian folate-retention study",
+            "source_url": "https://www.alanrevista.org/storage/articles/1411/art-8.pdf",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "record": "docs/foods/kale.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "evidence": "Table 1 reports 67.02 ± 41.63 µg/100 g fresh matter for 5-MTHF. Preserve the reported variability separately; it is not a min–max range. Do not combine this sample with the 2010 measurement.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/kale.md#substance_relationships: contains 5-methyltetrahydrofolate (raw)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "spinach",
+      "target_entity": "5-methyltetrahydrofolate",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "spinach",
+        "substance": "5-methyltetrahydrofolate"
+      },
+      "candidate_food": "Spinach",
+      "material": "Spinach test food, 2015 bioavailability study",
+      "preparation": "unspecified",
+      "evidence": [
+        [
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 72.2,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "unspecified",
+            "evidence_material": "Spinach test food, 2015 bioavailability study",
+            "source_url": "https://pubs.rsc.org/en/content/articlehtml/2015/fo/c4fo00658e",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "range": null,
+            "material": "Spinach test food, 2015 bioavailability study",
+            "preparation": "unspecified",
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "source_record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "verified": true,
+            "nutrition_value_reviews": [],
+            "limitations": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "id": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 0.0722,
+            "high": 0.0722,
+            "display": "72.2 µg"
+          },
+          {
+            "key": "5_mthf_independent_observation",
+            "label": "5-Methyltetrahydrofolate",
+            "substance_id": "5-methyltetrahydrofolate",
+            "value": 72.2,
+            "unit": "µg",
+            "basis": "per 100 g fresh material",
+            "preparation_state": "unspecified",
+            "evidence_material": "Spinach test food, 2015 bioavailability study",
+            "source_url": "https://pubs.rsc.org/en/content/articlehtml/2015/fo/c4fo00658e",
+            "chemical_form": "5-Methyltetrahydrofolate, form-specific assay",
+            "source_note": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "record": "docs/foods/spinach.md#nutrition_supplementary_sources/5_mthf_independent_observation",
+            "evidence": "Table 1 reports this form-specific concentration. Preparation is not resolved from the accessible table; do not equate this sample with the 2010 raw material.",
+            "source_reference": null,
+            "presence_status": "qualitative",
+            "limitations": null
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/spinach.md#substance_relationships: contains 5-methyltetrahydrofolate (unspecified)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "vitamin-b9",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "vitamin-b9"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 1900,
+            "unit": "µg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 1.9000000000000001,
+            "high": 1.9000000000000001,
+            "display": "1900 µg"
+          }
+        ],
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 1900,
+            "unit": "µg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/folate_ug",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 1.9000000000000001,
+            "high": 1.9000000000000001,
+            "display": "1900 µg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "Nori → Vitamin B9 (Folate) [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "glycine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pork",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pork",
+        "substance": "glycine"
+      },
+      "candidate_food": "Pork",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/pork.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "lamb",
+      "target_entity": "glycine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "lamb",
+        "substance": "glycine"
+      },
+      "candidate_food": "Lamb",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM6",
+        "BRS3-FM1-PM1",
+        "BRS3-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/lamb.md#substance_relationships: contains glycine (Cut and cooking state not specified in the composition table; qualitative presence only)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "vitamin-b9",
+      "target_entity": "5-Methyltetrahydrofolate",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b9",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B9 (folate) → 5-Methyltetrahydrofolate: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-b12",
+      "target_entity": "Methylcobalamin",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b12",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "froese_vitamin_2019"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B12 (cobalamin) → Methylcobalamin: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "choline",
+      "target_entity": "Betaine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "choline",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM2-F2",
+            "PM2-F1"
+          ],
+          "citation_keys": [
+            "obeid_metabolic_2013",
+            "salvi_choline_2013",
+            "evans_betaine_2002"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "Choline → Betaine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
+      "target_entity": "Dietary protein",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "BRS2-FM1-PM4::PM4-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS2-FM1-PM4::PM4-DIT-2",
+      "target_entity": "Methionine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": null,
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM4-F1"
+          ],
+          "citation_keys": [
+            "fao_diaas_2013",
+            "finkelstein_homocysteine_1998"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM4"
+      ],
+      "missing_edge": "Dietary protein → Methionine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "methionine",
+      "target_entity": "Cysteine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "methionine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "lyons_glutathione_2000",
+            "courtney_martin_cysteine_2008"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "Methionine → Cysteine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "n-acetylcysteine",
+      "target_entity": "Cysteine",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "n-acetylcysteine",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F2"
+          ],
+          "citation_keys": [
+            "sekhar_glutathione_2011"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM6"
+      ],
+      "missing_edge": "N-acetylcysteine → Cysteine: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "chicken",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinamide",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinamide"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinamide (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chicken",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicken",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chicken (studied breast material)",
+      "material": "Chicken breast purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chicken.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "chickpeas",
+      "target_entity": "nicotinic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chickpeas",
+        "substance": "nicotinic-acid"
+      },
+      "candidate_food": "Chickpeas (studied analytical material)",
+      "material": "Chickpea samples purchased in Turkey; cooking state not established",
+      "preparation": "Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement",
+      "evidence": [
+        {
+          "statement": "Form-specific HPLC after the documented extraction supports the qualitative method-releasable niacin pool in this sample.",
+          "sources": [
+            "https://www.ejast.org/archive/view_article?pid=jast-61-3-138"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/chickpeas.md#substance_relationships: contains nicotinic-acid (Laboratory acid extraction at 121 °C; not a cooking recommendation or native-free-vitamer measurement)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "creatine",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "creatine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "preparation": "raw",
+      "evidence": [
+        [
+          {
+            "key": "creatine_mg",
+            "label": "Creatine",
+            "notes": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts.",
+            "source_note": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+            "public_note": "Approximate content for cooked beef muscle; cut and cooking affect the amount.",
+            "source_group": "estimate-creatine_mg",
+            "public_display": "table",
+            "omit_substance_card": false,
+            "evidence_status": "supported",
+            "presence_status": "presence_supported_amount_unavailable",
+            "amount_display": "400 mg (estimate)",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769838/",
+            "value": 400,
+            "unit": "mg",
+            "quantity_citation_pending": true,
+            "source_reference": "#food-source-4",
+            "record": "docs/foods/beef.md#nutrition_supplementary_sources/creatine_mg",
+            "evidence": "Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).\n",
+            "limitations": "Concentrated in muscle; not reported in ordinary beef composition tables for most cuts."
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM3"
+      ],
+      "missing_edge": "Beef → Creatine [Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program); raw]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "vitamin-b2",
+      "target_entity": "Flavin mononucleotide (FMN)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-b2",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F1"
+          ],
+          "citation_keys": [
+            "curtabbi_complex_i_fmn_2022"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin B2 (riboflavin) → Flavin mononucleotide (FMN): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "tryptophan",
+      "target_entity": "Nicotinamide (a form of vitamin B3)",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "tryptophan",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM2-F1"
+          ],
+          "citation_keys": [
+            "covarrubias_nad_2021"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS4-FM1-PM2"
+      ],
+      "missing_edge": "Tryptophan → Nicotinamide (a form of vitamin B3): structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "chicory-root",
+      "target_entity": "inulin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "chicory-root",
+        "substance": "inulin"
+      },
+      "candidate_food": "Chicory root",
+      "material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "evidence": [
+        {
+          "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+          "sources": [
+            "https://doi.org/10.1186/s43094-020-00087-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/chicory-root.md#substance_relationships: contains inulin (Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "jerusalem-artichokes",
+      "target_entity": "inulin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "jerusalem-artichokes",
+        "substance": "inulin"
+      },
+      "candidate_food": "Jerusalem artichokes",
+      "material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "evidence": [
+        {
+          "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM4"
+      ],
+      "missing_edge": "docs/foods/jerusalem-artichokes.md#substance_relationships: contains inulin (Harvest maturity and storage-specific laboratory analysis; cooked products not tested)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "apples",
+      "target_entity": "pectin",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "apples",
+        "substance": "pectin"
+      },
+      "candidate_food": "Apples (studied cultivars)",
+      "material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "evidence": [
+        {
+          "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+          "sources": [
+            "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/apples.md#substance_relationships: contains pectin (Cultivar-specific extracted analytical fractions; not a standardised pectin dose)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagic-acid"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagic-acid (Chilled commercial juice; not whole-fruit or other-product equivalence)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pomegranates",
+      "target_entity": "ellagitannins",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pomegranates",
+        "substance": "ellagitannins"
+      },
+      "candidate_food": "Pomegranate (studied commercial juice)",
+      "material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "docs/foods/pomegranates.md#substance_relationships: contains ellagitannins (Chilled commercial juice; not whole-fruit or other-product equivalence)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "salmon-roe",
+      "target_entity": "linoleic-acid",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "salmon-roe",
+        "substance": "linoleic-acid"
+      },
+      "candidate_food": "Salmon Roe",
+      "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "preparation": null,
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+              "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "last_checked": "2026-10-12"
+            },
+            "value": 0.11,
+            "unit": "g",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "preparation": null,
+            "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+            "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+            "rank_eligible": false,
+            "comparison_group": null,
+            "low": 110,
+            "high": 110,
+            "display": "0.11 g"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS5-FM3-PM7"
+      ],
+      "missing_edge": "docs/foods/salmon-roe.md#substance_relationships: contains linoleic-acid (null)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM1::PM1-DIT-2",
+      "target_entity": "Fermentable dietary fibre",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "BRS5-FM1-PM1::PM1-DIT-2 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM1::PM1-DIT-2",
+      "target_entity": "Butyrate",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": null,
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F2"
+          ],
+          "citation_keys": [
+            "silva_role_2020"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "Fermentable dietary fibre → Butyrate: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "vitamin-a",
+      "target_entity": "Retinoic acid",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "vitamin-a",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM1-F5"
+          ],
+          "citation_keys": [
+            "cantorna_vitamin_2019",
+            "li_retinoid_junction_2017"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM1"
+      ],
+      "missing_edge": "Vitamin A → Retinoic acid: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "BRS5-FM1-PM3::PM3-DIT-1",
+      "target_entity": "Oligofructose-enriched inulin",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "substance": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM3-F1"
+          ],
+          "citation_keys": [
+            "schroeder_bifidobacteria_2018"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM1-PM3"
+      ],
+      "missing_edge": "BRS5-FM1-PM3::PM3-DIT-1 → canonical substance/substrate identity",
+      "required_action": "Resolve against existing identities and aliases. Do not create duplicates or reapprove the PM admission.",
+      "verification_status": "requires-identity-reconciliation"
+    },
+    {
+      "source_entity": "ellagitannins",
+      "target_entity": "Ellagic acid",
+      "relationship_type": "precursor-conversion",
+      "canonical_ids": {
+        "precursor": "ellagitannins",
+        "active_target": null
+      },
+      "candidate_food": null,
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        {
+          "finding_ids": [
+            "PM6-F1"
+          ],
+          "citation_keys": [
+            "singh_direct_2022"
+          ]
+        }
+      ],
+      "affected_pms": [
+        "BRS5-FM2-PM6"
+      ],
+      "missing_edge": "Ellagitannins → Ellagic acid: structured conversion pathway",
+      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
+      "verification_status": "requires-pathway-reconciliation"
+    },
+    {
+      "source_entity": "nori",
+      "target_entity": "magnesium",
+      "relationship_type": "material-equivalence-review",
+      "canonical_ids": {
+        "food": "nori",
+        "substance": "magnesium"
+      },
+      "candidate_food": "Nori",
+      "material": "Purple laver (Porphyra spp.), dried, toasted",
+      "preparation": "dried",
+      "evidence": [
+        [
+          {
+            "nutrition_source": {
+              "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 09004",
+              "food_name": "Purple laver (Porphyra spp.), dried, toasted",
+              "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+              "source_reference": "#food-source-3"
+            },
+            "value": 300,
+            "unit": "mg",
+            "basis": "per 100 g edible dried, toasted nori; not a typical serving",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=9_09004_7&MODE=0&TYPE=print&WEIGHT=100",
+            "source_reference": "#food-source-3",
+            "material": "Purple laver (Porphyra spp.), dried, toasted",
+            "preparation": "dried",
+            "record": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "source_record": "docs/foods/nori.md#nutrition_source",
+            "verified": true,
+            "id": "docs/foods/nori.md#nutrition_per_100g/magnesium_mg",
+            "rank_eligible": true,
+            "comparison_group": "dry::dried",
+            "low": 300,
+            "high": 300,
+            "display": "300 mg"
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS6-FM1-PM3"
+      ],
+      "missing_edge": "Nori → Magnesium [Purple laver (Porphyra spp.), dried, toasted; dried]: material equivalence review required; an existing structured edge has a different or unconfirmed material context.",
+      "required_action": "Compare the existing edge with this source material, brand/fortification, cultivar, preparation and analytical context. Do not create a new food edge unless independently established as necessary.",
+      "verification_status": "requires-material-equivalence-review"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "serine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Beef muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "pork",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "pork",
+        "substance": "serine"
+      },
+      "candidate_food": "Pork",
+      "material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/pork.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Pork muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "lamb",
+      "target_entity": "serine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "lamb",
+        "substance": "serine"
+      },
+      "candidate_food": "Lamb",
+      "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "evidence": [
+        {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "affected_pms": [
+        "BRS2-FM2-PM5"
+      ],
+      "missing_edge": "docs/foods/lamb.md#substance_relationships: contains serine (Cut and cooking state not specified in the composition table; qualitative presence only; Lamb muscle protein in the FAO individual-amino-acid table)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "histidine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "histidine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains histidine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "isoleucine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "isoleucine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains isoleucine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "leucine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "leucine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains leucine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "lysine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "lysine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains lysine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "methionine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "methionine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains methionine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "phenylalanine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "phenylalanine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains phenylalanine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "threonine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "threonine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains threonine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "beef",
+      "target_entity": "valine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "beef",
+        "substance": "valine"
+      },
+      "candidate_food": "Beef",
+      "material": "Beef muscle protein in FAO Table 24",
+      "preparation": "Cut/cooking unspecified; qualitative composition only",
+      "evidence": [
+        {
+          "statement": "FAO Table 24 explicitly lists this individual amino acid in beef muscle protein; not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "authoritative-food-composition-compilation"
+        }
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "docs/foods/beef.md#substance_relationships: contains valine (Cut/cooking unspecified; qualitative composition only; Beef muscle protein in FAO Table 24)",
+      "required_action": "Cursor must independently verify the cited evidence and exact material before creating an ontology edge. No PM admission implied.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
+      "source_entity": "BRS4-FM3-PM6",
+      "target_entity": "Carnitine",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "pm": "BRS4-FM3-PM6",
+        "substance": null
+      },
+      "candidate_food": null,
+      "affected_pms": [
+        "BRS4-FM3-PM6"
+      ],
+      "evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "wall_carnitine_carbohydrate_2011"
+        ]
+      },
+      "missing_edge": "Biochemical participant PM6-DEFERRED-BIO-1 → canonical Carnitine identity",
+      "required_action": "Check existing registry identities and aliases; reconcile identity independently. No dietary admission or food content follows automatically.",
+      "verification_status": "pending-identity-review"
+    },
+    {
+      "source_entity": "BRS4-FM3-PM7",
+      "target_entity": "Acetoacetate",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "pm": "BRS4-FM3-PM7",
+        "substance": null
+      },
+      "candidate_food": null,
+      "affected_pms": [
+        "BRS4-FM3-PM7"
+      ],
+      "evidence": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "courchesne_loyer_diet_ketone_pet_2017"
+        ]
+      },
+      "missing_edge": "Biochemical participant PM7-DEFERRED-BIO-1 → canonical Acetoacetate identity",
+      "required_action": "Check existing registry identities and aliases; reconcile identity independently. No dietary admission or food content follows automatically.",
+      "verification_status": "pending-identity-review"
+    },
+    {
+      "source_entity": "BRS4-FM3-PM7",
+      "target_entity": "Beta-hydroxybutyrate",
+      "relationship_type": "identity-resolution",
+      "canonical_ids": {
+        "pm": "BRS4-FM3-PM7",
+        "substance": null
+      },
+      "candidate_food": null,
+      "affected_pms": [
+        "BRS4-FM3-PM7"
+      ],
+      "evidence": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "courchesne_loyer_diet_ketone_pet_2017"
+        ]
+      },
+      "missing_edge": "Biochemical participant PM7-DEFERRED-BIO-2 → canonical Beta-hydroxybutyrate identity",
+      "required_action": "Check existing registry identities and aliases; reconcile identity independently. No dietary admission or food content follows automatically.",
+      "verification_status": "pending-identity-review"
+    }
+  ],
+  "qualification": "49 current pipeline tasks plus three biochemical-participant identity tasks. Ledger PM references retained for prospective pool-member composition tasks; these are not new individual PM admissions. No automatic ontology repairs."
+}

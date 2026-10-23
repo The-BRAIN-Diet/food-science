@@ -1,19 +1,10 @@
 ---
 title: Carnitine-Mediated Fat Transport
 pm_id: BRS4-FM3-PM6
-mission: >-
-  Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP
-  production can proceed.
+mission: Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.
 parent_fm: BRS4(FM3)
 parent_brs: BRS4
-summary: >-
-  Transports long-chain fatty acids into mitochondria for β-oxidation
-  (fatty-acid burning that generates ATP) via the carnitine shuttle system, a
-  prerequisite step without which fat-derived energy production cannot occur
-  regardless of how much fat is available. This transport step is a specific
-  bottleneck distinct from glucose-based or ketone-based fuel pathways covered
-  elsewhere. Dietary carnitine and substrate availability jointly determine how
-  efficiently this shuttle keeps pace with fat-oxidation demand.
+summary: 'Transports long-chain fatty acids into mitochondria for β-oxidation (fatty-acid burning that generates ATP) via the carnitine shuttle system, a prerequisite step without which fat-derived energy production cannot occur regardless of how much fat is available. This transport step is a specific bottleneck distinct from glucose-based or ketone-based fuel pathways covered elsewhere. Dietary carnitine and substrate availability jointly determine how efficiently this shuttle keeps pace with fat-oxidation demand.'
 key_constraints:
   - BRS4(KC1) - Macronutrient Substrate Availability
   - BRS4(KC2) - Mitochondrial Cofactor Sufficiency
@@ -25,20 +16,14 @@ cofactors:
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: >-
-  Context-dependent support mechanism; more relevant where fat oxidation
-  flexibility is a priority
+dose_sensitivity: Context-dependent support mechanism; more relevant where fat oxidation flexibility is a priority
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: medium
     evidence_level: intervention
     evidence_confidence: medium
-    rationale: >-
-      Controlled carnitine supplementation improved behavioural and functional
-      outcomes in children with ADHD — the strongest direct ADHD intervention
-      anchor in BRS4, mapping fatty-acid transport into mitochondria to
-      attention-relevant outcomes without generalising beyond trial context.
+    rationale: 'Controlled carnitine supplementation improved behavioural and functional outcomes in children with ADHD — the strongest direct ADHD intervention anchor in BRS4, mapping fatty-acid transport into mitochondria to attention-relevant outcomes without generalising beyond trial context.'
     references:
       - index: 1
         label: van Oudheusden & Scholte (2002)
@@ -50,10 +35,7 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: intervention
     evidence_confidence: low-medium
-    rationale: >-
-      Carnitine-dependent fat oxidation supports mitochondrial substrate
-      delivery for ATP production — trial evidence in ADHD children links this
-      transport node to functional improvement alongside behavioural endpoints.
+    rationale: Carnitine-dependent fat oxidation supports mitochondrial substrate delivery for ATP production — trial evidence in ADHD children links this transport node to functional improvement alongside behavioural endpoints.
     references:
       - index: 1
         label: van Oudheusden & Scholte (2002)
@@ -61,14 +43,197 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002
         data_level: Human Outcome
 references:
-  - >-
-    [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment
-    of Children with Attention-deficit Hyperactivity
-    Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
-  - >-
-    [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology
-    (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+  - '[van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)'
+  - '[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)'
+  - '[Wall et al. (2011) — Chronic oral ingestion of L-carnitine and carbohydrate increases muscle carnitine content and alters muscle fuel metabolism during exercise in humans.](/docs/papers/BRAIN-Diet-References#wall_carnitine_carbohydrate_2011)'
+  - '[Gobin et al. (2003) — Functional and structural basis of carnitine palmitoyltransferase 1A deficiency](/docs/papers/BRAIN-Diet-References#gobin_cpt1a_deficiency_2003)'
+  - '[Demarquoy et al. (2004) — Radioisotopic determination of l-carnitine content in foods commonly eaten in Western countries](/docs/papers/BRAIN-Diet-References#demarquoy_carnitine_food_composition_2004)'
 hide_title: true
+scientific_findings:
+  - id: PM6-F1
+    finding_label: A specific feeding protocol increases muscle carnitine
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.
+    finding_summary: The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.
+    finding_interpretation: Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.
+    synthesis_limitations: Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.
+    evidence_considered:
+      - label: Wall et al. (2011)
+        citation_key: wall_carnitine_carbohydrate_2011
+        href: /docs/papers/BRAIN-Diet-References#wall_carnitine_carbohydrate_2011
+        data_level: Human Study
+        exposure_context: Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.
+        evidence_source: bounded-external-search
+        directional_finding: The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.
+        assessment:
+          study: Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.
+          population: Fourteen healthy male volunteers; randomised double-blind comparison.
+          result: The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.
+          effect_magnitude: Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.
+          evidence_summary: 'Muscle biopsy carnitine, glycogen use, PDC activity and exercise metabolites.'
+          limitations: Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.
+          retrieval_scope: Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/21224234/'
+    evidence_dependency:
+      - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
+  - id: PM6-F2
+    finding_label: Carnitine shuttle dependency and distinct dietary supply
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: L-carnitine is a substrate of the long-chain fatty-acyl transport shuttle and is supplied directly by measured food sources.
+    finding_summary: L-carnitine is a substrate of the long-chain fatty-acyl transport shuttle and is supplied directly by measured food sources.
+    finding_interpretation: 'Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Human CPT1A functional experiments support the transport enzyme role; UniProt P50416 (entry 222) and P23786 (entry 230), retrieved 2026-10-23, annotate Rhea 12661 and the carnitine reaction. Independent food analysis establishes dietary supply of the same L-carnitine identity.'
+    synthesis_limitations: 'Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.'
+    evidence_considered:
+      - label: Gobin et al. (2003)
+        citation_key: gobin_cpt1a_deficiency_2003
+        href: /docs/papers/BRAIN-Diet-References#gobin_cpt1a_deficiency_2003
+        data_level: Mechanistic
+        exposure_context: 'Functional assays of patient-derived human CPT1A mutations expressed in yeast, with structural modelling.'
+        evidence_source: bounded-external-search
+        directional_finding: Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.
+        assessment:
+          study: 'Functional assays of patient-derived human CPT1A mutations expressed in yeast, with structural modelling.'
+          population: Human CPT1A variants in a heterologous yeast expression system.
+          result: Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.
+          effect_magnitude: 'No pooled effect, food quantity or intake-response inferred.'
+          evidence_summary: Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.
+          limitations: Enzyme dysfunction is not a dietary dose-response; reaction identity is separately verified in UniProt/Rhea.
+          retrieval_scope: Primary abstract/publisher section snippets; versioned UniProt JSON independently retrieved. No unavailable full-table quantities inferred.
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/14517221/'
+      - label: Demarquoy et al. (2004)
+        citation_key: demarquoy_carnitine_food_composition_2004
+        href: /docs/papers/BRAIN-Diet-References#demarquoy_carnitine_food_composition_2004
+        data_level: Mechanistic
+        exposure_context: Radioisotopic free L-carnitine analysis of raw and processed foods.
+        evidence_source: bounded-external-search
+        directional_finding: Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.
+        assessment:
+          study: Radioisotopic free L-carnitine analysis of raw and processed foods.
+          population: 'Food samples, including beef and lamb; no human intervention.'
+          result: Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.
+          effect_magnitude: 'No pooled effect, food quantity or intake-response inferred.'
+          evidence_summary: Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.
+          limitations: 'Composition supports supply, not muscle uptake, improved shuttle flux or equivalent effects of all meat/dairy products; no quantities extracted here.'
+          retrieval_scope: Primary abstract/publisher section snippets; versioned UniProt JSON independently retrieved. No unavailable full-table quantities inferred.
+          source_url: 'https://doi.org/10.1016/j.foodchem.2003.09.023'
+    evidence_dependency:
+      - 'Reaction identity, experimental enzyme function, food composition and supplemental interventions support different links; none implies clinical efficacy.'
+system_optimisation_practices:
+  - atom_id: PM6-SOP-DEFERRED-1
+    input: Experimental carnitine/carbohydrate loading protocol
+    input_type: defined dietary exposure
+    biological_role: The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.
+    evidence_source:
+      finding_ids:
+        - PM6-F1
+      citation_keys:
+        - wall_carnitine_carbohydrate_2011
+    evidence_limitation: Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.
+    dietary_input: true
+    reader_description: The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.
+    description_finding_id: PM6-F1
+    optimisation_category: dietary_protocols
+    food_strategy_scope: supplementation
+    food_strategy_id: food-strategy-1116604823f5
+dietary_input_traceability:
+  - atom_id: PM6-DEFERRED-BIO-1
+    input: Carnitine
+    input_type: substrate
+    biological_role: Carnitine carries fatty-acyl groups in the mitochondrial shuttle. Its canonical L-carnitine identity is resolved; dietary supply is assessed in the separate Capacity record.
+    evidence_source:
+      finding_ids:
+        - PM6-F1
+      citation_keys:
+        - wall_carnitine_carbohydrate_2011
+    evidence_limitation: 'Reaction participation is distinct from a dietary effect. Identity is reconciled; the separate Capacity admission does not establish benefit from extra intake, ordinary-food efficacy or equivalent effects of different carnitine formulations.'
+    dietary_input: null
+    dietary_input_note: Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.
+    canonical_identity:
+      status: resolved
+      substance_id: l-carnitine
+      substance_href: /docs/substances/bioactive-compounds/lipid-based/l-carnitine
+    dietary_input_flags:
+      - canonical-identity-unresolved
+      - dietary-supply-review
+    identity_resolution_note: '2026-10-23: previous missing-identity state reconciled to l-carnitine. Original assessment preserved in the dated before-files snapshot; biochemical participant status is unchanged. The separately assessed dietary atom records supply.'
+  - atom_id: PM6-DIT-CARNITINE-1
+    input: L-Carnitine
+    input_type: substrate
+    biological_role: 'L-carnitine accepts and releases fatty-acyl groups in the mitochondrial shuttle, sustaining long-chain fatty-acid entry for oxidation. Dietary L-carnitine supplies this same circulating substrate alongside endogenous synthesis.'
+    evidence_source:
+      finding_ids:
+        - PM6-F2
+      citation_keys:
+        - gobin_cpt1a_deficiency_2003
+        - demarquoy_carnitine_food_composition_2004
+    evidence_limitation: 'Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.'
+    dietary_input: true
+    dietary_input_note: '2026-10-23: authorised Type A Capacity / Direct admission. Provision is distinct from incremental benefit or dietary indispensability.'
+    substance_id: l-carnitine
+    canonical_identity:
+      status: resolved
+      substance_id: l-carnitine
+      substance_href: /docs/substances/bioactive-compounds/lipid-based/l-carnitine
+dietary_lever_atoms:
+  - atom_id: PM6-DEFERRED-BIO-1
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+  - atom_id: PM6-DIT-CARNITINE-1
+    relationship_layer: dietary-requirement
+    relationship_mode: capacity-requirement
+    requirement_classification: direct
+    dietary_addressability: direct
+    claim_ceiling: dietary-provision
+dietary_lever_presentations:
+  - atom_id: PM6-DEFERRED-BIO-1
+    label: Carnitine
+    presentation_section: 3.1.2
+    reader_description: Carnitine carries fatty-acyl groups in the mitochondrial shuttle; this reaction participant awaits local canonical identity reconciliation.
+    description_finding_id: PM6-F1
+  - atom_id: PM6-DIT-CARNITINE-1
+    label: L-Carnitine
+    presentation_section: 3.1.1
+    reader_description: 'L-carnitine accepts and releases fatty-acyl groups in the mitochondrial shuttle, sustaining long-chain fatty-acid entry for oxidation. Dietary L-carnitine supplies this same circulating substrate alongside endogenous synthesis.'
+    description_finding_id: PM6-F2
+dietary_input_assessments:
+  - atom_id: PM6-DIT-CARNITINE-1
+    status: admitted
+    type: A
+    classification: direct
+    operation: Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.
+    canonical_substance_id: l-carnitine
+    functional_dependency:
+      status: established
+      statement: The shuttle reaction uses L-carnitine to transfer long-chain acyl groups; enzyme-function evidence and versioned reaction annotation establish the PM-specific dependency.
+      sources:
+        - 'https://pubmed.ncbi.nlm.nih.gov/14517221/'
+        - 'https://www.uniprot.org/uniprotkb/P50416/entry'
+        - 'https://www.rhea-db.org/rhea/12661'
+    dietary_supply:
+      status: established
+      statement: Directly measured food L-carnitine supplies the same substrate; no conversion from total protein or generalisation of a supplemental effect is used.
+      sources:
+        - 'https://doi.org/10.1016/j.foodchem.2003.09.023'
+    assessment_date: '2026-10-23'
+    assessment_limitations: 'Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.'
+    food_target_research:
+      completed: true
+      sources_examined:
+        - registry/substances.json
+        - docs/foods/beef.md
+        - docs/foods/lamb.md
+        - system/food-target-research.json
+        - review/brs4-candidate-reconciliation-2026-10-23/carnitine-identity.json
+      targeted_searches:
+        - date: '2026-10-23'
+          query: Demarquoy radioisotopic free L-carnitine beef lamb dairy food samples; canonical L/(R) identity
+          outcome: Primary publisher text explicitly identifies beef/lamb samples. Two qualitative provisional sources; exact preparation/cut unresolved. No kefir or blanket dairy edge created.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -103,13 +268,14 @@ Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP prod
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+<strong>3.1.1 Dietary Inputs &amp; Regulatory Modulators</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Carnitine ← beef, lamb, red meat, cheese, kefir, dairy, meat-based foods
-- Cofactor support ← dairy, whole grains, legumes, iron-rich foods
-- Mixed whole-food meals ← broader metabolic-flexibility context
+
+- L-Carnitine
+
+The original §3.1.1 statements are preserved verbatim in the [historical dietary review panel](#legacy-dietary-review-pm6). Their existing records and provenance are unchanged. This presentation repair makes no new admission, rejection or transfer to another intervention section; substance identity, evidence and placement require review.
 
 </div>
 </div>
@@ -122,6 +288,9 @@ Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP prod
 <strong>3.1.2 Cofactors and Substrates</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Carnitine
+
 
 - carnitine
 - iron
@@ -194,6 +363,9 @@ Improved fatty-acid oxidation; improved fuel flexibility
 <strong>3.2 System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+- Experimental carnitine/carbohydrate loading protocol
+
 <p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
 
 - Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
@@ -249,7 +421,16 @@ This PM does not imply that fat is always the preferred fuel. Instead, it suppor
 </div>
 </div>
 
-### 4.1 Evidence Highlights
+### 4.1 Scientific Findings
+
+#### Summary
+
+
+
+<ScientificFinding finding={{"id":"PM6-F1","finding_label":"A specific feeding protocol increases muscle carnitine","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.","finding_summary":"The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.","finding_interpretation":"Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.","synthesis_limitations":"Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.","evidence_considered":[{"label":"Wall et al. (2011)","citation_key":"wall_carnitine_carbohydrate_2011","href":"/docs/papers/BRAIN-Diet-References#wall_carnitine_carbohydrate_2011","data_level":"Human Study","exposure_context":"Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.","evidence_source":"bounded-external-search","directional_finding":"The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.","assessment":{"study":"Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.","population":"Fourteen healthy male volunteers; randomised double-blind comparison.","result":"The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Muscle biopsy carnitine, glycogen use, PDC activity and exercise metabolites.","limitations":"Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.","retrieval_scope":"Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.","source_url":"https://pubmed.ncbi.nlm.nih.gov/21224234/"},"canonical_reference":{"author_year":"Wall et al. (2011)","number":3,"anchor":"#pm-ref-3"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM6-F2","finding_label":"Carnitine shuttle dependency and distinct dietary supply","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"L-carnitine is a substrate of the long-chain fatty-acyl transport shuttle and is supplied directly by measured food sources.","finding_summary":"L-carnitine is a substrate of the long-chain fatty-acyl transport shuttle and is supplied directly by measured food sources.","finding_interpretation":"Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Human CPT1A functional experiments support the transport enzyme role; UniProt P50416 (entry 222) and P23786 (entry 230), retrieved 2026-10-23, annotate Rhea 12661 and the carnitine reaction. Independent food analysis establishes dietary supply of the same L-carnitine identity.","synthesis_limitations":"Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.","evidence_considered":[{"label":"Gobin et al. (2003)","citation_key":"gobin_cpt1a_deficiency_2003","href":"/docs/papers/BRAIN-Diet-References#gobin_cpt1a_deficiency_2003","data_level":"Mechanistic","exposure_context":"Functional assays of patient-derived human CPT1A mutations expressed in yeast, with structural modelling.","evidence_source":"bounded-external-search","directional_finding":"Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.","assessment":{"study":"Functional assays of patient-derived human CPT1A mutations expressed in yeast, with structural modelling.","population":"Human CPT1A variants in a heterologous yeast expression system.","result":"Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.","effect_magnitude":"No pooled effect, food quantity or intake-response inferred.","evidence_summary":"Patient-derived mutations reduced catalytic efficiency or abolished activity of the enzyme mediating long-chain acyl transfer to carnitine.","limitations":"Enzyme dysfunction is not a dietary dose-response; reaction identity is separately verified in UniProt/Rhea.","retrieval_scope":"Primary abstract/publisher section snippets; versioned UniProt JSON independently retrieved. No unavailable full-table quantities inferred.","source_url":"https://pubmed.ncbi.nlm.nih.gov/14517221/"},"canonical_reference":{"author_year":"Gobin et al. (2003)","number":4,"anchor":"#pm-ref-4"}},{"label":"Demarquoy et al. (2004)","citation_key":"demarquoy_carnitine_food_composition_2004","href":"/docs/papers/BRAIN-Diet-References#demarquoy_carnitine_food_composition_2004","data_level":"Mechanistic","exposure_context":"Radioisotopic free L-carnitine analysis of raw and processed foods.","evidence_source":"bounded-external-search","directional_finding":"Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.","assessment":{"study":"Radioisotopic free L-carnitine analysis of raw and processed foods.","population":"Food samples, including beef and lamb; no human intervention.","result":"Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.","effect_magnitude":"No pooled effect, food quantity or intake-response inferred.","evidence_summary":"Free L-carnitine was measured in meat samples; dairy concentrations were generally lower.","limitations":"Composition supports supply, not muscle uptake, improved shuttle flux or equivalent effects of all meat/dairy products; no quantities extracted here.","retrieval_scope":"Primary abstract/publisher section snippets; versioned UniProt JSON independently retrieved. No unavailable full-table quantities inferred.","source_url":"https://doi.org/10.1016/j.foodchem.2003.09.023"},"canonical_reference":{"author_year":"Demarquoy et al. (2004)","number":5,"anchor":"#pm-ref-5"}}],"evidence_dependency":["Reaction identity, experimental enzyme function, food composition and supplemental interventions support different links; none implies clinical efficacy."],"connected_supportive_evidence":[]}} />
+
 
 #### Introduction/Summary
 
@@ -309,10 +490,88 @@ Primary Mechanisms in other Biological Regulatory Systems that directly interact
 
 Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
-- [BRS4-FM3-PM7 - Ketone Utilisation Capacity](/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity)
-- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching)
+- [BRS4-FM3-PM7 - Ketone Utilisation Capacity](/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity) — Scope distinction: this PM covers long-chain fatty-acyl transport through the carnitine shuttle; PM7 covers ketone utilisation as a separate fuel route. This link does not establish a dietary effect on either pathway.
+- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching) — Scope distinction: the carnitine shuttle is one fatty-acid transport route within the broader fuel-switching context owned by PM8. Shuttle capacity alone does not establish successful switching or a clinical benefit.
 
 ## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Medium
+- **Evidence Confidence:** Medium
+- **Rationale:** Controlled carnitine supplementation improved behavioural and functional outcomes in children with ADHD — the strongest direct ADHD intervention anchor in BRS4, mapping fatty-acid transport into mitochondria to attention-relevant outcomes without generalising beyond trial context.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Cognitive Energy Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Cognitive Energy Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph004-cognitive-energy-stability" aria-label="Open page: Cognitive Energy Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Carnitine-dependent fat oxidation supports mitochondrial substrate delivery for ATP production — trial evidence in ADHD children links this transport node to functional improvement alongside behavioural endpoints.
+</div>
+</div>
+</div>
+
+{/* preserved-phenome-prose:start */}
+<details>
+<summary>Historical Phenome narrative, retained without new validation</summary>
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -394,6 +653,57 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
+
+</details>
+{/* preserved-phenome-prose:end */}
+
+
+
+{/* deferred-stage2ab-2026-10-23 */}
+<details>
+<summary>Stage 2A/2B dietary-target assessment — 23 October 2026</summary>
+
+**ENRICHED.** Carnitine-shuttle delivery of long-chain fatty-acyl groups to mitochondria.
+
+Add a bounded experimental SOP and primary Finding, plus a biochemical carnitine participant held for identity/supply reconciliation. Do not create a carnitine registry ID or food edge. Glycogen sparing is not direct CPT flux, and no ordinary meat/dairy response follows. Legacy generic cofactor/food lists remain review material.
+
+**Historical-content boundary:** The inherited food/cofactor lists and Phenome interpretations remain preserved research records; this bounded update does not newly validate their generic dietary or brain-effect claims.
+
+**New implementation:** 0 dietary-input admissions (0 completed Unset candidates), 1 practices, 1 biochemical participants, 1 unscored Findings. Existing accepted inputs, source assessments, mission, KCs, Phenome relationships and scores are retained.
+
+**Source-to-claim boundary:** [Assessment source](https://pubmed.ncbi.nlm.nih.gov/21224234/). Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval.
+
+</details>
+{/* /deferred-stage2ab-2026-10-23 */}
+
 ## 8. References
+
+- <span id="pm-ref-1">[1]</span> [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
+- <span id="pm-ref-2">[2]</span> [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+- <span id="pm-ref-3">[3]</span> [Wall et al. (2011) — Chronic oral ingestion of L-carnitine and carbohydrate increases muscle carnitine content and alters muscle fuel metabolism during exercise in humans.](/docs/papers/BRAIN-Diet-References#wall_carnitine_carbohydrate_2011)
+- <span id="pm-ref-4">[4]</span> [Gobin et al. (2003) — Functional and structural basis of carnitine palmitoyltransferase 1A deficiency](/docs/papers/BRAIN-Diet-References#gobin_cpt1a_deficiency_2003)
+- <span id="pm-ref-5">[5]</span> [Demarquoy et al. (2004) — Radioisotopic determination of l-carnitine content in foods commonly eaten in Western countries](/docs/papers/BRAIN-Diet-References#demarquoy_carnitine_food_composition_2004)
+
+### PM-local source records
+
+<details>
+<summary>Historical reference narrative, retained</summary>
+
 - [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
 - [Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)
+
+</details>
+
+
+<details>
+<summary id="legacy-dietary-review-pm6">Historical §3.1.1 dietary statements — scientific reconciliation required</summary>
+
+**Original placement:** §3.1.1 Direct and/or Derived Dietary Requirements. The statements below are retained without textual alteration. No structured scientific admission decision was recorded for these bullets; none is assigned by this repair. They have not been deleted, rejected, newly validated or automatically promoted to SOPs.
+
+- Carnitine ← beef, lamb, red meat, cheese, kefir, dairy, meat-based foods
+- Cofactor support ← dairy, whole grains, legumes, iron-rich foods
+- Mixed whole-food meals ← broader metabolic-flexibility context
+
+**Review needed:** distinguish identifiable biochemical inputs from food delivery, dietary patterns and generic support claims; verify PM-specific evidence before proposing any structured admission or section reassignment. Existing structured scientific records remain unchanged.
+
+</details>

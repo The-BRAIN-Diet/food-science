@@ -7,6 +7,7 @@
  * candidates and Stage 2B history are not rendered here.
  */
 import substanceInputPages from "../data/substance-input-pages.json";
+import {findingReaderLabel} from './scientificFindingPresentation.mjs';
 
 const REF_LINE_RE = /\[([^\]]+)\]\([^#]+#([^)]+)\)/;
 
@@ -216,7 +217,7 @@ function supportingFindingLink(
   const finding = findings.find((row) => String(row?.id || "") === id);
   const label = String(finding?.finding_label || "").trim();
   if (!label) return null;
-  return { id, label, href: `#${id.toLowerCase()}` };
+  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
 }
 
 function evidenceSourceReferences(

@@ -1,0 +1,102 @@
+[
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM3)",
+    "pm": "BRS4-FM3-PM6",
+    "biological_mechanism": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+    "dietary_input": "L-Carnitine",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "l-carnitine",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "beef",
+    "food_title": "Beef",
+    "food_material": "Beef meat samples in the primary radioisotopic composition study",
+    "material_equivalence_status": "not-applicable",
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": "missing-context-edge",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": {
+      "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+      "sources": [
+        "https://doi.org/10.1016/j.foodchem.2003.09.023"
+      ],
+      "retrieved": "2026-10-23",
+      "kind": "primary-food-composition"
+    },
+    "pm_evidence": {
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "gobin_cpt1a_deficiency_2003",
+        "demarquoy_carnitine_food_composition_2004"
+      ]
+    },
+    "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+      "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge."
+    ],
+    "missing_ontology_edge": "beef \u2192 l-carnitine [Beef meat samples in the primary radioisotopic composition study; Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred]"
+  },
+  {
+    "brs": "BRS4",
+    "fm": "BRS4(FM3)",
+    "pm": "BRS4-FM3-PM6",
+    "biological_mechanism": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+    "dietary_input": "L-Carnitine",
+    "type": "A",
+    "classification": "direct",
+    "canonical_substance_id": "l-carnitine",
+    "ontology_connections": {
+      "identity": "resolved",
+      "conversion": "not-applicable",
+      "food": "supported"
+    },
+    "scientific_admission": "admitted",
+    "admission_basis": "versioned-assessment",
+    "food_target": "lamb",
+    "food_title": "Lamb",
+    "food_material": "Lamb meat samples in the primary radioisotopic composition study",
+    "material_equivalence_status": "not-applicable",
+    "material_equivalence_reason": null,
+    "ontology_relationship_status": "missing-context-edge",
+    "reconciled_sources": [],
+    "mapping_status": "research-supported-provisional",
+    "food_evidence": {
+      "statement": "The primary food-analysis report explicitly identifies this meat among measured L-carnitine sources.",
+      "sources": [
+        "https://doi.org/10.1016/j.foodchem.2003.09.023"
+      ],
+      "retrieved": "2026-10-23",
+      "kind": "primary-food-composition"
+    },
+    "pm_evidence": {
+      "finding_ids": [
+        "PM6-F2"
+      ],
+      "citation_keys": [
+        "gobin_cpt1a_deficiency_2003",
+        "demarquoy_carnitine_food_composition_2004"
+      ]
+    },
+    "preparation": "Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred",
+    "delivery": "direct-input-source",
+    "conversion_pathway": [],
+    "limitations": [
+      "Functional dependency and food composition support Capacity, not a need to increase intake. Endogenous synthesis, tissue uptake and conservation also sustain the pool. The existing extracted carnitine/carbohydrate intervention is formulation-specific; meat or dairy effects on transport flux, brain function or ADHD are not established.",
+      "Qualitative food supply only. No carnitine amount, tissue uptake or ordinary-food intervention effect inferred. Independent verification of material/preparation is required before a canonical food edge."
+    ],
+    "missing_ontology_edge": "lamb \u2192 l-carnitine [Lamb meat samples in the primary radioisotopic composition study; Cut and preparation unresolved in retrieved publisher text; no quantity or equivalence to cooked meals inferred]"
+  }
+]

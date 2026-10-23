@@ -1,0 +1,86 @@
+Invalid DOM property `class`. Did you mean `className`?
+{
+  "baseline": "96b08913b917fffb8c96862ac4aab50a46a8d4fe",
+  "pm_id": "BRS5-FM2-PM5",
+  "status": "PASS WITH LIMITATIONS",
+  "checks": [
+    {
+      "id": "canonical-class-capacity",
+      "pass": true
+    },
+    {
+      "id": "verified-class-foods",
+      "pass": true
+    },
+    {
+      "id": "no-transferred-intervention-effect",
+      "pass": true
+    },
+    {
+      "id": "no-stale-rs-queue",
+      "pass": true
+    },
+    {
+      "id": "fos-gos-held-for-review",
+      "pass": true
+    },
+    {
+      "id": "anatomical-and-tracer-boundaries",
+      "pass": true
+    },
+    {
+      "id": "secondary-versus-primary",
+      "pass": true
+    },
+    {
+      "id": "duplicated-source-fields-consistent",
+      "pass": true
+    },
+    {
+      "id": "generated-findings-current",
+      "pass": true
+    },
+    {
+      "id": "apple-provisional-queued",
+      "pass": true
+    },
+    {
+      "id": "no-unrelated-apple-projection",
+      "pass": true
+    },
+    {
+      "id": "inulin-unadmitted",
+      "pass": true
+    },
+    {
+      "id": "mission-and-f2-preserved",
+      "pass": true
+    },
+    {
+      "id": "no-new-scores-or-phenome",
+      "pass": true
+    },
+    {
+      "id": "governance-check",
+      "pass": true
+    },
+    {
+      "id": "compiled-source-assessments",
+      "pass": true
+    }
+  ],
+  "counts": {
+    "verified": 4,
+    "provisional": 1,
+    "unresolved": 0,
+    "repair_items": 1,
+    "admitted_inputs": 2,
+    "held_for_review": 1
+  },
+  "governance_issues": [],
+  "limitations": [
+    "FOS/GOS mixture admission requires review and is excluded from admitted export.",
+    "Apple-pectin remains provisional pending independent food-edge verification.",
+    "Composition does not establish food-specific SCFA or brain efficacy; inulin remains an unadmitted candidate."
+  ]
+}

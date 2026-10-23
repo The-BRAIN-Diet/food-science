@@ -1,0 +1,454 @@
+---
+id: sec-v1-gaba
+title: GABA Synthesis Capacity — Proposed V1
+slug: /system/sec-calibration/v1/gaba
+hide_title: true
+list_image: /img/biological-targets/brs1-portrait-thumbnail.png
+---
+import {V1Finding, V1Intro, V1Enhancements, V1Interventions, V1ExtraFindings} from '@site/src/components/SecCalibrationPreview/V1Preview';
+import {PreviewEnhancements, CuratedReferenceList} from '@site/src/components/SecCalibrationPreview';
+import {SamePreviewEnhancements, SameReferences} from '@site/src/components/SecCalibrationPreview/SamePreview';
+import {GlycaemicStage2References} from '@site/src/components/SecCalibrationPreview/GlycaemicInterventionPreview';
+
+export const previewDisplayData = {"pm_id":"BRS1-FM4-PM9","dietary_input_traceability":[{"atom_id":"PM9-DIT-1","dietary_input":false,"dietary_input_note":"Accepted intracellular/endogenous participant; no dietary supply relationship is admitted for this entry in this PM.","input":"Glutamate","input_type":"substrate","biological_role":"Substrate for GAD-dependent GABA synthesis","evidence_source":{"finding_ids":["PM9-F1"],"citation_keys":["martin_regulation_1993"]},"evidence_limitation":"The evidence establishes glutamate as the GAD substrate, not that dietary glutamate or protein controls neuronal glutamate availability or human brain GABA synthesis."},{"atom_id":"PM9-DIT-2","dietary_input":null,"dietary_input_note":"Direct-section admission conflicts with the explicit limitation excluding dietary PLP provision. B6 precursor supply remains a separate accepted relationship.","dietary_input_flags":["section-supply-contradiction"],"input":"Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)","input_type":"cofactor","biological_role":"Required cofactor for GAD-dependent conversion of glutamate to GABA","evidence_source":{"finding_ids":["PM9-F1"],"citation_keys":["martin_regulation_1993"]},"evidence_limitation":"The evidence establishes PLP dependence of GAD, but not dietary PLP provision or an intake-to-synthesis response in humans."},{"atom_id":"PM9-DIT-3","dietary_input":true,"dietary_input_note":"Accepted dietary provision or constituent supply relationship; no efficacy or quantity claim added.","input":"Vitamin B6","input_type":"cofactor precursor","biological_role":"Provides dietary B6 vitamers that pyridoxal kinase converts to PLP, the cofactor required for GAD-dependent GABA synthesis","evidence_source":{"finding_ids":["PM9-F1","PM9-F2"],"citation_keys":["martin_regulation_1993","lee_human_2000","tang_crystal_2005","navarro_catalytic_2013"]},"evidence_limitation":"Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."}],"dietary_lever_atoms":[{"atom_id":"PM9-DIT-1","relationship_layer":"biochemical-requirement","claim_ceiling":"biological-dependency","permitted_wording":"Glutamate is the in-pathway substrate for GAD-dependent GABA synthesis. This biochemical requirement does not establish dietary glutamate or protein provision as a PM9 Dietary Requirement.","evidence_limitation":"The evidence establishes glutamate as the GAD substrate, not that dietary glutamate or protein controls neuronal glutamate availability or human brain GABA synthesis."},{"atom_id":"PM9-DIT-2","requirement_classification":"direct","relationship_layer":"dietary-requirement","dietary_addressability":"not-established","claim_ceiling":"biological-dependency","permitted_wording":"PLP is the Direct cofactor requirement for GAD-dependent GABA synthesis. PLP is formed in the body from vitamin B6 vitamers; this classification does not establish dietary PLP provision or intake-responsive human brain GABA synthesis.","evidence_limitation":"The evidence establishes PLP dependence of GAD, but not dietary PLP provision or an intake-to-synthesis response in humans."},{"atom_id":"PM9-DIT-3","requirement_classification":"derived","derived_target":"PLP","derived_target_atom_id":"PM9-DIT-2","relationship_layer":"dietary-requirement","dietary_addressability":"precursor-mediated","claim_ceiling":"dietary-provision","permitted_wording":"Vitamin B6 is a Derived Dietary Requirement because dietary B6 vitamers are converted to PLP, the Direct cofactor requirement for GAD. This does not establish that increasing B6 intake increases brain GABA synthesis, and PLP is not selective for GABA.","evidence_limitation":"Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."}],"dietary_lever_presentations":[{"atom_id":"PM9-DIT-3","label":"Vitamin B6","short_descriptor":"Essential vitamin · Cofactor precursor","presentation_section":"3.1.1"},{"atom_id":"PM9-DIT-1","label":"Glutamate","short_descriptor":"GABA synthesis substrate","presentation_section":"3.1.2"}],"references":["[Martin & Rimvall (1993) — Regulation of Gamma-Aminobutyric Acid Synthesis in the Brain](/docs/papers/BRAIN-Diet-References#martin_regulation_1993)","[Lee et al. (2000) — Human Pyridoxal Kinase: Overexpression and Properties of the Recombinant Enzyme](/docs/papers/BRAIN-Diet-References#lee_human_2000)","[Tang et al. (2005) — Crystal Structure of Pyridoxal Kinase in Complex with Roscovitine and Derivatives](/docs/papers/BRAIN-Diet-References#tang_crystal_2005)","[Navarro et al. (2013) — Catalytic and Regulatory Roles of Metal-Nucleotide Species in Human Pyridoxal Kinase](/docs/papers/BRAIN-Diet-References#navarro_catalytic_2013)","[Abedrabbo et al. (2026) — Biomarkers in Pyridoxine-Dependent Epilepsy (PDE-ALDH7A1)](/docs/papers/BRAIN-Diet-References#abedrabbo_classical_2026)","[Mason et al. (2001) — Decrease in GABA Synthesis Rate Following GABA-Transaminase Inhibition Correlates with Decreased GAD67](/docs/papers/BRAIN-Diet-References#mason_decrease_2001)","[Edden et al. (2012) — Reduced GABA Concentration in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#edden_reduced_2012)","[Puts et al. (2020) — Reduced Striatal GABA in Unmedicated Children with ADHD At 7T](/docs/papers/BRAIN-Diet-References#puts_reduced_2020)","[Bollmann et al. (2015) — Developmental Changes in GABA Levels in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bollmann_developmental_2015)","[Ende et al. (2016) — Impulsivity and Aggression in Female BPD and ADHD Patients: Association with ACC Glutamate and GABA](/docs/papers/BRAIN-Diet-References#ende_impulsivity_2016)","[Winkelman et al. (2008) — Reduced Brain GABA in Primary Insomnia](/docs/papers/BRAIN-Diet-References#winkelman_reduced_2008)","[Morgan et al. (2012) — Cortical GABA Levels in Primary Insomnia](/docs/papers/BRAIN-Diet-References#morgan_cortical_2012)","[Spiegelhalder et al. (2016) — Magnetic Resonance Spectroscopy in Patients with Insomnia](/docs/papers/BRAIN-Diet-References#spiegelhalder_magnetic_2016)","[Field et al. (2022) — High-Dose Vitamin B6 Supplementation Reduces Anxiety and Strengthens Visual Surround Suppression](/docs/papers/BRAIN-Diet-References#field_high-dose_2022)","[Ulrich et al. (2023) — Sex Differences in Anxiety and Threat Avoidance in GAD65 Knock-Out Mice](/docs/papers/BRAIN-Diet-References#ulrich_sex_2023)","[Mousain-Bosc et al. (2006) — Improvement of Neurobehavioral Disorders in Children Supplemented with Magnesium-vitamin B6](/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006)","[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)","[Cataldo et al. (2024) — Insights from Physiology, Genomics, and Proteomics](/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024)","[Manor et al. (1996) — Cortical GABA Turnover from 1-13C-Labelled Glucose](/docs/papers/BRAIN-Diet-References#manor_rate_1996)","[Bayoumi et al. (1972) — Dietary Vitamin B6 Deficiency and GABA Metabolism in Rat Brain](/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972)","[Erecińska et al. (1996) — Ketone Bodies and GABA Formation in Rat Brain Synaptosomes](/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996)","[Zhang et al. (2015) — Ketone-Derived Carbon Contribution to GABA in Ketotic Rat Brain](/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015)","[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)","[FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)","[Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)"],"system_optimisation_practices":[],"lifestyle_priorities":[],"scientific_findings":[{"id":"PM9-F1","finding_label":"GAD cofactor occupancy and regulatory capacity"},{"id":"PM9-F2","finding_label":"PDXK metal-nucleotide regulation in vitro"},{"id":"PM9-IC1","finding_label":"GABA levels do not tell us how quickly GABA is being made"},{"id":"PM9-F3","finding_label":"ADHD GABA levels vary by age and brain region"},{"id":"PM9-F4","finding_label":"Anterior cingulate GABA correlates with impulsivity and aggression"},{"id":"PM9-F5","finding_label":"Insomnia studies disagree on whether GABA is higher or lower"},{"id":"PM9-F6","finding_label":"B6 trial: anxiety comparison and visual inhibition differ"},{"id":"PM9-F7","finding_label":"Removing GAD65 increased social preference in mice"}]};
+
+<V1Intro pmId="BRS1-FM4-PM9" />
+
+<PreviewEnhancements data={previewDisplayData} />
+
+
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs1-portrait-thumbnail.png"
+    alt="BRS1 — Neurotransmitter Regulation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS1-4-9 - GABA Synthesis Capacity
+
+(Building the Brain's Main Inhibitory Signal)
+
+## 1. Mission & Overview + Dietary Levers
+
+### Mission
+
+Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.
+
+
+**Intervention Dominance:** Diet-Supported
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Vitamin B6
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Glutamate
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No mapping established.
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+### Overview
+
+The brain makes GABA, its main calming transmitter, by converting glutamate with an enzyme that needs the active form of vitamin B6. [[1]](#pm-ref-1) That reaction supplies GABA for later inhibitory signalling. [[1]](#pm-ref-1) Dietary vitamin B6 supplies the cofactor precursor. Experimental isoform differences suggest potentially recruitable capacity; ordinary dietary enhancement of human brain synthesis is not established. [[1]](#pm-ref-1) [[2]](#pm-ref-2)
+
+- **Benefits:** Making GABA keeps inhibitory signalling supplied. [[1]](#pm-ref-1) A measured GABA concentration is not the same as the speed of synthesis. [[6]](#pm-ref-6)
+- **Implementation Notes:** Vitamin B6 is the dietary source of the active cofactor, pyridoxal 5′-phosphate. [[1]](#pm-ref-1) [[2]](#pm-ref-2) Glutamate is the substrate already in the pathway, not a dietary glutamate target. [[1]](#pm-ref-1) A high-dose vitamin B6 trial did not establish an anxiety improvement versus placebo and did not measure GABA synthesis; it does not set a dose for this mechanism. [[14]](#pm-ref-14)
+
+## 2. Primary Biological Effects
+GAD-dependent GABA synthesis capacity (glutamate substrate + PLP cofactor)
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No PM-specific optimisation protocol is admitted in this draft.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No PM-specific lifestyle protocol is admitted in this draft.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+BRS1-FM4-PM9 represents glutamate decarboxylase-dependent GABA synthesis capacity — the biological inputs are glutamate substrate and pyridoxal-5′-phosphate cofactor sufficiency — within the [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) cluster. Whether ordinary dietary variation changes human brain GABA synthesis has not been demonstrated.
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>GABA synthesis, GAD activity, and cofactor sufficiency</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (Glutamate to GABA conversion)
+
+GABA is synthesised from glutamate via glutamate decarboxylase (GAD), an enzyme that requires pyridoxal-5′-phosphate (active B6) as a coenzyme. Experimental differences in GAD65/GAD67 cofactor occupancy suggest potentially recruitable catalytic capacity; its physiological importance in the human brain remains uncertain → [Martin & Rimvall, 1993]
+
+#### (Formation of the pyridoxal-5′-phosphate cofactor)
+
+Pyridoxal-5′-phosphate is formed from dietary B6 vitamers by pyridoxal kinase. In recombinant human PDXK assays, zinc was the most effective tested divalent cation under specified in-vitro conditions, with activity depending on the relative concentrations of metal and nucleotide. This does not establish physiological zinc limitation or dietary zinc responsiveness. Because pyridoxal-5′-phosphate serves over 140 enzymes, B6 is an input to this pathway but not a GABA-specific lever → [Lee et al., 2000]; [Navarro et al., 2013]
+
+#### (What this mechanism does not cover)
+
+This PM is the synthesis arm only. GABA concentration, degradation and turnover, transport, receptor signalling, generic inhibitory tone, excitation/inhibition balance and NMDA signalling all lie outside it. Measured GABA concentration in particular cannot stand in for synthesis capacity: inhibiting GABA degradation raises concentration while lowering synthesis rate → [Mason et al., 2001]
+
+#### (Relation to BRS1(FM4) and BRS1-FM4-PM10)
+
+BRS1-FM4-PM9 supplies the **synthesis arm** of the E/I cluster, while [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation) describes the integrated state and [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) addresses glutamate clearance.
+
+#### (Key constraint)
+
+General protein and amino-acid sufficiency provides nutritional resource context, but ordinary dietary intake has not been shown to control neuronal glutamate availability or GAD-dependent GABA synthesis. [BRS1(KC1)](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance) remains resource context and is not equivalent to PM9's glutamate substrate relationship.
+
+Substrate and cofactor sufficiency are therefore the inputs this mechanism depends on. Whether ordinary dietary variation in B6, cofactors or protein changes human brain GABA synthesis has not been demonstrated — §4.1 sets out what the evidence supports, and dietary levers require their own separate evidence adjudication.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+Experimental GAD65/GAD67 cofactor-occupancy differences suggest potentially recruitable synthesis capacity. This is not a demonstrated reserve response to ordinary dietary vitamin B6 in the human brain. [[1]](#pm-ref-1) Recombinant human pyridoxal-kinase studies show metal-dependent PLP formation under specified assay conditions, but do not establish physiological zinc limitation. [[2]](#pm-ref-2) [[4]](#pm-ref-4) This evidence supports biochemical dependence, not selective enhancement of brain GABA production from additional vitamin B6 or zinc intake.
+
+<V1Finding finding={{"id":"PM9-F1","finding_label":"GAD cofactor occupancy and regulatory capacity","finding_summary":"GAD65 and GAD67 differ in their typical PLP-bound states, providing experimental evidence for distinct modes of regulating GABA synthesis. The larger apoenzyme fraction associated with GAD65 suggests potentially recruitable catalytic capacity. However, independent replication of the specific occupancy finding has not yet been established in this assessment, and the physiological importance of this proposed reserve mechanism in the human brain remains uncertain.","finding_interpretation":"Vitamin B6 is biologically required for this reaction. This does not demonstrate that increasing vitamin B6 intake increases GABA synthesis in adequately nourished humans.","fm_rollup":true,"finding_statement":"GAD65 and GAD67 differ in their typical PLP-bound states, providing experimental evidence for distinct modes of regulating GABA synthesis. The larger apoenzyme fraction associated with GAD65 suggests potentially recruitable catalytic capacity. However, independent replication of the specific occupancy finding has not yet been established in this assessment, and the physiological importance of this proposed reserve mechanism in the human brain remains uncertain.","finding_discriminator":"Concerns the cofactor dependence of the enzyme itself. PM9-F2 concerns how that cofactor is formed upstream.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"GAD65 and GAD67 differ in their typical PLP-bound states, providing experimental evidence for distinct modes of regulating GABA synthesis. The larger apoenzyme fraction associated with GAD65 suggests potentially recruitable catalytic capacity. However, independent replication of the specific occupancy finding has not yet been established in this assessment, and the physiological importance of this proposed reserve mechanism in the human brain remains uncertain.","synthesis_limitations":"Exact occupancy uncertainty, independent preparation counts and replication of the complete reserve proposition remain unverified; B/P/R are conditional. Human physiological importance of the proposed reserve mechanism remains uncertain. No inference of increased human brain GABA synthesis from dietary B6 above adequacy.","evidence_considered":[{"label":"Martin & Rimvall (1993)","citation_key":"martin_regulation_1993","href":"/docs/papers/BRAIN-Diet-References#martin_regulation_1993","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"GAD65 is substantially apoenzyme and recruitable by pyridoxal-5-phosphate; GAD67 is largely holoenzyme and supports basal synthesis.","assessment":{"study":"Authoritative review of the biochemical regulation of brain GABA synthesis, covering glutamate decarboxylase isoform properties, cofactor binding equilibria and the apoenzyme/holoenzyme distinction.","population":"Mammalian brain tissue and purified enzyme preparations; no human participants.","result":"Glutamate decarboxylase activity depends on pyridoxal-5-phosphate binding. A substantial fraction of GAD65 is present as apoenzyme and can be activated by increased cofactor availability, whereas GAD67 is predominantly holoenzyme. Short-term regulation of GABA synthesis therefore operates largely through the apo/holo equilibrium.","effect_magnitude":"No single interpretable effect estimate; the review reports enzymological parameters across preparations rather than a pooled estimate.","evidence_summary":"Establishes that pyridoxal-5-phosphate availability is a genuine regulatory input to GABA synthesis capacity, and locates that regulation in reserve rather than basal synthesis.","limitations":"A review, not primary data, and predates in vivo human flux methods. It does not quantify the dietary range over which cofactor availability becomes limiting in humans."},"canonical_reference":{"author_year":"Martin and Rimvall (1993)","number":1,"anchor":"#pm-ref-1"}}],"connected_supportive_evidence":[{"label":"Bayoumi et al. (1972)","citation_key":"bayoumi_vitamin_b6_deficiency_1972","href":"/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972","data_level":"Animal Data","why_relevant":"Severe experimental dietary vitamin B6 deficiency in rats reduced brain glutamic acid decarboxylase activity and GABA concentration, supporting the biological sensitivity of GAD/GABA-related endpoints to marked cofactor depletion.","why_excluded":"Animal evidence under severe experimental deficiency. It measured GAD activity and GABA concentration, not in-vivo GABA synthesis flux, and does not establish responsiveness across ordinary human dietary vitamin B6 variation.","canonical_reference":{"author_year":"Bayoumi et al. (1972)","number":20,"anchor":"#pm-ref-20"}},{"label":"Erecińska et al. (1996)","citation_key":"erecinska_regulation_1996","href":"/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996","data_level":"Cellular / Molecular","why_relevant":"Stable-isotope experiments in isolated rat-brain synaptosomes found that acetoacetate and beta-hydroxybutyrate increased internal glutamate, GABA concentration and the rate of GABA formation, providing PM9-relevant evidence that ketone metabolism can alter substrate partitioning into GABA.","why_excluded":"Isolated preclinical nerve-terminal preparation rather than an intact animal or human dietary intervention. It identifies upstream metabolic context and does not alter PM9-F1's PLP proposition, establish ketones as a core PM9 substrate/cofactor, or demonstrate human GAD or synthesis-flux effects.","canonical_reference":{"author_year":"Erecińska et al. (1996)","number":21,"anchor":"#pm-ref-21"}},{"label":"Zhang et al. (2015)","citation_key":"zhang_decreased_carbon_2015","href":"/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015","data_level":"Animal Data","why_relevant":"In ketogenic-diet-fed rats, carbon contribution from labelled acetoacetate to brain GABA increased markedly while total GABA concentration remained unchanged, connecting diet-induced ketosis with altered upstream metabolic contribution to GABA formation.","why_excluded":"Preclinical rat evidence with tracer incorporation rather than a demonstrated human GAD-activity or GABA synthesis-flux effect. It is connected metabolic context, not evidence that ketones are another core PM9 substrate/cofactor or a human Direct Dietary Lever.","canonical_reference":{"author_year":"Zhang et al. (2015)","number":22,"anchor":"#pm-ref-22"}},{"label":"Cataldo et al. (2024)","citation_key":"cataldo_comprehensive_2024","href":"/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024","data_level":"Cellular / Molecular","why_relevant":"Characterises glutamate decarboxylase physiology, genomics and proteomics in Levilactobacillus brevis, confirming the same PLP-dependent decarboxylation chemistry in a microbial system.","why_excluded":"It is a bacterial study. It does not establish human PLP-dependent GAD biochemistry.","canonical_reference":{"author_year":"Cataldo et al. (2024)","number":18,"anchor":"#pm-ref-18"}},{"label":"Abedrabbo et al. (2026)","citation_key":"abedrabbo_classical_2026","href":"/docs/papers/BRAIN-Diet-References#abedrabbo_classical_2026","data_level":"Mechanistic","why_relevant":"Pyridoxine-dependent epilepsy arising from ALDH7A1 deficiency causes accumulation of metabolites that inactivate pyridoxal-5-phosphate, producing seizures that respond to pyridoxine or pyridoxal-5-phosphate administration. This is the clearest human demonstration that availability of GAD's cofactor can limit neurological function, and it establishes the GABA synthesis pathway as genuinely rate-limiting under severe constraint. Cofactor inactivation in ALDH7A1 deficiency produces pyridoxine-responsive seizures, evidencing a rate-limiting role for pyridoxal-5-phosphate availability and human proof that cofactor availability can limit GAD-dependent function at the severe end.","why_excluded":"Demonstrated only at the extreme of severe, genetically driven cofactor inactivation. It shows the pathway can be rate-limiting, not that it is rate-limiting across ordinary dietary variation, and it cannot be used to support a dietary lever. The affected outcome is seizure control, which is not among the phenome connections on this page. The cofactor inactivation in this disorder also affects many other pyridoxal-5-phosphate-dependent enzymes, so the phenotype is not attributable to GAD alone. A narrative review of a rare genetic disorder rather than primary or dose-ranging data. The mechanism is cofactor inactivation, not dietary insufficiency, and multiple enzymes are affected simultaneously.","canonical_reference":{"author_year":"Abedrabbo et al. (2026)","number":5,"anchor":"#pm-ref-5"}}],"evidence_dependency":["Martin is also a co-author of Mason et al. (2001); the same laboratory lineage supplies both the isoform enzymology here and the flux-versus-concentration result there."],"presentation":"mechanistic-basis","informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"},{"phenome":"Social Engagement Capacity","href":"/docs/phenomes/details/ph018-social-engagement-capacity"}]}} />
+
+<div id="brs1-4-9-f1-l1" className="scientific-lesson brs-fm-hub-item" data-brs-fm-hub data-pm-id="BRS1-FM4-PM9" data-finding-id="PM9-F1">
+<div className="brs-fm-hub-shell">
+<button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+<span className="brs-fm-hub-chevron" aria-hidden="true"></span>
+<span className="scientific-lesson-heading">
+<span className="scientific-lesson-kicker">
+<svg className="scientific-lesson-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+<path fill="currentColor" d="M5 4.5A2.5 2.5 0 0 1 7.5 2H20v16.2A2.8 2.8 0 0 0 17.2 21H7.5A2.5 2.5 0 0 0 5 18.5v-14Zm2.5-.5a.5.5 0 0 0-.5.5v14c0 .3.1.6.3.8.2.2.5.2.7.2H18V4H7.5ZM8 7h8v1.5H8V7Zm0 3.5h8V12H8v-1.5Z"/>
+</svg>
+SCIENTIFIC LESSON · F1-L1
+</span>
+<strong>Apoenzymes and Holoenzymes</strong>
+</span>
+</button>
+<div className="brs-fm-hub-panel" hidden>
+
+### What are apoenzymes and holoenzymes?
+
+An **apoenzyme** is an enzyme without its required bound cofactor. It may have little or no catalytic activity until the cofactor binds.
+
+A **holoenzyme** is the enzyme with its required cofactor bound, making it catalytically competent.
+
+For glutamate decarboxylase (GAD), the relevant cofactor is pyridoxal 5′-phosphate (PLP), the active coenzyme form of vitamin B6.
+
+An **isoform** is a distinct molecular form of an enzyme. A **cofactor** is a non-protein component required for enzyme activity. **Catalytic capacity** means the enzyme’s potential to carry out a reaction under suitable conditions.
+
+### How does GAD produce GABA?
+
+GAD converts L-glutamate into gamma-aminobutyric acid (GABA), releasing carbon dioxide (CO₂).
+
+The reaction is:
+
+**L-glutamate → GABA + CO₂**
+
+Catalysed by PLP-bound GAD.
+
+PLP is a cofactor, not a stoichiometrically consumed substrate in the principal decarboxylation reaction.
+
+### Why are there two forms of GAD?
+
+GAD65 and GAD67 are two isoforms of GAD, encoded by different genes.
+
+Both catalyse GABA synthesis and require PLP.
+
+**GAD65:** A substantial fraction typically exists without bound PLP. This apoenzyme pool can provide recruitable catalytic capacity when additional GABA synthesis is needed.
+
+**GAD67:** A larger fraction is normally PLP-bound and catalytically competent. It contributes more continuously to basal GABA synthesis.
+
+These are differences in typical enzyme states, not permanent identities.
+
+Both GAD65 and GAD67 can form apoenzyme and holoenzyme states. PLP binding and dissociation participate in their regulation, although the kinetics and relative proportions differ. This lesson explains the PM9-F1 mechanism supported by Martin and Rimvall (1993) [[1]](#pm-ref-1).
+
+<AccessibleMermaid
+  title="GAD isoform apoenzyme and holoenzyme states"
+  description="GAD65 and GAD67 can each exist without bound PLP as apoenzymes or with bound PLP as catalytically competent holoenzymes. GAD65 typically has a larger apoenzyme fraction and GAD67 is generally more highly PLP-bound. Both PLP-bound holoenzymes catalyse the same conversion of L-glutamate to GABA and carbon dioxide."
+  value={'flowchart TB\n    subgraph S65["GAD65 — larger apoenzyme fraction"]\n        A65["Apo-GAD65<br/>PLP not bound"]\n        H65["Holo-GAD65<br/>PLP bound"]\n        A65 -->|"PLP binding"| H65\n        H65 -.->|"PLP dissociation"| A65\n    end\n\n    subgraph S67["GAD67 — predominantly holoenzyme"]\n        A67["Apo-GAD67<br/>PLP not bound"]\n        H67["Holo-GAD67<br/>PLP bound"]\n        A67 -->|"PLP binding"| H67\n        H67 -.->|"PLP dissociation"| A67\n    end\n\n    H65 --> R["L-glutamate → GABA + CO₂"]\n    H67 --> R\n\n    classDef apo fill:#fef3c7,stroke:#d97706,color:#78350f\n    classDef holo fill:#dbeafe,stroke:#2563eb,color:#1e3a8a\n    classDef reaction fill:#dcfce7,stroke:#16a34a,color:#14532d\n\n    class A65,A67 apo\n    class H65,H67 holo\n    class R reaction'}
+/>
+
+### Diagram interpretation
+
+- Both isoforms can bind PLP and form catalytically competent holoenzyme.
+- GAD65 generally has a larger apoenzyme fraction.
+- GAD67 is generally more highly saturated with PLP.
+- Both holoenzymes catalyse the same principal GABA-producing reaction.
+- Dashed arrows indicate PLP dissociation pathways, not a claim that both isoforms have identical regulatory kinetics.
+
+The diagram is qualitative. It does not assign percentages or fixed equilibrium proportions.
+
+### Why this matters
+
+The GAD65/GAD67 distinction illustrates how biochemical capacity depends not only on the quantity of an enzyme but also on its functional state.
+
+A PLP-unbound enzyme may represent potential catalytic capacity that can be recruited through cofactor binding.
+
+This provides a mechanistic basis for distinguishing ongoing GABA synthesis from potentially recruitable synthesis capacity.
+
+It does not establish that dietary vitamin B6 intake is the rate-limiting factor controlling this process in adequately nourished humans.
+
+**Evidence limitation:** GAD isoform behaviour and PLP binding establish biochemical regulation of GABA synthesis capacity. They do not demonstrate that increasing dietary vitamin B6 above adequate intake increases human brain GABA synthesis, improves inhibitory neurotransmission or treats ADHD.
+
+Do not equate enzyme activation with increased whole-brain GABA concentration or improved clinical outcomes.
+
+</div>
+</div>
+</div>
+
+<V1Finding finding={{"id":"PM9-F2","finding_label":"PDXK metal-nucleotide regulation in vitro","finding_summary":"In recombinant human pyridoxal kinase (PDXK) assays, zinc was the most effective tested divalent cation under the specified in-vitro metal-to-nucleotide conditions. Activity depends on metal–nucleotide speciation and can be inhibited by pyridoxal, ZnATP and excess free zinc. These experiments do not establish physiological zinc limitation, dietary zinc responsiveness or increased human brain GABA synthesis.","finding_interpretation":"This establishes upstream pathway biology only. It does not show that dietary zinc intake, zinc status, or ordinary B6 intake changes human brain GABA synthesis.","finding_statement":"In recombinant human pyridoxal kinase (PDXK) assays, zinc was the most effective tested divalent cation under the specified in-vitro metal-to-nucleotide conditions. Activity depends on metal–nucleotide speciation and can be inhibited by pyridoxal, ZnATP and excess free zinc. These experiments do not establish physiological zinc limitation, dietary zinc responsiveness or increased human brain GABA synthesis.","finding_discriminator":"Concerns formation of the cofactor upstream of the enzyme. PM9-F1 concerns the enzyme's dependence on it.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Pyridoxal kinase (PDXK) phosphorylates vitamin B6 vitamers. Pyridoxine-5′-phosphate oxidase (PNPO) completes activation of phosphorylated pyridoxine/pyridoxamine to pyridoxal 5′-phosphate (PLP). The experimentally assessed metal/nucleotide effects depend on assay conditions; MgATP evidence prevents a universal zinc-preference claim. PLP is used by many enzyme systems, not selectively by glutamate decarboxylase.","synthesis_limitations":"Pivotal Lee/Navarro full methods and exact uncertainty remain unverified; B/P/R are conditional. No human dietary zinc/B6, physiological PLP-availability or brain GABA effect is established by these assays.","evidence_considered":[{"label":"Lee et al. (2000)","citation_key":"lee_human_2000","href":"/docs/papers/BRAIN-Diet-References#lee_human_2000","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"In recombinant human PDXK assays, zinc was the most effective tested divalent cation under the specified in-vitro conditions.","assessment":{"study":"Human brain pyridoxal kinase cDNA was isolated and the enzyme overexpressed in E. coli as a maltose-binding-protein fusion, then purified and kinetically characterised.","population":"Recombinant human brain enzyme expressed in bacteria; no tissue or human participants.","result":"Under the specified recombinant-enzyme assay conditions, zinc was the most effective tested divalent cation supporting phosphorylation of pyridoxal. Maximum catalytic activity occurred over a narrow pH range of 5.5 to 6.0. Km values were 97 micromolar for pyridoxal and 12 micromolar for ATP.","effect_magnitude":"Km 97 micromolar (pyridoxal) and 12 micromolar (ATP); relative metal efficacy reported qualitatively rather than as a ratio.","evidence_summary":"Places zinc inside the pathway that forms GAD's cofactor as upstream enzymology.","limitations":"Recombinant enzyme in vitro. The acidic pH optimum and bacterial expression system limit extrapolation to intracellular neuronal conditions, and no zinc-status or intake variable was examined."},"canonical_reference":{"author_year":"Lee et al. (2000)","number":2,"anchor":"#pm-ref-2"}},{"label":"Tang et al. (2005)","citation_key":"tang_crystal_2005","href":"/docs/papers/BRAIN-Diet-References#tang_crystal_2005","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"Sheep-brain PDXK structural study; contextual binding evidence, not a human zinc-regulation replication.","assessment":{"study":"Crystallographic inhibitor-binding study of sheep-brain pyridoxal kinase.","population":"Purified sheep-brain pyridoxal kinase; no human participants.","result":"Sheep-brain PDXK structural study; contextual binding evidence, not a human zinc-regulation replication.","effect_magnitude":"Structural study; no effect estimate applicable.","evidence_summary":"Sheep-brain PDXK structural study; contextual binding evidence, not a human zinc-regulation replication.","limitations":"Structural and in vitro. The pharmacological focus is the kinase as a drug target; nothing is measured about GABA, brain tissue or physiology."},"canonical_reference":{"author_year":"Tang et al. (2005)","number":3,"anchor":"#pm-ref-3"}},{"label":"Navarro et al. (2013)","citation_key":"navarro_catalytic_2013","href":"/docs/papers/BRAIN-Diet-References#navarro_catalytic_2013","data_level":"Cellular / Molecular","evidence_source":"bounded-external-search","directional_finding":"In purified human PDXK assays, several metals supported activity and zinc was the most effective tested cation under the specified in-vitro conditions, but the effect depended on metal-to-nucleotide ratio and the enzyme was inhibited by excess pyridoxal and by zinc-ATP.","assessment":{"study":"Kinetic characterisation of human pyridoxal kinase with explicit determination of the metal-nucleotide species governing activity.","population":"Purified human recombinant enzyme; in vitro kinetics.","result":"Activity was supported by several metals, zinc being the most effective, but the magnitude depended strongly on the relative concentrations of metal and nucleotide. The true substrate is the metal-nucleotide complex; free ATP species did not support activity. The enzyme showed substrate inhibition by pyridoxal and weak inhibition by zinc-ATP.","effect_magnitude":"Reported as kinetic constants across metal-nucleotide species rather than a single comparative effect size.","evidence_summary":"Supplies the concentration and dose constraints on the zinc step, and shows zinc is most effective rather than uniquely required.","limitations":"In vitro kinetics at defined metal and nucleotide concentrations that need not correspond to intracellular conditions. No physiological or dietary variable is tested."},"canonical_reference":{"author_year":"Navarro et al. (2013)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["All three studies characterise the same enzyme using purified or recombinant protein, so they provide convergent mechanistic evidence rather than independent physiological replication. None supplies physiological or dietary evidence."],"presentation":"mechanistic-basis","connected_supportive_evidence":[],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"}]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory tone can associate with neuronal excitability. This page does not show that NF-κB controls GAD-dependent GABA synthesis.
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Cellular energy supports enzyme function generally. No GABA-specific energy intervention is established here.
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic state can affect brain metabolism. Ordinary glucose appearance is not shown to set GABA synthesis capacity.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM4-PM10 - Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling) — Clears and recycles glutamate, the substrate this PM decarboxylates. Shared glutamate pool, not GAD activity.
+- [BRS1-FM4-PM11 - Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) — Limits excitotoxic injury if glutamate handling fails. Association with glutamate stress, not a synthesis dependency.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Emotional Regulation — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Emotional Regulation — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph003-emotional-regulation" aria-label="Open page: Emotional Regulation — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Medium
+- **Evidence Confidence:** Medium
+- **Rationale:** GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression  Ende et al. (2016) [[10]](#pm-ref-10), supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate  Mason et al. (2001) [[6]](#pm-ref-6); Manor et al. (1996) [[19]](#pm-ref-19), and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking.
+
+**Supporting evidence**
+
+<V1Finding finding={{"id":"PM9-F3","finding_label":"ADHD GABA levels vary by age and brain region","finding_summary":"Brain GABA concentration in ADHD differs from controls inconsistently by age and region - lower in children, higher in adults - and no study in this body of evidence measured GABA synthesis.","finding_interpretation":"These are GABA pool measurements, not GABA synthesis rates. They describe the clinical population context but cannot support claims about synthesis capacity for this mechanism.","finding_statement":"Brain GABA concentration in ADHD differs from controls inconsistently by age and region - lower in children, higher in adults - and no study in this body of evidence measured GABA synthesis.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Magnetic resonance spectroscopy has found reduced GABA concentration in children with ADHD, including in striatum at high field, while a developmental study found higher GABA in ADHD adults. Taken together the literature describes an age- and region-dependent difference rather than a stable GABA deficit in ADHD. Because these are concentration measurements, none of it speaks to synthesis capacity; it functions here as evidence about the GABA pool in the target clinical population.","synthesis_limitations":"All measurements are of concentration, not synthesis, so they cannot inform synthesis capacity. Samples are small, regions and acquisition methods differ, and the direction is not consistent. Edden is an author of both the paediatric report and the developmental study, and shares group and spectroscopy method with the striatal report, so apparent replication across three citations overstates the independence of the evidence.","evidence_considered":[{"label":"Edden et al. (2012)","citation_key":"edden_reduced_2012","href":"/docs/papers/BRAIN-Diet-References#edden_reduced_2012","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Lower GABA concentration in children with ADHD than in typically developing controls.","assessment":{"study":"Edited magnetic resonance spectroscopy comparison of GABA concentration between children with ADHD and typically developing controls.","population":"Children with ADHD and typically developing control children.","result":"GABA concentration was reduced in the ADHD group relative to controls.","effect_magnitude":"A group difference in GABA concentration; small sample limits precision of the estimate.","evidence_summary":"Supports a lower GABA pool in paediatric ADHD; silent on synthesis capacity and on any phenome outcome.","limitations":"Concentration rather than synthesis, small sample, single region, and cross-sectional so causal direction is unavailable."},"canonical_reference":{"author_year":"Edden et al. (2012)","number":7,"anchor":"#pm-ref-7"}},{"label":"Puts et al. (2020)","citation_key":"puts_reduced_2020","href":"/docs/papers/BRAIN-Diet-References#puts_reduced_2020","data_level":"Human Mechanistic","evidence_source":"repository-inherited","directional_finding":"Reduced striatal GABA in unmedicated children with ADHD at 7 tesla.","assessment":{"study":"High-field (7T) spectroscopy of striatal GABA in unmedicated children with ADHD versus controls.","population":"Unmedicated children with ADHD and control children.","result":"Striatal GABA was reduced in the ADHD group.","effect_magnitude":"A regional group difference in GABA; small sample.","evidence_summary":"Extends the paediatric concentration finding to striatum with improved field strength.","limitations":"Concentration rather than synthesis; shares research group and editing methodology with Edden et al. (2012), so it is not independent confirmation."},"canonical_reference":{"author_year":"Puts et al. (2020)","number":8,"anchor":"#pm-ref-8"}},{"label":"Bollmann et al. (2015)","citation_key":"bollmann_developmental_2015","href":"/docs/papers/BRAIN-Diet-References#bollmann_developmental_2015","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"GABA differences in ADHD were age-dependent, with higher rather than lower GABA in adults.","assessment":{"study":"Spectroscopy study of developmental changes in GABA levels across children and adults with ADHD and matched controls.","population":"Children and adults with ADHD and age-matched control participants.","result":"GABA differences between ADHD and control groups varied with age: the paediatric reduction was not reproduced in adults, in whom GABA was higher.","effect_magnitude":"An age-by-group interaction in GABA level rather than a single group contrast.","evidence_summary":"Contradicts a uniform GABA deficit account of ADHD and establishes age dependence of the concentration difference.","limitations":"Concentration rather than synthesis; cross-sectional age comparison rather than longitudinal; Edden is a co-author, so this is not fully independent of the paediatric reports it qualifies."},"canonical_reference":{"author_year":"Bollmann et al. (2015)","number":9,"anchor":"#pm-ref-9"}}],"evidence_dependency":["Edden is an author of both Edden et al. (2012) and Bollmann et al. (2015), and Puts et al. (2020) comes from the same group and edited-spectroscopy lineage. All three citations therefore share authorship or methodology and must not be read as three independent replications."],"presentation":"phenome-relationship","primary_phenome":"Emotional Regulation","connected_supportive_evidence":[],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
+
+<V1Finding finding={{"id":"PM9-F4","finding_label":"Anterior cingulate GABA correlates with impulsivity and aggression","finding_summary":"In women with ADHD or borderline personality disorder, lower anterior cingulate GABA concentration is associated with greater aggression, and lower GABA with greater impulsivity, linking the regional GABA pool to affect-regulation outcomes in humans.","finding_interpretation":"This links the regional GABA pool to affect-regulation measures, but it measures concentration — not synthesis — and is correlational, so it cannot establish that changing GABA synthesis would change emotional regulation.","finding_statement":"In women with ADHD or borderline personality disorder, lower anterior cingulate GABA concentration is associated with greater aggression, and lower GABA with greater impulsivity, linking the regional GABA pool to affect-regulation outcomes in humans.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Measured in vivo at 3 tesla in the anterior cingulate cortex, GABA was significantly lower in women with ADHD than in healthy controls, and across patient groups impulsivity was positively related to glutamate and negatively related to GABA, while aggression showed a negative correlation with GABA specifically. This provides human in vivo evidence that the anterior cingulate GABA pool tracks the regulation of anger and impulse in a clinically relevant population, and it is the closest direct evidence here for a GABA-to-affect link.","synthesis_limitations":"Concentration, not synthesis, so measured GABA levels cannot be read as evidence about synthesis capacity. Cross-sectional and correlational, in female patients only, with modest group sizes, so it establishes association rather than causation and does not generalise to men. Impulsivity and aggression are components of emotional regulation rather than the whole construct. The association rests on a single study.","evidence_considered":[{"label":"Ende et al. (2016)","citation_key":"ende_impulsivity_2016","href":"/docs/papers/BRAIN-Diet-References#ende_impulsivity_2016","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Anterior cingulate GABA was lower in ADHD than controls, and lower GABA correlated with greater aggression and greater impulsivity.","assessment":{"study":"Proton magnetic resonance spectroscopy at 3 tesla measuring anterior cingulate glutamate-to-creatine ratio and GABA, related to self-reported impulsivity, anger and aggression.","population":"Female patients with borderline personality disorder (n=26), female patients with ADHD (n=22) and female healthy controls (n=30).","result":"Both patient groups scored higher than controls on impulsivity, anger and aggression. Anterior cingulate GABA was significantly lower in the ADHD group than in controls. Impulsivity was positively related to glutamate and negatively to GABA; for aggression, only a negative correlation with GABA was demonstrated.","effect_magnitude":"Reported as group contrasts and correlation coefficients between neurometabolite level and questionnaire scores; no standardised effect size is given for the key GABA-aggression association.","evidence_summary":"Supplies human in vivo evidence bridging the regional GABA pool to affect-regulation outcomes, in a population that includes the target clinical group.","limitations":"Female-only sample, modest group sizes, cross-sectional and correlational. Two clinical groups are pooled for the correlational analyses. GABA concentration is measured, not synthesis."},"canonical_reference":{"author_year":"Ende et al. (2016)","number":10,"anchor":"#pm-ref-10"}}],"connected_supportive_evidence":[{"label":"Briguglio et al. (2018)","citation_key":"briguglio_dietary_2018","href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","data_level":"Mechanistic","why_relevant":"Narrative review of dietary neurotransmitter precursors and gut-brain signalling that frames why dietary inputs to GABAergic function are plausible.","why_excluded":"A narrative review, not human data, and its GABA content concerns receptor expression and probiotic or pharmacologic GABAergic routes that fall outside the synthesis scope of this mechanism.","canonical_reference":{"author_year":"Briguglio et al. (2018)","number":17,"anchor":"#pm-ref-17"}}],"presentation":"phenome-relationship","primary_phenome":"Emotional Regulation","informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Sleep / Calming Tone — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Sleep / Calming Tone — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph008-sleep-calming-tone" aria-label="Open page: Sleep / Calming Tone — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** High
+- **Evidence Confidence:** Low
+- **Rationale:** GABAergic inhibition supports calming neurophysiology relevant to sleep and arousal balance. In adults with polysomnography-verified primary insomnia, brain GABA concentration has been compared with good sleepers in three independent samples, reporting lower, higher, and null group differences  Winkelman et al. (2008) [[11]](#pm-ref-11); Morgan et al. (2012) [[12]](#pm-ref-12); Spiegelhalder et al. (2016) [[13]](#pm-ref-13). However, the human findings are inconsistent, and these studies measure GABA concentration rather than GABA synthesis capacity.
+
+**Supporting evidence**
+
+<V1Finding finding={{"id":"PM9-F5","finding_label":"Insomnia studies disagree on whether GABA is higher or lower","finding_summary":"Cortical GABA concentration in polysomnography-verified primary insomnia is directionally inconsistent across independent samples - lower, 12% higher, and unchanged - with elevated GABA interpreted as an adaptive allostatic response to chronic hyperarousal.","finding_interpretation":"Because only GABA concentration was measured, these studies cannot inform GABA synthesis capacity. They also do not support assuming that more GABA is better for sleep.","finding_statement":"Cortical GABA concentration in polysomnography-verified primary insomnia is directionally inconsistent across independent samples - lower, 12% higher, and unchanged - with elevated GABA interpreted as an adaptive allostatic response to chronic hyperarousal.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Three research groups studied unmedicated, well-characterised primary insomnia against screened good sleepers using comparable sample sizes and reached three different answers. Global brain GABA was around 30% lower in one; mean occipital GABA was 12% higher in another, whose authors read the elevation as an adaptive allostatic response to chronic hyperarousal supported by a preserved negative relationship between GABA and time awake after sleep onset; and a third, sampling anterior cingulate and dorsolateral prefrontal cortex both morning and evening, found no group difference and explicitly did not support previous reports of altered GABA in insomnia. The honest synthesis is that the direction of the GABA difference in insomnia is unresolved, and that a higher GABA pool cannot be assumed to be the better state.","synthesis_limitations":"All three measure concentration, not synthesis, so none informs synthesis capacity; no study measured GAD activity, cofactor status or flux against a sleep outcome. Different regions, field strengths and referencing conventions partly but do not fully explain the divergence. Because these are three separate groups, the disagreement is informative rather than dismissible, and it means these three studies do not establish a uniform directional GABA-concentration difference in insomnia. Primary insomnia is also a disorder category rather than a measure of calming capacity.","evidence_considered":[{"label":"Winkelman et al. (2008)","citation_key":"winkelman_reduced_2008","href":"/docs/papers/BRAIN-Diet-References#winkelman_reduced_2008","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Average global brain GABA was nearly 30% lower in primary insomnia than in normal sleepers.","assessment":{"study":"Matched-groups cross-sectional 4 tesla proton spectroscopy study, with insomnia established by clinical interview, structured DSM-IV interview, sleep diary, actigraphy and polysomnography. Global GABA was averaged across basal ganglia, thalamus and temporal, parietal and occipital white matter and cortex.","population":"Sixteen unmedicated adults with primary insomnia (mean age 37.3) and sixteen well-screened normal sleepers (mean age 37.6).","result":"Average brain GABA levels were nearly 30% lower in the primary insomnia group than in normal sleepers.","effect_magnitude":"Approximately 30% lower global GABA - a large relative difference, but from a small preliminary sample.","evidence_summary":"Supports a reduced GABA pool in primary insomnia, and is the origin of the low-GABA account of insomnia.","limitations":"Described by its authors as preliminary; small sample; GABA averaged across heterogeneous regions including white matter, which limits regional interpretation. Concentration, not synthesis."},"canonical_reference":{"author_year":"Winkelman et al. (2008)","number":11,"anchor":"#pm-ref-11"}},{"label":"Morgan et al. (2012)","citation_key":"morgan_cortical_2012","href":"/docs/papers/BRAIN-Diet-References#morgan_cortical_2012","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Mean occipital GABA was 12% higher in primary insomnia, interpreted as an adaptive allostatic response to hyperarousal.","assessment":{"study":"Two-group comparison with nine days of sleep diaries and a fixed time-in-bed schedule, two consecutive nights of ambulatory polysomnography, and a single proton spectroscopy session measuring occipital GABA-to-creatine ratios.","population":"Sixteen non-medicated adults with primary insomnia and seventeen adults with no sleep complaints, not differing in age, sex, body mass index, habitual sleep timing, napping, caffeine or cigarette use.","result":"Mean occipital GABA was 12% higher in the insomnia group. The authors interpreted the elevation as an allostatic response to chronic hyperarousal, noting a preserved negative relationship between GABA and polysomnographically measured time awake after sleep onset, which they read as indicating the response is adaptive.","effect_magnitude":"12% higher mean occipital GABA - directionally opposite to Winkelman et al. (2008) and of smaller relative magnitude.","evidence_summary":"Contradicts the low-GABA account and supplies the allostatic reading that does not support assuming more GABA is better for sleep.","limitations":"Single occipital voxel referenced to creatine; small sample; cross-sectional so the allostatic interpretation is inferred rather than demonstrated. Concentration, not synthesis."},"canonical_reference":{"author_year":"Morgan et al. (2012)","number":12,"anchor":"#pm-ref-12"}},{"label":"Spiegelhalder et al. (2016)","citation_key":"spiegelhalder_magnetic_2016","href":"/docs/papers/BRAIN-Diet-References#spiegelhalder_magnetic_2016","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"No group difference in GABA and no diurnal effect; explicitly did not support previous reports of altered GABA in insomnia.","assessment":{"study":"Repeated-measurement spectroscopy study acquiring GABA and glutamate/glutamine in anterior cingulate cortex and dorsolateral prefrontal cortex in both the morning and the evening.","population":"Twenty well-characterised adults with primary insomnia (12 female, mean age 42.7) and twenty healthy good sleepers (12 female, mean age 44.1).","result":"The primary hypothesis of a diurnal effect on GABA in insomnia was not confirmed, and the results did not support previous findings of altered GABA in insomnia. Exploratory analysis suggested anterior cingulate GABA may be positively associated with habitual sleep duration.","effect_magnitude":"Null for the primary comparisons; no effect estimate is interpretable beyond the absence of a group difference.","evidence_summary":"An informative null from an independent group that prevents either directional account from being treated as established.","limitations":"Sampled frontal regions rather than the occipital or global volumes used by the two positive studies, so non-replication is partly regional. Modest sample; the sleep-duration association is exploratory. Concentration, not synthesis."},"canonical_reference":{"author_year":"Spiegelhalder et al. (2016)","number":13,"anchor":"#pm-ref-13"}}],"evidence_dependency":["These are three independent research groups, which is why the disagreement carries weight rather than being attributable to one method or cohort.","Mason, senior author on Morgan et al. (2012), is also an author of Mason et al. (2001); the same lineage supplies both a human concentration dataset and the flux evidence showing concentration cannot index synthesis."],"presentation":"phenome-relationship","primary_phenome":"Sleep / Calming Tone","connected_supportive_evidence":[],"informs":[{"phenome":"Sleep / Calming Tone","href":"/docs/phenomes/details/ph008-sleep-calming-tone"}]}} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Apprehensive Worry / Perseverative Thought — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Apprehensive Worry / Perseverative Thought — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought" aria-label="Open page: Apprehensive Worry / Perseverative Thought — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The high-dose B6 group improved from baseline, but the anxiety change-versus-placebo interaction was inconclusive (p=0.140); the visual surround-suppression interaction was positive (p=0.011). Neither GABA nor GABA synthesis was measured  Field et al. (2022) [[14]](#pm-ref-14). No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes  Ulrich et al. (2023) [[15]](#pm-ref-15).
+
+**Supporting evidence**
+
+<V1Finding finding={{"id":"PM9-F6","finding_label":"B6 trial: anxiety comparison and visual inhibition differ","finding_summary":"In the high-dose vitamin B6 trial, self-reported anxiety decreased within the B6 group, but the change-versus-placebo interaction was not significant (p=0.140). The visual surround-suppression interaction was significant (p=0.011). GABA synthesis was not measured.","finding_interpretation":"This is intervention evidence for an anxiety outcome, not for GABA synthesis capacity. The dose was far above ordinary dietary intake, and vitamin B6 is not GABA-specific because PLP serves many enzymes.","finding_statement":"In the high-dose vitamin B6 trial, self-reported anxiety decreased within the B6 group, but the change-versus-placebo interaction was not significant (p=0.140). The visual surround-suppression interaction was significant (p=0.011). GABA synthesis was not measured.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In the high-dose vitamin B6 trial, self-reported anxiety decreased within the B6 group, but the change-versus-placebo interaction was not significant (p=0.140). The visual surround-suppression interaction was significant (p=0.011). GABA synthesis was not measured.","synthesis_limitations":"Anxiety efficacy versus placebo was not established by the reported interaction; significance within one arm and not the other is not a between-arm effect. GABA, GAD, pyridoxal-5-phosphate and synthesis flux were all unmeasured, so the GABAergic mechanism is inferred rather than shown; pyridoxal-5-phosphate serves over 140 enzymes, so even a clean B6 intervention is not a GABA-specific manipulation. Outcomes are self-reported anxiety in a healthy, non-clinical sample rather than clinical endpoints, and surround suppression is an indirect proxy for cortical inhibition. Different outcomes were measured in different subsets across five recruitment phases. The dose is far above dietary intake, so nothing here transfers to a food-level recommendation; dose and safety are outside the scope of this mechanism page. No new PM-specific intervention or clinical efficacy is admitted from this contextual record.","evidence_considered":[{"label":"Field et al. (2022)","citation_key":"field_high-dose_2022","href":"/docs/papers/BRAIN-Diet-References#field_high-dose_2022","data_level":"Human Outcome","evidence_source":"bounded-external-search","directional_finding":"In the high-dose vitamin B6 trial, self-reported anxiety decreased within the B6 group, but the change-versus-placebo interaction was not significant (p=0.140). The visual surround-suppression interaction was significant (p=0.011). GABA synthesis was not measured.","assessment":{"study":"Double-blind placebo-controlled supplementation study over one month comparing high-dose vitamin B6, high-dose vitamin B12 and placebo across a battery of behavioural measures chosen to index the balance of neural inhibition and excitation.","population":"478 healthy young adults recruited across five linked phases; anxiety assessed in 265, depression in 146, surround suppression in 307, binocular rivalry in 172 and tactile sensitivity in 180.","result":"In the high-dose vitamin B6 trial, self-reported anxiety decreased within the B6 group, but the change-versus-placebo interaction was not significant (p=0.140). The visual surround-suppression interaction was significant (p=0.011). GABA synthesis was not measured.","effect_magnitude":"Within-B6 anxiety d=0.37; treatment-by-time interaction p=0.140. Visual surround interaction p=0.011.","evidence_summary":"Inconclusive anxiety comparator and a positive inhibitory-visual endpoint, without measurement of GABA synthesis.","limitations":"No GABA or cofactor measurement, so the mechanism is inferred; B6 is not GABA-specific; healthy sample and self-reported outcomes; outcomes measured in different subsamples; supraphysiological dose."},"canonical_reference":{"author_year":"Field et al. (2022)","number":14,"anchor":"#pm-ref-14"}}],"connected_supportive_evidence":[{"label":"Mousain-Bosc et al. (2006)","citation_key":"m_mousain-bosc_1_improvement_2006","href":"/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006","data_level":"Human Outcome","why_relevant":"An intervention in children reporting improvement in neurobehavioural disorders using a supplement that contained vitamin B6.","why_excluded":"It administered magnesium together with B6, so no effect can be attributed to the B6 arm, and it measured behavioural outcomes and erythrocyte magnesium but neither GABA, GAD, pyridoxal-5-phosphate nor synthesis flux. Its named biomarker is magnesium, which lies outside the synthesis scope of this mechanism. The study neither isolated nor measured GABA synthesis.","canonical_reference":{"author_year":"Mousain-Bosc et al. (2006)","number":16,"anchor":"#pm-ref-16"}}],"presentation":"phenome-relationship","primary_phenome":"Apprehensive Worry / Perseverative Thought","informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"},{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"}]}} />
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Social Engagement Capacity — indirect">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Social Engagement Capacity — indirect</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph018-social-engagement-capacity" aria-label="Open page: Social Engagement Capacity — indirect">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low
+- **Evidence Confidence:** Low
+- **Rationale:** GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes  Ulrich et al. (2023) [[15]](#pm-ref-15), opposite to a simple expectation that reduced GABA synthesis would reduce social approach. Direct human evidence linking GABA synthesis capacity to social engagement was not established in the assessed sources, and rodent partner preference is not equivalent to human social capacity.
+
+**Supporting evidence**
+
+<V1Finding finding={{"id":"PM9-F7","finding_label":"Removing GAD65 increased social preference in mice","finding_summary":"Genetic abolition of GAD65 in mice alters anxiety-like behaviour in a sex-dependent manner and increases, rather than decreases, preference for social interaction, alongside compensatory changes in cortical interneuron populations.","finding_interpretation":"This is the only evidence here that manipulates GABA synthesis and measures behaviour, but it uses a lifelong genetic knockout with compensatory brain changes — not graded human synthesis capacity and not a dietary intervention.","finding_statement":"Genetic abolition of GAD65 in mice alters anxiety-like behaviour in a sex-dependent manner and increases, rather than decreases, preference for social interaction, alongside compensatory changes in cortical interneuron populations.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mice null for the GABA-synthesising enzyme GAD65 do not show a simple anxiety-increased phenotype. Female nulls were more active in an open field and showed more stable emotional responses, while male nulls adapted anxiety-like behaviour over time and showed higher escape responses in active avoidance. Nulls of both sexes had a higher preference for social interaction partners, most pronounced in males. The brain showed reorganisation rather than simple loss of inhibition: increased gamma power and higher parvalbumin-interneuron density in anterior cingulate cortex, with fewer somatostatin interneurons in basolateral amygdala and dorsal dentate gyrus. Among the sources assessed here, this genetic perturbation of one GAD isoform also measures behaviour, and it shows the behavioural consequences are sex-dependent and not in the assumed direction.","synthesis_limitations":"A constitutive genetic knockout in mice, so it models complete lifelong absence of one isoform rather than graded human variation in synthesis capacity, and the interneuron changes show developmental compensation is part of the phenotype - which further separates it from acute or dietary modulation. Rodent social-interaction preference is not equivalent to human social engagement capacity, and increased preference may reflect altered novelty or threat processing rather than greater social capability. Single study, single laboratory.","evidence_considered":[{"label":"Ulrich et al. (2023)","citation_key":"ulrich_sex_2023","href":"/docs/papers/BRAIN-Diet-References#ulrich_sex_2023","data_level":"Animal Data","evidence_source":"bounded-external-search","directional_finding":"GAD65 knock-out mice of both sexes showed higher preference for social interaction, with sex-dependent anxiety phenotypes and compensatory interneuron changes.","assessment":{"study":"Behavioural comparison of male and female GAD65 null mice against wildtype littermates across open field, social interaction and active avoidance tasks, combined with ex vivo measurement of fast oscillations (10-45 Hz) in anterior cingulate cortex and histological counts of parvalbumin- and somatostatin-positive interneurons.","population":"Male and female mice with a null mutation of glutamate decarboxylase 65 and their wildtype littermates.","result":"Female nulls showed increased open-field activity; male nulls showed increased adaptation of anxiety-like behaviour over time and higher escape responses in active avoidance. Nulls of both sexes showed a higher preference for social interaction partners, heightened in males. Both sexes showed increased anterior cingulate gamma power and higher parvalbumin-interneuron density, with lower somatostatin-interneuron numbers in basolateral amygdala and dorsal dentate gyrus, especially in males. Overall, female mice showed more stable emotional responses despite GAD65 deficiency.","effect_magnitude":"Reported as group and sex contrasts on behavioural and histological measures; no single effect estimate summarises the phenotype.","evidence_summary":"A reviewed genetic GAD65 perturbation with behavioural endpoints. It contradicts the assumption that reduced synthesis uniformly increases anxiety or reduces social approach.","limitations":"Constitutive knockout with demonstrable interneuron compensation; mouse behaviour is not a human phenome; single laboratory; the social measure is partner preference rather than social engagement capacity."},"canonical_reference":{"author_year":"Ulrich et al. (2023)","number":15,"anchor":"#pm-ref-15"}}],"presentation":"phenome-relationship","primary_phenome":"Social Engagement Capacity","connected_supportive_evidence":[],"informs":[{"phenome":"Apprehensive Worry / Perseverative Thought","href":"/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought"},{"phenome":"Social Engagement Capacity","href":"/docs/phenomes/details/ph018-social-engagement-capacity"}]}} />
+</div>
+</div>
+</div>
+
+## 8. References
+
+<CuratedReferenceList />
+
+- <span id="pm-ref-1">[1]</span> [Martin & Rimvall (1993) — Regulation of Gamma-Aminobutyric Acid Synthesis in the Brain](/docs/papers/BRAIN-Diet-References#martin_regulation_1993)
+- <span id="pm-ref-2">[2]</span> [Lee et al. (2000) — Human Pyridoxal Kinase: Overexpression and Properties of the Recombinant Enzyme](/docs/papers/BRAIN-Diet-References#lee_human_2000)
+- <span id="pm-ref-3">[3]</span> [Tang et al. (2005) — Crystal Structure of Pyridoxal Kinase in Complex with Roscovitine and Derivatives](/docs/papers/BRAIN-Diet-References#tang_crystal_2005)
+- <span id="pm-ref-4">[4]</span> [Navarro et al. (2013) — Catalytic and Regulatory Roles of Metal-Nucleotide Species in Human Pyridoxal Kinase](/docs/papers/BRAIN-Diet-References#navarro_catalytic_2013)
+- <span id="pm-ref-5">[5]</span> [Abedrabbo et al. (2026) — Biomarkers in Pyridoxine-Dependent Epilepsy (PDE-ALDH7A1)](/docs/papers/BRAIN-Diet-References#abedrabbo_classical_2026)
+- <span id="pm-ref-6">[6]</span> [Mason et al. (2001) — Decrease in GABA Synthesis Rate Following GABA-Transaminase Inhibition Correlates with Decreased GAD67](/docs/papers/BRAIN-Diet-References#mason_decrease_2001)
+- <span id="pm-ref-7">[7]</span> [Edden et al. (2012) — Reduced GABA Concentration in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#edden_reduced_2012)
+- <span id="pm-ref-8">[8]</span> [Puts et al. (2020) — Reduced Striatal GABA in Unmedicated Children with ADHD At 7T](/docs/papers/BRAIN-Diet-References#puts_reduced_2020)
+- <span id="pm-ref-9">[9]</span> [Bollmann et al. (2015) — Developmental Changes in GABA Levels in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#bollmann_developmental_2015)
+- <span id="pm-ref-10">[10]</span> [Ende et al. (2016) — Impulsivity and Aggression in Female BPD and ADHD Patients: Association with ACC Glutamate and GABA](/docs/papers/BRAIN-Diet-References#ende_impulsivity_2016)
+- <span id="pm-ref-11">[11]</span> [Winkelman et al. (2008) — Reduced Brain GABA in Primary Insomnia](/docs/papers/BRAIN-Diet-References#winkelman_reduced_2008)
+- <span id="pm-ref-12">[12]</span> [Morgan et al. (2012) — Cortical GABA Levels in Primary Insomnia](/docs/papers/BRAIN-Diet-References#morgan_cortical_2012)
+- <span id="pm-ref-13">[13]</span> [Spiegelhalder et al. (2016) — Magnetic Resonance Spectroscopy in Patients with Insomnia](/docs/papers/BRAIN-Diet-References#spiegelhalder_magnetic_2016)
+- <span id="pm-ref-14">[14]</span> [Field et al. (2022) — High-Dose Vitamin B6 Supplementation Reduces Anxiety and Strengthens Visual Surround Suppression](/docs/papers/BRAIN-Diet-References#field_high-dose_2022)
+- <span id="pm-ref-15">[15]</span> [Ulrich et al. (2023) — Sex Differences in Anxiety and Threat Avoidance in GAD65 Knock-Out Mice](/docs/papers/BRAIN-Diet-References#ulrich_sex_2023)
+- <span id="pm-ref-16">[16]</span> [Mousain-Bosc et al. (2006) — Improvement of Neurobehavioral Disorders in Children Supplemented with Magnesium-vitamin B6](/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006)
+- <span id="pm-ref-17">[17]</span> [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
+- <span id="pm-ref-18">[18]</span> [Cataldo et al. (2024) — Insights from Physiology, Genomics, and Proteomics](/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024)
+- <span id="pm-ref-19">[19]</span> [Manor et al. (1996) — Cortical GABA Turnover from 1-13C-Labelled Glucose](/docs/papers/BRAIN-Diet-References#manor_rate_1996)
+- <span id="pm-ref-20">[20]</span> [Bayoumi et al. (1972) — Dietary Vitamin B6 Deficiency and GABA Metabolism in Rat Brain](/docs/papers/BRAIN-Diet-References#bayoumi_vitamin_b6_deficiency_1972)
+- <span id="pm-ref-21">[21]</span> [Erecińska et al. (1996) — Ketone Bodies and GABA Formation in Rat Brain Synaptosomes](/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996)
+- <span id="pm-ref-22">[22]</span> [Zhang et al. (2015) — Ketone-Derived Carbon Contribution to GABA in Ketotic Rat Brain](/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015)
+- <span id="pm-ref-23">[23]</span> [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- <span id="pm-ref-24">[24]</span> [FAO (2013) — Dietary Protein Quality Evaluation in Human Nutrition](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- <span id="pm-ref-25">[25]</span> [Mariotti and Gardner (2019) — Dietary Protein and Amino Acids in Vegetarian Diets](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

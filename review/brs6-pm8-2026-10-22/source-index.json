@@ -1,0 +1,526 @@
+{
+  "date": "2026-10-22",
+  "findings": [
+    {
+      "id": "PM8-F1",
+      "proposition": "Moderate weight loss improved insulin action before the measured adipose inflammatory markers declined.",
+      "sources": [
+        {
+          "label": "Magkos et al. (2016)",
+          "citation_key": "magkos_weight_loss_adipose_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "dietary-protocol",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+          "study_exposure": "Weight maintenance versus initial 5% diet-induced loss; later approximately 11% and 16% loss with abdominal subcutaneous biopsy and tracer/clamp measurements.",
+          "study_finding": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+          "assessment": {
+            "study": "Weight maintenance versus initial 5% diet-induced loss; later approximately 11% and 16% loss with abdominal subcutaneous biopsy and tracer/clamp measurements.",
+            "population": "40 adults with obesity and insulin resistance randomized; 33 completed the initial comparison and nine continued progressive loss.",
+            "result": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+            "effect_magnitude": "Actual losses 5.1%, 10.8% and 16.4%; no pooled inflammatory effect or universal threshold estimated.",
+            "evidence_summary": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+            "limitations": "Attrition and selected later subgroup; endpoint timing and depot specificity prevent universal mediation claims.",
+            "retrieval_scope": "Primary full text: Methods, Results, Tables 1–4, tissue expression results and Discussion.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833627/"
+          }
+        }
+      ],
+      "contextual": [
+        {
+          "label": "Mohammad & Thiemermann (2021)",
+          "citation_key": "mohammad_role_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#mohammad_role_2021",
+          "why_relevant": "Reviews a possible gut LPS/TLR4 route into metabolic inflammation.",
+          "why_excluded": "Review evidence and endotoxin assay limitations do not isolate a food-to-adipose intervention; the route is contextual."
+        },
+        {
+          "label": "Cazzola et al. (2024)",
+          "citation_key": "cazzola_magnesium_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024",
+          "why_relevant": "Review of magnesium and adipose stress; primary candidate follow-up is assessed in PM8-F8.",
+          "why_excluded": "Not an independent experiment or evidence that extra dietary magnesium reduces human adipose inflammation."
+        },
+        {
+          "label": "Di Girolamo et al. (2022)",
+          "citation_key": "di_girolamo_prevalence_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022",
+          "why_relevant": "Provides clinical metabolic-comorbidity context rather than an adipose intervention.",
+          "why_excluded": "Does not measure a dietary intervention on adipose stress or establish a PM-to-Phenome causal relationship."
+        },
+        {
+          "label": "Marcelli et al. (2025)",
+          "citation_key": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025",
+          "why_relevant": "Provides clinical metabolic-comorbidity context rather than an adipose intervention.",
+          "why_excluded": "Does not measure a dietary intervention on adipose stress or establish a PM-to-Phenome causal relationship."
+        }
+      ]
+    },
+    {
+      "id": "PM8-F2",
+      "proposition": "EPA-rich supplementation lowered stimulated immune-cell IL-6 production in medical students.",
+      "sources": [
+        {
+          "label": "Kiecolt-Glaser et al. (2011)",
+          "citation_key": "kiecolt-glaser_omega-3_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+          "data_level": "Human Study",
+          "exposure_context": "supplemental-formulation",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Stimulated IL-6 production was lower in the supplement group.",
+          "study_exposure": "Double-blind 12-week randomized comparison of 2.5 g/day omega-3 supplement (2085 mg EPA and 348 mg DHA) versus placebo.",
+          "study_finding": "Stimulated IL-6 production was lower in the supplement group.",
+          "assessment": {
+            "study": "Double-blind 12-week randomized comparison of 2.5 g/day omega-3 supplement (2085 mg EPA and 348 mg DHA) versus placebo.",
+            "population": "68 medical students.",
+            "result": "Stimulated IL-6 production was lower in the supplement group.",
+            "effect_magnitude": "14% lower LPS-stimulated IL-6 production versus controls.",
+            "evidence_summary": "Stimulated IL-6 production was lower in the supplement group.",
+            "limitations": "A peripheral immune-cell assay cannot locate inflammation in adipose tissue.",
+            "retrieval_scope": "Primary full-text abstract, exposure and outcome definitions.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3191260/"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F3",
+      "proposition": "The green Mediterranean diet package reduced MRI-measured visceral fat more than the comparison diets in DIRECT-PLUS.",
+      "evidence_dependency": [
+        "The 2022 VAT and 2024 proteome publications analyse DIRECT-PLUS (NCT03020186); count one intervention cohort, not two replications. PM8-F4 reuses the 2022 study for component attribution, not an independent food trial."
+      ],
+      "sources": [
+        {
+          "label": "Zelicha et al. (2022)",
+          "citation_key": "zelicha_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+          "data_level": "Human Study",
+          "exposure_context": "dietary-pattern",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Green-MED produced greater visceral-fat reduction.",
+          "study_exposure": "18-month healthy dietary guidance, Mediterranean or green-Mediterranean programme, all with physical activity; both MED groups received 28 g/day walnuts; green-MED added 3–4 cups/day green tea, 100 g/day frozen Mankai and reduced red/processed meat.",
+          "study_finding": "Green-MED produced greater visceral-fat reduction.",
+          "assessment": {
+            "study": "18-month healthy dietary guidance, Mediterranean or green-Mediterranean programme, all with physical activity; both MED groups received 28 g/day walnuts; green-MED added 3–4 cups/day green tea, 100 g/day frozen Mankai and reduced red/processed meat.",
+            "population": "294 randomized adults with abdominal obesity/dyslipidaemia; 88% men; 79.3% had eligible follow-up MRI.",
+            "result": "Green-MED produced greater visceral-fat reduction.",
+            "effect_magnitude": "VAT change −14.1% green-MED, −6.0% MED, −4.2% guidance; weight-adjusted green-MED versus MED p=0.042, versus guidance p=0.07.",
+            "evidence_summary": "Green-MED produced greater visceral-fat reduction.",
+            "limitations": "Open-label package, incomplete MRI follow-up and post-randomization adjustment; no isolated food attribution or adipose inflammatory mediation.",
+            "retrieval_scope": "Primary full text: allocation, exposures, MRI, results and adjusted comparisons; funding includes California Walnuts Commission.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9523931/"
+          }
+        },
+        {
+          "label": "Zelicha et al. (2024)",
+          "citation_key": "zelicha_proteome_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#zelicha_proteome_2024",
+          "data_level": "Human Study",
+          "exposure_context": "dietary-pattern",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+          "study_exposure": "Olink circulating-protein panels across the dietary intervention.",
+          "study_finding": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+          "assessment": {
+            "study": "Olink circulating-protein panels across the dietary intervention.",
+            "population": "DIRECT-PLUS participants: the same randomized cohort as the 2022 VAT report.",
+            "result": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+            "effect_magnitude": "Reported adjusted p<0.05 for selected protein changes; no tissue-specific mediated effect quantified.",
+            "evidence_summary": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+            "limitations": "Secondary proteomics, multiplicity and same-cohort dependency; circulating proteins do not establish adipose origin.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/38757229/"
+          }
+        }
+      ],
+      "contextual": [
+        {
+          "label": "Willmann et al. (2019)",
+          "citation_key": "willmann_red_meat_fibre_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#willmann_red_meat_fibre_2019",
+          "why_relevant": "A separate six-month randomized dietary study compared reduced red meat and increased fibre within calorie restriction; visceral fat fell in all groups.",
+          "why_excluded": "No additional cardiometabolic advantage of the food changes was established in that context; it does not isolate which green-MED component explains its package result."
+        },
+        {
+          "label": "Park et al. (2014)",
+          "citation_key": "park_pomegranate_vinegar_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#park_pomegranate_vinegar_2014",
+          "why_relevant": "A different pomegranate-vinegar formulation showed a preliminary CT-measured visceral-fat signal in overweight women.",
+          "why_excluded": "Publisher-indexed abstract/result only was recovered; this is a vinegar-plus-extract formulation, not pomegranate fruit or a DIRECT-PLUS intervention. Independent efficacy and formulation details remain unresolved."
+        }
+      ]
+    },
+    {
+      "id": "PM8-F4",
+      "proposition": "The green-MED trial identifies walnuts as a food candidate, but does not isolate a walnut-specific effect on visceral fat.",
+      "evidence_dependency": [
+        "DIRECT-PLUS component associations reuse PM8-F3 evidence; Njike and Dong are separate trials, but test different exposures."
+      ],
+      "sources": [
+        {
+          "label": "Njike et al. (2015)",
+          "citation_key": "njike_walnut_body_composition_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#njike_walnut_body_composition_2015",
+          "data_level": "Human Study",
+          "exposure_context": "whole-food",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "No significant effect on visceral fat or the reported anthropometric measures.",
+          "study_exposure": "Randomized walnut-included (56 g/day) and walnut-excluded dietary periods of six months, with or without calorie-adjustment advice.",
+          "study_finding": "No significant effect on visceral fat or the reported anthropometric measures.",
+          "assessment": {
+            "study": "Randomized walnut-included (56 g/day) and walnut-excluded dietary periods of six months, with or without calorie-adjustment advice.",
+            "population": "112 adults at risk for diabetes.",
+            "result": "No significant effect on visceral fat or the reported anthropometric measures.",
+            "effect_magnitude": "No significant visceral-fat difference; a precise interval for this endpoint was not recovered.",
+            "evidence_summary": "No significant effect on visceral fat or the reported anthropometric measures.",
+            "limitations": "Null result bounds an efficacy claim; it is not proof that every walnut substitution has no effect.",
+            "retrieval_scope": "Primary journal abstract/results and body-composition findings.",
+            "source_url": "https://drc.bmj.com/content/3/1/e000115"
+          }
+        },
+        {
+          "label": "Dong et al. (2026)",
+          "citation_key": "dong_walnut_low_carbohydrate_2026",
+          "href": "/docs/papers/BRAIN-Diet-References#dong_walnut_low_carbohydrate_2026",
+          "data_level": "Human Study",
+          "exposure_context": "dietary-pattern",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+          "study_exposure": "12-week randomized walnut-based low-carbohydrate versus high-carbohydrate low-fat diet; 150 g/day refers to replaced staple food, not walnut dose.",
+          "study_finding": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+          "assessment": {
+            "study": "12-week randomized walnut-based low-carbohydrate versus high-carbohydrate low-fat diet; 150 g/day refers to replaced staple food, not walnut dose.",
+            "population": "Adults with central obesity; exact sample and walnut gram dose not independently recovered in this assessment.",
+            "result": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+            "effect_magnitude": "VFA interaction p=0.014; no significant between-group VFA difference at week 12.",
+            "evidence_summary": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+            "limitations": "Abstract-only recovery; combined macronutrient substitution prevents attribution to walnuts alone.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/42815962/"
+          }
+        }
+      ],
+      "contextual": [
+        {
+          "label": "Zelicha et al. (2022)",
+          "citation_key": "zelicha_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+          "why_relevant": "Walnuts were supplied to both MED groups, and intake was associated with VAT loss.",
+          "why_excluded": "The food association is not an independently randomized walnut effect; the package result is assessed in PM8-F3."
+        }
+      ]
+    },
+    {
+      "id": "PM8-F5",
+      "proposition": "Some catechin-enriched tea beverages reduced visceral fat, while a newer catechin-plus-inulin beverage did not.",
+      "sources": [
+        {
+          "label": "Nagao et al. (2007)",
+          "citation_key": "nagao_catechin_adiposity_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#nagao_catechin_adiposity_2007",
+          "data_level": "Human Study",
+          "exposure_context": "catechin-enriched-beverage",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+          "study_exposure": "12-week double-blind comparison of tea beverages with 583 versus 96 mg catechins/day, maintaining usual diet/activity.",
+          "study_finding": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+          "assessment": {
+            "study": "12-week double-blind comparison of tea beverages with 583 versus 96 mg catechins/day, maintaining usual diet/activity.",
+            "population": "Japanese adults with visceral-fat-type obesity; 240 per-protocol participants.",
+            "result": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+            "effect_magnitude": "Direction significant as reported; precise between-group VAT estimate and interval not recovered.",
+            "evidence_summary": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+            "limitations": "Per-protocol analysis, enriched beverage and manufacturer affiliation limit transfer to ordinary brewed tea.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/17557985/"
+          }
+        },
+        {
+          "label": "Iino et al. (2026)",
+          "citation_key": "iino_catechin_inulin_2026",
+          "href": "/docs/papers/BRAIN-Diet-References#iino_catechin_inulin_2026",
+          "data_level": "Human Study",
+          "exposure_context": "combination-formulation",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+          "study_exposure": "12-week double-blind placebo-controlled catechin 400 mg/day plus inulin 2.3 g/day beverage.",
+          "study_finding": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+          "assessment": {
+            "study": "12-week double-blind placebo-controlled catechin 400 mg/day plus inulin 2.3 g/day beverage.",
+            "population": "96 randomized Japanese adults with visceral obesity; 91 in primary full-analysis set.",
+            "result": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+            "effect_magnitude": "VFA change +0.91 versus +4.61 cm²; p=0.243.",
+            "evidence_summary": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+            "limitations": "Combined formulation and bioimpedance VFA; neither positive insulin result nor null fat result isolates tea alone.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/41830022/"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F6",
+      "proposition": "Marine omega-3 formulations can change adipose inflammatory endpoints, but effects differ across populations and assays.",
+      "sources": [
+        {
+          "label": "Spencer et al. (2013)",
+          "citation_key": "spencer_omega3_adipose_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#spencer_omega3_adipose_2013",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "supplemental-formulation",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+          "study_exposure": "12-week placebo-controlled 4 g/day omega-3-acid ethyl ester formulation with adipose biopsies.",
+          "study_finding": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+          "assessment": {
+            "study": "12-week placebo-controlled 4 g/day omega-3-acid ethyl ester formulation with adipose biopsies.",
+            "population": "Insulin-resistant adults without diabetes.",
+            "result": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+            "effect_magnitude": "Reported direction; no harmonized between-trial tissue effect estimate calculated.",
+            "evidence_summary": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+            "limitations": "Selected population and high-dose ethyl ester formulation; no isolated EPA versus DHA effect.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/23328126/"
+          }
+        },
+        {
+          "label": "Fisk et al. (2022)",
+          "citation_key": "fisk_omega3_adipose_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#fisk_omega3_adipose_2022",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "supplemental-formulation",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+          "study_exposure": "12-week double-blind fish-oil concentrate (1.1 g EPA + 0.8 g DHA/day) versus corn oil with subcutaneous biopsies.",
+          "study_finding": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+          "assessment": {
+            "study": "12-week double-blind fish-oil concentrate (1.1 g EPA + 0.8 g DHA/day) versus corn oil with subcutaneous biopsies.",
+            "population": "45 adults with obesity and 39 normal-weight adults.",
+            "result": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+            "effect_magnitude": "No common pooled estimate; results are endpoint- and population-specific.",
+            "evidence_summary": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+            "limitations": "Cross-population baseline differences and molecular endpoints prevent a uniform efficacy claim.",
+            "retrieval_scope": "Indexed primary full-text Summary, Methods and population characteristics; detailed transcript/oxylipin tables not reanalysed.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8894262/"
+          }
+        },
+        {
+          "label": "Hames et al. (2017)",
+          "citation_key": "hames_omega3_adipose_null_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#hames_omega3_adipose_null_2017",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "supplemental-formulation",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "EPA/DHA incorporation increased, without improved measured adipose inflammation or insulin regulation of lipolysis.",
+          "study_exposure": "Six-month randomized double-blind omega-3 formulation versus oleate placebo.",
+          "study_finding": "No measured tissue benefit despite increased EPA/DHA content.",
+          "assessment": {
+            "study": "Six-month double-blind placebo-controlled trial; 3.9 g/day EPA+DHA (4.2 g total omega-3) versus 4.2 g/day oleate.",
+            "population": "Insulin-resistant adults with overweight or obesity; 12 supplement and nine placebo completers in the adipose substudy.",
+            "result": "Adipose EPA/DHA increased, but macrophage content, crown-like structures, senescent cells and insulin regulation of lipolysis did not improve.",
+            "effect_magnitude": "CD68 macrophages 31 to 33 per 100 adipocytes with omega-3 versus 33 to 31 with placebo; interaction p=0.25; lipolysis suppression interaction p=0.11.",
+            "evidence_summary": "Tissue delivery was demonstrated without the expected inflammatory or lipolytic benefit.",
+            "limitations": "Small completer substudy, baseline phenotype differences and subcutaneous-only sampling; not proof of no effect in every metabolic context.",
+            "retrieval_scope": "Primary full-text Methods, Results, Tables 1–2 and Discussion.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5445674/"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F7",
+      "proposition": "Adipose expansion is associated with macrophage inflammatory activity, while acute overnutrition can impair metabolism before measured cytokines rise.",
+      "sources": [
+        {
+          "label": "Weisberg et al. (2003)",
+          "citation_key": "weisberg_adipose_macrophages_2003",
+          "href": "/docs/papers/BRAIN-Diet-References#weisberg_adipose_macrophages_2003",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "tissue-and-animal-mechanistic",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+          "study_exposure": "Expression profiling, histology and cell-fraction analyses across adiposity.",
+          "study_finding": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+          "assessment": {
+            "study": "Expression profiling, histology and cell-fraction analyses across adiposity.",
+            "population": "Mouse obesity models and human subcutaneous adipose samples.",
+            "result": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+            "effect_magnitude": "Directional histological and molecular evidence; no dietary effect size inferred.",
+            "evidence_summary": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+            "limitations": "Mixed species; human associations do not prove macrophage mediation in every obesity phenotype.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/14679176/"
+          }
+        },
+        {
+          "label": "Boden et al. (2015)",
+          "citation_key": "boden_overnutrition_oxidative_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#boden_overnutrition_oxidative_2015",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "experimental-overfeeding",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+          "study_exposure": "Short-term extreme overfeeding at about 2–2.5 times habitual calories with adipose and metabolic measures.",
+          "study_finding": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+          "assessment": {
+            "study": "Short-term extreme overfeeding at about 2–2.5 times habitual calories with adipose and metabolic measures.",
+            "population": "Six healthy non-obese men.",
+            "result": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+            "effect_magnitude": "Mechanistic direction retained; no usual-diet dose or food-specific estimate.",
+            "evidence_summary": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+            "limitations": "Small acute challenge with major energy excess; oxidative association does not establish every causal step.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600191/"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F8",
+      "proposition": "A simple claim that more magnesium reduces adipose stress is not established by the assessed evidence.",
+      "sources": [
+        {
+          "label": "Kurstjens et al. (2018)",
+          "citation_key": "kurstjens_magnesium_adipose_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#kurstjens_magnesium_adipose_2018",
+          "data_level": "Animal Data",
+          "exposure_context": "dietary-deficiency",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+          "study_exposure": "17-week low- versus normal-magnesium diets crossed with low- or high-fat feeding.",
+          "study_finding": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+          "assessment": {
+            "study": "17-week low- versus normal-magnesium diets crossed with low- or high-fat feeding.",
+            "population": "Male mice, approximately 12 per diet group, plus a replication experiment.",
+            "result": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+            "effect_magnitude": "High-fat group body weights approximately 47.0 versus 38.6 g, normal versus low magnesium; p<0.05.",
+            "evidence_summary": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+            "limitations": "Animal-only severe deficiency, not a human adequacy comparison; smaller fat mass is not proof of healthier adipose signalling.",
+            "retrieval_scope": "Primary full-text Abstract, Methods, Results and lipid/adipose outcomes.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096631/"
+          }
+        }
+      ],
+      "contextual": [
+        {
+          "label": "Cazzola et al. (2024)",
+          "citation_key": "cazzola_magnesium_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024",
+          "why_relevant": "Attached narrative review covers magnesium, oxidative stress and adipose physiology.",
+          "why_excluded": "Review is a discovery source; its qualitative biology does not establish human PM8 dietary efficacy."
+        }
+      ]
+    },
+    {
+      "id": "PM8-F9",
+      "proposition": "Exercise training altered subcutaneous adipose structure without weight loss in adults with obesity.",
+      "sources": [
+        {
+          "label": "Ahn et al. (2022)",
+          "citation_key": "ahn_exercise_adipose_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#ahn_exercise_adipose_2022",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "exercise-training",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+          "study_exposure": "12-week continuous moderate-intensity or interval training, four days/week; weight maintained; biopsies one and four days after final session.",
+          "study_finding": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+          "assessment": {
+            "study": "12-week continuous moderate-intensity or interval training, four days/week; weight maintained; biopsies one and four days after final session.",
+            "population": "36 adults with obesity.",
+            "result": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+            "effect_magnitude": "No meaningful superiority between training modes reported; no pooled anti-inflammatory effect inferred.",
+            "evidence_summary": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+            "limitations": "Allocation was counterbalanced, not described as randomized; transient signalling is not sustained suppression.",
+            "retrieval_scope": "Primary indexed Methods, allocation and Discussion recovered.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058215/"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F10",
+      "proposition": "Severe sleep restriction increased visceral fat during a controlled experiment with freely available food.",
+      "sources": [
+        {
+          "label": "Covassin et al. (2022)",
+          "citation_key": "covassin_sleep_visceral_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#covassin_sleep_visceral_2022",
+          "data_level": "Human Study",
+          "exposure_context": "sleep-restriction",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+          "study_exposure": "Randomized inpatient crossover, 14 days of four- versus nine-hour sleep opportunity within 21-day periods.",
+          "study_finding": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+          "assessment": {
+            "study": "Randomized inpatient crossover, 14 days of four- versus nine-hour sleep opportunity within 21-day periods.",
+            "population": "12 healthy non-obese adults, nine men, aged 19–39.",
+            "result": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+            "effect_magnitude": "About 11% VAT accumulation and approximately 308 kcal/day greater intake versus control.",
+            "evidence_summary": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+            "limitations": "Sleep loss and increased intake act together; not a calorie-matched or sleep-extension reversal trial.",
+            "retrieval_scope": "Primary journal Methods, Discussion and central illustration.",
+            "source_url": "https://www.jacc.org/doi/10.1016/j.jacc.2022.01.038"
+          }
+        }
+      ],
+      "contextual": []
+    },
+    {
+      "id": "PM8-F11",
+      "proposition": "Time-restricted eating showed exploratory adipose pathway changes in TREAD, but another trial found no extra visceral-fat reduction over Mediterranean-diet education.",
+      "sources": [
+        {
+          "label": "Wilkinson et al. (2026)",
+          "citation_key": "wilkinson_tread_adipose_2026",
+          "href": "/docs/papers/BRAIN-Diet-References#wilkinson_tread_adipose_2026",
+          "data_level": "Human Mechanistic",
+          "exposure_context": "dietary-timing-protocol",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+          "study_exposure": "12-week 10-hour personalized eating window plus dietary counselling versus counselling; exploratory subcutaneous RNA-seq in seven greatest TRE weight losers and six matched controls.",
+          "study_finding": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+          "assessment": {
+            "study": "12-week 10-hour personalized eating window plus dietary counselling versus counselling; exploratory subcutaneous RNA-seq in seven greatest TRE weight losers and six matched controls.",
+            "population": "61 adults with obesity without diabetes; 52 completed; baseline eating window at least 14 hours.",
+            "result": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+            "effect_magnitude": "Weight difference −2.91 kg (95% CI −4.21 to −1.60); no individual transcript significant at FDR<0.05.",
+            "evidence_summary": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+            "limitations": "Primary endpoint changed after last participant visit but before analysis; selected small tissue subgroup confounds timing with weight-loss response.",
+            "retrieval_scope": "Primary full text including endpoint amendment, RNA-seq selection, FDR and results.",
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13306140/"
+          }
+        },
+        {
+          "label": "Dote-Montero et al. (2025)",
+          "citation_key": "dote_montero_tre_visceral_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#dote_montero_tre_visceral_2025",
+          "data_level": "Human Study",
+          "exposure_context": "dietary-timing-protocol",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Adding TRE did not confer significant additional VAT reduction.",
+          "study_exposure": "12-week randomized early, late or self-selected eight-hour eating window plus Mediterranean-diet education versus education alone.",
+          "study_finding": "Adding TRE did not confer significant additional VAT reduction.",
+          "assessment": {
+            "study": "12-week randomized early, late or self-selected eight-hour eating window plus Mediterranean-diet education versus education alone.",
+            "population": "197 adults with overweight or obesity.",
+            "result": "Adding TRE did not confer significant additional VAT reduction.",
+            "effect_magnitude": "No extra VAT benefit reported; precise contrasts not recovered.",
+            "evidence_summary": "Adding TRE did not confer significant additional VAT reduction.",
+            "limitations": "Different baseline windows and protocol; a null VAT endpoint does not directly refute a tissue transcript result.",
+            "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/39775037/"
+          }
+        }
+      ],
+      "contextual": []
+    }
+  ]
+}

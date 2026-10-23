@@ -1,3 +1,4 @@
+import * as foodTargetTraceability from '../src/lib/foodTargetTraceability.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -39,7 +40,10 @@ test('B6 and PLP are separate relationships, not two dietary supplies', () => { 
     const target = byId.get(r.derived_target_atom_id);
     assert.ok(target.input.includes('PLP'));
     assert.equal(target.accounting, 'E');
-    assert.equal(target.substance_id, null);
+    assert.equal(target.substance_id, 'pyridoxal-5-phosphate');
+    const registry=JSON.parse(fs.readFileSync(path.join(root,'registry/substances.json')));
+    assert.ok(registry[target.substance_id].aliases.includes('PLP'));
+    assert.ok(!d.food_sources.some(f=>f.substance_id===target.substance_id), 'B6 content does not establish direct food PLP');
 } });
 test('qualitative phosphatidylcholine and betaine survive without numbers', () => { for (const id of ['phosphatidylcholine', 'betaine']) {
     const s = d.substances.find(s => s.id === id);
@@ -190,7 +194,8 @@ test('BRS2 generation inventories every structured atom and consumes recorded di
  for(const pm of b.coverage){const data=matter(fs.readFileSync(pm.record,'utf8')).data;for(const a of data.dietary_lever_atoms||[])assert.ok(b.relationships.some(r=>r.id===pm.pm_id+'::'+a.atom_id));}
  assert.ok(b.relationships.every(r=>r.brs==='BRS2'));
  assert.equal(new Set(b.relationships.map(r=>r.id)).size,b.relationships.length);
- assert.deepEqual(b.summary.dietary_input,{yes:32,no:20,unset:1});
+ assert.deepEqual(b.summary.dietary_input,{yes:33,no:20,unset:1}); // Includes the independently gated GNMT glycine admission.
+ assert.equal(b.relationships.find(r=>r.id==='BRS2-FM1-PM4::PM4-DIT-DEFERRED-1').scientific_admission,'admitted');
  assert.ok(b.food_sources.length>0);
  assert.equal(b.pools.length,2);
  assert.ok(b.relationships.filter(r=>r.accounting==='D').every(r=>r.dietary_input===false));
@@ -285,12 +290,16 @@ test('rollout records every accepted atom decision and retains evidence and prec
  assert.equal(b2.relationships.find(r=>r.id==='BRS2-FM1-PM3::PM3-DIT-2').dietary_input,false); // ATP
  assert.equal(b2.relationships.find(r=>r.id==='BRS2-FM2-PM5::PM5-DIT-4').dietary_input,true); // explicit dietary serine
  const b5=buildInputSubstanceFood(root,{brs:'BRS5'});
- for(const id of ['PM1-DIT-1','PM1-DIT-3','PM1-DIT-6'])assert.equal(b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::'+id).dietary_input,null);
+ for(const id of ['PM1-DIT-1','PM1-DIT-3'])assert.equal(b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::'+id).dietary_input,null);
+ const glutamine=b5.relationships.find(r=>r.id==='BRS5-FM1-PM1::PM1-DIT-6');
+ assert.equal(glutamine.dietary_input,true);assert.equal(glutamine.scientific_admission,'admitted');
+ assert.equal(glutamine.food_target_mapping,'unresolved'); // Admission is not a fabricated food mapping.
 });
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
- assert.equal(s.strategies.length,25);assert.equal(s.relationships.length,27);
+ // PM2's two protocols plus the two independently assessed PM8 protocols.
+ assert.equal(s.strategies.length,35);assert.equal(s.relationships.length,38);
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
   const file=r.source_record.split('#')[0],source=matter(fs.readFileSync(file,'utf8')).data;
@@ -566,7 +575,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
  const mod=new Module(rendererFile),require=createRequire(rendererFile);
  mod.filename=rendererFile;
- mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:require(id);
+ mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:require(id);
  mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
  const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
  const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
@@ -575,7 +584,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  for(const [food,substance,value] of [['chicken','nicotinamide',5.442],['chicken','nicotinic-acid',3.739],['chickpeas','nicotinamide',1.412],['chickpeas','nicotinic-acid',1.681]]){
   const item=selected.find(f=>f.food_id===food&&f.substance_id===substance&&f.observations[0].value===value);
   assert.ok(item);
-  const obs=item.observations[0],html=renderFoodSourceSummary('Fixture category',item);
+  const obs=item.observations[0],html=mod.exports.renderFoodSourceItem(item);
   assert.equal(obs.unit,'mg');assert.equal(obs.preparation,'unknown');
   assert.ok(html.includes(value+' mg ('+obs.basis+')'));
   assert.ok(html.includes('Studied material: '+obs.material));
@@ -588,11 +597,11 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  }
  const held=selected.find(f=>f.observations[0].key==='e2e-held');
  assert.equal(held.observations[0].verified,false);
- assert.match(renderFoodSourceSummary('Fixture category',held),/quantity not established/);
- assert.doesNotMatch(renderFoodSourceSummary('Fixture category',held),/999/);
+ assert.match(mod.exports.renderFoodSourceItem(held),/quantity not established/);
+ assert.doesNotMatch(mod.exports.renderFoodSourceItem(held),/999/);
  const alternate=selected.find(f=>f.observations[0].key==='e2e-alternate');
  assert.equal(alternate.preparation,null);
- assert.match(renderFoodSourceSummary('Fixture category',alternate),/123 µg \(per g dry synthetic material\)/);
+ assert.match(mod.exports.renderFoodSourceItem(alternate),/123 µg \(per g dry synthetic material\)/);
  assert.deepEqual(snapshot.relationships.filter(r=>r.pm==='BRS4-FM1-PM2').map(r=>[r.substance_id,r.dietary_input,r.relationship_type.classification]),[
   ['nicotinamide',true,'direct'],['nicotinic-acid',true,'direct'],['tryptophan',true,'derived'],
  ]);

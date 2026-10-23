@@ -15,6 +15,9 @@ import {
 } from "@site/src/data/frameworkQcPublic"
 import {usePageContentTabs} from "@site/src/components/AdvancedNutrition"
 import PageReviewPanel from "./PageReviewPanel"
+import {CanonicalSecAudit} from "../SecAssessment"
+import EvidenceAudit from "../SecCalibrationPreview/EvidenceAudit"
+import {isAuditPreview} from "../SecCalibrationPreview/assessmentAudit.mjs"
 import OpenIssuesPanel from "./OpenIssuesPanel"
 import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
 import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
@@ -44,6 +47,7 @@ export default function DocUtilityBar({
 }): ReactNode {
   const {metadata, frontMatter} = useDoc()
   const location = useLocation()
+  const auditPreview = isAuditPreview(location.pathname)
   const history = useHistory()
   const fm = (frontMatter || {}) as Record<string, unknown>
   const registeredPage = useMemo(
@@ -79,9 +83,11 @@ export default function DocUtilityBar({
       (!page && isNutritionContentPermalink(metadata.permalink)))
   const isPmPage = page?.page_type === "PM" || typeof fm.pm_id === "string"
   const pmId = typeof fm.pm_id === "string" ? fm.pm_id : ""
+  const secFindings = Array.isArray(fm.scientific_findings) ? fm.scientific_findings : []
+  const hasSecReferences = isPmPage && secFindings.some(f => f && Object.hasOwn(f, "sec_assessment_ref"))
   const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
   const showOpenIssuesTab = isPmPage && openIssueCount > 0
-  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage)
+  const showReviewTab = onContentPage && (includeInternalDocs || isPmPage || auditPreview)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
   const params = new URLSearchParams(location.search)
@@ -108,7 +114,7 @@ export default function DocUtilityBar({
     params.get(ADVANCED_QUERY_PARAM) === "1"
   const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen
   const qcLabel =
-    openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+    auditPreview || hasSecReferences ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
   const issuesLabel = `Open Issues (${openIssueCount})`
 
   useLayoutEffect(() => {
@@ -365,7 +371,7 @@ export default function DocUtilityBar({
         <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
       ) : null}
       {reviewOpen ? (
-        <PageReviewPanel page={page} panelId="review-corrections-panel" />
+        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : hasSecReferences ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}
       {advancedOpen && contentSlots?.panels.advanced ? (
         <div

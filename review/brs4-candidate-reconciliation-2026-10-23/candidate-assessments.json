@@ -1,0 +1,76 @@
+[
+  {
+    "scientific_admission": "unresolved",
+    "implemented": false,
+    "scores_assigned": false,
+    "ordinary_food_effect_established": false,
+    "approval_needed": "Review exact exposure, receiving operation and delivery pathway before any canonical admission.",
+    "pm": "BRS4-FM3-PM8",
+    "candidate": "Oleic-/ALA-enriched meal versus palmitate-enriched meal",
+    "proposed_section": "3.2",
+    "relationship": "Meal comparison; not a generic healthy-fat food category",
+    "evidence": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42607840/",
+        "design": "Randomized single-blind crossover; 14 healthy young men; equal-energy meals, 45% energy from fat; 13-hour indirect calorimetry",
+        "result": "Oleate shortened time to peak RQ; oleate and ALA shortened time to food quotient versus palmitate. Acylcarnitine associations do not directly measure shuttle flux.",
+        "retrieval": "Primary indexed abstract; publisher full-text request returned 403. Exact meal recipes and food delivery were not retrieved."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17636080/",
+        "result": "Earlier formula-diet experiment found chronic, not acute, palmitate/oleate differences. Distinct exposure and endpoints; not replication of the 2026 time-based switching result."
+      }
+    ],
+    "recommendation": "Retain positive mechanism-specific research candidate. Retrieve full recipes, fatty-acid composition, carbohydrate/protein matching and preparation before implementing a reproducible SOP. Do not infer equivalent effects of fish, nuts, olive oil or ALA foods."
+  },
+  {
+    "scientific_admission": "unresolved",
+    "implemented": false,
+    "scores_assigned": false,
+    "ordinary_food_effect_established": false,
+    "approval_needed": "Review exact exposure, receiving operation and delivery pathway before any canonical admission.",
+    "pm": "BRS4-FM4-PM9",
+    "candidate": "Nicotinic acid (niacin)",
+    "canonical_identity": "nicotinic-acid",
+    "proposed_relationship": "Type B Regulation / Derived candidate relative to biogenesis; niacin to NAD and downstream signalling must remain distinct",
+    "evidence": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+        "design": "Small open-label study; five mitochondrial-myopathy patients with matched controls; niacin escalated to 750\u20131000 mg/day; patients 10 months, controls 4 months",
+        "result": "NAD repletion and muscle mitochondrial biogenesis reported. Not an ordinary-food exposure or placebo-controlled estimate of general efficacy.",
+        "retrieval": "Primary indexed abstract and author-hosted manuscript search excerpts; primary trial registration NCT03973203."
+      }
+    ],
+    "recommendation": "Promising formulation-specific research protocol. Hold general PM9 dietary admission: high-dose nicotinic acid is not total dietary B3, nicotinamide or protein, and response in NAD-deficient myopathy cannot establish food-level biogenesis or ADHD benefit. A supported complete conversion/active-target record and exposure assessment are needed."
+  },
+  {
+    "scientific_admission": "unresolved",
+    "implemented": false,
+    "scores_assigned": false,
+    "ordinary_food_effect_established": false,
+    "approval_needed": "Review exact exposure, receiving operation and delivery pathway before any canonical admission.",
+    "pm": "BRS4-FM4-PM9",
+    "candidate": "Nicotinamide riboside (NR)",
+    "canonical_identity": "unresolved locally; do not substitute nicotinamide or nicotinic acid",
+    "proposed_relationship": "Type B Regulation / Derived candidate; not a demonstrated indispensable Capacity input",
+    "evidence": [
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36638183/",
+        "design": "Five-month NR escalation to 1 g/day; 20 BMI-discordant twin pairs enrolled, 16 analysed; four concordant pairs provided a small placebo comparison. Mitochondrial imaging/omics were performed in the treated discordant cohort, not a powered placebo comparison.",
+        "result": "Type-I-fibre mitochondrial number and area increased; respiration not measured. Authors explicitly leave benefit, mechanism and possible compensatory response unresolved.",
+        "retrieval": "Primary full text PMC9839336 Methods/Results/Limitations."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31710095/",
+        "design": "Randomized placebo-controlled 12 weeks, 40 obese insulin-resistant men; 1 g NR twice daily",
+        "result": "No effect on muscle mitochondrial respiration, associated proteins, fractional area or morphology. Not evidence that the five-month result is impossible; duration/population differ."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31412242/",
+        "design": "Randomized placebo-controlled crossover, 12 older men; 1 g/day for 21 days",
+        "result": "Muscle NAD metabolome changed without improved mitochondrial bioenergetics. Exposure/biochemical engagement alone does not establish biogenesis."
+      }
+    ],
+    "recommendation": "Hold admission and keep positive and null studies together. Resolve NR stereochemical/form identity, complete conversion tracing, and define a formulation/population-specific proposition before any new dietary admission. No ordinary-food mapping fabricated."
+  }
+]

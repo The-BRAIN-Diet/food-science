@@ -1,0 +1,328 @@
+{
+  "version": "6.9",
+  "hitCount": 1,
+  "request": {
+    "queryString": "EXT_ID:17562787 AND SRC:MED",
+    "internalQuery": "EXT_ID:17562787 AND SRC:MED",
+    "resultType": "CORE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "17562787",
+        "source": "MED",
+        "pmid": "17562787",
+        "pmcid": "PMC2064363",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC2064363"
+          ]
+        },
+        "doi": "10.1083/jcb.200609074",
+        "title": "The Qo site of the mitochondrial complex III is required for the transduction of hypoxic signaling via reactive oxygen species production.",
+        "authorString": "Bell EL, Klimova TA, Eisenbart J, Moraes CT, Murphy MP, Budinger GR, Chandel NS.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Bell EL",
+              "lastName": "Bell",
+              "firstName": "Eric L",
+              "initials": "EL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, Northwestern University Medical School, Chicago, IL 60611, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Klimova TA",
+              "lastName": "Klimova",
+              "firstName": "Tatyana A",
+              "initials": "TA"
+            },
+            {
+              "fullName": "Eisenbart J",
+              "lastName": "Eisenbart",
+              "firstName": "James",
+              "initials": "J"
+            },
+            {
+              "fullName": "Moraes CT",
+              "lastName": "Moraes",
+              "firstName": "Carlos T",
+              "initials": "CT"
+            },
+            {
+              "fullName": "Murphy MP",
+              "lastName": "Murphy",
+              "firstName": "Michael P",
+              "initials": "MP",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0003-1115-9618"
+              }
+            },
+            {
+              "fullName": "Budinger GR",
+              "lastName": "Budinger",
+              "firstName": "G R Scott",
+              "initials": "GR"
+            },
+            {
+              "fullName": "Chandel NS",
+              "lastName": "Chandel",
+              "firstName": "Navdeep S",
+              "initials": "NS"
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0003-1115-9618"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "177",
+          "journalIssueId": 1402134,
+          "dateOfPublication": "2007 Jun",
+          "monthOfPublication": 6,
+          "yearOfPublication": 2007,
+          "journal": {
+            "medlineAbbreviation": "J Cell Biol",
+            "title": "The Journal of cell biology",
+            "essn": "1540-8140",
+            "issn": "0021-9525",
+            "isoabbreviation": "J Cell Biol",
+            "nlmid": "0375356"
+          },
+          "printPublicationDate": "2007-06-01"
+        },
+        "pubYear": "2007",
+        "pageInfo": "1029-1036",
+        "abstractText": "Mammalian cells increase transcription of genes for adaptation to hypoxia through the stabilization of hypoxia-inducible factor 1alpha (HIF-1alpha) protein. How cells transduce hypoxic signals to stabilize the HIF-1alpha protein remains unresolved. We demonstrate that cells deficient in the complex III subunit cytochrome b, which are respiratory incompetent, increase ROS levels and stabilize the HIF-1alpha protein during hypoxia. RNA interference of the complex III subunit Rieske iron sulfur protein in the cytochrome b-null cells and treatment of wild-type cells with stigmatellin abolished reactive oxygen species (ROS) generation at the Qo site of complex III. These interventions maintained hydroxylation of HIF-1alpha protein and prevented stabilization of HIF-1alpha protein during hypoxia. Antioxidants maintained hydroxylation of HIF-1alpha protein and prevented stabilization of HIF-1alpha protein during hypoxia. Exogenous hydrogen peroxide under normoxia prevented hydroxylation of HIF-1alpha protein and stabilized HIF-1alpha protein. These results provide genetic and pharmacologic evidence that the Qo site of complex III is required for the transduction of hypoxic signal by releasing ROS to stabilize the HIF-1alpha protein.",
+        "affiliation": "Department of Medicine, Northwestern University Medical School, Chicago, IL 60611, USA.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print-Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "GM60472-07",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "CA123067-01",
+              "orderIn": 0
+            },
+            {
+              "agency": "Medical Research Council",
+              "acronym": "MRC_",
+              "grantId": "MC_U105663142",
+              "orderIn": 0
+            },
+            {
+              "agency": "NCI NIH HHS",
+              "acronym": "CA",
+              "grantId": "R01 CA123067",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIGMS NIH HHS",
+              "acronym": "GM",
+              "grantId": "R01 GM060472",
+              "orderIn": 0
+            },
+            {
+              "agency": "NHLBI NIH HHS",
+              "acronym": "HL",
+              "grantId": "1P01HL071643-01A1000",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Animals"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Reactive Oxygen Species",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Electron Transport Complex III",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cytochromes b"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Mitochondrial Proteins",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Signal Transduction"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Cell Hypoxia"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hypoxia-Inducible Factor 1, alpha Subunit",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "ME",
+                    "qualifierName": "metabolism"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Cytochromes b",
+              "registryNumber": "9035-37-4"
+            },
+            {
+              "name": "Mitochondrial Proteins",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Reactive Oxygen Species",
+              "registryNumber": "0"
+            },
+            {
+              "name": "hypoxia-inducible factor 1, alpha subunit",
+              "registryNumber": "0"
+            },
+            {
+              "name": "Electron Transport Complex III",
+              "registryNumber": "EC 7.1.1.8"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1083/jcb.200609074"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2064363"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC2064363?pdf=render"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 460,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "license": "cc by-nc-sa",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2007-09-12",
+        "dateOfCreation": "2007-06-15",
+        "dateOfRevision": "2025-05-29",
+        "electronicPublicationDate": "2007-06-11",
+        "firstPublicationDate": "2007-06-11",
+        "firstIndexDate": "2009-12-24",
+        "fullTextReceivedDate": "2025-02-02",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

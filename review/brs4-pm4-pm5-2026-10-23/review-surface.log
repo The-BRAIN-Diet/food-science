@@ -1,0 +1,5 @@
+Framework QC: 582 pages
+  register → scripts/out/framework-qc/page-review-register.json
+  report   → scripts/out/framework-qc/page-review-report.md
+  queue    → scripts/out/framework-qc/review-queue.html
+  public   → src/data/framework-qc-public.generated.json

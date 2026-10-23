@@ -1,0 +1,124 @@
+{
+  "source": "system/framework-qc/framework-issues-register.json",
+  "source_tracking": "Local-only register is intentionally gitignored by repository convention; this generated export preserves the two scoped decisions for review.",
+  "issues": [
+    {
+      "id": "BRS4-FM2-PM4-RECONCILIATION-20261023",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "status": "resolved",
+      "priority": "high",
+      "visibility": "public",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS4-FM2-PM4"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx"
+        ]
+      },
+      "affected_section": "Mission; Overview; Mechanistic Basis; dietary evidence; intervention dominance",
+      "reviewed_date": "2026-10-23",
+      "title": "Approved mission reconciliation and bounded mitochondrial evidence reassessment",
+      "public_title": "Mission and mitochondrial evidence reassessed",
+      "decision": "Approved mission implemented; source-specific Findings and bounded dietary decisions recorded; legacy content/provenance preserved.",
+      "public_decision": "The approved mitochondrial operation is distinguished from neighbouring mechanisms. Historical evidence remains traceable; unresolved relationships are not newly validated.",
+      "rationale": "Explicit user approval of the two missions; source-to-claim reassessment and independent dietary gates. Original snapshot hash: feea14b7cc88b65a0e9dc3e6aa5767313b58ead65a6855620b76fceaa3fcb6c9",
+      "public_evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/27667666/",
+        "https://pubmed.ncbi.nlm.nih.gov/25383517/",
+        "https://pubmed.ncbi.nlm.nih.gov/16054089/",
+        "https://pubmed.ncbi.nlm.nih.gov/19188683/",
+        "https://pubmed.ncbi.nlm.nih.gov/26096818/",
+        "https://pubmed.ncbi.nlm.nih.gov/29161316/",
+        "https://pubmed.ncbi.nlm.nih.gov/24396061/",
+        "https://pubmed.ncbi.nlm.nih.gov/17240074/"
+      ],
+      "correction_status": "applied",
+      "review_method": "automated",
+      "implementation": {
+        "verified": true,
+        "date": "2026-10-23",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+            "includes": [
+              "scientific_findings:",
+              "intervention_dominance: Not established",
+              "historical-context"
+            ]
+          },
+          {
+            "path": "scripts/brs4-pm4-pm5-reassessment.test.mjs",
+            "includes": [
+              "original snapshots",
+              "verified/provisional"
+            ]
+          }
+        ],
+        "scope": "Two PMs; no names/URLs, neighbouring PMs, food ontology or scoring changes."
+      }
+    },
+    {
+      "id": "BRS4-FM2-PM5-RECONCILIATION-20261023",
+      "record_kind": "correction",
+      "register_surface": "pm-tab",
+      "status": "resolved",
+      "priority": "high",
+      "visibility": "public",
+      "scope": {
+        "kind": "page",
+        "page_ids": [
+          "BRS4-FM2-PM5"
+        ],
+        "page_paths": [
+          "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx"
+        ]
+      },
+      "affected_section": "Mission; Overview; Mechanistic Basis; dietary evidence; intervention dominance",
+      "reviewed_date": "2026-10-23",
+      "title": "Approved mission reconciliation and bounded mitochondrial evidence reassessment",
+      "public_title": "Mission and mitochondrial evidence reassessed",
+      "decision": "Approved mission implemented; source-specific Findings and bounded dietary decisions recorded; legacy content/provenance preserved.",
+      "public_decision": "The approved mitochondrial operation is distinguished from neighbouring mechanisms. Historical evidence remains traceable; unresolved relationships are not newly validated.",
+      "rationale": "Explicit user approval of the two missions; source-to-claim reassessment and independent dietary gates. Original snapshot hash: 7e3b930b289e5ab22844302df0c6188e043e20f8841c07c99f0ac233b91743de",
+      "public_evidence": [
+        "https://pubmed.ncbi.nlm.nih.gov/11463362/",
+        "https://pubmed.ncbi.nlm.nih.gov/35288190/",
+        "https://pubmed.ncbi.nlm.nih.gov/2065780/",
+        "https://pubmed.ncbi.nlm.nih.gov/20886510/",
+        "https://pubmed.ncbi.nlm.nih.gov/34707288/",
+        "https://pubmed.ncbi.nlm.nih.gov/35513392/",
+        "https://pubmed.ncbi.nlm.nih.gov/9303501/",
+        "https://pubmed.ncbi.nlm.nih.gov/29398562/",
+        "https://pubmed.ncbi.nlm.nih.gov/28730528/",
+        "https://pubmed.ncbi.nlm.nih.gov/18607771/"
+      ],
+      "correction_status": "applied",
+      "review_method": "automated",
+      "implementation": {
+        "verified": true,
+        "date": "2026-10-23",
+        "checks": [
+          {
+            "path": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+            "includes": [
+              "scientific_findings:",
+              "intervention_dominance: Not established",
+              "historical-context"
+            ]
+          },
+          {
+            "path": "scripts/brs4-pm4-pm5-reassessment.test.mjs",
+            "includes": [
+              "original snapshots",
+              "verified/provisional"
+            ]
+          }
+        ],
+        "scope": "Two PMs; no names/URLs, neighbouring PMs, food ontology or scoring changes."
+      }
+    }
+  ]
+}

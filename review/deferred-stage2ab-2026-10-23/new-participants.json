@@ -1,0 +1,71 @@
+[
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "atom_id": "PM6-DEFERRED-BIO-1",
+    "input": "Carnitine",
+    "input_type": "substrate",
+    "biological_role": "Carnitine carries fatty-acyl groups in the mitochondrial shuttle; this reaction participant awaits local canonical identity reconciliation.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM6-F1"
+      ],
+      "citation_keys": [
+        "wall_carnitine_carbohydrate_2011"
+      ]
+    },
+    "evidence_limitation": "Biochemical participant retained without a new canonical dietary-supply admission. Canonical identity/food or endogenous-supply reconciliation is required; no food contains the downstream fuel by inference.",
+    "dietary_input": null,
+    "dietary_input_note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "canonical_identity": {
+      "status": "missing-substance",
+      "severity": "MAJOR",
+      "intended_identity": "Carnitine"
+    }
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "atom_id": "PM7-DEFERRED-BIO-1",
+    "input": "Acetoacetate",
+    "input_type": "substrate",
+    "biological_role": "Endogenous ketone fuel relevant to utilisation. The PET experiment estimated acetoacetate metabolism; the combined total-ketone contribution was separately inferred.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM7-F1"
+      ],
+      "citation_keys": [
+        "courchesne_loyer_diet_ketone_pet_2017"
+      ]
+    },
+    "evidence_limitation": "Biochemical participant retained without a new canonical dietary-supply admission. Canonical identity/food or endogenous-supply reconciliation is required; no food contains the downstream fuel by inference.",
+    "dietary_input": false,
+    "dietary_input_note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "canonical_identity": {
+      "status": "missing-substance",
+      "severity": "MAJOR",
+      "intended_identity": "Acetoacetate"
+    }
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "atom_id": "PM7-DEFERRED-BIO-2",
+    "input": "Beta-hydroxybutyrate",
+    "input_type": "substrate",
+    "biological_role": "Endogenous ketone fuel relevant to utilisation. The PET experiment estimated acetoacetate metabolism; the combined total-ketone contribution was separately inferred.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM7-F1"
+      ],
+      "citation_keys": [
+        "courchesne_loyer_diet_ketone_pet_2017"
+      ]
+    },
+    "evidence_limitation": "Biochemical participant retained without a new canonical dietary-supply admission. Canonical identity/food or endogenous-supply reconciliation is required; no food contains the downstream fuel by inference.",
+    "dietary_input": false,
+    "dietary_input_note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "canonical_identity": {
+      "status": "missing-substance",
+      "severity": "MAJOR",
+      "intended_identity": "Beta-hydroxybutyrate"
+    }
+  }
+]

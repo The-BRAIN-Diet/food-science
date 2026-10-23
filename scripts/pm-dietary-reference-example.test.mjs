@@ -49,7 +49,7 @@ test('Direct entry renders description, five atoms, and canonical research navig
  const order=[d.readerDescription,...labels.map(x=>`detail-k">${x}<`),'Supporting mechanism research:'];
  for(let i=1;i<order.length;i++) assert.ok(html.indexOf(order[i])>html.indexOf(order[i-1]));
  assert.match(html,/Fanet et al\. \(2021\).*\[1\]/s);
- assert.equal(d.supportingFinding.label,'Dopamine synthesis requires distinct substrate and cofactor steps');assert.equal(d.supportingFinding.href,'#pm3-f1');
+ assert.equal(d.supportingFinding.label,'SF1 — Dopamine synthesis requires distinct substrate and cofactor steps');assert.equal(d.supportingFinding.href,'#pm3-f1');
  assert.ok(html.trim().endsWith('</p>\n    </div>'));
 });
 test('additional Derived B6 entry reproduces conversion, Direct target and independent numbered evidence',()=>{
@@ -78,7 +78,7 @@ test('BH4 biochemical extension renders the complete disclosure without dietary 
  const labels=[...html.matchAll(/detail-k">([^<]+)</g)].map(m=>m[1]);assert.deepEqual(labels,['Input','Input type','Biological role','Evidence source','Limitation']);
  const order=[d.readerDescription,...labels.map(x=>`detail-k">${x}<`),'Supporting mechanism research:'];for(let i=1;i<order.length;i++)assert.ok(html.indexOf(order[i])>html.indexOf(order[i-1]));
  assert.match(html,/Fanet et al\. \(2021\).*href="#pm-ref-1"/s);assert.match(d.evidenceLimitation,/not evidence for dietary BH4 provision/);
- assert.equal(d.supportingFinding.id,'PM3-F1');assert.equal(d.supportingFinding.label,'Dopamine synthesis requires distinct substrate and cofactor steps');
+ assert.equal(d.supportingFinding.id,'PM3-F1');assert.equal(d.supportingFinding.label,'SF1 — Dopamine synthesis requires distinct substrate and cofactor steps');
 });
 test('concise biological role may serve as reader description without forced variation',()=>{
  const d=disclosure('Tetrahydrobiopterin (BH4)','3.1.2');const html=context.exports.buildDetailHtml({...d,readerDescription:d.biologicalRole});

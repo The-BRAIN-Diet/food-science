@@ -46,7 +46,7 @@ export function projectMappingReview(data, {owned=true, upstream=true, preparati
 /** Qualified display ID; canonical PM and section identifiers remain unchanged. */
 export function formatInputSectionId(relationship, section) {
     const pm = String(relationship.pm || '').match(/PM\d+$/)?.[0];
-    const labels = {'1.1.1': 'Dietary Levers', '3.1.1': 'Dietary Levers', '1.1.2': 'Cofactors and Substrates', '3.1.2': 'Cofactors and Substrates', '1.1.3': 'Key Constraints / Upstream Resources', '3.1.3': 'Key Constraints / Upstream Resources'};
+    const labels = {'1.1.1': 'Dietary Inputs & Regulatory Modulators', '3.1.1': 'Dietary Inputs & Regulatory Modulators', '1.1.2': 'Cofactors and Substrates', '3.1.2': 'Cofactors and Substrates', '1.1.3': 'Key Constraints / Upstream Resources', '3.1.3': 'Key Constraints / Upstream Resources'};
     return [relationship.brs, pm, section].filter(Boolean).join('-') + (labels[section] ? ' ' + labels[section] : '');
 }
 

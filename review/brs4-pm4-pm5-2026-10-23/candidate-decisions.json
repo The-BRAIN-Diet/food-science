@@ -1,0 +1,123 @@
+[
+  {
+    "pm": 4,
+    "input": "Antioxidant-supportive plant foods",
+    "status": "unresolved",
+    "reason": "Historical category is ineligible as a biochemical input; specific compounds require source-regulation evidence. No automatic SOP transfer."
+  },
+  {
+    "pm": 4,
+    "input": "Selenium / zinc / copper / manganese",
+    "status": "unresolved",
+    "reason": "Legacy labels preserved. Clearance/defence chemistry does not establish ROS-source regulation."
+  },
+  {
+    "pm": 4,
+    "input": "Lower oxidant load / gentle cooking / mineral absorption practices",
+    "status": "unresolved",
+    "reason": "Food chemistry or absorption endpoints do not directly establish PM4 engagement; historical SOPs retained in baseline."
+  },
+  {
+    "pm": 4,
+    "input": "High-fat feeding",
+    "status": "contextual-intervention",
+    "reason": "Specified exposure increased mitochondrial H2O2 emission; not a beneficial dietary prescription or an identified biochemical input."
+  },
+  {
+    "pm": 4,
+    "input": "Aerobic retraining after immobilisation",
+    "status": "supported-bounded",
+    "section": "3.3",
+    "reason": "Human mitochondrial emission measured; foundational activity relationship retained with tested-context limits."
+  },
+  {
+    "pm": 5,
+    "input": "Vitamin E",
+    "status": "admitted",
+    "type": "A",
+    "classification": "direct",
+    "reason": "Mitochondrial-specific conditional protection plus established dietary supply; no high-dose optimisation claim."
+  },
+  {
+    "pm": 5,
+    "input": "Manganese",
+    "status": "admitted",
+    "type": "A",
+    "classification": "direct",
+    "reason": "Mitochondrial SOD2 metal dependency, dietary manipulation and structured food supply support Capacity."
+  },
+  {
+    "pm": 5,
+    "input": "CoQ10 / ubiquinol",
+    "status": "unresolved",
+    "type": "A",
+    "reason": "Existing coq10 registry identity and page resolve. Local reduced-form chemistry, dietary supply and absorption were considered; reduced-form target/conversion and protective delivery remain unresolved. Identity is not the reason for withholding a new admission."
+  },
+  {
+    "pm": 5,
+    "input": "Selenium",
+    "status": "unresolved",
+    "type": "A",
+    "classification": "derived",
+    "reason": "GPX4 participation plausible and supply established generally; selenium-to-mitochondrial-GPX4 chain/isoform attribution remains unresolved, not rejected for lack of a human efficacy trial."
+  },
+  {
+    "pm": 5,
+    "input": "Cysteine / methionine / NAC / glutathione",
+    "status": "unresolved",
+    "type": "A",
+    "classification": "derived",
+    "reason": "Supply, synthesis and import evidence considered; local protective attribution and conditional transport remain unresolved. NAC failed to restore mitochondrial GSH in the ethanol model."
+  },
+  {
+    "pm": 5,
+    "input": "Sulforaphane",
+    "status": "unresolved",
+    "type": "B",
+    "reason": "Local cell engagement supported; free-compound culture exposure versus human conjugate-rich exposure remains unresolved after targeted PK review. No universal end-to-end human assay threshold imposed."
+  },
+  {
+    "pm": 5,
+    "input": "Sulfur-supportive foods",
+    "status": "rejected-as-input-type",
+    "reason": "Generic food category ineligible; constituent research leads and historical statement preserved."
+  },
+  {
+    "pm": 5,
+    "input": "Magnesium / copper / zinc",
+    "status": "unresolved",
+    "reason": "No separately established local-protection supply dependency in the assessed evidence. ETC or generic SOD participation not inherited."
+  },
+  {
+    "pm": 5,
+    "input": "Urolithin A / ellagitannin foods / mitophagy",
+    "status": "outside-approved-ownership",
+    "reason": "Legacy studies retained as contextual research, not admitted for damaged-organelle removal or inferred ordinary-food protection."
+  },
+  {
+    "pm": 5,
+    "input": "Sleep / cooking / mineral absorption / antioxidant-rich pattern",
+    "status": "unresolved",
+    "reason": "Plausible or adjacent effects, but assessed sources do not establish the specified local membrane/protein protection. No automatic admission."
+  },
+  {
+    "pm": 4,
+    "input": "EPA/DHA fish-oil formulation",
+    "status": "unresolved",
+    "type": "B",
+    "reason": "Defined mixture increased net emission without measured damage; individual EPA/DHA effects and source-specific regulation not isolated. Not a new ordinary-fish efficacy claim."
+  },
+  {
+    "pm": 4,
+    "input": "Beta-hydroxybutyrate + acetoacetate",
+    "status": "unresolved",
+    "type": "B",
+    "reason": "Defined 1 mM-each mixture engaged neuronal/mitochondrial stress responses; do not split constituent effects or infer ordinary-food delivery. Ketogenic rat diet provides context, not matched formulation evidence."
+  },
+  {
+    "pm": 5,
+    "input": "Ketogenic diet",
+    "status": "contextual",
+    "reason": "Rat mitochondrial GSH, emission and mtDNA findings are relevant context, but mtDNA protection is not substituted for the approved membrane/protein endpoints."
+  }
+]

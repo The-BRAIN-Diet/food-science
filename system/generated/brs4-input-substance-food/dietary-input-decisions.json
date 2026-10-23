@@ -94,5 +94,136 @@
     "dietary_input": false,
     "note": "This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.",
     "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-MN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-MN",
+    "input": "Manganese",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-SE",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-SE",
+    "input": "Selenium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-CU",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-CU",
+    "input": "Copper",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM4::PM4-LEGACY-ZN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx#dietary_input_traceability/PM4-LEGACY-ZN",
+    "input": "Zinc",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-DIT-E",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-DIT-E",
+    "input": "Vitamin E",
+    "dietary_input": true,
+    "note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-DIT-MN",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-DIT-MN",
+    "input": "Manganese",
+    "dietary_input": true,
+    "note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-Q",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-Q",
+    "input": "CoQ10",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-BIO-GSH",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-BIO-GSH",
+    "input": "Glutathione",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-SE",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-LEGACY-SE",
+    "input": "Selenium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM2-PM5::PM5-LEGACY-MG",
+    "source_record": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx#dietary_input_traceability/PM5-LEGACY-MG",
+    "input": "Magnesium",
+    "dietary_input": null,
+    "note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+    "flags": [
+      "pm-specific-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM3-PM6::PM6-DEFERRED-BIO-1",
+    "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx#dietary_input_traceability/PM6-DEFERRED-BIO-1",
+    "input": "Carnitine",
+    "dietary_input": null,
+    "note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "flags": [
+      "canonical-identity-unresolved",
+      "dietary-supply-review"
+    ]
+  },
+  {
+    "relationship_id": "BRS4-FM3-PM6::PM6-DIT-CARNITINE-1",
+    "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx#dietary_input_traceability/PM6-DIT-CARNITINE-1",
+    "input": "L-Carnitine",
+    "dietary_input": true,
+    "note": "2026-10-23: authorised Type A Capacity / Direct admission. Provision is distinct from incremental benefit or dietary indispensability.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM3-PM7::PM7-DEFERRED-BIO-1",
+    "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DEFERRED-BIO-1",
+    "input": "Acetoacetate",
+    "dietary_input": false,
+    "note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "flags": []
+  },
+  {
+    "relationship_id": "BRS4-FM3-PM7::PM7-DEFERRED-BIO-2",
+    "source_record": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx#dietary_input_traceability/PM7-DEFERRED-BIO-2",
+    "input": "Beta-hydroxybutyrate",
+    "dietary_input": false,
+    "note": "Reaction/fuel context only; the separate protocol is not an ordinary-food requirement.",
+    "flags": []
   }
 ]
