@@ -6,3 +6,5 @@
 [build.environment]
   NODE_OPTIONS = "--max-old-space-size=4096"
   SEC_BASE_REF = "ebbc10ed11484192c972952d8c47645bd3c5bf4e"
+  # Cap JavaScript minifier workers without disabling minification.
+  TERSER_PARALLEL = "1"
