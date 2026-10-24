@@ -1,3 +1,4 @@
+import {dietaryConfidenceFor} from "./dietaryConfidence.mjs";
 /**
  * Client mirror of scripts/lib/dietary-lever-disclosure.mjs
  *
@@ -35,6 +36,7 @@ export type SupportingFindingLink = {
 };
 
 export type DietaryLeverDisclosure = {
+  dietaryConfidence?: ReturnType<typeof dietaryConfidenceFor>;
   atomId?: string;
   title: string;
   identityStatus?: string;
@@ -267,6 +269,7 @@ export function buildDietaryLeverDisclosureMap(
     );
     const disclosure: DietaryLeverDisclosure = {
       atomId,
+      dietaryConfidence: dietaryConfidenceFor(frontMatter, atomId),
       title: String(base.input),
       identityStatus: base.canonical_identity?.status,
       inputHref: base.canonical_identity?.status === "resolved" ? base.canonical_identity.substance_href : undefined,

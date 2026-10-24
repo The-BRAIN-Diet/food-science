@@ -1,3 +1,4 @@
+import {renderDietaryConfidence} from "@site/src/lib/dietaryConfidence.mjs";
 import React, { useEffect } from "react";
 import { usePluginData } from "@docusaurus/useGlobalData";
 import { attachInputFoodDisclosure, type MappingData } from "@site/src/lib/pmInputFoodDisclosure";
@@ -53,6 +54,7 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
   return `
     <div class="brs-dietary-lever-detail-inner">
       ${buildDescriptionHtml(d)}
+      ${renderDietaryConfidence(d.dietaryConfidence)}
       <p><span class="brs-dietary-lever-detail-k">Input</span> = ${renderInputValue(d)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${renderInlineMarkdownLinks(d.biologicalRole)}</p>

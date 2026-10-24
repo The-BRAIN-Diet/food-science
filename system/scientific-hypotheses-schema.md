@@ -6,7 +6,7 @@ A Scientific Hypothesis is a testable biological proposition with a plausible ra
 
 Optional `scientific_hypotheses` array on the receiving PM:
 
-- `id`: stable PM-local `PMn-Hn`, displayed as SHn; distinct from `PMn-Fn`.
+- `id`: stable PM-local `PMn-Hn`, displayed as `Hypothesis-n` (for example `Hypothesis-1`); distinct from `PMn-Fn`.
 - `title`, explicit `proposition`, `source_pm` / `target_pm` where applicable, explicit `proposed_direction`, `rationale`.
 - `finding_links`: separate `supporting`, `contradictory_or_null`, `contextual` arrays. Each link has `pm_id`, `finding_id`, `href`, and an explanation of the precise evidential role. Empty arrays explicitly mean no such evidence identified, not evidence of absence.
 - `evidence_sources`: study/cohort identity, label, URL, evidential role, proposition and limitations; a source need not have a new SF manufactured for it.
@@ -19,7 +19,7 @@ No SEC/CC field or inherited Finding score. Multiple links to a shared study/coh
 
 ## Presentation and numbering
 
-An optional **unnumbered** `### Scientific Hypotheses` subsection appears immediately before existing `### 4.1 Scientific Findings` (or its legacy §5.1 alias). The existing Findings number, IDs, count, anchors and parent section numbering are unchanged. There is no §4.0 or renumbering migration. Hypotheses remain outside the mechanism narrative dropdown, alongside Findings.
+An optional **unnumbered** `### Scientific Hypotheses` subsection appears immediately before existing `### 4.1 Scientific Findings` (or its legacy §5.1 alias). Each record uses the full reader-facing label **Hypothesis-1**, **Hypothesis-2**, and so on, numbered within its PM; do not abbreviate these labels to SH1/SH2. Stable `PMn-Hn` record IDs and anchors remain unchanged. The existing Findings number, IDs, count, anchors and parent section numbering are unchanged. There is no §4.0 or renumbering migration. Hypotheses remain outside the mechanism narrative dropdown, alongside Findings.
 
 `ScientificHypothesis` renders a compact native disclosure with an always-visible status, explicit direction and differentiated border. `renderScientificHypotheses` produces the marked body projection. Pages without records render no section and retain their existing presentation.
 

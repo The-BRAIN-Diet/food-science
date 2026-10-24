@@ -449,6 +449,8 @@ test("multi-role reappearance preserves distinct atoms", () => {
 
 test("dietary candidates require all six atoms and a resolvable derived biochemical target", () => {
   const { data } = readPm8();
+  // Synthetic relationship variants are unassessed; do not inherit the real B6 adjudication.
+  delete data.dietary_confidence_assessments;
 
   const missingLimitation = structuredClone(data);
   delete missingLimitation.dietary_input_traceability[0].evidence_limitation;

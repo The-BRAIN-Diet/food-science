@@ -646,6 +646,74 @@ kc_adjudication_history:
     review_record: system/kc-unresolved-decisions-reconciliation.md
 system_optimisation_practices: []
 lifestyle_priorities: []
+dietary_confidence_assessments:
+  - id: DC-BRS1-FM4-PM9-PM9-DIT-3
+    atom_id: PM9-DIT-3
+    criteria_version: dietary-confidence-v1
+    confidence: High
+    type: A
+    classification: derived
+    proposition: >-
+      Dietary vitamin B6 supplies precursors that sustain PLP-dependent glutamate-decarboxylase
+      capacity for GABA synthesis.
+    scope: >-
+      Biochemical capacity under functioning B6 absorption, activation and cofactor handling; not
+      quantitative neuronal occupancy, increased GABA from extra intake, or clinical efficacy.
+    explanation: >-
+      Dietary B6 supplies precursors of the PLP cofactor required by GAD. This is a capacity
+      relationship, not evidence that extra B6 increases brain GABA.
+    rationale: >-
+      High is justified for the defined capacity proposition by convergent GAD enzymology, human B6
+      activation enzymology and dietary utilisation evidence. Martin and Rimvall is secondary
+      synthesis, not an independent experiment. Human PDXK and PNPO experiments distinguish
+      phosphorylation from oxidation; primary nutritional-deficiency evidence supports
+      cofactor-dependent brain GAD capacity. Missing trials of extra intake, neuronal PLP occupancy
+      or ADHD outcomes do not weaken this narrower established dependency. Plant glucoside
+      bioavailability and pathological activation defects limit supply in specified contexts rather
+      than negate the relationship.
+    essential_links:
+      - link: functional_dependency
+        status: supported
+        statement: >-
+          PLP-dependent GAD catalysis is established; dietary deficiency can reduce rat-brain GAD
+          activity through cofactor depletion. The proposition is capacity, not increased synthesis
+          at sufficient intake.
+        sources:
+          - https://www.nature.com/articles/nsmb1228
+          - https://doi.org/10.1111/j.1471-4159.1972.tb01374.x
+      - link: dietary_supply
+        status: supported
+        statement: >-
+          Human tracer studies establish utilisation of oral B6, including incomplete availability
+          of PN-glucoside. PDXK and human PNPO experiments support vitamer-specific conversion to
+          PLP; this does not measure neuronal cofactor occupancy.
+        sources:
+          - https://pubmed.ncbi.nlm.nih.gov/1995788/
+          - https://pubmed.ncbi.nlm.nih.gov/17766369/
+          - https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/
+    limitations:
+      - >-
+        Pyridoxal is phosphorylated to PLP; pyridoxine and pyridoxamine are phosphorylated to
+        PNP/PMP and require PNPO-dependent oxidation. This clarification does not edit the preserved
+        historical atom.
+      - >-
+        Food matrices and glycosylated vitamers differ in availability; normal activation cannot be
+        assumed in PNPO/PDXK disorders.
+      - >-
+        No predictable brain GABA response, dose recommendation, benefit above adequacy or ADHD
+        efficacy is established; PLP is not GABA-specific.
+    finding_links:
+      - pm_id: BRS1-FM4-PM9
+        finding_id: PM9-F1
+        href: /docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm9-f1
+        explanation: Existing mechanistic Finding; confidence does not inherit its SEC score.
+      - pm_id: BRS1-FM4-PM9
+        finding_id: PM9-F2
+        href: /docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity#pm9-f2
+        explanation: Existing mechanistic Finding; confidence does not inherit its SEC score.
+    review_date: '2026-10-24'
+    assessor: Codex — independent bounded scientific review
+
 ---
 import ScientificFinding from '@site/src/components/ScientificFinding';
 import AccessibleMermaid from '@site/src/components/AccessibleMermaid';

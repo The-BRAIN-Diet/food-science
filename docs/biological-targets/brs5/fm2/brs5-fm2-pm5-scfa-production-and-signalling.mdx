@@ -1121,6 +1121,64 @@ dietary_input_reconciliation_history:
           - registry/substances.json
           - docs/substances/ (label/form/alias search)
         projection_status: blocked
+dietary_confidence_assessments:
+  - id: DC-BRS5-FM2-PM5-PM5-DIT-1
+    atom_id: PM5-DIT-1
+    criteria_version: dietary-confidence-v1
+    confidence: Moderate
+    type: A
+    classification: direct
+    proposition: >-
+      Resistant starch reaching a microbial community capable of its utilisation supplies substrate
+      for SCFA-production capacity.
+    scope: >-
+      Microbial substrate utilisation and SCFA production, conditional on starch material and
+      community; not uniform butyrate yield or downstream gut/brain benefit.
+    explanation: >-
+      Resistant starch can support microbial SCFA production when suitable degraders and
+      cross-feeding partners are present. Preparation and microbial context affect the products.
+    rationale: >-
+      Class-level capacity is supported independently of Baxter’s extracted potato-RS2 trial by
+      primary degradation, cross-feeding and RS2/RS3 fermentation studies. Moderate reflects
+      essential context-dependent utilisation and product distribution. Faecal concentration is not
+      production flux; the assessed operation does not establish downstream barrier or brain
+      effects.
+    essential_links:
+      - link: functional_dependency
+        status: supported
+        statement: >-
+          Primary resistant-starch degradation and fermentation experiments establish conditional
+          substrate capacity; alternate substrates are possible and resistant starch is not
+          indispensable.
+        sources:
+          - https://doi.org/10.1038/ismej.2012.4
+          - https://doi.org/10.1002/mnfr.200600106
+      - link: dietary_supply
+        status: supported
+        statement: >-
+          Existing preparation-specific food-composition relationships establish dietary
+          resistant-starch delivery independently of intervention-effect claims.
+        sources:
+          - https://pubmed.ncbi.nlm.nih.gov/27132853/
+          - https://doi.org/10.1016/j.postharvbio.2016.03.022
+    limitations:
+      - >-
+        Starch structure, processing, accessibility, degraders and cross-feeding partners alter
+        utilisation and product mix.
+      - >-
+        Baxter’s formulation-specific response is not an effect established for cooked-and-cooled
+        potatoes, green bananas or legumes.
+      - >-
+        Food composition establishes delivery only; no fixed butyrate yield or brain/ADHD benefit is
+        established.
+    finding_links:
+      - pm_id: BRS5-FM2-PM5
+        finding_id: PM5-F1
+        href: /docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling#pm5-f1
+        explanation: Existing mechanistic Finding; confidence does not inherit its SEC score.
+    review_date: '2026-10-24'
+    assessor: Codex — independent bounded scientific review
+
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

@@ -1,0 +1,38 @@
+[
+  {
+    "brs": "BRS1",
+    "rows": 322,
+    "repair_items": 2,
+    "unchanged": true
+  },
+  {
+    "brs": "BRS2",
+    "rows": 210,
+    "repair_items": 6,
+    "unchanged": true
+  },
+  {
+    "brs": "BRS3",
+    "rows": 118,
+    "repair_items": 0,
+    "unchanged": true
+  },
+  {
+    "brs": "BRS4",
+    "rows": 108,
+    "repair_items": 11,
+    "unchanged": true
+  },
+  {
+    "brs": "BRS5",
+    "rows": 86,
+    "repair_items": 6,
+    "unchanged": true
+  },
+  {
+    "brs": "BRS6",
+    "rows": 39,
+    "repair_items": 1,
+    "unchanged": true
+  }
+]

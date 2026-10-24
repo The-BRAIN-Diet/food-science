@@ -1,3 +1,4 @@
+import {validateDietaryConfidence} from '../../src/lib/dietaryConfidence.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
@@ -9,6 +10,7 @@ export function historicalAdmission(data,atom,root=process.cwd()) {
  const baseline=JSON.parse(fs.readFileSync(file));return baseline.records[data.pm_id+'::'+atom.atom_id]===historicalFingerprint(data,atom);
 }
 export function validateInputGovernance(data,issues,{entityLabel='',content='',root=process.cwd()}={}) {
+ issues.push(...validateDietaryConfidence(data,{isHistoricallyAdmitted:atom=>historicalAdmission(data,atom,root)}));
  const registryFile=path.join(root,'registry/substances.json');const substances=fs.existsSync(registryFile)?JSON.parse(fs.readFileSync(registryFile)):{};
  const traces=new Map((data.dietary_input_traceability||[]).map(a=>[a.atom_id,a]));
  for(const p of data.dietary_lever_presentations||[]) {
