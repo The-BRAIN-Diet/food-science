@@ -1,0 +1,74 @@
+[
+  {
+    "id": "chouchani2014",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4255242/fullTextXML",
+    "access": "full text XML recovered",
+    "paragraphs": 70
+  },
+  {
+    "id": "azuma2022",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8980337/fullTextXML",
+    "access": "full text XML recovered",
+    "paragraphs": 79
+  },
+  {
+    "id": "shi2022",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9072411/fullTextXML",
+    "access": "full text XML recovered",
+    "paragraphs": 167
+  },
+  {
+    "id": "acuteexercise2017",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5697830/fullTextXML",
+    "access": "full text XML recovered",
+    "paragraphs": 94
+  },
+  {
+    "id": "brand2016",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5061631/",
+    "access": "full text HTML recovered",
+    "length": 62438
+  },
+  {
+    "id": "anderson2009",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2648700/",
+    "access": "full text HTML recovered",
+    "length": 77555
+  },
+  {
+    "id": "rafique2001",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1222021/",
+    "access": "Primary abstract/article landing page recovered; scanned PDF methods/figures not extracted",
+    "length": 14066
+  },
+  {
+    "id": "ganini2018",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5910218/",
+    "access": "full text HTML recovered",
+    "length": 92423
+  },
+  {
+    "id": "wang2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10981497/",
+    "access": "full text HTML recovered",
+    "length": 106238
+  },
+  {
+    "id": "maalouf2007",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1865572/",
+    "access": "full text HTML recovered",
+    "length": 53466
+  },
+  {
+    "id": "gram2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4575583/",
+    "access": "full text HTML recovered",
+    "length": 69103
+  },
+  {
+    "id": "herbst2014",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3961091/",
+    "access": "full text HTML recovered",
+    "length": 50959
+  }
+]

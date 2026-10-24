@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "command": "SEC_BASE_REF=github/main NODE_OPTIONS=--max-old-space-size=4096 npm run build",
+  "main_baseline": "9d3c604b3fd742f11cb8f919fce57d4e80dfcbe8",
+  "scientific_basis_commit": "3d2ea222191173140539f86d3c4cffe9ccf84fcc",
+  "node": "20.11.0",
+  "server_compile": "3.06 min",
+  "client_compile": "6.23 min",
+  "output": "build",
+  "warnings": "Tags, Browserslist and 3250 static anchor warnings; see actual/hydrated anchor reconciliation. No configuration relaxed.",
+  "no_retry": true
+}

@@ -96,8 +96,56 @@ function renumber(group, id, visible) {
   });
   walk(main, n => {if (n.type === 'text') n.value = n.value.replace(/^[34]\.\d+(?=\s)/, visible);});
 }
+function applyFindingPresentation(tree, data) {
+  const findings = new Map((data.scientific_findings || []).map(f => [f.id, f]));
+  const readerLabel = id => {
+    const finding = findings.get(id), match = /^PM\d+-F(\d+)$/.exec(id);
+    return finding?.finding_label && match ? `SF${match[1]} — ${finding.finding_label}` : null;
+  };
+  walk(tree, node => {
+    if (node.type === 'text') node.value = node.value.replace(/\bPM\d+-F\d+\b/g, id => readerLabel(id) || id);
+  });
+  for (let index = 0; index < tree.children.length; index++) {
+    const heading = tree.children[index];
+    const match = heading.type === 'heading' && text(heading).match(/^(\d+)\.1 Scientific Findings(?: \(\d+\))?$/);
+    if (!match) continue;
+    const ids = new Set();
+    for (const node of tree.children.slice(index + 1)) {
+      if (node.type === 'heading' && node.depth <= heading.depth) break;
+      walk(node, child => {
+        if (child.name !== 'ScientificFinding') return;
+        const value = attr(child, 'finding');
+        if (typeof value?.value !== 'string') return;
+        let finding;
+        try { finding = JSON.parse(value.value); } catch { return; }
+        if (/^PM\d+-F\d+$/.test(finding.id) && finding.presentation !== 'interpretive-constraint') ids.add(finding.id);
+      });
+    }
+    // Preserve the pre-count slug, including existing explicit anchor overrides.
+    heading.data ||= {};
+    heading.data.hProperties ||= {};
+    heading.data.hProperties.id ||= `${match[1]}1-scientific-findings`;
+    heading.children = [{type:'text',value:`${match[1]}.1 Scientific Findings (${ids.size})`}];
+    const mechanismHeading = tree.children.slice(0, index).find(node => node.type === 'heading' && node.depth === 2 && /^4\. Mechanistic Basis \+ Scientific Findings(?: \(SFs \d+\))?$/.test(text(node)));
+    if (mechanismHeading) {
+      mechanismHeading.data ||= {};
+      mechanismHeading.data.hProperties ||= {};
+      mechanismHeading.data.hProperties.id ||= '4-mechanistic-basis';
+      mechanismHeading.children = [{type:'text',value:`4. Mechanistic Basis + Scientific Findings (SFs ${ids.size})`}];
+    }
+  }
+}
 function applyLeverLayout(tree, data) {
   if (!data.pm_id) return;
+  applyFindingPresentation(tree, data);
+  // Reader heading only: source decisions, canonical section IDs and old anchors stay intact.
+  walk(tree, n => {
+    if(n.type==='heading'&&/^(?:[134]\.1)\.1 (?:Direct and\/or Derived Dietary Requirements|Direct Dietary Levers)$/.test(text(n))) {
+      n.data ||= {}; n.data.hProperties ||= {};
+      n.data.hProperties.id ||= text(n).toLowerCase().replace(/[./]/g,'').replace(/\s+/g,'-');
+    }
+    if(n.type==='text') n.value=n.value.replace(/^((?:[134]\.1)\.1) (?:Direct and\/or Derived Dietary Requirements|Direct Dietary Levers)$/, '$1 Dietary Inputs & Regulatory Modulators');
+  });
   const plan = dominancePlan(data);
   if (!plan) {
     // Correct presentation of already placed legacy groups; do not select or move routes.
@@ -139,3 +187,4 @@ module.exports.GROUPS = GROUPS;
 module.exports.dominancePlan = dominancePlan;
 module.exports.validateDominanceAssessment = validateDominanceAssessment;
 module.exports.applyLeverLayout = applyLeverLayout;
+module.exports.applyFindingPresentation = applyFindingPresentation;

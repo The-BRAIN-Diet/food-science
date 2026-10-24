@@ -1344,5 +1344,33 @@
       "nutrient",
       "vitamin"
     ]
+  },
+  "l-carnitine": {
+    "path": "bioactive-compounds/lipid-based/l-carnitine.md",
+    "title": "L-Carnitine",
+    "aliases": [
+      "Carnitine",
+      "L-carnitine",
+      "(R)-carnitine",
+      "levocarnitine"
+    ],
+    "tags": [
+      "bioactive",
+      "metabolite"
+    ],
+    "inchikey": "PHIQHXFUZVPYII-ZCFIWIBFSA-N",
+    "list_image": "/img/inchi/PHIQHXFUZVPYII-ZCFIWIBFSA-N.png",
+    "external_ids": {
+      "pubchem_cid": 10917,
+      "chebi": "CHEBI:16347"
+    },
+    "identity_evidence": {
+      "retrieved": "2026-10-23",
+      "sources": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/10917",
+        "https://rest.uniprot.org/uniprotkb/P50416.json"
+      ],
+      "qualification": "L/(R) stereoisomer; not D-carnitine, acetyl-L-carnitine or L-carnitine-L-tartrate formulation identity."
+    }
   }
 }

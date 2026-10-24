@@ -1,0 +1,53 @@
+{
+  "failures": {
+    "release-tests": [
+      "canonical foods, other PMs, SEC and governance were not altered by the candidate assessment",
+      "mission, downstream finding, scores, food/registry records and historical provenance remain intact",
+      "exact intervention relationships are rendered, retired/proposed and shared-keyword cases are not admitted",
+      "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for all six Findings",
+      "every Findings-owned PM satisfies the shared canonical model and freshness gate",
+      "PM9 uses the canonical section order",
+      "legacy Finding evidence HTML is unchanged except the approved derived SF title prefix",
+      "publication gate is installed and approved production registry validates",
+      "entire canonical body, Findings, lessons, references and numbered sections survive",
+      "exactly three canonical PMs changed; source archives match baseline bytes and hashes"
+    ],
+    "historical-tests-approved-baseline": [
+      "canonical foods, other PMs, SEC and governance were not altered by the candidate assessment",
+      "mission, downstream finding, scores, food/registry records and historical provenance remain intact",
+      "exact intervention relationships are rendered, retired/proposed and shared-keyword cases are not admitted",
+      "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for all six Findings",
+      "every Findings-owned PM satisfies the shared canonical model and freshness gate",
+      "PM9 uses the canonical section order",
+      "legacy Finding evidence HTML is unchanged except the approved derived SF title prefix",
+      "publication gate is installed and approved production registry validates",
+      "exactly three canonical PMs changed; source archives match baseline bytes and hashes"
+    ],
+    "focused-tests": [
+      "Butyrate Dietary Origin projects only validated Food-to-substrate joins"
+    ],
+    "substance-tests-approved-baseline": [
+      "Butyrate Dietary Origin projects only validated Food-to-substrate joins"
+    ]
+  },
+  "broad_suite_failures_also_in_reviewed_source": [
+    "PM9 uses the canonical section order",
+    "actual compiled PM1 renders matching mechanism titles and reciprocal evidence links for all six Findings",
+    "canonical foods, other PMs, SEC and governance were not altered by the candidate assessment",
+    "every Findings-owned PM satisfies the shared canonical model and freshness gate",
+    "exact intervention relationships are rendered, retired/proposed and shared-keyword cases are not admitted",
+    "exactly three canonical PMs changed; source archives match baseline bytes and hashes",
+    "legacy Finding evidence HTML is unchanged except the approved derived SF title prefix",
+    "mission, downstream finding, scores, food/registry records and historical provenance remain intact",
+    "publication gate is installed and approved production registry validates"
+  ],
+  "additional_broad_suite_failure": [
+    "entire canonical body, Findings, lessons, references and numbered sections survive"
+  ],
+  "additional_failure_explanation": "Historical SEC calibration preview body asserts equality to current canonical GABA page; latest main historical preview component/test is preserved, while later approved canonical revisions exist. Preview is excluded from production and canonical inventories. No test weakened.",
+  "focused_legacy_failure_also_in_source": true,
+  "mechanism_validator_unchanged": {
+    "identical_after_path_normalisation": true,
+    "new_issues": []
+  }
+}

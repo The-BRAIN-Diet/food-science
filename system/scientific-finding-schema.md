@@ -1,5 +1,7 @@
 # Stage 2A — Scientific Assessment & Finding Schema
 
+**Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
+
 **Status:** Authoritative Stage 2A scientific assessment instruction and Finding schema. Use with the [whole-PM page schema](primary-mechanism-schema.md); proceed to the [Stage 2B contract](dietary-input-traceability-contract.md) for applicability and lever implementation.
 
 The canonical evidence unit for mechanism pages. A Scientific Finding states a
@@ -9,6 +11,23 @@ the synthesis, the limits of that synthesis, and every study considered.
 Replaces the earlier pattern of *mechanistic claim → one or more references*.
 
 ## Bounded assessment
+
+### Source interpretation boundaries
+
+Identify primary experiment versus secondary synthesis explicitly in existing
+study/design, result, limitations and retrieval fields, independently of data
+level. A review of cellular experiments is secondary synthesis, not another
+primary cellular replication. Do not count an underlying study and its review
+as independent experiments.
+
+Where material to the claim, record anatomical compartment, observation window,
+measured endpoint, inference/model status and tracer origin. Concentration is
+not production flux; separately infused product tracing is not automatically
+evidence of precursor conversion. A null in one compartment does not establish
+absence of a process elsewhere. Preserve the distinction between measured
+substrate utilisation, measured product concentrations and inferred production.
+Synchronise repeated source assessments and generated presentation after a
+correction. These clarifications add no disclosure atom or scoring rule.
 
 **The ontology proposes the question. Evidence gets to challenge it.**
 

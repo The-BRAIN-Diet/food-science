@@ -1,0 +1,728 @@
+{
+  "basis": "Compared against the actual starting working snapshot, including inherited uncommitted work; not merely HEAD. Audit directory files are also outputs of this request. Manifest itself excluded to avoid a self-referential hash.",
+  "files": [
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+      "change": "modified",
+      "before_sha256": "41730526034801e67acdbfab3ee384b5560959a14b3115102dfa4c8c9c2945d0",
+      "after_sha256": "5d2863c1e17a06dac9cce816c2b349696de8dd7d0100caa46d7f54d382000df7",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+      "change": "modified",
+      "before_sha256": "ced2ad78da6b709cf24608126422a440bd5cbc8a49fc7d6ab5dd8d8951edee19",
+      "after_sha256": "3e229dd1eefb3619aac766a11b48431142058684eb0fffad5129c1966fc03457",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+      "change": "modified",
+      "before_sha256": "156dc5e8672bad4288d3ccb78933248f4d5276c4f9ca62c7ee76a2f49fa0a921",
+      "after_sha256": "d78b119b513833d38320b292511725fd19634a732a7bdfb9b2aff4f11ca0ba27",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+      "change": "modified",
+      "before_sha256": "4d2975bd73fe27c35552e1aff42f4d45dcc6af318f8d046b2b8c10c4f7268eb9",
+      "after_sha256": "099df03b5679a33ab12f75a8e0f0fd139f5f5d8f298fac6245608ee230bd4b61",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+      "change": "modified",
+      "before_sha256": "4ef7f80c65f51ef0c88b4d09524e5238542ba4134929de77dc3b6be2e551ecfe",
+      "after_sha256": "26d424c1c932fb7735a49181a2ea1e0a00d601158b303ff15c1a180009ef8d73",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+      "change": "modified",
+      "before_sha256": "59c14fad92646bb30f195601e5064584ce2d9acce83ab15ea3ced634a630dfae",
+      "after_sha256": "ecb49e2483a3c4a742fc43e809e06f1d612c86cbea11f566d47314e3b968c510",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+      "change": "modified",
+      "before_sha256": "38644cad2e49c56d53f9c315435786476d96917f37e483bde44d792acc5f3e1b",
+      "after_sha256": "43a7ea00a011d3346007d32d27399cb80a91befefe4fb40931b68b7a4353c8f6",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+      "change": "modified",
+      "before_sha256": "71d08b9cb5edd0e461f39188fb9de1013ad50d1a758a3c691ccad8ee9b9ab1c3",
+      "after_sha256": "29a1ce60757e87d733fd6ffe374a2097087c2f6d83e65ea4695141badff1ea72",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+      "change": "modified",
+      "before_sha256": "e0bf14529e931216c9db3c48ee3fd8d9305b711c952031c5ce6e76ab1a67ad65",
+      "after_sha256": "64b69cf41aac5bdf0c8d226cbdaf44c5f02bc72a23a3b9d301050c3cc18e1e9c",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+      "change": "modified",
+      "before_sha256": "3d3c395a900026022111321ffd4e3335cbef9ef3978c1dbb4ec080f174c7eee1",
+      "after_sha256": "d6bd3d0349e805a8efa74b6f412706495a2850bb8b016385b7870766832eaccd",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+      "change": "modified",
+      "before_sha256": "d4bf4c8bbb4ef04a5d47252c7cbfa6f2d1bf2746a103c14d86e7b3e12b527aa7",
+      "after_sha256": "24da15c939a0e76d74d5bc19eae98a4c3d0a749f5f754af36fb568d9e670a5c2",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+      "change": "modified",
+      "before_sha256": "79ea4c61bb4d57c5458bf7d8c3a7e499ba4db03b9647bdb0ac8ca07483e3c1e5",
+      "after_sha256": "cf0953c576c18e4766dca439ca0169efefa6c85e21af7579af07361705c949ea",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+      "change": "modified",
+      "before_sha256": "deeb4126052bb2219d2215d82516cb3e4130ffc5ce241f471c62aba4d6500ca7",
+      "after_sha256": "a8f481ed83abd52c20b7f87686a0cc3ea06c4825b70c01378ff5ba63d200c0dd",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+      "change": "modified",
+      "before_sha256": "ccdafdd9d8fa90a384b34c812ee92a6cc6b31c75ae2f8f5d6e44a9419d6041d2",
+      "after_sha256": "802dc23f2b67a192aac6c17a1d88809579c71b25acbbeb0f66f79d573225eb51",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+      "change": "modified",
+      "before_sha256": "0c457ebe002316400a9991b9e6507170288060ebd12f7eed070765dcc128c035",
+      "after_sha256": "06de0d260c058a6e5573b511fce99605d32c4cab9841265a31a4225ee3301cf5",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+      "change": "modified",
+      "before_sha256": "35afacf830bc23bff818fafde81136d7f00decc335f331306127cce2f58b0d64",
+      "after_sha256": "e28f6716bd7a3f5276a24c54f599dc5223b64dd81753d56315ba7ae0df22bad9",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+      "change": "modified",
+      "before_sha256": "580a85006622945f1c0c5f708e6ccfdf0c4f67aa6225948f799245989a587047",
+      "after_sha256": "128384dc296eb21ae7600a370549defeecec06ac6615c0bc742a5c595f5c0fea",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+      "change": "modified",
+      "before_sha256": "563b678271feff6d1a33720e0719e308600c995ba13e2ac5b11e90c2578db62c",
+      "after_sha256": "757d8062b47fb0a344a8d8cd7612db31b23547f8883c8ee1974b7eeb40862dce",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "change": "modified",
+      "before_sha256": "d2dc4809061daab5d4127419c80c7aeaf628eb2023fbcd88f3db5e97f40f360b",
+      "after_sha256": "9634f9ac5b0218854203e3b2897786fdce7cce0a0ecae9b7ceab2adbb8a93882",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+      "change": "modified",
+      "before_sha256": "acd2f959a03807cd5653b29184ba3587a307833c327b2252c91c025f9526af6a",
+      "after_sha256": "78099d90cb6d8aa8a76ee61915a5de8f5ac2185702ab95bca783ad396e8623e1",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+      "change": "modified",
+      "before_sha256": "92c8e7854380973bbe75113092600479c2c3ae7708d40a981bd961dc833678a6",
+      "after_sha256": "451812f5ed0420cf1a6f9fd251d68d6268367f59986e428fdb4d7925501e8648",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+      "change": "modified",
+      "before_sha256": "30294717ef9be07b53ae199e705d5ec1458d74928f535af0e6a6c2dfe0b4b3b4",
+      "after_sha256": "d7c4ded305967785e83ab9e64bd368307df5a064298b4b9e57bcabc70e5a7b4c",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+      "change": "modified",
+      "before_sha256": "e647a9e104a2be67b9ff3f06f9573d18a8d5131852311c5a23ab599a47738d88",
+      "after_sha256": "e616f0a15d1804c1c0f681e42baf05074f649729cc4c6504a79980ee0e6a82e9",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+      "change": "modified",
+      "before_sha256": "80c570fade018f264aa3a413a92be81f60bde85305786d3a69a43076eec52728",
+      "after_sha256": "0867d061d83c6d37aa16fec07a77d3491299254792421704ff400b8ead30169d",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+      "change": "modified",
+      "before_sha256": "13c7e3cec7fafb6c5fd6fedfdb6e4870ed453d895776beaf07f9300f9aab01a6",
+      "after_sha256": "8d075cf677e00ab2d2132c63c2d085d929c3edd5fdbed4f691bc257308d805f3",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+      "change": "modified",
+      "before_sha256": "5fe50c2399444f1ad6adf544e98359ac9d21fec7d429b8488939eed0147d50fb",
+      "after_sha256": "a14f7d2f3b884dbfb5fb178e63561381c3b1b373d8d3ab8e524ed44ef34b187c",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+      "change": "modified",
+      "before_sha256": "0ea2f07ec32e63bd038a1e4c5943a0e4645293507e92dec8bf80a3b6d1417940",
+      "after_sha256": "2c8f0a6a0bb7a14e3b3cc5114bc4e3c15d1b46db44b7d0bd368b919e07886bb5",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+      "change": "modified",
+      "before_sha256": "b642c10bb68723ae6deafb60512a2af8819409679389b17bf05b646d5904abbe",
+      "after_sha256": "46cdc622b985ff1a13d09939e9c8d60b43070bfd4c0ba7cd68cec98ce2f65a0e",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+      "change": "modified",
+      "before_sha256": "b199838759d22f5516b054cff3ce28d02f347de4508eb0fb4722a86aa43db769",
+      "after_sha256": "1f141cb666eb11121855cbfdef5a864b283b22aaa79996155f6a102e4a086bcf",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+      "change": "modified",
+      "before_sha256": "e555379446a76eec4180f5401c745c52a4b45082094cd4d1e03ac8e77ffe37eb",
+      "after_sha256": "b10b85ac9c669a69c2ade7139c7dfc63f2bed9fbcde3f1ba9670c5e7952750f7",
+      "category": "canonical-target-PM"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/assessment-matrix.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "caa5379476542564c780664e4c244ca57892635f8c47d7b19228708394d2e399",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/assessment-matrix.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "cb873d218832e78b1f5018c7a13cca2308934d12f88cb975506ae34392215987",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/baseline-bibliography.bib",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9894ce185723d48c704cd229ea371dd3bd5822c77c5e250f8b934aa2655ac46c",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/baseline-food-research.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "294a20a8b70398ad9a4e5563e46b67456d3c8a04150f2b32accf3c31b61de171",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/batch-results.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "18d862069b4a9447557273c0753537bee1dd75d1d485a790a64ae63277427724",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/browser-disclosure.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "55e39e327b8d918f750a289e07d26518bdf68a23cb8b5fc6c314264dfb651f41",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/dietaryInputGovernance.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "06183a49336939ff96a3bbd1504b08e45700073f1596ca88b1030ef7842b9fc3",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/foodTargetReconciliation.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0bd000448055eab27b2447a4dc9a826e49a56bd563874ac48ef37f1564ddd180",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/foodTargetTraceability.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "b90dde0873ca9de9e39256b35a568b3ef86945b240c921f12dc98ea69504a029",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/inputMappingScopes.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9f085b1079ab38f776bbb3930dfd067a838ca3e0483aff8625f88837e8ed964c",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/inputSubstanceFoodSelection.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9b45547689d70dcd39a1ec14152ba8e72c30d568293be8a7df409cf00acf9e2f",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/client/scopes.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "18d187b070aff65548d754ad77bd3d0e52305b892d2436602ce236026e33ce9d",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/complete-baseline.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "c0a9b56aea88f61dd4baacbfb89599b2b1680111cab14c8fafb16e0411501bd2",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/cursor-repair-queue.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "5b2ed85bd99dcae1c72115cb1d942dacfcf99b67c27ecee89ab9f20710452bff",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/cursor-repair-summary.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0332d9ff2df5736abad981f04062f76ee14a5dea7f555747ab72d193175be367",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/dietary-targets.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "6cec98fef65c6454a0163dd572227b74394cab1171f08d686a76a406385f7f64",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-research.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "f46fcc10ef3755f8caa6c1e8a0b3f6cbf78a48c6641ef5feb0667c321f09d013",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-target-preview.html",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "56240a6872c5c4b72c431650ac99fc96f2286cd8bf6e7fbdd42bc6d5414da163",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/food-targets.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "e8b43f957e24f9c8a9063691751a864c84ac07c8171844974ac828fa43e318f7",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/implementation-manifest.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "47b699b67b9bd66cffea86b112245720c52edd9767bfb0008d3d79ff3250b94b",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/microbial-crossfeeding-2025.xml",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "d03da6f5945e0c1b306c31dd57e2a39cd8a174cb7d6bcc19066434ca9bb5f2e7",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-admissions.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "8cf944e2f87f5658eb8265d14d4a3a57714367792eb498f7ff8bba7d85416722",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-participants.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "a87acaa6ba1760006094e0f214f96f8f0cb3eff2ddfb7d28d2b258ecd31affaf",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/new-practices.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "e3ee9d5644938b77c9e89f640d1b63d4f742112873e3ecf94be26ab401094ed9",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/report.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "658cc73f3e7aa7d2083e889f082eeeeaa11aa7c7b244e015650848e6edfb01ca",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/retrieved-primary-metadata.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "c877322d76d957c1ddf47262e9a6dd74d962600695c6c1369e9e2feeeead9e17",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/scientific-review-proposals.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "ce1d8035149b2db0a39782816082e29d1ec7cbe3b0441d02a89c5974ccc2a578",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/source-preservation.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9f32957d8b48d2932b10a8dce84d93e1d9237b34d9182e4bafec34c613fe2cf9",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation-report.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "702c4870b2bfbf0de4176e7769c97c5e0e3b6dad9e2aa572ac427586ce6ffc5b",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation-report.md",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "bf4449ffa1a42ea7abcd7d59706d4f99cbde5738fa405bffb0dfe81e0079b5c9",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/baseline-mechanisms.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9948a367ea807be8ee5c2ea59cff05e4092b20382163f1459ef6cba0446560be",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/bibliography.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "9eaf170397d478dfbf4befc10b0239f276b8f89c5c580b96956b0d0b5b0c2243",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/compiled-pages.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "bcbdfed0a60a8932fd9bc55950030b7dbfc86d56b966231619b7a19d0fc1c970",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/deferred-regressions.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "37a9792b38d1080854df7437279f9e22f2a043ee13db67137fbe6196e151d472",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/final-focused-tests.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "c81d4d7a2c82705495f7e2a1aa401bdb5cd2d7926ca46208ae3885fbe4ae7b43",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/generation.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "7301386a697df152fde12ad1519ef072040c9e569b8cf995a898be89914a267d",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/infrastructure-tests.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "647752c069e5e563fa3371ac2d0662b75235ad555a1cc073f7996240472fcd87",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/mechanisms.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "b50bd63106292763479db979e4122aa0fbf7ad773eb02fd11cf871464f1e171b",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/phenome-generation.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "0546bc15fbee78212794f205123fb7e0eb076d20362fe448c8924be725c0e56d",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/preservation-and-findings-tests.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "3ca9513d7204d4b277186473d7b3a6f1d0a41d8e86542a0b96c5623e8851c7ca",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/reference-integrity.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/sec.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "fdafa2b41a739626ee4ef1e1351477c3f48b4123969d7d1777cd034cc10ac100",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "review/deferred-stage2ab-2026-10-23/validation/substances.log",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "b7859f2e147854db7396f29a5452cc80726d289071932f607f8f40b2685f4603",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "scripts/deferred-stage2ab.test.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "17b945bd6851dafb64f2d058b3ba86ce6410f217bf633b13798f3d036a262da0",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "scripts/input-substance-food.test.mjs",
+      "change": "modified",
+      "before_sha256": "c31143a1c0535ac67156c6745cc7eb90db6355086c5d56aec6cb0359aaa725e7",
+      "after_sha256": "bd70290f477feacb8afb1c3d02842753fca51260202c94e6b54c7d77028daf9d",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "scripts/run-deferred-stage2ab.mjs",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "6d9a4cff6744f65fb6030d339bb476ec1016cd0d333c2268e88637ec00ce135a",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "src/data/phenome-relationships.generated.json",
+      "change": "modified",
+      "before_sha256": "45267638268ed0f96def4229594f4d9cdff8bffca6da6435321c187ab35038df",
+      "after_sha256": "a510324fe0168a31546a2655b484fe0e14f3f4120e575bc935df33e13e9fec40",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "static/bibtex/BRAIN-diet.bib",
+      "change": "modified",
+      "before_sha256": "9894ce185723d48c704cd229ea371dd3bd5822c77c5e250f8b934aa2655ac46c",
+      "after_sha256": "bb8da983be740c49c04b80f18a6daf718b302410bebf8affdd4d6f8ff4608967",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/food-target-research.json",
+      "change": "modified",
+      "before_sha256": "a122663ba061310b36a1132b79e69f9b736f4f6eed3532701c9e5709288c3667",
+      "after_sha256": "5d681e36c70fcf190e2e87572e02aa97c39e7d365c9f52c8d55c5d460033fb86",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/dietary-input-decisions.json",
+      "change": "modified",
+      "before_sha256": "7a7cc8ab8a373f02c90afcae664034fbc868e03916a8868d7237a17b8c21af2a",
+      "after_sha256": "c6f40556d562df041efaad3e8994d3cb1d42ff31d59175d57a4732155e127582",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/gaps.generated.json",
+      "change": "modified",
+      "before_sha256": "58261c531f74d982e413cfe187cfa2f371760510727c8c10b6677215c60aca58",
+      "after_sha256": "dd44ce8accf02e96964d2269f476b4196cbd51dc51ceb491ceccf67d2a6751b5",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/inventory.md",
+      "change": "modified",
+      "before_sha256": "c1b5dd58a824da2cb32f3c5736e759488322d8d5715c9ed8929b4f7779c54f2f",
+      "after_sha256": "2e6547cdef60d65cc03fa6d1ffb917cbdd028fa5a45ddd322d8b18c8954f29e3",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs2-input-substance-food/substance-index.md",
+      "change": "modified",
+      "before_sha256": "aa346b51a1d2dd322d5994d2e6fb1dfb3aca9214d9f45a509327537093927e04",
+      "after_sha256": "83f9f461ac9e4dfab47454516ee7223251deee1d09c6fa6eb60e94187050bf5e",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/dietary-input-decisions.json",
+      "change": "modified",
+      "before_sha256": "fd1141666eafb03504a095ed95d047648371032387b5455d01a55cbe91bb17e0",
+      "after_sha256": "9227a33ad8858bb1d38e597e3c05ccb2460758697c25fc2e5237369d069e07dd",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/gaps.generated.json",
+      "change": "modified",
+      "before_sha256": "c3abdebbf201baeeec6b6e23858700792ba7de39063536f610283206ef31ddb4",
+      "after_sha256": "49257d22d6a3a7b53d07eb247391a942a8849c947d9867389944d1da15dad7af",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/inventory.md",
+      "change": "modified",
+      "before_sha256": "ded33470358050ea8d4857d23a95f832ca49a3c1f102d3302f9f2c843b5222aa",
+      "after_sha256": "90e2b32f3032073e6470d922452f4974474a5273db779a7db875c2e0bf2784e0",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs4-input-substance-food/substance-index.md",
+      "change": "modified",
+      "before_sha256": "f8ae85d392687d24b5e0910122644b4ba0cab439274b532aca89efd9b40dfdbc",
+      "after_sha256": "bc4a8a45cae32205e5b4eb1df9327daab10935f1f84f306cdfcf9fc73f32c9a4",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/dietary-input-decisions.json",
+      "change": "modified",
+      "before_sha256": "5c091aca35e28daf4be1a2b17dd0923f49532644d2352fca568a881c19805e36",
+      "after_sha256": "415bc0092d648c26937b81aeb4fcbf341338a4261157103d1cfa5f2036ee7ceb",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/food-to-inputs.md",
+      "change": "modified",
+      "before_sha256": "3774a8c8b9a6983cace91d229839e583b13e8899a98c8113bfa35f0e988e7862",
+      "after_sha256": "e71767d86c3891023d0d7c54f16df7a24ec2315ed0234696c69e628f7a0b60f1",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/gaps.generated.json",
+      "change": "modified",
+      "before_sha256": "b5ea7b2637cfa9d07fc896eacbc5a81b64d7d44791323ed2d061a0ba454a9f65",
+      "after_sha256": "0e12cd739edc5a41b190ab4ed3d3041d8f0a21bff23071bcdd0a2d2355511653",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/inventory.md",
+      "change": "modified",
+      "before_sha256": "59fc5929bc1339e73510c1fa86704a7f5641f66238a6f0c80675a7473c790747",
+      "after_sha256": "d91de24841e6f474bcf2d9a11ae66aaa1bc54916988465b075a710f4d0c12fde",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/brs5-input-substance-food/substance-index.md",
+      "change": "modified",
+      "before_sha256": "988d9b41bdccb6a25330d7dbedbae74614e7e136900f24e22a09ddb0a805037a",
+      "after_sha256": "1644f17976aa0d53bc5f336888579419cbb148f0226c57debd9aac0772d59388",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/cursor-repair-queue.json",
+      "change": "modified",
+      "before_sha256": "8decb42b03c8bee970c66d92eb61f3af03a84f6c27ed2dc99a778b2af3ac5a80",
+      "after_sha256": "6f0d7f30e29d56a77d79b8530fcfe9afc5173f38dc1dfe21f54220064bf7df3b",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/cursor-repair-summary.md",
+      "change": "modified",
+      "before_sha256": "e0e47bdce631bdbd708398bc2623b9661aca9b0885c9dc1e0ab79a6270fd7c89",
+      "after_sha256": "d8470c95010dc6ab953d5870f4a3e9c2ea1c2958b032ab3faa6a726a55c811b0",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs1.json",
+      "change": "modified",
+      "before_sha256": "2b2669ca63943aa6bae238258473bf84558cbb7a0ed4d0ac48db0f9314b98f11",
+      "after_sha256": "1b5ac9aeeab33924588fe5b4eac02658aae610e4a8f5206bc8c5f68ee15cdee5",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs2.json",
+      "change": "modified",
+      "before_sha256": "40c3b151b807d1f1f22d8a16e77ccd5b2c3e6264a3deefaeb6e73c3a7a32385a",
+      "after_sha256": "28d68c0ad9fcce3f64d2142a6e134e48c77ace03b763ae4bcd9581884f822aca",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/manuscript-rollup-brs5.json",
+      "change": "modified",
+      "before_sha256": "953dd561bbb09bcdf1aa009a2db4a1c0afaac1f6602623d9855313c6e37005a4",
+      "after_sha256": "896caca34dc035a444d6025e7198345c00caaca2b586a01406a3b65534650c6d",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/reconciliation.json",
+      "change": "modified",
+      "before_sha256": "a777f4943f60b47c32cff62b8ccff76eba834b60d8892e0aa403d3601bb5f630",
+      "after_sha256": "997367a08560a19874b64a94350f40b725eb8aabf382eadf1ef3b69b7e6a4f3a",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/dietary-food-targets/research-ledger-reconciliation.json",
+      "change": "modified",
+      "before_sha256": "c23c050cf8f8b7f570a1ccf2555ec602639e7b48707845b4b216c883ca766f5f",
+      "after_sha256": "55bb79ff947049e94260842eabda66b7aa4cd87a58ac8a9246a32bc49dd5ca51",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/food-strategy-rollup/index.md",
+      "change": "modified",
+      "before_sha256": "cb270a1de22b6518b653e816634ccd5746e6fe770679f5678d7d4f51d965161f",
+      "after_sha256": "daacf088ac6356f0dc6c3fa535bb543a6007bdea934446299f3095de59e030bc",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/generated/food-strategy-rollup/rollup.generated.json",
+      "change": "modified",
+      "before_sha256": "8cbdb672c89791714f6a6569b4d192d2abf5c7cfbe40a90c37b60c906288d5ab",
+      "after_sha256": "de3c0819ce6788ec2830d27c530e33d5755b714b4426dc85c8fab94610225242",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "b41a2cd644af78d8fca356799f6baa4792341a231cd3c060de5b137ace0a9cb0",
+      "category": "supporting-or-generated"
+    },
+    {
+      "file": "system/reviews/deferred-stage2ab-2026-10-23/sources.json",
+      "change": "added",
+      "before_sha256": null,
+      "after_sha256": "44c294caca984824b4e2b8250d350c045e99a1cbd444e87298867606596efdea",
+      "category": "supporting-or-generated"
+    }
+  ],
+  "target_pm_count": 30,
+  "original_source_preserved": true
+}

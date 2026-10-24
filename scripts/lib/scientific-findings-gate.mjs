@@ -35,6 +35,8 @@ export function expectedFindingsSection(data, content) {
   if (!hasScientificFindings(data)) return null;
   const match = content.match(FINDINGS_SUBSECTION_HEADING);
   if (!match) return { missingHeading: true };
+  const lessons=authoredFindingLessons(content);
+  for(const id of lessons.keys())if(!data.scientific_findings.some(f=>f.id===id))throw new Error('Authored lesson has no declared Finding: '+id);
   return {
     sectionNum: parseInt(match[1], 10),
     heading: match[0],
@@ -42,8 +44,19 @@ export function expectedFindingsSection(data, content) {
       sectionNum: parseInt(match[1], 10),
       subNum: 1,
       intro: findingsIntroFor(data),
+      authoredLessons: lessons,
     }),
   };
+}
+
+/** Explicit authored islands remain beside their Finding when the section syncs. */
+export function authoredFindingLessons(content) {
+  const lessons = new Map();
+  for (const match of content.matchAll(/\{\/\* scientific-lesson:(PM\d+-(?:F|IC)\d+):start \*\/\}([\s\S]*?)\{\/\* scientific-lesson:\1:end \*\/\}/g)) {
+    if(lessons.has(match[1]))throw new Error('Duplicate authored lesson for '+match[1]);
+    lessons.set(match[1],match[0]);
+  }
+  return lessons;
 }
 
 /**

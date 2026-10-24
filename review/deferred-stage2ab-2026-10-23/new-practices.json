@@ -1,0 +1,246 @@
+[
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "section": "3.2",
+    "atom_id": "PM1-SOP-DEFERRED-1",
+    "input": "Minced rather than intact beef in the tested older-adult meal",
+    "input_type": "food preparation/delivery practice",
+    "biological_role": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM1-F5"
+      ],
+      "citation_keys": [
+        "pennings_minced_beef_2013"
+      ]
+    },
+    "evidence_limitation": "Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.",
+    "dietary_input": true,
+    "reader_description": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+    "description_finding_id": "PM1-F5",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "food-preparation",
+    "food_strategy_id": "food-strategy-6d9c0fa97324"
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "section": "3.2",
+    "atom_id": "PM12-SOP-DEFERRED-1",
+    "input": "Experimental magnesium-L-threonate exposure",
+    "input_type": "defined dietary exposure",
+    "biological_role": "The tested formulation changed presynaptic structural markers in rats.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM12-F12"
+      ],
+      "citation_keys": [
+        "slutsky_magnesium_synaptic_2010"
+      ]
+    },
+    "evidence_limitation": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.",
+    "dietary_input": true,
+    "reader_description": "The tested formulation changed presynaptic structural markers in rats.",
+    "description_finding_id": "PM12-F12",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "supplementation",
+    "food_strategy_id": "food-strategy-bafd6931fd98"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "section": "3.2",
+    "atom_id": "PM1-SOP-DEFERRED-1",
+    "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "input_type": "defined meal formulation",
+    "biological_role": "The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM1-F3"
+      ],
+      "citation_keys": [
+        "ghanim_increase_2009"
+      ]
+    },
+    "evidence_limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+    "dietary_input": true,
+    "reader_description": "The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.",
+    "description_finding_id": "PM1-F3",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "dietary-protocol",
+    "food_strategy_id": "food-strategy-f69b067d45e3"
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "section": "3.2",
+    "atom_id": "PM2-SOP-DEFERRED-1",
+    "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "input_type": "defined meal formulation",
+    "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM2-F5"
+      ],
+      "citation_keys": [
+        "ghanim_increase_2009"
+      ]
+    },
+    "evidence_limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+    "dietary_input": true,
+    "reader_description": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "description_finding_id": "PM2-F5",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "dietary-protocol",
+    "food_strategy_id": "food-strategy-f69b067d45e3"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "section": "3.2",
+    "atom_id": "PM6-SOP-DEFERRED-1",
+    "input": "Experimental carnitine/carbohydrate loading protocol",
+    "input_type": "defined dietary exposure",
+    "biological_role": "The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM6-F1"
+      ],
+      "citation_keys": [
+        "wall_carnitine_carbohydrate_2011"
+      ]
+    },
+    "evidence_limitation": "Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.",
+    "dietary_input": true,
+    "reader_description": "The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.",
+    "description_finding_id": "PM6-F1",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "supplementation",
+    "food_strategy_id": "food-strategy-1116604823f5"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "section": "3.2",
+    "atom_id": "PM7-SOP-DEFERRED-1",
+    "input": "Four-day ketogenic liquid formula in the studied healthy-adult experiment",
+    "input_type": "dietary pattern",
+    "biological_role": "The defined formula raised tracer/model-estimated cerebral acetoacetate metabolism.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM7-F1"
+      ],
+      "citation_keys": [
+        "courchesne_loyer_diet_ketone_pet_2017"
+      ]
+    },
+    "evidence_limitation": "Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.",
+    "dietary_input": true,
+    "reader_description": "The defined formula raised tracer/model-estimated cerebral acetoacetate metabolism.",
+    "description_finding_id": "PM7-F1",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "dietary-protocol",
+    "food_strategy_id": "food-strategy-30a8479fab48"
+  },
+  {
+    "pm_id": "BRS4-FM3-PM8",
+    "section": "3.3",
+    "atom_id": "PM8-LP-DEFERRED-1",
+    "input": "Combined progressive exercise as studied in men with type 2 diabetes",
+    "input_type": "exercise protocol",
+    "biological_role": "The programme improved the clamp-associated respiratory-exchange flexibility index in the diabetes group.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F1"
+      ],
+      "citation_keys": [
+        "meex_training_flexibility_2010"
+      ]
+    },
+    "evidence_limitation": "No inactive randomised comparator; whole-body RER is an index of substrate switching, not a brain-specific assay. The flexibility change was not significant in healthy controls.",
+    "dietary_input": false,
+    "reader_description": "The programme improved the clamp-associated respiratory-exchange flexibility index in the diabetes group.",
+    "description_finding_id": "PM8-F1"
+  },
+  {
+    "pm_id": "BRS4-FM4-PM9",
+    "section": "3.3",
+    "atom_id": "PM9-LP-DEFERRED-1",
+    "input": "Low-volume interval cycling in the tested two-week protocol",
+    "input_type": "exercise protocol",
+    "biological_role": "The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM9-F1"
+      ],
+      "citation_keys": [
+        "little_interval_mitochondria_2010"
+      ]
+    },
+    "evidence_limitation": "No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.",
+    "dietary_input": false,
+    "reader_description": "The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.",
+    "description_finding_id": "PM9-F1"
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "section": "3.2",
+    "atom_id": "PM2-SOP-DEFERRED-1",
+    "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+    "input_type": "defined meal formulation",
+    "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM2-F9"
+      ],
+      "citation_keys": [
+        "ghanim_increase_2009"
+      ]
+    },
+    "evidence_limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+    "dietary_input": true,
+    "reader_description": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+    "description_finding_id": "PM2-F9",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "dietary-protocol",
+    "food_strategy_id": "food-strategy-f69b067d45e3"
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "section": "3.2",
+    "atom_id": "PM3-SOP-DEFERRED-1",
+    "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+    "input_type": "conditional supplementation",
+    "biological_role": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM3-F4"
+      ],
+      "citation_keys": [
+        "piatti_oral_arginine_clamp_2001"
+      ]
+    },
+    "evidence_limitation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+    "dietary_input": true,
+    "reader_description": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+    "description_finding_id": "PM3-F4",
+    "optimisation_category": "dietary_protocols",
+    "food_strategy_scope": "supplementation",
+    "food_strategy_id": "food-strategy-9693baf6cdc4"
+  },
+  {
+    "pm_id": "BRS6-FM3-PM7",
+    "section": "3.3",
+    "atom_id": "PM7-LP-DEFERRED-1",
+    "input": "Aerobic conditioning in the tested twelve-week programme",
+    "input_type": "exercise protocol",
+    "biological_role": "The randomised training comparison increased high-frequency RR variability, with sex-dependent autonomic effects.",
+    "evidence_source": {
+      "finding_ids": [
+        "PM7-F3"
+      ],
+      "citation_keys": [
+        "sloan_aerobic_autonomic_2009"
+      ]
+    },
+    "evidence_limitation": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+    "dietary_input": false,
+    "reader_description": "The randomised training comparison increased high-frequency RR variability, with sex-dependent autonomic effects.",
+    "description_finding_id": "PM7-F3"
+  }
+]

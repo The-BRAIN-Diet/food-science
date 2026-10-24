@@ -1,0 +1,14 @@
+[
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "mdx_compiled": true,
+    "javascript_parsed": true,
+    "scope": "Actual canonical MDX compilation; Docusaurus runtime/browser separately verified. Initial isolated SSR lacked the provided ScientificFinding component; no source component defect inferred."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "mdx_compiled": true,
+    "javascript_parsed": true,
+    "scope": "Actual canonical MDX compilation; Docusaurus runtime/browser separately verified. Initial isolated SSR lacked the provided ScientificFinding component; no source component defect inferred."
+  }
+]

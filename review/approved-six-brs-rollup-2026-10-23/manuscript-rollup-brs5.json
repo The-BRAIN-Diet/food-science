@@ -1,0 +1,2460 @@
+{
+  "schema_version": 1,
+  "source_commit": "3d2ea222191173140539f86d3c4cffe9ccf84fcc",
+  "baseline_report": "review/rapid-stage2ab-2026-10-23/manuscript-dietary-rollup.json.gz",
+  "scope": "Approved six-BRS manuscript dietary abstraction, refreshed with the explicitly approved enrichment. Historical mapping catalogue is separate.",
+  "qualification": "Food delivery is not formulation-equivalent PM efficacy. Limited animal, cellular, selected-population and supplemental exposures remain qualified. This is not a clinically validated diet or ADHD treatment.",
+  "records": [
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "bananas",
+      "food_title": "Bananas",
+      "food_material": "Cavendish and plantain bananas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cavendish and plantain bananas",
+          "preparation": "Green/unripe; cultivar and ripening state matter",
+          "evidence": {
+            "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+            "sources": [
+              "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source; no amount inferred from total carbohydrate or fibre and no fixed fermentation yield.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Green/unripe; cultivar and ripening state matter",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Green/unripe; cultivar and ripening state matter",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/bananas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Gao et al., Postharvest Biology and Technology 2016",
+          "source_url": "https://doi.org/10.1016/j.postharvbio.2016.03.022",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre."
+        },
+        {
+          "statement": "Direct starch analyses examined resistant-starch decline during ripening in two cultivars.",
+          "sources": [
+            "https://doi.org/10.1016/j.postharvbio.2016.03.022"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Cultivar and ripening state change the result. No amount is inferred from total carbohydrate or fibre.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "black-beans",
+      "food_title": "Black Beans",
+      "food_material": "Cooked black beans",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked black beans",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/black-beans.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chickpeas",
+      "food_title": "Chickpeas",
+      "food_material": "Cooked chickpeas",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Cooked chickpeas",
+          "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+          "evidence": {
+            "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+            "sources": [
+              "https://doi.org/10.1016/j.nfs.2016.02.002"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative source only; assay included dry-weight quantities. Do not convert these to cooked-food fresh weight. Experimental room-temperature holding is not a food-handling recommendation.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Cooked; cooking duration and cooling protocol remain study-specific",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/chickpeas.md#substance_relationships/Resistant%20starch",
+          "evidence": "Fabbri et al., NFS Journal 2016",
+          "source_url": "https://doi.org/10.1016/j.nfs.2016.02.002",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction."
+        },
+        {
+          "statement": "The study directly assayed resistant starch in cooked black beans, pinto beans and chickpeas.",
+          "sources": [
+            "https://doi.org/10.1016/j.nfs.2016.02.002"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Dry-weight assay. Do not convert it to cooked fresh weight. Room-temperature holding in the study is not a food-handling instruction.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Resistant starch",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "resistant-starch",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "potatoes",
+      "food_title": "Potatoes",
+      "food_material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Yukon Gold, Dark Red Norland and Russet Burbank potatoes",
+          "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+          "evidence": {
+            "statement": "Resistant starch was measured by cooking method and service temperature.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Preparation-specific assay; no generic amount or fixed SCFA yield. Quantities have not been extracted into this ledger.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "baxter_fermentable_fibers_2019",
+          "ze_resistant_starch_2012",
+          "fassler_resistant_starch_2006"
+        ]
+      },
+      "preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM5-DIT-1",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Resistant starch reaching the colon supplies fermentable carbohydrate to microbial communities capable of its utilisation, supporting SCFA-production capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Verified class composition does not establish a formulation-specific butyrate response.",
+      "food_preparation": "Baked or boiled, then chilled to 4°C; distinguish reheated material",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/potatoes.md#substance_relationships/Resistant%20starch",
+          "evidence": "Raatz et al., Food Chemistry 2016",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Preparation and service temperature change the assay. A generic potato portion is not this result."
+        },
+        {
+          "statement": "Resistant starch was measured by cooking method and service temperature.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/27132853/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "Utilisation and product distribution depend on starch structure, processing, accessibility, primary degraders and cross-feeding partners. Evidence for one formulation does not establish an equivalent butyrate response from another preparation or whole food. No predictable yield, intake target or brain benefit is established.",
+        "Preparation and service temperature change the assay. A generic potato portion is not this result.",
+        "Verified class composition does not establish a formulation-specific butyrate response."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM5",
+      "biological_mechanism": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "dietary_input": "Pectin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "pectin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "apples",
+      "food_title": "Apples (studied cultivars)",
+      "food_material": "Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+          "sources": [
+            "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM5-F1"
+        ],
+        "citation_keys": [
+          "pascale_potential_2022",
+          "bang_pectin_2018"
+        ]
+      },
+      "preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+        "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin."
+      ],
+      "missing_ontology_edge": "apples → pectin [Analytical cell-wall pectin fractions from the thirteen apple cultivars studied by Liu et al.; Cultivar-specific extracted analytical fractions; not a standardised pectin dose]",
+      "atom_id": "PM5-DIT-3",
+      "pm_mission": "Maintain short-chain fatty acid production and signalling that supports gut barrier and brain communication.",
+      "biological_operation": "Fermentable polysaccharide supplying microbial SCFA production in human-microbiota culture experiments.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "pm5-approved",
+          "url": "review/brs5-pm5-retest-2026-10-23/report.md",
+          "kind": "approved-reuse",
+          "proposition": "Approved PM5 bounded reconciliation and controlled retest at 110a26bc.",
+          "limitation": "FOS/GOS excluded; apple provisional; inulin unadmitted; food composition is not Baxter-equivalent efficacy.",
+          "retrieval": "Committed approved report, canonical Finding/source records and food evidence.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Apple pectin remains provisional, not a tested whole-apple butyrate intervention.",
+      "food_preparation": "Cultivar-specific extracted analytical fractions; not a standardised pectin dose",
+      "food_identity_evidence": {
+        "statement": "The primary composition study isolated and characterised pectin from apple materials.",
+        "sources": [
+          "https://doi.org/10.1016/j.ijbiomac.2023.125410"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "Pectin structure, purified preparation, donor community and enriched culture medium affect interpretation. Pascale is secondary synthesis; Bang is bounded primary culture evidence. Whole apples are not equivalent to the tested citrus preparation; no human brain or clinical benefit is established.",
+        "Qualitative supply only; retain cultivar, fraction and food-matrix variation. No per-100-g pectin amount inferred from total fibre; whole fruit is not purified citrus pectin.",
+        "Apple pectin remains provisional, not a tested whole-apple butyrate intervention."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM5/PM5-DIT-3"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagic acid",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "ellagic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "selma_urolithin_capacity_2014",
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagic-acid [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]",
+      "atom_id": "PM6-DIT-1",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Immediate microbial substrate for the assessed urolithin-generation pathway.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagic acid is the immediate microbial substrate; only the assayed juice material is proposed provisionally, not all whole pomegranates.",
+      "food_preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "food_identity_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "Conversion depends on microbial community and may stop at intermediates. This does not imply universal conversion, increased mitochondrial function or benefit.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
+        "Ellagic acid is the immediate microbial substrate; only the assayed juice material is proposed provisionally, not all whole pomegranates."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Walnut kernels",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [
+        {
+          "material": "Walnut kernels",
+          "preparation": "Walnut kernels; assay-specific extraction",
+          "evidence": {
+            "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+            "sources": [
+              "https://doi.org/10.1016/j.foodchem.2013.11.158"
+            ],
+            "retrieved": "2026-10-23",
+            "kind": "primary-food-composition"
+          },
+          "limitations": "Qualitative presence only; batch and analytical extraction vary. No predictable urolithin A exposure or PM8 benefit inferred.",
+          "reason": "Same canonical identities, material, preparation and composition source."
+        }
+      ],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Walnut kernels; assay-specific extraction",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM6-DIT-2",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy.",
+      "food_preparation": "Walnut kernels; assay-specific extraction",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Ellagitannins",
+          "evidence": "Regueiro et al., Food Chemistry 2014",
+          "source_url": "https://doi.org/10.1016/j.foodchem.2013.11.158",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Assay-specific extraction. This is not an amount and not a urolithin A exposure."
+        },
+        {
+          "statement": "LC-HRMS identified ellagitannins in the tested walnut material.",
+          "sources": [
+            "https://doi.org/10.1016/j.foodchem.2013.11.158"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "limitation": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Assay-specific extraction. This is not an amount and not a urolithin A exposure.",
+        "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy."
+      ],
+      "conversion_traceability": "incomplete-structured-chain",
+      "food_delivery_statement": "Food supplies a precursor/substrate; direct occurrence of the downstream active metabolite is not established.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-2"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM6",
+      "biological_mechanism": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "dietary_input": "Ellagitannins",
+      "type": "A",
+      "classification": "derived",
+      "canonical_substance_id": "ellagitannins",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "unresolved",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "historical-decision-pending-reconciliation",
+      "food_target": "pomegranates",
+      "food_title": "Pomegranate (studied commercial juice)",
+      "food_material": "Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+          "sources": [
+            "https://doi.org/10.1038/s41430-021-00950-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "primary-food-composition"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "singh_direct_2022"
+        ]
+      },
+      "preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "delivery": "precursor-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred."
+      ],
+      "missing_ontology_edge": "pomegranates → ellagitannins [Commercial POM Wonderful 100% pomegranate juice batches assayed in Singh et al.; Chilled commercial juice; not whole-fruit or other-product equivalence]",
+      "atom_id": "PM6-DIT-2",
+      "pm_mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+      "biological_operation": "Hydrolysis releases ellagic acid upstream of microbial urolithin formation.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "id": "ellagic-conversion",
+          "url": "https://pubs.rsc.org/doi/c4fo00092g",
+          "kind": "primary-experiment",
+          "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+          "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+          "retrieval": "Primary publisher abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "ellagitannin-human",
+          "url": "https://doi.org/10.1038/s41430-021-00950-1",
+          "kind": "primary-human-intervention",
+          "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+          "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+          "retrieval": "Primary full text, investigational product assays and conversion results.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy.",
+      "food_preparation": "Chilled commercial juice; not whole-fruit or other-product equivalence",
+      "food_identity_evidence": {
+        "statement": "The primary human study assayed ellagic acid and punicalagins in the administered juice matrix.",
+        "sources": [
+          "https://doi.org/10.1038/s41430-021-00950-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "primary-food-composition"
+      },
+      "limitation": [
+        "The human study tested a pomegranate-juice matrix rather than isolated equivalence of every ellagitannin; final metabolite generation varies.",
+        "Product and batch dependent. No urolithin A was detected in the juice; microbial conversion is variable. No whole-fruit quantity, ordinary-serving efficacy or brain benefit inferred.",
+        "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy."
+      ],
+      "conversion_traceability": "incomplete-structured-chain",
+      "food_delivery_statement": "Food supplies a precursor/substrate; direct occurrence of the downstream active metabolite is not established.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "previous-approved",
+      "review_id": "system/rapid-stage2ab-2026-10-23/adjudications.json#BRS5-FM2-PM6/PM6-DIT-2"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Glutamine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glutamine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": null,
+      "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "unresolved",
+      "food_evidence": [],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F6",
+          "PM1-F11"
+        ],
+        "citation_keys": [
+          "rao_role_2012",
+          "abbasi_systematic_2024",
+          "zhou_glutamine_piibs_2019",
+          "li_glutamine_junction_pi3k_2009"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM1-DIT-6",
+      "pm_mission": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "biological_operation": "Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM1-F6",
+          "citation_key": "zhou_glutamine_piibs_2019",
+          "url": "/docs/papers/BRAIN-Diet-References#zhou_glutamine_piibs_2019",
+          "kind": "Human Study",
+          "proposition": "The studied glutamine group improved permeability and IBS endpoints relative to placebo.",
+          "limitation": "Selected disease/hyperpermeability population; not healthy-person efficacy or a general dietary need.",
+          "retrieval": "Primary abstract/results retrieved online; no unextracted numerical effect inferred.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        },
+        {
+          "finding_id": "PM1-F6",
+          "citation_key": "rao_role_2012",
+          "url": "/docs/papers/BRAIN-Diet-References#rao_role_2012",
+          "kind": "Mechanistic",
+          "proposition": "Glutamine supplies enterocyte metabolism and participates in junction maintenance.",
+          "limitation": "Review-level endogenous dependency is not oral indispensability.",
+          "retrieval": "Primary abstract/results retrieved online; no unextracted numerical effect inferred.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        },
+        {
+          "finding_id": "PM1-F6",
+          "citation_key": "abbasi_systematic_2024",
+          "url": "/docs/papers/BRAIN-Diet-References#abbasi_systematic_2024",
+          "kind": "Human Study",
+          "proposition": "No significant pooled overall permeability benefit was reported.",
+          "limitation": "Participant-count and mg/g inconsistencies limit dose interpretation; do not copy the subgroup dose as advice.",
+          "retrieval": "Primary abstract/results retrieved online; no unextracted numerical effect inferred.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        },
+        {
+          "finding_id": "PM1-F11",
+          "citation_key": "li_glutamine_junction_pi3k_2009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19211824/",
+          "kind": "Mechanistic",
+          "proposition": "Glutamine deprivation altered Caco-2 resistance, mannitol permeability and claudin-1 through a PI3K/Akt-sensitive process.",
+          "limitation": "Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose.",
+          "retrieval": "Primary full text Abstract, Methods and Results retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose. Selected clinical population and supplemental free glutamine. Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": null,
+      "limitation": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure.",
+        "Cell deprivation including endogenous-synthesis blockade is not ordinary human nutritional deficiency; culture exposure is not a food dose. Selected clinical population and supplemental free glutamine. Neither ordinary-food equivalence nor benefit in healthy people, brain function or ADHD is established."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": "Food ontology coverage unresolved; no food source fabricated.",
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM1-PM1/PM1-DIT-6"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicory-root",
+      "food_title": "Chicory root",
+      "food_material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+          "sources": [
+            "https://doi.org/10.1186/s43094-020-00087-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred."
+      ],
+      "missing_ontology_edge": "chicory-root → inulin [Authenticated Cichorium intybus market taproots; isolated inulin characterised; Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol]",
+      "atom_id": "PM4-DIT-DEFERRED-1",
+      "pm_mission": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "biological_operation": "Inulin supplies beta-(2,1)-linked fructan substrate to microbes with the corresponding utilisation machinery, supporting this glycan-processing capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM4-F4",
+          "citation_key": "sonnenburg_fructan_specificity_2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20603004/",
+          "kind": "Mechanistic",
+          "proposition": "Inulin utilisation machinery changed microbial competitive responses to dietary inulin in defined communities.",
+          "limitation": "Effects depend on utilisation genes, dose and competing glycans. Inulin in a polysaccharide-rich diet did not give the same competitive advantage. No guaranteed butyrate response or health benefit.",
+          "retrieval": "Primary full text Figure 7, Results and genetic complementation experiments retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        },
+        {
+          "finding_id": "PM4-F4",
+          "citation_key": "long_chain_inulin_elderly_2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33369019/",
+          "kind": "Human Study",
+          "proposition": "Oral chicory long-chain inulin changed microbiota composition in older adults without improving the tested vaccine immune response.",
+          "limitation": "16S abundance is not measured glycan-processing flux; this formulated ingredient is not an ordinary vegetable intervention. Immune endpoints were unchanged.",
+          "retrieval": "Primary abstract and publisher HPAEC chain-length characterization (DP 10–60) retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+      "food_preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "food_identity_evidence": {
+        "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+        "sources": [
+          "https://doi.org/10.1186/s43094-020-00087-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitation": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM2-PM4/PM4-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "jerusalem-artichokes",
+      "food_title": "Jerusalem artichokes",
+      "food_material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred."
+      ],
+      "missing_ontology_edge": "jerusalem-artichokes → inulin [Helianthus tuberosus tubers sampled at defined maturity and storage conditions; Harvest maturity and storage-specific laboratory analysis; cooked products not tested]",
+      "atom_id": "PM4-DIT-DEFERRED-1",
+      "pm_mission": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "biological_operation": "Inulin supplies beta-(2,1)-linked fructan substrate to microbes with the corresponding utilisation machinery, supporting this glycan-processing capacity.",
+      "relationship": "Type A — Capacity",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM4-F4",
+          "citation_key": "sonnenburg_fructan_specificity_2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20603004/",
+          "kind": "Mechanistic",
+          "proposition": "Inulin utilisation machinery changed microbial competitive responses to dietary inulin in defined communities.",
+          "limitation": "Effects depend on utilisation genes, dose and competing glycans. Inulin in a polysaccharide-rich diet did not give the same competitive advantage. No guaranteed butyrate response or health benefit.",
+          "retrieval": "Primary full text Figure 7, Results and genetic complementation experiments retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        },
+        {
+          "finding_id": "PM4-F4",
+          "citation_key": "long_chain_inulin_elderly_2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33369019/",
+          "kind": "Human Study",
+          "proposition": "Oral chicory long-chain inulin changed microbiota composition in older adults without improving the tested vaccine immune response.",
+          "limitation": "16S abundance is not measured glycan-processing flux; this formulated ingredient is not an ordinary vegetable intervention. Immune endpoints were unchanged.",
+          "retrieval": "Primary abstract and publisher HPAEC chain-length characterization (DP 10–60) retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+      "food_preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "food_identity_evidence": {
+        "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "limitation": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM2-PM4/PM4-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "raw",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chia-seeds",
+      "food_title": "Chia Seeds",
+      "food_material": "Seeds, chia seeds, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chia-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "dried",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/chia-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "flax-seeds",
+      "food_title": "Flax Seeds",
+      "food_material": "Seeds, flaxseed",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/flax-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, flaxseed."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/flax-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, flaxseed."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Seeds, flaxseed."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "raw",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "dried",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "dried",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tahini",
+      "food_title": "Tahini",
+      "food_material": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tahini.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170189/nutrients",
+          "source_reference": "#food-source-9",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "roasted",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "roasted",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/tahini.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170189/nutrients",
+          "source_reference": "#food-source-9",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tempeh."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Tempeh."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "raw",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Nuts, walnuts, english",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null,
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+        "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 0.11,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 110,
+          "high": 110,
+          "display": "0.11 g"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": "salmon-roe → linoleic-acid [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]",
+      "atom_id": "PM7-DIT-DEFERRED-1",
+      "pm_mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "biological_operation": "Linoleic acid engages intestinal fatty-acid sensing and vagal/brainstem nutrient signalling in the tested mouse circuits.",
+      "relationship": "Type B — Regulation",
+      "mechanistic_evidence": [
+        {
+          "finding_id": "PM7-F3",
+          "citation_key": "li_gut_brain_fat_2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36070796/",
+          "kind": "Mechanistic",
+          "proposition": "Intestinal linoleic-acid stimuli engaged vagal and brainstem fat-sensing circuits in mice.",
+          "limitation": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established.",
+          "retrieval": "Primary Nature Results, Methods context, Figures 2/6 and Extended Data 4/10 retrieved.",
+          "finding_sec_assessment_ref": null,
+          "cc_sec": "Finding SEC, where available, is separate; no dietary connection score is inferred"
+        }
+      ],
+      "exposure_qualification": "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.",
+      "food_preparation": "Preparation not resolved; no preparation-specific quantity inferred.",
+      "food_identity_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 0.11,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 110,
+          "high": 110,
+          "display": "0.11 g"
+        }
+      ],
+      "limitation": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "conversion_traceability": "not-applicable",
+      "food_delivery_statement": "Food supplies the admitted dietary input; composition does not establish an intervention effect.",
+      "food_target_mapping_note": null,
+      "rollup_status": "Limited",
+      "section": "3.1.1",
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-admissions.json#BRS5-FM3-PM7/PM7-DIT-DEFERRED-1"
+    }
+  ],
+  "practices": [
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "pm_mission": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "atom_id": "PM2-SOP-DEFERRED-1",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "section": "3.2",
+      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F9"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "mechanistic_evidence": [
+        {
+          "label": "Ghanim et al. (2009)",
+          "citation_key": "ghanim_increase_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#ghanim_increase_2009",
+          "data_level": "Human Study",
+          "exposure_context": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+          "assessment": {
+            "study": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+            "population": "Two parallel groups of ten healthy lean adults.",
+            "result": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.",
+            "limitations": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+            "retrieval_scope": "Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS5-FM1-PM2/PM2-SOP-DEFERRED-1"
+    }
+  ]
+}

@@ -1,0 +1,841 @@
+TAP version 13
+# Subtest: original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+ok 1 - original snapshots, canonical names, identifiers, KCs, Phenome records and ratings are preserved
+  ---
+  duration_ms: 4.722542
+  ...
+# Subtest: both scoped mechanism pages and Finding/Phenome generation pass
+ok 2 - both scoped mechanism pages and Finding/Phenome generation pass
+  ---
+  duration_ms: 2011.744166
+  ...
+# Subtest: six atoms, section eligibility, independent admission gates and retained KC review records validate
+ok 3 - six atoms, section eligibility, independent admission gates and retained KC review records validate
+  ---
+  duration_ms: 9.893875
+  ...
+# Subtest: modern dietary heading is accepted without accepting a missing subgroup
+ok 4 - modern dietary heading is accepted without accepting a missing subgroup
+  ---
+  duration_ms: 0.452042
+  ...
+# Subtest: only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+ok 5 - only bounded Vitamin E and manganese Capacity relationships enter the roll-up
+  ---
+  duration_ms: 0.495875
+  ...
+# Subtest: verified/provisional food warnings preserve independent evidence and mapping status
+ok 6 - verified/provisional food warnings preserve independent evidence and mapping status
+  ---
+  duration_ms: 4.048166
+  ...
+# Subtest: mitochondrial source, emission and damage endpoints are not collapsed
+ok 7 - mitochondrial source, emission and damage endpoints are not collapsed
+  ---
+  duration_ms: 0.850166
+  ...
+# Subtest: tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+ok 8 - tissue nulls, reduced CoQ protection and failed precursor delivery remain visible
+  ---
+  duration_ms: 0.422667
+  ...
+# Subtest: new Findings remain unscored and secondary legacy sources are not primary replications
+ok 9 - new Findings remain unscored and secondary legacy sources are not primary replications
+  ---
+  duration_ms: 0.748458
+  ...
+# Subtest: 3.1.1 rejects dietary pattern
+ok 10 - 3.1.1 rejects dietary pattern
+  ---
+  duration_ms: 6.778459
+  ...
+# Subtest: 3.1.1 rejects named diet
+ok 11 - 3.1.1 rejects named diet
+  ---
+  duration_ms: 0.224125
+  ...
+# Subtest: 3.1.1 rejects food combination
+ok 12 - 3.1.1 rejects food combination
+  ---
+  duration_ms: 0.116625
+  ...
+# Subtest: 3.1.1 rejects dietary programme
+ok 13 - 3.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.100541
+  ...
+# Subtest: 3.1.1 rejects meal plan
+ok 14 - 3.1.1 rejects meal plan
+  ---
+  duration_ms: 0.108167
+  ...
+# Subtest: 3.1.1 rejects whole-food intervention
+ok 15 - 3.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.09725
+  ...
+# Subtest: 3.1.1 rejects dietary matrix
+ok 16 - 3.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.110083
+  ...
+# Subtest: 4.1.1 rejects dietary pattern
+ok 17 - 4.1.1 rejects dietary pattern
+  ---
+  duration_ms: 0.133333
+  ...
+# Subtest: 4.1.1 rejects named diet
+ok 18 - 4.1.1 rejects named diet
+  ---
+  duration_ms: 0.378542
+  ...
+# Subtest: 4.1.1 rejects food combination
+ok 19 - 4.1.1 rejects food combination
+  ---
+  duration_ms: 0.530875
+  ...
+# Subtest: 4.1.1 rejects dietary programme
+ok 20 - 4.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.117416
+  ...
+# Subtest: 4.1.1 rejects meal plan
+ok 21 - 4.1.1 rejects meal plan
+  ---
+  duration_ms: 0.092916
+  ...
+# Subtest: 4.1.1 rejects whole-food intervention
+ok 22 - 4.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.083291
+  ...
+# Subtest: 4.1.1 rejects dietary matrix
+ok 23 - 4.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.245959
+  ...
+# Subtest: 1.1.1 rejects dietary pattern
+ok 24 - 1.1.1 rejects dietary pattern
+  ---
+  duration_ms: 0.093333
+  ...
+# Subtest: 1.1.1 rejects named diet
+ok 25 - 1.1.1 rejects named diet
+  ---
+  duration_ms: 0.0825
+  ...
+# Subtest: 1.1.1 rejects food combination
+ok 26 - 1.1.1 rejects food combination
+  ---
+  duration_ms: 0.234666
+  ...
+# Subtest: 1.1.1 rejects dietary programme
+ok 27 - 1.1.1 rejects dietary programme
+  ---
+  duration_ms: 0.375917
+  ...
+# Subtest: 1.1.1 rejects meal plan
+ok 28 - 1.1.1 rejects meal plan
+  ---
+  duration_ms: 0.239125
+  ...
+# Subtest: 1.1.1 rejects whole-food intervention
+ok 29 - 1.1.1 rejects whole-food intervention
+  ---
+  duration_ms: 0.536541
+  ...
+# Subtest: 1.1.1 rejects dietary matrix
+ok 30 - 1.1.1 rejects dietary matrix
+  ---
+  duration_ms: 0.21225
+  ...
+# Subtest: substrate class eligible candidate, not admission
+ok 31 - substrate class eligible candidate, not admission
+  ---
+  duration_ms: 1.486667
+  ...
+# Subtest: fermentable substrate class eligible candidate, not admission
+ok 32 - fermentable substrate class eligible candidate, not admission
+  ---
+  duration_ms: 0.364042
+  ...
+# Subtest: microbial fermentation substrate eligible candidate, not admission
+ok 33 - microbial fermentation substrate eligible candidate, not admission
+  ---
+  duration_ms: 0.204958
+  ...
+# Subtest: cofactor precursor eligible candidate, not admission
+ok 34 - cofactor precursor eligible candidate, not admission
+  ---
+  duration_ms: 0.155417
+  ...
+# Subtest: precursor eligible candidate, not admission
+ok 35 - precursor eligible candidate, not admission
+  ---
+  duration_ms: 0.189667
+  ...
+# Subtest: regulatory modulator eligible candidate, not admission
+ok 36 - regulatory modulator eligible candidate, not admission
+  ---
+  duration_ms: 0.154834
+  ...
+# Subtest: pattern can be assessed independently as SOP; not biochemical inventory/lifestyle
+ok 37 - pattern can be assessed independently as SOP; not biochemical inventory/lifestyle
+  ---
+  duration_ms: 0.219209
+  ...
+# Subtest: unknown labels fail closed; biochemical disguise is flagged
+ok 38 - unknown labels fail closed; biochemical disguise is flagged
+  ---
+  duration_ms: 0.22625
+  ...
+# Subtest: Type A needs both linked dependency and supply, not six fields
+ok 39 - Type A needs both linked dependency and supply, not six fields
+  ---
+  duration_ms: 1.588709
+  ...
+# Subtest: Type B needs mechanism engagement and dietary exposure, not conversion alone
+ok 40 - Type B needs mechanism engagement and dietary exposure, not conversion alone
+  ---
+  duration_ms: 0.271208
+  ...
+# Subtest: PM operation mismatch cannot be admitted
+ok 41 - PM operation mismatch cannot be admitted
+  ---
+  duration_ms: 0.584958
+  ...
+# Subtest: B6 → PLP valid derived pathway; active form identity cannot be assumed
+ok 42 - B6 → PLP valid derived pathway; active form identity cannot be assumed
+  ---
+  duration_ms: 0.687291
+  ...
+# Subtest: resistant starch → SCFAs: supported microbial candidate, dependencies required
+ok 43 - resistant starch → SCFAs: supported microbial candidate, dependencies required
+  ---
+  duration_ms: 0.29225
+  ...
+# Subtest: ellagitannins → ellagic acid → urolithin A: conversion does not confer regulatory admission
+ok 44 - ellagitannins → ellagic acid → urolithin A: conversion does not confer regulatory admission
+  ---
+  duration_ms: 1.634542
+  ...
+# Subtest: provisional food is included in rollup and queue without an ontology edge
+ok 45 - provisional food is included in rollup and queue without an ontology edge
+  ---
+  duration_ms: 2.359916
+  ...
+# Subtest: repair queue deduplicates edge while retaining all PMs
+ok 46 - repair queue deduplicates edge while retaining all PMs
+  ---
+  duration_ms: 1.703
+  ...
+# Subtest: unsupported food and unresolved mappings are not silently completed
+ok 47 - unsupported food and unresolved mappings are not silently completed
+  ---
+  duration_ms: 0.290625
+  ...
+# Subtest: missing conversion prevents new admission and food rollup
+ok 48 - missing conversion prevents new admission and food rollup
+  ---
+  duration_ms: 0.338834
+  ...
+# Subtest: verified structured food edge wins over provisional same material
+ok 49 - verified structured food edge wins over provisional same material
+  ---
+  duration_ms: 2.946125
+  ...
+# Subtest: direct occurrence in active-metabolite food lists is not inferred from precursor research
+ok 50 - direct occurrence in active-metabolite food lists is not inferred from precursor research
+  ---
+  duration_ms: 0.487291
+  ...
+# Subtest: six-atom completeness does not override pattern exclusion
+ok 51 - six-atom completeness does not override pattern exclusion
+  ---
+  duration_ms: 0.918
+  ...
+# Subtest: provisional marker colours only the icon; source and conversion labels remain distinct
+ok 52 - provisional marker colours only the icon; source and conversion labels remain distinct
+  ---
+  duration_ms: 1.401292
+  ...
+# Subtest: actual layout renders approved heading without changing source metadata
+ok 53 - actual layout renders approved heading without changing source metadata
+  ---
+  duration_ms: 35.137833
+  ...
+# Subtest: canonical identity cannot be borrowed by a disguised diet
+ok 54 - canonical identity cannot be borrowed by a disguised diet
+  ---
+  duration_ms: 0.18275
+  ...
+# Subtest: Type A/B and Direct/Derived must agree with the overlay
+ok 55 - Type A/B and Direct/Derived must agree with the overlay
+  ---
+  duration_ms: 0.192625
+  ...
+# Subtest: new structured publication is blocked by missing scientific or food-research assessment
+ok 56 - new structured publication is blocked by missing scientific or food-research assessment
+  ---
+  duration_ms: 6.652291
+  ...
+# Subtest: rendered 1.1.1 cannot hide a diet in a biochemical section
+ok 57 - rendered 1.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.677125
+  ...
+# Subtest: rendered 3.1.1 cannot hide a diet in a biochemical section
+ok 58 - rendered 3.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.069417
+  ...
+# Subtest: rendered 4.1.1 cannot hide a diet in a biochemical section
+ok 59 - rendered 4.1.1 cannot hide a diet in a biochemical section
+  ---
+  duration_ms: 1.753917
+  ...
+# Subtest: canonical IDs and the repaired PLP alias resolve without a duplicate identity
+ok 60 - canonical IDs and the repaired PLP alias resolve without a duplicate identity
+  ---
+  duration_ms: 0.604708
+  ...
+# Subtest: unstructured rendered inputs cannot bypass admission metadata
+ok 61 - unstructured rendered inputs cannot bypass admission metadata
+  ---
+  duration_ms: 0.941
+  ...
+# Subtest: withheld composition records are not promoted as provisional foods
+ok 62 - withheld composition records are not promoted as provisional foods
+  ---
+  duration_ms: 0.286291
+  ...
+# Subtest: historical derived pathways expose an unresolved conversion connection
+ok 63 - historical derived pathways expose an unresolved conversion connection
+  ---
+  duration_ms: 0.502042
+  ...
+# Subtest: every accepted structured BRS1 lever is present once, or explicitly unresolved
+ok 64 - every accepted structured BRS1 lever is present once, or explicitly unresolved
+  ---
+  duration_ms: 24.564709
+  ...
+# Subtest: scope reads external mechanism records only for explicit BRS1 dependencies
+ok 65 - scope reads external mechanism records only for explicit BRS1 dependencies
+  ---
+  duration_ms: 1.174084
+  ...
+# Subtest: upstream supply resolves to accepted relationship, with no reference cycles
+ok 66 - upstream supply resolves to accepted relationship, with no reference cycles
+  ---
+  duration_ms: 0.738
+  ...
+# Subtest: shared pools and constituent resources deduplicate without losing independent roles
+ok 67 - shared pools and constituent resources deduplicate without losing independent roles
+  ---
+  duration_ms: 0.325084
+  ...
+# Subtest: B6 and PLP are separate relationships, not two dietary supplies
+ok 68 - B6 and PLP are separate relationships, not two dietary supplies
+  ---
+  duration_ms: 2.067084
+  ...
+# Subtest: qualitative phosphatidylcholine and betaine survive without numbers
+ok 69 - qualitative phosphatidylcholine and betaine survive without numbers
+  ---
+  duration_ms: 0.194875
+  ...
+# Subtest: quantities are source-specific and combined analytes never split into individual amounts
+ok 70 - quantities are source-specific and combined analytes never split into individual amounts
+  ---
+  duration_ms: 165.973583
+  ...
+# Subtest: food and substance projections agree, no top-ten or headline eligibility loss
+ok 71 - food and substance projections agree, no top-ten or headline eligibility loss
+  ---
+  duration_ms: 10.171167
+  ...
+# Subtest: meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute
+ok 72 - meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute
+  ---
+  duration_ms: 0.261083
+  ...
+# Subtest: identity conflicts are explicit when present; missing supply never turns into zero
+ok 73 - identity conflicts are explicit when present; missing supply never turns into zero
+  ---
+  duration_ms: 2.051791
+  ...
+# Subtest: selection does not impose a precise rank on overlapping source-specific ranges
+ok 74 - selection does not impose a precise rank on overlapping source-specific ranges
+  ---
+  duration_ms: 0.446458
+  ...
+# Subtest: sixth field gates PM lists independently of accounting and preserves unresolved decisions
+ok 75 - sixth field gates PM lists independently of accounting and preserves unresolved decisions
+  ---
+  duration_ms: 0.706375
+  ...
+# Subtest: schema accepts booleans/null, rejects textual defaults and undocumented ambiguity
+ok 76 - schema accepts booleans/null, rejects textual defaults and undocumented ambiguity
+  ---
+  duration_ms: 24.834375
+  ...
+# Subtest: evidence disclosure projects the authoritative dietary field and note
+ok 77 - evidence disclosure projects the authoritative dietary field and note
+  ---
+  duration_ms: 15.204875
+  ...
+# Subtest: duplicate qualitative citations share the evidence material and retain both source pointers
+ok 78 - duplicate qualitative citations share the evidence material and retain both source pointers
+  ---
+  duration_ms: 0.505125
+  ...
+# Subtest: quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs
+ok 79 - quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs
+  ---
+  duration_ms: 0.612709
+  ...
+# Subtest: all preparations include dried and raw observations without cross-state ranking
+ok 80 - all preparations include dried and raw observations without cross-state ranking
+  ---
+  duration_ms: 0.619709
+  ...
+# Subtest: four independent dietary-filter combinations consistently project PM/substance/food views
+ok 81 - four independent dietary-filter combinations consistently project PM/substance/food views
+  ---
+  duration_ms: 94.697041
+  ...
+# Subtest: cooked observations are eligible and source-specific measurements remain separate
+ok 82 - cooked observations are eligible and source-specific measurements remain separate
+  ---
+  duration_ms: 0.389333
+  ...
+# Subtest: BRS2 generation inventories every structured atom and consumes recorded dietary decisions
+ok 83 - BRS2 generation inventories every structured atom and consumes recorded dietary decisions
+  ---
+  duration_ms: 236.423583
+  ...
+# Subtest: SAMe methionine gets ontology-backed high-methionine food sources
+ok 84 - SAMe methionine gets ontology-backed high-methionine food sources
+  ---
+  duration_ms: 225.295834
+  ...
+# Subtest: SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements
+ok 85 - SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements
+  ---
+  duration_ms: 183.427667
+  ...
+# Subtest: BRS selector uses independent datasets and shows ungenerated BRSs without fallback
+ok 86 - BRS selector uses independent datasets and shows ungenerated BRSs without fallback
+  ---
+  duration_ms: 200.253042
+  ...
+# Subtest: BRS3–6 inventories preserve every structured admission and keep datasets isolated
+ok 87 - BRS3–6 inventories preserve every structured admission and keep datasets isolated
+  ---
+  duration_ms: 738.183083
+  ...
+# Subtest: all BRSs use grouped substance context without promoting unset entries to food supplies
+ok 88 - all BRSs use grouped substance context without promoting unset entries to food supplies
+  ---
+  duration_ms: 701.024791
+  ...
+# Subtest: rollout records every accepted atom decision and retains evidence and precursor distinctions
+ok 89 - rollout records every accepted atom decision and retains evidence and precursor distinctions
+  ---
+  duration_ms: 985.886542
+  ...
+# Subtest: food strategy rollup preserves independently admitted SOP science and separate intervention scopes
+ok 90 - food strategy rollup preserves independently admitted SOP science and separate intervention scopes
+  ---
+  duration_ms: 42.419417
+  ...
+# Subtest: active-form section admission does not override a conflicting accepted precursor supply route
+ok 91 - active-form section admission does not override a conflicting accepted precursor supply route
+  ---
+  duration_ms: 155.595333
+  ...
+# Subtest: preformed 5-MTHF is dietary Yes with form-specific source observations
+ok 92 - preformed 5-MTHF is dietary Yes with form-specific source observations
+  ---
+  duration_ms: 91.534042
+  ...
+# Subtest: Show All BRS retains relationship roles and deduplicates canonical supplies
+ok 93 - Show All BRS retains relationship roles and deduplicates canonical supplies
+  ---
+  duration_ms: 497.978458
+  ...
+# Subtest: Nrf2 admits the compound separately from its preparation SOP
+ok 94 - Nrf2 admits the compound separately from its preparation SOP
+  ---
+  duration_ms: 63.921875
+  ...
+# Subtest: newer canonical source revision supersedes stale preview mappings
+ok 95 - newer canonical source revision supersedes stale preview mappings
+  ---
+  duration_ms: 63.149
+  ...
+# Subtest: PM2 transport inputs retain upstream supply and food links across section numbering
+ok 96 - PM2 transport inputs retain upstream supply and food links across section numbering
+  ---
+  duration_ms: 88.5045
+  ...
+# Subtest: B3 forms resolve independently with shared documentation and no invented food values
+ok 97 - B3 forms resolve independently with shared documentation and no invented food values
+  ---
+  duration_ms: 68.847833
+  ...
+# Subtest: B3 family aliases and total-niacin amounts never become form identities or amounts
+ok 98 - B3 family aliases and total-niacin amounts never become form identities or amounts
+  ---
+  duration_ms: 23.72
+  ...
+# Subtest: B3 form observations keep independent provenance and explicitly unknown preparation
+ok 99 - B3 form observations keep independent provenance and explicitly unknown preparation
+  ---
+  duration_ms: 11.232667
+  ...
+# Subtest: registered B3 identity is independent of documentation availability; links still verify
+ok 100 - registered B3 identity is independent of documentation availability; links still verify
+  ---
+  duration_ms: 16.453791
+  ...
+# Subtest: C1 four disposable Çatak observations preserve exact evidence without inventing comparability
+ok 101 - C1 four disposable Çatak observations preserve exact evidence without inventing comparability
+  ---
+  duration_ms: 91.032291
+  ...
+# Subtest: C1 distinct observations, exact units, explicit comparison decisions and review holds survive
+ok 102 - C1 distinct observations, exact units, explicit comparison decisions and review holds survive
+  ---
+  duration_ms: 13.540667
+  ...
+# Subtest: C1 public-display restrictions never admit a supplementary quantity or a new public material
+ok 103 - C1 public-display restrictions never admit a supplementary quantity or a new public material
+  ---
+  duration_ms: 12.932041
+  ...
+# Subtest: C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries
+ok 104 - C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries
+  ---
+  duration_ms: 267.032792
+  ...
+# Subtest: shared compiled layout: 3.1
+ok 105 - shared compiled layout: 3.1
+  ---
+  duration_ms: 71.809416
+  ...
+# Subtest: shared compiled layout: 3.2
+ok 106 - shared compiled layout: 3.2
+  ---
+  duration_ms: 16.826708
+  ...
+# Subtest: shared compiled layout: 3.3
+ok 107 - shared compiled layout: 3.3
+  ---
+  duration_ms: 17.742334
+  ...
+# Subtest: shared compiled layout: 3.2+3.3
+ok 108 - shared compiled layout: 3.2+3.3
+  ---
+  duration_ms: 20.195417
+  ...
+# Subtest: shared compiled layout: 3.1+3.2
+ok 109 - shared compiled layout: 3.1+3.2
+  ---
+  duration_ms: 17.072958
+  ...
+# Subtest: shared compiled layout: 3.1+3.3
+ok 110 - shared compiled layout: 3.1+3.3
+  ---
+  duration_ms: 11.905083
+  ...
+# Subtest: shared compiled layout: 3.1+3.2+3.3
+ok 111 - shared compiled layout: 3.1+3.2+3.3
+  ---
+  duration_ms: 9.495875
+  ...
+# Subtest: shared compiled layout: not established
+ok 112 - shared compiled layout: not established
+  ---
+  duration_ms: 12.177708
+  ...
+# Subtest: legacy presence, FM inheritance and biochemical necessity cannot infer dominance
+ok 113 - legacy presence, FM inheritance and biochemical necessity cannot infer dominance
+  ---
+  duration_ms: 0.939875
+  ...
+# Subtest: PM7 contextual diet decision cites intervention evidence rather than provision tracing
+ok 114 - PM7 contextual diet decision cites intervention evidence rather than provision tracing
+  ---
+  duration_ms: 171.634875
+  ...
+# Subtest: canonical lookup uses stable IDs after visible renumbering
+ok 115 - canonical lookup uses stable IDs after visible renumbering
+  ---
+  duration_ms: 131.149708
+  ...
+# Subtest: documented PM7 assessment and plan code execute against the actual layout
+ok 116 - documented PM7 assessment and plan code execute against the actual layout
+  ---
+  duration_ms: 6.629292
+  ...
+# Subtest: supported routes do not automatically become principal or jointly prominent
+ok 117 - supported routes do not automatically become principal or jointly prominent
+  ---
+  duration_ms: 9.66075
+  ...
+# Subtest: already promoted legacy PM3 group uses section-1 numbering without a new dominance decision
+ok 118 - already promoted legacy PM3 group uses section-1 numbering without a new dominance decision
+  ---
+  duration_ms: 129.651708
+  ...
+# Subtest: every canonical PM uses section-1 numbering after the actual shared transform
+ok 119 - every canonical PM uses section-1 numbering after the actual shared transform
+  ---
+  duration_ms: 3612.074125
+  ...
+# Subtest: every Findings-owned PM satisfies the shared canonical model and freshness gate
+not ok 120 - every Findings-owned PM satisfies the shared canonical model and freshness gate
+  ---
+  duration_ms: 1443.08175
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/scientific-findings.test.mjs:68:1'
+  failureType: 'testCodeFailure'
+  error: 'BRS1-FM1-PM1 canonical section order'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  actual:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis + Scientific Findings'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/scientific-findings.test.mjs:79:14)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.start (node:internal/test_runner/test:542:17)
+    startSubtest (node:internal/test_runner/harness:216:17)
+  ...
+# Subtest: Scientific Finding condition tags resolve to canonical Therapeutic Areas
+ok 121 - Scientific Finding condition tags resolve to canonical Therapeutic Areas
+  ---
+  duration_ms: 0.825375
+  ...
+# Subtest: FM roll-up has no declaration-order fallback
+ok 122 - FM roll-up has no declaration-order fallback
+  ---
+  duration_ms: 0.294584
+  ...
+# Subtest: FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+ok 123 - FM synthesis retains reviewed child evidence without a declaration-order cap or copied dropdowns
+  ---
+  duration_ms: 2.586417
+  ...
+# Subtest: legacy evidence generator cannot overwrite any Findings-owned PM
+ok 124 - legacy evidence generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 522.006542
+  ...
+# Subtest: legacy phenome generator cannot overwrite any Findings-owned PM
+ok 125 - legacy phenome generator cannot overwrite any Findings-owned PM
+  ---
+  duration_ms: 533.246458
+  ...
+# Subtest: PM9 Scientific Findings satisfy the canonical model
+ok 126 - PM9 Scientific Findings satisfy the canonical model
+  ---
+  duration_ms: 240.754416
+  ...
+# Subtest: Scientific Finding evidence relationships preserve non-empty exposure context
+ok 127 - Scientific Finding evidence relationships preserve non-empty exposure context
+  ---
+  duration_ms: 366.887125
+  ...
+# Subtest: Synthesised Evidence Confidence remains unscored
+ok 128 - Synthesised Evidence Confidence remains unscored
+  ---
+  duration_ms: 1.624375
+  ...
+# Subtest: Findings are referenced by relationships, never duplicated into them
+ok 129 - Findings are referenced by relationships, never duplicated into them
+  ---
+  duration_ms: 1.794041
+  ...
+# Subtest: §4.1 body is generated from front matter and is fresh
+ok 130 - §4.1 body is generated from front matter and is fresh
+  ---
+  duration_ms: 2.435791
+  ...
+# Subtest: retracted PM9 evidence cannot be reintroduced by the legacy seed
+ok 131 - retracted PM9 evidence cannot be reintroduced by the legacy seed
+  ---
+  duration_ms: 1.384042
+  ...
+# Subtest: magnesium is removed from PM9's synthesis boundary
+ok 132 - magnesium is removed from PM9's synthesis boundary
+  ---
+  duration_ms: 1.414125
+  ...
+# Subtest: FM4 roll-up no longer displays retracted PM9 evidence
+ok 133 - FM4 roll-up no longer displays retracted PM9 evidence
+  ---
+  duration_ms: 0.376125
+  ...
+# Subtest: phase-3 snapshot covers every live PM9 relationship
+ok 134 - phase-3 snapshot covers every live PM9 relationship
+  ---
+  duration_ms: 1.307833
+  ...
+# Subtest: every Finding citation key resolves in the durable bibliography
+ok 135 - every Finding citation key resolves in the durable bibliography
+  ---
+  duration_ms: 13.621917
+  ...
+# Subtest: PM9 uses the canonical section order
+not ok 136 - PM9 uses the canonical section order
+  ---
+  duration_ms: 4.759958
+  location: 'file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/scientific-findings.test.mjs:376:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly deep-equal:
+    + actual - expected
+    
+      [
+        '1 Mission & Overview',
+        '2 Primary Biological Effects',
+        '3 Levers',
+    +   '4 Mechanistic Basis + Scientific Findings',
+    -   '4 Mechanistic Basis',
+        '5 BRS Pathways and Connections',
+        '7 Phenome Connections',
+        '8 References'
+      ]
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  actual:
+    0: '1 Mission & Overview'
+    1: '2 Primary Biological Effects'
+    2: '3 Levers'
+    3: '4 Mechanistic Basis + Scientific Findings'
+    4: '5 BRS Pathways and Connections'
+    5: '7 Phenome Connections'
+    6: '8 References'
+  operator: 'deepStrictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/paulhouston/Documents/Codex/2026-10-22/we-x20/work/brs4-pm4-pm5-reassessment/scripts/scientific-findings.test.mjs:383:10)
+    Test.runInAsyncScope (node:async_hooks:206:9)
+    Test.run (node:internal/test_runner/test:631:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:374:18)
+    Test.postRun (node:internal/test_runner/test:715:19)
+    Test.run (node:internal/test_runner/test:673:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:374:7)
+  ...
+# Subtest: a study may be primary evidence in several Findings when the reuse is declared
+ok 137 - a study may be primary evidence in several Findings when the reuse is declared
+  ---
+  duration_ms: 140.567292
+  ...
+# Subtest: §7 renders relationship Findings as supporting evidence without IC or Related Findings
+ok 138 - §7 renders relationship Findings as supporting evidence without IC or Related Findings
+  ---
+  duration_ms: 3.163458
+  ...
+# Subtest: Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+ok 139 - Abedrabbo evidence is preserved under PM9-F1 as connected supportive evidence
+  ---
+  duration_ms: 2.028042
+  ...
+# Subtest: FM roll-up selection is explicit, not declaration order
+ok 140 - FM roll-up selection is explicit, not declaration order
+  ---
+  duration_ms: 2.554375
+  ...
+# Subtest: every Finding carries a compact label for reference rendering
+ok 141 - every Finding carries a compact label for reference rendering
+  ---
+  duration_ms: 1.560709
+  ...
+# Subtest: every Evidence Considered item carries a complete Individual Study Assessment
+ok 142 - every Evidence Considered item carries a complete Individual Study Assessment
+  ---
+  duration_ms: 1.779792
+  ...
+# Subtest: PM reference numbers are stable by citation_key
+ok 143 - PM reference numbers are stable by citation_key
+  ---
+  duration_ms: 1.930542
+  ...
+# Subtest: PM first-mention citations derive author, year, number and link from one reference record
+ok 144 - PM first-mention citations derive author, year, number and link from one reference record
+  ---
+  duration_ms: 0.186709
+  ...
+# Subtest: PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+ok 145 - PM reference integrity rejects stale, unlinked and misnumbered rendered citations
+  ---
+  duration_ms: 1.154292
+  ...
+# Subtest: PM9 phenome Finding ids follow consecutive F sequence in presentation order
+ok 146 - PM9 phenome Finding ids follow consecutive F sequence in presentation order
+  ---
+  duration_ms: 1.643
+  ...
+# Subtest: Stage 2A and Stage 2B instructions share the public audience and layer split
+ok 147 - Stage 2A and Stage 2B instructions share the public audience and layer split
+  ---
+  duration_ms: 2.558583
+  ...
+# Subtest: Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+ok 148 - Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-only stops
+  ---
+  duration_ms: 6.663417
+  ...
+# Subtest: Stage 2A intervention discovery covers canonical routes without changing ownership
+ok 149 - Stage 2A intervention discovery covers canonical routes without changing ownership
+  ---
+  duration_ms: 0.557708
+  ...
+# Subtest: Stage 2A landscape reporting retains bounded searches and counter-evidence
+ok 150 - Stage 2A landscape reporting retains bounded searches and counter-evidence
+  ---
+  duration_ms: 0.691709
+  ...
+# Subtest: Stage 2A functional translation and hypotheses preserve admission and phenome gates
+ok 151 - Stage 2A functional translation and hypotheses preserve admission and phenome gates
+  ---
+  duration_ms: 0.5445
+  ...
+# Subtest: Stage 2A pages publish explained PM connections, not bare links
+ok 152 - Stage 2A pages publish explained PM connections, not bare links
+  ---
+  duration_ms: 4.000125
+  ...
+1..152
+# tests 152
+# suites 0
+# pass 150
+# fail 2
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6473.43025

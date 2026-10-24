@@ -225,6 +225,15 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   if (parsed.foods) li.append(foodsSpan);
   li.append(detail);
 
+  // Dietary summaries must be readable without opening the evidence dialog.
+  // Both placements consume the same reviewed presentation; do not duplicate it.
+  if (/^3\.1\.[123]$/.test(disclosure.presentationSection || "")) {
+    const description = detail.querySelector<HTMLElement>(
+      ".brs-dietary-lever-description",
+    );
+    if (description) li.insertBefore(description, parsed.foods ? foodsSpan : detail);
+  }
+
   const openTransiently = () => {
     closeAllExcept(root, detail);
     setDisclosureOpen(li, detail, trigger, true);

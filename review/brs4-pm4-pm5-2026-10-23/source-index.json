@@ -1,0 +1,218 @@
+{
+  "brand2016": {
+    "key": "brs4_brand2016_20261023",
+    "label": "Brand et al. (2016)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27667666/",
+    "title": "Suppressors of Superoxide-H2O2 Production at Site IQ of Mitochondrial Complex I Protect against Stem Cell Hyperplasia and Ischemia-Reperfusion Injury.",
+    "doi": "10.1016/j.cmet.2016.08.012"
+  },
+  "guzy2005": {
+    "key": "brs4_guzy2005_20261023",
+    "label": "Guzy et al. (2005)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16054089/",
+    "title": "Mitochondrial complex III is required for hypoxia-induced ROS production and cellular oxygen sensing.",
+    "doi": "10.1016/j.cmet.2005.05.001"
+  },
+  "chouchani2014": {
+    "key": "brs4_chouchani2014_20261023",
+    "label": "Chouchani et al. (2014)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25383517/",
+    "title": "Ischaemic accumulation of succinate controls reperfusion injury through mitochondrial ROS.",
+    "doi": "10.1038/nature13909"
+  },
+  "anderson2009": {
+    "key": "brs4_anderson2009_20261023",
+    "label": "Anderson et al. (2009)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19188683/",
+    "title": "Mitochondrial H2O2 emission and cellular redox state link excess fat intake to insulin resistance in both rodents and humans.",
+    "doi": "10.1172/jci37048"
+  },
+  "gram2015": {
+    "key": "brs4_gram2015_20261023",
+    "label": "Gram et al. (2015)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26096818/",
+    "title": "Skeletal muscle mitochondrial H2 O2 emission increases with immobilization and decreases after aerobic training in young and older men.",
+    "doi": "10.1113/jp270211"
+  },
+  "ristow2009": {
+    "key": "brs4_ristow2009_20261023",
+    "label": "Ristow et al. (2009)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19433800/",
+    "title": "Antioxidants prevent health-promoting effects of physical exercise in humans.",
+    "doi": "10.1073/pnas.0903485106"
+  },
+  "rafique2001": {
+    "key": "brs4_rafique2001_20261023",
+    "label": "Rafique et al. (2001)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11463362/",
+    "title": "Sensitivity of respiratory chain activities to lipid peroxidation: effect of vitamin E deficiency.",
+    "doi": "10.1042/0264-6021:3570887"
+  },
+  "azuma2022": {
+    "key": "brs4_azuma2022_20261023",
+    "label": "Azuma et al. (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35288190/",
+    "title": "Mitochondrial glutathione peroxidase 4 is indispensable for photoreceptor development and survival in mice.",
+    "doi": "10.1016/j.jbc.2022.101824"
+  },
+  "forsmark1991": {
+    "key": "brs4_forsmark1991_20261023",
+    "label": "Forsmark et al. (1991)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2065780/",
+    "title": "Inhibition of lipid peroxidation by ubiquinol in submitochondrial particles in the absence of vitamin E.",
+    "doi": "10.1016/0014-5793(91)80720-n"
+  },
+  "ganini2018": {
+    "key": "brs4_ganini2018_20261023",
+    "label": "Ganini et al. (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29398562/",
+    "title": "Switch of Mitochondrial Superoxide Dismutase into a Prooxidant Peroxidase in Manganese-Deficient Cells and Mice.",
+    "doi": "10.1016/j.chembiol.2018.01.007"
+  },
+  "wang2021": {
+    "key": "wang_slc25a39_2021",
+    "label": "Wang et al. (2021)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34707288/",
+    "title": "SLC25A39 is necessary for mitochondrial glutathione import in mammalian cells.",
+    "doi": "10.1038/s41586-021-04025-w"
+  },
+  "shi2022": {
+    "key": "brs4_shi2022_20261023",
+    "label": "Shi et al. (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35513392/",
+    "title": "Combinatorial GxGxE CRISPR screen identifies SLC25A39 in mitochondrial glutathione transport linking iron homeostasis to OXPHOS.",
+    "doi": "10.1038/s41467-022-30126-9"
+  },
+  "oliveira2018": {
+    "key": "brs4_oliveira2018_20261023",
+    "label": "de Oliveira et al. (2018)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28730528/",
+    "title": "Sulforaphane Promotes Mitochondrial Protection in SH-SY5Y Cells Exposed to Hydrogen Peroxide by an Nrf2-Dependent Mechanism.",
+    "doi": "10.1007/s12035-017-0684-2"
+  },
+  "zhu2008": {
+    "key": "brs4_zhu2008_20261023",
+    "label": "Zhu et al. (2008)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18607771/",
+    "title": "Potent induction of total cellular and mitochondrial antioxidants and phase 2 enzymes by cruciferous sulforaphane in rat aortic smooth muscle cells: cytoprotection against oxidative and electrophilic stress.",
+    "doi": "10.1007/s12012-008-9020-4"
+  },
+  "glover2010": {
+    "key": "brs4_glover2010_20261023",
+    "label": "Glover et al. (2010)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20886510/",
+    "title": "A randomized trial of coenzyme Q10 in mitochondrial disorders.",
+    "doi": "10.1002/mus.21758"
+  },
+  "sleep2020": {
+    "key": "brs4_sleep2020_20261023",
+    "label": "Saner et al. (2021)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33137489/",
+    "title": "Exercise mitigates sleep-loss-induced changes in glucose tolerance, mitochondrial function, sarcoplasmic protein synthesis, and diurnal rhythms.",
+    "doi": "10.1016/j.molmet.2020.101110"
+  },
+  "acton2026": {
+    "key": "brs4_acton2026_20261023",
+    "label": "Acton et al. (2026)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42249931/",
+    "title": "Effect of six weeks ubiquinol supplementation on mitochondrial respiratory function and exercise capacity in healthy males.",
+    "doi": "10.1007/s00421-026-06275-w"
+  },
+  "verlaet2019": {
+    "key": "verlaet_oxidative_2019",
+    "label": "Verlaet et al. (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30350094/",
+    "title": "Oxidative stress and immune aberrancies in attention-deficit/hyperactivity disorder (ADHD): a case-control comparison.",
+    "doi": "10.1007/s00787-018-1239-4"
+  },
+  "ogutlu": {
+    "key": "ogutlu_mitochondrial_2023",
+    "label": "Öğütlü et al. (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36655466/",
+    "title": "Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder.",
+    "doi": "10.5152/eurasianjmed.2022.22187"
+  },
+  "singh": {
+    "key": "singh_direct_2022",
+    "label": "Singh et al. (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34117375/",
+    "title": "Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population.",
+    "doi": "10.1038/s41430-021-00950-1"
+  },
+  "andreux": {
+    "key": "andreux_mitophagy_2019",
+    "label": "Andreux et al. (2019)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32694802/",
+    "title": "The mitophagy activator urolithin A is safe and induces a molecular signature of improved mitochondrial and cellular health in humans.",
+    "doi": "10.1038/s42255-019-0073-4"
+  },
+  "kyriazis": {
+    "key": "kyriazis_impact_2022",
+    "label": "Kyriazis et al. (2022)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36129147/",
+    "title": "The impact of diet upon mitochondrial physiology (Review).",
+    "doi": "10.3892/ijmm.2022.5191"
+  },
+  "ye2002": {
+    "key": "brs4_ye2002_20261023",
+    "label": "Ye et al. (2002)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11750273/",
+    "title": "Quantitative determination of dithiocarbamates in human plasma, serum, erythrocytes and urine: pharmacokinetics of broccoli sprout isothiocyanates in humans.",
+    "doi": "10.1016/s0009-8981(01)00727-6"
+  },
+  "atwell2015": {
+    "key": "brs4_atwell2015_20261023",
+    "label": "Atwell et al. (2015)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25522265/",
+    "title": "Absorption and chemopreventive targets of sulforaphane in humans following consumption of broccoli sprouts or a myrosinase-treated broccoli sprout extract.",
+    "doi": "10.1002/mnfr.201400674"
+  },
+  "fernandez1997": {
+    "key": "brs4_fernandez1997_20261023",
+    "label": "Colell et al. (1997)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9303501/",
+    "title": "Transport of reduced glutathione in hepatic mitochondria and mitoplasts from ethanol-treated rats: effect of membrane physical properties and S-adenosyl-L-methionine.",
+    "doi": "10.1002/hep.510260323"
+  },
+  "guan1995": {
+    "key": "brs4_guan1995_20261023",
+    "label": "Guan et al. (1995)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8747540/",
+    "title": "Difference in effects of classic and phospholipid hydroperoxide glutathione peroxidases on liver lipid peroxide level in selenium-deficient rats."
+  },
+  "lei1995": {
+    "key": "brs4_lei1995_20261023",
+    "label": "Lei et al. (1995)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7782896/",
+    "title": "Glutathione peroxidase and phospholipid hydroperoxide glutathione peroxidase are differentially regulated in rats by dietary selenium.",
+    "doi": "10.1093/jn/125.6.1438"
+  },
+  "herbst2014": {
+    "key": "brs4_herbst2014_20261023",
+    "label": "Herbst et al. (2014)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/24396061/",
+    "title": "Omega-3 supplementation alters mitochondrial membrane composition and respiration kinetics in human skeletal muscle.",
+    "doi": "10.1113/jphysiol.2013.267336"
+  },
+  "maalouf2007": {
+    "key": "brs4_maalouf2007_20261023",
+    "label": "Maalouf et al. (2007)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17240074/",
+    "title": "Ketones inhibit mitochondrial production of reactive oxygen species production following glutamate excitotoxicity by increasing NADH oxidation.",
+    "doi": "10.1016/j.neuroscience.2006.11.065"
+  },
+  "acuteexercise2017": {
+    "key": "brs4_acuteexercise2017_20261023",
+    "label": "Trewin et al. (2017)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29161316/",
+    "title": "Acute exercise alters skeletal muscle mitochondrial respiration and H2O2 emission in response to hyperinsulinemic-euglycemic clamp in middle-aged obese men.",
+    "doi": "10.1371/journal.pone.0188421"
+  },
+  "jarrett2008": {
+    "key": "brs4_jarrett2008_20261023",
+    "label": "Jarrett et al. (2008)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18466343/",
+    "title": "The ketogenic diet increases mitochondrial glutathione levels.",
+    "doi": "10.1111/j.1471-4159.2008.05460.x"
+  }
+}

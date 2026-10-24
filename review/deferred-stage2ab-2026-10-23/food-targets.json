@@ -1,0 +1,1291 @@
+{
+  "new_admission_food_targets": [
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "beef",
+      "food_title": "Beef",
+      "food_material": "Beef muscle protein in the FAO individual-amino-acid table",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F7"
+        ],
+        "citation_keys": [
+          "pakhomova_gnmt_structures_2004",
+          "luka_gnmt_knockout_2006"
+        ]
+      },
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Endogenous glycine synthesis and other methyltransferases also contribute. Enzyme loss is not glycine deficiency; extra dietary glycine has not been established to normalise whole-cycle or brain methylation.",
+        "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat."
+      ],
+      "missing_ontology_edge": "beef → glycine [Beef muscle protein in the FAO individual-amino-acid table; Cut and cooking state not specified in the composition table; qualitative presence only]"
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "pork",
+      "food_title": "Pork",
+      "food_material": "Pork muscle protein in the FAO individual-amino-acid table",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F7"
+        ],
+        "citation_keys": [
+          "pakhomova_gnmt_structures_2004",
+          "luka_gnmt_knockout_2006"
+        ]
+      },
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Endogenous glycine synthesis and other methyltransferases also contribute. Enzyme loss is not glycine deficiency; extra dietary glycine has not been established to normalise whole-cycle or brain methylation.",
+        "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat."
+      ],
+      "missing_ontology_edge": "pork → glycine [Pork muscle protein in the FAO individual-amino-acid table; Cut and cooking state not specified in the composition table; qualitative presence only]"
+    },
+    {
+      "brs": "BRS2",
+      "fm": "BRS2(FM1)",
+      "pm": "BRS2-FM1-PM4",
+      "biological_mechanism": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+      "dietary_input": "Glycine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glycine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lamb",
+      "food_title": "Lamb",
+      "food_material": "Lamb muscle protein in the FAO individual-amino-acid table",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+        "sources": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F7"
+        ],
+        "citation_keys": [
+          "pakhomova_gnmt_structures_2004",
+          "luka_gnmt_knockout_2006"
+        ]
+      },
+      "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Endogenous glycine synthesis and other methyltransferases also contribute. Enzyme loss is not glycine deficiency; extra dietary glycine has not been established to normalise whole-cycle or brain methylation.",
+        "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat."
+      ],
+      "missing_ontology_edge": "lamb → glycine [Lamb muscle protein in the FAO individual-amino-acid table; Cut and cooking state not specified in the composition table; qualitative presence only]"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM1",
+      "biological_mechanism": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+      "dietary_input": "Glutamine",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "glutamine",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "unresolved"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": null,
+      "food_title": null,
+      "food_material": null,
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "unresolved",
+      "food_evidence": null,
+      "pm_evidence": {
+        "finding_ids": [
+          "PM1-F6",
+          "PM1-F11"
+        ],
+        "citation_keys": [
+          "rao_role_2012",
+          "abbasi_systematic_2024",
+          "zhou_glutamine_piibs_2019",
+          "li_glutamine_junction_pi3k_2009"
+        ]
+      },
+      "preparation": null,
+      "delivery": null,
+      "conversion_pathway": [],
+      "limitations": [
+        "Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever. A separate postinfectious IBS trial supports a selected supplementation response; this does not establish general need. The new Capacity assessment admits supply to junction-supporting cellular capacity, without asserting universal dietary limitation, benefit from extra intake, or equivalence to the supplemental exposure."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chicory-root",
+      "food_title": "Chicory root",
+      "food_material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+        "sources": [
+          "https://doi.org/10.1186/s43094-020-00087-1"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred."
+      ],
+      "missing_ontology_edge": "chicory-root → inulin [Authenticated Cichorium intybus market taproots; isolated inulin characterised; Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol]"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM2)",
+      "pm": "BRS5-FM2-PM4",
+      "biological_mechanism": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+      "dietary_input": "Inulin",
+      "type": "A",
+      "classification": "direct",
+      "canonical_substance_id": "inulin",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "jerusalem-artichokes",
+      "food_title": "Jerusalem artichokes",
+      "food_material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": {
+        "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+        "sources": [
+          "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+        ],
+        "retrieved": "2026-10-23",
+        "kind": "food-composition-research"
+      },
+      "pm_evidence": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "sonnenburg_fructan_specificity_2010",
+          "long_chain_inulin_elderly_2020"
+        ]
+      },
+      "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Utilisation genes, chain length, alternative substrates and resident organisms constrain the response. A supplied inulin substrate is not an indispensable intake, a guaranteed abundance shift, butyrate yield, mucus effect or clinical benefit.",
+        "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred."
+      ],
+      "missing_ontology_edge": "jerusalem-artichokes → inulin [Helianthus tuberosus tubers sampled at defined maturity and storage conditions; Harvest maturity and storage-specific laboratory analysis; cooked products not tested]"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "almonds",
+      "food_title": "Almonds",
+      "food_material": "Nuts, almonds",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/almonds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170567/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, almonds."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cashews",
+      "food_title": "Cashews",
+      "food_material": "Nuts, cashew nuts, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cashews.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170162/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, cashew nuts, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "chia-seeds",
+      "food_title": "Chia Seeds",
+      "food_material": "Seeds, chia seeds, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/chia-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, chia seeds, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "flax-seeds",
+      "food_title": "Flax Seeds",
+      "food_material": "Seeds, flaxseed",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/flax-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, flaxseed."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "peanuts",
+      "food_title": "Peanuts",
+      "food_material": "Peanuts, all types, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/peanuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172430/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Peanuts, all types, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sesame-seeds",
+      "food_title": "Sesame Seeds",
+      "food_material": "Seeds, sesame seeds, whole, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sesame-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170150/nutrients",
+          "source_reference": "#food-source-12",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame seeds, whole, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sunflower-seeds",
+      "food_title": "Sunflower Seeds",
+      "food_material": "Seeds, sunflower seed kernels, dried",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sunflower-seeds.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sunflower seed kernels, dried."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "dried",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tahini",
+      "food_title": "Tahini",
+      "food_material": "Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tahini.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170189/nutrients",
+          "source_reference": "#food-source-9",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Seeds, sesame butter, tahini, from roasted and toasted kernels (most common type)."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "roasted",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tempeh",
+      "food_title": "Tempeh",
+      "food_material": "Tempeh",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tempeh.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+          "source_reference": "#food-source-6",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tempeh."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tofu",
+      "food_title": "Tofu",
+      "food_material": "Tofu, raw, firm, prepared with calcium sulfate",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tofu.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Tofu, raw, firm, prepared with calcium sulfate."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "walnuts",
+      "food_title": "Walnuts",
+      "food_material": "Nuts, walnuts, english",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/walnuts.md#substance_relationships/Linoleic%20Acid",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports linoleic acid in Nuts, walnuts, english."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM3)",
+      "pm": "BRS5-FM3-PM7",
+      "biological_mechanism": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+      "dietary_input": "Linoleic acid",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "linoleic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": "not-applicable",
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": "missing-context-edge",
+      "reconciled_sources": [],
+      "mapping_status": "research-supported-provisional",
+      "food_evidence": [
+        {
+          "nutrition_source": {
+            "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+            "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+            "basis": "per 100 g edible portion",
+            "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+            "source_reference": "#food-source-8",
+            "last_checked": "2026-10-12"
+          },
+          "value": 0.11,
+          "unit": "g",
+          "basis": "per 100 g edible portion",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+          "source_reference": "#food-source-8",
+          "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "record": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+          "verified": true,
+          "id": "docs/foods/salmon-roe.md#nutrition_per_100g/linoleic_g",
+          "rank_eligible": false,
+          "comparison_group": null,
+          "low": 110,
+          "high": 110,
+          "display": "0.11 g"
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "li_gut_brain_fat_2022"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better."
+      ],
+      "missing_ontology_edge": "salmon-roe → linoleic-acid [Chum salmon (Oncorhynchus keta), salted roe (ikura); preparation unresolved]"
+    }
+  ],
+  "composition_research": {
+    "added_targets": [
+      {
+        "food_id": "beef",
+        "food_title": "Beef",
+        "food_page": "/docs/foods/beef",
+        "substance_id": "glycine",
+        "material": "Beef muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+        "pm_ids": [
+          "BRS2-FM1-PM4",
+          "BRS2-FM2-PM6",
+          "BRS3-FM1-PM1",
+          "BRS3-FM1-PM2"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "beef",
+        "food_title": "Beef",
+        "food_page": "/docs/foods/beef",
+        "substance_id": "serine",
+        "material": "Beef muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+        "pm_ids": [
+          "BRS2-FM2-PM5"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "pork",
+        "food_title": "Pork",
+        "food_page": "/docs/foods/pork",
+        "substance_id": "glycine",
+        "material": "Pork muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+        "pm_ids": [
+          "BRS2-FM1-PM4",
+          "BRS2-FM2-PM6",
+          "BRS3-FM1-PM1",
+          "BRS3-FM1-PM2"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "pork",
+        "food_title": "Pork",
+        "food_page": "/docs/foods/pork",
+        "substance_id": "serine",
+        "material": "Pork muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+        "pm_ids": [
+          "BRS2-FM2-PM5"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "lamb",
+        "food_title": "Lamb",
+        "food_page": "/docs/foods/lamb",
+        "substance_id": "glycine",
+        "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists glycine separately in this meat protein; presence is not inferred from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Compiled composition evidence, attributed to Pellet and Young (1990). Protein-bound amino acid; no free-glycine dose, serving quantity, bioavailability estimate or effect on GSH/methylation inferred. This is not advice to eat raw meat.",
+        "pm_ids": [
+          "BRS2-FM1-PM4",
+          "BRS2-FM2-PM6",
+          "BRS3-FM1-PM1",
+          "BRS3-FM1-PM2"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "lamb",
+        "food_title": "Lamb",
+        "food_page": "/docs/foods/lamb",
+        "substance_id": "serine",
+        "material": "Lamb muscle protein in the FAO individual-amino-acid table",
+        "preparation": "Cut and cooking state not specified in the composition table; qualitative presence only",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "The FAO table lists serine separately in this meat protein; no amount is derived from total protein.",
+          "sources": [
+            "https://www.fao.org/4/t0562e/T0562E09.htm"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Composition supports dietary delivery, not an oral serine effect on transsulfuration. No quantity, preparation equivalence or neurotransmitter benefit inferred.",
+        "pm_ids": [
+          "BRS2-FM2-PM5"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "chicory-root",
+        "food_title": "Chicory root",
+        "food_page": "/docs/foods/chicory-root",
+        "substance_id": "inulin",
+        "material": "Authenticated Cichorium intybus market taproots; isolated inulin characterised",
+        "preparation": "Taproots dehydrated at 40°C, followed by laboratory extraction; qualitative source, not a household preparation protocol",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "Primary isolation from chicory taproot identified beta-(2,1) fructan by FTIR and reported extracted inulin degree of polymerisation 26.",
+          "sources": [
+            "https://doi.org/10.1186/s43094-020-00087-1"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Extraction/product characterisation, not a fresh-food serving assay or efficacy study. No root quantity, retention during cooking, or response equivalent to purified inulin inferred.",
+        "pm_ids": [
+          "BRS5-FM2-PM4"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      },
+      {
+        "food_id": "jerusalem-artichokes",
+        "food_title": "Jerusalem artichokes",
+        "food_page": "/docs/foods/jerusalem-artichokes",
+        "substance_id": "inulin",
+        "material": "Helianthus tuberosus tubers sampled at defined maturity and storage conditions",
+        "preparation": "Harvest maturity and storage-specific laboratory analysis; cooked products not tested",
+        "status": "research-supported-provisional",
+        "evidence": {
+          "statement": "Primary tuber profiling reported high-polymerisation inulin, including a DP-above-30 fraction; storage altered the chain-length distribution.",
+          "sources": [
+            "https://pubmed.ncbi.nlm.nih.gov/28298683/"
+          ],
+          "retrieved": "2026-10-23",
+          "kind": "food-composition-research"
+        },
+        "limitations": "Variety, maturity, storage and chain length limit generalisation. No cooked-food quantity, universal microbial response, butyrate yield or mucus benefit inferred.",
+        "pm_ids": [
+          "BRS5-FM2-PM4"
+        ],
+        "research_batch": "deferred-stage2ab-2026-10-23"
+      }
+    ],
+    "pool_member_food_research": [
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "histidine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "isoleucine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "leucine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "lysine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "methionine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "phenylalanine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "threonine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "tryptophan",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      },
+      {
+        "pm_id": "BRS1-FM1-PM1",
+        "pool_input": "Indispensable amino-acid supply",
+        "substance_id": "valine",
+        "food_id": "beef",
+        "mapping_status": "research-supported-provisional",
+        "material": "Beef muscle protein in FAO Table 24",
+        "preparation": "Cut/cooking unspecified; qualitative composition only",
+        "evidence": [
+          "https://www.fao.org/4/t0562e/T0562E09.htm"
+        ],
+        "canonical_identity_resolved": true,
+        "scientific_admission": "pool membership context; not a new individual PM admission",
+        "limitation": "Individual amino acid is explicitly tabulated, not calculated from total protein. Aggregate-pool join remains unresolved; no transmitter effect or food ranking."
+      }
+    ],
+    "unresolved": [
+      {
+        "input": "Glutamine",
+        "relationship": "Food composition with glutamine distinguished from glutamate/Glx",
+        "sources_examined": [
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3841331/",
+          "https://pubmed.ncbi.nlm.nih.gov/28252357/",
+          "https://doi.org/10.1021/jf049627h"
+        ],
+        "reason": "Retrieved milk table combines Glx; method papers and product abstracts do not identify a matching verified ordinary-food form. No food invented."
+      },
+      {
+        "input": "Inulin",
+        "relationship": "Garlic/wheat mixed fructans versus canonical long-chain inulin",
+        "sources_examined": [
+          "https://journals.innovareacademics.in/index.php/ijpps/article/download/1658/pdf_177"
+        ],
+        "reason": "Long-chain fraction and ordinary-food material not sufficiently resolved; not added as established/provisional long-chain source."
+      }
+    ]
+  },
+  "historical_catalogue_counts": {
+    "unresolved": 24,
+    "verified": 794,
+    "research-supported-provisional": 27
+  },
+  "historical_catalogue_total": 845
+}

@@ -127,6 +127,12 @@
     },
     {
       "kind": "mapping-gap",
+      "relationship_id": "BRS2-FM1-PM4::PM4-DIT-DEFERRED-1",
+      "input": "Glycine",
+      "reason": "No supported canonical food-source record found."
+    },
+    {
+      "kind": "mapping-gap",
       "relationship_id": "BRS2-FM2-PM5::PM5-DIT-1",
       "input": "Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor)",
       "reason": "No supported canonical food-source record found."
@@ -185,8 +191,8 @@
     {
       "pm_id": "BRS2-FM1-PM4",
       "record": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
-      "accepted_relationships": 9,
-      "structured_atoms": 8
+      "accepted_relationships": 10,
+      "structured_atoms": 9
     },
     {
       "pm_id": "BRS2-FM2-PM5",

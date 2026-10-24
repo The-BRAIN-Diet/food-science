@@ -1,3 +1,4 @@
+import {validateInputGovernance} from './dietary-input-governance.mjs';
 /**
  * Dietary Requirements layer — projects PM Evidence atoms with dietary addressability
  * and optional Direct/Derived relationship classification.
@@ -215,6 +216,7 @@ export function pmKcConstituentRelationshipIsAdjudicated(
 }
 
 export function validateDietaryLeverAtoms(data, issues, { entityLabel, content = "" } = {}) {
+  validateInputGovernance(data, issues, {entityLabel, content});
   validateDietaryInputTraceability(data, issues, { entityLabel });
   validatePmNonDietaryLeverEvidence(data, issues, { entityLabel });
   validateStructuredVitaminLabels(data, issues, { entityLabel, content });
@@ -322,7 +324,8 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel, content =
       if (targetId && !trace.byId.has(targetId)) {
         push(issues, "dla_derived_target_unresolved", `${label} derived_target_atom_id ${targetId} is unknown`);
       }
-      if (String(resolved.input_type || "").trim() === "substrate") {
+      if (String(resolved.input_type || "").trim() === "substrate" &&
+          !(data.dietary_input_assessments || []).some(a => a.atom_id === row.atom_id && a.classification === "derived" && a.conversion_pathway?.length)) {
         push(
           issues,
           "dla_derived_mislabeled_as_substrate",

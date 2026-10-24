@@ -1,5 +1,7 @@
 # Primary Mechanism (PM) Schema
 
+**Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
+
 **Governing assessment instructions:** [Stage 2A — scientific assessment](scientific-finding-schema.md) and [Stage 2B — applicability and lever implementation](dietary-input-traceability-contract.md). This schema governs the whole PM page; it is not a substitute for either assessment stage.
 
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
@@ -425,9 +427,7 @@ that increasing intake increases mechanism activity.
 
 For nutritional capacity relationships, apply the B/D dependency-supply model:
 
-- **B — Biological dependency:** evidence establishes that the defined PM requires
-  the substrate, co-substrate, cofactor, catalytic ion or other biochemical
-  participant.
+- **B — Functional dependency:** an identifiable input supplies or sustains the biochemical capacity of the defined operation, directly or through a supported derived pathway.
 - **D — Dietary supply:** evidence establishes a dietary pathway that supplies or
   maintains that same supported dependency pathway.
 - **Capacity Dietary Requirement = B AND D.** The dietary input and biochemical
@@ -1448,3 +1448,7 @@ Apply the Stage 2B Direct Regulatory Modulator admission rule in `dietary-input-
 Give each admitted §1.1.1 / §3.1.1 intervention a concise `reader_description` on its canonical dietary lever presentation: normally three sentences explaining the input, the supported biological effect and its material limitation. Show that summary beneath the input, before Food sources, without requiring the evidence panel to open. Keep detailed scientific fields in the evidence panel; do not duplicate the summary there.
 
 Food disclosures apply equally to canonical §3.1.1–3.1.3 and their prominent §1.1.1–1.1.3 display numbering. Generate them only for Dietary input Yes, including accepted upstream supply in Cofactors/Substrates and Key Constraints. Preserve the same amount/preparation display contract in every section. Pool/constraint references and No/unset entries remain distinct; do not invent food equivalents. Record an established upstream PM supply route structurally where accepted page evidence already establishes it.
+
+### Optional Scientific Hypotheses — controlled pilot
+
+Where explicitly authored, an unnumbered **Scientific Hypotheses** subsection sits immediately before Scientific Findings, outside the mechanism narrative dropdown. It renders only when `scientific_hypotheses` records exist. See [Scientific Hypotheses schema](scientific-hypotheses-schema.md). Preserve §4.1/legacy §5.1 Finding IDs, anchors, counts and all scoring rules. Hypothesis status, including Supported, does not itself admit a mechanism relationship or dietary input. No repository-wide migration is implied.

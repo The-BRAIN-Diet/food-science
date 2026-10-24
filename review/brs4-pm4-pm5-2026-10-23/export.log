@@ -1,0 +1,7 @@
+{
+  findings: [ [ 'BRS4-FM2-PM4', 6 ], [ 'BRS4-FM2-PM5', 5 ] ],
+  food_rows: 36,
+  verified: 33,
+  provisional: 3,
+  food_repairs: 3
+}

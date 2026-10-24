@@ -1,0 +1,877 @@
+{
+  "records": [
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_mission": "Shape the rate of post-meal glucose appearance so metabolic and neuroendocrine systems face manageable, predictable load.",
+      "atom_id": "PM1-SOP-2",
+      "input": "Fish before rice in the studied meal sequence",
+      "input_type": "meal sequencing protocol",
+      "biological_role": "Fish first delayed gastric emptying, an upstream control of carbohydrate delivery.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F2"
+        ],
+        "citation_keys": [
+          "kuwata_meal_sequence_2016"
+        ]
+      },
+      "limitation": "An acute meal result; no claim that protein alone accounts for the effect.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "fish-sequence",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26704625/",
+          "kind": "primary-human-intervention",
+          "proposition": "Fish-before-rice comparison measured breath-test emptying and post-meal glucose responses.",
+          "limitation": "Acute exploratory small study; meat comparison not the randomized crossover; no generic protein-first or chronic brain claim.",
+          "retrieval": "Primary abstract and full text.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "An acute meal result; no claim that protein alone accounts for the effect.",
+      "rollup_status": "Limited",
+      "batch": 1,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM1",
+      "pm_mission": "Shape the rate of post-meal glucose appearance so metabolic and neuroendocrine systems face manageable, predictable load.",
+      "atom_id": "PM1-SOP-7",
+      "input": "The tested beta-glucan addition to a polenta meal",
+      "input_type": "defined fibre meal addition",
+      "biological_role": "The studied 5 g beta-glucan addition redistributed exogenous glucose appearance from the first two hours to later in the six-hour period.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F4"
+        ],
+        "citation_keys": [
+          "nazare_beta_glucan_2009"
+        ]
+      },
+      "limitation": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "beta-glucan-meal",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18837470/",
+          "kind": "primary-human-intervention",
+          "proposition": "The tested beta-glucan/polenta meal redistributed isotope-estimated glucose appearance.",
+          "limitation": "Specific 5-g addition in twelve overweight participants; no decrease in total appearance and no universal whole-oat equivalence.",
+          "retrieval": "Primary abstract.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Twelve overweight adults; no lower overall appearing quantity and no universal fibre effect. Viscosity is a proposed explanation, not a measured mediator.",
+      "rollup_status": "Limited",
+      "batch": 1,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM1)",
+      "pm": "BRS4-FM1-PM3",
+      "pm_mission": "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
+      "atom_id": "PM3-SOP-1",
+      "input": "Limit unnecessary cumulative heat exposure when retaining creatine in pork products",
+      "input_type": "food preparation/delivery practice",
+      "biological_role": "Controlled pork-loin and cooked-ham experiments found greater creatine-to-creatinine conversion with higher heat exposure, especially at the product surface.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F6"
+        ],
+        "citation_keys": [
+          "mora_cooking_creatine_2008"
+        ]
+      },
+      "limitation": "Evidence is limited to processed pork matrices and does not establish higher creatine intake or cerebral target engagement.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "creatine-preparation",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18989971/",
+          "kind": "primary-food-composition",
+          "proposition": "Heating protocols altered creatine-to-creatinine conversion in pork/ham materials.",
+          "limitation": "Composition retention only, not brain effects; no advice to undercook food.",
+          "retrieval": "Primary abstract; DOI 10.1021/jf801953t verifies correction of mismatched bibliography PMID.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Composition-preservation practice in tested pork products only; preserve food safety, no brain-efficacy or undercooking advice.",
+      "rollup_status": "Limited",
+      "batch": 2,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM2)",
+      "pm": "BRS3-FM2-PM3",
+      "pm_mission": "Regulate the expression of cellular defence genes in response to oxidative and electrophilic stress.",
+      "atom_id": "PM3-SOP-1",
+      "input": "Myrosinase-completed broccoli sprout homogenate",
+      "input_type": "preparation characteristic",
+      "biological_role": "Three daily doses of broccoli sprouts, blended with water and daikon sprouts and held at 37°C so myrosinase could finish forming sulforaphane, increased phase II enzyme RNA in nasal cells of healthy adults. The authors read that shared pattern as Nrf2-linked induction. They did not measure Nrf2 protein or its movement into the nucleus.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F2"
+        ],
+        "citation_keys": [
+          "riedl_sulforaphane_airway_2009",
+          "wise_sulforaphane_copd_2016"
+        ]
+      },
+      "limitation": "This is three days of that homogenate in healthy adults and nasal enzyme RNA, not brain Nrf2, an ordinary broccoli serving, or the four-week sprout-extract capsules that did not raise lung target-gene expression in COPD.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "nrf2-food",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19028145/",
+          "kind": "primary-human-intervention",
+          "proposition": "Defined broccoli-sprout homogenate raised nasal phase-II gene RNA relative to the control preparation.",
+          "limitation": "Nasal target-gene response, not brain/ADHD effect, universal serving response or direct measurement of Nrf2 activation in every tissue.",
+          "retrieval": "Primary abstract; precise preparation retained from prior full source assessment.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "nrf2-null",
+          "url": "https://doi.org/10.1371/journal.pone.0163716",
+          "kind": "primary-human-intervention",
+          "proposition": "The COPD capsule trial did not increase the assessed Nrf2 target-gene endpoints.",
+          "limitation": "Different tissue, disease and formulation; prevents a uniform exposure-response claim.",
+          "retrieval": "Existing assessed primary null; targeted recheck recorded separately.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "This is three days of that homogenate in healthy adults and nasal enzyme RNA, not brain Nrf2, an ordinary broccoli serving, or the four-week sprout-extract capsules that did not raise lung target-gene expression in COPD.",
+      "rollup_status": "Limited",
+      "batch": 2,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-2",
+      "input": "Less-processed whole-grain food package (two-week trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In adults with type 2 diabetes, the tested less-processed whole-grain package reduced daily glucose standard deviation and mean amplitude of glycaemic excursions (MAGE) versus a nutrient-matched finely processed package over two weeks.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "stage2-ref-aberg"
+        ]
+      },
+      "limitation": "A food package, not an isolated grain or fibre effect; unmasked foods, short duration. Concealed randomisation, blinded CGM, initial masked analysis and intention-to-treat models support appraisal.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "wholegrain-processing",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7372063/",
+          "kind": "primary-human-crossover",
+          "proposition": "Less-processed whole-grain package reduced CGM excursions and variability relative to finely milled nutrient-matched grains.",
+          "limitation": "31 enrolled, 28 completed; two weeks; type 2 diabetes; combined oats/rice/bread package. Not an isolated fibre effect or brain outcome.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "The less-milled whole-grain package is the exposure; not a biochemical dietary requirement or equivalent to adding isolated fibre.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-SOP-3",
+      "input": "Early eating with front-loaded calories (six-day trial)",
+      "input_type": "dietary protocol",
+      "biological_role": "In a small prediabetes crossover, the tested early, front-loaded eating schedule reduced mean amplitude of glycaemic excursions (MAGE) over six days versus later calorie distribution; mean glucose and several other variability/range measures were inconclusive.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F6"
+        ],
+        "citation_keys": [
+          "stage2-ref-bruno",
+          "stage2-ref-jamshed"
+        ]
+      },
+      "limitation": "Small sample, no washout; timing, eating-window length and calorie distribution cannot be separated.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.2",
+      "mechanistic_evidence": [
+        {
+          "id": "early-eating",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39759025/",
+          "kind": "primary-human-crossover",
+          "proposition": "Six-day early eating with front-loaded calories reduced MAGE and hyperglycaemic exposure in ten adults with prediabetes.",
+          "limitation": "Timing, window and calorie distribution were combined. Inflammatory markers and OGTT did not improve; short trial does not establish universal timing benefits.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        },
+        {
+          "id": "early-eating-null",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804344/",
+          "kind": "primary-human-randomised-secondary-analysis",
+          "proposition": "Early time restriction added to calorie restriction did not improve average glucose or insulin-sensitivity measures over calorie restriction alone.",
+          "limitation": "Different 12-week protocol and overweight/obese population; incomplete CGM coverage. Retained as contrary context, not a second independent replication of Bruno.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Candidate early/front-loaded eating strategy in dysglycaemia; no universally optimal window or established brain/ADHD benefit. Longer trial with a different protocol was null.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM2",
+      "pm_mission": "Limit glycaemic volatility so post-prandial glucose swings do not create unnecessary metabolic and neuroendocrine stress.",
+      "atom_id": "PM2-LIFE-2",
+      "input": "Supervised interval walking (two-week trial)",
+      "input_type": "physical activity",
+      "biological_role": "Two weeks of the tested supervised interval-walking programme reduced mean amplitude of glycaemic excursions (MAGE) versus an inactive control period in a small type 2 diabetes crossover trial.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F7"
+        ],
+        "citation_keys": [
+          "stage2-ref-karstoft"
+        ]
+      },
+      "limitation": "Small unmasked trial, baseline imbalance and missing sensor record; oxidative-stress markers did not improve. No blanket superiority to all continuous exercise.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-existing-practice",
+      "section": "3.3",
+      "mechanistic_evidence": [
+        {
+          "id": "interval-walking",
+          "url": "https://pure-oai.bham.ac.uk/ws/files/37050575/Karstoft_et_al_The_effects_of_2_weeks_2016.pdf",
+          "kind": "primary-human-crossover",
+          "proposition": "Two weeks of supervised interval walking reduced CGM MAGE versus the control period in type 2 diabetes.",
+          "limitation": "14 participants, 13 usable CGM; mean glucose within-period inconclusive; oxidative stress unchanged. Not generic walking-dose or brain-effect evidence.",
+          "retrieval": "Primary paper abstract/results and existing source assessment compared; full methods where accessible.",
+          "retrieved": "2026-10-23",
+          "cc_sec": "unscored; no new score"
+        }
+      ],
+      "exposure_qualification": "Tested supervised slow/fast treadmill programme; retain population, intensity and null oxidative-stress findings.",
+      "rollup_status": "Limited",
+      "batch": 3,
+      "approval_phase": "previous-approved"
+    },
+    {
+      "brs": "BRS1",
+      "fm": "BRS1(FM1)",
+      "pm": "BRS1-FM1-PM1",
+      "pm_mission": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+      "atom_id": "PM1-SOP-DEFERRED-1",
+      "input": "Minced rather than intact beef in the tested older-adult meal",
+      "input_type": "food preparation/delivery practice",
+      "section": "3.2",
+      "biological_role": "The tested texture change increased six-hour appearance of dietary phenylalanine in ten older men.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F5"
+        ],
+        "citation_keys": [
+          "pennings_minced_beef_2013"
+        ]
+      },
+      "limitation": "Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Single crossover with 135 g intrinsically labelled beef. Total plasma EAA concentrations and muscle protein synthesis did not differ detectably. Not a universal meat, protein or neurotransmitter prescription; earlier no-selected-SOP wording records the prior assessment.",
+      "mechanistic_evidence": [
+        {
+          "label": "Pennings et al. (2013): minced beef versus steak",
+          "citation_key": "stage2-ref-pm1-pennings2013",
+          "href": "?review=0#stage2-ref-pm1-pennings2013",
+          "data_level": "Human Mechanistic",
+          "evidence_source": "bounded-external-search",
+          "exposure_context": "135 g intrinsically labelled lean beef, same cut, minced patty versus steak; six-hour tracer follow-up.",
+          "directional_finding": "More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.",
+          "assessment": {
+            "study": "Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.",
+            "population": "Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.",
+            "result": "More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.",
+            "effect_magnitude": "Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P < 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred.",
+            "evidence_summary": "More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.",
+            "limitations": "Small single trial; mean estimates and standard errors available, paired effect interval not extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal article are the same experiment, not replications."
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS1-FM1-PM1/PM1-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS1",
+      "fm": "BRS1(FM5)",
+      "pm": "BRS1-FM5-PM12",
+      "pm_mission": "Maintain and adapt physical connections between neurons through synapse formation, selective stabilisation, structural remodelling and elimination.",
+      "atom_id": "PM12-SOP-DEFERRED-1",
+      "input": "Experimental magnesium-L-threonate exposure",
+      "input_type": "defined dietary exposure",
+      "section": "3.2",
+      "biological_role": "The tested formulation changed presynaptic structural markers in rats.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM12-F12"
+        ],
+        "citation_keys": [
+          "slutsky_magnesium_synaptic_2010"
+        ]
+      },
+      "limitation": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.",
+      "mechanistic_evidence": [
+        {
+          "label": "Slutsky et al. (2010)",
+          "citation_key": "slutsky_magnesium_synaptic_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#slutsky_magnesium_synaptic_2010",
+          "data_level": "Mechanistic",
+          "exposure_context": "The defined magnesium-L-threonate formulation; comparison salts did not reproduce all responses.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Magnesium-L-threonate increased hippocampal presynaptic puncta density in rats.",
+          "assessment": {
+            "study": "The defined magnesium-L-threonate formulation; comparison salts did not reproduce all responses.",
+            "population": "Young and aged rats; associated functional neuronal experiments.",
+            "result": "Magnesium-L-threonate increased hippocampal presynaptic puncta density in rats.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Synaptophysin/synaptobrevin puncta and functional release-site responses.",
+            "limitations": "Puncta are markers, not ultrastructurally verified contact counts. Formulation- and region-specific animal evidence does not establish that ordinary magnesium foods increase human synapses or improve ADHD.",
+            "retrieval_scope": "Primary abstract plus original MIT-hosted paper formulation comparisons retrieved.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS1-FM5-PM12/PM12-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM1)",
+      "pm": "BRS3-FM1-PM1",
+      "pm_mission": "Regulate NF-κB transcriptional tone so pro-inflammatory gene programmes do not fire excessively.",
+      "atom_id": "PM1-SOP-DEFERRED-1",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "section": "3.2",
+      "biological_role": "The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM1-F3"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "mechanistic_evidence": [
+        {
+          "label": "Ghanim et al. (2009)",
+          "citation_key": "ghanim_increase_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#ghanim_increase_2009",
+          "data_level": "Human Study",
+          "exposure_context": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+          "assessment": {
+            "study": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+            "population": "Two parallel groups of ten healthy lean adults.",
+            "result": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.",
+            "limitations": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+            "retrieval_scope": "Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS3-FM1-PM1/PM1-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS3",
+      "fm": "BRS3(FM1)",
+      "pm": "BRS3-FM1-PM2",
+      "pm_mission": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+      "atom_id": "PM2-SOP-DEFERRED-1",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "section": "3.2",
+      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F5"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "mechanistic_evidence": [
+        {
+          "label": "Ghanim et al. (2009)",
+          "citation_key": "ghanim_increase_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#ghanim_increase_2009",
+          "data_level": "Human Study",
+          "exposure_context": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+          "assessment": {
+            "study": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+            "population": "Two parallel groups of ten healthy lean adults.",
+            "result": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.",
+            "limitations": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+            "retrieval_scope": "Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS3-FM1-PM2/PM2-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM6",
+      "pm_mission": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+      "atom_id": "PM6-SOP-DEFERRED-1",
+      "input": "Experimental carnitine/carbohydrate loading protocol",
+      "input_type": "defined dietary exposure",
+      "section": "3.2",
+      "biological_role": "The tested 24-week exposure increased muscle carnitine and changed exercise-dependent fuel handling.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM6-F1"
+        ],
+        "citation_keys": [
+          "wall_carnitine_carbohydrate_2011"
+        ]
+      },
+      "limitation": "Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.",
+      "mechanistic_evidence": [
+        {
+          "label": "Wall et al. (2011)",
+          "citation_key": "wall_carnitine_carbohydrate_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#wall_carnitine_carbohydrate_2011",
+          "data_level": "Human Study",
+          "exposure_context": "Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.",
+          "assessment": {
+            "study": "Two grams L-carnitine-L-tartrate plus 80 g carbohydrate twice daily for 24 weeks versus carbohydrate control.",
+            "population": "Fourteen healthy male volunteers; randomised double-blind comparison.",
+            "result": "The tested carnitine/carbohydrate protocol increased muscle carnitine and altered exercise-dependent substrate handling.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Muscle biopsy carnitine, glycogen use, PDC activity and exercise metabolites.",
+            "limitations": "Lipid use is partly inferred from glycogen sparing; CPT transport flux was not directly measured. Large carbohydrate co-exposure and extracted formulation are not meat/dairy effects or a routine dietary recommendation.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/21224234/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS4-FM3-PM6/PM6-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM7",
+      "pm_mission": "Enable mitochondrial ketone utilisation so alternative fuel is available when glucose conditions shift.",
+      "atom_id": "PM7-SOP-DEFERRED-1",
+      "input": "Four-day ketogenic liquid formula in the studied healthy-adult experiment",
+      "input_type": "dietary pattern",
+      "section": "3.2",
+      "biological_role": "The defined formula raised tracer/model-estimated cerebral acetoacetate metabolism.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM7-F1"
+        ],
+        "citation_keys": [
+          "courchesne_loyer_diet_ketone_pet_2017"
+        ]
+      },
+      "limitation": "Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.",
+      "mechanistic_evidence": [
+        {
+          "label": "Courchesne-Loyer et al. (2017)",
+          "citation_key": "courchesne_loyer_diet_ketone_pet_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#courchesne_loyer_diet_ketone_pet_2017",
+          "data_level": "Human Study",
+          "exposure_context": "Four-day liquid diet with lipid:protein-plus-carbohydrate ratio 4.5:1, containing cream, milk, MCT oil and egg white.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.",
+          "assessment": {
+            "study": "Four-day liquid diet with lipid:protein-plus-carbohydrate ratio 4.5:1, containing cream, milk, MCT oil and egg white.",
+            "population": "Ten healthy adults; before/after study.",
+            "result": "Four days of the tested ketogenic formula increased PET-estimated cerebral acetoacetate metabolic rate in healthy adults.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Dual-tracer PET with kinetic estimates of acetoacetate/glucose metabolic rates.",
+            "limitations": "Small short-term nonrandomised study; PET metabolic rates are tracer/model estimates, not direct neuronal oxidation measurements. Combined total ketone energy contribution was estimated separately. No ADHD efficacy or endorsement of routine ketogenic dieting.",
+            "retrieval_scope": "Primary full text Abstract, diet Methods and PET modelling retrieved.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/27629100/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS4-FM3-PM7/PM7-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM3)",
+      "pm": "BRS4-FM3-PM8",
+      "pm_mission": "Shape smooth transitions between glucose, fat, and ketone fuel pathways as physiological demand shifts.",
+      "atom_id": "PM8-LP-DEFERRED-1",
+      "input": "Combined progressive exercise as studied in men with type 2 diabetes",
+      "input_type": "exercise protocol",
+      "section": "3.3",
+      "biological_role": "The programme improved the clamp-associated respiratory-exchange flexibility index in the diabetes group.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM8-F1"
+        ],
+        "citation_keys": [
+          "meex_training_flexibility_2010"
+        ]
+      },
+      "limitation": "No inactive randomised comparator; whole-body RER is an index of substrate switching, not a brain-specific assay. The flexibility change was not significant in healthy controls.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "No inactive randomised comparator; whole-body RER is an index of substrate switching, not a brain-specific assay. The flexibility change was not significant in healthy controls.",
+      "mechanistic_evidence": [
+        {
+          "label": "Meex et al. (2010)",
+          "citation_key": "meex_training_flexibility_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#meex_training_flexibility_2010",
+          "data_level": "Human Study",
+          "exposure_context": "Combined progressive exercise three times weekly, 45 minutes per session.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Training improved clamp-associated respiratory-exchange flexibility in men with type 2 diabetes, but not in matched controls.",
+          "assessment": {
+            "study": "Combined progressive exercise three times weekly, 45 minutes per session.",
+            "population": "Eighteen men with type 2 diabetes and twenty matched healthy men; 12-week before/after programme.",
+            "result": "Training improved clamp-associated respiratory-exchange flexibility in men with type 2 diabetes, but not in matched controls.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Indirect-calorimetry change in RER during clamp; insulin sensitivity and muscle MRS.",
+            "limitations": "No inactive randomised comparator; whole-body RER is an index of substrate switching, not a brain-specific assay. The flexibility change was not significant in healthy controls.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/20028948/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS4-FM3-PM8/PM8-LP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4(FM4)",
+      "pm": "BRS4-FM4-PM9",
+      "pm_mission": "Enable formation of new mitochondria so long-term energetic capacity can expand and adapt.",
+      "atom_id": "PM9-LP-DEFERRED-1",
+      "input": "Low-volume interval cycling in the tested two-week protocol",
+      "input_type": "exercise protocol",
+      "section": "3.3",
+      "biological_role": "The studied training increased muscle mitochondrial enzyme/protein and TFAM markers.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM9-F1"
+        ],
+        "citation_keys": [
+          "little_interval_mitochondria_2010"
+        ]
+      },
+      "limitation": "No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.",
+      "mechanistic_evidence": [
+        {
+          "label": "Little et al. (2010)",
+          "citation_key": "little_interval_mitochondria_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#little_interval_mitochondria_2010",
+          "data_level": "Human Study",
+          "exposure_context": "Six sessions of 8–12 one-minute cycling intervals separated by recovery.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.",
+          "assessment": {
+            "study": "Six sessions of 8–12 one-minute cycling intervals separated by recovery.",
+            "population": "Seven young men, two-week before/after cycling study.",
+            "result": "Six interval-training sessions increased skeletal-muscle mitochondrial enzyme/protein markers and TFAM in young men.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Muscle citrate synthase/COX activity and protein, TFAM, nuclear PGC-1alpha.",
+            "limitations": "No inactive control, small male sample. These are mitochondrial-content and regulatory markers, not direct counting of newly formed brain mitochondria. Total PGC-1alpha was unchanged.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/20100740/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS4-FM4-PM9/PM9-LP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS5",
+      "fm": "BRS5(FM1)",
+      "pm": "BRS5-FM1-PM2",
+      "pm_mission": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+      "atom_id": "PM2-SOP-DEFERRED-1",
+      "input": "Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison",
+      "input_type": "defined meal formulation",
+      "section": "3.2",
+      "biological_role": "The meal comparison measured different acute plasma endotoxin/LBP responses.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM2-F9"
+        ],
+        "citation_keys": [
+          "ghanim_increase_2009"
+        ]
+      },
+      "limitation": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+      "mechanistic_evidence": [
+        {
+          "label": "Ghanim et al. (2009)",
+          "citation_key": "ghanim_increase_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#ghanim_increase_2009",
+          "data_level": "Human Study",
+          "exposure_context": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+          "assessment": {
+            "study": "910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.",
+            "population": "Two parallel groups of ten healthy lean adults.",
+            "result": "NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.",
+            "limitations": "Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.",
+            "retrieval_scope": "Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS5-FM1-PM2/PM2-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM1)",
+      "pm": "BRS6-FM1-PM3",
+      "pm_mission": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+      "atom_id": "PM3-SOP-DEFERRED-1",
+      "input": "Conditional oral arginine supplementation in the tested type-2-diabetes protocol",
+      "input_type": "conditional supplementation",
+      "section": "3.2",
+      "biological_role": "The studied 9 g/day exposure improved clamp-measured glucose disposal in a small clinical comparison.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM3-F4"
+        ],
+        "citation_keys": [
+          "piatti_oral_arginine_clamp_2001"
+        ]
+      },
+      "limitation": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+      "dietary_input": true,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+      "mechanistic_evidence": [
+        {
+          "label": "Piatti et al. (2001)",
+          "citation_key": "piatti_oral_arginine_clamp_2001",
+          "href": "/docs/papers/BRAIN-Diet-References#piatti_oral_arginine_clamp_2001",
+          "data_level": "Human Study",
+          "exposure_context": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+          "assessment": {
+            "study": "Usual diet then placebo; intervention group received 3 g arginine three times daily for one month.",
+            "population": "Twelve lean adults with type 2 diabetes; double-blind study with random allocation into two groups.",
+            "result": "Oral arginine improved clamp-measured glucose disposal in the small type-2-diabetes comparison.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Euglycaemic-hyperinsulinaemic clamp with glucose tracer; endogenous glucose production and cGMP.",
+            "limitations": "Incomplete normalisation; small selected clinical population. cGMP change does not isolate causal NO mediation. The 9 g/day supplement protocol is not equivalent to arginine-containing food.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/11347747/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS6-FM1-PM3/PM3-SOP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM3)",
+      "pm": "BRS6-FM3-PM7",
+      "pm_mission": "Sustain vagal tone so heart-rate-variability-linked recovery signalling remains robust under repeated stress exposure.",
+      "atom_id": "PM7-LP-DEFERRED-1",
+      "input": "Aerobic conditioning in the tested twelve-week programme",
+      "input_type": "exercise protocol",
+      "section": "3.3",
+      "biological_role": "The randomised training comparison increased high-frequency RR variability, with sex-dependent autonomic effects.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM7-F3"
+        ],
+        "citation_keys": [
+          "sloan_aerobic_autonomic_2009"
+        ]
+      },
+      "limitation": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+      "dietary_input": false,
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "exposure_qualification": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+      "mechanistic_evidence": [
+        {
+          "label": "Sloan et al. (2009)",
+          "citation_key": "sloan_aerobic_autonomic_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#sloan_aerobic_autonomic_2009",
+          "data_level": "Human Study",
+          "exposure_context": "Twelve weeks of conditioning and four weeks of deconditioning.",
+          "evidence_source": "bounded-external-search",
+          "directional_finding": "Aerobic conditioning increased high-frequency RR variability; post-hoc autonomic effects were confined to men and reversed with deconditioning.",
+          "assessment": {
+            "study": "Twelve weeks of conditioning and four weeks of deconditioning.",
+            "population": "149 sedentary healthy young adults randomised to aerobic or strength training.",
+            "result": "Aerobic conditioning increased high-frequency RR variability; post-hoc autonomic effects were confined to men and reversed with deconditioning.",
+            "effect_magnitude": "Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.",
+            "evidence_summary": "Resting heart rate and high-frequency RR-interval variability.",
+            "limitations": "Sex-dependent findings, respiration/context-sensitive cardiac proxy, not direct whole-body vagal traffic or universal recovery improvement.",
+            "retrieval_scope": "Primary abstract retrieved via Europe PMC/PubMed; no unextracted full-method claims.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/19299682/"
+          }
+        }
+      ],
+      "approval_phase": "approved-deferred-enrichment",
+      "review_id": "review/deferred-stage2ab-2026-10-23/new-practices.json#BRS6-FM3-PM7/PM7-LP-DEFERRED-1"
+    },
+    {
+      "brs": "BRS4",
+      "fm": "BRS4-FM2",
+      "pm": "BRS4-FM2-PM4",
+      "pm_mission": "Regulate mitochondrial superoxide and hydrogen peroxide generation in response to metabolic conditions, preserving physiological redox signalling while limiting excessive oxidant production.",
+      "atom_id": "PM4-LIFE-EX",
+      "input": "Regular aerobic activity and recovery from inactivity",
+      "input_type": "physical activity",
+      "biological_role": "Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward baseline.",
+      "evidence_source": {
+        "finding_ids": [
+          "PM4-F4"
+        ],
+        "citation_keys": [
+          "brs4_gram2015_20261023"
+        ]
+      },
+      "evidence_limitation": "The supporting experiment used six weeks of supervised retraining after two weeks of immobilisation in men; this is not a universal exercise dose or a brain outcome.",
+      "dietary_input": false,
+      "reader_description": "Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward baseline.",
+      "description_finding_id": "PM4-F4",
+      "section": "3.3",
+      "limitation": "The supporting experiment used six weeks of supervised retraining after two weeks of immobilisation in men; this is not a universal exercise dose or a brain outcome.",
+      "scientific_admission": "admitted-approved-practice",
+      "rollup_status": "Limited",
+      "approval_phase": "approved-mitochondrial-reassessment",
+      "review_id": "review/brs4-pm4-pm5-2026-10-23/report.md",
+      "mechanistic_evidence": [
+        {
+          "label": "Gram et al. (2015)",
+          "citation_key": "brs4_gram2015_20261023",
+          "href": "/docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023",
+          "data_level": "Human Study",
+          "evidence_source": "bounded-external-search",
+          "exposure_context": "Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.",
+          "directional_finding": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+          "assessment": {
+            "study": "Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.",
+            "population": "Seventeen young and fifteen older healthy men.",
+            "result": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+            "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+            "evidence_summary": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+            "limitations": "Sequential design; skeletal muscle only; antioxidant-enzyme changes may influence emission.",
+            "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/26096818/",
+            "publication_classification": "primary-experimental"
+          }
+        },
+        {
+          "label": "Trewin et al. (2017)",
+          "citation_key": "brs4_acuteexercise2017_20261023",
+          "href": "/docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023",
+          "data_level": "Human Study",
+          "evidence_source": "bounded-external-search",
+          "exposure_context": "Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.",
+          "directional_finding": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+          "assessment": {
+            "study": "Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.",
+            "population": "Nine obese sedentary middle-aged men.",
+            "result": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+            "effect_magnitude": "Study-specific direction retained; no pooled effect or effective food dose inferred.",
+            "evidence_summary": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+            "limitations": "Not a uniform decrease; exercise/insulin timing and substrates matter; no neurological outcome.",
+            "retrieval_scope": "Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.",
+            "source_url": "https://pubmed.ncbi.nlm.nih.gov/29161316/",
+            "publication_classification": "primary-experimental"
+          }
+        }
+      ]
+    }
+  ]
+}

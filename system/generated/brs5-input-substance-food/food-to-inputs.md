@@ -4,150 +4,154 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 
 | Food | Unique dietary input coverage | Substance IDs | Connected PMs | Shared pools |
 | --- | --- | --- | --- | --- |
-| Almonds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Amaranth | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Anchovies | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Apples | 3 | zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
-| Asparagus | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Aubergine | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Avocado | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Bananas | 3 | resistant-starch; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
-| Barley | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Beef | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Beetroot | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Bell Peppers | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Black Beans | 2 | magnesium; zinc; resistant-starch | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
+| Almonds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Amaranth | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Anchovies | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Apples | 4 | linoleic-acid; zinc; vitamin-a; magnesium; pectin | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
+| Asparagus | 3 | linoleic-acid; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Aubergine | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Avocado Oil | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
+| Avocado | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Bananas | 4 | resistant-starch; vitamin-a; linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
+| Barley | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Beef | 3 | zinc; magnesium; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Beetroot | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Bell Peppers | 3 | linoleic-acid; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Black Beans | 3 | magnesium; zinc; resistant-starch; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Black Pepper | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Black Tea | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Blueberries | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
+| Black Tea | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Blueberries | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Broccoli Sprouts | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Broccoli | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Brussels Sprouts | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Buckwheat | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Butter | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Cabbage | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Cacao Powder | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Capers | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Carrots | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Cashews | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Cauliflower | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Broccoli | 3 | magnesium; zinc; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Brussels Sprouts | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Buckwheat | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Butter | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cabbage | 3 | zinc; linoleic-acid; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cacao Powder | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Capers | 3 | vitamin-a; linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Carrots | 3 | linoleic-acid; magnesium; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cashews | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cauliflower | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Chamomile Tea | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Cheddar Cheese | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Cherries | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Chia Seeds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Chicken | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Chickpeas | 3 | magnesium; zinc; resistant-starch; vitamin-a | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
+| Cheddar Cheese | 3 | zinc; linoleic-acid; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cherries | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Chia Seeds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Chicken | 3 | zinc; magnesium; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Chickpeas | 4 | magnesium; zinc; resistant-starch; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
 | Chicory Root | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Cilantro | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Cinnamon | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Clams | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
+| Cilantro | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cinnamon | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Clams | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Cockles | 1 | zinc | BRS5-FM1-PM1 |  |
-| Cocoa | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Coconut Oil | 1 | zinc | BRS5-FM1-PM1 |  |
-| Cod | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
+| Cocoa | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Coconut Oil | 2 | linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cod | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Coffee | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Corn | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
+| Corn | 3 | magnesium; zinc; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Crab | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Cranberries | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Cucumber | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Dandelion Greens | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Dark Chocolate | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
+| Cranberries | 3 | zinc; linoleic-acid; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Cucumber | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Dandelion Greens | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Dark Chocolate | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Olive Oil (Early Harvest) | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
 | Edamame | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Egg Yolks | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Eggs | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Fermented Hot Sauce | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Flax Seeds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Garlic | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Ghee | 2 | vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Ginger | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Grapes | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
+| Egg Yolks | 3 | vitamin-a; zinc; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Eggs | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Extra Virgin Olive Oil | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
+| Fermented Hot Sauce | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Flax Seeds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Garlic | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Ghee | 3 | vitamin-a; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Ginger | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Grapes | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Grass-Fed Butter | 1 | vitamin-a | BRS5-FM1-PM1 |  |
-| Greek Yogurt | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
+| Greek Yogurt | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Green Tea | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Heart | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Herring | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
+| Heart | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Herring | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Jerusalem Artichokes | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Kale | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Kefir | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Kidney Beans | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Kidney | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Kimchi | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Lamb | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Leeks | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Lemon | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Lentils | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
+| Kale | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Kefir | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Kidney Beans | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Kidney | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Kimchi | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lamb | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Leeks | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lemon | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lentils | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lion's Mane Mushroom | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Liver | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Lupin Beans | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Liver | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Lupin Beans | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Lupins | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Mackerel | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Maitake Mushroom | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Milk | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Miso | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| White/Button Mushroom | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Mussels | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Natto | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Mackerel | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Maitake Mushroom | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Milk | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Miso | 3 | vitamin-a; linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| White/Button Mushroom | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Mussels | 3 | zinc; vitamin-a; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Natto | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Nori | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Nutritional Yeast | 1 | zinc | BRS5-FM1-PM1 |  |
-| Oats | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Olives | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Onions | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Oranges | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
+| Oats | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Olives | 3 | zinc; magnesium; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Onions | 2 | linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Oranges | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Oregano | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Oyster Mushroom | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Oysters | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Parmesan Cheese | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Parsley | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Peanuts | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Peas | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Peppermint | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Pistachios | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Pomegranates | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Pork | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Potatoes | 2 | resistant-starch; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5 | BRS5(KC1) |
-| Pumpkin Seeds | 3 | tryptophan; magnesium; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM8 |  |
-| Quinoa | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Radicchio | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Raspberries | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Rice | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Romaine Lettuce | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Rosemary | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
+| Oyster Mushroom | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Oysters | 3 | zinc; magnesium; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Parmesan Cheese | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Parsley | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Peanuts | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Peas | 3 | vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Peppermint | 3 | magnesium; linoleic-acid; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Pistachios | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Pomegranates | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Pork | 3 | zinc; vitamin-a; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Potatoes | 3 | resistant-starch; linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM2-PM4; BRS5-FM2-PM5; BRS5-FM3-PM7 | BRS5(KC1) |
+| Pumpkin Seeds | 4 | tryptophan; magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |
+| Quinoa | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Radicchio | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Raspberries | 3 | linoleic-acid; zinc; vitamin-a; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Rice | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Romaine Lettuce | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Rosemary | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Saffron | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
 | Sage | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Salmon Roe | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Salmon | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Sardines | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Sauerkraut | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Scallops | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
+| Salmon Roe | 3 | vitamin-a; zinc; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Salmon | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Sardines | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Sauerkraut | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Scallops | 3 | linoleic-acid; magnesium; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Seaweed | 0 | magnesium |  |  |
-| Sesame Seeds | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Sesame Seeds | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Shiitake Mushroom | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Shrimp | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
+| Shrimp | 3 | zinc; vitamin-a; magnesium; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Sourdough Bread | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Soy | 3 | tryptophan; vitamin-a; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM8 |  |
-| Spelt | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Spinach | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Spirulina | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Strawberries | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Sunflower Seeds | 2 | magnesium; zinc; vitamin-a | BRS5-FM1-PM1 |  |
-| Sweet Potatoes | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Swiss Chard | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Tahini | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Tart Cherry | 2 | vitamin-a; magnesium; zinc | BRS5-FM1-PM1 |  |
-| Tempeh | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Thyme | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Tofu | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Tomatoes | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Tuna | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
-| Turkey | 3 | tryptophan; magnesium; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM3-PM8 |  |
-| Turmeric | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Vinegar Pickles | 2 | vitamin-a; zinc; magnesium | BRS5-FM1-PM1 |  |
+| Soy Lecithin | 1 | linoleic-acid | BRS5-FM3-PM7 |  |
+| Soy | 4 | tryptophan; vitamin-a; magnesium; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |
+| Spelt | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Spinach | 3 | magnesium; zinc; vitamin-a; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Spirulina | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Strawberries | 3 | zinc; magnesium; linoleic-acid; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Sunflower Seeds | 3 | linoleic-acid; magnesium; zinc; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Sweet Potatoes | 3 | vitamin-a; linoleic-acid; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Swiss Chard | 3 | magnesium; vitamin-a; linoleic-acid; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tahini | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tart Cherry | 3 | vitamin-a; magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tempeh | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Thyme | 3 | zinc; linoleic-acid; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tofu | 2 | linoleic-acid; magnesium; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tomatoes | 3 | linoleic-acid; vitamin-a; zinc; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Tuna | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Turkey | 4 | tryptophan; linoleic-acid; magnesium; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM3-PM7; BRS5-FM3-PM8 |  |
+| Turmeric | 2 | zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Vinegar Pickles | 3 | vitamin-a; zinc; linoleic-acid; magnesium | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Vinegar | 1 | zinc; magnesium | BRS5-FM1-PM1 |  |
-| Walnuts | 3 | magnesium; ellagitannins; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM2-PM6 |  |
+| Walnuts | 4 | linoleic-acid; magnesium; ellagitannins; vitamin-a; zinc | BRS5-FM1-PM1; BRS5-FM2-PM6; BRS5-FM3-PM7 |  |
 | Wasabi | 2 | zinc; vitamin-a; magnesium | BRS5-FM1-PM1 |  |
-| Watercress | 2 | zinc; magnesium; vitamin-a | BRS5-FM1-PM1 |  |
-| Watermelon | 2 | magnesium; vitamin-a; zinc | BRS5-FM1-PM1 |  |
-| Wheat Germ | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Wheat | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
-| Whey Protein | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |
+| Watercress | 3 | linoleic-acid; zinc; magnesium; vitamin-a | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Watermelon | 3 | magnesium; vitamin-a; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Wheat Germ | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Wheat | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
+| Whey Protein | 2 | magnesium; zinc; linoleic-acid | BRS5-FM1-PM1; BRS5-FM3-PM7 |  |
 | Whole Grains | 1 | magnesium; zinc | BRS5-FM1-PM1 |  |

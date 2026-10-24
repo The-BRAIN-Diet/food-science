@@ -1,0 +1,14 @@
+[
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "sha256": "feea14b7cc88b65a0e9dc3e6aa5767313b58ead65a6855620b76fceaa3fcb6c9",
+    "pm_id": "BRS4-FM2-PM4",
+    "mission": "Maintain balance between mitochondrial reactive oxygen species production and protective buffering to prevent redox damage."
+  },
+  {
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "sha256": "7e3b930b289e5ab22844302df0c6188e043e20f8841c07c99f0ac233b91743de",
+    "pm_id": "BRS4-FM2-PM5",
+    "mission": "Preserve mitochondrial membrane and enzyme integrity so organelle function survives oxidative and metabolic strain."
+  }
+]

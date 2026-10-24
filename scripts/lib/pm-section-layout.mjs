@@ -16,7 +16,7 @@ export const PM_LAYOUT_LEGACY = "legacy";
 /** Canonical §3.1 terminology for newly authored or recomputed PMs. */
 export const PM_DIETARY_REQUIREMENTS_HEADINGS = Object.freeze({
   parent: "Dietary Requirements",
-  directDerived: "Direct and/or Derived Dietary Requirements",
+  directDerived: "Dietary Inputs & Regulatory Modulators",
   cofactorsSubstrates: "Cofactors and Substrates",
   keyConstraints: "Key Constraints",
 });
@@ -45,6 +45,7 @@ export function isDirectDerivedDietaryTitle(title) {
   const value = String(title || "").trim();
   return (
     titleEquals(value, PM_DIETARY_REQUIREMENTS_HEADINGS.directDerived) ||
+    value === "Direct and/or Derived Dietary Requirements" ||
     titleEquals(value, PM_DIETARY_REQUIREMENTS_LEGACY_HEADINGS.directDerived)
   );
 }

@@ -1,3 +1,4 @@
+import {hypothesisOnlyRelationshipHrefs} from './lib/scientific-hypotheses.mjs';
 #!/usr/bin/env node
 /**
  * Populate PM §6.2 Connected BRS Mechanisms and FM §5 Connected Mechanisms.
@@ -80,6 +81,7 @@ function populatePm(filePath, root) {
     }
   }
 
+  for (const href of hypothesisOnlyRelationshipHrefs(data)) links.delete(href);
   const newBody = formatBullets(links);
   const existing = extractSection(content, /### 6\.2 (?:Cross-BRS Mechanism Relationships|Connected BRS Mechanisms)/);
   if (newBody === existing) return null;

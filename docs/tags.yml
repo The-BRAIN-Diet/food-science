@@ -1892,3 +1892,8 @@ Spermidine:
   label: Spermidine
   permalink: /spermidine
   description: Dietary and endogenous polyamine with experimental cellular-maintenance evidence
+
+L-Carnitine:
+  label: L-Carnitine
+  permalink: /l-carnitine
+  description: Carnitine stereoisomer participating in mitochondrial fatty-acyl transport

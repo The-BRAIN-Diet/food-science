@@ -1,0 +1,449 @@
+[
+  {
+    "id": "pm1-pm1-f1-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F1",
+    "title": "Dietary protein delivers circulating phenylalanine; kinetics depend on context",
+    "proposition": "Dietary protein supplies phenylalanine to the human circulation, with delivery kinetics varying by the tested protein source, dose and meal context. The pooled age association is context-dependent, not proof that ageing uniformly impairs absorption or that greater availability increases brain neurotransmitters.",
+    "assessmentStatus": "codex-provisional",
+    "assessmentComplete": true,
+    "factors": {
+      "D": 2,
+      "B": 1,
+      "P": 1,
+      "R": 1
+    },
+    "factorStates": {
+      "D": "established",
+      "B": "established",
+      "P": "established",
+      "R": "established"
+    },
+    "rawScore": 5,
+    "adjustedScore": 5,
+    "capRationale": "Directness 2, Bias Protection 1 and Precision 1: no D1/B0/P0 ceiling applies. Replication 0 receives no extra decrement.",
+    "unscoredReason": null,
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "Direct human dietary tracer appearance tests the specified supply process; concentration-only studies corroborate context, not exact flux.",
+      "B": "Controlled isotope methods support supply, but pooled source/dose comparisons are not a single randomised contrast and age is observational. These are appraised residual concerns, not missing evidence automatically scored zero.",
+      "P": "Measured appearance is informative, but reported variability and heterogeneous matrices permit materially different magnitudes; no universal age or dosage effect is asserted.",
+      "R": "Independent source-response evidence partially corroborates the scoped claim; exact tracer/age/dose comparisons retain research-team dependence. Constituent pooled trials are not counted again."
+    },
+    "limitations": [
+      "Mostly male dairy-tracer cohorts; between-study source/dose contrasts, nonrandomised age comparisons and different matrices limit generalisation. No brain transport, neurotransmitter or ADHD endpoint.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "gorissen_phenylalanine_2020",
+        "stage2-ref-pm1-nonanimal2024",
+        "stage2-ref-pm1-exercise2011"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No uniform age impairment is asserted; exercise and newer source studies qualify that inference.",
+      "targetedChecks": [
+        {
+          "doi": "10.1093/jn/nxaa024",
+          "role": "supporting; age heterogeneity qualified",
+          "access": "Full published PDF examined: abstract, data selection, tracer methods, statistics, results and limitations.",
+          "assessment": "Pooled 18 laboratory RCT datasets; 602 participants, 590 men; age is not randomised. Dietary tracer enters circulation; protein type and dose affect kinetics. Pooled older-younger difference is not universal age impairment. Five-hour dietary phenylalanine appearance: 50% ± 14% overall; casein 45% ± 11%, whey 57% ± 10%, milk 65% ± 13% (means ± SD). Pooled older/young comparison: 45% ± 10% versus 51% ± 14%; not randomised age assignment. Reported variability and subgroup tests; interstudy comparisons and participant differences limit causal interpretation. One research programme; constituent trials and this pooled analysis must not be counted twice."
+        },
+        {
+          "doi": "10.1017/S0007114524000163",
+          "role": "supporting; contradicts a universal animal-over-plant hierarchy",
+          "access": "Scite full-text Methods and Results, including randomisation, washout, assays, power and multiplicity; published Cambridge PDF checked.",
+          "assessment": "Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes. Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.  Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six visits within a person are not six independent replications."
+        },
+        {
+          "doi": "10.3945/ajcn.2010.29649",
+          "role": "contextual null for circulating delivery",
+          "access": "Published abstract and full institutional thesis chapter 2 examined.",
+          "assessment": "Young/older men, rest/exercise comparisons; 48 participants total. Dietary phenylalanine availability did not differ detectably with exercise although muscle incorporation increased.  Muscle utilisation is not circulating-pool enhancement; a nonsignificant contrast is not equivalence. NCT00557388 is part of Gorissen2020; no double-counting."
+        }
+      ],
+      "retrievalLimited": [
+        {
+          "doi": "10.1093/jn/nxaa024",
+          "url": "https://www.frieslandcampinainstitute.com/uploads/sites/19/2023/03/2020-Gorissen-et-al-J-Nutr.pdf",
+          "limitation": "Full published PDF examined: abstract, data selection, tracer methods, statistics, results and limitations. Effect: no unexamined methods, uncertainty or replication credited."
+        },
+        {
+          "doi": "10.3945/ajcn.2010.29649",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0002916523020828",
+          "limitation": "Published abstract and full institutional thesis chapter 2 examined. Effect: no unexamined methods, uncertainty or replication credited."
+        }
+      ]
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  },
+  {
+    "id": "pm1-pm1-f2-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F2",
+    "title": "Diet-wide amino-acid adequacy does not require identical complete meals",
+    "proposition": "Varied adult diets can provide digestible indispensable amino acids without requiring every meal to supply the full set. This nutritional-adequacy proposition does not establish an optimal neurotransmitter dose or demonstrate that all plant and animal foods have identical postprandial responses.",
+    "assessmentStatus": "not-scored",
+    "assessmentComplete": false,
+    "factors": {
+      "D": null,
+      "B": null,
+      "P": null,
+      "R": null
+    },
+    "factorStates": {
+      "D": "unresolved",
+      "B": "unresolved",
+      "P": "unresolved",
+      "R": "unresolved"
+    },
+    "rawScore": null,
+    "adjustedScore": null,
+    "capRationale": "No total calculated; biochemical provenance or incompletely appraised adequacy is not missing evidence scored zero.",
+    "unscoredReason": "Nutritional adequacy synthesis retained; no complete primary-study D/B/P/R assessment of the same whole-diet proposition.",
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "Established scope or biochemical identity is documented, but no complete four-factor numerical assessment is asserted.",
+      "B": "No source-count-derived score; source-specific design appraisal is not complete for this exact nonexperimental synthesis.",
+      "P": "No invented quantitative precision for a curated reaction or general adequacy statement.",
+      "R": "Database agreement and reviews are not independent experimental replications."
+    },
+    "limitations": [
+      "Requirement reviews are not direct tests of neurotransmitter response or every possible plant diet. Energy sufficiency, variety, age and clinical context remain relevant.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "mariotti_dietary_2019",
+        "moughan_diaas_2024",
+        "marsh_protein_2013",
+        "stage2-ref-pm1-requirements2025",
+        "stage2-ref-pm1-faba2024",
+        "stage2-ref-pm1-nonanimal2024"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No literature-wide absence assertion.",
+      "targetedChecks": [
+        {
+          "doi": "10.1016/j.ajcnut.2025.04.017",
+          "role": "contextual; quantitative requirement uncertainty",
+          "access": "Publisher abstract and AHRQ/NCBI report discovery recovered. Journal full text unavailable through Scite; no quantitative tables assumed read.",
+          "assessment": "Systematic review of studies January 2000-May 2024; duplicate screening and risk-of-bias appraisal. Evidence gaps in exact requirement estimates do not negate indispensable-amino-acid biology.  Not a PM-specific intake prescription, postprandial tracer experiment or neurotransmitter trial. Review plus included studies are not independent replications."
+        },
+        {
+          "doi": "10.1017/S0007114524000163",
+          "role": "supporting; contradicts a universal animal-over-plant hierarchy",
+          "access": "Scite full-text Methods and Results, including randomisation, washout, assays, power and multiplicity; published Cambridge PDF checked.",
+          "assessment": "Independent Exeter programme; randomised double-blind six-period crossover, 12 young and 10 older adults, both sexes. Source-specific plasma profiles; some non-animal sources produced higher essential-amino-acid responses than the tested milk beverage. Integrated responses did not show a uniform age decrement.  Small cohorts; composition and food matrix differ, so no isolated digestibility estimate or universal ranking follows. Independent of Maastricht pooled dairy corpus; age analyses and six visits within a person are not six independent replications."
+        }
+      ],
+      "retrievalLimited": [
+        {
+          "doi": "10.1016/j.ajcnut.2025.04.017",
+          "url": "https://doi.org/10.1016/j.ajcnut.2025.04.017",
+          "limitation": "Publisher abstract and AHRQ/NCBI report discovery recovered. Journal full text unavailable through Scite; no quantitative tables assumed read. Effect: no unexamined methods, uncertainty or replication credited."
+        },
+        {
+          "doi": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38311065/",
+          "limitation": "Full published abstract examined; detailed methods not scored. Effect: no unexamined methods, uncertainty or replication credited."
+        }
+      ]
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  },
+  {
+    "id": "pm1-pm1-f3-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F3",
+    "title": "Phenylalanine-to-tyrosine conversion: biochemical provenance",
+    "proposition": "Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.",
+    "assessmentStatus": "not-scored",
+    "assessmentComplete": false,
+    "factors": {
+      "D": null,
+      "B": null,
+      "P": null,
+      "R": null
+    },
+    "factorStates": {
+      "D": "unresolved",
+      "B": "unresolved",
+      "P": "unresolved",
+      "R": "unresolved"
+    },
+    "rawScore": null,
+    "adjustedScore": null,
+    "capRationale": "No total calculated; biochemical provenance or incompletely appraised adequacy is not missing evidence scored zero.",
+    "unscoredReason": "Curated biochemical provenance; no numerical research-synthesis score required.",
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "Established scope or biochemical identity is documented, but no complete four-factor numerical assessment is asserted.",
+      "B": "No source-count-derived score; source-specific design appraisal is not complete for this exact nonexperimental synthesis.",
+      "P": "No invented quantitative precision for a curated reaction or general adequacy statement.",
+      "R": "Database agreement and reviews are not independent experimental replications."
+    },
+    "limitations": [
+      "Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "matthews_phenylalanine_2007"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No literature-wide absence assertion.",
+      "targetedChecks": [],
+      "retrievalLimited": []
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  },
+  {
+    "id": "pm1-pm1-f4-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F4",
+    "title": "Downstream precursor identity is not a dietary efficacy result",
+    "proposition": "Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.",
+    "assessmentStatus": "not-scored",
+    "assessmentComplete": false,
+    "factors": {
+      "D": null,
+      "B": null,
+      "P": null,
+      "R": null
+    },
+    "factorStates": {
+      "D": "unresolved",
+      "B": "unresolved",
+      "P": "unresolved",
+      "R": "unresolved"
+    },
+    "rawScore": null,
+    "adjustedScore": null,
+    "capRationale": "No total calculated; biochemical provenance or incompletely appraised adequacy is not missing evidence scored zero.",
+    "unscoredReason": "Established precursor identity and ownership boundary; no numerical efficacy score assigned.",
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "Established scope or biochemical identity is documented, but no complete four-factor numerical assessment is asserted.",
+      "B": "No source-count-derived score; source-specific design appraisal is not complete for this exact nonexperimental synthesis.",
+      "P": "No invented quantitative precision for a curated reaction or general adequacy statement.",
+      "R": "Database agreement and reviews are not independent experimental replications."
+    },
+    "limitations": [
+      "Transport competition, regional synthesis, release and clinical outcomes require their own evidence. No score is inherited from this elementary relationship.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "aquili_role_2020"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No literature-wide absence assertion.",
+      "targetedChecks": [],
+      "retrievalLimited": []
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  },
+  {
+    "id": "pm1-pm1-f5-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F5",
+    "title": "Mincing changed dietary phenylalanine appearance in older men",
+    "proposition": "In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably between preparations.",
+    "assessmentStatus": "codex-provisional",
+    "assessmentComplete": true,
+    "factors": {
+      "D": 2,
+      "B": 1,
+      "P": 1,
+      "R": 0
+    },
+    "factorStates": {
+      "D": "established",
+      "B": "established",
+      "P": "established",
+      "R": "established"
+    },
+    "rawScore": 4,
+    "adjustedScore": 4,
+    "capRationale": "Directness 2, Bias Protection 1 and Precision 1: no D1/B0/P0 ceiling applies. Replication 0 receives no extra decrement.",
+    "unscoredReason": null,
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "Same-cut beef and isotope-labelled dietary phenylalanine directly test the exact older-men preparation proposition.",
+      "B": "Randomised within-person design and matched source/quantity reduce confounding. Visible texture and consumption-time differences remain; concealment and assay masking were not demonstrated in recovered methods. No critical systematic error was established.",
+      "P": "Reported tracer effect and standard errors support the directional finding, but n=10, no extracted paired interval and negative secondary outcomes limit magnitude and extrapolation; nulls are not scored as equivalence.",
+      "R": "The bounded exact-protocol search and source appraisal yielded one empirical dataset; thesis/journal reports and other processing studies are not independent replications. Independent replication was not established in this assessment."
+    },
+    "limitations": [
+      "One small older-male trial; no independent replication of the exact matched-beef protocol was established in this assessment. No claim that all foods should be minced or that this improves attention.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "stage2-ref-pm1-pennings2013"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No detected total-amino-acid or muscle-synthesis advantage in the same experiment.",
+      "targetedChecks": [
+        {
+          "doi": "10.3945/ajcn.112.051201",
+          "role": "supporting; endpoint-specific nulls retained",
+          "access": "Published abstract plus full experimental chapter 6 in the author institutional thesis; final published quantitative result cross-checked against author-shared publication.",
+          "assessment": "Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart. More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably. Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P < 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred. Small single trial; mean estimates and standard errors available, paired effect interval not extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal article are the same experiment, not replications."
+        }
+      ],
+      "retrievalLimited": [
+        {
+          "doi": "10.3945/ajcn.112.051201",
+          "url": "https://cris.maastrichtuniversity.nl/ws/files/713025/guid-1eacd19b-df59-418a-86f9-f01719b9315f-ASSET1.0.pdf",
+          "limitation": "Published abstract plus full experimental chapter 6 in the author institutional thesis; final published quantitative result cross-checked against author-shared publication. Effect: no unexamined methods, uncertainty or replication credited."
+        }
+      ]
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  },
+  {
+    "id": "pm1-pm1-f6-assessment",
+    "recordVersion": 1,
+    "pmId": "BRS1-FM1-PM1",
+    "findingId": "PM1-F6",
+    "title": "Extrusion altered early amino-acid kinetics, not demonstrated total loss",
+    "proposition": "In a randomised crossover of nine healthy young adults, the tested high-moisture-extruded mycoprotein/pea blend delayed selected early plasma amino-acid responses relative to the dry blend. Total five-hour grouped amino-acid availability was not significantly different; the study does not establish poorer overall nutrition for all meat alternatives.",
+    "assessmentStatus": "codex-provisional",
+    "assessmentComplete": true,
+    "factors": {
+      "D": 2,
+      "B": 1,
+      "P": 1,
+      "R": 0
+    },
+    "factorStates": {
+      "D": "established",
+      "B": "established",
+      "P": "established",
+      "R": "established"
+    },
+    "rawScore": 4,
+    "adjustedScore": 4,
+    "capRationale": "Directness 2, Bias Protection 1 and Precision 1: no D1/B0/P0 ceiling applies. Replication 0 receives no extra decrement.",
+    "unscoredReason": null,
+    "lastEvidenceAssessmentDate": "2026-10-18",
+    "humanReview": null,
+    "rationale": {
+      "D": "The claim is explicitly about measured plasma kinetics in the exact human crossover, not absolute absorption or clinical efficacy.",
+      "B": "Randomised counterbalanced double-blind visits and analytical measurement support inference; n=9 and numerous endpoints with residual matrix differences warrant caution, not an invented critical-bias judgement.",
+      "P": "Direction of selected early responses is resolved, but null integrated areas lack equivalence bounds; scope excludes a demonstrated total loss.",
+      "R": "One matched-product experimental line was assessed. The same group's different protein-source trial and technical in-vitro repeats do not replicate this exact intervention; independent replication was not established in this assessment."
+    },
+    "limitations": [
+      "Single small trial, no dietary tracer, numerous secondary endpoints and laboratory reconstituted products. Not proof of equal total absorption or a reason to avoid all processed plant foods.",
+      "Evidence-confidence conclusions must distinguish limitations of the underlying scientific evidence from limitations of the framework's evidence retrieval and assessment. Absence of verified evidence within an assessment must not be represented as evidence of absence."
+    ],
+    "sources": {
+      "supporting": [
+        "stage2-ref-pm1-extrusion2024"
+      ],
+      "contextual": [],
+      "contradictoryAssessment": "Supporting and null outcomes are endpoint-specific. No significant total five-hour grouped exposure difference; not evidence of equivalence.",
+      "targetedChecks": [
+        {
+          "doi": "10.1016/j.tjnut.2024.05.018",
+          "role": "supporting for kinetic change; null integrated outcomes",
+          "access": "Scite full-text human methods, composition, power/statistics and results examined.",
+          "assessment": "Randomised double-blind counterbalanced crossover; nine young adults, five men/four women; minimum five-day separation. Extrusion delayed early responses and reduced selected peaks, including phenylalanine and tyrosine. Total five-hour grouped amino-acid availability was not significantly different. Phenylalanine peak: dry blend 72 ± 3 versus extruded 58 ± 3 micromol/L, P=0.020; time to peak 32 ± 4 versus 83 ± 20 minutes, P=0.037 (means ± SEM). Total five-hour grouped amino-acid iAUC: no statistically significant difference; no equivalence bounds inferred. Small single dataset; no tracer, many endpoints, uncertainty on paired differences; laboratory reconstituted products not every commercial meat alternative. Distinct study but same Exeter programme as nonanimal2024; not an independent replication of its six-source comparison."
+        }
+      ],
+      "retrievalLimited": []
+    },
+    "methodology": {
+      "name": "Synthesised Evidence Confidence: Directness + Bias Protection + Precision + Replication",
+      "version": "SEC calibration rubric and four-state contract, local 2026-10-18 baseline",
+      "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+    },
+    "process": "Codex PM1 mission-wide bounded Stage 2A/2B reassessment, 2026-10-18; web/PubMed, primary repositories and Scite recovery; no qualified human review inferred.",
+    "history": [
+      {
+        "date": "2026-10-18",
+        "decision": "Original canonical Finding and evidence preserved in baseline.mdx; this is a new review-only assessment version, not canonical admission."
+      }
+    ],
+    "previousAssessments": [],
+    "stoppingRationale": "Mission steps, all five SOP categories and lifestyle candidates screened. Material source, preparation, timing, exercise and newer-evidence questions received targeted retrieval. Remaining access gaps are explicit; no exhaustive-review claim."
+  }
+]

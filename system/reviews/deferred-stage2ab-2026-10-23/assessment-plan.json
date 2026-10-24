@@ -1,0 +1,484 @@
+[
+  {
+    "pm_id": "BRS-X(Hormones-PM4)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+    "mission": "Enable coordinated integration of insulin and metabolic signalling with reproductive hormone balance.",
+    "operation": "Insulin-to-reproductive endocrine coupling; not generic hormone balancing.",
+    "candidate_question": "Myo-inositol/folate protocol",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "A primary PCOS report has internally inconsistent abstract sample counts and a folate-unit problem. Do not admit isolated myo-inositol or infer insulin-mediated receptor changes until original methods clarify the combination and dose. Existing low-GI PCOS SOP remains intact.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/23336594/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS-X(Hormones-PM5)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+    "mission": "Maintain androgen receptor signalling so motivation, stamina, and goal-directed effort remain well supported.",
+    "operation": "Androgen ligand/receptor signalling, with concentration distinguished from receptor operation.",
+    "candidate_question": "Additional zinc, generic hormone-boosting foods and dietary fat manipulation",
+    "disposition": "REVIEWED \u2014 NO NEW ADMISSION",
+    "decision": "Zinc and sleep relationships already cover the source-supported conditional supply observations. The retrieved zinc study measures serum testosterone, not androgen-receptor stability. No extra zinc requirement or receptor-specific food effect established.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/8875519/"
+    ],
+    "preserved_inputs": 1,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "mission": "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
+    "operation": "Meal-derived amino-acid appearance and circulating precursor availability.",
+    "candidate_question": "Meat texture as a qualified delivery SOP; individual EAA composition research",
+    "disposition": "ENRICHED",
+    "decision": "Rechecked the 135 g minced-beef/steak crossover. Admit only the preparation-specific phenylalanine-delivery SOP in older men, retaining unchanged muscle-protein-synthesis findings. Individual EAA composition is food research, not nine new PM admissions. Tyrosine remains an existing biochemical candidate; the aggregate pool identity still needs reconciliation.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/23636241/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 6,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM2",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "mission": "Influence competition for transport across the blood\u2013brain barrier so neurotransmitter precursors can reach the brain after meals.",
+    "operation": "Competition and exchange at blood\u2013brain-barrier LAT1.",
+    "candidate_question": "Leucine addition; alpha-lactalbumin and meal-ratio protocols",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Protein-specific plasma ratios are not measured human brain LAT1 flux. Additional leucine does not establish improved precursor delivery. Preserve the historical meal-composition admission and flag its current section-eligibility conflict; no automatic SOP migration.",
+    "sources": [
+      "https://escholarship.org/content/qt168739wh/qt168739wh.pdf"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 4,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM3",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "mission": "Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.",
+    "operation": "Dopamine synthesis, signalling and metabolism, separated from precursor supply.",
+    "candidate_question": "Riboflavin-to-MAO flavin capacity; further tyrosine interventions",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Iron, B6, tyrosine and upstream phenylalanine/methyl-donor relationships already exist. A new riboflavin/MAO chain needs step-specific dietary supply and a resolved FAD target identity. No dopamine benefit inferred from more precursor or a transporter measure.",
+    "sources": [
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#pm3-f1",
+      "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx#pm3-f7"
+    ],
+    "preserved_inputs": 9,
+    "preserved_findings": 14,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM4",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "mission": "Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.",
+    "operation": "Noradrenergic formation and signalling, distinct from dopamine output.",
+    "candidate_question": "Further copper/ascorbate supply and riboflavin/MAO pathway",
+    "disposition": "REVIEWED \u2014 NO NEW ADMISSION",
+    "decision": "Copper, ascorbate, iron, B6 and tyrosine are already retained. A DBH reaction requirement is not a new copper/ascorbate intervention effect. No additional distinct dietary route met the gate; the FAD/MAO candidate remains a separate traceability question.",
+    "sources": [
+      "https://doi.org/10.1126/sciadv.1500980"
+    ],
+    "preserved_inputs": 10,
+    "preserved_findings": 10,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM1-PM5",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "mission": "Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.",
+    "operation": "Serotonin formation and signalling rather than plasma tryptophan ratio alone.",
+    "candidate_question": "Alpha-lactalbumin/tryptophan exposures and riboflavin/MAO pathway",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Tryptophan, B6 and iron already cover accepted precursor/cofactor roles. The retrieved protein comparison measured plasma ratios and did not measure human brain serotonin synthesis. No ordinary milk-to-serotonin intervention claim admitted.",
+    "sources": [
+      "https://escholarship.org/content/qt168739wh/qt168739wh.pdf"
+    ],
+    "preserved_inputs": 5,
+    "preserved_findings": 5,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS1-FM5-PM12",
+    "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "mission": "Maintain and adapt physical connections between neurons through synapse formation, selective stabilisation, structural remodelling and elimination.",
+    "operation": "Physical synaptic formation, stabilisation and remodelling.",
+    "candidate_question": "Magnesium-L-threonate formulation",
+    "disposition": "ENRICHED",
+    "decision": "Add a formulation-specific experimental SOP and unscored Finding for rat presynaptic marker density. Do not admit a magnesium-food synapse-growth relationship or equate puncta with verified synapse counts. Existing DHA, choline, uridine, spermidine and lifestyle records remain intact.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/20152124/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 11,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM3",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "mission": "Maintain methionine adenosyltransferase capacity to convert methionine and ATP into SAMe, sustaining the methyl-donor pool used by downstream methyltransferases.",
+    "operation": "MAT conversion of methionine and ATP to SAM.",
+    "candidate_question": "Magnesium/potassium dietary Capacity routes",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Methionine and reaction metals are already recorded. Historical No fields on metals cannot be silently reversed because extra-intake benefit is absent or because a structure contains the metal. Assess supply/homeostasis against the same MAT dependency separately; preserve every old decision. Dietary protein duplicates a delivery category and is flagged, not removed.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/26858410/"
+    ],
+    "preserved_inputs": 8,
+    "preserved_findings": 6,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS2-FM1-PM4",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "mission": "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
+    "operation": "Coordination of methionine recycling and SAM-dependent methyl-group handling.",
+    "candidate_question": "Glycine as GNMT substrate",
+    "disposition": "ENRICHED",
+    "decision": "Admit glycine as Direct Type A substrate supply for GNMT methyl-group handling, bounded by primary human-enzyme kinetics and mouse loss-of-function. Add separate human folic-acid tracer evidence without changing existing folate admission or treating concentrations as flux.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/16779654/"
+    ],
+    "preserved_inputs": 8,
+    "preserved_findings": 7,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM5",
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+    "mission": "Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.",
+    "operation": "CBS/CTH routing from homocysteine through cystathionine to cysteine.",
+    "candidate_question": "Additional serine/PLP routes and serine food delivery",
+    "disposition": "ENRICHED",
+    "decision": "Serine and B6/PLP are already admitted. Add a human serine-tracer Finding and composition-supported provisional serine foods; retain single-person, intravenous and compartment-inference limits. No new substrate admission or extra-serine benefit is claimed.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/11101483/"
+    ],
+    "preserved_inputs": 6,
+    "preserved_findings": 8,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS2-FM2-PM6",
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "mission": "Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.",
+    "operation": "GCL/GSS construction of glutathione from its constituent amino acids.",
+    "candidate_question": "Glutamine as an additional dietary glutamate route",
+    "disposition": "ENRICHED",
+    "decision": "Add the retrieved oral-glutamine null/decrease finding and provisional glycine composition sources for existing glycine. Do not admit glutamine-to-GSH enhancement: plasma amino acids rose while whole-blood GSH fell; synthesis flux was not measured. Existing cysteine, glycine, glutamate, NAC and methionine decisions remain.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/11985937/"
+    ],
+    "preserved_inputs": 7,
+    "preserved_findings": 5,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS2-FM3-PM7",
+    "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "mission": "Maintain phosphatidylcholine formation through PEMT methylation and the choline-based Kennedy pathway.",
+    "operation": "Kennedy-pathway and PEMT phosphatidylcholine formation as distinct routes.",
+    "candidate_question": "Methionine-to-SAM supply; choline Kennedy route",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Existing methyl-donor, uridine and reaction-participant records are substantial. An additional methionine/PEMT dietary route requires canonical SAM/intermediate traceability and nonduplicate route accounting. The existing Kennedy choline No is preserved, with a proposal to assess supply separately from its already-admitted methyl-donor role.",
+    "sources": [
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#pm7-f6",
+      "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx#pm7-f8"
+    ],
+    "preserved_inputs": 10,
+    "preserved_findings": 9,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM1",
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "mission": "Regulate NF-\u03baB transcriptional tone so pro-inflammatory gene programmes do not fire excessively.",
+    "operation": "NF-kB transcriptional activation, distinguished from upstream redox supply.",
+    "candidate_question": "Defined fibre/fruit-rich mixed-meal comparison",
+    "disposition": "ENRICHED",
+    "decision": "Admit the mixed-meal comparison only as a bounded SOP; the study directly measured mononuclear NF-kB DNA binding. Do not attribute the response to isolated fibre, orange juice or polyphenols, or treat upstream GSH as direct evidence of transcriptional regulation.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS3-FM1-PM2",
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "mission": "Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.",
+    "operation": "Host exposure and responses to gut-associated endotoxin, distinct from barrier and cytokine endpoints.",
+    "candidate_question": "Defined mixed meal; existing glutathione constituent supply",
+    "disposition": "ENRICHED",
+    "decision": "Add the qualified mixed-meal SOP and Finding for postprandial LAL/LBP readouts; no direct gut-leakage or tissue-source claim. Add provisional glycine foods only for retained upstream supply. No isolated-ingredient or brain outcome admission.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+    ],
+    "preserved_inputs": 2,
+    "preserved_findings": 3,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS4-FM3-PM6",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "mission": "Enable long-chain fatty-acid transport into mitochondria so fat-derived ATP production can proceed.",
+    "operation": "Carnitine-shuttle delivery of long-chain fatty-acyl groups to mitochondria.",
+    "candidate_question": "Carnitine identity and the 24-week carnitine/carbohydrate exposure",
+    "disposition": "ENRICHED",
+    "decision": "Add a bounded experimental SOP and primary Finding, plus a biochemical carnitine participant held for identity/supply reconciliation. Do not create a carnitine registry ID or food edge. Glycogen sparing is not direct CPT flux, and no ordinary meat/dairy response follows. Legacy generic cofactor/food lists remain review material.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/21224234/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 0,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS4-FM3-PM7",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "mission": "Enable mitochondrial ketone utilisation so alternative fuel is available when glucose conditions shift.",
+    "operation": "Mitochondrial utilisation of ketone fuel, distinct from peripheral ketosis alone.",
+    "candidate_question": "Defined short-term ketogenic formula; acetoacetate/beta-hydroxybutyrate",
+    "disposition": "ENRICHED",
+    "decision": "Add the exact four-day experimental dietary protocol under SOPs and a human dual-tracer PET Finding. Register reaction/fuel participants as biochemical context without a dietary-supply admission. Distinguish kinetic estimates of acetoacetate metabolism from inferred total ketone contribution; no universal ketogenic-diet recommendation.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/27629100/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 0,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS4-FM3-PM8",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "mission": "Shape smooth transitions between glucose, fat, and ketone fuel pathways as physiological demand shifts.",
+    "operation": "Changes in substrate oxidation across fasting and insulin stimulation.",
+    "candidate_question": "Combined exercise training; generic diet-induced fuel switching",
+    "disposition": "ENRICHED",
+    "decision": "Add the tested exercise programme as a Lifestyle Lever with indirect-calorimetry evidence in men with type 2 diabetes. Preserve the healthy-control null. Do not infer a food requirement from peripheral ketones, plasma glucose or mitophagy.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/20028948/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 0,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS4-FM4-PM9",
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "mission": "Enable formation of new mitochondria so long-term energetic capacity can expand and adapt.",
+    "operation": "Formation/adaptation of mitochondrial capacity, distinct from ATP concentration alone.",
+    "candidate_question": "Low-volume interval cycling; dietary polyphenols",
+    "disposition": "ENRICHED",
+    "decision": "Add a human training Lifestyle Lever and marker-bounded Finding. No new dietary input: muscle mitochondrial enzyme/protein changes do not establish ordinary-food biogenesis or new brain mitochondria. Existing broad micronutrient lists remain preserved pending specificity review.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/20100740/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 0,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM1",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "mission": "Maintain epithelial tight junction integrity and selective permeability at the gut lining.",
+    "operation": "Selective epithelial permeability and tight-junction maintenance.",
+    "candidate_question": "Complete the existing glutamine candidate; audit fermentation-source boundaries",
+    "disposition": "ENRICHED",
+    "decision": "Resolve the previously Unset glutamine supply atom to Yes under Type A Capacity, with cell junction evidence and the existing clinical oral exposure separately documented. Preserve its original atom in the baseline/history. Food-specific glutamine composition remains unresolved: combined Glx is not glutamine. Flag inherited van Trijp/Pascale source-attribution concerns without rewriting old Findings or admissions.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/30108163/"
+    ],
+    "preserved_inputs": 9,
+    "preserved_findings": 10,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM2",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "mission": "Limit host exposure to bacterial endotoxin and related inflammatory microbial products.",
+    "operation": "Host endotoxin exposure, enzymatic detoxification and lipid-associated transport.",
+    "candidate_question": "Independently assessed mixed-meal SOP",
+    "disposition": "ENRICHED",
+    "decision": "Add the exact isocaloric mixed-meal SOP for postprandial LPS/LBP, independently of historical ineligible meal inputs. Do not migrate or readmit those inputs. LAL assay signal, bioactive LPS, chylomicron carriage and barrier permeability remain distinct.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/19755625/"
+    ],
+    "preserved_inputs": 6,
+    "preserved_findings": 8,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM1-PM3",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "mission": "Support intestinal mucus maintenance and mucosal immune regulation through defined microbial activities.",
+    "operation": "Microbial contributions to mucus growth/penetrability and mucosal immune regulation.",
+    "candidate_question": "Inulin alone; generic probiotics or fermented food",
+    "disposition": "REVIEWED \u2014 NO NEW ADMISSION",
+    "decision": "The inherited enriched-inulin mixture and NCC2705 strain are already recorded. Inulin-alone glycan selection is not proof of mucus protection; mucus growth and penetrability differ. No generic fermented-food or whole-inulin substitution admitted.",
+    "sources": [
+      "https://doi.org/10.1016/j.chom.2017.11.004"
+    ],
+    "preserved_inputs": 2,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM2-PM4",
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "mission": "Adjust community substrate-processing capacity through resource competition and changes in microbial function.",
+    "operation": "Community glycan-use capacity under substrate competition.",
+    "candidate_question": "Inulin as a distinct substrate",
+    "disposition": "ENRICHED",
+    "decision": "Admit Direct Type A inulin for supported microbial utilisation capacity, not a universal microbial benefit or guaranteed butyrate response. Add long-chain composition-qualified chicory/Jerusalem-artichoke provisional sources. Preserve null competition contexts and distinguish the enriched mixture in the neighbouring mucus PM.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/20603004/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 3,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM7",
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+    "mission": "Maintain gut-to-brain nerve signalling through the vagus nerve and enteric nervous system.",
+    "operation": "Nutrient-linked gut-to-brain vagal/enteric signalling.",
+    "candidate_question": "Linoleic acid as a physiological intestinal signalling stimulus",
+    "disposition": "ENRICHED",
+    "decision": "Admit Direct Type B linoleic acid solely for experimentally demonstrated mouse intestinal fat-sensing/vagal engagement. This is not a reason to increase intake, a universal improvement in vagal tone, a human food-effect claim or an ADHD treatment. Reuse verified composition separately from experimental free-fatty-acid exposure.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/36070796/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS5-FM3-PM8",
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "mission": "Maintain gut-side processing that shapes neurotransmitter precursor availability.",
+    "operation": "Microbial tryptophan routing and precursor/metabolite availability.",
+    "candidate_question": "Beta-glucans, other fibres and cross-feeding",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "Add a primary donor-culture Finding, retaining positive fibre-specific metabolite results and the inulin contrast. Hold beta-glucan admission pending tested linkage/source resolution and dietary material matching. Do not relabel soluble potato starch as resistant starch or claim foods supply IPA directly.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/40336187/"
+    ],
+    "preserved_inputs": 3,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS6-FM1-PM3",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "mission": "Sustain insulin-sensitive glucose disposal so post-meal glucose clears efficiently without prolonged metabolic strain.",
+    "operation": "Insulin-sensitive disposal measured separately from glucose appearance.",
+    "candidate_question": "Conditional oral arginine protocol",
+    "disposition": "ENRICHED",
+    "decision": "Admit the tested supplement protocol under SOPs; the clamp directly assessed disposal. Do not admit arginine-rich food efficacy or assert that cGMP proves NO mediation. Existing magnesium and exercise/weight-loss records remain unchanged.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/11347747/"
+    ],
+    "preserved_inputs": 1,
+    "preserved_findings": 3,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS6-FM2-PM4",
+    "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "mission": "Maintain diurnal cortisol amplitude and phase so morning activation and evening downshift stay well timed.",
+    "operation": "Daily cortisol timing/amplitude, distinguished from awakening response.",
+    "candidate_question": "Meal timing alone and B-GOS",
+    "disposition": "REVIEWED \u2014 NO NEW ADMISSION",
+    "decision": "Add the independent meal-delay null for cortisol timing; it does not erase combined sleep/light/meal misalignment effects. B-GOS awakening response is not all-day rhythm correction. No ingredient or isolated meal-timing admission.",
+    "sources": [
+      "https://doi.org/10.1016/j.cub.2017.04.059"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS6-FM3-PM6",
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "mission": "Maintain autonomic flexibility by shifting cleanly from sympathetic activation back into parasympathetic recovery.",
+    "operation": "Autonomic activation and recovery over time.",
+    "candidate_question": "L-theanine acute stress protocol",
+    "disposition": "REVIEW REQUIRED",
+    "decision": "A small counterbalanced study reduced acute heart-rate/salivary responses, but did not establish balanced sympathetic-to-parasympathetic recovery or a tea-food effect. Keep the candidate and study-specific exposure; do not force admission from HR or LF/HF inference alone. Existing meditation remains.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/16930802/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS6-FM3-PM7",
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "mission": "Sustain vagal tone so heart-rate-variability-linked recovery signalling remains robust under repeated stress exposure.",
+    "operation": "Cardiac vagal-associated RR variability under measured conditions.",
+    "candidate_question": "Aerobic conditioning",
+    "disposition": "ENRICHED",
+    "decision": "Add a Lifestyle Lever and primary RCT Finding for high-frequency RR variability. Preserve male-only post-hoc autonomic effects and reversal on deconditioning; do not equate this proxy with general vagal tone or fish-food effects.",
+    "sources": [
+      "https://pubmed.ncbi.nlm.nih.gov/19299682/"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  },
+  {
+    "pm_id": "BRS6-FM4-PM9",
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+    "mission": "Shape stress-linked appetite and reward drive so food-seeking behaviour stays proportionate to genuine need.",
+    "operation": "Stress-linked eating/reward, not ordinary satiety alone.",
+    "candidate_question": "Prebiotic, timing and ingredient appetite claims",
+    "disposition": "REVIEWED \u2014 NO NEW ADMISSION",
+    "decision": "Retain the existing food-related mindfulness programme. Appetite/satiety or waking cortisol alone does not establish stress-linked reward regulation. No new food or timing claim passes this bounded source-to-operation check.",
+    "sources": [
+      "https://www.nature.com/articles/s41598-024-57687-7"
+    ],
+    "preserved_inputs": 0,
+    "preserved_findings": 2,
+    "coverage": "Complete baseline PM, attached structured source assessments and intervention records examined. Targeted retrieval addresses the stated candidate, not a comprehensive literature rebuild.",
+    "stopping_rationale": "Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval."
+  }
+]

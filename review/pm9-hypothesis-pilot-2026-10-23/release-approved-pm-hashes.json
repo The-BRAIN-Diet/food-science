@@ -1,0 +1,8 @@
+{
+  "source_commit": "a850e10126ad5c4bd290439fbcc72c2eae07f6a7",
+  "reason": "Independently approved PM4/PM5 reassessment; preserve exact reviewed bytes rather than the older hypothesis-pilot baseline.",
+  "sha256": {
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx": "2fa04d50c51d02d5ec7caf603af245d3b34c958268319c17ffa0cf85e23b1ea4",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx": "ab4a07c306b10cee3af91dbe8f178cf3b4926fd41bbacb8fbda5fe75558b5e09"
+  }
+}

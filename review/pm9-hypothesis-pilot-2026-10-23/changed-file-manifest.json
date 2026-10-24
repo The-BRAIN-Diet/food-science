@@ -1,0 +1,83 @@
+{
+  "scope": "PM9 hypothesis pilot; prior uncommitted approved-rollup files retained",
+  "implementation_files": [
+    {
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+      "sha256": "1f3de03bd8c10ff328b95d34bb6c0def17e79386e7c257142c36ce1ef8a2fe9f"
+    },
+    {
+      "file": "src/components/ScientificHypothesis.tsx",
+      "sha256": "367c47680e15158e14b37ee1b77ce2f36282f2523e286f121843f9f98ee2e85b"
+    },
+    {
+      "file": "src/theme/MDXComponents/index.js",
+      "sha256": "bb0a22e68ffd483626d324ec261a79a252436b578725e831a8d2ae96f5b18f3c"
+    },
+    {
+      "file": "scripts/lib/scientific-hypotheses.mjs",
+      "sha256": "8e7f04e4a835e06a67218797b3febe71ea84d0ad0697468c76a8943e516e66a1"
+    },
+    {
+      "file": "scripts/sync-pm-scientific-hypotheses.mjs",
+      "sha256": "9834e61b15d30aeafe92bee49c20110c00fc7d54ad293f81a5e82d313c3f4e0c"
+    },
+    {
+      "file": "scripts/lib/mechanism-page-validation.mjs",
+      "sha256": "68be316b302d28ce6531642a3a459d2d0ea5299091b9da9d69f0d8afa9531642"
+    },
+    {
+      "file": "scripts/lib/cross-brs-mechanism-graph.mjs",
+      "sha256": "7dca50e9207262c9e53bf1a3de8a19e947e335e4c10ba0b2f7e8da1e73a4e38f"
+    },
+    {
+      "file": "scripts/lib/connected-mechanisms-populate.mjs",
+      "sha256": "78d6ca4ea1762cb2997d95f2d41bc1551b717223c64d13c564336f53e3a0835b"
+    },
+    {
+      "file": "scripts/populate-connected-mechanisms.mjs",
+      "sha256": "a12d919cecd232ffb418e1e1a5ec5ab11da7697395bf188627f1144cd2fde492"
+    },
+    {
+      "file": "scripts/scientific-hypotheses.test.mjs",
+      "sha256": "897a1d2125a4f1ef64d31186ed0cb38d21fa5098be1fdf997d06954a01f89e1e"
+    },
+    {
+      "file": "system/scientific-hypotheses-schema.md",
+      "sha256": "a093cfb2d8aebed35be6ac0cc0ebebf59c1c3a73fbcc7d8afceddc499b5accd4"
+    },
+    {
+      "file": "system/primary-mechanism-schema.md",
+      "sha256": "a6ff6bf54975eca47828aceffc7897d7452e68342ed2debab0545506893c025f"
+    },
+    {
+      "file": "scripts/brs4-validation-repair.test.mjs",
+      "sha256": "ea9f1ad82bb8b447295dddbbd272158468960c2935a8758a026b5e20785c43ec"
+    },
+    {
+      "file": "scripts/brs4-carnitine-reconciliation.test.mjs",
+      "sha256": "36f1a4438907b2c501e639453ab28c449c64145a72533322900ac304a00d0160"
+    },
+    {
+      "file": "scripts/deferred-stage2ab.test.mjs",
+      "sha256": "a1a7121316d7d677c4a6fc0d20d776486b79b5b805176cefa05833ae0a7e29ef"
+    },
+    {
+      "file": "scripts/approved-six-brs-rollup.test.mjs",
+      "sha256": "d8a5fb1c6260a67e16e81ba868e23adda12c00364bc0eef7012096fd2d9a9164"
+    }
+  ],
+  "audit_directory": "review/pm9-hypothesis-pilot-2026-10-23",
+  "no_other_canonical_PM_changed": true,
+  "approved_rollup_data_unchanged": [
+    "manuscript-dietary-rollup.json",
+    "food-target-rollup.json",
+    "optimisation-and-lifestyle.json",
+    "cross-brs-practices.json",
+    "manuscript-rollup-brs1.json",
+    "manuscript-rollup-brs2.json",
+    "manuscript-rollup-brs3.json",
+    "manuscript-rollup-brs4.json",
+    "manuscript-rollup-brs5.json",
+    "manuscript-rollup-brs6.json"
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "pm_id": "BRS5-FM2-PM6",
+  "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+  "mission": "Enable microbial activation of dietary polyphenols into bioactive metabolites.",
+  "stage2a": {
+    "operation": "Assess the existing ellagic-acid/urolithin pathway only; do not generalise across all polyphenols. Production of downstream metabolites and their efficacy belong to distinct claims.",
+    "mission_and_existing_claims_reviewed": true,
+    "existing_findings": [
+      {
+        "id": "PM6-F1",
+        "proposition": "Ellagic acid conversion requires microbial activity; particular species perform intermediate steps, and human completion varies.",
+        "existing_source_assessments": [
+          {
+            "label": "Selma et al. (2014)",
+            "citation_key": "selma_urolithin_capacity_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#selma_urolithin_capacity_2014",
+            "data_level": "Cellular / Molecular",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "The species converted ellagic acid into intermediate urolithins.",
+            "study_exposure": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+            "study_finding": "The species converted ellagic acid into intermediate urolithins.",
+            "assessment": {
+              "study": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+              "population": "Two human intestinal Gordonibacter species cultured with ellagic acid.",
+              "result": "The species converted ellagic acid into intermediate urolithins.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "The species converted ellagic acid into intermediate urolithins.",
+              "limitations": "They did not establish complete urolithin A production by the two species alone.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Singh et al. (2022)",
+            "citation_key": "singh_direct_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#singh_direct_2022",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+            "study_exposure": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+            "study_finding": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+            "assessment": {
+              "study": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+              "population": "Pomegranate juice compared with direct urolithin A in healthy adults.",
+              "result": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Food-derived urolithin A exposure varied, while direct administration bypassed conversion and increased exposure.",
+              "limitations": "A studied juice matrix is not proof of equivalent conversion from every ellagitannin food or constituent.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [
+          {
+            "label": "Schleupner & Carmichael (2022)",
+            "citation_key": "schleupner_attention-deficithyperactivity_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022",
+            "why_relevant": "Attached corpus assessed for connection to this PM; preserved in the draft evidence inventory.",
+            "why_excluded": "Research-design context; no PM-specific intervention or mechanism measurement."
+          }
+        ],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      },
+      {
+        "id": "PM6-F2",
+        "proposition": "Administered urolithin A has downstream mitochondrial and experimental cognition findings.",
+        "existing_source_assessments": [
+          {
+            "label": "Andreux et al. (2019)",
+            "citation_key": "andreux_mitophagy_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019",
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Mitochondrial molecular signatures changed after administered metabolite exposure.",
+            "study_exposure": "Direct urolithin A administration in older adults.",
+            "study_finding": "Mitochondrial molecular signatures changed after administered metabolite exposure.",
+            "assessment": {
+              "study": "Direct urolithin A administration in older adults.",
+              "population": "Direct urolithin A administration in older adults.",
+              "result": "Mitochondrial molecular signatures changed after administered metabolite exposure.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Mitochondrial molecular signatures changed after administered metabolite exposure.",
+              "limitations": "The microbial conversion step was bypassed; this does not establish food-derived benefit.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          },
+          {
+            "label": "Hou et al. (2024)",
+            "citation_key": "hou_urolithin_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#hou_urolithin_2024",
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "directional_finding": "Learning/memory and mitophagy/lysosomal endpoints improved in the tested models.",
+            "study_exposure": "Urolithin A in Alzheimer-model mice.",
+            "study_finding": "Learning/memory and mitophagy/lysosomal endpoints improved in the tested models.",
+            "assessment": {
+              "study": "Urolithin A in Alzheimer-model mice.",
+              "population": "Urolithin A in Alzheimer-model mice.",
+              "result": "Learning/memory and mitophagy/lysosomal endpoints improved in the tested models.",
+              "effect_magnitude": "Only extracted comparisons retained; no pooled effect or clinical-benefit magnitude assigned.",
+              "evidence_summary": "Learning/memory and mitophagy/lysosomal endpoints improved in the tested models.",
+              "limitations": "Not human cognition or a dietary polyphenol conversion intervention.",
+              "retrieval_scope": "Primary abstract/results retrieved online; no unextracted numerical effect inferred."
+            }
+          }
+        ],
+        "existing_supportive_evidence": [],
+        "preserved": true,
+        "disposition": "Existing canonical assessment retained; enrichment is additive. No clinical or source-level negative inferred from bounded retrieval.",
+        "review_concerns": []
+      }
+    ],
+    "evidence_enrichment": "Pure-culture intermediate formation and variable human urolithin exposure are distinct. Downstream administered-urolithin experiments do not establish food-driven mitochondrial, cognitive or ADHD effects.",
+    "source_to_claim_records": [
+      {
+        "id": "ellagic-conversion",
+        "url": "https://pubs.rsc.org/doi/c4fo00092g",
+        "kind": "primary-experiment",
+        "proposition": "Gordonibacter cultures produced intermediate urolithins from ellagic acid.",
+        "limitation": "Pure strains did not produce final urolithin A/B; community completion is conditional.",
+        "retrieval": "Primary publisher abstract.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      },
+      {
+        "id": "ellagitannin-human",
+        "url": "https://doi.org/10.1038/s41430-021-00950-1",
+        "kind": "primary-human-intervention",
+        "proposition": "Assayed pomegranate juice contained ellagic acid/punicalagins; urolithin exposure varied across people.",
+        "limitation": "Commercial juice matrix; not equivalent to whole pomegranate or walnuts, predictable urolithin yield, mitochondrial or brain benefit.",
+        "retrieval": "Primary full text, investigational product assays and conversion results.",
+        "retrieved": "2026-10-23",
+        "cc_sec": "unscored; no new score"
+      }
+    ],
+    "new_findings": [],
+    "coverage_limitations": "Existing source assessments and full attached bibliography are inventoried and preserved. Targeted source retrieval is bounded to the stated propositions; unrefreshed clinical/Phenome sources are not newly validated. No evidence of absence is inferred.",
+    "stop_rationale": "Preserve the complete baseline, add the bounded supported evidence and exact qualifications, and park material attribution/traceability questions for approval instead of forcing an admission or expanding to a comprehensive rebuild.",
+    "attached_references": [
+      "[Andreux et al. (2019) — Mitophagy Activator Urolithin a Is Safe and Induces a Molecular Signature](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)",
+      "[Singh et al. (2022) — Direct Supplementation with Urolithin a Overcomes Limitations of Dietary Exposure and Gut](/docs/papers/BRAIN-Diet-References#singh_direct_2022)",
+      "[Hou et al. (2024) — Urolithin a Improves Alzheimer's Disease Cognition and Restores Mitophagy and Lysosomal Functions](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)",
+      "[Schleupner & Carmichael (2022) — Closing Research Gaps Through Female Inclusion in Study Design](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)",
+      "[Selma et al. (2014) — Description of urolithin production capacity from ellagic acid of two human intestinal Gordonibacter species](/docs/papers/BRAIN-Diet-References#selma_urolithin_capacity_2014)"
+    ],
+    "preserved_phenome_source_records": [],
+    "new_finding_records": []
+  },
+  "stage2b": {
+    "clarification": "Ellagic acid and ellagitannins retain existing Capacity and Direct/Derived metadata. Verified and provisional precursor sources are retained with product/matrix limitations; they are not direct urolithin A foods.",
+    "all_existing_inputs": [
+      {
+        "pm_id": "BRS5-FM2-PM6",
+        "atom_id": "PM6-DIT-1",
+        "input": "Ellagic acid",
+        "section_presentations": [
+          {
+            "atom_id": "PM6-DIT-1",
+            "label": "Ellagic acid",
+            "presentation_section": "3.1.1",
+            "reader_description": "Ellagic acid is the starting material for the assessed microbial urolithin pathway.",
+            "description_finding_id": "PM6-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM6-DIT-1",
+          "relationship_layer": "dietary-requirement",
+          "relationship_mode": "capacity-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "direct",
+          "requirement_classification": "direct"
+        },
+        "record_preserved": true,
+        "source_sha256": "74c34ac641ac18dcc07033b7d27145a93ffc0590cc643385d96f117a5e9431b1",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      },
+      {
+        "pm_id": "BRS5-FM2-PM6",
+        "atom_id": "PM6-DIT-2",
+        "input": "Ellagitannins",
+        "section_presentations": [
+          {
+            "atom_id": "PM6-DIT-2",
+            "label": "Ellagitannins",
+            "presentation_section": "3.1.1",
+            "reader_description": "Ellagitannins can release ellagic acid for microbial conversion.",
+            "description_finding_id": "PM6-F1"
+          }
+        ],
+        "dietary_input": true,
+        "canonical_scientific_assessment": null,
+        "current_mapping_admission": "admitted",
+        "type_delivery_metadata": {
+          "atom_id": "PM6-DIT-2",
+          "relationship_layer": "dietary-requirement",
+          "relationship_mode": "capacity-requirement",
+          "claim_ceiling": "biological-dependency",
+          "dietary_addressability": "precursor-mediated",
+          "requirement_classification": "derived",
+          "derived_target": "Ellagic acid",
+          "derived_target_atom_id": "PM6-DIT-1"
+        },
+        "record_preserved": true,
+        "source_sha256": "bf36c334600a9ef54757bf326b066c0d4fe2d2b25980c1d4b83c9c18a90e0f82",
+        "rapid_manuscript_selected": true,
+        "new_admission": false,
+        "preservation_note": "The rapid manuscript selection is not the canonical inventory. Absence from that selection changes no accepted status or source record."
+      }
+    ],
+    "existing_practices": [],
+    "existing_lifestyle": [],
+    "existing_kcs": [],
+    "new_admissions": [],
+    "new_practices": [],
+    "food_mapping_counts": {
+      "verified": 1,
+      "provisional": 2,
+      "unresolved": 0
+    },
+    "food_research_scope": "Re-examined the current structured food joins and existing composition ledger against the reviewed input roles. No food source, quantity, preparation equivalence, conversion chain or ontology edge invented. Existing provisional discoveries remain available through the standard PM dropdown."
+  },
+  "preservation": {
+    "before_file_sha256": "7acb38b2929770dea73c963addc4ab7b228ed25b3c7fcd4749cc90eeee5db0b4",
+    "original_counts": {
+      "dietary_input_traceability": 2,
+      "dietary_input_assessments": 0,
+      "dietary_lever_atoms": 2,
+      "dietary_lever_presentations": 2,
+      "key_constraints": 0,
+      "cofactors": 2,
+      "system_optimisation_practices": 0,
+      "lifestyle_priorities": 0,
+      "scientific_findings": 2,
+      "references": 5,
+      "phenome_relationships": 0,
+      "kc_change_control_flags": 0
+    },
+    "all_existing_structured_records_preserved": true,
+    "all_existing_prose_preserved": "Removing the marked additive disclosure recovers the exact original document bytes.",
+    "phenome_and_scores": "unchanged",
+    "canonical_input_dispositions": "unchanged"
+  },
+  "issues_flagged": [],
+  "proposed_changes_requiring_approval": [],
+  "outcome": "ADDITIVELY ENRICHED WITH LIMITATIONS; no new dietary admission"
+}

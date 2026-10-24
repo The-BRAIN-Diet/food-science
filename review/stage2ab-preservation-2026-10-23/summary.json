@@ -1,0 +1,15 @@
+{
+  "pms": 18,
+  "existing_findings_preserved": 84,
+  "new_findings": 1,
+  "existing_input_participant_records_preserved": 52,
+  "existing_sops_preserved": 16,
+  "existing_lifestyle_preserved": 3,
+  "new_dietary_admissions": 0,
+  "changed_existing_admissions": 0,
+  "deleted_records": 0,
+  "new_food_edges": 0,
+  "changed_scores": 0,
+  "open_review_items": 5,
+  "source_register_entries_reused": 37
+}

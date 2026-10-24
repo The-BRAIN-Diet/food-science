@@ -22,7 +22,7 @@ for(const groups of [['3.1'],['3.2'],['3.3'],['3.2','3.3'],['3.1','3.2'],['3.1',
  const data=synthetic(groups),html=await render(data),plan=layout.dominancePlan(data);
  assertOrder(html,['>Mission<','Intervention Dominance:',...plan.promoted.map(id=>`${plan.headings[id]} ${layout.GROUPS[id].title}`),'>Overview<','3. Intervention Levers',...plan.remaining.map(id=>`${plan.headings[id]} ${layout.GROUPS[id].title}`)]);
  for(const id of Object.keys(layout.GROUPS)){assert.equal((html.match(new RegExp(`data-pm-lever-group="${id}"`,'g'))||[]).length,1);assert.ok(html.includes(`${plan.headings[id]} ${layout.GROUPS[id].title}`));}
- assert.ok(html.includes('id="stable-diet-anchor"'));assert.ok(html.includes('id="stable-input-anchor"'));assert.ok(html.includes('data-pm-lever-section="3.1.1"'));assert.ok(html.includes(`${plan.headings['3.1']}.1 Direct and/or Derived`));
+ assert.ok(html.includes('id="stable-diet-anchor"'));assert.ok(html.includes('id="stable-input-anchor"'));assert.ok(html.includes('data-pm-lever-section="3.1.1"'));assert.ok(html.includes(`${plan.headings['3.1']}.1 Dietary Inputs &amp; Regulatory Modulators`));
  assert.ok(html.includes(plan.label));assert.doesNotMatch(html,/Intervention Profile|Legacy label must not decide placement/);
 });
 test('legacy presence, FM inheritance and biochemical necessity cannot infer dominance',()=>{
@@ -67,7 +67,7 @@ test('already promoted legacy PM3 group uses section-1 numbering without a new d
  assert.ok(group);
  const rendered=JSON.stringify(group);
  assert.match(rendered,/1.1 Dietary Requirements/);
- assert.match(rendered,/1.1.1 Direct and\/or Derived Dietary Requirements/);
+ assert.match(rendered,/1.1.1 Dietary Inputs & Regulatory Modulators/);
  assert.match(rendered,/1.1.2 Cofactors and Substrates/);
  assert.match(rendered,/1.1.3 Key Constraints/);
  assert.match(rendered,/data-pm-lever-section/);

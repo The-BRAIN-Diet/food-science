@@ -1,0 +1,56 @@
+{
+  "base_url": "http://127.0.0.1:3140",
+  "served_from": "production build",
+  "functional_status": "PASS WITH LIMITATIONS",
+  "pages": {
+    "BRS4-FM2-PM4": {
+      "mission_and_subtitle": "approved",
+      "overview": "cited paragraph plus three bullets",
+      "scientific_findings": 6,
+      "empty_hypotheses_section": false
+    },
+    "BRS4-FM2-PM5": {
+      "scientific_findings": 5,
+      "dietary_inputs": [
+        "Vitamin E",
+        "Manganese"
+      ],
+      "plant_and_animal_disclosures": true,
+      "verified_without_pending_icon": true,
+      "provisional_red_icon": {
+        "rgb": "198,40,40",
+        "font_px": 12.8
+      },
+      "combined_warning_above_six_atoms": true,
+      "scientific_admission_separate_from_mapping": true
+    },
+    "BRS5-FM2-PM5": {
+      "resistant_starch_foods": [
+        "Bananas (green/unripe)",
+        "Black Beans (cooked)",
+        "Chickpeas (cooked)",
+        "Potatoes (baked/boiled then chilled; reheating distinguished)"
+      ],
+      "resistant_starch_no_stale_pending_icons": true,
+      "apple_pectin": "provisional with precise warning",
+      "FOS_GOS": "historical, requires scientific review, excluded from approved manuscript",
+      "inulin": "unadmitted in this PM"
+    },
+    "BRS4-FM4-PM9": {
+      "hypothesis": "PM9-H1 / SH1",
+      "status": "Unestablished",
+      "before_scientific_findings": true,
+      "direction": "BRS6-FM1-PM1 \u2192 BRS4-FM4-PM9",
+      "findings_unchanged": true,
+      "hypothesis_not_causal_or_dietary_admission": true
+    }
+  },
+  "runtime_limitation": {
+    "error": "React hydration recovery #418",
+    "observed_in_release": true,
+    "also_observed_on_current_live_PM5": true,
+    "root_cause": "not isolated; same error class on current live baseline, not evidence of a release-only failure",
+    "shared_rendering_fix": "not attempted"
+  },
+  "interaction_note": "Food disclosures retain existing hover-to-open and native keyboard interaction; Enter expansion verified."
+}

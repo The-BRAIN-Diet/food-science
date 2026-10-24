@@ -1,0 +1,1376 @@
+{
+  "schema_version": 1,
+  "purpose": "PM-specific rapid scientific reconciliation sidecar. Retains prior canonical admissions; only explicitly reviewed relationships enter the manuscript export. Not a new schema or scoring system.",
+  "baseline": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "pm_reviews": [
+    {
+      "pm_id": "BRS5-FM2-PM5",
+      "batch": 1,
+      "initial_status": "CURRENT",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Reuse the accepted controlled PM5 correction, not a rerun. FOS/GOS remains held for review; inulin remains a candidate.",
+      "inputs": [
+        {
+          "atom_id": "PM5-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "pm5-approved"
+          ],
+          "qualification": "Verified class composition does not establish a formulation-specific butyrate response."
+        },
+        {
+          "atom_id": "PM5-DIT-3",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "pm5-approved"
+          ],
+          "qualification": "Apple pectin remains provisional, not a tested whole-apple butyrate intervention."
+        }
+      ],
+      "practices": [],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS1-FM4-PM9",
+      "batch": 1,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Specific GAD capacity is distinct from GABA concentration, receptor outcomes and the neighbouring glutamate-cycle mechanisms. Reuse existing B6 admission with explicit activation and exposure limits.",
+      "inputs": [
+        {
+          "atom_id": "PM9-DIT-3",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "gad-capacity",
+            "b6-activation",
+            "pnpo-activation"
+          ],
+          "qualification": "Dietary B6 supports PLP-dependent GAD capacity. Kinase phosphorylation and PNPO oxidation are distinct; no intake-to-human-brain-synthesis efficacy claim.",
+          "classification": "derived",
+          "biological_role": "Dietary B6 vitamers enter salvage/activation pathways that supply PLP for glutamate decarboxylase; pathway details depend on the vitamer.",
+          "conversion_traceability": "incomplete-structured-chain",
+          "conversion_note": "PDXK phosphorylates B6 vitamers; phosphorylated pyridoxine/pyridoxamine require PNPO. Canonical intermediate records are missing; no complete chain or conversion yield was fabricated."
+        }
+      ],
+      "practices": [],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM1",
+      "batch": 1,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "MTR remethylation is distinct from BHMT, MAT and transsulfuration. Reuse the supported capacity pathways, not a claim that lower blood homocysteine measures brain remethylation.",
+      "inputs": [
+        {
+          "atom_id": "PM1-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "mtr-capacity",
+            "mtr-primary"
+          ],
+          "qualification": "Retain form-specific 5-MTHF occurrence; total folate is not a 5-MTHF quantity."
+        },
+        {
+          "atom_id": "PM1-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "mtr-capacity",
+            "mtr-primary"
+          ],
+          "qualification": "Folate conversion supplies the MTR methyl-donor substrate; no tissue-flux or brain-benefit claim.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        },
+        {
+          "atom_id": "PM1-DIT-4",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "mtr-capacity"
+          ],
+          "qualification": "Dietary cobalamin requires absorption and intracellular processing; neither all algal corrinoids nor unverified products are reliable active B12 sources.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        }
+      ],
+      "practices": [],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS3-FM2-PM5",
+      "batch": 1,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Owns lipid-peroxyl chain termination; regeneration belongs to PM6 and transcriptional regulation to Nrf2/NF-kB. Existing null/high-dose limits retained.",
+      "inputs": [
+        {
+          "atom_id": "PM5-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "vitamin-e-capacity",
+            "vitamin-e-primary"
+          ],
+          "qualification": "Alpha-tocopherol-related lipid protection is a capacity relationship, not general antioxidant efficacy or a high-dose recommendation.",
+          "classification": "direct"
+        }
+      ],
+      "practices": [],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS4-FM1-PM1",
+      "batch": 1,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "ETC electron-transfer capacity is distinct from upstream NAD supply, fuel transport and biogenesis. FMN participant retained canonically but no separate unsupported direct-FMN food list is fabricated.",
+      "inputs": [
+        {
+          "atom_id": "PM1-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "etc-capacity",
+            "etc-primary"
+          ],
+          "qualification": "Iron centres support electron transfer; extra iron after adequacy has no established performance benefit."
+        },
+        {
+          "atom_id": "PM1-DIT-3",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "etc-capacity",
+            "etc-primary"
+          ],
+          "qualification": "Riboflavin supplies the FMN cofactor through endogenous activation; not a second independent need for oral FMN.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        }
+      ],
+      "practices": [],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS6-FM1-PM1",
+      "batch": 1,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Gastric delivery and tracer-estimated meal-glucose appearance are appropriate endpoints; ordinary glycaemia alone is not appearance flux. Other protocols remain individually unresolved until verified.",
+      "inputs": [],
+      "practices": [
+        {
+          "atom_id": "PM1-SOP-2",
+          "section": "3.2",
+          "sources": [
+            "fish-sequence"
+          ],
+          "decision": "retain-admitted"
+        },
+        {
+          "atom_id": "PM1-SOP-7",
+          "section": "3.2",
+          "sources": [
+            "beta-glucan-meal"
+          ],
+          "decision": "retain-admitted"
+        }
+      ],
+      "source_scope": "Bounded source-to-claim verification; preserve canonical scientific decisions; no general clinical-efficacy inference."
+    },
+    {
+      "pm_id": "BRS1-FM3-PM7",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Owns DHA incorporation, not choline methyl-donor limitation or downstream clinical effects; those associated donor claims remain unresolved for this run.",
+      "inputs": [
+        {
+          "atom_id": "PM7-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "dha-primary",
+            "dha-transport"
+          ],
+          "qualification": "Dietary DHA supplies membrane-incorporation capacity; lipid transport and remodelling intervene. Piglet formulation results do not establish superiority of ordinary fish/roe in people."
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS1-FM2-PM6",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "ChAT/neuronal substrate supply is distinct from PC membrane biosynthesis. B5/folate context and shared-pool claims are retained but not promoted.",
+      "inputs": [
+        {
+          "atom_id": "PM6-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "chat-review",
+            "choline-tracer"
+          ],
+          "qualification": "Choline is a ChAT substrate; delivery, neuronal uptake and local homeostasis do not imply extra-intake cognitive benefit."
+        },
+        {
+          "atom_id": "PM6-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "chat-review",
+            "choline-tracer"
+          ],
+          "qualification": "Food PC supplies a choline source after digestion/remodelling; no ordinary-food equivalence to the labelled supplement response.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS2-FM1-PM2",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "BHMT remethylation has separate enzyme and tissue ownership from MTR; betaine chemistry is not a direct neurotransmitter or clinical outcome.",
+      "inputs": [
+        {
+          "atom_id": "PM2-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "bhmt-primary"
+          ],
+          "qualification": "Dietary betaine supplies the BHMT methyl donor; plasma homocysteine changes are not measured BHMT flux."
+        },
+        {
+          "atom_id": "PM2-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "bhmt-primary",
+            "bhmt-choline",
+            "choline-tracer"
+          ],
+          "qualification": "Choline can supply betaine after sequential oxidation, especially liver/kidney; this is not a brain BHMT or dose-effect claim.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS3-FM3-PM8",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Precursor substrate capacity retained; mediator formation and clinical termination of inflammation remain distinct. EPA/DHA are Direct to the owned biosynthetic operation, not direct food sources of SPMs.",
+      "inputs": [
+        {
+          "atom_id": "PM8-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "spm-primary"
+          ],
+          "qualification": "EPA supplies mediator precursor capacity; selected combined-supplement mediator responses cannot be assigned to every fish or clinical resolution."
+        },
+        {
+          "atom_id": "PM8-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "spm-primary"
+          ],
+          "qualification": "DHA supplies mediator precursor capacity; not every measured mediator increased and no inflammatory resolution or brain benefit was demonstrated."
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS4-FM1-PM3",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Buffer substrate identity is distinct from NAD or ETC capacity. A reviewed existing candidate admission is retained at the capacity ceiling; no high-dose brain protocol is prescribed.",
+      "inputs": [
+        {
+          "atom_id": "PM3-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "creatine-primary"
+          ],
+          "qualification": "Creatine supports creatine/phosphocreatine buffering; brain exposure responses are variable and supplement studies do not prove meat-based brain effects."
+        }
+      ],
+      "practices": [
+        {
+          "atom_id": "PM3-SOP-1",
+          "section": "3.2",
+          "decision": "retain-admitted",
+          "sources": [
+            "creatine-preparation"
+          ],
+          "qualification": "Composition-preservation practice in tested pork products only; preserve food safety, no brain-efficacy or undercooking advice."
+        }
+      ]
+    },
+    {
+      "pm_id": "BRS4-FM1-PM2",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "NAD supply is distinct from direct ETC electron transfer. Tryptophan route remains a conditional historical pathway but is not additionally abstracted without resolving tissue-specific contribution.",
+      "inputs": [
+        {
+          "atom_id": "PM2-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "nad-review",
+            "nad-niacin"
+          ],
+          "qualification": "Nicotinamide supports NAD salvage capacity; food assay pools and bioavailability are qualified independently."
+        },
+        {
+          "atom_id": "PM2-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "nad-review",
+            "nad-niacin"
+          ],
+          "qualification": "Nicotinic acid supports NAD precursor capacity; myopathy supplement responses are not transferred to ordinary foods or brain outcomes."
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM3",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Cell mechanism and prepared-food exposure support bounded regulation; nasal targets are not direct brain efficacy. Mature-broccoli preparation join is held, while the specified disrupted-sprout source remains usable.",
+      "inputs": [
+        {
+          "atom_id": "PM3-DIT-1",
+          "decision": "retain-admitted",
+          "type": "B",
+          "sources": [
+            "nrf2-mechanism",
+            "nrf2-food",
+            "nrf2-null"
+          ],
+          "qualification": "Sulforaphane engages Keap1/Nrf2 biology; human nasal gene response depends on the tested preparation. Preserve the COPD null and food myrosinase dependence.",
+          "excluded_food_ids": [
+            "broccoli"
+          ],
+          "food_exclusion_reason": "Source material describes cooked broccoli with/without mustard but the joined preparation says raw. Hold this exposure for presentation/material review; do not silently change the food record."
+        }
+      ],
+      "practices": [
+        {
+          "atom_id": "PM3-SOP-1",
+          "section": "3.2",
+          "decision": "retain-admitted",
+          "sources": [
+            "nrf2-food",
+            "nrf2-null"
+          ]
+        }
+      ]
+    },
+    {
+      "pm_id": "BRS3-FM2-PM4",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Enzyme clearance capacity is distinguished from net ROS generation and from precursor ownership. Retain low-status context and do not add other minerals merely by enzyme membership.",
+      "inputs": [
+        {
+          "atom_id": "PM4-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "selenium-primary"
+          ],
+          "qualification": "Selenium sustains GPX capacity; selected deficiency/repletion and plateau are not whole-body oxidative-pressure or extra-intake benefit."
+        },
+        {
+          "atom_id": "PM4-DIT-3",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "copper-primary"
+          ],
+          "qualification": "Copper supports SOD capacity; the infant repletion experiment is not evidence to raise intake in replete adults."
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM6",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Distinct regeneration operation retained. Broader thiol-network contribution remains an explicit coverage gap rather than a fabricated additional dietary admission.",
+      "inputs": [
+        {
+          "atom_id": "PM6-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "recycling-primary"
+          ],
+          "qualification": "Ascorbate can reduce the tocopheroxyl radical; chemistry supports capacity, not a demonstrated high-dose recycling intervention."
+        },
+        {
+          "atom_id": "PM6-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "recycling-primary",
+            "vitamin-e-capacity"
+          ],
+          "qualification": "Vitamin E participates in the regenerating pair; its PM5 chain-breaking role is separate and these mappings do not multiply intake needs."
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS5-FM2-PM6",
+      "batch": 2,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Assess the existing ellagic-acid/urolithin pathway only; do not generalise across all polyphenols. Production of downstream metabolites and their efficacy belong to distinct claims.",
+      "inputs": [
+        {
+          "atom_id": "PM6-DIT-1",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "ellagic-conversion",
+            "ellagitannin-human"
+          ],
+          "qualification": "Ellagic acid is the immediate microbial substrate; only the assayed juice material is proposed provisionally, not all whole pomegranates."
+        },
+        {
+          "atom_id": "PM6-DIT-2",
+          "decision": "retain-admitted",
+          "type": "A",
+          "sources": [
+            "ellagic-conversion",
+            "ellagitannin-human"
+          ],
+          "qualification": "Ellagitannins supply ellagic acid upstream of microbial products; walnut composition does not establish predictable urolithin A or mitochondrial efficacy.",
+          "classification": "derived",
+          "conversion_traceability": "incomplete-structured-chain"
+        }
+      ],
+      "practices": []
+    },
+    {
+      "pm_id": "BRS6-FM1-PM2",
+      "batch": 3,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Glucose variability is distinct from intestinal glucose appearance and insulin-stimulated disposal. Retain selected CGM-tested practices; no inferred neuron or ADHD improvement.",
+      "inputs": [],
+      "practices": [
+        {
+          "atom_id": "PM2-SOP-2",
+          "section": "3.2",
+          "decision": "retain-admitted",
+          "sources": [
+            "wholegrain-processing"
+          ],
+          "qualification": "The less-milled whole-grain package is the exposure; not a biochemical dietary requirement or equivalent to adding isolated fibre."
+        },
+        {
+          "atom_id": "PM2-SOP-3",
+          "section": "3.2",
+          "decision": "retain-admitted",
+          "sources": [
+            "early-eating",
+            "early-eating-null"
+          ],
+          "qualification": "Candidate early/front-loaded eating strategy in dysglycaemia; no universally optimal window or established brain/ADHD benefit. Longer trial with a different protocol was null."
+        },
+        {
+          "atom_id": "PM2-LIFE-2",
+          "section": "3.3",
+          "decision": "retain-admitted",
+          "sources": [
+            "interval-walking"
+          ],
+          "qualification": "Tested supervised slow/fast treadmill programme; retain population, intensity and null oxidative-stress findings."
+        }
+      ],
+      "source_scope": "Bounded source-to-claim verification and contradictory context retained."
+    },
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM2)",
+      "batch": 3,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Feeding-related peripheral entrainment is distinct from retinal central-clock entrainment. Reuse bounded phase evidence; do not convert a phase shift into a beneficial dietary effect.",
+      "inputs": [],
+      "practices": [
+        {
+          "atom_id": "PM2-SOP-1",
+          "section": "3.2",
+          "decision": "retain-admitted",
+          "sources": [
+            "feeding-phase"
+          ],
+          "qualification": "Meal timing can alter peripheral rhythm phase; the experiment does not establish health improvement, ideal eating times or central-clock resetting."
+        }
+      ],
+      "source_scope": "Bounded source-to-claim verification and contradictory context retained."
+    },
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM1)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Prior circadian reassessment distinguishes melatonin suppression from phase entrainment. No dietary input established; unselected light protocols are outside this food abstraction. Retain as a current no-new-dietary-lever assessment.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-circadian-stage2ab-reassessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM1)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Prior bounded assessment does not establish that ordinary dietary NAPE/PE supplies brain NAE synthesis; precursor pool, tissue delivery and enzyme engagement remain separate.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-ecs-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM2)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Omega-3 ethanolamide formation is not interchangeable with EPA/DHA membrane supply or generic fish effects. No independently verified food-to-PM ethanolamide effect selected.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-ecs-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM3)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Isolated FAAH pharmacology does not establish ordinary dietary inhibition. Preserve prior no-admission assessment.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-ecs-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM4)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Endocannabinoid effects on dopamine/reward do not identify a supported food exposure. Preserve prior no-admission assessment.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-ecs-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(ECS-PM5)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Exercise/stress evidence cannot be abstracted as food effects; ECS mediation and dietary exposure have not passed this run’s gate.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-ecs-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM1)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Fibre-associated circulating oestrogen changes do not establish stable brain oestrogen signalling. Matrix, population and mechanism require separate attribution.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM2)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Bacterial beta-glucuronidase activity and oestrogen recirculation do not independently establish a dietary regulator of this PM; retain prior unresolved assessment.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM3)",
+      "batch": 4,
+      "initial_status": "BLOCKED",
+      "final_disposition": "BLOCKED",
+      "gate": "BLOCK",
+      "rationale": "Microbial progestin conversion is not equivalent to progesterone support or brain neurosteroid exposure; mission/ownership and directional interpretation require review.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM4)",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Low-GI PCOS programme evidence is population- and intervention-specific. Insulin/theca biology does not independently validate a generic hormone-balancing diet.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM5)",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Serum testosterone after sleep or zinc manipulation is not a direct measure of androgen-receptor signalling stability. No food efficacy claim admitted.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS-X(Hormones-PM6)",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Local microbial androgen deconjugation is distinct from systemic or brain exposure; food-to-activity relationship remains unverified.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs-x-hormones-stage2ab-assessment.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM1-PM1",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Established amino-acid provision retained historically. Aggregate indispensable-AA/protein identities, six missing individual EAA composition mappings and formulation/digestibility attribution prevent complete rapid food abstraction of this pool.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm1-pm1-stage2a-overview-report.md",
+        "system/brs1-fm1-pm1-stage2b-report.md",
+        "system/brs1-fm1-pm1-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM1-PM2",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Historical meal carbohydrate/protein pattern admission conflicts with current section-specific eligibility. Plasma LNAA ratios are not measured brain LAT1 flux. Withhold this pattern from §3.1.1; no automatic SOP transfer.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm1-pm2-lat1-stage2a-report.md",
+        "system/brs1-fm1-pm2-lat1-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM1-PM3",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Tyrosine/cofactor capacity is distinct from dopamine signalling and inverted-U effects. Source-specific reaction, dietary precursor and brain flux attribution not fully verified in this run; no extrapolated food dopamine effect.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM1-PM4",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Retain historical noradrenaline-related capacity decisions; review separates precursor/PLP supply from actual norepinephrine synthesis/release. Exact receptor/state and dietary exposure claims deferred.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm1-pm4-noradrenergic-stage2b-report.md",
+        "system/brs1-fm1-pm4-noradrenergic-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM1-PM5",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Tryptophan provision, LAT1 competition, TPH2 flux and serotonin signalling are separate. Current corpus includes bibliographic gaps; no unverified serotonin food claim exported.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm1-pm5-serotonergic-stage2a-report.md",
+        "system/brs1-fm1-pm5-serotonergic-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM4-PM10",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Current bounded Stage 2B admits no clearance-specific dietary requirement. Magnesium NMDA effects belong to a different operation; no lever imported.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm4-pm10-stage2a-report.md",
+        "system/brs1-fm4-pm10-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM4-PM11",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Current Stage 2B parks isolated-model magnesium-sulfate protection and generic antioxidants/omega-3 as unresolved; ordinary-food excitotoxic protection not established.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs1-fm4-pm11-excitotoxicity-stage2b-report.md",
+        "system/brs1-fm4-pm11-excitotoxicity-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS1-FM5-PM12",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Recent bounded assessment preserves synaptic structure versus membrane incorporation. Combined choline/uridine/DHA exposures, age/model and human delivery need exact attribution before food-specific structural claims.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM3",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "MAT methionine/ATP reaction is established, but aggregate dietary-protein identity and food delivery must be reconciled separately from SAM concentration and MAT flux. Unverified rows deferred, not rejected.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs2-fm1-pm3-stage2a-report.md",
+        "system/brs2-fm1-pm3-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS2-FM1-PM4",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Cycle coordination overlaps its component reaction owners; concentration and enrichment are not integrated cycle flux. No new dietary lever inferred from pooled pathway claims.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs2-fm1-pm4-stage2a-report.md",
+        "system/brs2-fm1-pm4-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS2-FM2-PM5",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "PLP/serine transsulfuration capacity is retained historically; cystathionine/cysteine intermediates, sulphur supply and tissue-specific tracer interpretation need structured reconciliation. No extra-intake claim.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs2-fm2-pm5-stage2b-report.md",
+        "system/brs2-fm2-pm5-stage2a-report.md",
+        "system/brs2-fm2-pm5-current-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS2-FM2-PM6",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "GCL/GSS substrate roles are supported in existing assessments. Sulphur-AA deprivation, combined NAC/glycine exposure and adequate-methionine cysteine null are distinct. Free cysteine versus cystine composition, glutamate/glutamine hydrolysis and ordinary-food substrate coverage remain unresolved; no fabricated food equivalence.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs2-fm2-pm6-stage2b-report.md",
+        "system/brs2-fm2-pm6-stage2a-report.md",
+        "system/brs2-fm2-pm6-stage2b-preview-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS2-FM3-PM7",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Kennedy and PEMT routes must remain separate; plasma PC/enrichment is not brain PC formation or total flux. Current route assessments preserved; additional form-specific dietary extraction deferred.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs2-fm3-pm7-stage2a-report.md",
+        "system/brs2-fm3-pm7-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS3-FM1-PM1",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Upstream glutathione synthesis/repletion is not by itself dietary engagement of NF-kB. Existing IKK/redox and combined NAC/glycine results need PM-specific mediation and exposure attribution.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs3-fm1-pm1-stage2b-report.md",
+        "system/brs3-fm1-pm1-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS3-FM1-PM2",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Gut permeability, LPS exposure, glutathione supply and systemic cytokines are separate. Existing source cluster does not automatically establish a food regulator of systemic gut-derived inflammation.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs3-fm1-pm2-stage2b-report.md",
+        "system/brs3-fm1-pm2-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS3-FM3-PM7",
+      "batch": 4,
+      "initial_status": "INSUFFICIENT EVIDENCE",
+      "final_disposition": "ASSESSED",
+      "gate": "PASS WITH LIMITATIONS",
+      "rationale": "Prior bounded assessment reports null circulating-messenger findings and does not admit omega-3 from the adjacent mediator-biosynthesis PM. No lever established in that assessed corpus; not evidence of global absence.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs3-fm3-pm7-stage2b-report.md",
+        "system/brs3-fm3-pm7-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "batch": 4,
+      "initial_status": "BLOCKED",
+      "final_disposition": "BLOCKED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings; broad ROS-production/control scope overlaps BRS3 redox and mitochondrial protection. Generic antioxidant-food claims cannot pass a mechanism-specific gate.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "batch": 4,
+      "initial_status": "BLOCKED",
+      "final_disposition": "BLOCKED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings; mitochondrial redox-integrity scope overlaps ROS control. Legacy antioxidant and CoQ10 claims need exact operation/source ownership before abstraction.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM3-PM6",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings. Carnitine transport capacity is not established by an ADHD outcome trial or generic fat oxidation; source-specific transport and dietary supply appraisal deferred.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM3-PM7",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings. Peripheral ketosis and low-carbohydrate patterns are not direct measurements of brain ketone oxidation. No automatic biochemical admission of a named diet.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM3-PM8",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings. Whole-food patterns and mitophagy outcomes do not measure substrate-switching flexibility; legacy food claims held.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS4-FM4-PM9",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "No structured Scientific Findings or current input assessment; exercise-dependent mitochondrial markers do not admit a food-driven biogenesis mechanism.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM1-PM1",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Fermentation endpoints cannot stand in for tight-junction integrity. The van Trijp compartment/measurement and Pascale secondary-source corrections may recur in this PM; affected claims require source-level reconciliation, not a generic fibre-to-barrier conclusion.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-remaining-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM1-PM2",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Chylomicron-associated LPS, permeability, LPS/LBP assays and bioactivity are distinct. Legacy meal/pattern inputs are ineligible for §3.1.1; nutrient/meal attribution and assay context require review.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-fm1-pm2-published-baseline-stage2ab-draft-report.md",
+        "system/brs5-fm1-pm2-stage2a-report.md",
+        "system/brs5-fm1-pm2-stage2b-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM1-PM3",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Prior assessment bounds oligofructose-inulin and B. longum NCC2705 to tested mouse mucus endpoints. A strain is not generic fermented food; human permeability nulls and microbial context preserved.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-remaining-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM2-PM4",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Glycan selection/adaptation differs from SCFA production. Purified pea arabinan/citrus pectin and defined microbial communities cannot transfer effects to ordinary peas, citrus or every fibre source without separate evidence.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-remaining-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM3-PM7",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "JB-1 mouse vagotomy evidence and a human null do not establish generic fermented-food vagal signalling. Nutrient enteroendocrine experiments do not justify increased sugar intake.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-remaining-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS5-FM3-PM8",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Tryptophan microbial routing, indole products and host precursor availability are distinct. Pectin cross-feeding is not proof of increased brain serotonin; pathway-specific exposure not rapidly verified.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs5-remaining-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM1-PM3",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Clamp-measured exercise/weight-loss effects and rat magnesium-depletion effects require separate dose/population assessment. No generic food insulin-sensitivity claim inferred from weight change.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM2-PM4",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Combined sleep/light/meal misalignment does not isolate meal timing or cortisol mediation. Prebiotic awakening-response data do not establish whole-day rhythm correction.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM3-PM6",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Skin conductance and HRV recovery are bounded autonomic proxies. Meditation/stress interventions need protocol-specific attribution; no dietary relationship inferred.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM3-PM7",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Respiratory HRV effects and capsule omega-3 HRV findings require separate interpretation; HRV is not a direct universal vagal-tone measure or a fish efficacy result.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM4-PM8",
+      "batch": 4,
+      "initial_status": "BLOCKED",
+      "final_disposition": "BLOCKED",
+      "gate": "BLOCK",
+      "rationale": "Explicit architectural-review exclusion: mission and ownership unresolved. No dietary abstraction, new admission or Stage 2A/2B rebuild authorised for this PM.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-fm4-pm8-stage2b-report.md",
+        "system/brs6-fm4-pm8-stage2a-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    },
+    {
+      "pm_id": "BRS6-FM4-PM9",
+      "batch": 4,
+      "initial_status": "CATCH-UP",
+      "final_disposition": "DEFERRED",
+      "gate": "BLOCK",
+      "rationale": "Subjective appetite/stress-eating outcomes do not by themselves establish neural reward-pathway engagement. No food timing or ingredient claim inferred.",
+      "inputs": [],
+      "practices": [],
+      "reports_examined": [
+        "system/brs6-pms-stage2ab-draft-report.md"
+      ],
+      "source_scope": "Canonical mission, Findings, source-assessment records and available prior review inspected. No new source-to-claim approval of deferred dietary relationships.",
+      "stop_rationale": "Reuse a bounded no-admission decision where available; otherwise explicit deferral because the identified source/identity/ownership issue cannot be resolved rapidly. This is not a claim that no relevant evidence exists."
+    }
+  ],
+  "reconciliation_issues": [
+    {
+      "source_entity": "histidine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "histidine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    },
+    {
+      "source_entity": "isoleucine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "isoleucine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    },
+    {
+      "source_entity": "lysine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "lysine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    },
+    {
+      "source_entity": "phenylalanine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "phenylalanine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    },
+    {
+      "source_entity": "threonine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "threonine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    },
+    {
+      "source_entity": "valine",
+      "target_entity": "Food coverage not yet evidenced in structured records",
+      "relationship_type": "food-coverage-research",
+      "canonical_ids": {
+        "substance": "valine"
+      },
+      "material": null,
+      "preparation": null,
+      "evidence": [
+        "registry/substances.json",
+        "Current canonical food relationship scan; no quantities inferred from total protein."
+      ],
+      "affected_pms": [
+        "BRS1-FM1-PM1"
+      ],
+      "missing_edge": "No structured individual amino-acid food composition coverage found. No specific missing food edge asserted.",
+      "required_action": "Research amino-acid-specific composition, material and preparation; verify sources independently before proposing a food edge. Do not derive amounts from total protein.",
+      "verification_status": "research-required-not-an-edge-proposal"
+    }
+  ]
+}

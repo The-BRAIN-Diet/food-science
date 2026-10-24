@@ -1,3 +1,4 @@
+import {validateScientificHypotheses} from './scientific-hypotheses.mjs';
 import { validateFmSynthesisLayout } from './fm-synthesis-layout.mjs';
 import pmLeverLayout from "../../src/plugin/pm-lever-layout/index.cjs";
 /**
@@ -818,11 +819,12 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
 const SECTION1_TITLES = new Set([
   "Definition",
   "Mission & Overview",
+  "Mission & Overview + Dietary Levers",
   "Mission, Objective & Biological Context",
 ]);
 
 const SECTION1_TITLE_ERROR =
-  "§1 must be Definition, Mission & Overview (legacy), or Mission, Objective & Biological Context (PM Profile A)";
+  "§1 must be Definition, Mission & Overview (with optional + Dietary Levers), or Mission, Objective & Biological Context (PM Profile A)";
 
 function isValidSection1Title(title) {
   return SECTION1_TITLES.has(normalizeSectionTitle(title));
@@ -1357,6 +1359,7 @@ function validatePmPage(filePath, { canonicalKcIndex = null, identityContext = {
   if (Array.isArray(data.scientific_findings) && data.scientific_findings.length) {
     validatePublishedPmConnectionExplanations(content, issues, { entityLabel });
   }
+  validateScientificHypotheses(data, issues, {content});
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });

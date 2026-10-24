@@ -1,0 +1,46 @@
+{
+  "verdict": "PASS WITH LIMITATIONS",
+  "controlled_checks": {
+    "passed": 16,
+    "total": 16
+  },
+  "focused_regression": {
+    "passed": 13,
+    "total": 13
+  },
+  "existing_regression": {
+    "passed": 193,
+    "total": 195,
+    "preexisting_failures": [
+      "all Findings-owned pages canonical section-title expectation",
+      "PM9 canonical section-title expectation"
+    ]
+  },
+  "bibliography_format": {
+    "passed": 2,
+    "total": 2
+  },
+  "governance": {
+    "checked": 64,
+    "issues": 0
+  },
+  "findings_freshness": {
+    "checked": 58,
+    "issues": 0
+  },
+  "pm5_mechanism": "pass",
+  "substance_validation": "pass",
+  "sec_history": "pass; 69 existing snapshots preserved",
+  "pm5_bibliography": "all evidence keys resolve uniquely; numbered anchors synchronised",
+  "global_bibliography": "four unrelated missing keys reproduced on baseline",
+  "browser": "real compiled food-disclosure client against regenerated snapshot; provisional icon and warning verified, RS preparations retained without pending icons",
+  "full_production_build": "not run; targeted PM MDX/Finding and client compilation verified",
+  "integrity": {
+    "shards_reconstruct_combined": true,
+    "other_pm_rollup_records_unchanged": true,
+    "no_food_or_registry_changes": true,
+    "no_other_pm_changes": true,
+    "no_score_changes": true,
+    "pm_citations_resolve_uniquely": true
+  }
+}

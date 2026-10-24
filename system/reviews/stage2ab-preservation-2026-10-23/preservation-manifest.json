@@ -1,0 +1,1304 @@
+{
+  "baseline": "110a26bc52663ba6a2e5bdd1a02e4014278b5233",
+  "branch": "codex/rapid-stage2ab-manuscript",
+  "purpose": "Pre-run immutable hashes verify additive preservation of the current working baseline, including prior approved uncommitted work. Not a replacement admission baseline.",
+  "pms": [
+    {
+      "pm_id": "BRS5-FM2-PM5",
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+      "original_source_sha256": "a56e01dec95b0f79d162b9fa16b7ff4dac4b03c0c10ace0fc598a8fadc511ea0",
+      "original_source_bytes": 81093,
+      "fields": {
+        "title": "5708eb665a90fdb0c5d3695f999f33ab17159bdad9cd464fc3aa303f4b3cca69",
+        "pm_id": "06c028a5357a73ba3de2220c9fb1c0ffef6ac2d29b51a94bdab93b025f3eac14",
+        "mission": "d4460347dd847d9893e7d83bd2deaa954fad047ebb483cfe75b9b4fdaa449f90",
+        "summary": "6dfb0d73401ff83e5f23d08a3f41994ea04a5ba98f632c343dae8fa79479fdc6",
+        "parent_fm": "7225a88c932040766971d63544fbeff528c615e94fb19583ba148a92057549bc",
+        "parent_brs": "1051a1cd820a1c884831a9be60a2a12b1fca158b4116f91b425d3df5bbb47d9a",
+        "key_constraints": "2ef785b81fc1d0cec11719eb1b251741d04937efa7cfde387e4bf6a728745311",
+        "cofactors": "b37eb49c93e7bec32c3e651c6e7825a7d411e47a05c73f44ded55c7cc6529b6d",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "5434b9f6eaf8b9af448832382d59fbb953db272f1f39ff242cfabc528f6e1f54",
+        "references": "6226643d1c67f69ec5f86058e267a61daf9f3745145d10ebed5acf561bcf93a2",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "list_image": "77767250d6028d40d0a44711c910894e5ca43ccc169daa0212faa1813f1983b8",
+        "scientific_findings": "f17a9abf84d04f47def751a411d3d71be27a7c200a343b58bf0b4ae7a0246c85",
+        "dietary_input_traceability": "a1fe5f95df5c0309365a9f250661e0ae236be809442e03c312d40f5cc3121eb6",
+        "dietary_lever_atoms": "0c508f6512158b405f07c6095c237902863ae9438dfe83b12d945dcdf29ef964",
+        "dietary_lever_presentations": "d19b76b6e326ce0226d75823f497b9a2280e11f08f5beb2546f809139e82fcad",
+        "pending_actions": "0207297140783aa34f91b5ad6fea99d64db9fa0940033d64185c359a53209d04",
+        "pm_kc_relationships": "d7f32a1de2073c01b824d0b924a6e14983ffb81ddcb55f6ef88753156b4626c5",
+        "kc_applicability_adjudications": "89c905be63abdb6e1fb81532ad183a687e82e93aee4e0260678f4a2f2470a2b6",
+        "kc_distinctness_review": "62d75011c1acef5535bff38d932b232b74d40bb287aa4829fba631993a2e3d93",
+        "pm_lever_layout": "cae63a3e4febc28af9ef290623b26d24ba2d35ae1abe72a4390be2bc5820f5c0",
+        "intervention_dominance_assessment": "d00dc6a5cc4e5bbdd4dec920dc94e3d4347f64914085fd10996760c15cb859f4",
+        "scientific_findings_intro": "e97e9b6599b3b5529dc5cb2b0bd87c8dab5747532e1cadbd23dc6dcb80ab1d2f",
+        "dietary_input_assessments": "6b5eb8bbc37db656f8ba5968b5d51234ec163dd2c652141d60846baaf94eea75",
+        "dietary_input_reconciliation_history": "68466fbbec3f794c3a7055021cc4f0c08149858698cfd9377141065701600bbe"
+      },
+      "existing_findings": [
+        {
+          "id": "PM5-F1",
+          "sha256": "3768de523be1046fa703016a4693a1623682a80dee7dadb9ed1ff2e7c2261248"
+        },
+        {
+          "id": "PM5-F2",
+          "sha256": "a5fbf98bb7e0a4726e9e922f4a7d77b93f9793e846463f44ae68a0f26a86fe9c"
+        }
+      ],
+      "existing_references": [
+        "2e8ea84797295403d0730e2cba52f69bce4db94cda1df7f9f97179a10ef4147e",
+        "48bdcef13c66d06dbfaabc0f98e7a3bd53f63a2862e52502f201632484185bfd",
+        "8098bb9f9e8b6b8e89e18af9593fa73d08383745fe20356dcc66c5a7a0652eaf",
+        "111153c7a116b0c59a97a79d9cafe6ec2f12ea549dcd6821a187a4d0c285157e",
+        "8a2bf6889e4ac45d29efeff15559acf4ac3ded8fd675cb6e9567ab348d5c559c",
+        "b182ef370237c7d671ed8591c4927da23f23ff86248bffd03df6343d1d1cebd0",
+        "7f11508fe7da29e3b6b1e45674f4e77c52388263cdcb87a1cf9c7a4bceae6376",
+        "34c0a8a9fd2301a7a1bcf89dfb6380a754328314b36b2fc1d55e46fde96af4d4",
+        "d78417ba70d419e844bf5c943a17dff0546ce20e9ff1a6de1fee1b4063e6b555",
+        "6251d923958bdc3ba341136f25a8775860142458667fc7e0585bb26274a14938"
+      ],
+      "preserved_narrative_sha256": "301c6cc565a4bf7fc1294d0dba516dca9182fed30e025ccf0e78165dbac657e3",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS1-FM4-PM9",
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+      "original_source_sha256": "a9bac3976b93268f65d7acf5d9ce14d1bfecb8a5bf09aad03be266a36a473187",
+      "original_source_bytes": 140646,
+      "fields": {
+        "title": "42e29a8d7e499fcf2f9065366533515e5c6f534540e95556321aef2a12876a7a",
+        "pm_id": "c00dc03001cd82d59a336e6ff29c641ba3e7047b534c917d66b01ca9f78c4ec8",
+        "mission": "2eeaea76d25daa1137a497433866bdfdc3578e6266f2fdb6f28635b4c40ba27e",
+        "parent_fm": "268ef9f2949bc237c6019fad109320ee3f909d93eb8b1859541b4ac74837a67f",
+        "parent_brs": "3dd5023685ddfb3616f1dc6acf40697a8074e95a1178040e6772b4cf68b30616",
+        "summary": "f671da0076a78eda91cf9fc439f495d130563627de42754e43feb0b19a0f584f",
+        "cofactors": "9733e10a1df95318ca5b488e660903a94430d42abcb2e85dc1af61f0437a03c8",
+        "dietary_input_traceability": "a26f88b6e853df807f564d3fc4e79510a83e1db02e20e766ba693e58cb62b9ac",
+        "dietary_lever_atoms": "ac81438d1424332f48f9b993da69ebd06cf9a26af7115fffd93ddaf588000f10",
+        "dietary_lever_presentations": "c57efd9f07a9d24a9f20bbe52f9dd8b64ecfc66098981ef78056d392c8618dcf",
+        "kc_applicability_adjudications": "1b8d9d1e40b3263fb4f10cd31a0aff386734188855470acb4da97ce1b40b85e3",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "4ad3c8688c099c17c92dc4a4fd3395bd9999b286dec837349a09ebbdc8aa35be",
+        "phenome_relationships": "bc8a2624d06d0958fb1495f445e0d2c926f33a8ed81b1cc111f6ffb2ca6e579f",
+        "scientific_findings": "3bc262e1624512e4707990c5a5c778e959195875dfe554253a1b606b4c9aa8c9",
+        "references": "bb90c57e5660f4ab3620ef42518594b2971f1f1a17fbe6a88a5a5523566d525f",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "scientific_findings_intro": "2b7cc198db8139c27b2d71415f1224397a01bf646f2492e7580b82dc2ee84768",
+        "kc_adjudication_history": "8df0f60d78bf7b5185c9d47d77d989ab30ddc7cd77b7a4e0f0ee0fa07f44451b",
+        "system_optimisation_practices": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "lifestyle_priorities": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      },
+      "existing_findings": [
+        {
+          "id": "PM9-F1",
+          "sha256": "edf6571bc924de8d0cbde2eda3835d44335cc570e654efe994935c88c0a68ef7"
+        },
+        {
+          "id": "PM9-F2",
+          "sha256": "4a2bbd326169401b6a26de9ac22a4c83006a5e4fcdf0a733d2ae4419317ca97d"
+        },
+        {
+          "id": "PM9-IC1",
+          "sha256": "2f25302d5e3620a522dd66210d23005e86fad19a2f13eaf588ee41754bdbd537"
+        },
+        {
+          "id": "PM9-F3",
+          "sha256": "9a16cfbaee3cb753dfd7b1e081cc2100733fa96eef11f7c73adc067b8b9fe589"
+        },
+        {
+          "id": "PM9-F4",
+          "sha256": "7152c385f544caa10f6db6b5ac1b46c1cd39537e2609e818a77c6e57784a28b9"
+        },
+        {
+          "id": "PM9-F5",
+          "sha256": "8306033f5408f8678666cfd5dee84ea822dc124de864f0164d9b6b0cd63de772"
+        },
+        {
+          "id": "PM9-F6",
+          "sha256": "ec08338703608cfa3927f749cd48eb1550afe165981bab53a9882ff1a5325aee"
+        },
+        {
+          "id": "PM9-F7",
+          "sha256": "9bf40bfe222f8e413f83ec9fec12f1601081b0cab55fb2f3f086e0f29c7063c8"
+        }
+      ],
+      "existing_references": [
+        "3eb2fb6be3ea0e0a3c44ad24a53a379e8c162611cfb93abc3dba1862848debc6",
+        "6cf8e2490aad44d279146d21fd08a8e83317a387e0489954d7d6f674996e9afc",
+        "f6d0315d2be5232f483a9aaf204667d136b6020de1c2780a7794d012f82beecb",
+        "1636e8392c039d8e79ee39e21867e44d8193628d42a2f425d5abb277857b611d",
+        "cacef38420d298de38f4b25d3b168f642a261b450abfda58149243c079bbf795",
+        "bc986083aef2fdc04fd0300908b03b316c4c4ed85b94a04d5c9a06f999c45d47",
+        "7d291ad0bf5f03f84b04308a75edc539d1177d48b7b3f86834d58cf2e0a1598e",
+        "5b9d90bddc1346898ba48b4ee375c7abe234dfd23c468b229ff2dbb00e6eba59",
+        "12756d9fd51f467ddcddf0f11b832eb9023c3db030e86e1a4febba28bc8d3ea1",
+        "6a9c8802378e58c2ca6edc5357c0e3e2c1671c7f4fcc79724b0efb8d5daaf5cf",
+        "e87c0411ac664aaf756309f9729e972268f8471d314b0a2fabaae8344e30ecec",
+        "6441bb04edbfa7234c19dae3b74d0945d2aa2cab84b36a5afaa70074f0e999e6",
+        "0ba11de28fc32febed66d1c3bedd06538fa516c0110623c86881dfd5ac9e4884",
+        "3208d4792808f68492b3ceb62f1142686b311ce3bd18c9dce1aec9f2270057af",
+        "507b42ee5eae37bece1c150f1eb07a4a75662a3ddd850a3857d62af4ac846acc",
+        "573755bc78321bbb879ad29fa1f8a19a1c77e71cb51de09a9210cd9a4475f16f",
+        "0026717f9ef9ff1f68e5266646ff56d29a1b8b1a127bcc6f50cb1d638008a6ec",
+        "8d8004da218477dad0d8fc521e143f64dd8c93f7afcddc9ab8e985ede1880280",
+        "3ee00b4614c6df8d783a2d7ae05dbfba769ac1727429f7facbf9a40918d47555",
+        "70b6bf9bf7f5c4adafaf9c9d0832eb7623cb2cc0fdc7c5e91f1e3f5c5480c32e",
+        "2c726bcb0c9ea4fb52ad314553f02f38bef2efb4ce73fb8ee8b789fcd4af85df",
+        "5eaf0031694a236540a4ec4d713c52c7da62f7db2dc373976951bc8952f40eb8",
+        "017a28edd3353531b44122758c7498584370b73d3a86cbd331fe935054516425",
+        "f9e65de715fabcfa2b88882acf7b903aa1b81e276113b3d7d04534dcc9313195",
+        "c52fe2687bd8c79c934a27308b062fe3811c97592d4a9ac351eca44040cea426"
+      ],
+      "preserved_narrative_sha256": "9d006253ba8fbf395df11a06317dc4545d0b9aef4a238fbb23000ffe1506e401",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS2-FM1-PM1",
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+      "original_source_sha256": "366f5fe35e0dc056b24ff1175dd61e97c6b5b6039b9c95f7b5dbfd4a93518730",
+      "original_source_bytes": 100394,
+      "fields": {
+        "title": "2bcfd2acd090d029393cda83b46a5502aa1af1a0bec11869b951a29b328dcbb6",
+        "pm_id": "8a5d3bc4e8037da18e18aa55c87db73a61349f943e2ff15ed90590a00661e2d5",
+        "mission": "8694c22cef30b8cfe0af844e0461155f3a47ebf0825e31e16f860ccc7693a7aa",
+        "parent_fm": "3b326472d0751003af7d56b4584dcf12b8115a6a1554b04e6086fac696be26d9",
+        "parent_brs": "e1dbb6cf0d4e871fec0775b29ef74999101b1ab1dc43cd0ee027192f8aa6d014",
+        "summary": "4e5b552248ec896448260a292aae89c2703775209f66b139598c13d2ac771f5c",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "cofactors": "0b556888abe1c0f4bc5dd6f133fd73bf02dfb93e15161745debc0453cbf92a30",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "eed7ac8e5f5fa3db04559088c3cd4f9251dd28fb75cd021a31c7424320851be2",
+        "references": "304cb35cca3966a2eb5335511267149cf8baa0c92d5fa8bfce216ee1aa096c67",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "b0380c7dd2b62d3a281009b509213054c5e6dac3ec492a9f43e2c2f32097bddf",
+        "dietary_input_traceability": "18aa422259343ac32131326bb305cb3a714e971d6426c60c2fe3396d42d1c127",
+        "dietary_lever_atoms": "2e14e2fa40b1acc3bb74a12a5e2bb193058e7cd7abe4e4b1d8c911a42906b0fc",
+        "dietary_lever_presentations": "1532e8bbca60a372c70028498b0132845a9eaa401ac9da438e759a5ddd2f02f5",
+        "kc_applicability_adjudications": "af3561b3f3f3aa5c3beceaaf4974a95015417eeb29166e31731e4a66bdcdba75",
+        "scientific_findings_intro": "784ac73ce972fb306430b35f1203c43a8d5cdcf3fdc3916f989fab0ffdc8deaa",
+        "scientific_findings": "ba04995fa2accb28276d096d9a14f48558b353907440387a5f4fddbf95dd965d",
+        "kc_adjudication_history": "23d3616a6dd6d4485adbc44e8d5ccac7e5fc14ef1aa8d77b39b4e4e5c3e86c8e",
+        "pm_kc_relationships": "628fbf3c0960b704f82890e690b340a86461a3601f7cb075a47f77261be3151d"
+      },
+      "existing_findings": [
+        {
+          "id": "PM1-F1",
+          "sha256": "1d15ae2784a0b459db0466e1c6edce9a911bb164cff652843adad01c363cc895"
+        },
+        {
+          "id": "PM1-F2",
+          "sha256": "32888404e75338786285aecc5df8a27ad07d7c8347a6dd8d70e0bd7681b8c0a7"
+        },
+        {
+          "id": "PM1-IC1",
+          "sha256": "2d04c2951ad9df72691a0323e7c3dc38242273c4e42fa618d20b1078c774720c"
+        },
+        {
+          "id": "PM1-F3",
+          "sha256": "ea41e164db6a3e40be02fbe879c58fe3e75539460cc4f1f2fb9f8aa4fdb5fe21"
+        },
+        {
+          "id": "PM1-F4",
+          "sha256": "6553615cbcddf073b5a4080ead3e574e1d2a7b9a9e06ea7b666ba125d3830156"
+        },
+        {
+          "id": "PM1-F6",
+          "sha256": "2e13254e10c337d0bb88451a8fbc257a4656056ec05503c9aba614cd66842678"
+        }
+      ],
+      "existing_references": [
+        "477260d4f7d197947e2f07418b668f9f55e23a2e05df49ff709653922e0b5f64",
+        "41e3bf1932ec31059d4bed7817721d692aeeb20b4fcf335b561855e77c73ebee",
+        "b00f81278fba879af2f9269496acde4a6d87ea6da994b7c7b6e5ebe72e6c4ba1",
+        "a1fb30ed80ae5e204edba220e2f98b4a81d108faeca40fb5028581123a3f9218",
+        "e2bb6de671eb682e37a4ee560425a4b1cc0fd03d4d8ad010a11e93da1c8c65c4",
+        "7eec33550df46a0a341c983d9c314e0507c09d9a20e460d64729fc437ebe572f",
+        "b0804c9f4205c9ef6ae2a0686e886392d8688d07606797548c3fd126c0dddfbd",
+        "554c1b518675642be4d1859ae0aa6956ff04a970bd2f1de07a818be7500c700e",
+        "500e2d2cb3d33265a70f39a93d954826894ea468cd2d9da61355fffe49ab5c65",
+        "426f2a7d358ce3af0509113d60eb540295736fc2474e4497644fc218272053e3",
+        "f3e5b4a4d3616743a846f61c0e2d219f779bb457ff26afcc96d379ef9df4c094"
+      ],
+      "preserved_narrative_sha256": "71d03dd826e47d4c278cfe0ee4cc6466fc6e0710f6f0be5c835b2d1d24c3e6e4",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM5",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+      "original_source_sha256": "9c51ef406f800a22d5752611a2a2cbfb9f5a36d5a9f51c4a6e932704612d0cb7",
+      "original_source_bytes": 33045,
+      "fields": {
+        "title": "707588515b39fc1352d885ac2c872e4e7ece4602cd47242045f3dbeff4adf09e",
+        "pm_id": "239993465c03ba69bf543cadd4ca8168e7987517c841f4389230ea7f347347b6",
+        "mission": "cb5d49318b88c8e6959b65b9c07ba9060532d6e8b6ccb8768fc6e0e35777d61b",
+        "parent_fm": "dab5a96cccbf44504d9bfc03e2909a9d49d109fbdd2b2913ecc422b71b279066",
+        "parent_brs": "88d71d463bd0b0d74284d087f136afa51f1b2ec06a0e55e5eaeef39d2945057b",
+        "summary": "f84c3f2730f721eb0923cedd1c2265ba3327519068303c603b09d5e15298e5e4",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "7929cf4144be7c4fcd2f335c507dbf41eee306c78d5d996a02db851f3dea794d",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "68817a339ea1847b4a8490210367d4fcd83f8ada1765307ecb5822d37f443af6",
+        "dietary_addressability": "2ac3b4ba356fe01deeb0cab010c1f7d93d4cb92a84b61dd07650365ba31691dc",
+        "claim_ceiling": "b57bfee1c386f292033114979ad8c7c707c0e8049a09046585a05c7d59bf092f",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "1ba6d9fb614ac7687f3c82930e98ca7f1805a9fc6978848a4a30f98f2e212323",
+        "dietary_lever_atoms": "a86aadfabcb007f1307865c9f11804dfdcd774c64168c0c9012f35bd9ee4117c",
+        "dietary_lever_presentations": "e5e901f6896e4fa9fb3b9f6934065c45741f5fcd561d2cb7b2ef3a1f8156d28d",
+        "references": "0d2e4e7e2ffe229599fe08c1189ea8a9ac854c21dc8a4e40bd05ef9c1ab7d8a5",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "8dcc35a2e91511edcc7bff4995d274e1f898d743129a778dca091da3384580ed",
+        "scientific_findings_intro": "7af689609f3cacb0722118b839f2545c6ac440c023dd62567bc75e011b237de4",
+        "scientific_findings": "db1ef6016a7f62abb12587b2d4208ba68c9352dd3529a427b4731a31c554615a",
+        "intervention_dominance_assessment": "484236a2443f41d26db432281462ab44140935266481f882d77563210106b028",
+        "kc_applicability_adjudications": "9cd69ae046a5ad3228252c97aeff2ae438e6cab2590c9f766de5a9218290c398"
+      },
+      "existing_findings": [
+        {
+          "id": "PM5-F1",
+          "sha256": "5fc61544cac68f9926d2b690ef12e91a75d9e7970e7d6a6dcca5251040b4f080"
+        },
+        {
+          "id": "PM5-F2",
+          "sha256": "9587eef3f191ddcf8a9d96f7c79e03711c5995c4fa455a5226a52f84c86a35b0"
+        }
+      ],
+      "existing_references": [
+        "daae00dbf421b88b26ec9d1cd50943ac928289fe5c517624b5ebb01c92450a9b",
+        "9e2d7a18e6f4777a37b5a5faf147b25a0eb6b4712a5b619c9deb0343073acd95",
+        "ad034fd3a8b74e2c4c446b463acf3dc75485157c837c678afd13195d3f7b3aca",
+        "c1a67548901a7a63d9a5d96690577c2f7f777136c3d32b4af42c7671751c79b2",
+        "5c748c6044e9561d3052841b8d1c691b473e10f0d3de274ea67143880a977c66",
+        "5402ed12c1e65f47e0b4879827e96cfe7b166ebde7d92965a41906c9978e55ed",
+        "d9f76868ae3b30bf600d16c618701f848a0b7f994e3fc52ca1792a62b21f8230"
+      ],
+      "preserved_narrative_sha256": "2469372c4c26d3e4d5e579b294b6a28e566f301218870d3cc0f854c3816a86b0",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS4-FM1-PM1",
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+      "original_source_sha256": "3b73b2647f87d9c1640fac6343921b78cec039218c33b8f5ef883b1b68fe571a",
+      "original_source_bytes": 56732,
+      "fields": {
+        "title": "1c78c05dddfe5699d89ebf8d9d118f4c672721191cd1ecd399744c7439585987",
+        "pm_id": "db1883ad1c9d1b0c25b8f4d55a6b241066e4252b316770de429a770b5b91261d",
+        "mission": "e72f4b0c549879322c6f7f487e2ffd13c99a3ff1682491a9d6e1579994f1f5af",
+        "parent_fm": "4aea13ae45c7f93c0c50860bd29548474cb9e481c0c48ce552f06d6df921a3f9",
+        "parent_brs": "7e57b3767102b521630cc594956ae076c1cf67f252613cc08300e6a4c60d8628",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "summary": "fda2916e69c6582811ef9e2ebe267c82f3795cde981a77a7992d3019be8d9db2",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "60bee08137c8ee4eafabd6c94bd8e5d335dab04aa107f52bae14ee630a6097a3",
+        "cofactors": "4d35235e90a28a4c70c26606b43da2ddb91602e15a215c820eb877df612245f2",
+        "references": "8a888ef08c74846bd92d69783504a9bbf5882d7d99e569f91c8d6bbd8d044511",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "kc_applicability_adjudications": "ee56ae2b7603468ae31400ac96b8f61497e0599cf35bf5fef726cc408d05c5a0",
+        "phenome_relationships": "0147445e8f75fa972b2410df7c269222571852d320ee65d3dad67ef105fc8891",
+        "dietary_input_traceability": "18e46c4ccfead4d637448b178ab51d75293bb523ff7cff718d191634dd15ec9c",
+        "dietary_lever_atoms": "a2ab4303e0cbd15bca51a08bb5da0d8010208d8774332882b2e8fb4aa6d5b56d",
+        "dietary_lever_presentations": "4396d51c2cab3a6422b605d3f90f04267f3e3910834014c9a7c5b276a6ae76fd",
+        "scientific_findings_intro": "5405d5384888f0239126a8b0a208948f9ba749e2f1bf736b304aca4348563305",
+        "scientific_findings": "392d82a587c5271e230c3648a7dd356202620ff7ca12d707b37cf6922f5d7b71"
+      },
+      "existing_findings": [
+        {
+          "id": "PM1-F1",
+          "sha256": "acb4d8f9c309e51429970305c4ae50ee5a78321dea4112f086b8b1345b460940"
+        },
+        {
+          "id": "PM1-F2",
+          "sha256": "8c91f77302e3863a78e9d0771d4c9ed3ea7de8416c0d05e5f00715c149d9cdf4"
+        },
+        {
+          "id": "PM1-F3",
+          "sha256": "7df2a94f364c34b44e2f5fe57e6aa0fa337b45ebdd523a83beecc2939778224c"
+        },
+        {
+          "id": "PM1-F4",
+          "sha256": "6c064ee76e8cd3c06cd829411a7b8d755c3ec8db7b57daf8e8412326284bc610"
+        }
+      ],
+      "existing_references": [
+        "0f082c6c3a0ff6135be9b31334b1005c6933c5f465e770a77251ffb8d928d496",
+        "b696a55fcfd5f47731f25fd15fb4b44d309ccdf44522332047a1727672db285e",
+        "c18c516683d01e8ca44de3df06239c6f984832bac2bbd2ea631d17b8504f886f",
+        "b7009aa7be6eff51fd209f9c93bc56e01ba151d6bf193f24ef0570504f884efe",
+        "3263d7fb80d330f49889df60a364e0d623fbb68dc883887848aeb0abeab7ee5b",
+        "7f722f4f3d840212fbc8bb19ee44a96ed384ac2dfa3d784597981142e38a1d92",
+        "f898c5dc34371808a9ef6142cede7e1ba8fdf91167c26e95b4ab1cc5861befc5"
+      ],
+      "preserved_narrative_sha256": "432b221b85f57a7479765ae1c44e0ad4ebc16be69616a529eddf3f02ceb67992",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS6-FM1-PM1",
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+      "original_source_sha256": "d7f45d7a5f1add3395d1dde1f4133e246440c424898c3f6cd54bf4e02e8530bc",
+      "original_source_bytes": 116977,
+      "fields": {
+        "title": "e43004f151d9dd47285212ab8f70f8791740ccfb6954ff78159709e008b1d329",
+        "pm_id": "ec72b9b5d3726819ccb582d00b2ebafd4b940e6a340f5033cf57b2eadd57cd00",
+        "mission": "4193d4a55561cce2801cc45d68467bd8b2fa6e16fe5703bb54e250fd5f5e4941",
+        "parent_fm": "2527bfbd0d63dbb2149c8f8b3a1236aea41207e8071ce722412de0f1511b371b",
+        "parent_brs": "baa3bace9a8c654e896484c6b37108b5e244fb8e25eeacd7893c4718e455f34f",
+        "summary": "6be2c962869945ea3489de399f19f93bf2b7b5cb71a25e7dacd378194c90e364",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "7be4f056ba45a214fcc2564086fda67c2cf740cf44d1cbaaa035c99515529c9c",
+        "references": "b92ac84cf64c83d3ba68df9d54e8ac3e6ccab2ff343b3686833696a76aa4a275",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "list_image": "7b1403eaf668e09eb23b9b9a472bd0c369f76b44f57b1950f4ff194b89d093dc",
+        "scientific_findings": "4c6c989c2f5c15f0214474e1bd68d87f33bbe190a0775b735fe83c7d22801194",
+        "dietary_input_traceability": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dietary_lever_atoms": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dietary_lever_presentations": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "pending_actions": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "system_optimisation_practices": "cbca3aa60580a4bf6a5bc4f607179988989b3956dae59838bd1f9a8492c17277",
+        "lifestyle_priorities": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "pm_kc_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "kc_applicability_adjudications": "fa648d12827d38f14f46752efb52606c39ede749b8e263066d0569b260fb5654",
+        "kc_distinctness_review": "6850aa49608df04f87ebdf418507ee8c551d1ccea94905d719511d9b059a3fcf",
+        "pm_lever_layout": "cae63a3e4febc28af9ef290623b26d24ba2d35ae1abe72a4390be2bc5820f5c0",
+        "intervention_dominance_assessment": "cffffcb7f66b1d984907a51e01ffcec8366ecb136d12a9bba995f2273b044a3a",
+        "scientific_findings_intro": "8a9e6e664ca237779f6ee5ad047fcf9fd409e6c87b898ff5c7bbdcfbfdbb3462"
+      },
+      "existing_findings": [
+        {
+          "id": "PM1-F1",
+          "sha256": "f26cf7ad6b183bd3bbcd9ce156063727aa9a2b62b55ee971bad46217fa50a3ee"
+        },
+        {
+          "id": "PM1-F2",
+          "sha256": "5ef14e5d8a17df496fd4e3ebdafa0befd54f4558cb8863375e1bc0011b20e1c3"
+        },
+        {
+          "id": "PM1-F3",
+          "sha256": "e3166420851bb1d71255737bdc28b3ee91ad6bae79f96c1f01279217ad8261a6"
+        },
+        {
+          "id": "PM1-F4",
+          "sha256": "a2ee16d09e504767142608985d153d8a6702871817589ce65bb207214f8a14f1"
+        },
+        {
+          "id": "PM1-F5",
+          "sha256": "a6397552352faebaf1336f7f72e606b84b3577c0dd1b9ee954afc6f32049ff86"
+        },
+        {
+          "id": "PM1-F6",
+          "sha256": "adbb88b13120827d5aafe41226002f4ff48b07ede1e4ac99d7dcce617642cee7"
+        },
+        {
+          "id": "PM1-F7",
+          "sha256": "79819265221a5aad3ea4dde62b46a2f5e8e51ef3f691d79d263d5c8b1a52fb9f"
+        },
+        {
+          "id": "PM1-F8",
+          "sha256": "9c25208196099154c55d852c5adbe0052632b1462c999737c904b9f8e3362add"
+        }
+      ],
+      "existing_references": [
+        "91c53b956f2f7a9acc136f1940f9afdb18acbb49eb6ac2f6ca1f4d82c23d0e29",
+        "2ba890ccdb7ef8104a2afcbc59d9a4d9877da401349b7fbb94a575d4656e0065",
+        "ac6a36a922384b85f1b9feae94c587ba870ebd15464362b1f8804213ad1f37e9",
+        "bf5b3ff887254d3a63c86c8fecbb450a8bb7dcbb12b28d73c72fd391dac6498e",
+        "b0804c9f4205c9ef6ae2a0686e886392d8688d07606797548c3fd126c0dddfbd",
+        "4d980f33b2d93bcf7f73d69f5e9fa951e05750016ad5834c2fc427fe5ed400d4",
+        "d2667e04971e4b57deca40b25b566f797473fd12d6a54702c49b546a90125512",
+        "ced3382a9dc3ec3c812c3a52c81d072364ceb8fdaaf1ef389d3ad08dedbbf3d5",
+        "1acfbad008ab8933dc13769b2cccf80c01d3396c5878b847387b76ece19425f6",
+        "26aba65b30f0632eb7a1e6417c776e41d52549fd1afdb15e6ad1ae74faf77090",
+        "16f1e015939a5d0981afd40a8bf37ad0e8a3df44dc54f05a07068637125a63df",
+        "e0b1533f1e39bd0c639f7adea529812ebb21cee46a2a360afe629304a70953ee",
+        "228e60f62a3b0dad262761120164d12d17300fb72ded668060d32f3426c3822a",
+        "bc7cb7885fc25c6810d035563b6f1c18054d2e0d3191e03aea24dbb9078673ef",
+        "8f372e461e93b3a5480d76e6fb2eda154a9720f20fac3dbf5dc4ec1317d7ef93",
+        "af2dfaf0b3c17e4224134ce7dc0a5e9bfb889d4d2c02e17bce4797d1c2b85344",
+        "51a6b586e34db9bcb3630ef5520a6408549fad93eaeebadee543b06af4525432",
+        "aed22f17c5fbaac5089bd0aafc07cb3c06a02c5f6a74ab9b43d7293e440aa0ed",
+        "ffe3f3d09cc5ec8ee9845a69c833253745a5894bd8a99f412a31a56e18b0bc7e",
+        "a7e7cf7b8ac21a4bbbb51a50ac317f40537fbd87d04f6d242fe4aef4a1f79993",
+        "b8f058a9874d36a853619ed49cc9e2e70270b48b33c7c78567887cba154bd326",
+        "e49ebdfb25fbb53e87ef4ce05a845440cba9f0282a081c83a6afc11517dd72fa"
+      ],
+      "preserved_narrative_sha256": "a75968cf9e41761bcf8b28ade0a92edbdbc73604da5a2edb2f28f6cf40cdf86b",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS1-FM3-PM7",
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+      "original_source_sha256": "ce81f7bb307cdf497b4b582d24385efb76c603b14a26310bf3fffd30d4a912e6",
+      "original_source_bytes": 104992,
+      "fields": {
+        "title": "b4ad8f315053a25a928899fcaea55299db3ffb3a67984a41b5e920d5a632be56",
+        "pm_id": "2c5469697f73f5c98545da778c42ffd30f9c8b071776583a713087ec3a9504a7",
+        "mission": "fdc503448e0119e033ef0ce7b4d779360f1f5f13f9d4c987c75117b90e60f31c",
+        "parent_fm": "25bb5d6a45c75d161be9c76d776f4b918bc68bd341411f625e546a04cf386856",
+        "parent_brs": "3dd5023685ddfb3616f1dc6acf40697a8074e95a1178040e6772b4cf68b30616",
+        "summary": "91d9d48054320e5c53aab69115865019b410ffaaa9c6612422d8bb43a60e6104",
+        "cofactors": "85ce1ec5d01ce595c6eb85f43909e0663940de4e99cf504e1e7045323c299840",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "f56c65b780a34dbfee22e0b6407de12e4c8d3d67ce5320b7af6fbdff35205714",
+        "dietary_addressability": "2ac3b4ba356fe01deeb0cab010c1f7d93d4cb92a84b61dd07650365ba31691dc",
+        "claim_ceiling": "b57bfee1c386f292033114979ad8c7c707c0e8049a09046585a05c7d59bf092f",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "d5e60d3ca53c01c4da8c8a16b182bfe1bc5717412ea1208f8a9806b9b2f5bc3f",
+        "dietary_lever_atoms": "fd0e10f24a2c5c5ee6c1aa34d297c60b7d344e8f85b621ccd8b318528603ec3f",
+        "dietary_lever_presentations": "1f2d774e8db5289f3ae2f6090840675cdad3808fd67a2df60cb7ca77a42f7d6e",
+        "phenome_relationships": "c8015ce9515665f20fe3b2ed065460baa24b54be36522856cd1edf5d3daaa622",
+        "references": "a9db9d02b67f8a75ec76a4d5a92fb891dac07407c6252d97344924961e5678b5",
+        "kc_applicability_adjudications": "de58fe62a85d1dbf41c142247c46229b1ae84f309f7a2834c9199c586a00f407",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "scientific_findings_intro": "390bc71bce54cd1783bf9511a66fc7069d005fef2c2583a0d95f0069b398177c",
+        "scientific_findings": "dfedfe9022f76ed3b91ac2e91d9f3e4fe4290caca0c1e0cab38d3379dc9d9c88",
+        "pm_kc_relationships": "aa8b86af7a23659f1c73022668de6e54084a4ef5812dafa68eecf99ab639d2a2",
+        "key_constraints": "57e7983a9f86ac5c0f52336eb8d48385fa8ee244bf755188ba294c2c5420757a",
+        "kc_adjudication_history": "dbd224166d5977f2e9103006c1d9c76498583b3c88aaece716405fff89b720f6"
+      },
+      "existing_findings": [
+        {
+          "id": "PM7-F1",
+          "sha256": "a3278a4c9830d384aa3c5a0c78fe826fa7096cc970df4867c1504ceae343c8eb"
+        },
+        {
+          "id": "PM7-F2",
+          "sha256": "91bf6d8dc0a3a2879a9df1d567ed40c4b6885efa3d5053681d17376db32b2908"
+        },
+        {
+          "id": "PM7-F3",
+          "sha256": "1d6546a588e5cc04177c0d32723f4652c3d9d5bcc7ddf5ae9f3344d9807d65a2"
+        },
+        {
+          "id": "PM7-F4",
+          "sha256": "a5e4f5285bc747420fc8c6d9a896f21a81780bb20a69108ee698bbe1b122abcb"
+        },
+        {
+          "id": "PM7-F5",
+          "sha256": "0cb54042ae18d3b2701a635c2d2f48f9f38899adcb83344b9cfd4fc740cee98f"
+        },
+        {
+          "id": "PM7-F6",
+          "sha256": "f9210ba245c0a7efd7a4facb7474e2b5ee747bf0779950501b7cc32a85c9a335"
+        },
+        {
+          "id": "PM7-F7",
+          "sha256": "45474336e0c7057294abc75e96826667c4a82f9b2720ad838c6afda549ab2054"
+        }
+      ],
+      "existing_references": [
+        "41678ad6dc35704d303c4df22e4e83f56f78795003d1617a8aaee607ee798d75",
+        "db1cb7e4b9b63c5138f72086ddfdab89aa7fba4aa562184ef291b39f3d76defc",
+        "44415b1acfbf693c1e15c6891bfdea5a0fae4c69b5bf609073330d90e053579e",
+        "4c723bc338d5d3c996a1a039d89cb2c7718c0181f20eec91cbf08912ad4cc171",
+        "4cf32177bb767073cc0214d87627f2e1fa6ec716b6eefdb4265f2f021c3fba3e",
+        "e9d81ff4f270f3b6f1a803a40fb3012d4c8676b6668e2e509d78832d64b88ad1",
+        "8f3cbdc2a09fdf6bba726c50d77cd3a4b1cb0d2b088846ea423ff5dbd0650add",
+        "dcbbd1dabf0bb2f95f847ff7e1086d4efad8a1b9fda329390f445e8512f54c30",
+        "9c3038b70201c660a26b875bf08bf1d80cbd0decb070776a0d75be87f9324263",
+        "7dcf2fe4cf3de024a5a5c86494363344d5376317a5ab2a7b67bc42ed9d2212d1",
+        "7a8d16554f04b59fa5f8073cba1a1258792204b199fd5ac20c673be78b678b44",
+        "2bffbc87f137472cce91ca78b65a0595a7ce3ae72c62846095c23d50bfa6ba30",
+        "ce326f689bfa905951793e611fdbb43fd3a97e3b89b92ba8b265dcb91a5fa5b2",
+        "5b271a9aa21cf546239ff255cb53b6c31a65a562667df1e11fdf97b3f81e4af4",
+        "61571d989e0808ba86c46ef0eb408cd05181f99d6ebb6a1a1c131f492501a2f3",
+        "410af495bc6c23fa849edb3b7b6778155c38b9a7b6b67b213e8daf85fd6910aa",
+        "579b73b3392d2a45b544fd7cafb89347ef4d5d9a435f1c7e4d59d589fc6c9ac3"
+      ],
+      "preserved_narrative_sha256": "1b718ac38021c6232ad95048ba146e5e8ef7d56de142cb679e7c8fa929c9401e",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS1-FM2-PM6",
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+      "original_source_sha256": "3647126cfff7e25bbbce191c6b054b05e76319fe056479d454aa99d45fbd634c",
+      "original_source_bytes": 82618,
+      "fields": {
+        "title": "7c2a41408f1e31df620407ae1c3526a10a6cadd166bb35d9174997fbcda8b78b",
+        "pm_id": "620c7b273fd0ac6aad69893158785103a2e980d315d64ed525a11887def8507d",
+        "mission": "881357e832846f1bf34c5829fda3a883002886e6b2bea6c6d40afd6be082048f",
+        "parent_fm": "83d7cb99a21a288a21c85435c3a13d1fa8d09a4e8f5cfd5c34ee687484e01b41",
+        "parent_brs": "3dd5023685ddfb3616f1dc6acf40697a8074e95a1178040e6772b4cf68b30616",
+        "summary": "3d27bf912d5baa4efb96864201108f4be25d3bba6f16eb7d5b561978a0886d4f",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "bdf142c09a57e6d0f61252f81812fa4edafb354a3accb9d54cfc4428c88e93d7",
+        "dietary_addressability": "e095a134d1ac99d543b61895fe3aa0281367b29099ec19c390697397830b729a",
+        "claim_ceiling": "99bfba8d818c0362218510204ab8f0924fd1b77c56cba2f0f2a4516518a42f84",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "d5cdc6b7354c03e4a3d8406a5e22c444b5676b389e98544aaa5624b4388eb83f",
+        "dietary_lever_atoms": "7f091b1ff2ae770767641751fa4ee241ac6152d15e21ce206734ad3116af696a",
+        "dietary_lever_presentations": "53ad0399223f5127eeaa197efee1d6824d4f70ca58e3d080735e63af8a43bef0",
+        "phenome_relationships": "470cef2019b3c948b6adfe6de13ccb10302a4f824c706c44ee561dd5b2d1b4e9",
+        "references": "a2609294554a9d7285a1d8590526a1698ff64351fcc8e3100329926bda8664bb",
+        "key_constraints": "57e7983a9f86ac5c0f52336eb8d48385fa8ee244bf755188ba294c2c5420757a",
+        "pm_kc_relationships": "889374d9bb8a898754db390904661f61a3bb667d5824086666c634222a3cef19",
+        "kc_applicability_adjudications": "c9920698bb1c785f70ef93715c380ea0d81f35fc701da95f09d42bfad51a2c83",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "scientific_findings_intro": "b7595b85fa617d7db39c32a037b19571f2234b280a90db64e3c94409b53ebe71",
+        "scientific_findings": "683253478ebdfd4fe2ed4146c4b5d9f8e165ee71a771c2360ff4014ae248cd8e"
+      },
+      "existing_findings": [
+        {
+          "id": "PM6-F1",
+          "sha256": "5582ee61680c820d85de39c49eeb2dc5bedd2b19acd1c206f9494451d9271dc1"
+        },
+        {
+          "id": "PM6-F2",
+          "sha256": "ed8524c609beb78e90fd4f27b273f4c151b7fca1f3d3cf113ff5e44816458efb"
+        },
+        {
+          "id": "PM6-F4",
+          "sha256": "9476af91a655f1273b109d3dd6751d27734b85a8a022f7bb3d4c32551dd20a7f"
+        },
+        {
+          "id": "PM6-F5",
+          "sha256": "bb0274db6e01a060decd910b69f86908e5b8a47d8859c4519d03ed20b7c273a4"
+        },
+        {
+          "id": "PM6-F6",
+          "sha256": "d39050278940fcc8e960a1df58028ccbe60ce42cbc15c3f28247a2edf18461aa"
+        },
+        {
+          "id": "PM6-F7",
+          "sha256": "6044cba33b13d341b1ec39c773801726815588d2779db419054d11edcfcae279"
+        },
+        {
+          "id": "PM6-F3",
+          "sha256": "88120b4327e850eacb7d116627c60d54eac36cd7face98707c990916252b74bd"
+        }
+      ],
+      "existing_references": [
+        "3ccdc00c8b388085d826be0fd5197a3439dc120f997fade11b892886f14387ad",
+        "b2e7eaa456a4bb58c725daa435c671a989af9e14b64ce53fa8359d0717605af0",
+        "701255942720772fa831b7fc47e04802df63ce7b926ef4b30088f9958e8537aa",
+        "e6dc0dac5375915d4b196f9e558e0e2fa4a2eb521cf536a03b3b7b375a4b9fa4",
+        "24610c498c5eb189bf4f3543398348b82f14125c9096912fb6c9652662e80382",
+        "7e774527d95a81372e57648bb48d4f024e61e87f59332da55a387e60a1977f62",
+        "4e1924598369b558b64f4eb9e288566a74a87a5ed85f6bf61d5cecdb659ca3dd",
+        "18f3665b7cded086116c1d2feb01eecb2639b7e0081a521573429d9df1cec451",
+        "d690dcf6f9decc8d0c31260a430d6e694dcd6a2cd0fbb74d4c0400bd8954f082",
+        "5de4b306a25897f2a8134bfd9af278ace739276b373b6f6b87f7e422b04b6e80",
+        "ba0de56f4538cb98c04e513a9b1fbd5fae13c8b1e5433523cdddd25dfeaccdc9",
+        "55acc1e93713228868f02d5ca607538002a9e7f5f93e0301300027b4a705be3d",
+        "f5c9a421898de63f760c0bb1437b7b51d872388ec477c61761c260e005a5e825",
+        "b40724f556e7426cd2284b1f8c79d997fc3c11ca4ed248ef69ac193def8ad4fe"
+      ],
+      "preserved_narrative_sha256": "046f2f63c91cc205dad04ec7b00cecc9c6bb76d40a0c5abb1f0a510f6b1c728f",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS2-FM1-PM2",
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+      "original_source_sha256": "2c5df192ef08eb6b1469b7d27131f174e6e59dde0b27e61a2fada0023c3e6018",
+      "original_source_bytes": 118249,
+      "fields": {
+        "title": "1922054b216c48bf0728e6ceeb38b6190cdd00ba0740ab90abcfbe18d4412e4d",
+        "pm_id": "47540943169f3115d5dcf1a743d6587c4e312810e7bb190d2d9ff91fd887b7be",
+        "mission": "6762037a24e622b705ce63ee3567991247e2b76d4d0209ac11685f45257f99e0",
+        "parent_fm": "3b326472d0751003af7d56b4584dcf12b8115a6a1554b04e6086fac696be26d9",
+        "parent_brs": "e1dbb6cf0d4e871fec0775b29ef74999101b1ab1dc43cd0ee027192f8aa6d014",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "summary": "a855097680733df26a8bc462fc6d38ba4e8f65faa1364f86b237b629c6b969a2",
+        "kc_applicability_adjudications": "3d338b8671e369aff2af3ce6307ea2859f6c4edaed0171b589f424bffb14f66e",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "pm_kc_relationships": "3964b5b6ff79bf36fe9f8ec985a7b1967001958846ad9078a98d7f551eecc48e",
+        "cofactors": "f0a65204bd7663453a92be10703ca2fca0f1a28a2a6d16479a7be284f774b747",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "cbd1e7feb7787305178726bcc374002e5f7adc66a25d769ff102e019346459cc",
+        "references": "2779e75f943a825abd2db102891e5cb8c236202af56cebda1832804e6bc09be7",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "c32f307ed06e12c9a7a2737cc72456ccdbbc1eb2dcd4e98ae405bf9283a6f13f",
+        "dietary_input_traceability": "01360e78b892bedfbbd726f2ccc6ad23d58d063a153ddd52ee1fe1094edd6331",
+        "dietary_lever_atoms": "cd55add82260ed149c330c5c7b5858386977d7746a6a423518f25114028166be",
+        "dietary_lever_presentations": "93b0742943084424879eee064bb0c39d432111e0b51f13e8fabaa194fd42dc2b",
+        "scientific_findings_intro": "eb5e4401fc9f5882b4c7a8e429d84d0f3ec46ab4c61f5c412ad732eb447f032c",
+        "scientific_findings": "72e68ffd4feb02c86a943f51bd9a73ceb03c5853cc91dc3a46ceafeeeef6aa56",
+        "kc_adjudication_history": "ac403f48fca6b4f9caa90c5bdec65f57349add4610e263d566a4b4c328dd8f85"
+      },
+      "existing_findings": [
+        {
+          "id": "PM2-F1",
+          "sha256": "7c12f78be204359080a4622041dba5b855b7b3a3c367fea9121e55bb50027597"
+        },
+        {
+          "id": "PM2-F2",
+          "sha256": "6414145336c5dbeec98d3edbd30c2d41818d782b00321d7f4d5d9de31e23a5d6"
+        },
+        {
+          "id": "PM2-IC1",
+          "sha256": "80d65578b7868f2d1c37fc414e19b5cde3b4a47c7e5f5b9d7943450c59974873"
+        },
+        {
+          "id": "PM2-F3",
+          "sha256": "01e73f252b78900263b471b969c6515a1e31f67131de0481311b134e8e165953"
+        },
+        {
+          "id": "PM2-F4",
+          "sha256": "6bcc5028e91eea3e95e0a7d48e360a6bb1bb5478ca9dcf4a06b07fe5ad51b103"
+        },
+        {
+          "id": "PM2-F5",
+          "sha256": "90c743998f2c7a3d7f0471998a63025f617a06b1fc0429c41d0f8e34c5f220f5"
+        }
+      ],
+      "existing_references": [
+        "733f780467af431533243285943aafa3c081300d6b8a88ffbe027fa9217e976f",
+        "f665773d8c1a00e34aa9f7bc720f52a9ecc351344cae34f5a231b3410fc823fc",
+        "1c81bfd4678936496abcb4309cd635aae7037069ed988d318e9f2e1bedbfa6d0",
+        "d649221ed7199dba4e7b9d99eb1553f1cff972fe8234f67fe9f389a59f91be2a",
+        "789f234307fbdf75a813e86446a8069fd37d41faf5c364ec48afdc4accf7a495",
+        "1c6a3d42d4a639a89f2ee1de1b60a637d67be3bd4538c7d870e610f74a45ce4e",
+        "528075f537d903805c34236aadafe095f3b61b1a2c0c7181f414f2c1b75c10c3",
+        "307cd5bb8598da32867eee766b8a2e30a2f3e6e4b28931f38c5d419e02b95439",
+        "cb4d5188046dfdf6597a5325c30b658bd8050db0ffa6f7d9498df188e4d16c18",
+        "06a4873181915f6a88b3bb272b6c516fad1d69875a21fa400b3d2c4acdef261b",
+        "4231f33b8508ede0c9df90dbad904639f8ebd0eaaf0f46abed52ab91b976a377",
+        "8aee06d0e76b0bafea61095dbb5123246583652f9149f46806a5ececad950f38",
+        "dd2eef21296484819ed7f9dead975f7132bce98a7bdaee2a6f450a44055252da"
+      ],
+      "preserved_narrative_sha256": "4e97c96ec7c81c553e9c6d48fca534abeec46f39f2226f5cfd9f471e9dd9a292",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS3-FM3-PM8",
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+      "original_source_sha256": "623da407135b85990132c3792c5faf9783e9b83d8b527f679897692725f18837",
+      "original_source_bytes": 38615,
+      "fields": {
+        "title": "8cb4d2076af7c0b05950c6ba68e22e66e30fb10e8ba7e734d18ae119cd2d97b6",
+        "pm_id": "9d2c01993e067f0782cff634a78e1b735c3f776f81471f23ac2786fdc879e4ce",
+        "mission": "66df9320288c1d01d0b91f2ac99c3cb4e60e9272a27ca71b993c59efdb31f38f",
+        "parent_fm": "394ae0ef46bd6e6fbc18e4d458ebd2090ab219743f479e636427e428634c100f",
+        "parent_brs": "88d71d463bd0b0d74284d087f136afa51f1b2ec06a0e55e5eaeef39d2945057b",
+        "summary": "8e39cfb41cf9adb2e0051eb259f42a2aa1a83a700557765bdfec29e9b62dd379",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "cafcd3a17fdeba2cc5e17a06bcb5f5ec9779ddd7157bc5b43b1a089fd95881aa",
+        "dietary_addressability": "e095a134d1ac99d543b61895fe3aa0281367b29099ec19c390697397830b729a",
+        "claim_ceiling": "99bfba8d818c0362218510204ab8f0924fd1b77c56cba2f0f2a4516518a42f84",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "0a2f627a64edebee498356bb61614469fd6bd582dbb9599a7c17fc1605b764db",
+        "dietary_lever_atoms": "5da3990a69964b8cd987c0c1a7da7e64a212c670b9a7991123e4ba7a6050a4fc",
+        "dietary_lever_presentations": "5aefa0479d30e51e056d159bac8aa0f08a3992067cc00d5680ae9c7fc82d03f4",
+        "references": "6415ac4e492918e7a3754dd876d10d36a57a04e75d15bbf4f5741b0c67564227",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "26e9196e6809e1211f74b62f2d3cb622f5640b2c0759ea70811227cb5c536526",
+        "scientific_findings_intro": "28bd6870fe72a0281d526edf02d98f7a2620b54dfd96b6c681b51fc4b6bfb848",
+        "scientific_findings": "1f8ad08bfaad6cdba160cb96246552ee974abac6220b8f05cf533e23c01094bc",
+        "intervention_dominance_assessment": "79dd150c253d959000be44f64728cd69e50b393e2aa54c690a0d824d637b1536"
+      },
+      "existing_findings": [
+        {
+          "id": "PM8-F1",
+          "sha256": "733dcda2c5f9d0f6559893a39b6d6b6256134d7966a8b64ea222a1c9a0bb2995"
+        },
+        {
+          "id": "PM8-F2",
+          "sha256": "8af925d350db95280e09691f77205aa63ce3fd4de26e18f7b80f8ea3efdbc442"
+        }
+      ],
+      "existing_references": [
+        "4154ad0ff70c589dcc8a8afb3abfe7d6190f4fff0cb9b05a6b8dd7998fbeb81e",
+        "56d58853059f64865dae3211199872fb5d261854d910e1cc7000b325d6e22499",
+        "0849510e855fbf88b43222ebe950840503ac9b1ad3ff3d26f90671e93ea4503e",
+        "68504b6d046396274cb6bf068f6f9eaa7ae4e72ea1d91474dc80ee282c5590f1",
+        "fe3072585417b69aede364e5cdc9989eebbd1f9d005e6fe3b4998b88dac57de3",
+        "94c2436d555ca399484c4d7729b44eaef42446d436198668f5af9fa24b5a6f43",
+        "cc3ee10c5e0741e12c350db4f39c22c92c2b87e3c0ce5b3b1ad2620f52218995",
+        "427b5e934aac3d9187b947991d34459e9ba396af33cce7fc34aa0b2a88eeec88",
+        "6b8744893c085b5efe8efaaf1d7269d8f290d42495fdb1b7cfe75195005e9d99"
+      ],
+      "preserved_narrative_sha256": "2f4f393e5e5fa77ad91cea1c854d16bf881699531f24137c997b7e154ef81ef5",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS4-FM1-PM3",
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+      "original_source_sha256": "cc1db65ade6d29c94843b950a3006bda18a634f20ec87a59293a5980b345d868",
+      "original_source_bytes": 57771,
+      "fields": {
+        "title": "319c244047c01d2ea68cff0b4382d4d1f6c3aebe158a70c096b24ec90f38a17a",
+        "pm_id": "60e0fc2d6a2acb677cb5aa8198b0e5c876ad9e9db5c8b94abf8eb5aef8ca109f",
+        "mission": "76e1cdf5d4938a11adfcfa5e94b72f711374bd48205a893bf695272e7e6b3084",
+        "parent_fm": "4aea13ae45c7f93c0c50860bd29548474cb9e481c0c48ce552f06d6df921a3f9",
+        "parent_brs": "7e57b3767102b521630cc594956ae076c1cf67f252613cc08300e6a4c60d8628",
+        "summary": "95f03224982dbc79ea06c607f6ddcc326076ccff3b1914ae43baa948a0682185",
+        "key_constraints": "a696b34c762262d76008b3682cd5378806221d91087646351416fa82c8ac5379",
+        "cofactors": "5253fdcde9d42cd5b79d0e8c17f00a47a6cd7b97807438862e8e1f3df56f8ac8",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "9eb03486d6c7198508c90b6c29e0a8d6101ef3df84ff44558e37443c26af5008",
+        "dietary_addressability": "c1e2aa5c07548e5df4c6ae909941b717e3bc08e407168cba2d01c9d2f9dde7a6",
+        "claim_ceiling": "1a623f71450c064df527f8c3397c70ce2b23381e9b8c4a25592579e42a76714a",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "012ca301a7996f7a9b5ce41b666dd17c324284ef38988c621773a3eb0d380afe",
+        "scientific_findings_intro": "6a67c02414524c1bedfd44662ad26017d7a6b5b0a6fe8c0d0f54397ae6f12ba8",
+        "dietary_input_traceability": "b0123050ffb72ac67dba9fd42f77bea41e681a99228a431a6eeedd3d7385a0c6",
+        "dietary_lever_atoms": "4d0f91b56c254c4a3b5abb54e29061e03ae3e034c3f7f97bc1316c19737eedb3",
+        "dietary_lever_presentations": "798dc1d5de3c50eb96821d9d8f45030172fe277a0f3df8be6583956cdec864fd",
+        "system_optimisation_practices": "07a0cdf4209a39439108946dff89b6b5f5bce51bef161a9853cc4525b04897f4",
+        "candidate_cross_brs_relationships": "41b6d2de0ac2b24ca8a85fc3aa5729680d672e7352e2a20361c9f65a8e64a4f4",
+        "references": "d9ef5b2fe4917dc92ea3f30ccfd8cfa95fcd53825e5ff4cf4f548d6732512c01",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "72c4584518dc46c1b035e003a55b2e26c014598cc7d3dd353ff04eb4d053a1d1",
+        "scientific_findings": "217a5e23e1b41b679d19825052445342d7646c2007d523faf7df16d0be10bcae"
+      },
+      "existing_findings": [
+        {
+          "id": "PM3-F1",
+          "sha256": "80b1e507c8070c5829e134cd39459229ed347f49bc85610d53afa9ab3471d260"
+        },
+        {
+          "id": "PM3-F2",
+          "sha256": "e2a90dbbc7bf797cd42490eaa6bad9db39c532adb5a04d0cb3f0cae96bd1ef38"
+        },
+        {
+          "id": "PM3-F3",
+          "sha256": "81f3376117a6c51600895f088f0a88c91a15cf6ee4dd826ab3e1bb142e579946"
+        },
+        {
+          "id": "PM3-F4",
+          "sha256": "83d37536af42cf50c1c1e335519ad620f4d300c0f8fef7fbcce10b6f0c25d4d2"
+        },
+        {
+          "id": "PM3-F5",
+          "sha256": "527f730d7ab0d246112b1c53c96508ba8b825ce98f008dcb4a0fc05983b62c99"
+        },
+        {
+          "id": "PM3-F6",
+          "sha256": "f0283bae457d37878f7172df0818cf4468a4993f58e7dddf7a4d8fb2991cbcb1"
+        }
+      ],
+      "existing_references": [
+        "07d187d55dea129a2743007da76d68e6db43fcf2a4800ef0254cad331d19ef8c",
+        "3d18d7def08e09bd5328139edae76520855deda8adfa20a12a892f3d69deb577",
+        "ff08a7a1e101cece540dbe2274ec35e358bf37abed4b929c9b16f27843273a88",
+        "cd6b60c56de42b401d97236d161a991d20c79e0c4f793d109fffd5c0da88476e",
+        "5285139db898cb3e7f6c0304eca91f9ac459d80127ce67133b9d1a5476b248db",
+        "a75252cccb6fa738e7d46b1858a83b7de1b6a16517163d7c2c1e8caf68df92e5"
+      ],
+      "preserved_narrative_sha256": "201796964548ccabb4b4b8d295d473e55441614530a043706c3485953a308516",
+      "allowed_additions": null,
+      "baseline_reference_issues": [
+        {
+          "code": "pm_references_section_stale",
+          "message": "BRS4-FM1-PM3: §8 does not match the canonical references array"
+        }
+      ]
+    },
+    {
+      "pm_id": "BRS4-FM1-PM2",
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+      "original_source_sha256": "60157c2f10d64aac14e83cd50d2518fafb9511b514b6931eba286428b7aea548",
+      "original_source_bytes": 71908,
+      "fields": {
+        "title": "db478b8dd1dd6424dfda4ac0906399866c431cc13c546b84139bce1c92f4351c",
+        "pm_id": "26ab2ff80935ac8169da7714a8b3b84c97d58c6e06c0b445329d4496335f0db1",
+        "mission": "46b0fdce177ed2f6a762030ed84f670e17f1fab688378eb1272deabc05b23769",
+        "parent_fm": "4aea13ae45c7f93c0c50860bd29548474cb9e481c0c48ce552f06d6df921a3f9",
+        "parent_brs": "7e57b3767102b521630cc594956ae076c1cf67f252613cc08300e6a4c60d8628",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "summary": "91d8cffbc4f0d8cc516d90cbfc06e1228afad5daea70fd2a81cacbdf20eadc2e",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "c5d50ab22c3a77cfcd78f6abe3d86ab3f07a390bf49550d3ab67536cf9d297b0",
+        "cofactors": "c774e5566fbfd0fecf5e2a9c0a2a15f5decbc54881645720f117d1211de4778e",
+        "references": "ce224b066292374daf1cc543a2cb9cf74ccd953426ea68e54c8ec6bea9fdfdfa",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "kc_applicability_adjudications": "5c46d550332a3232a6d69673f1e1aeb6d6eb0b70d76013032f2711450b700da5",
+        "dietary_input_traceability": "d4eba127f6cf02625807d94b23e6ae986995b8eec4a73dfa13963987da1a5081",
+        "dietary_lever_atoms": "1132b9bfc2d9048f207bb7addc013b330cbc08d80d4115f9ca062aabde6f116b",
+        "dietary_lever_presentations": "16194f96eca512f828f2506cd0e2d121b9a31368ec320ac1401311efd6147c18",
+        "lifestyle_priorities": "88b948daa7c663ea19a7b0a33e481514e3768d9d9bc758806cde9df361c0a68b",
+        "phenome_relationships": "2573eced2360a8c71e558bd5c48a72f363a928211008f33228de872e80c2e3a1",
+        "scientific_findings_intro": "28aa887e2529328f88f41f670ba117d60379de388bef4b87e29b2f135d1e2907",
+        "scientific_findings": "aee5c37bf6d55c16b078d786e73ee8b7e603a5ad81b97581012f7fed537fa61c"
+      },
+      "existing_findings": [
+        {
+          "id": "PM2-F1",
+          "sha256": "113f1ebf6d7aca8624a5ce26d58cecfdaaca95de44897a8736e300ba2019d589"
+        },
+        {
+          "id": "PM2-F2",
+          "sha256": "d367078487ec7e87284e7b0e16d03843e8cb4f928d1e814491ec738dfac1997e"
+        },
+        {
+          "id": "PM2-F3",
+          "sha256": "595f0742977f250ed11a34f7012bcb9df1063b389c87a33baeffd2c544869222"
+        },
+        {
+          "id": "PM2-F4",
+          "sha256": "f08d7d3ea6a65f8ee6e7421fa494471e81792e93adf7dbdbe1678f967dd44aeb"
+        },
+        {
+          "id": "PM2-F5",
+          "sha256": "e5cf9b693aab98bc52f5ba7e0f91d95559c4a76cc8cf37d986bf8b38f3ad7d36"
+        },
+        {
+          "id": "PM2-F6",
+          "sha256": "3cca0e9dfcd80ab7d8ac18866e4af31b516c75dca72754e5c26480faeb7d17b1"
+        },
+        {
+          "id": "PM2-F7",
+          "sha256": "f20039ff7af374e458a0238f638f85ced8e0d7bdb81f865723f97f545944e560"
+        }
+      ],
+      "existing_references": [
+        "27a2bbaa7e80c50e10c48950fdbae3873c1a482179a9deff02a5d85e65846fe8",
+        "ff9c548fc2e9b798d2b17a0230fa4eb7814dca202be30517fe4778701e525129",
+        "f78d37d7fa583ec14402e6080f5645f30c136e65e167874a15af061766153e5d",
+        "7ae2c52b55c882ea073d137331a7bf2f722417227ea2c4acd0e40bd8e884a828",
+        "c93986b80bd797febf05c47ac3a4e891226868eb86cbf31b5ccda6d4284f673b",
+        "0b2a7423f3f1cc8c88293449f82737568abb45e620987c931412670a65e924bc",
+        "3263d7fb80d330f49889df60a364e0d623fbb68dc883887848aeb0abeab7ee5b",
+        "f898c5dc34371808a9ef6142cede7e1ba8fdf91167c26e95b4ab1cc5861befc5",
+        "7f722f4f3d840212fbc8bb19ee44a96ed384ac2dfa3d784597981142e38a1d92",
+        "7f182959aab280034672e37c02187d8716b4117278390d0ad90a74ab5e3dd047",
+        "0bb3841a3dc4252ac574a66a2a3248150acaf81c69913da9975cf3432363535a"
+      ],
+      "preserved_narrative_sha256": "9bfd5ef949201ed32e2f50d75e073a5e95fee3cd414eb4a48bc360c712a264c9",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM3",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+      "original_source_sha256": "b082d512988588467df4856c11ee87f752e809a04f8995d7d6a015777334de68",
+      "original_source_bytes": 42074,
+      "fields": {
+        "title": "5537031edd881854cc965fbd96d3bb2ea5d85c0727f19bdcac2f7b045eba431d",
+        "pm_id": "e9696e22271f401f016de89d3ade9d56412c43e380bdbf3c2e705b1754c588c7",
+        "mission": "d58bb3ad56d9b641ed6e64b6ed6d9c43612b8ee1599dae609c29fcd1ff8d95cc",
+        "parent_fm": "dab5a96cccbf44504d9bfc03e2909a9d49d109fbdd2b2913ecc422b71b279066",
+        "parent_brs": "88d71d463bd0b0d74284d087f136afa51f1b2ec06a0e55e5eaeef39d2945057b",
+        "summary": "730214e3b429ca23d63dcf02561d47b291fab6268135b313fa2ac0feec7d8d7a",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "643622f507750d492b56cf85cd1cdfdc8977d4a34a59f8ddf9fd213fd2763a83",
+        "intervention_dominance_assessment": "f6a13faf84d03c31ee0b3d34407682a6705cab257784d048f5dbd3be709f7cb7",
+        "dietary_addressability": "e095a134d1ac99d543b61895fe3aa0281367b29099ec19c390697397830b729a",
+        "claim_ceiling": "03a9926e4d962e29bc147bd77c2e0b08ef74f9f99485c2efc85a010503dfad26",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "kc_applicability_adjudications": "814c1ed403f4208ccd4caced388d4fd8f1da7eeb4a923c6752880ed4c585c84e",
+        "references": "464d7bb800435934bd8155b0bd1d5cb559bd3c4074db9007822c7520ad7ef626",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "55235f450a3d657a87016fe6b86e230104f5be246c18c3094396adc1b1973ac0",
+        "dietary_input_traceability": "860cbf5f922983e4e3dedc74fe122555464ba571da9d23b92bef965e734af996",
+        "dietary_lever_atoms": "69136810ed08b129321d9da6c749cdd3dd812582dd46be7be4aae271494044fb",
+        "dietary_lever_presentations": "eb3db2e0d4de1153432c540f678f1fc5847657ad7a99011b5ceefedd5df6f1e9",
+        "system_optimisation_practices": "e49b75b05980438b56de2dc0032fdb8d591440d7f179e91898959a948ea5e5c4",
+        "scientific_findings_intro": "745941b25a2fd87af0aa1331437624fced9cd26eb71b8e8cf297d8ab9e6b2319",
+        "scientific_findings": "4e5812d5e071b67442a6d58c2d5f40ee4a150c0d99accaa0ee6777c9ed0c43cb"
+      },
+      "existing_findings": [
+        {
+          "id": "PM3-F1",
+          "sha256": "9079f55d5ee3cb458f82073e418ef265625402af2edf98833482f4d7eec1b6fb"
+        },
+        {
+          "id": "PM3-F2",
+          "sha256": "01f3e30e5b2c56286f55748ea6a712c626271fc98e360188d4f6af4b51ef0efc"
+        }
+      ],
+      "existing_references": [
+        "39d1d2f2476b7444ebccda4acc103068ddf11ebf6ce61bbeadf7df0cead0e52c",
+        "ff37b17c63d2f6486067860f9464780ead383ebbe27fac4d9a54d9ffc7e445c4",
+        "63f7efd57687a683bbef5d7f7ecac61a3fee406e38f911152d3b7a3c095f0a5d",
+        "d661f323a3db89c27b39b964b59e9a6ffb04a567f6001d809c512b4248fd4cc1",
+        "22673888cf59bd258c672dfb329ea92704587fcb3c96342b62b7866547341f3a",
+        "23d6164f4e404b7525d0936552dbb781a38203f42eac17fa43cc25648b420ba3",
+        "1f1d81cf6563c7ad14164004dbe246dc7b66fe69083731ba46b12860bdeb108e",
+        "954bff6b3fb9ca611bd80fd463b525cb0100a94342b9666c289a2b8dd5a92362"
+      ],
+      "preserved_narrative_sha256": "4e1067afdd4c8dcb2a522bfa63a003421c4f6eea075cea71bf282bd744ccadf1",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM4",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+      "original_source_sha256": "d8ab3dffc2cf80bc2ddb2e9da9b859eaf963aa5075169ba89bfc79a4057836e3",
+      "original_source_bytes": 47774,
+      "fields": {
+        "title": "9231e60aa18ec82e6e012ba579ab1460618d8babd27be674b4228d7823e1b31e",
+        "pm_id": "9710226bd42ce23a584fb955306c6c4ec56cfa8c533b31c82290193cd8b16517",
+        "mission": "bcd5c94634c670347baf2308727de9cd34c1aa6f76fb62ca603e69f6f188f770",
+        "parent_fm": "dab5a96cccbf44504d9bfc03e2909a9d49d109fbdd2b2913ecc422b71b279066",
+        "parent_brs": "88d71d463bd0b0d74284d087f136afa51f1b2ec06a0e55e5eaeef39d2945057b",
+        "summary": "c3258362fff672e4251a1794f493dd81c802d9b63dcf3205521313e119162ed0",
+        "cofactors": "65d841fd0325037b4c78c90f7eaa6d975fceeedba2e449baa46cc1e75df8a821",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "84ec33c904015cda0fbf32f0fc0d16e6beb80318b62978c7cf9d17c35f1fffa6",
+        "dietary_addressability": "2ac3b4ba356fe01deeb0cab010c1f7d93d4cb92a84b61dd07650365ba31691dc",
+        "claim_ceiling": "b57bfee1c386f292033114979ad8c7c707c0e8049a09046585a05c7d59bf092f",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "06b25021880cfe633440bb04c5c3daeda510a49901e663180469f536bb3769d9",
+        "dietary_lever_atoms": "ed5b1600304b0f5df1f3a8293b4482a1548635d54fc125c51eef57b4ea9de353",
+        "dietary_lever_presentations": "60776c526612c92e2b6b69704313643aceffb5d07ec04dad703b9330364a3593",
+        "kc_applicability_adjudications": "c86ea7930ed64cddc1697c3805dbb3f57275d1edb843fbd694e048ea606ad108",
+        "kc_change_control_flags": "72fa679e8f06ed4d3e88c17517f619f3c7bcad8112cf5bc090dfaec524d8e4c4",
+        "references": "148d66411f9d9b41ad04e3de0db175491abdd52b64327333cc5a604b16976651",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "a799b0b85b8af4c3744e8a4c3e7a937f0429f9595e681e0339f6478ba10d08db",
+        "scientific_findings_intro": "1865f989f6535ce052c3e3b82e48c35ad599a35bfb6c00a14dc8c9d7bdb1d709",
+        "scientific_findings": "46d09c5559b56f02530ed3ba613cc305892b0c1472d0a4b86cb0f39b668ebf3e"
+      },
+      "existing_findings": [
+        {
+          "id": "PM4-F1",
+          "sha256": "02b13b7050310f72ef763dc2b3c3ba3957ed3cad48b31d0700ee8001e2ef4ddf"
+        },
+        {
+          "id": "PM4-F2",
+          "sha256": "8de4a6e332c3666a27f453671bcd264668c48fed6ed036873e9de00d6b3d0284"
+        },
+        {
+          "id": "PM4-F3",
+          "sha256": "5e76c7fdced4b36a6aafd29e4a8c876a31832b1ddfe444cb9c68226940539a49"
+        },
+        {
+          "id": "PM4-F4",
+          "sha256": "e52313d11b8aeaa6b26727620cf500c5d63276ed0fc865ca320be39a06528ce1"
+        }
+      ],
+      "existing_references": [
+        "daae00dbf421b88b26ec9d1cd50943ac928289fe5c517624b5ebb01c92450a9b",
+        "e45ee268c56a979082008fcf274ac2881dd40910fdfff03bd71facb2ce40ea84",
+        "7c2215c58d647c5c89ae89755eb8aa5d7ebe79bbf39d892bbc9ee5fea97d792c",
+        "de40df33c2eea377a59fa894e0f9f6acfb679721925bbc193a2140b09c66917b",
+        "25f0b0910f8eff18d13d45bc27cdfd5a2a6ef8d1e28c34dadb9d252e55d221d2",
+        "57d4691f9e623e7b88558103d7a3ae2e44f9424cca197f0ac9a95a01c0af0e52",
+        "98d6e6ffebad2003f988d77a97b0250a365da2ec7ea622d01e95f54f4e82be07",
+        "25c10ea3abb1da13a5b90f16f245cd21a352f8075b0bd04eef551dc4c6472878",
+        "6ff866be8f77cc89141285ae11fc7a3e96ffce4bd7393e0b3362ed004eb7949b",
+        "1bb5c58f6728d058af62c9d89f1a8a0307432e7b4d8bb02997226f9e34949f19",
+        "775e76a673f1f6957694bc59007ebd8814caa999a2737532ac1306908b9ebd05",
+        "3ea50e5c3dbe0114d3495f9708cff90051441daeabd55e45955175da97b15de4",
+        "61317fe0e7eb0ab17ca27b2365421027fb4f4033416368c3c5bbbdf337a00717",
+        "cbaceb749dac1a26cfd3b1a1979cb53afcad86a955d243a394b9576dbeea7ed6",
+        "83e4b979096e3c8e6e10976f3eee67368122f11201ef88d9188521e6f6d28e01",
+        "286649b3856103a886e8c1197905c58af8a3808165a805cf86bcb8cbb8c0a0b7",
+        "9ed58edbe91d7dc472db63c2c507407f9598fa911e28af275c73bde229fb5c32",
+        "4e1113de6ec47e8c34e8ae1a62a2a91b20f232e2da30890f5e70050bfa286230",
+        "1637b02f81052e838e62d49cdf1f4088a8f861486e1ad1e49f43b3c66c1285d0",
+        "746e2506eab76dad79596f632c6bc4fdd0d89fe754061885b4978f15e47a8aba",
+        "df4bdbd6940670260d3677a8ee883b8a86f7015754968a36362ce6de18fca638",
+        "fe1cfa5e0b84f73797c9440d4de99f6bd8d545a9c38e32f2ef8a38eae5c576e1",
+        "0ee5370aead99f2ef50005dc6603d6e4b2cf5a736c26132a61f9bce13ec959d9"
+      ],
+      "preserved_narrative_sha256": "b39eb3380ee72df02ba9c3f47d221f79eb26913fe45145c14bf8c5ccb12c2950",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS3-FM2-PM6",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+      "original_source_sha256": "64aac2fd33c2155a15a4e72990aa128f159a111600de51947772541aa5283373",
+      "original_source_bytes": 31664,
+      "fields": {
+        "title": "4c899b5cb2824d1ce33acec58a9bc03e14939d4b016cd527e24a4a2eb09bf925",
+        "pm_id": "24fa4932bec77786ca593aebcd100156ef068c40b37f587275fffbe159e7ae6e",
+        "mission": "824047aa0cd8dae0ac162a40f33af6fa42114218205424c63ae06b8341382c77",
+        "parent_fm": "dab5a96cccbf44504d9bfc03e2909a9d49d109fbdd2b2913ecc422b71b279066",
+        "parent_brs": "88d71d463bd0b0d74284d087f136afa51f1b2ec06a0e55e5eaeef39d2945057b",
+        "summary": "9d26874f4b02ef8d3b2ef355067c3f781ccc0fd2c10483598025276b1e9858a9",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "7929cf4144be7c4fcd2f335c507dbf41eee306c78d5d996a02db851f3dea794d",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "b2cbc4e2e5545a6c43f6f8cc8f0e4766773fa6c83d238076313b6fa1e349caf6",
+        "dose_sensitivity": "b2b4411048dbb60636923f041287fbe0258ff2a8fc6c3b2446d58dce72d5ad24",
+        "dietary_addressability": "2ac3b4ba356fe01deeb0cab010c1f7d93d4cb92a84b61dd07650365ba31691dc",
+        "claim_ceiling": "b57bfee1c386f292033114979ad8c7c707c0e8049a09046585a05c7d59bf092f",
+        "mechanistic_authoring_required": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "evidence_status": "8d6517bef646eaf5e1abe857e86e0415265497a1b5b1c6bb06d7fba03f53bd43",
+        "dietary_input_traceability": "9c3f98a59614ec2cf736ffa4f692cd007c84bd4549ec1cab07ce5a246f0dfe48",
+        "dietary_lever_atoms": "671ba02b6be73e2a8ba7f9eb1110eeb1f4eebcf0e1f792c5a60ab6189946a3c7",
+        "dietary_lever_presentations": "2439020fbb603418f2dd227b12fbdec07dd0f5750b5cfc08db9c04fd82d96b58",
+        "kc_change_control_flags": "ed2bc1fc6ee5d851cb1e61a71946e99a7f857d8165cbc382a8b91e4446615bd4",
+        "references": "0c43f8a7ea4c964db508c30b2a11d8a73072b63d601d5caaec4b8bc7fbb86d45",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "a5e2adbdf2aa80c5aca402440ed7dc5175cac43f64d8af4f3e15649954d823c4",
+        "scientific_findings_intro": "5c0526647dd243cf308852c26f884869bfa4a0374e41c640e6c1a8edfb9be7ab",
+        "scientific_findings": "e28e14dfe6f7833195a87d6918ffd3dbfb4eee50392533ed183f62c1d55f1f90",
+        "intervention_dominance_assessment": "edc1d6c3c56de7a487292bcdc964482ed0bc759d5244e5a1bec89eac56311d62",
+        "kc_applicability_adjudications": "0604f7496db2e49cc398627d2e7cee69604bd5989398c5e1de9431ed28821111"
+      },
+      "existing_findings": [
+        {
+          "id": "PM6-F1",
+          "sha256": "1e75da9270e2c43c6ea0cee2d19cc09da893f9ee6b488c6f577b889808803a3f"
+        }
+      ],
+      "existing_references": [
+        "775e76a673f1f6957694bc59007ebd8814caa999a2737532ac1306908b9ebd05",
+        "f7f268ef37163d50d47ac9e6a3a70792458282711d3546987cd73dcaf988d1af",
+        "9ed58edbe91d7dc472db63c2c507407f9598fa911e28af275c73bde229fb5c32",
+        "c64cf609b727c3e505b23b89f41ab3ff3e1bb81ba8f8fec24301d9af546513fb",
+        "cee201b1e5f412ef5aae13c74d8836b8bca1cdb521671b30eee3a0595c9837cd",
+        "6973580b6244c21ffff4f46688c34633c88626914e743ebb7e57294b460d02a6",
+        "4c86e45832d4a492e77acddb27445d8620fb97450eb89851f58e562a26d71afb",
+        "5c748c6044e9561d3052841b8d1c691b473e10f0d3de274ea67143880a977c66"
+      ],
+      "preserved_narrative_sha256": "7ad3982aeda0ef43c6774c645bc46a32522408ed8d0b67c70bf5c5d2a9611e77",
+      "allowed_additions": {
+        "finding_ids": [
+          "PM6-F2"
+        ],
+        "references": 2
+      },
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS5-FM2-PM6",
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+      "original_source_sha256": "7acb38b2929770dea73c963addc4ab7b228ed25b3c7fcd4749cc90eeee5db0b4",
+      "original_source_bytes": 35870,
+      "fields": {
+        "title": "11c403665941f83ea6161a01f677d03b478104cb8b1bc1b17f86218644d2c89b",
+        "pm_id": "10c41f542d8416e84e7b23c925152fc22b0ba6d30ffc07b6f64563fbd43ac7d0",
+        "mission": "1b9e928e4432f9b6d536f774397c6b3c5a8ece5ad47d5c24dadd040420e6493e",
+        "summary": "8bb5fb3c699bac1348764185d09b48c4a94d2e02d2f7a97278067f3aa085c2a7",
+        "parent_fm": "7225a88c932040766971d63544fbeff528c615e94fb19583ba148a92057549bc",
+        "parent_brs": "1051a1cd820a1c884831a9be60a2a12b1fca158b4116f91b425d3df5bbb47d9a",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "de3bb5c0d65cf7b76625a7815f670ec9dbb78fff558131d428a0186d3c51d29d",
+        "intervention_dominance": "298515a9a8d3e393bf853121c5a1bd5ffba577f565d396aa4d727e413be2e8cf",
+        "intervention_breakdown": "d9fafdc0fce4cfe4c63119f10346055c5182081f6503369915f7cdb819078d71",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "ed65168796d7287935e50128eea70eb2cac7da4c6c3cdafac96c373b2e60463a",
+        "references": "48d433059ae167d51d29e986bc43141572ef32d9be4458abdf2c8820b2109305",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "list_image": "77767250d6028d40d0a44711c910894e5ca43ccc169daa0212faa1813f1983b8",
+        "scientific_findings": "221eb17f5f19df98243ffdce808261ee38792b21e3c8daabe565f74a0f886946",
+        "dietary_input_traceability": "4e27e1d4c27d876e33671569bed14f429a85b0e8f3c844917e6afcfb92a144c8",
+        "dietary_lever_atoms": "a140cd15c7b674fb69185ba70f410530ae3a1e206b7b0b6a98b6e18bd06b8ae4",
+        "dietary_lever_presentations": "22c7f3b0e0f72fc13ab44852ada5234aff41f83dccd72be5149bea190db897db",
+        "pending_actions": "b05f540d21c3b806817db14e7e976d1fdbd3e078d525f0bfcdb2053dbb4d2bdd",
+        "pm_kc_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "kc_applicability_adjudications": "835359b387460c1b5f6401aac94c892ecf44388b10b30545461d1f5213ef8b38",
+        "kc_distinctness_review": "c1fe1dcedffd00f8a9b5db01d39e7de0222a797afb8b36dc894d0cc2b9a2d071",
+        "pm_lever_layout": "cae63a3e4febc28af9ef290623b26d24ba2d35ae1abe72a4390be2bc5820f5c0",
+        "intervention_dominance_assessment": "c7389f7ece9eb9b70b2b8073b9bf9dbac2f7296d88a38cdd413a57ce117e1940",
+        "scientific_findings_intro": "6b93f53695c7e2480d7006383068cb5fba4d8eaed47f3d62c191d3e38f7e0cfb"
+      },
+      "existing_findings": [
+        {
+          "id": "PM6-F1",
+          "sha256": "2d21f8a69dbe404a956e26637c260082195f2f52e80a6860e897a304c49a9756"
+        },
+        {
+          "id": "PM6-F2",
+          "sha256": "26920d79e72f9741f4e4def4e7bec5cf482ff5b7299ab9c60d3116b431311fd7"
+        }
+      ],
+      "existing_references": [
+        "dd259901ab9d896fd799741102ad612c2142bc875cecc87dbdb32240db401f39",
+        "852a8a95753d7a7de291dfc01e9194606bb9598e16c22dd108b89e2662289fc9",
+        "62cd3fbf523606b3c66735add2b3536c64a57e9d6765532c892f06353b0e7838",
+        "48f3ddea92d4f6580dd9f500fb789e7ee848984103295fc361ca04cc2ebafb9e",
+        "0e387f65646c4304e83f9fdaa673988c73dd3ed3a796b8b106dcca10f6e713dd"
+      ],
+      "preserved_narrative_sha256": "8e77965a672afeffe601f05af36d25d7206b6804ad975ae0746485a1fb1d78f7",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS6-FM1-PM2",
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+      "original_source_sha256": "a4c56413cae9caaf82adef5e752539b2144078506db94ea656a463bd1279eb26",
+      "original_source_bytes": 84144,
+      "fields": {
+        "title": "e6e02e402e8ca772c61cf6edf3ca67b9e0a3eac1d1aff874f93e9048cbc4a28c",
+        "pm_id": "65636cc46adf78535b23e78277f343f9c881ebd7e19959a5af446301c09f9d73",
+        "mission": "4d2bd18f914baaa5739a0d7b80eac0fa60dee8c08c60ce83a764ba535f407b68",
+        "parent_fm": "2527bfbd0d63dbb2149c8f8b3a1236aea41207e8071ce722412de0f1511b371b",
+        "parent_brs": "baa3bace9a8c654e896484c6b37108b5e244fb8e25eeacd7893c4718e455f34f",
+        "summary": "e835cb7adf43687bb5816b5b10e7896c2d5a89da79b111ac7520c426d5ecb9bd",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "5fbd1f46d47e065276d651bc65649b84ca84508473918de3a59cd9a42b0963c1",
+        "intervention_breakdown": "48a372c118ca95c8b4475807b82ea2a48589ef87442d0b0d91e1b4232e541dea",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "7be4f056ba45a214fcc2564086fda67c2cf740cf44d1cbaaa035c99515529c9c",
+        "references": "964ebfad5bfd6fe94e3e864baf2c390c5701198ad1dca2abc5831c33ff61028d",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "phenome_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "list_image": "7b1403eaf668e09eb23b9b9a472bd0c369f76b44f57b1950f4ff194b89d093dc",
+        "scientific_findings": "7ac1a26a1bad0fb73072a0839309e4c21c7f33314d73235f11f9ff7621681615",
+        "dietary_input_traceability": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dietary_lever_atoms": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "dietary_lever_presentations": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "pending_actions": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "system_optimisation_practices": "be01b51e22e8821dec0a66dff904903de53ca59ad8017445d95cf8e4bc865074",
+        "lifestyle_priorities": "a4bf8e1064210220e35573cab00c6ae4f4ae7ab0355d85944a58db99fc182e85",
+        "pm_kc_relationships": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "kc_applicability_adjudications": "78b215e4bcb86cc061a7cdeee6564805295ccf1dea7417c80b5cbf8e3f9680d5",
+        "kc_distinctness_review": "4a1067632b1fd2145c6a4bc32e9134b8a8e72b669dba03b9333d9cb6bff7f808",
+        "pm_lever_layout": "cae63a3e4febc28af9ef290623b26d24ba2d35ae1abe72a4390be2bc5820f5c0",
+        "intervention_dominance_assessment": "97c74789d50f884b5fb3a4534539fddd89150408e890f3002f450f1b07548842",
+        "scientific_findings_intro": "c18b8ec5d8b5efd7714b248e477ea094c8354e432f2873f43c3bfaf202a65df2"
+      },
+      "existing_findings": [
+        {
+          "id": "PM2-F1",
+          "sha256": "925453ab98aeefed2d387609ab4a840af83f2df3c464edbee517aae9dd820ea8"
+        },
+        {
+          "id": "PM2-F2",
+          "sha256": "15b370d75159e698c55e2f3a4ca23d2f28ec314975b1a45511ee5a6895b9a898"
+        },
+        {
+          "id": "PM2-F3",
+          "sha256": "0ece3f3cee1cd8c02bad6e8e12ddecf553b843d45aa825cb14c40de282a0a772"
+        },
+        {
+          "id": "PM2-F4",
+          "sha256": "7c25fe1952a9cc077808ad8197d9efecb4f36afcfd405a74fce1a59be9b7b60d"
+        },
+        {
+          "id": "PM2-F5",
+          "sha256": "60ced15606750da0f73417bfb30774037226495cfdb4f3b28896818a363e2a0c"
+        },
+        {
+          "id": "PM2-F6",
+          "sha256": "847d2afa4826faec57199f0d91ccefb722db96bccece1086c404a26491db6ceb"
+        },
+        {
+          "id": "PM2-F7",
+          "sha256": "e6da90a1c5c9ca7af7fb4f1a6ebf499a924d3bb02f4242a616c8d406849cefbd"
+        },
+        {
+          "id": "PM2-F8",
+          "sha256": "e8bdd94b774dbbd2a9a5f7c6ee341aad592a82aea9e9157e2ca7dcfcef4a87f1"
+        }
+      ],
+      "existing_references": [
+        "dc675ba0440a22eb78371833935aa04abb87d12d8085b877f597de356c293fbe",
+        "37f9dc8a04b413723ee158a30a990fc3d65e8a5951ab89f53f9308cfbdc5a45b",
+        "bf5b3ff887254d3a63c86c8fecbb450a8bb7dcbb12b28d73c72fd391dac6498e",
+        "5d5e4e79c2ebdb1693337f5128b01479d48ba4f46b86083043ead2625f765c70",
+        "d2667e04971e4b57deca40b25b566f797473fd12d6a54702c49b546a90125512",
+        "0c38741ed8ab039986d63fc7cd27daa09f1e5135dbc42b128d009d35ae86a136",
+        "735d3ea0313c9538056c9fa622706e64fe963fd0d125f36cb93e9bcaf4b9553d",
+        "78a8029f3844be041c6e5cb5adb822ccfd3615fc09ca4c5320bcb3a7d76e16aa",
+        "dd3cefa643d4694be35d60c69a5a0fc5a73d8467c901cd5a5d1c9f8d824e1e65",
+        "203160df6e262b43798f7c31ee644ec09313d897ce3dddb832d99ed86640ecd6",
+        "52b4ff6e21047a1c7ed84c56a9d0e1151597e1707cd1b8f6cdddee00f363e5cf",
+        "d6d07720aa02fc55b17133dbca951b7d5539951d73d08215b34505a8607ba349",
+        "ca33c8cca4bfd0a5ea89b2caca36339f29a88e56fb0821c4df7cb7011a8c8356",
+        "71ac9a9998d952f47003331f16fc1a7ffc572dfc7a148fe75c10205997fc330e",
+        "8132733a4466aa3ae1c3b019e56601d680e561fc157d763b087800354fa582ed",
+        "2599d6df3094cbcd35628dda72b72a38894cbca6f3c8e1cd47630f6d11656594",
+        "c98db39ad43d3ac1f31637d6b3c9c7115930da350c24cc3fab1c0052344e5d57",
+        "05e6c543688b0b12a57091195d6b051c3f8d506f3105122cadfa6c7e830fe822",
+        "1fd302d1e7e774cef923a173ff8ab0ada2a71afe214b8683008c04fb3992cd1d",
+        "052359864461661906eb872492e56aff9d79b65866ba79e60e3cc4992a6367c8",
+        "bb9ad4caeb153942d12a700c9519a1cca44c945a56acd376d1a011f40f2018da",
+        "d4f5d50aae3c0ce97d9933d99fcb372ee12addd13d90dd19a3b7a55f2281d620",
+        "daeb9be0ffa6fa0d12859d9aeba1ab5ae7fc17ec4708a0019bb7c2e855aa6678",
+        "709622fe86dfeb13e1bc0e268dbc94624cab36ece36f885d218c00dabd1137c2"
+      ],
+      "preserved_narrative_sha256": "0d9b8bb040ca573bb6aaadbd4bcb324729aa26bdb0d219526b861711e32f092a",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    },
+    {
+      "pm_id": "BRS-X(Circadian-FM1-PM2)",
+      "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+      "original_source_sha256": "66cbb53948ed94f00d3c71b68db4f87d4b4256f1229683d6cdf9904f6993d31e",
+      "original_source_bytes": 34478,
+      "fields": {
+        "title": "b886362750bcfb8e3173f0cd089f8b86111a9183be352cc646fa41b06a402cc6",
+        "pm_id": "3e4339baa57806f7a6b4df2f078a700bd1be496d6bda4413239e5a691bb3efa6",
+        "mission": "7398e4cedc05129ce80eebe7128cfbf9eabe77a4edc1142c9d3de520dbca29a3",
+        "parent_fm": "d7ab9c50112c573c196ad174d9640cf881b6c4277adc0ab362f4c9c8ddd332f3",
+        "parent_brs": "7cab218fe1921b4fc4e258405e70a3a7e9947a4725429e748651b186c3feeadf",
+        "summary": "9392d9cc82b2ac14ba38978c4766fa9b0b14bca172b5aa7d72d8e9240790b883",
+        "key_constraints": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "cofactors": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "intervention_dominance": "877fc504a579dbc1fe034d83d30cb37e13691c97b0fb8cb620873ae5a20c2a97",
+        "intervention_breakdown": "210a35ec95e9f09f713edb9d8175881080a1fce20b3254b286fd0f3652a4c01b",
+        "timing_specific": "184fda5c980b9d9cb375f42a528817c6235fbd4f79775a8018fae5afcbdf2a63",
+        "dose_sensitivity": "684bf85b729736087a899c30bf86cf1f5b96720ac005145eb7abc463b7c12491",
+        "references": "091d7913ac1eec8675df0e1bad11edc2c3975ab62d3fcc4dff525d8f8a81754a",
+        "hide_title": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b",
+        "list_image": "5681d6ddcaf398ce152819463fef998a7376ec895d27cecdb91cefac14da3e89",
+        "scientific_findings": "c96d7e87847c69127cdfc001662bb4c78dda38de6191c18960c8af119eb6e519",
+        "intervention_dominance_assessment": "bdbd6e45d43b9d0f263d72485c2d26335f4287f79df87a52d89269c26c54a451",
+        "stage2ab_assessment_history": "b3c1d05661b9b89bbd7bf9c0ee38d83e63c68a414cb01df41f615349e2485bcf",
+        "system_optimisation_practices": "5158f5efa542d2ad96fc8d8d4610148c3cfebc1322c929239542ef48f07a175f",
+        "lifestyle_priorities": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "scientific_findings_intro": "fc21f131f692137a9f0e136a3a7bfda4908a05ed678651dd0bffb3cfe46ec126"
+      },
+      "existing_findings": [
+        {
+          "id": "PM2-F1",
+          "sha256": "fa62217262db12e25682d7aecdbce74c484e797a06a145776613ddcaaa4296ce"
+        },
+        {
+          "id": "PM2-F2",
+          "sha256": "7d0ba8a84717c597b6c24b6342d45e8f2de2d41aa177b1eb3a6f361cb5e6da49"
+        }
+      ],
+      "existing_references": [
+        "302c68750e9e614055f3b67266bab81f08e4ccfbf034419afc82f3b3b85ccafe",
+        "dcd78135e94202cee3fc73fcf6222399f7063e448c33d4079157ae0a5bad2360",
+        "d3696f3f858595dc62e80c7ce844ac789e0c0521204f63a6e306fd69f47cbd7d",
+        "78f5c365899b7678aeea8cd994feb8783be4ee8ba07ca6583c3f50c52437334c",
+        "6e3fcd8eb277da5108dd4fb7a9856ebabe7a5f60ae04b5ccb40fcc0491f044df",
+        "49ce44de703a4944e2d8ef165e5446757d49890e249da74a8fd764d8649d4bdf"
+      ],
+      "preserved_narrative_sha256": "1cdec9a83620700f6f66e1a16b317eeedc36cbec77727e46f5047a7157ed5bed",
+      "allowed_additions": null,
+      "baseline_reference_issues": []
+    }
+  ]
+}

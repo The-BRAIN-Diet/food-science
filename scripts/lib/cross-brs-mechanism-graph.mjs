@@ -1,3 +1,4 @@
+import {hypothesisExcludesRelationship} from './scientific-hypotheses.mjs';
 /**
  * Build Cross-BRS PM relationship graph from PM §6.2 declarations.
  * Canonical biological graph: PM pages → hub Cross-BRS Dependencies synthesis.
@@ -63,6 +64,7 @@ export function buildCrossBrsMechanismGraph(root) {
 
     const block = extractSection62Body(content);
     for (const [, link] of parseCrossBrsBullets(block)) {
+      if (hypothesisExcludesRelationship(front,link.href)) continue;
       if (!PM_ID_RE.test(link.label) && !PM_ID_RE.test(link.href)) continue;
       const targetKey = getLinkKey(link.href);
       const targetBrs = brsFromKey(targetKey);

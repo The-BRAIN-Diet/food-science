@@ -1,5 +1,7 @@
 # Stage 2B — Applicability & Lever Implementation Contract
 
+**Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
+
 **Governing instruction:** Stage 2B applicability and lever implementation. Use with the [whole-PM page schema](primary-mechanism-schema.md) and preserve the evidence thresholds and stage boundary in [Stage 2A](scientific-finding-schema.md).
 
 **Status:** Active Stage 2B schema — PM Evidence + Dietary Requirements atom projection for canonical §3.1.
@@ -41,6 +43,26 @@ with generic statements.
 Apply [Nutrient naming conventions](nutrient-naming-conventions.md) to vitamin names, form-specific claims and structured input/presentation labels. Keep family, specific form, preferred display label and aliases separately in the authoring/identity record; project labels through existing accepted page fields. This applies to Stage 2A handoff and Stage 2B adjudication.
 
 ### Input-specificity adjudication — before dietary candidate adjudication
+
+Record biological input identity separately from experimental formulation. A
+class-level Type A Capacity claim may use evidence across supported members;
+formulation-specific effects remain restricted to tested exposures. Neither
+automatically narrow an input to a trial product nor broaden its intervention
+effect to the class. Record preparation, microbial utilisation and cross-feeding
+limitations in the existing evidence/assessment fields.
+
+Stage 2B must distinguish class membership and food composition from demonstrated
+intervention-response equivalence. Class-level delivery does not require a
+food-specific efficacy trial; a claimed formulation-specific response requires
+matching evidence. Direct/Derived remains relative to the receiving operation:
+direct microbial substrate supply does not establish direct food occurrence of
+its downstream metabolites.
+
+A reassessed historical record may remain visible as **requiring review** with
+assessment `status: unresolved`, `review_required: true` and an explicit
+`review_reason`. Preserve its historical six atoms and provenance, show the
+review disposition, and exclude it from admitted manuscript output. This is a
+documented unresolved disposition, not a new admission or a satisfied gate.
 
 **Name the specific evidence-supported biological input or defined resource pool required by the PM. Do not use a broad delivery category where the actual biological requirement can be identified.** Apply this before classifying each dietary candidate as Direct/Derived, biochemical inventory or shared constraint. This is a specificity decision, not evidence that a relationship is admitted or that increasing intake helps.
 
@@ -333,15 +355,13 @@ Do not describe all dietary inputs as “interventions.”
 For each candidate biochemical participant or dietary supply pathway, assess two
 independently supported propositions:
 
-- **B — Biological dependency:** Is there evidence that the defined PM requires
-  this substrate, co-substrate, cofactor, catalytic ion or other necessary
-  biochemical participant?
+- **B — Functional dependency:** Does an identifiable input supply or sustain the biochemical capacity of the PM's defined operation, directly or through a supported derived pathway?
 - **D — Dietary supply:** Is there an established dietary pathway that supplies
   or maintains the relevant biochemical dependency?
 
-For nutritional capacity:
+For Type A capacity:
 
-`Capacity Dietary Requirement = B AND D`
+`Capacity admission = established functional dependency AND supported dietary supply`
 
 Both propositions must be established for the same supported dependency pathway.
 The dietary input and biochemical participant need not be molecularly identical.
@@ -393,7 +413,7 @@ classify the claimed dietary relationship:
 | Type | Question | Layer |
 |------|----------|-------|
 | **A. Capacity / requirement** | Does the input provide, generate, maintain or enable something required to establish or maintain the biological **capacity** governed by the PM? | §3.1.1 / §4.1.1 — overlay `relationship_mode: capacity-requirement` |
-| **B. Regulatory / state** | Does dietary exposure have evidence of **regulating** that governed state/function, at the level claimed? | §3.1.1 / §4.1.1 — overlay `relationship_mode: state-regulation` |
+| **B. Regulatory / state** | Does an eligible identifiable dietary input engage and modulate that defined operation, with credible dietary exposure? | §3.1.1 / §4.1.1 — overlay `relationship_mode: state-regulation`; dietary programmes/patterns are excluded |
 | **C. Biochemical requirement** | Does the mechanism/reaction itself require this substrate, cofactor, catalytic ion or other participant? | §3.1.2 / §4.1.2 — `relationship_layer: biochemical-requirement` |
 | **D. Shared constraint** | Does an evidence-supported shared resource/availability constraint apply to this PM? | §3.1.3 / §4.1.3 — KC/iKC ownership unchanged. See **Type D — shared-pool applicability** |
 
@@ -1787,7 +1807,7 @@ entries must use this atomic projection; do not retain an unlinked parallel list
 
 ---
 
-## Input types (non-exhaustive)
+## Input types (controlled and section-specific)
 
 | Input type | Use for |
 |------------|---------|
@@ -1808,8 +1828,7 @@ entries must use this atomic projection; do not retain an unlinked parallel list
 | `preparation characteristic` | A defined preparation or processing characteristic is the evidence-bearing input |
 | `defined dietary exposure` | Another precisely named dietary exposure whose demonstrated relationship does not fit the recommended vocabulary |
 
-This recommended vocabulary is extensible when evidence requires a more precise
-type. Do **not** use catch-alls such as `supporting input`, `dietary support` or
+The section-specific executable vocabulary is governed by `src/lib/dietaryInputGovernance.mjs`; new types require explicit review before use. Do **not** use catch-alls such as `supporting input`, `dietary support` or
 `other input`. If an input cannot be classified precisely, flag it for
 adjudication.
 
@@ -2057,10 +2076,7 @@ ordinary food exposure; empty §3.1.1 ≠ a failed PM; Optimisation Strategy ≠
 Requirement; connected-mechanism influence ≠ Direct/Derived of the target PM;
 §4.1.1 NO ≠ not diet- or intervention-addressable.
 
-The heading **Dietary Requirement** may include both capacity relationships and
-evidence-supported state-regulation. That is a terminology tension, not a licence to
-collapse types. Keep the distinction in `relationship_mode`. Do not rename the
-architecture in this contract revision.
+The §3.1.1 heading is **Dietary Inputs & Regulatory Modulators**. Type A capacity and Type B regulation remain distinct in `relationship_mode`. This approved heading change supersedes the earlier terminology hold; no other section is renamed.
 
 ---
 

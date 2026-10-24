@@ -53,6 +53,12 @@ function readPm8() {
   return matter(fs.readFileSync(PM9, "utf8"));
 }
 
+// Profile A accepts the established legacy heading and the approved dominance
+// presentation labels; the section identities and exact order remain fixed.
+function sectionIdentity(title) {
+  return title.replace('1 Mission & Overview + Dietary Levers','1 Mission & Overview').replace('3 Intervention Levers','3 Levers');
+}
+
 function readFindingsPms() {
   return listMechanismMdxFiles(root, "pm")
     .map((file) => ({ file, ...matter(fs.readFileSync(file, "utf8")) }))
@@ -69,7 +75,7 @@ test("every Findings-owned PM satisfies the shared canonical model and freshness
     const label = data.pm_id || path.relative(root, file);
     assert.deepEqual(validateScientificFindings(data, [], { entityLabel: label }), []);
     if (detectPmLayout(content) === PM_LAYOUT_CANONICAL) {
-      const major = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => `${m[1]} ${m[2]}`);
+      const major = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => sectionIdentity(`${m[1]} ${m[2]}`));
       assert.deepEqual(
         major,
         [
@@ -373,7 +379,7 @@ test("PM9 uses the canonical section order", () => {
   const { levers, mechanisticBasis, phenome, findingsSection } = pmSectionNumbers(content);
   assert.deepEqual({ levers, mechanisticBasis, phenome }, { levers: 3, mechanisticBasis: 4, phenome: 7 });
   assert.equal(findingsSection, "4.1");
-  const order = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => `${m[1]} ${m[2]}`);
+  const order = [...content.matchAll(/^## (\d+)\. (.+)$/gm)].map((m) => sectionIdentity(`${m[1]} ${m[2]}`));
   assert.deepEqual(order, [
     "1. Mission & Overview".replace(". ", " "),
     "2 Primary Biological Effects",
@@ -647,16 +653,17 @@ test("Stage 2A and Stage 2B instructions require targeted retrieval, not corpus-
   assert.match(stage2b, /question-bounded evidence retrieval/);
   assert.match(findings, /Stage boundary — 2A mechanism, 2B diet/);
   assert.match(stage2b, /When Stage 2B identifies a missing foundational claim/);
-  assert.match(stage2b, /Type D — shared-constraint\s+applicability/);
+  assert.match(stage2b, /Type D — shared-pool\s+applicability/);
+  assert.match(stage2b, /capacity-constraint threshold applies to \*\*Conditional constraint\*\*, not to Supported upstream supply/);
   assert.match(stage2b, /supported applicability to that PM|applies to that PM/);
   assert.match(stage2b, /Governs the constraint/);
   assert.match(stage2b, /Is constrained by it/);
   assert.match(stage2b, /does\s+\*\*not\*\*\s+automatically establish membership/);
   assert.match(stage2b, /evidence-supported-non-application/);
-  assert.match(stage2a, /Type D — shared-constraint\s+applicability/);
+  assert.match(stage2a, /Type D — shared-pool\s+applicability/);
   assert.match(
     fs.readFileSync(path.join(root, "system/key-constraint-schema.md"), "utf8"),
-    /Type D — shared-constraint\s+applicability/,
+    /Type D — shared-pool\s+applicability/,
   );
   assert.match(stage2b, /does not require a separate user instruction/);
   assert.match(findings, /Do not require clinical benefit to establish a supported dependency/);

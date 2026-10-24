@@ -82,6 +82,12 @@ references:
   - '[Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)'
   - '[Packer, Slater and Willson (1979) — Direct observation of a free radical interaction between vitamin E and vitamin C](/docs/papers/BRAIN-Diet-References#packer_direct_1979)'
   - '[Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)'
+  - >-
+    [Karplus and Schulz (1987) — Refined structure of glutathione reductase at 1.54 A
+    resolution](/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_structure_1987)
+  - >-
+    [Kamerbeek et al. (2007) — Molecular basis of glutathione reductase deficiency in human blood
+    cells](/docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007)
 hide_title: true
 phenome_relationships:
   - target_phenome: Cognitive Clarity
@@ -184,6 +190,69 @@ scientific_findings:
         data_level: Human Outcome
         why_relevant: A prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.
         why_excluded: Cancer incidence is not a recycling measurement. It only blocks reading this chemistry as a high-dose rule.
+  - id: PM6-F2
+    finding_label: Human glutathione reductase has defined flavin-dependent machinery
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: The human glutathione-reductase structure contains FAD, and inherited GSR defects can abolish blood-cell enzyme activity.
+    finding_summary: Structural and human genetic evidence identify machinery supporting the glutathione arm of thiol regeneration.
+    finding_interpretation: This adds evidence for a defining thiol-regeneration step alongside vitamin C–E recycling. Enzyme machinery is not itself a new dietary admission.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: >-
+      Primary human-enzyme crystallography resolves the bound FAD cofactor. A separate inherited-deficiency investigation identifies loss of
+      glutathione-reductase activity in patient blood cells and impaired protein stability in a recombinant variant. UniProtKB P00390 records the
+      NADPH-dependent GSSG-to-GSH reaction (Rhea 11740), providing curated pathway context rather than an additional experiment.
+    synthesis_limitations: >-
+      The experiments concern structure and rare genetic deficiency, not ordinary dietary exposure or neuronal recycling flux. They do not establish
+      that additional riboflavin or another food improves this PM, cognition or ADHD. Thioredoxin-system coverage and a possible dietary FAD-precursor
+      route remain separate research questions.
+    evidence_considered:
+      - label: Karplus and Schulz (1987)
+        citation_key: karplus_glutathione_reductase_structure_1987
+        href: /docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_structure_1987
+        data_level: Mechanistic
+        exposure_context: purified human glutathione reductase crystal; no dietary intervention
+        evidence_source: bounded-external-search
+        directional_finding: Primary X-ray crystallography resolves the FAD prosthetic group in human glutathione reductase.
+        assessment:
+          study: 'Primary structural experiment: refinement of human glutathione reductase at 1.54 angstrom resolution.'
+          population: Purified human enzyme crystal; no dietary intervention or clinical cohort.
+          result: The refined structure includes bound FAD and resolves its active-site environment.
+          effect_magnitude: Structural resolution 1.54 angstrom; no dietary effect size or recycling flux.
+          evidence_summary: Direct structural support for the FAD-containing machinery of glutathione reductase.
+          limitations: >-
+            A bound cofactor does not establish dietary limitation, human brain flux or benefit from extra riboflavin. Structural and database records
+            describe the same protein, not independent replications.
+          retrieval_scope: >-
+            Primary publication abstract and deposited experimental structure RCSB PDB 3GRS, entry version 1.4 (revision 2024-10-30), retrieved
+            2026-10-23; full publisher methods not re-extracted.
+      - label: Kamerbeek et al. (2007)
+        citation_key: kamerbeek_gsr_deficiency_2007
+        href: /docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007
+        data_level: Human Study
+        exposure_context: inherited GSR variants; human blood-cell assays and recombinant enzyme
+        evidence_source: bounded-external-search
+        directional_finding: >-
+          Inherited GSR defects were associated with absent red-cell glutathione-reductase activity; residual leukocyte activity and protein instability
+          varied with genotype.
+        assessment:
+          study: >-
+            Primary molecular case investigation of inherited glutathione-reductase deficiency with blood-cell activity/protein assays, genetic analysis
+            and recombinant G330A characterization.
+          population: Two affected relatives and one unrelated patient; blood cells and recombinant enzyme, not a nutrition trial.
+          result: Affected red cells lacked detectable GR activity; the deletion and compound-heterozygous variants impaired protein expression or stability.
+          effect_magnitude: Absent detectable red-cell enzyme activity in the described cases; no population treatment or food effect estimate.
+          evidence_summary: Human loss-of-function evidence complements the structural finding at the level of enzyme capacity.
+          limitations: >-
+            Rare genetic loss of enzyme is not a dietary deficiency model and does not identify an effective food, nutrient dose, neuronal effect or
+            ADHD benefit.
+          retrieval_scope: >-
+            Primary PubMed abstract PMID 17185460; full publisher methods not re-extracted. UniProtKB P00390 entry version 273, sequence version 2,
+            annotation 2026-09-02 checked separately as curated pathway context on 2026-10-23.
+    evidence_dependency:
+      - >-
+        PDB 3GRS and its primary Karplus–Schulz paper are the same structural evidence. UniProt curation is not counted as an independent primary
+        experiment. The Kamerbeek human genetic investigation tests a different proposition and is not a replication of crystallographic structure.
 intervention_dominance_assessment:
   evidence_qualification:
     label: Not established
@@ -371,6 +440,8 @@ Vitamin C can reduce the vitamin E radical and return vitamin E to its working f
 
 <ScientificFinding finding={{"id":"PM6-F1","finding_label":"Vitamin C reduces the vitamin E radical","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Pulse radiolysis showed vitamin C reacting with the vitamin E radical. The interaction can return vitamin E toward its working form. Kinetic reviews describe the same partnership as extending vitamin E capacity. This is not an intake trial.","finding_interpretation":"This is the recycling job. It is different from vitamin E stopping peroxyl radicals in the membrane, and it is not a reason to take high doses.","finding_statement":"Vitamin C can reduce the vitamin E radical. That regeneration is a biochemical partnership. It does not set a high-dose intake.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Packer, Slater and Willson observed a free-radical interaction between vitamin E and vitamin C by pulse radiolysis: ascorbate reduced the tocopheroxyl radical. Niki states that the synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E. Neither source is a feeding trial.","synthesis_limitations":"The observation is chemical. It does not show that eating more vitamin C or vitamin E speeds recycling in people.","evidence_considered":[{"label":"Packer, Slater and Willson (1979)","citation_key":"packer_direct_1979","href":"/docs/papers/BRAIN-Diet-References#packer_direct_1979","data_level":"Mechanistic","exposure_context":"pulse radiolysis of vitamin E and vitamin C radicals","evidence_source":"bounded-external-search","directional_finding":"Ascorbate reduced the vitamin E radical in a direct free-radical observation.","assessment":{"study":"Pulse-radiolysis observation of the vitamin E radical reacting with vitamin C.","population":"Chemical solution. No human participants.","result":"Vitamin C reduced the vitamin E radical.","effect_magnitude":"A direct radical-radical observation. No intake effect.","evidence_summary":"Vitamin C can regenerate vitamin E from its radical.","limitations":"A chemical observation is not a dietary dose and not a clinical outcome."},"canonical_reference":{"author_year":"Packer, Slater and Willson (1979)","number":7,"anchor":"#pm-ref-7"}},{"label":"Niki (2014)","citation_key":"niki_vitamin_2014","href":"/docs/papers/BRAIN-Diet-References#niki_vitamin_2014","data_level":"Mechanistic","exposure_context":"review of vitamin E and vitamin C interaction","evidence_source":"bounded-external-search","directional_finding":"The synergistic interaction of vitamin E and vitamin C enhances the antioxidant capacity of vitamin E.","assessment":{"study":"Review of vitamin E as a peroxyl-radical scavenger, including its interaction with vitamin C.","population":"Kinetic and in vivo ratio evidence. No new feeding trial.","result":"Vitamin C is described as extending vitamin E capacity.","effect_magnitude":"No recycling rate after a change in intake.","evidence_summary":"The partnership is part of how vitamin E keeps working.","limitations":"The same review is used elsewhere for chain-breaking. Here only the vitamin C interaction is the claim."},"canonical_reference":{"author_year":"Niki (2014)","number":8,"anchor":"#pm-ref-8"}}],"connected_supportive_evidence":[{"label":"Packer et al. (1997)","citation_key":"packer_vitamin_1997","href":"/docs/papers/BRAIN-Diet-References#packer_vitamin_1997","data_level":"Mechanistic","why_relevant":"Places vitamin E in a network in which other antioxidants, including thiols, can regenerate it.","why_excluded":"A network chapter is not the direct observation of the vitamin C reaction, and it does not test intake.","canonical_reference":{"author_year":"Packer et al. (1997)","number":1,"anchor":"#pm-ref-1"}},{"label":"Klein et al. (2011)","citation_key":"klein_vitamin_2011","href":"/docs/papers/BRAIN-Diet-References#klein_vitamin_2011","data_level":"Human Outcome","why_relevant":"A prevention trial found more prostate cancers with 400 IU of vitamin E a day than with placebo.","why_excluded":"Cancer incidence is not a recycling measurement. It only blocks reading this chemistry as a high-dose rule.","canonical_reference":{"author_year":"Klein et al. (2011)","number":3,"anchor":"#pm-ref-3"}}]}} />
 
+<ScientificFinding finding={{"id":"PM6-F2","finding_label":"Human glutathione reductase has defined flavin-dependent machinery","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"The human glutathione-reductase structure contains FAD, and inherited GSR defects can abolish blood-cell enzyme activity.","finding_summary":"Structural and human genetic evidence identify machinery supporting the glutathione arm of thiol regeneration.","finding_interpretation":"This adds evidence for a defining thiol-regeneration step alongside vitamin C–E recycling. Enzyme machinery is not itself a new dietary admission.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Primary human-enzyme crystallography resolves the bound FAD cofactor. A separate inherited-deficiency investigation identifies loss of glutathione-reductase activity in patient blood cells and impaired protein stability in a recombinant variant. UniProtKB P00390 records the NADPH-dependent GSSG-to-GSH reaction (Rhea 11740), providing curated pathway context rather than an additional experiment.","synthesis_limitations":"The experiments concern structure and rare genetic deficiency, not ordinary dietary exposure or neuronal recycling flux. They do not establish that additional riboflavin or another food improves this PM, cognition or ADHD. Thioredoxin-system coverage and a possible dietary FAD-precursor route remain separate research questions.","evidence_considered":[{"label":"Karplus and Schulz (1987)","citation_key":"karplus_glutathione_reductase_structure_1987","href":"/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_structure_1987","data_level":"Mechanistic","exposure_context":"purified human glutathione reductase crystal; no dietary intervention","evidence_source":"bounded-external-search","directional_finding":"Primary X-ray crystallography resolves the FAD prosthetic group in human glutathione reductase.","assessment":{"study":"Primary structural experiment: refinement of human glutathione reductase at 1.54 angstrom resolution.","population":"Purified human enzyme crystal; no dietary intervention or clinical cohort.","result":"The refined structure includes bound FAD and resolves its active-site environment.","effect_magnitude":"Structural resolution 1.54 angstrom; no dietary effect size or recycling flux.","evidence_summary":"Direct structural support for the FAD-containing machinery of glutathione reductase.","limitations":"A bound cofactor does not establish dietary limitation, human brain flux or benefit from extra riboflavin. Structural and database records describe the same protein, not independent replications.","retrieval_scope":"Primary publication abstract and deposited experimental structure RCSB PDB 3GRS, entry version 1.4 (revision 2024-10-30), retrieved 2026-10-23; full publisher methods not re-extracted."},"canonical_reference":{"author_year":"Karplus and Schulz (1987)","number":9,"anchor":"#pm-ref-9"}},{"label":"Kamerbeek et al. (2007)","citation_key":"kamerbeek_gsr_deficiency_2007","href":"/docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007","data_level":"Human Study","exposure_context":"inherited GSR variants; human blood-cell assays and recombinant enzyme","evidence_source":"bounded-external-search","directional_finding":"Inherited GSR defects were associated with absent red-cell glutathione-reductase activity; residual leukocyte activity and protein instability varied with genotype.","assessment":{"study":"Primary molecular case investigation of inherited glutathione-reductase deficiency with blood-cell activity/protein assays, genetic analysis and recombinant G330A characterization.","population":"Two affected relatives and one unrelated patient; blood cells and recombinant enzyme, not a nutrition trial.","result":"Affected red cells lacked detectable GR activity; the deletion and compound-heterozygous variants impaired protein expression or stability.","effect_magnitude":"Absent detectable red-cell enzyme activity in the described cases; no population treatment or food effect estimate.","evidence_summary":"Human loss-of-function evidence complements the structural finding at the level of enzyme capacity.","limitations":"Rare genetic loss of enzyme is not a dietary deficiency model and does not identify an effective food, nutrient dose, neuronal effect or ADHD benefit.","retrieval_scope":"Primary PubMed abstract PMID 17185460; full publisher methods not re-extracted. UniProtKB P00390 entry version 273, sequence version 2, annotation 2026-09-02 checked separately as curated pathway context on 2026-10-23."},"canonical_reference":{"author_year":"Kamerbeek et al. (2007)","number":10,"anchor":"#pm-ref-10"}}],"evidence_dependency":["PDB 3GRS and its primary Karplus–Schulz paper are the same structural evidence. UniProt curation is not counted as an independent primary experiment. The Kamerbeek human genetic investigation tests a different proposition and is not a replication of crystallographic structure."],"connected_supportive_evidence":[]}} />
+
 ## 5. BRS Pathways and Connections
 
 ### 5.1 BRS Pathways
@@ -488,6 +559,30 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 </div>
 </div>
 
+{/* stage2ab-preservation-2026-10-23 */}
+<details>
+<summary>Stage 2A/2B evidence and traceability review — 23 October 2026</summary>
+
+**Preserved baseline:** 1 existing Findings, 2 input/participant records, 0 optimisation records and 0 lifestyle records are retained, together with their existing missions, overviews, KCs, citations, Phenome relationships, source assessments and SEC/CC decisions. The manuscript selection does not replace this complete PM.
+
+**Stage 2A — Evidence enrichment:** A new unscored Finding adds human glutathione-reductase structure and inherited enzyme-deficiency evidence to the thiol arm of the existing mission. Chemical vitamin C–E recycling remains a separate, unchanged Finding. Curated reaction records are pathway context, not additional experimental replications.
+
+**Stage 2B — Dietary interpretation and traceability:** Both vitamin C and E records remain unchanged. FAD-dependent machinery motivates a precursor research question only; no new riboflavin, selenium or glutathione dietary input is admitted through structural evidence alone.
+
+The standard food dropdown continues to use the existing structured relationships and composition-research ledger. Verified food links, provisional material-specific sources and unresolved pathways remain distinct. No new dietary admission, food edge or score is introduced by this review disclosure.
+
+| Review source | Exact supported proposition | Limits retained | Source |
+|---|---|---|---|
+| recycling-primary — primary-experiment | Chemical experiment directly observed the vitamin E radical/vitamin C interaction. | Radical chemistry, not a human dietary recycling rate or supplementation prescription. | [recycling-primary](https://www.nature.com/articles/278737a0) |
+| vitamin-e-capacity — secondary-review | Alpha-tocopherol supports lipid-phase peroxyl-radical chain termination. | Vitamin E forms differ in retention; high-dose benefits and brain efficacy are not inferred. | [vitamin-e-capacity](https://pubmed.ncbi.nlm.nih.gov/17561088/) |
+
+**Outstanding review questions**
+
+- **PRES-20261023-THIOL-IDENTITY — Review required:** The retrieved GSR FAD cofactor has ChEBI CHEBI:57692, but a resolved local FAD identity and complete dietary precursor pathway have not been established in this run. Proposed follow-up: Review existing aliases/identities and step-specific precursor evidence before proposing a new dietary relationship. Do not create an identity or admission automatically. The original record remains in place.
+
+</details>
+{/* /stage2ab-preservation-2026-10-23 */}
+
 ## 8. References
 
 - <span id="pm-ref-1">[1]</span> [Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
@@ -498,4 +593,6 @@ Each Phenome relationship has <strong>two independent ratings</strong>. They are
 - <span id="pm-ref-6">[6]</span> [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
 - <span id="pm-ref-7">[7]</span> [Packer, Slater and Willson (1979) — Direct observation of a free radical interaction between vitamin E and vitamin C](/docs/papers/BRAIN-Diet-References#packer_direct_1979)
 - <span id="pm-ref-8">[8]</span> [Niki (2014) — Vitamin E as a lipid-soluble peroxyl radical scavenger](/docs/papers/BRAIN-Diet-References#niki_vitamin_2014)
+- <span id="pm-ref-9">[9]</span> [Karplus and Schulz (1987) — Refined structure of glutathione reductase at 1.54 A resolution](/docs/papers/BRAIN-Diet-References#karplus_glutathione_reductase_structure_1987)
+- <span id="pm-ref-10">[10]</span> [Kamerbeek et al. (2007) — Molecular basis of glutathione reductase deficiency in human blood cells](/docs/papers/BRAIN-Diet-References#kamerbeek_gsr_deficiency_2007)
 

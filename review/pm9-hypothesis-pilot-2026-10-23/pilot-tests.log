@@ -1,0 +1,62 @@
+TAP version 13
+# (node:28491) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+ok 1 - hypothesis validates, is unestablished and appears immediately before unchanged §4.1 Finding projection
+  ---
+  duration_ms: 418.54275
+  ...
+# Subtest: all old structured PM9 scientific fields remain identical, and all other PM source bytes remain identical
+ok 2 - all old structured PM9 scientific fields remain identical, and all other PM source bytes remain identical
+  ---
+  duration_ms: 6.133167
+  ...
+# Subtest: original reference direction, source commit, explanations and page record are traceable
+ok 3 - original reference direction, source commit, explanations and page record are traceable
+  ---
+  duration_ms: 0.10275
+  ...
+# Subtest: direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+ok 4 - direct support, null/contradictory evidence and context are not conflated; no invented SF or score
+  ---
+  duration_ms: 0.233459
+  ...
+# Subtest: empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+ok 5 - empty PMs render no hypothesis section; invalid statuses, directions, dangling Findings and score injection fail closed
+  ---
+  duration_ms: 146.184667
+  ...
+# Subtest: Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+ok 6 - Supported does not admit a causal edge; actual graph and synthetic canonical §6.2 extraction remain protected
+  ---
+  duration_ms: 30.000292
+  ...
+# Subtest: automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+ok 7 - automatic link collection rejects the hypothesis-only href while retaining an unrelated relationship
+  ---
+  duration_ms: 0.228667
+  ...
+# Subtest: hypotheses do not enter input mappings or current approved manuscript exports
+ok 8 - hypotheses do not enter input mappings or current approved manuscript exports
+  ---
+  duration_ms: 140.742333
+  ...
+# Subtest: real component renders a compact native disclosure with visible status and no SEC/admission control
+ok 9 - real component renders a compact native disclosure with visible status and no SEC/admission control
+  ---
+  duration_ms: 56.198083
+  ...
+# Subtest: complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+ok 10 - complete PM9 MDX compiles with the existing layout plugin and preserves the Scientific Findings anchor
+  ---
+  duration_ms: 263.617
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1516.297167

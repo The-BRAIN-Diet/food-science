@@ -1,0 +1,1208 @@
+{
+  "date": "2026-10-23",
+  "legacy": [
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "reference": "[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "reference": "[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "reference": "[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Primary peripheral case-control context; no mitochondrial assay",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "reference": "[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Packer et al. (1997) — Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Verlaet et al. (2019) — A Case–control Comparison](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Primary peripheral case-control context; no mitochondrial assay",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Kyriazis et al. (2022) — Impact of Diet Upon Mitochondrial Physiology (Review)](/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Primary formulation/exposure study; not proof of precursor-food effect or predictable metabotype",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Primary supplementation/molecular-signature trial; mitophagy not local protection",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Primary AD mouse experiments; historical cognitive-endurance label is inaccurate; mitophagy outside ownership",
+      "current_admission": "Not inherited from citation presence"
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "reference": "[Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)",
+      "status": "preserved-in-canonical-reference-array",
+      "current_evidence_role": "Secondary synthesis; not an independent primary experiment",
+      "current_admission": "Not inherited from citation presence"
+    }
+  ],
+  "findings": [
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "mission": "Regulate mitochondrial superoxide and hydrogen peroxide generation in response to metabolic conditions, preserving physiological redox signalling while limiting excessive oxidant production.",
+      "scientific_findings": [
+        {
+          "id": "PM4-F1",
+          "finding_label": "Mitochondrial oxidant production is source- and state-dependent",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.",
+          "finding_summary": "Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.",
+          "finding_interpretation": "Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness. These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays isolate gross production.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Specific mitochondrial electron-transfer sites generate superoxide and hydrogen peroxide; source-specific suppression can reduce oxidant production without inhibiting oxidative phosphorylation. Succinate oxidation during reperfusion can drive excessive production through reverse electron transport.",
+          "synthesis_limitations": "Experimental suppressors and ischaemia models establish source regulation, not dietary effectiveness. These results do not imply that all mitochondrial ROS are harmful or that mitochondrial emission assays isolate gross production.",
+          "evidence_considered": [
+            {
+              "label": "Brand et al. (2016)",
+              "citation_key": "brs4_brand2016_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_brand2016_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila experiments and perfused mouse-heart experiments.",
+              "directional_finding": "S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.",
+              "assessment": {
+                "study": "Primary high-throughput chemical screening followed by mitochondrial/cellular assays, Drosophila experiments and perfused mouse-heart experiments.",
+                "population": "Isolated mitochondria, primary astrocytes, Drosophila intestine and perfused mouse heart.",
+                "result": "S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "S1QEL compounds suppressed site-IQ superoxide/H2O2 without inhibiting oxidative phosphorylation; protection was context-specific.",
+                "limitations": "Tool compounds are not dietary inputs; effects across models are not independent human replications.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/27667666/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Chouchani et al. (2014)",
+              "citation_key": "brs4_chouchani2014_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_chouchani2014_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.",
+              "directional_finding": "Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.",
+              "assessment": {
+                "study": "Primary metabolomics, isotope tracing and pharmacological perturbation of ischaemia/reperfusion.",
+                "population": "Cellular and animal ischaemia/reperfusion models.",
+                "result": "Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Accumulated succinate oxidation on reperfusion drove complex-I reverse-electron-transport ROS and injury.",
+                "limitations": "Pathological reperfusion is not a meal experiment; the origin of ischaemic succinate has been debated in subsequent primary work. No dietary succinate advice follows.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/25383517/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Verlaet et al. (2019)",
+              "why_relevant": "Primary ADHD case-control study of erythrocyte GSH and peripheral biomarkers; historical brain-health context.",
+              "why_excluded": "No mitochondrial ROS-source or mitochondrial membrane/protein protection assay; no GSH-dependent mitochondrial lactate experiment."
+            },
+            {
+              "label": "Packer et al. (1997) and Kyriazis et al. (2022)",
+              "why_relevant": "Secondary antioxidant-network and diet/mitochondrial synthesis retained from the legacy corpus.",
+              "why_excluded": "Not additional primary experiments or direct proof of the legacy food-pattern claims."
+            },
+            {
+              "label": "Öğütlü et al. (2023; legacy label 2022)",
+              "why_relevant": "Secondary ADHD mitochondrial review retained from legacy Phenome references.",
+              "why_excluded": "Not a primary Human Study or direct source-regulation trial; original citation labels and rating history retained for review."
+            },
+            {
+              "label": "Versioned UniProtKB SOD1 (P00441), SOD2 (P04179) and GPX4 (P36969) annotations",
+              "why_relevant": "Cu/Zn-SOD1, manganese-dependent mitochondrial SOD2 and selenium-containing GPX4 identify distinct biochemical participants. Retrieved entry versions are retained in the audit.",
+              "why_excluded": "Database identity and catalytic participation are not dietary efficacy or automatic PM ownership. Clearance enzymes do not establish source-generation control; mitochondrial isoform, supply and protection are separately assessed."
+            }
+          ]
+        },
+        {
+          "id": "PM4-F2",
+          "finding_label": "Mitochondrial ROS can carry adaptive signals",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.",
+          "finding_summary": "Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.",
+          "finding_interpretation": "Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Complex-III-dependent oxidant signals contribute to hypoxic HIF stabilisation in tested cell systems. Mitochondrial ROS therefore have physiological signalling roles as well as injury-associated roles.",
+          "synthesis_limitations": "Hypoxia differs from anoxia; pharmacological respiratory inhibition can perturb multiple sites. This is not evidence for indiscriminate ROS reduction or a dietary-to-brain benefit.",
+          "evidence_considered": [
+            {
+              "label": "Guzy et al. (2005)",
+              "citation_key": "brs4_guzy2005_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_guzy2005_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF assays under low oxygen.",
+              "directional_finding": "Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.",
+              "assessment": {
+                "study": "Primary genetic and pharmacological complex-III perturbations with redox-sensitive sensors and HIF assays under low oxygen.",
+                "population": "Cultured mammalian cells exposed to hypoxia.",
+                "result": "Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Complex-III function and oxidant signalling were required for the tested hypoxic HIF response.",
+                "limitations": "Context-dependent cell signalling; not all oxygen-sensing pathways or physiological states require this mechanism.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/16054089/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM4-F3",
+          "finding_label": "High-fat exposure altered mitochondrial H2O2-emitting potential",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.",
+          "finding_summary": "A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.",
+          "finding_interpretation": "Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all dietary fats, brain outcomes or human causal mediation.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "A specified high-fat meal and short high-fat feeding period increased skeletal-muscle mitochondrial H2O2-emitting potential in a small human experiment; separate rodent perturbations supported a role for mitochondrial oxidants in insulin resistance.",
+          "synthesis_limitations": "Net H2O2 emission reflects production and scavenging under assay conditions. Human meal findings do not establish a specific ROS-generating site, benefit from a proposed replacement meal, effects of all dietary fats, brain outcomes or human causal mediation.",
+          "evidence_considered": [
+            {
+              "label": "Anderson et al. (2009)",
+              "citation_key": "brs4_anderson2009_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_anderson2009_20261023",
+              "data_level": "Human Study",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding, mitochondrial-antioxidant and mitochondrial-catalase experiments.",
+              "directional_finding": "After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.",
+              "assessment": {
+                "study": "Primary human muscle-biopsy meal/feeding experiment plus separate rodent high-fat feeding, mitochondrial-antioxidant and mitochondrial-catalase experiments.",
+                "population": "Nine healthy lean men in the acute/short-feeding experiment; separate lean/obese comparisons and rodent models.",
+                "result": "After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "After a meal providing >60% energy from fat and five days of high-fat feeding, muscle mitochondrial H2O2-emitting potential increased; rodent antioxidant manipulations preserved insulin sensitivity.",
+                "limitations": "The meal provided 35% of daily energy; post-meal biopsy was at four hours. Small non-randomised feeding sequence and assay-specific emission; rodent causality must not be assigned to the human cohort.",
+                "retrieval_scope": "Primary full-text methods and abstract examined (PMC2648700), including distinct human and rodent arms.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/19188683/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM4-F4",
+          "finding_label": "Inactivity and training changed mitochondrial H2O2 emission",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.",
+          "finding_summary": "Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.",
+          "finding_interpretation": "Measured emission is not pure source production. Immobilisation/retraining does not establish a universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed into “exercise lowers ROS”.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Two weeks of leg immobilisation increased muscle mitochondrial H2O2 emission at a controlled membrane potential; six weeks of aerobic retraining restored emission and ATP-generating respiration toward baseline. Acute exercise responses were respiratory-state dependent in a separate study.",
+          "synthesis_limitations": "Measured emission is not pure source production. Immobilisation/retraining does not establish a universal exercise dose or a brain/ADHD effect. Acute and chronic exercise effects must not be collapsed into “exercise lowers ROS”.",
+          "evidence_considered": [
+            {
+              "label": "Gram et al. (2015)",
+              "citation_key": "brs4_gram2015_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_gram2015_20261023",
+              "data_level": "Human Study",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.",
+              "directional_finding": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+              "assessment": {
+                "study": "Primary within-person leg immobilisation followed by supervised aerobic cycle retraining; isolated mitochondrial respirometry and H2O2 assays.",
+                "population": "Seventeen young and fifteen older healthy men.",
+                "result": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Immobilisation increased H2O2 emission and reduced ATP-generating respiration; subsequent training reversed these changes.",
+                "limitations": "Sequential design; skeletal muscle only; antioxidant-enzyme changes may influence emission.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/26096818/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Trewin et al. (2017)",
+              "citation_key": "brs4_acuteexercise2017_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_acuteexercise2017_20261023",
+              "data_level": "Human Study",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.",
+              "directional_finding": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+              "assessment": {
+                "study": "Primary within-person rest/exercise trials with insulin clamps, muscle respirometry and H2O2 emission assays.",
+                "population": "Nine obese sedentary middle-aged men.",
+                "result": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+                "effect_magnitude": "Study-specific direction retained; no pooled effect or effective food dose inferred.",
+                "evidence_summary": "Acute exercise altered H2O2 emission in a respiratory-state-specific manner, including increases under one complex-I leak condition.",
+                "limitations": "Not a uniform decrease; exercise/insulin timing and substrates matter; no neurological outcome.",
+                "retrieval_scope": "Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/29161316/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM4-F5",
+          "finding_label": "Omega-3 exposure need not reduce mitochondrial ROS emission",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.",
+          "finding_summary": "Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.",
+          "finding_interpretation": "This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Twelve weeks of the tested EPA/DHA fish-oil formulation increased muscle mitochondrial membrane EPA/DHA and maximal succinate-supported ROS-emission capacity without increasing the measured oxidative-damage products.",
+          "synthesis_limitations": "This pre/post study did not isolate EPA from DHA, establish a specific source-control mechanism, show a whole-fish effect or demonstrate that increased ROS emission was harmful.",
+          "evidence_considered": [
+            {
+              "label": "Herbst et al. (2014)",
+              "citation_key": "brs4_herbst2014_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_herbst2014_20261023",
+              "data_level": "Human Study",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and ex vivo assays.",
+              "directional_finding": "Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.",
+              "assessment": {
+                "study": "Primary pre/post supplementation with 2 g EPA plus 1 g DHA daily for 12 weeks; muscle biopsies and ex vivo assays.",
+                "population": "Eighteen healthy men; some lipid analyses used nine participants.",
+                "result": "Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.",
+                "effect_magnitude": "Study-specific direction retained; no pooled effect or effective food dose inferred.",
+                "evidence_summary": "Mitochondrial membrane composition and ADP sensitivity changed; maximal ROS emission increased while measured 4HNE and protein oxidation did not.",
+                "limitations": "No placebo comparison; tested mixture, not independent effects of either constituent or ordinary fish.",
+                "retrieval_scope": "Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/24396061/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "The formulation and measured endpoints are specific; linked publications or contextual diet studies are not independent replications."
+          ]
+        },
+        {
+          "id": "PM4-F6",
+          "finding_label": "Ketones changed oxidant responses in neuronal preparations",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.",
+          "finding_summary": "A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.",
+          "finding_interpretation": "The experiment tested a mixture, not either constituent alone or a ketogenic food intervention; fluorescence and preparation context constrain source attribution.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "A mixture of beta-hydroxybutyrate and acetoacetate reduced oxidant responses during excitotoxic stress in rat neuronal and isolated-mitochondrial preparations, with increased NADH oxidation.",
+          "synthesis_limitations": "The experiment tested a mixture, not either constituent alone or a ketogenic food intervention; fluorescence and preparation context constrain source attribution.",
+          "evidence_considered": [
+            {
+              "label": "Maalouf et al. (2007)",
+              "citation_key": "brs4_maalouf2007_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_maalouf2007_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at 1 mM each during glutamate/calcium stress.",
+              "directional_finding": "Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.",
+              "assessment": {
+                "study": "Primary neuronal/isolated-mitochondrial experiments using beta-hydroxybutyrate and acetoacetate at 1 mM each during glutamate/calcium stress.",
+                "population": "Acutely dissociated rat neocortical neurons and isolated mitochondria.",
+                "result": "Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.",
+                "effect_magnitude": "Study-specific direction retained; no pooled effect or effective food dose inferred.",
+                "evidence_summary": "Ketones reduced mitochondrial ROS-related responses and neuronal injury, associated with increased NADH oxidation rather than altered GSH.",
+                "limitations": "Mechanism engagement in a stress model; no ordinary-food effect, universal ketone response or human brain outcome.",
+                "retrieval_scope": "Primary abstract and available full-text source sections examined; endpoint and formulation distinguished.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/17240074/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "The formulation and measured endpoints are specific; linked publications or contextual diet studies are not independent replications."
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Jarrett et al. (2008)",
+              "why_relevant": "Three-week ketogenic feeding increased hippocampal mitochondrial GSH and reduced H2O2 emission and oxidant-induced mtDNA damage in rats.",
+              "why_excluded": "Does not isolate a ketone constituent, source-specific generation, or PM5 membrane/protein protection; mtDNA protection is not substituted for these endpoints."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "mission": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+      "scientific_findings": [
+        {
+          "id": "PM5-F1",
+          "finding_label": "Vitamin E protection depends on tissue and stress context",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Vitamin E deficiency and repletion experiments support a protective role for vitamin E in selected mitochondrial membranes. Mitochondrial-GPX4 loss in mice caused retinal lipid oxidation and photoreceptor loss partly ameliorated by vitamin E. Other rat liver experiments did not show the same dependence.",
+          "finding_summary": "Vitamin E deficiency and repletion experiments support a protective role for vitamin E in selected mitochondrial membranes. Mitochondrial-GPX4 loss in mice caused retinal lipid oxidation and photoreceptor loss partly ameliorated by vitamin E. Other rat liver experiments did not show the same dependence.",
+          "finding_interpretation": "Capacity is not benefit from extra intake. Deficiency models, mitochondrial-GPX4 deletion and high supplemental exposure do not establish ordinary-food equivalence, uniform protection across tissues or cognitive benefit. Retinal lipid assays were not measurements restricted to isolated mitochondrial membranes.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Vitamin E deficiency and repletion experiments support a protective role for vitamin E in selected mitochondrial membranes. Mitochondrial-GPX4 loss in mice caused retinal lipid oxidation and photoreceptor loss partly ameliorated by vitamin E. Other rat liver experiments did not show the same dependence.",
+          "synthesis_limitations": "Capacity is not benefit from extra intake. Deficiency models, mitochondrial-GPX4 deletion and high supplemental exposure do not establish ordinary-food equivalence, uniform protection across tissues or cognitive benefit. Retinal lipid assays were not measurements restricted to isolated mitochondrial membranes.",
+          "evidence_considered": [
+            {
+              "label": "Rafique et al. (2001)",
+              "citation_key": "brs4_rafique2001_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_rafique2001_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary 48-week vitamin E-depleted rat feeding and induced lipid-peroxidation experiments in submitochondrial particles.",
+              "directional_finding": "Muscle respiratory-chain activity decreased with deficiency, whereas liver activity increased; vitamin E deficiency did not exacerbate induced liver-particle peroxidation/inhibition under the tested conditions.",
+              "assessment": {
+                "study": "Primary 48-week vitamin E-depleted rat feeding and induced lipid-peroxidation experiments in submitochondrial particles.",
+                "population": "Rat muscle/liver mitochondria and liver submitochondrial particles.",
+                "result": "Muscle respiratory-chain activity decreased with deficiency, whereas liver activity increased; vitamin E deficiency did not exacerbate induced liver-particle peroxidation/inhibition under the tested conditions.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Muscle respiratory-chain activity decreased with deficiency, whereas liver activity increased; vitamin E deficiency did not exacerbate induced liver-particle peroxidation/inhibition under the tested conditions.",
+                "limitations": "Tissue divergence and the liver null are central; no universal mitochondrial requirement or human optimisation dose.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/11463362/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Azuma et al. (2022)",
+              "citation_key": "brs4_azuma2022_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_azuma2022_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary mitochondrial-GPX4 knockout with retinal phenotyping, lipid LC-MS and vitamin E-enriched maternal/offspring diets.",
+              "directional_finding": "Photoreceptor loss and oxidised DHA-containing phosphatidylethanolamine increased; vitamin E partly rescued retinal degeneration.",
+              "assessment": {
+                "study": "Primary mitochondrial-GPX4 knockout with retinal phenotyping, lipid LC-MS and vitamin E-enriched maternal/offspring diets.",
+                "population": "Mitochondrial-GPX4 knockout mice and controls.",
+                "result": "Photoreceptor loss and oxidised DHA-containing phosphatidylethanolamine increased; vitamin E partly rescued retinal degeneration.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Photoreceptor loss and oxidised DHA-containing phosphatidylethanolamine increased; vitamin E partly rescued retinal degeneration.",
+                "limitations": "The enriched diet was 1000 IU/kg feed, not a human prescription. Tissue lipid oxidation and isoform-specific genetics do not establish a food intervention.",
+                "retrieval_scope": "Primary full text examined, PMC8980337; mitochondrial isoform, retinal endpoints, partial rescue and dietary exposure distinguished.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/35288190/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Verlaet et al. (2019)",
+              "why_relevant": "Primary ADHD case-control study of erythrocyte GSH and peripheral biomarkers; historical brain-health context.",
+              "why_excluded": "No mitochondrial ROS-source or mitochondrial membrane/protein protection assay; no GSH-dependent mitochondrial lactate experiment."
+            },
+            {
+              "label": "Packer et al. (1997) and Kyriazis et al. (2022)",
+              "why_relevant": "Secondary antioxidant-network and diet/mitochondrial synthesis retained from the legacy corpus.",
+              "why_excluded": "Not additional primary experiments or direct proof of the legacy food-pattern claims."
+            },
+            {
+              "label": "Singh et al. (2022), Andreux et al. (2019), Hou et al. (2024) and Almutairi et al. (2024)",
+              "why_relevant": "Historical urolithin exposure, mitophagy and mitochondrial/ADHD literature.",
+              "why_excluded": "Mitophagy/removal is outside approved ownership. Hou studied AD mouse models, not human cognitive endurance; supplements are not equivalent to precursor foods."
+            },
+            {
+              "label": "Crane (2001)",
+              "why_relevant": "Secondary biochemical synthesis of CoQ electron-carrier and antioxidant roles.",
+              "why_excluded": "Primary ubiquinol particle evidence is assessed separately; the review is not independent replication or dietary delivery evidence."
+            },
+            {
+              "label": "Versioned UniProtKB SOD1 (P00441), SOD2 (P04179) and GPX4 (P36969) annotations",
+              "why_relevant": "Cu/Zn-SOD1, manganese-dependent mitochondrial SOD2 and selenium-containing GPX4 identify distinct biochemical participants. Retrieved entry versions are retained in the audit.",
+              "why_excluded": "Database identity and catalytic participation are not dietary efficacy or automatic PM ownership. Clearance enzymes do not establish source-generation control; mitochondrial isoform, supply and protection are separately assessed."
+            }
+          ]
+        },
+        {
+          "id": "PM5-F2",
+          "finding_label": "Ubiquinol has a local antioxidant role distinct from electron transport",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Reduced CoQ10 inhibited induced lipid peroxidation in beef-heart submitochondrial particles even after vitamin E removal, demonstrating a local protective chemistry separate from its electron-carrier role.",
+          "finding_summary": "Reduced CoQ10 inhibited induced lipid peroxidation in beef-heart submitochondrial particles even after vitamin E removal, demonstrating a local protective chemistry separate from its electron-carrier role.",
+          "finding_interpretation": "Reconstitution is not dietary delivery. Endogenous CoQ synthesis, oxidised/reduced forms, supplement formulation, tissue uptake and membrane antioxidant activity are distinct relationships. A mitochondrial-disease trial showed only limited effects and did not establish local antioxidant mediation.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Reduced CoQ10 inhibited induced lipid peroxidation in beef-heart submitochondrial particles even after vitamin E removal, demonstrating a local protective chemistry separate from its electron-carrier role.",
+          "synthesis_limitations": "Reconstitution is not dietary delivery. Endogenous CoQ synthesis, oxidised/reduced forms, supplement formulation, tissue uptake and membrane antioxidant activity are distinct relationships. A mitochondrial-disease trial showed only limited effects and did not establish local antioxidant mediation.",
+          "evidence_considered": [
+            {
+              "label": "Forsmark et al. (1991)",
+              "citation_key": "brs4_forsmark1991_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_forsmark1991_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary extraction and reconstitution of CoQ10/vitamin E followed by induced lipid-peroxidation assays.",
+              "directional_finding": "Ubiquinol inhibited lipid peroxidation even without vitamin E.",
+              "assessment": {
+                "study": "Primary extraction and reconstitution of CoQ10/vitamin E followed by induced lipid-peroxidation assays.",
+                "population": "Beef-heart submitochondrial particles exposed to ascorbate plus ADP/Fe3+.",
+                "result": "Ubiquinol inhibited lipid peroxidation even without vitamin E.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Ubiquinol inhibited lipid peroxidation even without vitamin E.",
+                "limitations": "Isolated particle chemistry; no oral delivery, tissue dose or human outcome.",
+                "retrieval_scope": "Primary abstract examined; PMID2065780. No full-method concentrations extracted.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/2065780/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Glover et al. (2010)",
+              "citation_key": "brs4_glover2010_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_glover2010_20261023",
+              "data_level": "Human Study",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary randomised double-blind crossover supplementation: 1200 mg CoQ10 daily for 60 days.",
+              "directional_finding": "Small effects on exercise aerobic capacity and post-exercise lactate; other clinically relevant variables did not improve.",
+              "assessment": {
+                "study": "Primary randomised double-blind crossover supplementation: 1200 mg CoQ10 daily for 60 days.",
+                "population": "Thirty patients with mitochondrial cytopathy.",
+                "result": "Small effects on exercise aerobic capacity and post-exercise lactate; other clinically relevant variables did not improve.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Small effects on exercise aerobic capacity and post-exercise lactate; other clinically relevant variables did not improve.",
+                "limitations": "Not proof of mitochondrial membrane protection or ordinary-food efficacy; disease/formulation-specific exposure.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/20886510/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM5-F3",
+          "finding_label": "Mitochondrial glutathione requires compartmental transport",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "SLC25A39 perturbation and organelle uptake experiments establish that mitochondrial glutathione depends on import. Precursor supply, cytosolic synthesis, mitochondrial transport and local glutathione use are separate steps.",
+          "finding_summary": "SLC25A39 perturbation and organelle uptake experiments establish that mitochondrial glutathione depends on import. Precursor supply, cytosolic synthesis, mitochondrial transport and local glutathione use are separate steps.",
+          "finding_interpretation": "Glutathione-dependent iron–sulfur-cluster maintenance is not interchangeable with peroxide detoxification. Cytosolic or blood glutathione does not establish mitochondrial delivery; in ethanol-fed rats NAC failed to restore mitochondrial GSH whereas SAM supplementation did.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "SLC25A39 perturbation and organelle uptake experiments establish that mitochondrial glutathione depends on import. Precursor supply, cytosolic synthesis, mitochondrial transport and local glutathione use are separate steps.",
+          "synthesis_limitations": "Glutathione-dependent iron–sulfur-cluster maintenance is not interchangeable with peroxide detoxification. Cytosolic or blood glutathione does not establish mitochondrial delivery; in ethanol-fed rats NAC failed to restore mitochondrial GSH whereas SAM supplementation did.",
+          "evidence_considered": [
+            {
+              "label": "Wang et al. (2021)",
+              "citation_key": "wang_slc25a39_2021",
+              "href": "/docs/papers/BRAIN-Diet-References#wang_slc25a39_2021",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary CRISPR/genetic perturbation, mitochondrial metabolomics and rescue experiments.",
+              "directional_finding": "SLC25A39 was required to maintain mitochondrial GSH; experiments highlighted iron–sulfur-cluster biology rather than establishing antioxidant buffering as the sole essential function.",
+              "assessment": {
+                "study": "Primary CRISPR/genetic perturbation, mitochondrial metabolomics and rescue experiments.",
+                "population": "Mammalian cell systems and mouse erythroid biology.",
+                "result": "SLC25A39 was required to maintain mitochondrial GSH; experiments highlighted iron–sulfur-cluster biology rather than establishing antioxidant buffering as the sole essential function.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "SLC25A39 was required to maintain mitochondrial GSH; experiments highlighted iron–sulfur-cluster biology rather than establishing antioxidant buffering as the sole essential function.",
+                "limitations": "Not an oral precursor trial; organelle GSH concentration is not protective flux.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/34707288/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Shi et al. (2022)",
+              "citation_key": "brs4_shi2022_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_shi2022_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary combinatorial CRISPR screen, isolated-organelle GSH uptake and stable-isotope GSSG measurements.",
+              "directional_finding": "SLC25A39 loss impaired GSH import and OXPHOS; intramitochondrial labelled GSSG supported use of imported GSH.",
+              "assessment": {
+                "study": "Primary combinatorial CRISPR screen, isolated-organelle GSH uptake and stable-isotope GSSG measurements.",
+                "population": "Cultured human cell systems and isolated mitochondria.",
+                "result": "SLC25A39 loss impaired GSH import and OXPHOS; intramitochondrial labelled GSSG supported use of imported GSH.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "SLC25A39 loss impaired GSH import and OXPHOS; intramitochondrial labelled GSSG supported use of imported GSH.",
+                "limitations": "GSSG labelling does not isolate GPX4 activity or prove protection from a dietary precursor.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/35513392/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Colell et al. (1997)",
+              "citation_key": "brs4_fernandez1997_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_fernandez1997_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary four-week ethanol-liquid-diet experiment with SAM or NAC supplementation and isolated-mitochondrial transport assays.",
+              "directional_finding": "SAM restored mitochondrial GSH after ethanol feeding; NAC did not.",
+              "assessment": {
+                "study": "Primary four-week ethanol-liquid-diet experiment with SAM or NAC supplementation and isolated-mitochondrial transport assays.",
+                "population": "Male Sprague-Dawley rats.",
+                "result": "SAM restored mitochondrial GSH after ethanol feeding; NAC did not.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "SAM restored mitochondrial GSH after ethanol feeding; NAC did not.",
+                "limitations": "Specific ethanol-induced membrane/transport impairment; not evidence that NAC never works or that ordinary sulfur foods are ineffective.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/9303501/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM5-F4",
+          "finding_label": "SOD2 metal occupancy affects mitochondrial protein injury",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Manganese supports the normal catalytic identity of mitochondrial SOD2. In manganese-deficient or iron-enriched mouse diets, iron-substituted SOD2 acquired prooxidant activity associated with mitochondrial protein oxidation, including complex I.",
+          "finding_summary": "Manganese supports the normal catalytic identity of mitochondrial SOD2. In manganese-deficient or iron-enriched mouse diets, iron-substituted SOD2 acquired prooxidant activity associated with mitochondrial protein oxidation, including complex I.",
+          "finding_interpretation": "This is a cofactor-dependent protective role, not control of ROS-generating electron-leak sites. Animal deficiency/iron excess and cellular SOD2 overexpression do not establish benefit from additional manganese in replete people or a safe supplement target.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Manganese supports the normal catalytic identity of mitochondrial SOD2. In manganese-deficient or iron-enriched mouse diets, iron-substituted SOD2 acquired prooxidant activity associated with mitochondrial protein oxidation, including complex I.",
+          "synthesis_limitations": "This is a cofactor-dependent protective role, not control of ROS-generating electron-leak sites. Animal deficiency/iron excess and cellular SOD2 overexpression do not establish benefit from additional manganese in replete people or a safe supplement target.",
+          "evidence_considered": [
+            {
+              "label": "Ganini et al. (2018)",
+              "citation_key": "brs4_ganini2018_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_ganini2018_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary protein biochemistry, cultured-cell metal substitution and mouse manganese-deficient/iron-enriched feeding experiments.",
+              "directional_finding": "Iron-substituted SOD2 developed peroxidase activity; low manganese-to-iron conditions were associated with mitochondrial protein radicals and dysfunction.",
+              "assessment": {
+                "study": "Primary protein biochemistry, cultured-cell metal substitution and mouse manganese-deficient/iron-enriched feeding experiments.",
+                "population": "Purified SOD2, cultured human cells and mouse liver mitochondria.",
+                "result": "Iron-substituted SOD2 developed peroxidase activity; low manganese-to-iron conditions were associated with mitochondrial protein radicals and dysfunction.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Iron-substituted SOD2 developed peroxidase activity; low manganese-to-iron conditions were associated with mitochondrial protein radicals and dysfunction.",
+                "limitations": "Metal occupancy, iron exposure, tissue and peroxide handling interact. More SOD2 or manganese is not automatically protective.",
+                "retrieval_scope": "Primary full text examined, PMC5910218, including dietary arms and mitochondrial complex-I protein oxidation.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/29398562/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ]
+        },
+        {
+          "id": "PM5-F5",
+          "finding_label": "Sulforaphane protected mitochondria in defined cell experiments",
+          "presentation": "mechanistic-basis",
+          "fm_rollup": false,
+          "finding_statement": "Sulforaphane pretreatment protected mitochondrial lipids, proteins and enzyme activities in oxidant-challenged SH-SY5Y cells through an Nrf2-dependent mechanism; separate vascular-cell experiments measured induction of mitochondrial defences.",
+          "finding_summary": "Sulforaphane pretreatment protected mitochondrial lipids, proteins and enzyme activities in oxidant-challenged SH-SY5Y cells through an Nrf2-dependent mechanism; separate vascular-cell experiments measured induction of mitochondrial defences.",
+          "finding_interpretation": "This supports preclinical mechanism engagement. Human broccoli-sprout pharmacokinetics establish absorption mainly as conjugated metabolites, not equivalence to sustained free sulforaphane in culture or demonstrated mitochondrial protection from a food.",
+          "synthesised_evidence_confidence": "not-yet-scored",
+          "synthesis": "Sulforaphane pretreatment protected mitochondrial lipids, proteins and enzyme activities in oxidant-challenged SH-SY5Y cells through an Nrf2-dependent mechanism; separate vascular-cell experiments measured induction of mitochondrial defences.",
+          "synthesis_limitations": "This supports preclinical mechanism engagement. Human broccoli-sprout pharmacokinetics establish absorption mainly as conjugated metabolites, not equivalence to sustained free sulforaphane in culture or demonstrated mitochondrial protection from a food.",
+          "evidence_considered": [
+            {
+              "label": "de Oliveira et al. (2018)",
+              "citation_key": "brs4_oliveira2018_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_oliveira2018_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary 5 micromolar sulforaphane pretreatment for 30 minutes followed by 300 micromolar H2O2 for 24 hours, with Nrf2 silencing.",
+              "directional_finding": "Mitochondrial membrane lipid peroxidation, protein carbonylation/nitration and enzyme inhibition were attenuated; Nrf2 silencing abolished protection.",
+              "assessment": {
+                "study": "Primary 5 micromolar sulforaphane pretreatment for 30 minutes followed by 300 micromolar H2O2 for 24 hours, with Nrf2 silencing.",
+                "population": "Human neuroblastoma SH-SY5Y cells.",
+                "result": "Mitochondrial membrane lipid peroxidation, protein carbonylation/nitration and enzyme inhibition were attenuated; Nrf2 silencing abolished protection.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Mitochondrial membrane lipid peroxidation, protein carbonylation/nitration and enzyme inhibition were attenuated; Nrf2 silencing abolished protection.",
+                "limitations": "Cell line, imposed oxidant stress and free-compound exposure; not broccoli or human neuronal target engagement.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/28730528/",
+                "publication_classification": "primary-experimental"
+              }
+            },
+            {
+              "label": "Zhu et al. (2008)",
+              "citation_key": "brs4_zhu2008_20261023",
+              "href": "/docs/papers/BRAIN-Diet-References#brs4_zhu2008_20261023",
+              "data_level": "Mechanistic",
+              "evidence_source": "bounded-external-search",
+              "exposure_context": "Primary sulforaphane concentration-response pretreatment and oxidant challenges, with isolated mitochondrial defence assays.",
+              "directional_finding": "Sulforaphane induced cellular and mitochondrial antioxidant defences and increased resistance to imposed oxidative/electrophilic stress.",
+              "assessment": {
+                "study": "Primary sulforaphane concentration-response pretreatment and oxidant challenges, with isolated mitochondrial defence assays.",
+                "population": "Rat aortic smooth-muscle A10 cells.",
+                "result": "Sulforaphane induced cellular and mitochondrial antioxidant defences and increased resistance to imposed oxidative/electrophilic stress.",
+                "effect_magnitude": "Study-specific direction retained; no pooled estimate or ordinary-food effective dose inferred.",
+                "evidence_summary": "Sulforaphane induced cellular and mitochondrial antioxidant defences and increased resistance to imposed oxidative/electrophilic stress.",
+                "limitations": "Mitochondrial defence induction is not the same endpoint as direct mitochondrial membrane injury; not an independent neuronal replication.",
+                "retrieval_scope": "Primary abstract retrieved from Europe PMC/PubMed; no unavailable full-method quantities inferred.",
+                "source_url": "https://pubmed.ncbi.nlm.nih.gov/18607771/",
+                "publication_classification": "primary-experimental"
+              }
+            }
+          ],
+          "evidence_dependency": [
+            "Sources support the specified links only. Reuse in another Finding or PM is not independent replication; composition, local mechanism, exposure and clinical outcomes are distinct."
+          ],
+          "connected_supportive_evidence": [
+            {
+              "label": "Atwell et al. (2015)",
+              "why_relevant": "Primary human broccoli-sprout/extract pharmacokinetics and exposure comparison.",
+              "why_excluded": "Plasma measures were mainly conjugated metabolites; free sulforaphane was a small fraction and mitochondrial protection was not tested."
+            },
+            {
+              "label": "Ye et al. (2002)",
+              "why_relevant": "Primary human absorption study after broccoli-sprout isothiocyanate exposure.",
+              "why_excluded": "Total isothiocyanate/dithiocarbamate exposure is not equivalent to free 5 micromolar sulforaphane in challenged cells."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "admissions": [
+    {
+      "pm_id": "BRS4-FM2-PM4",
+      "atoms": [
+        {
+          "atom_id": "PM4-LEGACY-MN",
+          "input": "Manganese",
+          "input_type": "cofactor",
+          "biological_role": "SOD2 cofactor for post-generation superoxide dismutation; adjacent protective biology, not evidence of source-specific electron-leak regulation.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F1"
+            ],
+            "citation_keys": [
+              "brs4_brand2016_20261023",
+              "brs4_uniprot_p04179_20261023"
+            ]
+          },
+          "evidence_limitation": "Legacy cofactor label retained; the cited source establishes PM4 source regulation, not manganese dietary effectiveness.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "manganese",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "manganese",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/manganese"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM4-LEGACY-SE",
+          "input": "Selenium",
+          "input_type": "cofactor",
+          "biological_role": "Selenoprotein-dependent peroxide handling is an adjacent biochemical role; this is a preserved legacy candidate, not an established PM4 source-regulation input.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F1"
+            ],
+            "citation_keys": [
+              "brs4_brand2016_20261023",
+              "brs4_uniprot_p36969_20261023"
+            ]
+          },
+          "evidence_limitation": "Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general clearance roles are not imported.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "selenium",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "selenium",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/selenium"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM4-LEGACY-CU",
+          "input": "Copper",
+          "input_type": "cofactor",
+          "biological_role": "Cu/Zn-SOD and electron-transfer protein biology is an adjacent biochemical role; this is a preserved legacy candidate, not an established PM4 source-regulation input.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F1"
+            ],
+            "citation_keys": [
+              "brs4_brand2016_20261023",
+              "brs4_uniprot_p00441_20261023"
+            ]
+          },
+          "evidence_limitation": "Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general clearance roles are not imported.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "copper",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "copper",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/copper"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM4-LEGACY-ZN",
+          "input": "Zinc",
+          "input_type": "cofactor",
+          "biological_role": "Cu/Zn-SOD structural participation is an adjacent biochemical role; this is a preserved legacy candidate, not an established PM4 source-regulation input.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F1"
+            ],
+            "citation_keys": [
+              "brs4_brand2016_20261023",
+              "brs4_uniprot_p00441_20261023"
+            ]
+          },
+          "evidence_limitation": "Legacy record preserved. This assessment did not establish PM4-specific dietary engagement; general clearance roles are not imported.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "zinc",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "zinc",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/zinc"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        }
+      ],
+      "assessments": [],
+      "practices": [
+        {
+          "atom_id": "PM4-SOP-FAT",
+          "input": "Experimental high-fat meal and five-day feeding exposure",
+          "input_type": "defined dietary exposure",
+          "biological_role": "The specified exposure changed muscle mitochondrial H2O2-emitting potential; this records an adverse experimental response, not a recommended diet.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F3"
+            ],
+            "citation_keys": [
+              "brs4_anderson2009_20261023"
+            ]
+          },
+          "evidence_limitation": "More than 60% energy from fat; no comparator-fat or food-specific protective recommendation. Net emission is not gross production.",
+          "dietary_input": false,
+          "optimisation_category": "dietary_protocols",
+          "reader_description": "The specified exposure changed muscle mitochondrial H2O2-emitting potential; this records an adverse experimental response, not a recommended diet.",
+          "description_finding_id": "PM4-F3"
+        }
+      ],
+      "lifestyle": [
+        {
+          "atom_id": "PM4-LIFE-EX",
+          "input": "Regular aerobic activity and recovery from inactivity",
+          "input_type": "physical activity",
+          "biological_role": "Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward baseline.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM4-F4"
+            ],
+            "citation_keys": [
+              "brs4_gram2015_20261023"
+            ]
+          },
+          "evidence_limitation": "The supporting experiment used six weeks of supervised retraining after two weeks of immobilisation in men; this is not a universal exercise dose or a brain outcome.",
+          "dietary_input": false,
+          "reader_description": "Aerobic retraining after immobilisation restored skeletal-muscle mitochondrial H2O2 emission toward baseline.",
+          "description_finding_id": "PM4-F4"
+        }
+      ],
+      "intervention_dominance": {
+        "evidence_qualification": {
+          "label": "Not established",
+          "rationale": "The historical Diet-Dominant designation is preserved in the immutable baseline. Source-specific intervention responses do not establish overall dietary dominance for the approved mission.",
+          "scope_note": "No comparative ranking or brain/ADHD dietary benefit is established.",
+          "routes": [
+            {
+              "group_id": "3.2",
+              "evidence_basis": "intervention-effect",
+              "intervention_effect": "Specified high-fat exposure altered mitochondrial H2O2-emitting potential.",
+              "context": "Small human muscle study; adverse experimental exposure.",
+              "limitations": "Net emission and source generation differ; not a recommended intervention.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM4-F3"
+                ],
+                "citation_keys": [
+                  "brs4_anderson2009_20261023"
+                ]
+              }
+            },
+            {
+              "group_id": "3.3",
+              "evidence_basis": "intervention-effect",
+              "intervention_effect": "Aerobic retraining reversed immobilisation-associated emission changes.",
+              "context": "Healthy young and older men.",
+              "limitations": "Sequential muscle study; no brain endpoint.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM4-F4"
+                ],
+                "citation_keys": [
+                  "brs4_gram2015_20261023"
+                ]
+              }
+            }
+          ]
+        },
+        "principal_route_selection": {
+          "disposition": "not-established",
+          "selected_groups": [],
+          "rationale": "Supported bounded relationships do not establish a principal practical route across the approved mission.",
+          "comparative_limitations": "No head-to-head route ranking established; preservation of physiological ROS and tissue-specific protection precludes a generic antioxidant strategy.",
+          "assessments": []
+        }
+      }
+    },
+    {
+      "pm_id": "BRS4-FM2-PM5",
+      "atoms": [
+        {
+          "atom_id": "PM5-DIT-E",
+          "input": "Vitamin E",
+          "input_type": "nutrient/substance",
+          "biological_role": "Dietary vitamin E supplies lipid-phase antioxidant capacity that can protect mitochondrial membranes in defined tissue and stress contexts.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F1"
+            ],
+            "citation_keys": [
+              "brs4_rafique2001_20261023",
+              "brs4_azuma2022_20261023"
+            ]
+          },
+          "evidence_limitation": "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy.",
+          "dietary_input": true,
+          "substance_id": "vitamin-e",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "vitamin-e",
+            "substance_href": "/docs/substances/nutrients/micronutrients/vitamins/vitamin-e"
+          },
+          "dietary_input_note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy."
+        },
+        {
+          "atom_id": "PM5-DIT-MN",
+          "input": "Manganese",
+          "input_type": "cofactor",
+          "biological_role": "Dietary manganese supplies the catalytic metal for mitochondrial SOD2; appropriate metal occupancy sustains a local protective capacity and avoids the experimentally observed iron-substituted prooxidant state.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F4"
+            ],
+            "citation_keys": [
+              "brs4_ganini2018_20261023",
+              "brs4_uniprot_p04179_20261023"
+            ]
+          },
+          "evidence_limitation": "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established.",
+          "dietary_input": true,
+          "substance_id": "manganese",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "manganese",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/manganese"
+          },
+          "dietary_input_note": "New bounded Type A Capacity / Direct admission; provision does not imply benefit above adequacy."
+        },
+        {
+          "atom_id": "PM5-BIO-Q",
+          "input": "CoQ10",
+          "input_type": "substrate",
+          "biological_role": "Reduced CoQ10 (ubiquinol) participates in local membrane antioxidant protection, separately from oxidised/reduced CoQ electron transport.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F2"
+            ],
+            "citation_keys": [
+              "brs4_forsmark1991_20261023"
+            ]
+          },
+          "evidence_limitation": "The existing coq10 identity and page resolve without a registry change. Ubiquinol is a reduced form, not an alias for oxidised ubiquinone. Dietary supply, endogenous synthesis, redox-form conversion and mitochondrial protective delivery remain separately assessed; no new dietary admission is established.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "coq10",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "coq10",
+            "substance_href": "/docs/substances/bioactive-compounds/lipid-based/coq10"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM5-BIO-GSH",
+          "input": "Glutathione",
+          "input_type": "substrate",
+          "biological_role": "Imported mitochondrial glutathione supports local thiol reactions and iron–sulfur biology; organelle uptake and use are distinct from cytosolic synthesis.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F3"
+            ],
+            "citation_keys": [
+              "wang_slc25a39_2021",
+              "brs4_shi2022_20261023",
+              "brs4_fernandez1997_20261023"
+            ]
+          },
+          "evidence_limitation": "Direct oral GSH, dietary amino-acid supply and local protective activity are not interchangeable. The ethanol model shows a precursor intervention can fail when transport is impaired.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "glutathione",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "glutathione",
+            "substance_href": "/docs/substances/bioactive-compounds/glutathione"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM5-LEGACY-SE",
+          "input": "Selenium",
+          "input_type": "cofactor",
+          "biological_role": "Selenium supplies the selenocysteine used by GPX4; the mitochondrial isoform has a bounded photoreceptor-protective role.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F1"
+            ],
+            "citation_keys": [
+              "brs4_azuma2022_20261023",
+              "brs4_uniprot_p36969_20261023"
+            ]
+          },
+          "evidence_limitation": "The mitochondrial-isoform experiment is not a selenium intake study. Dietary selenium studies considered separately measured cytosolic/whole-tissue PHGPX; an isoform-specific supply chain remains under review.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "selenium",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "selenium",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/trace/selenium"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        },
+        {
+          "atom_id": "PM5-LEGACY-MG",
+          "input": "Magnesium",
+          "input_type": "catalytic ion",
+          "biological_role": "The legacy magnesium candidate is retained for review; the assessed organelle-import experiments do not establish a distinct magnesium-dependent membrane or protein protection operation.",
+          "evidence_source": {
+            "finding_ids": [
+              "PM5-F3"
+            ],
+            "citation_keys": [
+              "brs4_shi2022_20261023"
+            ]
+          },
+          "evidence_limitation": "Legacy magnesium candidate retained; OXPHOS participation alone does not establish membrane/protein protection.",
+          "dietary_input": null,
+          "dietary_input_note": "The specified scientific relationship is retained for review; no new dietary supply admission is made.",
+          "substance_id": "magnesium",
+          "canonical_identity": {
+            "status": "resolved",
+            "substance_id": "magnesium",
+            "substance_href": "/docs/substances/nutrients/micronutrients/minerals/macro/magnesium"
+          },
+          "dietary_input_flags": [
+            "pm-specific-supply-review"
+          ]
+        }
+      ],
+      "assessments": [
+        {
+          "atom_id": "PM5-DIT-E",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+          "canonical_substance_id": "vitamin-e",
+          "functional_dependency": {
+            "status": "established",
+            "statement": "Dietary vitamin E supplies lipid-phase antioxidant capacity that can protect mitochondrial membranes in defined tissue and stress contexts.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/11463362/",
+              "https://pubmed.ncbi.nlm.nih.gov/35288190/"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "Existing structured USDA food records identify the same dietary nutrient; no composition amount is inferred from another nutrient and no intervention effect is transferred to foods.",
+            "sources": [
+              "docs/foods/almonds.md",
+              "docs/foods/sunflower-seeds.md",
+              "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+              "https://fdc.nal.usda.gov/food-details/170567/nutrients"
+            ]
+          },
+          "assessment_date": "2026-10-23",
+          "assessment_limitations": "Alpha-tocopherol predominates in the assessed experiments; the canonical Vitamin E class is broader. Deficiency correction and high-dose genetic rescue do not establish ordinary-food intervention equivalence, universal tissue dependence or benefit above adequacy.",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "docs/substances/nutrients/micronutrients/vitamins/vitamin-e.md",
+              "docs/foods/almonds.md",
+              "docs/foods/sunflower-seeds.md",
+              "system/food-target-research.json"
+            ],
+            "targeted_searches": [
+              {
+                "date": "2026-10-23",
+                "query": "Vitamin E mitochondrial protection deficiency dietary supply food composition",
+                "outcome": "Existing structured food relationships provide sufficient qualitative delivery coverage. All recognised verified and supported provisional sources are extracted; no new edge or food quantity is authored."
+              }
+            ]
+          }
+        },
+        {
+          "atom_id": "PM5-DIT-MN",
+          "status": "admitted",
+          "type": "A",
+          "classification": "direct",
+          "operation": "Preserve mitochondrial membrane and protein integrity through local protective mechanisms that limit oxidative injury and maintain organelle function.",
+          "canonical_substance_id": "manganese",
+          "functional_dependency": {
+            "status": "established",
+            "statement": "Dietary manganese supplies the catalytic metal for mitochondrial SOD2; appropriate metal occupancy sustains a local protective capacity and avoids the experimentally observed iron-substituted prooxidant state.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/29398562/"
+            ]
+          },
+          "dietary_supply": {
+            "status": "established",
+            "statement": "Existing structured USDA food records identify the same dietary nutrient; no composition amount is inferred from another nutrient and no intervention effect is transferred to foods.",
+            "sources": [
+              "docs/foods/almonds.md",
+              "docs/foods/sunflower-seeds.md",
+              "https://fdc.nal.usda.gov/food-details/170562/nutrients",
+              "https://fdc.nal.usda.gov/food-details/170567/nutrients"
+            ]
+          },
+          "assessment_date": "2026-10-23",
+          "assessment_limitations": "Capacity is supported by protein biochemistry and mouse dietary manipulation; no general-population limitation, extra-intake benefit or human supplement dose is established.",
+          "food_target_research": {
+            "completed": true,
+            "sources_examined": [
+              "registry/substances.json",
+              "docs/substances/nutrients/micronutrients/minerals/trace/manganese.md",
+              "docs/foods/almonds.md",
+              "docs/foods/sunflower-seeds.md",
+              "system/food-target-research.json"
+            ],
+            "targeted_searches": [
+              {
+                "date": "2026-10-23",
+                "query": "Manganese mitochondrial protection deficiency dietary supply food composition",
+                "outcome": "Existing structured food relationships provide sufficient qualitative delivery coverage. All recognised verified and supported provisional sources are extracted; no new edge or food quantity is authored."
+              }
+            ]
+          }
+        }
+      ],
+      "practices": [],
+      "lifestyle": [],
+      "intervention_dominance": {
+        "evidence_qualification": {
+          "label": "Not established",
+          "rationale": "The historical Diet-Dominant designation is preserved in the immutable baseline. Source-specific intervention responses do not establish overall dietary dominance for the approved mission.",
+          "scope_note": "No comparative ranking or brain/ADHD dietary benefit is established.",
+          "routes": [
+            {
+              "group_id": "3.1",
+              "evidence_basis": "intervention-effect",
+              "intervention_effect": "Vitamin E deficiency/rescue and manganese dietary manipulation affected defined local protective endpoints.",
+              "context": "Animal tissues, mitochondrial-GPX4 deletion and metal-imbalance experiments.",
+              "limitations": "Conditional tissue/model evidence, not overall dietary dominance or benefit above adequacy.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM5-F1",
+                  "PM5-F4"
+                ],
+                "citation_keys": [
+                  "brs4_rafique2001_20261023",
+                  "brs4_azuma2022_20261023",
+                  "brs4_ganini2018_20261023"
+                ]
+              }
+            }
+          ]
+        },
+        "principal_route_selection": {
+          "disposition": "not-established",
+          "selected_groups": [],
+          "rationale": "Supported bounded relationships do not establish a principal practical route across the approved mission.",
+          "comparative_limitations": "No head-to-head route ranking established; preservation of physiological ROS and tissue-specific protection precludes a generic antioxidant strategy.",
+          "assessments": []
+        }
+      }
+    }
+  ]
+}
