@@ -1,4 +1,8 @@
-# Docusaurus client compilation exceeds Node's default ~2 GiB heap.
-# Keep headroom for the operating system and other build processes.
+# Resolve the reviewed SEC baseline even when Netlify uses a shallow checkout.
+[build]
+  command = 'git fetch --no-tags origin "$SEC_BASE_REF" && npm run build'
+
+# Preserve the validated heap limit and protect the reviewed 84-snapshot history.
 [build.environment]
   NODE_OPTIONS = "--max-old-space-size=4096"
+  SEC_BASE_REF = "ebbc10ed11484192c972952d8c47645bd3c5bf4e"
