@@ -1,0 +1,405 @@
+TAP version 13
+# Subtest: PM reader mounts the atomic Dietary Requirement projection enhancer
+ok 1 - PM reader mounts the atomic Dietary Requirement projection enhancer
+  ---
+  duration_ms: 2.583834
+  ...
+# Subtest: PM lever references render canonical author-year plus linked square-bracket numbers
+ok 2 - PM lever references render canonical author-year plus linked square-bracket numbers
+  ---
+  duration_ms: 0.625292
+  ...
+# Subtest: System Optimisation Practices and Lifestyle Priorities use the shared six-atom contract
+ok 3 - System Optimisation Practices and Lifestyle Priorities use the shared six-atom contract
+  ---
+  duration_ms: 7.665208
+  ...
+# Subtest: input types permit evidence-supported dietary granularity without a new atom
+ok 4 - input types permit evidence-supported dietary granularity without a new atom
+  ---
+  duration_ms: 0.106
+  ...
+# Subtest: retired BRS5(KC3) resolves to independently adjudicated PM1 atoms
+ok 5 - retired BRS5(KC3) resolves to independently adjudicated PM1 atoms
+  ---
+  duration_ms: 23.975833
+  ...
+# Subtest: BRS5 KC1 and PM1 expose independent six-atom constituent relationships
+ok 6 - BRS5 KC1 and PM1 expose independent six-atom constituent relationships
+  ---
+  duration_ms: 6.401667
+  ...
+# Subtest: BRS2 KC1 Emerging Biological Supports expose separate six-field disclosures
+ok 7 - BRS2 KC1 Emerging Biological Supports expose separate six-field disclosures
+  ---
+  duration_ms: 2.162208
+  ...
+# Subtest: BRS2 KC1 Evidence Base titles expose constituent six-field disclosures
+ok 8 - BRS2 KC1 Evidence Base titles expose constituent six-field disclosures
+  ---
+  duration_ms: 0.733541
+  ...
+# Subtest: PM9 lever atoms resolve six-atom currency from PM evidence
+ok 9 - PM9 lever atoms resolve six-atom currency from PM evidence
+  ---
+  duration_ms: 13.803667
+  ...
+# Subtest: multi-role reappearance preserves distinct atoms
+ok 10 - multi-role reappearance preserves distinct atoms
+  ---
+  duration_ms: 1.45275
+  ...
+# Subtest: dietary candidates require all six atoms and a resolvable derived biochemical target
+ok 11 - dietary candidates require all six atoms and a resolvable derived biochemical target
+  ---
+  duration_ms: 15.915958
+  ...
+# Subtest: KC identity cannot create PM science without an independently adjudicated PM atom
+ok 12 - KC identity cannot create PM science without an independently adjudicated PM atom
+  ---
+  duration_ms: 1.289084
+  ...
+# Subtest: §3 reflects adjudicated PM9 dietary relationships without food mappings
+ok 13 - §3 reflects adjudicated PM9 dietary relationships without food mappings
+  ---
+  duration_ms: 3.628166
+  ...
+# Subtest: PM3 uses the PM9 atom and disclosure contract for dietary requirements
+ok 14 - PM3 uses the PM9 atom and disclosure contract for dietary requirements
+  ---
+  duration_ms: 332.113708
+  ...
+# Subtest: four reference PMs carry short input descriptors without changing atoms or disclosures
+ok 15 - four reference PMs carry short input descriptors without changing atoms or disclosures
+  ---
+  duration_ms: 41.146
+  ...
+# Subtest: PM input food-source renderer keeps compact category, citation and review formatting
+ok 16 - PM input food-source renderer keeps compact category, citation and review formatting
+  ---
+  duration_ms: 0.600542
+  ...
+# Subtest: SAMe food-source mappings retain Methionine, magnesium and potassium links and review IDs
+ok 17 - SAMe food-source mappings retain Methionine, magnesium and potassium links and review IDs
+  ---
+  duration_ms: 129.836209
+  ...
+# Subtest: dietary lever disclosure foodless aliases do not overwrite another atom
+ok 18 - dietary lever disclosure foodless aliases do not overwrite another atom
+  ---
+  duration_ms: 0.895792
+  ...
+# Subtest: PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3
+ok 19 - PM3 §3.1 keeps ATP biochemical and keeps individual KC supply in §3.1.3
+  ---
+  duration_ms: 1.088666
+  ...
+# Subtest: BRS1-FM1-PM3 presents dopamine dietary supply once
+ok 20 - BRS1-FM1-PM3 presents dopamine dietary supply once
+  ---
+  duration_ms: 6.908167
+  ...
+# Subtest: BRS1-FM1-PM3 permits B6 derived supply to PLP without independent Direct PLP admission
+ok 21 - BRS1-FM1-PM3 permits B6 derived supply to PLP without independent Direct PLP admission
+  ---
+  duration_ms: 3.324709
+  ...
+# Subtest: BRS4-FM1-PM2 keeps NAD lifestyle disclosure out of dietary requirements
+ok 22 - BRS4-FM1-PM2 keeps NAD lifestyle disclosure out of dietary requirements
+  ---
+  duration_ms: 1.937
+  ...
+# Subtest: requirement_classification is optional metadata and does not replace input_type
+ok 23 - requirement_classification is optional metadata and does not replace input_type
+  ---
+  duration_ms: 1.402875
+  ...
+# Subtest: primary presentations use one reader-facing entry per atom
+ok 24 - primary presentations use one reader-facing entry per atom
+  ---
+  duration_ms: 6.977458
+  ...
+# Subtest: safeguards keep Dietary Requirements independent of KC, substrate inventory and modulation
+ok 25 - safeguards keep Dietary Requirements independent of KC, substrate inventory and modulation
+  ---
+  duration_ms: 1.448625
+  ...
+# Subtest: state-regulation metadata cannot sit on biochemical inventory or use a dependency ceiling
+ok 26 - state-regulation metadata cannot sit on biochemical inventory or use a dependency ceiling
+  ---
+  duration_ms: 5.103583
+  ...
+# Subtest: upstream PM relationships render as labelled indicators, not ownership prose
+ok 27 - upstream PM relationships render as labelled indicators, not ownership prose
+  ---
+  duration_ms: 2.250833
+  ...
+# Subtest: Input links to its substance page and the compact heading stays unlinked
+ok 28 - Input links to its substance page and the compact heading stays unlinked
+  ---
+  duration_ms: 2.97825
+  ...
+# Subtest: NAD B3 form documentation links remain distinct and do not change the six-atom projection
+ok 29 - NAD B3 form documentation links remain distinct and do not change the six-atom projection
+  ---
+  duration_ms: 18.626209
+  ...
+# Subtest: Beetroot betaine resolves the verified USDA quantity while provenance stays on its food page
+ok 30 - Beetroot betaine resolves the verified USDA quantity while provenance stays on its food page
+  ---
+  duration_ms: 100.626
+  ...
+# Subtest: Spinach and wheat germ presence provenance produces one row each without deleting evidence
+ok 31 - Spinach and wheat germ presence provenance produces one row each without deleting evidence
+  ---
+  duration_ms: 83.479667
+  ...
+# Subtest: C1 real renderer keeps all four synthetic quantities, full basis, material, unknown preparation and source beside each amount
+ok 32 - C1 real renderer keeps all four synthetic quantities, full basis, material, unknown preparation and source beside each amount
+  ---
+  duration_ms: 4.227542
+  ...
+# Subtest: C1 renderer preserves multiple observations, removes exact canonical duplicates and withholds unverified quantities
+ok 33 - C1 renderer preserves multiple observations, removes exact canonical duplicates and withholds unverified quantities
+  ---
+  duration_ms: 1.964
+  ...
+# Subtest: C1 concentration ranking needs explicit compatible analytical groups and does not reject preparation differences
+ok 34 - C1 concentration ranking needs explicit compatible analytical groups and does not reject preparation differences
+  ---
+  duration_ms: 0.859625
+  ...
+# Subtest: C1 ordinary Methionine and magnesium projection retains actual renderer ordering, links, quantities and preparation
+ok 35 - C1 ordinary Methionine and magnesium projection retains actual renderer ordering, links, quantities and preparation
+  ---
+  duration_ms: 187.579292
+  ...
+# Subtest: closed category summaries stay compact while expanded source details preserve analytical qualifications
+ok 36 - closed category summaries stay compact while expanded source details preserve analytical qualifications
+  ---
+  duration_ms: 2.143375
+  ...
+# Subtest: C1 supported qualitative presence retains source limitations and cannot expose a withheld numerical value
+ok 37 - C1 supported qualitative presence retains source limitations and cannot expose a withheld numerical value
+  ---
+  duration_ms: 0.459125
+  ...
+# Subtest: admitted food targets retain plant and animal disclosures and provisional rendering
+ok 38 - admitted food targets retain plant and animal disclosures and provisional rendering
+  ---
+  duration_ms: 0.163416
+  ...
+# Subtest: every accepted structured BRS1 lever is present once, or explicitly unresolved
+ok 39 - every accepted structured BRS1 lever is present once, or explicitly unresolved
+  ---
+  duration_ms: 13.065791
+  ...
+# Subtest: scope reads external mechanism records only for explicit BRS1 dependencies
+ok 40 - scope reads external mechanism records only for explicit BRS1 dependencies
+  ---
+  duration_ms: 0.70325
+  ...
+# Subtest: upstream supply resolves to accepted relationship, with no reference cycles
+ok 41 - upstream supply resolves to accepted relationship, with no reference cycles
+  ---
+  duration_ms: 0.390292
+  ...
+# Subtest: shared pools and constituent resources deduplicate without losing independent roles
+ok 42 - shared pools and constituent resources deduplicate without losing independent roles
+  ---
+  duration_ms: 0.19125
+  ...
+# Subtest: B6 and PLP are separate relationships, not two dietary supplies
+ok 43 - B6 and PLP are separate relationships, not two dietary supplies
+  ---
+  duration_ms: 1.285083
+  ...
+# Subtest: qualitative phosphatidylcholine and betaine survive without numbers
+ok 44 - qualitative phosphatidylcholine and betaine survive without numbers
+  ---
+  duration_ms: 0.123458
+  ...
+# Subtest: quantities are source-specific and combined analytes never split into individual amounts
+ok 45 - quantities are source-specific and combined analytes never split into individual amounts
+  ---
+  duration_ms: 144.185167
+  ...
+# Subtest: food and substance projections agree, no top-ten or headline eligibility loss
+ok 46 - food and substance projections agree, no top-ten or headline eligibility loss
+  ---
+  duration_ms: 11.34575
+  ...
+# Subtest: meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute
+ok 47 - meal pattern remains a pattern with candidate ingredient source pointers, no nutrient substitute
+  ---
+  duration_ms: 0.340375
+  ...
+# Subtest: identity conflicts are explicit when present; missing supply never turns into zero
+ok 48 - identity conflicts are explicit when present; missing supply never turns into zero
+  ---
+  duration_ms: 5.058167
+  ...
+# Subtest: selection does not impose a precise rank on overlapping source-specific ranges
+ok 49 - selection does not impose a precise rank on overlapping source-specific ranges
+  ---
+  duration_ms: 0.468375
+  ...
+# Subtest: sixth field gates PM lists independently of accounting and preserves unresolved decisions
+ok 50 - sixth field gates PM lists independently of accounting and preserves unresolved decisions
+  ---
+  duration_ms: 0.900584
+  ...
+# Subtest: schema accepts booleans/null, rejects textual defaults and undocumented ambiguity
+ok 51 - schema accepts booleans/null, rejects textual defaults and undocumented ambiguity
+  ---
+  duration_ms: 32.861291
+  ...
+# Subtest: evidence disclosure projects the authoritative dietary field and note
+ok 52 - evidence disclosure projects the authoritative dietary field and note
+  ---
+  duration_ms: 17.110959
+  ...
+# Subtest: duplicate qualitative citations share the evidence material and retain both source pointers
+ok 53 - duplicate qualitative citations share the evidence material and retain both source pointers
+  ---
+  duration_ms: 0.576666
+  ...
+# Subtest: quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs
+ok 54 - quinoa DHA hold preserves the source observation and suppresses lists without erasing other inputs
+  ---
+  duration_ms: 0.592333
+  ...
+# Subtest: all preparations include dried and raw observations without cross-state ranking
+ok 55 - all preparations include dried and raw observations without cross-state ranking
+  ---
+  duration_ms: 0.673958
+  ...
+# Subtest: four independent dietary-filter combinations consistently project PM/substance/food views
+ok 56 - four independent dietary-filter combinations consistently project PM/substance/food views
+  ---
+  duration_ms: 84.234584
+  ...
+# Subtest: cooked observations are eligible and source-specific measurements remain separate
+ok 57 - cooked observations are eligible and source-specific measurements remain separate
+  ---
+  duration_ms: 0.458875
+  ...
+# Subtest: BRS2 generation inventories every structured atom and consumes recorded dietary decisions
+ok 58 - BRS2 generation inventories every structured atom and consumes recorded dietary decisions
+  ---
+  duration_ms: 141.421416
+  ...
+# Subtest: SAMe methionine gets ontology-backed high-methionine food sources
+ok 59 - SAMe methionine gets ontology-backed high-methionine food sources
+  ---
+  duration_ms: 94.116958
+  ...
+# Subtest: SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements
+ok 60 - SAMe catalytic ions resolve to mineral food composition context without becoming dietary requirements
+  ---
+  duration_ms: 83.106292
+  ...
+# Subtest: BRS selector uses independent datasets and shows ungenerated BRSs without fallback
+ok 61 - BRS selector uses independent datasets and shows ungenerated BRSs without fallback
+  ---
+  duration_ms: 86.203666
+  ...
+# Subtest: BRS3–6 inventories preserve every structured admission and keep datasets isolated
+ok 62 - BRS3–6 inventories preserve every structured admission and keep datasets isolated
+  ---
+  duration_ms: 333.658208
+  ...
+# Subtest: all BRSs use grouped substance context without promoting unset entries to food supplies
+ok 63 - all BRSs use grouped substance context without promoting unset entries to food supplies
+  ---
+  duration_ms: 459.798333
+  ...
+# Subtest: rollout records every accepted atom decision and retains evidence and precursor distinctions
+ok 64 - rollout records every accepted atom decision and retains evidence and precursor distinctions
+  ---
+  duration_ms: 603.200583
+  ...
+# Subtest: food strategy rollup preserves independently admitted SOP science and separate intervention scopes
+ok 65 - food strategy rollup preserves independently admitted SOP science and separate intervention scopes
+  ---
+  duration_ms: 25.44225
+  ...
+# Subtest: active-form section admission does not override a conflicting accepted precursor supply route
+ok 66 - active-form section admission does not override a conflicting accepted precursor supply route
+  ---
+  duration_ms: 102.621875
+  ...
+# Subtest: preformed 5-MTHF is dietary Yes with form-specific source observations
+ok 67 - preformed 5-MTHF is dietary Yes with form-specific source observations
+  ---
+  duration_ms: 81.860625
+  ...
+# Subtest: Show All BRS retains relationship roles and deduplicates canonical supplies
+ok 68 - Show All BRS retains relationship roles and deduplicates canonical supplies
+  ---
+  duration_ms: 481.210792
+  ...
+# Subtest: Nrf2 admits the compound separately from its preparation SOP
+ok 69 - Nrf2 admits the compound separately from its preparation SOP
+  ---
+  duration_ms: 67.388875
+  ...
+# Subtest: newer canonical source revision supersedes stale preview mappings
+ok 70 - newer canonical source revision supersedes stale preview mappings
+  ---
+  duration_ms: 62.270375
+  ...
+# Subtest: PM2 transport inputs retain upstream supply and food links across section numbering
+ok 71 - PM2 transport inputs retain upstream supply and food links across section numbering
+  ---
+  duration_ms: 88.014792
+  ...
+# Subtest: B3 forms resolve independently with shared documentation and no invented food values
+ok 72 - B3 forms resolve independently with shared documentation and no invented food values
+  ---
+  duration_ms: 67.050375
+  ...
+# Subtest: B3 family aliases and total-niacin amounts never become form identities or amounts
+ok 73 - B3 family aliases and total-niacin amounts never become form identities or amounts
+  ---
+  duration_ms: 25.830166
+  ...
+# Subtest: B3 form observations keep independent provenance and explicitly unknown preparation
+ok 74 - B3 form observations keep independent provenance and explicitly unknown preparation
+  ---
+  duration_ms: 11.04
+  ...
+# Subtest: registered B3 identity is independent of documentation availability; links still verify
+ok 75 - registered B3 identity is independent of documentation availability; links still verify
+  ---
+  duration_ms: 16.641833
+  ...
+# Subtest: C1 four disposable Çatak observations preserve exact evidence without inventing comparability
+ok 76 - C1 four disposable Çatak observations preserve exact evidence without inventing comparability
+  ---
+  duration_ms: 89.832875
+  ...
+# Subtest: C1 distinct observations, exact units, explicit comparison decisions and review holds survive
+ok 77 - C1 distinct observations, exact units, explicit comparison decisions and review holds survive
+  ---
+  duration_ms: 14.287125
+  ...
+# Subtest: C1 public-display restrictions never admit a supplementary quantity or a new public material
+ok 78 - C1 public-display restrictions never admit a supplementary quantity or a new public material
+  ---
+  duration_ms: 12.458125
+  ...
+# Subtest: C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries
+ok 79 - C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified PM summaries
+  ---
+  duration_ms: 252.483208
+  ...
+1..79
+# tests 79
+# suites 0
+# pass 79
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 4561.527916

@@ -1,0 +1,9 @@
+.section { --question-blue: #1266a3; margin: 1.4rem 0; border-top: 1px solid var(--ifm-color-emphasis-200); padding-top: .8rem; }
+:global([data-theme='dark']) .section { --question-blue: #73b9ed; }
+.section h2 { display: flex; align-items: center; gap: .45rem; color: var(--question-blue); scroll-margin-top: 9rem; }
+.flask { width: 1.45rem; height: 1.45rem; flex-shrink: 0; color: var(--question-blue); }
+.item { margin: .45rem 0; border: 0; padding: .25rem 0; background: transparent; }
+.item summary { cursor: pointer; font-weight: 600; }
+.item summary:focus-visible { outline: 2px solid var(--ifm-color-primary); outline-offset: 4px; }
+.status { display: inline-block; margin-left: .4rem; font-size: .8em; font-weight: 400; color: var(--ifm-color-emphasis-700); }
+.item p { margin: .5rem 0; }

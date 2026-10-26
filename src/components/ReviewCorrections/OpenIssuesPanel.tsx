@@ -7,6 +7,7 @@ import {
   toPublicPmOpenIssue,
 } from "@site/src/data/pmOpenIssues.mjs"
 import styles from "./styles.module.css"
+import EvidenceDisclosure from "../EvidenceGaps/Disclosure"
 
 type Finding = {id?: string; finding_label?: string}
 type PublicIssue = {
@@ -19,6 +20,8 @@ type PublicIssue = {
   resolution_needs: string
   finding_ids?: string[]
   citation_keys?: string[]
+  title?: string
+  why_it_matters?: string
 }
 
 function kindLabel(kind: string): string {
@@ -53,10 +56,14 @@ function IssueCard({
   issue,
   findings,
   references,
+  number,
+  canonical,
 }: {
   issue: PublicIssue
   findings: Finding[]
   references: string[]
+  number: number
+  canonical: boolean
 }) {
   const history = useHistory()
   const location = useLocation()
@@ -77,13 +84,16 @@ function IssueCard({
       document.getElementById(id)?.scrollIntoView({block: "start"})
     }, 0)
   }
-  return (
-    <article className={styles.issueCard}>
-      <p>
+  const content = (
+    <>
+      {canonical && <p><strong>Record ID:</strong> {issue.id}</p>}
+      {!canonical && <p>
         {kindLabel(issue.kind)}
         {issue.status === "deferred" ? " · Deferred" : ""}
-      </p>
+        {issue.status === "under-investigation" ? " · Under investigation" : ""}
+      </p>}
       <h3>{issue.question}</h3>
+      {issue.why_it_matters && <p><strong>Why it matters: </strong>{issue.why_it_matters}</p>}
       <p>
         <strong>Established: </strong>
         {issue.established}
@@ -112,8 +122,10 @@ function IssueCard({
           ))}
         </ul>
       ) : null}
-    </article>
+    </>
   )
+  const status = issue.status === 'under-investigation' ? 'Under Investigation' : issue.status === 'deferred' ? 'Deferred' : issue.status === 'resolved' ? 'Resolved' : 'Open'
+  return canonical ? <EvidenceDisclosure id={issue.id} label={`Open Issue ${number}`} title={issue.title || issue.question} status={status}>{content}</EvidenceDisclosure> : <article className={styles.issueCard} id={issue.id.toLowerCase()}>{content}</article>
 }
 
 export default function OpenIssuesPanel({
@@ -139,15 +151,17 @@ export default function OpenIssuesPanel({
       <h2 tabIndex={-1}>Open Issues</h2>
       <p>
         These are unresolved questions for this mechanism. They do not add dietary
-        requirements, and a resolved question is recorded under Review &amp; Corrections.
+        requirements. Completed decisions and historical scope dispositions remain in Evidence &amp; Audit.
       </p>
       {issues.length === 0 ? (
         <p>No open questions are recorded for this mechanism.</p>
       ) : (
-        issues.map((issue) => (
+        issues.map((issue,index) => (
           <IssueCard
             key={issue.id}
             issue={issue}
+            number={index+1}
+            canonical={frontMatter.evidence_tabs_version === 1}
             findings={findings}
             references={references}
           />

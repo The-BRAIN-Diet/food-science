@@ -373,7 +373,7 @@ export default function PmDietaryLeverEnhancer({ frontMatter }: Props): React.Re
       }
       if (disclosure.supportingFinding) {
         // Same-page Finding anchors must remain local on review and canonical pages.
-        if (!disclosure.supportingFinding.href.startsWith("#")) {
+        if (!disclosure.supportingFinding.href.startsWith("#") && !disclosure.supportingFinding.href.startsWith("?")) {
           disclosure.supportingFinding.href = new URL(disclosure.supportingFinding.href, canonicalPmUrl).href;
         }
       }

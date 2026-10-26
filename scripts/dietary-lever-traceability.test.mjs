@@ -451,6 +451,7 @@ test("dietary candidates require all six atoms and a resolvable derived biochemi
   const { data } = readPm8();
   // Synthetic relationship variants are unassessed; do not inherit the real B6 adjudication.
   delete data.dietary_confidence_assessments;
+  delete data.dietary_input_assessments;
 
   const missingLimitation = structuredClone(data);
   delete missingLimitation.dietary_input_traceability[0].evidence_limitation;
@@ -1549,7 +1550,7 @@ test('C1 renderer preserves multiple observations, removes exact canonical dupli
  const $=parseHtml(selected.map(renderFoodSourceItem).join(''));
  assert.ok($.text().includes('123 µg (per g dry material)'));
  assert.ok($.text().includes('Chicken breast, alternative assay'));
- assert.ok($.text().includes('preparation not established'));
+ assert.ok($.text().includes('form not known'));
  assert.ok($.text().includes('quantity not established'));
  assert.doesNotMatch($.text(),/999/);
  assert.deepEqual(selectFoodDisclosureSources([c1Source('chicken','nicotinamide',888,{public_display:'internal-only'})]),[]);
@@ -1582,7 +1583,7 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
    const $=parseHtml(renderFoodSourceItem(item));
    assert.equal($('a').first().attr('href'),item.food_page);
    assert.ok($.text().includes(item.observations[0].display));
-   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil':item.preparation || 'preparation not established'));
+   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil':item.preparation || 'form not known'));
    assert.doesNotMatch($.text(),/Analytical qualification/);
   }
  }
@@ -1593,12 +1594,14 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
  assert.equal(nad.food_sources.filter(s=>s.substance_id==='tryptophan').length,3);
 });
 
-test('closed category summaries stay compact while expanded source details preserve analytical qualifications',()=>{
+test('rollout summaries show the first food quantity and basis without analytical clutter; audit renderers retain provenance',()=>{
  const item=selectFoodDisclosureSources([c1Source('chicken','nicotinamide',5.442)])[0];
  const $=parseHtml('<details><summary>'+renderFoodSourceSummary('Animal-based',item)+'</summary></details>');
  const summary=$('details:not([open]) > summary');
- assert.match(summary.text(),/Animal-based - Chicken/);
- assert.doesNotMatch(summary.text(),/Studied material|Analytical qualification|5.442|no concentration ranking|food-source/);
+ assert.match(summary.text(),/Animal-based - Chicken 5\.442 mg .* - unknown/);
+ assert.match(summary.text(),/5\.442 mg \(per 100 g sample; fresh\/dry basis not reported\)/);
+ assert.equal(summary.find('details').length,0);
+ assert.doesNotMatch(summary.text(),/Studied material|Analytical qualification|no concentration ranking|food-source/);
  const expanded=parseHtml(renderFoodSourceItem(item));
  assert.match(expanded('details > summary').text(),/Source qualifications/);
  assert.match(expanded('details').text(),/native free-vitamer/);

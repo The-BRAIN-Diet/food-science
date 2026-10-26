@@ -23,11 +23,21 @@ export function dietaryConfidenceFor(data, atomId) {
     expected.every(name => row.essential_links.some(link => link?.link === name && link.status === 'supported')) ? row : null;
 }
 
+/** Detailed provenance uses existing fields only; missing judgements stay explicit. */
+export function renderDietaryConfidenceAudit(row) {
+  if (!row || !DIETARY_CONFIDENCE_VALUES.includes(row.confidence)) return '';
+  const field = (label, value) => `<p class="brain-sf-field"><strong>${escape(label)}:</strong> ${escape(value || 'Not separately recorded.')}</p>`;
+  const links = (row.finding_links || []).filter(link => safeHref(link?.href));
+  const sources = link => (link.sources || []).filter(url => /^https:\/\//.test(url)).map(url => `<li><a href="${escape(url)}">${escape(url)}</a></li>`).join('');
+  const essential = (row.essential_links || []).map(link => `<section>${field(link.link === 'functional_dependency' ? 'PM-specific capacity (Type A)' : link.link === 'mechanism_engagement' ? 'PM-specific mechanism engagement (Type B)' : 'Dietary delivery', link.statement)}${field('Recorded support', link.status)}<ul aria-label="Sources for ${escape(link.link)}">${sources(link)}</ul></section>`).join('');
+  return `<details class="brs-dietary-confidence-audit" data-assessment-id="${escape(row.id)}"><summary title="Explore the assessed relationship, supporting evidence, limitations and provenance">Evidence &amp; Audit</summary><div class="brs-dietary-confidence-audit-body">${field('Assessment ID', row.id)}${field('Assessed proposition', row.proposition)}${field('Dietary Confidence', row.confidence)}${field('Relationship', `${row.type === 'A' ? 'Type A — Capacity' : 'Type B — Regulation'}; ${row.classification}`)}${field('Evidence rationale', row.rationale)}${field('Evidence coherence', row.evidence_coherence || 'Not separately graded; see the recorded evidence rationale above.')}<h4>Engagement, dietary delivery and supporting sources</h4>${essential}<h4>Linked Scientific Findings</h4><ul>${links.map(link => `<li><a href="${escape(link.href)}">${escape(link.pm_id)} / ${escape(link.finding_id)}</a> — ${escape(link.explanation)}</li>`).join('')}</ul><h4>Scope and confidence limitations</h4>${field('Assessed scope', row.scope)}<ul>${(row.limitations || []).map(value => `<li>${escape(value)}</li>`).join('')}</ul>${field('Assessor', row.assessor)}${field('Review date', row.review_date)}${field('Assessment version', row.assessment_version)}${field('Criteria version', row.criteria_version)}<p>Dietary Confidence does not change scientific admission, SEC/CC, food-source verification or clinical-efficacy claims. Ontology traceability warnings are separate from this assessment.</p></div></details>`;
+}
+
 /** A separate assessment note, never a seventh scientific atom. */
 export function renderDietaryConfidence(row) {
   if (!row || !DIETARY_CONFIDENCE_VALUES.includes(row.confidence)) return '';
   const links = (Array.isArray(row.finding_links) ? row.finding_links : []).filter(link => safeHref(link?.href));
-  return `<aside class="brs-dietary-confidence" data-dietary-confidence="${escape(row.confidence)}" aria-label="Dietary Confidence"><p><strong>Dietary Confidence: ${escape(row.confidence)}</strong> — ${escape(row.explanation)}</p>${links.length ? `<p>Relevant Findings: ${links.map(link => `<a href="${escape(link.href)}">${escape(link.pm_id)} / ${escape(link.finding_id)}</a>`).join('; ')}</p>` : ''}</aside>`;
+  return `<aside class="brs-dietary-confidence" data-dietary-confidence="${escape(row.confidence)}" aria-label="Dietary Confidence"><p><strong>Dietary Confidence: ${escape(row.confidence)}</strong> — ${escape(row.explanation)}</p>${links.length ? `<p>Relevant Findings: ${links.map(link => `<a href="${escape(link.href)}">${escape(link.pm_id)} / ${escape(link.finding_id)}</a>`).join('; ')}</p>` : ''}${renderDietaryConfidenceAudit(row)}</aside>`;
 }
 
 export function validateDietaryConfidence(data, {isHistoricallyAdmitted = () => false, resolvePm = id => id === data.pm_id ? data : null} = {}) {

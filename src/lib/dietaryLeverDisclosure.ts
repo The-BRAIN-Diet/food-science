@@ -1,3 +1,4 @@
+import {isScientificPrinciple,scientificPrincipleLabel,findingEvidenceHref} from './scientificPrinciples.mjs';
 import {dietaryConfidenceFor} from "./dietaryConfidence.mjs";
 /**
  * Client mirror of scripts/lib/dietary-lever-disclosure.mjs
@@ -219,7 +220,7 @@ function supportingFindingLink(
   const finding = findings.find((row) => String(row?.id || "") === id);
   const label = String(finding?.finding_label || "").trim();
   if (!label) return null;
-  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
+  return { id, label: isScientificPrinciple(frontMatter, id) ? scientificPrincipleLabel(finding, frontMatter) : findingReaderLabel(finding), href: findingEvidenceHref(frontMatter, id) };
 }
 
 function evidenceSourceReferences(

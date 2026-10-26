@@ -1,0 +1,452 @@
+{
+  "citation_key": "dietary_lipids_meta_2014",
+  "doi": "10.1017/S0007114514002013",
+  "metadata": {
+    "id": "25192422",
+    "source": "MED",
+    "pmid": "25192422",
+    "doi": "10.1017/s0007114514002013",
+    "title": "Effect of dietary lipids on circulating adiponectin: a systematic review with meta-analysis of randomised controlled trials.",
+    "authorString": "von Frankenberg AD, Silva FM, de Almeida JC, Piccoli V, do Nascimento FV, Sost MM, Leit\u00e3o CB, Remonti LL, Umpierre D, Reis AF, Canani LH, de Azevedo MJ, Gerchman F.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "von Frankenberg AD",
+          "lastName": "von Frankenberg",
+          "firstName": "Anize D",
+          "initials": "AD",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Silva FM",
+          "lastName": "Silva",
+          "firstName": "Fl\u00e1via M",
+          "initials": "FM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "de Almeida JC",
+          "lastName": "de Almeida",
+          "firstName": "Jussara C",
+          "initials": "JC",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Piccoli V",
+          "lastName": "Piccoli",
+          "firstName": "Vanessa",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "do Nascimento FV",
+          "lastName": "do Nascimento",
+          "firstName": "Filipe V",
+          "initials": "FV",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sost MM",
+          "lastName": "Sost",
+          "firstName": "M\u00f4nica M",
+          "initials": "MM",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Leit\u00e3o CB",
+          "lastName": "Leit\u00e3o",
+          "firstName": "Cristiane B",
+          "initials": "CB",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2106-309X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Remonti LL",
+          "lastName": "Remonti",
+          "firstName": "Luciana L R",
+          "initials": "LL",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3117-804X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Umpierre D",
+          "lastName": "Umpierre",
+          "firstName": "Daniel",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-6953-0163"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Exercise Pathophysiology Research Laboratory, Hospital de Cl\u00ednicas de Porto Alegre,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Reis AF",
+          "lastName": "Reis",
+          "firstName": "Andr\u00e9 F",
+          "initials": "AF",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Endocrinology Unit, Universidade Federal de S\u00e3o Paulo (UNIFESP),S\u00e3o Paulo,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Canani LH",
+          "lastName": "Canani",
+          "firstName": "Luis H",
+          "initials": "LH",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "de Azevedo MJ",
+          "lastName": "de Azevedo",
+          "firstName": "Mirela J",
+          "initials": "MJ",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gerchman F",
+          "lastName": "Gerchman",
+          "firstName": "Fernando",
+          "initials": "F",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5873-9498"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5873-9498"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-6953-0163"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2106-309X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-1680-5770"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3117-804X"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "8",
+      "volume": "112",
+      "journalIssueId": 2211657,
+      "dateOfPublication": "2014 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2014,
+      "journal": {
+        "medlineAbbreviation": "Br J Nutr",
+        "title": "The British journal of nutrition",
+        "essn": "1475-2662",
+        "issn": "0007-1145",
+        "isoabbreviation": "Br J Nutr",
+        "nlmid": "0372547"
+      },
+      "printPublicationDate": "2014-10-01"
+    },
+    "pubYear": "2014",
+    "pageInfo": "1235-1250",
+    "abstractText": "Different dietary interventions have been identified as potential modifiers of adiponectin concentrations, and they may be influenced by lipid intake. We identified studies investigating the effect of dietary lipids (type/amount) on adiponectin concentrations in a systematic review with meta-analysis. A literature search was conducted until July 2013 using databases such as Medline, Embase and Scopus (MeSH terms: 'adiponectin', 'dietary lipid', 'randomized controlled trials (RCT)'). Inclusion criteria were RCT in adults analysing adiponectin concentrations with modification of dietary lipids. Among the 4930 studies retrieved, fifty-three fulfilled the inclusion criteria and were grouped as follows: (1) total dietary lipid intake; (2) dietary/supplementary n-3 PUFA; (3) conjugated linoleic acid (CLA) supplementation; (4) other dietary lipid interventions. Diets with a low fat content in comparison to diets with a high-fat content were not associated with positive changes in adiponectin concentrations (twelve studies; pooled estimate of the difference in means: -0\u00b704 (95% CI -0\u00b782, 0\u00b774) \u03bcg/ml). A modest increase in adiponectin concentrations with n-3 PUFA supplementation was observed (thirteen studies; 0\u00b727 (95% CI 0\u00b707, 0\u00b747) \u03bcg/ml). Publication bias was found by using Egger's test (P= 0\u00b701) and funnel plot asymmetry. In contrast, CLA supplementation reduced the circulating concentrations of adiponectin compared with unsaturated fat supplementation (seven studies; -0\u00b774 (95% CI -1\u00b738, -0\u00b710) \u03bcg/ml). However, important sources of heterogeneity were found as revealed by the meta-regression analyses of both n-3 PUFA and CLA supplementation. Results of new RCT would be necessary to confirm these findings.",
+    "affiliation": "Post-Graduate Endocrinology Program, Faculdade de Medicina, Universidade Federal do Rio Grande do Sul,Porto Alegre,Brazil.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "Comparative Study",
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Fats",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fatty Acids, Omega-3",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Linoleic Acids, Conjugated",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AE",
+                "qualifierName": "adverse effects"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TU",
+                "qualifierName": "therapeutic use"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Diet, Fat-Restricted"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Reproducibility of Results"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Down-Regulation"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Up-Regulation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Supplements",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AE",
+                "qualifierName": "adverse effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AG",
+                "qualifierName": "agonists"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Randomized Controlled Trials as Topic"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Diet, High-Fat",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AE",
+                "qualifierName": "adverse effects"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Dietary Fats",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Linoleic Acids, Conjugated",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fatty Acids, Omega-3",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ADIPOQ protein, human",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1017/S0007114514002013"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 32,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2014-12-16",
+    "dateOfCreation": "2014-09-06",
+    "dateOfRevision": "2025-07-28",
+    "electronicPublicationDate": "2014-09-05",
+    "firstPublicationDate": "2014-09-05",
+    "firstIndexDate": "2014-09-06",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1017%2FS0007114514002013%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

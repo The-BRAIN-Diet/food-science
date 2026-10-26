@@ -1,3 +1,4 @@
+import {isScientificPrinciple,scientificPrincipleLabel,findingEvidenceHref} from '../../src/lib/scientificPrinciples.mjs';
 import {dietaryConfidenceFor} from '../../src/lib/dietaryConfidence.mjs';
 /**
  * Reader-facing dietary lever disclosure payloads (no governance fields).
@@ -67,7 +68,7 @@ function supportingFindingLink(data, findingId) {
   if (!finding) return null;
   const label = String(finding.finding_label || "").trim();
   if (!label) return null;
-  return { id, label: findingReaderLabel(finding), href: `#${id.toLowerCase()}` };
+  return { id, label: isScientificPrinciple(data, id) ? scientificPrincipleLabel(finding, data) : findingReaderLabel(finding), href: findingEvidenceHref(data, id) };
 }
 
 function evidenceSourceReferences(data, evidenceSource, { directHref = false } = {}) {

@@ -1,0 +1,1591 @@
+[
+  {
+    "accession": "P28845",
+    "entry_audit": {
+      "firstPublicDate": "1992-12-01",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "2007-01-23",
+      "entryVersion": 231,
+      "sequenceVersion": 3
+    },
+    "retrieved_on": "2026-10-26",
+    "url": "https://rest.uniprot.org/uniprotkb/P28845.json",
+    "function_and_reaction_annotations": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15095019"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17593962"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "23685396"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "27927697"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30902677"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "11481269"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "12414862"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "15095019"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ],
+            "value": "Controls the reversible conversion of biologically active glucocorticoids such as cortisone to cortisol, and 11-dehydrocorticosterone to corticosterone in the presence of NADP(H) (PubMed:10497248, PubMed:12460758, PubMed:14973125, PubMed:15152005, PubMed:15280030, PubMed:17593962, PubMed:21453287, PubMed:23685396, PubMed:27927697, PubMed:30902677). Participates in the corticosteroid receptor-mediated anti-inflammatory response, as well as metabolic and homeostatic processes (PubMed:10497248, PubMed:12414862, PubMed:15152005, PubMed:21453287). Plays a role in the secretion of aqueous humor in the eye, maintaining a normotensive, intraocular environment (PubMed:11481269). Bidirectional in vitro, predominantly functions as a reductase in vivo, thereby increasing the concentration of active glucocorticoids (PubMed:10497248, PubMed:11481269, PubMed:12414862, PubMed:12460758). It has broad substrate specificity, besides glucocorticoids, it accepts other steroid and sterol substrates (PubMed:15095019, PubMed:15152005, PubMed:17593962, PubMed:21453287, PubMed:23685396). Interconverts 7-oxo- and 7-hydroxy-neurosteroids such as 7-oxopregnenolone and 7beta-hydroxypregnenolone, 7-oxodehydroepiandrosterone (3beta-hydroxy-5-androstene-7,17-dione) and 7beta-hydroxydehydroepiandrosterone (3beta,7beta-dihydroxyandrost-5-en-17-one), among others (PubMed:17593962). Catalyzes the stereo-specific conversion of the major dietary oxysterol, 7-ketocholesterol (7-oxocholesterol), into the more polar 7-beta-hydroxycholesterol metabolite (PubMed:15095019, PubMed:15152005). 7-oxocholesterol is one of the most important oxysterols, it participates in several events such as induction of apoptosis, accumulation in atherosclerotic lesions, lipid peroxidation, and induction of foam cell formation (PubMed:15095019). Mediates the 7-oxo reduction of 7-oxolithocholate mainly to chenodeoxycholate, and to a lesser extent to ursodeoxycholate, both in its free form and when conjugated to glycine or taurine, providing a link between glucocorticoid activation and bile acid metabolism (PubMed:21453287). Catalyzes the synthesis of 7-beta-25-dihydroxycholesterol from 7-oxo-25-hydroxycholesterol in vitro, which acts as a ligand for the G protein-coupled receptor (GPCR) Epstein-Barr virus-induced gene 2 (EBI2) and may thereby regulate immune cell migration (PubMed:30902677)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "an 11beta-hydroxysteroid + NADP(+) = an 11-oxosteroid + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:11388"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:35346"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:47787"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            }
+          ],
+          "ecNumber": "1.1.1.146",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10497248"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11481269"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12460758"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14973125"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15152005"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15280030"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17070044"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17919905"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23685396"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27927697"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "30902677"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8319583"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:11389"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30902677"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8319583"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "15280030"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "27927697"
+              }
+            ]
+          },
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:11390"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11481269"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30902677"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8319583"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "15280030"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "27927697"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "cortisone + NADPH + H(+) = cortisol + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:68616"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16962"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:17650"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11481269"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "12460758"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15152005"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15280030"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "27927697"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "30902677"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "8319583"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:68617"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11481269"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30902677"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8319583"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "15280030"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "27927697"
+              }
+            ]
+          },
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:68618"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12460758"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "30902677"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8319583"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "15280030"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "27927697"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "corticosterone + NADP(+) = 11-dehydrocorticosterone + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:42200"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:16827"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:78600"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "10497248"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14973125"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:42201"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              }
+            ]
+          },
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:42202"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10497248"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "a 7beta-hydroxysteroid + NADP(+) = a 7-oxosteroid + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:20233"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:35349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:47789"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            }
+          ],
+          "ecNumber": "1.1.1.201",
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14973125"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15095019"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15152005"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:20235"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15095019"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "7-oxocholesterol + NADPH + H(+) = 7beta-hydroxycholesterol + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:68656"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:42989"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:64294"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "14973125"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15095019"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15152005"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:68657"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "14973125"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15095019"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15152005"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "chenodeoxycholate + NADP(+) = 7-oxolithocholate + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:53820"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:36234"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:78605"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:53822"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "7-oxolithocholate + NADPH + H(+) = ursodeoxycholate + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:47540"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:78604"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:78605"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:47541"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "glycochenodeoxycholate + NADP(+) = 7-oxoglycolithocholate + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:65056"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:36252"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:137818"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:65058"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "taurochenodeoxycholate + NADP(+) = 7-oxotaurolithocholate + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:65060"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:9407"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:137724"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:65062"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "tauroursodeoxycholate + NADP(+) = 7-oxotaurolithocholate + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:68980"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:132028"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:137724"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:68982"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "glycoursodeoxycholate + NADP(+) = 7-oxoglycolithocholate + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:68976"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:132030"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:137818"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "21453287"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:68978"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "21453287"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "7-oxopregnenolone + NADPH + H(+) = 7beta-hydroxypregnenolone + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69436"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183806"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183807"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69437"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "3beta,7alpha-dihydroxyandrost-5-en-17-one + NADP(+) = 3beta-hydroxy-5-androstene-7,17-dione + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69440"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:81471"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183808"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69441"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "3beta-hydroxy-5-androstene-7,17-dione + NADPH + H(+) = 3beta,7beta-dihydroxyandrost-5-en-17-one + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69452"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183368"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183808"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69453"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "3beta-hydroxy-5alpha-androstane-7,17-dione + NADPH + H(+) = 3beta,7beta-dihydroxy-5alpha-androstan-17-one + NADP(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:69456"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:79834"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:183809"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17593962"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:69457"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "17593962"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "11beta-hydroxyandrost-4-ene-3,17-dione + NADP(+) = androst-4-ene-3,11,17-trione + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:86411"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:2495"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:27967"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23685396"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:86412"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "23685396"
+              }
+            ]
+          },
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:86413"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "23685396"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "commentType": "CATALYTIC ACTIVITY",
+        "reaction": {
+          "name": "11beta,17beta-dihydroxyandrost-4-ene-3-one + NADP(+) = 17beta-hydroxyandrost-4-ene-3,11-dione + NADPH + H(+)",
+          "reactionCrossReferences": [
+            {
+              "database": "Rhea",
+              "id": "RHEA:86451"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:15378"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:34133"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:57783"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:58349"
+            },
+            {
+              "database": "ChEBI",
+              "id": "CHEBI:81481"
+            }
+          ],
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "23685396"
+            }
+          ]
+        },
+        "physiologicalReactions": [
+          {
+            "directionType": "left-to-right",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:86452"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "23685396"
+              }
+            ]
+          },
+          {
+            "directionType": "right-to-left",
+            "reactionCrossReference": {
+              "database": "Rhea",
+              "id": "RHEA:86453"
+            },
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "23685396"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "accession": "P41159",
+    "entry_audit": {
+      "firstPublicDate": "1995-02-01",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "1995-02-01",
+      "entryVersion": 221,
+      "sequenceVersion": 1
+    },
+    "retrieved_on": "2026-10-26",
+    "url": "https://rest.uniprot.org/uniprotkb/P41159.json",
+    "function_and_reaction_annotations": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P41160"
+              },
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "P50596"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "11460888"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "12504075"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "15899045"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "17344214"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "18242580"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19688109"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "24340098"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25060689"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "8589726"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "15122202"
+              },
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "25232147"
+              }
+            ],
+            "value": "Key player in the regulation of energy balance and body weight control. Once released into the circulation, has central and peripheral effects by binding LEPR, found in many tissues, which results in the activation of several major signaling pathways (PubMed:15899045, PubMed:17344214, PubMed:19688109). In the hypothalamus, acts as an appetite-regulating factor that induces a decrease in food intake and an increase in energy consumption by inducing anorexinogenic factors and suppressing orexigenic neuropeptides, also regulates bone mass and secretion of hypothalamo-pituitary-adrenal hormones. In the periphery, increases basal metabolism, influences reproductive function, regulates pancreatic beta-cell function and insulin secretion, is pro-angiogenic for endothelial cell and affects innate and adaptive immunity (By similarity) (PubMed:11460888, PubMed:19688109, PubMed:24340098, PubMed:25060689, PubMed:8589726). In the arcuate nucleus of the hypothalamus, activates by depolarization POMC neurons inducing FOS and SOCS3 expression to release anorexigenic peptides and inhibits by hyperpolarization NPY neurons inducing SOCS3 with a consequent reduction on release of orexigenic peptides (By similarity). In addition to its known satiety inducing effect, has a modulatory role in nutrient absorption. In the intestine, reduces glucose absorption by enterocytes by activating PKC and leading to a sequential activation of p38, PI3K and ERK signaling pathways which exerts an inhibitory effect on glucose absorption (PubMed:24340098). Acts as a growth factor on certain tissues, through the activation of different signaling pathways increases expression of genes involved in cell cycle regulation such as CCND1, via JAK2-STAT3 pathway, or VEGFA, via MAPK1/3 and PI3K-AKT1 pathways (By similarity) (PubMed:17344214). May also play an apoptotic role via JAK2-STAT3 pathway and up-regulation of BIRC5 expression (PubMed:18242580). Pro-angiogenic, has mitogenic activity on vascular endothelial cells and plays a role in matrix remodeling by regulating the expression of matrix metalloproteinases (MMPs) and tissue inhibitors of metalloproteinases (TIMPs) (PubMed:11460888). In innate immunity, modulates the activity and function of neutrophils by increasing chemotaxis and the secretion of oxygen radicals. Increases phagocytosis by macrophages and enhances secretion of pro-inflammatory mediators. Increases cytotoxic ability of NK cells (PubMed:12504075). Plays a pro-inflammatory role, in synergy with IL1B, by inducing NOS2 which promotes the production of IL6, IL8 and Prostaglandin E2, through a signaling pathway that involves JAK2, PI3K, MAP2K1/MEK1 and MAPK14/p38 (PubMed:15899045, PubMed:19688109). In adaptive immunity, promotes the switch of memory T-cells towards T helper-1 cell immune responses (By similarity). Increases CD4(+)CD25(-) T-cell proliferation and reduces autophagy during TCR (T-cell receptor) stimulation, through MTOR signaling pathway activation and BCL2 up-regulation (PubMed:25060689)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ]
+  },
+  {
+    "accession": "Q15848",
+    "entry_audit": {
+      "firstPublicDate": "1997-11-01",
+      "lastAnnotationUpdateDate": "2026-09-02",
+      "lastSequenceUpdateDate": "1996-11-01",
+      "entryVersion": 233,
+      "sequenceVersion": 1
+    },
+    "retrieved_on": "2026-10-26",
+    "url": "https://rest.uniprot.org/uniprotkb/Q15848.json",
+    "function_and_reaction_annotations": [
+      {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250",
+                "source": "UniProtKB",
+                "id": "Q60994"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "10982546"
+              }
+            ],
+            "value": "Important adipokine involved in the control of fat metabolism and insulin sensitivity upon binding to its receptors ADIPOR1 or ADIPOR2, with direct anti-diabetic effect. Also has anti-atherogenic and anti-inflammatory activities (By similarity). Stimulates AMPK phosphorylation and activation in the liver and the skeletal muscle, enhancing glucose utilization and fatty-acid combustion (By similarity). Antagonizes TNF by negatively regulating its expression in various tissues such as liver and macrophages, and also by counteracting its effects. Inhibits endothelial NF-kappa-B signaling through a cAMP-dependent pathway (PubMed:10982546). May play a role in cell growth, angiogenesis and tissue remodeling by binding and sequestering various growth factors with distinct binding affinities, depending on the type of complex, LMW, MMW or HMW (By similarity)"
+          }
+        ],
+        "commentType": "FUNCTION"
+      }
+    ]
+  }
+]

@@ -1,0 +1,351 @@
+{
+  "citation_key": "gammelmark_fish_oil_adiponectin_2012",
+  "doi": "10.1016/j.nutres.2011.12.007",
+  "metadata": {
+    "id": "22260859",
+    "source": "MED",
+    "pmid": "22260859",
+    "doi": "10.1016/j.nutres.2011.12.007",
+    "title": "Low-dose fish oil supplementation increases serum adiponectin without affecting inflammatory markers in overweight subjects.",
+    "authorString": "Gammelmark A, Madsen T, Varming K, Lundbye-Christensen S, Schmidt EB.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Gammelmark A",
+          "lastName": "Gammelmark",
+          "firstName": "Anders",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Cardiology, Center for Cardiovascular Research, Aalborg Hospital, Aarhus University Hospital, 9000 Aalborg, Denmark. anders.henriksen@rn.dk"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Madsen T",
+          "lastName": "Madsen",
+          "firstName": "Trine",
+          "initials": "T"
+        },
+        {
+          "fullName": "Varming K",
+          "lastName": "Varming",
+          "firstName": "Kim",
+          "initials": "K"
+        },
+        {
+          "fullName": "Lundbye-Christensen S",
+          "lastName": "Lundbye-Christensen",
+          "firstName": "S\u00f8ren",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9420-2783"
+          }
+        },
+        {
+          "fullName": "Schmidt EB",
+          "lastName": "Schmidt",
+          "firstName": "Erik B",
+          "initials": "EB",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0623-5666"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-0623-5666"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9420-2783"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "32",
+      "journalIssueId": 1898394,
+      "dateOfPublication": "2012 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2012,
+      "journal": {
+        "medlineAbbreviation": "Nutr Res",
+        "title": "Nutrition research (New York, N.Y.)",
+        "essn": "1879-0739",
+        "issn": "0271-5317",
+        "isoabbreviation": "Nutr Res",
+        "nlmid": "8303331"
+      },
+      "printPublicationDate": "2012-01-01"
+    },
+    "pubYear": "2012",
+    "pageInfo": "15-23",
+    "abstractText": "Obesity is associated with an increased risk of cardiovascular disease, whereas long-chain n-3 polyunsaturated fatty acids (PUFAs) from fish may have cardioprotective and anti-inflammatory effects. This study aimed to investigate the hypothesis that acute and short-term supplementation with a low dose of marine n-3 PUFA exerts an anti-inflammatory effect in overweight subjects. In a double-blind, placebo-controlled trial with 2 parallel groups, 50 overweight subjects were randomized to receive daily supplementation with 2 capsules containing either 2 g of fish oil (1.1 g marine n-3 PUFA) or 2 g of olive oil. Blood samples and adipose tissue biopsies were collected at baseline, after 1 day (acute effect), and after 6 weeks (short-term effect) of supplementation. No significant effects were seen after supplementation for 1 day, but after 6 weeks, subjects receiving fish oil had a significant increase in the n-3 PUFA content of granulocytes and adipose tissue (P < .01). Serum adiponectin levels were increased by 0.55 \u03bcg/mL (95% confidence interval, 0.02-1.08) in the fish oil group compared with the control group (P = .04) after 6 weeks of supplementation. Levels of interleukin 6 were inversely correlated to the marine n-3 PUFA content of granulocytes and adipose tissue at baseline (excluding \u03b1-linolenic acid). In conclusion, daily supplementation with 1.1 g of marine n-3 PUFA significantly increased serum adiponectin, but the effect was small, and no overall anti-inflammatory effect of the supplement could be demonstrated.",
+    "affiliation": "Department of Cardiology, Center for Cardiovascular Research, Aalborg Hospital, Aarhus University Hospital, 9000 Aalborg, Denmark. anders.henriksen@rn.dk",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Inflammation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fish Oils",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Plant Oils",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Anti-Inflammatory Agents",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Interleukin-6",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Linear Models"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Double-Blind Method"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Dietary Supplements"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Biomarkers",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Olive Oil"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Surveys and Questionnaires"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Anti-Inflammatory Agents",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Plant Oils",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fish Oils",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Interleukin-6",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Biomarkers",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Olive Oil",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.nutres.2011.12.007"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 50,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2012-05-10",
+    "dateOfCreation": "2012-01-21",
+    "dateOfRevision": "2015-11-19",
+    "firstPublicationDate": "2012-01-01",
+    "firstIndexDate": "2012-01-21",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.nutres.2011.12.007%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

@@ -362,26 +362,6 @@
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   },
   {
-    "pm": "BRS1-FM4-PM9",
-    "id": "BRS1-FM4-PM9::PM9-DIT-3",
-    "input": "Vitamin B6",
-    "eligibility": {
-      "eligible": true,
-      "state": "eligible-candidate"
-    },
-    "admission_basis": "historical-decision-pending-reconciliation",
-    "issues": [
-      "scientific-assessment-missing"
-    ],
-    "ontology_connections": {
-      "identity": "resolved",
-      "conversion": "unresolved",
-      "food": "supported"
-    },
-    "food_target_mapping": "verified",
-    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
-  },
-  {
     "pm": "BRS1-FM5-PM12",
     "id": "BRS1-FM5-PM12::PM12-DIT-1",
     "input": "Choline",
@@ -1678,28 +1658,6 @@
       "food": "supported"
     },
     "food_target_mapping": "verified",
-    "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
-  },
-  {
-    "pm": "BRS6-FM4-PM8",
-    "id": "BRS6-FM4-PM8::PM8-DIT-1",
-    "input": "Green Mediterranean dietary pattern",
-    "eligibility": {
-      "eligible": false,
-      "state": "ineligible",
-      "code": "section-input-type-ineligible"
-    },
-    "admission_basis": "historical-decision-pending-reconciliation",
-    "issues": [
-      "section-input-type-ineligible",
-      "scientific-assessment-missing"
-    ],
-    "ontology_connections": {
-      "identity": "unresolved",
-      "conversion": "not-applicable",
-      "food": "unresolved"
-    },
-    "food_target_mapping": "unresolved",
     "action": "Historical admission preserved. Reconcile only in an approved PM-specific assessment."
   }
 ]

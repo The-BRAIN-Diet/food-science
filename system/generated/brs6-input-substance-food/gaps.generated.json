@@ -27,6 +27,11 @@
     },
     {
       "kind": "no-structured-admissions",
+      "pm_id": "BRS6-FM4-PM8",
+      "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
+    },
+    {
+      "kind": "no-structured-admissions",
       "pm_id": "BRS6-FM4-PM9",
       "reason": "No structured accepted dietary inputs; narrative mentions are not admissions."
     },
@@ -42,12 +47,6 @@
       "substance_id": "dha-docosahexaenoic-acid",
       "record": "docs/foods/quinoa.md#nutrition_value_reviews",
       "reason": "DHA observation: independent confirmation unresolved"
-    },
-    {
-      "kind": "mapping-gap",
-      "relationship_id": "BRS6-FM4-PM8::PM8-DIT-1",
-      "input": "Green Mediterranean dietary pattern",
-      "reason": "Meal pattern retained; ingredient composition candidates available, no accepted meal-rule-to-food mapping."
     }
   ],
   "conflicts": [],
@@ -91,8 +90,8 @@
     {
       "pm_id": "BRS6-FM4-PM8",
       "record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
-      "accepted_relationships": 1,
-      "structured_atoms": 1
+      "accepted_relationships": 0,
+      "structured_atoms": 0
     },
     {
       "pm_id": "BRS6-FM4-PM9",

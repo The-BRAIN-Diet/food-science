@@ -1,0 +1,254 @@
+{
+  "citation_key": "wu_fish_oil_adiponectin_2013",
+  "doi": "10.1210/jc.2012-3899",
+  "metadata": {
+    "id": "23703724",
+    "source": "MED",
+    "pmid": "23703724",
+    "pmcid": "PMC3667269",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC3667269"
+      ]
+    },
+    "doi": "10.1210/jc.2012-3899",
+    "title": "Effect of fish oil on circulating adiponectin: a systematic review and meta-analysis of randomized controlled trials.",
+    "authorString": "Wu JH, Cahill LE, Mozaffarian D.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wu JH",
+          "lastName": "Wu",
+          "firstName": "Jason H Y",
+          "initials": "JH",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2073-3562"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Epidemiology, Harvard School of Public Health, Boston, Massachusetts 02115, USA. jasonwu@hsph.harvard.edu"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Cahill LE",
+          "lastName": "Cahill",
+          "firstName": "Leah E",
+          "initials": "LE",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3584-2227"
+          }
+        },
+        {
+          "fullName": "Mozaffarian D",
+          "lastName": "Mozaffarian",
+          "firstName": "Dariush",
+          "initials": "D"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2073-3562"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3584-2227"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "6",
+      "volume": "98",
+      "journalIssueId": 2043589,
+      "dateOfPublication": "2013 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2013,
+      "journal": {
+        "medlineAbbreviation": "J Clin Endocrinol Metab",
+        "title": "The Journal of clinical endocrinology and metabolism",
+        "essn": "1945-7197",
+        "issn": "0021-972X",
+        "nlmid": "0375362",
+        "isoabbreviation": "J Clin Endocrinol Metab"
+      },
+      "printPublicationDate": "2013-06-01"
+    },
+    "pubYear": "2013",
+    "pageInfo": "2451-2459",
+    "abstractText": "<h4>Context</h4>Seafood long-chain polyunsaturated omega-3 fatty acids (n-3 PUFAs) improve insulin sensitivity in animal experiments, but findings remain inconsistent in humans. Adiponectin is a robust marker for insulin sensitivity and adipocyte function. Whether n-3 PUFAs affect adiponectin in humans is unknown.<h4>Objective</h4>Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines, the objective of the study was to perform a systematic review and meta-analysis of randomized, placebo-controlled clinical trials (RCTs) to determine the effect of n-3 PUFA consumption on circulating adiponectin in humans.<h4>Data sources</h4>MEDLINE, EMBASE, CABI (CAB abstracts), Cochrane Central Registry of Controlled Trials, ClinicalTrials.gov, SIGLE, and Faculty of 1000 were searched through to June 2012, supplemented with author contact and reference list searches.<h4>Study selection</h4>RCTs of either fish oil supplementation or isocaloric fish meal feeding that evaluated adiponectin as an outcome were selected for the study.<h4>Data extraction</h4>Two investigators independently extracted the data. Effect estimates were pooled using inverse-variance weighted, random-effects meta-analysis. Heterogeneity was assessed by the I(2) and Q statistic. Prespecified sources of heterogeneity were investigated by meta-regression. Publication bias was assessed using funnel plots and Egger's test.<h4>Data synthesis</h4>Of 110 studies, 14 RCTs met inclusion criteria. Fourteen trial arms evaluated fish oil (fish oil, n = 682; placebo, n = 641). Fish oil increased adiponectin by 0.37 \u03bcg/mL [95% confidence interval (CI) 0.07; 0.67, P = .02]. Although effects in 11 of 14 trials were 0 or greater, statistical heterogeneity was evident (I(2) = 72.9%), unexplained by n-3 PUFA dose or duration, study quality score, study location, or baseline body mass index (meta-regression P > .05 each). The funnel plot was asymmetric in favor of smaller trials with greater effects (Egger's P = .11); the fill-and-trim method suggested a theoretical pooled effect of 0.18 \u03bcg/mL (95% CI -0.15; +0.52, P = .28). Only 2 trial arms evaluated fish feeding (n = 136 intervention and 68 control subjects), for which the pooled effect on adiponectin was not statistically significant (-0.01 \u03bcg/mL, 95% CI -0.65; 0.64, P = 0.99), although CIs were broad due to the small number of subjects.<h4>Conclusions</h4>In placebo-controlled RCTs, fish oil moderately increases circulating adiponectin, although with unexplained heterogeneity as well as potential publication bias. These findings provide no evidence for harm and support possible benefits of n-3 PUFA consumption on insulin sensitivity and adipocyte function.",
+    "affiliation": "Department of Epidemiology, Harvard School of Public Health, Boston, Massachusetts 02115, USA. jasonwu@hsph.harvard.edu",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Meta-Analysis",
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Systematic Review",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "R21 HL109924",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "1 R21 HL109924-01A1",
+          "orderIn": 0
+        },
+        {
+          "agency": "CIHR",
+          "acronym": "CAPMC",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Animals"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fishes"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fish Oils",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Supplements"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Randomized Controlled Trials as Topic"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fish Oils",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1210/jc.2012-3899"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC3667269"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1210/jc.2012-3899"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 66,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-08-09",
+    "dateOfCreation": "2013-05-25",
+    "dateOfRevision": "2025-07-11",
+    "electronicPublicationDate": "2013-05-23",
+    "firstPublicationDate": "2013-05-23",
+    "firstIndexDate": "2013-05-25",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1210%2Fjc.2012-3899%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "PM8-ADJ-RERUN-energy-restriction",
+    "title": "Dietary energy restriction and weight-loss maintenance",
+    "status": "admitted",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "Independent intervention admission: measured PM-specific local response within defined protocol/context.",
+      "delivery": "Direct relative to measured local adipose response; no intermediary dietary precursor is asserted."
+    },
+    "reason": "Supports bounded dietary-programme SOP, not universal hormone optimisation. Release subgroup n=27, expression n=42. No untreated comparator for pooled analysis; exercise could not be isolated. Whole-tissue ex vivo release is not in vivo flux. Population, depot, weight loss and energy balance constrain interpretation. Independent qualified support for dietary programme; retain null adiponectin result. No weight-stable comparator; cannot separate energy deficit from weight loss. Adiponectin null qualifies You abdominal response; no macronutrient superiority. Tested deficit is a study exposure, not an effective-dose prescription. Phase qualification of admitted dietary programme. Uncontrolled multiphase programme; cellular source and energy-balance phase matter. Does not justify sustained maximisation of leptin suppression or a general very-low-calorie diet recommendation.",
+    "resolution_criterion": "Broader populations, weight-independent mediation and secretion/flux or receptor outcomes would extend the current bounded admission.",
+    "finding_ids": [
+      "PM8-F16"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F16"
+      ],
+      "citation_keys": [
+        "you_regional_release_2014",
+        "arvidsson_hypocaloric_secretion_2004",
+        "siklova_diet_phase_secretion_2012"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "you_regional_release_2014",
+        "doi": "10.1002/oby.20743",
+        "title": "Regional adipose tissue hormone/cytokine production before and after weight loss in abdominally obese women.",
+        "year": "2014",
+        "authors": [
+          "You T",
+          "Wang X",
+          "Murphy KM",
+          "Lyles MF",
+          "Demons JL",
+          "Yang R",
+          "Gong DW",
+          "Nicklas BJ"
+        ],
+        "label": "You et al. (2014)",
+        "publication_class": "primary",
+        "exposure": "42 older abdominally obese women; 20-week hypocaloric programme, with or without aerobic exercise; pooled pre/post analysis. Ex vivo release measured in 27 women.",
+        "endpoint": "Abdominal/gluteal tissue leptin and adiponectin gene expression and ex vivo release; plasma separately.",
+        "result": "Weight loss 10.1 ± 0.7 kg. Leptin release decreased in both depots; adiponectin release increased only abdominally. Tissue and circulating changes were not significantly correlated.",
+        "limitations": "Release subgroup n=27, expression n=42. No untreated comparator for pooled analysis; exercise could not be isolated. Whole-tissue ex vivo release is not in vivo flux. Population, depot, weight loss and energy balance constrain interpretation.",
+        "decision": "Supports bounded dietary-programme SOP, not universal hormone optimisation.",
+        "access": "Full primary Methods/Results/Discussion and figures recovered through Scite; all 21,177 body characters reviewed.",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.1002/oby.20743",
+        "verified_on": "2026-10-26",
+        "reference_number": 39
+      },
+      {
+        "citation_key": "arvidsson_hypocaloric_secretion_2004",
+        "doi": "10.2337/diabetes.53.8.1966",
+        "title": "Effects of different hypocaloric diets on protein secretion from adipose tissue of obese women.",
+        "year": "2004",
+        "authors": [
+          "Arvidsson E",
+          "Viguerie N",
+          "Andersson I",
+          "Verdich C",
+          "Langin D",
+          "Arner P"
+        ],
+        "label": "Arvidsson et al. (2004)",
+        "publication_class": "primary",
+        "exposure": "40 women with obesity randomised to 10-week hypocaloric low-fat/high-carbohydrate or moderate-fat/moderate-carbohydrate diets; deficit 600 kcal/day.",
+        "endpoint": "Subcutaneous adipose ex vivo protein secretion and transcripts, with circulating concentrations separately.",
+        "result": "Approximately 7.5% weight loss and 40% lower leptin secretion; adiponectin secretion unchanged. Diet arms had similar responses.",
+        "limitations": "No weight-stable comparator; cannot separate energy deficit from weight loss. Adiponectin null qualifies You abdominal response; no macronutrient superiority. Tested deficit is a study exposure, not an effective-dose prescription.",
+        "decision": "Independent qualified support for dietary programme; retain null adiponectin result.",
+        "access": "Primary abstract and accessible journal/PDF excerpts; complete bias appraisal remains limited.",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.2337/diabetes.53.8.1966",
+        "verified_on": "2026-10-26",
+        "reference_number": 40
+      },
+      {
+        "citation_key": "siklova_diet_phase_secretion_2012",
+        "doi": "10.1210/jc.2011-2380",
+        "title": "Adipose tissue secretion and expression of adipocyte-produced and stromavascular fraction-produced adipokines vary during multiple phases of weight-reducing dietary intervention in obese women.",
+        "year": "2012",
+        "authors": [
+          "Siklova-Vitkova M",
+          "Klimcakova E",
+          "Polak J",
+          "Kovacova Z",
+          "Tencerova M",
+          "Rossmeislova L",
+          "Bajzova M",
+          "Langin D",
+          "Stich V"
+        ],
+        "label": "Siklova-Vitkova et al. (2012)",
+        "publication_class": "primary",
+        "exposure": "48 women with obesity: 1-month very-low-calorie diet then 5 months stabilisation/maintenance; release subgroup 26, transcript subgroup 22.",
+        "endpoint": "Subcutaneous adipose explant secretion, transcripts and plasma during different programme phases.",
+        "result": "Adipocyte-produced leptin measures fell during very-low-calorie feeding and rose during stabilisation; stromavascular adipokines followed different patterns.",
+        "limitations": "Uncontrolled multiphase programme; cellular source and energy-balance phase matter. Does not justify sustained maximisation of leptin suppression or a general very-low-calorie diet recommendation.",
+        "decision": "Phase qualification of admitted dietary programme.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.1210/jc.2011-2380",
+        "verified_on": "2026-10-26",
+        "reference_number": 41
+      }
+    ],
+    "admitted_atom_id": "PM8-SOP-1",
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "admitted in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-fasting",
+    "title": "Fasting and alternate-day restriction",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Target engagement lead; no fasting SOP admission. Small acute physiology experiment; fasting duration, time of day and energy balance not independently isolated. Does not validate a fasting protocol or universal lower-leptin target.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [
+      "PM8-F16"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F16"
+      ],
+      "citation_keys": [
+        "klein_leptin_fasting_2000"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "klein_leptin_fasting_2000",
+        "doi": "10.1152/ajpendo.2000.278.2.E280",
+        "title": "Leptin production during early starvation in lean and obese women.",
+        "year": "2000",
+        "authors": [
+          "Klein S",
+          "Horowitz JF",
+          "Landt M",
+          "Goodrick SJ",
+          "Mohamed-Ali V",
+          "Coppack SW"
+        ],
+        "label": "Klein et al. (2000)",
+        "publication_class": "primary",
+        "exposure": "9 lean and 9 upper-body obese women studied after 14 and 22 hours fasting.",
+        "endpoint": "Abdominal adipose arteriovenous net leptin release and plasma.",
+        "result": "Release declined in lean women but changed little in women with upper-body obesity.",
+        "limitations": "Small acute physiology experiment; fasting duration, time of day and energy balance not independently isolated. Does not validate a fasting protocol or universal lower-leptin target.",
+        "decision": "Target engagement lead; no fasting SOP admission.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.1152/ajpendo.2000.278.2.E280",
+        "verified_on": "2026-10-26",
+        "reference_number": 42
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-macronutrients",
+    "title": "Protein, carbohydrate and fat composition",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "No protein input admitted; preserve distinction between satiety, circulating leptin and receptor sensitivity. Sequential design; central leptin sensitivity inferred, not measured. No direct adipose secretion/receptor assay or protein-specific PM8 admission. Meal-related local engagement established narrowly; defer an actionable food/composition recommendation. Different small cohorts, non-isolated carbohydrate, oral versus intravenous exposure. Concentration difference is not equivalent to fully quantified secretion flux. No optimal meal or carbohydrate requirement established. Independent qualified support for dietary programme; retain null adiponectin result. No weight-stable comparator; cannot separate energy deficit from weight loss. Adiponectin null qualifies You abdominal response; no macronutrient superiority. Tested deficit is a study exposure, not an effective-dose prescription.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [
+      "PM8-F16"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F16"
+      ],
+      "citation_keys": [
+        "weigle_protein_leptin_2005",
+        "evans_meal_leptin_2001",
+        "arvidsson_hypocaloric_secretion_2004"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "weigle_protein_leptin_2005",
+        "doi": "10.1093/ajcn.82.1.41",
+        "title": "A high-protein diet induces sustained reductions in appetite, ad libitum caloric intake, and body weight despite compensatory changes in diurnal plasma leptin and ghrelin concentrations.",
+        "year": "2005",
+        "authors": [
+          "Weigle DS",
+          "Breen PA",
+          "Matthys CC",
+          "Callahan HS",
+          "Meeuws KE",
+          "Burden VR",
+          "Purnell JQ"
+        ],
+        "label": "Weigle et al. (2005)",
+        "publication_class": "primary",
+        "exposure": "19 adults: sequential 15% protein, isocaloric 30% protein, then ad-libitum 30% protein diet.",
+        "endpoint": "24-hour circulating leptin and satiety, energy intake and weight.",
+        "result": "Satiety increased on isocaloric higher protein without changed leptin AUC; ad-libitum phase reduced intake and weight with lower leptin.",
+        "limitations": "Sequential design; central leptin sensitivity inferred, not measured. No direct adipose secretion/receptor assay or protein-specific PM8 admission.",
+        "decision": "No protein input admitted; preserve distinction between satiety, circulating leptin and receptor sensitivity.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1093/ajcn.82.1.41",
+        "verified_on": "2026-10-26",
+        "reference_number": 50
+      },
+      {
+        "citation_key": "evans_meal_leptin_2001",
+        "doi": "10.1042/cs1000493",
+        "title": "Carbohydrate and fat have different effects on plasma leptin concentrations and adipose tissue leptin production.",
+        "year": "2001",
+        "authors": [
+          "Evans K",
+          "Clark ML",
+          "Frayn KN"
+        ],
+        "label": "Evans et al. (2001)",
+        "publication_class": "primary",
+        "exposure": "6 volunteers: oral 40 g fat/9.6 g carbohydrate versus intravenous fat; separate 8 volunteers: mixed meal 37 g fat/100 g carbohydrate.",
+        "endpoint": "Paired arterialised/adipose venous leptin concentration differences over 6 hours.",
+        "result": "Leptin venous–arterial difference fell after fat loads and rose after the mixed meal, peaking at 240 minutes.",
+        "limitations": "Different small cohorts, non-isolated carbohydrate, oral versus intravenous exposure. Concentration difference is not equivalent to fully quantified secretion flux. No optimal meal or carbohydrate requirement established.",
+        "decision": "Meal-related local engagement established narrowly; defer an actionable food/composition recommendation.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.1042/cs1000493",
+        "verified_on": "2026-10-26",
+        "reference_number": 49
+      },
+      {
+        "citation_key": "arvidsson_hypocaloric_secretion_2004",
+        "doi": "10.2337/diabetes.53.8.1966",
+        "title": "Effects of different hypocaloric diets on protein secretion from adipose tissue of obese women.",
+        "year": "2004",
+        "authors": [
+          "Arvidsson E",
+          "Viguerie N",
+          "Andersson I",
+          "Verdich C",
+          "Langin D",
+          "Arner P"
+        ],
+        "label": "Arvidsson et al. (2004)",
+        "publication_class": "primary",
+        "exposure": "40 women with obesity randomised to 10-week hypocaloric low-fat/high-carbohydrate or moderate-fat/moderate-carbohydrate diets; deficit 600 kcal/day.",
+        "endpoint": "Subcutaneous adipose ex vivo protein secretion and transcripts, with circulating concentrations separately.",
+        "result": "Approximately 7.5% weight loss and 40% lower leptin secretion; adiponectin secretion unchanged. Diet arms had similar responses.",
+        "limitations": "No weight-stable comparator; cannot separate energy deficit from weight loss. Adiponectin null qualifies You abdominal response; no macronutrient superiority. Tested deficit is a study exposure, not an effective-dose prescription.",
+        "decision": "Independent qualified support for dietary programme; retain null adiponectin result.",
+        "access": "Primary abstract and accessible journal/PDF excerpts; complete bias appraisal remains limited.",
+        "finding_id": "PM8-F16",
+        "source_url": "https://doi.org/10.2337/diabetes.53.8.1966",
+        "verified_on": "2026-10-26",
+        "reference_number": 40
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-epa-dha",
+    "title": "EPA and DHA",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.1.1",
+    "relationship_assessment": {
+      "type_a": "No complete PM-specific functional dependency and dietary supply claim established in this rerun.",
+      "type_b": "Relevant signals retained; essential delivery or endocrine-engagement link not fully established.",
+      "delivery": "Direct/Derived not assigned to an unadmitted relationship."
+    },
+    "reason": "Mechanistic Finding; nutrient admission deferred pending essential exposure/engagement bridge. Cultured free-fatty-acid exposure is not dietary delivery. Rosiglitazone is pharmacological; no ordinary-fish, food-dose or clinical equivalence. Supports physiological dietary response but does not close local secretory mediation or ordinary-fish equivalence. Secondary synthesis; do not double-count included trials. Blood concentration does not identify secretion mechanism; heterogeneous formulations and publication bias limit coherence.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [
+      "PM8-F18"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F18"
+      ],
+      "citation_keys": [
+        "tishinsky_epa_adiponectin_2011",
+        "wu_fish_oil_adiponectin_2013"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "tishinsky_epa_adiponectin_2011",
+        "doi": "10.1038/oby.2010.186",
+        "title": "Eicosapentaenoic acid and rosiglitazone increase adiponectin in an additive and PPARγ-dependent manner in human adipocytes.",
+        "year": "2011",
+        "authors": [
+          "Tishinsky JM",
+          "Ma DW",
+          "Robinson LE"
+        ],
+        "label": "Tishinsky et al. (2011)",
+        "publication_class": "primary",
+        "exposure": "Isolated cultured human adipocytes exposed for 48 hours to 100 µM free EPA or DHA, with PPARγ perturbation and rosiglitazone comparisons.",
+        "endpoint": "Secreted adiponectin, intracellular protein and PPARγ-dependent response.",
+        "result": "Adiponectin secretion rose 88% with EPA and 47% with DHA; antagonist responses differed.",
+        "limitations": "Cultured free-fatty-acid exposure is not dietary delivery. Rosiglitazone is pharmacological; no ordinary-fish, food-dose or clinical equivalence.",
+        "decision": "Mechanistic Finding; nutrient admission deferred pending essential exposure/engagement bridge.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F18",
+        "source_url": "https://doi.org/10.1038/oby.2010.186",
+        "verified_on": "2026-10-26",
+        "reference_number": 46
+      },
+      {
+        "citation_key": "wu_fish_oil_adiponectin_2013",
+        "doi": "10.1210/jc.2012-3899",
+        "title": "Effect of fish oil on circulating adiponectin: a systematic review and meta-analysis of randomized controlled trials.",
+        "year": "2013",
+        "authors": [
+          "Wu JH",
+          "Cahill LE",
+          "Mozaffarian D"
+        ],
+        "label": "Wu et al. (2013)",
+        "publication_class": "secondary",
+        "exposure": "Systematic review/meta-analysis: 14 fish-oil trial arms, 682 intervention/641 control; two fish-feeding arms separately.",
+        "endpoint": "Circulating adiponectin, not adipose secretion.",
+        "result": "Fish-oil pooled +0.37 µg/mL (95% CI 0.07–0.67), substantial heterogeneity; publication-bias adjustment +0.18 (−0.15 to 0.52). Fish-feeding estimate −0.01 (−0.65 to 0.64).",
+        "limitations": "Secondary synthesis; do not double-count included trials. Blood concentration does not identify secretion mechanism; heterogeneous formulations and publication bias limit coherence.",
+        "decision": "Supports physiological dietary response but does not close local secretory mediation or ordinary-fish equivalence.",
+        "access": "Full accessible review text and abstract; synthesis not an independent primary experiment.",
+        "finding_id": "PM8-F18",
+        "source_url": "https://doi.org/10.1210/jc.2012-3899",
+        "verified_on": "2026-10-26",
+        "reference_number": 47
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-fibre",
+    "title": "Fibre, whole grains and fermentable substrates",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.1.1",
+    "relationship_assessment": {
+      "type_a": "No complete PM-specific functional dependency and dietary supply claim established in this rerun.",
+      "type_b": "Relevant signals retained; essential delivery or endocrine-engagement link not fully established.",
+      "delivery": "Direct/Derived not assigned to an unadmitted relationship."
+    },
+    "reason": "Fibre/whole-grain candidate not admitted for PM8. No specific whole-grain superiority, direct adipose secretion or microbial causal mediation. Published 2020, online 2019. Prebiotic candidate deferred; no food/input admission. Systemic concentrations, shared co-interventions and disease context; no traced microbial mediation or isolated inulin equivalence.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "wholegrain_adiponectin_2019",
+        "javadi_prebiotic_adipokines_2017"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "wholegrain_adiponectin_2019",
+        "doi": "10.1080/09637486.2019.1680959",
+        "title": "Nutritional factors influencing plasma adiponectin levels: results from a randomised controlled study with whole-grain cereals.",
+        "year": "2020",
+        "authors": [
+          "Polito R",
+          "Costabile G",
+          "Nigro E",
+          "Giacco R",
+          "Vetrani C",
+          "Anniballi G",
+          "Luongo D",
+          "Riccardi G",
+          "Daniele A",
+          "Annuzzi G"
+        ],
+        "label": "Polito et al. (2020)",
+        "publication_class": "primary",
+        "exposure": "12-week isoenergetic whole-grain versus refined-grain comparison.",
+        "endpoint": "Plasma adiponectin and faecal SCFA.",
+        "result": "Adiponectin increased in both groups; associations with SCFA did not establish mediation.",
+        "limitations": "No specific whole-grain superiority, direct adipose secretion or microbial causal mediation. Published 2020, online 2019.",
+        "decision": "Fibre/whole-grain candidate not admitted for PM8.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1080/09637486.2019.1680959",
+        "verified_on": "2026-10-26",
+        "reference_number": 54
+      },
+      {
+        "citation_key": "javadi_prebiotic_adipokines_2017",
+        "doi": "10.15171/mejdd.2017.66",
+        "title": "Effects of Probiotic and Prebiotic Supplementation on Leptin, Adiponectin, and Glycemic Parameters in Non-alcoholic Fatty Liver Disease: A Randomized Clinical Trial.",
+        "year": "2017",
+        "authors": [
+          "Behrouz V",
+          "Jazayeri S",
+          "Aryaeian N",
+          "Zahedi MJ",
+          "Hosseini F"
+        ],
+        "label": "Behrouz et al. (2017)",
+        "publication_class": "primary",
+        "exposure": "89 adults with NAFLD; 12-week probiotic, oligofructose 16 g/day or maltodextrin; shared diet/activity advice.",
+        "endpoint": "Serum leptin/adiponectin and metabolic measures.",
+        "result": "Serum leptin changes did not establish a specific adipose secretory pathway; no between-group adiponectin benefit.",
+        "limitations": "Systemic concentrations, shared co-interventions and disease context; no traced microbial mediation or isolated inulin equivalence.",
+        "decision": "Prebiotic candidate deferred; no food/input admission.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.15171/mejdd.2017.66",
+        "verified_on": "2026-10-26",
+        "reference_number": 55
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-med-pattern",
+    "title": "Mediterranean dietary patterns",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Whole-pattern physiological evidence retained; no PM8-specific Mediterranean/component SOP admitted. Within-arm significance is not between-arm superiority. No tissue secretion or component attribution.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "medina_adiponectin_2023"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "medina_adiponectin_2023",
+        "doi": "10.1016/j.nutres.2023.09.005",
+        "title": "Adherence to a Mediterranean diet may improve serum adiponectin in adults with nonalcoholic fatty liver disease: The MEDINA randomized controlled trial.",
+        "year": "2023",
+        "authors": [
+          "Reddy A",
+          "Gatta PD",
+          "Mason S",
+          "Nicoll AJ",
+          "Ryan M",
+          "Itsiopoulos C",
+          "Abbott G",
+          "Johnson NA",
+          "Sood S",
+          "Roberts SK",
+          "George ES",
+          "Tierney AC"
+        ],
+        "label": "Reddy et al. (2023)",
+        "publication_class": "primary",
+        "exposure": "42 NAFLD participants randomised Mediterranean diet (19) or low-fat diet (23), 12 weeks.",
+        "endpoint": "Circulating adiponectin/leptin.",
+        "result": "Adiponectin increased within Mediterranean arm; low-fat arm showed greater leptin reduction.",
+        "limitations": "Within-arm significance is not between-arm superiority. No tissue secretion or component attribution.",
+        "decision": "Whole-pattern physiological evidence retained; no PM8-specific Mediterranean/component SOP admitted.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1016/j.nutres.2023.09.005",
+        "verified_on": "2026-10-26",
+        "reference_number": 56
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-meal-time",
+    "title": "Meal timing and time-restricted eating",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Physiological timing evidence retained; no PM8-specific optimisation protocol admitted. Does not measure adipose leptin secretion or receptor responsiveness. Acute timing/energy-expenditure interactions; direction of leptin change is not an endocrine-benefit criterion. Timing candidate deferred for PM8; no transfer to another PM without its own admission. Ghrelin/appetite are not adipose adipokine secretion or local glucocorticoid responsiveness. Small, short study. Circadian source lead; not PM8 intervention engagement. Adipose tissue measurement alone does not establish adipokine output, receptor responsiveness or local cortisol regeneration.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "vujovic_late_eating_2022",
+        "ravussin_early_feeding_2019",
+        "wehrens_meal_timing_2017"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "vujovic_late_eating_2022",
+        "doi": "10.1016/j.cmet.2022.09.007",
+        "title": "Late isocaloric eating increases hunger, decreases energy expenditure, and modifies metabolic pathways in adults with overweight and obesity.",
+        "year": "2022",
+        "authors": [
+          "Vujović N",
+          "Piron MJ",
+          "Qian J",
+          "Chellappa SL",
+          "Nedeltcheva A",
+          "Barr D",
+          "Heng SW",
+          "Kerlin K",
+          "Srivastav S",
+          "Wang W",
+          "Shoji B",
+          "Garaulet M",
+          "Brady MJ",
+          "Scheer FAJL"
+        ],
+        "label": "Vujović et al. (2022)",
+        "publication_class": "primary",
+        "exposure": "Randomised isocaloric early/late meal crossover with controlled sleep, light and activity.",
+        "endpoint": "24-hour circulating leptin/ghrelin, expenditure and exploratory adipose transcription.",
+        "result": "Later eating lowered circulating leptin and increased ghrelin/leptin ratio; exploratory tissue pathways differed.",
+        "limitations": "Does not measure adipose leptin secretion or receptor responsiveness. Acute timing/energy-expenditure interactions; direction of leptin change is not an endocrine-benefit criterion.",
+        "decision": "Physiological timing evidence retained; no PM8-specific optimisation protocol admitted.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1016/j.cmet.2022.09.007",
+        "verified_on": "2026-10-26",
+        "reference_number": 51
+      },
+      {
+        "citation_key": "ravussin_early_feeding_2019",
+        "doi": "10.1002/oby.22518",
+        "title": "Early Time-Restricted Feeding Reduces Appetite and Increases Fat Oxidation But Does Not Affect Energy Expenditure in Humans.",
+        "year": "2019",
+        "authors": [
+          "Ravussin E",
+          "Beyl RA",
+          "Poggiogalle E",
+          "Hsia DS",
+          "Peterson CM"
+        ],
+        "label": "Ravussin et al. (2019)",
+        "publication_class": "primary",
+        "exposure": "11 adults; 4-day crossover of eating 08:00–14:00 versus 08:00–20:00 with matched food.",
+        "endpoint": "Appetite, ghrelin, expenditure and fat oxidation.",
+        "result": "Early feeding altered appetite/ghrelin and substrate oxidation.",
+        "limitations": "Ghrelin/appetite are not adipose adipokine secretion or local glucocorticoid responsiveness. Small, short study.",
+        "decision": "Timing candidate deferred for PM8; no transfer to another PM without its own admission.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1002/oby.22518",
+        "verified_on": "2026-10-26",
+        "reference_number": 52
+      },
+      {
+        "citation_key": "wehrens_meal_timing_2017",
+        "doi": "10.1016/j.cub.2017.04.059",
+        "title": "Meal Timing Regulates the Human Circadian System.",
+        "year": "2017",
+        "authors": [
+          "Wehrens SMT",
+          "Christou S",
+          "Isherwood C",
+          "Middleton B",
+          "Gibbs MA",
+          "Archer SN",
+          "Skene DJ",
+          "Johnston JD"
+        ],
+        "label": "Wehrens et al. (2017)",
+        "publication_class": "primary",
+        "exposure": "10 men; meals delayed 5 hours.",
+        "endpoint": "Circadian glucose and subcutaneous adipose PER2 expression.",
+        "result": "Adipose clock timing shifted; systemic and peripheral clocks distinguished.",
+        "limitations": "Adipose tissue measurement alone does not establish adipokine output, receptor responsiveness or local cortisol regeneration.",
+        "decision": "Circadian source lead; not PM8 intervention engagement.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1016/j.cub.2017.04.059",
+        "verified_on": "2026-10-26",
+        "reference_number": 53
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-aerobic",
+    "title": "Aerobic exercise",
+    "status": "admitted",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.3",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "Independent intervention admission: measured PM-specific local response within defined protocol/context.",
+      "delivery": "Direct relative to measured local adipose response; no intermediary dietary precursor is asserted."
+    },
+    "reason": "Supports bounded local exercise engagement, not a universal adiponectin-raising protocol. Interstitial concentration is not secretion rate; blood flow, recovery and compartment distribution matter. Acute small male sample does not define chronic response, receptor sensitivity or clinical benefit. Qualified training support; no generic secretion claim. Transcription is not secretion or receptor responsiveness. Small sample; weight-independent mediation and optimal exercise dose not established. Retain contradictory/contextual evidence; limits exercise generalisation. Small biopsy subgroup; uncontrolled pre/post design. Important contextual null, not direct refutation of a different acute interstitial measurement.",
+    "resolution_criterion": "Broader populations, weight-independent mediation and secretion/flux or receptor outcomes would extend the current bounded admission.",
+    "finding_ids": [
+      "PM8-F17"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F17"
+      ],
+      "citation_keys": [
+        "hojbjerre_exercise_adiponectin_2007",
+        "moghadasi_endurance_adiponectin_2012",
+        "polak_aerobic_adipokines_2006"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "hojbjerre_exercise_adiponectin_2007",
+        "doi": "10.1530/EJE-07-0213",
+        "title": "Acute exercise increases adipose tissue interstitial adiponectin concentration in healthy overweight and lean subjects.",
+        "year": "2007",
+        "authors": [
+          "Højbjerre L",
+          "Rosenzweig M",
+          "Dela F",
+          "Bruun JM",
+          "Stallknecht B"
+        ],
+        "label": "Højbjerre et al. (2007)",
+        "publication_class": "primary",
+        "exposure": "8 overweight and 8 lean men; rest comparison day versus 1 hour exercise at 55% VO2max with pre/post subcutaneous biopsy.",
+        "endpoint": "Local interstitial adiponectin by large-pore microdialysis; adipose transcripts and plasma separately.",
+        "result": "Interstitial adiponectin increased despite unchanged plasma adiponectin and decreased adiponectin mRNA. Leptin mRNA decreased.",
+        "limitations": "Interstitial concentration is not secretion rate; blood flow, recovery and compartment distribution matter. Acute small male sample does not define chronic response, receptor sensitivity or clinical benefit.",
+        "decision": "Supports bounded local exercise engagement, not a universal adiponectin-raising protocol.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F17",
+        "source_url": "https://doi.org/10.1530/EJE-07-0213",
+        "verified_on": "2026-10-26",
+        "reference_number": 43
+      },
+      {
+        "citation_key": "moghadasi_endurance_adiponectin_2012",
+        "doi": "10.1007/s00421-011-2073-2",
+        "title": "High-intensity endurance training improves adiponectin mRNA and plasma concentrations.",
+        "year": "2012",
+        "authors": [
+          "Moghadasi M",
+          "Mohebbi H",
+          "Rahmani-Nia F",
+          "Hassan-Nia S",
+          "Noroozi H",
+          "Pirooznia N"
+        ],
+        "label": "Moghadasi et al. (2012)",
+        "publication_class": "primary",
+        "exposure": "16 sedentary overweight/obese men randomised 8 training/8 control; 12 weeks, 4 days/week, 45 minutes at 75–80% VO2max.",
+        "endpoint": "Abdominal/gluteal adiponectin mRNA, plasma adiponectin and body composition.",
+        "result": "Adiponectin mRNA and plasma increased; adiposity fell concurrently.",
+        "limitations": "Transcription is not secretion or receptor responsiveness. Small sample; weight-independent mediation and optimal exercise dose not established.",
+        "decision": "Qualified training support; no generic secretion claim.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F17",
+        "source_url": "https://doi.org/10.1007/s00421-011-2073-2",
+        "verified_on": "2026-10-26",
+        "reference_number": 44
+      },
+      {
+        "citation_key": "polak_aerobic_adipokines_2006",
+        "doi": "10.1016/j.metabol.2006.06.008",
+        "title": "Effect of aerobic training on plasma levels and subcutaneous abdominal adipose tissue gene expression of adiponectin, leptin, interleukin 6, and tumor necrosis factor alpha in obese women.",
+        "year": "2006",
+        "authors": [
+          "Polak J",
+          "Klimcakova E",
+          "Moro C",
+          "Viguerie N",
+          "Berlan M",
+          "Hejnova J",
+          "Richterova B",
+          "Kraus I",
+          "Langin D",
+          "Stich V"
+        ],
+        "label": "Polak et al. (2006)",
+        "publication_class": "primary",
+        "exposure": "25 sedentary women with obesity; 12-week aerobic programme, 5 days/week at 50% VO2max; biopsy subgroup 8.",
+        "endpoint": "Subcutaneous adipose adipokine transcripts and circulating hormones.",
+        "result": "No significant changes in tested tissue transcripts; plasma leptin fell, plasma adiponectin unchanged, despite weight/fat loss.",
+        "limitations": "Small biopsy subgroup; uncontrolled pre/post design. Important contextual null, not direct refutation of a different acute interstitial measurement.",
+        "decision": "Retain contradictory/contextual evidence; limits exercise generalisation.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F17",
+        "source_url": "https://doi.org/10.1016/j.metabol.2006.06.008",
+        "verified_on": "2026-10-26",
+        "reference_number": 45
+      }
+    ],
+    "admitted_atom_id": "PM8-LL-1",
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "admitted in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-resistance",
+    "title": "Resistance training",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.3",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Resistance training candidate deferred for a PM8-specific protocol. No adipose synthesis/secretion or receptor responsiveness measured; weight mediation not isolated. Retain null; no PM8 resistance protocol admitted. Acute serum null does not disprove chronic or local endocrine effects.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "fatouros_resistance_adipokines_2005",
+        "mansouri_resistance_adiponectin_2011"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "fatouros_resistance_adipokines_2005",
+        "doi": "10.1210/jc.2005-0261",
+        "title": "Leptin and adiponectin responses in overweight inactive elderly following resistance training and detraining are intensity related.",
+        "year": "2005",
+        "authors": [
+          "Fatouros IG",
+          "Tournis S",
+          "Leontsini D",
+          "Jamurtas AZ",
+          "Sxina M",
+          "Thomakos P",
+          "Manousaki M",
+          "Douroudos I",
+          "Taxildaris K",
+          "Mitrakou A"
+        ],
+        "label": "Fatouros et al. (2005)",
+        "publication_class": "primary",
+        "exposure": "50 older men randomised control or three resistance-training intensities, 6 months, then detraining.",
+        "endpoint": "Circulating leptin/adiponectin and body composition.",
+        "result": "Training-dependent circulating changes accompanied body-composition changes.",
+        "limitations": "No adipose synthesis/secretion or receptor responsiveness measured; weight mediation not isolated.",
+        "decision": "Resistance training candidate deferred for a PM8-specific protocol.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1210/jc.2005-0261",
+        "verified_on": "2026-10-26",
+        "reference_number": 57
+      },
+      {
+        "citation_key": "mansouri_resistance_adiponectin_2011",
+        "doi": "10.1507/endocrj.EJ11-0046",
+        "title": "The impact of one session resistance exercise on plasma adiponectin and RBP4 concentration in trained and untrained healthy young men.",
+        "year": "2011",
+        "authors": [
+          "Mansouri M",
+          "Keshtkar A",
+          "Hasani-Ranjbar S",
+          "Soleymani Far E",
+          "Tabatabaei-Malazy O",
+          "Omidfar K",
+          "Larijani B"
+        ],
+        "label": "Mansouri et al. (2011)",
+        "publication_class": "primary",
+        "exposure": "34 young trained/untrained men assigned acute resistance exercise or control; 120 minutes at 70–80% 1RM.",
+        "endpoint": "Circulating adiponectin/RBP4 over four hours.",
+        "result": "No significant acute adiponectin or RBP4 response.",
+        "limitations": "Acute serum null does not disprove chronic or local endocrine effects.",
+        "decision": "Retain null; no PM8 resistance protocol admitted.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1507/endocrj.EJ11-0046",
+        "verified_on": "2026-10-26",
+        "reference_number": 58
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-sleep",
+    "title": "Sleep duration and regularity",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.3",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Sleep candidate retained, no adipose-specific lifestyle admission. No adipose secretion, receptor or 11β-HSD1 assay; expenditure unmeasured. Acute restriction is not proof of benefit from extension/regularity. Qualifies single-study sleep signal; no universal direction claimed. Secondary synthesis, variable energy-balance conditions and small hormone subset; no local adipose target measurement. Ownership distinction preserved; no PM8 admission or automatic transfer. Direct tissue endpoint belongs primarily to insulin responsiveness/glucose-disposal ownership; does not measure adipokine or glucocorticoid output.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "spiegel_sleep_leptin_2004",
+        "sleep_adipokines_meta_2015",
+        "broussard_sleep_adipocyte_2012"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "spiegel_sleep_leptin_2004",
+        "doi": "10.7326/0003-4819-141-11-200412070-00008",
+        "title": "Brief communication: Sleep curtailment in healthy young men is associated with decreased leptin levels, elevated ghrelin levels, and increased hunger and appetite.",
+        "year": "2004",
+        "authors": [
+          "Spiegel K",
+          "Tasali E",
+          "Penev P",
+          "Van Cauter E"
+        ],
+        "label": "Spiegel et al. (2004)",
+        "publication_class": "primary",
+        "exposure": "12 healthy young men; randomised 2-day 4-hour versus 10-hour sleep opportunity under controlled calories/activity.",
+        "endpoint": "Circulating leptin/ghrelin, hunger/appetite.",
+        "result": "Restricted sleep lowered leptin and raised ghrelin and hunger.",
+        "limitations": "No adipose secretion, receptor or 11β-HSD1 assay; expenditure unmeasured. Acute restriction is not proof of benefit from extension/regularity.",
+        "decision": "Sleep candidate retained, no adipose-specific lifestyle admission.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.7326/0003-4819-141-11-200412070-00008",
+        "verified_on": "2026-10-26",
+        "reference_number": 59
+      },
+      {
+        "citation_key": "sleep_adipokines_meta_2015",
+        "doi": "10.1111/obr.12296",
+        "title": "A systematic review and meta-analysis of randomized controlled trials of the impact of sleep duration on adiposity and components of energy balance.",
+        "year": "2015",
+        "authors": [
+          "Capers PL",
+          "Fobian AD",
+          "Kaiser KA",
+          "Borah R",
+          "Allison DB"
+        ],
+        "label": "Capers et al. (2015)",
+        "publication_class": "secondary",
+        "exposure": "Systematic review/meta-analysis of randomised sleep-duration experiments.",
+        "endpoint": "Energy balance, adiposity and circulating hormone outcomes.",
+        "result": "Pooled leptin analysis did not establish a significant effect; heterogeneity substantial.",
+        "limitations": "Secondary synthesis, variable energy-balance conditions and small hormone subset; no local adipose target measurement.",
+        "decision": "Qualifies single-study sleep signal; no universal direction claimed.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1111/obr.12296",
+        "verified_on": "2026-10-26",
+        "reference_number": 60
+      },
+      {
+        "citation_key": "broussard_sleep_adipocyte_2012",
+        "doi": "10.7326/0003-4819-157-8-201210160-00005",
+        "title": "Impaired insulin signaling in human adipocytes after experimental sleep restriction: a randomized, crossover study.",
+        "year": "2012",
+        "authors": [
+          "Broussard JL",
+          "Ehrmann DA",
+          "Van Cauter E",
+          "Tasali E",
+          "Brady MJ"
+        ],
+        "label": "Broussard et al. (2012)",
+        "publication_class": "primary",
+        "exposure": "7 adults; randomised crossover sleep restriction versus adequate sleep, with adipose biopsies.",
+        "endpoint": "Adipocyte insulin-stimulated AKT signalling.",
+        "result": "Insulin signalling impaired after restricted sleep.",
+        "limitations": "Direct tissue endpoint belongs primarily to insulin responsiveness/glucose-disposal ownership; does not measure adipokine or glucocorticoid output.",
+        "decision": "Ownership distinction preserved; no PM8 admission or automatic transfer.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005",
+        "verified_on": "2026-10-26",
+        "reference_number": 61
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-niacin",
+    "title": "Pharmacological niacin versus dietary supply",
+    "status": "not-admitted",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.1.1",
+    "relationship_assessment": {
+      "type_a": "No complete PM-specific functional dependency and dietary supply claim established in this rerun.",
+      "type_b": "Pharmacological exposure does not establish an ordinary dietary route.",
+      "delivery": "Direct/Derived not assigned to an unadmitted relationship."
+    },
+    "reason": "Not admitted as dietary niacin; Type A dependency/supply assessment remains distinct. Pharmacological dose/formulation, not ordinary-food niacin supply. Hormone increases do not establish benefit; no local secretion assay.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": [
+        "niacin_adipokines_2006"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "niacin_adipokines_2006",
+        "doi": "10.1016/j.atherosclerosis.2006.06.028",
+        "title": "Extended-release niacin raises adiponectin and leptin.",
+        "year": "2007",
+        "authors": [
+          "Westphal S",
+          "Borucki K",
+          "Taneva E",
+          "Makarova R",
+          "Luley C"
+        ],
+        "label": "Westphal et al. (2007)",
+        "publication_class": "primary",
+        "exposure": "30 men with metabolic syndrome; 20 extended-release niacin 1500 mg/day, 10 placebo, 6 weeks.",
+        "endpoint": "Circulating adiponectin/leptin, HOMA and endothelial measures.",
+        "result": "Adiponectin and leptin rose, while HOMA insulin resistance worsened; no endothelial improvement.",
+        "limitations": "Pharmacological dose/formulation, not ordinary-food niacin supply. Hormone increases do not establish benefit; no local secretion assay.",
+        "decision": "Not admitted as dietary niacin; Type A dependency/supply assessment remains distinct.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": null,
+        "source_url": "https://doi.org/10.1016/j.atherosclerosis.2006.06.028",
+        "verified_on": "2026-10-26",
+        "reference_number": 62
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "not-admitted in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-local-cortisol",
+    "title": "Dietary modulation of local 11β-HSD1",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.2",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Relevant local transcript evidence; retain contrast with Tomlinson and systemic Stimson null without claiming all dietary engagement absent. Transcript is not local enzyme activity or cortisol-regeneration flux. Both diets produced weight loss; no independent effect of individual foods or weight-independent mechanism. Published 2015, online 2014.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [
+      "PM8-F13"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F13"
+      ],
+      "citation_keys": [
+        "stomby_diet_glucocorticoid_2015"
+      ]
+    },
+    "source_assessments": [
+      {
+        "citation_key": "stomby_diet_glucocorticoid_2015",
+        "doi": "10.1038/ijo.2014.188",
+        "title": "Diet-induced weight loss has chronic tissue-specific effects on glucocorticoid metabolism in overweight postmenopausal women.",
+        "year": "2015",
+        "authors": [
+          "Stomby A",
+          "Simonyte K",
+          "Mellberg C",
+          "Ryberg M",
+          "Stimson RH",
+          "Larsson C",
+          "Lindahl B",
+          "Andrew R",
+          "Walker BR",
+          "Olsson T"
+        ],
+        "label": "Stomby et al. (2015)",
+        "publication_class": "primary",
+        "exposure": "49 postmenopausal women with overweight/obesity randomised to Paleolithic-type or Nordic-recommendation diets for 24 months.",
+        "endpoint": "Subcutaneous adipose 11β-HSD1 mRNA, hepatic cortisone conversion and systemic metabolites.",
+        "result": "Adipose 11β-HSD1 mRNA decreased at 6 and 24 months while weight fell; hepatic conversion increased transiently at 6 months.",
+        "limitations": "Transcript is not local enzyme activity or cortisol-regeneration flux. Both diets produced weight loss; no independent effect of individual foods or weight-independent mechanism. Published 2015, online 2014.",
+        "decision": "Relevant local transcript evidence; retain contrast with Tomlinson and systemic Stimson null without claiming all dietary engagement absent.",
+        "access": "Primary abstract and metadata; full methods not independently recovered",
+        "finding_id": "PM8-F13",
+        "source_url": "https://doi.org/10.1038/ijo.2014.188",
+        "verified_on": "2026-10-26",
+        "reference_number": 48
+      }
+    ],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-activity-time",
+    "title": "Circadian and physical-activity timing",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.3",
+    "relationship_assessment": {
+      "type_a": "Not a biochemical Capacity input.",
+      "type_b": "No protocol-specific PM8 admission established.",
+      "delivery": "Not assigned to an unadmitted intervention."
+    },
+    "reason": "Targeted timing/regularity searches did not identify an adequately verified local endocrine protocol. This is an evidence gap, not evidence that timing has no biological effect.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [],
+    "evidence_source": {
+      "finding_ids": [],
+      "citation_keys": []
+    },
+    "source_assessments": [],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  },
+  {
+    "id": "PM8-ADJ-RERUN-cofactor-supply",
+    "title": "NADPH-related supply, magnesium and other specific components",
+    "status": "under-investigation",
+    "question": "Does this candidate engage the approved PM8 endocrine operation at its claimed exposure and evidential level?",
+    "section": "3.1.1",
+    "relationship_assessment": {
+      "type_a": "No complete PM-specific functional dependency and dietary supply claim established in this rerun.",
+      "type_b": "Relevant signals retained; essential delivery or endocrine-engagement link not fully established.",
+      "delivery": "Direct/Derived not assigned to an unadmitted relationship."
+    },
+    "reason": "Established NADPH participation is preserved in SP1. No complete nutritional dependency/supply relationship has been demonstrated; no requirement for benefit above adequacy imposed.",
+    "resolution_criterion": "A defined exposure with appropriate PM8 endocrine measurements and supported delivery/attribution, preserving confounders and null evidence.",
+    "finding_ids": [
+      "PM8-F13"
+    ],
+    "evidence_source": {
+      "finding_ids": [
+        "PM8-F13"
+      ],
+      "citation_keys": []
+    },
+    "source_assessments": [],
+    "admitted_atom_id": null,
+    "show_in_gap_summary": false,
+    "reviewed_on": "2026-10-26",
+    "history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "under-investigation in full mission-specific rerun; no automatic ownership transfer or dietary-food relationship."
+      }
+    ]
+  }
+]

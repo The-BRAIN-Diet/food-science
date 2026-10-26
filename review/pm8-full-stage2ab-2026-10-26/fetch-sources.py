@@ -1,0 +1,13 @@
+import urllib.request,urllib.parse,json,pathlib,concurrent.futures
+r=pathlib.Path(__file__).parent
+sources=[('you_regional_release_2014','10.1002/oby.20743'),('arvidsson_hypocaloric_secretion_2004','10.2337/diabetes.53.8.1966'),('klein_leptin_fasting_2000','10.1152/ajpendo.2000.278.2.E280'),('hojbjerre_exercise_adiponectin_2007','10.1530/EJE-07-0213'),('moghadasi_endurance_adiponectin_2012','10.1007/s00421-011-2073-2'),('polak_aerobic_adipokines_2006','10.1016/j.metabol.2006.06.008'),('tishinsky_epa_adiponectin_2011','10.1038/oby.2010.186'),('wu_fish_oil_adiponectin_2013','10.1210/jc.2012-3899'),('stomby_diet_glucocorticoid_2015','10.1038/ijo.2014.188'),('vujovic_late_eating_2022','10.1016/j.cmet.2022.09.007'),('ravussin_early_feeding_2019','10.1002/oby.22518'),('mansouri_resistance_adiponectin_2011','10.1507/endocrj.EJ11-0046'),('fatouros_resistance_adipokines_2005','10.1210/jc.2005-0261'),('spiegel_sleep_leptin_2004','10.7326/0003-4819-141-11-200412070-00008'),('wholegrain_adiponectin_2019','10.1080/09637486.2019.1680959'),('weigle_protein_leptin_2005','10.1093/ajcn.82.1.41'),('siklova_diet_phase_secretion_2012','10.1210/jc.2011-2380'),('prebiotic_yogurt_adipokines_2026','10.1016/j.phanu.2026.100485'),('dietary_lipids_meta_2014','10.1017/S0007114514002013')]
+extra=[('medina_adiponectin_2023','EXT_ID:37801761'),('javadi_prebiotic_adipokines_2017','DOI:10.15171/mejdd.2017.66'),('wehrens_meal_timing_2017','EXT_ID:28578930')]
+def fetch(x):
+ k,doi=x;q='DOI:"'+doi+'"';url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':q,'format':'json','resultType':'core'})
+ try:
+  d=json.load(urllib.request.urlopen(url,timeout=30));hits=d.get('resultList',{}).get('result',[]);h=hits[0] if hits else {};out={'citation_key':k,'doi':doi,'metadata':h,'retrieval_url':url,'retrieved_on':'2026-10-26','access':'Metadata and abstract; not full methods'};(r/'sources'/f'{k}.json').write_text(json.dumps(out,indent=2));return k,h.get('title'),h.get('pubYear'),h.get('pmcid')
+ except Exception as e:return k,str(e)
+with concurrent.futures.ThreadPoolExecutor(max_workers=5) as ex:
+ for result in ex.map(fetch,sources):print(*result,sep=' | ')
+for k,q in extra:
+ url='https://www.ebi.ac.uk/europepmc/webservices/rest/search?'+urllib.parse.urlencode({'query':q,'format':'json','resultType':'core'});d=json.load(urllib.request.urlopen(url,timeout=30));h=d.get('resultList',{}).get('result',[{}])[0];(r/'sources'/f'{k}.json').write_text(json.dumps({'citation_key':k,'doi':h.get('doi'),'metadata':h,'retrieval_url':url,'retrieved_on':'2026-10-26','access':'Metadata and abstract'},indent=2));print(k,h.get('title'),h.get('doi'))

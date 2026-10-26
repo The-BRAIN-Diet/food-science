@@ -1,0 +1,215 @@
+TAP version 13
+# Subtest: approved canonical identities/routes and exact missions; PM9 scientific objects preserved
+ok 1 - approved canonical identities/routes and exact missions; PM9 scientific objects preserved
+  ---
+  duration_ms: 12.01875
+  ...
+# Subtest: all eleven historical Findings and intervention/KC/score records preserved exactly outside active evidence
+ok 2 - all eleven historical Findings and intervention/KC/score records preserved exactly outside active evidence
+  ---
+  duration_ms: 6.638959
+  ...
+# Subtest: PM8 issues removed entirely; unrelated issue records unchanged
+ok 3 - PM8 issues removed entirely; unrelated issue records unchanged
+  ---
+  duration_ms: 1.208166
+  ...
+# Subtest: summary derives only retained active questions and important completed non-admission
+ok 4 - summary derives only retained active questions and important completed non-admission
+  ---
+  duration_ms: 0.834083
+  ...
+# Subtest: new curated Principles require complete provenance; PM1 compatibility is preserved
+ok 5 - new curated Principles require complete provenance; PM1 compatibility is preserved
+  ---
+  duration_ms: 12.847791
+  ...
+# Subtest: all 88 pre-rerun SEC snapshots immutable; current exact-proposition records are pinned
+ok 6 - all 88 pre-rerun SEC snapshots immutable; current exact-proposition records are pinned
+  ---
+  duration_ms: 78.349875
+  ...
+# Subtest: no unresolved practice or dietary input enters promoted sections or food/manuscript extraction
+ok 7 - no unresolved practice or dietary input enters promoted sections or food/manuscript extraction
+  ---
+  duration_ms: 327.6995
+  ...
+# Subtest: reference keys resolve and local reference anchors remain valid
+ok 8 - reference keys resolve and local reference anchors remain valid
+  ---
+  duration_ms: 18.680917
+  ...
+# Subtest: actual summary renderer exposes accessible disclosures, canonical flask outline, precise links, no historical backlog
+ok 9 - actual summary renderer exposes accessible disclosures, canonical flask outline, precise links, no historical backlog
+  ---
+  duration_ms: 55.773333
+  ...
+# Subtest: actual audit component retains original issue and Finding anchors and all history
+ok 10 - actual audit component retains original issue and Finding anchors and all history
+  ---
+  duration_ms: 733.601667
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx
+ok 11 - targeted canonical MDX compilation: brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx
+  ---
+  duration_ms: 901.335667
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx
+ok 12 - targeted canonical MDX compilation: brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx
+  ---
+  duration_ms: 151.643375
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx
+ok 13 - targeted canonical MDX compilation: brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx
+  ---
+  duration_ms: 37.295958
+  ...
+# Subtest: mission, Principles, all existing Findings and prior accepted levers are preserved
+ok 14 - mission, Principles, all existing Findings and prior accepted levers are preserved
+  ---
+  duration_ms: 6.388625
+  ...
+# Subtest: seven mandatory studies individually appraised with prior-review and compartment decisions
+ok 15 - seven mandatory studies individually appraised with prior-review and compartment decisions
+  ---
+  duration_ms: 0.761334
+  ...
+# Subtest: DHA passes Type B gate only for circulating signal modulation, not secretion or necessity
+ok 16 - DHA passes Type B gate only for circulating signal modulation, not secretion or necessity
+  ---
+  duration_ms: 3.345083
+  ...
+# Subtest: food projection uses existing DHA ontology and preserves composition/efficacy boundary
+ok 17 - food projection uses existing DHA ontology and preserves composition/efficacy boundary
+  ---
+  duration_ms: 398.911292
+  ...
+# Subtest: flaxseed remains food-specific and pooled counterevidence is retained
+ok 18 - flaxseed remains food-specific and pooled counterevidence is retained
+  ---
+  duration_ms: 0.370583
+  ...
+# Subtest: NADPH is removed from dietary template without manufacturing an identity or requirement
+ok 19 - NADPH is removed from dietary template without manufacturing an identity or requirement
+  ---
+  duration_ms: 0.319167
+  ...
+# Subtest: all 95 pre-recovery SEC snapshots stay immutable; new scores are not forced
+ok 20 - all 95 pre-recovery SEC snapshots stay immutable; new scores are not forced
+  ---
+  duration_ms: 84.402958
+  ...
+# Subtest: full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+ok 21 - full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+  ---
+  duration_ms: 74.434166
+  ...
+# Subtest: main mechanism retained, detailed Findings relocated and old hashes explicitly route to audit
+ok 22 - main mechanism retained, detailed Findings relocated and old hashes explicitly route to audit
+  ---
+  duration_ms: 0.345875
+  ...
+# Subtest: gaps are missing evidence links; authoritative active issues are not copied into gap list
+ok 23 - gaps are missing evidence links; authoritative active issues are not copied into gap list
+  ---
+  duration_ms: 0.359458
+  ...
+# Subtest: every pilot gap resolves its canonical Findings, bibliography and optional issue
+ok 24 - every pilot gap resolves its canonical Findings, bibliography and optional issue
+  ---
+  duration_ms: 0.281708
+  ...
+# Subtest: canonical shared tab order, URL-state selection and PM8-only opt-in
+ok 25 - canonical shared tab order, URL-state selection and PM8-only opt-in
+  ---
+  duration_ms: 214.861334
+  ...
+# Subtest: real gap component retains blue flask, three records and exact destination links
+ok 26 - real gap component retains blue flask, three records and exact destination links
+  ---
+  duration_ms: 36.527084
+  ...
+# Subtest: pilot gap validator fails closed on missing evidence and unresolved references
+ok 27 - pilot gap validator fails closed on missing evidence and unresolved references
+  ---
+  duration_ms: 3.57475
+  ...
+# Subtest: existing Finding generator respects audit-only placement on future reruns
+ok 28 - existing Finding generator respects audit-only placement on future reruns
+  ---
+  duration_ms: 82.135042
+  ...
+# Subtest: Open Issues use canonical numbered disclosures and exact persistent IDs
+ok 29 - Open Issues use canonical numbered disclosures and exact persistent IDs
+  ---
+  duration_ms: 47.052333
+  ...
+# Subtest: owner removal policy prevents regeneration and retains unresolved evidence propositions only
+ok 30 - owner removal policy prevents regeneration and retains unresolved evidence propositions only
+  ---
+  duration_ms: 1.317167
+  ...
+# Subtest: approved mission, KCs, food inputs, Principles and old propositions retained
+ok 31 - approved mission, KCs, food inputs, Principles and old propositions retained
+  ---
+  duration_ms: 6.92875
+  ...
+# Subtest: six-atom practices pass their actual section validators
+ok 32 - six-atom practices pass their actual section validators
+  ---
+  duration_ms: 1.517333
+  ...
+# Subtest: all discovery groups have dispositions; only bounded programmes admitted
+ok 33 - all discovery groups have dispositions; only bounded programmes admitted
+  ---
+  duration_ms: 0.396792
+  ...
+# Subtest: release subgroup, depot and null results preserved
+ok 34 - release subgroup, depot and null results preserved
+  ---
+  duration_ms: 0.376625
+  ...
+# Subtest: exercise concentrations and transcripts do not become secretion flux
+ok 35 - exercise concentrations and transcripts do not become secretion flux
+  ---
+  duration_ms: 0.492125
+  ...
+# Subtest: EPA/DHA cultured exposure and review do not create a nutrient admission
+ok 36 - EPA/DHA cultured exposure and review do not create a nutrient admission
+  ---
+  duration_ms: 0.217042
+  ...
+# Subtest: 88 prior SEC snapshots immutable; four old Findings keep unresolved factors
+ok 37 - 88 prior SEC snapshots immutable; four old Findings keep unresolved factors
+  ---
+  duration_ms: 113.6135
+  ...
+# Subtest: one provisional score implies neither human approval nor Dietary Confidence
+ok 38 - one provisional score implies neither human approval nor Dietary Confidence
+  ---
+  duration_ms: 2.355292
+  ...
+# Subtest: dietary qualification does not automatically establish principal placement
+ok 39 - dietary qualification does not automatically establish principal placement
+  ---
+  duration_ms: 0.277916
+  ...
+# Subtest: deleted issues remain absent and relevant unresolved propositions stay in gaps
+ok 40 - deleted issues remain absent and relevant unresolved propositions stay in gaps
+  ---
+  duration_ms: 1.105458
+  ...
+# Subtest: actual disclosure projection exposes both admitted practices with source references and Finding links
+ok 41 - actual disclosure projection exposes both admitted practices with source references and Finding links
+  ---
+  duration_ms: 7.371791
+  ...
+1..41
+# tests 41
+# suites 0
+# pass 41
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3819.232459

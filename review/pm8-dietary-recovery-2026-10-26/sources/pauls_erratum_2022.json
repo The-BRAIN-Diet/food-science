@@ -1,0 +1,119 @@
+{
+  "citation_key": "pauls_erratum_2022",
+  "doi": "10.1093/jn/nxac029",
+  "metadata": {
+    "id": "35362049",
+    "source": "MED",
+    "pmid": "35362049",
+    "pmcid": "PMC8970813",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC8970813"
+      ]
+    },
+    "doi": "10.1093/jn/nxac029",
+    "title": "Correction notice for Pauls et al. Oils Rich in \u03b1-Linolenic Acid or Docosahexaenoic Acid Have Distinct Effects on Plasma Oxylipin and Adiponectin Concentrations and on Monocyte Bioenergetics in Women with Obesity. J Nutr 2021;151:3053-66.",
+    "journalInfo": {
+      "issue": "4",
+      "volume": "152",
+      "journalIssueId": 3334709,
+      "dateOfPublication": "2022 Apr",
+      "monthOfPublication": 4,
+      "yearOfPublication": 2022,
+      "journal": {
+        "medlineAbbreviation": "J Nutr",
+        "title": "The Journal of nutrition",
+        "essn": "1541-6100",
+        "issn": "0022-3166",
+        "isoabbreviation": "J Nutr",
+        "nlmid": "0404243"
+      },
+      "printPublicationDate": "2022-04-01"
+    },
+    "pubYear": "2022",
+    "pageInfo": "1174",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Published Erratum",
+        "correction"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/jn/nxac029"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8970813"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8970813?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/jn/nxac029"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "34293124",
+          "reference": "J Nutr. 2021 Oct 1;151(10):3053-3066. doi: 10.1093/jn/nxab235",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 0,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCreation": "2022-04-01",
+    "dateOfRevision": "2022-04-05",
+    "firstPublicationDate": "2022-04-01",
+    "firstIndexDate": "2022-04-02",
+    "fullTextReceivedDate": "2025-02-04",
+    "hasEvaluations": "N"
+  },
+  "retrieved_on": "2026-10-26"
+}

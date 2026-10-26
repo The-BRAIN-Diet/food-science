@@ -298,8 +298,10 @@ test('rollout records every accepted atom decision and retains evidence and prec
 
 test('food strategy rollup preserves independently admitted SOP science and separate intervention scopes', () => {
  const s=JSON.parse(fs.readFileSync('src/data/foodStrategyRollup.generated.json','utf8'));
- // PM2's two protocols plus the two independently assessed PM8 protocols.
- assert.equal(s.strategies.length,35);assert.equal(s.relationships.length,38);
+ // The approved endocrine reconstruction removes three old PM8 strategy
+ // relationships; their full scientific/admission history remains on PM8.
+ assert.equal(s.strategies.length,33);assert.equal(s.relationships.length,35);
+ assert.ok(!s.relationships.some(r=>r.pm==='BRS6-FM4-PM8'));
  assert.equal(new Set(s.relationships.map(r=>r.id)).size,s.relationships.length);
  for(const r of s.relationships) {
   const file=r.source_record.split('#')[0],source=matter(fs.readFileSync(file,'utf8')).data;

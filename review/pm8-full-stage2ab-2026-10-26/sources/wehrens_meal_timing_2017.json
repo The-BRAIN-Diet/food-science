@@ -1,0 +1,339 @@
+{
+  "citation_key": "wehrens_meal_timing_2017",
+  "doi": "10.1016/j.cub.2017.04.059",
+  "metadata": {
+    "id": "28578930",
+    "source": "MED",
+    "pmid": "28578930",
+    "pmcid": "PMC5483233",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC5483233"
+      ]
+    },
+    "doi": "10.1016/j.cub.2017.04.059",
+    "title": "Meal Timing Regulates the Human Circadian System.",
+    "authorString": "Wehrens SMT, Christou S, Isherwood C, Middleton B, Gibbs MA, Archer SN, Skene DJ, Johnston JD.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Wehrens SMT",
+          "lastName": "Wehrens",
+          "firstName": "Sophie M T",
+          "initials": "SMT",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7523-1514"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Christou S",
+          "lastName": "Christou",
+          "firstName": "Skevoulla",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3906-2757"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Isherwood C",
+          "lastName": "Isherwood",
+          "firstName": "Cheryl",
+          "initials": "C",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Middleton B",
+          "lastName": "Middleton",
+          "firstName": "Benita",
+          "initials": "B",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gibbs MA",
+          "lastName": "Gibbs",
+          "firstName": "Michelle A",
+          "initials": "MA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Archer SN",
+          "lastName": "Archer",
+          "firstName": "Simon N",
+          "initials": "SN",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9273-4647"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Skene DJ",
+          "lastName": "Skene",
+          "firstName": "Debra J",
+          "initials": "DJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8202-6180"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Johnston JD",
+          "lastName": "Johnston",
+          "firstName": "Jonathan D",
+          "initials": "JD",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8083-9794"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK. Electronic address: j.johnston@surrey.ac.uk."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7523-1514"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8083-9794"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8202-6180"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3906-2757"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9273-4647"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "12",
+      "volume": "27",
+      "journalIssueId": 2569857,
+      "dateOfPublication": "2017 Jun",
+      "monthOfPublication": 6,
+      "yearOfPublication": 2017,
+      "journal": {
+        "medlineAbbreviation": "Curr Biol",
+        "title": "Current biology : CB",
+        "essn": "1879-0445",
+        "issn": "0960-9822",
+        "isoabbreviation": "Curr Biol",
+        "nlmid": "9107782"
+      },
+      "printPublicationDate": "2017-06-01"
+    },
+    "pubYear": "2017",
+    "pageInfo": "1768-1775.e3",
+    "abstractText": "Circadian rhythms, metabolism, and nutrition are intimately linked [1, 2], although effects of meal timing on the human circadian system are poorly understood. We investigated the effect of a 5-hr delay in meals on markers of the human master clock and multiple peripheral circadian rhythms. Ten healthy young men undertook a 13-day laboratory protocol. Three meals (breakfast, lunch, dinner) were given at 5-hr intervals, beginning either 0.5 (early) or 5.5 (late) hr after wake. Participants were acclimated to early meals and then switched to late meals for 6\u00a0days. After each meal schedule, participants' circadian rhythms were measured in a 37-hr constant routine that removes sleep and environmental rhythms while replacing meals with hourly isocaloric snacks. Meal timing did not alter actigraphic sleep parameters before circadian rhythm measurement. In constant routines, meal timing did not affect rhythms of subjective hunger and sleepiness, master clock markers (plasma melatonin and cortisol), plasma triglycerides, or clock gene expression in whole blood. Following late meals, however, plasma glucose rhythms were\u00a0delayed by 5.69\u00a0\u00b1 1.29\u00a0hr (p\u00a0< 0.001), and average glucose concentration decreased by 0.27\u00a0\u00b1 0.05\u00a0mM (p\u00a0< 0.001). In adipose tissue, PER2 mRNA rhythms were delayed by 0.97\u00a0\u00b1 0.29\u00a0hr (p\u00a0< 0.01), indicating that human molecular clocks may be regulated by feeding time and could\u00a0underpin plasma glucose changes. Timed meals therefore play a role in synchronizing peripheral circadian rhythms in humans and may have particular relevance for patients with circadian rhythm disorders, shift workers, and transmeridian travelers.",
+    "affiliation": "Faculty of Health and Medical Science, University of Surrey, Stag Hill Campus, Guildford, Surrey GU2 7XH, UK.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "brief-report",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "acronym": "BB_",
+          "grantId": "1267831",
+          "orderIn": 0
+        },
+        {
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "grantId": "BB/J014451/1",
+          "orderIn": 0
+        },
+        {
+          "agency": "Biotechnology and Biological Sciences Research Council",
+          "acronym": "BB_",
+          "grantId": "BB/I008470/1",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Biological Clocks"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Circadian Rhythm"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Eating"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Clock gene",
+        "Jet Lag",
+        "Glucose Homeostasis",
+        "White Adipose Tissue",
+        "Shift Work",
+        "actigraphy",
+        "Meal Timing",
+        "Chrononutrition",
+        "Peripheral Clocks",
+        "Food Timing"
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.cub.2017.04.059"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC5483233"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "28697366",
+          "reference": "Curr Biol. 2017 Jul 10;27(13):R656-R658. doi: 10.1016/j.cub.2017.05.057",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 457,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCompletion": "2018-07-30",
+    "dateOfCreation": "2017-06-06",
+    "dateOfRevision": "2022-04-09",
+    "electronicPublicationDate": "2017-06-01",
+    "firstPublicationDate": "2017-06-01",
+    "firstIndexDate": "2017-06-05",
+    "fullTextReceivedDate": "2025-02-04",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28578930&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract"
+}

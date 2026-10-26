@@ -1,3 +1,4 @@
+import {validateVitamerRoutes} from './vitamerConversion.mjs';
 /** Admission metadata is separate from the six scientific atoms and from scoring. */
 export const GOVERNANCE_VERSION = 'dietary-inputs-2026-10-23';
 export const DIETARY_INPUT_HEADING = 'Dietary Inputs & Regulatory Modulators';
@@ -54,6 +55,7 @@ export function assessAdmission(candidate,assessment,{substances={}}={}) {
   if(!path.length)add('conversion-pathway-missing');
   if(path.length&&path[0].from!==assessment.canonical_substance_id)add('conversion-origin-mismatch');
   for(const [i,step]of path.entries()) {
+   if(step.kind==='alternative-vitamer-routes')errors.push(...validateVitamerRoutes(step,evidencePresent));
    if(!substances[step.from]||!substances[step.to])add('conversion-identity-unresolved');
    if(!step.process?.trim()||!step.limitations?.trim()||!evidencePresent(step.evidence))add('conversion-evidence-unresolved');
    if(/microb|ferment/i.test(step.process)&&!step.dependencies?.length)add('microbial-dependencies-missing');

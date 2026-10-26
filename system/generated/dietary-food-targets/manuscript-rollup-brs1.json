@@ -15007,16 +15007,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "bananas",
       "food_title": "Bananas",
       "food_material": "Bananas, raw",
@@ -15051,7 +15051,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15063,16 +15254,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "beef",
       "food_title": "Beef",
       "food_material": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
@@ -15107,7 +15298,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15119,16 +15501,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "black-beans",
       "food_title": "Black Beans",
       "food_material": "Beans, black, mature seeds, raw",
@@ -15163,7 +15545,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15175,16 +15748,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "broccoli-sprouts",
       "food_title": "Broccoli Sprouts",
       "food_material": "Broccoli sprouts, raw (sprout material, not mature broccoli)",
@@ -15219,7 +15792,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15231,16 +15995,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "broccoli",
       "food_title": "Broccoli",
       "food_material": "Broccoli, raw",
@@ -15275,7 +16039,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15287,16 +16242,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "chicken",
       "food_title": "Chicken",
       "food_material": "Chicken, broilers or fryers, meat and skin, raw",
@@ -15331,7 +16286,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15343,16 +16489,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "chickpeas",
       "food_title": "Chickpeas",
       "food_material": "Chickpeas (garbanzo beans, bengal gram), mature seeds, raw",
@@ -15387,7 +16533,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15399,16 +16736,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "chicory-root",
       "food_title": "Chicory Root",
       "food_material": "Chicory roots, raw (Cichorium intybus)",
@@ -15443,7 +16780,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15455,16 +16983,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "nori",
       "food_title": "Nori",
       "food_material": "Purple laver (Porphyra spp.), dried, toasted",
@@ -15499,7 +17027,198 @@
       },
       "preparation": "dried",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15511,16 +17230,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "nutritional-yeast",
       "food_title": "Nutritional Yeast",
       "food_material": "Marigold Engevita Nutritional Yeast Flakes with B12",
@@ -15616,7 +17335,198 @@
       },
       "preparation": "dried",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15628,16 +17538,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "potatoes",
       "food_title": "Potatoes",
       "food_material": "Potatoes, flesh and skin, raw",
@@ -15672,7 +17582,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15684,16 +17785,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "quinoa",
       "food_title": "Quinoa",
       "food_material": "Quinoa, uncooked",
@@ -15728,7 +17829,198 @@
       },
       "preparation": "uncooked",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15740,16 +18032,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "salmon-roe",
       "food_title": "Salmon Roe",
       "food_material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
@@ -15784,7 +18076,198 @@
       },
       "preparation": null,
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15796,16 +18279,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "soy",
       "food_title": "Soy",
       "food_material": "Soybeans, mature seeds, raw",
@@ -15840,7 +18323,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15852,16 +18526,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "spinach",
       "food_title": "Spinach",
       "food_material": "Spinach, raw",
@@ -15896,7 +18570,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],
@@ -15908,16 +18773,16 @@
       "pm": "BRS1-FM4-PM9",
       "biological_mechanism": "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
       "dietary_input": "Vitamin B6",
-      "type": null,
+      "type": "A",
       "classification": "derived",
       "canonical_substance_id": "vitamin-b6",
       "ontology_connections": {
         "identity": "resolved",
-        "conversion": "unresolved",
+        "conversion": "supported",
         "food": "supported"
       },
       "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
+      "admission_basis": "versioned-assessment",
       "food_target": "turkey",
       "food_title": "Turkey",
       "food_material": "Turkey, whole, meat only, raw",
@@ -15952,7 +18817,198 @@
       },
       "preparation": "raw",
       "delivery": "precursor-source",
-      "conversion_pathway": [],
+      "conversion_pathway": [
+        {
+          "from": "vitamin-b6",
+          "to": "pyridoxal-5-phosphate",
+          "kind": "alternative-vitamer-routes",
+          "process": "Vitamer-specific endogenous activation; alternative ordered routes, not one chemical reaction",
+          "dependencies": [
+            "B6 absorption and availability",
+            "Functional PDXK",
+            "PNPO and FMN for PNP/PMP routes"
+          ],
+          "limitations": "Alternative routes distinguish PL phosphorylation from PN/PM phosphorylation followed by oxidation. Total food vitamin B6 does not identify vitamer proportions, effective brain exposure or a predictable PLP yield.",
+          "evidence": {
+            "statement": "Human PDXK and PNPO enzymology supports distinct substrate-specific activation routes to the same canonical PLP target.",
+            "sources": [
+              "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+              "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/"
+            ]
+          },
+          "entities": {
+            "CHEBI:17310": {
+              "name": "Pyridoxal",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:16709": {
+              "name": "Pyridoxine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:57761": {
+              "name": "Pyridoxamine",
+              "source": "https://www.uniprot.org/uniprotkb/O00764/entry"
+            },
+            "CHEBI:58589": {
+              "name": "Pyridoxine 5-prime phosphate (PNP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            },
+            "CHEBI:58451": {
+              "name": "Pyridoxamine 5-prime phosphate (PMP)",
+              "source": "https://www.uniprot.org/uniprotkb/Q9NVS9/entry"
+            }
+          },
+          "substrates": [
+            "CHEBI:17310",
+            "CHEBI:16709",
+            "CHEBI:57761"
+          ],
+          "routes": [
+            {
+              "substrate": "CHEBI:17310",
+              "steps": [
+                {
+                  "from": "CHEBI:17310",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:10224",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/10224"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:16709",
+              "steps": [
+                {
+                  "from": "CHEBI:16709",
+                  "to": "CHEBI:58589",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25108",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25108"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58589",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15149",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15149"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "substrate": "CHEBI:57761",
+              "steps": [
+                {
+                  "from": "CHEBI:57761",
+                  "to": "CHEBI:58451",
+                  "process": "ATP-dependent vitamer phosphorylation",
+                  "enzyme": {
+                    "name": "PDXK",
+                    "uniprot": "O00764",
+                    "entry_version": 219,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:25104",
+                  "dependencies": [
+                    "Functional PDXK",
+                    "ATP–divalent-metal substrate complex; metal effects depend on assay context"
+                  ],
+                  "limitations": "PN and PM phosphorylation produces PNP and PMP, not PLP directly. In-vitro metal efficacy does not establish a dietary zinc requirement.",
+                  "evidence": {
+                    "statement": "Human PDXK phosphorylates PL, PN and PM to their respective 5-prime phosphates.",
+                    "sources": [
+                      "https://pubmed.ncbi.nlm.nih.gov/17766369/",
+                      "https://www.uniprot.org/uniprotkb/O00764/entry",
+                      "https://www.rhea-db.org/rhea/25104"
+                    ]
+                  }
+                },
+                {
+                  "from": "CHEBI:58451",
+                  "to": "pyridoxal-5-phosphate",
+                  "process": "FMN-dependent oxidation to PLP",
+                  "enzyme": {
+                    "name": "PNPO",
+                    "uniprot": "Q9NVS9",
+                    "entry_version": 211,
+                    "retrieved": "2026-10-24"
+                  },
+                  "reaction_id": "RHEA:15817",
+                  "dependencies": [
+                    "Functional PNPO",
+                    "Enzyme-bound FMN",
+                    "Molecular oxygen"
+                  ],
+                  "limitations": "Applies to phosphorylated PN/PM; PL does not require this oxidation step. Enzymology does not quantify neuronal PLP occupancy or food-level conversion yield.",
+                  "evidence": {
+                    "statement": "Human PNPO oxidises PNP and PMP to PLP with enzyme-bound FMN.",
+                    "sources": [
+                      "https://pmc.ncbi.nlm.nih.gov/articles/PMC2323923/",
+                      "https://www.uniprot.org/uniprotkb/Q9NVS9/entry",
+                      "https://www.rhea-db.org/rhea/15817"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "limitations": [
         "Dietary B6 provision of PLP precursors is supported, but increasing B6 intake has not been shown to increase human brain GABA synthesis; PLP supports many enzymes and is not GABA-specific."
       ],

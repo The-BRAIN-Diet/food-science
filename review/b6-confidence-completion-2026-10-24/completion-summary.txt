@@ -1,0 +1,11 @@
+B6 PATHWAY AND DIETARY CONFIDENCE AUDIT — IMPLEMENTATION COMPLETION
+
+B6 active target now resolves to canonical pyridoxal-5-phosphate. Ordered PL/PN/PM routes distinguish phosphorylation and oxidation, with versioned human PDXK/PNPO, Rhea/ChEBI references, enzymatic dependencies, source URLs and limitations. The historical Type A/Derived admission and High confidence are preserved; the missing structured admission/pathway metadata was completed from the existing approved records, not newly adjudicated. The 16 B6 food targets still supply precursor, not directly PLP.
+
+All three pilot disclosures retain their compact confidence explanation and now offer native Evidence & Audit: proposition, unchanged confidence, rationale, PM capacity/engagement, dietary delivery, supporting sources, linked Findings, scope/limitations, assessor, review date and criteria version. A separate coherence grade or assessment-instance version was not present; both are explicitly identified as not separately recorded. No missing scientific judgement was manufactured.
+
+158 targeted tests pass. The 64-PM governance/Finding checks and global hypothesis check pass. All 84 SEC snapshots remain valid. Native audit controls were verified by mouse click, Enter and Space. CSS provides visible focus, 44px touch targets and wrapping URLs; no physical mobile-device test was performed.
+
+The obsolete B6 conversion warning and exactly one corresponding queue task clear after validation. Queue 54 -> 53. Consolidated roll-up remains 883 rows, and six shards reconstruct it. Only B6 technical pathway/admission-provenance metadata changes; food evidence, food sets, scientific admission decisions and curated manuscript choices remain unchanged. SEC/CC, Findings, six atoms, canonical substances/food records and PM1-H1 remain preserved.
+
+No full production build, commit, push, merge or deployment was performed in this step. The prior red-icon display correction is preserved locally. Other ontology and historical conversion tasks remain open. The older PM9 blanket hash expectation remains a known historical test limitation.

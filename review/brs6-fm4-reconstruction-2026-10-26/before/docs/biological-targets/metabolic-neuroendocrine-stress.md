@@ -1,0 +1,940 @@
+---
+id: metabolic-neuroendocrine-stress
+title: BRS6 - Metabolic & Neuroendocrine Regulation
+sidebar_label: BRS6 - Metabolic & Neuroendocrine Regulation
+description: >-
+  Whole-body regulation layer for adaptive energy allocation, metabolic
+  flexibility, and neuroendocrine regulation.
+tags:
+  - Biological Target
+  - Metabolic & Neuroendocrine Regulation
+list_image: /img/icons/biological-targets.svg
+hide_title: true
+---
+
+<img
+  src="/img/biological-targets/brs6-portrait-thumbnail.png"
+  alt="BRS6 — Metabolic & Neuroendocrine Regulation: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
+  class="brs-hub-hero"
+/>
+
+## BRS6 - Metabolic & Neuroendocrine Regulation
+
+(Metabolic Stability, Stress Adaptation & Systemic Resilience)
+
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS6">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS6</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability" aria-label="Open FM: BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation" aria-label="Open FM: BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity" aria-label="Open FM: BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability" aria-label="Open FM: BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics">BRS6-FM1-PM1 — Glucose Appearance Kinetics</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation">BRS6-FM1-PM2 — Glycaemic Variability Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal">BRS6-FM1-PM3 — Insulin Sensitivity & Glucose Disposal</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains glycaemic-insulin stability and cognitive energy availability by coordinating glucose appearance, glycaemic control, and insulin-mediated disposal.
+
+**FM page:** [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
+
+**Primary biological effects:** ↑ post-prandial metabolic stability; ↓ glycaemic volatility; ↓ reactive catecholamine demand; ↑ continuity of cognitive energy availability
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Meal–Daily
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation" aria-label="Open FM: BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation">BRS6-FM2-PM4 — Cortisol Rhythm Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains HPA-axis rhythm and cortisol regulation through coordinated circadian, feeding, and recovery-phase entrainment.
+
+**FM page:** [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
+
+**Primary biological effects:** ↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift; ↑ circadian phase alignment
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Dopaminergic Signalling
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity" aria-label="Open FM: BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery">BRS6-FM3-PM6 — Sympathetic Activation & Parasympathetic Recovery</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation">BRS6-FM3-PM7 — Vagal Tone / HRV Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains autonomic balance and vagal recovery capacity by coordinating sympathetic-parasympathetic regulation after stress and cognitive demand.
+
+**FM page:** [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
+
+**Primary biological effects:** ↑ vagal recovery; ↑ HRV context; ↓ chronic sympathetic load; ↑ autonomic flexibility after demand
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
+- [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling) — Gut–Vagal Neuromodulation & ENS Signalling
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM4) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Adipose Endocrine Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Modulated Appetite & Reward Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains stress-inflammation and metabolic load allocation by coordinating metabolic-inflammatory signalling with stress-linked appetite-reward biology.
+
+**FM page:** [BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+
+**Primary biological effects:** ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation; ↓ chronic inflammatory pressure on neuroendocrine allocation
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily–Weekly
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — Monoaminergic Function
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
+## Ambition
+
+Maintain adaptive metabolic regulation, glycaemic stability, and neuroendocrine rhythm so the brain can allocate energy efficiently, respond proportionately to physiological demands, and recover without accumulating chronic metabolic or autonomic strain.
+
+## Rationale for inclusion as a distinct BRS
+
+Metabolic and neuroendocrine regulation was defined as a distinct BRS because it coordinates glycaemic–insulin stability, HPA-axis cortisol rhythm, autonomic balance and the allocation of stress–metabolic load. These interconnected processes determine how energy is supplied, how stress mediators are deployed, and how recovery is organised across the network. BRS6 is therefore represented as the principal gateway for stress-allocation biology: its mediators can reach neurotransmitter regulation directly and through mitochondrial and inflammatory routes. It is not presented as a universal stress explanation for brain-related conditions, but as a coherent, diet- and behaviour-responsive metabolic–neuroendocrine system with biologically traceable dependencies across the wider regulatory network.
+
+## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Metabolic & Neuroendocrine Regulation Biological Implications</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+### Introduction
+
+Metabolic and neuroendocrine regulation in ADHD reflects integrated whole-body capacities — glycaemic stability, HPA-axis cortisol rhythm, autonomic balance and stress-linked metabolic-inflammatory load allocation — not disruption of a single hormone or glucose pathway.
+
+### ADHD translational biological context
+
+ADHD-relevant metabolic and neuroendocrine evidence comes from studies in ADHD cohorts or ADHD-focused reviews: meta-analytic cortisol and inflammatory biomarker patterns in youths with ADHD [Chang et al., 2021](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021); cortisol, inflammatory biomarkers, and neurotrophins in children and adolescents with ADHD [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020); cortisol levels in children with ADHD [Isaksson et al., 2012](/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012); sensory over-responsivity differentiated from ADHD using cortisol and autonomic markers [Lane et al., 2010](/docs/papers/BRAIN-Diet-References#lane_sensory_2010); altered cerebral glucose metabolism in adults with hyperactivity of childhood onset [Zametkin et al., 1990](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990); metabolic syndrome and insulin resistance prevalence in adult ADHD outpatients [Di Girolamo et al., 2022](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022); bridging review of shared ADHD and metabolic-disorder mechanisms [Marcelli et al., 2025](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025); and unhealthy dietary patterns linked to ADHD in case–control path analysis [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019). General glycaemic, vagal, and psychobiotic mechanistic papers belong on BRS6 architecture pages rather than this ADHD dropdown.
+
+Collectively, these findings do not imply that metabolic or neuroendocrine dysregulation is universal in ADHD, nor that individual biomarkers define the disorder. Instead, they support interpreting metabolic and neuroendocrine biology as a modifiable regulatory system through which dietary, lifestyle, and circadian interventions may influence cognitive and behavioural function. This translational perspective underpins the BRS6 architecture.
+
+### ADHD evidence and connected BRS6 mechanisms
+
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared with typically developing peers | [Chang et al., 2021](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021) | [BRS6(FM2)](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation), [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation), [BRS6-FM4-PM9](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation) |
+| Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD in Taiwan | [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020) | [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation), [BRS6-FM3-PM6](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery) |
+| Cortisol levels reported in children with ADHD | [Isaksson et al., 2012](/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012) | [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation) |
+| Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and anxiety | [Lane et al., 2010](/docs/papers/BRAIN-Diet-References#lane_sensory_2010) | [BRS6(FM3)](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity), [BRS6-FM3-PM6](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery), [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation) |
+| PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults with hyperactivity of childhood onset | [Zametkin et al., 1990](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990) | [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability), [BRS6-FM1-PM1](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics), [BRS6-FM1-PM2](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) |
+| Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients | [Di Girolamo et al., 2022](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022) | [BRS6-FM1-PM3](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal), [BRS6-FM4-PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) |
+| Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinical implications | [Marcelli et al., 2025](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025) | [BRS6(FM4)](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation), [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) |
+| Unhealthy dietary pattern linked to ADHD in case–control path analysis | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS6-FM1-PM1](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics), [BRS6-FM4-PM9](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation) |
+
+### Current evidence limitations
+
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Human dietary intervention studies directly measuring glycaemic, HPA-axis, and autonomic functional mechanisms in ADHD remain limited | Future evidence integration | BRS6-wide; especially [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability), [BRS6(FM2)](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation), [BRS6(FM3)](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity), and [BRS6(FM4)](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation) |
+
+### Framework expansion
+
+- **Cross-BRS shared evidence:** cortisol and inflammatory biomarker work ([Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)) is routed here for HPA and autonomic interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress); dietary pattern associations ([Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)) are also represented on [BRS2 — Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism).
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
+
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Glycaemic stability and stress-adaptive hormone rhythm are rebuilt at every meal and recovery interval. Shared energy-substrate pools, micronutrient sufficiency, dietary patterns and lifestyle collectively determine how effectively cortisol rhythm, autonomic balance and metabolic recovery stay proportionate under sustained demand.</p>
+
+<p class="brs-hub-levers-intro">The following dietary guidance summarises the principal dietary patterns, shared nutrient pools and representative food sources that support the biological constraints underlying BRS6. The guidance reflects shared biological principles rather than prescriptive recommendations; individual requirements and optimal dietary patterns will vary according to physiology, health status and the wider diet.</p>
+
+<!-- brs-hub-levers:start -->
+<div class="brs-hub-levers">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary Guidance</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+
+<p class="brs-hub-dietary-guidance-section"><strong>Key Constraints of BRS6</strong></p>
+
+<p class="brs-hub-dietary-guidance-heading"><strong>Glucose &amp; Energy Substrates — <a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">KC1: Glucose / Energy Substrate Sufficiency</a></strong></p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Build meals around protein, fibre-rich carbohydrates and healthy fats</strong> → balanced macronutrient substrate context → post-meal glucose appearance depends on meal composition; when refined carbohydrates dominate without protein or fibre buffering, glycaemic variability increases and cognitive energy supply becomes less predictable.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">BRS6(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise low-glycaemic whole-food carbohydrates and viscous fibre</strong> → slow-release carbohydrate substrates and soluble-viscous fibre → supports sustained glucose delivery and reduces post-prandial glycaemic excursions that strain neuroendocrine allocation.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/apples">Apples</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">BRS6(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a></span></p>
+</li>
+</ul>
+
+<p class="brs-hub-dietary-guidance-heading"><strong>Stress-Response Micronutrients &amp; Lipids — <a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">KC2: Stress-Response Micronutrient &amp; Lipid Sufficiency</a></strong></p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain magnesium, B-vitamin, iron, zinc and vitamin C coverage through varied whole foods</strong> → magnesium, B vitamins, iron, zinc and vitamin C → stress-response enzyme systems and recovery physiology need these micronutrients; narrow dietary variety leaves autonomic and neuroendocrine recovery under-supported.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → long-chain omega-3 fatty acids (EPA, DHA) → membrane lipid context for stress-response and recovery signalling depends on adequate EPA/DHA supply; low intake leaves neuroendocrine resilience under-supported.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/algal-oil">Algal Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts provide ALA with variable conversion efficiency.</p>
+</li>
+</ul>
+
+<p class="brs-hub-dietary-guidance-section"><strong>Additional Mechanism-Specific Dietary Levers</strong></p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain regular meal timing aligned with your daily rhythm</strong> → meal-timed glucose and energy substrates → supports glucose tolerance, insulin sensitivity, and more predictable energy regulation across the day; irregular spacing leaves substrate delivery poorly timed relative to metabolic demand.</p>
+<p class="brs-hub-dietary-target-foods"><span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation" class="brs-hub-lever-pm">BRS-X(Circadian-FM1-PM2)</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include protein in breakfast where appropriate</strong> → protein and complete amino acids → helps regulate morning appetite and supports sustained early-day energy availability when cortisol and reward-drive pressure are highest.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/salmon">Salmon</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods regularly</strong> → dietary polyphenols → supports metabolic resilience, insulin-sensitivity context and healthier neuroendocrine recovery under physiological stress when plant polyphenol density is low.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/kale">Kale</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Favour minimally processed whole foods over refined and ultra-processed patterns</strong> → intact food matrix and fibre → whole-food structure slows nutrient absorption and supports steadier metabolic and neuroendocrine regulation; hyperpalatable refined patterns amplify glycaemic and appetite-reward volatility.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/apples">Apples</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include resistant-starch patterns where practical</strong> → resistant starch → cooked-and-cooled starches supply a distinct glucose-appearance substrate that can blunt post-meal glycaemic rise beyond generic carbohydrate intake.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/potatoes">Potatoes</a> • <a href="/docs/foods/rice">Rice</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/barley">Barley</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a></span></p>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+
+
+
+
+
+
+
+<p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds, legumes and grains when mineral density matters</strong> to improve plant magnesium, zinc and related mineral bioavailability that supports stress-recovery and metabolic cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair iron-containing foods with vitamin C and meal-context enhancers</strong> to improve iron absorption that supports metabolic and neuroendocrine cofactor networks under physiological load.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently</strong> to protect PUFA-rich meal matrices that support membrane and inflammatory-resolution context for metabolic–stress regulation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare fermentable staples carefully when building fibre load</strong> to improve digestibility of fermentable substrates that can support vagal and metabolic recovery signalling without abrupt gut strain.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions — populated from KC Emerging Biological Supports when present.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary & Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Targeted dietary, fasting or timing protocols beyond ordinary healthy eating.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="stress_autonomic" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress & Autonomic Regulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that deliberately influence autonomic function, adaptive stress responses and physiological resilience.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Use slow breathing and recovery routines after stress or exertion</strong> to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle Priorities</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Take regular physical activity and, where practical, a short walk after meals</strong> to help reduce blood sugar spikes after eating and support steadier metabolic regulation throughout the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep and wake times</strong> to support healthy cortisol rhythm, lower stress-driven eating pressure, and more stable metabolic recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Practise stress-management and recovery techniques</strong> to help maintain balanced autonomic activity, healthier appetite regulation, and adaptive stress responses.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Support healthy body composition through sustainable movement, sleep, and recovery</strong> to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-levers:end -->
+
+
+## Functional Mechanisms
+
+Glycaemic–insulin stability, HPA rhythm, autonomic balance, and stress–inflammatory load allocation govern how energy and recovery are distributed under demand. Circadian-aligned cortisol, vagal recovery, and metabolic flexibility shape cognitive energy and cumulative allostatic load.
+
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability" aria-label="Open FM: BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation" aria-label="Open FM: BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity" aria-label="Open FM: BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability" aria-label="Open FM: BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics">BRS6-FM1-PM1 — Glucose Appearance Kinetics</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation">BRS6-FM1-PM2 — Glycaemic Variability Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal">BRS6-FM1-PM3 — Insulin Sensitivity & Glucose Disposal</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains glycaemic-insulin stability and cognitive energy availability by coordinating glucose appearance, glycaemic control, and insulin-mediated disposal.
+
+**FM page:** [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
+
+**Primary biological effects:** ↑ post-prandial metabolic stability; ↓ glycaemic volatility; ↓ reactive catecholamine demand; ↑ continuity of cognitive energy availability
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Meal–Daily
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation" aria-label="Open FM: BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation">BRS6-FM2-PM4 — Cortisol Rhythm Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains HPA-axis rhythm and cortisol regulation through coordinated circadian, feeding, and recovery-phase entrainment.
+
+**FM page:** [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
+
+**Primary biological effects:** ↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift; ↑ circadian phase alignment
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Dopaminergic Signalling
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity" aria-label="Open FM: BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery">BRS6-FM3-PM6 — Sympathetic Activation & Parasympathetic Recovery</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation">BRS6-FM3-PM7 — Vagal Tone / HRV Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains autonomic balance and vagal recovery capacity by coordinating sympathetic-parasympathetic regulation after stress and cognitive demand.
+
+**FM page:** [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
+
+**Primary biological effects:** ↑ vagal recovery; ↑ HRV context; ↓ chronic sympathetic load; ↑ autonomic flexibility after demand
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
+- [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling) — Gut–Vagal Neuromodulation & ENS Signalling
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS6(FM4) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling">BRS6-FM4-PM8 — Adipose Endocrine Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation">BRS6-FM4-PM9 — Stress-Modulated Appetite & Reward Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains stress-inflammation and metabolic load allocation by coordinating metabolic-inflammatory signalling with stress-linked appetite-reward biology.
+
+**FM page:** [BRS6(FM4) — Metabolic–Endocrine Signalling & Adaptive Regulation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+
+**Primary biological effects:** ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation; ↓ chronic inflammatory pressure on neuroendocrine allocation
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily–Weekly
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — Monoaminergic Function
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — Inflammatory Tone Regulation
+- [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics) — Cellular Bioenergetics
+
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+## Cross-BRS Dependencies
+
+<p>Stress adaptation is not reducible to cortisol output. Neuroendocrine and metabolic regulation coordinates how energy, inflammatory load and recovery capacity are allocated under sustained demand — determining whether cognition, mood and behavioural control remain proportionate or drift toward exhaustion. When this allocation system is overloaded, the strain surfaces across connected regulatory biology long before it is recognised as a discrete endocrine disorder.</p>
+
+<div class="brs-hub-cross-integration-evidence">
+
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs1" aria-label="Open: (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs3" aria-label="Open: (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs4" aria-label="Open: (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs6" aria-label="Open: (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs1" aria-label="Open (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine coordination and metabolic stability that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these whole-body regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. When adaptive regulation becomes prolonged or dysregulated, this coordinated resource allocation progressively manifests as allostatic load across the wider BRS network. This reduces the likelihood that chronic neuroendocrine activation progressively constrains neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS6 is not itself a neurotransmitter system; it coordinates the resource-allocation logic through which other Biological Regulatory Systems — including BRS1 — sustain resilient performance under demand. Maintaining BRS6 therefore complements neurotransmitter precursor and cofactor biology by preserving the systemic regulatory environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 coordinate glycaemic regulation, HPA-axis rhythm, autonomic balance and stress-responsive metabolic allocation, continuously adjusting physiological resource distribution to meet changing environmental and cognitive demands. When these regulatory capacities remain proportionate, they help preserve adaptive performance across the wider BRS network. When they become chronically activated or poorly resolved, increasing allostatic load progressively constrains the performance of interconnected Biological Regulatory Systems.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
+</ul>
+
+<h4 class="brs-hub-integration-section-title">Cascade 6</h4>
+<p><a href="/docs/biological-targets/dependencies/brs6-to-brs1#cascade-6">Cascade 6 — BRS6 → BRS4/BRS3 → BRS1</a> maps this dependency through mitochondrial and immune-redox intermediates, with ADHD-hub sources and the diet, optimisation and lifestyle levers on the connected Primary Mechanism pages.</p>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="1">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs3" aria-label="Open (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.</p></li>
+</ul>
+<h4 class="brs-hub-integration-section-title">Translational Examples</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011">Kiecolt-Glaser et al., 2011</a> — Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a>.</p></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="2">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs4" aria-label="Open (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these stress–metabolic regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress-mediated metabolic dysregulation progressively compromises mitochondrial function within BRS4 as allostatic load accumulates. Maintaining BRS6 therefore complements substrate and cofactor biology within BRS4 by preserving systemic energetic stability rather than substituting for mitochondrial regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain glycaemic–insulin stability, HPA-axis rhythm and stress–metabolic load allocation required to sustain mitochondrial energetic recovery during prolonged physiological demand. Rather than acting through glucocorticoids alone, these integrated capacities collectively coordinate how whole-body stress biology shapes bioenergetic reserve and recovery within BRS4.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.</p></li>
+</ul>
+
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="3">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs6" aria-label="Open (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired vagal or microbial signalling progressively disrupts autonomic and HPA-axis regulation within BRS6 as peripheral load accumulates. Maintaining BRS5 therefore complements neuroendocrine biology within BRS6 by preserving gut-derived modulatory input rather than substituting for stress-axis regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling and gut–vagal neuromodulation required to regulate autonomic tone and stress-axis responsiveness during prolonged physiological demand. Rather than acting through a single microbial pathway, these integrated capacities collectively shape how peripheral signals influence neuroendocrine recovery capacity within BRS6.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
+</ul>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-cross-integration:end -->
+
+
+## Specific Mechanisms
+
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
+
+:::note[Future Architecture Review — Adipose Regulatory Functions]
+
+[PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling#scientific-scope--outstanding-architectural-review) remains under scientific development pending an integrated assessment of adipose lipid buffering, endocrine signalling and immune regulation. These interacting functions require clearer mechanistic boundaries, evidence attribution and brain-health relevance before canonical PM ownership can be established. They are research candidates, not approved mechanisms or additions to the active PM inventory.
+
+:::
+
+## Proposed Primary Mechanisms
+
+### Metabolic Challenge & Recovery Regulation
+
+- **Status:** Proposed PM
+- **Capacity of interest:** Metabolic resilience
+- **Potential protocol:** CACH, including fasting- and exercise-linked challenge–recovery protocols
+
+## References
+
+[1] Chang et al. (2021). [Cortisol and inflammatory biomarker levels in youths with attention deficit hyperactivity disorder (ADHD): evidence from a systematic review with meta-analysis](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021). Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared with typically developing peers.
+
+[2] Chang et al. (2020). [Cortisol, inflammatory biomarkers and neurotrophins in children and adolescents with attention deficit hyperactivity disorder (ADHD) in Taiwan](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020). Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD in Taiwan.
+
+[3] Isaksson et al. (2012). [Cortisol levels in children with Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012). Cortisol levels reported in children with ADHD.
+
+[4] Lane et al. (2010). [Sensory over-responsivity and ADHD: differentiating using electrodermal responses, cortisol, and anxiety](/docs/papers/BRAIN-Diet-References#lane_sensory_2010). Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and anxiety.
+
+[5] Zametkin et al. (1990). [Cerebral Glucose Metabolism in Adults with Hyperactivity of Childhood Onset](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990). PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults with hyperactivity of childhood onset.
+
+[6] Di Girolamo et al. (2022). [Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult ADHD Outpatients](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022). Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients.
+
+[7] Marcelli et al. (2025). [Bridging ADHD and Metabolic Disorders: Insights into Shared Mechanisms and Clinical Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025). Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinical implications.
+
+[8] Wang et al. (2019). [Dietary Profiles, Nutritional Biochemistry Status, and Attention-Deficit/Hyperactivity Disorder: Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019). Unhealthy dietary pattern linked to ADHD in case–control path analysis.
+
+[9] McEwen et al. (1998). [Protective and damaging effects of stress mediators](/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998). Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.
+
+[10] McEwen et al. (2006). [Protective and damaging effects of stress mediators in health and disease](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006). Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.
+
+[11] Thayer et al. (2012). [A meta-analysis of heart rate variability and neuroimaging studies: implications for heart rate variability as a marker of stress and health.](/docs/papers/BRAIN-Diet-References#thayer_2012_22178086). Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.
+
+[12] Slavich & Irwin (2014). [From stress to inflammation and major depressive disorder: A social signal transduction theory of depression](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014). Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.
+
+[13] Kiecolt-Glaser et al. (2011). [Omega-3 supplementation lowers inflammation and anxiety in medical students: A randomized controlled trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011). Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: BRS3-FM3-PM7 — Cytokine Network Modulation.
+
+[14] Picard et al. (2014). [Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014). Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.
+
+[15] Bravo et al. (2011). [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011). Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.
