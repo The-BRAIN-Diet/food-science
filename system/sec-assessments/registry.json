@@ -13063,6 +13063,393 @@
           }
         ]
       }
+    },
+    {
+      "sha256": "09b988dd8543759eb08bf4f7f76eb5fb61dd9be766e2d7b44f52a15dedd5ec5d",
+      "record": {
+        "id": "brs6-pm8-pm8-f12-endocrine-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F12",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-10-26",
+        "lastEvidenceAssessmentDate": "2026-10-26",
+        "reviewer": null,
+        "process": "Codex-assisted mission-specific Stage 2A/2B reconstruction; new propositions assessed independently of historical VAT or inflammatory findings.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Insulin and glucocorticoid exposures regulate leptin synthesis or release and adiponectin expression or release in human adipose preparations, with context-dependent responses.",
+        "canonicalProposition": "Insulin and glucocorticoid exposures regulate leptin synthesis or release and adiponectin expression or release in human adipose preparations, with context-dependent responses.",
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "unresolved"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "2 — The proposition is restricted to the stated experimental species, preparation, exposure and measured endpoints; it does not assert human dietary efficacy or a universal endocrine mechanism.",
+          "B": "Unresolved — Primary abstract and selected results support the stated observations, but full allocation, donor/assay independence, analytical controls and missing-data handling have not been completely recovered for this synthesis.",
+          "P": "Unresolved — Numerical tables and uncertainty estimates needed for the exact multi-study proposition were not completely recovered. Reported significance is not substituted for precision.",
+          "R": "Unresolved — Reviews are not independent replications. This bounded assessment did not establish independent replication of the exact synthesised proposition, and does not assign R0 merely because retrieval is incomplete."
+        },
+        "limitations": [
+          "Ex vivo hormone exposures and pharmacological glucocorticoids do not establish ordinary dietary effects. Donor adiposity, depot, exposure duration and concentration matter; circulating concentrations do not measure secretion rates or receptor sensitivity.",
+          "Formal numerical SEC remains incomplete because at least one factor is unresolved; no conditional estimate or score inherited from another proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "lee_leptin_adipose_2007",
+            "degawa_adiponectin_2005",
+            "fallo_glucocorticoid_adiponectin_2004",
+            "patel_short_term_glucocorticoid_2006"
+          ],
+          "contradictory": [],
+          "contextual": [
+            "scheja_adipose_endocrine_2019"
+          ],
+          "contradictoryAssessment": "Context-specific and null results are retained in the proposition and source assessments; different compartments or endpoints are not treated as direct refutations.",
+          "targetedChecks": [
+            {
+              "doi": "10.1152/ajpendo.00439.2006",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Chronic insulin increased leptin biosynthesis without a matching mRNA rise; dexamethasone increased mRNA and biosynthesis. Acute insulin increased release of labelled preformed leptin. Ex vivo exposure; donor and assay-level bias/precision require full-method appraisal. No food comparison."
+            },
+            {
+              "doi": "10.1038/oby.2005.74",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Dexamethasone inhibited adiponectin release after 24 hours; TNFα response varied with donor adiposity and depot. Cross-sectional donor comparisons and cultured-cell hormone exposure; mRNA is not secreted protein and depot responses differ."
+            },
+            {
+              "doi": "10.1530/eje.0.1500339",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Circulating adiponectin decreased acutely; non-obese but not obese Cushing’s comparisons differed. Small pharmacological challenge; plasma concentration and disease comparisons do not identify secretion flux."
+            },
+            {
+              "doi": "10.1186/1477-5751-5-14",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "No between-arm difference in mean changes in circulating leptin or adiponectin despite metabolic effects. Different duration, drug and population from the acute hydrocortisone study; null plasma response does not negate cultured-cell regulation."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1152/ajpendo.00439.2006",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1038/oby.2005.74",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1530/eje.0.1500339",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1186/1477-5751-5-14",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "New endocrine proposition; D assessed within the exact experimental scope. Unresolved factors explicit; no formal score, dietary admission or human review inferred."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "7d68b4b32e71aa0c81547ac77b59b3b08dbd23447d386374ecac2829ee5b81d5",
+      "record": {
+        "id": "brs6-pm8-pm8-f13-endocrine-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F13",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-10-26",
+        "lastEvidenceAssessmentDate": "2026-10-26",
+        "reviewer": null,
+        "process": "Codex-assisted mission-specific Stage 2A/2B reconstruction; new propositions assessed independently of historical VAT or inflammatory findings.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Human adipose cortisol regeneration is tissue- and metabolic-context dependent; whole-body dietary changes in cortisol metabolism do not necessarily alter subcutaneous adipose 11β-HSD1.",
+        "canonicalProposition": "Human adipose cortisol regeneration is tissue- and metabolic-context dependent; whole-body dietary changes in cortisol metabolism do not necessarily alter subcutaneous adipose 11β-HSD1.",
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "unresolved"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "2 — The proposition is restricted to the stated experimental species, preparation, exposure and measured endpoints; it does not assert human dietary efficacy or a universal endocrine mechanism.",
+          "B": "Unresolved — Primary abstract and selected results support the stated observations, but full allocation, donor/assay independence, analytical controls and missing-data handling have not been completely recovered for this synthesis.",
+          "P": "Unresolved — Numerical tables and uncertainty estimates needed for the exact multi-study proposition were not completely recovered. Reported significance is not substituted for precision.",
+          "R": "Unresolved — Reviews are not independent replications. This bounded assessment did not establish independent replication of the exact synthesised proposition, and does not assign R0 merely because retrieval is incomplete."
+        },
+        "limitations": [
+          "Small selected samples and differing assays; transcript abundance is not in vivo regeneration flux. Systemic or hepatic effects cannot be assigned to adipose, and less local cortisol activity is not assumed universally beneficial.",
+          "Formal numerical SEC remains incomplete because at least one factor is unresolved; no conditional estimate or score inherited from another proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "sandeep_adipose_cortisol_2005",
+            "stimson_diet_cortisol_2007",
+            "tomlinson_weight_loss_hsd1_2004"
+          ],
+          "contradictory": [],
+          "contextual": [
+            "de_kloet_fat_brain_2018",
+            "scheja_adipose_endocrine_2019"
+          ],
+          "contradictoryAssessment": "Context-specific and null results are retained in the proposition and source assessments; different compartments or endpoints are not treated as direct refutations.",
+          "targetedChecks": [
+            {
+              "doi": "10.2337/diabetes.54.3.872",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Adipose cortisone conversion was greater in obese men although whole-body regeneration did not differ. Insulin suppressed adipose activity in lean but not obese men; carbenoxolone did not significantly inhibit adipose activity or improve insulin sensitivity. Small male sample; non-selective pharmacology and distinct systemic versus local assays."
+            },
+            {
+              "doi": "10.1210/jc.2007-0692",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Diet altered whole-body cortisol regeneration and clearance, but subcutaneous adipose 11β-HSD1 mRNA and activity were unaffected. Four-week dietary exposures; no extrapolation to visceral depots, women, or a specific constituent."
+            },
+            {
+              "doi": "10.1210/jc.2003-031376",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Adipocyte 11β-HSD1 mRNA increased after substantial weight loss. No randomised control for this before/after comparison; expression is not secretion, receptor sensitivity or measured local flux."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.2337/diabetes.54.3.872",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1210/jc.2007-0692",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1210/jc.2003-031376",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "New endocrine proposition; D assessed within the exact experimental scope. Unresolved factors explicit; no formal score, dietary admission or human review inferred."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "5193a25d1e269d34a7c9c68d67df7df2c8f7df884622fccf2c054ca7b84081cb",
+      "record": {
+        "id": "brs6-pm8-pm8-f14-endocrine-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F14",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-10-26",
+        "lastEvidenceAssessmentDate": "2026-10-26",
+        "reviewer": null,
+        "process": "Codex-assisted mission-specific Stage 2A/2B reconstruction; new propositions assessed independently of historical VAT or inflammatory findings.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Reducing glucocorticoid-receptor expression in adiponectin-Cre mice increased restraint-related corticosterone responses and impaired dexamethasone feedback, without a detected baseline leptin or adiponectin difference.",
+        "canonicalProposition": "Reducing glucocorticoid-receptor expression in adiponectin-Cre mice increased restraint-related corticosterone responses and impaired dexamethasone feedback, without a detected baseline leptin or adiponectin difference.",
+        "factors": {
+          "D": 2,
+          "B": 1,
+          "P": 1,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "established",
+          "P": "established",
+          "R": "unresolved"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "2 — The proposition is restricted to the stated experimental species, preparation, exposure and measured endpoints; it does not assert human dietary efficacy or a universal endocrine mechanism.",
+          "B": "1 — Littermate controls, both Cre-only and flox-only comparisons, adipocyte/stromal separation, tested central/adrenal expression and ACTH challenge protect attribution. Incomplete/depot-variable knockdown and untested off-target tissues remain material; allocation/blinding are not comprehensively established.",
+          "P": "1 — Figure captions provide group sizes, SEM and tests for stress corticosterone and dexamethasone comparisons. The direction is informative, but mediator and cross-model effect precision remain limited; no pooled or human effect is inferred.",
+          "R": "Unresolved — Reviews are not independent replications. This bounded assessment did not establish independent replication of the exact synthesised proposition, and does not assign R0 merely because retrieval is incomplete."
+        },
+        "limitations": [
+          "Genetic mouse model, incomplete and depot-variable knockdown, possible untested off-target sites, and developmental effects. Baseline hormone concentrations do not exclude dynamic secretion changes. No human dietary, cognitive or ADHD effect is established.",
+          "Formal numerical SEC remains incomplete because at least one factor is unresolved; no conditional estimate or score inherited from another proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "de_kloet_adipocyte_gr_2015"
+          ],
+          "contradictory": [],
+          "contextual": [
+            "de_kloet_fat_brain_2018",
+            "tsuji_adipose_hub_2026"
+          ],
+          "contradictoryAssessment": "Context-specific and null results are retained in the proposition and source assessments; different compartments or endpoints are not treated as direct refutations.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.psyneuen.2015.03.008",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Scite complete body, Methods, Results, Discussion and figure captions",
+              "assessment": "Stress corticosterone increased and suppression was impaired; tested central/adrenal GR expression and adrenal ACTH responsiveness did not explain the result. Baseline leptin and adiponectin did not differ. Adiponectin-Cre specificity not exhaustive; knockdown varied by depot, mediator unresolved, and no human intervention."
+            }
+          ],
+          "retrievalLimited": []
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "New endocrine proposition; D assessed within the exact experimental scope. Unresolved factors explicit; no formal score, dietary admission or human review inferred."
+          }
+        ]
+      }
+    },
+    {
+      "sha256": "c49162b8d19e5419f60c87b880b326e94b4070e3e824466ca4ecd9e52ce00a36",
+      "record": {
+        "id": "brs6-pm8-pm8-f15-endocrine-assessment",
+        "recordVersion": 1,
+        "pmId": "BRS6-FM4-PM8",
+        "findingId": "PM8-F15",
+        "assessmentStatus": "not-scored",
+        "humanReview": null,
+        "recordedOn": "2026-10-26",
+        "lastEvidenceAssessmentDate": "2026-10-26",
+        "reviewer": null,
+        "process": "Codex-assisted mission-specific Stage 2A/2B reconstruction; new propositions assessed independently of historical VAT or inflammatory findings.",
+        "methodology": {
+          "name": "SEC calibration rubric proposal",
+          "version": null,
+          "source": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html"
+        },
+        "proposition": "Dietary energy restriction and physical activity can change selected circulating adipokines or adipose transcripts, but these endpoints do not establish a uniform change in adipokine secretion or improved endocrine responsiveness.",
+        "canonicalProposition": "Dietary energy restriction and physical activity can change selected circulating adipokines or adipose transcripts, but these endpoints do not establish a uniform change in adipokine secretion or improved endocrine responsiveness.",
+        "factors": {
+          "D": 2,
+          "B": null,
+          "P": null,
+          "R": null
+        },
+        "factorStates": {
+          "D": "established",
+          "B": "unresolved",
+          "P": "unresolved",
+          "R": "unresolved"
+        },
+        "rawScore": null,
+        "adjustedScore": null,
+        "conditional": null,
+        "rationale": {
+          "D": "2 — The proposition is restricted to the stated experimental species, preparation, exposure and measured endpoints; it does not assert human dietary efficacy or a universal endocrine mechanism.",
+          "B": "Unresolved — Primary abstract and selected results support the stated observations, but full allocation, donor/assay independence, analytical controls and missing-data handling have not been completely recovered for this synthesis.",
+          "P": "Unresolved — Numerical tables and uncertainty estimates needed for the exact multi-study proposition were not completely recovered. Reported significance is not substituted for precision.",
+          "R": "Unresolved — Reviews are not independent replications. This bounded assessment did not establish independent replication of the exact synthesised proposition, and does not assign R0 merely because retrieval is incomplete."
+        },
+        "limitations": [
+          "These trials do not directly quantify adipose secretion or receptor sensitivity. Lower leptin or higher adiponectin is not automatically a better endocrine state. Selected populations, adherence and weight change limit translation; no optimal universal protocol or brain outcome is established.",
+          "Formal numerical SEC remains incomplete because at least one factor is unresolved; no conditional estimate or score inherited from another proposition."
+        ],
+        "sources": {
+          "supporting": [
+            "trepanowski_adipokines_2018",
+            "ma_adiponectin_pounds_2016",
+            "moghadasi_activity_adiponectin_2013"
+          ],
+          "contradictory": [],
+          "contextual": [
+            "scheja_adipose_endocrine_2019",
+            "tsuji_adipose_hub_2026"
+          ],
+          "contradictoryAssessment": "Context-specific and null results are retained in the proposition and source assessments; different compartments or endpoints are not treated as direct refutations.",
+          "targetedChecks": [
+            {
+              "doi": "10.1016/j.clnu.2017.11.018",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Leptin decreased in both restriction groups; circulating adiponectin, resistin, IL-6 and TNFα did not change relative to control. Secondary endpoints; circulating concentrations, not secretion or sensitivity. No superiority of alternate-day restriction."
+            },
+            {
+              "doi": "10.1210/jc.2016-1207",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Circulating adiponectin increased over two years without a significant difference between diet groups. No non-weight-loss control in this comparison; outcome associations do not prove adiponectin mediation or secretion change."
+            },
+            {
+              "doi": "10.1080/17461391.2011.635701",
+              "role": "Primary experiment; endpoint-specific evidence, including null/contextual results",
+              "access": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "assessment": "Subcutaneous adiponectin mRNA increased but plasma adiponectin did not significantly change. Eight participants per group; mRNA is not protein secretion. This does not establish an endocrine optimisation protocol for all adults."
+            }
+          ],
+          "retrievalLimited": [
+            {
+              "url": "https://doi.org/10.1016/j.clnu.2017.11.018",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1210/jc.2016-1207",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            },
+            {
+              "url": "https://doi.org/10.1080/17461391.2011.635701",
+              "limitation": "Full methods, quantitative tables or independent replication not completely recovered for formal factor adjudication."
+            }
+          ]
+        },
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "New endocrine proposition; D assessed within the exact experimental scope. Unresolved factors explicit; no formal score, dietary admission or human review inferred."
+          }
+        ]
+      }
     }
   ]
 }

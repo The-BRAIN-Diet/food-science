@@ -20,6 +20,7 @@ import EvidenceAudit from "../SecCalibrationPreview/EvidenceAudit"
 import {isAuditPreview} from "../SecCalibrationPreview/assessmentAudit.mjs"
 import OpenIssuesPanel from "./OpenIssuesPanel"
 import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
+import {historicalFindingIds} from "@site/src/lib/scientificTransparency.mjs"
 import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
 import styles from "./styles.module.css"
 
@@ -114,7 +115,7 @@ export default function DocUtilityBar({
     params.get(ADVANCED_QUERY_PARAM) === "1"
   const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen
   const qcLabel =
-    auditPreview || hasSecReferences ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+    auditPreview || isPmPage ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
   const issuesLabel = `Open Issues (${openIssueCount})`
 
   useLayoutEffect(() => {
@@ -142,9 +143,25 @@ export default function DocUtilityBar({
   }
 
   useEffect(() => {
-    if (reviewOpen || issuesOpen) return
+    if (reviewOpen) return
     const id = location.hash.replace(/^#/, "")
     if (!id) return
+    const retiredIssue = pmOpenIssueRecords.issues.find(row => row.pm_id === pmId && row.id.toLowerCase() === id && row.scope_disposition && row.scope_disposition !== 'retain')
+    if (retiredIssue) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: `${location.hash}-history`})
+      return
+    }
+    if (issuesOpen) return
+    if (historicalFindingIds(fm).includes(id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: location.hash})
+      return
+    }
     if (THERAPEUTIC_HASH_IDS.has(id)) {
       if (!hasTherapeutic || therapeuticOpen) return
       const nextParams = new URLSearchParams(location.search)
@@ -371,7 +388,7 @@ export default function DocUtilityBar({
         <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
       ) : null}
       {reviewOpen ? (
-        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : hasSecReferences ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
+        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : isPmPage ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} frontMatter={fm} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}
       {advancedOpen && contentSlots?.panels.advanced ? (
         <div

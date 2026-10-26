@@ -1,3 +1,4 @@
+import EvidenceGaps from '@site/src/components/EvidenceGaps';
 import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import Collapse from '../Collapse';
@@ -41,6 +42,7 @@ import Mermaid from '@theme/Mermaid';
 
 export default {
   ...MDXComponents,
+  EvidenceGaps,
   Collapse,
   TagList,
   SubstanceList,

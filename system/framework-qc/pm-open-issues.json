@@ -176,6 +176,19 @@
         "dong_walnut_low_carbohydrate_2026",
         "nagao_catechin_adiposity_2007",
         "iino_catechin_inulin_2026"
+      ],
+      "scope_disposition": "reassign",
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "disposition": "reassign",
+          "reason": "VAT and inflammatory component attribution do not establish endocrine regulation.",
+          "proposed_owner": "Adiposity/immune attribution; owner not decided",
+          "ownership_transfer_status": "awaiting-approval",
+          "previous_status": "open",
+          "decision": "Approved scope disposition; original scientific question and evidence retained. No issue activated in another PM or KC."
+        }
       ]
     },
     {
@@ -193,6 +206,19 @@
       "citation_keys": [
         "zelicha_effect_2022",
         "park_pomegranate_vinegar_2014"
+      ],
+      "scope_disposition": "archive",
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "disposition": "archive",
+          "reason": "Historical urinary-marker/VAT association question is not the reconstructed endocrine operation.",
+          "proposed_owner": null,
+          "ownership_transfer_status": "not-applicable",
+          "previous_status": "open",
+          "decision": "Approved scope disposition; original scientific question and evidence retained. No issue activated in another PM or KC."
+        }
       ]
     },
     {
@@ -210,6 +236,19 @@
       "citation_keys": [
         "cazzola_magnesium_2024",
         "kurstjens_magnesium_adipose_2018"
+      ],
+      "scope_disposition": "reassign",
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "disposition": "reassign",
+          "reason": "Existing primary evidence chiefly concerns fat accumulation and lipolysis; no endocrine dietary dependency is inherited.",
+          "proposed_owner": "Lipid mobilisation; owner not decided",
+          "ownership_transfer_status": "awaiting-approval",
+          "previous_status": "open",
+          "decision": "Approved scope disposition; original scientific question and evidence retained. No issue activated in another PM or KC."
+        }
       ]
     },
     {
@@ -230,6 +269,19 @@
         "magkos_weight_loss_adipose_2016",
         "zelicha_effect_2022",
         "weisberg_adipose_macrophages_2003"
+      ],
+      "scope_disposition": "archive",
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "disposition": "archive",
+          "reason": "The broad historical resource-allocation/brain-benefit question is superseded by the specific endocrine scope.",
+          "proposed_owner": null,
+          "ownership_transfer_status": "not-applicable",
+          "previous_status": "open",
+          "decision": "Approved scope disposition; original scientific question and evidence retained. No issue activated in another PM or KC."
+        }
       ]
     },
     {
@@ -247,6 +299,19 @@
       "citation_keys": [
         "wilkinson_tread_adipose_2026",
         "dote_montero_tre_visceral_2025"
+      ],
+      "scope_disposition": "reassign",
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "disposition": "reassign",
+          "reason": "Adipose inflammatory pathways and VAT timing endpoints are outside the defining endocrine operation.",
+          "proposed_owner": "Adipose immune regulation/meal timing; owner not decided",
+          "ownership_transfer_status": "awaiting-approval",
+          "previous_status": "open",
+          "decision": "Approved scope disposition; original scientific question and evidence retained. No issue activated in another PM or KC."
+        }
       ]
     },
     {
@@ -359,6 +424,67 @@
       "citation_keys": [
         "verlaet_oxidative_2019",
         "hou_urolithin_2024"
+      ]
+    },
+    {
+      "id": "BRS6-PM8-OI-6",
+      "pm_id": "BRS6-FM4-PM8",
+      "kind": "scientific-question",
+      "title": "Adipocyte glucocorticoid stress-feedback mediator",
+      "category": "endocrine-mechanism",
+      "status": "under-investigation",
+      "scope_disposition": "retain",
+      "question": "Which signal mediates adipocyte-GR-dependent stress feedback, and is the pathway demonstrated in humans?",
+      "why_it_matters": "Determines which endocrine mechanism or intervention can be claimed without conflating circulating markers with local secretion or a human stress-feedback pathway.",
+      "established": "Adipocyte-enriched GR knockdown altered mouse restraint responses and dexamethasone feedback; baseline leptin and adiponectin did not differ.",
+      "claim_boundary": "A leptin/adiponectin-mediated human or dietary stress-feedback pathway is not established.",
+      "resolution_needs": "Mediator-specific perturbation or tracing, specificity controls, and appropriately designed human evidence.",
+      "finding_ids": [
+        "PM8-F14"
+      ],
+      "citation_keys": [
+        "de_kloet_adipocyte_gr_2015"
+      ],
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "status": "under-investigation",
+          "disposition": "retain",
+          "decision": "Material mission-specific question identified by the endocrine reassessment; no dietary or causal relationship admitted."
+        }
+      ]
+    },
+    {
+      "id": "BRS6-PM8-OI-7",
+      "pm_id": "BRS6-FM4-PM8",
+      "kind": "scientific-question",
+      "title": "Mission-specific endocrine intervention engagement",
+      "category": "endocrine-mechanism",
+      "status": "under-investigation",
+      "scope_disposition": "retain",
+      "question": "Which defined dietary or activity protocol changes context-appropriate adipose secretion or endocrine responsiveness rather than only circulating concentration, mRNA or fat mass?",
+      "why_it_matters": "Determines which endocrine mechanism or intervention can be claimed without conflating circulating markers with local secretion or a human stress-feedback pathway.",
+      "established": "Energy-restriction studies measured circulating adipokines; a small walking trial changed adiponectin mRNA without a plasma rise. Local cortisol and systemic responses can diverge.",
+      "claim_boundary": "A universal endocrine optimisation programme, ingredient effect or receptor-sensitivity improvement cannot be inferred.",
+      "resolution_needs": "Prespecified local secretion or target-responsiveness endpoints, matched exposure, appropriate controls, and functional interpretation in the studied metabolic context.",
+      "finding_ids": [
+        "PM8-F13",
+        "PM8-F15"
+      ],
+      "citation_keys": [
+        "trepanowski_adipokines_2018",
+        "ma_adiponectin_pounds_2016",
+        "moghadasi_activity_adiponectin_2013"
+      ],
+      "decision_history": [
+        {
+          "version": 1,
+          "date": "2026-10-26",
+          "status": "under-investigation",
+          "disposition": "retain",
+          "decision": "Material mission-specific question identified by the endocrine reassessment; no dietary or causal relationship admitted."
+        }
       ]
     }
   ]

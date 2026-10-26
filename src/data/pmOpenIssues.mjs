@@ -1,4 +1,5 @@
-export const PM_OPEN_ISSUE_STATUSES = ["open", "deferred", "resolved"]
+// deferred is retained as a legacy alias; new records use under-investigation.
+export const PM_OPEN_ISSUE_STATUSES = ["open", "under-investigation", "deferred", "resolved"]
 export const PM_OPEN_ISSUE_KINDS = ["scientific-question", "implementation-defect"]
 export const OPEN_ISSUES_QUERY_PARAM = "open-issues"
 
@@ -13,12 +14,15 @@ const PUBLIC_FIELDS = [
   "resolution_needs",
   "finding_ids",
   "citation_keys",
+  "title", "category", "why_it_matters", "scope_disposition", "decision_history",
 ]
 
 export function currentPmOpenIssues(issues, pmId) {
   return (issues || []).filter(
     (issue) =>
-      issue?.pm_id === pmId && (issue.status === "open" || issue.status === "deferred"),
+      issue?.pm_id === pmId &&
+      (!issue.scope_disposition || issue.scope_disposition === "retain") &&
+      ["open", "under-investigation", "deferred"].includes(issue.status),
   )
 }
 
@@ -43,13 +47,18 @@ export function validatePmOpenIssues(records, {corrections = []} = {}) {
       problems.push(`${label}: kind must be scientific-question or implementation-defect`)
     }
     if (!PM_OPEN_ISSUE_STATUSES.includes(issue?.status)) {
-      problems.push(`${label}: status must be open, deferred, or resolved`)
+      problems.push(`${label}: invalid issue status`)
     }
     for (const field of ["question", "established", "claim_boundary", "resolution_needs"]) {
       if (!String(issue?.[field] || "").trim()) problems.push(`${label}: requires ${field}`)
     }
     if (issue?.related_framework_issue_ids !== undefined && !Array.isArray(issue.related_framework_issue_ids)) {
       problems.push(`${label}: related_framework_issue_ids must be an array when present`)
+    }
+    if (issue.scope_disposition !== undefined) {
+      if (!["retain", "resolve", "reassign", "archive"].includes(issue.scope_disposition)) problems.push(`${label}: invalid scope disposition`)
+      if (issue.scope_disposition === "resolve" && issue.status !== "resolved") problems.push(`${label}: resolved scope disposition requires a resolved scientific status`)
+      if (!issue.decision_history?.length || issue.decision_history.some(row => !row.version || !row.date || !row.decision)) problems.push(`${label}: scope disposition requires versioned decision history`)
     }
     if (issue?.status === "resolved") {
       if (!issue.resolution_correction_id) {

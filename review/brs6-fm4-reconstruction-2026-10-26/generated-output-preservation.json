@@ -1,0 +1,19 @@
+{
+  "head": "1884c7ae0f46a152e2502bb8d4dd6276a0276a7e",
+  "pm_science_files_changed": [
+    "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx"
+  ],
+  "food_or_substance_files_changed": [],
+  "rollup": {
+    "before": 883,
+    "after": 882,
+    "all_other_pm_rows_unchanged": true,
+    "pm8_rows": 0
+  },
+  "food_strategy": {
+    "before": 38,
+    "after": 35,
+    "other_pm_relationships_unchanged": true
+  }
+}

@@ -19,6 +19,8 @@ type PublicIssue = {
   resolution_needs: string
   finding_ids?: string[]
   citation_keys?: string[]
+  title?: string
+  why_it_matters?: string
 }
 
 function kindLabel(kind: string): string {
@@ -78,12 +80,14 @@ function IssueCard({
     }, 0)
   }
   return (
-    <article className={styles.issueCard}>
+    <article className={styles.issueCard} id={issue.id.toLowerCase()}>
       <p>
         {kindLabel(issue.kind)}
         {issue.status === "deferred" ? " · Deferred" : ""}
+        {issue.status === "under-investigation" ? " · Under investigation" : ""}
       </p>
       <h3>{issue.question}</h3>
+      {issue.why_it_matters && <p><strong>Why it matters: </strong>{issue.why_it_matters}</p>}
       <p>
         <strong>Established: </strong>
         {issue.established}
@@ -139,7 +143,7 @@ export default function OpenIssuesPanel({
       <h2 tabIndex={-1}>Open Issues</h2>
       <p>
         These are unresolved questions for this mechanism. They do not add dietary
-        requirements, and a resolved question is recorded under Review &amp; Corrections.
+        requirements. Completed decisions and historical scope dispositions remain in Evidence &amp; Audit.
       </p>
       {issues.length === 0 ? (
         <p>No open questions are recorded for this mechanism.</p>
