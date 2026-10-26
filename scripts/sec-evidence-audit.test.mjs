@@ -22,10 +22,10 @@ test('preview routing stays isolated and canonical audit requires an explicit as
   assert.equal(isAuditPreview('/docs/system/sec-calibration/gaba/'), true);
   for (const path of ['/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity','/docs/system/sec-calibration/gaba-other','/docs/foods/eggs']) assert.equal(isAuditPreview(path), false);
   const bar = read('src/components/ReviewCorrections/DocUtilityBar.tsx');
-  assert.match(bar, /auditPreview \|\| hasSecReferences \? "Evidence & Audit"/);
+  assert.match(bar, /auditPreview \|\| isPmPage \? "Evidence & Audit"/);
   assert.match(bar, /hasSecReferences = isPmPage && secFindings.some/);
   assert.match(bar, /Object.hasOwn\(f, "sec_assessment_ref"\)/);
-  assert.match(bar, /auditPreview \? <EvidenceAudit[\s\S]*hasSecReferences \? <CanonicalSecAudit[\s\S]*: <PageReviewPanel/);
+  assert.match(bar, /auditPreview \? <EvidenceAudit[\s\S]*isPmPage \? <CanonicalSecAudit[\s\S]*: <PageReviewPanel/);
 });
 test('versioned audit preserves exact proposition, unresolved factors and source identities', () => {
   const canonical = matter(readPilotBaseline('docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx')).data;

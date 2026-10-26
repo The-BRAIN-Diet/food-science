@@ -1,0 +1,305 @@
+{
+  "citation_key": "evans_meal_leptin_2001",
+  "doi": "10.1042/cs1000493",
+  "metadata": {
+    "id": "11294689",
+    "source": "MED",
+    "pmid": "11294689",
+    "doi": "10.1042/cs1000493",
+    "title": "Carbohydrate and fat have different effects on plasma leptin concentrations and adipose tissue leptin production.",
+    "authorString": "Evans K, Clark ML, Frayn KN.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Evans K",
+          "lastName": "Evans",
+          "firstName": "K",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Clinical Chemistry, Staffordshire General Hospital, Weston Road, Stafford ST16 3SA, UK. kevinevans@doctors.org.uk"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Clark ML",
+          "lastName": "Clark",
+          "firstName": "M L",
+          "initials": "ML"
+        },
+        {
+          "fullName": "Frayn KN",
+          "lastName": "Frayn",
+          "firstName": "K N",
+          "initials": "KN",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-7281-1863"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-7281-1863"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "5",
+      "volume": "100",
+      "journalIssueId": 963051,
+      "dateOfPublication": "2001 May",
+      "monthOfPublication": 5,
+      "yearOfPublication": 2001,
+      "journal": {
+        "medlineAbbreviation": "Clin Sci (Lond)",
+        "title": "Clinical science (London, England : 1979)",
+        "essn": "1470-8736",
+        "issn": "0143-5221",
+        "isoabbreviation": "Clin Sci (Lond)",
+        "nlmid": "7905731"
+      },
+      "printPublicationDate": "2001-05-01"
+    },
+    "pubYear": "2001",
+    "pageInfo": "493-498",
+    "abstractText": "Leptin is secreted by adipocytes and plays a role in the regulation of food intake. However, the regulation of leptin production by adipose tissue is unclear. We have investigated whether a mixed meal or a high-fat load given orally, or a pure fat load given intravenously, stimulates adipose tissue leptin production. Six volunteers were studied on two occasions following an overnight fast. On one occasion they consumed tomato soup containing 40 g of triacylglycerol (as Intralipid) and 9.6 g of carbohydrate; on the other occasion Intralipid was infused intravenously over 4 h to give the same fat load. A further eight subjects consumed a mixed meal (containing 37 g of fat and 100 g of carbohydrate) after an overnight fast. Paired blood samples were obtained from an arterialized hand vein and a vein draining subcutaneous adipose tissue at baseline and for 6 h following the meals or the start of the infusion. After both the intravenous and oral fat loads, the arterialized and adipose venous plasma leptin concentrations decreased over 6 h (both P<0.001), as did the leptin veno--arterial difference (P=0.01). Following the mixed meal, there was a slight increase in the arterialized plasma leptin concentration (P=0.02) and a more marked increase in the adipose venous plasma leptin concentration (P=0.03) and in the adipose tissue leptin veno--arterial difference (P=0.01), all peaking at 240 min. We conclude that the increase in plasma leptin concentration observed after meals is not simply a result of an energy load, but is in response to a signal that is not present following a fat load without carbohydrate.",
+    "affiliation": "Department of Clinical Chemistry, Staffordshire General Hospital, Weston Road, Stafford ST16 3SA, UK. kevinevans@doctors.org.uk",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Carbohydrates",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Glucose",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Fats",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Triglycerides",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Postprandial Period",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Triglycerides",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Blood Glucose",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Dietary Fats",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Dietary Carbohydrates",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Insulin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "PortlandPress",
+          "url": "https://doi.org/10.1042/CS20000197"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1042/cs1000493"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 17,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2001-06-07",
+    "dateOfCreation": "2001-04-11",
+    "dateOfRevision": "2011-11-17",
+    "firstPublicationDate": "2001-05-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A11294689&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract, not full methods"
+}

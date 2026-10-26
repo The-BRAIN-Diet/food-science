@@ -1,5 +1,12 @@
 # Primary Mechanism (PM) Schema
 
+**Approved canonical evidence-tab template — 26 October 2026:** Follow [Canonical PM evidence tabs](pm-evidence-tabs-contract.md). The accepted PM8 template governs Stage 2A/2B and subsequent controlled PM migrations: Evidence Gaps → Open Issues → Evidence & Audit, with canonical disclosures and stable IDs. This instruction update does not itself migrate other PMs or change scientific decisions.
+
+## Approved evidence-tab presentation
+
+For migrated PMs, the [canonical evidence-tab contract](pm-evidence-tabs-contract.md) supersedes older inline §4.1 Finding-generation/display examples in this schema. Keep necessary Mechanistic Basis explanations on the main page; project detailed Findings, Principles, source assessments and history into Evidence & Audit. Use Evidence Gaps and Open Issues for their distinct approved roles. Retain all three tabs with empty states, canonical dropdown styling, stable IDs and exact-record links. Preserve scientific data, existing admissions and immutable assessments. Unmigrated PMs retain their existing rendering until a controlled migration; do not bulk-edit them as a side effect of changing this schema.
+
+
 **Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
 
 **Governing assessment instructions:** [Stage 2A — scientific assessment](scientific-finding-schema.md) and [Stage 2B — applicability and lever implementation](dietary-input-traceability-contract.md). This schema governs the whole PM page; it is not a substitute for either assessment stage.

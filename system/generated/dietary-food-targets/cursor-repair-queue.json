@@ -208,38 +208,6 @@
       "verification_status": "requires-pathway-reconciliation"
     },
     {
-      "source_entity": "vitamin-b6",
-      "target_entity": "PLP",
-      "relationship_type": "precursor-conversion",
-      "canonical_ids": {
-        "precursor": "vitamin-b6",
-        "active_target": null
-      },
-      "candidate_food": null,
-      "material": null,
-      "preparation": null,
-      "evidence": [
-        {
-          "finding_ids": [
-            "PM9-F1",
-            "PM9-F2"
-          ],
-          "citation_keys": [
-            "martin_regulation_1993",
-            "lee_human_2000",
-            "tang_crystal_2005",
-            "navarro_catalytic_2013"
-          ]
-        }
-      ],
-      "affected_pms": [
-        "BRS1-FM4-PM9"
-      ],
-      "missing_edge": "Vitamin B6 → PLP: structured conversion pathway",
-      "required_action": "Independently verify active identity, intermediates, conversion evidence and dependencies; preserve the historical scientific decision. No automatic food or pathway edge.",
-      "verification_status": "requires-pathway-reconciliation"
-    },
-    {
       "source_entity": "kale",
       "target_entity": "5-methyltetrahydrofolate",
       "relationship_type": "contains",

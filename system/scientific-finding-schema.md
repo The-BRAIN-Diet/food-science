@@ -1,5 +1,9 @@
 # Stage 2A — Scientific Assessment & Finding Schema
 
+**Approved canonical food-disclosure layout — 26 October 2026:** Follow [the exact food-column implementation](input-substance-food-mapping.md#approved-food-column-implementation--26-october-2026). Reuse the shared renderer and stylesheet for §1.1.1–1.1.3 / §3.1.1–3.1.3: first food in the closed heading, food before quantity, fixed shared columns, right-aligned numeric values, aligned units/bases, wrapped long names and compact form. Missing form renders `form not known`. Stage reruns must preserve this layout, evidence qualifiers, provisional warnings and canonical data; do not author replacement food lists or inline composition-source prose. The linked contract includes the CSS, renderer parsing rule and required browser checks. The final approved row reads `Sunflower Seeds 53 µg per 100 g - dried`: food column 8.5rem, quantity column 9.75rem, 0.35rem column gap, right-aligned numbers with tabular numerals, and no manual space padding or negative preparation margin. Use exactly ` - ` before the form; retain source-specific measurement bases. The first food and expanded rows must use the same grid for both plant and animal categories. This presentation is framework-wide across BRS1–BRS6, not a PM4-only pilot; apply it through shared rendering wherever eligible structured food mappings exist.
+
+**Approved canonical evidence-tab template — 26 October 2026:** Follow [Canonical PM evidence tabs](pm-evidence-tabs-contract.md). The accepted PM8 template governs Stage 2A/2B and subsequent controlled PM migrations: Evidence Gaps → Open Issues → Evidence & Audit, with canonical disclosures and stable IDs. This instruction update does not itself migrate other PMs or change scientific decisions.
+
 **Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
 
 **Status:** Authoritative Stage 2A scientific assessment instruction and Finding schema. Use with the [whole-PM page schema](primary-mechanism-schema.md); proceed to the [Stage 2B contract](dietary-input-traceability-contract.md) for applicability and lever implementation.
@@ -9,6 +13,18 @@ proposition precise enough to be assessed across a body of evidence, and carries
 the synthesis, the limits of that synthesis, and every study considered.
 
 Replaces the earlier pattern of *mechanistic claim → one or more references*.
+
+## Evidence classification and tab handoff — mandatory before SEC
+
+Apply [Canonical PM evidence tabs](pm-evidence-tabs-contract.md) before scoring or generating public evidence presentation.
+
+1. Identify each exact proposition and its scientific role. Separate established biochemical identities/reactions (**Scientific Principles**) from appraisable regulatory, physiological, dietary or functional propositions (**Scientific Findings**). Preclinical research can require SEC; being biochemical, weak or unscored does not qualify it as a Principle. Split mixed propositions only where their scientific content warrants it, retaining historical identities and provenance.
+2. Identify what the evidence establishes and what it cannot establish. When a required link to a proposed active claim is missing, inconsistent or indirect, record an **Evidence Gap** with canonical Finding/source references, the missing link, affected relationship and evidence needed. Do not copy source assessments into a second evidence dataset or relocate valid mechanism explanation merely because no dietary benefit is established.
+3. Identify genuinely unresolved decisions as **Open Issues** in the authoritative register, with a resolution criterion. Do not recreate resolved questions, generate issues from unscored SEC alone, or use a completed non-admission as an artificial active issue. Respect owner-approved removal and PM-specific regeneration policies.
+4. Hand off an explicit disposition and destination for each record: necessary accepted mechanism explanation on the main page; detailed Findings, Principles, assessments and history in **Evidence & Audit**; missing evidential relationships in **Evidence Gaps**; actionable unresolved decisions in **Open Issues**. A study may support multiple bounded purposes through references to one canonical evidence record.
+5. Apply existing SEC governance only to the adjudicated Finding proposition. Principles expose authoritative provenance without an active SEC score/status/factor display. Preserve active Findings, original IDs, historical assessments and essential qualifications. Do not reclassify evidence to improve numerical scoring coverage.
+
+The Stage 2B handoff must identify any proposed scientific change requiring approval separately from presentation-only relocation. No admission, Type A/B, Direct/Derived, KC or intervention decision changes merely because evidence moves tabs.
 
 ## Bounded assessment
 

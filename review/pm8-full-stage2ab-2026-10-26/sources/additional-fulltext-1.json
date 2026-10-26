@@ -1,0 +1,10 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"doi\": \"10.1210/jc.2011-2380\",\n  \"title\": \"Adipose Tissue Secretion and Expression of Adipocyte-Produced and Stromavascular Fraction-Produced Adipokines Vary during Multiple Phases of Weight-Reducing Dietary Intervention in Obese Women\",\n  \"source\": \"abstract\",\n  \"text\": \"Diet-induced regulation of adipokine production in SAT differs according to their cellular origin (adipocytes vs. stroma-vascular cells) and diet phase (VLCD vs. WS). Insulin-sensitivity changes were associated only with those of plasma leptin.\",\n  \"offset\": 0,\n  \"returnedChars\": 244,\n  \"totalChars\": 244,\n  \"hasMore\": false,\n  \"contentDenied\": true,\n  \"link\": \"https://doi.org/10.1210/jc.2011-2380\",\n  \"message\": \"Full text is access-restricted for this paper; showing the abstract instead. `link` is where the user reads the paper itself \u2014 don't treat this abstract as the paper.\"\n}"
+    }
+  ],
+  "structuredContent": null,
+  "isError": false
+}

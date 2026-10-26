@@ -1,3 +1,5 @@
+import Stage2Review from '@site/src/components/Stage2Review';
+import EvidenceGaps from '@site/src/components/EvidenceGaps';
 import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import Collapse from '../Collapse';
@@ -41,6 +43,8 @@ import Mermaid from '@theme/Mermaid';
 
 export default {
   ...MDXComponents,
+  Stage2Review,
+  EvidenceGaps,
   Collapse,
   TagList,
   SubstanceList,

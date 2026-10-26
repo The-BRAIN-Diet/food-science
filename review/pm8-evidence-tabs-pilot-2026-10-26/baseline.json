@@ -1,0 +1,2039 @@
+{
+  "pm8_frontmatter": {
+    "title": "Adipose Endocrine Regulation",
+    "pm_id": "BRS6-FM4-PM8",
+    "evidence_gaps_tab": true,
+    "mission": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+    "parent_fm": "BRS6(FM4)",
+    "parent_brs": "BRS6",
+    "summary": "Adipose tissue releases hormones that communicate metabolic state. Adipokine output and local glucocorticoid responsiveness are regulated processes whose measured endpoints must be distinguished.",
+    "key_constraints": [],
+    "cofactors": [
+      "NADPH — biochemical reducing equivalent for 11β-HSD1; no dietary admission inferred"
+    ],
+    "intervention_dominance": "Not established",
+    "intervention_breakdown": "Not established",
+    "timing_specific": "No",
+    "dose_sensitivity": "Effects depend on the tested exposure, preparation and study population; no universal dose is established.",
+    "references": [
+      "[Mohammad & Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)",
+      "[Cazzola et al. (2024) — A Defense Line to Mitigate Inflammation and Oxidative Stress in Adipose Tissue](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)",
+      "[Kiecolt-Glaser et al. (2011) — Omega-3 supplementation lowers inflammation and anxiety in medical students: a randomized controlled trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)",
+      "[Di Girolamo et al. (2022) — Prevalence of Metabolic Syndrome and Insulin Resistance in a Sample of Adult](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022)",
+      "[Marcelli et al. (2025) — Insights Into Shared Mechanisms and Clinical Implications](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025)",
+      "[Magkos et al. (2016) — Effects of moderate and subsequent progressive weight loss on metabolic function and adipose tissue biology in humans with obesity](/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016)",
+      "[Zelicha et al. (2022) — The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)",
+      "[Zelicha et al. (2024) — Altered proteome profiles related to visceral adiposity may mediate the favorable effect of green Mediterranean diet: the DIRECT-PLUS trial](/docs/papers/BRAIN-Diet-References#zelicha_proteome_2024)",
+      "[Njike et al. (2015) — Walnut ingestion in adults at risk for diabetes: effects on body composition, diet quality, and cardiac risk measures](/docs/papers/BRAIN-Diet-References#njike_walnut_body_composition_2015)",
+      "[Dong et al. (2026) — Effect of a walnut-based low carbohydrate diet on fat redistribution and visceral fat accumulation in people with central obesity: A randomized controlled trial](/docs/papers/BRAIN-Diet-References#dong_walnut_low_carbohydrate_2026)",
+      "[Nagao et al. (2007) — A green tea extract high in catechins reduces body fat and cardiovascular risks in humans](/docs/papers/BRAIN-Diet-References#nagao_catechin_adiposity_2007)",
+      "[Iino et al. (2026) — Green Tea Catechin Plus Inulin Improves Insulin Resistance Without Reducing Visceral Fat and Shows Exploratory Gut Microbiota Signals in Adults with Visceral Obesity: A Double-Blind Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#iino_catechin_inulin_2026)",
+      "[Spencer et al. (2013) — Omega-3 fatty acids reduce adipose tissue macrophages in human subjects with insulin resistance](/docs/papers/BRAIN-Diet-References#spencer_omega3_adipose_2013)",
+      "[Fisk et al. (2022) — Modification of subcutaneous white adipose tissue inflammation by omega-3 fatty acids is limited in human obesity—a double blind, randomised clinical trial](/docs/papers/BRAIN-Diet-References#fisk_omega3_adipose_2022)",
+      "[Weisberg et al. (2003) — Obesity is associated with macrophage accumulation in adipose tissue](/docs/papers/BRAIN-Diet-References#weisberg_adipose_macrophages_2003)",
+      "[Boden et al. (2015) — Excessive caloric intake acutely causes oxidative stress, GLUT4 carbonylation, and insulin resistance in healthy men](/docs/papers/BRAIN-Diet-References#boden_overnutrition_oxidative_2015)",
+      "[Kurstjens et al. (2018) — Magnesium deficiency prevents high-fat-diet-induced obesity in mice](/docs/papers/BRAIN-Diet-References#kurstjens_magnesium_adipose_2018)",
+      "[Ahn et al. (2022) — Exercise training remodels subcutaneous adipose tissue in adults with obesity even without weight loss](/docs/papers/BRAIN-Diet-References#ahn_exercise_adipose_2022)",
+      "[Covassin et al. (2022) — Effects of Experimental Sleep Restriction on Energy Intake, Energy Expenditure, and Visceral Obesity](/docs/papers/BRAIN-Diet-References#covassin_sleep_visceral_2022)",
+      "[Wilkinson et al. (2026) — Time-Restricted Eating Promotes Weight Loss and Favorable Changes in Adipose in Obesity: The TREAD Randomized Control Trial](/docs/papers/BRAIN-Diet-References#wilkinson_tread_adipose_2026)",
+      "[Dote-Montero et al. (2025) — Effects of early, late and self-selected time-restricted eating on visceral adipose tissue and cardiometabolic health in participants with overweight or obesity: a randomized controlled trial](/docs/papers/BRAIN-Diet-References#dote_montero_tre_visceral_2025)",
+      "[Hames et al. (2017) — Very-long-chain omega-3 fatty acid supplements and adipose tissue functions: a randomized controlled trial](/docs/papers/BRAIN-Diet-References#hames_omega3_adipose_null_2017)",
+      "[Willmann et al. (2019) — Potential effects of reduced red meat compared with increased fiber intake on glucose metabolism and liver fat content: a randomized and controlled dietary intervention study](/docs/papers/BRAIN-Diet-References#willmann_red_meat_fibre_2019)",
+      "[Park et al. (2014) — Pomegranate vinegar beverage reduces visceral fat accumulation in association with AMPK activation in overweight women: A double-blind, randomized, and placebo-controlled trial](/docs/papers/BRAIN-Diet-References#park_pomegranate_vinegar_2014)",
+      "[de Kloet et al. (2015) — Adipocyte glucocorticoid receptors mediate fat-to-brain signaling](/docs/papers/BRAIN-Diet-References#de_kloet_adipocyte_gr_2015)",
+      "[de Kloet & Herman (2018; online 2017) — Fat-brain connections: Adipocyte glucocorticoid control of stress and metabolism](/docs/papers/BRAIN-Diet-References#de_kloet_fat_brain_2018)",
+      "[Scheja & Heeren (2019) — The endocrine function of adipose tissues in health and cardiometabolic disease](/docs/papers/BRAIN-Diet-References#scheja_adipose_endocrine_2019)",
+      "[Tsuji & Tseng (2026) — Adipose tissue as a humoral-neuronal hub in metabolic regulation](/docs/papers/BRAIN-Diet-References#tsuji_adipose_hub_2026)",
+      "[Sandeep et al. (2005) — Increased in vivo regeneration of cortisol in adipose tissue in human obesity and effects of the 11beta-hydroxysteroid dehydrogenase type 1 inhibitor carbenoxolone](/docs/papers/BRAIN-Diet-References#sandeep_adipose_cortisol_2005)",
+      "[Lee et al. (2007) — Acute and chronic regulation of leptin synthesis, storage, and secretion by insulin and dexamethasone in human adipose tissue](/docs/papers/BRAIN-Diet-References#lee_leptin_adipose_2007)",
+      "[Degawa-Yamauchi et al. (2005) — Regulation of adiponectin expression in human adipocytes: effects of adiposity, glucocorticoids, and tumor necrosis factor alpha](/docs/papers/BRAIN-Diet-References#degawa_adiponectin_2005)",
+      "[Stimson et al. (2007) — Dietary macronutrient content alters cortisol metabolism independently of body weight changes in obese men](/docs/papers/BRAIN-Diet-References#stimson_diet_cortisol_2007)",
+      "[Tomlinson et al. (2004) — Weight loss increases 11beta-hydroxysteroid dehydrogenase type 1 expression in human adipose tissue](/docs/papers/BRAIN-Diet-References#tomlinson_weight_loss_hsd1_2004)",
+      "[Trepanowski et al. (2018; online 2017) — Effects of alternate-day fasting or daily calorie restriction on body composition, fat distribution, and circulating adipokines: Secondary analysis of a randomized controlled trial](/docs/papers/BRAIN-Diet-References#trepanowski_adipokines_2018)",
+      "[Ma et al. (2016) — Weight-Loss Diets, Adiponectin, and Changes in Cardiometabolic Risk in the 2-Year POUNDS Lost Trial](/docs/papers/BRAIN-Diet-References#ma_adiponectin_pounds_2016)",
+      "[Fallo et al. (2004) — Effect of glucocorticoids on adiponectin: a study in healthy subjects and in Cushing's syndrome](/docs/papers/BRAIN-Diet-References#fallo_glucocorticoid_adiponectin_2004)",
+      "[Moghadasi et al. (2013; online 2011) — Effects of short-term lifestyle activity modification on adiponectin mRNA expression and plasma concentrations](/docs/papers/BRAIN-Diet-References#moghadasi_activity_adiponectin_2013)",
+      "[Patel et al. (2006) — Role of metabolically active hormones in the insulin resistance associated with short-term glucocorticoid treatment](/docs/papers/BRAIN-Diet-References#patel_short_term_glucocorticoid_2006)"
+    ],
+    "hide_title": true,
+    "phenome_relationships": [],
+    "list_image": "/img/biological-targets/brs6-portrait-thumbnail.png",
+    "scientific_findings": [
+      {
+        "id": "PM8-F12",
+        "finding_label": "Adipokine responses depend on hormone, depot and exposure",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Insulin and glucocorticoid exposures regulate leptin synthesis or release and adiponectin expression or release in human adipose preparations, with context-dependent responses.",
+        "finding_statement": "Insulin and glucocorticoid exposures regulate leptin synthesis or release and adiponectin expression or release in human adipose preparations, with context-dependent responses.",
+        "finding_interpretation": "Human adipose pulse-labelling separates leptin biosynthesis from release of stored protein. Dexamethasone can increase leptin synthesis while suppressing adiponectin release in other preparations; these are distinct hormone-specific responses. Circulating adiponectin responses to systemic glucocorticoids are not uniformly reproduced.",
+        "synthesis": "Human adipose pulse-labelling separates leptin biosynthesis from release of stored protein. Dexamethasone can increase leptin synthesis while suppressing adiponectin release in other preparations; these are distinct hormone-specific responses. Circulating adiponectin responses to systemic glucocorticoids are not uniformly reproduced.",
+        "synthesis_limitations": "Ex vivo hormone exposures and pharmacological glucocorticoids do not establish ordinary dietary effects. Donor adiposity, depot, exposure duration and concentration matter; circulating concentrations do not measure secretion rates or receptor sensitivity.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Lee et al. (2007)",
+            "citation_key": "lee_leptin_adipose_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#lee_leptin_adipose_2007",
+            "doi": "10.1152/ajpendo.00439.2006",
+            "canonical_reference": {
+              "author_year": "Lee et al. (2007)",
+              "number": 30,
+              "anchor": "#pm-ref-30"
+            },
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Human adipose organ culture; acute versus 1–2-day insulin/dexamethasone exposure and metabolic pulse-chase labelling.",
+            "study_finding": "Chronic insulin increased leptin biosynthesis without a matching mRNA rise; dexamethasone increased mRNA and biosynthesis. Acute insulin increased release of labelled preformed leptin.",
+            "directional_finding": "Chronic insulin increased leptin biosynthesis without a matching mRNA rise; dexamethasone increased mRNA and biosynthesis. Acute insulin increased release of labelled preformed leptin.",
+            "assessment": {
+              "study": "Human adipose organ culture; acute versus 1–2-day insulin/dexamethasone exposure and metabolic pulse-chase labelling.",
+              "population": "Human adipose organ culture; acute versus 1–2-day insulin/dexamethasone exposure and metabolic pulse-chase labelling.",
+              "result": "Chronic insulin increased leptin biosynthesis without a matching mRNA rise; dexamethasone increased mRNA and biosynthesis. Acute insulin increased release of labelled preformed leptin.",
+              "effect_magnitude": "Abstract reports nearly doubled labelled leptin release after a one-hour chase; no exact uncertainty recovered.",
+              "evidence_summary": "Chronic insulin increased leptin biosynthesis without a matching mRNA rise; dexamethasone increased mRNA and biosynthesis. Acute insulin increased release of labelled preformed leptin.",
+              "limitations": "Ex vivo exposure; donor and assay-level bias/precision require full-method appraisal. No food comparison.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1152/ajpendo.00439.2006"
+            }
+          },
+          {
+            "label": "Degawa-Yamauchi et al. (2005)",
+            "citation_key": "degawa_adiponectin_2005",
+            "href": "/docs/papers/BRAIN-Diet-References#degawa_adiponectin_2005",
+            "doi": "10.1038/oby.2005.74",
+            "canonical_reference": {
+              "author_year": "Degawa-Yamauchi et al. (2005)",
+              "number": 31,
+              "anchor": "#pm-ref-31"
+            },
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Isolated human subcutaneous and omental adipocytes, with dexamethasone and TNFα incubation.",
+            "study_finding": "Dexamethasone inhibited adiponectin release after 24 hours; TNFα response varied with donor adiposity and depot.",
+            "directional_finding": "Dexamethasone inhibited adiponectin release after 24 hours; TNFα response varied with donor adiposity and depot.",
+            "assessment": {
+              "study": "Isolated human subcutaneous and omental adipocytes, with dexamethasone and TNFα incubation.",
+              "population": "Isolated human subcutaneous and omental adipocytes, with dexamethasone and TNFα incubation.",
+              "result": "Dexamethasone inhibited adiponectin release after 24 hours; TNFα response varied with donor adiposity and depot.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Dexamethasone inhibited adiponectin release after 24 hours; TNFα response varied with donor adiposity and depot.",
+              "limitations": "Cross-sectional donor comparisons and cultured-cell hormone exposure; mRNA is not secreted protein and depot responses differ.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1038/oby.2005.74"
+            }
+          },
+          {
+            "label": "Fallo et al. (2004)",
+            "citation_key": "fallo_glucocorticoid_adiponectin_2004",
+            "href": "/docs/papers/BRAIN-Diet-References#fallo_glucocorticoid_adiponectin_2004",
+            "doi": "10.1530/eje.0.1500339",
+            "canonical_reference": {
+              "author_year": "Fallo et al. (2004)",
+              "number": 36,
+              "anchor": "#pm-ref-36"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Acute intravenous hydrocortisone in five healthy volunteers plus matched comparisons in Cushing’s syndrome.",
+            "study_finding": "Circulating adiponectin decreased acutely; non-obese but not obese Cushing’s comparisons differed.",
+            "directional_finding": "Circulating adiponectin decreased acutely; non-obese but not obese Cushing’s comparisons differed.",
+            "assessment": {
+              "study": "Acute intravenous hydrocortisone in five healthy volunteers plus matched comparisons in Cushing’s syndrome.",
+              "population": "Acute intravenous hydrocortisone in five healthy volunteers plus matched comparisons in Cushing’s syndrome.",
+              "result": "Circulating adiponectin decreased acutely; non-obese but not obese Cushing’s comparisons differed.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Circulating adiponectin decreased acutely; non-obese but not obese Cushing’s comparisons differed.",
+              "limitations": "Small pharmacological challenge; plasma concentration and disease comparisons do not identify secretion flux.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1530/eje.0.1500339"
+            }
+          },
+          {
+            "label": "Patel et al. (2006)",
+            "citation_key": "patel_short_term_glucocorticoid_2006",
+            "href": "/docs/papers/BRAIN-Diet-References#patel_short_term_glucocorticoid_2006",
+            "doi": "10.1186/1477-5751-5-14",
+            "canonical_reference": {
+              "author_year": "Patel et al. (2006)",
+              "number": 38,
+              "anchor": "#pm-ref-38"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Blinded placebo-controlled randomisation of 25 healthy men to five days of oral dexamethasone or placebo.",
+            "study_finding": "No between-arm difference in mean changes in circulating leptin or adiponectin despite metabolic effects.",
+            "directional_finding": "No between-arm difference in mean changes in circulating leptin or adiponectin despite metabolic effects.",
+            "assessment": {
+              "study": "Blinded placebo-controlled randomisation of 25 healthy men to five days of oral dexamethasone or placebo.",
+              "population": "Blinded placebo-controlled randomisation of 25 healthy men to five days of oral dexamethasone or placebo.",
+              "result": "No between-arm difference in mean changes in circulating leptin or adiponectin despite metabolic effects.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "No between-arm difference in mean changes in circulating leptin or adiponectin despite metabolic effects.",
+              "limitations": "Different duration, drug and population from the acute hydrocortisone study; null plasma response does not negate cultured-cell regulation.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1186/1477-5751-5-14"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Scheja & Heeren (2019)",
+            "citation_key": "scheja_adipose_endocrine_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#scheja_adipose_endocrine_2019",
+            "doi": "10.1038/s41574-019-0230-6",
+            "canonical_reference": {
+              "author_year": "Scheja & Heeren (2019)",
+              "number": 27,
+              "anchor": "#pm-ref-27"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          }
+        ],
+        "sec_assessment_ref": {
+          "id": "brs6-pm8-pm8-f12-endocrine-assessment",
+          "version": 1,
+          "sha256": "09b988dd8543759eb08bf4f7f76eb5fb61dd9be766e2d7b44f52a15dedd5ec5d"
+        }
+      },
+      {
+        "id": "PM8-F13",
+        "finding_label": "Local adipose cortisol regeneration differs from systemic metabolism",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Human adipose cortisol regeneration is tissue- and metabolic-context dependent; whole-body dietary changes in cortisol metabolism do not necessarily alter subcutaneous adipose 11β-HSD1.",
+        "finding_statement": "Human adipose cortisol regeneration is tissue- and metabolic-context dependent; whole-body dietary changes in cortisol metabolism do not necessarily alter subcutaneous adipose 11β-HSD1.",
+        "finding_interpretation": "Microdialysis and tracer measurements distinguish local cortisone-to-cortisol conversion from systemic turnover. Insulin effects differed by adiposity. A low-carbohydrate crossover altered systemic cortisol metabolism without a measured adipose 11β-HSD1 response; weight loss in another small study increased adipocyte transcript expression rather than demonstrating universal suppression.",
+        "synthesis": "Microdialysis and tracer measurements distinguish local cortisone-to-cortisol conversion from systemic turnover. Insulin effects differed by adiposity. A low-carbohydrate crossover altered systemic cortisol metabolism without a measured adipose 11β-HSD1 response; weight loss in another small study increased adipocyte transcript expression rather than demonstrating universal suppression.",
+        "synthesis_limitations": "Small selected samples and differing assays; transcript abundance is not in vivo regeneration flux. Systemic or hepatic effects cannot be assigned to adipose, and less local cortisol activity is not assumed universally beneficial.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Sandeep et al. (2005)",
+            "citation_key": "sandeep_adipose_cortisol_2005",
+            "href": "/docs/papers/BRAIN-Diet-References#sandeep_adipose_cortisol_2005",
+            "doi": "10.2337/diabetes.54.3.872",
+            "canonical_reference": {
+              "author_year": "Sandeep et al. (2005)",
+              "number": 29,
+              "anchor": "#pm-ref-29"
+            },
+            "data_level": "Human Mechanistic",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Six lean and six obese men; cortisol tracer, adipose microdialysis and carbenoxolone crossover in obese men.",
+            "study_finding": "Adipose cortisone conversion was greater in obese men although whole-body regeneration did not differ. Insulin suppressed adipose activity in lean but not obese men; carbenoxolone did not significantly inhibit adipose activity or improve insulin sensitivity.",
+            "directional_finding": "Adipose cortisone conversion was greater in obese men although whole-body regeneration did not differ. Insulin suppressed adipose activity in lean but not obese men; carbenoxolone did not significantly inhibit adipose activity or improve insulin sensitivity.",
+            "assessment": {
+              "study": "Six lean and six obese men; cortisol tracer, adipose microdialysis and carbenoxolone crossover in obese men.",
+              "population": "Six lean and six obese men; cortisol tracer, adipose microdialysis and carbenoxolone crossover in obese men.",
+              "result": "Adipose cortisone conversion was greater in obese men although whole-body regeneration did not differ. Insulin suppressed adipose activity in lean but not obese men; carbenoxolone did not significantly inhibit adipose activity or improve insulin sensitivity.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Adipose cortisone conversion was greater in obese men although whole-body regeneration did not differ. Insulin suppressed adipose activity in lean but not obese men; carbenoxolone did not significantly inhibit adipose activity or improve insulin sensitivity.",
+              "limitations": "Small male sample; non-selective pharmacology and distinct systemic versus local assays.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.2337/diabetes.54.3.872"
+            }
+          },
+          {
+            "label": "Stimson et al. (2007)",
+            "citation_key": "stimson_diet_cortisol_2007",
+            "href": "/docs/papers/BRAIN-Diet-References#stimson_diet_cortisol_2007",
+            "doi": "10.1210/jc.2007-0692",
+            "canonical_reference": {
+              "author_year": "Stimson et al. (2007)",
+              "number": 32,
+              "anchor": "#pm-ref-32"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Two randomised dietary crossover studies in obese men: 17 ad libitum participants and six in an isocaloric comparison.",
+            "study_finding": "Diet altered whole-body cortisol regeneration and clearance, but subcutaneous adipose 11β-HSD1 mRNA and activity were unaffected.",
+            "directional_finding": "Diet altered whole-body cortisol regeneration and clearance, but subcutaneous adipose 11β-HSD1 mRNA and activity were unaffected.",
+            "assessment": {
+              "study": "Two randomised dietary crossover studies in obese men: 17 ad libitum participants and six in an isocaloric comparison.",
+              "population": "Two randomised dietary crossover studies in obese men: 17 ad libitum participants and six in an isocaloric comparison.",
+              "result": "Diet altered whole-body cortisol regeneration and clearance, but subcutaneous adipose 11β-HSD1 mRNA and activity were unaffected.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Diet altered whole-body cortisol regeneration and clearance, but subcutaneous adipose 11β-HSD1 mRNA and activity were unaffected.",
+              "limitations": "Four-week dietary exposures; no extrapolation to visceral depots, women, or a specific constituent.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1210/jc.2007-0692"
+            }
+          },
+          {
+            "label": "Tomlinson et al. (2004)",
+            "citation_key": "tomlinson_weight_loss_hsd1_2004",
+            "href": "/docs/papers/BRAIN-Diet-References#tomlinson_weight_loss_hsd1_2004",
+            "doi": "10.1210/jc.2003-031376",
+            "canonical_reference": {
+              "author_year": "Tomlinson et al. (2004)",
+              "number": 33,
+              "anchor": "#pm-ref-33"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Before/after ten-week very-low-calorie diet in 12 adults with obesity.",
+            "study_finding": "Adipocyte 11β-HSD1 mRNA increased after substantial weight loss.",
+            "directional_finding": "Adipocyte 11β-HSD1 mRNA increased after substantial weight loss.",
+            "assessment": {
+              "study": "Before/after ten-week very-low-calorie diet in 12 adults with obesity.",
+              "population": "Before/after ten-week very-low-calorie diet in 12 adults with obesity.",
+              "result": "Adipocyte 11β-HSD1 mRNA increased after substantial weight loss.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Adipocyte 11β-HSD1 mRNA increased after substantial weight loss.",
+              "limitations": "No randomised control for this before/after comparison; expression is not secretion, receptor sensitivity or measured local flux.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1210/jc.2003-031376"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "de Kloet & Herman (2018; online 2017)",
+            "citation_key": "de_kloet_fat_brain_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#de_kloet_fat_brain_2018",
+            "doi": "10.1016/j.yfrne.2017.10.005",
+            "canonical_reference": {
+              "author_year": "de Kloet & Herman (2018; online 2017)",
+              "number": 26,
+              "anchor": "#pm-ref-26"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          },
+          {
+            "label": "Scheja & Heeren (2019)",
+            "citation_key": "scheja_adipose_endocrine_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#scheja_adipose_endocrine_2019",
+            "doi": "10.1038/s41574-019-0230-6",
+            "canonical_reference": {
+              "author_year": "Scheja & Heeren (2019)",
+              "number": 27,
+              "anchor": "#pm-ref-27"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          }
+        ],
+        "sec_assessment_ref": {
+          "id": "brs6-pm8-pm8-f13-endocrine-assessment",
+          "version": 1,
+          "sha256": "7d68b4b32e71aa0c81547ac77b59b3b08dbd23447d386374ecac2829ee5b81d5"
+        }
+      },
+      {
+        "id": "PM8-F14",
+        "finding_label": "Adipocyte glucocorticoid-receptor reduction changes mouse stress feedback",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Reducing glucocorticoid-receptor expression in adiponectin-Cre mice increased restraint-related corticosterone responses and impaired dexamethasone feedback, without a detected baseline leptin or adiponectin difference.",
+        "finding_statement": "Reducing glucocorticoid-receptor expression in adiponectin-Cre mice increased restraint-related corticosterone responses and impaired dexamethasone feedback, without a detected baseline leptin or adiponectin difference.",
+        "finding_interpretation": "The genetic experiment supports a qualified contribution of adipocyte-enriched GR signalling to mouse stress feedback. The communicating signal was not identified; unchanged baseline adipokines do not establish an adipokine-mediated pathway. Human stress feedback through the same route remains unresolved.",
+        "synthesis": "The genetic experiment supports a qualified contribution of adipocyte-enriched GR signalling to mouse stress feedback. The communicating signal was not identified; unchanged baseline adipokines do not establish an adipokine-mediated pathway. Human stress feedback through the same route remains unresolved.",
+        "synthesis_limitations": "Genetic mouse model, incomplete and depot-variable knockdown, possible untested off-target sites, and developmental effects. Baseline hormone concentrations do not exclude dynamic secretion changes. No human dietary, cognitive or ADHD effect is established.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "de Kloet et al. (2015)",
+            "citation_key": "de_kloet_adipocyte_gr_2015",
+            "href": "/docs/papers/BRAIN-Diet-References#de_kloet_adipocyte_gr_2015",
+            "doi": "10.1016/j.psyneuen.2015.03.008",
+            "canonical_reference": {
+              "author_year": "de Kloet et al. (2015)",
+              "number": 25,
+              "anchor": "#pm-ref-25"
+            },
+            "data_level": "Animal Data",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Adiponectin-promoter Cre/lox GR knockdown and littermate controls; restraint, dexamethasone suppression, ACTH challenge, expression and circulating hormones.",
+            "study_finding": "Stress corticosterone increased and suppression was impaired; tested central/adrenal GR expression and adrenal ACTH responsiveness did not explain the result. Baseline leptin and adiponectin did not differ.",
+            "directional_finding": "Stress corticosterone increased and suppression was impaired; tested central/adrenal GR expression and adrenal ACTH responsiveness did not explain the result. Baseline leptin and adiponectin did not differ.",
+            "assessment": {
+              "study": "Adiponectin-promoter Cre/lox GR knockdown and littermate controls; restraint, dexamethasone suppression, ACTH challenge, expression and circulating hormones.",
+              "population": "Adiponectin-promoter Cre/lox GR knockdown and littermate controls; restraint, dexamethasone suppression, ACTH challenge, expression and circulating hormones.",
+              "result": "Stress corticosterone increased and suppression was impaired; tested central/adrenal GR expression and adrenal ACTH responsiveness did not explain the result. Baseline leptin and adiponectin did not differ.",
+              "effect_magnitude": "Male restraint AUC t(67)=4.614, p<0.01; dexamethasone experiment n=5/group. These are distinct comparisons, not independent replications.",
+              "evidence_summary": "Stress corticosterone increased and suppression was impaired; tested central/adrenal GR expression and adrenal ACTH responsiveness did not explain the result. Baseline leptin and adiponectin did not differ.",
+              "limitations": "Adiponectin-Cre specificity not exhaustive; knockdown varied by depot, mediator unresolved, and no human intervention.",
+              "retrieval_scope": "Scite complete body, Methods, Results, Discussion and figure captions",
+              "source_url": "https://doi.org/10.1016/j.psyneuen.2015.03.008"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "de Kloet & Herman (2018; online 2017)",
+            "citation_key": "de_kloet_fat_brain_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#de_kloet_fat_brain_2018",
+            "doi": "10.1016/j.yfrne.2017.10.005",
+            "canonical_reference": {
+              "author_year": "de Kloet & Herman (2018; online 2017)",
+              "number": 26,
+              "anchor": "#pm-ref-26"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          },
+          {
+            "label": "Tsuji & Tseng (2026)",
+            "citation_key": "tsuji_adipose_hub_2026",
+            "href": "/docs/papers/BRAIN-Diet-References#tsuji_adipose_hub_2026",
+            "doi": "10.1038/s41574-026-01265-6",
+            "canonical_reference": {
+              "author_year": "Tsuji & Tseng (2026)",
+              "number": 28,
+              "anchor": "#pm-ref-28"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          }
+        ],
+        "sec_assessment_ref": {
+          "id": "brs6-pm8-pm8-f14-endocrine-assessment",
+          "version": 1,
+          "sha256": "5193a25d1e269d34a7c9c68d67df7df2c8f7df884622fccf2c054ca7b84081cb"
+        }
+      },
+      {
+        "id": "PM8-F15",
+        "finding_label": "Diet and activity outcomes distinguish circulating hormones from local production",
+        "presentation": "mechanistic-basis",
+        "fm_rollup": false,
+        "finding_summary": "Dietary energy restriction and physical activity can change selected circulating adipokines or adipose transcripts, but these endpoints do not establish a uniform change in adipokine secretion or improved endocrine responsiveness.",
+        "finding_statement": "Dietary energy restriction and physical activity can change selected circulating adipokines or adipose transcripts, but these endpoints do not establish a uniform change in adipokine secretion or improved endocrine responsiveness.",
+        "finding_interpretation": "Alternate-day and daily energy restriction reduced circulating leptin without an adiponectin change in one randomised trial. POUNDS Lost reported increased circulating adiponectin over two years across diet groups. A small walking trial increased adipose adiponectin mRNA without a significant plasma increase. Duration, tissue measurement and circulating exposure must remain separate.",
+        "synthesis": "Alternate-day and daily energy restriction reduced circulating leptin without an adiponectin change in one randomised trial. POUNDS Lost reported increased circulating adiponectin over two years across diet groups. A small walking trial increased adipose adiponectin mRNA without a significant plasma increase. Duration, tissue measurement and circulating exposure must remain separate.",
+        "synthesis_limitations": "These trials do not directly quantify adipose secretion or receptor sensitivity. Lower leptin or higher adiponectin is not automatically a better endocrine state. Selected populations, adherence and weight change limit translation; no optimal universal protocol or brain outcome is established.",
+        "synthesised_evidence_confidence": "not-yet-scored",
+        "evidence_considered": [
+          {
+            "label": "Trepanowski et al. (2018; online 2017)",
+            "citation_key": "trepanowski_adipokines_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#trepanowski_adipokines_2018",
+            "doi": "10.1016/j.clnu.2017.11.018",
+            "canonical_reference": {
+              "author_year": "Trepanowski et al. (2018; online 2017)",
+              "number": 34,
+              "anchor": "#pm-ref-34"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Pre-planned secondary analysis of 100 adults randomised to alternate-day restriction, daily restriction or control for 24 weeks.",
+            "study_finding": "Leptin decreased in both restriction groups; circulating adiponectin, resistin, IL-6 and TNFα did not change relative to control.",
+            "directional_finding": "Leptin decreased in both restriction groups; circulating adiponectin, resistin, IL-6 and TNFα did not change relative to control.",
+            "assessment": {
+              "study": "Pre-planned secondary analysis of 100 adults randomised to alternate-day restriction, daily restriction or control for 24 weeks.",
+              "population": "Pre-planned secondary analysis of 100 adults randomised to alternate-day restriction, daily restriction or control for 24 weeks.",
+              "result": "Leptin decreased in both restriction groups; circulating adiponectin, resistin, IL-6 and TNFα did not change relative to control.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Leptin decreased in both restriction groups; circulating adiponectin, resistin, IL-6 and TNFα did not change relative to control.",
+              "limitations": "Secondary endpoints; circulating concentrations, not secretion or sensitivity. No superiority of alternate-day restriction.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1016/j.clnu.2017.11.018"
+            }
+          },
+          {
+            "label": "Ma et al. (2016)",
+            "citation_key": "ma_adiponectin_pounds_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#ma_adiponectin_pounds_2016",
+            "doi": "10.1210/jc.2016-1207",
+            "canonical_reference": {
+              "author_year": "Ma et al. (2016)",
+              "number": 35,
+              "anchor": "#pm-ref-35"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "POUNDS Lost: 768 participants with baseline adiponectin among 811 adults randomised to four weight-loss diets; six-month and two-year measurements.",
+            "study_finding": "Circulating adiponectin increased over two years without a significant difference between diet groups.",
+            "directional_finding": "Circulating adiponectin increased over two years without a significant difference between diet groups.",
+            "assessment": {
+              "study": "POUNDS Lost: 768 participants with baseline adiponectin among 811 adults randomised to four weight-loss diets; six-month and two-year measurements.",
+              "population": "POUNDS Lost: 768 participants with baseline adiponectin among 811 adults randomised to four weight-loss diets; six-month and two-year measurements.",
+              "result": "Circulating adiponectin increased over two years without a significant difference between diet groups.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Circulating adiponectin increased over two years without a significant difference between diet groups.",
+              "limitations": "No non-weight-loss control in this comparison; outcome associations do not prove adiponectin mediation or secretion change.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1210/jc.2016-1207"
+            }
+          },
+          {
+            "label": "Moghadasi et al. (2013; online 2011)",
+            "citation_key": "moghadasi_activity_adiponectin_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#moghadasi_activity_adiponectin_2013",
+            "doi": "10.1080/17461391.2011.635701",
+            "canonical_reference": {
+              "author_year": "Moghadasi et al. (2013; online 2011)",
+              "number": 37,
+              "anchor": "#pm-ref-37"
+            },
+            "data_level": "Human Study",
+            "evidence_source": "bounded-external-search",
+            "publication_class": "primary",
+            "study_exposure": "Sixteen overweight/obese middle-aged men with type 2 diabetes randomised to 12 weeks of walking activity or control.",
+            "study_finding": "Subcutaneous adiponectin mRNA increased but plasma adiponectin did not significantly change.",
+            "directional_finding": "Subcutaneous adiponectin mRNA increased but plasma adiponectin did not significantly change.",
+            "assessment": {
+              "study": "Sixteen overweight/obese middle-aged men with type 2 diabetes randomised to 12 weeks of walking activity or control.",
+              "population": "Sixteen overweight/obese middle-aged men with type 2 diabetes randomised to 12 weeks of walking activity or control.",
+              "result": "Subcutaneous adiponectin mRNA increased but plasma adiponectin did not significantly change.",
+              "effect_magnitude": "Direction and endpoint retained; no unverified effect size or uncertainty estimate supplied.",
+              "evidence_summary": "Subcutaneous adiponectin mRNA increased but plasma adiponectin did not significantly change.",
+              "limitations": "Eight participants per group; mRNA is not protein secretion. This does not establish an endocrine optimisation protocol for all adults.",
+              "retrieval_scope": "Primary abstract/metadata; accessible journal excerpts where available. Complete methods and numerical tables not independently recovered.",
+              "source_url": "https://doi.org/10.1080/17461391.2011.635701"
+            }
+          }
+        ],
+        "connected_supportive_evidence": [
+          {
+            "label": "Scheja & Heeren (2019)",
+            "citation_key": "scheja_adipose_endocrine_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#scheja_adipose_endocrine_2019",
+            "doi": "10.1038/s41574-019-0230-6",
+            "canonical_reference": {
+              "author_year": "Scheja & Heeren (2019)",
+              "number": 27,
+              "anchor": "#pm-ref-27"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          },
+          {
+            "label": "Tsuji & Tseng (2026)",
+            "citation_key": "tsuji_adipose_hub_2026",
+            "href": "/docs/papers/BRAIN-Diet-References#tsuji_adipose_hub_2026",
+            "doi": "10.1038/s41574-026-01265-6",
+            "canonical_reference": {
+              "author_year": "Tsuji & Tseng (2026)",
+              "number": 28,
+              "anchor": "#pm-ref-28"
+            },
+            "data_level": "Review",
+            "why_relevant": "Secondary synthesis informs endocrine scope and discovery of primary evidence.",
+            "why_excluded": "Not an independent primary replication or evidence of dietary effectiveness."
+          }
+        ],
+        "sec_assessment_ref": {
+          "id": "brs6-pm8-pm8-f15-endocrine-assessment",
+          "version": 1,
+          "sha256": "c49162b8d19e5419f60c87b880b326e94b4070e3e824466ca4ecd9e52ce00a36"
+        }
+      }
+    ],
+    "dietary_input_traceability": [],
+    "dietary_lever_atoms": [],
+    "dietary_lever_presentations": [],
+    "pending_actions": [],
+    "system_optimisation_practices": [],
+    "lifestyle_priorities": [],
+    "pm_kc_relationships": [],
+    "kc_applicability_adjudications": [],
+    "kc_distinctness_review": [],
+    "pm_lever_layout": "principal-after-mission",
+    "intervention_dominance_assessment": {
+      "evidence_qualification": {
+        "label": "Not established",
+        "rationale": "No mission-wide principal intervention route established. Direct local endocrine measurements are distinguished from plasma, transcript, VAT and inflammatory endpoints.",
+        "routes": []
+      },
+      "principal_route_selection": {
+        "disposition": "not-established",
+        "selected_groups": [],
+        "rationale": "Candidate-specific dietary, pharmacological, activity and sleep evidence assessed; no comparative or mission-wide endocrine optimisation route admitted.",
+        "assessments": []
+      }
+    },
+    "scientific_findings_intro": "Human tissue, local cortisol and mouse stress-feedback evidence address distinct endocrine operations. Intervention measurements do not establish a single adipokine–glucocorticoid–brain causal chain.",
+    "sidebar_label": "BRS6-4-8 — Adipose Endocrine Regulation",
+    "scientific_reconstruction_history": [
+      {
+        "version": 1,
+        "date": "2026-10-26",
+        "decision": "Approved endocrine mission reconstruction; previous scope preserved without transferring evidential or intervention admission status.",
+        "previous_title": "Metabolic Inflammation & Adipose Stress Signalling",
+        "previous_mission": "Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is not overloaded.",
+        "source_snapshot": "review/brs6-fm4-reconstruction-2026-10-26/before/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+        "records": {
+          "scientific_findings": [
+            {
+              "id": "PM8-F1",
+              "finding_label": "Weight loss changes adipose biology in stages",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Moderate weight loss improved insulin action before the measured adipose inflammatory markers declined.",
+              "finding_statement": "Moderate weight loss improved insulin action before the measured adipose inflammatory markers declined.",
+              "finding_interpretation": "Early metabolic improvement did not require a detectable reduction in the measured subcutaneous inflammatory markers; greater losses were accompanied by further tissue changes.",
+              "synthesis": "Early metabolic improvement did not require a detectable reduction in the measured subcutaneous inflammatory markers; greater losses were accompanied by further tissue changes.",
+              "synthesis_limitations": "Later progressive-loss comparisons involved nine participants and were not independently randomized; other depots and unmeasured inflammatory processes remain uncertain.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Magkos et al. (2016)",
+                  "citation_key": "magkos_weight_loss_adipose_2016",
+                  "href": "/docs/papers/BRAIN-Diet-References#magkos_weight_loss_adipose_2016",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "dietary-protocol",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+                  "study_exposure": "Weight maintenance versus initial 5% diet-induced loss; later approximately 11% and 16% loss with abdominal subcutaneous biopsy and tracer/clamp measurements.",
+                  "study_finding": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+                  "assessment": {
+                    "study": "Weight maintenance versus initial 5% diet-induced loss; later approximately 11% and 16% loss with abdominal subcutaneous biopsy and tracer/clamp measurements.",
+                    "population": "40 adults with obesity and insulin resistance randomized; 33 completed the initial comparison and nine continued progressive loss.",
+                    "result": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+                    "effect_magnitude": "Actual losses 5.1%, 10.8% and 16.4%; no pooled inflammatory effect or universal threshold estimated.",
+                    "evidence_summary": "At 5% loss insulin sensitivity improved without reduced measured systemic or subcutaneous inflammation; greater loss altered oxidative-stress, matrix and inflammatory pathways.",
+                    "limitations": "Attrition and selected later subgroup; endpoint timing and depot specificity prevent universal mediation claims.",
+                    "retrieval_scope": "Primary full text: Methods, Results, Tables 1–4, tissue expression results and Discussion.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4833627/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": [
+                {
+                  "label": "Mohammad & Thiemermann (2021)",
+                  "citation_key": "mohammad_role_2021",
+                  "href": "/docs/papers/BRAIN-Diet-References#mohammad_role_2021",
+                  "why_relevant": "Reviews a possible gut LPS/TLR4 route into metabolic inflammation.",
+                  "why_excluded": "Review evidence and endotoxin assay limitations do not isolate a food-to-adipose intervention; the route is contextual."
+                },
+                {
+                  "label": "Cazzola et al. (2024)",
+                  "citation_key": "cazzola_magnesium_2024",
+                  "href": "/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024",
+                  "why_relevant": "Review of magnesium and adipose stress; primary candidate follow-up is assessed in PM8-F8.",
+                  "why_excluded": "Not an independent experiment or evidence that extra dietary magnesium reduces human adipose inflammation."
+                },
+                {
+                  "label": "Di Girolamo et al. (2022)",
+                  "citation_key": "di_girolamo_prevalence_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022",
+                  "why_relevant": "Provides clinical metabolic-comorbidity context rather than an adipose intervention.",
+                  "why_excluded": "Does not measure a dietary intervention on adipose stress or establish a PM-to-Phenome causal relationship."
+                },
+                {
+                  "label": "Marcelli et al. (2025)",
+                  "citation_key": "marcelli_bridging_2025",
+                  "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025",
+                  "why_relevant": "Provides clinical metabolic-comorbidity context rather than an adipose intervention.",
+                  "why_excluded": "Does not measure a dietary intervention on adipose stress or establish a PM-to-Phenome causal relationship."
+                }
+              ]
+            },
+            {
+              "id": "PM8-F2",
+              "finding_label": "Blood-cell cytokines do not identify an adipose source",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "EPA-rich supplementation lowered stimulated immune-cell IL-6 production in medical students.",
+              "finding_statement": "EPA-rich supplementation lowered stimulated immune-cell IL-6 production in medical students.",
+              "finding_interpretation": "This source supports an immune-cell effect, while adipose-specific evidence is assessed separately in PM8-F6.",
+              "synthesis": "This source supports an immune-cell effect, while adipose-specific evidence is assessed separately in PM8-F6.",
+              "synthesis_limitations": "No adipose biopsy or adipose-specific endpoint; anxiety results cannot be attributed to adipose mediation.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Kiecolt-Glaser et al. (2011)",
+                  "citation_key": "kiecolt-glaser_omega-3_2011",
+                  "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+                  "data_level": "Human Study",
+                  "exposure_context": "supplemental-formulation",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Stimulated IL-6 production was lower in the supplement group.",
+                  "study_exposure": "Double-blind 12-week randomized comparison of 2.5 g/day omega-3 supplement (2085 mg EPA and 348 mg DHA) versus placebo.",
+                  "study_finding": "Stimulated IL-6 production was lower in the supplement group.",
+                  "assessment": {
+                    "study": "Double-blind 12-week randomized comparison of 2.5 g/day omega-3 supplement (2085 mg EPA and 348 mg DHA) versus placebo.",
+                    "population": "68 medical students.",
+                    "result": "Stimulated IL-6 production was lower in the supplement group.",
+                    "effect_magnitude": "14% lower LPS-stimulated IL-6 production versus controls.",
+                    "evidence_summary": "Stimulated IL-6 production was lower in the supplement group.",
+                    "limitations": "A peripheral immune-cell assay cannot locate inflammation in adipose tissue.",
+                    "retrieval_scope": "Primary full-text abstract, exposure and outcome definitions.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3191260/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F3",
+              "finding_label": "A defined green Mediterranean pattern reduced visceral fat",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "The green Mediterranean diet package reduced MRI-measured visceral fat more than the comparison diets in DIRECT-PLUS.",
+              "finding_statement": "The green Mediterranean diet package reduced MRI-measured visceral fat more than the comparison diets in DIRECT-PLUS.",
+              "finding_interpretation": "The pattern is a dietary target for visceral adiposity; its individual foods remain candidates for component-specific testing. Related circulating-protein changes strengthen relevance to metabolic inflammation without proving adipose mediation.",
+              "synthesis": "The pattern is a dietary target for visceral adiposity; its individual foods remain candidates for component-specific testing. Related circulating-protein changes strengthen relevance to metabolic inflammation without proving adipose mediation.",
+              "synthesis_limitations": "One predominantly male workplace cohort; the foods were not independently randomized, fat volume is not a biopsy of inflammation, and the protein analysis is not independent replication.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Zelicha et al. (2022)",
+                  "citation_key": "zelicha_effect_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+                  "data_level": "Human Study",
+                  "exposure_context": "dietary-pattern",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Green-MED produced greater visceral-fat reduction.",
+                  "study_exposure": "18-month healthy dietary guidance, Mediterranean or green-Mediterranean programme, all with physical activity; both MED groups received 28 g/day walnuts; green-MED added 3–4 cups/day green tea, 100 g/day frozen Mankai and reduced red/processed meat.",
+                  "study_finding": "Green-MED produced greater visceral-fat reduction.",
+                  "assessment": {
+                    "study": "18-month healthy dietary guidance, Mediterranean or green-Mediterranean programme, all with physical activity; both MED groups received 28 g/day walnuts; green-MED added 3–4 cups/day green tea, 100 g/day frozen Mankai and reduced red/processed meat.",
+                    "population": "294 randomized adults with abdominal obesity/dyslipidaemia; 88% men; 79.3% had eligible follow-up MRI.",
+                    "result": "Green-MED produced greater visceral-fat reduction.",
+                    "effect_magnitude": "VAT change −14.1% green-MED, −6.0% MED, −4.2% guidance; weight-adjusted green-MED versus MED p=0.042, versus guidance p=0.07.",
+                    "evidence_summary": "Green-MED produced greater visceral-fat reduction.",
+                    "limitations": "Open-label package, incomplete MRI follow-up and post-randomization adjustment; no isolated food attribution or adipose inflammatory mediation.",
+                    "retrieval_scope": "Primary full text: allocation, exposures, MRI, results and adjusted comparisons; funding includes California Walnuts Commission.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9523931/"
+                  }
+                },
+                {
+                  "label": "Zelicha et al. (2024)",
+                  "citation_key": "zelicha_proteome_2024",
+                  "href": "/docs/papers/BRAIN-Diet-References#zelicha_proteome_2024",
+                  "data_level": "Human Study",
+                  "exposure_context": "dietary-pattern",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+                  "study_exposure": "Olink circulating-protein panels across the dietary intervention.",
+                  "study_finding": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+                  "assessment": {
+                    "study": "Olink circulating-protein panels across the dietary intervention.",
+                    "population": "DIRECT-PLUS participants: the same randomized cohort as the 2022 VAT report.",
+                    "result": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+                    "effect_magnitude": "Reported adjusted p<0.05 for selected protein changes; no tissue-specific mediated effect quantified.",
+                    "evidence_summary": "MED diets changed inflammation-related circulating proteins; green-MED showed more pronounced changes, with protein-cluster changes correlated with VAT reduction.",
+                    "limitations": "Secondary proteomics, multiplicity and same-cohort dependency; circulating proteins do not establish adipose origin.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/38757229/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": [
+                {
+                  "label": "Willmann et al. (2019)",
+                  "citation_key": "willmann_red_meat_fibre_2019",
+                  "href": "/docs/papers/BRAIN-Diet-References#willmann_red_meat_fibre_2019",
+                  "why_relevant": "A separate six-month randomized dietary study compared reduced red meat and increased fibre within calorie restriction; visceral fat fell in all groups.",
+                  "why_excluded": "No additional cardiometabolic advantage of the food changes was established in that context; it does not isolate which green-MED component explains its package result."
+                },
+                {
+                  "label": "Park et al. (2014)",
+                  "citation_key": "park_pomegranate_vinegar_2014",
+                  "href": "/docs/papers/BRAIN-Diet-References#park_pomegranate_vinegar_2014",
+                  "why_relevant": "A different pomegranate-vinegar formulation showed a preliminary CT-measured visceral-fat signal in overweight women.",
+                  "why_excluded": "Publisher-indexed abstract/result only was recovered; this is a vinegar-plus-extract formulation, not pomegranate fruit or a DIRECT-PLUS intervention. Independent efficacy and formulation details remain unresolved."
+                }
+              ],
+              "evidence_dependency": [
+                "The 2022 VAT and 2024 proteome publications analyse DIRECT-PLUS (NCT03020186); count one intervention cohort, not two replications. PM8-F4 reuses the 2022 study for component attribution, not an independent food trial."
+              ]
+            },
+            {
+              "id": "PM8-F4",
+              "finding_label": "Walnut-specific visceral-fat effects remain uncertain",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "The green-MED trial identifies walnuts as a food candidate, but does not isolate a walnut-specific effect on visceral fat.",
+              "finding_statement": "The green-MED trial identifies walnuts as a food candidate, but does not isolate a walnut-specific effect on visceral fat.",
+              "finding_interpretation": "A separate walnut trial was null for visceral fat. A newer walnut-based low-carbohydrate trial reported a favourable change interaction, but changed macronutrients as well; component causality remains unresolved.",
+              "synthesis": "A separate walnut trial was null for visceral fat. A newer walnut-based low-carbohydrate trial reported a favourable change interaction, but changed macronutrients as well; component causality remains unresolved.",
+              "synthesis_limitations": "Different diet packages, fat measurement methods and statistical contrasts cannot establish a stand-alone walnut dose or identify ellagitannins as the active ingredient.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Njike et al. (2015)",
+                  "citation_key": "njike_walnut_body_composition_2015",
+                  "href": "/docs/papers/BRAIN-Diet-References#njike_walnut_body_composition_2015",
+                  "data_level": "Human Study",
+                  "exposure_context": "whole-food",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "No significant effect on visceral fat or the reported anthropometric measures.",
+                  "study_exposure": "Randomized walnut-included (56 g/day) and walnut-excluded dietary periods of six months, with or without calorie-adjustment advice.",
+                  "study_finding": "No significant effect on visceral fat or the reported anthropometric measures.",
+                  "assessment": {
+                    "study": "Randomized walnut-included (56 g/day) and walnut-excluded dietary periods of six months, with or without calorie-adjustment advice.",
+                    "population": "112 adults at risk for diabetes.",
+                    "result": "No significant effect on visceral fat or the reported anthropometric measures.",
+                    "effect_magnitude": "No significant visceral-fat difference; a precise interval for this endpoint was not recovered.",
+                    "evidence_summary": "No significant effect on visceral fat or the reported anthropometric measures.",
+                    "limitations": "Null result bounds an efficacy claim; it is not proof that every walnut substitution has no effect.",
+                    "retrieval_scope": "Primary journal abstract/results and body-composition findings.",
+                    "source_url": "https://drc.bmj.com/content/3/1/e000115"
+                  }
+                },
+                {
+                  "label": "Dong et al. (2026)",
+                  "citation_key": "dong_walnut_low_carbohydrate_2026",
+                  "href": "/docs/papers/BRAIN-Diet-References#dong_walnut_low_carbohydrate_2026",
+                  "data_level": "Human Study",
+                  "exposure_context": "dietary-pattern",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+                  "study_exposure": "12-week randomized walnut-based low-carbohydrate versus high-carbohydrate low-fat diet; 150 g/day refers to replaced staple food, not walnut dose.",
+                  "study_finding": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+                  "assessment": {
+                    "study": "12-week randomized walnut-based low-carbohydrate versus high-carbohydrate low-fat diet; 150 g/day refers to replaced staple food, not walnut dose.",
+                    "population": "Adults with central obesity; exact sample and walnut gram dose not independently recovered in this assessment.",
+                    "result": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+                    "effect_magnitude": "VFA interaction p=0.014; no significant between-group VFA difference at week 12.",
+                    "evidence_summary": "VFA group-by-time interaction favoured the walnut-based diet; endpoint group comparison was nonsignificant.",
+                    "limitations": "Abstract-only recovery; combined macronutrient substitution prevents attribution to walnuts alone.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/42815962/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": [
+                {
+                  "label": "Zelicha et al. (2022)",
+                  "citation_key": "zelicha_effect_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+                  "why_relevant": "Walnuts were supplied to both MED groups, and intake was associated with VAT loss.",
+                  "why_excluded": "The food association is not an independently randomized walnut effect; the package result is assessed in PM8-F3."
+                }
+              ],
+              "evidence_dependency": [
+                "DIRECT-PLUS component associations reuse PM8-F3 evidence; Njike and Dong are separate trials, but test different exposures."
+              ]
+            },
+            {
+              "id": "PM8-F5",
+              "finding_label": "Tea beverage results depend on formulation",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Some catechin-enriched tea beverages reduced visceral fat, while a newer catechin-plus-inulin beverage did not.",
+              "finding_statement": "Some catechin-enriched tea beverages reduced visceral fat, while a newer catechin-plus-inulin beverage did not.",
+              "finding_interpretation": "Green tea is a reasonable component to test, with evidence tied to the actual beverage and comparator. Ordinary brewed tea, catechin-enriched products and combined formulations are not equivalent exposures.",
+              "synthesis": "Green tea is a reasonable component to test, with evidence tied to the actual beverage and comparator. Ordinary brewed tea, catechin-enriched products and combined formulations are not equivalent exposures.",
+              "synthesis_limitations": "The positive and null trials differ in formulation, population and fat assessment; neither isolates adipose inflammatory signalling or proves a general brewed-tea effect.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Nagao et al. (2007)",
+                  "citation_key": "nagao_catechin_adiposity_2007",
+                  "href": "/docs/papers/BRAIN-Diet-References#nagao_catechin_adiposity_2007",
+                  "data_level": "Human Study",
+                  "exposure_context": "catechin-enriched-beverage",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+                  "study_exposure": "12-week double-blind comparison of tea beverages with 583 versus 96 mg catechins/day, maintaining usual diet/activity.",
+                  "study_finding": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+                  "assessment": {
+                    "study": "12-week double-blind comparison of tea beverages with 583 versus 96 mg catechins/day, maintaining usual diet/activity.",
+                    "population": "Japanese adults with visceral-fat-type obesity; 240 per-protocol participants.",
+                    "result": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+                    "effect_magnitude": "Direction significant as reported; precise between-group VAT estimate and interval not recovered.",
+                    "evidence_summary": "The higher-catechin group had greater reductions in visceral and subcutaneous fat area.",
+                    "limitations": "Per-protocol analysis, enriched beverage and manufacturer affiliation limit transfer to ordinary brewed tea.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/17557985/"
+                  }
+                },
+                {
+                  "label": "Iino et al. (2026)",
+                  "citation_key": "iino_catechin_inulin_2026",
+                  "href": "/docs/papers/BRAIN-Diet-References#iino_catechin_inulin_2026",
+                  "data_level": "Human Study",
+                  "exposure_context": "combination-formulation",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+                  "study_exposure": "12-week double-blind placebo-controlled catechin 400 mg/day plus inulin 2.3 g/day beverage.",
+                  "study_finding": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+                  "assessment": {
+                    "study": "12-week double-blind placebo-controlled catechin 400 mg/day plus inulin 2.3 g/day beverage.",
+                    "population": "96 randomized Japanese adults with visceral obesity; 91 in primary full-analysis set.",
+                    "result": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+                    "effect_magnitude": "VFA change +0.91 versus +4.61 cm²; p=0.243.",
+                    "evidence_summary": "Visceral-fat area did not differ significantly, despite an improvement in HOMA-IR.",
+                    "limitations": "Combined formulation and bioimpedance VFA; neither positive insulin result nor null fat result isolates tea alone.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41830022/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F6",
+              "finding_label": "Marine omega-3 tissue effects vary with context",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Marine omega-3 formulations can change adipose inflammatory endpoints, but effects differ across populations and assays.",
+              "finding_statement": "Marine omega-3 formulations can change adipose inflammatory endpoints, but effects differ across populations and assays.",
+              "finding_interpretation": "Biopsy evidence is mixed: Spencer found lower macrophage/MCP-1 endpoints, Hames did not replicate a tissue inflammatory benefit despite EPA/DHA incorporation, and Fisk found limited responses in obesity. A conditional formulation-specific practice remains provisional rather than a reliable general treatment.",
+              "synthesis": "Biopsy evidence is mixed: Spencer found lower macrophage/MCP-1 endpoints, Hames did not replicate a tissue inflammatory benefit despite EPA/DHA incorporation, and Fisk found limited responses in obesity. A conditional formulation-specific practice remains provisional rather than a reliable general treatment.",
+              "synthesis_limitations": "Doses, baseline metabolic state, depot and assays differ; tissue target engagement does not establish improved insulin sensitivity or an ordinary-food equivalent.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Spencer et al. (2013)",
+                  "citation_key": "spencer_omega3_adipose_2013",
+                  "href": "/docs/papers/BRAIN-Diet-References#spencer_omega3_adipose_2013",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "supplemental-formulation",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+                  "study_exposure": "12-week placebo-controlled 4 g/day omega-3-acid ethyl ester formulation with adipose biopsies.",
+                  "study_finding": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+                  "assessment": {
+                    "study": "12-week placebo-controlled 4 g/day omega-3-acid ethyl ester formulation with adipose biopsies.",
+                    "population": "Insulin-resistant adults without diabetes.",
+                    "result": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+                    "effect_magnitude": "Reported direction; no harmonized between-trial tissue effect estimate calculated.",
+                    "evidence_summary": "Adipose macrophages and MCP-1 decreased; capillaries increased; insulin sensitivity did not change.",
+                    "limitations": "Selected population and high-dose ethyl ester formulation; no isolated EPA versus DHA effect.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/23328126/"
+                  }
+                },
+                {
+                  "label": "Fisk et al. (2022)",
+                  "citation_key": "fisk_omega3_adipose_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#fisk_omega3_adipose_2022",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "supplemental-formulation",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+                  "study_exposure": "12-week double-blind fish-oil concentrate (1.1 g EPA + 0.8 g DHA/day) versus corn oil with subcutaneous biopsies.",
+                  "study_finding": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+                  "assessment": {
+                    "study": "12-week double-blind fish-oil concentrate (1.1 g EPA + 0.8 g DHA/day) versus corn oil with subcutaneous biopsies.",
+                    "population": "45 adults with obesity and 39 normal-weight adults.",
+                    "result": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+                    "effect_magnitude": "No common pooled estimate; results are endpoint- and population-specific.",
+                    "evidence_summary": "Inflammatory transcriptome and oxylipin responses were more limited in participants with obesity.",
+                    "limitations": "Cross-population baseline differences and molecular endpoints prevent a uniform efficacy claim.",
+                    "retrieval_scope": "Indexed primary full-text Summary, Methods and population characteristics; detailed transcript/oxylipin tables not reanalysed.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8894262/"
+                  }
+                },
+                {
+                  "label": "Hames et al. (2017)",
+                  "citation_key": "hames_omega3_adipose_null_2017",
+                  "href": "/docs/papers/BRAIN-Diet-References#hames_omega3_adipose_null_2017",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "supplemental-formulation",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "EPA/DHA incorporation increased, without improved measured adipose inflammation or insulin regulation of lipolysis.",
+                  "study_exposure": "Six-month randomized double-blind omega-3 formulation versus oleate placebo.",
+                  "study_finding": "No measured tissue benefit despite increased EPA/DHA content.",
+                  "assessment": {
+                    "study": "Six-month double-blind placebo-controlled trial; 3.9 g/day EPA+DHA (4.2 g total omega-3) versus 4.2 g/day oleate.",
+                    "population": "Insulin-resistant adults with overweight or obesity; 12 supplement and nine placebo completers in the adipose substudy.",
+                    "result": "Adipose EPA/DHA increased, but macrophage content, crown-like structures, senescent cells and insulin regulation of lipolysis did not improve.",
+                    "effect_magnitude": "CD68 macrophages 31 to 33 per 100 adipocytes with omega-3 versus 33 to 31 with placebo; interaction p=0.25; lipolysis suppression interaction p=0.11.",
+                    "evidence_summary": "Tissue delivery was demonstrated without the expected inflammatory or lipolytic benefit.",
+                    "limitations": "Small completer substudy, baseline phenotype differences and subcutaneous-only sampling; not proof of no effect in every metabolic context.",
+                    "retrieval_scope": "Primary full-text Methods, Results, Tables 1–2 and Discussion.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5445674/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F7",
+              "finding_label": "Adipose stress includes immune and oxidative processes",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Adipose expansion is associated with macrophage inflammatory activity, while acute overnutrition can impair metabolism before measured cytokines rise.",
+              "finding_statement": "Adipose expansion is associated with macrophage inflammatory activity, while acute overnutrition can impair metabolism before measured cytokines rise.",
+              "finding_interpretation": "Macrophage recruitment and oxidative stress provide complementary biological routes; reducing fat mass or a blood cytokine cannot be treated as a complete assay of either route.",
+              "synthesis": "Macrophage recruitment and oxidative stress provide complementary biological routes; reducing fat mass or a blood cytokine cannot be treated as a complete assay of either route.",
+              "synthesis_limitations": "Human macrophage evidence includes observational associations; extreme acute overfeeding in six men is not an ordinary-diet experiment or proof of a universal sequence.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Weisberg et al. (2003)",
+                  "citation_key": "weisberg_adipose_macrophages_2003",
+                  "href": "/docs/papers/BRAIN-Diet-References#weisberg_adipose_macrophages_2003",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "tissue-and-animal-mechanistic",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+                  "study_exposure": "Expression profiling, histology and cell-fraction analyses across adiposity.",
+                  "study_finding": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+                  "assessment": {
+                    "study": "Expression profiling, histology and cell-fraction analyses across adiposity.",
+                    "population": "Mouse obesity models and human subcutaneous adipose samples.",
+                    "result": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+                    "effect_magnitude": "Directional histological and molecular evidence; no dietary effect size inferred.",
+                    "evidence_summary": "Adipocyte size and adiposity tracked macrophage accumulation; macrophages contributed inflammatory gene expression.",
+                    "limitations": "Mixed species; human associations do not prove macrophage mediation in every obesity phenotype.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/14679176/"
+                  }
+                },
+                {
+                  "label": "Boden et al. (2015)",
+                  "citation_key": "boden_overnutrition_oxidative_2015",
+                  "href": "/docs/papers/BRAIN-Diet-References#boden_overnutrition_oxidative_2015",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "experimental-overfeeding",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+                  "study_exposure": "Short-term extreme overfeeding at about 2–2.5 times habitual calories with adipose and metabolic measures.",
+                  "study_finding": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+                  "assessment": {
+                    "study": "Short-term extreme overfeeding at about 2–2.5 times habitual calories with adipose and metabolic measures.",
+                    "population": "Six healthy non-obese men.",
+                    "result": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+                    "effect_magnitude": "Mechanistic direction retained; no usual-diet dose or food-specific estimate.",
+                    "evidence_summary": "Oxidative stress and insulin resistance developed without initial increases in the measured inflammatory cytokines.",
+                    "limitations": "Small acute challenge with major energy excess; oxidative association does not establish every causal step.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5600191/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F8",
+              "finding_label": "Magnesium is a research candidate with context-dependent adipose effects",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "A simple claim that more magnesium reduces adipose stress is not established by the assessed evidence.",
+              "finding_statement": "A simple claim that more magnesium reduces adipose stress is not established by the assessed evidence.",
+              "finding_interpretation": "The attached review motivates investigation; primary mouse data show that low-magnesium exposure can reduce fat accumulation while raising circulating lipids. This challenges a simple adiposity-as-benefit interpretation.",
+              "synthesis": "The attached review motivates investigation; primary mouse data show that low-magnesium exposure can reduce fat accumulation while raising circulating lipids. This challenges a simple adiposity-as-benefit interpretation.",
+              "synthesis_limitations": "Mouse deficiency is not a human dietary strategy; a PM8-specific human dependency or tissue benefit remains unresolved after targeted retrieval.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Kurstjens et al. (2018)",
+                  "citation_key": "kurstjens_magnesium_adipose_2018",
+                  "href": "/docs/papers/BRAIN-Diet-References#kurstjens_magnesium_adipose_2018",
+                  "data_level": "Animal Data",
+                  "exposure_context": "dietary-deficiency",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+                  "study_exposure": "17-week low- versus normal-magnesium diets crossed with low- or high-fat feeding.",
+                  "study_finding": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+                  "assessment": {
+                    "study": "17-week low- versus normal-magnesium diets crossed with low- or high-fat feeding.",
+                    "population": "Male mice, approximately 12 per diet group, plus a replication experiment.",
+                    "result": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+                    "effect_magnitude": "High-fat group body weights approximately 47.0 versus 38.6 g, normal versus low magnesium; p<0.05.",
+                    "evidence_summary": "Low magnesium reduced high-fat-induced obesity and altered adipose lipolysis, while blood lipids remained high.",
+                    "limitations": "Animal-only severe deficiency, not a human adequacy comparison; smaller fat mass is not proof of healthier adipose signalling.",
+                    "retrieval_scope": "Primary full-text Abstract, Methods, Results and lipid/adipose outcomes.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6096631/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": [
+                {
+                  "label": "Cazzola et al. (2024)",
+                  "citation_key": "cazzola_magnesium_2024",
+                  "href": "/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024",
+                  "why_relevant": "Attached narrative review covers magnesium, oxidative stress and adipose physiology.",
+                  "why_excluded": "Review is a discovery source; its qualitative biology does not establish human PM8 dietary efficacy."
+                }
+              ]
+            },
+            {
+              "id": "PM8-F9",
+              "finding_label": "Exercise can remodel adipose tissue without weight loss",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Exercise training altered subcutaneous adipose structure without weight loss in adults with obesity.",
+              "finding_statement": "Exercise training altered subcutaneous adipose structure without weight loss in adults with obesity.",
+              "finding_interpretation": "Regular activity is relevant to adipose remodelling, but the observed signalling changes are not a blanket reduction in inflammation or proof that one training intensity is superior.",
+              "synthesis": "Regular activity is relevant to adipose remodelling, but the observed signalling changes are not a blanket reduction in inflammation or proof that one training intensity is superior.",
+              "synthesis_limitations": "Counterbalanced allocation between two exercise programmes, no sedentary control and several transient responses limit causal and durability claims.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Ahn et al. (2022)",
+                  "citation_key": "ahn_exercise_adipose_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#ahn_exercise_adipose_2022",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "exercise-training",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+                  "study_exposure": "12-week continuous moderate-intensity or interval training, four days/week; weight maintained; biopsies one and four days after final session.",
+                  "study_finding": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+                  "assessment": {
+                    "study": "12-week continuous moderate-intensity or interval training, four days/week; weight maintained; biopsies one and four days after final session.",
+                    "population": "36 adults with obesity.",
+                    "result": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+                    "effect_magnitude": "No meaningful superiority between training modes reported; no pooled anti-inflammatory effect inferred.",
+                    "evidence_summary": "Adipocyte size, matrix and capillarization changed; several molecular responses reversed after four days.",
+                    "limitations": "Allocation was counterbalanced, not described as randomized; transient signalling is not sustained suppression.",
+                    "retrieval_scope": "Primary indexed Methods, allocation and Discussion recovered.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9058215/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F10",
+              "finding_label": "Sleep restriction can promote visceral-fat accumulation",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Severe sleep restriction increased visceral fat during a controlled experiment with freely available food.",
+              "finding_statement": "Severe sleep restriction increased visceral fat during a controlled experiment with freely available food.",
+              "finding_interpretation": "Avoiding repeated severe sleep loss is relevant to adipose load. This experiment does not establish that sleep extension reverses established adipose inflammation.",
+              "synthesis": "Avoiding repeated severe sleep loss is relevant to adipose load. This experiment does not establish that sleep extension reverses established adipose inflammation.",
+              "synthesis_limitations": "Small young, predominantly male sample, severe imposed restriction and ad-libitum intake; no adipose inflammatory biopsy.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Covassin et al. (2022)",
+                  "citation_key": "covassin_sleep_visceral_2022",
+                  "href": "/docs/papers/BRAIN-Diet-References#covassin_sleep_visceral_2022",
+                  "data_level": "Human Study",
+                  "exposure_context": "sleep-restriction",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+                  "study_exposure": "Randomized inpatient crossover, 14 days of four- versus nine-hour sleep opportunity within 21-day periods.",
+                  "study_finding": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+                  "assessment": {
+                    "study": "Randomized inpatient crossover, 14 days of four- versus nine-hour sleep opportunity within 21-day periods.",
+                    "population": "12 healthy non-obese adults, nine men, aged 19–39.",
+                    "result": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+                    "effect_magnitude": "About 11% VAT accumulation and approximately 308 kcal/day greater intake versus control.",
+                    "evidence_summary": "Sleep restriction increased energy intake and abdominal visceral-fat accumulation.",
+                    "limitations": "Sleep loss and increased intake act together; not a calorie-matched or sleep-extension reversal trial.",
+                    "retrieval_scope": "Primary journal Methods, Discussion and central illustration.",
+                    "source_url": "https://www.jacc.org/doi/10.1016/j.jacc.2022.01.038"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            },
+            {
+              "id": "PM8-F11",
+              "finding_label": "Time-restricted eating has context-specific adipose findings",
+              "presentation": "mechanistic-basis",
+              "fm_rollup": false,
+              "finding_summary": "Time-restricted eating showed exploratory adipose pathway changes in TREAD, but another trial found no extra visceral-fat reduction over Mediterranean-diet education.",
+              "finding_statement": "Time-restricted eating showed exploratory adipose pathway changes in TREAD, but another trial found no extra visceral-fat reduction over Mediterranean-diet education.",
+              "finding_interpretation": "The 10-hour protocol is a provisional practice for adults with obesity and long baseline eating windows; its tissue mechanism remains exploratory.",
+              "synthesis": "The 10-hour protocol is a provisional practice for adults with obesity and long baseline eating windows; its tissue mechanism remains exploratory.",
+              "synthesis_limitations": "TREAD selected the greatest weight losers for RNA-seq, and fat endpoints and populations differed across trials; timing-independent anti-inflammatory benefit is unproven.",
+              "synthesised_evidence_confidence": "not-yet-scored",
+              "evidence_considered": [
+                {
+                  "label": "Wilkinson et al. (2026)",
+                  "citation_key": "wilkinson_tread_adipose_2026",
+                  "href": "/docs/papers/BRAIN-Diet-References#wilkinson_tread_adipose_2026",
+                  "data_level": "Human Mechanistic",
+                  "exposure_context": "dietary-timing-protocol",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+                  "study_exposure": "12-week 10-hour personalized eating window plus dietary counselling versus counselling; exploratory subcutaneous RNA-seq in seven greatest TRE weight losers and six matched controls.",
+                  "study_finding": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+                  "assessment": {
+                    "study": "12-week 10-hour personalized eating window plus dietary counselling versus counselling; exploratory subcutaneous RNA-seq in seven greatest TRE weight losers and six matched controls.",
+                    "population": "61 adults with obesity without diabetes; 52 completed; baseline eating window at least 14 hours.",
+                    "result": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+                    "effect_magnitude": "Weight difference −2.91 kg (95% CI −4.21 to −1.60); no individual transcript significant at FDR<0.05.",
+                    "evidence_summary": "Weight loss favoured TRE; inflammatory gene-set signals decreased in the selected biopsy subgroup.",
+                    "limitations": "Primary endpoint changed after last participant visit but before analysis; selected small tissue subgroup confounds timing with weight-loss response.",
+                    "retrieval_scope": "Primary full text including endpoint amendment, RNA-seq selection, FDR and results.",
+                    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13306140/"
+                  }
+                },
+                {
+                  "label": "Dote-Montero et al. (2025)",
+                  "citation_key": "dote_montero_tre_visceral_2025",
+                  "href": "/docs/papers/BRAIN-Diet-References#dote_montero_tre_visceral_2025",
+                  "data_level": "Human Study",
+                  "exposure_context": "dietary-timing-protocol",
+                  "evidence_source": "bounded-external-search",
+                  "directional_finding": "Adding TRE did not confer significant additional VAT reduction.",
+                  "study_exposure": "12-week randomized early, late or self-selected eight-hour eating window plus Mediterranean-diet education versus education alone.",
+                  "study_finding": "Adding TRE did not confer significant additional VAT reduction.",
+                  "assessment": {
+                    "study": "12-week randomized early, late or self-selected eight-hour eating window plus Mediterranean-diet education versus education alone.",
+                    "population": "197 adults with overweight or obesity.",
+                    "result": "Adding TRE did not confer significant additional VAT reduction.",
+                    "effect_magnitude": "No extra VAT benefit reported; precise contrasts not recovered.",
+                    "evidence_summary": "Adding TRE did not confer significant additional VAT reduction.",
+                    "limitations": "Different baseline windows and protocol; a null VAT endpoint does not directly refute a tissue transcript result.",
+                    "retrieval_scope": "Primary abstract and indexed study results; full methods not independently recovered.",
+                    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39775037/"
+                  }
+                }
+              ],
+              "connected_supportive_evidence": []
+            }
+          ],
+          "dietary_input_traceability": [
+            {
+              "atom_id": "PM8-DIT-1",
+              "input": "Green Mediterranean dietary pattern",
+              "input_type": "dietary pattern",
+              "biological_role": "Reduces visceral adipose volume in the tested weight-loss programme, with associated changes in circulating inflammation-related proteins.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F3"
+                ],
+                "citation_keys": [
+                  "zelicha_effect_2022",
+                  "zelicha_proteome_2024"
+                ]
+              },
+              "evidence_limitation": "The randomized evidence applies to the combined pattern with physical activity; individual food effects and adipose inflammatory mediation remain uncertain.",
+              "dietary_input": true,
+              "dietary_input_note": "Dietary state-regulation relationship at pattern level; not nutritional indispensability or an independently effective dose for any component."
+            }
+          ],
+          "dietary_lever_atoms": [
+            {
+              "atom_id": "PM8-DIT-1",
+              "requirement_classification": "direct",
+              "relationship_mode": "state-regulation",
+              "relationship_layer": "dietary-requirement",
+              "dietary_addressability": "direct",
+              "claim_ceiling": "modulation-demonstrated"
+            }
+          ],
+          "dietary_lever_presentations": [
+            {
+              "atom_id": "PM8-DIT-1",
+              "label": "Green Mediterranean dietary pattern",
+              "presentation_section": "3.1.1",
+              "reader_description": "This tested pattern combined walnuts (28 g/day), green tea (3–4 cups/day), Mankai (100 g/day frozen plant in a shake), and reduced red/processed meat. It reduced visceral fat more than the comparison diets in adults with abdominal obesity. These foods are targets for further testing: their individual contributions remain uncertain, walnut evidence is mixed, and enriched tea beverages are not interchangeable with ordinary brewed tea.",
+              "description_finding_id": "PM8-F3"
+            }
+          ],
+          "system_optimisation_practices": [
+            {
+              "atom_id": "PM8-SOP-1",
+              "food_strategy_scope": "dietary-protocol",
+              "food_strategy_id": "food-strategy-4601009eb275",
+              "input": "Diet-induced weight reduction when excess adiposity is relevant",
+              "input_type": "context-specific dietary protocol",
+              "biological_role": "Progressive diet-induced loss altered subcutaneous adipose tissue pathways; moderate initial loss improved insulin action before measured inflammation declined.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F1"
+                ],
+                "citation_keys": [
+                  "magkos_weight_loss_adipose_2016"
+                ]
+              },
+              "evidence_limitation": "Later progressive-loss comparisons involved nine participants and were not independently randomized; other depots and unmeasured inflammatory processes remain uncertain.",
+              "optimisation_category": "dietary_protocols",
+              "reader_description": "A diet-induced weight-reduction programme changed adipose tissue biology in adults with obesity. Early insulin improvements preceded the measured inflammatory decline, and later tissue comparisons were small.",
+              "description_finding_id": "PM8-F1",
+              "dietary_input": true,
+              "dietary_input_note": "Dietary energy-reduction programme; not a universal weight-loss prescription."
+            },
+            {
+              "atom_id": "PM8-SOP-2",
+              "input": "Marine omega-3 formulations in selected metabolic contexts",
+              "input_type": "conditional supplementation",
+              "biological_role": "Tested marine omega-3 formulations altered adipose macrophage, chemokine, transcript or oxylipin endpoints in selected adults, with variable responses.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F6"
+                ],
+                "citation_keys": [
+                  "spencer_omega3_adipose_2013",
+                  "fisk_omega3_adipose_2022",
+                  "hames_omega3_adipose_null_2017"
+                ]
+              },
+              "evidence_limitation": "Doses, baseline metabolic state, depot and assays differ; tissue target engagement does not establish improved insulin sensitivity or an ordinary-food equivalent.",
+              "dietary_input": true,
+              "dietary_input_note": "Supplement exposure only; no ordinary-food dose or walnut-ALA equivalence established.",
+              "optimisation_category": "conditional_supplementation",
+              "reader_description": "Adipose biopsy trials have mixed results: some tissue endpoints improved, while another trial found no inflammatory benefit despite EPA/DHA incorporation. This is a provisional formulation-specific option for further testing, without an established ordinary-food equivalent.",
+              "description_finding_id": "PM8-F6",
+              "food_strategy_scope": "supplementation",
+              "food_strategy_id": "food-strategy-brs6-pm8-marine-omega3"
+            },
+            {
+              "atom_id": "PM8-SOP-3",
+              "input": "Ten-hour eating window for adults with obesity and long baseline eating windows",
+              "input_type": "dietary timing protocol",
+              "biological_role": "The TREAD protocol increased weight and fat loss, with exploratory subcutaneous inflammatory pathway changes in a selected biopsy subgroup.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F11"
+                ],
+                "citation_keys": [
+                  "wilkinson_tread_adipose_2026",
+                  "dote_montero_tre_visceral_2025"
+                ]
+              },
+              "evidence_limitation": "TREAD selected the greatest weight losers for RNA-seq, and fat endpoints and populations differed across trials; timing-independent anti-inflammatory benefit is unproven.",
+              "dietary_input": true,
+              "dietary_input_note": "Defined eating-window exposure; not an independently proven timing effect or universal fasting requirement.",
+              "optimisation_category": "dietary_protocols",
+              "reader_description": "A small trial supports this exact protocol, while the adipose analysis was exploratory and selected the greatest weight losers. A separate trial found no extra visceral-fat benefit from adding time restriction to Mediterranean-diet education.",
+              "description_finding_id": "PM8-F11",
+              "food_strategy_scope": "mixed-food-and-timing",
+              "food_strategy_id": "food-strategy-brs6-pm8-tread-10h"
+            }
+          ],
+          "lifestyle_priorities": [
+            {
+              "atom_id": "PM8-LS-1",
+              "input": "Maintain regular physical activity",
+              "input_type": "physical activity",
+              "biological_role": "Exercise training changed adipocyte size, extracellular matrix and capillarization without weight loss in the assessed study.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F9"
+                ],
+                "citation_keys": [
+                  "ahn_exercise_adipose_2022"
+                ]
+              },
+              "evidence_limitation": "Counterbalanced allocation between two exercise programmes, no sedentary control and several transient responses limit causal and durability claims.",
+              "dietary_input": false,
+              "reader_description": "Regular training can alter adipose structure even without weight loss. The assessed comparison does not establish a general sustained anti-inflammatory effect or a superior training intensity.",
+              "description_finding_id": "PM8-F9"
+            },
+            {
+              "atom_id": "PM8-LS-2",
+              "input": "Protect adequate sleep opportunity",
+              "input_type": "sleep behaviour",
+              "biological_role": "Avoids the severe sleep-restriction exposure that increased energy intake and visceral-fat accumulation in the crossover experiment.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F10"
+                ],
+                "citation_keys": [
+                  "covassin_sleep_visceral_2022"
+                ]
+              },
+              "evidence_limitation": "Small young, predominantly male sample, severe imposed restriction and ad-libitum intake; no adipose inflammatory biopsy.",
+              "dietary_input": false,
+              "reader_description": "A controlled sleep-loss experiment increased visceral fat. Evidence for reversing established adipose inflammation by sleep extension remains a separate question.",
+              "description_finding_id": "PM8-F10"
+            }
+          ],
+          "pending_actions": [
+            {
+              "input": "Walnuts, green tea, Mankai and red/processed-meat substitution",
+              "action": "Component-specific adipose testing; retain mixed/null evidence and distinguish package effects from individual food efficacy.",
+              "finding_ids": [
+                "PM8-F3",
+                "PM8-F4",
+                "PM8-F5"
+              ]
+            },
+            {
+              "input": "Pomegranate and urolithin A",
+              "action": "Separate ordinary pomegranate, the pomegranate-vinegar formulation and urolithin supplementation. Park 2014 is a preliminary formulation-specific candidate; recover full methods, comparator and replication before any broader claim.",
+              "finding_ids": [
+                "PM8-F3"
+              ]
+            },
+            {
+              "input": "Magnesium",
+              "action": "Resolve the exact human adipose dependency and dietary supply claim; retain the conflicting animal context without recommending deficiency.",
+              "finding_ids": [
+                "PM8-F8"
+              ]
+            }
+          ],
+          "kc_applicability_adjudications": [
+            {
+              "kc_id": "BRS6(KC1)",
+              "ikc_id": "BRS6(KC1)",
+              "arm_id": "PM8-KC1-review",
+              "disposition": "unresolved",
+              "proposition": "Does the narrowed circulating-glucose availability pool establish a PM-specific upstream supply or conditional constraint?",
+              "rationale": "The existing KC1 assessment narrows the pool to circulating glucose availability. Its cerebral-energy relevance does not automatically admit this PM or a checklist of meal nutrients.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F1"
+                ],
+                "citation_keys": [
+                  "magkos_weight_loss_adipose_2016"
+                ]
+              },
+              "evidence_limitation": "Source-supported availability-to-adipose-stress pathway, separate from excess energy intervention or systemic cytokines.",
+              "remaining_gap": "Source-supported availability-to-adipose-stress pathway, separate from excess energy intervention or systemic cytokines.",
+              "review_record": "system/brs6-kc1-evidence-review.md"
+            },
+            {
+              "kc_id": "BRS6(KC2)",
+              "ikc_id": "BRS6(KC2)",
+              "arm_id": "PM8-KC2-review",
+              "disposition": "unresolved",
+              "proposition": "Does the current stress-response micronutrient/lipid checklist define a coherent shared resource relationship?",
+              "rationale": "The existing KC2 evidence review finds no coherent shared pool in the current checklist. Individual magnesium, fatty-acid or other decisions remain independent; this does not exclude their supported PM biology.",
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F1"
+                ],
+                "citation_keys": [
+                  "magkos_weight_loss_adipose_2016"
+                ]
+              },
+              "evidence_limitation": "The current pool definition does not establish a coherent relationship. This is an unresolved definition/applicability gap, not evidence that every constituent fails to constrain this PM.",
+              "remaining_gap": "A canonical coherent pool definition and separately vetted membership would be needed before reconsidering pool admission.",
+              "review_record": "system/brs6-kc2-evidence-review.md"
+            }
+          ],
+          "kc_distinctness_review": [
+            {
+              "relationship_id": "PM8-KC1-CANDIDATE",
+              "kc_id": "BRS6(KC1)",
+              "disposition": "unresolved",
+              "biological_job": "Does the narrowed circulating-glucose availability pool establish a PM-specific upstream supply or conditional constraint?",
+              "compared_records": {
+                "3.1.1": [
+                  "PM8-DIT-1"
+                ],
+                "3.1.2": [],
+                "3.2": [
+                  "PM8-SOP-1",
+                  "PM8-SOP-2",
+                  "PM8-SOP-3"
+                ]
+              },
+              "compared_biological_jobs": [
+                "The assessed programme changed measured adipose tissue pathways with progressive loss."
+              ],
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F1"
+                ],
+                "citation_keys": [
+                  "magkos_weight_loss_adipose_2016"
+                ]
+              },
+              "gap": "Source-supported availability-to-adipose-stress pathway, separate from excess energy intervention or systemic cytokines.",
+              "rationale": "No additional public KC disclosure is admitted. Scientific applicability and public distinctness are separate; review the exact gap, not name/type/citation differences. The new dietary pattern and protocols do not establish an upstream glucose pool or a coherent shared micronutrient constraint."
+            },
+            {
+              "relationship_id": "PM8-KC2-CANDIDATE",
+              "kc_id": "BRS6(KC2)",
+              "disposition": "unresolved",
+              "biological_job": "Does the current stress-response micronutrient/lipid checklist define a coherent shared resource relationship?",
+              "compared_records": {
+                "3.1.1": [
+                  "PM8-DIT-1"
+                ],
+                "3.1.2": [],
+                "3.2": [
+                  "PM8-SOP-1",
+                  "PM8-SOP-2",
+                  "PM8-SOP-3"
+                ]
+              },
+              "compared_biological_jobs": [
+                "The assessed programme changed measured adipose tissue pathways with progressive loss."
+              ],
+              "evidence_source": {
+                "finding_ids": [
+                  "PM8-F1"
+                ],
+                "citation_keys": [
+                  "magkos_weight_loss_adipose_2016"
+                ]
+              },
+              "gap": "A canonical coherent pool definition and separately vetted membership would be needed before reconsidering pool admission.",
+              "rationale": "No additional public KC disclosure is admitted. Scientific applicability and public distinctness are separate; review the exact gap, not name/type/citation differences. The new dietary pattern and protocols do not establish an upstream glucose pool or a coherent shared micronutrient constraint."
+            }
+          ],
+          "intervention_dominance_assessment": {
+            "evidence_qualification": {
+              "label": "Diet-Supported",
+              "rationale": "Dietary pattern and energy-reduction studies engage adipose volume or biopsy endpoints in selected populations; no universal efficacy ranking follows.",
+              "routes": [
+                {
+                  "group_id": "3.1",
+                  "evidence_basis": "intervention-effect",
+                  "intervention_effect": "The green Mediterranean diet package reduced MRI-measured visceral fat more than the comparison diets in DIRECT-PLUS.",
+                  "context": "Adults with abdominal obesity; combined diet and physical-activity programme.",
+                  "limitations": "One predominantly male workplace cohort; the foods were not independently randomized, fat volume is not a biopsy of inflammation, and the protein analysis is not independent replication.",
+                  "evidence_source": {
+                    "finding_ids": [
+                      "PM8-F3"
+                    ],
+                    "citation_keys": [
+                      "zelicha_effect_2022",
+                      "zelicha_proteome_2024"
+                    ]
+                  }
+                },
+                {
+                  "group_id": "3.2",
+                  "evidence_basis": "intervention-effect",
+                  "intervention_effect": "Defined dietary and supplemental protocols changed tissue or fat endpoints.",
+                  "context": "Protocol-specific selected populations.",
+                  "limitations": "Tissue responses vary; no independent component or universal protocol benefit.",
+                  "evidence_source": {
+                    "finding_ids": [
+                      "PM8-F1",
+                      "PM8-F6",
+                      "PM8-F11"
+                    ],
+                    "citation_keys": [
+                      "magkos_weight_loss_adipose_2016",
+                      "spencer_omega3_adipose_2013",
+                      "fisk_omega3_adipose_2022",
+                      "wilkinson_tread_adipose_2026"
+                    ]
+                  }
+                },
+                {
+                  "group_id": "3.3",
+                  "evidence_basis": "intervention-effect",
+                  "intervention_effect": "Exercise altered adipose structure; imposed sleep loss increased visceral fat.",
+                  "context": "Training study and small inpatient sleep-loss crossover.",
+                  "limitations": "Different endpoints and designs; no comparative superiority inferred.",
+                  "evidence_source": {
+                    "finding_ids": [
+                      "PM8-F9",
+                      "PM8-F10"
+                    ],
+                    "citation_keys": [
+                      "ahn_exercise_adipose_2022",
+                      "covassin_sleep_visceral_2022"
+                    ]
+                  }
+                }
+              ]
+            },
+            "principal_route_selection": {
+              "disposition": "established",
+              "selected_groups": [
+                "3.1",
+                "3.2"
+              ],
+              "rationale": "Dietary pattern evidence directly addresses visceral adiposity, while defined weight-reduction and other protocols provide complementary tissue-specific evidence.",
+              "joint_prominence_rationale": "Pattern selection and defined protocols answer distinct practical questions; showing both makes the food targets and direct tissue evidence accessible without treating them as equally effective.",
+              "comparative_limitations": "No head-to-head comparison establishes superiority across foods, supplements, protocols and lifestyle routes; this is relevance-based prominence.",
+              "assessments": [
+                {
+                  "group_id": "3.1",
+                  "relevance": "The pattern reduces the visceral adipose load relevant to the PM.",
+                  "directness": "MRI fat volume and circulating proteins are measured; adipose inflammatory mediation remains unproven.",
+                  "extent": "One 18-month cohort, predominantly men, with package-level attribution."
+                },
+                {
+                  "group_id": "3.2",
+                  "relevance": "Defined practices include direct adipose biopsy endpoints.",
+                  "directness": "Weight-reduction and omega-3 studies measure tissue; TREAD biopsy evidence is exploratory.",
+                  "extent": "Selected populations and protocols, with small or variable tissue results."
+                }
+              ]
+            }
+          },
+          "intervention_dominance": "Diet-Supported",
+          "intervention_breakdown": "Food-State Leaning",
+          "phenome_relationships": []
+        }
+      }
+    ],
+    "scientific_principles": [
+      {
+        "id": "PM8-SP1",
+        "provenance_kind": "curated-biochemical",
+        "title": "11β-HSD1 cortisone–cortisol interconversion",
+        "proposition": "HSD11B1 catalyses NADP(H)-dependent cortisone–cortisol interconversion and predominantly acts as a reductase in vivo.",
+        "mechanism": "Local glucocorticoid regeneration; reaction participation of NADPH is distinct from a dietary requirement.",
+        "scope_limitations": "Molecular reaction identity does not establish its net rate in every tissue, dietary niacin limitation, or an optimal cortisol concentration.",
+        "classification_rationale": "Curated enzyme/reaction identity; context-dependent human regulation is assessed separately in SF13.",
+        "reviewed_on": "2026-10-26",
+        "sources": [
+          {
+            "label": "UniProtKB P28845 — HSD11B1",
+            "database": "UniProt",
+            "accession": "P28845",
+            "href": "https://www.uniprot.org/uniprotkb/P28845/entry",
+            "version": "231; annotation 2026-09-02",
+            "accessed": "2026-10-26"
+          }
+        ]
+      },
+      {
+        "id": "PM8-SP2",
+        "provenance_kind": "curated-biochemical",
+        "title": "Leptin and adiponectin are distinct endocrine molecules",
+        "proposition": "Leptin and adiponectin are distinct adipokines with receptor identities LEPR and ADIPOR1/ADIPOR2, respectively.",
+        "mechanism": "Adipose endocrine communication; production, release, circulating exposure and target responsiveness are separate relationships.",
+        "scope_limitations": "No claim that concentrations measure secretion or receptor sensitivity; no dietary or clinical effect follows from molecular identity.",
+        "classification_rationale": "Curated molecular and receptor relationships, not an intervention synthesis.",
+        "reviewed_on": "2026-10-26",
+        "sources": [
+          {
+            "label": "UniProtKB P41159 — Leptin",
+            "database": "UniProt",
+            "accession": "P41159",
+            "href": "https://www.uniprot.org/uniprotkb/P41159/entry",
+            "version": "221; annotation 2026-09-02",
+            "accessed": "2026-10-26"
+          },
+          {
+            "label": "UniProtKB Q15848 — Adiponectin",
+            "database": "UniProt",
+            "accession": "Q15848",
+            "href": "https://www.uniprot.org/uniprotkb/Q15848/entry",
+            "version": "233; annotation 2026-09-02",
+            "accessed": "2026-10-26"
+          }
+        ]
+      }
+    ],
+    "intervention_adjudications": [
+      {
+        "id": "PM8-ADJ-ENDO-1",
+        "title": "Green Mediterranean pattern, walnuts, green tea and Mankai",
+        "status": "not-admitted",
+        "question": "Does this exposure meet the new endocrine mission’s intervention admission gate?",
+        "reason": "VAT reduction and component-attribution evidence do not establish adipokine secretion, local cortisol regeneration or endocrine responsiveness.",
+        "resolution_criterion": "A formulation-specific endocrine measurement and supported causal attribution could change this mission-specific decision.",
+        "finding_ids": [
+          "PM8-F3",
+          "PM8-F4",
+          "PM8-F5"
+        ],
+        "show_in_gap_summary": true,
+        "reviewed_on": "2026-10-26",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "not-admitted for the reconstructed endocrine mission; no independent admission in another PM is changed."
+          }
+        ]
+      },
+      {
+        "id": "PM8-ADJ-ENDO-2",
+        "title": "Energy restriction and meal timing",
+        "status": "under-investigation",
+        "question": "Does this exposure meet the new endocrine mission’s intervention admission gate?",
+        "reason": "Circulating adipokine and transcript responses are relevant, but do not identify secretion, sensitivity or an endocrine optimisation objective.",
+        "resolution_criterion": "A defined protocol with appropriate local endocrine or target-responsiveness endpoints and context-specific functional interpretation.",
+        "finding_ids": [
+          "PM8-F13",
+          "PM8-F15"
+        ],
+        "show_in_gap_summary": false,
+        "reviewed_on": "2026-10-26",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "under-investigation for the reconstructed endocrine mission; no independent admission in another PM is changed."
+          }
+        ]
+      },
+      {
+        "id": "PM8-ADJ-ENDO-3",
+        "title": "Marine omega-3 formulations",
+        "status": "under-investigation",
+        "question": "Does this exposure meet the new endocrine mission’s intervention admission gate?",
+        "reason": "Historical biopsy findings chiefly concern inflammatory endpoints; endocrine exposure findings require separate adjudication.",
+        "resolution_criterion": "Verify formulation-specific endocrine engagement and credible delivery without inferring ordinary-fish equivalence.",
+        "finding_ids": [
+          "PM8-F6"
+        ],
+        "show_in_gap_summary": false,
+        "reviewed_on": "2026-10-26",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "under-investigation for the reconstructed endocrine mission; no independent admission in another PM is changed."
+          }
+        ]
+      },
+      {
+        "id": "PM8-ADJ-ENDO-4",
+        "title": "Physical activity and sleep",
+        "status": "under-investigation",
+        "question": "Does this exposure meet the new endocrine mission’s intervention admission gate?",
+        "reason": "Activity-related adiponectin mRNA and historical sleep-related VAT results do not establish a general endocrine-protection protocol.",
+        "resolution_criterion": "Prespecified secretion or responsiveness endpoints, replication and distinction from weight or depot changes.",
+        "finding_ids": [
+          "PM8-F9",
+          "PM8-F10",
+          "PM8-F15"
+        ],
+        "show_in_gap_summary": false,
+        "reviewed_on": "2026-10-26",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "under-investigation for the reconstructed endocrine mission; no independent admission in another PM is changed."
+          }
+        ]
+      },
+      {
+        "id": "PM8-ADJ-ENDO-5",
+        "title": "Magnesium, niacin/NADPH and dietary energy substrates",
+        "status": "under-investigation",
+        "question": "Does this exposure meet the new endocrine mission’s intervention admission gate?",
+        "reason": "NADPH cofactor participation is established. A defined dietary input and its supported supply into the relevant regeneration pathway have not been fully adjudicated. This is an incomplete supply assessment, not a requirement for benefit beyond adequacy or a negative finding about nutrition.",
+        "resolution_criterion": "A complete Type A dependency/supply or Type B engagement/exposure chain for an identified input.",
+        "finding_ids": [
+          "PM8-F8",
+          "PM8-F13"
+        ],
+        "show_in_gap_summary": false,
+        "reviewed_on": "2026-10-26",
+        "history": [
+          {
+            "version": 1,
+            "date": "2026-10-26",
+            "decision": "under-investigation for the reconstructed endocrine mission; no independent admission in another PM is changed."
+          }
+        ],
+        "source_leads": [
+          {
+            "doi": "10.1210/jc.2008-0743",
+            "role": "Primary genetic evidence for H6PD-dependent cortisone reduction, not a dietary niacin intervention."
+          },
+          {
+            "doi": "10.1016/j.mce.2006.12.022",
+            "role": "Secondary biochemical synthesis; not independent replication or proof of dietary limitation."
+          }
+        ]
+      }
+    ],
+    "scientific_reconstruction_review": {
+      "version": 1,
+      "date": "2026-10-26",
+      "status": "completed-with-explicit-gaps",
+      "mission": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "food_target_decision": "No new admitted dietary input: no PM8 food target or dietary-strategy row generated. Existing canonical food relationships unchanged.",
+      "kc_decision": "Historical KC candidates retained in history; no new shared-resource relationship established. No KC identity or membership elsewhere changed.",
+      "sec_decision": "New exact-proposition assessments are separate from historical records. Unrecovered methods, precision and independent replication remain explicit; no VAT score transferred.",
+      "search_coverage": [
+        "Adipose endocrine physiology and molecular identities",
+        "Human leptin synthesis versus secretion",
+        "Adiponectin hormonal regulation and null circulating findings",
+        "Local 11β-HSD1 versus whole-body cortisol metabolism",
+        "Adipocyte-GR stress-feedback experiment",
+        "Dietary energy restriction/macronutrients and meal timing",
+        "Marine omega-3 endocrine versus inflammatory evidence",
+        "Physical activity transcripts versus plasma; historical sleep/VAT evidence",
+        "Magnesium and NADPH/substrate participation versus dietary admission"
+      ],
+      "stopping_rationale": "Every defining operation and material inherited intervention was assessed or parked with a specific missing link. Targeted primary recovery and a second intervention search were performed. Remaining source access and replication gaps do not justify invented scores or admissions.",
+      "remaining_questions": [
+        "Which adipose-derived or neural signal mediates the mouse GR feedback result, and does a corresponding human pathway operate?",
+        "Which dietary or lifestyle protocols demonstrably sustain context-appropriate adipose secretion or endocrine responsiveness rather than changing only plasma concentrations, transcripts or fat mass?"
+      ],
+      "source_keys": [
+        "de_kloet_adipocyte_gr_2015",
+        "de_kloet_fat_brain_2018",
+        "scheja_adipose_endocrine_2019",
+        "tsuji_adipose_hub_2026",
+        "sandeep_adipose_cortisol_2005",
+        "lee_leptin_adipose_2007",
+        "degawa_adiponectin_2005",
+        "stimson_diet_cortisol_2007",
+        "tomlinson_weight_loss_hsd1_2004",
+        "trepanowski_adipokines_2018",
+        "ma_adiponectin_pounds_2016",
+        "fallo_glucocorticoid_adiponectin_2004",
+        "moghadasi_activity_adiponectin_2013",
+        "patel_short_term_glucocorticoid_2006"
+      ],
+      "historical_finding_dispositions": [
+        {
+          "id": "PM8-F1",
+          "title": "Weight loss changes adipose biology in stages",
+          "endpoint_category": "Insulin action and adipose immune markers",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F2",
+          "title": "Blood-cell cytokines do not identify an adipose source",
+          "endpoint_category": "Blood-cell immune cytokines",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F3",
+          "title": "A defined green Mediterranean pattern reduced visceral fat",
+          "endpoint_category": "VAT/depot volume; proteomic context",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F4",
+          "title": "Walnut-specific visceral-fat effects remain uncertain",
+          "endpoint_category": "Food-component/VAT attribution",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F5",
+          "title": "Tea beverage results depend on formulation",
+          "endpoint_category": "Formulation-specific VAT",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F6",
+          "title": "Marine omega-3 tissue effects vary with context",
+          "endpoint_category": "Adipose immune signalling; endocrine nulls require separate source-level attribution",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F7",
+          "title": "Adipose stress includes immune and oxidative processes",
+          "endpoint_category": "Adipose immune recruitment and oxidative context",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F8",
+          "title": "Magnesium is a research candidate with context-dependent adipose effects",
+          "endpoint_category": "Lipid accumulation/mobilisation and deficiency context",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F9",
+          "title": "Exercise can remodel adipose tissue without weight loss",
+          "endpoint_category": "Adipose structure/remodelling",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F10",
+          "title": "Sleep restriction can promote visceral-fat accumulation",
+          "endpoint_category": "Sleep and VAT accumulation",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        },
+        {
+          "id": "PM8-F11",
+          "title": "Time-restricted eating has context-specific adipose findings",
+          "endpoint_category": "Exploratory immune pathways and VAT",
+          "disposition": "historical-context",
+          "reason": "Not retained as active endocrine evidence. Original proposition and all sources preserved; no score or intervention status inherited."
+        }
+      ],
+      "targeted_second_searches": [
+        {
+          "query": "11beta niacin NADPH",
+          "outcome": "No directly matched dietary niacin-to-adipose 11β-HSD1 primary intervention recovered. Incomplete retrieval is not evidence of absence."
+        },
+        {
+          "query": "hexose-6-phosphate dehydrogenase cortisone reductase deficiency",
+          "outcome": "Genetic H6PD evidence recovered; establishes a pathway dependency, not a specific dietary input admission."
+        },
+        {
+          "query": "11beta-HSD1 licorice dietary human",
+          "outcome": "No adequate mission-specific dietary exposure/engagement chain recovered; no licorice recommendation or admission."
+        }
+      ]
+    }
+  },
+  "hashes": {
+    "docs/biological-targets/.cursor/rules/BRAIN-Framework-Routing.mdc": "d2e8bcc2bf7ea8aeb56c34cf38d4d66bd2b5b0c0e1038a73f60e4323ccc5b043",
+    "docs/biological-targets/.cursor/rules/Biological-Target-Pages.mdc": "ad4987862774363d1ba73223f9f2f7a0631c353d8b54454a2818aef2418bfeee",
+    "docs/biological-targets/.cursor/rules/Cross-BRS-Dependency-Pages.mdc": "e1d70dc63c81e4055e509d421f98c1526bf7fb04ce8879cef6e3228f6ab9323b",
+    "docs/biological-targets/.cursor/rules/Functional-Mechanism-Pages.mdc": "4e921ab888a415484ca05a6e8608a2ab5c4793ea0b0e8d4315aed2cfcca2cf0a",
+    "docs/biological-targets/.cursor/rules/Key-Constraint-Pages.mdc": "2f77d9a6243aa9eac8b4b6790aeba30ae623128e6321279dd840456631d53ead",
+    "docs/biological-targets/.cursor/rules/Primary-Mechanism-Pages.mdc": "f7038f8d3668b5f61e9a54ce6da6ce84bfcc970cc2bf98c69e8b4f7f822e8643",
+    "docs/biological-targets/.cursor/rules/Specific-Mechanism-Pages.mdc": "462e7ef0a164b5704d763ac7122dc437718faf180ce5034ca5f5ef024c73173b",
+    "docs/biological-targets/_category_.json": "34424910f110c6160066b63eb80729f04fd2053ae1f3774df966231fc56c9856",
+    "docs/biological-targets/brs-x/_category_.json": "8b7c4e17021ff870f92f4cfd25451509bbd58e63e42ecfdf409bbdfa5448f629",
+    "docs/biological-targets/brs-x/circadian/_category_.json": "f63f5323907bd6036083299af79ccea5932bd8de10ce89ce1360b61574d5ae91",
+    "docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md": "bc46a3799e6bf12ba8866a3f0bd19798d8617246d1bc3c222adea0ec3287e1a6",
+    "docs/biological-targets/brs-x/circadian/fm1/_category_.json": "40f9196f0b9b2204904493748da130358b54a56b7bae7defd88f0450a5a0cdb4",
+    "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx": "29572be3a2178078e1161e7c0d08e77732eeac2aafc94a64b24cde7388447702",
+    "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx": "f07f39ef736f46e71e2b3b3085e4573fed2f880f0bc4c682b68cef9f081b655e",
+    "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-zeitgeber-entrainment.mdx": "7b8c7a6e7a2bbbce5373f79c2c949869a9c4b0585aee8ab30ad6ab76e8459f1d",
+    "docs/biological-targets/brs-x/ecs/_category_.json": "2fc514149bc363d099ae3260943cbcc06ca1447d774783c4d5cf6d8ac3d0449d",
+    "docs/biological-targets/brs-x/ecs/endocannabinoid-system.md": "da5cd93cb7841953cac34a7a57ebd9be54c751fda87bdddaeb53ac7979ec80fd",
+    "docs/biological-targets/brs-x/ecs/fm1/_category_.json": "09a8a3fdebdc75801b27b287d9e7c5ec16d27c59fec438081237e61bc5c3902d",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation.mdx": "175a1a22b2a9025a47f1717f7030b0fc8df1cb1a658c9e704552a21200465bce",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx": "59cc260dd07ff2aaed1265c5b763d5abe56e7e33835fc5f6821f9035ee37e264",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx": "c79f092dd66e8d12104f1ab37279334aacca775d9ab1533b4ce737f76fb92521",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx": "ac5d3c05d46e50da8cdad8c4554193a9d83891cdf5152670ead0d8867f164086",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx": "6ec4f0ef3ebd2633558c9f2073c107edcbd536300d3e2f166e81c1d72017f2b1",
+    "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx": "40ef67aabc19e274c3e144b069656d0f6c44746a30d28a0b767ef0822527f743",
+    "docs/biological-targets/brs-x/ecs/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs-x/ecs/kc/brs-x-ecs-kc1-phospholipid-nape-precursor-availability.mdx": "6ecbe3aa4b095043833620edcdcf5b35d125aecad56a37ea285c6d29ee54a49a",
+    "docs/biological-targets/brs-x/hormones/_category_.json": "389b7d7281b4212fc621fd43bbcce20e9b1e1ee153772b8be14cd37146d3abe3",
+    "docs/biological-targets/brs-x/hormones/fm1/_category_.json": "761ea41e1383ec92b45b7eaf5c4b1ae38302c1879ab3892dc7b972f2e0caefee",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation.mdx": "e685ab0ffb3f3f7e308c6f94cadb293096f560b6f64271603a6285be1e3a5465",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx": "b648168dc15df43e614c6795a92929204f0df116a6359945605a51c5e24f8fc4",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx": "82ae1652c6542f41c48be25938fb080b57a8a620563bc435eb00ab1168b05071",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx": "35d6e08e5acd527e81335dafa3dfb343319c68f5d55bca33ca0ee9a938370d09",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx": "3b8c4894fb3370a8505b59e636797a4eddc48a12b6cdab9b5825113ee8e26e08",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx": "8e4270a0d933305793fd803742ebbb390417f5c354a782479521a446e7345cdf",
+    "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx": "cb6285d1c681f7551e85408790c92677947048ac4ef1f8c8e7c208e770a36d58",
+    "docs/biological-targets/brs-x/hormones/hormone-signalling-regulation.md": "410b13de1452336d4cce8be372e1a65025e523fe57182055f54912f31e6f6890",
+    "docs/biological-targets/brs1/_category_.json": "d3d51e3ac91a3491d665fec2e90d871c97744d19f8993af10cafd8b2974bbb73",
+    "docs/biological-targets/brs1/fm1/_category_.json": "ad94770c720099ce930ab84b59194a6b4654e0196b86ed41f661c8f64823ee9f",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function.mdx": "35a3bd200290ab2899736f3144dab1dfaea2f79202d00a6a912c8ccc97c70b0c",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx": "83964c14858220cb074f6f38f4b10245020d70651f098b90a9caef7fe72c9799",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx": "8d3943a932485d4d507aaf6bbff25523bca5b9ffc541531499f6ac066d0b3134",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx": "831454f7538c4732669c06166b2795ec2909b247be1da2410fede84d90221ea7",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx": "b139620b4cce8ffe0eab26a2e9d55f4955c7df5b3cc8c3d1e767c9860fa5901f",
+    "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx": "dbd02b6326969a1ffe6ff48498c8e49b6a8f8b0e4608402f4fe6d92da1efc69f",
+    "docs/biological-targets/brs1/fm2/_category_.json": "07a73d70417f47ae98c920abe4098cdd195152107d21394bd28535e33f809c0d",
+    "docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function.mdx": "51ad641b305035b25379970f68d55a5179f9a7f1bfe599afe9e3acb0b7c20b87",
+    "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": "be0a2fdd92c51b73d905057f7880abff552d5c97c4a633421d0d01d4a15a0c91",
+    "docs/biological-targets/brs1/fm3/_category_.json": "457e13d6fd3bf5aa9b9867ff478a4991b27a113e80bbd8b5a7fe55913974a461",
+    "docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx": "98927ac7abf66a71003dba915b2d14db7b51ef580aaafdd803e03889b3e5fe46",
+    "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": "914cfd04174ec90a54913b6b308897f7535fbe084d5d474c7c612b47c4cc7e34",
+    "docs/biological-targets/brs1/fm4/_category_.json": "d8733f6792fafbebcf5aef5ead4176363deacb05c11da8a5c400b47724b63e52",
+    "docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx": "85254241961da319755f1d367000dfff494bd6e697d0f9983fca4b828a7d4967",
+    "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx": "4fba4ebf365faaf9d202ad1f734a2164d464f0b1d441bc47deb50c52a137bc24",
+    "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx": "3806f8e9d1be5414708031d06790c2a1a577dddc54ea294c3ee12a5c689eded1",
+    "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": "598550c2a2b75a9e98eb9365a9e108e0d4b46d91a7e614c2c55170c21c7e1407",
+    "docs/biological-targets/brs1/fm5/_category_.json": "8a86f94a75500474e2bcfc3bdd51b417afc3677a6f384ec3e7fd97f6932e560a",
+    "docs/biological-targets/brs1/fm5/brs1-fm5-neuronal-connectivity-and-structural-adaptation.mdx": "f5b67fb2850f680a6778d3cd6af9705b5c39eba33c2f08a91c833aa6f000bedd",
+    "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx": "4760bc659f8d7aa916096e9ffbc35da4d8510090a8db3e82245f06e32af2e718",
+    "docs/biological-targets/brs1/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance.mdx": "4815651ddd5b18e5fa22292231dfec6c0978500c19d39c1bd46d191f359b057a",
+    "docs/biological-targets/brs1/sm/_category_.json": "25a75c759738833da7e59926f41e38d6aef294b2b3bc778bdce305738897bb48",
+    "docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx": "10e5e79ec56c4b2db90ce66a4b7c15a8fe4688ae6a4a3f1e26506aae9ced1602",
+    "docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity.mdx": "cd2294d2f376e6326e4b5d5e58c5de7058e945c2e3c34a65e2ddd3ae31991e90",
+    "docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity.mdx": "927002997049110e387808508d9ad3b9db944b6c289a5c41e66bf681fd79764e",
+    "docs/biological-targets/brs2/_category_.json": "c47bef512e4e43c90c3af94e98a7cabdc08e816961acb048509b2c8d6e374f0b",
+    "docs/biological-targets/brs2/fm1/_category_.json": "7f79b10083c3164758d30554bfda315b44f6f4ac00294000ae99ca7ef08dcaef",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency.mdx": "44531f97b35ab387be391c933fe7c2dc614cd856999c0024cfd7d3a44946c705",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx": "f75963deb30dd12e28b357ce4958409553c3afce2a3d381501696fba8cb287b2",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx": "fe3a191cff1e5c9521e5df40ad36652ed05aacbeea1784106082eec2b1d17721",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx": "327b33ab66e82c35f2e460d2cb59089721af136c8cfbf0547bcf4a62b598c4b9",
+    "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx": "190486e48b28a39e95c0bc544d02bf3b5558f992edc2608cd73469e40dffe890",
+    "docs/biological-targets/brs2/fm2/_category_.json": "b140de1486a10baec81d08f099dd6ff8944bf479c4f164313daab79e0e2ae261",
+    "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx": "62ce0b06b35b436c354fc04ef30c30f899b9b481489cb76dd109b7e5ea4369a8",
+    "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx": "957095c75b46321ba013ec8ef8992c422cdbb2132aa59fc06313c32e66933e33",
+    "docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling.mdx": "8648e0fb6341891df9f3620fad8fd2415286d13bbf47dae28ce33b9edd2b10e4",
+    "docs/biological-targets/brs2/fm3/_category_.json": "65ee6aa752a2ae44d93f4a247df240b3d1729fb7d2e3cf1d1afe0a9744deeb6c",
+    "docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx": "cda17b0510282f2eb5d3ee21f98ba9da1c485f59fc7f6aded91538c9aa98c5c7",
+    "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx": "14999e2b99cc9960655f43bc159b9e304c2f8ff632ba75c98e6f9e790e171e31",
+    "docs/biological-targets/brs2/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool.mdx": "0d9c8b42c83147827164c0028f367f346aa9c4b8873de5b04687a61150187e0d",
+    "docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool.mdx": "6d8203d810a763a57f4e4313fd97ece2a7180c8d850d38cca75618e4f7b716ce",
+    "docs/biological-targets/brs2/sm/_category_.json": "25a75c759738833da7e59926f41e38d6aef294b2b3bc778bdce305738897bb48",
+    "docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency.mdx": "f536d21d70c7eab02d97608226620096f15127a751e86f0a2ebaed4ef3c48ce6",
+    "docs/biological-targets/brs3/_category_.json": "1b384f2a951a05ce93edfc5aa30bb793ed39b2fd9738b17bc11ea6cecedbcf89",
+    "docs/biological-targets/brs3/fm1/_category_.json": "a9841e4050cb95dc1d88452476c8bd5d0ba9689ee9ac3adc9f4cc56fdadd6359",
+    "docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone.mdx": "5fd19f576f0a3be91464b458c051b791217bb83c1827ad6800a684d29188b4b3",
+    "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx": "49835720dcd48efcdabfd4e0b5b89b9d3126b6278ed2f96f0cf2483d1d781b8d",
+    "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx": "56c5b2dc174825f8ce8a5367e5be85b8d8f1bb1d1839d2a6df41daaee11e3537",
+    "docs/biological-targets/brs3/fm2/_category_.json": "994dcb7bf8d1d8fcdb26ef7a51371e85ae68bf03dd77ab3926441747ba99a593",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity.mdx": "24cb29eed8a9395ae3dae7dde1ce924d2684f72e3fe67a34b0dc0e0411db8e3a",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx": "ff6bda1214aac80b39880d3623194149a5fdc1466b8a2c34655a590a56025511",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx": "13322a39ac498102f719fd779b00edd76ddfaced3f753dd45cda98d8f14f0cc1",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx": "ac873fe79310992ed3b821851fd5119e6df835c7a48704e7d6a43a5dba3956a9",
+    "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx": "dd576d1bb3a3dae0e95a1b5fe6e86aa8f395d7355dc111c597ad1db4c1782a2b",
+    "docs/biological-targets/brs3/fm3/_category_.json": "11d9f8d78b4d0aedb805c438b87a1abbe0d3fb028716c0ea1f4595a1be023b76",
+    "docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx": "6776bb953e35baea24af032019100538e080703bd0fc4b16d403f514140206ab",
+    "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx": "0bd8edd2d3a49a7c74d3e5cc4c86bd265e2b1b3941860872cd145e7c6293ece3",
+    "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx": "75fc67aa0ad145ea846c969f055ceb2654f30892a90f52ae31c41b0e71b3df72",
+    "docs/biological-targets/brs3/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability.mdx": "0a4ff8102cabd9650dc178d18bbeea20dbef44fffe17828c22c4c0ac8ff8d98d",
+    "docs/biological-targets/brs4/_category_.json": "25026bff8b4c0df804d24c8e79a3b2a87ca8cd6425ea65eaa4bf1a30eb364b24",
+    "docs/biological-targets/brs4/fm1/_category_.json": "ecee8b5ab75f56bc6493d7f32bb08be414289a4c33b1f1a1c4e8d92ec46246e2",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx": "3a0972f2e5e63ac2adcbfe36c122d192039a0280dbca521fca7db3d8c6d51b2b",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx": "a4a68a6d1fbe66f43915f6974e70b6d6256569e423bab72f2f5b8613eb65c9ca",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx": "cc735f4885cd471af7748db0d29a95acb9709cd4cae6939abea5217feb4efd17",
+    "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx": "8555d8c8b6103b836a90e7eef7b3069ff985a98ca6c93501e79e0feec6950857",
+    "docs/biological-targets/brs4/fm2/_category_.json": "d09630053325f15a228dde1e20a9bd9ed5bf0052b5e32580e65ef0ac2a2d7a9b",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability.mdx": "4ba6d72ced2f92d815cf445f38a97c3928fa35af94e2d753724149545175c9ac",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx": "a080393588c2f623d0f5ed3ae5beac4ffe9da0181862a6f282bb9bc2e86998bb",
+    "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx": "f953434bd085b994dfa272eed89a9cf645363d481b2b880d8f6e17117889b673",
+    "docs/biological-targets/brs4/fm3/_category_.json": "3042ae1ff7ce01ab1d218cb71ed0f2bd76262b9db91c76c8c9045acf3aa5d845",
+    "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx": "a7eafcfbf5455ac590f33d18b89d16b782e634e542af1480f516c0cb3ad1038e",
+    "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx": "0e2157a1e4c632a5ec975d040600d2abdaa35f41cb26e1dd1a7cf3a3252ecdd8",
+    "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx": "48ee96e9e6412c60a3271c91259ff0c61c4bfee61a9272aa32e3df35faf7060c",
+    "docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility.mdx": "5a46e2dd242bb3447cbd28ecf52aaa671610929bfcf66a18022b49b12d7d7b35",
+    "docs/biological-targets/brs4/fm4/_category_.json": "fd3aa54e90a7fb721678a2fdea6d22bbac4182359bb88cd4cd6cdf051f2d6b81",
+    "docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx": "d834c6495a1661387523438fa7849d836897647f278a136215f8a3d8acd369fd",
+    "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx": "520ae98547b064bb95af023fbb27b1102bf51c8427f1588da36addbc7cedb1ff",
+    "docs/biological-targets/brs4/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability.mdx": "23b02a8e8f7960f0ad688157a3631a80cbe67d148584de16c51eb7b802e5cbdb",
+    "docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx": "6ebc80f10345446463b1ecf31802cfd88508d399e0f6aa33dceaa5b3d9e66487",
+    "docs/biological-targets/brs5/_category_.json": "91314371bb2f93951daf8ee82991ba89fab2eba78e57017128f0b4f649617c0d",
+    "docs/biological-targets/brs5/fm1/_category_.json": "6338d7db3b70145bd8815215126c99d29f8a84ae5d9d474224b49d7f36af9104",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx": "f95a0a6fd105fd8d45dc6746c75f38994567e937cbf60e947e159c7cac96a207",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx": "cf4e2c406cbfd1e19a8c8573fd4b22ae960d4dcded42f9ea4ac22aeb5e90c890",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx": "ccb994b14bc07f0e94176fb91c35f55aa17ea2b1b299e3f00c2f41aecdb4511c",
+    "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx": "0827e6073f91529251d3ee6702a1b820eee179894114e4ca8f70587d1beec1dc",
+    "docs/biological-targets/brs5/fm2/_category_.json": "3014ebb7c3ba334286a30d84dd3b8b1dda001ae82126dfa3be0c76ae586eb09d",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx": "94997d37bae1e6deb82dc52e7fcbe372475fbb424af6e0a54223a3b2aae76ec5",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx": "9f80cd257fbeb749b1143fcdc8b3cd71452cd0d40205f9d9b3c407c7b4ecb1b3",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx": "4d915f19f889c649bf7ee429b3576f93df40fbed8c5a5b1a21e533ad55db80f4",
+    "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx": "eb97957a9f67ba8e14853d3d6683731104c33b9546d13ff00dfc118c0fc02567",
+    "docs/biological-targets/brs5/fm3/_category_.json": "1b2e8c4df030c9a4a76cd1dc0d248990d18e3eb56a948ab42331953f92c54475",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling.mdx": "290ee66e54e9d569fa07b0240a1fd0ef53216bce5c5088c0f1761c815b7122db",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx": "85678429e354f354d49af8b5c4bebebc791f6e53557af83a911193d07942ddf0",
+    "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx": "b34e60dfe6d677ce1b341600792d505b9ea9e722a389cf26cfa6ab95cfc6ff1e",
+    "docs/biological-targets/brs5/kc/_category_.json": "00b5c26147b3febdabfc94c45f288169705da4c4792ef8574c3ca7167285cba5",
+    "docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx": "a42bbe3b360459dc795e4345e54a0b21ab43932b592c12b8238d28e24c8524b4",
+    "docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx": "38c506915dd92936cae392d552624ad76417e5c2febd0b08bb5b10128bb0b7bc",
+    "docs/biological-targets/brs6/_category_.json": "8c8fb4ede8d96f4b7332094895769f7e0e7497e47a7373ec6894db99baede963",
+    "docs/biological-targets/brs6/fm1/_category_.json": "9b2f100e40580426c5de373af05fb5eeae19ea3b72764a8b73423a6114200486",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx": "70469c3dddf764761b36bc0823695e3976cbc3e4641f1198558dc7c936ddd8bd",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx": "a15dfc2a4c424349bc18588ccbdef94e2334ce7c8fd5053666525c7bd91e8289",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx": "5b4b7ed4e2a64c56d428948761a3ec775b3a4ddaef4f211b671897a70b87e8cc",
+    "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx": "8b39b7b0c31684f82e91150e3e4d979fc539c2e5917d151a06f3bb1480b8996d",
+    "docs/biological-targets/brs6/fm2/_category_.json": "b8e9ba8159abb453ea2a294aae3d6df7ef67d8ed6b9631a07a54e5166b5cf5d9",
+    "docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation.mdx": "d85b8343ff970ca20a291bcbb1446046541dffa737b3f4620f7ad2339cb4e40a",
+    "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx": "a7ce57cdf6afd387ac6e208196bce53e432ae989779f26680ba0dc89165451c1",
+    "docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx": "214f69a4ff99eb64ca936f8e1cad63c359d4dceb69789bf299f7ad0681329c19",
+    "docs/biological-targets/brs6/fm3/_category_.json": "41e9c071dfd3f4737a157df3b819c9601a21ec23fdb410e46e724e343ad8c7f7",
+    "docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity.mdx": "d721166ef2b32afe490ce843c4c595a92174c5b8b5896efb961bb8a293207134",
+    "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx": "ed0b8e6e8f49c653c10830f631df51f64b10adf4e63fa389aaa6b4d465dddb9c",
+    "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx": "893969c8f9dfb3d0bf49f77c609c1ffbf7f1deb860c999a35b333357c5f017db",
+    "docs/biological-targets/brs6/fm4/_category_.json": "e17a0c4fd4cd23eafadf1262bea69b54f953234c33cedd5679b7615932ef3965",
+    "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx": "966c4217bb6986e431c75025b71c48adf26f3025fd9649d0e713664b77260072",
+    "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx": "0dff2a81377c4d77ad71f38b28ff8639b38e2800a5eb6616adf551fb9618d040",
+    "docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx": "f06df2c6093bad013e12b04e4cedb6405f31917487dfa360e040f6f0371f3d6d",
+    "docs/biological-targets/brs6/kc/_category_.json": "378fceb392da50d15cbcba39965267dc508d2ec1b4e53d44f2800875b67549ca",
+    "docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx": "39a8eba3970ff17eb7b66557635867291a05f4afffe6ac419055dafbb266547d",
+    "docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency.mdx": "7a9b71216e7c88c641265da80022c74521a6c4738e6582469b396680b886ec1c",
+    "docs/biological-targets/cross-system-regulation.md": "34ddea9def179825060e88569813e37a144e14c9b1a66c385ceecf791a8c868e",
+    "docs/biological-targets/dependencies/brs2-to-brs1.md": "0db5d2c6f5e4fba07ff52cfa8bb4a2b2a483c20309ed59073c580d6fc2151a5e",
+    "docs/biological-targets/dependencies/brs2-to-brs3.md": "7a1a962843d74eff0ee6d28ded84c8f23d964ee4eeeaaac1e78f1c321520ebb5",
+    "docs/biological-targets/dependencies/brs3-to-brs1.md": "364162eb08e6361f5260777004e093d4cfa4bf5ee95efe3a097d0caffb729e5c",
+    "docs/biological-targets/dependencies/brs4-to-brs1.md": "b4d7ff171e94d7861379a71502df5effbdf17c1e48fce632ce4868431015bf5b",
+    "docs/biological-targets/dependencies/brs5-to-brs1.md": "6d528c2ea78f72ab1691863b7777cb1f5557997fa9f634ef347a76dfc062b5c5",
+    "docs/biological-targets/dependencies/brs5-to-brs3.md": "8bf64a393ff2e307191588ea5a85a83146596c375c5abce5b6d4937fc6431e6d",
+    "docs/biological-targets/dependencies/brs5-to-brs4.md": "14a4fb50c52c940d30aed1a5f5e43ad3d80962a1baffaed5093a975bb8092bf9",
+    "docs/biological-targets/dependencies/brs5-to-brs6.md": "3049aaf3cd7b9cde06d9822eddcb8cc2389548db2fa1c8fdcfdac2424ddabb0a",
+    "docs/biological-targets/dependencies/brs6-to-brs1.md": "62940c2a594b068a1476a1c94e9984b92ea51e980f3cba4728a0aa4a94594e12",
+    "docs/biological-targets/dependencies/brs6-to-brs3.md": "5a0cf2bfe55c82445e65210eb64f669159342bbde4b22aa4c8ec2b7c9ce612a7",
+    "docs/biological-targets/dependencies/brs6-to-brs4.md": "192dadaf7ff1a9dabaa6514db583170dddcf7e27c2674c26ef5bf0e985e8c384",
+    "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md": "0b8eb756c680ce817d1d693776ca1198ed05f3f2fc71034699d7c0510db47250",
+    "docs/biological-targets/index.md": "717a05717300727b69ec90fd065d095923c6ff4eaa691a1e61608b4b24678563",
+    "docs/biological-targets/inflammation-oxidative-stress.md": "8ce4aef3c147efdb704a55a4785eacd5842ba5c7daf1f6773d81834639d4a2ad",
+    "docs/biological-targets/metabolic-neuroendocrine-stress.md": "c413ccc86783d37605f590490b4302c201da64513f90d5779681d875918e3a2a",
+    "docs/biological-targets/methylation-one-carbon-metabolism.md": "33242ec18b30d25ae6c4f2df5fbfc044bbae3dab2cae2b6007fc87d0d360b347",
+    "docs/biological-targets/mitochondrial-function-bioenergetics.md": "3e29fd5302014fd65eb53bdee1286536fa1993682bc823a2e3cb76a2d0ae71ca",
+    "docs/biological-targets/neurotransmitter-regulation.md": "c90d1b85ee461e6d6961e6ce80be8f5f28716bbd0528491b3c6cc6a3a4a57378",
+    "system/framework-qc/pm-open-issues.json": "ced43b515491fcf4a93909eecdb95e6cb782ec2008469b7da8d5855992137c28",
+    "system/sec-assessments/registry.json": "f65a9a685e30845b5fa3974bc71649bec621634426d833282f6356941a2044dc"
+  }
+}

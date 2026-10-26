@@ -1,0 +1,814 @@
+---
+title: NF-kB Signalling Regulation
+pm_id: BRS3-FM1-PM1
+mission: Regulate NF-κB transcriptional tone so pro-inflammatory gene programmes do not fire excessively.
+parent_fm: BRS3(FM1)
+parent_brs: BRS3
+summary: 'NF-κB regulates inflammatory gene programmes. IKK-dependent inhibitor phosphorylation permits its activation; glutathione-dependent redox changes also regulate kinase activity and DNA binding. These distinct cellular readouts support the mechanism, but do not establish a dietary dose that improves human inflammatory regulation.'
+cofactors:
+  - Magnesium ions (Mg²⁺)
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    dietary_input: false
+    dietary_input_note: 'This accepted entry records an intracellular reaction participant or endogenous product, with no independently admitted dietary supply relationship in this PM. No does not assert absence from foods or biological dispensability.'
+    input: Magnesium ions (Mg²⁺)
+    input_type: catalytic ion
+    biological_role: Canonical NF-κB activation uses IKK (EC 2.7.11.10) to phosphorylate IκB with ATP. Protein-serine/threonine kinases use Mg²⁺–ATP as the phosphoryl donor for that phosphotransfer.
+    evidence_source:
+      finding_ids:
+        - PM1-F1
+      citation_keys:
+        - mercurio_ikk_1997
+        - adams_kinase_mechanisms_2001
+      pathway_resources:
+        - 'UniProtKB O14920 (IKBKB); Rhea:RHEA:19073'
+    evidence_limitation: Reviewed UniProt IKBKB records the ATP-dependent IκB kinase reaction without a magnesium cofactor annotation; published IKKβ crystals used in this review are inhibitor-bound rather than ATP–Mg ternary complexes. This does not establish that ordinary dietary magnesium intake limits human NF-κB transcription.
+    substance_id: magnesium
+    canonical_identity:
+      status: resolved
+      substance_id: magnesium
+      substance_href: /docs/substances/nutrients/micronutrients/minerals/macro/magnesium
+      verified_against: &ref_1
+        - registry/substances.json
+        - docs/substances/nutrients/micronutrients/minerals/macro/magnesium.md
+    identity_scope: 'Mg²⁺ catalytic ionic form; the canonical magnesium page identifies the substance, not an admitted dietary intervention.'
+  - atom_id: PM1-KC1-UPSTREAM-1
+    dietary_input: true
+    dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+    input: Cysteine
+    input_type: supported upstream supply
+    biological_role: 'Cysteine supplies a constituent of glutathione. Glutathione participates in the redox regulation of NF-κB kinase activity and DNA binding; this is upstream resource supply, not a direct NF-κB reaction substrate.'
+    evidence_source: &ref_0
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - reynaert_redox_nfkb_2006
+        - mihm_glutathione_nfkb_1995
+        - sekhar_glutathione_2011
+    evidence_limitation: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+    substance_id: cysteine
+    canonical_identity: &ref_4
+      status: resolved
+      substance_id: cysteine
+      substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+      verified_against: &ref_2
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine.md
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3-KC1-KIT-1
+    relationship_type: supported-upstream-supply
+  - atom_id: PM1-KC1-UPSTREAM-2
+    dietary_input: true
+    dietary_input_note: 'Accepted upstream dietary constituent provision is distinct from the pool/constraint reference. Existing role, conditional scope and limitations remain unchanged.'
+    input: Glycine
+    input_type: supported upstream supply
+    biological_role: 'Glycine supplies a constituent of glutathione. Glutathione participates in the redox regulation of NF-κB kinase activity and DNA binding; this is upstream resource supply, not a direct NF-κB reaction substrate.'
+    evidence_source: *ref_0
+    evidence_limitation: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+    substance_id: glycine
+    canonical_identity: &ref_5
+      status: resolved
+      substance_id: glycine
+      substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
+      verified_against: &ref_3
+        - registry/substances.json
+        - docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine.md
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3-KC1-KIT-2
+    relationship_type: supported-upstream-supply
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    relationship_layer: biochemical-requirement
+    claim_ceiling: biological-dependency
+    permitted_wording: Magnesium ions participate in ATP-dependent IKK phosphotransfer as the catalytic counter-ion of protein-serine/threonine kinase chemistry. This does not establish a Dietary Requirement of NF-κB signalling or a dietary magnesium effect on human NF-κB transcription.
+    evidence_limitation: Reviewed UniProt IKBKB records the ATP-dependent IκB kinase reaction without a magnesium cofactor annotation; published IKKβ crystals used in this review are inhibitor-bound rather than ATP–Mg ternary complexes. This does not establish that ordinary dietary magnesium intake limits human NF-κB transcription.
+  - atom_id: PM1-KC1-UPSTREAM-1
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Cysteine supplies a constituent of glutathione. Glutathione participates in the redox regulation of NF-κB kinase activity and DNA binding; this is upstream resource supply, not a direct NF-κB reaction substrate.'
+    evidence_limitation: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+  - atom_id: PM1-KC1-UPSTREAM-2
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Glycine supplies a constituent of glutathione. Glutathione participates in the redox regulation of NF-κB kinase activity and DNA binding; this is upstream resource supply, not a direct NF-κB reaction substrate.'
+    evidence_limitation: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: Magnesium ions (Mg²⁺)
+    presentation_section: 3.1.2
+  - atom_id: PM1-KC1-UPSTREAM-1
+    label: Cysteine
+    presentation_section: 3.1.3
+    reader_description: Cysteine helps supply glutathione involved in regulating NF-κB signalling.
+    description_finding_id: PM1-F2
+  - atom_id: PM1-KC1-UPSTREAM-2
+    label: Glycine
+    presentation_section: 3.1.3
+    reader_description: Glycine helps supply glutathione involved in regulating NF-κB signalling.
+    description_finding_id: PM1-F2
+intervention_dominance: Not established
+intervention_breakdown: Food-State Dominant
+timing_specific: 'No'
+dose_sensitivity: No human dietary dose-response for beneficial NF-κB regulation is established; cellular cysteine and glutathione manipulations have context-dependent effects.
+intervention_dominance_assessment:
+  evidence_qualification:
+    label: Not established
+    rationale: 'A mechanistic upstream supply connection is supported, but no principal dietary intervention route is established by this focused assessment.'
+    scope_note: Precursor tracing measures red-cell glutathione; NF-κB redox studies use experimental cells. Their combination does not establish human dietary intervention responsiveness.
+    routes: []
+  principal_route_selection:
+    disposition: not-established
+    selected_groups: []
+    rationale: Supported upstream supply alone does not establish an intervention route or comparative prominence.
+    comparative_limitations: 'No route is ranked above another, because none is established.'
+    assessments: []
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2b-dietary-addressability
+kc_change_control_flags:
+  - flag_id: KC-CC-BRS3-FM1-PM1-01
+    flag_type: ikc-scope-conflict
+    kc_id: BRS3(KC1)
+    proposition: KC1 reconciled and two constituents admitted as supported upstream supply; limiting applicability remains separately unresolved. Polyphenols are not KC1 members.
+    evidence_source: *ref_0
+    status: resolved-by-kc-review
+references:
+  - '[Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)'
+  - '[Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)'
+  - '[Marsland et al. (2017) — Systemic Inflammation and Brain Structure](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)'
+  - '[Brown et al. (2025) — Associations Between ADHD and Metabolic Disorders](/docs/papers/BRAIN-Diet-References#brown_associations_2025)'
+  - '[Tongjaroenbuangam et al. (2011) — Neuroprotective Effects of Quercetin](/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011)'
+  - '[Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)'
+  - '[Mercurio et al. (1997) — IKK-1 and IKK-2: cytokine-activated IkappaB kinases essential for NF-kappaB activation](/docs/papers/BRAIN-Diet-References#mercurio_ikk_1997)'
+  - '[Adams (2001) — Kinetic and Catalytic Mechanisms of Protein Kinases](/docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001)'
+  - '[Li and Zhang (2026) — Effects of Omega-3 Supplementation on Inflammation and Recovery in Sports](/docs/papers/BRAIN-Diet-References#li_omega3_sports_2026)'
+  - '[Cannataro et al. (2024) — Omega-3 and Sports: Focus on Inflammation](/docs/papers/BRAIN-Diet-References#cannataro_omega3_sports_2024)'
+  - '[Reynaert et al. (2006) — Dynamic redox control of NF-κB](/docs/papers/BRAIN-Diet-References#reynaert_redox_nfkb_2006)'
+  - '[Mihm et al. (1995) — Glutathione and extracellular cysteine regulate NF-κB](/docs/papers/BRAIN-Diet-References#mihm_glutathione_nfkb_1995)'
+  - '[Sekhar et al. (2011) — Glutathione precursor provision in older adults](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
+  - '[Ghanim et al. (2009) — Increase in plasma endotoxin concentrations and the expression of Toll-like receptors and suppressor of cytokine signaling-3 in mononuclear cells after a high-fat, high-carbohydrate meal: implications for insulin resistance.](/docs/papers/BRAIN-Diet-References#ghanim_increase_2009)'
+hide_title: true
+phenome_relationships:
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Polyphenol-rich dietary patterns and lower pro-inflammatory signalling pressure may support cognitive clarity context in ADHD-relevant populations without single-nutrient outcome claims.
+    references:
+      - index: 1
+        label: Zelicha et al. (2022)
+        citation_key: zelicha_effect_2022
+        href: /docs/papers/BRAIN-Diet-References#zelicha_effect_2022
+        data_level: Human Outcome
+      - index: 2
+        label: Marsland et al. (2017)
+        citation_key: marsland_systemic_2017
+        href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
+        data_level: Human Mechanistic
+    evidence_confidence: medium
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Postprandial and LPS-linked inflammatory signalling intersects ADHD metabolic overlap — pattern-based anti-inflammatory meals may modulate attention-relevant inflammatory tone rather than acute NF-κB pharmacology.
+    references:
+      - index: 1
+        label: Batey et al. (2024)
+        citation_key: batey_lipopolysaccharide_2024
+        href: /docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024
+        data_level: Human Mechanistic
+      - index: 2
+        label: Brown et al. (2025)
+        citation_key: brown_associations_2025
+        href: /docs/papers/BRAIN-Diet-References#brown_associations_2025
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Emotional Regulation
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes.
+    references:
+      - index: 1
+        label: Marsland et al. (2017)
+        citation_key: marsland_systemic_2017
+        href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Apprehensive Worry / Perseverative Thought
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Systemic inflammation associates with default-mode network connectivity patterns linked to perseverative thought in translational anxiety/depression framing; NF-κB transcriptional tone is the mechanism boundary.
+    references:
+      - index: 1
+        label: Marsland et al. (2017)
+        citation_key: marsland_systemic_2017
+        href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
+        data_level: Human Mechanistic
+      - index: 2
+        label: Batey et al. (2024)
+        citation_key: batey_lipopolysaccharide_2024
+        href: /docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Pleasure & Interest Capacity
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: LPS-linked neurotransmission disruption intersects depressive mood biology in translational reviews; pro-inflammatory transcriptional tone may modulate this context without direct anhedonia-outcome claims.
+    references:
+      - index: 1
+        label: Batey et al. (2024)
+        citation_key: batey_lipopolysaccharide_2024
+        href: /docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+scientific_findings_intro: 'IKK experiments establish an activation gate, while redox studies demonstrate glutathione-dependent regulation of kinase activity and DNA binding. Human precursor tracing supports glutathione provision, but does not measure NF-κB. Together these findings support a bounded upstream supply relationship, not a proven dietary anti-inflammatory effect.'
+scientific_findings:
+  - id: PM1-F1
+    finding_label: IKK phosphorylation is required for NF-κB activation
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'A purified complex from HeLa cells contains two related kinases, IKK-1 and IKK-2. They phosphorylate the inhibitor proteins that hold NF-κB. Mutant IKK-2 changes NF-κB movement into the nucleus and NF-κB-dependent reporter activity.'
+    finding_interpretation: 'This identifies the kinase step. It does not show that dietary magnesium, polyphenols, fibre, or omega-3 fats change how fast those genes are transcribed.'
+    finding_statement: 'IKK-1 and IKK-2 phosphorylate the NF-κB inhibitor proteins, and IKK-2 is required for NF-κB activation in the cell systems tested. This is an upstream activation step, rather than transcription itself.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Mercurio and colleagues purified a large IκB kinase complex from cytokine-stimulated HeLa cells. It phosphorylated IκB-alpha and IκB-beta. The two kinase components, IKK-1 and IKK-2, are related serine kinases. Mutant IKK-2 had pronounced effects on RelA nuclear translocation and on an NF-κB-dependent reporter. The paper does not test diet.'
+    synthesis_limitations: 'The result is a cell-biochemistry identification of the kinase. It is not a human intake trial, and it does not measure dietary magnesium.'
+    evidence_considered:
+      - label: Mercurio et al. (1997)
+        citation_key: mercurio_ikk_1997
+        href: /docs/papers/BRAIN-Diet-References#mercurio_ikk_1997
+        data_level: Cellular / Molecular
+        exposure_context: cytokine-stimulated HeLa cells
+        evidence_source: repository-inherited
+        directional_finding: IKK-1 and IKK-2 were identified as cytokine-activated kinases that phosphorylate IκB-alpha and IκB-beta. Mutant IKK-2 altered RelA nuclear translocation and NF-κB-dependent reporter activity.
+        assessment:
+          study: 'Purification of the IκB kinase signalsome from HeLa cells, with identification of IKK-1 and IKK-2 and tests of IKK-2 mutants.'
+          population: Cultured HeLa cells. No human dietary cohort.
+          result: 'The complex phosphorylates the inhibitor proteins, and IKK-2 mutants change NF-κB activation readouts.'
+          effect_magnitude: The paper reports a pronounced effect of IKK-2 mutants on RelA translocation and reporter activity. It does not report a fold change in human transcription rate.
+          evidence_summary: The kinase step that releases NF-κB is IKK phosphorylation of the inhibitor proteins.
+          limitations: 'Cell biochemistry is not dietary magnesium, and it is not a measure of how fast inflammatory genes are transcribed in people.'
+    connected_supportive_evidence:
+      - label: Adams (2001)
+        citation_key: adams_kinase_mechanisms_2001
+        href: /docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001
+        data_level: Mechanistic
+        why_relevant: 'Protein kinases transfer phosphate from ATP, and that class of reaction is the chemical setting for the IKK step.'
+        why_excluded: 'The review is not an IKK assay, not an NF-κB transcription measurement, and not a dietary magnesium trial. Kinase assays that include magnesium chloride do not show that ordinary magnesium intake sets this transcription rate.'
+  - id: PM1-F2
+    finding_label: Glutathione-dependent redox regulation connects precursor supply to NF-κB
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_summary: Glutathione participates in redox control of NF-κB. Human precursor supplementation supports glutathione provision; cellular studies establish a separate redox-regulation link.
+    finding_interpretation: 'The chain supports upstream resource supply, while its tissue-specific dietary limiting effect remains unresolved. Regulation is not uniformly anti-inflammatory.'
+    finding_statement: Cysteine and glycine supply glutathione used in redox regulation of NF-κB; this establishes upstream supply rather than proven dietary control of transcription.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The evidence measures different links: precursor provision and red-cell glutathione synthesis in humans; glutathione-dependent kinase, nuclear-translocation and DNA-binding regulation in experimental cells. Joining these links is mechanistic triangulation, not an end-to-end human intervention result.'
+    synthesis_limitations: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+    evidence_considered:
+      - label: Reynaert et al. (2006)
+        citation_key: reynaert_redox_nfkb_2006
+        href: /docs/papers/BRAIN-Diet-References#reynaert_redox_nfkb_2006
+        data_level: Cellular / Molecular
+        exposure_context: Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.
+        evidence_source: bounded-external-search
+        directional_finding: 'IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.'
+        assessment:
+          study: Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.
+          population: Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.
+          result: 'IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.'
+          effect_magnitude: Directional mechanism evidence; no human dietary effect size assigned.
+          evidence_summary: 'IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.'
+          limitations: 'Molecular/cellular regulation, not nutritional precursor restriction or a human intake intervention; chemical redox manipulations cannot be translated into a dietary dose.'
+      - label: Mihm et al. (1995)
+        citation_key: mihm_glutathione_nfkb_1995
+        href: /docs/papers/BRAIN-Diet-References#mihm_glutathione_nfkb_1995
+        data_level: Cellular / Molecular
+        exposure_context: Human Molt-4 T-cell line and cell-free DNA-binding assays.
+        evidence_source: bounded-external-search
+        directional_finding: 'Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.'
+        assessment:
+          study: Human Molt-4 T-cell line and cell-free DNA-binding assays.
+          population: Human Molt-4 T-cell line and cell-free DNA-binding assays.
+          result: 'Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.'
+          effect_magnitude: Directional mechanism evidence; no human dietary effect size assigned.
+          evidence_summary: 'Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.'
+          limitations: Primary abstract verified; full methods and quantitative dose-response remain unverified. Cell-culture cysteine exposure is not dietary intake; neither direction implies improved health.
+      - label: Sekhar et al. (2011)
+        citation_key: sekhar_glutathione_2011
+        href: /docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011
+        data_level: Human Mechanistic
+        exposure_context: Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.
+        evidence_source: bounded-external-search
+        directional_finding: Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.
+        assessment:
+          study: Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.
+          population: Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.
+          result: Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.
+          effect_magnitude: Red-cell glutathione absolute synthesis rose 230.9% after combined supplementation; this is not an NF-κB effect magnitude.
+          evidence_summary: Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.
+          limitations: 'Uncontrolled before/after supplementation in older adults, with younger comparators; no isolated constituent effect, NF-κB measurement, brain endpoint or ordinary-food equivalence.'
+    connected_supportive_evidence: []
+  - id: PM1-F3
+    finding_label: Tested mixed meals differ in NF-kB DNA-binding response
+    presentation: mechanistic-basis
+    fm_rollup: false
+    finding_statement: NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.
+    finding_summary: NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.
+    finding_interpretation: 'Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.
+    synthesis_limitations: 'Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.'
+    evidence_considered:
+      - label: Ghanim et al. (2009)
+        citation_key: ghanim_increase_2009
+        href: /docs/papers/BRAIN-Diet-References#ghanim_increase_2009
+        data_level: Human Study
+        exposure_context: '910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.'
+        evidence_source: bounded-external-search
+        directional_finding: NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.
+        assessment:
+          study: '910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.'
+          population: Two parallel groups of ten healthy lean adults.
+          result: NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.
+          effect_magnitude: Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.
+          evidence_summary: Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.
+          limitations: 'Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.'
+          retrieval_scope: 'Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.'
+          source_url: 'https://pubmed.ncbi.nlm.nih.gov/19755625/'
+    evidence_dependency:
+      - 'The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication.'
+input_identity_audit:
+  - atom_id: PM1-DIT-1
+    input: Magnesium ions (Mg²⁺)
+    status: resolved
+    substance_id: magnesium
+    substance_href: /docs/substances/nutrients/micronutrients/minerals/macro/magnesium
+    verified_against: *ref_1
+    identity_scope: 'Mg²⁺ catalytic ionic form; the canonical magnesium page identifies the substance, not an admitted dietary intervention.'
+  - atom_id: PM1-KC1-UPSTREAM-1
+    input: Cysteine
+    status: resolved
+    substance_id: cysteine
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/cysteine
+    verified_against: *ref_2
+  - atom_id: PM1-KC1-UPSTREAM-2
+    input: Glycine
+    status: resolved
+    substance_id: glycine
+    substance_href: /docs/substances/nutrients/macronutrients/amino-acids/conditionals/glycine
+    verified_against: *ref_3
+pm_kc_relationships:
+  - relationship_id: PM1-KC1-UPSTREAM-POOL
+    dietary_input: false
+    dietary_input_note: 'Pool/constraint dependency, not another dietary constituent. Dietary supply decisions belong to its separately admitted PM input atoms.'
+    kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    relationship_type: supported-upstream-supply
+    input: Glutathione precursor pool (cysteine and glycine)
+    input_type: supported upstream supply
+    pm_biological_role: KC1 supplies precursors for glutathione used in NF-κB redox regulation. Glutathione synthesis and NF-κB regulation are distinct steps; the connection does not establish a nutrient-induced reduction in inflammatory transcription.
+    evidence_source: *ref_0
+    evidence_limitation: 'This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.'
+    presentation_label: Glutathione precursor pool (cysteine and glycine)
+    reader_description: The precursor pool supplies glutathione involved in NF-κB redox regulation.
+    description_finding_id: PM1-F2
+    applicability_label: Supported upstream supply
+    origin_label: 'KC1: Glutathione Precursor Sufficiency'
+    kc_href: /docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability
+    constituent_relationships:
+      - relationship_id: PM1-KC1-UPSTREAM-1-REL
+        pm_atom_id: PM1-KC1-UPSTREAM-1
+        kc_atom_id: BRS3-KC1-KIT-1
+        ikc_id: BRS3-KC1-KIT-1
+        kc_membership_status: canonical-reviewed
+        label: Cysteine
+        presentation_section: 3.1.3
+        reader_description: Cysteine helps supply glutathione involved in regulating NF-κB signalling.
+        description_finding_id: PM1-F2
+        relationship_type: supported-upstream-supply
+        substance_id: cysteine
+        canonical_identity: *ref_4
+        disposition: established
+        rationale: Individually adjudicated glutathione constituent provision and supported redox chain; no individual limiting effect or extra-intake benefit admitted.
+      - relationship_id: PM1-KC1-UPSTREAM-2-REL
+        pm_atom_id: PM1-KC1-UPSTREAM-2
+        kc_atom_id: BRS3-KC1-KIT-2
+        ikc_id: BRS3-KC1-KIT-2
+        kc_membership_status: canonical-reviewed
+        label: Glycine
+        presentation_section: 3.1.3
+        reader_description: Glycine helps supply glutathione involved in regulating NF-κB signalling.
+        description_finding_id: PM1-F2
+        relationship_type: supported-upstream-supply
+        substance_id: glycine
+        canonical_identity: *ref_5
+        disposition: established
+        rationale: Individually adjudicated glutathione constituent provision and supported redox chain; no individual limiting effect or extra-intake benefit admitted.
+kc_applicability_adjudications:
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: glutathione-redox-resource-supply
+    applicability_proposition: KC1 supplies precursors for glutathione participating in NF-κB redox regulation.
+    disposition: established
+    applicability_mode: supported-upstream-supply
+    relationship_type: supported-upstream-supply
+    established_links:
+      - Cysteine and glycine are glutathione constituents; combined provision increased red-cell synthesis in older adults.
+      - Glutathione-dependent redox changes regulate IKK and NF-κB activation/DNA binding in experimental cells.
+    inferred_links:
+      - Transfer of the human red-cell provision result to the cells and contexts used in NF-κB experiments.
+    evidence_source: *ref_0
+    rationale: Supported upstream supply does not require a demonstrated limiting effect or one end-to-end human trial.
+    review_record: system/brs3-fm1-pm1-stage2b-report.md
+  - kc_id: BRS3(KC1)
+    ikc_id: BRS3(KC1)
+    arm_id: precursor-inadequacy-constrains-nfkb-regulation
+    applicability_proposition: Inadequate precursor availability constrains appropriate NF-κB regulation in a specified context.
+    disposition: unresolved
+    evidence_source: *ref_0
+    rationale: 'A supply connection is established, but redox effects are context-dependent and do not establish excess inflammatory transcription from dietary inadequacy.'
+    evidence_gap: 'Identify context-specific precursor inadequacy, the relevant intracellular glutathione/redox change, and its consequence for NF-κB regulation; distinguish compensation, depletion and excess.'
+    review_record: system/brs3-fm1-pm1-stage2b-report.md
+system_optimisation_practices:
+  - atom_id: PM1-SOP-DEFERRED-1
+    input: Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison
+    input_type: defined meal formulation
+    biological_role: The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.
+    evidence_source:
+      finding_ids:
+        - PM1-F3
+      citation_keys:
+        - ghanim_increase_2009
+    evidence_limitation: 'Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.'
+    dietary_input: true
+    reader_description: The meal comparison measured different acute mononuclear NF-kB DNA-binding responses.
+    description_finding_id: PM1-F3
+    optimisation_category: dietary_protocols
+    food_strategy_scope: dietary-protocol
+    food_strategy_id: food-strategy-f69b067d45e3
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs3-portrait-thumbnail.png"
+    alt="BRS3 — Inflammation & Oxidative Stress"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS3-1-1 - NF-kB Signalling Regulation
+
+(Turning Down Overactive Inflammatory Switches)
+
+## 1. Mission & Overview
+
+### Mission
+
+Regulate NF-κB transcriptional tone so pro-inflammatory gene programmes do not fire excessively.
+
+
+**Intervention Dominance:** Not established — No principal intervention route established
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No Direct or Derived Dietary Requirement is currently established for regulation of NF-κB transcriptional tone.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Magnesium ions (Mg²⁺)
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Glutathione precursor pool (cysteine and glycine)
+
+#### Individual KC inputs
+
+- Cysteine
+- Glycine
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+### Overview
+
+NF-κB helps cells translate immune signals into inflammatory gene programmes. Its activation and DNA binding are regulated at several steps, including inhibitor phosphorylation and glutathione-dependent redox control. [[7]](#pm-ref-7) [[11]](#pm-ref-11) [[12]](#pm-ref-12) Keeping this response appropriate is the biological aim; suppressing every response is not an established health benefit.
+
+- **Benefits:** This mechanism governs inflammatory signalling rather than a proven nutrient treatment or clinical outcome. The reviewed experiments establish regulation of activation and DNA binding. [[7]](#pm-ref-7) [[11]](#pm-ref-11)
+- **Implementation Notes:** Cysteine and glycine have supported upstream roles through glutathione. Combined supplementation increased red-cell glutathione synthesis in older adults, but did not measure NF-κB or establish a food dose. [[13]](#pm-ref-13)
+- **Biological Relevance:** Glutathione provision connects this PM to redox biology; NF-κB regulation remains distinct from glutathione synthesis and downstream cytokine-network outputs. [[11]](#pm-ref-11) [[12]](#pm-ref-12)
+
+## 2. Primary Biological Effects
+NF-κB activation, DNA binding and redox-sensitive inflammatory gene regulation
+
+## 3. Intervention Levers
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Tested fibre/fruit-rich mixed meal versus the high-fat/high-carbohydrate comparison
+
+
+No evidence-qualified System Optimisation Practices are currently established for this mechanism.
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+No lifestyle lever is established. Sleep, activity, and meal timing were not shown to change NF-κB transcriptional tone.
+
+</div>
+</div>
+</div>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+When inflammatory transcriptional programmes remain engaged, downstream cytokine and immune-signalling tone escalates. NF-κB is a principal upstream node through which those programmes are expressed within [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone).
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>NF-κB signalling and inflammatory transcription</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (NF-κB as an inflammatory transcriptional node)
+
+Mercurio et al. (1997) identified IKK-1 and IKK-2 as the kinases that phosphorylate the inhibitor proteins holding NF-κB, and showed that IKK-2 is required for NF-κB activation in the cell systems tested. [[7]](#pm-ref-7) That kinase step permits activation; it is not transcription itself. The cytokine messengers that follow it are a later step — see PM7.
+
+#### (Signalling pressure and pattern context)
+
+Glutathione-dependent redox regulation acts on IKK activity and NF-κB DNA binding. [[11]](#pm-ref-11) [[12]](#pm-ref-12) Redox state can inhibit as well as permit activation, so more precursor supply cannot be assumed to suppress inflammation. The attached dietary-pattern studies do not independently establish a PM-specific intervention. Adams (2001) reviews ATP-dependent protein-kinase chemistry, including the usual metal partner of that reaction. [[8]](#pm-ref-8) That chemistry is not a dietary magnesium result.
+
+#### (Boundaries of the mechanism)
+
+Downstream cytokine-network expression is handled by [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation). Gut-derived endotoxin load is represented by [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling). EPA/DHA as specialised pro-resolving mediator substrates, and review claims that SPMs downregulate NF-κB, belong to [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance). This PM does not currently carry an evidence-qualified EPA/DHA dietary requirement or System Optimisation Practice for NF-κB transcriptional tone. Endogenous antioxidant induction and net redox balance belong to [BRS3-FM2-PM3 - Nrf2-Mediated Cellular Defence Regulation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) and [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance).
+
+#### (Integration within BRS3)
+
+This PM anchors transcriptional inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone). Gut-barrier context imported through [BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) conditions endotoxin-linked pressure on this pathway.
+
+</div>
+</div>
+</div>
+
+### 4.1 Scientific Findings
+
+#### Summary
+
+IKK experiments establish an activation gate, while redox studies demonstrate glutathione-dependent regulation of kinase activity and DNA binding. Human precursor tracing supports glutathione provision, but does not measure NF-κB. Together these findings support a bounded upstream supply relationship, not a proven dietary anti-inflammatory effect.
+
+<ScientificFinding finding={{"id":"PM1-F1","finding_label":"IKK phosphorylation is required for NF-κB activation","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"A purified complex from HeLa cells contains two related kinases, IKK-1 and IKK-2. They phosphorylate the inhibitor proteins that hold NF-κB. Mutant IKK-2 changes NF-κB movement into the nucleus and NF-κB-dependent reporter activity.","finding_interpretation":"This identifies the kinase step. It does not show that dietary magnesium, polyphenols, fibre, or omega-3 fats change how fast those genes are transcribed.","finding_statement":"IKK-1 and IKK-2 phosphorylate the NF-κB inhibitor proteins, and IKK-2 is required for NF-κB activation in the cell systems tested. This is an upstream activation step, rather than transcription itself.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Mercurio and colleagues purified a large IκB kinase complex from cytokine-stimulated HeLa cells. It phosphorylated IκB-alpha and IκB-beta. The two kinase components, IKK-1 and IKK-2, are related serine kinases. Mutant IKK-2 had pronounced effects on RelA nuclear translocation and on an NF-κB-dependent reporter. The paper does not test diet.","synthesis_limitations":"The result is a cell-biochemistry identification of the kinase. It is not a human intake trial, and it does not measure dietary magnesium.","evidence_considered":[{"label":"Mercurio et al. (1997)","citation_key":"mercurio_ikk_1997","href":"/docs/papers/BRAIN-Diet-References#mercurio_ikk_1997","data_level":"Cellular / Molecular","exposure_context":"cytokine-stimulated HeLa cells","evidence_source":"repository-inherited","directional_finding":"IKK-1 and IKK-2 were identified as cytokine-activated kinases that phosphorylate IκB-alpha and IκB-beta. Mutant IKK-2 altered RelA nuclear translocation and NF-κB-dependent reporter activity.","assessment":{"study":"Purification of the IκB kinase signalsome from HeLa cells, with identification of IKK-1 and IKK-2 and tests of IKK-2 mutants.","population":"Cultured HeLa cells. No human dietary cohort.","result":"The complex phosphorylates the inhibitor proteins, and IKK-2 mutants change NF-κB activation readouts.","effect_magnitude":"The paper reports a pronounced effect of IKK-2 mutants on RelA translocation and reporter activity. It does not report a fold change in human transcription rate.","evidence_summary":"The kinase step that releases NF-κB is IKK phosphorylation of the inhibitor proteins.","limitations":"Cell biochemistry is not dietary magnesium, and it is not a measure of how fast inflammatory genes are transcribed in people."},"canonical_reference":{"author_year":"Mercurio et al. (1997)","number":7,"anchor":"#pm-ref-7"}}],"connected_supportive_evidence":[{"label":"Adams (2001)","citation_key":"adams_kinase_mechanisms_2001","href":"/docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001","data_level":"Mechanistic","why_relevant":"Protein kinases transfer phosphate from ATP, and that class of reaction is the chemical setting for the IKK step.","why_excluded":"The review is not an IKK assay, not an NF-κB transcription measurement, and not a dietary magnesium trial. Kinase assays that include magnesium chloride do not show that ordinary magnesium intake sets this transcription rate.","canonical_reference":{"author_year":"Adams (2001)","number":8,"anchor":"#pm-ref-8"}}]}} />
+
+<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Glutathione-dependent redox regulation connects precursor supply to NF-κB","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Glutathione participates in redox control of NF-κB. Human precursor supplementation supports glutathione provision; cellular studies establish a separate redox-regulation link.","finding_interpretation":"The chain supports upstream resource supply, while its tissue-specific dietary limiting effect remains unresolved. Regulation is not uniformly anti-inflammatory.","finding_statement":"Cysteine and glycine supply glutathione used in redox regulation of NF-κB; this establishes upstream supply rather than proven dietary control of transcription.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The evidence measures different links: precursor provision and red-cell glutathione synthesis in humans; glutathione-dependent kinase, nuclear-translocation and DNA-binding regulation in experimental cells. Joining these links is mechanistic triangulation, not an end-to-end human intervention result.","synthesis_limitations":"This is supported upstream supply, not a demonstrated dietary constraint on NF-κB. Human precursor supplementation measured red-cell glutathione, not NF-κB; cysteine was supplied as N-acetylcysteine together with glycine. Cellular redox studies show context-dependent effects, including inhibition after glutathione depletion or increased extracellular cysteine. Neither individual dietary limitation, brain transfer nor benefit from additional intake is established.","evidence_considered":[{"label":"Reynaert et al. (2006)","citation_key":"reynaert_redox_nfkb_2006","href":"/docs/papers/BRAIN-Diet-References#reynaert_redox_nfkb_2006","data_level":"Cellular / Molecular","exposure_context":"Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.","evidence_source":"bounded-external-search","directional_finding":"IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.","assessment":{"study":"Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.","population":"Epithelial-cell redox manipulations and primary airway cells from Glrx1-deficient mice.","result":"IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.","effect_magnitude":"Directional mechanism evidence; no human dietary effect size assigned.","evidence_summary":"IKKβ Cys179 glutathionylation inhibited kinase activity; glutaredoxin reversed it. Glrx1-deficient cells had reduced NF-κB DNA binding, RelA translocation and chemokine responses to LPS.","limitations":"Molecular/cellular regulation, not nutritional precursor restriction or a human intake intervention; chemical redox manipulations cannot be translated into a dietary dose."},"canonical_reference":{"author_year":"Reynaert et al. (2006)","number":11,"anchor":"#pm-ref-11"}},{"label":"Mihm et al. (1995)","citation_key":"mihm_glutathione_nfkb_1995","href":"/docs/papers/BRAIN-Diet-References#mihm_glutathione_nfkb_1995","data_level":"Cellular / Molecular","exposure_context":"Human Molt-4 T-cell line and cell-free DNA-binding assays.","evidence_source":"bounded-external-search","directional_finding":"Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.","assessment":{"study":"Human Molt-4 T-cell line and cell-free DNA-binding assays.","population":"Human Molt-4 T-cell line and cell-free DNA-binding assays.","result":"Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.","effect_magnitude":"Directional mechanism evidence; no human dietary effect size assigned.","evidence_summary":"Glutathione depletion inhibited activation and nuclear translocation. Increasing extracellular cysteine inhibited DNA binding and transactivation, associated with higher intracellular GSSG.","limitations":"Primary abstract verified; full methods and quantitative dose-response remain unverified. Cell-culture cysteine exposure is not dietary intake; neither direction implies improved health."},"canonical_reference":{"author_year":"Mihm et al. (1995)","number":12,"anchor":"#pm-ref-12"}},{"label":"Sekhar et al. (2011)","citation_key":"sekhar_glutathione_2011","href":"/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011","data_level":"Human Mechanistic","exposure_context":"Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.","evidence_source":"bounded-external-search","directional_finding":"Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.","assessment":{"study":"Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.","population":"Eight older and eight younger adults; older adults restudied after 14 days of glycine plus N-acetylcysteine.","result":"Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.","effect_magnitude":"Red-cell glutathione absolute synthesis rose 230.9% after combined supplementation; this is not an NF-κB effect magnitude.","evidence_summary":"Stable-isotope tracing measured increased red-cell glutathione synthesis after combined precursor provision.","limitations":"Uncontrolled before/after supplementation in older adults, with younger comparators; no isolated constituent effect, NF-κB measurement, brain endpoint or ordinary-food equivalence."},"canonical_reference":{"author_year":"Sekhar et al. (2011)","number":13,"anchor":"#pm-ref-13"}}],"connected_supportive_evidence":[]}} />
+
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Tested mixed meals differ in NF-kB DNA-binding response","presentation":"mechanistic-basis","fm_rollup":false,"finding_statement":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","finding_summary":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","finding_interpretation":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","synthesis_limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","evidence_considered":[{"label":"Ghanim et al. (2009)","citation_key":"ghanim_increase_2009","href":"/docs/papers/BRAIN-Diet-References#ghanim_increase_2009","data_level":"Human Study","exposure_context":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","evidence_source":"bounded-external-search","directional_finding":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","assessment":{"study":"910-kcal mixed meals: oatmeal/milk/orange juice/raisins/peanut butter/English muffin versus egg/sausage muffins and hash browns.","population":"Two parallel groups of ten healthy lean adults.","result":"NF-kB DNA-binding activity rose after the tested high-fat/high-carbohydrate meal but not after the isocaloric fibre/fruit-rich comparison.","effect_magnitude":"Only the specified source-level endpoint is assessed; no pooled effect or food-dose estimate is inferred.","evidence_summary":"Mononuclear-cell NF-kB DNA binding by electrophoretic mobility shift assay; plasma LPS by LAL and LBP.","limitations":"Small parallel-group acute comparison; multiple ingredients and macronutrients differed. No isolated fibre, fruit or constituent effect; LAL/LBP are not direct proof of gut leakage, portal origin, LPS bioactivity or brain benefit. CRP and TNF-alpha did not change.","retrieval_scope":"Primary full text Methods and Results, including assay methods and Table 1, retrieved. Random allocation was not established.","source_url":"https://pubmed.ncbi.nlm.nih.gov/19755625/"},"canonical_reference":{"author_year":"Ghanim et al. (2009)","number":14,"anchor":"#pm-ref-14"}}],"evidence_dependency":["The source-specific observations support different links; food composition, biochemical identity, intervention exposure and clinical outcomes are not interchangeable. Reuse across PMs is not independent replication."],"connected_supportive_evidence":[]}} />
+
+## 5. BRS Pathways and Connections
+
+### 5.1 BRS Pathways
+
+- None listed
+
+### 5.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — A compromised tight junction lets lipopolysaccharide cross. That is inflammatory pressure on this transcription factor, not the IKK phosphorylation step.
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — The gut–immune interface sets how much microbial product reaches systemic signalling. That is upstream context for this transcription step.
+- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Postprandial glycaemic swings are cited as inflammatory context around this pathway. They are not the IKK phosphorylation reaction.
+
+### 5.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — Gut-derived signalling is the barrier-entry step that can raise the inflammatory load this transcription factor responds to.
+- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — Eicosanoid and resolving-mediator balance is a later lipid-signal step. It is not the IKK release of NF-κB.
+
+## 7. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Cognitive Clarity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Cognitive Clarity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph011-cognitive-clarity" aria-label="Open page: Cognitive Clarity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Medium
+- **Rationale:** Polyphenol-rich dietary patterns and lower pro-inflammatory signalling pressure may support cognitive clarity context in ADHD-relevant populations without single-nutrient outcome claims.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Postprandial and LPS-linked inflammatory signalling intersects ADHD metabolic overlap — pattern-based anti-inflammatory meals may modulate attention-relevant inflammatory tone rather than acute NF-κB pharmacology.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Emotional Regulation — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Emotional Regulation — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph003-emotional-regulation" aria-label="Open page: Emotional Regulation — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Apprehensive Worry / Perseverative Thought — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Apprehensive Worry / Perseverative Thought — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph016-apprehensive-worry-perseverative-thought" aria-label="Open page: Apprehensive Worry / Perseverative Thought — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Systemic inflammation associates with default-mode network connectivity patterns linked to perseverative thought in translational anxiety/depression framing; NF-κB transcriptional tone is the mechanism boundary.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Pleasure & Interest Capacity — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Pleasure & Interest Capacity — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph017-pleasure-interest-capacity" aria-label="Open page: Pleasure & Interest Capacity — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** LPS-linked neurotransmission disruption intersects depressive mood biology in translational reviews; pro-inflammatory transcriptional tone may modulate this context without direct anhedonia-outcome claims.
+</div>
+</div>
+</div>
+
+
+
+{/* deferred-stage2ab-2026-10-23 */}
+<details>
+<summary>Stage 2A/2B dietary-target assessment — 23 October 2026</summary>
+
+**ENRICHED.** NF-kB transcriptional activation, distinguished from upstream redox supply.
+
+Admit the mixed-meal comparison only as a bounded SOP; the study directly measured mononuclear NF-kB DNA binding. Do not attribute the response to isolated fibre, orange juice or polyphenols, or treat upstream GSH as direct evidence of transcriptional regulation.
+
+**New implementation:** 0 dietary-input admissions (0 completed Unset candidates), 1 practices, 0 biochemical participants, 1 unscored Findings. Existing accepted inputs, source assessments, mission, KCs, Phenome relationships and scores are retained.
+
+**Source-to-claim boundary:** [Assessment source](https://pubmed.ncbi.nlm.nih.gov/19755625/). Stop after adjudicating the stated material candidate and tracing supported delivery. Keep uncertain specificity, formulation, anatomical or measurement links explicit; no negative evidence is inferred from incomplete retrieval.
+
+</details>
+{/* /deferred-stage2ab-2026-10-23 */}
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
+- <span id="pm-ref-2">[2]</span> [Zelicha et al. (2022) — DIRECT PLUS Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- <span id="pm-ref-3">[3]</span> [Marsland et al. (2017) — Systemic Inflammation and Brain Structure](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
+- <span id="pm-ref-4">[4]</span> [Brown et al. (2025) — Associations Between ADHD and Metabolic Disorders](/docs/papers/BRAIN-Diet-References#brown_associations_2025)
+- <span id="pm-ref-5">[5]</span> [Tongjaroenbuangam et al. (2011) — Neuroprotective Effects of Quercetin](/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011)
+- <span id="pm-ref-6">[6]</span> [Camuesco et al. (2006) — Intestinal Anti-Inflammatory Activity of Quercitrin](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+- <span id="pm-ref-7">[7]</span> [Mercurio et al. (1997) — IKK-1 and IKK-2: cytokine-activated IkappaB kinases essential for NF-kappaB activation](/docs/papers/BRAIN-Diet-References#mercurio_ikk_1997)
+- <span id="pm-ref-8">[8]</span> [Adams (2001) — Kinetic and Catalytic Mechanisms of Protein Kinases](/docs/papers/BRAIN-Diet-References#adams_kinase_mechanisms_2001)
+- <span id="pm-ref-9">[9]</span> [Li and Zhang (2026) — Effects of Omega-3 Supplementation on Inflammation and Recovery in Sports](/docs/papers/BRAIN-Diet-References#li_omega3_sports_2026)
+- <span id="pm-ref-10">[10]</span> [Cannataro et al. (2024) — Omega-3 and Sports: Focus on Inflammation](/docs/papers/BRAIN-Diet-References#cannataro_omega3_sports_2024)
+- <span id="pm-ref-11">[11]</span> [Reynaert et al. (2006) — Dynamic redox control of NF-κB](/docs/papers/BRAIN-Diet-References#reynaert_redox_nfkb_2006)
+- <span id="pm-ref-12">[12]</span> [Mihm et al. (1995) — Glutathione and extracellular cysteine regulate NF-κB](/docs/papers/BRAIN-Diet-References#mihm_glutathione_nfkb_1995)
+- <span id="pm-ref-13">[13]</span> [Sekhar et al. (2011) — Glutathione precursor provision in older adults](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
+- <span id="pm-ref-14">[14]</span> [Ghanim et al. (2009) — Increase in plasma endotoxin concentrations and the expression of Toll-like receptors and suppressor of cytokine signaling-3 in mononuclear cells after a high-fat, high-carbohydrate meal: implications for insulin resistance.](/docs/papers/BRAIN-Diet-References#ghanim_increase_2009)

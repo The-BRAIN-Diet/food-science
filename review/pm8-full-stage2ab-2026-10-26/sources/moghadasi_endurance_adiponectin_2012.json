@@ -1,0 +1,369 @@
+{
+  "citation_key": "moghadasi_endurance_adiponectin_2012",
+  "doi": "10.1007/s00421-011-2073-2",
+  "metadata": {
+    "id": "21769734",
+    "source": "MED",
+    "pmid": "21769734",
+    "doi": "10.1007/s00421-011-2073-2",
+    "title": "High-intensity endurance training improves adiponectin mRNA and plasma concentrations.",
+    "authorString": "Moghadasi M, Mohebbi H, Rahmani-Nia F, Hassan-Nia S, Noroozi H, Pirooznia N.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Moghadasi M",
+          "lastName": "Moghadasi",
+          "firstName": "Mehrzad",
+          "initials": "M",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8226-2570"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Islamic Azad University, Shiraz branch, Shiraz, Iran. mehrzad.moghadasi@gmail.com"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mohebbi H",
+          "lastName": "Mohebbi",
+          "firstName": "Hamid",
+          "initials": "H",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9858-5964"
+          }
+        },
+        {
+          "fullName": "Rahmani-Nia F",
+          "lastName": "Rahmani-Nia",
+          "firstName": "Farhad",
+          "initials": "F"
+        },
+        {
+          "fullName": "Hassan-Nia S",
+          "lastName": "Hassan-Nia",
+          "firstName": "Sadegh",
+          "initials": "S"
+        },
+        {
+          "fullName": "Noroozi H",
+          "lastName": "Noroozi",
+          "firstName": "Hamid",
+          "initials": "H"
+        },
+        {
+          "fullName": "Pirooznia N",
+          "lastName": "Pirooznia",
+          "firstName": "Nazanin",
+          "initials": "N"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8226-2570"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9858-5964"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "4",
+      "volume": "112",
+      "journalIssueId": 1914369,
+      "dateOfPublication": "2012 Apr",
+      "monthOfPublication": 4,
+      "yearOfPublication": 2012,
+      "journal": {
+        "medlineAbbreviation": "Eur J Appl Physiol",
+        "title": "European journal of applied physiology",
+        "essn": "1439-6327",
+        "issn": "1439-6319",
+        "isoabbreviation": "Eur J Appl Physiol",
+        "nlmid": "100954790"
+      },
+      "printPublicationDate": "2012-04-01"
+    },
+    "pubYear": "2012",
+    "pageInfo": "1207-1214",
+    "abstractText": "Adiponectin is an anti-inflammatory protein that reduced in obesity. Exercise training may reduce the adipose tissue (AT), although it is not well known whether exercise-induced change in AT, increases the adiponectin mRNA expression and plasma concentrations or not; therefore, the purpose of this study was to investigate the adiponectin mRNA and plasma concentrations in middle-aged men after 12\u00a0weeks high-intensity exercise training and after a week detraining. Sixteen sedentary overweight and obese middle-aged men (age 41.18\u00a0\u00b1\u00a06.1\u00a0years;\u00a0\u00b1\u00a0SD) volunteered to participate in this study. The subjects were randomly assigned to training group (n\u00a0=\u00a08) or control group (n\u00a0=\u00a08). The training group performed endurance training 4\u00a0days a week for 12\u00a0weeks at an intensity corresponding to 75-80% individual maximum oxygen consumption for 45\u00a0min. After 12\u00a0weeks of training, subjects underwent a week of detraining. The results showed that the BMI as well as central and peripheral AT volume were decreased in the training group compared to the control group (P\u00a0<\u00a00.05). After 12\u00a0weeks, the training group resulted in a significant increase (P\u00a0<\u00a00.05) in the adiponectin gene expression in abdominal and gluteal subcutaneous AT when compared with the control group. The results showed that plasma adiponectin concentrations increased and insulin resistance decreased after training compared to the control group (P\u00a0<\u00a00.05). After a week of detraining, the variables were not changed significantly in the training group. In conclusion, high-intensity endurance training caused an increase adiponectin mRNA in obese middle-aged men.",
+    "affiliation": "Islamic Azad University, Shiraz branch, Shiraz, Iran. mehrzad.moghadasi@gmail.com",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin Resistance"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DI",
+                "qualifierName": "diagnosis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Weight Loss"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "RNA, Messenger",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Treatment Outcome"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Exercise Therapy"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Analysis of Variance"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Up-Regulation"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Oxygen Consumption"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Physical Endurance"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Time Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Iran"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Subcutaneous Fat",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Abdominal Fat",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DI",
+                "qualifierName": "diagnosis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "TH",
+                "qualifierName": "therapy"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Biomarkers",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sedentary Behavior"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "RNA, Messenger",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ADIPOQ protein, human",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Biomarkers",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1007/s00421-011-2073-2"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 37,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2012-06-29",
+    "dateOfCreation": "2011-07-20",
+    "dateOfRevision": "2026-10-11",
+    "electronicPublicationDate": "2011-07-17",
+    "firstPublicationDate": "2011-07-17",
+    "firstIndexDate": "2011-07-20",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1007%2Fs00421-011-2073-2%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

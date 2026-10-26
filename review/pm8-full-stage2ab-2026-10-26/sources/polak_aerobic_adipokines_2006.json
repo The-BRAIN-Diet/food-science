@@ -1,0 +1,430 @@
+{
+  "citation_key": "polak_aerobic_adipokines_2006",
+  "doi": "10.1016/j.metabol.2006.06.008",
+  "metadata": {
+    "id": "16979409",
+    "source": "MED",
+    "pmid": "16979409",
+    "doi": "10.1016/j.metabol.2006.06.008",
+    "title": "Effect of aerobic training on plasma levels and subcutaneous abdominal adipose tissue gene expression of adiponectin, leptin, interleukin 6, and tumor necrosis factor alpha in obese women.",
+    "authorString": "Polak J, Klimcakova E, Moro C, Viguerie N, Berlan M, Hejnova J, Richterova B, Kraus I, Langin D, Stich V.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Polak J",
+          "lastName": "Polak",
+          "firstName": "Jan",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-9964-652X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Franco-Czech Laboratory for Clinical Research on Obesity, Third Medical Faculty and INSERM Unite 586, Charles University, Prague, Czech Republic. jan.polak@totes.hyperlink.cz"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Klimcakova E",
+          "lastName": "Klimcakova",
+          "firstName": "Eva",
+          "initials": "E"
+        },
+        {
+          "fullName": "Moro C",
+          "lastName": "Moro",
+          "firstName": "Cedric",
+          "initials": "C",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4294-0597"
+          }
+        },
+        {
+          "fullName": "Viguerie N",
+          "lastName": "Viguerie",
+          "firstName": "Nathalie",
+          "initials": "N",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-1730-9915"
+          }
+        },
+        {
+          "fullName": "Berlan M",
+          "lastName": "Berlan",
+          "firstName": "Michel",
+          "initials": "M"
+        },
+        {
+          "fullName": "Hejnova J",
+          "lastName": "Hejnova",
+          "firstName": "Jindriska",
+          "initials": "J"
+        },
+        {
+          "fullName": "Richterova B",
+          "lastName": "Richterova",
+          "firstName": "Blanka",
+          "initials": "B"
+        },
+        {
+          "fullName": "Kraus I",
+          "lastName": "Kraus",
+          "firstName": "Ivan",
+          "initials": "I"
+        },
+        {
+          "fullName": "Langin D",
+          "lastName": "Langin",
+          "firstName": "Dominique",
+          "initials": "D",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2669-7825"
+          }
+        },
+        {
+          "fullName": "Stich V",
+          "lastName": "Stich",
+          "firstName": "Vladimir",
+          "initials": "V"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9964-652X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1730-9915"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2669-7825"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4294-0597"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "10",
+      "volume": "55",
+      "journalIssueId": 1349790,
+      "dateOfPublication": "2006 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2006,
+      "journal": {
+        "medlineAbbreviation": "Metabolism",
+        "title": "Metabolism: clinical and experimental",
+        "essn": "1532-8600",
+        "issn": "0026-0495",
+        "nlmid": "0375267",
+        "isoabbreviation": "Metabolism"
+      },
+      "printPublicationDate": "2006-10-01"
+    },
+    "pubYear": "2006",
+    "pageInfo": "1375-1381",
+    "abstractText": "Adipocytokines secreted by adipose tissue are suggested to play a role in the development of obesity-related complications. Regular aerobic exercise has been shown to reduce the risk of metabolic complications in obese subjects. The aim of this study was to investigate the effect of aerobic training on gene expression in subcutaneous abdominal adipose tissue (SCAAT) and on plasma levels of several adipocytokines in obese women. Twenty-five obese sedentary premenopausal women (body mass index, 32.18 +/- 3.17 kg/m(2)) underwent a 12-week aerobic exercise program, with a frequency of 5 d/wk and intensity corresponding to 50% of individual maximal oxygen consumption (V(.-)(O(2)max)) consisting of 2 sessions per week of supervised aerobic exercise and 3 sessions per week of home-based exercise on a bicycle ergometer. Before and after the aerobic training, (V(.-)(O(2)max)) and body composition were measured and plasma and SCAAT biopsy samples (in a subgroup of 8 subjects) were obtained for determination of plasma and messenger RNA levels of adipocytokines (leptin, adiponectin, interleukin 6, tumor necrosis factor alpha). The aerobic training resulted in an increase of subjects' V o(2)max by 12.8% (24.6 +/- 3.9 vs 27.7 +/- 4.8 mL x min(-1) x kg(-1), P < .05). Body weight and fat mass were reduced by 5.9% (88.5 +/- 8.2 vs 83.3 +/- 7.7 kg, P < .001) and 6.4% (38.8 +/- 4.2% vs 36.3 +/- 4.6%, P < .001), respectively, and the revised QUantitative Insulin sensitivity ChecK Index (QUICKI) increased (0.43 +/- 0.06 vs 0.48 +/- 0.06, P < .05) during the aerobic training. No aerobic training-induced changes in messenger RNA levels of the investigated genes in SCAAT were observed. A decrease of plasma leptin (24.3 +/- 8.7 vs 18.1 +/- 8.3 ng/mL, P < .05) was detected, whereas plasma levels of other cytokines remained unchanged. In moderately obese females, 3 months' aerobic training did not promote changes in the adipose tissue gene expression or plasma levels of the adipocytokines (except for leptin) involved in a regulation of lipid and carbohydrate metabolism.",
+    "affiliation": "Franco-Czech Laboratory for Clinical Research on Obesity, Third Medical Faculty and INSERM Unite 586, Charles University, Prague, Czech Republic. jan.polak@totes.hyperlink.cz",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Glucose",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Triglycerides",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Tumor Necrosis Factor-alpha",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "RNA, Messenger",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Interleukin-6",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Exercise",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Diet"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Prospective Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Composition"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Oxygen Consumption",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Kinetics"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Physical Fitness"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Abdominal Fat",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BI",
+                "qualifierName": "biosynthesis"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "GE",
+                "qualifierName": "genetics"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "RNA, Messenger",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Triglycerides",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Blood Glucose",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Tumor Necrosis Factor-alpha",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Interleukin-6",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.metabol.2006.06.008"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 138,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2006-10-31",
+    "dateOfCreation": "2006-09-19",
+    "dateOfRevision": "2006-11-15",
+    "firstPublicationDate": "2006-10-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.metabol.2006.06.008%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

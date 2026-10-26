@@ -9,7 +9,6 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | BRS1-FM1-PM1::PM1-DIT-1 | Indispensable amino-acid supply |  | BRS1-FM1-PM1 | requires-identity-reconciliation |
 | vitamin-b6 | Pyridoxal 5′-phosphate (PLP; active vitamin B6 cofactor) |  | BRS1-FM1-PM3, BRS1-FM1-PM4, BRS1-FM1-PM5, BRS2-FM2-PM5 | requires-pathway-reconciliation |
 | phosphatidylcholine | Choline |  | BRS1-FM2-PM6, BRS2-FM3-PM7 | requires-pathway-reconciliation |
-| vitamin-b6 | PLP |  | BRS1-FM4-PM9 | requires-pathway-reconciliation |
 | Kale | 5-methyltetrahydrofolate | raw | BRS2-FM1-PM1 | pending-independent-verification |
 | Spinach | 5-methyltetrahydrofolate | unspecified | BRS2-FM1-PM1 | pending-independent-verification |
 | Nori | vitamin-b9 | dried | BRS2-FM1-PM1, BRS2-FM1-PM4 | requires-material-equivalence-review |

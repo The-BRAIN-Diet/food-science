@@ -1,0 +1,324 @@
+{
+  "citation_key": "rausch_omega3_adipokines_2021",
+  "doi": "10.1016/j.nutres.2020.11.002",
+  "metadata": {
+    "id": "33482602",
+    "source": "MED",
+    "pmid": "33482602",
+    "doi": "10.1016/j.nutres.2020.11.002",
+    "title": "Systematic review of marine-derived omega-3 fatty acid supplementation effects on leptin, adiponectin, and the leptin-to-adiponectin ratio.",
+    "authorString": "Rausch J, Gillespie S, Orchard T, Tan A, McDaniel JC.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Rausch J",
+          "lastName": "Rausch",
+          "firstName": "Jamie",
+          "initials": "J",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-8310-1584"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Indiana University Fort Wayne, School of Nursing, Fort Wayne, IN, 46805, USA. Electronic address: annijr08@outlook.com."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Gillespie S",
+          "lastName": "Gillespie",
+          "firstName": "Shannon",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0904-3299"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ohio State University, College of Nursing, Columbus, OH, 43210, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Orchard T",
+          "lastName": "Orchard",
+          "firstName": "Tonya",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ohio State University, College of Education and Human Ecology, Columbus, OH, 43210, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tan A",
+          "lastName": "Tan",
+          "firstName": "Alai",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-2907-9088"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ohio State University, College of Nursing, Columbus, OH, 43210, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "McDaniel JC",
+          "lastName": "McDaniel",
+          "firstName": "Jodi C",
+          "initials": "JC",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-3089-4928"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Ohio State University, College of Nursing, Columbus, OH, 43210, USA."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-8310-1584"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-0904-3299"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-2907-9088"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-3089-4928"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "volume": "85",
+      "journalIssueId": 3107535,
+      "dateOfPublication": "2021 Jan",
+      "monthOfPublication": 1,
+      "yearOfPublication": 2021,
+      "journal": {
+        "medlineAbbreviation": "Nutr Res",
+        "title": "Nutrition research (New York, N.Y.)",
+        "essn": "1879-0739",
+        "issn": "0271-5317",
+        "isoabbreviation": "Nutr Res",
+        "nlmid": "8303331"
+      },
+      "printPublicationDate": "2021-01-01"
+    },
+    "pubYear": "2021",
+    "pageInfo": "135-152",
+    "abstractText": "Increasing evidence suggests that adipokines, leptin and adiponectin, produced and secreted by adipocytes, are involved in regulating systemic inflammation and may be important targets for interventions to reduce the chronic systemic inflammation linked to some conditions common in aging (e.g., atherosclerosis). Lower leptin levels and higher adiponectin levels in peripheral circulation have been associated with less systemic inflammation. While some studies have shown that marine-derived omega-3 fatty acids (eicosapentaenoic acid [EPA] and/or docosahexaenoic acid [DHA]) have effects on leptin and adiponectin in the context of inflammation, the extent of their effects remain unclear. The purpose of this systematic review was to summarize findings from randomized, controlled trials that measured effects of EPA+DHA supplementation on circulating levels of leptin and adiponectin to determine the state of the science. PubMed, CINAHL, Web of Science, Scopus, and Cochrane Trials were searched up to June 2018 for studies meeting inclusion criteria. Thirty-one studies included in this review were conducted in 16 countries. Eighteen studies reported lower leptin and/or higher adiponectin levels with EPA+DHA supplementation versus placebo at study end point (9 reported statistically significant differences), but doses, supplementation duration, and population characteristics varied across studies. In 9 studies reporting significantly lower leptin and/or higher adiponectin levels the EPA+DHA dose was 0.52 to 4.2 g/day for 4 to 24 weeks. Additional studies are warranted which assess dose parameters and patient populations similar to studies reporting significant effects of EPA+DHA on leptin or adiponectin in order to evaluate the extent of reproducibility before recommending EPA+DHA as a therapy to target these adipokines.",
+    "affiliation": "Indiana University Fort Wayne, School of Nursing, Fort Wayne, IN, 46805, USA. Electronic address: annijr08@outlook.com.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Systematic Review",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "Robert Wood Johnson Foundation",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Docosahexaenoic Acids",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Eicosapentaenoic Acid",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fish Oils",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Dietary Supplements"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Unsaturated fatty acids",
+        "Leptin",
+        "Inflammation",
+        "Fish oils",
+        "Systematic review",
+        "adiponectin",
+        "Omega-3"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Fish Oils",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Docosahexaenoic Acids",
+          "registryNumber": "25167-62-8"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Eicosapentaenoic Acid",
+          "registryNumber": "AAN7QOV9EA"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "doi",
+          "site": "Unpaywall",
+          "url": "https://doi.org/10.1016/j.nutres.2020.11.002"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1016/j.nutres.2020.11.002"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 22,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "license": "cc by-nc-nd",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2021-10-08",
+    "dateOfCreation": "2021-01-22",
+    "dateOfRevision": "2021-10-08",
+    "electronicPublicationDate": "2020-11-17",
+    "firstPublicationDate": "2020-11-17",
+    "firstIndexDate": "2021-01-23",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.nutres.2020.11.002%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

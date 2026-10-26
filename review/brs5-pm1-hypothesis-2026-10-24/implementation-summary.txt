@@ -1,0 +1,13 @@
+BRS5-FM1-PM1 — CANONICAL HYPOTHESIS 1
+
+Implemented PM1-H1, Resistant Starch–Derived Butyrate and Tight-Junction Regulation, using the existing Scientific Hypotheses schema and component. Status Unestablished. Direction BRS5-FM2-PM5 -> BRS5-FM1-PM1. Located immediately before Scientific Findings; existing Findings numbering and content are unchanged.
+
+The rationale makes the five links explicit: dietary substrate delivery; community-dependent butyrate production; luminal/epithelial availability and uptake; cellular junction-related mechanism; and functional paracellular outcome. Separate-link support is not presented as proof of the complete chain. The reviewed evidence sources, roles, limitations and required-evidence statements are preserved. Moreau's temporal ordering, Peng's cellular AMPK mechanism, the human null and the distinct transcellular positive outcome remain visible. Historical preparation provenance is retained and the user's canonical approval is appended.
+
+No Dietary Confidence assessment is created. Dietary admission remains unresolved; confidence is not applicable. No hypothesis row, approved causal link, food edge or manuscript dietary row is created. Existing butyrate/fibre records, admissions, Findings, references, scores and mappings are preserved exactly.
+
+Validation: 147 focused tests pass. Governance and Findings checks pass across all 64 PMs, the global hypothesis check passes, and all 84 SEC history snapshots remain valid. Full PM1 compiles with the existing Docusaurus MDX/layout pipeline. Before/after causal extraction, manuscript records, food relationships and repair tasks are identical. No full production build was requested or run.
+
+The older PM9 hypothesis suite passes 9/10 tests. Its frozen cross-page hash expectation for PM5 failed before and after this change. That historical expectation was not altered or bypassed.
+
+Canonical scientific changes in this step are limited to PM1's hypothesis. Existing uncommitted Dietary Confidence work remains preserved. Nothing was committed, pushed, merged or deployed.

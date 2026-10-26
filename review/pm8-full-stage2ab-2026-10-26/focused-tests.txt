@@ -1,0 +1,180 @@
+TAP version 13
+# Subtest: approved canonical identities/routes and exact missions; PM9 scientific objects preserved
+ok 1 - approved canonical identities/routes and exact missions; PM9 scientific objects preserved
+  ---
+  duration_ms: 8.275959
+  ...
+# Subtest: all eleven historical Findings and intervention/KC/score records preserved exactly outside active evidence
+ok 2 - all eleven historical Findings and intervention/KC/score records preserved exactly outside active evidence
+  ---
+  duration_ms: 0.759208
+  ...
+# Subtest: PM8 issues removed entirely; unrelated issue records unchanged
+ok 3 - PM8 issues removed entirely; unrelated issue records unchanged
+  ---
+  duration_ms: 0.361
+  ...
+# Subtest: summary derives only retained active questions and important completed non-admission
+ok 4 - summary derives only retained active questions and important completed non-admission
+  ---
+  duration_ms: 0.256625
+  ...
+# Subtest: new curated Principles require complete provenance; PM1 compatibility is preserved
+ok 5 - new curated Principles require complete provenance; PM1 compatibility is preserved
+  ---
+  duration_ms: 3.056584
+  ...
+# Subtest: all 88 pre-rerun SEC snapshots immutable; current exact-proposition records are pinned
+ok 6 - all 88 pre-rerun SEC snapshots immutable; current exact-proposition records are pinned
+  ---
+  duration_ms: 40.72025
+  ...
+# Subtest: no unresolved practice or dietary input enters promoted sections or food/manuscript extraction
+ok 7 - no unresolved practice or dietary input enters promoted sections or food/manuscript extraction
+  ---
+  duration_ms: 166.516541
+  ...
+# Subtest: reference keys resolve and local reference anchors remain valid
+ok 8 - reference keys resolve and local reference anchors remain valid
+  ---
+  duration_ms: 12.169833
+  ...
+# Subtest: actual summary renderer exposes accessible disclosures, canonical flask outline, precise links, no historical backlog
+ok 9 - actual summary renderer exposes accessible disclosures, canonical flask outline, precise links, no historical backlog
+  ---
+  duration_ms: 29.658541
+  ...
+# Subtest: actual audit component retains original issue and Finding anchors and all history
+ok 10 - actual audit component retains original issue and Finding anchors and all history
+  ---
+  duration_ms: 228.817708
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx
+ok 11 - targeted canonical MDX compilation: brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx
+  ---
+  duration_ms: 341.168917
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx
+ok 12 - targeted canonical MDX compilation: brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx
+  ---
+  duration_ms: 61.532167
+  ...
+# Subtest: targeted canonical MDX compilation: brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx
+ok 13 - targeted canonical MDX compilation: brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx
+  ---
+  duration_ms: 13.71675
+  ...
+# Subtest: full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+ok 14 - full rerun preserves mission, identity, Principles, prior propositions and unrelated pages
+  ---
+  duration_ms: 56.689625
+  ...
+# Subtest: main mechanism retained, detailed Findings relocated and old hashes explicitly route to audit
+ok 15 - main mechanism retained, detailed Findings relocated and old hashes explicitly route to audit
+  ---
+  duration_ms: 0.199208
+  ...
+# Subtest: gaps are missing evidence links; authoritative active issues are not copied into gap list
+ok 16 - gaps are missing evidence links; authoritative active issues are not copied into gap list
+  ---
+  duration_ms: 0.202291
+  ...
+# Subtest: every pilot gap resolves its canonical Findings, bibliography and optional issue
+ok 17 - every pilot gap resolves its canonical Findings, bibliography and optional issue
+  ---
+  duration_ms: 0.140208
+  ...
+# Subtest: canonical shared tab order, URL-state selection and PM8-only opt-in
+ok 18 - canonical shared tab order, URL-state selection and PM8-only opt-in
+  ---
+  duration_ms: 125.213875
+  ...
+# Subtest: real gap component retains blue flask, three records and exact destination links
+ok 19 - real gap component retains blue flask, three records and exact destination links
+  ---
+  duration_ms: 27.06275
+  ...
+# Subtest: pilot gap validator fails closed on missing evidence and unresolved references
+ok 20 - pilot gap validator fails closed on missing evidence and unresolved references
+  ---
+  duration_ms: 10.177417
+  ...
+# Subtest: existing Finding generator respects audit-only placement on future reruns
+ok 21 - existing Finding generator respects audit-only placement on future reruns
+  ---
+  duration_ms: 45.021
+  ...
+# Subtest: Open Issues use canonical numbered disclosures and exact persistent IDs
+ok 22 - Open Issues use canonical numbered disclosures and exact persistent IDs
+  ---
+  duration_ms: 17.562291
+  ...
+# Subtest: owner removal policy prevents regeneration and retains unresolved evidence propositions only
+ok 23 - owner removal policy prevents regeneration and retains unresolved evidence propositions only
+  ---
+  duration_ms: 1.497708
+  ...
+# Subtest: approved mission, KCs, food inputs, Principles and old propositions retained
+ok 24 - approved mission, KCs, food inputs, Principles and old propositions retained
+  ---
+  duration_ms: 1.943709
+  ...
+# Subtest: six-atom practices pass their actual section validators
+ok 25 - six-atom practices pass their actual section validators
+  ---
+  duration_ms: 0.419667
+  ...
+# Subtest: all discovery groups have dispositions; only bounded programmes admitted
+ok 26 - all discovery groups have dispositions; only bounded programmes admitted
+  ---
+  duration_ms: 0.131167
+  ...
+# Subtest: release subgroup, depot and null results preserved
+ok 27 - release subgroup, depot and null results preserved
+  ---
+  duration_ms: 0.137833
+  ...
+# Subtest: exercise concentrations and transcripts do not become secretion flux
+ok 28 - exercise concentrations and transcripts do not become secretion flux
+  ---
+  duration_ms: 0.060292
+  ...
+# Subtest: EPA/DHA cultured exposure and review do not create a nutrient admission
+ok 29 - EPA/DHA cultured exposure and review do not create a nutrient admission
+  ---
+  duration_ms: 0.106334
+  ...
+# Subtest: 88 prior SEC snapshots immutable; four old Findings keep unresolved factors
+ok 30 - 88 prior SEC snapshots immutable; four old Findings keep unresolved factors
+  ---
+  duration_ms: 36.968375
+  ...
+# Subtest: one provisional score implies neither human approval nor Dietary Confidence
+ok 31 - one provisional score implies neither human approval nor Dietary Confidence
+  ---
+  duration_ms: 2.078375
+  ...
+# Subtest: dietary qualification does not automatically establish principal placement
+ok 32 - dietary qualification does not automatically establish principal placement
+  ---
+  duration_ms: 0.296417
+  ...
+# Subtest: deleted issues remain absent and relevant unresolved propositions stay in gaps
+ok 33 - deleted issues remain absent and relevant unresolved propositions stay in gaps
+  ---
+  duration_ms: 0.9685
+  ...
+# Subtest: actual disclosure projection exposes both admitted practices with source references and Finding links
+ok 34 - actual disclosure projection exposes both admitted practices with source references and Finding links
+  ---
+  duration_ms: 3.90975
+  ...
+1..34
+# tests 34
+# suites 0
+# pass 34
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1491.562583

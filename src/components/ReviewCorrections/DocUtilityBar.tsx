@@ -1,3 +1,4 @@
+import {Stage2ReviewProvider} from '../Stage2Review'
 import React, {type KeyboardEvent, type ReactNode, useEffect, useLayoutEffect, useMemo} from "react"
 import clsx from "clsx"
 import {useHistory, useLocation} from "@docusaurus/router"
@@ -19,7 +20,11 @@ import {CanonicalSecAudit} from "../SecAssessment"
 import EvidenceAudit from "../SecCalibrationPreview/EvidenceAudit"
 import {isAuditPreview} from "../SecCalibrationPreview/assessmentAudit.mjs"
 import OpenIssuesPanel from "./OpenIssuesPanel"
+import EvidenceGaps from "../EvidenceGaps"
+import {initBrsFmHubDropdowns} from "../../client/brsFmHubDropdown"
+import {evidenceGapItems} from "@site/src/lib/scientificTransparency.mjs"
 import {currentPmOpenIssues, OPEN_ISSUES_QUERY_PARAM} from "@site/src/data/pmOpenIssues.mjs"
+import {historicalFindingIds} from "@site/src/lib/scientificTransparency.mjs"
 import pmOpenIssueRecords from "../../../system/framework-qc/pm-open-issues.json"
 import styles from "./styles.module.css"
 
@@ -29,7 +34,7 @@ function extraPageIds(frontMatter: Record<string, unknown>): string[] {
     .filter((value): value is string => typeof value === "string" && value.length > 0)
 }
 
-type ContentTab = "highlights" | "advanced" | "therapeutic" | "review" | "issues"
+type ContentTab = "highlights" | "advanced" | "therapeutic" | "review" | "issues" | "gaps"
 
 const THERAPEUTIC_HASH_IDS = new Set([
   "walsh-biochemical-biotypes",
@@ -40,7 +45,7 @@ const THERAPEUTIC_HASH_IDS = new Set([
   "therapeutic-area-research-references",
 ])
 
-export default function DocUtilityBar({
+function DocUtilityBarContent({
   children,
 }: {
   children: ReactNode
@@ -86,7 +91,8 @@ export default function DocUtilityBar({
   const secFindings = Array.isArray(fm.scientific_findings) ? fm.scientific_findings : []
   const hasSecReferences = isPmPage && secFindings.some(f => f && Object.hasOwn(f, "sec_assessment_ref"))
   const openIssueCount = currentPmOpenIssues(pmOpenIssueRecords.issues, pmId).length
-  const showOpenIssuesTab = isPmPage && openIssueCount > 0
+  const showEvidenceGapsTab = isPmPage && fm.evidence_gaps_tab === true && evidenceGapItems(pmOpenIssueRecords.issues, pmId, fm.intervention_adjudications as any[], fm.evidence_gaps as any[]).length > 0
+  const showOpenIssuesTab = isPmPage && (fm.evidence_tabs_version === 1 || openIssueCount > 0)
   const showReviewTab = onContentPage && (includeInternalDocs || isPmPage || auditPreview)
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
@@ -98,24 +104,27 @@ export default function DocUtilityBar({
   const hashId = location.hash.replace(/^#/, "")
   const reviewOpen = showReviewTab && params.get(REVIEW_QUERY_PARAM) === "1"
   const issuesOpen = showOpenIssuesTab && params.get(OPEN_ISSUES_QUERY_PARAM) === "1" && !reviewOpen
+  const gapsOpen = showEvidenceGapsTab && params.get("evidence-gaps") === "1" && !reviewOpen && !issuesOpen
   const therapeuticHash = Boolean(hashId) && THERAPEUTIC_HASH_IDS.has(hashId)
   const therapeuticOpen =
     showContentTabs &&
     hasTherapeutic &&
     !reviewOpen &&
     !issuesOpen &&
+    !gapsOpen &&
     (params.get(THERAPEUTIC_QUERY_PARAM) === "1" || therapeuticHash)
   const advancedOpen =
     showContentTabs &&
     hasAdvanced &&
     !reviewOpen &&
     !issuesOpen &&
+    !gapsOpen &&
     !therapeuticOpen &&
     params.get(ADVANCED_QUERY_PARAM) === "1"
-  const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen
+  const highlightsOpen = !reviewOpen && !issuesOpen && !advancedOpen && !therapeuticOpen && !gapsOpen
   const qcLabel =
-    auditPreview || hasSecReferences ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
-  const issuesLabel = `Open Issues (${openIssueCount})`
+    auditPreview || isPmPage ? "Evidence & Audit" : openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
+  const issuesLabel = openIssueCount > 0 ? `Open Issues (${openIssueCount})` : "Open Issues"
 
   useLayoutEffect(() => {
     setUseTabPanel?.(showContentTabs)
@@ -124,10 +133,12 @@ export default function DocUtilityBar({
 
   function setContentTab(tab: ContentTab) {
     const nextParams = new URLSearchParams(location.search)
+    nextParams.delete("evidence-gaps")
     nextParams.delete(REVIEW_QUERY_PARAM)
     nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
     nextParams.delete(ADVANCED_QUERY_PARAM)
     nextParams.delete(THERAPEUTIC_QUERY_PARAM)
+    if (tab === "gaps") nextParams.set("evidence-gaps", "1")
     if (tab === "review") nextParams.set(REVIEW_QUERY_PARAM, "1")
     if (tab === "issues") nextParams.set(OPEN_ISSUES_QUERY_PARAM, "1")
     if (tab === "advanced") nextParams.set(ADVANCED_QUERY_PARAM, "1")
@@ -142,9 +153,33 @@ export default function DocUtilityBar({
   }
 
   useEffect(() => {
-    if (reviewOpen || issuesOpen) return
+    if (reviewOpen) return
     const id = location.hash.replace(/^#/, "")
     if (!id) return
+    if (fm.evidence_tabs_version === 1 && secFindings.some(f => String(f.id).toLowerCase() === id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete("evidence-gaps")
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: "?" + nextParams, hash: location.hash})
+      return
+    }
+    const retiredIssue = pmOpenIssueRecords.issues.find(row => row.pm_id === pmId && row.id.toLowerCase() === id && row.scope_disposition && row.scope_disposition !== 'retain')
+    if (retiredIssue) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: `${location.hash}-history`})
+      return
+    }
+    if (issuesOpen) return
+    if (historicalFindingIds(fm).includes(id)) {
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(OPEN_ISSUES_QUERY_PARAM)
+      nextParams.set(REVIEW_QUERY_PARAM, "1")
+      history.replace({pathname: location.pathname, search: `?${nextParams}`, hash: location.hash})
+      return
+    }
     if (THERAPEUTIC_HASH_IDS.has(id)) {
       if (!hasTherapeutic || therapeuticOpen) return
       const nextParams = new URLSearchParams(location.search)
@@ -184,11 +219,16 @@ export default function DocUtilityBar({
   ])
 
   useEffect(() => {
-    if (reviewOpen || issuesOpen) {
+    if (reviewOpen || issuesOpen || gapsOpen) {
       const heading = document.querySelector<HTMLElement>(
-        reviewOpen ? "#review-corrections-panel h2" : "#open-issues-panel h2",
+        reviewOpen ? "#review-corrections-panel h2" : gapsOpen ? "#evidence-gaps-panel h2" : "#open-issues-panel h2",
       )
-      heading?.focus()
+      const panelId = reviewOpen ? "review-corrections-panel" : gapsOpen ? "evidence-gaps-panel" : "open-issues-panel"
+      const panel = document.getElementById(panelId)
+      if (fm.evidence_tabs_version === 1 && panel) initBrsFmHubDropdowns(panel, {forceHash:true})
+      const target = location.hash ? document.getElementById(location.hash.slice(1)) : null
+      if (target && panel?.contains(target)) target.scrollIntoView({block:"start"})
+      else heading?.focus()
       const onKey = (event: globalThis.KeyboardEvent) => {
         if (event.key === "Escape") setContentTab("highlights")
       }
@@ -216,7 +256,7 @@ export default function DocUtilityBar({
     }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
-  }, [reviewOpen, issuesOpen, advancedOpen, therapeuticOpen, location.hash])
+  }, [reviewOpen, issuesOpen, gapsOpen, advancedOpen, therapeuticOpen, location.hash])
 
   const tabIds = [
     ...(showContentTabs
@@ -226,6 +266,7 @@ export default function DocUtilityBar({
           ...(hasTherapeutic ? ["therapeutic-area-research-tab"] : []),
         ]
       : []),
+    ...(showEvidenceGapsTab ? ["evidence-gaps-tab"] : []),
     ...(showOpenIssuesTab ? ["open-issues-tab"] : []),
     ...(showReviewTab ? ["review-corrections-tab"] : []),
   ]
@@ -331,8 +372,13 @@ export default function DocUtilityBar({
         ) : (
           <div />
         )}
-        {showOpenIssuesTab || showReviewTab ? (
+        {showEvidenceGapsTab || showOpenIssuesTab || showReviewTab ? (
           <div className={clsx(styles.qcWrap, showContentTabs && styles.qcWrapSeparated)}>
+            {showEvidenceGapsTab ? (
+              <button type="button" id="evidence-gaps-tab" className={clsx(styles.tab, gapsOpen && styles.tabSelected)} role="tab" aria-selected={gapsOpen} aria-controls="evidence-gaps-panel" tabIndex={gapsOpen || !showContentTabs ? 0 : -1} onClick={() => setContentTab(gapsOpen ? "highlights" : "gaps")}>
+                Evidence Gaps
+              </button>
+            ) : null}
             {showOpenIssuesTab ? (
               <button
                 type="button"
@@ -364,14 +410,15 @@ export default function DocUtilityBar({
           </div>
         ) : null}
       </div>
-      <div className={clsx((reviewOpen || issuesOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
+      <div className={clsx((reviewOpen || issuesOpen || gapsOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
         {children}
       </div>
+      {gapsOpen ? <EvidenceGaps panelId="evidence-gaps-panel" /> : null}
       {issuesOpen ? (
         <OpenIssuesPanel pmId={pmId} frontMatter={fm} panelId="open-issues-panel" />
       ) : null}
       {reviewOpen ? (
-        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : hasSecReferences ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
+        auditPreview ? <EvidenceAudit panelId="review-corrections-panel" /> : isPmPage ? <CanonicalSecAudit findings={secFindings} pmId={pmId} page={page} frontMatter={fm} panelId="review-corrections-panel"/> : <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}
       {advancedOpen && contentSlots?.panels.advanced ? (
         <div
@@ -395,4 +442,8 @@ export default function DocUtilityBar({
       ) : null}
     </>
   )
+}
+
+export default function DocUtilityBar({children}: {children: ReactNode}): ReactNode {
+  return <Stage2ReviewProvider><DocUtilityBarContent>{children}</DocUtilityBarContent></Stage2ReviewProvider>
 }

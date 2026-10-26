@@ -1,0 +1,214 @@
+{
+  "citation_key": "abbasi_flaxseed_adipokines_2023",
+  "doi": "10.3389/fnut.2023.1179089",
+  "metadata": {
+    "id": "37743909",
+    "source": "MED",
+    "pmid": "37743909",
+    "pmcid": "PMC10513937",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC10513937"
+      ]
+    },
+    "doi": "10.3389/fnut.2023.1179089",
+    "title": "Can flaxseed supplementation affect circulating adipokines in adults? An updated systematic review and meta-analysis of randomized controlled trials.",
+    "authorString": "Abbasi S, Karimi K, Hossein Moridpour A, Musazadeh V, Faghfouri AH, Jozi H.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Abbasi S",
+          "lastName": "Abbasi",
+          "firstName": "Shaghayegh",
+          "initials": "S",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Pharmacy, Shahid Sadoughi University of Medical Sciences, Yazd, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Karimi K",
+          "lastName": "Karimi",
+          "firstName": "Kiana",
+          "initials": "K",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Nutrition, Isfahan University of Medical Sciences, Isfahan, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hossein Moridpour A",
+          "lastName": "Hossein Moridpour",
+          "firstName": "Amir",
+          "initials": "A",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Student Research Committee, Tabriz University of Medical Sciences, Tabriz, Iran."
+              },
+              {
+                "affiliation": "School of Nutrition and Food Sciences, Tabriz University of Medical Sciences, Tabriz, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Musazadeh V",
+          "lastName": "Musazadeh",
+          "firstName": "Vali",
+          "initials": "V",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Student Research Committee, Tabriz University of Medical Sciences, Tabriz, Iran."
+              },
+              {
+                "affiliation": "School of Nutrition and Food Sciences, Tabriz University of Medical Sciences, Tabriz, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Faghfouri AH",
+          "lastName": "Faghfouri",
+          "firstName": "Amir Hossein",
+          "initials": "AH",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Maternal and Childhood Obesity Research Center, Urmia University of Medical Sciences, Urmia, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Jozi H",
+          "lastName": "Jozi",
+          "firstName": "Hannane",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Student Research Committee, Tabriz University of Medical Sciences, Tabriz, Iran."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-9281-4471"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "volume": "10",
+      "journalIssueId": 3497125,
+      "dateOfPublication": "2023 ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 2023,
+      "journal": {
+        "medlineAbbreviation": "Front Nutr",
+        "title": "Frontiers in nutrition",
+        "essn": "2296-861X",
+        "issn": "2296-861X",
+        "isoabbreviation": "Front Nutr",
+        "nlmid": "101642264"
+      },
+      "printPublicationDate": "2023-01-01"
+    },
+    "pubYear": "2023",
+    "pageInfo": "1179089",
+    "abstractText": "<h4>Introduction</h4>The findings of randomized controlled trials (RCTs) regarding the effect of flaxseed on adipokine concentrations are conflicting. Therefore, the present meta-analysis was conducted to provide definite and conclusive results.<h4>Methods</h4>Systematically, Scopus, Embase, PubMed, Web of Science databases, and Google Scholar were searched for relevant literature published up to December 2022. Based on random-effect models, standard mean differences (SMDs) were calculated for net changes in adipokine concentrations.<h4>Results</h4>Overall, 13 RCTs (15 arms) were eligible to be included. The results indicated that leptin was significantly reduced after the intervention with flaxseed supplement (SMD = -0.69, 95% CI: -1.37, -0.01; <i>p</i> = 0.048; <i>I</i><sup>2</sup> = 92.0%, <i>p</i> < 0.001). In addition, flaxseed supplements had no considerable effect on plasma adiponectin (SMD = 0.52, 95% CI: -0.20, 1.25, <i>p</i> = 0.159; <i>I</i><sup>2</sup> = 92.0%, <i>p</i> < 0.001).<h4>Discussion</h4>Flaxseed significantly improves leptin but does not affect adiponectin concentrations. Additional future well-designed trials are required to further assess the potential benefits of flaxseed on adipokines in humans.",
+    "affiliation": "Department of Pharmacy, Shahid Sadoughi University of Medical Sciences, Yazd, Iran.",
+    "publicationStatus": "epublish",
+    "language": "eng",
+    "pubModel": "Electronic-eCollection",
+    "pubTypeList": {
+      "pubType": [
+        "Systematic Review",
+        "systematic-review",
+        "Journal Article"
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Leptin",
+        "Flaxseed",
+        "Meta-analysis",
+        "Systematic review",
+        "adiponectin"
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.3389/fnut.2023.1179089"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10513937"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC10513937?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 1,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "license": "cc by",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "doi"
+      ]
+    },
+    "dateOfCreation": "2023-09-25",
+    "dateOfRevision": "2024-09-25",
+    "electronicPublicationDate": "2023-09-07",
+    "firstPublicationDate": "2023-09-07",
+    "firstIndexDate": "2023-09-26",
+    "fullTextReceivedDate": "2023-09-25",
+    "hasEvaluations": "N"
+  },
+  "retrieved_on": "2026-10-26"
+}

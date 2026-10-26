@@ -1992,48 +1992,6 @@
         "Dietary-depletion evidence is preclinical; extra intake in magnesium-replete humans is not shown here."
       ],
       "missing_ontology_edge": null
-    },
-    {
-      "brs": "BRS6",
-      "fm": "BRS6(FM4)",
-      "pm": "BRS6-FM4-PM8",
-      "biological_mechanism": "Limit metabolic-inflammatory signalling from adipose stress so whole-body resource allocation is not overloaded.",
-      "dietary_input": "Green Mediterranean dietary pattern",
-      "type": "B",
-      "classification": "direct",
-      "canonical_substance_id": null,
-      "ontology_connections": {
-        "identity": "unresolved",
-        "conversion": "not-applicable",
-        "food": "unresolved"
-      },
-      "scientific_admission": "admitted",
-      "admission_basis": "historical-decision-pending-reconciliation",
-      "food_target": null,
-      "food_title": null,
-      "food_material": null,
-      "material_equivalence_status": null,
-      "material_equivalence_reason": null,
-      "ontology_relationship_status": null,
-      "reconciled_sources": [],
-      "mapping_status": "unresolved",
-      "food_evidence": null,
-      "pm_evidence": {
-        "finding_ids": [
-          "PM8-F3"
-        ],
-        "citation_keys": [
-          "zelicha_effect_2022",
-          "zelicha_proteome_2024"
-        ]
-      },
-      "preparation": null,
-      "delivery": null,
-      "conversion_pathway": [],
-      "limitations": [
-        "The randomized evidence applies to the combined pattern with physical activity; individual food effects and adipose inflammatory mediation remain uncertain."
-      ],
-      "missing_ontology_edge": null
     }
   ]
 }

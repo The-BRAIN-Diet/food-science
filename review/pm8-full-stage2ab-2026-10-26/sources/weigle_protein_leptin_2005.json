@@ -1,0 +1,399 @@
+{
+  "citation_key": "weigle_protein_leptin_2005",
+  "doi": "10.1093/ajcn.82.1.41",
+  "metadata": {
+    "id": "16002798",
+    "source": "MED",
+    "pmid": "16002798",
+    "doi": "10.1093/ajcn.82.1.41",
+    "title": "A high-protein diet induces sustained reductions in appetite, ad libitum caloric intake, and body weight despite compensatory changes in diurnal plasma leptin and ghrelin concentrations.",
+    "authorString": "Weigle DS, Breen PA, Matthys CC, Callahan HS, Meeuws KE, Burden VR, Purnell JQ.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Weigle DS",
+          "lastName": "Weigle",
+          "firstName": "David S",
+          "initials": "DS",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Washington School of Medicine, Seattle, WA, USA. weigle@u.washington.edu"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Breen PA",
+          "lastName": "Breen",
+          "firstName": "Patricia A",
+          "initials": "PA"
+        },
+        {
+          "fullName": "Matthys CC",
+          "lastName": "Matthys",
+          "firstName": "Colleen C",
+          "initials": "CC"
+        },
+        {
+          "fullName": "Callahan HS",
+          "lastName": "Callahan",
+          "firstName": "Holly S",
+          "initials": "HS"
+        },
+        {
+          "fullName": "Meeuws KE",
+          "lastName": "Meeuws",
+          "firstName": "Kaatje E",
+          "initials": "KE"
+        },
+        {
+          "fullName": "Burden VR",
+          "lastName": "Burden",
+          "firstName": "Verna R",
+          "initials": "VR"
+        },
+        {
+          "fullName": "Purnell JQ",
+          "lastName": "Purnell",
+          "firstName": "Jonathan Q",
+          "initials": "JQ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5505-6333"
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5505-6333"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "1",
+      "volume": "82",
+      "journalIssueId": 1238200,
+      "dateOfPublication": "2005 Jul",
+      "monthOfPublication": 7,
+      "yearOfPublication": 2005,
+      "journal": {
+        "medlineAbbreviation": "Am J Clin Nutr",
+        "title": "The American journal of clinical nutrition",
+        "essn": "1938-3207",
+        "issn": "0002-9165",
+        "nlmid": "0376027",
+        "isoabbreviation": "Am J Clin Nutr"
+      },
+      "printPublicationDate": "2005-07-01"
+    },
+    "pubYear": "2005",
+    "pageInfo": "41-48",
+    "abstractText": "<h4>Background</h4>Ad libitum, low-carbohydrate diets decrease caloric intake and cause weight loss. It is unclear whether these effects are due to the reduced carbohydrate content of such diets or to their associated increase in protein intake.<h4>Objective</h4>We tested the hypothesis that increasing the protein content while maintaining the carbohydrate content of the diet lowers body weight by decreasing appetite and spontaneous caloric intake.<h4>Design</h4>Appetite, caloric intake, body weight, and fat mass were measured in 19 subjects placed sequentially on the following diets: a weight-maintaining diet (15% protein, 35% fat, and 50% carbohydrate) for 2 wk, an isocaloric diet (30% protein, 20% fat, and 50% carbohydrate) for 2 wk, and an ad libitum diet (30% protein, 20% fat, and 50% carbohydrate) for 12 wk. Blood was sampled frequently at the end of each diet phase to measure the area under the plasma concentration versus time curve (AUC) for insulin, leptin, and ghrelin.<h4>Results</h4>Satiety was markedly increased with the isocaloric high-protein diet despite an unchanged leptin AUC. Mean (+/-SE) spontaneous energy intake decreased by 441 +/- 63 kcal/d, body weight decreased by 4.9 +/- 0.5 kg, and fat mass decreased by 3.7 +/- 0.4 kg with the ad libitum, high-protein diet, despite a significantly decreased leptin AUC and increased ghrelin AUC.<h4>Conclusions</h4>An increase in dietary protein from 15% to 30% of energy at a constant carbohydrate intake produces a sustained decrease in ad libitum caloric intake that may be mediated by increased central nervous system leptin sensitivity and results in significant weight loss. This anorexic effect of protein may contribute to the weight loss produced by low-carbohydrate diets.",
+    "affiliation": "University of Washington School of Medicine, Seattle, WA, USA. weigle@u.washington.edu",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Clinical Trial",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK35816",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK02860",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "RR000334",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "RR00037",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK17047",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK55460",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "DK02689",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Weight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DE",
+                "qualifierName": "drug effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Peptide Hormones",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Proteins",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PD",
+                "qualifierName": "pharmacology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Area Under Curve"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Appetite",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "DE",
+                "qualifierName": "drug effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Satiation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DE",
+                "qualifierName": "drug effects"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Composition"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Circadian Rhythm"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ghrelin"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "ghrelin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Dietary Proteins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Peptide Hormones",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Insulin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://academic.oup.com/ajcn/article-pdf/82/1/41/23962063/znu00705000041.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/ajcn/82.1.41"
+        },
+        {
+          "availability": "Free after 12 months",
+          "availabilityCode": "F12",
+          "documentStyle": "html",
+          "site": "American Society for Nutrition",
+          "url": "http://www.ajcn.org/cgi/pmidlookup?pmid=16002798"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/ajcn.82.1.41"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "16002791",
+          "reference": "Am J Clin Nutr. 2005 Jul;82(1):1-2. doi: 10.1093/ajcn.82.1.1",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "16469999",
+          "reference": "Am J Clin Nutr. 2006 Feb;83(2):387; author reply 387-8. doi: 10.1093/ajcn/83.2.387",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 469,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2005-08-16",
+    "dateOfCreation": "2005-07-09",
+    "dateOfRevision": "2022-04-08",
+    "firstPublicationDate": "2005-07-01",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=TITLE%3A%22A+high-protein+diet+induces+sustained+reductions%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract, not full methods"
+}

@@ -1,3 +1,4 @@
+import {Stage2ReviewOutlet} from '../Stage2Review';
 import React, {useEffect, useRef} from 'react';
 import {useLocation} from '@docusaurus/router';
 import PageReviewPanel from '../ReviewCorrections/PageReviewPanel';
@@ -13,7 +14,7 @@ import {GlycaemicStage2Audit} from './GlycaemicInterventionPreview';
 import {assessmentPresentation, evidenceReviewPresentation, correctionPresentation, secFactors, describeFactorScores} from './auditPresentation.mjs';
 import styles from './styles.module.css';
 
-export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string}) {
+export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,assessmentPage,assessmentView=assessmentPresentation,recordAnchor=(r:any)=>r.id,scientificPrinciples,scientificFindings,scientificTransparency,showEvidenceReviewStatus=true,embedded=false}: {panelId:string;assessmentRecords?:any[];assessmentPmId?:string;assessmentPage?:PublicPageRecord|null;assessmentView?:(r:any)=>any;recordAnchor?:(r:any)=>string;scientificPrinciples?:React.ReactNode;scientificFindings?:React.ReactNode;scientificTransparency?:React.ReactNode;showEvidenceReviewStatus?:boolean;embedded?:boolean}) {
   const location = useLocation();
   const v1Pm = location.pathname.includes('/sec-calibration/v1/') ? ({gaba:'BRS1-FM4-PM9','glycaemic-variability':'BRS6-FM1-PM2','same-synthesis':'BRS2-FM1-PM3'}[location.pathname.replace(/\/$/,'').split('/').pop() || '']) : null;
   const records = assessmentRecords ?? (v1Pm ? v1Assessments.filter(r => r.pmId === v1Pm) : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/same-synthesis' ? sameAudits : location.pathname.replace(/\/$/, '') === '/docs/system/sec-calibration/glycaemic-variability' ? glycaemicAudits : [audit, sf2Audit]);
@@ -22,7 +23,8 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
     if (root.current) initBrsFmHubDropdowns(root.current);
   }, []);
   const page: PublicPageRecord | null = assessmentPage !== undefined ? assessmentPage : findPublicPageRecord({pageId: assessmentPmId || records[0]?.pmId});
-  return <div ref={root} id={panelId} role="tabpanel" aria-labelledby="review-corrections-tab">
+  return <div ref={root} id={panelId} role={embedded ? undefined : "tabpanel"} aria-labelledby={embedded ? undefined : "review-corrections-tab"}>
+    {!embedded && <>
     <h2 tabIndex={-1}>Evidence &amp; Audit</h2>
     <div id="sec-rubric-legend" className="brs-fm-hub-item brain-sf-disclosure" data-brs-fm-hub>
       <div className="brs-fm-hub-shell">
@@ -58,11 +60,16 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
         </div>
       </div>
     </div>
-    <h3>Evidence review status</h3>
-    <p>{evidenceReviewPresentation(page)}</p>
+    {showEvidenceReviewStatus && <>
+      <h3>Evidence review status</h3>
+      <p>{evidenceReviewPresentation(page)}</p>
+    </>}
     {records === glycaemicAudits && <GlycaemicStage2Audit />}
     {v1Pm && <V1DecisionAudit />}
-    <h3>Scientific Finding assessments</h3>
+    {scientificPrinciples}
+    </>}
+    {scientificFindings}
+    <h3>{embedded ? "Historical assessment details" : "Scientific Finding assessments"}</h3>
     {records.map(audit => {
       const conditional = 'conditional' in audit ? audit.conditional : null;
       const display = assessmentView(audit);
@@ -73,7 +80,7 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
           <span className={styles.auditSummary} data-sec-assessment-status={display.status}>
             <strong>{display.shortId} — {display.title}</strong>
             <span>{display.score !== null ? <EvidenceConfidenceIndicator score={display.score} srPrefix={display.statusLabel} /> : display.readout}</span>
-            <span>{display.incomplete ? ('unscoredReason' in audit ? audit.unscoredReason : 'Assessment incomplete') : display.statusLabel}</span>
+            <span>{display.incomplete ? (display.incompleteReason || ('unscoredReason' in audit ? audit.unscoredReason : 'Assessment incomplete')) : display.statusLabel}</span>
             {display.date && <time dateTime={display.date}>{display.date}</time>}
           </span>
         </button>
@@ -115,6 +122,8 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
       </div>
     </div>;
     })}
+    {!embedded && <>
+    {records.length === 0 && <p>No registry-backed SEC assessment is recorded for this PM. Existing unscored or legacy evidence remains unchanged.</p>}
     <h3>Correction status</h3>
     <p>{correctionPresentation(page)}</p>
     {page && <div className="brs-fm-hub-item" data-brs-fm-hub><div className="brs-fm-hub-shell">
@@ -122,5 +131,8 @@ export default function EvidenceAudit({panelId,assessmentRecords,assessmentPmId,
       <div className="brs-fm-hub-panel" hidden><PageReviewPanel page={page} panelId="preview-existing-corrections" /></div>
     </div></div>}
     <p><a href={frameworkQcPublic.register_path}>Public Framework Review &amp; Corrections register</a></p>
+    {scientificTransparency}
+    <Stage2ReviewOutlet />
+    </>}
   </div>;
 }

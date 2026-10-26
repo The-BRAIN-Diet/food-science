@@ -1,0 +1,26 @@
+[
+  {
+    "accession": "P07101",
+    "url": "https://rest.uniprot.org/uniprotkb/P07101.json",
+    "entry_version": 250,
+    "last_annotation_update": "2026-09-02",
+    "accessed": "2026-10-26",
+    "name": "Tyrosine 3-monooxygenase"
+  },
+  {
+    "accession": "P17752",
+    "url": "https://rest.uniprot.org/uniprotkb/P17752.json",
+    "entry_version": 224,
+    "last_annotation_update": "2026-09-02",
+    "accessed": "2026-10-26",
+    "name": "Tryptophan 5-hydroxylase 1"
+  },
+  {
+    "accession": "P20711",
+    "url": "https://rest.uniprot.org/uniprotkb/P20711.json",
+    "entry_version": 227,
+    "last_annotation_update": "2026-09-02",
+    "accessed": "2026-10-26",
+    "name": "Aromatic-L-amino-acid decarboxylase"
+  }
+]

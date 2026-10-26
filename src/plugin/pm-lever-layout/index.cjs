@@ -98,9 +98,10 @@ function renumber(group, id, visible) {
 }
 function applyFindingPresentation(tree, data) {
   const findings = new Map((data.scientific_findings || []).map(f => [f.id, f]));
+  const selectedPrinciples = (data.scientific_principle_ids || []).filter(id => (data.scientific_principles || []).some(p => p.original_finding_id === id && p.proposition && p.sources?.length));
   const readerLabel = id => {
     const finding = findings.get(id), match = /^PM\d+-F(\d+)$/.exec(id);
-    return finding?.finding_label && match ? `SF${match[1]} — ${finding.finding_label}` : null;
+    return finding?.finding_label && match ? `${selectedPrinciples.includes(id) ? 'Scientific Principle' : 'SF'+match[1]} — ${finding.finding_label}` : null;
   };
   walk(tree, node => {
     if (node.type === 'text') node.value = node.value.replace(/\bPM\d+-F\d+\b/g, id => readerLabel(id) || id);
@@ -118,7 +119,7 @@ function applyFindingPresentation(tree, data) {
         if (typeof value?.value !== 'string') return;
         let finding;
         try { finding = JSON.parse(value.value); } catch { return; }
-        if (/^PM\d+-F\d+$/.test(finding.id) && finding.presentation !== 'interpretive-constraint') ids.add(finding.id);
+        if (/^PM\d+-F\d+$/.test(finding.id) && !['interpretive-constraint','scientific-principle','biochemical-provenance','contextual','historical','retired'].includes(finding.presentation) && finding.status !== 'retired' && !finding.historical && !finding.retired && !selectedPrinciples.includes(finding.id)) ids.add(finding.id);
       });
     }
     // Preserve the pre-count slug, including existing explicit anchor overrides.

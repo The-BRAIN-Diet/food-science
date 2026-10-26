@@ -440,6 +440,69 @@ dietary_input_assessments:
     assessment_date: '2026-10-23'
     assessment_limitations: 'This is physiological nutrient sensing, not a beneficial direction or a need to increase linoleic acid. Human food-level circuit responses, vagal tone, ADHD and clinical benefits were not established. Foods generally supply esterified fatty acids released during digestion; the experimental free-fatty-acid stimulus is not a demonstrated food effect. More signalling is not automatically better.'
     review_source: system/reviews/deferred-stage2ab-2026-10-23/assessment-plan.json#BRS5-FM3-PM7
+dietary_confidence_assessments:
+  - id: DC-BRS5-FM3-PM7-PM7-DIT-DEFERRED-1
+    atom_id: PM7-DIT-DEFERRED-1
+    criteria_version: dietary-confidence-v1
+    confidence: Low
+    type: B
+    classification: direct
+    proposition: >-
+      Linoleic acid delivered to the intestinal lumen engages the tested mouse vagal and brainstem
+      fat-sensing circuits.
+    scope: >-
+      Defined intestinal fatty-acid stimuli in mouse nutrient sensing, with credible digestive
+      delivery; not a human food-level circuit response or optimisation recommendation.
+    explanation: >-
+      Linoleic acid activates the tested mouse fat-sensing circuit. Digestion supports intestinal
+      delivery, but ordinary meals have not been shown to reproduce the experimental stimulus.
+    rationale: >-
+      Low follows, rather than substitutes for, the Type B gate. Li’s calcium imaging, vagotomy and
+      receptor perturbations establish mechanism engagement. Human lipase-inhibition experiments
+      independently establish triglyceride hydrolysis and luminal free-fatty-acid delivery,
+      supporting the digestive bridge beyond food presence alone. Those human studies are not
+      linoleic-acid-specific vagal experiments. The exact 10% free-fatty-acid stimulus is not a
+      measured ordinary-meal exposure, and neither a favourable direction nor human circuit
+      engagement is established. The existing admission is preserved at its bounded experimental
+      scope; any extension to a human food effect requires separate review.
+    essential_links:
+      - link: mechanism_engagement
+        status: supported
+        statement: >-
+          Defined intestinal linoleic-acid stimuli evoke mouse vagal/cNST activity with causal
+          vagotomy and receptor-perturbation evidence.
+        sources:
+          - https://www.nature.com/articles/s41586-022-05266-z
+      - link: dietary_exposure
+        status: supported
+        statement: >-
+          Food composition establishes the dietary fatty acid; primary human lipase-inhibition
+          experiments establish intestinal release of free fatty acids from dietary triglycerides.
+          This supports credible luminal delivery, not a claim of matching the 10% stimulus or
+          measured human vagal engagement.
+        sources:
+          - https://fdc.nal.usda.gov/food-details/170567/nutrients
+          - https://pubmed.ncbi.nlm.nih.gov/9428226/
+          - https://pubmed.ncbi.nlm.nih.gov/12684211/
+    limitations:
+      - >-
+        Main neural stimulus: 10% free linoleic acid in mice; a food or effective-dose equivalence
+        is not established.
+      - >-
+        Dietary triglycerides release fatty acids through digestion; the human digestive study
+        measures mixed-fat hydrolysis/CCK, not linoleic-specific vagal activity.
+      - >-
+        Limited model and exposure generalisability; no evidence that more linoleic acid improves
+        vagal function, brain health or ADHD.
+    finding_links:
+      - pm_id: BRS5-FM3-PM7
+        finding_id: PM7-F3
+        href: /docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation#pm7-f3
+        explanation: Existing mechanistic Finding; confidence does not inherit its SEC score.
+    review_date: '2026-10-24'
+    assessor: Codex — independent bounded scientific review
+
+sidebar_label: "BRS5-3-7 — Vagal / ENS Signalling Modulation"
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img

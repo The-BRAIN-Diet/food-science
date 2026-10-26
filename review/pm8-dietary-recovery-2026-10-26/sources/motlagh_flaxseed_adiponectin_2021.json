@@ -1,0 +1,210 @@
+{
+  "citation_key": "motlagh_flaxseed_adiponectin_2021",
+  "doi": "10.1111/ijcp.14592",
+  "metadata": {
+    "id": "34227198",
+    "source": "MED",
+    "pmid": "34227198",
+    "doi": "10.1111/ijcp.14592",
+    "title": "Effect of flaxseed consumption on central obesity, serum lipids, and adiponectin level in overweight or obese women: A randomised controlled clinical trial.",
+    "authorString": "Ahmadniay Motlagh H, Aalipanah E, Mazidi M, Faghih S.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ahmadniay Motlagh H",
+          "lastName": "Ahmadniay Motlagh",
+          "firstName": "Hoda",
+          "initials": "H",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Aalipanah E",
+          "lastName": "Aalipanah",
+          "firstName": "Erfaneh",
+          "initials": "E",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Mazidi M",
+          "lastName": "Mazidi",
+          "firstName": "Mohsen",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Biology and Biological Engineering, Food and Nutrition Science, Chalmers University of Technology, Gothenburg, Sweden."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Faghih S",
+          "lastName": "Faghih",
+          "firstName": "Shiva",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-0554-538X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-0554-538X"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "10",
+      "volume": "75",
+      "journalIssueId": 3235631,
+      "dateOfPublication": "2021 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2021,
+      "journal": {
+        "medlineAbbreviation": "Int J Clin Pract",
+        "title": "International journal of clinical practice",
+        "essn": "1742-1241",
+        "issn": "1368-5031",
+        "isoabbreviation": "Int J Clin Pract",
+        "nlmid": "9712381"
+      },
+      "printPublicationDate": "2021-10-01"
+    },
+    "pubYear": "2021",
+    "pageInfo": "e14592",
+    "abstractText": "<h4>Background</h4>Flaxseed may be beneficial for the management of obesity due to its high content of alpha-linolenic acid, fibre, and lignans.<h4>Objective</h4>We aim to evaluate the effect of flaxseed consumption on serum lipids, adiponectin, leptin, and anthropometric indices in overweight or obese women.<h4>Methods</h4>This randomised controlled clinical trial involved 60 overweight or obese women. Participants were randomly allocated into two groups: (a) a balanced diet plus 30\u00a0g/day milled flaxseed (as treatment group) and (b) a balanced diet plus 30\u00a0g/day milled rice (as control group). Anthropometric indices, serum lipids, leptin, and adiponectin level were measured at baseline and at the end of intervention after 12\u00a0weeks.<h4>Results</h4>After 12\u00a0weeks of intervention, there was significantly higher reduction rate in waist circumference (WC) and waist-to-hip ratio (WHR) (both P\u00a0<\u00a0.05) in the flaxseed-consuming group compared with the control group. Moreover, adiponectin level was significantly increased from (12.11\u00a0\u00b1\u00a07.1) to (17.15\u00a0\u00b1\u00a06.1) in the flaxseed-consuming group compared with the control group from (12.48\u00a0\u00b1\u00a04.7) to (12.01\u00a0\u00b1\u00a05.8) (P\u00a0=\u00a0.002). However, no significant difference was observed in serum lipid level in the study groups before and after the intervention (all P\u00a0>\u00a0.05).<h4>Conclusion</h4>Flaxseed consumption may improve adiposity markers, such as adiponectin level. Thus, flaxseed consumption could be an adjunctive therapy to attenuate central obesity. Serum lipid profile has not changed meaningfully after flaxseed consumption.",
+    "affiliation": "Nutrition Research Center, School of Nutrition and Food Sciences, Shiraz University of Medical Sciences, Shiraz, Iran.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Flax"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Lipids"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Obesity, Abdominal"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Lipids",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "Unpaywall",
+          "url": "https://doi.org/10.1111/ijcp.14592"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1111/ijcp.14592"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 6,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2021-09-21",
+    "dateOfCreation": "2021-07-06",
+    "dateOfRevision": "2021-09-21",
+    "electronicPublicationDate": "2021-07-12",
+    "firstPublicationDate": "2021-07-12",
+    "firstIndexDate": "2021-07-07",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111%2Fijcp.14592%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

@@ -1,0 +1,1761 @@
+{
+  "relationships": [
+    {
+      "operation": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "scientific_assessment": {
+        "atom_id": "PM8-DIT-12",
+        "status": "admitted",
+        "type": "B",
+        "classification": "direct",
+        "operation": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+        "canonical_substance_id": "dha-docosahexaenoic-acid",
+        "mechanism_engagement": {
+          "status": "established",
+          "statement": "Defined oral DHA changed the circulating adiponectin signal in selected human contexts. This endocrine-response proposition does not claim local secretion, synthesis or receptor engagement.",
+          "sources": [
+            "https://doi.org/10.3945/ajcn.116.131896",
+            "https://doi.org/10.1016/j.numecd.2014.08.003"
+          ]
+        },
+        "dietary_exposure": {
+          "status": "established",
+          "statement": "Oral DHA was administered in a defined re-esterified-triglyceride supplement; enriched-oil and mixed fish-oil exposures are assessed separately. Existing food composition establishes dietary presence, not trial equivalence.",
+          "sources": [
+            "https://doi.org/10.3945/ajcn.116.131896",
+            "https://doi.org/10.1016/j.nutres.2011.12.007"
+          ]
+        },
+        "food_target_research": {
+          "completed": true,
+          "sources_examined": [
+            "registry/substances.json",
+            "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid.md",
+            "docs/foods/salmon.md",
+            "docs/foods/sardines.md",
+            "docs/foods/algal-oil.md",
+            "review/pm8-dietary-recovery-2026-10-26/omega3-food-composition-existing.json"
+          ],
+          "targeted_searches": [],
+          "sufficient_coverage_rationale": "Existing food composition records and structured DHA edges cover multiple animal foods and algal oil; source, material, preparation and presence records were examined separately. Unmapped existing composition observations stay provisional. No new food or food-effective quantity is invented; trial formulations are not treated as equivalent to ordinary foods."
+        },
+        "reviewed_on": "2026-10-26",
+        "scope": "Circulating adipose-derived endocrine signal modulation, not local production or physiological/clinical improvement."
+      },
+      "historical_admission": false,
+      "id": "BRS6-FM4-PM8::PM8-DIT-12",
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "pm_page": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "input": "DHA (Docosahexaenoic Acid)",
+      "input_type": "regulatory modulator",
+      "relationship_type": {
+        "layer": "dietary-requirement",
+        "classification": "direct",
+        "mode": "state-regulation",
+        "addressability": "direct",
+        "claim_ceiling": "modulation-demonstrated"
+      },
+      "biological_role": "Defined oral DHA exposures can modulate circulating adiponectin, an adipose-derived endocrine signal.",
+      "dietary_input": true,
+      "dietary_input_note": "Type B regulatory relationship; no dietary necessity, brain efficacy or ordinary-food intervention equivalence.",
+      "dietary_input_flags": [],
+      "accounting": "A",
+      "accounting_label": "PM-owned dietary relationship",
+      "upstream": [],
+      "pool_references": [],
+      "members": [],
+      "substance_id": "dha-docosahexaenoic-acid",
+      "substance_page": "/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid",
+      "identity_status": "resolved",
+      "source_record": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx#dietary_input_traceability/PM8-DIT-12",
+      "evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "limitation": "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial.",
+      "derived_target_atom_id": null,
+      "derived_target": null,
+      "qualification": "Type B regulatory relationship; no dietary necessity, brain efficacy or ordinary-food intervention equivalence.",
+      "presentations": [
+        {
+          "label": "DHA",
+          "section": "3.1.1"
+        }
+      ],
+      "relationship_owner": "BRS6-FM4-PM8",
+      "canonical_supply_owner": [],
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "admission_errors": [],
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "food_target_mapping": "verified",
+      "food_targets": [
+        {
+          "id": "algal-oil::dha-docosahexaenoic-acid::authorised algal oils formulation specific::unspecified",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "algal-oil",
+          "food_title": "Algal Oil",
+          "food_page": "/docs/foods/algal-oil",
+          "food_record": "docs/foods/algal-oil.md",
+          "material": "Authorised algal oils; formulation-specific",
+          "preparation": null,
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/algal-oil.md#substance_relationships/DHA",
+              "evidence": "EU authorised algal oil specifications",
+              "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "DHA presence is supported by the authorised algal-oil specifications on this page. The amount is formulation-specific and is not established as one value for algal oil in general."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/algal-oil.md#substance_relationships/DHA",
+              "evidence": "EU authorised algal oil specifications",
+              "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "DHA presence is supported by the authorised algal-oil specifications on this page. The amount is formulation-specific and is not established as one value for algal oil in general."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "anchovies::dha-docosahexaenoic-acid::fish anchovy european canned in oil drained solids::oil",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "anchovies",
+          "food_title": "Anchovies",
+          "food_page": "/docs/foods/anchovies",
+          "food_record": "docs/foods/anchovies.md",
+          "material": "Fish, anchovy, european, canned in oil, drained solids",
+          "preparation": "oil",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, anchovy, european, canned in oil, drained solids",
+                "fdc_id": 174183,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-09-04"
+              },
+              "value": 1292,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, anchovy, european, canned in oil, drained solids",
+              "preparation": "oil",
+              "record": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/anchovies.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/anchovies.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::oil",
+              "low": 1292,
+              "high": 1292,
+              "display": "1292 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/anchovies.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/anchovies.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "cockles::dha-docosahexaenoic-acid::edible cerastoderma edule tissue::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "cockles",
+          "food_title": "Cockles",
+          "food_page": "/docs/foods/cockles",
+          "food_record": "docs/foods/cockles.md",
+          "material": "edible Cerastoderma edule tissue",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/cockles.md#substance_relationships/DHA",
+              "evidence": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+              "source_reference": "#food-source-7",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Reported in edible Cerastoderma edule tissue."
+            },
+            {
+              "key": "dha_qual",
+              "label": "DHA",
+              "status": "Present — quantity not established",
+              "amount_display": "Present",
+              "source_note": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015). Primary Table 1 separately reports EPA and DHA in edible cockle tissue; fatty-acid percentages not converted into food amounts.",
+              "public_display": "table",
+              "omit_substance_card": false,
+              "evidence_status": "supported",
+              "presence_status": "presence_supported_amount_unavailable",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+              "source_group": "cockle-fatty-acids",
+              "public_note": "Reported in edible Cerastoderma edule tissue.",
+              "notes": "edible Cerastoderma edule tissue",
+              "source_reference": "#food-source-7",
+              "record": "docs/foods/cockles.md#nutrition_supplementary_sources/dha_qual",
+              "evidence": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015). Primary Table 1 separately reports EPA and DHA in edible cockle tissue; fatty-acid percentages not converted into food amounts.",
+              "limitations": "edible Cerastoderma edule tissue"
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/cockles.md#substance_relationships/DHA",
+              "evidence": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+              "source_reference": "#food-source-7",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Reported in edible Cerastoderma edule tissue."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "herring::dha-docosahexaenoic-acid::fish herring atlantic raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "herring",
+          "food_title": "Herring",
+          "food_page": "/docs/foods/herring",
+          "food_record": "docs/foods/herring.md",
+          "material": "Fish, herring, Atlantic, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, herring, Atlantic, raw",
+                "fdc_id": 175116,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 862,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, herring, Atlantic, raw",
+              "preparation": "raw",
+              "record": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/herring.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/herring.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 862,
+              "high": 862,
+              "display": "862 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/herring.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/herring.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+              "source_reference": null,
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "lumpfish-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "lumpfish-roe",
+          "food_title": "Lumpfish Roe",
+          "food_page": "/docs/foods/lumpfish-roe",
+          "food_record": "docs/foods/lumpfish-roe.md",
+          "material": "commercial salmon, trout or lumpfish roe",
+          "preparation": null,
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+              "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+              "source_reference": "#food-source-2",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+            },
+            {
+              "key": "dha_qual",
+              "label": "DHA",
+              "amount_display": "Present; amount varies with the product",
+              "notes": "Commercial lumpfish roe; no whole-food amount assigned.",
+              "status": "Present — quantity not established",
+              "public_display": "table",
+              "evidence_status": "supported",
+              "presence_status": "presence_supported_amount_unavailable",
+              "source_group": "lumpfish-roe-fatty-acids",
+              "public_note": "EPA and DHA are identified in commercial lumpfish roe products.",
+              "source_note": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+              "source_reference": "#food-source-2",
+              "record": "docs/foods/lumpfish-roe.md#nutrition_supplementary_sources/dha_qual",
+              "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "limitations": "Commercial lumpfish roe; no whole-food amount assigned."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+              "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+              "source_reference": "#food-source-2",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "mackerel::dha-docosahexaenoic-acid::fish mackerel atlantic raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "mackerel",
+          "food_title": "Mackerel",
+          "food_page": "/docs/foods/mackerel",
+          "food_record": "docs/foods/mackerel.md",
+          "material": "Fish, mackerel, Atlantic, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, mackerel, Atlantic, raw",
+                "fdc_id": 175119,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 1401,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, mackerel, Atlantic, raw",
+              "preparation": "raw",
+              "record": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/mackerel.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/mackerel.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1401,
+              "high": 1401,
+              "display": "1401 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/mackerel.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/mackerel.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "mussels::dha-docosahexaenoic-acid::mollusks mussel blue raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "mussels",
+          "food_title": "Mussels",
+          "food_page": "/docs/foods/mussels",
+          "food_record": "docs/foods/mussels.md",
+          "material": "Mollusks, mussel, blue, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Mollusks, mussel, blue, raw",
+                "fdc_id": 174216,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 253,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Mollusks, mussel, blue, raw",
+              "preparation": "raw",
+              "record": "docs/foods/mussels.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/mussels.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/mussels.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 253,
+              "high": 253,
+              "display": "253 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/mussels.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+              "source_reference": "#food-source-3",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/mussels.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+              "source_reference": "#food-source-3",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "oysters::dha-docosahexaenoic-acid::mollusks oyster eastern wild raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "oysters",
+          "food_title": "Oysters",
+          "food_page": "/docs/foods/oysters",
+          "food_record": "docs/foods/oysters.md",
+          "material": "Mollusks, oyster, eastern, wild, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Mollusks, oyster, eastern, wild, raw",
+                "fdc_id": 171978,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 136,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Mollusks, oyster, eastern, wild, raw",
+              "preparation": "raw",
+              "record": "docs/foods/oysters.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/oysters.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/oysters.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 136,
+              "high": 136,
+              "display": "136 mg"
+            },
+            {
+              "key": "dha_mg",
+              "label": "DHA",
+              "value": 500,
+              "unit": "mg",
+              "notes": "Often comparable to EPA in Pacific species; check species-specific compositional tables.",
+              "source_note": "DHA varies widely by species and preparation. USDA FoodData Central for \"Mollusks, oyster, Pacific, cooked, moist heat\" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.",
+              "public_note": "FDC 1742 supports this source-specific measurement. See technical provenance for food form and measurement details.",
+              "source_group": "FDC 1742 supports this source-specific measurement. See technical provenance for food form and measurement details.",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/174250/wt2",
+              "source_reference": "#food-source-3",
+              "range": null,
+              "material": "Mollusks, oyster, eastern, wild, raw",
+              "preparation": "raw",
+              "record": "docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg",
+              "source_record": "docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg",
+              "verified": true,
+              "nutrition_value_reviews": [],
+              "limitations": "DHA varies widely by species and preparation. USDA FoodData Central for \"Mollusks, oyster, Pacific, cooked, moist heat\" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.",
+              "id": "docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 500,
+              "high": 500,
+              "display": "500 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/oysters.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw."
+            },
+            {
+              "key": "dha_mg",
+              "label": "DHA",
+              "value": 500,
+              "unit": "mg",
+              "notes": "Often comparable to EPA in Pacific species; check species-specific compositional tables.",
+              "source_note": "DHA varies widely by species and preparation. USDA FoodData Central for \"Mollusks, oyster, Pacific, cooked, moist heat\" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.",
+              "public_note": "FDC 1742 supports this source-specific measurement. See technical provenance for food form and measurement details.",
+              "source_group": "FDC 1742 supports this source-specific measurement. See technical provenance for food form and measurement details.",
+              "source_url": "https://tools.myfooddata.com/nutrition-facts/174250/wt2",
+              "source_reference": "#food-source-3",
+              "record": "docs/foods/oysters.md#nutrition_supplementary_sources/dha_mg",
+              "evidence": "DHA varies widely by species and preparation. USDA FoodData Central for \"Mollusks, oyster, Pacific, cooked, moist heat\" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.",
+              "presence_status": "qualitative",
+              "limitations": "Often comparable to EPA in Pacific species; check species-specific compositional tables."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/oysters.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "salmon-roe::dha-docosahexaenoic-acid::chum salmon oncorhynchus keta salted roe ikura::unspecified",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "salmon-roe",
+          "food_title": "Salmon Roe",
+          "food_page": "/docs/foods/salmon-roe",
+          "food_record": "docs/foods/salmon-roe.md",
+          "material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+          "preparation": null,
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "MEXT Standard Tables of Food Composition in Japan (2023 supplement), food 10140",
+                "food_name": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+                "basis": "per 100 g edible portion",
+                "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+                "source_reference": "#food-source-8",
+                "last_checked": "2026-10-12"
+              },
+              "value": 2000,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7",
+              "source_reference": "#food-source-8",
+              "material": "Chum salmon (Oncorhynchus keta), salted roe (ikura)",
+              "preparation": null,
+              "record": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/salmon-roe.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/salmon-roe.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": false,
+              "comparison_group": null,
+              "low": 2000,
+              "high": 2000,
+              "display": "2000 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/salmon-roe.md#substance_relationships/DHA",
+              "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
+              "source_reference": "#food-source-8",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/salmon-roe.md#substance_relationships/DHA",
+              "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140",
+              "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
+              "source_reference": "#food-source-8",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "salmon::dha-docosahexaenoic-acid::fish salmon atlantic farmed raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "salmon",
+          "food_title": "Salmon",
+          "food_page": "/docs/foods/salmon",
+          "food_record": "docs/foods/salmon.md",
+          "material": "Fish, salmon, Atlantic, farmed, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, salmon, Atlantic, farmed, raw",
+                "fdc_id": 175167,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 1104,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, salmon, Atlantic, farmed, raw",
+              "preparation": "raw",
+              "record": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/salmon.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/salmon.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 1104,
+              "high": 1104,
+              "display": "1104 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/salmon.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/salmon.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "sardines::dha-docosahexaenoic-acid::fish sardine atlantic canned in oil drained solids with bone::oil",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "sardines",
+          "food_title": "Sardines",
+          "food_page": "/docs/foods/sardines",
+          "food_record": "docs/foods/sardines.md",
+          "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+          "preparation": "oil",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+                "fdc_id": 175139,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 509,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+              "preparation": "oil",
+              "record": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/sardines.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/sardines.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::oil",
+              "low": 509,
+              "high": 509,
+              "display": "509 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/sardines.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/sardines.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+              "source_reference": "#food-source-5",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "trout-roe::dha-docosahexaenoic-acid::commercial salmon trout or lumpfish roe::unspecified",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "trout-roe",
+          "food_title": "Trout Roe",
+          "food_page": "/docs/foods/trout-roe",
+          "food_record": "docs/foods/trout-roe.md",
+          "material": "commercial salmon, trout or lumpfish roe",
+          "preparation": null,
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [],
+          "presence_records": [
+            {
+              "record": "docs/foods/trout-roe.md#substance_relationships/DHA",
+              "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/trout-roe.md#substance_relationships/DHA",
+              "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+              "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+              "source_reference": "#food-source-4",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_supported_amount_unavailable",
+              "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        },
+        {
+          "id": "tuna::dha-docosahexaenoic-acid::fish tuna fresh bluefin raw::raw",
+          "substance_id": "dha-docosahexaenoic-acid",
+          "food_id": "tuna",
+          "food_title": "Tuna",
+          "food_page": "/docs/foods/tuna",
+          "food_record": "docs/foods/tuna.md",
+          "material": "Fish, tuna, fresh, bluefin, raw",
+          "preparation": "raw",
+          "species": null,
+          "product": null,
+          "edible_part": null,
+          "chemical_form": null,
+          "food_matrix": null,
+          "preparation_effects": null,
+          "absorption_evidence": null,
+          "observations": [
+            {
+              "nutrition_source": {
+                "database": "USDA FoodData Central",
+                "food_name": "Fish, tuna, fresh, bluefin, raw",
+                "fdc_id": 173706,
+                "retrieval_method": "SR Legacy bulk (April 2018)",
+                "basis": "per 100 g edible portion",
+                "last_checked": "2026-08-15"
+              },
+              "value": 890,
+              "unit": "mg",
+              "basis": "per 100 g edible portion",
+              "source_url": null,
+              "source_reference": null,
+              "material": "Fish, tuna, fresh, bluefin, raw",
+              "preparation": "raw",
+              "record": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+              "source_record": "docs/foods/tuna.md#nutrition_source",
+              "verified": true,
+              "id": "docs/foods/tuna.md#nutrition_per_100g/dha_mg",
+              "rank_eligible": true,
+              "comparison_group": "edible::raw",
+              "low": 890,
+              "high": 890,
+              "display": "890 mg"
+            }
+          ],
+          "presence_records": [
+            {
+              "record": "docs/foods/tuna.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+              "source_reference": "#food-source-3",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
+            }
+          ],
+          "qualification": [],
+          "mapping_status": "verified",
+          "relationship": "contains",
+          "evidence": [
+            {
+              "record": "docs/foods/tuna.md#substance_relationships/DHA",
+              "evidence": "USDA SR Legacy April 2018",
+              "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+              "source_reference": "#food-source-3",
+              "citation_keys": [],
+              "relationship_type": "contains",
+              "presence_status": "presence_and_amount_supported",
+              "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
+            }
+          ],
+          "delivery": "direct-input-source",
+          "substance_title": "DHA (Docosahexaenoic Acid)"
+        }
+      ],
+      "food_target_reconciliations": [],
+      "coverage_warnings": []
+    }
+  ],
+  "manuscript_rows": [
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "algal-oil",
+      "food_title": "Algal Oil",
+      "food_material": "Authorised algal oils; formulation-specific",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/algal-oil.md#substance_relationships/DHA",
+          "evidence": "EU authorised algal oil specifications",
+          "source_url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017R2470",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "DHA presence is supported by the authorised algal-oil specifications on this page. The amount is formulation-specific and is not established as one value for algal oil in general."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "anchovies",
+      "food_title": "Anchovies",
+      "food_material": "Fish, anchovy, european, canned in oil, drained solids",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/anchovies.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174183/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, anchovy, european, canned in oil, drained solids."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "cockles",
+      "food_title": "Cockles",
+      "food_material": "edible Cerastoderma edule tissue",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/cockles.md#substance_relationships/DHA",
+          "evidence": "Fatty Acid Composition in Edible Tissue of Cerastoderma edule (2015)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4471671/",
+          "source_reference": "#food-source-7",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Reported in edible Cerastoderma edule tissue."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "herring",
+      "food_title": "Herring",
+      "food_material": "Fish, herring, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/herring.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175116/nutrients",
+          "source_reference": null,
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, herring, Atlantic, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "lumpfish-roe",
+      "food_title": "Lumpfish Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/lumpfish-roe.md#substance_relationships/DHA",
+          "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+          "source_reference": "#food-source-2",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mackerel",
+      "food_title": "Mackerel",
+      "food_material": "Fish, mackerel, Atlantic, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mackerel.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175119/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, mackerel, Atlantic, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "mussels",
+      "food_title": "Mussels",
+      "food_material": "Mollusks, mussel, blue, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/mussels.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/174216/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Mollusks, mussel, blue, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "oysters",
+      "food_title": "Oysters",
+      "food_material": "Mollusks, oyster, eastern, wild, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/oysters.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/171978/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Mollusks, oyster, eastern, wild, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon-roe",
+      "food_title": "Salmon Roe",
+      "food_material": "chum salmon (Oncorhynchus keta), salted roe (ikura)",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon-roe.md#substance_relationships/DHA",
+          "evidence": "MEXT Standard Tables of Food Composition in Japan, 2023 supplement, food 10140",
+          "source_url": "https://fooddb.mext.go.jp/details/details.pl?ITEM_NO=10_10140_7&MODE=4",
+          "source_reference": "#food-source-8",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "Salted chum-salmon ikura contains 2,000 mg DHA per 100 g."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "salmon",
+      "food_title": "Salmon",
+      "food_material": "Fish, salmon, Atlantic, farmed, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/salmon.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175167/nutrients",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, salmon, Atlantic, farmed, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "sardines",
+      "food_title": "Sardines",
+      "food_material": "Fish, sardine, Atlantic, canned in oil, drained solids with bone",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/sardines.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/175139/nutrients",
+          "source_reference": "#food-source-5",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, sardine, Atlantic, canned in oil, drained solids with bone."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "oil",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "trout-roe",
+      "food_title": "Trout Roe",
+      "food_material": "commercial salmon, trout or lumpfish roe",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/trout-roe.md#substance_relationships/DHA",
+          "evidence": "Comparison of Chemical Composition and Safety Issues in Fish Roe Products (2020)",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7278670/",
+          "source_reference": "#food-source-4",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_supported_amount_unavailable",
+          "limitations": "Contains omega-3 fatty acids; content varies with the roe product."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": null,
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    },
+    {
+      "brs": "BRS6",
+      "fm": "BRS6(FM4)",
+      "pm": "BRS6-FM4-PM8",
+      "biological_mechanism": "Regulate adipose-derived endocrine signalling and local glucocorticoid responsiveness to communicate metabolic state and coordinate hormonal adaptation.",
+      "dietary_input": "DHA (Docosahexaenoic Acid)",
+      "type": "B",
+      "classification": "direct",
+      "canonical_substance_id": "dha-docosahexaenoic-acid",
+      "ontology_connections": {
+        "identity": "resolved",
+        "conversion": "not-applicable",
+        "food": "supported"
+      },
+      "scientific_admission": "admitted",
+      "admission_basis": "versioned-assessment",
+      "food_target": "tuna",
+      "food_title": "Tuna",
+      "food_material": "Fish, tuna, fresh, bluefin, raw",
+      "material_equivalence_status": null,
+      "material_equivalence_reason": null,
+      "ontology_relationship_status": null,
+      "reconciled_sources": [],
+      "mapping_status": "verified",
+      "food_evidence": [
+        {
+          "record": "docs/foods/tuna.md#substance_relationships/DHA",
+          "evidence": "USDA SR Legacy April 2018",
+          "source_url": "https://fdc.nal.usda.gov/food-details/173706/nutrients",
+          "source_reference": "#food-source-3",
+          "citation_keys": [],
+          "relationship_type": "contains",
+          "presence_status": "presence_and_amount_supported",
+          "limitations": "USDA FoodData Central reports DHA in Fish, tuna, fresh, bluefin, raw."
+        }
+      ],
+      "pm_evidence": {
+        "finding_ids": [
+          "PM8-F19"
+        ],
+        "citation_keys": [
+          "allaire_compared_2016",
+          "baril_gravel_dha_canola_2015",
+          "gammelmark_fish_oil_adiponectin_2012",
+          "rausch_omega3_adipokines_2021"
+        ]
+      },
+      "preparation": "raw",
+      "delivery": "direct-input-source",
+      "conversion_pathway": [],
+      "limitations": [
+        "Admission concerns a circulating hormone response in studied supplement/enriched-oil contexts. It does not establish adipose secretion, receptor sensitivity, universal benefit, ordinary-food efficacy or a food-effective dose. Mixture and carrier effects are not attributed to DHA alone; DHA-specific attribution uses the separate DHA-versus-EPA trial."
+      ],
+      "missing_ontology_edge": null
+    }
+  ],
+  "repair_queue": []
+}

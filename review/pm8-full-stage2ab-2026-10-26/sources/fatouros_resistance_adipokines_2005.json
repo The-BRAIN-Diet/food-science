@@ -1,0 +1,291 @@
+{
+  "citation_key": "fatouros_resistance_adipokines_2005",
+  "doi": "10.1210/jc.2005-0261",
+  "metadata": {
+    "id": "16091494",
+    "source": "MED",
+    "pmid": "16091494",
+    "doi": "10.1210/jc.2005-0261",
+    "title": "Leptin and adiponectin responses in overweight inactive elderly following resistance training and detraining are intensity related.",
+    "authorString": "Fatouros IG, Tournis S, Leontsini D, Jamurtas AZ, Sxina M, Thomakos P, Manousaki M, Douroudos I, Taxildaris K, Mitrakou A.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Fatouros IG",
+          "lastName": "Fatouros",
+          "firstName": "I G",
+          "initials": "IG",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Physical Education and Sports Science, 7th km of of National Road Komotini-Xanthi, Komotini 69100, Greece. fatouros@otenet.gr"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Tournis S",
+          "lastName": "Tournis",
+          "firstName": "S",
+          "initials": "S",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8301-324X"
+          }
+        },
+        {
+          "fullName": "Leontsini D",
+          "lastName": "Leontsini",
+          "firstName": "D",
+          "initials": "D"
+        },
+        {
+          "fullName": "Jamurtas AZ",
+          "lastName": "Jamurtas",
+          "firstName": "A Z",
+          "initials": "AZ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0001-5115-9490"
+          }
+        },
+        {
+          "fullName": "Sxina M",
+          "lastName": "Sxina",
+          "firstName": "M",
+          "initials": "M"
+        },
+        {
+          "fullName": "Thomakos P",
+          "lastName": "Thomakos",
+          "firstName": "P",
+          "initials": "P"
+        },
+        {
+          "fullName": "Manousaki M",
+          "lastName": "Manousaki",
+          "firstName": "M",
+          "initials": "M"
+        },
+        {
+          "fullName": "Douroudos I",
+          "lastName": "Douroudos",
+          "firstName": "I",
+          "initials": "I"
+        },
+        {
+          "fullName": "Taxildaris K",
+          "lastName": "Taxildaris",
+          "firstName": "K",
+          "initials": "K"
+        },
+        {
+          "fullName": "Mitrakou A",
+          "lastName": "Mitrakou",
+          "firstName": "A",
+          "initials": "A"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0001-5115-9490"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8301-324X"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "90",
+      "journalIssueId": 1268280,
+      "dateOfPublication": "2005 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2005,
+      "journal": {
+        "medlineAbbreviation": "J Clin Endocrinol Metab",
+        "title": "The Journal of clinical endocrinology and metabolism",
+        "essn": "1945-7197",
+        "issn": "0021-972X",
+        "isoabbreviation": "J Clin Endocrinol Metab",
+        "nlmid": "0375362"
+      },
+      "printPublicationDate": "2005-11-01"
+    },
+    "pubYear": "2005",
+    "pageInfo": "5970-5977",
+    "abstractText": "<h4>Context</h4>Adiponectin and leptin are closely related to weight control and energy balance, whereas exercise affects elderly metabolic regulation and functional capacity.<h4>Objective</h4>The objective of this study was to investigate leptin and adiponectin responses in elderly males after exercise training and detraining.<h4>Design</h4>The study design was a 1-yr randomized controlled trial.<h4>Setting</h4>The study was performed at the Laboratory of Physical Education and Sport Science Department.<h4>Participants</h4>Fifty inactive men [age, 65-78 yr; body mass index (BMI), 28.7-30.2 kg/m2] were recruited from a volunteer database by word of mouth and fliers sent to medical practitioners, physiotherapists, and nursing homes in the local community.<h4>Intervention(s)</h4>Participants were randomly assigned to a control (n = 10), low-intensity (n = 14), moderate-intensity (n = 12), or high-intensity training (HI; n = 14) group. Resistance training (6 months, 3 d/wk, 10 exercises/three sets) was followed by 6 months of detraining.<h4>Main outcome measure(s)</h4>Strength, exercise energy cost, skinfold sum, body weight, maximal oxygen consumption, resting metabolic rate (RMR), and plasma leptin and adiponectin were determined at baseline and after training and detraining.<h4>Results</h4>Strength, maximal oxygen consumption, RMR, and exercise energy cost increased (P < 0.05) after training in an intensity-dependent manner. Skinfold sum and BMI were reduced by resistance training (P < 0.05), with HI being more effective (P < 0.05) than moderate-intensity/low-intensity training. Leptin was diminished (P < 0.05) by all treatments, whereas adiponectin increased (P < 0.05) only in HI. Detraining maintained training-induced changes only in HI. The percent leptin decrease was associated (P < 0.05) with the percent BMI decrease and the percent RMR increase, whereas the percent adiponectin increase was associated (P < 0.05) with the percent BMI decrease.<h4>Conclusions</h4>Resistance training and detraining may alter leptin and adiponectin responses in an intensity-dependent manner. Leptin and adiponectin changes were strongly associated with RMR and anthropometric changes.",
+    "affiliation": "Department of Physical Education and Sports Science, 7th km of of National Road Komotini-Xanthi, Komotini 69100, Greece. fatouros@otenet.gr",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Leptin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Glucose",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AN",
+                "qualifierName": "analysis"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Basal Metabolism"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Exercise"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Metabolism"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Oxygen Consumption"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Blood Glucose",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Leptin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ADIPOQ protein, human",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1210/jc.2005-0261"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 142,
+    "hasReferences": "N",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2005-12-02",
+    "dateOfCreation": "2005-08-11",
+    "dateOfRevision": "2022-04-10",
+    "electronicPublicationDate": "2005-08-09",
+    "firstPublicationDate": "2005-08-09",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1210%2Fjc.2005-0261%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

@@ -1,0 +1,1923 @@
+Nutrition Research  85 (2021) 135–152 
+Available online at www.sciencedirect.com 
+journal homepage: www.elsevier.com/locate/NTR 
+Review Article 
+Systematic review of mar ine-der ived omega-3 
+fatty acid supplementation effects on leptin, 
+adiponectin, and the leptin-to-adiponectin ratio 
+Jamie Rausch a , ∗, Shannon Gillespie b , Tonya Orchard c , Alai Tan b , Jodi C. McDaniel b 
+a Indiana University Fort Wayne, School of Nursing, Fort Wayne, IN, 46805, USA 
+b Ohio State University , College of Nursing, Columbus, OH, 43210, USA 
+c Ohio State University , College of Education and Human Ecology , Columbus, OH, 43210, USA 
+a r t i c l e i n f o 
+Article history: 
+Received 12 March 2020 
+Revised 22 October 2020 
+Accepted 10 November 2020 
+Keywords: 
+Leptin 
+Adiponectin 
+Omega-3 
+Unsaturated fatty acids 
+Fish oils 
+Systematic review 
+Inflammation 
+a b s t r a c t 
+Increasing evidence suggests that adipokines, leptin and adiponectin, produced and se- 
+creted by adipocytes, are involved in regulating systemic inflammation and may be im- 
+portant targets for interventions to reduce the chronic systemic inflammation linked to 
+some conditions common in aging (e.g., atherosclerosis). Lower leptin levels and higher 
+adiponectin levels in peripheral circulation have been associated with less systemic inflam- 
+mation. While some studies have shown that marine-derived omega-3 fatty acids (eicos- 
+apentaenoic acid [EPA] and/or docosahexaenoic acid [DHA]) have effects on leptin and 
+adiponectin in the context of inflammation, the extent of their effects remain unclear. The 
+purpose of this systematic review was to summarize findings from randomized, controlled 
+trials that measured effects of EPA + DHA supplementation on circulating levels of leptin 
+and adiponectin to determine the state of the science. PubMed, CINAHL, Web of Science, 
+Scopus, and Cochrane Trials were searched up to June 2018 for studies meeting inclusion 
+criteria. Thirty-one studies included in this review were conducted in 16 countries. Eighteen 
+studies reported lower leptin and/or higher adiponectin levels with EPA + DHA supplemen- 
+tation versus placebo at study end point (9 reported statistically significant differences), but 
+doses, supplementation duration, and population characteristics varied across studies. In 9 
+studies reporting significantly lower leptin and/or higher adiponectin levels the EPA + DHA 
+dose was 0.52 to 4.2 g/day for 4 to 24 weeks. Additional studies are warranted which assess 
+dose parameters and patient populations similar to studies reporting significant effects of 
+EPA + DHA on leptin or adiponectin in order to evaluate the extent of reproducibility before 
+recommending EPA + DHA as a therapy to target these adipokines. 
+© 2020 The Authors. Published by Elsevier Inc. 
+This is an open access article under the CC BY-NC-ND license 
+( http://creativecommons.org/licenses/by-nc-nd/4.0/ ) 
+A bbreviations: EPA, eicosapentaenoic acid; DHA, docosahexaenoic acid; PUFAs, polyunsaturated fatty acids; TNF- α, tumor necrosis 
+factor-alpha; IL-1 β, interleukin-one beta; IL-6, interleukin-six; LAR, leptin to adiponectin ratio; PRISMA, preferred reporting items for 
+systematic reviews and meta-analyses; REDCap, research electronic data capture; RCTs, randomized controlled trials; g/d, gram per day; 
+BMI, body mass index. 
+∗ Corresponding author at: School of Nursing, Indiana University Fort Wayne, LA-309b, 2101 E Coliseum Blvd, Fort Wayne, IN 46805, USA. 
+E-mail address: annijr08@outlook.com (J. Rausch). 
+https://doi.org/10.1016/j.nutres.2020.11.002 
+0271-5317/© 2020 The Authors. Published by Elsevier Inc. This is an open access article under the CC BY-NC-ND license 
+( http://creativecommons.org/licenses/by-nc-nd/4.0/ ) 
+136 Nutrition Research  85 (2021) 135–152 
+1. Introduction 
+More than half of all older adults ( ≥65 years of age) in the 
+United States have 3 or more chronic conditions with an 
+inflammation component to their pathobiology [1] . Studies 
+show that unlike acute inflammation, chronic low-grade sys- 
+temic inflammation associated with aging increases risk for 
+developing or exacerbating many of these chronic conditions 
+(e.g., cardiovascular disease, diabetes, arthritis, and certain 
+cancers) [2-5] . Humans are susceptible to inflammation in 
+aging because of body composition changes (e.g., decreased 
+muscle mass, increased adipose tissue mass), imbalances be- 
+tween availability and demand of energy, and weakened im- 
+mune systems that occur over time [3 ,6] . Compared to younger 
+individuals, those 50 and older have 2 to 4 times higher circu- 
+lating levels of activated leukocytes and proinflammatory me- 
+diators, such as tumor necrosis factor- α (TNF- α), interleukin- 
+1 β (IL-1 β) and interleukin-6 (IL-6) [4 ,7] . Moreover, emerging 
+evidence suggests that 2 circulating adipokines, leptin and 
+adiponectin, are also mediators of inflammation and may be 
+novel targets for interventions to temper the chronic systemic 
+inflammation that occurs with aging and is detrimental to 
+health [8-10] . 
+Leptin is a peptide hormone primarily produced and se- 
+creted by adipocytes (fat cells) located in adipose tissue [8] . It 
+is a strong indicator of total body fat status and a key regulator 
+of appetite, metabolism, and behavior. Additionally, recent 
+evidence indicates that leptin exhibits proinflammatory 
+actions, including regulating T-cells, upregulating phago- 
+cytic function of macrophages, increasing production of 
+proinflammatory cytokines, and stimulating reactive oxygen 
+species [11-13] . Adiponectin, one of the most abundant pep- 
+tide hormones in the human body, is produced and secreted 
+primarily by the mitochondria of adipocytes in adipose tissue 
+[9 ,14-16] . Recent studies show that adiponectin has potent 
+anti-inflammatory actions, including inhibiting production of 
+proinflammatory cytokines (e.g., TNF- α, IL-6), inhibiting ad- 
+hesion molecules, and increasing anti-inflammatory cytokine 
+production (e.g., IL-10) [9 ,13 ,16] . After secretion, both leptin 
+and adiponectin circulate in blood as hormones that act on 
+the immune system [9 ,10 ,15 ,17] . The proposed actions of lep- 
+tin and adiponectin on immune cells involved in regulating 
+inflammation are depicted in Fig. 1 . While measuring leptin 
+or adiponectin levels in peripheral circulation may be helpful 
+in determining the status of systemic inflammation, recent 
+studies indicate that considering the leptin-to-adiponectin 
+ratio (LAR) may be more valuable [18-20] . Human studies 
+show that higher LARs indicates higher levels of systemic 
+inflammation and may be a more accurate indicator of inflam- 
+matory disease risk than leptin or adiponectin individually 
+[21-25] . Given the increasing evidence that inflammation in 
+aging contributes to the development of multiple chronic 
+diseases in aging and that leptin and adiponectin are in- 
+volved in modulating systemic inflammation, it is important 
+to evaluate safe, low cost interventions that could poten- 
+tially target these hormones. Findings from animal and 
+human studies suggest that marine-derived omega-3 fatty 
+acids, eicosapentaenoic acid (EPA), and docosahexaenoic 
+acid (DHA), long known for their anti-inflammatory actions, 
+may lower leptin levels and increase adiponectin levels 
+[26 ,27] . 
+A diet rich in marine-derived omega-3 polyunsaturated 
+fatty acids (PUFAs) was first reported to reduce the risk of 
+cardiovascular disease by Dyerberg and colleagues who stud- 
+ied diets of Greenland Eskimos [28] . Since then, EPA + DHA 
+supplementation has been shown to reduce triglyceride levels 
+and plaque formation and improve symptoms or outcomes of 
+other chronic conditions with an inflammatory component 
+to their pathobiology (e.g., cardiovascular disease) [29] . It 
+has been hypothesized that EPA + DHA may alter leptin and 
+adiponectin levels in terms of tempering inflammation by (1) 
+altering gene expression of Lep and Adipoq (genes that encode 
+for leptin and adiponectin respectively) [30 ,31] , (2) reducing 
+adipocyte size [32-34] , (3) decreasing weight and total adipos- 
+ity [32 ,34] , and/or 4) improving insulin sensitivity [32 ,34 ,35] . 
+While EPA + DHA supplementation has long been as- 
+sociated with anti-inflammatory outcomes [36 ,37] , their 
+mechanisms of action are not entirely known. While some 
+human studies report that EPA + DHA supplementation may 
+have favorable effects on leptin and adiponectin, in terms of 
+reducing inflammation, it is important to evaluate the col- 
+lective evidence from current literature about this important 
+topic using a systematic approach. 
+The purpose of the present study was to evaluate and 
+synthesize findings from recent randomized controlled trials 
+(RCTs) that reported the effects of EPA + DHA supplementation 
+on levels of leptin and adiponectin in peripheral circulation 
+by performing a systematic review. We searched PUBMED, 
+CINAHL, Scopus, Web of Science, and Cochrane Trials and 
+the reference lists of pertinent review articles [38-45] up to 
+June 10, 2018 using the keywords: “leptin OR adiponectin”
+AND “inflammation” AND “PUFAs OR fish oil OR fish oils OR 
+polyunsaturated fatty acids OR omega 3 OR DHA OR EPA OR 
+eicosapentaenoic acid OR docosahexaenoic acid.”
+2. Approach 
+This systematic review was conducted following the Preferred 
+Reporting Items for Systematic Reviews and Meta-Analyses 
+(PRISMA) [46 ,47] guidelines and checklist throughout design, 
+implementation, data extraction, analysis, and reporting. 
+2.1. Search methods for study identification 
+Five electronic databases (PUBMED, CINAHL, Scopus, Web of 
+Science, and Cochrane Trials) and citation lists of pertinent re- 
+view articles [38-45] were searched using predesigned search 
+strategies. The search was not limited by date to include all 
+relevant studies published up to the final search date of June 
+10, 2018. Databases were searched using related keywords of 
+MeSH and non-MeSH terms for marine omega-3 fatty acids, 
+inflammation, and adipokines. The search string used in all 
+databases was “leptin OR adiponectin” AND “inflammation”
+AND “PUFAs OR fish oil OR fish oils OR polyunsaturated fatty 
+acids OR omega 3 OR DHA OR EPA OR eicosapentaenoic acid 
+OR docosahexaenoic acid.”
+Nutrition Research  85 (2021) 135–152 137 
+  
+Secretes Adiponec/g415n Secretes Lep/g415n 
+Nucleus 
+Lipid molecule 
+Adipocyte 
+An/g415-Inﬂammatory Ac/g415ons Proinﬂammatory Ac/g415ons 
+ Regulates the 
+diﬀeren/g415a/g415on 
+process of T-cells 
+ 
+ Upregulates 
+phagocy/g415c func/g415on 
+of macrophages 
+ 
+ Increases 
+proinﬂammatory 
+cytokine produc/g415on 
+ 
+ S/g415mulates Reac/g415ve 
+Oxygen Species 
+ Inhibits 
+proinﬂammatory 
+cytokine produc/g415on 
+ 
+ Inhibits adhesion 
+molecules 
+ 
+ Increases an/g415-
+inﬂammatory 
+cytokine produc/g415on 
+ 
+ Enhances 
+macrophage ac/g415vity 
+In Chronic Systemic Inﬂamma/g415on, as in aging or obesity: 
+Decreased Adiponec/g415n Secre/g415on  
+Increased Pro-inﬂammatory 
+Cytokines 
+Increased Lep/g415n Secre/g415on 
+Increased Pro-inﬂammatory 
+Cytokines 
+Fig. 1 – Role of leptin and adiponectin in inflammation. Proposed effects of leptin and adiponectin on immune cells are 
+shown. Adipocytes produce and secrete leptin and adiponectin which circulate as hormones. The left side of the diagram 
+shows the anti-inflammatory effects of adiponectin while the right side of the diagram shows the proinflammatory effects 
+of leptin. In chronic systemic inflammation, as seen in obesity and aging, adiponectin levels are decreased, and leptin levels 
+are increased. This imbalance of leptin and adiponectin levels results in increased stimulation of proinflammatory immune 
+cells and decreased stimulation of anti-inflammatory cells, which promotes inflammation. 
+2.2. Eligibility criteria 
+We included all prospective studies that included a supple- 
+mentation of EPA or DHA and reported measures of leptin, 
+adiponectin, or LAR in blood. Studies were included in this 
+review if they were: (1) peer-reviewed, (2) randomized trials of 
+human adults, (3) contained leptin or adiponectin measures, 
+and (4) used an intervention of EPA and/or DHA supplemen- 
+tation. Studies were excluded that included (1) animals, (2) 
+children, or (3) pregnant women. 
+2.3. Study selection 
+Two investigators, J.R. and J.M., independently screened titles 
+and abstracts of all articles that were identified for eligibility. 
+They independently reviewed the full texts of the remaining 
+articles to establish inclusion or exclusion. Corresponding 
+authors of studies without sufficient data for meta-analysis 
+were contacted for additional information. When articles 
+included overlapping data, the most comprehensive arti- 
+cles were chosen. Disagreements were resolved through 
+discussions until consensus was reached. 
+2.4. Data extraction and quality assessment 
+Data from all articles that met inclusion criteria were ex- 
+tracted independently by investigators J.R. and S.G. and 
+managed using Research Electronic Data Capture (REDCap) 
+[48] . Data retrieved included country of origin, study design, 
+blinding, study population characteristics, duration of follow- 
+up, intervention dose, placebo substance and dose, leptin, 
+adiponectin, LAR, and attrition. 
+J.R. and S.G. assessed studies that met inclusion criteria 
+for risk of bias using the Cochrane Risk of Bias Tool for 
+Randomized Trials as outlined in the Cochrane Handbook for 
+Systematic Reviews of Interventions [49] . The Risk of Bias Tool 
+for Randomized Trials assesses risk of biases associated with 
+participant selection, performance, attrition biases, selective 
+outcome reporting, and blinding. Reviewers reached con- 
+sensus through discussions when disagreements occurred 
+during bias assessment. Despite risks of bias, all studies were 
+included to fully gage the state of the science ( Table 1 ). 
+2.5. Outcomes assessed 
+The primary outcome measures investigated in this system- 
+atic review were leptin, adiponectin, and the LAR. 
+3. Results 
+3.1. Study characteristics 
+The electronic search was conducted in June 2018. A total 
+of 714 records were identified through searching electronic 
+databases. An additional 118 records were identified through 
+hand searching references in pertinent reviews, resulting in 
+a total of 832 records. After removing duplicates ( n = 276), 
+556 records remained. By screening titles and abstracts, 494 
+records were excluded for not meeting inclusion criteria. Full 
+138 Nutrition Research  85 (2021) 135–152 
+Table 1 –T h e Cochrane Risk of Bias Tool for Randomized Trials as outlined in the Cochrane Handbook for Systematic 
+Reviews of Interventions was used to evaluate bias. The Risk of Bias summary for all articles included in the systematic 
+review is listed below 
+Reference (citation) Sequence 
+generation 
+Allocation 
+concealment 
+Blinding Incomplete 
+outcome data 
+Selective outcome 
+reporting 
+Other sources 
+of bias 
+Allaire et al. (2016) [50] L L L L L L 
+Gammelmark et al. (2012) [51] L N L L L L 
+Guebre-Egziabher et al. (2013) [52] N H H L L L 
+Haidari et al. (2015) [53] N L L L L N 
+Harving et al. (2015) [54] N L L N L N 
+Huerta et al. (2016) [55] N N L H L L 
+Itariu et al. (2012) [56] L N H L L L 
+Ito et al. (2014) [57] L H H H N H 
+Jacobo-Cejudo et al. (2017) [58] N N H L L L 
+Koh et al. (2012) [59] L L H L L L 
+Krantz et al. (2015) [60] N N L H L H 
+Krebs et al. (2006) [61] N N L L L L 
+Lee et al. (2014) [62] N N L L L L 
+Masson et al. (2013) [63] N N L N N N 
+Micallef and Garg. (2009) [64] L L L N L N 
+Mizia-Stec et al. (2011) [65] N N H L L L 
+Mohammadi et al. (2012) [66] L N L N L L 
+Munro and Garg (2012) [67] L L L L L N 
+Munro and Garg (2013) [68] L N L N L L 
+Patel et al. (2007) [69] N N H L L L 
+Poreba et al. (2017) [70] L H L L L L 
+Qin et al. (2015) [71] L L L L L L 
+Rizza et al. (2009) [72] N N L L L L 
+Sanyal et al. (2014) [73] L N L L L L 
+Satoh et al. (2009) [74] N N N L L L 
+Satoh-Asahara et al. (2012) [75] N N H L L N 
+Simao et al. (2012) [76] N N N N L L 
+Spencer et al. (2013) [77] N N N N L L 
+Troseid et al. (2009) [78] N N N H L L 
+Vargas et al. (2011) [79] N N L N L L 
+Yamamoto et al. (2014) [80] N H H N L L 
+H = High risk of bias; L = Low risk of bias; N = Neutral risk of bias. 
+texts of 62 remaining records were reviewed for eligibility. As 
+a result, 31 records were excluded. Flow of articles, including 
+reasons for full-text exclusion, are shown in the PRISMA 
+diagram in Fig. 2 . Thirty-one studies met criteria for inclusion 
+in this systematic review [50-80] . 
+Ten of 31 studies included in the review used more than 
+two arms in their designs [55 ,59 ,61 ,62 ,64 ,73 ,76 ,78-80] . Data 
+were reported from only arms that tested EPA, DHA, or 
+EPA + DHA supplementation and the control arm most like 
+the intervention group. For example, in the study by Micallef 
+and Garg (2009), data from the arms that also received plant 
+sterols were not included in this review. 
+Characteristics of the 31 RCTs included in this review 
+are shown in Table 2 . Fourteen studies were conducted in 
+the United States ( n = 5) or Europe ( n = 9). Five studies 
+were conducted in Asia, 3 in Australia, 2 in Iran, and 1 each 
+in Mexico and Brazil. Five studies did not report locations. 
+Twenty-nine studies used parallel designs. Remaining studies 
+used a crossover design [50] and a 2 × 2 factorial design [64] . 
+Double blinding (participants and researchers) occurred in 
+17 studies (53%). Five studies were single-blinded, and nine 
+studies did not implement blinding. 
+Populations of interest in studies included in this review 
+varied. Some studies focused on participants who were 
+overweight/obese [50 ,51 ,55-57 ,67 ,68] or were at risk for or 
+currently had cardiac disorders [53 ,60 ,63 ,65 ,69 ,78] , lipid dis- 
+orders [59 ,64 ,80] , diabetes mellitus type 2 [58 ,72] , metabolic 
+syndrome [76 ,77] , liver disorders [73] , kidney disorders [52] , or 
+polycystic ovarian syndrome [79] . Eight studies investigated 
+2 or more of the above conditions [54 ,61 ,62 ,66 ,70 ,71 ,74 ,75] . 
+Additionally, the length of the studies varied from as few as 3 
+weeks [64] to as long as 3 years [78] . 
+Researchers used various approaches for control groups. 
+For example, some studies used no intervention for the 
+control group [57 ,80] , some used a dietary supplementation 
+intervention other than marine-derived fatty acids [74 ,78] , 
+while others used usual or standard care or diet alone as the 
+control [65 ,69 ,75 ,76] . Twenty-five of 31 studies used an oil/fat 
+as the control substance, such as corn oil [50 ,60 ,62 ,71 ,77] , olive 
+oil [51 ,54 ,63 ,72] , sunola oil [64 ,67 ,68] , soybean oil [79] , sun- 
+flower oil [55] , and butterfat [56] . One study used cornstarch as 
+the control substance [58] , and 2 used edible paraffin [53 ,66] . 
+Two studies did not report control substance [59 ,73] . One study 
+used an unnamed control substance in addition to a biweekly 
+support group, where physical activity and low energy diet 
+recommendations were made for the control group [61] . One 
+study used supplement drinks as interventions. The active 
+group used Smartfish drink (Smartfish, Oslo, Norway) that 
+Nutrition Research  85 (2021) 135–152 139 
+Table 2 – Characteristics of articles included in systematic review 
+Reference; Country 
+(citation) 
+Study 
+Design 
+Blinding Population Duration 
+(Weeks) 
+Intervention, dose in 
+g/d 
+Age mean 
+(SD) 
+% 
+Males 
+BMI 
+mean 
+(SD) 
+Sample 
+size 
+total 
+% 
+Attrition 
+Allaire et al. (2016), NR 
+[50] 
+Crossover, 
+3-arm 
+Double Men/ Women with Abdominal Obesity, CRP 
+1-10 mg/L 
+10 Corn Oil NR NR 29.3 (4.1) 125 18.8 
+EPA, 2.7 NR NR 29.3 (4.3) 121 21.4 
+DHA, 2.7 NR NR 29.4 (4.4) 123 20.1 
+Gammelmark et al. 
+(2012); Denmark [51] 
+Parallel, Double Overweight Men/ Women with increased WC 6 Olive Oil NR NR NR 24 4 
+2-arm EPA + DHA, 0.64 + 0.48 58 (7.4) 48 30.8 (4.2) 25 0 
+Guebre-Egziabher et al. 
+(2013); France [52] 
+Parallel, None Men/ Women with Chronic Kidney Disease, 
+GFR < 20 mL/min, BMI < 27 
+10 Moderate EPA + DHA, 
+1.08 + 0.72 
+50.5 (10.8) 66.7 23.2 (6.7) 6 0 
+2-arm High EPA + DHA, 
+2.16 + 1.44 
+50.2 (6.7) 33.3 23.4 (3.8) 6 0 
+Haidari et al. (2015); Iran 
+[53] 
+Parallel, 
+2-arm 
+Double Men/ Women with BMI < 30, recent Acute MI 10 Paraffin NR NR 28.8 (3.8) 21 0 
+EPA + DHA, NR NR 24.8 (4.4) 21 0 
+0.54 + 0.36 
+Harving et al. (2015); 
+Denmark [54] 
+Parallel, Double Men/Women w/ESRD on HD, CVD 12 Olive Oil 68 (11) 64.6 24.5 (4.3) 79 23.3 
+2-arm EPA + DHA, 0.76 + 0.6375 65.5 (11) 66.3 24.8 (4.4) 83 19.4 
+Huerta et al. (2016); 
+Spain [55] 
+Parallel, Double Caucasian, Sedentary Women w/BMI 27.5–40 10 Sunflower Oil + LA 38.9 (1.7) 0 33.2 (1.3) 21 NR 
+4-arm EPA + DHA, 1.3 + 0.414 36.9 (2) 0 33 (0.8) 16 NR 
+Itariu et al. (2012); 
+Austria [56] 
+Parallel, None Severely Obese Men/ Women, nonDM, 
+scheduled for Wt reduction surgery 
+8 Butterfat 38 (2) 17.9 44.6 (NR) 28 12.5 
+2-arm EPA + DHA, 1.84 + 1.52 39 (2) 14.8 48.7 (NR) 27 10 
+Ito et al. (2014); Japan 
+[57] 
+Parallel, None Japanese Obese Men/Women with BMI > 25 12 No Intervention 55.6 (12.7) 55.8 29.1 (4.2) NR NR 
+2-arm EPA, 1.8 52.7 (13.5) 53.3 29.6 (4.4) NR NR 
+Jacobo-Cejudo et al. 
+(2017); Mexico [58] 
+Parallel, Single Men/Women with DM2, BMI < 29.9 without 
+other chronic diseases 
+24 Cornstarch 48.1 (6.8) 20 26 (1.6) 25 19.4 
+2-arm EPA + DHA, 0.32 + 0.2 50.4 (6.3) 24.1 25.6 (2.4) 29 14.7 
+Koh et al. (2012); Korea 
+[59] 
+Parallel, Single Men/Women with HTCD 8 NR 54 (1) 59.2 25.2 (0.3) 49 2 
+3-arm EPA + DHA 2 ∗∗ 55 (1) 56 25.5 (0.4) 50 0 
+Krantz et al. (2015); 
+United States [60] 
+Parallel, Double Caucasian Men/ Women with at least one 
+risk factor for CVD, without a diagnosis of 
+CVD 
+12 Corn Oil 60.2 (10.8) 37.1 31.5 (7.1) 35 NR 
+2-arm EPA + DHA, 1.86 + 1.5 62.3 (9.7) 33.3 33.9 (8.6) 27 NR 
+Krebs et al. (2006); 
+United Kingdom [61] 
+Parallel, Double Overweight Women, BMI > 27, 
+hyper-insulinemia 
+24 Placebo + Wt Loss NR 0 34.6 (5.3) 32 15.8 
+3-arm EPA + DHA + Wt Loss, 
+1.3 + 2.9 
+NR 0 35.3 (5.6) 35 10.3 
+Lee et al. (2014); United 
+States [62] 
+Parallel, Single Men/ Women with early-stage DM2 or MetS 8 Corn Oil 59.9 (9.8) 28.6 34.8 (5.3) 21 16 
+3-arm EPA + DHA, 3.58 + 2.44 56.2 (8.7) 37.5 33.2 (4.8) 16 20 
+Masson et al. (2013); NR 
+[63] 
+Parallel, Double Men/ Women with Chronic Heart Failure 12 Olive Oil NR 79.6 NR 544 12.5 
+2-arm EPA + DHA, 0.85 + 0.882 NR 80.1 NR 537 13.5 
+Micallef and Garg (2009); 
+Australia [64] 
+Parallel, Double Men/ Women with established combined 
+HLPD 
+3 Sunola Oil 54.9 (2.6) 46.7 26.6 (1) 15 0 
+4-arm, 
+2 × 2 
+Factorial 
+EPA + DHA, 56.6 (2) 40 26.4 (1.3) 15 0 
+0.32 + 1.12 
+( continued on next page ) 
+140 Nutrition Research  85 (2021) 135–152 
+Table 2 ( continued ) 
+Reference; Country 
+(citation) 
+Study 
+Design 
+Blinding Population Duration 
+(Weeks) 
+Intervention, dose in 
+g/d 
+Age mean 
+(SD) 
+% 
+Males 
+BMI 
+mean 
+(SD) 
+Sample 
+size 
+total 
+% 
+Attrition 
+Mizia-Stec et al. (2011); 
+Poland [65] 
+Parallel, None Men/Women with Acute MI & successful 
+coronary stent placement 
+4 Standard Treatment 62 (NR) 84.2 27.5 (2.9) 19 0 
+2-arm EPA + DHA, 0.465 + 0.375 56 (8) 73.7 27.2 (3.2) 19 0 
+Mohammadi et al. 
+(2012); Iran [66] 
+Parallel, Double Women w/PCOS, BMI 25-40 8 Paraffin 27.7 0 28.8 (2.9) 31 3.1 
+2-arm EPA + DHA, 0.72 + 0.48 27.3 (4.3) 0 28.7 (3.2) 30 6.3 
+Munro and Garg (2012); 
+Australia [67] 
+Parallel, Double Men/ Women with BMI 30-40 14 Sunola Oil 42.3 (9.1) 21.4 33 (3.2) 14 30 
+2-arm EPA + DHA, 0.42 + 1.62 40.5 (10.9) 16.7 32.7 (3.3) 18 10 
+Munro and Garg (2013); 
+Australia [68] 
+Parallel, Double Men/Women with BMI 30-40 12 Sunola Oil 41.1 (11.3) 33.3 32.5 (3.6) 18 NR 
+2-arm EPA + DHA, 0.42 + 1.62 39.9 (11.7) 33.3 32.6 (2.1) 15 NR 
+Patel et al. (2007); NR [69] Parallel, None Men at least 3 months post MI 12 Usual Care 59.7 (9.5) 100 27.7 (5.7) 19 0 
+2-arm EPA + DHA, 0.465 + 0.375 65.3 (7.6) 100 27.4 (3.7) 16 0 
+Poreba et al. (2017); NR 
+[70] 
+Parallel, Double Men/Women w/ DM2 & history of CAD or PAD 12 No EPA + DHA 66.7 (6.8) 68.4 NR 38 0 
+2-arm EPA + DHA, 1 + 1 64.4 (6.7) 61.1 NR 36 5.3 
+Qin et al. (2015); China 
+[71] 
+Parallel, Double Men/Women with NAFLD & HLPD 12 Corn Oil 44.3 (10.9) 73.5 26 (2.8) 34 15 
+2-arm EPA + DHA, 0.728 + 0.516 46 (10.7) 72.2 26.4 (3.9) 36 10 
+Rizza et al. (2009); Italy 
+[72] 
+Parallel, Double Adult Men/ Women offspring of persons with 
+DM2 (1 or more parent) 
+12 Olive Oil NR NR NR 24 0 
+2-arm EPA + DHA, 1 ∗∗ NR NR NR 26 0 
+Sanyal et al. (2014); 
+United States [73] 
+Parallel, Double Men/Women with biopsy-confirmed NASH 
+within six months 
+48 NR NR NR NR 55 NR 
+3-arm High EPA, 2.7 NR NR NR 64 NR 
+Satoh et al. (2009); Japan 
+[74] 
+Parallel, Single Japanese Men/ Women with DLPD and MetS 12 Diet Only 52.2 (2.1) 41.3 30 (0.6) 46 0 
+2-arm Diet + EPA, 1.8 51.3 (21) 31.3 30 (0.7) 46 0 
+Satoh-Asahara et al. 
+(2012); Japan [75] 
+Parallel, Single Overweight Japanese Men/ Women w/DLPD 12 Usual Care 54 (13) 66.7 29.1 (5.3 39 0 
+2-arm EPA, 1.8 52.3 (13) 51.2 29.9 (4.9) 43 0 
+Simao et al. (2012); 
+Brazil [76] 
+Parallel, None Women with MetS 12 Usual Diet 47.1 (8.8) 0 NR 15 0 
+4-arm EPA + DHA, 1.8 + 1.2 47.5 (9.2) 0 NR 19 0 
+Spencer et al. (2013); 
+United States [77] 
+Parallel, Single Men/ Women non-DM2 with impaired 
+glucose tolerance, impaired fasting glucose 
+or ≥ 3 features of MetS 
+12 Corn Oil 53.3 (2.2) 35.7 33.4 (1.1) 14 NR 
+2-arm EPA + DHA, 4 ∗∗ 48.8 (2.3) 31.6 33.4 (2.3) 19 NR 
+Troseid et al. (2009); 
+Norway [78] 
+Parallel, None Men with a high risk of CVD 156 Diet Only NR 100 NR NR NR 
+4-arm EPA + DHA + Diet, 1.8 + 1.2 NR 100 NR NR NR 
+Vargas et al. (2011); 
+United States [79] 
+Parallel, Double Women with PCOS 6 Soybean Oil 28.9 (1) 0 33.2 (1.8) 17 5.6 
+3-arm EPA + DHA, 2.148 + 1.452 31.7 1.9) 0 36.3 (1.9) 17 19 
+Yamamoto et al. (2014); 
+Japan [80] 
+Parallel, None Men/ Women with HLPD 18 No Treatment 70.5 (7.9) 44.8 25 (4.5) 29 NR 
+4-arm EPA, 0.9 71 (8.4) 58.1 25.7 (3.9) 31 4.5 
+Abbreviations: ALA, alpha-linoleic acid; BMI, body mass index, reported as kg/m 2 ; CAD, coronary artery disease; CVD, cardiovascular disease; DLPD, dyslipidemia; DM2, Type 2 Diabetes Mellitus; 
+HLPD, hyperlipidemia; HTCD, hypertriglyceridemia; LA, linoleic acid; MetS, metabolic syndrome; MI, myocardial infarction; NAFLD, Nonalcoholic Fatty Liver Disease; NASH, Non-alcoholic steato- 
+hepatitis; NR, not reported in original manuscript or supplemental materials available; PAD, peripheral artery disease; PCOS, polycystic ovary syndrome. Age reported in years. ∗∗Did not specify 
+amount of EPA or DHA individually in original manuscript. 
+Table includes study arms of the fish oil supplementation group and a control group; other arms of studies were not included for simplification of effects of fish oil compared to a control group. 
+Nutrition Research  85 (2021) 135–152 141 
+Records iden/g415ﬁed through
+database searching
+(n = 714)
+ScreeningIncluded Eligibility Iden/g415ﬁca/g415on
+Addi/g415onal records iden/g415ﬁed 
+through other sources
+(n = 118)
+Records a/g332er duplicates removed
+(n = 556)
+Records screened
+(Title & Abstract)
+(n = 556)
+Records excluded
+(n = 494)
+Full-text ar/g415cles assessed 
+for eligibility
+(n = 62)
+Full-text ar/g415cles excluded, 
+with reasons (n = 31)
+ Study data included from 
+other publica/g415on (n=8)
+ Not an RCT (n=8)
+ Lep/g415n/Adiponec/g415n not 
+measured (n=8)
+ No supplement of Fish oil, 
+EPA, or DHA (n=4)
+ Interven/g415on included other 
+fats (n=1)
+ Not published in English (n=1)
+ Did not use a placebo for 
+comparison (n=1)
+Studies included in 
+qualita/g415ve synthesis
+(n = 31)
+Fig. 2 – Selection process for article inclusion. The PRISMA diagram for the selection process of articles for inclusion. 
+Thirty-one articles met eligibility requirements and were included in this systematic review. DHA, docosahexaenoic acid; 
+EPA, eicosapentaenoic acid; RCT, randomized controlled trial. 
+included 1 gram per day (g/d) each of EPA + DHA plus botanical 
+additives (pomegranate, chokeberry, and transresveratrol) to 
+reduce oxidation. In that study, the placebo group received 
+supplement drinks that included the same ingredients minus 
+EPA + DHA [70] . One study compared a moderate dose of 
+EPA + DHA to a higher dose of EPA + DHA [52] . 
+Five studies assessed effects of EPA only versus control 
+[57 ,73-75 ,80] , and one study examined effects of EPA versus 
+DHA versus control [50] . No studies examined DHA alone 
+versus control. Most studies ( n = 25) used a combined 
+EPA + DHA intervention [51-56 ,58-72 ,76-79] . Diverse doses of 
+EPA + DHA were used across studies. The lowest dose con- 
+sisted of 0.32 g/d of EPA and 0.2 g/d of DHA for combined 
+dose of 0.52 g/d [58] ; the highest dose consisted of 3.5 g/d 
+of EPA and 2.44 g/d of DHA for combined dose of 6.02 g/d 
+[62] . 
+Of the 31 studies included in this review, four reported the 
+mean age of the participants as < 40 years [55 ,56 ,66 ,79] , 21 
+studies reported the mean age of participants as > 40 years at 
+the final study time point [50-52 ,54 ,57-65 ,67-71 ,74-77 ,80] . Four 
+studies did not report the mean age per treatment group at 
+final study time points [53 ,72 ,73 ,78] . Sample sizes of studies 
+ranged from 12 [52] to 1081 [63] participants. Three studies 
+did not disclose the sample size per treatment group at the 
+study end point [57 ,78 ,80] . Five study samples included only 
+women [55 ,61 ,66 ,76 ,79] , and 2 studies included only men 
+[69 ,78] . However, the majority of studies ( n = 24) included 
+both men and women. 
+Of studies that reported body mass index (BMI) ( n = 26), 
+most ( n = 25) reported that participants had a mean BMI > 25, 
+which is considered overweight or obese by the Centers for 
+Disease Control [81] . Four studies did not report mean BMI 
+per treatment group at the study endpoint [70 ,73 ,76 ,78] . 
+3.2. Withdrawal 
+Participant withdrawal rates in studies reporting attrition 
+( n = 24) ranged from 0% [52 ,53 ,64 ,65 ,69 ,72 ,74-76] to 30% [67] . 
+Only 3 studies reported withdrawal rates higher than 20% 
+[50 ,54 ,67] . Although rates of withdrawal higher than 20% 
+can indicate threats to validity, it is common to see higher 
+rates when the duration of a trial is longer [82] . Studies 
+with higher attrition rates had study durations of 10 [50] , 12 
+[54] , and 14 weeks [67] , respectively. Seven studies did not 
+disclose withdrawal rates at study end per treatment group 
+[55 ,57 ,60 ,68 ,73 ,77 ,78] . 
+142 Nutrition Research  85 (2021) 135–152 
+3.3. Risk of bias 
+As shown in Table 1 , most studies had a low or neutral risk 
+of bias. One study had a high risk of bias in 4 categories 
+of the Cochrane Risk of Bias Tool for Randomized Trials 
+[57] . Other studies had a high risk of bias in one category 
+[55 ,56 ,58 ,59 ,65 ,69 ,70 ,75 ,79] , or 2 categories [52 ,60 ,80] . Remain- 
+ing studies had low or neutral risk of bias in every category. 
+Overall, the category with the most studies showing a high 
+risk of bias was in blinding [52 ,56 ,57 ,60 ,61 ,65 ,69 ,75 ,80] . There 
+was a high risk of bias in the allocation category in four 
+studies [52 ,57 ,60 ,78] . Four studies displayed a high risk of bias 
+in the incomplete outcome data category [55 ,57 ,60 ,78] . Other 
+sources of bias were identified in 2 studies [57 ,60] . The 2014 
+Ito et al. study did not report baseline data for randomized 
+groups to determine that groups were balanced. The 2015 
+Krantz et al. study stated that the dose of medication given 
+might not have been adequate to decrease pulse wave veloc- 
+ity “particularly if compliance was suboptimal,” however, the 
+study did not discuss if or how compliance was measured. 
+By not determining compliance within the study, a degree of 
+bias was introduced. All studies had either a low or neutral 
+risk of bias in the categories of sequence generation and 
+selective outcome reporting. It is important to note that 
+in some countries (e.g., Japan), comparing a placebo to an 
+effective treatment such as EPA or DHA is not permitted [83] . 
+Rather, the comparison must be between standard therapy 
+and the drug being tested. In the included studies that were 
+subject to this rule [57 ,74 ,75 ,80] , randomization was imple- 
+mented, however blinding was either single (researchers 
+blinded to participant allocation in analyses), or there was no 
+blinding. 
+3.4. Study findings 
+Eighteen of the 31 studies reported lower leptin levels or 
+higher adiponectin levels with EPA + DHA supplementation 
+when compared to the control group at the study endpoint. 
+Nine of these studies reported that the between group dif- 
+ferences at the study endpoint were statistically significant. 
+Fourteen studies reported no effects of EPA and/or DHA sup- 
+plementation on leptin, adiponectin, or LAR when compared 
+to the control group at the study end point. However, doses, 
+duration of supplementation, and populations of interest 
+varied widely across studies. 
+Leptin and adiponectin data are often skewed and, there- 
+fore, analyzed on a transformed scale [84 ,85] . Of the 31 
+included articles, only nine reported that the leptin and/or 
+adiponectin data distribution was checked for normality 
+[51 ,53-56 ,66 ,71 ,72 ,77] . Of those 9, only 4 studies reported 
+that the results for leptin and/or adiponectin data were nor- 
+mally distributed [56 ,71 ,72 ,77] . Additional information was 
+requested from corresponding authors of studies wherein 
+it was not clear if the leptin and adiponectin data were 
+normalized before the analyses [52 ,57-65 ,67-70 ,73 ,75 ,76 ,78 ,79] . 
+Responses were received from 3 corresponding authors 
+[63 ,70 ,76] . Thus, a meta-analyses and effect size analyses for 
+the studies were not conducted. 
+3.4.1. Effects of EPA and/or DHA on leptin 
+Sixteen studies reported effects of EPA or EPA + DHA on levels 
+of leptin in peripheral circulation. Of those 16 studies, 12 
+reported lower levels of leptin in the EPA or EPA + DHA group 
+compared to the control group at study end points [53 ,56- 
+58 ,61 ,62 ,64 ,67 ,68 ,74 ,77 ,79] and 2 of those 12 studies reported 
+that the differences were statistically significant [53 ,61] . Of 
+the 16 studies reporting leptin levels as an outcome variable, 
+3 studies used only EPA supplementation (no DHA) and 
+reported no significant differences in leptin levels between 
+groups at the study end point [57 ,74 ,80] . Thirteen of the 16 
+studies used an EPA + DHA supplementation and of those 13 
+studies, 2 reported significantly lower leptin levels at study 
+endpoints in the EPA + DHA groups compared to the control 
+groups [53 ,61] ( Table 3 ). 
+3.4.2. Effects of EPA and/or DHA on adiponectin 
+Thirty studies reported effects of EPA and/or DHA on levels 
+of adiponectin in peripheral circulation. Eighteen of those 30 
+studies reported higher adiponectin levels in the treatment 
+group compared to the control group at study endpoints, and 
+8 of those 18 studies reported that the between group dif- 
+ferences were statistically significant [50 ,51 ,53 ,61 ,66 ,71 ,74 ,75] . 
+Five of the 30 studies including adiponectin as an outcome 
+variable used only EPA supplementation (no DHA) [57 ,73- 
+75 ,80] . Two of those 5 studies reported significantly higher 
+adiponectin levels in the treatment groups compared to the 
+control groups at study endpoints [74 ,75] . Twenty-three stud- 
+ies evaluated effects of a combined EPA + DHA supplementa- 
+tion on adiponectin levels over time; 5 reported significantly 
+higher adiponectin levels in EPA + DHA groups compared to 
+control groups at study end points [51 ,53 ,61 ,66 ,71] . Allaire 
+et al. (2016) compared effects of EPA versus DHA versus 
+control on adiponectin levels and reported that the group 
+receiving DHA supplementation had significantly higher 
+levels of adiponectin compared to the EPA group and the 
+control group at the study end point ( Table 4 ). 
+3.4.3. Effects of EPA and/or DHA on leptin to adiponectin ratio 
+Only one study reported the LAR and in that study the LAR 
+was significantly lower in the EPA + DHA group at the study 
+endpoint compared to the LAR at the study onset [58] . There 
+were no significant differences in the LAR between groups at 
+the study end point. This study used a combined EPA + DHA 
+dose of 0.52 g/d for 24 weeks ( Table 5 ). 
+4. Discussion 
+This systematic review summarizes current evidence from 
+RCTs about the effects of EPA or EPA + DHA supplementation 
+on circulating levels of leptin and/or adiponectin, hormones 
+involved in the regulation of systemic inflammation. Nearly all 
+immune cells contain leptin receptors, indicating that leptin 
+may be involved in all stages of the immune response [8] . For 
+example, leptin has been shown to facilitate the production of 
+the proinflammatory cytokines IL-1 β, IL-6, and TNF- αby stim- 
+ulating macrophage migration inhibitory factor [10] . Addition- 
+ally, Loffreda et al. showed that leptin enhances the synthesis 
+of proinflammatory cytokines by cultured macrophages [86] . 
+Nutrition Research  85 (2021) 135–152 143 
+Table 3 – Effect of marine omega-3 PUFAs on leptin reported in included studies 
+Reference 
+(citation) 
+Method for 
+leptin 
+Group name Leptin 
+baseline 
+(ng/mL) 
+Leptin at 
+study end 
+(ng/mL) 
+Change in 
+leptin mean 
+Reported findings (between 
+groups), analysis used 
+Treatment group 
+significantly higher 
+( + ), significantly 
+lower (-) or no 
+difference (ND) than 
+Placebo group 
+Guebre-Egziabher 
+et al. (2013) [52] 
+ELISA Moderate EPA + DHA 20.3 (12.7) 23.4 (14.9) 3.1 No significant differences, np. ND 
+High EPA + DHA 19.8 (6.6) 23.8 (8.5) 4 
+Haidari et al. (2015) 
+[53] 
+ELISA Paraffin 15.2 (3.9) 9.1 (2.7) −6.1 Significantly lower in EPA + DHA 
+group ( p = 0.007), pm. 
+↓ 
+EPA + DHA 14.2 (4.8) 6.9 (2.7) −7.3 
+Itariu et al. (2012) 
+[56] 
+RIA Butterfat 66 (4.6) 70.3 (4.1) 4.3 No significant differences, pm. ND 
+EPA + DHA 69.7 (3.6) 69 (3.6) −0.7 
+Ito et al. (2014) [57] NR No Intervention 9.9 (6.3–19.4) 10.9 (5.8–19.6) UTD No significant differences, np. ND 
+EPA 11.2 (6.6–19.2) 9.5 (6.7–16.5) UTD 
+Jacobo-Cejudo et al. 
+(2017) [58] 
+Luminometry Cornstarch 18.4 (13.2) 3.5 (2.3) −14.9 No significant differences, pm. ND 
+EPA + DHA 21.7 (15.5) 3.9 (2.5) −17.8 
+Krebs et al. (2006) 
+[61] 
+ELISA Placebo + Wt Loss 25.9 (16.8) 13.6 (11.5) −12.3 Significantly lower in EPA + DHA 
++ Wt Loss group ( p = 0.0007), 
+np. 
+↓ 
+EPA + DHA + Wt Loss 26.7 (14.9) 16.8 (10.3) −9.9 
+Lee et al. (2014) [62] NR Corn Oil 53.5 (6.8) e 44.2 (5.3) e −9.3 No significant differences, np. ND 
+EPA + DHA 45.1 (11) e 40.6 (7.2) e −4.5 
+Micallef and Garg 
+(2009) [64] 
+EIA Sunola Oil 15.1 (2.7) NR UTD No significant differences, NR. ND 
+EPA + DHA 19.1 (5.2) 16.1 (4.6) −3 
+Munro and Garg 
+(2012) [67] 
+ELISA Sunola Oil 32.2 (14.4) 20.9 (9.8) −11.3 No significant differences, NR. ND 
+EPA + DHA 32.1 (20.2) 18.2 (11.5) −13.9 
+Munro and Garg 
+(2013) [68] 
+EIA Sunola Oil 34.3 (13.5) 35.8 (19.4) 1.5 No significant differences, NR. ND 
+EPA + DHA 36.3 (20) 35.4 (20.6) −0.9 
+Patel et al. (2007) [69] ELISA Usual Care NR NR −1.9 ^ No significant differences, np. ND 
+EPA + DHA NR NR −0.2 ^ 
+Poreba et al. (2017) 
+[70] 
+RIA No EPA + DHA 6.6 (5.1) 8 (5.5) 1.4 No significant differences, np. ND 
+EPA + DHA 4.9 (4.7) 5 (4.5) 0.1 
+Satoh et al. (2009) 
+[74] 
+RIA Diet Only 15.2 (1.6) 14 (0.4) −1.2 No significant differences, pm. ND 
+Diet + EPA 16.1 (1.6) 13.8 (0.5) −2.3 
+Spencer et al. (2013) 
+[77] 
+Luminex Corn Oil 34.5 (3.8) 36.2 (5.9) 1.7 No significant differences, pm. ND 
+EPA + DHA 52.5 (10.8) 48.2 (9.1) −4.3 
+Vargas et al. (2011) 
+[79] 
+RIA Soybean Oil 28.1 (3.4) 30.6 (4.3) 2.5 No significant differences, np. ND 
+EPA + DHA 29.8 (3.5) 29.4 (3.2) −0.4 
+Yamamoto et al. 
+(2014) [80] 
+NR No Treatment 11.1 (7) 10.8 (6.5) −0.3 No significant differences, pm. ND 
+EPA 10.8 (9.7) 12.3 (14.6) 1.5 
+Abbreviations: EIA, Enzyme Immunometric Assay; IFMA, Immunoflourometric Assay; np, Nonparametric testing used in original study; NR, Not reported; pm, parametric testing used in original 
+study; QIA, Quantikine Immunoassay; RIA, Radioimmunoassay; UTD, Unable to Determine; Wt, Weight; e, unit not reported. 
+Leptin levels are listed as mean (SD) or median (interquartile range), as reported in original manuscript. Leptin was converted to ng/mL when reported under different measures. 
+^ Change as reported in original manuscript. 
+144 Nutrition Research  85 (2021) 135–152 
+Table 4 – Effect of marine omega-3 PUFAs on adiponectin reported in included studies 
+Reference 
+(citation) 
+Method for 
+adiponectin 
+measurement 
+Group name Adiponectin baseline 
+(mcg/mL) 
+Adiponectin study 
+end (mcg/mL) 
+Adiponectin 
+CHANGE 
+Reported findings 
+(between 
+groups), analysis 
+used 
+Treatment group 
+significantly 
+Higher ( + ), 
+significantly 
+Lower (-), or no 
+difference (ND) 
+than placebo 
+group 
+Allaire et al. (2016) 
+[50] 
+ELISA Corn Oil 
+EPA 
+DHA 
+7.2 (5.5) 
+7 (5.5) 
+7 (5.2) 
+7 (0.5) 
+NR 
+NR 
+−0.2 
+UTD 
+UTD 
+Significantly higher 
+in DHA group 
+compared to 
+control group, 
+( P = .047) and 
+compared to EPA 
+group ( P < .001) at 
+study end, pm. 
+↑ 
+Gammelmark et al. 
+(2012) [51] 
+ELISA Olive Oil 9.1 (5.3) 9.1 (5.4) 0 Significantly higher 
+in EPA + DHA group 
+compared to 
+control ( P = .04), 
+pm. 
+↑ 
+EPA + DHA 7.1 (4.8) 7.6 (5.7) 0.5 
+Guebre-Egziabher 
+et al. (2013) [52] 
+QIA Moderate EPA + DHA 15.4 (4.6) 17.1 (4.6) 1.7 No significant 
+differences, NR. 
+ND 
+High EPA + DHA 19.5 (3) 20.8 (1.3) 1.3 
+Haidari et al. (2015) 
+[53] 
+ELISA Paraffin 5.1 (2.8) 6.6 (4.1) 1.5 Significantly higher 
+in EPA + DHA group 
+compared to 
+control ( P = .026), 
+pm. 
+↑ 
+EPA + DHA 5.3 (2.7) 7.2 (3.5) 1.9 
+Harving et al. (2015) 
+[54] 
+IFMA Olive Oil 20.8 (12) 20.8 (13.2) 0 No significant 
+differences, NR. 
+ND 
+EPA + DHA 18.6 (11.7) 18.8 (12.1) 0.2 
+Huerta et al. (2016) 
+[55] 
+ELISA Sunflower Oil + LA 12.8 (1.3) 13.2 (1.2) 0.4 No significant 
+differences, np. 
+ND 
+EPA 12.1 (0.9) 12 (1.4) −0.1 
+Itariu et al. (2012) 
+[56] 
+RIA Butterfat 8.9 (0.6) 8.3 (0.6) −0.6 No significant 
+differences, pm. 
+ND 
+EPA + DHA 8.4 (0.7) 8.3 (0.6) −0.1 
+Ito et al. (2014) [57] NR No Intervention 5.5 (3.8–7.6) 6.1 (3.9–7.7) UTD No significant 
+differences, np. 
+ND 
+EPA 5.2 (3.8–6.6) 6.5 (4.6–8.3) UTD 
+Jacobo-Cejudo et al. 
+(2017) [58] 
+Luminometry Cornstarch 22.8 (10.5) 24.3 (13.3) 1.5 No significant 
+differences, np. 
+ND 
+EPA + DHA 23.6 (20.3) 24.5 (13) 0.9 
+Koh et al. (2012) [59] ELISA NR 2.4 (1.7–3.5) 2.4 (1.8–3.1) UTD No significant 
+differences, np. 
+ND 
+EPA + DHA 2.5 (1.7–3.3) 2.2 (1.8–3.4) UTD 
+Krantz et al. (2015) 
+[60] 
+NR Corn Oil 10.6 (8.3) NR 0.3 No significant 
+differences, np. 
+ND 
+EPA + DHA 12.2 (7.8) NR −0.4 
+Krebs et al. (2006) 
+[61] 
+RIA Placebo + Wt Loss 11.4 (7.6) 11.2 (6) −0.2 Significantly higher 
+in EPA + DHA + Wt 
+Loss group ( P = 
+.0012), np. 
+↑ 
+EPA + DHA + Wt Loss 10.5 (5.1) 12.9 (6.3) 2.4 
+Masson et al. (2013) 
+[63] 
+Time-resolved 
+IFMA 
+Olive Oil 10.8 10.5 −0.3 No significant 
+differences, np. 
+ND 
+EPA + DHA 11.0 10.7 −0.3 
+Micallef and Garg 
+(2009) [64] 
+ELISA Sunola Oil 2.1 (0.1) NR UTD No significant 
+differences, NR. 
+ND 
+EPA + DHA 1.5 (0.2) 1.7 (0.2) 200 
+Mizia-Stec et al. 
+(2011) [65] 
+ELISA Standard Treatment 12,100 (9700) 19,400 (12,700) 7300 No significant 
+differences, np. 
+ND 
+EPA + DHA 12,500 (7800) 14,100 (8000) 1600 
+( continued on next page ) 
+Nutrition Research  85 (2021) 135–152 145 
+Table 4 ( continued ) 
+Reference 
+(citation) 
+Method for 
+adiponectin 
+measurement 
+Group name Adiponectin baseline 
+(mcg/mL) 
+Adiponectin study 
+end (mcg/mL) 
+Adiponectin 
+CHANGE 
+Reported findings 
+(between 
+groups), analysis 
+used 
+Treatment group 
+significantly 
+Higher ( + ), 
+significantly 
+Lower (-), or no 
+difference (ND) 
+than placebo 
+group 
+Mohammadi et al. 
+(2012) [66] 
+ELISA Paraffin 
+EPA + DHA 
+12.3 (3.6) 
+11.8 (3.2) 
+12 (3.1) 
+13.5 (2.4) 
+−0.3 
+1.7 
+Significantly higher 
+in EPA + DHA group 
+( P < .05), NR. 
+↑ 
+Munro and Garg 
+(2012) [67] 
+ELISA Sunola Oil 10.2 (5.7) 12 (8.3) 1.8 No significant 
+differences, NR 
+ND 
+EPA + DHA 10 (6) 9.1 (5.2) −0.9 
+Munro and Garg 
+(2013) [68] 
+ELISA Sunola Oil 12.2 (6.4) 13.4 (7.3) 1.2 No significant 
+differences, NR 
+ND 
+EPA + DHA 13.3 (4.9) 13 (6.4) −0.3 
+Patel et al. (2007) [69] ELISA Usual Care NR NR 0.044 No significant 
+differences, np. 
+ND 
+EPA + DHA NR NR 0.17 
+Poreba et al. (2017) 
+[70] 
+RIA No EPA + DHA 4.89 (2.40) 4.67 (2.26) −0.22 No significant 
+differences, np. 
+ND 
+EPA + DHA 3.62 (1.93) 3.73 (1.96) 0.11 
+Qin et al. (2015) [71] ELISA Corn Oil 
+EPA + DHA 
+5.1 (0.6) 
+5.1 (0.5) 
+5.2 (0.8) 
+6.4 (0.4) 
+0.1 
+1.3 
+Significantly higher 
+in EPA + DHA group 
+( P < .001), pm. 
+↑ 
+Rizza et al. (2009) [72] ELISA Olive Oil 
+EPA + DHA 
+10.6 (5.4) 
+7.8 (4.5) 
+8.4 (4.7) 
+9.5 (5.1) 
+−2.2 
+1.7 
+No significant 
+differences, pm. 
+ND 
+Sanyal et al. (2014) 
+[73] 
+NR NR 4.4 (3, 6.8) NR 0.16 ( −0.28, 0.97) No significant 
+differences, np. 
+ND 
+High EPA - E 4.2 (3.3, 6.4) NR 0.01 ( −0.49, 0.770) 
+Satoh et al. (2009) 
+[74] 
+RIA Diet Only 
+Diet + EPA 
+7 (0.5) 
+7 (0.5) 
+7 (0.4) 
+7.5 (0.5) 
+0 
+0.5 
+Significantly higher 
+in EPA group ( P < 
+.01), pm. 
+↑ 
+Satoh-Asahara et al. 
+(2012) [75] 
+NR Usual Care 
+EPA 
+6.5 (4.3–8.7) 
+6.1 (4.3–7.2) 
+6.2 (4.3–8) 
+6.6 (4.4–8.8) 
+UTD 
+UTD 
+Significantly higher 
+in EPA group ( P < 
+.05), np. 
+↑ 
+Simao et al. (2012) 
+[76] 
+ELISA Usual Diet 112.2 (56.6–136.8) 112.6 (74.7–162.9) UTD No significant 
+differences, np. 
+ND 
+EPA + DHA 68.2 (47–78.9) 86.6 (51.4–131.6) UTD 
+Spencer et al. (2013) 
+[77] 
+ELISA Corn Oil 0.004 (0.0008) 0.0039 (0.0007) −0.0001 No significant 
+differences, pm. 
+ND 
+EPA + DHA 0.0043 (0.0008) 0.0041 (0.0006) −0.0002 
+Troseid et al. (2009) 
+[78] 
+EIA Diet Only 9.3 (5.5–13.4) 8.5 (5.2–13.6) UTD No significant 
+differences, np. 
+ND 
+EPA + DHA + Diet 9 (5.3–13.8) 8.3 (5.2–13.8) UTD 
+Vargas et al. (2011) 
+[79] 
+RIA Soybean Oil 0.0065 (0.0012) 0.0062 (0.0011) −0.0003 No significant 
+differences, np. 
+ND 
+EPA + DHA 0.0075 (0.001) 0.0085 (0.0013) 0.001 
+Yamamoto et al. 
+(2014) [80] 
+NR No Treatment 14.5 (3.5) 14.8 (5) 0.3 No significant 
+differences, pm. 
+ND 
+EPA 10.4 (7.1) 12.5 (8.5) 2.1 
+Abbreviations: EIA, Enzyme Immunometric Assay; IFMA, Immunoflourometric Assay; NR, Not reported; np, Nonparametric testing used in original study; pm, parametric testing used in original 
+study; QIA, Quantikine Immunoassay; RIA, Radioimmunoassay; UTD, Unable to Determine: due to missing data from original manuscript. Adiponectin was converted to mcg/mL when reported 
+under different measures. 
+Adiponectin levels are listed as mean (SD) or median (interquartile range), as reported in original manuscript. 
+146 Nutrition Research  85 (2021) 135–152 
+Table 5 – Effect of marine omega-3 PUFAs on leptin to adiponectin ratios (LARs) reported in included studies 
+Reference (citation) Group 
+name 
+LAR 
+baseline 
+LAR Study 
+end 
+LAR 
+CHANGE 
+Treatment group significantly 
+higher ( + ), significantly lower (-), 
+or no difference (ND) than 
+placebo group 
+Jacobo-Cejudo et al. 
+(2017) [58] 
+Cornstarch 0.88 (0.68) 0.17 (0.12) −0.71 ND 
+EPA + DHA 1.3 (1.2) 0.24 (0.26) −1.06 a 
+The final column indicates that LARs between groups were not statistically different. 
+a Within group comparison from baseline to study end in the EPA + DHA treated group. 
+Thus, leptin may play a significant role in triggering and main- 
+taining high levels of proinflammatory cytokines in systemic 
+circulation that have been associated with chronic systemic 
+inflammation in aging [2 ,3 ,87] . Conversely, adiponectin has 
+been shown to act on proinflammatory mediators by de- 
+creasing monocyte production of TNF- α and IL-6 [10 ,16] . 
+Additionally, Ouchi et al. reported adiponectin enhances anti- 
+inflammatory cytokines by stimulating macrophage produc- 
+tion of interleukin-10 [16] . As such, adiponectin actions may 
+play an important role in reducing or preventing the persistent 
+inflammation in peripheral circulation that has been linked 
+to multiple chronic diseases common to the aging population. 
+In terms of the effect of EPA or EPA + DHA supplementation 
+on leptin, we report that 12 of 16 studies included in this re- 
+view that measured leptin levels reported lower leptin levels in 
+the EPA or EPA + DHA groups compared to the control groups 
+by the study end points [53 ,56 ,58 ,61 ,62 ,64 ,67-69 ,74 ,77 ,79] . 
+However, only 2 of these studies found the between-group 
+differences to be statistically significant [53 ,61] . The 2 studies 
+that found statistically significant differences at study end- 
+points both used combined EPA + DHA supplements and were 
+conducted over 10 and 24 weeks, respectively. 
+Fifteen of the 31 studies included in this review included 
+adiponectin as a primary outcome variable and reported that 
+adiponectin levels in peripheral circulation were higher in 
+the EPA or EPA + DHA supplementation group by study end 
+point [50-54 ,58 ,61 ,64 ,65 ,69-72 ,74 ,75] . Eight of those studies re- 
+ported that the between-group differences were statistically 
+significant [50 ,51 ,53 ,61 ,66 ,71 ,74 ,75] . All 8 studies reporting 
+statistically significant increases in adiponectin had a study 
+duration of ≥ 6 weeks, and all but 3 [50 ,74 ,75] used a combi- 
+nation EPA + DHA intervention. 
+4.1. Effect of intervention on the LAR and clinical 
+outcomes 
+Using the LAR as a marker of inflammation status and/or as 
+a method to predict inflammatory disease risk in younger 
+populations may be more effective than considering leptin 
+or adiponectin levels alone [19 ,21 ,25] . Only 1 study out of the 
+31 studies included in this review reported the LAR [58] . The 
+EPA + DHA group in this study showed a significant reduction 
+in the LAR at the study end point compared to baseline 
+and greater improvements in clinical outcomes. This study 
+population consisted of men and women (mean age of 49 
+years) with Type II diabetes, a BMI < 29.9 and no other chronic 
+diseases. In this sample, there were significant improvements 
+reported for blood lipids, blood glucose, waist circumference, 
+hemoglobin A1c, and atherogenic index. 
+4.2. Effect of study duration 
+Studies that showed significant reductions to leptin levels in 
+the intervention group compared to the control group ranged 
+from 10 weeks [53] to 24 weeks [61] duration. Similarly, studies 
+that showed significant increases to adiponectin levels in the 
+intervention group compared to the control group, durations 
+ranged from 6 weeks [51] to 24 weeks [61] . Studies that showed 
+no significant changes in leptin or adiponectin ranged from 4 
+weeks [65] to 156 weeks [78] . The study reporting LAR was 24 
+weeks in duration [58] . 
+4.3. Effect of dose 
+The daily dose of EPA or EPA + DHA used in studies included 
+in this review varied widely. The average dose of EPA + DHA in 
+studies reporting significant reductions in leptin at study end 
+compared to baseline was 2.8 g/d (0.9 g/d-4.2 g/d) [53 ,61] . In 
+the 2 studies reporting significantly lower levels of leptin in 
+the EPA + DHA group versus control group by study end, one 
+used a dose of EPA + DHA of 4.2 g/d for 24 weeks [61] , while the 
+other used a dose of EPA + DHA of 0.9 g/d for 10 weeks [53] . 
+The average dose of EPA + DHA in studies reporting signifi- 
+cant increases in adiponectin at study endpoint compared to 
+baseline was 1.87 g/d (0.9 g/d-4.2 g/d) [50 ,51 ,53 ,61 ,66 ,71 ,74 ,75] . 
+Similarly, of 8 studies that reported significantly higher levels 
+of adiponectin in the EPA or EPA + DHA group compared to 
+control group, 4 used doses of EPA or EPA + DHA ≥1.8 g/d 
+[50 ,61 ,74 ,75] , and three used combined doses ≥1 g/d [51 ,66 ,71] . 
+The eighth study used 0.9 g/d of combined EPA + DHA [53] . Of 
+the studies reporting significantly higher levels of adiponectin 
+in the EPA + DHA group at the study end point compared to 
+the control group, study duration ranged from 6 weeks [51] to 
+24 weeks [61] . These findings align with current literature 
+suggesting that an EPA + DHA dose of ≥2 g/d for 4 weeks or 
+more may be needed to maximize anti-inflammatory actions 
+[88 ,89] . 
+4.4. Side effects 
+Side effects associated with EPA or EPA + DHA supplemen- 
+tation were reported in five studies included in this review 
+[50 ,56 ,62 ,67 ,76] . Side effects included fishy taste, gastrointesti- 
+nal irregularities, psychotic episode ( n = 1), and a “reaction”to 
+Nutrition Research  85 (2021) 135–152 147 
+supplements. In the Allaire et al. (2016) study, researchers re- 
+ported that there were no differences in reported side effects 
+between groups. The low incidence of side effects reported by 
+the collective studies included in this review is aligned with 
+previous literature showing that EPA + DHA supplementation 
+in doses of up to 3 g/d is safe for the general public and thus 
+is considered a low-risk dietary intervention [90] . Moreover, 
+some studies testing even higher doses of EPA + DHA (up to 
+8 g/d) have reported no side effects or adverse outcomes 
+associated with the intervention [88 ,91] . 
+4.5. Strengths 
+There are several strengths to this review. By using multiple 
+databases, broad search terms, and alternative search meth- 
+ods, this systematic review provides a thorough synthesis 
+of published literature. Additionally, this systematic review 
+included all articles meeting inclusion criteria up to the 
+date searches were conducted, June 10, 2018. Authors were 
+contacted when further information was needed; however, 
+only 3 of 19 replied. The review was limited to RCTs, and 
+most ( n = 17) employed double-blind designs. The analysis of 
+quality of studies revealed most studies were conducted with 
+low risk of bias in all categories of the Cochrane Risk of Bias 
+Tool for Randomized Trials. Only one study showed a high 
+risk of bias in more than 2 categories [57] . 
+4.6. Limitations 
+There were some limitations to this review. First, a degree 
+of bias may have been introduced by excluding papers not 
+written in English or not published in a peer-reviewed journal. 
+Additionally, manuscripts yet to be published on electronic 
+databases may have been missed during the search. There 
+is also a potential for nonpublication of trials with negative 
+results as well as selective reporting among published studies, 
+particularly when either leptin or adiponectin levels were 
+reported alone. Although the LAR has been recently identified 
+as a better indicator of inflammatory status than leptin 
+or adiponectin alone [92-94] , only one study included LAR 
+calculations. Including LAR calculations into future studies 
+would facilitate comparison of this important metric across 
+studies. Finally, we could not perform a meta-analysis of 
+pooled data because not all studies included in this review 
+reported whether the leptin and/or adiponectin data had 
+been normalized. 
+Given that chronic conditions with an inflammatory com- 
+ponent (e.g., cardiovascular diseases, diabetes, and cancer) 
+are a growing concern in aging populations [1] , it is important 
+to determine effective, low risk, low cost interventions to 
+help prevent, reduce risk for, or improve control of these 
+conditions. Dietary supplementation with EPA + DHA has 
+been found to improve symptoms and outcomes for multiple 
+chronic inflammatory conditions, including cardiovascu- 
+lar diseases, diabetes, and cancer [26 ,28 ,39 ,95] , but their 
+mechanisms of action are not definitively known. Collective 
+findings of this systematic review suggest that EPA + DHA 
+supplementation may help balance circulating levels of leptin 
+and adiponectin, peptide hormones involved in regulating 
+systemic inflammation. 
+Although the 31 RCTs included in this systematic review, 
+evaluated the effects of EPA and/or DHA on circulating levels 
+of leptin and/or adiponectin, missing knowledge remains. 
+First, the exact mechanisms of EPA + DHA action on leptin and 
+adiponectin are not completely known. Second, the optimal 
+dose and duration of EPA + DHA supplementation needed to 
+affect a change in levels of leptin and/or adiponectin individ- 
+ually has not been determined. Third, the omega-3 fatty acids 
+have been shown to have anti-inflammatory actions through 
+other mechanisms, such as via the metabolic pathway that 
+leads to the synthesis of endocannabinoids [96-98] . Yet, to 
+our knowledge, the effect of these novel metabolites on leptin 
+and adiponectin production and secretion have not been 
+fully elucidated. Finally, identification of normal levels of 
+leptin, adiponectin and LARs in all BMI groups have not been 
+definitively determined. 
+In summary, this systematic review of RCTs was con- 
+ducted to determine what is currently known about effects 
+of EPA + DHA on circulating levels of leptin and adiponectin. 
+Several studies included in this review (18 of 32) reported that 
+EPA + DHA supplementation decreased leptin levels and LARs 
+and/or increased adiponectin levels ( Table 6 ). 
+5. Recommendations for future research 
+Given the variation in EPA + DHA dose, duration of supple- 
+mentation, and population characteristics across the studies 
+included in this review, additional RCTs are warranted which 
+assess dose parameters and patient populations similar to 
+the previous RCTs reporting significant effects of EPA + DHA 
+supplementation on leptin and adiponectin in order to eval- 
+uate the extent of reproducibility. Other factors, including the 
+placebo form, background dietary omega-3 intakes, and use of 
+statins and other therapies might also explain the conflicting 
+findings among studies in this review. Therefore, it is rec- 
+ommended that scientists involved in future RCTs consider 
+these factors during the design phase. It is also suggested 
+that future studies measure levels of all fatty acids in blood in 
+study participants, preferably in blood cells (e.g., erythrocytes, 
+adipocytes) at all study time points. This would be helpful for 
+determining the effect of other fatty acids in the context of 
+EPA + DHA supplementation and for ascertaining if there are 
+differences in individual responses to supplementation. 
+In summary, additional studies are needed to clarify the 
+extent to which EPA + DHA supplements modulate circulating 
+levels of leptin and adiponectin and their impact on the 
+chronic systemic inflammation linked to various common 
+diseases in aging. 
+Author contributions 
+JR was responsible for conceptualization, writing –o r i g i n a l 
+draft review and editing, investigation, methodology, and 
+visualization. JM was responsible for supervision, conceptu- 
+alization, writing –o r i g i n a l draft review and editing, investi- 
+gation, methodology, and visualization. SG was responsible 
+for writing –o r i g i n a l draft review and editing, investiga- 
+tion, methodology, and visualization. TO was responsible 
+148 Nutrition Research  85 (2021) 135–152 
+Table 6 – Summary of treatment group characteristics and the effects of n-3 PUFAs from RCTs with significant between-group findings 
+Reference 
+(citation) 
+Sample size BMI Percentage of 
+males 
+Mean age Dose of 
+EPA + DHA 
+g/day 
+Duration 
+(Weeks) 
+Blinding Bias (# of low 
+risk categories 
+out of 6) 
+Effect on 
+Leptin (L), 
+Adiponectin 
+(A), or LAR 
+Allaire et al. (2016) 
+[50] 
+123 29.4 NR NR 0 + 2.7 10 Double 6 ↑ A 
+Gammelmark et al. 
+(2012) [51] 
+25 30.4 58 58 0.64 + 0.48 6 Double 5 ↑ A 
+Haidari et al. (2015) 
+[53] 
+21 26.8 NR NR 0.54 + 0.36 10 Double 4 ↓ L + ↑ A 
+Jacobo-Cejudo et al. 
+(2017) [58] 
+29 25.6 24.1 50.4 0.32 + 0.2 24 Single 3 ↓ LAR 
+Krebs et al. (2006) 
+[61] 
+35 35.3 0 NR 1.3 + 2.9 24 Double 4 ↓ L + ↑ A 
+Mohammadi et al. 
+(2012) [66] 
+30 28.7 0 27.3 0.465 + 0.375 4 Double 4 ↑ A 
+Qin et al. (2015) [71] 36 26.4 72.2 46 0.728 + 0.516 12 Double 6 ↑ A 
+Satoh et al. (2009) 
+[74] 
+46 30 31.3 51.3 1.8 + 0 12 Single 3 ↑ A 
+Satoh-Asahara et al. 
+(2012) [75] 
+43 29.9 51.2 52.3 1.8 + 0 12 Single 2 ↑ A 
+TOTALS - 9 
+ARTICLES 
+Mean 43.1; 
+Range 21 - 123 
+Mean 29.17; 
+Range 25.6 - 35.3 
+Mean 59.2%; 
+Range 0 - 72.2% 
+Mean 47.55; 
+Range 27.3 - 58 ∗
+Range EPA - 0 - 
+1.8; DHA - 0 - 2.9 
+Mean 12.67; 
+Range 4 - 24 
+6 Double/ 3 
+Single 
+Mean 4.1; Range 
+2 - 6 
+( ↓L x 2), ( ↑A x 8), 
+( ↓LAR x 1) 
+Abbreviations: A , Adiponectin; BMI, Body mass index; DHA, docosahexaenoic acid; EPA, eicosapentaenoic acid; L , Leptin; LAR, Leptin-to-adiponectin ratio; NR, Not reported. 
+Nutrition Research  85 (2021) 135–152 149 
+for writing –o r i g i n a l draft review and editing. AT was re- 
+sponsible for writing –o r i g i n a l draft review and editing, and 
+methodology. 
+Acknowledgment 
+Authors acknowledge the assistance of Anna Biszaha for 
+the valuable methodological support. Authors (JR, SG, TO, AT, 
+and JM) declare they have no conflicts of interest concerning 
+this manuscript. This paper presents independent research 
+funded by The Robert Wood Johnson Foundation (RWJF), 
+Future of Nursing Scholars (FNS) program in collaboration 
+with The Ohio State University (OSU). This paper was com- 
+pleted without input from funders and expresses views of the 
+authors and not necessarily those of the RWJF FNS or OSU. 
+Supplementary materials 
+Supplementary material associated with this article can be 
+found, in the online version, at doi: 10.1016/j.nutres.2020.11. 
+002 . 
+r e f e r e n c e s 
+[1] Raghupathi Rullianallur, Raghupathi Viju. An empirical 
+study of chronic diseases in the united states: a visual 
+analytics approach to public health. Int J Environ Res Public 
+Health 2018:15. doi: 10.3390/ijerph15030431 .
+[2] Leonardi Giulia, Accardi Giulia, Monastero Roberto, 
+Nicoletti Ferdinando, Libra Massimo. Ageing: from 
+inflammation to cancer. Immun Ageing A 2018;15:1. 
+doi: 10.1186/s12979- 017- 0112- 5 .
+[3] Bektas Arsun, Bektas Shepherd, Sen Ranjan, Ferrucci Luigi. 
+Aging, inflammation and the environment. Exp Gerontol 
+2017. doi: 10.1016/j.exger.2017.12.015 .
+[4] Freund Adam, Freund Arturo, Desprez Pierre-Yves, 
+Desprez Judith. Inflammatory networks during cellular 
+senescence: causes and consequences. Trends Mol Med 
+2010;16:238–46. doi: 10.1016/j.molmed.2010.03.003 .
+[5] Zuo Li, Prather Evan R, Stetskiv Mykola, Garrison Davis E, 
+Meade James R, Peace Timotheus I, et al. Inflammaging and 
+oxidative stress in human diseases: from molecular 
+mechanisms to novel treatments. Int J Mol Sci 2019:20. 
+doi: 10.3390/ijms20184472 .
+[6] Franceschi Claudio, Campisi Judith. Chronic inflammation 
+(inflammaging) and its potential contribution to 
+age-associated diseases. J Gerontol A Biol Sci Med Sci 
+2014;69(Suppl 1):S4–9. doi: 10.1093/gerona/glu057 .
+[7] Zhao Ruilong, Liang Helena, Clarke Elizabeth, 
+Jackson Christopher, Xue Meilang. Inflammation in chronic 
+wounds. Int J Mol Sci 2016:17. doi: 10.3390/ijms17122085 .
+[8] Dagogo-Jack Sam (editor) . Leptin: Regulation and Clinical 
+Applications, Switzerland: Springer International Publishing; 
+2015. ISBN: 9783319099149 .
+[9] Litwack (editor) Gerald . Adiponectin, 90, Oxford, UK: Elsevier, 
+Inc; 2012. ISBN: 9780123983138 .
+[10] Fantuzzi Giamila , Mazzone Theodore editors . Adipose tissue 
+and adipokines in health and disease. Adipose tissue and 
+adipokines in health and disease. 2nd edition. New York, 
+USA: Humana Press; 2014. ISBN: 9781627037693 .
+[11] La Cava Antonio. Leptin in inflammation and autoimmunity. 
+Cytokine 2017;98:51–8. doi: 10.1016/j.cyto.2016.10.011 .
+[12] Vernooy Juanita HJ, Ubags Niki DJ, Brusselle Guy G, 
+Tavernier Jan, Suratt Benjamin T, Joos Guy F, et al. Leptin as 
+regulator of pulmonary immune responses: involvement in 
+respiratory diseases. Pulm Pharmacol Ther 2013;26:464–72. 
+doi: 10.1016/j.pupt.2013.03.016 .
+[13] Candido Giovanna Z, Silva Isabelle LZ, Martins Laysa T, 
+Koczicki Leticia, Kubo Karen S, et al. Specific obesity-related 
+adipokines. Immunochem Immunopathol 2015 01. 
+doi: 10.4172/2469-9756.1000108 .
+[14] Ghantous CM, Azrak Z, Hanache S, Hanache W, Zeidan A. 
+Differential role of leptin and adiponectin in cardiovascular 
+system. Int J Endocrinol 2015:534320. 
+doi: 10.1155/2015/534320 .
+[15] Scotece Morena, Conde Javier, Lopez Veronica, 
+Lago Francisca, Pino Jesus, Gomez-Reino Juan J, et al. 
+Adiponectin and leptin: new targets in inflammation. Basic 
+Clin Pharmacol Toxicol 2014;114:97–102. 
+doi: 10.1111/bcpt.12109 .
+[16] Ouchi Noriyuki, Walsh Kenneth. Adiponectin as an 
+anti-inflammatory factor. Clin Chim Acta 2007;380:24–30. 
+doi: 10.1016/j.cca.2007.01.026 .
+[17] Gairolla Jitender, Gairolla Rupinder, Modi Manish, 
+Modi Dheeraj. Leptin and adiponectin: pathophysiological 
+role and possible therapeutic target of inflammation in 
+ischemic stroke. Rev Neurosci 2017;28:295–306. 
+doi: 10.1515/revneuro- 2016- 0055 .
+[18] Sardu Celestino, D’Onofrio Nunzia, Torella Michele, 
+Portoghese Michele, Loreni Francesco, Mureddu Simone, 
+et al. Pericoronary fat inflammation and Major Adverse 
+Cardiac Events (MACE) in prediabetic patients with acute 
+myocardial infarction: effects of metformin. Cardiovasc 
+Diabetol 2019;18:126. doi: 10.1186/s12933- 019- 0931- 0 .
+[19] Chou Hsin-Hua ,H s u Lung-An ,W u Semon ,T e n g Ming-Sheng ,
+Sun Yu-Chen ,K o Yu-Lin . Leptin-to-adiponectin ratio is 
+related to low grade inflammation and insulin resistance 
+independent of obesity in non-diabetic taiwanese: a 
+cross-sectional cohort study. Acta Cardiol Sin 2014;30: 
+204–214 PMID: 27122790 .
+[20] Angin Yeliz , Arslan Nur ,K u r a l a y Filiz . Leptin-to-adiponectin 
+ratio in obese adolescents with nonalcoholic fatty liver 
+disease. Turk J Pediatr 2014;56:259–66 PMID: 25341597 .
+[21] Golbahar Jamal, Das Nagalla M, Al-Ayadhi Maha A, 
+Al-Ayadhi Khalid. Leptin-to-adiponectin, 
+adiponectin-to-leptin ratios, and insulin are specific and 
+sensitive markers associated with polycystic ovary 
+syndrome: a case-control study from Bahrain. Metab Syndr 
+Relat Disord 2012;10:98–102. doi: 10.1089/met.2011.0075 .
+[22] Lekva Tove, Michelsen Annika E, Aukrust Pal, Henriksen Tore, 
+Bollerslev Jens, Ueland Thor. Leptin and adiponectin as 
+predictors of cardiovascular risk after gestational diabetes 
+mellitus. Cardiovasc Diabetol 2017;16:5. 
+doi: 10.1186/s12933- 016- 0492- 4 .
+[23] Otelea Marina, Streinu-Cercel Adrian, Baicus Cristian, 
+Nitescu Maria. The adipokine profile and the cardiometabolic 
+risk in non-obese young adults. Balk Med J 2019;36:155–61. 
+doi: 10.4274/balkanmedj.galenos.2018.2018.0789 .
+[24] Sarray Sameh, Madan Samira, Saleh Layal, 
+Mahmoud Naeema, Almawi Wassim Y. Validity of 
+adiponectin-to-leptin and adiponectin-to-resistin ratios as 
+predictors of polycystic ovary syndrome. Fertil Steril 
+2015;104:460–6. doi: 10.1016/j.fertnstert.2015.05.007 .
+[25] Fruhbeck Gema, Catalan Victoria, Rodriguez Amaia, 
+Gomez-Ambrosi Javier. Adiponectin-leptin ratio: a promising 
+index to estimate adipose tissue dysfunction. Relation with 
+obesity-associated cardiometabolic risk. Adipocyte 
+2018;7:57–62. doi: 10.1080/21623945.2017.1402151 .
+[26] Ford Nikki A, Rossi Emily L, Barnett Kelsey, Yang Peiying, 
+Bowers Laura W, Hidaka Brandon H, et al. Omega-3-Acid 
+150 Nutrition Research  85 (2021) 135–152 
+Ethyl Esters Block the Protumorigenic Effects of Obesity in 
+Mouse Models of Postmenopausal Basal-like and 
+Claudin-Low Breast Cancer. Cancer Prev Res Phila Pa 
+2015;8:796–806. doi: 10.1158/1940- 6207.CAPR- 15- 0018 .
+[27] Mostowik Magdalena, Gajos Grzegorz, Zalewski Jaroslaw, 
+Nessler Jadwiga, Undas Anetta. Omega-3 polyunsaturated 
+fatty acids increase plasma adiponectin to leptin ratio in 
+stable coronary artery disease. Cardiovasc Drugs Ther 
+2013;27:289–95. doi: 10.1007/s10557- 013- 6457- x .
+[28] Dyerberg J, Bang HO, Stoffersen E, Moncada S, Vane JR. 
+Eicosapentaenoic acid and prevention of thrombosis and 
+atherosclerosis? Lancet Lond Engl 1978;2:117–19. 
+doi: 10.1016/s0140- 6736(78)91505- 2 .
+[29] Siscovick David S, Barringer Thomas A, Fretts Amanda M, 
+Wu Jason HY, Lichtenstein Alice H, Costello Rebecca B, et al. 
+Omega-3 polyunsaturated fatty acid (Fish Oil) 
+supplementation and the prevention of clinical 
+cardiovascular disease: a science advisory from the 
+American Heart Association. Circulation 2017;135:e867–84. 
+doi: 10.1161/CIR.0000000000000482 .
+[30] Drevon Christian A. Fatty acids and expression of 
+adipokines. Biochim Biophys Acta 2005;1740:287–92. 
+doi: 10.1016/j.bbadis.2004.11.019 .
+[31] Kroll Caroline, Mastroeni Silmara SBS, Veugelers Paul J, 
+Mastroeni Marco F. Associations of ADIPOQ and LEP Gene 
+Variants with Energy Intake: a Systematic Review. Nutrients 
+2019:11. doi: 10.3390/nu11040750 .
+[32] Lombardo Yolanda B, Hein Gustavo, Chicco Adriana. 
+Metabolic syndrome: effects of n-3 PUFAs on a model of 
+dyslipidemia, insulin resistance and adiposity. Lipids 
+2007;42:427–37. doi: 10.1007/s11745- 007- 3039- 3 .
+[33] Skurk T, van Harmelen V, Lee Y-M, Wirth A, Hauner H. 
+Relationship between IL-6, leptin and adiponectin and 
+variables of fibrinolysis in overweight and obese 
+hypertensive patients. Horm Metab Res 2002;34:659–63. 
+doi: 10.1055/s- 2002- 38253 .
+[34] Huang Chao-Wei, Chien Yi-Shan, Chen Yu-Jen, 
+Ajuwon Kolapo M, Mersmann Harry M, Ding Shih-Torng. 
+Role of n-3 polyunsaturated fatty acids in ameliorating the 
+obesity-induced metabolic syndrome in animal models and 
+humans. Int J Mol Sci 2016:17. doi: 10.3390/ijms17101689 .
+[35] Selenscig Dante, Selenscig Andrea, Chicco Adriana, 
+Chicco Yolanda B. Increased leptin storage with altered 
+leptin secretion from adipocytes of rats with 
+sucrose-induced dyslipidemia and insulin resistance: effect 
+of dietary fish oil. Metabolism 2010;59:787–95. 
+doi: 10.1016/j.metabol.2009.09.025 .
+[36] Calder Philip C. Omega-3 fatty acids and inflammatory 
+processes. Nutrients 2010;2:355–74. doi: 10.3390/nu2030355 .
+[37] Miles EA, Calder PC. Fatty acids, lipid emulsions and the 
+immune and inflammatory systems. World Rev Nutr Diet 
+2015;112:17–30. doi: 10.1159/000365426 .
+[38] Abbott Kylie A, Burrows Tracy L, Thota Rohith N, 
+Acharya Shamasunder, Garg Manohar L. Do omega-3 PUFAs 
+affect insulin resistance in a sex-specific manner? A 
+systematic review and meta-analysis of randomized 
+controlled trials. Am J Clin Nutr 2016;104:1470–84. 
+doi: 10.3945/ajcn.116.138172 .
+[39] Ellulu Mohammed S, Khaza’ai Huzwah, Abed Yehia, 
+Rahmat Asmah, Ismail Patimah, Ranneh Yazan. Role of fish 
+oil in human health and possible mechanism to reduce the 
+inflammation. Inflammopharmacology 2015;23:79–89. 
+doi: 10.1007/s10787- 015- 0228- 1 .
+[40] Gray B, Steyn F, Davies PSW, Vitetta L. Omega-3 fatty acids: a 
+review of the effects on adiponectin and leptin and potential 
+implications for obesity management. Eur J Clin Nutr 
+2013;67:1234–42. doi: 10.1038/ejcn.2013.197 .
+[41] Paniagua Juan A. Nutrition, insulin resistance and 
+dysfunctional adipose tissue determine the different 
+components of metabolic syndrome. World J Diabetes 
+2016;7:483–514. doi: 10.4239/wjd.v7.i19.483 .
+[42] Robinson Lindsay E, Mazurak Vera C. N-3 polyunsaturated 
+fatty acids: relationship to inflammation in healthy adults 
+and adults exhibiting features of metabolic syndrome. Lipids 
+2013;48:319–32. doi: 10.1007/s11745- 013- 3774- 6 .
+[43] Thota Rohith N, Ferguson Jessica JA, Abbott Kylie A, 
+Dias Cintia B, Garg Manohar L. Science behind the 
+cardio-metabolic benefits of omega-3 polyunsaturated fatty 
+acids: biochemical effects vs. clinical outcomes. Food Funct 
+2018;9:3576–96. doi: 10.1039/C8FO00348C .
+[44] Wu Jason HY, Cahill Leah E, Mozaffarian Dariush. Effect of 
+fish oil on circulating adiponectin: a systematic review and 
+meta-analysis of randomized controlled trials. J Clin 
+Endocrinol Metab 2013;98:2451–9. doi: 10.1210/jc.2012-3899 .
+[45] Xin Wei, Wei Wei, Li Xiaoying. Effects of fish oil 
+supplementation on inflammatory markers in chronic heart 
+failure: a meta-analysis of randomized controlled trials. Bmc 
+Cardiovasc Disord 2012;12:77. doi: 10.1186/1471- 2261- 12- 77 .
+[46] Kearney Margaret H. Hoping for a TREND toward PRISMA: 
+the variety and value of research reporting guidelines. Res 
+Nurs Health 2014;37:85–7. doi: 10.1002/nur.21591 .
+[47] Liberati Alessandro, Altman Douglas G, Tetzlaff Jennifer, 
+Mulrow Cynthia, Gotzsche Peter C, Ioannidis John P, et al. 
+The PRISMA statement for reporting systematic reviews and 
+meta-analyses of studies that evaluate healthcare 
+interventions: explanation and elaboration. BMJ 2009;339 
+b2700–b2700. doi: 10.1136/bmj.b2700 .
+[48] Harris Paul A, Taylor Robert, Thielke Robert, Payne Jonathon, 
+Gonzalez Nathaniel, Conde Jose G. Research electronic data 
+capture (REDCap)—A metadata-driven methodology and 
+workflow process for providing translational research 
+informatics support. J Biomed Inform 2009;42:377–81. 
+doi: 10.1016/j.jbi.2008.08.010 .
+[49] . In: Higgins JPT, Higgins S, editors. Cochrane handbook for 
+systematic reviews of interventions version 5.1.0 [updated 
+march 2011]. The Cochrane Collaboration; 2011. p. 2011. 
+Available from http://handbook.cochrane.org..
+[50] Allaire Janie, Couture Patrick, Leclerc Myriam, 
+Charest Amelie, Marin Johanne, Lepine Marie-Claude, et al. A 
+randomized, crossover, head-to-head comparison of 
+eicosapentaenoic acid and docosahexaenoic acid 
+supplementation to reduce inflammation markers in men 
+and women: the Comparing EPA to DHA (ComparED) Study. 
+Am J Clin Nutr 2016;104:280–7. doi: 10.3945/ajcn.116.131896 .
+[51] Gammelmark Anders, Madsen Trine, Varming Kim, 
+Lundbye-Christensen Soren, Schmidt Erik B. Low-dose fish 
+oil supplementation increases serum adiponectin without 
+affecting inflammatory markers in overweight subjects. Nutr 
+Res 2012;32:15–23. doi: 10.1016/j.nutres.2011.12.007 .
+[52] Guebre-Egziabher Fitsum, Debard Cyril, Drai Jocelyne, 
+Drai Laure, Pesenti Sandra, Bienvenu Jacques, et al. 
+Differential dose effect of fish oil on inflammation and 
+adipose tissue gene expression in chronic kidney disease 
+patients. Nutrition 2013;29:730–6. 
+doi: 10.1016/j.nut.2012.10.011 .
+[53] Haidari F ,T a v a k o l i M ,H e y b a r H , Helli B , Mohammadshahi M . 
+The effect of omega-3 on the level of serum lipid profile, 
+adipocytokines, and indicator of vascular inflammation in 
+patients diagnosed with myocardial infarction. J Babol Univ 
+Med Sci 2015;17:7–17 EMBASE 618673959 .
+[54] Harving Frederik, Svensson My, Flyvbjerg Allan, Schmidt Erik 
+B, Jorgensen Kaj A, Eriksen Helle H, et al. n-3 polyunsaturated 
+fatty acids and adiponectin in patients with end-stage renal 
+disease. Clin Nephrol 2015;83:279–85. doi: 10.5414/CN108285 .
+[55] Huerta Ana, Prieto-Hontoria Pedro L, Sainz Neira, Martinez J 
+Alfredo, Moreno-Aliaga Maria. Supplementation with 
+Nutrition Research  85 (2021) 135–152 151 
+alpha-lipoic acid alone or in combination with 
+eicosapentaenoic acid modulates the inflammatory status of 
+healthy overweight or obese women consuming an 
+energy-restricted diet. J Nutr 2016;146:889S–896S. 
+doi: 10.3945/jn.115.224105 .
+[56] Itariu Bianca K, Zeyda Maximilian, Hochbrugger Eva E, 
+Neuhofer Angelika, Prager Gerhard, Schindler Karin, et al. 
+Long-chain n-3 PUFAs reduce adipose tissue and systemic 
+inflammation in severely obese nondiabetic patients: a 
+randomized controlled trial. Am J Clin Nutr 2012;96:1137–49. 
+doi: 10.3945/ajcn.112.037432 .
+[57] Ito Ryo, Satoh-Asahara Noriko, Yamakage Hajime, 
+Sasaki Yousake, Odori Shinji, Kono Shigeo, et al. An increase 
+in the EPA/AA ratio is associated with improved arterial 
+stiffness in obese patients with dyslipidemia. J Atheroscler 
+Thromb 2014;21:248–60. doi: 10.5551/jat.19976 .
+[58] Jacobo-Cejudo M Gorety, Valdes-Ramos Roxana, 
+Guadarrama-Lopez Ana L, Pardo-Morales Rosa-Virgen, 
+Martinez-Carrillo Beatriz E, Harbige Laurence S. Effect of n-3 
+polyunsaturated fatty acid supplementation on metabolic 
+and inflammatory biomarkers in Type 2 diabetes mellitus 
+patients. Nutrients 2017:9. doi: 10.3390/nu9060573 .
+[59] Koh Kwang Kon, Quon Michael J, Shin Kwen-Chul, Lim Soo, 
+Lee Yonghee, Sakuma Ichiro, et al. Significant differential 
+effects of omega-3 fatty acids and fenofibrate in patients 
+with hypertriglyceridemia. Atherosclerosis 2012;220:537–44. 
+doi: 10.1016/j.atherosclerosis.2011.11.018 .
+[60] Krantz Mori J, Havranek Edward P, Pereira Rocio I, 
+Beaty Brenda, Mehler Philip S, Long Carlin S. Effects of 
+omega-3 fatty acids on arterial stiffness in patients with 
+hypertension: a randomized pilot study. J Negat Results 
+Biomed 2015;14:21. doi: 10.1186/s12952- 015- 0040- x .
+[61] Krebs JD, Browning LM, McLean NK, Rothwell JL, Mishra GD, 
+Moore CS, et al. Additive benefits of long-chain n-3 
+polyunsaturated fatty acids and weight-loss in the 
+management of cardiovascular disease risk in overweight 
+hyperinsulinaemic women. Int J Obes 2006;30:1535–44. 
+doi: 10.1038/sj.ijo.0803309 .
+[62] Lee Tammy C, Ivester Priscilla, Hester Austin, 
+Sergeant Susan, Case Larry D, Morgan Timothy, et al. The 
+impact of polyunsaturated fatty acid-based dietary 
+supplements on disease biomarkers in a metabolic 
+syndrome/diabetes population. Lipids Health Dis 2014. 
+doi: 10.1186/1476- 511X- 13- 196 .
+[63] Masson Serge, Marchioli Roberto, Mozaffarian Dariush, 
+Bernasconi Roberto, Milani Valentina, Dragani Luana, et al. 
+Plasma n-3 polyunsaturated fatty acids in chronic heart 
+failure in the GISSI-Heart Failure Trial: relation with fish 
+intake, circulating biomarkers, and mortality. Am Heart J 
+2013;165 208. doi: 10.1016/j.ahj.2012.10.021 .
+[64] Micallef Michelle A, Garg Manohar L. Anti-inflammatory and 
+cardioprotective effects of n-3 polyunsaturated fatty acids 
+and plant sterols in hyperlipidemic individuals. 
+Atherosclerosis 2009;204:476–82. 
+doi: 10.1016/j.atherosclerosis.2008.09.020 .
+[65] Mizia-Stec Katarzyna, Haberka Maciej, Mizia Magdalena, 
+Chmiel Artur, Gieszczyk Klaudia, Lasota Bartosz, et al. N-3 
+Polyunsaturated fatty acid therapy improves endothelial 
+function and affects adiponectin and resistin balance in the 
+first month after myocardial infarction. Arch Med Sci 
+2011;7:788–95. doi: 10.5114/aoms.2011.25553 .
+[66] Mohammadi Elahe ,R a f r a f Maryam ,F a r z a d i Laya ,
+Asghari-Jafarabadi Mohammad ,S a b o u r Siamak . Effects of 
+omega-3 fatty acids supplementation on serum adiponectin 
+levels and some metabolic risk factors in women with 
+polycystic ovary syndrome. Asia Pac J Clin Nutr 
+2012;21:511–18 PMID: 23017309 .
+[67] Munro Irene A, Garg Manohar L. Dietary supplementation 
+with n-3 PUFA does not promote weight loss when combined 
+with a very-low-energy diet. Br J Nutr 2012;108:1466–74. 
+doi: 10.1017/S0007114511006817 .
+[68] Munro Irene A, Garg Manohar L. Dietary supplementation 
+with long chain omega-3 polyunsaturated fatty acids and 
+weight loss in obese adults. Obes Res Clin Pract 
+2013;7:e173–81. doi: 10.1016/j.orcp.2011.11.001 .
+[69] Patel Jeetesh V, Lee Kaeng W, Tomson Joseph, Dubb Kiran, 
+Hughes Elizabeth A, Lip Gregory YH. Effects of omega-3 
+polyunsaturated fatty acids on metabolically active 
+hormones in patients post-myocardial infarction. Int J 
+Cardiol 2007;115:42–5. doi: 10.1016/j.ijcard.2006.04.004 .
+[70] Poreba Malgorzata, Mostowik Magdalena, 
+Siniarski Aleksander, Golebiowska-Wiatrak Renata, 
+Malinowski Krzysztof P, Haberka Maciej, et al. Treatment 
+with high-dose n-3 PUFAs has no effect on platelet function, 
+coagulation, metabolic status or inflammation in patients 
+with atherosclerosis and type 2 diabetes. Cardiovasc 
+Diabetol 2017:16. doi: 10.1186/s12933- 017- 0523- 9 .
+[71] Qin Yu, Zhou Yong, Chen Shi-Hui, Zhao Xiao-Lan, Ran Li, 
+Zeng Xiang-Long, et al. Fish oil supplements lower serum 
+lipids and glucose in correlation with a reduction in plasma 
+fibroblast growth factor 21 and prostaglandin E2 in 
+nonalcoholic fatty liver disease associated with 
+hyperlipidemia: a randomized clinical trial. PLoS ONE 
+2015;10:e0133496. doi: 10.1371/journal.pone.0133496 .
+[72] Rizza Stefano, Tesauro Manfredi, Cardillo Carmine, 
+Galli Angelica, Iantorno Micaela, Gigli Fabrizio, et al. Fish oil 
+supplementation improves endothelial function in 
+normoglycemic offspring of patients with type 2 diabetes. 
+Atherosclerosis 2009;206:569–74. 
+doi: 10.1016/j.atherosclerosis.2009.03.006 .
+[73] Sanyal Arun J, Abdelmalek Manal F, Suzuki Ayako, 
+Cummings Oscar W, Chojkier Mario, EPE-A Study Group. No 
+significant effects of ethyl-eicosapentanoic acid on 
+histologic features of nonalcoholic steatohepatitis in a phase 
+2 trial. Gastroenterology 2014;147 377-384.e1. 
+doi: 10.1053/j.gastro.2014.04.046 .
+[74] Satoh Noriko, Shimatsu Akira, Kotani Kazuhiko, 
+Himeno Akihiro, Majima Takafumi, Yamada Kazunori, et al. 
+Highly purified eicosapentaenoic acid reduces cardio-ankle 
+vascular index in association with decreased serum amyloid 
+A-LDL in metabolic syndrome. Hypertens Res Off J Jpn Soc 
+Hypertens 2009;32:1004–8. doi: 10.1038/hr.2009.145 .
+[75] Satoh-Asahara Noriko, Shimatsu Akira, Sasaki Yousuke, 
+Nakaoka Hidenori, Himeno Akihiro, Tochiya Mayu, et al. 
+Highly purified eicosapentaenoic acid increases 
+interleukin-10 levels of peripheral blood monocytes in obese 
+patients with dyslipidemia. Diabetes Care 2012;35:2631–9. 
+doi: 10.2337/dc12-0269 .
+[76] Simao Andrea NC, Lozovoy Marcell AB, Bahls Larissa D, 
+Morimoto Helena K, Simao Tathiana NC, Matsuo Tiemi, et al. 
+Blood pressure decrease with ingestion of a soya product 
+(kinako) or fish oil in women with the metabolic syndrome: 
+role of adiponectin and nitric oxide. Br J Nutr 
+2012;108:1435–42. doi: 10.1017/S0007114511006921 .
+[77] Spencer Michael, Finlin Brian S, Unal Resat, Zhu Beibei, 
+Morris Andrew J, Shipp Lindsey R, et al. Omega-3 fatty acids 
+reduce adipose tissue macrophages in human subjects with 
+insulin resistance. Diabetes 2013;62:1709–17. 
+doi: 10.2337/db12-1042 .
+[78] Troseid Marius, Arnesen Harald, Hjerkinn Elsa M, 
+Seljeflot Ingebjorg. Serum levels of interleukin-18 are 
+reduced by diet and n-3 fatty acid intervention in elderly 
+high-risk men. Metabolism 2009;58:1543–9. 
+doi: 10.1016/j.metabol.2009.04.031 .
+[79] Vargas M Luisa, Almario Rogelio U, Buchan Wendy, 
+Kim Kyoungmi, Karakas Sidika E. Metabolic and endocrine 
+152 Nutrition Research  85 (2021) 135–152 
+effects of long-chain versus essential omega-3 
+polyunsaturated fatty acids in polycystic ovary syndrome. 
+Metab-Clin Exp 2011;60:1711–18. 
+doi: 10.1016/j.metabol.2011.04.007 .
+[80] Yamamoto Tsuyoshi, Kajikawa Yutaka, Otani Satoru, 
+Yamada Yuki, Takemoto Syunji, Hirota Minoru, et al. 
+Protective effect of eicosapentaenoic acid on insulin 
+resistance in hyperlipidemic patients and on the 
+postoperative course of cardiac surgery patients: the 
+possible involvement of adiponectin. Acta Med Okayama 
+2014;68:349–61. doi: 10.18926/AMO/53024 .
+[81] CDC. Defining adult overweight and obesity | overweight & 
+obesity | CDC 2019. 
+https://www.cdc.gov/obesity/adult/defining.html (Accessed 
+September 6, 2019).
+[82] Fewtrell Mary S, Kennedy Kathy, Singhal Atul, Martin Richard 
+M, Ness Andy, Hadders-Algra Mijna, et al. How much loss to 
+follow-up is acceptable in long-term randomised trials and 
+prospective studies? Arch Dis Child 2008;93:458–61. 
+doi: 10.1136/adc.2007.127316 .
+[83] Skierka Antonia-Sophie, Michels Karin B. Ethical principles 
+and placebo-controlled trials – interpretation and 
+implementation of the Declaration of Helsinki’s placebo 
+paragraph in medical research. BMC Med Ethics 2018:19. 
+doi: 10.1186/s12910- 018- 0262- 9 .
+[84] Jaakkola Johanna M, Pahkala Katja, Viitala Marika, 
+Ronnemaa Tapani, Viikari Jorma, Niinikoski Harri, et al. 
+Association of adiponectin with adolescent cardiovascular 
+health in a dietary intervention study. J Pediatr 
+2015;167:353–60 e1. doi: 10.1016/j.jpeds.2015.04.044 .
+[85] Thomas T, Burguera B, Melton LJ, Atkinson EJ, O’Fallon WM, 
+Riggs BL, et al. Relationship of serum leptin levels with body 
+composition and sex steroid and insulin levels in men and 
+women. Metabolism 2000;49:1278–84. 
+doi: 10.1053/meta.2000.9519 .
+[86] Loffreda S ,Y ang SQ ,Lin HZ ,Karp CL ,Br engman ML ,W ang DJ ,
+et al. Leptin regulates proinflammatory immune responses. 
+FASEB J Off Publ Fed Am Soc Exp Biol 1998;12:57–65 PMID: 
+9438411 .
+[87] Frasca Daniela, Blomberg Bonnie B. Inflammaging decreases 
+adaptive and innate immune responses in mice and 
+humans. Biogerontology 2016;17:7–19. 
+doi: 10.1007/s10522- 015- 9578- 8 .
+[88] Calder Philip C. Marine omega-3 fatty acids and 
+inflammatory processes: effects, mechanisms and clinical 
+relevance. Biochim Biophys Acta 2015;1851:469–84. 
+doi: 10.1016/j.bbalip.2014.08.010 .
+[89] Harris William S. The omega-3 index as a risk factor for 
+coronary heart disease. Am J Clin Nutr 2008;87:1997S–2002S. 
+doi: 10.1093/ajcn/87.6.1997S .
+[90] U.S. Food and Drug Administration Center for Food Safety 
+and Applied Nutrition Office of Nutritional Products Labeling 
+and Dietary Supplements (FDA/CSFAN). Letter regarding 
+dietary supplement health claim for omega-3 fatty acids and 
+coronary heart disease. (Docket No. 91N-0103) 2000.
+[91] Leaf Alexander, Jorgensen Michael B, Jacobs Alice K, 
+Cote Gilles, Schoenfeld David A, Scheer Judy, et al. Do fish 
+oils prevent restenosis after coronary angioplasty? 
+Circulation 1994;90:2248–57. doi: 10.1161/01.cir.90.5.2248 .
+[92] Chen Vincent C-H, Chen Chun-Hsin, Chiu Yi-Hang, 
+Chiu Tsang-Yaw, Li Feng-Chiao, Li Mong-Liang. 
+Leptin/Adiponectin ratio as a potential biomarker for 
+metabolic syndrome in patients with schizophrenia. 
+Psychoneuroendocrinology 2018;92:34–40. 
+doi: 10.1016/j.psyneuen.2018.03.021 .
+[93] Rasmussen-Torvik Laura J, Wassel Christina L, 
+Ding Jingzhong, Carr Jeffrey, Cushman Mary, Jenny Nancy, 
+et al. Associations of BMI and insulin resistance with leptin, 
+adiponectin, and the leptin to adiponectin ratio across 
+ethnic groups: the Multi-Ethnic Study of Atherosclerosis 
+(MESA). Ann Epidemiol 2012;22:705–9. 
+doi: 10.1016/j.annepidem.2012.07.011 .
+[94] Zhang Meixian, Cheng Hong, Zhao Xiaoyuan, Hou Dongqing, 
+Yan Yinkun, Cianflone Katherine, et al. Leptin and 
+leptin-to-adiponectin ratio predict adiposity gain in 
+nonobese children over a six-year period. Child Obes Print 
+2017;13:213–21. doi: 10.1089/chi.2016.0273 .
+[95] Kromhout Daan, Kromhout Satoshi, Geleijnse Johanna M, 
+Geleijnse Hiroaki. Fish oil and omega-3 fatty acids in 
+cardiovascular disease: do they really work? Eur Heart J 
+2011;33:436–43. doi: 10.1093/eurheartj/ehr362 .
+[96] Durham Holiday, Wood Jodi T, Williams John S, 
+Geaghan James P, Makriyannis Alexandros, 
+Lammi-Keefe Carol J. How do plasma endocannabinoids and 
+inflammatory markers respond to docosahexaenoic acid 
+(DHA) supplementation in pregnancy? FASEB J 2011:25. 
+doi: 10.1096/fasebj.25.1 _ supplement.777.4 .
+[97] McDougle Daniel R, Watson Josephine E, Abdeen Amr A, 
+Adili Reheman, Caputo Megan P, Krapf John E, et al. 
+Anti-inflammatory ω-3 endocannabinoid epoxides. Proc Natl 
+Acad Sci 2017;114:E6034–43. doi: 10.1073/pnas.1610325114 .
+[98] Chilton Floyd H, Dutta Rahul, Reynolds Lindsay M, 
+Sergeant Susan, Mathias Rasika A, Seeds Michael C. 
+Precision nutrition and omega-3 polyunsaturated fatty acids: 
+a case for personalized supplementation approaches for the 
+prevention and management of human diseases. Nutrients 
+2017:9. doi: 10.3390/nu9111165 .

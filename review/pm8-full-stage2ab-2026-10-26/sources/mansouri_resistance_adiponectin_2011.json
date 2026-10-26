@@ -1,0 +1,324 @@
+{
+  "citation_key": "mansouri_resistance_adiponectin_2011",
+  "doi": "10.1507/endocrj.EJ11-0046",
+  "metadata": {
+    "id": "21836369",
+    "source": "MED",
+    "pmid": "21836369",
+    "doi": "10.1507/endocrj.ej11-0046",
+    "title": "The impact of one session resistance exercise on plasma adiponectin and RBP4 concentration in trained and untrained healthy young men.",
+    "authorString": "Mansouri M, Keshtkar A, Hasani-Ranjbar S, Soleymani Far E, Tabatabaei-Malazy O, Omidfar K, Larijani B.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Mansouri M",
+          "lastName": "Mansouri",
+          "firstName": "Masoumeh",
+          "initials": "M",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Endocrinology and Metabolism Research Institute, Tehran University of Medical Sciences, Tehran, Iran."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Keshtkar A",
+          "lastName": "Keshtkar",
+          "firstName": "Abasali",
+          "initials": "A",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7305-8639"
+          }
+        },
+        {
+          "fullName": "Hasani-Ranjbar S",
+          "lastName": "Hasani-Ranjbar",
+          "firstName": "Shirin",
+          "initials": "S"
+        },
+        {
+          "fullName": "Soleymani Far E",
+          "lastName": "Soleymani Far",
+          "firstName": "Ehsan",
+          "initials": "E"
+        },
+        {
+          "fullName": "Tabatabaei-Malazy O",
+          "lastName": "Tabatabaei-Malazy",
+          "firstName": "Ozra",
+          "initials": "O",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0188-9721"
+          }
+        },
+        {
+          "fullName": "Omidfar K",
+          "lastName": "Omidfar",
+          "firstName": "Kobra",
+          "initials": "K",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-8831-6936"
+          }
+        },
+        {
+          "fullName": "Larijani B",
+          "lastName": "Larijani",
+          "firstName": "Bagher",
+          "initials": "B"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7305-8639"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-8831-6936"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0188-9721"
+        }
+      ]
+    },
+    "journalInfo": {
+      "issue": "10",
+      "volume": "58",
+      "journalIssueId": 1928064,
+      "dateOfPublication": "2011 ",
+      "monthOfPublication": 0,
+      "yearOfPublication": 2011,
+      "journal": {
+        "medlineAbbreviation": "Endocr J",
+        "title": "Endocrine journal",
+        "essn": "1348-4540",
+        "issn": "0918-8959",
+        "isoabbreviation": "Endocr J",
+        "nlmid": "9313485"
+      },
+      "printPublicationDate": "2011-01-01"
+    },
+    "pubYear": "2011",
+    "pageInfo": "861-868",
+    "abstractText": "We designed this study, to investigate the predicting effect of a single resistance exercise session on serum level of RBP4 and adiponectin in trained and untrained subjects and to evaluate whether regular training may affect the response of these adipokines to exercise.  Thirty four healthy young male students including 19 trained and 15 untrained participated in this study; each group was then randomly assigned to intervention and control groups.  The exercise session prolonged 120 minutes intensive resistance program at 70%-80% of 1RM.  The blood samples were collected just before the start of training program and 4 hours post exercise to evaluate concentration of adiponectin, RBP4 and CRP as well as other metabolic markers.  The serum level of adiponectin, RBP4 and CRP was not significantly different between trained and untrained groups at baseline.  More over four hours post exercise adipokines concentration and CRP didn't differ between groups.  Adjusted regression model showed, basal adiponectin (\u03b2=0.59, p=<0.001) and HDL cholesterol (\u03b2=0.28, p=0.09) were the main predictors of post exercise adiponectin concentration.  In addition, the basic level of RBP4 appeared to be the only predictor of after exercise RBP4 concentration (\u03b2=0.46, p=0.02).  Neither one session of high intensity resistance exercise nor long term training had predicting effect on post exercise adiponectin and RBP4 concentration in healthy young men.  In the other hand, the beneficial effect of acute resistance exercise training may not be reflected by changes in adiponectin, RBP4 and CRP concentration in healthy young individual no matter they trained or untrained.",
+    "affiliation": "Endocrinology and Metabolism Research Institute, Tehran University of Medical Sciences, Tehran, Iran.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cardiovascular Diseases",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "IM",
+                "qualifierName": "immunology"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "C-Reactive Protein",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AN",
+                "qualifierName": "analysis"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Risk Factors"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Regression Analysis"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Reproducibility of Results"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Physical Fitness"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Iran",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "EP",
+                "qualifierName": "epidemiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cholesterol, HDL",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Retinol-Binding Proteins, Plasma",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "AN",
+                "qualifierName": "analysis"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Resistance Training"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Surveys and Questionnaires"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "RBP4 protein, human",
+          "registryNumber": "0"
+        },
+        {
+          "name": "C-Reactive Protein",
+          "registryNumber": "9007-41-4"
+        },
+        {
+          "name": "Cholesterol, HDL",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Retinol-Binding Proteins, Plasma",
+          "registryNumber": "0"
+        },
+        {
+          "name": "ADIPOQ protein, human",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1507/endocrj.ej11-0046"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 13,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "N",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2012-02-23",
+    "dateOfCreation": "2011-08-13",
+    "dateOfRevision": "2019-09-07",
+    "electronicPublicationDate": "2011-08-12",
+    "firstPublicationDate": "2011-08-12",
+    "firstIndexDate": "2011-08-13",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1507%2Fendocrj.EJ11-0046%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

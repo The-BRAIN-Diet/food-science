@@ -1,0 +1,450 @@
+{
+  "citation_key": "pauls_dha_ala_adiponectin_2021",
+  "doi": "10.1093/jn/nxab235",
+  "metadata": {
+    "id": "34293124",
+    "source": "MED",
+    "pmid": "34293124",
+    "pmcid": "PMC8485902",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC8485902"
+      ]
+    },
+    "doi": "10.1093/jn/nxab235",
+    "title": "Oils Rich in \u03b1-Linolenic Acid or Docosahexaenoic Acid Have Distinct Effects on Plasma Oxylipin and Adiponectin Concentrations and on Monocyte Bioenergetics in Women with Obesity.",
+    "authorString": "Pauls SD, Rodway LR, Sidhu KK, Winter T, Sidhu N, Aukema HM, Zahradka P, Taylor CG.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Pauls SD",
+          "lastName": "Pauls",
+          "firstName": "Samantha D",
+          "initials": "SD",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3866-4649"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Rodway LR",
+          "lastName": "Rodway",
+          "firstName": "Lisa R",
+          "initials": "LR",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0571-2763"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              },
+              {
+                "affiliation": "Department of Physiology and Pathophysiology, University of Manitoba, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sidhu KK",
+          "lastName": "Sidhu",
+          "firstName": "Karanbir K",
+          "initials": "KK",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Winter T",
+          "lastName": "Winter",
+          "firstName": "Tanja",
+          "initials": "T",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Sidhu N",
+          "lastName": "Sidhu",
+          "firstName": "Nikhil",
+          "initials": "N",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Aukema HM",
+          "lastName": "Aukema",
+          "firstName": "Harold M",
+          "initials": "HM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6982-7239"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Zahradka P",
+          "lastName": "Zahradka",
+          "firstName": "Peter",
+          "initials": "P",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-7814-0658"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              },
+              {
+                "affiliation": "Department of Physiology and Pathophysiology, University of Manitoba, Canada."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Taylor CG",
+          "lastName": "Taylor",
+          "firstName": "Carla G",
+          "initials": "CG",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-3358-6418"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada."
+              },
+              {
+                "affiliation": "Canadian Centre for Agri-Food Research in Health and Medicine, Winnipeg, Canada."
+              },
+              {
+                "affiliation": "Department of Physiology and Pathophysiology, University of Manitoba, Canada."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6982-7239"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-7814-0658"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0571-2763"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3358-6418"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-3866-4649"
+        },
+        {
+          "type": "ORCID",
+          "value": "0009-0006-4708-0230"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "10",
+      "volume": "151",
+      "journalIssueId": 3241925,
+      "dateOfPublication": "2021 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2021,
+      "journal": {
+        "medlineAbbreviation": "J Nutr",
+        "title": "The Journal of nutrition",
+        "essn": "1541-6100",
+        "issn": "0022-3166",
+        "isoabbreviation": "J Nutr",
+        "nlmid": "0404243"
+      },
+      "printPublicationDate": "2021-10-01"
+    },
+    "pubYear": "2021",
+    "pageInfo": "3053-3066",
+    "abstractText": "<h4>Background</h4>Omega-3 fatty acids, including DHA and \u03b1-linolenic acid (ALA), are proposed to improve metabolic health by reducing obesity-associated inflammation. Their effects are mediated in part by conversion to oxylipins. ALA is relatively understudied, and direct comparisons to other omega-3 fatty acids are limited.<h4>Objectives</h4>We compared the effects of equal doses of ALA and DHA on plasma oxylipins and markers of metabolic health in women with obesity.<h4>Methods</h4>We carried out a randomized, double-blind, crossover clinical trial where women aged 20-51 with a BMI of 30-51 kg/m2 were supplemented with 4\u00a0g/day of ALA or DHA for 4 weeks in the form of ALA-rich flaxseed oil or DHA-rich fish oil. The primary outcome, the plasma oxylipin profile, was assessed at Days 0 and 28 of each phase by HPLC-MS/MS. Plasma fatty acids, inflammatory markers, and the monocyte glucose metabolism were key secondary outcomes. Data were analyzed using a mixed model.<h4>Results</h4>Compared to the baseline visit, there were higher plasma levels of nearly all oxylipins derived from DHA (3.8-fold overall; P\u00a0<\u00a00.001) and EPA (2.7-fold overall; P\u00a0<\u00a00.05) after 28 days of fish-oil supplementation, while there were no changes to oxylipins after flaxseed-oil supplementation. Neither supplement altered plasma cytokines; however, adiponectin was increased (1.1-fold; P\u00a0<\u00a00.05) at the end of the fish-oil phase. Compared to the baseline visit, 28 days of flaxseed-oil supplementation reduced ATP-linked oxygen consumption (0.75-fold; P\u00a0<\u00a00.05) and increased spare respiratory capacity (1.4-fold; P\u00a0<\u00a00.05) in monocytes, and countered the shift in oxygen consumption induced by LPS.<h4>Conclusions</h4>Flaxseed oil and fish oil each had unique effects on metabolic parameters in women with obesity. The supplementation regimens were insufficient to reduce inflammatory markers but adequate to elicit increases in omega-3 oxylipins and adiponectin in response to fish oil and to alter monocyte bioenergetics in response to flaxseed oil. This trial was registered at clinicaltrials.gov as NCT03583281.",
+    "affiliation": "Department of Food and Human Nutritional Sciences, University of Manitoba, Manitoba, Canada.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "CIHR",
+          "orderIn": 0
+        },
+        {
+          "agency": "Canadian Institutes of Health Research",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Monocytes"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Fatty Acids, Omega-3"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "alpha-Linolenic Acid"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Docosahexaenoic Acids"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Metabolism"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dietary Supplements"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adiponectin"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Tandem Mass Spectrometry"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Oxylipins"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        }
+      ]
+    },
+    "keywordList": {
+      "keyword": [
+        "Metabolism",
+        "Obesity",
+        "Inflammation",
+        "Docosahexaenoic acid",
+        "Bioenergetics",
+        "adiponectin",
+        "Omega-3 Fatty Acids",
+        "Oxylipins",
+        "\u0391-linolenic Acid"
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "adiponectin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Docosahexaenoic Acids",
+          "registryNumber": "25167-62-8"
+        },
+        {
+          "name": "Fatty Acids, Omega-3",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Oxylipins",
+          "registryNumber": "0"
+        },
+        {
+          "name": "alpha-Linolenic Acid",
+          "registryNumber": "0RBV727H71"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Unpaywall",
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8485902"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/jn/nxab235"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8485902"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC8485902?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1093/jn/nxab235"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "35362049",
+          "reference": "J Nutr. 2022 Apr 1;152(4):1174. doi: 10.1093/jn/nxac029",
+          "type": "Erratum in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "36967175",
+          "reference": "J Nutr. 2022 Apr;152(4):1174. doi: 10.1093/jn/nxac029",
+          "type": "Erratum in",
+          "orderIn": 2
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 22,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2022-02-16",
+    "dateOfCreation": "2021-07-22",
+    "dateOfRevision": "2023-03-26",
+    "firstPublicationDate": "2021-10-01",
+    "firstIndexDate": "2021-07-23",
+    "fullTextReceivedDate": "2025-02-04",
+    "embargoDate": "2022-07-22",
+    "hasEvaluations": "N"
+  },
+  "retrieved_on": "2026-10-26"
+}

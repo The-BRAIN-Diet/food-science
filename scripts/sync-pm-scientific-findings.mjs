@@ -70,6 +70,10 @@ function main() {
     if (pm && pmId !== pm) continue;
 
     const expected = expectedFindingsSection(data, content);
+    if (expected?.auditOnly) {
+      skipped++;
+      continue;
+    }
     if (expected?.missingHeading) {
       console.error(
         `${pmId}: has scientific_findings but no "### N.1 Scientific Findings" subsection to render into`,

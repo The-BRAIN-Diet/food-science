@@ -1,0 +1,201 @@
+{
+  "status": "PM1-local pilot implemented; scientific/governance approval pending; no global Principle migration",
+  "date": "2026-10-26",
+  "branch": "codex/dietary-confidence-pilot",
+  "baseline": "1884c7ae0f46a152e2502bb8d4dd6276a0276a7e plus preserved existing working changes",
+  "active_count": {
+    "original": 6,
+    "earlier_overbroad_pilot": 4,
+    "refined": 5,
+    "principles": 2,
+    "wholly_reclassified_historical_findings": [
+      "PM1-F4"
+    ],
+    "mixed_finding_retained": "PM1-F3"
+  },
+  "classification": [
+    {
+      "record": "PM1-F1",
+      "classification": "Scientific Finding",
+      "rationale": "Human dietary tracer appearance and source-specific postprandial kinetics are physiological propositions requiring appraisal.",
+      "SEC": "Existing provisional 5/8 unchanged",
+      "section4": "pm1-mechanism-f1",
+      "intervention": "Existing amino-acid supply relationships remain unchanged.",
+      "exact_proposition": "Dietary protein supplies phenylalanine to the human circulation, with delivery kinetics varying by the tested protein source, dose and meal context. The pooled age association is context-dependent, not proof that ageing uniformly impairs absorption or that greater availability increases brain neurotransmitters.",
+      "canonical_source_keys": [
+        "gorissen_phenylalanine_2020",
+        "stage2-ref-pm1-nonanimal2024",
+        "stage2-ref-pm1-exercise2011"
+      ]
+    },
+    {
+      "record": "PM1-F2",
+      "classification": "Scientific Finding",
+      "rationale": "Whole-diet adequacy and protein-quality synthesis is not a molecular identity. An incomplete appraisal must not be relabelled as foundational biology.",
+      "SEC": "Existing Not scored status unchanged",
+      "section4": "pm1-mechanism-f2",
+      "intervention": "Whole-diet adequacy is distinct from requiring every meal to contain an identical complete set; no admission changed.",
+      "exact_proposition": "Varied adult diets can provide digestible indispensable amino acids without requiring every meal to supply the full set. This nutritional-adequacy proposition does not establish an optimal neurotransmitter dose or demonstrate that all plant and animal foods have identical postprandial responses.",
+      "canonical_source_keys": [
+        "mariotti_dietary_2019",
+        "moughan_diaas_2024",
+        "marsh_protein_2013",
+        "stage2-ref-pm1-requirements2025",
+        "stage2-ref-pm1-faba2024",
+        "stage2-ref-pm1-nonanimal2024"
+      ]
+    },
+    {
+      "record": "PM1-F3",
+      "classification": "Mixed proposition: retain active Finding; isolate pure PAH reaction as PM1-SP1",
+      "rationale": "The exact historical statement includes a physiological contribution to tyrosine supply. It is broader than reaction identity; reclassifying the whole record would hide an appraisal question. The active descriptive title now states the physiological scope.",
+      "SEC": "Existing non-numerical snapshot unchanged; classification note explains applicability. No new factors or score.",
+      "section4": "pm1-mechanism-f3",
+      "intervention": "Derived precursor supply remains unchanged; reaction identity alone does not establish quantitative dietary contribution or brain flux.",
+      "exact_proposition": "Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.",
+      "canonical_source_keys": [
+        "matthews_phenylalanine_2007"
+      ]
+    },
+    {
+      "record": "PM1-F4",
+      "classification": "Scientific Principle PM1-SP2; original Finding preserved as historical",
+      "rationale": "Precursor identities are foundational pathway membership. The dietary-effect cautions remain scope limitations rather than newly established negative intervention results.",
+      "SEC": "Not applicable to the active Principle. The original F4 assessment and previous versions remain available through the audit renderer.",
+      "section4": "pm1-mechanism-f4",
+      "intervention": "No intervention efficacy follows from identifying the precursors.",
+      "exact_proposition": "Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.",
+      "canonical_source_keys": [
+        "aquili_role_2020"
+      ]
+    },
+    {
+      "record": "PM1-F5",
+      "classification": "Scientific Finding",
+      "rationale": "Food texture affected measured tracer appearance under a defined experimental protocol, with endpoint-specific null results.",
+      "SEC": "Existing provisional 4/8 unchanged",
+      "section4": "pm1-mechanism-f5",
+      "intervention": "Existing stored PM1-SOP-DEFERRED-1 relationship remains unchanged. Older prose still calls it proposed/absent; this pre-existing mismatch is flagged for review, not resolved by changing admission.",
+      "exact_proposition": "In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably between preparations.",
+      "canonical_source_keys": [
+        "stage2-ref-pm1-pennings2013"
+      ]
+    },
+    {
+      "record": "PM1-F6",
+      "classification": "Scientific Finding",
+      "rationale": "Formulation-specific early kinetics and integrated-exposure null results require appraisal; processing effects are not foundational reaction identities.",
+      "SEC": "Existing provisional 4/8 unchanged",
+      "section4": "pm1-mechanism-f6",
+      "intervention": "No extrusion-related SOP is admitted by this pilot.",
+      "exact_proposition": "In a randomised crossover of nine healthy young adults, the tested high-moisture-extruded mycoprotein/pea blend delayed selected early plasma amino-acid responses relative to the dry blend. Total five-hour grouped amino-acid availability was not significantly different; the study does not establish poorer overall nutrition for all meat alternatives.",
+      "canonical_source_keys": [
+        "stage2-ref-pm1-extrusion2024"
+      ]
+    }
+  ],
+  "principles": [
+    {
+      "id": "PM1-SP1",
+      "original_finding_id": "PM1-F3",
+      "title": "Phenylalanine hydroxylase reaction",
+      "proposition": "Phenylalanine-4-hydroxylase catalyses conversion of L-phenylalanine to L-tyrosine.",
+      "mechanism": "Endogenous phenylalanine-to-tyrosine conversion.",
+      "scope_limitations": "Reaction identity does not quantify physiological conversion flux, dietary contribution to tyrosine supply or brain catecholamine synthesis. Those propositions remain subject to scientific appraisal in SF3.",
+      "classification_rationale": "Only the established reaction identity is a Principle; the original mixed physiological proposition remains an active Finding.",
+      "reviewed_on": "2026-10-26",
+      "sources": [
+        {
+          "label": "UniProtKB P00439 \u2014 human phenylalanine-4-hydroxylase",
+          "href": "https://www.uniprot.org/uniprotkb/P00439/entry",
+          "accession": "P00439",
+          "version": "Entry version 269, 2 September 2026",
+          "accessed": "2026-10-18"
+        },
+        {
+          "label": "Rhea 20273 \u2014 phenylalanine hydroxylation",
+          "href": "https://www.rhea-db.org/rhea/20273",
+          "accession": "RHEA:20273",
+          "accessed": "2026-10-18"
+        }
+      ]
+    },
+    {
+      "id": "PM1-SP2",
+      "original_finding_id": "PM1-F4",
+      "historical_proposition": "Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.",
+      "title": "Tyrosine and tryptophan precursor identities",
+      "proposition": "Tyrosine is a precursor in catecholamine biosynthesis; tryptophan is a precursor in serotonin biosynthesis.",
+      "mechanism": "Precursor identity for downstream pathways, distinct from circulating supply and brain transport.",
+      "scope_limitations": "These identities do not establish that additional dietary protein raises brain neurotransmitter synthesis or improves functional or clinical outcomes. Intervention, transport and flux propositions remain Findings requiring separate appraisal.",
+      "classification_rationale": "Foundational precursor identities are presented as a Principle; historical dietary-effect boundaries remain limitations, not a newly adjudicated negative intervention Finding.",
+      "reviewed_on": "2026-10-26",
+      "sources": [
+        {
+          "label": "UniProtKB P07101 \u2014 Tyrosine 3-monooxygenase",
+          "href": "https://www.uniprot.org/uniprotkb/P07101/entry",
+          "accession": "P07101",
+          "version": "Entry version 250, annotation 2026-09-02",
+          "accessed": "2026-10-26"
+        },
+        {
+          "label": "UniProtKB P17752 \u2014 Tryptophan 5-hydroxylase 1",
+          "href": "https://www.uniprot.org/uniprotkb/P17752/entry",
+          "accession": "P17752",
+          "version": "Entry version 224, annotation 2026-09-02",
+          "accessed": "2026-10-26"
+        },
+        {
+          "label": "UniProtKB P20711 \u2014 Aromatic-L-amino-acid decarboxylase",
+          "href": "https://www.uniprot.org/uniprotkb/P20711/entry",
+          "accession": "P20711",
+          "version": "Entry version 227, annotation 2026-09-02",
+          "accessed": "2026-10-26"
+        },
+        {
+          "label": "Aquili (2020) \u2014 precursor identities and separate depletion/supplementation evidence",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+          "citation_key": "aquili_role_2020"
+        }
+      ]
+    }
+  ],
+  "title_coverage": {
+    "PMs_checked": 64,
+    "numeric_BRS_compact_identifiers": 51,
+    "Cross_BRS_existing_identifiers_preserved": 13,
+    "canonical_names_IDs_paths_unchanged": true,
+    "sidebar_breadcrumb_and_navigation_labels": "all 64 explicit; main headings checked"
+  },
+  "validation": {
+    "focused_tests": "100/100 pass; final identity-reservation guard additionally passed the seven pilot tests",
+    "PM1_references": "zero issues",
+    "Finding_generation": "64 PMs, zero issues",
+    "dietary_governance": "64 PMs, zero issues",
+    "SEC_history": "84 immutable snapshots valid, no registry modifications",
+    "browser": "Real canonical localhost3143 route; blue site theme; Section4\u2192Principles link; SF3 return link and original sec-pm1-pm1-f3-assessment-v2 anchor; F4 historical audit disclosure; 1.1/1.1.1 expansion; Tryptophan six-atom disclosure; Escape and focus return; five Finding count; existing numerical indicators retained",
+    "source_compilation": "Docusaurus client compiled successfully; actual MDX tested",
+    "production_build": "not run; not requested"
+  },
+  "browser_numbering_note": "Canonical dietary source section 3.1.1 is displayed as 1.1.1 by the approved prominence transform; no duplicate 3.1.1 section was created.",
+  "history": "All six historical source records and exact pinned SEC refs retained. Only the SF3 descriptive title changed. F4 identity and old audit anchors remain reserved and accessible; previous versions use the existing audit renderer.",
+  "preserved": [
+    "missions",
+    "dietary admissions",
+    "Type A/B",
+    "Direct/Derived",
+    "six atoms",
+    "KCs",
+    "SOP/lifestyle decisions",
+    "food ontology/composition",
+    "SEC/CC scores and immutable snapshots",
+    "manuscript dietary outputs"
+  ],
+  "remaining_approvals": [
+    "Approve the refined five-Finding/two-Principle PM1 classification before framework-wide rollout.",
+    "Approve the six proposed authoritative instruction changes; none applied globally.",
+    "Further SEC appraisal of the physiological SF3 component and F2 remains separate work; no score was forced.",
+    "Review the pre-existing PM1 minced-beef SOP prose-versus-record mismatch; the pilot preserves its stored relationship unchanged."
+  ],
+  "release": "No commit, push, merge or deployment."
+}

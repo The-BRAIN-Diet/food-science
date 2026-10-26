@@ -21,20 +21,20 @@ const dopamine = "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-si
 const plasticity = "/docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity"
 
 test("published PM breadcrumbs take the number from the canonical id", () => {
-  assert.equal(label("BRS1-FM4-PM9", "GABA Synthesis Capacity", gaba), "PM9 — GABA Synthesis Capacity")
-  assert.equal(label("BRS1-FM1-PM3", "Dopaminergic Signalling Regulation", dopamine), "PM3 — Dopaminergic Signalling Regulation")
-  assert.equal(label("BRS1-FM5-PM12", "Synaptic Structural Plasticity", plasticity), "PM12 — Synaptic Structural Plasticity")
-  assert.equal(label("BRS6-FM1-PM1", "Glucose Appearance Kinetics", "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics/"), "PM1 — Glucose Appearance Kinetics")
-  assert.equal(label("BRS-X(Hormones-PM1)", "Oestrogen Signalling Stability", "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"), "PM1 — Oestrogen Signalling Stability")
-  assert.equal(label("BRS-X(ECS-PM5)", "Endocannabinoid Stress-Buffering Capacity", "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"), "PM5 — Endocannabinoid Stress-Buffering Capacity")
-  assert.equal(label("BRS-X(Circadian-FM1-PM2)", "Feeding-Time Circadian Synchronisation", "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation"), "PM2 — Feeding-Time Circadian Synchronisation")
+  assert.equal(label("BRS1-FM4-PM9", "GABA Synthesis Capacity", gaba), "BRS1-4-9 — GABA Synthesis Capacity")
+  assert.equal(label("BRS1-FM1-PM3", "Dopaminergic Signalling Regulation", dopamine), "BRS1-1-3 — Dopaminergic Signalling Regulation")
+  assert.equal(label("BRS1-FM5-PM12", "Synaptic Structural Plasticity", plasticity), "BRS1-5-12 — Synaptic Structural Plasticity")
+  assert.equal(label("BRS6-FM1-PM1", "Glucose Appearance Kinetics", "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics/"), "BRS6-1-1 — Glucose Appearance Kinetics")
+  assert.equal(label("BRS-X(Hormones-PM1)", "Oestrogen Signalling Stability", "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"), "BRS-X(Hormones-PM1) — Oestrogen Signalling Stability")
+  assert.equal(label("BRS-X(ECS-PM5)", "Endocannabinoid Stress-Buffering Capacity", "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"), "BRS-X(ECS-PM5) — Endocannabinoid Stress-Buffering Capacity")
+  assert.equal(label("BRS-X(Circadian-FM1-PM2)", "Feeding-Time Circadian Synchronisation", "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation"), "BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation")
 })
 
 test("an existing PM prefix is not duplicated", () => {
-  assert.equal(label("BRS1-FM4-PM9", "PM9 — GABA Synthesis Capacity", gaba), "PM9 — GABA Synthesis Capacity")
-  assert.equal(label("BRS1-FM5-PM12", "PM12 — Synaptic Structural Plasticity", plasticity), "PM12 — Synaptic Structural Plasticity")
-  assert.equal(label("BRS1-FM1-PM1", "PM12 — Other mechanism", "/docs/biological-targets/brs1/fm1/example"), "PM1 — PM12 — Other mechanism")
-  assert.equal(label("BRS-X(Circadian-FM1-PM2)", "PM2 — Feeding-Time Circadian Synchronisation", "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation"), "PM2 — Feeding-Time Circadian Synchronisation")
+  assert.equal(label("BRS1-FM4-PM9", "PM9 — GABA Synthesis Capacity", gaba), "BRS1-4-9 — GABA Synthesis Capacity")
+  assert.equal(label("BRS1-FM5-PM12", "PM12 — Synaptic Structural Plasticity", plasticity), "BRS1-5-12 — Synaptic Structural Plasticity")
+  assert.equal(label("BRS1-FM1-PM1", "PM12 — Other mechanism", "/docs/biological-targets/brs1/fm1/example"), "BRS1-1-1 — PM12 — Other mechanism")
+  assert.equal(label("BRS-X(Circadian-FM1-PM2)", "PM2 — Feeding-Time Circadian Synchronisation", "/docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation"), "BRS-X(Circadian-FM1-PM2) — Feeding-Time Circadian Synchronisation")
 })
 
 test("FM, hub, food, substance, recipe and draft pages keep their label", () => {

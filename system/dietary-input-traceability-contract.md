@@ -1,5 +1,9 @@
 # Stage 2B — Applicability & Lever Implementation Contract
 
+**Approved canonical food-disclosure layout — 26 October 2026:** Follow [the exact food-column implementation](input-substance-food-mapping.md#approved-food-column-implementation--26-october-2026). Reuse the shared renderer and stylesheet for §1.1.1–1.1.3 / §3.1.1–3.1.3: first food in the closed heading, food before quantity, fixed shared columns, right-aligned numeric values, aligned units/bases, wrapped long names and compact form. Missing form renders `form not known`. Stage reruns must preserve this layout, evidence qualifiers, provisional warnings and canonical data; do not author replacement food lists or inline composition-source prose. The linked contract includes the CSS, renderer parsing rule and required browser checks. The final approved row reads `Sunflower Seeds 53 µg per 100 g - dried`: food column 8.5rem, quantity column 9.75rem, 0.35rem column gap, right-aligned numbers with tabular numerals, and no manual space padding or negative preparation margin. Use exactly ` - ` before the form; retain source-specific measurement bases. The first food and expanded rows must use the same grid for both plant and animal categories. This presentation is framework-wide across BRS1–BRS6, not a PM4-only pilot; apply it through shared rendering wherever eligible structured food mappings exist.
+
+**Approved canonical evidence-tab template — 26 October 2026:** Follow [Canonical PM evidence tabs](pm-evidence-tabs-contract.md). The accepted PM8 template governs Stage 2A/2B and subsequent controlled PM migrations: Evidence Gaps → Open Issues → Evidence & Audit, with canonical disclosures and stable IDs. This instruction update does not itself migrate other PMs or change scientific decisions.
+
 **Approved governance revision — 23 October 2026:** [Dietary input admission and food target traceability](dietary-input-governance-v2.md) governs new/changed dietary assessments, section eligibility, independent Type A/B admission, food-target research, provisional display and repair reporting. Historical decisions remain traceable; this revision does not reapprove or migrate them. The six atoms and CC/SEC scoring remain unchanged.
 
 **Governing instruction:** Stage 2B applicability and lever implementation. Use with the [whole-PM page schema](primary-mechanism-schema.md) and preserve the evidence thresholds and stage boundary in [Stage 2A](scientific-finding-schema.md).
@@ -7,6 +11,20 @@
 **Status:** Active Stage 2B schema — PM Evidence + Dietary Requirements atom projection for canonical §3.1.
 **Scope:** Canonical six-atom currency; Direct/Derived relationship metadata; `dietary_lever_atoms` overlay.
 **Does not implement:** PM recomputation, Food→Substance composition, KC membership changes, or hub roll-up.
+
+## Canonical evidence-tab implementation — mandatory output contract
+
+Use the approved [three-tab template](pm-evidence-tabs-contract.md) when implementing or migrating a PM. Stage 2A supplies classified propositions and evidence destinations; Stage 2B preserves the distinction between scientific evidence and scientific admission.
+
+- Retain accepted mission, necessary mechanism explanation, essential limitations and admitted dietary/KC/SOP/lifestyle relationships on the main page. Preserve the six atoms, Type A Capacity / Type B Regulation and Direct/Derived independently. Do not require additional-intake benefit for a Type A capacity proposition or admit Type B from a downstream outcome alone.
+- Render the exact tabs **Evidence Gaps → Open Issues → Evidence & Audit** through the existing PM navigation, query state and responsive controls. Keep all three visible with honest empty states. Do not insert the gap summary between intervention sections and Section 4.
+- Project detailed Findings and source assessments from canonical `scientific_findings` into Evidence & Audit. Render Principles and provenance there without SEC status. Retain concise explanatory science and links on the main page; preserve old record anchors and route deep links to the correct tab and expanded disclosure. The active Finding count excludes Principles and historical versions.
+- Use canonical dropdown boxes and visible IDs: Evidence Gap 1, Open Issue 1 — Under Investigation, and canonical Principle IDs. Retain full stable IDs in records and links. Do not show an empty “Review status not recorded” review block.
+- Preserve completed non-admissions and historical decisions in the audit. Important non-admissions may be summarised in Evidence Gaps from their authoritative records. Do not promote a gap, hypothesis or unresolved candidate into an intervention, food strategy or manuscript roll-up.
+- Preserve verified/provisional food mappings, exact missing-link warnings and evidence/food-target traceability. Tab placement changes neither dietary admission nor ontology status.
+- Before completion, validate preserved scientific records and immutable SEC history, tab order and empty states, canonical disclosures and IDs, source references, actual browser interactions and rerun stability. The Finding sync must not reinsert relocated records. Do not repopulate explicitly deleted issues from historical snapshots.
+
+Migrate PMs in controlled auditable units. Leave scientific disagreements unresolved for review while completing safe presentation work. This contract does not authorise broad mission redesign, automatic food-edge repair, new scores, deletion of another PM's issues, commits or deployment.
 
 ## Audience and public voice (Stage 2B)
 
@@ -2755,3 +2773,9 @@ value is Yes. Unset records are review flags, not silent Yes or No.
 A Direct label for an enzyme substrate or cofactor does not by itself establish independent dietary supply of that exact form. Read the accepted lever overlay, supply route and limitation together. Where dietary precursors supply an intracellular active form, retain both biological identities and the existing Direct/Derived classification, but do not admit a second dietary supply by section location alone. If admission and supply metadata conflict, set `dietary_input: null` with `section-supply-contradiction` until reconciled. Missing food composition data alone is not a contradiction and must not change an admitted Yes to No.
 
 Preformed 5-MTHF in food and conversion from other dietary folates are distinct supported routes to the same reaction target. Direct dietary presence can establish Yes even when no extra-intake benefit is shown. A folate vitamer is part of the folate family: never add its amount to total folate as though these were disjoint nutrient supplies. Preserve analyte-specific observations.
+
+## Optional Dietary Confidence assessment — bounded pilot
+
+Use [Dietary Confidence](dietary-confidence-schema.md) only after the existing Type A or Type B gate has been satisfied. Record High, Moderate or Low in separate relationship metadata for an explicitly scoped proposition. A Type A capacity assessment does not require evidence that extra intake improves a clinical outcome. For Type B, food occurrence alone does not establish credible delivery to the engaged mechanism; review digestion, active form, exposure and tested material. An unsupported essential link requires an explicit review issue, not a compensatory Low label or a silent change to historical admission.
+
+No assessment means Unassessed; no default value is stored. Existing admission/hypothesis statuses express nonadmission; Dietary Confidence is not applicable and no assessment is created. Never assign confidence to a hypothesis. Keep Type A/B and Direct/Derived independent, preserve all six atoms and SEC/CC, and do not infer confidence from their scores. This pilot does not authorise repository-wide scoring or a change to food mappings or manuscript eligibility.

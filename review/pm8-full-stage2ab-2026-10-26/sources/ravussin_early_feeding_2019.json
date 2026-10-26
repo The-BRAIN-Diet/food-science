@@ -1,0 +1,465 @@
+{
+  "citation_key": "ravussin_early_feeding_2019",
+  "doi": "10.1002/oby.22518",
+  "metadata": {
+    "id": "31339000",
+    "source": "MED",
+    "pmid": "31339000",
+    "pmcid": "PMC6658129",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC6658129"
+      ]
+    },
+    "doi": "10.1002/oby.22518",
+    "title": "Early Time-Restricted Feeding Reduces Appetite and Increases Fat Oxidation But Does Not Affect Energy Expenditure in Humans.",
+    "authorString": "Ravussin E, Beyl RA, Poggiogalle E, Hsia DS, Peterson CM.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Ravussin E",
+          "lastName": "Ravussin",
+          "firstName": "Eric",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2129-547X"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Beyl RA",
+          "lastName": "Beyl",
+          "firstName": "Robbie A",
+          "initials": "RA",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Poggiogalle E",
+          "lastName": "Poggiogalle",
+          "firstName": "Eleonora",
+          "initials": "E",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-0862-5892"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA."
+              },
+              {
+                "affiliation": "Section of Medical Pathophysiology, Food Science, and Endocrinology, Department of Experimental Medicine, Sapienza University, Rome, Italy."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Hsia DS",
+          "lastName": "Hsia",
+          "firstName": "Daniel S",
+          "initials": "DS",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-2832-3429"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Peterson CM",
+          "lastName": "Peterson",
+          "firstName": "Courtney M",
+          "initials": "CM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-4845-6782"
+          },
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA."
+              },
+              {
+                "affiliation": "Department of Nutrition Sciences, University of Alabama at Birmingham, Birmingham, Alabama, USA."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-4845-6782"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-0862-5892"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2129-547X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-2832-3429"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics",
+        "supporting_data"
+      ]
+    },
+    "journalInfo": {
+      "issue": "8",
+      "volume": "27",
+      "journalIssueId": 2840821,
+      "dateOfPublication": "2019 Aug",
+      "monthOfPublication": 8,
+      "yearOfPublication": 2019,
+      "journal": {
+        "medlineAbbreviation": "Obesity (Silver Spring)",
+        "title": "Obesity (Silver Spring, Md.)",
+        "essn": "1930-739X",
+        "issn": "1930-7381",
+        "nlmid": "101264860",
+        "isoabbreviation": "Obesity (Silver Spring)"
+      },
+      "printPublicationDate": "2019-08-01"
+    },
+    "pubYear": "2019",
+    "pageInfo": "1244-1254",
+    "abstractText": "<h4>Objective</h4>Eating earlier in the daytime to align with circadian rhythms in metabolism enhances weight loss. However, it is unknown whether these benefits are mediated through increased energy expenditure or decreased food intake. Therefore, this study performed the first randomized trial to determine how meal timing affects 24-hour energy metabolism when food intake and meal frequency are matched.<h4>Methods</h4>Eleven adults with overweight practiced both early time-restricted feeding (eTRF) (eating from 8 am to 2 pm) and a control schedule (eating from 8 am to 8 pm) for 4 days each. On the fourth day, 24-hour energy expenditure and substrate oxidation were measured by whole-room indirect calorimetry, in conjunction with appetite and metabolic hormones.<h4>Results</h4>eTRF did not affect 24-hour energy expenditure (\u0394\u2009=\u200910\u2009\u00b1\u200916 kcal/d; P\u2009=\u20090.55). Despite the longer daily fast (intermittent fasting), eTRF decreased mean ghrelin levels by 32\u2009\u00b1\u200910 pg/mL (P\u2009=\u20090.006), made hunger more even-keeled (P\u2009=\u20090.006), and tended to increase fullness (P\u2009=\u20090.06-0.10) and decrease the desire to eat (P\u2009=\u20090.08). eTRF also increased metabolic flexibility (P\u2009=\u20090.0006) and decreased the 24-hour nonprotein respiratory quotient (\u0394\u2009=\u2009-0.021\u2009\u00b1\u20090.010; P\u2009=\u20090.05).<h4>Conclusions</h4>Meal-timing interventions facilitate weight loss primarily by decreasing appetite rather than by increasing energy expenditure. eTRF may also increase fat loss by increasing fat oxidation.",
+    "affiliation": "Human Translational Physiology, Pennington Biomedical Research Center, Baton Rouge, Louisiana, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NCATS NIH HHS",
+          "acronym": "TR",
+          "grantId": "KL2 TR001419",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30 DK048520",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "R00 DK100465",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "K01 DK113063",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institute of General Medical Sciences",
+          "grantId": "U54GM104940",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "UL1 RR025780",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCATS NIH HHS",
+          "acronym": "TR",
+          "grantId": "UL1 TR002535",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Center for Advancing Translational Sciences",
+          "grantId": "KL2TR001419",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30 DK072476",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30 DK056336",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "T32 DK007658",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIGMS NIH HHS",
+          "acronym": "GM",
+          "grantId": "U54 GM104940",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P30 DK079626",
+          "orderIn": 0
+        },
+        {
+          "agency": "National Institute of Diabetes and Digestive and Kidney Diseases",
+          "grantId": "P30DK072476",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Weight Loss",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Calorimetry, Indirect"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Fasting",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Appetite",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Metabolism",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Oxidation-Reduction"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Overweight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "DH",
+                "qualifierName": "diet therapy"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PP",
+                "qualifierName": "physiopathology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Ghrelin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Meals"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "ghrelin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/oby.22518"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1002/oby.22518"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6658129"
+        },
+        {
+          "availability": "Open access",
+          "availabilityCode": "OA",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC6658129?pdf=render"
+        }
+      ]
+    },
+    "isOpenAccess": "Y",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 229,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "Y",
+    "hasLabsLinks": "Y",
+    "hasData": "Y",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS1527686",
+    "hasTMAccessionNumbers": "Y",
+    "tmAccessionTypeList": {
+      "accessionType": [
+        "nct"
+      ]
+    },
+    "dateOfCompletion": "2020-04-24",
+    "dateOfCreation": "2019-07-25",
+    "dateOfRevision": "2024-10-03",
+    "firstPublicationDate": "2019-08-01",
+    "firstIndexDate": "2019-07-28",
+    "fullTextReceivedDate": "2025-02-03",
+    "embargoDate": "2020-08-01",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Foby.22518%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Metadata and abstract; not full methods"
+}

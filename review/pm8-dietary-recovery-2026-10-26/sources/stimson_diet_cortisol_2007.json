@@ -1,0 +1,402 @@
+{
+  "citation_key": "stimson_diet_cortisol_2007",
+  "doi": "10.1210/jc.2007-0692",
+  "metadata": {
+    "id": "17785367",
+    "source": "MED",
+    "pmid": "17785367",
+    "doi": "10.1210/jc.2007-0692",
+    "title": "Dietary macronutrient content alters cortisol metabolism independently of body weight changes in obese men.",
+    "authorString": "Stimson RH, Johnstone AM, Homer NZ, Wake DJ, Morton NM, Andrew R, Lobley GE, Walker BR.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Stimson RH",
+          "lastName": "Stimson",
+          "firstName": "Roland H",
+          "initials": "RH",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "Endocrinology Unit, Centre for Cardiovascular Science, Queen's Medical Research Institute, University of Edinburgh, Edinburgh EH16 4TJ, United Kingdom. roland.stimson@ed.ac.uk"
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Johnstone AM",
+          "lastName": "Johnstone",
+          "firstName": "Alexandra M",
+          "initials": "AM",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-5484-292X"
+          }
+        },
+        {
+          "fullName": "Homer NZ",
+          "lastName": "Homer",
+          "firstName": "Natalie Z M",
+          "initials": "NZ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-9262-2098"
+          }
+        },
+        {
+          "fullName": "Wake DJ",
+          "lastName": "Wake",
+          "firstName": "Deborah J",
+          "initials": "DJ",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0003-4376-6973"
+          }
+        },
+        {
+          "fullName": "Morton NM",
+          "lastName": "Morton",
+          "firstName": "Nicholas M",
+          "initials": "NM"
+        },
+        {
+          "fullName": "Andrew R",
+          "lastName": "Andrew",
+          "firstName": "Ruth",
+          "initials": "R",
+          "authorId": {
+            "type": "ORCID",
+            "value": "0000-0002-6916-2994"
+          }
+        },
+        {
+          "fullName": "Lobley GE",
+          "lastName": "Lobley",
+          "firstName": "Gerald E",
+          "initials": "GE"
+        },
+        {
+          "fullName": "Walker BR",
+          "lastName": "Walker",
+          "firstName": "Brian R",
+          "initials": "BR"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-5484-292X"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-6916-2994"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0002-9262-2098"
+        },
+        {
+          "type": "ORCID",
+          "value": "0000-0003-4376-6973"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "11",
+      "volume": "92",
+      "journalIssueId": 1479583,
+      "dateOfPublication": "2007 Nov",
+      "monthOfPublication": 11,
+      "yearOfPublication": 2007,
+      "journal": {
+        "medlineAbbreviation": "J Clin Endocrinol Metab",
+        "title": "The Journal of clinical endocrinology and metabolism",
+        "essn": "1945-7197",
+        "issn": "0021-972X",
+        "isoabbreviation": "J Clin Endocrinol Metab",
+        "nlmid": "0375362"
+      },
+      "printPublicationDate": "2007-11-01"
+    },
+    "pubYear": "2007",
+    "pageInfo": "4480-4484",
+    "abstractText": "<h4>Context</h4>Dietary macronutrient composition influences cardiometabolic health independently of obesity. Both dietary fat and insulin alter glucocorticoid metabolism in rodents and, acutely, in humans. However, whether longer-term differences in dietary macronutrients affect cortisol metabolism in humans and contribute to the tissue-specific dysregulation of cortisol metabolism in obesity is unknown.<h4>Objective</h4>The objective of the study was to test the effects of dietary macronutrients on cortisol metabolism in obese men.<h4>Design</h4>The study consisted of two randomized, crossover studies.<h4>Setting</h4>The study was conducted at a human nutrition unit.<h4>Participants</h4>Participants included healthy obese men. INTERVENTIONS, OUTCOME MEASURES, AND RESULTS: Seventeen obese men received 4 wk ad libitum high fat-low carbohydrate (HF-LC) (66% fat, 4% carbohydrate) vs. moderate fat-moderate carbohydrate (MF-MC) diets (35% fat, 35% carbohydrate). Six obese men participated in a similar study with isocaloric feeding. Both HF-LC and MF-MC diets induced weight loss. During 9,11,12,12-[(2)H](4)-cortisol infusion, HF-LC but not MF-MC increased 11beta-hydroxysteroid dehydrogenase type 1 (11beta-HSD1) activity (rates of appearance of cortisol and 9,12,12-[(2)H](3)-cortisol) and reduced urinary excretion of 5alpha- and 5beta-reduced [(2)H](4)-cortisol metabolites and [(2)H](4)-cortisol clearance. HF-LC also reduced 24-h urinary 5alpha- and 5beta-reduced endogenous cortisol metabolites but did not alter plasma cortisol or diurnal salivary cortisol rhythm. In sc abdominal adipose tissue, 11beta-HSD1 mRNA and activity were unaffected by diet.<h4>Conclusions</h4>A low-carbohydrate diet alters cortisol metabolism independently of weight loss. In obese men, this enhances cortisol regeneration by 11beta-HSD1 and reduces cortisol inactivation by A-ring reductases in liver without affecting sc adipose 11beta-HSD1. Alterations in cortisol metabolism may be a consequence of macronutrient dietary content and may mediate effects of diet on metabolic health.",
+    "affiliation": "Endocrinology Unit, Centre for Cardiovascular Science, Queen's Medical Research Institute, University of Edinburgh, Edinburgh EH16 4TJ, United Kingdom. roland.stimson@ed.ac.uk",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print-Electronic",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Liver",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipose Tissue",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Obesity",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Weight",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Hydrocortisone",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              },
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              },
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "UR",
+                "qualifierName": "urine"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "BL",
+                "qualifierName": "blood"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Blood Glucose",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Glucocorticoids",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Anthropometry"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Mass Index"
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Diet"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cross-Over Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Body Composition",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Energy Intake"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Homeostasis",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "PH",
+                "qualifierName": "physiology"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Eating"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Middle Aged"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Blood Glucose",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Glucocorticoids",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Insulin",
+          "registryNumber": "0"
+        },
+        {
+          "name": "Hydrocortisone",
+          "registryNumber": "WI4X0X7BPJ"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://academic.oup.com/jcem/article-pdf/92/11/4480/9055460/jcem4480.pdf"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.1210/jc.2007-0692"
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "N",
+    "inPMC": "N",
+    "citedByCount": 64,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "N",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "N",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "N",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2008-01-02",
+    "dateOfCreation": "2007-09-06",
+    "dateOfRevision": "2013-11-21",
+    "electronicPublicationDate": "2007-09-04",
+    "firstPublicationDate": "2007-09-04",
+    "firstIndexDate": "2008-01-29",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1210%2Fjc.2007-0692%22&format=json&resultType=core",
+  "retrieved_on": "2026-10-26"
+}

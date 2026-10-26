@@ -1,0 +1,715 @@
+Effect of flaxseed consumption on central obesity, serum lipids, and
+adiponectin level in overweight or obese women: A randomised controlled
+Downloaded from: https://research.chalmers.se, 2026-10-26 13:27 UTC
+Citation for the original published paper (version of record):
+Motlagh, H., Aalipanah, E., Mazidi, M. et al (2021). Effect of flaxseed consumption on central
+obesity, serum lipids, and adiponectin level in
+overweight or obese women: A randomised controlled clinical trial. International Journal of Clinical
+Practice, 75(10). http://dx.doi.org/10.1111/ijcp.14592
+N.B. When citing this work, cite the original published paper.
+research.chalmers.se offers the possibility of retrieving research publications produced at Chalmers University of Technology. It
+covers all kind of research output: articles, dissertations, conference papers, reports etc. since 2004. research.chalmers.se is
+administrated and maintained by Chalmers Library
+(article starts on next page)
+Int J Clin Pract. 2021;75:e14592.	 wileyonlinelibrary.com/journal/ijcp	 	 | 	1 of 8
+https://doi.org/10.1111/ijcp.14592
+© 2021 John Wiley & Sons Ltd
+1 |  INTRODUCTION
+Obesity is one of the most important inflammatory diseases, and its 
+prevalence is increasing across the world. 1 Obesity and overweight 
+are associated with increased risk of several chronic disorders and 
+certain types of cancers. 2 Adipokines as bioactive mediators which 
+stimulate the adipocyte function and regulate multiple metabolic re-
+actions are secreted by adipose tissue which is an active endocrine 
+organ. Adipose tissue also regulates fat mass. 3,4 There are numer -
+ous adipokines related to obesity, such as omentin-  1, neuregulin 4, 
+adiponectin, and leptin. Neuregulin 4 (Nrg4) has a main role in the 
+modulation of glucose and lipid metabolism and energy balance. 5 
+Previous findings are reporting meaningful lower serum omentin-  1 
+level in morbidly obese women in comparison with normal weight 
+women.6 Also, other studies show that circulating serum adiponec -
+tin concentrations are positively correlated with plasma omentin-
+ 1. They speculate that an inverse relationship between obesity 
+and both omentin-  1 and adiponectin level may implement similar 
+regulation. 3
+It is found that expression and secretion of adiponectin within 
+the adipose tissue decrease in obese individuals. 7 Adiponectin 
+is the most prevalent adipokine which has beneficial effects on 
+ 
+Received:	5	May	2021  |  Revised:	18	June	2021  |  Accepted:	2	July	2021
+DOI: 10.1111/ijcp.14592  
+ORIGINAL PAPER
+Metabolism & Endocrinology
+Effect of flaxseed consumption on central obesity, serum 
+lipids, and adiponectin level in overweight or obese women: A 
+randomised controlled clinical trial
+Hoda Ahmadniay motlagh1 |   Erfaneh Aalipanah1 |   Mohsen Mazidi2 |   Shiva Faghih1
+1Nutrition Research Center, School of 
+Nutrition and Food Sciences, Shiraz 
+University of Medical Sciences, Shiraz, Iran
+2Department of Biology and Biological 
+Engineering, Food and Nutrition Science, 
+Chalmers University of Technology, 
+Gothenburg, Sweden
+Correspondence
+Shiva Faghih, Department of Community 
+Nutrition, School of Nutrition and Food 
+Sciences, Razi Boulevard, Shiraz, Iran.
+Email: shivafaghih@gmail.com
+Abstract
+Background: Flaxseed may be beneficial for the management of obesity due to its 
+high content of alpha- linolenic acid, fibre, and lignans.
+Objective: We aim to evaluate the effect of flaxseed consumption on serum lipids, 
+adiponectin, leptin, and anthropometric indices in overweight or obese women.
+Methods: This randomised controlled clinical trial involved 60 overweight or obese 
+women. Participants were randomly allocated into two groups: (a) a balanced diet 
+plus 30 g/day milled flaxseed (as treatment group) and (b) a balanced diet plus 30 g/
+day milled rice (as control group). Anthropometric indices, serum lipids, leptin, and 
+adiponectin level were measured at baseline and at the end of intervention after 
+12 weeks.
+Results: After 12 weeks of intervention, there was significantly higher reduction 
+rate in waist circumference (WC) and waist-  to- hip ratio (WHR) (both P < .05) in the 
+flaxseed- consuming group compared with the control group. Moreover, adiponectin 
+level was significantly increased from (12.11 ± 7.1) to (17.15 ± 6.1) in the flaxseed- 
+consuming	group	compared	with	the	control	group	from	(12.48	± 4.7) to (12.01 ±	5.8)	
+(P = .002). However, no significant difference was observed in serum lipid level in the 
+study groups before and after the intervention (all P > .05).
+Conclusion: Flaxseed consumption may improve adiposity markers, such as adi -
+ponectin level. Thus, flaxseed consumption could be an adjunctive therapy to attenu-
+ate central obesity. Serum lipid profile has not changed meaningfully after flaxseed 
+consumption.
+
+2 of 8  |    
+AHMADNIAY MOTLAGH eT AL.
+metabolism, fatty acids catabolism, low- density lipoprotein cho-
+lesterol (LDL-  C) oxidation, insulin sensitivity, and suppression of in -
+flammation. 8,9 Moreover, leptin as another adipokine has an energy 
+balance regulation role, various hormonal function, and highly cor -
+relation with body fat mass. 10
+Flaxseed or linseed ( Linum usitatissimum  L. seed), known as a 
+functional food, contains healthy components such as alpha- linolenic 
+acid (ALA), lignans, dietary fibres, and a variety of antioxidants and 
+phytoestrogens. 11,12
+Flaxseed lignans have numerous health benefits; for instance, 
+they can regulate expression and secretion of adipokines such as 
+adiponectin and leptin. 13- 16 The other component, ALA, is known as 
+anti- inflammatory, antithrombotic, and antiarrhythmic agent. 15,17,18 
+ALA can deposit into adipose tissue where it may affect adipose 
+tissue function and adipokine secretion. 7 Besides, flaxseed is a 
+rich source of phytoestrogens with potential benefits including 
+cardioprotective and endocrine regulation effects. 19,20 It has been 
+proposed that these components modify blood lipids level mainly 
+through regulating the gene expression of enzymes involved in the 
+fatty acids metabolism. 21- 23 Previous studies in experimental mod -
+els found an attenuating effect of flaxseed supplementation on 
+serum lipids abnormalities and adiponectin and leptin secretion. 24- 27 
+However, the findings from clinical trials are conflicting. 28,29
+Therefore, in order to find the beneficial effects of whole flax -
+seed supplementation as an adjunct therapy to balanced diet on 
+serum adipokines, body weight, waist circumference (WC), and 
+lipid level, we conducted the present trial on overweight or obese 
+women.
+2 |  METHODS
+2.1 | Study participants
+The present study is a randomised, double-  blind, placebo-  controlled 
+clinical trial in which 60 overweight or obese women aged from 25 
+to 50 years with a body mass index (BMI) of 25-  35 kg/m2 and regu-
+lar menstrual cycles participated. Participants were excluded if they 
+met one or more of the following criteria: (a) having any chronic dis -
+ease such as cardiovascular, renal, liver, and infectious diseases as 
+well as cancer, diabetes mellitus, and thyroid disorders; (b) have a 
+history of allergy to flaxseed; (c)being pregnant or nursing; (d) taking 
+any medications that could affect lipid metabolism such as steroids, 
+antihyperglycaemic agents, and statins; (e) taking supplements in -
+cluding multivitamins, minerals, and also herbal preparations; and (f) 
+history of smoking or alcohol and drug abuse. The minimum sample 
+size	estimated	 for	each	group	was	25	at	a	power	(1	−	β)	of	80%	and	
+α = 0.05 for a two-  arm parallel study with two-  tailed testing to de -
+tect a difference of 4 ng/mL in serum adiponectin concentration with 
+a standard deviation of 5 ng/mL, obtained from a previous study. 30 
+Assuming	 a	 10%	 drop	 out,	 a	 total	 number	 of	 60	 participants	 were	
+considered for this study. The study protocol, risks, and benefits 
+were clarified to the participants, and they signed a written informed 
+consent at the time of enrolment. This study was approved by the 
+ethics committee of Shiraz University of Medical Sciences, Shiraz, 
+Iran (registration No. IR.SUMS.REC.1395.22), and was registered at 
+Iranian Registry of Clinical Trials website (IRCT2016050327733N1).
+2.2 | Study design
+The participants were randomly assigned to consume a balanced diet 
+containing 30 g/day brown milled flaxseed (flaxseed group: n = 30) 
+or 30 g/day raw milled rice (control group: n = 30) for 12 weeks. 
+Random allocation was performed using blocked randomisation 
+method. The study participants, investigators, and outcome asses -
+sors were blinded to the type of interventions into which the indi -
+viduals were allocated. The shape, colour, and texture of milled rice 
+were similar to the flaxseed product. For this purpose, we added ed -
+ible colours to milled rice at the laboratory of pharmacy in Shiraz 
+University of Medical Sciences. Calorie requirement of each subject 
+was estimated using the estimated energy requirement (EER) equa -
+tion31	All	diets	consist	of	55%	carbohydrates,	 18%	proteins,	and	27%	
+fats. Also, we provided a portion-  size descriptive booklet of com -
+mon foods for each participant. All the brown flaxseed products 
+were purchased from registered herb provider Maleki Commercial 
+Co. and stored in a cool, dark, and dry place. They were milled within 
+a week before delivery to the patients. Participants were asked to 
+mix the powder with their dessert or daily meals (eg, yogurt, salads, 
+or soup) preferably for lunch. Moreover, participants were advised 
+to maintain their usual physical activity during the intervention.
+To assess the participants’ adherence to the intervention, we 
+asked them to bring back any unused flaxseed/placebo at each fol -
+low- up visit, so the investigators can estimate their adherence to sup-
+plementation during the study period. Participants were excluded 
+if	they	consumed	 less	 than	 90%	of	flaxseed/placebo.	 Follow-	up	as-
+sessments	 were	done	 every	 4	weeks	 (on	4th,	 8th,	 and	12th	 weeks)	
+in which participants were provided with enough supplement for 
+the next four weeks. All measurements including anthropometric 
+What’s known
+• Findings from previous clinical trials are still controver -
+sial. Therefore, we aimed to supplement whole flaxseed 
+among overweight or obese women to understand its 
+effect on serum adipokines (adiponectin and leptin), an -
+thropometric indices, and lipid profile.
+What’s new
+• Our findings show that flaxseed potentially can reduce 
+visceral obesity and decrease the risk of obesity through 
+increasing adiponectin concentration.
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+     |  3 of 8
+AHMADNIAY MOTLAGH eT AL.
+indices, blood level of lipid profiles, leptin, adiponectin, and dietary 
+intakes and physical activities were performed at the baseline and at 
+the end of the study (Week 12).
+2.3 | Assessment of anthropometric indices and 
+blood lipid profile
+Anthropometric indices (height, weight, and waist and hip circum -
+ferences) were measured for each participant at the baseline (Day 
+0) and at the end of the study (Week 12). Height was measured to 
+the nearest 0.1 cm using a stadiometer (Seca 214 portable stadi -
+ometer) without shoes. Weight was recorded to the nearest 0.1 kg 
+in	light	clothes, 	using 	a	digital 	scale 	(Seca 	881).	BMI	was	calculated 	
+as body weight (kg)/height squared (m 2). Waist circumference was 
+measured to the nearest 0.1 cm by a nonstretch measuring tape in 
+standing position, between the lower rib and iliac crest. 32 To as -
+sess the serum lipids, 5 cc of blood sample was collected from each 
+participant	 after	 12	 hours	 of	 fasting	 between	 7:00	 and	 8:00	 am. 
+The whole blood was centrifuged, and the obtained serum was 
+kept	at	−70℃ until the end of study for the further analysis. Serum 
+concentration of lipid profile including triglyceride (TG), total 
+cholesterol (TC), LDL-  C, and high-  density lipoprotein cholesterol 
+(HDL- C) were measured by the colorimetric method using com -
+mercial kits (Pars Azmoon Co.). Serum leptin and adiponectin con -
+centration were measured using enzyme-  linked immunosorbent 
+assay (ELISA) by IBL kit (Pars Azmoon Co.).
+2.4 | Assessment of dietary intake and 
+physical activity
+Energy and nutrients intake were estimated using 24-  hour dietary 
+recalls for three nonconsecutive days (two weekdays and one week -
+end day) and then were analysed using Nutritionist IV (N-  Squared 
+Computing). Physical activity was evaluated using international 
+physical activity questionnaire (IPAQ) for three days (two regular 
+days and one weekend day). It was expressed as MET.h/day by mul -
+tiplying the time of each physical activity by its relative Metabolic 
+Equivalent Task (MET).
+2.5 | Statistical methods
+Normality	 of	 each	 variable	 was	 tested	 by	 Kolmogorov−Smirnov.	
+Pre-  and post- treatment values were compared within groups using 
+paired t test. Between-  groups comparison were made using inde -
+pendent sample t test. Effects of potential confounding factors were 
+adjusted by the analysis of covariance. Also, the analysis of covari -
+ance (ANCOVA) was used to adjust the effect of confounding vari -
+ables (BMI, WHR, physical activity, and energy intake). P < .05 was 
+considered as statistically significant. SPSS version 22 (SPSS, Inc) 
+was used for the analysis.
+3 |  RESULTS
+A total of 100 women enrolled, and after eligibility checking, 60 indi -
+viduals entered the study. During the follow-  ups, eight participants 
+were excluded (one in the flaxseed-  consuming group and seven 
+in the control group) due to personal reasons. Finally, 52 subjects, 
+29 of flaxseed group and 23 of control group, completed the trial 
+(Figure 1).
+Baseline characteristics of participants are shown in Table 1. 
+There were no significant differences in height, weight, BMI, and 
+waist and hip circumferences of participants between flaxseed and 
+control groups at the beginning of the study.
+No significant differences were observed between the two 
+groups in mean daily intake of energy, protein, carbohydrate, fat, 
+saturated fatty acids (SFAs), polyunsaturated fatty acids (PUFAs), 
+monounsaturated fatty acids (MUFAs), and omega-  6 fatty acids at 
+the beginning and the end of study. However, the amount of ALA 
+and dietary fibre intake increased significantly in the flaxseed group 
+(P < .001 and P = .01, respectively). At the end of the study, ALA 
+intake was significantly different between the two groups ( P < .001) 
+(Table 2).
+As shown in Table 3, there were significant reductions in serum 
+TG and TC in the flaxseed group after 12 weeks of the intervention 
+(P < .001 for all), whereas no significant decrease was observed in 
+the control group. In addition, no significant changes were observed 
+in serum HDL- C and LDL- C within each group after 12 weeks. There 
+was no significant difference in serum TC, TG, LDL-  C, and HDL-  C 
+between the study groups at baseline and at the end of study.
+Moreover, weight, BMI, waist and hip circumferences ( P < .001 
+for all), and WHR ( P = .003) decreased significantly in flaxseed 
+group. Reductions of waist circumference ( P = .001) and WHR 
+(P = .021) were significantly more in flaxseed group compared with 
+the control group. After the follow-  up period, adiponectin concen -
+tration increased significantly in flaxseed group ( P < .001) which was 
+statistically significant more than the control group ( P = .002). In ad-
+dition, leptin concentration decreased significantly only in the flax -
+seed group; however, this reduction was not statistically significant 
+compared with the control group ( P = .291).
+4 |  DISCUSSION
+We examined the effects of flaxseed consumption on anthropo -
+metric indices, serum leptin, lipids, and adiponectin in overweight or 
+obese women. Our findings indicate that the flaxseed group as treat -
+ment group has significant reduction in weight and anthropometric 
+indices such as waist and hip circumferences and WHR. However, 
+flaxseed consumption does not result in statistically significant ef -
+fect on lipid profile compared with the placebo group as the control 
+group.
+Our data suggesting the benefits of flaxseed consumption on 
+central adiposity compared with control group are in line with the 
+previous studies.15 Park et al 33 found that flaxseed lignan (primarily 
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+4 of 8  |    
+AHMADNIAY MOTLAGH eT AL.
+secoisolariciresinol diglucoside [SDG]) might provide beneficial ef -
+fects on obesity via reducing weight and fat accumulation. Wu et al34 
+showed that flaxseed supplementation (30 g/day) for 12 weeks reduces 
+central obesity, weight, and waist circumference when combined with 
+healthy lifestyle counselling. Conversely, Pineda et al 35 reported no 
+significant changes in weight, BMI, and waist circumference following 
+supplementation	with	30	g/day	flaxseed	for	8	weeks.	We	assume	that	
+the duration of the study (less than 12 weeks) might be the reason why 
+no significant anthropometric effects were observed.36
+The exact mechanism by which flaxseed can decrease abdom -
+inal obesity remains unclear. Some studies have suggested that a 
+diet rich in PUFAs may result in reduction of abdominal obesity, 34 
+FIGURE 1 Flow chart of participants through the study
+Variable Flaxseed group (n = 29) Control group (n = 23) P
+Age (y) 38.28	± 7.46 41.74 ± 7.20 .097
+Height (m) 1.58	± 0.04 1.54 ± 0.05 .423
+Weight (kg) 76.67 ± 7.40 74.19 ±	8.52 .268
+BMI (kg/m2) 30.67 ±	2.83 30.92 ±	2.84 .757
+WC (cm) 98.51	±	8.11 100.21 ± 7.01 .430
+WHR 0.87	± 0.05 0.89	± 0.07 .206
+Physical activity (h/day) 27.79 ±	2.18 27.4 4 ± 2.22 .571
+Energy (kcal/day) 1.594.16 ± 516.74 1.539.67 ±	528.63 .711
+Total carbohydrates (g/day) 248.81	±	81.58 249.60 ± 91.43 .974
+Total fat (g/day) 45.84	± 21.52 41.21 ± 16.16 .395
+Total protein (g/day) 51.97 ±	18.89 48.65	±	19.80 .543
+Note: All values are mean ± SD.
+Abbreviations: BMI, body mass index; WC, waist circumference; WHR, waist-  to- hip ratio.
+aIndependent sample t test.
+TABLE 1 Descriptive statistics at 
+baseline for the flaxseed and control 
+groupsa
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+     |  5 of 8
+AHMADNIAY MOTLAGH eT AL.
+because increasing PUFAs in the diet might act as an important mod -
+ulator for body fat deposition. Also, according to the previous stud -
+ies, the high content of SDG can reduce or prevent obesity through 
+increased fat oxidation. 37, 3 8
+Very few randomised clinical trials have examined the effect 
+of flaxseed supplementation on blood adiponectin and leptin con -
+centration in people who are healthy. 30,39,40  Some of experimental 
+studies reported remarkable effects of flaxseed on leptin and ad -
+iponectin 7,37 and also altered circulating level of these hormones 
+following supplementation with flaxseed. 7,22
+In the present study, the serum concentration of adiponectin 
+increased significantly in the flaxseed-  consuming group com -
+pared with the control group. Cassani et al 41 also showed that 
+weight loss diet through 60 g/day flaxseed supplementation in 
+men with cardiovascular risk factors could improve adiponectin 
+levels. Contrary to our findings, Hutchins et al’s 42 study on predi -
+abetes men and women with flaxseed supplementation shows no 
+significant change in adiponectin level. This contradictory finding 
+might be due to the association of adiponectin with insulin resis -
+tance. According to other studies, response of adiponectin to an 
+intervention might be quite different in insulin-  resistant popula -
+tion than in insulin-  sensitive individuals. 43-  45 Furthermore, Nelson 
+et al30 found a decrease in adiponectin level of healthy overweight 
+adults	 treated	 with	 flaxseed	 oil	 for	 8	 weeks	 which	 is	 consistent 	
+with our findings. The present study demonstrated that this ef -
+fect might be attributed to a reduced demand for adiponectin’s 
+TABLE 2 Dietary intake of participants at baseline and week 12
+Variables
+Flaxseed group Control group
+Pa Baseline Week 12 Pb  Baseline Week 12 Pb 
+Energy (kcal) 1.594.16 ± 516 1.554.85 	± 516 0.767 1.539.67 ±	528 1.495.03 ± 437 .780 .593
+Total fat (g/day) 45.84	± 21.52 42.06 ± 21.56 0.423 41.21 ± 16.16 42.07 ± 16.00 .876 .416
+Total protein (g/day) 51.97 ±	18.89 52.33 ±	23.18 0.951 48.65	±	19.80 48.53	± 13.55 .983 .954
+Total carbohydrates (g/day) 248.81	±	81.58 247.65 ±	82.82 0.901 249.60 ± 91.43 247.17 ±	78.49 .990 .944
+Dietary fibre (g/day) 13.16 ± 6.71 15.52 ± 5.91 0.011 13.82	± 5.70 12.80	± 5.41 .399 .121
+SAFAs (g/day) 12.71 ± 7.02 12.51 ± 7.61 0.920 11.70 ± 5.60 13.28	± 7.32 .479 .605
+MUFAs (g/day) 13.55 ± 7.32 12.40 ±	7. 3 8 0.466 12.23 ± 6.51 12.40 ± 6.30 .938 .722
+PUFAs (g/day) 14.02 ±	8.86 12.04 ±	7. 58 0.245 11.98	±	6.38 11.83	± 4.61 .930 .320
+Alpha linolenic acid 0.191 ± 0.16 0.263 ± 0.17 0.001 0.190 ± 0.20 0.090 ± 0.10 .015 <.001
+Note: All values are mean ± SD.
+Abbreviations: MUFAs, monounsaturated fatty acids; PUFAs, polyunsaturated fatty acids; SAFAs, saturated fatty acids.
+aIndependent sample t test.
+bPaired t test.
+TABLE 3 Comparison of anthropometric indices and biochemical factors between flaxseed and control groups
+Variables
+Flaxseed group Control group
+Pa Baseline Week 12 Pb  Baseline Week 12 Pb 
+Weight (kg) 76.67 ± 7.41 74.31 ± 7.5 <.001 74.19 ±	8.5 73.23 ±	8.6 .042 .039
+BMI (kg/m2) 30.67 ±	2.8 29.72 ± 2.9 <.001 30.92 ±	2.8 30.52 ± 3.03 .043 .051
+WC (cm) 98.51	±	8.1 93.17 ± 5.9 <.001 100.21 ± 7.01 99.39 ± 7.01 .197 <.001
+WHR 0.87	± 0.05 0.84	± 0.04 .003 0.89	± 0.07 0.89	± 0.06 .586 .021
+Adiponectin (ng/mL) 12.11 ± 7.1 17.15 ± 6.1 .001 12.48	± 4.7 12.01 ±	5.8 .641 .002
+Leptin (ng/mL) 53.76 ± 17.2 45.84	± 20.9 .012 51.48	± 20.6 49.38	±	18.8 .270 .291
+TG (mg/dL) 160.55 ± 47.3 123.28	± 30.4 <.001 150.86	± 39.2 142.36 ± 42.7 .072 .561
+TC (mg/dL) 192.07 ± 33.9 174.55 ± 30.7 <.001 185.61	±	28.2 183.26	± 31 .504 .322
+LDL- C (mg/dL) 114.97 ± 25.3 112.17 ± 27.7 .387 114.77 ± 23.9 113.22 ± 26.4 .665 .795
+HDL- C (mg/dL) 48.34	± 7.2 47.72 ± 6.4 .567 52.48	± 21.9 52.61 ± 21.3 .882 .602
+Note: All values are mean ± SD.
+Abbreviations: BMI, body mass index; HDL-  C, high- density lipoprotein cholesterol; LDL-  C, low- density lipoprotein cholesterol; TC, total cholesterol; 
+TG, triglyceride; WC, waist circumference; WHR, waist-  to- hip ratio.
+aIndependent sample t test.
+bPaired t test.
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+6 of 8  |    
+AHMADNIAY MOTLAGH eT AL.
+anti- inflammatory actions in face of high omega-  3 fatty acids. In 
+fact, in the case of adiponectin, the dosage of flaxseed given in 
+different studies is critical, because the insulin sensitising and 
+anti- inflammatory effects of ALA (the main component of flaxseed 
+products) might deactivate the effects of adiponectin and result in 
+a decreased demand for adiponectin. 46 On the other hand, some 
+researchers did not find significant correlation between PUFAs 
+and circulating level of adiponectin. 47 Therefore, they suggested 
+ALA as an activator of peroxysomal proliferator activated receptor 
+gamma (PPAR γ) in adipocytes.
+All in all, the adiponectin-  inducing effect of flaxseed might be 
+because of its rich content of ALA. It seems that ALA is involved 
+in increasing adiponectin secretion through stimulating transcrip -
+tion receptor PPAR γ.39 PPAR γ is one of the key transcription fac -
+tors which regulates adipogenesis, and it can also control expression 
+of adiponectin, leptin, and glucose transporter type 4 (GLUT4). 48 
+Moreover, SDG in flaxseeds could act as a PPAR γ agonist and regu -
+late adiponectin through an increase in PPAR γ DNA binding activity 
+in adipocytes. 37 Therefore, flaxseed could probably be an effective 
+component which can alter the metabolic process in adipose tissues 
+in favour of lower visceral fat accumulation.
+It should be considered that different outcomes from flaxseed 
+intervention may be related to interindividual differences involved 
+in the metabolic processes, resulting in altered adiponectin level in 
+circulation.
+Previously high concentration of leptin in obese individuals has 
+been reported in several studies. 49 We found reduction in serum 
+leptin of both groups. However, this reduction was only significant 
+in the flaxseed group. McCullough et al 7 have reported that leptin 
+expression is positively correlated to ALA content of flaxseed; thus, 
+its effects on obesity-  related diseases might be due to a change in 
+leptin expression; however, in a study by Taylor et al 36 which inves -
+tigated the effect of dietary milled flaxseed and flaxseed oil on pa -
+tients with type 2 diabetes, leptin concentration has not changed. 
+Zhou et al 50 have suggested that insulin resistance might be cor -
+related with depressed desaturase enzyme activity; thus, these pa -
+tients are not able to transform ALA to eicosapentaenoic acid (EPA) 
+and docosahexaenoic acid (DHA). This could be the reason Taylor 
+et al study could not show beneficial effect of omega-  3 PUFAs from 
+flaxseed on leptin level.
+Our finding that flaxseed consumption has not a significant ef -
+fect on lipid profile is consistent with the report by Kaul et al 51, 
+which shows that among apparently healthy adults, intake of 2 g/
+day flaxseed oil for 12 weeks has no significant effect on the lipid 
+parameters in blood. In contrast, several clinical trials that have 
+been conducted in individuals with elevated level of blood lipids 
+reported the beneficial effect of flaxseed supplementation on 
+reduction of serum lipids. 21,52- 55 Torkan et al 54 showed that con -
+sumption of 30 g/day of flaxseed powder in hyperlipidaemic pa -
+tients for 40 days caused a significant decrease in TG, TC, and 
+LDL- C compared with the placebo-  consuming group. Moreover, 
+another clinical trial conducted in postmenopausal women with 
+hypercholesterolaemia shows a significant reduction in TC and 
+LDL- C compared with the placebo, following the flaxseed supple -
+mentation at the dosage of 30 g/day for 12 weeks. 53 In the pres -
+ent study, the mean serum concentrations of lipids in both study 
+groups were within the normal ranges, which could be the reason 
+for disagreement of our results with the previous studies. Not all 
+of the clinical trials that were conducted on patients with hyper -
+lipidaemia resulted in significant effects of flaxseed on blood lipids 
+outcomes. Paschos et al 56, for example, found that the intake of 
+15 mL of flaxseed oil for 12 weeks had no significant effect on 
+lipid parameters in patients with dyslipidaemia. Also, in a study 
+amongst 62 individuals with baseline values of LDL-  C between 
+130 and 200 mg/dL, intake of 40 g/day of flaxseed-  containing 
+baked products for 10 weeks did not significantly change LDL-  C, 
+even caused a significant decrease in HDL-  C in men, however, not 
+in women. 57 Besides the initial serum lipids, it should be noted that 
+some methodological differences such as small sample size, short 
+duration of follow-  up, type of the flaxseed product, the dosage of 
+supplementation, and the degree of adherence to the interven -
+tion may be the possible reasons for the discrepancy between the 
+studies.
+Several mechanisms have been suggested for the beneficial 
+effects of flaxseed on blood lipids. Flaxseed has a high content of 
+ALA, a plant base omega-  3 fatty acid, as well as its highest amount 
+of lignin among the plant foods. 58 It has been shown that these com-
+pounds could reduce TC and LDL- C by reducing the gene expression 
+of sterol regulatory element-  binding protein 1-  c (SREBP- 1c), which 
+is involved in synthesis of fatty acids, and increasing the mRNA ex -
+pression of peroxisome proliferator-  activated receptor-  α (PPAR-  α), 
+which stimulates β - oxidation of fatty acids. 21,23 In addition, flaxseed 
+is a rich source of dietary fibres, both soluble and insoluble. Dietary 
+fibre is proposed to reduce blood cholesterol mainly through in -
+creasing bile acid excretion, synthesis of short-  chain fatty acids, and 
+insulin sensitivity. 59
+This study has some noticeable strengths including the use of an 
+appropriate placebo for flaxseed. In addition, we used whole grain 
+flaxseed instead of flaxseed oil or lignan. Nonetheless, our findings 
+should be considered in light of several limitations. In particular, our 
+sample size was small. Also, the present study cannot distinguish if 
+the effects are directly due to ALA or lignan in flaxseeds. Moreover, 
+although some studies found significant effect of flaxseed on lipid 
+profile, our study finds no such effect. The possible reasons for in -
+significant results following the whole flaxseed product consump -
+tion may be due to the differences in the quality of the test product, 
+the amount of bioactive components, and their bioavailability in the 
+presence of some compounds such as glycosides and phytic acid in 
+the flaxseed products. 57
+5 |  CONCLUSION
+Overall, daily consumption of 30-  g milled flaxseed for 12 weeks 
+amongst overweight or obese women had no significant effect on 
+blood lipid parameters. However, flaxseeds which contains PUFAs 
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+     |  7 of 8
+AHMADNIAY MOTLAGH eT AL.
+and lignan could potentially reduce visceral obesity and is therefore 
+a promising food to help decrease the risk of obesity through in -
+creasing the adiponectin concentration.
+ETHICS
+All participants signed the written informed consent before initiat -
+ing the study. The study was approved by the Ethics Committee of 
+Shiraz University of Medical Sciences, Shiraz, Iran (registration no. 
+IR.SUMS.REC.1395.22), and was registered at Iranian Registry of 
+Clinical Trials website (IRCT2016050327733N1).
+ACKNOWLEDGEMENTS
+We thank the participants for their involvement in this study. This 
+manuscript funded by Shiraz University of Medical Sciences, Shiraz, 
+Iran (grant no. IR.SUMS.REC.1395.22).
+DISCLOSURES
+The authors declare no relevant conflict of interest.
+AUTHOR CONTRIBUTIONS
+H. A. and S. F. contributed to study conception and data collection. 
+H. A., S. F., E. A., and M. M. contributed to analysis and interpreta -
+tions. H. A., S. F., and M. M. contributed to manuscript preparation 
+and revision for intellectual content. All authors read and approved 
+the final version prior to submission.
+ORCID
+Shiva Faghih  https:/ / orcid.org/0000-0002-0554-538X 
+REFERENCES
+	 1.	 Woo	 JG,	Guerrero	 ML,	Ruiz-	Palacios	GM,	et	al.	Specific	 infant	feed-
+ing practices do not consistently explain variation in anthropometry 
+at age 1 year in urban United States, Mexico, and China cohorts. J 
+Nutr. 2013;143(2):166- 174.
+ 2. Vriz O, Lu H, Visentin P, Nicolosi L, Mos L, Palatini P. Gender dif -
+ferences in the relationship between left ventricular size and am -
+bulatory blood pressure in borderline hypertension: the HARVEST 
+Study. Eur Heart J .	1997;18(4):664-	670.
+	 3.	 Escoté	 X,	 Gómez-	Zorita	 S,	 López-	Yoldi	 M,	 et	 al.	 Role	 of	 omentin,	
+vaspin, cardiotrophin-  1, TWEAK and NOV/CCN3 in obesity and di -
+abetes development. Int J Mol Sci .	2017;18(8):1770.
+	 4.	 Frühbeck	 G,	 Gómez-	Ambrosi	 J.	 Adipose	 tissue	 structure	 func-
+tion and metabolism. In: Caballero B, ed. Encyclopedia of Human 
+Nutrition. Amsterdam, the Netherlands: Elsevier; 2013:1-  13.
+	 5.	 Tutunchi	 H,	 Ostadrahimi	 A,	 Hosseinzadeh- 	Attar	 M-	J,	 Miryan	 M,	
+Mobasseri M, Ebrahimi-  Mameghani M. A systematic review of 
+the association of neuregulin 4, a brown fat–  enriched secreted 
+factor, with obesity and related metabolic disturbances. Obes Rev . 
+2020;21:e12952.
+	 6.	 Auguet	 T,	Quintero	 Y,	Riesco	 D,	et	 al.	 New	 adipokines	 vaspin	 and	
+omentin. Circulating levels and gene expression in adipose tissue 
+from morbidly obese women. BMC Med Genet . 2011;12:60.
+ 7. McCullough RS, Edel AL, Bassett CM, et al. The alpha linolenic acid 
+content of flaxseed is associated with an induction of adipose leptin 
+expression. Lipids . 2011;46(11):1043- 1052.
+	 8.	 Haluzik	 M,	 Parizkova	 J,	 Haluzik	 M.	 Adiponectin	 and	 its	 role	 in	
+the obesity- induced insulin resistance and related complications. 
+Physiol Res. 2004;53(2):123- 130.
+ 9. Iacobellis G, Pistilli D, Gucciardo M, et al. Adiponectin expression 
+in human epicardial adipose tissue in vivo is lower in patients with 
+coronary artery disease. Cytokine . 2005;29(6):251- 255.
+	 10.	 Zhou	 Y,	 Rui	 L.	 Leptin	 signaling	 and	 leptin	 resistance.	 Front Med . 
+2013;7(2):207- 222.
+ 11. Goyal A, Sharma V, Upadhyay N, Gill S, Sihag M. Flax and flax -
+seed oil: an ancient medicine & modern functional food. J Food Sci 
+Technol. 2014;51(9):1633- 1653.
+	 12.	 Yari	 Z,	 Rahimlou	 M,	 Poustchi	 H,	 Hekmatdoost	 A.	 Flaxseed	 sup-
+plementation in metabolic syndrome management: a pilot 
+randomized, open-  labeled, controlled study. Phytother Res . 
+2016;30(8):1339-	1344.
+	 13.	 Daleprane	 JB,	Batista	 A,	Pacheco	JT,	et	al.	Dietary	 flaxseed	 supple-
+mentation improves endothelial function in the mesenteric arterial 
+bed. Food Res Int .	2010;43(8):2052-	2056.
+	 14.	 Yang	 WS,	 Lee	 WJ,	Funahashi	 T,	et	 al.	 Weight	 reduction	 increases	
+plasma levels of an adipose-  derived anti- inflammatory protein, adi -
+ponectin. J Clin Endocrinol Metab .	2001;86(8):3815- 	3819.
+ 15. Barre D, Mizier-  Barre K, Stelmach E, et al. Flaxseed lignan complex 
+administration in older human type 2 diabetics manages central 
+obesity and prothrombosis—  an invitation to further investigation 
+into polypharmacy reduction. J Nutr Metab . 2012;2012:1– 7.
+ 16. Blüher S, Mantzoros CS. Leptin in humans: lessons from transla -
+tional research. Am J Clin Nutr .	2009;89(3):991S- 	997S.
+ 17. Machado AM, de Paula H, Cardoso LD, Costa NM. Effects of brown 
+and golden flaxseed on the lipid profile, glycemia, inflammatory 
+biomarkers, blood pressure and body composition in overweight 
+adolescents. Nutrition . 2015;31(1):90- 96.
+	 18.	 Khalatbari	 Soltani	 S,	 Jamaluddin	 R,	 Tabibi	H,	 et	 al.	 Effects	 of	flax-
+seed consumption on systemic inflammation and serum lipid pro -
+file in hemodialysis patients with lipid abnormalities. Hemodial Int . 
+2013;17(2):275-	281.
+ 19. Bloedon LT, Szapary PO. Flaxseed and cardiovascular risk. Nutr Rev . 
+2004;62(1):18-	27.
+	 20.	 Pan	 A,	 Yu	 D,	 Demark-	Wahnefried	 W,	 Franco	 OH,	 Lin	 X.	 Meta-	
+analysis of the effects of flaxseed interventions on blood lipids. Am 
+J Clin Nutr.	2009;90(2):288- 	297.
+ 21. Fukumitsu S, Aida K, Shimizu H, Toyoda K. Flaxseed lignan lowers 
+blood cholesterol and decreases liver disease risk factors in moder -
+ately hypercholesterolemic men. Nutr Res . 2010;30(7):441-  446.
+	 22.	 Wang	M,	Zhang	XJ,	Feng	K,	et	al.	Dietary	 α- linolenic acid- rich flax-
+seed oil prevents against alcoholic hepatic steatosis via  ameliorat -
+ing lipid homeostasis at adipose tissue-  liver axis in mice. Sci Rep . 
+2016;6:26826.
+	 23.	 Jump	 DB,	 Botolin	 D,	 Wang	 Y,	 Xu	 J,	 Christian	 B,	 Demeure	 O.	
+Fatty acid regulation of hepatic gene transcription. J Nutr . 
+2005;135(11):2503- 2506.
+	 24.	 Felmlee	 MA,	 Woo	G,	 Simko	 E,	Krol	 ES,	 Muir	 AD,	Alcorn	 J.	Effects	
+of the flaxseed lignans secoisolariciresinol diglucoside and its agly -
+cone on serum and hepatic lipids in hyperlipidaemic rats. Br J Nutr . 
+2009;102(3):361- 369.
+	 25.	 Park	 JB,	 Velasquez	 MT.	 Potential	 effects	 of	 lignan-	enriched	 flax-
+seed powder on bodyweight, visceral fat, lipid profile, and blood 
+pressure in rats. Fitoterapia .	2012;83(5):941-	946.
+	 26.	 Pellizzon	 MA,	 Billheimer	 JT,	 Bloedon	 LT,	 Szapary	 PO,	 Rader	 DJ.	
+Flaxseed reduces plasma cholesterol levels in hypercholesterolemic 
+mouse models. J Am Coll Nutr . 2007;26(1):66- 75.
+ 27. Prasad K, Mantha S, Muir A, Westcott N. Reduction of hypercho -
+lesterolemic atherosclerosis by CDC-  flaxseed with very low alpha- 
+linolenic acid. Atherosclerosis .	1998;136(2):367-	375.
+	 28.	 Cornish	SM,	Chilibeck	 PD,	Paus-	Jennsen	L,	et	al.	A	randomized	 con-
+trolled trial of the effects of flaxseed lignan complex on metabolic 
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+
+8 of 8  |    
+AHMADNIAY MOTLAGH eT AL.
+syndrome composite score and bone mineral in older adults. Appl 
+Physiol Nutr Metab .	2009;34(2):89- 	98.
+	29.	 Lemay	 A,	 Dodin	 S,	 Kadri	 N,	 Jacques	 H,	 Forest	 J-	C.	 Flaxseed	 di-
+etary supplement versus hormone replacement therapy in 
+hypercholesterolemic menopausal women. Obstet Gynecol . 
+2002;100(3):495-  504.
+	 30.	 Nelson	 TL,	 Stevens	 JR,	 Hickey	 MS.	 Adiponectin	 levels	 are	 re-
+duced, independent of polymorphisms in the adiponectin gene, 
+after supplementation with α- linolenic acid among healthy adults. 
+Metabolism . 2007;56(9):1209- 1215.
+ 31. Dent E, Kowal P, Hoogendijk EO. Frailty measurement in research 
+and clinical practice: a review. Eur J Intern Med . 2016;31:3- 10.
+	 32.	 Mahan	 LK,	Raymond	 JL.	Krause's Food & the Nutrition Care Process- 
+E- Book. Amsterdam, the Netherlands: Elsevier Health Sciences. 
+2016.
+	 33.	 Park	 JB,	 Velasquez	 MT.	 Potential	 effects	 of	 lignan-	enriched	 flax	
+seed powder on blood pressure, fat accumulation, and lipid profile 
+in rats. FASEB J. 2011;25(S1):339- 6.
+	 34.	 Wu	H,	Pan	A,	Yu	Z,	et	al.	Lifestyle	 counseling	 and	supplementation	
+with flaxseed or walnuts influence the management of metabolic 
+syndrome. J Nutr . 2010;140(11):1937- 1942.
+	 35.	 Pineda	 AMR,	 Gómez	 BLG,	 Alzate	 CMA,	 Castaño	 CFM,	 Marín	 BEL.	
+Consumo	 de	 linaza	 molida	 para	 la	 reducción	 de	 peso	 corporal	 en	
+personas con exceso de peso. Perspect Nutr Humana . 2011;13(1):56.
+ 36. Taylor CG, Noto AD, Stringer DM, Froese S, Malcolmson L. Dietary 
+milled flaxseed and flaxseed oil improve N-  3 fatty acid status and 
+do not affect glycemic control in individuals with well-  controlled 
+type 2 diabetes. J Am Coll Nutr .	2010;29(1):72-	80.
+	37.	 Fukumitsu	 S,	 Aida	 K,	 Ueno	 N,	 Ozawa	 S,	 Takahashi	 Y,	 Kobori	 M.	
+Flaxseed lignan attenuates high-  fat diet- induced fat accumu -
+lation and induces adiponectin expression in mice. Br J Nutr . 
+2008;100(03):669-	676.
+	 38.	 Prasad	 K.	 Reduction	 of	 serum	 cholesterol	 and	 hypercholesterol -
+emic atherosclerosis in rabbits by secoisolariciresinol diglucoside 
+isolated from flaxseed. Circulation . 1999;99(10):1355- 1362.
+	39.	 Kratz	 M,	Swarbrick	MM,	Callahan	HS,	Matthys	CC,	Havel	PJ,	Weigle	
+DS. Effect of dietary n–  3 polyunsaturated fatty acids on plasma 
+total and high-  molecular- weight adiponectin concentrations in 
+overweight to moderately obese men and women. Am J Clin Nutr . 
+2008;87(2):347-	353.
+	 40.	 Hallund	 J,	 Ravn-	Haren	 G,	 Bügel	 S,	 Tholstrup	 T,	Tetens	 I.	 A	 lignan	
+complex isolated from flaxseed does not affect plasma lipid concen -
+trations or antioxidant capacity in healthy postmenopausal women. 
+J Nutr. 2006;136(1):112- 116.
+	 41.	 Cassani	 RSL,	Fassini	PG,	Silvah	JH,	Lima	CMM,	Marchini	 JS.	Impact	
+of weight loss diet associated with flaxseed on inflammatory mark -
+ers in men with cardiovascular risk factors: a clinical study. Nutr J . 
+2015;14(1):5.
+ 42. Hutchins AM, Brown BD, Cunnane SC, Domitrovich SG, Adams 
+ER, Bobowiec CE. Daily flaxseed consumption improves glycemic 
+control in obese men and women with pre-  diabetes: a randomized 
+study. Nutr Res . 2013;33(5):367- 375.
+	 43.	 Patel	 JV,	Lee	 KW,	 Tomson	 J,	 Dubb	 K,	 Hughes	 EA,	 Lip	 GY.	Effects	
+of omega-  3 polyunsaturated fatty acids on metabolically active 
+hormones in patients post-  myocardial infarction. Int J Cardiol . 
+2007;115(1):42- 45.
+ 44. Weyer C, Funahashi T, Tanaka S, et al. Hypoadiponectinemia in obe -
+sity and type 2 diabetes: close association with insulin resistance and 
+hyperinsulinemia. J Clin Endocrinol Metab .	2001;86(5):1930-	1935.
+ 45. Flachs P, Mohamed-  Ali V, Horakova O, et al. Polyunsaturated fatty 
+acids of marine origin induce adiponectin in mice fed a high-  fat diet. 
+Diabetologia . 2006;49(2):394-  397.
+	 46.	 Babcock	 TA,	 Novak	 T,	 Ong	 E,	 Jho	 DH,	 Helton	 WS,	 Espat	 NJ.	
+Modulation of lipopolysaccharide-  stimulated macrophage tumor 
+necrosis factor-  α production by ω - 3 fatty acid is associated with 
+differential cyclooxygenase-  2 protein expression and is indepen -
+dent of interleukin-  10. J Surg Res. 2002;107(1):135- 139.
+	47.	 Fernández- 	Real	 J-	M,	 Vendrell	 J,	 Ricart	 W.	Circulating	 adiponectin	
+and plasma fatty acid profile. Clin Chem . 2005;51(3):603-  609.
+	 48.	 Rosen	ED,	Walkey	CJ,	Puigserver	 P,	Spiegelman	BM.	Transcriptional	
+regulation of adipogenesis. Genes Dev . 2000;14(11):1293- 1307.
+ 49. Hariri M, Ghiasvand R, Shiranian A, Askari G, Iraj B, Salehi- Abargouei 
+A. Does omega-  3 fatty acids supplementation affect circulating 
+leptin levels? A systematic review and meta-  analysis on randomized 
+controlled clinical trials. Clin Endocrinol .	2015;82(2):221-	228.
+	 50.	 Zhou	 YE,	 Kubow	 S,	 Dewailly	 E,	 Julien	 P,	Egeland	 GM.	 Decreased	
+activity of desaturase 5 in association with obesity and insulin resis -
+tance aggravates declining long-  chain n- 3 fatty acid status in Cree 
+undergoing dietary transition. Br J Nutr .	2009;102(6):888- 	894.
+	51.	 Kaul	 N,	 Kreml	 R,	 Austria	 JA,	 et	 al.	 A	 comparison	 of	 fish	 oil,	 flax-
+seed oil and hempseed oil supplementation on selected parame -
+ters of cardiovascular health in healthy volunteers. J Am Coll Nutr . 
+2008;27(1):51-	58.
+ 52. Mandasescu S, Mocanu V, Dascalita AM, et al. Flaxseed supple -
+mentation in hyperlipidemic patients. Rev Med Chir Soc Med Nat Iasi . 
+2005;109(3):502- 506.
+ 53. Patade A, Devareddy L, Lucas EA, Korlagunta K, Daggy BP, 
+Arjmandi BH. Flaxseed reduces total and LDL cholesterol concen -
+trations in native American postmenopausal women. J Women's 
+Health.	2008;17(3):355-	366.
+ 54. Torkan M, Hassan Entezari M, Siavash M. Effect of flaxseed on 
+blood lipid level in hyperlipidemic patients. Rev Recent Clin Trials . 
+2015;10 (1):61- 67.
+	 55.	 Zhang	 W,	Wang	X,	Liu	Y,	et	al.	Dietary	 flaxseed	 lignan	extract	 low-
+ers plasma cholesterol and glucose concentrations in hypercholes -
+terolaemic subjects. Br J Nutr .	2008;99(6):1301-	1309.
+ 56. Paschos GK, Zampelas A, Panagiotakos DB, et al. Effects of flax -
+seed oil supplementation on plasma adiponectin levels in dyslipid -
+emic men. Eur J Nutr. 2007;46(6):315- 320.
+	57.	 Bloedon	 LT,	Balikai	 S,	 Chittams	 J,	et	al.	 Flaxseed	 and	 cardiovascu -
+lar risk factors: results from a double blind, randomized, controlled 
+clinical trial. J Am Coll Nutr .	2008;27(1):65-	74.
+	 58.	 Singh	K,	Mridula	 D,	Rehal	J,	Barnwal	 P.	Flaxseed:	 a	potential	 source	
+of food, feed and fiber. Crit Rev Food Sci Nutr . 2011;51(3):210- 222.
+ 59. Brown L, Rosner B, Willett WW, Sacks FM. Cholesterol- 
+lowering effects of dietary fiber: a meta-  analysis. Am J Clin Nutr . 
+1999;69(1):30- 42.
+How to cite this article: Ahmadniay motlagh H, Aalipanah E, 
+Mazidi M, Faghih S. Effect of flaxseed consumption on central 
+obesity, serum lipids, and adiponectin level in overweight or 
+obese women: A randomised controlled clinical trial. Int J Clin 
+Pract. 2021;75:e14592. https://doi.org/10.1111/ijcp.14592
+ 17421241, 2021, 10, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ijcp.14592 by Chalmers University Of Technology, Wiley Online Library on [03/07/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

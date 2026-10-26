@@ -1,0 +1,402 @@
+{
+  "citation_key": "broussard_sleep_adipocyte_2012",
+  "doi": "10.7326/0003-4819-157-8-201210160-00005",
+  "metadata": {
+    "id": "23070488",
+    "source": "MED",
+    "pmid": "23070488",
+    "pmcid": "PMC4435718",
+    "fullTextIdList": {
+      "fullTextId": [
+        "PMC4435718"
+      ]
+    },
+    "doi": "10.7326/0003-4819-157-8-201210160-00005",
+    "title": "Impaired insulin signaling in human adipocytes after experimental sleep restriction: a randomized, crossover study.",
+    "authorString": "Broussard JL, Ehrmann DA, Van Cauter E, Tasali E, Brady MJ.",
+    "authorList": {
+      "author": [
+        {
+          "fullName": "Broussard JL",
+          "lastName": "Broussard",
+          "firstName": "Josiane L",
+          "initials": "JL",
+          "authorAffiliationDetailsList": {
+            "authorAffiliation": [
+              {
+                "affiliation": "University of Chicago, Chicago, IL 60637, USA."
+              }
+            ]
+          }
+        },
+        {
+          "fullName": "Ehrmann DA",
+          "lastName": "Ehrmann",
+          "firstName": "David A",
+          "initials": "DA"
+        },
+        {
+          "fullName": "Van Cauter E",
+          "lastName": "Van Cauter",
+          "firstName": "Eve",
+          "initials": "E"
+        },
+        {
+          "fullName": "Tasali E",
+          "lastName": "Tasali",
+          "firstName": "Esra",
+          "initials": "E"
+        },
+        {
+          "fullName": "Brady MJ",
+          "lastName": "Brady",
+          "firstName": "Matthew J",
+          "initials": "MJ"
+        }
+      ]
+    },
+    "authorIdList": {
+      "authorId": [
+        {
+          "type": "ORCID",
+          "value": "0000-0002-1266-5144"
+        }
+      ]
+    },
+    "dataLinksTagsList": {
+      "dataLinkstag": [
+        "altmetrics"
+      ]
+    },
+    "journalInfo": {
+      "issue": "8",
+      "volume": "157",
+      "journalIssueId": 1975112,
+      "dateOfPublication": "2012 Oct",
+      "monthOfPublication": 10,
+      "yearOfPublication": 2012,
+      "journal": {
+        "medlineAbbreviation": "Ann Intern Med",
+        "title": "Annals of internal medicine",
+        "essn": "1539-3704",
+        "issn": "0003-4819",
+        "nlmid": "0372351",
+        "isoabbreviation": "Ann Intern Med"
+      },
+      "printPublicationDate": "2012-10-01"
+    },
+    "pubYear": "2012",
+    "pageInfo": "549-557",
+    "abstractText": "<h4>Background</h4>Insufficient sleep increases the risk for insulin resistance, type 2 diabetes, and obesity, suggesting that sleep restriction may impair peripheral metabolic pathways. Yet, a direct link between sleep restriction and alterations in molecular metabolic pathways in any peripheral human tissue has not been shown.<h4>Objective</h4>To determine whether sleep restriction results in reduced insulin sensitivity in subcutaneous fat, a peripheral tissue that plays a pivotal role in energy metabolism and balance.<h4>Design</h4>Randomized, 2-period, 2-condition, crossover clinical study.<h4>Setting</h4>University of Chicago Clinical Resource Center.<h4>Participants</h4>Seven healthy adults (1 woman, 6 men) with a mean age of 23.7 years (SD, 3.8) and mean body mass index of 22.8 kg/m(2) (SD, 1.6).<h4>Intervention</h4>Four days of 4.5 hours in bed or 8.5 hours in bed under controlled conditions of caloric intake and physical activity.<h4>Measurements</h4>Adipocytes collected from subcutaneous fat biopsy samples after normal and restricted sleep conditions were exposed to incremental insulin concentrations. The ability of insulin to increase levels of phosphorylated Akt (pAkt), a crucial step in the insulin-signaling pathway, was assessed. Total Akt (tAkt) served as a loading control. The insulin concentration for the half-maximal stimulation of the pAkt-tAkt ratio was used as a measure of cellular insulin sensitivity. Total body insulin sensitivity was assessed using a frequently sampled intravenous glucose tolerance test.<h4>Results</h4>The insulin concentration for the half-maximal pAkt-tAkt response was nearly 3-fold higher (mean, 0.71 nM [SD, 0.27] vs. 0.24 nM [SD, 0.24]; P = 0.01; mean difference, 0.47 nM [SD, 0.33]; P = 0.01), and the total area under the receiver-operating characteristic curve of the pAkt-tAkt response was 30% lower (P = 0.01) during sleep restriction than during normal sleep. A reduction in total body insulin sensitivity (P = 0.02) paralleled this impaired cellular insulin sensitivity.<h4>Limitation</h4>This was a single-center study with a small sample size.<h4>Conclusion</h4>Sleep restriction results in an insulin-resistant state in human adipocytes. Sleep may be an important regulator of energy metabolism in peripheral tissues.<h4>Primary funding source</h4>National Institutes of Health.",
+    "affiliation": "University of Chicago, Chicago, IL 60637, USA.",
+    "publicationStatus": "ppublish",
+    "language": "eng",
+    "pubModel": "Print",
+    "pubTypeList": {
+      "pubType": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    },
+    "grantsList": {
+      "grant": [
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "5T32-HL07909",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P60 DK020595",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "R01 HL086459",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIA NIH HHS",
+          "acronym": "AG",
+          "grantId": "P01-AG11412",
+          "orderIn": 0
+        },
+        {
+          "agency": "NICHD NIH HHS",
+          "acronym": "HD",
+          "grantId": "P50 HD057796",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "UL1-RR024999",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIA NIH HHS",
+          "acronym": "AG",
+          "grantId": "P01 AG011412",
+          "orderIn": 0
+        },
+        {
+          "agency": "NICHD NIH HHS",
+          "acronym": "HD",
+          "grantId": "P50 HD-057796",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "P41 RR013642",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "R01-HL086459",
+          "orderIn": 0
+        },
+        {
+          "agency": "NHLBI NIH HHS",
+          "acronym": "HL",
+          "grantId": "T32 HL007909",
+          "orderIn": 0
+        },
+        {
+          "agency": "NCRR NIH HHS",
+          "acronym": "RR",
+          "grantId": "UL1 RR024999",
+          "orderIn": 0
+        },
+        {
+          "agency": "NIDDK NIH HHS",
+          "acronym": "DK",
+          "grantId": "P60-DK020595",
+          "orderIn": 0
+        }
+      ]
+    },
+    "meshHeadingList": {
+      "meshHeading": [
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adipocytes",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Humans"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Sleep Deprivation",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "Y",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "Y",
+          "descriptorName": "Insulin Resistance"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Insulin",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "AD",
+                "qualifierName": "administration & dosage"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Glucose Tolerance Test"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Polysomnography"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Cross-Over Studies"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Signal Transduction"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Dose-Response Relationship, Drug"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adolescent"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Adult"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Female"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Male"
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Proto-Oncogene Proteins c-akt",
+          "meshQualifierList": {
+            "meshQualifier": [
+              {
+                "majorTopic_YN": "N",
+                "abbreviation": "ME",
+                "qualifierName": "metabolism"
+              }
+            ]
+          }
+        },
+        {
+          "majorTopic_YN": "N",
+          "descriptorName": "Young Adult"
+        }
+      ]
+    },
+    "chemicalList": {
+      "chemical": [
+        {
+          "name": "Proto-Oncogene Proteins c-akt",
+          "registryNumber": "EC 2.7.11.1"
+        },
+        {
+          "name": "Insulin",
+          "registryNumber": "0"
+        }
+      ]
+    },
+    "subsetList": {
+      "subset": [
+        {
+          "code": "IM",
+          "name": "Index Medicus"
+        }
+      ]
+    },
+    "fullTextUrlList": {
+      "fullTextUrl": [
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc4435718?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc4435718?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Unpaywall",
+          "url": "https://europepmc.org/articles/pmc4435718?pdf=render"
+        },
+        {
+          "availability": "Subscription required",
+          "availabilityCode": "S",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "html",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4435718"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "pdf",
+          "site": "Europe_PMC",
+          "url": "https://europepmc.org/articles/PMC4435718?pdf=render"
+        },
+        {
+          "availability": "Free",
+          "availabilityCode": "F",
+          "documentStyle": "doi",
+          "site": "DOI",
+          "url": "https://doi.org/10.7326/0003-4819-157-8-201210160-00005"
+        }
+      ]
+    },
+    "commentCorrectionList": {
+      "commentCorrection": [
+        {
+          "source": "MED",
+          "id": "23070494",
+          "reference": "Ann Intern Med. 2012 Oct 16;157(8):593-4. doi: 10.7326/0003-4819-157-8-201210160-00016",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ]
+    },
+    "isOpenAccess": "N",
+    "inEPMC": "Y",
+    "inPMC": "Y",
+    "citedByCount": 277,
+    "hasReferences": "Y",
+    "hasTextMinedTerms": "Y",
+    "hasDbCrossReferences": "N",
+    "hasPDF": "Y",
+    "hasBook": "N",
+    "hasSuppl": "N",
+    "hasLabsLinks": "Y",
+    "hasData": "N",
+    "authMan": "Y",
+    "epmcAuthMan": "N",
+    "nihAuthMan": "Y",
+    "manuscriptId": "NIHMS688814",
+    "hasTMAccessionNumbers": "N",
+    "dateOfCompletion": "2013-01-14",
+    "dateOfCreation": "2012-10-17",
+    "dateOfRevision": "2022-04-08",
+    "firstPublicationDate": "2012-10-01",
+    "firstIndexDate": "2012-10-17",
+    "fullTextReceivedDate": "2025-02-05",
+    "hasEvaluations": "N"
+  },
+  "retrieval_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23070488&format=json&resultType=core",
+  "retrieved_on": "2026-10-26",
+  "access": "Primary metadata/abstract; no full-method appraisal"
+}

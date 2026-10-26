@@ -94,3 +94,146 @@ For independently admitted food-related SOPs, follow `system/food-strategy-rollu
 ### Combined BRS review
 
 The “Show All BRS” selector combines BRS1–6 authoritative projections. Keep every distinct PM–input relationship, while deduplicating substance IDs, food/material source IDs and pool IDs across scopes. Apply the same preparation and relationship filters to the combined data before computing visible counts and connections. Individual BRS selection remains available.
+
+
+### Canonical compact PM food disclosures
+
+For §1.1.1–1.1.3 and their §3.1.1–3.1.3 aliases, use the original shared plant/animal disclosure presentation: the closed summary contains the group label and first food line (linked food, supported quantity/basis, then preparation; for example `Nutritional Yeast 120 mg per 100 g - dried`). Expanded subsequent food lines align with the first food name using the existing responsive stylesheet. Do not repeat the first observation in the expanded list. Distinct measured preparations remain distinct.
+
+Keep composition-source links, analytical narratives and nested provenance controls off these compact food lines; retain authoritative evidence on the linked food pages and in existing audit records. Do not erase source data or suppress provisional information icons and precise coverage warnings. Do not infer quantities, preparation states or intervention efficacy to simplify presentation.
+
+
+### Approved food-column implementation — 26 October 2026
+
+Canonical order: **category → food → quantity/unit/basis → form**. Use the shared `renderCompactFoodSourceItem`, `renderFoodSourceSummary` and `createFoodSourceDetails` in `src/lib/pmInputFoodDisclosure.ts` for both dietary targets and cofactor/KC disclosures. The first food stays visible in the summary; subsequent observations use the identical column widths. Preserve provisional icons and coverage warnings. Missing form displays exactly **form not known**; this is a presentation fallback, not a recorded preparation or scientific conclusion.
+
+The canonical stylesheet (`src/css/custom.css`) uses:
+
+```css
+.pm-input-food-sources {
+  --food-label-width: 8.5rem;
+  --food-amount-width: 9.75rem;
+  --food-name-width: 8.5rem;
+  --food-preparation-width: 7rem;
+}
+.pm-input-food-sources > summary {
+  display: grid;
+  grid-template-columns: 1.1em var(--food-label-width) minmax(0, 1fr);
+  width: 100%;
+  align-items: baseline;
+}
+.pm-input-food-row {
+  display: grid;
+  grid-template-columns: minmax(0, var(--food-name-width)) var(--food-amount-width) minmax(0, 1fr);
+  column-gap: 0.35rem;
+  align-items: baseline;
+  min-width: 0;
+}
+.pm-input-food-row > span { min-width: 0; overflow-wrap: anywhere; }
+.pm-input-food-name a { color: var(--ifm-link-color); }
+.pm-input-food-amount--standard {
+  display: grid;
+  grid-template-columns: 5ch 2.5ch auto;
+  column-gap: 0.35ch;
+  font-variant-numeric: tabular-nums;
+}
+.pm-input-food-number { text-align: right; }
+.pm-input-food-basis { white-space: nowrap; }
+.pm-input-food-preparation { margin-left: 0; position: relative; left: -2ch; }
+
+.pm-input-food-sources ul,
+.pm-input-food-sources[data-food-source-kind="animal-based"] ul {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0.25rem 0 0.35rem calc(1.1em + var(--food-label-width));
+  padding: 0;
+  list-style: none;
+}
+.pm-input-food-sources li { margin: 0; }
+.pm-input-food-qualification {
+  margin: 0.35rem 0 0.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.86rem;
+}
+@media (max-width: 600px) {
+  .pm-input-food-sources > summary {
+    grid-template-columns: 1.1em minmax(0, 1fr);
+  }
+  .pm-input-food-sources > summary > .pm-input-food-row {
+    grid-column: 2;
+  }
+  .pm-input-food-row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+  .pm-input-food-preparation { grid-column: 2; }
+  .pm-input-food-sources ul,
+  .pm-input-food-sources[data-food-source-kind="animal-based"] ul {
+    margin-left: 1.1em;
+  }
+}
+```
+
+Quantity parsing in the renderer is deliberately bounded:
+
+```ts
+const amount = formatFoodAmount(source);
+const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
+```
+
+For a matching amount, emit separate `.pm-input-food-number`, `.pm-input-food-unit` and `.pm-input-food-basis` spans within `.pm-input-food-amount--standard`. For other bases, retain the complete qualified amount without converting it to per-100-g. Never substitute literal leading spaces: alignment comes from grid columns and tabular numerals.
+
+Long food names wrap within the food column (for example White/Button Mushroom); they must not overlap quantity cells. The expanded list starts at `calc(1.1em + var(--food-label-width))`, identically for both categories. Below 600px, the food row moves under the category label, uses two flexible columns, and form occupies column 2; expanded rows start at `1.1em`. Keep original measurements and qualifications in authoritative records and linked food/audit pages.
+
+Validation: run `node --test scripts/dietary-lever-traceability.test.mjs scripts/input-substance-food.test.mjs`, then interact with a real canonical PM disclosure. Verify both categories and expanded rows share column positions, first-food preview, long-name wrapping, source-specific bases and provisional warnings. Do not regenerate scientific records or dietary outputs to change this presentation.
+
+#### Exact compact row renderer
+
+```ts
+function renderCompactFoodSourceItem(source: any): string {
+    // Align comparable quantities without rewriting non-standard measurement bases.
+    const amount = formatFoodAmount(source);
+    const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
+    const quantity = standard
+        ? `<span class="pm-input-food-number">${standard[1]}</span> <span class="pm-input-food-unit">${standard[2]}</span> <span class="pm-input-food-basis">per 100 g</span>`
+        : amount;
+    return `<span class="pm-input-food-row"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta pm-input-food-amount${standard ? ' pm-input-food-amount--standard' : ''}"> ${quantity}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
+}
+```
+
+
+Category labels use the same fixed width so their trailing hyphens align, with separation before the first food:
+
+```css
+.pm-input-food-source-kind {
+  display: inline-block;
+  width: var(--food-label-width, 8.5rem);
+  text-align-last: justify;
+  box-sizing: border-box;
+  padding-right: calc(0.5rem + 1ch);
+}
+```
+
+Food names shift one character left within their grid cell; quantity and form column positions remain unchanged:
+
+```css
+.pm-input-food-name { position: relative; left: -1ch; }
+```
+
+Quantity cells (value, unit and measurement basis together) shift two characters left without changing their internal alignment or the food column:
+
+```css
+.pm-input-food-amount { position: relative; left: -2ch; }
+```
+
+Preparation/form cells, including the separator (for example `- dried`), also shift two characters left to follow the quantity column:
+
+```css
+.pm-input-food-preparation { margin-left: 0; position: relative; left: -2ch; }
+```
+
+
+### Framework-wide presentation scope — approved 26 October 2026
+
+The approved compact food grid applies to all canonical PMs across BRS1–BRS6 through the shared `PmDietaryLeverEnhancer` and `attachInputFoodDisclosure`, including canonical section aliases §1.1.1–1.1.3 / §3.1.1–3.1.3. It is not restricted to the BRS3 PM4 visual acceptance example or the historical four-PM pilot. Reuse available authoritative structured mappings; do not manufacture food rows for pages without eligible mappings or admissions.
+
+Final offsets: category hyphens share a fixed right edge with `padding-right: calc(0.5rem + 1ch)`; food names shift `left: -1ch`; the complete amount and preparation cells both shift `left: -2ch`. Preserve aligned values, units and measurement bases, wrapped long food names, first-food previews, provisional icons and warnings. No per-PM scientific migration is required to receive the shared stylesheet.

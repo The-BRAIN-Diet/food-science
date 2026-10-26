@@ -1,0 +1,386 @@
+[
+  {
+    "pm": "BRS-X(Circadian-FM1-PM1)",
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm1-light-dark-circadian-entrainment.mdx",
+    "heading": "## BRS-X-Circadian-1-1 - Light\u2013Dark Circadian Entrainment",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Circadian-FM1-PM2)",
+    "file": "docs/biological-targets/brs-x/circadian/fm1/brs-x-circadian-fm1-pm2-feeding-time-circadian-synchronisation.mdx",
+    "heading": "## BRS-X-Circadian-1-2 - Feeding-Time Circadian Synchronisation",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(ECS-PM1)",
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
+    "heading": "## BRS-X-ECS-1-1 - NAPE \u2192 NAE Biosynthesis Capacity",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(ECS-PM2)",
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling.mdx",
+    "heading": "## BRS-X-ECS-1-2 - Omega-3-Derived Endocannabinoidome Signalling",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(ECS-PM3)",
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation.mdx",
+    "heading": "## BRS-X-ECS-1-3 - FAAH-Mediated Endocannabinoid Preservation",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(ECS-PM4)",
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation.mdx",
+    "heading": "## BRS-X-ECS-1-4 - Endocannabinoid\u2013Dopamine Neuromodulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(ECS-PM5)",
+    "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity.mdx",
+    "heading": "## BRS-X-ECS-1-5 - Endocannabinoid Stress-Buffering Capacity",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM1)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
+    "heading": "## BRS-X-Hormones-1-1 - Oestrogen Signalling Stability",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM2)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation.mdx",
+    "heading": "## BRS-X-Hormones-1-2 - Estrobolome Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM3)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism.mdx",
+    "heading": "## BRS-X-Hormones-1-3 - Progesterone-Supportive Microbial Metabolism",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM4)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration.mdx",
+    "heading": "## BRS-X-Hormones-1-4 - Metabolic-Reproductive Hormone Integration",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM5)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability.mdx",
+    "heading": "## BRS-X-Hormones-1-5 - Testosterone Signalling Stability",
+    "changed": false
+  },
+  {
+    "pm": "BRS-X(Hormones-PM6)",
+    "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation.mdx",
+    "heading": "## BRS-X-Hormones-1-6 - Androgen-Microbiome Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM1-PM1",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx",
+    "heading": "## BRS1-1-1 - Amino-Acid Availability & Prioritisation",
+    "changed": true
+  },
+  {
+    "pm": "BRS1-FM1-PM2",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
+    "heading": "## BRS1-1-2 - L-type amino acid transporter 1 (LAT1): Competitive Transport Modulation",
+    "changed": true
+  },
+  {
+    "pm": "BRS1-FM1-PM3",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation.mdx",
+    "heading": "## BRS1-1-3 - Dopaminergic Signalling Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM1-PM4",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx",
+    "heading": "## BRS1-1-4 - Noradrenergic Signalling",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM1-PM5",
+    "file": "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx",
+    "heading": "## BRS1-1-5 - Serotonergic Signalling Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM2-PM6",
+    "file": "docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx",
+    "heading": "## BRS1-2-6 - Acetylcholine Synthesis Support",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM3-PM7",
+    "file": "docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
+    "heading": "## BRS1-3-7 - Neuronal Membrane DHA Incorporation",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM4-PM10",
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx",
+    "heading": "## BRS1-4-10 - Glutamate Clearance & Recycling",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM4-PM11",
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx",
+    "heading": "## BRS1-4-11 - Excitotoxicity Modulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM4-PM9",
+    "file": "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
+    "heading": "## BRS1-4-9 - GABA Synthesis Capacity",
+    "changed": false
+  },
+  {
+    "pm": "BRS1-FM5-PM12",
+    "file": "docs/biological-targets/brs1/fm5/brs1-fm5-pm12-synaptic-structural-plasticity.mdx",
+    "heading": "## BRS1-5-12 - Synaptic Structural Plasticity",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM1-PM1",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
+    "heading": "## BRS2-1-1 - Folate/B12-Dependent Homocysteine Remethylation",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM1-PM2",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "heading": "## BRS2-1-2 - Betaine/BHMT Remethylation",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM1-PM3",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx",
+    "heading": "## BRS2-1-3 - SAMe Synthesis",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM1-PM4",
+    "file": "docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "heading": "## BRS2-1-4 - Methionine Cycle Flux",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM2-PM5",
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
+    "heading": "## BRS2-2-5 - Transsulfuration Pathway",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM2-PM6",
+    "file": "docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx",
+    "heading": "## BRS2-2-6 - Glutathione Synthesis",
+    "changed": false
+  },
+  {
+    "pm": "BRS2-FM3-PM7",
+    "file": "docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "heading": "## BRS2-3-7 - Phosphatidylcholine Formation",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM1-PM1",
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "heading": "## BRS3-1-1 - NF-kB Signalling Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM1-PM2",
+    "file": "docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "heading": "## BRS3-1-2 - Gut-Derived Inflammatory Signalling",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM2-PM3",
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "heading": "## BRS3-2-3 - Nrf2-Mediated Cellular Defence Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM2-PM4",
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "heading": "## BRS3-2-4 - ROS Generation vs Clearance Balance",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM2-PM5",
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "heading": "## BRS3-2-5 - Lipid Peroxidation Control",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM2-PM6",
+    "file": "docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "heading": "## BRS3-2-6 - Antioxidant Network Recycling",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM3-PM7",
+    "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "heading": "## BRS3-3-7 - Cytokine Network Modulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS3-FM3-PM8",
+    "file": "docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "heading": "## BRS3-3-8 - Eicosanoid / SPM Balance",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM1-PM1",
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "heading": "## BRS4-1-1 - Electron Transport Chain Function",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM1-PM2",
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "heading": "## BRS4-1-2 - NAD\u207a Metabolism",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM1-PM3",
+    "file": "docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "heading": "## BRS4-1-3 - Creatine\u2013Phosphocreatine Energy Buffering",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM2-PM4",
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "heading": "## BRS4-2-4 - ROS Production and Control",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM2-PM5",
+    "file": "docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "heading": "## BRS4-2-5 - Mitochondrial Protection (Redox Integrity)",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM3-PM6",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "heading": "## BRS4-3-6 - Carnitine-Mediated Fat Transport",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM3-PM7",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "heading": "## BRS4-3-7 - Ketone Utilisation Capacity",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM3-PM8",
+    "file": "docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "heading": "## BRS4-3-8 - Metabolic Fuel Switching",
+    "changed": false
+  },
+  {
+    "pm": "BRS4-FM4-PM9",
+    "file": "docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "heading": "## BRS4-4-9 - Mitochondrial Biogenesis",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM1-PM1",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "heading": "## BRS5-1-1 - Gut Barrier / Tight Junction Integrity",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM1-PM2",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "heading": "## BRS5-1-2 - LPS / Endotoxin Containment",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM1-PM3",
+    "file": "docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "heading": "## BRS5-1-3 - Microbial Barrier\u2013Immune Interface Support",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM2-PM4",
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "heading": "## BRS5-2-4 - Microbial Substrate-Processing Selection & Adaptation",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM2-PM5",
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "heading": "## BRS5-2-5 - SCFA Production & Signalling",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM2-PM6",
+    "file": "docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "heading": "## BRS5-2-6 - Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM3-PM7",
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+    "heading": "## BRS5-3-7 - Vagal / ENS Signalling Modulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS5-FM3-PM8",
+    "file": "docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "heading": "## BRS5-3-8 - Neurotransmitter Precursor Biotransformation & Availability",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM1-PM1",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "heading": "## BRS6-1-1 - Glucose Appearance Kinetics",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM1-PM2",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "heading": "## BRS6-1-2 - Glycaemic Variability Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM1-PM3",
+    "file": "docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "heading": "## BRS6-1-3 - Insulin Sensitivity & Glucose Disposal",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM2-PM4",
+    "file": "docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "heading": "## BRS6-2-4 - Cortisol Rhythm Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM3-PM6",
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "heading": "## BRS6-3-6 - Sympathetic Activation & Parasympathetic Recovery",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM3-PM7",
+    "file": "docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "heading": "## BRS6-3-7 - Vagal Tone / HRV Regulation",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM4-PM8",
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "heading": "## BRS6-4-8 - Metabolic Inflammation & Adipose Stress Signalling",
+    "changed": false
+  },
+  {
+    "pm": "BRS6-FM4-PM9",
+    "file": "docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+    "heading": "## BRS6-4-9 - Stress-Induced Appetite / Reward Drive Modulation",
+    "changed": false
+  }
+]

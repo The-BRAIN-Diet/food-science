@@ -1,0 +1,35 @@
+{
+  "mode": "Proposals only. No authoritative instruction/rubric file changed. Framework-wide adoption requires pilot approval.",
+  "changes": [
+    {
+      "target": "system/scientific-finding-schema.md",
+      "section": "Before evidence discovery and SEC assessment",
+      "proposed_text": "Classify the exact proposition before appraisal: foundational molecular/reaction identity or accepted pathway membership may be a Scientific Principle when supported by traceable authoritative provenance. Physiological regulation, substrate availability, transport, flux, interventions, associations and outcomes remain Scientific Findings requiring appraisal. Preclinical or biochemical evidence is not automatically a Principle. Split mixed propositions explicitly; preserve the original identity, full evidence and unresolved research component. Missing scores and appraisal difficulty are never reclassification criteria."
+    },
+    {
+      "target": "system/dietary-input-traceability-contract.md",
+      "section": "Scientific adjudication and dietary linkage",
+      "proposed_text": "A Scientific Principle may establish identity, pathway membership or reaction participation. It does not by itself satisfy Type A dietary-supply or Type B engagement/exposure gates. Preserve six atoms, independent Direct/Derived classification and existing admissions. Link Section 4 provenance to the Principle, and any dietary/flux/intervention proposition to its actual Finding. No automatic admission, KC mapping or food-edge creation follows from reclassification."
+    },
+    {
+      "target": "system/scientific-finding-schema.md",
+      "section": "Optional Principle presentation metadata",
+      "proposed_text": "Use the existing PM evidence source and identity infrastructure. A local Principle record retains ID, original_finding_id where applicable, title, exact proposition, mechanism/pathway, source identities/versions/access dates, scope limitations, classification rationale and review date. An explicit reclassification selection may exclude a wholly foundational historical Finding from the active SF list. The historical Finding, proposition and pinned assessment versions remain preserved, and the original ID is reserved. A stored historical proposition must match the preserved Finding; a changed proposition must not reuse that retired identity. Mixed physiological Findings remain active."
+    },
+    {
+      "target": "system/reviews/sec-calibration/SEC-calibration-rubric-proposal.html",
+      "section": "Applicability before status",
+      "proposed_text": "Determine SEC applicability from the exact proposition before scoring. Scientific Principles do not receive numerical SEC, an assessment-status label or D/B/P/R fields in their active provenance presentation. This is not a new confidence score or assessment status. Applicable but incomplete Findings retain existing Not scored/conditional handling; mechanistic and preclinical research can qualify. Preserve all original assessment snapshots in history and do not reinterpret Not scored as zero."
+    },
+    {
+      "target": "system/primary-mechanism-schema.md",
+      "section": "Section 4 and Evidence & Audit",
+      "proposed_text": "Retain foundational reactions and relevant citations in Mechanistic Basis. Provide direct links to Evidence & Audit \u2192 Scientific Principles. Active 4.1 Scientific Findings (N) counts only current research Findings, excluding reclassified Principles, historical versions, retired records, contextual evidence and interpretive constraints. Preserve full IDs and historical anchors while using short SF labels. Reader-facing PM headings/navigation use abbreviated BRS-FM-PM numbers; canonical IDs, names, filenames, slugs and cross-PM identities remain unchanged."
+    },
+    {
+      "target": "Evidence & Audit rendering guidance",
+      "section": "Principle provenance and historical access",
+      "proposed_text": "Show the Principle title, exact biochemical proposition, sources, mechanism, limitations, original identity and classification history without SEC indicators. Historical assessment versions remain accessible through the existing audit-history renderer, explicitly separated from active Principle provenance. Invalid or incomplete reclassification metadata must fail closed and leave original Findings visible. Empty Principle sections remain hidden."
+    }
+  ]
+}

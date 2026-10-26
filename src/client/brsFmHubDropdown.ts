@@ -277,13 +277,16 @@ function openHubTargetFromHash(
   }
   hashRetryAttempts = 0;
 
-  openHubAncestors(target);
+  const disclosureTarget = options.force && !target.closest('[data-brs-fm-hub]')
+    ? target.querySelector<HTMLElement>('[data-brs-fm-hub]') || target
+    : target;
+  openHubAncestors(disclosureTarget);
   lastAutoOpenedHash = hash;
   dismissedHash = '';
   scrollHashTargetIntoView(resolveScrollTarget(target, hash));
 }
 
-export function initBrsFmHubDropdowns(root: ParentNode = document): void {
+export function initBrsFmHubDropdowns(root: ParentNode = document, options: {forceHash?: boolean} = {}): void {
   root.querySelectorAll<HTMLElement>('[data-brs-fm-hub]:not([data-brs-fm-hub-init])').forEach((item) => {
     item.dataset.brsFmHubInit = 'true';
 
@@ -315,7 +318,7 @@ export function initBrsFmHubDropdowns(root: ParentNode = document): void {
   bindExpandOpenActions(root);
   bindHashListener();
   resetHashStateForPathname();
-  openHubTargetFromHash(root);
+  openHubTargetFromHash(root, {force: options.forceHash});
 }
 
 let hashListenerBound = false;

@@ -1,6 +1,57 @@
 ---
 title: Amino-Acid Availability & Prioritisation
 pm_id: BRS1-FM1-PM1
+scientific_principle_ids:
+  - PM1-F4
+scientific_finding_classification_notes:
+  PM1-F3: Physiological tyrosine-supply contribution remains subject to SEC appraisal. The established PAH reaction is documented separately as Scientific Principle PM1-SP1; the earlier biochemical-provenance-only assessment is retained as history.
+scientific_principles:
+  - id: PM1-SP1
+    original_finding_id: PM1-F3
+    title: Phenylalanine hydroxylase reaction
+    proposition: Phenylalanine-4-hydroxylase catalyses conversion of L-phenylalanine to L-tyrosine.
+    mechanism: Endogenous phenylalanine-to-tyrosine conversion.
+    scope_limitations: Reaction identity does not quantify physiological conversion flux, dietary contribution to tyrosine supply or brain catecholamine synthesis. Those propositions remain subject to scientific appraisal in SF3.
+    classification_rationale: Only the established reaction identity is a Principle; the original mixed physiological proposition remains an active Finding.
+    reviewed_on: "2026-10-26"
+    sources:
+      - label: UniProtKB P00439 — human phenylalanine-4-hydroxylase
+        href: https://www.uniprot.org/uniprotkb/P00439/entry
+        accession: P00439
+        version: Entry version 269, 2 September 2026
+        accessed: "2026-10-18"
+      - label: Rhea 20273 — phenylalanine hydroxylation
+        href: https://www.rhea-db.org/rhea/20273
+        accession: RHEA:20273
+        accessed: "2026-10-18"
+  - id: PM1-SP2
+    original_finding_id: PM1-F4
+    historical_proposition: "Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward."
+    title: Tyrosine and tryptophan precursor identities
+    proposition: Tyrosine is a precursor in catecholamine biosynthesis; tryptophan is a precursor in serotonin biosynthesis.
+    mechanism: Precursor identity for downstream pathways, distinct from circulating supply and brain transport.
+    scope_limitations: These identities do not establish that additional dietary protein raises brain neurotransmitter synthesis or improves functional or clinical outcomes. Intervention, transport and flux propositions remain Findings requiring separate appraisal.
+    classification_rationale: Foundational precursor identities are presented as a Principle; historical dietary-effect boundaries remain limitations, not a newly adjudicated negative intervention Finding.
+    reviewed_on: "2026-10-26"
+    sources:
+      - label: UniProtKB P07101 — Tyrosine 3-monooxygenase
+        href: https://www.uniprot.org/uniprotkb/P07101/entry
+        accession: P07101
+        version: Entry version 250, annotation 2026-09-02
+        accessed: "2026-10-26"
+      - label: UniProtKB P17752 — Tryptophan 5-hydroxylase 1
+        href: https://www.uniprot.org/uniprotkb/P17752/entry
+        accession: P17752
+        version: Entry version 224, annotation 2026-09-02
+        accessed: "2026-10-26"
+      - label: UniProtKB P20711 — Aromatic-L-amino-acid decarboxylase
+        href: https://www.uniprot.org/uniprotkb/P20711/entry
+        accession: P20711
+        version: Entry version 227, annotation 2026-09-02
+        accessed: "2026-10-26"
+      - label: Aquili (2020) — precursor identities and separate depletion/supplementation evidence
+        href: /docs/papers/BRAIN-Diet-References#aquili_role_2020
+        citation_key: aquili_role_2020
 mission: Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
@@ -365,7 +416,7 @@ scientific_findings:
       version: 2
       sha256: 325c4bfa34570d37f82ad44955d2e4b9f84e51cd813a0dd74bbc960da65ed2fe
   - id: PM1-F3
-    finding_label: 'Phenylalanine-to-tyrosine conversion: biochemical provenance'
+    finding_label: 'Phenylalanine conversion and endogenous tyrosine supply'
     presentation: mechanistic-basis
     fm_rollup: true
     finding_summary: Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.
@@ -569,6 +620,7 @@ intervention_dominance_assessment:
         relevance: The PM mission is dietary delivery to the circulating amino-acid pool.
         directness: Human labelled dietary-protein experiments measure this supply rather than infer it from food content.
         extent: 'Repeated feeding experiments show substantial dietary tracer appearance, qualified by five/six-hour windows, source, dose and population. No universal optimum or brain effect.'
+sidebar_label: "BRS1-1-1 — Amino-Acid Availability & Prioritisation"
 ---
 import ScientificFinding from '@site/src/components/ScientificFinding';
 
@@ -580,7 +632,7 @@ import ScientificFinding from '@site/src/components/ScientificFinding';
   />
 </p>
 
-## BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation
+## BRS1-1-1 - Amino-Acid Availability & Prioritisation
 
 (Neurotransmitter Protein Requirements)
 
@@ -694,7 +746,7 @@ No PM1-specific lifestyle intervention is selected after this assessment. Exerci
 
 ## 4. Mechanistic Basis + Scientific Findings
 
-Phenylalanine-4-hydroxylase (PAH) contributes to endogenous tyrosine supply. [UniProt C1](#pm-curated-pah) and [Rhea C2](#pm-curated-rhea) establish reaction identity, not an independent dietary cofactor admission.
+Phenylalanine-4-hydroxylase (PAH) contributes to endogenous tyrosine supply. The established reaction is documented in [Scientific Principles](?review=1#pm1-sp1). [UniProt C1](#pm-curated-pah) and [Rhea C2](#pm-curated-rhea) establish reaction identity, not an independent dietary cofactor admission.
 
 
 ### Summary
@@ -737,7 +789,7 @@ Supporting evidence: [PM1-F2](#pm1-f2).
 
 Matthews (2007) [[4]](#pm-ref-4) shows that humans convert phenylalanine to tyrosine, mainly in the liver. Tyrosine is normally dispensable because of that conversion, and it can become conditionally indispensable when phenylalanine is limited. The curated PAH reaction records identify this conversion without establishing a separate dietary tyrosine requirement. [UniProt C1](#pm-curated-pah); [Rhea C2](#pm-curated-rhea).
 
-Supporting evidence: [PM1-F3](#pm1-f3).
+Supporting evidence: [PM1-F3](#pm1-f3). Established reaction identity: [Scientific Principle — Phenylalanine hydroxylase reaction](?review=1#pm1-sp1).
 
 <span id="pm1-mechanism-f4" />
 
@@ -745,7 +797,7 @@ Supporting evidence: [PM1-F3](#pm1-f3).
 
 Aquili (2020) [[2]](#pm-ref-2) names tryptophan as the serotonin precursor and tyrosine as the dopamine precursor. Those names identify the amino acids in this pool. They do not show that a higher circulating supply raises brain serotonin or dopamine. Brain transport and downstream synthesis remain distinct from circulating provision.
 
-Supporting evidence: [PM1-F4](#pm1-f4).
+Foundational provenance: [Scientific Principle — Tyrosine and tryptophan precursor identities](?review=1#pm1-sp2). Historical record: [PM1-F4](?review=1#pm1-f4).
 
 <span id="pm1-mechanism-f5" />
 
@@ -793,16 +845,16 @@ Dietary protein supplies the circulating precursor pool; food structure and sour
 <p><a href="#pm1-mechanism-f2">Mechanistic explanation: Diet-wide amino-acid adequacy does not require identical complete meals</a></p>
 {/* scientific-lesson:PM1-F2:end */}
 
-<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Phenylalanine-to-tyrosine conversion: biochemical provenance","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains linked for physiological context. No new intake-response or clinical conclusion is inferred.","synthesis_limitations":"Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.","evidence_considered":[{"label":"Matthews (2007)","citation_key":"matthews_phenylalanine_2007","href":"/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007","data_level":"Mechanistic","exposure_context":"human tracer infusions","evidence_source":"repository-inherited","directional_finding":"Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.","assessment":{"study":"Overview of human phenylalanine and tyrosine tracer kinetics.","population":"Human tracer studies in people with ordinary hydroxylation and in disorders that block it.","result":"Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.","effect_magnitude":"Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.","evidence_summary":"Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.","limitations":"Conversion kinetics are not brain dopamine or noradrenaline synthesis."},"canonical_reference":{"author_year":"Matthews (2007)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f3-assessment","version":2,"sha256":"515e50a9d7a21e8d8d1d92d7e44a5f859f9f4dc1b703381b788b7173727c0527"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Phenylalanine conversion and endogenous tyrosine supply","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Established conversion chemistry; dietary admission and downstream catecholamine effects remain separate decisions.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Phenylalanine-4-hydroxylase (PAH) converts L-phenylalanine to L-tyrosine. This endogenous route contributes to tyrosine supply but does not make tyrosine absent from foods or establish an independent requirement for extra dietary tyrosine.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"UniProt P00439 and Rhea 20273 establish reaction identity; the Matthews human kinetic review remains linked for physiological context. No new intake-response or clinical conclusion is inferred.","synthesis_limitations":"Curated enzyme annotation does not quantify whole-body dietary contribution or human brain catecholamine flux. Do not automatically add every PAH cofactor as a PM1-specific dietary requirement.","evidence_considered":[{"label":"Matthews (2007)","citation_key":"matthews_phenylalanine_2007","href":"/docs/papers/BRAIN-Diet-References#matthews_phenylalanine_2007","data_level":"Mechanistic","exposure_context":"human tracer infusions","evidence_source":"repository-inherited","directional_finding":"Phenylalanine is hydroxylated to tyrosine in humans. Tyrosine is normally dispensable and can become conditionally indispensable when phenylalanine availability is limited.","assessment":{"study":"Overview of human phenylalanine and tyrosine tracer kinetics.","population":"Human tracer studies in people with ordinary hydroxylation and in disorders that block it.","result":"Phenylalanine is converted to tyrosine. The conversion depends on phenylalanine availability.","effect_magnitude":"Kinetic rates are reviewed. No dietary dose for a brain catecholamine change is given.","evidence_summary":"Dietary phenylalanine can supply tyrosine through a conversion that has been measured in humans.","limitations":"Conversion kinetics are not brain dopamine or noradrenaline synthesis."},"canonical_reference":{"author_year":"Matthews (2007)","number":4,"anchor":"#pm-ref-4"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f3-assessment","version":2,"sha256":"515e50a9d7a21e8d8d1d92d7e44a5f859f9f4dc1b703381b788b7173727c0527"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
 
 {/* scientific-lesson:PM1-F3:start */}
-<p><a href="#pm1-mechanism-f3">Mechanistic explanation: Phenylalanine-to-tyrosine conversion: biochemical provenance</a></p>
+<p><a href="#pm1-mechanism-f3">Mechanistic explanation: Phenylalanine conversion and endogenous tyrosine supply</a></p>
 {/* scientific-lesson:PM1-F3:end */}
 
 <ScientificFinding finding={{"id":"PM1-F4","finding_label":"Downstream precursor identity is not a dietary efficacy result","presentation":"mechanistic-basis","fm_rollup":false,"finding_summary":"Preserve precursor identity and the downstream PM2-PM5 boundary.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","finding_statement":"Tyrosine and tryptophan supply the precursor pathways for catecholamines and serotonin, respectively. Their biochemical identity does not demonstrate that additional meal protein improves brain transmitter synthesis, attention, mood or reward.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Retain Aquili and existing precursor evidence as biochemical/contextual support, not evidence that ordinary dietary coverage reproduces depletion or pharmacological supplementation experiments.","synthesis_limitations":"Transport competition, regional synthesis, release and clinical outcomes require their own evidence. No score is inherited from this elementary relationship.","evidence_considered":[{"label":"Aquili (2020)","citation_key":"aquili_role_2020","href":"/docs/papers/BRAIN-Diet-References#aquili_role_2020","data_level":"Mechanistic","exposure_context":"narrative review of depletion and supplementation studies","evidence_source":"repository-inherited","directional_finding":"Tryptophan is named as the serotonin precursor and tyrosine as the dopamine precursor. The reviewed behavioural effects come from depletion and supplementation, not from meal-protein coverage.","assessment":{"study":"Narrative review of tryptophan and tyrosine in executive function and reward.","population":"The behavioural studies are mostly acute depletion or supplementation experiments.","result":"The precursor relationship is stated. Cognitive effects in the review are not effects of this dietary pool.","effect_magnitude":"No effect size for meal protein on brain transmitters.","evidence_summary":"The precursor names are supported. The cognitive conclusions are not a result for this mechanism.","limitations":"Depletion and isolated supplements are not indispensable-amino-acid coverage."},"canonical_reference":{"author_year":"Aquili (2020)","number":2,"anchor":"#pm-ref-2"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f4-assessment","version":2,"sha256":"b61a1c4f133dbb71e10be50279167891d3bf410fc77515927e0b293f493fa369"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
 
 {/* scientific-lesson:PM1-F4:start */}
-<p><a href="#pm1-mechanism-f4">Mechanistic explanation: Downstream precursor identity is not a dietary efficacy result</a></p>
+<p><a href="?review=1#pm1-sp2">Scientific Principle: Tyrosine and tryptophan precursor identities</a></p>
 {/* scientific-lesson:PM1-F4:end */}
 
 <ScientificFinding finding={{"id":"PM1-F5","presentation":"mechanistic-basis","fm_rollup":false,"finding_label":"Food texture and amino-acid appearance","finding_statement":"In a randomised crossover study of ten older men, 135 g minced beef produced greater six-hour dietary phenylalanine appearance than the same quantity of steak. Total plasma essential-amino-acid concentrations and muscle protein synthesis did not differ detectably between preparations.","finding_summary":"Texture affected source-specific tracer delivery, not every circulating or functional outcome.","finding_interpretation":"Scope is circulating provision and the exact measured endpoint, not brain entry, neurotransmitter efficacy or a clinical recommendation.","synthesis":"The matched-food crossover supports a preparation effect on dietary tracer appearance. Null total-concentration and muscle outcomes prevent a generic better-protein or neurotransmitter interpretation. The thesis and publication describe one dataset.","synthesis_limitations":"One small older-male trial; no independent replication of the exact matched-beef protocol was established in this assessment. No claim that all foods should be minced or that this improves attention.","synthesised_evidence_confidence":"not-yet-scored","evidence_considered":[{"label":"Pennings et al. (2013): minced beef versus steak","citation_key":"stage2-ref-pm1-pennings2013","href":"?review=0#stage2-ref-pm1-pennings2013","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","exposure_context":"135 g intrinsically labelled lean beef, same cut, minced patty versus steak; six-hour tracer follow-up.","directional_finding":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","assessment":{"study":"Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.","population":"Randomised crossover; ten older men, mean age 74 years; two visits at least 14 days apart.","result":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","effect_magnitude":"Six-hour dietary phenylalanine appearance: minced 61% ± 3% versus steak 49% ± 3% (means ± SEM), P \u003c 0.01; 12 percentage-point difference. No paired confidence interval calculated or inferred.","evidence_summary":"More dietary phenylalanine appeared after mincing. Total plasma essential-amino-acid concentrations and muscle synthesis did not differ detectably.","limitations":"Small single trial; mean estimates and standard errors available, paired effect interval not extracted; no equivalence claim for null outcomes. Single empirical dataset; thesis and journal article are the same experiment, not replications."},"canonical_reference":{"author_year":"Pennings et al. (2013): minced beef versus steak","number":9,"anchor":"#pm-ref-9"}}],"evidence_dependency":["Shared sources with PM1-F1 and PM1-F2 are reused for distinct propositions, not independent replication. Pooled studies, thesis chapters and journal reports may overlap."],"sec_assessment_ref":{"id":"pm1-pm1-f5-assessment","version":2,"sha256":"d98b851c695c6b6e3b97481dd7e92176bd8921e4e0d08be7353f122d4e2d4c4e"},"connected_supportive_evidence":[]}} pmId={"BRS1-FM1-PM1"} />
@@ -1010,8 +1062,8 @@ Rechecked the 135 g minced-beef/steak crossover. Admit only the preparation-spec
 
 ### Curated biochemical references
 
-- <span id="pm-curated-pah" />[C1] UniProtKB, Phenylalanine-4-hydroxylase (PAH), human, accession P00439, entry version 269 (2 September 2026); accessed 2026-10-18. [Authoritative record](https://www.uniprot.org/uniprotkb/P00439/entry). [Return to PM1-F3](#pm1-f3).
-- <span id="pm-curated-rhea" />[C2] Rhea 20273, phenylalanine hydroxylation reaction; accessed 2026-10-18. [Authoritative reaction](https://www.rhea-db.org/rhea/20273). [Return to PM1-F3](#pm1-f3).
+- <span id="pm-curated-pah" />[C1] UniProtKB, Phenylalanine-4-hydroxylase (PAH), human, accession P00439, entry version 269 (2 September 2026); accessed 2026-10-18. [Authoritative record](https://www.uniprot.org/uniprotkb/P00439/entry). [Return to Scientific Principle](?review=1#pm1-sp1).
+- <span id="pm-curated-rhea" />[C2] Rhea 20273, phenylalanine hydroxylation reaction; accessed 2026-10-18. [Authoritative reaction](https://www.rhea-db.org/rhea/20273). [Return to Scientific Principle](?review=1#pm1-sp1).
 
 
 ## Scientific Lesson

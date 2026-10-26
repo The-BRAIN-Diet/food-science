@@ -19,7 +19,7 @@ function isProbablyAnimalSource(source: any): boolean {
         source.product,
         source.species,
     ].filter(Boolean).join(' '));
-    return /\b(anchov|beef|chicken|clam|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/.test(value);
+    return /\b(anchov|beef|butter|cheese|chicken|clam|cockles?|cod|crab|duck|egg|fish|liver|mackerel|meat|milk|mussel|oyster|pork|poultry|salmon|sardine|scallop|seafood|shellfish|shrimp|tuna|turkey|whey|yolk)\b/.test(value);
 }
 function analyticalQualification(obs: any): string {
     const publicNotes = [obs.public_note, obs.material_limitations, obs.notes,
@@ -105,13 +105,22 @@ function formatFoodPrep(source: any): string {
     const preparation = String(source.preparation || '').trim().toLowerCase();
     if (preparation === 'uncooked') return 'raw';
     if (preparation === 'oil') return 'oil';
-    return esc(source.preparation || 'preparation not established');
+    return esc(source.preparation || 'form not known');
 }
 function sourceReference(source: any, obs: any): string {
     const reference = String(obs.source_reference || '');
     const href = reference.startsWith('#') ? source.food_page + reference : obs.source_url;
     if (!href || !/^(?:https?:\/\/|\/docs\/)/.test(href)) return '';
     return ` · <a href="${esc(href)}">${esc(reference || 'Source')}</a>`;
+}
+function renderCompactFoodSourceItem(source: any): string {
+    // Align comparable quantities without rewriting non-standard measurement bases.
+    const amount = formatFoodAmount(source);
+    const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
+    const quantity = standard
+        ? `<span class="pm-input-food-number">${standard[1]}</span> <span class="pm-input-food-unit">${standard[2]}</span> <span class="pm-input-food-basis">per 100 g</span>`
+        : amount;
+    return `<span class="pm-input-food-row"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta pm-input-food-amount${standard ? ' pm-input-food-amount--standard' : ''}"> ${quantity}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
 }
 export function renderFoodSourceItem(source: any): string {
     const missingPreparation = !String(source.preparation || '').trim();
@@ -154,16 +163,18 @@ function attachFoodDisclosureBehaviour(details: HTMLDetailsElement) {
         details.open = false;
         updateFoodArrow(details);
     });
-    summary?.addEventListener('click', () => {
-        window.setTimeout(() => {
-            details.dataset.pmInputFoodPinned = details.open ? 'true' : 'false';
-            updateFoodArrow(details);
-        }, 0);
+    summary?.addEventListener('click', (event) => {
+        // Hover may already have opened the disclosure. The first click pins it
+        // open instead of letting the native toggle immediately close it.
+        event.preventDefault();
+        details.open = details.dataset.pmInputFoodPinned !== 'true';
+        details.dataset.pmInputFoodPinned = details.open ? 'true' : 'false';
+        updateFoodArrow(details);
     });
 }
 export function renderFoodSourceSummary(kind: string, top?: any): string {
     return top
-        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${hasCompactFoodMeasurement(top.observations?.[0]) ? renderFoodSourceItem(top) : `<a href="${esc(top.food_page)}">${esc(top.food_title)}</a>`}`
+        ? `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> ${renderCompactFoodSourceItem(top)}`
         : `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span><span class="pm-input-food-source-kind">${esc(kind)} -</span> <span class="pm-input-food-source-empty">No verified sources yet</span>`;
 }
 function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsElement {
@@ -176,16 +187,11 @@ function createFoodSourceDetails(kind: string, sources: any[]): HTMLDetailsEleme
     summary.innerHTML = renderFoodSourceSummary(kind, top);
     summary.querySelectorAll('a').forEach((a) => a.addEventListener('click', (event) => event.stopPropagation()));
     box.append(summary);
-    if (top) {
-        const provenance = document.createElement('div');
-        provenance.innerHTML = renderFoodSourceItem(top) + renderProvenance(top);
-        box.append(provenance);
-    }
     if (selected.length > 1) {
         const list = document.createElement('ul');
         selected.slice(1).forEach(source => {
             const item = document.createElement('li');
-            item.innerHTML = renderFoodSourceItem(source) + renderProvenance(source);
+            item.innerHTML = renderCompactFoodSourceItem(source);
             item.title = source.material || '';
             list.append(item);
         });
@@ -221,17 +227,26 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             ['Plant-based', targets.filter(t => !isProbablyAnimalSource(t))],
             ['Animal-based', targets.filter(t => isProbablyAnimalSource(t))],
         ] as [string, any[]][]) {
-            const box = document.createElement('details'); box.className = 'pm-input-food-sources';
-            box.dataset.foodSourceKind = kind.toLowerCase();
-            const summary = document.createElement('summary'); summary.innerHTML = `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>${esc(kind)}`; box.append(summary);
-            if (group.length) {
-                const list = document.createElement('ul');
-                group.forEach(target => { const item = document.createElement('li'); item.innerHTML = renderTarget(target); list.append(item); });
-                box.append(list);
-            } else {
-                const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : 'Food ontology coverage unresolved.'; box.append(empty);
-            }
-            attachFoodDisclosureBehaviour(box); li.append(box);
+            // Use the same first-food preview and aligned rows as cofactors/KCs.
+            const compact = group.map(target => ({
+                ...target,
+                id: JSON.stringify([target.food_id, target.substance_id, target.material, target.preparation]),
+                observations: target.observations?.length ? target.observations : target.amount ? [{verified: true,
+                    display: `${target.amount.value} ${target.amount.unit}`,
+                    basis: target.amount.basis}] : [],
+            }));
+            const box = createFoodSourceDetails(kind, compact);
+            // Preserve provisional/review warnings without verbose composition prose.
+            const links = box.querySelectorAll('a');
+            links.forEach(link => {
+                const target = group.find(t => t.food_page === link.getAttribute('href'));
+                if (!target) return;
+                const marker = document.createElement('span');
+                marker.innerHTML = renderTarget(target);
+                const info = marker.querySelector('.food-target-info');
+                if (info) link.after(info);
+            });
+            li.append(box);
         }
         return;
     }

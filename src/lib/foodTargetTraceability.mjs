@@ -57,7 +57,7 @@ export function projectFoodTargets({relationships=[],substances={},research=[],f
 }
 export function escapeHtml(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 export function informationIcon(message){return `<span class="food-target-info" style="color:#c62828;display:inline-block;font-size:.8em;margin-left:.3em" role="img" aria-label="${escapeHtml(message)}" title="${escapeHtml(message)}">ⓘ</span>`;}
-export function renderCoverageWarning(warnings=[]) {return warnings.length?`<p class="food-target-coverage-warning">${escapeHtml(unique(warnings).join(' '))}</p>`:'';}
+export function renderCoverageWarning(warnings=[]) {const message=unique(warnings).join(' ');return warnings.length?`<p class="food-target-coverage-warning">${informationIcon(message)} ${escapeHtml(message)}</p>`:'';}
 export function renderTarget(target){
  const o=(target.observations||[]).filter(visible).find(o=>o.verified&&o.unit&&o.basis&&(Number.isFinite(o.value)||Array.isArray(o.range)));
  if(!target.amount&&o)target={...target,amount:{value:o.value??o.range.join('–'),unit:o.unit,basis:o.basis}};
