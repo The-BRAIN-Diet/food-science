@@ -1,4 +1,4 @@
-import {informationIcon, renderCoverageWarning, renderTarget, renderUpstreamCandidates, unresolvedButyratePrecursorCandidates} from "./foodTargetTraceability.mjs";
+import {informationIcon, renderCoverageWarning, renderUpstreamCandidates, unresolvedButyratePrecursorCandidates} from "./foodTargetTraceability.mjs";
 import {relatedFoodsForInput, renderRelatedFoodSources} from "../data/relatedSubstanceRelationships.mjs";
 import generatedScopes from "../data/inputMappingScopes.mjs";
 import { selectBrsReviewData, canonicalInputSection } from "../data/inputSubstanceFoodSelection.mjs";
@@ -97,22 +97,36 @@ export function selectFoodDisclosureSources(sources: any[]): any[] {
 }
 function formatFoodAmount(source: any): string {
     const obs = (source.observations || [])[0];
-    if (obs?.verified !== true || !obs?.display) return 'quantity not established';
+    if (obs?.verified !== true || !obs?.display) return 'value not known';
     const basis = String(obs.basis || '').trim();
     if (analyticalQualification(obs)) return `${esc(obs.display)} (${esc(basis || 'measurement basis not established')})`;
     return `${esc(obs.display)}${/per\s*100\s*g/i.test(basis) ? ' per 100 g' : basis ? ` (${esc(basis)})` : ' (measurement basis not established)'}`;
+}
+function sourceFlag(obs: any): string {
+    if (obs?.citation_mark !== 'asterisk') return '';
+    const href = typeof obs.source_url === 'string' && /^https?:\/\//.test(obs.source_url) ? obs.source_url : '';
+    return href ? `<a href="${esc(href)}">*</a>` : '';
 }
 function formatFoodPrep(source: any): string {
     const preparation = String(source.preparation || '').trim().toLowerCase();
     if (preparation === 'uncooked') return 'raw';
     if (preparation === 'oil') return 'oil';
-    return esc(source.preparation || 'preparation not established');
+    return esc(source.preparation || 'form not known');
 }
 function sourceReference(source: any, obs: any): string {
     const reference = String(obs.source_reference || '');
     const href = reference.startsWith('#') ? source.food_page + reference : obs.source_url;
     if (!href || !/^(?:https?:\/\/|\/docs\/)/.test(href)) return '';
     return ` · <a href="${esc(href)}">${esc(reference || 'Source')}</a>`;
+}
+export function renderCompactFoodSourceItem(source: any): string {
+    const amount = formatFoodAmount(source);
+    const standard = amount.match(/^(.+?) (µg|μg|mg|g|kg|IU|kcal) per 100 g$/);
+    const quantity = standard
+        ? `<span class="pm-input-food-number">${standard[1]}</span> <span class="pm-input-food-unit">${standard[2]}</span> <span class="pm-input-food-basis">per 100 g</span>`
+        : amount;
+    const obs = (source.observations || [])[0];
+    return `<span class="pm-input-food-row"><span class="pm-input-food-name"><a href="${esc(source.food_page)}">${esc(source.food_title)}</a></span><span class="pm-input-food-source-meta pm-input-food-amount${standard ? ' pm-input-food-amount--standard' : ''}"> ${quantity}${sourceFlag(obs)}</span><span class="pm-input-food-source-meta pm-input-food-preparation"> - ${formatFoodPrep(source)}</span></span>`;
 }
 export function renderFoodSourceItem(source: any): string {
     const missingPreparation = !String(source.preparation || '').trim();
@@ -230,7 +244,19 @@ export function attachInputFoodDisclosure(li: HTMLLIElement, data: MappingData, 
             const summary = document.createElement('summary'); summary.innerHTML = `<span class="pm-input-food-source-arrow" aria-hidden="true">▶</span>${esc(kind)}`; box.append(summary);
             if (group.length) {
                 const list = document.createElement('ul');
-                group.forEach(target => { const item = document.createElement('li'); item.innerHTML = renderTarget(target); list.append(item); });
+                group.forEach(target => {
+                    const item = document.createElement('li');
+                    const source = {
+                        ...target,
+                        observations: target.observations?.length ? target.observations : target.amount ? [{
+                            verified: true,
+                            display: `${target.amount.value} ${target.amount.unit}`,
+                            basis: target.amount.basis,
+                        }] : [],
+                    };
+                    item.innerHTML = renderCompactFoodSourceItem(source);
+                    list.append(item);
+                });
                 box.append(list);
             } else {
                 const empty = document.createElement('p'); empty.textContent = targets.length ? 'No supported food targets in this group.' : precursorIsProduct ? 'No approved butyrate-delivery targets.' : 'Food ontology coverage unresolved.'; box.append(empty);

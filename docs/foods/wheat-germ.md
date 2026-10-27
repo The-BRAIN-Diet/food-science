@@ -114,19 +114,23 @@ nutrition_supplementary_sources:
     source_reference: '#food-source-5'
   - key: betaine_qual
     label: Betaine
+    basis: per 100 g
+    amount_display: 1,395 mg
+    citation_mark: asterisk
+    source_reference: '#food-source-6'
+    source_url: https://doi.org/10.1093/jn/133.5.1302
     status: Measured in toasted wheat germ
-    amount_display: 410 mg/100 g in toasted wheat germ
     source_note: >-
-      Patterson et al. (2008): cereals ready-to-eat, wheat germ, toasted, plain
-      (NDB 08084), 410 mg betaine per 100 g. This page records crude wheat germ
-      (FDC 168892), which was not that assayed form. An earlier figure near
-      1,240 mg per 100 g was later corrected downward.
+      Zeisel et al. (2003) Table 1, corrected by the erratum: wheat germ,
+      toasted (NDB 08084), 1,394.99 mg betaine per 100 g, shown as 1,395 mg.
+      This page’s other nutrients are crude wheat germ (FDC 168892), not that
+      toasted form. USDA Release 2 later reports 410 mg per 100 g for the same
+      toasted NDB.
     public_note: >-
-      Patterson et al. (2008) supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
-    source_group: >-
-      Patterson et al. (2008) supports this qualitative constituent record. See
-      technical provenance for food form and measurement details.
+      Zeisel et al. (2003) Table 1, as corrected, supports this toasted
+      wheat-germ value. The asterisk marks that paper.
+    source_group: Zeisel et al. (2003) Table 1, erratum-corrected, NDB 08084
+    notes: Toasted wheat germ, not the crude form used for the other nutrients. USDA Release 2 reports 410 mg per 100 g for this NDB.
 amino_acid_strengths: >-
   Relatively higher in methionine than legumes; lysine-limited like other
   grains.
@@ -145,11 +149,13 @@ substance_relationships:
   - substance: Betaine
     relationship: contains
     description: >-
-      Toasted wheat germ contained 410 mg betaine per 100 g in the corrected
-      USDA database. This page records crude wheat germ, so that figure is a
-      related preparation, not this panel.
+      Zeisel et al. (2003) Table 1, corrected by the erratum, reports 1,395 mg
+      betaine per 100 g in toasted wheat germ. USDA Release 2 later reports
+      410 mg per 100 g for that toasted form. This page’s other nutrients are
+      crude wheat germ, so the toasted figure is a related preparation.
     citation_keys:
-      - patterson_choline_2008
+      - zeisel_choline_betaine_2003
+      - zeisel_choline_betaine_2003_erratum
   - substance: Vitamin E
     relationship: contains
     description: >-
@@ -241,3 +247,7 @@ Grains such as wheat germ are relatively higher in methionine but lysine-limited
 <span id="food-source-5" />
 
 [5] [Composition evidence for Spermidine](/docs/papers/BRAIN-Diet-References#food_composition_ab43fb9a34b0)
+
+<span id="food-source-6" />
+
+[6] Zeisel et al. (2003). [Concentrations of Choline-Containing Compounds and Betaine in Common Foods](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003). Table 1, corrected by the [erratum](/docs/papers/BRAIN-Diet-References#zeisel_choline_betaine_2003_erratum), reports 1,394.99 mg betaine per 100 g of toasted wheat germ, NDB 08084. USDA Release 2 later reports 410 mg per 100 g for that toasted form. The other nutrients on this page are crude wheat germ.

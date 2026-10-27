@@ -449,6 +449,47 @@
       "verification_status": "requires-material-equivalence-review"
     },
     {
+      "source_entity": "shrimp",
+      "target_entity": "betaine",
+      "relationship_type": "contains",
+      "canonical_ids": {
+        "food": "shrimp",
+        "substance": "betaine"
+      },
+      "candidate_food": "Shrimp",
+      "material": "Shrimp, canned",
+      "preparation": "canned",
+      "evidence": [
+        [
+          {
+            "key": "betaine_mg",
+            "label": "Betaine",
+            "basis": "per 100 g",
+            "amount_display": "246 mg",
+            "citation_mark": "asterisk",
+            "source_reference": "#food-source-3",
+            "source_url": "https://doi.org/10.1093/jn/133.5.1302",
+            "preparation_state": "canned",
+            "evidence_material": "Shrimp, canned",
+            "source_note": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+            "public_note": "Zeisel et al. (2003) Table 1, as corrected, supports this canned-shrimp value. The asterisk marks that paper. It is not the raw USDA panel.",
+            "source_group": "Zeisel et al. (2003) Table 1, erratum-corrected, NDB 15152",
+            "notes": "Canned shrimp. Not the raw mixed-species panel used for the other nutrients.",
+            "record": "docs/foods/shrimp.md#nutrition_supplementary_sources/betaine_mg",
+            "evidence": "Zeisel et al. (2003) Table 1, corrected by the erratum: shrimp, canned (NDB 15152), 245.99 mg betaine per 100 g, shown as 246 mg. This page’s USDA panel is raw mixed-species shrimp, not that canned sample. USDA Release 2 does not report betaine for canned shrimp.",
+            "presence_status": "qualitative",
+            "limitations": "Canned shrimp. Not the raw mixed-species panel used for the other nutrients."
+          }
+        ]
+      ],
+      "affected_pms": [
+        "BRS2-FM1-PM2"
+      ],
+      "missing_edge": "docs/foods/shrimp.md#substance_relationships: contains betaine (canned)",
+      "required_action": "Cursor must independently verify evidence, food material and preparation before creating or modifying a canonical edge.",
+      "verification_status": "pending-independent-verification"
+    },
+    {
       "source_entity": "beef",
       "target_entity": "glycine",
       "relationship_type": "contains",

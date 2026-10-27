@@ -13,6 +13,7 @@ Outstanding food-edge, material-equivalence, identity and conversion tasks. Mate
 | Kale | 5-methyltetrahydrofolate | raw | BRS2-FM1-PM1 | pending-independent-verification |
 | Spinach | 5-methyltetrahydrofolate | unspecified | BRS2-FM1-PM1 | pending-independent-verification |
 | Nori | vitamin-b9 | dried | BRS2-FM1-PM1, BRS2-FM1-PM4 | requires-material-equivalence-review |
+| Shrimp | betaine | canned | BRS2-FM1-PM2 | pending-independent-verification |
 | Beef | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |
 | Pork | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |
 | Lamb | glycine | Cut and cooking state not specified in the composition table; qualitative presence only | BRS2-FM1-PM4, BRS2-FM2-PM6 | pending-independent-verification |

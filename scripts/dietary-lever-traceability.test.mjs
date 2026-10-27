@@ -14,6 +14,7 @@ import Module, {createRequire} from 'node:module';
 import ts from 'typescript';
 import {load as parseHtml} from 'cheerio';
 import * as foodSelection from '../src/data/inputSubstanceFoodSelection.mjs';
+import * as relatedSubstanceRelationships from '../src/data/relatedSubstanceRelationships.mjs';
 import {
   INPUT_TYPES,
   SYSTEM_OPTIMISATION_CATEGORIES,
@@ -1468,7 +1469,7 @@ const rendererModule = new Module(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.filename = PM_INPUT_FOOD_DISCLOSURE;
 const rendererRequire = createRequire(PM_INPUT_FOOD_DISCLOSURE);
 rendererModule.require = id => id.endsWith('inputMappingScopes.mjs') ? {__esModule:true,default:{}}
- : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : rendererRequire(id);
+ : id.endsWith('inputSubstanceFoodSelection.mjs') ? foodSelection : id.endsWith('foodTargetTraceability.mjs') ? foodTargetTraceability : id.endsWith('relatedSubstanceRelationships.mjs') ? relatedSubstanceRelationships : rendererRequire(id);
 rendererModule._compile(ts.transpileModule(fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8'),{
  compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022},
 }).outputText,PM_INPUT_FOOD_DISCLOSURE);
@@ -1478,18 +1479,18 @@ test('Beetroot betaine resolves the verified USDA quantity while provenance stay
  const mapping=buildInputSubstanceFood(process.cwd(),{brs:'BRS2'});
  const source=mapping.food_sources.find(s=>s.food_id==='beetroot'&&s.substance_id==='betaine');
  assert.ok(source);const obs=source.observations[0];
- assert.equal(obs.value,130);assert.equal(obs.unit,'mg');assert.equal(obs.verified,true);
+ assert.equal(obs.value,129);assert.equal(obs.unit,'mg');assert.equal(obs.verified,true);
  assert.equal(obs.basis,'per 100 g edible portion');assert.equal(obs.preparation,'raw');
- assert.equal(obs.source_reference,'#food-source-4');assert.match(obs.source_url,/ars\.usda\.gov.*Choln02\.pdf/);
+ assert.equal(obs.source_reference,'#food-source-4');assert.match(obs.source_url,/10\.1093\/jn\/133\.5\.1302/);
  assert.equal(obs.rank_eligible,false);assert.equal(obs.comparison_group,null);
  const item=selectFoodDisclosureSources([source])[0],$=parseHtml(renderFoodSourceItem(item));
- assert.equal($.text(),'Beetroot — 130 mg per 100 g · raw');
+ assert.equal($.text(),'Beetroot — 129 mg per 100 g · raw');
  assert.equal($('a').length,1);assert.equal($('a').attr('href'),'/docs/foods/beetroot');
  assert.doesNotMatch($.text(),/Patterson|Analytical qualification|Studied material|ranking|Source/);
  assert.equal(renderProvenance(item),'');
  const food=fs.readFileSync('docs/foods/beetroot.md','utf8');
- assert.match(food,/id="food-source-4"/);assert.match(food,/BRAIN-Diet-References#patterson_choline_2008/);
- assert.match(food,/130 mg betaine per 100 g of raw beets/);
+ assert.match(food,/id="food-source-4"/);assert.match(food,/BRAIN-Diet-References#zeisel_choline_betaine_2003/);
+ assert.match(food,/128\.63 mg betaine per 100 g of raw beets/);
 });
 
 test('Spinach and wheat germ presence provenance produces one row each without deleting evidence',()=>{
@@ -1502,7 +1503,7 @@ test('Spinach and wheat germ presence provenance produces one row each without d
  for(const id of ['spinach','wheat-germ']) {
   const rows=selected.filter(s=>s.food_id===id);assert.equal(rows.length,1);
   assert.equal(rows[0].presence_records.length,2);
-  assert.match(parseHtml(renderFoodSourceItem(rows[0])).text(),/quantity not established/);
+  assert.match(parseHtml(renderFoodSourceItem(rows[0])).text(),/value not known/);
  }
  assert.deepEqual(sources,before);
  // A separately recorded preparation remains distinct, even without a quantity.
@@ -1547,13 +1548,13 @@ test('C1 renderer preserves multiple observations, removes exact canonical dupli
  const $=parseHtml(selected.map(renderFoodSourceItem).join(''));
  assert.ok($.text().includes('123 µg (per g dry material)'));
  assert.ok($.text().includes('Chicken breast, alternative assay'));
- assert.ok($.text().includes('preparation not established'));
- assert.ok($.text().includes('quantity not established'));
+ assert.ok($.text().includes('form not known'));
+ assert.ok($.text().includes('value not known'));
  assert.doesNotMatch($.text(),/999/);
  assert.deepEqual(selectFoodDisclosureSources([c1Source('chicken','nicotinamide',888,{public_display:'internal-only'})]),[]);
  assert.equal($('a[href="/docs/foods/chicken#food-source-5"]').length,1);
  // No verified quantities are manufactured for presence-only sources.
- assert.match(renderFoodSourceItem({...first,observations:[]}),/quantity not established/);
+ assert.match(renderFoodSourceItem({...first,observations:[]}),/value not known/);
 });
 test('C1 concentration ranking needs explicit compatible analytical groups and does not reject preparation differences',()=>{
  const comparable=(food,value,preparation,extra={})=>c1Source(food,'nicotinamide',value,{basis:'per 100 g edible material',comparison_group:'reviewed-protocol-A',rank_eligible:true,preparation,...extra});
@@ -1580,7 +1581,7 @@ test('C1 ordinary Methionine and magnesium projection retains actual renderer or
    const $=parseHtml(renderFoodSourceItem(item));
    assert.equal($('a').first().attr('href'),item.food_page);
    assert.ok($.text().includes(item.observations[0].display));
-   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil':item.preparation || 'preparation not established'));
+   assert.ok($.text().includes(item.preparation==='uncooked'?'raw':item.preparation==='oil'?'oil':item.preparation || 'form not known'));
    assert.doesNotMatch($.text(),/Analytical qualification/);
   }
  }
@@ -1616,7 +1617,7 @@ test('C1 supported qualitative presence retains source limitations and cannot ex
  source.presence_records=[{record:'presence-only',source_reference:'#food-source-4',source_url:'https://example.org/assay',public_note:'Method-defined extractable analyte; amount not established.',value:999,verified:false}];
  const items=selectFoodDisclosureSources([source]);
  const $=parseHtml(renderFoodSourceItem(items[0]));
- assert.match($.text(),/quantity not established/);assert.match($.text(),/amount not established/);
+ assert.match($.text(),/value not known/);assert.match($.text(),/amount not established/);
  assert.doesNotMatch($.text(),/999/);
  assert.equal($('a').last().attr('href'),'/docs/foods/chicken#food-source-4');
 });
@@ -1625,5 +1626,6 @@ test('admitted food targets retain plant and animal disclosures and provisional 
  const source=fs.readFileSync(PM_INPUT_FOOD_DISCLOSURE,'utf8');
  const branch=source.slice(source.indexOf("if (section === '3.1.1'"));
  assert.match(branch,/Plant-based/);assert.match(branch,/Animal-based/);
- assert.match(branch,/renderTarget\(target\)/);assert.match(branch,/renderCoverageWarning\(warnings\)/);
+ assert.match(branch,/renderCompactFoodSourceItem\(source\)/);assert.match(branch,/renderCoverageWarning\(warnings\)/);
+ assert.doesNotMatch(branch,/Composition source/);
 });

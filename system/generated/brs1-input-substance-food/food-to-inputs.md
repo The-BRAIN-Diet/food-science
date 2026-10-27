@@ -128,7 +128,7 @@ Generated from all eligible links, not top-ten selections. Connection counts are
 | Scallops | 7 | choline; dha-docosahexaenoic-acid; iron; copper; vitamin-b5; vitamin-b6; vitamin-b9 | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Sesame Seeds | 6 | copper; iron; vitamin-b9; vitamin-b5; vitamin-b6; choline | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Shiitake Mushroom | 5 | vitamin-b9; vitamin-b5; vitamin-b6; copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9 | BRS2(KC1) |
-| Shrimp | 7 | choline; vitamin-b5; vitamin-b6; vitamin-b9; iron; copper; dha-docosahexaenoic-acid | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
+| Shrimp | 8 | choline; vitamin-b5; vitamin-b6; vitamin-b9; iron; copper; dha-docosahexaenoic-acid; betaine | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS2(KC1) |
 | Sourdough Bread | 2 | copper; iron | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5 |  |
 | Soy Lecithin | 2 | choline; phosphatidylcholine | BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM5-PM12 | BRS2(KC1) |
 | Soy | 9 | choline; tyrosine; tryptophan; iron; vitamin-b6; vitamin-b9; vitamin-c; copper; vitamin-b5 | BRS1-FM1-PM1; BRS1-FM1-PM2; BRS1-FM1-PM3; BRS1-FM1-PM4; BRS1-FM1-PM5; BRS1-FM2-PM6; BRS1-FM3-PM7; BRS1-FM4-PM9; BRS1-FM5-PM12 | BRS1(KC1); BRS2(KC1) |

@@ -1237,6 +1237,38 @@
   text-decoration: none !important;
 }
 
+.pm-input-food-row {
+  display: grid;
+  grid-template-columns: minmax(0, 8.5rem) 9.75rem minmax(0, 1fr);
+  column-gap: 0.35rem;
+  align-items: baseline;
+  min-width: 0;
+}
+
+.pm-input-food-row > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.pm-input-food-name a {
+  color: var(--ifm-link-color);
+}
+
+.pm-input-food-amount--standard {
+  display: grid;
+  grid-template-columns: 5ch 2.5ch auto;
+  column-gap: 0.35ch;
+  font-variant-numeric: tabular-nums;
+}
+
+.pm-input-food-number {
+  text-align: right;
+}
+
+.pm-input-food-basis {
+  white-space: nowrap;
+}
+
 .pm-input-food-sources ul {
   display: grid;
   gap: 0.2rem;

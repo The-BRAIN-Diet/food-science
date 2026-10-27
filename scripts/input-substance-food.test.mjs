@@ -8,6 +8,7 @@ import {spawnSync} from 'node:child_process';
 import Module, {createRequire} from 'node:module';
 import ts from 'typescript';
 import * as foodSelection from '../src/data/inputSubstanceFoodSelection.mjs';
+import * as relatedSubstanceRelationships from '../src/data/relatedSubstanceRelationships.mjs';
 import matter from 'gray-matter';
 import { buildInputSubstanceFood, selectQuantified } from './lib/input-substance-food.mjs';
 import { readRegisteredSubstanceForms } from './lib/substance-input-pages.mjs';
@@ -575,7 +576,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  const rendererFile=path.join(root,'src/lib/pmInputFoodDisclosure.ts');
  const mod=new Module(rendererFile),require=createRequire(rendererFile);
  mod.filename=rendererFile;
- mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:require(id);
+ mod.require=id=>id.endsWith('inputMappingScopes.mjs')?{__esModule:true,default:{BRS4:snapshot}}:id.endsWith('inputSubstanceFoodSelection.mjs')?foodSelection:id.endsWith('foodTargetTraceability.mjs')?foodTargetTraceability:id.endsWith('relatedSubstanceRelationships.mjs')?relatedSubstanceRelationships:require(id);
  mod._compile(ts.transpileModule(fs.readFileSync(rendererFile,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText,rendererFile);
  const {selectFoodDisclosureSources,renderFoodSourceSummary,renderProvenance}=mod.exports;
  const forms=snapshot.food_sources.filter(f=>['nicotinamide','nicotinic-acid'].includes(f.substance_id));
@@ -597,7 +598,7 @@ test('C1 end-to-end: disposable canonical fixtures → BRS4 JSON → qualified P
  }
  const held=selected.find(f=>f.observations[0].key==='e2e-held');
  assert.equal(held.observations[0].verified,false);
- assert.match(mod.exports.renderFoodSourceItem(held),/quantity not established/);
+ assert.match(mod.exports.renderFoodSourceItem(held),/value not known/);
  assert.doesNotMatch(mod.exports.renderFoodSourceItem(held),/999/);
  const alternate=selected.find(f=>f.observations[0].key==='e2e-alternate');
  assert.equal(alternate.preparation,null);
